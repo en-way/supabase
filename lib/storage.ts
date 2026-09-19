@@ -7,16 +7,17 @@ export interface QuestionOption {
 
 export interface MistakeItem {
   questionId: string;
-  examId: string;
-  categoryId: string;
-  stem: string;
-  options: QuestionOption[];
-  correctAnswer: string;
-  explanation: string;
+  examId?: string;
+  categoryId?: string;
   wrongAnswer: string;
   wrongCount: number;
   isMastered: boolean;
   lastWrongAt: string;
+  // Optional legacy fields that may exist in older backups
+  stem?: string;
+  options?: QuestionOption[];
+  correctAnswer?: string;
+  explanation?: string;
 }
 
 export interface VocabItem {
@@ -91,8 +92,14 @@ export function saveLocalState(state: LocalLearningState) {
   }
 }
 
-// ------------------- Mistake Book -------------------
-export function recordMistake(item: Omit<MistakeItem, "wrongCount" | "isMastered" | "lastWrongAt">) {
+// ------------------- Mistake Book (Index-only Lean Footprint) -------------------
+export function recordMistake(item: {
+  questionId: string;
+  examId?: string;
+  categoryId?: string;
+  wrongAnswer: string;
+  [key: string]: any;
+}) {
   const state = getLocalState();
   const existingIndex = state.mistakes.findIndex((m) => m.questionId === item.questionId);
   const now = new Date().toISOString();
@@ -102,14 +109,31 @@ export function recordMistake(item: Omit<MistakeItem, "wrongCount" | "isMastered
     state.mistakes[existingIndex].wrongAnswer = item.wrongAnswer;
     state.mistakes[existingIndex].lastWrongAt = now;
     state.mistakes[existingIndex].isMastered = false; // Reset to unmastered on new error
+    if (item.examId) state.mistakes[existingIndex].examId = item.examId;
+    if (item.categoryId) state.mistakes[existingIndex].categoryId = item.categoryId;
   } else {
     state.mistakes.unshift({
-      ...item,
+      questionId: item.questionId,
+      examId: item.examId,
+      categoryId: item.categoryId,
+      wrongAnswer: item.wrongAnswer,
       wrongCount: 1,
       isMastered: false,
       lastWrongAt: now,
     });
   }
+
+  // Sanitize all mistakes to strictly retain lightweight index fields (save Supabase cloud quota)
+  state.mistakes = state.mistakes.map((m) => ({
+    questionId: m.questionId,
+    examId: m.examId,
+    categoryId: m.categoryId,
+    wrongAnswer: m.wrongAnswer || "未作答",
+    wrongCount: m.wrongCount || 1,
+    isMastered: !!m.isMastered,
+    lastWrongAt: m.lastWrongAt || now,
+  }));
+
   saveLocalState(state);
 }
 
@@ -217,6 +241,16 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
     }
 
     const state = getLocalState();
+    // Ensure mistakes are purely index-based to save Supabase storage & egress
+    state.mistakes = (state.mistakes || []).map((m) => ({
+      questionId: m.questionId,
+      examId: m.examId,
+      categoryId: m.categoryId,
+      wrongAnswer: m.wrongAnswer || "未作答",
+      wrongCount: m.wrongCount || 1,
+      isMastered: !!m.isMastered,
+      lastWrongAt: m.lastWrongAt || new Date().toISOString(),
+    }));
     const summary = {
       mistakesCount: state.mistakes.length,
       vocabCount: state.vocabulary.length,

@@ -183,11 +183,17 @@ export default function ProfilePage() {
                 账号/学号: <strong className="text-slate-700">{profile?.username}</strong> (永久唯一标识)
               </span>
               <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
-                profile?.role === "admin" 
+                profile?.role === "super_admin" 
                   ? "bg-purple-100 text-purple-700 border border-purple-200" 
+                  : profile?.role === "admin"
+                  ? "bg-indigo-100 text-indigo-700 border border-indigo-200"
                   : "bg-slate-100 text-slate-600"
               }`}>
-                {profile?.role === "admin" ? "👑 超级管理员" : "🎓 学员"}
+                {profile?.role === "super_admin" 
+                  ? "👑 超级管理员" 
+                  : profile?.role === "admin" 
+                  ? "🛡️ 普通管理员" 
+                  : "🎓 学员"}
               </span>
             </div>
           </div>

@@ -27,14 +27,34 @@ export default function HomePage() {
   useEffect(() => {
     async function loadData() {
       setLoading(true);
+      const now = Date.now();
+
+      // Check session cache first to save Supabase free tier quota
+      try {
+        const cachedCats = sessionStorage.getItem("enway_cache_cats");
+        const cachedExams = sessionStorage.getItem("enway_cache_exams");
+        const cacheTime = sessionStorage.getItem("enway_cache_time");
+
+        if (cachedCats && cachedExams && cacheTime && now - Number(cacheTime) < 5 * 60 * 1000) {
+          setCategories(JSON.parse(cachedCats));
+          setExams(JSON.parse(cachedExams));
+          setLocalState(getLocalState());
+          setLoading(false);
+          return;
+        }
+      } catch {}
+
       // Fetch categories
       const { data: cats } = await supabase
         .from("categories")
         .select("*")
         .order("sort_order");
-      if (cats) setCategories(cats);
+      if (cats) {
+        setCategories(cats);
+        try { sessionStorage.setItem("enway_cache_cats", JSON.stringify(cats)); } catch {}
+      }
 
-      // Fetch exams with question counts
+      // Fetch approved & published exams with question counts
       const { data: examList } = await supabase
         .from("exams")
         .select(`
@@ -43,8 +63,16 @@ export default function HomePage() {
           passages(count)
         `)
         .eq("is_published", true)
+        .eq("approval_status", "approved")
         .order("year", { ascending: false });
-      if (examList) setExams(examList);
+
+      if (examList) {
+        setExams(examList);
+        try { 
+          sessionStorage.setItem("enway_cache_exams", JSON.stringify(examList));
+          sessionStorage.setItem("enway_cache_time", String(now));
+        } catch {}
+      }
 
       // Read local learning state
       setLocalState(getLocalState());
