@@ -8,7 +8,8 @@ import {
   recordMistake, 
   toggleFavorite, 
   updateFavoriteNote, 
-  getLocalState 
+  getLocalState,
+  normalizeOptions 
 } from "@/lib/storage";
 import { 
   ArrowLeft, 
@@ -126,7 +127,7 @@ function PracticeContent() {
         examId: exam.id,
         categoryId: exam.category_id,
         stem: currentQ.stem,
-        options: currentQ.options,
+        options: normalizeOptions(currentQ.options),
         correctAnswer: currentQ.correct_answer,
         explanation: currentQ.explanation,
         wrongAnswer: key,
@@ -134,12 +135,34 @@ function PracticeContent() {
     }
   };
 
+  // Physical keyboard shortcuts (A/B/C/D to answer, Left/Right arrow to navigate)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      const key = e.key.toUpperCase();
+      if (["A", "B", "C", "D"].includes(key)) {
+        e.preventDefault();
+        handleSelectOption(key);
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        setCurrentIndex((prev) => Math.max(0, prev - 1));
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1));
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentIndex, questions, userAnswers]);
+
   const handleToggleFav = () => {
     toggleFavorite({
       questionId: currentQ.id,
       examId: exam.id,
       stem: currentQ.stem,
-      options: currentQ.options,
+      options: normalizeOptions(currentQ.options),
       correctAnswer: currentQ.correct_answer,
       explanation: currentQ.explanation,
       note: editingNotes[currentQ.id] || "",
@@ -163,7 +186,7 @@ function PracticeContent() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between bg-white p-4 rounded-2xl border border-slate-200/80">
+      <div className="flex items-center justify-between bg-white p-4 rounded-2xl border border-slate-200/80 shadow-xs">
         <div className="flex items-center space-x-3">
           <Link
             href="/"
@@ -173,58 +196,66 @@ function PracticeContent() {
           </Link>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-indigo-50 text-indigo-700">
-                随做随练模式
+              <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-amber-50 text-amber-800 border border-amber-200/60 font-serif">
+                随做随练 · 真题精研
               </span>
               <h2 className="text-base font-bold text-slate-900 line-clamp-1">
                 {exam?.title}
               </h2>
             </div>
             <p className="text-xs text-slate-500 mt-0.5">
-              点击选项即刻判定 · 双击生词呼出离线字典 · 做错自动归集错题本
+              点击或键选即刻核对 · 双击生词呼出离线词典 · 错题自动归集错题本
             </p>
           </div>
         </div>
 
         <div className="flex items-center space-x-3">
+          {/* Physical keyboard shortcut reminder badge */}
+          <div className="hidden md:flex items-center space-x-1.5 text-xs text-slate-500 bg-slate-50 border border-slate-200/80 px-3 py-1.5 rounded-xl font-mono">
+            <span className="text-amber-700 font-bold">快捷键:</span>
+            <span>[A/B/C/D] 键选</span>
+            <span className="text-slate-300">|</span>
+            <span>[←/→] 翻题</span>
+          </div>
+
           <button
             onClick={() => setLargeFont(!largeFont)}
             title="字号缩放"
             className={`p-2 rounded-xl border text-xs font-semibold flex items-center space-x-1 transition-colors ${
-              largeFont ? "bg-indigo-50 border-indigo-200 text-indigo-700" : "bg-white border-slate-200 text-slate-600"
+              largeFont ? "bg-amber-50 border-amber-200 text-amber-800" : "bg-white border-slate-200 text-slate-600 hover:bg-slate-50"
             }`}
           >
             <Type className="w-4 h-4" />
             <span>{largeFont ? "标准字号" : "放大字号"}</span>
           </button>
-          <div className="text-sm font-bold text-slate-700 bg-slate-100 px-3 py-1.5 rounded-xl">
+          <div className="text-sm font-bold text-slate-700 bg-slate-100 px-3 py-1.5 rounded-xl font-mono">
             {currentIndex + 1} / {questions.length} 题
           </div>
         </div>
       </div>
 
-      <div className={`grid gap-6 ${relatedPassage ? "lg:grid-cols-2" : "max-w-3xl mx-auto"}`}>
+      <div className={`grid gap-6 ${relatedPassage ? "lg:grid-cols-12" : "max-w-3xl mx-auto"}`}>
         {relatedPassage && (
-          <div className="bg-white rounded-2xl border border-slate-200/90 p-6 shadow-sm overflow-y-auto max-h-[78vh] leading-relaxed">
-            <div className="flex items-center justify-between pb-3 mb-4 border-b border-slate-100">
-              <span className="text-xs font-bold uppercase tracking-wider text-indigo-600">
+          <div className="lg:col-span-7 bg-[#fcfbf9] rounded-2xl border border-stone-200/90 p-7 shadow-xs overflow-y-auto max-h-[82vh] leading-relaxed">
+            <div className="flex items-center justify-between pb-3.5 mb-5 border-b border-stone-200/80">
+              <span className="text-xs font-bold font-serif uppercase tracking-wider text-amber-800">
                 {relatedPassage.title}
               </span>
-              <span className="text-[11px] text-slate-400">💡 选中文中任意单词可即刻查词</span>
+              <span className="text-[11px] text-stone-400 font-sans">💡 双击文中任意单词可离线查词</span>
             </div>
-            <div className={`text-slate-800 font-serif selection:bg-indigo-100 whitespace-pre-line ${
-              largeFont ? "text-lg leading-loose" : "text-base leading-relaxed"
+            <div className={`text-[#2c3e50] font-serif selection:bg-amber-100/60 whitespace-pre-line tracking-wide ${
+              largeFont ? "text-lg leading-[2.1]" : "text-base leading-[1.85]"
             }`}>
               {relatedPassage.content}
             </div>
           </div>
         )}
 
-        <div className="space-y-6">
+        <div className={`space-y-6 ${relatedPassage ? "lg:col-span-5" : ""}`}>
           <div className="bg-white rounded-2xl border border-slate-200/90 p-6 shadow-sm">
             <div className="flex items-start justify-between gap-4 mb-4">
               <div className="flex items-center space-x-2">
-                <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-indigo-600 text-white">
+                <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-900 text-white font-mono">
                   题号 {currentIndex + 1}
                 </span>
                 <span className="text-xs text-slate-500 font-medium">
@@ -245,17 +276,17 @@ function PracticeContent() {
               </button>
             </div>
 
-            <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-6 leading-relaxed">
+            <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-6 leading-relaxed font-serif">
               {currentQ.stem}
             </h3>
 
             <div className="space-y-3">
-              {currentQ.options.map((opt: any) => {
+              {normalizeOptions(currentQ.options).map((opt) => {
                 const isSelected = selectedAnswer === opt.key;
                 const isTheCorrectOne = opt.key === currentQ.correct_answer;
 
                 let btnStyle = "bg-slate-50 border-slate-200/80 hover:bg-slate-100/80 text-slate-800";
-                let badgeStyle = "bg-white border-slate-200 text-slate-700";
+                let badgeStyle = "bg-white border-slate-300 text-slate-700";
 
                 if (isAnswered) {
                   if (isTheCorrectOne) {
@@ -274,12 +305,17 @@ function PracticeContent() {
                     key={opt.key}
                     onClick={() => handleSelectOption(opt.key)}
                     disabled={isAnswered}
-                    className={`w-full p-4 rounded-xl border text-left flex items-start space-x-3.5 transition-all ${btnStyle}`}
+                    className={`w-full p-4 rounded-xl border text-left flex items-start space-x-3.5 transition-all shadow-xs ${btnStyle}`}
                   >
-                    <span className={`w-7 h-7 rounded-lg border font-bold text-xs flex items-center justify-center shrink-0 ${badgeStyle}`}>
+                    <span className={`w-7 h-7 rounded-lg border font-bold text-xs font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
                       {opt.key}
                     </span>
-                    <span className="text-sm pt-0.5 leading-relaxed">{opt.text}</span>
+                    <span className="text-sm pt-0.5 leading-relaxed flex-1">{opt.text}</span>
+                    {!isAnswered && (
+                      <span className="text-[10px] text-slate-400 font-mono self-center hidden sm:inline">
+                        [键入 {opt.key}]
+                      </span>
+                    )}
                     {isAnswered && isTheCorrectOne && (
                       <CheckCircle2 className="w-5 h-5 text-emerald-600 ml-auto shrink-0" />
                     )}
@@ -347,15 +383,15 @@ function PracticeContent() {
               className="px-4 py-2.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-100 disabled:opacity-40 text-xs font-semibold flex items-center space-x-1 transition-colors"
             >
               <ChevronLeft className="w-4 h-4" />
-              <span>上一题</span>
+              <span>上一题 (←)</span>
             </button>
 
             <button
               onClick={() => setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1))}
               disabled={currentIndex === questions.length - 1}
-              className="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 disabled:opacity-40 text-white text-xs font-semibold shadow-sm flex items-center space-x-1 transition-colors"
+              className="px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 disabled:opacity-40 text-white text-xs font-semibold shadow-sm flex items-center space-x-1 transition-colors"
             >
-              <span>下一题</span>
+              <span>下一题 (→)</span>
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>

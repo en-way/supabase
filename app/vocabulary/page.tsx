@@ -99,9 +99,9 @@ export default function VocabularyPage() {
             <Bookmark className="w-6 h-6" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-slate-900">划词生词本</h1>
+            <h1 className="text-xl font-bold text-slate-900">真题研读核心词汇库</h1>
             <p className="text-xs text-slate-500 mt-0.5">
-              篇章阅读双击即可收录 · 支持离线朗读与高频考点复习
+              篇章阅读双击即刻查词收录 · 纯正真人发音与真题考频巩固
             </p>
           </div>
         </div>

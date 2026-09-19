@@ -272,10 +272,10 @@ export default function ProfilePage() {
           </div>
           <div>
             <h3 className="text-lg font-bold text-slate-900">
-              数据备份与自主控制中枢
+              学员研习档案与多端同步中心
             </h3>
             <p className="text-xs text-slate-500">
-              本地优先架构 · 存入 Supabase 1GB 独立对象存储空间 (user-backups 桶)，数据库仅存微量元数据
+              研习数据本机即时留存 · 一键加密归档至专属云端档案空间 · 跨设备随心续学
             </p>
           </div>
         </div>
@@ -284,21 +284,21 @@ export default function ProfilePage() {
         <div className="p-4 rounded-2xl bg-indigo-50/50 border border-indigo-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
-              <span className="text-xs font-bold text-indigo-900">云端存储快照状态:</span>
+              <span className="text-xs font-bold text-indigo-900">云端研习档案状态:</span>
               <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
                 cloudInfo?.exists ? "bg-emerald-100 text-emerald-700" : "bg-slate-200 text-slate-600"
               }`}>
-                {cloudInfo?.exists ? "对象存储桶中有存档" : "尚未创建云端备份"}
+                {cloudInfo?.exists ? "云端已有最新档案" : "尚未创建云端归档"}
               </span>
             </div>
             {cloudInfo?.exists ? (
               <p className="text-xs text-indigo-700">
-                上次备份: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
-                包含 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
+                上次归档: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
+                已归纳 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
               </p>
             ) : (
               <p className="text-xs text-slate-500">
-                建议定期点击“备份到云端”，存档将以独立 JSON 文件安全存入 Supabase 1GB 对象存储空间。
+                建议阶段性点击“备份到云端”，研习进度将安全存入专属加密档案空间。
               </p>
             )}
           </div>
@@ -307,10 +307,10 @@ export default function ProfilePage() {
             <button
               onClick={handleUploadBackup}
               disabled={uploading}
-              className="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-sm shadow-indigo-200 flex items-center space-x-1.5 transition-all disabled:opacity-50"
+              className="px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-50"
             >
               <CloudUpload className="w-4 h-4" />
-              <span>{uploading ? "正在上传..." : "备份到云端"}</span>
+              <span>{uploading ? "正在归档..." : "备份到云端"}</span>
             </button>
 
             <button
@@ -329,7 +329,7 @@ export default function ProfilePage() {
               title="比对题库删改，自动清理下架试题并自愈答案"
             >
               <RotateCcw className={`w-4 h-4 ${reconciling ? "animate-spin" : ""}`} />
-              <span>{reconciling ? "校对中..." : "智能校对"}</span>
+              <span>{reconciling ? "校对中..." : "校对云端题库"}</span>
             </button>
           </div>
         </div>
@@ -337,9 +337,9 @@ export default function ProfilePage() {
         {/* Clear Local Data Section */}
         <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
           <div>
-            <span className="text-xs font-bold text-slate-800 block">清除本地缓存数据</span>
+            <span className="text-xs font-bold text-slate-800 block">清除本机临时缓存</span>
             <span className="text-[11px] text-slate-400">
-              用于公用电脑退出或重置当前浏览器所有刷题数据（建议先上传备份到云端）
+              用于公共阅览设备退出或重置本机真题研习记录（建议操作前先同步归档至云端）
             </span>
           </div>
 

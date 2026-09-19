@@ -7,6 +7,7 @@ import {
   toggleMistakeMastered, 
   removeMistake, 
   reconcileLearningState,
+  normalizeOptions,
   MistakeItem 
 } from "@/lib/storage";
 import { supabase } from "@/lib/supabase";
@@ -135,7 +136,7 @@ export default function MistakesPage() {
             category_id: q.category_id,
             q_type: q.q_type,
             stem: q.stem,
-            options: Array.isArray(q.options) ? q.options : [],
+            options: normalizeOptions(q.options),
             correct_answer: q.correct_answer,
             explanation: q.explanation,
             points: Number(q.points || 2),
@@ -235,6 +236,37 @@ export default function MistakesPage() {
     }
   };
 
+  // PC Keyboard Shortcuts for Side-by-Side Studio (A/B/C/D to answer, Left/Right to switch, Esc to close)
+  useEffect(() => {
+    if (!sideBySideItem) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      const key = e.key.toUpperCase();
+      if (["A", "B", "C", "D"].includes(key)) {
+        e.preventDefault();
+        handleRetestOption(
+          sideBySideItem.detail.id,
+          sideBySideItem.detail.correct_answer,
+          key
+        );
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        handleNavigateSideBySide("prev");
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        handleNavigateSideBySide("next");
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        setSideBySideItem(null);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [sideBySideItem, filteredMistakes, questionMap]);
+
   // Export as Plain Text File (.txt)
   const handleExportTxt = () => {
     if (filteredMistakes.length === 0) {
@@ -275,7 +307,7 @@ export default function MistakesPage() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
     a.href = url;
-    a.download = `Enway_错题本_${new Date().toISOString().slice(0, 10)}.txt`;
+    a.download = `Enway_真题错题研习集_${new Date().toISOString().slice(0, 10)}.txt`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -298,16 +330,16 @@ export default function MistakesPage() {
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <h1 className="text-xl font-bold text-slate-900">智能错题本</h1>
+              <h1 className="text-xl font-bold text-slate-900">历年真题错题研习库</h1>
               {isLoadingOnline && (
                 <span className="flex items-center text-xs text-indigo-600 font-medium bg-indigo-50 px-2 py-0.5 rounded-full">
                   <Loader2 className="w-3 h-3 animate-spin mr-1" />
-                  拉取题目与文章中...
+                  拉取篇章与考题...
                 </span>
               )}
             </div>
             <p className="text-xs text-slate-500 mt-0.5">
-              单项错题定向回溯文章 · 支持“边看边写”双栏研读 · 本地极简索引省流
+              单项错题定向回溯文章 · 支持“边看边写”双栏研习 · 自动校准云端考题
             </p>
           </div>
         </div>
@@ -415,7 +447,7 @@ export default function MistakesPage() {
             const isShowCongrats = congratsId === item.questionId;
             const hasPassage = Boolean(detail?.passages?.content);
 
-            const options = detail?.options || item.options || [];
+            const options = normalizeOptions(detail?.options || item.options || []);
             const stem = detail?.stem || item.stem || "（题目正在加载中...）";
             const explanation = detail?.explanation || item.explanation || "（解析加载中...）";
 
@@ -555,44 +587,56 @@ export default function MistakesPage() {
       {/* "边看边写" (Side-by-Side Dual-Pane Review Studio Modal)                    */}
       {/* ========================================================================= */}
       {sideBySideItem && (
-        <div className="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 animate-in fade-in duration-200">
-          <div className="bg-white w-full max-w-6xl h-[92vh] rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-200">
+        <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-150">
+          <div className="bg-white w-full max-w-[96vw] xl:max-w-7xl h-[95vh] rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-300">
             {/* Studio Header */}
-            <div className="px-6 py-4 bg-slate-900 text-white flex items-center justify-between shrink-0">
+            <div className="px-6 py-3.5 bg-slate-900 text-white flex items-center justify-between shrink-0 border-b border-slate-800">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 rounded-lg bg-indigo-600 flex items-center justify-center font-bold text-sm">
+                <div className="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center justify-center font-bold text-sm">
                   📖
                 </div>
                 <div>
-                  <h2 className="text-base font-bold text-white flex items-center space-x-2">
-                    <span>边看边写 · 错题研读工作台</span>
-                    <span className="text-xs px-2 py-0.5 bg-indigo-500/30 text-indigo-200 rounded-full font-normal">
+                  <h2 className="text-sm font-bold text-white flex items-center space-x-2">
+                    <span>边看边写 · 错题精研工作台</span>
+                    <span className="text-[11px] px-2 py-0.5 bg-indigo-500/30 text-indigo-200 rounded-full font-mono">
                       第 {sideBySideItem.index + 1} / {filteredMistakes.length} 题
                     </span>
                   </h2>
-                  <p className="text-xs text-slate-300">
-                    {sideBySideItem.detail.exams?.title || "历年真题精选"}
+                  <p className="text-xs text-slate-300 truncate max-w-md">
+                    {sideBySideItem.detail.exams?.title || "历年真题研习"}
                   </p>
                 </div>
               </div>
 
+              {/* Central shortcuts guide banner */}
+              <div className="hidden md:flex items-center space-x-2 text-[11px] text-slate-300 bg-slate-800/80 px-3 py-1.5 rounded-xl border border-slate-700">
+                <span className="text-amber-400 font-semibold">物理快捷键:</span>
+                <span>[A / B / C / D] 作答</span>
+                <span className="text-slate-500">|</span>
+                <span>[← / →] 切换错题</span>
+                <span className="text-slate-500">|</span>
+                <span>[Esc] 退出</span>
+              </div>
+
               {/* Navigation & Controls */}
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2">
                 <div className="flex items-center space-x-1 bg-slate-800 p-1 rounded-xl">
                   <button
                     onClick={() => handleNavigateSideBySide("prev")}
                     disabled={sideBySideItem.index <= 0}
-                    className="p-1.5 text-slate-300 hover:text-white disabled:text-slate-600 rounded-lg hover:bg-slate-700/50 transition-colors"
-                    title="上一道错题"
+                    className="px-2 py-1 text-slate-300 hover:text-white disabled:text-slate-600 rounded-lg hover:bg-slate-700/50 transition-colors text-xs flex items-center space-x-1"
+                    title="上一题 (快捷键: ←)"
                   >
                     <ChevronLeft className="w-4 h-4" />
+                    <span className="hidden sm:inline">上一题</span>
                   </button>
                   <button
                     onClick={() => handleNavigateSideBySide("next")}
                     disabled={sideBySideItem.index >= filteredMistakes.length - 1}
-                    className="p-1.5 text-slate-300 hover:text-white disabled:text-slate-600 rounded-lg hover:bg-slate-700/50 transition-colors"
-                    title="下一道错题"
+                    className="px-2 py-1 text-slate-300 hover:text-white disabled:text-slate-600 rounded-lg hover:bg-slate-700/50 transition-colors text-xs flex items-center space-x-1"
+                    title="下一题 (快捷键: →)"
                   >
+                    <span className="hidden sm:inline">下一题</span>
                     <ChevronRight className="w-4 h-4" />
                   </button>
                 </div>
@@ -600,76 +644,81 @@ export default function MistakesPage() {
                 <button
                   onClick={() => setSideBySideItem(null)}
                   className="p-2 text-slate-400 hover:text-white rounded-xl hover:bg-slate-800 transition-colors"
+                  title="关闭 (快捷键: Esc)"
                 >
                   <X className="w-5 h-5" />
                 </button>
               </div>
             </div>
 
-            {/* Split Screen Workspace */}
-            <div className="flex-1 flex flex-col md:flex-row overflow-hidden">
-              {/* Left Pane: Passage Reading with Font Zoom & Word Lookup */}
+            {/* Split Screen Workspace: 55% Left, 45% Right */}
+            <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
+              {/* Left Pane: Golden 55% Reading Canvas */}
               {sideBySideItem.detail.passages?.content ? (
-                <div className="md:w-7/12 border-r border-slate-200 flex flex-col bg-slate-50/50 h-full overflow-hidden">
-                  <div className="px-5 py-3 border-b border-slate-200 bg-white flex items-center justify-between shrink-0">
+                <div className="lg:w-[55%] border-r border-stone-200/90 flex flex-col bg-[#fcfbf9] h-full overflow-hidden">
+                  <div className="px-5 py-3 border-b border-stone-200/80 bg-[#f8f6f0] flex items-center justify-between shrink-0">
                     <div className="flex items-center space-x-2">
-                      <BookOpen className="w-4 h-4 text-indigo-600" />
-                      <span className="text-xs font-bold text-slate-800">
-                        {sideBySideItem.detail.passages.title || "阅读篇章"}
+                      <BookOpen className="w-4 h-4 text-amber-700" />
+                      <span className="text-xs font-bold text-stone-800 tracking-wide font-serif">
+                        {sideBySideItem.detail.passages.title || "阅读篇章原文"}
                       </span>
                     </div>
                     {/* Font Zoom Controls */}
-                    <div className="flex items-center space-x-1.5 text-xs text-slate-500">
-                      <span className="text-slate-400 text-[11px] hidden sm:inline">字号:</span>
+                    <div className="flex items-center space-x-1.5 text-xs text-stone-600">
+                      <span className="text-stone-500 text-[11px]">字号:</span>
                       <button
-                        onClick={() => setArticleFontSize((prev) => Math.max(13, prev - 1))}
-                        className="p-1 border border-slate-200 rounded-md hover:bg-slate-50 text-slate-600"
+                        onClick={() => setArticleFontSize((prev) => Math.max(14, prev - 1))}
+                        className="px-2 py-0.5 border border-stone-300 rounded bg-white hover:bg-stone-100 text-stone-700 font-serif font-bold text-xs"
                         title="缩小文字"
                       >
-                        <ZoomOut className="w-3.5 h-3.5" />
+                        A-
                       </button>
-                      <span className="font-mono text-xs w-6 text-center">{articleFontSize}</span>
+                      <span className="font-mono text-xs w-6 text-center">{articleFontSize}px</span>
                       <button
                         onClick={() => setArticleFontSize((prev) => Math.min(22, prev + 1))}
-                        className="p-1 border border-slate-200 rounded-md hover:bg-slate-50 text-slate-600"
+                        className="px-2 py-0.5 border border-stone-300 rounded bg-white hover:bg-stone-100 text-stone-700 font-serif font-bold text-xs"
                         title="放大文字"
                       >
-                        <ZoomIn className="w-3.5 h-3.5" />
+                        A+
                       </button>
                     </div>
                   </div>
 
-                  {/* Passage Text Content (Scrollable & dblclick enabled) */}
-                  <div className="flex-1 p-6 overflow-y-auto font-serif leading-relaxed text-slate-800 select-text">
+                  {/* Passage Text Content (Paper reading canvas) */}
+                  <div className="flex-1 p-6 sm:p-8 overflow-y-auto font-serif text-[#2c3e50] leading-[1.85] tracking-wide select-text">
                     <div 
                       style={{ fontSize: `${articleFontSize}px` }} 
-                      className="whitespace-pre-line space-y-4"
+                      className="whitespace-pre-line space-y-4 max-w-prose"
                     >
                       {sideBySideItem.detail.passages.content}
                     </div>
-                    <div className="mt-8 pt-4 border-t border-slate-200 text-xs text-slate-400 flex items-center space-x-2">
-                      <Sparkles className="w-3.5 h-3.5 text-indigo-500" />
-                      <span>提示：双击文章中任意生词，即可唤醒词典查词并一键收藏至生词本。</span>
+                    <div className="mt-8 pt-4 border-t border-stone-200/80 text-xs text-stone-500 flex items-center space-x-2">
+                      <Sparkles className="w-3.5 h-3.5 text-amber-600" />
+                      <span>提示：双击文中任意生词，即可唤醒离线词典查词并收录至生词本。</span>
                     </div>
                   </div>
                 </div>
               ) : (
-                <div className="hidden md:flex md:w-4/12 border-r border-slate-200 bg-slate-50/50 p-6 flex-col items-center justify-center text-center">
-                  <HelpCircle className="w-12 h-12 text-slate-300 mb-2" />
-                  <p className="text-xs font-semibold text-slate-500">本题为独立单选题</p>
-                  <p className="text-[11px] text-slate-400 mt-1">无需对照长篇材料，可直接在右侧重练与研读解析</p>
+                <div className="hidden lg:flex lg:w-[55%] border-r border-stone-200 bg-[#fcfbf9] p-8 flex-col items-center justify-center text-center">
+                  <div className="w-14 h-14 rounded-2xl bg-amber-50 border border-amber-200/60 flex items-center justify-center text-amber-600 mb-3 font-serif text-2xl font-bold">
+                    §
+                  </div>
+                  <p className="text-sm font-bold text-stone-700">独立单项题研习</p>
+                  <p className="text-xs text-stone-500 mt-1.5 max-w-sm">
+                    本题无需对照篇章材料，请在右侧研析题干、重新作答或查看考点精析。
+                  </p>
                 </div>
               )}
 
-              {/* Right Pane: Question Re-answering & Explanation */}
-              <div className="flex-1 flex flex-col bg-white h-full overflow-hidden">
-                <div className="px-5 py-3 border-b border-slate-200 flex items-center justify-between shrink-0 bg-slate-50/30">
+              {/* Right Pane: Golden 45% Answering Canvas */}
+              <div className="flex-1 lg:w-[45%] flex flex-col bg-white h-full overflow-hidden">
+                <div className="px-6 py-3 border-b border-slate-200 flex items-center justify-between shrink-0 bg-slate-50/50">
                   <div className="flex items-center space-x-2">
-                    <span className="text-xs font-bold bg-amber-100 text-amber-800 px-2 py-0.5 rounded">
+                    <span className="text-xs font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded">
                       做错 {sideBySideItem.mistake.wrongCount} 次
                     </span>
                     <span className="text-xs text-slate-500">
-                      上次选错: <strong className="text-rose-600">{sideBySideItem.mistake.wrongAnswer}</strong>
+                      上次选错: <strong className="text-rose-600 font-mono">{sideBySideItem.mistake.wrongAnswer}</strong>
                     </span>
                   </div>
 
@@ -689,25 +738,29 @@ export default function MistakesPage() {
                 <div className="flex-1 p-6 overflow-y-auto space-y-6">
                   {/* Stem */}
                   <div>
-                    <h3 className="text-base font-bold text-slate-900 leading-relaxed">
+                    <h3 className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed font-serif">
                       {sideBySideItem.detail.stem}
                     </h3>
                   </div>
 
-                  {/* Options */}
-                  <div className="space-y-2.5">
-                    {sideBySideItem.detail.options.map((opt) => {
+                  {/* Options with normalizeOptions support */}
+                  <div className="space-y-3">
+                    {normalizeOptions(sideBySideItem.detail.options).map((opt) => {
                       const retestAns = retestAnswers[sideBySideItem.detail.id];
                       const isRetested = Boolean(retestAns);
                       const isTheCorrect = opt.key === sideBySideItem.detail.correct_answer;
                       const isSelected = retestAns === opt.key;
 
-                      let btnStyle = "bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100";
+                      let btnStyle = "bg-slate-50 border-slate-200/80 text-slate-800 hover:bg-slate-100";
+                      let badgeStyle = "bg-white border-slate-300 text-slate-700";
+
                       if (isRetested) {
                         if (isTheCorrect) {
                           btnStyle = "bg-emerald-50 border-emerald-400 text-emerald-950 font-bold ring-1 ring-emerald-400";
+                          badgeStyle = "bg-emerald-600 text-white border-emerald-600";
                         } else if (isSelected) {
                           btnStyle = "bg-rose-50 border-rose-300 text-rose-950 font-bold ring-1 ring-rose-300";
+                          badgeStyle = "bg-rose-600 text-white border-rose-600";
                         }
                       }
 
@@ -721,12 +774,15 @@ export default function MistakesPage() {
                               opt.key
                             )
                           }
-                          className={`w-full p-3.5 rounded-xl border text-left flex items-start space-x-3 transition-all ${btnStyle}`}
+                          className={`w-full p-4 rounded-xl border text-left flex items-start space-x-3.5 transition-all shadow-xs ${btnStyle}`}
                         >
-                          <span className="w-6 h-6 rounded-lg bg-white border border-slate-200 text-xs font-bold flex items-center justify-center shrink-0 shadow-xs">
+                          <span className={`w-7 h-7 rounded-lg border text-xs font-bold font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
                             {opt.key}
                           </span>
-                          <span className="text-xs sm:text-sm pt-0.5 leading-relaxed">{opt.text}</span>
+                          <span className="text-sm pt-0.5 leading-relaxed flex-1">{opt.text}</span>
+                          <span className="text-[10px] text-slate-400 font-mono self-center hidden sm:inline">
+                            [键入 {opt.key}]
+                          </span>
                         </button>
                       );
                     })}
@@ -737,7 +793,7 @@ export default function MistakesPage() {
                     <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-2xl flex items-center justify-between text-xs text-emerald-800 animate-in fade-in duration-150 shadow-xs">
                       <div className="flex items-center space-x-2">
                         <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                        <span className="font-bold">恭喜！重做答对，该题已被攻克！</span>
+                        <span className="font-bold">恭喜！重做答对，该考点已被攻克！</span>
                       </div>
                       <button
                         onClick={() => handleConfirmMastered(sideBySideItem.detail.id)}
@@ -750,12 +806,12 @@ export default function MistakesPage() {
 
                   {/* Explanation Block */}
                   {(Boolean(retestAnswers[sideBySideItem.detail.id]) || sideBySideItem.mistake.isMastered) && (
-                    <div className="p-4 rounded-2xl bg-indigo-50/70 border border-indigo-100 text-xs space-y-2">
-                      <div className="flex items-center space-x-2 font-bold text-indigo-900">
+                    <div className="p-5 rounded-2xl bg-indigo-50/70 border border-indigo-100 text-xs space-y-2">
+                      <div className="flex items-center space-x-2 font-bold text-indigo-950">
                         <HelpCircle className="w-4 h-4 text-indigo-600" />
                         <span>考点精析 · 正确答案: {sideBySideItem.detail.correct_answer}</span>
                       </div>
-                      <p className="text-slate-700 leading-relaxed whitespace-pre-line">
+                      <p className="text-slate-700 leading-relaxed whitespace-pre-line text-sm">
                         {sideBySideItem.detail.explanation}
                       </p>
                     </div>

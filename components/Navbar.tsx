@@ -116,7 +116,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           {/* Brand Logo */}
           <div className="flex items-center space-x-6">
-            <Link href="/" className="flex items-center space-x-2">
+            <Link href="/" className="flex items-center space-x-2.5">
               <div className="w-9 h-9 rounded-xl bg-indigo-600 flex items-center justify-center text-white font-bold shadow-md shadow-indigo-200">
                 <BookOpen className="w-5 h-5" />
               </div>
@@ -124,8 +124,8 @@ export default function Navbar() {
                 <span className="text-lg font-black tracking-tight text-slate-900 leading-none">
                   ENWAY
                 </span>
-                <span className="text-xs text-indigo-600 font-medium tracking-wide">
-                  英语刷题与模考
+                <span className="text-[11px] text-indigo-600 font-semibold tracking-wide mt-0.5">
+                  真题研习与全真模考
                 </span>
               </div>
             </Link>
@@ -134,7 +134,7 @@ export default function Navbar() {
             <nav className="hidden md:flex items-center space-x-1">
               <Link
                 href="/"
-                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-3.5 py-1.5 rounded-lg text-sm font-semibold transition-colors ${
                   pathname === "/" 
                     ? "bg-indigo-50 text-indigo-700" 
                     : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
@@ -142,13 +142,13 @@ export default function Navbar() {
               >
                 <span className="flex items-center space-x-1.5">
                   <FileText className="w-4 h-4" />
-                  <span>试卷大厅</span>
+                  <span>真题大厅</span>
                 </span>
               </Link>
 
               <Link
                 href="/mistakes"
-                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-3.5 py-1.5 rounded-lg text-sm font-semibold transition-colors ${
                   pathname.startsWith("/mistakes") 
                     ? "bg-indigo-50 text-indigo-700" 
                     : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
@@ -156,13 +156,13 @@ export default function Navbar() {
               >
                 <span className="flex items-center space-x-1.5">
                   <AlertCircle className="w-4 h-4 text-amber-500" />
-                  <span>错题本</span>
+                  <span>智能错题集</span>
                 </span>
               </Link>
 
               <Link
                 href="/vocabulary"
-                className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                className={`px-3.5 py-1.5 rounded-lg text-sm font-semibold transition-colors ${
                   pathname.startsWith("/vocabulary") 
                     ? "bg-indigo-50 text-indigo-700" 
                     : "text-slate-600 hover:text-slate-900 hover:bg-slate-100"
@@ -170,14 +170,14 @@ export default function Navbar() {
               >
                 <span className="flex items-center space-x-1.5">
                   <Bookmark className="w-4 h-4 text-emerald-500" />
-                  <span>生词本</span>
+                  <span>核心词汇库</span>
                 </span>
               </Link>
 
               {isAnyAdmin && (
                 <Link
                   href="/admin"
-                  className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                  className={`px-3.5 py-1.5 rounded-lg text-sm font-semibold transition-colors ${
                     pathname.startsWith("/admin") 
                       ? "bg-purple-50 text-purple-700" 
                       : "text-purple-600 hover:text-purple-900 hover:bg-purple-50/50"
@@ -185,7 +185,7 @@ export default function Navbar() {
                 >
                   <span className="flex items-center space-x-1.5">
                     <Shield className="w-4 h-4" />
-                    <span>管理后台</span>
+                    <span>考务与题库管理</span>
                   </span>
                 </Link>
               )}
@@ -214,14 +214,14 @@ export default function Navbar() {
                         ? "👑 超级管理员" 
                         : profile?.role === "admin" 
                         ? "🛡️ 管理员" 
-                        : "学号:" + (profile?.username || "")}
+                        : "考号:" + (profile?.username || "")}
                     </span>
                   </div>
                 </Link>
 
                 <button
                   onClick={() => setShowLogoutModal(true)}
-                  title="安全退出登录"
+                  title="安全退出系统"
                   className="p-2 text-slate-400 hover:text-rose-600 hover:bg-rose-50 rounded-lg transition-colors"
                 >
                   <LogOut className="w-4 h-4" />
@@ -230,9 +230,9 @@ export default function Navbar() {
             ) : (
               <Link
                 href="/login"
-                className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium rounded-lg shadow-sm transition-colors"
+                className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold rounded-lg shadow-sm transition-colors"
               >
-                登录 / 注册
+                考生登录 / 注册
               </Link>
             )}
           </div>
@@ -249,8 +249,8 @@ export default function Navbar() {
                   <LogOut className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-base">退出登录确认</h3>
-                  <p className="text-xs text-slate-400">设备数据隔离与云端同步</p>
+                  <h3 className="font-bold text-base">安全退出确认</h3>
+                  <p className="text-xs text-slate-400">学习档案云端同步与终端隔离</p>
                 </div>
               </div>
               <button
@@ -263,7 +263,7 @@ export default function Navbar() {
             </div>
 
             <p className="text-xs text-slate-600 leading-relaxed">
-              为了保障账户隐私与数据隔离，退出登录时将清空当前浏览器的本地做题缓存。请选择退出方式：
+              为保障考场环境与个人学习进度安全，退出时将清除本终端本地缓存。请选择退出方式：
             </p>
 
             <div className="space-y-2 pt-2">
@@ -277,7 +277,7 @@ export default function Navbar() {
                 ) : (
                   <>
                     <CloudUpload className="w-4 h-4" />
-                    <span>备份最新进度到云端并退出</span>
+                    <span>同步档案至云端并安全退出</span>
                   </>
                 )}
               </button>
@@ -288,7 +288,7 @@ export default function Navbar() {
                 className="w-full py-2.5 px-4 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold flex items-center justify-center space-x-2 transition-colors disabled:opacity-50"
               >
                 <Trash2 className="w-4 h-4 text-slate-500" />
-                <span>直接清空本地并退出</span>
+                <span>直接清除本地缓存退出</span>
               </button>
 
               <button

@@ -5,6 +5,45 @@ export interface QuestionOption {
   text: string;
 }
 
+/**
+ * Resilient Options Parser:
+ * Normalizes options whether entered in Supabase Table Editor as:
+ * 1. Standard Array: [{"key":"A","text":"..."}, {"key":"B","text":"..."}]
+ * 2. Simple Object: {"A":"...", "B":"..."}
+ * 3. Array of strings: ["Option A text", "Option B text"]
+ */
+export function normalizeOptions(raw: any): QuestionOption[] {
+  if (!raw) return [];
+  if (Array.isArray(raw)) {
+    return raw.map((item, idx) => {
+      if (typeof item === "string") {
+        const key = String.fromCharCode(65 + idx);
+        return { key, text: item };
+      }
+      return {
+        key: String(item?.key || String.fromCharCode(65 + idx)).trim().toUpperCase(),
+        text: String(item?.text || ""),
+      };
+    });
+  }
+  if (typeof raw === "object") {
+    const keys = Object.keys(raw).sort();
+    return keys.map((k) => ({
+      key: k.trim().toUpperCase(),
+      text: String(raw[k] || ""),
+    }));
+  }
+  if (typeof raw === "string") {
+    try {
+      const parsed = JSON.parse(raw);
+      return normalizeOptions(parsed);
+    } catch {
+      return [];
+    }
+  }
+  return [];
+}
+
 export interface MistakeItem {
   questionId: string;
   examId?: string;

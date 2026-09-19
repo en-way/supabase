@@ -473,13 +473,13 @@ export default function AdminPage() {
                 {isSuperAdmin ? "👑 超级管理中心" : "🛡️ 普通管理员工作台"}
               </span>
             </div>
-            <h1 className="text-2xl font-black tracking-tight mt-0.5">
-              Enway 题库与系统控制台
+            <h1 className="text-2xl font-black tracking-tight mt-0.5 font-serif">
+              Enway 考务与真题题库控制台
             </h1>
             <p className="text-xs text-purple-200/70 mt-0.5">
               {isSuperAdmin 
-                ? "最高权限决策 · 试卷审批 · 全员密码批量重置 · 人数配额与权限分配" 
-                : "试卷上传与题库维护 · 操作需超级管理员审批确认"}
+                ? "最高权限决策 · 试卷发布审批 · 学员密码统一维护 · 人数配额与考务授权" 
+                : "真题录入与试题维护 · 试卷公开上架需超级管理员审批确认"}
             </p>
           </div>
         </div>
@@ -492,7 +492,7 @@ export default function AdminPage() {
               activeTab === "exams" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
             }`}
           >
-            试卷管理 ({exams.length})
+            真题试卷 ({exams.length})
           </button>
 
           {isSuperAdmin && (
@@ -502,7 +502,7 @@ export default function AdminPage() {
                 activeTab === "approvals" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
               }`}
             >
-              <span>待审专区</span>
+              <span>考务审批</span>
               {pendingExams.length > 0 && (
                 <span className="px-1.5 py-0.2 bg-rose-500 text-white text-[10px] font-bold rounded-full">
                   {pendingExams.length}
@@ -517,7 +517,7 @@ export default function AdminPage() {
               activeTab === "import" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
             }`}
           >
-            JSON 批量导入
+            结构化导入
           </button>
 
           {isSuperAdmin && (
@@ -528,7 +528,7 @@ export default function AdminPage() {
                   activeTab === "users" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
                 }`}
               >
-                学员与权限 ({userList.length})
+                学员与考务 ({userList.length})
               </button>
 
               <button
@@ -537,7 +537,7 @@ export default function AdminPage() {
                   activeTab === "settings" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
                 }`}
               >
-                人数配额与设置
+                考务配置与配额
               </button>
             </>
           )}
