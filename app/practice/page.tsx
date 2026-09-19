@@ -22,6 +22,7 @@ import {
   Sparkles,
   Edit3
 } from "lucide-react";
+import DictionaryPopover from "@/components/DictionaryPopover";
 
 function PracticeContent() {
   const searchParams = useSearchParams();
@@ -422,6 +423,9 @@ function PracticeContent() {
           </div>
         </div>
       </div>
+
+      {/* Floating Word Lookup Dictionary Card */}
+      <DictionaryPopover />
     </div>
   );
 }

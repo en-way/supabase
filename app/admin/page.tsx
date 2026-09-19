@@ -26,7 +26,9 @@ import {
   UserX,
   RefreshCw,
   Loader2,
-  Clock
+  Clock,
+  Crown,
+  ArrowRightLeft
 } from "lucide-react";
 
 export default function AdminPage() {
@@ -66,33 +68,34 @@ export default function AdminPage() {
   // Global notice banner
   const [notice, setNotice] = useState<{ type: "success" | "error"; text: string } | null>(null);
 
-  useEffect(() => {
-    async function checkRole() {
-      const { data: { user } } = await supabase.auth.getUser();
-      if (!user) {
-        router.replace("/login");
-        return;
-      }
-      setCurrentUser(user);
-
-      const { data } = await supabase
-        .from("profiles")
-        .select("role")
-        .eq("id", user.id)
-        .single();
-
-      if (data?.role === "super_admin" || data?.role === "admin") {
-        setCurrentRole(data.role);
-        loadExams();
-        if (data.role === "super_admin") {
-          loadUsers();
-          loadSettings();
-          loadPendingExams();
-        }
-      } else {
-        setCurrentRole("student");
-      }
+  const checkRole = async () => {
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) {
+      router.replace("/login");
+      return;
     }
+    setCurrentUser(user);
+
+    const { data } = await supabase
+      .from("profiles")
+      .select("role")
+      .eq("id", user.id)
+      .single();
+
+    if (data?.role === "super_admin" || data?.role === "admin") {
+      setCurrentRole(data.role);
+      loadExams();
+      if (data.role === "super_admin") {
+        loadUsers();
+        loadSettings();
+        loadPendingExams();
+      }
+    } else {
+      setCurrentRole("student");
+    }
+  };
+
+  useEffect(() => {
     checkRole();
   }, [router]);
 
@@ -216,6 +219,32 @@ export default function AdminPage() {
       showNotification("success", `已将 ${targetUser.username} 的身份设为 ${roleName}`);
     } catch (err: any) {
       showNotification("error", `角色修改失败: ${err.message}`);
+    }
+  };
+
+  // Super Admin: Transfer Single-Seat Ownership
+  const handleTransferSuperAdmin = async (targetUser: any) => {
+    if (!isSuperAdmin) {
+      alert("权限不足：仅当前超级管理员可执行所有权转让。");
+      return;
+    }
+    const promptText = `⚠️ 极高危安全操作确认：\n\n您即将把全站唯一的【超级管理员】身份完整转让给：\n用户: ${targetUser.username} (${targetUser.nickname || "无昵称"})\n\n转让生效后：\n1. 该用户将成为系统唯一的超级管理员；\n2. 您的身份将自动变更为【普通管理员】。\n\n如确认转让，请在下方输入目标用户名 "${targetUser.username}" 进行二次校验：`;
+    const input = window.prompt(promptText);
+    if (input !== targetUser.username) {
+      if (input !== null) alert("输入用户名不匹配，转让操作已终止。");
+      return;
+    }
+
+    try {
+      const { data, error } = await supabase.rpc("super_admin_transfer_ownership", {
+        target_admin_id: targetUser.id,
+      });
+      if (error) throw error;
+      showNotification("success", `超级管理员所有权已成功转交至 ${targetUser.username}！您当前已转为普通管理员。`);
+      await checkRole();
+      loadUsers();
+    } catch (err: any) {
+      showNotification("error", `超管转让失败: ${err.message}`);
     }
   };
 
@@ -848,22 +877,39 @@ export default function AdminPage() {
                         <td className="p-4 font-mono font-bold text-slate-900">{u.username}</td>
                         <td className="p-4">{u.nickname || "--"}</td>
                         <td className="p-4">
-                          <span className={`px-2 py-0.5 rounded-full font-bold text-[10px] ${
-                            isSuper
-                              ? "bg-purple-100 text-purple-800"
-                              : isAdmin
-                              ? "bg-indigo-100 text-indigo-800"
-                              : "bg-slate-100 text-slate-600"
-                          }`}>
-                            {isSuper ? "👑 超级管理员" : isAdmin ? "🛡️ 普通管理员" : "🎓 学员"}
-                          </span>
+                          {isSuper ? (
+                            <span className="px-2.5 py-1 rounded-full font-black text-[10px] bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-indigo-500/15 text-amber-900 border border-amber-300/80 inline-flex items-center space-x-1 shadow-xs">
+                              <Crown className="w-3 h-3 text-amber-600 fill-amber-400" />
+                              <span>👑 超级管理员 (全站独占)</span>
+                            </span>
+                          ) : isAdmin ? (
+                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-indigo-100 text-indigo-800">
+                              🛡️ 普通管理员
+                            </span>
+                          ) : (
+                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-slate-100 text-slate-600">
+                              🎓 学员
+                            </span>
+                          )}
                         </td>
                         <td className="p-4 text-slate-400 font-mono">
                           {new Date(u.created_at).toLocaleDateString()}
                         </td>
                         <td className="p-4 text-right">
-                          {!isSuper && (
-                            isAdmin ? (
+                          {isSuper ? (
+                            <span className="text-[11px] text-slate-400 italic">全站独占最高席位</span>
+                          ) : isAdmin ? (
+                            <div className="flex items-center justify-end space-x-1.5">
+                              {isSuperAdmin && (
+                                <button
+                                  onClick={() => handleTransferSuperAdmin(u)}
+                                  className="px-2 py-1 text-amber-700 bg-amber-50 hover:bg-amber-100 border border-amber-200/80 rounded-lg text-xs font-bold inline-flex items-center space-x-1 transition-all"
+                                  title="将全站唯一的超级管理员所有权安全转让给该管理员"
+                                >
+                                  <ArrowRightLeft className="w-3 h-3 text-amber-600" />
+                                  <span>转让超管</span>
+                                </button>
+                              )}
                               <button
                                 onClick={() => handleSetRole(u, "student")}
                                 className="px-2.5 py-1 text-rose-600 bg-rose-50 hover:bg-rose-100 rounded-lg text-xs font-semibold inline-flex items-center space-x-1"
@@ -871,15 +917,15 @@ export default function AdminPage() {
                                 <UserX className="w-3 h-3" />
                                 <span>降为学员</span>
                               </button>
-                            ) : (
-                              <button
-                                onClick={() => handleSetRole(u, "admin")}
-                                className="px-2.5 py-1 text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg text-xs font-semibold inline-flex items-center space-x-1"
-                              >
-                                <UserCheck className="w-3 h-3" />
-                                <span>设为管理员</span>
-                              </button>
-                            )
+                            </div>
+                          ) : (
+                            <button
+                              onClick={() => handleSetRole(u, "admin")}
+                              className="px-2.5 py-1 text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg text-xs font-semibold inline-flex items-center space-x-1"
+                            >
+                              <UserCheck className="w-3 h-3" />
+                              <span>设为管理员</span>
+                            </button>
                           )}
                         </td>
                         <td className="p-4 text-right">
