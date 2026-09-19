@@ -107,18 +107,32 @@ export interface LocalLearningState {
 const STORAGE_KEY = "enway_local_learning_data";
 
 export function getLocalState(): LocalLearningState {
+  const defaultState: LocalLearningState = {
+    mistakes: [],
+    vocabulary: [],
+    favorites: [],
+    examResults: {},
+    examDrafts: {},
+  };
   if (typeof window === "undefined") {
-    return { mistakes: [], vocabulary: [], favorites: [], examResults: {}, examDrafts: {} };
+    return defaultState;
   }
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) {
-      return { mistakes: [], vocabulary: [], favorites: [], examResults: {}, examDrafts: {} };
+      return defaultState;
     }
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    return {
+      mistakes: Array.isArray(parsed?.mistakes) ? parsed.mistakes.filter(Boolean) : [],
+      vocabulary: Array.isArray(parsed?.vocabulary) ? parsed.vocabulary.filter(Boolean) : [],
+      favorites: Array.isArray(parsed?.favorites) ? parsed.favorites.filter(Boolean) : [],
+      examResults: parsed?.examResults && typeof parsed.examResults === "object" ? parsed.examResults : {},
+      examDrafts: parsed?.examDrafts && typeof parsed.examDrafts === "object" ? parsed.examDrafts : {},
+    };
   } catch (e) {
     console.error("Error reading local state", e);
-    return { mistakes: [], vocabulary: [], favorites: [], examResults: {}, examDrafts: {} };
+    return defaultState;
   }
 }
 
@@ -139,13 +153,15 @@ export function recordMistake(item: {
   wrongAnswer: string;
   [key: string]: any;
 }) {
+  if (!item?.questionId) return;
   const state = getLocalState();
-  const existingIndex = state.mistakes.findIndex((m) => m.questionId === item.questionId);
+  if (!Array.isArray(state.mistakes)) state.mistakes = [];
+  const existingIndex = state.mistakes.findIndex((m) => m && m.questionId === item.questionId);
   const now = new Date().toISOString();
 
   if (existingIndex >= 0) {
-    state.mistakes[existingIndex].wrongCount += 1;
-    state.mistakes[existingIndex].wrongAnswer = item.wrongAnswer;
+    state.mistakes[existingIndex].wrongCount = (state.mistakes[existingIndex].wrongCount || 1) + 1;
+    state.mistakes[existingIndex].wrongAnswer = item.wrongAnswer || "未作答";
     state.mistakes[existingIndex].lastWrongAt = now;
     state.mistakes[existingIndex].isMastered = false; // Reset to unmastered on new error
     if (item.examId) state.mistakes[existingIndex].examId = item.examId;
@@ -155,7 +171,7 @@ export function recordMistake(item: {
       questionId: item.questionId,
       examId: item.examId,
       categoryId: item.categoryId,
-      wrongAnswer: item.wrongAnswer,
+      wrongAnswer: item.wrongAnswer || "未作答",
       wrongCount: 1,
       isMastered: false,
       lastWrongAt: now,
@@ -163,22 +179,26 @@ export function recordMistake(item: {
   }
 
   // Sanitize all mistakes to strictly retain lightweight index fields (save Supabase cloud quota)
-  state.mistakes = state.mistakes.map((m) => ({
-    questionId: m.questionId,
-    examId: m.examId,
-    categoryId: m.categoryId,
-    wrongAnswer: m.wrongAnswer || "未作答",
-    wrongCount: m.wrongCount || 1,
-    isMastered: !!m.isMastered,
-    lastWrongAt: m.lastWrongAt || now,
-  }));
+  state.mistakes = state.mistakes
+    .filter((m) => m && m.questionId)
+    .map((m) => ({
+      questionId: m.questionId,
+      examId: m.examId,
+      categoryId: m.categoryId,
+      wrongAnswer: m.wrongAnswer || "未作答",
+      wrongCount: m.wrongCount || 1,
+      isMastered: !!m.isMastered,
+      lastWrongAt: m.lastWrongAt || now,
+    }));
 
   saveLocalState(state);
 }
 
 export function toggleMistakeMastered(questionId: string, isMastered?: boolean) {
+  if (!questionId) return;
   const state = getLocalState();
-  const target = state.mistakes.find((m) => m.questionId === questionId);
+  if (!Array.isArray(state.mistakes)) return;
+  const target = state.mistakes.find((m) => m && m.questionId === questionId);
   if (target) {
     target.isMastered = isMastered !== undefined ? isMastered : !target.isMastered;
     saveLocalState(state);
@@ -186,16 +206,20 @@ export function toggleMistakeMastered(questionId: string, isMastered?: boolean) 
 }
 
 export function removeMistake(questionId: string) {
+  if (!questionId) return;
   const state = getLocalState();
-  state.mistakes = state.mistakes.filter((m) => m.questionId !== questionId);
+  if (!Array.isArray(state.mistakes)) return;
+  state.mistakes = state.mistakes.filter((m) => m && m.questionId !== questionId);
   saveLocalState(state);
 }
 
 // ------------------- Vocabulary -------------------
 export function addVocab(word: string, translation: string, phonetic?: string, context?: string) {
+  if (!word) return;
   const state = getLocalState();
+  if (!Array.isArray(state.vocabulary)) state.vocabulary = [];
   const cleanWord = word.trim().toLowerCase();
-  const exists = state.vocabulary.some((v) => v.word.toLowerCase() === cleanWord);
+  const exists = state.vocabulary.some((v) => v && v.word && v.word.toLowerCase() === cleanWord);
   if (!exists) {
     state.vocabulary.unshift({
       word: cleanWord,
@@ -209,16 +233,20 @@ export function addVocab(word: string, translation: string, phonetic?: string, c
 }
 
 export function removeVocab(word: string) {
+  if (!word) return;
   const state = getLocalState();
+  if (!Array.isArray(state.vocabulary)) return;
   const cleanWord = word.trim().toLowerCase();
-  state.vocabulary = state.vocabulary.filter((v) => v.word.toLowerCase() !== cleanWord);
+  state.vocabulary = state.vocabulary.filter((v) => v && v.word && v.word.toLowerCase() !== cleanWord);
   saveLocalState(state);
 }
 
 // ------------------- Favorites -------------------
 export function toggleFavorite(item: Omit<FavoriteItem, "addedAt">) {
+  if (!item?.questionId) return;
   const state = getLocalState();
-  const index = state.favorites.findIndex((f) => f.questionId === item.questionId);
+  if (!Array.isArray(state.favorites)) state.favorites = [];
+  const index = state.favorites.findIndex((f) => f && f.questionId === item.questionId);
   if (index >= 0) {
     state.favorites.splice(index, 1);
   } else {
@@ -231,8 +259,10 @@ export function toggleFavorite(item: Omit<FavoriteItem, "addedAt">) {
 }
 
 export function updateFavoriteNote(questionId: string, note: string) {
+  if (!questionId) return;
   const state = getLocalState();
-  const target = state.favorites.find((f) => f.questionId === questionId);
+  if (!Array.isArray(state.favorites)) return;
+  const target = state.favorites.find((f) => f && f.questionId === questionId);
   if (target) {
     target.note = note;
     saveLocalState(state);
@@ -241,30 +271,45 @@ export function updateFavoriteNote(questionId: string, note: string) {
 
 // ------------------- Exam Drafts (Auto-Save Resilience) -------------------
 export function saveExamDraft(examId: string, answers: Record<string, string>, remainingSeconds: number) {
+  if (!examId) return;
   const state = getLocalState();
+  if (!state.examDrafts || typeof state.examDrafts !== "object") {
+    state.examDrafts = {};
+  }
   state.examDrafts[examId] = {
     examId,
-    answers,
-    remainingSeconds,
+    answers: answers || {},
+    remainingSeconds: typeof remainingSeconds === "number" ? remainingSeconds : 3600,
     lastUpdated: new Date().toISOString(),
   };
   saveLocalState(state);
 }
 
 export function getExamDraft(examId: string): ExamDraft | null {
+  if (!examId) return null;
   const state = getLocalState();
-  return state.examDrafts[examId] || null;
+  return state.examDrafts?.[examId] || null;
 }
 
 export function clearExamDraft(examId: string) {
+  if (!examId) return;
   const state = getLocalState();
-  delete state.examDrafts[examId];
-  saveLocalState(state);
+  if (state.examDrafts && typeof state.examDrafts === "object") {
+    delete state.examDrafts[examId];
+    saveLocalState(state);
+  }
 }
 
 // ------------------- Exam Results (Latest Overwrite) -------------------
 export function saveExamResult(result: ExamResult) {
+  if (!result?.examId) return;
   const state = getLocalState();
+  if (!state.examResults || typeof state.examResults !== "object") {
+    state.examResults = {};
+  }
+  if (!state.examDrafts || typeof state.examDrafts !== "object") {
+    state.examDrafts = {};
+  }
   state.examResults[result.examId] = result;
   // Clear draft once submitted
   delete state.examDrafts[result.examId];

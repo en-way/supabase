@@ -41,38 +41,49 @@ function PracticeContent() {
 
   useEffect(() => {
     async function loadExam() {
-      if (!examId) return;
+      if (!examId) {
+        setLoading(false);
+        return;
+      }
       setLoading(true);
-      const { data: examData } = await supabase
-        .from("exams")
-        .select("*")
-        .eq("id", examId)
-        .single();
-      setExam(examData);
+      try {
+        const { data: examData, error: examErr } = await supabase
+          .from("exams")
+          .select("*")
+          .eq("id", examId)
+          .single();
+        if (examErr) console.error("Error loading exam:", examErr);
+        setExam(examData || null);
 
-      const { data: passageData } = await supabase
-        .from("passages")
-        .select("*")
-        .eq("exam_id", examId)
-        .order("sort_order");
-      setPassages(passageData || []);
+        const { data: passageData, error: pErr } = await supabase
+          .from("passages")
+          .select("*")
+          .eq("exam_id", examId)
+          .order("sort_order");
+        if (pErr) console.error("Error loading passages:", pErr);
+        setPassages(passageData || []);
 
-      const { data: questionData } = await supabase
-        .from("questions")
-        .select("*")
-        .eq("exam_id", examId)
-        .order("sort_order");
-      setQuestions(questionData || []);
+        const { data: questionData, error: qErr } = await supabase
+          .from("questions")
+          .select("*")
+          .eq("exam_id", examId)
+          .order("sort_order");
+        if (qErr) console.error("Error loading questions:", qErr);
+        setQuestions(questionData || []);
 
-      const state = getLocalState();
-      setFavoriteIds(new Set(state.favorites.map((f) => f.questionId)));
-      const notesMap: Record<string, string> = {};
-      state.favorites.forEach((f) => {
-        if (f.note) notesMap[f.questionId] = f.note;
-      });
-      setEditingNotes(notesMap);
-
-      setLoading(false);
+        const state = getLocalState();
+        const favs = Array.isArray(state?.favorites) ? state.favorites : [];
+        setFavoriteIds(new Set(favs.map((f) => f?.questionId).filter(Boolean)));
+        const notesMap: Record<string, string> = {};
+        favs.forEach((f) => {
+          if (f && f.questionId && f.note) notesMap[f.questionId] = f.note;
+        });
+        setEditingNotes(notesMap);
+      } catch (err) {
+        console.error("Failed to load practice data:", err);
+      } finally {
+        setLoading(false);
+      }
     }
     loadExam();
   }, [examId]);
@@ -97,7 +108,9 @@ function PracticeContent() {
     );
   }
 
-  if (!questions.length) {
+  const currentQ = questions[currentIndex] || questions[0];
+
+  if (!questions.length || !currentQ) {
     return (
       <div className="text-center py-20 bg-white rounded-2xl border border-slate-200">
         <p className="text-slate-600 mb-4">该试卷暂无题目</p>
@@ -108,15 +121,16 @@ function PracticeContent() {
     );
   }
 
-  const currentQ = questions[currentIndex];
-  const relatedPassage = passages.find((p) => p.id === currentQ.passage_id);
+  const relatedPassage = currentQ.passage_id 
+    ? passages.find((p) => p.id === currentQ.passage_id) || passages[0] || null
+    : passages[0] || null;
   const selectedAnswer = userAnswers[currentQ.id];
   const isAnswered = Boolean(selectedAnswer);
   const isCorrect = selectedAnswer === currentQ.correct_answer;
   const isFavorited = favoriteIds.has(currentQ.id);
 
   const handleSelectOption = (key: string) => {
-    if (isAnswered) return;
+    if (!currentQ || isAnswered) return;
 
     setUserAnswers((prev) => ({ ...prev, [currentQ.id]: key }));
     setShowExplanation((prev) => ({ ...prev, [currentQ.id]: true }));
@@ -124,8 +138,8 @@ function PracticeContent() {
     if (key !== currentQ.correct_answer) {
       recordMistake({
         questionId: currentQ.id,
-        examId: exam.id,
-        categoryId: exam.category_id,
+        examId: exam?.id,
+        categoryId: exam?.category_id,
         stem: currentQ.stem,
         options: normalizeOptions(currentQ.options),
         correctAnswer: currentQ.correct_answer,
@@ -149,7 +163,7 @@ function PracticeContent() {
         setCurrentIndex((prev) => Math.max(0, prev - 1));
       } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
         e.preventDefault();
-        setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1));
+        setCurrentIndex((prev) => Math.min(Math.max(0, questions.length - 1), prev + 1));
       }
     };
 
@@ -158,9 +172,10 @@ function PracticeContent() {
   }, [currentIndex, questions, userAnswers]);
 
   const handleToggleFav = () => {
+    if (!currentQ) return;
     toggleFavorite({
       questionId: currentQ.id,
-      examId: exam.id,
+      examId: exam?.id || "",
       stem: currentQ.stem,
       options: normalizeOptions(currentQ.options),
       correctAnswer: currentQ.correct_answer,
@@ -180,6 +195,7 @@ function PracticeContent() {
   };
 
   const handleSaveNote = (noteText: string) => {
+    if (!currentQ) return;
     setEditingNotes((prev) => ({ ...prev, [currentQ.id]: noteText }));
     updateFavoriteNote(currentQ.id, noteText);
   };

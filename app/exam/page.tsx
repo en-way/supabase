@@ -54,44 +54,55 @@ function ExamContent() {
 
   useEffect(() => {
     async function loadExam() {
-      if (!examId) return;
+      if (!examId) {
+        setLoading(false);
+        return;
+      }
       setLoading(true);
-      const { data: examData } = await supabase
-        .from("exams")
-        .select("*")
-        .eq("id", examId)
-        .single();
-      setExam(examData);
+      try {
+        const { data: examData, error: examErr } = await supabase
+          .from("exams")
+          .select("*")
+          .eq("id", examId)
+          .single();
+        if (examErr) console.error("Error loading exam:", examErr);
+        setExam(examData || null);
 
-      const { data: passageData } = await supabase
-        .from("passages")
-        .select("*")
-        .eq("exam_id", examId)
-        .order("sort_order");
-      if (passageData && passageData.length > 0) {
-        setPassages(passageData);
-        setActivePassageId(passageData[0].id);
+        const { data: passageData, error: passageErr } = await supabase
+          .from("passages")
+          .select("*")
+          .eq("exam_id", examId)
+          .order("sort_order");
+        if (passageErr) console.error("Error loading passages:", passageErr);
+        if (passageData && passageData.length > 0) {
+          setPassages(passageData);
+          setActivePassageId(passageData[0].id);
+        } else {
+          setPassages([]);
+          setActivePassageId("");
+        }
+
+        const { data: questionData, error: questionErr } = await supabase
+          .from("questions")
+          .select("*")
+          .eq("exam_id", examId)
+          .order("sort_order");
+        if (questionErr) console.error("Error loading questions:", questionErr);
+        setQuestions(questionData || []);
+
+        // Check draft for real-time exam protection
+        const draft = getExamDraft(examId);
+        if (draft) {
+          setAnswers(draft.answers || {});
+          setRemainingSeconds(draft.remainingSeconds || (examData?.duration_minutes || 60) * 60);
+        } else if (examData?.duration_minutes) {
+          setRemainingSeconds(examData.duration_minutes * 60);
+        }
+      } catch (err) {
+        console.error("Failed to load exam data:", err);
+      } finally {
+        setLoading(false);
       }
-
-      const { data: questionData } = await supabase
-        .from("questions")
-        .select("*")
-        .eq("exam_id", examId)
-        .order("sort_order");
-      if (questionData) {
-        setQuestions(questionData);
-      }
-
-      // Check draft for real-time exam protection
-      const draft = getExamDraft(examId);
-      if (draft) {
-        setAnswers(draft.answers || {});
-        setRemainingSeconds(draft.remainingSeconds || (examData?.duration_minutes || 60) * 60);
-      } else if (examData?.duration_minutes) {
-        setRemainingSeconds(examData.duration_minutes * 60);
-      }
-
-      setLoading(false);
     }
     loadExam();
   }, [examId]);
@@ -221,13 +232,14 @@ function ExamContent() {
     const finalScore = Math.round(earnedRawPoints * 10) / 10;
     const passed = finalScore >= passLine;
 
+    const examDuration = Number(exam?.duration_minutes || 60);
     const examRes: ExamResult = {
       examId: exam.id,
       examTitle: exam.title,
       score: finalScore,
       totalScore: examTotal,
       isPassed: passed,
-      durationSeconds: exam.duration_minutes * 60 - remainingSeconds,
+      durationSeconds: Math.max(0, examDuration * 60 - remainingSeconds),
       submittedAt: new Date().toISOString(),
       answers: detailAnswers,
     };
@@ -238,11 +250,15 @@ function ExamContent() {
     setIsSubmitted(true);
 
     if (passed) {
-      confetti({
-        particleCount: 80,
-        spread: 70,
-        origin: { y: 0.6 },
-      });
+      try {
+        confetti({
+          particleCount: 80,
+          spread: 70,
+          origin: { y: 0.6 },
+        });
+      } catch (err) {
+        console.warn("Confetti effect skipped:", err);
+      }
     }
 
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -462,9 +478,10 @@ function ExamContent() {
 
             {/* Reading Content Area */}
             <div className="flex-1 p-6 sm:p-7 overflow-y-auto leading-relaxed select-text font-serif text-[#1e293b]">
-              {passages
-                .filter((p) => p.id === activePassageId || passages.length === 1)
-                .map((p) => (
+              {(passages.filter((p) => p.id === activePassageId).length > 0
+                ? passages.filter((p) => p.id === activePassageId)
+                : passages.slice(0, 1)
+              ).map((p) => (
                   <div key={p.id} className="space-y-4">
                     <div className="flex items-center justify-between pb-2 border-b border-[#eae6df]">
                       <h4 className="font-bold text-sm uppercase tracking-wide text-indigo-900">{p.title}</h4>
