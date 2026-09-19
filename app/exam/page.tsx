@@ -216,17 +216,16 @@ function ExamContent() {
       };
     });
 
-    const finalScaledScore = totalRawPoints > 0 
-      ? Math.round((earnedRawPoints / totalRawPoints) * 100 * 10) / 10 
-      : 0;
-    const passLine = Number(exam.pass_score || 60);
-    const passed = finalScaledScore >= passLine;
+    const examTotal = Number(exam.total_score || totalRawPoints || 100);
+    const passLine = Number(exam.pass_score || (examTotal * 0.6));
+    const finalScore = Math.round(earnedRawPoints * 10) / 10;
+    const passed = finalScore >= passLine;
 
     const examRes: ExamResult = {
       examId: exam.id,
       examTitle: exam.title,
-      score: finalScaledScore,
-      totalScore: 100,
+      score: finalScore,
+      totalScore: examTotal,
       isPassed: passed,
       durationSeconds: exam.duration_minutes * 60 - remainingSeconds,
       submittedAt: new Date().toISOString(),
@@ -376,9 +375,9 @@ function ExamContent() {
                   }`}>
                     {result.isPassed ? "🎉 恭喜达到合格线" : "⚠️ 未达合格基准分 (需重点攻关)"}
                   </span>
-                  <span className="text-xs text-slate-400">满分 100 分制</span>
+                  <span className="text-xs text-slate-400 font-mono">满分 {result.totalScore || 100} 分 (及格线: {exam.pass_score || 30}分)</span>
                 </div>
-                <h3 className="text-xl font-black mt-1">{result.examTitle} 测评报告</h3>
+                <h3 className="text-xl font-black mt-1 font-serif">{result.examTitle} 测评报告</h3>
                 <p className="text-xs text-slate-300 mt-1">
                   答题耗时: {Math.floor(result.durationSeconds / 60)} 分 {result.durationSeconds % 60} 秒 · 做错小题已自动归入“智能错题集”
                 </p>
