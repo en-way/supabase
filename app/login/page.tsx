@@ -35,8 +35,8 @@ export default function LoginPage() {
     }
 
     setLoading(true);
-    // Use internal email mapping to satisfy Supabase Auth
-    const internalEmail = `${cleanUsername}@enway.internal`;
+    // Use internal standard email mapping to satisfy Supabase Auth
+    const internalEmail = `${cleanUsername}@enway.com`;
 
     try {
       if (isRegister) {
