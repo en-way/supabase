@@ -88,6 +88,86 @@ function PracticeContent() {
     loadExam();
   }, [examId]);
 
+  const handleSelectOption = (key: string) => {
+    const q = questions[currentIndex] || questions[0];
+    if (!q) return;
+    const isAns = Boolean(userAnswers[q.id]);
+    if (isAns) return;
+
+    setUserAnswers((prev) => ({ ...prev, [q.id]: key }));
+    setShowExplanation((prev) => ({ ...prev, [q.id]: true }));
+
+    if (key !== q.correct_answer) {
+      recordMistake({
+        questionId: q.id,
+        examId: exam?.id,
+        categoryId: exam?.category_id,
+        stem: q.stem,
+        options: normalizeOptions(q.options),
+        correctAnswer: q.correct_answer,
+        explanation: q.explanation,
+        wrongAnswer: key,
+      });
+    }
+  };
+
+  // Physical keyboard shortcuts (A/B/C/D to answer, Left/Right arrow to navigate)
+  // Must be called unconditionally before any early returns
+  useEffect(() => {
+    if (loading || questions.length === 0) return;
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+
+      const key = e.key.toUpperCase();
+      if (["A", "B", "C", "D"].includes(key)) {
+        e.preventDefault();
+        handleSelectOption(key);
+      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+        e.preventDefault();
+        setCurrentIndex((prev) => Math.max(0, prev - 1));
+      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+        e.preventDefault();
+        setCurrentIndex((prev) => Math.min(Math.max(0, questions.length - 1), prev + 1));
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [currentIndex, questions, userAnswers, loading]);
+
+  const handleToggleFav = () => {
+    const q = questions[currentIndex] || questions[0];
+    if (!q) return;
+    toggleFavorite({
+      questionId: q.id,
+      examId: exam?.id || "",
+      stem: q.stem,
+      options: normalizeOptions(q.options),
+      correctAnswer: q.correct_answer,
+      explanation: q.explanation,
+      note: editingNotes[q.id] || "",
+    });
+
+    setFavoriteIds((prev) => {
+      const next = new Set(prev);
+      if (next.has(q.id)) {
+        next.delete(q.id);
+      } else {
+        next.add(q.id);
+      }
+      return next;
+    });
+  };
+
+  const handleSaveNote = (noteText: string) => {
+    const q = questions[currentIndex] || questions[0];
+    if (!q) return;
+    setEditingNotes((prev) => ({ ...prev, [q.id]: noteText }));
+    updateFavoriteNote(q.id, noteText);
+  };
+
+  // Conditional early returns placed strictly AFTER all Hooks
   if (!examId) {
     return (
       <div className="py-20 text-center">
@@ -128,77 +208,6 @@ function PracticeContent() {
   const isAnswered = Boolean(selectedAnswer);
   const isCorrect = selectedAnswer === currentQ.correct_answer;
   const isFavorited = favoriteIds.has(currentQ.id);
-
-  const handleSelectOption = (key: string) => {
-    if (!currentQ || isAnswered) return;
-
-    setUserAnswers((prev) => ({ ...prev, [currentQ.id]: key }));
-    setShowExplanation((prev) => ({ ...prev, [currentQ.id]: true }));
-
-    if (key !== currentQ.correct_answer) {
-      recordMistake({
-        questionId: currentQ.id,
-        examId: exam?.id,
-        categoryId: exam?.category_id,
-        stem: currentQ.stem,
-        options: normalizeOptions(currentQ.options),
-        correctAnswer: currentQ.correct_answer,
-        explanation: currentQ.explanation,
-        wrongAnswer: key,
-      });
-    }
-  };
-
-  // Physical keyboard shortcuts (A/B/C/D to answer, Left/Right arrow to navigate)
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
-
-      const key = e.key.toUpperCase();
-      if (["A", "B", "C", "D"].includes(key)) {
-        e.preventDefault();
-        handleSelectOption(key);
-      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
-        e.preventDefault();
-        setCurrentIndex((prev) => Math.max(0, prev - 1));
-      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
-        e.preventDefault();
-        setCurrentIndex((prev) => Math.min(Math.max(0, questions.length - 1), prev + 1));
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, questions, userAnswers]);
-
-  const handleToggleFav = () => {
-    if (!currentQ) return;
-    toggleFavorite({
-      questionId: currentQ.id,
-      examId: exam?.id || "",
-      stem: currentQ.stem,
-      options: normalizeOptions(currentQ.options),
-      correctAnswer: currentQ.correct_answer,
-      explanation: currentQ.explanation,
-      note: editingNotes[currentQ.id] || "",
-    });
-
-    setFavoriteIds((prev) => {
-      const next = new Set(prev);
-      if (next.has(currentQ.id)) {
-        next.delete(currentQ.id);
-      } else {
-        next.add(currentQ.id);
-      }
-      return next;
-    });
-  };
-
-  const handleSaveNote = (noteText: string) => {
-    if (!currentQ) return;
-    setEditingNotes((prev) => ({ ...prev, [currentQ.id]: noteText }));
-    updateFavoriteNote(currentQ.id, noteText);
-  };
 
   return (
     <div className="space-y-6">
