@@ -53,9 +53,11 @@ export default function ProfilePage() {
     const { data: { user } } = await supabase.auth.getUser();
     setUser(user);
     if (user) {
-      const { data } = await supabase.from("profiles").select("*").eq("id", user.id).single();
-      setProfile(data);
-      if (data?.nickname) setNicknameInput(data.nickname);
+      const { data } = await supabase.from("profiles").select("*").eq("id", user.id).maybeSingle();
+      if (data) {
+        setProfile(data);
+        if (data.nickname) setNicknameInput(data.nickname);
+      }
     }
     setLocalState(getLocalState());
     const cInfo = await fetchCloudBackupInfo();
@@ -71,6 +73,7 @@ export default function ProfilePage() {
     if (!error) {
       setProfile((prev: any) => ({ ...prev, nickname: nicknameInput.trim() }));
       setIsEditingNick(false);
+      window.dispatchEvent(new Event("enway_profile_updated"));
       setNotice({ type: "success", text: "昵称修改成功" });
       setTimeout(() => setNotice(null), 2500);
     }

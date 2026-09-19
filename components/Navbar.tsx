@@ -23,32 +23,54 @@ export default function Navbar() {
 
   useEffect(() => {
     async function loadUser() {
-      const { data: { user } } = await supabase.auth.getUser();
-      setUser(user);
-      if (user) {
-        const { data } = await supabase
-          .from("profiles")
-          .select("*")
-          .eq("id", user.id)
-          .single();
-        setProfile(data);
+      try {
+        const { data: { user } } = await supabase.auth.getUser();
+        setUser(user);
+        if (user) {
+          const { data, error } = await supabase
+            .from("profiles")
+            .select("*")
+            .eq("id", user.id)
+            .maybeSingle();
+          if (data) {
+            setProfile(data);
+          } else if (user.user_metadata) {
+            // Fallback to metadata if DB row pending
+            setProfile({
+              username: user.user_metadata.username || user.email?.split("@")[0],
+              nickname: user.user_metadata.nickname || user.user_metadata.username,
+              role: "student",
+            });
+          }
+        }
+      } catch (e) {
+        console.error("Error loading user profile", e);
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     }
     loadUser();
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_, session) => {
       if (session?.user) {
         setUser(session.user);
-        supabase.from("profiles").select("*").eq("id", session.user.id).single().then(({ data }) => setProfile(data));
+        loadUser();
       } else {
         setUser(null);
         setProfile(null);
       }
     });
 
-    return () => subscription.unsubscribe();
-  }, []);
+    const handleProfileUpdate = () => {
+      loadUser();
+    };
+    window.addEventListener("enway_profile_updated", handleProfileUpdate);
+
+    return () => {
+      subscription.unsubscribe();
+      window.removeEventListener("enway_profile_updated", handleProfileUpdate);
+    };
+  }, [pathname]);
 
   const handleLogout = async () => {
     await supabase.auth.signOut();

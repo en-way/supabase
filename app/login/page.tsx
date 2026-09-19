@@ -10,7 +10,6 @@ export default function LoginPage() {
   const [isRegister, setIsRegister] = useState(false);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-  const [nickname, setNickname] = useState("");
   const [loading, setLoading] = useState(false);
   const [errorMsg, setErrorMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
@@ -46,7 +45,7 @@ export default function LoginPage() {
           options: {
             data: {
               username: cleanUsername,
-              nickname: nickname.trim() || cleanUsername,
+              nickname: cleanUsername,
             },
           },
         });
@@ -165,21 +164,6 @@ export default function LoginPage() {
               />
             </div>
           </div>
-
-          {isRegister && (
-            <div className="animate-in fade-in duration-150">
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
-                个性昵称 (选填)
-              </label>
-              <input
-                type="text"
-                value={nickname}
-                onChange={(e) => setNickname(e.target.value)}
-                placeholder="例如: 英语小达人"
-                className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:bg-white transition-all"
-              />
-            </div>
-          )}
 
           <div>
             <label className="block text-xs font-semibold text-slate-700 mb-1.5">
