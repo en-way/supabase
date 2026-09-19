@@ -1,0 +1,8 @@
+.env
+.env.local
+.temp/
+*.log
+__pycache__/
+node_modules/
+.next/
+out/
