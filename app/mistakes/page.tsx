@@ -6,6 +6,7 @@ import {
   getLocalState, 
   toggleMistakeMastered, 
   removeMistake, 
+  reconcileLearningState,
   MistakeItem 
 } from "@/lib/storage";
 import { supabase } from "@/lib/supabase";
@@ -69,6 +70,8 @@ export default function MistakesPage() {
   const [retestAnswers, setRetestAnswers] = useState<Record<string, string>>({});
   // Congratulatory prompt for mastered: qId
   const [congratsId, setCongratsId] = useState<string | null>(null);
+  // Reconciliation Toast alert
+  const [toastMsg, setToastMsg] = useState<string | null>(null);
 
   // Side-by-Side "边看边写" Modal/Studio State
   const [sideBySideItem, setSideBySideItem] = useState<{
@@ -144,6 +147,14 @@ export default function MistakesPage() {
           initialMap[q.id] = detail;
         });
         setQuestionMap({ ...initialMap });
+      }
+
+      // Execute reconciliation to prune deleted questions or auto-heal corrected answers
+      const recon = await reconcileLearningState();
+      if (recon.hasChanges) {
+        setMistakes(getLocalState().mistakes);
+        setToastMsg(recon.summaryText);
+        setTimeout(() => setToastMsg(null), 3500);
       }
     } catch (err) {
       console.error("Failed to fetch questions details batch:", err);
@@ -271,6 +282,14 @@ export default function MistakesPage() {
 
   return (
     <div className="space-y-6">
+      {/* Floating Reconciliation Toast */}
+      {toastMsg && (
+        <div className="fixed top-20 right-6 z-50 p-4 bg-slate-900 text-white rounded-2xl shadow-xl border border-slate-700 flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-top-4 duration-200">
+          <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+          <span>{toastMsg}</span>
+        </div>
+      )}
+
       {/* Header Bar */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-2xl border border-slate-200/90 shadow-sm no-print">
         <div className="flex items-center space-x-3">

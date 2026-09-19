@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import { 
   clearLocalData, 
-  downloadBackupFromCloud 
+  downloadBackupFromCloud,
+  reconcileLearningState
 } from "@/lib/storage";
 import { 
   BookOpen, 
@@ -159,16 +160,17 @@ export default function LoginPage() {
           throw error;
         }
 
-        setSuccessMsg("登录成功，正在同步云端做题快照...");
+        setSuccessMsg("登录成功，正在从云端对象存储同步并校对存档...");
 
         // Wipe old device cache to prevent account data bleed-through
         clearLocalData("all");
 
-        // Automatically pull latest backup from Supabase cloud
+        // Automatically pull latest backup from Supabase Storage and reconcile
         try {
           await downloadBackupFromCloud();
+          await reconcileLearningState();
         } catch (syncErr) {
-          console.warn("Cloud backup pull skipped/empty:", syncErr);
+          console.warn("Cloud backup pull or reconcile skipped/empty:", syncErr);
         }
 
         router.push("/");

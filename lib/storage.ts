@@ -232,7 +232,8 @@ export function saveExamResult(result: ExamResult) {
   saveLocalState(state);
 }
 
-// ------------------- Cloud Backup & Restore -------------------
+// ------------------- Cloud Backup & Restore via Supabase 1GB Storage -------------------
+
 export async function uploadBackupToCloud(): Promise<{ success: boolean; error?: string }> {
   try {
     const { data: { user }, error: userErr } = await supabase.auth.getUser();
@@ -241,7 +242,7 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
     }
 
     const state = getLocalState();
-    // Ensure mistakes are purely index-based to save Supabase storage & egress
+    // Ensure mistakes are purely index-based to save egress and storage
     state.mistakes = (state.mistakes || []).map((m) => ({
       questionId: m.questionId,
       examId: m.examId,
@@ -251,27 +252,45 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
       isMastered: !!m.isMastered,
       lastWrongAt: m.lastWrongAt || new Date().toISOString(),
     }));
+
+    const jsonString = JSON.stringify(state);
+    const blob = new Blob([jsonString], { type: "application/json" });
+    const filePath = `${user.id}/backup.json`;
+
+    // 1. Upload file into private Storage Bucket: 'user-backups' (1GB free space)
+    const { error: storageErr } = await supabase.storage
+      .from("user-backups")
+      .upload(filePath, blob, {
+        contentType: "application/json",
+        upsert: true,
+      });
+
+    if (storageErr) throw storageErr;
+
+    // 2. Update metadata summary in public.user_backups table (tiny footprint ~50 bytes)
     const summary = {
       mistakesCount: state.mistakes.length,
       vocabCount: state.vocabulary.length,
       favoritesCount: state.favorites.length,
       examsCount: Object.keys(state.examResults).length,
+      storageType: "supabase_storage_bucket",
       backedUpAt: new Date().toISOString(),
     };
 
-    const { error } = await supabase
+    const { error: dbErr } = await supabase
       .from("user_backups")
       .upsert({
         user_id: user.id,
-        backup_data: state,
         summary,
+        file_path: filePath,
         updated_at: new Date().toISOString(),
       });
 
-    if (error) throw error;
+    if (dbErr) console.warn("Notice: updated storage file, metadata sync:", dbErr.message);
+
     return { success: true };
   } catch (err: any) {
-    return { success: false, error: err.message || "上传备份失败" };
+    return { success: false, error: err.message || "上传云端对象存储失败" };
   }
 }
 
@@ -282,28 +301,28 @@ export async function downloadBackupFromCloud(): Promise<{ success: boolean; sum
       return { success: false, error: "未登录，无法拉取云端数据" };
     }
 
-    const { data, error } = await supabase
-      .from("user_backups")
-      .select("backup_data, summary, updated_at")
-      .eq("user_id", user.id)
-      .single();
+    const filePath = `${user.id}/backup.json`;
 
-    if (error) {
-      if (error.code === "PGRST116") {
-        return { success: false, error: "云端暂无备份记录" };
-      }
-      throw error;
+    // 1. Download file from private Storage Bucket
+    const { data: fileBlob, error: storageErr } = await supabase.storage
+      .from("user-backups")
+      .download(filePath);
+
+    if (storageErr || !fileBlob) {
+      return { success: false, error: "云端对象存储中暂无备份文件" };
     }
 
-    if (data?.backup_data) {
-      // Overwrite local state
-      saveLocalState(data.backup_data as LocalLearningState);
-      return { success: true, summary: data.summary };
+    const text = await fileBlob.text();
+    if (!text) {
+      return { success: false, error: "云端存档内容为空" };
     }
 
-    return { success: false, error: "云端数据为空" };
+    const parsedState = JSON.parse(text) as LocalLearningState;
+    saveLocalState(parsedState);
+
+    return { success: true };
   } catch (err: any) {
-    return { success: false, error: err.message || "下载恢复失败" };
+    return { success: false, error: err.message || "从云端存储下载恢复失败" };
   }
 }
 
@@ -325,6 +344,163 @@ export async function fetchCloudBackupInfo(): Promise<{ exists: boolean; summary
   } catch {
     return { exists: false };
   }
+}
+
+// ------------------- Reconciliation Engine (存档智能校对与更正自愈) -------------------
+
+export interface ReconcileResult {
+  hasChanges: boolean;
+  deletedQuestionsCount: number;
+  fixedAnswersCount: number;
+  deletedExamsCount: number;
+  summaryText: string;
+}
+
+export async function reconcileLearningState(
+  targetState?: LocalLearningState
+): Promise<ReconcileResult> {
+  const state = targetState || getLocalState();
+  let hasChanges = false;
+  let deletedQuestionsCount = 0;
+  let fixedAnswersCount = 0;
+  let deletedExamsCount = 0;
+
+  try {
+    // 1. Collect all Question IDs
+    const mistakeQIds = (state.mistakes || []).map((m) => m.questionId);
+    const favQIds = (state.favorites || []).map((f) => f.questionId);
+    const allQIds = Array.from(new Set([...mistakeQIds, ...favQIds]));
+
+    // 2. Collect all Exam IDs
+    const draftExamIds = Object.keys(state.examDrafts || {});
+    const resultExamIds = Object.keys(state.examResults || {});
+    const mistakeExamIds = (state.mistakes || []).map((m) => m.examId).filter(Boolean) as string[];
+    const allExamIds = Array.from(new Set([...draftExamIds, ...resultExamIds, ...mistakeExamIds]));
+
+    // 3. Batch query valid questions
+    const validQuestionsMap: Record<string, { id: string; correct_answer: string; exam_id: string; category_id: string }> = {};
+    if (allQIds.length > 0) {
+      const { data: qRows, error: qErr } = await supabase
+        .from("questions")
+        .select("id, correct_answer, exam_id, category_id")
+        .in("id", allQIds);
+
+      if (!qErr && qRows) {
+        qRows.forEach((q: any) => {
+          validQuestionsMap[q.id] = q;
+        });
+      }
+    }
+
+    // 4. Batch query valid approved exams
+    const validExamsMap: Record<string, boolean> = {};
+    if (allExamIds.length > 0) {
+      const { data: eRows, error: eErr } = await supabase
+        .from("exams")
+        .select("id, is_published, approval_status")
+        .in("id", allExamIds);
+
+      if (!eErr && eRows) {
+        eRows.forEach((e: any) => {
+          if (e.approval_status === "approved") {
+            validExamsMap[e.id] = true;
+          }
+        });
+      }
+    }
+
+    // 5. Reconcile mistakes
+    if (state.mistakes && state.mistakes.length > 0) {
+      const originalCount = state.mistakes.length;
+      // Filter out physically deleted questions
+      state.mistakes = state.mistakes.filter((m) => Boolean(validQuestionsMap[m.questionId]));
+      const pruned = originalCount - state.mistakes.length;
+      if (pruned > 0) {
+        deletedQuestionsCount += pruned;
+        hasChanges = true;
+      }
+
+      // Check if admin corrected answers
+      state.mistakes.forEach((m) => {
+        const q = validQuestionsMap[m.questionId];
+        if (q) {
+          if (q.category_id && m.categoryId !== q.category_id) {
+            m.categoryId = q.category_id;
+            hasChanges = true;
+          }
+          if (q.exam_id && m.examId !== q.exam_id) {
+            m.examId = q.exam_id;
+            hasChanges = true;
+          }
+          // Answer correction self-healing: if student's wrong answer now matches new correct answer
+          if (m.wrongAnswer && m.wrongAnswer === q.correct_answer && !m.isMastered) {
+            m.isMastered = true;
+            fixedAnswersCount += 1;
+            hasChanges = true;
+          }
+        }
+      });
+    }
+
+    // 6. Reconcile favorites
+    if (state.favorites && state.favorites.length > 0) {
+      const originalFavCount = state.favorites.length;
+      state.favorites = state.favorites.filter((f) => Boolean(validQuestionsMap[f.questionId]));
+      const prunedFav = originalFavCount - state.favorites.length;
+      if (prunedFav > 0) {
+        deletedQuestionsCount += prunedFav;
+        hasChanges = true;
+      }
+    }
+
+    // 7. Reconcile exam drafts (remove drafts of deleted or unapproved exams)
+    if (state.examDrafts) {
+      Object.keys(state.examDrafts).forEach((examId) => {
+        if (!validExamsMap[examId]) {
+          delete state.examDrafts[examId];
+          deletedExamsCount += 1;
+          hasChanges = true;
+        }
+      });
+    }
+
+    // 8. Reconcile exam results
+    if (state.examResults) {
+      Object.keys(state.examResults).forEach((examId) => {
+        if (!validExamsMap[examId]) {
+          delete state.examResults[examId];
+          deletedExamsCount += 1;
+          hasChanges = true;
+        }
+      });
+    }
+
+    // 9. If modified, persist to local storage and silently write back clean JSON to Storage!
+    if (hasChanges) {
+      saveLocalState(state);
+      try {
+        await uploadBackupToCloud();
+      } catch (err) {
+        console.warn("Silent cloud writeback failed during reconcile:", err);
+      }
+    }
+  } catch (err) {
+    console.error("Reconciliation error:", err);
+  }
+
+  const parts: string[] = [];
+  if (deletedQuestionsCount > 0) parts.push(`清理了 ${deletedQuestionsCount} 道已下线题目`);
+  if (fixedAnswersCount > 0) parts.push(`更正了 ${fixedAnswersCount} 道已修正答案错题`);
+  if (deletedExamsCount > 0) parts.push(`清除了 ${deletedExamsCount} 份已下线试卷`);
+  const summaryText = parts.length > 0 ? `已为您自动校对并更新存档：${parts.join("，")}` : "";
+
+  return {
+    hasChanges,
+    deletedQuestionsCount,
+    fixedAnswersCount,
+    deletedExamsCount,
+    summaryText,
+  };
 }
 
 // ------------------- Clear Local Data -------------------

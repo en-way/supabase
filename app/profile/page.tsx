@@ -8,6 +8,7 @@ import {
   downloadBackupFromCloud, 
   fetchCloudBackupInfo, 
   clearLocalData, 
+  reconcileLearningState,
   LocalLearningState 
 } from "@/lib/storage";
 import { 
@@ -94,6 +95,8 @@ export default function ProfilePage() {
     setTimeout(() => setNotice(null), 3000);
   };
 
+  const [reconciling, setReconciling] = useState(false);
+
   const handleDownloadBackup = async () => {
     if (!window.confirm("⚠️ 从云端恢复将直接【完全覆盖】当前设备的本地数据。确定继续吗？")) {
       return;
@@ -102,13 +105,38 @@ export default function ProfilePage() {
     setNotice(null);
     const res = await downloadBackupFromCloud();
     if (res.success) {
-      setNotice({ type: "success", text: "🎉 已成功从云端拉取最新快照并还原至本地！" });
+      // Automatically run reconciliation after restoring from Storage
+      const recon = await reconcileLearningState();
       setLocalState(getLocalState());
+      if (recon.hasChanges) {
+        setNotice({ type: "success", text: `🎉 已从云端对象存储还原并完成校对：${recon.summaryText}` });
+      } else {
+        setNotice({ type: "success", text: "🎉 已成功从云端对象存储拉取最新快照并还原至本地！" });
+      }
     } else {
       setNotice({ type: "error", text: res.error || "下载恢复失败" });
     }
     setDownloading(false);
-    setTimeout(() => setNotice(null), 3000);
+    setTimeout(() => setNotice(null), 3500);
+  };
+
+  const handleReconcile = async () => {
+    setReconciling(true);
+    setNotice(null);
+    try {
+      const recon = await reconcileLearningState();
+      setLocalState(getLocalState());
+      if (recon.hasChanges) {
+        setNotice({ type: "success", text: recon.summaryText });
+      } else {
+        setNotice({ type: "success", text: "✅ 存档数据完美吻合，无任何已下架题目或待修正项！" });
+      }
+    } catch (e: any) {
+      setNotice({ type: "error", text: `校对失败: ${e.message}` });
+    } finally {
+      setReconciling(false);
+      setTimeout(() => setNotice(null), 3500);
+    }
   };
 
   const handleConfirmClear = () => {
@@ -247,7 +275,7 @@ export default function ProfilePage() {
               数据备份与自主控制中枢
             </h3>
             <p className="text-xs text-slate-500">
-              本地优先架构 · 云端极致最小化存储 (单用户仅 1 条最新压缩快照)
+              本地优先架构 · 存入 Supabase 1GB 独立对象存储空间 (user-backups 桶)，数据库仅存微量元数据
             </p>
           </div>
         </div>
@@ -256,42 +284,52 @@ export default function ProfilePage() {
         <div className="p-4 rounded-2xl bg-indigo-50/50 border border-indigo-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
-              <span className="text-xs font-bold text-indigo-900">云端备份快照状态:</span>
+              <span className="text-xs font-bold text-indigo-900">云端存储快照状态:</span>
               <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
                 cloudInfo?.exists ? "bg-emerald-100 text-emerald-700" : "bg-slate-200 text-slate-600"
               }`}>
-                {cloudInfo?.exists ? "已存在云端备份" : "尚未创建云端备份"}
+                {cloudInfo?.exists ? "对象存储桶中有存档" : "尚未创建云端备份"}
               </span>
             </div>
             {cloudInfo?.exists ? (
               <p className="text-xs text-indigo-700">
-                上次备份时间: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
-                包含: {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
+                上次备份: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
+                包含 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
               </p>
             ) : (
               <p className="text-xs text-slate-500">
-                建议定期点击“备份到云端”，以便在更换浏览器或设备后一键还原数据。
+                建议定期点击“备份到云端”，存档将以独立 JSON 文件安全存入 Supabase 1GB 对象存储空间。
               </p>
             )}
           </div>
 
-          <div className="flex items-center space-x-2 shrink-0">
+          <div className="flex flex-wrap items-center gap-2 shrink-0">
             <button
               onClick={handleUploadBackup}
               disabled={uploading}
-              className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-sm shadow-indigo-200 flex items-center space-x-1.5 transition-all disabled:opacity-50"
+              className="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-bold shadow-sm shadow-indigo-200 flex items-center space-x-1.5 transition-all disabled:opacity-50"
             >
               <CloudUpload className="w-4 h-4" />
-              <span>{uploading ? "正在打包上传..." : "备份到云端"}</span>
+              <span>{uploading ? "正在上传..." : "备份到云端"}</span>
             </button>
 
             <button
               onClick={handleDownloadBackup}
               disabled={downloading || !cloudInfo?.exists}
-              className="px-4 py-2.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-40"
+              className="px-3.5 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-40"
             >
               <CloudDownload className="w-4 h-4 text-indigo-600" />
-              <span>{downloading ? "正在拉取恢复..." : "从云端恢复覆盖本地"}</span>
+              <span>{downloading ? "正在恢复..." : "从云端恢复"}</span>
+            </button>
+
+            <button
+              onClick={handleReconcile}
+              disabled={reconciling}
+              className="px-3.5 py-2 rounded-xl border border-indigo-200 bg-indigo-50/50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-40"
+              title="比对题库删改，自动清理下架试题并自愈答案"
+            >
+              <RotateCcw className={`w-4 h-4 ${reconciling ? "animate-spin" : ""}`} />
+              <span>{reconciling ? "校对中..." : "智能校对"}</span>
             </button>
           </div>
         </div>
