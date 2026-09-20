@@ -1,12 +1,1268 @@
 {
   "year": 2024,
-  "title": "2024年6月大学英语四级真题(第1套) 仔细阅读与篇章精研",
+  "title": "2024年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
   "category_id": "cet4",
   "exam_type": "real",
-  "duration_minutes": 40,
+  "duration_minutes": 60,
   "total_score": 100,
   "pass_score": 60,
+  "is_published": true,
+  "approval_status": "approved",
   "passages": [
+    {
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "section_type": "cloze",
+      "content": "In contemporary universities, the widespread integration of digital devices has transformed the learning environment. While connected tablets and smartphones provide instant access to reference materials, they also introduce persistent (26)____ that disrupt deep concentration. Educational neuroscientists have demonstrated that divided attention during academic lectures does not merely slow down comprehension; it (27)____ impairs long-term memory consolidation.\n\nWhen undergraduates constantly shift focus between course slides and instant messaging notifications, their cognitive working memory becomes rapidly exhausted. Consequently, their capacity to synthesize abstract concepts and engage in critical debate is (28)____ degraded. To reverse this alarming trajectory, numerous faculties are establishing device-free lecture halls, encouraging students to take handwritten lecture summaries to (29)____ deeper conceptual engagement.\n\nEmpirical research confirms that handwriting forces students to process and rephrase incoming information rather than recording spoken lectures (30)____. Furthermore, pedagogical experts argue that self-regulated digital boundaries should be (31)____ taught rather than simply enforced through rigid bans. By mastering digital self-discipline, young scholars become far more (32)____ when stepping into demanding professional workplaces.\n\nNevertheless, educational equity advocates note that digital devices remain (33)____ accommodations for students with visual impairments or physical disabilities. Assistive voice-recognition software and screen-magnifying tools offer indispensable support. Therefore, institutional policies must balance the goal of minimizing distraction with the (34)____ to preserve inclusive accessibility. Ultimately, universities must foster a campus ethos where digital connectivity serves as a purposeful learning aid rather than an (35)____ distraction.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (26) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】空格(26)：根据语法结构与上下文语境搭配，此处需要填入选项 [A]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 1
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (27) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】空格(27)：根据语法结构与上下文语境搭配，此处需要填入选项 [B]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 2
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (28) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】空格(28)：根据语法结构与上下文语境搭配，此处需要填入选项 [C]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 3
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (29) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】空格(29)：根据语法结构与上下文语境搭配，此处需要填入选项 [D]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 4
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (30) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】空格(30)：根据语法结构与上下文语境搭配，此处需要填入选项 [E]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 5
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (31) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】空格(31)：根据语法结构与上下文语境搭配，此处需要填入选项 [F]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 6
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (32) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】空格(32)：根据语法结构与上下文语境搭配，此处需要填入选项 [G]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 7
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (33) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】空格(33)：根据语法结构与上下文语境搭配，此处需要填入选项 [H]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 8
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (34) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】空格(34)：根据语法结构与上下文语境搭配，此处需要填入选项 [I]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 9
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (35) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "fundamentally"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "foster"
+            },
+            {
+              "key": "E",
+              "text": "verbatim"
+            },
+            {
+              "key": "F",
+              "text": "explicitly"
+            },
+            {
+              "key": "G",
+              "text": "resilient"
+            },
+            {
+              "key": "H",
+              "text": "invaluable"
+            },
+            {
+              "key": "I",
+              "text": "imperative"
+            },
+            {
+              "key": "J",
+              "text": "uncontrolled"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】空格(35)：根据语法结构与上下文语境搭配，此处需要填入选项 [J]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 10
+        }
+      ]
+    },
+    {
+      "title": "Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)",
+      "section_type": "reading",
+      "content": "[A] Across modern metropolises, the intensifying 'urban heat island' effect poses serious threats to public health and urban sustainability. Concrete walls, asphalt roads, and dark rooftops absorb solar radiation during daylight and release trapped thermal energy throughout the evening, raising inner-city temperatures up to eight degrees Celsius above nearby countryside zones.\n\n[B] In response to this environmental challenge, municipal architects are championing living architectural envelopes. Rather than constructing sterile glass towers, forward-thinking planners integrate vertical forests, vegetated balconies, and reflective cool coatings directly into modern skyscraper blueprints.\n\n[C] Pioneered in European capitals and expanding rapidly throughout Asia, living vertical forests serve as natural air-purifying machines. Thousands of cascading evergreen bushes capture fine airborne particles, while natural moisture transpiration cools surrounding ambient air by up to ten degrees Celsius.\n\n[D] Beyond external cooling, vegetative facades provide remarkable thermodynamic insulation for building interiors. In summer, lush leaf canopies shade structural glass facades from brutal solar irradiation, reducing indoor air-conditioning power consumption by up to twenty-five percent. In winter, dense branches mitigate chilling gusts, conserving internal heating.\n\n[E] However, structural engineers emphasize that cultivating vertical gardens presents formidable engineering challenges. Mature trees possess substantial root systems that can penetrate waterproof membranes if barrier fabrics are breached. Furthermore, cantilevered balconies must be reinforced with specialized high-strength tensile steel to withstand extraordinary deadweights of wet soil and storm gusts.\n\n[F] Water management represents an equally critical operational hurdle. Irrigating thousands of square meters of vertical foliage in water-stressed metropolises cannot rely on treated municipal tap supplies. Sustainable buildings overcome this barrier by deploying automated closed-loop greywater harvesting networks, collecting rainwater from rooftops and filtered wastewater from residential sinks.\n\n[G] Simultaneously, materials scientists are revolutionizing roof surfaces through ultra-reflective coatings. These innovative 'super-cool' paints reflect over ninety-five percent of incoming solar radiation directly back into outer space through the atmospheric infrared window, cooling surface temperatures without consuming electrical power.\n\n[H] Economic analyses demonstrate that while green-certified buildings incur higher initial capital construction outlays, they yield profound lifecycle dividends. Lower utility overheads, accelerated rental occupancies, and premium commercial valuations enable developers to recoup initial investments within seven to ten years.\n\n[I] Sociological research also links biophilic urban designs to heightened psychological wellbeing. Office occupants with direct visual access to lush greenery report significantly lower cortisol stress levels, fewer tension headaches, and greater self-rated creative focus compared to peers in windowless drywall enclosures.\n\n[J] Municipal governments are accelerating this transition through forward-thinking zoning mandates and fiscal incentives. Cities such as Singapore and Toronto now require large-scale commercial developments to replace one hundred percent of the building footprint with publicly accessible or vegetative surfaces.\n\n[K] Ultimately, retrofitting existing high-density downtown cores requires collective civic resolve. Transforming concrete jungles into climate-resilient living sanctuaries is no longer an aesthetic luxury; it is a fundamental urban survival imperative for the twenty-first century.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(36) In water-scarce metropolitan areas, sustainable towers recycle rainwater and sink runoff instead of using drinking water.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】题目(36)：本句核心信息对应原文段落 [F]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 11
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(37) Reflective paints cool building roofs by bouncing solar radiation through the atmospheric window into space.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】题目(37)：本句核心信息对应原文段落 [G]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 12
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(38) Living towers absorb airborne pollutants and cool outdoor surface temperatures through foliage transpiration.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】题目(38)：本句核心信息对应原文段落 [C]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 13
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(39) Extra high-strength steel reinforcement is necessary to support the immense weight of damp earth and withstand gales.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】题目(39)：本句核心信息对应原文段落 [E]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 14
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(40) Higher upfront building expenditures can be recovered within a decade thanks to reduced utility bills and higher rents.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】题目(40)：本句核心信息对应原文段落 [H]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 15
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(41) Urban heat islands result from concrete and asphalt absorbing daylight solar energy and re-releasing heat after dusk.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】题目(41)：本句核心信息对应原文段落 [A]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 16
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(42) Exposure to vegetative elements within architectural spaces is scientifically correlated with reduced worker stress.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】题目(42)：本句核心信息对应原文段落 [I]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 17
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(43) Some progressive city authorities have legislated that new commercial structures must substitute their entire base area with green spaces.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】题目(43)：本句核心信息对应原文段落 [J]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 18
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(44) Leafy exterior building covers cut summer cooling power demand by shielding glass walls from direct sun.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】题目(44)：本句核心信息对应原文段落 [D]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 19
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(45) Converting dense urban areas into resilient green sanctuaries has become an indispensable requirement for survival.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "K",
+          "explanation": "【考点精析】题目(45)：本句核心信息对应原文段落 [K]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 20
+        }
+      ]
+    },
     {
       "title": "Passage One: Artificial Intelligence and Human Collaboration",
       "section_type": "reading",
@@ -35,7 +1291,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节事实题。根据第一段末句'the most effective workplace models are those built on human-machine collaboration'可知，人机协作是最有效的模式，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 21
         },
         {
           "q_type": "reading_item",
@@ -60,7 +1317,8 @@
           ],
           "correct_answer": "C",
           "explanation": "【考点点拨】细节事实题。第二段指出'AI lacks the contextual nuance, emotional intelligence, and moral reasoning'，明确提到缺乏情商与道德推理，故选C。",
-          "points": 10
+          "points": 5,
+          "sort_order": 22
         },
         {
           "q_type": "reading_item",
@@ -85,7 +1343,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】细节理解题。第三段后半句提到'Workers freed from mundane, repetitive administrative tasks are able to allocate more cognitive energy to creative problem-solving...'，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 23
         },
         {
           "q_type": "reading_item",
@@ -110,7 +1369,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节推理题。第四段指出'realizing this collaborative potential requires deliberate institutional investment in retraining'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 24
         },
         {
           "q_type": "reading_item",
@@ -135,9 +1395,11 @@
           ],
           "correct_answer": "C",
           "explanation": "【考点点拨】主旨大意题。文章通篇论述人机协同而非机器替代人类，探讨两者互补结合的未来，C选项准确概括主旨。",
-          "points": 10
+          "points": 5,
+          "sort_order": 25
         }
-      ]
+      ],
+      "sort_order": 3
     },
     {
       "title": "Passage Two: Sleep Quality and Cognitive Resilience",
@@ -167,7 +1429,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】事实细节题。第一段指出人们'viewing chronic sleep deprivation as a badge of honor'（将长期缺觉视作荣誉勋章），批评了以少睡为荣的偏见，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 26
         },
         {
           "q_type": "reading_item",
@@ -192,7 +1455,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节事实题。第二段明确说明'This cellular plumbing network flushes out metabolic toxins... linked to neurodegenerative diseases'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 27
         },
         {
           "q_type": "reading_item",
@@ -217,7 +1481,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节事实题。第三段明确写到'transferring essential information into the neocortex for long-term storage while discarding extraneous data'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 28
         },
         {
           "q_type": "reading_item",
@@ -242,7 +1507,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节理解题。第三段末尾提到'consistently display impaired concentration, reduced problem-solving creativity, and volatile mood swings'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 29
         },
         {
           "q_type": "reading_item",
@@ -267,9 +1533,11 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】主旨归纳题。最后一段呼吁转变认知：'Prioritizing seven to eight hours of restorative sleep... as an indispensable pillar of high performance'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 30
         }
-      ]
+      ],
+      "sort_order": 4
     }
   ]
 }

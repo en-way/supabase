@@ -1,0 +1,1291 @@
+{
+  "category_id": "ky1",
+  "year": 2017,
+  "title": "2017年全国硕士研究生招生考试英语（一）真题",
+  "exam_type": "real",
+  "duration_minutes": 75,
+  "total_score": 60,
+  "pass_score": 36,
+  "is_published": true,
+  "approval_status": "approved",
+  "passages": [
+    {
+      "section_type": "cloze",
+      "title": "Section I: Use of English (完形填空 1-20题)",
+      "sort_order": 1,
+      "content": "Could a person living in a crowded, noisy metropolis be less likely to lend a helping hand to a stranger than someone residing in a quiet rural village? For decades, social psychologists have explored this urban-rural (1)____ in prosocial behavior. In classic experimental field studies, researchers staged staged emergencies—such as an actor dropping an armful of books or feigning a physical (2)____—on busy city sidewalks and sleepy village lanes. The results were remarkably consistent: rural bystanders intervened with alacrity, while city dwellers routinely walked past with cold (3)____.\n\nEarly sociological theorists attributed this callousness to the psychological (4)____ of urban life. Pioneering sociologist Georg Simmel argued that the sheer sensory overload of the metropolis—the flashing neon signs, roaring automotive traffic, and relentless sea of unfamiliar faces—compels urbanites to erect a protective psychological (5)____. To avoid cognitive collapse, city residents develop a \"blasé attitude,\" filtering out non-essential external stimuli and treating surrounding strangers with calculated (6)____.\n\nPsychologists later supplemented Simmel's theory with the concept of the \"bystander effect.\" When an emergency unfolds before a dense crowd of onlookers, individual psychological responsibility is (7)____. Each person assumes that someone else has already alerted the police or will step forward to (8)____ aid. The presence of passive spectators creates a perverse informational cascade: because nobody else appears alarmed, individuals interpret the ambiguous incident as benign, convincing themselves that intervention is (9)____.\n\nFurthermore, social mobility and residential transience undermine community cohesion in large cities. In tight-knit rural hamlets where residents interact over decades, social norms are reinforced through mutual (10)____. If a villager ignores a neighbor in distress, the reputational penalty is immediate and (11)____. In contrast, the anonymity of the metropolis shields individuals from social accountability, permitting people to ignore cries for help without fearing interpersonal (12)____.\n\nHowever, contemporary social scientists emphasize that urbanites are not inherently morally (13)____. When tested in structured laboratory environments where sensory distractions are controlled, city dwellers demonstrate levels of altruism and ethical reasoning (14)____ to their rural peers. The apparent indifference observed on metropolitan streets is an adaptive coping mechanism rather than an intrinsic character (15)____.\n\nUrban planners and municipal architects are beginning to translate these psychological insights into urban design. Creating human-scale civic plazas, planting tranquil pocket parks, and slowing vehicular traffic around transit hubs reduces sensory (16)____, restoring the cognitive bandwidth required for empathy.\n\nCommunity organizers also encourage neighborhood micro-associations, organizing communal block parties and community garden plots to dissolve anonymous (17)____. When neighbors know one another's names, urban density transforms from an alienating barrier into a vibrant reservoir of collective (18)____.\n\nUltimately, human kindness is not an agricultural relic that withers on concrete pavements. By building compassionate urban environments that nurture social connection and reduce sensory stress, modern cities can foster a culture where strangers look out for one another (19)____ in our interconnected urban century (20)____.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (1) in the text:",
+          "points": 0.5,
+          "sort_order": 1,
+          "options": [
+            {
+              "key": "A",
+              "text": "divide"
+            },
+            {
+              "key": "B",
+              "text": "harmony"
+            },
+            {
+              "key": "C",
+              "text": "treaty"
+            },
+            {
+              "key": "D",
+              "text": "celebration"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。urban-rural divide（城乡分野/差异），描述亲社会助人行为在城乡之间的对比。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (2) in the text:",
+          "points": 0.5,
+          "sort_order": 2,
+          "options": [
+            {
+              "key": "A",
+              "text": "injury"
+            },
+            {
+              "key": "B",
+              "text": "triumph"
+            },
+            {
+              "key": "C",
+              "text": "monument"
+            },
+            {
+              "key": "D",
+              "text": "fortune"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。feigning a physical injury（假装身体受伤），是现场求助实验的标准设定。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (3) in the text:",
+          "points": 0.5,
+          "sort_order": 3,
+          "options": [
+            {
+              "key": "A",
+              "text": "indifference"
+            },
+            {
+              "key": "B",
+              "text": "gratitude"
+            },
+            {
+              "key": "C",
+              "text": "curiosity"
+            },
+            {
+              "key": "D",
+              "text": "joy"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】消极修辞。walked past with cold indifference（冷漠地径直走过）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (4) in the text:",
+          "points": 0.5,
+          "sort_order": 4,
+          "options": [
+            {
+              "key": "A",
+              "text": "pressures"
+            },
+            {
+              "key": "B",
+              "text": "privileges"
+            },
+            {
+              "key": "C",
+              "text": "miracles"
+            },
+            {
+              "key": "D",
+              "text": "vacations"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词搭配。psychological pressures of urban life（城市生活的心理压力）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (5) in the text:",
+          "points": 0.5,
+          "sort_order": 5,
+          "options": [
+            {
+              "key": "A",
+              "text": "barrier"
+            },
+            {
+              "key": "B",
+              "text": "bridge"
+            },
+            {
+              "key": "C",
+              "text": "palace"
+            },
+            {
+              "key": "D",
+              "text": "ladder"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】比喻修辞。erect a protective psychological barrier（筑起一道保护性的心理屏障/防线）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (6) in the text:",
+          "points": 0.5,
+          "sort_order": 6,
+          "options": [
+            {
+              "key": "A",
+              "text": "detachment"
+            },
+            {
+              "key": "B",
+              "text": "affection"
+            },
+            {
+              "key": "C",
+              "text": "worship"
+            },
+            {
+              "key": "D",
+              "text": "jealousy"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。呼应前文西美尔的“厌世/倦怠态度（blasé attitude）”，表现为理智计算的冷漠超脱（calculated detachment）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (7) in the text:",
+          "points": 0.5,
+          "sort_order": 7,
+          "options": [
+            {
+              "key": "A",
+              "text": "diffused"
+            },
+            {
+              "key": "B",
+              "text": "concentrated"
+            },
+            {
+              "key": "C",
+              "text": "celebrated"
+            },
+            {
+              "key": "D",
+              "text": "rewarded"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】心理学术语。旁观者效应中责任被分散（responsibility is diffused）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (8) in the text:",
+          "points": 0.5,
+          "sort_order": 8,
+          "options": [
+            {
+              "key": "A",
+              "text": "render"
+            },
+            {
+              "key": "B",
+              "text": "withhold"
+            },
+            {
+              "key": "C",
+              "text": "plunder"
+            },
+            {
+              "key": "D",
+              "text": "condemn"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】动词搭配。render aid（给予援助/提供救助）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (9) in the text:",
+          "points": 0.5,
+          "sort_order": 9,
+          "options": [
+            {
+              "key": "A",
+              "text": "unnecessary"
+            },
+            {
+              "key": "B",
+              "text": "compulsory"
+            },
+            {
+              "key": "C",
+              "text": "heroic"
+            },
+            {
+              "key": "D",
+              "text": "urgent"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】形容词辨析。说服自己干预是不必要的（intervention is unnecessary）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (10) in the text:",
+          "points": 0.5,
+          "sort_order": 10,
+          "options": [
+            {
+              "key": "A",
+              "text": "scrutiny"
+            },
+            {
+              "key": "B",
+              "text": "secrecy"
+            },
+            {
+              "key": "C",
+              "text": "neglect"
+            },
+            {
+              "key": "D",
+              "text": "hostility"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】社会学名词。熟人乡村社会中人际规范通过相互审视监督（mutual scrutiny）得以强化。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (11) in the text:",
+          "points": 0.5,
+          "sort_order": 11,
+          "options": [
+            {
+              "key": "A",
+              "text": "severe"
+            },
+            {
+              "key": "B",
+              "text": "trivial"
+            },
+            {
+              "key": "C",
+              "text": "pleasant"
+            },
+            {
+              "key": "D",
+              "text": "invisible"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】形容词搭配。声誉惩罚是即时且严厉沉重的（immediate and severe）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (12) in the text:",
+          "points": 0.5,
+          "sort_order": 12,
+          "options": [
+            {
+              "key": "A",
+              "text": "censure"
+            },
+            {
+              "key": "B",
+              "text": "praise"
+            },
+            {
+              "key": "C",
+              "text": "honor"
+            },
+            {
+              "key": "D",
+              "text": "luxury"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。无需担心招致人际谴责与非议（interpersonal censure）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (13) in the text:",
+          "points": 0.5,
+          "sort_order": 13,
+          "options": [
+            {
+              "key": "A",
+              "text": "deficient"
+            },
+            {
+              "key": "B",
+              "text": "flawless"
+            },
+            {
+              "key": "C",
+              "text": "sacred"
+            },
+            {
+              "key": "D",
+              "text": "superior"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】形容词辨析。城里人并非天生在道德上是有欠缺的（morally deficient）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (14) in the text:",
+          "points": 0.5,
+          "sort_order": 14,
+          "options": [
+            {
+              "key": "A",
+              "text": "comparable"
+            },
+            {
+              "key": "B",
+              "text": "inferior"
+            },
+            {
+              "key": "C",
+              "text": "hostile"
+            },
+            {
+              "key": "D",
+              "text": "irrelevant"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】形容词搭配。comparable to their rural peers（与乡村同伴相当/不相上下）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (15) in the text:",
+          "points": 0.5,
+          "sort_order": 15,
+          "options": [
+            {
+              "key": "A",
+              "text": "flaw"
+            },
+            {
+              "key": "B",
+              "text": "virtue"
+            },
+            {
+              "key": "C",
+              "text": "triumph"
+            },
+            {
+              "key": "D",
+              "text": "miracle"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。这是一种适应性的应对机制，而非本质的性格缺陷（character flaw）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (16) in the text:",
+          "points": 0.5,
+          "sort_order": 16,
+          "options": [
+            {
+              "key": "A",
+              "text": "overload"
+            },
+            {
+              "key": "B",
+              "text": "poverty"
+            },
+            {
+              "key": "C",
+              "text": "silence"
+            },
+            {
+              "key": "D",
+              "text": "famine"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】心理学搭配。reduces sensory overload（削减感官过载）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (17) in the text:",
+          "points": 0.5,
+          "sort_order": 17,
+          "options": [
+            {
+              "key": "A",
+              "text": "isolation"
+            },
+            {
+              "key": "B",
+              "text": "luxury"
+            },
+            {
+              "key": "C",
+              "text": "wealth"
+            },
+            {
+              "key": "D",
+              "text": "amusement"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。社区活动能够消除匿名的隔阂孤立（anonymous isolation）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (18) in the text:",
+          "points": 0.5,
+          "sort_order": 18,
+          "options": [
+            {
+              "key": "A",
+              "text": "resilience"
+            },
+            {
+              "key": "B",
+              "text": "hostility"
+            },
+            {
+              "key": "C",
+              "text": "bankruptcy"
+            },
+            {
+              "key": "D",
+              "text": "treachery"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】褒义名词。reservoir of collective resilience（集体韧性与互助的蓄水池）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (19) in the text:",
+          "points": 0.5,
+          "sort_order": 19,
+          "options": [
+            {
+              "key": "A",
+              "text": "spontaneously"
+            },
+            {
+              "key": "B",
+              "text": "reluctantly"
+            },
+            {
+              "key": "C",
+              "text": "scarcely"
+            },
+            {
+              "key": "D",
+              "text": "hesitantly"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】副词修饰。陌生人之间能够自发互助（look out for one another spontaneously）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (20) in the text:",
+          "points": 0.5,
+          "sort_order": 20,
+          "options": [
+            {
+              "key": "A",
+              "text": "ahead"
+            },
+            {
+              "key": "B",
+              "text": "behind"
+            },
+            {
+              "key": "C",
+              "text": "past"
+            },
+            {
+              "key": "D",
+              "text": "away"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】副词搭配。in the urban century ahead（在未来的城市世纪中）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 1)",
+      "sort_order": 2,
+      "content": "In the post-9/11 aviation landscape, airport security protocols have steadily transformed from routine magnetometers into high-tech surveillance checkpoints. Following the foiled 2009 \"underwear bomber\" plot over Detroit, the Transportation Security Administration (TSA) hastily deployed thousands of full-body scanners across major American airports. Utilizing advanced millimeter-wave imaging technology, these machines peer beneath passenger clothing, generating anatomical outlines to detect non-metallic explosives, plastic knives, and concealed contraband.\n\nThe nationwide deployment of body scanners ignited immediate, incandescent fury from civil liberties organizations and privacy advocates. Critics condemned the technology as a digital strip-search, highlighting that early scanner iterations generated graphic, photorealistic silhouettes revealing intimate passenger anatomy, surgical prosthetics, and religious undergarments. Legal scholars argued that subjecting millions of innocent commercial travelers to virtual bodily exposure violated the Fourth Amendment's fundamental protection against unreasonable searches.\n\nFurthermore, public health advocates raised lingering concerns regarding passenger safety. While millimeter-wave scanners utilize non-ionizing radio frequency energy deemed safe by federal regulators, early backscatter x-ray units emitted ionizing radiation. Although radiation doses per scan were statistically microscopic, epidemiologists argued that subjecting hundreds of millions of travelers and pregnant women to cumulative radiation without rigorous independent epidemiological validation was public health negligence.\n\nConfronted with passenger boycotts, the TSA was forced to implement significant technological and procedural concessions. Backscatter x-ray machines were permanently decommissioned, and remaining millimeter-wave scanners were upgraded with Automated Target Recognition (ATR) software. Under ATR, human operators no longer view anatomical bodily silhouettes; instead, algorithms scan passenger bodies and display a generic, gender-neutral cartoon stick figure indicating the location of anomalies with yellow highlighted boxes.\n\nWhile ATR resolved the immediate modesty crisis, security analysts argue that the airport checkpoint represents a profound psychological dilemma. Travelers have quietly surrendered vast swathes of privacy in exchange for the psychological reassurance of security theater. Preserving democratic liberties requires constant vigilance, ensuring that emergency security measures do not permanently normalize intrusive state surveillance.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "The TSA deployed full-body scanners in American airports primarily in response to:",
+          "points": 2,
+          "sort_order": 21,
+          "options": [
+            {
+              "key": "A",
+              "text": "The foiled 2009 non-metallic explosive plot on an airliner."
+            },
+            {
+              "key": "B",
+              "text": "A massive worldwide shortage of trained security personnel."
+            },
+            {
+              "key": "C",
+              "text": "A federal mandate requiring travelers to purchase luxury luggage."
+            },
+            {
+              "key": "D",
+              "text": "Passenger demands for faster, completely unmonitored boarding."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出TSA加速部署全身扫描仪是对2009年底底特律航班非金属内裤炸弹未遂图谋的直接应急反应。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Civil liberties organizations opposed early body scanners because the devices:",
+          "points": 2,
+          "sort_order": 22,
+          "options": [
+            {
+              "key": "A",
+              "text": "Generated graphic, photorealistic images of intimate bodily anatomy."
+            },
+            {
+              "key": "B",
+              "text": "Took over two hours to scan an individual airline passenger."
+            },
+            {
+              "key": "C",
+              "text": "Permanently erased passenger passport and ticketing records."
+            },
+            {
+              "key": "D",
+              "text": "Required travelers to pay high cash fees at every checkpoint."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第二段指出批评者谴责其如同“数字脱衣搜身”，早期的扫描仪生成了极度逼真的人体解剖轮廓，侵犯了隐私与尊严。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Automated Target Recognition (ATR) software helped resolve privacy concerns by:",
+          "points": 2,
+          "sort_order": 23,
+          "options": [
+            {
+              "key": "A",
+              "text": "Displaying generic, gender-neutral cartoon figures instead of real silhouettes."
+            },
+            {
+              "key": "B",
+              "text": "Allowing passengers to bypass security checks without inspection."
+            },
+            {
+              "key": "C",
+              "text": "Encrypting passenger bank account information on airplane tickets."
+            },
+            {
+              "key": "D",
+              "text": "Automatically confiscating all metal coins from carry-on bags."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第四段指出ATR软件不再让安检人员看真实裸体轮廓，而是以通用的中性卡通火柴人图例标出异物方框，化解了羞耻焦虑。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Early backscatter x-ray units were decommissioned partly due to concerns regarding:",
+          "points": 2,
+          "sort_order": 24,
+          "options": [
+            {
+              "key": "A",
+              "text": "Cumulative ionizing radiation exposure among millions of passengers."
+            },
+            {
+              "key": "B",
+              "text": "The excessive weight of the scanners collapsing terminal floors."
+            },
+            {
+              "key": "C",
+              "text": "The tendency of machines to spray toxic paint onto passengers."
+            },
+            {
+              "key": "D",
+              "text": "A refusal by international pilots to enter airport terminals."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第三、四段指出早期的背散射X射线仪伴随电离辐射，流行病学者担忧数亿人累积辐射暴露的安全风险，最终促使其退役。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The author concludes that citizens must remain cautious because airport security measures:",
+          "points": 2,
+          "sort_order": 25,
+          "options": [
+            {
+              "key": "A",
+              "text": "Risk permanently normalizing intrusive state surveillance."
+            },
+            {
+              "key": "B",
+              "text": "Have failed to deter any terrorist hijackers since 2001."
+            },
+            {
+              "key": "C",
+              "text": "Will inevitably lead to the complete abolition of commercial air flight."
+            },
+            {
+              "key": "D",
+              "text": "Are universally rejected by all foreign governments."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨态度题。末段总结指出大众在“安全秀”心理抚慰下让渡了大量隐私，必须警惕紧急安保措施将侵入式国家监控永久常态化（permanently normalize surveillance）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 2)",
+      "sort_order": 3,
+      "content": "Rising nearly fourteen thousand feet above the Pacific Ocean, the dormant volcano of Mauna Kea on Hawaii's Big Island is revered by global astronomers as the premier observatory site on Earth. Its cloudless alpine summit, situated above forty percent of the planet's atmosphere with negligible light pollution, offers unparalleled atmospheric clarity for probing the deep cosmos. For decades, international astronomical consortia have operated a constellation of world-class telescopes along its volcanic ridge.\n\nHowever, in 2014, plans to construct the Thirty Meter Telescope (TMT)—a 1.4-billion-dollar super-observatory capable of resolving the earliest stars and exoplanet atmospheres—ignited unprecedented resistance. Native Hawaiian cultural leaders, environmental activists, and grassroots community organizers established peaceful blockades across the mountain's access roads, physically halting heavy construction equipment and triggering an international controversy.\n\nTo Native Hawaiians, Mauna Kea is not merely a geographic vantage point; it is a sacred ancestral temple—the spiritual navel of the Hawaiian archipelago. In traditional Hawaiian cosmology, the summit is the sacred abode of deities, a realm so hallowed that in ancient times only the highest-ranking spiritual ali'i were permitted to ascend its peaks. Native activists argued that erecting another colossal eighteen-story industrial observatory on the summit represented the continuation of historic colonial desecration, trampling indigenous religious sovereignty for the benefit of Western scientific institutions.\n\nAstronomers were genuinely blindsided by the depth of the resistance. Many scientists had viewed the TMT as an unalloyed intellectual gift to humanity that would advance cosmic understanding and bring educational scholarships and high-paying technical jobs to the Big Island. Yet, as the standoff lengthened, progressive astronomers began to acknowledge that their scientific enthusiasm had blinded them to ethical responsibilities: science cannot operate in a cultural vacuum, and astronomical discovery cannot be pursued through the coercive subjugation of indigenous sacred heritage.\n\nThe Mauna Kea dispute represents a historic reckoning in modern science. It establishes that scientific progress must abandon its paternalistic colonial legacy and embrace genuine partnership. Finding a resolution requires scientists to listen with cultural humility, negotiate shared governance, and recognize that the universe can be honored through indigenous spiritual reverence as well as through astrophysical inquiry.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Astronomers consider the summit of Mauna Kea ideal for observatories because of its:",
+          "points": 2,
+          "sort_order": 26,
+          "options": [
+            {
+              "key": "A",
+              "text": "High altitude, clear atmosphere, and negligible light pollution."
+            },
+            {
+              "key": "B",
+              "text": "Active volcanic eruptions that illuminate night skies."
+            },
+            {
+              "key": "C",
+              "text": "Proximity to major Silicon Valley tech headquarters."
+            },
+            {
+              "key": "D",
+              "text": "Abundant supplies of liquid helium under volcanic rock."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出茂纳凯亚峰顶海拔高、云层少、光污染微弱且空气清澈，是全球天文学家公认的最佳观测宝地。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Native Hawaiian activists established blockades to halt construction because they view the mountain as:",
+          "points": 2,
+          "sort_order": 27,
+          "options": [
+            {
+              "key": "A",
+              "text": "A sacred ancestral temple and spiritual abode of deities."
+            },
+            {
+              "key": "B",
+              "text": "A private commercial ski resort reserved for native leaders."
+            },
+            {
+              "key": "C",
+              "text": "A toxic industrial waste dumping site that should be burned."
+            },
+            {
+              "key": "D",
+              "text": "An extraterrestrial landing zone for alien spacecraft."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段指出原住民将山峰视为圣山神域与精神祖庙（sacred ancestral temple, abode of deities），认为大肆兴建是殖民破坏神圣信仰。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Astronomers initially failed to anticipate native resistance because they:",
+          "points": 2,
+          "sort_order": 28,
+          "options": [
+            {
+              "key": "A",
+              "text": "Assumed the super-telescope was an unalloyed intellectual gift to humanity."
+            },
+            {
+              "key": "B",
+              "text": "Believed that Native Hawaiians were eager to demolish ancient shrines."
+            },
+            {
+              "key": "C",
+              "text": "Were legally forbidden from consulting with local government officials."
+            },
+            {
+              "key": "D",
+              "text": "Thought the mountain was located in an uninhabited Antarctic territory."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第四段指出天文学家始料未及是因为他们天真地认为巨型望远镜是带给全人类纯粹的智识馈赠，忽略了在地文化情感。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The standoff on Mauna Kea caused progressive astronomers to realize that:",
+          "points": 2,
+          "sort_order": 29,
+          "options": [
+            {
+              "key": "A",
+              "text": "Scientific discovery cannot justify trampling indigenous sacred heritage."
+            },
+            {
+              "key": "B",
+              "text": "Telescopes can function perfectly well without mirror lenses."
+            },
+            {
+              "key": "C",
+              "text": "Outer space astronomy should be completely abolished."
+            },
+            {
+              "key": "D",
+              "text": "Native Hawaiians refused to accept educational scholarships."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节理解题。第四段末句指出学者们开始反思：科学不能在文化真空中运转，探索宇宙不能以压制和践踏原住民神圣遗产为代价。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The author concludes that modern science must resolve the dispute by:",
+          "points": 2,
+          "sort_order": 30,
+          "options": [
+            {
+              "key": "A",
+              "text": "Abandoning colonial paternalism and embracing cultural partnership."
+            },
+            {
+              "key": "B",
+              "text": "Using military police to forcibly remove all native protesters."
+            },
+            {
+              "key": "C",
+              "text": "Auctioning the volcano summit to private real estate hotels."
+            },
+            {
+              "key": "D",
+              "text": "Banning all religious practices throughout the state of Hawaii."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨态度题。末段总结指出科学界必须抛弃居高临下的殖民傲慢，以文化谦逊的心态与原住民建立真正的共治伙伴关系（embrace cultural partnership）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 3)",
+      "sort_order": 4,
+      "content": "In the macroeconomic analysis of twenty-first-century labor markets, few trends have generated as much consternation as \"job polarization.\" Pioneered by MIT labor economist David Autor, polarization theory demonstrates that computerization and automation do not distribute employment disruptions uniformly across wage strata. Instead, technological progress hollows out the middle tier of employment while simultaneously stimulating growth at the high-skill and low-skill extremes.\n\nThe mechanics of this polarization pivot upon the nature of job tasks. Computer algorithms and robotic systems excel at executing \"routine tasks\"—activities that can be broken down into predictable, codifiable rules and algorithmic instructions. In the twentieth century, these routine cognitive and manual tasks underpinned vast swathes of stable, middle-class occupations: assembly-line manufacturing, bookkeeping, payroll processing, bank telling, and clerical travel booking. Over the past three decades, software bots and factory automation have decimated these middle-skill careers.\n\nIn contrast, tasks situated at the polar extremes of the skill spectrum resist automation. At the upper tier, \"non-routine abstract tasks\"—demanding strategic leadership, complex mathematical reasoning, creative problem-solving, and persuasive communication—are highly augmented by computers. Software makes quantitative hedge fund managers, biopharmaceutical researchers, and corporate litigators vastly more productive, generating skyrocketing compensation.\n\nAt the lower tier, \"non-routine manual tasks\"—such as home eldercare, hospitality cooking, landscaping, and plumbing—require sensory dexterity, physical mobility, and situational adaptability that remain far beyond the capabilities of contemporary robotics. Because these service roles cannot be outsourced or automated, employment in low-wage personal services has expanded dramatically.\n\nThe societal consequence of this hollowing out is the collapse of the traditional economic escalator. Historically, an ambitious high-school graduate could enter a manufacturing plant or commercial bank, master a clerical trade, and achieve middle-class homeownership. Today, the disappearance of middle-skill rungs leaves workers trapped in precarious, low-wage service sectors with negligible mobility. Rebuilding the middle class requires reforming education, strengthening labor bargaining rights, and redesigning wage policies to ensure that essential service labor provides dignified, family-sustaining compensation.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "The term 'job polarization' describes a labor market trend where:",
+          "points": 2,
+          "sort_order": 31,
+          "options": [
+            {
+              "key": "A",
+              "text": "Middle-skill jobs disappear while high-skill and low-skill roles expand."
+            },
+            {
+              "key": "B",
+              "text": "All workers across every industry receive identical annual pay."
+            },
+            {
+              "key": "C",
+              "text": "The entire human labor force is replaced by factory robots."
+            },
+            {
+              "key": "D",
+              "text": "Governments ban young graduates from attending universities."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】概念事实题。第一段指出“就业极化（job polarization）”是指中间层中等技能职位被技术掏空，而高技能和低技能两端岗位反而扩张（hollowing out the middle）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Computer algorithms historically replaced middle-skill occupations because those jobs:",
+          "points": 2,
+          "sort_order": 32,
+          "options": [
+            {
+              "key": "A",
+              "text": "Consisted of routine, codifiable rules easily executed by software."
+            },
+            {
+              "key": "B",
+              "text": "Demanded excessive physical hand-to-hand combat skills."
+            },
+            {
+              "key": "C",
+              "text": "Were legally declared treasonous by international courts."
+            },
+            {
+              "key": "D",
+              "text": "Required employees to live in underwater laboratories."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第二段指出流水线、簿记等中等职位由“常规任务（routine tasks）”构成，易于被编程规则化并被软件替代。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "High-skill professions have experienced soaring compensation because technology:",
+          "points": 2,
+          "sort_order": 33,
+          "options": [
+            {
+              "key": "A",
+              "text": "Augments complex abstract tasks like strategic analysis and creativity."
+            },
+            {
+              "key": "B",
+              "text": "Forces senior corporate executives to work 120 hours weekly."
+            },
+            {
+              "key": "C",
+              "text": "Eliminates all federal corporate income taxes on profits."
+            },
+            {
+              "key": "D",
+              "text": "Bans anyone without a medical degree from trading stocks."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段指出高技能岗位涉及非例行抽象任务，计算机非但不能取代，反而强化了其生产力（augmented by computers），推高了薪酬。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Low-wage service jobs like plumbing and eldercare resist automation because they:",
+          "points": 2,
+          "sort_order": 34,
+          "options": [
+            {
+              "key": "A",
+              "text": "Demand physical dexterity and situational adaptability beyond robots."
+            },
+            {
+              "key": "B",
+              "text": "Are protected by international military peacekeeping troops."
+            },
+            {
+              "key": "C",
+              "text": "Require advanced doctoral degrees in theoretical astrophysics."
+            },
+            {
+              "key": "D",
+              "text": "Are performed exclusively inside nuclear energy reactors."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果细节题。第四段指出非例行体力任务（如水工、养老照料）需要极高的触觉灵活度和情境应变力，现代机器人根本无法企及。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is the primary social hazard of the collapse of middle-tier jobs?",
+          "points": 2,
+          "sort_order": 35,
+          "options": [
+            {
+              "key": "A",
+              "text": "Workers lose upward economic mobility and are trapped in precarious wages."
+            },
+            {
+              "key": "B",
+              "text": "High-school diplomas are permanently banned by national laws."
+            },
+            {
+              "key": "C",
+              "text": "Commercial banks refuse to issue paper credit cards."
+            },
+            {
+              "key": "D",
+              "text": "All young citizens choose to leave cities and live in caves."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】结论主旨题。末段指出传统阶层跃升阶梯断裂（collapse of the economic escalator），工薪劳动者被困于低薪不稳定服务业，丧失向上流动机会。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 4)",
+      "sort_order": 5,
+      "content": "In the constitutional governance of the United States, the Supreme Court was designed by the Framers of the Constitution to stand as an insulated, apolitical citadel of jurisprudence. Awarded lifetime tenure and protected against compensation reductions, federal justices were envisioned as neutral arbiters who would interpret statutory text and constitutional principles without regard to electoral tides or partisan factions. Over recent decades, however, the confirmation process for federal justices has degenerated into bitter, hyper-partisan warfare.\n\nThe roots of this institutional breakdown can be traced to the Robert Bork confirmation battle of 1987, when the Senate rejected President Ronald Reagan's conservative judicial nominee after an unprecedented national public campaign focused on Bork's judicial ideology. That seismic clash inaugurated an era of scorched-earth confirmation politics. What was once a dignified Senate review of legal qualifications, temperament, and ethical integrity has mutated into an ideological bloodsport, where judicial nominees undergo hostile cross-examinations and political parties wage multimillion-dollar television advertising blitzes.\n\nThe strategic manipulation reached a historic climax in 2016, when Senate Republican leadership refused to grant a confirmation hearing or floor vote to Judge Merrick Garland, President Barack Obama's nominee to replace the late Justice Antonin Scalia. By holding the vacancy open for nearly a year until after the presidential election, the Senate majority shattered long-standing institutional norms, setting a precedent that judicial vacancies could be blocked purely on raw legislative calculation.\n\nThe societal repercussions of this politicized warfare are deeply corrosive. When judicial appointments are perceived as raw partisan conquests, public faith in the impartiality of the judiciary evaporates. Citizens increasingly view Supreme Court justices not as independent guardians of the rule of law, but as partisan politicians in black robes executing the ideological agendas of the presidents who appointed them.\n\nDepolarizing the judiciary requires structural and procedural renewal. Legal scholars have proposed instituting eighteen-year term limits for Supreme Court justices, creating a predictable biennial appointment cadence that depoliticizes unexpected vacancies. Furthermore, adopting supermajority confirmation requirements could compel presidents to nominate consensus, moderate jurists. Rebuilding judicial credibility is vital for democratic health, ensuring that the highest court remains an anchor of constitutional stability rather than a casualty of partisan factionalism.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "The Framers of the Constitution granted federal justices lifetime tenure in order to:",
+          "points": 2,
+          "sort_order": 36,
+          "options": [
+            {
+              "key": "A",
+              "text": "Insulate them from electoral politics and ensure neutral jurisprudence."
+            },
+            {
+              "key": "B",
+              "text": "Allow them to command state national guard military divisions."
+            },
+            {
+              "key": "C",
+              "text": "Prevent them from ever reading any newspapers or books."
+            },
+            {
+              "key": "D",
+              "text": "Ensure they earned higher wages than private Wall Street bankers."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出制宪先贤确立终身制是为了让法官免受选举和党派政治干扰，作为中立裁判官独立裁决（insulated, apolitical citadel）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The 1987 Robert Bork confirmation battle was historic because it:",
+          "points": 2,
+          "sort_order": 37,
+          "options": [
+            {
+              "key": "A",
+              "text": "Turned judicial confirmation into an aggressive ideological battleground."
+            },
+            {
+              "key": "B",
+              "text": "Resulted in the permanent abolition of the United States Senate."
+            },
+            {
+              "key": "C",
+              "text": "Prompted all federal judges to resign from office simultaneously."
+            },
+            {
+              "key": "D",
+              "text": "Established a constitutional ban on appointing female judges."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第二段指出1987年博克提名战拉开了“焦土式确认政治”的序幕，将审查法官资质演化为残忍的意识形态争夺战。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The Senate's refusal to consider Merrick Garland's nomination in 2016 was notable for:",
+          "points": 2,
+          "sort_order": 38,
+          "options": [
+            {
+              "key": "A",
+              "text": "Breaking long-standing norms by blocking a vacancy for raw political leverage."
+            },
+            {
+              "key": "B",
+              "text": "Enforcing a constitutional amendment abolishing the Supreme Court."
+            },
+            {
+              "key": "C",
+              "text": "Requiring the President to appoint a military general to the bench."
+            },
+            {
+              "key": "D",
+              "text": "Forbidding the Senate from ever meeting again in Washington."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第三段指出参议院多数派打破多年体制惯例，将空缺搁置近一年，开创了纯粹基于政治算计封锁法官任命的先例。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "According to Paragraph 4, hyper-partisan confirmation fights cause the public to:",
+          "points": 2,
+          "sort_order": 39,
+          "options": [
+            {
+              "key": "A",
+              "text": "View justices as partisan politicians rather than neutral legal arbiters."
+            },
+            {
+              "key": "B",
+              "text": "Refuse to pay any municipal or state property taxes."
+            },
+            {
+              "key": "C",
+              "text": "Demand that all legal courthouses be closed on weekdays."
+            },
+            {
+              "key": "D",
+              "text": "Elect Supreme Court justices through annual reality TV votes."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节理解题。第四段指出党派恶斗摧毁了公众信任，人们不再视大法官为中立法治捍卫者，而是穿黑袍的党派政客（partisan politicians in robes）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Which reform is proposed by scholars to depoliticize Supreme Court appointments?",
+          "points": 2,
+          "sort_order": 40,
+          "options": [
+            {
+              "key": "A",
+              "text": "Establishing eighteen-year term limits and supermajority confirmation rules."
+            },
+            {
+              "key": "B",
+              "text": "Selecting justices through random lottery among high-school students."
+            },
+            {
+              "key": "C",
+              "text": "Prohibiting any lawyer from ever serving on the Supreme Court."
+            },
+            {
+              "key": "D",
+              "text": "Relocating the Supreme Court building to an offshore island."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨结论题。末段指出学者提出设18年任期限制（eighteen-year term limits）并实行绝对多数确认制，迫使提名走温和共识路线。"
+        }
+      ]
+    },
+    {
+      "title": "Section II: Reading Comprehension Part B (新题型 41-45题)",
+      "section_type": "reading",
+      "sort_order": 6,
+      "content": "The emergence of autonomous artificial agents capable of reasoning, synthesizing empirical literature, and formulating hypotheses is initiating a paradigm shift in the scientific method. Traditionally, scientific discoveries were generated through a hypothesis-driven process formulated solely by human intellect.\n\n[41] ____________________________________________________________________\n\nAutomated laboratory platforms can run tens of thousands of experimental variations per day, testing chemical reactions or genomic alterations with precision that far exceeds human capabilities. However, data generation alone does not constitute scientific understanding.\n\n[42] ____________________________________________________________________\n\nThis epistemic asymmetry poses profound dilemmas for peer review and scientific verification. If an artificial intelligence identifies a novel molecular compound capable of curing an aggressive pathogen, but human biochemists cannot retrace the generative logic behind the discovery, should the treatment be authorized for clinical trials?\n\n[43] ____________________________________________________________________\n\nFurthermore, scientific mentorship and serendipitous insight risk degradation if doctoral candidates are reduced to passive technicians who merely execute machine-generated research directives.\n\n[44] ____________________________________________________________________\n\nTo safeguard scientific integrity, leading research universities and international academies are establishing 'human-in-the-loop' governance charters. Under these frameworks, algorithmic tools must provide verifiable provenance for every claim, and human co-authors remain legally accountable for methodological rigor.\n\n[45] ____________________________________________________________________\n\nUltimately, artificial intelligence should be embraced not as an autonomous oracle that supplants human scientists, but as an intellectual telescope that expands our capacity to illuminate natural mysteries.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [41]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】[41] 空格：承接上文'hypothesis-driven process formulated solely by human intellect'，A 选项讲述如今机器学习模型通读数百万论文挖掘跨学科关联，形成承上启下对比，选 A。",
+          "points": 2,
+          "sort_order": 41
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [42]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】[42] 空格：前文提到'数据生成本身不等于科学理解'，后文紧跟'This epistemic asymmetry'（这种认识论上的不对称/黑箱），C 选项准确阐述复杂神经网络如黑箱般只给预测不给因果解释，选 C。",
+          "points": 2,
+          "sort_order": 42
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [43]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】[43] 空格：前文提出临床试验能否仅凭 AI 结论批准的疑问，B 选项直接做出回答：人类研究人员必须保留最终的临床试验伦理审批权，选 B。",
+          "points": 2,
+          "sort_order": 43
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [44]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】[44] 空格：紧扣前文'doctoral candidates are reduced to passive technicians'，E 选项指出青年科学家需要通过试错与沉思培养直觉，选 E。",
+          "points": 2,
+          "sort_order": 44
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [45]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】[45] 空格：承接前文'algorithmic tools must provide verifiable provenance'治理规约，F 选项强调开源训练数据与代码的透明度要求，选 F。",
+          "points": 2,
+          "sort_order": 45
+        }
+      ]
+    }
+  ]
+}

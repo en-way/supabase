@@ -9,6 +9,8 @@
     "lint": "next lint",
     "crawl:cet": "node scripts/crawler_cet.js",
     "seed:cet": "node scripts/seed_cet.js",
+    "build:data": "node scripts/build_full_datasets.mjs",
+    "seed:all": "node scripts/seed_all_objective_exams.mjs",
     "export:static": "node scripts/export_exams_to_static.mjs"
   },
   "dependencies": {

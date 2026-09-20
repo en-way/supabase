@@ -131,9 +131,13 @@ function ExamContent() {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
       const key = e.key.toUpperCase();
-      if (["A", "B", "C", "D"].includes(key)) {
+      const currentQ = questions[focusedIndex];
+      const validKeys = currentQ
+        ? normalizeOptions(currentQ.options).map((o) => o.key)
+        : ["A", "B", "C", "D"];
+
+      if (validKeys.includes(key)) {
         e.preventDefault();
-        const currentQ = questions[focusedIndex];
         if (currentQ) {
           handleSelectAnswer(currentQ.id, key);
         }
@@ -559,10 +563,11 @@ function ExamContent() {
                 </h4>
 
                 {/* Tactile Option Buttons */}
-                <div className="space-y-2.5">
+                <div className={options.length > 5 ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2" : "space-y-2.5"}>
                   {options.map((opt) => {
                     const isSelected = userAns === opt.key;
                     const isTheCorrectKey = opt.key === q.correct_answer;
+                    const isGrid = options.length > 5;
 
                     let optionCls = "bg-stone-50/70 dark:bg-zinc-900/70 border-black/[0.06] dark:border-cyan-500/20 text-stone-800 dark:text-zinc-200 hover:bg-stone-100/70 dark:hover:bg-zinc-800/70";
                     let badgeCls = "bg-white dark:bg-zinc-800 border-black/[0.08] dark:border-cyan-500/25 text-stone-700 dark:text-zinc-300";
@@ -589,13 +594,18 @@ function ExamContent() {
                           handleSelectAnswer(q.id, opt.key);
                         }}
                         disabled={isSubmitted}
-                        className={`w-full p-3 sm:p-3.5 rounded-xl border text-left flex items-start space-x-3 transition-all duration-150 active:scale-[0.99] ${optionCls}`}
+                        className={isGrid
+                          ? `p-2 sm:p-2.5 rounded-xl border text-left flex items-center space-x-2 transition-all duration-150 active:scale-[0.98] ${optionCls}`
+                          : `w-full p-3 sm:p-3.5 rounded-xl border text-left flex items-start space-x-3 transition-all duration-150 active:scale-[0.99] ${optionCls}`}
+                        title={opt.text}
                       >
                         <span className={`w-6 h-6 rounded-lg text-xs font-bold font-mono flex items-center justify-center shrink-0 border ${badgeCls}`}>
                           {opt.key}
                         </span>
-                        <span className="text-xs sm:text-sm pt-0.5 flex-1 leading-relaxed">{opt.text}</span>
-                        {!isSubmitted && (
+                        <span className={`text-xs ${isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"} flex-1`}>
+                          {opt.text}
+                        </span>
+                        {!isSubmitted && !isGrid && (
                           <span className={`text-[10px] font-mono hidden sm:inline ml-auto pt-0.5 ${isSelected ? "text-emerald-100 dark:text-[#090a0f]/80" : "text-stone-400 dark:text-zinc-500"}`}>
                             [{opt.key}]
                           </span>

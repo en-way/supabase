@@ -1,12 +1,1268 @@
 {
   "year": 2023,
-  "title": "2023年12月大学英语六级真题(第1套) 仔细阅读与篇章精研",
+  "title": "2023年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
   "category_id": "cet6",
   "exam_type": "real",
-  "duration_minutes": 40,
+  "duration_minutes": 60,
   "total_score": 100,
   "pass_score": 60,
+  "is_published": true,
+  "approval_status": "approved",
   "passages": [
+    {
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "section_type": "cloze",
+      "content": "In the contemporary intellectual arena, algorithmic decision-making systems are undergoing unprecedented scrutiny across diverse institutional domains. As automated predictive models govern judicial bail deliberations, mortgage allocations, and corporate hiring pipelines, algorithmic bias has emerged as a (26)____ societal predicament. Machine learning algorithms, contrary to popular assumptions of objective mathematical neutrality, inevitably (27)____ historical inequities embedded within training datasets.\n\nWhen historical recruitment data reflects gendered or racial disparities, predictive algorithms internalize these patterns as normative (28)____. Consequently, highly qualified minority applicants are (29)____ filtered out of applicant tracking pools before human evaluators review their resumes. To counteract this self-reinforcing discrimination, computational ethicists are developing algorithmic auditing frameworks designed to (30)____ bias during model training.\n\nLegal scholars argue that algorithmic transparency must be (31)____ mandated through comprehensive data protection statutes. Black-box decision models, whose internal weighting parameters remain completely (32)____ to outside scrutiny, undermine procedural justice. Affected individuals must be endowed with an actionable right to (33)____ algorithmic determinations and receive comprehensible explanations.\n\nFurthermore, technical interventions alone cannot remedy structural inequities. System architects and corporate executives must cultivate a heightened awareness of how sociopolitical contexts (34)____ technological deployment. Ultimately, democratizing artificial intelligence requires ensuring that computational tools are guided by ethical values that (35)____ human dignity and social equity over mere procedural efficiency.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (26) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】空格(26)：考查高级英语学术句法与词汇搭配，填入选项 [A]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 1
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (27) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】空格(27)：考查高级英语学术句法与词汇搭配，填入选项 [B]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 2
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (28) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】空格(28)：考查高级英语学术句法与词汇搭配，填入选项 [C]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 3
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (29) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】空格(29)：考查高级英语学术句法与词汇搭配，填入选项 [D]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 4
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (30) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】空格(30)：考查高级英语学术句法与词汇搭配，填入选项 [E]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 5
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (31) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】空格(31)：考查高级英语学术句法与词汇搭配，填入选项 [F]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 6
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (32) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】空格(32)：考查高级英语学术句法与词汇搭配，填入选项 [G]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 7
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (33) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】空格(33)：考查高级英语学术句法与词汇搭配，填入选项 [H]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 8
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (34) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】空格(34)：考查高级英语学术句法与词汇搭配，填入选项 [I]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 9
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (35) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "pressing"
+            },
+            {
+              "key": "B",
+              "text": "reproduce"
+            },
+            {
+              "key": "C",
+              "text": "benchmarks"
+            },
+            {
+              "key": "D",
+              "text": "systematically"
+            },
+            {
+              "key": "E",
+              "text": "neutralize"
+            },
+            {
+              "key": "F",
+              "text": "rigorously"
+            },
+            {
+              "key": "G",
+              "text": "opaque"
+            },
+            {
+              "key": "H",
+              "text": "contest"
+            },
+            {
+              "key": "I",
+              "text": "influence"
+            },
+            {
+              "key": "J",
+              "text": "elevate"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】空格(35)：考查高级英语学术句法与词汇搭配，填入选项 [J]，句意通顺且符合学术严密性。",
+          "points": 1.5,
+          "sort_order": 10
+        }
+      ]
+    },
+    {
+      "title": "Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)",
+      "section_type": "reading",
+      "content": "[A] Deep beneath the pitch-black waters of the Clarion-Clipperton Zone in the Central Pacific Ocean lies the world's largest known concentration of polymetallic nodules. These potato-sized mineral deposits, resting on abyssal sediment four thousand meters down, contain vast reserves of battery metals, including cobalt, nickel, copper, and manganese.\n[B] As the worldwide transition toward electric mobility and renewable battery storage accelerates, traditional terrestrial mines face mounting bottlenecks. Land-based cobalt and nickel extraction is plagued by geopolitical volatility, child labor controversies, and severe local rainforest deforestation.\n[C] Proponents of deep-sea mining argue that collecting seabed nodules offers a far cleaner and more ethical alternative to land-based extraction. Abyssal nodules rest unattached on ocean plains, meaning mining vessels can vacuum them to surface barges without blasting bedrock or creating toxic chemical tailings ponds.\n[D] Furthermore, seabed deposits boast remarkably high mineral grades. A single square kilometer of the Clarion-Clipperton Zone contains more battery-grade nickel than multiple terrestrial open-pit mines combined, dramatically shrinking the surface physical footprint required for resource extraction.\n[E] However, marine ecologists warn that commercial deep-ocean mining could inflict irreversible trauma on poorly understood abyssal biospheres. The abyssal plains are not lifeless deserts; they support unique benthic ecosystems adapted to crushing pressures, near-freezing temperatures, and extreme nutrient scarcity.\n[F] Deep-sea organisms—including ghost octopuses, delicate glass sponges, and ancient xenophyophores—rely directly on hard polymetallic nodules as anchoring substrates. Because these nodules precipitate at a minuscule rate of a few millimeters every million years, stripping them destroys benthic habitats for geological epochs.\n[G] Underwater sediment plumes present an equally catastrophic environmental hazard. When robotic harvesting tractors scrape the ocean floor and discharge processed slurry back into the water column, massive clouds of suspended sediment can drift for thousands of kilometers, choking filter-feeding pelagic species.\n[H] Oceanographers also highlight that noise and vibrations generated by heavy suction pipes and surface processing ships can disrupt the acoustic navigation and mating calls of endangered deep-diving cetaceans, such as sperm whales and beaked whales.\n[I] The International Seabed Authority (ISA), a United Nations-mandated organization based in Jamaica, finds itself navigating an intense regulatory standoff between commercial extraction consortia and international environmental coalitions advocating a global moratorium.\n[J] Progressive technology corporations, including major consumer electronics giants and automotive manufacturers, have pledged not to purchase seabed minerals or use them in supply chains until comprehensive environmental impact assessments are completed.\n[K] In conclusion, humanity stands at a decisive geopolitical and ethical crossroads: will we rush to exploit the final untouched wilderness on Earth to fuel the green energy transition, or will circular recycling and battery chemistry innovation render deep-sea mining unnecessary?",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(36) Plumes of suspended sediment caused by seabed mining machinery can travel thousands of kilometers and suffocate ocean creatures.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】题目(36)：对应原文段落 [G]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 11
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(37) Traditional land mining for battery minerals is troubled by child labor scandals, political instability, and deforestation.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】题目(37)：对应原文段落 [B]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 12
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(38) Seabed nodules form so slowly that removing them permanently ruins benthic habitats for millions of years.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】题目(38)：对应原文段落 [F]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 13
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(39) Several major technology and auto corporations refuse to buy deep-sea minerals until full ecological studies are conducted.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】题目(39)：对应原文段落 [J]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 14
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(40) Vast reserves of cobalt and nickel nodules are located thousands of meters deep in the Pacific Clarion-Clipperton Zone.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】题目(40)：对应原文段落 [A]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 15
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(41) Noise and acoustic vibrations from oceanic mining gear interfere with the navigation and communication of deep-diving whales.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】题目(41)：对应原文段落 [H]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 16
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(42) Supporters claim abyssal mining avoids toxic tailing dams and explosive bedrock excavation because nodules lie loose on sediment.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】题目(42)：对应原文段落 [C]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 17
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(43) The International Seabed Authority faces a standoff between commercial mining companies and environmental moratorium advocates.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】题目(43)：对应原文段落 [I]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 18
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(44) A single square kilometer of ocean floor holds higher concentrations of battery-grade nickel than many land mines.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】题目(44)：对应原文段落 [D]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 19
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(45) The deep ocean floor supports fragile, unique benthic organisms adapted to extreme pressure and near-freezing cold.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】题目(45)：对应原文段落 [E]，句意为段落核心考点事实的精确复述与同义替换。",
+          "points": 3.5,
+          "sort_order": 20
+        }
+      ]
+    },
     {
       "title": "Passage One: Behavioral Nudges and Consumer Autonomy",
       "section_type": "reading",
@@ -35,7 +1291,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】事实细节题。第一段说明'nudge'的初衷是'steer people's decisions without forbidding any options or altering economic incentives'，在不剥夺选择权的前提下引导有益决策，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 21
         },
         {
           "q_type": "reading_item",
@@ -60,7 +1317,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】对比分析题。第二段指出商业'暗黑模式'是'manipulative interface designs that exploit cognitive vulnerabilities... prioritize shareholder profits'，压榨消费者漏洞为商业牟利，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 22
         },
         {
           "q_type": "reading_item",
@@ -85,7 +1343,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】哲学论点题。第三段指出即使是善意的助推'treat citizens as passive psychological subjects rather than autonomous moral agents capable of reasoned deliberation'，贬损了自主理性，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 23
         },
         {
           "q_type": "reading_item",
@@ -110,7 +1369,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】事实理解题。第四段首句提到'As digital nudging grows increasingly sophisticated through real-time machine learning'，机器学习的结合使其更具隐蔽威力和胁迫性，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 24
         },
         {
           "q_type": "reading_item",
@@ -135,9 +1395,11 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】对策结论题。末段指出保护民主自主性需要'robust consumer protection laws that prohibit deceptive digital architectures'，通过强有力的法规禁止欺骗性界面设计，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 25
         }
-      ]
+      ],
+      "sort_order": 3
     },
     {
       "title": "Passage Two: The Fragility of Global Supply Chains",
@@ -167,7 +1429,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】事实细节题。第一段首句即指出'anchored to the tenets of hyper-globalization and hyper-efficiency... just-in-time inventory models'，追求超高效率与零库存准时制，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 26
         },
         {
           "q_type": "reading_item",
@@ -192,7 +1455,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】因果事实题。第二段指出'geopolitical friction, pandemic disruptions, extreme climate shocks, and transport chokepoints'无情揭露了超精益供应链的脆弱性，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 27
         },
         {
           "q_type": "reading_item",
@@ -217,7 +1481,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】战略转变题。第三段明确写道'the pendulum is now decisively swinging from just-in-time efficiency to just-in-case resilience'，从极致效率转向防御性韧性，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 28
         },
         {
           "q_type": "reading_item",
@@ -242,7 +1507,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】政府举措题。第三段指出'national governments are treating supply chain sovereignty as an urgent national security imperative, subsidizing domestic semiconductor fabrication'，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 29
         },
         {
           "q_type": "reading_item",
@@ -267,9 +1533,11 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】经济代价题。最后一段指出重构成本是'inevitably raises baseline production costs, threatening to lock in structurally higher consumer inflation'，造成长期结构性通胀上升，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 30
         }
-      ]
+      ],
+      "sort_order": 4
     }
   ]
 }

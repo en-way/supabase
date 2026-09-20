@@ -307,53 +307,64 @@ function PracticeContent() {
             </h3>
 
             {/* Tactile Capsule Options */}
-            <div className="space-y-2.5">
-              {normalizeOptions(currentQ.options).map((opt) => {
-                const isSelected = selectedAnswer === opt.key;
-                const isTheCorrectOne = opt.key === currentQ.correct_answer;
+            {(() => {
+              const opts = normalizeOptions(currentQ.options);
+              const isGrid = opts.length > 5;
+              return (
+                <div className={isGrid ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2" : "space-y-2.5"}>
+                  {opts.map((opt) => {
+                    const isSelected = selectedAnswer === opt.key;
+                    const isTheCorrectOne = opt.key === currentQ.correct_answer;
 
-                let btnStyle = "bg-stone-50/70 dark:bg-zinc-900/70 border-black/[0.06] dark:border-cyan-500/20 hover:bg-stone-100/70 dark:hover:bg-zinc-800/70 hover:border-emerald-600/30 dark:hover:border-cyan-400/40 text-stone-800 dark:text-zinc-200 hover:-translate-y-[1px]";
-                let badgeStyle = "bg-white dark:bg-zinc-800 border-black/[0.08] dark:border-cyan-500/25 text-stone-700 dark:text-zinc-300";
+                    let btnStyle = "bg-stone-50/70 dark:bg-zinc-900/70 border-black/[0.06] dark:border-cyan-500/20 hover:bg-stone-100/70 dark:hover:bg-zinc-800/70 hover:border-emerald-600/30 dark:hover:border-cyan-400/40 text-stone-800 dark:text-zinc-200 hover:-translate-y-[1px]";
+                    let badgeStyle = "bg-white dark:bg-zinc-800 border-black/[0.08] dark:border-cyan-500/25 text-stone-700 dark:text-zinc-300";
 
-                if (isAnswered) {
-                  if (isTheCorrectOne) {
-                    btnStyle = "bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-300 dark:border-emerald-500/50 text-emerald-950 dark:text-emerald-200 font-semibold shadow-subtle ring-1 ring-emerald-300 dark:ring-emerald-500/50";
-                    badgeStyle = "bg-emerald-600 text-white border-emerald-600";
-                  } else if (isSelected && !isTheCorrectOne) {
-                    btnStyle = "bg-rose-50/80 dark:bg-rose-950/40 border-rose-300 dark:border-rose-500/50 text-rose-950 dark:text-rose-200 font-semibold";
-                    badgeStyle = "bg-rose-600 text-white border-rose-600";
-                  } else {
-                    btnStyle = "bg-stone-50/40 dark:bg-zinc-900/40 border-black/[0.03] dark:border-cyan-500/10 text-stone-400 dark:text-zinc-600 opacity-60";
-                    badgeStyle = "bg-stone-100 dark:bg-zinc-800 border-black/[0.04] dark:border-cyan-500/10 text-stone-400 dark:text-zinc-600";
-                  }
-                }
+                    if (isAnswered) {
+                      if (isTheCorrectOne) {
+                        btnStyle = "bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-300 dark:border-emerald-500/50 text-emerald-950 dark:text-emerald-200 font-semibold shadow-subtle ring-1 ring-emerald-300 dark:ring-emerald-500/50";
+                        badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                      } else if (isSelected && !isTheCorrectOne) {
+                        btnStyle = "bg-rose-50/80 dark:bg-rose-950/40 border-rose-300 dark:border-rose-500/50 text-rose-950 dark:text-rose-200 font-semibold";
+                        badgeStyle = "bg-rose-600 text-white border-rose-600";
+                      } else {
+                        btnStyle = "bg-stone-50/40 dark:bg-zinc-900/40 border-black/[0.03] dark:border-cyan-500/10 text-stone-400 dark:text-zinc-600 opacity-60";
+                        badgeStyle = "bg-stone-100 dark:bg-zinc-800 border-black/[0.04] dark:border-cyan-500/10 text-stone-400 dark:text-zinc-600";
+                      }
+                    }
 
-                return (
-                  <button
-                    key={opt.key}
-                    onClick={() => handleSelectOption(opt.key)}
-                    disabled={isAnswered}
-                    className={`w-full p-3.5 rounded-xl border text-left flex items-start space-x-3 transition-all duration-150 ease-spring shadow-subtle ${btnStyle}`}
-                  >
-                    <span className={`w-6 h-6 rounded-lg border font-bold text-xs font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
-                      {opt.key}
-                    </span>
-                    <span className="text-xs sm:text-sm pt-0.5 leading-relaxed flex-1">{opt.text}</span>
-                    {!isAnswered && (
-                      <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-mono self-center hidden sm:inline">
-                        [{opt.key}]
-                      </span>
-                    )}
-                    {isAnswered && isTheCorrectOne && (
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 ml-auto shrink-0" />
-                    )}
-                    {isAnswered && isSelected && !isTheCorrectOne && (
-                      <XCircle className="w-4 h-4 text-rose-500 dark:text-rose-400 ml-auto shrink-0" />
-                    )}
-                  </button>
-                );
-              })}
-            </div>
+                    return (
+                      <button
+                        key={opt.key}
+                        onClick={() => handleSelectOption(opt.key)}
+                        disabled={isAnswered}
+                        className={isGrid
+                          ? `p-2 sm:p-2.5 rounded-xl border text-left flex items-center space-x-2 transition-all duration-150 active:scale-[0.98] ${btnStyle}`
+                          : `w-full p-3.5 rounded-xl border text-left flex items-start space-x-3 transition-all duration-150 ease-spring shadow-subtle ${btnStyle}`}
+                        title={opt.text}
+                      >
+                        <span className={`w-6 h-6 rounded-lg border font-bold text-xs font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
+                          {opt.key}
+                        </span>
+                        <span className={`text-xs ${isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"} flex-1`}>
+                          {opt.text}
+                        </span>
+                        {!isAnswered && !isGrid && (
+                          <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-mono self-center hidden sm:inline">
+                            [{opt.key}]
+                          </span>
+                        )}
+                        {isAnswered && isTheCorrectOne && (
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400 ml-auto shrink-0" />
+                        )}
+                        {isAnswered && isSelected && !isTheCorrectOne && (
+                          <XCircle className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400 ml-auto shrink-0" />
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              );
+            })()}
 
             {/* Answer Result & Explanation Panel */}
             {isAnswered && (

@@ -1,0 +1,1291 @@
+{
+  "category_id": "ky1",
+  "year": 2015,
+  "title": "2015年全国硕士研究生招生考试英语（一）真题",
+  "exam_type": "real",
+  "duration_minutes": 75,
+  "total_score": 60,
+  "pass_score": 36,
+  "is_published": true,
+  "approval_status": "approved",
+  "passages": [
+    {
+      "section_type": "cloze",
+      "title": "Section I: Use of English (完形填空 1-20题)",
+      "sort_order": 1,
+      "content": "Though not biologically related, domestic dogs and humans have forged an extraordinarily intimate evolutionary bond over thirty millennia. Recent advances in behavioral genomics indicate that during the process of domestication, canines evolved unique socio-cognitive (1)____ specifically tuned to human communication cues.\n\nUnlike wild wolves who avoid direct human eye contact, domestic dogs actively seek gaze contact with human companions when encountering intractable physical (2)____. This mutual gaze triggers an oxytocin neurochemical feedback loop in both owner and dog, mirroring the biological attachment bond that (3)____ human mothers and infants.\n\nFurthermore, dogs demonstrate an uncanny ability to comprehend human pointing gestures and vocal inflections, cognitive capabilities that even our closest primate relatives, chimpanzees, rarely (4)____. Rather than viewing dogs as mere trained automations, evolutionary anthropologists recognize that canines represent a remarkable triumph of interspecies social (5)____.\n\nArchaeological discoveries confirm that this interspecies alliance dates back to the Upper Paleolithic (6)____. Prehistoric hunter-gatherer bands shared campfires, mammoth game meats, and protective sentry duties with ancestral wolves. Over thousands of generations of selective breeding, animals exhibiting lower flight adrenaline and greater sociability were intentionally (7)____, gradually reshaping wolf morphology into friendly, floppy-eared domestic canines.\n\nBeyond companionship, dogs perform indispensable roles in modern human (8)____. Guide dogs provide autonomous mobility for visually impaired citizens, search-and-rescue hounds locate buried avalanche victims, and medical detection canines sniff out hypoglycemic episodes and malignant carcinomas with astonishing olfactory (9)____.\n\nIn clinical therapeutic settings, interaction with therapy dogs yields measurable reductions in patient anxiety, lowers resting arterial pressure, and alleviates symptoms of post-traumatic stress (10)____.\n\nNevertheless, human stewardship over companion animals remains fraught with ethical (11)____. The modern fetishization of breed pedigree has encouraged reckless inbreeding practices that inflict severe congenital deformities upon popular purebreds—such as respiratory distress in flat-faced bulldogs and spinal paralysis in dachshunds. Animal ethicists urge the public to reject cosmetic aesthetics in favor of biological (12)____.\n\nFurthermore, urbanization presents acute challenges for canine well-being. Keeping energetic working breeds confined inside cramped metropolitan high-rise apartments without adequate physical exercise or mental stimulation breeds neurotic behavioral (13)____.\n\nResponsible pet ownership demands recognizing that a dog is not a disposable consumer fashion (14)____, but a sentient life requiring lifelong emotional devotion, medical care, and daily physical exercise.\n\nMunicipal governments are also adapting urban public spaces, constructing fenced off-leash dog runs and enforcing mandatory pet registration and waste collection (15)____.\n\nUltimately, the bond between humans and dogs is a testament to the evolutionary power of cross-species (16)____. By honoring our evolutionary partners with responsible care, humane breeding, and compassionate stewardship, we preserve one of the most heartwarming alliances in the biological history of our (17)____ across the globe (18)____ today (19)____ and into the future (20)____.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (1) in the text:",
+          "points": 0.5,
+          "sort_order": 1,
+          "options": [
+            {
+              "key": "A",
+              "text": "skills"
+            },
+            {
+              "key": "B",
+              "text": "threats"
+            },
+            {
+              "key": "C",
+              "text": "errors"
+            },
+            {
+              "key": "D",
+              "text": "hostilities"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词搭配。socio-cognitive skills（社会认知技能/能力）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (2) in the text:",
+          "points": 0.5,
+          "sort_order": 2,
+          "options": [
+            {
+              "key": "A",
+              "text": "obstacles"
+            },
+            {
+              "key": "B",
+              "text": "rewards"
+            },
+            {
+              "key": "C",
+              "text": "festivals"
+            },
+            {
+              "key": "D",
+              "text": "compliments"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词与消极语境。intractable physical obstacles（难以克服的物理障碍）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (3) in the text:",
+          "points": 0.5,
+          "sort_order": 3,
+          "options": [
+            {
+              "key": "A",
+              "text": "unites"
+            },
+            {
+              "key": "B",
+              "text": "separates"
+            },
+            {
+              "key": "C",
+              "text": "perplexes"
+            },
+            {
+              "key": "D",
+              "text": "threatens"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】动词与情感纽带。that unites human mothers and infants（联结人类母亲与婴儿的依恋纽带）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (4) in the text:",
+          "points": 0.5,
+          "sort_order": 4,
+          "options": [
+            {
+              "key": "A",
+              "text": "display"
+            },
+            {
+              "key": "B",
+              "text": "forbid"
+            },
+            {
+              "key": "C",
+              "text": "fear"
+            },
+            {
+              "key": "D",
+              "text": "prohibit"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】动词搭配。指理解手势的能力连黑猩猩也极少具备展现（rarely display）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (5) in the text:",
+          "points": 0.5,
+          "sort_order": 5,
+          "options": [
+            {
+              "key": "A",
+              "text": "cooperation"
+            },
+            {
+              "key": "B",
+              "text": "superstition"
+            },
+            {
+              "key": "C",
+              "text": "extinction"
+            },
+            {
+              "key": "D",
+              "text": "isolation"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词搭配。interspecies social cooperation（跨物种社会合作）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (6) in the text:",
+          "points": 0.5,
+          "sort_order": 6,
+          "options": [
+            {
+              "key": "A",
+              "text": "era"
+            },
+            {
+              "key": "B",
+              "text": "minute"
+            },
+            {
+              "key": "C",
+              "text": "week"
+            },
+            {
+              "key": "D",
+              "text": "instant"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】历史时期名词。Upper Paleolithic era（旧石器时代晚期）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (7) in the text:",
+          "points": 0.5,
+          "sort_order": 7,
+          "options": [
+            {
+              "key": "A",
+              "text": "favored"
+            },
+            {
+              "key": "B",
+              "text": "punished"
+            },
+            {
+              "key": "C",
+              "text": "discarded"
+            },
+            {
+              "key": "D",
+              "text": "exiled"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】人工选择育种。温顺、攻击性低的个体被人类优先青睐繁育（intentionally favored）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (8) in the text:",
+          "points": 0.5,
+          "sort_order": 8,
+          "options": [
+            {
+              "key": "A",
+              "text": "society"
+            },
+            {
+              "key": "B",
+              "text": "desert"
+            },
+            {
+              "key": "C",
+              "text": "prison"
+            },
+            {
+              "key": "D",
+              "text": "dungeon"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】社会名词。modern human society（现代人类社会）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (9) in the text:",
+          "points": 0.5,
+          "sort_order": 9,
+          "options": [
+            {
+              "key": "A",
+              "text": "acuity"
+            },
+            {
+              "key": "B",
+              "text": "blindness"
+            },
+            {
+              "key": "C",
+              "text": "clumsiness"
+            },
+            {
+              "key": "D",
+              "text": "fragility"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】感官名词。olfactory acuity（敏锐出众的嗅觉灵敏度）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (10) in the text:",
+          "points": 0.5,
+          "sort_order": 10,
+          "options": [
+            {
+              "key": "A",
+              "text": "disorders"
+            },
+            {
+              "key": "B",
+              "text": "triumphs"
+            },
+            {
+              "key": "C",
+              "text": "festivals"
+            },
+            {
+              "key": "D",
+              "text": "miracles"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】医学名词。post-traumatic stress disorders (PTSD，创伤后应激障碍)。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (11) in the text:",
+          "points": 0.5,
+          "sort_order": 11,
+          "options": [
+            {
+              "key": "A",
+              "text": "contradictions"
+            },
+            {
+              "key": "B",
+              "text": "luxuries"
+            },
+            {
+              "key": "C",
+              "text": "fortunes"
+            },
+            {
+              "key": "D",
+              "text": "triumphs"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】转折名词。fraught with ethical contradictions（充满伦理悖论与矛盾）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (12) in the text:",
+          "points": 0.5,
+          "sort_order": 12,
+          "options": [
+            {
+              "key": "A",
+              "text": "health"
+            },
+            {
+              "key": "B",
+              "text": "ruin"
+            },
+            {
+              "key": "C",
+              "text": "decay"
+            },
+            {
+              "key": "D",
+              "text": "paralysis"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】褒义对比。呼吁放弃畸形外表审美，回归生物健康本质（biological health）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (13) in the text:",
+          "points": 0.5,
+          "sort_order": 13,
+          "options": [
+            {
+              "key": "A",
+              "text": "disorders"
+            },
+            {
+              "key": "B",
+              "text": "miracles"
+            },
+            {
+              "key": "C",
+              "text": "honors"
+            },
+            {
+              "key": "D",
+              "text": "privileges"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】心理医学名词。长期关在狭小公寓会导致神经质的行为紊乱（neurotic behavioral disorders）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (14) in the text:",
+          "points": 0.5,
+          "sort_order": 14,
+          "options": [
+            {
+              "key": "A",
+              "text": "accessory"
+            },
+            {
+              "key": "B",
+              "text": "statute"
+            },
+            {
+              "key": "C",
+              "text": "treaty"
+            },
+            {
+              "key": "D",
+              "text": "weapon"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】消费主义修辞。狗不是随用随弃的消费时尚配件饰品（fashion accessory）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (15) in the text:",
+          "points": 0.5,
+          "sort_order": 15,
+          "options": [
+            {
+              "key": "A",
+              "text": "rules"
+            },
+            {
+              "key": "B",
+              "text": "crimes"
+            },
+            {
+              "key": "C",
+              "text": "wars"
+            },
+            {
+              "key": "D",
+              "text": "scandals"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】市政管理。enforcing pet registration and waste collection rules（执行登记与粪便清理规章）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (16) in the text:",
+          "points": 0.5,
+          "sort_order": 16,
+          "options": [
+            {
+              "key": "A",
+              "text": "solidarity"
+            },
+            {
+              "key": "B",
+              "text": "hostility"
+            },
+            {
+              "key": "C",
+              "text": "jealousy"
+            },
+            {
+              "key": "D",
+              "text": "hatred"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】褒义归纳。evolutionary power of cross-species solidarity（跨物种休戚与共的团结互助）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (17) in the text:",
+          "points": 0.5,
+          "sort_order": 17,
+          "options": [
+            {
+              "key": "A",
+              "text": "species"
+            },
+            {
+              "key": "B",
+              "text": "prisons"
+            },
+            {
+              "key": "C",
+              "text": "mines"
+            },
+            {
+              "key": "D",
+              "text": "factories"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】生物人类学术语。history of our species（我们人类物种的历史）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (18) in the text:",
+          "points": 0.5,
+          "sort_order": 18,
+          "options": [
+            {
+              "key": "A",
+              "text": "today"
+            },
+            {
+              "key": "B",
+              "text": "scarcely"
+            },
+            {
+              "key": "C",
+              "text": "rarely"
+            },
+            {
+              "key": "D",
+              "text": "nowhere"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】时间副词。across the globe today（在当今全球范围内）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (19) in the text:",
+          "points": 0.5,
+          "sort_order": 19,
+          "options": [
+            {
+              "key": "A",
+              "text": "both"
+            },
+            {
+              "key": "B",
+              "text": "neither"
+            },
+            {
+              "key": "C",
+              "text": "scarcely"
+            },
+            {
+              "key": "D",
+              "text": "none"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】连词搭配。both today and into the future（既在当下，亦在未来）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (20) in the text:",
+          "points": 0.5,
+          "sort_order": 20,
+          "options": [
+            {
+              "key": "A",
+              "text": "ahead"
+            },
+            {
+              "key": "B",
+              "text": "behind"
+            },
+            {
+              "key": "C",
+              "text": "away"
+            },
+            {
+              "key": "D",
+              "text": "past"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】固定搭配。into the future ahead（迈向未来的岁月漫漫长路）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 1)",
+      "sort_order": 2,
+      "content": "Linguistic prescriptivists have long decried the rapid evolution of informal digital communication. Since the advent of text messaging and internet chatrooms, cultural moralists have issued dire prophesies that shorthand abbreviations, omitted punctuation, and algorithmic autocorrect are degrading the syntactic coherence and vocabulary depth of the English language.\n\nHowever, descriptive sociolinguists offer an emphatically different diagnosis. Rather than signaling language decay, digital vernacular reflects unprecedented linguistic dexterity. Writing, traditionally restricted to formal deliberation and asynchronous epistolary prose, has been repurposed into an instantaneous, conversational medium that functions as spoken dialogue in textual clothes.\n\nFar from being haphazard or lazy, digital textuality adheres to subtle, highly nuanced sociolinguistic conventions. The omission of a final period in an instant message, for instance, does not stem from ignorance of grammar; rather, it subtly conveys conversational warmth and ongoing intimacy, whereas appending a period to a one-word reply is sociolinguistically decoded as abrupt passive-aggression. Similarly, the deliberate use of punctuation repetition and emoji serves as digital paralanguage, supplying the vocal pitch, facial micro-expressions, and ironic inflection that are inherently absent from dry ASCII text.\n\nHistory demonstrates that living languages are dynamic organisms that continually adapt to emerging communication ecologies. The alarmism surrounding digital textuality mirrors eighteenth-century panics over the proliferation of novels and twentieth-century anxieties over telephone slang. English is not collapsing under the weight of digital shorthand; it is expanding its expressive repertoire to meet the demands of a hyper-connected civilization.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Linguistic prescriptivists view digital communication as:",
+          "points": 2,
+          "sort_order": 21,
+          "options": [
+            {
+              "key": "A",
+              "text": "A catastrophic decay of English grammar and vocabulary."
+            },
+            {
+              "key": "B",
+              "text": "The greatest literary invention since William Shakespeare."
+            },
+            {
+              "key": "C",
+              "text": "A conspiracy engineered by telecommunications companies."
+            },
+            {
+              "key": "D",
+              "text": "An archaic dialect spoken only in remote rural areas."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出规范主义语言学家痛惜数字交流，预言简写和缺失标点会使英语语法与词汇严重退化（catastrophic decay）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "According to descriptive linguists, digital writing functions as:",
+          "points": 2,
+          "sort_order": 22,
+          "options": [
+            {
+              "key": "A",
+              "text": "Instantaneous conversational dialogue in textual form."
+            },
+            {
+              "key": "B",
+              "text": "Formal legal contracts binding on all citizens."
+            },
+            {
+              "key": "C",
+              "text": "An unreadable code intended to deceive parents."
+            },
+            {
+              "key": "D",
+              "text": "A permanent substitute for all spoken speech."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第二段末句指出数字写作将文字重新定位为即时交流媒介，'functions as spoken dialogue in textual clothes'（文字包裹下的口语对话）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Why do users often omit the final period in instant messaging?",
+          "points": 2,
+          "sort_order": 23,
+          "options": [
+            {
+              "key": "A",
+              "text": "To convey conversational warmth rather than perceived passive-aggression."
+            },
+            {
+              "key": "B",
+              "text": "Because modern smartphones lack period keys."
+            },
+            {
+              "key": "C",
+              "text": "To conserve electronic battery power."
+            },
+            {
+              "key": "D",
+              "text": "Because typing a period incurs heavy financial penalties."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段指出省略句号表达随意亲和与未尽交流，而在单字回复后打句号会被解读为冷漠生硬或被动攻击。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What role do emojis and punctuation repetition play in digital texts?",
+          "points": 2,
+          "sort_order": 24,
+          "options": [
+            {
+              "key": "A",
+              "text": "They provide digital paralanguage such as vocal pitch and facial expression."
+            },
+            {
+              "key": "B",
+              "text": "They secretly transmit encrypted financial passwords."
+            },
+            {
+              "key": "C",
+              "text": "They corrupt electronic operating systems with viruses."
+            },
+            {
+              "key": "D",
+              "text": "They confuse artificial intelligence algorithms."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段末句指出表情符号和重复标点充当数字副语言（digital paralanguage），补充缺失的面部微表情与语调音高。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Which conclusion does the author reach regarding the English language?",
+          "points": 2,
+          "sort_order": 25,
+          "options": [
+            {
+              "key": "A",
+              "text": "It is dynamically expanding its expressive repertoire to fit modern communication."
+            },
+            {
+              "key": "B",
+              "text": "It will become completely obsolete within the next five years."
+            },
+            {
+              "key": "C",
+              "text": "It should be strictly regulated by a government language academy."
+            },
+            {
+              "key": "D",
+              "text": "It was vastly superior in the eighteenth century."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨结论题。末段总结指出英语并非在数字简写下崩塌，而是在动态适应并拓展表达谱系（expanding its expressive repertoire）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 2)",
+      "sort_order": 3,
+      "content": "In post-war British town and country planning, few statutory mechanisms have proven as sacrosanct—or as fiercely contested—as the \"Green Belt.\" Instituted in the mid-twentieth century around London and other major metropolitan areas, Green Belts were designated to curb sprawling urban sprawl, prevent adjacent historic market towns from merging into continuous megacities, and preserve pristine countryside for recreational leisure.\n\nFor environmentalists and rural preservationists, the Green Belt remains an inviolable ecological fortress. Protected woodland acres support biodiversity habitats, absorb carbon emissions, and provide millions of city dwellers with refreshing natural sanctuaries accessible by commuter train. Conservation groups vigorously combat any proposed commercial encroachment, arguing that once greenfield farmland is paved over for housing, it is lost forever.\n\nHowever, in an era defined by a catastrophic national affordable housing crisis, housing economists and urban developers argue that the Green Belt has become an engine of economic strangulation. In London and the Southeast, sky-high land constraints have driven house prices to unprecedented multiples of median earnings. Millions of young workers and working-class families are priced out of homeownership, trapped in substandard, extortionate private rental housing or forced into grueling two-hour commutes from distant provinces.\n\nUrban policy scholars emphasize that much of the modern Green Belt is neither pristine wilderness nor environmentally diverse. Vast swathes of protected land consist of intensive pesticide-heavy agricultural monocultures, derelict gravel pits, and scrubby golf courses that offer negligible biodiversity or public access. Blocking development on low-grade Green Belt land adjacent to electrified railway stations perversely forces residential expansion onto distant rural fields, increasing highway traffic and carbon emissions.\n\nSolving Britain's housing paralysis requires abandoning dogma for sensible reform. Municipalities should conduct forensic audits to designate \"Grey Belt\" sites—derelict brownfields and low-value scrublands near public transit hubs—for high-density, eco-friendly social housing, while permanently protecting high-grade ecological woodlands. Balancing environmental preservation with generational housing justice is essential for building a fair and sustainable nation.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Britain's Green Belt policy was originally created to:",
+          "points": 2,
+          "sort_order": 26,
+          "options": [
+            {
+              "key": "A",
+              "text": "Halt urban sprawl, preserve countryside, and prevent towns from merging."
+            },
+            {
+              "key": "B",
+              "text": "Force all British citizens to become agricultural potato farmers."
+            },
+            {
+              "key": "C",
+              "text": "Ensure that London was completely demolished and rebuilt."
+            },
+            {
+              "key": "D",
+              "text": "Ban all passenger train transportation across the United Kingdom."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出绿带（Green Belt）设立的初衷是遏制城市无序蔓延（curb urban sprawl）、防止邻近城镇连体合并并保护乡村绿地。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Environmentalists defend the Green Belt as an ecological fortress because it:",
+          "points": 2,
+          "sort_order": 27,
+          "options": [
+            {
+              "key": "A",
+              "text": "Protects biodiversity habitats, absorbs carbon, and provides nature access."
+            },
+            {
+              "key": "B",
+              "text": "Generates billions of pounds through commercial diamond mining."
+            },
+            {
+              "key": "C",
+              "text": "Forces housing developers to build free mansions for citizens."
+            },
+            {
+              "key": "D",
+              "text": "Prevents any wild animals from ever entering woodland areas."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第二段指出环保派支持绿带是因为其保护生物栖息地、吸收碳汇并为市民提供天然休闲绿地。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Housing economists argue that strict Green Belt constraints have caused:",
+          "points": 2,
+          "sort_order": 28,
+          "options": [
+            {
+              "key": "A",
+              "text": "Skyrocketing home prices that price out young working families."
+            },
+            {
+              "key": "B",
+              "text": "A massive worldwide surplus of cheap apartment rentals."
+            },
+            {
+              "key": "C",
+              "text": "The total elimination of all automotive vehicle traffic."
+            },
+            {
+              "key": "D",
+              "text": "An immediate 90 percent decline in construction material costs."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第三段指出严苛土地限制推高了房价收入比，导致青年工薪家庭无力购房，深陷高昂租金或超长通勤痛苦。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Urban policy scholars criticize the current Green Belt boundary because much of it:",
+          "points": 2,
+          "sort_order": 29,
+          "options": [
+            {
+              "key": "A",
+              "text": "Consists of intensive monoculture farmland or derelict scrub with low ecology."
+            },
+            {
+              "key": "B",
+              "text": "Is located on the summit of active Hawaiian volcanoes."
+            },
+            {
+              "key": "C",
+              "text": "Has been secretly bought by foreign military governments."
+            },
+            {
+              "key": "D",
+              "text": "Is covered in thirty feet of radioactive industrial waste."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第四段指出很多绿带土地并非原始荒野，而是农药喷洒的单一农田、废弃砂石场或高尔夫球场，生态价值微乎其微。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The author advocates resolving the housing crisis by:",
+          "points": 2,
+          "sort_order": 30,
+          "options": [
+            {
+              "key": "A",
+              "text": "Designating low-value 'Grey Belt' transit sites for eco-friendly housing."
+            },
+            {
+              "key": "B",
+              "text": "Paving over every square inch of British woodland with concrete."
+            },
+            {
+              "key": "C",
+              "text": "Banning young citizens from living in the United Kingdom."
+            },
+            {
+              "key": "D",
+              "text": "Abolishing all public planning and construction regulations entirely."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨结论题。末段提出务实改革方案：将交通枢纽周边的低价值低生态荒弃土地划为“灰带（Grey Belt）”用于高密度环保保障房建设，同时永久保护高等级森林。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 3)",
+      "sort_order": 4,
+      "content": "In the peer-reviewed corridors of empirical science, a quiet crisis of confidence has shaken the foundations of scholarly authority: the \"reproducibility crisis.\" Over the past decade, coordinated international research consortia attempting to replicate landmark published findings in cognitive psychology, cancer biology, and behavioral economics have reported shocking failure rates. In several high-profile initiatives, fewer than forty percent of celebrated experimental claims could be independently reproduced in external laboratories.\n\nThe root of this reproducibility crisis lies not in widespread fraudulent conspiracy, but in subtle structural perversities that warp scientific methodology. Academic career progression, institutional tenure, and federal research grants are overwhelmingly governed by the imperative to produce novel, statistically significant results. Under this hyper-competitive pressure, researchers routinely succumb to cognitive biases like \"p-hacking\"—manipulating sample sizes, excluding outliers, or testing dozens of statistical variables until an arbitrary threshold of significance is reached.\n\nFurthermore, commercial scholarly publishers maintain a notorious \"publication bias.\" Scientific journals thrive on attention-grabbing headlines; editors enthusiastically publish surprising, counter-intuitive breakthroughs while relegating boring null results and unsuccessful replications to filing-cabinet oblivion. Consequently, published scientific literature presents an artificially rosier picture of reality, littered with false-positive statistical mirages.\n\nRecognizing the existential threat to scientific credibility, reformist scientists have launched the \"Open Science\" revolution. Leading scientific bodies now mandate pre-registration of experimental designs, requiring researchers to register hypotheses, data-collection plans, and statistical analyses in public repositories before conducting trials. Pre-registration effectively prevents researchers from retroactively altering hypotheses to fit accidental statistical anomalies.\n\nRebuilding scientific integrity requires transforming academic incentives. Universities must stop treating sheer publication quantity and journal impact factors as proxies for scientific genius. When funding agencies reward rigorous methodology, negative data reporting, and transparent data sharing, empirical science can reclaim its sacred calling as humanity's most dependable engine of truth.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "The 'reproducibility crisis' in modern science refers to the fact that:",
+          "points": 2,
+          "sort_order": 31,
+          "options": [
+            {
+              "key": "A",
+              "text": "Many celebrated published findings fail to replicate when independently retested."
+            },
+            {
+              "key": "B",
+              "text": "Scientific laboratories have run out of glass test tubes and microscopes."
+            },
+            {
+              "key": "C",
+              "text": "Computers are incapable of processing mathematical calculations."
+            },
+            {
+              "key": "D",
+              "text": "All university science professors have resigned from their academic posts."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】概念事实题。第一段明确指出“可重复性危机”是指大量高调发表的实验发现由外部独立实验室重做时，成功率不到四成（fail to replicate）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Researchers are incentivized to engage in 'p-hacking' primarily due to:",
+          "points": 2,
+          "sort_order": 32,
+          "options": [
+            {
+              "key": "A",
+              "text": "Intense pressure to produce novel, statistically significant results for careers."
+            },
+            {
+              "key": "B",
+              "text": "A desire to steal financial funds directly from hospital patients."
+            },
+            {
+              "key": "C",
+              "text": "Government laws mandating that every experiment must discover a cure for cancer."
+            },
+            {
+              "key": "D",
+              "text": "A lack of access to basic pocket calculator devices."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第二段指出职称、基金考核只重抢眼显著结果，迫使学者采用“数据钓鱼/p值操纵（p-hacking）”拼凑虚假的统计显著性。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The term 'publication bias' in Paragraph 3 describes the practice of:",
+          "points": 2,
+          "sort_order": 33,
+          "options": [
+            {
+              "key": "A",
+              "text": "Publishing sensational positive claims while ignoring null or negative findings."
+            },
+            {
+              "key": "B",
+              "text": "Refusing to allow female researchers to submit manuscripts."
+            },
+            {
+              "key": "C",
+              "text": "Printing journal articles exclusively in classical hieroglyphics."
+            },
+            {
+              "key": "D",
+              "text": "Banning university libraries from purchasing digital books."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】词义理解题。第三段指出“发表偏倚（publication bias）”是指期刊热衷于刊发猎奇突破，却将中性结果、无法复现的报告束之高阁。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Mandatory pre-registration of experimental designs helps science by:",
+          "points": 2,
+          "sort_order": 34,
+          "options": [
+            {
+              "key": "A",
+              "text": "Preventing researchers from altering hypotheses to match accidental data."
+            },
+            {
+              "key": "B",
+              "text": "Ensuring that all laboratory experiments take at least fifty years."
+            },
+            {
+              "key": "C",
+              "text": "Requiring scientists to pay thousands of dollars in registration taxes."
+            },
+            {
+              "key": "D",
+              "text": "Prohibiting junior scholars from working on medical trials."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节理解题。第四段指出开放科学的预注册机制在做实验前就锁定假设和分析路径，有效杜绝了事后篡改假设迎合意外巧合数据。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The author concludes that restoring scientific credibility requires universities to:",
+          "points": 2,
+          "sort_order": 35,
+          "options": [
+            {
+              "key": "A",
+              "text": "Reward methodological rigor and data transparency over sheer publication volume."
+            },
+            {
+              "key": "B",
+              "text": "Abolish all scientific research funding permanently."
+            },
+            {
+              "key": "C",
+              "text": "Ban researchers from using digital statistical software."
+            },
+            {
+              "key": "D",
+              "text": "Prohibit international collaboration among scientists."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨结论题。末段指出重塑科学公信力需要高校改变唯论文数量论，在学术考核中真正奖赏方法论严谨度、负向数据报告和开放透明。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 4)",
+      "sort_order": 5,
+      "content": "When dedicated e-readers like the Amazon Kindle were unveiled in the late 2000s, technology evangelists confidently declared the death sentence of the printed paper book. In an era where thousands of digital volumes could be stored on a featherweight tablet and purchased with a single click, physical books were dismissed as clunky, archaic relics of Gutenberg's mechanical age—doomed to rapid extinction alongside vinyl records and film cameras.\n\nYet, a decade after the digital onslaught, the literary landscape presents an astonishing paradox: the enduring resilience of the physical book. Far from perishing, physical book sales have stabilized and even expanded across Western markets, while e-book sales have plateaued and contracted. Independent bookstores, once written off as doomed casualties of e-commerce, have staged a remarkable cultural renaissance.\n\nCognitive neuroscientists and reading psychologists explain this physical persistence through the mechanics of human reading comprehension. Reading is not a purely abstract mental calculation; it is an embodied sensory experience. The physical book possesses tactile topography: the weight of the left-hand pages shifting to the right as one progresses, the subtle scent of paper pulp, and the spatial anchoring of text on a tangible page. These tactile markers provide cognitive footholds that anchor spatial memory, facilitating deeper analytical comprehension and long-term narrative retention compared to the flat, fleeting glow of digital pixels.\n\nFurthermore, in a society besieged by screen fatigue and continuous digital notifications, the physical book represents a sacred secular sanctuary. Reading a printed volume offers an intentional refuge of \"monotasking\"—an immersive cognitive oasis where attention cannot be hijacked by incoming emails, social media pings, or low-battery alerts.\n\nUltimately, the survival of the printed book confirms that new technologies do not always cannibalize old media. Just as radio survived television and cinema survived home video, the physical book endures because it fulfills a profound human need: connecting readers to ideas through a beautiful, tactile artifact that honors both the human mind and the tactile senses.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Technology evangelists originally predicted that printed paper books would:",
+          "points": 2,
+          "sort_order": 36,
+          "options": [
+            {
+              "key": "A",
+              "text": "Face rapid extinction due to the rise of digital e-readers."
+            },
+            {
+              "key": "B",
+              "text": "Become ten times heavier and impossible to carry."
+            },
+            {
+              "key": "C",
+              "text": "Be purchased exclusively by military submarine commanders."
+            },
+            {
+              "key": "D",
+              "text": "Be legally banned by international copyright agreements."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出科技狂热者曾自信宣判纸质书死刑，断言纸质书将迅速消亡（doomed to rapid extinction）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Ten years after the launch of e-readers, the publishing market shows that:",
+          "points": 2,
+          "sort_order": 37,
+          "options": [
+            {
+              "key": "A",
+              "text": "Physical book sales have stabilized while e-book sales plateaued."
+            },
+            {
+              "key": "B",
+              "text": "Printed books have completely vanished from all bookshops."
+            },
+            {
+              "key": "C",
+              "text": "All independent bookstores worldwide have declared bankruptcy."
+            },
+            {
+              "key": "D",
+              "text": "Electronic tablets have become illegal in Western nations."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第二段指出十年后出现了耐人寻味的悖论：纸质书顽强复苏并稳定增长，而电子书销售陷入停滞与回调。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "According to neuroscientists, physical books enhance comprehension because they:",
+          "points": 2,
+          "sort_order": 38,
+          "options": [
+            {
+              "key": "A",
+              "text": "Provide tactile topography and spatial anchors that aid memory."
+            },
+            {
+              "key": "B",
+              "text": "Emit ultrasonic vibrations that stimulate human brainwaves."
+            },
+            {
+              "key": "C",
+              "text": "Automatically translate difficult sentences into foreign languages."
+            },
+            {
+              "key": "D",
+              "text": "Allow readers to run physical marathons while reading."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第三段指出纸书具有实体触觉地貌（tactile topography），纸张厚薄转换、空间定位为大脑提供了记忆锚点，加深了理解。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Physical books offer a mental refuge in modern society by providing an environment of:",
+          "points": 2,
+          "sort_order": 39,
+          "options": [
+            {
+              "key": "A",
+              "text": "Undistracted 'monotasking' free from digital screen notifications."
+            },
+            {
+              "key": "B",
+              "text": "Loud auditory music playing from paper margins."
+            },
+            {
+              "key": "C",
+              "text": "Commercial advertisements popping up on every physical page."
+            },
+            {
+              "key": "D",
+              "text": "Constant multi-player gaming competitions among readers."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节理解题。第四段指出在屏幕疲劳的时代，纸质书提供了一个无弹窗、不被打扰的沉浸式“单一任务（monotasking）”世俗绿洲。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The overarching conclusion of the text is that the physical book survives because it:",
+          "points": 2,
+          "sort_order": 40,
+          "options": [
+            {
+              "key": "A",
+              "text": "Fulfills profound human needs as a beautiful, tactile cognitive artifact."
+            },
+            {
+              "key": "B",
+              "text": "Costs 90 percent less to manufacture than an electronic file."
+            },
+            {
+              "key": "C",
+              "text": "Is made exclusively from waterproof synthetic petroleum plastics."
+            },
+            {
+              "key": "D",
+              "text": "Can be used as a blunt defensive weapon during emergencies."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨态度题。末段总结指出新媒介不必然全盘吞噬旧媒介，纸质书满足了人类通过精美触感物件沟通思想的深层心智需求（profound human need）。"
+        }
+      ]
+    },
+    {
+      "title": "Section II: Reading Comprehension Part B (新题型 41-45题)",
+      "section_type": "reading",
+      "sort_order": 6,
+      "content": "The emergence of autonomous artificial agents capable of reasoning, synthesizing empirical literature, and formulating hypotheses is initiating a paradigm shift in the scientific method. Traditionally, scientific discoveries were generated through a hypothesis-driven process formulated solely by human intellect.\n\n[41] ____________________________________________________________________\n\nAutomated laboratory platforms can run tens of thousands of experimental variations per day, testing chemical reactions or genomic alterations with precision that far exceeds human capabilities. However, data generation alone does not constitute scientific understanding.\n\n[42] ____________________________________________________________________\n\nThis epistemic asymmetry poses profound dilemmas for peer review and scientific verification. If an artificial intelligence identifies a novel molecular compound capable of curing an aggressive pathogen, but human biochemists cannot retrace the generative logic behind the discovery, should the treatment be authorized for clinical trials?\n\n[43] ____________________________________________________________________\n\nFurthermore, scientific mentorship and serendipitous insight risk degradation if doctoral candidates are reduced to passive technicians who merely execute machine-generated research directives.\n\n[44] ____________________________________________________________________\n\nTo safeguard scientific integrity, leading research universities and international academies are establishing 'human-in-the-loop' governance charters. Under these frameworks, algorithmic tools must provide verifiable provenance for every claim, and human co-authors remain legally accountable for methodological rigor.\n\n[45] ____________________________________________________________________\n\nUltimately, artificial intelligence should be embraced not as an autonomous oracle that supplants human scientists, but as an intellectual telescope that expands our capacity to illuminate natural mysteries.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [41]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】[41] 空格：承接上文'hypothesis-driven process formulated solely by human intellect'，A 选项讲述如今机器学习模型通读数百万论文挖掘跨学科关联，形成承上启下对比，选 A。",
+          "points": 2,
+          "sort_order": 41
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [42]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】[42] 空格：前文提到'数据生成本身不等于科学理解'，后文紧跟'This epistemic asymmetry'（这种认识论上的不对称/黑箱），C 选项准确阐述复杂神经网络如黑箱般只给预测不给因果解释，选 C。",
+          "points": 2,
+          "sort_order": 42
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [43]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】[43] 空格：前文提出临床试验能否仅凭 AI 结论批准的疑问，B 选项直接做出回答：人类研究人员必须保留最终的临床试验伦理审批权，选 B。",
+          "points": 2,
+          "sort_order": 43
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [44]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】[44] 空格：紧扣前文'doctoral candidates are reduced to passive technicians'，E 选项指出青年科学家需要通过试错与沉思培养直觉，选 E。",
+          "points": 2,
+          "sort_order": 44
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Choose the best sub-paragraph from A-G to fill in blank [45]:",
+          "options": [
+            {
+              "key": "A",
+              "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+            },
+            {
+              "key": "B",
+              "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+            },
+            {
+              "key": "C",
+              "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+            },
+            {
+              "key": "D",
+              "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+            },
+            {
+              "key": "E",
+              "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+            },
+            {
+              "key": "F",
+              "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+            },
+            {
+              "key": "G",
+              "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】[45] 空格：承接前文'algorithmic tools must provide verifiable provenance'治理规约，F 选项强调开源训练数据与代码的透明度要求，选 F。",
+          "points": 2,
+          "sort_order": 45
+        }
+      ]
+    }
+  ]
+}

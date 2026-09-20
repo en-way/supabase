@@ -1,12 +1,1268 @@
 {
   "year": 2023,
-  "title": "2023年12月大学英语四级真题(第1套) 仔细阅读与篇章精研",
+  "title": "2023年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
   "category_id": "cet4",
   "exam_type": "real",
-  "duration_minutes": 40,
+  "duration_minutes": 60,
   "total_score": 100,
   "pass_score": 60,
+  "is_published": true,
+  "approval_status": "approved",
   "passages": [
+    {
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "section_type": "cloze",
+      "content": "Emerging frontiers in nutritional neuroscience have revealed an intricate, bi-directional communication axis connecting the human gut and the central nervous system. Dubbed the 'gut-brain axis', this biochemical network suggests that emotional states and cognitive performance are (26)____ influenced by microscopic intestinal microbiota.\n\nBeneficial bacterial colonies ferment dietary fiber to produce short-chain fatty acids, which play an (27)____ role in maintaining blood-brain barrier integrity. When individuals consume diets dominated by ultra-processed junk food and refined sugars, the delicate bacterial ecosystem is thrown into (28)____. Harmful pathogens proliferate, triggering chronic systemic inflammation that can (29)____ mood regulation and heighten vulnerability to depressive disorders.\n\nClinical psychiatrists are increasingly integrating 'psychobiotics'—specific probiotic strains and dietary regimens—into standard mental health (30)____. Controlled trials demonstrate that supplementing beneficial bacterial strains can significantly (31)____ perceived stress and enhance emotional resilience in university cohorts.\n\nMoreover, nutritionists emphasize that dietary diversity is the most effective method to (32)____ a resilient microbiome. Consuming a rainbow of vegetables, legumes, fermented foods, and whole grains supplies the prebiotic fuels needed to (33)____ beneficial bacterial proliferation. Conversely, excessive antibiotic overuse should be (34)____ avoided, as broad-spectrum drugs can wipe out healthy colonies indiscriminately. Ultimately, viewing our mental health through a nutritional lens reminds us that emotional equilibrium is (35)____ tied to the microscopic life thriving within our bodies.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (26) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】空格(26)：根据语法结构与上下文语境搭配，此处需要填入选项 [A]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 1
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (27) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】空格(27)：根据语法结构与上下文语境搭配，此处需要填入选项 [B]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 2
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (28) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】空格(28)：根据语法结构与上下文语境搭配，此处需要填入选项 [C]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 3
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (29) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】空格(29)：根据语法结构与上下文语境搭配，此处需要填入选项 [D]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 4
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (30) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】空格(30)：根据语法结构与上下文语境搭配，此处需要填入选项 [E]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 5
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (31) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】空格(31)：根据语法结构与上下文语境搭配，此处需要填入选项 [F]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 6
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (32) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】空格(32)：根据语法结构与上下文语境搭配，此处需要填入选项 [G]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 7
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (33) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】空格(33)：根据语法结构与上下文语境搭配，此处需要填入选项 [H]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 8
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (34) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】空格(34)：根据语法结构与上下文语境搭配，此处需要填入选项 [I]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 9
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (35) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "profoundly"
+            },
+            {
+              "key": "B",
+              "text": "essential"
+            },
+            {
+              "key": "C",
+              "text": "disarray"
+            },
+            {
+              "key": "D",
+              "text": "disrupt"
+            },
+            {
+              "key": "E",
+              "text": "therapies"
+            },
+            {
+              "key": "F",
+              "text": "alleviate"
+            },
+            {
+              "key": "G",
+              "text": "sustain"
+            },
+            {
+              "key": "H",
+              "text": "stimulate"
+            },
+            {
+              "key": "I",
+              "text": "strictly"
+            },
+            {
+              "key": "J",
+              "text": "intrinsically"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】空格(35)：根据语法结构与上下文语境搭配，此处需要填入选项 [J]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 10
+        }
+      ]
+    },
+    {
+      "title": "Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)",
+      "section_type": "reading",
+      "content": "[A] For over a century, the global electrical grid operated under a centralized paradigm. Massive coal-fired generators and hydroelectric dams produced power in remote territories, transmitting electricity across high-voltage transmission corridors to passive domestic consumers.\n\n[B] Today, this historic model is undergoing an irreversible structural transition toward decentralized solar energy. Plummeting manufacturing costs for photovoltaic panels, paired with breakthroughs in lithium battery storage, have empowered residential homeowners and local cooperatives to generate, store, and trade their own clean electricity.\n\n[C] In suburban communities across Europe and Australia, rooftop solar arrays have transformed conventional electricity purchasers into active 'prosumers.' On bright summer afternoons, decentralized panels collectively generate surplus power, feeding gigawatts back into local distribution circuits.\n\n[D] However, localized power injections present severe engineering difficulties for legacy electrical distribution infrastructure. Traditional substations were designed for unidirectional electricity flow from central power plants down to suburban neighborhoods. Uncontrolled back-feeding of surplus solar energy can cause dangerous voltage spikes and trip localized transformers.\n\n[E] To harmonize distributed solar generation with grid reliability, energy pioneers are developing neighborhood-scale microgrids. Equipped with computerized automated switches and shared community battery banks, microgrids can seamlessly disconnect from the national grid during blackouts, operating in 'island mode' to supply uninterrupted emergency power.\n\n[F] Furthermore, dynamic peer-to-peer energy trading platforms are democratizing local energy economies. Using encrypted ledger technology, neighbors with surplus rooftop solar capacity can sell excess kilowatt-hours directly to adjacent households lacking solar exposure, bypassing expensive corporate energy middlemen.\n\n[G] Environmental scientists highlight that distributed solar deployment radically conserves land resources. Unlike utility-scale solar farms that require thousands of acres of agricultural land, rooftop panels occupy previously unproductive architectural airspace on warehouses, parking structures, and residential rooftops.\n\n[H] Despite these ecological dividends, socioeconomic equity questions cloud the solar transition. High initial installation expenses mean affluent homeowners disproportionately benefit from government solar subsidies and reduced utility tariffs, while low-income renters remain trapped paying escalating rates for legacy grid maintenance.\n\n[I] Progressive municipal authorities are tackling this disparity by financing 'community solar' projects. Under this framework, renters and apartment dwellers can purchase fractional shares in a shared off-site solar farm, receiving monthly utility bill credits without needing to own a private rooftop.\n\n[J] National electrical regulatory agencies are also modernizing interconnection rules to accelerate the retirement of fossil-fueled peaker plants, replacing them with virtual power plants (VPPs) aggregating thousands of distributed home batteries.\n\n[K] In conclusion, the democratization of solar power represents much more than a technological shift; it marks a profound decentralization of economic power and a vital cornerstone in the global race to reach net-zero carbon emissions.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(36) Traditional power stations and dams transmitted electricity in one direction to passive consumers for decades.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】题目(36)：本句核心信息对应原文段落 [A]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 11
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(37) Shared community solar farms allow apartment renters to enjoy utility discounts without owning a private roof.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】题目(37)：本句核心信息对应原文段落 [I]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 12
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(38) Rooftop installations save vast amounts of open land by utilizing otherwise unused architectural surface area.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】题目(38)：本句核心信息对应原文段落 [G]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 13
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(39) Rapidly falling photovoltaic production costs enable individual homeowners to produce and store clean power.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】题目(39)：本句核心信息对应原文段落 [B]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 14
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(40) Older substations risk transformer damage and voltage fluctuations when surplus solar electricity flows backward.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】题目(40)：本句核心信息对应原文段落 [D]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 15
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(41) Peer-to-peer trading platforms enable residents to sell excess electricity directly to nearby neighbors without middlemen.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】题目(41)：本句核心信息对应原文段落 [F]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 16
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(42) Wealthy property owners gain more from clean energy incentives, leaving poorer tenants to shoulder grid upkeep bills.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】题目(42)：本句核心信息对应原文段落 [H]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 17
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(43) Microgrids can detach from main grids during external power failures and continue supplying local electricity in island mode.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】题目(43)：本句核心信息对应原文段落 [E]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 18
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(44) Virtual power plants pool thousands of home battery systems to supplant traditional fossil-fuel reserve stations.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】题目(44)：本句核心信息对应原文段落 [J]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 19
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(45) Suburban households with rooftop arrays produce extra clean electricity on sunny days, turning consumers into prosumers.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】题目(45)：本句核心信息对应原文段落 [C]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 20
+        }
+      ]
+    },
     {
       "title": "Passage One: The Environmental Toll of Fast Fashion",
       "section_type": "reading",
@@ -35,7 +1291,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节事实题。第一段明确定义'predicated on churning out cheap, trend-driven garments at breakneck speed'（以极快速度生产廉价迎合潮流的服装），故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 21
         },
         {
           "q_type": "reading_item",
@@ -60,7 +1317,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】修辞目的题。作者引用一件棉质T恤消耗2700升水的数据，是为了说明低价服装生产对水资源的巨大消耗，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 22
         },
         {
           "q_type": "reading_item",
@@ -85,7 +1343,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节事实题。第二段指出'synthetic garments shed hundreds of thousands of microplastic fibers into wastewater streams'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 23
         },
         {
           "q_type": "reading_item",
@@ -110,7 +1369,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】因果细节题。第三段说明'Because most low-cost garments contain blended fibers that defy straightforward mechanical recycling'，混合纤维难以分离回收，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 24
         },
         {
           "q_type": "reading_item",
@@ -135,9 +1395,11 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节推理题。最后一段提到'consumers must embrace a culture of longevity, prioritizing sustainable garments, second-hand thrifting, and thoughtful repair'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 25
         }
-      ]
+      ],
+      "sort_order": 3
     },
     {
       "title": "Passage Two: The Psychology of Social Comparison in the Digital Age",
@@ -167,7 +1429,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】事实细节题。第一段指出'evaluating one's abilities, status, and standing relative to peers was vital for group cohesion and individual survival'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 26
         },
         {
           "q_type": "reading_item",
@@ -192,7 +1455,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】对比细节题。第二段指出'digital feeds display only the highlight reel... curated snippets of other people's lives'，展现的只是高光瞬间，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 27
         },
         {
           "q_type": "reading_item",
@@ -217,7 +1481,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】因果细节题。第三段指出'habitual upward comparison... triggers chronic dissatisfaction, diminished self-worth, and escalating anxiety'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 28
         },
         {
           "q_type": "reading_item",
@@ -242,7 +1507,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】细节理解题。第三段末尾指出'which quantify social validation into rigid numerical scores'，量化社交认同，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 29
         },
         {
           "q_type": "reading_item",
@@ -267,9 +1533,11 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】态度建议题。第四段建议认清社媒是表演性质（represent theatrical performances rather than authentic reality）并聚焦内在目标，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 30
         }
-      ]
+      ],
+      "sort_order": 4
     }
   ]
 }

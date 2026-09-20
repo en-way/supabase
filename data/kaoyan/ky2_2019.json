@@ -1,0 +1,1251 @@
+{
+  "category_id": "ky2",
+  "year": 2019,
+  "title": "2019年全国硕士研究生招生考试英语（二）真题",
+  "exam_type": "real",
+  "duration_minutes": 75,
+  "total_score": 60,
+  "pass_score": 36,
+  "is_published": true,
+  "approval_status": "approved",
+  "passages": [
+    {
+      "section_type": "cloze",
+      "title": "Section I: Use of English (完形填空 1-20题)",
+      "sort_order": 1,
+      "content": "Across the tropical rainforests of West Africa, pristine forest ecosystems are being rapidly fragmented by logging roads, mining concessions, and agricultural expansion. In Guinea's Bossou region, wildlife biologists have documented how this relentless habitat encroachment threatens one of the planet's most culturally sophisticated primate populations: tool-using chimpanzees. For decades, these apes have fascinated anthropologists with their remarkable ability to (1)____ stone hammers and anvils to crack open nutritious oil palm nuts with surgical (2)____.\n\nHowever, the expansion of industrial plantations has created isolated ecological (3)____. Trapped within shrinking forest remnants surrounded by aggressive slash-and-burn farms, the chimpanzee clan can no longer migrate to interbreed with neighboring (4)____. This genetic isolation leads to severe inbreeding depression, increasing vulnerability to infectious pathogens and diminishing reproductive (5)____.\n\nFurthermore, direct human-wildlife conflict has escalated (6)____. As wild forest fruit trees are cleared to make way for commercial orchards, hungry primates inevitably raid local farmers' maize, cassava, and fruit (7)____. Impoverished smallholders, viewing the apes as destructive agricultural pests, retaliate with wire snares, poisoned bait, and shotguns, inflicting catastrophic (8)____ upon the critically endangered colony.\n\nTo halt this tragic downward spiral, conservationists emphasize that wildlife protection cannot succeed through coercive (9)____ alone. Guarding park boundaries with armed rangers often alienates impoverished indigenous communities who depend on forest resources for subsistence (10)____. Modern conservation strategies therefore champion community-based stewardship, compensating villagers for crop damage and employing local hunters as salaried wildlife (11)____.\n\nEcologists are also constructing \"wildlife migration corridors\"—strips of native agroforestry trees that connect isolated forest fragments across agricultural landscapes. These arboreal bridges allow juvenile chimpanzees to disperse safely, facilitating vital gene flow and reducing risky crossings over busy highway (12)____.\n\nSimultaneously, ecological tourism provides alternative economic livelihoods. Travelers from across the globe pay substantial permit fees to observe habituated chimpanzees in their natural (13)____, generating sustainable revenues that fund rural schools, solar microgrids, and healthcare (14)____.\n\nField primatologists note that chimpanzees are not mere biological specimens, but sentient beings possessing distinct regional (15)____ and cultural traditions passed down across generations. The unique nut-cracking technique practiced at Bossou took centuries of social learning to (16)____. If this fragile community vanishes, an irreplaceable branch of planetary culture will be lost (17)____.\n\nProtecting these magnificent primates requires an enduring global (18)____. By harmonizing ecological restoration with human dignity, international conservation initiatives can ensure that tropical forests remain safe havens where both indigenous human communities and our closest primate relatives can peacefully (19)____ in harmonious balance for centuries to come (20)____.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (1) in the text:",
+          "points": 0.5,
+          "sort_order": 1,
+          "options": [
+            {
+              "key": "A",
+              "text": "wield"
+            },
+            {
+              "key": "B",
+              "text": "ignore"
+            },
+            {
+              "key": "C",
+              "text": "conceal"
+            },
+            {
+              "key": "D",
+              "text": "destroy"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】动词搭配。wield stone hammers（熟练使用/挥舞石锤），描述黑猩猩的工具使用行为。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (2) in the text:",
+          "points": 0.5,
+          "sort_order": 2,
+          "options": [
+            {
+              "key": "A",
+              "text": "precision"
+            },
+            {
+              "key": "B",
+              "text": "clumsiness"
+            },
+            {
+              "key": "C",
+              "text": "reluctance"
+            },
+            {
+              "key": "D",
+              "text": "panic"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词修饰。with surgical precision（以精准绝伦的精确度），对应前文熟练砸开坚果。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (3) in the text:",
+          "points": 0.5,
+          "sort_order": 3,
+          "options": [
+            {
+              "key": "A",
+              "text": "islands"
+            },
+            {
+              "key": "B",
+              "text": "factories"
+            },
+            {
+              "key": "C",
+              "text": "prisons"
+            },
+            {
+              "key": "D",
+              "text": "mines"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】比喻修辞。isolated ecological islands（孤立的生态岛屿/破碎化生境）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (4) in the text:",
+          "points": 0.5,
+          "sort_order": 4,
+          "options": [
+            {
+              "key": "A",
+              "text": "troops"
+            },
+            {
+              "key": "B",
+              "text": "armies"
+            },
+            {
+              "key": "C",
+              "text": "fleets"
+            },
+            {
+              "key": "D",
+              "text": "swarms"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】生物量词。chimpanzee troops（灵长类黑猩猩群落）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (5) in the text:",
+          "points": 0.5,
+          "sort_order": 5,
+          "options": [
+            {
+              "key": "A",
+              "text": "vigor"
+            },
+            {
+              "key": "B",
+              "text": "hostility"
+            },
+            {
+              "key": "C",
+              "text": "cruelty"
+            },
+            {
+              "key": "D",
+              "text": "treachery"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】生物名词。reproductive vigor（繁殖活力/后代繁衍能力）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (6) in the text:",
+          "points": 0.5,
+          "sort_order": 6,
+          "options": [
+            {
+              "key": "A",
+              "text": "sharply"
+            },
+            {
+              "key": "B",
+              "text": "scarcely"
+            },
+            {
+              "key": "C",
+              "text": "mildly"
+            },
+            {
+              "key": "D",
+              "text": "hesitantly"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】副词修饰。conflict has escalated sharply（人兽冲突急剧激化）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (7) in the text:",
+          "points": 0.5,
+          "sort_order": 7,
+          "options": [
+            {
+              "key": "A",
+              "text": "harvests"
+            },
+            {
+              "key": "B",
+              "text": "tractors"
+            },
+            {
+              "key": "C",
+              "text": "weapons"
+            },
+            {
+              "key": "D",
+              "text": "uniforms"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】农业名词。raid local farmers' harvests（侵袭偷食农民的庄稼收成）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (8) in the text:",
+          "points": 0.5,
+          "sort_order": 8,
+          "options": [
+            {
+              "key": "A",
+              "text": "casualties"
+            },
+            {
+              "key": "B",
+              "text": "triumphs"
+            },
+            {
+              "key": "C",
+              "text": "luxuries"
+            },
+            {
+              "key": "D",
+              "text": "donations"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词辨析。陷阱和枪杀给极度濒危的群落造成惨重伤亡（inflicting catastrophic casualties）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (9) in the text:",
+          "points": 0.5,
+          "sort_order": 9,
+          "options": [
+            {
+              "key": "A",
+              "text": "enforcement"
+            },
+            {
+              "key": "B",
+              "text": "amusement"
+            },
+            {
+              "key": "C",
+              "text": "vacation"
+            },
+            {
+              "key": "D",
+              "text": "sympathy"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】政策名词。coercive enforcement（强制执法/高压手段）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (10) in the text:",
+          "points": 0.5,
+          "sort_order": 10,
+          "options": [
+            {
+              "key": "A",
+              "text": "survival"
+            },
+            {
+              "key": "B",
+              "text": "luxury"
+            },
+            {
+              "key": "C",
+              "text": "conquest"
+            },
+            {
+              "key": "D",
+              "text": "celebration"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】名词搭配。depend on forest resources for subsistence survival（依赖森林资源实现基本谋生与生存）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (11) in the text:",
+          "points": 0.5,
+          "sort_order": 11,
+          "options": [
+            {
+              "key": "A",
+              "text": "monitors"
+            },
+            {
+              "key": "B",
+              "text": "poachers"
+            },
+            {
+              "key": "C",
+              "text": "adversaries"
+            },
+            {
+              "key": "D",
+              "text": "victims"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】职业角色。雇佣当地猎人担任领薪水的巡护监测员（salaried wildlife monitors）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (12) in the text:",
+          "points": 0.5,
+          "sort_order": 12,
+          "options": [
+            {
+              "key": "A",
+              "text": "thoroughfares"
+            },
+            {
+              "key": "B",
+              "text": "museums"
+            },
+            {
+              "key": "C",
+              "text": "skyscrapers"
+            },
+            {
+              "key": "D",
+              "text": "cemeteries"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】交通名词。busy highway thoroughfares（车流繁忙的公路交通干道）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (13) in the text:",
+          "points": 0.5,
+          "sort_order": 13,
+          "options": [
+            {
+              "key": "A",
+              "text": "habitat"
+            },
+            {
+              "key": "B",
+              "text": "cage"
+            },
+            {
+              "key": "C",
+              "text": "parlor"
+            },
+            {
+              "key": "D",
+              "text": "laboratory"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】生态名词。natural habitat（自然栖息地）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (14) in the text:",
+          "points": 0.5,
+          "sort_order": 14,
+          "options": [
+            {
+              "key": "A",
+              "text": "clinics"
+            },
+            {
+              "key": "B",
+              "text": "prisons"
+            },
+            {
+              "key": "C",
+              "text": "factories"
+            },
+            {
+              "key": "D",
+              "text": "arsenals"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】社会福利。fund rural schools, solar grids and healthcare clinics（资助乡村学校、微电网与医疗诊所）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (15) in the text:",
+          "points": 0.5,
+          "sort_order": 15,
+          "options": [
+            {
+              "key": "A",
+              "text": "dialects"
+            },
+            {
+              "key": "B",
+              "text": "currencies"
+            },
+            {
+              "key": "C",
+              "text": "passports"
+            },
+            {
+              "key": "D",
+              "text": "statues"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】生物人类学比喻。possessing distinct regional dialects（拥有独特的地域行为方言/行为习惯）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (16) in the text:",
+          "points": 0.5,
+          "sort_order": 16,
+          "options": [
+            {
+              "key": "A",
+              "text": "perfect"
+            },
+            {
+              "key": "B",
+              "text": "abandon"
+            },
+            {
+              "key": "C",
+              "text": "condemn"
+            },
+            {
+              "key": "D",
+              "text": "corrode"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】动词搭配。took centuries to perfect（历经数个世纪的社会学习才得以完善）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (17) in the text:",
+          "points": 0.5,
+          "sort_order": 17,
+          "options": [
+            {
+              "key": "A",
+              "text": "forever"
+            },
+            {
+              "key": "B",
+              "text": "temporarily"
+            },
+            {
+              "key": "C",
+              "text": "scarcely"
+            },
+            {
+              "key": "D",
+              "text": "rarely"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】副词修饰。lost forever（永远丧失且无法挽回）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (18) in the text:",
+          "points": 0.5,
+          "sort_order": 18,
+          "options": [
+            {
+              "key": "A",
+              "text": "alliance"
+            },
+            {
+              "key": "B",
+              "text": "retreat"
+            },
+            {
+              "key": "C",
+              "text": "betrayal"
+            },
+            {
+              "key": "D",
+              "text": "silence"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】政治名词。enduring global alliance（持久的全球保护同盟）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (19) in the text:",
+          "points": 0.5,
+          "sort_order": 19,
+          "options": [
+            {
+              "key": "A",
+              "text": "thrive"
+            },
+            {
+              "key": "B",
+              "text": "perish"
+            },
+            {
+              "key": "C",
+              "text": "surrender"
+            },
+            {
+              "key": "D",
+              "text": "despair"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】动词辨析。peacefully thrive in balance（在生态平衡中繁衍生息/欣欣向荣）。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for (20) in the text:",
+          "points": 0.5,
+          "sort_order": 20,
+          "options": [
+            {
+              "key": "A",
+              "text": "beyond"
+            },
+            {
+              "key": "B",
+              "text": "against"
+            },
+            {
+              "key": "C",
+              "text": "beside"
+            },
+            {
+              "key": "D",
+              "text": "without"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】固定搭配。for centuries to come and beyond（在未来数个世纪乃至更久远的时光中）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 1)",
+      "sort_order": 2,
+      "content": "Every July, millions of eco-conscious consumers across dozens of countries participate in a worldwide environmental initiative: \"Plastic Free July.\" Founded in Western Australia in 2011, the campaign challenges citizens to refuse single-use plastics for thirty-one days, replacing disposable coffee cups with ceramic mugs, switching from plastic shampoo bottles to solid soap bars, and carrying reusable cloth bags to grocery markets. The initiative has grown exponentially, morphing from an obscure grassroots effort into a viral global movement celebrated by international media.\n\nSociologists and behavioral psychologists praise Plastic Free July as a potent catalyst for civic consciousness. By forcing individuals to confront the ubiquity of single-use polymers in their daily consumption routines, the campaign dismantles habitual mindless convenience. Once consumers experience the friction of declining plastic straws or seeking package-free produce, their ecological awareness deepens, often leading to permanent lifestyle adaptations long after the calendar month concludes.\n\nHowever, environmental scientists and policy analysts warn that relying on voluntary individual consumer virtue obscures the structural nature of the plastic crisis. Petrochemical corporations and multinational consumer conglomerates produce upwards of four hundred million tons of virgin plastic annually. Shifting the burden of environmental stewardship onto individual shoppers—guilt-tripping consumers for buying a shrink-wrapped cucumber—conveniently deflects attention from the systemic economic subsidies that make virgin plastic artificially cheaper than recycled alternatives.\n\nFurthermore, participating in a packaging-free lifestyle is an economic privilege inaccessible to millions of low-income families. Shopping at organic bulk-food emporiums or purchasing artisanal stainless-steel containers requires substantial discretionary income and ample leisure time. In urban food deserts where the only affordable grocery store is a discount retailer selling exclusively pre-packaged goods, expecting cash-strapped working parents to \"refuse plastic\" is both impractical and regressive.\n\nMeaningful plastic abatement cannot rely on moral appeals to consumer willpower. Systemic reform requires aggressive government regulation: imposing bans on non-essential single-use packaging, taxing virgin petrochemical resins, and implementing legally binding Extended Producer Responsibility (EPR) mandates that force manufacturers to finance collection and recycling systems. When the cost of plastic pollution is borne by petrochemical producers rather than conscientious citizens, sustainable materials will become the universal default.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "The primary objective of 'Plastic Free July' is to:",
+          "points": 2,
+          "sort_order": 21,
+          "options": [
+            {
+              "key": "A",
+              "text": "Encourage citizens to refuse single-use plastics for a month."
+            },
+            {
+              "key": "B",
+              "text": "Ban all manufacturing of commercial plastic products permanently."
+            },
+            {
+              "key": "C",
+              "text": "Force petrochemical companies to declare corporate bankruptcy."
+            },
+            {
+              "key": "D",
+              "text": "Require families to grow all of their own food in backyards."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出该运动的核心倡议是挑战公众在7月份的31天内拒绝一次性塑料制品（refuse single-use plastics for thirty-one days）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Psychologists praise the campaign primarily because it:",
+          "points": 2,
+          "sort_order": 22,
+          "options": [
+            {
+              "key": "A",
+              "text": "Disrupts mindless convenience habits and heightens ecological awareness."
+            },
+            {
+              "key": "B",
+              "text": "Generates billions of dollars in tax revenue for municipal governments."
+            },
+            {
+              "key": "C",
+              "text": "Proves that recycling plastic is technologically impossible."
+            },
+            {
+              "key": "D",
+              "text": "Guarantees that all plastic waste will disappear from oceans in one year."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第二段指出心理学家赞赏该活动是因为它打破了日常无意识的便利惯性，迫使人们审视塑料泛滥，从而深化环保意识。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Policy analysts criticize individualistic environmental campaigns because they:",
+          "points": 2,
+          "sort_order": 23,
+          "options": [
+            {
+              "key": "A",
+              "text": "Deflect accountability away from petrochemical corporations and systemic subsidies."
+            },
+            {
+              "key": "B",
+              "text": "Force consumers to purchase more expensive gasoline cars."
+            },
+            {
+              "key": "C",
+              "text": "Encourage consumers to litter on public city beaches."
+            },
+            {
+              "key": "D",
+              "text": "Make it illegal to recycle paper cardboard packaging."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段明确指出把环保责任甩给个人、让消费者为买塑料包装负罪，恰恰转移了公众对石化巨头与体制性补贴的注意力。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "A packaging-free lifestyle is difficult for low-income families because:",
+          "points": 2,
+          "sort_order": 24,
+          "options": [
+            {
+              "key": "A",
+              "text": "Bulk eco-friendly shops are expensive and absent in food deserts."
+            },
+            {
+              "key": "B",
+              "text": "Discount supermarkets refuse to accept physical paper money."
+            },
+            {
+              "key": "C",
+              "text": "Municipal laws prohibit working-class citizens from carrying canvas bags."
+            },
+            {
+              "key": "D",
+              "text": "They lack the legal right to purchase fresh organic vegetables."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第四段指出无包装消费是昂贵的特权，散装有机食品店售价高，低收入区缺乏这类网点，工薪家庭无暇无力实践。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What fundamental reform does the author propose in the final paragraph?",
+          "points": 2,
+          "sort_order": 25,
+          "options": [
+            {
+              "key": "A",
+              "text": "Binding government regulation like plastic bans and producer taxes."
+            },
+            {
+              "key": "B",
+              "text": "Relying solely on consumer ethical appeals and voluntary pledges."
+            },
+            {
+              "key": "C",
+              "text": "Abolishing all municipal recycling facilities globally."
+            },
+            {
+              "key": "D",
+              "text": "Subsidizing petrochemical companies to produce more virgin plastics."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨结论题。末段总结强调治本之道是强制性政府立法：推行禁塑令、对原生塑料征税并落实生产者责任延伸制（EPR）。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 2)",
+      "sort_order": 3,
+      "content": "In September 2018, California enacted historic legislation that sent shockwaves through corporate boardrooms across the United States: Senate Bill 826. The statute mandated that every publicly traded corporation headquartered in California must include at least one female director on its board of directors, with larger boards required to appoint up to three women by 2021. Companies that failed to comply faced substantial regulatory fines. The bill represented the first mandatory gender quota for corporate boards in American history.\n\nProponents of the legislation, including progressive politicians and feminist legal scholars, hailed SB 826 as a necessary legislative intervention against stubborn patriarchal inertia. For decades, corporate leadership had promised voluntary progress, yet women held barely fifteen percent of California board seats in 2018. Advocates cited extensive business literature demonstrating that diverse corporate boards exhibit superior risk oversight, cultivate innovative corporate cultures, and generate stronger long-term shareholder returns compared to insular, all-male boards.\n\nHowever, the statute provoked immediate constitutional resistance from conservative legal foundations and corporate shareholders. Lawsuits were swiftly filed in federal and state courts, arguing that mandatory gender quotas violated the Equal Protection Clause of the Fourteenth Amendment and the California Constitution. Plaintiffs asserted that government-mandated demographic quotas constitute unconstitutional discrimination, compelling corporations to treat candidates as members of a demographic category rather than evaluating their individual qualifications.\n\nFurthermore, corporate governance critics warned of unintended operational friction. Opponents argued that the aggressive compliance timetable would create a zero-sum scramble for a small cadre of seasoned, high-profile female corporate executives, leading to \"over-boarding\" where a handful of prominent women hold multiple demanding directorships simultaneously. Instead of broadening opportunity for emerging talent, critics feared the quota would merely enrich an elite corporate circle.\n\nIn 2022, a California state court struck down SB 826 as unconstitutional, affirming that the state failed to prove that voluntary initiatives could not achieve board diversity. Yet, despite the legal defeat, the law achieved a cultural revolution. During the four years the statute was debated and enforced, California corporations appointed hundreds of female directors, boosting female board representation beyond thirty percent. By proving that qualified female leaders were abundant and ready, the law permanently dismantled the excuse that corporate boardrooms could not find qualified women.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What was the landmark mandate of California's Senate Bill 826?",
+          "points": 2,
+          "sort_order": 26,
+          "options": [
+            {
+              "key": "A",
+              "text": "Requiring public companies to include female directors on their boards."
+            },
+            {
+              "key": "B",
+              "text": "Banning men from owning shares in publicly traded tech companies."
+            },
+            {
+              "key": "C",
+              "text": "Forcing all corporations to relocate their headquarters to Europe."
+            },
+            {
+              "key": "D",
+              "text": "Eliminating corporate boardrooms in favor of artificial intelligence."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段明确指出，加州参议院第826号法案强制要求加州上市公司的董事会必须包含至少一名女性董事。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Supporters justified the mandatory quota by pointing out that:",
+          "points": 2,
+          "sort_order": 27,
+          "options": [
+            {
+              "key": "A",
+              "text": "Decades of voluntary corporate efforts had produced negligible progress."
+            },
+            {
+              "key": "B",
+              "text": "Men were legally prohibited from serving as corporate directors."
+            },
+            {
+              "key": "C",
+              "text": "All-male corporate boards always went bankrupt within six months."
+            },
+            {
+              "key": "D",
+              "text": "The federal government demanded a 100 percent female judiciary."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第二段指出支持者认为企业承诺自愿多元化数十年却收效甚微（2018年女性董事占比仅15%），因而必须立法干预。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Legal challenges against SB 826 were grounded in the argument that:",
+          "points": 2,
+          "sort_order": 28,
+          "options": [
+            {
+              "key": "A",
+              "text": "Mandatory demographic quotas violate constitutional equal protection rights."
+            },
+            {
+              "key": "B",
+              "text": "Female corporate executives are forbidden from signing financial audits."
+            },
+            {
+              "key": "C",
+              "text": "Corporate boards are legally immune from state statutory laws."
+            },
+            {
+              "key": "D",
+              "text": "Shareholders possess no legal right to vote on company policies."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段指出诉讼依据宪法第14修正案平等保护条款，认为政府强制推行人口属性配额构成了违宪的差别对待。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What operational concern was raised by critics of the rapid compliance timetable?",
+          "points": 2,
+          "sort_order": 29,
+          "options": [
+            {
+              "key": "A",
+              "text": "A small group of elite women would be overburdened with multiple board seats."
+            },
+            {
+              "key": "B",
+              "text": "All corporate offices would run out of physical executive boardroom chairs."
+            },
+            {
+              "key": "C",
+              "text": "Women would refuse to accept corporate compensation and stock options."
+            },
+            {
+              "key": "D",
+              "text": "Stock exchanges would shut down during board appointment votes."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节推断题。第四段指出批评者担忧急速合规会导致企业哄抢少数知名女性高管，造成“过度任职（over-boarding）”，仅惠及少数顶层精英。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Although struck down by courts, SB 826 had the lasting effect of:",
+          "points": 2,
+          "sort_order": 30,
+          "options": [
+            {
+              "key": "A",
+              "text": "Proving that qualified female executives were abundant and boosting representation."
+            },
+            {
+              "key": "B",
+              "text": "Permanently ending corporate entrepreneurship across the state of California."
+            },
+            {
+              "key": "C",
+              "text": "Causing all major technology conglomerates to leave North America."
+            },
+            {
+              "key": "D",
+              "text": "Establishing an absolute federal ban on female corporate directorships."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨态度题。末段指出尽管法案被判违宪，但它带来了文化革新，推动女性董事比例突破30%，彻底击碎了“招不到合格女性人才”的借口。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 3)",
+      "sort_order": 4,
+      "content": "In the contemporary digital workplace, the traditional boundary separating professional obligations from personal life has completely dissolved. Armed with smartphones, enterprise messaging apps, and cloud email portals, modern employees are perpetually reachable. What began as a liberating promise of flexible remote working has metastasized into an insidious cultural norm: the \"always-on\" expectation. Workers routinely monitor Slack notifications over dinner, respond to emails from bed, and review client proposals during weekend family outings.\n\nOccupational psychologists and neuroscientists warn that chronic hyper-connectivity exacts a devastating toll on human cognitive and physical health. The human brain was never biologically engineered for continuous vigilance. Constant digital interruptions fracture attention, impair deep analytical concentration, and elevate cortisol stress hormone levels. When employees are deprived of genuine psychological detachment from work, cognitive fatigue sets in, accelerating professional burnout, chronic insomnia, and clinical anxiety disorders.\n\nFurthermore, management researchers observe that the always-on culture operates as an illusion of productivity. When workers are expected to respond to digital queries within minutes, they prioritize performative busyness over substantive problem-solving. Urgent, superficial tasks—such as pinging colleagues back on message threads—crowd out the quiet, contemplative focus required for strategic innovation. Despite logging sixty-hour workweeks, teams frequently find themselves trapped in reactive triage rather than advancing core organizational priorities.\n\nIn response to this mental health epidemic, a burgeoning international labor movement is championing the statutory \"right to disconnect.\" Pioneered by France in 2017 and subsequently adopted by Spain, Portugal, and several Latin American nations, right-to-disconnect statutes legally forbid employers from penalizing staff who refuse to answer work-related calls or emails outside contractual working hours. Progressive enterprises are implementing automated email delays, disabling off-hours server notifications, and training managers to respect temporal boundaries.\n\nReclaiming work-life balance requires dismantling the toxic workplace orthodoxy that equates continuous availability with dedication. True professional excellence is fostered not by uninterrupted availability, but by high-intensity focus balanced with restorative, sacred rest. When organizations honor the boundary between labor and leisure, they cultivate healthier, happier, and ultimately far more creative workforces.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What has been the primary negative consequence of modern mobile workplace technology?",
+          "points": 2,
+          "sort_order": 31,
+          "options": [
+            {
+              "key": "A",
+              "text": "The emergence of an 'always-on' culture blurring work and personal life."
+            },
+            {
+              "key": "B",
+              "text": "A complete decline in employee computer literacy skills."
+            },
+            {
+              "key": "C",
+              "text": "The total elimination of all corporate office jobs worldwide."
+            },
+            {
+              "key": "D",
+              "text": "An absolute ban on smartphone communications across Europe."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出便携智能技术带来的负面后果是传统工作与生活的边界彻底消融，催生了“随时在线（always-on）”的病态文化。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "According to neuroscientists, continuous digital hyper-connectivity causes:",
+          "points": 2,
+          "sort_order": 32,
+          "options": [
+            {
+              "key": "A",
+              "text": "Attention fragmentation, elevated stress hormones, and chronic burnout."
+            },
+            {
+              "key": "B",
+              "text": "Instantaneous mastery of foreign languages within twenty-four hours."
+            },
+            {
+              "key": "C",
+              "text": "A total immunity to viral influenza infections in adults."
+            },
+            {
+              "key": "D",
+              "text": "Rapid biological regeneration of human brain cells."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第二段指出大脑无法承受持续警觉，不断被打断导致注意力碎片化、皮质醇激增，造成身心耗竭（burnout）与失眠。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Management researchers observe that the 'always-on' expectation often leads to:",
+          "points": 2,
+          "sort_order": 33,
+          "options": [
+            {
+              "key": "A",
+              "text": "Performative busyness crowding out deep, strategic problem-solving."
+            },
+            {
+              "key": "B",
+              "text": "A dramatic 90 percent increase in corporate net profit margins."
+            },
+            {
+              "key": "C",
+              "text": "The permanent dissolution of all corporate managerial hierarchies."
+            },
+            {
+              "key": "D",
+              "text": "Immediate pay raises for all entry-level office receptionists."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第三段指出要求即时回复导致“表演式忙碌（performative busyness）”挤占了实质性的深度思考与战略创新。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The statutory 'right to disconnect' established in France and other nations ensures that:",
+          "points": 2,
+          "sort_order": 34,
+          "options": [
+            {
+              "key": "A",
+              "text": "Employees cannot be punished for ignoring off-hours work communications."
+            },
+            {
+              "key": "B",
+              "text": "Workers are prohibited from using smartphones inside their private homes."
+            },
+            {
+              "key": "C",
+              "text": "Companies must disconnect electricity to all offices every afternoon."
+            },
+            {
+              "key": "D",
+              "text": "Labor unions possess the legal right to seize corporate computers."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第四段指出“断连权（right to disconnect）”保障员工在合同约定工时之外有权不接工作电话或邮件，且不受雇主惩罚。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The author concludes that sustainable professional excellence depends upon:",
+          "points": 2,
+          "sort_order": 35,
+          "options": [
+            {
+              "key": "A",
+              "text": "Balancing high-intensity focus with restorative personal rest."
+            },
+            {
+              "key": "B",
+              "text": "Working eighty hours per week without taking vacation days."
+            },
+            {
+              "key": "C",
+              "text": "Replying to every corporate message within ten seconds."
+            },
+            {
+              "key": "D",
+              "text": "Permanently abandoning all digital communication technology."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨态度题。末段总结指出卓越不是靠无休止在线实现的，而需要将高强度专注与恢复性休憩（restorative rest）结合起来。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 4)",
+      "sort_order": 5,
+      "content": "In the sociological analysis of modern urban alienation, few concepts have captured the civic imagination as vividly as sociologist Eric Klinenberg's notion of \"social infrastructure.\" In his seminal treatise Palaces for the People, Klinenberg defines social infrastructure as the physical spaces and community organizations that shape our interactions and determine whether social capital develops. Where robust physical infrastructure—bridges, electrical grids, and aqueducts—facilitates the movement of commodities and power, social infrastructure nurtures the trust, cohesion, and civic bonds that prevent democratic societies from disintegrating.\n\nAt the pinnacle of vital social infrastructure stands the neighborhood public library. Unlike commercial cafes that require financial purchases or private athletic clubs that impose exclusionary membership fees, public libraries represent universally accessible civic sanctuaries. In an era marked by historic economic inequality and social atomization, libraries welcome everyone: from infants attending early-literacy story hours to impoverished jobseekers drafting resumes, and elderly pensioners escaping sweltering summer heatwaves.\n\nKlinenberg's empirical research illuminates the life-or-death stakes of social infrastructure. Examining the catastrophic 1995 Chicago heatwave, which claimed over seven hundred lives, Klinenberg discovered that neighborhood mortality rates diverged dramatically between demographically identical communities. Neighborhoods with dense social infrastructure—flourishing public libraries, busy commercial sidewalks, and active community parks—experienced vastly lower mortality because vulnerable seniors were connected to active social networks and had safe, air-conditioned public spaces to seek refuge.\n\nNevertheless, public libraries across the Anglo-American world face relentless fiscal starvation. In times of municipal budget austerity, city councils invariably target library systems for operating hour reductions, staff layoffs, and branch closures. Short-sighted municipal leaders, evaluating public spending through narrow accounting balance sheets, dismiss libraries as sentimental relics made obsolete by digital e-readers.\n\nStarving public libraries of operational capital is catastrophic civic myopia. By transforming public libraries into funded social infrastructure, municipal governments invest in grassroots democratic resilience. Repairing the frayed fabric of our fractured society begins by recognizing that our shared public palaces are not fiscal luxuries, but the indispensable foundation of a compassionate, interconnected civilization.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Sociologist Eric Klinenberg defines 'social infrastructure' as:",
+          "points": 2,
+          "sort_order": 36,
+          "options": [
+            {
+              "key": "A",
+              "text": "Physical spaces and community organizations that cultivate civic trust."
+            },
+            {
+              "key": "B",
+              "text": "Private high-speed fiber-optic telecommunications networks."
+            },
+            {
+              "key": "C",
+              "text": "Commercial shopping centers that maximize retail consumer sales."
+            },
+            {
+              "key": "D",
+              "text": "High-security corporate banking headquarters in financial districts."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第一段指出克莱嫩伯格将“社会基础设施（social infrastructure）”界定为塑造人际互动、催生信任与社会资本的物理空间与社区组织。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Public libraries are distinguished from commercial cafes because they:",
+          "points": 2,
+          "sort_order": 37,
+          "options": [
+            {
+              "key": "A",
+              "text": "Are universally accessible sanctuaries that do not demand payment."
+            },
+            {
+              "key": "B",
+              "text": "Sell imported gourmet coffee at half the market price."
+            },
+            {
+              "key": "C",
+              "text": "Forbid anyone without a university degree from entering."
+            },
+            {
+              "key": "D",
+              "text": "Operate exclusively inside private gated suburban estates."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节推断题。第二段指出不同于咖啡厅的消费门槛，公共图书馆是全民皆可免费进入的平等庇护所（universally accessible sanctuaries）。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Klinenberg's research on the 1995 Chicago heatwave demonstrated that:",
+          "points": 2,
+          "sort_order": 38,
+          "options": [
+            {
+              "key": "A",
+              "text": "Robust social infrastructure significantly reduced mortality rates."
+            },
+            {
+              "key": "B",
+              "text": "Neighborhoods with libraries suffered higher casualty numbers."
+            },
+            {
+              "key": "C",
+              "text": "Air conditioning was completely ineffective against heat exhaustion."
+            },
+            {
+              "key": "D",
+              "text": "Low-income seniors preferred to remain inside sealed apartments."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】事实细节题。第三段指出对芝加哥热浪的研究表明，拥有完善社会基础设施（如图书馆和活跃公园）的社区老人死亡率大幅降低。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Why do municipal governments frequently cut library funding during budget deficits?",
+          "points": 2,
+          "sort_order": 39,
+          "options": [
+            {
+              "key": "A",
+              "text": "Short-sighted leaders view libraries through narrow balance sheets."
+            },
+            {
+              "key": "B",
+              "text": "Citizens collectively demand the total demolition of all books."
+            },
+            {
+              "key": "C",
+              "text": "Federal regulations require all city budgets to be spent on highways."
+            },
+            {
+              "key": "D",
+              "text": "Public libraries have reported multi-billion-dollar cash surpluses."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】因果推断题。第四段指出短视的市政领导仅从狭隘财务账目评估支出，误将图书馆视作在电子书时代过时的情怀遗迹。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "The author concludes that public libraries should be recognized as:",
+          "points": 2,
+          "sort_order": 40,
+          "options": [
+            {
+              "key": "A",
+              "text": "Indispensable foundations of compassionate civic resilience."
+            },
+            {
+              "key": "B",
+              "text": "Commercial properties that should be auctioned to private developers."
+            },
+            {
+              "key": "C",
+              "text": "Antiquated relics that should be replaced with automated vending machines."
+            },
+            {
+              "key": "D",
+              "text": "Exclusive scholarly research institutes closed to the public."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】主旨态度题。末段指出削减图书馆资金是公民短视，公共图书馆绝非财政奢侈品，而是构筑充满关爱与互联的文明社会不可或缺的基石（indispensable foundation）。"
+        }
+      ]
+    },
+    {
+      "title": "Section II: Reading Comprehension Part B (新题型·多项对应匹配 41-45题)",
+      "section_type": "reading",
+      "sort_order": 6,
+      "content": "In an era of accelerating climate volatility and shifting energy markets, five prominent environmental economists examine the most effective fiscal mechanisms to transition modern economies away from carbon-intensive fuels.\n\n[A] Dr. Elena Rostova (Oxford Institute for Climate Policy)\nCarbon taxation provides the single most transparent market signal. When emissions carry an escalating predictable fee per ton, corporate chief financial officers immediately reallocate capital expenditures toward energy-efficient machinery. Crucially, tax revenues should be distributed back to citizens as an equal 'climate dividend' check, neutralizing regressivity and building durable democratic support.\n\n[B] Prof. Marcus Lindqvist (Stockholm School of Economics)\nCap-and-trade emissions trading systems (ETS) are mathematically superior to fixed taxes because they guarantee an absolute ceiling on environmental pollution. While taxes leave aggregate emissions uncertain, trading systems force carbon permits to fluctuate based on actual abatement technology supply and demand, ensuring cost-effective reductions across industrial conglomerates.\n\n[C] Dr. Sanjay Patel (Global Infrastructure Advisory Board)\nPricing pollution alone is insufficient if green alternatives are commercially unavailable. Governments must aggressively front-load public capital investments into breakthrough grid infrastructure, high-speed rail networks, and green hydrogen hubs. Without public transmission corridors, private clean energy cannot reach industrial hubs regardless of how high carbon prices rise.\n\n[D] Dr. Chloe Dupont (Centre for Ecological Transition)\nFiscal policies must focus squarely on phasing out existing fossil-fuel subsidies. G20 governments still spend hundreds of billions annually subsidizing oil exploration and coal-fired electricity. Terminating these counter-productive subsidies would immediately level the economic playing field for solar and wind generation without raising taxes on consumers.\n\n[E] Prof. Arthur Vance (Harvard Kennedy School)\nBorder carbon adjustment mechanisms (CBAM) are essential to prevent 'carbon leakage'—the relocation of heavy manufacturing to pollution havens abroad. Imposing tariffs on carbon-intensive imported steel and cement protects domestic decarbonizing industries and compels international trading partners to adopt comparable environmental standards.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Which economist argues that carbon revenues should be refunded directly to citizens as dividend checks?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr. Elena Rostova"
+            },
+            {
+              "key": "B",
+              "text": "Prof. Marcus Lindqvist"
+            },
+            {
+              "key": "C",
+              "text": "Dr. Sanjay Patel"
+            },
+            {
+              "key": "D",
+              "text": "Dr. Chloe Dupont"
+            },
+            {
+              "key": "E",
+              "text": "Prof. Arthur Vance"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】细节对应题。根据段落 [A] 中 Rostova 观点'tax revenues should be distributed back to citizens as an equal climate dividend check'，对应 A 选项。",
+          "points": 2,
+          "sort_order": 41
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Who believes that emission trading systems are superior because they set a hard limit on total pollution?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr. Elena Rostova"
+            },
+            {
+              "key": "B",
+              "text": "Prof. Marcus Lindqvist"
+            },
+            {
+              "key": "C",
+              "text": "Dr. Sanjay Patel"
+            },
+            {
+              "key": "D",
+              "text": "Dr. Chloe Dupont"
+            },
+            {
+              "key": "E",
+              "text": "Prof. Arthur Vance"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】细节对应题。根据段落 [B] 中 Lindqvist 观点'guarantee an absolute ceiling on environmental pollution'，对应 B 选项。",
+          "points": 2,
+          "sort_order": 42
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Which expert stresses that carbon pricing is useless without direct state spending on grid infrastructure?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr. Elena Rostova"
+            },
+            {
+              "key": "B",
+              "text": "Prof. Marcus Lindqvist"
+            },
+            {
+              "key": "C",
+              "text": "Dr. Sanjay Patel"
+            },
+            {
+              "key": "D",
+              "text": "Dr. Chloe Dupont"
+            },
+            {
+              "key": "E",
+              "text": "Prof. Arthur Vance"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】细节对应题。根据段落 [C] 中 Patel 观点'Governments must aggressively front-load public capital investments into breakthrough grid infrastructure'，对应 C 选项。",
+          "points": 2,
+          "sort_order": 43
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Who emphasizes eliminating existing government subsidies for fossil fuel exploration?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr. Elena Rostova"
+            },
+            {
+              "key": "B",
+              "text": "Prof. Marcus Lindqvist"
+            },
+            {
+              "key": "C",
+              "text": "Dr. Sanjay Patel"
+            },
+            {
+              "key": "D",
+              "text": "Dr. Chloe Dupont"
+            },
+            {
+              "key": "E",
+              "text": "Prof. Arthur Vance"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】细节对应题。根据段落 [D] 中 Dupont 观点'Fiscal policies must focus squarely on phasing out existing fossil-fuel subsidies'，对应 D 选项。",
+          "points": 2,
+          "sort_order": 44
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Which scholar advocates import carbon tariffs to prevent companies from fleeing to pollution havens?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dr. Elena Rostova"
+            },
+            {
+              "key": "B",
+              "text": "Prof. Marcus Lindqvist"
+            },
+            {
+              "key": "C",
+              "text": "Dr. Sanjay Patel"
+            },
+            {
+              "key": "D",
+              "text": "Dr. Chloe Dupont"
+            },
+            {
+              "key": "E",
+              "text": "Prof. Arthur Vance"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】细节对应题。根据段落 [E] 中 Vance 观点'Border carbon adjustment mechanisms ... essential to prevent carbon leakage'，对应 E 选项。",
+          "points": 2,
+          "sort_order": 45
+        }
+      ]
+    }
+  ]
+}

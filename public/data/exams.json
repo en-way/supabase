@@ -1,25 +1,25 @@
 [
   {
-    "id": "d7406e8f-aa60-48e2-b493-0ab317d2b5c1",
-    "category_id": "cet6",
-    "title": "2024年6月大学英语六级真题(第1套) 仔细阅读与篇章精研",
+    "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+    "category_id": "ky1",
+    "title": "2024年全国硕士研究生招生考试英语（一）真题",
     "year": 2024,
     "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-20T13:29:12.060822+00:00",
+    "created_at": "2026-09-19T16:08:57.17427+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 6
       }
     ]
   },
@@ -29,55 +29,55 @@
     "title": "2024年全国硕士研究生招生考试英语（二）真题",
     "year": 2024,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:01.089647+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
-    "category_id": "ky1",
-    "title": "2024年全国硕士研究生招生考试英语（一）真题",
+    "id": "d7406e8f-aa60-48e2-b493-0ab317d2b5c1",
+    "category_id": "cet6",
+    "title": "2024年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
     "year": 2024,
     "exam_type": "real",
     "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 100,
+    "pass_score": 60,
     "is_published": true,
-    "created_at": "2026-09-19T16:08:57.17427+00:00",
+    "created_at": "2026-09-20T13:29:12.060822+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 4
       }
     ]
   },
   {
     "id": "7e12d65f-11b0-4c06-8d0b-fd86eaf93051",
     "category_id": "cet4",
-    "title": "2024年6月大学英语四级真题(第1套) 仔细阅读与篇章精研",
+    "title": "2024年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
     "year": 2024,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -86,60 +86,12 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "08ea2b79-a7c1-4c5b-a32d-201b4e0f7ff4",
-    "category_id": "cet6",
-    "title": "2023年12月大学英语六级真题(第1套) 仔细阅读与篇章精研",
-    "year": 2023,
-    "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:09.515911+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 10
-      }
-    ],
-    "passages": [
-      {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "a414027b-b654-4105-b904-209722cbf8c6",
-    "category_id": "cet4",
-    "title": "2023年12月大学英语四级真题(第1套) 仔细阅读与篇章精研",
-    "year": 2023,
-    "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:43.795266+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 10
-      }
-    ],
-    "passages": [
-      {
-        "count": 2
+        "count": 4
       }
     ]
   },
@@ -149,21 +101,21 @@
     "title": "2023年全国硕士研究生招生考试英语（二）真题",
     "year": 2023,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:04.900215+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
@@ -173,45 +125,69 @@
     "title": "2023年全国硕士研究生招生考试英语（一）真题",
     "year": 2023,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:02.677051+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "65f0db7a-ec3c-4b39-9d47-209bcb5ce56c",
-    "category_id": "ky1",
-    "title": "2022年全国硕士研究生招生考试英语（一）真题",
-    "year": 2022,
+    "id": "a414027b-b654-4105-b904-209722cbf8c6",
+    "category_id": "cet4",
+    "title": "2023年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
+    "year": 2023,
     "exam_type": "real",
     "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 100,
+    "pass_score": 60,
     "is_published": true,
-    "created_at": "2026-09-19T16:09:06.453956+00:00",
+    "created_at": "2026-09-20T13:28:43.795266+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "08ea2b79-a7c1-4c5b-a32d-201b4e0f7ff4",
+    "category_id": "cet6",
+    "title": "2023年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
+    "year": 2023,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:29:09.515911+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
       }
     ]
   },
@@ -221,31 +197,55 @@
     "title": "2022年全国硕士研究生招生考试英语（二）真题",
     "year": 2022,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:08.21021+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "65f0db7a-ec3c-4b39-9d47-209bcb5ce56c",
+    "category_id": "ky1",
+    "title": "2022年全国硕士研究生招生考试英语（一）真题",
+    "year": 2022,
+    "exam_type": "real",
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-09-19T16:09:06.453956+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
       }
     ]
   },
   {
     "id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
     "category_id": "cet4",
-    "title": "2022年6月大学英语四级真题(第1套) 仔细阅读与篇章精研",
+    "title": "2022年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
     "year": 2022,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -254,22 +254,22 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
   {
     "id": "1d42e1b6-d1cb-453c-a1dc-050faa8c1f57",
     "category_id": "cet6",
-    "title": "2022年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
+    "title": "2022年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
     "year": 2022,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -278,12 +278,12 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
@@ -293,21 +293,69 @@
     "title": "2021年全国硕士研究生招生考试英语（二）真题",
     "year": 2021,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:12.391809+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "4bdc2e9a-7b8a-4e50-b589-1350c9c01862",
+    "category_id": "cet4",
+    "title": "2021年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
+    "year": 2021,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:38.362414+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "483805a0-37df-418d-88ac-81687906c867",
+    "category_id": "cet6",
+    "title": "2021年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
+    "year": 2021,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:29:04.555207+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
       }
     ]
   },
@@ -317,117 +365,45 @@
     "title": "2021年全国硕士研究生招生考试英语（一）真题",
     "year": 2021,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:10.180709+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "483805a0-37df-418d-88ac-81687906c867",
+    "id": "e2bb9d5d-c092-4b1a-bcdc-7e0643fbfbb0",
     "category_id": "cet6",
-    "title": "2021年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2021,
-    "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:04.555207+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 10
-      }
-    ],
-    "passages": [
-      {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "4bdc2e9a-7b8a-4e50-b589-1350c9c01862",
-    "category_id": "cet4",
-    "title": "2021年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2021,
-    "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:38.362414+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 10
-      }
-    ],
-    "passages": [
-      {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "cc7652ea-05b9-4add-81bb-e57cb8a9811a",
-    "category_id": "ky1",
-    "title": "2020年全国硕士研究生招生考试英语（一）真题",
+    "title": "2020年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
     "year": 2020,
     "exam_type": "real",
     "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:14.591246+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
-      }
-    ]
-  },
-  {
-    "id": "e628426c-f4de-46c2-86be-9e3e7864e85c",
-    "category_id": "cet4",
-    "title": "2020年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2020,
-    "exam_type": "real",
-    "duration_minutes": 40,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
-    "created_at": "2026-09-20T13:28:35.818977+00:00",
+    "created_at": "2026-09-20T13:29:02.111942+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
@@ -437,93 +413,93 @@
     "title": "2020年全国硕士研究生招生考试英语（二）真题",
     "year": 2020,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:16.212544+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "e2bb9d5d-c092-4b1a-bcdc-7e0643fbfbb0",
-    "category_id": "cet6",
-    "title": "2020年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
+    "id": "e628426c-f4de-46c2-86be-9e3e7864e85c",
+    "category_id": "cet4",
+    "title": "2020年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
     "year": 2020,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
-    "created_at": "2026-09-20T13:29:02.111942+00:00",
+    "created_at": "2026-09-20T13:28:35.818977+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
   {
-    "id": "56a972bb-df04-43a3-8dd9-3468abdf4e26",
-    "category_id": "cet6",
-    "title": "2019年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2019,
+    "id": "cc7652ea-05b9-4add-81bb-e57cb8a9811a",
+    "category_id": "ky1",
+    "title": "2020年全国硕士研究生招生考试英语（一）真题",
+    "year": 2020,
     "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-20T13:28:59.653363+00:00",
+    "created_at": "2026-09-19T16:09:14.591246+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 6
       }
     ]
   },
   {
-    "id": "89b77a1d-2e2b-451c-982b-1d202e596d00",
-    "category_id": "ky2",
-    "title": "2019年全国硕士研究生招生考试英语（二）真题",
+    "id": "bda9f6c8-7e3c-4915-8a2d-942357e75c04",
+    "category_id": "cet4",
+    "title": "2019年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
     "year": 2019,
     "exam_type": "real",
     "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 100,
+    "pass_score": 60,
     "is_published": true,
-    "created_at": "2026-09-19T16:37:25.221046+00:00",
+    "created_at": "2026-09-20T13:28:33.364481+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 4
       }
     ]
   },
@@ -533,79 +509,79 @@
     "title": "2019年全国硕士研究生招生考试英语（一）真题",
     "year": 2019,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:18.189144+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "bda9f6c8-7e3c-4915-8a2d-942357e75c04",
-    "category_id": "cet4",
-    "title": "2019年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
+    "id": "89b77a1d-2e2b-451c-982b-1d202e596d00",
+    "category_id": "ky2",
+    "title": "2019年全国硕士研究生招生考试英语（二）真题",
     "year": 2019,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-09-19T16:37:25.221046+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "56a972bb-df04-43a3-8dd9-3468abdf4e26",
+    "category_id": "cet6",
+    "title": "2019年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
+    "year": 2019,
+    "exam_type": "real",
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
-    "created_at": "2026-09-20T13:28:33.364481+00:00",
+    "created_at": "2026-09-20T13:28:59.653363+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "5f7ef362-93cd-46ab-8e84-89ab50af4c6e",
-    "category_id": "ky2",
-    "title": "2018年全国硕士研究生招生考试英语（二）真题",
-    "year": 2018,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
-    "is_published": true,
-    "created_at": "2026-09-19T16:37:34.716477+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
+        "count": 4
       }
     ]
   },
   {
     "id": "85195e05-5454-4656-9446-fe8e1c3c5255",
     "category_id": "cet4",
-    "title": "2018年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
+    "title": "2018年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
     "year": 2018,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -614,22 +590,22 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
   {
     "id": "54b7d1eb-25cb-443c-ba21-30c7d6923ba7",
     "category_id": "cet6",
-    "title": "2018年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
+    "title": "2018年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
     "year": 2018,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -638,12 +614,12 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
@@ -653,45 +629,93 @@
     "title": "2018年全国硕士研究生招生考试英语（一）真题",
     "year": 2018,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:37:29.707602+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "395b43b5-8fb7-47b1-a198-9f618c1f03dc",
+    "id": "5f7ef362-93cd-46ab-8e84-89ab50af4c6e",
     "category_id": "ky2",
-    "title": "2017年全国硕士研究生招生考试英语（二）真题",
-    "year": 2017,
+    "title": "2018年全国硕士研究生招生考试英语（二）真题",
+    "year": 2018,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-19T16:37:41.517069+00:00",
+    "created_at": "2026-09-19T16:37:34.716477+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "d869068a-1966-4d09-a7c1-5f355d0f6308",
+    "category_id": "cet4",
+    "title": "2017年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
+    "year": 2017,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:28.21981+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
+      }
+    ]
+  },
+  {
+    "id": "4fd083b3-d09b-4fee-8937-a1a391696e30",
+    "category_id": "cet6",
+    "title": "2017年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
+    "year": 2017,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:54.215797+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
       }
     ]
   },
@@ -701,79 +725,55 @@
     "title": "2017年全国硕士研究生招生考试英语（一）真题",
     "year": 2017,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:19.948146+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
-    "id": "4fd083b3-d09b-4fee-8937-a1a391696e30",
-    "category_id": "cet6",
-    "title": "2017年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
+    "id": "395b43b5-8fb7-47b1-a198-9f618c1f03dc",
+    "category_id": "ky2",
+    "title": "2017年全国硕士研究生招生考试英语（二）真题",
     "year": 2017,
     "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-20T13:28:54.215797+00:00",
+    "created_at": "2026-09-19T16:37:41.517069+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "d869068a-1966-4d09-a7c1-5f355d0f6308",
-    "category_id": "cet4",
-    "title": "2017年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2017,
-    "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:28.21981+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 10
-      }
-    ],
-    "passages": [
-      {
-        "count": 2
+        "count": 6
       }
     ]
   },
   {
     "id": "4d0cffbf-7959-472e-bd26-e882c6b28d81",
     "category_id": "cet4",
-    "title": "2016年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
+    "title": "2016年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
     "year": 2016,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -782,36 +782,12 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "75eb9529-4bd4-431e-919c-bcf480e9e79a",
-    "category_id": "ky2",
-    "title": "2016年全国硕士研究生招生考试英语（二）真题",
-    "year": 2016,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
-    "is_published": true,
-    "created_at": "2026-09-19T16:44:00.676689+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
+        "count": 4
       }
     ]
   },
@@ -821,31 +797,31 @@
     "title": "2016年全国硕士研究生招生考试英语（一）真题",
     "year": 2016,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:21.553579+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
     "id": "71c80954-7716-454c-b944-490d1113c309",
     "category_id": "cet6",
-    "title": "2016年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
+    "title": "2016年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
     "year": 2016,
     "exam_type": "real",
-    "duration_minutes": 40,
+    "duration_minutes": 60,
     "total_score": 100,
     "pass_score": 60,
     "is_published": true,
@@ -854,60 +830,36 @@
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 30
       }
     ],
     "passages": [
       {
-        "count": 2
+        "count": 4
       }
     ]
   },
   {
-    "id": "8f296d02-99ab-4bd5-b1b6-3d9bee106914",
-    "category_id": "cet4",
-    "title": "2015年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2015,
+    "id": "75eb9529-4bd4-431e-919c-bcf480e9e79a",
+    "category_id": "ky2",
+    "title": "2016年全国硕士研究生招生考试英语（二）真题",
+    "year": 2016,
     "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-20T13:28:22.81373+00:00",
+    "created_at": "2026-09-19T16:44:00.676689+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 10
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 2
-      }
-    ]
-  },
-  {
-    "id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
-    "category_id": "cet6",
-    "title": "2015年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与考点研读",
-    "year": 2015,
-    "exam_type": "real",
-    "duration_minutes": 40,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:49.229508+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 10
-      }
-    ],
-    "passages": [
-      {
-        "count": 2
+        "count": 6
       }
     ]
   },
@@ -917,21 +869,45 @@
     "title": "2015年全国硕士研究生招生考试英语（二）真题",
     "year": 2015,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:44:08.136906+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+    "category_id": "cet6",
+    "title": "2015年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
+    "year": 2015,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:49.229508+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
       }
     ]
   },
@@ -941,21 +917,45 @@
     "title": "2015年全国硕士研究生招生考试英语（一）真题",
     "year": 2015,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 50,
-    "pass_score": 30,
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-09-19T16:09:23.987292+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 40
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 5
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "8f296d02-99ab-4bd5-b1b6-3d9bee106914",
+    "category_id": "cet4",
+    "title": "2015年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
+    "year": 2015,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:22.81373+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
       }
     ]
   }

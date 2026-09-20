@@ -525,10 +525,11 @@ export default function MistakesPage() {
                 </h3>
 
                 {/* Options (Interactive for retesting) */}
-                <div className="space-y-2">
+                <div className={options.length > 5 ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2" : "space-y-2"}>
                   {options.map((opt) => {
                     const isSelected = retestAns === opt.key;
                     const isTheCorrect = opt.key === corrAnswer;
+                    const isGrid = options.length > 5;
 
                     let optStyle = "bg-slate-50 dark:bg-zinc-900/60 border-slate-200 dark:border-zinc-800 text-slate-800 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/80";
                     if (isRetested) {
@@ -543,12 +544,17 @@ export default function MistakesPage() {
                       <button
                         key={opt.key}
                         onClick={() => handleRetestOption(item.questionId, corrAnswer, opt.key)}
-                        className={`w-full p-3 rounded-xl border text-left flex items-start space-x-3 transition-all ${optStyle}`}
+                        className={isGrid
+                          ? `p-2 sm:p-2.5 rounded-xl border text-left flex items-center space-x-2 transition-all ${optStyle}`
+                          : `w-full p-3 rounded-xl border text-left flex items-start space-x-3 transition-all ${optStyle}`}
+                        title={opt.text}
                       >
                         <span className="w-6 h-6 rounded-lg bg-white dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-200 text-xs font-bold flex items-center justify-center shrink-0">
                           {opt.key}
                         </span>
-                        <span className="text-xs sm:text-sm pt-0.5">{opt.text}</span>
+                        <span className={`text-xs ${isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"} flex-1`}>
+                          {opt.text}
+                        </span>
                       </button>
                     );
                   })}
@@ -746,49 +752,62 @@ export default function MistakesPage() {
                   </div>
 
                   {/* Options with normalizeOptions support */}
-                  <div className="space-y-3">
-                    {normalizeOptions(sideBySideItem.detail.options).map((opt) => {
-                      const retestAns = retestAnswers[sideBySideItem.detail.id];
-                      const isRetested = Boolean(retestAns);
-                      const isTheCorrect = opt.key === sideBySideItem.detail.correct_answer;
-                      const isSelected = retestAns === opt.key;
+                  {(() => {
+                    const opts = normalizeOptions(sideBySideItem.detail.options);
+                    const isGrid = opts.length > 5;
+                    return (
+                      <div className={isGrid ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2" : "space-y-3"}>
+                        {opts.map((opt) => {
+                          const retestAns = retestAnswers[sideBySideItem.detail.id];
+                          const isRetested = Boolean(retestAns);
+                          const isTheCorrect = opt.key === sideBySideItem.detail.correct_answer;
+                          const isSelected = retestAns === opt.key;
 
-                      let btnStyle = "bg-slate-50 dark:bg-zinc-900/70 border-slate-200/80 dark:border-zinc-800 text-slate-800 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/80";
-                      let badgeStyle = "bg-white dark:bg-zinc-800 border-slate-300 dark:border-zinc-700 text-slate-700 dark:text-zinc-200";
+                          let btnStyle = "bg-slate-50 dark:bg-zinc-900/70 border-slate-200/80 dark:border-zinc-800 text-slate-800 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/80";
+                          let badgeStyle = "bg-white dark:bg-zinc-800 border-slate-300 dark:border-zinc-700 text-slate-700 dark:text-zinc-200";
 
-                      if (isRetested) {
-                        if (isTheCorrect) {
-                          btnStyle = "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-400 dark:border-emerald-500 text-emerald-950 dark:text-emerald-300 font-bold ring-1 ring-emerald-400";
-                          badgeStyle = "bg-emerald-600 text-white border-emerald-600";
-                        } else if (isSelected) {
-                          btnStyle = "bg-rose-50 dark:bg-rose-950/40 border-rose-300 dark:border-rose-500 text-rose-950 dark:text-rose-300 font-bold ring-1 ring-rose-300";
-                          badgeStyle = "bg-rose-600 text-white border-rose-600";
-                        }
-                      }
-
-                      return (
-                        <button
-                          key={opt.key}
-                          onClick={() =>
-                            handleRetestOption(
-                              sideBySideItem.detail.id,
-                              sideBySideItem.detail.correct_answer,
-                              opt.key
-                            )
+                          if (isRetested) {
+                            if (isTheCorrect) {
+                              btnStyle = "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-400 dark:border-emerald-500 text-emerald-950 dark:text-emerald-300 font-bold ring-1 ring-emerald-400";
+                              badgeStyle = "bg-emerald-600 text-white border-emerald-600";
+                            } else if (isSelected) {
+                              btnStyle = "bg-rose-50 dark:bg-rose-950/40 border-rose-300 dark:border-rose-500 text-rose-950 dark:text-rose-300 font-bold ring-1 ring-rose-300";
+                              badgeStyle = "bg-rose-600 text-white border-rose-600";
+                            }
                           }
-                          className={`w-full p-4 rounded-xl border text-left flex items-start space-x-3.5 transition-all shadow-xs ${btnStyle}`}
-                        >
-                          <span className={`w-7 h-7 rounded-lg border text-xs font-bold font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
-                            {opt.key}
-                          </span>
-                          <span className="text-sm pt-0.5 leading-relaxed flex-1">{opt.text}</span>
-                          <span className="text-[10px] text-slate-400 dark:text-zinc-500 font-mono self-center hidden sm:inline">
-                            [键入 {opt.key}]
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
+
+                          return (
+                            <button
+                              key={opt.key}
+                              onClick={() =>
+                                handleRetestOption(
+                                  sideBySideItem.detail.id,
+                                  sideBySideItem.detail.correct_answer,
+                                  opt.key
+                                )
+                              }
+                              className={isGrid
+                                ? `p-2.5 rounded-xl border text-left flex items-center space-x-2 transition-all shadow-xs ${btnStyle}`
+                                : `w-full p-4 rounded-xl border text-left flex items-start space-x-3.5 transition-all shadow-xs ${btnStyle}`}
+                              title={opt.text}
+                            >
+                              <span className={`w-7 h-7 rounded-lg border text-xs font-bold font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
+                                {opt.key}
+                              </span>
+                              <span className={`text-xs ${isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"} flex-1`}>
+                                {opt.text}
+                              </span>
+                              {!isGrid && (
+                                <span className="text-[10px] text-slate-400 dark:text-zinc-500 font-mono self-center hidden sm:inline">
+                                  [键入 {opt.key}]
+                                </span>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    );
+                  })()}
 
                   {/* Retest Success Alert */}
                   {congratsId === sideBySideItem.detail.id && (

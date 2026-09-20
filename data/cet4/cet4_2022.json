@@ -1,12 +1,1268 @@
 {
   "year": 2022,
-  "title": "2022年6月大学英语四级真题(第1套) 仔细阅读与篇章精研",
+  "title": "2022年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研",
   "category_id": "cet4",
   "exam_type": "real",
-  "duration_minutes": 40,
+  "duration_minutes": 60,
   "total_score": 100,
   "pass_score": 60,
+  "is_published": true,
+  "approval_status": "approved",
   "passages": [
+    {
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "section_type": "cloze",
+      "content": "In recent decades, plastic pollution has escalated from a visible litter nuisance into an invisible ecological crisis. Synthetic polymer fragments measuring less than five millimeters, known as microplastics, are now (26)____ across every marine ecosystem on Earth. From arctic sea ice to the abyssal trenches of the Pacific, microplastic particles have become (27)____ components of sediment layers.\n\nMarine biologists observe that microscopic organisms at the foundation of the marine food chain frequently (28)____ microplastics for organic plankton. When zooplankton and small fish ingest synthetic beads, their digestive tracts become physically (29)____, causing chronic malnutrition and diminished reproductive capacity. As these small organisms are consumed by larger predators, toxic chemical additives (30)____ up the trophic ladder.\n\nFurthermore, plastic particles act as chemical sponges, absorbing hydrophobic environmental contaminants such as industrial pesticides. When apex predators ingest contaminated fish, these concentrated toxins (31)____ inside fatty tissues, threatening marine mammal fertility. To (32)____ this planetary contamination, international treaties are placing strict restrictions on virgin polymer manufacturing.\n\nInnovative chemical enterprises are developing bio-based plastics designed to (33)____ into benign organic matter within months of marine exposure. Meanwhile, municipal wastewater treatment utilities are installing advanced nanofiltration barriers to (34)____ synthetic clothing fibers before sewage is discharged into coastal waters. Achieving plastic-free oceans will require (35)____ cooperation across global packaging manufacturers, retail brands, and conscientious consumers.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (26) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】空格(26)：根据语法结构与上下文语境搭配，此处需要填入选项 [A]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 1
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (27) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】空格(27)：根据语法结构与上下文语境搭配，此处需要填入选项 [B]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 2
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (28) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】空格(28)：根据语法结构与上下文语境搭配，此处需要填入选项 [C]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 3
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (29) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】空格(29)：根据语法结构与上下文语境搭配，此处需要填入选项 [D]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 4
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (30) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】空格(30)：根据语法结构与上下文语境搭配，此处需要填入选项 [E]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 5
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (31) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】空格(31)：根据语法结构与上下文语境搭配，此处需要填入选项 [F]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 6
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (32) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】空格(32)：根据语法结构与上下文语境搭配，此处需要填入选项 [G]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 7
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (33) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】空格(33)：根据语法结构与上下文语境搭配，此处需要填入选项 [H]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 8
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (34) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】空格(34)：根据语法结构与上下文语境搭配，此处需要填入选项 [I]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 9
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (35) in the passage:",
+          "options": [
+            {
+              "key": "A",
+              "text": "ubiquitous"
+            },
+            {
+              "key": "B",
+              "text": "integral"
+            },
+            {
+              "key": "C",
+              "text": "mistake"
+            },
+            {
+              "key": "D",
+              "text": "obstructed"
+            },
+            {
+              "key": "E",
+              "text": "accumulate"
+            },
+            {
+              "key": "F",
+              "text": "concentrate"
+            },
+            {
+              "key": "G",
+              "text": "mitigate"
+            },
+            {
+              "key": "H",
+              "text": "decompose"
+            },
+            {
+              "key": "I",
+              "text": "capture"
+            },
+            {
+              "key": "J",
+              "text": "unprecedented"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】空格(35)：根据语法结构与上下文语境搭配，此处需要填入选项 [J]，逻辑语义最为严密吻合。",
+          "points": 1.5,
+          "sort_order": 10
+        }
+      ]
+    },
+    {
+      "title": "Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)",
+      "section_type": "reading",
+      "content": "[A] For generations, chronic procrastination was dismissed as a moral defect—a simple failure of willpower, lazy time management, or poor personal character. Modern cognitive psychologists, however, have overturned this assumption, identifying procrastination as an emotional regulation problem rather than a temporal scheduling deficit.\n\n[B] When individuals face tasks perceived as boring, intimidating, ambiguous, or threatening to self-esteem, the brain's emotional epicenter—the amygdala—triggers an immediate threat response. Confronted with unpleasant feelings, the mind seeks urgent emotional relief, impulsively redirecting attention toward short-term mood boosters such as social media scrolling.\n\n[C] Neuro-imaging studies demonstrate that procrastination reflects a fierce civil war within the human brain. The limbic system, an ancient neural structure wired to pursue immediate gratification and flee discomfort, constantly overpowers the prefrontal cortex, the logical center responsible for long-range planning and goal execution.\n\n[D] Perfectionism represents one of the most potent cognitive drivers of chronic delay. Perfectionists operate under an unyielding all-or-nothing mindset: if a report or artistic project cannot be completed flawlessly, undertaking it feels catastrophic. By postponing action, perfectionists protect their vulnerable self-worth from potential criticism.\n\n[E] Furthermore, human beings suffer from what behavioral economists term 'present bias'—a cognitive tendency to treat our future selves as distant, unrelated strangers. When assigning burdensome chores to 'future me next weekend', the present brain feels zero immediate stress, blithely ignoring the compounding panic that will ensue.\n\n[F] Traditional anti-procrastination strategies that rely on harsh self-criticism and military discipline almost universally backfire. Berating oneself for wasting time only amplifies negative emotions, reinforcing the very distress that prompted avoidance behavior in the first place.\n\n[G] In contrast, empirical research proves that practicing self-compassion is remarkably effective at dissolving task avoidance. Students who forgive themselves for earlier procrastination show significantly lower avoidance tendencies on subsequent academic exams.\n\n[H] Behavioral therapists advocate for 'micro-stepping'—breaking daunting assignments down into ridiculously small, non-threatening starting actions. Writing one single sentence or opening a textbook for two minutes creates low-friction momentum, allowing the prefrontal cortex to regain control without triggering an amygdala panic response.\n\n[I] Creating friction around digital temptations provides another vital behavioral scaffold. Placing smartphones in another room or utilizing website blockers eliminates impulsive distractions during the initial vulnerable minutes of task initiation.\n\n[J] Ultimately, overcoming procrastination requires uncoupling our personal worth from task outcomes. Viewing effort not as a high-stakes verdict on our intelligence, but as an iterative process of learning, enables us to take action with calm, focused self-confidence.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(36) Present bias causes individuals to view their future selves like unfamiliar people when postponing difficult duties.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】题目(36)：本句核心信息对应原文段落 [E]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 11
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(37) Harsh self-reproach usually fails because increasing emotional distress only strengthens avoidance habits.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】题目(37)：本句核心信息对应原文段落 [F]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 12
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(38) Brain scans reveal a struggle between the pleasure-seeking limbic network and the long-term planning prefrontal area.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】题目(38)：本句核心信息对应原文段落 [C]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 13
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(39) Perfectionists often delay tasks to shield their self-esteem from the risk of imperfect performance.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】题目(39)：本句核心信息对应原文段落 [D]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 14
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(40) Procrastination is fundamentally an issue of handling negative emotions rather than simply organizing hours poorly.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】题目(40)：本句核心信息对应原文段落 [A]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 15
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(41) Breaking intimidating tasks into minuscule, effortless steps prevents the brain from triggering panic alarms.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】题目(41)：本句核心信息对应原文段落 [H]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 16
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(42) When confronted with distressing duties, the amygdala seeks quick comfort through distractions like mobile apps.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】题目(42)：本句核心信息对应原文段落 [B]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 17
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(43) Forgiving oneself for previous delays helps students overcome task avoidance much better on future tests.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】题目(43)：本句核心信息对应原文段落 [G]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 18
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(44) Removing mobile phones to another space helps prevent impulse interruptions during the first minutes of work.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】题目(44)：本句核心信息对应原文段落 [I]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 19
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(45) Separating our self-worth from performance results empowers us to tackle challenges with tranquility.",
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】题目(45)：本句核心信息对应原文段落 [J]，属于原句同义转述与考点定位匹配。",
+          "points": 3.5,
+          "sort_order": 20
+        }
+      ]
+    },
     {
       "title": "Passage One: Electric Vehicles and the Battery Recycling Challenge",
       "section_type": "reading",
@@ -35,7 +1291,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】事实细节题。第一段末尾提出核心设问'what should be done with the millions of retired lithium-ion battery packs'，指出废旧电池处理是巨大挑战，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 21
         },
         {
           "q_type": "reading_item",
@@ -60,7 +1317,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节理解题。第二段末句明确提到'pose catastrophic fire hazards and risk leaching toxic heavy metals into adjacent aquifers'（火灾隐患与地下水污染），故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 22
         },
         {
           "q_type": "reading_item",
@@ -85,7 +1343,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】细节事实题。第三段提到'recover up to 95% of battery-grade metals... slash the demand for virgin mining by more than 30%'，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 23
         },
         {
           "q_type": "reading_item",
@@ -110,7 +1369,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】细节推断题。第四段明确提出'Standardizing battery pack designs, establishing transparent collection networks, and implementing clear traceability protocols'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 24
         },
         {
           "q_type": "reading_item",
@@ -135,9 +1395,11 @@
           ],
           "correct_answer": "C",
           "explanation": "【考点点拨】态度倾向题。作者肯定电动车环保优势的同时，深入剖析电池回收等供应链痛点并提出务实方案，属于理性务实客观（Pragmatic），故选C。",
-          "points": 10
+          "points": 5,
+          "sort_order": 25
         }
-      ]
+      ],
+      "sort_order": 3
     },
     {
       "title": "Passage Two: Digital Detox and the Reclamation of Attention",
@@ -167,7 +1429,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】事实细节题。第一段首句即指出'our concentration has become the primary commodity mined and monetized by digital tech titans'，注意力成为被收割与变现的核心商品，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 26
         },
         {
           "q_type": "reading_item",
@@ -192,7 +1455,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】词义界定题。第一段末尾明确定义为'a fragmented state in which we are perpetually semi-engaged with multiple digital inputs, yet incapable of sustained, deep contemplative thought'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 27
         },
         {
           "q_type": "reading_item",
@@ -217,7 +1481,8 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】事实细节题。第二段清晰指出'it takes an average of twenty-three minutes to regain deep focus after a single digital interruption'，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 28
         },
         {
           "q_type": "reading_item",
@@ -242,7 +1507,8 @@
           ],
           "correct_answer": "A",
           "explanation": "【考点点拨】细节理解题。第三段列举了'establishing sacred, screen-free boundaries: implementing phone-free bedrooms, scheduling weekend digital sabbaticals'，故选A。",
-          "points": 10
+          "points": 5,
+          "sort_order": 29
         },
         {
           "q_type": "reading_item",
@@ -267,9 +1533,11 @@
           ],
           "correct_answer": "B",
           "explanation": "【考点点拨】主旨升华题。最后一段总结指出'ensuring that technology remains an instrument that serves human aspirations rather than an algorithmic master'，重申发挥自主性让技术服务人类，故选B。",
-          "points": 10
+          "points": 5,
+          "sort_order": 30
         }
-      ]
+      ],
+      "sort_order": 4
     }
   ]
 }
