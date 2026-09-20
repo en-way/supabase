@@ -11,20 +11,23 @@ export interface DictEntry {
   isOnline?: boolean;
 }
 
-interface RawDictItem {
-  p?: string;
-  pos?: string;
-  d: string;
+export type RawDictValue = string | { d: string; b?: string; p?: string; pos?: string };
+
+export function parseRawItem(raw: RawDictValue): { d: string; b?: string; p?: string; pos?: string } {
+  if (typeof raw === "string") {
+    return { d: raw };
+  }
+  return raw;
 }
 
 // Memory cache for fully resolved words
 const resolvedWordCache: Record<string, DictEntry | undefined> = {};
 
 // Memory cache for loaded 26-letter shards from Cloudflare Pages
-const loadedLetterPacks: Record<string, Record<string, RawDictItem> | undefined> = {};
+const loadedLetterPacks: Record<string, Record<string, RawDictValue> | undefined> = {};
 
 // In-flight fetch promises to prevent redundant simultaneous requests
-const pendingLetterFetches: Record<string, Promise<Record<string, RawDictItem>> | undefined> = {};
+const pendingLetterFetches: Record<string, Promise<Record<string, RawDictValue>> | undefined> = {};
 
 /**
  * Clean and normalize a query string into a canonical English word.
@@ -52,7 +55,7 @@ export function getAudioUrls(word: string) {
 /**
  * Fetch and memory-cache a letter shard (/dict/{letter}.json) from Cloudflare Pages static CDN.
  */
-export async function loadLetterPack(letter: string): Promise<Record<string, RawDictItem>> {
+export async function loadLetterPack(letter: string): Promise<Record<string, RawDictValue>> {
   const char = letter.toLowerCase();
   if (char < "a" || char > "z") return {};
 
@@ -74,7 +77,7 @@ export async function loadLetterPack(letter: string): Promise<Record<string, Raw
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`);
       }
-      const data: Record<string, RawDictItem> = await res.json();
+      const data: Record<string, RawDictValue> = await res.json();
       loadedLetterPacks[char] = data;
       return data;
     } catch (err) {
@@ -94,8 +97,8 @@ export async function loadLetterPack(letter: string): Promise<Record<string, Raw
  */
 function findStemMatch(
   clean: string,
-  dict: Record<string, RawDictItem>
-): { baseWord: string; item: RawDictItem } | null {
+  dict: Record<string, RawDictValue>
+): { baseWord: string; item: { d: string; b?: string; p?: string; pos?: string } } | null {
   const candidates: string[] = [];
 
   // Plurals and 3rd person singular: -s, -es, -ies
@@ -108,7 +111,6 @@ function findStemMatch(
   if (clean.endsWith("ed") && clean.length > 3) {
     candidates.push(clean.slice(0, -2)); // walked -> walk
     candidates.push(clean.slice(0, -1)); // changed -> change
-    // doubled consonants: e.g. stopped -> stop
     if (clean.length > 4 && clean[clean.length - 3] === clean[clean.length - 4]) {
       candidates.push(clean.slice(0, -3));
     }
@@ -143,7 +145,7 @@ function findStemMatch(
 
   for (const cand of candidates) {
     if (dict[cand]) {
-      return { baseWord: cand, item: dict[cand] };
+      return { baseWord: cand, item: parseRawItem(dict[cand]) };
     }
   }
 
@@ -169,11 +171,12 @@ export function lookupWord(rawWord: string): DictEntry | null {
 
   // 1. Direct match
   if (pack[clean]) {
-    const raw = pack[clean];
+    const raw = parseRawItem(pack[clean]);
     const entry: DictEntry = {
       word: clean,
-      phonetic: raw.p || `/${clean}/`,
-      pos: raw.pos || "考研词汇",
+      baseWord: raw.b,
+      phonetic: raw.p,
+      pos: raw.pos,
       definition: raw.d,
       audioUrl: audio.us,
       usAudioUrl: audio.us,
@@ -190,9 +193,9 @@ export function lookupWord(rawWord: string): DictEntry | null {
     const entry: DictEntry = {
       word: clean,
       baseWord: stem.baseWord,
-      phonetic: stem.item.p || `/${clean}/`,
+      phonetic: stem.item.p,
       pos: stem.item.pos || "衍生词",
-      definition: `${stem.item.d} (原形: ${stem.baseWord})`,
+      definition: stem.item.d.includes(stem.baseWord) ? stem.item.d : `${stem.item.d}（原形: ${stem.baseWord}）`,
       audioUrl: audio.us,
       usAudioUrl: audio.us,
       ukAudioUrl: audio.uk,
@@ -209,7 +212,7 @@ export function lookupWord(rawWord: string): DictEntry | null {
  * Asynchronous High-Speed Sharded Lookup:
  * 1. Checks memory cache (0ms).
  * 2. Fetches Cloudflare Pages static shard (/dict/{letter}.json) if not yet loaded.
- * 3. Performs exact or morphological stem lookup.
+ * 3. Performs exact or morphological stem lookup across 120,000+ words.
  * 4. 0 Supabase API calls, 0 Supabase egress, 0 CORS issues.
  */
 export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null> {
@@ -225,15 +228,16 @@ export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null
   const firstChar = clean[0];
   const pack = await loadLetterPack(firstChar);
 
-  // 3. Check exact match
   const audio = getAudioUrls(clean);
 
+  // 3. Check exact match
   if (pack && pack[clean]) {
-    const raw = pack[clean];
+    const raw = parseRawItem(pack[clean]);
     const entry: DictEntry = {
       word: clean,
-      phonetic: raw.p || `/${clean}/`,
-      pos: raw.pos || "考研核心词",
+      baseWord: raw.b,
+      phonetic: raw.p,
+      pos: raw.pos,
       definition: raw.d,
       audioUrl: audio.us,
       usAudioUrl: audio.us,
@@ -251,9 +255,9 @@ export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null
       const entry: DictEntry = {
         word: clean,
         baseWord: stem.baseWord,
-        phonetic: stem.item.p || `/${clean}/`,
+        phonetic: stem.item.p,
         pos: stem.item.pos || "衍生词",
-        definition: `${stem.item.d} (原形: ${stem.baseWord})`,
+        definition: stem.item.d.includes(stem.baseWord) ? stem.item.d : `${stem.item.d}（原形: ${stem.baseWord}）`,
         audioUrl: audio.us,
         usAudioUrl: audio.us,
         ukAudioUrl: audio.uk,
@@ -267,9 +271,8 @@ export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null
   // 5. Fallback placeholder for rare unregistered words
   const fallbackEntry: DictEntry = {
     word: clean,
-    phonetic: `/${clean}/`,
-    pos: "词汇",
-    definition: "考研真题高频词汇（可点击下方加入生词本重点复习）",
+    pos: "真题词汇",
+    definition: "考研/四六级真题词汇（可点击下方加入生词本重点复习）",
     audioUrl: audio.us,
     usAudioUrl: audio.us,
     ukAudioUrl: audio.uk,
