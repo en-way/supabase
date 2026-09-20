@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "crawl:cet": "node scripts/crawler_cet.js",
-    "seed:cet": "node scripts/seed_cet.js"
+    "seed:cet": "node scripts/seed_cet.js",
+    "export:static": "node scripts/export_exams_to_static.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",
