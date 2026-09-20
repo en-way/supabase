@@ -165,24 +165,24 @@ export default function ProfilePage() {
       )}
 
       {/* User Info Card */}
-      <div className="bg-white rounded-3xl border border-slate-200/90 p-6 sm:p-8 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-6">
-        <div className="flex items-center space-x-5">
-          <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-indigo-600 to-indigo-700 text-white flex items-center justify-center text-2xl font-black shadow-lg shadow-indigo-200">
+      <div className="bg-white p-6 sm:p-7 rounded-2xl border border-black/[0.06] shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="flex items-center space-x-4">
+          <div className="w-14 h-14 rounded-2xl bg-zinc-900 text-white flex items-center justify-center text-xl font-bold shadow-subtle">
             {profile?.nickname?.[0] || profile?.username?.[0] || "U"}
           </div>
           <div>
             <div className="flex items-center space-x-2">
               {!isEditingNick ? (
                 <>
-                  <h2 className="text-xl font-bold text-slate-900">
+                  <h2 className="text-lg font-bold text-zinc-900">
                     {profile?.nickname || profile?.username}
                   </h2>
                   <button
                     onClick={() => setIsEditingNick(true)}
-                    className="text-slate-400 hover:text-indigo-600 p-1 rounded-md"
+                    className="text-zinc-400 hover:text-zinc-700 p-1 rounded-md transition-colors"
                     title="修改昵称"
                   >
-                    <Edit2 className="w-4 h-4" />
+                    <Edit2 className="w-3.5 h-3.5" />
                   </button>
                 </>
               ) : (
@@ -191,17 +191,17 @@ export default function ProfilePage() {
                     type="text"
                     value={nicknameInput}
                     onChange={(e) => setNicknameInput(e.target.value)}
-                    className="text-sm font-bold border border-indigo-300 rounded-lg px-2 py-1 focus:outline-none focus:ring-1 focus:ring-indigo-500"
+                    className="text-xs font-bold border border-zinc-300 rounded-lg px-2.5 py-1 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900"
                   />
                   <button
                     onClick={handleUpdateNickname}
-                    className="p-1.5 bg-indigo-600 text-white rounded-lg text-xs"
+                    className="p-1.5 bg-zinc-900 text-white rounded-lg text-xs"
                   >
                     <Save className="w-3.5 h-3.5" />
                   </button>
                   <button
                     onClick={() => setIsEditingNick(false)}
-                    className="p-1.5 bg-slate-100 text-slate-600 rounded-lg text-xs"
+                    className="p-1.5 bg-zinc-100 text-zinc-600 rounded-lg text-xs"
                   >
                     取消
                   </button>
@@ -210,97 +210,97 @@ export default function ProfilePage() {
             </div>
 
             <div className="flex items-center space-x-2 mt-1">
-              <span className="text-xs text-slate-500 font-mono">
-                账号/学号: <strong className="text-slate-700">{profile?.username}</strong> (永久唯一标识)
+              <span className="text-xs text-zinc-500 font-mono">
+                账号/学号: <strong className="text-zinc-800">{profile?.username}</strong>
               </span>
-              <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
+              <span className={`px-2 py-0.5 rounded-md text-[10px] font-bold font-mono ${
                 profile?.role === "super_admin" 
-                  ? "bg-purple-100 text-purple-700 border border-purple-200" 
+                  ? "bg-purple-50 text-purple-700 border border-purple-200" 
                   : profile?.role === "admin"
-                  ? "bg-indigo-100 text-indigo-700 border border-indigo-200"
-                  : "bg-slate-100 text-slate-600"
+                  ? "bg-zinc-100 text-zinc-800 border border-zinc-200"
+                  : "bg-zinc-100 text-zinc-600 border border-zinc-200"
               }`}>
                 {profile?.role === "super_admin" 
-                  ? "👑 超级管理员" 
+                  ? "👑 超管" 
                   : profile?.role === "admin" 
-                  ? "🛡️ 普通管理员" 
+                  ? "🛡️ 管理员" 
                   : "🎓 学员"}
               </span>
             </div>
           </div>
         </div>
 
-        <div className="text-xs text-slate-400 font-mono">
+        <div className="text-xs text-zinc-400 font-mono">
           注册时间: {profile ? new Date(profile.created_at).toLocaleDateString() : "--"}
         </div>
       </div>
 
-      {/* Local Data Stats */}
+      {/* Local Data Stats (4 Minimalist Stat Cards) */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm text-center">
-          <span className="text-xs text-slate-400 block font-medium">待复习错题</span>
-          <span className="text-2xl font-black text-amber-500 mt-1 block">
+        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
+          <span className="text-xs text-zinc-400 block font-medium">待复习错题</span>
+          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
             {localState?.mistakes.filter(m => !m.isMastered).length || 0}
           </span>
-          <span className="text-[10px] text-slate-400">已掌握: {localState?.mistakes.filter(m => m.isMastered).length || 0} 道</span>
+          <span className="text-[10px] text-zinc-400">已攻克: {localState?.mistakes.filter(m => m.isMastered).length || 0} 道</span>
         </div>
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm text-center">
-          <span className="text-xs text-slate-400 block font-medium">已存生词</span>
-          <span className="text-2xl font-black text-emerald-600 mt-1 block">
+        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
+          <span className="text-xs text-zinc-400 block font-medium">已存生词</span>
+          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
             {localState?.vocabulary.length || 0}
           </span>
-          <span className="text-[10px] text-slate-400">来自阅读材料双击</span>
+          <span className="text-[10px] text-zinc-400">真题阅读双击收录</span>
         </div>
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm text-center">
-          <span className="text-xs text-slate-400 block font-medium">收藏题目</span>
-          <span className="text-2xl font-black text-indigo-600 mt-1 block">
+        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
+          <span className="text-xs text-zinc-400 block font-medium">收藏题目</span>
+          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
             {localState?.favorites.length || 0}
           </span>
-          <span className="text-[10px] text-slate-400">含个人专属笔记</span>
+          <span className="text-[10px] text-zinc-400">含专属做题心得</span>
         </div>
-        <div className="bg-white p-5 rounded-2xl border border-slate-200/90 shadow-sm text-center">
-          <span className="text-xs text-slate-400 block font-medium">已测模考</span>
-          <span className="text-2xl font-black text-sky-600 mt-1 block">
+        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
+          <span className="text-xs text-zinc-400 block font-medium">已测模考</span>
+          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
             {Object.keys(localState?.examResults || {}).length}
           </span>
-          <span className="text-[10px] text-slate-400">百分制自动核分</span>
+          <span className="text-[10px] text-zinc-400">百分制自动核算</span>
         </div>
       </div>
 
       {/* Cloud Backup & Local-First Data Sovereignty Panel */}
-      <div className="bg-white rounded-3xl border border-indigo-100 p-6 sm:p-8 shadow-sm space-y-6">
-        <div className="flex items-center space-x-3 pb-4 border-b border-slate-100">
-          <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold">
+      <div className="bg-white rounded-2xl border border-black/[0.06] p-6 sm:p-8 shadow-card space-y-6">
+        <div className="flex items-center space-x-3 pb-4 border-b border-zinc-100">
+          <div className="w-10 h-10 rounded-xl bg-zinc-100 text-zinc-800 flex items-center justify-center font-bold">
             <Database className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="text-lg font-bold text-slate-900">
+            <h3 className="text-base font-bold text-zinc-900">
               学员研习档案与多端同步中心
             </h3>
-            <p className="text-xs text-slate-500">
+            <p className="text-xs text-zinc-400 mt-0.5">
               研习数据本机即时留存 · 一键加密归档至专属云端档案空间 · 跨设备随心续学
             </p>
           </div>
         </div>
 
         {/* Cloud Status Snapshot */}
-        <div className="p-4 rounded-2xl bg-indigo-50/50 border border-indigo-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="p-4 rounded-xl bg-zinc-50/80 border border-black/[0.04] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
-              <span className="text-xs font-bold text-indigo-900">云端研习档案状态:</span>
-              <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
-                cloudInfo?.exists ? "bg-emerald-100 text-emerald-700" : "bg-slate-200 text-slate-600"
+              <span className="text-xs font-bold text-zinc-900">云端研习档案状态:</span>
+              <span className={`px-2 py-0.5 rounded-md text-[10px] font-bold ${
+                cloudInfo?.exists ? "bg-emerald-50 text-emerald-700 border border-emerald-200/80" : "bg-zinc-200 text-zinc-600"
               }`}>
                 {cloudInfo?.exists ? "云端已有最新档案" : "尚未创建云端归档"}
               </span>
             </div>
             {cloudInfo?.exists ? (
-              <p className="text-xs text-indigo-700">
+              <p className="text-xs text-zinc-600">
                 上次归档: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
                 已归纳 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
               </p>
             ) : (
-              <p className="text-xs text-slate-500">
+              <p className="text-xs text-zinc-400">
                 建议阶段性点击“备份到云端”，研习进度将安全存入专属加密档案空间。
               </p>
             )}
@@ -310,28 +310,28 @@ export default function ProfilePage() {
             <button
               onClick={handleUploadBackup}
               disabled={uploading}
-              className="px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-50"
+              className="px-3.5 py-1.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-white text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-50"
             >
-              <CloudUpload className="w-4 h-4" />
+              <CloudUpload className="w-3.5 h-3.5 text-zinc-300" />
               <span>{uploading ? "正在归档..." : "备份到云端"}</span>
             </button>
 
             <button
               onClick={handleDownloadBackup}
               disabled={downloading || !cloudInfo?.exists}
-              className="px-3.5 py-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-40"
+              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] bg-white hover:bg-zinc-50 text-zinc-700 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
             >
-              <CloudDownload className="w-4 h-4 text-indigo-600" />
+              <CloudDownload className="w-3.5 h-3.5 text-zinc-500" />
               <span>{downloading ? "正在恢复..." : "从云端恢复"}</span>
             </button>
 
             <button
               onClick={handleReconcile}
               disabled={reconciling}
-              className="px-3.5 py-2 rounded-xl border border-indigo-200 bg-indigo-50/50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold shadow-sm flex items-center space-x-1.5 transition-all disabled:opacity-40"
+              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] bg-white hover:bg-zinc-50 text-zinc-700 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
               title="比对题库删改，自动清理下架试题并自愈答案"
             >
-              <RotateCcw className={`w-4 h-4 ${reconciling ? "animate-spin" : ""}`} />
+              <RotateCcw className={`w-3.5 h-3.5 text-zinc-500 ${reconciling ? "animate-spin" : ""}`} />
               <span>{reconciling ? "校对中..." : "校对云端题库"}</span>
             </button>
           </div>

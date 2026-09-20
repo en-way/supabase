@@ -94,52 +94,51 @@ export default function AnnouncementBanner() {
     return null;
   }
 
-  // Theme styling based on level
+  // Theme styling based on level (modern muted palette with micro-borders)
   const themeStyles = {
     info: {
-      wrapper: "bg-blue-50 border-b border-blue-200 text-blue-950",
+      wrapper: "bg-blue-50/60 border-b border-blue-100/80 text-blue-900",
       badge: "bg-blue-600 text-white",
-      icon: <Info className="w-4 h-4 text-blue-600 shrink-0" />,
-      btn: "bg-blue-600 hover:bg-blue-700 text-white",
-      closeBtn: "text-blue-500 hover:text-blue-800 hover:bg-blue-100",
+      icon: <Info className="w-3.5 h-3.5 text-blue-600 shrink-0" />,
+      btn: "bg-blue-600 hover:bg-blue-700 text-white shadow-subtle",
+      closeBtn: "text-blue-400 hover:text-blue-800 hover:bg-blue-100/60",
     },
     warning: {
-      wrapper: "bg-amber-50 border-b border-amber-200 text-amber-950",
+      wrapper: "bg-amber-50/60 border-b border-amber-100/80 text-amber-900",
       badge: "bg-amber-600 text-white",
-      icon: <AlertTriangle className="w-4 h-4 text-amber-600 shrink-0" />,
-      btn: "bg-amber-600 hover:bg-amber-700 text-white",
-      closeBtn: "text-amber-500 hover:text-amber-800 hover:bg-amber-100",
+      icon: <AlertTriangle className="w-3.5 h-3.5 text-amber-600 shrink-0" />,
+      btn: "bg-amber-600 hover:bg-amber-700 text-white shadow-subtle",
+      closeBtn: "text-amber-400 hover:text-amber-800 hover:bg-amber-100/60",
     },
     alert: {
-      wrapper: "bg-rose-50 border-b border-rose-200 text-rose-950",
+      wrapper: "bg-rose-50/60 border-b border-rose-100/80 text-rose-900",
       badge: "bg-rose-600 text-white",
-      icon: <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />,
-      btn: "bg-rose-600 hover:bg-rose-700 text-white",
-      closeBtn: "text-rose-500 hover:text-rose-800 hover:bg-rose-100",
+      icon: <AlertCircle className="w-3.5 h-3.5 text-rose-600 shrink-0" />,
+      btn: "bg-rose-600 hover:bg-rose-700 text-white shadow-subtle",
+      closeBtn: "text-rose-400 hover:text-rose-800 hover:bg-rose-100/60",
     },
   }[announcement.type] || {
-    wrapper: "bg-blue-50 border-b border-blue-200 text-blue-950",
+    wrapper: "bg-blue-50/60 border-b border-blue-100/80 text-blue-900",
     badge: "bg-blue-600 text-white",
-    icon: <Info className="w-4 h-4 text-blue-600 shrink-0" />,
-    btn: "bg-blue-600 hover:bg-blue-700 text-white",
-    closeBtn: "text-blue-500 hover:text-blue-800 hover:bg-blue-100",
+    icon: <Info className="w-3.5 h-3.5 text-blue-600 shrink-0" />,
+    btn: "bg-blue-600 hover:bg-blue-700 text-white shadow-subtle",
+    closeBtn: "text-blue-400 hover:text-blue-800 hover:bg-blue-100/60",
   };
 
   const isExternalLink = announcement.linkUrl?.startsWith("http");
 
   return (
     <div
-      className={`w-full text-xs transition-all duration-300 relative z-50 ${themeStyles.wrapper} no-print`}
+      className={`w-full text-xs transition-all duration-200 relative z-50 ${themeStyles.wrapper} no-print`}
       role="alert"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-between gap-3">
         <div className="flex items-center space-x-2.5 flex-1 min-w-0">
           <div className="flex items-center space-x-1 shrink-0">
-            <Megaphone className="w-3.5 h-3.5 text-indigo-600 hidden sm:inline-block" />
             {themeStyles.icon}
           </div>
 
-          <p className="font-semibold leading-relaxed truncate select-text">
+          <p className="font-medium text-xs leading-relaxed truncate select-text">
             {announcement.text}
           </p>
 

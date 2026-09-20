@@ -552,13 +552,15 @@ export default function AdminPage() {
 
   if (currentRole === "student") {
     return (
-      <div className="max-w-md mx-auto py-20 text-center bg-white rounded-3xl border border-slate-200 p-8">
-        <Shield className="w-12 h-12 text-rose-500 mx-auto mb-3" />
-        <h2 className="text-lg font-bold text-slate-900 mb-2">访问受限</h2>
-        <p className="text-xs text-slate-500 mb-6">
+      <div className="max-w-md mx-auto py-16 text-center bg-white rounded-2xl border border-black/[0.08] shadow-card p-8">
+        <div className="w-12 h-12 rounded-xl bg-rose-50 border border-rose-200/60 flex items-center justify-center mx-auto mb-3.5">
+          <Shield className="w-6 h-6 text-rose-600" />
+        </div>
+        <h2 className="text-base font-bold text-zinc-900 mb-1.5">访问受限</h2>
+        <p className="text-xs text-zinc-500 mb-6">
           当前账号不是管理员，无法访问管理控制台。
         </p>
-        <Link href="/" className="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-semibold">
+        <Link href="/" className="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 text-white rounded-xl text-xs font-medium transition-all shadow-sm">
           返回试卷大厅
         </Link>
       </div>
@@ -568,13 +570,13 @@ export default function AdminPage() {
   const isSuperAdmin = currentRole === "super_admin";
 
   return (
-    <div className="space-y-8 animate-in fade-in duration-150">
+    <div className="space-y-6 animate-in fade-in duration-150">
       {/* Notice Banner */}
       {notice && (
-        <div className={`p-4 rounded-2xl border text-xs font-bold flex items-center space-x-2 ${
+        <div className={`p-3.5 rounded-xl border text-xs font-medium flex items-center space-x-2 ${
           notice.type === "success" 
-            ? "bg-emerald-50 border-emerald-200 text-emerald-800" 
-            : "bg-rose-50 border-rose-200 text-rose-800"
+            ? "bg-emerald-50/80 border-emerald-200/80 text-emerald-800" 
+            : "bg-rose-50/80 border-rose-200/80 text-rose-800"
         }`}>
           {notice.type === "success" ? (
             <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
@@ -586,21 +588,21 @@ export default function AdminPage() {
       )}
 
       {/* Admin Header */}
-      <div className="bg-gradient-to-r from-purple-900 via-indigo-900 to-slate-900 text-white p-6 sm:p-8 rounded-3xl shadow-xl flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+      <div className="bg-zinc-950 text-white p-6 sm:p-7 rounded-2xl border border-zinc-800/80 shadow-subtle flex flex-col lg:flex-row lg:items-center justify-between gap-5">
         <div className="flex items-center space-x-4">
-          <div className="w-12 h-12 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center font-black">
-            <Shield className="w-6 h-6 text-purple-300" />
+          <div className="w-11 h-11 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center font-bold">
+            <Shield className="w-5 h-5 text-zinc-300" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-purple-400/20 text-purple-200">
+              <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700/60">
                 {isSuperAdmin ? "👑 超级管理中心" : "🛡️ 普通管理员工作台"}
               </span>
             </div>
-            <h1 className="text-2xl font-black tracking-tight mt-0.5 font-serif">
+            <h1 className="text-xl font-bold tracking-tight mt-1 text-white">
               Enway 考务与真题题库控制台
             </h1>
-            <p className="text-xs text-purple-200/70 mt-0.5">
+            <p className="text-xs text-zinc-400 mt-0.5">
               {isSuperAdmin 
                 ? "最高权限决策 · 试卷发布审批 · 学员密码统一维护 · 人数配额与考务授权" 
                 : "真题录入与试题维护 · 试卷公开上架需超级管理员审批确认"}
@@ -609,11 +611,11 @@ export default function AdminPage() {
         </div>
 
         {/* Tab Controls */}
-        <div className="flex flex-wrap items-center gap-1.5 p-1 bg-white/10 rounded-2xl">
+        <div className="flex flex-wrap items-center gap-1 p-1 bg-zinc-900/90 border border-zinc-800 rounded-xl">
           <button
             onClick={() => setActiveTab("exams")}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              activeTab === "exams" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              activeTab === "exams" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
             }`}
           >
             真题试卷 ({exams.length})
@@ -622,8 +624,8 @@ export default function AdminPage() {
           {isSuperAdmin && (
             <button
               onClick={() => setActiveTab("approvals")}
-              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center space-x-1.5 ${
-                activeTab === "approvals" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center space-x-1.5 ${
+                activeTab === "approvals" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
               }`}
             >
               <span>考务审批</span>
@@ -637,8 +639,8 @@ export default function AdminPage() {
 
           <button
             onClick={() => setActiveTab("import")}
-            className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-              activeTab === "import" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              activeTab === "import" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
             }`}
           >
             结构化导入
@@ -648,8 +650,8 @@ export default function AdminPage() {
             <>
               <button
                 onClick={() => setActiveTab("users")}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                  activeTab === "users" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  activeTab === "users" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
                 }`}
               >
                 学员与考务 ({userList.length})
@@ -657,8 +659,8 @@ export default function AdminPage() {
 
               <button
                 onClick={() => setActiveTab("settings")}
-                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all ${
-                  activeTab === "settings" ? "bg-white text-slate-900 shadow-sm" : "text-white/80 hover:text-white"
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+                  activeTab === "settings" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
                 }`}
               >
                 考务配置与配额

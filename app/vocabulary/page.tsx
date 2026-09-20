@@ -93,14 +93,14 @@ export default function VocabularyPage() {
   return (
     <div className="space-y-6">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-2xl border border-slate-200/90 shadow-sm no-print">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-6 rounded-2xl border border-black/[0.06] shadow-card no-print">
         <div className="flex items-center space-x-3">
           <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center font-bold">
-            <Bookmark className="w-6 h-6" />
+            <Bookmark className="w-5 h-5" />
           </div>
           <div>
-            <h1 className="text-xl font-bold text-slate-900">真题研读核心词汇库</h1>
-            <p className="text-xs text-slate-500 mt-0.5">
+            <h1 className="text-lg sm:text-xl font-bold text-zinc-900">真题研读核心词汇库</h1>
+            <p className="text-xs text-zinc-400 mt-0.5">
               篇章阅读双击即刻查词收录 · 纯正真人发音与真题考频巩固
             </p>
           </div>
@@ -109,21 +109,21 @@ export default function VocabularyPage() {
         <div className="flex items-center space-x-2">
           <button
             onClick={() => setShowAddModal(true)}
-            className="px-3 py-2 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+            className="px-3 py-1.5 rounded-xl bg-zinc-100 hover:bg-zinc-200/80 text-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
           >
             <Plus className="w-3.5 h-3.5" />
             <span>手动添加</span>
           </button>
           <button
             onClick={handleExportTxt}
-            className="px-3 py-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+            className="px-3 py-1.5 rounded-xl border border-black/[0.06] bg-white text-zinc-700 hover:bg-zinc-50 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
           >
-            <Download className="w-3.5 h-3.5" />
+            <Download className="w-3.5 h-3.5 text-zinc-400" />
             <span>导出 TXT</span>
           </button>
           <button
             onClick={() => window.print()}
-            className="px-3.5 py-2 rounded-xl bg-slate-900 text-white hover:bg-slate-800 text-xs font-semibold flex items-center space-x-1.5 shadow-sm transition-colors"
+            className="px-3.5 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800 text-xs font-bold flex items-center space-x-1.5 shadow-subtle transition-all active:scale-[0.98]"
           >
             <Printer className="w-3.5 h-3.5" />
             <span>打印生词单</span>
@@ -133,7 +133,7 @@ export default function VocabularyPage() {
 
       {/* Search Bar */}
       <div className="relative max-w-md no-print">
-        <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+        <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-zinc-400">
           <Search className="w-4 h-4" />
         </div>
         <input
@@ -141,7 +141,7 @@ export default function VocabularyPage() {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="搜索生词或中文释义..."
-          className="w-full pl-10 pr-4 py-2 bg-white border border-slate-200 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500 shadow-sm"
+          className="w-full pl-10 pr-4 py-2 bg-white border border-black/[0.06] rounded-xl text-xs text-zinc-800 focus:outline-none focus:ring-1 focus:ring-zinc-900 shadow-subtle"
         />
       </div>
 
@@ -155,12 +155,12 @@ export default function VocabularyPage() {
 
       {/* Vocabulary Cards Grid */}
       {filteredVocab.length === 0 ? (
-        <div className="text-center py-20 bg-white rounded-2xl border border-dashed border-slate-300 no-print">
-          <Bookmark className="w-12 h-12 text-slate-300 mx-auto mb-3" />
-          <p className="text-slate-500 font-medium text-sm">
+        <div className="text-center py-20 bg-white rounded-2xl border border-dashed border-zinc-200 no-print">
+          <Bookmark className="w-10 h-10 text-zinc-300 mx-auto mb-2.5" />
+          <p className="text-zinc-600 font-semibold text-sm">
             {searchTerm ? "未搜索到匹配生词" : "生词本目前为空"}
           </p>
-          <p className="text-xs text-slate-400 mt-1">
+          <p className="text-xs text-zinc-400 mt-1">
             在试卷阅读材料中直接双击任意单词，即可一键加入生词本！
           </p>
         </div>
@@ -169,49 +169,49 @@ export default function VocabularyPage() {
           {filteredVocab.map((item) => (
             <div
               key={item.word}
-              className="bg-white rounded-2xl border border-slate-200/90 p-5 shadow-sm hover:border-indigo-200 hover:shadow-md transition-all flex flex-col justify-between print-card"
+              className="bg-white rounded-2xl border border-black/[0.06] hover:border-black/[0.14] p-5 shadow-card hover:shadow-card-hover hover:-translate-y-[1px] transition-all duration-150 flex flex-col justify-between print-card group"
             >
               <div>
                 <div className="flex items-start justify-between">
                   <div className="flex items-center space-x-2">
-                    <h3 className="text-lg font-bold text-slate-900 capitalize">
+                    <h3 className="text-base font-bold text-zinc-900 capitalize">
                       {item.word}
                     </h3>
                     <button
                       onClick={() => handleSpeak(item.word)}
                       title="朗读单词"
-                      className="p-1 hover:bg-slate-100 text-indigo-600 rounded-lg transition-colors no-print"
+                      className="p-1 hover:bg-zinc-100 text-zinc-500 hover:text-zinc-900 rounded-lg transition-colors no-print"
                     >
-                      <Volume2 className="w-4 h-4" />
+                      <Volume2 className="w-3.5 h-3.5" />
                     </button>
                   </div>
                   <button
                     onClick={() => handleDelete(item.word)}
                     title="移除"
-                    className="text-slate-300 hover:text-rose-600 p-1 rounded-lg no-print"
+                    className="text-zinc-300 hover:text-rose-600 p-1 rounded-lg no-print transition-colors"
                   >
-                    <Trash2 className="w-4 h-4" />
+                    <Trash2 className="w-3.5 h-3.5" />
                   </button>
                 </div>
 
                 {item.phonetic && (
-                  <span className="text-xs font-mono text-slate-500 block mt-0.5">
+                  <span className="text-xs font-mono text-zinc-400 block mt-0.5">
                     {item.phonetic}
                   </span>
                 )}
 
-                <p className="mt-3 text-sm text-slate-800 font-medium bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+                <p className="mt-3 text-xs text-zinc-800 font-medium bg-zinc-50/80 p-2.5 rounded-xl border border-black/[0.03] leading-relaxed">
                   {item.translation}
                 </p>
 
                 {item.context && (
-                  <div className="mt-2.5 text-xs text-slate-500 italic bg-amber-50/40 p-2 rounded-lg border border-amber-100/50">
-                    "{item.context.trim()}..."
+                  <div className="mt-2 text-[11px] text-zinc-500 italic bg-amber-50/40 p-2 rounded-lg border border-amber-100/50">
+                    &ldquo;{item.context.trim()}...&rdquo;
                   </div>
                 )}
               </div>
 
-              <div className="mt-4 pt-3 border-t border-slate-100 text-[10px] text-slate-400 no-print">
+              <div className="mt-4 pt-2.5 border-t border-zinc-100 text-[10px] text-zinc-400 no-print font-mono">
                 收录于: {new Date(item.addedAt).toLocaleDateString()}
               </div>
             </div>
