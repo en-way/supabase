@@ -1,0 +1,275 @@
+{
+  "year": 2024,
+  "title": "2024年6月大学英语四级真题(第1套) 仔细阅读与篇章精研",
+  "category_id": "cet4",
+  "exam_type": "real",
+  "duration_minutes": 40,
+  "total_score": 100,
+  "pass_score": 60,
+  "passages": [
+    {
+      "title": "Passage One: Artificial Intelligence and Human Collaboration",
+      "section_type": "reading",
+      "content": "As artificial intelligence continues to advance at an unprecedented pace, the nature of work across various industries is undergoing a profound transformation. Contrary to the widespread fear that AI will render human workers obsolete, emerging evidence suggests that the most effective workplace models are those built on human-machine collaboration.\n\nIn knowledge-intensive fields such as medicine, law, and engineering, algorithms can process vast amounts of unstructured data within seconds, identifying patterns that would take human experts days or even weeks to uncover. However, AI lacks the contextual nuance, emotional intelligence, and moral reasoning that remain quintessential to human decision-making. For instance, while an algorithm can accurately flag anomalies in medical scans, it cannot navigate the delicate emotional terrain of communicating a diagnosis to an anxious patient or weigh conflicting ethical imperatives.\n\nRecent organizational studies show that companies implementing a \"symbiotic\" approach—where AI assists rather than replaces human employees—achieve significantly higher productivity and employee satisfaction. Workers freed from mundane, repetitive administrative tasks are able to allocate more cognitive energy to creative problem-solving, strategic planning, and relationship-building.\n\nNevertheless, realizing this collaborative potential requires deliberate institutional investment in retraining. Educational curricula and corporate training initiatives must pivot away from rote technical skills toward cultivating adaptability, critical thinking, and digital literacy. The future belongs not to machines alone, nor to humans working in isolation, but to those who can master the synergy between synthetic intelligence and human wisdom.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What does emerging evidence indicate about the future of work in the era of AI?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Human workers will eventually be replaced in all major sectors."
+            },
+            {
+              "key": "B",
+              "text": "Collaborative models between humans and AI produce the best results."
+            },
+            {
+              "key": "C",
+              "text": "AI is incapable of handling complex data analysis tasks."
+            },
+            {
+              "key": "D",
+              "text": "Employees are resistant to adopting machine-driven workplace tools."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节事实题。根据第一段末句'the most effective workplace models are those built on human-machine collaboration'可知，人机协作是最有效的模式，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "According to paragraph 2, what critical capability does AI currently lack?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Speed in analyzing massive volumes of medical data."
+            },
+            {
+              "key": "B",
+              "text": "Pattern recognition in complex legal documents."
+            },
+            {
+              "key": "C",
+              "text": "Emotional intelligence and moral deliberation."
+            },
+            {
+              "key": "D",
+              "text": "Accuracy in calculating quantitative projections."
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点点拨】细节事实题。第二段指出'AI lacks the contextual nuance, emotional intelligence, and moral reasoning'，明确提到缺乏情商与道德推理，故选C。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "How do human workers benefit from the symbiotic approach mentioned in paragraph 3?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They can devote more attention to creative and strategic tasks."
+            },
+            {
+              "key": "B",
+              "text": "They no longer need to undergo professional training."
+            },
+            {
+              "key": "C",
+              "text": "They work significantly fewer hours for the same salary."
+            },
+            {
+              "key": "D",
+              "text": "They are relieved of all decision-making responsibilities."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】细节理解题。第三段后半句提到'Workers freed from mundane, repetitive administrative tasks are able to allocate more cognitive energy to creative problem-solving...'，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is essential for organizations to unlock the full potential of human-AI synergy?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Limiting the deployment of AI algorithms in customer service."
+            },
+            {
+              "key": "B",
+              "text": "Investing systematically in employee retraining and upskilling."
+            },
+            {
+              "key": "C",
+              "text": "Reducing expenditure on digital infrastructure."
+            },
+            {
+              "key": "D",
+              "text": "Encouraging employees to rely entirely on algorithmic judgments."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节推理题。第四段指出'realizing this collaborative potential requires deliberate institutional investment in retraining'，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Which of the following would be the most suitable title for this passage?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The Inevitable Replacement of the Human Workforce"
+            },
+            {
+              "key": "B",
+              "text": "Why Artificial Intelligence Fails in Medical Diagnostics"
+            },
+            {
+              "key": "C",
+              "text": "Human-Machine Synergy: The True Future of Work"
+            },
+            {
+              "key": "D",
+              "text": "The Decline of Emotional Intelligence in Corporate Settings"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点点拨】主旨大意题。文章通篇论述人机协同而非机器替代人类，探讨两者互补结合的未来，C选项准确概括主旨。",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Passage Two: Sleep Quality and Cognitive Resilience",
+      "section_type": "reading",
+      "content": "In our hyper-connected, round-the-clock society, sleep is frequently treated as an expendable luxury rather than a biological necessity. Busy professionals and ambitious students alike boast of burning the midnight oil, viewing chronic sleep deprivation as a badge of honor. However, a growing body of neuroscientific research reveals that inadequate sleep inflicts devastating, long-term damage on cognitive resilience, memory consolidation, and emotional regulation.\n\nDuring deep stages of non-REM sleep, the brain initiates a specialized waste-clearance mechanism known as the glymphatic system. This cellular plumbing network flushes out metabolic toxins, including beta-amyloid proteins that are linked to neurodegenerative diseases like Alzheimer's. When sleep is curtailed, these toxins progressively accumulate in the brain tissue, impairing synaptic plasticity and diminishing mental clarity.\n\nMoreover, sleep plays a pivotal role in memory triage. Throughout wakefulness, our neural circuits absorb an overwhelming flood of sensory inputs. It is during sleep that the hippocampus replays these experiences, transferring essential information into the neocortex for long-term storage while discarding extraneous data. Individuals deprived of sufficient rest consistently display impaired concentration, reduced problem-solving creativity, and volatile mood swings.\n\nPublic health experts are therefore advocating for a fundamental cultural paradigm shift. Prioritizing seven to eight hours of restorative sleep should not be viewed as an admission of weakness, but as an indispensable pillar of high performance and sustained well-being.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What common attitude toward sleep is criticized in the first paragraph?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Believing that sleeping during the day is more beneficial than at night."
+            },
+            {
+              "key": "B",
+              "text": "Considering sleep reduction as a commendable sign of dedication."
+            },
+            {
+              "key": "C",
+              "text": "Underestimating the benefits of physical exercise before bed."
+            },
+            {
+              "key": "D",
+              "text": "Overemphasizing the importance of morning routines."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】事实细节题。第一段指出人们'viewing chronic sleep deprivation as a badge of honor'（将长期缺觉视作荣誉勋章），批评了以少睡为荣的偏见，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is the primary function of the glymphatic system described in paragraph 2?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Stimulating the production of adrenaline during stress."
+            },
+            {
+              "key": "B",
+              "text": "Clearing metabolic waste and neurotoxins from brain tissue."
+            },
+            {
+              "key": "C",
+              "text": "Regulating heartbeat and respiratory rhythms during REM sleep."
+            },
+            {
+              "key": "D",
+              "text": "Converting short-term memories into sensory perceptions."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节事实题。第二段明确说明'This cellular plumbing network flushes out metabolic toxins... linked to neurodegenerative diseases'，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "How does sleep contribute to memory consolidation according to paragraph 3?",
+          "options": [
+            {
+              "key": "A",
+              "text": "By blocking all sensory input permanently."
+            },
+            {
+              "key": "B",
+              "text": "By transferring vital information from the hippocampus to the neocortex."
+            },
+            {
+              "key": "C",
+              "text": "By forcing the brain to memorize every single sensory perception."
+            },
+            {
+              "key": "D",
+              "text": "By decreasing blood flow to emotional control centers."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节事实题。第三段明确写到'transferring essential information into the neocortex for long-term storage while discarding extraneous data'，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What are sleep-deprived individuals prone to experiencing?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Enhanced creative inspiration in unexpected situations."
+            },
+            {
+              "key": "B",
+              "text": "Impaired focus, reduced problem-solving capacity, and mood instability."
+            },
+            {
+              "key": "C",
+              "text": "Excessive physical energy during afternoon hours."
+            },
+            {
+              "key": "D",
+              "text": "Accelerated learning abilities for foreign languages."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节理解题。第三段末尾提到'consistently display impaired concentration, reduced problem-solving creativity, and volatile mood swings'，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What message does the author convey in the concluding paragraph?",
+          "options": [
+            {
+              "key": "A",
+              "text": "High performers need far less sleep than ordinary citizens."
+            },
+            {
+              "key": "B",
+              "text": "Adequate restorative sleep is a cornerstone of peak performance."
+            },
+            {
+              "key": "C",
+              "text": "Cultural paradigms are virtually impossible to reshape."
+            },
+            {
+              "key": "D",
+              "text": "Sleeping eight hours guarantees career success without hard work."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】主旨归纳题。最后一段呼吁转变认知：'Prioritizing seven to eight hours of restorative sleep... as an indispensable pillar of high performance'，故选B。",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}

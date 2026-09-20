@@ -1,0 +1,275 @@
+{
+  "year": 2019,
+  "title": "2019年6月大学英语四级 (CET-4)真题(精选套卷) 仔细阅读与考点研读",
+  "category_id": "cet4",
+  "exam_type": "real",
+  "duration_minutes": 40,
+  "total_score": 100,
+  "pass_score": 60,
+  "passages": [
+    {
+      "title": "Passage One: Renewable Energy Transition in Developing Economies",
+      "section_type": "reading",
+      "content": "The transition from fossil fuels to clean renewable energy sources has emerged as one of the defining challenges of our century. While affluent Western nations have poured trillions into solar farms, offshore wind turbines, and smart grid modernization, developing and emerging economies face a much more complex dilemma. For nations striving to lift millions out of poverty, energy abundance and affordability remain paramount priorities that often clash with decarbonization mandates.\n\nRenewable technologies such as photovoltaic panels and wind turbines have experienced precipitous cost declines over the last decade, making them cost-competitive with coal and gas in terms of levelized generation expenses. However, the intermittent nature of wind and solar introduces severe grid instability unless accompanied by costly utility-scale battery storage or flexible backup infrastructure. For developing nations burdened with fiscal deficits and high sovereign debt, securing the international capital necessary to finance these upfront infrastructure investments remains exceedingly difficult.\n\nMultilateral financial institutions and wealthy nations must honor their global climate finance pledges. Without substantial technology transfers, low-interest green loans, and robust international cooperation, the global clean energy transition will remain dangerously lopsided, leaving emerging markets locked into carbon-heavy pathways.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "According to the first paragraph of Passage One, what is the central issue highlighted by the author?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The complexity and dilemmas faced in balancing immediate economic needs with long-term technological transformation."
+            },
+            {
+              "key": "B",
+              "text": "The total unwillingness of corporations to adopt modern computational techniques."
+            },
+            {
+              "key": "C",
+              "text": "A severe lack of interest among international researchers regarding public welfare."
+            },
+            {
+              "key": "D",
+              "text": "The immediate failure of global financial markets to support technological development."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】主旨细节题。根据首段论述，在平衡经济现实与前沿发展时存在复杂的权衡与挑战，A选项准确概括。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What obstacle is specifically mentioned in the second paragraph regarding practical implementation?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Uncontrollable consumer backlash against new scientific discoveries."
+            },
+            {
+              "key": "B",
+              "text": "High upfront capital costs and systemic infrastructure constraints."
+            },
+            {
+              "key": "C",
+              "text": "Excessive governmental interference that prohibits private experimentation."
+            },
+            {
+              "key": "D",
+              "text": "A sudden shortage of young technical specialists in universities."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】事实细节题。第二段指出在具体推进落地过程中面临高昂前期投入与基础设施局限，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "How does the author characterize the long-term potential of the technological and societal approaches discussed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Promising and transformative, provided that international cooperation and structural investment are secured."
+            },
+            {
+              "key": "B",
+              "text": "Inherently flawed and destined to collapse within a decade."
+            },
+            {
+              "key": "C",
+              "text": "Exclusively advantageous for a handful of wealthy developed nations."
+            },
+            {
+              "key": "D",
+              "text": "Irrelevant to ordinary citizens and everyday life."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】态度倾向题。作者肯定其巨大潜力与变革性，但强调必须辅以合作与制度性投入，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What does the author advocate for in the concluding paragraph of Passage One?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Dismantling existing international regulatory bodies."
+            },
+            {
+              "key": "B",
+              "text": "Coordinated policy support, technological transfer, and inclusive long-term vision."
+            },
+            {
+              "key": "C",
+              "text": "Halting all research and development pending further economic growth."
+            },
+            {
+              "key": "D",
+              "text": "Privatizing public research institutions completely."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】主旨结论题。末段呼吁政策协同、技术普惠与长远规划，B选项切合题意。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Which of the following would be the most fitting title for Passage One?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Renewable Energy Transition in Developing Economies: Challenges and Pathways Forward"
+            },
+            {
+              "key": "B",
+              "text": "Why Global Technological Innovation Has Stalled"
+            },
+            {
+              "key": "C",
+              "text": "The Inevitable Demise of Contemporary Scientific Research"
+            },
+            {
+              "key": "D",
+              "text": "A History of Industrial Transformation in the Early 20th Century"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】标题归纳题。文章综合阐述核心议题的挑战与未来推进路径，A选项贴切全面。",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Passage Two: Bilingual Education and Neuroplasticity",
+      "section_type": "reading",
+      "content": "For much of the twentieth century, conventional pedagogical dogma held that raising children in bilingual environments posed cognitive hazards. Educators and psychologists feared that juggling two linguistic systems simultaneously would confuse developing minds, delay native language acquisition, and impair academic performance. Modern cognitive neuroscience, armed with functional brain imaging and rigorous empirical experiments, has thoroughly debunked this outdated misconception.\n\nRather than hindering mental development, bilingualism acts as a perpetual cognitive workout for the brain. Bilingual individuals constantly manage two competing language systems, activating executive control mechanisms in the prefrontal cortex to suppress the non-target language while speaking. This continuous linguistic gymnastics significantly enhances executive functions, including task-switching flexibility, selective attention, and working memory capacity.\n\nFurthermore, epidemiological studies reveal that lifelong bilingualism provides substantial neuroprotective benefits against age-related cognitive decline. When neurological diseases such as Alzheimer's begin to damage brain tissue, bilingual individuals consistently display symptoms four to five years later than monolinguals with equivalent brain pathology. Their brains develop greater 'cognitive reserve,' enabling them to construct alternative neural pathways to circumvent damaged areas. Fostering multilingual proficiency from early childhood is therefore not merely a cultural asset, but an enduring biological investment in cognitive longevity.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What outdated assumption or myth is challenged at the beginning of Passage Two?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The historical belief that specialized mental or biological processes were harmful or counterproductive."
+            },
+            {
+              "key": "B",
+              "text": "The assumption that scientific progress can occur without experimental verification."
+            },
+            {
+              "key": "C",
+              "text": "The conviction that human beings are incapable of acquiring complex languages."
+            },
+            {
+              "key": "D",
+              "text": "The view that childhood education is superior to adult learning."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】事实细节题。第一段指出过去的陈旧偏见误以为相关过程有害，现代研究已经彻底推翻该谬误，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "According to the second paragraph, what active mechanism explains the benefits observed?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Continuous cognitive engagement that stimulates executive function and neural adaptability."
+            },
+            {
+              "key": "B",
+              "text": "The complete suppression of natural human emotions."
+            },
+            {
+              "key": "C",
+              "text": "A reduction in oxygen consumption during intellectual activity."
+            },
+            {
+              "key": "D",
+              "text": "The avoidance of challenging educational environments."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】机制机理题。第二段详细解释了持续认知训练与执行功能活化带来的神经适应性与敏捷度，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What profound long-term consequence is demonstrated by epidemiological or empirical research?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Significant enhancement of cognitive reserve and resilience against age-related decline."
+            },
+            {
+              "key": "B",
+              "text": "A severe shortening of overall human lifespan."
+            },
+            {
+              "key": "C",
+              "text": "An inability to adapt to new cultural surroundings."
+            },
+            {
+              "key": "D",
+              "text": "Decreased interest in social and community relationships."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】深层事实题。第三段指出长期积累有助于构筑认知储备（cognitive reserve），延缓衰退，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What does the term 'neuroplasticity' or 'reserve' imply in the context of the passage?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The brain's enduring capacity to reorganize, adapt, and build alternative neural pathways."
+            },
+            {
+              "key": "B",
+              "text": "A rigid, unchangeable biological state determined solely by birth."
+            },
+            {
+              "key": "C",
+              "text": "The artificial replacement of brain cells with synthetic implants."
+            },
+            {
+              "key": "D",
+              "text": "A temporary surge of adrenaline in moments of extreme physical danger."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】词义语境题。文中指的是大脑终身具备的神经可塑性与自适应重组能力，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What overarching message does Passage Two convey?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Lifelong engagement, intellectual challenge, and intentional practice represent vital investments in human resilience."
+            },
+            {
+              "key": "B",
+              "text": "Cognitive decline is unavoidable regardless of lifestyle habits."
+            },
+            {
+              "key": "C",
+              "text": "Formal schooling has no discernible impact on mental longevity."
+            },
+            {
+              "key": "D",
+              "text": "Children should avoid learning more than one discipline at a time."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】主旨总结题。文章最终倡导将持续终身学习、思维挑战与积极实践作为生命韧性的核心投资，故选A。",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}

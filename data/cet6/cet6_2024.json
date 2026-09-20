@@ -1,0 +1,275 @@
+{
+  "year": 2024,
+  "title": "2024年6月大学英语六级真题(第1套) 仔细阅读与篇章精研",
+  "category_id": "cet6",
+  "exam_type": "real",
+  "duration_minutes": 40,
+  "total_score": 100,
+  "pass_score": 60,
+  "passages": [
+    {
+      "title": "Passage One: Algorithmic Governance and Recruitment Fairness",
+      "section_type": "reading",
+      "content": "In an era defined by cutthroat corporate competition and unprecedented volumes of job applications, human resources departments are increasingly turning to algorithmic screening tools to automate hiring. Vendors of these automated recruitment platforms herald them as impartial arbiters of merit, promising to eliminate human bias, expedite candidate filtering, and pinpoint high-potential talent with mathematical precision. Yet, an escalating chorus of computer scientists, ethicists, and legal scholars warns that algorithmic hiring frequently serves not to eradicate prejudice, but to institutionalize and obscure it beneath a veneer of technical neutrality.\n\nMachine learning algorithms are fundamentally historical and inductive; they learn by identifying patterns embedded within historical training data. If an organization has historically favored graduates from elite universities or predominantly promoted candidates of a specific demographic, the algorithm inevitably encodes these systemic inequities as criteria for success. Furthermore, many contemporary platforms deploy facial recognition and vocal inflection analysis during asynchronous video interviews. Such models routinely penalize candidates with non-standard regional accents, neurodivergent communicative styles, or culturally diverse facial expressions.\n\nCompounding this ethical dilemma is the proprietary \"black-box\" architecture of commercial algorithms. Because these models operate through complex multi-layered neural networks protected by corporate trade secrets, candidates rejected by automated systems are denied any transparent explanation of why they were disqualified. This opacity impedes accountability and cripples legal recourse under anti-discrimination statutes.\n\nRegulatory agencies worldwide are beginning to scrutinize algorithmic workplace practices. Meaningful reform will require mandatory third-party algorithmic audits, clear explainability standards, and human-in-the-loop oversight to ensure that automated efficiency does not eclipse fundamental workplace dignity and equity.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What virtue do vendors of automated recruitment tools claim their products possess?",
+          "options": [
+            {
+              "key": "A",
+              "text": "The ability to eliminate human subjectivity and evaluate merit impartially."
+            },
+            {
+              "key": "B",
+              "text": "Guaranteed promotion of diverse demographic groups."
+            },
+            {
+              "key": "C",
+              "text": "Complete elimination of the need for human recruiters."
+            },
+            {
+              "key": "D",
+              "text": "Automated negotiation of candidate compensation packages."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】细节事实题。第一段指出供应商声称这些工具是'impartial arbiters of merit, promising to eliminate human bias'（消除人类偏见、客观评价功绩的仲裁者），故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Why do machine learning recruitment algorithms often perpetuate historical bias?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Software developers deliberately program racial stereotypes into the code."
+            },
+            {
+              "key": "B",
+              "text": "They learn by replicating patterns contained in past biased training data."
+            },
+            {
+              "key": "C",
+              "text": "They are legally required to prioritize elite university graduates."
+            },
+            {
+              "key": "D",
+              "text": "Their processing power is insufficient to evaluate technical skills."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】因果推理题。第二段解释算法是归纳式的，'they learn by identifying patterns embedded within historical training data... encodes these systemic inequities as criteria for success'，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "How does video interview analysis disadvantage certain job candidates?",
+          "options": [
+            {
+              "key": "A",
+              "text": "It requires expensive broadband connections that few possess."
+            },
+            {
+              "key": "B",
+              "text": "It penalizes non-standard accents and diverse expressive styles."
+            },
+            {
+              "key": "C",
+              "text": "It fails to record answers longer than thirty seconds."
+            },
+            {
+              "key": "D",
+              "text": "It randomly generates test questions unrelated to job duties."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节事实题。第二段指出语音面部分析'routinely penalize candidates with non-standard regional accents, neurodivergent communicative styles, or culturally diverse facial expressions'，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Why is it difficult for rejected candidates to challenge automated hiring decisions?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Courts refuse to accept electronic records as legal evidence."
+            },
+            {
+              "key": "B",
+              "text": "The proprietary opacity of algorithms conceals the reasons for rejection."
+            },
+            {
+              "key": "C",
+              "text": "Filing discrimination claims requires paying prohibitive government fines."
+            },
+            {
+              "key": "D",
+              "text": "Candidates must sign waivers surrendering all legal rights before applying."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节理解题。第三段指出黑箱机制和商业机密保护使得'candidates rejected... are denied any transparent explanation... opacity impedes accountability'，无法获知被拒原因，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is necessary to ensure fairness in algorithmic hiring according to the conclusion?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Outlawing the use of computers in all HR departments."
+            },
+            {
+              "key": "B",
+              "text": "Independent algorithmic audits, explainability, and human oversight."
+            },
+            {
+              "key": "C",
+              "text": "Allowing algorithms to make final employment decisions autonomously."
+            },
+            {
+              "key": "D",
+              "text": "Permitting tech companies to regulate their own recruitment tools."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】主旨态度题。最后一段呼吁改革需要'mandatory third-party algorithmic audits, clear explainability standards, and human-in-the-loop oversight'，即独立审计、可解释性与人类监督，故选B。",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "title": "Passage Two: Ocean Acidification and Marine Biodiversity",
+      "section_type": "reading",
+      "content": "While public discourse on anthropogenic climate change overwhelmingly centers on rising atmospheric temperatures and intensifying terrestrial heatwaves, an equally catastrophic ecological crisis is unfolding beneath the ocean's surface. The world's oceans have absorbed approximately thirty percent of all carbon dioxide emissions generated by human activity since the Industrial Revolution. In doing so, marine waters have served as a monumental thermal and chemical buffer, sparing the planet from even more severe atmospheric warming. However, this planetary service has exacted a harrowing ecological cost: the fundamental alteration of marine chemistry, universally known as ocean acidification.\n\nWhen carbon dioxide dissolves in seawater, it forms carbonic acid, which subsequently dissociates and releases excess hydrogen ions. These free hydrogen ions bond with carbonate ions, drastically reducing the concentration of carbonate available in the aquatic environment. For calcifying marine organisms—including coral polyps, mollusks, crustaceans, and microscopic plankton such as pteropods—carbonate ions are the indispensable building blocks required to synthesize calcium carbonate shells and skeletons.\n\nIn an increasingly acidic marine environment, these calcifying species must expend far greater metabolic energy merely to construct and maintain their defensive structures. Under severe acidification thresholds, existing shells and coral reefs begin to dissolve directly into the surrounding water. Because these organisms occupy foundational niches at the base of marine food webs, their collapse ripples upward, threatening commercially vital fisheries and the food security of hundreds of millions of people who depend on coastal ecosystems.\n\nMitigating ocean acidification cannot be achieved through localized geoengineering or marine protected reserves alone. It demands nothing less than the rapid decarbonization of the global economy, tackling the greenhouse emissions that drive both climate destabilization and the chemical erosion of our oceans.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "What role have the oceans played since the Industrial Revolution according to paragraph 1?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They have accelerated global warming by releasing stored heat."
+            },
+            {
+              "key": "B",
+              "text": "They have buffered the planet by absorbing significant carbon emissions."
+            },
+            {
+              "key": "C",
+              "text": "They have expanded their volume without any chemical change."
+            },
+            {
+              "key": "D",
+              "text": "They have completely eliminated carbon monoxide from the air."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】事实细节题。第一段指出海洋吸收了工业革命以来约30%的人类碳排放，'served as a monumental thermal and chemical buffer'（起到了巨大的缓冲作用），故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What chemical consequence occurs when carbon dioxide dissolves in seawater?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Carbonate ion availability is severely depleted."
+            },
+            {
+              "key": "B",
+              "text": "Oxygen levels increase exponentially in shallow waters."
+            },
+            {
+              "key": "C",
+              "text": "Hydrogen ions are completely neutralized by salt."
+            },
+            {
+              "key": "D",
+              "text": "Calcium deposits precipitate and form artificial islands."
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点点拨】科学细节题。第二段指出游离氢离子与碳酸根离子结合，'drastically reducing the concentration of carbonate available'，导致可利用的碳酸根锐减，故选A。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Why are calcifying organisms like corals and mollusks vulnerable to acidification?",
+          "options": [
+            {
+              "key": "A",
+              "text": "They lose their ability to swim against ocean currents."
+            },
+            {
+              "key": "B",
+              "text": "They lack the carbonate needed to build and preserve their shells."
+            },
+            {
+              "key": "C",
+              "text": "Acidic water increases the appetite of apex predators."
+            },
+            {
+              "key": "D",
+              "text": "They can no longer absorb sunlight for photosynthesis."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】细节事实题。第二、三段指出碳酸根是制造贝壳和骨骼不可缺少的原料，酸化导致其必须耗费大量能量维持外壳甚至被水解，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Why does the decline of plankton and mollusks threaten human populations?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Plankton produce toxins that contaminate coastal drinking water."
+            },
+            {
+              "key": "B",
+              "text": "They are foundational to food chains that support commercial fisheries."
+            },
+            {
+              "key": "C",
+              "text": "Mollusks provide the primary source of global pharmaceutical drugs."
+            },
+            {
+              "key": "D",
+              "text": "Their demise causes sea levels to fall unpredictably."
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点点拨】因果推断题。第三段指出基础生物处于海洋食物网基底（base of marine food webs），其衰减会波及全球商业渔业和以渔为生的数亿沿海人口，故选B。",
+          "points": 10
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What does the author conclude is the only genuine solution to ocean acidification?",
+          "options": [
+            {
+              "key": "A",
+              "text": "Establishing marine reserves in polar regions."
+            },
+            {
+              "key": "B",
+              "text": "Deploying chemicals to neutralize acidity locally."
+            },
+            {
+              "key": "C",
+              "text": "Rapid and comprehensive decarbonization of the global economy."
+            },
+            {
+              "key": "D",
+              "text": "Breeding genetically modified coral species that resist acid."
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点点拨】主旨归纳题。最后一段明确指出仅靠局部工程不够，必须'rapid decarbonization of the global economy'（全球经济的迅速低碳化/减排），故选C。",
+          "points": 10
+        }
+      ]
+    }
+  ]
+}
