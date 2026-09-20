@@ -31,7 +31,6 @@ import {
   BookOpen,
   Keyboard
 } from "lucide-react";
-import DictionaryPopover from "@/components/DictionaryPopover";
 
 function ExamContent() {
   const searchParams = useSearchParams();
@@ -662,9 +661,6 @@ function ExamContent() {
           </div>
         </div>
       </div>
-
-      {/* Floating Word Lookup Dictionary Card */}
-      <DictionaryPopover />
     </div>
   );
 }

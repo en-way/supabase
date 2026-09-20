@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import AuthGuard from "@/components/AuthGuard";
-import WordLookupModal from "@/components/WordLookupModal";
+import DictionaryPopover from "@/components/DictionaryPopover";
 
 export const metadata: Metadata = {
   title: "Enway - 在线英语刷题与全真模考系统",
@@ -22,7 +22,7 @@ export default function RootLayout({
           <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
             {children}
           </main>
-          <WordLookupModal />
+          <DictionaryPopover />
         </AuthGuard>
       </body>
     </html>

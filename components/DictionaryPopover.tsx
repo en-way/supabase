@@ -43,12 +43,19 @@ export default function DictionaryPopover() {
     const handleOutsideClick = (e: MouseEvent) => {
       if (popoverRef.current && !popoverRef.current.contains(e.target as Node)) {
         setIsOpen(false);
+        // Clear text selection to prevent lingering highlight from re-triggering popups
+        if (window.getSelection()?.toString().trim()) {
+          window.getSelection()?.removeAllRanges();
+        }
       }
     };
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         setIsOpen(false);
+        if (window.getSelection()?.toString().trim()) {
+          window.getSelection()?.removeAllRanges();
+        }
       }
     };
 
@@ -80,11 +87,12 @@ export default function DictionaryPopover() {
         return;
       }
 
-      // Ensure target is not inside an input, textarea or dictionary popover
+      // Ensure target is not inside an input, textarea, or contentEditable element
       const activeElement = document.activeElement;
       if (
         activeElement instanceof HTMLInputElement || 
-        activeElement instanceof HTMLTextAreaElement
+        activeElement instanceof HTMLTextAreaElement ||
+        (activeElement as HTMLElement)?.isContentEditable
       ) {
         return;
       }
@@ -93,6 +101,11 @@ export default function DictionaryPopover() {
       const containerNode = range.commonAncestorContainer;
       const containerElem = containerNode instanceof Element ? containerNode : containerNode.parentElement;
       if (containerElem?.closest(".dictionary-popover-container")) {
+        return;
+      }
+
+      // If already open with the same word, avoid duplicate triggering
+      if (isOpen && selectedWord.toLowerCase() === clean.toLowerCase()) {
         return;
       }
 
@@ -113,9 +126,15 @@ export default function DictionaryPopover() {
       triggerWordLookup(clean, rect, context);
     };
 
-    const handleMouseUp = () => {
+    const handleMouseUp = (e: MouseEvent) => {
+      // Ignore clicks originating inside the popover itself (audio buttons, add vocab, close button, etc.)
+      if (popoverRef.current && popoverRef.current.contains(e.target as Node)) {
+        return;
+      }
+
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
-      timeoutRef.current = setTimeout(processSelection, 120);
+      // 150ms debounce allows double-click or drag selection to fully complete
+      timeoutRef.current = setTimeout(processSelection, 150);
     };
 
     document.addEventListener("mouseup", handleMouseUp);
@@ -123,7 +142,7 @@ export default function DictionaryPopover() {
       document.removeEventListener("mouseup", handleMouseUp);
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
-  }, []);
+  }, [isOpen, selectedWord]);
 
   const triggerWordLookup = async (clean: string, rect: DOMRect, context: string) => {
     if (!clean) return;
@@ -211,6 +230,13 @@ export default function DictionaryPopover() {
     setIsAdded(true);
   };
 
+  const handleClose = () => {
+    setIsOpen(false);
+    if (window.getSelection()?.toString().trim()) {
+      window.getSelection()?.removeAllRanges();
+    }
+  };
+
   if (!isOpen || !selectedWord) return null;
 
   return (
@@ -289,7 +315,7 @@ export default function DictionaryPopover() {
 
           {/* Close Button */}
           <button
-            onClick={() => setIsOpen(false)}
+            onClick={handleClose}
             className="p-1 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors ml-1"
             title="关闭窗口 (Esc)"
           >

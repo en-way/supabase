@@ -322,21 +322,62 @@ export default function AdminPage() {
     }
   };
 
+  // Super Admin: Clear and take down announcement
+  const handleClearAnnouncement = async () => {
+    if (!window.confirm("确定要一键清空并下架全站公告吗？\n下架后前台将立即清除置顶横幅及导航栏小喇叭提示。")) {
+      return;
+    }
+    setIsSavingAnnouncement(true);
+    try {
+      const cleared = {
+        enabled: false,
+        text: "",
+        type: "info" as const,
+        linkText: "",
+        linkUrl: "",
+        updatedAt: "",
+      };
+      const { error } = await supabase.rpc("super_admin_update_announcement", {
+        p_enabled: false,
+        p_text: "",
+        p_type: "info",
+        p_link_text: "",
+        p_link_url: "",
+      });
+      if (error) throw error;
+      setAnnouncementSettings(cleared);
+      showNotification("success", "全站公告已成功清空并下架！");
+      loadSettings();
+      window.dispatchEvent(new CustomEvent("enway_announcement_updated"));
+    } catch (err: any) {
+      showNotification("error", `清空下架失败: ${err.message}`);
+    } finally {
+      setIsSavingAnnouncement(false);
+    }
+  };
+
   // Super Admin: Save Sitewide Announcement
   const handleSaveAnnouncement = async () => {
+    if (announcementSettings.enabled && !announcementSettings.text.trim()) {
+      showNotification("error", "公告正文不能为空！无法发布开启中的全站公告。若需清空下架，请点击【一键清空并下架】。");
+      return;
+    }
     setIsSavingAnnouncement(true);
     try {
       const { error } = await supabase.rpc("super_admin_update_announcement", {
         p_enabled: announcementSettings.enabled,
-        p_text: announcementSettings.text,
+        p_text: announcementSettings.text.trim(),
         p_type: announcementSettings.type,
-        p_link_text: announcementSettings.linkText,
-        p_link_url: announcementSettings.linkUrl,
+        p_link_text: announcementSettings.linkText.trim(),
+        p_link_url: announcementSettings.linkUrl.trim(),
       });
       if (error) throw error;
       showNotification("success", "全站公告已成功保存并同步！");
       loadSettings();
-      window.dispatchEvent(new CustomEvent("enway_reopen_announcement"));
+      window.dispatchEvent(new CustomEvent("enway_announcement_updated"));
+      if (announcementSettings.enabled && announcementSettings.text.trim()) {
+        window.dispatchEvent(new CustomEvent("enway_reopen_announcement"));
+      }
     } catch (err: any) {
       showNotification("error", `公告保存失败: ${err.message}`);
     } finally {
@@ -1145,8 +1186,19 @@ export default function AdminPage() {
                 </div>
               </div>
 
-              {/* Save announcement */}
-              <div className="pt-2 flex justify-end">
+              {/* Actions: Clear & Save */}
+              <div className="pt-2 flex flex-wrap items-center justify-between gap-3">
+                <button
+                  type="button"
+                  onClick={handleClearAnnouncement}
+                  disabled={isSavingAnnouncement || (!announcementSettings.text && !announcementSettings.enabled)}
+                  className="px-4 py-2.5 bg-rose-50 hover:bg-rose-100 disabled:opacity-40 disabled:cursor-not-allowed text-rose-700 border border-rose-200 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition-all"
+                  title="一键清空文案并关闭全站公告"
+                >
+                  <Trash2 className="w-4 h-4" />
+                  <span>一键清空并下架公告</span>
+                </button>
+
                 <button
                   onClick={handleSaveAnnouncement}
                   disabled={isSavingAnnouncement}

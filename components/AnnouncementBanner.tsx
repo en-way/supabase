@@ -72,7 +72,11 @@ export default function AnnouncementBanner() {
     // Listen for custom broadcast events when announcement is updated or reopened from Navbar
     const handleReopen = () => setIsDismissed(false);
     window.addEventListener("enway_reopen_announcement", handleReopen);
-    return () => window.removeEventListener("enway_reopen_announcement", handleReopen);
+    window.addEventListener("enway_announcement_updated", loadAnnouncement);
+    return () => {
+      window.removeEventListener("enway_reopen_announcement", handleReopen);
+      window.removeEventListener("enway_announcement_updated", loadAnnouncement);
+    };
   }, []);
 
   const handleDismiss = () => {

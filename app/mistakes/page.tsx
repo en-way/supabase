@@ -31,7 +31,6 @@ import {
   Sparkles,
   Loader2
 } from "lucide-react";
-import DictionaryPopover from "@/components/DictionaryPopover";
 
 interface OnlineQuestionDetail {
   id: string;
@@ -823,9 +822,6 @@ export default function MistakesPage() {
           </div>
         </div>
       )}
-
-      {/* Floating Word Lookup Dictionary Card */}
-      <DictionaryPopover />
     </div>
   );
 }

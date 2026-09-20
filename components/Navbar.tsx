@@ -100,10 +100,12 @@ export default function Navbar() {
       loadUser();
     };
     window.addEventListener("enway_profile_updated", handleProfileUpdate);
+    window.addEventListener("enway_announcement_updated", loadAnnouncement);
 
     return () => {
       subscription.unsubscribe();
       window.removeEventListener("enway_profile_updated", handleProfileUpdate);
+      window.removeEventListener("enway_announcement_updated", loadAnnouncement);
     };
   }, [pathname]);
 
@@ -221,7 +223,7 @@ export default function Navbar() {
           {/* User Status / Actions */}
           <div className="flex items-center space-x-2.5">
             {/* Sitewide Announcement Megaphone (Folded Access) */}
-            {activeAnnouncement?.announcement_enabled && (
+            {activeAnnouncement?.announcement_enabled && activeAnnouncement?.announcement_text?.trim() && (
               <div className="relative">
                 <button
                   onClick={() => setShowAnnouncementDetail(!showAnnouncementDetail)}
