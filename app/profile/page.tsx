@@ -81,6 +81,9 @@ export default function ProfilePage() {
   };
 
   const handleUploadBackup = async () => {
+    if (!window.confirm("⚠️ 备份到云端将使用当前设备的做题数据【完全覆盖】云端的历史存档快照。确定继续上传覆盖吗？")) {
+      return;
+    }
     setUploading(true);
     setNotice(null);
     const res = await uploadBackupToCloud();

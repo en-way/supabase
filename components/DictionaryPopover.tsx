@@ -14,18 +14,20 @@ import {
   Check, 
   X, 
   Sparkles, 
-  Loader2
+  Loader2,
+  Volume1
 } from "lucide-react";
 
 interface PopoverPosition {
   x: number;
   y: number;
+  arrowX: number;
   isAbove: boolean;
 }
 
 export default function DictionaryPopover() {
   const [isOpen, setIsOpen] = useState(false);
-  const [position, setPosition] = useState<PopoverPosition>({ x: 0, y: 0, isAbove: false });
+  const [position, setPosition] = useState<PopoverPosition>({ x: 0, y: 0, arrowX: 170, isAbove: true });
   const [selectedWord, setSelectedWord] = useState<string>("");
   const [dictEntry, setDictEntry] = useState<DictEntry | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -34,6 +36,7 @@ export default function DictionaryPopover() {
   const [playingType, setPlayingType] = useState<"us" | "uk" | null>(null);
 
   const popoverRef = useRef<HTMLDivElement | null>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   // Close on outside click or Esc
   useEffect(() => {
@@ -57,22 +60,42 @@ export default function DictionaryPopover() {
     };
   }, []);
 
-  // Selection / Double-click listener
+  // Selection & Double-click listener with robust multi-word suppression and debouncing
   useEffect(() => {
-    const handleSelectionChange = () => {
+    const processSelection = () => {
       const selection = window.getSelection();
       if (!selection || selection.isCollapsed || selection.rangeCount === 0) {
         return;
       }
 
       const rawText = selection.toString().trim();
+      // If selection contains spaces or line breaks, user dragged across a sentence/phrase - DO NOT popup
+      if (/\s/.test(rawText)) {
+        return;
+      }
+
       const clean = cleanEnglishWord(rawText);
       // Valid word between 2 and 35 chars
       if (!clean || clean.length < 2 || clean.length > 35) {
         return;
       }
 
+      // Ensure target is not inside an input, textarea or dictionary popover
+      const activeElement = document.activeElement;
+      if (
+        activeElement instanceof HTMLInputElement || 
+        activeElement instanceof HTMLTextAreaElement
+      ) {
+        return;
+      }
+
       const range = selection.getRangeAt(0);
+      const containerNode = range.commonAncestorContainer;
+      const containerElem = containerNode instanceof Element ? containerNode : containerNode.parentElement;
+      if (containerElem?.closest(".dictionary-popover-container")) {
+        return;
+      }
+
       const rect = range.getBoundingClientRect();
       if (!rect || (rect.width === 0 && rect.height === 0)) {
         return;
@@ -90,27 +113,15 @@ export default function DictionaryPopover() {
       triggerWordLookup(clean, rect, context);
     };
 
-    const handleDoubleClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (!target) return;
-      // Skip clicking inside inputs or within popover itself
-      if (
-        target instanceof HTMLInputElement || 
-        target instanceof HTMLTextAreaElement || 
-        target.closest(".dictionary-popover-container")
-      ) {
-        return;
-      }
-
-      setTimeout(handleSelectionChange, 20);
+    const handleMouseUp = () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      timeoutRef.current = setTimeout(processSelection, 120);
     };
 
-    document.addEventListener("mouseup", handleSelectionChange);
-    document.addEventListener("dblclick", handleDoubleClick);
-
+    document.addEventListener("mouseup", handleMouseUp);
     return () => {
-      document.removeEventListener("mouseup", handleSelectionChange);
-      document.removeEventListener("dblclick", handleDoubleClick);
+      document.removeEventListener("mouseup", handleMouseUp);
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
   }, []);
 
@@ -125,25 +136,35 @@ export default function DictionaryPopover() {
     const exists = (state.vocabulary || []).some((v) => v.word.toLowerCase() === clean.toLowerCase());
     setIsAdded(exists);
 
-    // Compute smart placement coordinates
-    const popoverWidth = 330;
-    const popoverHeight = 210;
+    // Dimension & Boundary calculations
+    const popoverWidth = 340;
+    const popoverHeight = 220;
     const padding = 12;
 
-    let x = rect.left + rect.width / 2 - popoverWidth / 2;
+    const wordCenterX = rect.left + rect.width / 2;
+
+    // Horizontal placement
+    let x = wordCenterX - popoverWidth / 2;
     if (x < padding) x = padding;
     if (x + popoverWidth > window.innerWidth - padding) {
       x = window.innerWidth - popoverWidth - padding;
     }
 
-    let y = rect.bottom + 8;
-    let isAbove = false;
-    if (y + popoverHeight > window.innerHeight - padding) {
-      y = Math.max(padding, rect.top - popoverHeight - 8);
-      isAbove = true;
+    // Caret arrow horizontal position relative to the popover card
+    let arrowX = wordCenterX - x;
+    arrowX = Math.max(18, Math.min(popoverWidth - 18, arrowX));
+
+    // Vertical placement: Above-first preference to avoid covering reading text
+    let isAbove = true;
+    let y = rect.top - popoverHeight - 12;
+
+    // If word is near top edge of window (< 230px), flip to below
+    if (rect.top < 230) {
+      isAbove = false;
+      y = rect.bottom + 12;
     }
 
-    setPosition({ x, y, isAbove });
+    setPosition({ x, y, arrowX, isAbove });
     setIsOpen(true);
 
     // Instant local memory lookup first
@@ -201,8 +222,20 @@ export default function DictionaryPopover() {
         top: `${position.y}px`,
         zIndex: 9999,
       }}
-      className="dictionary-popover-container w-[330px] bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/95 p-4 text-slate-900 animate-in fade-in zoom-in-95 duration-150 select-none text-left no-print"
+      className={`dictionary-popover-container w-[340px] bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/95 p-4 text-slate-900 select-none text-left no-print duration-200 ease-out animate-in fade-in zoom-in-95 ${
+        position.isAbove ? "slide-in-from-bottom-2" : "slide-in-from-top-2"
+      }`}
     >
+      {/* Visual Directional Pointer Arrow (Caret pointing to the selected word) */}
+      <div
+        style={{ left: `${position.arrowX}px` }}
+        className={`absolute -translate-x-1/2 w-0 h-0 border-solid pointer-events-none ${
+          position.isAbove
+            ? "bottom-[-7px] border-t-[7px] border-t-white border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-b-0 filter drop-shadow-[0_2px_1px_rgba(0,0,0,0.06)]"
+            : "top-[-7px] border-b-[7px] border-b-white border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-0 filter drop-shadow-[0_-1px_1px_rgba(0,0,0,0.06)]"
+        }`}
+      />
+
       {/* Header Bar */}
       <div className="flex items-center justify-between gap-2 border-b border-slate-100 pb-2.5">
         <div className="flex items-center space-x-2 truncate">
@@ -211,7 +244,7 @@ export default function DictionaryPopover() {
           </h4>
 
           {dictEntry?.phonetic && (
-            <span className="text-xs text-indigo-600 font-mono font-medium">
+            <span className="text-xs text-indigo-600 font-mono font-medium bg-indigo-50/80 px-1.5 py-0.5 rounded-md">
               {dictEntry.phonetic}
             </span>
           )}
@@ -221,28 +254,36 @@ export default function DictionaryPopover() {
           {/* US Audio Button */}
           <button
             onClick={() => handlePlayAudio("us")}
-            className={`px-1.5 py-1 rounded-md text-[11px] font-bold flex items-center space-x-0.5 transition-colors ${
+            className={`px-2 py-1 rounded-lg text-[11px] font-bold flex items-center space-x-1 transition-all ${
               playingType === "us"
-                ? "bg-indigo-600 text-white"
+                ? "bg-indigo-600 text-white shadow-xs scale-95"
                 : "text-slate-600 hover:text-indigo-600 hover:bg-indigo-50"
             }`}
-            title="美音发音"
+            title="美音标准发音"
           >
-            <Volume2 className="w-3.5 h-3.5 mr-0.5" />
+            {playingType === "us" ? (
+              <Volume1 className="w-3.5 h-3.5 animate-pulse" />
+            ) : (
+              <Volume2 className="w-3.5 h-3.5" />
+            )}
             <span>美</span>
           </button>
 
           {/* UK Audio Button */}
           <button
             onClick={() => handlePlayAudio("uk")}
-            className={`px-1.5 py-1 rounded-md text-[11px] font-bold flex items-center space-x-0.5 transition-colors ${
+            className={`px-2 py-1 rounded-lg text-[11px] font-bold flex items-center space-x-1 transition-all ${
               playingType === "uk"
-                ? "bg-indigo-600 text-white"
+                ? "bg-indigo-600 text-white shadow-xs scale-95"
                 : "text-slate-600 hover:text-indigo-600 hover:bg-indigo-50"
             }`}
-            title="英音发音"
+            title="英音标准发音"
           >
-            <Volume2 className="w-3.5 h-3.5 mr-0.5" />
+            {playingType === "uk" ? (
+              <Volume1 className="w-3.5 h-3.5 animate-pulse" />
+            ) : (
+              <Volume2 className="w-3.5 h-3.5" />
+            )}
             <span>英</span>
           </button>
 
@@ -295,7 +336,7 @@ export default function DictionaryPopover() {
       <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-[11px]">
         <div className="flex items-center space-x-1 text-slate-400">
           <Sparkles className="w-3 h-3 text-emerald-500" />
-          <span>Cloudflare 边缘极速词库 (0ms 离线)</span>
+          <span>Cloudflare 边缘极速词库</span>
         </div>
 
         <button

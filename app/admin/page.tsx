@@ -28,7 +28,12 @@ import {
   Loader2,
   Clock,
   Crown,
-  ArrowRightLeft
+  ArrowRightLeft,
+  Megaphone,
+  Info,
+  AlertTriangle,
+  ExternalLink,
+  ChevronRight
 } from "lucide-react";
 
 export default function AdminPage() {
@@ -39,6 +44,7 @@ export default function AdminPage() {
 
   // Exams list
   const [exams, setExams] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
   // Users list
   const [userList, setUserList] = useState<any[]>([]);
   // Approvals list (exams pending upload or delete)
@@ -50,6 +56,24 @@ export default function AdminPage() {
     registrationEnabled: boolean;
   }>({ maxStudentsLimit: 0, registrationEnabled: true });
   const [isSavingSettings, setIsSavingSettings] = useState(false);
+
+  // Sitewide Announcement settings
+  const [announcementSettings, setAnnouncementSettings] = useState<{
+    enabled: boolean;
+    text: string;
+    type: "info" | "warning" | "alert";
+    linkText: string;
+    linkUrl: string;
+    updatedAt: string;
+  }>({
+    enabled: false,
+    text: "",
+    type: "info",
+    linkText: "",
+    linkUrl: "",
+    updatedAt: "",
+  });
+  const [isSavingAnnouncement, setIsSavingAnnouncement] = useState(false);
 
   // JSON batch import
   const [jsonText, setJsonText] = useState("");
@@ -130,13 +154,21 @@ export default function AdminPage() {
   const loadSettings = async () => {
     const { data } = await supabase
       .from("system_settings")
-      .select("max_students_limit, registration_enabled")
+      .select("max_students_limit, registration_enabled, announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at")
       .eq("id", 1)
       .maybeSingle();
     if (data) {
       setSettings({
         maxStudentsLimit: Number(data.max_students_limit || 0),
         registrationEnabled: Boolean(data.registration_enabled),
+      });
+      setAnnouncementSettings({
+        enabled: Boolean(data.announcement_enabled),
+        text: data.announcement_text || "",
+        type: (data.announcement_type as any) || "info",
+        linkText: data.announcement_link_text || "",
+        linkUrl: data.announcement_link_url || "",
+        updatedAt: data.announcement_updated_at || "",
       });
     }
   };
@@ -287,6 +319,28 @@ export default function AdminPage() {
       showNotification("error", `保存失败: ${err.message}`);
     } finally {
       setIsSavingSettings(false);
+    }
+  };
+
+  // Super Admin: Save Sitewide Announcement
+  const handleSaveAnnouncement = async () => {
+    setIsSavingAnnouncement(true);
+    try {
+      const { error } = await supabase.rpc("super_admin_update_announcement", {
+        p_enabled: announcementSettings.enabled,
+        p_text: announcementSettings.text,
+        p_type: announcementSettings.type,
+        p_link_text: announcementSettings.linkText,
+        p_link_url: announcementSettings.linkUrl,
+      });
+      if (error) throw error;
+      showNotification("success", "全站公告已成功保存并同步！");
+      loadSettings();
+      window.dispatchEvent(new CustomEvent("enway_reopen_announcement"));
+    } catch (err: any) {
+      showNotification("error", `公告保存失败: ${err.message}`);
+    } finally {
+      setIsSavingAnnouncement(false);
     }
   };
 
@@ -955,58 +1009,214 @@ export default function AdminPage() {
       {/* Tab 5: Settings & Quota (Super Admin Exclusive)                           */}
       {/* ========================================================================= */}
       {isSuperAdmin && activeTab === "settings" && (
-        <div className="max-w-2xl bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
-          <div>
-            <h3 className="text-base font-bold text-slate-900">系统运行与人数配额配置</h3>
-            <p className="text-xs text-slate-500 mt-0.5">
-              控制全站注册学员人数上限与新用户注册准入开关
-            </p>
+        <div className="space-y-6 max-w-3xl">
+          {/* Card 1: Sitewide Announcement */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="flex items-center justify-between border-b border-slate-100 pb-4">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold shadow-xs">
+                  <Megaphone className="w-5 h-5" />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-slate-900">全站置顶公告管理</h3>
+                  <p className="text-xs text-slate-500 mt-0.5">
+                    发布置顶全站横幅，关闭后自动收纳至导航栏小喇叭，零数据库写消耗
+                  </p>
+                </div>
+              </div>
+
+              <label className="flex items-center space-x-2 cursor-pointer bg-slate-50 px-3 py-1.5 rounded-xl border border-slate-200 hover:bg-slate-100 transition-colors">
+                <span className="text-xs font-bold text-slate-700">启用置顶</span>
+                <input
+                  type="checkbox"
+                  checked={announcementSettings.enabled}
+                  onChange={(e) => setAnnouncementSettings({ ...announcementSettings, enabled: e.target.checked })}
+                  className="w-4 h-4 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer"
+                />
+              </label>
+            </div>
+
+            <div className="space-y-4">
+              {/* Theme style selector */}
+              <div>
+                <label className="block text-xs font-bold text-slate-800 mb-2">公告主题风格</label>
+                <div className="grid grid-cols-3 gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setAnnouncementSettings({ ...announcementSettings, type: "info" })}
+                    className={`p-3 rounded-2xl border text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
+                      announcementSettings.type === "info"
+                        ? "bg-blue-50 border-blue-500 text-blue-800 ring-2 ring-blue-400/20 shadow-xs"
+                        : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100"
+                    }`}
+                  >
+                    <Info className="w-4 h-4 text-blue-600" />
+                    <span>信息蓝 (日常通知)</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setAnnouncementSettings({ ...announcementSettings, type: "warning" })}
+                    className={`p-3 rounded-2xl border text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
+                      announcementSettings.type === "warning"
+                        ? "bg-amber-50 border-amber-500 text-amber-800 ring-2 ring-amber-400/20 shadow-xs"
+                        : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100"
+                    }`}
+                  >
+                    <AlertTriangle className="w-4 h-4 text-amber-600" />
+                    <span>警示黄 (维护/提醒)</span>
+                  </button>
+
+                  <button
+                    type="button"
+                    onClick={() => setAnnouncementSettings({ ...announcementSettings, type: "alert" })}
+                    className={`p-3 rounded-2xl border text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
+                      announcementSettings.type === "alert"
+                        ? "bg-rose-50 border-rose-500 text-rose-800 ring-2 ring-rose-400/20 shadow-xs"
+                        : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100"
+                    }`}
+                  >
+                    <AlertCircle className="w-4 h-4 text-rose-600" />
+                    <span>紧急红 (重大事项)</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Textarea */}
+              <div>
+                <label className="block text-xs font-bold text-slate-800 mb-1">公告正文文案</label>
+                <textarea
+                  rows={3}
+                  value={announcementSettings.text}
+                  onChange={(e) => setAnnouncementSettings({ ...announcementSettings, text: e.target.value })}
+                  placeholder="请输入面向全站考生的公告通知内容（例如：2024考研真题已更新，支持查词与左右键换题...）"
+                  className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-2xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
+
+              {/* Action Button & Link */}
+              <div className="grid sm:grid-cols-2 gap-3">
+                <div>
+                  <label className="block text-xs font-bold text-slate-800 mb-1">附带跳转按钮文字 (可选)</label>
+                  <input
+                    type="text"
+                    value={announcementSettings.linkText}
+                    onChange={(e) => setAnnouncementSettings({ ...announcementSettings, linkText: e.target.value })}
+                    placeholder="例如: 立即前往做题"
+                    className="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-800 mb-1">跳转目标路由或链接 (可选)</label>
+                  <input
+                    type="text"
+                    value={announcementSettings.linkUrl}
+                    onChange={(e) => setAnnouncementSettings({ ...announcementSettings, linkUrl: e.target.value })}
+                    placeholder="例如: /practice?id=xxx 或 https://..."
+                    className="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+              </div>
+
+              {/* Live Preview */}
+              <div>
+                <label className="block text-xs font-bold text-slate-400 mb-1.5">所见即所得前台实时预览</label>
+                <div className={`p-3 rounded-2xl border flex items-center justify-between gap-3 text-xs ${
+                  announcementSettings.type === "info"
+                    ? "bg-blue-50 border-blue-200 text-blue-950"
+                    : announcementSettings.type === "warning"
+                    ? "bg-amber-50 border-amber-200 text-amber-950"
+                    : "bg-rose-50 border-rose-200 text-rose-950"
+                }`}>
+                  <div className="flex items-center space-x-2 flex-1 min-w-0">
+                    <Megaphone className="w-4 h-4 shrink-0 text-indigo-600" />
+                    <span className="font-semibold truncate">
+                      {announcementSettings.text || "公告内容将在此实时预览呈现..."}
+                    </span>
+                    {announcementSettings.linkText && (
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-900 text-white shrink-0">
+                        {announcementSettings.linkText} →
+                      </span>
+                    )}
+                  </div>
+                  <div className="text-slate-400 text-[10px] shrink-0 font-mono">
+                    {announcementSettings.enabled ? "● 开启展示" : "○ 未开启"}
+                  </div>
+                </div>
+              </div>
+
+              {/* Save announcement */}
+              <div className="pt-2 flex justify-end">
+                <button
+                  onClick={handleSaveAnnouncement}
+                  disabled={isSavingAnnouncement}
+                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-200 flex items-center space-x-2 transition-all"
+                >
+                  {isSavingAnnouncement ? (
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                  ) : (
+                    <Sparkles className="w-4 h-4" />
+                  )}
+                  <span>保存并全站发布公告</span>
+                </button>
+              </div>
+            </div>
           </div>
 
-          <div className="space-y-5 pt-2">
+          {/* Card 2: System Registration Quota */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
             <div>
-              <label className="block text-xs font-bold text-slate-800 mb-1">
-                全站学员人数上限 (人)
-              </label>
-              <input
-                type="number"
-                min={0}
-                value={settings.maxStudentsLimit}
-                onChange={(e) => setSettings({ ...settings, maxStudentsLimit: parseInt(e.target.value) || 0 })}
-                className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
-              />
-              <p className="text-[11px] text-slate-400 mt-1">
-                设置为 0 表示不设人数上限（无限注册）。当注册人数达到此数值时，新用户注册将被系统硬校验拦截。
+              <h3 className="text-base font-bold text-slate-900">系统运行与人数配额配置</h3>
+              <p className="text-xs text-slate-500 mt-0.5">
+                控制全站注册学员人数上限与新用户注册准入开关
               </p>
             </div>
 
-            <div className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-200">
+            <div className="space-y-5 pt-2">
               <div>
-                <h4 className="text-xs font-bold text-slate-900">开放学员注册通道</h4>
-                <p className="text-[11px] text-slate-500 mt-0.5">
-                  若关闭，注册通道将被临时封锁，任何新用户均无法注册
+                <label className="block text-xs font-bold text-slate-800 mb-1">
+                  全站学员人数上限 (人)
+                </label>
+                <input
+                  type="number"
+                  min={0}
+                  value={settings.maxStudentsLimit}
+                  onChange={(e) => setSettings({ ...settings, maxStudentsLimit: parseInt(e.target.value) || 0 })}
+                  className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                />
+                <p className="text-[11px] text-slate-400 mt-1">
+                  设置为 0 表示不设人数上限（无限注册）。当注册人数达到此数值时，新用户注册将被系统硬校验拦截。
                 </p>
               </div>
-              <input
-                type="checkbox"
-                checked={settings.registrationEnabled}
-                onChange={(e) => setSettings({ ...settings, registrationEnabled: e.target.checked })}
-                className="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer"
-              />
-            </div>
 
-            <div className="pt-4 flex justify-end">
-              <button
-                onClick={handleSaveSettings}
-                disabled={isSavingSettings}
-                className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-200 flex items-center space-x-2"
-              >
-                {isSavingSettings ? (
-                  <Loader2 className="w-4 h-4 animate-spin" />
-                ) : (
-                  <span>保存系统配置</span>
-                )}
-              </button>
+              <div className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-200">
+                <div>
+                  <h4 className="text-xs font-bold text-slate-900">开放学员注册通道</h4>
+                  <p className="text-[11px] text-slate-500 mt-0.5">
+                    若关闭，注册通道将被临时封锁，任何新用户均无法注册
+                  </p>
+                </div>
+                <input
+                  type="checkbox"
+                  checked={settings.registrationEnabled}
+                  onChange={(e) => setSettings({ ...settings, registrationEnabled: e.target.checked })}
+                  className="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer"
+                />
+              </div>
+
+              <div className="pt-4 flex justify-end">
+                <button
+                  onClick={handleSaveSettings}
+                  disabled={isSavingSettings}
+                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-200 flex items-center space-x-2"
+                >
+                  {isSavingSettings ? (
+                    <Loader2 className="w-4 h-4 animate-spin" />
+                  ) : (
+                    <span>保存系统配置</span>
+                  )}
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -18,8 +18,14 @@ import {
   CloudUpload,
   Trash2,
   X,
-  Loader2
+  Loader2,
+  Megaphone,
+  ExternalLink,
+  ChevronRight,
+  Info,
+  AlertTriangle
 } from "lucide-react";
+import AnnouncementBanner from "@/components/AnnouncementBanner";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -32,7 +38,26 @@ export default function Navbar() {
   const [showLogoutModal, setShowLogoutModal] = useState(false);
   const [isLoggingOut, setIsLoggingOut] = useState(false);
 
+  // Sitewide announcement dropdown state
+  const [activeAnnouncement, setActiveAnnouncement] = useState<any>(null);
+  const [showAnnouncementDetail, setShowAnnouncementDetail] = useState(false);
+
   useEffect(() => {
+    async function loadAnnouncement() {
+      try {
+        const { data } = await supabase
+          .from("system_settings")
+          .select("announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at")
+          .eq("id", 1)
+          .maybeSingle();
+        if (data && data.announcement_enabled && data.announcement_text?.trim()) {
+          setActiveAnnouncement(data);
+        } else {
+          setActiveAnnouncement(null);
+        }
+      } catch {}
+    }
+    loadAnnouncement();
     async function loadUser() {
       try {
         const { data: { user } } = await supabase.auth.getUser();
@@ -112,6 +137,7 @@ export default function Navbar() {
 
   return (
     <>
+      <AnnouncementBanner />
       <header className="sticky top-0 z-40 w-full border-b border-slate-200 bg-white/90 backdrop-blur">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           {/* Brand Logo */}
@@ -193,7 +219,78 @@ export default function Navbar() {
           </div>
 
           {/* User Status / Actions */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-2.5">
+            {/* Sitewide Announcement Megaphone (Folded Access) */}
+            {activeAnnouncement?.announcement_enabled && (
+              <div className="relative">
+                <button
+                  onClick={() => setShowAnnouncementDetail(!showAnnouncementDetail)}
+                  className={`relative p-2 rounded-xl border transition-all ${
+                    showAnnouncementDetail
+                      ? "bg-indigo-600 text-white border-indigo-600 shadow-sm"
+                      : "bg-slate-50 border-slate-200/80 text-slate-600 hover:text-indigo-600 hover:bg-slate-100"
+                  }`}
+                  title="全站公告通知"
+                >
+                  <Megaphone className="w-4 h-4" />
+                  <span className="absolute -top-0.5 -right-0.5 flex h-2 w-2">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                  </span>
+                </button>
+
+                {showAnnouncementDetail && (
+                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200 p-4 text-slate-900 z-50 animate-in fade-in zoom-in-95 duration-150 text-left">
+                    <div className="flex items-center justify-between border-b border-slate-100 pb-2.5 mb-3">
+                      <div className="flex items-center space-x-2">
+                        <div className="w-7 h-7 rounded-lg bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold">
+                          <Megaphone className="w-4 h-4" />
+                        </div>
+                        <div>
+                          <h4 className="text-xs font-bold text-slate-900">全站公告</h4>
+                          <span className="text-[10px] text-slate-400">来自超级管理员</span>
+                        </div>
+                      </div>
+                      <button
+                        onClick={() => setShowAnnouncementDetail(false)}
+                        className="p-1 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
+
+                    <div className="text-xs font-medium text-slate-800 leading-relaxed whitespace-pre-wrap select-text bg-slate-50 p-3 rounded-xl border border-slate-100 mb-3">
+                      {activeAnnouncement.announcement_text}
+                    </div>
+
+                    <div className="flex items-center justify-between pt-1">
+                      <button
+                        onClick={() => {
+                          window.dispatchEvent(new CustomEvent("enway_reopen_announcement"));
+                          setShowAnnouncementDetail(false);
+                        }}
+                        className="text-[11px] text-indigo-600 font-bold hover:underline"
+                      >
+                        在顶部重新展示横幅
+                      </button>
+
+                      {activeAnnouncement.announcement_link_text && activeAnnouncement.announcement_link_url && (
+                        <a
+                          href={activeAnnouncement.announcement_link_url}
+                          target={activeAnnouncement.announcement_link_url.startsWith("http") ? "_blank" : undefined}
+                          rel="noopener noreferrer"
+                          className="px-3 py-1 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold flex items-center space-x-1"
+                        >
+                          <span>{activeAnnouncement.announcement_link_text}</span>
+                          <ChevronRight className="w-3.5 h-3.5" />
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
+
             {loading ? (
               <div className="h-8 w-20 bg-slate-100 animate-pulse rounded-lg" />
             ) : user ? (

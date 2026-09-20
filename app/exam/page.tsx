@@ -53,6 +53,7 @@ function ExamContent() {
   const [focusedIndex, setFocusedIndex] = useState<number>(0);
 
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const passageContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     async function loadExam() {
@@ -137,20 +138,26 @@ function ExamContent() {
         if (currentQ) {
           handleSelectAnswer(currentQ.id, key);
         }
-      } else if (e.key === "ArrowDown" || e.key === "ArrowRight") {
+      } else if (e.key === "ArrowRight") {
         e.preventDefault();
         setFocusedIndex((prev) => {
           const nextIdx = Math.min(questions.length - 1, prev + 1);
           scrollToQuestion(questions[nextIdx]?.id);
           return nextIdx;
         });
-      } else if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
+      } else if (e.key === "ArrowLeft") {
         e.preventDefault();
         setFocusedIndex((prev) => {
           const prevIdx = Math.max(0, prev - 1);
           scrollToQuestion(questions[prevIdx]?.id);
           return prevIdx;
         });
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
       }
     };
 
@@ -466,7 +473,7 @@ function ExamContent() {
             </div>
 
             {/* Reading Content Area */}
-            <div className="flex-1 p-6 sm:p-7 overflow-y-auto leading-relaxed select-text font-serif text-[#1e293b]">
+            <div ref={passageContainerRef} className="flex-1 p-6 sm:p-7 overflow-y-auto leading-relaxed select-text font-serif text-[#1e293b]">
               {(passages.filter((p) => p.id === activePassageId).length > 0
                 ? passages.filter((p) => p.id === activePassageId)
                 : passages.slice(0, 1)

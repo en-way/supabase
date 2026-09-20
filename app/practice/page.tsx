@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, Suspense } from "react";
+import { useState, useEffect, useRef, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
@@ -40,6 +40,7 @@ function PracticeContent() {
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set());
   const [editingNotes, setEditingNotes] = useState<Record<string, string>>({});
   const [largeFont, setLargeFont] = useState(false);
+  const passageContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     async function loadExam() {
@@ -108,12 +109,18 @@ function PracticeContent() {
       if (["A", "B", "C", "D"].includes(key)) {
         e.preventDefault();
         handleSelectOption(key);
-      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      } else if (e.key === "ArrowLeft") {
         e.preventDefault();
         setCurrentIndex((prev) => Math.max(0, prev - 1));
-      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      } else if (e.key === "ArrowRight") {
         e.preventDefault();
         setCurrentIndex((prev) => Math.min(Math.max(0, questions.length - 1), prev + 1));
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
       }
     };
 
@@ -246,7 +253,7 @@ function PracticeContent() {
 
       <div className={`grid gap-6 ${relatedPassage ? "lg:grid-cols-12" : "max-w-3xl mx-auto"}`}>
         {relatedPassage && (
-          <div className="lg:col-span-7 bg-[#fcfbf9] rounded-2xl border border-stone-200/90 p-7 shadow-xs overflow-y-auto max-h-[82vh] leading-relaxed">
+          <div ref={passageContainerRef} className="lg:col-span-7 bg-[#fcfbf9] rounded-2xl border border-stone-200/90 p-7 shadow-xs overflow-y-auto max-h-[82vh] leading-relaxed">
             <div className="flex items-center justify-between pb-3.5 mb-5 border-b border-stone-200/80">
               <span className="text-xs font-bold font-serif uppercase tracking-wider text-amber-800">
                 {relatedPassage.title}
