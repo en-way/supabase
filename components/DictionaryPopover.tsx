@@ -35,13 +35,24 @@ export default function DictionaryPopover() {
   const [contextSentence, setContextSentence] = useState<string>("");
   const [playingType, setPlayingType] = useState<"us" | "uk" | null>(null);
 
+  const [isMobile, setIsMobile] = useState(false);
   const popoverRef = useRef<HTMLDivElement | null>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
-  // Close on outside click or Esc
   useEffect(() => {
-    const handleOutsideClick = (e: MouseEvent) => {
-      if (popoverRef.current && !popoverRef.current.contains(e.target as Node)) {
+    const updateIsMobile = () => {
+      setIsMobile(typeof window !== "undefined" && window.innerWidth < 640);
+    };
+    updateIsMobile();
+    window.addEventListener("resize", updateIsMobile);
+    return () => window.removeEventListener("resize", updateIsMobile);
+  }, []);
+
+  // Close on outside click, outside touch, or Esc
+  useEffect(() => {
+    const handleOutside = (e: MouseEvent | TouchEvent) => {
+      const target = (e instanceof MouseEvent ? e.target : (e as TouchEvent).target) as Node;
+      if (popoverRef.current && !popoverRef.current.contains(target)) {
         setIsOpen(false);
         // Clear text selection to prevent lingering highlight from re-triggering popups
         if (window.getSelection()?.toString().trim()) {
@@ -59,15 +70,17 @@ export default function DictionaryPopover() {
       }
     };
 
-    document.addEventListener("mousedown", handleOutsideClick);
+    document.addEventListener("mousedown", handleOutside);
+    document.addEventListener("touchstart", handleOutside, { passive: true });
     document.addEventListener("keydown", handleKeyDown);
     return () => {
-      document.removeEventListener("mousedown", handleOutsideClick);
+      document.removeEventListener("mousedown", handleOutside);
+      document.removeEventListener("touchstart", handleOutside);
       document.removeEventListener("keydown", handleKeyDown);
     };
   }, []);
 
-  // Selection & Double-click listener with robust multi-word suppression and debouncing
+  // Selection & Double-click / Touch listener with robust multi-word suppression and debouncing
   useEffect(() => {
     const processSelection = () => {
       const selection = window.getSelection();
@@ -109,9 +122,9 @@ export default function DictionaryPopover() {
         return;
       }
 
-      const rect = range.getBoundingClientRect();
-      if (!rect || (rect.width === 0 && rect.height === 0)) {
-        return;
+      let rect = range.getBoundingClientRect();
+      if ((!rect || (rect.width === 0 && rect.height === 0)) && range.getClientRects().length > 0) {
+        rect = range.getClientRects()[0];
       }
 
       // Extract context sentence surrounding the word
@@ -127,7 +140,7 @@ export default function DictionaryPopover() {
     };
 
     const handleMouseUp = (e: MouseEvent) => {
-      // Ignore clicks originating inside the popover itself (audio buttons, add vocab, close button, etc.)
+      // Ignore clicks originating inside the popover itself
       if (popoverRef.current && popoverRef.current.contains(e.target as Node)) {
         return;
       }
@@ -137,14 +150,37 @@ export default function DictionaryPopover() {
       timeoutRef.current = setTimeout(processSelection, 150);
     };
 
+    const handleTouchEnd = (e: TouchEvent) => {
+      const target = e.target as Node;
+      if (popoverRef.current && popoverRef.current.contains(target)) {
+        return;
+      }
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      // 250ms debounce on touch devices allows OS selection handles to settle
+      timeoutRef.current = setTimeout(processSelection, 250);
+    };
+
+    const handleSelectionChange = () => {
+      // On mobile devices, adjusting selection handles fires selectionchange without mouseup
+      if (typeof window !== "undefined" && window.innerWidth < 640) {
+        if (timeoutRef.current) clearTimeout(timeoutRef.current);
+        timeoutRef.current = setTimeout(processSelection, 350);
+      }
+    };
+
     document.addEventListener("mouseup", handleMouseUp);
+    document.addEventListener("touchend", handleTouchEnd, { passive: true });
+    document.addEventListener("selectionchange", handleSelectionChange);
+
     return () => {
       document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener("touchend", handleTouchEnd);
+      document.removeEventListener("selectionchange", handleSelectionChange);
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
   }, [isOpen, selectedWord]);
 
-  const triggerWordLookup = async (clean: string, rect: DOMRect, context: string) => {
+  const triggerWordLookup = async (clean: string, rect: DOMRect | null, context: string) => {
     if (!clean) return;
 
     setSelectedWord(clean);
@@ -155,35 +191,41 @@ export default function DictionaryPopover() {
     const exists = (state.vocabulary || []).some((v) => v.word.toLowerCase() === clean.toLowerCase());
     setIsAdded(exists);
 
-    // Dimension & Boundary calculations
-    const popoverWidth = 340;
-    const popoverHeight = 220;
-    const padding = 12;
+    const mobileCheck = typeof window !== "undefined" && window.innerWidth < 640;
+    setIsMobile(mobileCheck);
 
-    const wordCenterX = rect.left + rect.width / 2;
+    if (!mobileCheck && rect) {
+      // Dimension & Boundary calculations for desktop floating card
+      const popoverWidth = 340;
+      const popoverHeight = 220;
+      const padding = 12;
 
-    // Horizontal placement
-    let x = wordCenterX - popoverWidth / 2;
-    if (x < padding) x = padding;
-    if (x + popoverWidth > window.innerWidth - padding) {
-      x = window.innerWidth - popoverWidth - padding;
+      const wordCenterX = rect.left + rect.width / 2;
+
+      // Horizontal placement
+      let x = wordCenterX - popoverWidth / 2;
+      if (x < padding) x = padding;
+      if (x + popoverWidth > window.innerWidth - padding) {
+        x = window.innerWidth - popoverWidth - padding;
+      }
+
+      // Caret arrow horizontal position relative to the popover card
+      let arrowX = wordCenterX - x;
+      arrowX = Math.max(18, Math.min(popoverWidth - 18, arrowX));
+
+      // Vertical placement: Above-first preference to avoid covering reading text
+      let isAbove = true;
+      let y = rect.top - popoverHeight - 12;
+
+      // If word is near top edge of window (< 230px), flip to below
+      if (rect.top < 230) {
+        isAbove = false;
+        y = rect.bottom + 12;
+      }
+
+      setPosition({ x, y, arrowX, isAbove });
     }
 
-    // Caret arrow horizontal position relative to the popover card
-    let arrowX = wordCenterX - x;
-    arrowX = Math.max(18, Math.min(popoverWidth - 18, arrowX));
-
-    // Vertical placement: Above-first preference to avoid covering reading text
-    let isAbove = true;
-    let y = rect.top - popoverHeight - 12;
-
-    // If word is near top edge of window (< 230px), flip to below
-    if (rect.top < 230) {
-      isAbove = false;
-      y = rect.bottom + 12;
-    }
-
-    setPosition({ x, y, arrowX, isAbove });
     setIsOpen(true);
 
     // Immediately clear browser native selection range to dismiss browser floating copy/search toolbar
@@ -252,25 +294,39 @@ export default function DictionaryPopover() {
   return (
     <div
       ref={popoverRef}
-      style={{
-        position: "fixed",
-        left: `${position.x}px`,
-        top: `${position.y}px`,
-        zIndex: 9999,
-      }}
-      className={`dictionary-popover-container w-[340px] bg-white/95 dark:bg-[#11131a]/95 backdrop-blur-2xl rounded-2xl shadow-float border border-black/[0.08] dark:border-cyan-500/25 p-4 text-stone-900 dark:text-zinc-100 select-none text-left no-print duration-200 ease-spring animate-in fade-in zoom-in-95 ${
-        position.isAbove ? "slide-in-from-bottom-2" : "slide-in-from-top-2"
-      }`}
+      style={
+        isMobile
+          ? {
+              position: "fixed",
+              bottom: "1rem",
+              left: "0.75rem",
+              right: "0.75rem",
+              zIndex: 9999,
+            }
+          : {
+              position: "fixed",
+              left: `${position.x}px`,
+              top: `${position.y}px`,
+              zIndex: 9999,
+            }
+      }
+      className={`dictionary-popover-container ${
+        isMobile
+          ? "w-auto max-w-lg mx-auto shadow-2xl slide-in-from-bottom-5"
+          : `w-[340px] shadow-float ${position.isAbove ? "slide-in-from-bottom-2" : "slide-in-from-top-2"}`
+      } bg-white/95 dark:bg-[#11131a]/95 backdrop-blur-2xl rounded-2xl border border-black/[0.08] dark:border-cyan-500/25 p-4 text-stone-900 dark:text-zinc-100 select-none text-left no-print duration-200 ease-spring animate-in fade-in zoom-in-95`}
     >
-      {/* Visual Directional Pointer Arrow (Caret pointing to the selected word) */}
-      <div
-        style={{ left: `${position.arrowX}px` }}
-        className={`absolute -translate-x-1/2 w-0 h-0 border-solid pointer-events-none ${
-          position.isAbove
-            ? "bottom-[-7px] border-t-[7px] border-t-white dark:border-t-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-b-0 filter drop-shadow-[0_2px_1px_rgba(0,0,0,0.06)]"
-            : "top-[-7px] border-b-[7px] border-b-white dark:border-b-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-0 filter drop-shadow-[0_-1px_1px_rgba(0,0,0,0.06)]"
-        }`}
-      />
+      {/* Visual Directional Pointer Arrow (Caret pointing to the selected word on Desktop) */}
+      {!isMobile && (
+        <div
+          style={{ left: `${position.arrowX}px` }}
+          className={`absolute -translate-x-1/2 w-0 h-0 border-solid pointer-events-none ${
+            position.isAbove
+              ? "bottom-[-7px] border-t-[7px] border-t-white dark:border-t-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-b-0 filter drop-shadow-[0_2px_1px_rgba(0,0,0,0.06)]"
+              : "top-[-7px] border-b-[7px] border-b-white dark:border-b-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-0 filter drop-shadow-[0_-1px_1px_rgba(0,0,0,0.06)]"
+          }`}
+        />
+      )}
 
       {/* Header Bar */}
       <div className="flex items-center justify-between gap-2 border-b border-stone-100 dark:border-zinc-800 pb-2.5">
