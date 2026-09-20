@@ -1,29 +1,29 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { 
-  uploadBackupToCloud, 
-  clearLocalData 
+  clearLocalData, 
+  uploadBackupToCloud 
 } from "@/lib/storage";
 import { 
   BookOpen, 
+  User, 
+  LogOut, 
+  Shield, 
   FileText, 
   AlertCircle, 
   Bookmark, 
-  Shield, 
-  LogOut,
-  CloudUpload,
+  CloudUpload, 
   Trash2,
   X,
   Loader2,
   Megaphone,
-  ExternalLink,
   ChevronRight,
-  Info,
-  AlertTriangle
+  Sun,
+  Moon
 } from "lucide-react";
 import AnnouncementBanner from "@/components/AnnouncementBanner";
 
@@ -34,6 +34,9 @@ export default function Navbar() {
   const [profile, setProfile] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
+  // Theme State
+  const [isDark, setIsDark] = useState(false);
+
   // Logout Confirmation Dialog State
   const [showLogoutModal, setShowLogoutModal] = useState(false);
   const [isLoggingOut, setIsLoggingOut] = useState(false);
@@ -41,6 +44,24 @@ export default function Navbar() {
   // Sitewide announcement dropdown state
   const [activeAnnouncement, setActiveAnnouncement] = useState<any>(null);
   const [showAnnouncementDetail, setShowAnnouncementDetail] = useState(false);
+
+  // Initialize theme state from html class
+  useEffect(() => {
+    const isDarkMode = document.documentElement.classList.contains("dark");
+    setIsDark(isDarkMode);
+  }, []);
+
+  const toggleTheme = () => {
+    const nextIsDark = !isDark;
+    setIsDark(nextIsDark);
+    if (nextIsDark) {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("enway_theme", "dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      localStorage.setItem("enway_theme", "light");
+    }
+  };
 
   useEffect(() => {
     async function loadAnnouncement() {
@@ -58,12 +79,13 @@ export default function Navbar() {
       } catch {}
     }
     loadAnnouncement();
+
     async function loadUser() {
       try {
         const { data: { user } } = await supabase.auth.getUser();
         setUser(user);
         if (user) {
-          const { data, error } = await supabase
+          const { data } = await supabase
             .from("profiles")
             .select("*")
             .eq("id", user.id)
@@ -140,32 +162,32 @@ export default function Navbar() {
   return (
     <>
       <AnnouncementBanner />
-      <header className="sticky top-0 z-40 w-full border-b border-black/[0.06] bg-white/80 backdrop-blur-xl transition-all duration-200">
+      <header className="sticky top-0 z-40 w-full border-b border-black/[0.06] dark:border-cyan-500/15 bg-white/80 dark:bg-[#090a0f]/80 backdrop-blur-xl transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           {/* Brand Logo */}
           <div className="flex items-center space-x-7">
             <Link href="/" className="flex items-center space-x-2.5 group">
-              <div className="w-8 h-8 rounded-xl bg-zinc-900 text-white flex items-center justify-center font-bold shadow-subtle group-hover:bg-indigo-600 transition-colors duration-200">
+              <div className="w-8 h-8 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] flex items-center justify-center font-bold shadow-subtle dark:shadow-glow-cyan group-hover:scale-105 transition-all duration-200">
                 <BookOpen className="w-4 h-4" />
               </div>
               <div className="flex flex-col">
-                <span className="text-base font-black tracking-tight text-zinc-900 leading-none group-hover:text-indigo-600 transition-colors">
+                <span className="text-base font-black tracking-tight text-stone-900 dark:text-zinc-100 leading-none group-hover:text-emerald-700 dark:group-hover:text-cyber-400 transition-colors">
                   ENWAY
                 </span>
-                <span className="text-[10px] text-zinc-400 font-medium tracking-wider mt-0.5">
+                <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-medium tracking-wider mt-0.5">
                   真题研习 · 全真模考
                 </span>
               </div>
             </Link>
 
             {/* Navigation Links (Micro-capsule style) */}
-            <nav className="hidden md:flex items-center space-x-1 bg-zinc-100/70 p-1 rounded-xl border border-black/[0.03]">
+            <nav className="hidden md:flex items-center space-x-1 bg-stone-100/80 dark:bg-zinc-900/80 p-1 rounded-xl border border-black/[0.04] dark:border-cyan-500/20">
               <Link
                 href="/"
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
                   pathname === "/" 
-                    ? "bg-white text-zinc-950 shadow-subtle" 
-                    : "text-zinc-600 hover:text-zinc-950 hover:bg-white/60"
+                    ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-subtle dark:shadow-glow-cyan" 
+                    : "text-stone-600 dark:text-zinc-400 hover:text-stone-950 dark:hover:text-zinc-100 hover:bg-white/60 dark:hover:bg-zinc-800/50"
                 }`}
               >
                 <span className="flex items-center space-x-1.5">
@@ -178,8 +200,8 @@ export default function Navbar() {
                 href="/mistakes"
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
                   pathname.startsWith("/mistakes") 
-                    ? "bg-white text-zinc-950 shadow-subtle" 
-                    : "text-zinc-600 hover:text-zinc-950 hover:bg-white/60"
+                    ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-subtle dark:shadow-glow-cyan" 
+                    : "text-stone-600 dark:text-zinc-400 hover:text-stone-950 dark:hover:text-zinc-100 hover:bg-white/60 dark:hover:bg-zinc-800/50"
                 }`}
               >
                 <span className="flex items-center space-x-1.5">
@@ -192,12 +214,12 @@ export default function Navbar() {
                 href="/vocabulary"
                 className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
                   pathname.startsWith("/vocabulary") 
-                    ? "bg-white text-zinc-950 shadow-subtle" 
-                    : "text-zinc-600 hover:text-zinc-950 hover:bg-white/60"
+                    ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-subtle dark:shadow-glow-cyan" 
+                    : "text-stone-600 dark:text-zinc-400 hover:text-stone-950 dark:hover:text-zinc-100 hover:bg-white/60 dark:hover:bg-zinc-800/50"
                 }`}
               >
                 <span className="flex items-center space-x-1.5">
-                  <Bookmark className="w-3.5 h-3.5 text-emerald-500 opacity-80" />
+                  <Bookmark className="w-3.5 h-3.5 text-emerald-600 dark:text-cyber-400 opacity-80" />
                   <span>核心词汇库</span>
                 </span>
               </Link>
@@ -207,8 +229,8 @@ export default function Navbar() {
                   href="/admin"
                   className={`px-3 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
                     pathname.startsWith("/admin") 
-                      ? "bg-purple-50 text-purple-800 shadow-subtle" 
-                      : "text-purple-600 hover:text-purple-900 hover:bg-purple-50/50"
+                      ? "bg-purple-50 dark:bg-purple-950/50 text-purple-800 dark:text-purple-300 shadow-subtle" 
+                      : "text-purple-600 dark:text-purple-400 hover:text-purple-900 dark:hover:text-purple-200 hover:bg-purple-50/50 dark:hover:bg-purple-950/30"
                   }`}
                 >
                   <span className="flex items-center space-x-1.5">
@@ -220,8 +242,22 @@ export default function Navbar() {
             </nav>
           </div>
 
-          {/* User Status / Actions */}
+          {/* User Status / Theme Switch / Actions */}
           <div className="flex items-center space-x-2">
+            {/* Theme Toggle Capsule Button */}
+            <button
+              type="button"
+              onClick={toggleTheme}
+              title={isDark ? "切换为晨曦自然明亮模式" : "切换为深空极光科幻模式"}
+              className="p-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/25 bg-white dark:bg-[#11131a] text-stone-600 dark:text-cyber-400 hover:text-stone-950 dark:hover:text-cyber-200 shadow-subtle hover:shadow-card active:scale-[0.96] transition-all duration-200"
+            >
+              {isDark ? (
+                <Sun className="w-4 h-4 text-amber-400 transition-transform duration-300 rotate-0" />
+              ) : (
+                <Moon className="w-4 h-4 text-emerald-700 transition-transform duration-300 rotate-0" />
+              )}
+            </button>
+
             {/* Sitewide Announcement Megaphone (Folded Access) */}
             {activeAnnouncement?.announcement_enabled && activeAnnouncement?.announcement_text?.trim() && (
               <div className="relative">
@@ -229,8 +265,8 @@ export default function Navbar() {
                   onClick={() => setShowAnnouncementDetail(!showAnnouncementDetail)}
                   className={`relative p-2 rounded-xl border transition-all duration-150 ${
                     showAnnouncementDetail
-                      ? "bg-zinc-900 text-white border-zinc-900 shadow-subtle"
-                      : "bg-white border-black/[0.06] text-zinc-600 hover:text-zinc-950 hover:border-black/[0.12] shadow-subtle"
+                      ? "bg-stone-900 dark:bg-cyber-500 text-white dark:text-[#090a0f] border-stone-900 dark:border-cyber-400 shadow-subtle"
+                      : "bg-white dark:bg-[#11131a] border-black/[0.06] dark:border-cyan-500/25 text-stone-600 dark:text-zinc-400 hover:text-stone-950 dark:hover:text-cyber-300 shadow-subtle"
                   }`}
                   title="全站公告通知"
                 >
@@ -242,26 +278,26 @@ export default function Navbar() {
                 </button>
 
                 {showAnnouncementDetail && (
-                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white/95 backdrop-blur-2xl rounded-2xl shadow-float border border-black/[0.08] p-4 text-zinc-900 z-50 animate-in fade-in zoom-in-95 duration-150 text-left">
-                    <div className="flex items-center justify-between border-b border-zinc-100 pb-2.5 mb-3">
+                  <div className="absolute right-0 mt-2 w-80 sm:w-96 bg-white/95 dark:bg-[#11131a]/95 backdrop-blur-2xl rounded-2xl shadow-float border border-black/[0.08] dark:border-cyan-500/25 p-4 text-stone-900 dark:text-zinc-100 z-50 animate-in fade-in zoom-in-95 duration-150 text-left">
+                    <div className="flex items-center justify-between border-b border-stone-100 dark:border-zinc-800 pb-2.5 mb-3">
                       <div className="flex items-center space-x-2">
-                        <div className="w-7 h-7 rounded-lg bg-zinc-100 text-zinc-800 flex items-center justify-center font-bold">
+                        <div className="w-7 h-7 rounded-lg bg-stone-100 dark:bg-zinc-800 text-stone-800 dark:text-cyber-400 flex items-center justify-center font-bold">
                           <Megaphone className="w-4 h-4" />
                         </div>
                         <div>
-                          <h4 className="text-xs font-bold text-zinc-900">全站公告</h4>
-                          <span className="text-[10px] text-zinc-400">来自超级管理员</span>
+                          <h4 className="text-xs font-bold text-stone-900 dark:text-zinc-100">全站公告</h4>
+                          <span className="text-[10px] text-stone-400 dark:text-zinc-500">来自超级管理员</span>
                         </div>
                       </div>
                       <button
                         onClick={() => setShowAnnouncementDetail(false)}
-                        className="p-1 rounded-lg text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition-colors"
+                        className="p-1 rounded-lg text-stone-400 dark:text-zinc-500 hover:text-stone-700 dark:hover:text-zinc-300 hover:bg-stone-100 dark:hover:bg-zinc-800 transition-colors"
                       >
                         <X className="w-4 h-4" />
                       </button>
                     </div>
 
-                    <div className="text-xs font-medium text-zinc-800 leading-relaxed whitespace-pre-wrap select-text bg-zinc-50/80 p-3 rounded-xl border border-black/[0.04] mb-3">
+                    <div className="text-xs font-medium text-stone-800 dark:text-zinc-200 leading-relaxed whitespace-pre-wrap select-text bg-stone-50/80 dark:bg-zinc-900/80 p-3 rounded-xl border border-black/[0.04] dark:border-cyan-500/10 mb-3">
                       {activeAnnouncement.announcement_text}
                     </div>
 
@@ -271,7 +307,7 @@ export default function Navbar() {
                           window.dispatchEvent(new CustomEvent("enway_reopen_announcement"));
                           setShowAnnouncementDetail(false);
                         }}
-                        className="text-[11px] text-zinc-600 hover:text-zinc-900 font-semibold hover:underline"
+                        className="text-[11px] text-stone-600 dark:text-zinc-400 hover:text-emerald-700 dark:hover:text-cyber-400 font-semibold hover:underline"
                       >
                         在顶部重新展示横幅
                       </button>
@@ -281,7 +317,7 @@ export default function Navbar() {
                           href={activeAnnouncement.announcement_link_url}
                           target={activeAnnouncement.announcement_link_url.startsWith("http") ? "_blank" : undefined}
                           rel="noopener noreferrer"
-                          className="px-3 py-1 bg-zinc-900 hover:bg-zinc-800 text-white rounded-lg text-xs font-bold flex items-center space-x-1 shadow-subtle transition-all"
+                          className="px-3 py-1 bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] rounded-lg text-xs font-bold flex items-center space-x-1 shadow-subtle transition-all"
                         >
                           <span>{activeAnnouncement.announcement_link_text}</span>
                           <ChevronRight className="w-3.5 h-3.5" />
@@ -294,21 +330,21 @@ export default function Navbar() {
             )}
 
             {loading ? (
-              <div className="h-8 w-20 bg-zinc-100 animate-pulse rounded-lg" />
+              <div className="h-8 w-20 bg-stone-100 dark:bg-zinc-800 animate-pulse rounded-lg" />
             ) : user ? (
               <div className="flex items-center space-x-1.5">
                 <Link
                   href="/profile"
-                  className="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-white border border-black/[0.06] hover:border-black/[0.14] shadow-subtle hover:shadow-card transition-all duration-150"
+                  className="flex items-center space-x-2 px-3 py-1.5 rounded-full bg-white dark:bg-[#11131a] border border-black/[0.06] dark:border-cyan-500/25 hover:border-black/[0.14] dark:hover:border-cyan-500/50 shadow-subtle hover:shadow-card transition-all duration-150"
                 >
-                  <div className="w-5 h-5 rounded-full bg-zinc-900 text-white flex items-center justify-center text-[10px] font-bold">
+                  <div className="w-5 h-5 rounded-full bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] flex items-center justify-center text-[10px] font-bold">
                     {profile?.nickname?.[0] || profile?.username?.[0] || "U"}
                   </div>
                   <div className="text-left flex items-center space-x-1.5">
-                    <span className="text-xs font-semibold text-zinc-900 leading-tight">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100 leading-tight">
                       {profile?.nickname || profile?.username}
                     </span>
-                    <span className="text-[10px] text-zinc-400 font-mono leading-tight">
+                    <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-mono leading-tight">
                       {profile?.role === "super_admin" 
                         ? "👑 超管" 
                         : profile?.role === "admin" 
@@ -321,7 +357,7 @@ export default function Navbar() {
                 <button
                   onClick={() => setShowLogoutModal(true)}
                   title="安全退出系统"
-                  className="p-2 text-zinc-400 hover:text-rose-600 hover:bg-rose-50/80 rounded-full transition-colors"
+                  className="p-2 text-stone-400 dark:text-zinc-500 hover:text-rose-600 hover:bg-rose-50/80 dark:hover:bg-rose-950/40 rounded-full transition-colors"
                 >
                   <LogOut className="w-4 h-4" />
                 </button>
@@ -329,7 +365,7 @@ export default function Navbar() {
             ) : (
               <Link
                 href="/login"
-                className="px-4 py-1.5 bg-zinc-900 hover:bg-zinc-800 text-white text-xs font-bold rounded-full shadow-subtle hover:shadow-card active:scale-[0.98] transition-all duration-150"
+                className="px-4 py-1.5 bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] text-xs font-bold rounded-full shadow-subtle hover:shadow-card active:scale-[0.98] transition-all duration-150"
               >
                 考生登录 / 注册
               </Link>
@@ -340,28 +376,28 @@ export default function Navbar() {
 
       {/* Logout Confirmation Dialog (Local data clearance & backup) */}
       {showLogoutModal && (
-        <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-md flex items-center justify-center p-4 animate-in fade-in duration-200">
-          <div className="bg-white/95 backdrop-blur-2xl rounded-2xl max-w-sm w-full p-6 shadow-float border border-black/[0.08] space-y-4">
+        <div className="fixed inset-0 z-50 bg-black/40 dark:bg-black/70 backdrop-blur-md flex items-center justify-center p-4 animate-in fade-in duration-200">
+          <div className="bg-white/95 dark:bg-[#11131a]/95 backdrop-blur-2xl rounded-2xl max-w-sm w-full p-6 shadow-float border border-black/[0.08] dark:border-cyan-500/25 space-y-4">
             <div className="flex items-start justify-between">
-              <div className="flex items-center space-x-3 text-zinc-900">
-                <div className="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center font-bold">
+              <div className="flex items-center space-x-3 text-stone-900 dark:text-zinc-100">
+                <div className="w-9 h-9 rounded-xl bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold">
                   <LogOut className="w-4 h-4" />
                 </div>
                 <div>
-                  <h3 className="font-bold text-sm text-zinc-900">安全退出系统</h3>
-                  <p className="text-[11px] text-zinc-400">学习档案云端同步与终端隔离</p>
+                  <h3 className="font-bold text-sm text-stone-900 dark:text-zinc-100">安全退出系统</h3>
+                  <p className="text-[11px] text-stone-400 dark:text-zinc-500">学习档案云端同步与终端隔离</p>
                 </div>
               </div>
               <button
                 onClick={() => setShowLogoutModal(false)}
                 disabled={isLoggingOut}
-                className="text-zinc-400 hover:text-zinc-700 p-1 rounded-lg transition-colors"
+                className="text-stone-400 dark:text-zinc-500 hover:text-stone-700 dark:hover:text-zinc-300 p-1 rounded-lg transition-colors"
               >
                 <X className="w-4 h-4" />
               </button>
             </div>
 
-            <p className="text-xs text-zinc-600 leading-relaxed">
+            <p className="text-xs text-stone-600 dark:text-zinc-400 leading-relaxed">
               为保障考场环境与个人学习进度安全，退出时将清除本终端本地缓存。请选择退出方式：
             </p>
 
@@ -369,13 +405,13 @@ export default function Navbar() {
               <button
                 onClick={() => handleConfirmLogout(true)}
                 disabled={isLoggingOut}
-                className="w-full py-2.5 px-4 bg-zinc-900 hover:bg-zinc-800 text-white rounded-xl text-xs font-bold shadow-subtle flex items-center justify-center space-x-2 transition-all duration-150 active:scale-[0.98] disabled:opacity-50"
+                className="w-full py-2.5 px-4 bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] rounded-xl text-xs font-bold shadow-subtle flex items-center justify-center space-x-2 transition-all duration-150 active:scale-[0.98] disabled:opacity-50"
               >
                 {isLoggingOut ? (
                   <Loader2 className="w-4 h-4 animate-spin" />
                 ) : (
                   <>
-                    <CloudUpload className="w-4 h-4 text-zinc-300" />
+                    <CloudUpload className="w-4 h-4 text-emerald-100 dark:text-[#090a0f]" />
                     <span>同步档案至云端并退出</span>
                   </>
                 )}
@@ -384,16 +420,16 @@ export default function Navbar() {
               <button
                 onClick={() => handleConfirmLogout(false)}
                 disabled={isLoggingOut}
-                className="w-full py-2.5 px-4 bg-zinc-100 hover:bg-zinc-200/80 text-zinc-700 rounded-xl text-xs font-semibold flex items-center justify-center space-x-2 transition-all duration-150 disabled:opacity-50"
+                className="w-full py-2.5 px-4 bg-stone-100 dark:bg-zinc-800 hover:bg-stone-200/80 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 rounded-xl text-xs font-semibold flex items-center justify-center space-x-2 transition-all duration-150 disabled:opacity-50"
               >
-                <Trash2 className="w-3.5 h-3.5 text-zinc-400" />
+                <Trash2 className="w-3.5 h-3.5 text-stone-400 dark:text-zinc-500" />
                 <span>仅清除本地缓存退出</span>
               </button>
 
               <button
                 onClick={() => setShowLogoutModal(false)}
                 disabled={isLoggingOut}
-                className="w-full py-1.5 text-xs font-medium text-zinc-400 hover:text-zinc-700 text-center transition-colors"
+                className="w-full py-1.5 text-xs font-medium text-stone-400 dark:text-zinc-500 hover:text-stone-700 dark:hover:text-zinc-300 text-center transition-colors"
               >
                 取消返回
               </button>

@@ -203,24 +203,24 @@ function PracticeContent() {
   return (
     <div className="space-y-6 animate-in fade-in duration-200">
       {/* Top Header Bar */}
-      <div className="flex items-center justify-between bg-white/85 backdrop-blur-xl p-3.5 sm:p-4 rounded-2xl border border-black/[0.06] shadow-card">
+      <div className="flex items-center justify-between bg-white/85 dark:bg-[#11131a]/85 backdrop-blur-xl p-3.5 sm:p-4 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card transition-colors duration-300">
         <div className="flex items-center space-x-3">
           <Link
             href="/"
-            className="p-2 text-zinc-500 hover:text-zinc-900 hover:bg-zinc-100 rounded-xl transition-colors"
+            className="p-2 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800 rounded-xl transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />
           </Link>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-zinc-100 text-zinc-700 border border-black/[0.04] font-mono tracking-wide">
+              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-stone-100 dark:bg-zinc-800 text-stone-700 dark:text-cyber-300 border border-black/[0.04] dark:border-cyan-500/20 font-mono tracking-wide">
                 随做随练 · 真题精研
               </span>
-              <h2 className="text-sm sm:text-base font-bold text-zinc-900 line-clamp-1">
+              <h2 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100 line-clamp-1">
                 {exam?.title}
               </h2>
             </div>
-            <p className="text-[11px] text-zinc-400 mt-0.5 hidden sm:block">
+            <p className="text-[11px] text-stone-400 dark:text-zinc-500 mt-0.5 hidden sm:block">
               键选即时核对 · 双击生词即呼词典 · 错题自动归集智能错题本
             </p>
           </div>
@@ -228,11 +228,11 @@ function PracticeContent() {
 
         <div className="flex items-center space-x-2.5">
           {/* Keyboard shortcut reminder pill */}
-          <div className="hidden lg:flex items-center space-x-1.5 text-xs text-zinc-500 bg-zinc-50 border border-black/[0.05] px-2.5 py-1 rounded-lg font-mono">
-            <span className="text-zinc-700 font-bold text-[11px]">快捷键:</span>
-            <span className="bg-white px-1.5 py-0.5 rounded border border-black/[0.06] text-[11px] font-semibold text-zinc-800">[A/B/C/D]</span>
-            <span className="bg-white px-1.5 py-0.5 rounded border border-black/[0.06] text-[11px] font-semibold text-zinc-800">[←/→] 翻题</span>
-            <span className="bg-white px-1.5 py-0.5 rounded border border-black/[0.06] text-[11px] font-semibold text-zinc-800">[↑/↓] 滚文</span>
+          <div className="hidden lg:flex items-center space-x-1.5 text-xs text-stone-500 dark:text-zinc-400 bg-stone-50 dark:bg-zinc-900 border border-black/[0.05] dark:border-cyan-500/20 px-2.5 py-1 rounded-lg font-mono">
+            <span className="text-stone-700 dark:text-zinc-300 font-bold text-[11px]">快捷键:</span>
+            <span className="bg-white dark:bg-zinc-800 px-1.5 py-0.5 rounded border border-black/[0.06] dark:border-cyan-500/20 text-[11px] font-semibold text-stone-800 dark:text-zinc-200">[A/B/C/D]</span>
+            <span className="bg-white dark:bg-zinc-800 px-1.5 py-0.5 rounded border border-black/[0.06] dark:border-cyan-500/20 text-[11px] font-semibold text-stone-800 dark:text-zinc-200">[←/→] 翻题</span>
+            <span className="bg-white dark:bg-zinc-800 px-1.5 py-0.5 rounded border border-black/[0.06] dark:border-cyan-500/20 text-[11px] font-semibold text-stone-800 dark:text-zinc-200">[↑/↓] 滚文</span>
           </div>
 
           <button
@@ -240,15 +240,15 @@ function PracticeContent() {
             title="字号缩放"
             className={`px-2.5 py-1.5 rounded-lg border text-xs font-semibold flex items-center space-x-1 transition-all duration-150 active:scale-[0.98] ${
               largeFont 
-                ? "bg-zinc-900 text-white border-zinc-900 shadow-subtle" 
-                : "bg-white border-black/[0.06] text-zinc-600 hover:text-zinc-950 hover:bg-zinc-50 shadow-subtle"
+                ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] border-emerald-700 dark:border-cyber-400 shadow-subtle dark:shadow-glow-cyan" 
+                : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-600 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 shadow-subtle"
             }`}
           >
             <Type className="w-3.5 h-3.5" />
             <span>{largeFont ? "标准字号" : "大字号"}</span>
           </button>
 
-          <div className="text-xs font-bold text-zinc-800 bg-zinc-100 px-3 py-1.5 rounded-lg font-mono">
+          <div className="text-xs font-bold text-stone-800 dark:text-cyber-300 bg-stone-100 dark:bg-zinc-800 px-3 py-1.5 rounded-lg font-mono">
             {currentIndex + 1} / {questions.length} 题
           </div>
         </div>
@@ -260,15 +260,15 @@ function PracticeContent() {
         {relatedPassage && (
           <div 
             ref={passageContainerRef} 
-            className="lg:col-span-7 bg-white rounded-2xl border border-black/[0.06] p-7 sm:p-8 shadow-card overflow-y-auto max-h-[82vh] leading-relaxed select-text"
+            className="lg:col-span-7 bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-7 sm:p-8 shadow-card overflow-y-auto max-h-[82vh] leading-relaxed select-text transition-colors duration-300"
           >
-            <div className="flex items-center justify-between pb-3.5 mb-5 border-b border-zinc-100">
-              <span className="text-xs font-bold font-sans uppercase tracking-wider text-zinc-900">
+            <div className="flex items-center justify-between pb-3.5 mb-5 border-b border-stone-100 dark:border-zinc-800">
+              <span className="text-xs font-bold font-sans uppercase tracking-wider text-stone-900 dark:text-zinc-100">
                 {relatedPassage.title}
               </span>
-              <span className="text-[11px] text-zinc-400 font-sans">💡 双击文中单词即刻离线查词</span>
+              <span className="text-[11px] text-stone-400 dark:text-zinc-500 font-sans">💡 双击文中单词即刻离线查词</span>
             </div>
-            <div className={`text-zinc-800 font-serif selection:bg-indigo-100/70 whitespace-pre-line tracking-wide ${
+            <div className={`text-stone-800 dark:text-zinc-200 font-serif selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30 whitespace-pre-line tracking-wide ${
               largeFont ? "text-lg leading-[2.1]" : "text-[15px] sm:text-base leading-[1.85]"
             }`}>
               {relatedPassage.content}
@@ -278,13 +278,13 @@ function PracticeContent() {
 
         {/* Right Column: Question Card & Options */}
         <div className={`space-y-5 ${relatedPassage ? "lg:col-span-5" : ""}`}>
-          <div className="bg-white rounded-2xl border border-black/[0.06] p-6 sm:p-7 shadow-card space-y-5">
+          <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-6 sm:p-7 shadow-card space-y-5 transition-colors duration-300">
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-center space-x-2">
-                <span className="px-2.5 py-0.5 rounded-md text-xs font-bold bg-zinc-900 text-white font-mono">
+                <span className="px-2.5 py-0.5 rounded-md text-xs font-bold bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] font-mono shadow-subtle dark:shadow-glow-cyan">
                   题号 {currentIndex + 1}
                 </span>
-                <span className="text-xs text-zinc-400 font-medium">
+                <span className="text-xs text-stone-400 dark:text-zinc-500 font-medium">
                   {currentQ.q_type === "reading_item" ? "阅读小题" : currentQ.q_type === "cloze_item" ? "完形小题" : "客观题"} ({currentQ.points} 分)
                 </span>
               </div>
@@ -293,8 +293,8 @@ function PracticeContent() {
                 onClick={handleToggleFav}
                 className={`px-2.5 py-1 rounded-lg border text-xs font-medium flex items-center space-x-1.5 transition-all duration-150 ${
                   isFavorited 
-                    ? "bg-amber-50 border-amber-200 text-amber-700 font-semibold" 
-                    : "bg-white border-black/[0.06] text-zinc-400 hover:text-zinc-800 shadow-subtle"
+                    ? "bg-amber-50 dark:bg-amber-950/50 border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-300 font-semibold" 
+                    : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-400 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200 shadow-subtle"
                 }`}
               >
                 <Bookmark className={`w-3.5 h-3.5 ${isFavorited ? "fill-amber-400" : ""}`} />
@@ -302,7 +302,7 @@ function PracticeContent() {
               </button>
             </div>
 
-            <h3 className="text-base font-bold text-zinc-900 leading-relaxed">
+            <h3 className="text-base font-bold text-stone-900 dark:text-zinc-100 leading-relaxed">
               {currentQ.stem}
             </h3>
 
@@ -312,19 +312,19 @@ function PracticeContent() {
                 const isSelected = selectedAnswer === opt.key;
                 const isTheCorrectOne = opt.key === currentQ.correct_answer;
 
-                let btnStyle = "bg-zinc-50/70 border-black/[0.06] hover:bg-zinc-100/70 hover:border-black/[0.12] text-zinc-800 hover:-translate-y-[1px]";
-                let badgeStyle = "bg-white border-black/[0.08] text-zinc-700";
+                let btnStyle = "bg-stone-50/70 dark:bg-zinc-900/70 border-black/[0.06] dark:border-cyan-500/20 hover:bg-stone-100/70 dark:hover:bg-zinc-800/70 hover:border-emerald-600/30 dark:hover:border-cyan-400/40 text-stone-800 dark:text-zinc-200 hover:-translate-y-[1px]";
+                let badgeStyle = "bg-white dark:bg-zinc-800 border-black/[0.08] dark:border-cyan-500/25 text-stone-700 dark:text-zinc-300";
 
                 if (isAnswered) {
                   if (isTheCorrectOne) {
-                    btnStyle = "bg-emerald-50/80 border-emerald-300 text-emerald-950 font-semibold shadow-subtle ring-1 ring-emerald-300";
+                    btnStyle = "bg-emerald-50/80 dark:bg-emerald-950/40 border-emerald-300 dark:border-emerald-500/50 text-emerald-950 dark:text-emerald-200 font-semibold shadow-subtle ring-1 ring-emerald-300 dark:ring-emerald-500/50";
                     badgeStyle = "bg-emerald-600 text-white border-emerald-600";
                   } else if (isSelected && !isTheCorrectOne) {
-                    btnStyle = "bg-rose-50/80 border-rose-300 text-rose-950 font-semibold";
+                    btnStyle = "bg-rose-50/80 dark:bg-rose-950/40 border-rose-300 dark:border-rose-500/50 text-rose-950 dark:text-rose-200 font-semibold";
                     badgeStyle = "bg-rose-600 text-white border-rose-600";
                   } else {
-                    btnStyle = "bg-zinc-50/40 border-black/[0.03] text-zinc-400 opacity-60";
-                    badgeStyle = "bg-zinc-100 border-black/[0.04] text-zinc-400";
+                    btnStyle = "bg-stone-50/40 dark:bg-zinc-900/40 border-black/[0.03] dark:border-cyan-500/10 text-stone-400 dark:text-zinc-600 opacity-60";
+                    badgeStyle = "bg-stone-100 dark:bg-zinc-800 border-black/[0.04] dark:border-cyan-500/10 text-stone-400 dark:text-zinc-600";
                   }
                 }
 
@@ -340,15 +340,15 @@ function PracticeContent() {
                     </span>
                     <span className="text-xs sm:text-sm pt-0.5 leading-relaxed flex-1">{opt.text}</span>
                     {!isAnswered && (
-                      <span className="text-[10px] text-zinc-400 font-mono self-center hidden sm:inline">
+                      <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-mono self-center hidden sm:inline">
                         [{opt.key}]
                       </span>
                     )}
                     {isAnswered && isTheCorrectOne && (
-                      <CheckCircle2 className="w-4 h-4 text-emerald-600 ml-auto shrink-0" />
+                      <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400 ml-auto shrink-0" />
                     )}
                     {isAnswered && isSelected && !isTheCorrectOne && (
-                      <XCircle className="w-4 h-4 text-rose-500 ml-auto shrink-0" />
+                      <XCircle className="w-4 h-4 text-rose-500 dark:text-rose-400 ml-auto shrink-0" />
                     )}
                   </button>
                 );
@@ -357,19 +357,21 @@ function PracticeContent() {
 
             {/* Answer Result & Explanation Panel */}
             {isAnswered && (
-              <div className="pt-4 border-t border-zinc-100 animate-in fade-in duration-200 space-y-3.5">
+              <div className="pt-4 border-t border-stone-100 dark:border-zinc-800 animate-in fade-in duration-200 space-y-3.5">
                 <div className={`p-3.5 rounded-xl border flex items-center justify-between ${
-                  isCorrect ? "bg-emerald-50/70 border-emerald-200/80 text-emerald-950" : "bg-rose-50/70 border-rose-200/80 text-rose-950"
+                  isCorrect 
+                    ? "bg-emerald-50/70 dark:bg-emerald-950/40 border-emerald-200/80 dark:border-emerald-500/30 text-emerald-950 dark:text-emerald-200" 
+                    : "bg-rose-50/70 dark:bg-rose-950/40 border-rose-200/80 dark:border-rose-500/30 text-rose-950 dark:text-rose-200"
                 }`}>
                   <div className="flex items-center space-x-2">
                     {isCorrect ? (
                       <>
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                        <CheckCircle2 className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
                         <span className="font-bold text-xs">回答正确！加 {currentQ.points} 分</span>
                       </>
                     ) : (
                       <>
-                        <XCircle className="w-4 h-4 text-rose-600" />
+                        <XCircle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
                         <span className="font-bold text-xs">
                           回答错误 (正确答案: {currentQ.correct_answer}) · 已入错题本
                         </span>
@@ -378,18 +380,18 @@ function PracticeContent() {
                   </div>
                 </div>
 
-                <div className="p-4 rounded-xl bg-zinc-50/80 border border-black/[0.04]">
-                  <div className="flex items-center space-x-1.5 text-zinc-900 font-bold text-xs mb-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+                <div className="p-4 rounded-xl bg-stone-50/80 dark:bg-zinc-900/80 border border-black/[0.04] dark:border-cyan-500/20">
+                  <div className="flex items-center space-x-1.5 text-stone-900 dark:text-zinc-100 font-bold text-xs mb-1.5">
+                    <Sparkles className="w-3.5 h-3.5 text-emerald-600 dark:text-cyber-400" />
                     <span>考点精析与释义</span>
                   </div>
-                  <p className="text-xs text-zinc-600 leading-relaxed whitespace-pre-line">
+                  <p className="text-xs text-stone-600 dark:text-zinc-300 leading-relaxed whitespace-pre-line">
                     {currentQ.explanation}
                   </p>
                 </div>
 
-                <div className="p-3 bg-amber-50/40 rounded-xl border border-amber-200/60">
-                  <div className="flex items-center space-x-1.5 text-xs font-semibold text-amber-800 mb-1.5">
+                <div className="p-3 bg-amber-50/40 dark:bg-amber-950/20 rounded-xl border border-amber-200/60 dark:border-amber-500/20">
+                  <div className="flex items-center space-x-1.5 text-xs font-semibold text-amber-800 dark:text-amber-300 mb-1.5">
                     <Edit3 className="w-3.5 h-3.5" />
                     <span>个人做题笔记心得:</span>
                   </div>
@@ -398,7 +400,7 @@ function PracticeContent() {
                     defaultValue={editingNotes[currentQ.id] || ""}
                     onBlur={(e) => handleSaveNote(e.target.value)}
                     placeholder="在此输入个人做题笔记，失焦自动保存..."
-                    className="w-full text-xs bg-white border border-amber-200 rounded-lg px-3 py-1.5 text-zinc-800 focus:outline-none focus:ring-1 focus:ring-amber-500 shadow-subtle"
+                    className="w-full text-xs bg-white dark:bg-zinc-900 border border-amber-200 dark:border-amber-500/30 rounded-lg px-3 py-1.5 text-stone-800 dark:text-zinc-200 focus:outline-none focus:ring-1 focus:ring-amber-500 shadow-subtle"
                   />
                 </div>
               </div>
@@ -410,7 +412,7 @@ function PracticeContent() {
             <button
               onClick={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
               disabled={currentIndex === 0}
-              className="px-4 py-2 rounded-xl border border-black/[0.06] bg-white text-zinc-700 hover:text-zinc-950 hover:bg-zinc-50 disabled:opacity-40 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
+              className="px-4 py-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 disabled:opacity-40 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
             >
               <ChevronLeft className="w-3.5 h-3.5" />
               <span>上一题 (←)</span>
@@ -419,7 +421,7 @@ function PracticeContent() {
             <button
               onClick={() => setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1))}
               disabled={currentIndex === questions.length - 1}
-              className="px-5 py-2 rounded-xl bg-zinc-900 hover:bg-zinc-800 disabled:opacity-40 text-white text-xs font-bold shadow-subtle hover:shadow-card flex items-center space-x-1.5 transition-all active:scale-[0.98]"
+              className="px-5 py-2 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 disabled:opacity-40 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle hover:shadow-card dark:shadow-glow-cyan flex items-center space-x-1.5 transition-all active:scale-[0.98]"
             >
               <span>下一题 (→)</span>
               <ChevronRight className="w-3.5 h-3.5" />

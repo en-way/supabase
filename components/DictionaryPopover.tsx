@@ -248,7 +248,7 @@ export default function DictionaryPopover() {
         top: `${position.y}px`,
         zIndex: 9999,
       }}
-      className={`dictionary-popover-container w-[340px] bg-white/95 backdrop-blur-2xl rounded-2xl shadow-float border border-black/[0.08] p-4 text-zinc-900 select-none text-left no-print duration-200 ease-spring animate-in fade-in zoom-in-95 ${
+      className={`dictionary-popover-container w-[340px] bg-white/95 dark:bg-[#11131a]/95 backdrop-blur-2xl rounded-2xl shadow-float border border-black/[0.08] dark:border-cyan-500/25 p-4 text-stone-900 dark:text-zinc-100 select-none text-left no-print duration-200 ease-spring animate-in fade-in zoom-in-95 ${
         position.isAbove ? "slide-in-from-bottom-2" : "slide-in-from-top-2"
       }`}
     >
@@ -257,20 +257,20 @@ export default function DictionaryPopover() {
         style={{ left: `${position.arrowX}px` }}
         className={`absolute -translate-x-1/2 w-0 h-0 border-solid pointer-events-none ${
           position.isAbove
-            ? "bottom-[-7px] border-t-[7px] border-t-white border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-b-0 filter drop-shadow-[0_2px_1px_rgba(0,0,0,0.06)]"
-            : "top-[-7px] border-b-[7px] border-b-white border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-0 filter drop-shadow-[0_-1px_1px_rgba(0,0,0,0.06)]"
+            ? "bottom-[-7px] border-t-[7px] border-t-white dark:border-t-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-b-0 filter drop-shadow-[0_2px_1px_rgba(0,0,0,0.06)]"
+            : "top-[-7px] border-b-[7px] border-b-white dark:border-b-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-0 filter drop-shadow-[0_-1px_1px_rgba(0,0,0,0.06)]"
         }`}
       />
 
       {/* Header Bar */}
-      <div className="flex items-center justify-between gap-2 border-b border-zinc-100 pb-2.5">
+      <div className="flex items-center justify-between gap-2 border-b border-stone-100 dark:border-zinc-800 pb-2.5">
         <div className="flex items-center space-x-2 truncate">
-          <h4 className="text-base font-bold text-zinc-900 font-sans tracking-tight truncate">
+          <h4 className="text-base font-bold text-stone-900 dark:text-zinc-100 font-sans tracking-tight truncate">
             {selectedWord}
           </h4>
 
           {dictEntry?.phonetic && (
-            <span className="text-xs text-indigo-600 font-mono font-medium bg-indigo-50/80 px-1.5 py-0.5 rounded-md">
+            <span className="text-xs text-emerald-800 dark:text-cyber-300 font-mono font-medium bg-emerald-50/80 dark:bg-cyan-950/60 border border-emerald-200/60 dark:border-cyan-500/30 px-1.5 py-0.5 rounded-md">
               {dictEntry.phonetic}
             </span>
           )}
@@ -282,8 +282,8 @@ export default function DictionaryPopover() {
             onClick={() => handlePlayAudio("us")}
             className={`px-2 py-1 rounded-lg text-[11px] font-bold flex items-center space-x-1 transition-all duration-150 active:scale-[0.96] ${
               playingType === "us"
-                ? "bg-zinc-900 text-white shadow-subtle"
-                : "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100"
+                ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] shadow-subtle"
+                : "text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-cyber-300 hover:bg-stone-100 dark:hover:bg-zinc-800"
             }`}
             title="美音标准发音"
           >
@@ -300,8 +300,8 @@ export default function DictionaryPopover() {
             onClick={() => handlePlayAudio("uk")}
             className={`px-2 py-1 rounded-lg text-[11px] font-bold flex items-center space-x-1 transition-all duration-150 active:scale-[0.96] ${
               playingType === "uk"
-                ? "bg-zinc-900 text-white shadow-subtle"
-                : "text-zinc-600 hover:text-zinc-900 hover:bg-zinc-100"
+                ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] shadow-subtle"
+                : "text-stone-600 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-cyber-300 hover:bg-stone-100 dark:hover:bg-zinc-800"
             }`}
             title="英音标准发音"
           >
@@ -316,7 +316,7 @@ export default function DictionaryPopover() {
           {/* Close Button */}
           <button
             onClick={handleClose}
-            className="p-1 rounded-lg text-zinc-400 hover:text-zinc-700 hover:bg-zinc-100 transition-colors ml-1"
+            className="p-1 rounded-lg text-stone-400 dark:text-zinc-500 hover:text-stone-700 dark:hover:text-zinc-300 hover:bg-stone-100 dark:hover:bg-zinc-800 transition-colors ml-1"
             title="关闭窗口 (Esc)"
           >
             <X className="w-4 h-4" />
@@ -327,30 +327,30 @@ export default function DictionaryPopover() {
       {/* Body: Translation & Definition */}
       <div className="py-3 space-y-2 text-xs">
         {isLoading ? (
-          <div className="flex items-center space-x-2 text-zinc-400 py-2">
-            <Loader2 className="w-3.5 h-3.5 animate-spin text-zinc-800" />
+          <div className="flex items-center space-x-2 text-stone-400 dark:text-zinc-500 py-2">
+            <Loader2 className="w-3.5 h-3.5 animate-spin text-emerald-600 dark:text-cyber-400" />
             <span>从 Cloudflare 边缘极速载入中...</span>
           </div>
         ) : (
           <>
             <div className="flex items-start space-x-2">
               {dictEntry?.pos && (
-                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold font-mono bg-zinc-100 text-zinc-700 shrink-0 mt-0.5">
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold font-mono bg-stone-100 dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 shrink-0 mt-0.5">
                   {dictEntry.pos}
                 </span>
               )}
               {dictEntry?.baseWord && (
-                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold font-mono bg-amber-50 text-amber-700 border border-amber-200/80 shrink-0 mt-0.5">
+                <span className="px-1.5 py-0.5 rounded text-[10px] font-bold font-mono bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 border border-amber-200/80 dark:border-amber-500/30 shrink-0 mt-0.5">
                   原形: {dictEntry.baseWord}
                 </span>
               )}
-              <p className="text-zinc-800 font-semibold leading-relaxed flex-1 select-text">
+              <p className="text-stone-800 dark:text-zinc-200 font-semibold leading-relaxed flex-1 select-text">
                 {dictEntry?.definition || "在真题语境中出现"}
               </p>
             </div>
 
             {dictEntry?.enDefinition && (
-              <p className="text-[11px] text-zinc-500 italic leading-snug select-text line-clamp-2 pt-0.5 border-t border-zinc-100">
+              <p className="text-[11px] text-stone-500 dark:text-zinc-400 italic leading-snug select-text line-clamp-2 pt-0.5 border-t border-stone-100 dark:border-zinc-800">
                 &ldquo;{dictEntry.enDefinition}&rdquo;
               </p>
             )}
@@ -359,9 +359,9 @@ export default function DictionaryPopover() {
       </div>
 
       {/* Footer Action Bar */}
-      <div className="pt-2 border-t border-zinc-100 flex items-center justify-between text-[11px]">
-        <div className="flex items-center space-x-1 text-zinc-400">
-          <Sparkles className="w-3 h-3 text-emerald-500" />
+      <div className="pt-2 border-t border-stone-100 dark:border-zinc-800 flex items-center justify-between text-[11px]">
+        <div className="flex items-center space-x-1 text-stone-400 dark:text-zinc-500">
+          <Sparkles className="w-3 h-3 text-emerald-600 dark:text-cyber-400" />
           <span>Cloudflare 边缘极速词库</span>
         </div>
 
@@ -370,8 +370,8 @@ export default function DictionaryPopover() {
           disabled={isAdded}
           className={`px-3 py-1.5 rounded-xl font-bold flex items-center space-x-1 transition-all duration-150 active:scale-[0.98] ${
             isAdded
-              ? "bg-emerald-50 text-emerald-700 border border-emerald-200/80"
-              : "bg-zinc-900 hover:bg-zinc-800 text-white shadow-subtle"
+              ? "bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-500/30"
+              : "bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] shadow-subtle"
           }`}
         >
           {isAdded ? (

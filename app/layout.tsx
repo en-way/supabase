@@ -15,8 +15,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
-      <body className="min-h-screen bg-slate-50 text-slate-900 flex flex-col antialiased selection:bg-indigo-100 selection:text-indigo-900">
+    <html lang="zh-CN" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('enway_theme')||(window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');if(t==='dark'){document.documentElement.classList.add('dark');}else{document.documentElement.classList.remove('dark');}}catch(e){}})();`,
+          }}
+        />
+      </head>
+      <body className="min-h-screen bg-background text-foreground flex flex-col antialiased selection:bg-nature-200 selection:text-nature-900 dark:selection:bg-cyber-500/30 dark:selection:text-cyber-200">
         <AuthGuard>
           <Navbar />
           <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">

@@ -94,35 +94,35 @@ export default function AnnouncementBanner() {
     return null;
   }
 
-  // Theme styling based on level (modern muted palette with micro-borders)
+  // Theme styling based on level (modern muted palette in light, glowing cyber neon in dark)
   const themeStyles = {
     info: {
-      wrapper: "bg-blue-50/60 border-b border-blue-100/80 text-blue-900",
-      badge: "bg-blue-600 text-white",
-      icon: <Info className="w-3.5 h-3.5 text-blue-600 shrink-0" />,
-      btn: "bg-blue-600 hover:bg-blue-700 text-white shadow-subtle",
-      closeBtn: "text-blue-400 hover:text-blue-800 hover:bg-blue-100/60",
+      wrapper: "bg-blue-50/70 dark:bg-cyan-950/40 border-b border-blue-100/80 dark:border-cyan-500/20 text-blue-900 dark:text-cyan-200",
+      badge: "bg-blue-600 dark:bg-cyan-500 text-white dark:text-[#090a0f]",
+      icon: <Info className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-400 shrink-0" />,
+      btn: "bg-blue-600 hover:bg-blue-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-[#090a0f] shadow-subtle",
+      closeBtn: "text-blue-400 dark:text-cyan-400 hover:text-blue-800 dark:hover:text-cyan-200 hover:bg-blue-100/60 dark:hover:bg-cyan-900/40",
     },
     warning: {
-      wrapper: "bg-amber-50/60 border-b border-amber-100/80 text-amber-900",
-      badge: "bg-amber-600 text-white",
-      icon: <AlertTriangle className="w-3.5 h-3.5 text-amber-600 shrink-0" />,
-      btn: "bg-amber-600 hover:bg-amber-700 text-white shadow-subtle",
-      closeBtn: "text-amber-400 hover:text-amber-800 hover:bg-amber-100/60",
+      wrapper: "bg-amber-50/70 dark:bg-amber-950/40 border-b border-amber-100/80 dark:border-amber-500/20 text-amber-900 dark:text-amber-200",
+      badge: "bg-amber-600 dark:bg-amber-500 text-white dark:text-[#090a0f]",
+      icon: <AlertTriangle className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400 shrink-0" />,
+      btn: "bg-amber-600 hover:bg-amber-700 dark:bg-amber-500 dark:hover:bg-amber-400 text-white dark:text-[#090a0f] shadow-subtle",
+      closeBtn: "text-amber-400 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 hover:bg-amber-100/60 dark:hover:bg-amber-900/40",
     },
     alert: {
-      wrapper: "bg-rose-50/60 border-b border-rose-100/80 text-rose-900",
-      badge: "bg-rose-600 text-white",
-      icon: <AlertCircle className="w-3.5 h-3.5 text-rose-600 shrink-0" />,
-      btn: "bg-rose-600 hover:bg-rose-700 text-white shadow-subtle",
-      closeBtn: "text-rose-400 hover:text-rose-800 hover:bg-rose-100/60",
+      wrapper: "bg-rose-50/70 dark:bg-rose-950/40 border-b border-rose-100/80 dark:border-rose-500/20 text-rose-900 dark:text-rose-200",
+      badge: "bg-rose-600 dark:bg-rose-500 text-white dark:text-[#090a0f]",
+      icon: <AlertCircle className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400 shrink-0" />,
+      btn: "bg-rose-600 hover:bg-rose-700 dark:bg-rose-500 dark:hover:bg-rose-400 text-white dark:text-[#090a0f] shadow-subtle",
+      closeBtn: "text-rose-400 dark:text-rose-400 hover:text-rose-800 dark:hover:text-rose-200 hover:bg-rose-100/60 dark:hover:bg-rose-900/40",
     },
   }[announcement.type] || {
-    wrapper: "bg-blue-50/60 border-b border-blue-100/80 text-blue-900",
-    badge: "bg-blue-600 text-white",
-    icon: <Info className="w-3.5 h-3.5 text-blue-600 shrink-0" />,
-    btn: "bg-blue-600 hover:bg-blue-700 text-white shadow-subtle",
-    closeBtn: "text-blue-400 hover:text-blue-800 hover:bg-blue-100/60",
+    wrapper: "bg-blue-50/70 dark:bg-cyan-950/40 border-b border-blue-100/80 dark:border-cyan-500/20 text-blue-900 dark:text-cyan-200",
+    badge: "bg-blue-600 dark:bg-cyan-500 text-white dark:text-[#090a0f]",
+    icon: <Info className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-400 shrink-0" />,
+    btn: "bg-blue-600 hover:bg-blue-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-[#090a0f] shadow-subtle",
+    closeBtn: "text-blue-400 dark:text-cyan-400 hover:text-blue-800 dark:hover:text-cyan-200 hover:bg-blue-100/60 dark:hover:bg-cyan-900/40",
   };
 
   const isExternalLink = announcement.linkUrl?.startsWith("http");

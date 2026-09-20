@@ -3,8 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --background: #fafafa;
-  --foreground: #09090b;
+  /* Living Nature - 晨曦林间自然风 */
+  --background: #fafaf9;
+  --foreground: #1c1917;
+  --card: #ffffff;
+  --card-foreground: #1c1917;
+  --card-border: rgba(28, 25, 23, 0.08);
+  --primary: #059669;
+  --primary-foreground: #ffffff;
+  --accent-glow: rgba(16, 185, 129, 0.15);
+}
+
+.dark {
+  /* Cyber Void - 深空极光科幻风 */
+  --background: #090a0f;
+  --foreground: #f1f5f9;
+  --card: #11131a;
+  --card-foreground: #f8fafc;
+  --card-border: rgba(6, 182, 212, 0.18);
+  --primary: #06b6d4;
+  --primary-foreground: #090a0f;
+  --accent-glow: rgba(6, 182, 212, 0.22);
 }
 
 body {
@@ -14,9 +33,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Minimalist sleek scrollbar */
+/* Minimalist sleek scrollbar with dark mode cyber neon support */
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
@@ -25,11 +45,19 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.12);
+  background: rgba(28, 25, 23, 0.14);
   border-radius: 9999px;
+  transition: background-color 0.2s ease;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.22);
+  background: rgba(28, 25, 23, 0.25);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(6, 182, 212, 0.25);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 182, 212, 0.5);
 }
 
 /* Custom Print Media Styles for standard paper examination & mistake export */

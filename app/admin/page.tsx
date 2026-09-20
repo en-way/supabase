@@ -588,14 +588,14 @@ export default function AdminPage() {
       )}
 
       {/* Admin Header */}
-      <div className="bg-zinc-950 text-white p-6 sm:p-7 rounded-2xl border border-zinc-800/80 shadow-subtle flex flex-col lg:flex-row lg:items-center justify-between gap-5">
+      <div className="bg-zinc-950 text-white p-6 sm:p-7 rounded-2xl border border-zinc-800/80 dark:border-cyan-500/25 dark:shadow-glow-cyan shadow-subtle flex flex-col lg:flex-row lg:items-center justify-between gap-5 transition-all duration-300">
         <div className="flex items-center space-x-4">
-          <div className="w-11 h-11 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center font-bold">
-            <Shield className="w-5 h-5 text-zinc-300" />
+          <div className="w-11 h-11 rounded-xl bg-zinc-900 border border-zinc-800 dark:border-cyan-500/30 flex items-center justify-center font-bold">
+            <Shield className="w-5 h-5 text-emerald-400 dark:text-cyber-400" />
           </div>
           <div>
             <div className="flex items-center space-x-2">
-              <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700/60">
+              <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700/60 dark:border-cyan-500/30 dark:text-cyber-300">
                 {isSuperAdmin ? "👑 超级管理中心" : "🛡️ 普通管理员工作台"}
               </span>
             </div>
@@ -611,7 +611,7 @@ export default function AdminPage() {
         </div>
 
         {/* Tab Controls */}
-        <div className="flex flex-wrap items-center gap-1 p-1 bg-zinc-900/90 border border-zinc-800 rounded-xl">
+        <div className="flex flex-wrap items-center gap-1 p-1 bg-zinc-900/90 border border-zinc-800 dark:border-cyan-500/20 rounded-xl">
           <button
             onClick={() => setActiveTab("exams")}
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
