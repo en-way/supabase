@@ -1,0 +1,23 @@
+# Cloudflare Pages Custom Edge Response Headers
+
+# Immutable 26-Letter Dictionary Shards: 1 Year Edge & Client Cache
+/dict/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Static Exam Mirror Data: 1 Day Cache with 7 Days Stale While Revalidate
+/data/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+  Access-Control-Allow-Origin: *
+
+# Next.js Static Chunks and Fingerprinted Bundles
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Web Manifest & Favicon
+/favicon.ico
+  Cache-Control: public, max-age=86400
+
+/manifest.json
+  Cache-Control: public, max-age=86400

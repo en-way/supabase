@@ -13,6 +13,7 @@ import {
   normalizeOptions,
   ExamResult 
 } from "@/lib/storage";
+import { fetchExamDetailWithFallback } from "@/lib/examLoader";
 import confetti from "canvas-confetti";
 import { 
   ArrowLeft, 
@@ -61,21 +62,14 @@ function ExamContent() {
       }
       setLoading(true);
       try {
-        const { data: examData, error: examErr } = await supabase
-          .from("exams")
-          .select("*")
-          .eq("id", examId)
-          .single();
-        if (examErr) console.error("Error loading exam:", examErr);
-        setExam(examData || null);
+        const detail = await fetchExamDetailWithFallback(examId);
+        const examData = detail?.exam || null;
+        const passageData = detail?.passages || [];
+        const questionData = detail?.questions || [];
 
-        const { data: passageData, error: passageErr } = await supabase
-          .from("passages")
-          .select("*")
-          .eq("exam_id", examId)
-          .order("sort_order");
-        if (passageErr) console.error("Error loading passages:", passageErr);
-        if (passageData && passageData.length > 0) {
+        setExam(examData);
+
+        if (passageData.length > 0) {
           setPassages(passageData);
           setActivePassageId(passageData[0].id);
         } else {
@@ -83,13 +77,7 @@ function ExamContent() {
           setActivePassageId("");
         }
 
-        const { data: questionData, error: questionErr } = await supabase
-          .from("questions")
-          .select("*")
-          .eq("exam_id", examId)
-          .order("sort_order");
-        if (questionErr) console.error("Error loading questions:", questionErr);
-        setQuestions(questionData || []);
+        setQuestions(questionData);
 
         // Check draft for real-time exam protection
         const draft = getExamDraft(examId);

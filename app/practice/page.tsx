@@ -11,6 +11,7 @@ import {
   getLocalState,
   normalizeOptions 
 } from "@/lib/storage";
+import { fetchExamDetailWithFallback } from "@/lib/examLoader";
 import { 
   ArrowLeft, 
   CheckCircle2, 
@@ -48,29 +49,12 @@ function PracticeContent() {
       }
       setLoading(true);
       try {
-        const { data: examData, error: examErr } = await supabase
-          .from("exams")
-          .select("*")
-          .eq("id", examId)
-          .single();
-        if (examErr) console.error("Error loading exam:", examErr);
-        setExam(examData || null);
-
-        const { data: passageData, error: pErr } = await supabase
-          .from("passages")
-          .select("*")
-          .eq("exam_id", examId)
-          .order("sort_order");
-        if (pErr) console.error("Error loading passages:", pErr);
-        setPassages(passageData || []);
-
-        const { data: questionData, error: qErr } = await supabase
-          .from("questions")
-          .select("*")
-          .eq("exam_id", examId)
-          .order("sort_order");
-        if (qErr) console.error("Error loading questions:", qErr);
-        setQuestions(questionData || []);
+        const detail = await fetchExamDetailWithFallback(examId);
+        if (detail) {
+          setExam(detail.exam || null);
+          setPassages(detail.passages || []);
+          setQuestions(detail.questions || []);
+        }
 
         const state = getLocalState();
         const favs = Array.isArray(state?.favorites) ? state.favorites : [];

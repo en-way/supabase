@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cet4",
+    "name": "大学英语四级 (CET-4)",
+    "description": "全国大学英语四级考试真题与精选核心题库",
+    "sort_order": 1
+  },
+  {
+    "id": "cet6",
+    "name": "大学英语六级 (CET-6)",
+    "description": "全国大学英语六级考试高分冲刺真题库",
+    "sort_order": 2
+  },
+  {
+    "id": "ky1",
+    "name": "考研英语一 (KY-1)",
+    "description": "全国硕士研究生招生考试英语（一）历年真题精析",
+    "sort_order": 3
+  },
+  {
+    "id": "ky2",
+    "name": "考研英语二 (KY-2)",
+    "description": "全国专业硕士研究生招生考试英语（二）真题题库",
+    "sort_order": 4
+  }
+]

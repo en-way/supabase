@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { getLocalState, LocalLearningState } from "@/lib/storage";
+import { fetchExamLobbyData } from "@/lib/examLoader";
 import { 
   BookOpen, 
   Clock, 
@@ -48,34 +49,27 @@ export default function HomePage() {
     }
 
     try {
-      // Fetch categories
-      const { data: cats } = await supabase
-        .from("categories")
-        .select("*")
-        .order("sort_order");
-      if (cats) {
-        setCategories(cats);
-        try { sessionStorage.setItem("enway_cache_cats", JSON.stringify(cats)); } catch {}
-      }
-
-      // Fetch approved & published exams with question counts
-      const { data: examList } = await supabase
-        .from("exams")
-        .select(`
-          *,
-          questions(count),
-          passages(count)
-        `)
-        .eq("is_published", true)
-        .eq("approval_status", "approved")
-        .order("year", { ascending: false });
-
-      if (examList) {
-        setExams(examList);
-        try { 
-          sessionStorage.setItem("enway_cache_exams", JSON.stringify(examList));
-          sessionStorage.setItem("enway_cache_time", String(now));
-        } catch {}
+      if (!forceRefresh) {
+        const { categories: cats, exams: examList } = await fetchExamLobbyData();
+        if (cats && cats.length > 0) setCategories(cats);
+        if (examList && examList.length > 0) setExams(examList);
+      } else {
+        // Force refresh queries Supabase directly
+        const [catRes, examRes] = await Promise.all([
+          supabase.from("categories").select("*").order("sort_order"),
+          supabase
+            .from("exams")
+            .select(`
+              *,
+              questions(count),
+              passages(count)
+            `)
+            .eq("is_published", true)
+            .eq("approval_status", "approved")
+            .order("year", { ascending: false }),
+        ]);
+        if (catRes.data) setCategories(catRes.data);
+        if (examRes.data) setExams(examRes.data);
       }
     } catch (err) {
       console.error("Failed to load exams lobby:", err);
