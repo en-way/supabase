@@ -552,15 +552,15 @@ export default function AdminPage() {
 
   if (currentRole === "student") {
     return (
-      <div className="max-w-md mx-auto py-16 text-center bg-white rounded-2xl border border-black/[0.08] shadow-card p-8">
-        <div className="w-12 h-12 rounded-xl bg-rose-50 border border-rose-200/60 flex items-center justify-center mx-auto mb-3.5">
-          <Shield className="w-6 h-6 text-rose-600" />
+      <div className="max-w-md mx-auto py-16 text-center bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.08] dark:border-cyan-500/20 shadow-card p-8">
+        <div className="w-12 h-12 rounded-xl bg-rose-50 dark:bg-rose-500/10 border border-rose-200/60 dark:border-rose-500/20 flex items-center justify-center mx-auto mb-3.5">
+          <Shield className="w-6 h-6 text-rose-600 dark:text-rose-400" />
         </div>
-        <h2 className="text-base font-bold text-zinc-900 mb-1.5">访问受限</h2>
-        <p className="text-xs text-zinc-500 mb-6">
+        <h2 className="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1.5">访问受限</h2>
+        <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-6">
           当前账号不是管理员，无法访问管理控制台。
         </p>
-        <Link href="/" className="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 text-white rounded-xl text-xs font-medium transition-all shadow-sm">
+        <Link href="/" className="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 rounded-xl text-xs font-bold transition-all shadow-sm">
           返回试卷大厅
         </Link>
       </div>
@@ -615,7 +615,7 @@ export default function AdminPage() {
           <button
             onClick={() => setActiveTab("exams")}
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-              activeTab === "exams" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
+              activeTab === "exams" ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm" : "text-zinc-400 hover:text-zinc-200"
             }`}
           >
             真题试卷 ({exams.length})
@@ -625,7 +625,7 @@ export default function AdminPage() {
             <button
               onClick={() => setActiveTab("approvals")}
               className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all flex items-center space-x-1.5 ${
-                activeTab === "approvals" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
+                activeTab === "approvals" ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm" : "text-zinc-400 hover:text-zinc-200"
               }`}
             >
               <span>考务审批</span>
@@ -640,7 +640,7 @@ export default function AdminPage() {
           <button
             onClick={() => setActiveTab("import")}
             className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-              activeTab === "import" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
+              activeTab === "import" ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm" : "text-zinc-400 hover:text-zinc-200"
             }`}
           >
             结构化导入
@@ -651,7 +651,7 @@ export default function AdminPage() {
               <button
                 onClick={() => setActiveTab("users")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                  activeTab === "users" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
+                  activeTab === "users" ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm" : "text-zinc-400 hover:text-zinc-200"
                 }`}
               >
                 学员与考务 ({userList.length})
@@ -660,7 +660,7 @@ export default function AdminPage() {
               <button
                 onClick={() => setActiveTab("settings")}
                 className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
-                  activeTab === "settings" ? "bg-white text-zinc-900 shadow-sm" : "text-zinc-400 hover:text-zinc-200"
+                  activeTab === "settings" ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm" : "text-zinc-400 hover:text-zinc-200"
                 }`}
               >
                 考务配置与配额
@@ -676,20 +676,20 @@ export default function AdminPage() {
       {activeTab === "exams" && (
         <div className="space-y-4">
           <div className="flex items-center justify-between">
-            <h3 className="text-base font-bold text-slate-900">题库试卷总览</h3>
+            <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">题库试卷总览</h3>
             <button
               onClick={() => setActiveTab("import")}
-              className="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold flex items-center space-x-1.5 shadow-sm"
+              className="px-3.5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 text-xs font-bold flex items-center space-x-1.5 shadow-sm"
             >
               <Plus className="w-3.5 h-3.5" />
               <span>导入新试卷</span>
             </button>
           </div>
 
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-cyan-500/20 overflow-hidden shadow-sm">
             <div className="overflow-x-auto">
-              <table className="w-full text-left text-xs text-slate-700">
-                <thead className="bg-slate-50 border-b border-slate-200 text-slate-500 font-semibold">
+              <table className="w-full text-left text-xs text-slate-700 dark:text-zinc-300">
+                <thead className="bg-slate-50 dark:bg-zinc-900/80 border-b border-slate-200 dark:border-zinc-800 text-slate-500 dark:text-zinc-400 font-semibold">
                   <tr>
                     <th className="p-4">试卷标题</th>
                     <th className="p-4">科目</th>
@@ -700,44 +700,46 @@ export default function AdminPage() {
                     <th className="p-4 text-right">操作</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-100">
+                <tbody className="divide-y divide-slate-100 dark:divide-zinc-800">
                   {exams.map((e) => {
                     const isPendingUpload = e.approval_status === "pending_upload";
                     const isPendingDelete = e.approval_status === "pending_delete";
                     const isRejected = e.approval_status === "rejected";
 
                     return (
-                      <tr key={e.id} className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-4 font-bold text-slate-900 max-w-xs truncate">{e.title}</td>
-                        <td className="p-4 uppercase font-semibold text-indigo-600">{e.category_id}</td>
-                        <td className="p-4 text-slate-500">
+                      <tr key={e.id} className="hover:bg-slate-50/60 dark:hover:bg-zinc-800/40 transition-colors">
+                        <td className="p-4 font-bold text-slate-900 dark:text-zinc-100 max-w-xs truncate">{e.title}</td>
+                        <td className="p-4 uppercase font-semibold text-indigo-600 dark:text-cyan-400">{e.category_id}</td>
+                        <td className="p-4 text-slate-500 dark:text-zinc-400">
                           {e.passages?.[0]?.count || 0} 篇 / {e.questions?.[0]?.count || 0} 题
                         </td>
                         <td className="p-4">{e.total_score}分 / {e.pass_score}分</td>
                         <td className="p-4">
                           {isPendingUpload ? (
-                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-amber-100 text-amber-800 flex items-center w-fit space-x-1">
+                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-amber-100 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border border-transparent dark:border-amber-500/30 flex items-center w-fit space-x-1">
                               <Clock className="w-3 h-3" />
                               <span>待超管审批</span>
                             </span>
                           ) : isPendingDelete ? (
-                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-rose-100 text-rose-800 flex items-center w-fit space-x-1">
+                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-rose-100 dark:bg-rose-950/40 text-rose-800 dark:text-rose-300 border border-transparent dark:border-rose-500/30 flex items-center w-fit space-x-1">
                               <Trash2 className="w-3 h-3" />
                               <span>申请删除中</span>
                             </span>
                           ) : isRejected ? (
-                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-slate-100 text-slate-500">
+                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-zinc-400">
                               已驳回
                             </span>
                           ) : (
-                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-emerald-100 text-emerald-800">
+                            <span className="px-2 py-0.5 rounded-md font-bold text-[10px] bg-emerald-100 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border border-transparent dark:border-emerald-500/30">
                               已通过
                             </span>
                           )}
                         </td>
                         <td className="p-4">
                           <span className={`px-2 py-0.5 rounded-md font-bold text-[10px] ${
-                            e.is_published ? "bg-emerald-100 text-emerald-700" : "bg-slate-100 text-slate-500"
+                            e.is_published 
+                              ? "bg-emerald-100 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-transparent dark:border-emerald-500/30" 
+                              : "bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-zinc-400"
                           }`}>
                             {e.is_published ? "公开可见" : "隐藏未发布"}
                           </span>
@@ -747,7 +749,7 @@ export default function AdminPage() {
                             <button
                               onClick={() => handleTogglePublish(e)}
                               title={e.is_published ? "点击下架隐藏" : "点击上架公开"}
-                              className="p-1.5 text-slate-400 hover:text-indigo-600 rounded-lg"
+                              className="p-1.5 text-slate-400 dark:text-zinc-500 hover:text-indigo-600 dark:hover:text-cyan-400 rounded-lg transition-colors"
                             >
                               {e.is_published ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                             </button>
@@ -755,7 +757,7 @@ export default function AdminPage() {
                           <button
                             onClick={() => handleDeleteExam(e)}
                             title={isSuperAdmin ? "彻底物理删除" : "申请删除(需超管审批)"}
-                            className="p-1.5 text-slate-400 hover:text-rose-600 rounded-lg"
+                            className="p-1.5 text-slate-400 dark:text-zinc-500 hover:text-rose-600 dark:hover:text-rose-400 rounded-lg transition-colors"
                           >
                             <Trash2 className="w-4 h-4" />
                           </button>
@@ -777,14 +779,14 @@ export default function AdminPage() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-base font-bold text-slate-900">试卷待审批大厅</h3>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">试卷待审批大厅</h3>
+              <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
                 普通管理员提交的新试卷与删除申请，需在此由超级管理员核准
               </p>
             </div>
             <button
               onClick={loadPendingExams}
-              className="p-2 text-slate-500 hover:bg-slate-100 rounded-xl"
+              className="p-2 text-slate-500 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800 rounded-xl transition-colors"
               title="刷新待审列表"
             >
               <RefreshCw className="w-4 h-4" />
@@ -792,10 +794,10 @@ export default function AdminPage() {
           </div>
 
           {pendingExams.length === 0 ? (
-            <div className="text-center py-16 bg-white rounded-2xl border border-dashed border-slate-300">
+            <div className="text-center py-16 bg-white dark:bg-[#11131a] rounded-2xl border border-dashed border-slate-300 dark:border-zinc-800">
               <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto mb-3" />
-              <p className="text-slate-600 font-bold text-sm">当前暂无待审批的试卷申请</p>
-              <p className="text-xs text-slate-400 mt-1">普通管理员提交的上传或删除将会实时出现在这里</p>
+              <p className="text-slate-600 dark:text-zinc-300 font-bold text-sm">当前暂无待审批的试卷申请</p>
+              <p className="text-xs text-slate-400 dark:text-zinc-500 mt-1">普通管理员提交的上传或删除将会实时出现在这里</p>
             </div>
           ) : (
             <div className="grid gap-4">
@@ -804,24 +806,26 @@ export default function AdminPage() {
                 return (
                   <div
                     key={item.id}
-                    className="p-5 bg-white rounded-2xl border border-slate-200 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4"
+                    className="p-5 bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-cyan-500/20 shadow-sm flex flex-col sm:flex-row sm:items-center justify-between gap-4"
                   >
                     <div className="space-y-1.5">
                       <div className="flex items-center space-x-2">
                         <span className={`px-2.5 py-0.5 rounded-md text-[10px] font-bold ${
-                          isUpload ? "bg-amber-100 text-amber-800" : "bg-rose-100 text-rose-800"
+                          isUpload 
+                            ? "bg-amber-100 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border border-transparent dark:border-amber-500/30" 
+                            : "bg-rose-100 dark:bg-rose-950/40 text-rose-800 dark:text-rose-300 border border-transparent dark:border-rose-500/30"
                         }`}>
                           {isUpload ? "📤 新试卷上传待审" : "🗑️ 申请删除试卷待审"}
                         </span>
-                        <span className="text-xs font-mono font-bold text-indigo-600 uppercase">
+                        <span className="text-xs font-mono font-bold text-indigo-600 dark:text-cyan-400 uppercase">
                           {item.category_id}
                         </span>
-                        <span className="text-xs text-slate-400">
+                        <span className="text-xs text-slate-400 dark:text-zinc-500">
                           年份: {item.year}
                         </span>
                       </div>
-                      <h4 className="text-sm font-bold text-slate-900">{item.title}</h4>
-                      <p className="text-xs text-slate-500">
+                      <h4 className="text-sm font-bold text-slate-900 dark:text-zinc-100">{item.title}</h4>
+                      <p className="text-xs text-slate-500 dark:text-zinc-400">
                         篇章: {item.passages?.[0]?.count || 0} 篇 · 包含客观题: {item.questions?.[0]?.count || 0} 道 · 提交时间: {new Date(item.created_at).toLocaleString()}
                       </p>
                     </div>
@@ -831,14 +835,14 @@ export default function AdminPage() {
                         <>
                           <button
                             onClick={() => handleApprovalAction(item.id, "approve_upload")}
-                            className="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold flex items-center space-x-1.5 shadow-sm"
+                            className="px-3.5 py-2 bg-emerald-600 hover:bg-emerald-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 rounded-xl text-xs font-bold flex items-center space-x-1.5 shadow-sm transition-colors"
                           >
                             <Check className="w-3.5 h-3.5" />
                             <span>批准发布上架</span>
                           </button>
                           <button
                             onClick={() => handleApprovalAction(item.id, "reject_upload")}
-                            className="px-3.5 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold flex items-center space-x-1.5"
+                            className="px-3.5 py-2 bg-slate-100 hover:bg-slate-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition-colors"
                           >
                             <X className="w-3.5 h-3.5" />
                             <span>驳回上传</span>
@@ -848,14 +852,14 @@ export default function AdminPage() {
                         <>
                           <button
                             onClick={() => handleApprovalAction(item.id, "approve_delete")}
-                            className="px-3.5 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-xl text-xs font-bold flex items-center space-x-1.5 shadow-sm"
+                            className="px-3.5 py-2 bg-rose-600 hover:bg-rose-700 text-white rounded-xl text-xs font-bold flex items-center space-x-1.5 shadow-sm transition-colors"
                           >
                             <Trash2 className="w-3.5 h-3.5" />
                             <span>批准彻底删除</span>
                           </button>
                           <button
                             onClick={() => handleApprovalAction(item.id, "reject_delete")}
-                            className="px-3.5 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold flex items-center space-x-1.5"
+                            className="px-3.5 py-2 bg-slate-100 hover:bg-slate-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 rounded-xl text-xs font-semibold flex items-center space-x-1.5 transition-colors"
                           >
                             <X className="w-3.5 h-3.5" />
                             <span>驳回删除申请</span>
@@ -875,25 +879,25 @@ export default function AdminPage() {
       {/* Tab 3: Standard JSON Batch Import                                         */}
       {/* ========================================================================= */}
       {activeTab === "import" && (
-        <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+        <div className="bg-white dark:bg-[#11131a] rounded-3xl border border-slate-200 dark:border-cyan-500/20 p-6 sm:p-8 space-y-6 shadow-sm">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100 dark:border-zinc-800">
             <div>
-              <h3 className="text-base font-bold text-slate-900">标准 JSON 结构化整卷导入</h3>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">标准 JSON 结构化整卷导入</h3>
+              <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
                 一次性批量导入长篇阅读材料、完形填空、单选题干、选项与详细解析
               </p>
             </div>
             <button
               onClick={handleDownloadTemplate}
-              className="px-3.5 py-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 text-xs font-semibold flex items-center space-x-1.5"
+              className="px-3.5 py-2 rounded-xl border border-slate-200 dark:border-zinc-700 text-slate-700 dark:text-zinc-300 hover:bg-slate-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
             >
-              <Download className="w-3.5 h-3.5 text-slate-500" />
+              <Download className="w-3.5 h-3.5 text-slate-500 dark:text-zinc-400" />
               <span>下载标准 JSON 示例模版</span>
             </button>
           </div>
 
           <div>
-            <label className="block text-xs font-semibold text-slate-700 mb-2">
+            <label className="block text-xs font-semibold text-slate-700 dark:text-zinc-300 mb-2">
               在此粘贴整套试卷 JSON 内容:
             </label>
             <textarea
@@ -901,24 +905,24 @@ export default function AdminPage() {
               value={jsonText}
               onChange={(e) => setJsonText(e.target.value)}
               placeholder="请粘贴符合规范的标准 JSON 内容..."
-              className="w-full font-mono text-xs p-4 bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full font-mono text-xs p-4 bg-slate-50 dark:bg-[#090a0f] border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 placeholder:text-slate-400 dark:placeholder:text-zinc-600 rounded-2xl focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
             />
           </div>
 
           {importStatus && (
-            <div className="p-3 bg-slate-100 rounded-xl text-xs font-mono font-medium text-slate-800">
+            <div className="p-3 bg-slate-100 dark:bg-zinc-800/80 text-slate-800 dark:text-zinc-200 border border-transparent dark:border-zinc-700 rounded-xl text-xs font-mono font-medium">
               {importStatus}
             </div>
           )}
 
           <div className="flex justify-between items-center">
-            <span className="text-xs text-slate-400">
+            <span className="text-xs text-slate-400 dark:text-zinc-500">
               {isSuperAdmin ? "超级管理员导入将直接上架" : "普通管理员导入将自动提交超管审批"}
             </span>
             <button
               onClick={handleBatchImport}
               disabled={!jsonText.trim()}
-              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-40 text-white text-xs font-bold rounded-xl shadow-md shadow-indigo-200 flex items-center space-x-2 transition-all"
+              className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 disabled:opacity-40 text-white dark:text-zinc-950 text-xs font-bold rounded-xl shadow-md shadow-indigo-200 dark:shadow-none flex items-center space-x-2 transition-all"
             >
               <Upload className="w-4 h-4" />
               <span>开始整卷导入</span>
@@ -934,8 +938,8 @@ export default function AdminPage() {
         <div className="space-y-4">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
-              <h3 className="text-base font-bold text-slate-900">学员账号与权限管理</h3>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">学员账号与权限管理</h3>
+              <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
                 支持任命/降职普通管理员、重置单人密码及一键批量重置所有学员密码
               </p>
             </div>
@@ -950,10 +954,10 @@ export default function AdminPage() {
             </button>
           </div>
 
-          <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm">
+          <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-cyan-500/20 overflow-hidden shadow-sm">
             <div className="overflow-x-auto">
-              <table className="w-full text-left text-xs text-slate-700">
-                <thead className="bg-slate-50 border-b border-slate-200 text-slate-500 font-semibold">
+              <table className="w-full text-left text-xs text-slate-700 dark:text-zinc-300">
+                <thead className="bg-slate-50 dark:bg-zinc-900/80 border-b border-slate-200 dark:border-zinc-800 text-slate-500 dark:text-zinc-400 font-semibold">
                   <tr>
                     <th className="p-4">用户名 / 学号</th>
                     <th className="p-4">昵称</th>
@@ -963,53 +967,53 @@ export default function AdminPage() {
                     <th className="p-4 text-right">密码操作</th>
                   </tr>
                 </thead>
-                <tbody className="divide-y divide-slate-100">
+                <tbody className="divide-y divide-slate-100 dark:divide-zinc-800">
                   {userList.map((u) => {
                     const isSuper = u.role === "super_admin";
                     const isAdmin = u.role === "admin";
                     const isStudent = u.role === "student";
 
                     return (
-                      <tr key={u.id} className="hover:bg-slate-50/60 transition-colors">
-                        <td className="p-4 font-mono font-bold text-slate-900">{u.username}</td>
+                      <tr key={u.id} className="hover:bg-slate-50/60 dark:hover:bg-zinc-800/40 transition-colors">
+                        <td className="p-4 font-mono font-bold text-slate-900 dark:text-zinc-100">{u.username}</td>
                         <td className="p-4">{u.nickname || "--"}</td>
                         <td className="p-4">
                           {isSuper ? (
-                            <span className="px-2.5 py-1 rounded-full font-black text-[10px] bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-indigo-500/15 text-amber-900 border border-amber-300/80 inline-flex items-center space-x-1 shadow-xs">
-                              <Crown className="w-3 h-3 text-amber-600 fill-amber-400" />
+                            <span className="px-2.5 py-1 rounded-full font-black text-[10px] bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-indigo-500/15 text-amber-900 dark:text-amber-300 border border-amber-300/80 dark:border-amber-500/30 inline-flex items-center space-x-1 shadow-xs">
+                              <Crown className="w-3 h-3 text-amber-600 dark:text-amber-400 fill-amber-400" />
                               <span>👑 超级管理员 (全站独占)</span>
                             </span>
                           ) : isAdmin ? (
-                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-indigo-100 text-indigo-800">
+                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-indigo-100 dark:bg-cyan-500/20 text-indigo-800 dark:text-cyan-300 border border-transparent dark:border-cyan-500/30">
                               🛡️ 普通管理员
                             </span>
                           ) : (
-                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-slate-100 text-slate-600">
+                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-zinc-400">
                               🎓 学员
                             </span>
                           )}
                         </td>
-                        <td className="p-4 text-slate-400 font-mono">
+                        <td className="p-4 text-slate-400 dark:text-zinc-500 font-mono">
                           {new Date(u.created_at).toLocaleDateString()}
                         </td>
                         <td className="p-4 text-right">
                           {isSuper ? (
-                            <span className="text-[11px] text-slate-400 italic">全站独占最高席位</span>
+                            <span className="text-[11px] text-slate-400 dark:text-zinc-500 italic">全站独占最高席位</span>
                           ) : isAdmin ? (
                             <div className="flex items-center justify-end space-x-1.5">
                               {isSuperAdmin && (
                                 <button
                                   onClick={() => handleTransferSuperAdmin(u)}
-                                  className="px-2 py-1 text-amber-700 bg-amber-50 hover:bg-amber-100 border border-amber-200/80 rounded-lg text-xs font-bold inline-flex items-center space-x-1 transition-all"
+                                  className="px-2 py-1 text-amber-700 dark:text-amber-400 bg-amber-50 dark:bg-amber-950/30 hover:bg-amber-100 dark:hover:bg-amber-950/50 border border-amber-200/80 dark:border-amber-500/20 rounded-lg text-xs font-bold inline-flex items-center space-x-1 transition-all"
                                   title="将全站唯一的超级管理员所有权安全转让给该管理员"
                                 >
-                                  <ArrowRightLeft className="w-3 h-3 text-amber-600" />
+                                  <ArrowRightLeft className="w-3 h-3 text-amber-600 dark:text-amber-400" />
                                   <span>转让超管</span>
                                 </button>
                               )}
                               <button
                                 onClick={() => handleSetRole(u, "student")}
-                                className="px-2.5 py-1 text-rose-600 bg-rose-50 hover:bg-rose-100 rounded-lg text-xs font-semibold inline-flex items-center space-x-1"
+                                className="px-2.5 py-1 text-rose-600 dark:text-rose-400 bg-rose-50 dark:bg-rose-950/30 hover:bg-rose-100 dark:hover:bg-rose-950/50 border border-transparent dark:border-rose-500/20 rounded-lg text-xs font-semibold inline-flex items-center space-x-1 transition-colors"
                               >
                                 <UserX className="w-3 h-3" />
                                 <span>降为学员</span>
@@ -1018,7 +1022,7 @@ export default function AdminPage() {
                           ) : (
                             <button
                               onClick={() => handleSetRole(u, "admin")}
-                              className="px-2.5 py-1 text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-lg text-xs font-semibold inline-flex items-center space-x-1"
+                              className="px-2.5 py-1 text-indigo-600 dark:text-cyan-300 bg-indigo-50 dark:bg-cyan-500/10 hover:bg-indigo-100 dark:hover:bg-cyan-500/20 border border-transparent dark:border-cyan-500/20 rounded-lg text-xs font-semibold inline-flex items-center space-x-1 transition-colors"
                             >
                               <UserCheck className="w-3 h-3" />
                               <span>设为管理员</span>
@@ -1032,9 +1036,9 @@ export default function AdminPage() {
                               setNewPassword("");
                               setResetNotice("");
                             }}
-                            className="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-lg text-xs font-semibold inline-flex items-center space-x-1"
+                            className="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-200 rounded-lg text-xs font-semibold inline-flex items-center space-x-1 transition-colors"
                           >
-                            <KeyRound className="w-3 h-3 text-indigo-600" />
+                            <KeyRound className="w-3 h-3 text-indigo-600 dark:text-cyan-400" />
                             <span>改密</span>
                           </button>
                         </td>
@@ -1054,27 +1058,27 @@ export default function AdminPage() {
       {isSuperAdmin && activeTab === "settings" && (
         <div className="space-y-6 max-w-3xl">
           {/* Card 1: Sitewide Announcement */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
-            <div className="flex items-center justify-between border-b border-slate-100 pb-4">
+          <div className="bg-white dark:bg-[#11131a] rounded-3xl border border-slate-200 dark:border-cyan-500/20 p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="flex items-center justify-between border-b border-slate-100 dark:border-zinc-800 pb-4">
               <div className="flex items-center space-x-3">
-                <div className="w-10 h-10 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center font-bold shadow-xs">
+                <div className="w-10 h-10 rounded-2xl bg-indigo-50 dark:bg-cyan-500/10 text-indigo-600 dark:text-cyan-400 flex items-center justify-center font-bold shadow-xs">
                   <Megaphone className="w-5 h-5" />
                 </div>
                 <div>
-                  <h3 className="text-base font-bold text-slate-900">全站置顶公告管理</h3>
-                  <p className="text-xs text-slate-500 mt-0.5">
+                  <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">全站置顶公告管理</h3>
+                  <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
                     发布置顶全站横幅，关闭后自动收纳至导航栏小喇叭，零数据库写消耗
                   </p>
                 </div>
               </div>
 
-              <label className="flex items-center space-x-2 cursor-pointer bg-slate-50 px-3 py-1.5 rounded-xl border border-slate-200 hover:bg-slate-100 transition-colors">
-                <span className="text-xs font-bold text-slate-700">启用置顶</span>
+              <label className="flex items-center space-x-2 cursor-pointer bg-slate-50 dark:bg-zinc-900/80 px-3 py-1.5 rounded-xl border border-slate-200 dark:border-zinc-800 hover:bg-slate-100 dark:hover:bg-zinc-800 transition-colors">
+                <span className="text-xs font-bold text-slate-700 dark:text-zinc-300">启用置顶</span>
                 <input
                   type="checkbox"
                   checked={announcementSettings.enabled}
                   onChange={(e) => setAnnouncementSettings({ ...announcementSettings, enabled: e.target.checked })}
-                  className="w-4 h-4 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer"
+                  className="w-4 h-4 text-indigo-600 dark:text-cyan-500 rounded focus:ring-indigo-500 dark:focus:ring-cyan-500 cursor-pointer"
                 />
               </label>
             </div>
@@ -1082,18 +1086,18 @@ export default function AdminPage() {
             <div className="space-y-4">
               {/* Theme style selector */}
               <div>
-                <label className="block text-xs font-bold text-slate-800 mb-2">公告主题风格</label>
+                <label className="block text-xs font-bold text-slate-800 dark:text-zinc-200 mb-2">公告主题风格</label>
                 <div className="grid grid-cols-3 gap-3">
                   <button
                     type="button"
                     onClick={() => setAnnouncementSettings({ ...announcementSettings, type: "info" })}
                     className={`p-3 rounded-2xl border text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
                       announcementSettings.type === "info"
-                        ? "bg-blue-50 border-blue-500 text-blue-800 ring-2 ring-blue-400/20 shadow-xs"
-                        : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100"
+                        ? "bg-blue-50 dark:bg-blue-950/40 border-blue-500 dark:border-blue-500/50 text-blue-800 dark:text-blue-300 ring-2 ring-blue-400/20 shadow-xs"
+                        : "bg-slate-50 dark:bg-zinc-900/60 border-slate-200 dark:border-zinc-800 text-slate-600 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800"
                     }`}
                   >
-                    <Info className="w-4 h-4 text-blue-600" />
+                    <Info className="w-4 h-4 text-blue-600 dark:text-blue-400" />
                     <span>信息蓝 (日常通知)</span>
                   </button>
 
@@ -1102,11 +1106,11 @@ export default function AdminPage() {
                     onClick={() => setAnnouncementSettings({ ...announcementSettings, type: "warning" })}
                     className={`p-3 rounded-2xl border text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
                       announcementSettings.type === "warning"
-                        ? "bg-amber-50 border-amber-500 text-amber-800 ring-2 ring-amber-400/20 shadow-xs"
-                        : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100"
+                        ? "bg-amber-50 dark:bg-amber-950/40 border-amber-500 dark:border-amber-500/50 text-amber-800 dark:text-amber-300 ring-2 ring-amber-400/20 shadow-xs"
+                        : "bg-slate-50 dark:bg-zinc-900/60 border-slate-200 dark:border-zinc-800 text-slate-600 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800"
                     }`}
                   >
-                    <AlertTriangle className="w-4 h-4 text-amber-600" />
+                    <AlertTriangle className="w-4 h-4 text-amber-600 dark:text-amber-400" />
                     <span>警示黄 (维护/提醒)</span>
                   </button>
 
@@ -1115,11 +1119,11 @@ export default function AdminPage() {
                     onClick={() => setAnnouncementSettings({ ...announcementSettings, type: "alert" })}
                     className={`p-3 rounded-2xl border text-xs font-bold flex items-center justify-center space-x-2 transition-all ${
                       announcementSettings.type === "alert"
-                        ? "bg-rose-50 border-rose-500 text-rose-800 ring-2 ring-rose-400/20 shadow-xs"
-                        : "bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100"
+                        ? "bg-rose-50 dark:bg-rose-950/40 border-rose-500 dark:border-rose-500/50 text-rose-800 dark:text-rose-300 ring-2 ring-rose-400/20 shadow-xs"
+                        : "bg-slate-50 dark:bg-zinc-900/60 border-slate-200 dark:border-zinc-800 text-slate-600 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800"
                     }`}
                   >
-                    <AlertCircle className="w-4 h-4 text-rose-600" />
+                    <AlertCircle className="w-4 h-4 text-rose-600 dark:text-rose-400" />
                     <span>紧急红 (重大事项)</span>
                   </button>
                 </div>
@@ -1127,62 +1131,62 @@ export default function AdminPage() {
 
               {/* Textarea */}
               <div>
-                <label className="block text-xs font-bold text-slate-800 mb-1">公告正文文案</label>
+                <label className="block text-xs font-bold text-slate-800 dark:text-zinc-200 mb-1">公告正文文案</label>
                 <textarea
                   rows={3}
                   value={announcementSettings.text}
                   onChange={(e) => setAnnouncementSettings({ ...announcementSettings, text: e.target.value })}
                   placeholder="请输入面向全站考生的公告通知内容（例如：2024考研真题已更新，支持查词与左右键换题...）"
-                  className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-2xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full px-4 py-2.5 bg-slate-50 dark:bg-[#090a0f] border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 placeholder:text-slate-400 dark:placeholder:text-zinc-600 rounded-2xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
                 />
               </div>
 
               {/* Action Button & Link */}
               <div className="grid sm:grid-cols-2 gap-3">
                 <div>
-                  <label className="block text-xs font-bold text-slate-800 mb-1">附带跳转按钮文字 (可选)</label>
+                  <label className="block text-xs font-bold text-slate-800 dark:text-zinc-200 mb-1">附带跳转按钮文字 (可选)</label>
                   <input
                     type="text"
                     value={announcementSettings.linkText}
                     onChange={(e) => setAnnouncementSettings({ ...announcementSettings, linkText: e.target.value })}
                     placeholder="例如: 立即前往做题"
-                    className="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    className="w-full px-4 py-2 bg-slate-50 dark:bg-[#090a0f] border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 placeholder:text-slate-400 dark:placeholder:text-zinc-600 rounded-xl text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
                   />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-slate-800 mb-1">跳转目标路由或链接 (可选)</label>
+                  <label className="block text-xs font-bold text-slate-800 dark:text-zinc-200 mb-1">跳转目标路由或链接 (可选)</label>
                   <input
                     type="text"
                     value={announcementSettings.linkUrl}
                     onChange={(e) => setAnnouncementSettings({ ...announcementSettings, linkUrl: e.target.value })}
                     placeholder="例如: /practice?id=xxx 或 https://..."
-                    className="w-full px-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    className="w-full px-4 py-2 bg-slate-50 dark:bg-[#090a0f] border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 placeholder:text-slate-400 dark:placeholder:text-zinc-600 rounded-xl text-xs font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
                   />
                 </div>
               </div>
 
               {/* Live Preview */}
               <div>
-                <label className="block text-xs font-bold text-slate-400 mb-1.5">所见即所得前台实时预览</label>
+                <label className="block text-xs font-bold text-slate-400 dark:text-zinc-500 mb-1.5">所见即所得前台实时预览</label>
                 <div className={`p-3 rounded-2xl border flex items-center justify-between gap-3 text-xs ${
                   announcementSettings.type === "info"
-                    ? "bg-blue-50 border-blue-200 text-blue-950"
+                    ? "bg-blue-50 dark:bg-blue-950/40 border-blue-200 dark:border-blue-500/30 text-blue-950 dark:text-blue-200"
                     : announcementSettings.type === "warning"
-                    ? "bg-amber-50 border-amber-200 text-amber-950"
-                    : "bg-rose-50 border-rose-200 text-rose-950"
+                    ? "bg-amber-50 dark:bg-amber-950/40 border-amber-200 dark:border-amber-500/30 text-amber-950 dark:text-amber-200"
+                    : "bg-rose-50 dark:bg-rose-950/40 border-rose-200 dark:border-rose-500/30 text-rose-950 dark:text-rose-200"
                 }`}>
                   <div className="flex items-center space-x-2 flex-1 min-w-0">
-                    <Megaphone className="w-4 h-4 shrink-0 text-indigo-600" />
+                    <Megaphone className="w-4 h-4 shrink-0 text-indigo-600 dark:text-cyan-400" />
                     <span className="font-semibold truncate">
                       {announcementSettings.text || "公告内容将在此实时预览呈现..."}
                     </span>
                     {announcementSettings.linkText && (
-                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-900 text-white shrink-0">
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-slate-900 dark:bg-cyan-500 text-white dark:text-zinc-950 shrink-0">
                         {announcementSettings.linkText} →
                       </span>
                     )}
                   </div>
-                  <div className="text-slate-400 text-[10px] shrink-0 font-mono">
+                  <div className="text-slate-400 dark:text-zinc-500 text-[10px] shrink-0 font-mono">
                     {announcementSettings.enabled ? "● 开启展示" : "○ 未开启"}
                   </div>
                 </div>
@@ -1194,7 +1198,7 @@ export default function AdminPage() {
                   type="button"
                   onClick={handleClearAnnouncement}
                   disabled={isSavingAnnouncement || (!announcementSettings.text && !announcementSettings.enabled)}
-                  className="px-4 py-2.5 bg-rose-50 hover:bg-rose-100 disabled:opacity-40 disabled:cursor-not-allowed text-rose-700 border border-rose-200 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition-all"
+                  className="px-4 py-2.5 bg-rose-50 dark:bg-rose-950/30 hover:bg-rose-100 dark:hover:bg-rose-950/50 disabled:opacity-40 disabled:cursor-not-allowed text-rose-700 dark:text-rose-400 border border-rose-200 dark:border-rose-500/20 rounded-xl text-xs font-bold flex items-center space-x-1.5 transition-all"
                   title="一键清空文案并关闭全站公告"
                 >
                   <Trash2 className="w-4 h-4" />
@@ -1204,7 +1208,7 @@ export default function AdminPage() {
                 <button
                   onClick={handleSaveAnnouncement}
                   disabled={isSavingAnnouncement}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-200 flex items-center space-x-2 transition-all"
+                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 disabled:opacity-50 text-white dark:text-zinc-950 rounded-xl text-xs font-bold shadow-md shadow-indigo-200 dark:shadow-none flex items-center space-x-2 transition-all"
                 >
                   {isSavingAnnouncement ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
@@ -1218,17 +1222,17 @@ export default function AdminPage() {
           </div>
 
           {/* Card 2: System Registration Quota */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 space-y-6 shadow-sm">
+          <div className="bg-white dark:bg-[#11131a] rounded-3xl border border-slate-200 dark:border-cyan-500/20 p-6 sm:p-8 space-y-6 shadow-sm">
             <div>
-              <h3 className="text-base font-bold text-slate-900">系统运行与人数配额配置</h3>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">系统运行与人数配额配置</h3>
+              <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
                 控制全站注册学员人数上限与新用户注册准入开关
               </p>
             </div>
 
             <div className="space-y-5 pt-2">
               <div>
-                <label className="block text-xs font-bold text-slate-800 mb-1">
+                <label className="block text-xs font-bold text-slate-800 dark:text-zinc-200 mb-1">
                   全站学员人数上限 (人)
                 </label>
                 <input
@@ -1236,17 +1240,17 @@ export default function AdminPage() {
                   min={0}
                   value={settings.maxStudentsLimit}
                   onChange={(e) => setSettings({ ...settings, maxStudentsLimit: parseInt(e.target.value) || 0 })}
-                  className="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                  className="w-full px-4 py-2.5 bg-slate-50 dark:bg-[#090a0f] border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
                 />
-                <p className="text-[11px] text-slate-400 mt-1">
+                <p className="text-[11px] text-slate-400 dark:text-zinc-500 mt-1">
                   设置为 0 表示不设人数上限（无限注册）。当注册人数达到此数值时，新用户注册将被系统硬校验拦截。
                 </p>
               </div>
 
-              <div className="flex items-center justify-between p-4 bg-slate-50 rounded-2xl border border-slate-200">
+              <div className="flex items-center justify-between p-4 bg-slate-50 dark:bg-zinc-900/60 rounded-2xl border border-slate-200 dark:border-zinc-800">
                 <div>
-                  <h4 className="text-xs font-bold text-slate-900">开放学员注册通道</h4>
-                  <p className="text-[11px] text-slate-500 mt-0.5">
+                  <h4 className="text-xs font-bold text-slate-900 dark:text-zinc-100">开放学员注册通道</h4>
+                  <p className="text-[11px] text-slate-500 dark:text-zinc-400 mt-0.5">
                     若关闭，注册通道将被临时封锁，任何新用户均无法注册
                   </p>
                 </div>
@@ -1254,7 +1258,7 @@ export default function AdminPage() {
                   type="checkbox"
                   checked={settings.registrationEnabled}
                   onChange={(e) => setSettings({ ...settings, registrationEnabled: e.target.checked })}
-                  className="w-5 h-5 text-indigo-600 rounded focus:ring-indigo-500 cursor-pointer"
+                  className="w-5 h-5 text-indigo-600 dark:text-cyan-500 rounded focus:ring-indigo-500 dark:focus:ring-cyan-500 cursor-pointer"
                 />
               </div>
 
@@ -1262,7 +1266,7 @@ export default function AdminPage() {
                 <button
                   onClick={handleSaveSettings}
                   disabled={isSavingSettings}
-                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white rounded-xl text-xs font-bold shadow-md shadow-indigo-200 flex items-center space-x-2"
+                  className="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 disabled:opacity-50 text-white dark:text-zinc-950 rounded-xl text-xs font-bold shadow-md shadow-indigo-200 dark:shadow-none flex items-center space-x-2 transition-colors"
                 >
                   {isSavingSettings ? (
                     <Loader2 className="w-4 h-4 animate-spin" />
@@ -1281,18 +1285,18 @@ export default function AdminPage() {
       {/* ========================================================================= */}
       {resetTargetUser && (
         <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl max-w-sm w-full p-6 shadow-2xl space-y-4 animate-in fade-in zoom-in-95 duration-150">
-            <div className="flex items-center space-x-2 text-indigo-600">
+          <div className="bg-white dark:bg-[#11131a] rounded-2xl max-w-sm w-full p-6 shadow-2xl border border-transparent dark:border-cyan-500/25 space-y-4 animate-in fade-in zoom-in-95 duration-150">
+            <div className="flex items-center space-x-2 text-indigo-600 dark:text-cyan-400">
               <KeyRound className="w-5 h-5" />
-              <h3 className="font-bold text-slate-900 text-base">重置密码</h3>
+              <h3 className="font-bold text-slate-900 dark:text-zinc-100 text-base">重置密码</h3>
             </div>
 
-            <p className="text-xs text-slate-500">
-              正在为用户 <strong className="text-slate-800">{resetTargetUser.username}</strong> ({resetTargetUser.nickname}) 设置新密码。
+            <p className="text-xs text-slate-500 dark:text-zinc-400">
+              正在为用户 <strong className="text-slate-800 dark:text-zinc-200">{resetTargetUser.username}</strong> ({resetTargetUser.nickname}) 设置新密码。
             </p>
 
             <div>
-              <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+              <label className="block text-xs font-semibold text-slate-700 dark:text-zinc-300 mb-1.5">
                 新密码 (至少 6 位)
               </label>
               <input
@@ -1300,12 +1304,12 @@ export default function AdminPage() {
                 value={newPassword}
                 onChange={(e) => setNewPassword(e.target.value)}
                 placeholder="输入新密码..."
-                className="w-full px-3 py-2 border border-slate-200 rounded-xl text-xs font-mono focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="w-full px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-600 rounded-xl text-xs font-mono focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
               />
             </div>
 
             {resetNotice && (
-              <div className="text-xs font-bold text-indigo-700 bg-indigo-50 p-2 rounded-lg">
+              <div className="text-xs font-bold text-indigo-700 dark:text-cyan-300 bg-indigo-50 dark:bg-cyan-500/10 p-2 rounded-lg border border-transparent dark:border-cyan-500/20">
                 {resetNotice}
               </div>
             )}
@@ -1314,7 +1318,7 @@ export default function AdminPage() {
               <button
                 type="button"
                 onClick={() => setResetTargetUser(null)}
-                className="px-3 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-xl"
+                className="px-3 py-2 text-xs font-semibold text-slate-600 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800 rounded-xl transition-colors"
               >
                 取消
               </button>
@@ -1322,7 +1326,7 @@ export default function AdminPage() {
                 type="button"
                 onClick={handleExecuteResetPassword}
                 disabled={newPassword.length < 6}
-                className="px-4 py-2 text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 disabled:opacity-40 text-white rounded-xl shadow-sm"
+                className="px-4 py-2 text-xs font-semibold bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 disabled:opacity-40 text-white dark:text-zinc-950 font-bold rounded-xl shadow-sm transition-colors"
               >
                 确认重置
               </button>
@@ -1336,23 +1340,23 @@ export default function AdminPage() {
       {/* ========================================================================= */}
       {showBatchResetModal && (
         <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white rounded-3xl max-w-md w-full p-6 shadow-2xl border border-slate-200 space-y-4 animate-in fade-in zoom-in-95 duration-150">
-            <div className="flex items-center space-x-2.5 text-rose-600">
-              <div className="p-2 bg-rose-50 rounded-xl">
+          <div className="bg-white dark:bg-[#11131a] rounded-3xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-cyan-500/25 space-y-4 animate-in fade-in zoom-in-95 duration-150">
+            <div className="flex items-center space-x-2.5 text-rose-600 dark:text-rose-400">
+              <div className="p-2 bg-rose-50 dark:bg-rose-950/30 rounded-xl border border-transparent dark:border-rose-500/20">
                 <KeyRound className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="font-bold text-slate-900 text-base">一键重置全员学员密码</h3>
-                <p className="text-[11px] text-slate-400">超级管理员专享全局操作</p>
+                <h3 className="font-bold text-slate-900 dark:text-zinc-100 text-base">一键重置全员学员密码</h3>
+                <p className="text-[11px] text-slate-400 dark:text-zinc-500">超级管理员专享全局操作</p>
               </div>
             </div>
 
-            <div className="p-3 bg-amber-50 border border-amber-200 rounded-2xl text-xs text-amber-800 leading-relaxed">
+            <div className="p-3 bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-500/30 rounded-2xl text-xs text-amber-800 dark:text-amber-300 leading-relaxed">
               ⚠️ <strong>注意</strong>：该操作将把全站<strong>所有普通学员 (student)</strong> 的登录密码一次性重置为下方设置的统一初始密码。管理员密码不受影响。
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-1.5">
+              <label className="block text-xs font-bold text-slate-700 dark:text-zinc-300 mb-1.5">
                 统一默认密码 (至少 6 位)
               </label>
               <input
@@ -1360,7 +1364,7 @@ export default function AdminPage() {
                 value={batchDefaultPassword}
                 onChange={(e) => setBatchDefaultPassword(e.target.value)}
                 placeholder="例如 123456"
-                className="w-full px-3.5 py-2.5 border border-slate-200 rounded-xl text-xs font-mono font-bold focus:outline-none focus:ring-2 focus:ring-rose-500"
+                className="w-full px-3.5 py-2.5 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 dark:placeholder:text-zinc-600 rounded-xl text-xs font-mono font-bold focus:outline-none focus:ring-2 focus:ring-rose-500"
               />
             </div>
 
@@ -1369,7 +1373,7 @@ export default function AdminPage() {
                 type="button"
                 onClick={() => setShowBatchResetModal(false)}
                 disabled={isBatchResetting}
-                className="px-4 py-2.5 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-xl"
+                className="px-4 py-2.5 text-xs font-semibold text-slate-600 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800 rounded-xl transition-colors"
               >
                 取消
               </button>
@@ -1377,7 +1381,7 @@ export default function AdminPage() {
                 type="button"
                 onClick={handleBatchResetPasswords}
                 disabled={isBatchResetting || batchDefaultPassword.length < 6}
-                className="px-5 py-2.5 text-xs font-bold bg-rose-600 hover:bg-rose-700 disabled:opacity-40 text-white rounded-xl shadow-sm flex items-center space-x-2"
+                className="px-5 py-2.5 text-xs font-bold bg-rose-600 hover:bg-rose-700 disabled:opacity-40 text-white rounded-xl shadow-sm flex items-center space-x-2 transition-colors"
               >
                 {isBatchResetting ? (
                   <Loader2 className="w-4 h-4 animate-spin" />

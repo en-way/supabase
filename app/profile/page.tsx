@@ -165,21 +165,21 @@ export default function ProfilePage() {
       )}
 
       {/* User Info Card */}
-      <div className="bg-white p-6 sm:p-7 rounded-2xl border border-black/[0.06] shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+      <div className="bg-white dark:bg-[#11131a] p-6 sm:p-7 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card flex flex-col sm:flex-row sm:items-center justify-between gap-4 transition-colors duration-300">
         <div className="flex items-center space-x-4">
-          <div className="w-14 h-14 rounded-2xl bg-zinc-900 text-white flex items-center justify-center text-xl font-bold shadow-subtle">
+          <div className="w-14 h-14 rounded-2xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] flex items-center justify-center text-xl font-bold shadow-subtle dark:shadow-glow-cyan">
             {profile?.nickname?.[0] || profile?.username?.[0] || "U"}
           </div>
           <div>
             <div className="flex items-center space-x-2">
               {!isEditingNick ? (
                 <>
-                  <h2 className="text-lg font-bold text-zinc-900">
+                  <h2 className="text-lg font-bold text-stone-900 dark:text-zinc-100">
                     {profile?.nickname || profile?.username}
                   </h2>
                   <button
                     onClick={() => setIsEditingNick(true)}
-                    className="text-zinc-400 hover:text-zinc-700 p-1 rounded-md transition-colors"
+                    className="text-stone-400 dark:text-zinc-500 hover:text-stone-700 dark:hover:text-zinc-300 p-1 rounded-md transition-colors"
                     title="修改昵称"
                   >
                     <Edit2 className="w-3.5 h-3.5" />
@@ -191,17 +191,17 @@ export default function ProfilePage() {
                     type="text"
                     value={nicknameInput}
                     onChange={(e) => setNicknameInput(e.target.value)}
-                    className="text-xs font-bold border border-zinc-300 rounded-lg px-2.5 py-1 text-zinc-900 focus:outline-none focus:ring-1 focus:ring-zinc-900"
+                    className="text-xs font-bold border border-stone-300 dark:border-zinc-700 bg-white dark:bg-zinc-900 rounded-lg px-2.5 py-1 text-stone-900 dark:text-zinc-100 focus:outline-none focus:ring-1 focus:ring-emerald-600 dark:focus:ring-cyan-500"
                   />
                   <button
                     onClick={handleUpdateNickname}
-                    className="p-1.5 bg-zinc-900 text-white rounded-lg text-xs"
+                    className="p-1.5 bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] rounded-lg text-xs"
                   >
                     <Save className="w-3.5 h-3.5" />
                   </button>
                   <button
                     onClick={() => setIsEditingNick(false)}
-                    className="p-1.5 bg-zinc-100 text-zinc-600 rounded-lg text-xs"
+                    className="p-1.5 bg-stone-100 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400 rounded-lg text-xs"
                   >
                     取消
                   </button>
@@ -210,15 +210,15 @@ export default function ProfilePage() {
             </div>
 
             <div className="flex items-center space-x-2 mt-1">
-              <span className="text-xs text-zinc-500 font-mono">
-                账号/学号: <strong className="text-zinc-800">{profile?.username}</strong>
+              <span className="text-xs text-stone-500 dark:text-zinc-400 font-mono">
+                账号/学号: <strong className="text-stone-800 dark:text-zinc-200">{profile?.username}</strong>
               </span>
               <span className={`px-2 py-0.5 rounded-md text-[10px] font-bold font-mono ${
                 profile?.role === "super_admin" 
-                  ? "bg-purple-50 text-purple-700 border border-purple-200" 
+                  ? "bg-purple-50 dark:bg-purple-950/50 text-purple-700 dark:text-purple-300 border border-purple-200 dark:border-purple-500/30" 
                   : profile?.role === "admin"
-                  ? "bg-zinc-100 text-zinc-800 border border-zinc-200"
-                  : "bg-zinc-100 text-zinc-600 border border-zinc-200"
+                  ? "bg-stone-100 dark:bg-zinc-800 text-stone-800 dark:text-zinc-200 border border-stone-200 dark:border-zinc-700"
+                  : "bg-stone-100 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400 border border-stone-200 dark:border-zinc-700"
               }`}>
                 {profile?.role === "super_admin" 
                   ? "👑 超管" 
@@ -230,77 +230,77 @@ export default function ProfilePage() {
           </div>
         </div>
 
-        <div className="text-xs text-zinc-400 font-mono">
+        <div className="text-xs text-stone-400 dark:text-zinc-500 font-mono">
           注册时间: {profile ? new Date(profile.created_at).toLocaleDateString() : "--"}
         </div>
       </div>
 
       {/* Local Data Stats (4 Minimalist Stat Cards) */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
-          <span className="text-xs text-zinc-400 block font-medium">待复习错题</span>
-          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
+        <div className="bg-white dark:bg-[#11131a] p-5 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card text-center transition-colors duration-300">
+          <span className="text-xs text-stone-400 dark:text-zinc-500 block font-medium">待复习错题</span>
+          <span className="text-2xl font-bold text-stone-900 dark:text-cyber-300 mt-1 block">
             {localState?.mistakes.filter(m => !m.isMastered).length || 0}
           </span>
-          <span className="text-[10px] text-zinc-400">已攻克: {localState?.mistakes.filter(m => m.isMastered).length || 0} 道</span>
+          <span className="text-[10px] text-stone-400 dark:text-zinc-500">已攻克: {localState?.mistakes.filter(m => m.isMastered).length || 0} 道</span>
         </div>
-        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
-          <span className="text-xs text-zinc-400 block font-medium">已存生词</span>
-          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
+        <div className="bg-white dark:bg-[#11131a] p-5 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card text-center transition-colors duration-300">
+          <span className="text-xs text-stone-400 dark:text-zinc-500 block font-medium">已存生词</span>
+          <span className="text-2xl font-bold text-stone-900 dark:text-cyber-300 mt-1 block">
             {localState?.vocabulary.length || 0}
           </span>
-          <span className="text-[10px] text-zinc-400">真题阅读双击收录</span>
+          <span className="text-[10px] text-stone-400 dark:text-zinc-500">真题阅读双击收录</span>
         </div>
-        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
-          <span className="text-xs text-zinc-400 block font-medium">收藏题目</span>
-          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
+        <div className="bg-white dark:bg-[#11131a] p-5 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card text-center transition-colors duration-300">
+          <span className="text-xs text-stone-400 dark:text-zinc-500 block font-medium">收藏题目</span>
+          <span className="text-2xl font-bold text-stone-900 dark:text-cyber-300 mt-1 block">
             {localState?.favorites.length || 0}
           </span>
-          <span className="text-[10px] text-zinc-400">含专属做题心得</span>
+          <span className="text-[10px] text-stone-400 dark:text-zinc-500">含专属做题心得</span>
         </div>
-        <div className="bg-white p-5 rounded-2xl border border-black/[0.06] shadow-card text-center">
-          <span className="text-xs text-zinc-400 block font-medium">已测模考</span>
-          <span className="text-2xl font-bold text-zinc-900 mt-1 block">
+        <div className="bg-white dark:bg-[#11131a] p-5 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card text-center transition-colors duration-300">
+          <span className="text-xs text-stone-400 dark:text-zinc-500 block font-medium">已测模考</span>
+          <span className="text-2xl font-bold text-stone-900 dark:text-cyber-300 mt-1 block">
             {Object.keys(localState?.examResults || {}).length}
           </span>
-          <span className="text-[10px] text-zinc-400">百分制自动核算</span>
+          <span className="text-[10px] text-stone-400 dark:text-zinc-500">百分制自动核算</span>
         </div>
       </div>
 
       {/* Cloud Backup & Local-First Data Sovereignty Panel */}
-      <div className="bg-white rounded-2xl border border-black/[0.06] p-6 sm:p-8 shadow-card space-y-6">
-        <div className="flex items-center space-x-3 pb-4 border-b border-zinc-100">
-          <div className="w-10 h-10 rounded-xl bg-zinc-100 text-zinc-800 flex items-center justify-center font-bold">
+      <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-6 sm:p-8 shadow-card space-y-6 transition-colors duration-300">
+        <div className="flex items-center space-x-3 pb-4 border-b border-stone-100 dark:border-zinc-800">
+          <div className="w-10 h-10 rounded-xl bg-stone-100 dark:bg-zinc-800 text-stone-800 dark:text-cyber-400 flex items-center justify-center font-bold">
             <Database className="w-5 h-5" />
           </div>
           <div>
-            <h3 className="text-base font-bold text-zinc-900">
+            <h3 className="text-base font-bold text-stone-900 dark:text-zinc-100">
               学员研习档案与多端同步中心
             </h3>
-            <p className="text-xs text-zinc-400 mt-0.5">
+            <p className="text-xs text-stone-400 dark:text-zinc-500 mt-0.5">
               研习数据本机即时留存 · 一键加密归档至专属云端档案空间 · 跨设备随心续学
             </p>
           </div>
         </div>
 
         {/* Cloud Status Snapshot */}
-        <div className="p-4 rounded-xl bg-zinc-50/80 border border-black/[0.04] flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="p-4 rounded-xl bg-stone-50/80 dark:bg-zinc-900/80 border border-black/[0.04] dark:border-cyan-500/20 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div className="space-y-1">
             <div className="flex items-center space-x-2">
-              <span className="text-xs font-bold text-zinc-900">云端研习档案状态:</span>
+              <span className="text-xs font-bold text-stone-900 dark:text-zinc-100">云端研习档案状态:</span>
               <span className={`px-2 py-0.5 rounded-md text-[10px] font-bold ${
-                cloudInfo?.exists ? "bg-emerald-50 text-emerald-700 border border-emerald-200/80" : "bg-zinc-200 text-zinc-600"
+                cloudInfo?.exists ? "bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-500/30" : "bg-stone-200 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400"
               }`}>
                 {cloudInfo?.exists ? "云端已有最新档案" : "尚未创建云端归档"}
               </span>
             </div>
             {cloudInfo?.exists ? (
-              <p className="text-xs text-zinc-600">
+              <p className="text-xs text-stone-600 dark:text-zinc-400">
                 上次归档: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
                 已归纳 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
               </p>
             ) : (
-              <p className="text-xs text-zinc-400">
+              <p className="text-xs text-stone-400 dark:text-zinc-500">
                 建议阶段性点击“备份到云端”，研习进度将安全存入专属加密档案空间。
               </p>
             )}
@@ -310,45 +310,45 @@ export default function ProfilePage() {
             <button
               onClick={handleUploadBackup}
               disabled={uploading}
-              className="px-3.5 py-1.5 rounded-xl bg-zinc-900 hover:bg-zinc-800 text-white text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-50"
+              className="px-3.5 py-1.5 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle dark:shadow-glow-cyan flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-50"
             >
-              <CloudUpload className="w-3.5 h-3.5 text-zinc-300" />
+              <CloudUpload className="w-3.5 h-3.5 text-emerald-100 dark:text-[#090a0f]" />
               <span>{uploading ? "正在归档..." : "备份到云端"}</span>
             </button>
 
             <button
               onClick={handleDownloadBackup}
               disabled={downloading || !cloudInfo?.exists}
-              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] bg-white hover:bg-zinc-50 text-zinc-700 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
+              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
             >
-              <CloudDownload className="w-3.5 h-3.5 text-zinc-500" />
+              <CloudDownload className="w-3.5 h-3.5 text-stone-500 dark:text-zinc-400" />
               <span>{downloading ? "正在恢复..." : "从云端恢复"}</span>
             </button>
 
             <button
               onClick={handleReconcile}
               disabled={reconciling}
-              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] bg-white hover:bg-zinc-50 text-zinc-700 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
+              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
               title="比对题库删改，自动清理下架试题并自愈答案"
             >
-              <RotateCcw className={`w-3.5 h-3.5 text-zinc-500 ${reconciling ? "animate-spin" : ""}`} />
+              <RotateCcw className={`w-3.5 h-3.5 text-stone-500 dark:text-zinc-400 ${reconciling ? "animate-spin" : ""}`} />
               <span>{reconciling ? "校对中..." : "校对云端题库"}</span>
             </button>
           </div>
         </div>
 
         {/* Clear Local Data Section */}
-        <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
+        <div className="pt-4 border-t border-stone-100 dark:border-zinc-800 flex items-center justify-between">
           <div>
-            <span className="text-xs font-bold text-slate-800 block">清除本机临时缓存</span>
-            <span className="text-[11px] text-slate-400">
+            <span className="text-xs font-bold text-stone-800 dark:text-zinc-200 block">清除本机临时缓存</span>
+            <span className="text-[11px] text-stone-400 dark:text-zinc-500">
               用于公共阅览设备退出或重置本机真题研习记录（建议操作前先同步归档至云端）
             </span>
           </div>
 
           <button
             onClick={() => setShowWipeModal(true)}
-            className="px-3.5 py-2 rounded-xl border border-rose-200 text-rose-600 hover:bg-rose-50 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+            className="px-3.5 py-2 rounded-xl border border-rose-200 dark:border-rose-500/40 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
           >
             <Trash2 className="w-4 h-4" />
             <span>清除本地数据</span>
@@ -358,18 +358,18 @@ export default function ProfilePage() {
 
       {/* Wipe Confirmation Modal */}
       {showWipeModal && (
-        <div className="fixed inset-0 z-50 bg-black/40 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl space-y-4 animate-in fade-in zoom-in-95 duration-150">
-            <div className="flex items-center space-x-3 text-rose-600">
+        <div className="fixed inset-0 z-50 bg-black/40 dark:bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+          <div className="bg-white dark:bg-[#11131a] rounded-2xl max-w-md w-full p-6 shadow-2xl border border-black/[0.08] dark:border-cyan-500/25 space-y-4 animate-in fade-in zoom-in-95 duration-150">
+            <div className="flex items-center space-x-3 text-rose-600 dark:text-rose-400">
               <AlertTriangle className="w-6 h-6 shrink-0" />
-              <h3 className="font-bold text-slate-900 text-base">危险操作: 清除本地数据</h3>
+              <h3 className="font-bold text-stone-900 dark:text-zinc-100 text-base">危险操作: 清除本地数据</h3>
             </div>
 
-            <p className="text-xs text-slate-600 leading-relaxed">
+            <p className="text-xs text-stone-600 dark:text-zinc-400 leading-relaxed">
               清除后本地存储的相关学习记录将被永久抹除。如果有重要进度，请确保已经点击“备份到云端”。
             </p>
 
-            <div className="space-y-2 bg-slate-50 p-3 rounded-xl border border-slate-200 text-xs">
+            <div className="space-y-2 bg-stone-50 dark:bg-zinc-900 p-3 rounded-xl border border-stone-200 dark:border-zinc-800 text-xs text-stone-700 dark:text-zinc-300">
               <label className="flex items-center space-x-2 cursor-pointer">
                 <input
                   type="radio"
@@ -378,7 +378,7 @@ export default function ProfilePage() {
                   onChange={() => setWipeScope("all")}
                   className="text-rose-600"
                 />
-                <span className="font-bold text-rose-700">彻底清空全部本地数据 (恢复出厂全新状态)</span>
+                <span className="font-bold text-rose-700 dark:text-rose-400">彻底清空全部本地数据 (恢复出厂全新状态)</span>
               </label>
               <label className="flex items-center space-x-2 cursor-pointer">
                 <input
@@ -413,7 +413,7 @@ export default function ProfilePage() {
               <button
                 type="button"
                 onClick={() => setShowWipeModal(false)}
-                className="px-4 py-2 text-xs font-semibold text-slate-600 hover:bg-slate-100 rounded-xl"
+                className="px-4 py-2 text-xs font-semibold text-stone-600 dark:text-zinc-400 hover:bg-stone-100 dark:hover:bg-zinc-800 rounded-xl"
               >
                 取消
               </button>

@@ -186,6 +186,16 @@ export default function DictionaryPopover() {
     setPosition({ x, y, arrowX, isAbove });
     setIsOpen(true);
 
+    // Immediately clear browser native selection range to dismiss browser floating copy/search toolbar
+    try {
+      window.getSelection()?.removeAllRanges();
+    } catch {}
+    setTimeout(() => {
+      try {
+        window.getSelection()?.removeAllRanges();
+      } catch {}
+    }, 20);
+
     // Instant local memory lookup first
     const instant = lookupWord(clean);
     if (instant) {
