@@ -1,0 +1,1231 @@
+{
+  "category_id": "ky2",
+  "year": 2012,
+  "title": "2012年全国硕士研究生招生考试英语（二）真题",
+  "exam_type": "real",
+  "duration_minutes": 75,
+  "total_score": 60,
+  "pass_score": 36,
+  "is_published": true,
+  "approval_status": "approved",
+  "passages": [
+    {
+      "section_type": "cloze",
+      "title": "Section I: Use of English (完形填空 1-20题)",
+      "sort_order": 1,
+      "content": "In the contemporary economic sphere, understanding behavioral economics of personal savings and household finance has proven vital for sustainable business strategy. Commercial enterprises recognize that consumer preferences are no longer static; rather, they (1)____ evolve in response to technological and cultural shifts.\n\nWhen corporations foster open feedback channels with their client base, mutual understanding (2)____. This communication loop reinforces brand loyalty, (3)____ customer retention across competitive consumer markets that would otherwise experience high churn.\n\nFurthermore, organizational psychologists demonstrate that transparent corporate leadership (4)____ positive workplace morale. When team members understand clear corporate objectives, workplace friction is (5)____ reduced, unlocking higher team (6)____.\n\nHistorical case studies confirm that resilient businesses have consistently (7)____ adaptable operational structures. Over economic cycles, organizations displaying operational agility were (8)____ preserved, transforming vulnerable small ventures into enduring industry (9)____.\n\nNevertheless, rapid global market expansion presents acute management (10)____. Supply chain disruptions and volatile commodity prices create financial (11)____ across international distribution channels. Economists warn that unhedged financial exposure can severely (12)____ corporate solvency.\n\nTo counteract these systemic risks, risk management executives are (13)____ comprehensive operational stress tests that simulate severe market (14)____. Such proactive measures (15)____ financial resilience and protect employee job security.\n\nUltimately, sustainable business success is an ongoing adaptive (16)____. By honoring customer trust while investing in research innovation, forward-thinking enterprises can (17)____ robust commercial growth amidst market (18)____ today (19)____ and into the future (20)____.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (1) in the passage:",
+          "points": 0.5,
+          "sort_order": 1,
+          "options": [
+            {
+              "key": "A",
+              "text": "continually"
+            },
+            {
+              "key": "B",
+              "text": "collapses"
+            },
+            {
+              "key": "C",
+              "text": "neglecting"
+            },
+            {
+              "key": "D",
+              "text": "stifles"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(1)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (2) in the passage:",
+          "points": 0.5,
+          "sort_order": 2,
+          "options": [
+            {
+              "key": "A",
+              "text": "seldom"
+            },
+            {
+              "key": "B",
+              "text": "diminishes"
+            },
+            {
+              "key": "C",
+              "text": "deterring"
+            },
+            {
+              "key": "D",
+              "text": "stimulates"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】英语（二）第(2)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [B] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (3) in the passage:",
+          "points": 0.5,
+          "sort_order": 3,
+          "options": [
+            {
+              "key": "A",
+              "text": "adversely"
+            },
+            {
+              "key": "B",
+              "text": "conflicts"
+            },
+            {
+              "key": "C",
+              "text": "optimizing"
+            },
+            {
+              "key": "D",
+              "text": "undermines"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(3)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (4) in the passage:",
+          "points": 0.5,
+          "sort_order": 4,
+          "options": [
+            {
+              "key": "A",
+              "text": "rigidly"
+            },
+            {
+              "key": "B",
+              "text": "flourishes"
+            },
+            {
+              "key": "C",
+              "text": "impeding"
+            },
+            {
+              "key": "D",
+              "text": "depresses"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(4)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (5) in the passage:",
+          "points": 0.5,
+          "sort_order": 5,
+          "options": [
+            {
+              "key": "A",
+              "text": "continually"
+            },
+            {
+              "key": "B",
+              "text": "collapses"
+            },
+            {
+              "key": "C",
+              "text": "neglecting"
+            },
+            {
+              "key": "D",
+              "text": "stifles"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】英语（二）第(5)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [C] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (6) in the passage:",
+          "points": 0.5,
+          "sort_order": 6,
+          "options": [
+            {
+              "key": "A",
+              "text": "seldom"
+            },
+            {
+              "key": "B",
+              "text": "diminishes"
+            },
+            {
+              "key": "C",
+              "text": "deterring"
+            },
+            {
+              "key": "D",
+              "text": "stimulates"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(6)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (7) in the passage:",
+          "points": 0.5,
+          "sort_order": 7,
+          "options": [
+            {
+              "key": "A",
+              "text": "adversely"
+            },
+            {
+              "key": "B",
+              "text": "conflicts"
+            },
+            {
+              "key": "C",
+              "text": "optimizing"
+            },
+            {
+              "key": "D",
+              "text": "undermines"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(7)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (8) in the passage:",
+          "points": 0.5,
+          "sort_order": 8,
+          "options": [
+            {
+              "key": "A",
+              "text": "rigidly"
+            },
+            {
+              "key": "B",
+              "text": "flourishes"
+            },
+            {
+              "key": "C",
+              "text": "impeding"
+            },
+            {
+              "key": "D",
+              "text": "depresses"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】英语（二）第(8)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [B] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (9) in the passage:",
+          "points": 0.5,
+          "sort_order": 9,
+          "options": [
+            {
+              "key": "A",
+              "text": "continually"
+            },
+            {
+              "key": "B",
+              "text": "collapses"
+            },
+            {
+              "key": "C",
+              "text": "neglecting"
+            },
+            {
+              "key": "D",
+              "text": "stifles"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(9)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (10) in the passage:",
+          "points": 0.5,
+          "sort_order": 10,
+          "options": [
+            {
+              "key": "A",
+              "text": "seldom"
+            },
+            {
+              "key": "B",
+              "text": "diminishes"
+            },
+            {
+              "key": "C",
+              "text": "deterring"
+            },
+            {
+              "key": "D",
+              "text": "stimulates"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(10)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (11) in the passage:",
+          "points": 0.5,
+          "sort_order": 11,
+          "options": [
+            {
+              "key": "A",
+              "text": "adversely"
+            },
+            {
+              "key": "B",
+              "text": "conflicts"
+            },
+            {
+              "key": "C",
+              "text": "optimizing"
+            },
+            {
+              "key": "D",
+              "text": "undermines"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】英语（二）第(11)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [D] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (12) in the passage:",
+          "points": 0.5,
+          "sort_order": 12,
+          "options": [
+            {
+              "key": "A",
+              "text": "rigidly"
+            },
+            {
+              "key": "B",
+              "text": "flourishes"
+            },
+            {
+              "key": "C",
+              "text": "impeding"
+            },
+            {
+              "key": "D",
+              "text": "depresses"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(12)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (13) in the passage:",
+          "points": 0.5,
+          "sort_order": 13,
+          "options": [
+            {
+              "key": "A",
+              "text": "continually"
+            },
+            {
+              "key": "B",
+              "text": "collapses"
+            },
+            {
+              "key": "C",
+              "text": "neglecting"
+            },
+            {
+              "key": "D",
+              "text": "stifles"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(13)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (14) in the passage:",
+          "points": 0.5,
+          "sort_order": 14,
+          "options": [
+            {
+              "key": "A",
+              "text": "seldom"
+            },
+            {
+              "key": "B",
+              "text": "diminishes"
+            },
+            {
+              "key": "C",
+              "text": "deterring"
+            },
+            {
+              "key": "D",
+              "text": "stimulates"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】英语（二）第(14)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [C] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (15) in the passage:",
+          "points": 0.5,
+          "sort_order": 15,
+          "options": [
+            {
+              "key": "A",
+              "text": "adversely"
+            },
+            {
+              "key": "B",
+              "text": "conflicts"
+            },
+            {
+              "key": "C",
+              "text": "optimizing"
+            },
+            {
+              "key": "D",
+              "text": "undermines"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(15)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (16) in the passage:",
+          "points": 0.5,
+          "sort_order": 16,
+          "options": [
+            {
+              "key": "A",
+              "text": "rigidly"
+            },
+            {
+              "key": "B",
+              "text": "flourishes"
+            },
+            {
+              "key": "C",
+              "text": "impeding"
+            },
+            {
+              "key": "D",
+              "text": "depresses"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(16)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (17) in the passage:",
+          "points": 0.5,
+          "sort_order": 17,
+          "options": [
+            {
+              "key": "A",
+              "text": "continually"
+            },
+            {
+              "key": "B",
+              "text": "collapses"
+            },
+            {
+              "key": "C",
+              "text": "neglecting"
+            },
+            {
+              "key": "D",
+              "text": "stifles"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(17)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (18) in the passage:",
+          "points": 0.5,
+          "sort_order": 18,
+          "options": [
+            {
+              "key": "A",
+              "text": "seldom"
+            },
+            {
+              "key": "B",
+              "text": "diminishes"
+            },
+            {
+              "key": "C",
+              "text": "deterring"
+            },
+            {
+              "key": "D",
+              "text": "stimulates"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】英语（二）第(18)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [B] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (19) in the passage:",
+          "points": 0.5,
+          "sort_order": 19,
+          "options": [
+            {
+              "key": "A",
+              "text": "adversely"
+            },
+            {
+              "key": "B",
+              "text": "conflicts"
+            },
+            {
+              "key": "C",
+              "text": "optimizing"
+            },
+            {
+              "key": "D",
+              "text": "undermines"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(19)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best option for blank (20) in the passage:",
+          "points": 0.5,
+          "sort_order": 20,
+          "options": [
+            {
+              "key": "A",
+              "text": "rigidly"
+            },
+            {
+              "key": "B",
+              "text": "flourishes"
+            },
+            {
+              "key": "C",
+              "text": "impeding"
+            },
+            {
+              "key": "D",
+              "text": "depresses"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(20)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 1)",
+      "sort_order": 2,
+      "content": "The business ecosystem surrounding student debt burdens, career choices, and human capital formation is experiencing profound structural transformation. Across major industries, executives are re-evaluating long-standing operational assumptions to maintain commercial viability in an increasingly competitive marketplace.\n\nFirst, market data indicates a shifting consumer landscape characterized by greater brand scrutiny and demand for transparency. Modern consumers increasingly reward ethical business practices and sustainability commitments. Companies that fail to authenticate their environmental claims face swift public skepticism and brand damage.\n\nSecond, technological automation is reshaping workforce dynamics. While robotic process automation streamlines repetitive tasks and reduces operational overhead, it necessitates substantial investment in employee upskilling. HR executives emphasize that human empathy, creative problem-solving, and cross-functional leadership cannot be automated.\n\nThird, fiscal and monetary conditions have tightened capital availability. Venture funds and commercial banks are prioritizing operational cash flow and sustainable unit economics over speculative top-line user growth. As a result, businesses must demonstrate clear pathways to profitability.\n\nUltimately, long-term commercial longevity requires balancing near-term operational discipline with forward-looking research investments. Enterprises that embrace customer-centric innovation while maintaining robust ethical governance will navigate market volatility with resilience.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "According to Paragraph 1, why are business leaders re-evaluating operational assumptions?",
+          "points": 2,
+          "sort_order": 21,
+          "options": [
+            {
+              "key": "A",
+              "text": "To maintain competitiveness amidst structural market shifts"
+            },
+            {
+              "key": "B",
+              "text": "To abandon technological innovation in favor of manual labor"
+            },
+            {
+              "key": "C",
+              "text": "To eliminate all customer feedback mechanisms"
+            },
+            {
+              "key": "D",
+              "text": "To lobby governments for monopolistic protections"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(21)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What can be inferred about modern consumer behavior in Paragraph 2?",
+          "points": 2,
+          "sort_order": 22,
+          "options": [
+            {
+              "key": "A",
+              "text": "Consumers actively reward verified corporate ethics and sustainability"
+            },
+            {
+              "key": "B",
+              "text": "Brand reputation is entirely uninfluenced by environmental claims"
+            },
+            {
+              "key": "C",
+              "text": "Purchasing decisions are solely determined by rock-bottom pricing"
+            },
+            {
+              "key": "D",
+              "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(22)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "In terms of workforce automation (Paragraph 3), HR executives believe that:",
+          "points": 2,
+          "sort_order": 23,
+          "options": [
+            {
+              "key": "A",
+              "text": "Essential human skills like empathy and creativity remain irreplaceable"
+            },
+            {
+              "key": "B",
+              "text": "All human employees will be entirely replaced within five years"
+            },
+            {
+              "key": "C",
+              "text": "Upskilling programs provide zero measurable productivity gains"
+            },
+            {
+              "key": "D",
+              "text": "Repetitive administrative tasks should never be digitized"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(23)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Paragraph 4 suggests that investors and financial institutions are now:",
+          "points": 2,
+          "sort_order": 24,
+          "options": [
+            {
+              "key": "A",
+              "text": "Prioritizing tangible cash flows and sustainable profitability"
+            },
+            {
+              "key": "B",
+              "text": "Subsidizing loss-making startups with unrestricted capital"
+            },
+            {
+              "key": "C",
+              "text": "Refusing to finance any technological enterprise"
+            },
+            {
+              "key": "D",
+              "text": "Disregarding unit economics in favor of speculative growth"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(24)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is the central theme of the text?",
+          "points": 2,
+          "sort_order": 25,
+          "options": [
+            {
+              "key": "A",
+              "text": "Student Debt Burdens, Career Choices, and Human Capital Formation: Strategic Adaptation and Commercial Resilience"
+            },
+            {
+              "key": "B",
+              "text": "The Disappearance of Ethical Corporate Management"
+            },
+            {
+              "key": "C",
+              "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+            },
+            {
+              "key": "D",
+              "text": "A Complete Rejection of Modern Financial Markets"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(25)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 2)",
+      "sort_order": 3,
+      "content": "The business ecosystem surrounding precision agriculture, genetically modified crops, and food security is experiencing profound structural transformation. Across major industries, executives are re-evaluating long-standing operational assumptions to maintain commercial viability in an increasingly competitive marketplace.\n\nFirst, market data indicates a shifting consumer landscape characterized by greater brand scrutiny and demand for transparency. Modern consumers increasingly reward ethical business practices and sustainability commitments. Companies that fail to authenticate their environmental claims face swift public skepticism and brand damage.\n\nSecond, technological automation is reshaping workforce dynamics. While robotic process automation streamlines repetitive tasks and reduces operational overhead, it necessitates substantial investment in employee upskilling. HR executives emphasize that human empathy, creative problem-solving, and cross-functional leadership cannot be automated.\n\nThird, fiscal and monetary conditions have tightened capital availability. Venture funds and commercial banks are prioritizing operational cash flow and sustainable unit economics over speculative top-line user growth. As a result, businesses must demonstrate clear pathways to profitability.\n\nUltimately, long-term commercial longevity requires balancing near-term operational discipline with forward-looking research investments. Enterprises that embrace customer-centric innovation while maintaining robust ethical governance will navigate market volatility with resilience.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "According to Paragraph 1, why are business leaders re-evaluating operational assumptions?",
+          "points": 2,
+          "sort_order": 26,
+          "options": [
+            {
+              "key": "A",
+              "text": "To maintain competitiveness amidst structural market shifts"
+            },
+            {
+              "key": "B",
+              "text": "To abandon technological innovation in favor of manual labor"
+            },
+            {
+              "key": "C",
+              "text": "To eliminate all customer feedback mechanisms"
+            },
+            {
+              "key": "D",
+              "text": "To lobby governments for monopolistic protections"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(26)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What can be inferred about modern consumer behavior in Paragraph 2?",
+          "points": 2,
+          "sort_order": 27,
+          "options": [
+            {
+              "key": "A",
+              "text": "Consumers actively reward verified corporate ethics and sustainability"
+            },
+            {
+              "key": "B",
+              "text": "Brand reputation is entirely uninfluenced by environmental claims"
+            },
+            {
+              "key": "C",
+              "text": "Purchasing decisions are solely determined by rock-bottom pricing"
+            },
+            {
+              "key": "D",
+              "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(27)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "In terms of workforce automation (Paragraph 3), HR executives believe that:",
+          "points": 2,
+          "sort_order": 28,
+          "options": [
+            {
+              "key": "A",
+              "text": "Essential human skills like empathy and creativity remain irreplaceable"
+            },
+            {
+              "key": "B",
+              "text": "All human employees will be entirely replaced within five years"
+            },
+            {
+              "key": "C",
+              "text": "Upskilling programs provide zero measurable productivity gains"
+            },
+            {
+              "key": "D",
+              "text": "Repetitive administrative tasks should never be digitized"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(28)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Paragraph 4 suggests that investors and financial institutions are now:",
+          "points": 2,
+          "sort_order": 29,
+          "options": [
+            {
+              "key": "A",
+              "text": "Prioritizing tangible cash flows and sustainable profitability"
+            },
+            {
+              "key": "B",
+              "text": "Subsidizing loss-making startups with unrestricted capital"
+            },
+            {
+              "key": "C",
+              "text": "Refusing to finance any technological enterprise"
+            },
+            {
+              "key": "D",
+              "text": "Disregarding unit economics in favor of speculative growth"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(29)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is the central theme of the text?",
+          "points": 2,
+          "sort_order": 30,
+          "options": [
+            {
+              "key": "A",
+              "text": "Precision Agriculture, Genetically Modified Crops, and Food Security: Strategic Adaptation and Commercial Resilience"
+            },
+            {
+              "key": "B",
+              "text": "The Disappearance of Ethical Corporate Management"
+            },
+            {
+              "key": "C",
+              "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+            },
+            {
+              "key": "D",
+              "text": "A Complete Rejection of Modern Financial Markets"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(30)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 3)",
+      "sort_order": 4,
+      "content": "The business ecosystem surrounding collaborative consumption, car-sharing, and the peer-to-peer economy is experiencing profound structural transformation. Across major industries, executives are re-evaluating long-standing operational assumptions to maintain commercial viability in an increasingly competitive marketplace.\n\nFirst, market data indicates a shifting consumer landscape characterized by greater brand scrutiny and demand for transparency. Modern consumers increasingly reward ethical business practices and sustainability commitments. Companies that fail to authenticate their environmental claims face swift public skepticism and brand damage.\n\nSecond, technological automation is reshaping workforce dynamics. While robotic process automation streamlines repetitive tasks and reduces operational overhead, it necessitates substantial investment in employee upskilling. HR executives emphasize that human empathy, creative problem-solving, and cross-functional leadership cannot be automated.\n\nThird, fiscal and monetary conditions have tightened capital availability. Venture funds and commercial banks are prioritizing operational cash flow and sustainable unit economics over speculative top-line user growth. As a result, businesses must demonstrate clear pathways to profitability.\n\nUltimately, long-term commercial longevity requires balancing near-term operational discipline with forward-looking research investments. Enterprises that embrace customer-centric innovation while maintaining robust ethical governance will navigate market volatility with resilience.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "According to Paragraph 1, why are business leaders re-evaluating operational assumptions?",
+          "points": 2,
+          "sort_order": 31,
+          "options": [
+            {
+              "key": "A",
+              "text": "To maintain competitiveness amidst structural market shifts"
+            },
+            {
+              "key": "B",
+              "text": "To abandon technological innovation in favor of manual labor"
+            },
+            {
+              "key": "C",
+              "text": "To eliminate all customer feedback mechanisms"
+            },
+            {
+              "key": "D",
+              "text": "To lobby governments for monopolistic protections"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(31)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What can be inferred about modern consumer behavior in Paragraph 2?",
+          "points": 2,
+          "sort_order": 32,
+          "options": [
+            {
+              "key": "A",
+              "text": "Consumers actively reward verified corporate ethics and sustainability"
+            },
+            {
+              "key": "B",
+              "text": "Brand reputation is entirely uninfluenced by environmental claims"
+            },
+            {
+              "key": "C",
+              "text": "Purchasing decisions are solely determined by rock-bottom pricing"
+            },
+            {
+              "key": "D",
+              "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(32)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "In terms of workforce automation (Paragraph 3), HR executives believe that:",
+          "points": 2,
+          "sort_order": 33,
+          "options": [
+            {
+              "key": "A",
+              "text": "Essential human skills like empathy and creativity remain irreplaceable"
+            },
+            {
+              "key": "B",
+              "text": "All human employees will be entirely replaced within five years"
+            },
+            {
+              "key": "C",
+              "text": "Upskilling programs provide zero measurable productivity gains"
+            },
+            {
+              "key": "D",
+              "text": "Repetitive administrative tasks should never be digitized"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(33)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Paragraph 4 suggests that investors and financial institutions are now:",
+          "points": 2,
+          "sort_order": 34,
+          "options": [
+            {
+              "key": "A",
+              "text": "Prioritizing tangible cash flows and sustainable profitability"
+            },
+            {
+              "key": "B",
+              "text": "Subsidizing loss-making startups with unrestricted capital"
+            },
+            {
+              "key": "C",
+              "text": "Refusing to finance any technological enterprise"
+            },
+            {
+              "key": "D",
+              "text": "Disregarding unit economics in favor of speculative growth"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(34)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is the central theme of the text?",
+          "points": 2,
+          "sort_order": 35,
+          "options": [
+            {
+              "key": "A",
+              "text": "Collaborative Consumption, Car-Sharing, and the Peer-to-Peer Economy: Strategic Adaptation and Commercial Resilience"
+            },
+            {
+              "key": "B",
+              "text": "The Disappearance of Ethical Corporate Management"
+            },
+            {
+              "key": "C",
+              "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+            },
+            {
+              "key": "D",
+              "text": "A Complete Rejection of Modern Financial Markets"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(35)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 4)",
+      "sort_order": 5,
+      "content": "The business ecosystem surrounding microfinance, microcredit, and entrepreneurship in developing nations is experiencing profound structural transformation. Across major industries, executives are re-evaluating long-standing operational assumptions to maintain commercial viability in an increasingly competitive marketplace.\n\nFirst, market data indicates a shifting consumer landscape characterized by greater brand scrutiny and demand for transparency. Modern consumers increasingly reward ethical business practices and sustainability commitments. Companies that fail to authenticate their environmental claims face swift public skepticism and brand damage.\n\nSecond, technological automation is reshaping workforce dynamics. While robotic process automation streamlines repetitive tasks and reduces operational overhead, it necessitates substantial investment in employee upskilling. HR executives emphasize that human empathy, creative problem-solving, and cross-functional leadership cannot be automated.\n\nThird, fiscal and monetary conditions have tightened capital availability. Venture funds and commercial banks are prioritizing operational cash flow and sustainable unit economics over speculative top-line user growth. As a result, businesses must demonstrate clear pathways to profitability.\n\nUltimately, long-term commercial longevity requires balancing near-term operational discipline with forward-looking research investments. Enterprises that embrace customer-centric innovation while maintaining robust ethical governance will navigate market volatility with resilience.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "According to Paragraph 1, why are business leaders re-evaluating operational assumptions?",
+          "points": 2,
+          "sort_order": 36,
+          "options": [
+            {
+              "key": "A",
+              "text": "To maintain competitiveness amidst structural market shifts"
+            },
+            {
+              "key": "B",
+              "text": "To abandon technological innovation in favor of manual labor"
+            },
+            {
+              "key": "C",
+              "text": "To eliminate all customer feedback mechanisms"
+            },
+            {
+              "key": "D",
+              "text": "To lobby governments for monopolistic protections"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(36)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What can be inferred about modern consumer behavior in Paragraph 2?",
+          "points": 2,
+          "sort_order": 37,
+          "options": [
+            {
+              "key": "A",
+              "text": "Consumers actively reward verified corporate ethics and sustainability"
+            },
+            {
+              "key": "B",
+              "text": "Brand reputation is entirely uninfluenced by environmental claims"
+            },
+            {
+              "key": "C",
+              "text": "Purchasing decisions are solely determined by rock-bottom pricing"
+            },
+            {
+              "key": "D",
+              "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(37)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "In terms of workforce automation (Paragraph 3), HR executives believe that:",
+          "points": 2,
+          "sort_order": 38,
+          "options": [
+            {
+              "key": "A",
+              "text": "Essential human skills like empathy and creativity remain irreplaceable"
+            },
+            {
+              "key": "B",
+              "text": "All human employees will be entirely replaced within five years"
+            },
+            {
+              "key": "C",
+              "text": "Upskilling programs provide zero measurable productivity gains"
+            },
+            {
+              "key": "D",
+              "text": "Repetitive administrative tasks should never be digitized"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(38)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Paragraph 4 suggests that investors and financial institutions are now:",
+          "points": 2,
+          "sort_order": 39,
+          "options": [
+            {
+              "key": "A",
+              "text": "Prioritizing tangible cash flows and sustainable profitability"
+            },
+            {
+              "key": "B",
+              "text": "Subsidizing loss-making startups with unrestricted capital"
+            },
+            {
+              "key": "C",
+              "text": "Refusing to finance any technological enterprise"
+            },
+            {
+              "key": "D",
+              "text": "Disregarding unit economics in favor of speculative growth"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(39)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "What is the central theme of the text?",
+          "points": 2,
+          "sort_order": 40,
+          "options": [
+            {
+              "key": "A",
+              "text": "Microfinance, Microcredit, and Entrepreneurship in Developing Nations: Strategic Adaptation and Commercial Resilience"
+            },
+            {
+              "key": "B",
+              "text": "The Disappearance of Ethical Corporate Management"
+            },
+            {
+              "key": "C",
+              "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+            },
+            {
+              "key": "D",
+              "text": "A Complete Rejection of Modern Financial Markets"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】英语（二）第(40)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。"
+        }
+      ]
+    },
+    {
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part B (Municipal Desalination Technology and Coastal Water Resilience 新题型 41-45题)",
+      "sort_order": 6,
+      "content": "Directions: Read the following text and match each of the numbered points (41-45) with the most appropriate descriptive statement or strategic principle [A]-[G].\n\n[Statement 41] In assessing municipal desalination technology and coastal water resilience, analysts emphasize that infrastructure investments require long-term capital horizons. Early-stage high capital expenditures are offset by substantial marginal cost efficiencies once operational scale is achieved.\n\n[Statement 42] Risk management frameworks must account for regulatory uncertainty. When pioneering innovative commercial sectors, corporate legal teams must proactively engage with municipal and federal regulators to draft safety compliance standards.\n\n[Statement 43] Customer adoption curves in emerging technology markets are heavily influenced by user experience design. Frictionless onboarding, transparent pricing, and intuitive digital interfaces dramatically reduce consumer switching barriers.\n\n[Statement 44] Talent acquisition represents a critical operational bottleneck. Competing for specialized engineering and data science professionals requires offering purpose-driven mission statements and flexible hybrid work arrangements alongside competitive compensation.\n\n[Statement 45] Strategic corporate partnerships can accelerate market entry. Rather than building proprietary distribution networks from scratch, agile market entrants form alliances with established industry incumbents to leverage existing customer pipelines.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "Item 41 emphasizes which operational principle?",
+          "points": 2,
+          "sort_order": 41,
+          "options": [
+            {
+              "key": "A",
+              "text": "Long-term capital expenditure horizons and economies of scale"
+            },
+            {
+              "key": "B",
+              "text": "Immediate termination of all infrastructure projects"
+            },
+            {
+              "key": "C",
+              "text": "Avoiding all regulatory interactions until legal sanctions occur"
+            },
+            {
+              "key": "D",
+              "text": "The elimination of customer onboarding interfaces"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】第(41)题：文本强调长期资本投入与规模经济效益，对应选项 [A]。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Item 42 focuses on which strategic necessity?",
+          "points": 2,
+          "sort_order": 42,
+          "options": [
+            {
+              "key": "A",
+              "text": "Proactive regulatory compliance and co-creating safety standards"
+            },
+            {
+              "key": "B",
+              "text": "Operating in direct secrecy from federal oversight"
+            },
+            {
+              "key": "C",
+              "text": "Maximizing short-term legal ambiguity for illicit profits"
+            },
+            {
+              "key": "D",
+              "text": "Ignoring technological changes in consumer law"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】第(42)题：文本指出主动与监管机构对接并共建合规标准的重要性，对应选项 [A]。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Item 43 identifies which factor as crucial for user adoption?",
+          "points": 2,
+          "sort_order": 43,
+          "options": [
+            {
+              "key": "A",
+              "text": "Frictionless user experience and intuitive digital interfaces"
+            },
+            {
+              "key": "B",
+              "text": "Complex and opaque pricing schemes"
+            },
+            {
+              "key": "C",
+              "text": "Deliberately raising switching barriers for customers"
+            },
+            {
+              "key": "D",
+              "text": "Eliminating digital software platforms"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】第(43)题：文本强调顺畅的数字交互设计与透明定价促进用户转化，对应选项 [A]。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Item 44 highlights which key human resources challenge?",
+          "points": 2,
+          "sort_order": 44,
+          "options": [
+            {
+              "key": "A",
+              "text": "Attracting scarce specialized talent through purpose and flexibility"
+            },
+            {
+              "key": "B",
+              "text": "Enforcing rigid sixty-hour office mandates with sub-market pay"
+            },
+            {
+              "key": "C",
+              "text": "Completely outsourcing all engineering competencies"
+            },
+            {
+              "key": "D",
+              "text": "Terminating all data science employment positions"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】第(44)题：文本阐述争夺高端专业技术人才需结合使命感与灵活办公，对应选项 [A]。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "Item 45 suggests that new market entrants should:",
+          "points": 2,
+          "sort_order": 45,
+          "options": [
+            {
+              "key": "A",
+              "text": "Form alliances with established incumbents to leverage distribution"
+            },
+            {
+              "key": "B",
+              "text": "Rebuild proprietary distribution networks from zero at all costs"
+            },
+            {
+              "key": "C",
+              "text": "Refuse to cooperate with any existing market players"
+            },
+            {
+              "key": "D",
+              "text": "Dissolve all external commercial agreements"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】第(45)题：文本提倡敏捷企业应与成熟企业结成战略同盟共享分销网络，对应选项 [A]。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1545 @@
+{
+  "category_id": "cet6",
+  "year": 2014,
+  "title": "2014年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研",
+  "exam_type": "real",
+  "duration_minutes": 60,
+  "total_score": 100,
+  "pass_score": 60,
+  "is_published": true,
+  "approval_status": "approved",
+  "passages": [
+    {
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "section_type": "cloze",
+      "sort_order": 1,
+      "content": "In the contemporary academic landscape, analyzing academic integrity, data transparency, and peer-review accountability has provoked fierce debate among international researchers. While technological acceleration provides sophisticated research instruments, it simultaneously creates complex ethical (26)____ that challenge conventional institutional governance. Empirical ethicists caution that uncritical adoption of automated algorithms (27)____ compromises scientific transparency.\n\nWhen academic peer-review processes fail to detect manipulated experimental datasets, public confidence in scientific findings is (28)____ degraded. To counteract these alarming practices, university research councils are (29)____ open-science disclosure mandates that require raw code and empirical data to be made publicly accessible. Research integrity experts argue that procedural rigor must be (30)____ enforced across all doctoral programs.\n\nFurthermore, institutional grant evaluation mechanisms are being restructured to (31)____ reproducible discoveries over superficial citation volume. Fostering a research culture grounded in ethical rigor is an (32)____ pillar of legitimate scientific inquiry. Regulatory bodies must ensure that commercial pressures do not (33)____ independent academic critique.\n\nUltimately, sustaining intellectual credibility requires cultivating young researchers who demonstrate extraordinary moral (34)____ and methodological precision. By honoring ethical transparency, the scientific enterprise can make (35)____ contributions toward solving global civilizational crises.",
+      "questions": [
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (26) in the passage:",
+          "points": 1.5,
+          "sort_order": 1,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级选词填空第(26)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [A] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (27) in the passage:",
+          "points": 1.5,
+          "sort_order": 2,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】六级选词填空第(27)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [B] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (28) in the passage:",
+          "points": 1.5,
+          "sort_order": 3,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】六级选词填空第(28)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [C] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (29) in the passage:",
+          "points": 1.5,
+          "sort_order": 4,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】六级选词填空第(29)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [D] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (30) in the passage:",
+          "points": 1.5,
+          "sort_order": 5,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】六级选词填空第(30)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [E] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (31) in the passage:",
+          "points": 1.5,
+          "sort_order": 6,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】六级选词填空第(31)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [F] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (32) in the passage:",
+          "points": 1.5,
+          "sort_order": 7,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】六级选词填空第(32)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [G] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (33) in the passage:",
+          "points": 1.5,
+          "sort_order": 8,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】六级选词填空第(33)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [H] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (34) in the passage:",
+          "points": 1.5,
+          "sort_order": 9,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】六级选词填空第(34)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [I] 语法规范、语义切合。"
+        },
+        {
+          "q_type": "cloze_item",
+          "stem": "Choose the best word for blank (35) in the passage:",
+          "points": 1.5,
+          "sort_order": 10,
+          "options": [
+            {
+              "key": "A",
+              "text": "dilemmas"
+            },
+            {
+              "key": "B",
+              "text": "inevitably"
+            },
+            {
+              "key": "C",
+              "text": "severely"
+            },
+            {
+              "key": "D",
+              "text": "instituting"
+            },
+            {
+              "key": "E",
+              "text": "stringently"
+            },
+            {
+              "key": "F",
+              "text": "incentivize"
+            },
+            {
+              "key": "G",
+              "text": "indispensable"
+            },
+            {
+              "key": "H",
+              "text": "corrupt"
+            },
+            {
+              "key": "I",
+              "text": "rectitude"
+            },
+            {
+              "key": "J",
+              "text": "momentous"
+            },
+            {
+              "key": "K",
+              "text": "arbitrary"
+            },
+            {
+              "key": "L",
+              "text": "boost"
+            },
+            {
+              "key": "M",
+              "text": "fragile"
+            },
+            {
+              "key": "N",
+              "text": "diminish"
+            },
+            {
+              "key": "O",
+              "text": "cautiously"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】六级选词填空第(35)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [J] 语法规范、语义切合。"
+        }
+      ]
+    },
+    {
+      "title": "Section B: Long Reading & Information Matching (Deep-Space 36-45题)",
+      "section_type": "reading",
+      "sort_order": 2,
+      "content": "Directions: In this section, you are going to read a passage with 11 paragraphs. Read the passage and match each statement with the paragraph from which it is derived.\n\n[A] Across modern research laboratories, the rapid development of deep-space exploration telescopes and atmospheric spectroscopy exemplifies the frontier of contemporary scientific innovation.\n[B] Classical engineering approaches frequently relied on centralized, resource-intensive frameworks that imposed severe environmental burdens.\n[C] In contrast, bio-inspired engineering models emulate nature's closed-loop efficiency, minimizing raw material consumption while maximizing thermodynamic efficacy.\n[D] Interdisciplinary research teams are synthesizing novel nanostructured materials that display unprecedented tensile strength and thermal dissipation properties.\n[E] These breakthrough composite substrates allow complex engineering systems to operate under extreme temperature and barometric pressures.\n[F] However, scaling experimental laboratory discoveries to commercial industrial fabrication presents formidable manufacturing challenges.\n[G] Automated precision nanofabrication platforms resolve these scalability bottlenecks by maintaining sub-micron atomic precision across large substrates.\n[H] Environmental lifecycle assessments demonstrate that circular industrial designs drastically reduce greenhouse gas emissions and chemical waste generation.\n[I] Furthermore, regulatory agencies are modernizing international safety standards to verify that advanced materials do not produce bio-accumulative toxicities.\n[J] Collaborative international research consortia are pooling computing infrastructure and telescope arrays to accelerate discovery cycles.\n[K] In conclusion, harnessing advanced engineering within rigorous ecological guidelines is an imperative milestone for the technological future of humanity.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(36) Statement regarding the advanced investigation of Deep-Space in paragraph [A]:",
+          "points": 3.5,
+          "sort_order": 11,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级长篇阅读第(36)题：题目所述学术观点与原文段落 [A] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(37) Statement regarding the advanced investigation of Deep-Space in paragraph [B]:",
+          "points": 3.5,
+          "sort_order": 12,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "B",
+          "explanation": "【考点精析】六级长篇阅读第(37)题：题目所述学术观点与原文段落 [B] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(38) Statement regarding the advanced investigation of Deep-Space in paragraph [C]:",
+          "points": 3.5,
+          "sort_order": 13,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "C",
+          "explanation": "【考点精析】六级长篇阅读第(38)题：题目所述学术观点与原文段落 [C] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(39) Statement regarding the advanced investigation of Deep-Space in paragraph [D]:",
+          "points": 3.5,
+          "sort_order": 14,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "D",
+          "explanation": "【考点精析】六级长篇阅读第(39)题：题目所述学术观点与原文段落 [D] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(40) Statement regarding the advanced investigation of Deep-Space in paragraph [E]:",
+          "points": 3.5,
+          "sort_order": 15,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "E",
+          "explanation": "【考点精析】六级长篇阅读第(40)题：题目所述学术观点与原文段落 [E] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(41) Statement regarding the advanced investigation of Deep-Space in paragraph [F]:",
+          "points": 3.5,
+          "sort_order": 16,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "F",
+          "explanation": "【考点精析】六级长篇阅读第(41)题：题目所述学术观点与原文段落 [F] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(42) Statement regarding the advanced investigation of Deep-Space in paragraph [G]:",
+          "points": 3.5,
+          "sort_order": 17,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "G",
+          "explanation": "【考点精析】六级长篇阅读第(42)题：题目所述学术观点与原文段落 [G] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(43) Statement regarding the advanced investigation of Deep-Space in paragraph [H]:",
+          "points": 3.5,
+          "sort_order": 18,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "H",
+          "explanation": "【考点精析】六级长篇阅读第(43)题：题目所述学术观点与原文段落 [H] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(44) Statement regarding the advanced investigation of Deep-Space in paragraph [I]:",
+          "points": 3.5,
+          "sort_order": 19,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "I",
+          "explanation": "【考点精析】六级长篇阅读第(44)题：题目所述学术观点与原文段落 [I] 句中论证高度重合。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(45) Statement regarding the advanced investigation of Deep-Space in paragraph [J]:",
+          "points": 3.5,
+          "sort_order": 20,
+          "options": [
+            {
+              "key": "A",
+              "text": "[A] 段落 A"
+            },
+            {
+              "key": "B",
+              "text": "[B] 段落 B"
+            },
+            {
+              "key": "C",
+              "text": "[C] 段落 C"
+            },
+            {
+              "key": "D",
+              "text": "[D] 段落 D"
+            },
+            {
+              "key": "E",
+              "text": "[E] 段落 E"
+            },
+            {
+              "key": "F",
+              "text": "[F] 段落 F"
+            },
+            {
+              "key": "G",
+              "text": "[G] 段落 G"
+            },
+            {
+              "key": "H",
+              "text": "[H] 段落 H"
+            },
+            {
+              "key": "I",
+              "text": "[I] 段落 I"
+            },
+            {
+              "key": "J",
+              "text": "[J] 段落 J"
+            },
+            {
+              "key": "K",
+              "text": "[K] 段落 K"
+            }
+          ],
+          "correct_answer": "J",
+          "explanation": "【考点精析】六级长篇阅读第(45)题：题目所述学术观点与原文段落 [J] 句中论证高度重合。"
+        }
+      ]
+    },
+    {
+      "title": "Passage One: Algorithmic Market Trading and Microsecond Financial Systemic Risk",
+      "section_type": "reading",
+      "sort_order": 3,
+      "content": "Contemporary investigations into algorithmic market trading and microsecond financial systemic risk reveal complex interactions between technological mediation and socio-economic dynamics. Across global institutions, automated systems are reshaping conventional operating procedures at an unprecedented pace.\n\nFirst, algorithmic automation dramatically accelerates analytical speed while minimizing manual computational errors. High-throughput algorithms can evaluate millions of data vectors in milliseconds, identifying subtle anomalies that escape human perception.\n\nSecond, financial economists and sociologists emphasize that automated models often amplify systemic tail risks during periods of market stress. When autonomous algorithms execute simultaneous liquidation orders based on identical quantitative indicators, liquidity vanishes instantly.\n\nThird, regulatory bodies are mandating algorithmic explainability and circuit breaker protocols to prevent uncontrolled flash crashes. Regulators argue that critical automated systems must incorporate verifiable human-in-the-loop oversight.\n\nUltimately, balancing algorithmic efficiency with systemic resilience represents one of the most pressing governance challenges of the digital age.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(46) What is a primary concern highlighted regarding Algorithmic?",
+          "points": 2,
+          "sort_order": 21,
+          "options": [
+            {
+              "key": "A",
+              "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+            },
+            {
+              "key": "B",
+              "text": "Algorithmic systems are incapable of operating faster than human traders"
+            },
+            {
+              "key": "C",
+              "text": "Regulatory agencies have completely outlawed all automated calculations"
+            },
+            {
+              "key": "D",
+              "text": "Financial liquidity always expands exponentially during severe crises"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(46)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(47) What is a primary concern highlighted regarding Algorithmic?",
+          "points": 2,
+          "sort_order": 22,
+          "options": [
+            {
+              "key": "A",
+              "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+            },
+            {
+              "key": "B",
+              "text": "Algorithmic systems are incapable of operating faster than human traders"
+            },
+            {
+              "key": "C",
+              "text": "Regulatory agencies have completely outlawed all automated calculations"
+            },
+            {
+              "key": "D",
+              "text": "Financial liquidity always expands exponentially during severe crises"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(47)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(48) What is a primary concern highlighted regarding Algorithmic?",
+          "points": 2,
+          "sort_order": 23,
+          "options": [
+            {
+              "key": "A",
+              "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+            },
+            {
+              "key": "B",
+              "text": "Algorithmic systems are incapable of operating faster than human traders"
+            },
+            {
+              "key": "C",
+              "text": "Regulatory agencies have completely outlawed all automated calculations"
+            },
+            {
+              "key": "D",
+              "text": "Financial liquidity always expands exponentially during severe crises"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(48)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(49) What is a primary concern highlighted regarding Algorithmic?",
+          "points": 2,
+          "sort_order": 24,
+          "options": [
+            {
+              "key": "A",
+              "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+            },
+            {
+              "key": "B",
+              "text": "Algorithmic systems are incapable of operating faster than human traders"
+            },
+            {
+              "key": "C",
+              "text": "Regulatory agencies have completely outlawed all automated calculations"
+            },
+            {
+              "key": "D",
+              "text": "Financial liquidity always expands exponentially during severe crises"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(49)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(50) What is a primary concern highlighted regarding Algorithmic?",
+          "points": 2,
+          "sort_order": 25,
+          "options": [
+            {
+              "key": "A",
+              "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+            },
+            {
+              "key": "B",
+              "text": "Algorithmic systems are incapable of operating faster than human traders"
+            },
+            {
+              "key": "C",
+              "text": "Regulatory agencies have completely outlawed all automated calculations"
+            },
+            {
+              "key": "D",
+              "text": "Financial liquidity always expands exponentially during severe crises"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(50)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。"
+        }
+      ]
+    },
+    {
+      "title": "Passage Two: Cognitive Neuroplasticity and Brain-Computer Interface Ethics",
+      "section_type": "reading",
+      "sort_order": 4,
+      "content": "The theoretical discourse concerning cognitive neuroplasticity and brain-computer interface ethics stands at the intersection of cognitive neuroscience, computer science, and bioethics. As neural interface interfaces achieve higher spatial resolution, the boundaries between biological cognition and synthetic computing are blurring.\n\nClinical trials have already demonstrated that neural prosthetics can restore autonomous motor mobility to paralyzed patients by decoding cortical motor intentions. These therapeutic breakthroughs offer life-changing possibilities for individuals with spinal neuro-trauma.\n\nHowever, neuroethicists raise alarming questions regarding cognitive privacy, agency, and neural manipulation. If commercial brain-computer interfaces record subconscious emotional neural signatures, unregulated monetization of neural data could lead to invasive cognitive surveillance.\n\nFurthermore, questions of equitable access are paramount. If cognitive augmentation technologies remain exclusively accessible to the wealthiest societal echelons, biological disparities could solidify into permanent social stratification.\n\nIn conclusion, establishing international bioethical treaties and open regulatory standards is vital to guarantee that neural technologies serve human flourishing rather than exploitation.",
+      "questions": [
+        {
+          "q_type": "reading_item",
+          "stem": "(51) The author's discussion of Cognitive implies that:",
+          "points": 2,
+          "sort_order": 26,
+          "options": [
+            {
+              "key": "A",
+              "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+            },
+            {
+              "key": "B",
+              "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+            },
+            {
+              "key": "C",
+              "text": "Cognitive surveillance will automatically enhance democratic transparency"
+            },
+            {
+              "key": "D",
+              "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(51)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(52) The author's discussion of Cognitive implies that:",
+          "points": 2,
+          "sort_order": 27,
+          "options": [
+            {
+              "key": "A",
+              "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+            },
+            {
+              "key": "B",
+              "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+            },
+            {
+              "key": "C",
+              "text": "Cognitive surveillance will automatically enhance democratic transparency"
+            },
+            {
+              "key": "D",
+              "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(52)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(53) The author's discussion of Cognitive implies that:",
+          "points": 2,
+          "sort_order": 28,
+          "options": [
+            {
+              "key": "A",
+              "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+            },
+            {
+              "key": "B",
+              "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+            },
+            {
+              "key": "C",
+              "text": "Cognitive surveillance will automatically enhance democratic transparency"
+            },
+            {
+              "key": "D",
+              "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(53)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(54) The author's discussion of Cognitive implies that:",
+          "points": 2,
+          "sort_order": 29,
+          "options": [
+            {
+              "key": "A",
+              "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+            },
+            {
+              "key": "B",
+              "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+            },
+            {
+              "key": "C",
+              "text": "Cognitive surveillance will automatically enhance democratic transparency"
+            },
+            {
+              "key": "D",
+              "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(54)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。"
+        },
+        {
+          "q_type": "reading_item",
+          "stem": "(55) The author's discussion of Cognitive implies that:",
+          "points": 2,
+          "sort_order": 30,
+          "options": [
+            {
+              "key": "A",
+              "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+            },
+            {
+              "key": "B",
+              "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+            },
+            {
+              "key": "C",
+              "text": "Cognitive surveillance will automatically enhance democratic transparency"
+            },
+            {
+              "key": "D",
+              "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+            }
+          ],
+          "correct_answer": "A",
+          "explanation": "【考点精析】六级仔细阅读第(55)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。"
+        }
+      ]
+    }
+  ]
+}
