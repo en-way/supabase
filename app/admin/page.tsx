@@ -41,7 +41,6 @@ import {
   Activity
 } from "lucide-react";
 import { fetchAnalyticsSnapshot, refreshAnalyticsSnapshot, AnalyticsSnapshot } from "@/lib/analyticsSnapshot";
-import { usePresence } from "@/components/PresenceProvider";
 import { WidgetErrorBoundary } from "@/components/WidgetErrorBoundary";
 
 export default function AdminPage() {
@@ -50,8 +49,12 @@ export default function AdminPage() {
   const [currentRole, setCurrentRole] = useState<"super_admin" | "admin" | "student" | null>(null);
   const [activeTab, setActiveTab] = useState<"exams" | "approvals" | "import" | "users" | "settings">("exams");
 
-  // Realtime Online Presence state shared from global PresenceProvider (0 duplicate channels)
-  const { onlineUserIds } = usePresence();
+  // 0-WebSocket architecture: 5-minute activity window detection (0/200 concurrent connection quota consumed)
+  const isUserOnline = (u: any) => {
+    if (!u?.last_active_at) return false;
+    const diff = Date.now() - new Date(u.last_active_at).getTime();
+    return diff >= 0 && diff <= 5 * 60 * 1000;
+  };
   const [analyticsSnapshot, setAnalyticsSnapshot] = useState<AnalyticsSnapshot | null>(null);
   const [isRefreshingSnapshot, setIsRefreshingSnapshot] = useState(false);
   const [userSortOrder, setUserSortOrder] = useState<"active_desc" | "created_desc">("active_desc");
@@ -226,17 +229,15 @@ export default function AdminPage() {
     }
   };
 
-  const formatRelativeTime = (isoString?: string | null, userId?: string) => {
-    if (userId && onlineUserIds.has(userId)) {
-      return "刚刚 (正在做题/在线)";
-    }
+  const formatRelativeTime = (isoString?: string | null) => {
     if (!isoString) return "从未在线";
     const date = new Date(isoString);
     const diffMs = Date.now() - date.getTime();
-    if (diffMs < 0 || isNaN(diffMs)) return "刚刚";
+    if (diffMs < 0 || isNaN(diffMs)) return "刚刚 (在线)";
     const diffSec = Math.floor(diffMs / 1000);
-    if (diffSec < 60) return "刚刚";
+    if (diffSec < 60) return "刚刚 (在线)";
     const diffMin = Math.floor(diffSec / 60);
+    if (diffMin <= 5) return "刚刚 (在线)";
     if (diffMin < 60) return `${diffMin}分钟前`;
     const diffHour = Math.floor(diffMin / 60);
     if (diffHour < 24) return `${diffHour}小时前`;
@@ -920,8 +921,8 @@ export default function AdminPage() {
   const isSuperAdmin = currentRole === "super_admin";
 
   const sortedUsers = [...userList].sort((a, b) => {
-    const aOnline = onlineUserIds.has(a.id);
-    const bOnline = onlineUserIds.has(b.id);
+    const aOnline = isUserOnline(a);
+    const bOnline = isUserOnline(b);
     if (userSortOrder === "active_desc") {
       if (aOnline && !bOnline) return -1;
       if (!aOnline && bOnline) return 1;
@@ -1321,10 +1322,10 @@ export default function AdminPage() {
                     <span className="text-xs font-bold text-emerald-800 dark:text-emerald-300">当前实时在场</span>
                   </div>
                   <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
-                    {onlineUserIds.size} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人正在使用</span>
+                    {userList.filter(isUserOnline).length} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人活跃在线</span>
                   </div>
                   <p className="text-[10px] text-emerald-700/80 dark:text-emerald-400/80">
-                    ⚡ 纯内存 WebSocket 广播 · 0 磁盘写配额消耗
+                    ⚡ 5分钟轻量活跃打点 · 0 长连接消耗 (0/200)
                   </p>
                 </div>
                 <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold">
@@ -1448,7 +1449,7 @@ export default function AdminPage() {
                     const isSuper = u.role === "super_admin";
                     const isAdmin = u.role === "admin";
                     const isStudent = u.role === "student";
-                    const isUserOnline = onlineUserIds.has(u.id);
+                    const isOnline = isUserOnline(u);
 
                     return (
                       <tr key={u.id} className="hover:bg-slate-50/60 dark:hover:bg-zinc-800/40 transition-colors">
@@ -1472,10 +1473,10 @@ export default function AdminPage() {
                         </td>
                         {/* Live Online Presence Indicator */}
                         <td className="p-4">
-                          {isUserOnline ? (
+                          {isOnline ? (
                             <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-emerald-100 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 border border-emerald-300/80 dark:border-emerald-500/30 inline-flex items-center space-x-1.5 shadow-xs">
                               <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                              <span>在线 (当前在场)</span>
+                              <span>在线 (5分钟内活跃)</span>
                             </span>
                           ) : (
                             <span className="px-2 py-0.5 rounded-full font-medium text-[10px] bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-zinc-400 inline-flex items-center space-x-1">
@@ -1489,7 +1490,7 @@ export default function AdminPage() {
                           className="p-4 font-mono font-medium text-slate-700 dark:text-zinc-300"
                           title={u.last_active_at ? new Date(u.last_active_at).toLocaleString() : "暂无在线记录"}
                         >
-                          {formatRelativeTime(u.last_active_at, u.id)}
+                          {formatRelativeTime(u.last_active_at)}
                         </td>
                         <td className="p-4 text-slate-400 dark:text-zinc-500 font-mono">
                           {new Date(u.created_at).toLocaleDateString()}
