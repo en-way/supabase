@@ -41,6 +41,8 @@ import {
   Activity
 } from "lucide-react";
 import { fetchAnalyticsSnapshot, refreshAnalyticsSnapshot, AnalyticsSnapshot } from "@/lib/analyticsSnapshot";
+import { usePresence } from "@/components/PresenceProvider";
+import { WidgetErrorBoundary } from "@/components/WidgetErrorBoundary";
 
 export default function AdminPage() {
   const router = useRouter();
@@ -48,8 +50,8 @@ export default function AdminPage() {
   const [currentRole, setCurrentRole] = useState<"super_admin" | "admin" | "student" | null>(null);
   const [activeTab, setActiveTab] = useState<"exams" | "approvals" | "import" | "users" | "settings">("exams");
 
-  // Realtime Online Presence state (Super Admin live counter - 0 DB writes)
-  const [onlineUserIds, setOnlineUserIds] = useState<Set<string>>(new Set());
+  // Realtime Online Presence state shared from global PresenceProvider (0 duplicate channels)
+  const { onlineUserIds } = usePresence();
   const [analyticsSnapshot, setAnalyticsSnapshot] = useState<AnalyticsSnapshot | null>(null);
   const [isRefreshingSnapshot, setIsRefreshingSnapshot] = useState(false);
   const [userSortOrder, setUserSortOrder] = useState<"active_desc" | "created_desc">("active_desc");
@@ -172,32 +174,13 @@ export default function AdminPage() {
     checkRole();
   }, [router]);
 
-  // Realtime Presence tracking for Super Admin (0 DB writes)
+  // Load pre-rendered analytics snapshot from Storage Bucket (0 DB CPU) for Super Admin
   useEffect(() => {
     if (currentRole !== "super_admin") return;
 
-    const channel = supabase.channel("online-presence");
-    channel.on("presence", { event: "sync" }, () => {
-      const state = channel.presenceState();
-      const userIds = new Set<string>();
-      for (const key in state) {
-        const presences = state[key] as any[];
-        for (const p of presences) {
-          if (p?.user_id) userIds.add(p.user_id);
-        }
-      }
-      setOnlineUserIds(userIds);
-    });
-    channel.subscribe();
-
-    // Load pre-rendered analytics snapshot from Storage Bucket (0 DB CPU)
     fetchAnalyticsSnapshot().then(({ snapshot }) => {
       if (snapshot) setAnalyticsSnapshot(snapshot);
     });
-
-    return () => {
-      supabase.removeChannel(channel);
-    };
   }, [currentRole]);
 
   const loadExams = async () => {
@@ -1325,78 +1308,80 @@ export default function AdminPage() {
       {isSuperAdmin && activeTab === "users" && (
         <div className="space-y-5">
           {/* Top Monitoring Cards (Presence & Storage Analytics Snapshot) */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            {/* Card 1: Live Presence (0 DB writes) */}
-            <div className="bg-gradient-to-br from-emerald-500/10 via-emerald-500/5 to-transparent dark:from-emerald-500/20 dark:to-transparent p-4 rounded-2xl border border-emerald-200 dark:border-emerald-500/30 flex items-center justify-between shadow-xs">
-              <div className="space-y-1">
-                <div className="flex items-center space-x-1.5">
-                  <span className="relative flex h-2.5 w-2.5">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-                  </span>
-                  <span className="text-xs font-bold text-emerald-800 dark:text-emerald-300">当前实时在场</span>
-                </div>
-                <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
-                  {onlineUserIds.size} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人正在使用</span>
-                </div>
-                <p className="text-[10px] text-emerald-700/80 dark:text-emerald-400/80">
-                  ⚡ 纯内存 WebSocket 广播 · 0 磁盘写配额消耗
-                </p>
-              </div>
-              <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold">
-                <Radio className="w-5 h-5 animate-pulse" />
-              </div>
-            </div>
-
-            {/* Card 2: Registered Students */}
-            <div className="bg-white dark:bg-[#11131a] p-4 rounded-2xl border border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shadow-xs">
-              <div className="space-y-1">
-                <span className="text-xs font-bold text-slate-500 dark:text-zinc-400">已注册学员</span>
-                <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
-                  {userList.filter(u => u.role === "student").length}
-                  {settings.maxStudentsLimit > 0 && (
-                    <span className="text-xs font-normal text-slate-400 dark:text-zinc-500 font-sans">
-                      {" "}/ {settings.maxStudentsLimit} 限额
+          <WidgetErrorBoundary fallbackTitle="实时在场与存储快照监控组件异常">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              {/* Card 1: Live Presence (0 DB writes) */}
+              <div className="bg-gradient-to-br from-emerald-500/10 via-emerald-500/5 to-transparent dark:from-emerald-500/20 dark:to-transparent p-4 rounded-2xl border border-emerald-200 dark:border-emerald-500/30 flex items-center justify-between shadow-xs">
+                <div className="space-y-1">
+                  <div className="flex items-center space-x-1.5">
+                    <span className="relative flex h-2.5 w-2.5">
+                      <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                      <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
                     </span>
-                  )}
+                    <span className="text-xs font-bold text-emerald-800 dark:text-emerald-300">当前实时在场</span>
+                  </div>
+                  <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
+                    {onlineUserIds.size} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人正在使用</span>
+                  </div>
+                  <p className="text-[10px] text-emerald-700/80 dark:text-emerald-400/80">
+                    ⚡ 纯内存 WebSocket 广播 · 0 磁盘写配额消耗
+                  </p>
                 </div>
-                <p className="text-[10px] text-slate-400 dark:text-zinc-500">
-                  全站总账号: {userList.length} 人 (含管理特权席位)
-                </p>
+                <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold">
+                  <Radio className="w-5 h-5 animate-pulse" />
+                </div>
               </div>
-              <div className="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-cyan-500/10 text-indigo-600 dark:text-cyan-400 flex items-center justify-center font-bold">
-                <Users className="w-5 h-5" />
-              </div>
-            </div>
 
-            {/* Card 3: Storage Snapshot Offload (0 DB CPU) */}
-            <div className="bg-white dark:bg-[#11131a] p-4 rounded-2xl border border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shadow-xs">
-              <div className="space-y-1">
-                <div className="flex items-center space-x-1.5">
-                  <Activity className="w-3.5 h-3.5 text-indigo-600 dark:text-cyan-400" />
-                  <span className="text-xs font-bold text-slate-700 dark:text-zinc-300">1GB Storage 预计算快照</span>
+              {/* Card 2: Registered Students */}
+              <div className="bg-white dark:bg-[#11131a] p-4 rounded-2xl border border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shadow-xs">
+                <div className="space-y-1">
+                  <span className="text-xs font-bold text-slate-500 dark:text-zinc-400">已注册学员</span>
+                  <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
+                    {userList.filter(u => u.role === "student").length}
+                    {settings.maxStudentsLimit > 0 && (
+                      <span className="text-xs font-normal text-slate-400 dark:text-zinc-500 font-sans">
+                        {" "}/ {settings.maxStudentsLimit} 限额
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-[10px] text-slate-400 dark:text-zinc-500">
+                    全站总账号: {userList.length} 人 (含管理特权席位)
+                  </p>
                 </div>
-                <div className="text-xs font-medium text-slate-600 dark:text-zinc-300">
-                  {analyticsSnapshot ? (
-                    <span>{analyticsSnapshot.totalExams} 套试卷 · {analyticsSnapshot.totalBackups} 份云快照</span>
-                  ) : (
-                    <span>直接读取静态快照 (0 数据库计算)</span>
-                  )}
+                <div className="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-cyan-500/10 text-indigo-600 dark:text-cyan-400 flex items-center justify-center font-bold">
+                  <Users className="w-5 h-5" />
                 </div>
-                <button
-                  onClick={handleRefreshSnapshot}
-                  disabled={isRefreshingSnapshot}
-                  className="inline-flex items-center space-x-1 text-[10px] font-bold text-indigo-600 hover:text-indigo-700 dark:text-cyan-400 dark:hover:text-cyan-300 transition-colors"
-                >
-                  <RefreshCw className={`w-3 h-3 ${isRefreshingSnapshot ? "animate-spin" : ""}`} />
-                  <span>{isRefreshingSnapshot ? "更新中..." : "重新聚合生成云端快照"}</span>
-                </button>
               </div>
-              <div className="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold">
-                <Sparkles className="w-5 h-5" />
+
+              {/* Card 3: Storage Snapshot Offload (0 DB CPU) */}
+              <div className="bg-white dark:bg-[#11131a] p-4 rounded-2xl border border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shadow-xs">
+                <div className="space-y-1">
+                  <div className="flex items-center space-x-1.5">
+                    <Activity className="w-3.5 h-3.5 text-indigo-600 dark:text-cyan-400" />
+                    <span className="text-xs font-bold text-slate-700 dark:text-zinc-300">1GB Storage 预计算快照</span>
+                  </div>
+                  <div className="text-xs font-medium text-slate-600 dark:text-zinc-300">
+                    {analyticsSnapshot ? (
+                      <span>{analyticsSnapshot.totalExams} 套试卷 · {analyticsSnapshot.totalBackups} 份云快照</span>
+                    ) : (
+                      <span>直接读取静态快照 (0 数据库计算)</span>
+                    )}
+                  </div>
+                  <button
+                    onClick={handleRefreshSnapshot}
+                    disabled={isRefreshingSnapshot}
+                    className="inline-flex items-center space-x-1 text-[10px] font-bold text-indigo-600 hover:text-indigo-700 dark:text-cyan-400 dark:hover:text-cyan-300 transition-colors"
+                  >
+                    <RefreshCw className={`w-3 h-3 ${isRefreshingSnapshot ? "animate-spin" : ""}`} />
+                    <span>{isRefreshingSnapshot ? "更新中..." : "重新聚合生成云端快照"}</span>
+                  </button>
+                </div>
+                <div className="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold">
+                  <Sparkles className="w-5 h-5" />
+                </div>
               </div>
             </div>
-          </div>
+          </WidgetErrorBoundary>
 
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-2">
             <div>
@@ -1442,7 +1427,8 @@ export default function AdminPage() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-cyan-500/20 overflow-hidden shadow-sm">
+          <WidgetErrorBoundary fallbackTitle="学员与考务人员列表加载异常">
+            <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-cyan-500/20 overflow-hidden shadow-sm">
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs text-slate-700 dark:text-zinc-300">
                 <thead className="bg-slate-50 dark:bg-zinc-900/80 border-b border-slate-200 dark:border-zinc-800 text-slate-500 dark:text-zinc-400 font-semibold">
@@ -1561,6 +1547,7 @@ export default function AdminPage() {
               </table>
             </div>
           </div>
+          </WidgetErrorBoundary>
         </div>
       )}
 
