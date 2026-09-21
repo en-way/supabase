@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import { getLocalState, LocalLearningState } from "@/lib/storage";
-import { fetchExamLobbyData } from "@/lib/examLoader";
+import { fetchExamLobbyData, clearStaticExamCache } from "@/lib/examLoader";
 import { 
   BookOpen, 
   Clock, 
@@ -80,11 +80,12 @@ export default function HomePage() {
     loadData(false);
   }, []);
 
-  const handleForceRefresh = () => {
+  const handleForceRefresh = async () => {
     try {
       sessionStorage.removeItem("enway_cache_cats");
       sessionStorage.removeItem("enway_cache_exams");
       sessionStorage.removeItem("enway_cache_time");
+      await clearStaticExamCache();
     } catch {}
     loadData(true);
   };

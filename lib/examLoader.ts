@@ -7,14 +7,89 @@ export interface ExamDetailData {
   fromStaticMirror?: boolean;
 }
 
-// In-memory session cache for loaded exam packages
+const CACHE_NAME = "enway-static-v1";
+const hasCacheStorage = typeof window !== "undefined" && "caches" in window;
+
+// In-memory session cache for loaded exam packages (Tier 1: 0ms)
 const examDetailMemoryCache: Record<string, ExamDetailData> = {};
 
 /**
+ * Reads a cached Response object from browser CacheStorage
+ */
+async function getCachedResponse(url: string): Promise<Response | null> {
+  if (!hasCacheStorage) return null;
+  try {
+    const cache = await caches.open(CACHE_NAME);
+    const match = await cache.match(url);
+    return match || null;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Stores a cloned Response object into browser CacheStorage
+ */
+async function putCachedResponse(url: string, res: Response): Promise<void> {
+  if (!hasCacheStorage) return;
+  try {
+    const cache = await caches.open(CACHE_NAME);
+    await cache.put(url, res.clone());
+  } catch {
+    // QuotaExceededError or private browsing restrictions, non-fatal
+  }
+}
+
+/**
+ * Background silent revalidation for lobby metadata
+ */
+function revalidateLobbyInBackground() {
+  if (typeof window === "undefined") return;
+  setTimeout(async () => {
+    try {
+      const [catRes, examRes] = await Promise.all([
+        fetch("/data/categories.json", { cache: "reload" }),
+        fetch("/data/exams.json", { cache: "reload" }),
+      ]);
+      if (catRes.ok && examRes.ok) {
+        await Promise.all([
+          putCachedResponse("/data/categories.json", catRes),
+          putCachedResponse("/data/exams.json", examRes),
+        ]);
+      }
+    } catch {
+      // Offline / network failure during silent background revalidate is safe to ignore
+    }
+  }, 1000);
+}
+
+/**
  * Loads exam lobby data (categories + approved exams).
- * Priority: Cloudflare Pages static CDN -> Supabase fallback.
+ * Priority: 
+ *   Tier 1: Browser CacheStorage (0ms, 0 network, offline ready)
+ *   Tier 2: Cloudflare Pages static CDN -> update CacheStorage
+ *   Tier 3: Supabase fallback
  */
 export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: any[] }> {
+  // 1. Tier 1: Check browser persistent CacheStorage first
+  try {
+    const [cachedCat, cachedExam] = await Promise.all([
+      getCachedResponse("/data/categories.json"),
+      getCachedResponse("/data/exams.json"),
+    ]);
+
+    if (cachedCat && cachedExam) {
+      const categories = await cachedCat.json();
+      const exams = await cachedExam.json();
+      // Silent background revalidation keeps data fresh without slowing down rendering
+      revalidateLobbyInBackground();
+      return { categories, exams };
+    }
+  } catch (err) {
+    console.warn("[ExamLoader] CacheStorage lookup failed:", err);
+  }
+
+  // 2. Tier 2: Fetch from Cloudflare Pages static CDN
   try {
     const [catRes, examRes] = await Promise.all([
       fetch("/data/categories.json", { cache: "default" }),
@@ -22,6 +97,9 @@ export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: 
     ]);
 
     if (catRes.ok && examRes.ok) {
+      putCachedResponse("/data/categories.json", catRes);
+      putCachedResponse("/data/exams.json", examRes);
+
       const categories = await catRes.json();
       const exams = await examRes.json();
       return { categories, exams };
@@ -30,7 +108,7 @@ export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: 
     console.warn("[ExamLoader] Static lobby cache miss or network failure, falling back to Supabase:", e);
   }
 
-  // Fallback to Supabase PostgREST
+  // 3. Tier 3: Fallback to Supabase PostgREST
   const [catRes, examRes] = await Promise.all([
     supabase.from("categories").select("*").order("sort_order"),
     supabase
@@ -53,34 +131,51 @@ export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: 
 
 /**
  * Loads full exam details (exam info + passages + questions).
- * 1. Checks memory cache (0ms).
- * 2. Fetches from Cloudflare Pages static CDN mirror (/data/exams/{id}.json) (15ms, 0 Supabase DB quota).
- * 3. Falls back to Supabase PostgREST if not present in static mirror (e.g., newly added custom mock exam).
+ * Tier 1: In-memory cache (0ms).
+ * Tier 2: Browser persistent CacheStorage (0 network, 100% offline capable).
+ * Tier 3: Cloudflare Pages static CDN mirror (/data/exams/{id}.json) (15ms, 0 Supabase DB quota).
+ * Tier 4: Falls back to Supabase PostgREST if not present in static mirror.
  */
 export async function fetchExamDetailWithFallback(examId: string): Promise<ExamDetailData | null> {
   if (!examId) return null;
 
-  // 1. In-memory cache hit
+  // Tier 1: In-memory cache hit
   if (examDetailMemoryCache[examId]) {
     return examDetailMemoryCache[examId];
   }
 
-  // 2. Try Cloudflare Pages static CDN mirror
+  const staticUrl = `/data/exams/${encodeURIComponent(examId)}.json`;
+
+  // Tier 2: Browser persistent CacheStorage
   try {
-    const res = await fetch(`/data/exams/${encodeURIComponent(examId)}.json`, {
+    const cachedRes = await getCachedResponse(staticUrl);
+    if (cachedRes) {
+      const data: ExamDetailData = await cachedRes.json();
+      data.fromStaticMirror = true;
+      examDetailMemoryCache[examId] = data;
+      return data;
+    }
+  } catch (err) {
+    console.warn(`[ExamLoader] Error reading CacheStorage for ${staticUrl}:`, err);
+  }
+
+  // Tier 3: Try Cloudflare Pages static CDN mirror
+  try {
+    const res = await fetch(staticUrl, {
       cache: "default",
     });
     if (res.ok) {
+      putCachedResponse(staticUrl, res);
       const data: ExamDetailData = await res.json();
       data.fromStaticMirror = true;
       examDetailMemoryCache[examId] = data;
       return data;
     }
   } catch (err) {
-    console.warn(`[ExamLoader] Static exam /data/exams/${examId}.json not found or error, trying Supabase...`);
+    console.warn(`[ExamLoader] Static exam ${staticUrl} not found or network offline, trying Supabase...`);
   }
 
-  // 3. Fallback to Supabase
+  // Tier 4: Fallback to Supabase PostgREST
   try {
     const { data: examData, error: examErr } = await supabase
       .from("exams")
@@ -114,5 +209,17 @@ export async function fetchExamDetailWithFallback(examId: string): Promise<ExamD
   } catch (err) {
     console.error(`[ExamLoader] Failed to load exam ${examId} from Supabase:`, err);
     return null;
+  }
+}
+
+/**
+ * Manually invalidates or clears the static cache
+ */
+export async function clearStaticExamCache(): Promise<boolean> {
+  if (!hasCacheStorage) return false;
+  try {
+    return await caches.delete(CACHE_NAME);
+  } catch {
+    return false;
   }
 }
