@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import AuthGuard from "@/components/AuthGuard";
+import PresenceProvider from "@/components/PresenceProvider";
 import DictionaryPopover from "@/components/DictionaryPopover";
 
 export const metadata: Metadata = {
@@ -25,11 +26,13 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen bg-background text-foreground flex flex-col antialiased selection:bg-nature-200 selection:text-nature-900 dark:selection:bg-cyber-500/30 dark:selection:text-cyber-200">
         <AuthGuard>
-          <Navbar />
-          <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
-            {children}
-          </main>
-          <DictionaryPopover />
+          <PresenceProvider>
+            <Navbar />
+            <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
+              {children}
+            </main>
+            <DictionaryPopover />
+          </PresenceProvider>
         </AuthGuard>
       </body>
     </html>

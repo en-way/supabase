@@ -134,9 +134,26 @@ export default function LoginPage() {
         // Clean local state for newly registered user
         clearLocalData("all");
 
+        const getRedirectTarget = () => {
+          if (typeof window === "undefined") return "/";
+          try {
+            const params = new URLSearchParams(window.location.search);
+            const r = params.get("redirect");
+            if (r && r.startsWith("/") && !r.startsWith("//")) return r;
+          } catch {}
+          return "/";
+        };
+
+        const targetUrl = getRedirectTarget();
+
+        // Touch active timestamp
+        try {
+          await supabase.rpc("touch_user_activity");
+        } catch {}
+
         if (data.session) {
           setSuccessMsg("注册成功！正在为您初始化学习数据...");
-          setTimeout(() => router.push("/"), 600);
+          setTimeout(() => router.push(targetUrl), 600);
         } else {
           // If auto sign-in is needed
           const { error: signInErr } = await supabase.auth.signInWithPassword({
@@ -145,7 +162,7 @@ export default function LoginPage() {
           });
           if (signInErr) throw signInErr;
           setSuccessMsg("注册成功！正在进入系统...");
-          router.push("/");
+          router.push(targetUrl);
         }
       } else {
         const { error } = await supabase.auth.signInWithPassword({
@@ -162,6 +179,11 @@ export default function LoginPage() {
 
         setSuccessMsg("登录成功，正在从云端对象存储同步并校对存档...");
 
+        // Touch active timestamp on login
+        try {
+          await supabase.rpc("touch_user_activity");
+        } catch {}
+
         // Wipe old device cache to prevent account data bleed-through
         clearLocalData("all");
 
@@ -173,7 +195,17 @@ export default function LoginPage() {
           console.warn("Cloud backup pull or reconcile skipped/empty:", syncErr);
         }
 
-        router.push("/");
+        const getRedirectTarget = () => {
+          if (typeof window === "undefined") return "/";
+          try {
+            const params = new URLSearchParams(window.location.search);
+            const r = params.get("redirect");
+            if (r && r.startsWith("/") && !r.startsWith("//")) return r;
+          } catch {}
+          return "/";
+        };
+
+        router.push(getRedirectTarget());
       }
     } catch (err: any) {
       setErrorMsg(err.message || "操作失败，请稍后重试");

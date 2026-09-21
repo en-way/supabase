@@ -314,6 +314,13 @@ export function saveExamResult(result: ExamResult) {
   // Clear draft once submitted
   delete state.examDrafts[result.examId];
   saveLocalState(state);
+
+  // Touch active timestamp on exam submission
+  if (typeof window !== "undefined") {
+    try {
+      supabase.rpc("touch_user_activity").then(() => {}, () => {});
+    } catch {}
+  }
 }
 
 // ------------------- Cloud Backup & Restore via Supabase 1GB Storage -------------------
@@ -338,7 +345,18 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
     }));
 
     const jsonString = JSON.stringify(state);
-    const blob = new Blob([jsonString], { type: "application/json" });
+
+    // 🗜️ Free Quota Optimization: Native Gzip compression before uploading to Storage Bucket
+    let blob: Blob;
+    if (typeof CompressionStream !== "undefined") {
+      const stream = new Blob([jsonString], { type: "application/json" })
+        .stream()
+        .pipeThrough(new CompressionStream("gzip"));
+      blob = await new Response(stream).blob();
+    } else {
+      blob = new Blob([jsonString], { type: "application/json" });
+    }
+
     const filePath = `${user.id}/backup.json`;
 
     // 1. Upload file into private Storage Bucket: 'user-backups' (1GB free space)
@@ -357,7 +375,7 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
       vocabCount: state.vocabulary.length,
       favoritesCount: state.favorites.length,
       examsCount: Object.keys(state.examResults).length,
-      storageType: "supabase_storage_bucket",
+      storageType: "supabase_storage_bucket_gzip",
       backedUpAt: new Date().toISOString(),
     };
 
@@ -371,6 +389,11 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
       });
 
     if (dbErr) console.warn("Notice: updated storage file, metadata sync:", dbErr.message);
+
+    // Touch active timestamp on cloud backup
+    try {
+      await supabase.rpc("touch_user_activity");
+    } catch {}
 
     return { success: true };
   } catch (err: any) {
@@ -396,7 +419,23 @@ export async function downloadBackupFromCloud(): Promise<{ success: boolean; sum
       return { success: false, error: "云端对象存储中暂无备份文件" };
     }
 
-    const text = await fileBlob.text();
+    // 🗜️ Smart decompression: auto-detects gzip magic bytes 0x1f 0x8b, fully backward-compatible
+    let text = "";
+    try {
+      const buffer = await fileBlob.slice(0, 2).arrayBuffer();
+      const header = new Uint8Array(buffer);
+      const isGzip = header[0] === 0x1f && header[1] === 0x8b;
+
+      if (isGzip && typeof DecompressionStream !== "undefined") {
+        const stream = fileBlob.stream().pipeThrough(new DecompressionStream("gzip"));
+        text = await new Response(stream).text();
+      } else {
+        text = await fileBlob.text();
+      }
+    } catch {
+      text = await fileBlob.text();
+    }
+
     if (!text) {
       return { success: false, error: "云端存档内容为空" };
     }

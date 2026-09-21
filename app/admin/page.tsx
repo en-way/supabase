@@ -36,14 +36,23 @@ import {
   ChevronRight,
   FileEdit,
   Code2,
-  Save
+  Save,
+  Radio,
+  Activity
 } from "lucide-react";
+import { fetchAnalyticsSnapshot, refreshAnalyticsSnapshot, AnalyticsSnapshot } from "@/lib/analyticsSnapshot";
 
 export default function AdminPage() {
   const router = useRouter();
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [currentRole, setCurrentRole] = useState<"super_admin" | "admin" | "student" | null>(null);
   const [activeTab, setActiveTab] = useState<"exams" | "approvals" | "import" | "users" | "settings">("exams");
+
+  // Realtime Online Presence state (Super Admin live counter - 0 DB writes)
+  const [onlineUserIds, setOnlineUserIds] = useState<Set<string>>(new Set());
+  const [analyticsSnapshot, setAnalyticsSnapshot] = useState<AnalyticsSnapshot | null>(null);
+  const [isRefreshingSnapshot, setIsRefreshingSnapshot] = useState(false);
+  const [userSortOrder, setUserSortOrder] = useState<"active_desc" | "created_desc">("active_desc");
 
   // Exams list
   const [exams, setExams] = useState<any[]>([]);
@@ -163,6 +172,34 @@ export default function AdminPage() {
     checkRole();
   }, [router]);
 
+  // Realtime Presence tracking for Super Admin (0 DB writes)
+  useEffect(() => {
+    if (currentRole !== "super_admin") return;
+
+    const channel = supabase.channel("online-presence");
+    channel.on("presence", { event: "sync" }, () => {
+      const state = channel.presenceState();
+      const userIds = new Set<string>();
+      for (const key in state) {
+        const presences = state[key] as any[];
+        for (const p of presences) {
+          if (p?.user_id) userIds.add(p.user_id);
+        }
+      }
+      setOnlineUserIds(userIds);
+    });
+    channel.subscribe();
+
+    // Load pre-rendered analytics snapshot from Storage Bucket (0 DB CPU)
+    fetchAnalyticsSnapshot().then(({ snapshot }) => {
+      if (snapshot) setAnalyticsSnapshot(snapshot);
+    });
+
+    return () => {
+      supabase.removeChannel(channel);
+    };
+  }, [currentRole]);
+
   const loadExams = async () => {
     const { data } = await supabase
       .from("exams")
@@ -187,8 +224,42 @@ export default function AdminPage() {
     const { data } = await supabase
       .from("profiles")
       .select("*")
-      .order("created_at", { ascending: false });
+      .order("last_active_at", { ascending: false, nullsFirst: false });
     if (data) setUserList(data);
+  };
+
+  const handleRefreshSnapshot = async () => {
+    setIsRefreshingSnapshot(true);
+    try {
+      const snap = await refreshAnalyticsSnapshot();
+      if (snap) {
+        setAnalyticsSnapshot(snap);
+        showNotification("success", "统计大盘快照已成功刷新至云端 Storage 桶！");
+      }
+    } catch (err: any) {
+      showNotification("error", "刷新快照失败: " + err.message);
+    } finally {
+      setIsRefreshingSnapshot(false);
+    }
+  };
+
+  const formatRelativeTime = (isoString?: string | null, userId?: string) => {
+    if (userId && onlineUserIds.has(userId)) {
+      return "刚刚 (正在做题/在线)";
+    }
+    if (!isoString) return "从未在线";
+    const date = new Date(isoString);
+    const diffMs = Date.now() - date.getTime();
+    if (diffMs < 0 || isNaN(diffMs)) return "刚刚";
+    const diffSec = Math.floor(diffMs / 1000);
+    if (diffSec < 60) return "刚刚";
+    const diffMin = Math.floor(diffSec / 60);
+    if (diffMin < 60) return `${diffMin}分钟前`;
+    const diffHour = Math.floor(diffMin / 60);
+    if (diffHour < 24) return `${diffHour}小时前`;
+    const diffDay = Math.floor(diffHour / 24);
+    if (diffDay < 30) return `${diffDay}天前`;
+    return date.toLocaleDateString();
   };
 
   const loadSettings = async () => {
@@ -865,6 +936,19 @@ export default function AdminPage() {
 
   const isSuperAdmin = currentRole === "super_admin";
 
+  const sortedUsers = [...userList].sort((a, b) => {
+    const aOnline = onlineUserIds.has(a.id);
+    const bOnline = onlineUserIds.has(b.id);
+    if (userSortOrder === "active_desc") {
+      if (aOnline && !bOnline) return -1;
+      if (!aOnline && bOnline) return 1;
+      const aTime = a.last_active_at ? new Date(a.last_active_at).getTime() : 0;
+      const bTime = b.last_active_at ? new Date(b.last_active_at).getTime() : 0;
+      return bTime - aTime;
+    }
+    return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
+  });
+
   return (
     <div className="space-y-6 animate-in fade-in duration-150">
       {/* Notice Banner */}
@@ -1239,23 +1323,123 @@ export default function AdminPage() {
       {/* Tab 4: Users & Roles (Super Admin Exclusive)                              */}
       {/* ========================================================================= */}
       {isSuperAdmin && activeTab === "users" && (
-        <div className="space-y-4">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div className="space-y-5">
+          {/* Top Monitoring Cards (Presence & Storage Analytics Snapshot) */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {/* Card 1: Live Presence (0 DB writes) */}
+            <div className="bg-gradient-to-br from-emerald-500/10 via-emerald-500/5 to-transparent dark:from-emerald-500/20 dark:to-transparent p-4 rounded-2xl border border-emerald-200 dark:border-emerald-500/30 flex items-center justify-between shadow-xs">
+              <div className="space-y-1">
+                <div className="flex items-center space-x-1.5">
+                  <span className="relative flex h-2.5 w-2.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                  </span>
+                  <span className="text-xs font-bold text-emerald-800 dark:text-emerald-300">当前实时在场</span>
+                </div>
+                <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
+                  {onlineUserIds.size} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人正在使用</span>
+                </div>
+                <p className="text-[10px] text-emerald-700/80 dark:text-emerald-400/80">
+                  ⚡ 纯内存 WebSocket 广播 · 0 磁盘写配额消耗
+                </p>
+              </div>
+              <div className="w-10 h-10 rounded-xl bg-emerald-100 dark:bg-emerald-950/60 text-emerald-600 dark:text-emerald-400 flex items-center justify-center font-bold">
+                <Radio className="w-5 h-5 animate-pulse" />
+              </div>
+            </div>
+
+            {/* Card 2: Registered Students */}
+            <div className="bg-white dark:bg-[#11131a] p-4 rounded-2xl border border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shadow-xs">
+              <div className="space-y-1">
+                <span className="text-xs font-bold text-slate-500 dark:text-zinc-400">已注册学员</span>
+                <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
+                  {userList.filter(u => u.role === "student").length}
+                  {settings.maxStudentsLimit > 0 && (
+                    <span className="text-xs font-normal text-slate-400 dark:text-zinc-500 font-sans">
+                      {" "}/ {settings.maxStudentsLimit} 限额
+                    </span>
+                  )}
+                </div>
+                <p className="text-[10px] text-slate-400 dark:text-zinc-500">
+                  全站总账号: {userList.length} 人 (含管理特权席位)
+                </p>
+              </div>
+              <div className="w-10 h-10 rounded-xl bg-indigo-50 dark:bg-cyan-500/10 text-indigo-600 dark:text-cyan-400 flex items-center justify-center font-bold">
+                <Users className="w-5 h-5" />
+              </div>
+            </div>
+
+            {/* Card 3: Storage Snapshot Offload (0 DB CPU) */}
+            <div className="bg-white dark:bg-[#11131a] p-4 rounded-2xl border border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shadow-xs">
+              <div className="space-y-1">
+                <div className="flex items-center space-x-1.5">
+                  <Activity className="w-3.5 h-3.5 text-indigo-600 dark:text-cyan-400" />
+                  <span className="text-xs font-bold text-slate-700 dark:text-zinc-300">1GB Storage 预计算快照</span>
+                </div>
+                <div className="text-xs font-medium text-slate-600 dark:text-zinc-300">
+                  {analyticsSnapshot ? (
+                    <span>{analyticsSnapshot.totalExams} 套试卷 · {analyticsSnapshot.totalBackups} 份云快照</span>
+                  ) : (
+                    <span>直接读取静态快照 (0 数据库计算)</span>
+                  )}
+                </div>
+                <button
+                  onClick={handleRefreshSnapshot}
+                  disabled={isRefreshingSnapshot}
+                  className="inline-flex items-center space-x-1 text-[10px] font-bold text-indigo-600 hover:text-indigo-700 dark:text-cyan-400 dark:hover:text-cyan-300 transition-colors"
+                >
+                  <RefreshCw className={`w-3 h-3 ${isRefreshingSnapshot ? "animate-spin" : ""}`} />
+                  <span>{isRefreshingSnapshot ? "更新中..." : "重新聚合生成云端快照"}</span>
+                </button>
+              </div>
+              <div className="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-950/40 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold">
+                <Sparkles className="w-5 h-5" />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-2">
             <div>
               <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">学员账号与权限管理</h3>
               <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5">
-                支持任命/降职普通管理员、重置单人密码及一键批量重置所有学员密码
+                支持查看全员实时在线/上次在线时间、任命普通管理员、重置单人密码及一键批量重置学员密码
               </p>
             </div>
             
-            {/* Batch Reset All Students Button */}
-            <button
-              onClick={() => setShowBatchResetModal(true)}
-              className="px-4 py-2 bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-700 hover:to-amber-700 text-white rounded-xl text-xs font-bold flex items-center space-x-2 shadow-sm"
-            >
-              <KeyRound className="w-3.5 h-3.5" />
-              <span>🔥 一键重置所有学员密码</span>
-            </button>
+            <div className="flex items-center space-x-2">
+              {/* Sort Order Selector */}
+              <div className="flex items-center bg-slate-100 dark:bg-zinc-800/80 p-1 rounded-xl text-xs font-medium">
+                <button
+                  onClick={() => setUserSortOrder("active_desc")}
+                  className={`px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all ${
+                    userSortOrder === "active_desc" 
+                      ? "bg-white dark:bg-cyan-500 text-slate-900 dark:text-zinc-950 shadow-xs" 
+                      : "text-slate-500 dark:text-zinc-400"
+                  }`}
+                >
+                  按在线时间排序
+                </button>
+                <button
+                  onClick={() => setUserSortOrder("created_desc")}
+                  className={`px-2.5 py-1 rounded-lg text-[11px] font-bold transition-all ${
+                    userSortOrder === "created_desc" 
+                      ? "bg-white dark:bg-cyan-500 text-slate-900 dark:text-zinc-950 shadow-xs" 
+                      : "text-slate-500 dark:text-zinc-400"
+                  }`}
+                >
+                  按注册时间排序
+                </button>
+              </div>
+
+              {/* Batch Reset All Students Button */}
+              <button
+                onClick={() => setShowBatchResetModal(true)}
+                className="px-3.5 py-2 bg-gradient-to-r from-rose-600 to-amber-600 hover:from-rose-700 hover:to-amber-700 text-white rounded-xl text-xs font-bold flex items-center space-x-1.5 shadow-sm"
+              >
+                <KeyRound className="w-3.5 h-3.5" />
+                <span>🔥 批量重置学员密码</span>
+              </button>
+            </div>
           </div>
 
           <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-cyan-500/20 overflow-hidden shadow-sm">
@@ -1266,16 +1450,19 @@ export default function AdminPage() {
                     <th className="p-4">用户名 / 学号</th>
                     <th className="p-4">昵称</th>
                     <th className="p-4">权限角色</th>
+                    <th className="p-4">在线状态</th>
+                    <th className="p-4">上次在线时间</th>
                     <th className="p-4">注册时间</th>
                     <th className="p-4 text-right">角色调整</th>
                     <th className="p-4 text-right">密码操作</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100 dark:divide-zinc-800">
-                  {userList.map((u) => {
+                  {sortedUsers.map((u) => {
                     const isSuper = u.role === "super_admin";
                     const isAdmin = u.role === "admin";
                     const isStudent = u.role === "student";
+                    const isUserOnline = onlineUserIds.has(u.id);
 
                     return (
                       <tr key={u.id} className="hover:bg-slate-50/60 dark:hover:bg-zinc-800/40 transition-colors">
@@ -1285,7 +1472,7 @@ export default function AdminPage() {
                           {isSuper ? (
                             <span className="px-2.5 py-1 rounded-full font-black text-[10px] bg-gradient-to-r from-amber-500/15 via-purple-500/15 to-indigo-500/15 text-amber-900 dark:text-amber-300 border border-amber-300/80 dark:border-amber-500/30 inline-flex items-center space-x-1 shadow-xs">
                               <Crown className="w-3 h-3 text-amber-600 dark:text-amber-400 fill-amber-400" />
-                              <span>👑 超级管理员 (全站独占)</span>
+                              <span>👑 超级管理员</span>
                             </span>
                           ) : isAdmin ? (
                             <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-indigo-100 dark:bg-cyan-500/20 text-indigo-800 dark:text-cyan-300 border border-transparent dark:border-cyan-500/30">
@@ -1296,6 +1483,27 @@ export default function AdminPage() {
                               🎓 学员
                             </span>
                           )}
+                        </td>
+                        {/* Live Online Presence Indicator */}
+                        <td className="p-4">
+                          {isUserOnline ? (
+                            <span className="px-2 py-0.5 rounded-full font-bold text-[10px] bg-emerald-100 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300 border border-emerald-300/80 dark:border-emerald-500/30 inline-flex items-center space-x-1.5 shadow-xs">
+                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                              <span>在线 (当前在场)</span>
+                            </span>
+                          ) : (
+                            <span className="px-2 py-0.5 rounded-full font-medium text-[10px] bg-slate-100 dark:bg-zinc-800 text-slate-500 dark:text-zinc-400 inline-flex items-center space-x-1">
+                              <span className="w-1.5 h-1.5 rounded-full bg-slate-400" />
+                              <span>离线</span>
+                            </span>
+                          )}
+                        </td>
+                        {/* Last Active At Relative Time with Tooltip */}
+                        <td 
+                          className="p-4 font-mono font-medium text-slate-700 dark:text-zinc-300"
+                          title={u.last_active_at ? new Date(u.last_active_at).toLocaleString() : "暂无在线记录"}
+                        >
+                          {formatRelativeTime(u.last_active_at, u.id)}
                         </td>
                         <td className="p-4 text-slate-400 dark:text-zinc-500 font-mono">
                           {new Date(u.created_at).toLocaleDateString()}

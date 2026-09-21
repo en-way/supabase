@@ -1,0 +1,26 @@
+name: Supabase Free Tier Keep-Alive
+
+on:
+  schedule:
+    # Run at 00:00 UTC every 3 days to eliminate Supabase 7-day auto-pause
+    - cron: "0 0 */3 * *"
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab
+
+jobs:
+  ping:
+    name: Supabase Health Heartbeat
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Lightweight Read Ping to Supabase
+        run: |
+          echo "Sending keep-alive heartbeat to Supabase project..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnaHlic3BzanR6aWhwenBhaGNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3NjQ2OTgsImV4cCI6MjEwNTM0MDY5OH0.64uRYk9fCvrEfn4ifhk-PSd1ypGjVz_PTiHwgBPiHpM" \
+            "https://pghybspsjtzihpzpahcf.supabase.co/rest/v1/system_settings?select=id&limit=1")
+          echo "Response HTTP Status: $STATUS"
+          if [ "$STATUS" -ge 200 ] && [ "$STATUS" -lt 400 ]; then
+            echo "✅ Supabase project is active and healthy!"
+          else
+            echo "⚠️ Heartbeat returned status: $STATUS"
+            exit 1
+          fi
