@@ -84,6 +84,9 @@ function ExamContent() {
         if (draft) {
           setAnswers(draft.answers || {});
           setRemainingSeconds(draft.remainingSeconds || (examData?.duration_minutes || 60) * 60);
+          if (typeof draft.focusedIndex === "number" && draft.focusedIndex >= 0 && draft.focusedIndex < questionData.length) {
+            setFocusedIndex(draft.focusedIndex);
+          }
         } else if (examData?.duration_minutes) {
           setRemainingSeconds(examData.duration_minutes * 60);
         }
@@ -114,14 +117,30 @@ function ExamContent() {
     return () => clearInterval(timer);
   }, [loading, isSubmitted, remainingSeconds]);
 
-  // Auto-save draft every 5 seconds
+  // Periodic draft background sync every 5 seconds (updates remaining countdown)
   useEffect(() => {
     if (!examId || isSubmitted || loading) return;
     const saveTimer = setTimeout(() => {
-      saveExamDraft(examId, answers, remainingSeconds);
+      saveExamDraft(examId, answers, remainingSeconds, focusedIndex);
     }, 5000);
     return () => clearTimeout(saveTimer);
-  }, [examId, answers, remainingSeconds, isSubmitted, loading]);
+  }, [examId, answers, remainingSeconds, focusedIndex, isSubmitted, loading]);
+
+  // BeforeUnload Exit Protection: Guarantee instant flush and prevent accidental tab closes
+  useEffect(() => {
+    if (!examId || isSubmitted || loading) return;
+
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      saveExamDraft(examId, answers, remainingSeconds, focusedIndex);
+      if (Object.keys(answers).length > 0) {
+        e.preventDefault();
+        e.returnValue = "";
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [examId, answers, remainingSeconds, focusedIndex, isSubmitted, loading]);
 
   // PC Keyboard Shortcuts: A/B/C/D to select, Arrow keys to navigate
   useEffect(() => {
@@ -178,10 +197,16 @@ function ExamContent() {
 
   const handleSelectAnswer = (qId: string, optionKey: string) => {
     if (isSubmitted) return;
-    setAnswers((prev) => ({
-      ...prev,
-      [qId]: optionKey,
-    }));
+    setAnswers((prev) => {
+      const next = {
+        ...prev,
+        [qId]: optionKey,
+      };
+      if (examId) {
+        saveExamDraft(examId, next, remainingSeconds, focusedIndex);
+      }
+      return next;
+    });
   };
 
   const handleSubmit = (auto = false) => {
@@ -321,6 +346,10 @@ function ExamContent() {
               </span>
               <span className="text-xs text-stone-400 dark:text-zinc-500 hidden sm:inline font-mono">
                 已答 {answeredCount} / {questions.length} 题
+              </span>
+              <span className="hidden md:inline-flex items-center space-x-1 px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200/60 dark:border-emerald-500/20">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                <span>实时草稿保全</span>
               </span>
             </div>
             <h2 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100 truncate mt-0.5">

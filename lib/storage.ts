@@ -82,6 +82,14 @@ export interface ExamDraft {
   examId: string;
   answers: Record<string, string>;
   remainingSeconds: number;
+  focusedIndex?: number;
+  lastUpdated: string;
+}
+
+export interface PracticeDraft {
+  examId: string;
+  answers: Record<string, string>;
+  currentIndex: number;
   lastUpdated: string;
 }
 
@@ -102,6 +110,7 @@ export interface LocalLearningState {
   favorites: FavoriteItem[];
   examResults: Record<string, ExamResult>;
   examDrafts: Record<string, ExamDraft>;
+  practiceDrafts?: Record<string, PracticeDraft>;
 }
 
 const STORAGE_KEY = "enway_local_learning_data";
@@ -113,6 +122,7 @@ export function getLocalState(): LocalLearningState {
     favorites: [],
     examResults: {},
     examDrafts: {},
+    practiceDrafts: {},
   };
   if (typeof window === "undefined") {
     return defaultState;
@@ -270,7 +280,7 @@ export function updateFavoriteNote(questionId: string, note: string) {
 }
 
 // ------------------- Exam Drafts (Auto-Save Resilience) -------------------
-export function saveExamDraft(examId: string, answers: Record<string, string>, remainingSeconds: number) {
+export function saveExamDraft(examId: string, answers: Record<string, string>, remainingSeconds: number, focusedIndex?: number) {
   if (!examId) return;
   const state = getLocalState();
   if (!state.examDrafts || typeof state.examDrafts !== "object") {
@@ -280,6 +290,7 @@ export function saveExamDraft(examId: string, answers: Record<string, string>, r
     examId,
     answers: answers || {},
     remainingSeconds: typeof remainingSeconds === "number" ? remainingSeconds : 3600,
+    focusedIndex: typeof focusedIndex === "number" ? focusedIndex : 0,
     lastUpdated: new Date().toISOString(),
   };
   saveLocalState(state);
@@ -296,6 +307,37 @@ export function clearExamDraft(examId: string) {
   const state = getLocalState();
   if (state.examDrafts && typeof state.examDrafts === "object") {
     delete state.examDrafts[examId];
+    saveLocalState(state);
+  }
+}
+
+// ------------------- Practice Drafts (Smart Practice Resume) -------------------
+export function savePracticeDraft(examId: string, answers: Record<string, string>, currentIndex: number) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (!state.practiceDrafts || typeof state.practiceDrafts !== "object") {
+    state.practiceDrafts = {};
+  }
+  state.practiceDrafts[examId] = {
+    examId,
+    answers: answers || {},
+    currentIndex: typeof currentIndex === "number" ? currentIndex : 0,
+    lastUpdated: new Date().toISOString(),
+  };
+  saveLocalState(state);
+}
+
+export function getPracticeDraft(examId: string): PracticeDraft | null {
+  if (!examId) return null;
+  const state = getLocalState();
+  return state.practiceDrafts?.[examId] || null;
+}
+
+export function clearPracticeDraft(examId: string) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (state.practiceDrafts && typeof state.practiceDrafts === "object") {
+    delete state.practiceDrafts[examId];
     saveLocalState(state);
   }
 }

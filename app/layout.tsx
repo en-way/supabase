@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import AuthGuard from "@/components/AuthGuard";
 import PresenceProvider from "@/components/PresenceProvider";
 import DictionaryPopover from "@/components/DictionaryPopover";
+import NetworkStatusIndicator from "@/components/NetworkStatusIndicator";
 
 export const metadata: Metadata = {
   title: "Enway - 在线英语刷题与全真模考系统",
@@ -25,6 +26,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-background text-foreground flex flex-col antialiased selection:bg-nature-200 selection:text-nature-900 dark:selection:bg-cyber-500/30 dark:selection:text-cyber-200">
+        <NetworkStatusIndicator />
         <AuthGuard>
           <PresenceProvider>
             <Navbar />

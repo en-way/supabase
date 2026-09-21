@@ -9,7 +9,10 @@ import {
   toggleFavorite, 
   updateFavoriteNote, 
   getLocalState,
-  normalizeOptions 
+  normalizeOptions,
+  savePracticeDraft,
+  getPracticeDraft,
+  clearPracticeDraft
 } from "@/lib/storage";
 import { fetchExamDetailWithFallback } from "@/lib/examLoader";
 import { 
@@ -21,7 +24,8 @@ import {
   ChevronLeft, 
   Type, 
   Sparkles,
-  Edit3
+  Edit3,
+  RotateCcw
 } from "lucide-react";
 
 function PracticeContent() {
@@ -64,6 +68,20 @@ function PracticeContent() {
           if (f && f.questionId && f.note) notesMap[f.questionId] = f.note;
         });
         setEditingNotes(notesMap);
+
+        // Smart Practice Resume: Restore previous draft progress if exists
+        const draft = getPracticeDraft(examId);
+        if (draft) {
+          setUserAnswers(draft.answers || {});
+          if (typeof draft.currentIndex === "number" && draft.currentIndex >= 0 && draft.currentIndex < (detail?.questions || []).length) {
+            setCurrentIndex(draft.currentIndex);
+          }
+          const expMap: Record<string, boolean> = {};
+          Object.keys(draft.answers || {}).forEach((qId) => {
+            expMap[qId] = true;
+          });
+          setShowExplanation(expMap);
+        }
       } catch (err) {
         console.error("Failed to load practice data:", err);
       } finally {
@@ -73,14 +91,38 @@ function PracticeContent() {
     loadExam();
   }, [examId]);
 
+  const navigateTo = (newIdx: number) => {
+    const safeIdx = Math.max(0, Math.min(questions.length - 1, newIdx));
+    setCurrentIndex(safeIdx);
+    if (examId) {
+      savePracticeDraft(examId, userAnswers, safeIdx);
+    }
+  };
+
+  const handleResetPractice = () => {
+    if (!window.confirm("确定要重新开始本卷练习吗？当前已作答的选项与解析进度将被重置。")) return;
+    if (examId) {
+      clearPracticeDraft(examId);
+    }
+    setUserAnswers({});
+    setShowExplanation({});
+    setCurrentIndex(0);
+  };
+
   const handleSelectOption = (key: string) => {
     const q = questions[currentIndex] || questions[0];
     if (!q) return;
     const isAns = Boolean(userAnswers[q.id]);
     if (isAns) return;
 
-    setUserAnswers((prev) => ({ ...prev, [q.id]: key }));
+    const nextAnswers = { ...userAnswers, [q.id]: key };
+    setUserAnswers(nextAnswers);
     setShowExplanation((prev) => ({ ...prev, [q.id]: true }));
+
+    // Instant LocalStorage save with zero delay
+    if (examId) {
+      savePracticeDraft(examId, nextAnswers, currentIndex);
+    }
 
     if (key !== q.correct_answer) {
       recordMistake({
@@ -96,6 +138,20 @@ function PracticeContent() {
     }
   };
 
+  // BeforeUnload Exit Protection: sync latest draft on tab close
+  useEffect(() => {
+    if (!examId || loading) return;
+
+    const handleBeforeUnload = () => {
+      if (Object.keys(userAnswers).length > 0) {
+        savePracticeDraft(examId, userAnswers, currentIndex);
+      }
+    };
+
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [examId, userAnswers, currentIndex, loading]);
+
   // Physical keyboard shortcuts (A/B/C/D to answer, Left/Right arrow to navigate)
   // Must be called unconditionally before any early returns
   useEffect(() => {
@@ -110,10 +166,10 @@ function PracticeContent() {
         handleSelectOption(key);
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
-        setCurrentIndex((prev) => Math.max(0, prev - 1));
+        navigateTo(currentIndex - 1);
       } else if (e.key === "ArrowRight") {
         e.preventDefault();
-        setCurrentIndex((prev) => Math.min(Math.max(0, questions.length - 1), prev + 1));
+        navigateTo(currentIndex + 1);
       } else if (e.key === "ArrowUp") {
         e.preventDefault();
         passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
@@ -227,6 +283,22 @@ function PracticeContent() {
         </div>
 
         <div className="flex items-center space-x-2.5">
+          <span className="hidden md:inline-flex items-center space-x-1 px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200/60 dark:border-emerald-500/20">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+            <span>实时进度保全</span>
+          </span>
+
+          {Object.keys(userAnswers).length > 0 && (
+            <button
+              onClick={handleResetPractice}
+              title="清空当前做题记录重新开始"
+              className="px-2.5 py-1.5 rounded-lg border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-rose-600 dark:hover:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/30 text-xs font-semibold flex items-center space-x-1 transition-all shadow-subtle"
+            >
+              <RotateCcw className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">重做本卷</span>
+            </button>
+          )}
+
           {/* Keyboard shortcut reminder pill */}
           <div className="hidden lg:flex items-center space-x-1.5 text-xs text-stone-500 dark:text-zinc-400 bg-stone-50 dark:bg-zinc-900 border border-black/[0.05] dark:border-cyan-500/20 px-2.5 py-1 rounded-lg font-mono">
             <span className="text-stone-700 dark:text-zinc-300 font-bold text-[11px]">快捷键:</span>
@@ -421,7 +493,7 @@ function PracticeContent() {
           {/* Bottom Nav Buttons */}
           <div className="flex items-center justify-between">
             <button
-              onClick={() => setCurrentIndex((prev) => Math.max(0, prev - 1))}
+              onClick={() => navigateTo(currentIndex - 1)}
               disabled={currentIndex === 0}
               className="px-4 py-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 disabled:opacity-40 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
             >
@@ -430,7 +502,7 @@ function PracticeContent() {
             </button>
 
             <button
-              onClick={() => setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1))}
+              onClick={() => navigateTo(currentIndex + 1)}
               disabled={currentIndex === questions.length - 1}
               className="px-5 py-2 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 disabled:opacity-40 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle hover:shadow-card dark:shadow-glow-cyan flex items-center space-x-1.5 transition-all active:scale-[0.98]"
             >
