@@ -11,6 +11,7 @@ import {
   MistakeItem 
 } from "@/lib/storage";
 import { supabase } from "@/lib/supabase";
+import { fetchExamDetailWithFallback } from "@/lib/examLoader";
 import { 
   AlertCircle, 
   CheckCircle2, 
@@ -96,12 +97,13 @@ export default function MistakesPage() {
     fetchOnlineQuestionDetails(loadedMistakes);
   };
 
-  // Quota optimization: Fetch missing questions in ONE batched request (.in('id', ids))
+  // ⚡️ Quota Optimization: Fetch questions from Cloudflare Pages static CDN mirror first (0 DB quota, 0ms)
+  // Fall back to Supabase PostgREST only for legacy orphaned IDs.
   const fetchOnlineQuestionDetails = async (items: MistakeItem[]) => {
     if (!items || items.length === 0) return;
 
     const allIds = Array.from(new Set(items.map((m) => m.questionId)));
-    const missingIds = allIds.filter((id) => !questionDetailsCache[id]);
+    let missingIds = allIds.filter((id) => !questionDetailsCache[id]);
 
     // Update state with whatever is already in cache
     const initialMap: Record<string, OnlineQuestionDetail> = {};
@@ -116,38 +118,83 @@ export default function MistakesPage() {
 
     setIsLoadingOnline(true);
     try {
-      const { data, error } = await supabase
-        .from("questions")
-        .select(`
-          id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
-          passages (id, title, content, section_type),
-          exams (id, title, year)
-        `)
-        .in("id", missingIds);
+      // Step 1: Group missing items by examId and fetch from Cloudflare Pages static CDN (/data/exams/{id}.json)
+      const missingItems = items.filter((m) => missingIds.includes(m.questionId));
+      const examIdsToFetch = Array.from(
+        new Set(missingItems.map((m) => m.examId).filter((id): id is string => Boolean(id)))
+      );
 
-      if (error) throw error;
+      if (examIdsToFetch.length > 0) {
+        const examDetails = await Promise.all(
+          examIdsToFetch.map((id) => fetchExamDetailWithFallback(id))
+        );
 
-      if (data) {
-        data.forEach((q: any) => {
-          const detail: OnlineQuestionDetail = {
-            id: q.id,
-            exam_id: q.exam_id,
-            passage_id: q.passage_id,
-            category_id: q.category_id,
-            q_type: q.q_type,
-            stem: q.stem,
-            options: normalizeOptions(q.options),
-            correct_answer: q.correct_answer,
-            explanation: q.explanation,
-            points: Number(q.points || 2),
-            sort_order: q.sort_order || 0,
-            passages: q.passages,
-            exams: q.exams,
-          };
-          questionDetailsCache[q.id] = detail;
-          initialMap[q.id] = detail;
+        examDetails.forEach((detail) => {
+          if (!detail || !Array.isArray(detail.questions)) return;
+          const passageMap = new Map((detail.passages || []).map((p: any) => [p.id, p]));
+
+          detail.questions.forEach((q: any) => {
+            if (missingIds.includes(q.id)) {
+              const passage = q.passage_id ? passageMap.get(q.passage_id) || null : null;
+              const detailItem: OnlineQuestionDetail = {
+                id: q.id,
+                exam_id: q.exam_id || detail.exam?.id,
+                passage_id: q.passage_id,
+                category_id: q.category_id || detail.exam?.category_id || "cet4",
+                q_type: q.q_type,
+                stem: q.stem,
+                options: normalizeOptions(q.options),
+                correct_answer: q.correct_answer,
+                explanation: q.explanation,
+                points: Number(q.points || 2),
+                sort_order: q.sort_order || 0,
+                passages: passage,
+                exams: detail.exam,
+              };
+              questionDetailsCache[q.id] = detailItem;
+              initialMap[q.id] = detailItem;
+            }
+          });
         });
+
+        // Re-evaluate what remains missing after CDN lookup
+        missingIds = missingIds.filter((id) => !questionDetailsCache[id]);
         setQuestionMap({ ...initialMap });
+      }
+
+      // Step 2: Fall back to Supabase PostgREST only if any orphaned/legacy IDs remain
+      if (missingIds.length > 0) {
+        const { data, error } = await supabase
+          .from("questions")
+          .select(`
+            id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
+            passages (id, title, content, section_type),
+            exams (id, title, year)
+          `)
+          .in("id", missingIds);
+
+        if (!error && data) {
+          data.forEach((q: any) => {
+            const detail: OnlineQuestionDetail = {
+              id: q.id,
+              exam_id: q.exam_id,
+              passage_id: q.passage_id,
+              category_id: q.category_id,
+              q_type: q.q_type,
+              stem: q.stem,
+              options: normalizeOptions(q.options),
+              correct_answer: q.correct_answer,
+              explanation: q.explanation,
+              points: Number(q.points || 2),
+              sort_order: q.sort_order || 0,
+              passages: q.passages,
+              exams: q.exams,
+            };
+            questionDetailsCache[q.id] = detail;
+            initialMap[q.id] = detail;
+          });
+          setQuestionMap({ ...initialMap });
+        }
       }
 
       // Execute reconciliation to prune deleted questions or auto-heal corrected answers
