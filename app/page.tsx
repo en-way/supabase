@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { supabase } from "@/lib/supabase";
 import { getLocalState, LocalLearningState } from "@/lib/storage";
 import { fetchExamLobbyData, clearStaticExamCache } from "@/lib/examLoader";
 import { 
@@ -24,49 +23,12 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
   const [localState, setLocalState] = useState<LocalLearningState | null>(null);
 
-  const loadData = async (forceRefresh = false) => {
+  const loadData = async () => {
     setLoading(true);
-    const now = Date.now();
-
-    if (!forceRefresh) {
-      try {
-        const cachedCats = sessionStorage.getItem("enway_cache_cats");
-        const cachedExams = sessionStorage.getItem("enway_cache_exams");
-        const cacheTime = sessionStorage.getItem("enway_cache_time");
-
-        if (cachedCats && cachedExams && cacheTime && now - Number(cacheTime) < 5 * 60 * 1000) {
-          setCategories(JSON.parse(cachedCats));
-          setExams(JSON.parse(cachedExams));
-          setLocalState(getLocalState());
-          setLoading(false);
-          return;
-        }
-      } catch {}
-    }
-
     try {
-      if (!forceRefresh) {
-        const { categories: cats, exams: examList } = await fetchExamLobbyData();
-        if (cats && cats.length > 0) setCategories(cats);
-        if (examList && examList.length > 0) setExams(examList);
-      } else {
-        // Force refresh queries Supabase directly
-        const [catRes, examRes] = await Promise.all([
-          supabase.from("categories").select("*").order("sort_order"),
-          supabase
-            .from("exams")
-            .select(`
-              *,
-              questions(count),
-              passages(count)
-            `)
-            .eq("is_published", true)
-            .eq("approval_status", "approved")
-            .order("year", { ascending: false }),
-        ]);
-        if (catRes.data) setCategories(catRes.data);
-        if (examRes.data) setExams(examRes.data);
-      }
+      const { categories: cats, exams: examList } = await fetchExamLobbyData();
+      if (cats && cats.length > 0) setCategories(cats);
+      if (examList && examList.length > 0) setExams(examList);
     } catch (err) {
       console.error("Failed to load exams lobby:", err);
     } finally {
@@ -77,17 +39,14 @@ export default function HomePage() {
   };
 
   useEffect(() => {
-    loadData(false);
+    loadData();
   }, []);
 
   const handleForceRefresh = async () => {
     try {
-      sessionStorage.removeItem("enway_cache_cats");
-      sessionStorage.removeItem("enway_cache_exams");
-      sessionStorage.removeItem("enway_cache_time");
       await clearStaticExamCache();
     } catch {}
-    loadData(true);
+    await loadData();
   };
 
   const filteredExams = activeCat === "all" 

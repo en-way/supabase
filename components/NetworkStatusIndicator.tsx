@@ -1,11 +1,12 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { WifiOff, Wifi } from "lucide-react";
 
 export default function NetworkStatusIndicator() {
   const [isOnline, setIsOnline] = useState<boolean>(true);
   const [showRestoredNotice, setShowRestoredNotice] = useState<boolean>(false);
+  const restoreTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -15,15 +16,16 @@ export default function NetworkStatusIndicator() {
     const handleOnline = () => {
       setIsOnline(true);
       setShowRestoredNotice(true);
-      const timer = setTimeout(() => {
+      if (restoreTimerRef.current) clearTimeout(restoreTimerRef.current);
+      restoreTimerRef.current = setTimeout(() => {
         setShowRestoredNotice(false);
       }, 3500);
-      return () => clearTimeout(timer);
     };
 
     const handleOffline = () => {
       setIsOnline(false);
       setShowRestoredNotice(false);
+      if (restoreTimerRef.current) clearTimeout(restoreTimerRef.current);
     };
 
     window.addEventListener("online", handleOnline);
@@ -32,6 +34,7 @@ export default function NetworkStatusIndicator() {
     return () => {
       window.removeEventListener("online", handleOnline);
       window.removeEventListener("offline", handleOffline);
+      if (restoreTimerRef.current) clearTimeout(restoreTimerRef.current);
     };
   }, []);
 

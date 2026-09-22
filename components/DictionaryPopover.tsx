@@ -38,6 +38,8 @@ export default function DictionaryPopover() {
   const [isMobile, setIsMobile] = useState(false);
   const popoverRef = useRef<HTMLDivElement | null>(null);
   const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const activeWordRef = useRef<string>("");
+  const currentAudioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
     const updateIsMobile = () => {
@@ -238,19 +240,23 @@ export default function DictionaryPopover() {
       } catch {}
     }, 20);
 
+    activeWordRef.current = clean;
+
     // Instant local memory lookup first
     const instant = lookupWord(clean);
     if (instant) {
       setDictEntry(instant);
       setIsLoading(false);
     } else {
-      // Sharded edge lookup
+      // Sharded edge lookup with race protection
       setIsLoading(true);
       const edgeEntry = await lookupWordAsync(clean);
-      if (edgeEntry) {
-        setDictEntry(edgeEntry);
+      if (activeWordRef.current === clean) {
+        if (edgeEntry) {
+          setDictEntry(edgeEntry);
+        }
+        setIsLoading(false);
       }
-      setIsLoading(false);
     }
   };
 
@@ -259,14 +265,30 @@ export default function DictionaryPopover() {
     const url = type === "uk" ? dictEntry?.ukAudioUrl : dictEntry?.usAudioUrl;
     if (!url) return;
 
+    if (currentAudioRef.current) {
+      currentAudioRef.current.pause();
+      currentAudioRef.current = null;
+    }
+
     setPlayingType(type);
     try {
       const audio = new Audio(url);
-      audio.onended = () => setPlayingType(null);
-      audio.onerror = () => setPlayingType(null);
-      audio.play().catch(() => setPlayingType(null));
+      currentAudioRef.current = audio;
+      audio.onended = () => {
+        setPlayingType(null);
+        currentAudioRef.current = null;
+      };
+      audio.onerror = () => {
+        setPlayingType(null);
+        currentAudioRef.current = null;
+      };
+      audio.play().catch(() => {
+        setPlayingType(null);
+        currentAudioRef.current = null;
+      });
     } catch {
       setPlayingType(null);
+      currentAudioRef.current = null;
     }
   };
 

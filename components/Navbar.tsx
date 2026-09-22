@@ -80,7 +80,10 @@ export default function Navbar() {
     }
     loadAnnouncement();
 
+    let isFetchingUser = false;
     async function loadUser() {
+      if (isFetchingUser) return;
+      isFetchingUser = true;
       try {
         const { data: { user } } = await supabase.auth.getUser();
         setUser(user);
@@ -103,15 +106,18 @@ export default function Navbar() {
       } catch (e) {
         console.error("Error loading user profile", e);
       } finally {
+        isFetchingUser = false;
         setLoading(false);
       }
     }
     loadUser();
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((_, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
       if (session?.user) {
         setUser(session.user);
-        loadUser();
+        if (event === "SIGNED_IN") {
+          loadUser();
+        }
       } else {
         setUser(null);
         setProfile(null);

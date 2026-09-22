@@ -152,23 +152,29 @@ function PracticeContent() {
   }, [examId, userAnswers, currentIndex, loading]);
 
   // Physical keyboard shortcuts (A/B/C/D to answer, Left/Right arrow to navigate)
-  // Must be called unconditionally before any early returns
+  // Decoupled with ref to prevent unbinding on every answer
+  const practiceStateRef = useRef({ currentIndex, questions });
+  useEffect(() => {
+    practiceStateRef.current = { currentIndex, questions };
+  });
+
   useEffect(() => {
     if (loading || questions.length === 0) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
+      const { currentIndex: cIdx } = practiceStateRef.current;
       const key = e.key.toUpperCase();
       if (["A", "B", "C", "D"].includes(key)) {
         e.preventDefault();
         handleSelectOption(key);
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
-        navigateTo(currentIndex - 1);
+        navigateTo(cIdx - 1);
       } else if (e.key === "ArrowRight") {
         e.preventDefault();
-        navigateTo(currentIndex + 1);
+        navigateTo(cIdx + 1);
       } else if (e.key === "ArrowUp") {
         e.preventDefault();
         passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
@@ -180,7 +186,7 @@ function PracticeContent() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, questions, userAnswers, loading]);
+  }, [loading, questions.length]);
 
   const handleToggleFav = () => {
     const q = questions[currentIndex] || questions[0];

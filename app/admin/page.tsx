@@ -185,10 +185,12 @@ export default function AdminPage() {
     });
   }, [currentRole]);
 
+  const [onlineCount, setOnlineCount] = useState<number>(0);
+
   const loadExams = async () => {
     const { data } = await supabase
       .from("exams")
-      .select("*, questions(count), passages(count)")
+      .select("id, category_id, title, year, exam_type, duration_minutes, total_score, pass_score, is_published, approval_status, created_at, questions(count), passages(count)")
       .order("created_at", { ascending: false });
     if (data) {
       setExams(data);
@@ -202,11 +204,20 @@ export default function AdminPage() {
   };
 
   const loadUsers = async () => {
-    const { data } = await supabase
-      .from("profiles")
-      .select("id, username, nickname, role, last_active_at, created_at")
-      .order("last_active_at", { ascending: false, nullsFirst: false });
-    if (data) setUserList(data);
+    const fiveMinAgo = new Date(Date.now() - 5 * 60 * 1000).toISOString();
+    const [usersRes, onlineRes] = await Promise.all([
+      supabase
+        .from("profiles")
+        .select("id, username, nickname, role, last_active_at, created_at")
+        .order("last_active_at", { ascending: false, nullsFirst: false })
+        .limit(100),
+      supabase
+        .from("profiles")
+        .select("id", { count: "exact", head: true })
+        .gte("last_active_at", fiveMinAgo),
+    ]);
+    if (usersRes.data) setUserList(usersRes.data);
+    if (typeof onlineRes.count === "number") setOnlineCount(onlineRes.count);
   };
 
   const handleRefreshSnapshot = async () => {
@@ -321,21 +332,21 @@ export default function AdminPage() {
     try {
       const { data: fullExam, error: examErr } = await supabase
         .from("exams")
-        .select("*")
+        .select("id, title, category_id, year, exam_type, duration_minutes, total_score, pass_score, is_published, approval_status")
         .eq("id", exam.id)
         .single();
       if (examErr) throw examErr;
 
       const { data: passagesData, error: passErr } = await supabase
         .from("passages")
-        .select("*")
+        .select("id, exam_id, title, content, section_type, sort_order")
         .eq("exam_id", exam.id)
         .order("sort_order", { ascending: true });
       if (passErr) throw passErr;
 
       const { data: questionsData, error: qErr } = await supabase
         .from("questions")
-        .select("*")
+        .select("id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order")
         .eq("exam_id", exam.id)
         .order("sort_order", { ascending: true });
       if (qErr) throw qErr;
@@ -422,18 +433,20 @@ export default function AdminPage() {
         .eq("id", editFormData.id);
       if (examErr) throw examErr;
 
-      for (const p of editFormData.passages) {
-        if (p.id) {
-          const { error: passErr } = await supabase
+      const passageUpdates = editFormData.passages
+        .filter((p: any) => p.id)
+        .map((p: any) =>
+          supabase
             .from("passages")
             .update({
               title: p.title.trim(),
               content: p.content,
             })
-            .eq("id", p.id);
-          if (passErr) throw passErr;
-        }
-      }
+            .eq("id", p.id)
+        );
+      const updateResults = await Promise.all(passageUpdates);
+      const fail = updateResults.find((r) => r.error);
+      if (fail?.error) throw fail.error;
 
       showNotification("success", "试卷与篇章材料已成功保存更新！");
       setIsEditModalOpen(false);
@@ -1332,7 +1345,7 @@ export default function AdminPage() {
                     <span className="text-xs font-bold text-emerald-800 dark:text-emerald-300">当前实时在场</span>
                   </div>
                   <div className="text-2xl font-black text-slate-900 dark:text-white font-mono tracking-tight">
-                    {userList.filter(isUserOnline).length} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人活跃在线</span>
+                    {onlineCount || userList.filter(isUserOnline).length} <span className="text-xs font-medium text-slate-500 dark:text-zinc-400 font-sans">人活跃在线</span>
                   </div>
                   <p className="text-[10px] text-emerald-700/80 dark:text-emerald-400/80">
                     ⚡ 5分钟轻量活跃打点 · 0 长连接消耗 (0/200)

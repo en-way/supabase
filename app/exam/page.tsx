@@ -98,15 +98,26 @@ function ExamContent() {
     loadExam();
   }, [examId]);
 
-  // Timer countdown
+  const examStateRef = useRef({
+    examId,
+    answers,
+    remainingSeconds,
+    focusedIndex,
+  });
+
   useEffect(() => {
-    if (loading || isSubmitted || remainingSeconds <= 0) return;
+    examStateRef.current = { examId, answers, remainingSeconds, focusedIndex };
+  });
+
+  // 1. Timer countdown (decoupled from remainingSeconds to prevent 1-second interval thrashing)
+  useEffect(() => {
+    if (loading || isSubmitted) return;
 
     const timer = setInterval(() => {
       setRemainingSeconds((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          handleSubmit(true);
+          setTimeout(() => handleSubmit(true), 0);
           return 0;
         }
         return prev - 1;
@@ -114,24 +125,32 @@ function ExamContent() {
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [loading, isSubmitted, remainingSeconds]);
+  }, [loading, isSubmitted]);
 
-  // Periodic draft background sync every 5 seconds (updates remaining countdown)
+  // 2. Periodic draft background sync every 5 seconds (reliably fires from ref)
   useEffect(() => {
     if (!examId || isSubmitted || loading) return;
-    const saveTimer = setTimeout(() => {
-      saveExamDraft(examId, answers, remainingSeconds, focusedIndex);
-    }, 5000);
-    return () => clearTimeout(saveTimer);
-  }, [examId, answers, remainingSeconds, focusedIndex, isSubmitted, loading]);
 
-  // BeforeUnload Exit Protection: Guarantee instant flush and prevent accidental tab closes
+    const draftInterval = setInterval(() => {
+      const { examId: eId, answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = examStateRef.current;
+      if (eId && Object.keys(curAns).length > 0) {
+        saveExamDraft(eId, curAns, curSec, curIdx);
+      }
+    }, 5000);
+
+    return () => clearInterval(draftInterval);
+  }, [examId, isSubmitted, loading]);
+
+  // 3. BeforeUnload Exit Protection: Guarantee instant flush and prevent accidental tab closes
   useEffect(() => {
     if (!examId || isSubmitted || loading) return;
 
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
-      saveExamDraft(examId, answers, remainingSeconds, focusedIndex);
-      if (Object.keys(answers).length > 0) {
+      const { examId: eId, answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = examStateRef.current;
+      if (eId) {
+        saveExamDraft(eId, curAns, curSec, curIdx);
+      }
+      if (Object.keys(curAns).length > 0) {
         e.preventDefault();
         e.returnValue = "";
       }
@@ -139,17 +158,25 @@ function ExamContent() {
 
     window.addEventListener("beforeunload", handleBeforeUnload);
     return () => window.removeEventListener("beforeunload", handleBeforeUnload);
-  }, [examId, answers, remainingSeconds, focusedIndex, isSubmitted, loading]);
+  }, [examId, isSubmitted, loading]);
 
-  // PC Keyboard Shortcuts: A/B/C/D to select, Arrow keys to navigate
+  // 4. PC Keyboard Shortcuts: decoupled with ref to avoid re-binding on each answer
+  const keydownRef = useRef({ questions, focusedIndex });
   useEffect(() => {
-    if (isSubmitted || questions.length === 0) return;
+    keydownRef.current = { questions, focusedIndex };
+  });
+
+  useEffect(() => {
+    if (isSubmitted || loading) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
+      const { questions: qs, focusedIndex: fIdx } = keydownRef.current;
+      if (!qs || qs.length === 0) return;
+
       const key = e.key.toUpperCase();
-      const currentQ = questions[focusedIndex];
+      const currentQ = qs[fIdx];
       const validKeys = currentQ
         ? normalizeOptions(currentQ.options).map((o) => o.key)
         : ["A", "B", "C", "D"];
@@ -162,15 +189,15 @@ function ExamContent() {
       } else if (e.key === "ArrowRight") {
         e.preventDefault();
         setFocusedIndex((prev) => {
-          const nextIdx = Math.min(questions.length - 1, prev + 1);
-          scrollToQuestion(questions[nextIdx]?.id);
+          const nextIdx = Math.min(qs.length - 1, prev + 1);
+          scrollToQuestion(qs[nextIdx]?.id);
           return nextIdx;
         });
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
         setFocusedIndex((prev) => {
           const prevIdx = Math.max(0, prev - 1);
-          scrollToQuestion(questions[prevIdx]?.id);
+          scrollToQuestion(qs[prevIdx]?.id);
           return prevIdx;
         });
       } else if (e.key === "ArrowUp") {
@@ -184,7 +211,7 @@ function ExamContent() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [questions, focusedIndex, isSubmitted, answers]);
+  }, [isSubmitted, loading]);
 
   const scrollToQuestion = (qId?: string) => {
     if (!qId) return;

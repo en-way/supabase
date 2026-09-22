@@ -88,6 +88,7 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
     // Listen for custom broadcast events when announcement is updated or reopened from Navbar
     const handleReopen = () => setIsDismissed(false);
     const handleUpdated = async () => {
+      if (externalData !== undefined) return;
       try {
         const { data } = await supabase
           .from("system_settings")
@@ -99,10 +100,14 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
     };
 
     window.addEventListener("enway_reopen_announcement", handleReopen);
-    window.addEventListener("enway_announcement_updated", handleUpdated);
+    if (externalData === undefined) {
+      window.addEventListener("enway_announcement_updated", handleUpdated);
+    }
     return () => {
       window.removeEventListener("enway_reopen_announcement", handleReopen);
-      window.removeEventListener("enway_announcement_updated", handleUpdated);
+      if (externalData === undefined) {
+        window.removeEventListener("enway_announcement_updated", handleUpdated);
+      }
     };
   }, [externalData]);
 

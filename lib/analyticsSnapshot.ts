@@ -44,20 +44,12 @@ export async function fetchAnalyticsSnapshot(): Promise<{
  */
 export async function refreshAnalyticsSnapshot(): Promise<AnalyticsSnapshot | null> {
   try {
-    const [profilesRes, examsRes, backupsRes] = await Promise.all([
-      supabase.from("profiles").select("role"),
+    const [studentsRes, adminsRes, examsRes, backupsRes] = await Promise.all([
+      supabase.from("profiles").select("id", { count: "exact", head: true }).eq("role", "student"),
+      supabase.from("profiles").select("id", { count: "exact", head: true }).in("role", ["admin", "super_admin"]),
       supabase.from("exams").select("category_id"),
       supabase.from("user_backups").select("user_id", { count: "exact", head: true }),
     ]);
-
-    let students = 0;
-    let admins = 0;
-    if (profilesRes.data) {
-      for (const p of profilesRes.data) {
-        if (p.role === "student") students++;
-        else if (p.role === "admin" || p.role === "super_admin") admins++;
-      }
-    }
 
     const byCategory: Record<string, number> = {};
     if (examsRes.data) {
@@ -67,8 +59,8 @@ export async function refreshAnalyticsSnapshot(): Promise<AnalyticsSnapshot | nu
     }
 
     const snapshot: AnalyticsSnapshot = {
-      totalStudents: students,
-      totalAdmins: admins,
+      totalStudents: studentsRes.count || 0,
+      totalAdmins: adminsRes.count || 0,
       totalExams: examsRes.data?.length || 0,
       examsByCategory: byCategory,
       totalBackups: backupsRes.count || 0,

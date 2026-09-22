@@ -139,6 +139,7 @@ export function getLocalState(): LocalLearningState {
       favorites: Array.isArray(parsed?.favorites) ? parsed.favorites.filter(Boolean) : [],
       examResults: parsed?.examResults && typeof parsed.examResults === "object" ? parsed.examResults : {},
       examDrafts: parsed?.examDrafts && typeof parsed.examDrafts === "object" ? parsed.examDrafts : {},
+      practiceDrafts: parsed?.practiceDrafts && typeof parsed.practiceDrafts === "object" ? parsed.practiceDrafts : {},
     };
   } catch (e) {
     console.error("Error reading local state", e);
@@ -379,7 +380,7 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
 
     const state = getLocalState();
     // Ensure mistakes are purely index-based to save egress and storage
-    state.mistakes = (state.mistakes || []).map((m) => ({
+    const sanitizedMistakes = (state.mistakes || []).map((m) => ({
       questionId: m.questionId,
       examId: m.examId,
       categoryId: m.categoryId,
@@ -389,7 +390,20 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
       lastWrongAt: m.lastWrongAt || new Date().toISOString(),
     }));
 
-    const jsonString = JSON.stringify(state);
+    // Exclude ephemeral in-progress drafts from persistent cloud backup to save storage quota
+    const cleanBackupState = {
+      mistakes: sanitizedMistakes,
+      vocabulary: state.vocabulary || [],
+      favorites: (state.favorites || []).map((f) => ({
+        questionId: f.questionId,
+        examId: f.examId || "",
+        note: f.note || "",
+        addedAt: f.addedAt || new Date().toISOString(),
+      })),
+      examResults: state.examResults || {},
+    };
+
+    const jsonString = JSON.stringify(cleanBackupState);
 
     // 🗜️ Free Quota Optimization: Native Gzip compression before uploading to Storage Bucket
     let blob: Blob;
@@ -545,35 +559,42 @@ export async function reconcileLearningState(
     const mistakeExamIds = (state.mistakes || []).map((m) => m.examId).filter(Boolean) as string[];
     const allExamIds = Array.from(new Set([...draftExamIds, ...resultExamIds, ...mistakeExamIds]));
 
-    // 3. Batch query valid questions
+    // 3. Batch query valid questions in chunks of 50 to prevent HTTP 414 URI Too Long
     const validQuestionsMap: Record<string, { id: string; correct_answer: string; exam_id: string; category_id: string }> = {};
+    const CHUNK_SIZE = 50;
     if (allQIds.length > 0) {
-      const { data: qRows, error: qErr } = await supabase
-        .from("questions")
-        .select("id, correct_answer, exam_id, category_id")
-        .in("id", allQIds);
+      for (let i = 0; i < allQIds.length; i += CHUNK_SIZE) {
+        const chunk = allQIds.slice(i, i + CHUNK_SIZE);
+        const { data: qRows, error: qErr } = await supabase
+          .from("questions")
+          .select("id, correct_answer, exam_id, category_id")
+          .in("id", chunk);
 
-      if (!qErr && qRows) {
-        qRows.forEach((q: any) => {
-          validQuestionsMap[q.id] = q;
-        });
+        if (!qErr && qRows) {
+          qRows.forEach((q: any) => {
+            validQuestionsMap[q.id] = q;
+          });
+        }
       }
     }
 
-    // 4. Batch query valid approved exams
+    // 4. Batch query valid approved exams in chunks of 50
     const validExamsMap: Record<string, boolean> = {};
     if (allExamIds.length > 0) {
-      const { data: eRows, error: eErr } = await supabase
-        .from("exams")
-        .select("id, is_published, approval_status")
-        .in("id", allExamIds);
+      for (let i = 0; i < allExamIds.length; i += CHUNK_SIZE) {
+        const chunk = allExamIds.slice(i, i + CHUNK_SIZE);
+        const { data: eRows, error: eErr } = await supabase
+          .from("exams")
+          .select("id, is_published, approval_status")
+          .in("id", chunk);
 
-      if (!eErr && eRows) {
-        eRows.forEach((e: any) => {
-          if (e.approval_status === "approved") {
-            validExamsMap[e.id] = true;
-          }
-        });
+        if (!eErr && eRows) {
+          eRows.forEach((e: any) => {
+            if (e.approval_status === "approved") {
+              validExamsMap[e.id] = true;
+            }
+          });
+        }
       }
     }
 
@@ -702,7 +723,7 @@ export async function reconcileLearningState(
 export function clearLocalData(scope: "all" | "mistakes" | "vocab" | "drafts") {
   const state = getLocalState();
   if (scope === "all") {
-    saveLocalState({ mistakes: [], vocabulary: [], favorites: [], examResults: {}, examDrafts: {} });
+    saveLocalState({ mistakes: [], vocabulary: [], favorites: [], examResults: {}, examDrafts: {}, practiceDrafts: {} });
   } else if (scope === "mistakes") {
     state.mistakes = [];
     saveLocalState(state);
@@ -711,6 +732,7 @@ export function clearLocalData(scope: "all" | "mistakes" | "vocab" | "drafts") {
     saveLocalState(state);
   } else if (scope === "drafts") {
     state.examDrafts = {};
+    state.practiceDrafts = {};
     saveLocalState(state);
   }
 }

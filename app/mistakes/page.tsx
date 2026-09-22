@@ -197,12 +197,23 @@ export default function MistakesPage() {
         }
       }
 
-      // Execute reconciliation to prune deleted questions or auto-heal corrected answers
-      const recon = await reconcileLearningState();
-      if (recon.hasChanges) {
-        setMistakes(getLocalState().mistakes);
-        setToastMsg(recon.summaryText);
-        setTimeout(() => setToastMsg(null), 3500);
+      // Execute reconciliation with 7-day throttle to strictly protect Supabase free quota
+      const LAST_RECON_KEY = "enway_last_reconcile_ts";
+      let lastRecon = 0;
+      try {
+        lastRecon = Number(localStorage.getItem(LAST_RECON_KEY) || "0");
+      } catch {}
+
+      if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
+        try {
+          localStorage.setItem(LAST_RECON_KEY, String(Date.now()));
+        } catch {}
+        const recon = await reconcileLearningState();
+        if (recon.hasChanges) {
+          setMistakes(getLocalState().mistakes);
+          setToastMsg(recon.summaryText);
+          setTimeout(() => setToastMsg(null), 3500);
+        }
       }
     } catch (err) {
       console.error("Failed to fetch questions details batch:", err);
