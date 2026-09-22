@@ -54,7 +54,11 @@ export default function ProfilePage() {
     const { data: { user } } = await supabase.auth.getUser();
     setUser(user);
     if (user) {
-      const { data } = await supabase.from("profiles").select("*").eq("id", user.id).maybeSingle();
+      const { data } = await supabase
+        .from("profiles")
+        .select("id, username, nickname, role, created_at, last_active_at")
+        .eq("id", user.id)
+        .maybeSingle();
       if (data) {
         setProfile(data);
         if (data.nickname) setNicknameInput(data.nickname);

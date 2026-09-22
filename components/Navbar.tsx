@@ -87,7 +87,7 @@ export default function Navbar() {
         if (user) {
           const { data } = await supabase
             .from("profiles")
-            .select("*")
+            .select("id, username, nickname, role")
             .eq("id", user.id)
             .maybeSingle();
           if (data) {
@@ -129,7 +129,7 @@ export default function Navbar() {
       window.removeEventListener("enway_profile_updated", handleProfileUpdate);
       window.removeEventListener("enway_announcement_updated", loadAnnouncement);
     };
-  }, [pathname]);
+  }, []);
 
   // Execute logout with optional cloud backup and local cache clearance
   const handleConfirmLogout = async (backupFirst: boolean) => {
@@ -161,7 +161,7 @@ export default function Navbar() {
 
   return (
     <>
-      <AnnouncementBanner />
+      <AnnouncementBanner externalData={activeAnnouncement} />
       <header className="sticky top-0 z-40 w-full border-b border-black/[0.06] dark:border-cyan-500/15 bg-white/80 dark:bg-[#090a0f]/80 backdrop-blur-xl transition-all duration-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
           {/* Brand Logo */}

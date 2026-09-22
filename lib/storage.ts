@@ -69,11 +69,11 @@ export interface VocabItem {
 
 export interface FavoriteItem {
   questionId: string;
-  examId: string;
-  stem: string;
-  options: QuestionOption[];
-  correctAnswer: string;
-  explanation: string;
+  examId?: string;
+  stem?: string;
+  options?: QuestionOption[];
+  correctAnswer?: string;
+  explanation?: string;
   note?: string;
   addedAt: string;
 }
@@ -252,7 +252,7 @@ export function removeVocab(word: string) {
 }
 
 // ------------------- Favorites -------------------
-export function toggleFavorite(item: Omit<FavoriteItem, "addedAt">) {
+export function toggleFavorite(item: Partial<FavoriteItem> & { questionId: string }) {
   if (!item?.questionId) return;
   const state = getLocalState();
   if (!Array.isArray(state.favorites)) state.favorites = [];
@@ -260,8 +260,11 @@ export function toggleFavorite(item: Omit<FavoriteItem, "addedAt">) {
   if (index >= 0) {
     state.favorites.splice(index, 1);
   } else {
+    // Keep favorite item lightweight to avoid exceeding 5MB LocalStorage quota
     state.favorites.unshift({
-      ...item,
+      questionId: item.questionId,
+      examId: item.examId || "",
+      note: item.note || "",
       addedAt: new Date().toISOString(),
     });
   }
@@ -640,11 +643,38 @@ export async function reconcileLearningState(
       });
     }
 
-    // 9. If modified, persist to local storage and silently write back clean JSON to Storage!
+    // 8. Reconcile favorites (strip any bulky legacy fields to free LocalStorage quota)
+    if (Array.isArray(state.favorites)) {
+      state.favorites = state.favorites.map((f: any) => {
+        if (f && (f.stem || f.options || f.explanation || f.correctAnswer)) {
+          hasChanges = true;
+          return {
+            questionId: f.questionId,
+            examId: f.examId || "",
+            note: f.note || "",
+            addedAt: f.addedAt || new Date().toISOString(),
+          };
+        }
+        return f;
+      });
+    }
+
+    // 9. If modified, persist to local storage and throttle silent cloud writeback (max once per hour)
     if (hasChanges) {
       saveLocalState(state);
       try {
-        await uploadBackupToCloud();
+        const now = Date.now();
+        let lastSilentTs = 0;
+        if (typeof window !== "undefined") {
+          lastSilentTs = Number(sessionStorage.getItem("enway_last_silent_backup") || "0");
+        }
+        // At most once every 60 minutes per session to strictly preserve Supabase storage and DB quotas
+        if (now - lastSilentTs > 60 * 60 * 1000) {
+          if (typeof window !== "undefined") {
+            sessionStorage.setItem("enway_last_silent_backup", String(now));
+          }
+          await uploadBackupToCloud();
+        }
       } catch (err) {
         console.warn("Silent cloud writeback failed during reconcile:", err);
       }

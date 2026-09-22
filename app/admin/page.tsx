@@ -162,11 +162,10 @@ export default function AdminPage() {
 
     if (data?.role === "super_admin" || data?.role === "admin") {
       setCurrentRole(data.role);
-      loadExams();
       if (data.role === "super_admin") {
-        loadUsers();
-        loadSettings();
-        loadPendingExams();
+        await Promise.all([loadExams(), loadUsers(), loadSettings()]);
+      } else {
+        await loadExams();
       }
     } else {
       setCurrentRole("student");
@@ -198,18 +197,14 @@ export default function AdminPage() {
   };
 
   const loadPendingExams = async () => {
-    const { data } = await supabase
-      .from("exams")
-      .select("*, questions(count), passages(count)")
-      .in("approval_status", ["pending_upload", "pending_delete"])
-      .order("created_at", { ascending: false });
-    if (data) setPendingExams(data);
+    // Re-use loadExams to avoid redundant parallel database calls
+    await loadExams();
   };
 
   const loadUsers = async () => {
     const { data } = await supabase
       .from("profiles")
-      .select("*")
+      .select("id, username, nickname, role, last_active_at, created_at")
       .order("last_active_at", { ascending: false, nullsFirst: false });
     if (data) setUserList(data);
   };
@@ -500,37 +495,45 @@ export default function AdminPage() {
         .eq("exam_id", examId);
       if (delPErr) throw delPErr;
 
-      // 4. Re-insert passages and their questions cleanly
-      for (let i = 0; i < parsed.passages.length; i++) {
-        const p = parsed.passages[i];
-        const { data: newP, error: pInsErr } = await supabase
+      // 4. Re-insert passages and their questions cleanly via batch inserts
+      if (Array.isArray(parsed.passages) && parsed.passages.length > 0) {
+        const passagePayloads = parsed.passages.map((p: any, i: number) => ({
+          exam_id: examId,
+          category_id: parsed.category_id,
+          section_type: p.section_type || "reading",
+          title: p.title || `Passage ${i + 1}`,
+          content: p.content || "",
+          sort_order: p.sort_order || i + 1,
+        }));
+
+        const { data: insertedPassages, error: pInsErr } = await supabase
           .from("passages")
-          .insert({
-            exam_id: examId,
-            category_id: parsed.category_id,
-            section_type: p.section_type || "reading",
-            title: p.title || `Passage ${i + 1}`,
-            content: p.content || "",
-            sort_order: p.sort_order || i + 1,
-          })
-          .select()
-          .single();
+          .insert(passagePayloads)
+          .select();
         if (pInsErr) throw pInsErr;
 
-        if (Array.isArray(p.questions) && p.questions.length > 0) {
-          const questionRows = p.questions.map((q: any, qIdx: number) => ({
-            exam_id: examId,
-            passage_id: newP.id,
-            category_id: parsed.category_id,
-            q_type: q.q_type || "reading_item",
-            stem: q.stem,
-            options: q.options,
-            correct_answer: q.correct_answer,
-            explanation: q.explanation || "暂无详细解析",
-            points: q.points || 20,
-            sort_order: q.sort_order || qIdx + 1,
-          }));
+        const questionRows: any[] = [];
+        insertedPassages?.forEach((newP: any, i: number) => {
+          const p = parsed.passages[i];
+          if (Array.isArray(p.questions) && p.questions.length > 0) {
+            p.questions.forEach((q: any, qIdx: number) => {
+              questionRows.push({
+                exam_id: examId,
+                passage_id: newP.id,
+                category_id: parsed.category_id,
+                q_type: q.q_type || "reading_item",
+                stem: q.stem,
+                options: q.options,
+                correct_answer: q.correct_answer,
+                explanation: q.explanation || "暂无详细解析",
+                points: q.points || 20,
+                sort_order: q.sort_order || qIdx + 1,
+              });
+            });
+          }
+        });
 
+        if (questionRows.length > 0) {
           const { error: qInsErr } = await supabase.from("questions").insert(questionRows);
           if (qInsErr) throw qInsErr;
         }
@@ -580,7 +583,6 @@ export default function AdminPage() {
       });
       if (error) throw error;
       loadExams();
-      loadPendingExams();
       showNotification("success", "审批处理完成！");
     } catch (err: any) {
       showNotification("error", `审批失败: ${err.message}`);
@@ -814,37 +816,45 @@ export default function AdminPage() {
       if (examErr) throw examErr;
 
       setImportStatus("正在写入篇章与题目...");
-      for (let i = 0; i < data.passages.length; i++) {
-        const p = data.passages[i];
-        const { data: passageData, error: pErr } = await supabase
+      if (Array.isArray(data.passages) && data.passages.length > 0) {
+        const passagePayloads = data.passages.map((p: any, i: number) => ({
+          exam_id: examData.id,
+          category_id: data.category_id,
+          section_type: p.section_type || "reading",
+          title: p.title || `Passage ${i + 1}`,
+          content: p.content || "",
+          sort_order: i + 1,
+        }));
+
+        const { data: insertedPassages, error: pErr } = await supabase
           .from("passages")
-          .insert({
-            exam_id: examData.id,
-            category_id: data.category_id,
-            section_type: p.section_type || "reading",
-            title: p.title || `Passage ${i + 1}`,
-            content: p.content || "",
-            sort_order: i + 1,
-          })
-          .select()
-          .single();
+          .insert(passagePayloads)
+          .select();
 
         if (pErr) throw pErr;
 
-        if (Array.isArray(p.questions)) {
-          const questionRows = p.questions.map((q: any, qIdx: number) => ({
-            exam_id: examData.id,
-            passage_id: passageData.id,
-            category_id: data.category_id,
-            q_type: q.q_type || "reading_item",
-            stem: q.stem,
-            options: q.options,
-            correct_answer: q.correct_answer,
-            explanation: q.explanation || "暂无详细解析",
-            points: q.points || 20,
-            sort_order: qIdx + 1,
-          }));
+        const questionRows: any[] = [];
+        insertedPassages?.forEach((passageData: any, i: number) => {
+          const p = data.passages[i];
+          if (Array.isArray(p.questions)) {
+            p.questions.forEach((q: any, qIdx: number) => {
+              questionRows.push({
+                exam_id: examData.id,
+                passage_id: passageData.id,
+                category_id: data.category_id,
+                q_type: q.q_type || "reading_item",
+                stem: q.stem,
+                options: q.options,
+                correct_answer: q.correct_answer,
+                explanation: q.explanation || "暂无详细解析",
+                points: q.points || 20,
+                sort_order: qIdx + 1,
+              });
+            });
+          }
+        });
 
+        if (questionRows.length > 0) {
           const { error: qErr } = await supabase.from("questions").insert(questionRows);
           if (qErr) throw qErr;
         }

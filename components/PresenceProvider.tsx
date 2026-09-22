@@ -14,6 +14,7 @@ const PresenceContext = createContext<PresenceContextType>({
 export const usePresence = () => useContext(PresenceContext);
 
 export default function PresenceProvider({ children }: { children: React.ReactNode }) {
+  const [lastTouch, setLastTouch] = React.useState<number>(0);
   const lastTouchRef = useRef<number>(0);
 
   useEffect(() => {
@@ -38,6 +39,7 @@ export default function PresenceProvider({ children }: { children: React.ReactNo
 
       try {
         lastTouchRef.current = now;
+        if (isMounted) setLastTouch(now);
         await supabase.rpc("touch_user_activity");
       } catch (e) {
         // Non-fatal background activity update
@@ -77,7 +79,7 @@ export default function PresenceProvider({ children }: { children: React.ReactNo
   }, []);
 
   return (
-    <PresenceContext.Provider value={{ lastTouch: lastTouchRef.current }}>
+    <PresenceContext.Provider value={{ lastTouch }}>
       {children}
     </PresenceContext.Provider>
   );

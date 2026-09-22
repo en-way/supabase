@@ -3,7 +3,6 @@
 import { useState, useEffect, useRef, Suspense } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { supabase } from "@/lib/supabase";
 import { 
   recordMistake, 
   toggleFavorite, 

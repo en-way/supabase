@@ -24,12 +24,49 @@ export interface AnnouncementData {
 
 const STORAGE_KEY = "enway_dismissed_announcement_ts";
 
-export default function AnnouncementBanner() {
+interface AnnouncementBannerProps {
+  externalData?: any;
+}
+
+export default function AnnouncementBanner({ externalData }: AnnouncementBannerProps = {}) {
   const [announcement, setAnnouncement] = useState<AnnouncementData | null>(null);
   const [isDismissed, setIsDismissed] = useState(true);
 
+  const applyAnnouncementData = (data: any) => {
+    if (data && data.announcement_enabled && data.announcement_text?.trim()) {
+      const item: AnnouncementData = {
+        enabled: Boolean(data.announcement_enabled),
+        text: data.announcement_text.trim(),
+        type: (data.announcement_type as any) || "info",
+        linkText: data.announcement_link_text?.trim() || "",
+        linkUrl: data.announcement_link_url?.trim() || "",
+        updatedAt: data.announcement_updated_at || "",
+      };
+
+      setAnnouncement(item);
+
+      // Check if user previously dismissed this exact version
+      const dismissedTs = localStorage.getItem(STORAGE_KEY);
+      if (dismissedTs && dismissedTs === item.updatedAt) {
+        setIsDismissed(true);
+      } else {
+        setIsDismissed(false);
+      }
+    } else {
+      setAnnouncement(null);
+      setIsDismissed(true);
+    }
+  };
+
+  useEffect(() => {
+    if (externalData !== undefined) {
+      applyAnnouncementData(externalData);
+    }
+  }, [externalData]);
+
   useEffect(() => {
     async function loadAnnouncement() {
+      if (externalData !== undefined) return;
       try {
         const { data, error } = await supabase
           .from("system_settings")
@@ -38,46 +75,36 @@ export default function AnnouncementBanner() {
           .maybeSingle();
 
         if (error || !data) return;
-
-        if (data.announcement_enabled && data.announcement_text?.trim()) {
-          const item: AnnouncementData = {
-            enabled: Boolean(data.announcement_enabled),
-            text: data.announcement_text.trim(),
-            type: (data.announcement_type as any) || "info",
-            linkText: data.announcement_link_text?.trim() || "",
-            linkUrl: data.announcement_link_url?.trim() || "",
-            updatedAt: data.announcement_updated_at || "",
-          };
-
-          setAnnouncement(item);
-
-          // Check if user previously dismissed this exact version
-          const dismissedTs = localStorage.getItem(STORAGE_KEY);
-          if (dismissedTs && dismissedTs === item.updatedAt) {
-            setIsDismissed(true);
-          } else {
-            setIsDismissed(false);
-          }
-        } else {
-          setAnnouncement(null);
-          setIsDismissed(true);
-        }
+        applyAnnouncementData(data);
       } catch (err) {
         console.warn("[Announcement] Failed to fetch announcement:", err);
       }
     }
 
-    loadAnnouncement();
+    if (externalData === undefined) {
+      loadAnnouncement();
+    }
 
     // Listen for custom broadcast events when announcement is updated or reopened from Navbar
     const handleReopen = () => setIsDismissed(false);
+    const handleUpdated = async () => {
+      try {
+        const { data } = await supabase
+          .from("system_settings")
+          .select("announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at")
+          .eq("id", 1)
+          .maybeSingle();
+        if (data) applyAnnouncementData(data);
+      } catch {}
+    };
+
     window.addEventListener("enway_reopen_announcement", handleReopen);
-    window.addEventListener("enway_announcement_updated", loadAnnouncement);
+    window.addEventListener("enway_announcement_updated", handleUpdated);
     return () => {
       window.removeEventListener("enway_reopen_announcement", handleReopen);
-      window.removeEventListener("enway_announcement_updated", loadAnnouncement);
+      window.removeEventListener("enway_announcement_updated", handleUpdated);
     };
-  }, []);
+  }, [externalData]);
 
   const handleDismiss = () => {
     if (announcement?.updatedAt) {
