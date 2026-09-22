@@ -11,7 +11,7 @@ import {
   MistakeItem 
 } from "@/lib/storage";
 import { supabase } from "@/lib/supabase";
-import { fetchExamDetailWithFallback } from "@/lib/examLoader";
+import { fetchExamDetailWithFallback, clearStaticExamCache } from "@/lib/examLoader";
 import { 
   AlertCircle, 
   CheckCircle2, 
@@ -74,6 +74,7 @@ export default function MistakesPage() {
   const [congratsId, setCongratsId] = useState<string | null>(null);
   // Reconciliation Toast alert
   const [toastMsg, setToastMsg] = useState<string | null>(null);
+  const [isReconciling, setIsReconciling] = useState(false);
 
   // Side-by-Side "边看边写" Modal/Studio State
   const [sideBySideItem, setSideBySideItem] = useState<{
@@ -95,6 +96,30 @@ export default function MistakesPage() {
     const loadedMistakes = state.mistakes || [];
     setMistakes(loadedMistakes);
     fetchOnlineQuestionDetails(loadedMistakes);
+  };
+
+  const handleManualReconcile = async () => {
+    if (isReconciling) return;
+    setIsReconciling(true);
+    try {
+      await clearStaticExamCache();
+      Object.keys(questionDetailsCache).forEach((k) => delete questionDetailsCache[k]);
+      try {
+        localStorage.removeItem("enway_last_reconcile_ts");
+      } catch {}
+      const recon = await reconcileLearningState();
+      const latestMistakes = getLocalState().mistakes || [];
+      setMistakes(latestMistakes);
+      await fetchOnlineQuestionDetails(latestMistakes);
+      setToastMsg(recon.hasChanges ? `核对完成：${recon.summaryText}` : "已核对完成，本地错题考点均为最新");
+      setTimeout(() => setToastMsg(null), 3500);
+    } catch (e) {
+      console.error("Manual reconcile failed:", e);
+      setToastMsg("核对网络异常，已保持当前本地错题状态");
+      setTimeout(() => setToastMsg(null), 3500);
+    } finally {
+      setIsReconciling(false);
+    }
   };
 
   // ⚡️ Quota Optimization: Fetch questions from Cloudflare Pages static CDN mirror first (0 DB quota, 0ms)
@@ -404,6 +429,15 @@ export default function MistakesPage() {
 
         {/* Action Buttons */}
         <div className="flex items-center space-x-2">
+          <button
+            onClick={handleManualReconcile}
+            disabled={isReconciling}
+            className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98] disabled:opacity-60"
+            title="强制刷新考卷缓存并校验本地错题最新考点"
+          >
+            <RotateCcw className={`w-3.5 h-3.5 text-zinc-500 dark:text-zinc-400 ${isReconciling ? "animate-spin" : ""}`} />
+            <span>{isReconciling ? "核对中..." : "核对最新考点"}</span>
+          </button>
           <button
             onClick={handleExportTxt}
             className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"

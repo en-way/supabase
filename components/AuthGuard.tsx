@@ -18,21 +18,29 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
         const { data: { session } } = await supabase.auth.getSession();
         if (!isMounted) return;
 
-        if (!session && pathname !== "/login") {
+        const isUserLoggedIn = Boolean(session?.user);
+
+        if (!isUserLoggedIn) {
           setIsAuthenticated(false);
-          const currentUrl = typeof window !== "undefined"
-            ? window.location.pathname + window.location.search
-            : pathname;
-          const redirectUrl = currentUrl && currentUrl !== "/" 
-            ? `/login?redirect=${encodeURIComponent(currentUrl)}` 
-            : "/login";
-          router.replace(redirectUrl);
+          if (pathname !== "/login") {
+            const currentUrl = typeof window !== "undefined"
+              ? window.location.pathname + window.location.search
+              : pathname;
+            const redirectUrl = currentUrl && currentUrl !== "/" 
+              ? `/login?redirect=${encodeURIComponent(currentUrl)}` 
+              : "/login";
+            router.replace(redirectUrl);
+          }
         } else {
           setIsAuthenticated(true);
+          if (pathname === "/login") {
+            router.replace("/");
+          }
         }
       } catch (err) {
+        if (!isMounted) return;
+        setIsAuthenticated(false);
         if (pathname !== "/login") {
-          setIsAuthenticated(false);
           router.replace("/login");
         }
       }
@@ -40,10 +48,12 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
 
     checkAuth();
 
-    const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       if (!isMounted) return;
-      if (!session && pathname !== "/login") {
-        setIsAuthenticated(false);
+      const isUserLoggedIn = Boolean(session?.user);
+      setIsAuthenticated(isUserLoggedIn);
+
+      if (!isUserLoggedIn && pathname !== "/login") {
         const currentUrl = typeof window !== "undefined"
           ? window.location.pathname + window.location.search
           : pathname;
@@ -51,8 +61,8 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
           ? `/login?redirect=${encodeURIComponent(currentUrl)}` 
           : "/login";
         router.replace(redirectUrl);
-      } else if (session) {
-        setIsAuthenticated(true);
+      } else if (isUserLoggedIn && pathname === "/login") {
+        router.replace("/");
       }
     });
 
@@ -62,12 +72,12 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
     };
   }, [pathname, router]);
 
-  // If on login page, render directly without blocking
+  // 1. If on login page, render only if NOT authenticated (or redirect to home if already logged in)
   if (pathname === "/login") {
-    return <>{children}</>;
+    return isAuthenticated === true ? null : <>{children}</>;
   }
 
-  // Loading transition screen while checking session
+  // 2. Loading transition screen while checking session
   if (isAuthenticated === null) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 dark:bg-[#0b0d13] text-zinc-800 dark:text-zinc-200 transition-colors">
@@ -88,6 +98,11 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
     );
   }
 
-  // If authenticated, render protected children
+  // 3. Prevent protected content flash when unauthenticated
+  if (isAuthenticated === false) {
+    return null;
+  }
+
+  // 4. If authenticated, render protected children
   return <>{children}</>;
 }

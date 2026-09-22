@@ -555,9 +555,10 @@ export async function reconcileLearningState(
 
     // 2. Collect all Exam IDs
     const draftExamIds = Object.keys(state.examDrafts || {});
+    const practiceExamIds = Object.keys(state.practiceDrafts || {});
     const resultExamIds = Object.keys(state.examResults || {});
     const mistakeExamIds = (state.mistakes || []).map((m) => m.examId).filter(Boolean) as string[];
-    const allExamIds = Array.from(new Set([...draftExamIds, ...resultExamIds, ...mistakeExamIds]));
+    const allExamIds = Array.from(new Set([...draftExamIds, ...practiceExamIds, ...resultExamIds, ...mistakeExamIds]));
 
     // 3. Batch query valid questions in chunks of 50 to prevent HTTP 414 URI Too Long
     const validQuestionsMap: Record<string, { id: string; correct_answer: string; exam_id: string; category_id: string }> = {};
@@ -570,7 +571,13 @@ export async function reconcileLearningState(
           .select("id, correct_answer, exam_id, category_id")
           .in("id", chunk);
 
-        if (!qErr && qRows) {
+        // 🛡️ Critical Safety Fuse: If network or Supabase fails, abort reconcile to prevent wiping user data!
+        if (qErr) {
+          console.warn("[Reconcile] Supabase questions query failed, safely aborting to prevent false data wipe:", qErr);
+          return { hasChanges: false, deletedQuestionsCount: 0, fixedAnswersCount: 0, deletedExamsCount: 0, summaryText: "" };
+        }
+
+        if (qRows) {
           qRows.forEach((q: any) => {
             validQuestionsMap[q.id] = q;
           });
@@ -588,7 +595,13 @@ export async function reconcileLearningState(
           .select("id, is_published, approval_status")
           .in("id", chunk);
 
-        if (!eErr && eRows) {
+        // 🛡️ Critical Safety Fuse: If network or Supabase fails, abort reconcile immediately!
+        if (eErr) {
+          console.warn("[Reconcile] Supabase exams query failed, safely aborting to prevent false data wipe:", eErr);
+          return { hasChanges: false, deletedQuestionsCount: 0, fixedAnswersCount: 0, deletedExamsCount: 0, summaryText: "" };
+        }
+
+        if (eRows) {
           eRows.forEach((e: any) => {
             if (e.approval_status === "approved") {
               validExamsMap[e.id] = true;
@@ -644,9 +657,22 @@ export async function reconcileLearningState(
 
     // 7. Reconcile exam drafts (remove drafts of deleted or unapproved exams)
     if (state.examDrafts) {
-      Object.keys(state.examDrafts).forEach((examId) => {
+      const drafts = state.examDrafts;
+      Object.keys(drafts).forEach((examId) => {
         if (!validExamsMap[examId]) {
-          delete state.examDrafts[examId];
+          delete drafts[examId];
+          deletedExamsCount += 1;
+          hasChanges = true;
+        }
+      });
+    }
+
+    // 7b. Reconcile practice drafts (remove practice drafts of deleted or unapproved exams)
+    if (state.practiceDrafts) {
+      const pDrafts = state.practiceDrafts;
+      Object.keys(pDrafts).forEach((examId) => {
+        if (!validExamsMap[examId]) {
+          delete pDrafts[examId];
           deletedExamsCount += 1;
           hasChanges = true;
         }
@@ -655,9 +681,10 @@ export async function reconcileLearningState(
 
     // 8. Reconcile exam results
     if (state.examResults) {
-      Object.keys(state.examResults).forEach((examId) => {
+      const results = state.examResults;
+      Object.keys(results).forEach((examId) => {
         if (!validExamsMap[examId]) {
-          delete state.examResults[examId];
+          delete results[examId];
           deletedExamsCount += 1;
           hasChanges = true;
         }

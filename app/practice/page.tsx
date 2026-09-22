@@ -108,30 +108,31 @@ function PracticeContent() {
     setCurrentIndex(0);
   };
 
-  const handleSelectOption = (key: string) => {
-    const q = questions[currentIndex] || questions[0];
+  const practiceStateRef = useRef({ currentIndex, questions, userAnswers, examId, exam });
+  practiceStateRef.current = { currentIndex, questions, userAnswers, examId, exam };
+
+  const handleSelectOption = (key: string, targetIndex?: number) => {
+    const { currentIndex: curIdx, questions: qs, userAnswers: uAns, examId: eId, exam: curExam } = practiceStateRef.current;
+    const idx = typeof targetIndex === "number" ? targetIndex : curIdx;
+    const q = qs[idx] || qs[0];
     if (!q) return;
-    const isAns = Boolean(userAnswers[q.id]);
+    const isAns = Boolean(uAns[q.id]);
     if (isAns) return;
 
-    const nextAnswers = { ...userAnswers, [q.id]: key };
+    const nextAnswers = { ...uAns, [q.id]: key };
     setUserAnswers(nextAnswers);
     setShowExplanation((prev) => ({ ...prev, [q.id]: true }));
 
     // Instant LocalStorage save with zero delay
-    if (examId) {
-      savePracticeDraft(examId, nextAnswers, currentIndex);
+    if (eId) {
+      savePracticeDraft(eId, nextAnswers, idx);
     }
 
     if (key !== q.correct_answer) {
       recordMistake({
         questionId: q.id,
-        examId: exam?.id,
-        categoryId: exam?.category_id,
-        stem: q.stem,
-        options: normalizeOptions(q.options),
-        correctAnswer: q.correct_answer,
-        explanation: q.explanation,
+        examId: curExam?.id,
+        categoryId: curExam?.category_id,
         wrongAnswer: key,
       });
     }
@@ -142,22 +143,17 @@ function PracticeContent() {
     if (!examId || loading) return;
 
     const handleBeforeUnload = () => {
-      if (Object.keys(userAnswers).length > 0) {
-        savePracticeDraft(examId, userAnswers, currentIndex);
+      const { userAnswers: uAns, currentIndex: cIdx } = practiceStateRef.current;
+      if (Object.keys(uAns).length > 0) {
+        savePracticeDraft(examId, uAns, cIdx);
       }
     };
 
     window.addEventListener("beforeunload", handleBeforeUnload);
     return () => window.removeEventListener("beforeunload", handleBeforeUnload);
-  }, [examId, userAnswers, currentIndex, loading]);
+  }, [examId, loading]);
 
   // Physical keyboard shortcuts (A/B/C/D to answer, Left/Right arrow to navigate)
-  // Decoupled with ref to prevent unbinding on every answer
-  const practiceStateRef = useRef({ currentIndex, questions });
-  useEffect(() => {
-    practiceStateRef.current = { currentIndex, questions };
-  });
-
   useEffect(() => {
     if (loading || questions.length === 0) return;
 
@@ -168,7 +164,7 @@ function PracticeContent() {
       const key = e.key.toUpperCase();
       if (["A", "B", "C", "D"].includes(key)) {
         e.preventDefault();
-        handleSelectOption(key);
+        handleSelectOption(key, cIdx);
       } else if (e.key === "ArrowLeft") {
         e.preventDefault();
         navigateTo(cIdx - 1);

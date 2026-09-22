@@ -19,6 +19,35 @@ import {
   Lock
 } from "lucide-react";
 
+function getSafeRedirectTarget(): string {
+  if (typeof window === "undefined") return "/";
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const r = params.get("redirect");
+    if (!r) return "/";
+
+    // 1. Prevent backslash / protocol-relative open redirect attacks
+    if (r.startsWith("//") || r.startsWith("/\\") || r.includes("\\")) {
+      return "/";
+    }
+
+    // 2. Validate strict same-origin via standard URL parser
+    const parsed = new URL(r, window.location.origin);
+    if (parsed.origin !== window.location.origin) {
+      return "/";
+    }
+
+    // 3. Prevent infinite redirect loop back to login
+    if (parsed.pathname === "/login") {
+      return "/";
+    }
+
+    return parsed.pathname + parsed.search;
+  } catch {
+    return "/";
+  }
+}
+
 export default function LoginPage() {
   const router = useRouter();
   const [isRegister, setIsRegister] = useState(false);
@@ -134,17 +163,7 @@ export default function LoginPage() {
         // Clean local state for newly registered user
         clearLocalData("all");
 
-        const getRedirectTarget = () => {
-          if (typeof window === "undefined") return "/";
-          try {
-            const params = new URLSearchParams(window.location.search);
-            const r = params.get("redirect");
-            if (r && r.startsWith("/") && !r.startsWith("//")) return r;
-          } catch {}
-          return "/";
-        };
-
-        const targetUrl = getRedirectTarget();
+        const targetUrl = getSafeRedirectTarget();
 
         // Touch active timestamp
         try {
@@ -195,17 +214,7 @@ export default function LoginPage() {
           console.warn("Cloud backup pull or reconcile skipped/empty:", syncErr);
         }
 
-        const getRedirectTarget = () => {
-          if (typeof window === "undefined") return "/";
-          try {
-            const params = new URLSearchParams(window.location.search);
-            const r = params.get("redirect");
-            if (r && r.startsWith("/") && !r.startsWith("//")) return r;
-          } catch {}
-          return "/";
-        };
-
-        router.push(getRedirectTarget());
+        router.push(getSafeRedirectTarget());
       }
     } catch (err: any) {
       setErrorMsg(err.message || "操作失败，请稍后重试");

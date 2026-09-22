@@ -82,7 +82,10 @@ function ExamContent() {
         const draft = getExamDraft(examId);
         if (draft) {
           setAnswers(draft.answers || {});
-          setRemainingSeconds(draft.remainingSeconds || (examData?.duration_minutes || 60) * 60);
+          const restoredSec = typeof draft.remainingSeconds === "number"
+            ? draft.remainingSeconds
+            : (examData?.duration_minutes || 60) * 60;
+          setRemainingSeconds(restoredSec);
           if (typeof draft.focusedIndex === "number" && draft.focusedIndex >= 0 && draft.focusedIndex < questionData.length) {
             setFocusedIndex(draft.focusedIndex);
           }
@@ -98,16 +101,17 @@ function ExamContent() {
     loadExam();
   }, [examId]);
 
-  const examStateRef = useRef({
-    examId,
+  const latestRef = useRef({
+    exam,
+    questions,
     answers,
     remainingSeconds,
     focusedIndex,
+    isSubmitted,
   });
+  latestRef.current = { exam, questions, answers, remainingSeconds, focusedIndex, isSubmitted };
 
-  useEffect(() => {
-    examStateRef.current = { examId, answers, remainingSeconds, focusedIndex };
-  });
+  const isSubmittingRef = useRef(false);
 
   // 1. Timer countdown (decoupled from remainingSeconds to prevent 1-second interval thrashing)
   useEffect(() => {
@@ -117,7 +121,7 @@ function ExamContent() {
       setRemainingSeconds((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          setTimeout(() => handleSubmit(true), 0);
+          queueMicrotask(() => handleSubmit(true));
           return 0;
         }
         return prev - 1;
@@ -132,9 +136,9 @@ function ExamContent() {
     if (!examId || isSubmitted || loading) return;
 
     const draftInterval = setInterval(() => {
-      const { examId: eId, answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = examStateRef.current;
-      if (eId && Object.keys(curAns).length > 0) {
-        saveExamDraft(eId, curAns, curSec, curIdx);
+      const { answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
+      if (examId && Object.keys(curAns).length > 0) {
+        saveExamDraft(examId, curAns, curSec, curIdx);
       }
     }, 5000);
 
@@ -146,9 +150,9 @@ function ExamContent() {
     if (!examId || isSubmitted || loading) return;
 
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
-      const { examId: eId, answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = examStateRef.current;
-      if (eId) {
-        saveExamDraft(eId, curAns, curSec, curIdx);
+      const { answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
+      if (examId) {
+        saveExamDraft(examId, curAns, curSec, curIdx);
       }
       if (Object.keys(curAns).length > 0) {
         e.preventDefault();
@@ -223,24 +227,27 @@ function ExamContent() {
 
   const handleSelectAnswer = (qId: string, optionKey: string) => {
     if (isSubmitted) return;
+    const { remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
     setAnswers((prev) => {
       const next = {
         ...prev,
         [qId]: optionKey,
       };
       if (examId) {
-        saveExamDraft(examId, next, remainingSeconds, focusedIndex);
+        saveExamDraft(examId, next, curSec, curIdx);
       }
       return next;
     });
   };
 
   const handleSubmit = (auto = false) => {
-    if (!exam) return;
+    if (isSubmittingRef.current) return;
+    const { exam: curExam, questions: curQuestions, answers: curAnswers, remainingSeconds: curSec } = latestRef.current;
+    if (!curExam) return;
 
     if (!auto) {
-      const answeredCount = Object.keys(answers).length;
-      const totalCount = questions.length;
+      const answeredCount = Object.keys(curAnswers).length;
+      const totalCount = curQuestions.length;
       if (answeredCount < totalCount) {
         if (!window.confirm(`当前共有 ${totalCount} 道试题，您已完成 ${answeredCount} 道，尚有 ${totalCount - answeredCount} 道未作答。\n确定现在交卷核分吗？`)) {
           return;
@@ -252,12 +259,14 @@ function ExamContent() {
       }
     }
 
+    isSubmittingRef.current = true;
+
     let earnedRawPoints = 0;
     let totalRawPoints = 0;
     const detailAnswers: Record<string, { userAnswer: string; isCorrect: boolean }> = {};
 
-    questions.forEach((q) => {
-      const uAns = answers[q.id] || "";
+    curQuestions.forEach((q) => {
+      const uAns = curAnswers[q.id] || "";
       const isCorr = uAns === q.correct_answer;
       totalRawPoints += Number(q.points || 2);
       if (isCorr) {
@@ -265,8 +274,8 @@ function ExamContent() {
       } else {
         recordMistake({
           questionId: q.id,
-          examId: exam.id,
-          categoryId: exam.category_id,
+          examId: curExam.id,
+          categoryId: curExam.category_id,
           wrongAnswer: uAns || "未作答",
         });
       }
@@ -277,25 +286,25 @@ function ExamContent() {
       };
     });
 
-    const examTotal = Number(exam.total_score || totalRawPoints || 100);
-    const passLine = Number(exam.pass_score || (examTotal * 0.6));
+    const examTotal = Number(curExam.total_score || totalRawPoints || 100);
+    const passLine = Number(curExam.pass_score || (examTotal * 0.6));
     const finalScore = Math.round(earnedRawPoints * 10) / 10;
     const passed = finalScore >= passLine;
 
-    const examDuration = Number(exam?.duration_minutes || 60);
+    const examDuration = Number(curExam?.duration_minutes || 60);
     const examRes: ExamResult = {
-      examId: exam.id,
-      examTitle: exam.title,
+      examId: curExam.id,
+      examTitle: curExam.title,
       score: finalScore,
       totalScore: examTotal,
       isPassed: passed,
-      durationSeconds: Math.max(0, examDuration * 60 - remainingSeconds),
+      durationSeconds: Math.max(0, examDuration * 60 - curSec),
       submittedAt: new Date().toISOString(),
       answers: detailAnswers,
     };
 
     saveExamResult(examRes);
-    clearExamDraft(exam.id);
+    clearExamDraft(curExam.id);
     setResult(examRes);
     setIsSubmitted(true);
 

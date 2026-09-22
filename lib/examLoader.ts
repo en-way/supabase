@@ -71,6 +71,11 @@ function revalidateLobbyInBackground() {
         const categories = await catRes.json();
         const exams = await examRes.json();
         lobbyMemoryCache = { categories, exams };
+        window.dispatchEvent(
+          new CustomEvent("enway_lobby_revalidated", {
+            detail: { categories, exams },
+          })
+        );
       }
     } catch {
       // Offline / network failure during silent background revalidate is safe to ignore
@@ -253,6 +258,9 @@ export async function fetchExamDetailWithFallback(examId: string): Promise<ExamD
 export async function clearStaticExamCache(): Promise<boolean> {
   lobbyMemoryCache = null;
   hasRevalidatedLobby = false;
+  for (const k of Object.keys(examDetailMemoryCache)) {
+    delete examDetailMemoryCache[k];
+  }
   if (!hasCacheStorage) return false;
   try {
     return await caches.delete(CACHE_NAME);

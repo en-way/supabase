@@ -40,6 +40,16 @@ export default function HomePage() {
 
   useEffect(() => {
     loadData();
+
+    const handleLobbyRevalidated = (e: any) => {
+      if (e.detail?.categories?.length > 0) setCategories(e.detail.categories);
+      if (e.detail?.exams?.length > 0) setExams(e.detail.exams);
+    };
+
+    window.addEventListener("enway_lobby_revalidated", handleLobbyRevalidated);
+    return () => {
+      window.removeEventListener("enway_lobby_revalidated", handleLobbyRevalidated);
+    };
   }, []);
 
   const handleForceRefresh = async () => {
