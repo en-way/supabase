@@ -544,7 +544,7 @@ export default function AdminPage() {
         const { data: insertedPassages, error: pInsErr } = await supabase
           .from("passages")
           .insert(passagePayloads)
-          .select();
+          .select("id");
         if (pInsErr) throw pInsErr;
 
         const questionRows: any[] = [];
@@ -845,7 +845,7 @@ export default function AdminPage() {
           approval_status: approvalStatus,
           created_by: currentUser?.id,
         })
-        .select()
+        .select("id")
         .single();
 
       if (examErr) throw examErr;
@@ -864,7 +864,7 @@ export default function AdminPage() {
         const { data: insertedPassages, error: pErr } = await supabase
           .from("passages")
           .insert(passagePayloads)
-          .select();
+          .select("id");
 
         if (pErr) throw pErr;
 

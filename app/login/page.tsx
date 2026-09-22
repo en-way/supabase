@@ -83,7 +83,7 @@ export default function LoginPage() {
           if (limit > 0) {
             const { count } = await supabase
               .from("profiles")
-              .select("*", { count: "exact", head: true })
+              .select("id", { count: "exact", head: true })
               .eq("role", "student");
             studentCount = count || 0;
             if (studentCount >= limit) {
@@ -209,7 +209,22 @@ export default function LoginPage() {
         // Automatically pull latest backup from Supabase Storage and reconcile
         try {
           await downloadBackupFromCloud();
-          await reconcileLearningState();
+
+          // 🛡️ Free Quota Protection: 7-day throttle on automatic reconciliation
+          const LAST_RECON_KEY = "enway_last_reconcile_ts";
+          let lastRecon = 0;
+          try {
+            lastRecon = Number(localStorage.getItem(LAST_RECON_KEY) || "0");
+          } catch {}
+
+          if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
+            try {
+              localStorage.setItem(LAST_RECON_KEY, String(Date.now()));
+              await reconcileLearningState();
+            } catch (reconErr) {
+              console.warn("Reconcile skipped/failed:", reconErr);
+            }
+          }
         } catch (syncErr) {
           console.warn("Cloud backup pull or reconcile skipped/empty:", syncErr);
         }

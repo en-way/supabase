@@ -10,67 +10,49 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
 
+  // 1. Single-mount auth state initialization & listener (0 network churn on route changes)
   useEffect(() => {
     let isMounted = true;
 
-    async function checkAuth() {
+    async function initAuth() {
       try {
         const { data: { session } } = await supabase.auth.getSession();
         if (!isMounted) return;
-
-        const isUserLoggedIn = Boolean(session?.user);
-
-        if (!isUserLoggedIn) {
-          setIsAuthenticated(false);
-          if (pathname !== "/login") {
-            const currentUrl = typeof window !== "undefined"
-              ? window.location.pathname + window.location.search
-              : pathname;
-            const redirectUrl = currentUrl && currentUrl !== "/" 
-              ? `/login?redirect=${encodeURIComponent(currentUrl)}` 
-              : "/login";
-            router.replace(redirectUrl);
-          }
-        } else {
-          setIsAuthenticated(true);
-          if (pathname === "/login") {
-            router.replace("/");
-          }
-        }
-      } catch (err) {
+        setIsAuthenticated(Boolean(session?.user));
+      } catch {
         if (!isMounted) return;
         setIsAuthenticated(false);
-        if (pathname !== "/login") {
-          router.replace("/login");
-        }
       }
     }
-
-    checkAuth();
+    initAuth();
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       if (!isMounted) return;
-      const isUserLoggedIn = Boolean(session?.user);
-      setIsAuthenticated(isUserLoggedIn);
-
-      if (!isUserLoggedIn && pathname !== "/login") {
-        const currentUrl = typeof window !== "undefined"
-          ? window.location.pathname + window.location.search
-          : pathname;
-        const redirectUrl = currentUrl && currentUrl !== "/" 
-          ? `/login?redirect=${encodeURIComponent(currentUrl)}` 
-          : "/login";
-        router.replace(redirectUrl);
-      } else if (isUserLoggedIn && pathname === "/login") {
-        router.replace("/");
-      }
+      setIsAuthenticated(Boolean(session?.user));
     });
 
     return () => {
       isMounted = false;
       subscription.unsubscribe();
     };
-  }, [pathname, router]);
+  }, []);
+
+  // 2. Pure route protection and redirection (0 Supabase API calls on navigation)
+  useEffect(() => {
+    if (isAuthenticated === null) return;
+
+    if (!isAuthenticated && pathname !== "/login") {
+      const currentUrl = typeof window !== "undefined"
+        ? window.location.pathname + window.location.search
+        : pathname;
+      const redirectUrl = currentUrl && currentUrl !== "/"
+        ? `/login?redirect=${encodeURIComponent(currentUrl)}`
+        : "/login";
+      router.replace(redirectUrl);
+    } else if (isAuthenticated && pathname === "/login") {
+      router.replace("/");
+    }
+  }, [pathname, router, isAuthenticated]);
 
   // 1. If on login page, render only if NOT authenticated (or redirect to home if already logged in)
   if (pathname === "/login") {

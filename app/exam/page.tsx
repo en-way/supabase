@@ -12,6 +12,7 @@ import {
   normalizeOptions,
   ExamResult 
 } from "@/lib/storage";
+import { enqueueSubmissionTask } from "@/lib/submissionQueue";
 import { fetchExamDetailWithFallback } from "@/lib/examLoader";
 import confetti from "canvas-confetti";
 import { 
@@ -121,7 +122,10 @@ function ExamContent() {
       setRemainingSeconds((prev) => {
         if (prev <= 1) {
           clearInterval(timer);
-          queueMicrotask(() => handleSubmit(true));
+          // 🛡️ 500-Concurrency Dirac Pulse Armor: Inject 0 ~ 12s Uniform Jitter
+          // Flattens the 400 req/s Dirac impulse into a smooth <= 41.6 req/s stream
+          const jitterMs = Math.floor(Math.random() * 12000);
+          setTimeout(() => handleSubmit(true), jitterMs);
           return 0;
         }
         return prev - 1;
@@ -304,6 +308,8 @@ function ExamContent() {
     };
 
     saveExamResult(examRes);
+    // 🛡️ Durable Zero-Loss Queue: Enqueue submission task before clearing draft
+    enqueueSubmissionTask("exam_result", { examId: curExam.id, score: finalScore });
     clearExamDraft(curExam.id);
     setResult(examRes);
     setIsSubmitted(true);

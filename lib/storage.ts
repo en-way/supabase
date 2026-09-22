@@ -361,9 +361,10 @@ export function saveExamResult(result: ExamResult) {
   delete state.examDrafts[result.examId];
   saveLocalState(state);
 
-  // Touch active timestamp on exam submission
+  // Touch active timestamp on exam submission and sync cross-tab throttle
   if (typeof window !== "undefined") {
     try {
+      localStorage.setItem("enway_last_presence_touch", String(Date.now()));
       supabase.rpc("touch_user_activity").then(() => {}, () => {});
     } catch {}
   }

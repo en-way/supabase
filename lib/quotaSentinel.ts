@@ -168,6 +168,9 @@ function isExemptRequest(input: RequestInfo | URL, init?: RequestInit): boolean 
       return true;
     }
     // 2. 携带了高优先级标头的关键请求
+    if (typeof Request !== "undefined" && input instanceof Request) {
+      if (input.headers.get("x-enway-priority") === "high") return true;
+    }
     const headers = init?.headers;
     if (headers) {
       if (headers instanceof Headers) {
@@ -263,25 +266,52 @@ export async function sentinelFetch(
     }
   }
 
-  // 3. 执行物理网络请求
-  try {
-    const res = await fetch(input, init);
-    mutateStats((s) => {
-      s.totalRequests += 1;
-    });
+  // 3. 执行物理网络请求（具备针对云端 429/503/504 的指数退避自愈重试机制）
+  const MAX_EXTERNAL_RETRIES = 2;
+  let attempt = 0;
 
-    // 如果半开嗅探请求成功，断路器安全闭合
-    if (circuitState === "HALF_OPEN") {
-      circuitState = "CLOSED";
-      emitSentinelAlert();
+  while (true) {
+    try {
+      const res = await fetch(input, init);
+      mutateStats((s) => {
+        s.totalRequests += 1;
+      });
+
+      // 如果半开嗅探请求成功，断路器安全闭合
+      if (circuitState === "HALF_OPEN") {
+        circuitState = "CLOSED";
+        emitSentinelAlert();
+      }
+
+      // 如果遇到云端 429/503/504 且尚有重试机会
+      if ((res.status === 429 || res.status === 503 || res.status === 504) && attempt < MAX_EXTERNAL_RETRIES) {
+        let delayMs = 1000 * Math.pow(2, attempt) + Math.floor(Math.random() * 500);
+        const retryAfter = res.headers?.get ? res.headers.get("Retry-After") : null;
+        if (retryAfter) {
+          const parsedSec = parseInt(retryAfter, 10);
+          if (!isNaN(parsedSec) && parsedSec > 0 && parsedSec <= 10) {
+            delayMs = parsedSec * 1000;
+          }
+        }
+        attempt++;
+        await new Promise((r) => setTimeout(r, delayMs));
+        continue;
+      }
+
+      return res;
+    } catch (err) {
+      mutateStats((s) => {
+        s.totalRequests += 1;
+      });
+
+      if (attempt < MAX_EXTERNAL_RETRIES) {
+        attempt++;
+        const backoff = 1000 * Math.pow(2, attempt) + Math.floor(Math.random() * 500);
+        await new Promise((r) => setTimeout(r, backoff));
+        continue;
+      }
+      throw err;
     }
-
-    return res;
-  } catch (err) {
-    mutateStats((s) => {
-      s.totalRequests += 1;
-    });
-    throw err;
   }
 }
 

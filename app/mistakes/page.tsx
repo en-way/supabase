@@ -193,7 +193,7 @@ export default function MistakesPage() {
           .from("questions")
           .select(`
             id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
-            passages (id, title, content, section_type),
+            passages (id, title, section_type),
             exams (id, title, year)
           `)
           .in("id", missingIds);

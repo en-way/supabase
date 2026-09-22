@@ -64,13 +64,44 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    async function loadAnnouncement() {
+    const NAV_ANNOUNCEMENT_CACHE_KEY = "enway_cached_nav_announcement";
+    const NAV_PROFILE_CACHE_PREFIX = "enway_cached_nav_profile_";
+    const NAV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
+
+    async function loadAnnouncement(forceRefresh = false) {
+      if (!forceRefresh && typeof window !== "undefined") {
+        try {
+          const raw = sessionStorage.getItem(NAV_ANNOUNCEMENT_CACHE_KEY);
+          if (raw) {
+            const { data, timestamp } = JSON.parse(raw);
+            if (Date.now() - timestamp < NAV_CACHE_TTL) {
+              if (data && data.announcement_enabled && data.announcement_text?.trim()) {
+                setActiveAnnouncement(data);
+              } else {
+                setActiveAnnouncement(null);
+              }
+              return;
+            }
+          }
+        } catch {}
+      }
+
       try {
         const { data } = await supabase
           .from("system_settings")
           .select("announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at")
           .eq("id", 1)
           .maybeSingle();
+
+        if (typeof window !== "undefined") {
+          try {
+            sessionStorage.setItem(
+              NAV_ANNOUNCEMENT_CACHE_KEY,
+              JSON.stringify({ data, timestamp: Date.now() })
+            );
+          } catch {}
+        }
+
         if (data && data.announcement_enabled && data.announcement_text?.trim()) {
           setActiveAnnouncement(data);
         } else {
@@ -81,27 +112,64 @@ export default function Navbar() {
     loadAnnouncement();
 
     let isFetchingUser = false;
-    async function loadUser() {
+    async function loadUser(forceRefresh = false) {
       if (isFetchingUser) return;
       isFetchingUser = true;
       try {
-        const { data: { user } } = await supabase.auth.getUser();
-        setUser(user);
-        if (user) {
+        // Read local JWT session instead of triggering physical /auth/v1/user network call
+        const { data: { session } } = await supabase.auth.getSession();
+        const currentUser = session?.user || null;
+        setUser(currentUser);
+
+        if (currentUser) {
+          const profileCacheKey = `${NAV_PROFILE_CACHE_PREFIX}${currentUser.id}`;
+          if (!forceRefresh && typeof window !== "undefined") {
+            try {
+              const cached = sessionStorage.getItem(profileCacheKey);
+              if (cached) {
+                const { data, timestamp } = JSON.parse(cached);
+                if (Date.now() - timestamp < NAV_CACHE_TTL) {
+                  setProfile(data);
+                  return;
+                }
+              }
+            } catch {}
+          }
+
           const { data } = await supabase
             .from("profiles")
             .select("id, username, nickname, role")
-            .eq("id", user.id)
+            .eq("id", currentUser.id)
             .maybeSingle();
+
           if (data) {
             setProfile(data);
-          } else if (user.user_metadata) {
-            setProfile({
-              username: user.user_metadata.username || user.email?.split("@")[0],
-              nickname: user.user_metadata.nickname || user.user_metadata.username,
+            if (typeof window !== "undefined") {
+              try {
+                sessionStorage.setItem(
+                  profileCacheKey,
+                  JSON.stringify({ data, timestamp: Date.now() })
+                );
+              } catch {}
+            }
+          } else if (currentUser.user_metadata) {
+            const fallbackProfile = {
+              username: currentUser.user_metadata.username || currentUser.email?.split("@")[0],
+              nickname: currentUser.user_metadata.nickname || currentUser.user_metadata.username,
               role: "student",
-            });
+            };
+            setProfile(fallbackProfile);
+            if (typeof window !== "undefined") {
+              try {
+                sessionStorage.setItem(
+                  profileCacheKey,
+                  JSON.stringify({ data: fallbackProfile, timestamp: Date.now() })
+                );
+              } catch {}
+            }
           }
+        } else {
+          setProfile(null);
         }
       } catch (e) {
         console.error("Error loading user profile", e);
@@ -116,7 +184,7 @@ export default function Navbar() {
       if (session?.user) {
         setUser(session.user);
         if (event === "SIGNED_IN") {
-          loadUser();
+          loadUser(true);
         }
       } else {
         setUser(null);
@@ -125,15 +193,19 @@ export default function Navbar() {
     });
 
     const handleProfileUpdate = () => {
-      loadUser();
+      loadUser(true);
     };
+    const handleAnnouncementUpdate = () => {
+      loadAnnouncement(true);
+    };
+
     window.addEventListener("enway_profile_updated", handleProfileUpdate);
-    window.addEventListener("enway_announcement_updated", loadAnnouncement);
+    window.addEventListener("enway_announcement_updated", handleAnnouncementUpdate);
 
     return () => {
       subscription.unsubscribe();
       window.removeEventListener("enway_profile_updated", handleProfileUpdate);
-      window.removeEventListener("enway_announcement_updated", loadAnnouncement);
+      window.removeEventListener("enway_announcement_updated", handleAnnouncementUpdate);
     };
   }, []);
 
@@ -146,6 +218,16 @@ export default function Navbar() {
       }
       // Strictly clear local device data per user request to isolate accounts
       clearLocalData("all");
+      if (typeof window !== "undefined") {
+        try {
+          sessionStorage.removeItem("enway_cached_nav_announcement");
+          Object.keys(sessionStorage).forEach((k) => {
+            if (k.startsWith("enway_cached_nav_profile_")) {
+              sessionStorage.removeItem(k);
+            }
+          });
+        } catch {}
+      }
       await supabase.auth.signOut();
       setShowLogoutModal(false);
       router.push("/login");
@@ -153,6 +235,16 @@ export default function Navbar() {
       console.error("Logout error", err);
       // Fallback
       clearLocalData("all");
+      if (typeof window !== "undefined") {
+        try {
+          sessionStorage.removeItem("enway_cached_nav_announcement");
+          Object.keys(sessionStorage).forEach((k) => {
+            if (k.startsWith("enway_cached_nav_profile_")) {
+              sessionStorage.removeItem(k);
+            }
+          });
+        } catch {}
+      }
       await supabase.auth.signOut();
       setShowLogoutModal(false);
       router.push("/login");
