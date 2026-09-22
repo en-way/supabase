@@ -42,6 +42,7 @@ import {
 } from "lucide-react";
 import { fetchAnalyticsSnapshot, refreshAnalyticsSnapshot, AnalyticsSnapshot } from "@/lib/analyticsSnapshot";
 import { WidgetErrorBoundary } from "@/components/WidgetErrorBoundary";
+import { getSentinelStats, resetSentinelState, getCircuitBreakerState, SentinelStats } from "@/lib/quotaSentinel";
 
 export default function AdminPage() {
   const router = useRouter();
@@ -108,6 +109,27 @@ export default function AdminPage() {
 
   // Global notice banner
   const [notice, setNotice] = useState<{ type: "success" | "error"; text: string } | null>(null);
+
+  // Client Quota Sentinel metrics
+  const [sentinelStats, setSentinelStats] = useState<SentinelStats>(() => getSentinelStats());
+  const [sentinelStatus, setSentinelStatus] = useState(() => getCircuitBreakerState());
+
+  useEffect(() => {
+    const handleSentinelAlert = (e: any) => {
+      if (e.detail?.stats) {
+        setSentinelStats(e.detail.stats);
+      }
+      setSentinelStatus(getCircuitBreakerState());
+    };
+    window.addEventListener("enway_sentinel_alert", handleSentinelAlert);
+    return () => window.removeEventListener("enway_sentinel_alert", handleSentinelAlert);
+  }, []);
+
+  const handleResetSentinel = () => {
+    resetSentinelState();
+    setSentinelStats(getSentinelStats());
+    setSentinelStatus(getCircuitBreakerState());
+  };
 
   // Exam Edit / Material & File Modification Modal (Available to Admin & Super Admin)
   const [editingExam, setEditingExam] = useState<any | null>(null);
@@ -1798,6 +1820,96 @@ export default function AdminPage() {
                   )}
                 </button>
               </div>
+            </div>
+          </div>
+
+          {/* Card 3: Client Quota Sentinel & API Health */}
+          <div className="bg-white dark:bg-[#11131a] rounded-3xl border border-slate-200 dark:border-cyan-500/20 p-6 sm:p-8 space-y-6 shadow-sm">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div>
+                <div className="flex items-center space-x-2">
+                  <div className="w-8 h-8 rounded-xl bg-indigo-50 dark:bg-cyan-500/10 text-indigo-600 dark:text-cyan-400 flex items-center justify-center font-bold">
+                    <Shield className="w-4 h-4" />
+                  </div>
+                  <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100">
+                    客户端配额熔断哨兵与 API 健康度看板
+                  </h3>
+                  <span className={`px-2 py-0.5 rounded-full text-[10px] font-bold ${
+                    sentinelStatus.state === "OPEN"
+                      ? "bg-rose-100 text-rose-700 dark:bg-rose-950/60 dark:text-rose-400 border border-rose-200 dark:border-rose-500/30 animate-pulse"
+                      : "bg-emerald-100 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-400 border border-emerald-200 dark:border-emerald-500/30"
+                  }`}>
+                    {sentinelStatus.state === "OPEN" ? `● 熔断冷静期中 (${sentinelStatus.remainingCooldown}s)` : "● 正常健康运行 (CLOSED)"}
+                  </span>
+                </div>
+                <p className="text-xs text-slate-500 dark:text-zinc-400 mt-1">
+                  10秒滑动窗口主动削峰退避与防刷硬熔断 · 杜绝死循环消耗 Supabase 50万次免费配额
+                </p>
+              </div>
+
+              <button
+                onClick={handleResetSentinel}
+                className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200/80 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-slate-700 dark:text-zinc-300 text-xs font-semibold flex items-center space-x-1.5 transition-all self-start sm:self-center"
+              >
+                <RefreshCw className="w-3.5 h-3.5 text-slate-500 dark:text-zinc-400" />
+                <span>重置哨兵状态</span>
+              </button>
+            </div>
+
+            {/* Metrics Grid */}
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5 pt-2">
+              <div className="p-4 bg-slate-50 dark:bg-zinc-900/60 rounded-2xl border border-slate-200/80 dark:border-zinc-800">
+                <span className="text-[11px] font-medium text-slate-400 dark:text-zinc-500 block">今日客户端请求数</span>
+                <span className="text-2xl font-bold font-mono text-slate-900 dark:text-zinc-100 mt-1 block">
+                  {sentinelStats.totalRequests}
+                </span>
+                <span className="text-[10px] text-slate-400 dark:text-zinc-500 mt-0.5 block">
+                  实时滑动: {sentinelStatus.recentRps} req/s
+                </span>
+              </div>
+
+              <div className="p-4 bg-slate-50 dark:bg-zinc-900/60 rounded-2xl border border-slate-200/80 dark:border-zinc-800">
+                <span className="text-[11px] font-medium text-slate-400 dark:text-zinc-500 block">软限排队削峰次数</span>
+                <span className="text-2xl font-bold font-mono text-amber-600 dark:text-amber-400 mt-1 block">
+                  {sentinelStats.throttledRequests}
+                </span>
+                <span className="text-[10px] text-slate-400 dark:text-zinc-500 mt-0.5 block">
+                  10s内超12次自适应退避
+                </span>
+              </div>
+
+              <div className="p-4 bg-slate-50 dark:bg-zinc-900/60 rounded-2xl border border-slate-200/80 dark:border-zinc-800">
+                <span className="text-[11px] font-medium text-slate-400 dark:text-zinc-500 block">断路硬熔断触发</span>
+                <span className="text-2xl font-bold font-mono text-rose-600 dark:text-rose-400 mt-1 block">
+                  {sentinelStats.trippedCount}
+                </span>
+                <span className="text-[10px] text-slate-400 dark:text-zinc-500 mt-0.5 block">
+                  10s内超25次紧急挂起
+                </span>
+              </div>
+
+              <div className="p-4 bg-slate-50 dark:bg-zinc-900/60 rounded-2xl border border-slate-200/80 dark:border-zinc-800">
+                <span className="text-[11px] font-medium text-slate-400 dark:text-zinc-500 block">熔断拦截无效请求</span>
+                <span className="text-2xl font-bold font-mono text-indigo-600 dark:text-cyan-400 mt-1 block">
+                  {sentinelStats.blockedRequests}
+                </span>
+                <span className="text-[10px] text-slate-400 dark:text-zinc-500 mt-0.5 block">
+                  0 云端网络消耗
+                </span>
+              </div>
+            </div>
+
+            {/* Architecture Details Box */}
+            <div className="p-4 bg-slate-50/80 dark:bg-zinc-900/40 rounded-2xl border border-slate-200/60 dark:border-zinc-800/80 text-xs text-slate-600 dark:text-zinc-400 space-y-1.5 leading-relaxed">
+              <div className="font-semibold text-slate-800 dark:text-zinc-200 flex items-center space-x-1.5">
+                <Sparkles className="w-3.5 h-3.5 text-indigo-500 dark:text-cyan-400" />
+                <span>防护策略说明</span>
+              </div>
+              <p className="text-[11px]">
+                • <strong>一级软限（10s &gt; 12次）</strong>：自适应延迟 300~1000ms 排队平滑流量脉冲，避免向 Supabase 瞬间迸发高频并发。<br />
+                • <strong>二级断路（10s &gt; 25次）</strong>：断路器开启 30 秒冷静期，前端立即就地拦截并合成 429 响应，彻底切断物理网络消耗。<br />
+                • <strong>特权豁免通道</strong>：账号安全退出（<code>/auth/v1/logout</code>）与正式考场交卷不受断路器影响，优先保障核心业务体验。
+              </p>
             </div>
           </div>
         </div>
