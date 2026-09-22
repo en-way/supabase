@@ -74,9 +74,9 @@ flowchart TD
 ## 2. 五大存储层级详析
 
 ### 2.1 客户端浏览器本地存储 (Client Local-First)
-- **存储介质**：`window.localStorage`
+- **存储介质**：`window.localStorage` 与 Web 标准 `window.caches` (CacheStorage: `enway-static-v2`)
 - **存储键名**：`enway_local_learning_data`
-- **处理模块**：`lib/storage.ts`
+- **处理模块**：`lib/storage.ts` 与 `lib/examLoader.ts`
 - **存储数据结构与内容**：
   ```typescript
   interface LocalLearningState {
@@ -84,10 +84,15 @@ flowchart TD
     vocabulary: VocabItem[];      // 个人生词本（单词、音标、释义、上下文原句、加入时间）
     favorites: FavoriteItem[];    // 题目收藏夹
     examResults: Record<string, ExamResult>; // 完整试卷交卷记录、得分、通过状态、用时
-    examDrafts: Record<string, ExamDraft>;   // 正在答题中的临时草稿与剩余倒计时
+    examDrafts: Record<string, ExamDraft>;   // 全真模考进行中的临时草稿与剩余倒计时
+    practiceDrafts?: Record<string, PracticeDraft>; // 智能练习进行中的断点草稿与进度
   }
   ```
 - **核心设计亮点**：
+  - **零网络延迟响应**：每次选择答案或翻页瞬间即刻保存至 LocalStorage，无需任何网络通信，断网完全无忧。
+  - **磁盘持久缓存**：`CacheStorage` 持久存储 60 套真题详情，大厅支持 SWR 异步静默校验。
+  - **原生 Gzip 压缩云端备份**：上传云端私有存储桶前经原生 `CompressionStream('gzip')` 压缩 80%+，有效节省 1GB 存储配额。
+  - **安全防清空保险丝**：校对引擎在 PostgREST 遇到网络异常或分片错误时，立即激活原子级熔断终止，杜绝错题误删。
   1. **零延迟与断网可用**：学生刷题、交卷、查词、记错题无需发送 HTTP 请求，100% 离线可用。
   2. **极简索引设计 (Lean Footprint)**：错题本被自动清洗为仅保留 `questionId` 和作答记录，不重复存储题干与解析文本。显示错题时从真题镜像动态联合查询，使本地存储开销压缩 90% 以上。
 
