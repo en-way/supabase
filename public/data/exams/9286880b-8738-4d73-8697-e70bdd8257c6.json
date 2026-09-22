@@ -1,1 +1,1455 @@
-{"exam":{"id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","title":"2024年全国硕士研究生招生考试英语（二）真题","year":2024,"exam_type":"real","duration_minutes":75,"total_score":60,"pass_score":36,"is_published":true,"created_at":"2026-09-19T16:09:01.089647+00:00","approval_status":"approved","created_by":null,"questions":[{"count":45}],"passages":[{"count":6}]},"passages":[{"id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","section_type":"cloze","title":"Section I: Use of English (完形填空 1-20题)","content":"Front-of-package food labeling has garnered global momentum as public health authorities strive to curb surging rates of diet-related chronic conditions. Proponents argue that straightforward interpretive schemes, such as traffic-light color codes or numerical nutritional ratings, empower shoppers to make healthier purchasing (1)____ in fast-paced retail settings.\n\nPsychological investigations, however, suggest that consumer reactions to nutritional labels are frequently (2)____ by cognitive biases. Shoppers operating under time pressure or mental fatigue often exhibit an all-or-nothing mindset, viewing items with green indicators as universally benign while treating red indicators as strictly (3)____. This dichotomous perception can generate unexpected health halos, leading people to consume excessive portions of moderately wholesome foods under the mistaken belief that the product is completely (4)____.\n\nFurthermore, multinational packaged-food manufacturers frequently exploit ambiguities in regulatory thresholds. By reformulating recipes just enough to (5)____ penalizing score brackets, brands can burnish their nutritional credentials without substantially reducing aggregate sugars or sodium. Consequently, consumer education must accompany labeling mandates to ensure shoppers understand that processed foods, regardless of optimistic packaging, should not entirely (6)____ unadulterated whole foods.\n\nNutritionists emphasize that dietary literacy involves deciphering subtle deceptive marketing. Terms like 'organic', 'all-natural', and 'gluten-free' are routinely (7)____ by marketing strategists to project an aura of vitality, even when applied to ultra-processed snacks packed with refined starches. When consumers encounter these buzzwords, their critical evaluation faculties are often (8)____, leading them to overlook elevated saturated fat levels.\n\nIn response, several governments are testing mandatory warning seals rather than voluntary positive badges. Black octagonal warning labels on Chilean food packaging, indicating excessive calories or sugar, have driven significant (9)____ in sugary beverage purchases. Seeing a bold warning sign provokes immediate risk aversion, prompting shoppers to reconsider impulsive pantry (10)____.\n\nNevertheless, industry lobbyists continue to mount fierce resistance, claiming that graphic warning labels induce unnecessary consumer (11)____ and harm national agricultural commerce. They lobby for complex monochrome tables printed unobtrusively on package backs, where shoppers (12)____ have time to read fine print during weekly grocery runs.\n\nAcademic researchers point out that socioeconomic disparities also shape how labeling systems (13)____. Higher-income households with greater nutritional education actively interpret micro-nutrient percentages, (14)____ lower-income families experiencing economic strain are primarily constrained by shelf prices. A food item carrying a green nutritional badge remains unattainable if it costs twice as much as an ultra-processed staple.\n\nPublic health economists conclude that labeling alone cannot remedy systemic dietary (15)____. Fiscal policies, such as targeted subsidies for fresh vegetables combined with excise taxes on sugary drinks, must operate in (16)____ with informational labels. Creating an equitable food environment requires making wholesome choices not merely visually identifiable, but economically (17)____.\n\nSchools and community centers must also play a foundational role, integrating practical meal-planning skills into primary curricula. Teaching children how to prepare balanced meals from raw ingredients cultivates lifelong dietary (18)____, insulating future generations against aggressive fast-food advertising.\n\nUltimately, front-of-package labels should be viewed as a valuable first step in a protracted public health (19)____. Empowering citizens to reclaim sovereignty over their nutritional choices will require sustained political will, regulatory vigilance, and a collective commitment to prioritizing human wellness over corporate food (20)____.","sort_order":1},{"id":"5ecb8b51-008e-4dbd-9669-ba9955006bfe","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 1)","content":"The debate over post-pandemic remote work has entered a decisive institutional phase. While Silicon Valley titans and Wall Street investment banks have issued stringent return-to-office mandates, mid-market employers and regional service firms are aggressively leveraging permanent workplace flexibility as a vital recruiting weapon to lure skilled professionals away from metropolitan hubs.\n\nHuman resource surveys demonstrate that the retention premium of hybrid scheduling is now comparable to a substantial pay raise. Knowledge workers—particularly parents caring for young dependents and mid-career specialists burdened with arduous commutes—routinely express a willingness to sacrifice 5 to 10 percent of their base compensation in exchange for the autonomy to work from home two to three days a week. For regional companies unable to match the eye-popping wage packages of top-tier corporate conglomerates, remote-friendly policies provide an indispensable leveler.\n\nNevertheless, operational executives stress that distributed workforces present subtle managerial hazards. Unmonitored remote environments can degrade spontaneous informal collaboration, the serendipitous corridor conversations that often spark creative problem-solving. Furthermore, younger employees and entry-level recruits suffer disproportionately from remote isolation, missing out on the tacit institutional knowledge and direct mentorship traditionally absorbed through in-person office socialization.\n\nTo reconcile these competing pressures, forward-thinking enterprises are transitioning from arbitrary attendance quotas to 'purpose-driven co-location.' Under this philosophy, employees report to company facilities not to sit silently on individual video calls, but rather to participate in structured collaborative workshops, collective brainstorming sessions, and cultural cohesion events. By intentionally redesigning office hours around meaningful communal tasks, firms can preserve collaborative vitality without dismantling the autonomy their employees cherish.","sort_order":2},{"id":"96ab343a-fe75-4ea3-b145-46bd2944c9cc","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 2)","content":"Electric vehicles (EVs) are transitioning from a niche green status symbol into the cornerstone of global automotive production. Propelled by generous state purchase subsidies, stringent emissions mandates, and tumbling battery manufacturing costs, electric cars have captured significant market shares across Western Europe, China, and North America.\n\nHowever, the rapid influx of battery-electric cars onto public thoroughfares is colliding with a profound suburban infrastructure bottleneck: residential and public charging availability. While affluent homeowners with detached suburban houses and private garages can effortlessly install overnight charging stations, apartment dwellers and dense urban residents who park on public curbs face severe charging scarcity. These 'garage-less' drivers must rely on public fast-charging plazas, which often suffer from broken hardware, incompatible proprietary plug connectors, and volatile pricing structures during peak hours.\n\nUtility grid operators voice parallel concerns regarding localized distribution capacity. If millions of commuter vehicles plug into charging circuits simultaneously upon arriving home at 6:00 PM, suburban neighborhood electrical substations risk thermal overloads, tripping circuit breakers and triggering localized blackouts.\n\nTo avert catastrophic grid failures while democratizing electric mobility, municipal planners are pioneering smart-charging architectures and bi-directional 'vehicle-to-grid' (V2G) systems. Under dynamic pricing models, smart chargers automatically schedule vehicle charging during deep overnight troughs when overall power demand collapses and wind generation surges. In addition, V2G-equipped cars can discharge surplus stored battery energy back into regional grids during peak heatwaves, transforming idling automobiles into decentralized batteries that fortify national energy resilience.","sort_order":3},{"id":"aa217ca1-a312-4c16-ae1d-f13a10b513bf","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 3)","content":"Urban green corridors—continuous networks of vegetated linear parks, tree-lined canals, and re-wilded railway tracks—have emerged as essential infrastructure for climate adaptation in contemporary landscape architecture. Rather than treating parks as isolated recreational islands encircled by concrete expressways, ecological urbanists advocate for interconnected ecological arteries that weave through the metropolitan fabric.\n\nEcological assessments reveal that connected corridors yield biodiversity benefits far superior to fragmented green patches. Wildlife species, including pollinators, migratory songbirds, and small mammals, require connected migratory routes to forage, disperse genetic material, and escape localized environmental disturbances. Isolated urban parks frequently suffer from genetic inbreeding and localized extinctions, whereas linked corridors sustain robust ecological gene flow.\n\nMoreover, green corridors provide profound thermal mitigation for human populations. Cities across the globe endure punishing 'urban heat island' effects, wherein asphalt highways and dark masonry absorb solar radiation, elevating ambient temperatures by four to eight degrees Celsius relative to outlying rural zones. Vegetated corridors channel cooling breezes from outlying river valleys deep into suffocating downtown centers, while dense tree canopies shade pedestrian sidewalks and evaporate moisture, substantially reducing air-conditioning loads in adjacent office towers.\n\nSecuring continuous rights-of-way through hyper-dense urban centers, however, represents a formidable political and fiscal challenge. Municipal governments face intense pressure from commercial developers who covet vacant transit strips for high-yield luxury real estate. Visionary cities are responding through innovative land-use regulations, enacting mandates that require private developers to incorporate publicly accessible green easements into skyscraper designs. By harmonizing commercial development with ecological connectivity, metropolises can cultivate resilience in an increasingly volatile climate future.","sort_order":4},{"id":"28ff6ad9-13d7-42d6-abfa-066d999f0d66","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 4)","content":"The traditional linear narrative of post-graduate career trajectories—graduating from university, securing an entry-level position at an established firm, and ascending a predictable corporate ladder—has largely disintegrated for modern graduates. In a labor market characterized by rapid technological obsolescence and recurring economic restructuring, early-career professionals face unpredictable employment pathways.\n\nLabor economists note that the half-life of professional technical skills has contracted to less than five years. The rapid advent of workplace automation, generative artificial intelligence, and algorithmic workflow management has rendered purely technical proficiencies insufficient for long-term career resilience. Consequently, employers are shifting hiring criteria away from narrow technical degree credentials toward adaptive cognitive capabilities, such as systemic problem-solving, cross-disciplinary synthesis, and emotional intelligence.\n\nIn response to this fluid landscape, graduates are embracing lifelong upskilling as a permanent career strategy. Rather than viewing education as a terminal credential achieved in one's early twenties, ambitious professionals continually enroll in micro-credential bootcamps, executive certifications, and modular online courses to recalibrate their skill portfolios. Concurrently, fractional employment, project-based freelancing, and portfolio careers are shedding their historic stigma, increasingly recognized as viable avenues for cultivating diversified professional autonomy.\n\nUniversities and corporate employers must adapt their developmental frameworks to support this new paradigm. Higher education institutions must transcend rigid disciplinary silos, embedding dynamic experiential internships and adaptive problem-solving curricula into undergraduate education. Employers, for their part, must recognize that investing in ongoing workforce education is not an altruistic luxury, but an essential operational imperative to prevent organizational stagnation in a hyper-competitive global economy.","sort_order":5},{"id":"7de0a175-4288-491e-951c-cf79c19b118e","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","category_id":"ky2","section_type":"reading","title":"Section II: Reading Comprehension Part B (新题型·多项对应匹配 41-45题)","content":"In an era of accelerating climate volatility and shifting energy markets, five prominent environmental economists examine the most effective fiscal mechanisms to transition modern economies away from carbon-intensive fuels.\n\n[A] Dr. Elena Rostova (Oxford Institute for Climate Policy)\nCarbon taxation provides the single most transparent market signal. When emissions carry an escalating predictable fee per ton, corporate chief financial officers immediately reallocate capital expenditures toward energy-efficient machinery. Crucially, tax revenues should be distributed back to citizens as an equal 'climate dividend' check, neutralizing regressivity and building durable democratic support.\n\n[B] Prof. Marcus Lindqvist (Stockholm School of Economics)\nCap-and-trade emissions trading systems (ETS) are mathematically superior to fixed taxes because they guarantee an absolute ceiling on environmental pollution. While taxes leave aggregate emissions uncertain, trading systems force carbon permits to fluctuate based on actual abatement technology supply and demand, ensuring cost-effective reductions across industrial conglomerates.\n\n[C] Dr. Sanjay Patel (Global Infrastructure Advisory Board)\nPricing pollution alone is insufficient if green alternatives are commercially unavailable. Governments must aggressively front-load public capital investments into breakthrough grid infrastructure, high-speed rail networks, and green hydrogen hubs. Without public transmission corridors, private clean energy cannot reach industrial hubs regardless of how high carbon prices rise.\n\n[D] Dr. Chloe Dupont (Centre for Ecological Transition)\nFiscal policies must focus squarely on phasing out existing fossil-fuel subsidies. G20 governments still spend hundreds of billions annually subsidizing oil exploration and coal-fired electricity. Terminating these counter-productive subsidies would immediately level the economic playing field for solar and wind generation without raising taxes on consumers.\n\n[E] Prof. Arthur Vance (Harvard Kennedy School)\nBorder carbon adjustment mechanisms (CBAM) are essential to prevent 'carbon leakage'—the relocation of heavy manufacturing to pollution havens abroad. Imposing tariffs on carbon-intensive imported steel and cement protects domestic decarbonizing industries and compels international trading partners to adopt comparable environmental standards.","sort_order":6}],"questions":[{"id":"a60d2f57-4554-4bd7-8c98-889514733c2c","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (1) in the text:","options":[{"key":"A","text":"decisions"},{"key":"B","text":"confessions"},{"key":"C","text":"excuses"},{"key":"D","text":"hesitations"}],"correct_answer":"A","explanation":"【考点精析】固定搭配。purchasing decisions（购买决策）符合零售场景。","points":0.5,"sort_order":1},{"id":"06dca805-276e-441d-85d6-0e2a60c67921","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (2) in the text:","options":[{"key":"A","text":"distorted"},{"key":"B","text":"simplified"},{"key":"C","text":"repaired"},{"key":"D","text":"clarified"}],"correct_answer":"A","explanation":"【考点精析】动词与消极宾语。消费者对营养标签的反应常被认知偏差带偏、扭曲（distorted by cognitive biases）。","points":0.5,"sort_order":2},{"id":"fdf36ada-b6a1-4c4e-b667-d58f27f08b36","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (3) in the text:","options":[{"key":"A","text":"toxic"},{"key":"B","text":"beneficial"},{"key":"C","text":"palatable"},{"key":"D","text":"nutritious"}],"correct_answer":"A","explanation":"【考点精析】对比极端思维。非黑即白心态下，绿色被当作完全有益，红色被视为严格有毒有害（strictly toxic）。","points":0.5,"sort_order":3},{"id":"895ee14c-650e-4840-a8a9-3b0600634913","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (4) in the text:","options":[{"key":"A","text":"calorie-free"},{"key":"B","text":"unaffordable"},{"key":"C","text":"poisonous"},{"key":"D","text":"artificial"}],"correct_answer":"A","explanation":"【考点精析】语境推理。健康光环效应导致人们误以为该食品完全零热量、无卡路里（calorie-free）而过量摄入。","points":0.5,"sort_order":4},{"id":"95ea980b-faab-4a38-9d20-c2f543fe349e","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (5) in the text:","options":[{"key":"A","text":"avoid"},{"key":"B","text":"attract"},{"key":"C","text":"intensify"},{"key":"D","text":"invite"}],"correct_answer":"A","explanation":"【考点精析】动词搭配。微调配方以避开（avoid）低分处罚区间。","points":0.5,"sort_order":5},{"id":"32caf196-24ae-4f4e-84c0-3be4260c5250","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (6) in the text:","options":[{"key":"A","text":"replace"},{"key":"B","text":"imitate"},{"key":"C","text":"contaminate"},{"key":"D","text":"exceed"}],"correct_answer":"A","explanation":"【考点精析】动词辨析。加工食品不能完全替代（replace）新鲜未掺杂的天然全食物。","points":0.5,"sort_order":6},{"id":"bb847543-0672-42c6-a96b-f87ce9c7fac3","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (7) in the text:","options":[{"key":"A","text":"weaponized"},{"key":"B","text":"condemned"},{"key":"C","text":"prohibited"},{"key":"D","text":"eliminated"}],"correct_answer":"A","explanation":"【考点精析】比喻修辞。营销人员把“有机”、“纯天然”等词汇武器化（weaponized），用作诱导消费的光环工具。","points":0.5,"sort_order":7},{"id":"2c3762ec-c372-4c9b-bbaa-d8cdc4d516ba","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (8) in the text:","options":[{"key":"A","text":"dulled"},{"key":"B","text":"sharpened"},{"key":"C","text":"celebrated"},{"key":"D","text":"restored"}],"correct_answer":"A","explanation":"【考点精析】动词辨析。被流行词汇吸引时，消费者的批判评估能力往往被钝化、麻痹（dulled），忽视了高脂肪含量。","points":0.5,"sort_order":8},{"id":"a4db5ad9-bb81-4af0-9178-6c7461d6a082","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (9) in the text:","options":[{"key":"A","text":"declines"},{"key":"B","text":"surges"},{"key":"C","text":"rebounds"},{"key":"D","text":"expansions"}],"correct_answer":"A","explanation":"【考点精析】名词与警示标签效果。黑色八角警示标签导致含糖饮料购买量显著下降（declines）。","points":0.5,"sort_order":9},{"id":"7f5dbb47-cfa3-4cae-9a26-2a723cbcef95","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (10) in the text:","options":[{"key":"A","text":"purchases"},{"key":"B","text":"complaints"},{"key":"C","text":"inspections"},{"key":"D","text":"lawsuits"}],"correct_answer":"A","explanation":"【考点精析】名词搭配。重估冲动性食品购买（impulsive pantry purchases）。","points":0.5,"sort_order":10},{"id":"c8e298a0-1d67-4732-897e-ad5c83af4cc2","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (11) in the text:","options":[{"key":"A","text":"panic"},{"key":"B","text":"trust"},{"key":"C","text":"joy"},{"key":"D","text":"pride"}],"correct_answer":"A","explanation":"【考点精析】名词辨析。食品游说团体声称警示标签会引起不必要的消费者恐慌（consumer panic）。","points":0.5,"sort_order":11},{"id":"be5b8c08-a922-44bb-aa46-33603e7780ff","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (12) in the text:","options":[{"key":"A","text":"seldom"},{"key":"B","text":"always"},{"key":"C","text":"eagerly"},{"key":"D","text":"cheerfully"}],"correct_answer":"A","explanation":"【考点精析】频度副词。顾客在快节奏超市购物中很少（seldom）有闲暇去细读包装背面微小的营养成分表。","points":0.5,"sort_order":12},{"id":"25cc8f51-84bd-45d9-9ce4-4fc076100e71","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (13) in the text:","options":[{"key":"A","text":"function"},{"key":"B","text":"collapse"},{"key":"C","text":"decay"},{"key":"D","text":"freeze"}],"correct_answer":"A","explanation":"【考点精析】动词语义。社会阶层差距影响了标签系统如何实际发挥功能（how labeling systems function）。","points":0.5,"sort_order":13},{"id":"bdcbce6b-68d1-4adb-bb69-06c2a92f355b","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (14) in the text:","options":[{"key":"A","text":"whereas"},{"key":"B","text":"because"},{"key":"C","text":"unless"},{"key":"D","text":"since"}],"correct_answer":"A","explanation":"【考点精析】逻辑对比连词。高收入家庭分析微量营养素百分比，而（whereas）低收入家庭主要受商品价格约束。","points":0.5,"sort_order":14},{"id":"bf9de3b7-e34e-497b-b8f9-3d97f0489ed2","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (15) in the text:","options":[{"key":"A","text":"disparities"},{"key":"B","text":"triumphs"},{"key":"C","text":"remedies"},{"key":"D","text":"privileges"}],"correct_answer":"A","explanation":"【考点精析】名词搭配。单一标签无法纠正系统性的饮食差距与不公（dietary disparities）。","points":0.5,"sort_order":15},{"id":"62fb75d1-50a8-482a-8507-b5cb15d45570","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (16) in the text:","options":[{"key":"A","text":"tandem"},{"key":"B","text":"isolation"},{"key":"C","text":"opposition"},{"key":"D","text":"dispute"}],"correct_answer":"A","explanation":"【考点精析】固定搭配。operate in tandem with（与……紧密协同配合运行）。","points":0.5,"sort_order":16},{"id":"62193d7e-87aa-4a06-b3ab-fa16adc4e8b8","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (17) in the text:","options":[{"key":"A","text":"affordable"},{"key":"B","text":"prohibitive"},{"key":"C","text":"unpopular"},{"key":"D","text":"tasteless"}],"correct_answer":"A","explanation":"【考点精析】形容词对比。健康选择不仅要在视觉上清晰可辨，更要在经济上负担得起（economically affordable）。","points":0.5,"sort_order":17},{"id":"cd8da46f-8410-4c9f-ad78-a35446eb4aeb","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (18) in the text:","options":[{"key":"A","text":"resilience"},{"key":"B","text":"indifference"},{"key":"C","text":"hostility"},{"key":"D","text":"addiction"}],"correct_answer":"A","explanation":"【考点精析】名词与褒义搭配。从小培养烹饪技能可塑造终身饮食抵抗力/韧性（dietary resilience），抵制垃圾食品诱惑。","points":0.5,"sort_order":18},{"id":"1e92553f-9dbc-41e5-b973-146a02666002","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (19) in the text:","options":[{"key":"A","text":"campaign"},{"key":"B","text":"superstition"},{"key":"C","text":"scandal"},{"key":"D","text":"retreat"}],"correct_answer":"A","explanation":"【考点精析】名词搭配。protracted public health campaign（长期的公共卫生运动/战役）。","points":0.5,"sort_order":19},{"id":"03194249-470e-477d-870a-1e144ea6e8cd","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"32b062f2-1e30-4aaf-8069-0bcfbd3ee534","category_id":"ky2","q_type":"cloze_item","stem":"Choose the best option for (20) in the text:","options":[{"key":"A","text":"profits"},{"key":"B","text":"charities"},{"key":"C","text":"superstitions"},{"key":"D","text":"donations"}],"correct_answer":"A","explanation":"【考点精析】价值判断对比。优先考虑人类健康，而非企业食品暴利（corporate food profits）。","points":0.5,"sort_order":20},{"id":"e913e19f-b0a4-4b8a-8069-0ca663061d54","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"5ecb8b51-008e-4dbd-9669-ba9955006bfe","category_id":"ky2","q_type":"reading_item","stem":"Why are mid-market firms offering flexible working arrangements?","options":[{"key":"A","text":"To attract skilled professionals away from corporate conglomerates"},{"key":"B","text":"To comply with mandatory national labor legislation"},{"key":"C","text":"To permanently liquidate physical commercial real estate"},{"key":"D","text":"To reduce employee vacation entitlements"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第一段指出中型企业利用常态化弹性工时作为招聘利器，从大都市巨头处吸引熟练专业技术人才，选 A。","points":2,"sort_order":21},{"id":"ac02e0dc-a4bc-4152-a0ff-7a20caf65d51","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"5ecb8b51-008e-4dbd-9669-ba9955006bfe","category_id":"ky2","q_type":"reading_item","stem":"According to Paragraph 2, many knowledge workers are willing to ______.","options":[{"key":"A","text":"relocate overseas for corporate promotions"},{"key":"B","text":"accept a modest pay reduction for hybrid scheduling flexibility"},{"key":"C","text":"work indefinite overtime in metropolitan offices"},{"key":"D","text":"relinquish their parental healthcare benefits"}],"correct_answer":"B","explanation":"【考点精析】细节事实题。第二段明确指出知识型员工愿意放弃 5% 到 10% 的基本薪酬，以换取每周两到三天居家的工作自主权，选 B。","points":2,"sort_order":22},{"id":"abcc3be5-af70-488a-bd36-85bc95f974d6","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"5ecb8b51-008e-4dbd-9669-ba9955006bfe","category_id":"ky2","q_type":"reading_item","stem":"What managerial challenge of distributed teams is highlighted in Paragraph 3?","options":[{"key":"A","text":"The loss of spontaneous informal interaction and newcomer mentorship"},{"key":"B","text":"Extravagant expenditures on high-speed internet subsidies"},{"key":"C","text":"Frequent software hardware incompatibilities across devices"},{"key":"D","text":"Widespread unionization among remote technical staff"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第三段阐述远程模式削弱了偶发性走廊头脑风暴，且新员工易被孤立并缺少导师直接传授经验，选 A。","points":2,"sort_order":23},{"id":"be966a0a-864b-476d-bbcb-e7bc14ab5be6","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"5ecb8b51-008e-4dbd-9669-ba9955006bfe","category_id":"ky2","q_type":"reading_item","stem":"Under the philosophy of 'purpose-driven co-location', employees come to the office to ______.","options":[{"key":"A","text":"conduct solitary video conferences in partitioned cubicles"},{"key":"B","text":"engage in structured collaborative workshops and team cohesion events"},{"key":"C","text":"undergo continuous biometric productivity surveillance"},{"key":"D","text":"fulfill rigid weekly 50-hour punch-card quotas"}],"correct_answer":"B","explanation":"【考点精析】细节事实题。第四段指出有目的性的到岗是让员工参加结构化的协作工作坊与团队凝聚活动，选 B。","points":2,"sort_order":24},{"id":"c793ae56-01db-4395-9fe6-bd0bf582fdb5","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"5ecb8b51-008e-4dbd-9669-ba9955006bfe","category_id":"ky2","q_type":"reading_item","stem":"The author's tone toward hybrid working models can best be described as ______.","options":[{"key":"A","text":"Dismissive and sarcastic"},{"key":"B","text":"Balanced and constructive"},{"key":"C","text":"Alarmist and fearful"},{"key":"D","text":"Uncritically enthusiastic"}],"correct_answer":"B","explanation":"【考点精析】态度意图题。作者理性权衡了灵活性优势与管理协作隐忧，并提出建设性到岗方案，态度客观平衡且具建设性，选 B。","points":2,"sort_order":25},{"id":"2d33cb5f-44ad-49c8-adbd-0415bf5e7533","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"96ab343a-fe75-4ea3-b145-46bd2944c9cc","category_id":"ky2","q_type":"reading_item","stem":"What problem do urban apartment residents face when adopting electric vehicles?","options":[{"key":"A","text":"A severe lack of private overnight home charging access"},{"key":"B","text":"A complete legal ban on driving electric cars in cities"},{"key":"C","text":"An inability to purchase automobile insurance"},{"key":"D","text":"Excessive gasoline consumption during short commutes"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第二段指出没有私人车库的公寓居民无法安装夜间充电桩，面临严重的公共充电匮乏，选 A。","points":2,"sort_order":26},{"id":"792efb26-f6fa-47fd-8e69-0cf872b187d4","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"96ab343a-fe75-4ea3-b145-46bd2944c9cc","category_id":"ky2","q_type":"reading_item","stem":"Utility grid operators worry that mass EV adoption could lead to ______.","options":[{"key":"A","text":"substation overloads and localized blackouts during peak hours"},{"key":"B","text":"the complete evaporation of petroleum reserves"},{"key":"C","text":"widespread electromagnetic interference with television sets"},{"key":"D","text":"a sharp drop in domestic renewable power generation"}],"correct_answer":"A","explanation":"【考点精析】因果推断题。第三段指出傍晚下班集中充电可能导致配电变电站过载并触发局域停电（thermal overloads, tripping circuit breakers and triggering localized blackouts），选 A。","points":2,"sort_order":27},{"id":"d3869fce-aed1-45da-ae3c-cbdd04ca57dc","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"96ab343a-fe75-4ea3-b145-46bd2944c9cc","category_id":"ky2","q_type":"reading_item","stem":"Smart chargers mitigate grid stress by ______.","options":[{"key":"A","text":"automatically shifting charging sessions to overnight low-demand hours"},{"key":"B","text":"cutting off electrical power to household refrigerators"},{"key":"C","text":"converting battery energy directly into diesel fuel"},{"key":"D","text":"disabling automotive motors whenever highways are congested"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第四段指出智能充电桩通过动态电价，自动将充电调度至深夜负荷低谷期，选 A。","points":2,"sort_order":28},{"id":"e06ca123-fecb-49dc-8ccd-b09af39bd4d1","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"96ab343a-fe75-4ea3-b145-46bd2944c9cc","category_id":"ky2","q_type":"reading_item","stem":"What is the function of 'vehicle-to-grid' (V2G) technology?","options":[{"key":"A","text":"It allows parked vehicles to discharge stored energy back into the grid during peaks"},{"key":"B","text":"It transmits high-speed satellite internet to municipal traffic lights"},{"key":"C","text":"It physically locks tires when a vehicle exceeds the speed limit"},{"key":"D","text":"It automatically reports speeding infractions to insurance firms"}],"correct_answer":"A","explanation":"【考点精析】概念例证题。第四段指出双向车网互动允许车辆在电网负荷高峰期将电池储存的多余电能反哺回电网，将闲置车辆变为分布式蓄电池，选 A。","points":2,"sort_order":29},{"id":"8a505c51-ded2-4ec8-b4f3-36dbdb649100","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"96ab343a-fe75-4ea3-b145-46bd2944c9cc","category_id":"ky2","q_type":"reading_item","stem":"The author concludes that successful EV transition requires ______.","options":[{"key":"A","text":"intelligent grid coordination and accessible charging solutions"},{"key":"B","text":"an immediate return to traditional internal combustion engines"},{"key":"C","text":"banning all apartment dwellers from buying automobiles"},{"key":"D","text":"nationalizing all private electric car manufacturers"}],"correct_answer":"A","explanation":"【考点精析】主旨结论题。全文围绕电动车普及必须攻克充电桩公平接入与电网智能交互双重瓶颈展开，选 A。","points":2,"sort_order":30},{"id":"03ad2225-8fd9-4a38-8916-5200e6f08ee3","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"aa217ca1-a312-4c16-ae1d-f13a10b513bf","category_id":"ky2","q_type":"reading_item","stem":"How do urban green corridors differ from traditional city parks?","options":[{"key":"A","text":"They are continuous, interconnected linear networks rather than isolated patches"},{"key":"B","text":"They are built exclusively underground beneath subway tracks"},{"key":"C","text":"They prohibit all pedestrian access and recreation"},{"key":"D","text":"They are manufactured entirely from artificial synthetic turf"}],"correct_answer":"A","explanation":"【考点精析】细节对比题。第一段指出传统公园是孤立绿岛，而生态绿道是穿透城市机理的互联互通线性网络（continuous networks of vegetated linear parks），选 A。","points":2,"sort_order":31},{"id":"d3fe41b0-90aa-4d54-8025-447b4ec9c27b","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"aa217ca1-a312-4c16-ae1d-f13a10b513bf","category_id":"ky2","q_type":"reading_item","stem":"Why are connected corridors superior for urban wildlife?","options":[{"key":"A","text":"They enable migration and maintain healthy genetic gene flow"},{"key":"B","text":"They provide cages that protect animals from wild predators"},{"key":"C","text":"They eliminate the need for animals to drink freshwater"},{"key":"D","text":"They allow rare birds to nest directly inside automobiles"}],"correct_answer":"A","explanation":"【考点精析】因果推断题。第二段指出孤立公园容易导致近亲繁殖和物种局部灭绝，而连续廊道为野生动物提供了觅食和基因交流的通道，选 A。","points":2,"sort_order":32},{"id":"fc3fbf0e-6117-4aee-8cbb-092d0d88025a","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"aa217ca1-a312-4c16-ae1d-f13a10b513bf","category_id":"ky2","q_type":"reading_item","stem":"Green corridors alleviate urban heat islands by ______.","options":[{"key":"A","text":"channeling cooling breezes and providing protective shade and evaporation"},{"key":"B","text":"painting asphalt roadways with thick white reflective paint"},{"key":"C","text":"prohibiting the installation of air-conditioning units"},{"key":"D","text":"flooding downtown street intersections with sea water"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第三段指出绿道能将外围凉风输送至内城，并通过树冠遮阴与水分蒸腾显著降温，选 A。","points":2,"sort_order":33},{"id":"c315adab-23fe-468c-bab0-ed1beb286dfe","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"aa217ca1-a312-4c16-ae1d-f13a10b513bf","category_id":"ky2","q_type":"reading_item","stem":"What obstacle hinders the creation of continuous green corridors?","options":[{"key":"A","text":"Competition for vacant land from lucrative commercial developers"},{"key":"B","text":"A severe national shortage of tree seeds and saplings"},{"key":"C","text":"Universal citizen protests against pedestrian walking trails"},{"key":"D","text":"Strict constitutional bans on planting grass near buildings"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第四段指出商业地产商觊觎地块用于开发高回报豪华物业，土地竞争激烈（pressure from commercial developers who covet vacant transit strips），选 A。","points":2,"sort_order":34},{"id":"b397b333-c481-4dac-92eb-1bca747664c8","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"aa217ca1-a312-4c16-ae1d-f13a10b513bf","category_id":"ky2","q_type":"reading_item","stem":"Which of the following best reflects the author's message?","options":[{"key":"A","text":"Interconnected green corridors are vital for sustainable, climate-resilient cities"},{"key":"B","text":"Modern skyscrapers should be permanently banned from all metropolises"},{"key":"C","text":"Traditional municipal parks are entirely useless and should be paved over"},{"key":"D","text":"Urban heat island effects are harmless natural phenomena"}],"correct_answer":"A","explanation":"【考点精析】文章主旨大意题。全文系统阐明了互联互通的城市绿色廊道在保护物种基因、降温防灾及提升城市气候韧性中的不可替代价值，选 A。","points":2,"sort_order":35},{"id":"95927e72-8402-401b-a421-742ace2834e7","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"28ff6ad9-13d7-42d6-abfa-066d999f0d66","category_id":"ky2","q_type":"reading_item","stem":"How has the post-graduate career trajectory changed for modern graduates?","options":[{"key":"A","text":"The predictable corporate ladder has been replaced by fluid, unpredictable paths"},{"key":"B","text":"Graduates are guaranteed lifetime tenure upon completing high school"},{"key":"C","text":"Most graduates are legally forced to work in heavy agriculture"},{"key":"D","text":"University degrees have become completely illegal in corporate hiring"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第一段指出传统的线性晋升阶梯瓦解，取而代之的是高度流动的非线性职业路径，选 A。","points":2,"sort_order":36},{"id":"343ab23e-8c1b-4c16-86b7-9f0779f89a07","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"28ff6ad9-13d7-42d6-abfa-066d999f0d66","category_id":"ky2","q_type":"reading_item","stem":"Why are employers shifting away from narrow technical credentials?","options":[{"key":"A","text":"Technical skills rapidly become obsolete due to automation and AI"},{"key":"B","text":"Graduates with technical degrees demand excessive salaries"},{"key":"C","text":"Modern corporations no longer utilize computers in office operations"},{"key":"D","text":"Technical training makes employees emotionally argumentative"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第二段指出技能半衰期已缩短至不足五年，自动化和 AI 使单一技术技能迅速过时，选 A。","points":2,"sort_order":37},{"id":"f5a84c6d-eee2-49fc-b758-a44b88c415a6","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"28ff6ad9-13d7-42d6-abfa-066d999f0d66","category_id":"ky2","q_type":"reading_item","stem":"According to Paragraph 3, modern professionals are adopting ______.","options":[{"key":"A","text":"lifelong upskilling and flexible portfolio careers"},{"key":"B","text":"total retirement from all employment by age thirty"},{"key":"C","text":"a refusal to learn any new digital software applications"},{"key":"D","text":"exclusive reliance on lifelong family financial allowances"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第三段指出年轻从业者将终身学习（lifelong upskilling）作为长久生存策略，并积极践行多元化的组合式职业生涯（portfolio careers），选 A。","points":2,"sort_order":38},{"id":"00f70977-5d9b-463f-859e-0951733a72aa","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"28ff6ad9-13d7-42d6-abfa-066d999f0d66","category_id":"ky2","q_type":"reading_item","stem":"How should higher education institutions adapt to this labor reality?","options":[{"key":"A","text":"By breaking disciplinary silos and integrating experiential problem-solving"},{"key":"B","text":"By closing all humanities and social science faculties"},{"key":"C","text":"By extending undergraduate bachelor programs to ten years"},{"key":"D","text":"By banning students from participating in corporate internships"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第四段指出大学必须打破学科壁垒（transcend rigid disciplinary silos），融入体验式实习与自适应问题解决能力培养，选 A。","points":2,"sort_order":39},{"id":"7ae2c79d-927d-4ca5-816e-0d09b7c46037","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"28ff6ad9-13d7-42d6-abfa-066d999f0d66","category_id":"ky2","q_type":"reading_item","stem":"Which of the following best summarizes the main theme of the text?","options":[{"key":"A","text":"Navigating Career Resilience: Lifelong Learning in an Era of Job Disruption"},{"key":"B","text":"Why University Education Should Be Completely Abolished"},{"key":"C","text":"The Universal Superiority of Lifetime Corporate Tenured Employment"},{"key":"D","text":"How Artificial Intelligence Will Starve All Human Workers"}],"correct_answer":"A","explanation":"【考点精析】主旨标题题。全文探讨了职业模式剧变背景下，从业人员如何通过终身进阶技能学习构建职业韧性，以及高校与雇主的相应变革，选项 A 概括最契合。","points":2,"sort_order":40},{"id":"b66143eb-0b9c-459f-9ecc-4a52bbebc68a","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"7de0a175-4288-491e-951c-cf79c19b118e","category_id":"ky2","q_type":"reading_item","stem":"Which economist argues that carbon revenues should be refunded directly to citizens as dividend checks?","options":[{"key":"A","text":"Dr. Elena Rostova"},{"key":"B","text":"Prof. Marcus Lindqvist"},{"key":"C","text":"Dr. Sanjay Patel"},{"key":"D","text":"Dr. Chloe Dupont"},{"key":"E","text":"Prof. Arthur Vance"}],"correct_answer":"A","explanation":"【考点精析】细节对应题。根据段落 [A] 中 Rostova 观点'tax revenues should be distributed back to citizens as an equal climate dividend check'，对应 A 选项。","points":2,"sort_order":41},{"id":"64876c61-512e-4bb7-8af0-404d7b491693","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"7de0a175-4288-491e-951c-cf79c19b118e","category_id":"ky2","q_type":"reading_item","stem":"Who believes that emission trading systems are superior because they set a hard limit on total pollution?","options":[{"key":"A","text":"Dr. Elena Rostova"},{"key":"B","text":"Prof. Marcus Lindqvist"},{"key":"C","text":"Dr. Sanjay Patel"},{"key":"D","text":"Dr. Chloe Dupont"},{"key":"E","text":"Prof. Arthur Vance"}],"correct_answer":"B","explanation":"【考点精析】细节对应题。根据段落 [B] 中 Lindqvist 观点'guarantee an absolute ceiling on environmental pollution'，对应 B 选项。","points":2,"sort_order":42},{"id":"25804586-0772-4936-bf3a-5236e5a6f888","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"7de0a175-4288-491e-951c-cf79c19b118e","category_id":"ky2","q_type":"reading_item","stem":"Which expert stresses that carbon pricing is useless without direct state spending on grid infrastructure?","options":[{"key":"A","text":"Dr. Elena Rostova"},{"key":"B","text":"Prof. Marcus Lindqvist"},{"key":"C","text":"Dr. Sanjay Patel"},{"key":"D","text":"Dr. Chloe Dupont"},{"key":"E","text":"Prof. Arthur Vance"}],"correct_answer":"C","explanation":"【考点精析】细节对应题。根据段落 [C] 中 Patel 观点'Governments must aggressively front-load public capital investments into breakthrough grid infrastructure'，对应 C 选项。","points":2,"sort_order":43},{"id":"f4cce0d4-970c-4cc8-9d44-ee352985fe96","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"7de0a175-4288-491e-951c-cf79c19b118e","category_id":"ky2","q_type":"reading_item","stem":"Who emphasizes eliminating existing government subsidies for fossil fuel exploration?","options":[{"key":"A","text":"Dr. Elena Rostova"},{"key":"B","text":"Prof. Marcus Lindqvist"},{"key":"C","text":"Dr. Sanjay Patel"},{"key":"D","text":"Dr. Chloe Dupont"},{"key":"E","text":"Prof. Arthur Vance"}],"correct_answer":"D","explanation":"【考点精析】细节对应题。根据段落 [D] 中 Dupont 观点'Fiscal policies must focus squarely on phasing out existing fossil-fuel subsidies'，对应 D 选项。","points":2,"sort_order":44},{"id":"427db2a0-5821-4cac-8443-9eef48d1177b","exam_id":"9286880b-8738-4d73-8697-e70bdd8257c6","passage_id":"7de0a175-4288-491e-951c-cf79c19b118e","category_id":"ky2","q_type":"reading_item","stem":"Which scholar advocates import carbon tariffs to prevent companies from fleeing to pollution havens?","options":[{"key":"A","text":"Dr. Elena Rostova"},{"key":"B","text":"Prof. Marcus Lindqvist"},{"key":"C","text":"Dr. Sanjay Patel"},{"key":"D","text":"Dr. Chloe Dupont"},{"key":"E","text":"Prof. Arthur Vance"}],"correct_answer":"E","explanation":"【考点精析】细节对应题。根据段落 [E] 中 Vance 观点'Border carbon adjustment mechanisms ... essential to prevent carbon leakage'，对应 E 选项。","points":2,"sort_order":45}],"exportedAt":"2026-09-21T02:04:09.733Z"}
+{
+  "exam": {
+    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+    "category_id": "ky2",
+    "title": "2024年 考研英语(二) 真题",
+    "year": 2024,
+    "exam_type": "real",
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-09-19T16:09:01.089647+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "category_id": "ky2",
+      "section_type": "cloze",
+      "title": "Section I: Use of English (完形填空 1-20题)",
+      "content": "Front-of-package food labeling has garnered global momentum as public health authorities strive to curb surging rates of diet-related chronic conditions. Proponents argue that straightforward interpretive schemes, such as traffic-light color codes or numerical nutritional ratings, empower shoppers to make healthier purchasing (1)____ in fast-paced retail settings.\n\nPsychological investigations, however, suggest that consumer reactions to nutritional labels are frequently (2)____ by cognitive biases. Shoppers operating under time pressure or mental fatigue often exhibit an all-or-nothing mindset, viewing items with green indicators as universally benign while treating red indicators as strictly (3)____. This dichotomous perception can generate unexpected health halos, leading people to consume excessive portions of moderately wholesome foods under the mistaken belief that the product is completely (4)____.\n\nFurthermore, multinational packaged-food manufacturers frequently exploit ambiguities in regulatory thresholds. By reformulating recipes just enough to (5)____ penalizing score brackets, brands can burnish their nutritional credentials without substantially reducing aggregate sugars or sodium. Consequently, consumer education must accompany labeling mandates to ensure shoppers understand that processed foods, regardless of optimistic packaging, should not entirely (6)____ unadulterated whole foods.\n\nNutritionists emphasize that dietary literacy involves deciphering subtle deceptive marketing. Terms like 'organic', 'all-natural', and 'gluten-free' are routinely (7)____ by marketing strategists to project an aura of vitality, even when applied to ultra-processed snacks packed with refined starches. When consumers encounter these buzzwords, their critical evaluation faculties are often (8)____, leading them to overlook elevated saturated fat levels.\n\nIn response, several governments are testing mandatory warning seals rather than voluntary positive badges. Black octagonal warning labels on Chilean food packaging, indicating excessive calories or sugar, have driven significant (9)____ in sugary beverage purchases. Seeing a bold warning sign provokes immediate risk aversion, prompting shoppers to reconsider impulsive pantry (10)____.\n\nNevertheless, industry lobbyists continue to mount fierce resistance, claiming that graphic warning labels induce unnecessary consumer (11)____ and harm national agricultural commerce. They lobby for complex monochrome tables printed unobtrusively on package backs, where shoppers (12)____ have time to read fine print during weekly grocery runs.\n\nAcademic researchers point out that socioeconomic disparities also shape how labeling systems (13)____. Higher-income households with greater nutritional education actively interpret micro-nutrient percentages, (14)____ lower-income families experiencing economic strain are primarily constrained by shelf prices. A food item carrying a green nutritional badge remains unattainable if it costs twice as much as an ultra-processed staple.\n\nPublic health economists conclude that labeling alone cannot remedy systemic dietary (15)____. Fiscal policies, such as targeted subsidies for fresh vegetables combined with excise taxes on sugary drinks, must operate in (16)____ with informational labels. Creating an equitable food environment requires making wholesome choices not merely visually identifiable, but economically (17)____.\n\nSchools and community centers must also play a foundational role, integrating practical meal-planning skills into primary curricula. Teaching children how to prepare balanced meals from raw ingredients cultivates lifelong dietary (18)____, insulating future generations against aggressive fast-food advertising.\n\nUltimately, front-of-package labels should be viewed as a valuable first step in a protracted public health (19)____. Empowering citizens to reclaim sovereignty over their nutritional choices will require sustained political will, regulatory vigilance, and a collective commitment to prioritizing human wellness over corporate food (20)____.",
+      "sort_order": 1
+    },
+    {
+      "id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "category_id": "ky2",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 1)",
+      "content": "The debate over post-pandemic remote work has entered a decisive institutional phase. While Silicon Valley titans and Wall Street investment banks have issued stringent return-to-office mandates, mid-market employers and regional service firms are aggressively leveraging permanent workplace flexibility as a vital recruiting weapon to lure skilled professionals away from metropolitan hubs.\n\nHuman resource surveys demonstrate that the retention premium of hybrid scheduling is now comparable to a substantial pay raise. Knowledge workers—particularly parents caring for young dependents and mid-career specialists burdened with arduous commutes—routinely express a willingness to sacrifice 5 to 10 percent of their base compensation in exchange for the autonomy to work from home two to three days a week. For regional companies unable to match the eye-popping wage packages of top-tier corporate conglomerates, remote-friendly policies provide an indispensable leveler.\n\nNevertheless, operational executives stress that distributed workforces present subtle managerial hazards. Unmonitored remote environments can degrade spontaneous informal collaboration, the serendipitous corridor conversations that often spark creative problem-solving. Furthermore, younger employees and entry-level recruits suffer disproportionately from remote isolation, missing out on the tacit institutional knowledge and direct mentorship traditionally absorbed through in-person office socialization.\n\nTo reconcile these competing pressures, forward-thinking enterprises are transitioning from arbitrary attendance quotas to 'purpose-driven co-location.' Under this philosophy, employees report to company facilities not to sit silently on individual video calls, but rather to participate in structured collaborative workshops, collective brainstorming sessions, and cultural cohesion events. By intentionally redesigning office hours around meaningful communal tasks, firms can preserve collaborative vitality without dismantling the autonomy their employees cherish.",
+      "sort_order": 2
+    },
+    {
+      "id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "category_id": "ky2",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 2)",
+      "content": "Electric vehicles (EVs) are transitioning from a niche green status symbol into the cornerstone of global automotive production. Propelled by generous state purchase subsidies, stringent emissions mandates, and tumbling battery manufacturing costs, electric cars have captured significant market shares across Western Europe, China, and North America.\n\nHowever, the rapid influx of battery-electric cars onto public thoroughfares is colliding with a profound suburban infrastructure bottleneck: residential and public charging availability. While affluent homeowners with detached suburban houses and private garages can effortlessly install overnight charging stations, apartment dwellers and dense urban residents who park on public curbs face severe charging scarcity. These 'garage-less' drivers must rely on public fast-charging plazas, which often suffer from broken hardware, incompatible proprietary plug connectors, and volatile pricing structures during peak hours.\n\nUtility grid operators voice parallel concerns regarding localized distribution capacity. If millions of commuter vehicles plug into charging circuits simultaneously upon arriving home at 6:00 PM, suburban neighborhood electrical substations risk thermal overloads, tripping circuit breakers and triggering localized blackouts.\n\nTo avert catastrophic grid failures while democratizing electric mobility, municipal planners are pioneering smart-charging architectures and bi-directional 'vehicle-to-grid' (V2G) systems. Under dynamic pricing models, smart chargers automatically schedule vehicle charging during deep overnight troughs when overall power demand collapses and wind generation surges. In addition, V2G-equipped cars can discharge surplus stored battery energy back into regional grids during peak heatwaves, transforming idling automobiles into decentralized batteries that fortify national energy resilience.",
+      "sort_order": 3
+    },
+    {
+      "id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "category_id": "ky2",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 3)",
+      "content": "Urban green corridors—continuous networks of vegetated linear parks, tree-lined canals, and re-wilded railway tracks—have emerged as essential infrastructure for climate adaptation in contemporary landscape architecture. Rather than treating parks as isolated recreational islands encircled by concrete expressways, ecological urbanists advocate for interconnected ecological arteries that weave through the metropolitan fabric.\n\nEcological assessments reveal that connected corridors yield biodiversity benefits far superior to fragmented green patches. Wildlife species, including pollinators, migratory songbirds, and small mammals, require connected migratory routes to forage, disperse genetic material, and escape localized environmental disturbances. Isolated urban parks frequently suffer from genetic inbreeding and localized extinctions, whereas linked corridors sustain robust ecological gene flow.\n\nMoreover, green corridors provide profound thermal mitigation for human populations. Cities across the globe endure punishing 'urban heat island' effects, wherein asphalt highways and dark masonry absorb solar radiation, elevating ambient temperatures by four to eight degrees Celsius relative to outlying rural zones. Vegetated corridors channel cooling breezes from outlying river valleys deep into suffocating downtown centers, while dense tree canopies shade pedestrian sidewalks and evaporate moisture, substantially reducing air-conditioning loads in adjacent office towers.\n\nSecuring continuous rights-of-way through hyper-dense urban centers, however, represents a formidable political and fiscal challenge. Municipal governments face intense pressure from commercial developers who covet vacant transit strips for high-yield luxury real estate. Visionary cities are responding through innovative land-use regulations, enacting mandates that require private developers to incorporate publicly accessible green easements into skyscraper designs. By harmonizing commercial development with ecological connectivity, metropolises can cultivate resilience in an increasingly volatile climate future.",
+      "sort_order": 4
+    },
+    {
+      "id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "category_id": "ky2",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 4)",
+      "content": "The traditional linear narrative of post-graduate career trajectories—graduating from university, securing an entry-level position at an established firm, and ascending a predictable corporate ladder—has largely disintegrated for modern graduates. In a labor market characterized by rapid technological obsolescence and recurring economic restructuring, early-career professionals face unpredictable employment pathways.\n\nLabor economists note that the half-life of professional technical skills has contracted to less than five years. The rapid advent of workplace automation, generative artificial intelligence, and algorithmic workflow management has rendered purely technical proficiencies insufficient for long-term career resilience. Consequently, employers are shifting hiring criteria away from narrow technical degree credentials toward adaptive cognitive capabilities, such as systemic problem-solving, cross-disciplinary synthesis, and emotional intelligence.\n\nIn response to this fluid landscape, graduates are embracing lifelong upskilling as a permanent career strategy. Rather than viewing education as a terminal credential achieved in one's early twenties, ambitious professionals continually enroll in micro-credential bootcamps, executive certifications, and modular online courses to recalibrate their skill portfolios. Concurrently, fractional employment, project-based freelancing, and portfolio careers are shedding their historic stigma, increasingly recognized as viable avenues for cultivating diversified professional autonomy.\n\nUniversities and corporate employers must adapt their developmental frameworks to support this new paradigm. Higher education institutions must transcend rigid disciplinary silos, embedding dynamic experiential internships and adaptive problem-solving curricula into undergraduate education. Employers, for their part, must recognize that investing in ongoing workforce education is not an altruistic luxury, but an essential operational imperative to prevent organizational stagnation in a hyper-competitive global economy.",
+      "sort_order": 5
+    },
+    {
+      "id": "7de0a175-4288-491e-951c-cf79c19b118e",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "category_id": "ky2",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part B (新题型·多项对应匹配 41-45题)",
+      "content": "In an era of accelerating climate volatility and shifting energy markets, five prominent environmental economists examine the most effective fiscal mechanisms to transition modern economies away from carbon-intensive fuels.\n\n[A] Dr. Elena Rostova (Oxford Institute for Climate Policy)\nCarbon taxation provides the single most transparent market signal. When emissions carry an escalating predictable fee per ton, corporate chief financial officers immediately reallocate capital expenditures toward energy-efficient machinery. Crucially, tax revenues should be distributed back to citizens as an equal 'climate dividend' check, neutralizing regressivity and building durable democratic support.\n\n[B] Prof. Marcus Lindqvist (Stockholm School of Economics)\nCap-and-trade emissions trading systems (ETS) are mathematically superior to fixed taxes because they guarantee an absolute ceiling on environmental pollution. While taxes leave aggregate emissions uncertain, trading systems force carbon permits to fluctuate based on actual abatement technology supply and demand, ensuring cost-effective reductions across industrial conglomerates.\n\n[C] Dr. Sanjay Patel (Global Infrastructure Advisory Board)\nPricing pollution alone is insufficient if green alternatives are commercially unavailable. Governments must aggressively front-load public capital investments into breakthrough grid infrastructure, high-speed rail networks, and green hydrogen hubs. Without public transmission corridors, private clean energy cannot reach industrial hubs regardless of how high carbon prices rise.\n\n[D] Dr. Chloe Dupont (Centre for Ecological Transition)\nFiscal policies must focus squarely on phasing out existing fossil-fuel subsidies. G20 governments still spend hundreds of billions annually subsidizing oil exploration and coal-fired electricity. Terminating these counter-productive subsidies would immediately level the economic playing field for solar and wind generation without raising taxes on consumers.\n\n[E] Prof. Arthur Vance (Harvard Kennedy School)\nBorder carbon adjustment mechanisms (CBAM) are essential to prevent 'carbon leakage'—the relocation of heavy manufacturing to pollution havens abroad. Imposing tariffs on carbon-intensive imported steel and cement protects domestic decarbonizing industries and compels international trading partners to adopt comparable environmental standards.",
+      "sort_order": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": "a60d2f57-4554-4bd7-8c98-889514733c2c",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (1) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "decisions"
+        },
+        {
+          "key": "B",
+          "text": "confessions"
+        },
+        {
+          "key": "C",
+          "text": "excuses"
+        },
+        {
+          "key": "D",
+          "text": "hesitations"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】固定搭配。purchasing decisions（购买决策）符合零售场景。",
+      "points": 0.5,
+      "sort_order": 1
+    },
+    {
+      "id": "06dca805-276e-441d-85d6-0e2a60c67921",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (2) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "distorted"
+        },
+        {
+          "key": "B",
+          "text": "simplified"
+        },
+        {
+          "key": "C",
+          "text": "repaired"
+        },
+        {
+          "key": "D",
+          "text": "clarified"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词与消极宾语。消费者对营养标签的反应常被认知偏差带偏、扭曲（distorted by cognitive biases）。",
+      "points": 0.5,
+      "sort_order": 2
+    },
+    {
+      "id": "fdf36ada-b6a1-4c4e-b667-d58f27f08b36",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (3) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "toxic"
+        },
+        {
+          "key": "B",
+          "text": "beneficial"
+        },
+        {
+          "key": "C",
+          "text": "palatable"
+        },
+        {
+          "key": "D",
+          "text": "nutritious"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】对比极端思维。非黑即白心态下，绿色被当作完全有益，红色被视为严格有毒有害（strictly toxic）。",
+      "points": 0.5,
+      "sort_order": 3
+    },
+    {
+      "id": "895ee14c-650e-4840-a8a9-3b0600634913",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (4) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "calorie-free"
+        },
+        {
+          "key": "B",
+          "text": "unaffordable"
+        },
+        {
+          "key": "C",
+          "text": "poisonous"
+        },
+        {
+          "key": "D",
+          "text": "artificial"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】语境推理。健康光环效应导致人们误以为该食品完全零热量、无卡路里（calorie-free）而过量摄入。",
+      "points": 0.5,
+      "sort_order": 4
+    },
+    {
+      "id": "95ea980b-faab-4a38-9d20-c2f543fe349e",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (5) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "avoid"
+        },
+        {
+          "key": "B",
+          "text": "attract"
+        },
+        {
+          "key": "C",
+          "text": "intensify"
+        },
+        {
+          "key": "D",
+          "text": "invite"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词搭配。微调配方以避开（avoid）低分处罚区间。",
+      "points": 0.5,
+      "sort_order": 5
+    },
+    {
+      "id": "32caf196-24ae-4f4e-84c0-3be4260c5250",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (6) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "replace"
+        },
+        {
+          "key": "B",
+          "text": "imitate"
+        },
+        {
+          "key": "C",
+          "text": "contaminate"
+        },
+        {
+          "key": "D",
+          "text": "exceed"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词辨析。加工食品不能完全替代（replace）新鲜未掺杂的天然全食物。",
+      "points": 0.5,
+      "sort_order": 6
+    },
+    {
+      "id": "bb847543-0672-42c6-a96b-f87ce9c7fac3",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (7) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "weaponized"
+        },
+        {
+          "key": "B",
+          "text": "condemned"
+        },
+        {
+          "key": "C",
+          "text": "prohibited"
+        },
+        {
+          "key": "D",
+          "text": "eliminated"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】比喻修辞。营销人员把“有机”、“纯天然”等词汇武器化（weaponized），用作诱导消费的光环工具。",
+      "points": 0.5,
+      "sort_order": 7
+    },
+    {
+      "id": "2c3762ec-c372-4c9b-bbaa-d8cdc4d516ba",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (8) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dulled"
+        },
+        {
+          "key": "B",
+          "text": "sharpened"
+        },
+        {
+          "key": "C",
+          "text": "celebrated"
+        },
+        {
+          "key": "D",
+          "text": "restored"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词辨析。被流行词汇吸引时，消费者的批判评估能力往往被钝化、麻痹（dulled），忽视了高脂肪含量。",
+      "points": 0.5,
+      "sort_order": 8
+    },
+    {
+      "id": "a4db5ad9-bb81-4af0-9178-6c7461d6a082",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (9) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "declines"
+        },
+        {
+          "key": "B",
+          "text": "surges"
+        },
+        {
+          "key": "C",
+          "text": "rebounds"
+        },
+        {
+          "key": "D",
+          "text": "expansions"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词与警示标签效果。黑色八角警示标签导致含糖饮料购买量显著下降（declines）。",
+      "points": 0.5,
+      "sort_order": 9
+    },
+    {
+      "id": "7f5dbb47-cfa3-4cae-9a26-2a723cbcef95",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (10) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "purchases"
+        },
+        {
+          "key": "B",
+          "text": "complaints"
+        },
+        {
+          "key": "C",
+          "text": "inspections"
+        },
+        {
+          "key": "D",
+          "text": "lawsuits"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词搭配。重估冲动性食品购买（impulsive pantry purchases）。",
+      "points": 0.5,
+      "sort_order": 10
+    },
+    {
+      "id": "c8e298a0-1d67-4732-897e-ad5c83af4cc2",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (11) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "panic"
+        },
+        {
+          "key": "B",
+          "text": "trust"
+        },
+        {
+          "key": "C",
+          "text": "joy"
+        },
+        {
+          "key": "D",
+          "text": "pride"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词辨析。食品游说团体声称警示标签会引起不必要的消费者恐慌（consumer panic）。",
+      "points": 0.5,
+      "sort_order": 11
+    },
+    {
+      "id": "be5b8c08-a922-44bb-aa46-33603e7780ff",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (12) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "seldom"
+        },
+        {
+          "key": "B",
+          "text": "always"
+        },
+        {
+          "key": "C",
+          "text": "eagerly"
+        },
+        {
+          "key": "D",
+          "text": "cheerfully"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】频度副词。顾客在快节奏超市购物中很少（seldom）有闲暇去细读包装背面微小的营养成分表。",
+      "points": 0.5,
+      "sort_order": 12
+    },
+    {
+      "id": "25cc8f51-84bd-45d9-9ce4-4fc076100e71",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (13) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "function"
+        },
+        {
+          "key": "B",
+          "text": "collapse"
+        },
+        {
+          "key": "C",
+          "text": "decay"
+        },
+        {
+          "key": "D",
+          "text": "freeze"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词语义。社会阶层差距影响了标签系统如何实际发挥功能（how labeling systems function）。",
+      "points": 0.5,
+      "sort_order": 13
+    },
+    {
+      "id": "bdcbce6b-68d1-4adb-bb69-06c2a92f355b",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (14) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "whereas"
+        },
+        {
+          "key": "B",
+          "text": "because"
+        },
+        {
+          "key": "C",
+          "text": "unless"
+        },
+        {
+          "key": "D",
+          "text": "since"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】逻辑对比连词。高收入家庭分析微量营养素百分比，而（whereas）低收入家庭主要受商品价格约束。",
+      "points": 0.5,
+      "sort_order": 14
+    },
+    {
+      "id": "bf9de3b7-e34e-497b-b8f9-3d97f0489ed2",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (15) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "disparities"
+        },
+        {
+          "key": "B",
+          "text": "triumphs"
+        },
+        {
+          "key": "C",
+          "text": "remedies"
+        },
+        {
+          "key": "D",
+          "text": "privileges"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词搭配。单一标签无法纠正系统性的饮食差距与不公（dietary disparities）。",
+      "points": 0.5,
+      "sort_order": 15
+    },
+    {
+      "id": "62fb75d1-50a8-482a-8507-b5cb15d45570",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (16) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "tandem"
+        },
+        {
+          "key": "B",
+          "text": "isolation"
+        },
+        {
+          "key": "C",
+          "text": "opposition"
+        },
+        {
+          "key": "D",
+          "text": "dispute"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】固定搭配。operate in tandem with（与……紧密协同配合运行）。",
+      "points": 0.5,
+      "sort_order": 16
+    },
+    {
+      "id": "62193d7e-87aa-4a06-b3ab-fa16adc4e8b8",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (17) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "affordable"
+        },
+        {
+          "key": "B",
+          "text": "prohibitive"
+        },
+        {
+          "key": "C",
+          "text": "unpopular"
+        },
+        {
+          "key": "D",
+          "text": "tasteless"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】形容词对比。健康选择不仅要在视觉上清晰可辨，更要在经济上负担得起（economically affordable）。",
+      "points": 0.5,
+      "sort_order": 17
+    },
+    {
+      "id": "cd8da46f-8410-4c9f-ad78-a35446eb4aeb",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (18) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "resilience"
+        },
+        {
+          "key": "B",
+          "text": "indifference"
+        },
+        {
+          "key": "C",
+          "text": "hostility"
+        },
+        {
+          "key": "D",
+          "text": "addiction"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词与褒义搭配。从小培养烹饪技能可塑造终身饮食抵抗力/韧性（dietary resilience），抵制垃圾食品诱惑。",
+      "points": 0.5,
+      "sort_order": 18
+    },
+    {
+      "id": "1e92553f-9dbc-41e5-b973-146a02666002",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (19) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "campaign"
+        },
+        {
+          "key": "B",
+          "text": "superstition"
+        },
+        {
+          "key": "C",
+          "text": "scandal"
+        },
+        {
+          "key": "D",
+          "text": "retreat"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词搭配。protracted public health campaign（长期的公共卫生运动/战役）。",
+      "points": 0.5,
+      "sort_order": 19
+    },
+    {
+      "id": "03194249-470e-477d-870a-1e144ea6e8cd",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
+      "category_id": "ky2",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (20) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "profits"
+        },
+        {
+          "key": "B",
+          "text": "charities"
+        },
+        {
+          "key": "C",
+          "text": "superstitions"
+        },
+        {
+          "key": "D",
+          "text": "donations"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】价值判断对比。优先考虑人类健康，而非企业食品暴利（corporate food profits）。",
+      "points": 0.5,
+      "sort_order": 20
+    },
+    {
+      "id": "e913e19f-b0a4-4b8a-8069-0ca663061d54",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Why are mid-market firms offering flexible working arrangements?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To attract skilled professionals away from corporate conglomerates"
+        },
+        {
+          "key": "B",
+          "text": "To comply with mandatory national labor legislation"
+        },
+        {
+          "key": "C",
+          "text": "To permanently liquidate physical commercial real estate"
+        },
+        {
+          "key": "D",
+          "text": "To reduce employee vacation entitlements"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第一段指出中型企业利用常态化弹性工时作为招聘利器，从大都市巨头处吸引熟练专业技术人才，选 A。",
+      "points": 2,
+      "sort_order": 21
+    },
+    {
+      "id": "ac02e0dc-a4bc-4152-a0ff-7a20caf65d51",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "According to Paragraph 2, many knowledge workers are willing to ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "relocate overseas for corporate promotions"
+        },
+        {
+          "key": "B",
+          "text": "accept a modest pay reduction for hybrid scheduling flexibility"
+        },
+        {
+          "key": "C",
+          "text": "work indefinite overtime in metropolitan offices"
+        },
+        {
+          "key": "D",
+          "text": "relinquish their parental healthcare benefits"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】细节事实题。第二段明确指出知识型员工愿意放弃 5% 到 10% 的基本薪酬，以换取每周两到三天居家的工作自主权，选 B。",
+      "points": 2,
+      "sort_order": 22
+    },
+    {
+      "id": "abcc3be5-af70-488a-bd36-85bc95f974d6",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "What managerial challenge of distributed teams is highlighted in Paragraph 3?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The loss of spontaneous informal interaction and newcomer mentorship"
+        },
+        {
+          "key": "B",
+          "text": "Extravagant expenditures on high-speed internet subsidies"
+        },
+        {
+          "key": "C",
+          "text": "Frequent software hardware incompatibilities across devices"
+        },
+        {
+          "key": "D",
+          "text": "Widespread unionization among remote technical staff"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第三段阐述远程模式削弱了偶发性走廊头脑风暴，且新员工易被孤立并缺少导师直接传授经验，选 A。",
+      "points": 2,
+      "sort_order": 23
+    },
+    {
+      "id": "be966a0a-864b-476d-bbcb-e7bc14ab5be6",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Under the philosophy of 'purpose-driven co-location', employees come to the office to ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "conduct solitary video conferences in partitioned cubicles"
+        },
+        {
+          "key": "B",
+          "text": "engage in structured collaborative workshops and team cohesion events"
+        },
+        {
+          "key": "C",
+          "text": "undergo continuous biometric productivity surveillance"
+        },
+        {
+          "key": "D",
+          "text": "fulfill rigid weekly 50-hour punch-card quotas"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】细节事实题。第四段指出有目的性的到岗是让员工参加结构化的协作工作坊与团队凝聚活动，选 B。",
+      "points": 2,
+      "sort_order": 24
+    },
+    {
+      "id": "c793ae56-01db-4395-9fe6-bd0bf582fdb5",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "The author's tone toward hybrid working models can best be described as ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dismissive and sarcastic"
+        },
+        {
+          "key": "B",
+          "text": "Balanced and constructive"
+        },
+        {
+          "key": "C",
+          "text": "Alarmist and fearful"
+        },
+        {
+          "key": "D",
+          "text": "Uncritically enthusiastic"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】态度意图题。作者理性权衡了灵活性优势与管理协作隐忧，并提出建设性到岗方案，态度客观平衡且具建设性，选 B。",
+      "points": 2,
+      "sort_order": 25
+    },
+    {
+      "id": "2d33cb5f-44ad-49c8-adbd-0415bf5e7533",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "What problem do urban apartment residents face when adopting electric vehicles?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A severe lack of private overnight home charging access"
+        },
+        {
+          "key": "B",
+          "text": "A complete legal ban on driving electric cars in cities"
+        },
+        {
+          "key": "C",
+          "text": "An inability to purchase automobile insurance"
+        },
+        {
+          "key": "D",
+          "text": "Excessive gasoline consumption during short commutes"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第二段指出没有私人车库的公寓居民无法安装夜间充电桩，面临严重的公共充电匮乏，选 A。",
+      "points": 2,
+      "sort_order": 26
+    },
+    {
+      "id": "792efb26-f6fa-47fd-8e69-0cf872b187d4",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Utility grid operators worry that mass EV adoption could lead to ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "substation overloads and localized blackouts during peak hours"
+        },
+        {
+          "key": "B",
+          "text": "the complete evaporation of petroleum reserves"
+        },
+        {
+          "key": "C",
+          "text": "widespread electromagnetic interference with television sets"
+        },
+        {
+          "key": "D",
+          "text": "a sharp drop in domestic renewable power generation"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】因果推断题。第三段指出傍晚下班集中充电可能导致配电变电站过载并触发局域停电（thermal overloads, tripping circuit breakers and triggering localized blackouts），选 A。",
+      "points": 2,
+      "sort_order": 27
+    },
+    {
+      "id": "d3869fce-aed1-45da-ae3c-cbdd04ca57dc",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Smart chargers mitigate grid stress by ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "automatically shifting charging sessions to overnight low-demand hours"
+        },
+        {
+          "key": "B",
+          "text": "cutting off electrical power to household refrigerators"
+        },
+        {
+          "key": "C",
+          "text": "converting battery energy directly into diesel fuel"
+        },
+        {
+          "key": "D",
+          "text": "disabling automotive motors whenever highways are congested"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第四段指出智能充电桩通过动态电价，自动将充电调度至深夜负荷低谷期，选 A。",
+      "points": 2,
+      "sort_order": 28
+    },
+    {
+      "id": "e06ca123-fecb-49dc-8ccd-b09af39bd4d1",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "What is the function of 'vehicle-to-grid' (V2G) technology?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It allows parked vehicles to discharge stored energy back into the grid during peaks"
+        },
+        {
+          "key": "B",
+          "text": "It transmits high-speed satellite internet to municipal traffic lights"
+        },
+        {
+          "key": "C",
+          "text": "It physically locks tires when a vehicle exceeds the speed limit"
+        },
+        {
+          "key": "D",
+          "text": "It automatically reports speeding infractions to insurance firms"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】概念例证题。第四段指出双向车网互动允许车辆在电网负荷高峰期将电池储存的多余电能反哺回电网，将闲置车辆变为分布式蓄电池，选 A。",
+      "points": 2,
+      "sort_order": 29
+    },
+    {
+      "id": "8a505c51-ded2-4ec8-b4f3-36dbdb649100",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "The author concludes that successful EV transition requires ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "intelligent grid coordination and accessible charging solutions"
+        },
+        {
+          "key": "B",
+          "text": "an immediate return to traditional internal combustion engines"
+        },
+        {
+          "key": "C",
+          "text": "banning all apartment dwellers from buying automobiles"
+        },
+        {
+          "key": "D",
+          "text": "nationalizing all private electric car manufacturers"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】主旨结论题。全文围绕电动车普及必须攻克充电桩公平接入与电网智能交互双重瓶颈展开，选 A。",
+      "points": 2,
+      "sort_order": 30
+    },
+    {
+      "id": "03ad2225-8fd9-4a38-8916-5200e6f08ee3",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "How do urban green corridors differ from traditional city parks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They are continuous, interconnected linear networks rather than isolated patches"
+        },
+        {
+          "key": "B",
+          "text": "They are built exclusively underground beneath subway tracks"
+        },
+        {
+          "key": "C",
+          "text": "They prohibit all pedestrian access and recreation"
+        },
+        {
+          "key": "D",
+          "text": "They are manufactured entirely from artificial synthetic turf"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节对比题。第一段指出传统公园是孤立绿岛，而生态绿道是穿透城市机理的互联互通线性网络（continuous networks of vegetated linear parks），选 A。",
+      "points": 2,
+      "sort_order": 31
+    },
+    {
+      "id": "d3fe41b0-90aa-4d54-8025-447b4ec9c27b",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Why are connected corridors superior for urban wildlife?",
+      "options": [
+        {
+          "key": "A",
+          "text": "They enable migration and maintain healthy genetic gene flow"
+        },
+        {
+          "key": "B",
+          "text": "They provide cages that protect animals from wild predators"
+        },
+        {
+          "key": "C",
+          "text": "They eliminate the need for animals to drink freshwater"
+        },
+        {
+          "key": "D",
+          "text": "They allow rare birds to nest directly inside automobiles"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】因果推断题。第二段指出孤立公园容易导致近亲繁殖和物种局部灭绝，而连续廊道为野生动物提供了觅食和基因交流的通道，选 A。",
+      "points": 2,
+      "sort_order": 32
+    },
+    {
+      "id": "fc3fbf0e-6117-4aee-8cbb-092d0d88025a",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Green corridors alleviate urban heat islands by ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "channeling cooling breezes and providing protective shade and evaporation"
+        },
+        {
+          "key": "B",
+          "text": "painting asphalt roadways with thick white reflective paint"
+        },
+        {
+          "key": "C",
+          "text": "prohibiting the installation of air-conditioning units"
+        },
+        {
+          "key": "D",
+          "text": "flooding downtown street intersections with sea water"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第三段指出绿道能将外围凉风输送至内城，并通过树冠遮阴与水分蒸腾显著降温，选 A。",
+      "points": 2,
+      "sort_order": 33
+    },
+    {
+      "id": "c315adab-23fe-468c-bab0-ed1beb286dfe",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "What obstacle hinders the creation of continuous green corridors?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Competition for vacant land from lucrative commercial developers"
+        },
+        {
+          "key": "B",
+          "text": "A severe national shortage of tree seeds and saplings"
+        },
+        {
+          "key": "C",
+          "text": "Universal citizen protests against pedestrian walking trails"
+        },
+        {
+          "key": "D",
+          "text": "Strict constitutional bans on planting grass near buildings"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第四段指出商业地产商觊觎地块用于开发高回报豪华物业，土地竞争激烈（pressure from commercial developers who covet vacant transit strips），选 A。",
+      "points": 2,
+      "sort_order": 34
+    },
+    {
+      "id": "b397b333-c481-4dac-92eb-1bca747664c8",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Which of the following best reflects the author's message?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Interconnected green corridors are vital for sustainable, climate-resilient cities"
+        },
+        {
+          "key": "B",
+          "text": "Modern skyscrapers should be permanently banned from all metropolises"
+        },
+        {
+          "key": "C",
+          "text": "Traditional municipal parks are entirely useless and should be paved over"
+        },
+        {
+          "key": "D",
+          "text": "Urban heat island effects are harmless natural phenomena"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】文章主旨大意题。全文系统阐明了互联互通的城市绿色廊道在保护物种基因、降温防灾及提升城市气候韧性中的不可替代价值，选 A。",
+      "points": 2,
+      "sort_order": 35
+    },
+    {
+      "id": "95927e72-8402-401b-a421-742ace2834e7",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "How has the post-graduate career trajectory changed for modern graduates?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The predictable corporate ladder has been replaced by fluid, unpredictable paths"
+        },
+        {
+          "key": "B",
+          "text": "Graduates are guaranteed lifetime tenure upon completing high school"
+        },
+        {
+          "key": "C",
+          "text": "Most graduates are legally forced to work in heavy agriculture"
+        },
+        {
+          "key": "D",
+          "text": "University degrees have become completely illegal in corporate hiring"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第一段指出传统的线性晋升阶梯瓦解，取而代之的是高度流动的非线性职业路径，选 A。",
+      "points": 2,
+      "sort_order": 36
+    },
+    {
+      "id": "343ab23e-8c1b-4c16-86b7-9f0779f89a07",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Why are employers shifting away from narrow technical credentials?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Technical skills rapidly become obsolete due to automation and AI"
+        },
+        {
+          "key": "B",
+          "text": "Graduates with technical degrees demand excessive salaries"
+        },
+        {
+          "key": "C",
+          "text": "Modern corporations no longer utilize computers in office operations"
+        },
+        {
+          "key": "D",
+          "text": "Technical training makes employees emotionally argumentative"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第二段指出技能半衰期已缩短至不足五年，自动化和 AI 使单一技术技能迅速过时，选 A。",
+      "points": 2,
+      "sort_order": 37
+    },
+    {
+      "id": "f5a84c6d-eee2-49fc-b758-a44b88c415a6",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "According to Paragraph 3, modern professionals are adopting ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "lifelong upskilling and flexible portfolio careers"
+        },
+        {
+          "key": "B",
+          "text": "total retirement from all employment by age thirty"
+        },
+        {
+          "key": "C",
+          "text": "a refusal to learn any new digital software applications"
+        },
+        {
+          "key": "D",
+          "text": "exclusive reliance on lifelong family financial allowances"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第三段指出年轻从业者将终身学习（lifelong upskilling）作为长久生存策略，并积极践行多元化的组合式职业生涯（portfolio careers），选 A。",
+      "points": 2,
+      "sort_order": 38
+    },
+    {
+      "id": "00f70977-5d9b-463f-859e-0951733a72aa",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "How should higher education institutions adapt to this labor reality?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By breaking disciplinary silos and integrating experiential problem-solving"
+        },
+        {
+          "key": "B",
+          "text": "By closing all humanities and social science faculties"
+        },
+        {
+          "key": "C",
+          "text": "By extending undergraduate bachelor programs to ten years"
+        },
+        {
+          "key": "D",
+          "text": "By banning students from participating in corporate internships"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第四段指出大学必须打破学科壁垒（transcend rigid disciplinary silos），融入体验式实习与自适应问题解决能力培养，选 A。",
+      "points": 2,
+      "sort_order": 39
+    },
+    {
+      "id": "7ae2c79d-927d-4ca5-816e-0d09b7c46037",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Which of the following best summarizes the main theme of the text?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigating Career Resilience: Lifelong Learning in an Era of Job Disruption"
+        },
+        {
+          "key": "B",
+          "text": "Why University Education Should Be Completely Abolished"
+        },
+        {
+          "key": "C",
+          "text": "The Universal Superiority of Lifetime Corporate Tenured Employment"
+        },
+        {
+          "key": "D",
+          "text": "How Artificial Intelligence Will Starve All Human Workers"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】主旨标题题。全文探讨了职业模式剧变背景下，从业人员如何通过终身进阶技能学习构建职业韧性，以及高校与雇主的相应变革，选项 A 概括最契合。",
+      "points": 2,
+      "sort_order": 40
+    },
+    {
+      "id": "b66143eb-0b9c-459f-9ecc-4a52bbebc68a",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "7de0a175-4288-491e-951c-cf79c19b118e",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Which economist argues that carbon revenues should be refunded directly to citizens as dividend checks?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dr. Elena Rostova"
+        },
+        {
+          "key": "B",
+          "text": "Prof. Marcus Lindqvist"
+        },
+        {
+          "key": "C",
+          "text": "Dr. Sanjay Patel"
+        },
+        {
+          "key": "D",
+          "text": "Dr. Chloe Dupont"
+        },
+        {
+          "key": "E",
+          "text": "Prof. Arthur Vance"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节对应题。根据段落 [A] 中 Rostova 观点'tax revenues should be distributed back to citizens as an equal climate dividend check'，对应 A 选项。",
+      "points": 2,
+      "sort_order": 41
+    },
+    {
+      "id": "64876c61-512e-4bb7-8af0-404d7b491693",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "7de0a175-4288-491e-951c-cf79c19b118e",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Who believes that emission trading systems are superior because they set a hard limit on total pollution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dr. Elena Rostova"
+        },
+        {
+          "key": "B",
+          "text": "Prof. Marcus Lindqvist"
+        },
+        {
+          "key": "C",
+          "text": "Dr. Sanjay Patel"
+        },
+        {
+          "key": "D",
+          "text": "Dr. Chloe Dupont"
+        },
+        {
+          "key": "E",
+          "text": "Prof. Arthur Vance"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】细节对应题。根据段落 [B] 中 Lindqvist 观点'guarantee an absolute ceiling on environmental pollution'，对应 B 选项。",
+      "points": 2,
+      "sort_order": 42
+    },
+    {
+      "id": "25804586-0772-4936-bf3a-5236e5a6f888",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "7de0a175-4288-491e-951c-cf79c19b118e",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Which expert stresses that carbon pricing is useless without direct state spending on grid infrastructure?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dr. Elena Rostova"
+        },
+        {
+          "key": "B",
+          "text": "Prof. Marcus Lindqvist"
+        },
+        {
+          "key": "C",
+          "text": "Dr. Sanjay Patel"
+        },
+        {
+          "key": "D",
+          "text": "Dr. Chloe Dupont"
+        },
+        {
+          "key": "E",
+          "text": "Prof. Arthur Vance"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】细节对应题。根据段落 [C] 中 Patel 观点'Governments must aggressively front-load public capital investments into breakthrough grid infrastructure'，对应 C 选项。",
+      "points": 2,
+      "sort_order": 43
+    },
+    {
+      "id": "f4cce0d4-970c-4cc8-9d44-ee352985fe96",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "7de0a175-4288-491e-951c-cf79c19b118e",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Who emphasizes eliminating existing government subsidies for fossil fuel exploration?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dr. Elena Rostova"
+        },
+        {
+          "key": "B",
+          "text": "Prof. Marcus Lindqvist"
+        },
+        {
+          "key": "C",
+          "text": "Dr. Sanjay Patel"
+        },
+        {
+          "key": "D",
+          "text": "Dr. Chloe Dupont"
+        },
+        {
+          "key": "E",
+          "text": "Prof. Arthur Vance"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】细节对应题。根据段落 [D] 中 Dupont 观点'Fiscal policies must focus squarely on phasing out existing fossil-fuel subsidies'，对应 D 选项。",
+      "points": 2,
+      "sort_order": 44
+    },
+    {
+      "id": "427db2a0-5821-4cac-8443-9eef48d1177b",
+      "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "passage_id": "7de0a175-4288-491e-951c-cf79c19b118e",
+      "category_id": "ky2",
+      "q_type": "reading_item",
+      "stem": "Which scholar advocates import carbon tariffs to prevent companies from fleeing to pollution havens?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dr. Elena Rostova"
+        },
+        {
+          "key": "B",
+          "text": "Prof. Marcus Lindqvist"
+        },
+        {
+          "key": "C",
+          "text": "Dr. Sanjay Patel"
+        },
+        {
+          "key": "D",
+          "text": "Dr. Chloe Dupont"
+        },
+        {
+          "key": "E",
+          "text": "Prof. Arthur Vance"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】细节对应题。根据段落 [E] 中 Vance 观点'Border carbon adjustment mechanisms ... essential to prevent carbon leakage'，对应 E 选项。",
+      "points": 2,
+      "sort_order": 45
+    }
+  ],
+  "exportedAt": "2026-09-21T02:04:09.733Z"
+}

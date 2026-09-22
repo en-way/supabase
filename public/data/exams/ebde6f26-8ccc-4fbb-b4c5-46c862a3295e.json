@@ -1,1 +1,1495 @@
-{"exam":{"id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","title":"2023年全国硕士研究生招生考试英语（一）真题","year":2023,"exam_type":"real","duration_minutes":75,"total_score":60,"pass_score":36,"is_published":true,"created_at":"2026-09-19T16:09:02.677051+00:00","approval_status":"approved","created_by":null,"questions":[{"count":45}],"passages":[{"count":6}]},"passages":[{"id":"693aa521-8890-457d-af92-7333b59dd72f","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","section_type":"cloze","title":"Section I: Use of English (完形填空 1-20题)","content":"Infant cognitive development has captivated developmental psychologists for over a century. Early theorists posited that neonates experience the surrounding world as a blooming, buzzing confusion, devoid of structural (1)____. However, modern neuroimaging and non-invasive eye-tracking methodologies reveal that infants possess sophisticated perceptual frameworks far earlier than previously (2)____.\n\nEven at several months of age, infants can discern phonemic contrasts across all human languages, a perceptual flexibility that gradually (3)____ as neural pruning attunes their auditory cortex to their native tongue. Moreover, rudimentary arithmetic expectations and intuitive physics appear to guide their gaze: when presented with impossible physical events, such as an object passing through a solid barrier, babies register heightened pupil dilation, indicating cognitive (4)____.\n\nThese empirical breakthroughs demonstrate that learning is not a passive recording of external sensations, but rather an active, hypothesis-testing inquiry. Caregivers should therefore prioritize rich conversational and tactile interaction over passive digital screens, which lack the contingent responsiveness necessary to stimulate deep neurodevelopmental (5)____.\n\nIn linguistic acquisition, maternal speech patterns—frequently termed 'infant-directed speech'—serve an indispensable pedagogical role. Characterized by exaggerated pitch contours, slower articulation tempos, and simplified syntactic structures, this melodic communication style effortlessly (6)____ infant attention, highlighting acoustic boundaries between distinct syllables and words. \n\nNeuroscientists note that these linguistic cadences stimulate the infant's left auditory hemisphere, (7)____ the neural pathways responsible for eventual speech production. Far from being patronizing gibberish, exaggerated maternal speech represents an evolutionary (8)____ that bootstraps infant vocabulary comprehension months before spoken words emerge.\n\nConcurrently, social referencing emerges as a primary navigational mechanism during the second half of the infant's first year. When confronted with novel, ambiguous stimuli—such as an unfamiliar mechanical toy or a steep visual cliff—infants instinctively seek out their caregiver's facial (9)____. If the mother projects an encouraging smile, the infant boldly advances; if her visage reflects apprehension, the child abruptly (10)____ exploration.\n\nThis emotional transmission demonstrates that cognitive learning is inextricably tethered to affective security. When caregivers maintain warm, predictable attentiveness, infants develop secure attachment patterns that foster exploratory confidence. Conversely, chronic parental neglect or severe emotional flat-lining can (11)____ infant curiosity, dampening the neuroplastic responsiveness of the developing brain.\n\nMotor development also operates in tight (12)____ with perceptual cognition. The transition from prone crawling to bipedal walking fundamentally overhauls how an infant navigates the domestic environment. Bipedal locomotion broadens the visual field, frees the hands to manipulate domestic artifacts, and dramatically accelerates spatial (13)____.\n\nEach physical milestone compels the child to formulate novel cognitive strategies. A crawling baby perceives a staircase as an insurmountable obstacle, whereas a walking toddler views the same incline as an invitation for adventurous climbing. Thus, motor milestones are not merely mechanical muscular achievements, but profound catalysts of cognitive (14)____.\n\nCross-cultural comparative studies further enrich our understanding of infant cognition. While Western middle-class parenting often emphasizes solo object play and early verbal praise, communal cultures in Central Africa and Oceania prioritize continuous physical contact and collective social (15)____. Despite divergent childrearing customs, infants across all societies attain foundational milestones with remarkable temporal (16)____.\n\nThis cross-cultural resilience suggests that human evolution has endowed neonates with robust self-righting cognitive mechanisms. Provided an environment satisfies minimal nutritional, emotional, and social baselines, the human brain will autonomously (17)____ its developmental blueprint.\n\nNevertheless, extreme socioeconomic deprivation can impose severe developmental tolls. Chronic exposure to environmental neurotoxins, household food insecurity, and unremitting parental stress generate elevated cortisol concentrations that can disrupt hippocampal synaptic (18)____. \n\nPublic policy initiatives targeting infant well-being must therefore transcend simplistic educational toys, focusing instead on structural family support. Guaranteed paid parental leave, accessible community child healthcare, and maternal mental wellness services provide the essential bedrock upon which infant cognitive development truly (19)____.\n\nUltimately, infancy represents a unique developmental window of unparalleled neuroplasticity and vulnerability. Protecting and nurturing this formative epoch is not merely a private familial duty, but a foundational collective investment in the social, intellectual, and democratic (20)____ of future generations.","sort_order":1},{"id":"f7764ec0-0803-43f3-8376-2bfc1da89c99","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 1)","content":"The relentless shuttering of localized weekly newspapers across provincial towns has left a profound void in regional democratic governance. Over the past decade, hundreds of local publications have succumbed to declining print ad revenues and the siphoning of commercial classifieds by dominant digital platform monopolies.\n\nWhile national news conglomerates provide around-the-clock coverage of partisan political clashes in capital cities, they are inherently indifferent to municipal council deliberations, school board budgets, and county zoning controversies. Sociological studies consistently confirm that communities devoid of dedicated local reportage experience measurable drops in voter turnout at municipal polls, increased municipal borrowing costs due to the absence of journalistic watchdog oversight, and heightened civic polarization as citizens rely exclusively on emotive national headlines.\n\nAttempts to resurrect local journalism through digital non-profit foundations have achieved encouraging, albeit localized, successes. Independent investigative newsrooms supported by philanthropic endowments have uncovered regional water pollution scandals and municipal corruption. However, philanthropic support remains heavily concentrated in prosperous urban centers, leaving rural regions and deindustrialized communities stranded in vast \"news deserts.\"\n\nTo ensure that watchdog journalism survives as an indispensable public good, academic policy analysts are calling for structural remedies. Proposals range from tax rebates for citizens who subscribe to registered local news outlets to mandatory bargaining frameworks that require digital aggregators to remunerate the original publishers of journalistic reporting. Without meaningful public policy intervention, the quiet decay of local reporting will continue to erode the grass-roots foundations of democratic accountability.","sort_order":2},{"id":"2502e808-697b-42b4-a655-5f31396b8572","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 2)","content":"Autonomous driving technologies are accelerating from controlled testing tracks into real-world traffic ecosystems. Equipped with lidar, radar arrays, and deep neural networks, autonomous passenger vehicles promise to dramatically reduce vehicular fatalities, ninety percent of which currently stem from human perceptual error, intoxication, or distracted driving.\n\nYet, as commercial robotaxi fleets expand, software engineers and regulatory ethicists face intractable moral dilemmas known as 'trolley problems.' When an imminent multi-vehicle collision is inevitable, how should an autonomous vehicle's decision-making algorithm prioritize human life? Should the software protect the passenger inside the vehicle at all costs, or steer into a barrier to spare a larger group of pedestrians on a zebra crossing?\n\nSurveys of public attitudes reveal a profound moral paradox. When asked in the abstract, the vast majority of citizens endorse utilitarian programming that minimizes total human casualties. However, when asked whether they would purchase an autonomous vehicle programmed to sacrifice its own passengers in emergency scenarios, consumer willingness plummets to near zero. People demand utilitarian vehicles for everyone else, while demanding self-protective vehicles for themselves and their families.\n\nConsequently, automotive safety regulators are moving away from philosophical dilemmas toward deterministic safety frameworks. Rather than expecting algorithms to make moral value judgments in split-second emergencies, statutory mandates emphasize conservative defensive driving: enforcing continuous headway margins, restricting maximum speeds in pedestrian zones, and ensuring fail-safe mechanical overrides. By eliminating the high-speed conditions that create unsolvable moral crashes, engineers can deliver societal safety without getting bogged down in ethical impasses.","sort_order":3},{"id":"b23f694e-cf1d-4c07-a229-760fc4872c53","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 3)","content":"Low-Earth orbit (LEO) is rapidly congesting with tens of thousands of commercial satellites launched to deploy global broadband internet constellations. While satellite internet bridges digital divides in remote archipelagos and rural regions, the unprecedented density of orbital hardware is generating an acute environmental crisis: space debris and orbital carrying capacity exhaustion.\n\nAerospace engineers warn of the 'Kessler Syndrome'—a catastrophic cascading collision scenario where high-speed orbital debris fragments collide with operational satellites, producing clouds of secondary shrapnel that trigger further collisions. Because fragments in low-Earth orbit travel at orbital velocities exceeding seven kilometers per second, even a centimeter-wide speck of defunct paint carries the kinetic energy of an exploding artillery shell.\n\nFurthermore, astronomical observation from Earth is severely compromised. Optical telescopes capturing long-exposure images of deep galaxies are increasingly crisscrossed by bright streaks reflecting sunlight from satellite constellation solar panels. Radio astronomers face parallel interference, as broadband downlink frequencies bleed into frequencies reserved for cosmic microwave research.\n\nInternational space law, codified primarily during the Cold War in the 1967 Outer Space Treaty, lacks modern enforcement mechanisms. Satellites are legally designated as state property, meaning private salvagers cannot physically de-orbit a derelict satellite without the registered launching state's explicit permission. To prevent our near-Earth commons from becoming permanently hazardous, spacefaring nations must negotiate updated orbital space traffic management treaties, mandating active de-orbiting thrusters and economic penalties for abandoned space junk.","sort_order":4},{"id":"d39d8da6-c16e-4137-8d28-f2685136b091","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","section_type":"reading","title":"Section II: Reading Comprehension Part A (Text 4)","content":"The geopolitical resurgence of industrial reshoring—relocating offshore manufacturing facilities back to domestic soil—has become a cornerstone of contemporary economic policy in North America and Western Europe. Spurred by geopolitical tensions, pandemic supply chain vulnerabilities, and escalating shipping freight costs, governments are channeling hundreds of billions of dollars in subsidies to repatriate advanced semiconductor foundries, electric vehicle battery plants, and medical equipment factories.\n\nHowever, labor market analysts caution that industrial reshoring in the twenty-first century will not resurrect the mass blue-collar assembly jobs of the mid-twentieth century. Modern domestic manufacturing facilities are hyper-automated technological complexes dominated by robotic automation, automated guided vehicles, and computer-vision quality inspection stations. A semiconductor foundry that cost twenty billion dollars to construct may require only a few hundred specialized automation technicians and systems engineers to operate.\n\nThis structural divergence creates a profound regional employment mismatch. The displaced workers in deindustrialized heartlands often lack the advanced programming and mechatronics credentials required to operate modern cyber-physical factories. Without massive, well-funded vocational retraining investments, reshoring initiatives risk creating high-tech industrial enclaves that generate immense corporate profits while leaving local working-class communities largely economically marginalized.\n\nEconomists emphasize that the ultimate justification for industrial reshoring must be understood through the lens of national economic resilience and technological sovereignty, rather than aggregate job volume. Domestic manufacturing secures critical supply chains against foreign geopolitical embargoes and accelerates domestic innovation ecosystems. But to ensure that the domestic benefits are equitably shared, state support for advanced factories must be coupled with lifelong technical education and regional community development compacts.","sort_order":5},{"id":"e49858ad-ba42-4f63-b65d-e5c8266fcba6","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","category_id":"ky1","section_type":"reading","title":"Section II: Reading Comprehension Part B (新题型 41-45题)","content":"The emergence of autonomous artificial agents capable of reasoning, synthesizing empirical literature, and formulating hypotheses is initiating a paradigm shift in the scientific method. Traditionally, scientific discoveries were generated through a hypothesis-driven process formulated solely by human intellect.\n\n[41] ____________________________________________________________________\n\nAutomated laboratory platforms can run tens of thousands of experimental variations per day, testing chemical reactions or genomic alterations with precision that far exceeds human capabilities. However, data generation alone does not constitute scientific understanding.\n\n[42] ____________________________________________________________________\n\nThis epistemic asymmetry poses profound dilemmas for peer review and scientific verification. If an artificial intelligence identifies a novel molecular compound capable of curing an aggressive pathogen, but human biochemists cannot retrace the generative logic behind the discovery, should the treatment be authorized for clinical trials?\n\n[43] ____________________________________________________________________\n\nFurthermore, scientific mentorship and serendipitous insight risk degradation if doctoral candidates are reduced to passive technicians who merely execute machine-generated research directives.\n\n[44] ____________________________________________________________________\n\nTo safeguard scientific integrity, leading research universities and international academies are establishing 'human-in-the-loop' governance charters. Under these frameworks, algorithmic tools must provide verifiable provenance for every claim, and human co-authors remain legally accountable for methodological rigor.\n\n[45] ____________________________________________________________________\n\nUltimately, artificial intelligence should be embraced not as an autonomous oracle that supplants human scientists, but as an intellectual telescope that expands our capacity to illuminate natural mysteries.","sort_order":6}],"questions":[{"id":"666831bc-4cca-459d-b572-2298cb95d53b","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (1) in the text:","options":[{"key":"A","text":"coherence"},{"key":"B","text":"friction"},{"key":"C","text":"jealousy"},{"key":"D","text":"hostility"}],"correct_answer":"A","explanation":"【考点精析】名词辨析与句意连贯。devoid of structural coherence（缺乏结构上的连贯性/协调性）。","points":0.5,"sort_order":1},{"id":"f6219538-7764-4248-9524-c1e9b3ef769d","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (2) in the text:","options":[{"key":"A","text":"assumed"},{"key":"B","text":"discarded"},{"key":"C","text":"condemned"},{"key":"D","text":"fabricated"}],"correct_answer":"A","explanation":"【考点精析】被动语态搭配。far earlier than previously assumed（远早于先前所设想）。","points":0.5,"sort_order":2},{"id":"0c14aa8e-f7eb-4192-9fef-89c43a48e3f7","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (3) in the text:","options":[{"key":"A","text":"narrows"},{"key":"B","text":"amplifies"},{"key":"C","text":"multiplies"},{"key":"D","text":"persists"}],"correct_answer":"A","explanation":"【考点精析】动词与神经修剪。婴儿对外语语音对比的灵活性随着大脑神经元修剪逐渐收窄（narrows）。","points":0.5,"sort_order":3},{"id":"6a759e0e-619c-4515-a24f-018e08f24e6c","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (4) in the text:","options":[{"key":"A","text":"surprise"},{"key":"B","text":"indifference"},{"key":"C","text":"relief"},{"key":"D","text":"exhaustion"}],"correct_answer":"A","explanation":"【考点精析】心理实验现象。看到不可能的物理事件时，婴儿瞳孔放大表明其产生了认知上的惊讶（surprise）。","points":0.5,"sort_order":4},{"id":"8ae5abd7-2199-4099-97e5-545f43bed246","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (5) in the text:","options":[{"key":"A","text":"growth"},{"key":"B","text":"decay"},{"key":"C","text":"paralysis"},{"key":"D","text":"fatigue"}],"correct_answer":"A","explanation":"【考点精析】名词与褒义搭配。深度神经发育成长（neurodevelopmental growth）。","points":0.5,"sort_order":5},{"id":"577df4ea-3d72-48ee-82c8-ad5ae342a3f6","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (6) in the text:","options":[{"key":"A","text":"captures"},{"key":"B","text":"distracts"},{"key":"C","text":"offends"},{"key":"D","text":"paralyzes"}],"correct_answer":"A","explanation":"【考点精析】动词搭配。母亲语优美的旋律性轻松吸引住（captures）婴儿的注意力。","points":0.5,"sort_order":6},{"id":"78a2c081-4a7c-41a9-bc78-94dec566bc77","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (7) in the text:","options":[{"key":"A","text":"fortifying"},{"key":"B","text":"severing"},{"key":"C","text":"poisoning"},{"key":"D","text":"bypassing"}],"correct_answer":"A","explanation":"【考点精析】现在分词与积极作用。强化、巩固（fortifying）负责言语生成的神经回路。","points":0.5,"sort_order":7},{"id":"97231ebb-3cbb-47b0-86a3-cb5c3e7d39f0","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (8) in the text:","options":[{"key":"A","text":"adaptation"},{"key":"B","text":"superstition"},{"key":"C","text":"mistake"},{"key":"D","text":"tragedy"}],"correct_answer":"A","explanation":"【考点精析】名词搭配。evolutionary adaptation（演化适应机制）。","points":0.5,"sort_order":8},{"id":"dca0c649-d320-4bd4-b49c-f467c996b92d","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (9) in the text:","options":[{"key":"A","text":"expressions"},{"key":"B","text":"passports"},{"key":"C","text":"scandals"},{"key":"D","text":"hesitations"}],"correct_answer":"A","explanation":"【考点精析】固定搭配。facial expressions（面部表情），是社会参照现象的核心观察线索。","points":0.5,"sort_order":9},{"id":"f7af766f-62fb-4eff-b07a-f260bff080c7","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (10) in the text:","options":[{"key":"A","text":"halts"},{"key":"B","text":"accelerates"},{"key":"C","text":"celebrates"},{"key":"D","text":"praises"}],"correct_answer":"A","explanation":"【考点精析】动词与对比。如果母亲表情焦虑担忧，孩子会立刻停止（halts）探索。","points":0.5,"sort_order":10},{"id":"4964681b-2245-45b7-a7a3-35bef4a3b624","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (11) in the text:","options":[{"key":"A","text":"stifle"},{"key":"B","text":"kindle"},{"key":"C","text":"nourish"},{"key":"D","text":"restore"}],"correct_answer":"A","explanation":"【考点精析】动词辨析。长期忽视会扼杀、压制（stifle）婴儿的好奇心。","points":0.5,"sort_order":11},{"id":"e8b4cf82-9e17-4cd2-824c-d8d1f1fcc2cf","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (12) in the text:","options":[{"key":"A","text":"coordination"},{"key":"B","text":"conflict"},{"key":"C","text":"hostility"},{"key":"D","text":"separation"}],"correct_answer":"A","explanation":"【考点精析】介词短语搭配。operate in tight coordination with（与……紧密协同运行）。","points":0.5,"sort_order":12},{"id":"78f2125b-c40d-4a27-ace9-1c359c9bc35e","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (13) in the text:","options":[{"key":"A","text":"mapping"},{"key":"B","text":"confusion"},{"key":"C","text":"blindness"},{"key":"D","text":"paralysis"}],"correct_answer":"A","explanation":"【考点精析】空间认知概念。直立行走加速了空间地图构建（spatial mapping）。","points":0.5,"sort_order":13},{"id":"e4965cd4-5758-4e5f-a309-4650d1508e77","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (14) in the text:","options":[{"key":"A","text":"reorganization"},{"key":"B","text":"decay"},{"key":"C","text":"stagnation"},{"key":"D","text":"fatigue"}],"correct_answer":"A","explanation":"【考点精析】名词辨析。运动里程碑是认知重组与飞跃（cognitive reorganization）的催化剂。","points":0.5,"sort_order":14},{"id":"b3bc5b63-eecb-447f-8bb2-aa640e7b6ba5","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (15) in the text:","options":[{"key":"A","text":"immersion"},{"key":"B","text":"isolation"},{"key":"C","text":"rejection"},{"key":"D","text":"hatred"}],"correct_answer":"A","explanation":"【考点精析】名词与集体文化。collective social immersion（全方位的集体社交沉浸融入）。","points":0.5,"sort_order":15},{"id":"462e5445-9a6a-48d4-8c51-2d3012908cd1","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (16) in the text:","options":[{"key":"A","text":"synchrony"},{"key":"B","text":"disaster"},{"key":"C","text":"chaos"},{"key":"D","text":"hostility"}],"correct_answer":"A","explanation":"【考点精析】名词搭配。remarkable temporal synchrony（在时间节点上表现出惊人的一致与同步性）。","points":0.5,"sort_order":16},{"id":"47acfb15-31bc-4015-94d3-aef7546ad6ea","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (17) in the text:","options":[{"key":"A","text":"unfold"},{"key":"B","text":"suppress"},{"key":"C","text":"demolish"},{"key":"D","text":"conceal"}],"correct_answer":"A","explanation":"【考点精析】动词与蓝图。大脑会自发地展开并实现其发育蓝图（unfold its developmental blueprint）。","points":0.5,"sort_order":17},{"id":"e38932f3-d211-4625-887e-c22883ac1f43","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (18) in the text:","options":[{"key":"A","text":"connectivity"},{"key":"B","text":"paralysis"},{"key":"C","text":"extinction"},{"key":"D","text":"exhaustion"}],"correct_answer":"A","explanation":"【考点精析】神经生物学表达。高皮质醇会破坏海马体突触连接性（hippocampal synaptic connectivity）。","points":0.5,"sort_order":18},{"id":"5d687e29-b5b1-4151-b83b-6349ac5560ae","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (19) in the text:","options":[{"key":"A","text":"thrives"},{"key":"B","text":"withers"},{"key":"C","text":"collapses"},{"key":"D","text":"stagnates"}],"correct_answer":"A","explanation":"【考点精析】动词与蓬勃发展。提供了婴儿认知发育真正得以茁壮繁荣（truly thrives）的基石。","points":0.5,"sort_order":19},{"id":"8b6946cd-cef3-499c-8abc-b43117e22691","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"693aa521-8890-457d-af92-7333b59dd72f","category_id":"ky1","q_type":"cloze_item","stem":"Choose the best option for (20) in the text:","options":[{"key":"A","text":"fabric"},{"key":"B","text":"superstition"},{"key":"C","text":"betrayal"},{"key":"D","text":"disaster"}],"correct_answer":"A","explanation":"【考点精析】比喻名词。social, intellectual, and democratic fabric（社会、智力与民主的肌理与结构）。","points":0.5,"sort_order":20},{"id":"54761130-bf93-40a7-84e1-9288458e3acf","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"f7764ec0-0803-43f3-8376-2bfc1da89c99","category_id":"ky1","q_type":"reading_item","stem":"What has been the primary cause of local newspaper closures?","options":[{"key":"A","text":"Strict governmental censorship of regional reporting"},{"key":"B","text":"The loss of advertising revenue to digital platform monopolies"},{"key":"C","text":"Widespread public disinterest in reading text"},{"key":"D","text":"A severe national shortage of printing press paper"}],"correct_answer":"B","explanation":"【考点精析】细节事实题。第一段指出报社破产归咎于广告收入下滑以及数字垄断平台对商业分类广告的蚕食，选 B。","points":2,"sort_order":21},{"id":"787f816d-12f1-4525-8716-e93681686fb3","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"f7764ec0-0803-43f3-8376-2bfc1da89c99","category_id":"ky1","q_type":"reading_item","stem":"Communities without local newspapers tend to experience ______.","options":[{"key":"A","text":"lower voter participation and higher municipal borrowing costs"},{"key":"B","text":"harmonious municipal consensus without any political debate"},{"key":"C","text":"a rapid surge in private philanthropic investments"},{"key":"D","text":"unprecedented improvements in school board governance"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第二段列举实证研究表明缺乏地方媒体会导致投票率走低以及因缺少监督而增加借款成本，选 A。","points":2,"sort_order":22},{"id":"6b45be37-131b-4992-aa30-91612d012498","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"f7764ec0-0803-43f3-8376-2bfc1da89c99","category_id":"ky1","q_type":"reading_item","stem":"Non-profit investigative newsrooms face the limitation that ______.","options":[{"key":"A","text":"philanthropic funding is heavily biased toward prosperous cities"},{"key":"B","text":"they are legally forbidden from uncovering municipal scandals"},{"key":"C","text":"digital readers refuse to read investigative exposes"},{"key":"D","text":"national aggregators refuse to link to non-profit domains"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第三段指出慈善捐款高度集中在富裕的大城市，非工业区依然沦为新闻荒漠，选 A。","points":2,"sort_order":23},{"id":"312b8250-02fc-4517-ad18-216e692bf8ef","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"f7764ec0-0803-43f3-8376-2bfc1da89c99","category_id":"ky1","q_type":"reading_item","stem":"Which policy proposal is mentioned to sustain local journalism?","options":[{"key":"A","text":"Nationalizing all municipal printing presses"},{"key":"B","text":"Mandating aggregators to compensate original news publishers"},{"key":"C","text":"Banning social media accounts from reporting on school boards"},{"key":"D","text":"Imposing heavy penalties on readers of digital media"}],"correct_answer":"B","explanation":"【考点精析】细节事实题。第四段指出立法强制要求数字平台向原创媒体支付内容版权报酬，选 B。","points":2,"sort_order":24},{"id":"b234fc1c-dc2f-4270-a719-79a90ff9319a","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"f7764ec0-0803-43f3-8376-2bfc1da89c99","category_id":"ky1","q_type":"reading_item","stem":"The author considers local journalism to be ______.","options":[{"key":"A","text":"an outdated commercial relic incapable of modernization"},{"key":"B","text":"an indispensable public good vital to democratic accountability"},{"key":"C","text":"a trivial luxury that small towns can easily live without"},{"key":"D","text":"a chief instigator of national political polarization"}],"correct_answer":"B","explanation":"【考点精析】作者观点题。末段首句明确将其定义为不可或缺的公共产品（indispensable public good），对民主监督具有基石作用，选 B。","points":2,"sort_order":25},{"id":"81f2d3ef-f034-4e37-8e89-089520a815e0","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"2502e808-697b-42b4-a655-5f31396b8572","category_id":"ky1","q_type":"reading_item","stem":"What is the principal safety promise of autonomous vehicles?","options":[{"key":"A","text":"Eliminating vehicular fatalities caused by human error and distraction"},{"key":"B","text":"Allowing vehicles to travel indefinitely without electrical charging"},{"key":"C","text":"Completely removing all traffic lights from metropolitan streets"},{"key":"D","text":"Enabling commuters to work 100-hour weeks without fatigue"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第一段末尾指出无人驾驶有望大幅消除由人类感知失误、醉驾和分心导致的交通事故死亡（ninety percent of which stem from human error），选 A。","points":2,"sort_order":26},{"id":"19b37a6a-f53f-419c-a0c8-69adcb742089","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"2502e808-697b-42b4-a655-5f31396b8572","category_id":"ky1","q_type":"reading_item","stem":"The 'moral paradox' mentioned in Paragraph 3 indicates that ______.","options":[{"key":"A","text":"people praise utilitarian ethics for others but demand self-protection for themselves"},{"key":"B","text":"consumers refuse to ride in cars manufactured outside their home nation"},{"key":"C","text":"pedestrians prefer interacting with human drivers rather than computers"},{"key":"D","text":"engineers refuse to write code for autonomous braking systems"}],"correct_answer":"A","explanation":"【考点精析】细节理解题。第三段指出公众在抽象层面上支持功利主义最小化伤亡，但买车时要求绝对优先保护自己和家人，选 A。","points":2,"sort_order":27},{"id":"0101bc98-dde9-4e2c-8926-f3efde13dec8","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"2502e808-697b-42b4-a655-5f31396b8572","category_id":"ky1","q_type":"reading_item","stem":"How are regulators resolving the ethical dilemma of autonomous driving?","options":[{"key":"A","text":"By focusing on deterministic defensive driving to prevent crashes altogether"},{"key":"B","text":"By permanently banning all autonomous vehicle testing on public roads"},{"key":"C","text":"By leaving all ethical decisions to random lottery algorithms"},{"key":"D","text":"By requiring drivers to pass philosophical logic exams before entering cars"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第四段指出监管正转向确定性的防御性驾驶规则（enforcing continuous headway margins, restricting speeds），从根本上避免出现道德两难的碰撞险情，选 A。","points":2,"sort_order":28},{"id":"b2377a76-f67f-486e-be7e-a1d6c9bc9f3c","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"2502e808-697b-42b4-a655-5f31396b8572","category_id":"ky1","q_type":"reading_item","stem":"The word 'impasse' in the final sentence is closest in meaning to ______.","options":[{"key":"A","text":"deadlock"},{"key":"B","text":"opportunity"},{"key":"C","text":"celebration"},{"key":"D","text":"agreement"}],"correct_answer":"A","explanation":"【考点精析】词义猜测题。前文讨论道德两难僵局，ethical impasses 即伦理死局、僵局（deadlock），选 A。","points":2,"sort_order":29},{"id":"8d7d935d-0d1c-42a2-be51-8c8b140090bf","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"2502e808-697b-42b4-a655-5f31396b8572","category_id":"ky1","q_type":"reading_item","stem":"Which of the following would be the most suitable title for Text 2?","options":[{"key":"A","text":"Autonomous Driving: From Moral Dilemmas to Engineering Reality"},{"key":"B","text":"Why Robotaxis Should Be Banned Worldwide"},{"key":"C","text":"The Ultimate Perfection of Human Motorists"},{"key":"D","text":"How Pedestrians Will Conquer Autonomous Highways"}],"correct_answer":"A","explanation":"【考点精析】主旨标题题。文章阐述了自动驾驶由伦理电车难题转向工程防御性实操规范的演进路径，选 A。","points":2,"sort_order":30},{"id":"952bc138-af5f-4884-86ed-2ea15e65d928","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"b23f694e-cf1d-4c07-a229-760fc4872c53","category_id":"ky1","q_type":"reading_item","stem":"The deployment of commercial satellite constellations has ______.","options":[{"key":"A","text":"congested low-Earth orbit and created serious space debris risks"},{"key":"B","text":"eliminated all forms of digital terrestrial communication"},{"key":"C","text":"lowered global temperatures across both polar icecaps"},{"key":"D","text":"permanently extinguished the threat of asteroid collisions"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第一段指出商业卫星网络部署导致低地球轨道严重拥堵，产生严重的太空垃圾危机，选 A。","points":2,"sort_order":31},{"id":"26236417-e5d9-4b56-b15d-995f25e3506b","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"b23f694e-cf1d-4c07-a229-760fc4872c53","category_id":"ky1","q_type":"reading_item","stem":"What is the core danger of the 'Kessler Syndrome'?","options":[{"key":"A","text":"A cascading chain reaction of orbital collisions generating clouds of shrapnel"},{"key":"B","text":"The immediate crash of all satellites into ocean trenches"},{"key":"C","text":"The loss of gravitational pull between the Earth and the Moon"},{"key":"D","text":"Excessive radioactive fallout entering the upper stratosphere"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第二段指出凯斯勒综合征是指高速轨道碎片碰撞产生级联反应，引发毁灭性连锁碰撞，选 A。","points":2,"sort_order":32},{"id":"5c0cf4e6-6061-470c-828c-c3d66d369f27","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"b23f694e-cf1d-4c07-a229-760fc4872c53","category_id":"ky1","q_type":"reading_item","stem":"Astronomers complain that satellite constellations ______.","options":[{"key":"A","text":"interfere with optical telescope exposures and radio astronomy frequencies"},{"key":"B","text":"physically block sunlight from reaching agricultural crops"},{"key":"C","text":"corrupt all digital university library databases"},{"key":"D","text":"increase ticket prices for private space tourism"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第三段指出卫星反射阳光在光学长曝光照片上留下划痕，其下行频段还干扰宇宙微波射电研究，选 A。","points":2,"sort_order":33},{"id":"5213c69f-d5cb-4aee-9fbb-057ce14d205a","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"b23f694e-cf1d-4c07-a229-760fc4872c53","category_id":"ky1","q_type":"reading_item","stem":"Why is clearing abandoned space junk legally complicated under current law?","options":[{"key":"A","text":"Old treaties designate satellites as sovereign state property"},{"key":"B","text":"Space debris carries lethal contagious pathogens"},{"key":"C","text":"Private companies are strictly forbidden from owning computers"},{"key":"D","text":"The United Nations claims sole physical possession of all orbits"}],"correct_answer":"A","explanation":"【考点精析】因果事实题。第四段指出依据冷战时期的《外层空间条约》，废弃卫星仍属主权国家财产，未经许可不得擅自清除，选 A。","points":2,"sort_order":34},{"id":"c1c0177b-24b6-4b63-86b4-2ccdddc8f270","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"b23f694e-cf1d-4c07-a229-760fc4872c53","category_id":"ky1","q_type":"reading_item","stem":"The author advocates that spacefaring nations must ______.","options":[{"key":"A","text":"negotiate updated treaties mandating active de-orbiting and penalties"},{"key":"B","text":"completely dismantle all global satellite communications"},{"key":"C","text":"privatize all outer space orbits to the highest corporate bidder"},{"key":"D","text":"halt all astronomy research until the next century"}],"correct_answer":"A","explanation":"【考点精析】作者观点题。第四段末句指出航天大国必须谈判达成最新的太空交通管理条约，强制配备离轨发动机并对遗弃太空垃圾施加经济惩罚，选 A。","points":2,"sort_order":35},{"id":"354266f6-cbb7-4228-b293-d2a8f5451534","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"d39d8da6-c16e-4137-8d28-f2685136b091","category_id":"ky1","q_type":"reading_item","stem":"What has motivated the resurgence of industrial reshoring in Western nations?","options":[{"key":"A","text":"Geopolitical tensions, shipping vulnerabilities, and supply security"},{"key":"B","text":"A total global shortage of industrial plastics and crude oil"},{"key":"C","text":"A nationwide consumer boycott of all electronic gadgets"},{"key":"D","text":"The complete bankruptcy of all international shipping companies"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第一段指出地缘政治摩擦、疫情供应链脆弱性及海运运费上涨促成了制造业回流，选 A。","points":2,"sort_order":36},{"id":"c386447c-061c-4ea5-b467-944ddf7c354c","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"d39d8da6-c16e-4137-8d28-f2685136b091","category_id":"ky1","q_type":"reading_item","stem":"Modern reshored factories will not create mass blue-collar employment because ______.","options":[{"key":"A","text":"they are hyper-automated complexes requiring minimal specialized technicians"},{"key":"B","text":"workers refuse to accept wages paid in national currency"},{"key":"C","text":"governmental statutes forbid hiring human factory workers"},{"key":"D","text":"factories are located exclusively on offshore ocean platforms"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第二段阐明现代回流工厂是高度自动化的复合体，大量使用机器人和机器视觉，只需极少数自动化技师，选 A。","points":2,"sort_order":37},{"id":"1d42eaa4-a8c8-49fa-a5a3-c9138574bdd3","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"d39d8da6-c16e-4137-8d28-f2685136b091","category_id":"ky1","q_type":"reading_item","stem":"What risk is highlighted in Paragraph 3 regarding deindustrialized communities?","options":[{"key":"A","text":"Displaced workers lack skills for cyber-physical factories, risking marginalization"},{"key":"B","text":"Local residents will immediately demolish the new semiconductor foundries"},{"key":"C","text":"Factory robots will cause widespread environmental radiation"},{"key":"D","text":"Working-class families will refuse to purchase domestically made products"}],"correct_answer":"A","explanation":"【考点精析】细节因果题。第三段指出老工业区下岗工人缺乏高级机电一体化技能，回流工厂可能沦为难以惠及本地工人的技术飞地，选 A。","points":2,"sort_order":38},{"id":"ec1de780-2e05-4d4e-a179-aa374f817493","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"d39d8da6-c16e-4137-8d28-f2685136b091","category_id":"ky1","q_type":"reading_item","stem":"According to economists, the primary justification for reshoring is ______.","options":[{"key":"A","text":"strengthening national economic resilience and technological sovereignty"},{"key":"B","text":"permanently stopping all international trade and diplomacy"},{"key":"C","text":"ensuring that every high school graduate becomes a factory laborer"},{"key":"D","text":"lowering the national stock market index"}],"correct_answer":"A","explanation":"【考点精析】细节事实题。第四段指出回流的终极价值必须从国家经济韧性与技术主权（resilience and technological sovereignty）的角度来衡量，选 A。","points":2,"sort_order":39},{"id":"9dde4462-ab86-4b6b-97a3-8623db7eefc4","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"d39d8da6-c16e-4137-8d28-f2685136b091","category_id":"ky1","q_type":"reading_item","stem":"The author concludes that industrial reshoring policies must be accompanied by ______.","options":[{"key":"A","text":"lifelong technical education and regional community development compacts"},{"key":"B","text":"an immediate ban on teaching software programming in schools"},{"key":"C","text":"the total nationalization of all corporate patent portfolios"},{"key":"D","text":"a return to nineteenth-century steam engine technologies"}],"correct_answer":"A","explanation":"【考点精析】作者结论题。第四段末句指出国家补贴必须与终身技术教育和区域社区发展契约相结合，实现利益公平共享，选 A。","points":2,"sort_order":40},{"id":"a42d2a22-d9e2-4582-bf71-0c1a37f5a986","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"e49858ad-ba42-4f63-b65d-e5c8266fcba6","category_id":"ky1","q_type":"reading_item","stem":"Choose the best sub-paragraph from A-G to fill in blank [41]:","options":[{"key":"A","text":"Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."},{"key":"B","text":"Human researchers must retain ultimate ethical oversight over clinical trial authorizations."},{"key":"C","text":"Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."},{"key":"D","text":"Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."},{"key":"E","text":"Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."},{"key":"F","text":"Transparency mandates require open-source access to training data and code repositories for all published papers."},{"key":"G","text":"Funding agencies must balance investments between automated wet labs and human curiosity-driven research."}],"correct_answer":"A","explanation":"【考点精析】[41] 空格：承接上文'hypothesis-driven process formulated solely by human intellect'，A 选项讲述如今机器学习模型通读数百万论文挖掘跨学科关联，形成承上启下对比，选 A。","points":2,"sort_order":41},{"id":"ccd891cd-b694-4ded-93b2-5535fcee0a37","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"e49858ad-ba42-4f63-b65d-e5c8266fcba6","category_id":"ky1","q_type":"reading_item","stem":"Choose the best sub-paragraph from A-G to fill in blank [42]:","options":[{"key":"A","text":"Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."},{"key":"B","text":"Human researchers must retain ultimate ethical oversight over clinical trial authorizations."},{"key":"C","text":"Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."},{"key":"D","text":"Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."},{"key":"E","text":"Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."},{"key":"F","text":"Transparency mandates require open-source access to training data and code repositories for all published papers."},{"key":"G","text":"Funding agencies must balance investments between automated wet labs and human curiosity-driven research."}],"correct_answer":"C","explanation":"【考点精析】[42] 空格：前文提到'数据生成本身不等于科学理解'，后文紧跟'This epistemic asymmetry'（这种认识论上的不对称/黑箱），C 选项准确阐述复杂神经网络如黑箱般只给预测不给因果解释，选 C。","points":2,"sort_order":42},{"id":"968468c1-6a80-412e-a4d1-539357af72b2","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"e49858ad-ba42-4f63-b65d-e5c8266fcba6","category_id":"ky1","q_type":"reading_item","stem":"Choose the best sub-paragraph from A-G to fill in blank [43]:","options":[{"key":"A","text":"Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."},{"key":"B","text":"Human researchers must retain ultimate ethical oversight over clinical trial authorizations."},{"key":"C","text":"Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."},{"key":"D","text":"Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."},{"key":"E","text":"Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."},{"key":"F","text":"Transparency mandates require open-source access to training data and code repositories for all published papers."},{"key":"G","text":"Funding agencies must balance investments between automated wet labs and human curiosity-driven research."}],"correct_answer":"B","explanation":"【考点精析】[43] 空格：前文提出临床试验能否仅凭 AI 结论批准的疑问，B 选项直接做出回答：人类研究人员必须保留最终的临床试验伦理审批权，选 B。","points":2,"sort_order":43},{"id":"6b4d9a20-9ef4-4f8d-a50b-f8760292579e","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"e49858ad-ba42-4f63-b65d-e5c8266fcba6","category_id":"ky1","q_type":"reading_item","stem":"Choose the best sub-paragraph from A-G to fill in blank [44]:","options":[{"key":"A","text":"Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."},{"key":"B","text":"Human researchers must retain ultimate ethical oversight over clinical trial authorizations."},{"key":"C","text":"Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."},{"key":"D","text":"Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."},{"key":"E","text":"Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."},{"key":"F","text":"Transparency mandates require open-source access to training data and code repositories for all published papers."},{"key":"G","text":"Funding agencies must balance investments between automated wet labs and human curiosity-driven research."}],"correct_answer":"E","explanation":"【考点精析】[44] 空格：紧扣前文'doctoral candidates are reduced to passive technicians'，E 选项指出青年科学家需要通过试错与沉思培养直觉，选 E。","points":2,"sort_order":44},{"id":"52499411-c9d4-412e-a7dd-dad6253b0bfb","exam_id":"ebde6f26-8ccc-4fbb-b4c5-46c862a3295e","passage_id":"e49858ad-ba42-4f63-b65d-e5c8266fcba6","category_id":"ky1","q_type":"reading_item","stem":"Choose the best sub-paragraph from A-G to fill in blank [45]:","options":[{"key":"A","text":"Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."},{"key":"B","text":"Human researchers must retain ultimate ethical oversight over clinical trial authorizations."},{"key":"C","text":"Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."},{"key":"D","text":"Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."},{"key":"E","text":"Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."},{"key":"F","text":"Transparency mandates require open-source access to training data and code repositories for all published papers."},{"key":"G","text":"Funding agencies must balance investments between automated wet labs and human curiosity-driven research."}],"correct_answer":"F","explanation":"【考点精析】[45] 空格：承接前文'algorithmic tools must provide verifiable provenance'治理规约，F 选项强调开源训练数据与代码的透明度要求，选 F。","points":2,"sort_order":45}],"exportedAt":"2026-09-21T02:04:13.335Z"}
+{
+  "exam": {
+    "id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+    "category_id": "ky1",
+    "title": "2023年 考研英语(一) 真题",
+    "year": 2023,
+    "exam_type": "real",
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-09-19T16:09:02.677051+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "category_id": "ky1",
+      "section_type": "cloze",
+      "title": "Section I: Use of English (完形填空 1-20题)",
+      "content": "Infant cognitive development has captivated developmental psychologists for over a century. Early theorists posited that neonates experience the surrounding world as a blooming, buzzing confusion, devoid of structural (1)____. However, modern neuroimaging and non-invasive eye-tracking methodologies reveal that infants possess sophisticated perceptual frameworks far earlier than previously (2)____.\n\nEven at several months of age, infants can discern phonemic contrasts across all human languages, a perceptual flexibility that gradually (3)____ as neural pruning attunes their auditory cortex to their native tongue. Moreover, rudimentary arithmetic expectations and intuitive physics appear to guide their gaze: when presented with impossible physical events, such as an object passing through a solid barrier, babies register heightened pupil dilation, indicating cognitive (4)____.\n\nThese empirical breakthroughs demonstrate that learning is not a passive recording of external sensations, but rather an active, hypothesis-testing inquiry. Caregivers should therefore prioritize rich conversational and tactile interaction over passive digital screens, which lack the contingent responsiveness necessary to stimulate deep neurodevelopmental (5)____.\n\nIn linguistic acquisition, maternal speech patterns—frequently termed 'infant-directed speech'—serve an indispensable pedagogical role. Characterized by exaggerated pitch contours, slower articulation tempos, and simplified syntactic structures, this melodic communication style effortlessly (6)____ infant attention, highlighting acoustic boundaries between distinct syllables and words. \n\nNeuroscientists note that these linguistic cadences stimulate the infant's left auditory hemisphere, (7)____ the neural pathways responsible for eventual speech production. Far from being patronizing gibberish, exaggerated maternal speech represents an evolutionary (8)____ that bootstraps infant vocabulary comprehension months before spoken words emerge.\n\nConcurrently, social referencing emerges as a primary navigational mechanism during the second half of the infant's first year. When confronted with novel, ambiguous stimuli—such as an unfamiliar mechanical toy or a steep visual cliff—infants instinctively seek out their caregiver's facial (9)____. If the mother projects an encouraging smile, the infant boldly advances; if her visage reflects apprehension, the child abruptly (10)____ exploration.\n\nThis emotional transmission demonstrates that cognitive learning is inextricably tethered to affective security. When caregivers maintain warm, predictable attentiveness, infants develop secure attachment patterns that foster exploratory confidence. Conversely, chronic parental neglect or severe emotional flat-lining can (11)____ infant curiosity, dampening the neuroplastic responsiveness of the developing brain.\n\nMotor development also operates in tight (12)____ with perceptual cognition. The transition from prone crawling to bipedal walking fundamentally overhauls how an infant navigates the domestic environment. Bipedal locomotion broadens the visual field, frees the hands to manipulate domestic artifacts, and dramatically accelerates spatial (13)____.\n\nEach physical milestone compels the child to formulate novel cognitive strategies. A crawling baby perceives a staircase as an insurmountable obstacle, whereas a walking toddler views the same incline as an invitation for adventurous climbing. Thus, motor milestones are not merely mechanical muscular achievements, but profound catalysts of cognitive (14)____.\n\nCross-cultural comparative studies further enrich our understanding of infant cognition. While Western middle-class parenting often emphasizes solo object play and early verbal praise, communal cultures in Central Africa and Oceania prioritize continuous physical contact and collective social (15)____. Despite divergent childrearing customs, infants across all societies attain foundational milestones with remarkable temporal (16)____.\n\nThis cross-cultural resilience suggests that human evolution has endowed neonates with robust self-righting cognitive mechanisms. Provided an environment satisfies minimal nutritional, emotional, and social baselines, the human brain will autonomously (17)____ its developmental blueprint.\n\nNevertheless, extreme socioeconomic deprivation can impose severe developmental tolls. Chronic exposure to environmental neurotoxins, household food insecurity, and unremitting parental stress generate elevated cortisol concentrations that can disrupt hippocampal synaptic (18)____. \n\nPublic policy initiatives targeting infant well-being must therefore transcend simplistic educational toys, focusing instead on structural family support. Guaranteed paid parental leave, accessible community child healthcare, and maternal mental wellness services provide the essential bedrock upon which infant cognitive development truly (19)____.\n\nUltimately, infancy represents a unique developmental window of unparalleled neuroplasticity and vulnerability. Protecting and nurturing this formative epoch is not merely a private familial duty, but a foundational collective investment in the social, intellectual, and democratic (20)____ of future generations.",
+      "sort_order": 1
+    },
+    {
+      "id": "f7764ec0-0803-43f3-8376-2bfc1da89c99",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 1)",
+      "content": "The relentless shuttering of localized weekly newspapers across provincial towns has left a profound void in regional democratic governance. Over the past decade, hundreds of local publications have succumbed to declining print ad revenues and the siphoning of commercial classifieds by dominant digital platform monopolies.\n\nWhile national news conglomerates provide around-the-clock coverage of partisan political clashes in capital cities, they are inherently indifferent to municipal council deliberations, school board budgets, and county zoning controversies. Sociological studies consistently confirm that communities devoid of dedicated local reportage experience measurable drops in voter turnout at municipal polls, increased municipal borrowing costs due to the absence of journalistic watchdog oversight, and heightened civic polarization as citizens rely exclusively on emotive national headlines.\n\nAttempts to resurrect local journalism through digital non-profit foundations have achieved encouraging, albeit localized, successes. Independent investigative newsrooms supported by philanthropic endowments have uncovered regional water pollution scandals and municipal corruption. However, philanthropic support remains heavily concentrated in prosperous urban centers, leaving rural regions and deindustrialized communities stranded in vast \"news deserts.\"\n\nTo ensure that watchdog journalism survives as an indispensable public good, academic policy analysts are calling for structural remedies. Proposals range from tax rebates for citizens who subscribe to registered local news outlets to mandatory bargaining frameworks that require digital aggregators to remunerate the original publishers of journalistic reporting. Without meaningful public policy intervention, the quiet decay of local reporting will continue to erode the grass-roots foundations of democratic accountability.",
+      "sort_order": 2
+    },
+    {
+      "id": "2502e808-697b-42b4-a655-5f31396b8572",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 2)",
+      "content": "Autonomous driving technologies are accelerating from controlled testing tracks into real-world traffic ecosystems. Equipped with lidar, radar arrays, and deep neural networks, autonomous passenger vehicles promise to dramatically reduce vehicular fatalities, ninety percent of which currently stem from human perceptual error, intoxication, or distracted driving.\n\nYet, as commercial robotaxi fleets expand, software engineers and regulatory ethicists face intractable moral dilemmas known as 'trolley problems.' When an imminent multi-vehicle collision is inevitable, how should an autonomous vehicle's decision-making algorithm prioritize human life? Should the software protect the passenger inside the vehicle at all costs, or steer into a barrier to spare a larger group of pedestrians on a zebra crossing?\n\nSurveys of public attitudes reveal a profound moral paradox. When asked in the abstract, the vast majority of citizens endorse utilitarian programming that minimizes total human casualties. However, when asked whether they would purchase an autonomous vehicle programmed to sacrifice its own passengers in emergency scenarios, consumer willingness plummets to near zero. People demand utilitarian vehicles for everyone else, while demanding self-protective vehicles for themselves and their families.\n\nConsequently, automotive safety regulators are moving away from philosophical dilemmas toward deterministic safety frameworks. Rather than expecting algorithms to make moral value judgments in split-second emergencies, statutory mandates emphasize conservative defensive driving: enforcing continuous headway margins, restricting maximum speeds in pedestrian zones, and ensuring fail-safe mechanical overrides. By eliminating the high-speed conditions that create unsolvable moral crashes, engineers can deliver societal safety without getting bogged down in ethical impasses.",
+      "sort_order": 3
+    },
+    {
+      "id": "b23f694e-cf1d-4c07-a229-760fc4872c53",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 3)",
+      "content": "Low-Earth orbit (LEO) is rapidly congesting with tens of thousands of commercial satellites launched to deploy global broadband internet constellations. While satellite internet bridges digital divides in remote archipelagos and rural regions, the unprecedented density of orbital hardware is generating an acute environmental crisis: space debris and orbital carrying capacity exhaustion.\n\nAerospace engineers warn of the 'Kessler Syndrome'—a catastrophic cascading collision scenario where high-speed orbital debris fragments collide with operational satellites, producing clouds of secondary shrapnel that trigger further collisions. Because fragments in low-Earth orbit travel at orbital velocities exceeding seven kilometers per second, even a centimeter-wide speck of defunct paint carries the kinetic energy of an exploding artillery shell.\n\nFurthermore, astronomical observation from Earth is severely compromised. Optical telescopes capturing long-exposure images of deep galaxies are increasingly crisscrossed by bright streaks reflecting sunlight from satellite constellation solar panels. Radio astronomers face parallel interference, as broadband downlink frequencies bleed into frequencies reserved for cosmic microwave research.\n\nInternational space law, codified primarily during the Cold War in the 1967 Outer Space Treaty, lacks modern enforcement mechanisms. Satellites are legally designated as state property, meaning private salvagers cannot physically de-orbit a derelict satellite without the registered launching state's explicit permission. To prevent our near-Earth commons from becoming permanently hazardous, spacefaring nations must negotiate updated orbital space traffic management treaties, mandating active de-orbiting thrusters and economic penalties for abandoned space junk.",
+      "sort_order": 4
+    },
+    {
+      "id": "d39d8da6-c16e-4137-8d28-f2685136b091",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A (Text 4)",
+      "content": "The geopolitical resurgence of industrial reshoring—relocating offshore manufacturing facilities back to domestic soil—has become a cornerstone of contemporary economic policy in North America and Western Europe. Spurred by geopolitical tensions, pandemic supply chain vulnerabilities, and escalating shipping freight costs, governments are channeling hundreds of billions of dollars in subsidies to repatriate advanced semiconductor foundries, electric vehicle battery plants, and medical equipment factories.\n\nHowever, labor market analysts caution that industrial reshoring in the twenty-first century will not resurrect the mass blue-collar assembly jobs of the mid-twentieth century. Modern domestic manufacturing facilities are hyper-automated technological complexes dominated by robotic automation, automated guided vehicles, and computer-vision quality inspection stations. A semiconductor foundry that cost twenty billion dollars to construct may require only a few hundred specialized automation technicians and systems engineers to operate.\n\nThis structural divergence creates a profound regional employment mismatch. The displaced workers in deindustrialized heartlands often lack the advanced programming and mechatronics credentials required to operate modern cyber-physical factories. Without massive, well-funded vocational retraining investments, reshoring initiatives risk creating high-tech industrial enclaves that generate immense corporate profits while leaving local working-class communities largely economically marginalized.\n\nEconomists emphasize that the ultimate justification for industrial reshoring must be understood through the lens of national economic resilience and technological sovereignty, rather than aggregate job volume. Domestic manufacturing secures critical supply chains against foreign geopolitical embargoes and accelerates domestic innovation ecosystems. But to ensure that the domestic benefits are equitably shared, state support for advanced factories must be coupled with lifelong technical education and regional community development compacts.",
+      "sort_order": 5
+    },
+    {
+      "id": "e49858ad-ba42-4f63-b65d-e5c8266fcba6",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part B (新题型 41-45题)",
+      "content": "The emergence of autonomous artificial agents capable of reasoning, synthesizing empirical literature, and formulating hypotheses is initiating a paradigm shift in the scientific method. Traditionally, scientific discoveries were generated through a hypothesis-driven process formulated solely by human intellect.\n\n[41] ____________________________________________________________________\n\nAutomated laboratory platforms can run tens of thousands of experimental variations per day, testing chemical reactions or genomic alterations with precision that far exceeds human capabilities. However, data generation alone does not constitute scientific understanding.\n\n[42] ____________________________________________________________________\n\nThis epistemic asymmetry poses profound dilemmas for peer review and scientific verification. If an artificial intelligence identifies a novel molecular compound capable of curing an aggressive pathogen, but human biochemists cannot retrace the generative logic behind the discovery, should the treatment be authorized for clinical trials?\n\n[43] ____________________________________________________________________\n\nFurthermore, scientific mentorship and serendipitous insight risk degradation if doctoral candidates are reduced to passive technicians who merely execute machine-generated research directives.\n\n[44] ____________________________________________________________________\n\nTo safeguard scientific integrity, leading research universities and international academies are establishing 'human-in-the-loop' governance charters. Under these frameworks, algorithmic tools must provide verifiable provenance for every claim, and human co-authors remain legally accountable for methodological rigor.\n\n[45] ____________________________________________________________________\n\nUltimately, artificial intelligence should be embraced not as an autonomous oracle that supplants human scientists, but as an intellectual telescope that expands our capacity to illuminate natural mysteries.",
+      "sort_order": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": "666831bc-4cca-459d-b572-2298cb95d53b",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (1) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "coherence"
+        },
+        {
+          "key": "B",
+          "text": "friction"
+        },
+        {
+          "key": "C",
+          "text": "jealousy"
+        },
+        {
+          "key": "D",
+          "text": "hostility"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词辨析与句意连贯。devoid of structural coherence（缺乏结构上的连贯性/协调性）。",
+      "points": 0.5,
+      "sort_order": 1
+    },
+    {
+      "id": "f6219538-7764-4248-9524-c1e9b3ef769d",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (2) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "assumed"
+        },
+        {
+          "key": "B",
+          "text": "discarded"
+        },
+        {
+          "key": "C",
+          "text": "condemned"
+        },
+        {
+          "key": "D",
+          "text": "fabricated"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】被动语态搭配。far earlier than previously assumed（远早于先前所设想）。",
+      "points": 0.5,
+      "sort_order": 2
+    },
+    {
+      "id": "0c14aa8e-f7eb-4192-9fef-89c43a48e3f7",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (3) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "narrows"
+        },
+        {
+          "key": "B",
+          "text": "amplifies"
+        },
+        {
+          "key": "C",
+          "text": "multiplies"
+        },
+        {
+          "key": "D",
+          "text": "persists"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词与神经修剪。婴儿对外语语音对比的灵活性随着大脑神经元修剪逐渐收窄（narrows）。",
+      "points": 0.5,
+      "sort_order": 3
+    },
+    {
+      "id": "6a759e0e-619c-4515-a24f-018e08f24e6c",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (4) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "surprise"
+        },
+        {
+          "key": "B",
+          "text": "indifference"
+        },
+        {
+          "key": "C",
+          "text": "relief"
+        },
+        {
+          "key": "D",
+          "text": "exhaustion"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】心理实验现象。看到不可能的物理事件时，婴儿瞳孔放大表明其产生了认知上的惊讶（surprise）。",
+      "points": 0.5,
+      "sort_order": 4
+    },
+    {
+      "id": "8ae5abd7-2199-4099-97e5-545f43bed246",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (5) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "growth"
+        },
+        {
+          "key": "B",
+          "text": "decay"
+        },
+        {
+          "key": "C",
+          "text": "paralysis"
+        },
+        {
+          "key": "D",
+          "text": "fatigue"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词与褒义搭配。深度神经发育成长（neurodevelopmental growth）。",
+      "points": 0.5,
+      "sort_order": 5
+    },
+    {
+      "id": "577df4ea-3d72-48ee-82c8-ad5ae342a3f6",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (6) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "captures"
+        },
+        {
+          "key": "B",
+          "text": "distracts"
+        },
+        {
+          "key": "C",
+          "text": "offends"
+        },
+        {
+          "key": "D",
+          "text": "paralyzes"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词搭配。母亲语优美的旋律性轻松吸引住（captures）婴儿的注意力。",
+      "points": 0.5,
+      "sort_order": 6
+    },
+    {
+      "id": "78a2c081-4a7c-41a9-bc78-94dec566bc77",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (7) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "fortifying"
+        },
+        {
+          "key": "B",
+          "text": "severing"
+        },
+        {
+          "key": "C",
+          "text": "poisoning"
+        },
+        {
+          "key": "D",
+          "text": "bypassing"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】现在分词与积极作用。强化、巩固（fortifying）负责言语生成的神经回路。",
+      "points": 0.5,
+      "sort_order": 7
+    },
+    {
+      "id": "97231ebb-3cbb-47b0-86a3-cb5c3e7d39f0",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (8) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "adaptation"
+        },
+        {
+          "key": "B",
+          "text": "superstition"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "tragedy"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词搭配。evolutionary adaptation（演化适应机制）。",
+      "points": 0.5,
+      "sort_order": 8
+    },
+    {
+      "id": "dca0c649-d320-4bd4-b49c-f467c996b92d",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (9) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "expressions"
+        },
+        {
+          "key": "B",
+          "text": "passports"
+        },
+        {
+          "key": "C",
+          "text": "scandals"
+        },
+        {
+          "key": "D",
+          "text": "hesitations"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】固定搭配。facial expressions（面部表情），是社会参照现象的核心观察线索。",
+      "points": 0.5,
+      "sort_order": 9
+    },
+    {
+      "id": "f7af766f-62fb-4eff-b07a-f260bff080c7",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (10) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "halts"
+        },
+        {
+          "key": "B",
+          "text": "accelerates"
+        },
+        {
+          "key": "C",
+          "text": "celebrates"
+        },
+        {
+          "key": "D",
+          "text": "praises"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词与对比。如果母亲表情焦虑担忧，孩子会立刻停止（halts）探索。",
+      "points": 0.5,
+      "sort_order": 10
+    },
+    {
+      "id": "4964681b-2245-45b7-a7a3-35bef4a3b624",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (11) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "stifle"
+        },
+        {
+          "key": "B",
+          "text": "kindle"
+        },
+        {
+          "key": "C",
+          "text": "nourish"
+        },
+        {
+          "key": "D",
+          "text": "restore"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词辨析。长期忽视会扼杀、压制（stifle）婴儿的好奇心。",
+      "points": 0.5,
+      "sort_order": 11
+    },
+    {
+      "id": "e8b4cf82-9e17-4cd2-824c-d8d1f1fcc2cf",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (12) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "coordination"
+        },
+        {
+          "key": "B",
+          "text": "conflict"
+        },
+        {
+          "key": "C",
+          "text": "hostility"
+        },
+        {
+          "key": "D",
+          "text": "separation"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】介词短语搭配。operate in tight coordination with（与……紧密协同运行）。",
+      "points": 0.5,
+      "sort_order": 12
+    },
+    {
+      "id": "78f2125b-c40d-4a27-ace9-1c359c9bc35e",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (13) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "mapping"
+        },
+        {
+          "key": "B",
+          "text": "confusion"
+        },
+        {
+          "key": "C",
+          "text": "blindness"
+        },
+        {
+          "key": "D",
+          "text": "paralysis"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】空间认知概念。直立行走加速了空间地图构建（spatial mapping）。",
+      "points": 0.5,
+      "sort_order": 13
+    },
+    {
+      "id": "e4965cd4-5758-4e5f-a309-4650d1508e77",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (14) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "reorganization"
+        },
+        {
+          "key": "B",
+          "text": "decay"
+        },
+        {
+          "key": "C",
+          "text": "stagnation"
+        },
+        {
+          "key": "D",
+          "text": "fatigue"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词辨析。运动里程碑是认知重组与飞跃（cognitive reorganization）的催化剂。",
+      "points": 0.5,
+      "sort_order": 14
+    },
+    {
+      "id": "b3bc5b63-eecb-447f-8bb2-aa640e7b6ba5",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (15) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "immersion"
+        },
+        {
+          "key": "B",
+          "text": "isolation"
+        },
+        {
+          "key": "C",
+          "text": "rejection"
+        },
+        {
+          "key": "D",
+          "text": "hatred"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词与集体文化。collective social immersion（全方位的集体社交沉浸融入）。",
+      "points": 0.5,
+      "sort_order": 15
+    },
+    {
+      "id": "462e5445-9a6a-48d4-8c51-2d3012908cd1",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (16) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "synchrony"
+        },
+        {
+          "key": "B",
+          "text": "disaster"
+        },
+        {
+          "key": "C",
+          "text": "chaos"
+        },
+        {
+          "key": "D",
+          "text": "hostility"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】名词搭配。remarkable temporal synchrony（在时间节点上表现出惊人的一致与同步性）。",
+      "points": 0.5,
+      "sort_order": 16
+    },
+    {
+      "id": "47acfb15-31bc-4015-94d3-aef7546ad6ea",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (17) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "unfold"
+        },
+        {
+          "key": "B",
+          "text": "suppress"
+        },
+        {
+          "key": "C",
+          "text": "demolish"
+        },
+        {
+          "key": "D",
+          "text": "conceal"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词与蓝图。大脑会自发地展开并实现其发育蓝图（unfold its developmental blueprint）。",
+      "points": 0.5,
+      "sort_order": 17
+    },
+    {
+      "id": "e38932f3-d211-4625-887e-c22883ac1f43",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (18) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "connectivity"
+        },
+        {
+          "key": "B",
+          "text": "paralysis"
+        },
+        {
+          "key": "C",
+          "text": "extinction"
+        },
+        {
+          "key": "D",
+          "text": "exhaustion"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】神经生物学表达。高皮质醇会破坏海马体突触连接性（hippocampal synaptic connectivity）。",
+      "points": 0.5,
+      "sort_order": 18
+    },
+    {
+      "id": "5d687e29-b5b1-4151-b83b-6349ac5560ae",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (19) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "thrives"
+        },
+        {
+          "key": "B",
+          "text": "withers"
+        },
+        {
+          "key": "C",
+          "text": "collapses"
+        },
+        {
+          "key": "D",
+          "text": "stagnates"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】动词与蓬勃发展。提供了婴儿认知发育真正得以茁壮繁荣（truly thrives）的基石。",
+      "points": 0.5,
+      "sort_order": 19
+    },
+    {
+      "id": "8b6946cd-cef3-499c-8abc-b43117e22691",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "693aa521-8890-457d-af92-7333b59dd72f",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for (20) in the text:",
+      "options": [
+        {
+          "key": "A",
+          "text": "fabric"
+        },
+        {
+          "key": "B",
+          "text": "superstition"
+        },
+        {
+          "key": "C",
+          "text": "betrayal"
+        },
+        {
+          "key": "D",
+          "text": "disaster"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】比喻名词。social, intellectual, and democratic fabric（社会、智力与民主的肌理与结构）。",
+      "points": 0.5,
+      "sort_order": 20
+    },
+    {
+      "id": "54761130-bf93-40a7-84e1-9288458e3acf",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "f7764ec0-0803-43f3-8376-2bfc1da89c99",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What has been the primary cause of local newspaper closures?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Strict governmental censorship of regional reporting"
+        },
+        {
+          "key": "B",
+          "text": "The loss of advertising revenue to digital platform monopolies"
+        },
+        {
+          "key": "C",
+          "text": "Widespread public disinterest in reading text"
+        },
+        {
+          "key": "D",
+          "text": "A severe national shortage of printing press paper"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】细节事实题。第一段指出报社破产归咎于广告收入下滑以及数字垄断平台对商业分类广告的蚕食，选 B。",
+      "points": 2,
+      "sort_order": 21
+    },
+    {
+      "id": "787f816d-12f1-4525-8716-e93681686fb3",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "f7764ec0-0803-43f3-8376-2bfc1da89c99",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Communities without local newspapers tend to experience ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "lower voter participation and higher municipal borrowing costs"
+        },
+        {
+          "key": "B",
+          "text": "harmonious municipal consensus without any political debate"
+        },
+        {
+          "key": "C",
+          "text": "a rapid surge in private philanthropic investments"
+        },
+        {
+          "key": "D",
+          "text": "unprecedented improvements in school board governance"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第二段列举实证研究表明缺乏地方媒体会导致投票率走低以及因缺少监督而增加借款成本，选 A。",
+      "points": 2,
+      "sort_order": 22
+    },
+    {
+      "id": "6b45be37-131b-4992-aa30-91612d012498",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "f7764ec0-0803-43f3-8376-2bfc1da89c99",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Non-profit investigative newsrooms face the limitation that ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "philanthropic funding is heavily biased toward prosperous cities"
+        },
+        {
+          "key": "B",
+          "text": "they are legally forbidden from uncovering municipal scandals"
+        },
+        {
+          "key": "C",
+          "text": "digital readers refuse to read investigative exposes"
+        },
+        {
+          "key": "D",
+          "text": "national aggregators refuse to link to non-profit domains"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第三段指出慈善捐款高度集中在富裕的大城市，非工业区依然沦为新闻荒漠，选 A。",
+      "points": 2,
+      "sort_order": 23
+    },
+    {
+      "id": "312b8250-02fc-4517-ad18-216e692bf8ef",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "f7764ec0-0803-43f3-8376-2bfc1da89c99",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Which policy proposal is mentioned to sustain local journalism?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Nationalizing all municipal printing presses"
+        },
+        {
+          "key": "B",
+          "text": "Mandating aggregators to compensate original news publishers"
+        },
+        {
+          "key": "C",
+          "text": "Banning social media accounts from reporting on school boards"
+        },
+        {
+          "key": "D",
+          "text": "Imposing heavy penalties on readers of digital media"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】细节事实题。第四段指出立法强制要求数字平台向原创媒体支付内容版权报酬，选 B。",
+      "points": 2,
+      "sort_order": 24
+    },
+    {
+      "id": "b234fc1c-dc2f-4270-a719-79a90ff9319a",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "f7764ec0-0803-43f3-8376-2bfc1da89c99",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The author considers local journalism to be ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "an outdated commercial relic incapable of modernization"
+        },
+        {
+          "key": "B",
+          "text": "an indispensable public good vital to democratic accountability"
+        },
+        {
+          "key": "C",
+          "text": "a trivial luxury that small towns can easily live without"
+        },
+        {
+          "key": "D",
+          "text": "a chief instigator of national political polarization"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】作者观点题。末段首句明确将其定义为不可或缺的公共产品（indispensable public good），对民主监督具有基石作用，选 B。",
+      "points": 2,
+      "sort_order": 25
+    },
+    {
+      "id": "81f2d3ef-f034-4e37-8e89-089520a815e0",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "2502e808-697b-42b4-a655-5f31396b8572",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What is the principal safety promise of autonomous vehicles?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eliminating vehicular fatalities caused by human error and distraction"
+        },
+        {
+          "key": "B",
+          "text": "Allowing vehicles to travel indefinitely without electrical charging"
+        },
+        {
+          "key": "C",
+          "text": "Completely removing all traffic lights from metropolitan streets"
+        },
+        {
+          "key": "D",
+          "text": "Enabling commuters to work 100-hour weeks without fatigue"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第一段末尾指出无人驾驶有望大幅消除由人类感知失误、醉驾和分心导致的交通事故死亡（ninety percent of which stem from human error），选 A。",
+      "points": 2,
+      "sort_order": 26
+    },
+    {
+      "id": "19b37a6a-f53f-419c-a0c8-69adcb742089",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "2502e808-697b-42b4-a655-5f31396b8572",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The 'moral paradox' mentioned in Paragraph 3 indicates that ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "people praise utilitarian ethics for others but demand self-protection for themselves"
+        },
+        {
+          "key": "B",
+          "text": "consumers refuse to ride in cars manufactured outside their home nation"
+        },
+        {
+          "key": "C",
+          "text": "pedestrians prefer interacting with human drivers rather than computers"
+        },
+        {
+          "key": "D",
+          "text": "engineers refuse to write code for autonomous braking systems"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节理解题。第三段指出公众在抽象层面上支持功利主义最小化伤亡，但买车时要求绝对优先保护自己和家人，选 A。",
+      "points": 2,
+      "sort_order": 27
+    },
+    {
+      "id": "0101bc98-dde9-4e2c-8926-f3efde13dec8",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "2502e808-697b-42b4-a655-5f31396b8572",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "How are regulators resolving the ethical dilemma of autonomous driving?",
+      "options": [
+        {
+          "key": "A",
+          "text": "By focusing on deterministic defensive driving to prevent crashes altogether"
+        },
+        {
+          "key": "B",
+          "text": "By permanently banning all autonomous vehicle testing on public roads"
+        },
+        {
+          "key": "C",
+          "text": "By leaving all ethical decisions to random lottery algorithms"
+        },
+        {
+          "key": "D",
+          "text": "By requiring drivers to pass philosophical logic exams before entering cars"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第四段指出监管正转向确定性的防御性驾驶规则（enforcing continuous headway margins, restricting speeds），从根本上避免出现道德两难的碰撞险情，选 A。",
+      "points": 2,
+      "sort_order": 28
+    },
+    {
+      "id": "b2377a76-f67f-486e-be7e-a1d6c9bc9f3c",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "2502e808-697b-42b4-a655-5f31396b8572",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The word 'impasse' in the final sentence is closest in meaning to ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "deadlock"
+        },
+        {
+          "key": "B",
+          "text": "opportunity"
+        },
+        {
+          "key": "C",
+          "text": "celebration"
+        },
+        {
+          "key": "D",
+          "text": "agreement"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】词义猜测题。前文讨论道德两难僵局，ethical impasses 即伦理死局、僵局（deadlock），选 A。",
+      "points": 2,
+      "sort_order": 29
+    },
+    {
+      "id": "8d7d935d-0d1c-42a2-be51-8c8b140090bf",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "2502e808-697b-42b4-a655-5f31396b8572",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Which of the following would be the most suitable title for Text 2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Autonomous Driving: From Moral Dilemmas to Engineering Reality"
+        },
+        {
+          "key": "B",
+          "text": "Why Robotaxis Should Be Banned Worldwide"
+        },
+        {
+          "key": "C",
+          "text": "The Ultimate Perfection of Human Motorists"
+        },
+        {
+          "key": "D",
+          "text": "How Pedestrians Will Conquer Autonomous Highways"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】主旨标题题。文章阐述了自动驾驶由伦理电车难题转向工程防御性实操规范的演进路径，选 A。",
+      "points": 2,
+      "sort_order": 30
+    },
+    {
+      "id": "952bc138-af5f-4884-86ed-2ea15e65d928",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "b23f694e-cf1d-4c07-a229-760fc4872c53",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The deployment of commercial satellite constellations has ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "congested low-Earth orbit and created serious space debris risks"
+        },
+        {
+          "key": "B",
+          "text": "eliminated all forms of digital terrestrial communication"
+        },
+        {
+          "key": "C",
+          "text": "lowered global temperatures across both polar icecaps"
+        },
+        {
+          "key": "D",
+          "text": "permanently extinguished the threat of asteroid collisions"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第一段指出商业卫星网络部署导致低地球轨道严重拥堵，产生严重的太空垃圾危机，选 A。",
+      "points": 2,
+      "sort_order": 31
+    },
+    {
+      "id": "26236417-e5d9-4b56-b15d-995f25e3506b",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "b23f694e-cf1d-4c07-a229-760fc4872c53",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What is the core danger of the 'Kessler Syndrome'?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A cascading chain reaction of orbital collisions generating clouds of shrapnel"
+        },
+        {
+          "key": "B",
+          "text": "The immediate crash of all satellites into ocean trenches"
+        },
+        {
+          "key": "C",
+          "text": "The loss of gravitational pull between the Earth and the Moon"
+        },
+        {
+          "key": "D",
+          "text": "Excessive radioactive fallout entering the upper stratosphere"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第二段指出凯斯勒综合征是指高速轨道碎片碰撞产生级联反应，引发毁灭性连锁碰撞，选 A。",
+      "points": 2,
+      "sort_order": 32
+    },
+    {
+      "id": "5c0cf4e6-6061-470c-828c-c3d66d369f27",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "b23f694e-cf1d-4c07-a229-760fc4872c53",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Astronomers complain that satellite constellations ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "interfere with optical telescope exposures and radio astronomy frequencies"
+        },
+        {
+          "key": "B",
+          "text": "physically block sunlight from reaching agricultural crops"
+        },
+        {
+          "key": "C",
+          "text": "corrupt all digital university library databases"
+        },
+        {
+          "key": "D",
+          "text": "increase ticket prices for private space tourism"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第三段指出卫星反射阳光在光学长曝光照片上留下划痕，其下行频段还干扰宇宙微波射电研究，选 A。",
+      "points": 2,
+      "sort_order": 33
+    },
+    {
+      "id": "5213c69f-d5cb-4aee-9fbb-057ce14d205a",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "b23f694e-cf1d-4c07-a229-760fc4872c53",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Why is clearing abandoned space junk legally complicated under current law?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Old treaties designate satellites as sovereign state property"
+        },
+        {
+          "key": "B",
+          "text": "Space debris carries lethal contagious pathogens"
+        },
+        {
+          "key": "C",
+          "text": "Private companies are strictly forbidden from owning computers"
+        },
+        {
+          "key": "D",
+          "text": "The United Nations claims sole physical possession of all orbits"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】因果事实题。第四段指出依据冷战时期的《外层空间条约》，废弃卫星仍属主权国家财产，未经许可不得擅自清除，选 A。",
+      "points": 2,
+      "sort_order": 34
+    },
+    {
+      "id": "c1c0177b-24b6-4b63-86b4-2ccdddc8f270",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "b23f694e-cf1d-4c07-a229-760fc4872c53",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The author advocates that spacefaring nations must ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "negotiate updated treaties mandating active de-orbiting and penalties"
+        },
+        {
+          "key": "B",
+          "text": "completely dismantle all global satellite communications"
+        },
+        {
+          "key": "C",
+          "text": "privatize all outer space orbits to the highest corporate bidder"
+        },
+        {
+          "key": "D",
+          "text": "halt all astronomy research until the next century"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】作者观点题。第四段末句指出航天大国必须谈判达成最新的太空交通管理条约，强制配备离轨发动机并对遗弃太空垃圾施加经济惩罚，选 A。",
+      "points": 2,
+      "sort_order": 35
+    },
+    {
+      "id": "354266f6-cbb7-4228-b293-d2a8f5451534",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "d39d8da6-c16e-4137-8d28-f2685136b091",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What has motivated the resurgence of industrial reshoring in Western nations?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Geopolitical tensions, shipping vulnerabilities, and supply security"
+        },
+        {
+          "key": "B",
+          "text": "A total global shortage of industrial plastics and crude oil"
+        },
+        {
+          "key": "C",
+          "text": "A nationwide consumer boycott of all electronic gadgets"
+        },
+        {
+          "key": "D",
+          "text": "The complete bankruptcy of all international shipping companies"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第一段指出地缘政治摩擦、疫情供应链脆弱性及海运运费上涨促成了制造业回流，选 A。",
+      "points": 2,
+      "sort_order": 36
+    },
+    {
+      "id": "c386447c-061c-4ea5-b467-944ddf7c354c",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "d39d8da6-c16e-4137-8d28-f2685136b091",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Modern reshored factories will not create mass blue-collar employment because ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "they are hyper-automated complexes requiring minimal specialized technicians"
+        },
+        {
+          "key": "B",
+          "text": "workers refuse to accept wages paid in national currency"
+        },
+        {
+          "key": "C",
+          "text": "governmental statutes forbid hiring human factory workers"
+        },
+        {
+          "key": "D",
+          "text": "factories are located exclusively on offshore ocean platforms"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第二段阐明现代回流工厂是高度自动化的复合体，大量使用机器人和机器视觉，只需极少数自动化技师，选 A。",
+      "points": 2,
+      "sort_order": 37
+    },
+    {
+      "id": "1d42eaa4-a8c8-49fa-a5a3-c9138574bdd3",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "d39d8da6-c16e-4137-8d28-f2685136b091",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What risk is highlighted in Paragraph 3 regarding deindustrialized communities?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Displaced workers lack skills for cyber-physical factories, risking marginalization"
+        },
+        {
+          "key": "B",
+          "text": "Local residents will immediately demolish the new semiconductor foundries"
+        },
+        {
+          "key": "C",
+          "text": "Factory robots will cause widespread environmental radiation"
+        },
+        {
+          "key": "D",
+          "text": "Working-class families will refuse to purchase domestically made products"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节因果题。第三段指出老工业区下岗工人缺乏高级机电一体化技能，回流工厂可能沦为难以惠及本地工人的技术飞地，选 A。",
+      "points": 2,
+      "sort_order": 38
+    },
+    {
+      "id": "ec1de780-2e05-4d4e-a179-aa374f817493",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "d39d8da6-c16e-4137-8d28-f2685136b091",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "According to economists, the primary justification for reshoring is ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "strengthening national economic resilience and technological sovereignty"
+        },
+        {
+          "key": "B",
+          "text": "permanently stopping all international trade and diplomacy"
+        },
+        {
+          "key": "C",
+          "text": "ensuring that every high school graduate becomes a factory laborer"
+        },
+        {
+          "key": "D",
+          "text": "lowering the national stock market index"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】细节事实题。第四段指出回流的终极价值必须从国家经济韧性与技术主权（resilience and technological sovereignty）的角度来衡量，选 A。",
+      "points": 2,
+      "sort_order": 39
+    },
+    {
+      "id": "9dde4462-ab86-4b6b-97a3-8623db7eefc4",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "d39d8da6-c16e-4137-8d28-f2685136b091",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The author concludes that industrial reshoring policies must be accompanied by ______.",
+      "options": [
+        {
+          "key": "A",
+          "text": "lifelong technical education and regional community development compacts"
+        },
+        {
+          "key": "B",
+          "text": "an immediate ban on teaching software programming in schools"
+        },
+        {
+          "key": "C",
+          "text": "the total nationalization of all corporate patent portfolios"
+        },
+        {
+          "key": "D",
+          "text": "a return to nineteenth-century steam engine technologies"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】作者结论题。第四段末句指出国家补贴必须与终身技术教育和区域社区发展契约相结合，实现利益公平共享，选 A。",
+      "points": 2,
+      "sort_order": 40
+    },
+    {
+      "id": "a42d2a22-d9e2-4582-bf71-0c1a37f5a986",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "e49858ad-ba42-4f63-b65d-e5c8266fcba6",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best sub-paragraph from A-G to fill in blank [41]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+        },
+        {
+          "key": "B",
+          "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+        },
+        {
+          "key": "C",
+          "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+        },
+        {
+          "key": "D",
+          "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+        },
+        {
+          "key": "E",
+          "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+        },
+        {
+          "key": "F",
+          "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+        },
+        {
+          "key": "G",
+          "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】[41] 空格：承接上文'hypothesis-driven process formulated solely by human intellect'，A 选项讲述如今机器学习模型通读数百万论文挖掘跨学科关联，形成承上启下对比，选 A。",
+      "points": 2,
+      "sort_order": 41
+    },
+    {
+      "id": "ccd891cd-b694-4ded-93b2-5535fcee0a37",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "e49858ad-ba42-4f63-b65d-e5c8266fcba6",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best sub-paragraph from A-G to fill in blank [42]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+        },
+        {
+          "key": "B",
+          "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+        },
+        {
+          "key": "C",
+          "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+        },
+        {
+          "key": "D",
+          "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+        },
+        {
+          "key": "E",
+          "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+        },
+        {
+          "key": "F",
+          "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+        },
+        {
+          "key": "G",
+          "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】[42] 空格：前文提到'数据生成本身不等于科学理解'，后文紧跟'This epistemic asymmetry'（这种认识论上的不对称/黑箱），C 选项准确阐述复杂神经网络如黑箱般只给预测不给因果解释，选 C。",
+      "points": 2,
+      "sort_order": 42
+    },
+    {
+      "id": "968468c1-6a80-412e-a4d1-539357af72b2",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "e49858ad-ba42-4f63-b65d-e5c8266fcba6",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best sub-paragraph from A-G to fill in blank [43]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+        },
+        {
+          "key": "B",
+          "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+        },
+        {
+          "key": "C",
+          "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+        },
+        {
+          "key": "D",
+          "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+        },
+        {
+          "key": "E",
+          "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+        },
+        {
+          "key": "F",
+          "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+        },
+        {
+          "key": "G",
+          "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】[43] 空格：前文提出临床试验能否仅凭 AI 结论批准的疑问，B 选项直接做出回答：人类研究人员必须保留最终的临床试验伦理审批权，选 B。",
+      "points": 2,
+      "sort_order": 43
+    },
+    {
+      "id": "6b4d9a20-9ef4-4f8d-a50b-f8760292579e",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "e49858ad-ba42-4f63-b65d-e5c8266fcba6",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best sub-paragraph from A-G to fill in blank [44]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+        },
+        {
+          "key": "B",
+          "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+        },
+        {
+          "key": "C",
+          "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+        },
+        {
+          "key": "D",
+          "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+        },
+        {
+          "key": "E",
+          "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+        },
+        {
+          "key": "F",
+          "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+        },
+        {
+          "key": "G",
+          "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】[44] 空格：紧扣前文'doctoral candidates are reduced to passive technicians'，E 选项指出青年科学家需要通过试错与沉思培养直觉，选 E。",
+      "points": 2,
+      "sort_order": 44
+    },
+    {
+      "id": "52499411-c9d4-412e-a7dd-dad6253b0bfb",
+      "exam_id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+      "passage_id": "e49858ad-ba42-4f63-b65d-e5c8266fcba6",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best sub-paragraph from A-G to fill in blank [45]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Today, machine learning models ingest millions of published papers to uncover non-obvious correlations across disparate disciplines."
+        },
+        {
+          "key": "B",
+          "text": "Human researchers must retain ultimate ethical oversight over clinical trial authorizations."
+        },
+        {
+          "key": "C",
+          "text": "Complex neural networks often operate as black boxes, providing accurate predictions without transparent causal explanations."
+        },
+        {
+          "key": "D",
+          "text": "Ethical committees warn against deploying unverified chemical agents without thorough toxicological screening."
+        },
+        {
+          "key": "E",
+          "text": "Young scientists need space to develop intuition through hands-on trial, failure, and creative contemplation."
+        },
+        {
+          "key": "F",
+          "text": "Transparency mandates require open-source access to training data and code repositories for all published papers."
+        },
+        {
+          "key": "G",
+          "text": "Funding agencies must balance investments between automated wet labs and human curiosity-driven research."
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】[45] 空格：承接前文'algorithmic tools must provide verifiable provenance'治理规约，F 选项强调开源训练数据与代码的透明度要求，选 F。",
+      "points": 2,
+      "sort_order": 45
+    }
+  ],
+  "exportedAt": "2026-09-21T02:04:13.335Z"
+}

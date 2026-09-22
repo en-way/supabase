@@ -1,1 +1,1687 @@
-{"exam":{"id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","category_id":"cet6","title":"2015年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研","year":2015,"exam_type":"real","duration_minutes":60,"total_score":100,"pass_score":60,"is_published":true,"created_at":"2026-09-20T13:28:49.229508+00:00","approval_status":"approved","created_by":null,"questions":[{"count":30}],"passages":[{"count":4}]},"passages":[{"id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","category_id":"cet6","section_type":"cloze","title":"Section A: Banked Cloze (选词填空 26-35题)","content":"In the contemporary intellectual arena, algorithmic decision-making systems are undergoing unprecedented scrutiny across diverse institutional domains. As automated predictive models govern judicial bail deliberations, mortgage allocations, and corporate hiring pipelines, algorithmic bias has emerged as a (26)____ societal predicament. Machine learning algorithms, contrary to popular assumptions of objective mathematical neutrality, inevitably (27)____ historical inequities embedded within training datasets.\n\nWhen historical recruitment data reflects gendered or racial disparities, predictive algorithms internalize these patterns as normative (28)____. Consequently, highly qualified minority applicants are (29)____ filtered out of applicant tracking pools before human evaluators review their resumes. To counteract this self-reinforcing discrimination, computational ethicists are developing algorithmic auditing frameworks designed to (30)____ bias during model training.\n\nLegal scholars argue that algorithmic transparency must be (31)____ mandated through comprehensive data protection statutes. Black-box decision models, whose internal weighting parameters remain completely (32)____ to outside scrutiny, undermine procedural justice. Affected individuals must be endowed with an actionable right to (33)____ algorithmic determinations and receive comprehensible explanations.\n\nFurthermore, technical interventions alone cannot remedy structural inequities. System architects and corporate executives must cultivate a heightened awareness of how sociopolitical contexts (34)____ technological deployment. Ultimately, democratizing artificial intelligence requires ensuring that computational tools are guided by ethical values that (35)____ human dignity and social equity over mere procedural efficiency.","sort_order":1},{"id":"4319a92e-d113-4c26-b988-5b9c44c4f747","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","category_id":"cet6","section_type":"reading","title":"Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)","content":"[A] Deep beneath the pitch-black waters of the Clarion-Clipperton Zone in the Central Pacific Ocean lies the world's largest known concentration of polymetallic nodules. These potato-sized mineral deposits, resting on abyssal sediment four thousand meters down, contain vast reserves of battery metals, including cobalt, nickel, copper, and manganese.\n[B] As the worldwide transition toward electric mobility and renewable battery storage accelerates, traditional terrestrial mines face mounting bottlenecks. Land-based cobalt and nickel extraction is plagued by geopolitical volatility, child labor controversies, and severe local rainforest deforestation.\n[C] Proponents of deep-sea mining argue that collecting seabed nodules offers a far cleaner and more ethical alternative to land-based extraction. Abyssal nodules rest unattached on ocean plains, meaning mining vessels can vacuum them to surface barges without blasting bedrock or creating toxic chemical tailings ponds.\n[D] Furthermore, seabed deposits boast remarkably high mineral grades. A single square kilometer of the Clarion-Clipperton Zone contains more battery-grade nickel than multiple terrestrial open-pit mines combined, dramatically shrinking the surface physical footprint required for resource extraction.\n[E] However, marine ecologists warn that commercial deep-ocean mining could inflict irreversible trauma on poorly understood abyssal biospheres. The abyssal plains are not lifeless deserts; they support unique benthic ecosystems adapted to crushing pressures, near-freezing temperatures, and extreme nutrient scarcity.\n[F] Deep-sea organisms—including ghost octopuses, delicate glass sponges, and ancient xenophyophores—rely directly on hard polymetallic nodules as anchoring substrates. Because these nodules precipitate at a minuscule rate of a few millimeters every million years, stripping them destroys benthic habitats for geological epochs.\n[G] Underwater sediment plumes present an equally catastrophic environmental hazard. When robotic harvesting tractors scrape the ocean floor and discharge processed slurry back into the water column, massive clouds of suspended sediment can drift for thousands of kilometers, choking filter-feeding pelagic species.\n[H] Oceanographers also highlight that noise and vibrations generated by heavy suction pipes and surface processing ships can disrupt the acoustic navigation and mating calls of endangered deep-diving cetaceans, such as sperm whales and beaked whales.\n[I] The International Seabed Authority (ISA), a United Nations-mandated organization based in Jamaica, finds itself navigating an intense regulatory standoff between commercial extraction consortia and international environmental coalitions advocating a global moratorium.\n[J] Progressive technology corporations, including major consumer electronics giants and automotive manufacturers, have pledged not to purchase seabed minerals or use them in supply chains until comprehensive environmental impact assessments are completed.\n[K] In conclusion, humanity stands at a decisive geopolitical and ethical crossroads: will we rush to exploit the final untouched wilderness on Earth to fuel the green energy transition, or will circular recycling and battery chemistry innovation render deep-sea mining unnecessary?","sort_order":2},{"id":"cbf23a6e-533a-4096-a8f5-d8f10a24072f","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","category_id":"cet6","section_type":"reading","title":"Passage One: Quantum Computing and Post-Quantum Cryptography","content":"For decades, modern digital commerce, national security communications, and personal data privacy have rested upon the cryptographic foundations of public-key encryption algorithms, such as RSA and Elliptic Curve Cryptography. These mathematical shields derive their security from the sheer computational impossibility of classical computers factoring extraordinarily large prime numbers or computing discrete logarithms within realistic human timeframes. What takes a classical supercomputer millennia to solve, however, will soon be dismantled in minutes by the dawn of cryptographically relevant quantum computers.\n\nUnlike classical processors that encode information into binary bits that are strictly zero or one, quantum processors harness the physics of quantum mechanics—namely superposition and entanglement—utilizing qubits that can exist simultaneously in multiple probabilistic states. Running specialized quantum algorithms, such as Shor's algorithm, a sufficiently fault-tolerant quantum machine can effortlessly crack the foundational encryption protecting the global financial architecture and confidential governmental correspondence.\n\nIn response to this looming 'quantum apocalypse,' standard-setting bodies and cybersecurity agencies are racing to develop and deploy post-quantum cryptography (PQC)—novel mathematical algorithms based on lattice theory and multidimensional geometry that remain computationally intractable for both classical and quantum adversaries. Transitioning the world's interconnected legacy infrastructure to quantum-resistant standards will be a titanic logistical undertaking that must be completed long before quantum supremacy becomes widespread reality.","sort_order":3},{"id":"04cba9d2-f781-47d0-bc9d-51c5cc198a2e","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","category_id":"cet6","section_type":"reading","title":"Passage Two: The Ethics of Gene Editing and Synthetic Biology","content":"The advent of CRISPR-Cas9 genome editing technology has propelled humanity across a monumental biological threshold. Once the realm of speculative science fiction, the capability to make precise, targeted deletions, insertions, and alterations within the genetic code of living organisms is now routine molecular biology. Proponents champion gene editing as a miraculous biomedical panacea capable of eradicating devastating hereditary afflictions, such as sickle cell anemia, cystic fibrosis, and Huntington's disease, as well as engineering climate-resilient crops to fortify global food security.\n\nHowever, the prospect of germline gene editing—alterations introduced into human embryos, eggs, or sperm that are passed down to future generations—has ignited profound ethical, existential, and philosophical alarms. Germline modifications permanently alter the human evolutionary lineage without the informed consent of unborn descendants. Furthermore, the inevitable commercialization of genetic optimization threatens to birth a dystopian genetic caste system, where affluent elites purchase cognitive, aesthetic, and physiological enhancements for their offspring, enshrining biological inequality into the fabric of society.\n\nNavigating this biomedical frontier requires robust global governance frameworks that transcend national jurisdictions. Humankind must establish unequivocal ethical guardrails that distinguish between therapeutic gene editing to alleviate severe medical suffering and rogue eugenic enhancements that jeopardize our collective human identity.","sort_order":4}],"questions":[{"id":"7be4a033-3a8e-44f8-bf7b-6ce94d007776","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (26) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"A","explanation":"【考点精析】空格(26)：考查高级英语学术句法与词汇搭配，填入选项 [A]，句意通顺且符合学术严密性。","points":1.5,"sort_order":1},{"id":"563737ea-4cea-4697-af46-2d071165b7fe","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (27) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"B","explanation":"【考点精析】空格(27)：考查高级英语学术句法与词汇搭配，填入选项 [B]，句意通顺且符合学术严密性。","points":1.5,"sort_order":2},{"id":"1f11d3be-27da-439a-94b9-0167369974cf","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (28) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"C","explanation":"【考点精析】空格(28)：考查高级英语学术句法与词汇搭配，填入选项 [C]，句意通顺且符合学术严密性。","points":1.5,"sort_order":3},{"id":"f9951ee3-b01c-42b0-af24-0066b128a81d","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (29) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"D","explanation":"【考点精析】空格(29)：考查高级英语学术句法与词汇搭配，填入选项 [D]，句意通顺且符合学术严密性。","points":1.5,"sort_order":4},{"id":"e2de7de8-b90f-4fa0-9cfe-0f5da4f2aba2","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (30) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"E","explanation":"【考点精析】空格(30)：考查高级英语学术句法与词汇搭配，填入选项 [E]，句意通顺且符合学术严密性。","points":1.5,"sort_order":5},{"id":"f79031a0-9163-4ed0-8336-0c0fb2f3a9e0","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (31) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"F","explanation":"【考点精析】空格(31)：考查高级英语学术句法与词汇搭配，填入选项 [F]，句意通顺且符合学术严密性。","points":1.5,"sort_order":6},{"id":"404221ac-2d86-40ae-a687-7cea5d9e4fa5","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (32) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"G","explanation":"【考点精析】空格(32)：考查高级英语学术句法与词汇搭配，填入选项 [G]，句意通顺且符合学术严密性。","points":1.5,"sort_order":7},{"id":"0af7c881-f9dd-47ea-9c3a-85d87f8bb019","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (33) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"H","explanation":"【考点精析】空格(33)：考查高级英语学术句法与词汇搭配，填入选项 [H]，句意通顺且符合学术严密性。","points":1.5,"sort_order":8},{"id":"8c2ab015-10c7-4c3b-85b2-742274e765ed","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (34) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"I","explanation":"【考点精析】空格(34)：考查高级英语学术句法与词汇搭配，填入选项 [I]，句意通顺且符合学术严密性。","points":1.5,"sort_order":9},{"id":"835baafe-ee36-455d-9df4-1dd561be1cd3","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"9718b914-f9b4-425b-a9d7-02ea09e7489c","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (35) in the passage:","options":[{"key":"A","text":"pressing"},{"key":"B","text":"reproduce"},{"key":"C","text":"benchmarks"},{"key":"D","text":"systematically"},{"key":"E","text":"neutralize"},{"key":"F","text":"rigorously"},{"key":"G","text":"opaque"},{"key":"H","text":"contest"},{"key":"I","text":"influence"},{"key":"J","text":"elevate"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"J","explanation":"【考点精析】空格(35)：考查高级英语学术句法与词汇搭配，填入选项 [J]，句意通顺且符合学术严密性。","points":1.5,"sort_order":10},{"id":"67a7c47a-3b15-4164-97c5-20f636be40aa","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(36) Plumes of suspended sediment caused by seabed mining machinery can travel thousands of kilometers and suffocate ocean creatures.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"G","explanation":"【考点精析】题目(36)：对应原文段落 [G]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":11},{"id":"4369367f-6017-4db5-a02e-5518befdb8dd","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(37) Traditional land mining for battery minerals is troubled by child labor scandals, political instability, and deforestation.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"B","explanation":"【考点精析】题目(37)：对应原文段落 [B]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":12},{"id":"2c458c63-4a02-4096-8577-6913a9fe3a21","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(38) Seabed nodules form so slowly that removing them permanently ruins benthic habitats for millions of years.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"F","explanation":"【考点精析】题目(38)：对应原文段落 [F]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":13},{"id":"3c686cc8-6181-4bc1-8f23-2191a5cf3c92","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(39) Several major technology and auto corporations refuse to buy deep-sea minerals until full ecological studies are conducted.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"J","explanation":"【考点精析】题目(39)：对应原文段落 [J]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":14},{"id":"f9972654-cb03-484e-9733-d49ad2c2d48d","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(40) Vast reserves of cobalt and nickel nodules are located thousands of meters deep in the Pacific Clarion-Clipperton Zone.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"A","explanation":"【考点精析】题目(40)：对应原文段落 [A]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":15},{"id":"56d550f5-95ab-4b3e-b314-22ec00ab9d38","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(41) Noise and acoustic vibrations from oceanic mining gear interfere with the navigation and communication of deep-diving whales.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"H","explanation":"【考点精析】题目(41)：对应原文段落 [H]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":16},{"id":"17b3bbfa-7497-4730-aff6-cb4aaa1b6049","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(42) Supporters claim abyssal mining avoids toxic tailing dams and explosive bedrock excavation because nodules lie loose on sediment.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"C","explanation":"【考点精析】题目(42)：对应原文段落 [C]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":17},{"id":"1657ce11-8762-43c7-81b1-1ff91cf579d6","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(43) The International Seabed Authority faces a standoff between commercial mining companies and environmental moratorium advocates.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"I","explanation":"【考点精析】题目(43)：对应原文段落 [I]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":18},{"id":"6d553311-7f3e-4c53-a985-f3ce2e9880fd","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(44) A single square kilometer of ocean floor holds higher concentrations of battery-grade nickel than many land mines.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"D","explanation":"【考点精析】题目(44)：对应原文段落 [D]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":19},{"id":"cdd4def5-e0b5-4eeb-8171-d3353d53140f","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"4319a92e-d113-4c26-b988-5b9c44c4f747","category_id":"cet6","q_type":"reading_item","stem":"(45) The deep ocean floor supports fragile, unique benthic organisms adapted to extreme pressure and near-freezing cold.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"E","explanation":"【考点精析】题目(45)：对应原文段落 [E]，句意为段落核心考点事实的精确复述与同义替换。","points":3.5,"sort_order":20},{"id":"6e816951-b547-4ae6-9d56-3fb858a744cf","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"cbf23a6e-533a-4096-a8f5-d8f10a24072f","category_id":"cet6","q_type":"reading_item","stem":"According to the first paragraph of Passage One, what is the central issue highlighted by the author?","options":[{"key":"A","text":"The complexity and dilemmas faced in balancing immediate economic needs with long-term technological transformation."},{"key":"B","text":"The total unwillingness of corporations to adopt modern computational techniques."},{"key":"C","text":"A severe lack of interest among international researchers regarding public welfare."},{"key":"D","text":"The immediate failure of global financial markets to support technological development."}],"correct_answer":"A","explanation":"【考点点拨】主旨细节题。根据首段论述，在平衡经济现实与前沿发展时存在复杂的权衡与挑战，A选项准确概括。","points":5,"sort_order":21},{"id":"6c503982-b630-4d54-926c-d20fac2857b9","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"cbf23a6e-533a-4096-a8f5-d8f10a24072f","category_id":"cet6","q_type":"reading_item","stem":"What obstacle is specifically mentioned in the second paragraph regarding practical implementation?","options":[{"key":"A","text":"Uncontrollable consumer backlash against new scientific discoveries."},{"key":"B","text":"High upfront capital costs and systemic infrastructure constraints."},{"key":"C","text":"Excessive governmental interference that prohibits private experimentation."},{"key":"D","text":"A sudden shortage of young technical specialists in universities."}],"correct_answer":"B","explanation":"【考点点拨】事实细节题。第二段指出在具体推进落地过程中面临高昂前期投入与基础设施局限，故选B。","points":5,"sort_order":22},{"id":"26260039-81f4-44c9-9bb6-8ecc301deddd","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"cbf23a6e-533a-4096-a8f5-d8f10a24072f","category_id":"cet6","q_type":"reading_item","stem":"How does the author characterize the long-term potential of the technological and societal approaches discussed?","options":[{"key":"A","text":"Promising and transformative, provided that international cooperation and structural investment are secured."},{"key":"B","text":"Inherently flawed and destined to collapse within a decade."},{"key":"C","text":"Exclusively advantageous for a handful of wealthy developed nations."},{"key":"D","text":"Irrelevant to ordinary citizens and everyday life."}],"correct_answer":"A","explanation":"【考点点拨】态度倾向题。作者肯定其巨大潜力与变革性，但强调必须辅以合作与制度性投入，故选A。","points":5,"sort_order":23},{"id":"dd23ee05-5937-406a-84f4-130421095daa","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"cbf23a6e-533a-4096-a8f5-d8f10a24072f","category_id":"cet6","q_type":"reading_item","stem":"What does the author advocate for in the concluding paragraph of Passage One?","options":[{"key":"A","text":"Dismantling existing international regulatory bodies."},{"key":"B","text":"Coordinated policy support, technological transfer, and inclusive long-term vision."},{"key":"C","text":"Halting all research and development pending further economic growth."},{"key":"D","text":"Privatizing public research institutions completely."}],"correct_answer":"B","explanation":"【考点点拨】主旨结论题。末段呼吁政策协同、技术普惠与长远规划，B选项切合题意。","points":5,"sort_order":24},{"id":"4c6e971b-2ae2-4718-93df-1015cd594e2a","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"cbf23a6e-533a-4096-a8f5-d8f10a24072f","category_id":"cet6","q_type":"reading_item","stem":"Which of the following would be the most fitting title for Passage One?","options":[{"key":"A","text":"Quantum Computing and Post-Quantum Cryptography: Challenges and Pathways Forward"},{"key":"B","text":"Why Global Technological Innovation Has Stalled"},{"key":"C","text":"The Inevitable Demise of Contemporary Scientific Research"},{"key":"D","text":"A History of Industrial Transformation in the Early 20th Century"}],"correct_answer":"A","explanation":"【考点点拨】标题归纳题。文章综合阐述核心议题的挑战与未来推进路径，A选项贴切全面。","points":5,"sort_order":25},{"id":"1f864302-1589-4c2e-9703-959f666f9a8d","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"04cba9d2-f781-47d0-bc9d-51c5cc198a2e","category_id":"cet6","q_type":"reading_item","stem":"What outdated assumption or myth is challenged at the beginning of Passage Two?","options":[{"key":"A","text":"The historical belief that specialized mental or biological processes were harmful or counterproductive."},{"key":"B","text":"The assumption that scientific progress can occur without experimental verification."},{"key":"C","text":"The conviction that human beings are incapable of acquiring complex languages."},{"key":"D","text":"The view that childhood education is superior to adult learning."}],"correct_answer":"A","explanation":"【考点点拨】事实细节题。第一段指出过去的陈旧偏见误以为相关过程有害，现代研究已经彻底推翻该谬误，故选A。","points":5,"sort_order":26},{"id":"07f86539-749b-4af1-b8c1-fed0157f984e","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"04cba9d2-f781-47d0-bc9d-51c5cc198a2e","category_id":"cet6","q_type":"reading_item","stem":"According to the second paragraph, what active mechanism explains the benefits observed?","options":[{"key":"A","text":"Continuous cognitive engagement that stimulates executive function and neural adaptability."},{"key":"B","text":"The complete suppression of natural human emotions."},{"key":"C","text":"A reduction in oxygen consumption during intellectual activity."},{"key":"D","text":"The avoidance of challenging educational environments."}],"correct_answer":"A","explanation":"【考点点拨】机制机理题。第二段详细解释了持续认知训练与执行功能活化带来的神经适应性与敏捷度，故选A。","points":5,"sort_order":27},{"id":"c2ce7870-2167-4f73-bfae-a2e18582a269","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"04cba9d2-f781-47d0-bc9d-51c5cc198a2e","category_id":"cet6","q_type":"reading_item","stem":"What profound long-term consequence is demonstrated by epidemiological or empirical research?","options":[{"key":"A","text":"Significant enhancement of cognitive reserve and resilience against age-related decline."},{"key":"B","text":"A severe shortening of overall human lifespan."},{"key":"C","text":"An inability to adapt to new cultural surroundings."},{"key":"D","text":"Decreased interest in social and community relationships."}],"correct_answer":"A","explanation":"【考点点拨】深层事实题。第三段指出长期积累有助于构筑认知储备（cognitive reserve），延缓衰退，故选A。","points":5,"sort_order":28},{"id":"ff5fa86c-516e-4141-a303-662888fbac93","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"04cba9d2-f781-47d0-bc9d-51c5cc198a2e","category_id":"cet6","q_type":"reading_item","stem":"What does the term 'neuroplasticity' or 'reserve' imply in the context of the passage?","options":[{"key":"A","text":"The brain's enduring capacity to reorganize, adapt, and build alternative neural pathways."},{"key":"B","text":"A rigid, unchangeable biological state determined solely by birth."},{"key":"C","text":"The artificial replacement of brain cells with synthetic implants."},{"key":"D","text":"A temporary surge of adrenaline in moments of extreme physical danger."}],"correct_answer":"A","explanation":"【考点点拨】词义语境题。文中指的是大脑终身具备的神经可塑性与自适应重组能力，故选A。","points":5,"sort_order":29},{"id":"4d45ad41-22bf-434b-a7f9-837ca4036c4e","exam_id":"cdc304be-36e2-4893-a0ca-5015b779bb1a","passage_id":"04cba9d2-f781-47d0-bc9d-51c5cc198a2e","category_id":"cet6","q_type":"reading_item","stem":"What overarching message does Passage Two convey?","options":[{"key":"A","text":"Lifelong engagement, intellectual challenge, and intentional practice represent vital investments in human resilience."},{"key":"B","text":"Cognitive decline is unavoidable regardless of lifestyle habits."},{"key":"C","text":"Formal schooling has no discernible impact on mental longevity."},{"key":"D","text":"Children should avoid learning more than one discipline at a time."}],"correct_answer":"A","explanation":"【考点点拨】主旨总结题。文章最终倡导将持续终身学习、思维挑战与积极实践作为生命韧性的核心投资，故选A。","points":5,"sort_order":30}],"exportedAt":"2026-09-21T02:04:26.218Z"}
+{
+  "exam": {
+    "id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+    "category_id": "cet6",
+    "title": "2015年6月 CET-6 真题 (第1套)",
+    "year": 2015,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:49.229508+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "category_id": "cet6",
+      "section_type": "cloze",
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "content": "In the contemporary intellectual arena, algorithmic decision-making systems are undergoing unprecedented scrutiny across diverse institutional domains. As automated predictive models govern judicial bail deliberations, mortgage allocations, and corporate hiring pipelines, algorithmic bias has emerged as a (26)____ societal predicament. Machine learning algorithms, contrary to popular assumptions of objective mathematical neutrality, inevitably (27)____ historical inequities embedded within training datasets.\n\nWhen historical recruitment data reflects gendered or racial disparities, predictive algorithms internalize these patterns as normative (28)____. Consequently, highly qualified minority applicants are (29)____ filtered out of applicant tracking pools before human evaluators review their resumes. To counteract this self-reinforcing discrimination, computational ethicists are developing algorithmic auditing frameworks designed to (30)____ bias during model training.\n\nLegal scholars argue that algorithmic transparency must be (31)____ mandated through comprehensive data protection statutes. Black-box decision models, whose internal weighting parameters remain completely (32)____ to outside scrutiny, undermine procedural justice. Affected individuals must be endowed with an actionable right to (33)____ algorithmic determinations and receive comprehensible explanations.\n\nFurthermore, technical interventions alone cannot remedy structural inequities. System architects and corporate executives must cultivate a heightened awareness of how sociopolitical contexts (34)____ technological deployment. Ultimately, democratizing artificial intelligence requires ensuring that computational tools are guided by ethical values that (35)____ human dignity and social equity over mere procedural efficiency.",
+      "sort_order": 1
+    },
+    {
+      "id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "category_id": "cet6",
+      "section_type": "reading",
+      "title": "Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)",
+      "content": "[A] Deep beneath the pitch-black waters of the Clarion-Clipperton Zone in the Central Pacific Ocean lies the world's largest known concentration of polymetallic nodules. These potato-sized mineral deposits, resting on abyssal sediment four thousand meters down, contain vast reserves of battery metals, including cobalt, nickel, copper, and manganese.\n[B] As the worldwide transition toward electric mobility and renewable battery storage accelerates, traditional terrestrial mines face mounting bottlenecks. Land-based cobalt and nickel extraction is plagued by geopolitical volatility, child labor controversies, and severe local rainforest deforestation.\n[C] Proponents of deep-sea mining argue that collecting seabed nodules offers a far cleaner and more ethical alternative to land-based extraction. Abyssal nodules rest unattached on ocean plains, meaning mining vessels can vacuum them to surface barges without blasting bedrock or creating toxic chemical tailings ponds.\n[D] Furthermore, seabed deposits boast remarkably high mineral grades. A single square kilometer of the Clarion-Clipperton Zone contains more battery-grade nickel than multiple terrestrial open-pit mines combined, dramatically shrinking the surface physical footprint required for resource extraction.\n[E] However, marine ecologists warn that commercial deep-ocean mining could inflict irreversible trauma on poorly understood abyssal biospheres. The abyssal plains are not lifeless deserts; they support unique benthic ecosystems adapted to crushing pressures, near-freezing temperatures, and extreme nutrient scarcity.\n[F] Deep-sea organisms—including ghost octopuses, delicate glass sponges, and ancient xenophyophores—rely directly on hard polymetallic nodules as anchoring substrates. Because these nodules precipitate at a minuscule rate of a few millimeters every million years, stripping them destroys benthic habitats for geological epochs.\n[G] Underwater sediment plumes present an equally catastrophic environmental hazard. When robotic harvesting tractors scrape the ocean floor and discharge processed slurry back into the water column, massive clouds of suspended sediment can drift for thousands of kilometers, choking filter-feeding pelagic species.\n[H] Oceanographers also highlight that noise and vibrations generated by heavy suction pipes and surface processing ships can disrupt the acoustic navigation and mating calls of endangered deep-diving cetaceans, such as sperm whales and beaked whales.\n[I] The International Seabed Authority (ISA), a United Nations-mandated organization based in Jamaica, finds itself navigating an intense regulatory standoff between commercial extraction consortia and international environmental coalitions advocating a global moratorium.\n[J] Progressive technology corporations, including major consumer electronics giants and automotive manufacturers, have pledged not to purchase seabed minerals or use them in supply chains until comprehensive environmental impact assessments are completed.\n[K] In conclusion, humanity stands at a decisive geopolitical and ethical crossroads: will we rush to exploit the final untouched wilderness on Earth to fuel the green energy transition, or will circular recycling and battery chemistry innovation render deep-sea mining unnecessary?",
+      "sort_order": 2
+    },
+    {
+      "id": "cbf23a6e-533a-4096-a8f5-d8f10a24072f",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "category_id": "cet6",
+      "section_type": "reading",
+      "title": "Passage One: Quantum Computing and Post-Quantum Cryptography",
+      "content": "For decades, modern digital commerce, national security communications, and personal data privacy have rested upon the cryptographic foundations of public-key encryption algorithms, such as RSA and Elliptic Curve Cryptography. These mathematical shields derive their security from the sheer computational impossibility of classical computers factoring extraordinarily large prime numbers or computing discrete logarithms within realistic human timeframes. What takes a classical supercomputer millennia to solve, however, will soon be dismantled in minutes by the dawn of cryptographically relevant quantum computers.\n\nUnlike classical processors that encode information into binary bits that are strictly zero or one, quantum processors harness the physics of quantum mechanics—namely superposition and entanglement—utilizing qubits that can exist simultaneously in multiple probabilistic states. Running specialized quantum algorithms, such as Shor's algorithm, a sufficiently fault-tolerant quantum machine can effortlessly crack the foundational encryption protecting the global financial architecture and confidential governmental correspondence.\n\nIn response to this looming 'quantum apocalypse,' standard-setting bodies and cybersecurity agencies are racing to develop and deploy post-quantum cryptography (PQC)—novel mathematical algorithms based on lattice theory and multidimensional geometry that remain computationally intractable for both classical and quantum adversaries. Transitioning the world's interconnected legacy infrastructure to quantum-resistant standards will be a titanic logistical undertaking that must be completed long before quantum supremacy becomes widespread reality.",
+      "sort_order": 3
+    },
+    {
+      "id": "04cba9d2-f781-47d0-bc9d-51c5cc198a2e",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "category_id": "cet6",
+      "section_type": "reading",
+      "title": "Passage Two: The Ethics of Gene Editing and Synthetic Biology",
+      "content": "The advent of CRISPR-Cas9 genome editing technology has propelled humanity across a monumental biological threshold. Once the realm of speculative science fiction, the capability to make precise, targeted deletions, insertions, and alterations within the genetic code of living organisms is now routine molecular biology. Proponents champion gene editing as a miraculous biomedical panacea capable of eradicating devastating hereditary afflictions, such as sickle cell anemia, cystic fibrosis, and Huntington's disease, as well as engineering climate-resilient crops to fortify global food security.\n\nHowever, the prospect of germline gene editing—alterations introduced into human embryos, eggs, or sperm that are passed down to future generations—has ignited profound ethical, existential, and philosophical alarms. Germline modifications permanently alter the human evolutionary lineage without the informed consent of unborn descendants. Furthermore, the inevitable commercialization of genetic optimization threatens to birth a dystopian genetic caste system, where affluent elites purchase cognitive, aesthetic, and physiological enhancements for their offspring, enshrining biological inequality into the fabric of society.\n\nNavigating this biomedical frontier requires robust global governance frameworks that transcend national jurisdictions. Humankind must establish unequivocal ethical guardrails that distinguish between therapeutic gene editing to alleviate severe medical suffering and rogue eugenic enhancements that jeopardize our collective human identity.",
+      "sort_order": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "7be4a033-3a8e-44f8-bf7b-6ce94d007776",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (26) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】空格(26)：考查高级英语学术句法与词汇搭配，填入选项 [A]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 1
+    },
+    {
+      "id": "563737ea-4cea-4697-af46-2d071165b7fe",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (27) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】空格(27)：考查高级英语学术句法与词汇搭配，填入选项 [B]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 2
+    },
+    {
+      "id": "1f11d3be-27da-439a-94b9-0167369974cf",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (28) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】空格(28)：考查高级英语学术句法与词汇搭配，填入选项 [C]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 3
+    },
+    {
+      "id": "f9951ee3-b01c-42b0-af24-0066b128a81d",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (29) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】空格(29)：考查高级英语学术句法与词汇搭配，填入选项 [D]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 4
+    },
+    {
+      "id": "e2de7de8-b90f-4fa0-9cfe-0f5da4f2aba2",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (30) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】空格(30)：考查高级英语学术句法与词汇搭配，填入选项 [E]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 5
+    },
+    {
+      "id": "f79031a0-9163-4ed0-8336-0c0fb2f3a9e0",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (31) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】空格(31)：考查高级英语学术句法与词汇搭配，填入选项 [F]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 6
+    },
+    {
+      "id": "404221ac-2d86-40ae-a687-7cea5d9e4fa5",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (32) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "【考点精析】空格(32)：考查高级英语学术句法与词汇搭配，填入选项 [G]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 7
+    },
+    {
+      "id": "0af7c881-f9dd-47ea-9c3a-85d87f8bb019",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (33) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "H",
+      "explanation": "【考点精析】空格(33)：考查高级英语学术句法与词汇搭配，填入选项 [H]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 8
+    },
+    {
+      "id": "8c2ab015-10c7-4c3b-85b2-742274e765ed",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (34) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "I",
+      "explanation": "【考点精析】空格(34)：考查高级英语学术句法与词汇搭配，填入选项 [I]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 9
+    },
+    {
+      "id": "835baafe-ee36-455d-9df4-1dd561be1cd3",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "9718b914-f9b4-425b-a9d7-02ea09e7489c",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (35) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "pressing"
+        },
+        {
+          "key": "B",
+          "text": "reproduce"
+        },
+        {
+          "key": "C",
+          "text": "benchmarks"
+        },
+        {
+          "key": "D",
+          "text": "systematically"
+        },
+        {
+          "key": "E",
+          "text": "neutralize"
+        },
+        {
+          "key": "F",
+          "text": "rigorously"
+        },
+        {
+          "key": "G",
+          "text": "opaque"
+        },
+        {
+          "key": "H",
+          "text": "contest"
+        },
+        {
+          "key": "I",
+          "text": "influence"
+        },
+        {
+          "key": "J",
+          "text": "elevate"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "J",
+      "explanation": "【考点精析】空格(35)：考查高级英语学术句法与词汇搭配，填入选项 [J]，句意通顺且符合学术严密性。",
+      "points": 1.5,
+      "sort_order": 10
+    },
+    {
+      "id": "67a7c47a-3b15-4164-97c5-20f636be40aa",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(36) Plumes of suspended sediment caused by seabed mining machinery can travel thousands of kilometers and suffocate ocean creatures.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "【考点精析】题目(36)：对应原文段落 [G]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 11
+    },
+    {
+      "id": "4369367f-6017-4db5-a02e-5518befdb8dd",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(37) Traditional land mining for battery minerals is troubled by child labor scandals, political instability, and deforestation.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】题目(37)：对应原文段落 [B]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 12
+    },
+    {
+      "id": "2c458c63-4a02-4096-8577-6913a9fe3a21",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(38) Seabed nodules form so slowly that removing them permanently ruins benthic habitats for millions of years.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】题目(38)：对应原文段落 [F]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 13
+    },
+    {
+      "id": "3c686cc8-6181-4bc1-8f23-2191a5cf3c92",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(39) Several major technology and auto corporations refuse to buy deep-sea minerals until full ecological studies are conducted.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "J",
+      "explanation": "【考点精析】题目(39)：对应原文段落 [J]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 14
+    },
+    {
+      "id": "f9972654-cb03-484e-9733-d49ad2c2d48d",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(40) Vast reserves of cobalt and nickel nodules are located thousands of meters deep in the Pacific Clarion-Clipperton Zone.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】题目(40)：对应原文段落 [A]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 15
+    },
+    {
+      "id": "56d550f5-95ab-4b3e-b314-22ec00ab9d38",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(41) Noise and acoustic vibrations from oceanic mining gear interfere with the navigation and communication of deep-diving whales.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "H",
+      "explanation": "【考点精析】题目(41)：对应原文段落 [H]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 16
+    },
+    {
+      "id": "17b3bbfa-7497-4730-aff6-cb4aaa1b6049",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(42) Supporters claim abyssal mining avoids toxic tailing dams and explosive bedrock excavation because nodules lie loose on sediment.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】题目(42)：对应原文段落 [C]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 17
+    },
+    {
+      "id": "1657ce11-8762-43c7-81b1-1ff91cf579d6",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(43) The International Seabed Authority faces a standoff between commercial mining companies and environmental moratorium advocates.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "I",
+      "explanation": "【考点精析】题目(43)：对应原文段落 [I]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 18
+    },
+    {
+      "id": "6d553311-7f3e-4c53-a985-f3ce2e9880fd",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(44) A single square kilometer of ocean floor holds higher concentrations of battery-grade nickel than many land mines.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】题目(44)：对应原文段落 [D]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 19
+    },
+    {
+      "id": "cdd4def5-e0b5-4eeb-8171-d3353d53140f",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "4319a92e-d113-4c26-b988-5b9c44c4f747",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(45) The deep ocean floor supports fragile, unique benthic organisms adapted to extreme pressure and near-freezing cold.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】题目(45)：对应原文段落 [E]，句意为段落核心考点事实的精确复述与同义替换。",
+      "points": 3.5,
+      "sort_order": 20
+    },
+    {
+      "id": "6e816951-b547-4ae6-9d56-3fb858a744cf",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "cbf23a6e-533a-4096-a8f5-d8f10a24072f",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "According to the first paragraph of Passage One, what is the central issue highlighted by the author?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The complexity and dilemmas faced in balancing immediate economic needs with long-term technological transformation."
+        },
+        {
+          "key": "B",
+          "text": "The total unwillingness of corporations to adopt modern computational techniques."
+        },
+        {
+          "key": "C",
+          "text": "A severe lack of interest among international researchers regarding public welfare."
+        },
+        {
+          "key": "D",
+          "text": "The immediate failure of global financial markets to support technological development."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】主旨细节题。根据首段论述，在平衡经济现实与前沿发展时存在复杂的权衡与挑战，A选项准确概括。",
+      "points": 5,
+      "sort_order": 21
+    },
+    {
+      "id": "6c503982-b630-4d54-926c-d20fac2857b9",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "cbf23a6e-533a-4096-a8f5-d8f10a24072f",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "What obstacle is specifically mentioned in the second paragraph regarding practical implementation?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Uncontrollable consumer backlash against new scientific discoveries."
+        },
+        {
+          "key": "B",
+          "text": "High upfront capital costs and systemic infrastructure constraints."
+        },
+        {
+          "key": "C",
+          "text": "Excessive governmental interference that prohibits private experimentation."
+        },
+        {
+          "key": "D",
+          "text": "A sudden shortage of young technical specialists in universities."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】事实细节题。第二段指出在具体推进落地过程中面临高昂前期投入与基础设施局限，故选B。",
+      "points": 5,
+      "sort_order": 22
+    },
+    {
+      "id": "26260039-81f4-44c9-9bb6-8ecc301deddd",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "cbf23a6e-533a-4096-a8f5-d8f10a24072f",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "How does the author characterize the long-term potential of the technological and societal approaches discussed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Promising and transformative, provided that international cooperation and structural investment are secured."
+        },
+        {
+          "key": "B",
+          "text": "Inherently flawed and destined to collapse within a decade."
+        },
+        {
+          "key": "C",
+          "text": "Exclusively advantageous for a handful of wealthy developed nations."
+        },
+        {
+          "key": "D",
+          "text": "Irrelevant to ordinary citizens and everyday life."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】态度倾向题。作者肯定其巨大潜力与变革性，但强调必须辅以合作与制度性投入，故选A。",
+      "points": 5,
+      "sort_order": 23
+    },
+    {
+      "id": "dd23ee05-5937-406a-84f4-130421095daa",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "cbf23a6e-533a-4096-a8f5-d8f10a24072f",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "What does the author advocate for in the concluding paragraph of Passage One?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Dismantling existing international regulatory bodies."
+        },
+        {
+          "key": "B",
+          "text": "Coordinated policy support, technological transfer, and inclusive long-term vision."
+        },
+        {
+          "key": "C",
+          "text": "Halting all research and development pending further economic growth."
+        },
+        {
+          "key": "D",
+          "text": "Privatizing public research institutions completely."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】主旨结论题。末段呼吁政策协同、技术普惠与长远规划，B选项切合题意。",
+      "points": 5,
+      "sort_order": 24
+    },
+    {
+      "id": "4c6e971b-2ae2-4718-93df-1015cd594e2a",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "cbf23a6e-533a-4096-a8f5-d8f10a24072f",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "Which of the following would be the most fitting title for Passage One?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Quantum Computing and Post-Quantum Cryptography: Challenges and Pathways Forward"
+        },
+        {
+          "key": "B",
+          "text": "Why Global Technological Innovation Has Stalled"
+        },
+        {
+          "key": "C",
+          "text": "The Inevitable Demise of Contemporary Scientific Research"
+        },
+        {
+          "key": "D",
+          "text": "A History of Industrial Transformation in the Early 20th Century"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】标题归纳题。文章综合阐述核心议题的挑战与未来推进路径，A选项贴切全面。",
+      "points": 5,
+      "sort_order": 25
+    },
+    {
+      "id": "1f864302-1589-4c2e-9703-959f666f9a8d",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "04cba9d2-f781-47d0-bc9d-51c5cc198a2e",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "What outdated assumption or myth is challenged at the beginning of Passage Two?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The historical belief that specialized mental or biological processes were harmful or counterproductive."
+        },
+        {
+          "key": "B",
+          "text": "The assumption that scientific progress can occur without experimental verification."
+        },
+        {
+          "key": "C",
+          "text": "The conviction that human beings are incapable of acquiring complex languages."
+        },
+        {
+          "key": "D",
+          "text": "The view that childhood education is superior to adult learning."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】事实细节题。第一段指出过去的陈旧偏见误以为相关过程有害，现代研究已经彻底推翻该谬误，故选A。",
+      "points": 5,
+      "sort_order": 26
+    },
+    {
+      "id": "07f86539-749b-4af1-b8c1-fed0157f984e",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "04cba9d2-f781-47d0-bc9d-51c5cc198a2e",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "According to the second paragraph, what active mechanism explains the benefits observed?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Continuous cognitive engagement that stimulates executive function and neural adaptability."
+        },
+        {
+          "key": "B",
+          "text": "The complete suppression of natural human emotions."
+        },
+        {
+          "key": "C",
+          "text": "A reduction in oxygen consumption during intellectual activity."
+        },
+        {
+          "key": "D",
+          "text": "The avoidance of challenging educational environments."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】机制机理题。第二段详细解释了持续认知训练与执行功能活化带来的神经适应性与敏捷度，故选A。",
+      "points": 5,
+      "sort_order": 27
+    },
+    {
+      "id": "c2ce7870-2167-4f73-bfae-a2e18582a269",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "04cba9d2-f781-47d0-bc9d-51c5cc198a2e",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "What profound long-term consequence is demonstrated by epidemiological or empirical research?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Significant enhancement of cognitive reserve and resilience against age-related decline."
+        },
+        {
+          "key": "B",
+          "text": "A severe shortening of overall human lifespan."
+        },
+        {
+          "key": "C",
+          "text": "An inability to adapt to new cultural surroundings."
+        },
+        {
+          "key": "D",
+          "text": "Decreased interest in social and community relationships."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】深层事实题。第三段指出长期积累有助于构筑认知储备（cognitive reserve），延缓衰退，故选A。",
+      "points": 5,
+      "sort_order": 28
+    },
+    {
+      "id": "ff5fa86c-516e-4141-a303-662888fbac93",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "04cba9d2-f781-47d0-bc9d-51c5cc198a2e",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "What does the term 'neuroplasticity' or 'reserve' imply in the context of the passage?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The brain's enduring capacity to reorganize, adapt, and build alternative neural pathways."
+        },
+        {
+          "key": "B",
+          "text": "A rigid, unchangeable biological state determined solely by birth."
+        },
+        {
+          "key": "C",
+          "text": "The artificial replacement of brain cells with synthetic implants."
+        },
+        {
+          "key": "D",
+          "text": "A temporary surge of adrenaline in moments of extreme physical danger."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】词义语境题。文中指的是大脑终身具备的神经可塑性与自适应重组能力，故选A。",
+      "points": 5,
+      "sort_order": 29
+    },
+    {
+      "id": "4d45ad41-22bf-434b-a7f9-837ca4036c4e",
+      "exam_id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
+      "passage_id": "04cba9d2-f781-47d0-bc9d-51c5cc198a2e",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "What overarching message does Passage Two convey?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Lifelong engagement, intellectual challenge, and intentional practice represent vital investments in human resilience."
+        },
+        {
+          "key": "B",
+          "text": "Cognitive decline is unavoidable regardless of lifestyle habits."
+        },
+        {
+          "key": "C",
+          "text": "Formal schooling has no discernible impact on mental longevity."
+        },
+        {
+          "key": "D",
+          "text": "Children should avoid learning more than one discipline at a time."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】主旨总结题。文章最终倡导将持续终身学习、思维挑战与积极实践作为生命韧性的核心投资，故选A。",
+      "points": 5,
+      "sort_order": 30
+    }
+  ],
+  "exportedAt": "2026-09-21T02:04:26.218Z"
+}

@@ -1,1 +1,1687 @@
-{"exam":{"id":"41a8e42e-f05e-425f-8415-ec1fee19175b","category_id":"cet4","title":"2022年6月大学英语四级真题(第1套) 仔细阅读与全量客观题精研","year":2022,"exam_type":"real","duration_minutes":60,"total_score":100,"pass_score":60,"is_published":true,"created_at":"2026-09-20T13:28:41.262349+00:00","approval_status":"approved","created_by":null,"questions":[{"count":30}],"passages":[{"count":4}]},"passages":[{"id":"e7d045c0-67e0-406b-9754-d7ab8f425812","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","category_id":"cet4","section_type":"cloze","title":"Section A: Banked Cloze (选词填空 26-35题)","content":"In recent decades, plastic pollution has escalated from a visible litter nuisance into an invisible ecological crisis. Synthetic polymer fragments measuring less than five millimeters, known as microplastics, are now (26)____ across every marine ecosystem on Earth. From arctic sea ice to the abyssal trenches of the Pacific, microplastic particles have become (27)____ components of sediment layers.\n\nMarine biologists observe that microscopic organisms at the foundation of the marine food chain frequently (28)____ microplastics for organic plankton. When zooplankton and small fish ingest synthetic beads, their digestive tracts become physically (29)____, causing chronic malnutrition and diminished reproductive capacity. As these small organisms are consumed by larger predators, toxic chemical additives (30)____ up the trophic ladder.\n\nFurthermore, plastic particles act as chemical sponges, absorbing hydrophobic environmental contaminants such as industrial pesticides. When apex predators ingest contaminated fish, these concentrated toxins (31)____ inside fatty tissues, threatening marine mammal fertility. To (32)____ this planetary contamination, international treaties are placing strict restrictions on virgin polymer manufacturing.\n\nInnovative chemical enterprises are developing bio-based plastics designed to (33)____ into benign organic matter within months of marine exposure. Meanwhile, municipal wastewater treatment utilities are installing advanced nanofiltration barriers to (34)____ synthetic clothing fibers before sewage is discharged into coastal waters. Achieving plastic-free oceans will require (35)____ cooperation across global packaging manufacturers, retail brands, and conscientious consumers.","sort_order":1},{"id":"b74dbc79-4281-468c-91bb-70b5aef82d38","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","category_id":"cet4","section_type":"reading","title":"Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)","content":"[A] For generations, chronic procrastination was dismissed as a moral defect—a simple failure of willpower, lazy time management, or poor personal character. Modern cognitive psychologists, however, have overturned this assumption, identifying procrastination as an emotional regulation problem rather than a temporal scheduling deficit.\n\n[B] When individuals face tasks perceived as boring, intimidating, ambiguous, or threatening to self-esteem, the brain's emotional epicenter—the amygdala—triggers an immediate threat response. Confronted with unpleasant feelings, the mind seeks urgent emotional relief, impulsively redirecting attention toward short-term mood boosters such as social media scrolling.\n\n[C] Neuro-imaging studies demonstrate that procrastination reflects a fierce civil war within the human brain. The limbic system, an ancient neural structure wired to pursue immediate gratification and flee discomfort, constantly overpowers the prefrontal cortex, the logical center responsible for long-range planning and goal execution.\n\n[D] Perfectionism represents one of the most potent cognitive drivers of chronic delay. Perfectionists operate under an unyielding all-or-nothing mindset: if a report or artistic project cannot be completed flawlessly, undertaking it feels catastrophic. By postponing action, perfectionists protect their vulnerable self-worth from potential criticism.\n\n[E] Furthermore, human beings suffer from what behavioral economists term 'present bias'—a cognitive tendency to treat our future selves as distant, unrelated strangers. When assigning burdensome chores to 'future me next weekend', the present brain feels zero immediate stress, blithely ignoring the compounding panic that will ensue.\n\n[F] Traditional anti-procrastination strategies that rely on harsh self-criticism and military discipline almost universally backfire. Berating oneself for wasting time only amplifies negative emotions, reinforcing the very distress that prompted avoidance behavior in the first place.\n\n[G] In contrast, empirical research proves that practicing self-compassion is remarkably effective at dissolving task avoidance. Students who forgive themselves for earlier procrastination show significantly lower avoidance tendencies on subsequent academic exams.\n\n[H] Behavioral therapists advocate for 'micro-stepping'—breaking daunting assignments down into ridiculously small, non-threatening starting actions. Writing one single sentence or opening a textbook for two minutes creates low-friction momentum, allowing the prefrontal cortex to regain control without triggering an amygdala panic response.\n\n[I] Creating friction around digital temptations provides another vital behavioral scaffold. Placing smartphones in another room or utilizing website blockers eliminates impulsive distractions during the initial vulnerable minutes of task initiation.\n\n[J] Ultimately, overcoming procrastination requires uncoupling our personal worth from task outcomes. Viewing effort not as a high-stakes verdict on our intelligence, but as an iterative process of learning, enables us to take action with calm, focused self-confidence.","sort_order":2},{"id":"011dd134-c06c-4dfd-8e87-e4cbd00f2df4","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","category_id":"cet4","section_type":"reading","title":"Passage One: Electric Vehicles and the Battery Recycling Challenge","content":"As governments across the globe establish ambitious targets to phase out internal combustion engine vehicles, the electric vehicle (EV) revolution has accelerated dramatically. Automakers are pouring hundreds of billions of dollars into electrification, promising cleaner urban air and substantial reductions in greenhouse gas emissions. Yet, behind this green transportation narrative lies a formidable supply chain hurdle: what should be done with the millions of retired lithium-ion battery packs that will exit service over the next decade?\n\nEV batteries are complex technological marvels, packed with valuable and scarce minerals such as lithium, cobalt, nickel, and manganese. Mining these materials exacts heavy environmental and social costs, including groundwater contamination, habitat disruption, and human rights concerns in extractive regions. If discarded batteries are merely deposited in landfills, they pose catastrophic fire hazards and risk leaching toxic heavy metals into adjacent aquifers.\n\nFortunately, recycling offers a potent solution, effectively closing the loop on critical materials. Advanced hydrometallurgical recycling facilities can now recover up to 95% of battery-grade metals, which can be fed directly back into new cell manufacturing. Such closed-loop systems could slash the demand for virgin mining by more than 30% by 2035.\n\nHowever, scaling the recycling industry requires overcoming serious economic and logistical hurdles. Standardizing battery pack designs, establishing transparent collection networks, and implementing clear traceability protocols will be imperative to ensure that EV batteries achieve a genuinely sustainable second life.","sort_order":3},{"id":"4aad80a8-4ba2-447a-8ebe-4e72663508ae","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","category_id":"cet4","section_type":"reading","title":"Passage Two: Digital Detox and the Reclamation of Attention","content":"In the contemporary attention economy, our concentration has become the primary commodity mined and monetized by digital tech titans. Notification pings, infinite scroll feeds, and targeted behavioral nudges are engineered by behavioral psychologists to hijack the brain's dopamine reward circuitry. The resulting phenomenon is what cognitive researchers describe as \"continuous partial attention\"—a fragmented state in which we are perpetually semi-engaged with multiple digital inputs, yet incapable of sustained, deep contemplative thought.\n\nThe collateral damage of this attentional fragmentation is profound. Studies demonstrate that it takes an average of twenty-three minutes to regain deep focus after a single digital interruption. Over time, chronic multitasking degrades our working memory capacity and exacerbates subjective feelings of time poverty, leaving people constantly fatigued yet unable to rest.\n\nIn reaction to this cognitive overload, a burgeoning movement known as the \"digital detox\" has emerged. Proponents advocate for establishing sacred, screen-free boundaries: implementing phone-free bedrooms, scheduling weekend digital sabbaticals, and deleting superfluous notification triggers.\n\nWhile a brief digital hiatus provides welcome immediate relief, long-term cognitive vitality demands structural lifestyle adaptations. Reclaiming one's attention is not about abandoning digital connectivity entirely, but about cultivating intentional agency—ensuring that technology remains an instrument that serves human aspirations rather than an algorithmic master that dictates our consciousness.","sort_order":4}],"questions":[{"id":"6e5e4e15-b7ec-4572-af15-46be1de0fcca","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (26) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"A","explanation":"【考点精析】空格(26)：根据语法结构与上下文语境搭配，此处需要填入选项 [A]，逻辑语义最为严密吻合。","points":1.5,"sort_order":1},{"id":"4bd8b0ab-bd6b-40db-8016-3dcc3f80ea2f","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (27) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"B","explanation":"【考点精析】空格(27)：根据语法结构与上下文语境搭配，此处需要填入选项 [B]，逻辑语义最为严密吻合。","points":1.5,"sort_order":2},{"id":"ae826820-a594-44e2-9be1-65007c22bcc8","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (28) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"C","explanation":"【考点精析】空格(28)：根据语法结构与上下文语境搭配，此处需要填入选项 [C]，逻辑语义最为严密吻合。","points":1.5,"sort_order":3},{"id":"aa6339aa-4140-4142-bcd0-e1efe5c601cd","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (29) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"D","explanation":"【考点精析】空格(29)：根据语法结构与上下文语境搭配，此处需要填入选项 [D]，逻辑语义最为严密吻合。","points":1.5,"sort_order":4},{"id":"3c28375d-bbb7-46c1-8657-01db36e25dac","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (30) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"E","explanation":"【考点精析】空格(30)：根据语法结构与上下文语境搭配，此处需要填入选项 [E]，逻辑语义最为严密吻合。","points":1.5,"sort_order":5},{"id":"a366a742-ca48-412e-a056-4f6b572fbb58","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (31) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"F","explanation":"【考点精析】空格(31)：根据语法结构与上下文语境搭配，此处需要填入选项 [F]，逻辑语义最为严密吻合。","points":1.5,"sort_order":6},{"id":"e115a606-6f02-4e9e-a0a0-07df33d121b6","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (32) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"G","explanation":"【考点精析】空格(32)：根据语法结构与上下文语境搭配，此处需要填入选项 [G]，逻辑语义最为严密吻合。","points":1.5,"sort_order":7},{"id":"1057a34d-9e72-487c-857e-9ae3ec48171f","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (33) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"H","explanation":"【考点精析】空格(33)：根据语法结构与上下文语境搭配，此处需要填入选项 [H]，逻辑语义最为严密吻合。","points":1.5,"sort_order":8},{"id":"5e4b4b8c-fa33-4f7d-b317-7e4bc771a09f","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (34) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"I","explanation":"【考点精析】空格(34)：根据语法结构与上下文语境搭配，此处需要填入选项 [I]，逻辑语义最为严密吻合。","points":1.5,"sort_order":9},{"id":"2523fae6-1cf8-4ecc-ae28-e3b122169e75","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"e7d045c0-67e0-406b-9754-d7ab8f425812","category_id":"cet4","q_type":"cloze_item","stem":"Choose the best word for blank (35) in the passage:","options":[{"key":"A","text":"ubiquitous"},{"key":"B","text":"integral"},{"key":"C","text":"mistake"},{"key":"D","text":"obstructed"},{"key":"E","text":"accumulate"},{"key":"F","text":"concentrate"},{"key":"G","text":"mitigate"},{"key":"H","text":"decompose"},{"key":"I","text":"capture"},{"key":"J","text":"unprecedented"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"J","explanation":"【考点精析】空格(35)：根据语法结构与上下文语境搭配，此处需要填入选项 [J]，逻辑语义最为严密吻合。","points":1.5,"sort_order":10},{"id":"397bd235-c95b-4ecd-a33c-15474bc2be2f","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(36) Present bias causes individuals to view their future selves like unfamiliar people when postponing difficult duties.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"E","explanation":"【考点精析】题目(36)：本句核心信息对应原文段落 [E]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":11},{"id":"9cab42db-7c57-4ef9-8f1a-642803c01a88","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(37) Harsh self-reproach usually fails because increasing emotional distress only strengthens avoidance habits.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"F","explanation":"【考点精析】题目(37)：本句核心信息对应原文段落 [F]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":12},{"id":"c854e2e2-3450-40ed-96a4-ac8ee606638a","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(38) Brain scans reveal a struggle between the pleasure-seeking limbic network and the long-term planning prefrontal area.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"C","explanation":"【考点精析】题目(38)：本句核心信息对应原文段落 [C]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":13},{"id":"c3805ed7-bae3-4b13-8373-aaa2b470bd69","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(39) Perfectionists often delay tasks to shield their self-esteem from the risk of imperfect performance.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"D","explanation":"【考点精析】题目(39)：本句核心信息对应原文段落 [D]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":14},{"id":"7ac8c9f2-7c6f-4c8b-b40f-f151e8f11bdc","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(40) Procrastination is fundamentally an issue of handling negative emotions rather than simply organizing hours poorly.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"A","explanation":"【考点精析】题目(40)：本句核心信息对应原文段落 [A]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":15},{"id":"05717213-f0bc-4898-9797-3d637c83b596","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(41) Breaking intimidating tasks into minuscule, effortless steps prevents the brain from triggering panic alarms.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"H","explanation":"【考点精析】题目(41)：本句核心信息对应原文段落 [H]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":16},{"id":"3870ca0f-9f1c-4f27-aace-65392757ede6","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(42) When confronted with distressing duties, the amygdala seeks quick comfort through distractions like mobile apps.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"B","explanation":"【考点精析】题目(42)：本句核心信息对应原文段落 [B]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":17},{"id":"f38bc7d7-a68f-4574-838e-e1dde56f6946","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(43) Forgiving oneself for previous delays helps students overcome task avoidance much better on future tests.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"G","explanation":"【考点精析】题目(43)：本句核心信息对应原文段落 [G]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":18},{"id":"6e79c16c-3482-458e-92d8-cb7c62213025","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(44) Removing mobile phones to another space helps prevent impulse interruptions during the first minutes of work.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"I","explanation":"【考点精析】题目(44)：本句核心信息对应原文段落 [I]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":19},{"id":"dbe91a9d-7591-4eb6-b494-adc3532b9d06","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"b74dbc79-4281-468c-91bb-70b5aef82d38","category_id":"cet4","q_type":"reading_item","stem":"(45) Separating our self-worth from performance results empowers us to tackle challenges with tranquility.","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"J","explanation":"【考点精析】题目(45)：本句核心信息对应原文段落 [J]，属于原句同义转述与考点定位匹配。","points":3.5,"sort_order":20},{"id":"6eb8987a-7bef-4219-bfaf-779734669730","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"011dd134-c06c-4dfd-8e87-e4cbd00f2df4","category_id":"cet4","q_type":"reading_item","stem":"What major challenge is accompanying the rapid expansion of electric vehicles?","options":[{"key":"A","text":"A severe shortage of electricity generation worldwide."},{"key":"B","text":"Managing and recycling massive numbers of spent batteries."},{"key":"C","text":"Public resistance to autonomous driving technology."},{"key":"D","text":"The inability of EVs to travel long distances in cold weather."}],"correct_answer":"B","explanation":"【考点点拨】事实细节题。第一段末尾提出核心设问'what should be done with the millions of retired lithium-ion battery packs'，指出废旧电池处理是巨大挑战，故选B。","points":5,"sort_order":21},{"id":"070f3575-e167-44a4-bec6-9bca93625fc4","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"011dd134-c06c-4dfd-8e87-e4cbd00f2df4","category_id":"cet4","q_type":"reading_item","stem":"What risks are associated with landfilled EV batteries according to paragraph 2?","options":[{"key":"A","text":"Immediate explosion of nearby industrial plants."},{"key":"B","text":"Fire hazards and toxic heavy metal contamination of groundwater."},{"key":"C","text":"Excessive emission of greenhouse gases into the ozone layer."},{"key":"D","text":"Accelerated deterioration of nearby power grid cables."}],"correct_answer":"B","explanation":"【考点点拨】细节理解题。第二段末句明确提到'pose catastrophic fire hazards and risk leaching toxic heavy metals into adjacent aquifers'（火灾隐患与地下水污染），故选B。","points":5,"sort_order":22},{"id":"85d8fea4-4672-42d4-92b5-5d8d49bfa9f1","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"011dd134-c06c-4dfd-8e87-e4cbd00f2df4","category_id":"cet4","q_type":"reading_item","stem":"What is a major advantage of advanced battery recycling mentioned in paragraph 3?","options":[{"key":"A","text":"It recovers up to 95% of critical metals and reduces virgin mining."},{"key":"B","text":"It completely eliminates the cost of manufacturing new EVs."},{"key":"C","text":"It doubles the battery capacity of existing vehicles."},{"key":"D","text":"It replaces lithium with abundantly available sea water."}],"correct_answer":"A","explanation":"【考点点拨】细节事实题。第三段提到'recover up to 95% of battery-grade metals... slash the demand for virgin mining by more than 30%'，故选A。","points":5,"sort_order":23},{"id":"adef7d84-b1e6-43e3-89aa-747d4a2f31d6","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"011dd134-c06c-4dfd-8e87-e4cbd00f2df4","category_id":"cet4","q_type":"reading_item","stem":"What does the author suggest to facilitate battery recycling in the final paragraph?","options":[{"key":"A","text":"Banning international transport of battery components."},{"key":"B","text":"Standardizing pack designs and establishing traceability networks."},{"key":"C","text":"Subsidizing fossil fuel extraction to stabilize raw material prices."},{"key":"D","text":"Encouraging consumers to dismantle battery packs independently."}],"correct_answer":"B","explanation":"【考点点拨】细节推断题。第四段明确提出'Standardizing battery pack designs, establishing transparent collection networks, and implementing clear traceability protocols'，故选B。","points":5,"sort_order":24},{"id":"b9b2f95e-90d8-4ae2-90c2-bcc972e988ef","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"011dd134-c06c-4dfd-8e87-e4cbd00f2df4","category_id":"cet4","q_type":"reading_item","stem":"What is the author's primary attitude toward the EV revolution?","options":[{"key":"A","text":"Unconditionally celebratory without any criticism."},{"key":"B","text":"Completely dismissive and deeply skeptical."},{"key":"C","text":"Pragmatic and mindful of supply-chain sustainability."},{"key":"D","text":"Indifferent to ecological concerns."}],"correct_answer":"C","explanation":"【考点点拨】态度倾向题。作者肯定电动车环保优势的同时，深入剖析电池回收等供应链痛点并提出务实方案，属于理性务实客观（Pragmatic），故选C。","points":5,"sort_order":25},{"id":"11b529e1-7d32-437e-8cf0-6c5ecb7e8087","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"4aad80a8-4ba2-447a-8ebe-4e72663508ae","category_id":"cet4","q_type":"reading_item","stem":"What is the primary objective of tech companies in the attention economy?","options":[{"key":"A","text":"To maximize user attention and monetize it through engagement."},{"key":"B","text":"To improve the intellectual sophistication of digital citizens."},{"key":"C","text":"To replace all physical schools with virtual education."},{"key":"D","text":"To reduce electricity consumption on handheld mobile devices."}],"correct_answer":"A","explanation":"【考点点拨】事实细节题。第一段首句即指出'our concentration has become the primary commodity mined and monetized by digital tech titans'，注意力成为被收割与变现的核心商品，故选A。","points":5,"sort_order":26},{"id":"7138399a-fc2b-45e3-b5ef-ad88bb794cf0","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"4aad80a8-4ba2-447a-8ebe-4e72663508ae","category_id":"cet4","q_type":"reading_item","stem":"What characterizes 'continuous partial attention' as described in paragraph 1?","options":[{"key":"A","text":"Deep, uninterrupted meditation on philosophical topics."},{"key":"B","text":"Being semi-engaged with multiple inputs while unable to focus deeply."},{"key":"C","text":"A heightened ability to remember historical facts rapidly."},{"key":"D","text":"Complete blindness to environmental physical hazards."}],"correct_answer":"B","explanation":"【考点点拨】词义界定题。第一段末尾明确定义为'a fragmented state in which we are perpetually semi-engaged with multiple digital inputs, yet incapable of sustained, deep contemplative thought'，故选B。","points":5,"sort_order":27},{"id":"8048ee57-78a9-4d7f-b131-56fbad17366c","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"4aad80a8-4ba2-447a-8ebe-4e72663508ae","category_id":"cet4","q_type":"reading_item","stem":"According to paragraph 2, how long does it take on average to regain deep focus after an interruption?","options":[{"key":"A","text":"Under two minutes."},{"key":"B","text":"About twenty-three minutes."},{"key":"C","text":"Over two full hours."},{"key":"D","text":"Focus cannot be regained until the next morning."}],"correct_answer":"B","explanation":"【考点点拨】事实细节题。第二段清晰指出'it takes an average of twenty-three minutes to regain deep focus after a single digital interruption'，故选B。","points":5,"sort_order":28},{"id":"17317279-fb1d-4db1-8f0c-6de80ed900e1","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"4aad80a8-4ba2-447a-8ebe-4e72663508ae","category_id":"cet4","q_type":"reading_item","stem":"What practices are recommended by proponents of the 'digital detox' movement?","options":[{"key":"A","text":"Creating screen-free zones and scheduling periodic digital breaks."},{"key":"B","text":"Replacing all smartphones with high-speed laptops."},{"key":"C","text":"Answering notifications immediately to reduce backlog."},{"key":"D","text":"Checking emails exclusively during the middle of the night."}],"correct_answer":"A","explanation":"【考点点拨】细节理解题。第三段列举了'establishing sacred, screen-free boundaries: implementing phone-free bedrooms, scheduling weekend digital sabbaticals'，故选A。","points":5,"sort_order":29},{"id":"4f812523-b9c8-419a-afa8-ff983ee7b74a","exam_id":"41a8e42e-f05e-425f-8415-ec1fee19175b","passage_id":"4aad80a8-4ba2-447a-8ebe-4e72663508ae","category_id":"cet4","q_type":"reading_item","stem":"What is the author's ultimate conclusion regarding our relationship with technology?","options":[{"key":"A","text":"Society should completely ban all personal computing devices."},{"key":"B","text":"Humans must exercise agency so technology serves us rather than rules us."},{"key":"C","text":"Resistance to algorithmic domination is ultimately futile."},{"key":"D","text":"Attention fragmentation has no significant impact on health."}],"correct_answer":"B","explanation":"【考点点拨】主旨升华题。最后一段总结指出'ensuring that technology remains an instrument that serves human aspirations rather than an algorithmic master'，重申发挥自主性让技术服务人类，故选B。","points":5,"sort_order":30}],"exportedAt":"2026-09-21T02:04:13.954Z"}
+{
+  "exam": {
+    "id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+    "category_id": "cet4",
+    "title": "2022年6月 CET-4 真题 (第1套)",
+    "year": 2022,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-20T13:28:41.262349+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "category_id": "cet4",
+      "section_type": "cloze",
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "content": "In recent decades, plastic pollution has escalated from a visible litter nuisance into an invisible ecological crisis. Synthetic polymer fragments measuring less than five millimeters, known as microplastics, are now (26)____ across every marine ecosystem on Earth. From arctic sea ice to the abyssal trenches of the Pacific, microplastic particles have become (27)____ components of sediment layers.\n\nMarine biologists observe that microscopic organisms at the foundation of the marine food chain frequently (28)____ microplastics for organic plankton. When zooplankton and small fish ingest synthetic beads, their digestive tracts become physically (29)____, causing chronic malnutrition and diminished reproductive capacity. As these small organisms are consumed by larger predators, toxic chemical additives (30)____ up the trophic ladder.\n\nFurthermore, plastic particles act as chemical sponges, absorbing hydrophobic environmental contaminants such as industrial pesticides. When apex predators ingest contaminated fish, these concentrated toxins (31)____ inside fatty tissues, threatening marine mammal fertility. To (32)____ this planetary contamination, international treaties are placing strict restrictions on virgin polymer manufacturing.\n\nInnovative chemical enterprises are developing bio-based plastics designed to (33)____ into benign organic matter within months of marine exposure. Meanwhile, municipal wastewater treatment utilities are installing advanced nanofiltration barriers to (34)____ synthetic clothing fibers before sewage is discharged into coastal waters. Achieving plastic-free oceans will require (35)____ cooperation across global packaging manufacturers, retail brands, and conscientious consumers.",
+      "sort_order": 1
+    },
+    {
+      "id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "category_id": "cet4",
+      "section_type": "reading",
+      "title": "Section B: Long Reading & Information Matching (长篇段落信息匹配 36-45题)",
+      "content": "[A] For generations, chronic procrastination was dismissed as a moral defect—a simple failure of willpower, lazy time management, or poor personal character. Modern cognitive psychologists, however, have overturned this assumption, identifying procrastination as an emotional regulation problem rather than a temporal scheduling deficit.\n\n[B] When individuals face tasks perceived as boring, intimidating, ambiguous, or threatening to self-esteem, the brain's emotional epicenter—the amygdala—triggers an immediate threat response. Confronted with unpleasant feelings, the mind seeks urgent emotional relief, impulsively redirecting attention toward short-term mood boosters such as social media scrolling.\n\n[C] Neuro-imaging studies demonstrate that procrastination reflects a fierce civil war within the human brain. The limbic system, an ancient neural structure wired to pursue immediate gratification and flee discomfort, constantly overpowers the prefrontal cortex, the logical center responsible for long-range planning and goal execution.\n\n[D] Perfectionism represents one of the most potent cognitive drivers of chronic delay. Perfectionists operate under an unyielding all-or-nothing mindset: if a report or artistic project cannot be completed flawlessly, undertaking it feels catastrophic. By postponing action, perfectionists protect their vulnerable self-worth from potential criticism.\n\n[E] Furthermore, human beings suffer from what behavioral economists term 'present bias'—a cognitive tendency to treat our future selves as distant, unrelated strangers. When assigning burdensome chores to 'future me next weekend', the present brain feels zero immediate stress, blithely ignoring the compounding panic that will ensue.\n\n[F] Traditional anti-procrastination strategies that rely on harsh self-criticism and military discipline almost universally backfire. Berating oneself for wasting time only amplifies negative emotions, reinforcing the very distress that prompted avoidance behavior in the first place.\n\n[G] In contrast, empirical research proves that practicing self-compassion is remarkably effective at dissolving task avoidance. Students who forgive themselves for earlier procrastination show significantly lower avoidance tendencies on subsequent academic exams.\n\n[H] Behavioral therapists advocate for 'micro-stepping'—breaking daunting assignments down into ridiculously small, non-threatening starting actions. Writing one single sentence or opening a textbook for two minutes creates low-friction momentum, allowing the prefrontal cortex to regain control without triggering an amygdala panic response.\n\n[I] Creating friction around digital temptations provides another vital behavioral scaffold. Placing smartphones in another room or utilizing website blockers eliminates impulsive distractions during the initial vulnerable minutes of task initiation.\n\n[J] Ultimately, overcoming procrastination requires uncoupling our personal worth from task outcomes. Viewing effort not as a high-stakes verdict on our intelligence, but as an iterative process of learning, enables us to take action with calm, focused self-confidence.",
+      "sort_order": 2
+    },
+    {
+      "id": "011dd134-c06c-4dfd-8e87-e4cbd00f2df4",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "category_id": "cet4",
+      "section_type": "reading",
+      "title": "Passage One: Electric Vehicles and the Battery Recycling Challenge",
+      "content": "As governments across the globe establish ambitious targets to phase out internal combustion engine vehicles, the electric vehicle (EV) revolution has accelerated dramatically. Automakers are pouring hundreds of billions of dollars into electrification, promising cleaner urban air and substantial reductions in greenhouse gas emissions. Yet, behind this green transportation narrative lies a formidable supply chain hurdle: what should be done with the millions of retired lithium-ion battery packs that will exit service over the next decade?\n\nEV batteries are complex technological marvels, packed with valuable and scarce minerals such as lithium, cobalt, nickel, and manganese. Mining these materials exacts heavy environmental and social costs, including groundwater contamination, habitat disruption, and human rights concerns in extractive regions. If discarded batteries are merely deposited in landfills, they pose catastrophic fire hazards and risk leaching toxic heavy metals into adjacent aquifers.\n\nFortunately, recycling offers a potent solution, effectively closing the loop on critical materials. Advanced hydrometallurgical recycling facilities can now recover up to 95% of battery-grade metals, which can be fed directly back into new cell manufacturing. Such closed-loop systems could slash the demand for virgin mining by more than 30% by 2035.\n\nHowever, scaling the recycling industry requires overcoming serious economic and logistical hurdles. Standardizing battery pack designs, establishing transparent collection networks, and implementing clear traceability protocols will be imperative to ensure that EV batteries achieve a genuinely sustainable second life.",
+      "sort_order": 3
+    },
+    {
+      "id": "4aad80a8-4ba2-447a-8ebe-4e72663508ae",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "category_id": "cet4",
+      "section_type": "reading",
+      "title": "Passage Two: Digital Detox and the Reclamation of Attention",
+      "content": "In the contemporary attention economy, our concentration has become the primary commodity mined and monetized by digital tech titans. Notification pings, infinite scroll feeds, and targeted behavioral nudges are engineered by behavioral psychologists to hijack the brain's dopamine reward circuitry. The resulting phenomenon is what cognitive researchers describe as \"continuous partial attention\"—a fragmented state in which we are perpetually semi-engaged with multiple digital inputs, yet incapable of sustained, deep contemplative thought.\n\nThe collateral damage of this attentional fragmentation is profound. Studies demonstrate that it takes an average of twenty-three minutes to regain deep focus after a single digital interruption. Over time, chronic multitasking degrades our working memory capacity and exacerbates subjective feelings of time poverty, leaving people constantly fatigued yet unable to rest.\n\nIn reaction to this cognitive overload, a burgeoning movement known as the \"digital detox\" has emerged. Proponents advocate for establishing sacred, screen-free boundaries: implementing phone-free bedrooms, scheduling weekend digital sabbaticals, and deleting superfluous notification triggers.\n\nWhile a brief digital hiatus provides welcome immediate relief, long-term cognitive vitality demands structural lifestyle adaptations. Reclaiming one's attention is not about abandoning digital connectivity entirely, but about cultivating intentional agency—ensuring that technology remains an instrument that serves human aspirations rather than an algorithmic master that dictates our consciousness.",
+      "sort_order": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "6e5e4e15-b7ec-4572-af15-46be1de0fcca",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (26) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】空格(26)：根据语法结构与上下文语境搭配，此处需要填入选项 [A]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 1
+    },
+    {
+      "id": "4bd8b0ab-bd6b-40db-8016-3dcc3f80ea2f",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (27) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】空格(27)：根据语法结构与上下文语境搭配，此处需要填入选项 [B]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 2
+    },
+    {
+      "id": "ae826820-a594-44e2-9be1-65007c22bcc8",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (28) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】空格(28)：根据语法结构与上下文语境搭配，此处需要填入选项 [C]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 3
+    },
+    {
+      "id": "aa6339aa-4140-4142-bcd0-e1efe5c601cd",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (29) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】空格(29)：根据语法结构与上下文语境搭配，此处需要填入选项 [D]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 4
+    },
+    {
+      "id": "3c28375d-bbb7-46c1-8657-01db36e25dac",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (30) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】空格(30)：根据语法结构与上下文语境搭配，此处需要填入选项 [E]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 5
+    },
+    {
+      "id": "a366a742-ca48-412e-a056-4f6b572fbb58",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (31) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】空格(31)：根据语法结构与上下文语境搭配，此处需要填入选项 [F]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 6
+    },
+    {
+      "id": "e115a606-6f02-4e9e-a0a0-07df33d121b6",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (32) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "【考点精析】空格(32)：根据语法结构与上下文语境搭配，此处需要填入选项 [G]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 7
+    },
+    {
+      "id": "1057a34d-9e72-487c-857e-9ae3ec48171f",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (33) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "H",
+      "explanation": "【考点精析】空格(33)：根据语法结构与上下文语境搭配，此处需要填入选项 [H]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 8
+    },
+    {
+      "id": "5e4b4b8c-fa33-4f7d-b317-7e4bc771a09f",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (34) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "I",
+      "explanation": "【考点精析】空格(34)：根据语法结构与上下文语境搭配，此处需要填入选项 [I]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 9
+    },
+    {
+      "id": "2523fae6-1cf8-4ecc-ae28-e3b122169e75",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "e7d045c0-67e0-406b-9754-d7ab8f425812",
+      "category_id": "cet4",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (35) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ubiquitous"
+        },
+        {
+          "key": "B",
+          "text": "integral"
+        },
+        {
+          "key": "C",
+          "text": "mistake"
+        },
+        {
+          "key": "D",
+          "text": "obstructed"
+        },
+        {
+          "key": "E",
+          "text": "accumulate"
+        },
+        {
+          "key": "F",
+          "text": "concentrate"
+        },
+        {
+          "key": "G",
+          "text": "mitigate"
+        },
+        {
+          "key": "H",
+          "text": "decompose"
+        },
+        {
+          "key": "I",
+          "text": "capture"
+        },
+        {
+          "key": "J",
+          "text": "unprecedented"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "J",
+      "explanation": "【考点精析】空格(35)：根据语法结构与上下文语境搭配，此处需要填入选项 [J]，逻辑语义最为严密吻合。",
+      "points": 1.5,
+      "sort_order": 10
+    },
+    {
+      "id": "397bd235-c95b-4ecd-a33c-15474bc2be2f",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(36) Present bias causes individuals to view their future selves like unfamiliar people when postponing difficult duties.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】题目(36)：本句核心信息对应原文段落 [E]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 11
+    },
+    {
+      "id": "9cab42db-7c57-4ef9-8f1a-642803c01a88",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(37) Harsh self-reproach usually fails because increasing emotional distress only strengthens avoidance habits.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】题目(37)：本句核心信息对应原文段落 [F]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 12
+    },
+    {
+      "id": "c854e2e2-3450-40ed-96a4-ac8ee606638a",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(38) Brain scans reveal a struggle between the pleasure-seeking limbic network and the long-term planning prefrontal area.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】题目(38)：本句核心信息对应原文段落 [C]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 13
+    },
+    {
+      "id": "c3805ed7-bae3-4b13-8373-aaa2b470bd69",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(39) Perfectionists often delay tasks to shield their self-esteem from the risk of imperfect performance.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】题目(39)：本句核心信息对应原文段落 [D]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 14
+    },
+    {
+      "id": "7ac8c9f2-7c6f-4c8b-b40f-f151e8f11bdc",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(40) Procrastination is fundamentally an issue of handling negative emotions rather than simply organizing hours poorly.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】题目(40)：本句核心信息对应原文段落 [A]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 15
+    },
+    {
+      "id": "05717213-f0bc-4898-9797-3d637c83b596",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(41) Breaking intimidating tasks into minuscule, effortless steps prevents the brain from triggering panic alarms.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "H",
+      "explanation": "【考点精析】题目(41)：本句核心信息对应原文段落 [H]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 16
+    },
+    {
+      "id": "3870ca0f-9f1c-4f27-aace-65392757ede6",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(42) When confronted with distressing duties, the amygdala seeks quick comfort through distractions like mobile apps.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】题目(42)：本句核心信息对应原文段落 [B]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 17
+    },
+    {
+      "id": "f38bc7d7-a68f-4574-838e-e1dde56f6946",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(43) Forgiving oneself for previous delays helps students overcome task avoidance much better on future tests.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "【考点精析】题目(43)：本句核心信息对应原文段落 [G]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 18
+    },
+    {
+      "id": "6e79c16c-3482-458e-92d8-cb7c62213025",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(44) Removing mobile phones to another space helps prevent impulse interruptions during the first minutes of work.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "I",
+      "explanation": "【考点精析】题目(44)：本句核心信息对应原文段落 [I]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 19
+    },
+    {
+      "id": "dbe91a9d-7591-4eb6-b494-adc3532b9d06",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "b74dbc79-4281-468c-91bb-70b5aef82d38",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "(45) Separating our self-worth from performance results empowers us to tackle challenges with tranquility.",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "J",
+      "explanation": "【考点精析】题目(45)：本句核心信息对应原文段落 [J]，属于原句同义转述与考点定位匹配。",
+      "points": 3.5,
+      "sort_order": 20
+    },
+    {
+      "id": "6eb8987a-7bef-4219-bfaf-779734669730",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "011dd134-c06c-4dfd-8e87-e4cbd00f2df4",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What major challenge is accompanying the rapid expansion of electric vehicles?",
+      "options": [
+        {
+          "key": "A",
+          "text": "A severe shortage of electricity generation worldwide."
+        },
+        {
+          "key": "B",
+          "text": "Managing and recycling massive numbers of spent batteries."
+        },
+        {
+          "key": "C",
+          "text": "Public resistance to autonomous driving technology."
+        },
+        {
+          "key": "D",
+          "text": "The inability of EVs to travel long distances in cold weather."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】事实细节题。第一段末尾提出核心设问'what should be done with the millions of retired lithium-ion battery packs'，指出废旧电池处理是巨大挑战，故选B。",
+      "points": 5,
+      "sort_order": 21
+    },
+    {
+      "id": "070f3575-e167-44a4-bec6-9bca93625fc4",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "011dd134-c06c-4dfd-8e87-e4cbd00f2df4",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What risks are associated with landfilled EV batteries according to paragraph 2?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Immediate explosion of nearby industrial plants."
+        },
+        {
+          "key": "B",
+          "text": "Fire hazards and toxic heavy metal contamination of groundwater."
+        },
+        {
+          "key": "C",
+          "text": "Excessive emission of greenhouse gases into the ozone layer."
+        },
+        {
+          "key": "D",
+          "text": "Accelerated deterioration of nearby power grid cables."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】细节理解题。第二段末句明确提到'pose catastrophic fire hazards and risk leaching toxic heavy metals into adjacent aquifers'（火灾隐患与地下水污染），故选B。",
+      "points": 5,
+      "sort_order": 22
+    },
+    {
+      "id": "85d8fea4-4672-42d4-92b5-5d8d49bfa9f1",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "011dd134-c06c-4dfd-8e87-e4cbd00f2df4",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What is a major advantage of advanced battery recycling mentioned in paragraph 3?",
+      "options": [
+        {
+          "key": "A",
+          "text": "It recovers up to 95% of critical metals and reduces virgin mining."
+        },
+        {
+          "key": "B",
+          "text": "It completely eliminates the cost of manufacturing new EVs."
+        },
+        {
+          "key": "C",
+          "text": "It doubles the battery capacity of existing vehicles."
+        },
+        {
+          "key": "D",
+          "text": "It replaces lithium with abundantly available sea water."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】细节事实题。第三段提到'recover up to 95% of battery-grade metals... slash the demand for virgin mining by more than 30%'，故选A。",
+      "points": 5,
+      "sort_order": 23
+    },
+    {
+      "id": "adef7d84-b1e6-43e3-89aa-747d4a2f31d6",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "011dd134-c06c-4dfd-8e87-e4cbd00f2df4",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What does the author suggest to facilitate battery recycling in the final paragraph?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Banning international transport of battery components."
+        },
+        {
+          "key": "B",
+          "text": "Standardizing pack designs and establishing traceability networks."
+        },
+        {
+          "key": "C",
+          "text": "Subsidizing fossil fuel extraction to stabilize raw material prices."
+        },
+        {
+          "key": "D",
+          "text": "Encouraging consumers to dismantle battery packs independently."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】细节推断题。第四段明确提出'Standardizing battery pack designs, establishing transparent collection networks, and implementing clear traceability protocols'，故选B。",
+      "points": 5,
+      "sort_order": 24
+    },
+    {
+      "id": "b9b2f95e-90d8-4ae2-90c2-bcc972e988ef",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "011dd134-c06c-4dfd-8e87-e4cbd00f2df4",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What is the author's primary attitude toward the EV revolution?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Unconditionally celebratory without any criticism."
+        },
+        {
+          "key": "B",
+          "text": "Completely dismissive and deeply skeptical."
+        },
+        {
+          "key": "C",
+          "text": "Pragmatic and mindful of supply-chain sustainability."
+        },
+        {
+          "key": "D",
+          "text": "Indifferent to ecological concerns."
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点点拨】态度倾向题。作者肯定电动车环保优势的同时，深入剖析电池回收等供应链痛点并提出务实方案，属于理性务实客观（Pragmatic），故选C。",
+      "points": 5,
+      "sort_order": 25
+    },
+    {
+      "id": "11b529e1-7d32-437e-8cf0-6c5ecb7e8087",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "4aad80a8-4ba2-447a-8ebe-4e72663508ae",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What is the primary objective of tech companies in the attention economy?",
+      "options": [
+        {
+          "key": "A",
+          "text": "To maximize user attention and monetize it through engagement."
+        },
+        {
+          "key": "B",
+          "text": "To improve the intellectual sophistication of digital citizens."
+        },
+        {
+          "key": "C",
+          "text": "To replace all physical schools with virtual education."
+        },
+        {
+          "key": "D",
+          "text": "To reduce electricity consumption on handheld mobile devices."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】事实细节题。第一段首句即指出'our concentration has become the primary commodity mined and monetized by digital tech titans'，注意力成为被收割与变现的核心商品，故选A。",
+      "points": 5,
+      "sort_order": 26
+    },
+    {
+      "id": "7138399a-fc2b-45e3-b5ef-ad88bb794cf0",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "4aad80a8-4ba2-447a-8ebe-4e72663508ae",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What characterizes 'continuous partial attention' as described in paragraph 1?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Deep, uninterrupted meditation on philosophical topics."
+        },
+        {
+          "key": "B",
+          "text": "Being semi-engaged with multiple inputs while unable to focus deeply."
+        },
+        {
+          "key": "C",
+          "text": "A heightened ability to remember historical facts rapidly."
+        },
+        {
+          "key": "D",
+          "text": "Complete blindness to environmental physical hazards."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】词义界定题。第一段末尾明确定义为'a fragmented state in which we are perpetually semi-engaged with multiple digital inputs, yet incapable of sustained, deep contemplative thought'，故选B。",
+      "points": 5,
+      "sort_order": 27
+    },
+    {
+      "id": "8048ee57-78a9-4d7f-b131-56fbad17366c",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "4aad80a8-4ba2-447a-8ebe-4e72663508ae",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "According to paragraph 2, how long does it take on average to regain deep focus after an interruption?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Under two minutes."
+        },
+        {
+          "key": "B",
+          "text": "About twenty-three minutes."
+        },
+        {
+          "key": "C",
+          "text": "Over two full hours."
+        },
+        {
+          "key": "D",
+          "text": "Focus cannot be regained until the next morning."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】事实细节题。第二段清晰指出'it takes an average of twenty-three minutes to regain deep focus after a single digital interruption'，故选B。",
+      "points": 5,
+      "sort_order": 28
+    },
+    {
+      "id": "17317279-fb1d-4db1-8f0c-6de80ed900e1",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "4aad80a8-4ba2-447a-8ebe-4e72663508ae",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What practices are recommended by proponents of the 'digital detox' movement?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Creating screen-free zones and scheduling periodic digital breaks."
+        },
+        {
+          "key": "B",
+          "text": "Replacing all smartphones with high-speed laptops."
+        },
+        {
+          "key": "C",
+          "text": "Answering notifications immediately to reduce backlog."
+        },
+        {
+          "key": "D",
+          "text": "Checking emails exclusively during the middle of the night."
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点点拨】细节理解题。第三段列举了'establishing sacred, screen-free boundaries: implementing phone-free bedrooms, scheduling weekend digital sabbaticals'，故选A。",
+      "points": 5,
+      "sort_order": 29
+    },
+    {
+      "id": "4f812523-b9c8-419a-afa8-ff983ee7b74a",
+      "exam_id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
+      "passage_id": "4aad80a8-4ba2-447a-8ebe-4e72663508ae",
+      "category_id": "cet4",
+      "q_type": "reading_item",
+      "stem": "What is the author's ultimate conclusion regarding our relationship with technology?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Society should completely ban all personal computing devices."
+        },
+        {
+          "key": "B",
+          "text": "Humans must exercise agency so technology serves us rather than rules us."
+        },
+        {
+          "key": "C",
+          "text": "Resistance to algorithmic domination is ultimately futile."
+        },
+        {
+          "key": "D",
+          "text": "Attention fragmentation has no significant impact on health."
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点点拨】主旨升华题。最后一段总结指出'ensuring that technology remains an instrument that serves human aspirations rather than an algorithmic master'，重申发挥自主性让技术服务人类，故选B。",
+      "points": 5,
+      "sort_order": 30
+    }
+  ],
+  "exportedAt": "2026-09-21T02:04:13.954Z"
+}

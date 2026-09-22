@@ -7,8 +7,16 @@ export interface ExamDetailData {
   fromStaticMirror?: boolean;
 }
 
-const CACHE_NAME = "enway-static-v1";
+const CACHE_NAME = "enway-static-v2";
+const LEGACY_CACHE_NAMES = ["enway-static-v1"];
 const hasCacheStorage = typeof window !== "undefined" && "caches" in window;
+
+// Purge legacy caches on client load
+if (hasCacheStorage) {
+  LEGACY_CACHE_NAMES.forEach((oldName) => {
+    caches.delete(oldName).catch(() => {});
+  });
+}
 
 // In-memory session cache for loaded exam packages (Tier 1: 0ms)
 const examDetailMemoryCache: Record<string, ExamDetailData> = {};

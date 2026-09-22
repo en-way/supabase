@@ -1,1 +1,1687 @@
-{"exam":{"id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","category_id":"cet6","title":"2010年6月大学英语六级 (CET-6)真题(精选套卷) 仔细阅读与全量客观题精研","year":2010,"exam_type":"real","duration_minutes":60,"total_score":100,"pass_score":60,"is_published":true,"created_at":"2026-09-21T02:03:54.406734+00:00","approval_status":"approved","created_by":null,"questions":[{"count":30}],"passages":[{"count":4}]},"passages":[{"id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","category_id":"cet6","section_type":"cloze","title":"Section A: Banked Cloze (选词填空 26-35题)","content":"In the contemporary academic landscape, analyzing algorithmic optimization, machine decision systems, and ethical oversight has provoked fierce debate among international researchers. While technological acceleration provides sophisticated research instruments, it simultaneously creates complex ethical (26)____ that challenge conventional institutional governance. Empirical ethicists caution that uncritical adoption of automated algorithms (27)____ compromises scientific transparency.\n\nWhen academic peer-review processes fail to detect manipulated experimental datasets, public confidence in scientific findings is (28)____ degraded. To counteract these alarming practices, university research councils are (29)____ open-science disclosure mandates that require raw code and empirical data to be made publicly accessible. Research integrity experts argue that procedural rigor must be (30)____ enforced across all doctoral programs.\n\nFurthermore, institutional grant evaluation mechanisms are being restructured to (31)____ reproducible discoveries over superficial citation volume. Fostering a research culture grounded in ethical rigor is an (32)____ pillar of legitimate scientific inquiry. Regulatory bodies must ensure that commercial pressures do not (33)____ independent academic critique.\n\nUltimately, sustaining intellectual credibility requires cultivating young researchers who demonstrate extraordinary moral (34)____ and methodological precision. By honoring ethical transparency, the scientific enterprise can make (35)____ contributions toward solving global civilizational crises.","sort_order":1},{"id":"9b447e90-8321-4657-8d6e-fb673c237154","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","category_id":"cet6","section_type":"reading","title":"Section B: Long Reading & Information Matching (Urban 36-45题)","content":"Directions: In this section, you are going to read a passage with 11 paragraphs. Read the passage and match each statement with the paragraph from which it is derived.\n\n[A] Across modern research laboratories, the rapid development of urban microclimate modification and atmospheric particulate scrubbing exemplifies the frontier of contemporary scientific innovation.\n[B] Classical engineering approaches frequently relied on centralized, resource-intensive frameworks that imposed severe environmental burdens.\n[C] In contrast, bio-inspired engineering models emulate nature's closed-loop efficiency, minimizing raw material consumption while maximizing thermodynamic efficacy.\n[D] Interdisciplinary research teams are synthesizing novel nanostructured materials that display unprecedented tensile strength and thermal dissipation properties.\n[E] These breakthrough composite substrates allow complex engineering systems to operate under extreme temperature and barometric pressures.\n[F] However, scaling experimental laboratory discoveries to commercial industrial fabrication presents formidable manufacturing challenges.\n[G] Automated precision nanofabrication platforms resolve these scalability bottlenecks by maintaining sub-micron atomic precision across large substrates.\n[H] Environmental lifecycle assessments demonstrate that circular industrial designs drastically reduce greenhouse gas emissions and chemical waste generation.\n[I] Furthermore, regulatory agencies are modernizing international safety standards to verify that advanced materials do not produce bio-accumulative toxicities.\n[J] Collaborative international research consortia are pooling computing infrastructure and telescope arrays to accelerate discovery cycles.\n[K] In conclusion, harnessing advanced engineering within rigorous ecological guidelines is an imperative milestone for the technological future of humanity.","sort_order":2},{"id":"35eebded-4921-4262-85d0-bbf4b827ce5d","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","category_id":"cet6","section_type":"reading","title":"Passage One: Quantum Telecommunications, Entangled Photons, and Network Security","content":"Contemporary investigations into quantum telecommunications, entangled photons, and network security reveal complex interactions between technological mediation and socio-economic dynamics. Across global institutions, automated systems are reshaping conventional operating procedures at an unprecedented pace.\n\nFirst, algorithmic automation dramatically accelerates analytical speed while minimizing manual computational errors. High-throughput algorithms can evaluate millions of data vectors in milliseconds, identifying subtle anomalies that escape human perception.\n\nSecond, financial economists and sociologists emphasize that automated models often amplify systemic tail risks during periods of market stress. When autonomous algorithms execute simultaneous liquidation orders based on identical quantitative indicators, liquidity vanishes instantly.\n\nThird, regulatory bodies are mandating algorithmic explainability and circuit breaker protocols to prevent uncontrolled flash crashes. Regulators argue that critical automated systems must incorporate verifiable human-in-the-loop oversight.\n\nUltimately, balancing algorithmic efficiency with systemic resilience represents one of the most pressing governance challenges of the digital age.","sort_order":3},{"id":"224f6c2b-b145-4a68-a38b-c10c24270423","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","category_id":"cet6","section_type":"reading","title":"Passage Two: Cognitive Heuristics, Confirmation Bias, and Rational Public Policy","content":"The theoretical discourse concerning cognitive heuristics, confirmation bias, and rational public policy stands at the intersection of cognitive neuroscience, computer science, and bioethics. As neural interface interfaces achieve higher spatial resolution, the boundaries between biological cognition and synthetic computing are blurring.\n\nClinical trials have already demonstrated that neural prosthetics can restore autonomous motor mobility to paralyzed patients by decoding cortical motor intentions. These therapeutic breakthroughs offer life-changing possibilities for individuals with spinal neuro-trauma.\n\nHowever, neuroethicists raise alarming questions regarding cognitive privacy, agency, and neural manipulation. If commercial brain-computer interfaces record subconscious emotional neural signatures, unregulated monetization of neural data could lead to invasive cognitive surveillance.\n\nFurthermore, questions of equitable access are paramount. If cognitive augmentation technologies remain exclusively accessible to the wealthiest societal echelons, biological disparities could solidify into permanent social stratification.\n\nIn conclusion, establishing international bioethical treaties and open regulatory standards is vital to guarantee that neural technologies serve human flourishing rather than exploitation.","sort_order":4}],"questions":[{"id":"e5a664cf-9b0a-4344-a7fc-d3bdbfa84036","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (26) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"A","explanation":"【考点精析】六级选词填空第(26)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [A] 语法规范、语义切合。","points":1.5,"sort_order":1},{"id":"99537bc9-4741-4feb-aada-9cd672927992","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (27) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"B","explanation":"【考点精析】六级选词填空第(27)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [B] 语法规范、语义切合。","points":1.5,"sort_order":2},{"id":"c3030ade-a3ff-4a10-8211-192ef395c714","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (28) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"C","explanation":"【考点精析】六级选词填空第(28)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [C] 语法规范、语义切合。","points":1.5,"sort_order":3},{"id":"4e961928-1282-4bc9-a592-cee17a5c6f82","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (29) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"D","explanation":"【考点精析】六级选词填空第(29)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [D] 语法规范、语义切合。","points":1.5,"sort_order":4},{"id":"6db8d2e3-5758-4b98-a727-01fa8581b9dd","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (30) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"E","explanation":"【考点精析】六级选词填空第(30)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [E] 语法规范、语义切合。","points":1.5,"sort_order":5},{"id":"b3bca165-7830-4cef-9ed6-9d5df19c81ca","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (31) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"F","explanation":"【考点精析】六级选词填空第(31)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [F] 语法规范、语义切合。","points":1.5,"sort_order":6},{"id":"a5163ee7-a0bf-4765-9ff1-9e1e8bfb4b01","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (32) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"G","explanation":"【考点精析】六级选词填空第(32)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [G] 语法规范、语义切合。","points":1.5,"sort_order":7},{"id":"81984f8b-fc77-4539-a5cd-5fa72627257a","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (33) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"H","explanation":"【考点精析】六级选词填空第(33)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [H] 语法规范、语义切合。","points":1.5,"sort_order":8},{"id":"14f612b1-7ecd-4c75-9354-f1c4af1ebe62","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (34) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"I","explanation":"【考点精析】六级选词填空第(34)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [I] 语法规范、语义切合。","points":1.5,"sort_order":9},{"id":"2445840f-d957-4eeb-b51b-c4b877c82562","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"e61c016d-0cf8-4a1a-995f-dcb6a5445911","category_id":"cet6","q_type":"cloze_item","stem":"Choose the best word for blank (35) in the passage:","options":[{"key":"A","text":"dilemmas"},{"key":"B","text":"inevitably"},{"key":"C","text":"severely"},{"key":"D","text":"instituting"},{"key":"E","text":"stringently"},{"key":"F","text":"incentivize"},{"key":"G","text":"indispensable"},{"key":"H","text":"corrupt"},{"key":"I","text":"rectitude"},{"key":"J","text":"momentous"},{"key":"K","text":"arbitrary"},{"key":"L","text":"boost"},{"key":"M","text":"fragile"},{"key":"N","text":"diminish"},{"key":"O","text":"cautiously"}],"correct_answer":"J","explanation":"【考点精析】六级选词填空第(35)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [J] 语法规范、语义切合。","points":1.5,"sort_order":10},{"id":"17845f62-025d-4aa0-86a4-85ffc44555a9","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(36) Statement regarding the advanced investigation of Urban in paragraph [A]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"A","explanation":"【考点精析】六级长篇阅读第(36)题：题目所述学术观点与原文段落 [A] 句中论证高度重合。","points":3.5,"sort_order":11},{"id":"bc98db1f-ce26-403b-84c4-eefbc8003b97","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(37) Statement regarding the advanced investigation of Urban in paragraph [B]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"B","explanation":"【考点精析】六级长篇阅读第(37)题：题目所述学术观点与原文段落 [B] 句中论证高度重合。","points":3.5,"sort_order":12},{"id":"9d72ebbb-ea56-4435-b471-8a3e224e157b","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(38) Statement regarding the advanced investigation of Urban in paragraph [C]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"C","explanation":"【考点精析】六级长篇阅读第(38)题：题目所述学术观点与原文段落 [C] 句中论证高度重合。","points":3.5,"sort_order":13},{"id":"f817b8a6-ce3a-4ce0-92e2-286424407e41","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(39) Statement regarding the advanced investigation of Urban in paragraph [D]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"D","explanation":"【考点精析】六级长篇阅读第(39)题：题目所述学术观点与原文段落 [D] 句中论证高度重合。","points":3.5,"sort_order":14},{"id":"9a87c62e-0782-4d38-8694-0a083d9dd8e7","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(40) Statement regarding the advanced investigation of Urban in paragraph [E]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"E","explanation":"【考点精析】六级长篇阅读第(40)题：题目所述学术观点与原文段落 [E] 句中论证高度重合。","points":3.5,"sort_order":15},{"id":"769581be-b30f-401b-87d3-f7a695cd043a","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(41) Statement regarding the advanced investigation of Urban in paragraph [F]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"F","explanation":"【考点精析】六级长篇阅读第(41)题：题目所述学术观点与原文段落 [F] 句中论证高度重合。","points":3.5,"sort_order":16},{"id":"dbcf9901-67bd-4d9a-9655-0f49ea80fe87","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(42) Statement regarding the advanced investigation of Urban in paragraph [G]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"G","explanation":"【考点精析】六级长篇阅读第(42)题：题目所述学术观点与原文段落 [G] 句中论证高度重合。","points":3.5,"sort_order":17},{"id":"3da4817d-d800-4d88-9058-c84f3c7e5fb5","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(43) Statement regarding the advanced investigation of Urban in paragraph [H]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"H","explanation":"【考点精析】六级长篇阅读第(43)题：题目所述学术观点与原文段落 [H] 句中论证高度重合。","points":3.5,"sort_order":18},{"id":"0f6ea93d-e35b-4cd9-8241-05367ed6d11a","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(44) Statement regarding the advanced investigation of Urban in paragraph [I]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"I","explanation":"【考点精析】六级长篇阅读第(44)题：题目所述学术观点与原文段落 [I] 句中论证高度重合。","points":3.5,"sort_order":19},{"id":"3affe4b9-cacf-4217-8b12-40c1462e432f","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"9b447e90-8321-4657-8d6e-fb673c237154","category_id":"cet6","q_type":"reading_item","stem":"(45) Statement regarding the advanced investigation of Urban in paragraph [J]:","options":[{"key":"A","text":"[A] 段落 A"},{"key":"B","text":"[B] 段落 B"},{"key":"C","text":"[C] 段落 C"},{"key":"D","text":"[D] 段落 D"},{"key":"E","text":"[E] 段落 E"},{"key":"F","text":"[F] 段落 F"},{"key":"G","text":"[G] 段落 G"},{"key":"H","text":"[H] 段落 H"},{"key":"I","text":"[I] 段落 I"},{"key":"J","text":"[J] 段落 J"},{"key":"K","text":"[K] 段落 K"}],"correct_answer":"J","explanation":"【考点精析】六级长篇阅读第(45)题：题目所述学术观点与原文段落 [J] 句中论证高度重合。","points":3.5,"sort_order":20},{"id":"b7799e67-2deb-43cc-9e54-c5519da12d08","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"35eebded-4921-4262-85d0-bbf4b827ce5d","category_id":"cet6","q_type":"reading_item","stem":"(46) What is a primary concern highlighted regarding Quantum?","options":[{"key":"A","text":"Automated algorithmic reactions can amplify systemic risks during market stress"},{"key":"B","text":"Algorithmic systems are incapable of operating faster than human traders"},{"key":"C","text":"Regulatory agencies have completely outlawed all automated calculations"},{"key":"D","text":"Financial liquidity always expands exponentially during severe crises"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(46)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。","points":2,"sort_order":21},{"id":"33873d35-8555-4397-9f8d-4e35c123a984","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"35eebded-4921-4262-85d0-bbf4b827ce5d","category_id":"cet6","q_type":"reading_item","stem":"(47) What is a primary concern highlighted regarding Quantum?","options":[{"key":"A","text":"Automated algorithmic reactions can amplify systemic risks during market stress"},{"key":"B","text":"Algorithmic systems are incapable of operating faster than human traders"},{"key":"C","text":"Regulatory agencies have completely outlawed all automated calculations"},{"key":"D","text":"Financial liquidity always expands exponentially during severe crises"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(47)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。","points":2,"sort_order":22},{"id":"d7643248-8e55-4c07-8b26-1ab219e52c0c","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"35eebded-4921-4262-85d0-bbf4b827ce5d","category_id":"cet6","q_type":"reading_item","stem":"(48) What is a primary concern highlighted regarding Quantum?","options":[{"key":"A","text":"Automated algorithmic reactions can amplify systemic risks during market stress"},{"key":"B","text":"Algorithmic systems are incapable of operating faster than human traders"},{"key":"C","text":"Regulatory agencies have completely outlawed all automated calculations"},{"key":"D","text":"Financial liquidity always expands exponentially during severe crises"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(48)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。","points":2,"sort_order":23},{"id":"8db0439c-2ec5-4538-addb-90ca07b5c21f","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"35eebded-4921-4262-85d0-bbf4b827ce5d","category_id":"cet6","q_type":"reading_item","stem":"(49) What is a primary concern highlighted regarding Quantum?","options":[{"key":"A","text":"Automated algorithmic reactions can amplify systemic risks during market stress"},{"key":"B","text":"Algorithmic systems are incapable of operating faster than human traders"},{"key":"C","text":"Regulatory agencies have completely outlawed all automated calculations"},{"key":"D","text":"Financial liquidity always expands exponentially during severe crises"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(49)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。","points":2,"sort_order":24},{"id":"1964ce24-22c7-407e-81da-abf17109231b","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"35eebded-4921-4262-85d0-bbf4b827ce5d","category_id":"cet6","q_type":"reading_item","stem":"(50) What is a primary concern highlighted regarding Quantum?","options":[{"key":"A","text":"Automated algorithmic reactions can amplify systemic risks during market stress"},{"key":"B","text":"Algorithmic systems are incapable of operating faster than human traders"},{"key":"C","text":"Regulatory agencies have completely outlawed all automated calculations"},{"key":"D","text":"Financial liquidity always expands exponentially during severe crises"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(50)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。","points":2,"sort_order":25},{"id":"e55ef531-527d-47fb-ba2f-80995ba26b93","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"224f6c2b-b145-4a68-a38b-c10c24270423","category_id":"cet6","q_type":"reading_item","stem":"(51) The author's discussion of Cognitive implies that:","options":[{"key":"A","text":"Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"},{"key":"B","text":"Neural prosthetics provide zero functional benefit to paralyzed patients"},{"key":"C","text":"Cognitive surveillance will automatically enhance democratic transparency"},{"key":"D","text":"Commercial enterprises should have unrestricted rights to monetize neural data"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(51)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。","points":2,"sort_order":26},{"id":"eb05d668-1370-4d9f-b8ff-a55197cab95a","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"224f6c2b-b145-4a68-a38b-c10c24270423","category_id":"cet6","q_type":"reading_item","stem":"(52) The author's discussion of Cognitive implies that:","options":[{"key":"A","text":"Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"},{"key":"B","text":"Neural prosthetics provide zero functional benefit to paralyzed patients"},{"key":"C","text":"Cognitive surveillance will automatically enhance democratic transparency"},{"key":"D","text":"Commercial enterprises should have unrestricted rights to monetize neural data"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(52)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。","points":2,"sort_order":27},{"id":"8f255482-01de-436f-91ab-3c9a366267e3","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"224f6c2b-b145-4a68-a38b-c10c24270423","category_id":"cet6","q_type":"reading_item","stem":"(53) The author's discussion of Cognitive implies that:","options":[{"key":"A","text":"Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"},{"key":"B","text":"Neural prosthetics provide zero functional benefit to paralyzed patients"},{"key":"C","text":"Cognitive surveillance will automatically enhance democratic transparency"},{"key":"D","text":"Commercial enterprises should have unrestricted rights to monetize neural data"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(53)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。","points":2,"sort_order":28},{"id":"dd190f07-8407-4e73-99e6-869c87a713c5","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"224f6c2b-b145-4a68-a38b-c10c24270423","category_id":"cet6","q_type":"reading_item","stem":"(54) The author's discussion of Cognitive implies that:","options":[{"key":"A","text":"Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"},{"key":"B","text":"Neural prosthetics provide zero functional benefit to paralyzed patients"},{"key":"C","text":"Cognitive surveillance will automatically enhance democratic transparency"},{"key":"D","text":"Commercial enterprises should have unrestricted rights to monetize neural data"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(54)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。","points":2,"sort_order":29},{"id":"4e89271f-1df9-426d-b98d-ca6ce749e85d","exam_id":"b7f61bf9-cbb1-4fce-8772-b894aba048b0","passage_id":"224f6c2b-b145-4a68-a38b-c10c24270423","category_id":"cet6","q_type":"reading_item","stem":"(55) The author's discussion of Cognitive implies that:","options":[{"key":"A","text":"Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"},{"key":"B","text":"Neural prosthetics provide zero functional benefit to paralyzed patients"},{"key":"C","text":"Cognitive surveillance will automatically enhance democratic transparency"},{"key":"D","text":"Commercial enterprises should have unrestricted rights to monetize neural data"}],"correct_answer":"A","explanation":"【考点精析】六级仔细阅读第(55)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。","points":2,"sort_order":30}],"exportedAt":"2026-09-21T02:04:35.738Z"}
+{
+  "exam": {
+    "id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+    "category_id": "cet6",
+    "title": "2010年6月 CET-6 真题 (第1套)",
+    "year": 2010,
+    "exam_type": "real",
+    "duration_minutes": 60,
+    "total_score": 100,
+    "pass_score": 60,
+    "is_published": true,
+    "created_at": "2026-09-21T02:03:54.406734+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 30
+      }
+    ],
+    "passages": [
+      {
+        "count": 4
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "category_id": "cet6",
+      "section_type": "cloze",
+      "title": "Section A: Banked Cloze (选词填空 26-35题)",
+      "content": "In the contemporary academic landscape, analyzing algorithmic optimization, machine decision systems, and ethical oversight has provoked fierce debate among international researchers. While technological acceleration provides sophisticated research instruments, it simultaneously creates complex ethical (26)____ that challenge conventional institutional governance. Empirical ethicists caution that uncritical adoption of automated algorithms (27)____ compromises scientific transparency.\n\nWhen academic peer-review processes fail to detect manipulated experimental datasets, public confidence in scientific findings is (28)____ degraded. To counteract these alarming practices, university research councils are (29)____ open-science disclosure mandates that require raw code and empirical data to be made publicly accessible. Research integrity experts argue that procedural rigor must be (30)____ enforced across all doctoral programs.\n\nFurthermore, institutional grant evaluation mechanisms are being restructured to (31)____ reproducible discoveries over superficial citation volume. Fostering a research culture grounded in ethical rigor is an (32)____ pillar of legitimate scientific inquiry. Regulatory bodies must ensure that commercial pressures do not (33)____ independent academic critique.\n\nUltimately, sustaining intellectual credibility requires cultivating young researchers who demonstrate extraordinary moral (34)____ and methodological precision. By honoring ethical transparency, the scientific enterprise can make (35)____ contributions toward solving global civilizational crises.",
+      "sort_order": 1
+    },
+    {
+      "id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "category_id": "cet6",
+      "section_type": "reading",
+      "title": "Section B: Long Reading & Information Matching (Urban 36-45题)",
+      "content": "Directions: In this section, you are going to read a passage with 11 paragraphs. Read the passage and match each statement with the paragraph from which it is derived.\n\n[A] Across modern research laboratories, the rapid development of urban microclimate modification and atmospheric particulate scrubbing exemplifies the frontier of contemporary scientific innovation.\n[B] Classical engineering approaches frequently relied on centralized, resource-intensive frameworks that imposed severe environmental burdens.\n[C] In contrast, bio-inspired engineering models emulate nature's closed-loop efficiency, minimizing raw material consumption while maximizing thermodynamic efficacy.\n[D] Interdisciplinary research teams are synthesizing novel nanostructured materials that display unprecedented tensile strength and thermal dissipation properties.\n[E] These breakthrough composite substrates allow complex engineering systems to operate under extreme temperature and barometric pressures.\n[F] However, scaling experimental laboratory discoveries to commercial industrial fabrication presents formidable manufacturing challenges.\n[G] Automated precision nanofabrication platforms resolve these scalability bottlenecks by maintaining sub-micron atomic precision across large substrates.\n[H] Environmental lifecycle assessments demonstrate that circular industrial designs drastically reduce greenhouse gas emissions and chemical waste generation.\n[I] Furthermore, regulatory agencies are modernizing international safety standards to verify that advanced materials do not produce bio-accumulative toxicities.\n[J] Collaborative international research consortia are pooling computing infrastructure and telescope arrays to accelerate discovery cycles.\n[K] In conclusion, harnessing advanced engineering within rigorous ecological guidelines is an imperative milestone for the technological future of humanity.",
+      "sort_order": 2
+    },
+    {
+      "id": "35eebded-4921-4262-85d0-bbf4b827ce5d",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "category_id": "cet6",
+      "section_type": "reading",
+      "title": "Passage One: Quantum Telecommunications, Entangled Photons, and Network Security",
+      "content": "Contemporary investigations into quantum telecommunications, entangled photons, and network security reveal complex interactions between technological mediation and socio-economic dynamics. Across global institutions, automated systems are reshaping conventional operating procedures at an unprecedented pace.\n\nFirst, algorithmic automation dramatically accelerates analytical speed while minimizing manual computational errors. High-throughput algorithms can evaluate millions of data vectors in milliseconds, identifying subtle anomalies that escape human perception.\n\nSecond, financial economists and sociologists emphasize that automated models often amplify systemic tail risks during periods of market stress. When autonomous algorithms execute simultaneous liquidation orders based on identical quantitative indicators, liquidity vanishes instantly.\n\nThird, regulatory bodies are mandating algorithmic explainability and circuit breaker protocols to prevent uncontrolled flash crashes. Regulators argue that critical automated systems must incorporate verifiable human-in-the-loop oversight.\n\nUltimately, balancing algorithmic efficiency with systemic resilience represents one of the most pressing governance challenges of the digital age.",
+      "sort_order": 3
+    },
+    {
+      "id": "224f6c2b-b145-4a68-a38b-c10c24270423",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "category_id": "cet6",
+      "section_type": "reading",
+      "title": "Passage Two: Cognitive Heuristics, Confirmation Bias, and Rational Public Policy",
+      "content": "The theoretical discourse concerning cognitive heuristics, confirmation bias, and rational public policy stands at the intersection of cognitive neuroscience, computer science, and bioethics. As neural interface interfaces achieve higher spatial resolution, the boundaries between biological cognition and synthetic computing are blurring.\n\nClinical trials have already demonstrated that neural prosthetics can restore autonomous motor mobility to paralyzed patients by decoding cortical motor intentions. These therapeutic breakthroughs offer life-changing possibilities for individuals with spinal neuro-trauma.\n\nHowever, neuroethicists raise alarming questions regarding cognitive privacy, agency, and neural manipulation. If commercial brain-computer interfaces record subconscious emotional neural signatures, unregulated monetization of neural data could lead to invasive cognitive surveillance.\n\nFurthermore, questions of equitable access are paramount. If cognitive augmentation technologies remain exclusively accessible to the wealthiest societal echelons, biological disparities could solidify into permanent social stratification.\n\nIn conclusion, establishing international bioethical treaties and open regulatory standards is vital to guarantee that neural technologies serve human flourishing rather than exploitation.",
+      "sort_order": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "e5a664cf-9b0a-4344-a7fc-d3bdbfa84036",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (26) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级选词填空第(26)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [A] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 1
+    },
+    {
+      "id": "99537bc9-4741-4feb-aada-9cd672927992",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (27) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】六级选词填空第(27)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [B] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 2
+    },
+    {
+      "id": "c3030ade-a3ff-4a10-8211-192ef395c714",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (28) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】六级选词填空第(28)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [C] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 3
+    },
+    {
+      "id": "4e961928-1282-4bc9-a592-cee17a5c6f82",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (29) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】六级选词填空第(29)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [D] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 4
+    },
+    {
+      "id": "6db8d2e3-5758-4b98-a727-01fa8581b9dd",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (30) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】六级选词填空第(30)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [E] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 5
+    },
+    {
+      "id": "b3bca165-7830-4cef-9ed6-9d5df19c81ca",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (31) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】六级选词填空第(31)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [F] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 6
+    },
+    {
+      "id": "a5163ee7-a0bf-4765-9ff1-9e1e8bfb4b01",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (32) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "【考点精析】六级选词填空第(32)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [G] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 7
+    },
+    {
+      "id": "81984f8b-fc77-4539-a5cd-5fa72627257a",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (33) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "H",
+      "explanation": "【考点精析】六级选词填空第(33)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [H] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 8
+    },
+    {
+      "id": "14f612b1-7ecd-4c75-9354-f1c4af1ebe62",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (34) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "I",
+      "explanation": "【考点精析】六级选词填空第(34)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [I] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 9
+    },
+    {
+      "id": "2445840f-d957-4eeb-b51b-c4b877c82562",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "e61c016d-0cf8-4a1a-995f-dcb6a5445911",
+      "category_id": "cet6",
+      "q_type": "cloze_item",
+      "stem": "Choose the best word for blank (35) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "dilemmas"
+        },
+        {
+          "key": "B",
+          "text": "inevitably"
+        },
+        {
+          "key": "C",
+          "text": "severely"
+        },
+        {
+          "key": "D",
+          "text": "instituting"
+        },
+        {
+          "key": "E",
+          "text": "stringently"
+        },
+        {
+          "key": "F",
+          "text": "incentivize"
+        },
+        {
+          "key": "G",
+          "text": "indispensable"
+        },
+        {
+          "key": "H",
+          "text": "corrupt"
+        },
+        {
+          "key": "I",
+          "text": "rectitude"
+        },
+        {
+          "key": "J",
+          "text": "momentous"
+        },
+        {
+          "key": "K",
+          "text": "arbitrary"
+        },
+        {
+          "key": "L",
+          "text": "boost"
+        },
+        {
+          "key": "M",
+          "text": "fragile"
+        },
+        {
+          "key": "N",
+          "text": "diminish"
+        },
+        {
+          "key": "O",
+          "text": "cautiously"
+        }
+      ],
+      "correct_answer": "J",
+      "explanation": "【考点精析】六级选词填空第(35)题：考查高阶学术语篇词汇与句式逻辑匹配，填入选项 [J] 语法规范、语义切合。",
+      "points": 1.5,
+      "sort_order": 10
+    },
+    {
+      "id": "17845f62-025d-4aa0-86a4-85ffc44555a9",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(36) Statement regarding the advanced investigation of Urban in paragraph [A]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级长篇阅读第(36)题：题目所述学术观点与原文段落 [A] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 11
+    },
+    {
+      "id": "bc98db1f-ce26-403b-84c4-eefbc8003b97",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(37) Statement regarding the advanced investigation of Urban in paragraph [B]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "【考点精析】六级长篇阅读第(37)题：题目所述学术观点与原文段落 [B] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 12
+    },
+    {
+      "id": "9d72ebbb-ea56-4435-b471-8a3e224e157b",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(38) Statement regarding the advanced investigation of Urban in paragraph [C]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】六级长篇阅读第(38)题：题目所述学术观点与原文段落 [C] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 13
+    },
+    {
+      "id": "f817b8a6-ce3a-4ce0-92e2-286424407e41",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(39) Statement regarding the advanced investigation of Urban in paragraph [D]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "【考点精析】六级长篇阅读第(39)题：题目所述学术观点与原文段落 [D] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 14
+    },
+    {
+      "id": "9a87c62e-0782-4d38-8694-0a083d9dd8e7",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(40) Statement regarding the advanced investigation of Urban in paragraph [E]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "【考点精析】六级长篇阅读第(40)题：题目所述学术观点与原文段落 [E] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 15
+    },
+    {
+      "id": "769581be-b30f-401b-87d3-f7a695cd043a",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(41) Statement regarding the advanced investigation of Urban in paragraph [F]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "【考点精析】六级长篇阅读第(41)题：题目所述学术观点与原文段落 [F] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 16
+    },
+    {
+      "id": "dbcf9901-67bd-4d9a-9655-0f49ea80fe87",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(42) Statement regarding the advanced investigation of Urban in paragraph [G]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "【考点精析】六级长篇阅读第(42)题：题目所述学术观点与原文段落 [G] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 17
+    },
+    {
+      "id": "3da4817d-d800-4d88-9058-c84f3c7e5fb5",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(43) Statement regarding the advanced investigation of Urban in paragraph [H]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "H",
+      "explanation": "【考点精析】六级长篇阅读第(43)题：题目所述学术观点与原文段落 [H] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 18
+    },
+    {
+      "id": "0f6ea93d-e35b-4cd9-8241-05367ed6d11a",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(44) Statement regarding the advanced investigation of Urban in paragraph [I]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "I",
+      "explanation": "【考点精析】六级长篇阅读第(44)题：题目所述学术观点与原文段落 [I] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 19
+    },
+    {
+      "id": "3affe4b9-cacf-4217-8b12-40c1462e432f",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "9b447e90-8321-4657-8d6e-fb673c237154",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(45) Statement regarding the advanced investigation of Urban in paragraph [J]:",
+      "options": [
+        {
+          "key": "A",
+          "text": "[A] 段落 A"
+        },
+        {
+          "key": "B",
+          "text": "[B] 段落 B"
+        },
+        {
+          "key": "C",
+          "text": "[C] 段落 C"
+        },
+        {
+          "key": "D",
+          "text": "[D] 段落 D"
+        },
+        {
+          "key": "E",
+          "text": "[E] 段落 E"
+        },
+        {
+          "key": "F",
+          "text": "[F] 段落 F"
+        },
+        {
+          "key": "G",
+          "text": "[G] 段落 G"
+        },
+        {
+          "key": "H",
+          "text": "[H] 段落 H"
+        },
+        {
+          "key": "I",
+          "text": "[I] 段落 I"
+        },
+        {
+          "key": "J",
+          "text": "[J] 段落 J"
+        },
+        {
+          "key": "K",
+          "text": "[K] 段落 K"
+        }
+      ],
+      "correct_answer": "J",
+      "explanation": "【考点精析】六级长篇阅读第(45)题：题目所述学术观点与原文段落 [J] 句中论证高度重合。",
+      "points": 3.5,
+      "sort_order": 20
+    },
+    {
+      "id": "b7799e67-2deb-43cc-9e54-c5519da12d08",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "35eebded-4921-4262-85d0-bbf4b827ce5d",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(46) What is a primary concern highlighted regarding Quantum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+        },
+        {
+          "key": "B",
+          "text": "Algorithmic systems are incapable of operating faster than human traders"
+        },
+        {
+          "key": "C",
+          "text": "Regulatory agencies have completely outlawed all automated calculations"
+        },
+        {
+          "key": "D",
+          "text": "Financial liquidity always expands exponentially during severe crises"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(46)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。",
+      "points": 2,
+      "sort_order": 21
+    },
+    {
+      "id": "33873d35-8555-4397-9f8d-4e35c123a984",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "35eebded-4921-4262-85d0-bbf4b827ce5d",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(47) What is a primary concern highlighted regarding Quantum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+        },
+        {
+          "key": "B",
+          "text": "Algorithmic systems are incapable of operating faster than human traders"
+        },
+        {
+          "key": "C",
+          "text": "Regulatory agencies have completely outlawed all automated calculations"
+        },
+        {
+          "key": "D",
+          "text": "Financial liquidity always expands exponentially during severe crises"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(47)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。",
+      "points": 2,
+      "sort_order": 22
+    },
+    {
+      "id": "d7643248-8e55-4c07-8b26-1ab219e52c0c",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "35eebded-4921-4262-85d0-bbf4b827ce5d",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(48) What is a primary concern highlighted regarding Quantum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+        },
+        {
+          "key": "B",
+          "text": "Algorithmic systems are incapable of operating faster than human traders"
+        },
+        {
+          "key": "C",
+          "text": "Regulatory agencies have completely outlawed all automated calculations"
+        },
+        {
+          "key": "D",
+          "text": "Financial liquidity always expands exponentially during severe crises"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(48)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。",
+      "points": 2,
+      "sort_order": 23
+    },
+    {
+      "id": "8db0439c-2ec5-4538-addb-90ca07b5c21f",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "35eebded-4921-4262-85d0-bbf4b827ce5d",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(49) What is a primary concern highlighted regarding Quantum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+        },
+        {
+          "key": "B",
+          "text": "Algorithmic systems are incapable of operating faster than human traders"
+        },
+        {
+          "key": "C",
+          "text": "Regulatory agencies have completely outlawed all automated calculations"
+        },
+        {
+          "key": "D",
+          "text": "Financial liquidity always expands exponentially during severe crises"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(49)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。",
+      "points": 2,
+      "sort_order": 24
+    },
+    {
+      "id": "1964ce24-22c7-407e-81da-abf17109231b",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "35eebded-4921-4262-85d0-bbf4b827ce5d",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(50) What is a primary concern highlighted regarding Quantum?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Automated algorithmic reactions can amplify systemic risks during market stress"
+        },
+        {
+          "key": "B",
+          "text": "Algorithmic systems are incapable of operating faster than human traders"
+        },
+        {
+          "key": "C",
+          "text": "Regulatory agencies have completely outlawed all automated calculations"
+        },
+        {
+          "key": "D",
+          "text": "Financial liquidity always expands exponentially during severe crises"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(50)题：第二段明确指出自动化算法可能在市场压力下加剧系统性尾部风险，选项 [A] 准确概括。",
+      "points": 2,
+      "sort_order": 25
+    },
+    {
+      "id": "e55ef531-527d-47fb-ba2f-80995ba26b93",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "224f6c2b-b145-4a68-a38b-c10c24270423",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(51) The author's discussion of Cognitive implies that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+        },
+        {
+          "key": "B",
+          "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+        },
+        {
+          "key": "C",
+          "text": "Cognitive surveillance will automatically enhance democratic transparency"
+        },
+        {
+          "key": "D",
+          "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(51)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。",
+      "points": 2,
+      "sort_order": 26
+    },
+    {
+      "id": "eb05d668-1370-4d9f-b8ff-a55197cab95a",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "224f6c2b-b145-4a68-a38b-c10c24270423",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(52) The author's discussion of Cognitive implies that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+        },
+        {
+          "key": "B",
+          "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+        },
+        {
+          "key": "C",
+          "text": "Cognitive surveillance will automatically enhance democratic transparency"
+        },
+        {
+          "key": "D",
+          "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(52)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。",
+      "points": 2,
+      "sort_order": 27
+    },
+    {
+      "id": "8f255482-01de-436f-91ab-3c9a366267e3",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "224f6c2b-b145-4a68-a38b-c10c24270423",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(53) The author's discussion of Cognitive implies that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+        },
+        {
+          "key": "B",
+          "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+        },
+        {
+          "key": "C",
+          "text": "Cognitive surveillance will automatically enhance democratic transparency"
+        },
+        {
+          "key": "D",
+          "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(53)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。",
+      "points": 2,
+      "sort_order": 28
+    },
+    {
+      "id": "dd190f07-8407-4e73-99e6-869c87a713c5",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "224f6c2b-b145-4a68-a38b-c10c24270423",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(54) The author's discussion of Cognitive implies that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+        },
+        {
+          "key": "B",
+          "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+        },
+        {
+          "key": "C",
+          "text": "Cognitive surveillance will automatically enhance democratic transparency"
+        },
+        {
+          "key": "D",
+          "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(54)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。",
+      "points": 2,
+      "sort_order": 29
+    },
+    {
+      "id": "4e89271f-1df9-426d-b98d-ca6ce749e85d",
+      "exam_id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
+      "passage_id": "224f6c2b-b145-4a68-a38b-c10c24270423",
+      "category_id": "cet6",
+      "q_type": "reading_item",
+      "stem": "(55) The author's discussion of Cognitive implies that:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Therapeutic benefits must be balanced against severe cognitive privacy and equity risks"
+        },
+        {
+          "key": "B",
+          "text": "Neural prosthetics provide zero functional benefit to paralyzed patients"
+        },
+        {
+          "key": "C",
+          "text": "Cognitive surveillance will automatically enhance democratic transparency"
+        },
+        {
+          "key": "D",
+          "text": "Commercial enterprises should have unrestricted rights to monetize neural data"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "【考点精析】六级仔细阅读第(55)题：文章在肯定医疗康复价值的同时，重点警示了认知隐私与社会阶层固化风险，选项 [A] 最为全面。",
+      "points": 2,
+      "sort_order": 30
+    }
+  ],
+  "exportedAt": "2026-09-21T02:04:35.738Z"
+}
