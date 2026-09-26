@@ -113,6 +113,8 @@ function ExamContent() {
   latestRef.current = { exam, questions, answers, remainingSeconds, focusedIndex, isSubmitted };
 
   const isSubmittingRef = useRef(false);
+  // Tracks the jitter setTimeout for auto-submit so manual submit can cancel it
+  const autoSubmitTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // 1. Timer countdown (decoupled from remainingSeconds to prevent 1-second interval thrashing)
   useEffect(() => {
@@ -125,14 +127,24 @@ function ExamContent() {
           // 🛡️ 500-Concurrency Dirac Pulse Armor: Inject 0 ~ 12s Uniform Jitter
           // Flattens the 400 req/s Dirac impulse into a smooth <= 41.6 req/s stream
           const jitterMs = Math.floor(Math.random() * 12000);
-          setTimeout(() => handleSubmit(true), jitterMs);
+          autoSubmitTimerRef.current = setTimeout(() => {
+            autoSubmitTimerRef.current = null;
+            handleSubmit(true);
+          }, jitterMs);
           return 0;
         }
         return prev - 1;
       });
     }, 1000);
 
-    return () => clearInterval(timer);
+    return () => {
+      clearInterval(timer);
+      // Clean up any pending jitter auto-submit timer on unmount/re-run
+      if (autoSubmitTimerRef.current) {
+        clearTimeout(autoSubmitTimerRef.current);
+        autoSubmitTimerRef.current = null;
+      }
+    };
   }, [loading, isSubmitted]);
 
   // 2. Periodic draft background sync every 5 seconds (reliably fires from ref)
@@ -264,6 +276,11 @@ function ExamContent() {
     }
 
     isSubmittingRef.current = true;
+    // Cancel pending jitter auto-submit timer (if user submitted manually before timer fired)
+    if (autoSubmitTimerRef.current) {
+      clearTimeout(autoSubmitTimerRef.current);
+      autoSubmitTimerRef.current = null;
+    }
 
     let earnedRawPoints = 0;
     let totalRawPoints = 0;
@@ -336,6 +353,7 @@ function ExamContent() {
       setResult(null);
       setRemainingSeconds((exam?.duration_minutes || 60) * 60);
       setFocusedIndex(0);
+      isSubmittingRef.current = false; // 🐛 Bug Fix: Release submission lock so retake can be submitted
       window.scrollTo({ top: 0, behavior: "smooth" });
     }
   };

@@ -60,17 +60,21 @@ export function enqueueSubmissionTask(
   payload: any
 ): string {
   const taskId = `task_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+
+  const tasks = getPendingSubmissionTasks();
+  // 相同 examId 的未完成交卷任务进行替换更新，避免重复堆叠
+  // Inherit retry state so exponential backoff is not reset (prevents retry storm)
+  const existingTask = tasks.find(
+    (t) => t.type === "exam_result" && type === "exam_result" && t.payload?.examId === payload?.examId
+  );
   const newTask: SubmissionTask = {
     id: taskId,
     type,
     payload,
-    attempts: 0,
-    createdAt: new Date().toISOString(),
-    nextRetryAt: Date.now(),
+    attempts: existingTask ? existingTask.attempts : 0,
+    createdAt: existingTask ? existingTask.createdAt : new Date().toISOString(),
+    nextRetryAt: existingTask ? existingTask.nextRetryAt : Date.now(),
   };
-
-  const tasks = getPendingSubmissionTasks();
-  // 相同 examId 的未完成交卷任务进行替换更新，避免重复堆叠
   const filtered = tasks.filter((t) => {
     if (t.type === "exam_result" && type === "exam_result") {
       return t.payload?.examId !== payload?.examId;
@@ -132,13 +136,22 @@ export async function flushSubmissionQueue(): Promise<{
 
           // 2. 尝试执行云端备份同步
           const backupRes = await uploadBackupToCloud();
-          if (!backupRes.success && backupRes.error && !backupRes.error.includes("未登录")) {
+          if (!backupRes.success) {
+            if (backupRes.error?.includes("未登录")) {
+              // User is logged out — silently re-queue without burning retry budget
+              remainingTasks.push(task);
+              continue;
+            }
             throw new Error(backupRes.error);
           }
           processed += 1;
         } else if (task.type === "cloud_backup") {
           const backupRes = await uploadBackupToCloud();
-          if (!backupRes.success && backupRes.error && !backupRes.error.includes("未登录")) {
+          if (!backupRes.success) {
+            if (backupRes.error?.includes("未登录")) {
+              remainingTasks.push(task);
+              continue;
+            }
             throw new Error(backupRes.error);
           }
           processed += 1;

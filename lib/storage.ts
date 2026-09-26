@@ -374,10 +374,12 @@ export function saveExamResult(result: ExamResult) {
 
 export async function uploadBackupToCloud(): Promise<{ success: boolean; error?: string }> {
   try {
-    const { data: { user }, error: userErr } = await supabase.auth.getUser();
-    if (userErr || !user) {
+    // Use getSession() (reads local JWT) instead of getUser() (triggers a network request)
+    const { data: { session }, error: sessionErr } = await supabase.auth.getSession();
+    if (sessionErr || !session?.user) {
       return { success: false, error: "未登录，无法备份到云端" };
     }
+    const user = session.user;
 
     const state = getLocalState();
     // Ensure mistakes are purely index-based to save egress and storage
