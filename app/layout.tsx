@@ -6,6 +6,7 @@ import PresenceProvider from "@/components/PresenceProvider";
 import DictionaryPopover from "@/components/DictionaryPopover";
 import NetworkStatusIndicator from "@/components/NetworkStatusIndicator";
 import SentinelAlertCapsule from "@/components/SentinelAlertCapsule";
+import MobileTabBar from "@/components/MobileTabBar";
 
 export const metadata: Metadata = {
   title: "Enway - 在线英语刷题与全真模考系统",
@@ -32,9 +33,10 @@ export default function RootLayout({
         <AuthGuard>
           <PresenceProvider>
             <Navbar />
-            <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 py-6">
+            <main className="flex-1 w-full max-w-7xl mx-auto px-4 sm:px-6 pt-4 sm:pt-6 pb-24 md:pb-6">
               {children}
             </main>
+            <MobileTabBar />
             <DictionaryPopover />
           </PresenceProvider>
         </AuthGuard>

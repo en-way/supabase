@@ -342,7 +342,7 @@ export default function ProfilePage() {
         </div>
 
         {/* Clear Local Data Section */}
-        <div className="pt-4 border-t border-stone-100 dark:border-zinc-800 flex items-center justify-between">
+        <div className="pt-4 border-t border-stone-100 dark:border-zinc-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
             <span className="text-xs font-bold text-stone-800 dark:text-zinc-200 block">清除本机临时缓存</span>
             <span className="text-[11px] text-stone-400 dark:text-zinc-500">
@@ -352,7 +352,7 @@ export default function ProfilePage() {
 
           <button
             onClick={() => setShowWipeModal(true)}
-            className="px-3.5 py-2 rounded-xl border border-rose-200 dark:border-rose-500/40 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
+            className="w-full sm:w-auto justify-center px-3.5 py-2 rounded-xl border border-rose-200 dark:border-rose-500/40 text-rose-600 dark:text-rose-400 hover:bg-rose-50 dark:hover:bg-rose-950/40 text-xs font-semibold flex items-center space-x-1.5 transition-colors"
           >
             <Trash2 className="w-4 h-4" />
             <span>清除本地数据</span>

@@ -29,7 +29,10 @@ import {
   ZoomOut,
   Sparkles,
   BookOpen,
-  Keyboard
+  Keyboard,
+  FileText,
+  ListOrdered,
+  X
 } from "lucide-react";
 
 function ExamContent() {
@@ -50,6 +53,10 @@ function ExamContent() {
   // PC Typography & Keyboard navigation state
   const [readingFontSize, setReadingFontSize] = useState<number>(15);
   const [focusedIndex, setFocusedIndex] = useState<number>(0);
+
+  // Mobile responsive state
+  const [mobileTab, setMobileTab] = useState<"questions" | "passage">("questions");
+  const [showMobileAnswerSheet, setShowMobileAnswerSheet] = useState<boolean>(false);
 
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const passageContainerRef = useRef<HTMLDivElement | null>(null);
@@ -518,11 +525,41 @@ function ExamContent() {
         </div>
       )}
 
-      {/* PC 55:45 Dual-Pane Layout */}
+      {/* Mobile View Switcher (Sticky Segmented Control below header) */}
+      {passages.length > 0 && !isSubmitted && (
+        <div className="lg:hidden sticky top-[4.5rem] z-20 flex items-center bg-stone-100/95 dark:bg-zinc-900/95 backdrop-blur-md p-1 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 shadow-sm no-print">
+          <button
+            type="button"
+            onClick={() => setMobileTab("passage")}
+            className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+              mobileTab === "passage"
+                ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-sm"
+                : "text-stone-600 dark:text-zinc-400"
+            }`}
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>阅读材料 ({passages.length})</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setMobileTab("questions")}
+            className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+              mobileTab === "questions"
+                ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-sm"
+                : "text-stone-600 dark:text-zinc-400"
+            }`}
+          >
+            <FileText className="w-3.5 h-3.5" />
+            <span>试卷作答 ({answeredCount}/{questions.length})</span>
+          </button>
+        </div>
+      )}
+
+      {/* PC 55:45 Dual-Pane Layout (Mobile Tabbed) */}
       <div className="flex flex-col lg:flex-row gap-6 items-start">
         {/* Left Pane (55%): Reading Canvas */}
         {passages.length > 0 && (
-          <div className="w-full lg:w-[55%] bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card overflow-hidden flex flex-col sticky top-36 h-[78vh] print-page transition-colors duration-300">
+          <div className={`${mobileTab === "passage" || isSubmitted ? "flex" : "hidden"} lg:flex w-full lg:w-[55%] bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card overflow-hidden flex-col lg:sticky lg:top-36 h-[72vh] lg:h-[78vh] print-page transition-colors duration-300`}>
             {/* Passage Selector Bar & Font Zoom Controls */}
             <div className="px-5 py-2.5 border-b border-stone-100 dark:border-zinc-800 bg-stone-50/70 dark:bg-zinc-900/70 flex items-center justify-between shrink-0 no-print">
               <div className="flex items-center space-x-1.5 overflow-x-auto">
@@ -583,11 +620,24 @@ function ExamContent() {
                   </div>
                 ))}
             </div>
+
+            {/* Mobile Return to Questions Bar */}
+            <div className="lg:hidden p-3 border-t border-stone-100 dark:border-zinc-800 bg-stone-50/90 dark:bg-zinc-900/90 flex justify-between items-center shrink-0 no-print">
+              <span className="text-xs text-stone-500 dark:text-zinc-400">阅读完毕？随时返回作答</span>
+              <button
+                type="button"
+                onClick={() => setMobileTab("questions")}
+                className="px-4 py-1.5 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle flex items-center space-x-1.5 active:scale-95"
+              >
+                <span>返回答卷 ({answeredCount}/{questions.length})</span>
+                <FileText className="w-3.5 h-3.5" />
+              </button>
+            </div>
           </div>
         )}
 
         {/* Right Pane (45%): Question Answering Studio */}
-        <div className={`w-full ${passages.length > 0 ? "lg:w-[45%]" : "lg:max-w-3xl lg:mx-auto"} space-y-6`}>
+        <div className={`${mobileTab === "questions" || isSubmitted ? "block" : "hidden"} lg:block w-full ${passages.length > 0 ? "lg:w-[45%]" : "lg:max-w-3xl lg:mx-auto"} space-y-6 pb-28 lg:pb-0`}>
           {questions.map((q, idx) => {
             const userAns = answers[q.id];
             const isQAnswered = Boolean(userAns);
@@ -600,7 +650,7 @@ function ExamContent() {
                 key={q.id}
                 ref={(el) => { questionRefs.current[q.id] = el; }}
                 onClick={() => setFocusedIndex(idx)}
-                className={`bg-white dark:bg-[#11131a] rounded-2xl border p-6 shadow-card transition-all duration-150 print-card cursor-pointer ${
+                className={`bg-white dark:bg-[#11131a] rounded-2xl border p-5 sm:p-6 shadow-card transition-all duration-150 print-card cursor-pointer ${
                   isSubmitted
                     ? isQCorrect
                       ? "border-emerald-200 dark:border-emerald-500/40 bg-emerald-50/20 dark:bg-emerald-950/20"
@@ -628,6 +678,21 @@ function ExamContent() {
                       </span>
                     )}
                   </div>
+
+                  {q.passage_id && passages.length > 0 && !isSubmitted && (
+                    <button
+                      type="button"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        setActivePassageId(q.passage_id);
+                        setMobileTab("passage");
+                      }}
+                      className="lg:hidden text-[11px] font-semibold text-emerald-700 dark:text-cyber-400 bg-emerald-50/80 dark:bg-cyan-950/60 border border-emerald-200/50 dark:border-cyan-500/30 px-2 py-0.5 rounded-md flex items-center space-x-1 active:scale-95"
+                    >
+                      <BookOpen className="w-3 h-3" />
+                      <span>查阅篇章</span>
+                    </button>
+                  )}
 
                   {isSubmitted && (
                     <div className="flex items-center space-x-1.5 text-xs font-bold no-print">
@@ -759,6 +824,123 @@ function ExamContent() {
           </div>
         </div>
       </div>
+
+      {/* Mobile Bottom Exam Action Bar (Sticky Floating Dock) */}
+      {!isSubmitted && (
+        <div className="lg:hidden fixed bottom-0 left-0 right-0 z-30 bg-white/95 dark:bg-[#0e1017]/95 backdrop-blur-xl border-t border-black/[0.08] dark:border-cyan-500/20 px-4 py-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-lg flex items-center justify-between gap-3 no-print">
+          <button
+            type="button"
+            onClick={() => setShowMobileAnswerSheet(true)}
+            className="px-3 py-2 rounded-xl bg-stone-100 dark:bg-zinc-800 text-stone-800 dark:text-zinc-200 border border-black/[0.05] dark:border-cyan-500/20 text-xs font-bold flex items-center space-x-1.5 active:scale-95 transition-transform"
+          >
+            <ListOrdered className="w-4 h-4 text-emerald-600 dark:text-cyber-400" />
+            <span>答题卡 ({answeredCount}/{questions.length})</span>
+          </button>
+
+          <div className="flex items-center space-x-2">
+            {passages.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setMobileTab(mobileTab === "questions" ? "passage" : "questions")}
+                className="px-3 py-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-stone-50 dark:bg-zinc-900 text-stone-700 dark:text-zinc-300 text-xs font-semibold flex items-center space-x-1 active:scale-95"
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>{mobileTab === "questions" ? "看原文" : "看试题"}</span>
+              </button>
+            )}
+
+            <button
+              type="button"
+              onClick={() => handleSubmit(false)}
+              className="px-4 py-2 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle dark:shadow-glow-cyan flex items-center space-x-1.5 active:scale-95 transition-transform"
+            >
+              <Send className="w-3.5 h-3.5" />
+              <span>交卷</span>
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Mobile Answer Sheet Drawer */}
+      {showMobileAnswerSheet && (
+        <div className="lg:hidden fixed inset-0 z-50 bg-black/50 backdrop-blur-sm flex flex-col justify-end animate-in fade-in duration-150">
+          <div 
+            className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[80vh] flex flex-col animate-in slide-in-from-bottom duration-200"
+          >
+            <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
+              <div>
+                <h4 className="text-sm font-bold text-stone-900 dark:text-zinc-100">
+                  答题卡总览 ({answeredCount} / {questions.length})
+                </h4>
+                <span className="text-[11px] text-stone-400 dark:text-zinc-500">点击题号直达该题</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowMobileAnswerSheet(false)}
+                className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="flex-1 overflow-y-auto py-4">
+              <div className="grid grid-cols-6 sm:grid-cols-8 gap-2">
+                {questions.map((q, idx) => {
+                  const uAns = answers[q.id];
+                  const isAns = Boolean(uAns);
+                  const isFocus = idx === focusedIndex;
+
+                  let btnStyle = "bg-stone-100 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400";
+                  if (isFocus) {
+                    btnStyle = "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] font-bold shadow-subtle";
+                  } else if (isAns) {
+                    btnStyle = "bg-emerald-50 dark:bg-cyan-950/80 text-emerald-800 dark:text-cyber-300 font-semibold border border-emerald-200/50 dark:border-cyan-500/30";
+                  }
+
+                  return (
+                    <button
+                      key={q.id}
+                      type="button"
+                      onClick={() => {
+                        setFocusedIndex(idx);
+                        setMobileTab("questions");
+                        setShowMobileAnswerSheet(false);
+                        setTimeout(() => scrollToQuestion(q.id), 50);
+                      }}
+                      className={`py-2 rounded-xl text-xs font-mono font-bold transition-transform active:scale-90 ${btnStyle}`}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="pt-3 border-t border-stone-100 dark:border-zinc-800 flex justify-between items-center text-xs text-stone-500 dark:text-zinc-400">
+              <div className="flex items-center space-x-3">
+                <span className="flex items-center space-x-1">
+                  <span className="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block" />
+                  <span>已答</span>
+                </span>
+                <span className="flex items-center space-x-1">
+                  <span className="w-2.5 h-2.5 rounded-full bg-stone-300 dark:bg-zinc-700 inline-block" />
+                  <span>未答</span>
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setShowMobileAnswerSheet(false);
+                  handleSubmit(false);
+                }}
+                className="px-4 py-2 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] font-bold"
+              >
+                立即交卷
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

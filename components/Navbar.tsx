@@ -440,10 +440,10 @@ export default function Navbar() {
                     {profile?.nickname?.[0] || profile?.username?.[0] || "U"}
                   </div>
                   <div className="text-left flex items-center space-x-1.5">
-                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100 leading-tight">
+                    <span className="text-xs font-semibold text-stone-900 dark:text-zinc-100 leading-tight max-w-[75px] sm:max-w-none truncate">
                       {profile?.nickname || profile?.username}
                     </span>
-                    <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-mono leading-tight">
+                    <span className="text-[10px] text-stone-400 dark:text-zinc-500 font-mono leading-tight hidden sm:inline">
                       {profile?.role === "super_admin" 
                         ? "👑 超管" 
                         : profile?.role === "admin" 

@@ -106,24 +106,24 @@ export default function VocabularyPage() {
           </div>
         </div>
 
-        <div className="flex items-center space-x-2">
+        <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={() => setShowAddModal(true)}
-            className="px-3 py-1.5 rounded-xl bg-zinc-100 hover:bg-zinc-200/80 dark:bg-zinc-800/80 dark:hover:bg-zinc-700/80 text-zinc-800 dark:text-zinc-200 border border-transparent dark:border-zinc-700/50 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
+            className="flex-1 sm:flex-none justify-center px-3 py-1.5 rounded-xl bg-zinc-100 hover:bg-zinc-200/80 dark:bg-zinc-800/80 dark:hover:bg-zinc-700/80 text-zinc-800 dark:text-zinc-200 border border-transparent dark:border-zinc-700/50 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
           >
             <Plus className="w-3.5 h-3.5" />
             <span>手动添加</span>
           </button>
           <button
             onClick={handleExportTxt}
-            className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
+            className="flex-1 sm:flex-none justify-center px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
           >
             <Download className="w-3.5 h-3.5 text-zinc-400 dark:text-zinc-500" />
             <span>导出 TXT</span>
           </button>
           <button
             onClick={() => window.print()}
-            className="px-3.5 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-600 dark:text-zinc-950 dark:font-black text-xs font-bold flex items-center space-x-1.5 shadow-subtle transition-all active:scale-[0.98]"
+            className="w-full sm:w-auto justify-center px-3.5 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-600 dark:text-zinc-950 dark:font-black text-xs font-bold flex items-center space-x-1.5 shadow-subtle transition-all active:scale-[0.98]"
           >
             <Printer className="w-3.5 h-3.5" />
             <span>打印生词单</span>

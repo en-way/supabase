@@ -24,7 +24,9 @@ import {
   Type, 
   Sparkles,
   Edit3,
-  RotateCcw
+  RotateCcw,
+  BookOpen,
+  HelpCircle
 } from "lucide-react";
 
 function PracticeContent() {
@@ -42,6 +44,7 @@ function PracticeContent() {
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set());
   const [editingNotes, setEditingNotes] = useState<Record<string, string>>({});
   const [largeFont, setLargeFont] = useState(false);
+  const [practiceMobileTab, setPracticeMobileTab] = useState<"question" | "passage">("question");
   const passageContainerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -327,31 +330,72 @@ function PracticeContent() {
         </div>
       </div>
 
-      {/* Main Dual-Column Split Reading Experience */}
+      {/* Mobile View Switcher (Sticky below header) */}
+      {relatedPassage && (
+        <div className="lg:hidden sticky top-[4.5rem] z-20 flex items-center bg-stone-100/95 dark:bg-zinc-900/95 backdrop-blur-md p-1 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 shadow-sm no-print">
+          <button
+            type="button"
+            onClick={() => setPracticeMobileTab("passage")}
+            className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+              practiceMobileTab === "passage"
+                ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-sm"
+                : "text-stone-600 dark:text-zinc-400"
+            }`}
+          >
+            <BookOpen className="w-3.5 h-3.5" />
+            <span>阅读篇章材料</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setPracticeMobileTab("question")}
+            className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+              practiceMobileTab === "question"
+                ? "bg-white dark:bg-zinc-800 text-emerald-800 dark:text-cyber-300 shadow-sm"
+                : "text-stone-600 dark:text-zinc-400"
+            }`}
+          >
+            <HelpCircle className="w-3.5 h-3.5" />
+            <span>本题研习 ({currentIndex + 1}/{questions.length})</span>
+          </button>
+        </div>
+      )}
+
+      {/* Main Dual-Column Split Reading Experience (Mobile Tabbed) */}
       <div className={`grid gap-6 ${relatedPassage ? "lg:grid-cols-12" : "max-w-3xl mx-auto"}`}>
         {/* Left Column: Reading Passage */}
         {relatedPassage && (
           <div 
             ref={passageContainerRef} 
-            className="lg:col-span-7 bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-7 sm:p-8 shadow-card overflow-y-auto max-h-[82vh] leading-relaxed select-text transition-colors duration-300"
+            className={`${practiceMobileTab === "passage" ? "block" : "hidden"} lg:block lg:col-span-7 bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-5 sm:p-8 shadow-card overflow-y-auto max-h-[75vh] lg:max-h-[82vh] leading-relaxed select-text transition-colors duration-300`}
           >
             <div className="flex items-center justify-between pb-3.5 mb-5 border-b border-stone-100 dark:border-zinc-800">
-              <span className="text-xs font-bold font-sans uppercase tracking-wider text-stone-900 dark:text-zinc-100">
+              <span className="text-xs font-bold font-sans uppercase tracking-wider text-stone-900 dark:text-zinc-100 truncate pr-2">
                 {relatedPassage.title}
               </span>
-              <span className="text-[11px] text-stone-400 dark:text-zinc-500 font-sans">💡 双击文中单词即刻离线查词</span>
+              <span className="text-[11px] text-stone-400 dark:text-zinc-500 font-sans shrink-0">💡 双击查词</span>
             </div>
             <div className={`text-stone-800 dark:text-zinc-200 font-serif selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30 whitespace-pre-line tracking-wide ${
               largeFont ? "text-lg leading-[2.1]" : "text-[15px] sm:text-base leading-[1.85]"
             }`}>
               {relatedPassage.content}
             </div>
+
+            {/* Mobile Return to Question Button */}
+            <div className="lg:hidden mt-6 pt-4 border-t border-stone-100 dark:border-zinc-800 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setPracticeMobileTab("question")}
+                className="px-4 py-2 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] text-xs font-bold flex items-center space-x-1.5 shadow-subtle active:scale-95"
+              >
+                <span>查看题目作答 ({currentIndex + 1}/{questions.length}) &rarr;</span>
+              </button>
+            </div>
           </div>
         )}
 
         {/* Right Column: Question Card & Options */}
-        <div className={`space-y-5 ${relatedPassage ? "lg:col-span-5" : ""}`}>
-          <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-6 sm:p-7 shadow-card space-y-5 transition-colors duration-300">
+        <div className={`${practiceMobileTab === "question" ? "block" : "hidden"} lg:block space-y-5 ${relatedPassage ? "lg:col-span-5" : ""}`}>
+          <div className="bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 p-5 sm:p-7 shadow-card space-y-5 transition-colors duration-300">
             <div className="flex items-start justify-between gap-4">
               <div className="flex items-center space-x-2">
                 <span className="px-2.5 py-0.5 rounded-md text-xs font-bold bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] font-mono shadow-subtle dark:shadow-glow-cyan">
@@ -362,17 +406,30 @@ function PracticeContent() {
                 </span>
               </div>
 
-              <button
-                onClick={handleToggleFav}
-                className={`px-2.5 py-1 rounded-lg border text-xs font-medium flex items-center space-x-1.5 transition-all duration-150 ${
-                  isFavorited 
-                    ? "bg-amber-50 dark:bg-amber-950/50 border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-300 font-semibold" 
-                    : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-400 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200 shadow-subtle"
-                }`}
-              >
-                <Bookmark className={`w-3.5 h-3.5 ${isFavorited ? "fill-amber-400" : ""}`} />
-                <span>{isFavorited ? "已收藏" : "收藏"}</span>
-              </button>
+              <div className="flex items-center space-x-1.5">
+                {relatedPassage && (
+                  <button
+                    type="button"
+                    onClick={() => setPracticeMobileTab("passage")}
+                    className="lg:hidden px-2 py-1 rounded-lg bg-stone-100 dark:bg-zinc-800 text-stone-600 dark:text-zinc-300 border border-black/[0.04] dark:border-cyan-500/20 text-xs font-semibold flex items-center space-x-1 active:scale-95"
+                  >
+                    <BookOpen className="w-3 h-3" />
+                    <span>看原文</span>
+                  </button>
+                )}
+
+                <button
+                  onClick={handleToggleFav}
+                  className={`px-2.5 py-1 rounded-lg border text-xs font-medium flex items-center space-x-1.5 transition-all duration-150 ${
+                    isFavorited 
+                      ? "bg-amber-50 dark:bg-amber-950/50 border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-300 font-semibold" 
+                      : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-400 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200 shadow-subtle"
+                  }`}
+                >
+                  <Bookmark className={`w-3.5 h-3.5 ${isFavorited ? "fill-amber-400" : ""}`} />
+                  <span>{isFavorited ? "已收藏" : "收藏"}</span>
+                </button>
+              </div>
             </div>
 
             <h3 className="text-base font-bold text-stone-900 dark:text-zinc-100 leading-relaxed">
@@ -491,24 +548,28 @@ function PracticeContent() {
             )}
           </div>
 
-          {/* Bottom Nav Buttons */}
-          <div className="flex items-center justify-between">
+          {/* Bottom Nav Stepper Buttons */}
+          <div className="flex items-center justify-between gap-3 pt-2">
             <button
               onClick={() => navigateTo(currentIndex - 1)}
               disabled={currentIndex === 0}
-              className="px-4 py-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 disabled:opacity-40 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
+              className="flex-1 sm:flex-none px-4 py-2.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 disabled:opacity-30 text-xs font-bold flex items-center justify-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
             >
-              <ChevronLeft className="w-3.5 h-3.5" />
-              <span>上一题 (←)</span>
+              <ChevronLeft className="w-4 h-4" />
+              <span>上一题</span>
             </button>
+
+            <span className="text-xs font-mono font-bold text-stone-500 dark:text-zinc-400 sm:hidden">
+              {currentIndex + 1} / {questions.length}
+            </span>
 
             <button
               onClick={() => navigateTo(currentIndex + 1)}
               disabled={currentIndex === questions.length - 1}
-              className="px-5 py-2 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 disabled:opacity-40 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle hover:shadow-card dark:shadow-glow-cyan flex items-center space-x-1.5 transition-all active:scale-[0.98]"
+              className="flex-1 sm:flex-none px-5 py-2.5 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 disabled:opacity-30 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle hover:shadow-card dark:shadow-glow-cyan flex items-center justify-center space-x-1.5 transition-all active:scale-[0.98]"
             >
-              <span>下一题 (→)</span>
-              <ChevronRight className="w-3.5 h-3.5" />
+              <span>下一题</span>
+              <ChevronRight className="w-4 h-4" />
             </button>
           </div>
         </div>

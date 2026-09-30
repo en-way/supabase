@@ -87,6 +87,9 @@ export default function MistakesPage() {
   // Print mode toggle
   const [printWithAnswers, setPrintWithAnswers] = useState(true);
 
+  // Mobile studio tab state
+  const [studioMobileTab, setStudioMobileTab] = useState<"passage" | "question">("question");
+
   useEffect(() => {
     loadLocalMistakes();
   }, []);
@@ -428,26 +431,26 @@ export default function MistakesPage() {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex items-center space-x-2">
+        <div className="flex flex-wrap items-center gap-2">
           <button
             onClick={handleManualReconcile}
             disabled={isReconciling}
-            className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98] disabled:opacity-60"
+            className="flex-1 sm:flex-none justify-center px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98] disabled:opacity-60"
             title="强制刷新考卷缓存并校验本地错题最新考点"
           >
             <RotateCcw className={`w-3.5 h-3.5 text-zinc-500 dark:text-zinc-400 ${isReconciling ? "animate-spin" : ""}`} />
-            <span>{isReconciling ? "核对中..." : "核对最新考点"}</span>
+            <span>{isReconciling ? "核对中..." : "核对考点"}</span>
           </button>
           <button
             onClick={handleExportTxt}
-            className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
+            className="flex-1 sm:flex-none justify-center px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
           >
             <Download className="w-3.5 h-3.5 text-zinc-500 dark:text-zinc-400" />
             <span>导出 TXT</span>
           </button>
           <button
             onClick={() => window.print()}
-            className="px-3.5 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-600 dark:text-zinc-950 dark:font-black text-xs font-bold flex items-center space-x-1.5 shadow-subtle transition-all active:scale-[0.98]"
+            className="w-full sm:w-auto justify-center px-3.5 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-600 dark:text-zinc-950 dark:font-black text-xs font-bold flex items-center space-x-1.5 shadow-subtle transition-all active:scale-[0.98]"
           >
             <Printer className="w-3.5 h-3.5" />
             <span>打印 / 导出 PDF</span>
@@ -751,11 +754,41 @@ export default function MistakesPage() {
               </div>
             </div>
 
+            {/* Mobile View Switcher for Studio */}
+            {sideBySideItem.detail.passages?.content && (
+              <div className="lg:hidden flex items-center bg-slate-800 dark:bg-zinc-900 p-1 border-b border-slate-700 dark:border-zinc-800 shrink-0">
+                <button
+                  type="button"
+                  onClick={() => setStudioMobileTab("passage")}
+                  className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+                    studioMobileTab === "passage"
+                      ? "bg-amber-500 text-slate-950 font-black shadow-sm"
+                      : "text-slate-300 hover:text-white"
+                  }`}
+                >
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>阅读篇章原文</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setStudioMobileTab("question")}
+                  className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+                    studioMobileTab === "question"
+                      ? "bg-amber-500 text-slate-950 font-black shadow-sm"
+                      : "text-slate-300 hover:text-white"
+                  }`}
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>错题重做与精析</span>
+                </button>
+              </div>
+            )}
+
             {/* Split Screen Workspace: 55% Left, 45% Right */}
             <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
               {/* Left Pane: Golden 55% Reading Canvas */}
               {sideBySideItem.detail.passages?.content ? (
-                <div className="lg:w-[55%] border-r border-stone-200/90 dark:border-cyan-500/20 flex flex-col bg-[#fcfbf9] dark:bg-[#090a0f] h-full overflow-hidden">
+                <div className={`${studioMobileTab === "passage" ? "flex" : "hidden"} lg:flex lg:w-[55%] border-r border-stone-200/90 dark:border-cyan-500/20 flex-col bg-[#fcfbf9] dark:bg-[#090a0f] h-full overflow-hidden`}>
                   <div className="px-5 py-3 border-b border-stone-200/80 dark:border-cyan-500/20 bg-[#f8f6f0] dark:bg-[#11131a] flex items-center justify-between shrink-0">
                     <div className="flex items-center space-x-2">
                       <BookOpen className="w-4 h-4 text-amber-700 dark:text-amber-400" />
@@ -797,6 +830,17 @@ export default function MistakesPage() {
                       <span>提示：双击文中任意生词，即可唤醒离线词典查词并收录至生词本。</span>
                     </div>
                   </div>
+
+                  {/* Mobile Switch to Question Button */}
+                  <div className="lg:hidden p-3 border-t border-stone-200/80 dark:border-zinc-800 bg-[#f8f6f0] dark:bg-[#11131a] flex justify-end shrink-0">
+                    <button
+                      type="button"
+                      onClick={() => setStudioMobileTab("question")}
+                      className="px-4 py-1.5 rounded-xl bg-amber-600 dark:bg-amber-500 text-white dark:text-zinc-950 text-xs font-bold flex items-center space-x-1 shadow-subtle active:scale-95"
+                    >
+                      <span>前往作答与查看精析 &rarr;</span>
+                    </button>
+                  </div>
                 </div>
               ) : (
                 <div className="hidden lg:flex lg:w-[55%] border-r border-stone-200 dark:border-cyan-500/20 bg-[#fcfbf9] dark:bg-[#090a0f] p-8 flex-col items-center justify-center text-center">
@@ -811,7 +855,7 @@ export default function MistakesPage() {
               )}
 
               {/* Right Pane: Golden 45% Answering Canvas */}
-              <div className="flex-1 lg:w-[45%] flex flex-col bg-white dark:bg-[#11131a] h-full overflow-hidden">
+              <div className={`${studioMobileTab === "question" || !sideBySideItem.detail.passages?.content ? "flex" : "hidden"} lg:flex flex-1 lg:w-[45%] flex-col bg-white dark:bg-[#11131a] h-full overflow-hidden`}>
                 <div className="px-6 py-3 border-b border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shrink-0 bg-slate-50/50 dark:bg-zinc-900/60">
                   <div className="flex items-center space-x-2">
                     <span className="text-xs font-bold bg-amber-100 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 px-2 py-0.5 rounded border border-transparent dark:border-amber-500/20">
@@ -822,16 +866,29 @@ export default function MistakesPage() {
                     </span>
                   </div>
 
-                  <button
-                    onClick={() => handleToggle(sideBySideItem.mistake.questionId)}
-                    className={`px-3 py-1 rounded-lg text-xs font-bold border transition-colors ${
-                      sideBySideItem.mistake.isMastered
-                        ? "bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-zinc-400 border-slate-200 dark:border-zinc-700"
-                        : "bg-emerald-50 dark:bg-emerald-500/10 border-emerald-300 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-500/20"
-                    }`}
-                  >
-                    {sideBySideItem.mistake.isMastered ? "撤销已掌握" : "标为已掌握"}
-                  </button>
+                  <div className="flex items-center space-x-2">
+                    {sideBySideItem.detail.passages?.content && (
+                      <button
+                        type="button"
+                        onClick={() => setStudioMobileTab("passage")}
+                        className="lg:hidden px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border border-amber-200/60 dark:border-amber-500/20 text-xs font-semibold flex items-center space-x-1 active:scale-95"
+                      >
+                        <BookOpen className="w-3 h-3" />
+                        <span>看原文</span>
+                      </button>
+                    )}
+
+                    <button
+                      onClick={() => handleToggle(sideBySideItem.mistake.questionId)}
+                      className={`px-3 py-1 rounded-lg text-xs font-bold border transition-colors ${
+                        sideBySideItem.mistake.isMastered
+                          ? "bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-zinc-400 border-slate-200 dark:border-zinc-700"
+                          : "bg-emerald-50 dark:bg-emerald-500/10 border-emerald-300 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-500/20"
+                      }`}
+                    >
+                      {sideBySideItem.mistake.isMastered ? "撤销已掌握" : "标为已掌握"}
+                    </button>
+                  </div>
                 </div>
 
                 {/* Right Scrollable Area */}
