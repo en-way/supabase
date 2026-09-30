@@ -37,25 +37,27 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
     };
   }, []);
 
+  const isLoginPage = pathname === "/login" || pathname === "/login/" || pathname?.startsWith("/login");
+
   // 2. Pure route protection and redirection (0 Supabase API calls on navigation)
   useEffect(() => {
     if (isAuthenticated === null) return;
 
-    if (!isAuthenticated && pathname !== "/login") {
+    if (!isAuthenticated && !isLoginPage) {
       const currentUrl = typeof window !== "undefined"
         ? window.location.pathname + window.location.search
         : pathname;
-      const redirectUrl = currentUrl && currentUrl !== "/"
+      const redirectUrl = currentUrl && currentUrl !== "/" && currentUrl !== "/login" && currentUrl !== "/login/"
         ? `/login?redirect=${encodeURIComponent(currentUrl)}`
         : "/login";
       router.replace(redirectUrl);
-    } else if (isAuthenticated && pathname === "/login") {
+    } else if (isAuthenticated && isLoginPage) {
       router.replace("/");
     }
-  }, [pathname, router, isAuthenticated]);
+  }, [pathname, router, isAuthenticated, isLoginPage]);
 
   // 1. If on login page, render only if NOT authenticated (or redirect to home if already logged in)
-  if (pathname === "/login") {
+  if (isLoginPage) {
     return isAuthenticated === true ? null : <>{children}</>;
   }
 

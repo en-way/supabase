@@ -38,7 +38,7 @@ function getSafeRedirectTarget(): string {
     }
 
     // 3. Prevent infinite redirect loop back to login
-    if (parsed.pathname === "/login") {
+    if (parsed.pathname === "/login" || parsed.pathname === "/login/" || parsed.pathname.startsWith("/login")) {
       return "/";
     }
 

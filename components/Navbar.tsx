@@ -253,7 +253,8 @@ export default function Navbar() {
     }
   };
 
-  if (pathname === "/login") return null;
+  const isLoginPage = pathname === "/login" || pathname === "/login/" || pathname?.startsWith("/login");
+  if (isLoginPage) return null;
 
   const isAnyAdmin = profile?.role === "admin" || profile?.role === "super_admin";
 
