@@ -120,22 +120,22 @@
       "options": [
         {
           "key": "A",
-          "text": "value"
+          "text": "defeat"
         },
         {
           "key": "B",
-          "text": "grief"
+          "text": "value"
         },
         {
           "key": "C",
-          "text": "defeat"
+          "text": "grief"
         },
         {
           "key": "D",
           "text": "panic"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】商业搭配。enhance long-term shareholder value（提升长期股东价值）。",
       "points": 0.5,
       "sort_order": 2
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "responsibility"
-        },
-        {
-          "key": "B",
-          "text": "negligence"
-        },
-        {
-          "key": "C",
           "text": "conspiracy"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "responsibility"
+        },
+        {
+          "key": "C",
           "text": "paralysis"
+        },
+        {
+          "key": "D",
+          "text": "negligence"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】专业搭配。corporate social responsibility（企业社会责任，CSR）。",
       "points": 0.5,
       "sort_order": 3
@@ -184,11 +184,11 @@
         },
         {
           "key": "B",
-          "text": "intruders"
+          "text": "superstitions"
         },
         {
           "key": "C",
-          "text": "superstitions"
+          "text": "intruders"
         },
         {
           "key": "D",
@@ -210,11 +210,11 @@
       "options": [
         {
           "key": "A",
-          "text": "oversight"
+          "text": "secrecy"
         },
         {
           "key": "B",
-          "text": "betrayal"
+          "text": "oversight"
         },
         {
           "key": "C",
@@ -222,10 +222,10 @@
         },
         {
           "key": "D",
-          "text": "secrecy"
+          "text": "betrayal"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】管理名词。modernized corporate oversight（现代化公司合规治理与监督）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "corporation"
-        },
-        {
-          "key": "B",
-          "text": "monastery"
-        },
-        {
-          "key": "C",
           "text": "barracks"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "corporation"
+        },
+        {
+          "key": "C",
           "text": "cemetery"
+        },
+        {
+          "key": "D",
+          "text": "monastery"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】商业主体。the fundamental purpose of the modern corporation（现代企业的根本宗旨）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,11 +270,11 @@
       "options": [
         {
           "key": "A",
-          "text": "returns"
+          "text": "scandals"
         },
         {
           "key": "B",
-          "text": "scandals"
+          "text": "crimes"
         },
         {
           "key": "C",
@@ -282,10 +282,10 @@
         },
         {
           "key": "D",
-          "text": "crimes"
+          "text": "returns"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】商业名词。maximizing financial returns for investors（为股权投资者谋取财务回报最大化）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "earnings"
-        },
-        {
-          "key": "B",
           "text": "deficits"
         },
         {
+          "key": "B",
+          "text": "funerals"
+        },
+        {
           "key": "C",
-          "text": "penalties"
+          "text": "earnings"
         },
         {
           "key": "D",
-          "text": "funerals"
+          "text": "penalties"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】商业名词。inflate short-term quarterly earnings（虚增短期的季度每股收益/财报利润）。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "environment"
-        },
-        {
-          "key": "B",
           "text": "weapon"
         },
         {
+          "key": "B",
+          "text": "environment"
+        },
+        {
           "key": "C",
-          "text": "prison"
+          "text": "dungeon"
         },
         {
           "key": "D",
-          "text": "dungeon"
+          "text": "prison"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】生态名词。communities and the natural environment（社区与自然生态环境）。",
       "points": 0.5,
       "sort_order": 9
@@ -368,11 +368,11 @@
         },
         {
           "key": "C",
-          "text": "rebellion"
+          "text": "paralysis"
         },
         {
           "key": "D",
-          "text": "paralysis"
+          "text": "rebellion"
         }
       ],
       "correct_answer": "A",
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "duty"
-        },
-        {
-          "key": "B",
-          "text": "scandal"
-        },
-        {
-          "key": "C",
           "text": "sin"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "ruin"
+        },
+        {
+          "key": "C",
+          "text": "scandal"
+        },
+        {
+          "key": "D",
+          "text": "duty"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】法律名词。core fiduciary duty（核心受信托职责与信义义务）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,7 +420,7 @@
       "options": [
         {
           "key": "A",
-          "text": "adoption"
+          "text": "collapse"
         },
         {
           "key": "B",
@@ -428,14 +428,14 @@
         },
         {
           "key": "C",
-          "text": "destruction"
+          "text": "adoption"
         },
         {
           "key": "D",
-          "text": "collapse"
+          "text": "destruction"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】环保搭配。targets for renewable energy adoption（设定采纳可再生能源的约束性目标）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,11 +450,11 @@
       "options": [
         {
           "key": "A",
-          "text": "transformation"
+          "text": "paralysis"
         },
         {
           "key": "B",
-          "text": "paralysis"
+          "text": "stagnation"
         },
         {
           "key": "C",
@@ -462,10 +462,10 @@
         },
         {
           "key": "D",
-          "text": "stagnation"
+          "text": "transformation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。undergone an equally dramatic transformation（经历了同样剧烈的深刻转变）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "conduct"
-        },
-        {
-          "key": "B",
-          "text": "charity"
-        },
-        {
-          "key": "C",
           "text": "praise"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "loyalty"
+        },
+        {
+          "key": "C",
+          "text": "conduct"
+        },
+        {
+          "key": "D",
+          "text": "charity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】消极修辞。抵制伴随不道德高管行径的品牌（unethical executive conduct）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "platitudes"
-        },
-        {
-          "key": "B",
           "text": "miracles"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "heroics"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "triumphs"
+        },
+        {
+          "key": "D",
+          "text": "platitudes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。不能再躲在空洞模糊的公关陈词滥调（opaque PR platitudes）之后。",
       "points": 0.5,
       "sort_order": 15
@@ -540,7 +540,7 @@
       "options": [
         {
           "key": "A",
-          "text": "integrity"
+          "text": "greed"
         },
         {
           "key": "B",
@@ -552,10 +552,10 @@
         },
         {
           "key": "D",
-          "text": "greed"
+          "text": "integrity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】褒义并列。reconciling commercial profit with ethical integrity（将商业利润与道德操守相调和）。",
       "points": 0.5,
       "sort_order": 16
@@ -574,7 +574,7 @@
         },
         {
           "key": "B",
-          "text": "weapons"
+          "text": "scandals"
         },
         {
           "key": "C",
@@ -582,7 +582,7 @@
         },
         {
           "key": "D",
-          "text": "scandals"
+          "text": "weapons"
         }
       ],
       "correct_answer": "A",
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "whole"
+          "text": "relic"
         },
         {
           "key": "B",
-          "text": "fraction"
-        },
-        {
-          "key": "C",
           "text": "shadow"
         },
         {
+          "key": "C",
+          "text": "fraction"
+        },
+        {
           "key": "D",
-          "text": "relic"
+          "text": "whole"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。elevates humanity as a whole（提升全人类整体福祉）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "ahead"
+          "text": "past"
         },
         {
           "key": "B",
-          "text": "behind"
+          "text": "ahead"
         },
         {
           "key": "C",
-          "text": "away"
+          "text": "behind"
         },
         {
           "key": "D",
-          "text": "past"
+          "text": "away"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】副词时间。throughout the decades ahead（在未来的数十年间）。",
       "points": 0.5,
       "sort_order": 19
@@ -664,11 +664,11 @@
         },
         {
           "key": "B",
-          "text": "without"
+          "text": "beside"
         },
         {
           "key": "C",
-          "text": "beside"
+          "text": "without"
         },
         {
           "key": "D",
@@ -690,11 +690,11 @@
       "options": [
         {
           "key": "A",
-          "text": "The loss of traditional cooking skills due to reliance on processed foods."
+          "text": "A severe shortage of professional restaurant head chefs in cities."
         },
         {
           "key": "B",
-          "text": "A severe shortage of professional restaurant head chefs in cities."
+          "text": "A complete decline in the agricultural yield of wheat and corn."
         },
         {
           "key": "C",
@@ -702,10 +702,10 @@
         },
         {
           "key": "D",
-          "text": "A complete decline in the agricultural yield of wheat and corn."
+          "text": "The loss of traditional cooking skills due to reliance on processed foods."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】词义事实题。第一段指出“烹饪去技能化（culinary de-skilling）”是指传统从生鲜下厨的技能逐步丧失，转而依赖微波加工预制食品。",
       "points": 2,
       "sort_order": 21
@@ -724,15 +724,15 @@
         },
         {
           "key": "B",
-          "text": "A total global shortage of tap water inside home kitchens."
-        },
-        {
-          "key": "C",
           "text": "National laws forbidding parents from preparing home meals."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "The astronomical cost of purchasing basic cooking knives."
+        },
+        {
+          "key": "D",
+          "text": "A total global shortage of tap water inside home kitchens."
         }
       ],
       "correct_answer": "A",
@@ -750,22 +750,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Combining refined sugars, unhealthy fats, and high sodium."
+          "text": "Freezing all ingredients down to absolute zero temperatures."
         },
         {
           "key": "B",
-          "text": "Adding massive quantities of biological antibiotics and vaccines."
+          "text": "Combining refined sugars, unhealthy fats, and high sodium."
         },
         {
           "key": "C",
-          "text": "Freezing all ingredients down to absolute zero temperatures."
+          "text": "Adding massive quantities of biological antibiotics and vaccines."
         },
         {
           "key": "D",
           "text": "Removing all caloric energy and nutritional vitamins."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第三段指出食品商为了达到让人上瘾的“极乐点（bliss point）”，故意添加精制糖、反式脂肪和高钠，带来慢性病风险。",
       "points": 2,
       "sort_order": 23
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Disrupts the intergenerational transmission of culture and shared rituals."
-        },
-        {
-          "key": "B",
           "text": "Forces children to sleep in kitchen pantries on cold floors."
         },
         {
+          "key": "B",
+          "text": "Disrupts the intergenerational transmission of culture and shared rituals."
+        },
+        {
           "key": "C",
-          "text": "Causes residential electricity grids to collapse during dinner."
+          "text": "Prevents parents from purchasing school textbooks for children."
         },
         {
           "key": "D",
-          "text": "Prevents parents from purchasing school textbooks for children."
+          "text": "Causes residential electricity grids to collapse during dinner."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节推断题。第四段指出下厨原本是家庭代际传递文化与生活智慧的共享仪式，去技能化破坏了家庭围炉的社交与情感凝聚纽带。",
       "points": 2,
       "sort_order": 24
@@ -818,11 +818,11 @@
         },
         {
           "key": "C",
-          "text": "Forbidding parents from working full-time corporate jobs."
+          "text": "Requiring every family to eat exclusively raw unwashed vegetables."
         },
         {
           "key": "D",
-          "text": "Requiring every family to eat exclusively raw unwashed vegetables."
+          "text": "Forbidding parents from working full-time corporate jobs."
         }
       ],
       "correct_answer": "A",
@@ -840,22 +840,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Massive web traffic would generate lucrative digital advertising revenues."
+          "text": "Readers would voluntarily send cash donations in paper envelopes."
         },
         {
           "key": "B",
-          "text": "Print newspapers would become ten times more expensive to produce."
+          "text": "Massive web traffic would generate lucrative digital advertising revenues."
         },
         {
           "key": "C",
-          "text": "Governments would pay lifetime pensions to all investigative reporters."
+          "text": "Print newspapers would become ten times more expensive to produce."
         },
         {
           "key": "D",
-          "text": "Readers would voluntarily send cash donations in paper envelopes."
+          "text": "Governments would pay lifetime pensions to all investigative reporters."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段指出报社最初免费开放线上内容是天真地寄希望于海量流量能带来丰厚的数字广告收益（lucrative digital advertising）。",
       "points": 2,
       "sort_order": 26
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Tech platforms monopolized digital ads and online ad rates plummeted."
-        },
-        {
-          "key": "B",
           "text": "Citizens collectively forgot how to read English sentences."
         },
         {
+          "key": "B",
+          "text": "Tech platforms monopolized digital ads and online ad rates plummeted."
+        },
+        {
           "key": "C",
-          "text": "Computers became illegal across North America and Europe."
+          "text": "Journalists refused to use internet word processing software."
         },
         {
           "key": "D",
-          "text": "Journalists refused to use internet word processing software."
+          "text": "Computers became illegal across North America and Europe."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第二段指出数字广告份额被搜索和社交算法巨头所垄断，单个读者的广告单价惨跌，报社难以维持开支而濒临破产。",
       "points": 2,
       "sort_order": 27
@@ -900,7 +900,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Allowing a few free articles monthly before requiring a paid subscription."
+          "text": "Banning anyone outside New York from accessing news websites."
         },
         {
           "key": "B",
@@ -908,14 +908,14 @@
         },
         {
           "key": "C",
-          "text": "Requiring users to pass advanced college calculus examinations."
+          "text": "Allowing a few free articles monthly before requiring a paid subscription."
         },
         {
           "key": "D",
-          "text": "Banning anyone outside New York from accessing news websites."
+          "text": "Requiring users to pass advanced college calculus examinations."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出“计量付费墙（metered paywalls）”允许读者每月免费阅读固定篇数，超额后才需付费订阅。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Liberating journalists from relying on sensationalist clickbait."
+          "text": "Tripling the physical weight of daily print newspaper editions."
         },
         {
           "key": "B",
-          "text": "Forcing all reporters to work without receiving financial salaries."
-        },
-        {
-          "key": "C",
           "text": "Eliminating the need for any factual verification or editing."
         },
         {
+          "key": "C",
+          "text": "Forcing all reporters to work without receiving financial salaries."
+        },
+        {
           "key": "D",
-          "text": "Tripling the physical weight of daily print newspaper editions."
+          "text": "Liberating journalists from relying on sensationalist clickbait."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出依靠读者直接订阅而非点击量，使新闻编辑部摆脱了追求博人眼球的“诱导点击标题党（clickbait sensationalism）”。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Reputable news is paywalled while fake news and propaganda circulate freely."
+          "text": "Tech companies are forced to delete all social media applications."
         },
         {
           "key": "B",
-          "text": "Public libraries are forced to close their reading rooms permanently."
-        },
-        {
-          "key": "C",
           "text": "Young citizens refuse to read any books written before 2000."
         },
         {
+          "key": "C",
+          "text": "Reputable news is paywalled while fake news and propaganda circulate freely."
+        },
+        {
           "key": "D",
-          "text": "Tech companies are forced to delete all social media applications."
+          "text": "Public libraries are forced to close their reading rooms permanently."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】结论态度题。末段警告付费墙的公民隐患：严谨新闻被高墙阻隔，而虚假谣言却在开放网络零门槛泛滥，加剧了信息阶层分化（informational stratification）。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Believed physical face-to-face surveillance was necessary for productivity."
+          "text": "Were legally forbidden from communicating over telephone lines."
         },
         {
           "key": "B",
-          "text": "Worried that home offices would consume excessive national electricity."
-        },
-        {
-          "key": "C",
           "text": "Feared that employees would become too intelligent to manage."
         },
         {
+          "key": "C",
+          "text": "Worried that home offices would consume excessive national electricity."
+        },
+        {
           "key": "D",
-          "text": "Were legally forbidden from communicating over telephone lines."
+          "text": "Believed physical face-to-face surveillance was necessary for productivity."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出过去管理者怀疑远程办公是因为他们顽固地认定当面物理监督是保证员工勤勉不可或缺的前提（surveillance as prerequisite）。",
       "points": 2,
       "sort_order": 31
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Increased productivity by 13 percent and took fewer sick days."
-        },
-        {
-          "key": "B",
           "text": "Completely stopped communicating with their project managers."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Suffered a 90 percent decline in work quality."
+        },
+        {
+          "key": "C",
+          "text": "Increased productivity by 13 percent and took fewer sick days."
         },
         {
           "key": "D",
           "text": "Demanded triple their original salaries within three weeks."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出 Bloom 的里程碑实证研究证实远程员工生产率提升了13%，病假减少且满意度显著提高。",
       "points": 2,
       "sort_order": 32
@@ -1058,11 +1058,11 @@
         },
         {
           "key": "C",
-          "text": "Force workers to pay for their own computer servers."
+          "text": "Avoid paying municipal business property taxes."
         },
         {
           "key": "D",
-          "text": "Avoid paying municipal business property taxes."
+          "text": "Force workers to pay for their own computer servers."
         }
       ],
       "correct_answer": "A",
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "The loss of spontaneous collaborative exchanges and junior mentorship."
-        },
-        {
-          "key": "B",
-          "text": "A severe shortage of home broadband fiber cables worldwide."
-        },
-        {
-          "key": "C",
           "text": "Workers refusing to wear business attire on video screens."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Computer viruses destroying all digital documents every evening."
+        },
+        {
+          "key": "C",
+          "text": "The loss of spontaneous collaborative exchanges and junior mentorship."
+        },
+        {
+          "key": "D",
+          "text": "A severe shortage of home broadband fiber cables worldwide."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节理解题。第四段指出痛点在于自发性偶遇灵感协作消失，新人缺乏耳濡目染的文化熏陶与导师指导（mentorship & spontaneous exchanges）。",
       "points": 2,
       "sort_order": 34
@@ -1114,11 +1114,11 @@
         },
         {
           "key": "B",
-          "text": "Mandate that all workers sleep inside the physical corporate office."
+          "text": "Abolish all digital communication tools like email and video calls."
         },
         {
           "key": "C",
-          "text": "Abolish all digital communication tools like email and video calls."
+          "text": "Mandate that all workers sleep inside the physical corporate office."
         },
         {
           "key": "D",
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Separate infrastructure management and private commercial franchises."
-        },
-        {
-          "key": "B",
           "text": "Fifty autonomous military divisions commanded by naval admirals."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "A completely underground subway network with zero aboveground tracks."
+        },
+        {
+          "key": "C",
+          "text": "Separate infrastructure management and private commercial franchises."
         },
         {
           "key": "D",
           "text": "Foreign-owned airline carrier networks operating on water."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出1993年私有化法案将英国铁路肢解为轨道基础设施管理与私营车企客运特许经营权（commercial franchises）两大碎片化板块。",
       "points": 2,
       "sort_order": 36
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Pay some of the highest passenger ticket prices in Western Europe."
-        },
-        {
-          "key": "B",
-          "text": "Are legally required to pay for train tickets with real gold bars."
-        },
-        {
-          "key": "C",
           "text": "Must purchase tickets twenty-five years in advance of travel."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Are forbidden from bringing luggage onto passenger cars."
+        },
+        {
+          "key": "C",
+          "text": "Pay some of the highest passenger ticket prices in Western Europe."
+        },
+        {
+          "key": "D",
+          "text": "Are legally required to pay for train tickets with real gold bars."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第三段指出票价并未便宜，英国通勤客支付着全欧洲最贵的高昂票价（highest fares in Europe），季票挤占大量工薪收入。",
       "points": 2,
       "sort_order": 38
@@ -1230,7 +1230,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Extract private dividends while taxpayers bail out distressed franchises."
+          "text": "Pay 90 percent of their ticket revenues directly to public schools."
         },
         {
           "key": "B",
@@ -1238,14 +1238,14 @@
         },
         {
           "key": "C",
-          "text": "Pay 90 percent of their ticket revenues directly to public schools."
+          "text": "Prohibit passengers from stepping onto station platforms."
         },
         {
           "key": "D",
-          "text": "Prohibit passengers from stepping onto station platforms."
+          "text": "Extract private dividends while taxpayers bail out distressed franchises."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出制度弊端在于“利润私有化，亏损公有化”：私营车企拿政府巨额补贴分红，遇危机便弃约甩锅，逼纳税人买单兜底。",
       "points": 2,
       "sort_order": 39

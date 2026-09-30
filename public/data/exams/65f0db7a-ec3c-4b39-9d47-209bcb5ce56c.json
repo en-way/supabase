@@ -128,11 +128,11 @@
         },
         {
           "key": "C",
-          "text": "vagueness"
+          "text": "fragility"
         },
         {
           "key": "D",
-          "text": "fragility"
+          "text": "vagueness"
         }
       ],
       "correct_answer": "A",
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fluctuations"
-        },
-        {
-          "key": "B",
-          "text": "stagnations"
-        },
-        {
-          "key": "C",
           "text": "resemblances"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "fluctuations"
+        },
+        {
+          "key": "C",
           "text": "guarantees"
+        },
+        {
+          "key": "D",
+          "text": "stagnations"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。climatic fluctuations（气候波动），符合四季变换与生物洄游响应的自然规律。",
       "points": 0.5,
       "sort_order": 3
@@ -184,11 +184,11 @@
         },
         {
           "key": "B",
-          "text": "thriving"
+          "text": "visible"
         },
         {
           "key": "C",
-          "text": "visible"
+          "text": "thriving"
         },
         {
           "key": "D",
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "supplant"
-        },
-        {
-          "key": "B",
           "text": "praise"
         },
         {
+          "key": "B",
+          "text": "supplant"
+        },
+        {
           "key": "C",
-          "text": "subsidize"
+          "text": "accelerate"
         },
         {
           "key": "D",
-          "text": "accelerate"
+          "text": "subsidize"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。complement, rather than completely supplant（补充，而非彻底取代），体现新旧手段的协同关系。",
       "points": 0.5,
       "sort_order": 5
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "sanitation"
-        },
-        {
-          "key": "B",
           "text": "diplomatic"
         },
         {
+          "key": "B",
+          "text": "sanitation"
+        },
+        {
           "key": "C",
-          "text": "commercial"
+          "text": "cosmetic"
         },
         {
           "key": "D",
-          "text": "cosmetic"
+          "text": "commercial"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。为防止外部DNA污染，实验流程必须执行严格的卫生/清洁（sanitation）标准。",
       "points": 0.5,
       "sort_order": 6
@@ -274,15 +274,15 @@
         },
         {
           "key": "B",
-          "text": "encourage"
+          "text": "celebrate"
         },
         {
           "key": "C",
-          "text": "disregard"
+          "text": "encourage"
         },
         {
           "key": "D",
-          "text": "celebrate"
+          "text": "disregard"
         }
       ],
       "correct_answer": "A",
@@ -300,7 +300,7 @@
       "options": [
         {
           "key": "A",
-          "text": "activity"
+          "text": "negligence"
         },
         {
           "key": "B",
@@ -308,14 +308,14 @@
         },
         {
           "key": "C",
-          "text": "negligence"
+          "text": "sentiment"
         },
         {
           "key": "D",
-          "text": "sentiment"
+          "text": "activity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。enzymatic activity（酶活性），与紫外线、水温并列为降解生物遗传链的关键物理化学因素。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "unmatched"
-        },
-        {
-          "key": "B",
           "text": "authentic"
         },
         {
+          "key": "B",
+          "text": "reputable"
+        },
+        {
           "key": "C",
-          "text": "universal"
+          "text": "unmatched"
         },
         {
           "key": "D",
-          "text": "reputable"
+          "text": "universal"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析。如果参考基因库中没有该生物的测序记录，探针测得的结果就会是无法匹配的（unmatched）序列。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "bridge"
+          "text": "ignore"
         },
         {
           "key": "B",
-          "text": "widen"
+          "text": "bridge"
         },
         {
           "key": "C",
-          "text": "ignore"
+          "text": "widen"
         },
         {
           "key": "D",
           "text": "endorse"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。bridge voids/gaps（填补空白），分类学家呼吁加快基因条形码编目以填补证据链空白。",
       "points": 0.5,
       "sort_order": 10
@@ -390,11 +390,11 @@
       "options": [
         {
           "key": "A",
-          "text": "challenging"
+          "text": "straightforward"
         },
         {
           "key": "B",
-          "text": "straightforward"
+          "text": "challenging"
         },
         {
           "key": "C",
@@ -405,7 +405,7 @@
           "text": "monotonous"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】上下文逻辑。后文阐述DNA浓度无法与种群数量画等号，因此定量解释依然极具挑战性（challenging）。",
       "points": 0.5,
       "sort_order": 11
@@ -428,11 +428,11 @@
         },
         {
           "key": "C",
-          "text": "spitefully"
+          "text": "randomly"
         },
         {
           "key": "D",
-          "text": "randomly"
+          "text": "spitefully"
         }
       ],
       "correct_answer": "A",
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "swimming"
-        },
-        {
-          "key": "B",
-          "text": "fleeing"
-        },
-        {
-          "key": "C",
           "text": "hibernating"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "decaying"
+        },
+        {
+          "key": "C",
+          "text": "swimming"
+        },
+        {
+          "key": "D",
+          "text": "fleeing"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】分词动作。十多条在河床上畅游的（swimming）健康幼鱼，与上游腐烂的尸体形成鲜明对照。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "derive"
-        },
-        {
-          "key": "B",
-          "text": "distract"
-        },
-        {
-          "key": "C",
           "text": "shield"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "dismiss"
+        },
+        {
+          "key": "C",
+          "text": "distract"
+        },
+        {
+          "key": "D",
+          "text": "derive"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词短语。derive... from...（从……推导/获取），统计学家致力于从原始分子拷贝中推导生物量估算值。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "enforcement"
+          "text": "hesitation"
         },
         {
           "key": "B",
-          "text": "amusement"
-        },
-        {
-          "key": "C",
           "text": "concealment"
         },
         {
+          "key": "C",
+          "text": "enforcement"
+        },
+        {
           "key": "D",
-          "text": "hesitation"
+          "text": "amusement"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。regulatory enforcement（监管执法），政府部门在环境督察与执法中采用 eDNA 技术。",
       "points": 0.5,
       "sort_order": 15
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "inadvertent"
+          "text": "virtuous"
         },
         {
           "key": "B",
-          "text": "intentional"
+          "text": "inadvertent"
         },
         {
           "key": "C",
-          "text": "virtuous"
+          "text": "intentional"
         },
         {
           "key": "D",
           "text": "triumphant"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】形容词辨析。防止压载水在无意之中/非故意地（inadvertent）将破坏性海洋害虫带入新水域。",
       "points": 0.5,
       "sort_order": 16
@@ -574,15 +574,15 @@
         },
         {
           "key": "B",
-          "text": "recede"
+          "text": "subside"
         },
         {
           "key": "C",
-          "text": "evaporate"
+          "text": "recede"
         },
         {
           "key": "D",
-          "text": "subside"
+          "text": "evaporate"
         }
       ],
       "correct_answer": "A",
@@ -604,11 +604,11 @@
         },
         {
           "key": "B",
-          "text": "prosperity"
+          "text": "amplication"
         },
         {
           "key": "C",
-          "text": "amplication"
+          "text": "prosperity"
         },
         {
           "key": "D",
@@ -630,7 +630,7 @@
       "options": [
         {
           "key": "A",
-          "text": "fidelity"
+          "text": "animosity"
         },
         {
           "key": "B",
@@ -642,10 +642,10 @@
         },
         {
           "key": "D",
-          "text": "animosity"
+          "text": "fidelity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词语义。gathering superior spatial fidelity（获取更高空间保真度/精确度的生态数据）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "surveillance"
-        },
-        {
-          "key": "B",
-          "text": "extinction"
-        },
-        {
-          "key": "C",
           "text": "exploitation"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "neglect"
+        },
+        {
+          "key": "C",
+          "text": "extinction"
+        },
+        {
+          "key": "D",
+          "text": "surveillance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词归纳。real-time planetary health surveillance（实时全球生态健康监测/监护体系）。",
       "points": 0.5,
       "sort_order": 20
@@ -694,11 +694,11 @@
         },
         {
           "key": "B",
-          "text": "A severe shortage of federal funding for wilderness infrastructure."
+          "text": "The commercial privatization of iconic scenic valley routes."
         },
         {
           "key": "C",
-          "text": "The commercial privatization of iconic scenic valley routes."
+          "text": "A severe shortage of federal funding for wilderness infrastructure."
         },
         {
           "key": "D",
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Regulate tourist flow and safeguard fragile wilderness environments."
-        },
-        {
-          "key": "B",
-          "text": "Maximize concession revenues through digital booking fees."
-        },
-        {
-          "key": "C",
           "text": "Deter foreign tourists from accessing pristine wildlife corridors."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Regulate tourist flow and safeguard fragile wilderness environments."
+        },
+        {
+          "key": "C",
           "text": "Reallocate federal park lands to local hospitality businesses."
+        },
+        {
+          "key": "D",
+          "text": "Maximize concession revenues through digital booking fees."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】目的意图题。第二段指出实行分时预约系统旨在稳定车流、保护脆弱的野生动物廊道和历史基础设施，即规范客流并保护自然生态。",
       "points": 2,
       "sort_order": 22
@@ -754,15 +754,15 @@
         },
         {
           "key": "B",
-          "text": "Object to paying federal municipal taxes on hospitality services."
-        },
-        {
-          "key": "C",
           "text": "Demand the permanent closure of heavily crowded alpine trails."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Prefer private corporate concessionaires over the federal NPS."
+        },
+        {
+          "key": "D",
+          "text": "Object to paying federal municipal taxes on hospitality services."
         }
       ],
       "correct_answer": "A",
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Infringe upon the egalitarian, unrestricted public access established by law."
-        },
-        {
-          "key": "B",
           "text": "Violate municipal zoning statutes across western gateway counties."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Favor low-income families at the expense of affluent excursionists."
+        },
+        {
+          "key": "C",
+          "text": "Infringe upon the egalitarian, unrestricted public access established by law."
         },
         {
           "key": "D",
           "text": "Fail to generate adequate revenues for park restoration."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】观点态度题。第四段指出法律原旨主义者认为强制预约违背了1916年《国家公园组织法》中全民永久共享的宗旨，侵蚀了本应平等的公共资源性质。",
       "points": 2,
       "sort_order": 24
@@ -818,11 +818,11 @@
         },
         {
           "key": "C",
-          "text": "Digital Automation in Federal Environmental Administration."
+          "text": "The Decline of Wilderness Tourism in the Western States."
         },
         {
           "key": "D",
-          "text": "The Decline of Wilderness Tourism in the Western States."
+          "text": "Digital Automation in Federal Environmental Administration."
         }
       ],
       "correct_answer": "A",
@@ -840,22 +840,22 @@
       "options": [
         {
           "key": "A",
-          "text": "The widespread shift toward hybrid and remote working habits."
-        },
-        {
-          "key": "B",
           "text": "Massive strikes staged by railway track maintenance unions."
         },
         {
+          "key": "B",
+          "text": "The complete privatization of rural passenger lines."
+        },
+        {
           "key": "C",
-          "text": "The rapid construction of high-speed intercity motorways."
+          "text": "The widespread shift toward hybrid and remote working habits."
         },
         {
           "key": "D",
-          "text": "The complete privatization of rural passenger lines."
+          "text": "The rapid construction of high-speed intercity motorways."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段第二句指出，疫情推动的向远程与混合办公（hybrid and remote working）的根本转变，瓦解了传统的通勤客流模式。",
       "points": 2,
       "sort_order": 26
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Fail to offer sufficiently attractive discounts for hybrid commuters."
+          "text": "Have fully restored pre-pandemic commuter fare revenues."
         },
         {
           "key": "B",
-          "text": "Have dramatically boosted weekend leisure passenger volumes."
-        },
-        {
-          "key": "C",
           "text": "Are widely abused by long-distance corporate travelers."
         },
         {
+          "key": "C",
+          "text": "Have dramatically boosted weekend leisure passenger volumes."
+        },
+        {
           "key": "D",
-          "text": "Have fully restored pre-pandemic commuter fare revenues."
+          "text": "Fail to offer sufficiently attractive discounts for hybrid commuters."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第三段最后一句提到调查显示弹性季票的微薄折扣无法为混合办公族提供足够的性价比（fail to provide compelling value）。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "An essential public good generating broad economic and environmental benefits."
-        },
-        {
-          "key": "B",
-          "text": "A commercial business that must generate self-sustaining corporate profits."
-        },
-        {
-          "key": "C",
           "text": "An obsolete mode of travel secondary to private electric vehicles."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "A specialized service reserved exclusively for metropolitan commuters."
+        },
+        {
+          "key": "C",
+          "text": "An essential public good generating broad economic and environmental benefits."
+        },
+        {
+          "key": "D",
+          "text": "A commercial business that must generate self-sustaining corporate profits."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】观点推断题。第四段末尾及第五段指出城市规划学者认为铁路具有缓解拥堵、净化空气和促进平衡等广泛的社会生态外部性，是不可或缺的公共产品（essential public good）。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Critical and disapproving."
-        },
-        {
-          "key": "B",
           "text": "Tolerant and accommodating."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Ambivalent and indifferent."
+        },
+        {
+          "key": "C",
+          "text": "Critical and disapproving."
         },
         {
           "key": "D",
           "text": "Cautiously supportive."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】态度观点题。作者在末段直斥削减铁路运营资金是“灾难性的财政短视（catastrophic fiscal shortsightedness）”，明确表达了强烈的批评与反对态度。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "More vigilant oversight and investigative detection mechanisms."
+          "text": "A severe decline in the competence of junior researchers."
         },
         {
           "key": "B",
-          "text": "A catastrophic and irreversible collapse in global scientific morality."
-        },
-        {
-          "key": "C",
           "text": "The complete failure of peer-reviewed journal publishing."
         },
         {
+          "key": "C",
+          "text": "More vigilant oversight and investigative detection mechanisms."
+        },
+        {
           "key": "D",
-          "text": "A severe decline in the competence of junior researchers."
+          "text": "A catastrophic and irreversible collapse in global scientific morality."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段尾句指出科学社会学家认为撤稿数量激增反映的是审查警惕性的提高（heightened investigative vigilance），而非科学道德的彻底滑坡。",
       "points": 2,
       "sort_order": 31
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Enabling anonymous, post-publication scrutiny without fear of reprisal."
-        },
-        {
-          "key": "B",
           "text": "Automating the peer-review process using artificial intelligence."
         },
         {
+          "key": "B",
+          "text": "Paying independent researchers for verifying laboratory results."
+        },
+        {
           "key": "C",
-          "text": "Restricting public access to controversial biomedical studies."
+          "text": "Enabling anonymous, post-publication scrutiny without fear of reprisal."
         },
         {
           "key": "D",
-          "text": "Paying independent researchers for verifying laboratory results."
+          "text": "Restricting public access to controversial biomedical studies."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出 PubPeer 等平台使得学术举报大众化，让研究者能够在不必担心遭到机构高层报复的前提下开展匿名质疑审查。",
       "points": 2,
       "sort_order": 32
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "A toxic academic culture fixated on quantitative publication metrics."
-        },
-        {
-          "key": "B",
           "text": "A lack of advanced digital software in university laboratories."
         },
         {
+          "key": "B",
+          "text": "A toxic academic culture fixated on quantitative publication metrics."
+        },
+        {
           "key": "C",
-          "text": "Inadequate scientific training among doctoral candidates."
+          "text": "Strict government regulations on experimental trial data."
         },
         {
           "key": "D",
-          "text": "Strict government regulations on experimental trial data."
+          "text": "Inadequate scientific training among doctoral candidates."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第三段明确将病态根源归咎于“不发表就出局”（publish or perish）以及高校重数量指标（影响因子、引用率）轻严谨性的制度导向。",
       "points": 2,
       "sort_order": 33
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Forensic inquiries incur significant legal and editorial expenses."
-        },
-        {
-          "key": "B",
           "text": "They are legally forbidden from retracting published peer-reviewed papers."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "They rarely receive complaints from post-publication whistleblowers."
+        },
+        {
+          "key": "C",
+          "text": "Forensic inquiries incur significant legal and editorial expenses."
         },
         {
           "key": "D",
           "text": "They prioritize open-access data sharing over commercial revenue."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第四段指出出版商对调查造假反应迟缓，因为进行取证调查需要耗费高昂的法律和编辑开支（substantial legal and editorial overhead）。",
       "points": 2,
       "sort_order": 34
@@ -1110,11 +1110,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Mandating open-access deposit of raw data and pre-registered protocols."
+          "text": "Raising the financial submission fees for scientific journals."
         },
         {
           "key": "B",
-          "text": "Prohibiting junior researchers from criticizing senior scholars' work."
+          "text": "Mandating open-access deposit of raw data and pre-registered protocols."
         },
         {
           "key": "C",
@@ -1122,10 +1122,10 @@
         },
         {
           "key": "D",
-          "text": "Raising the financial submission fees for scientific journals."
+          "text": "Prohibiting junior researchers from criticizing senior scholars' work."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】方案建议题。末段指出解决学术诚信危机必须强制推行开放科学协议，要求公开原始数据、代码及预注册实验方案（mandate open-science protocols）。",
       "points": 2,
       "sort_order": 35
@@ -1140,7 +1140,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Growing awareness of the ecological folly of structural demolition."
+          "text": "Government mandates prohibiting any form of urban commercial renewal."
         },
         {
           "key": "B",
@@ -1148,14 +1148,14 @@
         },
         {
           "key": "C",
-          "text": "Government mandates prohibiting any form of urban commercial renewal."
+          "text": "Growing awareness of the ecological folly of structural demolition."
         },
         {
           "key": "D",
           "text": "The total aesthetic failure of modern minimalist architecture."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段首句和末句指出，在碳足迹与资源耗竭背景下，大拆大建被视为生态愚行，最绿色的建筑就是已经存在的建筑（growing awareness of ecological folly）。",
       "points": 2,
       "sort_order": 36
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "During the entire extraction, manufacture, and assembly of materials."
-        },
-        {
-          "key": "B",
           "text": "Exclusively during the daily operational heating of an occupied building."
         },
         {
+          "key": "B",
+          "text": "During the entire extraction, manufacture, and assembly of materials."
+        },
+        {
           "key": "C",
-          "text": "By municipal landfill facilities decomposing architectural debris."
+          "text": "Through the biological respiration of office workers in urban centers."
         },
         {
           "key": "D",
-          "text": "Through the biological respiration of office workers in urban centers."
+          "text": "By municipal landfill facilities decomposing architectural debris."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】词义理解题。第二段首句明确界定了“隐含碳”的概念，即原材料开采、制造、运输和装配全过程所排放的全部温室气体。",
       "points": 2,
       "sort_order": 37
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Rigid, outdated building codes and risk-averse real estate financing."
-        },
-        {
-          "key": "B",
           "text": "Public apathy toward residing in converted historic properties."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "A severe shortage of raw steel and cement for retrofitting."
+        },
+        {
+          "key": "C",
+          "text": "Rigid, outdated building codes and risk-averse real estate financing."
         },
         {
           "key": "D",
           "text": "Widespread opposition from environmental conservation groups."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第四段指出两大主要障碍：僵化陈旧的建筑规范（obsolete building codes）以及偏好标准化拆迁的保守金融资本（biased conventional finance）。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Incentivize structural preservation as an urgent ecological necessity."
+          "text": "Leave preservation decisions entirely to private real estate markets."
         },
         {
           "key": "B",
-          "text": "Ban all new architectural construction in metropolitan downtowns."
+          "text": "Incentivize structural preservation as an urgent ecological necessity."
         },
         {
           "key": "C",
-          "text": "Deregulate historic heritage districts to maximize commercial density."
+          "text": "Ban all new architectural construction in metropolitan downtowns."
         },
         {
           "key": "D",
-          "text": "Leave preservation decisions entirely to private real estate markets."
+          "text": "Deregulate historic heritage districts to maximize commercial density."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】结论态度题。末段呼吁将建筑保护从怀旧情结上升为紧迫的气候使命（urgent climate mandate），并通过容积率奖励、税收减免和隐含碳上限加以引导。",
       "points": 2,
       "sort_order": 40

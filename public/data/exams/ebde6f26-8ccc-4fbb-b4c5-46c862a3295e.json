@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "coherence"
+          "text": "hostility"
         },
         {
           "key": "B",
-          "text": "friction"
-        },
-        {
-          "key": "C",
           "text": "jealousy"
         },
         {
+          "key": "C",
+          "text": "coherence"
+        },
+        {
           "key": "D",
-          "text": "hostility"
+          "text": "friction"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析与句意连贯。devoid of structural coherence（缺乏结构上的连贯性/协调性）。",
       "points": 0.5,
       "sort_order": 1
@@ -120,11 +120,11 @@
       "options": [
         {
           "key": "A",
-          "text": "assumed"
+          "text": "fabricated"
         },
         {
           "key": "B",
-          "text": "discarded"
+          "text": "assumed"
         },
         {
           "key": "C",
@@ -132,10 +132,10 @@
         },
         {
           "key": "D",
-          "text": "fabricated"
+          "text": "discarded"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】被动语态搭配。far earlier than previously assumed（远早于先前所设想）。",
       "points": 0.5,
       "sort_order": 2
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "narrows"
+          "text": "persists"
         },
         {
           "key": "B",
-          "text": "amplifies"
-        },
-        {
-          "key": "C",
           "text": "multiplies"
         },
         {
+          "key": "C",
+          "text": "narrows"
+        },
+        {
           "key": "D",
-          "text": "persists"
+          "text": "amplifies"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词与神经修剪。婴儿对外语语音对比的灵活性随着大脑神经元修剪逐渐收窄（narrows）。",
       "points": 0.5,
       "sort_order": 3
@@ -184,11 +184,11 @@
         },
         {
           "key": "B",
-          "text": "indifference"
+          "text": "relief"
         },
         {
           "key": "C",
-          "text": "relief"
+          "text": "indifference"
         },
         {
           "key": "D",
@@ -210,7 +210,7 @@
       "options": [
         {
           "key": "A",
-          "text": "growth"
+          "text": "paralysis"
         },
         {
           "key": "B",
@@ -218,14 +218,14 @@
         },
         {
           "key": "C",
-          "text": "paralysis"
+          "text": "growth"
         },
         {
           "key": "D",
           "text": "fatigue"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词与褒义搭配。深度神经发育成长（neurodevelopmental growth）。",
       "points": 0.5,
       "sort_order": 5
@@ -244,15 +244,15 @@
         },
         {
           "key": "B",
-          "text": "distracts"
-        },
-        {
-          "key": "C",
           "text": "offends"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "paralyzes"
+        },
+        {
+          "key": "D",
+          "text": "distracts"
         }
       ],
       "correct_answer": "A",
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fortifying"
+          "text": "poisoning"
         },
         {
           "key": "B",
-          "text": "severing"
+          "text": "fortifying"
         },
         {
           "key": "C",
-          "text": "poisoning"
+          "text": "severing"
         },
         {
           "key": "D",
           "text": "bypassing"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】现在分词与积极作用。强化、巩固（fortifying）负责言语生成的神经回路。",
       "points": 0.5,
       "sort_order": 7
@@ -300,7 +300,7 @@
       "options": [
         {
           "key": "A",
-          "text": "adaptation"
+          "text": "mistake"
         },
         {
           "key": "B",
@@ -308,14 +308,14 @@
         },
         {
           "key": "C",
-          "text": "mistake"
+          "text": "tragedy"
         },
         {
           "key": "D",
-          "text": "tragedy"
+          "text": "adaptation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。evolutionary adaptation（演化适应机制）。",
       "points": 0.5,
       "sort_order": 8
@@ -330,7 +330,7 @@
       "options": [
         {
           "key": "A",
-          "text": "expressions"
+          "text": "scandals"
         },
         {
           "key": "B",
@@ -338,14 +338,14 @@
         },
         {
           "key": "C",
-          "text": "scandals"
+          "text": "hesitations"
         },
         {
           "key": "D",
-          "text": "hesitations"
+          "text": "expressions"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。facial expressions（面部表情），是社会参照现象的核心观察线索。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "halts"
+          "text": "praises"
         },
         {
           "key": "B",
-          "text": "accelerates"
-        },
-        {
-          "key": "C",
           "text": "celebrates"
         },
         {
+          "key": "C",
+          "text": "halts"
+        },
+        {
           "key": "D",
-          "text": "praises"
+          "text": "accelerates"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词与对比。如果母亲表情焦虑担忧，孩子会立刻停止（halts）探索。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "stifle"
+          "text": "restore"
         },
         {
           "key": "B",
-          "text": "kindle"
+          "text": "stifle"
         },
         {
           "key": "C",
-          "text": "nourish"
+          "text": "kindle"
         },
         {
           "key": "D",
-          "text": "restore"
+          "text": "nourish"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词辨析。长期忽视会扼杀、压制（stifle）婴儿的好奇心。",
       "points": 0.5,
       "sort_order": 11
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "coordination"
+          "text": "separation"
         },
         {
           "key": "B",
-          "text": "conflict"
+          "text": "coordination"
         },
         {
           "key": "C",
-          "text": "hostility"
+          "text": "conflict"
         },
         {
           "key": "D",
-          "text": "separation"
+          "text": "hostility"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】介词短语搭配。operate in tight coordination with（与……紧密协同运行）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "mapping"
+          "text": "paralysis"
         },
         {
           "key": "B",
-          "text": "confusion"
-        },
-        {
-          "key": "C",
           "text": "blindness"
         },
         {
+          "key": "C",
+          "text": "confusion"
+        },
+        {
           "key": "D",
-          "text": "paralysis"
+          "text": "mapping"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】空间认知概念。直立行走加速了空间地图构建（spatial mapping）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "reorganization"
-        },
-        {
-          "key": "B",
-          "text": "decay"
-        },
-        {
-          "key": "C",
           "text": "stagnation"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "fatigue"
+        },
+        {
+          "key": "C",
+          "text": "reorganization"
+        },
+        {
+          "key": "D",
+          "text": "decay"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。运动里程碑是认知重组与飞跃（cognitive reorganization）的催化剂。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "immersion"
-        },
-        {
-          "key": "B",
           "text": "isolation"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "rejection"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "hatred"
+        },
+        {
+          "key": "D",
+          "text": "immersion"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词与集体文化。collective social immersion（全方位的集体社交沉浸融入）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "synchrony"
-        },
-        {
-          "key": "B",
           "text": "disaster"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "chaos"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "hostility"
+        },
+        {
+          "key": "D",
+          "text": "synchrony"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。remarkable temporal synchrony（在时间节点上表现出惊人的一致与同步性）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,22 +570,22 @@
       "options": [
         {
           "key": "A",
-          "text": "unfold"
-        },
-        {
-          "key": "B",
-          "text": "suppress"
-        },
-        {
-          "key": "C",
           "text": "demolish"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "conceal"
+        },
+        {
+          "key": "C",
+          "text": "unfold"
+        },
+        {
+          "key": "D",
+          "text": "suppress"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词与蓝图。大脑会自发地展开并实现其发育蓝图（unfold its developmental blueprint）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "connectivity"
-        },
-        {
-          "key": "B",
           "text": "paralysis"
         },
         {
+          "key": "B",
+          "text": "connectivity"
+        },
+        {
           "key": "C",
-          "text": "extinction"
+          "text": "exhaustion"
         },
         {
           "key": "D",
-          "text": "exhaustion"
+          "text": "extinction"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】神经生物学表达。高皮质醇会破坏海马体突触连接性（hippocampal synaptic connectivity）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "thrives"
-        },
-        {
-          "key": "B",
           "text": "withers"
         },
         {
+          "key": "B",
+          "text": "stagnates"
+        },
+        {
           "key": "C",
-          "text": "collapses"
+          "text": "thrives"
         },
         {
           "key": "D",
-          "text": "stagnates"
+          "text": "collapses"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词与蓬勃发展。提供了婴儿认知发育真正得以茁壮繁荣（truly thrives）的基石。",
       "points": 0.5,
       "sort_order": 19
@@ -660,7 +660,7 @@
       "options": [
         {
           "key": "A",
-          "text": "fabric"
+          "text": "betrayal"
         },
         {
           "key": "B",
@@ -668,14 +668,14 @@
         },
         {
           "key": "C",
-          "text": "betrayal"
+          "text": "disaster"
         },
         {
           "key": "D",
-          "text": "disaster"
+          "text": "fabric"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】比喻名词。social, intellectual, and democratic fabric（社会、智力与民主的肌理与结构）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,22 +690,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Strict governmental censorship of regional reporting"
-        },
-        {
-          "key": "B",
-          "text": "The loss of advertising revenue to digital platform monopolies"
-        },
-        {
-          "key": "C",
           "text": "Widespread public disinterest in reading text"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "A severe national shortage of printing press paper"
+        },
+        {
+          "key": "C",
+          "text": "Strict governmental censorship of regional reporting"
+        },
+        {
+          "key": "D",
+          "text": "The loss of advertising revenue to digital platform monopolies"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第一段指出报社破产归咎于广告收入下滑以及数字垄断平台对商业分类广告的蚕食，选 B。",
       "points": 2,
       "sort_order": 21
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "lower voter participation and higher municipal borrowing costs"
+          "text": "a rapid surge in private philanthropic investments"
         },
         {
           "key": "B",
@@ -728,14 +728,14 @@
         },
         {
           "key": "C",
-          "text": "a rapid surge in private philanthropic investments"
+          "text": "unprecedented improvements in school board governance"
         },
         {
           "key": "D",
-          "text": "unprecedented improvements in school board governance"
+          "text": "lower voter participation and higher municipal borrowing costs"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第二段列举实证研究表明缺乏地方媒体会导致投票率走低以及因缺少监督而增加借款成本，选 A。",
       "points": 2,
       "sort_order": 22
@@ -750,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "philanthropic funding is heavily biased toward prosperous cities"
+          "text": "digital readers refuse to read investigative exposes"
         },
         {
           "key": "B",
@@ -758,14 +758,14 @@
         },
         {
           "key": "C",
-          "text": "digital readers refuse to read investigative exposes"
+          "text": "national aggregators refuse to link to non-profit domains"
         },
         {
           "key": "D",
-          "text": "national aggregators refuse to link to non-profit domains"
+          "text": "philanthropic funding is heavily biased toward prosperous cities"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第三段指出慈善捐款高度集中在富裕的大城市，非工业区依然沦为新闻荒漠，选 A。",
       "points": 2,
       "sort_order": 23
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Nationalizing all municipal printing presses"
+          "text": "Banning social media accounts from reporting on school boards"
         },
         {
           "key": "B",
-          "text": "Mandating aggregators to compensate original news publishers"
+          "text": "Nationalizing all municipal printing presses"
         },
         {
           "key": "C",
-          "text": "Banning social media accounts from reporting on school boards"
+          "text": "Mandating aggregators to compensate original news publishers"
         },
         {
           "key": "D",
           "text": "Imposing heavy penalties on readers of digital media"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第四段指出立法强制要求数字平台向原创媒体支付内容版权报酬，选 B。",
       "points": 2,
       "sort_order": 24
@@ -840,22 +840,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Eliminating vehicular fatalities caused by human error and distraction"
-        },
-        {
-          "key": "B",
-          "text": "Allowing vehicles to travel indefinitely without electrical charging"
-        },
-        {
-          "key": "C",
           "text": "Completely removing all traffic lights from metropolitan streets"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Eliminating vehicular fatalities caused by human error and distraction"
+        },
+        {
+          "key": "C",
           "text": "Enabling commuters to work 100-hour weeks without fatigue"
+        },
+        {
+          "key": "D",
+          "text": "Allowing vehicles to travel indefinitely without electrical charging"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第一段末尾指出无人驾驶有望大幅消除由人类感知失误、醉驾和分心导致的交通事故死亡（ninety percent of which stem from human error），选 A。",
       "points": 2,
       "sort_order": 26
@@ -874,15 +874,15 @@
         },
         {
           "key": "B",
-          "text": "consumers refuse to ride in cars manufactured outside their home nation"
-        },
-        {
-          "key": "C",
           "text": "pedestrians prefer interacting with human drivers rather than computers"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "engineers refuse to write code for autonomous braking systems"
+        },
+        {
+          "key": "D",
+          "text": "consumers refuse to ride in cars manufactured outside their home nation"
         }
       ],
       "correct_answer": "A",
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "By focusing on deterministic defensive driving to prevent crashes altogether"
-        },
-        {
-          "key": "B",
           "text": "By permanently banning all autonomous vehicle testing on public roads"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "By leaving all ethical decisions to random lottery algorithms"
+        },
+        {
+          "key": "C",
+          "text": "By focusing on deterministic defensive driving to prevent crashes altogether"
         },
         {
           "key": "D",
           "text": "By requiring drivers to pass philosophical logic exams before entering cars"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第四段指出监管正转向确定性的防御性驾驶规则（enforcing continuous headway margins, restricting speeds），从根本上避免出现道德两难的碰撞险情，选 A。",
       "points": 2,
       "sort_order": 28
@@ -934,7 +934,7 @@
         },
         {
           "key": "B",
-          "text": "opportunity"
+          "text": "agreement"
         },
         {
           "key": "C",
@@ -942,7 +942,7 @@
         },
         {
           "key": "D",
-          "text": "agreement"
+          "text": "opportunity"
         }
       ],
       "correct_answer": "A",
@@ -964,11 +964,11 @@
         },
         {
           "key": "B",
-          "text": "Why Robotaxis Should Be Banned Worldwide"
+          "text": "The Ultimate Perfection of Human Motorists"
         },
         {
           "key": "C",
-          "text": "The Ultimate Perfection of Human Motorists"
+          "text": "Why Robotaxis Should Be Banned Worldwide"
         },
         {
           "key": "D",
@@ -990,7 +990,7 @@
       "options": [
         {
           "key": "A",
-          "text": "congested low-Earth orbit and created serious space debris risks"
+          "text": "lowered global temperatures across both polar icecaps"
         },
         {
           "key": "B",
@@ -998,14 +998,14 @@
         },
         {
           "key": "C",
-          "text": "lowered global temperatures across both polar icecaps"
+          "text": "permanently extinguished the threat of asteroid collisions"
         },
         {
           "key": "D",
-          "text": "permanently extinguished the threat of asteroid collisions"
+          "text": "congested low-Earth orbit and created serious space debris risks"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第一段指出商业卫星网络部署导致低地球轨道严重拥堵，产生严重的太空垃圾危机，选 A。",
       "points": 2,
       "sort_order": 31
@@ -1020,7 +1020,7 @@
       "options": [
         {
           "key": "A",
-          "text": "A cascading chain reaction of orbital collisions generating clouds of shrapnel"
+          "text": "The loss of gravitational pull between the Earth and the Moon"
         },
         {
           "key": "B",
@@ -1028,14 +1028,14 @@
         },
         {
           "key": "C",
-          "text": "The loss of gravitational pull between the Earth and the Moon"
+          "text": "A cascading chain reaction of orbital collisions generating clouds of shrapnel"
         },
         {
           "key": "D",
           "text": "Excessive radioactive fallout entering the upper stratosphere"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第二段指出凯斯勒综合征是指高速轨道碎片碰撞产生级联反应，引发毁灭性连锁碰撞，选 A。",
       "points": 2,
       "sort_order": 32
@@ -1050,11 +1050,11 @@
       "options": [
         {
           "key": "A",
-          "text": "interfere with optical telescope exposures and radio astronomy frequencies"
+          "text": "increase ticket prices for private space tourism"
         },
         {
           "key": "B",
-          "text": "physically block sunlight from reaching agricultural crops"
+          "text": "interfere with optical telescope exposures and radio astronomy frequencies"
         },
         {
           "key": "C",
@@ -1062,10 +1062,10 @@
         },
         {
           "key": "D",
-          "text": "increase ticket prices for private space tourism"
+          "text": "physically block sunlight from reaching agricultural crops"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第三段指出卫星反射阳光在光学长曝光照片上留下划痕，其下行频段还干扰宇宙微波射电研究，选 A。",
       "points": 2,
       "sort_order": 33
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Old treaties designate satellites as sovereign state property"
+          "text": "The United Nations claims sole physical possession of all orbits"
         },
         {
           "key": "B",
-          "text": "Space debris carries lethal contagious pathogens"
-        },
-        {
-          "key": "C",
           "text": "Private companies are strictly forbidden from owning computers"
         },
         {
+          "key": "C",
+          "text": "Space debris carries lethal contagious pathogens"
+        },
+        {
           "key": "D",
-          "text": "The United Nations claims sole physical possession of all orbits"
+          "text": "Old treaties designate satellites as sovereign state property"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果事实题。第四段指出依据冷战时期的《外层空间条约》，废弃卫星仍属主权国家财产，未经许可不得擅自清除，选 A。",
       "points": 2,
       "sort_order": 34
@@ -1148,11 +1148,11 @@
         },
         {
           "key": "C",
-          "text": "A nationwide consumer boycott of all electronic gadgets"
+          "text": "The complete bankruptcy of all international shipping companies"
         },
         {
           "key": "D",
-          "text": "The complete bankruptcy of all international shipping companies"
+          "text": "A nationwide consumer boycott of all electronic gadgets"
         }
       ],
       "correct_answer": "A",
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "they are hyper-automated complexes requiring minimal specialized technicians"
+          "text": "governmental statutes forbid hiring human factory workers"
         },
         {
           "key": "B",
-          "text": "workers refuse to accept wages paid in national currency"
+          "text": "they are hyper-automated complexes requiring minimal specialized technicians"
         },
         {
           "key": "C",
-          "text": "governmental statutes forbid hiring human factory workers"
+          "text": "workers refuse to accept wages paid in national currency"
         },
         {
           "key": "D",
           "text": "factories are located exclusively on offshore ocean platforms"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第二段阐明现代回流工厂是高度自动化的复合体，大量使用机器人和机器视觉，只需极少数自动化技师，选 A。",
       "points": 2,
       "sort_order": 37
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Displaced workers lack skills for cyber-physical factories, risking marginalization"
-        },
-        {
-          "key": "B",
-          "text": "Local residents will immediately demolish the new semiconductor foundries"
-        },
-        {
-          "key": "C",
           "text": "Factory robots will cause widespread environmental radiation"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Working-class families will refuse to purchase domestically made products"
+        },
+        {
+          "key": "C",
+          "text": "Local residents will immediately demolish the new semiconductor foundries"
+        },
+        {
+          "key": "D",
+          "text": "Displaced workers lack skills for cyber-physical factories, risking marginalization"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节因果题。第三段指出老工业区下岗工人缺乏高级机电一体化技能，回流工厂可能沦为难以惠及本地工人的技术飞地，选 A。",
       "points": 2,
       "sort_order": 38
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "strengthening national economic resilience and technological sovereignty"
-        },
-        {
-          "key": "B",
-          "text": "permanently stopping all international trade and diplomacy"
-        },
-        {
-          "key": "C",
           "text": "ensuring that every high school graduate becomes a factory laborer"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "lowering the national stock market index"
+        },
+        {
+          "key": "C",
+          "text": "permanently stopping all international trade and diplomacy"
+        },
+        {
+          "key": "D",
+          "text": "strengthening national economic resilience and technological sovereignty"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第四段指出回流的终极价值必须从国家经济韧性与技术主权（resilience and technological sovereignty）的角度来衡量，选 A。",
       "points": 2,
       "sort_order": 39

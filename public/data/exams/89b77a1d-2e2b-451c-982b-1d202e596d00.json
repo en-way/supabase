@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "wield"
+          "text": "destroy"
         },
         {
           "key": "B",
-          "text": "ignore"
-        },
-        {
-          "key": "C",
           "text": "conceal"
         },
         {
+          "key": "C",
+          "text": "ignore"
+        },
+        {
           "key": "D",
-          "text": "destroy"
+          "text": "wield"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词搭配。wield stone hammers（熟练使用/挥舞石锤），描述黑猩猩的工具使用行为。",
       "points": 0.5,
       "sort_order": 1
@@ -128,11 +128,11 @@
         },
         {
           "key": "C",
-          "text": "reluctance"
+          "text": "panic"
         },
         {
           "key": "D",
-          "text": "panic"
+          "text": "reluctance"
         }
       ],
       "correct_answer": "A",
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "islands"
-        },
-        {
-          "key": "B",
-          "text": "factories"
-        },
-        {
-          "key": "C",
           "text": "prisons"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "mines"
+        },
+        {
+          "key": "C",
+          "text": "islands"
+        },
+        {
+          "key": "D",
+          "text": "factories"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】比喻修辞。isolated ecological islands（孤立的生态岛屿/破碎化生境）。",
       "points": 0.5,
       "sort_order": 3
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "troops"
-        },
-        {
-          "key": "B",
           "text": "armies"
         },
         {
+          "key": "B",
+          "text": "swarms"
+        },
+        {
           "key": "C",
-          "text": "fleets"
+          "text": "troops"
         },
         {
           "key": "D",
-          "text": "swarms"
+          "text": "fleets"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】生物量词。chimpanzee troops（灵长类黑猩猩群落）。",
       "points": 0.5,
       "sort_order": 4
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "vigor"
+          "text": "treachery"
         },
         {
           "key": "B",
-          "text": "hostility"
-        },
-        {
-          "key": "C",
           "text": "cruelty"
         },
         {
+          "key": "C",
+          "text": "vigor"
+        },
+        {
           "key": "D",
-          "text": "treachery"
+          "text": "hostility"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】生物名词。reproductive vigor（繁殖活力/后代繁衍能力）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,11 +240,11 @@
       "options": [
         {
           "key": "A",
-          "text": "sharply"
+          "text": "hesitantly"
         },
         {
           "key": "B",
-          "text": "scarcely"
+          "text": "sharply"
         },
         {
           "key": "C",
@@ -252,10 +252,10 @@
         },
         {
           "key": "D",
-          "text": "hesitantly"
+          "text": "scarcely"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】副词修饰。conflict has escalated sharply（人兽冲突急剧激化）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,7 +270,7 @@
       "options": [
         {
           "key": "A",
-          "text": "harvests"
+          "text": "weapons"
         },
         {
           "key": "B",
@@ -278,14 +278,14 @@
         },
         {
           "key": "C",
-          "text": "weapons"
+          "text": "uniforms"
         },
         {
           "key": "D",
-          "text": "uniforms"
+          "text": "harvests"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】农业名词。raid local farmers' harvests（侵袭偷食农民的庄稼收成）。",
       "points": 0.5,
       "sort_order": 7
@@ -308,11 +308,11 @@
         },
         {
           "key": "C",
-          "text": "luxuries"
+          "text": "donations"
         },
         {
           "key": "D",
-          "text": "donations"
+          "text": "luxuries"
         }
       ],
       "correct_answer": "A",
@@ -330,11 +330,11 @@
       "options": [
         {
           "key": "A",
-          "text": "enforcement"
+          "text": "amusement"
         },
         {
           "key": "B",
-          "text": "amusement"
+          "text": "sympathy"
         },
         {
           "key": "C",
@@ -342,10 +342,10 @@
         },
         {
           "key": "D",
-          "text": "sympathy"
+          "text": "enforcement"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】政策名词。coercive enforcement（强制执法/高压手段）。",
       "points": 0.5,
       "sort_order": 9
@@ -360,11 +360,11 @@
       "options": [
         {
           "key": "A",
-          "text": "survival"
+          "text": "luxury"
         },
         {
           "key": "B",
-          "text": "luxury"
+          "text": "celebration"
         },
         {
           "key": "C",
@@ -372,10 +372,10 @@
         },
         {
           "key": "D",
-          "text": "celebration"
+          "text": "survival"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。depend on forest resources for subsistence survival（依赖森林资源实现基本谋生与生存）。",
       "points": 0.5,
       "sort_order": 10
@@ -420,11 +420,11 @@
       "options": [
         {
           "key": "A",
-          "text": "thoroughfares"
+          "text": "museums"
         },
         {
           "key": "B",
-          "text": "museums"
+          "text": "thoroughfares"
         },
         {
           "key": "C",
@@ -435,7 +435,7 @@
           "text": "cemeteries"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】交通名词。busy highway thoroughfares（车流繁忙的公路交通干道）。",
       "points": 0.5,
       "sort_order": 12
@@ -454,15 +454,15 @@
         },
         {
           "key": "B",
-          "text": "cage"
+          "text": "laboratory"
         },
         {
           "key": "C",
-          "text": "parlor"
+          "text": "cage"
         },
         {
           "key": "D",
-          "text": "laboratory"
+          "text": "parlor"
         }
       ],
       "correct_answer": "A",
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "clinics"
-        },
-        {
-          "key": "B",
           "text": "prisons"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "factories"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "arsenals"
+        },
+        {
+          "key": "D",
+          "text": "clinics"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】社会福利。fund rural schools, solar grids and healthcare clinics（资助乡村学校、微电网与医疗诊所）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,7 +510,7 @@
       "options": [
         {
           "key": "A",
-          "text": "dialects"
+          "text": "passports"
         },
         {
           "key": "B",
@@ -518,14 +518,14 @@
         },
         {
           "key": "C",
-          "text": "passports"
+          "text": "statues"
         },
         {
           "key": "D",
-          "text": "statues"
+          "text": "dialects"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】生物人类学比喻。possessing distinct regional dialects（拥有独特的地域行为方言/行为习惯）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "perfect"
-        },
-        {
-          "key": "B",
-          "text": "abandon"
-        },
-        {
-          "key": "C",
           "text": "condemn"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "corrode"
+        },
+        {
+          "key": "C",
+          "text": "perfect"
+        },
+        {
+          "key": "D",
+          "text": "abandon"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。took centuries to perfect（历经数个世纪的社会学习才得以完善）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,7 +570,7 @@
       "options": [
         {
           "key": "A",
-          "text": "forever"
+          "text": "scarcely"
         },
         {
           "key": "B",
@@ -578,14 +578,14 @@
         },
         {
           "key": "C",
-          "text": "scarcely"
+          "text": "forever"
         },
         {
           "key": "D",
           "text": "rarely"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】副词修饰。lost forever（永远丧失且无法挽回）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,7 +600,7 @@
       "options": [
         {
           "key": "A",
-          "text": "alliance"
+          "text": "betrayal"
         },
         {
           "key": "B",
@@ -608,14 +608,14 @@
         },
         {
           "key": "C",
-          "text": "betrayal"
+          "text": "silence"
         },
         {
           "key": "D",
-          "text": "silence"
+          "text": "alliance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】政治名词。enduring global alliance（持久的全球保护同盟）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "thrive"
+          "text": "despair"
         },
         {
           "key": "B",
-          "text": "perish"
-        },
-        {
-          "key": "C",
           "text": "surrender"
         },
         {
+          "key": "C",
+          "text": "perish"
+        },
+        {
           "key": "D",
-          "text": "despair"
+          "text": "thrive"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词辨析。peacefully thrive in balance（在生态平衡中繁衍生息/欣欣向荣）。",
       "points": 0.5,
       "sort_order": 19
@@ -694,7 +694,7 @@
         },
         {
           "key": "B",
-          "text": "Ban all manufacturing of commercial plastic products permanently."
+          "text": "Require families to grow all of their own food in backyards."
         },
         {
           "key": "C",
@@ -702,7 +702,7 @@
         },
         {
           "key": "D",
-          "text": "Require families to grow all of their own food in backyards."
+          "text": "Ban all manufacturing of commercial plastic products permanently."
         }
       ],
       "correct_answer": "A",
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Disrupts mindless convenience habits and heightens ecological awareness."
-        },
-        {
-          "key": "B",
           "text": "Generates billions of dollars in tax revenue for municipal governments."
         },
         {
+          "key": "B",
+          "text": "Guarantees that all plastic waste will disappear from oceans in one year."
+        },
+        {
           "key": "C",
-          "text": "Proves that recycling plastic is technologically impossible."
+          "text": "Disrupts mindless convenience habits and heightens ecological awareness."
         },
         {
           "key": "D",
-          "text": "Guarantees that all plastic waste will disappear from oceans in one year."
+          "text": "Proves that recycling plastic is technologically impossible."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第二段指出心理学家赞赏该活动是因为它打破了日常无意识的便利惯性，迫使人们审视塑料泛滥，从而深化环保意识。",
       "points": 2,
       "sort_order": 22
@@ -750,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Deflect accountability away from petrochemical corporations and systemic subsidies."
+          "text": "Make it illegal to recycle paper cardboard packaging."
         },
         {
           "key": "B",
@@ -758,14 +758,14 @@
         },
         {
           "key": "C",
-          "text": "Encourage consumers to litter on public city beaches."
+          "text": "Deflect accountability away from petrochemical corporations and systemic subsidies."
         },
         {
           "key": "D",
-          "text": "Make it illegal to recycle paper cardboard packaging."
+          "text": "Encourage consumers to litter on public city beaches."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段明确指出把环保责任甩给个人、让消费者为买塑料包装负罪，恰恰转移了公众对石化巨头与体制性补贴的注意力。",
       "points": 2,
       "sort_order": 23
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Bulk eco-friendly shops are expensive and absent in food deserts."
-        },
-        {
-          "key": "B",
           "text": "Discount supermarkets refuse to accept physical paper money."
         },
         {
+          "key": "B",
+          "text": "Bulk eco-friendly shops are expensive and absent in food deserts."
+        },
+        {
           "key": "C",
-          "text": "Municipal laws prohibit working-class citizens from carrying canvas bags."
+          "text": "They lack the legal right to purchase fresh organic vegetables."
         },
         {
           "key": "D",
-          "text": "They lack the legal right to purchase fresh organic vegetables."
+          "text": "Municipal laws prohibit working-class citizens from carrying canvas bags."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第四段指出无包装消费是昂贵的特权，散装有机食品店售价高，低收入区缺乏这类网点，工薪家庭无暇无力实践。",
       "points": 2,
       "sort_order": 24
@@ -810,7 +810,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Binding government regulation like plastic bans and producer taxes."
+          "text": "Subsidizing petrochemical companies to produce more virgin plastics."
         },
         {
           "key": "B",
@@ -822,10 +822,10 @@
         },
         {
           "key": "D",
-          "text": "Subsidizing petrochemical companies to produce more virgin plastics."
+          "text": "Binding government regulation like plastic bans and producer taxes."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨结论题。末段总结强调治本之道是强制性政府立法：推行禁塑令、对原生塑料征税并落实生产者责任延伸制（EPR）。",
       "points": 2,
       "sort_order": 25
@@ -840,22 +840,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Requiring public companies to include female directors on their boards."
-        },
-        {
-          "key": "B",
           "text": "Banning men from owning shares in publicly traded tech companies."
         },
         {
+          "key": "B",
+          "text": "Requiring public companies to include female directors on their boards."
+        },
+        {
           "key": "C",
-          "text": "Forcing all corporations to relocate their headquarters to Europe."
+          "text": "Eliminating corporate boardrooms in favor of artificial intelligence."
         },
         {
           "key": "D",
-          "text": "Eliminating corporate boardrooms in favor of artificial intelligence."
+          "text": "Forcing all corporations to relocate their headquarters to Europe."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段明确指出，加州参议院第826号法案强制要求加州上市公司的董事会必须包含至少一名女性董事。",
       "points": 2,
       "sort_order": 26
@@ -874,7 +874,7 @@
         },
         {
           "key": "B",
-          "text": "Men were legally prohibited from serving as corporate directors."
+          "text": "The federal government demanded a 100 percent female judiciary."
         },
         {
           "key": "C",
@@ -882,7 +882,7 @@
         },
         {
           "key": "D",
-          "text": "The federal government demanded a 100 percent female judiciary."
+          "text": "Men were legally prohibited from serving as corporate directors."
         }
       ],
       "correct_answer": "A",
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "A small group of elite women would be overburdened with multiple board seats."
-        },
-        {
-          "key": "B",
-          "text": "All corporate offices would run out of physical executive boardroom chairs."
-        },
-        {
-          "key": "C",
           "text": "Women would refuse to accept corporate compensation and stock options."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Stock exchanges would shut down during board appointment votes."
+        },
+        {
+          "key": "C",
+          "text": "All corporate offices would run out of physical executive boardroom chairs."
+        },
+        {
+          "key": "D",
+          "text": "A small group of elite women would be overburdened with multiple board seats."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出批评者担忧急速合规会导致企业哄抢少数知名女性高管，造成“过度任职（over-boarding）”，仅惠及少数顶层精英。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Proving that qualified female executives were abundant and boosting representation."
-        },
-        {
-          "key": "B",
-          "text": "Permanently ending corporate entrepreneurship across the state of California."
-        },
-        {
-          "key": "C",
           "text": "Causing all major technology conglomerates to leave North America."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Establishing an absolute federal ban on female corporate directorships."
+        },
+        {
+          "key": "C",
+          "text": "Proving that qualified female executives were abundant and boosting representation."
+        },
+        {
+          "key": "D",
+          "text": "Permanently ending corporate entrepreneurship across the state of California."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨态度题。末段指出尽管法案被判违宪，但它带来了文化革新，推动女性董事比例突破30%，彻底击碎了“招不到合格女性人才”的借口。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "The emergence of an 'always-on' culture blurring work and personal life."
-        },
-        {
-          "key": "B",
           "text": "A complete decline in employee computer literacy skills."
         },
         {
+          "key": "B",
+          "text": "An absolute ban on smartphone communications across Europe."
+        },
+        {
           "key": "C",
-          "text": "The total elimination of all corporate office jobs worldwide."
+          "text": "The emergence of an 'always-on' culture blurring work and personal life."
         },
         {
           "key": "D",
-          "text": "An absolute ban on smartphone communications across Europe."
+          "text": "The total elimination of all corporate office jobs worldwide."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出便携智能技术带来的负面后果是传统工作与生活的边界彻底消融，催生了“随时在线（always-on）”的病态文化。",
       "points": 2,
       "sort_order": 31
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Attention fragmentation, elevated stress hormones, and chronic burnout."
+          "text": "Rapid biological regeneration of human brain cells."
         },
         {
           "key": "B",
-          "text": "Instantaneous mastery of foreign languages within twenty-four hours."
+          "text": "Attention fragmentation, elevated stress hormones, and chronic burnout."
         },
         {
           "key": "C",
-          "text": "A total immunity to viral influenza infections in adults."
+          "text": "Instantaneous mastery of foreign languages within twenty-four hours."
         },
         {
           "key": "D",
-          "text": "Rapid biological regeneration of human brain cells."
+          "text": "A total immunity to viral influenza infections in adults."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段指出大脑无法承受持续警觉，不断被打断导致注意力碎片化、皮质醇激增，造成身心耗竭（burnout）与失眠。",
       "points": 2,
       "sort_order": 32
@@ -1054,11 +1054,11 @@
         },
         {
           "key": "B",
-          "text": "A dramatic 90 percent increase in corporate net profit margins."
+          "text": "The permanent dissolution of all corporate managerial hierarchies."
         },
         {
           "key": "C",
-          "text": "The permanent dissolution of all corporate managerial hierarchies."
+          "text": "A dramatic 90 percent increase in corporate net profit margins."
         },
         {
           "key": "D",
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Employees cannot be punished for ignoring off-hours work communications."
-        },
-        {
-          "key": "B",
           "text": "Workers are prohibited from using smartphones inside their private homes."
         },
         {
+          "key": "B",
+          "text": "Employees cannot be punished for ignoring off-hours work communications."
+        },
+        {
           "key": "C",
-          "text": "Companies must disconnect electricity to all offices every afternoon."
+          "text": "Labor unions possess the legal right to seize corporate computers."
         },
         {
           "key": "D",
-          "text": "Labor unions possess the legal right to seize corporate computers."
+          "text": "Companies must disconnect electricity to all offices every afternoon."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第四段指出“断连权（right to disconnect）”保障员工在合同约定工时之外有权不接工作电话或邮件，且不受雇主惩罚。",
       "points": 2,
       "sort_order": 34
@@ -1118,11 +1118,11 @@
         },
         {
           "key": "C",
-          "text": "Replying to every corporate message within ten seconds."
+          "text": "Permanently abandoning all digital communication technology."
         },
         {
           "key": "D",
-          "text": "Permanently abandoning all digital communication technology."
+          "text": "Replying to every corporate message within ten seconds."
         }
       ],
       "correct_answer": "A",
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Physical spaces and community organizations that cultivate civic trust."
+          "text": "High-security corporate banking headquarters in financial districts."
         },
         {
           "key": "B",
-          "text": "Private high-speed fiber-optic telecommunications networks."
-        },
-        {
-          "key": "C",
           "text": "Commercial shopping centers that maximize retail consumer sales."
         },
         {
+          "key": "C",
+          "text": "Physical spaces and community organizations that cultivate civic trust."
+        },
+        {
           "key": "D",
-          "text": "High-security corporate banking headquarters in financial districts."
+          "text": "Private high-speed fiber-optic telecommunications networks."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出克莱嫩伯格将“社会基础设施（social infrastructure）”界定为塑造人际互动、催生信任与社会资本的物理空间与社区组织。",
       "points": 2,
       "sort_order": 36
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Are universally accessible sanctuaries that do not demand payment."
+          "text": "Forbid anyone without a university degree from entering."
         },
         {
           "key": "B",
-          "text": "Sell imported gourmet coffee at half the market price."
+          "text": "Are universally accessible sanctuaries that do not demand payment."
         },
         {
           "key": "C",
-          "text": "Forbid anyone without a university degree from entering."
+          "text": "Sell imported gourmet coffee at half the market price."
         },
         {
           "key": "D",
           "text": "Operate exclusively inside private gated suburban estates."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节推断题。第二段指出不同于咖啡厅的消费门槛，公共图书馆是全民皆可免费进入的平等庇护所（universally accessible sanctuaries）。",
       "points": 2,
       "sort_order": 37
@@ -1230,7 +1230,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Short-sighted leaders view libraries through narrow balance sheets."
+          "text": "Public libraries have reported multi-billion-dollar cash surpluses."
         },
         {
           "key": "B",
@@ -1242,10 +1242,10 @@
         },
         {
           "key": "D",
-          "text": "Public libraries have reported multi-billion-dollar cash surpluses."
+          "text": "Short-sighted leaders view libraries through narrow balance sheets."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第四段指出短视的市政领导仅从狭隘财务账目评估支出，误将图书馆视作在电子书时代过时的情怀遗迹。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Indispensable foundations of compassionate civic resilience."
-        },
-        {
-          "key": "B",
           "text": "Commercial properties that should be auctioned to private developers."
         },
         {
+          "key": "B",
+          "text": "Indispensable foundations of compassionate civic resilience."
+        },
+        {
           "key": "C",
-          "text": "Antiquated relics that should be replaced with automated vending machines."
+          "text": "Exclusive scholarly research institutes closed to the public."
         },
         {
           "key": "D",
-          "text": "Exclusive scholarly research institutes closed to the public."
+          "text": "Antiquated relics that should be replaced with automated vending machines."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨态度题。末段指出削减图书馆资金是公民短视，公共图书馆绝非财政奢侈品，而是构筑充满关爱与互联的文明社会不可或缺的基石（indispensable foundation）。",
       "points": 2,
       "sort_order": 40

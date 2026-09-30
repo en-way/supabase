@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "occurrence"
-        },
-        {
-          "key": "B",
-          "text": "disaster"
-        },
-        {
-          "key": "C",
           "text": "miracle"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "scandal"
+        },
+        {
+          "key": "C",
+          "text": "occurrence"
+        },
+        {
+          "key": "D",
+          "text": "disaster"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。rare occurrence（罕见的事/少有的发生）。",
       "points": 0.5,
       "sort_order": 1
@@ -120,11 +120,11 @@
       "options": [
         {
           "key": "A",
-          "text": "fill"
+          "text": "widen"
         },
         {
           "key": "B",
-          "text": "widen"
+          "text": "celebrate"
         },
         {
           "key": "C",
@@ -132,10 +132,10 @@
         },
         {
           "key": "D",
-          "text": "celebrate"
+          "text": "fill"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词搭配。fill the quiet void（填补寂静的空虚空白）。",
       "points": 0.5,
       "sort_order": 2
@@ -150,7 +150,7 @@
       "options": [
         {
           "key": "A",
-          "text": "eradicated"
+          "text": "replicated"
         },
         {
           "key": "B",
@@ -158,14 +158,14 @@
         },
         {
           "key": "C",
-          "text": "replicated"
+          "text": "praised"
         },
         {
           "key": "D",
-          "text": "praised"
+          "text": "eradicated"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词辨析。消极对应：人们视无聊为不可忍受的缺陷，必须立刻根除消灭（instantly eradicated）。",
       "points": 0.5,
       "sort_order": 3
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "misguided"
+          "text": "profitable"
         },
         {
           "key": "B",
-          "text": "triumphant"
-        },
-        {
-          "key": "C",
           "text": "virtuous"
         },
         {
+          "key": "C",
+          "text": "misguided"
+        },
+        {
           "key": "D",
-          "text": "profitable"
+          "text": "triumphant"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析。我们对无聊发起的战争是危险的误入歧途（dangerously misguided）。",
       "points": 0.5,
       "sort_order": 4
@@ -210,11 +210,11 @@
       "options": [
         {
           "key": "A",
-          "text": "renewal"
+          "text": "decay"
         },
         {
           "key": "B",
-          "text": "decay"
+          "text": "collapse"
         },
         {
           "key": "C",
@@ -222,10 +222,10 @@
         },
         {
           "key": "D",
-          "text": "collapse"
+          "text": "renewal"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】褒义并列。catalyst for creativity, contemplation and cognitive renewal（认知重塑与更新）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "springs"
-        },
-        {
-          "key": "B",
-          "text": "retreats"
-        },
-        {
-          "key": "C",
           "text": "evaporates"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "surrenders"
+        },
+        {
+          "key": "C",
+          "text": "springs"
+        },
+        {
+          "key": "D",
+          "text": "retreats"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词短语。springs into action（立即活跃启动/跃入运作）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,11 +270,11 @@
       "options": [
         {
           "key": "A",
-          "text": "possibilities"
+          "text": "scandals"
         },
         {
           "key": "B",
-          "text": "cemeteries"
+          "text": "possibilities"
         },
         {
           "key": "C",
@@ -282,10 +282,10 @@
         },
         {
           "key": "D",
-          "text": "scandals"
+          "text": "cemeteries"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。contemplate future possibilities（设想未来的各种可能性）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "connections"
-        },
-        {
-          "key": "B",
           "text": "hostilities"
         },
         {
+          "key": "B",
+          "text": "boycotts"
+        },
+        {
           "key": "C",
-          "text": "disasters"
+          "text": "connections"
         },
         {
           "key": "D",
-          "text": "boycotts"
+          "text": "disasters"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】认知名词。forging unexpected intellectual connections（构建意想不到的智力联结）。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "shuttering"
-        },
-        {
-          "key": "B",
           "text": "celebrating"
         },
         {
+          "key": "B",
+          "text": "praising"
+        },
+        {
           "key": "C",
-          "text": "expanding"
+          "text": "shuttering"
         },
         {
           "key": "D",
-          "text": "praising"
+          "text": "expanding"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】历史情境。瘟疫导致剑桥大学停摆关闭（shuttering Cambridge）。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "notice"
-        },
-        {
-          "key": "B",
           "text": "apology"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "payment"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "punishment"
+        },
+        {
+          "key": "D",
+          "text": "notice"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。pass without notice（没有被注意到就悄悄溜过）。",
       "points": 0.5,
       "sort_order": 10
@@ -390,7 +390,7 @@
       "options": [
         {
           "key": "A",
-          "text": "cultivate"
+          "text": "disregard"
         },
         {
           "key": "B",
@@ -398,14 +398,14 @@
         },
         {
           "key": "C",
-          "text": "mock"
+          "text": "cultivate"
         },
         {
           "key": "D",
-          "text": "disregard"
+          "text": "mock"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。forced to cultivate imaginative resources（被迫开发培养自身的想象力资源）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,7 +420,7 @@
       "options": [
         {
           "key": "A",
-          "text": "passions"
+          "text": "debts"
         },
         {
           "key": "B",
@@ -428,14 +428,14 @@
         },
         {
           "key": "C",
-          "text": "debts"
+          "text": "penalties"
         },
         {
           "key": "D",
-          "text": "penalties"
+          "text": "passions"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】褒义名词。discover innate artistic passions（发现内在的天生艺术热情）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,7 +450,7 @@
       "options": [
         {
           "key": "A",
-          "text": "engagement"
+          "text": "isolation"
         },
         {
           "key": "B",
@@ -458,14 +458,14 @@
         },
         {
           "key": "C",
-          "text": "isolation"
+          "text": "treachery"
         },
         {
           "key": "D",
-          "text": "treachery"
+          "text": "engagement"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】心理名词。self-generated engagement（自主生成的投入与专注能力）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,11 +480,11 @@
       "options": [
         {
           "key": "A",
-          "text": "stagnant"
+          "text": "thrilling"
         },
         {
           "key": "B",
-          "text": "thrilling"
+          "text": "fascinating"
         },
         {
           "key": "C",
@@ -492,10 +492,10 @@
         },
         {
           "key": "D",
-          "text": "fascinating"
+          "text": "stagnant"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】形容词辨析。无聊提示我们当前活动缺乏意义或智识停滞（intellectually stagnant）。",
       "points": 0.5,
       "sort_order": 14
@@ -514,11 +514,11 @@
         },
         {
           "key": "B",
-          "text": "retreats"
+          "text": "crimes"
         },
         {
           "key": "C",
-          "text": "crimes"
+          "text": "retreats"
         },
         {
           "key": "D",
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fasting"
-        },
-        {
-          "key": "B",
-          "text": "advertising"
-        },
-        {
-          "key": "C",
           "text": "spending"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "gaming"
+        },
+        {
+          "key": "C",
+          "text": "advertising"
+        },
+        {
+          "key": "D",
+          "text": "fasting"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】比喻用法。intentional digital fasting（有意识的数字断食/远离屏幕）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,7 +570,7 @@
       "options": [
         {
           "key": "A",
-          "text": "flourish"
+          "text": "surrender"
         },
         {
           "key": "B",
@@ -582,10 +582,10 @@
         },
         {
           "key": "D",
-          "text": "surrender"
+          "text": "flourish"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词搭配。allows default mode network to flourish（让默认网络自由舒展并蓬勃运作）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,11 +600,11 @@
       "options": [
         {
           "key": "A",
-          "text": "sanctuary"
+          "text": "battlefield"
         },
         {
           "key": "B",
-          "text": "battlefield"
+          "text": "sanctuary"
         },
         {
           "key": "C",
@@ -615,7 +615,7 @@
           "text": "grave"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】褒义比喻。fertile psychological sanctuary（肥沃的心理庇护所/滋养圣地）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "minds"
+          "text": "gadgets"
         },
         {
           "key": "B",
-          "text": "screens"
-        },
-        {
-          "key": "C",
           "text": "wallets"
         },
         {
+          "key": "C",
+          "text": "screens"
+        },
+        {
           "key": "D",
-          "text": "gadgets"
+          "text": "minds"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】心智归宿。genius within our minds（深藏在我们头脑中的潜藏天才）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,11 +660,11 @@
       "options": [
         {
           "key": "A",
-          "text": "today"
+          "text": "scarcely"
         },
         {
           "key": "B",
-          "text": "scarcely"
+          "text": "today"
         },
         {
           "key": "C",
@@ -675,7 +675,7 @@
           "text": "never"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】时间副词。in our daily lives today（在当今我们的日常生活中）。",
       "points": 0.5,
       "sort_order": 20
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Offering nutritious produce at significant discounts of 30 to 50 percent."
+          "text": "Guaranteeing that ugly fruit causes instantaneous weight loss."
         },
         {
           "key": "B",
@@ -728,14 +728,14 @@
         },
         {
           "key": "C",
-          "text": "Guaranteeing that ugly fruit causes instantaneous weight loss."
+          "text": "Banning regular straight vegetables from all retail stores."
         },
         {
           "key": "D",
-          "text": "Banning regular straight vegetables from all retail stores."
+          "text": "Offering nutritious produce at significant discounts of 30 to 50 percent."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第二段指出这些“丑蔬果”以30%至50%的大幅折扣整袋售卖，为工薪家庭提供了高性价比的健康选择。",
       "points": 2,
       "sort_order": 22
@@ -750,22 +750,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They offer identical nutritional value while lowering grocery expenditures."
+          "text": "Supermarkets pay customers cash rewards for consuming them."
         },
         {
           "key": "B",
-          "text": "They take less than ten seconds to cook in boiling water."
-        },
-        {
-          "key": "C",
           "text": "They can be kept on kitchen counters for ten years without spoiling."
         },
         {
+          "key": "C",
+          "text": "They offer identical nutritional value while lowering grocery expenditures."
+        },
+        {
           "key": "D",
-          "text": "Supermarkets pay customers cash rewards for consuming them."
+          "text": "They take less than ten seconds to cook in boiling water."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出畸形蔬果营养与热量和完美蔬果一模一样，切块下锅后毫无差别，有效降低了开支。",
       "points": 2,
       "sort_order": 23
@@ -788,11 +788,11 @@
         },
         {
           "key": "C",
-          "text": "It eliminates all government agricultural taxes on farmland."
+          "text": "It prevents rainstorms from damaging future vegetable crops."
         },
         {
           "key": "D",
-          "text": "It prevents rainstorms from damaging future vegetable crops."
+          "text": "It eliminates all government agricultural taxes on farmland."
         }
       ],
       "correct_answer": "A",
@@ -870,11 +870,11 @@
       "options": [
         {
           "key": "A",
-          "text": "A convenient, cost-effective democratization of film consumption."
+          "text": "A military training program designed for national defense."
         },
         {
           "key": "B",
-          "text": "A military training program designed for national defense."
+          "text": "A luxury pastime available exclusively to billionaires."
         },
         {
           "key": "C",
@@ -882,10 +882,10 @@
         },
         {
           "key": "D",
-          "text": "A luxury pastime available exclusively to billionaires."
+          "text": "A convenient, cost-effective democratization of film consumption."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第三段指出流媒体标榜其模式是电影文化的民主化，省去昂贵电影票与爆米花消费，享受足不出户的便捷。",
       "points": 2,
       "sort_order": 27
@@ -904,15 +904,15 @@
         },
         {
           "key": "B",
-          "text": "Cause television hardware screens to instantly catch fire."
-        },
-        {
-          "key": "C",
           "text": "Prevent viewers from understanding foreign language subtitles."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Force all viewers to fall asleep after ten minutes."
+        },
+        {
+          "key": "D",
+          "text": "Cause television hardware screens to instantly catch fire."
         }
       ],
       "correct_answer": "A",
@@ -934,15 +934,15 @@
         },
         {
           "key": "B",
-          "text": "Made every screenwriter a multi-millionaire within one year."
-        },
-        {
-          "key": "C",
           "text": "Forbidden screenwriters from writing original scripts."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Guaranteed free lifetime health insurance to all actors."
+        },
+        {
+          "key": "D",
+          "text": "Made every screenwriter a multi-millionaire within one year."
         }
       ],
       "correct_answer": "A",
@@ -964,11 +964,11 @@
         },
         {
           "key": "B",
-          "text": "The complete global demolition of all physical movie theaters."
+          "text": "A constitutional ban on all digital internet streaming platforms."
         },
         {
           "key": "C",
-          "text": "A constitutional ban on all digital internet streaming platforms."
+          "text": "The complete global demolition of all physical movie theaters."
         },
         {
           "key": "D",
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Independent contractors rather than traditional employees."
+          "text": "Executive board directors of tech conglomerates."
         },
         {
           "key": "B",
-          "text": "Tenured civil servants employed directly by the state."
-        },
-        {
-          "key": "C",
           "text": "Military personnel on active overseas deployment."
         },
         {
+          "key": "C",
+          "text": "Tenured civil servants employed directly by the state."
+        },
+        {
           "key": "D",
-          "text": "Executive board directors of tech conglomerates."
+          "text": "Independent contractors rather than traditional employees."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段指出平台将骑手和司机归类为“独立承包商（independent contractors）”，以此免除雇主法定责任。",
       "points": 2,
       "sort_order": 31
@@ -1028,11 +1028,11 @@
         },
         {
           "key": "C",
-          "text": "Digital domain registration fees for their mobile smartphone apps."
+          "text": "Municipal licensing permits for their corporate executive headquarters."
         },
         {
           "key": "D",
-          "text": "Municipal licensing permits for their corporate executive headquarters."
+          "text": "Digital domain registration fees for their mobile smartphone apps."
         }
       ],
       "correct_answer": "A",
@@ -1050,7 +1050,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Are subjected to strict algorithmic control and cannot set pay rates."
+          "text": "Own 50 percent of the voting stock in gig platform companies."
         },
         {
           "key": "B",
@@ -1058,14 +1058,14 @@
         },
         {
           "key": "C",
-          "text": "Earn more money than Fortune 500 corporate chief executives."
+          "text": "Are subjected to strict algorithmic control and cannot set pay rates."
         },
         {
           "key": "D",
-          "text": "Own 50 percent of the voting stock in gig platform companies."
+          "text": "Earn more money than Fortune 500 corporate chief executives."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第三段指出真正的自雇者能自主定价，而平台骑手受制于严苛算法监控，无法议价，且随时面临被算法封号解雇。",
       "points": 2,
       "sort_order": 33
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Are statutory workers entitled to minimum wages and holiday pay."
-        },
-        {
-          "key": "B",
           "text": "Must be deported from the United Kingdom immediately."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Are legally forbidden from picking up any passenger in London."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Must surrender their vehicles directly to the British police."
+        },
+        {
+          "key": "D",
+          "text": "Are statutory workers entitled to minimum wages and holiday pay."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第四段指出英国最高法院划时代判决认定优步司机属于法定劳动者（workers），享有法定最低工资、带薪假期等权益。",
       "points": 2,
       "sort_order": 34
@@ -1110,22 +1110,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Internalize the social and labor protection costs of their workers."
-        },
-        {
-          "key": "B",
-          "text": "Abolish all smartphone applications and return to horse carriages."
-        },
-        {
-          "key": "C",
           "text": "Fire all couriers and replace them with private corporate helicopters."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Relocate their business operations exclusively to outer space."
+        },
+        {
+          "key": "C",
+          "text": "Abolish all smartphone applications and return to horse carriages."
+        },
+        {
+          "key": "D",
+          "text": "Internalize the social and labor protection costs of their workers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨结论题。末段指出平台经济改革的根本是强制科技平台内部化其劳动力社会成本，不应以剥削底层不稳定性劳动力来补贴数字便利。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Bicycles could be unlocked via smartphone and parked anywhere without docks."
-        },
-        {
-          "key": "B",
           "text": "The bikes were equipped with jet engines that flew over traffic jams."
         },
         {
+          "key": "B",
+          "text": "Riders received free gold coins every time they pedaled ten miles."
+        },
+        {
           "key": "C",
-          "text": "The bikes required no human pedaling and could drive completely alone."
+          "text": "Bicycles could be unlocked via smartphone and parked anywhere without docks."
         },
         {
           "key": "D",
-          "text": "Riders received free gold coins every time they pedaled ten miles."
+          "text": "The bikes required no human pedaling and could drive completely alone."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出无桩共享单车的核心创新在于结合手机GPS与智能锁，用户指尖解锁，目的地随处还车（abandon anywhere without docks）。",
       "points": 2,
       "sort_order": 36
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Solve the 'first-mile, last-mile' problem and reduce vehicle emissions."
-        },
-        {
-          "key": "B",
           "text": "Completely eliminate all subway and municipal bus networks."
         },
         {
+          "key": "B",
+          "text": "Solve the 'first-mile, last-mile' problem and reduce vehicle emissions."
+        },
+        {
           "key": "C",
-          "text": "Provide free bicycles for all foreign tourists to take home."
+          "text": "Replace all city sidewalks with multi-lane asphalt motorways."
         },
         {
           "key": "D",
-          "text": "Replace all city sidewalks with multi-lane asphalt motorways."
+          "text": "Provide free bicycles for all foreign tourists to take home."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第二段指出规划师起初欢呼是因为它有望解决“起步与最后一公里”难题，接驳地铁，减少汽车出行和尾气。",
       "points": 2,
       "sort_order": 37
@@ -1204,11 +1204,11 @@
         },
         {
           "key": "B",
-          "text": "Trained stray dogs to ride bicycles through busy shopping malls."
+          "text": "Refused to allow anyone under sixty years old to rent bikes."
         },
         {
           "key": "C",
-          "text": "Refused to allow anyone under sixty years old to rent bikes."
+          "text": "Trained stray dogs to ride bicycles through busy shopping malls."
         },
         {
           "key": "D",
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Vast industrial wastelands where millions of abandoned bikes rust in piles."
+          "text": "Underground military shelters storing bicycles for emergency combat."
         },
         {
           "key": "B",
-          "text": "Sacred historical cemeteries where ancient bicycles are worshiped."
-        },
-        {
-          "key": "C",
           "text": "Museum exhibitions celebrating nineteenth-century pedal bicycles."
         },
         {
+          "key": "C",
+          "text": "Sacred historical cemeteries where ancient bicycles are worshiped."
+        },
+        {
           "key": "D",
-          "text": "Underground military shelters storing bicycles for emergency combat."
+          "text": "Vast industrial wastelands where millions of abandoned bikes rust in piles."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】词义理解题。第四段描绘了倒闭后成千上万单车被清理至废弃场地堆积如山的超现实景象，沦为“单车坟场（bike graveyards）”。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Fleet caps, designated parking zones, and public-private governance."
-        },
-        {
-          "key": "B",
           "text": "A permanent global ban on all bicycle manufacturing worldwide."
         },
         {
+          "key": "B",
+          "text": "Giving free gasoline automobiles to every urban cyclist."
+        },
+        {
           "key": "C",
-          "text": "Allowing private venture capitalists total control over city roads."
+          "text": "Fleet caps, designated parking zones, and public-private governance."
         },
         {
           "key": "D",
-          "text": "Giving free gasoline automobiles to every urban cyclist."
+          "text": "Allowing private venture capitalists total control over city roads."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨态度题。末段总结指出微出行成功的前提是公私协同监管：设定投放总量上限（fleet caps）、设立电子围栏停车区并共享数据。",
       "points": 2,
       "sort_order": 40

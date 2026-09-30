@@ -98,11 +98,11 @@
         },
         {
           "key": "C",
-          "text": "fragility"
+          "text": "clumsiness"
         },
         {
           "key": "D",
-          "text": "clumsiness"
+          "text": "fragility"
         }
       ],
       "correct_answer": "A",
@@ -124,11 +124,11 @@
         },
         {
           "key": "B",
-          "text": "sympathy"
+          "text": "gratitude"
         },
         {
           "key": "C",
-          "text": "gratitude"
+          "text": "sympathy"
         },
         {
           "key": "D",
@@ -180,7 +180,7 @@
       "options": [
         {
           "key": "A",
-          "text": "accounts"
+          "text": "prisons"
         },
         {
           "key": "B",
@@ -188,14 +188,14 @@
         },
         {
           "key": "C",
-          "text": "prisons"
+          "text": "novels"
         },
         {
           "key": "D",
-          "text": "novels"
+          "text": "accounts"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】商业搭配。open formal banking accounts（开设正规银行账户）。",
       "points": 0.5,
       "sort_order": 4
@@ -210,7 +210,7 @@
       "options": [
         {
           "key": "A",
-          "text": "excluded"
+          "text": "rescued"
         },
         {
           "key": "B",
@@ -218,14 +218,14 @@
         },
         {
           "key": "C",
-          "text": "rescued"
+          "text": "excluded"
         },
         {
           "key": "D",
           "text": "promoted"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。effectively excluded from basic consumer life（被实际排除在基础消费生活之外）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "hurdles"
+          "text": "subsidies"
         },
         {
           "key": "B",
-          "text": "privileges"
-        },
-        {
-          "key": "C",
           "text": "triumphs"
         },
         {
+          "key": "C",
+          "text": "privileges"
+        },
+        {
           "key": "D",
-          "text": "subsidies"
+          "text": "hurdles"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。confront equally daunting hurdles（面临同样严峻的阻碍/难题）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "glitches"
-        },
-        {
-          "key": "B",
-          "text": "charities"
-        },
-        {
-          "key": "C",
           "text": "miracles"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "virtues"
+        },
+        {
+          "key": "C",
+          "text": "glitches"
+        },
+        {
+          "key": "D",
+          "text": "charities"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】计算机名词。algorithmic glitches（算法故障/系统差错），与数字诈骗并列。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "privacy"
+          "text": "cruelty"
         },
         {
           "key": "B",
-          "text": "hostility"
+          "text": "privacy"
         },
         {
           "key": "C",
-          "text": "recklessness"
+          "text": "hostility"
         },
         {
           "key": "D",
-          "text": "cruelty"
+          "text": "recklessness"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词并列。threats to civil liberties and personal privacy（对公民自由与个人隐私的威胁）。",
       "points": 0.5,
       "sort_order": 8
@@ -334,15 +334,15 @@
         },
         {
           "key": "B",
-          "text": "festivals"
+          "text": "cemeteries"
         },
         {
           "key": "C",
-          "text": "orchards"
+          "text": "festivals"
         },
         {
           "key": "D",
-          "text": "cemeteries"
+          "text": "orchards"
         }
       ],
       "correct_answer": "A",
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "standstill"
+          "text": "victory"
         },
         {
           "key": "B",
-          "text": "paradise"
+          "text": "standstill"
         },
         {
           "key": "C",
-          "text": "renaissance"
+          "text": "paradise"
         },
         {
           "key": "D",
-          "text": "victory"
+          "text": "renaissance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】固定搭配。brought to a catastrophic standstill（陷入灾难性的停顿与瘫痪）。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rejecting"
-        },
-        {
-          "key": "B",
-          "text": "accepting"
-        },
-        {
-          "key": "C",
           "text": "spending"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "saving"
+        },
+        {
+          "key": "C",
+          "text": "rejecting"
+        },
+        {
+          "key": "D",
+          "text": "accepting"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。forbidding retailers from rejecting cash（禁止实体商家拒收现金）。",
       "points": 0.5,
       "sort_order": 11
@@ -424,11 +424,11 @@
         },
         {
           "key": "B",
-          "text": "novels"
+          "text": "postcards"
         },
         {
           "key": "C",
-          "text": "postcards"
+          "text": "novels"
         },
         {
           "key": "D",
@@ -450,11 +450,11 @@
       "options": [
         {
           "key": "A",
-          "text": "surveillance"
+          "text": "sympathy"
         },
         {
           "key": "B",
-          "text": "sympathy"
+          "text": "surveillance"
         },
         {
           "key": "C",
@@ -465,7 +465,7 @@
           "text": "generosity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。现金运转无需联网，也无需接受商业监控（corporate surveillance）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rights"
-        },
-        {
-          "key": "B",
-          "text": "crimes"
-        },
-        {
-          "key": "C",
           "text": "penalties"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "rights"
+        },
+        {
+          "key": "C",
           "text": "deficits"
+        },
+        {
+          "key": "D",
+          "text": "crimes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】褒义总结。fundamental human rights（基本人权与尊严保障）。",
       "points": 0.5,
       "sort_order": 14
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "tangible"
-        },
-        {
-          "key": "B",
           "text": "fictional"
         },
         {
+          "key": "B",
+          "text": "deceptive"
+        },
+        {
           "key": "C",
-          "text": "imaginary"
+          "text": "tangible"
         },
         {
           "key": "D",
-          "text": "deceptive"
+          "text": "imaginary"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析。tangible clarity（切实可见的触觉与实体清晰度）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,22 +570,22 @@
       "options": [
         {
           "key": "A",
-          "text": "mandates"
+          "text": "boycotts"
         },
         {
           "key": "B",
-          "text": "crimes"
-        },
-        {
-          "key": "C",
           "text": "scandals"
         },
         {
+          "key": "C",
+          "text": "crimes"
+        },
+        {
           "key": "D",
-          "text": "boycotts"
+          "text": "mandates"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。enacted legal mandates（颁布法律强制保护法令）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,11 +600,11 @@
       "options": [
         {
           "key": "A",
-          "text": "autonomy"
+          "text": "grief"
         },
         {
           "key": "B",
-          "text": "servitude"
+          "text": "autonomy"
         },
         {
           "key": "C",
@@ -612,10 +612,10 @@
         },
         {
           "key": "D",
-          "text": "grief"
+          "text": "servitude"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。preserving financial autonomy（捍卫消费者的财务自主权）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "resilience"
+          "text": "isolation"
         },
         {
           "key": "B",
-          "text": "bankruptcy"
-        },
-        {
-          "key": "C",
           "text": "decline"
         },
         {
+          "key": "C",
+          "text": "resilience"
+        },
+        {
           "key": "D",
-          "text": "isolation"
+          "text": "bankruptcy"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。safeguarding systemic resilience（保障系统应对危机的韧性）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "coexistence"
-        },
-        {
-          "key": "B",
           "text": "warfare"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "hostility"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "collapse"
+        },
+        {
+          "key": "D",
+          "text": "coexistence"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】总结名词。ensuring harmonious coexistence（确保现金与数字支付和谐共存）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,7 +690,7 @@
       "options": [
         {
           "key": "A",
-          "text": "To bolster tax receipts and prevent pension fund insolvencies."
+          "text": "To ban young graduates from entering corporate technology firms."
         },
         {
           "key": "B",
@@ -698,14 +698,14 @@
         },
         {
           "key": "C",
-          "text": "To ban young graduates from entering corporate technology firms."
+          "text": "To bolster tax receipts and prevent pension fund insolvencies."
         },
         {
           "key": "D",
           "text": "To eliminate all statutory employee healthcare benefits."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段首句指出，政府推迟退休年龄旨在避免养老金破产危机（avert pension insolvencies），同时增加税收。",
       "points": 2,
       "sort_order": 21
@@ -724,15 +724,15 @@
         },
         {
           "key": "B",
-          "text": "Encourage senior citizens to apply for executive directorships."
-        },
-        {
-          "key": "C",
           "text": "Promote renewable solar energy in company offices."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Comply with mandatory federal affirmative action quotas."
+        },
+        {
+          "key": "D",
+          "text": "Encourage senior citizens to apply for executive directorships."
         }
       ],
       "correct_answer": "A",
@@ -780,11 +780,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Superior emotional intelligence, crisis judgment, and company loyalty."
+          "text": "Extremely high rates of voluntary monthly job resignation."
         },
         {
           "key": "B",
-          "text": "Extremely high rates of voluntary monthly job resignation."
+          "text": "Frequent workplace accidents due to cognitive distraction."
         },
         {
           "key": "C",
@@ -792,10 +792,10 @@
         },
         {
           "key": "D",
-          "text": "Frequent workplace accidents due to cognitive distraction."
+          "text": "Superior emotional intelligence, crisis judgment, and company loyalty."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出职业研究表明，成熟年长员工具备卓越的情商、危机处置判断力以及更低的主动离职率（stabilizing loyalty）。",
       "points": 2,
       "sort_order": 24
@@ -814,15 +814,15 @@
         },
         {
           "key": "B",
-          "text": "Forbidding individuals over fifty from using computer software."
-        },
-        {
-          "key": "C",
           "text": "Abolishing all statutory retirement pensions worldwide."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Permitting corporations to fire senior workers without legal cause."
+        },
+        {
+          "key": "D",
+          "text": "Forbidding individuals over fifty from using computer software."
         }
       ],
       "correct_answer": "A",
@@ -840,7 +840,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Providing affordable wardrobe novelty while claiming environmental sustainability."
+          "text": "Teaching customers how to hand-sew their own cotton clothes."
         },
         {
           "key": "B",
@@ -848,14 +848,14 @@
         },
         {
           "key": "C",
-          "text": "Teaching customers how to hand-sew their own cotton clothes."
+          "text": "Providing affordable wardrobe novelty while claiming environmental sustainability."
         },
         {
           "key": "D",
           "text": "Manufacturing disposable paper clothes for single-day use."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出衣物租赁平台的主打卖点是以低廉价格满足人们对衣橱新鲜感的需求，同时标榜循环环保（sustainable circularity）。",
       "points": 2,
       "sort_order": 26
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Maximizing the utility of single garments across multiple wearers."
+          "text": "Completely eliminating all textile manufacturing globally."
         },
         {
           "key": "B",
-          "text": "Requiring fashion designers to work without financial compensation."
+          "text": "Maximizing the utility of single garments across multiple wearers."
         },
         {
           "key": "C",
-          "text": "Banning consumers from attending social ceremonies in cities."
+          "text": "Requiring fashion designers to work without financial compensation."
         },
         {
           "key": "D",
-          "text": "Completely eliminating all textile manufacturing globally."
+          "text": "Banning consumers from attending social ceremonies in cities."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段指出支持者认为一件衣服能在数十位租户间轮转循环，极大提升单件衣物的使用效能，减少重复生产的资源消耗。",
       "points": 2,
       "sort_order": 27
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Generate high carbon emissions through continuous courier transit."
-        },
-        {
-          "key": "B",
           "text": "Are funded by corrupt offshore banking conglomerates."
         },
         {
+          "key": "B",
+          "text": "Generate high carbon emissions through continuous courier transit."
+        },
+        {
           "key": "C",
-          "text": "Force all couriers to ride pedal bicycles in rainstorms."
+          "text": "Lead to immediate worldwide shortages of cardboard boxes."
         },
         {
           "key": "D",
-          "text": "Lead to immediate worldwide shortages of cardboard boxes."
+          "text": "Force all couriers to ride pedal bicycles in rainstorms."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第三段指出环保学者发现其生态账本复杂：虽然省了部分生产端消耗，但每次租借带来的上门配送与退回运输产生了巨大的快递碳排放。",
       "points": 2,
       "sort_order": 28
@@ -930,7 +930,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Industrial dry cleaning using hazardous chemical solvents."
+          "text": "Washing garments exclusively in purified mountain spring water."
         },
         {
           "key": "B",
@@ -938,14 +938,14 @@
         },
         {
           "key": "C",
-          "text": "Burning garments and manufacturing replacements from scratch."
+          "text": "Industrial dry cleaning using hazardous chemical solvents."
         },
         {
           "key": "D",
-          "text": "Washing garments exclusively in purified mountain spring water."
+          "text": "Burning garments and manufacturing replacements from scratch."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第四段指出商用租赁洗涤依赖大量使用四氯乙烯的工业干洗（industrial dry cleaning using solvents），对水环境构成潜在威胁并加速织物老化。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Rarely worn ceremonial garments rather than everyday basic attire."
-        },
-        {
-          "key": "B",
           "text": "Cheap cotton socks discarded after a single afternoon's wear."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Heavy military uniforms worn in Arctic survival expeditions."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Disposable plastic ponchos used during music festivals."
+        },
+        {
+          "key": "D",
+          "text": "Rarely worn ceremonial garments rather than everyday basic attire."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】结论主旨题。末段指出服装租赁对极少穿的礼服礼服（rarely worn ceremonial attire）具有真正的环保价值，但对日常休闲基本款而言其运输洗涤代价得不偿失。",
       "points": 2,
       "sort_order": 30
@@ -990,11 +990,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Complex ethical dilemmas regarding machine moral decision-making."
+          "text": "A legal ban on all automotive computer software worldwide."
         },
         {
           "key": "B",
-          "text": "A severe shortage of lithium batteries in automotive plants."
+          "text": "Complex ethical dilemmas regarding machine moral decision-making."
         },
         {
           "key": "C",
@@ -1002,10 +1002,10 @@
         },
         {
           "key": "D",
-          "text": "A legal ban on all automotive computer software worldwide."
+          "text": "A severe shortage of lithium batteries in automotive plants."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段末尾指出无人驾驶面临芯片和算法无法解决的深刻难题：机器伦理这一棘手迷宫（labyrinth of machine ethics）。",
       "points": 2,
       "sort_order": 31
@@ -1024,15 +1024,15 @@
         },
         {
           "key": "B",
-          "text": "It is entirely guided by emotional panic and instinct."
-        },
-        {
-          "key": "C",
           "text": "It requires live permission from a satellite flight controller."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "It is legally immune from any form of civil lawsuit."
+        },
+        {
+          "key": "D",
+          "text": "It is entirely guided by emotional panic and instinct."
         }
       ],
       "correct_answer": "A",
@@ -1050,11 +1050,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Vary significantly across different global and cultural societies."
+          "text": "Are universally identical among all human beings."
         },
         {
           "key": "B",
-          "text": "Are universally identical among all human beings."
+          "text": "Favor sacrificing young children in every scenario."
         },
         {
           "key": "C",
@@ -1062,10 +1062,10 @@
         },
         {
           "key": "D",
-          "text": "Favor sacrificing young children in every scenario."
+          "text": "Vary significantly across different global and cultural societies."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第四段指出麻省理工的实验表明，不同文化群体对事故中牺牲谁存在显著的文化分歧（cultural fissures）。",
       "points": 2,
       "sort_order": 33
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Refuse to purchase cars programmed to sacrifice their own passengers."
-        },
-        {
-          "key": "B",
           "text": "Demand cars that drive at double the statutory speed limit."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Insist on driving exclusively with obsolete cassette players."
+        },
+        {
+          "key": "C",
+          "text": "Refuse to purchase cars programmed to sacrifice their own passengers."
         },
         {
           "key": "D",
           "text": "Reject all vehicles that use synthetic rubber tires."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第五段指出汽车高管面临营销悖论：没有消费者愿意花钱买一辆在危急时刻被程序设定为优先牺牲车主的汽车。",
       "points": 2,
       "sort_order": 34
@@ -1110,7 +1110,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Democratic governments establishing standardized legal codes."
+          "text": "Automotive advertising marketing consultants."
         },
         {
           "key": "B",
@@ -1118,14 +1118,14 @@
         },
         {
           "key": "C",
-          "text": "Automotive advertising marketing consultants."
+          "text": "Individual car buyers configuring their own ethics menus."
         },
         {
           "key": "D",
-          "text": "Individual car buyers configuring their own ethics menus."
+          "text": "Democratic governments establishing standardized legal codes."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨态度题。末段强调道德困境不能甩给私营科技公司，必须由民主政府通过法律建立公开透明的标准化伦理守则。",
       "points": 2,
       "sort_order": 35
@@ -1148,11 +1148,11 @@
         },
         {
           "key": "C",
-          "text": "Establish a unified European government cryptocurrency."
+          "text": "Force tech companies to offer completely free digital smartphone hardware."
         },
         {
           "key": "D",
-          "text": "Force tech companies to offer completely free digital smartphone hardware."
+          "text": "Establish a unified European government cryptocurrency."
         }
       ],
       "correct_answer": "A",
@@ -1174,11 +1174,11 @@
         },
         {
           "key": "B",
-          "text": "Internet browsers automatically shut down whenever a cookie appears."
+          "text": "Users are legally required to sign physical paper waivers for every website."
         },
         {
           "key": "C",
-          "text": "Users are legally required to sign physical paper waivers for every website."
+          "text": "Internet browsers automatically shut down whenever a cookie appears."
         },
         {
           "key": "D",
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Imposing heavy compliance costs that crush smaller startup competitors."
+          "text": "Granting Silicon Valley firms total ownership of European telecom masts."
         },
         {
           "key": "B",
-          "text": "Exempting multinational corporations from paying municipal corporate taxes."
+          "text": "Imposing heavy compliance costs that crush smaller startup competitors."
         },
         {
           "key": "C",
-          "text": "Granting Silicon Valley firms total ownership of European telecom masts."
+          "text": "Exempting multinational corporations from paying municipal corporate taxes."
         },
         {
           "key": "D",
           "text": "Prohibiting European citizens from forming technology labor unions."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第三段指出合规成本高昂，巨头轻松消化，但初创公司难以招架合规诉讼与律师费而倒闭，反倒巩固了垄断巨头的市场份额。",
       "points": 2,
       "sort_order": 38
@@ -1234,11 +1234,11 @@
         },
         {
           "key": "B",
-          "text": "The European Union completely abolished its court system in 2020."
+          "text": "Silicon Valley tech giants have refused to hire European lawyers."
         },
         {
           "key": "C",
-          "text": "Silicon Valley tech giants have refused to hire European lawyers."
+          "text": "The European Union completely abolished its court system in 2020."
         },
         {
           "key": "D",
@@ -1260,7 +1260,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Mandating privacy-by-default browser settings and banning dark patterns."
+          "text": "Requiring users to pay a subscription fee to decline advertising cookies."
         },
         {
           "key": "B",
@@ -1268,14 +1268,14 @@
         },
         {
           "key": "C",
-          "text": "Requiring users to pay a subscription fee to decline advertising cookies."
+          "text": "Forbidding European citizens from accessing international websites."
         },
         {
           "key": "D",
-          "text": "Forbidding European citizens from accessing international websites."
+          "text": "Mandating privacy-by-default browser settings and banning dark patterns."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】结论主旨题。末段指出解决途径是将合规负担从被动用户转移至算法平台本身，强制在浏览器端推行默认隐私保护（privacy-by-default）并重罚黑产交互设计。",
       "points": 2,
       "sort_order": 40

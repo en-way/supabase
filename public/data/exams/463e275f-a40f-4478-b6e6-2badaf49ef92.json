@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "endless"
-        },
-        {
-          "key": "B",
           "text": "artificial"
         },
         {
+          "key": "B",
+          "text": "endless"
+        },
+        {
           "key": "C",
-          "text": "abrupt"
+          "text": "accidental"
         },
         {
           "key": "D",
-          "text": "accidental"
+          "text": "abrupt"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】形容词搭配。childhood summers seemed to stretch into an endless eternity（童年夏日仿佛延伸进无尽的永恒），形容童年时光漫长。",
       "points": 0.5,
       "sort_order": 1
@@ -120,22 +120,22 @@
       "options": [
         {
           "key": "A",
-          "text": "tied"
+          "text": "indifferent"
         },
         {
           "key": "B",
-          "text": "opposed"
-        },
-        {
-          "key": "C",
           "text": "hostile"
         },
         {
+          "key": "C",
+          "text": "tied"
+        },
+        {
           "key": "D",
-          "text": "indifferent"
+          "text": "opposed"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】固定搭配。be intimately tied to（与……紧密相连），主旨阐述时间感知与感知加工、记忆编码的密切关联。",
       "points": 0.5,
       "sort_order": 2
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "milestones"
-        },
-        {
-          "key": "B",
           "text": "illusions"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "grievances"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "subsidies"
+        },
+        {
+          "key": "D",
+          "text": "milestones"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。大脑通过累积心理事件/记忆里程碑（mental milestones）来衡量时光的流逝。",
       "points": 0.5,
       "sort_order": 3
@@ -184,11 +184,11 @@
         },
         {
           "key": "B",
-          "text": "dull"
+          "text": "tiresome"
         },
         {
           "key": "C",
-          "text": "tiresome"
+          "text": "dull"
         },
         {
           "key": "D",
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "impressions"
-        },
-        {
-          "key": "B",
           "text": "disasters"
         },
         {
+          "key": "B",
+          "text": "penalties"
+        },
+        {
           "key": "C",
-          "text": "compromises"
+          "text": "impressions"
         },
         {
           "key": "D",
-          "text": "penalties"
+          "text": "compromises"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。generating rich, detailed neural impressions（产生丰富、细腻的神经印记/印象）。",
       "points": 0.5,
       "sort_order": 5
@@ -248,11 +248,11 @@
         },
         {
           "key": "C",
-          "text": "reluctance"
+          "text": "prejudice"
         },
         {
           "key": "D",
-          "text": "prejudice"
+          "text": "reluctance"
         }
       ],
       "correct_answer": "A",
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "contrast"
-        },
-        {
-          "key": "B",
           "text": "sympathy"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "disgrace"
+        },
+        {
+          "key": "C",
+          "text": "contrast"
         },
         {
           "key": "D",
           "text": "disorder"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】介词短语。In stark contrast（形成鲜明对比），对比青少年期的丰富刺激与成年后的墨守成规。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "deliberation"
-        },
-        {
-          "key": "B",
           "text": "resistance"
         },
         {
+          "key": "B",
+          "text": "deliberation"
+        },
+        {
           "key": "C",
-          "text": "celebration"
+          "text": "hostility"
         },
         {
           "key": "D",
-          "text": "hostility"
+          "text": "celebration"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。日常工作流程变成了自动化反射，几乎无需有意识的深思熟虑（minimal conscious deliberation）。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "conserve"
-        },
-        {
-          "key": "B",
           "text": "squander"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "ignite"
+        },
+        {
+          "key": "C",
+          "text": "conserve"
         },
         {
           "key": "D",
           "text": "deplete"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。大脑对可预测的模式进行压缩处理，旨在节省/保持（conserve）大脑能量。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "flown"
-        },
-        {
-          "key": "B",
-          "text": "frozen"
-        },
-        {
-          "key": "C",
           "text": "expanded"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "flown"
+        },
+        {
+          "key": "C",
           "text": "halted"
+        },
+        {
+          "key": "D",
+          "text": "frozen"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词短语。fly by in an instant（一瞬间飞逝而过），用来形容成年人感知时间的迅速流逝。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "mechanisms"
-        },
-        {
-          "key": "B",
           "text": "ideologies"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "conventions"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "prejudices"
+        },
+        {
+          "key": "D",
+          "text": "mechanisms"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。physiological mechanisms（生理机制），下文眼跳运动与神经通路老化即为具体生理机制。",
       "points": 0.5,
       "sort_order": 11
@@ -428,11 +428,11 @@
         },
         {
           "key": "C",
-          "text": "perpetuate"
+          "text": "oscillate"
         },
         {
           "key": "D",
-          "text": "oscillate"
+          "text": "perpetuate"
         }
       ],
       "correct_answer": "A",
@@ -450,7 +450,7 @@
       "options": [
         {
           "key": "A",
-          "text": "slow"
+          "text": "explode"
         },
         {
           "key": "B",
@@ -458,14 +458,14 @@
         },
         {
           "key": "C",
-          "text": "explode"
+          "text": "slow"
         },
         {
           "key": "D",
           "text": "fluctuate"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词辨析。内部生物钟的跳动速率减慢（internal clock tick rates slow），导致对外部客观时间的错判。",
       "points": 0.5,
       "sort_order": 13
@@ -488,11 +488,11 @@
         },
         {
           "key": "C",
-          "text": "profitable"
+          "text": "tolerable"
         },
         {
           "key": "D",
-          "text": "tolerable"
+          "text": "profitable"
         }
       ],
       "correct_answer": "A",
@@ -518,11 +518,11 @@
         },
         {
           "key": "C",
-          "text": "penalties"
+          "text": "symptoms"
         },
         {
           "key": "D",
-          "text": "symptoms"
+          "text": "penalties"
         }
       ],
       "correct_answer": "A",
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "establishing"
-        },
-        {
-          "key": "B",
           "text": "erasing"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "concealing"
+        },
+        {
+          "key": "C",
+          "text": "establishing"
         },
         {
           "key": "D",
           "text": "mocking"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】分词搭配。establishing fresh experiential benchmarks（树立全新的体验参照物/基准点），让记忆饱满。",
       "points": 0.5,
       "sort_order": 16
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "virtually"
-        },
-        {
-          "key": "B",
           "text": "eagerly"
         },
         {
+          "key": "B",
+          "text": "triumphantly"
+        },
+        {
           "key": "C",
-          "text": "cautiously"
+          "text": "virtually"
         },
         {
           "key": "D",
-          "text": "triumphantly"
+          "text": "cautiously"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】副词修饰。刷手机看似丰富，实则几乎没有（virtually no）留下任何有意义的神经印记。",
       "points": 0.5,
       "sort_order": 18
@@ -630,11 +630,11 @@
       "options": [
         {
           "key": "A",
-          "text": "control"
+          "text": "sorrow"
         },
         {
           "key": "B",
-          "text": "denial"
+          "text": "control"
         },
         {
           "key": "C",
@@ -642,10 +642,10 @@
         },
         {
           "key": "D",
-          "text": "sorrow"
+          "text": "denial"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词搭配。remains within our conscious control（依然处于我们有意识的掌控之中）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "richness"
-        },
-        {
-          "key": "B",
           "text": "poverty"
         },
         {
+          "key": "B",
+          "text": "richness"
+        },
+        {
           "key": "C",
-          "text": "tedium"
+          "text": "absurdity"
         },
         {
           "key": "D",
-          "text": "absurdity"
+          "text": "tedium"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词与褒义归纳。savor the fleeting richness of our existence（体会并细细品味我们生命存在的短暂丰富性）。",
       "points": 0.5,
       "sort_order": 20
@@ -694,15 +694,15 @@
         },
         {
           "key": "B",
-          "text": "All foodstuffs are pre-packaged exclusively in biodegradable plant fibers."
-        },
-        {
-          "key": "C",
           "text": "Products are distributed strictly through online home delivery subscriptions."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Customers receive financial vouchers for burning domestic plastic waste."
+        },
+        {
+          "key": "D",
+          "text": "All foodstuffs are pre-packaged exclusively in biodegradable plant fibers."
         }
       ],
       "correct_answer": "A",
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Higher labor costs and shorter product shelf lives elevate operational expenses."
+          "text": "Store owners deliberately inflate profit margins for affluent consumers."
         },
         {
           "key": "B",
@@ -728,14 +728,14 @@
         },
         {
           "key": "C",
-          "text": "They exclusively stock imported, exotic organic goods from overseas."
+          "text": "Higher labor costs and shorter product shelf lives elevate operational expenses."
         },
         {
           "key": "D",
-          "text": "Store owners deliberately inflate profit margins for affluent consumers."
+          "text": "They exclusively stock imported, exotic organic goods from overseas."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第二段指出散装售卖需要严格卫生清洁、人工补货增加劳动力成本，缺乏真空密封缩短了保质期，从而推高了综合运营成本与售价。",
       "points": 2,
       "sort_order": 22
@@ -750,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "The refill process is cumbersome and time-consuming compared to pre-packaged goods."
+          "text": "Most cities lack tap water for cleaning empty jars."
         },
         {
           "key": "B",
@@ -758,14 +758,14 @@
         },
         {
           "key": "C",
-          "text": "Most cities lack tap water for cleaning empty jars."
+          "text": "The refill process is cumbersome and time-consuming compared to pre-packaged goods."
         },
         {
           "key": "D",
           "text": "They fear contracting food-borne illnesses from bulk food dispensers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出称重、自备容器和清理等繁琐流程（cumbersome and time-consuming）远不及现代超市条码预包装的便捷省时。",
       "points": 2,
       "sort_order": 23
@@ -784,15 +784,15 @@
         },
         {
           "key": "B",
-          "text": "The complete prohibition of all physical brick-and-mortar grocery stores."
+          "text": "Relying entirely on voluntary consumer boycotts of packaged snacks."
         },
         {
           "key": "C",
-          "text": "Banning consumers from purchasing household cleaning chemicals."
+          "text": "The complete prohibition of all physical brick-and-mortar grocery stores."
         },
         {
           "key": "D",
-          "text": "Relying entirely on voluntary consumer boycotts of packaged snacks."
+          "text": "Banning consumers from purchasing household cleaning chemicals."
         }
       ],
       "correct_answer": "A",
@@ -810,22 +810,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Implementing binding government regulations like Extended Producer Responsibility."
-        },
-        {
-          "key": "B",
           "text": "Appealing to the ethical consciousness of multinational corporations."
         },
         {
+          "key": "B",
+          "text": "Implementing binding government regulations like Extended Producer Responsibility."
+        },
+        {
           "key": "C",
-          "text": "Eliminating all environmental taxes on petrochemical packaging producers."
+          "text": "Encouraging families to grow their own agricultural produce at home."
         },
         {
           "key": "D",
-          "text": "Encouraging families to grow their own agricultural produce at home."
+          "text": "Eliminating all environmental taxes on petrochemical packaging producers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】结论方案题。第五段强调不能依赖自发的消费者利他心，必须通过政府推行生产者责任延伸（EPR）等强制立法，对非环保包装征税，从而从制度根源实现变革。",
       "points": 2,
       "sort_order": 25
@@ -844,15 +844,15 @@
         },
         {
           "key": "B",
-          "text": "Individual worker efficiency during remote keyboard sessions."
-        },
-        {
-          "key": "C",
           "text": "Corporate profits generated by commercial office leasing."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "The reliability of home broadband internet infrastructure."
+        },
+        {
+          "key": "D",
+          "text": "Individual worker efficiency during remote keyboard sessions."
         }
       ],
       "correct_answer": "A",
@@ -874,11 +874,11 @@
         },
         {
           "key": "B",
-          "text": "Close bonding ties within immediate project teams."
+          "text": "Workers' technical proficiency in operating software tools."
         },
         {
           "key": "C",
-          "text": "Workers' technical proficiency in operating software tools."
+          "text": "Close bonding ties within immediate project teams."
         },
         {
           "key": "D",
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They spark unexpected institutional innovation and creative solutions."
-        },
-        {
-          "key": "B",
-          "text": "They enforce strict hierarchical discipline across all business units."
-        },
-        {
-          "key": "C",
           "text": "They ensure that all meetings are strictly transactional and scheduled."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "They reduce the need for hiring external customer support agents."
+        },
+        {
+          "key": "C",
+          "text": "They enforce strict hierarchical discipline across all business units."
+        },
+        {
+          "key": "D",
+          "text": "They spark unexpected institutional innovation and creative solutions."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第三段指出跨部门的偶遇闲聊是组织创新的催化剂（proven engines of organizational innovation），能发现意料之外的问题并激发新灵感。",
       "points": 2,
       "sort_order": 28
@@ -934,15 +934,15 @@
         },
         {
           "key": "B",
-          "text": "Are forced to perform excessive administrative overtime duties."
+          "text": "Are denied standard medical insurance benefits by senior managers."
         },
         {
           "key": "C",
-          "text": "Lack the necessary hardware devices to attend virtual video calls."
+          "text": "Are forced to perform excessive administrative overtime duties."
         },
         {
           "key": "D",
-          "text": "Are denied standard medical insurance benefits by senior managers."
+          "text": "Lack the necessary hardware devices to attend virtual video calls."
         }
       ],
       "correct_answer": "A",
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "As social hubs designed for trust-building and spontaneous collaboration."
-        },
-        {
-          "key": "B",
-          "text": "As silent monitoring centers strictly for individual typing tasks."
-        },
-        {
-          "key": "C",
           "text": "As smaller warehouses with rows of isolated private cubicles."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "As virtual metaverse environments replacing physical buildings."
+        },
+        {
+          "key": "C",
+          "text": "As silent monitoring centers strictly for individual typing tasks."
+        },
+        {
+          "key": "D",
+          "text": "As social hubs designed for trust-building and spontaneous collaboration."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨态度题。末段明确提出办公室不再是个人敲电脑的流水线，而应当重塑为旨在建立信任、促进自发协作与滋养文化的社交目的地（social destination）。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Freely lend, resell, or donate their purchased copies."
+          "text": "Alter the author's original manuscript before publishing."
         },
         {
           "key": "B",
-          "text": "Print duplicate commercial editions without paying royalties."
+          "text": "Freely lend, resell, or donate their purchased copies."
         },
         {
           "key": "C",
-          "text": "Alter the author's original manuscript before publishing."
+          "text": "Print duplicate commercial editions without paying royalties."
         },
         {
           "key": "D",
           "text": "Demand full monetary refunds from the publisher at any time."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段首句明确指出，“权利用尽原则/首次销售原则”保证了实体书购买者有权出借、转售或捐赠所购书籍，无需出版社许可。",
       "points": 2,
       "sort_order": 31
@@ -1024,7 +1024,7 @@
         },
         {
           "key": "B",
-          "text": "Full permanent ownership of the intellectual copyright."
+          "text": "Shared equity in the digital publishing conglomerate."
         },
         {
           "key": "C",
@@ -1032,7 +1032,7 @@
         },
         {
           "key": "D",
-          "text": "Shared equity in the digital publishing conglomerate."
+          "text": "Full permanent ownership of the intellectual copyright."
         }
       ],
       "correct_answer": "A",
@@ -1080,7 +1080,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Monitor reading behavior and unilaterally censor or alter content."
+          "text": "Force all citizens to purchase physical print newspapers."
         },
         {
           "key": "B",
@@ -1088,14 +1088,14 @@
         },
         {
           "key": "C",
-          "text": "Force all citizens to purchase physical print newspapers."
+          "text": "Dismantle the public library system across North America."
         },
         {
           "key": "D",
-          "text": "Dismantle the public library system across North America."
+          "text": "Monitor reading behavior and unilaterally censor or alter content."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出丧失所有权导致读者阅读数据被监控，甚至内容可能被出版商单方面篡改或审查（monitor behavior and censor content）。",
       "points": 2,
       "sort_order": 34
@@ -1114,15 +1114,15 @@
         },
         {
           "key": "B",
-          "text": "Ban all e-book sales in favor of physical print editions."
-        },
-        {
-          "key": "C",
           "text": "Grant publishers perpetual royalties from secondary transactions."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Prohibit public libraries from purchasing digital licenses."
+        },
+        {
+          "key": "D",
+          "text": "Ban all e-book sales in favor of physical print editions."
         }
       ],
       "correct_answer": "A",
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Severe topsoil erosion and biodiversity loss."
-        },
-        {
-          "key": "B",
           "text": "A complete cessation of groundwater depletion."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "A surplus of native woodland wildlife habitats."
+        },
+        {
+          "key": "C",
+          "text": "Severe topsoil erosion and biodiversity loss."
         },
         {
           "key": "D",
           "text": "A decline in the use of industrial chemical fertilizers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段第二句明确指出，大规模单一作物种植导致了严重的表土侵蚀、地下水枯竭和灾难性的生物多样性丧失。",
       "points": 2,
       "sort_order": 36
@@ -1170,11 +1170,11 @@
       "options": [
         {
           "key": "A",
-          "text": "They act as windbreaks and moderate extreme temperature and moisture loss."
+          "text": "They accelerate the rate of topsoil pesticide absorption."
         },
         {
           "key": "B",
-          "text": "They block out all solar radiation to prevent weed germination."
+          "text": "They act as windbreaks and moderate extreme temperature and moisture loss."
         },
         {
           "key": "C",
@@ -1182,10 +1182,10 @@
         },
         {
           "key": "D",
-          "text": "They accelerate the rate of topsoil pesticide absorption."
+          "text": "They block out all solar radiation to prevent weed germination."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段末句指出树冠充当防风林，缓和极端地表温度，减少水分蒸发，并保护作物免受暴风雨侵袭。",
       "points": 2,
       "sort_order": 37
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Anchor topsoil and intercept harmful nitrate runoff."
-        },
-        {
-          "key": "B",
           "text": "Drain all groundwater from adjacent crop root systems."
         },
         {
+          "key": "B",
+          "text": "Anchor topsoil and intercept harmful nitrate runoff."
+        },
+        {
           "key": "C",
-          "text": "Prevent any organic matter from entering lower strata."
+          "text": "Eradicate beneficial subterranean fungal networks."
         },
         {
           "key": "D",
-          "text": "Eradicate beneficial subterranean fungal networks."
+          "text": "Prevent any organic matter from entering lower strata."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节理解题。第三段指出树木深根系能固紧脆弱表土，并在农业硝酸盐流失污染水体之前将其有效拦截吸收。",
       "points": 2,
       "sort_order": 38
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Alleviate heat stress and enhance livestock health and productivity."
-        },
-        {
-          "key": "B",
           "text": "Increase livestock susceptibility to respiratory illnesses."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Force cattle to consume non-nutritional tree bark."
+        },
+        {
+          "key": "C",
+          "text": "Alleviate heat stress and enhance livestock health and productivity."
         },
         {
           "key": "D",
           "text": "Decrease total dairy production during summer months."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第四段指出在林牧复合系统中，树荫减轻了牲畜的热应激，提高了产奶量、加快增重并降低患病几率。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "High initial capital expenses and rigid agricultural subsidy policies."
-        },
-        {
-          "key": "B",
-          "text": "Total consumer rejection of agricultural produce grown among trees."
-        },
-        {
-          "key": "C",
           "text": "The universal inability of fruit trees to grow on farm soils."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "A severe shortage of international agricultural labor."
+        },
+        {
+          "key": "C",
+          "text": "Total consumer rejection of agricultural produce grown among trees."
+        },
+        {
+          "key": "D",
+          "text": "High initial capital expenses and rigid agricultural subsidy policies."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。末段指出农林复合的主要阻碍在于前期高昂的初始资本投入（树木成长周期长达数十年）以及传统农业补贴制度的排斥性限制。",
       "points": 2,
       "sort_order": 40

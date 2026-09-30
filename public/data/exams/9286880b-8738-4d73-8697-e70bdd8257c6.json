@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "decisions"
-        },
-        {
-          "key": "B",
-          "text": "confessions"
-        },
-        {
-          "key": "C",
           "text": "excuses"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "hesitations"
+        },
+        {
+          "key": "C",
+          "text": "decisions"
+        },
+        {
+          "key": "D",
+          "text": "confessions"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】固定搭配。purchasing decisions（购买决策）符合零售场景。",
       "points": 0.5,
       "sort_order": 1
@@ -124,15 +124,15 @@
         },
         {
           "key": "B",
-          "text": "simplified"
-        },
-        {
-          "key": "C",
           "text": "repaired"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "clarified"
+        },
+        {
+          "key": "D",
+          "text": "simplified"
         }
       ],
       "correct_answer": "A",
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "calorie-free"
+          "text": "artificial"
         },
         {
           "key": "B",
-          "text": "unaffordable"
-        },
-        {
-          "key": "C",
           "text": "poisonous"
         },
         {
+          "key": "C",
+          "text": "calorie-free"
+        },
+        {
           "key": "D",
-          "text": "artificial"
+          "text": "unaffordable"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】语境推理。健康光环效应导致人们误以为该食品完全零热量、无卡路里（calorie-free）而过量摄入。",
       "points": 0.5,
       "sort_order": 4
@@ -240,11 +240,11 @@
       "options": [
         {
           "key": "A",
-          "text": "replace"
+          "text": "imitate"
         },
         {
           "key": "B",
-          "text": "imitate"
+          "text": "exceed"
         },
         {
           "key": "C",
@@ -252,10 +252,10 @@
         },
         {
           "key": "D",
-          "text": "exceed"
+          "text": "replace"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词辨析。加工食品不能完全替代（replace）新鲜未掺杂的天然全食物。",
       "points": 0.5,
       "sort_order": 6
@@ -270,11 +270,11 @@
       "options": [
         {
           "key": "A",
-          "text": "weaponized"
+          "text": "condemned"
         },
         {
           "key": "B",
-          "text": "condemned"
+          "text": "eliminated"
         },
         {
           "key": "C",
@@ -282,10 +282,10 @@
         },
         {
           "key": "D",
-          "text": "eliminated"
+          "text": "weaponized"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】比喻修辞。营销人员把“有机”、“纯天然”等词汇武器化（weaponized），用作诱导消费的光环工具。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dulled"
-        },
-        {
-          "key": "B",
-          "text": "sharpened"
-        },
-        {
-          "key": "C",
           "text": "celebrated"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "restored"
+        },
+        {
+          "key": "C",
+          "text": "dulled"
+        },
+        {
+          "key": "D",
+          "text": "sharpened"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词辨析。被流行词汇吸引时，消费者的批判评估能力往往被钝化、麻痹（dulled），忽视了高脂肪含量。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "declines"
-        },
-        {
-          "key": "B",
           "text": "surges"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "rebounds"
+        },
+        {
+          "key": "C",
+          "text": "declines"
         },
         {
           "key": "D",
           "text": "expansions"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词与警示标签效果。黑色八角警示标签导致含糖饮料购买量显著下降（declines）。",
       "points": 0.5,
       "sort_order": 9
@@ -360,7 +360,7 @@
       "options": [
         {
           "key": "A",
-          "text": "purchases"
+          "text": "inspections"
         },
         {
           "key": "B",
@@ -368,14 +368,14 @@
         },
         {
           "key": "C",
-          "text": "inspections"
+          "text": "purchases"
         },
         {
           "key": "D",
           "text": "lawsuits"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。重估冲动性食品购买（impulsive pantry purchases）。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "panic"
-        },
-        {
-          "key": "B",
-          "text": "trust"
-        },
-        {
-          "key": "C",
           "text": "joy"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "pride"
+        },
+        {
+          "key": "C",
+          "text": "trust"
+        },
+        {
+          "key": "D",
+          "text": "panic"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。食品游说团体声称警示标签会引起不必要的消费者恐慌（consumer panic）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "seldom"
+          "text": "eagerly"
         },
         {
           "key": "B",
-          "text": "always"
+          "text": "seldom"
         },
         {
           "key": "C",
-          "text": "eagerly"
+          "text": "always"
         },
         {
           "key": "D",
           "text": "cheerfully"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】频度副词。顾客在快节奏超市购物中很少（seldom）有闲暇去细读包装背面微小的营养成分表。",
       "points": 0.5,
       "sort_order": 12
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "whereas"
+          "text": "since"
         },
         {
           "key": "B",
-          "text": "because"
-        },
-        {
-          "key": "C",
           "text": "unless"
         },
         {
+          "key": "C",
+          "text": "because"
+        },
+        {
           "key": "D",
-          "text": "since"
+          "text": "whereas"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】逻辑对比连词。高收入家庭分析微量营养素百分比，而（whereas）低收入家庭主要受商品价格约束。",
       "points": 0.5,
       "sort_order": 14
@@ -510,11 +510,11 @@
       "options": [
         {
           "key": "A",
-          "text": "disparities"
+          "text": "triumphs"
         },
         {
           "key": "B",
-          "text": "triumphs"
+          "text": "privileges"
         },
         {
           "key": "C",
@@ -522,10 +522,10 @@
         },
         {
           "key": "D",
-          "text": "privileges"
+          "text": "disparities"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。单一标签无法纠正系统性的饮食差距与不公（dietary disparities）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,7 +540,7 @@
       "options": [
         {
           "key": "A",
-          "text": "tandem"
+          "text": "opposition"
         },
         {
           "key": "B",
@@ -548,14 +548,14 @@
         },
         {
           "key": "C",
-          "text": "opposition"
+          "text": "dispute"
         },
         {
           "key": "D",
-          "text": "dispute"
+          "text": "tandem"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。operate in tandem with（与……紧密协同配合运行）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,22 +570,22 @@
       "options": [
         {
           "key": "A",
-          "text": "affordable"
-        },
-        {
-          "key": "B",
           "text": "prohibitive"
         },
         {
+          "key": "B",
+          "text": "affordable"
+        },
+        {
           "key": "C",
-          "text": "unpopular"
+          "text": "tasteless"
         },
         {
           "key": "D",
-          "text": "tasteless"
+          "text": "unpopular"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】形容词对比。健康选择不仅要在视觉上清晰可辨，更要在经济上负担得起（economically affordable）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,7 +600,7 @@
       "options": [
         {
           "key": "A",
-          "text": "resilience"
+          "text": "hostility"
         },
         {
           "key": "B",
@@ -608,14 +608,14 @@
         },
         {
           "key": "C",
-          "text": "hostility"
+          "text": "addiction"
         },
         {
           "key": "D",
-          "text": "addiction"
+          "text": "resilience"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词与褒义搭配。从小培养烹饪技能可塑造终身饮食抵抗力/韧性（dietary resilience），抵制垃圾食品诱惑。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "campaign"
+          "text": "retreat"
         },
         {
           "key": "B",
-          "text": "superstition"
-        },
-        {
-          "key": "C",
           "text": "scandal"
         },
         {
+          "key": "C",
+          "text": "superstition"
+        },
+        {
           "key": "D",
-          "text": "retreat"
+          "text": "campaign"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。protracted public health campaign（长期的公共卫生运动/战役）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "profits"
-        },
-        {
-          "key": "B",
-          "text": "charities"
-        },
-        {
-          "key": "C",
           "text": "superstitions"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "donations"
+        },
+        {
+          "key": "C",
+          "text": "profits"
+        },
+        {
+          "key": "D",
+          "text": "charities"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】价值判断对比。优先考虑人类健康，而非企业食品暴利（corporate food profits）。",
       "points": 0.5,
       "sort_order": 20
@@ -694,15 +694,15 @@
         },
         {
           "key": "B",
-          "text": "To comply with mandatory national labor legislation"
+          "text": "To reduce employee vacation entitlements"
         },
         {
           "key": "C",
-          "text": "To permanently liquidate physical commercial real estate"
+          "text": "To comply with mandatory national labor legislation"
         },
         {
           "key": "D",
-          "text": "To reduce employee vacation entitlements"
+          "text": "To permanently liquidate physical commercial real estate"
         }
       ],
       "correct_answer": "A",
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "relocate overseas for corporate promotions"
+          "text": "work indefinite overtime in metropolitan offices"
         },
         {
           "key": "B",
-          "text": "accept a modest pay reduction for hybrid scheduling flexibility"
+          "text": "relocate overseas for corporate promotions"
         },
         {
           "key": "C",
-          "text": "work indefinite overtime in metropolitan offices"
+          "text": "accept a modest pay reduction for hybrid scheduling flexibility"
         },
         {
           "key": "D",
           "text": "relinquish their parental healthcare benefits"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第二段明确指出知识型员工愿意放弃 5% 到 10% 的基本薪酬，以换取每周两到三天居家的工作自主权，选 B。",
       "points": 2,
       "sort_order": 22
@@ -754,7 +754,7 @@
         },
         {
           "key": "B",
-          "text": "Extravagant expenditures on high-speed internet subsidies"
+          "text": "Widespread unionization among remote technical staff"
         },
         {
           "key": "C",
@@ -762,7 +762,7 @@
         },
         {
           "key": "D",
-          "text": "Widespread unionization among remote technical staff"
+          "text": "Extravagant expenditures on high-speed internet subsidies"
         }
       ],
       "correct_answer": "A",
@@ -780,7 +780,7 @@
       "options": [
         {
           "key": "A",
-          "text": "conduct solitary video conferences in partitioned cubicles"
+          "text": "undergo continuous biometric productivity surveillance"
         },
         {
           "key": "B",
@@ -788,11 +788,11 @@
         },
         {
           "key": "C",
-          "text": "undergo continuous biometric productivity surveillance"
+          "text": "fulfill rigid weekly 50-hour punch-card quotas"
         },
         {
           "key": "D",
-          "text": "fulfill rigid weekly 50-hour punch-card quotas"
+          "text": "conduct solitary video conferences in partitioned cubicles"
         }
       ],
       "correct_answer": "B",
@@ -810,11 +810,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Dismissive and sarcastic"
+          "text": "Uncritically enthusiastic"
         },
         {
           "key": "B",
-          "text": "Balanced and constructive"
+          "text": "Dismissive and sarcastic"
         },
         {
           "key": "C",
@@ -822,10 +822,10 @@
         },
         {
           "key": "D",
-          "text": "Uncritically enthusiastic"
+          "text": "Balanced and constructive"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "【考点精析】态度意图题。作者理性权衡了灵活性优势与管理协作隐忧，并提出建设性到岗方案，态度客观平衡且具建设性，选 B。",
       "points": 2,
       "sort_order": 25
@@ -840,7 +840,7 @@
       "options": [
         {
           "key": "A",
-          "text": "A severe lack of private overnight home charging access"
+          "text": "An inability to purchase automobile insurance"
         },
         {
           "key": "B",
@@ -848,14 +848,14 @@
         },
         {
           "key": "C",
-          "text": "An inability to purchase automobile insurance"
+          "text": "Excessive gasoline consumption during short commutes"
         },
         {
           "key": "D",
-          "text": "Excessive gasoline consumption during short commutes"
+          "text": "A severe lack of private overnight home charging access"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第二段指出没有私人车库的公寓居民无法安装夜间充电桩，面临严重的公共充电匮乏，选 A。",
       "points": 2,
       "sort_order": 26
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "automatically shifting charging sessions to overnight low-demand hours"
-        },
-        {
-          "key": "B",
           "text": "cutting off electrical power to household refrigerators"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "converting battery energy directly into diesel fuel"
+        },
+        {
+          "key": "C",
+          "text": "automatically shifting charging sessions to overnight low-demand hours"
         },
         {
           "key": "D",
           "text": "disabling automotive motors whenever highways are congested"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第四段指出智能充电桩通过动态电价，自动将充电调度至深夜负荷低谷期，选 A。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "It allows parked vehicles to discharge stored energy back into the grid during peaks"
+          "text": "It physically locks tires when a vehicle exceeds the speed limit"
         },
         {
           "key": "B",
-          "text": "It transmits high-speed satellite internet to municipal traffic lights"
+          "text": "It allows parked vehicles to discharge stored energy back into the grid during peaks"
         },
         {
           "key": "C",
-          "text": "It physically locks tires when a vehicle exceeds the speed limit"
+          "text": "It transmits high-speed satellite internet to municipal traffic lights"
         },
         {
           "key": "D",
           "text": "It automatically reports speeding infractions to insurance firms"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】概念例证题。第四段指出双向车网互动允许车辆在电网负荷高峰期将电池储存的多余电能反哺回电网，将闲置车辆变为分布式蓄电池，选 A。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "intelligent grid coordination and accessible charging solutions"
-        },
-        {
-          "key": "B",
           "text": "an immediate return to traditional internal combustion engines"
         },
         {
+          "key": "B",
+          "text": "nationalizing all private electric car manufacturers"
+        },
+        {
           "key": "C",
-          "text": "banning all apartment dwellers from buying automobiles"
+          "text": "intelligent grid coordination and accessible charging solutions"
         },
         {
           "key": "D",
-          "text": "nationalizing all private electric car manufacturers"
+          "text": "banning all apartment dwellers from buying automobiles"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨结论题。全文围绕电动车普及必须攻克充电桩公平接入与电网智能交互双重瓶颈展开，选 A。",
       "points": 2,
       "sort_order": 30
@@ -990,7 +990,7 @@
       "options": [
         {
           "key": "A",
-          "text": "They are continuous, interconnected linear networks rather than isolated patches"
+          "text": "They are manufactured entirely from artificial synthetic turf"
         },
         {
           "key": "B",
@@ -1002,10 +1002,10 @@
         },
         {
           "key": "D",
-          "text": "They are manufactured entirely from artificial synthetic turf"
+          "text": "They are continuous, interconnected linear networks rather than isolated patches"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节对比题。第一段指出传统公园是孤立绿岛，而生态绿道是穿透城市机理的互联互通线性网络（continuous networks of vegetated linear parks），选 A。",
       "points": 2,
       "sort_order": 31
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They enable migration and maintain healthy genetic gene flow"
-        },
-        {
-          "key": "B",
           "text": "They provide cages that protect animals from wild predators"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "They eliminate the need for animals to drink freshwater"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "They allow rare birds to nest directly inside automobiles"
+        },
+        {
+          "key": "D",
+          "text": "They enable migration and maintain healthy genetic gene flow"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第二段指出孤立公园容易导致近亲繁殖和物种局部灭绝，而连续廊道为野生动物提供了觅食和基因交流的通道，选 A。",
       "points": 2,
       "sort_order": 32
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "channeling cooling breezes and providing protective shade and evaporation"
-        },
-        {
-          "key": "B",
           "text": "painting asphalt roadways with thick white reflective paint"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "prohibiting the installation of air-conditioning units"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "flooding downtown street intersections with sea water"
+        },
+        {
+          "key": "D",
+          "text": "channeling cooling breezes and providing protective shade and evaporation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第三段指出绿道能将外围凉风输送至内城，并通过树冠遮阴与水分蒸腾显著降温，选 A。",
       "points": 2,
       "sort_order": 33
@@ -1080,11 +1080,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Competition for vacant land from lucrative commercial developers"
+          "text": "A severe national shortage of tree seeds and saplings"
         },
         {
           "key": "B",
-          "text": "A severe national shortage of tree seeds and saplings"
+          "text": "Competition for vacant land from lucrative commercial developers"
         },
         {
           "key": "C",
@@ -1095,7 +1095,7 @@
           "text": "Strict constitutional bans on planting grass near buildings"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第四段指出商业地产商觊觎地块用于开发高回报豪华物业，土地竞争激烈（pressure from commercial developers who covet vacant transit strips），选 A。",
       "points": 2,
       "sort_order": 34
@@ -1110,11 +1110,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Interconnected green corridors are vital for sustainable, climate-resilient cities"
+          "text": "Urban heat island effects are harmless natural phenomena"
         },
         {
           "key": "B",
-          "text": "Modern skyscrapers should be permanently banned from all metropolises"
+          "text": "Interconnected green corridors are vital for sustainable, climate-resilient cities"
         },
         {
           "key": "C",
@@ -1122,10 +1122,10 @@
         },
         {
           "key": "D",
-          "text": "Urban heat island effects are harmless natural phenomena"
+          "text": "Modern skyscrapers should be permanently banned from all metropolises"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】文章主旨大意题。全文系统阐明了互联互通的城市绿色廊道在保护物种基因、降温防灾及提升城市气候韧性中的不可替代价值，选 A。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "The predictable corporate ladder has been replaced by fluid, unpredictable paths"
+          "text": "Most graduates are legally forced to work in heavy agriculture"
         },
         {
           "key": "B",
-          "text": "Graduates are guaranteed lifetime tenure upon completing high school"
+          "text": "The predictable corporate ladder has been replaced by fluid, unpredictable paths"
         },
         {
           "key": "C",
-          "text": "Most graduates are legally forced to work in heavy agriculture"
+          "text": "Graduates are guaranteed lifetime tenure upon completing high school"
         },
         {
           "key": "D",
           "text": "University degrees have become completely illegal in corporate hiring"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第一段指出传统的线性晋升阶梯瓦解，取而代之的是高度流动的非线性职业路径，选 A。",
       "points": 2,
       "sort_order": 36
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Technical skills rapidly become obsolete due to automation and AI"
+          "text": "Technical training makes employees emotionally argumentative"
         },
         {
           "key": "B",
-          "text": "Graduates with technical degrees demand excessive salaries"
-        },
-        {
-          "key": "C",
           "text": "Modern corporations no longer utilize computers in office operations"
         },
         {
+          "key": "C",
+          "text": "Technical skills rapidly become obsolete due to automation and AI"
+        },
+        {
           "key": "D",
-          "text": "Technical training makes employees emotionally argumentative"
+          "text": "Graduates with technical degrees demand excessive salaries"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第二段指出技能半衰期已缩短至不足五年，自动化和 AI 使单一技术技能迅速过时，选 A。",
       "points": 2,
       "sort_order": 37
@@ -1200,7 +1200,7 @@
       "options": [
         {
           "key": "A",
-          "text": "lifelong upskilling and flexible portfolio careers"
+          "text": "exclusive reliance on lifelong family financial allowances"
         },
         {
           "key": "B",
@@ -1208,14 +1208,14 @@
         },
         {
           "key": "C",
-          "text": "a refusal to learn any new digital software applications"
+          "text": "lifelong upskilling and flexible portfolio careers"
         },
         {
           "key": "D",
-          "text": "exclusive reliance on lifelong family financial allowances"
+          "text": "a refusal to learn any new digital software applications"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第三段指出年轻从业者将终身学习（lifelong upskilling）作为长久生存策略，并积极践行多元化的组合式职业生涯（portfolio careers），选 A。",
       "points": 2,
       "sort_order": 38
@@ -1230,7 +1230,7 @@
       "options": [
         {
           "key": "A",
-          "text": "By breaking disciplinary silos and integrating experiential problem-solving"
+          "text": "By banning students from participating in corporate internships"
         },
         {
           "key": "B",
@@ -1238,14 +1238,14 @@
         },
         {
           "key": "C",
-          "text": "By extending undergraduate bachelor programs to ten years"
+          "text": "By breaking disciplinary silos and integrating experiential problem-solving"
         },
         {
           "key": "D",
-          "text": "By banning students from participating in corporate internships"
+          "text": "By extending undergraduate bachelor programs to ten years"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第四段指出大学必须打破学科壁垒（transcend rigid disciplinary silos），融入体验式实习与自适应问题解决能力培养，选 A。",
       "points": 2,
       "sort_order": 39
@@ -1260,11 +1260,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Navigating Career Resilience: Lifelong Learning in an Era of Job Disruption"
+          "text": "How Artificial Intelligence Will Starve All Human Workers"
         },
         {
           "key": "B",
-          "text": "Why University Education Should Be Completely Abolished"
+          "text": "Navigating Career Resilience: Lifelong Learning in an Era of Job Disruption"
         },
         {
           "key": "C",
@@ -1272,10 +1272,10 @@
         },
         {
           "key": "D",
-          "text": "How Artificial Intelligence Will Starve All Human Workers"
+          "text": "Why University Education Should Be Completely Abolished"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨标题题。全文探讨了职业模式剧变背景下，从业人员如何通过终身进阶技能学习构建职业韧性，以及高校与雇主的相应变革，选项 A 概括最契合。",
       "points": 2,
       "sort_order": 40

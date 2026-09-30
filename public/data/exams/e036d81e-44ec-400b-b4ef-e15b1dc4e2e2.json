@@ -90,7 +90,7 @@
       "options": [
         {
           "key": "A",
-          "text": "disrupt"
+          "text": "replicate"
         },
         {
           "key": "B",
@@ -98,14 +98,14 @@
         },
         {
           "key": "C",
-          "text": "prolong"
+          "text": "disrupt"
         },
         {
           "key": "D",
-          "text": "replicate"
+          "text": "prolong"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。人工照明与屏幕夜间暴露会干扰破坏（disrupt）生理生物钟节律。",
       "points": 0.5,
       "sort_order": 1
@@ -120,11 +120,11 @@
       "options": [
         {
           "key": "A",
-          "text": "onset"
+          "text": "paralysis"
         },
         {
           "key": "B",
-          "text": "termination"
+          "text": "onset"
         },
         {
           "key": "C",
@@ -132,10 +132,10 @@
         },
         {
           "key": "D",
-          "text": "paralysis"
+          "text": "termination"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】专业搭配。褪黑素是入睡开始（sleep onset）的神经化学信号。",
       "points": 0.5,
       "sort_order": 2
@@ -150,11 +150,11 @@
       "options": [
         {
           "key": "A",
-          "text": "episodes"
+          "text": "triumphs"
         },
         {
           "key": "B",
-          "text": "triumphs"
+          "text": "aspirations"
         },
         {
           "key": "C",
@@ -162,10 +162,10 @@
         },
         {
           "key": "D",
-          "text": "aspirations"
+          "text": "episodes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】医学搭配。depressive episodes（抑郁发作期），与高血压、胰岛素抵抗并列。",
       "points": 0.5,
       "sort_order": 3
@@ -184,15 +184,15 @@
         },
         {
           "key": "B",
-          "text": "shatters"
-        },
-        {
-          "key": "C",
           "text": "delays"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "confounds"
+        },
+        {
+          "key": "D",
+          "text": "shatters"
         }
       ],
       "correct_answer": "A",
@@ -210,11 +210,11 @@
       "options": [
         {
           "key": "A",
-          "text": "competence"
+          "text": "vulnerability"
         },
         {
           "key": "B",
-          "text": "collapse"
+          "text": "competence"
         },
         {
           "key": "C",
@@ -222,10 +222,10 @@
         },
         {
           "key": "D",
-          "text": "vulnerability"
+          "text": "collapse"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词与褒义搭配。优质睡眠增强机体免疫能力与健全性（immune competence）。",
       "points": 0.5,
       "sort_order": 5
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "predominantly"
+          "text": "dubiously"
         },
         {
           "key": "B",
-          "text": "reluctantly"
-        },
-        {
-          "key": "C",
           "text": "scarcely"
         },
         {
+          "key": "C",
+          "text": "predominantly"
+        },
+        {
           "key": "D",
-          "text": "dubiously"
+          "text": "reluctantly"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】副词语义。外周器官的生物钟主要（predominantly）对营养摄入做出响应。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "compromises"
-        },
-        {
-          "key": "B",
-          "text": "fortifies"
-        },
-        {
-          "key": "C",
           "text": "celebrates"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "guarantees"
+        },
+        {
+          "key": "C",
+          "text": "compromises"
+        },
+        {
+          "key": "D",
+          "text": "fortifies"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词辨析。体内节律脱节会损害、危害（compromises）葡萄糖耐量。",
       "points": 0.5,
       "sort_order": 8
@@ -334,15 +334,15 @@
         },
         {
           "key": "B",
-          "text": "depressed"
+          "text": "frozen"
         },
         {
           "key": "C",
-          "text": "eliminated"
+          "text": "depressed"
         },
         {
           "key": "D",
-          "text": "frozen"
+          "text": "eliminated"
         }
       ],
       "correct_answer": "A",
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "arousal"
-        },
-        {
-          "key": "B",
-          "text": "paralysis"
-        },
-        {
-          "key": "C",
           "text": "decay"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "extinction"
+        },
+        {
+          "key": "C",
+          "text": "arousal"
+        },
+        {
+          "key": "D",
+          "text": "paralysis"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】专业术语。sympathetic nervous arousal（交感神经系统唤醒/兴奋），睡前剧烈运动会引起兴奋而推迟入睡。",
       "points": 0.5,
       "sort_order": 10
@@ -390,7 +390,7 @@
       "options": [
         {
           "key": "A",
-          "text": "emitting"
+          "text": "prohibiting"
         },
         {
           "key": "B",
@@ -398,14 +398,14 @@
         },
         {
           "key": "C",
-          "text": "prohibiting"
+          "text": "swallowing"
         },
         {
           "key": "D",
-          "text": "swallowing"
+          "text": "emitting"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词现在分词。生物动态照明系统在早晨发射/散发（emitting）高亮度蓝光以提神。",
       "points": 0.5,
       "sort_order": 11
@@ -420,7 +420,7 @@
       "options": [
         {
           "key": "A",
-          "text": "penalties"
+          "text": "triumphs"
         },
         {
           "key": "B",
@@ -432,10 +432,10 @@
         },
         {
           "key": "D",
-          "text": "triumphs"
+          "text": "penalties"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词修辞。倒班轮班工人承受着最严重的昼夜节律健康代价/惩罚（circadian penalties）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,11 +450,11 @@
       "options": [
         {
           "key": "A",
-          "text": "carcinogen"
+          "text": "vitamin"
         },
         {
           "key": "B",
-          "text": "nutrient"
+          "text": "carcinogen"
         },
         {
           "key": "C",
@@ -462,10 +462,10 @@
         },
         {
           "key": "D",
-          "text": "vitamin"
+          "text": "nutrient"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】医学分类。世卫组织将长期夜班倒班列为潜在的生理致癌因素（probable carcinogen）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "delay"
+          "text": "abolish"
         },
         {
           "key": "B",
-          "text": "accelerate"
+          "text": "delay"
         },
         {
           "key": "C",
-          "text": "abolish"
+          "text": "accelerate"
         },
         {
           "key": "D",
           "text": "freeze"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词语义。顺时针向前倒班符合人类生物钟倾向于顺延推迟（delay）睡眠时间的生理规律。",
       "points": 0.5,
       "sort_order": 14
@@ -514,15 +514,15 @@
         },
         {
           "key": "B",
-          "text": "collapse"
-        },
-        {
-          "key": "C",
           "text": "chaos"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "ruin"
+        },
+        {
+          "key": "D",
+          "text": "collapse"
         }
       ],
       "correct_answer": "A",
@@ -540,7 +540,7 @@
       "options": [
         {
           "key": "A",
-          "text": "unrefreshed"
+          "text": "victorious"
         },
         {
           "key": "B",
@@ -548,14 +548,14 @@
         },
         {
           "key": "C",
-          "text": "victorious"
+          "text": "enlightened"
         },
         {
           "key": "D",
-          "text": "enlightened"
+          "text": "unrefreshed"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】形容词与负面状态。下午摄入咖啡因破坏深睡眠，导致醒来时依然感到未消除疲劳、昏沉不适（feeling unrefreshed）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,11 +570,11 @@
       "options": [
         {
           "key": "A",
-          "text": "deprivation"
+          "text": "abundance"
         },
         {
           "key": "B",
-          "text": "abundance"
+          "text": "pleasure"
         },
         {
           "key": "C",
@@ -582,10 +582,10 @@
         },
         {
           "key": "D",
-          "text": "pleasure"
+          "text": "deprivation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。chronic societal sleep deprivation（普遍的慢性社会性睡眠剥夺）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "depression"
+          "text": "gratitude"
         },
         {
           "key": "B",
-          "text": "cheerfulness"
+          "text": "depression"
         },
         {
           "key": "C",
-          "text": "enthusiasm"
+          "text": "cheerfulness"
         },
         {
           "key": "D",
-          "text": "gratitude"
+          "text": "enthusiasm"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】消极名词与消减。推迟上学时间使青少年抑郁（adolescent depression）大幅减轻。",
       "points": 0.5,
       "sort_order": 18
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "synchrony"
-        },
-        {
-          "key": "B",
           "text": "dispute"
         },
         {
+          "key": "B",
+          "text": "synchrony"
+        },
+        {
           "key": "C",
-          "text": "hostility"
+          "text": "estrangement"
         },
         {
           "key": "D",
-          "text": "estrangement"
+          "text": "hostility"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词搭配。our ancient evolutionary synchrony with the diurnal cycles（人类与地球昼夜节律之间古老漫长的演化协同与同步）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,22 +690,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Digital resale platforms and environmentally conscious young consumers"
-        },
-        {
-          "key": "B",
           "text": "The total bankruptcy of all major fast-fashion manufacturers"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Strict governmental bans on purchasing newly manufactured garments"
+        },
+        {
+          "key": "C",
+          "text": "Digital resale platforms and environmentally conscious young consumers"
         },
         {
           "key": "D",
           "text": "Heavy subsidies paid directly by traditional department stores"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第一段指出二手转售市场爆发由数字化平台和具备环保意识的年轻一代共同推动，选 A。",
       "points": 2,
       "sort_order": 21
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "a humiliating necessity due to poverty"
+          "text": "an attempt to hoard items for illegal black-market resale"
         },
         {
           "key": "B",
@@ -728,11 +728,11 @@
         },
         {
           "key": "C",
-          "text": "an attempt to hoard items for illegal black-market resale"
+          "text": "an aversion to any form of textile recycling"
         },
         {
           "key": "D",
-          "text": "an aversion to any form of textile recycling"
+          "text": "a humiliating necessity due to poverty"
         }
       ],
       "correct_answer": "B",
@@ -750,22 +750,22 @@
       "options": [
         {
           "key": "A",
-          "text": "By launching their own trade-in and authenticated resale portals"
+          "text": "By withdrawing completely from digital e-commerce channels"
         },
         {
           "key": "B",
-          "text": "By filing lawsuits against young thrift store owners"
-        },
-        {
-          "key": "C",
           "text": "By reducing the durability of their fabrics to prevent resale"
         },
         {
+          "key": "C",
+          "text": "By launching their own trade-in and authenticated resale portals"
+        },
+        {
           "key": "D",
-          "text": "By withdrawing completely from digital e-commerce channels"
+          "text": "By filing lawsuits against young thrift store owners"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第三段指出传统零售商顺势而为，上线自己的官方以旧换新和官方认证转售门户，选 A。",
       "points": 2,
       "sort_order": 23
@@ -814,11 +814,11 @@
         },
         {
           "key": "B",
-          "text": "condemn the younger generation for their consumerist vanity"
+          "text": "advocate for the immediate closure of all physical thrift stores"
         },
         {
           "key": "C",
-          "text": "advocate for the immediate closure of all physical thrift stores"
+          "text": "condemn the younger generation for their consumerist vanity"
         },
         {
           "key": "D",
@@ -840,11 +840,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Delivering water in micro-doses directly to roots to maximize conservation"
+          "text": "Eliminating the need for sunshine during grain development"
         },
         {
           "key": "B",
-          "text": "Eliminating the need for sunshine during grain development"
+          "text": "Allowing farmers to harvest crops three times a day"
         },
         {
           "key": "C",
@@ -852,10 +852,10 @@
         },
         {
           "key": "D",
-          "text": "Allowing farmers to harvest crops three times a day"
+          "text": "Delivering water in micro-doses directly to roots to maximize conservation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第一段指出精准灌溉通过滴灌将微量水分直接精准送达植物根部，节水高达 60%，选 A。",
       "points": 2,
       "sort_order": 26
@@ -870,7 +870,7 @@
       "options": [
         {
           "key": "A",
-          "text": "synchronizing irrigation with real-time weather and evapotranspiration rates"
+          "text": "prohibiting all forms of crop exports"
         },
         {
           "key": "B",
@@ -878,14 +878,14 @@
         },
         {
           "key": "C",
-          "text": "importing Arctic icebergs via cargo aircraft"
+          "text": "synchronizing irrigation with real-time weather and evapotranspiration rates"
         },
         {
           "key": "D",
-          "text": "prohibiting all forms of crop exports"
+          "text": "importing Arctic icebergs via cargo aircraft"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第二段指出智能系统结合天气预报和土壤蒸发量动态调配水分，避免阴雨天过度灌溉，保护了深层地下水，选 A。",
       "points": 2,
       "sort_order": 27
@@ -900,11 +900,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Delivering dissolved liquid fertilizers directly through irrigation water"
+          "text": "Spraying chemical powders from high-altitude airplanes"
         },
         {
           "key": "B",
-          "text": "Spraying chemical powders from high-altitude airplanes"
+          "text": "Freezing crops with nitrogen gas to prevent rot"
         },
         {
           "key": "C",
@@ -912,10 +912,10 @@
         },
         {
           "key": "D",
-          "text": "Freezing crops with nitrogen gas to prevent rot"
+          "text": "Delivering dissolved liquid fertilizers directly through irrigation water"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节例证题。第三段明确指出水肥一体化（drip fertigation）是将液体养分直接溶解在灌溉水中施用，提高肥料吸收率，选 A。",
       "points": 2,
       "sort_order": 28
@@ -934,7 +934,7 @@
         },
         {
           "key": "B",
-          "text": "A complete absence of electrical power across rural communities"
+          "text": "Universal consumer refusal to eat drip-irrigated produce"
         },
         {
           "key": "C",
@@ -942,7 +942,7 @@
         },
         {
           "key": "D",
-          "text": "Universal consumer refusal to eat drip-irrigated produce"
+          "text": "A complete absence of electrical power across rural communities"
         }
       ],
       "correct_answer": "A",
@@ -960,11 +960,11 @@
       "options": [
         {
           "key": "A",
-          "text": "public cooperative support and accessible low-interest financing"
+          "text": "liquidating all small family farms in favor of giant monopolies"
         },
         {
           "key": "B",
-          "text": "liquidating all small family farms in favor of giant monopolies"
+          "text": "public cooperative support and accessible low-interest financing"
         },
         {
           "key": "C",
@@ -975,7 +975,7 @@
           "text": "tripling water prices for all residential consumers"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】作者观点题。末段指出必须通过农业技术推广部门与合作社提供共享传感器网络及低息贷款支持，确保数字化农业普惠发展，选 A。",
       "points": 2,
       "sort_order": 30
@@ -998,11 +998,11 @@
         },
         {
           "key": "C",
-          "text": "That librarians would lead violent political rebellions"
+          "text": "That all printed books would spontaneously catch fire"
         },
         {
           "key": "D",
-          "text": "That all printed books would spontaneously catch fire"
+          "text": "That librarians would lead violent political rebellions"
         }
       ],
       "correct_answer": "A",
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "By offering digital literacy training and evaluating online misinformation"
+          "text": "By writing university doctoral dissertations on their behalf"
         },
         {
           "key": "B",
-          "text": "By selling high-interest commercial bank credit cards"
-        },
-        {
-          "key": "C",
           "text": "By confiscating personal smartphones upon entry"
         },
         {
+          "key": "C",
+          "text": "By offering digital literacy training and evaluating online misinformation"
+        },
+        {
           "key": "D",
-          "text": "By writing university doctoral dissertations on their behalf"
+          "text": "By selling high-interest commercial bank credit cards"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第二段末句指出图书馆员充当数字引航员，指导简历制作、数字素养培训并识别网络虚假信息，选 A。",
       "points": 2,
       "sort_order": 32
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Digital audio recording studios, 3D printers, and entrepreneurial spaces"
-        },
-        {
-          "key": "B",
-          "text": "Luxury private penthouses for municipal politicians"
-        },
-        {
-          "key": "C",
           "text": "Heavy diesel machinery repair shops"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Commercial gambling casinos"
+        },
+        {
+          "key": "C",
+          "text": "Luxury private penthouses for municipal politicians"
+        },
+        {
+          "key": "D",
+          "text": "Digital audio recording studios, 3D printers, and entrepreneurial spaces"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第三段指出闲置百科全书书架被数字录音室、3D 打印设备和创客会议室所取代，选 A。",
       "points": 2,
       "sort_order": 33
@@ -1080,11 +1080,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Handling social and mental health crises without adequate resources"
+          "text": "A severe national ban on printing paper books"
         },
         {
           "key": "B",
-          "text": "A severe national ban on printing paper books"
+          "text": "Handling social and mental health crises without adequate resources"
         },
         {
           "key": "C",
@@ -1095,7 +1095,7 @@
           "text": "Having to memorize every book in the library catalog"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第四段指出图书馆员常被动充当事实上的社工，在缺少专项培训和资金的情况下处理复杂的社会及心理危机，选 A。",
       "points": 2,
       "sort_order": 34
@@ -1110,22 +1110,22 @@
       "options": [
         {
           "key": "A",
-          "text": "support libraries with sustained budgets matching their expanded civic missions"
-        },
-        {
-          "key": "B",
           "text": "sell all library buildings to private property developers"
         },
         {
+          "key": "B",
+          "text": "support libraries with sustained budgets matching their expanded civic missions"
+        },
+        {
           "key": "C",
-          "text": "fire all reference librarians and replace them with automated doors"
+          "text": "charge citizens thirty dollars an hour to read books"
         },
         {
           "key": "D",
-          "text": "charge citizens thirty dollars an hour to read books"
+          "text": "fire all reference librarians and replace them with automated doors"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】作者观点结论题。末段强调市政领导必须将口头赞美落实为可持续的财政预算支持，认可图书馆是最具民主性的公共社会基础设施，选 A。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Climate warming and unconstrained mass tourism"
-        },
-        {
-          "key": "B",
           "text": "Overfishing and commercial maritime shipping"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Heavy chemical manufacturing and coal mining"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Volcanic eruptions and desert sandstorms"
+        },
+        {
+          "key": "D",
+          "text": "Climate warming and unconstrained mass tourism"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第一段指出高山生态正遭受气候变暖和不受节制的过度大众旅游的双重压力冲击，选 A。",
       "points": 2,
       "sort_order": 36
@@ -1170,7 +1170,7 @@
       "options": [
         {
           "key": "A",
-          "text": "By generating lucrative livelihoods and halting rural depopulation"
+          "text": "By eliminating the need for municipal sanitation services"
         },
         {
           "key": "B",
@@ -1178,14 +1178,14 @@
         },
         {
           "key": "C",
-          "text": "By eliminating the need for municipal sanitation services"
+          "text": "By completely liquidating mountain farms for shopping malls"
         },
         {
           "key": "D",
-          "text": "By completely liquidating mountain farms for shopping malls"
+          "text": "By generating lucrative livelihoods and halting rural depopulation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第二段指出旅游业为偏远山区提供了丰厚的生计来源，资助了基础设施建设并防止了乡村人口流失，选 A。",
       "points": 2,
       "sort_order": 37
@@ -1208,11 +1208,11 @@
         },
         {
           "key": "C",
-          "text": "Local wildlife has evolved poisonous venom"
+          "text": "Atmospheric oxygen has completely vanished from summits"
         },
         {
           "key": "D",
-          "text": "Atmospheric oxygen has completely vanished from summits"
+          "text": "Local wildlife has evolved poisonous venom"
         }
       ],
       "correct_answer": "A",
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "By diversifying into four-season eco-tourism and capping visitor volumes"
-        },
-        {
-          "key": "B",
-          "text": "By installing massive indoor air-conditioners across whole mountain ranges"
-        },
-        {
-          "key": "C",
           "text": "By permanently dynamiting unstable mountain peaks"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "By diversifying into four-season eco-tourism and capping visitor volumes"
+        },
+        {
+          "key": "C",
           "text": "By banning all local residents from hiking in nature"
+        },
+        {
+          "key": "D",
+          "text": "By installing massive indoor air-conditioners across whole mountain ranges"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节事实题。第四段指出前瞻性度假区不再盲目造雪，而是转向四季生态旅游、绿色轨道交通及热门山脊限流配额，选 A。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Alpine Tourism at the Crossroads: Melting Glaciers and Regenerative Solutions"
-        },
-        {
-          "key": "B",
           "text": "The Universal Failure of Winter Olympic Sports"
         },
         {
+          "key": "B",
+          "text": "Alpine Tourism at the Crossroads: Melting Glaciers and Regenerative Solutions"
+        },
+        {
           "key": "C",
-          "text": "Why Humans Should Never Visit Mountain Ranges"
+          "text": "How Artificial Snow Will Save Global Glaciers"
         },
         {
           "key": "D",
-          "text": "How Artificial Snow Will Save Global Glaciers"
+          "text": "Why Humans Should Never Visit Mountain Ranges"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨标题题。全文围绕阿尔卑斯高山旅游在气候变暖冰川消融下面临的危机，以及转向再生型生态旅游的应对出路展开，选 A。",
       "points": 2,
       "sort_order": 40

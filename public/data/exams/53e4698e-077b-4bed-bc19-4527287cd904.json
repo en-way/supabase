@@ -94,15 +94,15 @@
         },
         {
           "key": "B",
-          "text": "hesitance"
+          "text": "clumsiness"
         },
         {
           "key": "C",
-          "text": "fragility"
+          "text": "hesitance"
         },
         {
           "key": "D",
-          "text": "clumsiness"
+          "text": "fragility"
         }
       ],
       "correct_answer": "A",
@@ -124,15 +124,15 @@
         },
         {
           "key": "B",
-          "text": "omnipotent"
-        },
-        {
-          "key": "C",
           "text": "invulnerable"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "destructive"
+        },
+        {
+          "key": "D",
+          "text": "omnipotent"
         }
       ],
       "correct_answer": "A",
@@ -150,7 +150,7 @@
       "options": [
         {
           "key": "A",
-          "text": "anticipate"
+          "text": "disprove"
         },
         {
           "key": "B",
@@ -158,14 +158,14 @@
         },
         {
           "key": "C",
-          "text": "disprove"
+          "text": "fabricate"
         },
         {
           "key": "D",
-          "text": "fabricate"
+          "text": "anticipate"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词搭配。WHO 协调全球监测网络以预测（anticipate）来年冬季最可能流行的毒株。",
       "points": 0.5,
       "sort_order": 3
@@ -188,11 +188,11 @@
         },
         {
           "key": "C",
-          "text": "allegiance"
+          "text": "sympathy"
         },
         {
           "key": "D",
-          "text": "sympathy"
+          "text": "allegiance"
         }
       ],
       "correct_answer": "A",
@@ -210,7 +210,7 @@
       "options": [
         {
           "key": "A",
-          "text": "precipitously"
+          "text": "scarcely"
         },
         {
           "key": "B",
@@ -218,14 +218,14 @@
         },
         {
           "key": "C",
-          "text": "favorably"
+          "text": "precipitously"
         },
         {
           "key": "D",
-          "text": "scarcely"
+          "text": "favorably"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】副词搭配。plummet precipitously（急剧暴跌/骤降），如果中途出现突变株，当季疫苗有效率会断崖式下跌。",
       "points": 0.5,
       "sort_order": 5
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "immunity"
-        },
-        {
-          "key": "B",
           "text": "contagion"
         },
         {
+          "key": "B",
+          "text": "exposure"
+        },
+        {
           "key": "C",
-          "text": "fragility"
+          "text": "immunity"
         },
         {
           "key": "D",
-          "text": "exposure"
+          "text": "fragility"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。provide broad, lasting immunity（提供广泛而持久的免疫保护）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "hurdles"
+          "text": "triumphs"
         },
         {
           "key": "B",
-          "text": "benefits"
+          "text": "hurdles"
         },
         {
           "key": "C",
-          "text": "triumphs"
+          "text": "benefits"
         },
         {
           "key": "D",
           "text": "subsidies"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词搭配。presents formidable biochemical hurdles（面临艰巨的生化障碍/难题）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "overshadowing"
-        },
-        {
-          "key": "B",
           "text": "magnifying"
         },
         {
+          "key": "B",
+          "text": "clarifying"
+        },
+        {
           "key": "C",
-          "text": "endorsing"
+          "text": "overshadowing"
         },
         {
           "key": "D",
-          "text": "clarifying"
+          "text": "endorsing"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】分词语义。免疫系统注意力集中在显眼的头部区域，从而遮蔽/掩盖了（overshadowing）隐藏的茎部。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "present"
-        },
-        {
-          "key": "B",
           "text": "conceal"
         },
         {
+          "key": "B",
+          "text": "present"
+        },
+        {
           "key": "C",
-          "text": "corrode"
+          "text": "condemn"
         },
         {
           "key": "D",
-          "text": "condemn"
+          "text": "corrode"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。用纳米支架单独呈递（present）茎部结构，训练免疫系统定向识别抗原弱点。",
       "points": 0.5,
       "sort_order": 9
@@ -360,11 +360,11 @@
       "options": [
         {
           "key": "A",
-          "text": "promise"
+          "text": "treachery"
         },
         {
           "key": "B",
-          "text": "treachery"
+          "text": "apathy"
         },
         {
           "key": "C",
@@ -372,10 +372,10 @@
         },
         {
           "key": "D",
-          "text": "apathy"
+          "text": "promise"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。动物临床前试验展现出显著的前景/希望（showed remarkable promise）。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "baggage"
+          "text": "justice"
         },
         {
           "key": "B",
-          "text": "privilege"
+          "text": "baggage"
         },
         {
           "key": "C",
-          "text": "vacation"
+          "text": "privilege"
         },
         {
           "key": "D",
-          "text": "justice"
+          "text": "vacation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】比喻用法。immunologic baggage（免疫包袱/历史免疫负担），指过往多次感染和疫苗接种形成的历史抗原偏差。",
       "points": 0.5,
       "sort_order": 11
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "targets"
-        },
-        {
-          "key": "B",
           "text": "passengers"
         },
         {
+          "key": "B",
+          "text": "targets"
+        },
+        {
           "key": "C",
-          "text": "citizens"
+          "text": "allies"
         },
         {
           "key": "D",
-          "text": "allies"
+          "text": "citizens"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。免疫系统倾向于产生过时抗体，而不是针对新靶点（novel targets）形成新鲜防御。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "tepid"
+          "text": "unlimited"
         },
         {
           "key": "B",
-          "text": "ecstatic"
-        },
-        {
-          "key": "C",
           "text": "passionate"
         },
         {
+          "key": "C",
+          "text": "ecstatic"
+        },
+        {
           "key": "D",
-          "text": "unlimited"
+          "text": "tepid"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】形容词辨析。商业药企在历史上对通用流感疫苗表现冷淡/不温不火（tepid interest）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "revenue"
-        },
-        {
-          "key": "B",
           "text": "misfortune"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "deficit"
+        },
+        {
+          "key": "C",
+          "text": "revenue"
         },
         {
           "key": "D",
           "text": "penance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】商业名词。selling annual injections provides a recurring revenue stream（每年售卖当季疫苗提供稳定的经常性营收流）。",
       "points": 0.5,
       "sort_order": 14
@@ -514,7 +514,7 @@
         },
         {
           "key": "B",
-          "text": "undermine"
+          "text": "prohibit"
         },
         {
           "key": "C",
@@ -522,7 +522,7 @@
         },
         {
           "key": "D",
-          "text": "prohibit"
+          "text": "undermine"
         }
       ],
       "correct_answer": "A",
@@ -540,7 +540,7 @@
       "options": [
         {
           "key": "A",
-          "text": "sluggish"
+          "text": "futuristic"
         },
         {
           "key": "B",
@@ -548,14 +548,14 @@
         },
         {
           "key": "C",
-          "text": "flawless"
+          "text": "sluggish"
         },
         {
           "key": "D",
-          "text": "futuristic"
+          "text": "flawless"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析。传统基于鸡蛋培养的生产技术动作迟缓（dangerously sluggish），难以应对突发危机。",
       "points": 0.5,
       "sort_order": 16
@@ -574,11 +574,11 @@
         },
         {
           "key": "B",
-          "text": "decades"
+          "text": "centuries"
         },
         {
           "key": "C",
-          "text": "centuries"
+          "text": "decades"
         },
         {
           "key": "D",
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "intensifies"
-        },
-        {
-          "key": "B",
-          "text": "dissolves"
-        },
-        {
-          "key": "C",
           "text": "vanishes"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "retreats"
+        },
+        {
+          "key": "C",
+          "text": "dissolves"
+        },
+        {
+          "key": "D",
+          "text": "intensifies"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词搭配。集约化畜牧养殖加剧/深化（intensifies），人畜接触更紧密。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "higher"
-        },
-        {
-          "key": "B",
-          "text": "lower"
-        },
-        {
-          "key": "C",
           "text": "safer"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "tighter"
+        },
+        {
+          "key": "C",
+          "text": "higher"
+        },
+        {
+          "key": "D",
+          "text": "lower"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】形容词修饰。跨物种溢出风险成指数级走高（grows exponentially higher）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,7 +660,7 @@
       "options": [
         {
           "key": "A",
-          "text": "resilience"
+          "text": "surrender"
         },
         {
           "key": "B",
@@ -668,14 +668,14 @@
         },
         {
           "key": "C",
-          "text": "negligence"
+          "text": "resilience"
         },
         {
           "key": "D",
-          "text": "surrender"
+          "text": "negligence"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词与褒义归纳。planetary biosecurity resilience（全球生物安全韧性保障）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,22 +690,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Frequent emergency track closures and severe commuter cancellations."
-        },
-        {
-          "key": "B",
-          "text": "A total transition to private high-speed automotive tollways."
-        },
-        {
-          "key": "C",
           "text": "A massive reduction in the cost of hiring maintenance contractors."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "The complete electrification of all rural branch lines."
+        },
+        {
+          "key": "C",
+          "text": "A total transition to private high-speed automotive tollways."
+        },
+        {
+          "key": "D",
+          "text": "Frequent emergency track closures and severe commuter cancellations."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段第二句指出长期欠投与延期维护导致了紧急抢修死循环，造成限速和大规模列车晚点取消（widespread cancellations）。",
       "points": 2,
       "sort_order": 21
@@ -724,11 +724,11 @@
         },
         {
           "key": "B",
-          "text": "Excessively focused on aesthetic landscaping along track embankments."
+          "text": "Carried out exclusively during peak morning commuting hours."
         },
         {
           "key": "C",
-          "text": "Carried out exclusively during peak morning commuting hours."
+          "text": "Excessively focused on aesthetic landscaping along track embankments."
         },
         {
           "key": "D",
@@ -780,11 +780,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Forecasting component fatigue and enabling planned non-disruptive repairs."
+          "text": "Automating passenger fare increases during rainy weather."
         },
         {
           "key": "B",
-          "text": "Automating passenger fare increases during rainy weather."
+          "text": "Doubling train speeds on vintage Victorian viaducts."
         },
         {
           "key": "C",
@@ -792,10 +792,10 @@
         },
         {
           "key": "D",
-          "text": "Doubling train speeds on vintage Victorian viaducts."
+          "text": "Forecasting component fatigue and enabling planned non-disruptive repairs."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第四段指出预测性数字资产管理通过数字孪生建模精准预判金属疲劳，提前数周排期检修而不干扰核心客运时刻表。",
       "points": 2,
       "sort_order": 24
@@ -810,7 +810,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Unifying track infrastructure and train operations under single authority."
+          "text": "Abolishing all safety inspections to accelerate train frequencies."
         },
         {
           "key": "B",
@@ -818,14 +818,14 @@
         },
         {
           "key": "C",
-          "text": "Abolishing all safety inspections to accelerate train frequencies."
+          "text": "Unifying track infrastructure and train operations under single authority."
         },
         {
           "key": "D",
           "text": "Replacing all steel tracks with asphalt highway lanes."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】结论主旨题。末段总结指出治理改革的关键是将轨道基建与列车调度重新整合进统一的公共管理机构（unifying into a single public authority）。",
       "points": 2,
       "sort_order": 25
@@ -840,11 +840,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Natural variations in cognitive wiring with unique strengths."
+          "text": "Personality flaws that require strict behavioral suppression."
         },
         {
           "key": "B",
-          "text": "Incurable medical deficits that disqualify individuals from work."
+          "text": "Natural variations in cognitive wiring with unique strengths."
         },
         {
           "key": "C",
@@ -852,10 +852,10 @@
         },
         {
           "key": "D",
-          "text": "Personality flaws that require strict behavioral suppression."
+          "text": "Incurable medical deficits that disqualify individuals from work."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段尾句指出神经多样性范式拒绝将自闭症视为病理缺陷，认为它们代表了人类认知结构的自然变异（natural variations in human cognitive wiring），具有独特优势。",
       "points": 2,
       "sort_order": 26
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Exceptional pattern recognition and sustained attention to detail."
-        },
-        {
-          "key": "B",
           "text": "Charismatic public speaking and marketing persuasion skills."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Willingness to work completely without monetary compensation."
+        },
+        {
+          "key": "C",
+          "text": "Exceptional pattern recognition and sustained attention to detail."
         },
         {
           "key": "D",
           "text": "Preference for managing large, diverse administrative teams."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出自闭症专业人才在模式识别（pattern recognition）、极高专注力以及对精确性的执着上具有显著优势，在排查代码漏洞中往往胜过常人。",
       "points": 2,
       "sort_order": 28
@@ -930,7 +930,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Creating low-sensory quiet zones and providing clear written instructions."
+          "text": "Requiring all employees to work in brightly lit open-plan halls."
         },
         {
           "key": "B",
@@ -938,14 +938,14 @@
         },
         {
           "key": "C",
-          "text": "Requiring all employees to work in brightly lit open-plan halls."
+          "text": "Mandating 80-hour workweeks without flexible rest breaks."
         },
         {
           "key": "D",
-          "text": "Mandating 80-hour workweeks without flexible rest breaks."
+          "text": "Creating low-sensory quiet zones and providing clear written instructions."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段末句指出改善环境的措施包括设立低感官静音区、允许戴降噪耳机以及用明确书面指令代替含糊口头任务。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Wiring the Workplace for Cognitive Diversity."
-        },
-        {
-          "key": "B",
           "text": "The Decline of Open-Plan Corporate Architecture."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "The Medical Treatment of Adult Autism."
+        },
+        {
+          "key": "C",
+          "text": "Wiring the Workplace for Cognitive Diversity."
         },
         {
           "key": "D",
           "text": "Why Traditional Job Interviews Are Unreliable."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨大意题。全文围绕企业接纳神经多样性、重塑招聘与职场环境、释放差异化认知潜能展开，A 项立意精准且契合主旨。",
       "points": 2,
       "sort_order": 30
@@ -990,11 +990,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Article processing charges paid by authors or institutions."
+          "text": "Direct sales of printed paper volumes to individual readers."
         },
         {
           "key": "B",
-          "text": "Expensive annual subscription fees paid by university libraries."
+          "text": "Article processing charges paid by authors or institutions."
         },
         {
           "key": "C",
@@ -1002,10 +1002,10 @@
         },
         {
           "key": "D",
-          "text": "Direct sales of printed paper volumes to individual readers."
+          "text": "Expensive annual subscription fees paid by university libraries."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段指出在开放获取模式下，由作者或其资助机构支付“论文处理费（APCs）”，随后研究对所有人免费开放。",
       "points": 2,
       "sort_order": 31
@@ -1024,11 +1024,11 @@
         },
         {
           "key": "B",
-          "text": "Strictly rejecting 99 percent of submitted academic manuscripts."
+          "text": "Paying generous peer-review honorariums to independent editors."
         },
         {
           "key": "C",
-          "text": "Paying generous peer-review honorariums to independent editors."
+          "text": "Strictly rejecting 99 percent of submitted academic manuscripts."
         },
         {
           "key": "D",
@@ -1050,11 +1050,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Intense pressure to publish rapidly for academic advancement."
+          "text": "A desire to publish bogus, pseudoscientific medical claims."
         },
         {
           "key": "B",
-          "text": "A desire to publish bogus, pseudoscientific medical claims."
+          "text": "Intense pressure to publish rapidly for academic advancement."
         },
         {
           "key": "C",
@@ -1065,7 +1065,7 @@
           "text": "A legal ban preventing them from submitting to traditional journals."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第三段指出青年学者和发展中国家研究人员面临毕业、晋升等严苛的考核压力（crushing mandates that demand rapid outputs），因此极易被虚假审稿承诺所诱惑。",
       "points": 2,
       "sort_order": 33
@@ -1080,11 +1080,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Conferring academic legitimacy on pseudoscience and unverified claims."
+          "text": "Depleting all global paper supplies for physical printing presses."
         },
         {
           "key": "B",
-          "text": "Depleting all global paper supplies for physical printing presses."
+          "text": "Conferring academic legitimacy on pseudoscience and unverified claims."
         },
         {
           "key": "C",
@@ -1095,7 +1095,7 @@
           "text": "Preventing medical doctors from treating hospital patients."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节推断题。第四段指出掠夺性期刊充当了伪科学、垃圾方法论的通道，给劣质研究披上学术外衣，毒化了科学证据库。",
       "points": 2,
       "sort_order": 34
@@ -1140,7 +1140,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Warrantless government seizure of cell-site location data is legal."
+          "text": "Telecom companies possess the legal right to shut down cellular masts."
         },
         {
           "key": "B",
@@ -1148,14 +1148,14 @@
         },
         {
           "key": "C",
-          "text": "Smartphone ownership should be restricted to adults over twenty-one."
+          "text": "Warrantless government seizure of cell-site location data is legal."
         },
         {
           "key": "D",
-          "text": "Telecom companies possess the legal right to shut down cellular masts."
+          "text": "Smartphone ownership should be restricted to adults over twenty-one."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出 Carpenter 案的核心争议在于检方在没有搜查令的情况下获取长达127天的手机基站位置数据（warrantless seizure of CSLI）是否侵犯了宪法隐私权。",
       "points": 2,
       "sort_order": 36
@@ -1174,15 +1174,15 @@
         },
         {
           "key": "B",
-          "text": "Retain absolute privacy over all communications sent via private couriers."
-        },
-        {
-          "key": "C",
           "text": "Must receive government compensation whenever their phones are tapped."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Cannot legally share their banking records with family members."
+        },
+        {
+          "key": "D",
+          "text": "Retain absolute privacy over all communications sent via private couriers."
         }
       ],
       "correct_answer": "A",
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Location data creates an intimate, comprehensive chronicle of private life."
-        },
-        {
-          "key": "B",
-          "text": "Timothy Carpenter proved he never possessed a functioning smartphone."
-        },
-        {
-          "key": "C",
           "text": "Cellular radio pings are completely invisible to digital forensic tools."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Location data creates an intimate, comprehensive chronicle of private life."
+        },
+        {
+          "key": "C",
           "text": "The Fourth Amendment only applies to paper letters and physical homes."
+        },
+        {
+          "key": "D",
+          "text": "Timothy Carpenter proved he never possessed a functioning smartphone."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果细节题。第三段指出罗伯茨首席大法官指出手机形影不离，基站定位记录描摹出了个人整个私生活的详尽编年史（intimate, comprehensive chronicle），涉及政治与信仰隐私。",
       "points": 2,
       "sort_order": 38
@@ -1238,11 +1238,11 @@
         },
         {
           "key": "C",
-          "text": "Cell-site location information is completely deleted every twenty-four hours."
+          "text": "No American citizen possesses a legal right to purchase a cell phone."
         },
         {
           "key": "D",
-          "text": "No American citizen possesses a legal right to purchase a cell phone."
+          "text": "Cell-site location information is completely deleted every twenty-four hours."
         }
       ],
       "correct_answer": "A",
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Comprehensive legislative regulation of commercial data brokers."
+          "text": "Dismantling all federal and local law enforcement agencies."
         },
         {
           "key": "B",
-          "text": "A complete constitutional ban on all smartphones in North America."
-        },
-        {
-          "key": "C",
           "text": "Overturning the Supreme Court's ruling in Carpenter v. United States."
         },
         {
+          "key": "C",
+          "text": "A complete constitutional ban on all smartphones in North America."
+        },
+        {
           "key": "D",
-          "text": "Dismantling all federal and local law enforcement agencies."
+          "text": "Comprehensive legislative regulation of commercial data brokers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】推断与主旨题。末段指出由于数据经纪商通过 App 收集海量 GPS 并兜售给执法机构，数字隐私的保护必须从司法裁判走向全面的立法改革（comprehensive legislative reform）。",
       "points": 2,
       "sort_order": 40

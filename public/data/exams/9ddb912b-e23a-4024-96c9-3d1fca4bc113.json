@@ -94,11 +94,11 @@
         },
         {
           "key": "B",
-          "text": "collapses"
+          "text": "neglecting"
         },
         {
           "key": "C",
-          "text": "neglecting"
+          "text": "collapses"
         },
         {
           "key": "D",
@@ -120,11 +120,11 @@
       "options": [
         {
           "key": "A",
-          "text": "seldom"
+          "text": "diminishes"
         },
         {
           "key": "B",
-          "text": "diminishes"
+          "text": "stimulates"
         },
         {
           "key": "C",
@@ -132,10 +132,10 @@
         },
         {
           "key": "D",
-          "text": "stimulates"
+          "text": "seldom"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "【考点精析】英语（二）第(2)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [B] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 2
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rigidly"
+          "text": "depresses"
         },
         {
           "key": "B",
-          "text": "flourishes"
-        },
-        {
-          "key": "C",
           "text": "impeding"
         },
         {
+          "key": "C",
+          "text": "flourishes"
+        },
+        {
           "key": "D",
-          "text": "depresses"
+          "text": "rigidly"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(4)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 4
@@ -218,14 +218,14 @@
         },
         {
           "key": "C",
-          "text": "neglecting"
+          "text": "stifles"
         },
         {
           "key": "D",
-          "text": "stifles"
+          "text": "neglecting"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(5)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [C] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 5
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "seldom"
+          "text": "deterring"
         },
         {
           "key": "B",
@@ -248,14 +248,14 @@
         },
         {
           "key": "C",
-          "text": "deterring"
+          "text": "seldom"
         },
         {
           "key": "D",
           "text": "stimulates"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(6)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 6
@@ -270,7 +270,7 @@
       "options": [
         {
           "key": "A",
-          "text": "adversely"
+          "text": "optimizing"
         },
         {
           "key": "B",
@@ -278,14 +278,14 @@
         },
         {
           "key": "C",
-          "text": "optimizing"
+          "text": "adversely"
         },
         {
           "key": "D",
           "text": "undermines"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(7)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rigidly"
-        },
-        {
-          "key": "B",
-          "text": "flourishes"
-        },
-        {
-          "key": "C",
           "text": "impeding"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "depresses"
+        },
+        {
+          "key": "C",
+          "text": "rigidly"
+        },
+        {
+          "key": "D",
+          "text": "flourishes"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(8)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [B] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "continually"
-        },
-        {
-          "key": "B",
-          "text": "collapses"
-        },
-        {
-          "key": "C",
           "text": "neglecting"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "continually"
+        },
+        {
+          "key": "C",
           "text": "stifles"
+        },
+        {
+          "key": "D",
+          "text": "collapses"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(9)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "seldom"
+          "text": "deterring"
         },
         {
           "key": "B",
-          "text": "diminishes"
+          "text": "seldom"
         },
         {
           "key": "C",
-          "text": "deterring"
+          "text": "diminishes"
         },
         {
           "key": "D",
           "text": "stimulates"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(10)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 10
@@ -390,7 +390,7 @@
       "options": [
         {
           "key": "A",
-          "text": "adversely"
+          "text": "optimizing"
         },
         {
           "key": "B",
@@ -398,7 +398,7 @@
         },
         {
           "key": "C",
-          "text": "optimizing"
+          "text": "adversely"
         },
         {
           "key": "D",
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rigidly"
-        },
-        {
-          "key": "B",
-          "text": "flourishes"
-        },
-        {
-          "key": "C",
           "text": "impeding"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "rigidly"
+        },
+        {
+          "key": "C",
           "text": "depresses"
+        },
+        {
+          "key": "D",
+          "text": "flourishes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(12)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "continually"
+          "text": "neglecting"
         },
         {
           "key": "B",
-          "text": "collapses"
+          "text": "continually"
         },
         {
           "key": "C",
-          "text": "neglecting"
+          "text": "collapses"
         },
         {
           "key": "D",
           "text": "stifles"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(13)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "seldom"
-        },
-        {
-          "key": "B",
-          "text": "diminishes"
-        },
-        {
-          "key": "C",
           "text": "deterring"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "stimulates"
+        },
+        {
+          "key": "C",
+          "text": "seldom"
+        },
+        {
+          "key": "D",
+          "text": "diminishes"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "【考点精析】英语（二）第(14)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [C] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 14
@@ -510,11 +510,11 @@
       "options": [
         {
           "key": "A",
-          "text": "adversely"
+          "text": "conflicts"
         },
         {
           "key": "B",
-          "text": "conflicts"
+          "text": "adversely"
         },
         {
           "key": "C",
@@ -525,7 +525,7 @@
           "text": "undermines"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(15)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 15
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rigidly"
-        },
-        {
-          "key": "B",
           "text": "flourishes"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "impeding"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "depresses"
+        },
+        {
+          "key": "D",
+          "text": "rigidly"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(16)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 16
@@ -570,7 +570,7 @@
       "options": [
         {
           "key": "A",
-          "text": "continually"
+          "text": "neglecting"
         },
         {
           "key": "B",
@@ -578,14 +578,14 @@
         },
         {
           "key": "C",
-          "text": "neglecting"
+          "text": "continually"
         },
         {
           "key": "D",
           "text": "stifles"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(17)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 17
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "seldom"
-        },
-        {
-          "key": "B",
           "text": "diminishes"
         },
         {
+          "key": "B",
+          "text": "stimulates"
+        },
+        {
           "key": "C",
-          "text": "deterring"
+          "text": "seldom"
         },
         {
           "key": "D",
-          "text": "stimulates"
+          "text": "deterring"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "【考点精析】英语（二）第(18)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [B] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 18
@@ -630,11 +630,11 @@
       "options": [
         {
           "key": "A",
-          "text": "adversely"
+          "text": "undermines"
         },
         {
           "key": "B",
-          "text": "conflicts"
+          "text": "adversely"
         },
         {
           "key": "C",
@@ -642,10 +642,10 @@
         },
         {
           "key": "D",
-          "text": "undermines"
+          "text": "conflicts"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(19)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rigidly"
-        },
-        {
-          "key": "B",
           "text": "flourishes"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "impeding"
+        },
+        {
+          "key": "C",
+          "text": "rigidly"
         },
         {
           "key": "D",
           "text": "depresses"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(20)题：考查商务与社会学核心词汇搭配。结合句法结构与句意推进，选项 [A] 最符合语篇语义连贯要求。",
       "points": 0.5,
       "sort_order": 20
@@ -690,7 +690,7 @@
       "options": [
         {
           "key": "A",
-          "text": "To maintain competitiveness amidst structural market shifts"
+          "text": "To eliminate all customer feedback mechanisms"
         },
         {
           "key": "B",
@@ -698,14 +698,14 @@
         },
         {
           "key": "C",
-          "text": "To eliminate all customer feedback mechanisms"
+          "text": "To maintain competitiveness amidst structural market shifts"
         },
         {
           "key": "D",
           "text": "To lobby governments for monopolistic protections"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(21)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 21
@@ -724,15 +724,15 @@
         },
         {
           "key": "B",
-          "text": "Brand reputation is entirely uninfluenced by environmental claims"
+          "text": "Consumers have completely ceased scrutinizing corporate disclosures"
         },
         {
           "key": "C",
-          "text": "Purchasing decisions are solely determined by rock-bottom pricing"
+          "text": "Brand reputation is entirely uninfluenced by environmental claims"
         },
         {
           "key": "D",
-          "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+          "text": "Purchasing decisions are solely determined by rock-bottom pricing"
         }
       ],
       "correct_answer": "A",
@@ -754,15 +754,15 @@
         },
         {
           "key": "B",
-          "text": "All human employees will be entirely replaced within five years"
+          "text": "Repetitive administrative tasks should never be digitized"
         },
         {
           "key": "C",
-          "text": "Upskilling programs provide zero measurable productivity gains"
+          "text": "All human employees will be entirely replaced within five years"
         },
         {
           "key": "D",
-          "text": "Repetitive administrative tasks should never be digitized"
+          "text": "Upskilling programs provide zero measurable productivity gains"
         }
       ],
       "correct_answer": "A",
@@ -788,11 +788,11 @@
         },
         {
           "key": "C",
-          "text": "Refusing to finance any technological enterprise"
+          "text": "Disregarding unit economics in favor of speculative growth"
         },
         {
           "key": "D",
-          "text": "Disregarding unit economics in favor of speculative growth"
+          "text": "Refusing to finance any technological enterprise"
         }
       ],
       "correct_answer": "A",
@@ -810,7 +810,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Big Data Predictive Analytics, Algorithms, and Consumer Privacy: Strategic Adaptation and Commercial Resilience"
+          "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
         },
         {
           "key": "B",
@@ -818,14 +818,14 @@
         },
         {
           "key": "C",
-          "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+          "text": "Big Data Predictive Analytics, Algorithms, and Consumer Privacy: Strategic Adaptation and Commercial Resilience"
         },
         {
           "key": "D",
           "text": "A Complete Rejection of Modern Financial Markets"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(25)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 25
@@ -840,7 +840,7 @@
       "options": [
         {
           "key": "A",
-          "text": "To maintain competitiveness amidst structural market shifts"
+          "text": "To lobby governments for monopolistic protections"
         },
         {
           "key": "B",
@@ -848,14 +848,14 @@
         },
         {
           "key": "C",
-          "text": "To eliminate all customer feedback mechanisms"
+          "text": "To maintain competitiveness amidst structural market shifts"
         },
         {
           "key": "D",
-          "text": "To lobby governments for monopolistic protections"
+          "text": "To eliminate all customer feedback mechanisms"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(26)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 26
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Consumers actively reward verified corporate ethics and sustainability"
+          "text": "Consumers have completely ceased scrutinizing corporate disclosures"
         },
         {
           "key": "B",
-          "text": "Brand reputation is entirely uninfluenced by environmental claims"
+          "text": "Consumers actively reward verified corporate ethics and sustainability"
         },
         {
           "key": "C",
-          "text": "Purchasing decisions are solely determined by rock-bottom pricing"
+          "text": "Brand reputation is entirely uninfluenced by environmental claims"
         },
         {
           "key": "D",
-          "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+          "text": "Purchasing decisions are solely determined by rock-bottom pricing"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(27)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 27
@@ -900,11 +900,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Essential human skills like empathy and creativity remain irreplaceable"
+          "text": "Repetitive administrative tasks should never be digitized"
         },
         {
           "key": "B",
-          "text": "All human employees will be entirely replaced within five years"
+          "text": "Essential human skills like empathy and creativity remain irreplaceable"
         },
         {
           "key": "C",
@@ -912,10 +912,10 @@
         },
         {
           "key": "D",
-          "text": "Repetitive administrative tasks should never be digitized"
+          "text": "All human employees will be entirely replaced within five years"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(28)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Prioritizing tangible cash flows and sustainable profitability"
+          "text": "Disregarding unit economics in favor of speculative growth"
         },
         {
           "key": "B",
-          "text": "Subsidizing loss-making startups with unrestricted capital"
-        },
-        {
-          "key": "C",
           "text": "Refusing to finance any technological enterprise"
         },
         {
+          "key": "C",
+          "text": "Subsidizing loss-making startups with unrestricted capital"
+        },
+        {
           "key": "D",
-          "text": "Disregarding unit economics in favor of speculative growth"
+          "text": "Prioritizing tangible cash flows and sustainable profitability"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(29)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Next-Generation Smart Electrical Grids and Renewable Integration: Strategic Adaptation and Commercial Resilience"
-        },
-        {
-          "key": "B",
           "text": "The Disappearance of Ethical Corporate Management"
         },
         {
+          "key": "B",
+          "text": "A Complete Rejection of Modern Financial Markets"
+        },
+        {
           "key": "C",
-          "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+          "text": "Next-Generation Smart Electrical Grids and Renewable Integration: Strategic Adaptation and Commercial Resilience"
         },
         {
           "key": "D",
-          "text": "A Complete Rejection of Modern Financial Markets"
+          "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(30)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 30
@@ -990,7 +990,7 @@
       "options": [
         {
           "key": "A",
-          "text": "To maintain competitiveness amidst structural market shifts"
+          "text": "To lobby governments for monopolistic protections"
         },
         {
           "key": "B",
@@ -998,14 +998,14 @@
         },
         {
           "key": "C",
-          "text": "To eliminate all customer feedback mechanisms"
+          "text": "To maintain competitiveness amidst structural market shifts"
         },
         {
           "key": "D",
-          "text": "To lobby governments for monopolistic protections"
+          "text": "To eliminate all customer feedback mechanisms"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(31)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 31
@@ -1024,15 +1024,15 @@
         },
         {
           "key": "B",
-          "text": "Brand reputation is entirely uninfluenced by environmental claims"
-        },
-        {
-          "key": "C",
           "text": "Purchasing decisions are solely determined by rock-bottom pricing"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+        },
+        {
+          "key": "D",
+          "text": "Brand reputation is entirely uninfluenced by environmental claims"
         }
       ],
       "correct_answer": "A",
@@ -1054,15 +1054,15 @@
         },
         {
           "key": "B",
-          "text": "All human employees will be entirely replaced within five years"
+          "text": "Repetitive administrative tasks should never be digitized"
         },
         {
           "key": "C",
-          "text": "Upskilling programs provide zero measurable productivity gains"
+          "text": "All human employees will be entirely replaced within five years"
         },
         {
           "key": "D",
-          "text": "Repetitive administrative tasks should never be digitized"
+          "text": "Upskilling programs provide zero measurable productivity gains"
         }
       ],
       "correct_answer": "A",
@@ -1080,7 +1080,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Prioritizing tangible cash flows and sustainable profitability"
+          "text": "Refusing to finance any technological enterprise"
         },
         {
           "key": "B",
@@ -1088,14 +1088,14 @@
         },
         {
           "key": "C",
-          "text": "Refusing to finance any technological enterprise"
+          "text": "Prioritizing tangible cash flows and sustainable profitability"
         },
         {
           "key": "D",
           "text": "Disregarding unit economics in favor of speculative growth"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(34)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 34
@@ -1110,22 +1110,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Telemedicine, Remote Consultations, and Rural Healthcare Access: Strategic Adaptation and Commercial Resilience"
-        },
-        {
-          "key": "B",
-          "text": "The Disappearance of Ethical Corporate Management"
-        },
-        {
-          "key": "C",
           "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "A Complete Rejection of Modern Financial Markets"
+        },
+        {
+          "key": "C",
+          "text": "Telemedicine, Remote Consultations, and Rural Healthcare Access: Strategic Adaptation and Commercial Resilience"
+        },
+        {
+          "key": "D",
+          "text": "The Disappearance of Ethical Corporate Management"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(35)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 35
@@ -1140,11 +1140,11 @@
       "options": [
         {
           "key": "A",
-          "text": "To maintain competitiveness amidst structural market shifts"
+          "text": "To lobby governments for monopolistic protections"
         },
         {
           "key": "B",
-          "text": "To abandon technological innovation in favor of manual labor"
+          "text": "To maintain competitiveness amidst structural market shifts"
         },
         {
           "key": "C",
@@ -1152,10 +1152,10 @@
         },
         {
           "key": "D",
-          "text": "To lobby governments for monopolistic protections"
+          "text": "To abandon technological innovation in favor of manual labor"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】英语（二）第(36)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 36
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Consumers actively reward verified corporate ethics and sustainability"
-        },
-        {
-          "key": "B",
           "text": "Brand reputation is entirely uninfluenced by environmental claims"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Purchasing decisions are solely determined by rock-bottom pricing"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Consumers have completely ceased scrutinizing corporate disclosures"
+        },
+        {
+          "key": "D",
+          "text": "Consumers actively reward verified corporate ethics and sustainability"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(37)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 37
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Essential human skills like empathy and creativity remain irreplaceable"
-        },
-        {
-          "key": "B",
-          "text": "All human employees will be entirely replaced within five years"
-        },
-        {
-          "key": "C",
           "text": "Upskilling programs provide zero measurable productivity gains"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Repetitive administrative tasks should never be digitized"
+        },
+        {
+          "key": "C",
+          "text": "All human employees will be entirely replaced within five years"
+        },
+        {
+          "key": "D",
+          "text": "Essential human skills like empathy and creativity remain irreplaceable"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(38)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 38
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Prioritizing tangible cash flows and sustainable profitability"
+          "text": "Disregarding unit economics in favor of speculative growth"
         },
         {
           "key": "B",
-          "text": "Subsidizing loss-making startups with unrestricted capital"
-        },
-        {
-          "key": "C",
           "text": "Refusing to finance any technological enterprise"
         },
         {
+          "key": "C",
+          "text": "Prioritizing tangible cash flows and sustainable profitability"
+        },
+        {
           "key": "D",
-          "text": "Disregarding unit economics in favor of speculative growth"
+          "text": "Subsidizing loss-making startups with unrestricted capital"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】英语（二）第(39)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 39
@@ -1260,7 +1260,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Corporate Social Responsibility, ESG Audits, and Greenwashing: Strategic Adaptation and Commercial Resilience"
+          "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
         },
         {
           "key": "B",
@@ -1268,14 +1268,14 @@
         },
         {
           "key": "C",
-          "text": "Why Automation Guarantees Rapid Corporate Bankruptcy"
+          "text": "A Complete Rejection of Modern Financial Markets"
         },
         {
           "key": "D",
-          "text": "A Complete Rejection of Modern Financial Markets"
+          "text": "Corporate Social Responsibility, ESG Audits, and Greenwashing: Strategic Adaptation and Commercial Resilience"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】英语（二）第(40)题：细节推断与主旨归纳。通过定位段落论点与事实阐述，选项 [A] 紧密契合原文语义且表述严谨客观。",
       "points": 2,
       "sort_order": 40
@@ -1290,7 +1290,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Long-term capital expenditure horizons and economies of scale"
+          "text": "The elimination of customer onboarding interfaces"
         },
         {
           "key": "B",
@@ -1298,14 +1298,14 @@
         },
         {
           "key": "C",
-          "text": "Avoiding all regulatory interactions until legal sanctions occur"
+          "text": "Long-term capital expenditure horizons and economies of scale"
         },
         {
           "key": "D",
-          "text": "The elimination of customer onboarding interfaces"
+          "text": "Avoiding all regulatory interactions until legal sanctions occur"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(41)题：文本强调长期资本投入与规模经济效益，对应选项 [A]。",
       "points": 2,
       "sort_order": 41
@@ -1320,22 +1320,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Proactive regulatory compliance and co-creating safety standards"
-        },
-        {
-          "key": "B",
           "text": "Operating in direct secrecy from federal oversight"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Maximizing short-term legal ambiguity for illicit profits"
+        },
+        {
+          "key": "C",
+          "text": "Proactive regulatory compliance and co-creating safety standards"
         },
         {
           "key": "D",
           "text": "Ignoring technological changes in consumer law"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(42)题：文本指出主动与监管机构对接并共建合规标准的重要性，对应选项 [A]。",
       "points": 2,
       "sort_order": 42
@@ -1350,22 +1350,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Frictionless user experience and intuitive digital interfaces"
-        },
-        {
-          "key": "B",
           "text": "Complex and opaque pricing schemes"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Deliberately raising switching barriers for customers"
+        },
+        {
+          "key": "C",
+          "text": "Frictionless user experience and intuitive digital interfaces"
         },
         {
           "key": "D",
           "text": "Eliminating digital software platforms"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(43)题：文本强调顺畅的数字交互设计与透明定价促进用户转化，对应选项 [A]。",
       "points": 2,
       "sort_order": 43
@@ -1388,11 +1388,11 @@
         },
         {
           "key": "C",
-          "text": "Completely outsourcing all engineering competencies"
+          "text": "Terminating all data science employment positions"
         },
         {
           "key": "D",
-          "text": "Terminating all data science employment positions"
+          "text": "Completely outsourcing all engineering competencies"
         }
       ],
       "correct_answer": "A",
@@ -1410,7 +1410,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Form alliances with established incumbents to leverage distribution"
+          "text": "Dissolve all external commercial agreements"
         },
         {
           "key": "B",
@@ -1422,10 +1422,10 @@
         },
         {
           "key": "D",
-          "text": "Dissolve all external commercial agreements"
+          "text": "Form alliances with established incumbents to leverage distribution"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(45)题：文本提倡敏捷企业应与成熟企业结成战略同盟共享分销网络，对应选项 [A]。",
       "points": 2,
       "sort_order": 45

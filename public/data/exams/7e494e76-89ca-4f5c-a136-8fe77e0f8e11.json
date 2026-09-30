@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dynamically"
-        },
-        {
-          "key": "B",
           "text": "isolation"
         },
         {
+          "key": "B",
+          "text": "dynamically"
+        },
+        {
           "key": "C",
-          "text": "disregarding"
+          "text": "suppress"
         },
         {
           "key": "D",
-          "text": "suppress"
+          "text": "disregarding"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(1)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 1
@@ -120,22 +120,22 @@
       "options": [
         {
           "key": "A",
-          "text": "predictably"
-        },
-        {
-          "key": "B",
-          "text": "disruption"
-        },
-        {
-          "key": "C",
           "text": "jeopardizing"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "accelerate"
+        },
+        {
+          "key": "C",
+          "text": "disruption"
+        },
+        {
+          "key": "D",
+          "text": "predictably"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "【考点精析】第(2)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [C]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 2
@@ -158,11 +158,11 @@
         },
         {
           "key": "C",
-          "text": "facilitating"
+          "text": "deteriorate"
         },
         {
           "key": "D",
-          "text": "deteriorate"
+          "text": "facilitating"
         }
       ],
       "correct_answer": "A",
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "spontaneously"
+          "text": "obstructing"
         },
         {
           "key": "B",
-          "text": "validation"
+          "text": "spontaneously"
         },
         {
           "key": "C",
-          "text": "obstructing"
+          "text": "validation"
         },
         {
           "key": "D",
           "text": "undermine"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(4)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 4
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dynamically"
-        },
-        {
-          "key": "B",
           "text": "isolation"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "disregarding"
+        },
+        {
+          "key": "C",
+          "text": "dynamically"
         },
         {
           "key": "D",
           "text": "suppress"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "【考点精析】第(5)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [B]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 5
@@ -248,11 +248,11 @@
         },
         {
           "key": "C",
-          "text": "jeopardizing"
+          "text": "accelerate"
         },
         {
           "key": "D",
-          "text": "accelerate"
+          "text": "jeopardizing"
         }
       ],
       "correct_answer": "A",
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fundamentally"
+          "text": "deteriorate"
         },
         {
           "key": "B",
-          "text": "negligence"
-        },
-        {
-          "key": "C",
           "text": "facilitating"
         },
         {
+          "key": "C",
+          "text": "negligence"
+        },
+        {
           "key": "D",
-          "text": "deteriorate"
+          "text": "fundamentally"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(7)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "spontaneously"
-        },
-        {
-          "key": "B",
           "text": "validation"
         },
         {
+          "key": "B",
+          "text": "spontaneously"
+        },
+        {
           "key": "C",
-          "text": "obstructing"
+          "text": "undermine"
         },
         {
           "key": "D",
-          "text": "undermine"
+          "text": "obstructing"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(8)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [D]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "dynamically"
-        },
-        {
-          "key": "B",
-          "text": "isolation"
-        },
-        {
-          "key": "C",
           "text": "disregarding"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "suppress"
+        },
+        {
+          "key": "C",
+          "text": "dynamically"
+        },
+        {
+          "key": "D",
+          "text": "isolation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(9)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 9
@@ -364,15 +364,15 @@
         },
         {
           "key": "B",
-          "text": "disruption"
+          "text": "accelerate"
         },
         {
           "key": "C",
-          "text": "jeopardizing"
+          "text": "disruption"
         },
         {
           "key": "D",
-          "text": "accelerate"
+          "text": "jeopardizing"
         }
       ],
       "correct_answer": "A",
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fundamentally"
-        },
-        {
-          "key": "B",
-          "text": "negligence"
-        },
-        {
-          "key": "C",
           "text": "facilitating"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "deteriorate"
+        },
+        {
+          "key": "C",
+          "text": "fundamentally"
+        },
+        {
+          "key": "D",
+          "text": "negligence"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(11)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [B]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 11
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "spontaneously"
-        },
-        {
-          "key": "B",
           "text": "validation"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "obstructing"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "undermine"
+        },
+        {
+          "key": "D",
+          "text": "spontaneously"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(12)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 12
@@ -454,7 +454,7 @@
         },
         {
           "key": "B",
-          "text": "isolation"
+          "text": "suppress"
         },
         {
           "key": "C",
@@ -462,7 +462,7 @@
         },
         {
           "key": "D",
-          "text": "suppress"
+          "text": "isolation"
         }
       ],
       "correct_answer": "A",
@@ -510,11 +510,11 @@
       "options": [
         {
           "key": "A",
-          "text": "fundamentally"
+          "text": "deteriorate"
         },
         {
           "key": "B",
-          "text": "negligence"
+          "text": "fundamentally"
         },
         {
           "key": "C",
@@ -522,10 +522,10 @@
         },
         {
           "key": "D",
-          "text": "deteriorate"
+          "text": "negligence"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(15)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 15
@@ -548,11 +548,11 @@
         },
         {
           "key": "C",
-          "text": "obstructing"
+          "text": "undermine"
         },
         {
           "key": "D",
-          "text": "undermine"
+          "text": "obstructing"
         }
       ],
       "correct_answer": "A",
@@ -574,15 +574,15 @@
         },
         {
           "key": "B",
-          "text": "isolation"
-        },
-        {
-          "key": "C",
           "text": "disregarding"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "suppress"
+        },
+        {
+          "key": "D",
+          "text": "isolation"
         }
       ],
       "correct_answer": "A",
@@ -608,14 +608,14 @@
         },
         {
           "key": "C",
-          "text": "jeopardizing"
+          "text": "accelerate"
         },
         {
           "key": "D",
-          "text": "accelerate"
+          "text": "jeopardizing"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(18)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [C]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "fundamentally"
+          "text": "deteriorate"
         },
         {
           "key": "B",
-          "text": "negligence"
+          "text": "fundamentally"
         },
         {
           "key": "C",
-          "text": "facilitating"
+          "text": "negligence"
         },
         {
           "key": "D",
-          "text": "deteriorate"
+          "text": "facilitating"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(19)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [A]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "spontaneously"
+          "text": "undermine"
         },
         {
           "key": "B",
-          "text": "validation"
+          "text": "spontaneously"
         },
         {
           "key": "C",
-          "text": "obstructing"
+          "text": "validation"
         },
         {
           "key": "D",
-          "text": "undermine"
+          "text": "obstructing"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(20)题：考查真题高频学术语境与上下文逻辑搭配，填入选项 [B]，句意通顺严谨且符合语法规则。",
       "points": 0.5,
       "sort_order": 20
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Vulnerable market participants often shoulder excessive financial burdens"
+          "text": "Corporate profits are equally distributed across all economic tiers"
         },
         {
           "key": "B",
@@ -732,10 +732,10 @@
         },
         {
           "key": "D",
-          "text": "Corporate profits are equally distributed across all economic tiers"
+          "text": "Vulnerable market participants often shoulder excessive financial burdens"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(22)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 22
@@ -750,22 +750,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They may perpetuate latent systemic biases without human discretion"
-        },
-        {
-          "key": "B",
           "text": "They eliminate all forms of subjective professional prejudice"
         },
         {
+          "key": "B",
+          "text": "They may perpetuate latent systemic biases without human discretion"
+        },
+        {
           "key": "C",
-          "text": "They should completely replace judicial and institutional arbiters"
+          "text": "They are technologically incapable of processing complex datasets"
         },
         {
           "key": "D",
-          "text": "They are technologically incapable of processing complex datasets"
+          "text": "They should completely replace judicial and institutional arbiters"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(23)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 23
@@ -780,7 +780,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Are frequently outdated when confronting borderless digital realities"
+          "text": "Strictly prohibit cross-border data exchanges among enterprises"
         },
         {
           "key": "B",
@@ -792,10 +792,10 @@
         },
         {
           "key": "D",
-          "text": "Strictly prohibit cross-border data exchanges among enterprises"
+          "text": "Are frequently outdated when confronting borderless digital realities"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(24)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 24
@@ -814,7 +814,7 @@
         },
         {
           "key": "B",
-          "text": "The Demise of Contemporary Technological Governance"
+          "text": "A Defense of Conventional Regulatory Frameworks"
         },
         {
           "key": "C",
@@ -822,7 +822,7 @@
         },
         {
           "key": "D",
-          "text": "A Defense of Conventional Regulatory Frameworks"
+          "text": "The Demise of Contemporary Technological Governance"
         }
       ],
       "correct_answer": "A",
@@ -840,11 +840,11 @@
       "options": [
         {
           "key": "A",
-          "text": "The reconciliation of traditional models with emergent structural shifts"
+          "text": "The historical inevitability of financial deregulation"
         },
         {
           "key": "B",
-          "text": "The complete obsolescence of conventional regulatory authorities"
+          "text": "The reconciliation of traditional models with emergent structural shifts"
         },
         {
           "key": "C",
@@ -852,10 +852,10 @@
         },
         {
           "key": "D",
-          "text": "The historical inevitability of financial deregulation"
+          "text": "The complete obsolescence of conventional regulatory authorities"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(26)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 26
@@ -870,11 +870,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Vulnerable market participants often shoulder excessive financial burdens"
+          "text": "Consumer spending is entirely decoupled from market volatility"
         },
         {
           "key": "B",
-          "text": "Consumer spending is entirely decoupled from market volatility"
+          "text": "Corporate profits are equally distributed across all economic tiers"
         },
         {
           "key": "C",
@@ -882,10 +882,10 @@
         },
         {
           "key": "D",
-          "text": "Corporate profits are equally distributed across all economic tiers"
+          "text": "Vulnerable market participants often shoulder excessive financial burdens"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(27)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 27
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They may perpetuate latent systemic biases without human discretion"
-        },
-        {
-          "key": "B",
-          "text": "They eliminate all forms of subjective professional prejudice"
-        },
-        {
-          "key": "C",
           "text": "They should completely replace judicial and institutional arbiters"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "They are technologically incapable of processing complex datasets"
+        },
+        {
+          "key": "C",
+          "text": "They may perpetuate latent systemic biases without human discretion"
+        },
+        {
+          "key": "D",
+          "text": "They eliminate all forms of subjective professional prejudice"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(28)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Are frequently outdated when confronting borderless digital realities"
+          "text": "Strictly prohibit cross-border data exchanges among enterprises"
         },
         {
           "key": "B",
-          "text": "Have effectively resolved international intellectual property disputes"
+          "text": "Are frequently outdated when confronting borderless digital realities"
         },
         {
           "key": "C",
-          "text": "Are universally supported by digital technology conglomerates"
+          "text": "Have effectively resolved international intellectual property disputes"
         },
         {
           "key": "D",
-          "text": "Strictly prohibit cross-border data exchanges among enterprises"
+          "text": "Are universally supported by digital technology conglomerates"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(29)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 29
@@ -960,11 +960,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Neuroscience of Memory Consolidation, Synaptic Pruning, and Sleep: Institutional Challenges and Strategic Pathways"
+          "text": "The Demise of Contemporary Technological Governance"
         },
         {
           "key": "B",
-          "text": "The Demise of Contemporary Technological Governance"
+          "text": "Neuroscience of Memory Consolidation, Synaptic Pruning, and Sleep: Institutional Challenges and Strategic Pathways"
         },
         {
           "key": "C",
@@ -975,7 +975,7 @@
           "text": "A Defense of Conventional Regulatory Frameworks"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(30)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 30
@@ -1020,11 +1020,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Vulnerable market participants often shoulder excessive financial burdens"
+          "text": "Consumer spending is entirely decoupled from market volatility"
         },
         {
           "key": "B",
-          "text": "Consumer spending is entirely decoupled from market volatility"
+          "text": "Corporate profits are equally distributed across all economic tiers"
         },
         {
           "key": "C",
@@ -1032,10 +1032,10 @@
         },
         {
           "key": "D",
-          "text": "Corporate profits are equally distributed across all economic tiers"
+          "text": "Vulnerable market participants often shoulder excessive financial burdens"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】第(32)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 32
@@ -1054,7 +1054,7 @@
         },
         {
           "key": "B",
-          "text": "They eliminate all forms of subjective professional prejudice"
+          "text": "They are technologically incapable of processing complex datasets"
         },
         {
           "key": "C",
@@ -1062,7 +1062,7 @@
         },
         {
           "key": "D",
-          "text": "They are technologically incapable of processing complex datasets"
+          "text": "They eliminate all forms of subjective professional prejudice"
         }
       ],
       "correct_answer": "A",
@@ -1110,7 +1110,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Conceptions of Historical Progress and Technological Determinism: Institutional Challenges and Strategic Pathways"
+          "text": "A Defense of Conventional Regulatory Frameworks"
         },
         {
           "key": "B",
@@ -1118,14 +1118,14 @@
         },
         {
           "key": "C",
-          "text": "Why Market Competition Always Solves Systemic Crises"
+          "text": "Conceptions of Historical Progress and Technological Determinism: Institutional Challenges and Strategic Pathways"
         },
         {
           "key": "D",
-          "text": "A Defense of Conventional Regulatory Frameworks"
+          "text": "Why Market Competition Always Solves Systemic Crises"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(35)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 35
@@ -1148,11 +1148,11 @@
         },
         {
           "key": "C",
-          "text": "The irresistible superiority of private corporate management"
+          "text": "The historical inevitability of financial deregulation"
         },
         {
           "key": "D",
-          "text": "The historical inevitability of financial deregulation"
+          "text": "The irresistible superiority of private corporate management"
         }
       ],
       "correct_answer": "A",
@@ -1178,11 +1178,11 @@
         },
         {
           "key": "C",
-          "text": "Technological innovation has permanently halted in competitive fields"
+          "text": "Corporate profits are equally distributed across all economic tiers"
         },
         {
           "key": "D",
-          "text": "Corporate profits are equally distributed across all economic tiers"
+          "text": "Technological innovation has permanently halted in competitive fields"
         }
       ],
       "correct_answer": "A",
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They may perpetuate latent systemic biases without human discretion"
-        },
-        {
-          "key": "B",
-          "text": "They eliminate all forms of subjective professional prejudice"
-        },
-        {
-          "key": "C",
           "text": "They should completely replace judicial and institutional arbiters"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "They are technologically incapable of processing complex datasets"
+        },
+        {
+          "key": "C",
+          "text": "They may perpetuate latent systemic biases without human discretion"
+        },
+        {
+          "key": "D",
+          "text": "They eliminate all forms of subjective professional prejudice"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(38)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 38
@@ -1230,7 +1230,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Are frequently outdated when confronting borderless digital realities"
+          "text": "Strictly prohibit cross-border data exchanges among enterprises"
         },
         {
           "key": "B",
@@ -1238,14 +1238,14 @@
         },
         {
           "key": "C",
-          "text": "Are universally supported by digital technology conglomerates"
+          "text": "Are frequently outdated when confronting borderless digital realities"
         },
         {
           "key": "D",
-          "text": "Strictly prohibit cross-border data exchanges among enterprises"
+          "text": "Are universally supported by digital technology conglomerates"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(39)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Corporate Governance, Shareholder Rights, and Executive Compensation: Institutional Challenges and Strategic Pathways"
-        },
-        {
-          "key": "B",
           "text": "The Demise of Contemporary Technological Governance"
         },
         {
+          "key": "B",
+          "text": "Corporate Governance, Shareholder Rights, and Executive Compensation: Institutional Challenges and Strategic Pathways"
+        },
+        {
           "key": "C",
-          "text": "Why Market Competition Always Solves Systemic Crises"
+          "text": "A Defense of Conventional Regulatory Frameworks"
         },
         {
           "key": "D",
-          "text": "A Defense of Conventional Regulatory Frameworks"
+          "text": "Why Market Competition Always Solves Systemic Crises"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(40)题：考查段落核心主旨与逻辑事实推断。结合原文对应段落论述与细节推导，选项 [A] 紧扣核心论点且同义替换准确。",
       "points": 2,
       "sort_order": 40
@@ -1294,11 +1294,11 @@
         },
         {
           "key": "B",
-          "text": "The total impossibility of international environmental treaties"
+          "text": "Pricing natural capital onto corporate accounting ledgers"
         },
         {
           "key": "C",
-          "text": "Pricing natural capital onto corporate accounting ledgers"
+          "text": "The total impossibility of international environmental treaties"
         },
         {
           "key": "D",
@@ -1328,11 +1328,11 @@
         },
         {
           "key": "C",
-          "text": "Why industrial runoff has zero effect on regional food chains"
+          "text": "Accelerating fossil-fueled industrialization in developing nations"
         },
         {
           "key": "D",
-          "text": "Accelerating fossil-fueled industrialization in developing nations"
+          "text": "Why industrial runoff has zero effect on regional food chains"
         }
       ],
       "correct_answer": "A",
@@ -1350,7 +1350,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Community-based conservation and decentralized stewardship"
+          "text": "Legal arguments against indigenous property rights"
         },
         {
           "key": "B",
@@ -1358,14 +1358,14 @@
         },
         {
           "key": "C",
-          "text": "Why centralized bureaucratic mandates are always superior"
+          "text": "Community-based conservation and decentralized stewardship"
         },
         {
           "key": "D",
-          "text": "Legal arguments against indigenous property rights"
+          "text": "Why centralized bureaucratic mandates are always superior"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(43)题：段落强调赋权当地社区与分散化生态管理优于自上而下的行政命令，对应选项 [A]。",
       "points": 2,
       "sort_order": 43
@@ -1380,22 +1380,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Satellite surveillance and actionable remote intelligence"
+          "text": "The high costs of artisanal fishery equipment"
         },
         {
           "key": "B",
-          "text": "Bypassing international climate treaties"
+          "text": "Satellite surveillance and actionable remote intelligence"
         },
         {
           "key": "C",
-          "text": "The high costs of artisanal fishery equipment"
+          "text": "Bypassing international climate treaties"
         },
         {
           "key": "D",
           "text": "How satellite telemetry obstructs environmental enforcement"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】第(44)题：段落阐述卫星遥感与遥测技术为环保执法提供实时情报，对应选项 [A]。",
       "points": 2,
       "sort_order": 44
@@ -1410,7 +1410,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Institutional treaty alignment and clean technology transfer"
+          "text": "A critique of international sustainable development targets"
         },
         {
           "key": "B",
@@ -1418,14 +1418,14 @@
         },
         {
           "key": "C",
-          "text": "Why emission reductions should remain purely voluntary"
+          "text": "Institutional treaty alignment and clean technology transfer"
         },
         {
           "key": "D",
-          "text": "A critique of international sustainable development targets"
+          "text": "Why emission reductions should remain purely voluntary"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】第(45)题：段落总结国际制度协同与清洁技术转移在实现全球可持续性中的核心地位，对应选项 [A]。",
       "points": 2,
       "sort_order": 45

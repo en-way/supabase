@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "birth"
-        },
-        {
-          "key": "B",
-          "text": "scandal"
-        },
-        {
-          "key": "C",
           "text": "defeat"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "crime"
+        },
+        {
+          "key": "C",
+          "text": "birth"
+        },
+        {
+          "key": "D",
+          "text": "scandal"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。circumstances of birth（出生境遇/门第出身）。",
       "points": 0.5,
       "sort_order": 1
@@ -124,11 +124,11 @@
         },
         {
           "key": "B",
-          "text": "defect"
+          "text": "miracle"
         },
         {
           "key": "C",
-          "text": "miracle"
+          "text": "defect"
         },
         {
           "key": "D",
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "exercises"
-        },
-        {
-          "key": "B",
           "text": "defeats"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "crimes"
+        },
+        {
+          "key": "C",
+          "text": "exercises"
         },
         {
           "key": "D",
           "text": "scandals"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】搭配修饰。repeated mental exercises（重复的心智心理锻炼）。",
       "points": 0.5,
       "sort_order": 3
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "equilibrium"
+          "text": "disgrace"
         },
         {
           "key": "B",
-          "text": "chaos"
+          "text": "equilibrium"
         },
         {
           "key": "C",
-          "text": "disgrace"
+          "text": "chaos"
         },
         {
           "key": "D",
           "text": "fatigue"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】褒义并列。optimism, resilience and emotional equilibrium（情绪平衡与心智稳定）。",
       "points": 0.5,
       "sort_order": 4
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "satisfaction"
+          "text": "hatred"
         },
         {
           "key": "B",
-          "text": "debt"
+          "text": "satisfaction"
         },
         {
           "key": "C",
-          "text": "hatred"
+          "text": "debt"
         },
         {
           "key": "D",
           "text": "horror"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】心理学术语。subjective life satisfaction（主观生活满意度）。",
       "points": 0.5,
       "sort_order": 5
@@ -244,15 +244,15 @@
         },
         {
           "key": "B",
-          "text": "triumphs"
+          "text": "luxuries"
         },
         {
           "key": "C",
-          "text": "privileges"
+          "text": "triumphs"
         },
         {
           "key": "D",
-          "text": "luxuries"
+          "text": "privileges"
         }
       ],
       "correct_answer": "A",
@@ -270,11 +270,11 @@
       "options": [
         {
           "key": "A",
-          "text": "scarcity"
+          "text": "prosperity"
         },
         {
           "key": "B",
-          "text": "prosperity"
+          "text": "scarcity"
         },
         {
           "key": "C",
@@ -285,7 +285,7 @@
           "text": "splendor"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】反义对比。notice abundance rather than scarcity（觉察充盈而非匮乏）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,7 +300,7 @@
       "options": [
         {
           "key": "A",
-          "text": "bonding"
+          "text": "warfare"
         },
         {
           "key": "B",
@@ -308,14 +308,14 @@
         },
         {
           "key": "C",
-          "text": "warfare"
+          "text": "bonding"
         },
         {
           "key": "D",
           "text": "derision"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。interpersonal bonding（人际纽带联结）。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "vitality"
+          "text": "defeat"
         },
         {
           "key": "B",
-          "text": "decay"
+          "text": "vitality"
         },
         {
           "key": "C",
-          "text": "defeat"
+          "text": "decay"
         },
         {
           "key": "D",
           "text": "shame"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】健康名词。physical longevity and psychological vitality（身体长寿与心理活力）。",
       "points": 0.5,
       "sort_order": 9
@@ -364,11 +364,11 @@
         },
         {
           "key": "B",
-          "text": "cradle"
+          "text": "remedy"
         },
         {
           "key": "C",
-          "text": "remedy"
+          "text": "cradle"
         },
         {
           "key": "D",
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rapidity"
-        },
-        {
-          "key": "B",
-          "text": "hesitance"
-        },
-        {
-          "key": "C",
           "text": "reluctance"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "rapidity"
+        },
+        {
+          "key": "C",
           "text": "clumsiness"
+        },
+        {
+          "key": "D",
+          "text": "hesitance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词搭配。fades with astonishing rapidity（以惊人的速度迅速消退）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "treadmill"
-        },
-        {
-          "key": "B",
-          "text": "sanctuary"
-        },
-        {
-          "key": "C",
           "text": "monument"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "garden"
+        },
+        {
+          "key": "C",
+          "text": "sanctuary"
+        },
+        {
+          "key": "D",
+          "text": "treadmill"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】心理学名言。hedonic treadmill（享乐水车/享乐跑步机困境）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,7 +450,7 @@
       "options": [
         {
           "key": "A",
-          "text": "judgment"
+          "text": "gratitude"
         },
         {
           "key": "B",
@@ -462,10 +462,10 @@
         },
         {
           "key": "D",
-          "text": "gratitude"
+          "text": "judgment"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】正念术语。observe thoughts without judgment（不加批判地觉察念头）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "present"
-        },
-        {
-          "key": "B",
-          "text": "famine"
-        },
-        {
-          "key": "C",
           "text": "defeat"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "present"
+        },
+        {
+          "key": "C",
           "text": "crisis"
+        },
+        {
+          "key": "D",
+          "text": "famine"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】哲学概念。savor the richness of the immediate present（体会当下的当下与现实丰富性）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "significance"
+          "text": "shame"
         },
         {
           "key": "B",
-          "text": "tedium"
-        },
-        {
-          "key": "C",
           "text": "absurdity"
         },
         {
+          "key": "C",
+          "text": "tedium"
+        },
+        {
           "key": "D",
-          "text": "shame"
+          "text": "significance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】褒义名词。infuses daily life with profound significance（为日常生活注入深刻意义）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,7 +540,7 @@
       "options": [
         {
           "key": "A",
-          "text": "action"
+          "text": "negligence"
         },
         {
           "key": "B",
@@ -548,14 +548,14 @@
         },
         {
           "key": "C",
-          "text": "retreat"
+          "text": "action"
         },
         {
           "key": "D",
-          "text": "negligence"
+          "text": "retreat"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】褒义并列。compassion and purposeful action（同理心与有目标的行动）。",
       "points": 0.5,
       "sort_order": 16
@@ -574,15 +574,15 @@
         },
         {
           "key": "B",
-          "text": "wallets"
+          "text": "accounts"
         },
         {
           "key": "C",
-          "text": "gadgets"
+          "text": "wallets"
         },
         {
           "key": "D",
-          "text": "accounts"
+          "text": "gadgets"
         }
       ],
       "correct_answer": "A",
@@ -604,15 +604,15 @@
         },
         {
           "key": "B",
-          "text": "apart"
+          "text": "away"
         },
         {
           "key": "C",
-          "text": "against"
+          "text": "apart"
         },
         {
           "key": "D",
-          "text": "away"
+          "text": "against"
         }
       ],
       "correct_answer": "A",
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "both"
-        },
-        {
-          "key": "B",
-          "text": "neither"
-        },
-        {
-          "key": "C",
           "text": "none"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "scarcely"
+        },
+        {
+          "key": "C",
+          "text": "neither"
+        },
+        {
+          "key": "D",
+          "text": "both"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】句式搭配。both today and forever（既在当下，亦在永远）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "more"
-        },
-        {
-          "key": "B",
-          "text": "less"
-        },
-        {
-          "key": "C",
           "text": "least"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "scarcely"
+        },
+        {
+          "key": "C",
+          "text": "less"
+        },
+        {
+          "key": "D",
+          "text": "more"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】成语搭配。forevermore（永远，世世代代）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,11 +690,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Are dense, microscopic, and mathematically confusing for consumers."
+          "text": "Are printed exclusively in ancient classical languages."
         },
         {
           "key": "B",
-          "text": "Are printed exclusively in ancient classical languages."
+          "text": "Are legally required to display false nutritional data."
         },
         {
           "key": "C",
@@ -702,10 +702,10 @@
         },
         {
           "key": "D",
-          "text": "Are legally required to display false nutritional data."
+          "text": "Are dense, microscopic, and mathematically confusing for consumers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出背面传统的营养成分表面积小、排版密、需复杂换算，让普通消费者极度困惑（dense, microscopic, confusing）。",
       "points": 2,
       "sort_order": 21
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "By using green, amber, and red color codes for fat, sugar, and salt."
-        },
-        {
-          "key": "B",
           "text": "By playing loud musical alarms whenever someone touches a box."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "By printing photographs of famous movie stars on cereal boxes."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "By ranking foods based entirely on their retail market price."
+        },
+        {
+          "key": "D",
+          "text": "By using green, amber, and red color codes for fat, sugar, and salt."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段指出红绿灯标签在包装正面采用绿（低）、黄（中）、红（高需少吃）三色标记脂肪、饱和脂肪、糖和盐分。",
       "points": 2,
       "sort_order": 22
@@ -750,11 +750,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Provides quick, intuitive visual cues that require no complex math."
+          "text": "Grants free supermarket groceries to anyone who buys green foods."
         },
         {
           "key": "B",
-          "text": "Grants free supermarket groceries to anyone who buys green foods."
+          "text": "Eliminates the need for any home kitchen cooking equipment."
         },
         {
           "key": "C",
@@ -762,10 +762,10 @@
         },
         {
           "key": "D",
-          "text": "Eliminates the need for any home kitchen cooking equipment."
+          "text": "Provides quick, intuitive visual cues that require no complex math."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第三段指出色彩代码在毫秒间完成认知，使缺乏复杂换算能力的低收入群体也能一眼识别健康食品，改善了购物决策。",
       "points": 2,
       "sort_order": 23
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They want to avoid deterrent red labels that scare away buyers."
-        },
-        {
-          "key": "B",
-          "text": "The British government seized ownership of all private factories."
-        },
-        {
-          "key": "C",
           "text": "Sugar and salt became completely extinct across Europe."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Consumers demanded that all packaged food taste completely bitter."
+        },
+        {
+          "key": "C",
+          "text": "They want to avoid deterrent red labels that scare away buyers."
+        },
+        {
+          "key": "D",
+          "text": "The British government seized ownership of all private factories."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第四段指出厂商害怕醒目的红标吓跑消费者，为了获得更体面的黄绿评级，主动改良配方减盐减糖。",
       "points": 2,
       "sort_order": 24
@@ -810,11 +810,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Making traffic light labeling mandatory for all processed foods by law."
+          "text": "Abolishing all nutritional labels on food products permanently."
         },
         {
           "key": "B",
-          "text": "Abolishing all nutritional labels on food products permanently."
+          "text": "Banning citizens from shopping in physical grocery supermarkets."
         },
         {
           "key": "C",
@@ -822,10 +822,10 @@
         },
         {
           "key": "D",
-          "text": "Banning citizens from shopping in physical grocery supermarkets."
+          "text": "Making traffic light labeling mandatory for all processed foods by law."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨结论题。末段指出自愿采纳是最大漏洞，许多垃圾食品巨头故意避开，因此必须立法强制推行（mandating labeling across all processed foods）。",
       "points": 2,
       "sort_order": 25
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Superior visual contrast sensitivity and faster reaction times."
-        },
-        {
-          "key": "B",
           "text": "A total inability to identify colors in physical reality."
         },
         {
+          "key": "B",
+          "text": "Severe paralysis in both thumbs and wrist tendons."
+        },
+        {
           "key": "C",
-          "text": "Permanent damage to long-term autobiographical memory."
+          "text": "Superior visual contrast sensitivity and faster reaction times."
         },
         {
           "key": "D",
-          "text": "Severe paralysis in both thumbs and wrist tendons."
+          "text": "Permanent damage to long-term autobiographical memory."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出脑成像证实经常玩策略动作游戏的玩家具有更优异的视觉对比敏感度、更快的反应时间和空间心理旋转能力。",
       "points": 2,
       "sort_order": 27
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Allocate roles, communicate, and coordinate tactical team maneuvers."
-        },
-        {
-          "key": "B",
-          "text": "Insult and mock their teammates during every match."
-        },
-        {
-          "key": "C",
           "text": "Refuse to use language and rely entirely on silence."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Allocate roles, communicate, and coordinate tactical team maneuvers."
+        },
+        {
+          "key": "C",
           "text": "Destroy their own personal computer hardware in defeat."
+        },
+        {
+          "key": "D",
+          "text": "Insult and mock their teammates during every match."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第四段指出团队合作游戏要求分工协作、沟通并协调战术（allocate roles & coordinate maneuvers），从而培养了同理心与抗挫力。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Mimic slot-machine gambling and foster compulsive spending."
+          "text": "Make video games completely free for all global players."
         },
         {
           "key": "B",
-          "text": "Contain physical explosive material that destroys bedrooms."
-        },
-        {
-          "key": "C",
           "text": "Are strictly required to be purchased using real gold bullion."
         },
         {
+          "key": "C",
+          "text": "Contain physical explosive material that destroys bedrooms."
+        },
+        {
           "key": "D",
-          "text": "Make video games completely free for all global players."
+          "text": "Mimic slot-machine gambling and foster compulsive spending."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第五段指出开宝箱机制（loot boxes）利用赌博心理回路诱导青少年冲动成瘾消费，具有潜在危害。",
       "points": 2,
       "sort_order": 29
@@ -960,11 +960,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Establishing balanced boundaries and harnessing its educational potential."
+          "text": "Permanently banning all electronic computers from residential homes."
         },
         {
           "key": "B",
-          "text": "Permanently banning all electronic computers from residential homes."
+          "text": "Establishing balanced boundaries and harnessing its educational potential."
         },
         {
           "key": "C",
@@ -975,7 +975,7 @@
           "text": "Treating all game software developers as dangerous criminals."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨态度题。末段指出理性对策不是盲目封杀，而是通过健康的边界管理、遏制诱导性消费，善用游戏在协同解决问题上的教育潜能。",
       "points": 2,
       "sort_order": 30
@@ -990,11 +990,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Winning disproportionately large research grants from EU funding pools."
+          "text": "Banning foreign scholars from entering British laboratories."
         },
         {
           "key": "B",
-          "text": "Banning foreign scholars from entering British laboratories."
+          "text": "Replacing all scientific equipment with mechanical clocks."
         },
         {
           "key": "C",
@@ -1002,10 +1002,10 @@
         },
         {
           "key": "D",
-          "text": "Replacing all scientific equipment with mechanical clocks."
+          "text": "Winning disproportionately large research grants from EU funding pools."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段指出英国科研在脱欧前极大受益于欧盟地平线2020等科研基金，获得的资助额远超英国向欧盟缴纳的会费。",
       "points": 2,
       "sort_order": 31
@@ -1020,7 +1020,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Imposed visa hurdles that chilled the recruitment of elite European researchers."
+          "text": "Completely eliminated all university tuition fees for students."
         },
         {
           "key": "B",
@@ -1032,10 +1032,10 @@
         },
         {
           "key": "D",
-          "text": "Completely eliminated all university tuition fees for students."
+          "text": "Imposed visa hurdles that chilled the recruitment of elite European researchers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第三段指出终结人员自由流动设立了签证门槛和附加费，导致近三成依赖欧盟学者的科研系所陷入人才招募寒冬。",
       "points": 2,
       "sort_order": 32
@@ -1050,11 +1050,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Harmonized safety standards and shared regulatory data frameworks."
+          "text": "The physical relocation of laboratories to underwater submarines."
         },
         {
           "key": "B",
-          "text": "The physical relocation of laboratories to underwater submarines."
+          "text": "The complete prohibition of all international academic travel."
         },
         {
           "key": "C",
@@ -1062,10 +1062,10 @@
         },
         {
           "key": "D",
-          "text": "The complete prohibition of all international academic travel."
+          "text": "Harmonized safety standards and shared regulatory data frameworks."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第四段指出跨国科研（如罕见病临床试验与环境网络）依赖统一的标准与数据共享协议，脱欧割裂了这一协同架构。",
       "points": 2,
       "sort_order": 33
@@ -1088,11 +1088,11 @@
         },
         {
           "key": "C",
-          "text": "Forbidding British citizens from attending university."
+          "text": "Severing all communication with continental European scientists."
         },
         {
           "key": "D",
-          "text": "Severing all communication with continental European scientists."
+          "text": "Forbidding British citizens from attending university."
         }
       ],
       "correct_answer": "A",
@@ -1110,7 +1110,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Borderless international collaboration rather than nationalistic barriers."
+          "text": "Prioritizing military weapons over biomedical research."
         },
         {
           "key": "B",
@@ -1118,14 +1118,14 @@
         },
         {
           "key": "C",
-          "text": "Abolishing all governmental funding for university laboratories."
+          "text": "Borderless international collaboration rather than nationalistic barriers."
         },
         {
           "key": "D",
-          "text": "Prioritizing military weapons over biomedical research."
+          "text": "Abolishing all governmental funding for university laboratories."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨态度题。末句总结强调科学本质上是一项无国界的协作事业，用狭隘民族主义壁垒画地为牢将丧失数十年积攒的学术领导力。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Enable total strangers to trust one another in commercial exchanges."
+          "text": "Prevent consumers from paying for goods with paper banknotes."
         },
         {
           "key": "B",
-          "text": "Calculate national sales tax owed to municipal governments."
-        },
-        {
-          "key": "C",
           "text": "Help users locate free Wi-Fi hotspots in foreign cities."
         },
         {
+          "key": "C",
+          "text": "Calculate national sales tax owed to municipal governments."
+        },
+        {
           "key": "D",
-          "text": "Prevent consumers from paying for goods with paper banknotes."
+          "text": "Enable total strangers to trust one another in commercial exchanges."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出双向信誉评分系统的核心使命是促成素昧平生的陌生人之间建立商业信任（convincing strangers to trust one another）。",
       "points": 2,
       "sort_order": 36
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Extreme rating inflation where average scores hover near 4.9."
+          "text": "A legal ban on rating anyone who drives an automobile."
         },
         {
           "key": "B",
-          "text": "A universal tendency for all users to award zero stars."
-        },
-        {
-          "key": "C",
           "text": "The total deletion of all reviews after twenty-four hours."
         },
         {
+          "key": "C",
+          "text": "A universal tendency for all users to award zero stars."
+        },
+        {
           "key": "D",
-          "text": "A legal ban on rating anyone who drives an automobile."
+          "text": "Extreme rating inflation where average scores hover near 4.9."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第三段指出信誉体系的严重扭曲在于极度评分通胀（grade inflation），平均分普遍逼近4.9星，丧失了梯度。",
       "points": 2,
       "sort_order": 37
@@ -1200,11 +1200,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Empathize with providers and fear retaliatory negative feedback."
+          "text": "Genuinely cannot tell the difference between good and bad service."
         },
         {
           "key": "B",
-          "text": "Genuinely cannot tell the difference between good and bad service."
+          "text": "Empathize with providers and fear retaliatory negative feedback."
         },
         {
           "key": "C",
@@ -1215,7 +1215,7 @@
           "text": "Are legally required to give five stars under criminal statutes."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第四段指出消费者深知低分会砸人生计，出于社会同理心往往给平庸体验打满分，且害怕对方报复性打差评。",
       "points": 2,
       "sort_order": 38
@@ -1230,7 +1230,7 @@
       "options": [
         {
           "key": "A",
-          "text": "The mechanism loses signaling power and fails to warn consumers."
+          "text": "Customers are legally banned from using mobile apps."
         },
         {
           "key": "B",
@@ -1238,14 +1238,14 @@
         },
         {
           "key": "C",
-          "text": "Customers are legally banned from using mobile apps."
+          "text": "The mechanism loses signaling power and fails to warn consumers."
         },
         {
           "key": "D",
           "text": "Drivers receive triple their statutory hourly wages."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第五段指出评级全盘虚高导致评价体系丧失甄别信号功能（loses signaling power），无法剔除劣质商户。",
       "points": 2,
       "sort_order": 39
@@ -1264,11 +1264,11 @@
         },
         {
           "key": "B",
-          "text": "Abolishing all user reviews and relying on corporate spies."
+          "text": "Permitting only billionaire customers to leave feedback."
         },
         {
           "key": "C",
-          "text": "Permitting only billionaire customers to leave feedback."
+          "text": "Abolishing all user reviews and relying on corporate spies."
         },
         {
           "key": "D",

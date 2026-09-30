@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "divide"
+          "text": "celebration"
         },
         {
           "key": "B",
-          "text": "harmony"
-        },
-        {
-          "key": "C",
           "text": "treaty"
         },
         {
+          "key": "C",
+          "text": "divide"
+        },
+        {
           "key": "D",
-          "text": "celebration"
+          "text": "harmony"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。urban-rural divide（城乡分野/差异），描述亲社会助人行为在城乡之间的对比。",
       "points": 0.5,
       "sort_order": 1
@@ -120,11 +120,11 @@
       "options": [
         {
           "key": "A",
-          "text": "injury"
+          "text": "fortune"
         },
         {
           "key": "B",
-          "text": "triumph"
+          "text": "injury"
         },
         {
           "key": "C",
@@ -132,10 +132,10 @@
         },
         {
           "key": "D",
-          "text": "fortune"
+          "text": "triumph"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。feigning a physical injury（假装身体受伤），是现场求助实验的标准设定。",
       "points": 0.5,
       "sort_order": 2
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "indifference"
-        },
-        {
-          "key": "B",
           "text": "gratitude"
         },
         {
+          "key": "B",
+          "text": "indifference"
+        },
+        {
           "key": "C",
-          "text": "curiosity"
+          "text": "joy"
         },
         {
           "key": "D",
-          "text": "joy"
+          "text": "curiosity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】消极修辞。walked past with cold indifference（冷漠地径直走过）。",
       "points": 0.5,
       "sort_order": 3
@@ -184,7 +184,7 @@
         },
         {
           "key": "B",
-          "text": "privileges"
+          "text": "vacations"
         },
         {
           "key": "C",
@@ -192,7 +192,7 @@
         },
         {
           "key": "D",
-          "text": "vacations"
+          "text": "privileges"
         }
       ],
       "correct_answer": "A",
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "barrier"
-        },
-        {
-          "key": "B",
           "text": "bridge"
         },
         {
+          "key": "B",
+          "text": "ladder"
+        },
+        {
           "key": "C",
-          "text": "palace"
+          "text": "barrier"
         },
         {
           "key": "D",
-          "text": "ladder"
+          "text": "palace"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】比喻修辞。erect a protective psychological barrier（筑起一道保护性的心理屏障/防线）。",
       "points": 0.5,
       "sort_order": 5
@@ -244,7 +244,7 @@
         },
         {
           "key": "B",
-          "text": "affection"
+          "text": "jealousy"
         },
         {
           "key": "C",
@@ -252,7 +252,7 @@
         },
         {
           "key": "D",
-          "text": "jealousy"
+          "text": "affection"
         }
       ],
       "correct_answer": "A",
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "diffused"
-        },
-        {
-          "key": "B",
           "text": "concentrated"
         },
         {
+          "key": "B",
+          "text": "diffused"
+        },
+        {
           "key": "C",
-          "text": "celebrated"
+          "text": "rewarded"
         },
         {
           "key": "D",
-          "text": "rewarded"
+          "text": "celebrated"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】心理学术语。旁观者效应中责任被分散（responsibility is diffused）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "render"
-        },
-        {
-          "key": "B",
           "text": "withhold"
         },
         {
+          "key": "B",
+          "text": "render"
+        },
+        {
           "key": "C",
-          "text": "plunder"
+          "text": "condemn"
         },
         {
           "key": "D",
-          "text": "condemn"
+          "text": "plunder"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。render aid（给予援助/提供救助）。",
       "points": 0.5,
       "sort_order": 8
@@ -334,15 +334,15 @@
         },
         {
           "key": "B",
-          "text": "compulsory"
-        },
-        {
-          "key": "C",
           "text": "heroic"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "urgent"
+        },
+        {
+          "key": "D",
+          "text": "compulsory"
         }
       ],
       "correct_answer": "A",
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "scrutiny"
-        },
-        {
-          "key": "B",
-          "text": "secrecy"
-        },
-        {
-          "key": "C",
           "text": "neglect"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "scrutiny"
+        },
+        {
+          "key": "C",
           "text": "hostility"
+        },
+        {
+          "key": "D",
+          "text": "secrecy"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】社会学名词。熟人乡村社会中人际规范通过相互审视监督（mutual scrutiny）得以强化。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "severe"
-        },
-        {
-          "key": "B",
           "text": "trivial"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "pleasant"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "invisible"
+        },
+        {
+          "key": "D",
+          "text": "severe"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】形容词搭配。声誉惩罚是即时且严厉沉重的（immediate and severe）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "censure"
-        },
-        {
-          "key": "B",
-          "text": "praise"
-        },
-        {
-          "key": "C",
           "text": "honor"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "luxury"
+        },
+        {
+          "key": "C",
+          "text": "censure"
+        },
+        {
+          "key": "D",
+          "text": "praise"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。无需担心招致人际谴责与非议（interpersonal censure）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "deficient"
-        },
-        {
-          "key": "B",
-          "text": "flawless"
-        },
-        {
-          "key": "C",
           "text": "sacred"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "superior"
+        },
+        {
+          "key": "C",
+          "text": "flawless"
+        },
+        {
+          "key": "D",
+          "text": "deficient"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】形容词辨析。城里人并非天生在道德上是有欠缺的（morally deficient）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "comparable"
-        },
-        {
-          "key": "B",
-          "text": "inferior"
-        },
-        {
-          "key": "C",
           "text": "hostile"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "comparable"
+        },
+        {
+          "key": "C",
           "text": "irrelevant"
+        },
+        {
+          "key": "D",
+          "text": "inferior"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】形容词搭配。comparable to their rural peers（与乡村同伴相当/不相上下）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "flaw"
-        },
-        {
-          "key": "B",
           "text": "virtue"
         },
         {
+          "key": "B",
+          "text": "miracle"
+        },
+        {
           "key": "C",
-          "text": "triumph"
+          "text": "flaw"
         },
         {
           "key": "D",
-          "text": "miracle"
+          "text": "triumph"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。这是一种适应性的应对机制，而非本质的性格缺陷（character flaw）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,11 +540,11 @@
       "options": [
         {
           "key": "A",
-          "text": "overload"
+          "text": "famine"
         },
         {
           "key": "B",
-          "text": "poverty"
+          "text": "overload"
         },
         {
           "key": "C",
@@ -552,10 +552,10 @@
         },
         {
           "key": "D",
-          "text": "famine"
+          "text": "poverty"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】心理学搭配。reduces sensory overload（削减感官过载）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,7 +570,7 @@
       "options": [
         {
           "key": "A",
-          "text": "isolation"
+          "text": "amusement"
         },
         {
           "key": "B",
@@ -582,10 +582,10 @@
         },
         {
           "key": "D",
-          "text": "amusement"
+          "text": "isolation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。社区活动能够消除匿名的隔阂孤立（anonymous isolation）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "resilience"
+          "text": "treachery"
         },
         {
           "key": "B",
-          "text": "hostility"
-        },
-        {
-          "key": "C",
           "text": "bankruptcy"
         },
         {
+          "key": "C",
+          "text": "hostility"
+        },
+        {
           "key": "D",
-          "text": "treachery"
+          "text": "resilience"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】褒义名词。reservoir of collective resilience（集体韧性与互助的蓄水池）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "spontaneously"
+          "text": "hesitantly"
         },
         {
           "key": "B",
-          "text": "reluctantly"
-        },
-        {
-          "key": "C",
           "text": "scarcely"
         },
         {
+          "key": "C",
+          "text": "reluctantly"
+        },
+        {
           "key": "D",
-          "text": "hesitantly"
+          "text": "spontaneously"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】副词修饰。陌生人之间能够自发互助（look out for one another spontaneously）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "ahead"
-        },
-        {
-          "key": "B",
           "text": "behind"
         },
         {
+          "key": "B",
+          "text": "away"
+        },
+        {
           "key": "C",
-          "text": "past"
+          "text": "ahead"
         },
         {
           "key": "D",
-          "text": "away"
+          "text": "past"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】副词搭配。in the urban century ahead（在未来的城市世纪中）。",
       "points": 0.5,
       "sort_order": 20
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Generated graphic, photorealistic images of intimate bodily anatomy."
+          "text": "Required travelers to pay high cash fees at every checkpoint."
         },
         {
           "key": "B",
@@ -728,14 +728,14 @@
         },
         {
           "key": "C",
-          "text": "Permanently erased passenger passport and ticketing records."
+          "text": "Generated graphic, photorealistic images of intimate bodily anatomy."
         },
         {
           "key": "D",
-          "text": "Required travelers to pay high cash fees at every checkpoint."
+          "text": "Permanently erased passenger passport and ticketing records."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第二段指出批评者谴责其如同“数字脱衣搜身”，早期的扫描仪生成了极度逼真的人体解剖轮廓，侵犯了隐私与尊严。",
       "points": 2,
       "sort_order": 22
@@ -750,11 +750,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Displaying generic, gender-neutral cartoon figures instead of real silhouettes."
+          "text": "Automatically confiscating all metal coins from carry-on bags."
         },
         {
           "key": "B",
-          "text": "Allowing passengers to bypass security checks without inspection."
+          "text": "Displaying generic, gender-neutral cartoon figures instead of real silhouettes."
         },
         {
           "key": "C",
@@ -762,10 +762,10 @@
         },
         {
           "key": "D",
-          "text": "Automatically confiscating all metal coins from carry-on bags."
+          "text": "Allowing passengers to bypass security checks without inspection."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第四段指出ATR软件不再让安检人员看真实裸体轮廓，而是以通用的中性卡通火柴人图例标出异物方框，化解了羞耻焦虑。",
       "points": 2,
       "sort_order": 23
@@ -784,11 +784,11 @@
         },
         {
           "key": "B",
-          "text": "The excessive weight of the scanners collapsing terminal floors."
+          "text": "The tendency of machines to spray toxic paint onto passengers."
         },
         {
           "key": "C",
-          "text": "The tendency of machines to spray toxic paint onto passengers."
+          "text": "The excessive weight of the scanners collapsing terminal floors."
         },
         {
           "key": "D",
@@ -810,22 +810,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Risk permanently normalizing intrusive state surveillance."
+          "text": "Are universally rejected by all foreign governments."
         },
         {
           "key": "B",
-          "text": "Have failed to deter any terrorist hijackers since 2001."
-        },
-        {
-          "key": "C",
           "text": "Will inevitably lead to the complete abolition of commercial air flight."
         },
         {
+          "key": "C",
+          "text": "Risk permanently normalizing intrusive state surveillance."
+        },
+        {
           "key": "D",
-          "text": "Are universally rejected by all foreign governments."
+          "text": "Have failed to deter any terrorist hijackers since 2001."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨态度题。末段总结指出大众在“安全秀”心理抚慰下让渡了大量隐私，必须警惕紧急安保措施将侵入式国家监控永久常态化（permanently normalize surveillance）。",
       "points": 2,
       "sort_order": 25
@@ -840,11 +840,11 @@
       "options": [
         {
           "key": "A",
-          "text": "High altitude, clear atmosphere, and negligible light pollution."
+          "text": "Active volcanic eruptions that illuminate night skies."
         },
         {
           "key": "B",
-          "text": "Active volcanic eruptions that illuminate night skies."
+          "text": "High altitude, clear atmosphere, and negligible light pollution."
         },
         {
           "key": "C",
@@ -855,7 +855,7 @@
           "text": "Abundant supplies of liquid helium under volcanic rock."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段指出茂纳凯亚峰顶海拔高、云层少、光污染微弱且空气清澈，是全球天文学家公认的最佳观测宝地。",
       "points": 2,
       "sort_order": 26
@@ -874,7 +874,7 @@
         },
         {
           "key": "B",
-          "text": "A private commercial ski resort reserved for native leaders."
+          "text": "An extraterrestrial landing zone for alien spacecraft."
         },
         {
           "key": "C",
@@ -882,7 +882,7 @@
         },
         {
           "key": "D",
-          "text": "An extraterrestrial landing zone for alien spacecraft."
+          "text": "A private commercial ski resort reserved for native leaders."
         }
       ],
       "correct_answer": "A",
@@ -900,11 +900,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Assumed the super-telescope was an unalloyed intellectual gift to humanity."
+          "text": "Thought the mountain was located in an uninhabited Antarctic territory."
         },
         {
           "key": "B",
-          "text": "Believed that Native Hawaiians were eager to demolish ancient shrines."
+          "text": "Assumed the super-telescope was an unalloyed intellectual gift to humanity."
         },
         {
           "key": "C",
@@ -912,10 +912,10 @@
         },
         {
           "key": "D",
-          "text": "Thought the mountain was located in an uninhabited Antarctic territory."
+          "text": "Believed that Native Hawaiians were eager to demolish ancient shrines."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第四段指出天文学家始料未及是因为他们天真地认为巨型望远镜是带给全人类纯粹的智识馈赠，忽略了在地文化情感。",
       "points": 2,
       "sort_order": 28
@@ -930,7 +930,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Scientific discovery cannot justify trampling indigenous sacred heritage."
+          "text": "Outer space astronomy should be completely abolished."
         },
         {
           "key": "B",
@@ -938,14 +938,14 @@
         },
         {
           "key": "C",
-          "text": "Outer space astronomy should be completely abolished."
+          "text": "Scientific discovery cannot justify trampling indigenous sacred heritage."
         },
         {
           "key": "D",
           "text": "Native Hawaiians refused to accept educational scholarships."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节理解题。第四段末句指出学者们开始反思：科学不能在文化真空中运转，探索宇宙不能以压制和践踏原住民神圣遗产为代价。",
       "points": 2,
       "sort_order": 29
@@ -960,7 +960,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Abandoning colonial paternalism and embracing cultural partnership."
+          "text": "Auctioning the volcano summit to private real estate hotels."
         },
         {
           "key": "B",
@@ -968,14 +968,14 @@
         },
         {
           "key": "C",
-          "text": "Auctioning the volcano summit to private real estate hotels."
+          "text": "Banning all religious practices throughout the state of Hawaii."
         },
         {
           "key": "D",
-          "text": "Banning all religious practices throughout the state of Hawaii."
+          "text": "Abandoning colonial paternalism and embracing cultural partnership."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨态度题。末段总结指出科学界必须抛弃居高临下的殖民傲慢，以文化谦逊的心态与原住民建立真正的共治伙伴关系（embrace cultural partnership）。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Middle-skill jobs disappear while high-skill and low-skill roles expand."
-        },
-        {
-          "key": "B",
           "text": "All workers across every industry receive identical annual pay."
         },
         {
+          "key": "B",
+          "text": "Governments ban young graduates from attending universities."
+        },
+        {
           "key": "C",
-          "text": "The entire human labor force is replaced by factory robots."
+          "text": "Middle-skill jobs disappear while high-skill and low-skill roles expand."
         },
         {
           "key": "D",
-          "text": "Governments ban young graduates from attending universities."
+          "text": "The entire human labor force is replaced by factory robots."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】概念事实题。第一段指出“就业极化（job polarization）”是指中间层中等技能职位被技术掏空，而高技能和低技能两端岗位反而扩张（hollowing out the middle）。",
       "points": 2,
       "sort_order": 31
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Consisted of routine, codifiable rules easily executed by software."
+          "text": "Required employees to live in underwater laboratories."
         },
         {
           "key": "B",
-          "text": "Demanded excessive physical hand-to-hand combat skills."
+          "text": "Consisted of routine, codifiable rules easily executed by software."
         },
         {
           "key": "C",
-          "text": "Were legally declared treasonous by international courts."
+          "text": "Demanded excessive physical hand-to-hand combat skills."
         },
         {
           "key": "D",
-          "text": "Required employees to live in underwater laboratories."
+          "text": "Were legally declared treasonous by international courts."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第二段指出流水线、簿记等中等职位由“常规任务（routine tasks）”构成，易于被编程规则化并被软件替代。",
       "points": 2,
       "sort_order": 32
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Augments complex abstract tasks like strategic analysis and creativity."
-        },
-        {
-          "key": "B",
           "text": "Forces senior corporate executives to work 120 hours weekly."
         },
         {
+          "key": "B",
+          "text": "Bans anyone without a medical degree from trading stocks."
+        },
+        {
           "key": "C",
-          "text": "Eliminates all federal corporate income taxes on profits."
+          "text": "Augments complex abstract tasks like strategic analysis and creativity."
         },
         {
           "key": "D",
-          "text": "Bans anyone without a medical degree from trading stocks."
+          "text": "Eliminates all federal corporate income taxes on profits."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出高技能岗位涉及非例行抽象任务，计算机非但不能取代，反而强化了其生产力（augmented by computers），推高了薪酬。",
       "points": 2,
       "sort_order": 33
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Demand physical dexterity and situational adaptability beyond robots."
+          "text": "Are performed exclusively inside nuclear energy reactors."
         },
         {
           "key": "B",
-          "text": "Are protected by international military peacekeeping troops."
-        },
-        {
-          "key": "C",
           "text": "Require advanced doctoral degrees in theoretical astrophysics."
         },
         {
+          "key": "C",
+          "text": "Are protected by international military peacekeeping troops."
+        },
+        {
           "key": "D",
-          "text": "Are performed exclusively inside nuclear energy reactors."
+          "text": "Demand physical dexterity and situational adaptability beyond robots."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果细节题。第四段指出非例行体力任务（如水工、养老照料）需要极高的触觉灵活度和情境应变力，现代机器人根本无法企及。",
       "points": 2,
       "sort_order": 34
@@ -1110,11 +1110,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Workers lose upward economic mobility and are trapped in precarious wages."
+          "text": "High-school diplomas are permanently banned by national laws."
         },
         {
           "key": "B",
-          "text": "High-school diplomas are permanently banned by national laws."
+          "text": "All young citizens choose to leave cities and live in caves."
         },
         {
           "key": "C",
@@ -1122,10 +1122,10 @@
         },
         {
           "key": "D",
-          "text": "All young citizens choose to leave cities and live in caves."
+          "text": "Workers lose upward economic mobility and are trapped in precarious wages."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】结论主旨题。末段指出传统阶层跃升阶梯断裂（collapse of the economic escalator），工薪劳动者被困于低薪不稳定服务业，丧失向上流动机会。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Insulate them from electoral politics and ensure neutral jurisprudence."
+          "text": "Ensure they earned higher wages than private Wall Street bankers."
         },
         {
           "key": "B",
-          "text": "Allow them to command state national guard military divisions."
-        },
-        {
-          "key": "C",
           "text": "Prevent them from ever reading any newspapers or books."
         },
         {
+          "key": "C",
+          "text": "Allow them to command state national guard military divisions."
+        },
+        {
           "key": "D",
-          "text": "Ensure they earned higher wages than private Wall Street bankers."
+          "text": "Insulate them from electoral politics and ensure neutral jurisprudence."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出制宪先贤确立终身制是为了让法官免受选举和党派政治干扰，作为中立裁判官独立裁决（insulated, apolitical citadel）。",
       "points": 2,
       "sort_order": 36
@@ -1170,7 +1170,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Turned judicial confirmation into an aggressive ideological battleground."
+          "text": "Prompted all federal judges to resign from office simultaneously."
         },
         {
           "key": "B",
@@ -1178,14 +1178,14 @@
         },
         {
           "key": "C",
-          "text": "Prompted all federal judges to resign from office simultaneously."
+          "text": "Turned judicial confirmation into an aggressive ideological battleground."
         },
         {
           "key": "D",
           "text": "Established a constitutional ban on appointing female judges."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出1987年博克提名战拉开了“焦土式确认政治”的序幕，将审查法官资质演化为残忍的意识形态争夺战。",
       "points": 2,
       "sort_order": 37
@@ -1204,11 +1204,11 @@
         },
         {
           "key": "B",
-          "text": "Enforcing a constitutional amendment abolishing the Supreme Court."
+          "text": "Requiring the President to appoint a military general to the bench."
         },
         {
           "key": "C",
-          "text": "Requiring the President to appoint a military general to the bench."
+          "text": "Enforcing a constitutional amendment abolishing the Supreme Court."
         },
         {
           "key": "D",
@@ -1230,7 +1230,7 @@
       "options": [
         {
           "key": "A",
-          "text": "View justices as partisan politicians rather than neutral legal arbiters."
+          "text": "Demand that all legal courthouses be closed on weekdays."
         },
         {
           "key": "B",
@@ -1238,14 +1238,14 @@
         },
         {
           "key": "C",
-          "text": "Demand that all legal courthouses be closed on weekdays."
+          "text": "View justices as partisan politicians rather than neutral legal arbiters."
         },
         {
           "key": "D",
           "text": "Elect Supreme Court justices through annual reality TV votes."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节理解题。第四段指出党派恶斗摧毁了公众信任，人们不再视大法官为中立法治捍卫者，而是穿黑袍的党派政客（partisan politicians in robes）。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Establishing eighteen-year term limits and supermajority confirmation rules."
-        },
-        {
-          "key": "B",
-          "text": "Selecting justices through random lottery among high-school students."
-        },
-        {
-          "key": "C",
           "text": "Prohibiting any lawyer from ever serving on the Supreme Court."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Relocating the Supreme Court building to an offshore island."
+        },
+        {
+          "key": "C",
+          "text": "Establishing eighteen-year term limits and supermajority confirmation rules."
+        },
+        {
+          "key": "D",
+          "text": "Selecting justices through random lottery among high-school students."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨结论题。末段指出学者提出设18年任期限制（eighteen-year term limits）并实行绝对多数确认制，迫使提名走温和共识路线。",
       "points": 2,
       "sort_order": 40

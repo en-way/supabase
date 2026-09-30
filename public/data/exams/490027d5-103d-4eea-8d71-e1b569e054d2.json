@@ -94,15 +94,15 @@
         },
         {
           "key": "B",
-          "text": "threats"
-        },
-        {
-          "key": "C",
           "text": "errors"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "hostilities"
+        },
+        {
+          "key": "D",
+          "text": "threats"
         }
       ],
       "correct_answer": "A",
@@ -124,15 +124,15 @@
         },
         {
           "key": "B",
-          "text": "rewards"
+          "text": "compliments"
         },
         {
           "key": "C",
-          "text": "festivals"
+          "text": "rewards"
         },
         {
           "key": "D",
-          "text": "compliments"
+          "text": "festivals"
         }
       ],
       "correct_answer": "A",
@@ -150,7 +150,7 @@
       "options": [
         {
           "key": "A",
-          "text": "unites"
+          "text": "perplexes"
         },
         {
           "key": "B",
@@ -158,14 +158,14 @@
         },
         {
           "key": "C",
-          "text": "perplexes"
+          "text": "unites"
         },
         {
           "key": "D",
           "text": "threatens"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词与情感纽带。that unites human mothers and infants（联结人类母亲与婴儿的依恋纽带）。",
       "points": 0.5,
       "sort_order": 3
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "display"
-        },
-        {
-          "key": "B",
-          "text": "forbid"
-        },
-        {
-          "key": "C",
           "text": "fear"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "display"
+        },
+        {
+          "key": "C",
           "text": "prohibit"
+        },
+        {
+          "key": "D",
+          "text": "forbid"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。指理解手势的能力连黑猩猩也极少具备展现（rarely display）。",
       "points": 0.5,
       "sort_order": 4
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "cooperation"
-        },
-        {
-          "key": "B",
-          "text": "superstition"
-        },
-        {
-          "key": "C",
           "text": "extinction"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "isolation"
+        },
+        {
+          "key": "C",
+          "text": "cooperation"
+        },
+        {
+          "key": "D",
+          "text": "superstition"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。interspecies social cooperation（跨物种社会合作）。",
       "points": 0.5,
       "sort_order": 5
@@ -244,11 +244,11 @@
         },
         {
           "key": "B",
-          "text": "minute"
+          "text": "week"
         },
         {
           "key": "C",
-          "text": "week"
+          "text": "minute"
         },
         {
           "key": "D",
@@ -270,22 +270,22 @@
       "options": [
         {
           "key": "A",
-          "text": "favored"
+          "text": "exiled"
         },
         {
           "key": "B",
-          "text": "punished"
-        },
-        {
-          "key": "C",
           "text": "discarded"
         },
         {
+          "key": "C",
+          "text": "punished"
+        },
+        {
           "key": "D",
-          "text": "exiled"
+          "text": "favored"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】人工选择育种。温顺、攻击性低的个体被人类优先青睐繁育（intentionally favored）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,7 +300,7 @@
       "options": [
         {
           "key": "A",
-          "text": "society"
+          "text": "prison"
         },
         {
           "key": "B",
@@ -308,14 +308,14 @@
         },
         {
           "key": "C",
-          "text": "prison"
+          "text": "society"
         },
         {
           "key": "D",
           "text": "dungeon"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】社会名词。modern human society（现代人类社会）。",
       "points": 0.5,
       "sort_order": 8
@@ -334,11 +334,11 @@
         },
         {
           "key": "B",
-          "text": "blindness"
+          "text": "clumsiness"
         },
         {
           "key": "C",
-          "text": "clumsiness"
+          "text": "blindness"
         },
         {
           "key": "D",
@@ -364,11 +364,11 @@
         },
         {
           "key": "B",
-          "text": "triumphs"
+          "text": "festivals"
         },
         {
           "key": "C",
-          "text": "festivals"
+          "text": "triumphs"
         },
         {
           "key": "D",
@@ -390,11 +390,11 @@
       "options": [
         {
           "key": "A",
-          "text": "contradictions"
+          "text": "triumphs"
         },
         {
           "key": "B",
-          "text": "luxuries"
+          "text": "contradictions"
         },
         {
           "key": "C",
@@ -402,10 +402,10 @@
         },
         {
           "key": "D",
-          "text": "triumphs"
+          "text": "luxuries"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】转折名词。fraught with ethical contradictions（充满伦理悖论与矛盾）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,7 +420,7 @@
       "options": [
         {
           "key": "A",
-          "text": "health"
+          "text": "decay"
         },
         {
           "key": "B",
@@ -428,14 +428,14 @@
         },
         {
           "key": "C",
-          "text": "decay"
+          "text": "health"
         },
         {
           "key": "D",
           "text": "paralysis"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】褒义对比。呼吁放弃畸形外表审美，回归生物健康本质（biological health）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "disorders"
+          "text": "privileges"
         },
         {
           "key": "B",
-          "text": "miracles"
-        },
-        {
-          "key": "C",
           "text": "honors"
         },
         {
+          "key": "C",
+          "text": "miracles"
+        },
+        {
           "key": "D",
-          "text": "privileges"
+          "text": "disorders"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】心理医学名词。长期关在狭小公寓会导致神经质的行为紊乱（neurotic behavioral disorders）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "accessory"
+          "text": "treaty"
         },
         {
           "key": "B",
-          "text": "statute"
+          "text": "accessory"
         },
         {
           "key": "C",
-          "text": "treaty"
+          "text": "statute"
         },
         {
           "key": "D",
           "text": "weapon"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】消费主义修辞。狗不是随用随弃的消费时尚配件饰品（fashion accessory）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "rules"
-        },
-        {
-          "key": "B",
           "text": "crimes"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "wars"
+        },
+        {
+          "key": "C",
+          "text": "rules"
         },
         {
           "key": "D",
           "text": "scandals"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】市政管理。enforcing pet registration and waste collection rules（执行登记与粪便清理规章）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,7 +540,7 @@
       "options": [
         {
           "key": "A",
-          "text": "solidarity"
+          "text": "hatred"
         },
         {
           "key": "B",
@@ -548,14 +548,14 @@
         },
         {
           "key": "C",
-          "text": "jealousy"
+          "text": "solidarity"
         },
         {
           "key": "D",
-          "text": "hatred"
+          "text": "jealousy"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】褒义归纳。evolutionary power of cross-species solidarity（跨物种休戚与共的团结互助）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,7 +570,7 @@
       "options": [
         {
           "key": "A",
-          "text": "species"
+          "text": "factories"
         },
         {
           "key": "B",
@@ -582,10 +582,10 @@
         },
         {
           "key": "D",
-          "text": "factories"
+          "text": "species"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】生物人类学术语。history of our species（我们人类物种的历史）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,11 +600,11 @@
       "options": [
         {
           "key": "A",
-          "text": "today"
+          "text": "scarcely"
         },
         {
           "key": "B",
-          "text": "scarcely"
+          "text": "nowhere"
         },
         {
           "key": "C",
@@ -612,10 +612,10 @@
         },
         {
           "key": "D",
-          "text": "nowhere"
+          "text": "today"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】时间副词。across the globe today（在当今全球范围内）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,11 +630,11 @@
       "options": [
         {
           "key": "A",
-          "text": "both"
+          "text": "neither"
         },
         {
           "key": "B",
-          "text": "neither"
+          "text": "both"
         },
         {
           "key": "C",
@@ -645,7 +645,7 @@
           "text": "none"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】连词搭配。both today and into the future（既在当下，亦在未来）。",
       "points": 0.5,
       "sort_order": 19
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "ahead"
+          "text": "past"
         },
         {
           "key": "B",
-          "text": "behind"
-        },
-        {
-          "key": "C",
           "text": "away"
         },
         {
+          "key": "C",
+          "text": "behind"
+        },
+        {
           "key": "D",
-          "text": "past"
+          "text": "ahead"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。into the future ahead（迈向未来的岁月漫漫长路）。",
       "points": 0.5,
       "sort_order": 20
@@ -698,11 +698,11 @@
         },
         {
           "key": "C",
-          "text": "A conspiracy engineered by telecommunications companies."
+          "text": "An archaic dialect spoken only in remote rural areas."
         },
         {
           "key": "D",
-          "text": "An archaic dialect spoken only in remote rural areas."
+          "text": "A conspiracy engineered by telecommunications companies."
         }
       ],
       "correct_answer": "A",
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Instantaneous conversational dialogue in textual form."
+          "text": "A permanent substitute for all spoken speech."
         },
         {
           "key": "B",
-          "text": "Formal legal contracts binding on all citizens."
-        },
-        {
-          "key": "C",
           "text": "An unreadable code intended to deceive parents."
         },
         {
+          "key": "C",
+          "text": "Formal legal contracts binding on all citizens."
+        },
+        {
           "key": "D",
-          "text": "A permanent substitute for all spoken speech."
+          "text": "Instantaneous conversational dialogue in textual form."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段末句指出数字写作将文字重新定位为即时交流媒介，'functions as spoken dialogue in textual clothes'（文字包裹下的口语对话）。",
       "points": 2,
       "sort_order": 22
@@ -758,11 +758,11 @@
         },
         {
           "key": "C",
-          "text": "To conserve electronic battery power."
+          "text": "Because typing a period incurs heavy financial penalties."
         },
         {
           "key": "D",
-          "text": "Because typing a period incurs heavy financial penalties."
+          "text": "To conserve electronic battery power."
         }
       ],
       "correct_answer": "A",
@@ -780,11 +780,11 @@
       "options": [
         {
           "key": "A",
-          "text": "They provide digital paralanguage such as vocal pitch and facial expression."
+          "text": "They secretly transmit encrypted financial passwords."
         },
         {
           "key": "B",
-          "text": "They secretly transmit encrypted financial passwords."
+          "text": "They confuse artificial intelligence algorithms."
         },
         {
           "key": "C",
@@ -792,10 +792,10 @@
         },
         {
           "key": "D",
-          "text": "They confuse artificial intelligence algorithms."
+          "text": "They provide digital paralanguage such as vocal pitch and facial expression."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第三段末句指出表情符号和重复标点充当数字副语言（digital paralanguage），补充缺失的面部微表情与语调音高。",
       "points": 2,
       "sort_order": 24
@@ -814,7 +814,7 @@
         },
         {
           "key": "B",
-          "text": "It will become completely obsolete within the next five years."
+          "text": "It was vastly superior in the eighteenth century."
         },
         {
           "key": "C",
@@ -822,7 +822,7 @@
         },
         {
           "key": "D",
-          "text": "It was vastly superior in the eighteenth century."
+          "text": "It will become completely obsolete within the next five years."
         }
       ],
       "correct_answer": "A",
@@ -840,11 +840,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Halt urban sprawl, preserve countryside, and prevent towns from merging."
+          "text": "Ban all passenger train transportation across the United Kingdom."
         },
         {
           "key": "B",
-          "text": "Force all British citizens to become agricultural potato farmers."
+          "text": "Halt urban sprawl, preserve countryside, and prevent towns from merging."
         },
         {
           "key": "C",
@@ -852,10 +852,10 @@
         },
         {
           "key": "D",
-          "text": "Ban all passenger train transportation across the United Kingdom."
+          "text": "Force all British citizens to become agricultural potato farmers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段指出绿带（Green Belt）设立的初衷是遏制城市无序蔓延（curb urban sprawl）、防止邻近城镇连体合并并保护乡村绿地。",
       "points": 2,
       "sort_order": 26
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Protects biodiversity habitats, absorbs carbon, and provides nature access."
-        },
-        {
-          "key": "B",
           "text": "Generates billions of pounds through commercial diamond mining."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Forces housing developers to build free mansions for citizens."
+        },
+        {
+          "key": "C",
+          "text": "Protects biodiversity habitats, absorbs carbon, and provides nature access."
         },
         {
           "key": "D",
           "text": "Prevents any wild animals from ever entering woodland areas."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出环保派支持绿带是因为其保护生物栖息地、吸收碳汇并为市民提供天然休闲绿地。",
       "points": 2,
       "sort_order": 27
@@ -900,7 +900,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Skyrocketing home prices that price out young working families."
+          "text": "The total elimination of all automotive vehicle traffic."
         },
         {
           "key": "B",
@@ -908,14 +908,14 @@
         },
         {
           "key": "C",
-          "text": "The total elimination of all automotive vehicle traffic."
+          "text": "Skyrocketing home prices that price out young working families."
         },
         {
           "key": "D",
           "text": "An immediate 90 percent decline in construction material costs."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第三段指出严苛土地限制推高了房价收入比，导致青年工薪家庭无力购房，深陷高昂租金或超长通勤痛苦。",
       "points": 2,
       "sort_order": 28
@@ -930,7 +930,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Consists of intensive monoculture farmland or derelict scrub with low ecology."
+          "text": "Has been secretly bought by foreign military governments."
         },
         {
           "key": "B",
@@ -938,14 +938,14 @@
         },
         {
           "key": "C",
-          "text": "Has been secretly bought by foreign military governments."
+          "text": "Is covered in thirty feet of radioactive industrial waste."
         },
         {
           "key": "D",
-          "text": "Is covered in thirty feet of radioactive industrial waste."
+          "text": "Consists of intensive monoculture farmland or derelict scrub with low ecology."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第四段指出很多绿带土地并非原始荒野，而是农药喷洒的单一农田、废弃砂石场或高尔夫球场，生态价值微乎其微。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Designating low-value 'Grey Belt' transit sites for eco-friendly housing."
+          "text": "Abolishing all public planning and construction regulations entirely."
         },
         {
           "key": "B",
-          "text": "Paving over every square inch of British woodland with concrete."
-        },
-        {
-          "key": "C",
           "text": "Banning young citizens from living in the United Kingdom."
         },
         {
+          "key": "C",
+          "text": "Paving over every square inch of British woodland with concrete."
+        },
+        {
           "key": "D",
-          "text": "Abolishing all public planning and construction regulations entirely."
+          "text": "Designating low-value 'Grey Belt' transit sites for eco-friendly housing."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨结论题。末段提出务实改革方案：将交通枢纽周边的低价值低生态荒弃土地划为“灰带（Grey Belt）”用于高密度环保保障房建设，同时永久保护高等级森林。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Many celebrated published findings fail to replicate when independently retested."
+          "text": "All university science professors have resigned from their academic posts."
         },
         {
           "key": "B",
-          "text": "Scientific laboratories have run out of glass test tubes and microscopes."
+          "text": "Many celebrated published findings fail to replicate when independently retested."
         },
         {
           "key": "C",
-          "text": "Computers are incapable of processing mathematical calculations."
+          "text": "Scientific laboratories have run out of glass test tubes and microscopes."
         },
         {
           "key": "D",
-          "text": "All university science professors have resigned from their academic posts."
+          "text": "Computers are incapable of processing mathematical calculations."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】概念事实题。第一段明确指出“可重复性危机”是指大量高调发表的实验发现由外部独立实验室重做时，成功率不到四成（fail to replicate）。",
       "points": 2,
       "sort_order": 31
@@ -1024,7 +1024,7 @@
         },
         {
           "key": "B",
-          "text": "A desire to steal financial funds directly from hospital patients."
+          "text": "A lack of access to basic pocket calculator devices."
         },
         {
           "key": "C",
@@ -1032,7 +1032,7 @@
         },
         {
           "key": "D",
-          "text": "A lack of access to basic pocket calculator devices."
+          "text": "A desire to steal financial funds directly from hospital patients."
         }
       ],
       "correct_answer": "A",
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Publishing sensational positive claims while ignoring null or negative findings."
+          "text": "Banning university libraries from purchasing digital books."
         },
         {
           "key": "B",
-          "text": "Refusing to allow female researchers to submit manuscripts."
-        },
-        {
-          "key": "C",
           "text": "Printing journal articles exclusively in classical hieroglyphics."
         },
         {
+          "key": "C",
+          "text": "Publishing sensational positive claims while ignoring null or negative findings."
+        },
+        {
           "key": "D",
-          "text": "Banning university libraries from purchasing digital books."
+          "text": "Refusing to allow female researchers to submit manuscripts."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】词义理解题。第三段指出“发表偏倚（publication bias）”是指期刊热衷于刊发猎奇突破，却将中性结果、无法复现的报告束之高阁。",
       "points": 2,
       "sort_order": 33
@@ -1080,7 +1080,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Preventing researchers from altering hypotheses to match accidental data."
+          "text": "Prohibiting junior scholars from working on medical trials."
         },
         {
           "key": "B",
@@ -1092,10 +1092,10 @@
         },
         {
           "key": "D",
-          "text": "Prohibiting junior scholars from working on medical trials."
+          "text": "Preventing researchers from altering hypotheses to match accidental data."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节理解题。第四段指出开放科学的预注册机制在做实验前就锁定假设和分析路径，有效杜绝了事后篡改假设迎合意外巧合数据。",
       "points": 2,
       "sort_order": 34
@@ -1110,22 +1110,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Reward methodological rigor and data transparency over sheer publication volume."
-        },
-        {
-          "key": "B",
-          "text": "Abolish all scientific research funding permanently."
-        },
-        {
-          "key": "C",
           "text": "Ban researchers from using digital statistical software."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Reward methodological rigor and data transparency over sheer publication volume."
+        },
+        {
+          "key": "C",
           "text": "Prohibit international collaboration among scientists."
+        },
+        {
+          "key": "D",
+          "text": "Abolish all scientific research funding permanently."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨结论题。末段指出重塑科学公信力需要高校改变唯论文数量论，在学术考核中真正奖赏方法论严谨度、负向数据报告和开放透明。",
       "points": 2,
       "sort_order": 35
@@ -1144,15 +1144,15 @@
         },
         {
           "key": "B",
-          "text": "Become ten times heavier and impossible to carry."
-        },
-        {
-          "key": "C",
           "text": "Be purchased exclusively by military submarine commanders."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Be legally banned by international copyright agreements."
+        },
+        {
+          "key": "D",
+          "text": "Become ten times heavier and impossible to carry."
         }
       ],
       "correct_answer": "A",
@@ -1170,22 +1170,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Physical book sales have stabilized while e-book sales plateaued."
+          "text": "All independent bookstores worldwide have declared bankruptcy."
         },
         {
           "key": "B",
-          "text": "Printed books have completely vanished from all bookshops."
+          "text": "Physical book sales have stabilized while e-book sales plateaued."
         },
         {
           "key": "C",
-          "text": "All independent bookstores worldwide have declared bankruptcy."
+          "text": "Printed books have completely vanished from all bookshops."
         },
         {
           "key": "D",
           "text": "Electronic tablets have become illegal in Western nations."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段指出十年后出现了耐人寻味的悖论：纸质书顽强复苏并稳定增长，而电子书销售陷入停滞与回调。",
       "points": 2,
       "sort_order": 37
@@ -1200,22 +1200,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Provide tactile topography and spatial anchors that aid memory."
+          "text": "Automatically translate difficult sentences into foreign languages."
         },
         {
           "key": "B",
-          "text": "Emit ultrasonic vibrations that stimulate human brainwaves."
+          "text": "Provide tactile topography and spatial anchors that aid memory."
         },
         {
           "key": "C",
-          "text": "Automatically translate difficult sentences into foreign languages."
+          "text": "Emit ultrasonic vibrations that stimulate human brainwaves."
         },
         {
           "key": "D",
           "text": "Allow readers to run physical marathons while reading."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第三段指出纸书具有实体触觉地貌（tactile topography），纸张厚薄转换、空间定位为大脑提供了记忆锚点，加深了理解。",
       "points": 2,
       "sort_order": 38
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Undistracted 'monotasking' free from digital screen notifications."
+          "text": "Constant multi-player gaming competitions among readers."
         },
         {
           "key": "B",
-          "text": "Loud auditory music playing from paper margins."
-        },
-        {
-          "key": "C",
           "text": "Commercial advertisements popping up on every physical page."
         },
         {
+          "key": "C",
+          "text": "Loud auditory music playing from paper margins."
+        },
+        {
           "key": "D",
-          "text": "Constant multi-player gaming competitions among readers."
+          "text": "Undistracted 'monotasking' free from digital screen notifications."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节理解题。第四段指出在屏幕疲劳的时代，纸质书提供了一个无弹窗、不被打扰的沉浸式“单一任务（monotasking）”世俗绿洲。",
       "points": 2,
       "sort_order": 39
@@ -1268,11 +1268,11 @@
         },
         {
           "key": "C",
-          "text": "Is made exclusively from waterproof synthetic petroleum plastics."
+          "text": "Can be used as a blunt defensive weapon during emergencies."
         },
         {
           "key": "D",
-          "text": "Can be used as a blunt defensive weapon during emergencies."
+          "text": "Is made exclusively from waterproof synthetic petroleum plastics."
         }
       ],
       "correct_answer": "A",

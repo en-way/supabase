@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "faith"
-        },
-        {
-          "key": "B",
-          "text": "hostility"
-        },
-        {
-          "key": "C",
           "text": "jealousy"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "faith"
+        },
+        {
+          "key": "C",
           "text": "panic"
+        },
+        {
+          "key": "D",
+          "text": "hostility"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。implicit acts of faith（内隐的信任/托付行为），与首句 Trust 紧密呼应。",
       "points": 0.5,
       "sort_order": 1
@@ -120,7 +120,7 @@
       "options": [
         {
           "key": "A",
-          "text": "strangers"
+          "text": "rulers"
         },
         {
           "key": "B",
@@ -132,10 +132,10 @@
         },
         {
           "key": "D",
-          "text": "rulers"
+          "text": "strangers"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词对比。在现代社会中，我们将安危托付给素昧平生的陌生人（total strangers）。",
       "points": 0.5,
       "sort_order": 2
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "trust"
-        },
-        {
-          "key": "B",
           "text": "luxury"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "wealth"
+        },
+        {
+          "key": "C",
+          "text": "trust"
         },
         {
           "key": "D",
           "text": "violence"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨名词。decline in social and institutional trust（社会与体制信任的滑坡）。",
       "points": 0.5,
       "sort_order": 3
@@ -180,22 +180,22 @@
       "options": [
         {
           "key": "A",
-          "text": "curiosity"
+          "text": "celebration"
         },
         {
           "key": "B",
-          "text": "triumph"
+          "text": "curiosity"
         },
         {
           "key": "C",
-          "text": "miracle"
+          "text": "triumph"
         },
         {
           "key": "D",
-          "text": "celebration"
+          "text": "miracle"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】搭配转折。not merely a psychological curiosity（绝非纯粹的心理奇特现象），而是伴随着真真切切的经济损失。",
       "points": 0.5,
       "sort_order": 4
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "skyrocket"
-        },
-        {
-          "key": "B",
           "text": "vanish"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "collapse"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "stagnate"
+        },
+        {
+          "key": "D",
+          "text": "skyrocket"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词语义。信任瓦解时，交易成本必然一飞冲天/暴涨（transaction costs skyrocket）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "fraud"
+          "text": "diplomacy"
         },
         {
           "key": "B",
@@ -252,10 +252,10 @@
         },
         {
           "key": "D",
-          "text": "diplomacy"
+          "text": "fraud"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】消极修饰。engaging in deceitful fraud（从事欺诈欺骗行为）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,11 +270,11 @@
       "options": [
         {
           "key": "A",
-          "text": "circle"
+          "text": "prison"
         },
         {
           "key": "B",
-          "text": "prison"
+          "text": "monument"
         },
         {
           "key": "C",
@@ -282,10 +282,10 @@
         },
         {
           "key": "D",
-          "text": "monument"
+          "text": "circle"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。familial or tribal circle（家族或部落小圈子）。",
       "points": 0.5,
       "sort_order": 7
@@ -304,7 +304,7 @@
         },
         {
           "key": "B",
-          "text": "harmony"
+          "text": "splendor"
         },
         {
           "key": "C",
@@ -312,7 +312,7 @@
         },
         {
           "key": "D",
-          "text": "splendor"
+          "text": "harmony"
         }
       ],
       "correct_answer": "A",
@@ -334,15 +334,15 @@
         },
         {
           "key": "B",
-          "text": "fair"
-        },
-        {
-          "key": "C",
           "text": "generous"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "sacred"
+        },
+        {
+          "key": "D",
+          "text": "fair"
         }
       ],
       "correct_answer": "A",
@@ -360,11 +360,11 @@
       "options": [
         {
           "key": "A",
-          "text": "corrupt"
+          "text": "harmless"
         },
         {
           "key": "B",
-          "text": "noble"
+          "text": "corrupt"
         },
         {
           "key": "C",
@@ -372,10 +372,10 @@
         },
         {
           "key": "D",
-          "text": "harmless"
+          "text": "noble"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】形容词对比。算法煽动极化仇恨，让公众认定政治对手道德败坏（morally corrupt）。",
       "points": 0.5,
       "sort_order": 10
@@ -394,15 +394,15 @@
         },
         {
           "key": "B",
-          "text": "bravery"
+          "text": "clarity"
         },
         {
           "key": "C",
-          "text": "modesty"
+          "text": "bravery"
         },
         {
           "key": "D",
-          "text": "clarity"
+          "text": "modesty"
         }
       ],
       "correct_answer": "A",
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "solidarity"
-        },
-        {
-          "key": "B",
           "text": "hostility"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "jealousy"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "shame"
+        },
+        {
+          "key": "D",
+          "text": "solidarity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】社会学名词。公共产品投资能培育共同的公民团结与连带感（shared civic solidarity）。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "exercise"
-        },
-        {
-          "key": "B",
-          "text": "retreat"
-        },
-        {
-          "key": "C",
           "text": "neglect"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "decay"
+        },
+        {
+          "key": "C",
+          "text": "retreat"
+        },
+        {
+          "key": "D",
+          "text": "exercise"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】肌肉比喻。trust is a dynamic muscle strengthened through exercise（信任如肌肉，需在实践历练中强化）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,11 +510,11 @@
       "options": [
         {
           "key": "A",
-          "text": "empathy"
+          "text": "derision"
         },
         {
           "key": "B",
-          "text": "scorn"
+          "text": "empathy"
         },
         {
           "key": "C",
@@ -522,10 +522,10 @@
         },
         {
           "key": "D",
-          "text": "derision"
+          "text": "scorn"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】褒义名词。面对面交流能催生相互同理心（mutual empathy）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "institutions"
-        },
-        {
-          "key": "B",
           "text": "prisons"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "ruins"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "weapons"
+        },
+        {
+          "key": "D",
+          "text": "institutions"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】政治名词。democratic institutions（民主制度与体制基础）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,22 +570,22 @@
       "options": [
         {
           "key": "A",
-          "text": "warfare"
+          "text": "treaties"
         },
         {
           "key": "B",
-          "text": "harmony"
-        },
-        {
-          "key": "C",
           "text": "luxury"
         },
         {
+          "key": "C",
+          "text": "warfare"
+        },
+        {
           "key": "D",
-          "text": "treaties"
+          "text": "harmony"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】消极修辞。社会契约瓦解为激烈的意识形态内耗混战（bitter ideological warfare）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,22 +600,22 @@
       "options": [
         {
           "key": "A",
-          "text": "epoch"
-        },
-        {
-          "key": "B",
           "text": "weekend"
         },
         {
+          "key": "B",
+          "text": "instant"
+        },
+        {
           "key": "C",
-          "text": "second"
+          "text": "epoch"
         },
         {
           "key": "D",
-          "text": "instant"
+          "text": "second"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】时代名词。defining civic challenge of our contemporary epoch（我们当代时代决定性的公民挑战）。",
       "points": 0.5,
       "sort_order": 18
@@ -638,11 +638,11 @@
         },
         {
           "key": "C",
-          "text": "spite"
+          "text": "guilt"
         },
         {
           "key": "D",
-          "text": "guilt"
+          "text": "spite"
         }
       ],
       "correct_answer": "A",
@@ -660,11 +660,11 @@
       "options": [
         {
           "key": "A",
-          "text": "today"
+          "text": "nowhere"
         },
         {
           "key": "B",
-          "text": "scarcely"
+          "text": "today"
         },
         {
           "key": "C",
@@ -672,10 +672,10 @@
         },
         {
           "key": "D",
-          "text": "nowhere"
+          "text": "scarcely"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】语境时间。across public life today（在当今公共生活的各个层面）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,7 +690,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Intelligent machines will cause permanent, catastrophic mass unemployment."
+          "text": "Robots will refuse to perform any manufacturing tasks."
         },
         {
           "key": "B",
@@ -698,14 +698,14 @@
         },
         {
           "key": "C",
-          "text": "Robots will refuse to perform any manufacturing tasks."
+          "text": "Intelligent machines will cause permanent, catastrophic mass unemployment."
         },
         {
           "key": "D",
           "text": "Governments will legally ban all digital computers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出反乌托邦警报宣称“自动化末日”即将来临，智能机器将消灭一半现有工种，造成永久性大失业（catastrophic mass unemployment）。",
       "points": 2,
       "sort_order": 21
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Eliminates specific routine tasks while creating more jobs in total."
-        },
-        {
-          "key": "B",
           "text": "Causes permanent poverty for the entire human species."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Always reduces the overall demand for consumer commodities."
+        },
+        {
+          "key": "C",
+          "text": "Eliminates specific routine tasks while creating more jobs in total."
         },
         {
           "key": "D",
           "text": "Has no measurable impact on economic manufacturing."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第二段指出历史表明新技术消灭的是具体常规任务（routinized tasks），但创造的总体就业岗位远多于所消灭的岗位。",
       "points": 2,
       "sort_order": 22
@@ -750,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Frees professionals to focus on higher-value, cognitive duties."
+          "text": "Increases the amount of physical paperwork in courthouses."
         },
         {
           "key": "B",
@@ -762,10 +762,10 @@
         },
         {
           "key": "D",
-          "text": "Increases the amount of physical paperwork in courthouses."
+          "text": "Frees professionals to focus on higher-value, cognitive duties."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】例证题。第三段通过法律助理的例子证明算法取代检索繁琐工作后，将员工解放出来专注于更具价值的分析与沟通（frees professionals for higher-value duties）。",
       "points": 2,
       "sort_order": 23
@@ -784,15 +784,15 @@
         },
         {
           "key": "B",
-          "text": "Robotic factory machines breakdown after forty-eight hours of operation."
+          "text": "Labor unions forbid anyone from learning how to operate computers."
         },
         {
           "key": "C",
-          "text": "Young college graduates refuse to work in technology firms."
+          "text": "Robotic factory machines breakdown after forty-eight hours of operation."
         },
         {
           "key": "D",
-          "text": "Labor unions forbid anyone from learning how to operate computers."
+          "text": "Young college graduates refuse to work in technology firms."
         }
       ],
       "correct_answer": "A",
@@ -810,11 +810,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Aggressive public investment in lifelong reskilling and vocational training."
+          "text": "Banning artificial intelligence research in universities."
         },
         {
           "key": "B",
-          "text": "Banning artificial intelligence research in universities."
+          "text": "Aggressive public investment in lifelong reskilling and vocational training."
         },
         {
           "key": "C",
@@ -825,7 +825,7 @@
           "text": "Eliminating all government welfare programs immediately."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨结论题。末段指出从容应对技术变革需要政府与企业大力投资人力资本，设立终身再技能培训账户，革新职业技能教育。",
       "points": 2,
       "sort_order": 25
@@ -840,7 +840,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Functions as a powerful currency of social validation and peer approval."
+          "text": "Automatically deletes all advertisements from computer screens."
         },
         {
           "key": "B",
@@ -848,14 +848,14 @@
         },
         {
           "key": "C",
-          "text": "Automatically deletes all advertisements from computer screens."
+          "text": "Physically improves eyesight and optical health in readers."
         },
         {
           "key": "D",
-          "text": "Physically improves eyesight and optical health in readers."
+          "text": "Functions as a powerful currency of social validation and peer approval."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段末尾指出社交反馈量化指标已演化为人际认同与同伴认可的高效通货（currency of validation and peer approval）。",
       "points": 2,
       "sort_order": 26
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Neurological reward surges triggered by gambling windfalls."
-        },
-        {
-          "key": "B",
           "text": "The physical pain of running a full forty-mile marathon."
         },
         {
+          "key": "B",
+          "text": "Severe allergic reactions to common pollen particles."
+        },
+        {
           "key": "C",
-          "text": "The psychological boredom of waiting in an empty train station."
+          "text": "Neurological reward surges triggered by gambling windfalls."
         },
         {
           "key": "D",
-          "text": "Severe allergic reactions to common pollen particles."
+          "text": "The psychological boredom of waiting in an empty train station."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出脑部扫描显示点赞激活大脑腹侧纹状体的多巴胺分泌，与赌博中奖或成瘾药物刺激的脑回路如出一辙。",
       "points": 2,
       "sort_order": 27
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Equate personal self-worth with their quantified metric performance."
-        },
-        {
-          "key": "B",
-          "text": "Possess fully developed, mature adult neurological brains."
-        },
-        {
-          "key": "C",
           "text": "Refuse to communicate with any of their school classmates."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Spend 100 percent of their daylight hours reading physical books."
+        },
+        {
+          "key": "C",
+          "text": "Equate personal self-worth with their quantified metric performance."
+        },
+        {
+          "key": "D",
+          "text": "Possess fully developed, mature adult neurological brains."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第三段指出青少年前额叶尚未发育成熟，不可避免地将自身内在价值等同于点赞数据（equate self-worth with metric performance）。",
       "points": 2,
       "sort_order": 28
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Hiding public social feedback counts to reduce comparison anxiety."
-        },
-        {
-          "key": "B",
-          "text": "Banning all teenagers from using smartphone cameras."
-        },
-        {
-          "key": "C",
           "text": "Measuring users' physical body temperatures through screens."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Hiding public social feedback counts to reduce comparison anxiety."
+        },
+        {
+          "key": "C",
           "text": "Charging users cash fees for every posted social comment."
+        },
+        {
+          "key": "D",
+          "text": "Banning all teenagers from using smartphone cameras."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】词义理解题。第五段指出“去指标化（demetrication）”是指隐藏公开的点赞计数，以减轻同伴攀比焦虑。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Systemic regulatory intervention tackling platforms' underlying business models."
+          "text": "Encouraging adolescents to double their daily screen usage."
         },
         {
           "key": "B",
-          "text": "Appealing to the benevolence of social media chief executives."
+          "text": "Systemic regulatory intervention tackling platforms' underlying business models."
         },
         {
           "key": "C",
-          "text": "Forbidding teenagers from attending public high schools."
+          "text": "Appealing to the benevolence of social media chief executives."
         },
         {
           "key": "D",
-          "text": "Encouraging adolescents to double their daily screen usage."
+          "text": "Forbidding teenagers from attending public high schools."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨态度题。末段指出浅层的UI修修补补于事无补，真正保护青少年必须实施体制性监管干预（systemic regulatory intervention），触及监控资本主义底层逻辑。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Programmable molecular scissors capable of precise DNA editing."
-        },
-        {
-          "key": "B",
-          "text": "Heavy hydraulic construction cranes operating inside human cells."
-        },
-        {
-          "key": "C",
           "text": "Nuclear radiation beams that destroy all living tissue."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Traditional herbal remedies passed down through folklore."
+        },
+        {
+          "key": "C",
+          "text": "Heavy hydraulic construction cranes operating inside human cells."
+        },
+        {
+          "key": "D",
+          "text": "Programmable molecular scissors capable of precise DNA editing."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出CRISPR宛如“可编程的分子剪刀（programmable molecular scissors）”，能精准定位、剪切和替换特定基因序列。",
       "points": 2,
       "sort_order": 31
@@ -1020,11 +1020,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Alters mature tissues without passing changes to future offspring."
+          "text": "Permanently alters the reproductive genetics of all future generations."
         },
         {
           "key": "B",
-          "text": "Permanently alters the reproductive genetics of all future generations."
+          "text": "Is strictly prohibited by international medical treaties."
         },
         {
           "key": "C",
@@ -1032,10 +1032,10 @@
         },
         {
           "key": "D",
-          "text": "Is strictly prohibited by international medical treaties."
+          "text": "Alters mature tissues without passing changes to future offspring."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】概念对比题。第二段首句明确界定了体细胞基因编辑：只改变成熟人体组织细胞，不影响生殖系，不会遗传给后代。",
       "points": 2,
       "sort_order": 32
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "It represented an unsanctioned, dangerous leap into human germline editing."
-        },
-        {
-          "key": "B",
           "text": "The researcher refused to accept international scientific awards."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "The experiment caused a worldwide power grid failure."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "CRISPR software was declared completely obsolete in 2017."
+        },
+        {
+          "key": "D",
+          "text": "It represented an unsanctioned, dangerous leap into human germline editing."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第三段指出该实验未经授权擅自对人类早期胚胎生殖系基因动手（leap into germline editing），跨越了伦理红线。",
       "points": 2,
       "sort_order": 33
@@ -1084,11 +1084,11 @@
         },
         {
           "key": "B",
-          "text": "Make all human beings completely identical in height and weight."
+          "text": "Completely eliminate the commercial cosmetics industry."
         },
         {
           "key": "C",
-          "text": "Completely eliminate the commercial cosmetics industry."
+          "text": "Make all human beings completely identical in height and weight."
         },
         {
           "key": "D",
@@ -1110,22 +1110,22 @@
       "options": [
         {
           "key": "A",
-          "text": "A binding international moratorium and multilateral regulatory governance."
-        },
-        {
-          "key": "B",
-          "text": "Selling CRISPR patents directly to private cosmetic clinics."
-        },
-        {
-          "key": "C",
           "text": "A total global ban on all forms of biological medicine."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "A binding international moratorium and multilateral regulatory governance."
+        },
+        {
+          "key": "C",
           "text": "Replacing all medical doctors with artificial intelligence algorithms."
+        },
+        {
+          "key": "D",
+          "text": "Selling CRISPR patents directly to private cosmetic clinics."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨结论题。末段指出全球科学界呼吁对人类生殖系编辑实施具约束力的国际暂停令（binding international moratoria），并建立多边监管治理体系。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Adjudicating specialized regulatory disputes within federal agencies."
-        },
-        {
-          "key": "B",
-          "text": "Drafting criminal legislation for the United States Congress."
-        },
-        {
-          "key": "C",
           "text": "Commanding federal military operations during peacetime."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Adjudicating specialized regulatory disputes within federal agencies."
+        },
+        {
+          "key": "C",
           "text": "Auditing private income tax returns for local municipal mayors."
+        },
+        {
+          "key": "D",
+          "text": "Drafting criminal legislation for the United States Congress."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段指出行政法法官的核心法定职能是在各联邦监管机构内裁决专门性的监管纠纷（adjudicate specialized regulatory disputes）。",
       "points": 2,
       "sort_order": 36
@@ -1174,11 +1174,11 @@
         },
         {
           "key": "B",
-          "text": "Lifetime appointments granted directly by the British monarch."
+          "text": "Complete diplomatic immunity from all United States laws."
         },
         {
           "key": "C",
-          "text": "Complete diplomatic immunity from all United States laws."
+          "text": "Lifetime appointments granted directly by the British monarch."
         },
         {
           "key": "D",
@@ -1204,15 +1204,15 @@
         },
         {
           "key": "B",
-          "text": "The Securities and Exchange Commission had been legally abolished."
+          "text": "Investment advisers are immune from all federal fraud statutes."
         },
         {
           "key": "C",
-          "text": "The United States Constitution prohibits all forms of paper money."
+          "text": "The Securities and Exchange Commission had been legally abolished."
         },
         {
           "key": "D",
-          "text": "Investment advisers are immune from all federal fraud statutes."
+          "text": "The United States Constitution prohibits all forms of paper money."
         }
       ],
       "correct_answer": "A",
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Exercise significant sovereign authority in issuing binding legal rulings."
-        },
-        {
-          "key": "B",
-          "text": "Wear ceremonial judicial robes during federal trials."
-        },
-        {
-          "key": "C",
           "text": "Earn higher salaries than the President of the United States."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Are required to have served as military generals."
+        },
+        {
+          "key": "C",
+          "text": "Exercise significant sovereign authority in issuing binding legal rulings."
+        },
+        {
+          "key": "D",
+          "text": "Wear ceremonial judicial robes during federal trials."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第四段指出大法官卡根认定行政法法官行使了重大的国家主权权威（exercise significant sovereign authority），故属于宪法层面的官员。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Compromise judicial independence and politicize administrative justice."
+          "text": "Ban corporate lawyers from entering federal courthouse buildings."
         },
         {
           "key": "B",
-          "text": "Lead to the immediate abolition of the United States Supreme Court."
-        },
-        {
-          "key": "C",
           "text": "Force all federal regulatory agencies to operate in foreign nations."
         },
         {
+          "key": "C",
+          "text": "Compromise judicial independence and politicize administrative justice."
+        },
+        {
           "key": "D",
-          "text": "Ban corporate lawyers from entering federal courthouse buildings."
+          "text": "Lead to the immediate abolition of the United States Supreme Court."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨态度题。末段指出学者最担忧的是政治长官自主任免将严重侵蚀行政司法的独立性，将中立裁判官变成政治效忠者（politicize administrative justice）。",
       "points": 2,
       "sort_order": 40

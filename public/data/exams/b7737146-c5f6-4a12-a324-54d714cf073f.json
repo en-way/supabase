@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "highs"
+          "text": "silences"
         },
         {
           "key": "B",
-          "text": "depths"
-        },
-        {
-          "key": "C",
           "text": "abysses"
         },
         {
+          "key": "C",
+          "text": "highs"
+        },
+        {
           "key": "D",
-          "text": "silences"
+          "text": "depths"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。climbed to historic highs（攀升至历史新高），对应评分通胀现象。",
       "points": 0.5,
       "sort_order": 1
@@ -120,22 +120,22 @@
       "options": [
         {
           "key": "A",
-          "text": "failure"
+          "text": "privilege"
         },
         {
           "key": "B",
-          "text": "victory"
-        },
-        {
-          "key": "C",
           "text": "miracle"
         },
         {
+          "key": "C",
+          "text": "failure"
+        },
+        {
           "key": "D",
-          "text": "privilege"
+          "text": "victory"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。在虚高的大环境下，拿 C 等成绩被学生视作灾难性的失败（catastrophic failure）。",
       "points": 0.5,
       "sort_order": 2
@@ -154,15 +154,15 @@
         },
         {
           "key": "B",
-          "text": "praised"
+          "text": "deceived"
         },
         {
           "key": "C",
-          "text": "sheltered"
+          "text": "praised"
         },
         {
           "key": "D",
-          "text": "deceived"
+          "text": "sheltered"
         }
       ],
       "correct_answer": "A",
@@ -180,7 +180,7 @@
       "options": [
         {
           "key": "A",
-          "text": "evaluations"
+          "text": "rejections"
         },
         {
           "key": "B",
@@ -188,14 +188,14 @@
         },
         {
           "key": "C",
-          "text": "rejections"
+          "text": "evaluations"
         },
         {
           "key": "D",
           "text": "delays"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】教育术语。course evaluations（课程评教反馈），教师为迎合学生评教而倾向于宽容给分。",
       "points": 0.5,
       "sort_order": 4
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "distinguish"
+          "text": "confuse"
         },
         {
           "key": "B",
-          "text": "prohibit"
+          "text": "distinguish"
         },
         {
           "key": "C",
-          "text": "confuse"
+          "text": "prohibit"
         },
         {
           "key": "D",
           "text": "intimidate"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。distinguish exceptional scholars from mediocre peers（将拔尖学者与平庸者区分开来）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,22 +240,22 @@
       "options": [
         {
           "key": "A",
-          "text": "power"
-        },
-        {
-          "key": "B",
-          "text": "poison"
-        },
-        {
-          "key": "C",
           "text": "hazard"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "power"
+        },
+        {
+          "key": "C",
           "text": "scandal"
+        },
+        {
+          "key": "D",
+          "text": "poison"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】经济学修辞。signaling power（信号显示能力/区分甄别效力），人人都拿高分导致成绩单失去甄别价值。",
       "points": 0.5,
       "sort_order": 6
@@ -270,7 +270,7 @@
       "options": [
         {
           "key": "A",
-          "text": "competence"
+          "text": "sympathy"
         },
         {
           "key": "B",
@@ -278,14 +278,14 @@
         },
         {
           "key": "C",
-          "text": "sympathy"
+          "text": "recklessness"
         },
         {
           "key": "D",
-          "text": "recklessness"
+          "text": "competence"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。雇主不得不借助课外测试来核定应聘者的真实能力（genuine competence）。",
       "points": 0.5,
       "sort_order": 7
@@ -304,11 +304,11 @@
         },
         {
           "key": "B",
-          "text": "constructive"
+          "text": "beneficial"
         },
         {
           "key": "C",
-          "text": "beneficial"
+          "text": "constructive"
         },
         {
           "key": "D",
@@ -330,11 +330,11 @@
       "options": [
         {
           "key": "A",
-          "text": "withers"
+          "text": "blossoms"
         },
         {
           "key": "B",
-          "text": "blossoms"
+          "text": "accelerates"
         },
         {
           "key": "C",
@@ -342,10 +342,10 @@
         },
         {
           "key": "D",
-          "text": "accelerates"
+          "text": "withers"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】动词比喻。无论是否努力都能保送高分时，求知学术动机不可避免地枯萎萎缩（inevitably withers）。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "electives"
-        },
-        {
-          "key": "B",
-          "text": "crimes"
-        },
-        {
-          "key": "C",
           "text": "battles"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "penalties"
+        },
+        {
+          "key": "C",
+          "text": "electives"
+        },
+        {
+          "key": "D",
+          "text": "crimes"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】学术名词。逃避硬核研讨课而涌向好拿分的轻松选修课（easy electives）。",
       "points": 0.5,
       "sort_order": 10
@@ -420,11 +420,11 @@
       "options": [
         {
           "key": "A",
-          "text": "trajectories"
+          "text": "monuments"
         },
         {
           "key": "B",
-          "text": "monuments"
+          "text": "settlements"
         },
         {
           "key": "C",
@@ -432,10 +432,10 @@
         },
         {
           "key": "D",
-          "text": "settlements"
+          "text": "trajectories"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。steep inflationary trajectories（更为陡峭的给分通胀轨迹）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "averages"
-        },
-        {
-          "key": "B",
-          "text": "vacations"
-        },
-        {
-          "key": "C",
           "text": "debts"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "illusions"
+        },
+        {
+          "key": "C",
+          "text": "averages"
+        },
+        {
+          "key": "D",
+          "text": "vacations"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】教育名词。grade point averages (GPA，平均绩点)。",
       "points": 0.5,
       "sort_order": 13
@@ -480,22 +480,22 @@
       "options": [
         {
           "key": "A",
-          "text": "spiral"
-        },
-        {
-          "key": "B",
           "text": "descent"
         },
         {
+          "key": "B",
+          "text": "calamity"
+        },
+        {
           "key": "C",
-          "text": "vacuum"
+          "text": "spiral"
         },
         {
           "key": "D",
-          "text": "calamity"
+          "text": "vacuum"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】比喻名词。curb this upward spiral（遏制这种不断攀升的通胀螺旋）。",
       "points": 0.5,
       "sort_order": 14
@@ -510,22 +510,22 @@
       "options": [
         {
           "key": "A",
-          "text": "caps"
-        },
-        {
-          "key": "B",
           "text": "prizes"
         },
         {
+          "key": "B",
+          "text": "caps"
+        },
+        {
           "key": "C",
-          "text": "celebrations"
+          "text": "donations"
         },
         {
           "key": "D",
-          "text": "donations"
+          "text": "celebrations"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词搭配。grade caps（硬性评分上限/限额指标）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,22 +540,22 @@
       "options": [
         {
           "key": "A",
-          "text": "confer"
-        },
-        {
-          "key": "B",
-          "text": "plunder"
-        },
-        {
-          "key": "C",
           "text": "confiscate"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "confer"
+        },
+        {
+          "key": "C",
           "text": "suppress"
+        },
+        {
+          "key": "D",
+          "text": "plunder"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。confer top marks（授予最高档荣誉成绩）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,11 +570,11 @@
       "options": [
         {
           "key": "A",
-          "text": "excellence"
+          "text": "bankruptcy"
         },
         {
           "key": "B",
-          "text": "disgrace"
+          "text": "excellence"
         },
         {
           "key": "C",
@@ -582,10 +582,10 @@
         },
         {
           "key": "D",
-          "text": "bankruptcy"
+          "text": "disgrace"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】褒义名词。achieves genuine excellence（真正达成卓越学术水平）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,7 +600,7 @@
       "options": [
         {
           "key": "A",
-          "text": "reflection"
+          "text": "flattery"
         },
         {
           "key": "B",
@@ -608,14 +608,14 @@
         },
         {
           "key": "C",
-          "text": "flattery"
+          "text": "reflection"
         },
         {
           "key": "D",
           "text": "neglect"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。honest self-reflection（诚实客观的自我反思）。",
       "points": 0.5,
       "sort_order": 18
@@ -630,11 +630,11 @@
       "options": [
         {
           "key": "A",
-          "text": "attainment"
+          "text": "sorrow"
         },
         {
           "key": "B",
-          "text": "decline"
+          "text": "attainment"
         },
         {
           "key": "C",
@@ -642,10 +642,10 @@
         },
         {
           "key": "D",
-          "text": "sorrow"
+          "text": "decline"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】学术名词。scholarly attainment（学术成就/学业素养）。",
       "points": 0.5,
       "sort_order": 19
@@ -690,11 +690,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Commercial banks closing physical branches following the 2008 financial crash."
+          "text": "A federal law prohibiting working-class citizens from holding bank accounts."
         },
         {
           "key": "B",
-          "text": "A federal law prohibiting working-class citizens from holding bank accounts."
+          "text": "Commercial banks closing physical branches following the 2008 financial crash."
         },
         {
           "key": "C",
@@ -705,7 +705,7 @@
           "text": "The total elimination of all digital mobile smartphone applications."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段指出2008年金融危机后商业银行关闭了数以千计的实体网点，撤离低收入社区和乡村，造就了“银行沙漠”。",
       "points": 2,
       "sort_order": 21
@@ -720,7 +720,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Prioritize local social impact and community resilience over shareholder profits."
+          "text": "Invest exclusively in international offshore hedge funds."
         },
         {
           "key": "B",
@@ -732,10 +732,10 @@
         },
         {
           "key": "D",
-          "text": "Invest exclusively in international offshore hedge funds."
+          "text": "Prioritize local social impact and community resilience over shareholder profits."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段指出 CDFI 是以使命为驱动的机构，不以短期股东回报最大化为目的，而是将创造就业、经济韧性视为核心目标。",
       "points": 2,
       "sort_order": 22
@@ -750,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "By offering personalized financial counseling alongside relationship banking."
+          "text": "By seizing all personal assets before approving applications."
         },
         {
           "key": "B",
@@ -758,14 +758,14 @@
         },
         {
           "key": "C",
-          "text": "By seizing all personal assets before approving applications."
+          "text": "By lending exclusively to Fortune 500 multinational corporations."
         },
         {
           "key": "D",
-          "text": "By lending exclusively to Fortune 500 multinational corporations."
+          "text": "By offering personalized financial counseling alongside relationship banking."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第三段指出通过“关系银行”模式，面对面评估现金流与人品，并将发放贷款与强制性财商辅导结合，违约率甚至低于主流商业银行。",
       "points": 2,
       "sort_order": 23
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Chronic shortages of capital funding relative to massive community demand."
-        },
-        {
-          "key": "B",
-          "text": "A complete lack of interested borrowers in low-income towns."
-        },
-        {
-          "key": "C",
           "text": "A federal prohibition against non-profit financial counseling."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Excessive corporate taxation imposed by state legislatures."
+        },
+        {
+          "key": "C",
+          "text": "Chronic shortages of capital funding relative to massive community demand."
+        },
+        {
+          "key": "D",
+          "text": "A complete lack of interested borrowers in low-income towns."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第四段指出虽然行之有效，但面临长期的资金资本化瓶颈（chronic capitalization hurdles），贷款供给远赶不上庞大需求。",
       "points": 2,
       "sort_order": 24
@@ -810,22 +810,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Serves as an essential pillar of economic democracy and poverty reduction."
+          "text": "Forces small businesses to relocate to foreign tax havens."
         },
         {
           "key": "B",
-          "text": "Guarantees massive quarterly dividends for Wall Street speculators."
+          "text": "Serves as an essential pillar of economic democracy and poverty reduction."
         },
         {
           "key": "C",
-          "text": "Forces small businesses to relocate to foreign tax havens."
+          "text": "Guarantees massive quarterly dividends for Wall Street speculators."
         },
         {
           "key": "D",
           "text": "Eliminates the need for any governmental regulatory oversight."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨态度题。末段指出平价信贷不是特权，而是经济民主的基石，能够重振被遗忘社区的经济并瓦解代际贫困。",
       "points": 2,
       "sort_order": 25
@@ -844,15 +844,15 @@
         },
         {
           "key": "B",
-          "text": "Naturally repelled all forest insect pests and fungal diseases."
+          "text": "Prevented forest fires from ever starting during hot summers."
         },
         {
           "key": "C",
-          "text": "Required zero water or sunlight to grow to full maturity."
+          "text": "Naturally repelled all forest insect pests and fungal diseases."
         },
         {
           "key": "D",
-          "text": "Prevented forest fires from ever starting during hot summers."
+          "text": "Required zero water or sunlight to grow to full maturity."
         }
       ],
       "correct_answer": "A",
@@ -874,15 +874,15 @@
         },
         {
           "key": "B",
-          "text": "Conifer trees can only grow in underground salt mines."
-        },
-        {
-          "key": "C",
           "text": "They absorb excessive toxic oxygen from the upper atmosphere."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Spruce trees naturally dissolve when exposed to winter snow."
+        },
+        {
+          "key": "D",
+          "text": "Conifer trees can only grow in underground salt mines."
         }
       ],
       "correct_answer": "A",
@@ -900,7 +900,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Penetrate to different depths and minimize competition for groundwater."
+          "text": "Produce artificial irrigation pipelines underground."
         },
         {
           "key": "B",
@@ -908,14 +908,14 @@
         },
         {
           "key": "C",
-          "text": "Produce artificial irrigation pipelines underground."
+          "text": "Penetrate to different depths and minimize competition for groundwater."
         },
         {
           "key": "D",
           "text": "Kill all adjacent vegetation to monopolize raindrops."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出混交林中不同树种占据不同生态位，根系扎入不同深度的土壤层，最大限度减少了争夺地下水的竞争。",
       "points": 2,
       "sort_order": 28
@@ -930,7 +930,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Transferring nutrients and transmitting pest-defense chemical signals."
+          "text": "Blocking tree roots from absorbing any natural rainfall."
         },
         {
           "key": "B",
@@ -942,10 +942,10 @@
         },
         {
           "key": "D",
-          "text": "Blocking tree roots from absorbing any natural rainfall."
+          "text": "Transferring nutrients and transmitting pest-defense chemical signals."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出菌根真菌网络在树种间传递养分与化学防御警报信号（shuttle nutrients and defense signals），实现互助抗虫。",
       "points": 2,
       "sort_order": 29
@@ -960,11 +960,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Incentivize foresters through ecosystem service payments and tax reform."
+          "text": "Cut down all native deciduous hardwood forests immediately."
         },
         {
           "key": "B",
-          "text": "Ban all use of wood and paper products throughout society."
+          "text": "Incentivize foresters through ecosystem service payments and tax reform."
         },
         {
           "key": "C",
@@ -972,10 +972,10 @@
         },
         {
           "key": "D",
-          "text": "Cut down all native deciduous hardwood forests immediately."
+          "text": "Ban all use of wood and paper products throughout society."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】结论主旨题。末段指出推动林业转型的关键是通过税改和“生态服务付费（ecosystem service payments）”，在碳汇、水源涵养和多样性保护上给予林农财务奖赏。",
       "points": 2,
       "sort_order": 30
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Detecting malignant tumors with accuracy comparable to specialists."
-        },
-        {
-          "key": "B",
-          "text": "Performing delicate neurosurgery without human supervision."
-        },
-        {
-          "key": "C",
           "text": "Inventing novel chemotherapy medications in seconds."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Replacing all primary care clinics with digital chatbots."
+        },
+        {
+          "key": "C",
+          "text": "Performing delicate neurosurgery without human supervision."
+        },
+        {
+          "key": "D",
+          "text": "Detecting malignant tumors with accuracy comparable to specialists."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出深度学习算法能以匹敌甚至超越资深专家的准确率识别细微恶性肿瘤（detect malignant tumors matching or exceeding specialists）。",
       "points": 2,
       "sort_order": 31
@@ -1020,11 +1020,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Relieves bottlenecks caused by severe shortages of qualified radiologists."
+          "text": "Requires zero electrical power or internet connection."
         },
         {
           "key": "B",
-          "text": "Requires zero electrical power or internet connection."
+          "text": "Relieves bottlenecks caused by severe shortages of qualified radiologists."
         },
         {
           "key": "C",
@@ -1035,7 +1035,7 @@
           "text": "Eliminates the need for hospital beds."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段指出在放射科医生匮乏的发展中国家，自动化算法能迅速分诊结核胸片，缓解医疗瓶颈。",
       "points": 2,
       "sort_order": 32
@@ -1054,11 +1054,11 @@
         },
         {
           "key": "B",
-          "text": "Doctors refuse to use computers under any circumstances."
+          "text": "Computer algorithms cannot process high-resolution images."
         },
         {
           "key": "C",
-          "text": "Computer algorithms cannot process high-resolution images."
+          "text": "Doctors refuse to use computers under any circumstances."
         },
         {
           "key": "D",
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Determining liability when an algorithmic diagnosis causes harm."
-        },
-        {
-          "key": "B",
           "text": "The international patenting of human genetic material."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "The copyright ownership of hospital medical charts."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "The criminalization of medical research software."
+        },
+        {
+          "key": "D",
+          "text": "Determining liability when an algorithmic diagnosis causes harm."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第四段指出医疗差错中的责任界定难题（who bears legal liability when an algorithm fails）。",
       "points": 2,
       "sort_order": 34
@@ -1114,15 +1114,15 @@
         },
         {
           "key": "B",
-          "text": "A dangerous hazard that must be completely banned from hospitals."
+          "text": "A temporary commercial fad with zero clinical utility."
         },
         {
           "key": "C",
-          "text": "The absolute decision-maker in all surgical procedures."
+          "text": "A dangerous hazard that must be completely banned from hospitals."
         },
         {
           "key": "D",
-          "text": "A temporary commercial fad with zero clinical utility."
+          "text": "The absolute decision-maker in all surgical procedures."
         }
       ],
       "correct_answer": "A",
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Respected the constitutional doctrine of parliamentary supremacy."
-        },
-        {
-          "key": "B",
           "text": "Were legally forbidden from hiring barristers and clerks."
         },
         {
+          "key": "B",
+          "text": "Believed that British citizens possessed zero civil rights."
+        },
+        {
           "key": "C",
-          "text": "Lacked physical courtrooms to conduct legal trials."
+          "text": "Respected the constitutional doctrine of parliamentary supremacy."
         },
         {
           "key": "D",
-          "text": "Believed that British citizens possessed zero civil rights."
+          "text": "Lacked physical courtrooms to conduct legal trials."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出英国法院过去奉行司法克制是因为恪守“议会至上（parliamentary supremacy）”的宪制原则。",
       "points": 2,
       "sort_order": 36
@@ -1170,7 +1170,7 @@
       "options": [
         {
           "key": "A",
-          "text": "The Human Rights Act 1998."
+          "text": "The Bank of England Charter 1694."
         },
         {
           "key": "B",
@@ -1178,14 +1178,14 @@
         },
         {
           "key": "C",
-          "text": "The Bank of England Charter 1694."
+          "text": "The British Rail Privatization Statute 1993."
         },
         {
           "key": "D",
-          "text": "The British Rail Privatization Statute 1993."
+          "text": "The Human Rights Act 1998."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段首句明确指出这一转变的催化剂是《1998年人权法案（Human Rights Act 1998）》，它将欧洲人权公约纳入国内法。",
       "points": 2,
       "sort_order": 37
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Serves as the sole constitutional check against executive domination."
-        },
-        {
-          "key": "B",
           "text": "Generates massive commercial profits through court filing fees."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Allows the monarch to rule Britain without an elected parliament."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Forces all political parties to merge into a single coalition."
+        },
+        {
+          "key": "D",
+          "text": "Serves as the sole constitutional check against executive domination."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】观点理解题。第四段指出支持者认为执政党往往同时掌控议会与行政机关，独立的司法审查是制衡行政专权、保护少数群体权利的最后一道宪法防线。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "The rule of law and ministerial accountability."
-        },
-        {
-          "key": "B",
           "text": "The commercial profitability of London's financial district."
         },
         {
+          "key": "B",
+          "text": "The rule of law and ministerial accountability."
+        },
+        {
           "key": "C",
-          "text": "The international trade agreements between Britain and the US."
+          "text": "The efficiency of municipal tax collection agencies."
         },
         {
           "key": "D",
-          "text": "The efficiency of municipal tax collection agencies."
+          "text": "The international trade agreements between Britain and the US."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨结论题。末段指出削弱司法审查将动摇英国宪制的基石——法治（the rule of law），司法独立确保政府官员始终处于法律约束之下。",
       "points": 2,
       "sort_order": 40

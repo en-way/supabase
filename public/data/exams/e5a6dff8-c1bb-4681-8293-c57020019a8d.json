@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "venues"
+          "text": "mines"
         },
         {
           "key": "B",
-          "text": "prisons"
-        },
-        {
-          "key": "C",
           "text": "factories"
         },
         {
+          "key": "C",
+          "text": "prisons"
+        },
+        {
           "key": "D",
-          "text": "mines"
+          "text": "venues"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。destination venues（异国婚礼目的地场地）。",
       "points": 0.5,
       "sort_order": 1
@@ -120,22 +120,22 @@
       "options": [
         {
           "key": "A",
-          "text": "guarantee"
-        },
-        {
-          "key": "B",
           "text": "prevent"
         },
         {
+          "key": "B",
+          "text": "guarantee"
+        },
+        {
           "key": "C",
-          "text": "destroy"
+          "text": "prohibit"
         },
         {
           "key": "D",
-          "text": "prohibit"
+          "text": "destroy"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。奢华宣传灌输巨额消费能“保障（guarantee）”终生婚姻幸福的诱惑说辞。",
       "points": 0.5,
       "sort_order": 2
@@ -150,22 +150,22 @@
       "options": [
         {
           "key": "A",
-          "text": "different"
-        },
-        {
-          "key": "B",
           "text": "identical"
         },
         {
+          "key": "B",
+          "text": "different"
+        },
+        {
           "key": "C",
-          "text": "favorable"
+          "text": "delightful"
         },
         {
           "key": "D",
-          "text": "delightful"
+          "text": "favorable"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】转折对比。经济学实证研究揭示了截然不同的（sharply different）现实。",
       "points": 0.5,
       "sort_order": 3
@@ -184,11 +184,11 @@
         },
         {
           "key": "B",
-          "text": "hostility"
+          "text": "betrayal"
         },
         {
           "key": "C",
-          "text": "betrayal"
+          "text": "hostility"
         },
         {
           "key": "D",
@@ -210,22 +210,22 @@
       "options": [
         {
           "key": "A",
-          "text": "likely"
-        },
-        {
-          "key": "B",
-          "text": "reluctant"
-        },
-        {
-          "key": "C",
           "text": "unwilling"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "hesitant"
+        },
+        {
+          "key": "C",
+          "text": "reluctant"
+        },
+        {
+          "key": "D",
+          "text": "likely"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】固定搭配。substantially more likely to divorce（更有可能走向离婚）。",
       "points": 0.5,
       "sort_order": 5
@@ -240,7 +240,7 @@
       "options": [
         {
           "key": "A",
-          "text": "strain"
+          "text": "splendor"
         },
         {
           "key": "B",
@@ -248,14 +248,14 @@
         },
         {
           "key": "C",
-          "text": "luxury"
+          "text": "strain"
         },
         {
           "key": "D",
-          "text": "splendor"
+          "text": "luxury"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】经济名词。post-marital financial strain（婚后财务压力与拮据）。",
       "points": 0.5,
       "sort_order": 6
@@ -270,11 +270,11 @@
       "options": [
         {
           "key": "A",
-          "text": "friction"
+          "text": "harmony"
         },
         {
           "key": "B",
-          "text": "harmony"
+          "text": "amusement"
         },
         {
           "key": "C",
@@ -282,10 +282,10 @@
         },
         {
           "key": "D",
-          "text": "amusement"
+          "text": "friction"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。trigger chronic interpersonal friction（触发长期的夫妻人际摩擦）。",
       "points": 0.5,
       "sort_order": 7
@@ -300,11 +300,11 @@
       "options": [
         {
           "key": "A",
-          "text": "dissolution"
+          "text": "triumph"
         },
         {
           "key": "B",
-          "text": "prosperity"
+          "text": "dissolution"
         },
         {
           "key": "C",
@@ -312,10 +312,10 @@
         },
         {
           "key": "D",
-          "text": "triumph"
+          "text": "prosperity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】法律名词。accelerating marital dissolution（加速婚姻的解体）。",
       "points": 0.5,
       "sort_order": 8
@@ -330,22 +330,22 @@
       "options": [
         {
           "key": "A",
-          "text": "admiration"
-        },
-        {
-          "key": "B",
           "text": "scorn"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "contempt"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "hatred"
+        },
+        {
+          "key": "D",
+          "text": "admiration"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】心理名词。渴望社会认可与同辈艳羡（social validation and peer admiration）。",
       "points": 0.5,
       "sort_order": 9
@@ -360,22 +360,22 @@
       "options": [
         {
           "key": "A",
-          "text": "partnership"
+          "text": "monument"
         },
         {
           "key": "B",
-          "text": "hostility"
-        },
-        {
-          "key": "C",
           "text": "desert"
         },
         {
+          "key": "C",
+          "text": "hostility"
+        },
+        {
           "key": "D",
-          "text": "monument"
+          "text": "partnership"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。sustain an enduring marital partnership（维系持久的婚姻伙伴关系）。",
       "points": 0.5,
       "sort_order": 10
@@ -390,22 +390,22 @@
       "options": [
         {
           "key": "A",
-          "text": "foundation"
-        },
-        {
-          "key": "B",
           "text": "crisis"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "catastrophe"
+        },
+        {
+          "key": "C",
+          "text": "foundation"
         },
         {
           "key": "D",
           "text": "famine"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】褒义名词。stable emotional foundation（坚固的情感基石）。",
       "points": 0.5,
       "sort_order": 11
@@ -420,7 +420,7 @@
       "options": [
         {
           "key": "A",
-          "text": "dynamics"
+          "text": "diseases"
         },
         {
           "key": "B",
@@ -432,10 +432,10 @@
         },
         {
           "key": "D",
-          "text": "diseases"
+          "text": "dynamics"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】社会学术语。reveals intriguing social dynamics（揭示耐人寻味的社会互动动态）。",
       "points": 0.5,
       "sort_order": 12
@@ -450,22 +450,22 @@
       "options": [
         {
           "key": "A",
-          "text": "longevity"
-        },
-        {
-          "key": "B",
-          "text": "collapse"
-        },
-        {
-          "key": "C",
           "text": "ruin"
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "longevity"
+        },
+        {
+          "key": "C",
           "text": "disgrace"
+        },
+        {
+          "key": "D",
+          "text": "collapse"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】统计名词。correlates positively with marital longevity（与婚姻的长久度呈正相关）。",
       "points": 0.5,
       "sort_order": 13
@@ -510,7 +510,7 @@
       "options": [
         {
           "key": "A",
-          "text": "spectacles"
+          "text": "treaties"
         },
         {
           "key": "B",
@@ -518,14 +518,14 @@
         },
         {
           "key": "C",
-          "text": "statues"
+          "text": "spectacles"
         },
         {
           "key": "D",
-          "text": "treaties"
+          "text": "statues"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】文化批评修辞。predatory commercial spectacles（掠夺性的商业闹剧景观）。",
       "points": 0.5,
       "sort_order": 15
@@ -540,11 +540,11 @@
       "options": [
         {
           "key": "A",
-          "text": "extravagance"
+          "text": "wisdom"
         },
         {
           "key": "B",
-          "text": "wisdom"
+          "text": "frugality"
         },
         {
           "key": "C",
@@ -552,10 +552,10 @@
         },
         {
           "key": "D",
-          "text": "frugality"
+          "text": "extravagance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】反义对比。依托相互尊重而非商业挥霍铺张（commercial extravagance）。",
       "points": 0.5,
       "sort_order": 16
@@ -570,22 +570,22 @@
       "options": [
         {
           "key": "A",
-          "text": "companionship"
+          "text": "solitude"
         },
         {
           "key": "B",
-          "text": "hostility"
-        },
-        {
-          "key": "C",
           "text": "resentment"
         },
         {
+          "key": "C",
+          "text": "companionship"
+        },
+        {
           "key": "D",
-          "text": "solitude"
+          "text": "hostility"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】褒义名词。cultivating lifelong companionship（培育终身相伴的伴侣情谊）。",
       "points": 0.5,
       "sort_order": 17
@@ -600,7 +600,7 @@
       "options": [
         {
           "key": "A",
-          "text": "demonstrated"
+          "text": "betrayed"
         },
         {
           "key": "B",
@@ -608,14 +608,14 @@
         },
         {
           "key": "C",
-          "text": "betrayed"
+          "text": "demonstrated"
         },
         {
           "key": "D",
           "text": "prohibited"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】分词搭配。loyalty demonstrated throughout decades（数十年如一日身体力行展现的忠诚）。",
       "points": 0.5,
       "sort_order": 18
@@ -634,15 +634,15 @@
         },
         {
           "key": "B",
-          "text": "scarcely"
+          "text": "rarely"
         },
         {
           "key": "C",
-          "text": "hardly"
+          "text": "scarcely"
         },
         {
           "key": "D",
-          "text": "rarely"
+          "text": "hardly"
         }
       ],
       "correct_answer": "A",
@@ -660,7 +660,7 @@
       "options": [
         {
           "key": "A",
-          "text": "together"
+          "text": "away"
         },
         {
           "key": "B",
@@ -672,10 +672,10 @@
         },
         {
           "key": "D",
-          "text": "away"
+          "text": "together"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】副词搭配。into a shared future together（携手走向共同的未来）。",
       "points": 0.5,
       "sort_order": 20
@@ -690,22 +690,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Medieval feudal authority exercised exclusively by the monarch."
-        },
-        {
-          "key": "B",
-          "text": "Democratic referendums held across British colonies."
-        },
-        {
-          "key": "C",
           "text": "Statutes passed by the European Parliament."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "International maritime shipping treaties."
+        },
+        {
+          "key": "C",
+          "text": "Democratic referendums held across British colonies."
+        },
+        {
+          "key": "D",
+          "text": "Medieval feudal authority exercised exclusively by the monarch."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出王家特权起源于中世纪封建君主专权，不经议会同意即可行使自由裁量权。",
       "points": 2,
       "sort_order": 21
@@ -728,11 +728,11 @@
         },
         {
           "key": "C",
-          "text": "Complete immunity for all ordinary criminal offenders."
+          "text": "A total transfer of powers to local municipal councils."
         },
         {
           "key": "D",
-          "text": "A total transfer of powers to local municipal councils."
+          "text": "Complete immunity for all ordinary criminal offenders."
         }
       ],
       "correct_answer": "A",
@@ -754,15 +754,15 @@
         },
         {
           "key": "B",
-          "text": "Judges are legally forbidden from reviewing government actions."
-        },
-        {
-          "key": "C",
           "text": "The Prime Minister possesses absolute, unquestioned legal authority."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Parliament must be dissolved permanently every three months."
+        },
+        {
+          "key": "D",
+          "text": "Judges are legally forbidden from reviewing government actions."
         }
       ],
       "correct_answer": "A",
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Codified into transparent statutory legislation."
-        },
-        {
-          "key": "B",
           "text": "Returned permanently to the physical control of the monarch."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Transferred directly to commercial corporations."
+        },
+        {
+          "key": "C",
+          "text": "Codified into transparent statutory legislation."
         },
         {
           "key": "D",
           "text": "Ignored entirely by judicial courts."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】方案细节题。第四段指出学者呼吁将剩余特权法典化为透明的成文法案（codified into statute-based legislation），全面接受立法机构问责。",
       "points": 2,
       "sort_order": 24
@@ -810,22 +810,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Examine the constitutional evolution and democratic tensions of royal prerogative."
-        },
-        {
-          "key": "B",
-          "text": "Celebrate the absolute supremacy of medieval monarchs."
-        },
-        {
-          "key": "C",
           "text": "Condemn the judicial branch for hearing legal disputes."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Advocate for the total abolition of all national governments."
+        },
+        {
+          "key": "C",
+          "text": "Examine the constitutional evolution and democratic tensions of royal prerogative."
+        },
+        {
+          "key": "D",
+          "text": "Celebrate the absolute supremacy of medieval monarchs."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】主旨大意题。全文梳理了王家特权从封建王权向内阁行政权的演进、其引发的民主赤字以及司法裁判制衡与成文化改革呼声。",
       "points": 2,
       "sort_order": 25
@@ -840,7 +840,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Surging rates of chronic stress and psychological disorders."
+          "text": "Instantaneous mastery of classical fine arts."
         },
         {
           "key": "B",
@@ -848,14 +848,14 @@
         },
         {
           "key": "C",
-          "text": "Instantaneous mastery of classical fine arts."
+          "text": "A total lack of interest in electronic computers."
         },
         {
           "key": "D",
-          "text": "A total lack of interest in electronic computers."
+          "text": "Surging rates of chronic stress and psychological disorders."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出生活在混凝土都市中与慢性压力激增、抑郁障碍等心理危机紧密相关（surge in psychological distress）。",
       "points": 2,
       "sort_order": 26
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Continuous, effortful directed attention that depletes cognitive reserves."
-        },
-        {
-          "key": "B",
-          "text": "Endless physical marathon running through city streets."
-        },
-        {
-          "key": "C",
           "text": "Living in complete sensory silence without daylight."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Consuming exclusively processed microwave meals."
+        },
+        {
+          "key": "C",
+          "text": "Endless physical marathon running through city streets."
+        },
+        {
+          "key": "D",
+          "text": "Continuous, effortful directed attention that depletes cognitive reserves."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第二段指出注意力恢复理论（ART）认为都市生活需要持续消耗意志力的“定向注意力（directed attention）”，耗尽了大脑认知资源。",
       "points": 2,
       "sort_order": 27
@@ -930,22 +930,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Low-income urban districts lack tree canopies and green infrastructure."
-        },
-        {
-          "key": "B",
           "text": "Forest trees refuse to absorb carbon dioxide from the air."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Timber companies go bankrupt due to wood shortages."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Municipal governments ban citizens from planting flowers."
+        },
+        {
+          "key": "D",
+          "text": "Low-income urban districts lack tree canopies and green infrastructure."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】词义理解题。第五段指出“树木贫困（tree poverty）”是指低收入社区缺乏绿化树冠覆盖，饱受高温热岛和污染困扰，与富人区绿树成荫形成鲜明反差。",
       "points": 2,
       "sort_order": 29
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Vital public health infrastructure essential for mental well-being."
+          "text": "Commercial timber plantations meant for industrial clear-cutting."
         },
         {
           "key": "B",
-          "text": "Cosmetic luxuries reserved exclusively for wealthy suburbs."
+          "text": "Vital public health infrastructure essential for mental well-being."
         },
         {
           "key": "C",
-          "text": "Commercial timber plantations meant for industrial clear-cutting."
+          "text": "Cosmetic luxuries reserved exclusively for wealthy suburbs."
         },
         {
           "key": "D",
           "text": "Antiquated municipal relics that should be paved into motorways."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】主旨态度题。末段总结呼吁将城市绿化视作至关重要的“公共健康基础设施（public health infrastructure）”，以疗愈现代都市人的心灵。",
       "points": 2,
       "sort_order": 30
@@ -994,7 +994,7 @@
         },
         {
           "key": "B",
-          "text": "A sudden worldwide surge in classical painting talent."
+          "text": "A complete collapse in the value of gold and real estate."
         },
         {
           "key": "C",
@@ -1002,7 +1002,7 @@
         },
         {
           "key": "D",
-          "text": "A complete collapse in the value of gold and real estate."
+          "text": "A sudden worldwide surge in classical painting talent."
         }
       ],
       "correct_answer": "A",
@@ -1020,22 +1020,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Is portable, confidential, and easily sheltered from taxes."
-        },
-        {
-          "key": "B",
           "text": "Can be eaten as emergency survival nutrition."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Generates daily cash dividends through public ATMs."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Is completely immune to damage from fire or water."
+        },
+        {
+          "key": "D",
+          "text": "Is portable, confidential, and easily sheltered from taxes."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】因果推断题。第三段指出顶级艺术品便携、交易隐秘（通过离岸空壳公司）且容易避税，成为理想的金融资产。",
       "points": 2,
       "sort_order": 32
@@ -1080,11 +1080,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Cultural dispossession as masterpieces are locked away in private bunkers."
+          "text": "A massive worldwide increase in public museum funding."
         },
         {
           "key": "B",
-          "text": "A massive worldwide increase in public museum funding."
+          "text": "Cultural dispossession as masterpieces are locked away in private bunkers."
         },
         {
           "key": "C",
@@ -1095,7 +1095,7 @@
           "text": "The mandatory return of all paintings to ancient churches."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第四段指出艺术金融化的恶果是“文化剥夺（cultural dispossession）”，原本属于大众鉴赏的名作被深锁在免税地堡沦为贷款抵押品。",
       "points": 2,
       "sort_order": 34
@@ -1110,11 +1110,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Closing tax loopholes for freeports and incentivizing public museum loans."
+          "text": "Banning all artists from selling their creative work."
         },
         {
           "key": "B",
-          "text": "Banning all artists from selling their creative work."
+          "text": "Permitting only government officials to paint portraits."
         },
         {
           "key": "C",
@@ -1122,10 +1122,10 @@
         },
         {
           "key": "D",
-          "text": "Permitting only government officials to paint portraits."
+          "text": "Closing tax loopholes for freeports and incentivizing public museum loans."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨结论题。末段呼吁推行反洗钱监管、取消防税自由港特权，并激励将藏品借展给公共美术馆，让艺术回归人类共同灵感宝库。",
       "points": 2,
       "sort_order": 35
@@ -1140,22 +1140,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Dismantle elite privilege and discover talented students from all backgrounds."
-        },
-        {
-          "key": "B",
           "text": "Ensure that only wealthy prep school students attended university."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Replace all university professors with automated multiple-choice tests."
+        },
+        {
+          "key": "C",
+          "text": "Dismantle elite privilege and discover talented students from all backgrounds."
         },
         {
           "key": "D",
           "text": "Calculate federal income tax liabilities for academic institutions."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第一段指出SAT最初被倡导为打破富家子弟垄断常春藤的唯才是举工具，旨在发掘底层有才华的璞玉（diamonds in the rough）。",
       "points": 2,
       "sort_order": 36
@@ -1170,11 +1170,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Parental household income and parental educational attainment."
+          "text": "An individual's biological physical endurance and stamina."
         },
         {
           "key": "B",
-          "text": "An individual's biological physical endurance and stamina."
+          "text": "Parental household income and parental educational attainment."
         },
         {
           "key": "C",
@@ -1185,7 +1185,7 @@
           "text": "A student's proficiency in playing classical musical instruments."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段指出大量统计表明标化成绩最密切关联的是家庭父母的收入和受教育水平，沦为代际特权的固化工具。",
       "points": 2,
       "sort_order": 37
@@ -1204,15 +1204,15 @@
         },
         {
           "key": "B",
-          "text": "By physically destroying public school textbooks in low-income towns."
-        },
-        {
-          "key": "C",
           "text": "By forbidding low-income students from entering university libraries."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "By requiring students to sign lifelong military service contracts."
+        },
+        {
+          "key": "D",
+          "text": "By physically destroying public school textbooks in low-income towns."
         }
       ],
       "correct_answer": "A",
@@ -1234,15 +1234,15 @@
         },
         {
           "key": "B",
-          "text": "Measuring applicants' physical height and athletic agility."
+          "text": "Selecting students through a completely random computer lottery."
         },
         {
           "key": "C",
-          "text": "Auctioning university seats to the highest cash bidder."
+          "text": "Measuring applicants' physical height and athletic agility."
         },
         {
           "key": "D",
-          "text": "Selecting students through a completely random computer lottery."
+          "text": "Auctioning university seats to the highest cash bidder."
         }
       ],
       "correct_answer": "A",
@@ -1264,15 +1264,15 @@
         },
         {
           "key": "B",
-          "text": "Lower all academic standards to zero across every department."
+          "text": "Ban all students from writing essays in English."
         },
         {
           "key": "C",
-          "text": "Abolish undergraduate bachelor degrees entirely."
+          "text": "Lower all academic standards to zero across every department."
         },
         {
           "key": "D",
-          "text": "Ban all students from writing essays in English."
+          "text": "Abolish undergraduate bachelor degrees entirely."
         }
       ],
       "correct_answer": "A",

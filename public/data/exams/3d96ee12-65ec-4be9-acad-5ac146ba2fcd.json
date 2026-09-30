@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "shift"
+          "text": "reluctance"
         },
         {
           "key": "B",
-          "text": "disaster"
+          "text": "shift"
         },
         {
           "key": "C",
-          "text": "betrayal"
+          "text": "disaster"
         },
         {
           "key": "D",
-          "text": "reluctance"
+          "text": "betrayal"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词辨析。emotional shift（情感转变），描述宠物狗从实用工作动物向亲密家庭成员的角色转变。",
       "points": 0.5,
       "sort_order": 1
@@ -120,22 +120,22 @@
       "options": [
         {
           "key": "A",
-          "text": "affection"
+          "text": "suspicion"
         },
         {
           "key": "B",
-          "text": "hostility"
-        },
-        {
-          "key": "C",
           "text": "jealousy"
         },
         {
+          "key": "C",
+          "text": "hostility"
+        },
+        {
           "key": "D",
-          "text": "suspicion"
+          "text": "affection"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。unconditional affection（无条件的关爱/温情），是宠物犬提供的情感价值。",
       "points": 0.5,
       "sort_order": 2
@@ -154,15 +154,15 @@
         },
         {
           "key": "B",
-          "text": "Commercial shopping malls selling high-end luxury fashion."
-        },
-        {
-          "key": "C",
           "text": "Automated warehouse facilities closed to all human visitors."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "Private subscription-only clubs for affluent academic researchers."
+        },
+        {
+          "key": "D",
+          "text": "Commercial shopping malls selling high-end luxury fashion."
         }
       ],
       "correct_answer": "A",
@@ -180,7 +180,7 @@
       "options": [
         {
           "key": "A",
-          "text": "allocate"
+          "text": "plunder"
         },
         {
           "key": "B",
@@ -188,14 +188,14 @@
         },
         {
           "key": "C",
-          "text": "withhold"
+          "text": "allocate"
         },
         {
           "key": "D",
-          "text": "plunder"
+          "text": "withhold"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】动词搭配。willingly allocate substantial portions of income（心甘情愿地分配大量可支配收入用于宠物消费）。",
       "points": 0.5,
       "sort_order": 3
@@ -210,7 +210,7 @@
       "options": [
         {
           "key": "A",
-          "text": "market"
+          "text": "monopoly"
         },
         {
           "key": "B",
@@ -218,14 +218,14 @@
         },
         {
           "key": "C",
-          "text": "scandal"
+          "text": "market"
         },
         {
           "key": "D",
-          "text": "monopoly"
+          "text": "scandal"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。multi-billion-dollar consumer market（价值数十亿美元的庞大消费市场）。",
       "points": 0.5,
       "sort_order": 4
@@ -244,15 +244,15 @@
         },
         {
           "key": "B",
-          "text": "penalties"
-        },
-        {
-          "key": "C",
           "text": "illusions"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "grievances"
+        },
+        {
+          "key": "D",
+          "text": "penalties"
         }
       ],
       "correct_answer": "A",
@@ -274,15 +274,15 @@
         },
         {
           "key": "B",
-          "text": "dismantles"
+          "text": "disregards"
         },
         {
           "key": "C",
-          "text": "poisons"
+          "text": "dismantles"
         },
         {
           "key": "D",
-          "text": "disregards"
+          "text": "poisons"
         }
       ],
       "correct_answer": "A",
@@ -300,11 +300,11 @@
       "options": [
         {
           "key": "A",
-          "text": "isolation"
+          "text": "luxury"
         },
         {
           "key": "B",
-          "text": "luxury"
+          "text": "victory"
         },
         {
           "key": "C",
@@ -312,10 +312,10 @@
         },
         {
           "key": "D",
-          "text": "victory"
+          "text": "isolation"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词辨析。前文有 isolated senior citizens，因此宠物是排解存在主义孤独与隔绝（existential isolation）的解药。",
       "points": 0.5,
       "sort_order": 7
@@ -330,7 +330,7 @@
       "options": [
         {
           "key": "A",
-          "text": "governance"
+          "text": "fiction"
         },
         {
           "key": "B",
@@ -338,14 +338,14 @@
         },
         {
           "key": "C",
-          "text": "fiction"
+          "text": "treachery"
         },
         {
           "key": "D",
-          "text": "treachery"
+          "text": "governance"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】名词搭配。friction into municipal governance（给现代城市治理带来尖锐摩擦）。",
       "points": 0.5,
       "sort_order": 8
@@ -360,11 +360,11 @@
       "options": [
         {
           "key": "A",
-          "text": "aggression"
+          "text": "politeness"
         },
         {
           "key": "B",
-          "text": "politeness"
+          "text": "aggression"
         },
         {
           "key": "C",
@@ -375,7 +375,7 @@
           "text": "generosity"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】名词与动物习性。territorial aggression（领地攻击性/防御吠叫），与吠叫、掉毛并列。",
       "points": 0.5,
       "sort_order": 9
@@ -420,22 +420,22 @@
       "options": [
         {
           "key": "A",
-          "text": "hazard"
-        },
-        {
-          "key": "B",
           "text": "triumph"
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "remedy"
+        },
+        {
+          "key": "C",
+          "text": "hazard"
         },
         {
           "key": "D",
           "text": "miracle"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。environmental and public health hazard（环境与公共卫生公害/隐患）。",
       "points": 0.5,
       "sort_order": 11
@@ -450,7 +450,7 @@
       "options": [
         {
           "key": "A",
-          "text": "waterways"
+          "text": "factories"
         },
         {
           "key": "B",
@@ -458,14 +458,14 @@
         },
         {
           "key": "C",
-          "text": "libraries"
+          "text": "waterways"
         },
         {
           "key": "D",
-          "text": "factories"
+          "text": "libraries"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。雨水冲刷下水道最终污染城市水系水体（urban waterways）。",
       "points": 0.5,
       "sort_order": 12
@@ -484,15 +484,15 @@
         },
         {
           "key": "B",
-          "text": "reward"
-        },
-        {
-          "key": "C",
           "text": "praise"
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "subsidize"
+        },
+        {
+          "key": "D",
+          "text": "reward"
         }
       ],
       "correct_answer": "A",
@@ -578,11 +578,11 @@
         },
         {
           "key": "C",
-          "text": "holiday"
+          "text": "luxury"
         },
         {
           "key": "D",
-          "text": "luxury"
+          "text": "holiday"
         }
       ],
       "correct_answer": "A",
@@ -604,15 +604,15 @@
         },
         {
           "key": "B",
-          "text": "sneering"
+          "text": "rebounding"
         },
         {
           "key": "C",
-          "text": "despairing"
+          "text": "sneering"
         },
         {
           "key": "D",
-          "text": "rebounding"
+          "text": "despairing"
         }
       ],
       "correct_answer": "A",
@@ -630,22 +630,22 @@
       "options": [
         {
           "key": "A",
-          "text": "parks"
+          "text": "cemeteries"
         },
         {
           "key": "B",
-          "text": "prisons"
-        },
-        {
-          "key": "C",
           "text": "factories"
         },
         {
+          "key": "C",
+          "text": "parks"
+        },
+        {
           "key": "D",
-          "text": "cemeteries"
+          "text": "prisons"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词搭配。dedicated, fenced dog parks（专用的有栅栏狗公园/活动乐园）。",
       "points": 0.5,
       "sort_order": 18
@@ -660,22 +660,22 @@
       "options": [
         {
           "key": "A",
-          "text": "whim"
-        },
-        {
-          "key": "B",
           "text": "wisdom"
         },
         {
+          "key": "B",
+          "text": "heroism"
+        },
+        {
           "key": "C",
-          "text": "justice"
+          "text": "whim"
         },
         {
           "key": "D",
-          "text": "heroism"
+          "text": "justice"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。以负责任的管理对待宠物，而非一时消费主义的冲动奇想（consumerist whim）。",
       "points": 0.5,
       "sort_order": 19
@@ -690,22 +690,22 @@
       "options": [
         {
           "key": "A",
-          "text": "alike"
-        },
-        {
-          "key": "B",
-          "text": "scarcely"
-        },
-        {
-          "key": "C",
           "text": "hostile"
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "opposed"
+        },
+        {
+          "key": "C",
+          "text": "alike"
+        },
+        {
+          "key": "D",
+          "text": "scarcely"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】副词修饰。for humans and their four-legged companions alike（对于人类和他们的四腿同伴二者而言皆如此）。",
       "points": 0.5,
       "sort_order": 20
@@ -728,11 +728,11 @@
         },
         {
           "key": "C",
-          "text": "Severe urban air pollution destroying all regional orchard yields."
+          "text": "Massive pay cuts imposed by supermarket retail syndicates."
         },
         {
           "key": "D",
-          "text": "Massive pay cuts imposed by supermarket retail syndicates."
+          "text": "Severe urban air pollution destroying all regional orchard yields."
         }
       ],
       "correct_answer": "A",
@@ -750,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Machine-vision cameras and gentle silicone grippers."
+          "text": "High-voltage electric fencing for bird deterrence."
         },
         {
           "key": "B",
@@ -758,14 +758,14 @@
         },
         {
           "key": "C",
-          "text": "High-voltage electric fencing for bird deterrence."
+          "text": "Underground hydraulic excavation drills."
         },
         {
           "key": "D",
-          "text": "Underground hydraulic excavation drills."
+          "text": "Machine-vision cameras and gentle silicone grippers."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第二段指出采摘机器人配备了多光谱机器视觉摄像头、机械臂和柔软的硅胶抓手（soft silicone grippers），以便轻柔采摘浆果。",
       "points": 2,
       "sort_order": 22
@@ -780,22 +780,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Biological foliage variation and changing light hinder optical sensors."
-        },
-        {
-          "key": "B",
-          "text": "Robotic batteries instantly explode when exposed to direct rainwater."
-        },
-        {
-          "key": "C",
           "text": "Human farm workers deliberately destroy the autonomous machines."
         },
         {
-          "key": "D",
+          "key": "B",
+          "text": "Biological foliage variation and changing light hinder optical sensors."
+        },
+        {
+          "key": "C",
           "text": "The machines can only operate in sub-zero winter temperatures."
+        },
+        {
+          "key": "D",
+          "text": "Robotic batteries instantly explode when exposed to direct rainwater."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】因果推断题。第三段指出户外农田具有生物不可预测性，浆果隐藏在茂密枝叶下，阳光炫光干扰传感器，且采摘速度远慢于熟练人工。",
       "points": 2,
       "sort_order": 23
@@ -810,22 +810,22 @@
       "options": [
         {
           "key": "A",
-          "text": "High machine costs are unjustifiable for short seasonal usage."
-        },
-        {
-          "key": "B",
           "text": "They prefer to let their agricultural produce rot in the ground."
         },
         {
+          "key": "B",
+          "text": "Supermarkets refuse to purchase fruit harvested by machines."
+        },
+        {
           "key": "C",
-          "text": "The British government has made robotic agriculture illegal."
+          "text": "High machine costs are unjustifiable for short seasonal usage."
         },
         {
           "key": "D",
-          "text": "Supermarkets refuse to purchase fruit harvested by machines."
+          "text": "The British government has made robotic agriculture illegal."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第四段指出单台设备成本超十万英镑，但采摘季结束后闲置九个月，微利的家庭农场根本无力承担昂贵资金成本。",
       "points": 2,
       "sort_order": 24
@@ -840,22 +840,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Adopting collaborative human-robot tools and reforming visa policies."
-        },
-        {
-          "key": "B",
           "text": "Completely abandoning all domestic soft fruit agriculture in Britain."
         },
         {
+          "key": "B",
+          "text": "Replacing all fruit plantations with industrial concrete factories."
+        },
+        {
           "key": "C",
-          "text": "Banning supermarkets from importing fresh fruit from overseas."
+          "text": "Adopting collaborative human-robot tools and reforming visa policies."
         },
         {
           "key": "D",
-          "text": "Replacing all fruit plantations with industrial concrete factories."
+          "text": "Banning supermarkets from importing fresh fruit from overseas."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】结论主旨题。末段指出短期过渡方案包括：人机协作共融机器人（cobots）、改革短期农业签证以引进外工，以及培育利于采摘的作物品种。",
       "points": 2,
       "sort_order": 25
@@ -870,22 +870,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They shed microplastics into aquifers and take centuries to degrade."
-        },
-        {
-          "key": "B",
           "text": "They spontaneously combust and ignite regional forest fires."
         },
         {
+          "key": "B",
+          "text": "They shed microplastics into aquifers and take centuries to degrade."
+        },
+        {
           "key": "C",
-          "text": "They attract dangerous invasive insect pests into cities."
+          "text": "They deplete the earth's natural reserves of crude petroleum."
         },
         {
           "key": "D",
-          "text": "They deplete the earth's natural reserves of crude petroleum."
+          "text": "They attract dangerous invasive insect pests into cities."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段末尾指出聚酯、尼龙等合成面料在填埋场中向地下水沥滤微塑料纤维，且降解需要数百年之久。",
       "points": 2,
       "sort_order": 26
@@ -900,22 +900,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Most modern clothes are complex blended fabrics that resist separation."
-        },
-        {
-          "key": "B",
           "text": "Chemical recycling solvents are illegal throughout Western Europe."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Consumers refuse to buy recycled garments under any circumstance."
+        },
+        {
+          "key": "C",
+          "text": "Most modern clothes are complex blended fabrics that resist separation."
         },
         {
           "key": "D",
           "text": "Pure cotton clothing generates toxic radiation when melted."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第二段指出核心技术障碍在于当代快时尚衣物几乎都是混纺织物（composite blends），在不破坏聚合物完整性的情况下拆解互织纤维极其困难。",
       "points": 2,
       "sort_order": 27
@@ -934,15 +934,15 @@
         },
         {
           "key": "B",
-          "text": "Transforming all plastic bottles into edible agricultural fertilizers."
+          "text": "Turning pure wool fibers into synthetic automobile tires."
         },
         {
           "key": "C",
-          "text": "Eliminating the need for washing machines in residential homes."
+          "text": "Transforming all plastic bottles into edible agricultural fertilizers."
         },
         {
           "key": "D",
-          "text": "Turning pure wool fibers into synthetic automobile tires."
+          "text": "Eliminating the need for washing machines in residential homes."
         }
       ],
       "correct_answer": "A",
@@ -960,22 +960,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Employing dissolvable threads and hardware that facilitate easy disassembly."
+          "text": "Selling garments on condition that buyers return them within 48 hours."
         },
         {
           "key": "B",
-          "text": "Stitching clothes exclusively in perfect circular patterns."
+          "text": "Employing dissolvable threads and hardware that facilitate easy disassembly."
         },
         {
           "key": "C",
-          "text": "Selling garments on condition that buyers return them within 48 hours."
+          "text": "Stitching clothes exclusively in perfect circular patterns."
         },
         {
           "key": "D",
           "text": "Refusing to use any natural cotton or linen in clothing production."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】细节理解题。第四段末句指出“循环设计”倡导在服装设计端采用微波可溶缝纫线、生物可降解木扣，便于废旧衣物自动化拆解回收。",
       "points": 2,
       "sort_order": 29
@@ -990,22 +990,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Make fashion companies financially responsible for garment waste disposal."
+          "text": "Force all retail stores to close on weekends to reduce shopping."
         },
         {
           "key": "B",
-          "text": "Ban all European citizens from purchasing imported American jeans."
-        },
-        {
-          "key": "C",
           "text": "Impose criminal penalties on consumers who discard worn-out socks."
         },
         {
+          "key": "C",
+          "text": "Ban all European citizens from purchasing imported American jeans."
+        },
+        {
           "key": "D",
-          "text": "Force all retail stores to close on weekends to reduce shopping."
+          "text": "Make fashion companies financially responsible for garment waste disposal."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】结论方案题。末段指出推行纺织品生产者责任延伸（EPR）立法的目的在于让快时尚巨头为每件服装支付强制性处理费，内部化废弃成本以激励耐久与循环。",
       "points": 2,
       "sort_order": 30
@@ -1020,7 +1020,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Uncover honest feedback regarding reasons for employee departure."
+          "text": "Calculate final severance payments and tax deductions."
         },
         {
           "key": "B",
@@ -1028,14 +1028,14 @@
         },
         {
           "key": "C",
-          "text": "Calculate final severance payments and tax deductions."
+          "text": "Gather commercial intelligence regarding competitor companies."
         },
         {
           "key": "D",
-          "text": "Gather commercial intelligence regarding competitor companies."
+          "text": "Uncover honest feedback regarding reasons for employee departure."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第一段指出离职面谈官方声称的目标是探寻促成人才流失的管理缺陷、薪酬抱怨和职场文化等客观真实原因（uncover unvarnished truth）。",
       "points": 2,
       "sort_order": 31
@@ -1050,22 +1050,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Fear damaging professional relationships and future job references."
-        },
-        {
-          "key": "B",
           "text": "Genuinely adore their direct supervisors and executive management."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "Receive monetary bonuses for giving exclusively positive responses."
+        },
+        {
+          "key": "C",
+          "text": "Fear damaging professional relationships and future job references."
         },
         {
           "key": "D",
           "text": "Are legally forbidden from discussing departmental workflows."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】因果推断题。第二段指出离职者害怕得罪人（burning bridges）影响业界口碑和未来背景调查推荐信，说真话对自己毫无好处，因而选择委婉托辞。",
       "points": 2,
       "sort_order": 32
@@ -1080,22 +1080,22 @@
       "options": [
         {
           "key": "A",
-          "text": "HR sanitizes complaints into bland summaries without manager accountability."
-        },
-        {
-          "key": "B",
-          "text": "Company servers automatically erase all survey responses after forty-eight hours."
-        },
-        {
-          "key": "C",
           "text": "Survey questions are written in obsolete classical Latin."
         },
         {
-          "key": "D",
+          "key": "B",
           "text": "Labor unions forbid human resources from reading employee feedback."
+        },
+        {
+          "key": "C",
+          "text": "HR sanitizes complaints into bland summaries without manager accountability."
+        },
+        {
+          "key": "D",
+          "text": "Company servers automatically erase all survey responses after forty-eight hours."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出人事部门将尖锐反馈冲淡过滤成毫无生气的泛化PPT分类，中高层管理者也从不因负面反馈承担实际问责。",
       "points": 2,
       "sort_order": 33
@@ -1110,22 +1110,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Former employees feel psychologically secure from retaliation."
-        },
-        {
-          "key": "B",
           "text": "The former employee has forgotten all previous workplace grievances."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "HR managers receive external government subsidies for late surveys."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "The company's legal liability for past harassment permanently expires."
+        },
+        {
+          "key": "D",
+          "text": "Former employees feel psychologically secure from retaliation."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。第四段指出离职一至三个月后前员工已在新公司立足，对报复的恐惧消退，更容易分享深刻建设性的客观洞察。",
       "points": 2,
       "sort_order": 34
@@ -1140,11 +1140,11 @@
       "options": [
         {
           "key": "A",
-          "text": "Proactively address employee frustrations before talent resigns."
+          "text": "Allow executives to spy on lower-level project team members."
         },
         {
           "key": "B",
-          "text": "Allow executives to spy on lower-level project team members."
+          "text": "Proactively address employee frustrations before talent resigns."
         },
         {
           "key": "C",
@@ -1155,7 +1155,7 @@
           "text": "Force workers to sign lifetime employment contracts."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】结论主旨题。末段指出推行“留任访谈（stay interviews）”的核心价值在于在员工递交辞呈前主动排查并化解工作痛点，防患于未然。",
       "points": 2,
       "sort_order": 35
@@ -1174,11 +1174,11 @@
         },
         {
           "key": "B",
-          "text": "Physical books have been declared legally hazardous to human health."
+          "text": "Municipal governments are legally required to privatize all public spaces."
         },
         {
           "key": "C",
-          "text": "Municipal governments are legally required to privatize all public spaces."
+          "text": "Physical books have been declared legally hazardous to human health."
         },
         {
           "key": "D",
@@ -1208,11 +1208,11 @@
         },
         {
           "key": "C",
-          "text": "Banning patrons from using any electronic devices inside reading rooms."
+          "text": "Distributing printed paper flyers to replace home computers."
         },
         {
           "key": "D",
-          "text": "Distributing printed paper flyers to replace home computers."
+          "text": "Banning patrons from using any electronic devices inside reading rooms."
         }
       ],
       "correct_answer": "A",
@@ -1230,22 +1230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Maker-spaces with 3D printers, recording studios, and coding workshops."
-        },
-        {
-          "key": "B",
           "text": "Commercial gambling parlors and fast-food drive-throughs."
         },
         {
+          "key": "B",
+          "text": "Maker-spaces with 3D printers, recording studios, and coding workshops."
+        },
+        {
           "key": "C",
-          "text": "Heavy industrial assembly lines for manufacturing automobiles."
+          "text": "High-security corporate banking vaults for sovereign wealth funds."
         },
         {
           "key": "D",
-          "text": "High-security corporate banking vaults for sovereign wealth funds."
+          "text": "Heavy industrial assembly lines for manufacturing automobiles."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第四段指出图书馆空间发生了深刻变革，增设了创客空间（maker-spaces）、3D打印机、播客录音棚和编程工作坊。",
       "points": 2,
       "sort_order": 39
@@ -1260,22 +1260,22 @@
       "options": [
         {
           "key": "A",
-          "text": "They are non-commercial civic sanctuaries open to all without financial cost."
-        },
-        {
-          "key": "B",
           "text": "They generate more municipal tax profit than commercial shopping centers."
         },
         {
-          "key": "C",
+          "key": "B",
           "text": "They require patrons to prove their net worth before entering reading rooms."
         },
         {
-          "key": "D",
+          "key": "C",
           "text": "They are the only buildings in metropolitan centers with air conditioning."
+        },
+        {
+          "key": "D",
+          "text": "They are non-commercial civic sanctuaries open to all without financial cost."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "【考点精析】主旨态度题。末段强调在凡事讲钱的商业化城市中，公共图书馆是绝无仅有的非商业平等公共庇护所（non-commercial sanctuaries），无需消费即可体面栖居。",
       "points": 2,
       "sort_order": 40
