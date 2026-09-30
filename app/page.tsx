@@ -13,15 +13,23 @@ import {
   HelpCircle, 
   Printer,
   RefreshCw,
-  Sparkles
+  Sparkles,
+  Search,
+  ChevronLeft,
+  ChevronRight,
+  X
 } from "lucide-react";
 
 export default function HomePage() {
   const [exams, setExams] = useState<any[]>([]);
   const [categories, setCategories] = useState<any[]>([]);
   const [activeCat, setActiveCat] = useState<string>("all");
+  const [searchQuery, setSearchQuery] = useState<string>("");
+  const [currentPage, setCurrentPage] = useState<number>(1);
   const [loading, setLoading] = useState(true);
   const [localState, setLocalState] = useState<LocalLearningState | null>(null);
+
+  const PAGE_SIZE = 8;
 
   const loadData = async () => {
     setLoading(true);
@@ -59,9 +67,35 @@ export default function HomePage() {
     await loadData();
   };
 
-  const filteredExams = activeCat === "all" 
-    ? exams 
-    : exams.filter((e) => e.category_id === activeCat);
+  const handleCatChange = (catId: string) => {
+    setActiveCat(catId);
+    setCurrentPage(1);
+  };
+
+  const handleSearchChange = (query: string) => {
+    setSearchQuery(query);
+    setCurrentPage(1);
+  };
+
+  const filteredExams = exams.filter((e) => {
+    const matchCat = activeCat === "all" || e.category_id === activeCat;
+    if (!matchCat) return false;
+    if (!searchQuery.trim()) return true;
+    const q = searchQuery.trim().toLowerCase();
+    const title = (e.title || "").toLowerCase();
+    const year = String(e.year || "");
+    const cat = (e.category_id || "").toLowerCase();
+    return title.includes(q) || year.includes(q) || cat.includes(q);
+  });
+
+  const totalPages = Math.max(1, Math.ceil(filteredExams.length / PAGE_SIZE));
+  const pagedExams = filteredExams.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+  const handlePageChange = (newPage: number) => {
+    const safePage = Math.max(1, Math.min(totalPages, newPage));
+    setCurrentPage(safePage);
+    document.getElementById("exam-list-top")?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <div className="space-y-8 animate-in fade-in duration-200">
@@ -113,7 +147,7 @@ export default function HomePage() {
       <div className="flex items-center justify-between gap-3 border-b border-black/[0.06] dark:border-cyan-500/15 pb-2.5">
         <div className="flex items-center space-x-1.5 overflow-x-auto pb-0.5">
           <button
-            onClick={() => setActiveCat("all")}
+            onClick={() => handleCatChange("all")}
             className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 ${
               activeCat === "all"
                 ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] shadow-subtle dark:shadow-glow-cyan"
@@ -125,7 +159,7 @@ export default function HomePage() {
           {categories.map((cat) => (
             <button
               key={cat.id}
-              onClick={() => setActiveCat(cat.id)}
+              onClick={() => handleCatChange(cat.id)}
               className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-150 ${
                 activeCat === cat.id
                   ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] shadow-subtle dark:shadow-glow-cyan"
@@ -149,6 +183,45 @@ export default function HomePage() {
         </button>
       </div>
 
+      {/* Keyword Search Bar & Filter Stats */}
+      <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-stone-50/70 dark:bg-zinc-900/50 p-2.5 rounded-2xl border border-black/[0.04] dark:border-cyan-500/15">
+        <div className="relative flex-1">
+          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-stone-400 dark:text-zinc-500" />
+          <input
+            type="text"
+            value={searchQuery}
+            onChange={(e) => handleSearchChange(e.target.value)}
+            placeholder="搜索真题关键词（如：2024、英语一、英语二、六级、阅读、完形...）"
+            className="w-full pl-10 pr-9 py-2 text-xs rounded-xl bg-white dark:bg-[#11131a] border border-black/[0.06] dark:border-cyan-500/25 text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-600/30 dark:focus:ring-cyber-400/40 shadow-subtle"
+          />
+          {searchQuery && (
+            <button
+              onClick={() => handleSearchChange("")}
+              className="absolute right-3 top-1/2 -translate-y-1/2 p-0.5 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200 rounded-full"
+              title="清除搜索关键字"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          )}
+        </div>
+
+        <div className="flex items-center justify-between sm:justify-end space-x-2 text-xs text-stone-500 dark:text-zinc-400 px-1">
+          <span className="font-medium font-mono">
+            共找到 <strong className="text-emerald-700 dark:text-cyber-300 font-bold">{filteredExams.length}</strong> 套真题
+          </span>
+          {searchQuery && (
+            <button
+              onClick={() => handleSearchChange("")}
+              className="text-[11px] px-2 py-0.5 rounded-md bg-stone-200/80 dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 hover:bg-stone-300 transition-colors"
+            >
+              清空搜索
+            </button>
+          )}
+        </div>
+      </div>
+
+      <div id="exam-list-top" className="scroll-mt-24" />
+
       {/* Exam Cards Grid */}
       {loading ? (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
@@ -159,12 +232,16 @@ export default function HomePage() {
       ) : filteredExams.length === 0 ? (
         <div className="text-center py-20 bg-white dark:bg-[#11131a] rounded-2xl border border-dashed border-stone-200 dark:border-zinc-800">
           <BookOpen className="w-10 h-10 text-stone-300 dark:text-zinc-700 mx-auto mb-2.5" />
-          <p className="text-stone-700 dark:text-zinc-300 font-semibold text-sm">当前分类暂无发布的真题卷</p>
-          <p className="text-xs text-stone-400 dark:text-zinc-500 mt-1">管理员在后台导入并审核上架后即可在此研习</p>
+          <p className="text-stone-700 dark:text-zinc-300 font-semibold text-sm">
+            {searchQuery ? `未找到包含 "${searchQuery}" 的真题卷` : "当前分类暂无发布的真题卷"}
+          </p>
+          <p className="text-xs text-stone-400 dark:text-zinc-500 mt-1">
+            {searchQuery ? "请尝试其他关键字（如年份 2024、2023 或科目 CET-4、KY-1）" : "管理员在后台导入并审核上架后即可在此研习"}
+          </p>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {filteredExams.map((exam) => {
+          {pagedExams.map((exam) => {
             const pastResult = localState?.examResults?.[exam.id];
             const draft = localState?.examDrafts?.[exam.id];
             const qCount = exam.questions?.[0]?.count || 0;
@@ -247,6 +324,70 @@ export default function HomePage() {
               </div>
             );
           })}
+        </div>
+      )}
+
+      {/* Pagination Controls */}
+      {filteredExams.length > PAGE_SIZE && (
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-black/[0.06] dark:border-cyan-500/15">
+          <div className="text-xs text-stone-400 dark:text-zinc-500 font-mono">
+            第 {currentPage} / {totalPages} 页 · 每页 {PAGE_SIZE} 套 · 共 {filteredExams.length} 套试卷
+          </div>
+
+          <div className="flex items-center space-x-1.5">
+            <button
+              onClick={() => handlePageChange(currentPage - 1)}
+              disabled={currentPage <= 1}
+              className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#11131a] hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none text-xs font-semibold text-stone-700 dark:text-zinc-300 flex items-center space-x-1 shadow-subtle active:scale-[0.98] transition-all"
+            >
+              <ChevronLeft className="w-3.5 h-3.5" />
+              <span>上一页</span>
+            </button>
+
+            <div className="flex items-center space-x-1">
+              {Array.from({ length: totalPages }, (_, i) => i + 1)
+                .filter((p) => p === 1 || p === totalPages || Math.abs(p - currentPage) <= 1)
+                .reduce<number[]>((acc, p) => {
+                  if (acc.length > 0 && p - acc[acc.length - 1] > 1) {
+                    acc.push(-1);
+                  }
+                  acc.push(p);
+                  return acc;
+                }, [])
+                .map((p, idx) => {
+                  if (p === -1) {
+                    return (
+                      <span key={`dots-${idx}`} className="px-1 text-xs text-stone-400 dark:text-zinc-600">
+                        ...
+                      </span>
+                    );
+                  }
+                  const isActive = p === currentPage;
+                  return (
+                    <button
+                      key={p}
+                      onClick={() => handlePageChange(p)}
+                      className={`w-8 h-8 rounded-xl text-xs font-bold font-mono transition-all active:scale-95 ${
+                        isActive
+                          ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] shadow-subtle dark:shadow-glow-cyan"
+                          : "bg-white dark:bg-[#11131a] border border-black/[0.06] dark:border-cyan-500/20 text-stone-600 dark:text-zinc-400 hover:bg-stone-50 dark:hover:bg-zinc-800 shadow-subtle"
+                      }`}
+                    >
+                      {p}
+                    </button>
+                  );
+                })}
+            </div>
+
+            <button
+              onClick={() => handlePageChange(currentPage + 1)}
+              disabled={currentPage >= totalPages}
+              className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#11131a] hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none text-xs font-semibold text-stone-700 dark:text-zinc-300 flex items-center space-x-1 shadow-subtle active:scale-[0.98] transition-all"
+            >
+              <span>下一页</span>
+              <ChevronRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
         </div>
       )}
     </div>
