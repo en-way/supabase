@@ -1,77 +1,5 @@
 [
   {
-    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
-    "category_id": "ky2",
-    "title": "2024年 考研英语(二) 真题",
-    "year": 2024,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:01.089647+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "7e12d65f-11b0-4c06-8d0b-fd86eaf93051",
-    "category_id": "cet4",
-    "title": "2024年6月 CET-4 真题 (第1套)",
-    "year": 2024,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:46.779754+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "d7406e8f-aa60-48e2-b493-0ab317d2b5c1",
-    "category_id": "cet6",
-    "title": "2024年6月 CET-6 真题 (第1套)",
-    "year": 2024,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:12.060822+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
     "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
     "category_id": "ky1",
     "title": "2024年 考研英语(一) 真题",
@@ -96,138 +24,524 @@
     ]
   },
   {
-    "id": "a414027b-b654-4105-b904-209722cbf8c6",
-    "category_id": "cet4",
-    "title": "2023年6月 CET-4 真题 (第1套)",
-    "year": 2023,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:43.795266+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "e036d81e-44ec-400b-b4ef-e15b1dc4e2e2",
-    "category_id": "ky2",
-    "title": "2023年 考研英语(二) 真题",
-    "year": 2023,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:04.900215+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "08ea2b79-a7c1-4c5b-a32d-201b4e0f7ff4",
-    "category_id": "cet6",
-    "title": "2023年6月 CET-6 真题 (第1套)",
-    "year": 2023,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:09.515911+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "ebde6f26-8ccc-4fbb-b4c5-46c862a3295e",
+    "id": "6d676d85-a38a-5fe4-9506-31de03b648b6",
     "category_id": "ky1",
-    "title": "2023年 考研英语(一) 真题",
-    "year": 2023,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:02.677051+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "41a8e42e-f05e-425f-8415-ec1fee19175b",
-    "category_id": "cet4",
-    "title": "2022年6月 CET-4 真题 (第1套)",
+    "title": "2022年 全国硕士研究生招生考试 英语（一）全卷",
     "year": 2022,
     "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-20T13:28:41.262349+00:00",
     "approval_status": "approved",
-    "created_by": null,
     "questions": [
       {
-        "count": 30
+        "count": 45
       }
     ],
     "passages": [
       {
-        "count": 4
+        "count": 6
       }
     ]
   },
   {
-    "id": "65f0db7a-ec3c-4b39-9d47-209bcb5ce56c",
+    "id": "e7dfeb60-9e71-5912-8e2c-0828e345b98c",
     "category_id": "ky1",
-    "title": "2022年 考研英语(一) 真题",
+    "title": "2021年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2021,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
+    "category_id": "ky1",
+    "title": "2020年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2020,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
+    "category_id": "ky1",
+    "title": "2019年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2019,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
+    "category_id": "ky1",
+    "title": "2018年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2018,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "4fd42872-4822-5786-8d16-0317051bf03d",
+    "category_id": "ky1",
+    "title": "2017年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2017,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "666cdb4e-7fd3-53c2-8c91-a12fa3160c09",
+    "category_id": "ky1",
+    "title": "2016年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2016,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "865e5af8-24a4-58e1-bc9e-640f32d8e946",
+    "category_id": "ky1",
+    "title": "2015年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2015,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "240cc48a-439b-5d27-8464-f7dc53e060dc",
+    "category_id": "ky1",
+    "title": "2014年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2014,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+    "category_id": "ky1",
+    "title": "2013年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2013,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
+    "category_id": "ky1",
+    "title": "2012年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2012,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "111d6c78-81a1-53dc-a039-dad4c94ebd35",
+    "category_id": "ky1",
+    "title": "2011年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2011,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e5abf09b-e94d-5994-b944-7c5711cd4e4d",
+    "category_id": "ky1",
+    "title": "2010年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2010,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "9369aa41-c91e-548c-bf99-1ad46a07ac25",
+    "category_id": "ky1",
+    "title": "2009年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2009,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "d80926ab-1841-5d1f-a999-56773986c46d",
+    "category_id": "ky1",
+    "title": "2008年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2008,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e560bab8-4d9a-5149-a93f-1ee1d7bf4225",
+    "category_id": "ky1",
+    "title": "2007年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2007,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "c6e9dbac-6148-532e-90d2-2a8d3682a6ac",
+    "category_id": "ky1",
+    "title": "2006年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2006,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "d8ba7d14-5305-538d-b81b-f0f7ef3db461",
+    "category_id": "ky1",
+    "title": "2005年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2005,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+    "category_id": "ky1",
+    "title": "2004年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2004,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "91ff038a-e3f9-5b6d-82c5-1328735be1d1",
+    "category_id": "ky1",
+    "title": "2003年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2003,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "e1b9d134-9546-55ab-9a60-c7e5b04046a3",
+    "category_id": "ky1",
+    "title": "2002年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2002,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "2c892204-071f-5943-86be-d49bca93fe71",
+    "category_id": "ky1",
+    "title": "2001年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2001,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+    "category_id": "ky2",
+    "title": "2024年 考研英语(二) 真题",
+    "year": 2024,
+    "exam_type": "real",
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-09-19T16:09:01.089647+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "cc4bf627-e456-538f-87e2-4a99ebb613ed",
+    "category_id": "ky2",
+    "title": "2022年 全国硕士研究生招生考试 英语（二）全卷",
     "year": 2022,
     "exam_type": "real",
-    "duration_minutes": 75,
+    "duration_minutes": 180,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-19T16:09:06.453956+00:00",
     "approval_status": "approved",
-    "created_by": null,
     "questions": [
       {
         "count": 45
@@ -240,66 +554,16 @@
     ]
   },
   {
-    "id": "463e275f-a40f-4478-b6e6-2badaf49ef92",
+    "id": "4ebd819e-c832-5890-9048-ba16040a5607",
     "category_id": "ky2",
-    "title": "2022年 考研英语(二) 真题",
-    "year": 2022,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:08.21021+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "1d42e1b6-d1cb-453c-a1dc-050faa8c1f57",
-    "category_id": "cet6",
-    "title": "2022年6月 CET-6 真题 (第1套)",
-    "year": 2022,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:07.041706+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "3d96ee12-65ec-4be9-acad-5ac146ba2fcd",
-    "category_id": "ky2",
-    "title": "2021年 考研英语(二) 真题",
+    "title": "2021年 全国硕士研究生招生考试 英语（二）全卷",
     "year": 2021,
     "exam_type": "real",
-    "duration_minutes": 75,
+    "duration_minutes": 180,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-19T16:09:12.391809+00:00",
     "approval_status": "approved",
-    "created_by": null,
     "questions": [
       {
         "count": 45
@@ -308,1134 +572,6 @@
     "passages": [
       {
         "count": 6
-      }
-    ]
-  },
-  {
-    "id": "4bdc2e9a-7b8a-4e50-b589-1350c9c01862",
-    "category_id": "cet4",
-    "title": "2021年6月 CET-4 真题 (第1套)",
-    "year": 2021,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:38.362414+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "483805a0-37df-418d-88ac-81687906c867",
-    "category_id": "cet6",
-    "title": "2021年6月 CET-6 真题 (第1套)",
-    "year": 2021,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:04.555207+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "53e4698e-077b-4bed-bc19-4527287cd904",
-    "category_id": "ky1",
-    "title": "2021年 考研英语(一) 真题",
-    "year": 2021,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:10.180709+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "fb17ef2c-217f-4ba5-959f-7cfa93e04acb",
-    "category_id": "ky2",
-    "title": "2020年 考研英语(二) 真题",
-    "year": 2020,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:16.212544+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "cc7652ea-05b9-4add-81bb-e57cb8a9811a",
-    "category_id": "ky1",
-    "title": "2020年 考研英语(一) 真题",
-    "year": 2020,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:14.591246+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "e628426c-f4de-46c2-86be-9e3e7864e85c",
-    "category_id": "cet4",
-    "title": "2020年6月 CET-4 真题 (第1套)",
-    "year": 2020,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:35.818977+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "e2bb9d5d-c092-4b1a-bcdc-7e0643fbfbb0",
-    "category_id": "cet6",
-    "title": "2020年6月 CET-6 真题 (第1套)",
-    "year": 2020,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:29:02.111942+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "89b77a1d-2e2b-451c-982b-1d202e596d00",
-    "category_id": "ky2",
-    "title": "2019年 考研英语(二) 真题",
-    "year": 2019,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:37:25.221046+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "56a972bb-df04-43a3-8dd9-3468abdf4e26",
-    "category_id": "cet6",
-    "title": "2019年6月 CET-6 真题 (第1套)",
-    "year": 2019,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:59.653363+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "bda9f6c8-7e3c-4915-8a2d-942357e75c04",
-    "category_id": "cet4",
-    "title": "2019年6月 CET-4 真题 (第1套)",
-    "year": 2019,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:33.364481+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "b7737146-c5f6-4a12-a324-54d714cf073f",
-    "category_id": "ky1",
-    "title": "2019年 考研英语(一) 真题",
-    "year": 2019,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:18.189144+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "54b7d1eb-25cb-443c-ba21-30c7d6923ba7",
-    "category_id": "cet6",
-    "title": "2018年6月 CET-6 真题 (第1套)",
-    "year": 2018,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:57.148765+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "14b27d57-7831-4c53-844f-dfa37612efa5",
-    "category_id": "ky1",
-    "title": "2018年 考研英语(一) 真题",
-    "year": 2018,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:37:29.707602+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "85195e05-5454-4656-9446-fe8e1c3c5255",
-    "category_id": "cet4",
-    "title": "2018年6月 CET-4 真题 (第1套)",
-    "year": 2018,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:30.699936+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "5f7ef362-93cd-46ab-8e84-89ab50af4c6e",
-    "category_id": "ky2",
-    "title": "2018年 考研英语(二) 真题",
-    "year": 2018,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:37:34.716477+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "395b43b5-8fb7-47b1-a198-9f618c1f03dc",
-    "category_id": "ky2",
-    "title": "2017年 考研英语(二) 真题",
-    "year": 2017,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:37:41.517069+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "4fd083b3-d09b-4fee-8937-a1a391696e30",
-    "category_id": "cet6",
-    "title": "2017年6月 CET-6 真题 (第1套)",
-    "year": 2017,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:54.215797+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "d869068a-1966-4d09-a7c1-5f355d0f6308",
-    "category_id": "cet4",
-    "title": "2017年6月 CET-4 真题 (第1套)",
-    "year": 2017,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:28.21981+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "f66cc1f8-19ff-4f53-b933-1c04e2e17427",
-    "category_id": "ky1",
-    "title": "2017年 考研英语(一) 真题",
-    "year": 2017,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:19.948146+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "75eb9529-4bd4-431e-919c-bcf480e9e79a",
-    "category_id": "ky2",
-    "title": "2016年 考研英语(二) 真题",
-    "year": 2016,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:44:00.676689+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "4d0cffbf-7959-472e-bd26-e882c6b28d81",
-    "category_id": "cet4",
-    "title": "2016年6月 CET-4 真题 (第1套)",
-    "year": 2016,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:25.606263+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "e5a6dff8-c1bb-4681-8293-c57020019a8d",
-    "category_id": "ky1",
-    "title": "2016年 考研英语(一) 真题",
-    "year": 2016,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:21.553579+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "71c80954-7716-454c-b944-490d1113c309",
-    "category_id": "cet6",
-    "title": "2016年6月 CET-6 真题 (第1套)",
-    "year": 2016,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:51.754998+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "cdc304be-36e2-4893-a0ca-5015b779bb1a",
-    "category_id": "cet6",
-    "title": "2015年6月 CET-6 真题 (第1套)",
-    "year": 2015,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:49.229508+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "736e4fec-491d-4b4a-af59-15b51399a946",
-    "category_id": "ky2",
-    "title": "2015年 考研英语(二) 真题",
-    "year": 2015,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:44:08.136906+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "8f296d02-99ab-4bd5-b1b6-3d9bee106914",
-    "category_id": "cet4",
-    "title": "2015年6月 CET-4 真题 (第1套)",
-    "year": 2015,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-20T13:28:22.81373+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "490027d5-103d-4eea-8d71-e1b569e054d2",
-    "category_id": "ky1",
-    "title": "2015年 考研英语(一) 真题",
-    "year": 2015,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:23.987292+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "b8f2d16e-7a68-4557-b1c5-d82c6676fa96",
-    "category_id": "ky1",
-    "title": "2014年 考研英语(一) 真题",
-    "year": 2014,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:02:58.151427+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "9ddb912b-e23a-4024-96c9-3d1fca4bc113",
-    "category_id": "ky2",
-    "title": "2014年 考研英语(二) 真题",
-    "year": 2014,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:27.729208+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "bc431906-20f8-4a75-861f-590f76ada907",
-    "category_id": "cet4",
-    "title": "2014年6月 CET-4 真题 (第1套)",
-    "year": 2014,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:50.258569+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "f010f8cc-c85b-4f62-b37b-fa67d9761ade",
-    "category_id": "cet6",
-    "title": "2014年6月 CET-6 真题 (第1套)",
-    "year": 2014,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:04:11.259364+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "7e494e76-89ca-4f5c-a136-8fe77e0f8e11",
-    "category_id": "ky1",
-    "title": "2013年 考研英语(一) 真题",
-    "year": 2013,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:02:52.405072+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "0549d29b-a169-4dd7-9f0a-685d5654b98c",
-    "category_id": "cet6",
-    "title": "2013年6月 CET-6 真题 (第1套)",
-    "year": 2013,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:04:07.065297+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "f807367e-4afa-4ab8-8b61-06647292a8a5",
-    "category_id": "ky2",
-    "title": "2013年 考研英语(二) 真题",
-    "year": 2013,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:21.782684+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "9e06acad-9711-484d-b1e2-04847030a176",
-    "category_id": "cet4",
-    "title": "2013年6月 CET-4 真题 (第1套)",
-    "year": 2013,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:46.082521+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "2e9684bc-62b3-4697-bb72-a9cb70e1e421",
-    "category_id": "ky2",
-    "title": "2012年 考研英语(二) 真题",
-    "year": 2012,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:15.859048+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "147dabea-0bf4-4dd2-8dc6-ef27ee237755",
-    "category_id": "ky1",
-    "title": "2012年 考研英语(一) 真题",
-    "year": 2012,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:02:46.357482+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "9eae701c-7a73-4b8a-8fac-067257837c97",
-    "category_id": "cet4",
-    "title": "2012年6月 CET-4 真题 (第1套)",
-    "year": 2012,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:41.870616+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "c9230e4a-d57f-4e41-8b74-f2103fe2fd2f",
-    "category_id": "cet6",
-    "title": "2012年6月 CET-6 真题 (第1套)",
-    "year": 2012,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:04:02.871174+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "bac76c80-b663-4b81-937d-ca9253e73822",
-    "category_id": "ky2",
-    "title": "2011年 考研英语(二) 真题",
-    "year": 2011,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:09.701758+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "698dd9fc-d3c7-4b45-86ee-dff9c8f4cc80",
-    "category_id": "ky1",
-    "title": "2011年 考研英语(一) 真题",
-    "year": 2011,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:02:40.646932+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "d66112ef-b3b3-4402-a20c-8401fa437dfc",
-    "category_id": "cet6",
-    "title": "2011年6月 CET-6 真题 (第1套)",
-    "year": 2011,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:58.679984+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "90074bca-04f4-4878-b494-4d2fb82372ee",
-    "category_id": "cet4",
-    "title": "2011年6月 CET-4 真题 (第1套)",
-    "year": 2011,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:37.782089+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "62b4dd84-9e84-40f0-bf4e-6f65609b69e1",
-    "category_id": "ky1",
-    "title": "2010年 考研英语(一) 真题",
-    "year": 2010,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:02:33.701694+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "2afe64b2-6b52-40e8-a9cf-0c906eaadde0",
-    "category_id": "ky2",
-    "title": "2010年 考研英语(二) 真题",
-    "year": 2010,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:03.967921+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "1921caa9-d44f-49e3-9d3e-7b9248e9930a",
-    "category_id": "cet4",
-    "title": "2010年6月 CET-4 真题 (第1套)",
-    "year": 2010,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:33.6775+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
-      }
-    ]
-  },
-  {
-    "id": "b7f61bf9-cbb1-4fce-8772-b894aba048b0",
-    "category_id": "cet6",
-    "title": "2010年6月 CET-6 真题 (第1套)",
-    "year": 2010,
-    "exam_type": "real",
-    "duration_minutes": 60,
-    "total_score": 100,
-    "pass_score": 60,
-    "is_published": true,
-    "created_at": "2026-09-21T02:03:54.406734+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 30
-      }
-    ],
-    "passages": [
-      {
-        "count": 4
       }
     ]
   }

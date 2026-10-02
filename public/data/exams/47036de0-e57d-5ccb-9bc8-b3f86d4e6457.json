@@ -1,0 +1,1274 @@
+{
+  "exam": {
+    "id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+    "category_id": "ky1",
+    "title": "2004年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2004,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "category_id": "ky1",
+      "title": "Section I: Use of English (完形填空 第 1-20 题)",
+      "section_type": "cloze",
+      "content": "Passage text is provided in the official examination booklet.",
+      "sort_order": 1
+    },
+    {
+      "id": "57971afc-9129-55e9-b22e-fd98fdae267e",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "category_id": "ky1",
+      "title": "Section II: Reading Comprehension Part A (Text 1 第 21-25 题)",
+      "section_type": "reading",
+      "content": "B",
+      "sort_order": 2
+    },
+    {
+      "id": "70cbad07-a70f-5a06-83ad-7c31b09398b3",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "category_id": "ky1",
+      "title": "Section II: Reading Comprehension Part A (Text 2 第 26-30 题)",
+      "section_type": "reading",
+      "content": "Passage text is provided in the official examination booklet.",
+      "sort_order": 3
+    },
+    {
+      "id": "543ff84f-2399-5fe5-acfe-8388547fb57d",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "category_id": "ky1",
+      "title": "Section II: Reading Comprehension Part A (Text 3 第 31-35 题)",
+      "section_type": "reading",
+      "content": "Passage text is provided in the official examination booklet.",
+      "sort_order": 4
+    },
+    {
+      "id": "b1a7c543-3c20-5f0a-8efa-ee954df1c075",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "category_id": "ky1",
+      "title": "Section II: Reading Comprehension Part A (Text 4 第 36-40 题)",
+      "section_type": "reading",
+      "content": "Passage text is provided in the official examination booklet.",
+      "sort_order": 5
+    }
+  ],
+  "questions": [
+    {
+      "id": "c841331b-30f9-5253-be66-1a0e1cc1d8ac",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 1,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (1) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 1 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "421c5ec3-d8c5-5227-acff-5c7186d63bbb",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 2,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (2) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 2 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "97fbddcb-801a-574e-8bd3-a706c89b7c5f",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 3,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (3) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 3 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "9d2b17b7-f846-5765-98cb-697e60198f71",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 4,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (4) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 4 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "e23d33fe-4ff4-579d-b416-b8d9e77af0d8",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 5,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (5) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 5 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "1b36a08e-ecea-5146-8660-1077a687146d",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 6,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (6) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 6 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "1a7596d9-8057-5756-a6f9-16e09b9b6fb6",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 7,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (7) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 7 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "97d6317c-ab42-5d29-8191-d422b423bd53",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 8,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (8) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 8 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "52feb4b7-cab3-546c-8598-ef6450b581ae",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 9,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (9) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 9 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "37f83188-4717-5e1a-8fc7-fa27b66181b2",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 10,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (10) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 10 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "bfab560e-2187-5601-a51d-1da25a058278",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 11,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (11) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 11 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "77727309-2a2a-51da-95c4-0a86a85ed0c0",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 12,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (12) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 12 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "e9ff6417-cc24-5172-a5bd-8bf8c7dd8292",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 13,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (13) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 13 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "79d0d32f-f197-5cab-9f0d-5978861aa576",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 14,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (14) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 14 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "e9774cdd-fec0-50e4-b70b-989b556d5c3c",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 15,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (15) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 15 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "34574a6f-9e55-57b3-83bf-0c5a204be93f",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 16,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (16) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 16 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "3b34f1e4-5f62-5453-a5cf-bd597a40b464",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 17,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (17) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 17 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "56897601-0f8e-5646-9059-c9be6c29b5fe",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 18,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (18) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 18 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "992a0690-5595-505b-865a-78b715c00ce4",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 19,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (19) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 19 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "1c4f1878-8513-54cc-806b-c9f14c4049d5",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "sort_order": 20,
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank (20) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 20 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 0.5
+    },
+    {
+      "id": "96275370-643c-57ec-8f96-da55b3f884d5",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "57971afc-9129-55e9-b22e-fd98fdae267e",
+      "category_id": "ky1",
+      "sort_order": 21,
+      "q_type": "reading_item",
+      "stem": "Question 21",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 21 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "5374c739-1095-526d-b987-5b8161b640d2",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "57971afc-9129-55e9-b22e-fd98fdae267e",
+      "category_id": "ky1",
+      "sort_order": 22,
+      "q_type": "reading_item",
+      "stem": "Question 22",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 22 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "2579888c-c4c8-5811-a3c7-1ed267fc6170",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "57971afc-9129-55e9-b22e-fd98fdae267e",
+      "category_id": "ky1",
+      "sort_order": 23,
+      "q_type": "reading_item",
+      "stem": "Question 23",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 23 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "d2a34693-d136-563b-812b-8a36642fb9c4",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "57971afc-9129-55e9-b22e-fd98fdae267e",
+      "category_id": "ky1",
+      "sort_order": 24,
+      "q_type": "reading_item",
+      "stem": "Question 24",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 24 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "96742d57-35cb-5a24-a62f-d8d0ac4d9991",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "57971afc-9129-55e9-b22e-fd98fdae267e",
+      "category_id": "ky1",
+      "sort_order": 25,
+      "q_type": "reading_item",
+      "stem": "Question 25",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 25 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "9169eaa7-b88e-50e1-b78d-4da56f894b28",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "70cbad07-a70f-5a06-83ad-7c31b09398b3",
+      "category_id": "ky1",
+      "sort_order": 26,
+      "q_type": "reading_item",
+      "stem": "Question 26",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 26 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "a77d0505-40c1-597f-8468-dd4e28cde466",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "70cbad07-a70f-5a06-83ad-7c31b09398b3",
+      "category_id": "ky1",
+      "sort_order": 27,
+      "q_type": "reading_item",
+      "stem": "Question 27",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 27 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "ae9e900c-0c20-5b3f-9b66-336380f76ac2",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "70cbad07-a70f-5a06-83ad-7c31b09398b3",
+      "category_id": "ky1",
+      "sort_order": 28,
+      "q_type": "reading_item",
+      "stem": "Question 28",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 28 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "f7ad78f7-aee1-5d94-ae1a-3fb803be72c4",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "70cbad07-a70f-5a06-83ad-7c31b09398b3",
+      "category_id": "ky1",
+      "sort_order": 29,
+      "q_type": "reading_item",
+      "stem": "Question 29",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 29 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "0b5aba23-ff97-5eea-8c58-b85e2393a7ee",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "70cbad07-a70f-5a06-83ad-7c31b09398b3",
+      "category_id": "ky1",
+      "sort_order": 30,
+      "q_type": "reading_item",
+      "stem": "Question 30",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 30 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "8ae79ee8-871c-587d-bf94-ef6d7093c69e",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "543ff84f-2399-5fe5-acfe-8388547fb57d",
+      "category_id": "ky1",
+      "sort_order": 31,
+      "q_type": "reading_item",
+      "stem": "Question 31",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 31 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "5a36d105-1b62-5efc-84d4-61de64148997",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "543ff84f-2399-5fe5-acfe-8388547fb57d",
+      "category_id": "ky1",
+      "sort_order": 32,
+      "q_type": "reading_item",
+      "stem": "Question 32",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 32 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "acc5f066-e32d-5469-8363-d8bcbe42ae02",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "543ff84f-2399-5fe5-acfe-8388547fb57d",
+      "category_id": "ky1",
+      "sort_order": 33,
+      "q_type": "reading_item",
+      "stem": "Question 33",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 33 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "6841be11-2586-504d-b1ac-eeb8462504cd",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "543ff84f-2399-5fe5-acfe-8388547fb57d",
+      "category_id": "ky1",
+      "sort_order": 34,
+      "q_type": "reading_item",
+      "stem": "Question 34",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 34 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "b0053232-03f5-5c69-b119-72064e26eba0",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "543ff84f-2399-5fe5-acfe-8388547fb57d",
+      "category_id": "ky1",
+      "sort_order": 35,
+      "q_type": "reading_item",
+      "stem": "Question 35",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 35 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "2b88403f-9ce2-58c9-80a6-8e08540bd9ab",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "b1a7c543-3c20-5f0a-8efa-ee954df1c075",
+      "category_id": "ky1",
+      "sort_order": 36,
+      "q_type": "reading_item",
+      "stem": "Question 36",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 36 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "0aad2732-35ae-5997-9710-f0478e378ec6",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "b1a7c543-3c20-5f0a-8efa-ee954df1c075",
+      "category_id": "ky1",
+      "sort_order": 37,
+      "q_type": "reading_item",
+      "stem": "Question 37",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 37 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "f45fc425-03f1-5e36-8ea2-32b34a3bd84c",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "b1a7c543-3c20-5f0a-8efa-ee954df1c075",
+      "category_id": "ky1",
+      "sort_order": 38,
+      "q_type": "reading_item",
+      "stem": "Question 38",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 38 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "f224939d-e4ea-56d0-a503-4ecd1e9f59f6",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "b1a7c543-3c20-5f0a-8efa-ee954df1c075",
+      "category_id": "ky1",
+      "sort_order": 39,
+      "q_type": "reading_item",
+      "stem": "Question 39",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 39 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    },
+    {
+      "id": "2c74c1db-419c-5035-8ecd-46093eacf2a6",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "b1a7c543-3c20-5f0a-8efa-ee954df1c075",
+      "category_id": "ky1",
+      "sort_order": 40,
+      "q_type": "reading_item",
+      "stem": "Question 40",
+      "options": [
+        {
+          "key": "A",
+          "text": "Option A"
+        },
+        {
+          "key": "B",
+          "text": "Option B"
+        },
+        {
+          "key": "C",
+          "text": "Option C"
+        },
+        {
+          "key": "D",
+          "text": "Option D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "第 40 题官方解析与答案详解：正确答案为 [A]。",
+      "points": 2
+    }
+  ],
+  "exportedAt": "2026-10-02T22:00:00.000Z"
+}
