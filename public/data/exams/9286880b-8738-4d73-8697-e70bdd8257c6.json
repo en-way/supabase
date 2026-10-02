@@ -86,13 +86,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 1: Choose the best word for blank [1].",
-      "options": {
-        "A": "because",
-        "B": "unless",
-        "C": "whereas",
-        "D": "until"
-      },
+      "stem": "Choose the best option for blank (1) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "because"
+        },
+        {
+          "key": "B",
+          "text": "unless"
+        },
+        {
+          "key": "C",
+          "text": "whereas"
+        },
+        {
+          "key": "D",
+          "text": "until"
+        }
+      ],
       "correct_answer": "C",
       "explanation": "考查逻辑连接词。前句提到“Some of us feel energised...”（有人感到精力充沛），后句提到“some of us may feel drained...”（有人感到身心俱疲），前后形成鲜明对比，连词 whereas（而，然而）表示对比转折。",
       "points": 0.5,
@@ -104,13 +116,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 2: Choose the best word for blank [2].",
-      "options": {
-        "A": "contrast",
-        "B": "balance",
-        "C": "link",
-        "D": "gap"
-      },
+      "stem": "Choose the best option for blank (2) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "contrast"
+        },
+        {
+          "key": "B",
+          "text": "balance"
+        },
+        {
+          "key": "C",
+          "text": "link"
+        },
+        {
+          "key": "D",
+          "text": "gap"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "考查名词词义辨析。既然人与人之间的社交需求存在差异，那么在社交生活中寻求“平衡（balance）”就是核心关键。",
       "points": 0.5,
@@ -122,13 +146,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 3: Choose the best word for blank [3].",
-      "options": {
-        "A": "seeing",
-        "B": "pleasing",
-        "C": "judging",
-        "D": "teaching"
-      },
+      "stem": "Choose the best option for blank (3) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "seeing"
+        },
+        {
+          "key": "B",
+          "text": "pleasing"
+        },
+        {
+          "key": "C",
+          "text": "judging"
+        },
+        {
+          "key": "D",
+          "text": "teaching"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "考查动词语义与搭配。not seeing others 指“不见人/不与人交往”，see 具有“会面、交往”之意，与 spending too much time on your own 形成呼应。",
       "points": 0.5,
@@ -140,13 +176,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 4: Choose the best word for blank [4].",
-      "options": {
-        "A": "misguided",
-        "B": "surprised",
-        "C": "spoiled",
-        "D": "disconnected"
-      },
+      "stem": "Choose the best option for blank (4) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "misguided"
+        },
+        {
+          "key": "B",
+          "text": "surprised"
+        },
+        {
+          "key": "C",
+          "text": "spoiled"
+        },
+        {
+          "key": "D",
+          "text": "disconnected"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "考查形容词辨析。与 lonely（孤独）并列，disconnected 表示“与社会脱节的、孤立的”。",
       "points": 0.5,
@@ -158,13 +206,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 5: Choose the best word for blank [5].",
-      "options": {
-        "A": "contribute to",
-        "B": "rely on",
-        "C": "interfere with",
-        "D": "go against"
-      },
+      "stem": "Choose the best option for blank (5) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "contribute to"
+        },
+        {
+          "key": "B",
+          "text": "rely on"
+        },
+        {
+          "key": "C",
+          "text": "interfere with"
+        },
+        {
+          "key": "D",
+          "text": "go against"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "考查动词短语辨析。contribute to 意为“促成，导致”。孤独感不仅影响心理健康，还会导致/促成低落情绪（a low mood）。",
       "points": 0.5,
@@ -176,13 +236,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 6: Choose the best word for blank [6].",
-      "options": {
-        "A": "in fact",
-        "B": "of course",
-        "C": "for example",
-        "D": "on average"
-      },
+      "stem": "Choose the best option for blank (6) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "in fact"
+        },
+        {
+          "key": "B",
+          "text": "of course"
+        },
+        {
+          "key": "C",
+          "text": "for example"
+        },
+        {
+          "key": "D",
+          "text": "on average"
+        }
+      ],
       "correct_answer": "C",
       "explanation": "考查逻辑过渡短语。前句讲“任何人随时都可能感到孤独”，后句列举居家办公（working from home）的具体情境，for example（例如）表举例。",
       "points": 0.5,
@@ -194,13 +266,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 7: Choose the best word for blank [7].",
-      "options": {
-        "A": "cutting back",
-        "B": "missing out",
-        "C": "breaking in",
-        "D": "looking down"
-      },
+      "stem": "Choose the best option for blank (7) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "cutting back"
+        },
+        {
+          "key": "B",
+          "text": "missing out"
+        },
+        {
+          "key": "C",
+          "text": "breaking in"
+        },
+        {
+          "key": "D",
+          "text": "looking down"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "考查动词短语搭配。miss out on sth. 为固定短语，表示“错失、错过”。居家办公会错失办公室里日常的社交闲聊。",
       "points": 0.5,
@@ -212,13 +296,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 8: Choose the best word for blank [8].",
-      "options": {
-        "A": "shorten",
-        "B": "trigger",
-        "C": "follow",
-        "D": "interrupt"
-      },
+      "stem": "Choose the best option for blank (8) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "shorten"
+        },
+        {
+          "key": "B",
+          "text": "trigger"
+        },
+        {
+          "key": "C",
+          "text": "follow"
+        },
+        {
+          "key": "D",
+          "text": "interrupt"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "考查动词辨析。trigger 意为“引起，触发”。退休、换工作等生活重大转变同样会引发阶段性孤独。",
       "points": 0.5,
@@ -230,13 +326,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 9: Choose the best word for blank [9].",
-      "options": {
-        "A": "assess",
-        "B": "interpret",
-        "C": "provide",
-        "D": "regain"
-      },
+      "stem": "Choose the best option for blank (9) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "assess"
+        },
+        {
+          "key": "B",
+          "text": "interpret"
+        },
+        {
+          "key": "C",
+          "text": "provide"
+        },
+        {
+          "key": "D",
+          "text": "regain"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "考查动词语义。regain a social life 意为“重获/重新恢复社交生活”，与前文摆脱孤独的语境衔接。",
       "points": 0.5,
@@ -248,13 +356,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 10: Choose the best word for blank [10].",
-      "options": {
-        "A": "at first",
-        "B": "in turn",
-        "C": "on time",
-        "D": "by chance"
-      },
+      "stem": "Choose the best option for blank (10) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "at first"
+        },
+        {
+          "key": "B",
+          "text": "in turn"
+        },
+        {
+          "key": "C",
+          "text": "on time"
+        },
+        {
+          "key": "D",
+          "text": "by chance"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "考查介词短语。at first 意为“起初，一开始”。重塑社交起初可能会让人产生不知所措之感。",
       "points": 0.5,
@@ -266,13 +386,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 11: Choose the best word for blank [11].",
-      "options": {
-        "A": "far-sighted",
-        "B": "strong-willed",
-        "C": "kind-hearted",
-        "D": "like-minded"
-      },
+      "stem": "Choose the best option for blank (11) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "far-sighted"
+        },
+        {
+          "key": "B",
+          "text": "strong-willed"
+        },
+        {
+          "key": "C",
+          "text": "kind-hearted"
+        },
+        {
+          "key": "D",
+          "text": "like-minded"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "考查复合形容词。前文提到从自己喜欢的兴趣爱好入手寻找社群，自然能结识“志趣相投的（like-minded）”朋友。",
       "points": 0.5,
@@ -284,13 +416,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 12: Choose the best word for blank [12].",
-      "options": {
-        "A": "try",
-        "B": "promote",
-        "C": "watch",
-        "D": "describe"
-      },
+      "stem": "Choose the best option for blank (12) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "try"
+        },
+        {
+          "key": "B",
+          "text": "promote"
+        },
+        {
+          "key": "C",
+          "text": "watch"
+        },
+        {
+          "key": "D",
+          "text": "describe"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "考查动词搭配。try a new sport for the first time 表示初次“尝试”一项新运动。",
       "points": 0.5,
@@ -302,13 +446,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 13: Choose the best word for blank [13].",
-      "options": {
-        "A": "test",
-        "B": "share",
-        "C": "accept",
-        "D": "revise"
-      },
+      "stem": "Choose the best option for blank (13) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "test"
+        },
+        {
+          "key": "B",
+          "text": "share"
+        },
+        {
+          "key": "C",
+          "text": "accept"
+        },
+        {
+          "key": "D",
+          "text": "revise"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "考查动词搭配。同行职场交流聚会用于见面“交流/分享想法”（share ideas）。",
       "points": 0.5,
@@ -320,13 +476,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 14: Choose the best word for blank [14].",
-      "options": {
-        "A": "already",
-        "B": "thus",
-        "C": "also",
-        "D": "only"
-      },
+      "stem": "Choose the best option for blank (14) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "already"
+        },
+        {
+          "key": "B",
+          "text": "thus"
+        },
+        {
+          "key": "C",
+          "text": "also"
+        },
+        {
+          "key": "D",
+          "text": "only"
+        }
+      ],
       "correct_answer": "C",
       "explanation": "考查副词逻辑。第二段讲社交过少，第三段讲如何社交，第四段以“On the other hand”引出反向论题，指社交过多“也（also）”是有可能的。",
       "points": 0.5,
@@ -338,13 +506,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 15: Choose the best word for blank [15].",
-      "options": {
-        "A": "list",
-        "B": "order",
-        "C": "space",
-        "D": "boundary"
-      },
+      "stem": "Choose the best option for blank (15) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "list"
+        },
+        {
+          "key": "B",
+          "text": "order"
+        },
+        {
+          "key": "C",
+          "text": "space"
+        },
+        {
+          "key": "D",
+          "text": "boundary"
+        }
+      ],
       "correct_answer": "C",
       "explanation": "考查名词词义。there is never any space in your calendar for downtime 指日程表中没有任何用于休整闲暇的“空白/空间（space）”。",
       "points": 0.5,
@@ -356,13 +536,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 16: Choose the best word for blank [16].",
-      "options": {
-        "A": "fatigue",
-        "B": "criticism",
-        "C": "injustice",
-        "D": "dilemma"
-      },
+      "stem": "Choose the best option for blank (16) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "fatigue"
+        },
+        {
+          "key": "B",
+          "text": "criticism"
+        },
+        {
+          "key": "C",
+          "text": "injustice"
+        },
+        {
+          "key": "D",
+          "text": "dilemma"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "考查名词辨析。与 social burnout（社交耗竭）并列，social fatigue 表示“社交疲劳/倦怠”。",
       "points": 0.5,
@@ -374,13 +566,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 17: Choose the best word for blank [17].",
-      "options": {
-        "A": "sources",
-        "B": "standards",
-        "C": "signs",
-        "D": "scores"
-      },
+      "stem": "Choose the best option for blank (17) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "sources"
+        },
+        {
+          "key": "B",
+          "text": "standards"
+        },
+        {
+          "key": "C",
+          "text": "signs"
+        },
+        {
+          "key": "D",
+          "text": "scores"
+        }
+      ],
       "correct_answer": "C",
       "explanation": "考查名词辨析。情绪低落、精力不足、易怒、失眠都是社交健康不佳的“迹象/征兆（signs）”。",
       "points": 0.5,
@@ -392,13 +596,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 18: Choose the best word for blank [18].",
-      "options": {
-        "A": "take over",
-        "B": "wipe off",
-        "C": "add up",
-        "D": "mark out"
-      },
+      "stem": "Choose the best option for blank (18) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "take over"
+        },
+        {
+          "key": "B",
+          "text": "wipe off"
+        },
+        {
+          "key": "C",
+          "text": "add up"
+        },
+        {
+          "key": "D",
+          "text": "mark out"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "考查动词短语。mark out some time in your diary 意为在日程表里“专门划出/标出”一段时间。",
       "points": 0.5,
@@ -410,13 +626,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 19: Choose the best word for blank [19].",
-      "options": {
-        "A": "ungrateful",
-        "B": "unavailable",
-        "C": "responsible",
-        "D": "regretful"
-      },
+      "stem": "Choose the best option for blank (19) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "ungrateful"
+        },
+        {
+          "key": "B",
+          "text": "unavailable"
+        },
+        {
+          "key": "C",
+          "text": "responsible"
+        },
+        {
+          "key": "D",
+          "text": "regretful"
+        }
+      ],
       "correct_answer": "B",
       "explanation": "考查形容词辨析。unavailable for socialising 意为“不参与社交的、抽不出空的”，与后文留出时间休息呼应。",
       "points": 0.5,
@@ -428,13 +656,25 @@
       "passage_id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "category_id": "ky2",
       "q_type": "cloze_item",
-      "stem": "Question 20: Choose the best word for blank [20].",
-      "options": {
-        "A": "react",
-        "B": "repeat",
-        "C": "return",
-        "D": "rest"
-      },
+      "stem": "Choose the best option for blank (20) in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "react"
+        },
+        {
+          "key": "B",
+          "text": "repeat"
+        },
+        {
+          "key": "C",
+          "text": "return"
+        },
+        {
+          "key": "D",
+          "text": "rest"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "考查动词并列。与 relax（放松）和 recover（恢复）并列，rest 意为“休息”。",
       "points": 0.5,
@@ -447,12 +687,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "21. Coyle argues in her new book that economic growth should",
-      "options": {
-        "A": "give rise to innovations.",
-        "B": "diversify career choices.",
-        "C": "benefit people equally.",
-        "D": "be promoted forcefully."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "give rise to innovations."
+        },
+        {
+          "key": "B",
+          "text": "diversify career choices."
+        },
+        {
+          "key": "C",
+          "text": "benefit people equally."
+        },
+        {
+          "key": "D",
+          "text": "be promoted forcefully."
+        }
+      ],
       "correct_answer": "C",
       "explanation": "细节理解题。定位第一段“the gains will have to be more evenly shared than in the recent past”。经济增长的成果必须比以往更加均匀地分享，C选项“benefit people equally”（使所有人平等受益）是对“evenly shared”的同义替换。",
       "points": 2,
@@ -465,12 +717,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "22. According to Paragraph 2, digital technologies should be used to",
-      "options": {
-        "A": "bring about instant prosperity.",
-        "B": "reduce people’s workload.",
-        "C": "raise overall work efficiency.",
-        "D": "enhance cross-sector cooperation."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "bring about instant prosperity."
+        },
+        {
+          "key": "B",
+          "text": "reduce people’s workload."
+        },
+        {
+          "key": "C",
+          "text": "raise overall work efficiency."
+        },
+        {
+          "key": "D",
+          "text": "enhance cross-sector cooperation."
+        }
+      ],
       "correct_answer": "C",
       "explanation": "细节理解题。定位第二段“require greater use of digital technologies to boost productivity in various sectors”。利用数字技术提升各领域的生产力（boost productivity），C选项“raise overall work efficiency”（提升整体工作效率）为同义转述。",
       "points": 2,
@@ -483,12 +747,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "23. What does Coyle fear about transformative technologies?",
-      "options": {
-        "A": "They may affect work-life balance.",
-        "B": "They may be impractical to deploy.",
-        "C": "They may incur huge expenditure.",
-        "D": "They may be unwelcome to the public."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "They may affect work-life balance."
+        },
+        {
+          "key": "B",
+          "text": "They may be impractical to deploy."
+        },
+        {
+          "key": "C",
+          "text": "They may incur huge expenditure."
+        },
+        {
+          "key": "D",
+          "text": "They may be unwelcome to the public."
+        }
+      ],
       "correct_answer": "D",
       "explanation": "观点态度题。定位第三、四段。Coyle指出变革需要“social buy-in”（社会的认同接受），但现实中“resentment is simmering among many”（许多人心中积怨暗涌），人们只看到好工作被摧毁。因此她担忧这些技术不受公众欢迎，故选D。",
       "points": 2,
@@ -501,12 +777,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "24. Several American cities are mentioned to show",
-      "options": {
-        "A": "the uneven distribution of AI technologies in the US.",
-        "B": "the disappointing prospect of tech jobs in the US.",
-        "C": "the fast progress of US regional economies.",
-        "D": "the increasing significance of US AI assets."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "the uneven distribution of AI technologies in the US."
+        },
+        {
+          "key": "B",
+          "text": "the disappointing prospect of tech jobs in the US."
+        },
+        {
+          "key": "C",
+          "text": "the fast progress of US regional economies."
+        },
+        {
+          "key": "D",
+          "text": "the increasing significance of US AI assets."
+        }
+      ],
       "correct_answer": "A",
       "explanation": "例证推断题。定位第五、六段。列举旧金山、波士顿等少数城市占据全美2/3的AI资产，紧接着第六段首句概括“The dominance of a few cities... means that geographical disparities in wealth will continue to soar”。举例旨在说明AI技术在美国地理分布上的严重不均衡，故选A。",
       "points": 2,
@@ -519,12 +807,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "25. With regard to Coyle’s concern, the author suggests",
-      "options": {
-        "A": "raising funds to start new AI projects.",
-        "B": "encouraging collaboration in AI research.",
-        "C": "guarding against the side effects of AI.",
-        "D": "redefining the role of AI technologies."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "raising funds to start new AI projects."
+        },
+        {
+          "key": "B",
+          "text": "encouraging collaboration in AI research."
+        },
+        {
+          "key": "C",
+          "text": "guarding against the side effects of AI."
+        },
+        {
+          "key": "D",
+          "text": "redefining the role of AI technologies."
+        }
+      ],
       "correct_answer": "D",
       "explanation": "细节推断题。定位末段“broaden our digital imaginations to conceive of AI technologies that don’t simply replace jobs but expand opportunities...”。作者建议拓宽数字想象力，不再把AI单纯看作替代岗位的工具，而是能在各领域扩展机会，即重新定义AI技术的角色，故选D。",
       "points": 2,
@@ -537,12 +837,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "26. It can be learned from Paragraph 1 that the UK needs to",
-      "options": {
-        "A": "increase its domestic wood supply.",
-        "B": "reduce its demand for timber.",
-        "C": "lower its wood production costs.",
-        "D": "lift its control on timber imports."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "increase its domestic wood supply."
+        },
+        {
+          "key": "B",
+          "text": "reduce its demand for timber."
+        },
+        {
+          "key": "C",
+          "text": "lower its wood production costs."
+        },
+        {
+          "key": "D",
+          "text": "lift its control on timber imports."
+        }
+      ],
       "correct_answer": "A",
       "explanation": "细节理解题。定位第一段。Confor呼吁采取紧急行动以“reduce the country’s reliance on timber imports and provide a stable supply of wood... Currently only 20 per cent... is home-grown”。英国自产木材仅占20%，高度依赖进口，因此需要提高国内木材供应（increase its domestic wood supply），故选A。",
       "points": 2,
@@ -555,12 +867,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "27. According to Confor, the UK government’s fresh incentives",
-      "options": {
-        "A": "can hardly address a construction crisis.",
-        "B": "are believed to come at a wrong time.",
-        "C": "seem to be misleading for landowners.",
-        "D": "will be too costly to put into practice."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "can hardly address a construction crisis."
+        },
+        {
+          "key": "B",
+          "text": "are believed to come at a wrong time."
+        },
+        {
+          "key": "C",
+          "text": "seem to be misleading for landowners."
+        },
+        {
+          "key": "D",
+          "text": "will be too costly to put into practice."
+        }
+      ],
       "correct_answer": "A",
       "explanation": "细节理解题。定位第二段首句“these don’t go far enough and fail to promote the benefits of planting them to boost timber supplies”以及随后指出英国仍将面临未来的建筑危机（facing a future construction crisis）。因此政府的新激励措施难以化解建筑危机，故选A。",
       "points": 2,
@@ -573,12 +897,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "28. The UK’s exposure to fluctuating wood prices is a result of",
-      "options": {
-        "A": "the government’s inaction on timber imports.",
-        "B": "inadequate investment in growing wood.",
-        "C": "the competition among timber traders at home.",
-        "D": "wood producers’ motive to maximise profits."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "the government’s inaction on timber imports."
+        },
+        {
+          "key": "B",
+          "text": "inadequate investment in growing wood."
+        },
+        {
+          "key": "C",
+          "text": "the competition among timber traders at home."
+        },
+        {
+          "key": "D",
+          "text": "wood producers’ motive to maximise profits."
+        }
+      ],
       "correct_answer": "B",
       "explanation": "因果细节题。定位第二段第三句“For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices...”。长期以来没有对国内木材供应进行投资，导致暴露于价格波动中。B选项“inadequate investment in growing wood”（植树造林投资不足）为精确对应。",
       "points": 2,
@@ -591,12 +927,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "29. Which of the following causes the shortage of wood supply in the UK?",
-      "options": {
-        "A": "Excessive timber consumption in construction.",
-        "B": "Unfavourable conditions for growing wood.",
-        "C": "Outdated technologies of the wood industry.",
-        "D": "Farmers’ unwillingness to plant trees."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Excessive timber consumption in construction."
+        },
+        {
+          "key": "B",
+          "text": "Unfavourable conditions for growing wood."
+        },
+        {
+          "key": "C",
+          "text": "Outdated technologies of the wood industry."
+        },
+        {
+          "key": "D",
+          "text": "Farmers’ unwillingness to plant trees."
+        }
+      ],
       "correct_answer": "D",
       "explanation": "事实细节题。定位第三段末句“It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects.”。农民及地主对长期植树项目充满犹豫踌躇，D选项“Farmers' unwillingness to plant trees”（农民不愿植树）为同义替换。",
       "points": 2,
@@ -609,12 +957,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "30. What does Goodall think the UK government should do?",
-      "options": {
-        "A": "Subsidise the building of low-carbon homes.",
-        "B": "Pay greater attention to boosting rural economies.",
-        "C": "Provide more support for productive tree planting.",
-        "D": "Give priority to pursuing its net-zero strategy."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Subsidise the building of low-carbon homes."
+        },
+        {
+          "key": "B",
+          "text": "Pay greater attention to boosting rural economies."
+        },
+        {
+          "key": "C",
+          "text": "Provide more support for productive tree planting."
+        },
+        {
+          "key": "D",
+          "text": "Give priority to pursuing its net-zero strategy."
+        }
+      ],
       "correct_answer": "C",
       "explanation": "观点态度题。定位第四、五段。第四段提到政府当前只支持食物生产与生物多样性野生树林，忽视了生产性林业（productive forestry）。Goodall强调土地还需为建筑和制造业提供安全木材，呼吁对植树愿景给予更大推动力（greater impetus）。因此政府应为生产性植树提供更多支持，故选C。",
       "points": 2,
@@ -627,12 +987,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "31. According to Paragraph 1, keeping unsafe aging drivers off the road",
-      "options": {
-        "A": "is a new safety measure.",
-        "B": "has become a disputed issue.",
-        "C": "can be a tough task to complete.",
-        "D": "will be beneficial to their health."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "is a new safety measure."
+        },
+        {
+          "key": "B",
+          "text": "has become a disputed issue."
+        },
+        {
+          "key": "C",
+          "text": "can be a tough task to complete."
+        },
+        {
+          "key": "D",
+          "text": "will be beneficial to their health."
+        }
+      ],
       "correct_answer": "C",
       "explanation": "细节理解题。定位第一段首句“One of the biggest challenges in keeping unsafe aging drivers off the road is convincing them that it's time to turn over the keys.”。biggest challenges 对应 C 选项“can be a tough task to complete”（是一项难以完成的艰巨任务）。",
       "points": 2,
@@ -645,12 +1017,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "32. The American Medical Association’s advice",
-      "options": {
-        "A": "has won support from drivers.",
-        "B": "is generally considered unrealistic.",
-        "C": "is widely dismissed as unnecessary.",
-        "D": "has met with different responses."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "has won support from drivers."
+        },
+        {
+          "key": "B",
+          "text": "is generally considered unrealistic."
+        },
+        {
+          "key": "C",
+          "text": "is widely dismissed as unnecessary."
+        },
+        {
+          "key": "D",
+          "text": "has met with different responses."
+        }
+      ],
       "correct_answer": "D",
       "explanation": "细节理解题。定位第二段第二句“Some states require physicians to report, others allow but do not mandate reports, while a few consider a report a breach of confidentiality.”。有的州强制要求报告，有的允许但不强制，少数州甚至视其为泄露隐私违法，说明各州对医学会建议的反应各不相同（met with different responses），故选D。",
       "points": 2,
@@ -663,12 +1047,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "33. According to Dugan, efforts to keep older drivers safe",
-      "options": {
-        "A": "have brought about big changes.",
-        "B": "need to be well coordinated.",
-        "C": "have gained public recognition.",
-        "D": "call for relevant legal support."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "have brought about big changes."
+        },
+        {
+          "key": "B",
+          "text": "need to be well coordinated."
+        },
+        {
+          "key": "C",
+          "text": "have gained public recognition."
+        },
+        {
+          "key": "D",
+          "text": "call for relevant legal support."
+        }
+      ],
       "correct_answer": "B",
       "explanation": "观点推断题。定位第三段“the difficulties are addressed piecemeal by different professions with different focuses... There's not a National Institute of Older Driver Studies”。老年驾驶员安全问题目前由各专业零散应对（addressed piecemeal）、各自为政且缺乏国家级统一机构，表明相关工作亟需良好协调（need to be well coordinated），故选B。",
       "points": 2,
@@ -681,12 +1077,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "34. Some older drivers have trouble driving because they tend to",
-      "options": {
-        "A": "stick with bad driving habits.",
-        "B": "have a weakened memory.",
-        "C": "suffer from chronic pains.",
-        "D": "neglect car maintenance."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "stick with bad driving habits."
+        },
+        {
+          "key": "B",
+          "text": "have a weakened memory."
+        },
+        {
+          "key": "C",
+          "text": "suffer from chronic pains."
+        },
+        {
+          "key": "D",
+          "text": "neglect car maintenance."
+        }
+      ],
       "correct_answer": "B",
       "explanation": "事实细节题。定位第五段第二句“have trouble driving because they can’t turn their heads or remember where they are going...”。老人无法记住自己要去哪儿（can't remember where they are going），对应B选项“have a weakened memory”（记忆力衰退）。",
       "points": 2,
@@ -699,12 +1107,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "35. Dugan thinks that the solution to the problems of crashes may lie in",
-      "options": {
-        "A": "upgrading self-driving vehicles.",
-        "B": "developing senior-friendly cars.",
-        "C": "renovating transport facilities.",
-        "D": "adjusting the age limit for drivers."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "upgrading self-driving vehicles."
+        },
+        {
+          "key": "B",
+          "text": "developing senior-friendly cars."
+        },
+        {
+          "key": "C",
+          "text": "renovating transport facilities."
+        },
+        {
+          "key": "D",
+          "text": "adjusting the age limit for drivers."
+        }
+      ],
       "correct_answer": "B",
       "explanation": "观点态度题。定位末段最后两句“If we’re going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”。针对高龄化社会，Dugan认为需要能让90岁老人也能舒适驾驶的汽车，即研发适老化汽车（developing senior-friendly cars），故选B。",
       "points": 2,
@@ -717,12 +1137,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "36. The research findings are cited in Paragraph 1 to show",
-      "options": {
-        "A": "the prevalence of health apps",
-        "B": "the public concern over health",
-        "C": "the popularity of smartphones",
-        "D": "the advancement of technology"
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "the prevalence of health apps"
+        },
+        {
+          "key": "B",
+          "text": "the public concern over health"
+        },
+        {
+          "key": "C",
+          "text": "the popularity of smartphones"
+        },
+        {
+          "key": "D",
+          "text": "the advancement of technology"
+        }
+      ],
       "correct_answer": "A",
       "explanation": "例证推断题。第一段首句指出人人的手机里都有至少一个健康APP，随后引用数据“350,000 health apps were available on the market, 90,000 of which launched in 2020 alone”。海量的APP数据旨在证明健康类应用程序的极其普遍和盛行（prevalence），故选A。",
       "points": 2,
@@ -735,12 +1167,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "37. What does the author imply about existing health privacy law?",
-      "options": {
-        "A": "Its coverage needs to be extended.",
-        "B": "Its enforcement needs strengthening.",
-        "C": "It has discouraged medical misconduct.",
-        "D": "It has disappointed insurance companies."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Its coverage needs to be extended."
+        },
+        {
+          "key": "B",
+          "text": "Its enforcement needs strengthening."
+        },
+        {
+          "key": "C",
+          "text": "It has discouraged medical misconduct."
+        },
+        {
+          "key": "D",
+          "text": "It has disappointed insurance companies."
+        }
+      ],
       "correct_answer": "A",
       "explanation": "推理判断题。定位第二段。现行隐私法（如HIPAA）主要监管医院、诊所及保险公司，“The health information these apps... are collecting typically do not receive the same legal protections.”。健康APP收集的个人数据无法获得同等法律保护，暗示现行法律的覆盖范围需要拓展（coverage needs to be extended），故选A。",
       "points": 2,
@@ -753,12 +1197,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "38. Before sharing its users’ health information, Flo Health is required to",
-      "options": {
-        "A": "seek the approval of the FTC",
-        "B": "find qualified third parties",
-        "C": "remove irrelevant personal data",
-        "D": "obtain their explicit permission"
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "seek the approval of the FTC"
+        },
+        {
+          "key": "B",
+          "text": "find qualified third parties"
+        },
+        {
+          "key": "C",
+          "text": "remove irrelevant personal data"
+        },
+        {
+          "key": "D",
+          "text": "obtain their explicit permission"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "细节理解题。定位第三段末句“requiring the company to get app users’ express affirmative consent before sharing their health information...”。“express affirmative consent”即为“explicit permission”（明确的许可/同意），故选D。",
       "points": 2,
@@ -771,12 +1227,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "39. What challenge is the FTC currently faced with?",
-      "options": {
-        "A": "The complexity of health information.",
-        "B": "The rapid increase in new health apps.",
-        "C": "The subtle deceptiveness of health apps.",
-        "D": "The difficulty in assessing consumer harm."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "The complexity of health information."
+        },
+        {
+          "key": "B",
+          "text": "The rapid increase in new health apps."
+        },
+        {
+          "key": "C",
+          "text": "The subtle deceptiveness of health apps."
+        },
+        {
+          "key": "D",
+          "text": "The difficulty in assessing consumer harm."
+        }
+      ],
       "correct_answer": "B",
       "explanation": "细节理解题。定位第四段末句“the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is.”。健康应用大量上市涌现的速度构成了巨大挑战，对应B选项“The rapid increase in new health apps”（新健康APP的迅猛激增）。",
       "points": 2,
@@ -789,12 +1257,24 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "40. It can be learned from the last paragraph that health data protection",
-      "options": {
-        "A": "has been embraced by health app developers",
-        "B": "has been a focus of federal policy-making",
-        "C": "has encountered opposition in California",
-        "D": "has gained legislative support in some states"
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "has been embraced by health app developers"
+        },
+        {
+          "key": "B",
+          "text": "has been a focus of federal policy-making"
+        },
+        {
+          "key": "C",
+          "text": "has encountered opposition in California"
+        },
+        {
+          "key": "D",
+          "text": "has gained legislative support in some states"
+        }
+      ],
       "correct_answer": "D",
       "explanation": "细节推断题。定位末段。加州走在各州前列颁布了消费者隐私法案，弗吉尼亚州、科罗拉多州和犹他州也相继通过了州级立法，说明健康数据保护在部分州获得了立法支持（gained legislative support in some states），故选D。",
       "points": 2,
@@ -807,15 +1287,36 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "41. Sue Rexford",
-      "options": {
-        "A": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-        "B": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-        "C": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-        "D": "A student who exhibits abilities in doing business can impress colleges.",
-        "E": "High school students participating in a popular activity should excel in it.",
-        "F": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-        "G": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
+        },
+        {
+          "key": "B",
+          "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
+        },
+        {
+          "key": "C",
+          "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
+        },
+        {
+          "key": "D",
+          "text": "A student who exhibits abilities in doing business can impress colleges."
+        },
+        {
+          "key": "E",
+          "text": "High school students participating in a popular activity should excel in it."
+        },
+        {
+          "key": "F",
+          "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
+        },
+        {
+          "key": "G",
+          "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
+        }
+      ],
       "correct_answer": "C",
       "explanation": "定位原文第3-4段。Sue Rexford 表示申请时不必列满10个活动，“No college will expect that a student has a huge laundry list of extracurriculars...”。没有大学指望学生有一长串课外活动清单，与C选项“Undertaking too many extracurricular activities will hardly be seen as a plus by colleges”（从事过多课外活动很难被大学视作加分项）精准匹配。",
       "points": 2,
@@ -828,15 +1329,36 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "42. Sara Harberson",
-      "options": {
-        "A": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-        "B": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-        "C": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-        "D": "A student who exhibits abilities in doing business can impress colleges.",
-        "E": "High school students participating in a popular activity should excel in it.",
-        "F": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-        "G": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
+        },
+        {
+          "key": "B",
+          "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
+        },
+        {
+          "key": "C",
+          "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
+        },
+        {
+          "key": "D",
+          "text": "A student who exhibits abilities in doing business can impress colleges."
+        },
+        {
+          "key": "E",
+          "text": "High school students participating in a popular activity should excel in it."
+        },
+        {
+          "key": "F",
+          "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
+        },
+        {
+          "key": "G",
+          "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
+        }
+      ],
       "correct_answer": "E",
       "explanation": "定位原文第6段。Sara Harberson 指出普遍常见的活动竞争更激烈，“so if they’re going to do a popular activity, I’d say, be the best at it”（如果要做大众热门活动，就要做到最好），与E选项“High school students participating in a popular activity should excel in it”（参加热门活动的高中生应当在其中表现卓越/出类拔萃）精准匹配。",
       "points": 2,
@@ -849,15 +1371,36 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "43. Katie Kelley",
-      "options": {
-        "A": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-        "B": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-        "C": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-        "D": "A student who exhibits abilities in doing business can impress colleges.",
-        "E": "High school students participating in a popular activity should excel in it.",
-        "F": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-        "G": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
+        },
+        {
+          "key": "B",
+          "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
+        },
+        {
+          "key": "C",
+          "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
+        },
+        {
+          "key": "D",
+          "text": "A student who exhibits abilities in doing business can impress colleges."
+        },
+        {
+          "key": "E",
+          "text": "High school students participating in a popular activity should excel in it."
+        },
+        {
+          "key": "F",
+          "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
+        },
+        {
+          "key": "G",
+          "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
+        }
+      ],
       "correct_answer": "A",
       "explanation": "定位原文第10-11段。Katie Kelley 指出：“Distinguishing yourself in one focused type of extracurricular activity can be a positive in the admissions process, especially for highly selective institutions...”。在某一专注领域脱颖而出有助于进入选拔性极强的顶尖学府，与A选项“Students who stand out in a specific extracurricular activity will be favored by top-tier institutions”（在特定课外活动中表现突出的学生将受到顶尖学府青睐）精准匹配。",
       "points": 2,
@@ -870,15 +1413,36 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "44. Mayghin Levine",
-      "options": {
-        "A": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-        "B": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-        "C": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-        "D": "A student who exhibits abilities in doing business can impress colleges.",
-        "E": "High school students participating in a popular activity should excel in it.",
-        "F": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-        "G": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
+        },
+        {
+          "key": "B",
+          "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
+        },
+        {
+          "key": "C",
+          "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
+        },
+        {
+          "key": "D",
+          "text": "A student who exhibits abilities in doing business can impress colleges."
+        },
+        {
+          "key": "E",
+          "text": "High school students participating in a popular activity should excel in it."
+        },
+        {
+          "key": "F",
+          "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
+        },
+        {
+          "key": "G",
+          "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
+        }
+      ],
       "correct_answer": "G",
       "explanation": "定位原文第12段。Mayghin Levine 指出：“If you already know your major, having an extracurricular that fits into that major can be a big plus...”。如果明确了大学专业，有与之契合的课外活动会是巨大优势，与G选项“It is advisable for students to choose an extracurricular activity that is related to their future study at college”（建议学生选择与未来大学专业学习相关的课外活动）精准匹配。",
       "points": 2,
@@ -891,15 +1455,36 @@
       "category_id": "ky2",
       "q_type": "reading_item",
       "stem": "45. Erica Gwyn",
-      "options": {
-        "A": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-        "B": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-        "C": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-        "D": "A student who exhibits abilities in doing business can impress colleges.",
-        "E": "High school students participating in a popular activity should excel in it.",
-        "F": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-        "G": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
-      },
+      "options": [
+        {
+          "key": "A",
+          "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
+        },
+        {
+          "key": "B",
+          "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
+        },
+        {
+          "key": "C",
+          "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
+        },
+        {
+          "key": "D",
+          "text": "A student who exhibits abilities in doing business can impress colleges."
+        },
+        {
+          "key": "E",
+          "text": "High school students participating in a popular activity should excel in it."
+        },
+        {
+          "key": "F",
+          "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
+        },
+        {
+          "key": "G",
+          "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
+        }
+      ],
       "correct_answer": "B",
       "explanation": "定位原文第13段末句。Erica Gwyn 指出：“High school students who have had a strong positive influence on their community through an extracurricular activity may impress a college and win a scholarship...”。通过课外活动对所在社区产生积极影响的学生能够给大学留下深刻印象并赢得奖学金，与B选项“Students whose extracurricular activity has benefited their community are likely to win a scholarship”（课外活动造福社区的学生有可能赢得奖学金）精准匹配。",
       "points": 2,

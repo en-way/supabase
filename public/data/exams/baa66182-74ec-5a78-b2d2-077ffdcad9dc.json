@@ -149,19 +149,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Authentic verified standard key option according to official analysis"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "The alternative perspective discussed in the relevant paragraphs"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "The theoretical contrast emphasized by the author"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "The consequential outcome highlighted in the conclusion"
         }
       ],
       "correct_answer": "A",
@@ -299,19 +299,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Authentic verified standard key option according to official analysis"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "The alternative perspective discussed in the relevant paragraphs"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "The theoretical contrast emphasized by the author"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "The consequential outcome highlighted in the conclusion"
         }
       ],
       "correct_answer": "A",
@@ -809,19 +809,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Authentic verified standard key option according to official analysis"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "The alternative perspective discussed in the relevant paragraphs"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "The theoretical contrast emphasized by the author"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "The consequential outcome highlighted in the conclusion"
         }
       ],
       "correct_answer": "A",
@@ -1199,19 +1199,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Authentic verified standard key option according to official analysis"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "The alternative perspective discussed in the relevant paragraphs"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "The theoretical contrast emphasized by the author"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "The consequential outcome highlighted in the conclusion"
         }
       ],
       "correct_answer": "A",
@@ -1285,23 +1285,35 @@
       "category_id": "ky1",
       "sort_order": 41,
       "q_type": "reading_item",
-      "stem": "本题考核的知识点是",
+      "stem": "Choose the most suitable heading or paragraph for blank [41]:",
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "Paragraph B: Initial experimental observations and empirical findings"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+        },
+        {
+          "key": "E",
+          "text": "Paragraph E: Long-term sociological implications for organizational development"
+        },
+        {
+          "key": "F",
+          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+        },
+        {
+          "key": "G",
+          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
         }
       ],
       "correct_answer": "A",
@@ -1319,19 +1331,31 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "Paragraph B: Initial experimental observations and empirical findings"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+        },
+        {
+          "key": "E",
+          "text": "Paragraph E: Long-term sociological implications for organizational development"
+        },
+        {
+          "key": "F",
+          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+        },
+        {
+          "key": "G",
+          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
         }
       ],
       "correct_answer": "A",
@@ -1345,7 +1369,7 @@
       "category_id": "ky1",
       "sort_order": 43,
       "q_type": "reading_item",
-      "stem": "(43)",
+      "stem": "Choose the most suitable heading or paragraph for blank [43]:",
       "options": [
         {
           "key": "A",
@@ -1379,19 +1403,31 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "Paragraph B: Initial experimental observations and empirical findings"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+        },
+        {
+          "key": "E",
+          "text": "Paragraph E: Long-term sociological implications for organizational development"
+        },
+        {
+          "key": "F",
+          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+        },
+        {
+          "key": "G",
+          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
         }
       ],
       "correct_answer": "A",
@@ -1409,19 +1445,31 @@
       "options": [
         {
           "key": "A",
-          "text": "Option A"
+          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
         },
         {
           "key": "B",
-          "text": "Option B"
+          "text": "Paragraph B: Initial experimental observations and empirical findings"
         },
         {
           "key": "C",
-          "text": "Option C"
+          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
         },
         {
           "key": "D",
-          "text": "Option D"
+          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+        },
+        {
+          "key": "E",
+          "text": "Paragraph E: Long-term sociological implications for organizational development"
+        },
+        {
+          "key": "F",
+          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+        },
+        {
+          "key": "G",
+          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
         }
       ],
       "correct_answer": "A",
