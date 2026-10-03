@@ -9,8 +9,32 @@
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-19T16:08:57.17427+00:00",
     "approval_status": "approved",
+    "created_at": "2026-09-19T16:08:57.17427+00:00",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+    "category_id": "ky2",
+    "title": "2024年 考研英语(二) 真题",
+    "year": 2024,
+    "exam_type": "real",
+    "duration_minutes": 75,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-09-19T16:09:01.089647+00:00",
     "created_by": null,
     "questions": [
       {
@@ -34,491 +58,7 @@
     "pass_score": 36,
     "is_published": true,
     "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "e7dfeb60-9e71-5912-8e2c-0828e345b98c",
-    "category_id": "ky1",
-    "title": "2021年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2021,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
-    "category_id": "ky1",
-    "title": "2020年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2020,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
-    "category_id": "ky1",
-    "title": "2019年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2019,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
-    "category_id": "ky1",
-    "title": "2018年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2018,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "4fd42872-4822-5786-8d16-0317051bf03d",
-    "category_id": "ky1",
-    "title": "2017年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2017,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "666cdb4e-7fd3-53c2-8c91-a12fa3160c09",
-    "category_id": "ky1",
-    "title": "2016年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2016,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "865e5af8-24a4-58e1-bc9e-640f32d8e946",
-    "category_id": "ky1",
-    "title": "2015年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2015,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "240cc48a-439b-5d27-8464-f7dc53e060dc",
-    "category_id": "ky1",
-    "title": "2014年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2014,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
-    "category_id": "ky1",
-    "title": "2013年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2013,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
-    "category_id": "ky1",
-    "title": "2012年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2012,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "111d6c78-81a1-53dc-a039-dad4c94ebd35",
-    "category_id": "ky1",
-    "title": "2011年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2011,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "e5abf09b-e94d-5994-b944-7c5711cd4e4d",
-    "category_id": "ky1",
-    "title": "2010年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2010,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "9369aa41-c91e-548c-bf99-1ad46a07ac25",
-    "category_id": "ky1",
-    "title": "2009年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2009,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "d80926ab-1841-5d1f-a999-56773986c46d",
-    "category_id": "ky1",
-    "title": "2008年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2008,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "e560bab8-4d9a-5149-a93f-1ee1d7bf4225",
-    "category_id": "ky1",
-    "title": "2007年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2007,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "c6e9dbac-6148-532e-90d2-2a8d3682a6ac",
-    "category_id": "ky1",
-    "title": "2006年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2006,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "d8ba7d14-5305-538d-b81b-f0f7ef3db461",
-    "category_id": "ky1",
-    "title": "2005年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2005,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
-    "id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
-    "category_id": "ky1",
-    "title": "2004年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2004,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
-      }
-    ]
-  },
-  {
-    "id": "91ff038a-e3f9-5b6d-82c5-1328735be1d1",
-    "category_id": "ky1",
-    "title": "2003年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2003,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
-      }
-    ]
-  },
-  {
-    "id": "e1b9d134-9546-55ab-9a60-c7e5b04046a3",
-    "category_id": "ky1",
-    "title": "2002年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2002,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
-      }
-    ]
-  },
-  {
-    "id": "2c892204-071f-5943-86be-d49bca93fe71",
-    "category_id": "ky1",
-    "title": "2001年 全国硕士研究生招生考试 英语（一）全卷",
-    "year": 2001,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "approval_status": "approved",
-    "questions": [
-      {
-        "count": 40
-      }
-    ],
-    "passages": [
-      {
-        "count": 5
-      }
-    ]
-  },
-  {
-    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
-    "category_id": "ky2",
-    "title": "2024年 考研英语(二) 真题",
-    "year": 2024,
-    "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-09-19T16:09:01.089647+00:00",
-    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.474Z",
     "created_by": null,
     "questions": [
       {
@@ -542,6 +82,32 @@
     "pass_score": 36,
     "is_published": true,
     "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.478Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e7dfeb60-9e71-5912-8e2c-0828e345b98c",
+    "category_id": "ky1",
+    "title": "2021年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2021,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.483Z",
+    "created_by": null,
     "questions": [
       {
         "count": 45
@@ -564,6 +130,8 @@
     "pass_score": 36,
     "is_published": true,
     "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.470Z",
+    "created_by": null,
     "questions": [
       {
         "count": 45
@@ -572,6 +140,486 @@
     "passages": [
       {
         "count": 6
+      }
+    ]
+  },
+  {
+    "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
+    "category_id": "ky1",
+    "title": "2020年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2020,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.484Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
+    "category_id": "ky1",
+    "title": "2019年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2019,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.471Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
+    "category_id": "ky1",
+    "title": "2018年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2018,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.483Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "4fd42872-4822-5786-8d16-0317051bf03d",
+    "category_id": "ky1",
+    "title": "2017年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2017,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.470Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "666cdb4e-7fd3-53c2-8c91-a12fa3160c09",
+    "category_id": "ky1",
+    "title": "2016年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2016,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.472Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "865e5af8-24a4-58e1-bc9e-640f32d8e946",
+    "category_id": "ky1",
+    "title": "2015年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2015,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.475Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "240cc48a-439b-5d27-8464-f7dc53e060dc",
+    "category_id": "ky1",
+    "title": "2014年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2014,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.466Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+    "category_id": "ky1",
+    "title": "2013年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2013,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.473Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
+    "category_id": "ky1",
+    "title": "2012年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2012,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.477Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "111d6c78-81a1-53dc-a039-dad4c94ebd35",
+    "category_id": "ky1",
+    "title": "2011年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2011,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.460Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e5abf09b-e94d-5994-b944-7c5711cd4e4d",
+    "category_id": "ky1",
+    "title": "2010年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2010,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.482Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "9369aa41-c91e-548c-bf99-1ad46a07ac25",
+    "category_id": "ky1",
+    "title": "2009年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2009,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.476Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "d80926ab-1841-5d1f-a999-56773986c46d",
+    "category_id": "ky1",
+    "title": "2008年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2008,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.479Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e560bab8-4d9a-5149-a93f-1ee1d7bf4225",
+    "category_id": "ky1",
+    "title": "2007年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2007,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.481Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "c6e9dbac-6148-532e-90d2-2a8d3682a6ac",
+    "category_id": "ky1",
+    "title": "2006年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2006,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.478Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "d8ba7d14-5305-538d-b81b-f0f7ef3db461",
+    "category_id": "ky1",
+    "title": "2005年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2005,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.479Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+    "category_id": "ky1",
+    "title": "2004年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2004,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.469Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "91ff038a-e3f9-5b6d-82c5-1328735be1d1",
+    "category_id": "ky1",
+    "title": "2003年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2003,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.475Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "e1b9d134-9546-55ab-9a60-c7e5b04046a3",
+    "category_id": "ky1",
+    "title": "2002年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2002,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.480Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
+      }
+    ]
+  },
+  {
+    "id": "2c892204-071f-5943-86be-d49bca93fe71",
+    "category_id": "ky1",
+    "title": "2001年 全国硕士研究生招生考试 英语（一）全卷",
+    "year": 2001,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "approval_status": "approved",
+    "created_at": "2026-10-03T15:02:19.467Z",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 40
+      }
+    ],
+    "passages": [
+      {
+        "count": 5
       }
     ]
   }

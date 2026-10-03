@@ -299,19 +299,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "genre"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "criterion"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "circumstances"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "functions"
         }
       ],
       "correct_answer": "A",
@@ -629,19 +629,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "carry （on）继续（做某事）；进行，举行，经营"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "put （on）穿上，戴上；增加；演出，举办；装作，假装"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "build （on）用……作为进一步发展的基础，将……继续推进"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "take （on）呈现（某种性质、样子等），装成；决定做，承担"
         }
       ],
       "correct_answer": "A",
@@ -659,19 +659,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "idle"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "risky"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "familiar"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "effective"
         }
       ],
       "correct_answer": "A",
@@ -1199,19 +1199,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "an exclusive study of American history"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "greater emphasis on theoretical subjects"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "the application of emerging technologies"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "funding for the study of foreign languages"
         }
       ],
       "correct_answer": "A",
@@ -1289,24 +1289,37 @@
       "options": [
         {
           "key": "A",
-          "text": "、"
+          "text": "Some archaeological sites have always been easily observable — for example, the Parthenon in Athens or the Colosseum in Rome."
         },
         {
           "key": "B",
-          "text": "段段首In another"
-        },
-        {
-          "key": "D",
-          "text": "段首句Surveys 一词指代不"
+          "text": "In another case, American archaeologist René Millon spent decades conducting intensive surface surveys at Teotihuacán in Mexico."
         },
         {
           "key": "C",
-          "text": "、"
+          "text": "How do archaeologists know where to dig? The simple answer is that they don't always know, relying on preliminary survey strategies."
+        },
+        {
+          "key": "D",
+          "text": "Surveys can cover a single large settlement or an entire regional landscape to reconstruct ancient demographic patterns."
+        },
+        {
+          "key": "E",
+          "text": "To find their sites, archaeologists today rely heavily on systematic ground reconnaissance and modern remote-sensing technologies."
+        },
+        {
+          "key": "F",
+          "text": "Most archaeological sites, however, are undiscovered until modern building or agricultural work inadvertently exposes them."
+        },
+        {
+          "key": "G",
+          "text": "Ground surveys allow archaeologists to pinpoint potential subsurface structures by systematically recording artifact scatters."
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "\n41.本题考查知识点：首段特点及作用\n［选项推测］文首段通常用于引入主题或交代与主题相关的背景，内容相对独立，不应存在与上文 \n相衔接的内容，也不应存在文意缺漏现象。纵观各段，［A］、［E］段已确定位置，［B］段段首In another \ncase和［F］段首句however均体现与上文衔接关系，不能作为首段；而［D］段首句Surveys 一词指代不 \n明，作为首段过于突兀。\n51\n\n［答案敲定］由上文分析可知，［C］、［G］段为备选项。\n若［C］段为首段，可与［A］段构成“设问引题-铺垫背景”的逻辑顺序：［C］段设问引题“考古学家遗址 \n搜寻办法”,并暗示指出“有迹可循条件下可肉眼观测，无迹可寻条件下则通过勘测及抽样（即试掘）方式”， \n［A］随后铺陈背景，明晰三种遗址发现方式（一、地表有迹可循，二、仔细搜寻，三、偶然发现），其中第一种完 \n全对应［C］段nothing visible on the surface of the ground暗藏之意。另外,设问也是常用的开篇方法。\n若［G］段为首段，那么与［A］段构成“地面勘测及其高科技手段-考古遗址三种发现途径”衔接。而 \n仔细研读会发现,［G］段ground surveys应该涵盖在［A］段第二种方式“仔细搜查”当中，故排除。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "a808db7c-4bcc-5778-beae-3ee750455ac8",
@@ -1319,36 +1332,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Some archaeological sites have always been easily observable — for example, the Parthenon in Athens or the Colosseum in Rome."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In another case, American archaeologist René Millon spent decades conducting intensive surface surveys at Teotihuacán in Mexico."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "How do archaeologists know where to dig? The simple answer is that they don't always know, relying on preliminary survey strategies."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Surveys can cover a single large settlement or an entire regional landscape to reconstruct ancient demographic patterns."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "To find their sites, archaeologists today rely heavily on systematic ground reconnaissance and modern remote-sensing technologies."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Most archaeological sites, however, are undiscovered until modern building or agricultural work inadvertently exposes them."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Ground surveys allow archaeologists to pinpoint potential subsurface structures by systematically recording artifact scatters."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n42. 本题考查知识点：上下文衔接\n［选项推测］本段位于已定位的［ALEE］段之间，故应从这两个已知段落入手。［A］段介绍的三种 \n途径中，第一、三种都以事例加以说明，而占比很大的第二种却并未被佐证，暗示下文将具体介绍“考古 \n学家如何费时费力仔细搜寻发现遗址”；［E］段介绍现在考古用到的方法和手段，提示上文可能涉及以前 \n考古用到的方法和手段。纵观剩余段落（［F］、［B］、［D］、［G］段），［F］段所示事例及考古方法手段更为 \n贴近。\n［答案敲定］由上文分析可知，［F］段可能与［A］段衔接。\n［F］ 段指出“大多数遗址需要考古学家花费数年专门仔细搜寻才最终被发现”，与［A］段所述两种考 \n古捷径正好形成转折关系，［F］段首句however所示段际逻辑关系成立。同时，［F］段列举的例子中，过 \n去的考古学家只能通过仔细考察碎石瓦砾、排査古董商店等传统方法来寻找遗址的蛛丝马迹，与［E］段 \n“现在考古学家主要依靠系统的勘测方法和高科技手段搜寻遗址”在时间上、内容上都衔接紧密，合乎 \n逻辑。",
-      "points": 2
+      "points": 2,
+      "correct_option": "F"
     },
     {
       "id": "0e9ced20-a885-509d-a594-0d3262b85c84",
@@ -1361,36 +1375,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Some archaeological sites have always been easily observable — for example, the Parthenon in Athens or the Colosseum in Rome."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In another case, American archaeologist René Millon spent decades conducting intensive surface surveys at Teotihuacán in Mexico."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "How do archaeologists know where to dig? The simple answer is that they don't always know, relying on preliminary survey strategies."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Surveys can cover a single large settlement or an entire regional landscape to reconstruct ancient demographic patterns."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "To find their sites, archaeologists today rely heavily on systematic ground reconnaissance and modern remote-sensing technologies."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Most archaeological sites, however, are undiscovered until modern building or agricultural work inadvertently exposes them."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Ground surveys allow archaeologists to pinpoint potential subsurface structures by systematically recording artifact scatters."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n43. 本题考查知识点：上下文衔接\n［选项推测］根据已定位的［E］段内容“当代考古高科技手段，并列举空中勘测技术手段及可定位大 \n致目标区域”可知，本段可能探及更为精准的定位手段。纵观剩余段落（［B］、［D］、［G］段），［G］段所示 \n“地面勘测可准确定位有效挖掘位置”更为贴合。\n［答案敲定］由上文分析可知，［G］段可能与［E］段衔接。\n［G］ 段首Ground surveys与［E］段末句Aerial surveys相对，分别介绍\"用于大致定位考古遗址的空 \n中勘测”和“用于准确定位考古遗址的地面勘测”，两者衔接符合考古勘测的一般步骤“先粗略后精 \n准”，照应［E］首句中systematic survey（系统性勘测）；另外，两段均涉及两种勘测方法所用到的高科 \n技技术，也与［E］首句中a variety of high-technology tools and techniques相照应，两段构成\"总一分\" \n结构。",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     },
     {
       "id": "0e70767f-fa64-5965-a820-48c2e00983e0",
@@ -1403,36 +1418,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Some archaeological sites have always been easily observable — for example, the Parthenon in Athens or the Colosseum in Rome."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In another case, American archaeologist René Millon spent decades conducting intensive surface surveys at Teotihuacán in Mexico."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "How do archaeologists know where to dig? The simple answer is that they don't always know, relying on preliminary survey strategies."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Surveys can cover a single large settlement or an entire regional landscape to reconstruct ancient demographic patterns."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "To find their sites, archaeologists today rely heavily on systematic ground reconnaissance and modern remote-sensing technologies."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Most archaeological sites, however, are undiscovered until modern building or agricultural work inadvertently exposes them."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Ground surveys allow archaeologists to pinpoint potential subsurface structures by systematically recording artifact scatters."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n44\n\n第三至七段介绍最主要的考古遗址发现途径“仔细搜寻”，其中第三段举例说明过去的考古方法，第 \n四至七段介绍现在的考古新方法、新技术。\n潼二语篇分析\n[A]❶ Some archaeological0 sites have always been \neasily observable — for example, the Parthenon② in \nAthens, Greece； the pyramids③ of Giza in Egypt5 and the \nmegaliths④ of Stonehenge® in southern England・ ❷ But \nthese sites are exceptions to the norm. ©Most \narchaeological sites have been located® by means of® careful \nsearching, while many others have been discovered by \naccident. OOlduvai Gorge, an early hominid⑧ site in \nTanzania, was found by a butterfly hunter who literally® \nfell into its deep valley in 1911. © Thousands of Aztec \nartifacts came to light during the digging of the Mexico \nCity subway in the 1970s・\n[A]有些考古遗址一直都很容易被观 \n测到，如希腊雅典的帕提侬神庙、埃及的吉 \n萨金字塔、英格兰南部的巨石阵。但这些 \n遗址都属于特例。多数考古遗址是经过仔 \n细搜寻才被勘定的，而许多其他一些考古 \n遗址则是偶然间被发现的。奥杜威峡谷， \n一处位于坦桑尼亚的史前人类遗址，是在 \n1911年被一个确实掉进这条深谷的捕蝶 \n人发现的。上千件阿芝特克手工艺品则是 \n在20世纪70年代开凿墨西",
-      "points": 2
+      "points": 2,
+      "correct_option": "E"
     },
     {
       "id": "d05406ef-7404-5e73-b7ab-3a5e2f6b0763",
@@ -1445,36 +1461,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Some archaeological sites have always been easily observable — for example, the Parthenon in Athens or the Colosseum in Rome."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In another case, American archaeologist René Millon spent decades conducting intensive surface surveys at Teotihuacán in Mexico."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "How do archaeologists know where to dig? The simple answer is that they don't always know, relying on preliminary survey strategies."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Surveys can cover a single large settlement or an entire regional landscape to reconstruct ancient demographic patterns."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "To find their sites, archaeologists today rely heavily on systematic ground reconnaissance and modern remote-sensing technologies."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Most archaeological sites, however, are undiscovered until modern building or agricultural work inadvertently exposes them."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Ground surveys allow archaeologists to pinpoint potential subsurface structures by systematically recording artifact scatters."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n45\n\n第二种“通过仔细搜寻勘定”未有具体事例证明，而这种途径实际占比最大（Most）,暗示后文将有详细说 \n明，且根据其定位信息（文章第二段）可推知第二种途径可能是全文重点研讨对象。\n[BJ OIn another case, American archaeologists\nRene Million and George Cowgill spent years \nsystematically mapping0 the entire city o£ \nTeotihuacan in the Valley of Mexico near what is now \nMexico City.❷ At its peak around AD 600, this city \nwas one of the largest human settlements② in the \nworld. ©The researchers mapped not only the city's \nvast and ornate ③ ceremonial ④ areas, but also \nhundreds of simpler apartment complexes® where \ncommon people lived.\n[B]再举个实例，美国考古学家勒内・米利 \n翁和乔治・考吉尔花费数年时间对位于今墨西 \n哥城附近的墨西哥谷中的整个特奥蒂瓦坎城进 \n行了系统测绘。这座城市在公元600年前后达 \n到鼎盛，是当时世界上最大人类居住地之一。 \n研究人员不仅测绘了这座城市广阔华丽的礼仪 \n区域，而且还测绘了几百处更为简陋的平民住 \n宅群。\n[•词汇注释与难句分析\n① map [msep] s绘制（某地区的）地图 \n》④ceremonial [seri'maumal] a,礼仪的，仪式的\n② settlement ['setalmant] n.定居点 \n? \n⑤complex ['kompleks] n.综合楼群\n③ ornate [oi'neit] a.华丽的，豪华的，华美的 \n5\n•语篇分析./\n[B]段",
-      "points": 2
+      "points": 2,
+      "correct_option": "G"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

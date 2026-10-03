@@ -239,19 +239,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "conclude"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "matter"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "indicate"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "work"
         }
       ],
       "correct_answer": "A",
@@ -299,19 +299,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "awareness"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "expectation"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "sentiment"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "illusion"
         }
       ],
       "correct_answer": "A",
@@ -419,19 +419,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "Contrary to"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "Consistent with"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "Parallel with"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "Peculiar to"
         }
       ],
       "correct_answer": "A",
@@ -809,24 +809,25 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "Newspapers of the Good Old Days"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "The Lost Horizon in Newspapers"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "Mournful Decline of Journalism"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "Prominent Critics in Memory"
         }
       ],
       "correct_answer": "A",
       "explanation": "\n25. What would be the best title for the text?\n25.本文最好的题目是什么？\n[A] Newspapers of the Good Old Days\n［A］报纸令人追忆的美好时代\n15\n",
-      "points": 2
+      "points": 2,
+      "correct_option": "B"
     },
     {
       "id": "8e77bc21-2629-5f9e-95ad-5d14895a772a",
@@ -1229,19 +1230,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "misinterpreted market price indicators"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "exaggerated the real value of their assets"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "neglected the likely existence of bad debts"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "denied booking losses in their sale of assets"
         }
       ],
       "correct_answer": "A",
@@ -1288,25 +1289,38 @@
       "stem": "本题考核的知识点是：首段的作用",
       "options": [
         {
-          "key": "C",
-          "text": "such variations指代上文内容、"
-        },
-        {
-          "key": "D",
-          "text": "A11 in all表承上总结、"
-        },
-        {
           "key": "A",
-          "text": "通过介绍“消费者两种相反就餐趋势”来反映“食品批发需求和零售需求的增长”，若作为首段，"
+          "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
-          "text": "先介绍“欧洲食品零售业陷入停滞、零售商多方努力仍成效甚微”的大背景，之后给出作者观点"
+          "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
+        },
+        {
+          "key": "C",
+          "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
+        },
+        {
+          "key": "D",
+          "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
+        },
+        {
+          "key": "E",
+          "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
+        },
+        {
+          "key": "F",
+          "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
+        },
+        {
+          "key": "G",
+          "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "B",
       "explanation": "\n41. 本题考核的知识点是：首段的作用\n［选项推测］文章首段的作用是交代背景，或引入主题，以备后文论述。其特点是内容相对独立完 \n整，一般不会岀现与上文衔接的词语，而［C］such variations指代上文内容、［D］A11 in all表承上总结、［F］ \nFor example表承上例证,［G］However表承上转折，均体现选项与上文存在联系，可不做考虑。\n［答案敲定］由上文分析可知为首段备选项。\n［A］ 通过介绍“消费者两种相反就餐趋势”来反映“食品批发需求和零售需求的增长”，若作为首段， \n则下文必定对食品批发和零售（市场）进行比较分析，两者在全文地位同等重要，但纵观备选段落发现全 \n文明显侧重论述“批发市场”，指出“批发市场前景广阔、有利可图”，［A］的内容与全文主旨不符；另外 \n［A］中The first and more important省略了某名词，表明与上文存在一定衔接，不能作为首段，故排除。\n［B］ 先介绍“欧洲食品零售业陷入停滞、零售商多方努力仍成效甚微”的大背景，之后给出作者观点 \n“零售商可转向食品饮料批发市场来寻求新发展”，内容上相对独立、完整，可以作为首段；这种“由背景 \n引入观点”的行文是议论文较为常见的开篇方式，作者观点是全文论述中心，而剩余选项几乎全部围绕 \n“批发市场有钱可赚、零售商应转至搞批发”展开，故［B］能够起到总领全文的作用，敲定为本题答案。\n45.本题考核的知识点是：上下文衔接\n［选项推测］已经给出位置的［E］末句提到“食品批发市场和零售市场虽然增长趋势相同，但却反映 \n两种相反的趋势”，可推知下文很可能具体说明这两种相反趋势是什么。\n［答案敲定］由上文分析可知，［A］［C］［F］为本题备选项。\n［A］以Meanwhile为分界线，介绍“消费者两种相反就餐趋势”，并指出“消费者外出就餐增长趋势” \n促使食品批发需求明显增长、“消费者选择在家就餐的趋势”则促进零售需求，也即［A］通过介绍“消费者 \n两种相反就餐趋势”来反映“食品批发需求和零售需求相同增长趋势背后的不同原因”，与［E］末句相契 \n合，能够起到解释说明",
-      "points": 2
+      "points": 2,
+      "correct_option": "B"
     },
     {
       "id": "f08bbf61-beb5-5c79-9650-c71cac547b1f",
@@ -1319,36 +1333,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n42. 本题考核的知识点是：上下文的衔接\n［选项推测］已经确定位置的［B］提出作者观点“食品饮料零售商可转向批发市场获利”，推知下文 \n可能就该话题做岀具体说明。\n51\n\n［答案敲定］由上文分析可知，［F］可能与［B］衔接。\n［F］先举例“欧洲国家食品饮料批发市场的销售额比零售额高出很多，即批发市场规模大、利润多”, \n与［B］中作者观点相契合;再进一步分析该市场有钱可赚的三点因素“利润高、需求大、易整合”,从而间 \n接鼓励零售商加入其中，可见［F］是通过举例和说理的方式具体说明作者观点，故确定［F］为本题答案。",
-      "points": 2
+      "points": 2,
+      "correct_option": "F"
     },
     {
       "id": "1aadf998-e327-5eda-a9a2-12e41785d4f7",
@@ -1361,36 +1376,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n43.本题考核的知识点是\n：上下文衔接+内容一致\n［选项推测］已经确定位置的［F］以例证和说理方式说明“食品饮料批发市场有利可图”，下文可能 \n介绍这些零售商如何做才能获利。\n［答案敲定］由上文分析可知，［C］ ［D］可能与［F］衔接。\n［C］ 首句指代词such variations在单纯语义上可以回指［F］中changes in the... industry,但［C］由 \n“这一变化”谈及市场结构和买卖关系，明显脱离了本文关键词“零售商/批发市场”，故排除。\n［D］ 首句先行总结上文“这显然是一个对大型零售商有利的市场”，与［F］主旨一致，指代词this... \nmarket可以回指［F］中this fragmented industry,即食品批发市场；［D］之后具体介绍零售商应如何做、 \n满足哪些条件才能获利(Retailers that master... Big retailers must understand.. . are needed, too)，行文 \n逻辑顺畅合理，故为本题答案。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "2a7c5a8c-f4f9-586b-8425-52c7086d8634",
@@ -1403,36 +1419,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "G",
       "explanation": "\n44.本题考核的知识点是\n：逻辑衔接+代词指代\n［选项推测］已经确定位置的［D］指出“大型零售商需满足多个条件才能获利”，推测后文可能介绍 \n零售商是否满足这些条件、可能遇到哪些问题，也可能介绍其他方面。\n［答案敲定］由上文分析可知，［G］可能与［D］衔接。\n［G］中 these requirements 可回指［D］中\"多个条件/要求”;［G］和［D］中 master the intricacies of \nwholesaling in Europe 复现，stand to reap considerable gains 近义替换 may well expect to rake in \nsubstantial profits,两段行文逻辑为：虽然零售商要获利需具备上述多个条件，但只要零售商满足“掌握 \n欧洲批发业的复杂流程”这一首要条件就能赚取巨额利润.However体现的转折关系成立，故［G］正确。\n至此，全文顺序确定为】B］—［F］—［D］—［G］—［E］—［A］。\n(四)通读检验。\n层次关系是否恰当。\n在上述排序的基础之上，再通读一遍，检查思路是否清晰连贯，结构是否完整，段间 \n在整体审视之后，方最终确定。\n",
-      "points": 2
+      "points": 2,
+      "correct_option": "G"
     },
     {
       "id": "2ae6e28f-e683-5318-8f19-3175dc8b5f2d",
@@ -1445,24 +1462,37 @@
       "options": [
         {
           "key": "A",
-          "text": "以Meanwhile为分界线，介绍“消费者两种相反就餐趋势”，并指出“消费者外出就餐增长趋势”"
-        },
-        {
-          "key": "C",
-          "text": "首句such variations虽然复现"
+          "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
-          "text": "提出作者观点“食品饮料零售商可转向批发市场获利”，推知下文"
+          "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
+        },
+        {
+          "key": "C",
+          "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
-          "text": "可能与"
+          "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
+        },
+        {
+          "key": "E",
+          "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
+        },
+        {
+          "key": "F",
+          "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
+        },
+        {
+          "key": "G",
+          "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "\n45.本题考核的知识点是：上下文衔接\n［选项推测］已经给出位置的［E］末句提到“食品批发市场和零售市场虽然增长趋势相同，但却反映 \n两种相反的趋势”，可推知下文很可能具体说明这两种相反趋势是什么。\n［答案敲定］由上文分析可知，［A］［C］［F］为本题备选项。\n［A］以Meanwhile为分界线，介绍“消费者两种相反就餐趋势”，并指出“消费者外出就餐增长趋势” \n促使食品批发需求明显增长、“消费者选择在家就餐的趋势”则促进零售需求，也即［A］通过介绍“消费者 \n两种相反就餐趋势”来反映“食品批发需求和零售需求相同增长趋势背后的不同原因”，与［E］末句相契 \n合，能够起到解释说明的作用，故敲定为本题答案。\n［C］ 首句such variations虽然复现［E］首句中的variations -词，但分析后发现［C］主要谈及“市场结 \n构”和“买卖关系”（buyer/seller）,并未涉及本文关键词“零售商/批发市场”，可见［C］偏离文章主旨；另外 \n［E］首句仅提到“欧洲各国的批发市场在细节上有所变化”，但并未具体说明有哪些变化之处，后文未再 \n涉及variations,因此［C］若接在［E］后，such variations在［E］中无指代对象，故排除。\n［F］首句涉及数字和百分比，考生可能会误认为是对［E］末句\"增长率\"（growing at the same sluggish \npace）的具体说明，但［E］末句提及“批发市场和零售市场”，而［F］仅围绕“批发市场”展开说明，并未具体 \n说明“零售市场”，与［E］不能衔接，故排除。\n（三） 借助路标词和各段大意确定其他段落位置。\n42. 本题考核的知识点是：上下文的衔接\n［选项推测］已经确定位置的［B］提出作者观点“食品饮料零售商可转向批发市场获利”，推知下文 \n可能就该话题做岀具体说明。\n51\n\n［答案敲定］由上文分析可知，［F］可能与［B］衔接。\n［F］先举例“欧洲国家食品饮料批发市场的销售额比零售额高出很多，即批发市场规模大、利润多”, \n与［B］中作者观点相契合;再进一步分析该市场有钱可赚的三点因素“利润高",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

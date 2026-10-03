@@ -299,24 +299,25 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "partially"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "regularly"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "easily"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "initially"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 8 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 0.5
+      "points": 0.5,
+      "correct_option": "A"
     },
     {
       "id": "3d5ed04b-0098-5362-8f66-40016a9b4266",
@@ -329,19 +330,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "Unless"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "Since"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "If"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "While"
         }
       ],
       "correct_answer": "A",
@@ -539,19 +540,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "made"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "served"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "saved"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "used"
         }
       ],
       "correct_answer": "A",
@@ -599,19 +600,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "reluctantly"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "entirely"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "gradually"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "carefully"
         }
       ],
       "correct_answer": "A",
@@ -659,19 +660,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "follow up （with）随后做"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "pick up"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "open up"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "end up (with)"
         }
       ],
       "correct_answer": "A",
@@ -989,19 +990,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "help little to reduce gender bias"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "pose a threat to the state government"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "raise women's position in politics"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "将第三段②句ensure that elite women have more such opportunities（确保精英女性有更多机会进入政府"
         }
       ],
       "correct_answer": "A",
@@ -1019,19 +1020,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "It has irritated private business owners."
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "It is welcomed by the Supreme Court."
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "It may go against the Constitution."
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "It will settle the prior controversies."
         }
       ],
       "correct_answer": "A",
@@ -1135,28 +1136,29 @@
       "category_id": "ky1",
       "sort_order": 36,
       "q_type": "reading_item",
-      "stem": "Question 36",
+      "stem": "The French Senate has passed a bill to",
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "regulate digital services platforms"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "protect French companies' interests"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "impose a levy on tech multinationals"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "curb the influence of advertising"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 36 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "995340e6-4989-534a-aa07-49f68089bae5",
@@ -1165,28 +1167,29 @@
       "category_id": "ky1",
       "sort_order": 37,
       "q_type": "reading_item",
-      "stem": "Question 37",
+      "stem": "It can be learned from Paragraph 2 that the digital services tax",
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "may trigger countermeasures against France"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "is apt to arouse criticism at home and abroad"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "aims to promote fair competition in multilateral trade"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "will be applied to all international enterprises in France"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 37 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     },
     {
       "id": "c8bd875b-50a6-590c-8ae8-d22b3691e8b9",
@@ -1199,19 +1202,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "redistribution of tech giants' revenue must be ensured"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "the current international tax system needs upgrading"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "tech multinationals* monopoly should be prevented"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "all countries ought to enjoy equal taxing rights"
         }
       ],
       "correct_answer": "A",
@@ -1229,19 +1232,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "is being resisted by US companies"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "needs to be readjusted immediately"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "is faced with uncertain prospects"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "needs to involve more countries"
         }
       ],
       "correct_answer": "A",
@@ -1289,36 +1292,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Ask clarifying questions"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Show that you're listening"
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Find common ground"
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Be comfortable with silence"
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Avoid unsolicited advice"
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Keep an open mind"
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Give your full attention"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 41 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "B"
     },
     {
       "id": "8dc8cea1-bc89-572e-811f-edd2948794c2",
@@ -1331,36 +1335,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Ask clarifying questions"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Show that you're listening"
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Find common ground"
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Be comfortable with silence"
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Avoid unsolicited advice"
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Keep an open mind"
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Give your full attention"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 42 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "1503f7e5-f8c6-51fe-9a68-580ca97966bb",
@@ -1373,36 +1378,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Ask clarifying questions"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Show that you're listening"
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Find common ground"
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Be comfortable with silence"
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Avoid unsolicited advice"
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Keep an open mind"
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Give your full attention"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 43 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     },
     {
       "id": "78bb3908-9675-5444-98cf-50c8f2002395",
@@ -1415,36 +1421,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Ask clarifying questions"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Show that you're listening"
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Find common ground"
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Be comfortable with silence"
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Avoid unsolicited advice"
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Keep an open mind"
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Give your full attention"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 44 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "fdeaaeb4-4c4f-5965-a6ae-a772ac0e6738",
@@ -1457,36 +1464,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Ask clarifying questions"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Show that you're listening"
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Find common ground"
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Be comfortable with silence"
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Avoid unsolicited advice"
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Keep an open mind"
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Give your full attention"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 45 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "E"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

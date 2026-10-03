@@ -149,19 +149,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "restored"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "weakened （使）变弱；削弱"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "established"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "eliminated"
         }
       ],
       "correct_answer": "A",
@@ -299,19 +299,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "evade"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "raise"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "deny"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "settle"
         }
       ],
       "correct_answer": "A",
@@ -805,28 +805,29 @@
       "category_id": "ky1",
       "sort_order": 25,
       "q_type": "reading_item",
-      "stem": "Question 25",
+      "stem": "The author suggests in the last paragraph that the effect of peer pressure is",
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "harmful"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "desirable"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "profound"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "questionable"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 25 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "35d7e665-fe32-5b16-aaea-06fb9b78e39a",
@@ -1199,19 +1200,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "illegally secured"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "indirectly augmented"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "excessively increased"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "fairly adjusted"
         }
       ],
       "correct_answer": "A",
@@ -1289,36 +1290,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Of course, it is precisely these superfluous, creative acts of self-expression that define human culture and ultimately what it is to be human."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "The earliest computer networks were designed primarily for institutional data exchange rather than popular digital creation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Not only did they develop such a machine but by the turn of the millennium they had embedded it in a worldwide networked system."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "This is because networked computers sparked a secret war between downloading and uploading, passive consumption and active creation."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Users quickly realized that personal computers offered unprecedented tools for decentralized artistic and political expression."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Even after the advent of widespread social media, a steep pyramid of production remains, with only a small minority actually uploading content."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The revolutionary potential of the computer lies in its ability to reverse the passive, one-way information flow established by television."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n41.本题考核的知识点是\n：代词指代+上下文衔接。正确率：50%\n【空格推测】空格上句围绕fabulous machine**神奇机器（电脑）”展开，空格下句则转至论述The \nnetworked computer\"联网电脑”，故空格应涉及“将电脑联网”的内容才能起到承上启下的作用。\n",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "323d2555-50aa-5b92-b151-3a5e1ca08056",
@@ -1331,36 +1333,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Of course, it is precisely these superfluous, creative acts of self-expression that define human culture and ultimately what it is to be human."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "The earliest computer networks were designed primarily for institutional data exchange rather than popular digital creation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Not only did they develop such a machine but by the turn of the millennium they had embedded it in a worldwide networked system."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "This is because networked computers sparked a secret war between downloading and uploading, passive consumption and active creation."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Users quickly realized that personal computers offered unprecedented tools for decentralized artistic and political expression."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Even after the advent of widespread social media, a steep pyramid of production remains, with only a small minority actually uploading content."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The revolutionary potential of the computer lies in its ability to reverse the passive, one-way information flow established by television."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n42. 本题考核的知识点是：词汇复现+上下文衔接。正确率：76%\n【空格推测】空格下文分析“我称其为'隐秘战争'的原因''，推测空格内容应涉及“隐秘战争”。\n",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "b9e9e169-97c7-5223-9710-449a14b58e6c",
@@ -1373,24 +1376,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Of course, it is precisely® these superfluous things"
+          "text": "Of course, it is precisely these superfluous, creative acts of self-expression that define human culture and ultimately what it is to be human."
         },
         {
           "key": "B",
-          "text": "Applications like tumblr. com, which allow users"
+          "text": "The earliest computer networks were designed primarily for institutional data exchange rather than popular digital creation."
         },
         {
           "key": "C",
-          "text": "Not only did they develop such a device but by the"
+          "text": "Not only did they develop such a machine but by the turn of the millennium they had embedded it in a worldwide networked system."
         },
         {
           "key": "D",
-          "text": "这是由于联网电脑已经触发了一"
+          "text": "This is because networked computers sparked a secret war between downloading and uploading, passive consumption and active creation."
+        },
+        {
+          "key": "E",
+          "text": "Users quickly realized that personal computers offered unprecedented tools for decentralized artistic and political expression."
+        },
+        {
+          "key": "F",
+          "text": "Even after the advent of widespread social media, a steep pyramid of production remains, with only a small minority actually uploading content."
+        },
+        {
+          "key": "G",
+          "text": "The revolutionary potential of the computer lies in its ability to reverse the passive, one-way information flow established by television."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n(43) \n.\n所有动物都在下载，却只有少数在上 \n传。海狸修筑大坝，鸟儿修筑巢穴。然而， \n就大部分而言，动物王国都是以下载的方式 \n生存。人类的独特之处在于，不仅能够制造 \n工具，还能够反过来利用工具创造额外物质 \n财富—\n绘画、雕塑和建筑—\n以及额外的 \n精神体验一一音乐、文学、宗教和哲学。 \n（43）______________________________ o\n;•词汇注释与难句分析\n① beaver E'biiva] n.海狸 \n》•经典搭配\n② superfluous Esui'paifloas] a,多余的，不必要的 \n》①move through穿过，通过 ,move through the world\n③ sculpture E'skAlptJa] n.雕刻，雕塑 \n| 在文中比喻“动物在世上生存\"\n④ architecture ['a:kitekt/u] n.建筑 \nj ②turn around 反过来，扭转过来\n「•语篇分析•[/\n第五段对比动物，说明“主动创造/上传”乃人类独特之处。前三句通过两次转折（but... Yet）指出 \n虽然少数动物会制造东西（如海狸和鸟），但大部分只能被动下载（即靠消费自然资源生存）。其中②句 \n为对①句only a few upload的例证解释。④句对比说明人类较之动物的独特之处：不仅能制造工具，还 \n能主动用其创造物质财富和精神体验。句中以unique强调人的“独特性”；以superfluous复现（此处 \nsuperfluous贬词褒用：强调人类“强烈的主动创造性”）凸显人类“主动追求更有品质生活”的独特性。随 \n47\n\n后为空格43。根据上文可推测，空格处很可能继续彰显人类独特的“创造/上传性”。\nVI O For all the possibil让ies of our new culture \nmachines, most people are still stuck① in download mode・ ❷ \nEven after the advent② of widespread social ",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     },
     {
       "id": "41bfb899-f894-5cb8-9395-d9b915acac9e",
@@ -1403,36 +1419,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Of course, it is precisely these superfluous, creative acts of self-expression that define human culture and ultimately what it is to be human."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "The earliest computer networks were designed primarily for institutional data exchange rather than popular digital creation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Not only did they develop such a machine but by the turn of the millennium they had embedded it in a worldwide networked system."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "This is because networked computers sparked a secret war between downloading and uploading, passive consumption and active creation."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Users quickly realized that personal computers offered unprecedented tools for decentralized artistic and political expression."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Even after the advent of widespread social media, a steep pyramid of production remains, with only a small minority actually uploading content."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The revolutionary potential of the computer lies in its ability to reverse the passive, one-way information flow established by television."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n44. 本题考核的知识点是：词汇复现+上下文衔接。正确率：55%\n【空格推测】上文指出，人类局限在下载模式中，从而形成了一个“创造金字塔”；下文第七段则转移 \n对象介绍电视的特点“信息单向流动”，推测空格可能承上阐释“创造金字塔”的影响、原因等，也可能承 \n上启下，由“创造金字塔”过渡至“电视”。\n",
-      "points": 2
+      "points": 2,
+      "correct_option": "F"
     },
     {
       "id": "220b6004-a3bc-5f67-8ff9-c08db95dc684",
@@ -1445,36 +1462,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Of course, it is precisely these superfluous, creative acts of self-expression that define human culture and ultimately what it is to be human."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "The earliest computer networks were designed primarily for institutional data exchange rather than popular digital creation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Not only did they develop such a machine but by the turn of the millennium they had embedded it in a worldwide networked system."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "This is because networked computers sparked a secret war between downloading and uploading, passive consumption and active creation."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Users quickly realized that personal computers offered unprecedented tools for decentralized artistic and political expression."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Even after the advent of widespread social media, a steep pyramid of production remains, with only a small minority actually uploading content."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The revolutionary potential of the computer lies in its ability to reverse the passive, one-way information flow established by television."
         }
       ],
       "correct_answer": "A",
       "explanation": "\n45\nI ©Think of those fleeting® moments when you \nlook out of an aeroplane window and realise that you \nare flying, higher than a bird・ ❷ Now think of your \nlaptop②，thinner than a brown-paper1 envelope④，or \nyour cellphone in the palm of your hand・ ❸ Take a \nmoment or two to wonder at those marvels ・ O You \nare the lucky inheritor'1 of a dream come true.\n\n科技堪称奇迹，值得思考”。those marvelsC概指上文 aeroplane. . . laptop. . . cellphone）结合 wonder at（对 \n……感到惊讶）传达作者对这些科技产品的惊叹。④句语义递进，指出“当代人类是业已成真的科技梦 \n想的继承者\"。a dream come true （ come true：过去分词做定语，表75完成）基于those marvels \n（aeroplane... laptop... cellphone）而来，提炼其共性可知大概指代“计算机技术的实现”，但完全确定具 \n体所指有待下文。the lucky inheritor侧面表达作者对这一科学突破之于人类意义的肯定。\nII ❶ The second half of the 20th century saw a \ncollection of geniuses, warriors, entrepreneurs0 and \nvisionaries② laboui•③ to create a fabulous machine that \ncould function as a typewriter and printing press, studio0 \nand th",
-      "points": 2
+      "points": 2,
+      "correct_option": "G"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

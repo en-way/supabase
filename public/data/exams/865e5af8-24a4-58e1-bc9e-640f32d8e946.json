@@ -299,19 +299,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "resemble"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "influence"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "favor"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "surpass"
         }
       ],
       "correct_answer": "A",
@@ -419,19 +419,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "drive"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "observe"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "confuse"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "limit"
         }
       ],
       "correct_answer": "A",
@@ -479,24 +479,25 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "chances"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "responses"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "missions"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "benefits"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 14 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 0.5
+      "points": 0.5,
+      "correct_option": "D"
     },
     {
       "id": "2d007370-c85c-5194-aba6-63df127bb8b7",
@@ -599,19 +600,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "endeavor"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "decision"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "arrangement"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "tendency"
         }
       ],
       "correct_answer": "A",
@@ -629,24 +630,25 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "political"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "religious"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "ethnic"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "economic"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 19 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 0.5
+      "points": 0.5,
+      "correct_option": "C"
     },
     {
       "id": "c8a163e0-a704-5587-9620-0f7977d60f86",
@@ -659,19 +661,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "see"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "show"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "prove"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "tell"
         }
       ],
       "correct_answer": "A",
@@ -989,19 +991,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "Science intends to simplify its peer-review process"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "journals are strengthening their statistical checks"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "few journals are blamed for mistakes in data analysis"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "lack of data analysis is common in research projects"
         }
       ],
       "correct_answer": "A",
@@ -1139,19 +1141,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "the consequences of the current sorting mechanism"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "companies, financial loss due to immoral practices"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "governmental ineffectiveness on moral issues"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "the wide misuse of integrity among institutions"
         }
       ],
       "correct_answer": "A",
@@ -1169,19 +1171,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "Glenn Mulcaire may deny phone hacking as a crime"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "more journalists may be found guilty of phone hacking"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "Andy Coulson should be held innocent of the charge"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "phone hacking will be accepted on certain occasions"
         }
       ],
       "correct_answer": "A",
@@ -1199,19 +1201,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "was hardly convincing"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "centered on trivial issues"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "revealed a cunning personality"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "was part of a conspiracy"
         }
       ],
       "correct_answer": "A",
@@ -1289,36 +1291,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Are we studying that text and trying to respond in a way that respects its historical context and original communicative purpose?"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Factors such as the place and historical period in which we live, our age, gender, and social status inevitably shape our interpretation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "If you are unfamiliar with archaic words or idioms, you can look them up in historical dictionaries and scholarly annotations."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "In effect, you try to reconstruct the likely meaning of the text for its original contemporary audience."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Readers continue deeper inference, considering whether the text addresses perennial human concerns that transcend its immediate era."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "In drama, fiction, and narrative poetry, characters' words and actions must be interpreted through their specific dramatic roles."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Rather, we ascribe meanings to texts on the basis of our own perceptions, expectations, and modern cultural assumptions."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 41 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "E"
     },
     {
       "id": "0ecc8a47-66b8-5167-8710-9e309abe2a65",
@@ -1331,36 +1334,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Are we studying that text and trying to respond in a way that respects its historical context and original communicative purpose?"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Factors such as the place and historical period in which we live, our age, gender, and social status inevitably shape our interpretation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "If you are unfamiliar with archaic words or idioms, you can look them up in historical dictionaries and scholarly annotations."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "In effect, you try to reconstruct the likely meaning of the text for its original contemporary audience."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Readers continue deeper inference, considering whether the text addresses perennial human concerns that transcend its immediate era."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "In drama, fiction, and narrative poetry, characters' words and actions must be interpreted through their specific dramatic roles."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Rather, we ascribe meanings to texts on the basis of our own perceptions, expectations, and modern cultural assumptions."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 42 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "77536439-e408-5e2f-8e68-15d1142b6680",
@@ -1373,36 +1377,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Are we studying that text and trying to respond in a way that respects its historical context and original communicative purpose?"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Factors such as the place and historical period in which we live, our age, gender, and social status inevitably shape our interpretation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "If you are unfamiliar with archaic words or idioms, you can look them up in historical dictionaries and scholarly annotations."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "In effect, you try to reconstruct the likely meaning of the text for its original contemporary audience."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Readers continue deeper inference, considering whether the text addresses perennial human concerns that transcend its immediate era."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "In drama, fiction, and narrative poetry, characters' words and actions must be interpreted through their specific dramatic roles."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Rather, we ascribe meanings to texts on the basis of our own perceptions, expectations, and modern cultural assumptions."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 43 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "G"
     },
     {
       "id": "e3a3ac32-94f8-529c-8017-16988cb02e86",
@@ -1415,36 +1420,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Are we studying that text and trying to respond in a way that respects its historical context and original communicative purpose?"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Factors such as the place and historical period in which we live, our age, gender, and social status inevitably shape our interpretation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "If you are unfamiliar with archaic words or idioms, you can look them up in historical dictionaries and scholarly annotations."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "In effect, you try to reconstruct the likely meaning of the text for its original contemporary audience."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Readers continue deeper inference, considering whether the text addresses perennial human concerns that transcend its immediate era."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "In drama, fiction, and narrative poetry, characters' words and actions must be interpreted through their specific dramatic roles."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Rather, we ascribe meanings to texts on the basis of our own perceptions, expectations, and modern cultural assumptions."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 44 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "B"
     },
     {
       "id": "a3d12945-219b-54ca-b8a9-a86647b5be0f",
@@ -1457,36 +1463,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Are we studying that text and trying to respond in a way that respects its historical context and original communicative purpose?"
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "Factors such as the place and historical period in which we live, our age, gender, and social status inevitably shape our interpretation."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "If you are unfamiliar with archaic words or idioms, you can look them up in historical dictionaries and scholarly annotations."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "In effect, you try to reconstruct the likely meaning of the text for its original contemporary audience."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Readers continue deeper inference, considering whether the text addresses perennial human concerns that transcend its immediate era."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "In drama, fiction, and narrative poetry, characters' words and actions must be interpreted through their specific dramatic roles."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Rather, we ascribe meanings to texts on the basis of our own perceptions, expectations, and modern cultural assumptions."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 45 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

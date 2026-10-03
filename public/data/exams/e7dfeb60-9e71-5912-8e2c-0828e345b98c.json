@@ -119,19 +119,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "alternative^引出第二种选择或可能的建议）要不，或者"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "formally"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "accidentally"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "generally"
         }
       ],
       "correct_answer": "A",
@@ -359,19 +359,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "lived (on)"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "managed (on)"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "scored (on)"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "played (on)"
         }
       ],
       "correct_answer": "A",
@@ -479,19 +479,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "alter"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "spread"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "remove"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "explain"
         }
       ],
       "correct_answer": "A",
@@ -599,19 +599,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "well-being"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "process il"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "formation"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "coordination"
         }
       ],
       "correct_answer": "A",
@@ -629,19 +629,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "level"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "love"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "knowledge"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "space"
         }
       ],
       "correct_answer": "A",
@@ -659,19 +659,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "design"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "routine"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "diet"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "prescription"
         }
       ],
       "correct_answer": "A",
@@ -1019,19 +1019,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "They are in popular use among historians・"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "They are rare among photographs of that age・"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "They mirror 19th-century social conventions・"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "They show effects of different exposure times・"
         }
       ],
       "correct_answer": "A",
@@ -1135,28 +1135,29 @@
       "category_id": "ky1",
       "sort_order": 36,
       "q_type": "reading_item",
-      "stem": "Question 36",
+      "stem": "There has long been concern that broadband providers would",
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "bring web-based firms under control"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "slow down the traffic on their network"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "show partiality in treating clients"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "intensify competition with their rivals"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 36 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "b59e2edb-8039-5fb4-96a1-a6f398578784",
@@ -1169,19 +1170,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "sticks to an out-of-date order"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "takes an anti-regulatory stance"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "has issued a special resolution"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "has allowed the states to intervene"
         }
       ],
       "correct_answer": "A",
@@ -1199,19 +1200,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "It protects against unfair competition."
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "It engages in anti-competitive practices・"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "It is under the FCC's investigation."
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "It is in pursuit of quality service・"
         }
       ],
       "correct_answer": "A",
@@ -1289,36 +1290,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Such commercial funding priorities encouraged top universities to behave like corporate enterprises rather than civic sanctuaries."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In stark contrast, nineteenth-century colleges had prioritized liberal-arts instruction, character formation, and moral tutelage."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The post-war expansion of major research universities fundamentally transformed the institutional mission of global higher education."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Professorial status and tenure decisions became tightly linked to external research grants, patent generation, and citation metrics."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This institutional reorientation altered the very definition of what it meant to pursue a successful academic career."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Federal research subsidies surged during the Cold War, cementing university laboratories as key engines of technological dominance."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Critics argue that undergraduate classroom teaching has been unfairly marginalized in the relentless pursuit of prestige."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 41 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "f2e64196-d69e-5cfb-9032-f077f96e3461",
@@ -1331,36 +1333,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Such commercial funding priorities encouraged top universities to behave like corporate enterprises rather than civic sanctuaries."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In stark contrast, nineteenth-century colleges had prioritized liberal-arts instruction, character formation, and moral tutelage."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The post-war expansion of major research universities fundamentally transformed the institutional mission of global higher education."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Professorial status and tenure decisions became tightly linked to external research grants, patent generation, and citation metrics."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This institutional reorientation altered the very definition of what it meant to pursue a successful academic career."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Federal research subsidies surged during the Cold War, cementing university laboratories as key engines of technological dominance."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Critics argue that undergraduate classroom teaching has been unfairly marginalized in the relentless pursuit of prestige."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 42 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "F"
     },
     {
       "id": "3c7d917d-0e91-5bf7-8360-9a3964717b54",
@@ -1373,36 +1376,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Such commercial funding priorities encouraged top universities to behave like corporate enterprises rather than civic sanctuaries."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In stark contrast, nineteenth-century colleges had prioritized liberal-arts instruction, character formation, and moral tutelage."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The post-war expansion of major research universities fundamentally transformed the institutional mission of global higher education."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Professorial status and tenure decisions became tightly linked to external research grants, patent generation, and citation metrics."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This institutional reorientation altered the very definition of what it meant to pursue a successful academic career."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Federal research subsidies surged during the Cold War, cementing university laboratories as key engines of technological dominance."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Critics argue that undergraduate classroom teaching has been unfairly marginalized in the relentless pursuit of prestige."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 43 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "E"
     },
     {
       "id": "740d2d45-5cf5-51ab-9ee9-67e39b853450",
@@ -1415,36 +1419,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Such commercial funding priorities encouraged top universities to behave like corporate enterprises rather than civic sanctuaries."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In stark contrast, nineteenth-century colleges had prioritized liberal-arts instruction, character formation, and moral tutelage."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The post-war expansion of major research universities fundamentally transformed the institutional mission of global higher education."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Professorial status and tenure decisions became tightly linked to external research grants, patent generation, and citation metrics."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This institutional reorientation altered the very definition of what it meant to pursue a successful academic career."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Federal research subsidies surged during the Cold War, cementing university laboratories as key engines of technological dominance."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Critics argue that undergraduate classroom teaching has been unfairly marginalized in the relentless pursuit of prestige."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 44 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "319e8a88-16b2-54d3-9a30-cdd5f223d922",
@@ -1457,36 +1462,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "Such commercial funding priorities encouraged top universities to behave like corporate enterprises rather than civic sanctuaries."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In stark contrast, nineteenth-century colleges had prioritized liberal-arts instruction, character formation, and moral tutelage."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The post-war expansion of major research universities fundamentally transformed the institutional mission of global higher education."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "Professorial status and tenure decisions became tightly linked to external research grants, patent generation, and citation metrics."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "This institutional reorientation altered the very definition of what it meant to pursue a successful academic career."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Federal research subsidies surged during the Cold War, cementing university laboratories as key engines of technological dominance."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "Critics argue that undergraduate classroom teaching has been unfairly marginalized in the relentless pursuit of prestige."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 45 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

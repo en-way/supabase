@@ -119,19 +119,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "faith"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "concern"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "attention"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "interest"
         }
       ],
       "correct_answer": "A",
@@ -359,24 +359,25 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "counterparts"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "substitutes"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "colleagues"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "supporters"
         }
       ],
       "correct_answer": "A",
       "explanation": "第 10 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 0.5
+      "points": 0.5,
+      "correct_option": "A"
     },
     {
       "id": "8acf846a-8193-5153-bb74-b7e1b2ca9d49",
@@ -599,19 +600,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "forced"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "willing"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "hesitant"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "entitled"
         }
       ],
       "correct_answer": "A",
@@ -629,19 +630,19 @@
       "options": [
         {
           "key": "A",
-          "text": "The primary contextual factor directly reflected in the passage"
+          "text": "In contrast"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "As a result"
         },
         {
           "key": "C",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "On the whole"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "For instance"
         }
       ],
       "correct_answer": "C",
@@ -659,19 +660,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "inflexible"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "incapable"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "unreliable"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "unsuitable"
         }
       ],
       "correct_answer": "A",
@@ -989,19 +990,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "It caused conflicts among tech giants."
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "It failed to pay due attention to patients5 rights."
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "It fell short of the latter's expectations."
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "It put both sides into a dangerous situation."
         }
       ],
       "correct_answer": "A",
@@ -1019,19 +1020,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "empty promises"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "tough resistance"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "necessary adjustments"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "sincere apologies"
         }
       ],
       "correct_answer": "A",
@@ -1109,19 +1110,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "ambiguous"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "cautious"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "appreciative"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "contemptuous"
         }
       ],
       "correct_answer": "A",
@@ -1139,19 +1140,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "its unbalanced budget"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "its rigid management"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "the cost for technical upgrading"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "the withdrawal of bank support"
         }
       ],
       "correct_answer": "A",
@@ -1169,19 +1170,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "the interference from interest groups"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "the inadequate funding from Congress"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "the shrinking demand for postal service"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "the incompetence of postal unions"
         }
       ],
       "correct_answer": "A",
@@ -1199,19 +1200,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "removing its burden of retiree health care"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "making more investment in new vehicles"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "adopting a new rate-increase mechanism"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "attracting more first-class mail users"
         }
       ],
       "correct_answer": "A",
@@ -1289,36 +1290,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 41 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "0b615fef-dc18-5585-b569-0d801ec549bb",
@@ -1331,36 +1333,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 42 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     },
     {
       "id": "950936c5-fad3-5514-a102-d2052d68e5c2",
@@ -1373,36 +1376,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 43 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "F"
     },
     {
       "id": "165a341b-3737-5aa6-b97e-338ecf3dc390",
@@ -1415,36 +1419,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 44 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "B"
     },
     {
       "id": "2c6b3644-0275-589b-9f6c-57821b0c3509",
@@ -1457,36 +1462,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 45 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"

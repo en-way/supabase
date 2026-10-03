@@ -89,19 +89,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "将①②句 中 passionate consumers will.. . voice their opinions. . . more damaging ways. .. make"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "是对第五段②句 the images. . . contributing to our own dissatisfactions with"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "是第三段③句that children are the single most important thing in the world 暗含的\"社会大众\""
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "是第三段③句obviously their （childless folks'）misery must be...暗含的\"社会大众\"观点\"无孩"
         }
       ],
       "correct_answer": "A",
@@ -299,19 +299,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "hardens"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "weakens"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "tightensC"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "relaxes（使）放松"
         }
       ],
       "correct_answer": "A",
@@ -599,19 +599,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "adapted"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "catered"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "turned"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "reacted"
         }
       ],
       "correct_answer": "A",
@@ -629,19 +629,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "suggesting"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "requiring"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "mentioning"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "supposing"
         }
       ],
       "correct_answer": "A",
@@ -659,19 +659,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "Eventually"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "Consequently"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "Similarly"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "Conversely"
         }
       ],
       "correct_answer": "A",
@@ -809,19 +809,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "doubtful"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "enthusiastic"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "confident"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "puzzled"
         }
       ],
       "correct_answer": "A",
@@ -899,19 +899,19 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "approved of"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "attended to"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "hunted for"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "guarded against"
         }
       ],
       "correct_answer": "A",
@@ -959,24 +959,25 @@
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "CEOs: Where to Go?"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "CEOs: All the Way Up?"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "Top Managers Jump without a Net"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "The Only Way Out for Top Performers"
         }
       ],
       "correct_answer": "A",
       "explanation": "\n30. Which of the following is the best title for the text?\n30.以下哪一项是本文最好的标题？\n[A] CEOs: Where to Go?\nEA］首席执行官们：路在何方？\n[B] CEOs： All the Way Up?\n［B］首席执行官们：一路高升？\n23\n \n",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "fe46b7e8-3330-5941-b4ee-6c3c4192d575",
@@ -1225,28 +1226,29 @@
       "category_id": "ky1",
       "sort_order": 39,
       "q_type": "reading_item",
-      "stem": "Question 39",
+      "stem": "According to Paragraph 4, the message conveyed by celebrity magazines is",
       "options": [
         {
           "key": "A",
-          "text": "Authentic verified standard key option according to official analysis"
+          "text": "soothing"
         },
         {
           "key": "B",
-          "text": "The alternative perspective discussed in the relevant paragraphs"
+          "text": "ambiguous"
         },
         {
           "key": "C",
-          "text": "The theoretical contrast emphasized by the author"
+          "text": "compensatory"
         },
         {
           "key": "D",
-          "text": "The consequential outcome highlighted in the conclusion"
+          "text": "misleading"
         }
       ],
       "correct_answer": "A",
       "explanation": "\n39\n \n\nIV O Of course, the image of parenthood that \ncelebrity magazines like Us Weekly and People present \nis hugely unrealistic, especially when the parents are \nsingle mothers like Bullock. ❷ According to several \nstudies concluding that parents are less happy than \nchildless couples, single parents are the least happy of \nall. ©No shock there, considering how much work it is \nto raise a kid without a partner to lean on； yet to hear \nSandra and Britney tell it, raising a kid on their \"own\" \n（read： with round-the-clock help） is a piece of cake.\nL-词汇注释与难句分析• M\n• 经典搭配 \n》③round-the-clock（日夜不停，夜以继日的）\n① lean on（依赖，依靠） \n{ ④a piece of cake（小菜一碟）\n② on one's own（独自） \n《\n「•语篇分析•匚必\n《我们周刊》、《人物》等名人杂志中呈现出 \n来的为人父母形象当然非常不现实，尤其当母 \n亲是布洛克这样的单亲妈妈时更是如此。数 \n项结论为“为人父母者不如无子女夫妻幸福” \n的研究表明，单亲父母最不幸福。这并没有什 \n么可震惊的，想想看没有伴侣可依靠、独自一 \n人养育孩子需要付出多大艰辛；但听听（杂志 \n上）桑德拉、布兰妮怎么说，“独自”抚养孩子 \n（解读：24小时有人帮忙）简直就是小菜一碟。\n第四段批驳媒体影响下的社会流行育儿观的“",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "ff3308ca-7618-5e09-9517-a8ea4c1e1997",
@@ -1289,36 +1291,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "No disciplines have seized on professionalism with as much enthusiasm as the humanities, where doctoral completion often takes nine arduous years."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "His concern is mainly with the humanities: literature, languages, philosophy and so on, which seem increasingly alienated from modern undergraduates."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Equally unsurprisingly, only about half of humanities doctoral graduates end up securing tenure-track teaching posts in universities."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "One reason why it is hard to design and teach such courses is that they cut across the rigid compartmentalization enforced by top universities."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Besides professionalising the professions by this separation, top American universities have thoroughly professionalised the professorate."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "The key to reforming higher education, concludes Mr. Menand, is to alter the way in which the producers of knowledge are produced."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by prospective doctoral students."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 41 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "B"
     },
     {
       "id": "21994d31-2332-5b52-870d-b1528d2c922e",
@@ -1331,36 +1334,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "No disciplines have seized on professionalism with as much enthusiasm as the humanities, where doctoral completion often takes nine arduous years."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "His concern is mainly with the humanities: literature, languages, philosophy and so on, which seem increasingly alienated from modern undergraduates."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Equally unsurprisingly, only about half of humanities doctoral graduates end up securing tenure-track teaching posts in universities."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "One reason why it is hard to design and teach such courses is that they cut across the rigid compartmentalization enforced by top universities."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Besides professionalising the professions by this separation, top American universities have thoroughly professionalised the professorate."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "The key to reforming higher education, concludes Mr. Menand, is to alter the way in which the producers of knowledge are produced."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by prospective doctoral students."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 42 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "D"
     },
     {
       "id": "270e02ea-18ef-57bf-ba58-c7e0e6d7eb5f",
@@ -1373,36 +1377,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "No disciplines have seized on professionalism with as much enthusiasm as the humanities, where doctoral completion often takes nine arduous years."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "His concern is mainly with the humanities: literature, languages, philosophy and so on, which seem increasingly alienated from modern undergraduates."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Equally unsurprisingly, only about half of humanities doctoral graduates end up securing tenure-track teaching posts in universities."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "One reason why it is hard to design and teach such courses is that they cut across the rigid compartmentalization enforced by top universities."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Besides professionalising the professions by this separation, top American universities have thoroughly professionalised the professorate."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "The key to reforming higher education, concludes Mr. Menand, is to alter the way in which the producers of knowledge are produced."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by prospective doctoral students."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 43 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "A"
     },
     {
       "id": "f38a7899-ec92-5444-b74d-e57cc497560b",
@@ -1415,36 +1420,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "No disciplines have seized on professionalism with as much enthusiasm as the humanities, where doctoral completion often takes nine arduous years."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "His concern is mainly with the humanities: literature, languages, philosophy and so on, which seem increasingly alienated from modern undergraduates."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Equally unsurprisingly, only about half of humanities doctoral graduates end up securing tenure-track teaching posts in universities."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "One reason why it is hard to design and teach such courses is that they cut across the rigid compartmentalization enforced by top universities."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Besides professionalising the professions by this separation, top American universities have thoroughly professionalised the professorate."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "The key to reforming higher education, concludes Mr. Menand, is to alter the way in which the producers of knowledge are produced."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by prospective doctoral students."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 44 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "C"
     },
     {
       "id": "2f14705a-e885-5edf-96b5-0a1dfd2ae55a",
@@ -1457,36 +1463,37 @@
       "options": [
         {
           "key": "A",
-          "text": "Paragraph A: The underlying psychological mechanisms and social contexts"
+          "text": "No disciplines have seized on professionalism with as much enthusiasm as the humanities, where doctoral completion often takes nine arduous years."
         },
         {
           "key": "B",
-          "text": "Paragraph B: Initial experimental observations and empirical findings"
+          "text": "His concern is mainly with the humanities: literature, languages, philosophy and so on, which seem increasingly alienated from modern undergraduates."
         },
         {
           "key": "C",
-          "text": "Paragraph C: Comparative analysis between traditional and modern methodologies"
+          "text": "Equally unsurprisingly, only about half of humanities doctoral graduates end up securing tenure-track teaching posts in universities."
         },
         {
           "key": "D",
-          "text": "Paragraph D: Counter-arguments and theoretical challenges raised by contemporary critics"
+          "text": "One reason why it is hard to design and teach such courses is that they cut across the rigid compartmentalization enforced by top universities."
         },
         {
           "key": "E",
-          "text": "Paragraph E: Long-term sociological implications for organizational development"
+          "text": "Besides professionalising the professions by this separation, top American universities have thoroughly professionalised the professorate."
         },
         {
           "key": "F",
-          "text": "Paragraph F: Practical recommendations for future institutional policymakers"
+          "text": "The key to reforming higher education, concludes Mr. Menand, is to alter the way in which the producers of knowledge are produced."
         },
         {
           "key": "G",
-          "text": "Paragraph G: Concluding perspectives on balanced structural evolution"
+          "text": "The subtle and intelligent little book The Marketplace of Ideas: Reform and Resistance in the American University should be read by prospective doctoral students."
         }
       ],
       "correct_answer": "A",
       "explanation": "第 45 题官方解析与答案详解：正确答案为 [A]。",
-      "points": 2
+      "points": 2,
+      "correct_option": "F"
     }
   ],
   "exportedAt": "2026-10-02T22:00:00.000Z"
