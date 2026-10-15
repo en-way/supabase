@@ -355,7 +355,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "8.\n\n【A】 Therefore 因此 【B】 Furthermore 此外 【C】 However 然而 【D】 Meanwhile 同时\n\n【考点提炼】上下文逻辑关系。正确率：23%\n\n【解题思路】空格句指出，______ ，与没有进行实验时的数据比较发现，工人的产出总是在周一上升。\n\n也即，做实验还是不做实验，工人产出情况都一样；本次实验结果无疑令人意外，能体现这一逻辑的只有\n\n【C】,用于“引出对比以及令人吃惊的内容”。\n\n【错项排除】【A】用于“引出前述内容的逻辑性结果或结论”；【B】用于“引出新信息或观点以补充或\n\n支持前述内容”，但空格句与上文明显不是因果或递进关系。【D】利用其“对比两方面内容”这一用法进\n\n行干扰，但这种对比尤指“完全相反、且同时发生的两方面情况”；而文中涉及的对比是\"做实验VS未做\n\n实验”这一前提条件，结果其实一致，其次两方面内容并非“同时发生\"，而是“先后发生”。\n\n1",
+      "explanation": "8. [A] awareness 意识 [B] expectation 预期 [C] sentiment 观点 [D] illusion 错觉\n[考点提炼]名词辨析。正确率：43%\n[解题思路]本句中that引导的同位语从句解释空格词。联系上段末句the very act of being experimented upon changed subject's behavior...可知，此处重申\"霍桑效应\"的概念；四项都涉及\"主观思维”，可以推知“被试本身之所以会改变行为，是通过影响其思维实现的”，再结合上文“照明无论如何变，效率都提高”可判定：工人因为知道了自己正在受试，所以行为改变，[A]符合文意。\n[错项排除][B]表示“对未来情况的预期”，与文中过去进行时态不匹配；或指对事情的“期望或指望”，而文中“他们正被当作实验对象”是真实情况，而非实验对象的期望。[C]表示“对某事物的观点、意见或感想”，但空格后that从句是对事实的客观阐述。[D]表示“错误的观念”，或表示“幻想的事物”；而文中that从句显然是客观事实。",
       "points": 0.5,
       "sort_order": 8,
       "answer": "A"
@@ -821,7 +821,7 @@
       "passage_id": "617af397-6632-5f9b-82d5-b9388d9bbb12",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Newspaper reviews in England before World",
+      "stem": "Newspaper reviews in England before World War II were characterized by ________.",
       "options": [
         {
           "key": "A",
@@ -856,7 +856,7 @@
       "passage_id": "617af397-6632-5f9b-82d5-b9388d9bbb12",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Which of the following would Shaw and Newman",
+      "stem": "Which of the following would Shaw and Newman most probably agree on?",
       "options": [
         {
           "key": "A",
@@ -891,7 +891,7 @@
       "passage_id": "617af397-6632-5f9b-82d5-b9388d9bbb12",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "What can be learned about Cardus according to the",
+      "stem": "What can be learned about Cardus according to the last two paragraphs?",
       "options": [
         {
           "key": "A",
@@ -961,7 +961,7 @@
       "passage_id": "6c969315-eaf7-55c2-867f-73543fe33ff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Business-method patents have recently aroused",
+      "stem": "Business-method patents have recently aroused concern because of ________.",
       "options": [
         {
           "key": "A",
@@ -1066,7 +1066,7 @@
       "passage_id": "6c969315-eaf7-55c2-867f-73543fe33ff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "We learn from the last two paragraphs that",
+      "stem": "We learn from the last two paragraphs that business-method patents ________.",
       "options": [
         {
           "key": "A",
@@ -1276,7 +1276,7 @@
       "passage_id": "d92f03fb-836e-5e00-b5cf-98625e07171f",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "What is the essential element in the dynamics of",
+      "stem": "What is the essential element in the dynamics of social influence?",
       "options": [
         {
           "key": "A",
@@ -1346,7 +1346,7 @@
       "passage_id": "9dc10314-cec1-55df-ab57-10c3a373d2df",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to the author, the rule changes of",
+      "stem": "According to the author, the rule changes of the FASB may result in ________.",
       "options": [
         {
           "key": "A",
@@ -1381,7 +1381,7 @@
       "passage_id": "9dc10314-cec1-55df-ab57-10c3a373d2df",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 4, McCreevy objects",
+      "stem": "According to Paragraph 4, McCreevy objects to the IASB's attempt to ________.",
       "options": [
         {
           "key": "A",

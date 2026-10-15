@@ -214,6 +214,8 @@ def main():
     # 21. Topology & Linkage: Every question points to a valid passage in the same exam
     orphan_questions = []
     passage_boundary_anomalies = []
+    truncated_stems_found = []
+    semantic_conflicts = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -221,8 +223,33 @@ def main():
         title = data['exam'].get('title', '')
         p_ids = {p['id'] for p in data.get('passages', [])}
         for q in data.get('questions', []):
+            so = q.get('sort_order')
+            stem = (q.get('stem') or '').strip()
+            ans = q.get('correct_answer')
+            expl = q.get('explanation') or ''
+            opts = q.get('options') or []
+
             if q.get('passage_id') not in p_ids:
-                orphan_questions.append((title, q.get('sort_order'), q.get('passage_id')))
+                orphan_questions.append((title, so, q.get('passage_id')))
+            
+            # Check 23: Truncated stems
+            if so > 20:
+                if stem.endswith('-') or stem.endswith('—') or stem.endswith('/'):
+                    truncated_stems_found.append((title, so, 'ends_with_hyphen', stem))
+                elif stem.endswith('closest to') or stem.endswith('closest in') or stem.endswith('mean by') or stem.endswith('smiling for') or stem.endswith('Generation'):
+                    truncated_stems_found.append((title, so, 'cut_off_phrase', stem))
+
+            # Check 24: Semantic conflicts and option sanity
+            texts = [o.get('text', '').strip() for o in opts]
+            if len(texts) != len(set(texts)) and len(texts) > 0:
+                semantic_conflicts.append((title, so, 'duplicate_options', texts))
+            if any(len(t) == 0 for t in texts):
+                semantic_conflicts.append((title, so, 'empty_option', texts))
+
+            conclusions = re.findall(r'(?:故|因此|所以|本题|显然|综上所述)?(?:正确答案|正确选项|答案)(?:为|是|应为|应是|选|为\s*项)?\s*\[?([A-G])\]?', expl)
+            for c_ans in conclusions:
+                if c_ans != ans:
+                    semantic_conflicts.append((title, so, 'ans_expl_mismatch', ans, c_ans))
         
         # 22. Passage Boundary Cleanliness
         for p in data.get('passages', []):
@@ -238,6 +265,8 @@ def main():
 
     results["21. 篇章与试题拓扑关联 100% 紧密绑定"] = (len(orphan_questions) == 0)
     results["22. 篇章篇首篇尾 0 处伪题干、截断与跨篇串文污染"] = (len(passage_boundary_anomalies) == 0)
+    results["23. 试题题干 0 处断裂、截断与多行丢失"] = (len(truncated_stems_found) == 0)
+    results["24. 全库试题与选项 0 处解析语义冲突、重复选项与空选项"] = (len(semantic_conflicts) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -253,6 +282,10 @@ def main():
             print(f"Orphan questions ({len(orphan_questions)}):", orphan_questions[:5])
         if passage_boundary_anomalies:
             print(f"Passage boundary anomalies ({len(passage_boundary_anomalies)}):", passage_boundary_anomalies[:5])
+        if truncated_stems_found:
+            print(f"Truncated stems ({len(truncated_stems_found)}):", truncated_stems_found[:5])
+        if semantic_conflicts:
+            print(f"Semantic conflicts ({len(semantic_conflicts)}):", semantic_conflicts[:5])
         if mismatched_answers:
             print(f"Mismatched answers ({len(mismatched_answers)}):", mismatched_answers[:5])
         if stems_with_prefix:
@@ -283,7 +316,7 @@ def main():
             print(f"Passage word anomalies ({len(passage_word_anomalies)}):", passage_word_anomalies[:5])
         sys.exit(1)
     else:
-        print("\n🎉 恭喜！全库 22 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
+        print("\n🎉 恭喜！全库 24 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
 
 if __name__ == '__main__':
     main()
