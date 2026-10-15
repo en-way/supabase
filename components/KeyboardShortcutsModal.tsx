@@ -25,6 +25,16 @@ export default function KeyboardShortcutsModal({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [isOpen, onClose]);
 
+  // Lock body scroll when modal is active
+  useEffect(() => {
+    if (!isOpen) return;
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const shortcutGroups = [
@@ -61,12 +71,12 @@ export default function KeyboardShortcutsModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-150"
+      className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in duration-150 overflow-y-auto overscroll-contain"
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
     >
-      <div className="bg-white dark:bg-[#11131a] rounded-3xl border border-black/[0.08] dark:border-cyan-500/25 p-6 shadow-2xl w-full max-w-lg flex flex-col animate-in zoom-in-95 duration-150">
+      <div className="bg-white dark:bg-[#11131a] rounded-3xl border border-black/[0.08] dark:border-cyan-500/25 p-6 shadow-2xl w-full max-w-lg max-h-[85vh] max-h-[85dvh] flex flex-col animate-in zoom-in-95 duration-150">
         {/* Header */}
         <div className="flex items-center justify-between pb-4 border-b border-stone-100 dark:border-zinc-800">
           <div className="flex items-center space-x-2.5">
@@ -91,7 +101,7 @@ export default function KeyboardShortcutsModal({
         </div>
 
         {/* Shortcuts List */}
-        <div className="py-4 space-y-4 max-h-[60vh] overflow-y-auto pr-1">
+        <div className="py-4 space-y-4 max-h-[60vh] max-h-[60dvh] overflow-y-auto overscroll-contain pr-1">
           {shortcutGroups.map((group, gIdx) => (
             <div key={gIdx} className="space-y-2">
               <h4 className="text-[11px] font-bold text-stone-400 dark:text-zinc-500 uppercase tracking-wider">

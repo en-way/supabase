@@ -332,6 +332,17 @@ function ExamContent() {
     }
   }, [focusedIndex, questions, passages]);
 
+  // Mobile drawer body scroll lock & overscroll containment
+  useEffect(() => {
+    if (showMobileAnswerSheet || showSubmitReviewSheet) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [showMobileAnswerSheet, showSubmitReviewSheet]);
+
   const handleSelectAnswer = (qId: string, optionKey: string) => {
     if (isSubmitted) return;
     const { remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
@@ -800,10 +811,10 @@ function ExamContent() {
       {/* PC Dual-Pane Layout (Mobile Tabbed / SplitPane) */}
       {(() => {
         const leftPane = passages.length > 0 ? (
-          <div className={`${mobileTab === "passage" || isSubmitted ? "flex" : "hidden"} lg:flex w-full bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card overflow-hidden flex-col lg:sticky lg:top-36 h-[72vh] lg:h-[78vh] print-page transition-colors duration-300`}>
+          <div className={`${mobileTab === "passage" || isSubmitted ? "flex" : "hidden"} lg:flex w-full bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card overflow-hidden flex-col lg:sticky lg:top-36 h-[calc(100dvh-12rem)] min-h-[360px] lg:h-[78vh] print-page transition-colors duration-300`}>
             {/* Passage Selector Bar & Font Zoom Controls */}
             <div className="px-5 py-2.5 border-b border-stone-100 dark:border-zinc-800 bg-stone-50/70 dark:bg-zinc-900/70 flex items-center justify-between shrink-0 no-print">
-              <div className="flex items-center space-x-1.5 overflow-x-auto">
+              <div className="flex items-center space-x-1.5 overflow-x-auto no-scrollbar">
                 <BookOpen className="w-3.5 h-3.5 text-stone-500 dark:text-zinc-400 shrink-0" />
                 {passages.map((p, idx) => {
                   const label = (() => {
@@ -1278,7 +1289,7 @@ function ExamContent() {
           }}
         >
           <div 
-            className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] w-full max-w-xl flex flex-col animate-in slide-in-from-bottom duration-200"
+            className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-xl flex flex-col animate-in slide-in-from-bottom duration-200"
           >
             <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
               <div>
@@ -1297,7 +1308,7 @@ function ExamContent() {
               </button>
             </div>
 
-            <div className="flex-1 overflow-y-auto py-4 space-y-4 pr-1">
+            <div className="flex-1 overflow-y-auto overscroll-contain py-4 space-y-4 pr-1">
               {examSection1.length > 0 && (
                 <div>
                   <div className="text-[11px] font-bold text-stone-400 dark:text-zinc-500 mb-2 uppercase tracking-wider flex items-center justify-between">
@@ -1392,7 +1403,7 @@ function ExamContent() {
             if (e.target === e.currentTarget) setShowSubmitReviewSheet(false);
           }}
         >
-          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 sm:p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] w-full max-w-lg flex flex-col animate-in slide-in-from-bottom duration-200">
+          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 sm:p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-lg flex flex-col animate-in slide-in-from-bottom duration-200">
             {/* Header */}
             <div className="flex items-center justify-between pb-3.5 border-b border-stone-100 dark:border-zinc-800">
               <div className="flex items-center space-x-2">
@@ -1408,7 +1419,7 @@ function ExamContent() {
             </div>
 
             {/* Content: Summary Stats & Unanswered list */}
-            <div className="py-4 space-y-4 overflow-y-auto">
+            <div className="py-4 space-y-4 overflow-y-auto overscroll-contain">
               <div className="grid grid-cols-2 gap-3">
                 <div className="p-3.5 rounded-2xl bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-500/30">
                   <span className="text-[11px] font-medium text-emerald-700 dark:text-emerald-400">已作答试题</span>

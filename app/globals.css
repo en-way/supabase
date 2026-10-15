@@ -30,6 +30,26 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 
+html {
+  overscroll-behavior-y: none;
+}
+
+/* Fast tap response: eliminate 300ms tap delay and optimize gesture responsiveness */
+button,
+a,
+input,
+select,
+textarea,
+[role="button"] {
+  touch-action: manipulation;
+}
+
+/* Modal and drawer overscroll isolation to eliminate background scroll chaining */
+.overscroll-contain {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

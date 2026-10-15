@@ -212,6 +212,37 @@ def check_11_exam_scoring_weights_and_metadata_consistency():
 
     return "已验证 41 套真题题目分值累加和、大纲满分 (50/60分) 与及格基准线 (30/36分) 100% 严密自洽"
 
+def check_12_mobile_viewport_gesture_and_scroll_isolation():
+    """断言 12: 移动端视口动态适配、手势冲突守卫与全域滚动穿透隔离锁死 (dvh / overscroll-contain / touch-action / body scroll lock)"""
+    css_path = os.path.join(REPO_ROOT, "app", "globals.css")
+    with open(css_path, "r", encoding="utf-8") as fp:
+        css = fp.read()
+    assert "touch-action: manipulation" in css, "globals.css 缺少 touch-action: manipulation 快速触控消除 300ms 延迟规则"
+    assert "overscroll-behavior-y: none" in css, "globals.css 缺少 overscroll-behavior-y: none 橡皮筋穿透防护"
+    assert ".overscroll-contain" in css, "globals.css 缺少 .overscroll-contain 容器防滚动穿透样式"
+
+    exam_path = os.path.join(REPO_ROOT, "app", "exam", "page.tsx")
+    with open(exam_path, "r", encoding="utf-8") as fp:
+        exam_code = fp.read()
+    assert "max-h-[85dvh]" in exam_code, "app/exam/page.tsx 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
+    assert "overscroll-contain" in exam_code, "app/exam/page.tsx 缺少 overscroll-contain 抽屉滚动防穿透"
+    assert "showMobileAnswerSheet || showSubmitReviewSheet" in exam_code and "document.body.style.overflow = \"hidden\"" in exam_code, "app/exam/page.tsx 抽屉缺少 body 滚动锁"
+
+    practice_path = os.path.join(REPO_ROOT, "app", "practice", "page.tsx")
+    with open(practice_path, "r", encoding="utf-8") as fp:
+        practice_code = fp.read()
+    assert "max-h-[85dvh]" in practice_code, "app/practice/page.tsx 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
+    assert "overscroll-contain" in practice_code, "app/practice/page.tsx 缺少 overscroll-contain 抽屉滚动防穿透"
+    assert "showAnswerSheet || showPassageSheet || showShortcutsModal" in practice_code and "document.body.style.overflow = \"hidden\"" in practice_code, "app/practice/page.tsx 抽屉缺少 body 滚动锁"
+    assert "if (showAnswerSheet || showPassageSheet || showShortcutsModal) return;" in practice_code, "app/practice/page.tsx handleTouchEnd 缺少抽屉打开态手势切题阻断"
+
+    popover_path = os.path.join(REPO_ROOT, "components", "DictionaryPopover.tsx")
+    with open(popover_path, "r", encoding="utf-8") as fp:
+        popover_code = fp.read()
+    assert "env(safe-area-inset-bottom)" in popover_code, "components/DictionaryPopover.tsx 移动端底部缺少 safe-area-inset-bottom 安全区与底栏避让"
+
+    return "已验证全局 touch-action、动态 dvh 视口、抽屉 body 滚动锁定、手势误切题阻断与安全区避让 100% 锁死"
+
 def run_all_assertions():
     assertions = [
         ("1. 存储桶 RLS InitPlan 优化", check_1_storage_rls_initplan),
@@ -225,10 +256,11 @@ def run_all_assertions():
         ("9. 源码零硬编码机密与私钥泄露", check_9_zero_secrets_in_code),
         ("10. LocalStorage 存储配额超限优雅降级", check_10_storage_quota_resilience),
         ("11. 试卷分值权重与满分及格线严格自洽", check_11_exam_scoring_weights_and_metadata_consistency),
+        ("12. 移动端动态视口、手势防冲突与防滚动穿透", check_12_mobile_viewport_gesture_and_scroll_isolation),
     ]
 
     print("=" * 70)
-    print("🚀 [系统安全防线与架构韧性] 11 项核心断言自动化验证启动")
+    print("🚀 [系统安全防线与架构韧性] 12 项核心断言自动化验证启动")
     print("=" * 70)
 
     all_passed = True
@@ -245,7 +277,7 @@ def run_all_assertions():
 
     print("=" * 70)
     if all_passed:
-        print("🎉 恭喜！全系统 11 项核心安全防线与架构韧性断言 100% 全部通过！无漏洞残留！")
+        print("🎉 恭喜！全系统 12 项核心安全防线与架构韧性断言 100% 全部通过！无漏洞残留！")
         return 0
     else:
         print("🚨 警告：存在未通过的安全断言，请立即排查修复！")

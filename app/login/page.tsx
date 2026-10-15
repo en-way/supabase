@@ -116,6 +116,17 @@ export default function LoginPage() {
     loadSettings();
   }, []);
 
+  // Body scroll lock when forgot password modal is open
+  useEffect(() => {
+    if (showForgotModal) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [showForgotModal]);
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg("");
@@ -505,8 +516,8 @@ export default function LoginPage() {
 
       {/* Forgot Password Modal */}
       {showForgotModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in">
-          <div className="w-full max-w-md bg-white dark:bg-[#11131a] rounded-2xl shadow-2xl border border-black/[0.08] dark:border-cyan-500/25 p-6 relative transition-colors duration-300">
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in overflow-y-auto overscroll-contain">
+          <div className="w-full max-w-md max-h-[90dvh] overflow-y-auto overscroll-contain bg-white dark:bg-[#11131a] rounded-2xl shadow-2xl border border-black/[0.08] dark:border-cyan-500/25 p-6 relative transition-colors duration-300">
             {/* Modal Header */}
             <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
               <div className="flex items-center space-x-2">

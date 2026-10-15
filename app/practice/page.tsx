@@ -83,6 +83,10 @@ function PracticeContent() {
     const deltaY = e.changedTouches[0].clientY - touchStartRef.current.y;
     touchStartRef.current = null;
 
+    // Do not trigger question swipe if any drawer/modal is active or user is selecting text
+    if (showAnswerSheet || showPassageSheet || showShortcutsModal) return;
+    if (typeof window !== "undefined" && window.getSelection()?.toString().trim()) return;
+
     // Minimum 48px horizontal displacement with >1.8 ratio against vertical scroll to prevent false triggers
     if (Math.abs(deltaX) > 48 && Math.abs(deltaX) > Math.abs(deltaY) * 1.8) {
       if (deltaX < 0) {
@@ -98,6 +102,17 @@ function PracticeContent() {
       }
     }
   };
+
+  // Mobile drawer body scroll lock & overscroll containment
+  useEffect(() => {
+    if (showAnswerSheet || showPassageSheet || showShortcutsModal) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [showAnswerSheet, showPassageSheet, showShortcutsModal]);
 
   useEffect(() => {
     async function loadExam() {
@@ -942,7 +957,7 @@ function PracticeContent() {
             if (e.target === e.currentTarget) setShowPassageSheet(false);
           }}
         >
-          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] flex flex-col animate-in slide-in-from-bottom duration-200">
+          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200">
             <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
               <div className="flex items-center space-x-2 truncate pr-2">
                 <BookOpen className="w-4 h-4 text-emerald-600 dark:text-cyber-400 shrink-0" />
@@ -968,7 +983,7 @@ function PracticeContent() {
                 </button>
               </div>
             </div>
-            <div className="flex-1 overflow-y-auto py-3 leading-relaxed text-stone-800 dark:text-zinc-200 font-serif whitespace-pre-line selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30">
+            <div className="flex-1 overflow-y-auto overscroll-contain py-3 leading-relaxed text-stone-800 dark:text-zinc-200 font-serif whitespace-pre-line selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30">
               <div className={largeFont ? "text-lg leading-[2.1]" : "text-[15px] leading-[1.85]"}>
                 {relatedPassage.content}
               </div>
@@ -995,7 +1010,7 @@ function PracticeContent() {
             if (e.target === e.currentTarget) setShowAnswerSheet(false);
           }}
         >
-          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-w-xl w-full max-h-[85vh] flex flex-col animate-in slide-in-from-bottom duration-200">
+          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-w-xl w-full max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200">
             {/* Header */}
             <div className="flex items-center justify-between pb-3.5 border-b border-stone-100 dark:border-zinc-800">
               <div>
@@ -1022,7 +1037,7 @@ function PracticeContent() {
             </div>
 
             {/* Sheet Content: Categorized Sections */}
-            <div className="flex-1 overflow-y-auto py-4 space-y-4 pr-1">
+            <div className="flex-1 overflow-y-auto overscroll-contain py-4 space-y-4 pr-1">
               {/* Section 1: Use of English */}
               {section1.length > 0 && (
                 <div>

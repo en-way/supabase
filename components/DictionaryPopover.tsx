@@ -320,7 +320,7 @@ export default function DictionaryPopover() {
         isMobile
           ? {
               position: "fixed",
-              bottom: "1rem",
+              bottom: "max(4.75rem, calc(4rem + env(safe-area-inset-bottom)))",
               left: "0.75rem",
               right: "0.75rem",
               zIndex: 9999,

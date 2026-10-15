@@ -353,6 +353,17 @@ export default function MistakesPage() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [sideBySideItem, filteredMistakes, questionMap]);
 
+  // Lock body scroll when Side-by-Side Review Studio is active
+  useEffect(() => {
+    if (sideBySideItem) {
+      const originalOverflow = document.body.style.overflow;
+      document.body.style.overflow = "hidden";
+      return () => {
+        document.body.style.overflow = originalOverflow;
+      };
+    }
+  }, [sideBySideItem]);
+
   // Export as Plain Text File (.txt)
   const handleExportTxt = () => {
     if (filteredMistakes.length === 0) {
@@ -689,7 +700,7 @@ export default function MistakesPage() {
       {/* ========================================================================= */}
       {sideBySideItem && (
         <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-150">
-          <div className="bg-white dark:bg-[#0d0e15] w-full max-w-[96vw] xl:max-w-7xl h-[95vh] rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-300 dark:border-cyan-500/25">
+          <div className="bg-white dark:bg-[#0d0e15] w-full max-w-[96vw] xl:max-w-7xl h-[95vh] h-[95dvh] rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-300 dark:border-cyan-500/25">
             {/* Studio Header */}
             <div className="px-6 py-3.5 bg-slate-900 dark:bg-[#11131a] text-white flex items-center justify-between shrink-0 border-b border-slate-800 dark:border-cyan-500/20">
               <div className="flex items-center space-x-3">
@@ -816,7 +827,7 @@ export default function MistakesPage() {
                   </div>
 
                   {/* Passage Text Content (Paper reading canvas) */}
-                  <div className="flex-1 p-6 sm:p-8 overflow-y-auto font-serif text-[#2c3e50] dark:text-zinc-200 leading-[1.85] tracking-wide select-text">
+                  <div className="flex-1 p-6 sm:p-8 overflow-y-auto overscroll-contain font-serif text-[#2c3e50] dark:text-zinc-200 leading-[1.85] tracking-wide select-text">
                     <div 
                       style={{ fontSize: `${articleFontSize}px` }} 
                       className="whitespace-pre-line space-y-4 max-w-prose"
@@ -890,7 +901,7 @@ export default function MistakesPage() {
                 </div>
 
                 {/* Right Scrollable Area */}
-                <div className="flex-1 p-6 overflow-y-auto space-y-6">
+                <div className="flex-1 p-6 overflow-y-auto overscroll-contain space-y-6">
                   {/* Stem */}
                   <div>
                     <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-zinc-100 leading-relaxed font-serif">
