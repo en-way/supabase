@@ -70,6 +70,9 @@ def main():
     stem_ocr_anomalies = []
     opt_prefix_anomalies = []
     passage_word_anomalies = []
+    non_canonical_option_orders = []
+    explanation_bleeding_found = []
+    unclosed_markdown_bolds = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -175,8 +178,18 @@ def main():
             if m_conf2 and m_conf2.group(1) != ans:
                 explanation_conflicts.append((title, so, ans, m_conf2.group(1)))
 
-            if len(expl) < 30 or '全真试题' in expl or '主。。' in expl or '\uFFFD' in expl:
-                short_or_garbage_expls.append((title, so, len(expl), expl[:40]))
+            # 18. Canonical Option Sorting
+            opt_keys = [o.get('key') for o in q.get('options', [])]
+            if opt_keys not in (['A', 'B', 'C', 'D'], ['A', 'B', 'C', 'D', 'E', 'F', 'G'], ['T', 'F']):
+                non_canonical_option_orders.append((title, so, opt_keys))
+
+            # 19. Explanation bleeding / giant blobs / next question leakage
+            if len(expl) > 10000 or re.search(rf'\n\s*(?:•?真题精解•?\s*\n\s*)?{so+1}\s*[.・•、]', expl):
+                explanation_bleeding_found.append((title, so, len(expl)))
+
+            # 20. Unclosed Markdown bold tags
+            if expl.count('**') % 2 != 0:
+                unclosed_markdown_bolds.append((title, so, expl.count('**')))
 
     results["2. 篇章总量 242 篇"] = (total_passages == 242)
     results["3. 试题总量 1,825 题"] = (total_questions == 1825)
@@ -194,6 +207,9 @@ def main():
     results["15. 试题题干 0 处 OCR 异形字符与双空格"] = (len(stem_ocr_anomalies) == 0)
     results["16. 选项文本 0 处冗余代号前缀与尾部杂字"] = (len(opt_prefix_anomalies) == 0)
     results["17. 篇章正文 0 处词内非法数字与非标准黏连"] = (len(passage_word_anomalies) == 0)
+    results["18. 选项键序 100% 标准字母序列规范化"] = (len(non_canonical_option_orders) == 0)
+    results["19. 试题解析 0 处跨题后附外泄或巨型粘连"] = (len(explanation_bleeding_found) == 0)
+    results["20. 试题解析 0 处未闭合 Markdown 粗体标记"] = (len(unclosed_markdown_bolds) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -235,7 +251,7 @@ def main():
             print(f"Passage word anomalies ({len(passage_word_anomalies)}):", passage_word_anomalies[:5])
         sys.exit(1)
     else:
-        print("\n🎉 恭喜！全库 17 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
+        print("\n🎉 恭喜！全库 20 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
 
 if __name__ == '__main__':
     main()

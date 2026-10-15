@@ -94,6 +94,11 @@
           "value": "A"
         },
         {
+          "key": "B",
+          "text": "normal",
+          "value": "B"
+        },
+        {
           "key": "C",
           "text": "steady",
           "value": "C"
@@ -102,11 +107,6 @@
           "key": "D",
           "text": "pleasant",
           "value": "D"
-        },
-        {
-          "key": "B",
-          "text": "normal",
-          "value": "B"
         }
       ],
       "correct_answer": "D",
@@ -169,14 +169,14 @@
           "value": "B"
         },
         {
-          "key": "D",
-          "text": "Unless",
-          "value": "D"
-        },
-        {
           "key": "C",
           "text": "Once",
           "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Unless",
+          "value": "D"
         }
       ],
       "correct_answer": "A",
@@ -239,14 +239,14 @@
           "value": "B"
         },
         {
-          "key": "D",
-          "text": "Unless",
-          "value": "D"
-        },
-        {
           "key": "C",
           "text": "Once",
           "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Unless",
+          "value": "D"
         }
       ],
       "correct_answer": "C",
@@ -379,14 +379,14 @@
           "value": "B"
         },
         {
-          "key": "D",
-          "text": "Unless",
-          "value": "D"
-        },
-        {
           "key": "C",
           "text": "Once",
           "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Unless",
+          "value": "D"
         }
       ],
       "correct_answer": "B",
@@ -444,14 +444,14 @@
           "value": "A"
         },
         {
-          "key": "C",
-          "text": "while",
-          "value": "C"
-        },
-        {
           "key": "B",
           "text": "because",
           "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "while",
+          "value": "C"
         },
         {
           "key": "D",

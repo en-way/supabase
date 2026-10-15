@@ -215,7 +215,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "\n4. [A] Therefore因此 [B] Then那么，既然如此 [C] Instead相反；而[D] Again又；再说 \n[考点提炼]上下文语义逻辑。\n[解题思路]上段末指出“信任不当的弊端”，本段空格后why do we trust at all提示前后逻辑为：既 \n然信任有巨大的潜在风险，那人们为何还彼此信任。Then除表示时间先后以外，还有if that is the \n2\n\nsituation**既然那样、那样的话”的逻辑内涵，[B]正确。\n[错项排除][A] Therefore引出前述内容的逻辑结果;其引出的文章内容应是：（因而）我们应谨慎付出 \n自己的信任;而非发出“人们为何信任彼此”的疑问。[C] Instead用于表示“（没有做A,）而是做了 B”,[D] \nAgain用于给出能够解释或补充前述内容的事实或观点，但上下文不存在“取舍”或“补充说明”逻辑。\n\n【选项释义与词汇辨析】\n[A] Therefore: 因此\n[B] Then: 那么，既然如此\n[C] Instead: 相反；而\n[D] Again: 又；再说",
+      "explanation": "\n4. [A] Therefore因此 [B] Then那么，既然如此 [C] Instead相反；而[D] Again又；再说 \n[考点提炼]上下文语义逻辑。\n[解题思路]上段末指出“信任不当的弊端”，本段空格后why do we trust at all提示前后逻辑为：既 \n然信任有巨大的潜在风险，那人们为何还彼此信任。Then除表示时间先后以外，还有if that is the \n2\n\nsituation既然那样、那样的话”的逻辑内涵，[B]正确。\n[错项排除][A] Therefore引出前述内容的逻辑结果;其引出的文章内容应是：（因而）我们应谨慎付出 \n自己的信任;而非发出“人们为何信任彼此”的疑问。[C] Instead用于表示“（没有做A,）而是做了 B”,[D] \nAgain用于给出能够解释或补充前述内容的事实或观点，但上下文不存在“取舍”或“补充说明”逻辑。\n\n【选项释义与词汇辨析】\n[A] Therefore: 因此\n[B] Then: 那么，既然如此\n[C] Instead: 相反；而\n[D] Again: 又；再说",
       "points": 0.5,
       "sort_order": 4,
       "answer": "B"
@@ -449,14 +449,14 @@
           "value": "B"
         },
         {
-          "key": "D",
-          "text": "Ironic",
-          "value": "D"
-        },
-        {
           "key": "C",
           "text": "Odd",
           "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Ironic",
+          "value": "D"
         }
       ],
       "correct_answer": "B",
@@ -1195,7 +1195,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "32. The NHS trust responded to Denham's verdict with\n\n32. NHS信托以\n\n做出回应。\n\n对德纳姆的裁定\n\n[A] empty promises\n\n【A】空头承诺\n\n[E] tough resistance\n\n【B】强硬的抵抗\n\n[C] necessary adjustments\n\nEC】必要的调整\n\n[D] sincere apologies\n\n【D】诚恳的道歉\n\n33\n\n【命题解密】【C】意同②句 has mended its ways,并概括 了③句 Further arrangements. . . will be\n\ncarefully scrutinised to ensure that all. . . all...所体现的具体补救措施。\n\n【A】受到①句almost (apologized)干扰，但一方面该句主语为DeepMind而非题干中的NHS,另一方\n\n面“差不多道歉了”不能简单等同于“空头承诺”。【B】将②句mended its way错误理解为“拒不服从判\n\n决”。【D】源于第二段①句apologized,但这是DeepMind做法，其次“诚恳道歉”工“采取了补救措施”。\n\n【技巧总结】对于涉及到“事件、争议N方做法/观点”的题目，首先要明确题目考查对象，然后理清相关方\n\n各自的做法/观点,再对比选项进行排除，混淆各方的做法/观点是常见的干扰。本题中，由第二段前两句提炼\n\n出的做法分别是“DeepMind几乎已经道歉”、“NHS信托纠正了其行为方式”,故很容易先排除张冠李戴的【D】,\n\n初步推知【C】正确;进而由③句提到的具体改进做法，排除反向干扰的【A】、【B】,最终确定【C】为答案。\n\n【精准定位】第二段末句指出作者对⑥句Ms Denham裁定依据(判NHS违法因为它才是数据拥有\n\n者，而DeepMind只是处理数据而已)的看法：不得要领(misses the point):\"让数据拥有价值的，是处理\n\n和集成它们，而不是掌控它们”，【D】正确。\n\n33 ・ The author argues in Paragraph 2 that\n\n.",
+      "explanation": "32. The NHS trust responded to Denham's verdict with\n\n32. NHS信托以\n\n做出回应。\n\n对德纳姆的裁定\n\n[A] empty promises\n\n【A】空头承诺\n\n[E] tough resistance\n\n【B】强硬的抵抗\n\n[C] necessary adjustments\n\nEC】必要的调整\n\n[D] sincere apologies\n\n【D】诚恳的道歉\n\n33\n\n【命题解密】【C】意同②句 has mended its ways,并概括 了③句 Further arrangements. . . will be\n\ncarefully scrutinised to ensure that all. . . all...所体现的具体补救措施。\n\n【A】受到①句almost (apologized)干扰，但一方面该句主语为DeepMind而非题干中的NHS,另一方\n\n面“差不多道歉了”不能简单等同于“空头承诺”。【B】将②句mended its way错误理解为“拒不服从判\n\n决”。【D】源于第二段①句apologized,但这是DeepMind做法，其次“诚恳道歉”工“采取了补救措施”。\n\n【技巧总结】对于涉及到“事件、争议N方做法/观点”的题目，首先要明确题目考查对象，然后理清相关方\n\n各自的做法/观点,再对比选项进行排除，混淆各方的做法/观点是常见的干扰。本题中，由第二段前两句提炼\n\n出的做法分别是“DeepMind几乎已经道歉”、“NHS信托纠正了其行为方式”,故很容易先排除张冠李戴的【D】,\n\n初步推知【C】正确;进而由③句提到的具体改进做法，排除反向干扰的【A】、【B】,最终确定【C】为答案。\n\n【精准定位】第二段末句指出作者对⑥句Ms Denham裁定依据(判NHS违法因为它才是数据拥有\n\n者，而DeepMind只是处理数据而已)的看法：不得要领(misses the point):\"让数据拥有价值的，是处理\n\n和集成它们，而不是掌控它们”，【D】正确。",
       "points": 2,
       "sort_order": 32,
       "answer": "C"
@@ -1625,7 +1625,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "43. 本题考核的知识点：上下文衔接+逻辑衔接\n\n【选项推测】已经给出位置的【F】首句Construction,the building表明上文提及“某建筑的建造”。\n\n【答案敲定】由【路标词解析】可知，【A】【G】为本题备选项。\n\n【A】 若与【F】相连，两段内容**1871年建筑动工—耗时17年逐翼完工”符合建造的先后顺序，也与已\n\n定位的【E】中时间线索(1871 —1888 年)完全相符；且【A】末句 construction,a building to house all three\n\ndepartments 与【F】首句 Construction,the building 可形成完美衔接。故【A】正确。\n\n【G】若与【F】衔接，【F】首句the building所指“ EEOB(由【F】段中的②句可知)”与【G】末句the\n\nTreasury Building产生冲突，故排除。",
+      "explanation": "43. 本题考核的知识点：上下文衔接+逻辑衔接\n\n【选项推测】已经给出位置的【F】首句Construction,the building表明上文提及“某建筑的建造”。\n\n【答案敲定】由【路标词解析】可知，【A】【G】为本题备选项。\n\n【A】 若与【F】相连，两段内容1871年建筑动工—耗时17年逐翼完工”符合建造的先后顺序，也与已\n\n定位的【E】中时间线索(1871 —1888 年)完全相符；且【A】末句 construction,a building to house all three\n\ndepartments 与【F】首句 Construction,the building 可形成完美衔接。故【A】正确。\n\n【G】若与【F】衔接，【F】首句the building所指“ EEOB(由【F】段中的②句可知)”与【G】末句the\n\nTreasury Building产生冲突，故排除。",
       "points": 2,
       "sort_order": 43,
       "answer": "A"
