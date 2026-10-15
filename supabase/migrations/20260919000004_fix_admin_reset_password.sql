@@ -19,6 +19,4 @@ BEGIN
         updated_at = now()
     WHERE id = target_user_id;
 
-    RETURN true;
-END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;

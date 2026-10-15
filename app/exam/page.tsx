@@ -215,7 +215,16 @@ function ExamContent() {
     if (isSubmitted || loading) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      const target = e.target as HTMLElement | null;
+      if (
+        e.isComposing ||
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement ||
+        target?.isContentEditable ||
+        target?.closest?.("input, textarea, [contenteditable='true']")
+      ) {
+        return;
+      }
 
       const { questions: qs, focusedIndex: fIdx } = keydownRef.current;
       if (!qs || qs.length === 0) return;

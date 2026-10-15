@@ -254,7 +254,16 @@ function PracticeContent() {
     if (loading || questions.length === 0) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      const target = e.target as HTMLElement | null;
+      if (
+        e.isComposing ||
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement ||
+        target?.isContentEditable ||
+        target?.closest?.("input, textarea, [contenteditable='true']")
+      ) {
+        return;
+      }
 
       const { currentIndex: cIdx, questions: qs } = practiceStateRef.current;
       const targetQ = qs[cIdx];

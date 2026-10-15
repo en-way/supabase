@@ -155,8 +155,22 @@ export function saveLocalState(state: LocalLearningState) {
   if (typeof window === "undefined") return;
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
-  } catch (e) {
+  } catch (e: any) {
     console.error("Error saving local state", e);
+    // If QuotaExceededError, attempt graceful degradation by pruning ephemeral drafts
+    if (e?.name === "QuotaExceededError" || e?.code === 22) {
+      try {
+        console.warn("[Storage] QuotaExceededError caught. Attempting graceful pruning of ephemeral drafts to protect core mistake/vocab data.");
+        const fallbackState = {
+          ...state,
+          examDrafts: {},
+          practiceDrafts: {},
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(fallbackState));
+      } catch (innerErr) {
+        console.error("[Storage] Fatal storage quota exhausted:", innerErr);
+      }
+    }
   }
 }
 

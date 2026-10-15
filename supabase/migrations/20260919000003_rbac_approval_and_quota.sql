@@ -134,7 +134,7 @@ BEGIN
 
     RETURN NEW;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 -- Re-attach trigger
 DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
@@ -168,7 +168,7 @@ BEGIN
     GET DIAGNOSTICS affected_count = ROW_COUNT;
     RETURN affected_count;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 -- 6.2 Set User Role (Assign/Revoke Normal Admin)
 CREATE OR REPLACE FUNCTION public.super_admin_set_user_role(target_user_id UUID, new_role TEXT)
@@ -193,7 +193,7 @@ BEGIN
 
     RETURN true;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 -- 6.3 Handle Exam Approval
 CREATE OR REPLACE FUNCTION public.super_admin_handle_approval(exam_id UUID, action_type TEXT)
@@ -223,7 +223,7 @@ BEGIN
 
     RETURN true;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 -- 6.4 Update System Settings
 CREATE OR REPLACE FUNCTION public.super_admin_update_settings(new_limit INT, is_enabled BOOLEAN)
@@ -241,4 +241,4 @@ BEGIN
 
     RETURN true;
 END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;

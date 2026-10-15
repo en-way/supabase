@@ -112,8 +112,7 @@ BEGIN
         updated_at = now();
 
     RETURN NEW;
-END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 -- Drop trigger if exists and recreate
 DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
@@ -138,9 +137,7 @@ BEGIN
         updated_at = now()
     WHERE id = target_user_id;
 
-    RETURN true;
-END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
 
 -- ==============================================================================
 -- Row Level Security (RLS) Policies

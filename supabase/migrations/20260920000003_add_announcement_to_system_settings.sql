@@ -40,5 +40,4 @@ BEGIN
     WHERE id = 1;
 
     RETURN true;
-END;
-$$ LANGUAGE plpgsql SECURITY DEFINER;
+$$ LANGUAGE plpgsql SECURITY DEFINER SET search_path = public;
