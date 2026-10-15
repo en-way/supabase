@@ -166,6 +166,52 @@ def check_10_storage_quota_resilience():
     assert "fallbackState" in code or "examDrafts" in code, "未包含清理草稿保全核心错题数据的降级方案"
     return "已验证 saveLocalState 具备 QuotaExceededError 自动降级与核心错题/生词本保全能力"
 
+def check_11_exam_scoring_weights_and_metadata_consistency():
+    """断言 11: 全库 41 套真题分值权重、及格线与元数据 100% 吻合 (2001-2004 50分/30及格, 2005-2025 60分/36及格)"""
+    import json
+    exams_dir = os.path.join(REPO_ROOT, "public", "data", "exams")
+    all_files = sorted(glob.glob(os.path.join(exams_dir, "*.json")))
+    assert len(all_files) == 41, f"试卷文件数异常: {len(all_files)}"
+
+    for f in all_files:
+        with open(f, "r", encoding="utf-8") as fp:
+            data = json.load(fp)
+        exam = data.get("exam", {})
+        year = exam.get("year")
+        total = exam.get("total_score")
+        pass_s = exam.get("pass_score")
+        qs = data.get("questions", [])
+        
+        expected_total = 50 if year < 2005 else 60
+        expected_pass = 30 if year < 2005 else 36
+        expected_q_count = 40 if year < 2005 else 45
+
+        assert len(qs) == expected_q_count, f"{os.path.basename(f)} 题目数异常: {len(qs)} != {expected_q_count}"
+        assert total == expected_total, f"{os.path.basename(f)} 试卷 total_score 异常: {total} != {expected_total}"
+        assert pass_s == expected_pass, f"{os.path.basename(f)} 试卷 pass_score 异常: {pass_s} != {expected_pass}"
+
+        pts_sum = sum(q.get("points", 0) for q in qs)
+        assert pts_sum == expected_total, f"{os.path.basename(f)} 题目分值累加和与满分不一致: {pts_sum} != {expected_total}"
+
+        for idx, q in enumerate(qs):
+            if idx < 20:
+                assert q.get("q_type") == "cloze_item" and q.get("points") == 0.5, f"{os.path.basename(f)} Q{idx+1} 完型题型/分值异常: {q.get('points')}"
+            else:
+                assert q.get("q_type") == "reading_item" and q.get("points") == 2, f"{os.path.basename(f)} Q{idx+1} 阅读/新题型分值异常: {q.get('points')}"
+
+    index_path = os.path.join(REPO_ROOT, "public", "data", "exams.json")
+    with open(index_path, "r", encoding="utf-8") as fp:
+        index_data = json.load(fp)
+    assert len(index_data) == 41, f"exams.json 索引数量异常: {len(index_data)}"
+    for e in index_data:
+        year = e.get("year")
+        expected_total = 50 if year < 2005 else 60
+        expected_pass = 30 if year < 2005 else 36
+        assert e.get("total_score") == expected_total, f"exams.json {e.get('id')} total_score 异常"
+        assert e.get("pass_score") == expected_pass, f"exams.json {e.get('id')} pass_score 异常"
+
+    return "已验证 41 套真题题目分值累加和、大纲满分 (50/60分) 与及格基准线 (30/36分) 100% 严密自洽"
+
 def run_all_assertions():
     assertions = [
         ("1. 存储桶 RLS InitPlan 优化", check_1_storage_rls_initplan),
@@ -178,10 +224,11 @@ def run_all_assertions():
         ("8. handle_new_user 注册鉴权角色锁定", check_8_handle_new_user_quota_and_role),
         ("9. 源码零硬编码机密与私钥泄露", check_9_zero_secrets_in_code),
         ("10. LocalStorage 存储配额超限优雅降级", check_10_storage_quota_resilience),
+        ("11. 试卷分值权重与满分及格线严格自洽", check_11_exam_scoring_weights_and_metadata_consistency),
     ]
 
     print("=" * 70)
-    print("🚀 [系统安全防线与架构韧性] 10 项核心断言自动化验证启动")
+    print("🚀 [系统安全防线与架构韧性] 11 项核心断言自动化验证启动")
     print("=" * 70)
 
     all_passed = True
@@ -198,7 +245,7 @@ def run_all_assertions():
 
     print("=" * 70)
     if all_passed:
-        print("🎉 恭喜！全系统 10 项核心安全防线与架构韧性断言 100% 全部通过！无漏洞残留！")
+        print("🎉 恭喜！全系统 11 项核心安全防线与架构韧性断言 100% 全部通过！无漏洞残留！")
         return 0
     else:
         print("🚨 警告：存在未通过的安全断言，请立即排查修复！")

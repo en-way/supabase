@@ -392,8 +392,12 @@ function ExamContent() {
       };
     });
 
-    const examTotal = Number(curExam.total_score || totalRawPoints || 100);
-    const passLine = Number(curExam.pass_score || (examTotal * 0.6));
+    const examTotal = Number(totalRawPoints > 0 ? totalRawPoints : (curExam.total_score || 60));
+    const passLine = Number(
+      curExam.pass_score && curExam.total_score === examTotal
+        ? curExam.pass_score
+        : Math.round(examTotal * 0.6)
+    );
     const finalScore = Math.round(earnedRawPoints * 10) / 10;
     const passed = finalScore >= passLine;
 
@@ -723,7 +727,7 @@ function ExamContent() {
                   }`}>
                     {result.isPassed ? "🎉 恭喜达到合格线" : "⚠️ 未达合格基准分 (需重点攻关)"}
                   </span>
-                  <span className="text-xs text-stone-400 dark:text-zinc-500 font-mono">满分 {result.totalScore || 100} 分 (及格线: {exam.pass_score || 30}分)</span>
+                  <span className="text-xs text-stone-400 dark:text-zinc-500 font-mono">满分 {result.totalScore || 60} 分 (及格线: {exam.pass_score || Math.round((result.totalScore || 60) * 0.6)}分)</span>
                 </div>
                 <h3 className="text-lg font-bold mt-1 text-stone-900 dark:text-zinc-100">{result.examTitle} 测评报告</h3>
                 <p className="text-xs text-stone-400 dark:text-zinc-500 mt-1">
