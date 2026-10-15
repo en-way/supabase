@@ -35,7 +35,7 @@ def main():
 
     results = {
         "1. 试卷总量 41 套": len(exam_files) == 41,
-        "2. 篇章总量 242 篇": False,
+        "2. 篇章总量 243 篇": False,
         "3. 试题总量 1,825 题": False,
         "4. 试题答案 100% 对齐 (correct_answer == answer)": True,
         "5. 试题题干 0 处序号冗余前缀": True,
@@ -191,7 +191,7 @@ def main():
             if expl.count('**') % 2 != 0:
                 unclosed_markdown_bolds.append((title, so, expl.count('**')))
 
-    results["2. 篇章总量 242 篇"] = (total_passages == 242)
+    results["2. 篇章总量 243 篇"] = (total_passages == 243)
     results["3. 试题总量 1,825 题"] = (total_questions == 1825)
     results["4. 试题答案 100% 对齐 (correct_answer == answer)"] = (len(mismatched_answers) == 0)
     results["5. 试题题干 0 处序号冗余前缀"] = (len(stems_with_prefix) == 0)
@@ -211,6 +211,34 @@ def main():
     results["19. 试题解析 0 处跨题后附外泄或巨型粘连"] = (len(explanation_bleeding_found) == 0)
     results["20. 试题解析 0 处未闭合 Markdown 粗体标记"] = (len(unclosed_markdown_bolds) == 0)
 
+    # 21. Topology & Linkage: Every question points to a valid passage in the same exam
+    orphan_questions = []
+    passage_boundary_anomalies = []
+
+    for fpath in exam_files:
+        with open(fpath, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        title = data['exam'].get('title', '')
+        p_ids = {p['id'] for p in data.get('passages', [])}
+        for q in data.get('questions', []):
+            if q.get('passage_id') not in p_ids:
+                orphan_questions.append((title, q.get('sort_order'), q.get('passage_id')))
+        
+        # 22. Passage Boundary Cleanliness
+        for p in data.get('passages', []):
+            pt = p.get('title', '')
+            c = (p.get('content') or '').strip()
+            # Check for leaked stems at the end of passages
+            if re.search(r'\b(?:[2-4]\d|Q[2-4]\d)\s*[\.・\、\:]\s*[A-Z]', c[-150:]):
+                passage_boundary_anomalies.append((title, pt, 'stem_at_end', c[-80:]))
+            if re.search(r'\[[A-G]\]\s*[a-zA-Z]{3,}', c[-80:]):
+                passage_boundary_anomalies.append((title, pt, 'option_at_end', c[-80:]))
+            if c.endswith('boardso') or c.endswith('building block;') or c.endswith('C A B D') or c.endswith('C  A  B  D'):
+                passage_boundary_anomalies.append((title, pt, 'garbage_at_end', c[-40:]))
+
+    results["21. 篇章与试题拓扑关联 100% 紧密绑定"] = (len(orphan_questions) == 0)
+    results["22. 篇章篇首篇尾 0 处伪题干、截断与跨篇串文污染"] = (len(passage_boundary_anomalies) == 0)
+
     print("\n=== 断言检查结果 ===")
     all_passed = True
     for metric, status in results.items():
@@ -221,6 +249,10 @@ def main():
 
     if not all_passed:
         print("\n=== 失败详情报告 ===")
+        if orphan_questions:
+            print(f"Orphan questions ({len(orphan_questions)}):", orphan_questions[:5])
+        if passage_boundary_anomalies:
+            print(f"Passage boundary anomalies ({len(passage_boundary_anomalies)}):", passage_boundary_anomalies[:5])
         if mismatched_answers:
             print(f"Mismatched answers ({len(mismatched_answers)}):", mismatched_answers[:5])
         if stems_with_prefix:
@@ -251,7 +283,7 @@ def main():
             print(f"Passage word anomalies ({len(passage_word_anomalies)}):", passage_word_anomalies[:5])
         sys.exit(1)
     else:
-        print("\n🎉 恭喜！全库 20 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
+        print("\n🎉 恭喜！全库 22 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
 
 if __name__ == '__main__':
     main()
