@@ -1,0 +1,1735 @@
+{
+  "exam": {
+    "id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+    "category_id": "ky1",
+    "title": "2013年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2013,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-10-02T14:12:25.356941+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "category_id": "ky1",
+      "section_type": "cloze",
+      "title": "Section I: Use of English",
+      "content": "People are, on the whole, poor at considering background information when making individual decisions At first glance this might seem like a strength that [1] the ability to make judgments which are unbiasedL> by [2] factors But Dr Uri Simonsohn speculated that an inability to consider the big [3] was leading decision-makers to be biased by the daily samples of information they were working with. [4], he theorised that a judge [5] of appearing too soft [6] crime might be more likely to send someone to prison [7] he had already sentenced five or six other defendants only to forced community service on that day. To [8] this idea, he turned to the university-admissions process. In theory, the [9] of an applicant should not depend on the candidates [10] randomly for interview during the same day, but Dr Simonsohn suspected the truth was [11]. He studied the results of 9,323 MBA interviews [12] by 31 admissions officers. The interviewers had [13] applicants on a scale of one to five, This scale [14] numerous factors into consideration. The scores were [15] used in conjunction with an applicant's score on the Graduate Management Admission Test, or GMAT, a standardised exam which is [16] out of 800 points, to make a decision on whether to accept him or her.\n\nDr Simonsohn found if the score of the previous candidate in a daily series of interviewees was 0. 75 points or more higher than that of the one [17] that, then the score for the next applicant would [18] by an average of 0. 075 points. This might sound small, but to [19] the effects of such a decrease a candidate would need 30 more GMAT points than would otherwise have been [20].",
+      "sort_order": 1
+    },
+    {
+      "id": "10d8fb90-e783-5aab-aa05-4b3dc983dc1b",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A - Text 1",
+      "content": "In the 2006 film version of The Devil Wears Prada, Miranda Priestly, played by Meryl Streep, explains a historic truth to her clueless young assistant. Flipping through a rack of clothes, Priestly explains that the cheap blue sweater the assistant is wearing was selected for her by the people in this room, representing a multi-million-dollar industry.\n\nThat concept of the fashion business couldn't be more out of date or at odds with the feverish world described in Overdressed, Elizabeth Cline's three-year indictment of \"fast fashion.\" In the last decade, cheap trendy clothes have revolutionized how people dress. Wardrobes once changed twice a year; now fast-fashion brands like Zara, H&M, and Forever 21 churn out new collections every week. By copying runway looks almost immediately and manufacturing them cheaply overseas, these brands have hijacked fashion cycles, shaking an industry long accustomed to a slower pace.\n\nThe consequences are not limited to designers. For H&M to offer a $5.95 knit miniskirt in all its 2,300-plus stores around the world, costs must be kept extremely low. Much of the manufacturing is outsourced to developing nations where labor is cheap and regulations are lax. Fast fashion has created an insatiable appetite for cheap clothing, with Americans purchasing an average of 64 garments a year, treating them as practically disposable.\n\nCline hopes that public awareness will spark a movement similar to the one that turned organic food from a fringe idea into a mainstream obsession. She compares the fast-fashion revolt to consumer-activist bestsellers like Michael Pollan's The Omnivore's Dilemma. \"Much like the slow food movement, a sustainable clothing movement will only succeed if consumers are willing to pay more for quality and durability,\" Cline argues.\n\nThough several fast-fashion companies have made efforts to curb their impact, such as launching recycling programs and using organic cotton, critics point out that the business model itself is fundamentally unsustainable. Fast fashion relies on constant consumption; people will only start shopping more sustainably when they realize that buying fewer, better clothes is good for both the planet and their wallets.",
+      "sort_order": 2
+    },
+    {
+      "id": "af9727e8-1f96-57e2-bbb7-d356a28319d0",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A - Text 2",
+      "content": "An old saying has it that half of all advertising budgets are wasted-the trouble is, no one knows which fraction can be much reduced. By watching what people search for, click on and say online, companies can aim \"behavioural\"ads at those most likely to buy. the trouble is, no one knows which half\n\n. It is suggested in Paragraph 1 that u behavioural\" ads help advertisers to. n the past couple of weeks a quarrel has illustrated the value to advertisers of such fine-grained information: Should advertisers assume that people are happy to be tracked and sent behavioural ads? Or should they have explicit permission?\n\nn May 31st Microsoft set off the row. It said that Internet Explorer 10, the version due to appear with Windows 8, would have DNT as a default. default\n\nAdvertisers are hoirified. Human nature being what it is, most people stick with default settings. Few switch DNT on now, but if chief executive of the Association of National Advertisers, says consumers will be worse off if the industry cannot collect information about their preferences>. People will not get fewer ads, he says. \"They'll get less meaningful, less targeted ads. ”\n\nt is not yet clear how advertisers will anyone to stop tracking, although some companies have promised to do so. Unable to tell whether someone really objects to behavioural ads or whether they are sticking with Microsoft's default, some may ignore a DNT signal and press on anyway... they are sticking with Microsoffs default,\n\nB Also unclear is why Microsoft has gone it alone. After all, it has an ad business too, which it says will comply with DNT requests, though it is still working out how. If it is trying to upset Google, which relies almost wholly on advertising, it has chosen an indirect method: there is no guarantee\" that DNT by default will become the norm. DNT does not seem an firm has compared some of its other products favourably Microsoft's chief privacy officer, blogged:' u We believe consumers should have more control. n Could it really be that simple?",
+      "sort_order": 3
+    },
+    {
+      "id": "bc537609-ecd4-512d-923d-97b884b42f06",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A - Text 3",
+      "content": "Up until a few decades ago, our visions of the future were largely — though by no means uniformly — glowingly positive. Science and technology would cure all the ills of humanity, leading to lives of fulfilment and opportunity for all.\n\nNow utopia has grown unfashionable, as we have gained a deeper appreciation of the range of threats facing us, from asteroid strike to epidemic flu and to climate change. You might even be tempted to assume that humanity has little future to look forward to.\n\nBut such gloominess is misplaced. The fossil record shows that many species have endured for millions of years — so why shouldn't we? Take a broader look at our species' place in the universe, and it becomes clear that we have an excellent chance of surviving for tens, if not hundreds, of thousands of years. Look up Homo sapiens in the \"Red List\" of threatened species of the International Union for the Conservation of Nature (IUCN) and you will read: \"Listed as Least Concern as the species is very widely distributed, adaptable, currently increasing, and there are no major threats resulting in an overall population decline.\"\n\nSo what does our deep future hold? A growing number of researchers and organisations are now thinking seriously about that question. For example, the Long Now Foundation has as its flagship project a mechanical clock that is designed to still be marking time thousands of years hence.\n\nPerhaps willfully, it may be easier to think about such lengthy timescales than about the more immediate future. The potential evolution of today's technology, and its social consequences, is dazzlingly complicated, and it's perhaps best left to science fiction writers and futurologists to explore the many possibilities we can envisage. That's one reason why we have launched Arc, a new publication dedicated to the near future.",
+      "sort_order": 4
+    },
+    {
+      "id": "06e64256-4883-5c05-9182-868310a80f81",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part A - Text 4",
+      "content": "to holds the key to„ I OOn a five to three vote, the Supreme Court knocked out much of Arizona's immigration law Monday—a modest policy victory for the Obama Administration. But on the more important matter of the Constitution, the decision was an 8-0 defeat for the Administration's effort to upset the balance of power between the federal government and the states\n\nln Arizona s United States, the majority overturned three of the four contested provisions of Arizona's controversial plan to have state and local Justice Anthony Kennedy, joined by Chief Justice John Roberts and the Court's liberals, ruled that the state flew too close to the federal sun. On 36 Three provisions of Arizona's plan were overturned because they federal...federafs privileged powers. However, the Justices said that Arizona police would be allowed to verify the legal status of people who come in contact wh law enforcement*. That's because Congress has always envisioned joint federal-state immigration enforcement and explicitly encourages state officers to share information and cooperate with federal colleagues.\n\nAlito and Clarence Thomas —agreed with this Constitutional logic but disagreed about which Arizona rules conflicted wh the federal statute. The only major objection came from Justice Antonin Scalia, who offered an even more robust defense of state privileges going back to the Alien and Sedition Acts. (shocking assertion 0 of federal executive power”. The White House argued that Arizona's laws conflicted with its enforcement priorities, even if state laws complied with federal statutes to the letter. In effect, the White House claimed that it could invalidate any otherwise legitimate state law that it disagrees with. (federal government, and control of citizenship and the borders is among them. But if Congress wanted to prevent states from using their own resources to check immigration status, it could.It never did so. The Administration\" was in essence asserting that because it didn't want to carry out Congress's immigration wishes, no state should be allowed to do so either. Every Justice rightly rejected this remarkable claim.",
+      "sort_order": 5
+    },
+    {
+      "id": "f1619752-4d99-5e3f-99ee-a3214c446001",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "category_id": "ky1",
+      "section_type": "reading",
+      "title": "Section II: Reading Comprehension Part B",
+      "content": "7 Part B I The social sciences are flourishing. As of 2005, there were almost half a million professional social scientists from all fields in the world, working both inside and outside academia. According to the World Social Science Report 2010, the number of social-science students worldwide has swollen by about 11% every year since 2000. II Yet this enormous resource is not contributing enough to today's global challenges including climate change, security, sustainable development and health. (41) Humanity has the necessary agro-technological tools to eradicate hunger, from genetically engineered crops to artificial fertilizers. Here, too, the problems are social: the organization and distribution of food, wealth and prosperity. di (42)______________ This is a shame — the community should be grasping the opportunity to raise its influence in the real world. To paraphrase the great social scientist Joseph Schumpeter: there is no radical innovation without creative destruction. disciplinary problems and internal scholarly debates, rather than on topics with external impact. Analyses reveal that the number of papers including the keywords VI The problem is not necessarily the amount of available funding. (44)____________ This is an adequate amount so long as it is aimed in the right direction. Social scientists who complain about a lack of funding should not expect more in today's economic climate. VJ The trick is to direct'3 these funds better. The European Union Framework funding programs have long had a category specifically targeted at social scientists This year, it was proposed that the system be changed: th&r work with other categories? including health and demographic change; food security; marine research and\n\n[C] It could be that we are evolving two communities of social scientists: one that is discipline-oriented and publishing in highly specialized journals, and one that is problem-oriented and publishing elsewhere, such as policy briefs.\n\n[D] However, the numbers are still small: in 2010, about 1,600 of the 100,000 social-sciences papers published globally included one of these keywords.\n\n[E] These issues all have root causes in human behavior: all require behavioral change and social innovations, as well as technological development. Stemming climate change, for example, is as much about changing consumption patterns and promoting tax acceptance as it is about developing clean energy.\n\n[F] Despite these factors, many social scientists seem reluctant to tackle such problems. And in Europe, some are up in arms over a proposal to drop a specific funding category for social-science research and to integrate it within cross-cutting topics of sustainable development.\n\n[G] During the late 1990s, national spending on social sciences and the humanities as a percentage of all research and development funds — including government, higher education, non-profit and corporate varied from around 4% to 25%; in most European nations, it is about 15%.",
+      "sort_order": 6
+    }
+  ],
+  "questions": [
+    {
+      "id": "0ca0eb6d-66ee-5130-8c30-2a652a0cdd7f",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [1] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "grants",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "submits",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "transmits",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "delivers",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "\n1\nthe ability to make judgments which are unbiasedL> by ",
+      "points": 0.5,
+      "sort_order": 1,
+      "answer": "A"
+    },
+    {
+      "id": "570a4111-1eb6-5d25-9bf9-6ab570147ea3",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [2] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "minor",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "external",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "crucial",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "objective",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "【考点精析】形容词辨析。crucial 意为'至关重要的'，强调乐观心态对能力的发挥起到决定性作用，选 C。",
+      "points": 0.5,
+      "sort_order": 2,
+      "answer": "C"
+    },
+    {
+      "id": "5a93c6aa-0f21-583c-9397-5428d57cf09e",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [3] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "despise",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "curb",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "advocate",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "tolerate",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n3. ［A］ issue重要议题;争论的问题 \n［B］ vision想象，幻想；眼力；远见卓识\nEC］ picture图，照片；情况，局面 \n［D］ moment时刻\n［考点提炼］上下文语义+熟词僻意。正确率：20%\n［解题思路］空格句与上文为转折关系(But)，说明“不能考虑背景信息”的弊端(使做决定者产生偏 \n见)。an inability to consider the big \n复现首句中 poor at considering background information, ft\nthe big______与“背景信息”语义相近，big picture指“整体情形，全局”，符合文意，故［C］正确。注：\npicture文中使用其僻意“(某地方、组织等的)情况，局面”。\n［错项排除］［A］指“人们讨论或争论的重要话题、问题”，而上文并未提及某议题或争论的问题，可 \n排除；［B］指“头脑中想象的念头或景象”或“远见卓识”，但“背景信息”既不是“头脑中宏大的念头或景 \n象”，也不是“远见”;［D］与big连用，表示“重大时刻”，不合文意。",
+      "points": 0.5,
+      "sort_order": 3,
+      "answer": "C"
+    },
+    {
+      "id": "76d9edc9-5a41-55f8-9267-61508d996cf9",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [4] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "Above all",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "On average",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "In principle",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "For example",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n4. ［A］ Above all最重要的是；尤其是；首先 \n［B］ On average平均来看\n［C］ In principle原则上；理论上；大体上，基本上 \n［D］ For example比如，例如\n［考点提炼］上下文逻辑。正确率：85%\n［解题思路］上文③句介绍Simonsohn博士的观点：不能考虑全局会导致做决定者受经手的日常信 \n息样本的影响而产生偏见，本句“法官在几次轻判后重罚下一位被告”为具体的例子，恰能论证“因经手 \n的日常信息样本而产生偏见”这一观点，故空格句与上文为例证关系，［D］符合文意。\n［错项排除］［A］指出所述内容中最重要或特别的一点(most important of all/especially)，表强调，但 \n空格句与上文并未列举多方面内容，不存在语义轻重的对比；［B］表示“综合多项数值所得出的平均数值 \n或水平”,而空格句“法官判案”为单个例子，而非综合多方得出的结果；［C］或表示“某事在理论上可行， \n但尚未得以实践\"，或表示\"大体上，基本上(in general but not in detail)M,但空格后he theorized that... \n表明空格句为Simonsohn提出的理论，并非论述某事在理论上的可行性，“法官判案”亦不是对某事的总 \n结，故排除。\n\n【选项释义与词汇辨析】\n[A] Above all: 最重要的是；尤其是；首先\n[B] On average: 平均来看\n[C] In principle: 原则上；理论上；大体上，基本上\n[D] For example: 比如，例如",
+      "points": 0.5,
+      "sort_order": 4,
+      "answer": "D"
+    },
+    {
+      "id": "bf4d0591-0b29-5078-a590-919819abeb02",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [5] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "fond",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "fearful",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "capable",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "thoughtless",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n5. ［A］ fond (of)喜爱... \n［B］ fearful (of)害怕....，担心....\n［C］ capable (of)有能力做.... \n［D］ thoughtless考虑不周的；不顾及他人的\n［考点提炼］上下文语义+形容词用法。正确率：38%\n［解题思路］空格所在部分______ of appearing...修饰a judge,说明法官当时的想法：______ 对犯罪\n表现得心慈手软。由空格后“他正)庶轻判(强制社区服务)之后更可能对下一位被告加创而送入监 \n狱)”可推知，法官应该是“担心会被认为'对犯罪宽容'，所以才加重对下一位被告的处罚”，故空格处应 \n2\n\n表示“担心、忧虑”的语义，［B］符合文意。\n［错项排除］［A］表示“喜爱（做某事，尤指长期喜爱的事物）”或“喜欢（做令人不快的事）”；［C］表示 \n“有能力或才能做某事”，此两项均与文意相悖。［D］表示“未考虑到自身言语或行为的可能性影响（not \ncaring about the possible effects of your words or actions） n,常用作定语或用于 it is of sb to do sth 结构 \n中，如：a thoughtless remarkC轻率的言论），而此处“对犯罪表现得心慈手软”是法官主观上有所顾虑而不 \n希望发生的事情，而不是其未考虑到的事情，故排除。\n\n【选项释义与词汇辨析】\n[D] thoughtless: 考虑不周的；不顾及他人的",
+      "points": 0.5,
+      "sort_order": 5,
+      "answer": "B"
+    },
+    {
+      "id": "27f637dd-18ed-52b8-b34d-2d3cc26cd6ca",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [6] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "in",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "for",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "to",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "on",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n6. ［A］ in在……中；在……期间 \n［B］ for给，对；为了\n［C］ to为了；向倒；达到 \n［D］ on对于；对……造成影响，与……有关系\n［考点提炼］句内语义+固定搭配。正确率：41%\n［解题思路］空格处介词表明“心慈手软（soft）”与“犯罪（crime）w之间的关系，“心慈手软”是种态度， \n“犯罪”是种行为，故空格词应能引出对某行为的态度，即“对犯罪心慈手软”，be soft on sth/with sb为固 \n定搭配，指“对……同情的，心肠软的”，故［D］符合文意。\n［错项排除］［A］可表示方位、时间或状态等，还可表示某事完成或发生的方式，如：We waited in \nsilence.（我们静静地等候着表示对象或用途时，其后为“得到或使用……的某人/某事物”，如：I've \ngot a present for you.（我有件礼物送给你。）；［C］可表示目的或意愿，还可用于描述某种行为或状态，如：It's \nnice to be wanted.（被人需要感觉很好。），此三项均不能与soft搭配表示“对某事心慈手软”，故排除。\n\n【选项释义与词汇辨析】\n[A] in: 在……中；在……期间\n[B] for: 给，对；为了\n[C] to: 为了；向倒；达到\n[D] on: 对于；对……造成影响，与……有关系",
+      "points": 0.5,
+      "sort_order": 6,
+      "answer": "D"
+    },
+    {
+      "id": "7f812c56-89b5-5b69-b7d7-37d99c282e63",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [7] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "if",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "until",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "though",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "unless",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "\n7. ［A］ if如果 ［B］ until直到... 为止 ［C］ though虽然，尽管 ［D］ unless除非，如果不\n［考点提炼］句内语义逻辑+虚拟语气。正确率：20%\n［解题思路］从语义角度看，空格前“法官因害怕表现得对犯罪宽容，更可能对下一位被告加重处罚” \n是结果，空格后“法官已经对五六名其他被告轻判”是前提条件，故空格处应引导条件逻辑；从语法角度 \n看，根据关键词theorised（理论情况，是一种假设）以及句中时态（might be. .. had sentenced）可判断本句 \n为虚拟语气,选项中既能引出条件，又可用于虚拟语气的只有［A］。\n［错项排除］［B］表时间，但“将某人送入监狱直到他对五六位其他被告予以轻判”与文意不符；［C］ \n可表让步，还可表轻微转折，用于主句后，引出补充说明，使语气变弱，但语义重点仍在主句，此处空格上 \n下文为顺承逻辑，不存在让步或转折逻辑；［D］虽表条件，但用于引出“主句所述情形不会发生或不真实” \n的唯一条件，在意义上相当于if. . . not,如:I can't leave her unless I know she's all right.（除非我知道她 \n没事，否则我不能离开她。），与空格上下文“对五六名其他被告轻判f对下一位被告重判”的逻辑相悖。\nII ❶ To 8 this idea, he turned to\" the \nuniversity-admissions® process.❷ In theory, the 9 \nof an applicant should not depend on the few others\n10 randomly for interview during the same day, \nbut Dr Simonsohn suspected the truth was 11\n①为鯉这一想法，他开始研究大学录取过 \n程。②理论上，一位申请者的成功不应取决于在 \n同一天被随机迪里参加面试的其他几位申请者， \n但西蒙逊博士怀疑事实并非如此。\n:•词汇注释\n©turn to改用\n\n【选项释义与词汇辨析】\n[A] if: 如果\n[B] until: 直到... 为止\n[C] though: 虽然，尽管\n[D] unless: 除非，如果不",
+      "points": 0.5,
+      "sort_order": 7,
+      "answer": "A"
+    },
+    {
+      "id": "2c94452a-c6eb-5a68-8e74-1981b1806767",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [8] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "test",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "emphasize",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "share",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "promote",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "8. 【A】 jump暴涨，猛增\n\n【B】 float漂流；飘动；（使）汇率浮动\n\n【C】 fluctuate涨落，波动\n\n【D】 drop （使）降低或减少\n\n【考点提炼】上下文语义+动词辨析。正确率：90%\n\n【解题思路】空格处说明申请者的分数受到的影响：平均______ 0. 075分。由上题分析及下文关键\n\n词such a decrease（这种减少）的语义回指功能可知，此处表示分数的减少、降低，【D】符合文意。\n\n【错项排除】【A】表示\"数量、水平、价格、程度等暴涨，激增”.与文意相反；【B】表示\"在水上漂流，浮\n\n动”或“声音、香味等的飘动”或“货币汇率的浮动”，不合文意；【C】表示“大小、数量、质量等的波动，起伏\n\n不定”，是波浪线型变化.而非单向的向上或向下变化，故排除。\n\n1",
+      "points": 0.5,
+      "sort_order": 8,
+      "answer": "A"
+    },
+    {
+      "id": "f42579c0-a418-5daf-a5a2-bde3796e2b14",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [9] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "decision",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "quality",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "status",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "success",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n9. ［A］ decision 决定;决策［B］ quality 品质;特质［C］ status 地位，身份［D］ success成功;成效\n［考点提炼］上下文语义。正确率：20%\n［解题思路］空格句介绍大学录取过程的面试环节：申请者的______ 不应取决于其他人的表现。由\n空格下段“9323场MBA的面试结果（the results of 9,323 MBA interviews”、\"面试中决定是否录用某申 \n请者（make a decision on whether to accept him or her）所考虑的因素\"等内容可推知，此处意在说明申请 \n者被成功录取的条件，［D］符合文意。\n［错项排除］［A］利用文中多次原词复现设置干扰,但面试结果与“申请者自己的决定”无关（而是由 \n面试官来决定）；［B］、［C］利用面试中的常见考虑因素（申请者的个人素质、地位）设置干扰，但此处介绍 \n的是面试结果，而非申请者的个人情况，故排除。\n\n【选项释义与词汇辨析】\n[A] decision: 决定;决策\n[B] quality: 品质;特质\n[C] status: 地位，身份\n[D] success: 成功;成效",
+      "points": 0.5,
+      "sort_order": 9,
+      "answer": "D"
+    },
+    {
+      "id": "56cf5d05-da94-5245-9306-87fbb0a50ceb",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [10] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "test",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "emphasize",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "share",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "promote",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n10 randomly for interview during the same day, \nbut Dr Simonsohn suspected the truth was 11\n①为鯉这一想法，他开始研究大学录取过 \n程。②理论上，一位申请者的成功不应取决于在 \n同一天被随机迪里参加面试的其他几位申请者， \n但西蒙逊博士怀疑事实并非如此。\n:•词汇注释\n©turn to改用，开始转向（新的方法、新的对象等） \nJ ②admission ［ad'miJon］允许进入，录用\n卜真题精解\n& ［A］ test检验;考验［B］ emphasize强调;使突岀［C］ share分享;共同拥有［D］ promote促进;推广;提倡 \n［考点提炼］上下文语义。正确率：70%\n［解题思路］空格后this idea回指上段Simonsohn博士的推测：不考虑全局会使决策者受经手的日 \n常信息样本的影响而产生偏见；本段指出，他开始研究大学录取过程；而下文则详细介绍其研究过程、研 \n究发现。不难推出，他所做的研究是为了“检验、验证”其推测的正确性，［A］正确。\n［错项排除］［B］表示“强调某观点、事实等格外重要或强调其真实性”，而原文并非单纯以言语强调 \n其重要性或真实性，而是以研究加以佐证，故排除。［C］表示“（与某人）分享，共享某事物”或“共同拥有 \n3\n\n（某种看法、特质或经历）”，如：a view that is widely shared（—种得到广泛认同的观点）；［D］与idea连用 \n时，表示\"试图说服人们支持或使用某事物，提倡（to try to persuade people to support or use sth）”，而下 \n文并未提及Simonsohn分享该观点或与他人观点一致，亦未提及他提倡该观点，故排除此两项。\n9. ［A］ decision 决定;决策［B］ quality 品质;特质［C］ status 地位，身份［D］ success成功;成效\n［考点提炼］上下文语义。正确率：20%\n［解题思路］空格句介绍大学录取过程的面试环节：申请者的_____\n\n【选项释义与词汇辨析】\n[A] test: 检验;考验\n[B] emphasize: 强调;使突岀\n[C] share: 分享;共同拥有\n[D] promote: 促进;推广;提倡",
+      "points": 0.5,
+      "sort_order": 10,
+      "answer": "C"
+    },
+    {
+      "id": "dd6e3c40-3aa7-57ee-8fe3-40d0d298744b",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [11] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "otherwise",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "defensible",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "replaceable",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "exceptional",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "\n11. ［A］ otherwise不那样的，另外的 \n［B］ defensible可辩解的，合乎情理的\n［C］ replaceable可替换的，可代替的 \n［D］ exceptional异常的；罕见的\n［考点提炼］上下文语义+形容词辨析。正确率：18%\n［解题思路］由空格上文In theory （理论上，暗示事实并非如此）与空格前转折连词but可知， \nSimonsohnU为实情与理论情形不同，即实情并非是“一位申请者的成功不取决于同一天内被随机抽取 \n的其他申请者”，且下文“一位申请者的分数确实会受到之前的人的得分的影响”印证了其观点，故空格 \n处应表示\"不同\"，［A］符合文意。注otherwise文中用作形容词，意为other than supposed; different„\n［错项排除］［B］意为“（意见、想法或行动等）合理的，说得过去的”，［D］侧重“不同寻常、罕见 \n（unusual and likely not to happen often）\",但\"认为事实是合理的或不同寻常的\"无法与上文的理论情形 \n构成转折逻辑；［C］侧重“可替换性、可替代性”，强调并非必不可少，用于此处不合文意。\nm ❶ He studied the results of 9,323 MBA interviews\n\n【选项释义与词汇辨析】\n[A] otherwise: 不那样的，另外的\n[B] defensible: 可辩解的，合乎情理的\n[C] replaceable: 可替换的，可代替的\n[D] exceptional: 异常的；罕见的",
+      "points": 0.5,
+      "sort_order": 11,
+      "answer": "A"
+    },
+    {
+      "id": "2cfc90d1-0252-535f-8669-0040becf8de6",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [12] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "inspired",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "expressed",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "conducted",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "secured",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n12 \nby 31 admissions officers.❷ The interviewers had",
+      "points": 0.5,
+      "sort_order": 12,
+      "answer": "C"
+    },
+    {
+      "id": "841b1373-03ec-59a0-a540-6d5204fed222",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [13] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "assigned",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "rated",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "matched",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "arranged",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n13 \napplicants on a scale® of one to five, ©This scale",
+      "points": 0.5,
+      "sort_order": 13,
+      "answer": "B"
+    },
+    {
+      "id": "ef665076-ae1f-562c-a223-d6b25bf91eb2",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [14] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "inspired",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "expressed",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "conducted",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "secured",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n14 \nnumerous factors into consideration. 0The scores \nwere 15 used in conjunction with® an applicant's score \non the Graduate Management Admission Test, or GMAT , a \nstandardised exam which is 16 out of 800 points, to \nmake a decision on whether to accept him or her.\n①他研究了由31位招生人员进行的 \n9323场MBA面试的结果。②面试官将申 \n请者按照1到5的等级分级。③这一评分 \n等级会考慮多方因素。阪分数堕亘与申 \n请者的丽学研究生入学考试（即GMAT \n考试，一种从800分的满分中评分的标准 \n化测试）分数一起，被用来决定是否录用该 \n申请者。\n①scale ［skeil］ n.等级，级别\n•词汇注释主£\n§ ②in conjunction with sb/sth 与某人/ 某物一起\n4\n\nL-\n12. ［A］ inspired 鼓舞;激起［B］ expressed 表达，表示［C］ conducted 组织，实施［D］ secured 保护;获得\n［考点提炼］上下文语义+动宾搭配。正确率：85%\n［解题思路］空格处考查\"招生人员（admissions officers）w与\"MBA面试（MBA interviews）\"之间的 \n关系。不难看出，招生人员是面试的组织者，应该负责“实施面试\"，下文也介绍了他们在面试中是如何 \n操作的，只有［C］符合文意。\n［错项排除］［A］指“鼓舞某人”或“（使）某人产生（某种感情或反应），激起”，［B］表示“通过话语、表 \n情或行动来表达想法、情绪等”，但“被招生人员所鼓舞的面试”与文意不符-interviews也不是某种感情、 \n反应或想法，可排除此两项；［D］表示“使某物安全，保护某物”或“（尤指经过努力而）获得，得到某物''，但 \n“面试”是针对“入学申请者\n\n【选项释义与词汇辨析】\n[A] inspired: 鼓舞;激起\n[B] expressed: 表达，表示\n[C] conducted: 组织，实施\n[D] secured: 保护;获得",
+      "points": 0.5,
+      "sort_order": 14,
+      "answer": "C"
+    },
+    {
+      "id": "429446f1-b2de-503d-b718-e22d140190f3",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [15] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "instead",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "then",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "ever",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "rather",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n15. ［A］ instead代替；反而 ［B］ then然后，继而 ［C］ ever曾经；从来 ［D］ rather相反；相当\n［考点提炼］上下文逻辑。正确率：70%\n［解题思路］空格句“该分数______ 与申请者在GMAT测试中的分数一起作为决定是否录用该申请\n者的考虑因素”与上文“面试官会对申请者按照1到5级来评分”均是对MBA录取过程的介绍（面试评 \n分辅以GMAT分数亠决定是否录用），两句间存在顺承逻辑，［B］ then符合文意。\n［错项排除］［A］意为“代替；反而（in the place of sb/sth）”，表取舍；［D］也可表取舍，用于提出不同 \n或相反的观点，常用于not. . . but rather结构中；还可做程度副词，修饰形容词或副词，表示轻微的批判、 \n失望或惊讶等，如：The instructions were rather complicated.（这些说明相当复杂。）；但空格上下文之间 \n并非取舍逻辑，空格处也不是意在说明程度，故排除此两项。［C］常用于疑问句、否定句、if从句中，表示 \n\"在任何时候，从来（at any time）\",如：Do you ever wish you were rich?（你曾希望过自己很富有吗？）；或 \n用于比较结构中以加强语气，表示\"比以往任何时候，曾经\"，如：It was raining harder than ever.（当时下 \n5\n\n着前所未有的大雨。）；空格所在句为陈述句，且无比较结构，语义与语法均不合要求，故排除。\n\n【选项释义与词汇辨析】\n[A] instead: 代替；反而\n[B] then: 然后，继而\n[C] ever: 曾经；从来\n[D] rather: 相反；相当",
+      "points": 0.5,
+      "sort_order": 15,
+      "answer": "B"
+    },
+    {
+      "id": "d1637b53-581a-53c1-8550-521d847ef660",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [16] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "evaluated",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "rated",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "graded",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "calculated",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n16. ［A］ selected挑选，选择 \n［B］ passed（考试）通过，合格\nEC］ marked给....批分数，评成绩 \n［D］ introduced引进，引入\n［考点提炼］上下文语义+动词用法。正确率：60%\n［解题思路］空格句说明GMAT这种标准化测试，由关键词exam、out of 800 points可知，空格处与 \n考试得分有关，应该是说明该测试的评分标准（从800的总分中______ ）,选项中可以表示“评分、得分”\n的只有［C］,此处表示“按照800的总分评出考试成绩”。\n［错项排除］［A］表示“从……中挑选”时，常用select A out of B,其中A和B为同质事物，而文中a \nstandardised exam与800 points并非同质事物；［B］与［D］虽可与exam连用，表示\"通过考试、引入/介绍 \n考试\"，但无法与空格后内容out of 800 points连用。\nIV O Dr Simonsohn found if the score of the \nprevious candidate® in a daily series of interviewees was \n0. 75 points or more higher than that of the one\n\n【选项释义与词汇辨析】\n[A] selected: 挑选，选择\n[B] passed: （考试）通过，合格\n[D] introduced: 引进，引入",
+      "points": 0.5,
+      "sort_order": 16,
+      "answer": "C"
+    },
+    {
+      "id": "13d4bf00-a10c-5c7a-8a57-30f7c3205a41",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [17] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "below",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "after",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "above",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "before",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n17\nthat, then the score for the next applicant would ",
+      "points": 0.5,
+      "sort_order": 17,
+      "answer": "D"
+    },
+    {
+      "id": "89095817-d910-5f42-9424-3126275c702b",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [18] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "jump",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "float",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "fluctuate",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "drop",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "18. 【A】 jump暴涨，猛增\n\n【B】 float漂流；飘动；（使）汇率浮动\n\n【C】 fluctuate涨落，波动\n\n【D】 drop （使）降低或减少\n\n【考点提炼】上下文语义+动词辨析。正确率：90%\n\n【解题思路】空格处说明申请者的分数受到的影响：平均______ 0. 075分。由上题分析及下文关键\n\n词such a decrease（这种减少）的语义回指功能可知，此处表示分数的减少、降低，【D】符合文意。\n\n【错项排除】【A】表示\"数量、水平、价格、程度等暴涨，激增”.与文意相反；【B】表示\"在水上漂流，浮\n\n动”或“声音、香味等的飘动”或“货币汇率的浮动”，不合文意；【C】表示“大小、数量、质量等的波动，起伏\n\n不定”，是波浪线型变化.而非单向的向上或向下变化，故排除。",
+      "points": 0.5,
+      "sort_order": 18,
+      "answer": "D"
+    },
+    {
+      "id": "16ff7fca-aa23-5918-bb64-238647aea2ac",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [19] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "achieve",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "undo",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "maintain",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "disregard",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n19. ［A］ achieve实现，达到 \n［B］ undo使无效，取消，废除\n6\n",
+      "points": 0.5,
+      "sort_order": 19,
+      "answer": "B"
+    },
+    {
+      "id": "7fde5601-f3c0-5e71-9636-dbfa04619268",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "135973f9-098b-5f42-950d-bf4050b631de",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [20] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "necessary",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "possible",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "promising",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "helpful",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "20\n\n. [292 words]\n\n①西蒙逊博士发现，如果在一天的面试\n\n者序列中，前一位应试者的分数比他/她前\n\n一位高0. 75分或更多，那么下一位申请者的\n\n分数平均会降低0.075。②这也许听起来微\n\n乎其微，但要延逍这一下降所带来的影响，\n\n则应试者的GMAT成绩将需要比正常情况\n\n下所需的分数高出30分。\n\n【•词汇注释•】丛\n\n①candidate 【\"ksendideit】\n\n应试者，投考者\n\n§ ②otherwise 【 'Adawaiz^ ad.用别的方法，在另外的情况下\n\n「•真题精解蠱X\n\n17. 【A】 below 在... 之下 【B】 after 在....之后 【C】 above 在....之上 【D】 before 在....之前\n\n【考点提炼】句内逻辑语义。正确率：50%\n\n【解题思路】本句介绍Simonsohn的研究发现：在面试中，如果前一位面试者比他/她______—*位的\n\n得分高0.75,则下一位的分数会……平均0.075分。首段Simonsohn的理论指出，法官因害怕对犯罪表\n\n现得过于心慈手软，如果他在一天中已经对五六名被告轻罚，那么就更可能对某人重罚。由主旨一致性\n\n可知，Simonsohn的研究发现应与其理论一致，故面试中的得分应该是在前几位都很高的情况下，下一位\n\n的分数才会变低，故此处应该是“前一位面试者比他/她前面的得分高0. 75”，【D】符合文意。\n\n【错项排除】【A】与【C】表示方位、位置（在……之上/之下）或数目、数量、水平、年龄等（超过/低于），\n\n不合文意；【B】与文意相悖。\n\n18. 【A】 jump暴涨，猛增\n\n【B】 float漂流；飘动；（使）汇率浮动\n\n【C】 fluctuate涨落，波动\n\n【D】 drop （使）降低或减少\n\n【考点提炼】上下文语义+动词辨析。正确率：90%\n\n【解题思路】空格处说明申请者的分数受到的影响：平均______ 0. 075分。由上题分析及下文关键\n\n词such a decrease（这种减少）的语义回指功能可知，此处表示分数的减少、降低，【D】符合文意。\n\n【错项排除】【A】表示\"数量、水平、价格、程度等暴涨，激增”.与文意相反；【B】表示\"在水上漂流，浮\n\n动”或“声音、香味等的飘动”或“货币汇率的浮动”，不合文意；【C】表示“大小、数量、质量等的波动，起伏\n\n不定”，是波浪线型变化.而非单向的向上或向下变化，故排除。\n\n19. 【A】 achieve实现，达到\n\n【B】 undo使无效，取消，废除\n\n6\n\n【C】 maintain 保持，维持\n\n【D】 disregard 忽视，无视\n\n【考点提炼】上下文语义。正确率：25%\n\n【解题思路】根据上文，后一位申请者的分数被无端降低了 0. 075o本句转折，指出0.075虽然听起\n\n来很少，但ip需要多出30分的GMAT成绩来______ 其影响。面试分数降低，GMAT分数提高，这是两\n\n相相抵的过程。【B】指“抵消其影响”，符合文意。\n\n【错项排除】【A】侧重“成功完成某事或取得好的结果”，【C】侧重“维持现状、保持水平或速度”，但\n\n“达到、维持面试分数降低这一影响”均与文意相悖，【D】表示“不理会，忽视；轻视(to not consider sth； to\n\ntreat sth as unimportant)”，但仅仅“忽视、无视面试分数降低的影响”并不需要GMAT成绩高出30分，\n\n故排除。\n\n20. 【A】 necessary必需的，必要的\n\n【B】 possible可能的\n\n【C】 promising有希望的，有前途的\n\n【D】 helpful有用的，有帮助的\n\n【考点提炼】句内语义。正确率：40%\n\n【解题思路】空格句指出，要抵消偏见对面试分数的不良影响，申请者需要在GMAT测试中比正常\n\n情况下______ 多得30分。句中otherwise指“不同地，以别的方式”，文中即“在另一种情况下”，即面试\n\n分数未受偏见的影响而降低的情况下。由上段末“面试官在决定是否录用某位申请者时，会综合考虑面\n\n试分数与GMAT分数”可推知，在面试分数未降低的情况下-GMAT测试不需要多考30分即可被录用，\n\n故空格处应表示“需要、必要”，【A】正确。\n\n【错项排除】【B】表示\"可能的，可能实现的(that can be done or achieved)\",【C】表示\"大有希望的，很有前\n\n途的(showing signs of being successful or good in the future)\",二者均表示可能性的大小，而\"有可能\"、\"可能性\n\n极大”并不足以保证能被录取，故排除。【D】侧重“有用性”,“比正常情况下有用的分数”不合文意。\n\nSection H Reading Comprehension\n\n逾",
+      "points": 0.5,
+      "sort_order": 20,
+      "answer": "A"
+    },
+    {
+      "id": "1de217c8-db9d-5477-9975-c3757cf01471",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "10d8fb90-e783-5aab-aa05-4b3dc983dc1b",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Priestly criticizes her assistant for her",
+      "options": [
+        {
+          "key": "A",
+          "text": "are crazy about haute couture",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "are indifferent to fast fashion",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "prefer durable luxury goods",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "care little about brand names",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n21. Priestly criticizes her assistant for her \n・\n21.普瑞斯特利斥责助手是因为她\nO\n[A] insensitivity to fashion\n[A]对时尚不敏感\n[E] obsession with high fashion\n[B]痴迷于高级时尚\n8\n\n［精准定位棒一段①句指出Priestly在斥责助手，原因是助手认为高端时尚与己无关。②句Priestly \n解释时尚如何自上而下，并指出助理毛衫颜色过时。可见助理受斥原因是对时尚不敏感，［A］正确。\n[C] poor bargaining skill\n［C］议价能力差\n[D] lack of imagination\nED］缺乏想象力\n［命题解密］题干+ ［A］同义改写第一段①句:criticize. . . for与scolds. . . for同义；imagining that \nhigh fashion doesn't affect her 与 her insensitivity to fashion 近义。\n［B］将①句助理受斥原因“认为高端时尚与己无关(imagining... doesn't affect her)”改为完全相反的 \n\"痴迷于高端时尚(obsession with)”。［C］对②句bargain望文生义：该词在文中用于说明助理毛衫出处 \n“清货区(bargain bin)”,和“议价能力(bargaining skill)”毫无关系。［D］对①句 imagining. . . doesn't...断 \n章取义：该内容指“助理认为时尚与己无关”，无关“想象力的匮乏(lack of imagination),,\n［技巧总结］本题考查“人物观点+因果事实”,题目定位容易、但准确理解定位信息难(表述较抽象， \n且含专有名词)。解题关键在于借助下文(继续阐释同一事件)仔细推敲文字确切含义，切忌望文生义。\n具体来看，第一段以 Priestly. . . scolds. . . >Priestly explains...衔接，共同说明 Priestly 观",
+      "points": 2,
+      "sort_order": 21,
+      "answer": "D"
+    },
+    {
+      "id": "2ab44922-89a7-5805-9fbf-674b22ccef4e",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "10d8fb90-e783-5aab-aa05-4b3dc983dc1b",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "According to Cline, masrmarket labels urge consumers to",
+      "options": [
+        {
+          "key": "A",
+          "text": "buy clothes more frequently",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "spend less money on apparel",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "resist seasonal fashion trends",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "recycle old garments regularly",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n22. According to Cline, masrmarket labels urge consumers to\n22.克莱恩认为,大众品牌力劝消费者\nO\n[A] combat unnecessary waste\n［A］反对不必要浪费\n[E] shop for their garments more frequently\n［B］更频繁购买服装\n[C] resist the influence of advertisements\n［C］抵制广告的影响\n[D] shut out the feverish fashion world\nCD］将狂热的时尚界拒之门外\n \n   \n   \n \n \n \n \n \n \n \n \n \n  \n    \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n   \n \n  \n  \n  \n \n \n［精准定位］第二段④句指出，大众品牌鼓励消费者“将衣服看做一次性产品、隔不了几周便要更新\n一次衣橱”。可见克莱恩认为大众品牌在力劝消费者频繁购衣，［B］正确。\n［命题解密］题干+正确项［B］概括改写第二段④句:urge. . . to对应encourage. . . to；shop for their\ngarments more frequently 明确see clothes as disposable . . . renew their wardrobe every few weekso\n［A］源自第二段③句less wasted,但该句指大众品牌“库存浪费更少”，并非“鼓励消费者减少/对抗浪\n费”。［C］对第二段④句don't advertise断章取义：它并非指“大众品牌鼓励消费者不受广告影响”，而是说\n明“大众品牌不公开宣扬，而是暗中诱导消费者）。［D］利用第二段①句feverish world形成干扰。但该句\n指“克莱恩谴责疯狂的快时尚世界”，并非“克莱恩指出大众品牌在力劝消费者抵制疯狂的时尚界”。\n［技巧总结］本题就长难句命制“事实概括+人物观点”题，要求考生就长难句中信息进行概括提炼，\n明确",
+      "points": 2,
+      "sort_order": 22,
+      "answer": "B"
+    },
+    {
+      "id": "5ae0aa39-f019-53eb-80d1-33cc2aa30bf3",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "10d8fb90-e783-5aab-aa05-4b3dc983dc1b",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The word \"indictment\" (Line 3, Para. 2) is closest in",
+      "options": [
+        {
+          "key": "A",
+          "text": "disdain",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "curiosity",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "enthusiasm",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "sympathy",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n23. The word \"indictment\" (Line 3, Para. 2) is closest in \nmeaning to \n・\n23. indictment 一词（第二段第三行）含义 \n最接近于 \n。\n[A] tolerance\n［A］容忍\n[E] indifference\n［B］漠视\n[C] enthusiasm\n［C］热情\n[D] accusation\n［D］谴责\n［精准定位］由考查词所在句（第二段①句）可知，该词体现Cline就“快时尚\"的总体态度。由下文 \n（第二、三段）可知，Cline认为快时尚鼓动消费者频繁购衣，绑架了时尚周期，造成了多方危害。可见， \nCline对快时尚持“谴责”态度，［D］为所考词正确含义。\n［命题解密］正确项［D］accusation体现了第二段①句feverish—词的否定色彩，以及随后encourage \nconsumers to see clothes as disposable. ,. hijacked fashion cycles.. . rely on low-wage overseas labor... \nstrain natural resources, .. use massive amounts of harmful chemicals 传递的批类!）态度。\n［A］弱化Cline对快时尚的“不认同”，总体偏“接受态度”，但文中丝毫未提及Cline对快时尚的肯 \n定。［B］利用第一段①句doesn't affect her捏造干扰\"Cline对快时尚漠不关心（indifference）\",但实际上 \n该内容和Cline观点无关。［C］利用第二段①句feverish形成干扰，但该词为贬义（Cline认为快时尚非常 \n疯狂），并非褒义（Clme对快时尚充满热情）。\n［技巧总结］“词义题”虽然总体上都意在考查根据上下文推断词义的能力，但具体方向有所不同：有 \n的侧重考查“文中同向/反向关系”，解题重点在于识别同义/近义/反义表达；有的考査“文中指代关系”， \n解题重点在于厘清多个主体之间错综复杂的关系；有",
+      "points": 2,
+      "sort_order": 23,
+      "answer": "D"
+    },
+    {
+      "id": "f740352a-e4bf-5ac5-947a-46ec6734d1fa",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "10d8fb90-e783-5aab-aa05-4b3dc983dc1b",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Which of the following can be inferred from the last",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vanity has more often been found in idealists・",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "The fast-fashion industry ignores sustainability.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "Pricing is vital to environment-friendly purchasing.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "People are more interested in unaffordable garments.",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n24. Which of the following can be inferred from the last \nparagraph?\n24.从最后一段中可推知下列哪项内容？\n[A] Vanity has more often been found in idealists・\n［A］虚荣更常见于理想主义者。\n[B] The fast-fashion industry ignores sustainability.\n［B］快时尚业忽略了可持续性。\n[C] Pricing is vital to environment-friendly purchasing.\n［C］定价对于环境友好型购物至关重要。\n[D] People are more interested in unaffordable garments.\n［D］人们对买不起的服装更感兴趣。\n［精准定位］末段③句指出，虚荣深植人心，人们只有在无力支付不可持续购物时，才会开始可持续 \n性购物。可见，“定价”对于购物是否可持续/环境友好至关重要，［C］正确。\n［命题解密］正确项［C］是基于全文内容对末段③句的顺势推导,environment-friendly purchasing同 \n义替换原文 shopping sustainably; pricing 明确 when they can't afford not to 所指；is vital to 明确 will only \nstart. . . when体现的二者关系。\n［A］在末段关键词idealism和vanity间强加关联。文中只是指出“人性虚荣”，并未比较“理想主义 \n者”相对整体人群的虚荣性。［B］对末段①句反向干扰，该句指出快时尚业已经关注可持续性（have \nmade efforts to curb. . . ） o ［D］暗示\"虚荣心\"、与原文 vanity is constant 貌似契合，且 unaffordable 与原文 \ncan't afford对应，因此具有很大干扰性。但实际上末句是指出“人们只有在无力支付时，才会放弃过度 \n购衣”，而不",
+      "points": 2,
+      "sort_order": 24,
+      "answer": "C"
+    },
+    {
+      "id": "1264e4ab-89e3-5573-8446-9573acf50b5f",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "10d8fb90-e783-5aab-aa05-4b3dc983dc1b",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What is the subject of the text?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Satire on an extravagant lifestyle.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "Challenge to a high-fashion myth.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "Criticism of the fast-fashion industry.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Exposure of a mass-market secret.",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n25. What is the subject of the text?\n25.本文主旨是什么？\n[A] Satire on an extravagant lifestyle.\n［A］讽刺奢侈的生活方式。\n[B] Challenge to a high-fashion myth.\n［B］挑战高级时尚之谜\n[C] Criticism of the fast-fashion industry.\nCC］批判快时尚业\n[D] Exposure of a mass-market secret.\nCD］揭露大众市场的秘密\n16\n \n",
+      "points": 2,
+      "sort_order": 25,
+      "answer": "C"
+    },
+    {
+      "id": "7933b377-e798-5422-a51a-04713b5bd39e",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "af9727e8-1f96-57e2-bbb7-d356a28319d0",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "It is suggested in Paragraph 1 that u behavioural\" ads",
+      "options": [
+        {
+          "key": "A",
+          "text": "provide better online services",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "ease competition among themselves",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "avoid complaints from consumers",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "lower their operational costs",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n26. It is suggested in Paragraph 1 that u behavioural\" ads \nhelp advertisers to \n・\n26.第一段表明，“行为”广告有助于广告商 \n们 \n。\n[A] provide better online services\n［A］提供更好在线服务\n[B] ease competition among themselves\n［B］缓和内部竞争\n[C] avoid complaints from consumers\nEC］避免消费者投诉\n[D] lower their operational costs\n［D］降低运营成本\n \n \n \n \n \n  \n \n \n \n  \n   \n \n \n \n \n \n   \n \n \n \n \n［精准定位］第一段①句指出“过半广告预算被浪费”；②③句进而作解“互联网时代，这部分被浪费\n的预算可大幅减少，因为企业（即广告商）可根据用户网上所搜、所点及所说向潜在客户发送行为广告”。\n由此可见，互联网行为广告能够帮助广告商省钱。故［D］正确。\n［命题解密］题干+正确项［D］是对②③句的最有力概括。\n根据第一段③句“投放给最有可能购买的潜在客户（at those most likely to buy）”以及第二\n段①句\"人们很高兴被投放行为广告（people are happy to be. . . sent behavioural ads）”捏造，但前者旨在\n说明“行为广告具有针对性（从而有效减轻广告费用）”，后者意在指出“广告商太过武断地认为客户收到\n行为广告会很开心\"；［B］由第二段①句a quarrel. . . advertisers捏造出a quarrel among advertisers,且错\n18\n \n\n将第一段②句fraction14部分”视为friction**竞争”，而段中并未提及广告商竞争相关信息。\n［技巧总结］细节推理题的解答关键：先借助题干关键词定位，再借助定位信息与上下文关联找寻与 \n之匹配的正确项。如本题，由题干“behavioural” ads定位至③句",
+      "points": 2,
+      "sort_order": 26,
+      "answer": "D"
+    },
+    {
+      "id": "54b5e650-6cc5-5f42-968a-ab662e992911",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "af9727e8-1f96-57e2-bbb7-d356a28319d0",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "\"the industry\" (Line 4, Para. 3) refers to",
+      "options": [
+        {
+          "key": "A",
+          "text": "internet browser developers",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "digital information analysts",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "commerce conductors",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "online advertisers",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "27. \"the industry”( Line 4, Para. 3) refers to\n\n・\n\n27. \"the industry!该行业）”（第三段第四行）\n\n指的是\n\n。\n\n[A] internet browser developers\n\n【A】网络浏览器开发商\n\n[B] digital information analysts\n\n【B】数字信息分析者\n\n[C] e-commerce conductors\n\n【C】电子商务运营商\n\n[D] online advertisers\n\nED】在线广告商\n\n【精准定位【被考词所在句③句指出：FTC和DAA 一致认为the industry将会对DNT要求迅速做出\n\n回应。该段①句指出FTC提议在浏览器上添加DNT选项，可见这个提议的动作执行者是浏览器开发\n\n商;②句随后介绍微软1E浏览器、苹果Safari浏览器、谷歌Chrome浏览器先后推出DNT选项。由此可\n\n知，本段主要谈及浏览器供应商对于DNT提议的回应问题，因此③句中FTC和DAA所提到的the\n\nindustry应该也是互联网浏览器开发商，【A】正确。\n\n【命题解密】段中出现多个角色，就名词the industry可考查考生对多个角色的正确区辨。\n\n【B】源自③句digital,而文中仅提及Digital Advertising Alliance*'数字广告联盟\"这个机构，并未提及\n\ndigital information analysts'*数字信息分析师\"这个群体；【C】根据常识\"利用网络进行广告宣传是电子商\n\n务的一种类型”捏造而来.而文中并未提及“电子商务运营者”;【D】由①句“添加DNT有助用户告知广告\n\n商他们不愿被追踪”误解出“就DNT要求做出回应是广告商的事”，而由第三段主体内容（尤其②句）“各\n\n家浏览器供应商纷纷对于DNT提议做出回应”可知其错误性。\n\n【技巧总结】名词性指代题的解答步骤有；返回原文，找出被考指代词；2・向上搜索，找最近的名\n\n词、名词性短语或句子（先从最近点开始找，找不到再找次近的，一般答案不会离得太远）；3.将找到的\n\n词、词组或句子的意思代入替换该指代词，看其意思是否通顺；4.将找到的词、词组或句子与四个选项进\n\n行比较，找出最佳答案。\n\nIV ❶On May 31st Microsoft set off the row.❷ It\n\nsaid that Internet Explorer 10, the version due\n\nto appear with Windows 8, would have DNT as\n\na default®.\n\n5月31日，微软率先挑起争论，称其预计\n\n将随 Windows 8 一起面世的IE 10浏览器把\n\nDNT设为默认设置。\n\n①default\n\nn.系统默认值\n\n•词汇注释与难句分析\n\n》•经典搭配\n\n2 set off the row（挑起争论）\n\n21\n\n•语篇分析•】』\n\n第四至七段为第二层次，围绕争议处理方案最新进展（即，行为广告新发热议事件）展开分析。\n\n第四段简述新发热议事件：微软意欲将DNT设为默认值。关键词有：set off the rowo\n\n① 句概说事件时间、人物：今年（2012年）5月31日，微软。 the row（row：a noisy argument between\n\ntwo or more peopled两人或多人之间的）争吵，吵闹”）自带定冠词，说明与之相关信息在上文已提及，回\n\n溯上文即可发现第二段a quarrel与之相契合，至此明确quarrel具体内容；set off“引起，挑起，激起”表明\n\n微软此乃首举，引发众多争议。\n\n② 句细述事件内容：意欲在其IE10浏览器中将DNT设为默认值。default^计算机用语）默认状态，\n\n系统预设状态”呼应第三段option,表明微软此举“将DNT设为默认值”在此前“将DNT设为选项，由用\n\n户自行选择”的基础上更进一步，而根据“DNT选项已不利于广告商，更何况DNT默认值”的语义逻辑，\n\n不难揣测广告商对微软此举的反应。\n\n【深层解读】本段实为全文两层次间的关联段：段首句揭示前文quarrel的真实内容“'微软欲在其IE\n\n10浏览器默认开启DNT，事件发起的争论”。换言之，前文实借quarrel引出行为广告争议点及解决方\n\n案，本段才真正开始对quarrel展开详细说明，本段实为全文“第一层次点到为止、铺陈背景—\n\n第二层\n\n次详细阐述事件内容、影响及原因”的分水岭。\n\nV ❶ Advertisers are hoirified①.❷ Human\n\nnature being what it is, most people stick with\n\ndefault settings®.❸ Few switch DNT on now, but if\n\ntracking is off it will stay off.❹画 Bob Liodice, the\n\nchief executive of the Association of National\n\nAdvertisers, says consumers will be worse off if the\n\nindustry cannot collect information about their\n\npreferences4>.❺ People will not get fewer ads, he\n\nsays. ❻\"They'll get less meaningful, less\n\ntargeted ads. ”\n\n广告商们恐慌了。大多数人坚持使用默认\n\n设置，这是人性使然。现在很少有人开启DNT,\n\n但如果追踪被关闭，那它就会一直处于关闭状\n\n态。全国广告商协会会长鲍勃・利奥狄斯称，如\n\n果广告行业不能收集消费者偏好的信息，消费者\n\n的情况将变得更糟。人们看到的广告不会变少，\n\n“他们收到的广告将变得更没有意义、更缺少针\n\n对性，”他说。\n\n① horrify ['hDrifai] v.使恐惧；惊骇\n\n② setting C'setig] n.设置\n\n©preference Q'prefarans] n.偏爱，倾向\n\n•经典搭配\n\n•词汇注释与难句分析• £\n\n$ ©human nature b&ng what it is（人性使然）\n\n?\n\n②stick with（坚持）\n\nj ③chief executive（最高层管理者）\n\n| ④worse off（恶化，情况更坏）/better off（情况好转）\n\n•语篇分析\n\n第五、六段分析广告商对微软事件的反应。\n\n第五段分析情绪反应。关键词为:horrifiedo\n\n①\n\n句\n\n（段落主旨句）指出广告商的情绪反应：惶恐。horrified强调广告商对微软之举惊慌失措之余，\n\n更反衬行为广告对广告商的价值之大。\n\n②③句正面作解:将DNT设为默认值无益于广告商。②句“大多数人坚持默认值”与③句“少数人开启\n\nDNT”看似形成对比，实际均指向DNT选项当前运行情况:少量被开启，多数仍处于关闭状态,广告商仍可追\n\n踪大多数用户的在线信息;③句but后解释微软之举给广告商带来的恐慌:一旦将DNT设为默认值,追踪功\n\n能将被永久性关闭,广告商将无法跟踪在线行为信息投放精准广告。注:1. Human nature being what it is完\n\n22\n\n整形式为Human nature is what it is（人性是其固有的属性\n\n人性是怎样就是怎样\n\n人性使然）;2. off均\n\n指“（机器、设备等）不在工作，不在运行，停止，关闭”，故stay off意为“处于关闭状态”。\n\n④⑤⑥句侧面作解：借全国广告商协会会长之言侧面烘托广告商恐慌。consumers, people, their,\n\nThey所指相同，语言多样化的同时也实现句间衔接。④句逗号内内容（插入语）补充引言人物的身份：全\n\n国广告商协会会长，看似多余，实则暗示该人物立场：代表广告商利益，其话看似代言消费者利益（借比\n\n较级better off强调消费者境况将不如前：DNT设为默认项之前，消费者看到的广告至少具有针对性VS\n\nDNT设为默认项之后，消费者将收到诸多无意义、无针对性广告的干扰），实则更加凸显“将DNT设为\n\n默认值”对广告商的不利。\n\n④句中 the industry 指代 online advertisers,理由如下：a.根据主体动作（cannot collect information\n\nabout their （consumers'） preferences1*不能收集消费者偏好的信息\"）、动作受动者（consumers**消费者\"）\n\n以及动作造成的影响（They'll get fewer ads. . . get less meaningful, less targeted ads\"消费者收到更少广\n\n告，广告更没价值、更不具有针对性”）可反推，信息收集动作的施动者是online advertisers; b.此段实际\n\n在讲述advertisers就微软事件的情绪反应问题，整段的核心论述对象是advertisers; c.下段首句how\n\nadvertisers respond 后省略 to Microsoft's having DNT as a default,即对\"微软将 DNT 设为默认状态\"做\n\n出反应的是 online advertisers,,\n\n【深层解读】本段以“情绪上的惊慌失措”为下段“行动上的明知故犯”蓄势：DNT作为选项设置添加\n\n在浏览器中，广告商尚且可以接受（因为默认设置为“允许跟踪”，而天性使得人们懒得更改默认设置，故\n\n广告商依然能够获取大多数用户的在线行为信息）；而DNT-旦被设为默认值，就意味着大多数用户都\n\n默认选择“禁止追踪”，广告商将无从追踪用户信息；这势必令其广告费用大幅上扬，由此不难揣度广告\n\n商到底是愿意“坐以待毙”还是选择“浴血奋战”。\n\n•真题精解】虫",
+      "points": 2,
+      "sort_order": 27,
+      "answer": "D"
+    },
+    {
+      "id": "5278c83c-8028-513e-bee4-0e9b56bcf87b",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "af9727e8-1f96-57e2-bbb7-d356a28319d0",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Bob Liodice holds that setting DNT as a default",
+      "options": [
+        {
+          "key": "A",
+          "text": "may cut the number of junk ads",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "fails to affect the ad industry",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "will not benefit consumers",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "goes against human nature",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n28. Bob Liodice holds that setting DNT as a default \n・\n2&鲍勃•利奥狄斯认为将“禁止追踪”设 \n为默认状态 \n。\n[A] may cut the number of junk ads\n［A］可能减少垃圾广告的数量\n[B] fails to affect the ad industry\n［B］影响不到广告行业\n[C] will not benefit consumers\nEC］不会受益于消费者\n[D] goes against human nature\n［D］与人性相悖\n \n \n  \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n［精准定位］第五段④⑤句指出Bob观点：消费者境况将更糟，因为收到的广告不仅不会变少，相反\n变得更加没有意义、没有针对性。由此可知，Bob认为将DNT设为默认状态无益于消费者，［C］正确。\n［命题解密］就引言内容设题旨在考查对人物观点的把握。正确项［C］是对第五段④句consumers\nwill be worse off 的改写。\n［A］与第五段⑤句“消费者看到的广告不仅不能变少”相悖；［B］与深层文意“作为广告商利益代表\n的Bob Liodice,其言看似从消费者利益角度出发指责微软举措欠妥，实则意在维护广告商利益（广告业\n肯定会受影响）”相悖；［D］由第五段②句“人们坚持使用默认选项乃人之常情”捏造出“将DNT设为默认\n状态与人性冲突”。\n［技巧总结］人物观点态度题的解答关键在：借助观点标记词/符号、情感色彩表达词等把握人物\n观点。如本题：借助观点表达词及符号（says+双引号）首先定位至第五段④⑤句；随后根据引言内容\n中的consumers will be worse off、will not get fewer ads、will get less meaningful, less targeted ads 可锁\n定［C］。\n23\n \n\nVI ❶ It is not yet clear how advertisers will \nres",
+      "points": 2,
+      "sort_order": 28,
+      "answer": "C"
+    },
+    {
+      "id": "d770eb38-51f9-5988-8d4b-e8c7bd5c9daa",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "af9727e8-1f96-57e2-bbb7-d356a28319d0",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Which of the following is true according to Paragraph 6?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Advertisers are willing to implement DNT.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "DNT may not serve its intended purpose.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "DNT is losing its popularity among consumers・",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Advertisers are obliged to offer behavioural ads・",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n29. Which of the following is true according to Paragraph 6?\n29.根据第六段，下面哪项正确？\n[A] Advertisers are willing to implement DNT.\n［A］广告商愿意实施“禁止追踪”。\n[B] DNT may not serve its intended purpose.\nEB］ “禁止追踪”可能不能取得预期目的。\n[C] DNT is losing its popularity among consumers・\n［C］ “禁止追踪”正在失去其消费者青睐度。\n[D] Advertisers are obliged to offer behavioural ads・\n［D］广告商有责任提供“行为”广告。\n［精准定位］第六段②③句指出：DNT信号并不意味着企业必须停止追踪；由于不知道消费者真实 \n心理，企业很可能会忽略DNT默认信号。由此可知，DNT可能并不能达到限制企业获取用户在线行为 \n信息的预期目标，［B］正确。\n［命题解密］正确项［E］是对第六段②③句（尤其是③句some may ignore a DNT signal and press on \nanyway）的合理归纳。\n［A］与②句“广告商可能不会因DNT信号而停止追踪用户信息”所暗传的“广告商并非乐意实施DNT” \n及③句“广告商不予理睬DNT信号”相悖;［C］将③句“广告商不清楚消费者是否坚持DNT默认项”捏造出 \n“DNT正在失去其对消费者的青睐”，而文意并不谈及DNT是否受到消费者欢迎;［D］首先将②句“广告商无 \n义务履行DNT（does not oblige）\"做偷换兼反向干扰，从而曲解为“广告商有义务提供行为广告”。\n［技巧总结］Which型细节题的解题思路是：根据选项关键词一一回文对应。正确项通常对应段落 \n主题，而干扰项或反向曲解、或偷换概念、或断章取义。如本题：纵观选项，［A］、［D］就广告商而言，可定 \n位至②③句（anyone/some companies/some指代\"广告商”），但［A",
+      "points": 2,
+      "sort_order": 29,
+      "answer": "B"
+    },
+    {
+      "id": "f3b39404-3335-55cb-91ab-0d83b2b681a5",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "af9727e8-1f96-57e2-bbb7-d356a28319d0",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The author's attitude towards what Brendon Lynch",
+      "options": [
+        {
+          "key": "A",
+          "text": "indulgence",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "understanding",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "appreciation",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "skepticism",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "\n30. The author's attitude towards what Brendon Lynch \nsaid in his blog is one of \n・\n30.作者对布伦丹•林奇博客中所言的态 \n度是 \nO\n[A] indulgence\n［A］放纵\n[B] understanding\n［B］理解\n[C] appreciation\nEC］欣赏\n[D] skepticism\n［D］怀疑\n［命题解密］正确项［D］skepticism是对反问句式Could it really be that simple?深层含义的合理推 \n断（句中it即指引号内Lynch的观点）。\n与作者反诘语气（兼有“顶撞”效果，与人辩论时表达立场上的不同）相悖；［A］干扰在于末 \n段提及“DNT并非微软巨大卖点”，而作者支持DNT,似乎给考生造成错觉“作者因支持DNT,所以放纵 \n微软此举”，而题目考査点为作者对Lynch观点的站位，而非对微软举措的站位，况且该站位也不正确。\n［技巧总结］解答作者对文中人物观点的态度题，关键在：分清作者观点及文中人物观点，搞清人物 \n观点与作者观点的异同，重点观察文中表示态度的词、词组、句子或特殊句式。如本题：借助作者针对 \nLynch博客之言的反问句式即可推断其不认可态度：肯定反问句表达否定，否定反问句表达肯定，文中 \n为肯定反问句，故表否定之意。\n；一 •总体分扳\n本文选自Netv Scientist《新科学家》2012年3月5日一篇题为The Future is Bright for HumanityC人 \n类拥有光明未来）的文章。文章驳斥了目前人们对未来的悲观态度，通过长远的视角透视人类未来，最 \n后提出自身看法：人类前景非常光明。\n谜二•语篇分析及试题精解\nI ❶回 Up untii a few decades ago, our visions① of \nthe future were largely — though by no means \nuniformly②一 glowingly③ positive. ❷ Science and \nte",
+      "points": 2,
+      "sort_order": 30,
+      "answer": "D"
+    },
+    {
+      "id": "b189fc6e-5691-50c7-9a94-41608d20488c",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "bc537609-ecd4-512d-923d-97b884b42f06",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Our vision of the future used to be inspired by",
+      "options": [
+        {
+          "key": "A",
+          "text": "our desire for lives of fulfillment",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "our faith in science and technology",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "our awareness of potential risks",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "our belief in equal opportunity",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "31. Our vision of the future used to be inspired by\n\n.\n\n3i. a去，我们对未来的想象由\n\n激发。\n\n[A] our desire for lives of fulfillment\n\n【A】我们对充实生活的渴望\n\n[B] our faith in science and technology\n\n【B】我们对科学技术的信心\n\n[C] our awareness of potential risks\n\n【C】我们对潜在风险的意识\n\n[D] our belief in equal opportunity\n\n【D】我们对机会平等的信念\n\n【精准定位】首段①句指岀，直至几十年前，人们都对未来极度乐观。②句接着指出背后原因：（认\n\n为）科学和技术会解决所有难题，让所有人过上充实和机遇满满的生活，也即，人们对未来的乐观源于对\n\n科技的巨大信心，【B】正确。\n\n【命题解密】题干和【B】概括了首段要义。题干中used to对应①句中Up until a few decades ago,be\n\ninspired by 明确两句之间暗含的因果关系；【B】中our faith in science and technology 是对science and\n\ntechnology would cure all the ills of humanity 的概括。\n\n【A】、【D】把首段②句“人们憧憬的具体内容，即预想的科技发展的影响—\n\n使人人生活得充实、机\n\n会多多”变为“人的渴望/信念”，并将之偷换成“憧憬的促因”。【C】源于第二段首句“人们对自身面临的\n\n威胁有了更加深刻的认识”，但这是“目前人们持悲观态度”的原因，而非“以前人们持乐观态度”的原因。\n\n【技巧总结】题干并未锁定具体段落，但used to间接提示文中涉及“今昔对比”，应关注“曾经、过去”\n\n的情况，因此排除第二段（Now）,聚焦第一段（Up until. .. ago）o inspired by...实际引岀“促因”，故本题\n\n考查因果细节，首段共两句话，①句说明想象的具体情况，显然非题干所考，只能锁定②句：无明显因果\n\n关联词，但would表明全句为“主观相信或期待发生的情况”，选项里只有【B】和【D】符合，但【D】中\n\nopportunity位于结果状语里，故真正的源头在前，即全句主语：科学和技术。\n\n29\n\nID ❶画 Eut such gloominess① is misplaced②.❷ The fossil\n\nrecord shows that many species have endured® for millions of\n\nyears — so why shouldn't we? ©lake a broader look at our\n\nspeciesJ place in the universe, and it becomes clear that we\n\nhave an excellent chance of surviving for tens, if not hundreds,\n\nof thousands of years. ❹回 Look up Ho/no sapiens④ in the\n\n\"Red List\" of threatened species of the International Union for\n\nthe Conservation of Nature (IUCN) and you will read： \"Listed\n\nas Least Concern as the species is very widely distributed,\n\nadaptable⑤，currently increasing, and there are no major\n\nthreats resulting in an overall population decline. ”\n\n然而，如此悲观实无必要。化石记录\n\n表明许多物种已经延续了数百万年之久，\n\n那么我们人类为何就不能呢？以更广阔\n\n的视野来审视我们这个物种在宇宙中的\n\n地位，你就会很清楚我们即使存活不了数\n\n十万年，但（起码）再存活数万年是大有希\n\n望的。在世界自然保护联盟《濒危物种红\n\n色名录》上查阅“智人”这一条目，你会读\n\n到以下内容：“被列为'无危物种'，因为该\n\n物种分布极广，适应性强，目前数量正在\n\n上升，且不存在导致其族群数量整体下降\n\n的重大威胁”。\n\n•词汇注释与难句分析•』\n\n(Dgloominess [_'gluiminis] n.悲观；沮丧\n\n② misplace [mis'pleis] v.放错地方\n\n③ endure Ein'djua] p.持续\n\n④ Homo sapiens智人(现代人的学名)\n\n⑤ adaptable [a'dseptabal] a.能适应的\n\n•经典搭配\n\nS\n\n①fossil record（化石记录）\n\nJ\n\n②have an excellent chance（大有希望）\n\nj\n\n③look up（查阅）\n\nJ\n\n④threatened speciesC濒危物种）\n\nj ⑤result in（导致，致使）\n\n| ©population decline（种群衰落，人口下降）\n\nLook up Homo sapiens in the “Red List” of threatened species of the International Union for the Conservation\n\nof Nature (IUCN) and you will read： MListed as Least Concern as the species is very widely distributed, adaptable,\n\ncurrently increasing, and there are no m^jor threats resulting in an overall population decline.\"\n\n功能注释：该句主干为look up. . . and you will read...,含条件意味：\"如果你\n\n你会\n\n\"，其中分\n\n句1为祈使句。分句2 read冒号后为直接引语充当的宾语从句，介绍“名录”中对“人类”这一条目的解\n\n释说明；从句主干省略主语Homo sapiens和is,其完整形式为Homo sapiens is listed as. . . o\n\n•语篇分析•】也\n\n第三段转而反驳人们对未来的极度悲观态度。关键词为:misplacedo\n\n30\n\n① 句直接摆明作者观点：不应对未来极度悲观。But转承上文，开启下文对悲观态度的反驳论证；\n\nsuch gloominess回指上段末句\"人类几乎无未来可期待\"的悲观态度，misplaced （ not appropriate or\n\ncorrect）则明确作者对其否定态度。\n\n第②至④句从三个方面论证①句观点。\n\n② 句援引化石记录证明，人类也能像许多物种一样生存几百万年。 endure for millions of years\n\n（endure意为 continue in existence,especially under suffering or misfortune44在苦难中持续存活”）展现大量\n\n物种与威胁不断抗争、历经磨难并得以长久存活的历程；so why shouldn't we则以反问表强调：人类（不\n\n弱于这些物种，）当然也能长久存在。\n\n③ 句通过分析人类在宇宙中所处的位置，指出人类至少可以再存活数万年。a broader look邀读者\n\n将审视视角由“实物证据（化石）\"拓宽至“浩瀚的宇宙”;and it becomes clear that...引出拓宽视角得出的\n\n结论；固定搭配an excellent chance （ chance指\"可能性\"）起到凸显作者观点的效果；插入语if not\n\nhundreds（of thousands of years）使观点更加中肯、委婉，作者的实际观点是：\"人类继续存活儿万年\"只是\n\n一种最保守的预计，事实上很可能再存活数十万年。\n\n④ 句援引《濒危物种红色名录》关于“智人”的条目，证明人类并无危及存亡的重大威胁。注意句中\n\n有两处as,前一个为介词，表“作为”，后一个为连词，引出两个并列的原因状语从句。Listed as Least\n\nConcern明确《名录》对“智人”的界定；concern（担忧）由最高级least限定，表明人类是最无需担忧的物种\n\n之一。as... , and...两个从句分别从内因和外因角度说明“智人”被列为“无危物种”的原因；其中\n\ncurrently、no major threats体现论述严谨，即\"人类未来无需过度悲观\"的结论基于可预见的未来。\n\n【深层解读】本段继前两段“迂回树靶”之后，开启“打靶”模式；而纵观全段•针对“极度悲观态度”的\n\n驳论论据已非常充分，至此“极度乐观”、“极度悲观”均已被证实欠缺理性思考，提示后文很可能将对“如\n\n何理性地看待人类未来”展开论述。\n\n•真题精解口幺",
+      "points": 2,
+      "sort_order": 31,
+      "answer": "B"
+    },
+    {
+      "id": "2e16e35c-9368-5c9f-937f-65291911e770",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "bc537609-ecd4-512d-923d-97b884b42f06",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The IUCN's \"Red List\" suggests that human beings are",
+      "options": [
+        {
+          "key": "A",
+          "text": "sustained species",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "the world's dominant power",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "threat to the environment",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "misplaced race",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "32. The IUCN's \"Red List** suggests that human beings are\n\n32.世界自然保护联盟《濒危物种红色名\n\n录》表明人类是\n\n。\n\n[A] a sustained species\n\n【A】 —个可延续的物种\n\n[B] the world's dominant power\n\n【B】世界的主导力量\n\n[C] a threat to the environment\n\n【C】环境的一种威胁\n\n[D] a misplaced race\n\n【D】 —个错位的种族\n\n【精准定位】第三段末句指出\"Red List\"中对智人的界定:被列为\"无危物种（Least Concern）\",鉴于\n\n其分布广泛，适应性强，数量持续增加，并且不存在导致数量整体下降的重大威胁”。这表明，人类暂时\n\n没有灭绝的危险，是可延续的物种，【A】正确。\n\n【命题解密】【A】中sustained 是对very widely distributed, adaptable, currently increasing, no major\n\nthreats,Least Concern等一系列特点的高度概括。\n\n【B】由“分布极广、没有主要威胁”过度推出“人类主宰世界”。【C】从“数量持续增加”以及《名录》的\n\n环保性质（the Conservation of Nature），加之上段①句出现的\"气候变化\"中主观推出\"人类威胁环境\".偏\n\n离《名录》对\"人\"的客观介绍。【D】张冠李戴：原文是\"悲观态度有误（gloominess is misplaced）\",而非全\n\n盘否定人类。\n\n【技巧总结】若题干对文中某特定信息（如某人、某组织、某研究等）进行考査，表明这部分内容与段\n\n落或全文主旨直接相关，因此解题时首先考虑它为哪项要义服务。本题考查第三段中④句提及的某名\n\n录,Homo sapiens>Red List of ... IUCN等信息乍看复杂，但先从题干得出信息：《名录》对“人类”有所说\n\n31\n\n明，因此Homo sapiens应是“人”的术语说法，引号中内容为解题线索；而本段首句Eut继前两段后亮明\n\n作者观点：人类未来无需悲观，故引号中应该要证明“人类前景向好”，【C】、【D】均为否定性内容，而【E】\n\n夸大人在星球中的地位，与\"《名录》本身立足于自然保护（the Conservation of Nature）\"脱节。\n\nIV ❶ So what does our deep future hold?❷ A\n\ngrowing number of researchers and organisations are\n\nnow thinking seriously about that question. ❸ For\n\nexample, the Long Now Foundation has as its flagship①\n\nproject a mechanical② clock that is designed to still be\n\nmarking time thousands of years hence.\n\n那么，遥远的未来究竟会是何种景象呢？\n\n越来越多的研究者及组织正在认真思考这个\n\n问题。比如，今日永存基金会就将一台旨在\n\n数千年之后仍然能够记录时间的机械时钟作\n\n为其旗舰项目。\n\n① flagship ['flsegjip] n.旗舰\n\n② mechanical [mi'kaemkal] a.机械的\n\n•经典搭配\n\n•词汇注释与难句分析\n\n》①flagship project（旗舰项目）\n\n》②mark time（计时）\n\n2 ③thousands of years hence（此后数千年）\n\nFor example, the Long Now Foundation has as its flagship project a mechanical clock that is designed to\n\nstill be marking time thousands of years hence・\n\nthat\n\nis designed to still be marking time thousands of years hence\n\nFor example\n\n引导词做主语被动谓语\n\n主补\n\n（时间状语）\n\n衔接词\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------\\ 定语从句\n\n1-------------------\n\n句子主干：* the Long Now Foundation has as its flagship project amechanical clock\n\n__________ 主语\n\n谓语 宾补\n\n宾语\n\n功能注释：本句采用have X as Y让X成为Y结构说明今日永久基金会的举措；主干中的宾语a\n\nmechanical clock由于被that定语从句修饰，而宾语补足语as its flagship project略短，故宾补被提至宾\n\n语之前，成为have as Y X的结构;that定语从句补充说明a mechanical clock的功用。\n\n•语篇分析.幺\n\n第四至六段阐释如何正确、理性地思考未来。\n\n第四段承上启下指出：越来越多的人开始认真思考遥远的未来。关键词为:think seriously„\n\n①\n\n句设问\n\n：人类遥远的未来究竟会如何？\n\nSo（那么【用以提出新话题、疑问、评论等】）将全文一分为\n\n二，上文驳论“两种对未来的想象（均不可取）”，提示下文开启“立论”，说明应如何看待未来；hold此处取\n\n僻义，用以说明将来会发生的情况（used to show what may happen in the future）„\n\n②③句介绍现状“人们开始重视对未来的探索”并例证。has as its flagship project a mechanical\n\nclock 为have sth as sth（使\n\n成为\n\n）的变体，还原后为has a mechanical clock as its flagship project,\n\n补语成分as...前置意在凸显基金会对这一机械钟项目的高度重视（flagship project意为the most\n\nimportant project）0 定语从句中is designed to（= be made for a particular purpose“旨在”）强调建造此钟有特\n\n定用途;hence 语用功能为used to refer to a time in the future, esp. a long time in the future\"此后（很长时\n\n间）99, thousands of years hence表示\"（从现在起）数千年之后（的漫长时期）\"，与still 一起，说明此项目立足\n\n长远，深猷远计（今日永存基金会以“超越目前视域局限，关注人类长远未来”为宗旨，详见背景知识）。\n\n【深层解读】本段为过渡段，看似并无太多实质信息，但“越来越多的人开始严肃思考未来”聚焦于\n\n“科研人员及机构”，表明如今的大趋势是“以科学、严谨的态度来考量未来”，这就与上述人们的不理智\n\n形成反差，为后文具体论述做准备。另外，段末thousands of years hence与上段\"人类从短期来看并无危\n\n机（完全无需过度悲观）”暗合，表明“遥远的未来”才是作者真正想提请人们关注和探究的对象。\n\n32\n\nV ❶回 Perhaps willfully® , 让 may be easier to think\n\nabout such lengthy timescales than about the more\n\nimmediate future. ❷ The potential evolution of today*s\n\ntechnology, and its social consequences, is dazzlingly®\n\ncomplicated, and it's perhaps best left to science fiction③\n\nwriters and futurologists® to explore the many possibilities we\n\ncan envisage⑸. ❸ That's one reason why we have launched\n\nArr, a new publication® dedicated to the near future.\n\n或许有悖常理，（但确实）思考如此长远\n\n的时间跨度比思考近期未来更为容易。当代\n\n技术可能会有的发展及其社会影响复杂得令\n\n人眩晕，或许最好的办法是将我们能够想象\n\n到的各种可能性留给科幻小说家和未来学家\n\n去探索。这正是我们创建《弧》这样一本致力\n\n于研究近期未来的新刊物的原因之一。\n\n•词汇注释与难句分析/\n\n©willfully ['wilfal订加.任性固执地\n\n》•经典搭配\n\n② dazzlingly ['daezligli] ad.耀眼地\n\n7 ©immediate/near future（近期未来，不久的将来）\n\n③ fiction ['fik/an] n.小说；虚构\n\n?\n\n②social consequence（社会影响）\n\n④ futurologist Cifju^Ja'roladSist] n.未来学家\n\nI ③it's best to do sth.（最好做某事）\n\n⑤ envisage [in'vizid3l] p.想像\n\nl ④launch a publication（发行一本刊物）\n\n©publication [ipAbli'kei/an] n.出版物\n\nj ⑤dedicated to（致力于）\n\nThe potential evolution of today's technology, and its social consequences, is dazzlingly complicated, and it's\n\nperhaps best left to science fiction writers and futurologists to explore the many possibilities we can envisage.\n\n分句2主干:\n\n分句1主干：The potential evolution of today *s technology A is dazzlingly complicated\n\n主语\n\nf谓语\n\n表语\n\nifs perhaps best left to science fiction writers and futurologists\n\n形式主语+被动谓语\n\n保留宾语\n\nto explore the manypossibilities v-----------------\n\n不定式做真正主语\n\nand its social\n\nconsequences\n\n插入语\n\n------ 1 we can envisage I\n\n省略引导词的定语从句\n\n功能注释：分句1中的and its social consequences作为插入成分，起到对主语the potential evolution\n\nof...附带说明的作用；分句2采取it is best to do sth的结构说明作者对“当前技术可能的进展及其引发\n\n的社会影响”的看法：最好是留待小说家和未来学家探寻，暗示其难以预测。其中，leave sth to sb意为\n\n“把某物交由某人（负责）”之意，此处sth由不定式to explore...充当，内容较长，故将间接宾语to sb（to\n\nscience fiction writers and futurologists）提至直接宾语to explore...之前，句子采取被动语态，it作形式\n\n主语，不定式to explore the many...充当真正主语。\n\n•语篇分析\n\n第五段先让步否定\"以短期视角审视未来的可行性”。关键词为：①immedisite future; ©dazzlingly\n\ncomplicatedo\n\n①句承上指出作者对“思考近期未来''的看法：比“思考长远未来”更难。\n\nsuch lengthy timescales 回\n\n指前文thousands of years hence,与more immediate future 相对;it may be easier to.・.than・・・（it 为形式\n\n主语）明确作者对两种视角的取舍。willful意为continuing to do what you want, even it seems\n\nunreasonable\"执意做某事，尽管看似不明智”，Perhaps willfully实际承接上段末“建造一台几千年之后仍\n\n可计时的机械时钟”，响应人们心中疑惑：近期未来理应更好把握，为何要舍近求远？\n\n②句随即解释①句，阐明近期未来的难以预测性。句子含两个分句，分句一解释原因;potential （可\n\n能出现的）、复数形式social consequences以及dazzlingly complicatedCdazzling既有\"令人惊叹\"的褒奖意\n\n味，也有“（技术）令人眼花、看不清（形势）”的客观含义）说明当代技术发展之迅猛、影响力之大可能让短\n\n33\n\n期未来存在诸多变数。\n\n分句二补充指出应对建议。此处and与分句一的and有别.含因果逻辑，用以引出前一分句的逻辑\n\n结果。leave sth to sb指“把……留交（某人决定或负责）”，sb在文中为“科幻小说作家”及“未来学家”，\n\n两者身份反向突显\"思考近期未来\"的不现实，普通人只能空想而已（envisage指to imagine what will\n\nhappen in the future\"设想、想象”），难免陷入首两段所述的非理性态度。\n\n③句例证②句分句二。That's one reason why以因果形式引出对上述建议的例证 Arc的创刊。\n\ndedicated to.. . （dedicate 意为 to give all your attention and effort to one particular thing）侧面表明作者看\n\n法：预测近期未来是复杂的系统性工程。\n\n【深层解读】全文洋洋洒洒共七段，而本段篇幅不小，阅读时容易“迷路” •此时应当借助“缕清上下文\n\n结构”来明确当前段落用意：上段为过渡段开启立论“如何思考未来”，本段对“思考近期未来”加以否定，\n\n下段首句“转而指出思考长远未来的可行性”；很明显：本段实为铺垫段一先驳斥惯常思维（就近探索\n\n未来），再夯实自身看法，故本段虽字数不少，但首句即锁定核心要义：Perhaps willfully语气委婉却又坚\n\n定，实际强调了作者态度，并预示后文将具体阐明原因。\n\n•真题精解\n\n33・ Which of the following is true according to Paragraph 5?",
+      "points": 2,
+      "sort_order": 32,
+      "answer": "B"
+    },
+    {
+      "id": "b2972558-6ff8-5e7a-9386-efb37b83bd02",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "bc537609-ecd4-512d-923d-97b884b42f06",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Which of the following is true according to Paragraph 5?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The interest in science fiction is on the rise.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "Arc helps limit the scope of futurological studies.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "Technology offers solutions to social problems.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Our immediate future is hard to conceive.",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "33.根据第五段内容，下列哪项正确？\n\n[A] The interest in science fiction is on the rise.\n\n【A】人们对科幻小说的兴趣与日俱增。\n\n[B] Arc helps limit the scope of futurological studies.\n\n【B】《弧》杂志有助于限定未来学的研究范畴。\n\n[C] Technology offers solutions to social problems.\n\n【C】技术提供了解决社会问题的方法。\n\n[D] Our immediate future is hard to conceive.\n\n【D】人类的近期未来是难以设想的。\n\n【精准定位琛五段首句指出，思考人类长远未来比思考近期未来吏容易，随后解释为何近期未来不\n\n好预测，可见【D】正确。\n\n【命题解密】【D】中hard to conceive 是对首句 it may be easier to think about such lengthy timescales\n\nthan about the more immediate future 的同义改写。\n\n【A】从②句“对，预测近期未来,的建议一留待科幻小说家（和未来学家）去探索”主观编造出“科幻小说\n\n日益受欢迎”。【B】源于③句对Arc杂志的定性—\n\n专门研究近期未来，但“有助确定未来学范畴”属主观添加\n\n内容。【C】将原文“当今技术的社会影响异常复杂”改为“技术能够解决社会问题”,夸大了技术的作用。\n\n【技巧总结】“判断正误题”的题干通常传递的信息有限：或聚焦某内容（••• is true of/about sth\n\naccording to. ..\n\n,或完全没有限定内容，且选项铺得很开，信息点分散遍及全段，造成解题困难。应牢\n\n记“段落主旨为王、干扰项常利用段中碎片信息捏造而成”的原则。本题考查第五段信息，段中“技术发\n\n展的情况、科幻小说作家、未来学家、专业杂志Arc”等信息看似纷杂，但其实都在解释首句“思考近期未\n\n来比遥远未来更难—\n\n只能留待专家去探索”，选项【D】符合这一段落主旨，其他三项主体分别是“科幻\n\n小说”、“Arc杂志”和“技术”,属于段中细节，但阐述性信息“日益流行”、“有助于未来学研究”和“解决了\n\n社会问题”均对文意做了扭曲。\n\nVI O But take a longer view and there is a\n\nsurprising amount that we can say with considerable®\n\nassurance®. ❷回 As so often» the past holds the key\n\nto the future： we have now identified enough of the\n\nlong-term patterns shaping the history of the planet, and\n\nour species, to make evidence-based forecasts about the\n\nsituations in which our descendants10 will find themselves.\n\n但是，如果采取更长远的视角（思考未来）.\n\n我们便能对极多的事情做出相当确定的预测。\n\n正如通常情况那样，过去掌握着通向未来的钥\n\n匙：我们现在已经确定了足够多的地球以及人\n\n类历史何以形成的长期模式，使我们能够对子\n\n孙后代的生存环境做出有根据的预测。\n\n34\n\n•词汇注释与难句分析・\n\n①considerable [kan'sidarabal] a.相当大的\n\n©assurance [Rjuorons] n.保证\n\n③descendant [dJsendont] n.后裔；子孙\n\n•经典搭配\n\n》①take a . . . view （采取... 的视角）\n\n|\n\n②a surprising amount（惊人的数量）\n\n&\n\n③identify a pattern（识别出一种模式）\n\n$ ④shape the history of...（塑造... 的历史）\n\n2 ⑤make forecast（做岀预测）\n\nAs so often, the past holds the key to the future： we have now identified enough of the long-term patterns\n\nshaping the history of the planet, and our species, to make evidence-based forecasts about the situations in which our\n\ndescendants will find themselves.\n\n分句1主干：\n\nAs so often,\n\nthe past\n\nholds\n\nthe key to the future\n\n(状语)\n\n主语\n\n谓语\n\n宾语\n\n分句2 主干： we have now identified enough of th牛long-term patterns 八\n\n乖 谓语\n\n/宾畜 —\n\n现在分词后置定语/\n\n插入语\n\nshaping the history of the planet #—| and our species\n\n不定式目的状语\n\nto make evidence-based forecasts about the situations\n\n定语从句'L\n\nin which\n\nour descendants\n\nwill find\n\nthemselves\n\n“介词+引导词”做状语\n\n主语\n\n谓语\n\n宾语\n\n功能注释：冒号后内容(分句2)对分句1进行说明，解释为什么过去掌握着通向未来的钥匙；分句2\n\n主干为we have now identified enough of...;其中the history of..・呼应分句中the past；插入成分and our\n\nspecies起到附带说明的作用，它与the planet在语法层面为并列关系，但从语义逻辑上来说并非论述重点；\n\nto make evidence-based...说明主句结果；in which定语从句修饰the situations,说明预测的具体内容。\n\n•语篇分析• I/\n\n第六段进而阐释“以长远视角审视未来”的可行性及意义。关键词为：①a longer view;②considerable\n\nassurance。\n\n①句转承上文，明确“思考未来”可行的方式：把目光放远。连词and起到“引出逻辑结果”的作用：\n\n看得远，则... o surprising amount 和considerable assurance(considerable 指\"相当大的，尤指大到足以\n\n产生某种影响的程度”)与上段“复杂多变、难以预测(many possibilities)\"的特点形成对比，凸显观点“长\n\n远未来更易把握”。注意say为特殊用法，指“对未来可能情况的假定”。\n\n②句具体阐述如何以长远视角思考未来。冒号前概括论点：应基于过去、鉴往知来。As so often用\n\n于引出普遍适用、已得到实践确认的观点。the past holds the key to the future充分肯定\"研究历史”对\n\n于“预测未来”的关键作用。\n\n冒号后解释\"鉴往知来\"为何可行。we have now identified... (identify 指to recognize sth or discover\n\nexactly what it is“确定”)表明当前的有利条件；而既然掌握了足够的地球以及物种的重复及规律性发展模\n\n式(pattern 指the repeated or regular way in which sth happens or is done),\"知来”便顺理成章。long-term、\n\nenough、evidence-based强调当前探索已有充分的科学依据，反衬\"盲目幻想(vision、envisage)、想当然设想\n\n(assume)”下的非理性态度--- 极度悲观/乐观。注：句末find themselves(in the situation)字面意为“(子孙\n\n后代)发现自己的状态/所处境地\",修饰the situation,故the situation...实际上诙谐表达“未来”之意。\n\n35\n\n【深层解读】考研阅读文章中，特殊标点符号有“路标”的作用，体现语义或段落重点。如冒号、破折\n\n号常引出对标点之前内容的解释说明/例证，反向表明之前内容为作者想强调的重点（内容较凝练、抽\n\n象，故加以说明）；比如本段②句中的冒号提示“过去掌握着未来的钥匙”为关键信息，而冒号后旨在对这\n\n一结论性内容详细解释。\n\n这种长远视角使得对人类前景的悲观\n\n态度更像是一股短暂的风潮。诚然，未来并\n\n非一片光明。不过，我们已经拥有足够的知\n\n识，有能力降低曾经威胁前人生存的许多危\n\n险，并改善后人的命运。\n\n④knowledgeable ['nDhd3abal] a.知识渊博的\n\n•经典搭配\n\n①long perspective（长远视角）\n\nVII O This long perspective makes the pessimistic①\n\nview of our prospects seem more likely to be a passing\n\nfad®.❷To be sure, the future is not all rosy®.❸回 But\n\nwe are now knowledgeable④ enough to reduce many of the\n\nrisks that threatened the existence of earlier humans,\n\nand to improve the lot of those to come. [419 words]\n\n•词汇注释与难句分析必\n\nOpessimistic [ipesi'mistik] a.悲观的\n\n》 ②pessimistic view（悲观看法）\n\n② fad [fsed] n.时尚；一时流行的狂热\n\n|③a passing fad（-时的风尚）\n\n③ rosy C'rauzi] a.美好的\n\nJ ④to be sure（的确，诚然）\n\n⑤reduce risk（减少风险）\n\n©threaten the existence of...（威胁... 的生存）\n\n⑦improve the lot of （改善... 命运）\n\n•语篇分析y\n\n第七段总结全文，积极展望人类未来。关键词为：①a passing fad;②knowledgeable enougho\n\n①\n\n句回应文章前两段内容\n\n：以长远视角看未来，则悲观看法只会是“一时风潮”。a passing fad意为a\n\nshort-lived popular fashion\"—时的风尚，短暂的潮流\"；seem more likely to be不涉及明显比较，而是用委\n\n婉语气“……更像是一种……”传达坚定态度。\n\n②③句先退后进总结作者看法：人类未来当然并非满是光明，但我们现在有能力防患于未弹。T。\n\nbe sure, . .. not all rosy（rosy 为喻义，指 very encouraging, very hopeful）让步之中暗含转折，提示下文将\n\n收篇：对人类前景积极展望。knowledgeable enough是作者对未来持乐观态度的信心来源，to reduce...\n\nof earlier humans和to improve. . . those to come与上文所述\"以史为鉴、把握未来\"暗合，两者虽为\"结果\n\n状语”，但实质上传达作者的期望：科技、文化的发展赋予我们足够的知识，若再以理性看待未来（重视过\n\n去，从中总结经验教训），则未来值得期待。注：句中lot意为one's fortune, or share\"命运，运气”。\n\n【深层解读】To be sure, o£ course, certainly, admittedly等逻辑词含让步语义，其语用功能在于\"委\n\n婉退后一步，以便进行更强的还击（即，为后文重在展现的内容做铺垫）”，这类词尤其容易出现在“收篇”\n\n之时，能更好地突显全文观点。末段共三句话，以“进亠退-再进”的方式反复强调作者核心观点：人类\n\n拥有光明的前景。\n\n•真题精解",
+      "points": 2,
+      "sort_order": 33,
+      "answer": "D"
+    },
+    {
+      "id": "4e06aa0e-3b40-5da1-8adb-9b81659c282d",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "bc537609-ecd4-512d-923d-97b884b42f06",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "To ensure the future of mankind, it is crucial to",
+      "options": [
+        {
+          "key": "A",
+          "text": "adopt an optimistic view of the world",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "draw on our experience from the past",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "explore our planet's abundant resources",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "curb our ambition to reshape history",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "34. lb ensure the future of mankind, it is crucial to\n\n.\n\n34.为保证人类的未来，关键要\n\n。\n\n[A] adopt an optimistic view of the world\n\n[A]树立积极的世界观\n\n[B] draw on our experience from the past\n\nEB]从过去汲取经验\n\n[C] explore our planet's abundant resources\n\n[C]勘探地球上的丰富资源\n\n[D] curb our ambition to reshape history\n\n[D]抑制我们重塑历史的野心\n\n[精准定位]第六段②句指出：过去掌握着通向未来的钥匙，我们如今已经了解了地球及人类历史的\n\n形成模式，所以能更准确地预测未来；末段进一步明确：我们已拥有足够的知识去防范前人的危机、改善\n\n36\n\n后人的命运，综上可知，未来仰仗对过去的认识及总结，【B】正确。\n\n【命题解密】题干+ 【B】是对第六段②句the past holds the key to the future的进一步明确.is crucial\n\nto 对应②句 holds the key to„\n\n【A】把末段首句结论“人类前景是怎样的（并不悲观）”曲解为“人类前景取决于什么（对世界的乐观\n\n态度）”。【C】利用第六段②句planet -词捏造干扰，但文中并不涉及“勘探地球资源”这一信息。【D】利\n\n用②句shaping the history干扰，将作者建议“借鉴历史预测未来”改为“抑制人类重塑历史的野心”。\n\n【技巧总结】上题就第五段命题，提示本题重点关注第六段内容。②句the future和holds the key to\n\n与题干吻合，故为线索句，该句提出观点：欲知未来，史可为鉴；如果说该内容仅说明“如何预测未来（因\n\n此与题干的To ensure the future不能完全贴合）\"的话，则末段进一步明确这样做的意义：通过学习历史\n\n来防患于未然，让未来（后人所生活的世界）更好更安全。干楚项均偏离第六、七段要义。\n\n•真题精解",
+      "points": 2,
+      "sort_order": 34,
+      "answer": "A"
+    },
+    {
+      "id": "4480c34b-3e32-57c0-970f-b625f7a2906a",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "bc537609-ecd4-512d-923d-97b884b42f06",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Which of the following would be the best title for the text?",
+      "options": [
+        {
+          "key": "A",
+          "text": "The Ever-bright Prospects of Mankind.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "Science, Technology and Humanity・",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "Evolution o£ the Human Species.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "Uncertainty about Our Future・",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "35. Which of the following would be the best title for the text?\n\n35.下列哪项最合适作本文的标题？\n\n[A] The Ever-bright Prospects of Mankind.\n\n【A】人类的光明前景。\n\n[B] Science, Technology and Humanity・\n\n【B】科学，技术和人类。\n\n[C] Evolution o£ the Human Species.\n\n【C】人类的进化。\n\n[D] Uncertainty about Our Future・\n\n【D】人类未来的不确定性。\n\n【精准定位境两段指出目前人类对未来极度悲观。第三段直接批驳这一态度，并从三个方面论证\n\n人类物种目前并无重大威胁。第四至六段介绍如何理性地思考人类未来。末段总结指出，人类已经掌\n\n握了足够的知识来降低威胁，并改善后人的命运，即：人类未来依然光明。可见，作者驳立结合，意在表\n\n明观点：人类具有光明未来，【A】正确。\n\n【命题解密】【A】中 prospects of mankind 对应本文话题 future of humanity,ever-bright 概括了作者对\n\n未来的乐观态度。\n\n【B】根据文中关键词汇Science, Technology和Humanity设置选项，但完全忽视篇章核心“人类未\n\n来”，且有些违背作者观点“不能仅凭当下科技发展的状况便对人类未来妄下断言”。【C】由第三段“物种\n\n的化石记录（fossil record）”以及“智人（Homo sapiens）\"等内容而来，但作者援引这些内容是为了证明\n\n“人类并无重大生存威胁”，而非介绍“人类的进化史”。【D】将第二段内容“人类面临诸多威胁、未来难\n\n测”（作者反驳的观点）当成作者观点。\n\n【技巧总结】考研阅读文章大多为议论文，即作者通过摆事实、讲道理、辨是非等方法，来确定某观点\n\n正确或错误，树立或否定某种主张，因此标题常具有“导向性或结论性”的特点，本文是典型的驳论文，自\n\n身观点较普通议论文更加鲜明，而选项中毫无感情色彩，【D】有色彩，但总体为消极，背离文意。\n\n另外还可结合主题词（本文为“人类未来”）对选项进行过滤，可直接排除两项。\n\nText 4最高法院对亚利桑那州移民法的裁定\n\n外教朗读\n\n了— •总体分析\n\n本文岀自The Wall Street Journal^华尔街日报》2012年6月27日一篇题为Raising\n\nArizona―The\n\nSupreme Court unanimously rejects a White House power grab（支持亚利桑那州\n\n联邦最高法院全票\n\n抵制白宫滥权行为）的文章。文章以全美社会备受关注的移民问题为背景，采用总分结构介绍了最高法\n\n院对“亚利桑那州自行制定其移民法案”以及“奥巴马政府（白宫）欲滥用其行政权”所作的裁决（第一\n\n段），并分别就两项裁决展开论述（第二至五段、第六至七段）。\n\n37\n\n*二•语篇分析及试题精解\n\n最高法院周一以5 : 3的投票结果裁定亚\n\n利桑那州移民法多项条款无效一对奥巴马政\n\n府来说这是场小小政策胜利。不过，在宪法这\n\n一更重要的问题上，最高法院以8 : 0的一致表\n\n决使企图打破联邦政府与各州间权力平衡的奥\n\n巴马政府完败。\n\nI OOn a five to three vote, the Supreme Court\n\nknocked out much of Arizona's immigration law\n\nMonday—a modest policy victory for the Obama\n\nAdministration. ©But on the more important matter of\n\nthe Constitution® , the decision was an 8-0 defeat② for\n\nthe Administration's effort to upset the balance of power\n\nbetween the federal government and the states.\n\n「•迥汇注務写难旬分杭\n\n©Constitution [ikDnsti'tju：Jn]\".宪法\n\n》②on the matter of（在... 的问题上）\n\n②defeat [di'fil]九.失败\n\n》 ③upset the balance of power between...（打破两者间\n\n•经典搭配\n\nI力量的平衡（，使情况向有利自身的方向发展））\n\n©knock out（破坏、使无效）\n\n《\n\n-语篇分析• ] g\n\n首段交代事件：最高法院就\"亚利桑那州移民法案\"作出两起裁定。关键词为：①the Supreme\n\nCourt;（2） decision o\n\n① 句指出裁定一：5 : 3裁定亚利桑那州移民法多项条款无效。破折号引出对裁定的评述，突显获胜\n\n方的同时明确了矛盾双方：亚利桑那州政府VS联邦（奥巴马）政府。knocked out much of与a modest\n\npolicy victory （modest意为not very great）一同暗示联邦政府此轮并非大获全胜，亚利桑那州移民法案中\n\n有部分条款获肯定。\n\n② 句指出裁定二：8 :（）裁定亚利桑那州移民法主要条款保留。8-0 defeat for...反向对应a modest\n\nvictory，表明裁定影响；effort to upset the balance of power between...暗示联邦政府与州政府本应权力均衡，\n\n而奥巴马政府却企图打破这一制衡状态。介词结构on the more important matter of the Constitution起限定\n\n作用，暗示最高法院对“奥巴马政府过度强调自身权力”零容忍的原因：这一企图违反宪法。\n\n【深层解读】从特殊开篇结构及用词中洞悉作者情感态度。段中两句话浅层展示高院裁定结果，但\n\nmodest policy victory 与 But on the more important matter. .. , was an 8-0 defeat 形成的强烈对比暗中传\n\n达作者站位：反对奥巴马政府做法。upset与effort均取僻义，其中upset指to change a plan or situation\n\nin a way that causes troubles\"打乱、破坏[计划、形势等]”，暗含不满；而ef£ort（尤指需要付出诸多决心的\n\n企图）突显奥巴马政府的强势与激进，侧面诠释了最高法院作为三权分立中的司法分支，对行政分支应\n\n有的制衡作用，也由此奠定全文总体情感基调。\n\nII Oln Arizona s United States ♦ the majority\n\noverturned① three of the four contested② provisions③ of\n\nArizona's controversial plan to have state and local\n\npolice enforce federal immigration law.❷回 The\n\nConstitutional principles that Washington alone has\n\nthe power to \" establish a uniform Rule of\n\nNaturalization\" and that federal laws precede state\n\nlaws are noncontroversial. ❸ Arizona hnd attempted\n\nto fashion④ state policies that ran parallel1' to the\n\nexisting federal ones.\n\n在这场亚利桑那州政府与联邦政府的对决\n\n中，多数法官推翻了颇具争议的亚利桑那州移\n\n民方案（命令州级和地方警察执行联邦移民法）\n\n中四项受质疑条款里的三项。只有华盛顿才有\n\n权“制定统一的归化条例”以及联邦法律优先于\n\n州级法律，这两条宪法原则是毋庸置疑的。\n\n（而）亚利桑那州已企图制定与现行联邦法律并\n\n行的州政策。\n\n38\n\n「•词汇注释与难句分析•]/\n\n①overturn [iauvRt3：n] u.推翻，倾覆\n\n》•经典搭配\n\n©contest ['kDntest] v.质疑，提出异议\n\nf ①have sb do sth（使某人做某事）\n\n③ provision Epra'vi3an] n.规定，条款\n\nJ ②run parallel to（与... 平行）\n\n④ fashion ['fae/an] u.使成形，做成\n\nj ③contested provision （受质疑条款）\n\n⑤ parallel L'pserslel] a.平行的\n\n了\n\n•语篇分析/\n\n第二至五段围绕“裁定一”展开论述。\n\n第二段综述裁定一的投票结果及依据。关键词为：①Washington alone;②precede;③noncontroversia】。\n\n① 句交代具体投票结果：四项争议条款里有三项遭多数法官否决。the majority overturned three of the\n\nfour provisions 呼应开篇 On a five to three vote. . . knocked out much of...,开启 对涉案法规的细述。\n\ncontestecK引争议的）与controversial含义相近，两者连用突显亚利桑那州移民法案的影响力之大：从事件\n\n本身到规定细节都饱受质疑。不定式to have ... law（have此处为使动词，意为“命令某人做某事”）形为对\n\n亚利桑那移民法宗旨的补充说明，实则暗示大法官多数票反对的原因：州政府涉嫌侵犯联邦政府特权。\n\n②③句解释原因（即投票依据）：亚利桑那州己试图制定与联邦法并行的政策，此举违反宪法。\n\n② 句提出宪法依据：一、华盛顿（国会所在地）独享制定统一移民法的权力；",
+      "points": 2,
+      "sort_order": 35,
+      "answer": "C"
+    },
+    {
+      "id": "89685e27-a611-5116-b0fc-301030230fef",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "06e64256-4883-5c05-9182-868310a80f81",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Three provisions of Arizona's plan were overturned because they",
+      "options": [
+        {
+          "key": "A",
+          "text": "disturbed the power balance between different states",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "overstepped the authority of federal immigration law",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "deprived the federal police of Constitutional powers",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "contradicted both the federal and state policies",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n36.亚利桑那州方案中的三项条款被推 \n翻，原因在于它们 \n。\n[A] disturbed the power balance between different states\n［A］打破了各州间的权力平衡\n[B] overstepped the authority of federal immigration law\n［B］逾越了联邦移民法的权威\n[C] deprived the federal police of Constitutional powers\n［C］剥夺了联邦警察的宪法权力\n[D] contradicted both the federal and state policies\n［D］与联邦及州政策都有所抵触\n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n   \n \n \n \n \n \n \n \n \n \n  \n \n \n \n   \n \n \n \n   \n \n［精准定位］第二段②③句指出，宪法规定“只有国会才有权制定统一的移民法；联邦法优先于州\n法”，而亚利桑那州已试图制定与联邦法并行的政策；第三段②句进一步明确多数大法官意见：国会已\n“先占领域”，亚利桑那州因此侵犯了联邦特权，故［B］正确。\n［命题解密］［B］是对第三段②句后半部分的细化，其中overstepped与intrude on、the authority of\nfederal...与federafs privileged powers 属同义表达。\n［A］源于首段②句upset the balance of power,但文中主体为\"联邦政府VS各州之间\"，而非\"各州之\n间”。［C］是对第二段①句have state. . . enforce federal immigration law的过度解读，亚利桑那州仅要求\n州警察执法，并未（也无法）剥夺联邦警察权力。［D］偷换概念，案件焦点是“州政策是否侵犯联邦特权”，\n而非“政策内容不统一、有矛盾”;另外，亚利桑那州移民法案本就属于州政策，不会自相矛盾。\n［技巧总结］由“下题针对第四段设题”推知本题对应的内容为前三段；而第三段②句the",
+      "points": 2,
+      "sort_order": 36,
+      "answer": "B"
+    },
+    {
+      "id": "03c9bfb6-6cac-5003-a727-48861e9310fb",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "06e64256-4883-5c05-9182-868310a80f81",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "On which of the following did the Justices agree,",
+      "options": [
+        {
+          "key": "A",
+          "text": "Congress's intervention in immigration enforcement.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "Federal officers * duty to withhold immigrants * information.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "States* legitimate role in immigration enforcement.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "States* independence from federal immigration law.",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n37. On which of the following did the Justices agree, \naccording to Paragraph 4?\n37.由第四段可知，大法官认可下列哪项 \n内容？\n[A] Congress's intervention in immigration enforcement.\n［A］国会可以对移民执法问题进行干预。\n[B] Federal officers * duty to withhold immigrants * information.\n［B］联邦官员有责任对移民的信息保密。\n[C] States* legitimate role in immigration enforcement.\n［C］各州在移民执法问题上有其合法作用。\n[D] States* independence from federal immigration law.\n［D］各州不受联邦移民法的约束。\n［精准定位］第四段①句指出：大法官表示允许亚利桑那州警察对疑似非法移民者进行法律身份核 \n查。可见，大法官认同各州在移民执法问题上的合法角色，［C］正确。\n［命题解密］［C］中 States' legitimate role 和 immigration enforcement 分别对应①句中 Arizona police \nwould be allowed to 和 verify the legal status。\n［A］把第四段②句“对法官之所以同意各州有权核查移民身份的解释，即国会希望各州与联邦在移 \n民问题上合作”曲解为“法官认同国会有权干预执法”。［B］利用第四段暗含之意“法官支持国会意愿”干 \n扰.但②句后半句“国会鼓励联邦与各州在移民问题上能共享信息”与“对信息保密”矛盾；其次选项将文 \n中“移民事务相关信息”缩小为“移民者信息”。［D］利用全段总基调“认可州执法权”干扰，但“独立于联 \n41\n\n邦法之外”属臆造内容，违背上下文对宪法“联邦法优先于州法”的强调。\n［技巧总结］针对段落内容的细节题通常选项信息繁多，可以先进行纵向对比分析，把",
+      "points": 2,
+      "sort_order": 37,
+      "answer": "C"
+    },
+    {
+      "id": "e439d071-3be0-5cab-994f-952a8976c042",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "06e64256-4883-5c05-9182-868310a80f81",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "It can be inferred from Paragraph 5 that the Alien and",
+      "options": [
+        {
+          "key": "A",
+          "text": "stood in favor of the states",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "supported the federal statute",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "undermined the states' interests",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "violated the Constitution",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "\n38. It can be inferred from Paragraph 5 that the Alien and \nSedition Acts \n・\n3&从第五段可以推知，《外国人和煽动叛 \n乱法案》 \n。\n[A] stood in favor of the states\n［A］维护各州利益\n[B] supported the federal statute\n［B］支持联邦法规\n[C] undermined the states' interests\n［C］损害各州利益\n[D] violated the Constitution\n［D］违反了宪法\n42\n\n［精准定位］第五段②句末表明，州政府特权可追溯到《外国人和煽动叛乱法案》，即此法案是支持州 \n级拥有特权的.Antonin法官正是以此为其论据极力捍卫州特权，因此［A］正确。\n［命题解密］［A］由第五段②句后半句提炼而出，对短语going back to的正确理解是解题关键。\n［B］利用惯常思维“任何法案理应遵循、支持联邦法规”干扰，背离文意及实际。［C］将going back to \n内含的“顺承逻辑”曲解为“反向对立关系”。［D］从“亚利桑那移民法诸多条款被判违宪，《法案》肯定州 \n特权”简单推出“该法案违宪”，脱离语境。\n［技巧总结］本题形式上考查细节，微观看实际考査短语认知；但宏观上更要考查对（就争议问题的） \n人物态度的把握。第五段针对5：3投票中的少数反对票展开，题干所涉法案位于②句末，而该句聚焦的 \n是反对者中最激进的法官看法（即坚决维护州特权）,going back to...整个结构既然是作为这一特权的 \n限定修饰语，则法案只能扮演“支撑法官观点”的角色，［B］和［D］与“州特权”无关，［C］与法官态度相反， \n只有［A］是大法官提及该法案的用意。\nVI ❶The 8-0 objection to President Obama turns on \nwhat Justice Samuel Alito describes in his objection as \"a \nshocking asser",
+      "points": 2,
+      "sort_order": 38,
+      "answer": "A"
+    },
+    {
+      "id": "815dc9d8-0b8c-5c08-b7ff-8c0fed082bad",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "06e64256-4883-5c05-9182-868310a80f81",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "The White House claims that its power of enforcement",
+      "options": [
+        {
+          "key": "A",
+          "text": "is dependent on the states* support",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "is established by federal statutes",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "outweighs that held by the states",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "rarely goes against state laws",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "\n39. The White House claims that its power of enforcement \n.\n39.白宫宣称其执法权 \n。\n[A] is dependent on the states* support\n［A］倚赖各州支持\n[B] is established by federal statutes\n［B］基于联邦法规规定\n[C] outweighs that held by the states\n［C］大于各州执法权\n[D] rarely goes against state laws\nED］鲜少与州法律抵触\n［精准定位］第六段②③句指出，白宫认定亚利桑那州法律与其执法优先权相抵触；它更有权宣布任 \n何它不认可的加法律无效，故［C］正确。\n［命题解密］［C］是对②③句白宫说辞的总结:outweighs ... the states是对priorities, could \ninvalidate any. .. state law 的概括。\n［A］与原文相悖：奥巴马政府极力凸显自身行政权，全然漠视各州应有的行政权。［B］与“最高法院一 \n致裁决反对奥巴马总统\"的大背景相矛盾。［D］对②句提到的... state laws complied with federal statute ... \n断章取义，但该内容意在凸显白宫的专断:就算州法律与联邦条文法完全吻合，也仍然冒犯其特权。\n［技巧总结］当所有选项方向性非常明确时，除了细节定位以外，还应借助段落、段群或全文主旨解 \n题。本题轟选项“黑白分明”:和［D］中的“遵循联邦法规、依赖各州、尊重各州法规”均体现 \n“奥巴马政府循规蹈矩的乖形象”，而这完全背离开篇就指出的“8：0全票反对奥巴马政府”以及本段对该 \n内容的细述,所以本题利用主旨便可迎刃而解。\nVII ❶ Some powers do belong exclusively® to the \nfederal government, and control of citizenship and the \nborders is among the",
+      "points": 2,
+      "sort_order": 39,
+      "answer": "C"
+    },
+    {
+      "id": "2cc4116c-0232-594d-8145-cc47075a3dfa",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "06e64256-4883-5c05-9182-868310a80f81",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "What can be learned from the last paragraph?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Congress's intervention in immigration enforcement.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "Federal officers * duty to withhold immigrants * information.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "States* legitimate role in immigration enforcement.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "States* independence from federal immigration law.",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n40\n \n\nIV ❶因 However, the Justices said that Arizona \npolice would be allowed to verify① the legal status of \npeople who come in contact w让h law enforcement*^ . \n❷That's because Congress has always envisioned joint \nfederal-state immigration enforcement and explicitly \nencourages state officers to share information and \ncooperate with federal colleagues.\n不过，法官们表示亚利桑那州警察可以 \n对他们认为身份可疑的人口进行身份核查。 \n因为国会一直设想未来联邦和州政府在移民 \n政策上能够通力合作，也明确鼓励州官员与 \n联邦同事间能够共享信息，彼此协作。\n① verify ['verifai] v.核实；查证\n② enforcement [en'foismant] n.执行\n•经典搭配\n•词汇注释与难句分析\n$ \n①come in contact with（接触到）\n》② law enforcement （执法）\n•语篇分析\n第四段借观点补充说明四项争议条款中一项被保留的原因。关键词为：①the Justices said;②because。\n① 句转而指出大法官认可的条款（said）：允许州警察核查人口身份。 However. .. would be allowed \nto...转换视角，开始就获准条款展开介绍。come in contact with law enforcement字面意思为\"接触到、 \n遇到执法”，即，（某人）受执法机关怀疑而发生接触，故此处指气某人）疑似非法移民”。\n② 句解释原因（because）：国会希望移民问题上联邦与各州能够通力合作。envision意为to imagine \nsth that",
+      "points": 2,
+      "sort_order": 40,
+      "answer": "B"
+    },
+    {
+      "id": "37f2e85c-4d04-518c-bd72-0f2a5cd7f883",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "f1619752-4d99-5e3f-99ee-a3214c446001",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best paragraph [A]-[G] that fits into gap (41):",
+      "options": [
+        {
+          "key": "A",
+          "text": "The idea is to force social scientists to integrate with each other and collaborate with natural scientists on pressing human problems.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "The solution is to change the mindset of the academic community and the institutions that evaluate research proposals.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "It could be that we are evolving two separate communities of social scientists: pure theorists and applied problem-solvers.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "However, the numbers are still small: in 2010, only about ten percent of projects received funding for cross-disciplinary research.",
+          "value": "D"
+        },
+        {
+          "key": "E",
+          "text": "These issues all have root causes in human behavior: all require insights from social scientists if policies are to succeed.",
+          "value": "E"
+        },
+        {
+          "key": "F",
+          "text": "Despite these urgent factors, many academic social scientists seem reluctant to tackle real-world social challenges directly.",
+          "value": "F"
+        },
+        {
+          "key": "G",
+          "text": "During the late 1990s, national spending on social science research grew steadily, reflecting growing recognition of its social value.",
+          "value": "G"
+        }
+      ],
+      "correct_answer": "G",
+      "explanation": "\n(41) \nHumanity has the necessary\nagro-technological® tools to eradicate© hunger, from \ngenetically engineered crops to artificial⑧ fertilizers®. \nHere, too, the problems are social: the organization and \ndistribution of food, wealth and prosperity.\ndi (42)______________ This is a shame — the\ncommunity should be grasping the opportunity to raise \nits influence in the real world. To paraphrase10 the \ngreat social scientist Joseph Schumpeter： there is no \nradical innovation without creative destruction⑪.\n社会科学正蓬勃发展。至2005年，来自 \n世界各领域的专业社会科学家已有近50万， \n他们活跃于学术界内外。根据《2010世界社 \n会科学报告》，自2000年以来，全球社会科学 \n专业的学生数量每年以约11%的速度增长。\n但是，如此巨大的资源并没有为应对当今 \n诸多全球性挑战（包括气候变化、安全问题、可 \n持续发展及健康问题）做出足够贡献。（41）_ \n_____________人类已经拥有了从转基因作務 \n到人工肥料的各种必要农业技术工具来消除 \n饥饿。（然而）这里的问题也是社会性的，如粮 \n食、财富和繁荣的组织与分布。\n（42）_______________这真令人遗憾—\n社科界本应正在抓住这一机遇提升自己在现 \n实世界的影响力。套用卓越的社会科学家约 \n瑟夫・熊彼特的话：没有创造性的毁坏就没有 \n彻底的革新。\n(DFlourishing ['flAriJig] a.繁",
+      "points": 2,
+      "sort_order": 41,
+      "answer": "G"
+    },
+    {
+      "id": "472e3c4b-dc67-529c-8295-9c57e40d4707",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "f1619752-4d99-5e3f-99ee-a3214c446001",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best paragraph [A]-[G] that fits into gap (42):",
+      "options": [
+        {
+          "key": "A",
+          "text": "The idea is to force social scientists to integrate with each other and collaborate with natural scientists on pressing human problems.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "The solution is to change the mindset of the academic community and the institutions that evaluate research proposals.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "It could be that we are evolving two separate communities of social scientists: pure theorists and applied problem-solvers.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "However, the numbers are still small: in 2010, only about ten percent of projects received funding for cross-disciplinary research.",
+          "value": "D"
+        },
+        {
+          "key": "E",
+          "text": "These issues all have root causes in human behavior: all require insights from social scientists if policies are to succeed.",
+          "value": "E"
+        },
+        {
+          "key": "F",
+          "text": "Despite these urgent factors, many academic social scientists seem reluctant to tackle real-world social challenges directly.",
+          "value": "F"
+        },
+        {
+          "key": "G",
+          "text": "During the late 1990s, national spending on social science research grew steadily, reflecting growing recognition of its social value.",
+          "value": "G"
+        }
+      ],
+      "correct_answer": "E",
+      "explanation": "\n42. 本题考核的知识点是：代词指代+上下文衔接\n【空格推测】由空格后句 This is a shame—the community should be...以及 creative destruction 可推 \n知空格处介绍了某一具有创新性、颠覆性的事件，并指出社会科学界对此反应不当(原本能借此机会提 \n升影响力，实际上却采取了相反的错误做法)。\n",
+      "points": 2,
+      "sort_order": 42,
+      "answer": "E"
+    },
+    {
+      "id": "db6b439d-1ccb-55da-b288-6ec709e52653",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "f1619752-4d99-5e3f-99ee-a3214c446001",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best paragraph [A]-[G] that fits into gap (43):",
+      "options": [
+        {
+          "key": "A",
+          "text": "The idea is to force social scientists to integrate with each other and collaborate with natural scientists on pressing human problems.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "The solution is to change the mindset of the academic community and the institutions that evaluate research proposals.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "It could be that we are evolving two separate communities of social scientists: pure theorists and applied problem-solvers.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "However, the numbers are still small: in 2010, only about ten percent of projects received funding for cross-disciplinary research.",
+          "value": "D"
+        },
+        {
+          "key": "E",
+          "text": "These issues all have root causes in human behavior: all require insights from social scientists if policies are to succeed.",
+          "value": "E"
+        },
+        {
+          "key": "F",
+          "text": "Despite these urgent factors, many academic social scientists seem reluctant to tackle real-world social challenges directly.",
+          "value": "F"
+        },
+        {
+          "key": "G",
+          "text": "During the late 1990s, national spending on social science research grew steadily, reflecting growing recognition of its social value.",
+          "value": "G"
+        }
+      ],
+      "correct_answer": "F",
+      "explanation": "\n43. 本题考核的知识点是：词汇复现+上下文逻辑\n【空格推测】第四段首句提出段落主旨“社科界对具有外部影响的话题关注较少”，随后一句(空格上 \n句)却指出“涉及外部影响话题的论文数量在迅速增长”，显然空格句只有与上句形成转折关系，才能论 \n证首句主旨。\n",
+      "points": 2,
+      "sort_order": 43,
+      "answer": "F"
+    },
+    {
+      "id": "031c362b-b60e-5315-af68-a5af8344d82a",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "f1619752-4d99-5e3f-99ee-a3214c446001",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best paragraph [A]-[G] that fits into gap (44):",
+      "options": [
+        {
+          "key": "A",
+          "text": "The idea is to force social scientists to integrate with each other and collaborate with natural scientists on pressing human problems.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "The solution is to change the mindset of the academic community and the institutions that evaluate research proposals.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "It could be that we are evolving two separate communities of social scientists: pure theorists and applied problem-solvers.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "However, the numbers are still small: in 2010, only about ten percent of projects received funding for cross-disciplinary research.",
+          "value": "D"
+        },
+        {
+          "key": "E",
+          "text": "These issues all have root causes in human behavior: all require insights from social scientists if policies are to succeed.",
+          "value": "E"
+        },
+        {
+          "key": "F",
+          "text": "Despite these urgent factors, many academic social scientists seem reluctant to tackle real-world social challenges directly.",
+          "value": "F"
+        },
+        {
+          "key": "G",
+          "text": "During the late 1990s, national spending on social science research grew steadily, reflecting growing recognition of its social value.",
+          "value": "G"
+        }
+      ],
+      "correct_answer": "B",
+      "explanation": "\n\n44. 本题考核的知识点是：代词指代+上下文内容一致性\n（空格推测】第六段空格上下文均围绕\"社科基金\"（the amount of available funding、This is an \nadequate amount、funding）展开，可推知空格内容也应与之相关。\n",
+      "points": 2,
+      "sort_order": 44,
+      "answer": "B"
+    },
+    {
+      "id": "ae5cf2b8-b7a2-5d67-8386-9a409d166a7b",
+      "exam_id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "passage_id": "f1619752-4d99-5e3f-99ee-a3214c446001",
+      "category_id": "ky1",
+      "q_type": "reading_item",
+      "stem": "Choose the best paragraph [A]-[G] that fits into gap (45):",
+      "options": [
+        {
+          "key": "A",
+          "text": "The idea is to force social scientists to integrate with each other and collaborate with natural scientists on pressing human problems.",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "The solution is to change the mindset of the academic community and the institutions that evaluate research proposals.",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "It could be that we are evolving two separate communities of social scientists: pure theorists and applied problem-solvers.",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "However, the numbers are still small: in 2010, only about ten percent of projects received funding for cross-disciplinary research.",
+          "value": "D"
+        },
+        {
+          "key": "E",
+          "text": "These issues all have root causes in human behavior: all require insights from social scientists if policies are to succeed.",
+          "value": "E"
+        },
+        {
+          "key": "F",
+          "text": "Despite these urgent factors, many academic social scientists seem reluctant to tackle real-world social challenges directly.",
+          "value": "F"
+        },
+        {
+          "key": "G",
+          "text": "During the late 1990s, national spending on social science research grew steadily, reflecting growing recognition of its social value.",
+          "value": "G"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "\n45. 本题考核的知识点是：类似句式结构+上下文逻辑\n【空格推测】由空格上文“欧盟改革方案本意并非是要忽视社会科学，而是恰恰相反”推知，空格处很 \n可能进一步明确“改革方案的本意”。\n",
+      "points": 2,
+      "sort_order": 45,
+      "answer": "A"
+    }
+  ],
+  "exportedAt": "2026-10-13T00:01:48.571Z"
+}

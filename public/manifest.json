@@ -1,0 +1,21 @@
+{
+  "name": "Enway 考研英语 · 历年真题沉浸式研习系统",
+  "short_name": "考研英语",
+  "description": "全国硕士研究生统一招生考试英语（英语一 / 英语二）权威历年真题在线研习、智能刷题、全真模考与名师解析平台",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "zh-CN",
+  "categories": ["education", "books"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

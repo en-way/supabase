@@ -1,0 +1,14 @@
+.env
+.env.local
+.temp/
+*.log
+__pycache__/
+node_modules/
+.next/
+out/
+scripts/cache/
+temp_*/
+temp_*
+scratch_*
+*.png
+tsconfig.tsbuildinfo

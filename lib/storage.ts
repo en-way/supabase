@@ -1,0 +1,911 @@
+import { supabase } from "./supabase";
+
+export interface QuestionOption {
+  key: string;
+  text: string;
+}
+
+/**
+ * Resilient Options Parser:
+ * Normalizes options whether entered in Supabase Table Editor as:
+ * 1. Standard Array: [{"key":"A","text":"..."}, {"key":"B","text":"..."}]
+ * 2. Simple Object: {"A":"...", "B":"..."}
+ * 3. Array of strings: ["Option A text", "Option B text"]
+ */
+export function normalizeOptions(raw: any): QuestionOption[] {
+  if (!raw) return [];
+  if (Array.isArray(raw)) {
+    return raw.map((item, idx) => {
+      if (typeof item === "string") {
+        const key = String.fromCharCode(65 + idx);
+        return { key, text: item };
+      }
+      return {
+        key: String(item?.key || String.fromCharCode(65 + idx)).trim().toUpperCase(),
+        text: String(item?.text || ""),
+      };
+    });
+  }
+  if (typeof raw === "object") {
+    const keys = Object.keys(raw).sort();
+    return keys.map((k) => ({
+      key: k.trim().toUpperCase(),
+      text: String(raw[k] || ""),
+    }));
+  }
+  if (typeof raw === "string") {
+    try {
+      const parsed = JSON.parse(raw);
+      return normalizeOptions(parsed);
+    } catch {
+      return [];
+    }
+  }
+  return [];
+}
+
+export interface MistakeItem {
+  questionId: string;
+  examId?: string;
+  categoryId?: string;
+  wrongAnswer: string;
+  wrongCount: number;
+  isMastered: boolean;
+  lastWrongAt: string;
+  // Optional legacy fields that may exist in older backups
+  stem?: string;
+  options?: QuestionOption[];
+  correctAnswer?: string;
+  explanation?: string;
+}
+
+export interface VocabItem {
+  word: string;
+  phonetic?: string;
+  translation: string;
+  context?: string;
+  addedAt: string;
+}
+
+export interface FavoriteItem {
+  questionId: string;
+  examId?: string;
+  stem?: string;
+  options?: QuestionOption[];
+  correctAnswer?: string;
+  explanation?: string;
+  note?: string;
+  addedAt: string;
+}
+
+export interface ExamDraft {
+  examId: string;
+  answers: Record<string, string>;
+  remainingSeconds: number;
+  focusedIndex?: number;
+  lastUpdated: string;
+}
+
+export interface PracticeDraft {
+  examId: string;
+  answers: Record<string, string>;
+  currentIndex: number;
+  lastUpdated: string;
+  score?: number;
+  correctCount?: number;
+  totalQuestions?: number;
+  answeredCount?: number;
+}
+
+export interface ExamResult {
+  examId: string;
+  examTitle: string;
+  score: number;
+  totalScore: number;
+  isPassed: boolean;
+  durationSeconds: number;
+  submittedAt: string;
+  answers: Record<string, { userAnswer: string; isCorrect: boolean }>;
+}
+
+export interface LocalLearningState {
+  mistakes: MistakeItem[];
+  vocabulary: VocabItem[];
+  favorites: FavoriteItem[];
+  examResults: Record<string, ExamResult>;
+  examDrafts: Record<string, ExamDraft>;
+  practiceDrafts?: Record<string, PracticeDraft>;
+}
+
+const STORAGE_KEY = "enway_local_learning_data";
+
+export function getLocalState(): LocalLearningState {
+  const defaultState: LocalLearningState = {
+    mistakes: [],
+    vocabulary: [],
+    favorites: [],
+    examResults: {},
+    examDrafts: {},
+    practiceDrafts: {},
+  };
+  if (typeof window === "undefined") {
+    return defaultState;
+  }
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) {
+      return defaultState;
+    }
+    const parsed = JSON.parse(raw);
+    return {
+      mistakes: Array.isArray(parsed?.mistakes) ? parsed.mistakes.filter(Boolean) : [],
+      vocabulary: Array.isArray(parsed?.vocabulary) ? parsed.vocabulary.filter(Boolean) : [],
+      favorites: Array.isArray(parsed?.favorites) ? parsed.favorites.filter(Boolean) : [],
+      examResults: parsed?.examResults && typeof parsed.examResults === "object" ? parsed.examResults : {},
+      examDrafts: parsed?.examDrafts && typeof parsed.examDrafts === "object" ? parsed.examDrafts : {},
+      practiceDrafts: parsed?.practiceDrafts && typeof parsed.practiceDrafts === "object" ? parsed.practiceDrafts : {},
+    };
+  } catch (e) {
+    console.error("Error reading local state", e);
+    return defaultState;
+  }
+}
+
+export function saveLocalState(state: LocalLearningState) {
+  if (typeof window === "undefined") return;
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+  } catch (e) {
+    console.error("Error saving local state", e);
+  }
+}
+
+// ------------------- Mistake Book (Index-only Lean Footprint) -------------------
+export function recordMistake(item: {
+  questionId: string;
+  examId?: string;
+  categoryId?: string;
+  wrongAnswer: string;
+  [key: string]: any;
+}) {
+  if (!item?.questionId) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.mistakes)) state.mistakes = [];
+  const existingIndex = state.mistakes.findIndex((m) => m && m.questionId === item.questionId);
+  const now = new Date().toISOString();
+
+  if (existingIndex >= 0) {
+    state.mistakes[existingIndex].wrongCount = (state.mistakes[existingIndex].wrongCount || 1) + 1;
+    state.mistakes[existingIndex].wrongAnswer = item.wrongAnswer || "未作答";
+    state.mistakes[existingIndex].lastWrongAt = now;
+    state.mistakes[existingIndex].isMastered = false; // Reset to unmastered on new error
+    if (item.examId) state.mistakes[existingIndex].examId = item.examId;
+    if (item.categoryId) state.mistakes[existingIndex].categoryId = item.categoryId;
+  } else {
+    state.mistakes.unshift({
+      questionId: item.questionId,
+      examId: item.examId,
+      categoryId: item.categoryId,
+      wrongAnswer: item.wrongAnswer || "未作答",
+      wrongCount: 1,
+      isMastered: false,
+      lastWrongAt: now,
+    });
+  }
+
+  // Sanitize all mistakes to strictly retain lightweight index fields (save Supabase cloud quota)
+  state.mistakes = state.mistakes
+    .filter((m) => m && m.questionId)
+    .map((m) => ({
+      questionId: m.questionId,
+      examId: m.examId,
+      categoryId: m.categoryId,
+      wrongAnswer: m.wrongAnswer || "未作答",
+      wrongCount: m.wrongCount || 1,
+      isMastered: !!m.isMastered,
+      lastWrongAt: m.lastWrongAt || now,
+    }));
+
+  saveLocalState(state);
+}
+
+export function toggleMistakeMastered(questionId: string, isMastered?: boolean) {
+  if (!questionId) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.mistakes)) return;
+  const target = state.mistakes.find((m) => m && m.questionId === questionId);
+  if (target) {
+    target.isMastered = isMastered !== undefined ? isMastered : !target.isMastered;
+    saveLocalState(state);
+  }
+}
+
+export function removeMistake(questionId: string) {
+  if (!questionId) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.mistakes)) return;
+  state.mistakes = state.mistakes.filter((m) => m && m.questionId !== questionId);
+  saveLocalState(state);
+}
+
+// ------------------- Vocabulary -------------------
+export function addVocab(word: string, translation: string, phonetic?: string, context?: string) {
+  if (!word) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.vocabulary)) state.vocabulary = [];
+  const cleanWord = word.trim().toLowerCase();
+  const exists = state.vocabulary.some((v) => v && v.word && v.word.toLowerCase() === cleanWord);
+  if (!exists) {
+    state.vocabulary.unshift({
+      word: cleanWord,
+      translation,
+      phonetic,
+      context,
+      addedAt: new Date().toISOString(),
+    });
+    saveLocalState(state);
+  }
+}
+
+export function removeVocab(word: string) {
+  if (!word) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.vocabulary)) return;
+  const cleanWord = word.trim().toLowerCase();
+  state.vocabulary = state.vocabulary.filter((v) => v && v.word && v.word.toLowerCase() !== cleanWord);
+  saveLocalState(state);
+}
+
+// ------------------- Favorites -------------------
+export function toggleFavorite(item: Partial<FavoriteItem> & { questionId: string }) {
+  if (!item?.questionId) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.favorites)) state.favorites = [];
+  const index = state.favorites.findIndex((f) => f && f.questionId === item.questionId);
+  if (index >= 0) {
+    state.favorites.splice(index, 1);
+  } else {
+    // Keep favorite item lightweight to avoid exceeding 5MB LocalStorage quota
+    state.favorites.unshift({
+      questionId: item.questionId,
+      examId: item.examId || "",
+      note: item.note || "",
+      addedAt: new Date().toISOString(),
+    });
+  }
+  saveLocalState(state);
+}
+
+export function updateFavoriteNote(questionId: string, note: string) {
+  if (!questionId) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.favorites)) return;
+  const target = state.favorites.find((f) => f && f.questionId === questionId);
+  if (target) {
+    target.note = note;
+    saveLocalState(state);
+  }
+}
+
+// ------------------- Exam Drafts (Auto-Save Resilience) -------------------
+export function saveExamDraft(examId: string, answers: Record<string, string>, remainingSeconds: number, focusedIndex?: number) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (!state.examDrafts || typeof state.examDrafts !== "object") {
+    state.examDrafts = {};
+  }
+  state.examDrafts[examId] = {
+    examId,
+    answers: answers || {},
+    remainingSeconds: typeof remainingSeconds === "number" ? remainingSeconds : 3600,
+    focusedIndex: typeof focusedIndex === "number" ? focusedIndex : 0,
+    lastUpdated: new Date().toISOString(),
+  };
+  saveLocalState(state);
+}
+
+export function getExamDraft(examId: string): ExamDraft | null {
+  if (!examId) return null;
+  const state = getLocalState();
+  return state.examDrafts?.[examId] || null;
+}
+
+export function clearExamDraft(examId: string) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (state.examDrafts && typeof state.examDrafts === "object") {
+    delete state.examDrafts[examId];
+    saveLocalState(state);
+  }
+}
+
+// ------------------- Practice Drafts (Smart Practice Resume) -------------------
+export function savePracticeDraft(
+  examId: string, 
+  answers: Record<string, string>, 
+  currentIndex: number,
+  stats?: { score?: number; correctCount?: number; totalQuestions?: number; answeredCount?: number }
+) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (!state.practiceDrafts || typeof state.practiceDrafts !== "object") {
+    state.practiceDrafts = {};
+  }
+  state.practiceDrafts[examId] = {
+    examId,
+    answers: answers || {},
+    currentIndex: typeof currentIndex === "number" ? currentIndex : 0,
+    lastUpdated: new Date().toISOString(),
+    ...(stats || {}),
+  };
+  saveLocalState(state);
+}
+
+export function getPracticeDraft(examId: string): PracticeDraft | null {
+  if (!examId) return null;
+  const state = getLocalState();
+  return state.practiceDrafts?.[examId] || null;
+}
+
+export function clearPracticeDraft(examId: string) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (state.practiceDrafts && typeof state.practiceDrafts === "object") {
+    delete state.practiceDrafts[examId];
+    saveLocalState(state);
+  }
+}
+
+// ------------------- Exam Card Summary Statistics -------------------
+export interface ExamCardStats {
+  hasExamRecord: boolean;
+  examScore: number;
+  examTotalScore: number;
+  examAccuracy: number;
+  examIsPassed: boolean;
+  examSubmittedAt?: string;
+
+  hasPracticeRecord: boolean;
+  practiceAnsweredCount: number;
+  practiceTotalQuestions: number;
+  practicePercent: number;
+  practiceScore: number;
+  practiceCorrectCount: number;
+  practiceAccuracy: number;
+}
+
+export function getExamCardStats(
+  examId: string,
+  examTotalScore: number,
+  examQuestionCount: number,
+  localState: LocalLearningState | null
+): ExamCardStats {
+  const result = localState?.examResults?.[examId];
+  const practice = localState?.practiceDrafts?.[examId];
+
+  let hasExamRecord = false;
+  let examScore = 0;
+  let examAccuracy = 0;
+  let examIsPassed = false;
+  let examSubmittedAt: string | undefined = undefined;
+
+  if (result) {
+    hasExamRecord = true;
+    examScore = result.score || 0;
+    examIsPassed = !!result.isPassed;
+    const answeredTotal = Object.keys(result.answers || {}).length;
+    let correctCount = 0;
+    Object.values(result.answers || {}).forEach((a) => {
+      if (a && a.isCorrect) correctCount++;
+    });
+    examAccuracy = answeredTotal > 0 ? Math.round((correctCount / answeredTotal) * 100) : 0;
+    examSubmittedAt = result.submittedAt;
+  }
+
+  let hasPracticeRecord = false;
+  let practiceAnsweredCount = 0;
+  const defaultTotalQ = examQuestionCount > 0 ? examQuestionCount : 45;
+  let practiceTotalQuestions = defaultTotalQ;
+  let practicePercent = 0;
+  let practiceScore = 0;
+  let practiceCorrectCount = 0;
+  let practiceAccuracy = 0;
+
+  if (practice && practice.answers && Object.keys(practice.answers).length > 0) {
+    hasPracticeRecord = true;
+    practiceAnsweredCount = practice.answeredCount ?? Object.keys(practice.answers).length;
+    practiceTotalQuestions = practice.totalQuestions || defaultTotalQ;
+    practicePercent = Math.min(100, Math.round((practiceAnsweredCount / practiceTotalQuestions) * 100));
+    practiceScore = practice.score ?? 0;
+    practiceCorrectCount = practice.correctCount ?? 0;
+    practiceAccuracy = practiceAnsweredCount > 0 ? Math.round((practiceCorrectCount / practiceAnsweredCount) * 100) : 0;
+  }
+
+  return {
+    hasExamRecord,
+    examScore,
+    examTotalScore: examTotalScore || (result ? result.totalScore : 60),
+    examAccuracy,
+    examIsPassed,
+    examSubmittedAt,
+    hasPracticeRecord,
+    practiceAnsweredCount,
+    practiceTotalQuestions,
+    practicePercent,
+    practiceScore,
+    practiceCorrectCount,
+    practiceAccuracy,
+  };
+}
+
+// ------------------- Exam Results (Latest Overwrite) -------------------
+export function saveExamResult(result: ExamResult) {
+  if (!result?.examId) return;
+  const state = getLocalState();
+  if (!state.examResults || typeof state.examResults !== "object") {
+    state.examResults = {};
+  }
+  if (!state.examDrafts || typeof state.examDrafts !== "object") {
+    state.examDrafts = {};
+  }
+  state.examResults[result.examId] = result;
+  // Clear draft once submitted
+  delete state.examDrafts[result.examId];
+  saveLocalState(state);
+
+  // Touch active timestamp on exam submission and sync cross-tab throttle
+  if (typeof window !== "undefined") {
+    try {
+      localStorage.setItem("enway_last_presence_touch", String(Date.now()));
+      supabase.rpc("touch_user_activity").then(() => {}, () => {});
+    } catch {}
+  }
+}
+
+// ------------------- Cloud Backup & Restore via Supabase 1GB Storage -------------------
+
+export async function uploadBackupToCloud(): Promise<{ success: boolean; error?: string }> {
+  try {
+    // Use getSession() (reads local JWT) instead of getUser() (triggers a network request)
+    const { data: { session }, error: sessionErr } = await supabase.auth.getSession();
+    if (sessionErr || !session?.user) {
+      return { success: false, error: "未登录，无法备份到云端" };
+    }
+    const user = session.user;
+
+    const state = getLocalState();
+    // Ensure mistakes are purely index-based to save egress and storage
+    const sanitizedMistakes = (state.mistakes || []).map((m) => ({
+      questionId: m.questionId,
+      examId: m.examId,
+      categoryId: m.categoryId,
+      wrongAnswer: m.wrongAnswer || "未作答",
+      wrongCount: m.wrongCount || 1,
+      isMastered: !!m.isMastered,
+      lastWrongAt: m.lastWrongAt || new Date().toISOString(),
+    }));
+
+    // Exclude ephemeral in-progress drafts from persistent cloud backup to save storage quota
+    const cleanBackupState = {
+      mistakes: sanitizedMistakes,
+      vocabulary: state.vocabulary || [],
+      favorites: (state.favorites || []).map((f) => ({
+        questionId: f.questionId,
+        examId: f.examId || "",
+        note: f.note || "",
+        addedAt: f.addedAt || new Date().toISOString(),
+      })),
+      examResults: state.examResults || {},
+    };
+
+    const jsonString = JSON.stringify(cleanBackupState);
+
+    // 🗜️ Free Quota Optimization: Native Gzip compression before uploading to Storage Bucket
+    let blob: Blob;
+    if (typeof CompressionStream !== "undefined") {
+      const stream = new Blob([jsonString], { type: "application/json" })
+        .stream()
+        .pipeThrough(new CompressionStream("gzip"));
+      const rawBlob = await new Response(stream).blob();
+      blob = new Blob([await rawBlob.arrayBuffer()], { type: "application/json" });
+    } else {
+      blob = new Blob([jsonString], { type: "application/json" });
+    }
+
+    const filePath = `${user.id}/backup.json`;
+
+    // 1. Upload file into private Storage Bucket: 'user-backups' (1GB free space)
+    const { error: storageErr } = await supabase.storage
+      .from("user-backups")
+      .upload(filePath, blob, {
+        contentType: "application/json",
+        upsert: true,
+      });
+
+    if (storageErr) throw storageErr;
+
+    // 2. Update metadata summary in public.user_backups table (tiny footprint ~50 bytes)
+    const summary = {
+      mistakesCount: state.mistakes.length,
+      vocabCount: state.vocabulary.length,
+      favoritesCount: state.favorites.length,
+      examsCount: Object.keys(state.examResults).length,
+      storageType: "supabase_storage_bucket_gzip",
+      backedUpAt: new Date().toISOString(),
+    };
+
+    const { error: dbErr } = await supabase
+      .from("user_backups")
+      .upsert({
+        user_id: user.id,
+        summary,
+        file_path: filePath,
+        updated_at: new Date().toISOString(),
+      });
+
+    if (dbErr) console.warn("Notice: updated storage file, metadata sync:", dbErr.message);
+
+    // Touch active timestamp on cloud backup
+    try {
+      await supabase.rpc("touch_user_activity");
+    } catch {}
+
+    return { success: true };
+  } catch (err: any) {
+    return { success: false, error: err.message || "上传云端对象存储失败" };
+  }
+}
+
+export async function downloadBackupFromCloud(): Promise<{ success: boolean; summary?: any; error?: string }> {
+  try {
+    // Use getSession() (reads local JWT cache) first to avoid unnecessary network latency/errors
+    const { data: { session } } = await supabase.auth.getSession();
+    let user = session?.user;
+    if (!user) {
+      const { data: { user: fetchedUser }, error: userErr } = await supabase.auth.getUser();
+      if (userErr || !fetchedUser) {
+        return { success: false, error: "未登录，无法拉取云端数据" };
+      }
+      user = fetchedUser;
+    }
+
+    const filePath = `${user.id}/backup.json`;
+
+    // 1. Download file from private Storage Bucket
+    const { data: fileBlob, error: storageErr } = await supabase.storage
+      .from("user-backups")
+      .download(filePath);
+
+    if (storageErr || !fileBlob) {
+      return { success: false, error: "云端对象存储中暂无备份文件" };
+    }
+
+    // 🗜️ Smart decompression: auto-detects gzip magic bytes 0x1f 0x8b, fully backward-compatible
+    let text = "";
+    try {
+      const buffer = await fileBlob.slice(0, 2).arrayBuffer();
+      const header = new Uint8Array(buffer);
+      const isGzip = header[0] === 0x1f && header[1] === 0x8b;
+
+      if (isGzip && typeof DecompressionStream !== "undefined") {
+        const stream = fileBlob.stream().pipeThrough(new DecompressionStream("gzip"));
+        text = await new Response(stream).text();
+      } else {
+        text = await fileBlob.text();
+      }
+    } catch {
+      text = await fileBlob.text();
+    }
+
+    if (!text) {
+      return { success: false, error: "云端存档内容为空" };
+    }
+
+    const parsedState = JSON.parse(text) as LocalLearningState;
+    saveLocalState(parsedState);
+
+    return { success: true };
+  } catch (err: any) {
+    return { success: false, error: err.message || "从云端存储下载恢复失败" };
+  }
+}
+
+export async function fetchCloudBackupInfo(): Promise<{ exists: boolean; summary?: any; updatedAt?: string }> {
+  try {
+    const { data: { session } } = await supabase.auth.getSession();
+    let user = session?.user;
+    if (!user) {
+      const { data: { user: fetchedUser } } = await supabase.auth.getUser();
+      user = fetchedUser || undefined;
+    }
+    if (!user) return { exists: false };
+
+    const { data } = await supabase
+      .from("user_backups")
+      .select("summary, updated_at")
+      .eq("user_id", user.id)
+      .maybeSingle();
+
+    if (data) {
+      return { exists: true, summary: data.summary, updatedAt: data.updated_at };
+    }
+    return { exists: false };
+  } catch {
+    return { exists: false };
+  }
+}
+
+// ------------------- Reconciliation Engine (存档智能校对与更正自愈) -------------------
+
+export interface ReconcileResult {
+  hasChanges: boolean;
+  deletedQuestionsCount: number;
+  fixedAnswersCount: number;
+  deletedExamsCount: number;
+  summaryText: string;
+}
+
+export async function reconcileLearningState(
+  targetState?: LocalLearningState
+): Promise<ReconcileResult> {
+  const state = targetState || getLocalState();
+  let hasChanges = false;
+  let deletedQuestionsCount = 0;
+  let fixedAnswersCount = 0;
+  let deletedExamsCount = 0;
+
+  try {
+    // 🛡️ Gate 1: Session Guard. If unauthenticated, Supabase RLS forbids SELECT on questions/exams for anon.
+    // Must NOT query Supabase to prevent empty arrays from clearing local data.
+    const { data: { session } } = await supabase.auth.getSession();
+    if (!session?.user) {
+      return {
+        hasChanges: false,
+        deletedQuestionsCount: 0,
+        fixedAnswersCount: 0,
+        deletedExamsCount: 0,
+        summaryText: "未登录状态，已安全保留本地学习记录",
+      };
+    }
+
+    // 1. Collect all Question IDs
+    const mistakeQIds = (state.mistakes || []).map((m) => m.questionId);
+    const favQIds = (state.favorites || []).map((f) => f.questionId);
+    const allQIds = Array.from(new Set([...mistakeQIds, ...favQIds]));
+
+    // 2. Collect all Exam IDs
+    const draftExamIds = Object.keys(state.examDrafts || {});
+    const practiceExamIds = Object.keys(state.practiceDrafts || {});
+    const resultExamIds = Object.keys(state.examResults || {});
+    const mistakeExamIds = (state.mistakes || []).map((m) => m.examId).filter(Boolean) as string[];
+    const allExamIds = Array.from(new Set([...draftExamIds, ...practiceExamIds, ...resultExamIds, ...mistakeExamIds]));
+
+    // 3. Batch query valid questions in chunks of 50 to prevent HTTP 414 URI Too Long
+    const validQuestionsMap: Record<string, { id: string; correct_answer: string; exam_id: string; category_id: string }> = {};
+    const CHUNK_SIZE = 50;
+    if (allQIds.length > 0) {
+      for (let i = 0; i < allQIds.length; i += CHUNK_SIZE) {
+        const chunk = allQIds.slice(i, i + CHUNK_SIZE);
+        const { data: qRows, error: qErr } = await supabase
+          .from("questions")
+          .select("id, correct_answer, exam_id, category_id")
+          .in("id", chunk);
+
+        // 🛡️ Critical Safety Fuse: If network or Supabase fails, abort reconcile to prevent wiping user data!
+        if (qErr) {
+          console.warn("[Reconcile] Supabase questions query failed, safely aborting to prevent false data wipe:", qErr);
+          return { hasChanges: false, deletedQuestionsCount: 0, fixedAnswersCount: 0, deletedExamsCount: 0, summaryText: "" };
+        }
+
+        if (qRows) {
+          qRows.forEach((q: any) => {
+            validQuestionsMap[q.id] = q;
+          });
+        }
+      }
+    }
+
+    // 🛡️ Gate 2: Zero-Wipe Safety Fuse. If questions were requested, but Supabase returned 0 rows,
+    // this indicates an RLS failure, network disconnect, or maintenance — NOT that all questions were deleted.
+    if (allQIds.length > 0 && Object.keys(validQuestionsMap).length === 0) {
+      console.warn("[Reconcile] Supabase returned 0 matching questions for non-empty ID list. Safety fuse triggered: aborting reconciliation to prevent catastrophic data wipe.");
+      return {
+        hasChanges: false,
+        deletedQuestionsCount: 0,
+        fixedAnswersCount: 0,
+        deletedExamsCount: 0,
+        summaryText: "云端校验响应异常，已触发安全熔断保护本地数据",
+      };
+    }
+
+    // 4. Batch query valid approved exams in chunks of 50
+    const validExamsMap: Record<string, boolean> = {};
+    if (allExamIds.length > 0) {
+      for (let i = 0; i < allExamIds.length; i += CHUNK_SIZE) {
+        const chunk = allExamIds.slice(i, i + CHUNK_SIZE);
+        const { data: eRows, error: eErr } = await supabase
+          .from("exams")
+          .select("id, is_published, approval_status")
+          .in("id", chunk);
+
+        // 🛡️ Critical Safety Fuse: If network or Supabase fails, abort reconcile immediately!
+        if (eErr) {
+          console.warn("[Reconcile] Supabase exams query failed, safely aborting to prevent false data wipe:", eErr);
+          return { hasChanges: false, deletedQuestionsCount: 0, fixedAnswersCount: 0, deletedExamsCount: 0, summaryText: "" };
+        }
+
+        if (eRows) {
+          eRows.forEach((e: any) => {
+            if (e.approval_status === "approved") {
+              validExamsMap[e.id] = true;
+            }
+          });
+        }
+      }
+    }
+
+    // 🛡️ Gate 3: Exam Zero-Wipe Safety Fuse. If exams were requested, but 0 valid approved exams returned,
+    // abort to avoid wiping student drafts and exam results.
+    if (allExamIds.length > 0 && Object.keys(validExamsMap).length === 0) {
+      console.warn("[Reconcile] Supabase returned 0 valid exams for non-empty exam list. Safety fuse triggered: aborting reconciliation.");
+      return {
+        hasChanges: false,
+        deletedQuestionsCount: 0,
+        fixedAnswersCount: 0,
+        deletedExamsCount: 0,
+        summaryText: "云端考卷状态校验异常，已安全保留本地进度",
+      };
+    }
+
+    // 5. Reconcile mistakes
+    if (state.mistakes && state.mistakes.length > 0) {
+      const originalCount = state.mistakes.length;
+      // Filter out physically deleted questions
+      state.mistakes = state.mistakes.filter((m) => Boolean(validQuestionsMap[m.questionId]));
+      const pruned = originalCount - state.mistakes.length;
+      if (pruned > 0) {
+        deletedQuestionsCount += pruned;
+        hasChanges = true;
+      }
+
+      // Check if admin corrected answers
+      state.mistakes.forEach((m) => {
+        const q = validQuestionsMap[m.questionId];
+        if (q) {
+          if (q.category_id && m.categoryId !== q.category_id) {
+            m.categoryId = q.category_id;
+            hasChanges = true;
+          }
+          if (q.exam_id && m.examId !== q.exam_id) {
+            m.examId = q.exam_id;
+            hasChanges = true;
+          }
+          // Answer correction self-healing: if student's wrong answer now matches new correct answer
+          if (m.wrongAnswer && m.wrongAnswer === q.correct_answer && !m.isMastered) {
+            m.isMastered = true;
+            fixedAnswersCount += 1;
+            hasChanges = true;
+          }
+        }
+      });
+    }
+
+    // 6. Reconcile favorites
+    if (state.favorites && state.favorites.length > 0) {
+      const originalFavCount = state.favorites.length;
+      state.favorites = state.favorites.filter((f) => Boolean(validQuestionsMap[f.questionId]));
+      const prunedFav = originalFavCount - state.favorites.length;
+      if (prunedFav > 0) {
+        deletedQuestionsCount += prunedFav;
+        hasChanges = true;
+      }
+    }
+
+    // 7. Reconcile exam drafts (remove drafts of deleted or unapproved exams)
+    if (state.examDrafts) {
+      const drafts = state.examDrafts;
+      Object.keys(drafts).forEach((examId) => {
+        if (!validExamsMap[examId]) {
+          delete drafts[examId];
+          deletedExamsCount += 1;
+          hasChanges = true;
+        }
+      });
+    }
+
+    // 7b. Reconcile practice drafts (remove practice drafts of deleted or unapproved exams)
+    if (state.practiceDrafts) {
+      const pDrafts = state.practiceDrafts;
+      Object.keys(pDrafts).forEach((examId) => {
+        if (!validExamsMap[examId]) {
+          delete pDrafts[examId];
+          deletedExamsCount += 1;
+          hasChanges = true;
+        }
+      });
+    }
+
+    // 8. Reconcile exam results
+    if (state.examResults) {
+      const results = state.examResults;
+      Object.keys(results).forEach((examId) => {
+        if (!validExamsMap[examId]) {
+          delete results[examId];
+          deletedExamsCount += 1;
+          hasChanges = true;
+        }
+      });
+    }
+
+    // 8. Reconcile favorites (strip any bulky legacy fields to free LocalStorage quota)
+    if (Array.isArray(state.favorites)) {
+      state.favorites = state.favorites.map((f: any) => {
+        if (f && (f.stem || f.options || f.explanation || f.correctAnswer)) {
+          hasChanges = true;
+          return {
+            questionId: f.questionId,
+            examId: f.examId || "",
+            note: f.note || "",
+            addedAt: f.addedAt || new Date().toISOString(),
+          };
+        }
+        return f;
+      });
+    }
+
+    // 9. If modified, persist to local storage and throttle silent cloud writeback (max once per hour)
+    if (hasChanges) {
+      saveLocalState(state);
+      try {
+        const now = Date.now();
+        let lastSilentTs = 0;
+        if (typeof window !== "undefined") {
+          lastSilentTs = Number(sessionStorage.getItem("enway_last_silent_backup") || "0");
+        }
+        // At most once every 60 minutes per session to strictly preserve Supabase storage and DB quotas
+        if (now - lastSilentTs > 60 * 60 * 1000) {
+          if (typeof window !== "undefined") {
+            sessionStorage.setItem("enway_last_silent_backup", String(now));
+          }
+          await uploadBackupToCloud();
+        }
+      } catch (err) {
+        console.warn("Silent cloud writeback failed during reconcile:", err);
+      }
+    }
+  } catch (err) {
+    console.error("Reconciliation error:", err);
+  }
+
+  const parts: string[] = [];
+  if (deletedQuestionsCount > 0) parts.push(`清理了 ${deletedQuestionsCount} 道已下线题目`);
+  if (fixedAnswersCount > 0) parts.push(`更正了 ${fixedAnswersCount} 道已修正答案错题`);
+  if (deletedExamsCount > 0) parts.push(`清除了 ${deletedExamsCount} 份已下线试卷`);
+  const summaryText = parts.length > 0 ? `已为您自动校对并更新存档：${parts.join("，")}` : "";
+
+  return {
+    hasChanges,
+    deletedQuestionsCount,
+    fixedAnswersCount,
+    deletedExamsCount,
+    summaryText,
+  };
+}
+
+// ------------------- Clear Local Data -------------------
+export function clearLocalData(scope: "all" | "mistakes" | "vocab" | "drafts") {
+  const state = getLocalState();
+  if (scope === "all") {
+    saveLocalState({ mistakes: [], vocabulary: [], favorites: [], examResults: {}, examDrafts: {}, practiceDrafts: {} });
+  } else if (scope === "mistakes") {
+    state.mistakes = [];
+    saveLocalState(state);
+  } else if (scope === "vocab") {
+    state.vocabulary = [];
+    saveLocalState(state);
+  } else if (scope === "drafts") {
+    state.examDrafts = {};
+    state.practiceDrafts = {};
+    saveLocalState(state);
+  }
+}

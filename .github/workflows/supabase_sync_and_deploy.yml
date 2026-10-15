@@ -1,0 +1,65 @@
+name: Automated Supabase to Edge Sync
+
+on:
+  # 1. 响应来自 Supabase Database Webhook 或 API 的自动触发事件
+  repository_dispatch:
+    types: [supabase_exam_sync, exam_updated]
+
+  # 2. 支持在 GitHub 仓库网页“Actions”标签页一键点击运行（随时手动测试）
+  workflow_dispatch:
+
+# 核心防护：启用全局并发排队锁，杜绝多个 Webhook 同时触发引起的 git push 竞态与失败告警邮件
+concurrency:
+  group: supabase-edge-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-and-deploy:
+    name: Sync Exams from Supabase to Cloudflare Edge Mirror
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Node Dependencies
+        run: npm install --prefer-offline --no-audit
+
+      - name: Execute Full Supabase Sync & 17-Assertion Quality Gate
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL || 'https://pghybspsjtzihpzpahcf.supabase.co' }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://pghybspsjtzihpzpahcf.supabase.co' }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnaHlic3BzanR6aWhwenBhaGNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3NjQ2OTgsImV4cCI6MjEwNTM0MDY5OH0.64uRYk9fCvrEfn4ifhk-PSd1ypGjVz_PTiHwgBPiHpM' }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          node scripts/sync_export_from_supabase.mjs
+
+      - name: Commit and Push Updated Static Exams to GitHub Main
+        run: |
+          if [ -n "$(git status --porcelain public/data)" ]; then
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/data
+            git commit -m "chore(sync): automated exam sync from Supabase [skip ci]"
+            git pull --rebase origin main || true
+            git push origin main
+            echo "✅ Successfully synced and pushed to main! Cloudflare Pages build triggered automatically."
+          else
+            echo "ℹ️ No changes detected in public/data, skipping commit."
+          fi

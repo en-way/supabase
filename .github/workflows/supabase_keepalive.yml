@@ -1,0 +1,35 @@
+name: Supabase 7-Day Anti-Pause Keepalive
+
+on:
+  schedule:
+    # Runs every 3 days at 04:00 UTC (12:00 Beijing Time)
+    - cron: '0 4 */3 * *'
+  workflow_dispatch: # Allows one-click manual test from GitHub Actions tab
+
+jobs:
+  keepalive:
+    name: Heartbeat Ping
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase PostgreSQL Database
+        env:
+          SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+        run: |
+          # Use secrets if configured in repository, or fall back to standard project anon credentials
+          URL="${SUPABASE_URL:-https://pghybspsjtzihpzpahcf.supabase.co}"
+          KEY="${SUPABASE_ANON_KEY:-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBnaHlic3BzanR6aWhwenBhaGNmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3NjQ2OTgsImV4cCI6MjEwNTM0MDY5OH0.64uRYk9fCvrEfn4ifhk-PSd1ypGjVz_PTiHwgBPiHpM}"
+          
+          echo "Sending lightweight keepalive query to Supabase: $URL..."
+          HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "apikey: $KEY" \
+            -H "Authorization: Bearer $KEY" \
+            "$URL/rest/v1/system_settings?select=id&limit=1")
+          
+          echo "Supabase responded with HTTP status code: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" -ge 200 ] && [ "$HTTP_STATUS" -lt 400 ]; then
+            echo "✅ Keepalive ping successful! 7-day inactivity pause counter has been reset."
+          else
+            echo "❌ Keepalive ping returned unexpected status: $HTTP_STATUS"
+            exit 1
+          fi
