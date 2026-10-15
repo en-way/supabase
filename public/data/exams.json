@@ -48,16 +48,16 @@
     ]
   },
   {
-    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
-    "category_id": "ky2",
-    "title": "2024年 全国硕士研究生招生考试 英语（二）真题",
+    "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+    "category_id": "ky1",
+    "title": "2024年 全国硕士研究生招生考试 英语（一）真题",
     "year": 2024,
     "exam_type": "real",
     "duration_minutes": 75,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-19T16:09:01.089647+00:00",
+    "created_at": "2026-09-19T16:08:57.17427+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -72,16 +72,16 @@
     ]
   },
   {
-    "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
-    "category_id": "ky1",
-    "title": "2024年 全国硕士研究生招生考试 英语（一）真题",
+    "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+    "category_id": "ky2",
+    "title": "2024年 全国硕士研究生招生考试 英语（二）真题",
     "year": 2024,
     "exam_type": "real",
     "duration_minutes": 75,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-09-19T16:08:57.17427+00:00",
+    "created_at": "2026-09-19T16:09:01.089647+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -144,30 +144,6 @@
     ]
   },
   {
-    "id": "cc4bf627-e456-538f-87e2-4a99ebb613ed",
-    "category_id": "ky2",
-    "title": "2022年 全国硕士研究生招生考试 英语（二）真题",
-    "year": 2022,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-10-02T14:12:25.356941+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
     "id": "6d676d85-a38a-5fe4-9506-31de03b648b6",
     "category_id": "ky1",
     "title": "2022年 全国硕士研究生招生考试 英语（一）真题",
@@ -192,10 +168,10 @@
     ]
   },
   {
-    "id": "e7dfeb60-9e71-5912-8e2c-0828e345b98c",
-    "category_id": "ky1",
-    "title": "2021年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2021,
+    "id": "cc4bf627-e456-538f-87e2-4a99ebb613ed",
+    "category_id": "ky2",
+    "title": "2022年 全国硕士研究生招生考试 英语（二）真题",
+    "year": 2022,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
@@ -240,10 +216,10 @@
     ]
   },
   {
-    "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
+    "id": "e7dfeb60-9e71-5912-8e2c-0828e345b98c",
     "category_id": "ky1",
-    "title": "2020年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2020,
+    "title": "2021年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2021,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
@@ -288,10 +264,10 @@
     ]
   },
   {
-    "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
+    "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
     "category_id": "ky1",
-    "title": "2019年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2019,
+    "title": "2020年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2020,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
@@ -336,10 +312,10 @@
     ]
   },
   {
-    "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
+    "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
     "category_id": "ky1",
-    "title": "2018年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2018,
+    "title": "2019年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2019,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
@@ -370,6 +346,30 @@
     "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
+    "category_id": "ky1",
+    "title": "2018年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2018,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -480,16 +480,16 @@
     ]
   },
   {
-    "id": "17ca33c3-66f2-5ae0-a1ba-847f507dd6e4",
-    "category_id": "ky2",
-    "title": "2015年 全国硕士研究生招生考试 英语（二）真题",
+    "id": "865e5af8-24a4-58e1-bc9e-640f32d8e946",
+    "category_id": "ky1",
+    "title": "2015年 全国硕士研究生招生考试 英语（一）真题",
     "year": 2015,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-10-09T15:07:11.336494+00:00",
+    "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -504,16 +504,16 @@
     ]
   },
   {
-    "id": "865e5af8-24a4-58e1-bc9e-640f32d8e946",
-    "category_id": "ky1",
-    "title": "2015年 全国硕士研究生招生考试 英语（一）真题",
+    "id": "17ca33c3-66f2-5ae0-a1ba-847f507dd6e4",
+    "category_id": "ky2",
+    "title": "2015年 全国硕士研究生招生考试 英语（二）真题",
     "year": 2015,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-10-02T14:12:25.356941+00:00",
+    "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -576,30 +576,6 @@
     ]
   },
   {
-    "id": "1ac5713f-fb5d-560f-a22a-3c5c3431d03f",
-    "category_id": "ky2",
-    "title": "2013年 全国硕士研究生招生考试 英语（二）真题",
-    "year": 2013,
-    "exam_type": "real",
-    "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
-    "is_published": true,
-    "created_at": "2026-10-09T15:07:11.336494+00:00",
-    "approval_status": "approved",
-    "created_by": null,
-    "questions": [
-      {
-        "count": 45
-      }
-    ],
-    "passages": [
-      {
-        "count": 6
-      }
-    ]
-  },
-  {
     "id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
     "category_id": "ky1",
     "title": "2013年 全国硕士研究生招生考试 英语（一）真题",
@@ -624,16 +600,16 @@
     ]
   },
   {
-    "id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
-    "category_id": "ky1",
-    "title": "2012年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2012,
+    "id": "1ac5713f-fb5d-560f-a22a-3c5c3431d03f",
+    "category_id": "ky2",
+    "title": "2013年 全国硕士研究生招生考试 英语（二）真题",
+    "year": 2013,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
     "pass_score": 36,
     "is_published": true,
-    "created_at": "2026-10-02T14:12:25.356941+00:00",
+    "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -672,10 +648,10 @@
     ]
   },
   {
-    "id": "111d6c78-81a1-53dc-a039-dad4c94ebd35",
+    "id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
     "category_id": "ky1",
-    "title": "2011年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2011,
+    "title": "2012年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2012,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
@@ -720,10 +696,10 @@
     ]
   },
   {
-    "id": "e5abf09b-e94d-5994-b944-7c5711cd4e4d",
+    "id": "111d6c78-81a1-53dc-a039-dad4c94ebd35",
     "category_id": "ky1",
-    "title": "2010年 全国硕士研究生招生考试 英语（一）真题",
-    "year": 2010,
+    "title": "2011年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2011,
     "exam_type": "real",
     "duration_minutes": 180,
     "total_score": 60,
@@ -754,6 +730,30 @@
     "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
+    "approval_status": "approved",
+    "created_by": null,
+    "questions": [
+      {
+        "count": 45
+      }
+    ],
+    "passages": [
+      {
+        "count": 6
+      }
+    ]
+  },
+  {
+    "id": "e5abf09b-e94d-5994-b944-7c5711cd4e4d",
+    "category_id": "ky1",
+    "title": "2010年 全国硕士研究生招生考试 英语（一）真题",
+    "year": 2010,
+    "exam_type": "real",
+    "duration_minutes": 180,
+    "total_score": 60,
+    "pass_score": 36,
+    "is_published": true,
+    "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
@@ -894,8 +894,8 @@
     "year": 2004,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -918,8 +918,8 @@
     "year": 2003,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -942,8 +942,8 @@
     "year": 2002,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -966,8 +966,8 @@
     "year": 2001,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 50,
-    "pass_score": 30,
+    "total_score": 60,
+    "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",

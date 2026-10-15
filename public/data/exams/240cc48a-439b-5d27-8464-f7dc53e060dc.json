@@ -474,6 +474,11 @@
       "stem": "Choose the best option for blank [12] in the passage:",
       "options": [
         {
+          "key": "A",
+          "text": "according to",
+          "value": "A"
+        },
+        {
           "key": "B",
           "text": "regardless of",
           "value": "B"
@@ -487,11 +492,6 @@
           "key": "D",
           "text": "instead of",
           "value": "D"
-        },
-        {
-          "key": "A",
-          "text": "according to",
-          "value": "A"
         }
       ],
       "correct_answer": "D",
@@ -809,11 +809,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "\n21.乔治•奥斯本计划旨在 \n°\n[A] encourage jobseekers, active engagement in job seeking\n［A］鼓励求职者积极寻找工作\n[B] provide the unemployed with easier access to benefits\n［B］给失业者提供更易获得的救济\n[C] guarantee jobseekers* legitimate right to benefits\n［C］保证求职者领取救济金的合法权益\n[D] motivate the unemployed to report voluntarily\nED］激励失业者主动报告\n［命题解密］正确项［A］结合②句计划内容，明确①句In order to uchange lives for the better\" and \nreduce udependencyw所述目的。\n［B］对①句change lives for the better断章取义，由②句可知：获得救济是\"更难\"、而非\"更易\"。［C］ \n对②句Only if. . . will they be eligible for benefit...反向干扰:该计划是在\"限制\"、而不是\"保障\"失业者 \n领取救济金的权利。［D］用②句they should report干扰，但这属于计划细节、不能体现整体目的，且文中 \n是\"强行规定（they should）、而非\"鼓励自愿（motivate. . . voluntarily）M<,\n［技巧总结］本题考查“新政目的”,且直接定位信息为抽象概述，解题时需结合新政的具体规定、针 \n对情形等加以理解把握，切忌断章取义。\n具体来看，答题时根据题干was intended to可直接锁定①句In order to,并确定**change lives for \nthe better\" and reduce \" dependency\"为正确项来源。但由于该表述抽象概括，所以应结合②句\"规定详 \n述”加以理解，确定［A］正确。排除对直接定位信息断章取义的［B］,错误",
+      "correct_answer": "A",
+      "explanation": "\n21.乔治•奥斯本计划旨在 \n°\n[A] encourage jobseekers, active engagement in job seeking\n［A］鼓励求职者积极寻找工作\n[B] provide the unemployed with easier access to benefits\n［B］给失业者提供更易获得的救济\n[C] guarantee jobseekers* legitimate right to benefits\n［C］保证求职者领取救济金的合法权益\n[D] motivate the unemployed to report voluntarily\nED］激励失业者主动报告\n［命题解密］正确项［A］结合②句计划内容，明确①句In order to uchange lives for the better\" and \nreduce udependencyw所述目的。\n［B］对①句change lives for the better断章取义，由②句可知：获得救济是\"更难\"、而非\"更易\"。［C］ \n对②句Only if. . . will they be eligible for benefit...反向干扰:该计划是在\"限制\"、而不是\"保障\"失业者 \n领取救济金的权利。［D］用②句they should report干扰，但这属于计划细节、不能体现整体目的，且文中 \n是\"强行规定（they should）、而非\"鼓励自愿（motivate. . . voluntarily）M<,\n［技巧总结］本题考查“新政目的”,且直接定位信息为抽象概述，解题时需结合新政的具体规定、针 \n对情形等加以理解把握，切忌断章取义。\n具体来看，答题时根据题干was intended to可直接锁定①句In order to,并确定change lives for \nthe better\" and reduce \" dependency\"为正确项来源。但由于该表述抽象概括，所以应结合②句\"规定详 \n述”加以理解，确定［A］正确。排除对直接定位信息断章取义的［B］,错误",
       "points": 2,
       "sort_order": 21,
-      "answer": "C"
+      "answer": "A"
     },
     {
       "id": "aad39c64-4399-51e9-91ae-5439e13bc52d",
@@ -844,11 +844,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "\n22. The phrase14to sign on\" ( Line 2, Para. 2) most probably \nmeans \n・\n22.第二段第二行的短语to sign on最 \n可能意为 \n。\n[A] to check on the availability of jobs at the jobcentre\n[A]到就业中心査看是否有T-作机会\n11\n \n\n［精准定位］由所考词所在句“失业最初几天应该用于找工作，而不是指望sign on”可知：sign on是 \n“找工作”的对立面。再结合上句“求职者需要经过七天的等待期才能申请津贴”及下句“之所以这样做, \n是要帮助人们远离救济”,可确定sign on指“登记领取政府津贴”,［C］正确。\n[B] to accept the government's restrictions on the allowance\n［B］接受政府对津贴的限制\n[C] to register for an allowance from the government\nEC］登记领取政府津贴\n[D] to attend a governmental job-training program\n［D］参加政府工作培训项目\n［命题解密］正确项［C］体现了 sign on 和 looking for workstay off benefitsget into work faster 之 \n间的对立，以及与the jobseeker's allowance的同向。\n［A］为第一段②句they should report weekly暗示信息，但这和“找工作”为同向关系、而非对立关 \n系。［E］ the government's restrictions on the allowance 与第二段②句同义，但\"接受这种限制 \n(accept...)”无法和\"找工作”构成对立。［D］ a governmental job-training program 源自第二段④help \nthose on benefits get into work fa",
       "points": 2,
       "sort_order": 22,
-      "answer": "A"
+      "answer": "C"
     },
     {
       "id": "c9d3fa78-329a-578f-9fb4-1e499e488ff8",
@@ -914,11 +914,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "\n24. According to Paragraph 3, being unemployed makes one \nfeel \n・\n24.根据第三段可知，失业会使人们感 \n到 \n。\n[A] uneasy\n［A］不安\n[B] insulted\n［B］受辱\n[C] enraged\nEC］愤怒\n[D] guilty\nCD］内疚\n［命题解密］正确项［A］ uneasy体现了第三段关键词汇hurting. . .financially terrifying... \npsychologically embarrassing.. . not wanted 所述失业者困境。\n［B］将①句hurting（痛苦的，受伤的）错误理解为insulted （被侮辱的，被冒犯的）。［C］对②句that \nsupport is minimal and extraordinarily hard to get过度推导：文中只说明实情\"失业金极低且极难获得”， \n未指出失业者感到愤怒。［D］对②句psychologically embarrassing断章取义：由③句解释可知，该短语并 \n非指“内疚感”而是“不被需要感”。\n［技巧总结］本题需要综合段中描述，概括出失业者心理。解题时可从两个方向同时入手：一，概括 \n相关内容，得岀正确项；二,关联段中信息，借助相关内容理解较为抽象晦涩、或容易产生歧义的表述，排 \n除断章取义或过度推导的选项。\n具体来看，解题时可首先综合第三段关键词hurting. .. financially terrifying... psychologically \nembarrassing. .. not wanted ...等，大概得出［A］ uneasy正确。随后可发现，文中与］B］insulted相关的信息 \n为hurting,但根据①句冒号后及②句对其解释，可发现并非此意。与［C］ enraged相关的信息为you know \nthat support is minimal and extraordinarily hard to get,但从中无法得知失业者的\"愤怒\"。与［D",
       "points": 2,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "1f718016-a5c2-5908-8b31-1f6b9eb3393b",
@@ -1265,7 +1265,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "\n34. According to Paragraph 4, which of the \nfollowing is true of the Nobels?\n34.第四段中有关诺贝尔奖的内容以下哪项正确？\n[A] History has never cast doubt on them.\n［A］历史从来没有怀疑过它们。\n[B] Their endurance has done justice to them.\n［B］它们延续至今的事实彰显出其真正价值。\n[C] They are the most representative honor.\n［C］它们是最具代表性的荣誉。\n[D] Their legitimacy has long been in dispute.\n［D］长期以来它们的合理性一直受到争议。\n［精准定位］第四段④句指出，诺贝尔奖和新奖项一样，当年也是由有钱的私人设立，⑤句随后表明： \n诺奖现在在人们心目中的正统地位及其合理性是经过时间的洗礼而成，与设立者的初衷无关。即，正是 \n“奖项延续至今”这一事实赋予了诺奖今天的尊贵品质，因此［B］正确。注:endurance意为“（时间上的） \n持久性，耐久力'' ;do justice to 此处意为 to reflect or express the worth of sth to full advantage**完全、彻 \n底地体现/发挥出某物的内在价值”。\n［命题解密］［B］是对第四段④⑤句内容的合理概括。选项endurance和has done justice to them分 \n别对应文中 Time 和 has given them legitimacy,,\n［A］与原文不符：虽然诺奖一直备受推崇，但第四段论述了新旧奖项的通病，③句提及“诺奖基金会 \n对获奖人数的限制”早已与时代脱节。［C］从“诺奖一直享有尊贵地位”过度推出“是最具代表性的荣 \n誉”,无法从第四段中找出佐证。［D］利用③句“对诺奖局限性的说明（人数不超三人，且都要健在）”设置 \n干扰，但段末最终肯定了诺奖：时间赋予其合理性地位，举世公认其价值",
+      "explanation": "\n34. According to Paragraph 4, which of the \nfollowing is true of the Nobels?\n34.第四段中有关诺贝尔奖的内容以下哪项正确？\n[A] History has never cast doubt on them.\n［A］历史从来没有怀疑过它们。\n[B] Their endurance has done justice to them.\n［B］它们延续至今的事实彰显出其真正价值。\n[C] They are the most representative honor.\n［C］它们是最具代表性的荣誉。\n[D] Their legitimacy has long been in dispute.\n［D］长期以来它们的合理性一直受到争议。\n［精准定位］第四段④句指出，诺贝尔奖和新奖项一样，当年也是由有钱的私人设立，⑤句随后表明： \n诺奖现在在人们心目中的正统地位及其合理性是经过时间的洗礼而成，与设立者的初衷无关。即，正是 \n“奖项延续至今”这一事实赋予了诺奖今天的尊贵品质，因此［B］正确。注:endurance意为“（时间上的） \n持久性，耐久力'' ;do justice to 此处意为 to reflect or express the worth of sth to full advantage完全、彻 \n底地体现/发挥出某物的内在价值”。\n［命题解密］［B］是对第四段④⑤句内容的合理概括。选项endurance和has done justice to them分 \n别对应文中 Time 和 has given them legitimacy,,\n［A］与原文不符：虽然诺奖一直备受推崇，但第四段论述了新旧奖项的通病，③句提及“诺奖基金会 \n对获奖人数的限制”早已与时代脱节。［C］从“诺奖一直享有尊贵地位”过度推出“是最具代表性的荣 \n誉”,无法从第四段中找出佐证。［D］利用③句“对诺奖局限性的说明（人数不超三人，且都要健在）”设置 \n干扰，但段末最终肯定了诺奖：时间赋予其合理性地位，举世公认其价值",
       "points": 2,
       "sort_order": 34,
       "answer": "B"
@@ -1370,7 +1370,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "\n37\n \n\n匹语篇分析二/\n第二段（过渡段）补充AAAS报告的生成背景。关键词为：In 2010o\n①\n句说明报告的缘起\n：国会要员对AAAS的要求—\n就\"如何维持美国在人文教育领域的领先地 \n位”做出报告。全句简化结构实为A asked B to. . . to. .. **为了……，A要求B做……”，套入即知具体要 \n求为“AAAS界定可供各级政府及其他机构采取的措施”、要求要旨为“维持美国在人文社科教育研究领 \n域的卓越地位”。时间词In 2010（本文写于2013年6月）反衬首段人文教育危机年深日久、根盘厚重、解 \n决难度之大‘leading... AAAS两者重量级身份暗传美国当局对该问题的重视程度。\n②③句说明报告的拟定机构：由各行业杰出人物组建而成的人文与社科科学委员会。In response \n呼应①句 asking,实现句群之间逻辑衔接;formed the Commission. . . , Among the commission's 51 \nmembers are...实现句群内部逻辑衔接。③句top-tier-university, prominent figures以委员会组成成员 \n的高精尖反衬AAAS为完成国会要员指示而做出的有力行动。\n【深层解读】本段为背景段：全段借助时间词（In 2010）、动词链（asking-In response）以及特定指代 \n（the commission）将AAAS报告的发起者“国会两党要员”、内容“界定各级政府及其他机构或人员可以 \n采取的行动”、要旨“以维持美国人文教育领先地位”、制作方“人文与社会科学委员会\"及制作方组成人 \n员“各行业杰出人物”一一呈现。\n•真题精解/\n37. Influential figures in the Congress required that the\nAAAS report on how to \n・\n37.国会重要人物要求美国人文与科学 \n院就如何 \n给出报告。\n[A] define the government's role in education\n［A］界定",
+      "explanation": "\n37\n \n\n匹语篇分析二/\n第二段（过渡段）补充AAAS报告的生成背景。关键词为：In 2010o\n①\n句说明报告的缘起\n：国会要员对AAAS的要求—\n就\"如何维持美国在人文教育领域的领先地 \n位”做出报告。全句简化结构实为A asked B to. . . to. .. 为了……，A要求B做……”，套入即知具体要 \n求为“AAAS界定可供各级政府及其他机构采取的措施”、要求要旨为“维持美国在人文社科教育研究领 \n域的卓越地位”。时间词In 2010（本文写于2013年6月）反衬首段人文教育危机年深日久、根盘厚重、解 \n决难度之大‘leading... AAAS两者重量级身份暗传美国当局对该问题的重视程度。\n②③句说明报告的拟定机构：由各行业杰出人物组建而成的人文与社科科学委员会。In response \n呼应①句 asking,实现句群之间逻辑衔接;formed the Commission. . . , Among the commission's 51 \nmembers are...实现句群内部逻辑衔接。③句top-tier-university, prominent figures以委员会组成成员 \n的高精尖反衬AAAS为完成国会要员指示而做出的有力行动。\n【深层解读】本段为背景段：全段借助时间词（In 2010）、动词链（asking-In response）以及特定指代 \n（the commission）将AAAS报告的发起者“国会两党要员”、内容“界定各级政府及其他机构或人员可以 \n采取的行动”、要旨“以维持美国人文教育领先地位”、制作方“人文与社会科学委员会\"及制作方组成人 \n员“各行业杰出人物”一一呈现。\n•真题精解/\n37. Influential figures in the Congress required that the\nAAAS report on how to \n・\n37.国会重要人物要求美国人文与科学 \n院就如何 \n给出报告。\n[A] define the government's role in education\n［A］界定",
       "points": 2,
       "sort_order": 37,
       "answer": "D"
@@ -1475,7 +1475,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "\n40\n \n\n一比对以判断对错”：先根据各选项核心关键词（[A] American history ^[B] subjects^ [C] emerging \ntechnologies、[D] foreign languages）分别定位②句、③句、②句、④句；再仔细比对原文发现[A] \nexclusive篡改particularly之意、[B] theoretical无从对应、[D]funding（源自③句而非④句，其）对象实 \n为 teachers而非 study of foreign languages,唯有[C] application 对应 use、emerging 对应 digital,故 \n正确。\nIV ❶ Unfortunately, despite 2 % years in the \nmaking, “The Heart of the Matter** never gets to the \nheart of the matter： the illiberal® nature of liberal \neducation at our leading colleges and universities. ©The \ncommission ignores that for several decades America's \ncolleges and universities have produced graduates who \ndon't know the content and character of liberal education \nand are thus deprived② of its benefits・ ❸ Sadly, the spirit \nof inquiry® once at home on campus has been replaced by \nthe use of the humanities and social sciences as vehicles* \nfor publicizing \"\"progressive®\n\n【选项释义与词汇辨析】\n[D] foreign languages: ）分别定位②句、③句、②句、④句；再仔细比对原文发现",
+      "explanation": "\n40\n \n\n一比对以判断对错”：先根据各选项核心关键词（[A] American history ^[B] subjects^ [C] emerging \ntechnologies、[D] foreign languages）分别定位②句、③句、②句、④句；再仔细比对原文发现[A] \nexclusive篡改particularly之意、[B] theoretical无从对应、[D]funding（源自③句而非④句，其）对象实 \n为 teachers而非 study of foreign languages,唯有[C] application 对应 use、emerging 对应 digital,故 \n正确。\nIV ❶ Unfortunately, despite 2 % years in the \nmaking, “The Heart of the Matter never gets to the \nheart of the matter： the illiberal® nature of liberal \neducation at our leading colleges and universities. ©The \ncommission ignores that for several decades America's \ncolleges and universities have produced graduates who \ndon't know the content and character of liberal education \nand are thus deprived② of its benefits・ ❸ Sadly, the spirit \nof inquiry® once at home on campus has been replaced by \nthe use of the humanities and social sciences as vehicles* \nfor publicizing \"\"progressive®\n\n【选项释义与词汇辨析】\n[D] foreign languages: ）分别定位②句、③句、②句、④句；再仔细比对原文发现",
       "points": 2,
       "sort_order": 40,
       "answer": "A"
@@ -1731,5 +1731,5 @@
       "answer": "G"
     }
   ],
-  "exportedAt": "2026-10-13T00:01:48.144Z"
+  "exportedAt": "2026-10-15T11:04:56.217Z"
 }

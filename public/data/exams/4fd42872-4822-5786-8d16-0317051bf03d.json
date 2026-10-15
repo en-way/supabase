@@ -129,6 +129,11 @@
           "value": "A"
         },
         {
+          "key": "B",
+          "text": "restricted",
+          "value": "B"
+        },
+        {
           "key": "C",
           "text": "equal",
           "value": "C"
@@ -137,11 +142,6 @@
           "key": "D",
           "text": "inferior",
           "value": "D"
-        },
-        {
-          "key": "B",
-          "text": "restricted",
-          "value": "B"
         }
       ],
       "correct_answer": "C",
@@ -284,11 +284,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "\n6. [A] of \n[B] in \n[C] at \n[D] on\n[考点提炼]句内语义+介词搭配。\n[解题思路]空格处介词表示“感知到社会支持和受到拥抱的影响”与“参与者对感冒的易感性”两者之 \n间的关系，由上段末句“一个热烈的拥抱有助于人们在这个冬天避免生病”可知，研究人员测试的应该是“社会 \n支持与拥抱”对'感冒易感性”的影响,选项中能够与effects连用，引出受影响的对象的介词只有on,[D]正确。\n[错项排除][A] of 置于空格处，只能表示 the participants' susceptibility 与 the receipt of hugs 之间 \n的关系，即“得到参与者易感性的拥抱”，显然不合逻辑。[B] in表“方位”；[C] at表“方位”或“时间”，此 \n两项均无法与effects搭配引出受影响的对象。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "A"
+      "answer": "D"
     },
     {
       "id": "a5c79807-7580-51d2-9887-68d91c1855de",
@@ -589,14 +589,14 @@
           "value": "B"
         },
         {
-          "key": "D",
-          "text": "record",
-          "value": "D"
-        },
-        {
           "key": "C",
           "text": "generate",
           "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "record",
+          "value": "D"
         }
       ],
       "correct_answer": "C",
@@ -809,11 +809,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "\n21. The crash of EgyptAir Flight 804 is mentioned to\n21.文中提及埃及航空804航班是为了\nO\n[A] explain American's tolerance of current security checks\n［A］解释美国民众对于现行安检的容忍\n[B] stress the urgency to strengthen security worldwide\nCB］强调加强全球安全的紧迫性\n[C] highlight the necessity of upgrading major U. S. airports\n［C］强调美国主要机场升级的必要性\n[D] emphasize the importance of privacy protection\n［D］强调隐私保护的重要性\n［精准定位］由题干中 The crash of EgyptAir Flight 804 定位至第二段②句。provides another tragic \nreminder of why表明①②句间的“结果一原因”关联：埃及航空坠机的悲剧提醒人们航空旅行存在风险， \n所以美国人愿意忍受费时的安检程序来换取安全保障。故［A］正确。\n［命题解密］题干+正确项［A］是对第二段①②句内容的概括，其中explain与②句provides... \nreminder of why 均表不\"解释原因\"之意,tolerance of current security checks 复现①句 tolerate time­\nconsuming security procedures；,\n［B］—方面将②句空难传达的“航空旅行安全问题”放大为“全球安全问题”，另一方面无视上下文， \n从安全问题顺势推出作者\"急切呼吁加强安全\"。［C］从第五段①句remodeling airports推出\"作者建议 \n改造机场来预防安全事故”，但首先该句围绕的是“无需改造机场或……的一项措施”，其次该举措是基 \n于“安检费时问题”而非“航空安全问题”。\n［D］将第二段末句privat",
       "points": 2,
       "sort_order": 21,
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "88936908-fa32-5b14-aa3c-efbc622a17ee",
@@ -879,11 +879,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "\n23. The word\"expedited\" (Line 4, Para. 5) is closest \nin meaning to \n.\n23. expedited（第五段，第四行）一词词义最接近\nO\n[A] quieter\n［A］更安静的\n[B] cheaper\n［B］更便宜的\n[C] wider\nEC］更宽的\n[D] faster\n［D］更快的\n［精准定位］第五段③句介绍预检计划的具体内容，即“通过背景调查的乘客可使用'特殊，安检通 \n道”，④句指出预检计划（背景调查）筛选出来的“高风险乘客”成为TSA重点检查的对象，最终“为所有 \n人节省时间”，可见expedited的词义应与“节省时间”有关，［D］正确。\n［命题解密］正确项［D］表示时间，与预检计划的预期效果“节省时间”以及全文话题“安检时间费 \n时”相符。\n［A］由“旅客人数激增”及“通过预检的乘客有权走某种特殊通道”主观臆断而来，但通道“安静与否” \n与“解决安检费时问题”并无关联。［B］借第四段末句“旅客想规避行李托运费”以及第六段所述预检计 \n划“收费过高”这一问题进行干扰，但文中并未提及“机场安检通道需要收取费用”。［C］由第四段only so \nmuch room for screening lanes而来，但原文旨在说明\"机场空间限制导致安检通道数量不足\"，而非\"安 \n检通道的宽度不够”。\n［技巧总结］词义推断题关键要找到文中提示性的内容，根据语义或逻辑关系推断词义。第五段③ \n④句通过分别介绍两种乘客的待遇“通过背景调查的乘客可使用'特殊'安检通道，（背景调查有问题的） \n高风险乘客成为TSA重点关注对象”说明预检计划的预期效果：为所有人节省时间。由“节省时间”反 \n观“特殊”通道，可知预检计划分担了一部分安检压力，简化了通过预检的乘客的安检程序，从而为这类 \n乘客节省时间，故faster最接近expedited词义。\nVI ❶It has not gotten anywhere close to that, and \none big reason is sticker shock® : ",
       "points": 2,
       "sort_order": 23,
-      "answer": "B"
+      "answer": "D"
     },
     {
       "id": "8ca97158-61a6-5417-b5fe-afb3ad93b9df",
@@ -949,11 +949,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "\n25. Which of the following would be the best title for the text?\n25.下列哪项最适合作本文的标题？\n[A] Less Screening for More Safety\n［A］为了更多安全，少些安检\n[B] PreCheck-一a Belated Solution\n［B］预检 \n迟来的措施\n[C] Getting Stuck in Security Lines\n［C］被困在安检队伍的长龙里\n[D] Underused PreCheck Lanes\n［D］未被充分利用的预检通道\n［精准定位］首段提出问题“机场安检越来越费时”,第二段分析问题影响“对个人生活和经济都是拖 \n累”，第三、四段分析问题产生的原因，第五至七段针对问题提出解决建议，因此全文围绕“安检等候时间 \n太长、旅客不堪其苦”这一问题展开论述，［C］正确。\n［命题解密］正确项［C］是对全文中心问题的概括.Security lines贯穿全文,Getting stuck（困住）形 \n象刻画“乘客被困在安检长龙里无能为力”的情形，符合作者对问题“日益严峻、棘手，亟待解决”的论述。\n［A］中Screening,Safety都是文中关键词，但for More Safety表明选项重心在于\"安全\"，此标题下的 \n论述应该围绕“如何加强航空旅行安全（建议少一些安检，以实现更大安全）”展开，显然偏离本文问题 \n\"如何解决安检耗时问题\"。［B］中Belated看似符合末段long past time to make the program work,但文 \n中“迟来的”实为“安检计划的作用”，而非“安检计划''本身，该计划本就存在，只是价格过高导致其一直 \n没有得到有效利用。［D］和第七段①句信息有所重合，符合第六段“预检计划纳入人数远未达到预期目 \n标”，但选项内容只是全文论述过程中的“解决问题”环节，无力涵盖全篇。\n［技巧总结］主旨题的解答需要先梳理全文脉络，过滤出主题后首先从选项中寻找对应内容；而主 \n旨题难点主要在于干扰项的排除，解答时可以借助“反向思\n\n【选项释义与词汇辨析】\n[B] PreCheck: 一a Belated Solution",
       "points": 2,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "C"
     },
     {
       "id": "9fefcf1b-e4f5-5f6c-8a84-b54cbdfb4806",
@@ -965,27 +965,27 @@
       "options": [
         {
           "key": "A",
-          "text": "has deepened readers' reliance on curated search engines",
+          "text": "her conservative view on the historical role of astronomy",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "has made readers less capable of critical evaluation",
+          "text": "the importance of astronomy in ancient Hawaiian society",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "has encouraged online readers to scan texts superficially",
+          "text": "the regrettable decline of astronomy in ancient times",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "has distracted readers with personalized advertising",
+          "text": "her appreciation of star watchers' feats in her time",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "\n26\n\n[D] will eventually soften Hawaiians, hostility\n［D］将最终缓和夏威夷人的敌意\n［精准定位］第五段①句以“科学也有其文化历史”指出天文学和夏威夷文化具有相通之处，②③④ \n句具体说明相通之处：探索人（天文学家&古代夏威夷人）好奇心相同、都在试图解答相同人类本源问 \n题（我们是谁？从哪里来？到哪里去？）、文化使命一致（了解自己以及祖先的真正家园）。由此可知，当 \n今天文学的进步实质上能够圆了古代夏威夷人的梦想，故［A］正确。\n［命题解密］题干+正确项［A］“天文学是在实现古代夏威夷人的梦想”是对第五段主旨“天文学与古 \n夏威夷人都有探索精神，都寻求回答有关人类本源的问题、文化使命一致”的合理引申。\n［B］将②句“探索的好奇心将早期波利尼西亚人带到夏威夷海岸，同样的好奇心也激励着天文学家 \n探索星空”曲解为“天文学进步有助于将夏威夷文化传播到世界各地”，而该句旨在说明“天文学家与古 \n代夏威夷人之间的相通之处”而非“夏威夷文化的传播问题”。［C］首先将③句Hawaiian culture... \nwhere we come from and where we are going断章取义为\"夏威夷文化的起源问题\"，再借astronomy and \nHawaiian culture both seek to...将文意\"天文学与夏威夷文化在本质使命上具有相通之处\"扭曲为\"天 \n文学能够揭示夏威夷文化的起源”。［D］将③句“天文学与夏威夷文化都在探索相同人类本源问题”主观 \n臆断出“天文学的进步将缓和夏威夷人的敌意”，而这实为作者期冀的结果，并非事实。\n［技巧总结］本题既考查对文中细节的概括推理，也考查对段落主旨的理解。解答此类题关键在于 \n搞清段落中各句/句群与段落主旨的关系，正确项是对段落主旨的高度概述，具有抽象性，不宜接对应原 \n文字句，而是其思想内容的升华。干扰项虽然通常是对文中某一信息的推导，但都偏离/背离段落主旨。\n以此题为例，［A］是对第五段主旨“天文学与夏威夷文化根本上是相通的：都具有探索未知世界的好 \n奇",
+      "explanation": "［精准定位］①句直引利留卡拉尼女王之言“古代夏威夷人都是天文学家”，②句随后解释“古代夏威夷社会观星师极受尊敬”。借由两句间“观星师与天文学家、天文学与天文学家、受尊敬与受重视”的语义关联可推断，女王之言实质表明了天文学家在古代夏威夷社会中的重要性，［B］正确。\n［命题解密］正确项［B］是对①②句的合理推断，其中the importance对应the most esteemed。\n［A］conservative利用惯性思维制造干扰，与①②句传达的女王对“古代天文学家备受重视，即天文学在古代有重要作用”毫无保留的肯定态度相悖。［C］将③④句暗含之今日情形“夏威夷天文学地位衰落（decline）偷换为女王之言所表古代情形。［D］利用②句Star watchers the most esteemed过度推导出“观星师因技艺高超、功勋卓著受到女王的赞赏”，且in her time（女王所处时代）与①句引言中ancient, were等词表明的信息“在女王生活时代之前的古代时期”明显相悖。",
       "points": 2,
       "sort_order": 26,
       "answer": "B"
@@ -1000,27 +1000,27 @@
       "options": [
         {
           "key": "A",
-          "text": "readers tend to seek out views confirming their biases",
+          "text": "its geographical features",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "most online platforms lack content moderation rules",
+          "text": "its protective surroundings",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "young readers are more susceptible to fake stories",
+          "text": "its religious implications",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "algorithmic recommendations amplify political polarities",
+          "text": "its existing infrastructure",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "\n27.莫纳克亚山因 \n被视为一个理\n想的天文观测场地。\n[A] its geographical features\n［A］其地理特征\n[E] its protective surroundings\nEB］其防护性环境\n[C] its religious implications\n［C］其宗教意义\n[D] its existing infrastructure\n［D］其现有基础设施\n［精准定位］第二段②句“莫纳克亚山也是数台世界顶尖级望远镜落脚之处”暗示该山是理想的天 \n文观测场地；③句“该山山顶高耸于我们人类星球稠密大气层之上，其条件/环境非常有助于望远镜获取 \n无比清晰的图像”则表明该山独特的地理特征非常适宜天文观测。故［A］正确。\n［命题解密］题干+正确项是对②③句的合理推断。题干中an ideal astronomical site正确概括 \nhome to some of the world's most powerful telescopes,images of unsurpassed clarity,因果关联词 due to \n对应使动词（where conditions） allow;正确项则是对 Mauna Kea's peak rises above. .. dense \natmosphere...的概括。\n［B］将③句“地处太平洋中”曲解为“四面环海有助于保护天文观测台”，而文意实为“该地理条件有 \n利天文观测”。［C］源自①句“莫纳克亚山之于夏威夷人的宗教意义”，而它实为“夏威夷人反对在山上建 \n造望远镜、开展天文事业的原因”而非“该山被视为理想天文观测场地的原因”°［D］由②句“莫纳克亚山 \n上已坐落数台世界顶尖级望远镜”过度推断出“这种现有基础设施的存在使得该山成为理想天文观测场 \n地”，而事实是“这种现状反衬出该山可视为理想天文观测之处”。\n［技巧总结］本题就“涉及复杂关系的文中内容（第二段阐述莫纳克亚山对矛盾双方的意义）”命制因 \n果细节题。对于这类题的解答应：1.根据题干关键词锁定考查对象（矛盾双方中的哪一方）；2.借助逻辑 \n词将语义",
+      "explanation": "［精准定位］根据Mauna Kea定位至第二段。①句直陈莫纳克亚山为全球天文学研究重地，②句进而说明原因：气候干燥、没有光污染、高出空气对流层且空气稀薄；由此可知，莫纳克亚山是因其自身优越的地理环境成为绝佳天文观测台址，［A］正确。\n［命题解密］正确项［A］是对②句其地理环境优势的概括归纳。\n［B］利用②句“空气稀薄、位于对流层之上”制造干扰，认为其具有“保护性周边环境”，但莫纳克亚山周边为无边海洋，并未有起保护作用的周边环境，且②句所述条件为该山本身特性，并非“周围事物赋予其的保护特征”。［C］利用③句Sacred Mount和has deep religious meaning干扰，但这是夏威夷原住民视其为圣地、反对修建TMT的原因，并非天文学界选择其为天文台址的原因。［D］将②句“十几座巨型望远镜已立于该山”偷换为“现有的完备基础设施”。",
       "points": 2,
       "sort_order": 27,
       "answer": "A"
@@ -1031,31 +1031,31 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The construction of the TMT is opposed by some locals",
+      "stem": "The construction of the TMT is opposed by some locals partly because",
       "options": [
         {
           "key": "A",
-          "text": "verify information across diverse independent sources",
+          "text": "it may risk ruining their intellectual life",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "refrain from commenting on unconfirmed reports",
+          "text": "it reminds them of a humiliating history",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "rely primarily on professional journalists' judgment",
+          "text": "their culture will lose a chance of revival",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "report misleading content to regulatory bodies",
+          "text": "they fear losing control of Mauna Kea",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "\n28. The construction of the TMT is opposed by some locals \npartly because \n・\n2& —些当地人反对建设TMT的部分 \n原因是 \nO\n[A] it may risk ruining their intellectual life\n［A］它可能会破坏他们的精神生活\n[E] it reminds them of a humiliating history\n［B］它让他们回想起屈辱的历史\n[C] their culture will lose a chance of revival\n［C］他们的文化将失去一次复兴机会\n[D] they fear losing control of Mauna Kea\n［D］他们害怕失去对莫纳克亚山的控制\n［命题解密］正确项［B］是对第三段②句 viewed their presence as. . . a painful reminder of the \noccupation of what was once a sovereign nation 的合理概括。\n［A］将第三段②句“望远镜亵渎圣地”曲解为“破坏当地人精神生活”，而文意实为“影响宗教生活”。\n［C］源自第四段末句 Hawaiian cultures living culture undergoing a renaissance,而文意实为\"抗议者指控 \n天文学家没有认真对待夏威夷文化，指控他们将其视为死文化、没意识到它是正在历经复兴的活文化”， \n选项将肯定之意“夏威夷文化正在复活”曲解为“夏威夷文化将失去复兴机会”。［D］由第三段②句“曾经 \n的主权国家遭到占领”首先捏造出“失去对莫纳克亚山的控制，然后推导出“当地人害怕失去对莫纳克 \n亚山的控制”，而文中并未涉及到对该山的控制问题，当前争议焦点并不在莫纳克亚山的控制/归属问 \n题，而在其使用问题。\n24\n\n[技巧总结]本题针对“反对者多个反对意见/理由”命制因果细节题，考查“某一意见/理由”。解答 \n此题时应：1.由题干关键词划定被考查段落（群）；2.",
+      "explanation": "［精准定位］第三段①句以“抗议者认为在莫纳克亚山顶修建望远镜不仅亵渎圣山、而且也是对夏威夷主权的侵犯”引出反对原因。②③句进而说明抗议者眼中“侵犯夏威夷主权”具体含义：强迫夏威夷放弃其主权并被美国吞并，给其带来屈辱历史，而建立TMT不仅会加剧历史苦痛、而且勾起痛苦回忆；由这些信息可知，建立TMT勾起当地人屈辱历史的回忆是其反对修建TMT的原因之一，［B］正确。\n［命题解密］正确项［B］是对第三段②③句内容的合理概括，其中a humiliating history对应③句a painful history of ... annexation。\n［A］将第三段①句“夏威夷原住民正在为追求自身文化、历史以及知性生活的复兴而斗争”曲解为“TMT的修建会毁掉其知性生活”。［C］颠倒第三段①句逻辑，文中指出原住民为了复兴自身文化而反对修建TMT，并非修建TMT使其文化丧失复兴机会。［D］过度推断，当地人反对修建TMT旨在保护圣山和唤醒夏威夷主权意识，并不存在“惧怕失去莫纳克亚山控制权”这一担忧。",
       "points": 2,
       "sort_order": 28,
       "answer": "B"
@@ -1066,31 +1066,31 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It can be inferred from Paragraph 5 that progress in",
+      "stem": "It can be inferred from Paragraph 5 that progress in today's astronomy",
       "options": [
         {
           "key": "A",
-          "text": "readers' flawed comprehension habits",
+          "text": "is fulfilling the dreams of ancient Hawaiians",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "the malicious intent of fringe bloggers",
+          "text": "helps spread Hawaiian culture across the world",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "the commercial pressure on traditional newspapers",
+          "text": "may uncover the origin of Hawaiian culture",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "the absence of legal penalties on disinformation",
+          "text": "will eventually soften Hawaiians' hostility",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "\n29. It can be inferred from Paragraph 5 that progress in \ntoday's astronomy \n・\n29.从第五段可以推断，今天天文学取 \n得的进步 \n。\n[A] is fulfilling the dreams of ancient Hawaiians\n[A]正在实现古代夏威夷人的梦想\n[E] helps spread Hawaiian culture across the world\n[B]帮助夏威夷文化传播到世界各地\n[C] may uncover the origin of Hawaiian culture\n[C]可能会揭示夏威夷文化的起源\n26\n\n[D] will eventually soften Hawaiians, hostility\n［D］将最终缓和夏威夷人的敌意\n［精准定位］第五段①句以“科学也有其文化历史”指出天文学和夏威夷文化具有相通之处，②③④ \n句具体说明相通之处：探索人（天文学家&古代夏威夷人）好奇心相同、都在试图解答相同人类本源问 \n题（我们是谁？从哪里来？到哪里去？）、文化使命一致（了解自己以及祖先的真正家园）。由此可知，当 \n今天文学的进步实质上能够圆了古代夏威夷人的梦想，故［A］正确。\n［命题解密］题干+正确项［A］“天文学是在实现古代夏威夷人的梦想”是对第五段主旨“天文学与古 \n夏威夷人都有探索精神，都寻求回答有关人类本源的问题、文化使命一致”的合理引申。\n［B］将②句“探索的好奇心将早期波利尼西亚人带到夏威夷海岸，同样的好奇心也激励着天文学家 \n探索星空”曲解为“天文学进步有助于将夏威夷文化传播到世界各地”，而该句旨在说明“天文学家与古 \n代夏威夷人之间的相通之处”而非“夏威夷文化的传播问题”。［C］首先将③句Hawaiian culture... \nwhere we come from and where we are going断章取义为\"夏威夷文化的起源问题\"，再借astronomy and \nHawaiian culture both seek to...将文意",
+      "explanation": "［精准定位］第五段①句以“科学也有其文化历史”指出天文学和夏威夷文化具有相通之处，②③④句具体说明相通之处：探索人（天文学家&古代夏威夷人）好奇心相同、都在试图解答相同人类本源问题（我们是谁？从哪里来？到哪里去？）、文化使命一致（了解自己以及祖先的真正家园）；末句进而借引言指明今日天文学对古代夏威夷文化的继承发展：古代夏威夷人敢于在太平洋上开拓探索，当代天文学家正继承这一精神开拓星空；由这些信息可知，今日天文学的发展正在实现古代夏威夷人的梦想，［A］正确。\n［命题解密］正确项［A］是对第五段⑤句引言中“两代人都在开拓探索（voyage）”深层内涵的合理引申推断。\n［B］过度推导，天文学探索的是“人类重大起源问题”，并非致力于“传播夏威夷文化”。［C］将③句“追寻人类共同家园、探求人类本源问题”偷换为“探求夏威夷文化起源”。［D］主观臆断，文中末两段着力阐述天文学与夏威夷文化的相通之处，但并未提及“这是否会缓和当地人敌意”。",
       "points": 2,
       "sort_order": 29,
       "answer": "A"
@@ -1101,7 +1101,7 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author's attitude toward choosing Mauna Kea as the",
+      "stem": "The author's attitude toward choosing Mauna Kea as the TMT site is one of",
       "options": [
         {
           "key": "A",
@@ -1125,7 +1125,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "\n30. The author's attitude toward choosing Mauna Kea as the \nTMT site is one of \n・\n30.对选择莫纳克亚山作为TMT台址， \n作者持 \n的态度。\n[A] severe criticism\n［A］严厉批评\n[B] passive acceptance\n［B］被动接受\n[C] slight hesitancy\n［C］些许犹豫\n[D] full approval\n［D］完全赞同\n［精准定位］第一段以Sadly引出天文学TMT项目进展不顺，体现作者的同情遗憾之意；第五段③ \n④句指出抗议者忽视了“天文学家和夏威夷文化都在探索相同重大问题”这一现实，体现作者支持天文 \n探索事业的立场：天文学与夏威夷文化本源相通，并不存在难以化解的矛盾，天文事业的进步有助于解 \n答夏威夷文化所探索的问题;末段④句指出完全有理由欢迎任何人来莫纳克亚山探索星空，明确作者态 \n度：完全支持天文学家。［D］正确。\n［命题解密］正确项［D］是对文中 Sadlyignore the reality、There is no reason why everyone cannot be \n28\n\nwelcomed on Mauna Kea等信息所传递出的作者对TMT选址于莫纳克亚山态度的正确解读。\n[A]将第三、四段所述抗议者态度“强烈抗议”偷换为作者态度。将第三、四段“抗议者呼 \n声：望远镜亵渎圣山/勾起屈辱历史的回忆、天文学家自我/无视莫纳克亚山的脆弱生态环境及其在当地 \n人中的神圣性”与第五、六段“天文学所探讨的问题有助于解答人类重大本源问题，而且天文学界正在做 \n出相应让步”结合，将作者态度分别扭曲成：1.虽然莫纳克亚山上的望远镜百般不好，但其铸就的天文事 \n业进步将有助于人类文明发展，故被动接受（无奈接受）；2.鉴于天文事业的重大意义，其某些方面的不 \n良影响可大而化小，故些许犹豫（大体支持）。\n[技巧总结]本文以“作者态度题”之形，实质考查对文章主旨的把握。解答此类题时应：1.注重开 \n篇，从开篇把握作者情感基调；2.结合",
+      "explanation": "［精准定位］第一段以Sadly引出天文学TMT项目进展不顺，体现作者的同情遗憾之意；第五段③④句指出抗议者忽视了“天文学家和夏威夷文化都在探索相同重大问题”这一现实，体现作者支持天文探索事业的立场：天文学与夏威夷文化本源相通，并不存在难以化解的矛盾，天文事业的进步有助于解答夏威夷文化所探索的问题;末段④句指出完全有理由欢迎任何人来莫纳克亚山探索星空，明确作者态度：完全支持天文学家。［D］正确。\n［命题解密］正确项［D］是对文中 Sadly、ignore the reality、There is no reason why everyone cannot be welcomed on Mauna Kea等信息所传递出的作者对TMT选址于莫纳克亚山态度的正确解读。",
       "points": 2,
       "sort_order": 30,
       "answer": "D"
@@ -1160,7 +1160,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "31. Robert F. Kennedy is cited because he\n\n・\n\n31.文中援引罗伯特• F・肯尼迪是因为他\n\n。\n\n[A] praised the UK for its GDP\n\n【A】赞扬了英国的GDP\n\n[B] identified GDP with happiness\n\n【B】认为GDP等同于幸福\n\n[C] misinterpreted the role of GDP\n\n【C】误解了 GDP的作用\n\n[D] had a low opinion o£ GDP\n\n【D】对GDP评价低\n\n【精准定位】由题干中人名关键词Robert F. Kennedy定位到第一段。该段首句指出Kennedy观\n\n点：GDP可衡量一切，除了那些令人生真正有价值的东西（即GDP存在巨大缺陷）。②句以英国看似不\n\n可理解的做法“明知GDP会减缓却还执意脱欧”暗证Kennedy观点正确性，并进而引出话题“是时候评\n\n定Kennedy的GDP论了”。可知，作者引用意在正向立意：GDP有极大局限性，【D】正确。\n\n【命题解密】正确项【D】中 had a low opinion 是对 everything except that which makes life worthwhile\n\n“明褒实贬”态度的明确。\n\n【A】干扰源自第二段④句，但该句是在介绍GDP的最新计算结果，且随后一句对其进行了质疑，并\n\n非表明肯尼迪对英国GDP的赞扬。【B】将肯尼迪“认为GDP不能衡量幸福”改为与之相悖的“将GDP\n\n等同于幸福”。【C】将作者对肯尼迪观点的“赞同”改为“否定”：首段②句以及第二段④⑤句暗含作者观\n\n点“GDP不能反映实际民生状况”，即赞同肯尼迪观点。\n\n30\n\n【技巧总结】本题就“开篇所引人物话语”设置写作目的题，间接考查“人物观点”与“文章主旨/作者\n\n观点”的关系。解题时应首先分析开篇段句际逻辑、初步得出正确项；随后借助下文进行检验、最终确定\n\n答案。需注意选项陷阱：文中特殊句式、与人物观点无直接关系的文中内容。\n\n具体来看，首先可发现第一段逻辑“①句介绍Kennedy观点（GDP有重大缺陷）—\n\n②句以英国脱\n\n欧事件提出应认真考量Kennedy观点”，初步确定本文开篇属于“正向援引”，目的在于借他人话语表明\n\n作者探讨对象，【D】很可能正确。再粗略浏览后文（尤其是第二段）进行验证，可确定答案为【D】。【A】利\n\n用与肯尼迪观点没有直接关系的内容形成干扰，【B】利用特殊否定句式except that which...制造陷阱，\n\n【C】错误理解②句所暗示的作者态度，均排除。\n\nII O The question of GDP and its usefulness has\n\nannoyed® policymakers for over half a century. ❷ Many\n\nargue that it is a flawed② concept. ❸ It measures things\n\nthat do not matter and misses things that do. ❹ By most\n\nrecent measures? the UK's GDP has been the envy of the\n\nWestern world? with record③ low unemployment and high\n\ngrowth figures. ❺ If everything was going so well, then\n\nwhy did over 17 million people vote for Brexit, despite the\n\nwarnings about what it could do to their country's\n\neconomic prospects?\n\nGDP及其效用问题已困扰政策制定\n\n者们半个多世纪。很多人坚称这是个有缺\n\n陷的概念。它衡量并不重要的东西，却遗\n\n漏真正重要的东西。根据最新评估，英国\n\n的GDP —直是西方世界羡慕的对象，失业\n\n率有史以来最低，增长值有史以来最高。\n\n倘若一切都进展得如此喜人，那为何尽管\n\n已有警示表明脱欧将会影响本国经济，还\n\n是有1700多万人投票支持脱欧？\n\n:•词汇注释与难句分析:也\n\n©annoy 【a'noi】 v.使恼怒，使生气\n\n》®be the envy of （是令某人羡慕/嫉妒的事物）\n\n② 伽wed Efloid】 Q.有错误的，有缺点的\n\n§ ②vote for （投票支持）\n\n③ record 【'rek□:rd】 a.创纪录的，空前的\n\nf ③economic prospect （经济前景）\n\n•经典搭配\n\nI\n\n•语篇分析• 1也\n\n第二段正式入题：回顾多年来政策制定者对GDP的质疑，并聚焦当前英国脱欧、指出GDP确有误导\n\n性。关键词为:a flawed concepto\n\n①②③句回溯政策制定者对GDP的长期质疑（言外深意：\"GDP有严重缺陷”是众多政策制定者多年\n\n反思沉淀得出的结论）。两组代词回指 GDP... its... it.. . It.,. /policymakers... Many （policymakers）...及\n\n一组\"缺陷'‘相关词汇annoyed. . . flawed. . . misses...在三句间形成语意递进。\n\n① 句概述指出GDP及其效用问题已经困扰政策制定者多年。has annoyed policymakers、for over\n\nhalf a century将首段“肯尼迪对GDP的质疑”提升到“众多政策制定者长期备受困扰的问题”，实现话题\n\n延展并凸显问题严重性。\n\n② 句进一步说明政策制定者观点：GDP概念本身便有缺陷。Many（policymakers）凸显GDP质疑者\n\n众多。argue （**论证，争辩”）蕴含强烈辩驳色彩，暗示反方观点存在（指向唯GDP论的多年盛行）。a\n\nflawed concept追根溯源，直截了当指出GDP概念本身就有缺陷。\n\n③ 句进而明确GDP缺陷：衡量并不重要的东西，却遗漏真正重要的东西。 measures things that do\n\nnot matter VS misses things that do （ matter）以\"对仗工整\"和\"省略表达\"形成强对比，回应首段\n\nmeasures Meverything except that which makes life worthwhile. ”，凸显 GDP 的舍本逐末。\n\n④⑤句聚焦当下英国脱欧事件，正面质疑GDP：它所反映的繁荣景象带有虚假性、误导性。两句间\n\n以If everything was going so well（\"假设条件句”辅以\"so的强调回指功能”）实现\"说明数据所呈现情\n\n31\n\n形—\n\n提出与之矛盾事件（质疑标准有误）”的逻辑衔接。\n\n④ 句指出GDP数据所呈现的英国社会发展态势非常喜人。By most recent measures既体现句群关\n\n系（回应for over half a century,将视角由上一句群的“多年情形”聚焦至“最近情形”），又起到句内强调\n\n功能、为后文批驳暗埋伏笔：本句介绍的是最新GDP结果，理应准确反映英国当前实际国情（但实际却\n\n非如此）。主句以has been the envy of（be the envy of意为\"是令人羡慕/嫉妒的事物\"）形象概述测量结\n\n果：英国GDP遥遥领先，其他西方国家只能望其项背、羡慕不已。状语with record low unemployment\n\nand high growth figures（record意为\"创纪录的，空前的\"）具化主句信息，以一低（低失业）一高（高增长）\n\n凸显英国GDP所呈现的空前发展（注：理论上GDP的增长和失业率的降低正相关）。\n\n⑤ 句反问批驳上述数据效用：倘若实际情形真那么好，为何英国人宁愿经济前景受损也要执意脱欧？\n\n句子整体以If... then why... despite... ?叠加“反问”和“转折”,起到“强烈质疑”的效果。从句If everything\n\nwas going so well承上总结GDP所呈现的无比喜人的态势（so兼具“回指”和“强调”功能，蕴含作者强烈质\n\n疑）。主句 then why did... despite the warnings... ?（句中 warnings about... their country's economic\n\nprospects回指首段GDP already predicted to slow as a result）以反问进行强烈反驳：英国的实际情形并非\n\nGDP数据显示的那样可喜，实际上很可能恰恰相反-一各种问题的存在令人们极度不满现状，故执意脱\n\n欧以期改善（又即：GDP存在致命缺陷，不能反映民生状况，甚至对其造成不良影响）。\n\n【深层解读】段内逻辑：本段以 has annoyed... for over half a century. . . By most recent measures 将\n\n本段分为兼具“时间先后关系”和“论点—\n\n论据关系”的两个句群：①②③句重在强调“问题的存在”，着\n\n眼过去半个多世纪，介绍政策制定者们一直以来对GDP的质疑；④⑤句重在确定“切入的角度\"，聚焦当\n\n下英国脱欧事件，为政策制定者们的质疑提供有力依据。\n\n•真题精解•詔\n\n【精准定位】第二段④⑤句展现矛盾情形“GDP数据显示英国当前形势喜人；多数英国人却投票选\n\n择脱欧、且无视这会对其经济前景的影响”，这一情形实则暗示：GDP作为衡量一国整体发展成就的标\n\n准如今在英国广受质疑，【B】正确。",
+      "explanation": "31. Robert F. Kennedy is cited because he\n\n・\n\n31.文中援引罗伯特• F・肯尼迪是因为他\n\n。\n\n[A] praised the UK for its GDP\n\n【A】赞扬了英国的GDP\n\n[B] identified GDP with happiness\n\n【B】认为GDP等同于幸福\n\n[C] misinterpreted the role of GDP\n\n【C】误解了 GDP的作用\n\n[D] had a low opinion o£ GDP\n\n【D】对GDP评价低\n\n【精准定位】由题干中人名关键词Robert F. Kennedy定位到第一段。该段首句指出Kennedy观\n\n点：GDP可衡量一切，除了那些令人生真正有价值的东西（即GDP存在巨大缺陷）。②句以英国看似不\n\n可理解的做法“明知GDP会减缓却还执意脱欧”暗证Kennedy观点正确性，并进而引出话题“是时候评\n\n定Kennedy的GDP论了”。可知，作者引用意在正向立意：GDP有极大局限性，【D】正确。\n\n【命题解密】正确项【D】中 had a low opinion 是对 everything except that which makes life worthwhile\n\n“明褒实贬”态度的明确。\n\n【A】干扰源自第二段④句，但该句是在介绍GDP的最新计算结果，且随后一句对其进行了质疑，并\n\n非表明肯尼迪对英国GDP的赞扬。【B】将肯尼迪“认为GDP不能衡量幸福”改为与之相悖的“将GDP\n\n等同于幸福”。【C】将作者对肯尼迪观点的“赞同”改为“否定”：首段②句以及第二段④⑤句暗含作者观\n\n点“GDP不能反映实际民生状况”，即赞同肯尼迪观点。\n\n30\n\n【技巧总结】本题就“开篇所引人物话语”设置写作目的题，间接考查“人物观点”与“文章主旨/作者\n\n观点”的关系。解题时应首先分析开篇段句际逻辑、初步得出正确项；随后借助下文进行检验、最终确定\n\n答案。需注意选项陷阱：文中特殊句式、与人物观点无直接关系的文中内容。\n\n具体来看，首先可发现第一段逻辑“①句介绍Kennedy观点（GDP有重大缺陷）—\n\n②句以英国脱\n\n欧事件提出应认真考量Kennedy观点”，初步确定本文开篇属于“正向援引”，目的在于借他人话语表明\n\n作者探讨对象，【D】很可能正确。再粗略浏览后文（尤其是第二段）进行验证，可确定答案为【D】。【A】利\n\n用与肯尼迪观点没有直接关系的内容形成干扰，【B】利用特殊否定句式except that which...制造陷阱，\n\n【C】错误理解②句所暗示的作者态度，均排除。\n\nII O The question of GDP and its usefulness has\n\nannoyed® policymakers for over half a century. ❷ Many\n\nargue that it is a flawed② concept. ❸ It measures things\n\nthat do not matter and misses things that do. ❹ By most\n\nrecent measures? the UK's GDP has been the envy of the\n\nWestern world? with record③ low unemployment and high\n\ngrowth figures. ❺ If everything was going so well, then\n\nwhy did over 17 million people vote for Brexit, despite the\n\nwarnings about what it could do to their country's\n\neconomic prospects?\n\nGDP及其效用问题已困扰政策制定\n\n者们半个多世纪。很多人坚称这是个有缺\n\n陷的概念。它衡量并不重要的东西，却遗\n\n漏真正重要的东西。根据最新评估，英国\n\n的GDP —直是西方世界羡慕的对象，失业\n\n率有史以来最低，增长值有史以来最高。\n\n倘若一切都进展得如此喜人，那为何尽管\n\n已有警示表明脱欧将会影响本国经济，还\n\n是有1700多万人投票支持脱欧？\n\n:•词汇注释与难句分析:也\n\n©annoy 【a'noi】 v.使恼怒，使生气\n\n》®be the envy of （是令某人羡慕/嫉妒的事物）\n\n② 伽wed Efloid】 Q.有错误的，有缺点的\n\n§ ②vote for （投票支持）\n\n③ record 【'rek□:rd】 a.创纪录的，空前的\n\nf ③economic prospect （经济前景）\n\n•经典搭配\n\nI\n\n•语篇分析• 1也\n\n第二段正式入题：回顾多年来政策制定者对GDP的质疑，并聚焦当前英国脱欧、指出GDP确有误导\n\n性。关键词为:a flawed concepto\n\n①②③句回溯政策制定者对GDP的长期质疑（言外深意：\"GDP有严重缺陷”是众多政策制定者多年\n\n反思沉淀得出的结论）。两组代词回指 GDP... its... it.. . It.,. /policymakers... Many （policymakers）...及\n\n一组\"缺陷'‘相关词汇annoyed. . . flawed. . . misses...在三句间形成语意递进。\n\n① 句概述指出GDP及其效用问题已经困扰政策制定者多年。has annoyed policymakers、for over\n\nhalf a century将首段“肯尼迪对GDP的质疑”提升到“众多政策制定者长期备受困扰的问题”，实现话题\n\n延展并凸显问题严重性。\n\n② 句进一步说明政策制定者观点：GDP概念本身便有缺陷。Many（policymakers）凸显GDP质疑者\n\n众多。argue （论证，争辩”）蕴含强烈辩驳色彩，暗示反方观点存在（指向唯GDP论的多年盛行）。a\n\nflawed concept追根溯源，直截了当指出GDP概念本身就有缺陷。\n\n③ 句进而明确GDP缺陷：衡量并不重要的东西，却遗漏真正重要的东西。 measures things that do\n\nnot matter VS misses things that do （ matter）以\"对仗工整\"和\"省略表达\"形成强对比，回应首段\n\nmeasures Meverything except that which makes life worthwhile. ”，凸显 GDP 的舍本逐末。\n\n④⑤句聚焦当下英国脱欧事件，正面质疑GDP：它所反映的繁荣景象带有虚假性、误导性。两句间\n\n以If everything was going so well（\"假设条件句”辅以\"so的强调回指功能”）实现\"说明数据所呈现情\n\n31\n\n形—\n\n提出与之矛盾事件（质疑标准有误）”的逻辑衔接。\n\n④ 句指出GDP数据所呈现的英国社会发展态势非常喜人。By most recent measures既体现句群关\n\n系（回应for over half a century,将视角由上一句群的“多年情形”聚焦至“最近情形”），又起到句内强调\n\n功能、为后文批驳暗埋伏笔：本句介绍的是最新GDP结果，理应准确反映英国当前实际国情（但实际却\n\n非如此）。主句以has been the envy of（be the envy of意为\"是令人羡慕/嫉妒的事物\"）形象概述测量结\n\n果：英国GDP遥遥领先，其他西方国家只能望其项背、羡慕不已。状语with record low unemployment\n\nand high growth figures（record意为\"创纪录的，空前的\"）具化主句信息，以一低（低失业）一高（高增长）\n\n凸显英国GDP所呈现的空前发展（注：理论上GDP的增长和失业率的降低正相关）。\n\n⑤ 句反问批驳上述数据效用：倘若实际情形真那么好，为何英国人宁愿经济前景受损也要执意脱欧？\n\n句子整体以If... then why... despite... ?叠加“反问”和“转折”,起到“强烈质疑”的效果。从句If everything\n\nwas going so well承上总结GDP所呈现的无比喜人的态势（so兼具“回指”和“强调”功能，蕴含作者强烈质\n\n疑）。主句 then why did... despite the warnings... ?（句中 warnings about... their country's economic\n\nprospects回指首段GDP already predicted to slow as a result）以反问进行强烈反驳：英国的实际情形并非\n\nGDP数据显示的那样可喜，实际上很可能恰恰相反-一各种问题的存在令人们极度不满现状，故执意脱\n\n欧以期改善（又即：GDP存在致命缺陷，不能反映民生状况，甚至对其造成不良影响）。\n\n【深层解读】段内逻辑：本段以 has annoyed... for over half a century. . . By most recent measures 将\n\n本段分为兼具“时间先后关系”和“论点—\n\n论据关系”的两个句群：①②③句重在强调“问题的存在”，着\n\n眼过去半个多世纪，介绍政策制定者们一直以来对GDP的质疑；④⑤句重在确定“切入的角度\"，聚焦当\n\n下英国脱欧事件，为政策制定者们的质疑提供有力依据。\n\n•真题精解•詔\n\n【精准定位】第二段④⑤句展现矛盾情形“GDP数据显示英国当前形势喜人；多数英国人却投票选\n\n择脱欧、且无视这会对其经济前景的影响”，这一情形实则暗示：GDP作为衡量一国整体发展成就的标\n\n准如今在英国广受质疑，【B】正确。",
       "points": 2,
       "sort_order": 31,
       "answer": "D"
@@ -1195,7 +1195,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "32. It can be inferred from Paragraph 2 that\n\n・\n\n32.从第二段可推知\n\n。\n\n[A] the UK is reluctant to remold its economic pattern\n\n【A】英国不愿重塑其经济模式\n\n[E] GDP as the measure of success is widely defied in the\n\nUK\n\n【B】 “GDP作为衡量（一国）成就的标准”\n\n在英国广受蔑视\n\n[C] the UK will contribute less to the world economy\n\n【C】英国对世界经济的贡献将会减少\n\n[D] policymakers in the UK are paying less attention to\n\nGDP\n\n【D】英国政策制定者对GDP的关注正\n\n在降低\n\n【命题解密】【B】正确解读第二段④⑤句言外之意：GDP as the measure of success 对应 ④句 the\n\nUK's GDP has been the envy o£ the Western world；is widely defied in the UK 对应⑤句以反问和转折表\n\n明的质疑态度（over 17 million people 对应 widely） „\n\n【A】由④句the UK's GDP has been the envy of the Western world主观推出\"英国目前经济发展极\n\n好，因此不愿改变现有模式”，但⑤句实则以反问表明与之相反的信息“英国人并不认可GDP体现的表\n\n面繁荣，反而希望脱欧带来改变”。【C】由⑤句“英国经济前景很可能会受脱欧影响”过度推出“英国对世\n\n界经济的贡献将会减少”，但二者并不存在直接关联，且选项将“可能（warnings, could）\"绝对化为“必然\n\n（will））”。【D】将①句“政策制定者多年来受GDP问题困扰”改为与之存在巨大偏差的“英国政策制定者\n\n当前对GDP的关注降低”，即：同时偷换了时间、人物、以及人物态度。\n\n【技巧总结】“推理引申题”重在考查学生把握句际关系，明辨整体语义的能力。答题时需注意：①细\n\n节背后必有主旨，应抓取文字背后整体信息；②特殊句式（反问句、双重否定句、转折句式等）暗含强烈观\n\n32\n\n点，需作为重要推理对象；③情感色彩词汇易成为命题人设置干扰的陷阱，需注意排除断章取义的选项。\n\n具体看本题，首先浏览第二段 The question of GDP and its usefulness has annoyed policymakers...\n\nflawed. . . misses...和 the UK's GDP. . . If everything was going so well, then why..・ despite...可大概\n\n抓住本段主线：质疑GDP的效用。以此为据进一步推理③④句，可知作者重在以反问说明英国人总体\n\n上不再信任GDP作为衡量国家是否成功的标尺，从而大致判断【E】正确。随后可进一步发现，【A】、【C】\n\n重点落在“英国经济模式”、“英国对世界经济的贡献”，与本段主线无关，且扭曲文中细节，【D】虽然涉及\n\n关注对象GDP,但严重改变文中事实，故均可排除。\n\n川 O A recent annual study of countries and their\n\nability to convert① growth into well-being sheds some light\n\non that question. @ Across the 163 countries measured,\n\nthe UK is one of the poorest performers in ensuring that\n\neconomic growth is translated ② into meaningful\n\nimprovements for its citizens. ©Rather than just focusing\n\non GDP, over 40 different sets of criteria1 from health,\n\neducation and civil society engagement ④ have been\n\nmeasured to get a more rounded⑤ assessment of how\n\ncountries are performing.\n\n最近一项关于“不同国家及其将增长\n\n转化为（社会）福利”的年度研究给上述问\n\n题提供了部分答案。在所有被测量的163\n\n个国家中，英国是在“确保经济增长转化为\n\n有意义的民生改善”方面表现最差的国家\n\n之一。此次研究并非只关注GDP,而是涵\n\n盖健康、教育和公民社会参与度相关的40\n\n多套不同标准，意在对各国表现做出更全\n\n面的评估。\n\n•词汇注释与难句分析・幺\n\n©convert [kan'v31] v.使转换，使转化\n\n②translate [trsens'leit] e.使转变，使转化\n\n©criteria [krai'tiaria] n.标准\n\n④engagement [in'geidsmant] n.（与... 的）密切关系\n\n? ⑤rounded 【'raundid】 a.完善的，全面的\n\ni •经典搭配\n\nI ©shed light on...（有助于解释... ）\n\nQ\n\n②civil society （公民社会）\n\n•语篇分析\n\n第三至五段集中论证：以一项新研究发现支撑验证对GDP的质疑。\n\n第三段概述研究对象、方法、目的及结论（英国在将经济增长转化为民生改善方面表现极差）。关键\n\n词为：poorest performers0\n\n① 句承上引入研究并介绍研究对象：多个国家发展现状及其将经济增长转化为民生福祉的能力（开\n\n启问题分析）。整句以A sheds some light on B结构承上文问题\"英国为何宁可GDP下滑也要执意脱\n\n欧”、开启分析环节（shed light on sth意为“阐明，使清楚地显示出\"；that question回指第二段末句问题；\n\nsome表明论述客观性）。of短语介绍研究对象：各国发展现状及其将经济增长转化为民生福祉的能力\n\n（and之后为强调内容，well-being回应首段makes life worthwhile,凸显新研究关注点\"实际民生\"）。\n\n② 句概述研究结论：英国在将经济增长转化为民生改善方面表现极差（暗示因果关联）。 economic\n\ngrowth is translated into meaningful improvements（translate 意为\"使转变，转化\"）同义替换上句 convert\n\ngrowth into well-being,再次明确新研究重点关注对象 实际民生福祉（meaningful意为“有意义的，重\n\n要的，有用的”，强化作者观点：一国成就的根本均在于民生的真正改善）。Across the 163 countries..・\n\nthe poorest performers借强调“基数之大”及“程度之最”凸显英国在将经济增长转化为民生改善上表现\n\n之差，与上段the UK's GDP has been the envy of the Western world形成强烈对比，这一巨大鸿沟揭示\n\nGDP严重缺陷、暗示民众支持脱欧原因：经济增长虽高，但未能用其造福于民。\n\n③ 句补充介绍研究方法：关注与民生福祉相关的方方面面（凸显GDP局限）。句子整体以取舍结构\n\nRather than. ........说明新研究的标新立异:just focusing on GDP（just意为“仅仅，只是”，强调片面性）\n\n33\n\nVS over 40 different sets of criteria（over意为“超过，超出”，凸显全面性）强调\"新研究评估系统客观全\n\n面—\n\n涵盖与实际民生息息相关的方方面面”，并暗示此前唯GDP论的盛行以及作者对其的否定。to\n\nget a more rounded assessment of how countries are performing（rounded 意为\"全面的、完善的\"）说明新\n\n研究采用此方法的目的，且明确作者对其赞同态度：这才是评估一国成就的正确方式。\n\n【深层解读】本段在文中起到“引出并概述新研究、以初步支撑文章观点”的作用：段首A recent\n\nannual study. . . sheds light on that question明确与上文\"提出问题 阐释原因\"的关系；段中以概述研\n\n究的典型表述（A study） of...短语、...is...判断句式Rather than...,....取舍结构、以及to...目的\n\n状语结构分别点明研究对象、结论、方法、目的。段尾传递作者对新研究的明确赞赏（集中体现于rather\n\nthan just. .. VS over 40...形成的鲜明对比以及形容词rounded所带有的强烈褒义），预示下文将对新研\n\n究展开论述、以进一步揭示GDP的缺陷。\n\n|\\ O While all of these countries face their own\n\nchallenges, there are a number of consistent1 themes . ❷\n\nYes, there has been a budding ③ economic recovery since\n\nthe 2008 global crash1' ,but in key indicators'5 in areas\n\nsuch as health and education, major economies have\n\ncontinued to decline. ©Yet this isn't the case4 with all\n\ncountries. ©Some relatively poor European countries have\n\nseen huge improvements across measures including civil\n\nsociety, income equality and the environment.\n\n尽管所有这些国家都面临着各自的挑\n\n战，但仍存在许多基调一致的问题。的确，\n\n自2008年全球危机以来，经济已开始复\n\n苏；但就健康和教育这类领域的关键指标\n\n而言，主要经济体一直持续下滑。然而，并\n\n非所有国家都是如此。一些相对贫困的欧\n\n洲国家在从“公民社会”到“收入平等”再到\n\n“环境”等诸多方面都有巨大提升。\n\n•词汇注释与难句分析-\n\n(Dconsistent [kan'sistant] a.—致的\n\n② theme [0i：m] n.主题，基调\n\n③ budding ['bAdiO] a.开始发展的\n\n④ crash [krsej] n.失败，破产\n\n©indicator E'indiikeita(r)] n.指示物，指示者\n\nS ©case [keis] n.[尤指影响某个人或群体的]状况，情\n\n形\n\nI •经典搭配\n\n§ ①major economies （主要经济体）\n\n?②income equalityC收入平等）\n\n•语篇分析•'、也\n\n第四段详述研究发现：主要经济体在改善民生方面表现下滑；一些贫穷国家反而大幅改善（即：GDP\n\n不能全面评估一国发展）。关键词为：① major economies have continued to decline;② relatively poor\n\nEuropean countries have seen huge improvementso\n\n① 句总领段落，指出各国面临许多相似的主要挑战。句子以while形成让步转折，以“不同一各国\n\n情形不同、面临挑战相异（face their own challenges）w凸显“相同----各国面临的许多挑战主题一致\n\n（there are a number of consistent themes）9f 0 a number of consistent themes（consistent 意为\"一致的，相\n\n似的”；theme意为“主题，主旋律”，这里承challenges引申指代“主要问题/挑战”）引领下文论述。\n\n②③④句具体论证，分析各国在应对挑战上的不同表现（意在凸显现象：GDP高增长国家在民生领\n\n域表现却持续下滑）。 Yes.・.but. . . major economies. . . Yet. . . relatively poor European countries 在三句\n\n间形成“先说明情形A―再转折过度—\n\n后说明与之相反的情形E”的逻辑。\n\n② 句说明（包括英国在内的）主要经济体的表现：在健康、教育等关键民生领域的表现持续下滑。作者\n\n以Yes... but...欲抑先扬，重心后置：先退而承认主要经济体确实开始从2008年全球危机中复苏（a\n\nbudding economic recovery；budding意为\"开始发展的”，暗示经济只是初步回暖、尚未走出危机）；后转而强\n\n调它们在重要民生领域的表现却持续下滑（in key indicators... have continued to decline；其中continued to\n\n34\n\n凸显问题一一持续倒退）。注:此处economy为经济文章常用表达，指（经济意义上的）国家。\n\n③ 句过渡：并非所有国家都是如此。 this isn't the case with all countriesCthis 回指上句所述情形\"在\n\n改善民生领域的表现持续下滑”;case意为“状况，情形”）以简短表述肯定相反情形的存在，引领下文。\n\n④ 句转而说明相对贫困的欧洲国家表现：在改善民生方面有巨大进展。本句以句内落差relatively\n\npoor European countries VS seen huge improvements across measures 强调相对贫穷国家的可喜情形（\"经\n\n济贫穷\"却\"民生大幅改善\"），并以句间对比have seen huge improvements （huge凸显进步之大）VS have\n\ncontinued to decline（continued凸显下滑之重）展示\"主要经济体\"和\"贫穷国家\"在改善民生上的巨大差\n\n异，从而凸显事实/强化作者观点“'国家GDP高，并不等同于'国民幸福感强，，GDP并不能全面评估一\n\n国表现”；并明确英国人不顾GDP受损执意脱欧原因：英国人已广泛质疑GDP作为衡量国家成就的效\n\n用，他们更关心个人幸福感的提升，且觉得离开欧盟可能会有利于幸福感的提升。\n\n【深层解读】第四段与第三段为“概述研究、初步论证观点一具体阐释、进一步论证观点”的关系，\n\n且最终明确第一、二段抽象概念所指:第四段以“主要经济国家”和“相对贫穷国家”的对比说明第三段②\n\n句研究结论：主要经济国家GDP呈现情形良好，但是民生状况却持续下滑（即：将经济增长转化为民生\n\n福祉的能力差）。段中 health、education、civil society, income equality、the environment 明确第三段 well­\n\nbeing （以及首段 which makes life worthwhile,第二段 things that do （matter））具体所指。\n\nV ❶ This is a lesson that rich countries can learn：\n\nWhen GDP is no longer regarded as the sole® measure of a\n\ncountry's success< the world looks very different.\n\n这条教训富裕国家应引以为戒：当\n\nGDP不再被当作衡量国家成就的唯一标\n\n准时，这世界就看起来大为不同了。\n\n①sole [soul] a.唯一的\n\n•经典搭配\n\n•词汇注释与难句分析• £\n\n① learn a lesson （吸取教训）\n\n<\n\n② regard. . . as...（认为，看作）\n\n•语篇分析八幺\n\n第五段提炼研究意义，向富裕国家提出警示：勿将GDP作为衡量一国成就的唯一标准。关键词为：\n\nno longer regarded as the sole measure o\n\n本段（句）以This is a lesson...引出研究意义/警示作用（This回指第",
+      "explanation": "32. It can be inferred from Paragraph 2 that\n\n・\n\n32.从第二段可推知\n\n。\n\n[A] the UK is reluctant to remold its economic pattern\n\n【A】英国不愿重塑其经济模式\n\n[E] GDP as the measure of success is widely defied in the\n\nUK\n\n【B】 “GDP作为衡量（一国）成就的标准”\n\n在英国广受蔑视\n\n[C] the UK will contribute less to the world economy\n\n【C】英国对世界经济的贡献将会减少\n\n[D] policymakers in the UK are paying less attention to\n\nGDP\n\n【D】英国政策制定者对GDP的关注正\n\n在降低\n\n【命题解密】【B】正确解读第二段④⑤句言外之意：GDP as the measure of success 对应 ④句 the\n\nUK's GDP has been the envy o£ the Western world；is widely defied in the UK 对应⑤句以反问和转折表\n\n明的质疑态度（over 17 million people 对应 widely） „\n\n【A】由④句the UK's GDP has been the envy of the Western world主观推出\"英国目前经济发展极\n\n好，因此不愿改变现有模式”，但⑤句实则以反问表明与之相反的信息“英国人并不认可GDP体现的表\n\n面繁荣，反而希望脱欧带来改变”。【C】由⑤句“英国经济前景很可能会受脱欧影响”过度推出“英国对世\n\n界经济的贡献将会减少”，但二者并不存在直接关联，且选项将“可能（warnings, could）\"绝对化为“必然\n\n（will））”。【D】将①句“政策制定者多年来受GDP问题困扰”改为与之存在巨大偏差的“英国政策制定者\n\n当前对GDP的关注降低”，即：同时偷换了时间、人物、以及人物态度。\n\n【技巧总结】“推理引申题”重在考查学生把握句际关系，明辨整体语义的能力。答题时需注意：①细\n\n节背后必有主旨，应抓取文字背后整体信息；②特殊句式（反问句、双重否定句、转折句式等）暗含强烈观\n\n32\n\n点，需作为重要推理对象；③情感色彩词汇易成为命题人设置干扰的陷阱，需注意排除断章取义的选项。\n\n具体看本题，首先浏览第二段 The question of GDP and its usefulness has annoyed policymakers...\n\nflawed. . . misses...和 the UK's GDP. . . If everything was going so well, then why..・ despite...可大概\n\n抓住本段主线：质疑GDP的效用。以此为据进一步推理③④句，可知作者重在以反问说明英国人总体\n\n上不再信任GDP作为衡量国家是否成功的标尺，从而大致判断【E】正确。随后可进一步发现，【A】、【C】\n\n重点落在“英国经济模式”、“英国对世界经济的贡献”，与本段主线无关，且扭曲文中细节，【D】虽然涉及\n\n关注对象GDP,但严重改变文中事实，故均可排除。\n\n川 O A recent annual study of countries and their\n\nability to convert① growth into well-being sheds some light\n\non that question. @ Across the 163 countries measured,\n\nthe UK is one of the poorest performers in ensuring that\n\neconomic growth is translated ② into meaningful\n\nimprovements for its citizens. ©Rather than just focusing\n\non GDP, over 40 different sets of criteria1 from health,\n\neducation and civil society engagement ④ have been\n\nmeasured to get a more rounded⑤ assessment of how\n\ncountries are performing.\n\n最近一项关于“不同国家及其将增长\n\n转化为（社会）福利”的年度研究给上述问\n\n题提供了部分答案。在所有被测量的163\n\n个国家中，英国是在“确保经济增长转化为\n\n有意义的民生改善”方面表现最差的国家\n\n之一。此次研究并非只关注GDP,而是涵\n\n盖健康、教育和公民社会参与度相关的40\n\n多套不同标准，意在对各国表现做出更全\n\n面的评估。",
       "points": 2,
       "sort_order": 32,
       "answer": "B"
@@ -1300,7 +1300,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "\n35\n\n[B] It excludes GDP as an indicator.\n［B］它不包含GDP指标。\n[C] Its criteria are questionable・\n［C］它的标准有问题。\n[D] Its results are enlightening.\n［D］它的结果具有启发性。\n［精准定位］第三段首句针对上段末反问“英国如果真像GDP反映的那么喜人，人民为何还支持脱 \n欧？”作出回答：最近一项年度调查提供了一些解释；随后介绍调查结果：在“经济增长-民生福祉”的转 \n化方面，英国表现最差。第四段进而对比“富国VS穷国”情况：前者在健康、教育等方面持续下滑，后者 \n却在民主、公平等方面提升显著。第五段作出评论：富国应吸取教训—\n以GDP以外的标准进行衡量， \n情况会大不相同。可见作者通过调查结果启示富国：“唯GDP论”掩盖国家整体发展实情（“富”未必 \n“福”），由此解答了英国人民执意脱欧的疑问，因此［D］正确。\n［命题解密］正确项［D］enlightening是第三段首句sheds some lights on的同义替换，同时与第五段 \na lesson that rich countries can learn 相符。\n［A］将第三段②句163国家承担的角色“研究对象”偷换为“研究发起者”。［B］将第三段③句研究指 \n标“不止包括GDP,还有其他多套不同标准”曲解为“不包括GDP”。［C］将第三段③句暗含的对研究“采 \n取多套衡量标准”的肯定态度篡改为否定态度。\n［技巧总结］本题需要对文中大篇幅（第三至五段）涉及的大量信息（涉及研究方法，研究结论，研究 \n细节,研究意义等）进行概括引申，难以直接确定正确答案。解题可以首先从选项入手，通过排除法（先 \n宏观推测〜再微观细节）锁定潜在正确项，再判断段落或段群主旨（遇到难以理解的关键表述可利用上 \n下文推知其义），对锁定的选项进行验证。另外需注意：与段落乃至全文核心无关联的选项为干扰项。\n具体来看，可首先从选项入手分析。［A］介绍其“发起者”，［B］说明其“采用指标”，而作者以重笔墨 \n说明该调查，显然不",
+      "explanation": "［精准定位］文章首两段质疑GDP的观点，并聚焦“英国脱欧事件”予以强调；第三至五段则以近期研究发现“英国及其他主要经济体未能将高GDP转化为民生福祉”暗示高GDP并不等同于国民幸福；第六、七段则明确指出“GDP无法衡量环境质量、教育成果等关乎民生的重要因素，因此政策制定者不能一味忧心GDP,而应努力提升社会福利”。可见，全文以“英国脱欧”为反例，指出高GDP并非等同于幸福感，不足以衡量国家发展，［A］正确。\n［命题解密］正确项［A］既锁定了文章核心论点“GDP在衡量民生方面存在局限性（High GDP But Inadequate Well-being）\",又明确了文章切入点：“以英国为反例，给各国以警醒（a UK lesson）”。\n［B］将文章观点“GDP不足以衡量国家经济活动”篡改为与之完全相反的“GDP是全球经济健康之窗”。［C］肯尼迪只是GDP的批判者，并非终结者，无力概括全篇。［D］将文中信息“英国人选择脱欧在一定程度上是不满幸福感的持续下降”篡改夸大为“脱欧是英国实现幸福之路”。",
       "points": 2,
       "sort_order": 35,
       "answer": "A"
@@ -1335,7 +1335,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "36.划线句子（第一段）最有可能表明最高法院\n\nO\n\n[A] avoided defining the extent of McDonnelFs duties\n\n【A】避免界定麦克唐纳的职责范围\n\n[E] made no compromise in convicting McDonnell\n\n【B】在给麦克唐纳定罪上没有做出让步\n\n[C] was contemptuous of McDonnell's conduct\n\nEC】对麦克唐纳的行为表示蔑视\n\n[D] refused to comment on McDonnelFs ethics\n\n【D】拒绝对麦克唐纳的道德进行评价\n\n【精准定位】划线句上文指出最高法院罕见地一致推翻了对麦克唐纳的贪腐定罪；划线句下文列举\n\n了麦克唐纳从公司收受贵重礼物的行为；而划线句内逻辑词But,while则将语义重点锁定在最高法院对\n\n麦克唐纳行为的举动上，且这一举动与其“推翻麦克唐纳的贪腐定罪”存在反向关联，唯有【C】符合这一\n\n条件：尽管推翻了对麦克唐纳的贪腐定罪，却也对其行为表达了明确不满，故【C】正确。\n\n【命题解密】正确项【C】符合划线句与其上下文之间语义逻辑，是对划线句中holding its nose at the\n\nethics of his conduct 的正确解读。\n\n【A】根据第二段failed to tell. . . issues related to his duties捏造干扰，却将下级法院失职行为\"未能\n\n告知陪审团必须只关注麦克唐纳的公务行为”曲解为最高法院行为“未能界定麦克唐纳的职责范围”，且\n\n严重偏离划线句考查对象“最高法院对麦克唐纳行为的举动”。【B】将第一段①句rare unanimous\n\nruling. . . overturned. . . conviction,..\"罕见地一致推翻了定罪：有罪—无罪\"反向曲解为\"在定罪问题上\n\n严防死守：有罪-*有罪”，同时也严重偏离了划线句论述对象。【D】由划线句中ethics of his conduct捏造\n\n而来，却将划线句中holding its nose所传递岀的“（因臭味而）掩鼻而过”曲解为“拒绝予以评价”，且由第\n\n四段可知法院确实表明了对这一行为的态度。\n\n【技巧总结】本题考查对含有抽象含义词组的句子的理解。解题关键步骤在：首先根据逻辑词把握\n\n划线句与上下文之间的语义逻辑（并列、转折、递进、例证等）；然后结合抽象含义词组的字面义及其所指\n\n向的对象进行语义初判；最后将两者结合筛选出正确项，将不符合逻辑、语义、对象的干扰项排除。\n\n具体看本题,逻辑词But,while表明划线句与上文为转折关联、与下文为例证关联，抽象含义词组\n\nholding its nose字面含义为“（为避开臭气等）捂住鼻子”，且该动作针对的对象是麦克唐纳收受礼物这一\n\n行为，就此可排除表顺承逻辑的【B】、针对“麦克唐纳的职责范围”的【A】以及与抽象词组字面义不符的\n\n【D】,从而确定【C】为正确项。\n\n（® The high court's decision said the judge in Mr.\n\nMcDonnell's trial® failed to tell a jury® that it must look\n\nonly at his u official® acts,\" or the former governor's\n\ndecisions on uspecificw and \"unsettled\" issues related to\n\nhis duties.\n\n最高法院的裁决指出，麦克唐纳先生的审\n\n判法官未能告知陪审团必须只考虑其“公务行\n\n为''，即该前州长就与其职责相关的“特定”、\n\n“待定”问题所做出的决策。\n\n•词汇注释与难句分析「必\n\n① trial [traial] n.审判，审理\n\n② jury ['d3oari] n.陪审团\n\n©official [a1 fiJal] a.公务的，公职的/n.官员\n\n” •经典搭配\n\n? ©fail to do...（未能做... ）\n\nS ②official act （公务行为）\n\n41\n\nThe high court's decision said the judge in Mr. McDonnell's trial failed to tell a jury that it must look only at\n\nhis official acts,” or the former governor's decisions on \"specific” and “unsettled” issues related to his duties.\n\n功能注释：本句主干为The high court's decision said... o said的宾语为省略that的宾语从句the\n\njudge in Mr. McDonnells trial failed to tell a jury...，其中又嵌套一 that 引导的宾语从句做 tell 的宾语,\n\nof•后的内容对uofficially acts”进行解释说明。\n\n•语篇分析-虫\n\n第二至四段阐述裁决的细节内容。\n\n第二段指出裁决（书面文件）对下级法院审判法官的看法：未能准确告知陪审团关注要点。关键词\n\n为:failed to tell0\n\n独句成段。said（义同suggested）-词辖域全句，明示全段语义重心“最高法院裁决内容”。must\n\nlook only at his \"official acts\"以表\"强制性、命令性、必要性\"的must以及表\"唯一性\"的only突出强调最\n\n高法院判定麦克唐纳先生贪腐罪名是否成立的唯一要件：公务行为；而failed to tell...直接指出下级法\n\n院审判官在审判时出现的问题:未能掌握贪腐罪名成立必须满足“公务行为”这一要件，进而未能如实提\n\n醒陪审团正确做法，导致案件错判，侧面解释最高法院推翻其判决的原因。连词or（used to give more\n\nspecific information**即，那就是，或者说”）解释抽象概念“麦克唐纳的公务行为”具体所指：就与其州长职\n\n责相关的“特定”、“待定”事宜所做出的公务性决定。\n\n【深层解读】本段形似指出审判法官的问题，实则指出贪腐罪名必须满足“公务行为”这一要件：麦克\n\n唐纳是否犯贪腐罪，重在看他的行为是否涉及公务行为，即是否为送礼者做出与其职责相关的政务性行\n\n为。预设下文将以此为起点，开始剖析麦克唐纳先生收取某公司礼物这一行为是否属公务行为。\n\nDI Merely helping a gift-giver gain access to other\n\nofficials, unless done with clear intent1 to pressure\n\nthose officials, is not corruption, the justices1 found 0.\n\n大法官们裁决，仅仅帮助送礼者获取接近\n\n其他政府官员的机会并不属于腐败，除非带有\n\n明确意图要对那些官员进行施压。\n\n「•词汇注释与难句分析• /\n\n©intent [in'tent] n.意图，目的\n\nJ ③justice ['d3Astis] n.法官\n\n②pressure ['prefa] v.对... 施加压力，强迫\n\n| ④find [faind] v.裁决，判决\n\n:•语篇分析•]必\n\n第三段指出裁决（大法官们）对“政府官员单纯帮助送礼者获取接近其他政府官员的机会”与“腐败”\n\n的区辨：前者H后者。关键词为：Merely helping... is not corruptiono\n\n独句成段。尾词found（取其僻义“裁决”）一词辖域全句，明示本段语义重心同上段。merely .unless\n\n以或显或隐的“单一性”韵味，明确最高法院对“帮助送礼者获取会见其他政府官员的机会”这一行为的\n\n42\n\n定罪原则：纯属安排双方会见（而不对其他官员施加压力）这种单一行为工腐败，对其他政府官员明确施\n\n压以使其与送礼者会面=腐败；就此可知，“是否对其他政府官员明确施加压力”是判定“帮助他人获取\n\n会见其他政府官员机会”是否贪腐的标准；而从首段最高法院最终裁决可进一步推知，麦克唐纳并未对\n\n其他政府官员施加明确压力。注:justice通常指的是最高法院的法官，而judge指的是下级法院的法官。\n\n【深层解读】本段与上段存在逻辑断层：上段明确“贪腐罪名成立必须满足公务行为这一要件”，而本\n\n段宜接指出“仅仅帮助送礼者获取接近其他政府官员的机会并不算贪腐，有明确意图者除外”，根据两段\n\n间逻辑断层，可预测下文会就“仅仅帮助……机会这类单一行为算不算公务行为”、“公务行为何种情况\n\n下被判定为贪腐”做出阐述，以此解释“仅仅帮助……机会并不算贪腐”的原因。\n\nIV OThe court did suggest that accepting favors'\n\nin return for opening doors is \" distastefu丨② ” and\n\n\"nasty③.\"❷But under anti-bribery® laws, proof must\n\nbe made of concrete® benefits, such as approval of a\n\ncontract or regulation. ©Simply arranging a meeting,\n\nmaking a phone call, or hosting an event is not an\n\n\"official act\".\n\n最高法院的确表示，收受他人为答谢“开\n\n后门”而送的礼物是“令人不齿的”和“卑鄙龌\n\n龊的”。但根据反贿赂法，构成贪腐的证据必\n\n须是实实在在的好处，譬如批准一项合约或规\n\n定。仅仅安排一次会见、拨打一个电话或主持\n\n一项活动并不是“公务行为”。\n\n•词汇注释与难句分析•母\n\n•经典搭配\n\n① in return for （作为... 报酬，作为... 回报）\n\n② be made of （由... 组成，由... 构成）\n\n① favor C'feiva] n.礼物\n\n》 ⑧leak [li：k] v.泄露，透露（37 题）\n\n② distasteful [dis'teistful] a.令人生厌的，令人反感的 彳 ©intentionally Ein'tanjanal订加.故意地，蓄意地（37题）\n\n③ nasty [?na：st订a.卑鄙龌龊的\n\nj ⑩sizable ['saizabl] a.相当大的，可观的（37题）\n\n④ bribery ['braibsr订 n.贿赂\n\n⑤ concrete ['kDgkril] a.具体的\n\n®deem [di：m] v.视为，认为（37 题）\n\n⑦corruptive [ka'rAptiv] a.使腐败的（37 题）\n\n•语篇分析•必\n\n第四段指出裁决的法律依据：反贿赂法规定，构成贪腐罪名的证据必须是实实在在的利益。关键词\n\n为:must be made of concrete benefits©\n\n① 句退而补充最高法院对政府官员收受礼物行为的看法：令人不齿、卑鄙龌龊。强调词did+观点词\n\nsuggest +强贬义词distasteful、nasty突出强调最高法院对此行为的极度反感，照应首段②句holding its nose\n\nat the ethics of his conduct,复现它对麦克唐纳收受“贿赂”这一行为的道德谴责或蔑视；in return for明示政\n\n府官员与送礼者之间的“利益交换”:政府官员帮助有求者获取接近政府官员的机会,有求者为了表示答谢\n\n而回报以礼物，深层暗示麦克唐纳行为虽违背道德，但不属犯罪。注:opening doors照应上文seek access to\n\ngovernment, gain access to other officials,意指\"为（有求者）谋求接见政府官员的机会”。\n\n② 句进而强调“公务行为”构成贪腐罪名的必要条件：切切实实的好处/利益。But实现①②句间“让\n\n步一转折”逻辑：尽管法院确实表示收受回报令人不齿，但构成贪腐罪必须要以实实在在的收益为证据，\n\n暗示本句在解释麦克唐纳行为不足以构成贪腐的法律依据（under取其僻义“根据，按照，依照（法律、协\n\n定、制度等）”）。must以其“强制性”强调贪腐罪名成立的必要条件：实实在在的利益;such as...以“批准\n\n某项合约或规定”例证抽象概念“实实在在的利益”具体所指。注:such as虽为简单例证部分，却作用重\n\n大：借助approvalcontractregulation三词饱含的“正式性、官方性”暗示批准某项合约或规定这一行为\n\n实属政府公务行为，明确本句真实探讨内容为公务行为构成贪腐罪的必要条件，同时明确concrete\n\nbenefits的受益方实为“送礼者”而非“公务人员”，即指“公务人员为送礼者提供的公务性质的有形的利\n\n益/好处”。\n\n43\n\n③\n\n句最后指出仅仅安排一次会面\n\n、拨打一个电话或主持一项活动连“公务行为”都不算（，更谈不上贪\n\n腐定罪）。强调副词Simply以其“单一性”复现上段Merely,进而以is not an \"official act\"圆合上段is not\n\ncorruption的缘由：其行为连构成贪腐罪必要要件的“公务行为”都尚未满足，更无需多论其是否贪腐。\n\n【深层解读】本段嫁接第",
+      "explanation": "36.划线句子（第一段）最有可能表明最高法院\n\nO\n\n[A] avoided defining the extent of McDonnelFs duties\n\n【A】避免界定麦克唐纳的职责范围\n\n[E] made no compromise in convicting McDonnell\n\n【B】在给麦克唐纳定罪上没有做出让步\n\n[C] was contemptuous of McDonnell's conduct\n\nEC】对麦克唐纳的行为表示蔑视\n\n[D] refused to comment on McDonnelFs ethics\n\n【D】拒绝对麦克唐纳的道德进行评价\n\n【精准定位】划线句上文指出最高法院罕见地一致推翻了对麦克唐纳的贪腐定罪；划线句下文列举\n\n了麦克唐纳从公司收受贵重礼物的行为；而划线句内逻辑词But,while则将语义重点锁定在最高法院对\n\n麦克唐纳行为的举动上，且这一举动与其“推翻麦克唐纳的贪腐定罪”存在反向关联，唯有【C】符合这一\n\n条件：尽管推翻了对麦克唐纳的贪腐定罪，却也对其行为表达了明确不满，故【C】正确。\n\n【命题解密】正确项【C】符合划线句与其上下文之间语义逻辑，是对划线句中holding its nose at the\n\nethics of his conduct 的正确解读。\n\n【A】根据第二段failed to tell. . . issues related to his duties捏造干扰，却将下级法院失职行为\"未能\n\n告知陪审团必须只关注麦克唐纳的公务行为”曲解为最高法院行为“未能界定麦克唐纳的职责范围”，且\n\n严重偏离划线句考查对象“最高法院对麦克唐纳行为的举动”。【B】将第一段①句rare unanimous\n\nruling. . . overturned. . . conviction,..\"罕见地一致推翻了定罪：有罪—无罪\"反向曲解为\"在定罪问题上\n\n严防死守：有罪-*有罪”，同时也严重偏离了划线句论述对象。【D】由划线句中ethics of his conduct捏造\n\n而来，却将划线句中holding its nose所传递岀的“（因臭味而）掩鼻而过”曲解为“拒绝予以评价”，且由第\n\n四段可知法院确实表明了对这一行为的态度。\n\n【技巧总结】本题考查对含有抽象含义词组的句子的理解。解题关键步骤在：首先根据逻辑词把握\n\n划线句与上下文之间的语义逻辑（并列、转折、递进、例证等）；然后结合抽象含义词组的字面义及其所指\n\n向的对象进行语义初判；最后将两者结合筛选出正确项，将不符合逻辑、语义、对象的干扰项排除。\n\n具体看本题,逻辑词But,while表明划线句与上文为转折关联、与下文为例证关联，抽象含义词组\n\nholding its nose字面含义为“（为避开臭气等）捂住鼻子”，且该动作针对的对象是麦克唐纳收受礼物这一\n\n行为，就此可排除表顺承逻辑的【B】、针对“麦克唐纳的职责范围”的【A】以及与抽象词组字面义不符的\n\n【D】,从而确定【C】为正确项。\n\n（® The high court's decision said the judge in Mr.\n\nMcDonnell's trial® failed to tell a jury® that it must look\n\nonly at his u official® acts,\" or the former governor's\n\ndecisions on uspecificw and \"unsettled\" issues related to\n\nhis duties.\n\n最高法院的裁决指出，麦克唐纳先生的审\n\n判法官未能告知陪审团必须只考虑其“公务行\n\n为''，即该前州长就与其职责相关的“特定”、\n\n“待定”问题所做出的决策。\n\n•词汇注释与难句分析「必\n\n① trial [traial] n.审判，审理\n\n② jury ['d3oari] n.陪审团\n\n©official [a1 fiJal] a.公务的，公职的/n.官员\n\n” •经典搭配\n\n? ©fail to do...（未能做... ）\n\nS ②official act （公务行为）\n\n41\n\nThe high court's decision said the judge in Mr. McDonnell's trial failed to tell a jury that it must look only at\n\nhis official acts,” or the former governor's decisions on \"specific” and “unsettled” issues related to his duties.\n\n功能注释：本句主干为The high court's decision said... o said的宾语为省略that的宾语从句the\n\njudge in Mr. McDonnells trial failed to tell a jury...，其中又嵌套一 that 引导的宾语从句做 tell 的宾语,\n\nof•后的内容对uofficially acts”进行解释说明。\n\n•语篇分析-虫\n\n第二至四段阐述裁决的细节内容。\n\n第二段指出裁决（书面文件）对下级法院审判法官的看法：未能准确告知陪审团关注要点。关键词\n\n为:failed to tell0\n\n独句成段。said（义同suggested）-词辖域全句，明示全段语义重心“最高法院裁决内容”。must\n\nlook only at his \"official acts\"以表\"强制性、命令性、必要性\"的must以及表\"唯一性\"的only突出强调最\n\n高法院判定麦克唐纳先生贪腐罪名是否成立的唯一要件：公务行为；而failed to tell...直接指出下级法\n\n院审判官在审判时出现的问题:未能掌握贪腐罪名成立必须满足“公务行为”这一要件，进而未能如实提\n\n醒陪审团正确做法，导致案件错判，侧面解释最高法院推翻其判决的原因。连词or（used to give more\n\nspecific information即，那就是，或者说”）解释抽象概念“麦克唐纳的公务行为”具体所指：就与其州长职\n\n责相关的“特定”、“待定”事宜所做出的公务性决定。\n\n【深层解读】本段形似指出审判法官的问题，实则指出贪腐罪名必须满足“公务行为”这一要件：麦克\n\n唐纳是否犯贪腐罪，重在看他的行为是否涉及公务行为，即是否为送礼者做出与其职责相关的政务性行\n\n为。预设下文将以此为起点，开始剖析麦克唐纳先生收取某公司礼物这一行为是否属公务行为。\n\nDI Merely helping a gift-giver gain access to other\n\nofficials, unless done with clear intent1 to pressure\n\nthose officials, is not corruption, the justices1 found 0.\n\n大法官们裁决，仅仅帮助送礼者获取接近\n\n其他政府官员的机会并不属于腐败，除非带有\n\n明确意图要对那些官员进行施压。\n\n「•词汇注释与难句分析• /\n\n©intent [in'tent] n.意图，目的\n\nJ ③justice ['d3Astis] n.法官\n\n②pressure ['prefa] v.对... 施加压力，强迫\n\n| ④find [faind] v.裁决，判决\n\n:•语篇分析•]必\n\n第三段指出裁决（大法官们）对“政府官员单纯帮助送礼者获取接近其他政府官员的机会”与“腐败”\n\n的区辨：前者H后者。关键词为：Merely helping... is not corruptiono\n\n独句成段。尾词found（取其僻义“裁决”）一词辖域全句，明示本段语义重心同上段。merely .unless\n\n以或显或隐的“单一性”韵味，明确最高法院对“帮助送礼者获取会见其他政府官员的机会”这一行为的\n\n42\n\n定罪原则：纯属安排双方会见（而不对其他官员施加压力）这种单一行为工腐败，对其他政府官员明确施\n\n压以使其与送礼者会面=腐败；就此可知，“是否对其他政府官员明确施加压力”是判定“帮助他人获取\n\n会见其他政府官员机会”是否贪腐的标准；而从首段最高法院最终裁决可进一步推知，麦克唐纳并未对\n\n其他政府官员施加明确压力。注:justice通常指的是最高法院的法官，而judge指的是下级法院的法官。\n\n【深层解读】本段与上段存在逻辑断层：上段明确“贪腐罪名成立必须满足公务行为这一要件”，而本\n\n段宜接指出“仅仅帮助送礼者获取接近其他政府官员的机会并不算贪腐，有明确意图者除外”，根据两段\n\n间逻辑断层，可预测下文会就“仅仅帮助……机会这类单一行为算不算公务行为”、“公务行为何种情况\n\n下被判定为贪腐”做出阐述，以此解释“仅仅帮助……机会并不算贪腐”的原因。\n\nIV OThe court did suggest that accepting favors'\n\nin return for opening doors is \" distastefu丨② ” and\n\n\"nasty③.\"❷But under anti-bribery® laws, proof must\n\nbe made of concrete® benefits, such as approval of a\n\ncontract or regulation. ©Simply arranging a meeting,\n\nmaking a phone call, or hosting an event is not an\n\n\"official act\".\n\n最高法院的确表示，收受他人为答谢“开\n\n后门”而送的礼物是“令人不齿的”和“卑鄙龌\n\n龊的”。但根据反贿赂法，构成贪腐的证据必\n\n须是实实在在的好处，譬如批准一项合约或规\n\n定。仅仅安排一次会见、拨打一个电话或主持\n\n一项活动并不是“公务行为”。\n\n•词汇注释与难句分析•母\n\n•经典搭配\n\n① in return for （作为... 报酬，作为... 回报）\n\n② be made of （由... 组成，由... 构成）\n\n① favor C'feiva] n.礼物\n\n》 ⑧leak [li：k] v.泄露，透露（37 题）\n\n② distasteful [dis'teistful] a.令人生厌的，令人反感的 彳 ©intentionally Ein'tanjanal订加.故意地，蓄意地（37题）\n\n③ nasty [?na：st订a.卑鄙龌龊的\n\nj ⑩sizable ['saizabl] a.相当大的，可观的（37题）\n\n④ bribery ['braibsr订 n.贿赂\n\n⑤ concrete ['kDgkril] a.具体的\n\n®deem [di：m] v.视为，认为（37 题）\n\n⑦corruptive [ka'rAptiv] a.使腐败的（37 题）\n\n•语篇分析•必\n\n第四段指出裁决的法律依据：反贿赂法规定，构成贪腐罪名的证据必须是实实在在的利益。关键词\n\n为:must be made of concrete benefits©\n\n① 句退而补充最高法院对政府官员收受礼物行为的看法：令人不齿、卑鄙龌龊。强调词did+观点词\n\nsuggest +强贬义词distasteful、nasty突出强调最高法院对此行为的极度反感，照应首段②句holding its nose\n\nat the ethics of his conduct,复现它对麦克唐纳收受“贿赂”这一行为的道德谴责或蔑视；in return for明示政\n\n府官员与送礼者之间的“利益交换”:政府官员帮助有求者获取接近政府官员的机会,有求者为了表示答谢\n\n而回报以礼物，深层暗示麦克唐纳行为虽违背道德，但不属犯罪。注:opening doors照应上文seek access to\n\ngovernment, gain access to other officials,意指\"为（有求者）谋求接见政府官员的机会”。\n\n② 句进而强调“公务行为”构成贪腐罪名的必要条件：切切实实的好处/利益。But实现①②句间“让\n\n步一转折”逻辑：尽管法院确实表示收受回报令人不齿，但构成贪腐罪必须要以实实在在的收益为证据，\n\n暗示本句在解释麦克唐纳行为不足以构成贪腐的法律依据（under取其僻义“根据，按照，依照（法律、协\n\n定、制度等）”）。must以其“强制性”强调贪腐罪名成立的必要条件：实实在在的利益;such as...以“批准\n\n某项合约或规定”例证抽象概念“实实在在的利益”具体所指。注:such as虽为简单例证部分，却作用重\n\n大：借助approvalcontractregulation三词饱含的“正式性、官方性”暗示批准某项合约或规定这一行为\n\n实属政府公务行为，明确本句真实探讨内容为公务行为构成贪腐罪的必要条件，同时明确concrete\n\nbenefits的受益方实为“送礼者”而非“公务人员”，即指“公务人员为送礼者提供的公务性质的有形的利\n\n益/好处”。\n\n43\n\n③\n\n句最后指出仅仅安排一次会面\n\n、拨打一个电话或主持一项活动连“公务行为”都不算（，更谈不上贪\n\n腐定罪）。强调副词Simply以其“单一性”复现上段Merely,进而以is not an \"official act\"圆合上段is not\n\ncorruption的缘由：其行为连构成贪腐罪必要要件的“公务行为”都尚未满足，更无需多论其是否贪腐。\n\n【深层解读】本段嫁接第",
       "points": 2,
       "sort_order": 36,
       "answer": "C"
@@ -1370,7 +1370,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "37. According to Paragraph 4, an official act is\n\ndeemed corruptive only if it involves\n\n・\n\n37.根据第四段，一个公务行为只有在它涉及\n\n时，才被认为是腐败。\n\n[A] leaking secrets intentionally\n\n【A】故意泄密\n\n[B] sizable gains in the form of gifts\n\n【B】可观的礼物收益\n\n[C] concrete returns for gift-givers\n\n【C】为送礼者提供实实在在的回报\n\n[D] breaking contracts officially\n\n【D】公务上的违约\n\n【精准定位】第四段②句指出：根据反贿赂法，（构成贪腐罪的）证据必须是实实在在的好处，譬如批准\n\n某项合同或规定。可见，公务行为判定为贪腐的必要条件是公务人员为送礼者提供切实回报，故【C】正确。\n\n【命题解密】题干+正确项【C】是对本段②句的proof must be made of concrete benefits的同义改写。\n\n【A】错将第三段clear intent...（明确意图）由“对官员施压”曲解为“故意泄密”。【B】错将concrete\n\nbenefits\"公务人员回赠给送礼者的切实的、有形的收益”曲解为“公务人员自身收到的可观礼物”。【D】\n\n由approval of a contract反向捏造出**breaking contracts\",但\"批准一项合约\"是为了举例说明构成腐败\n\n的具体证据，属构成腐败的个例而非必要条件，反向干扰更不成立。\n\n【技巧总结】解答段落细节推理题时要善于借助题干抓取正确项定位信息，然后就定位信息敲定正\n\n确答案。如本题，题干中only if提示所设题眼为“（公务行为被判定为腐败的）必要条件”，顺而从第四段\n\n中抓取表达必要条件的关键词，由此锁定②句（must为必要条件表达词）并根据该句句意敲定【C】正确。\n\nV ©The court's ruling is legally sound in defining a\n\nkind of favoritism that is not criminal. ©Elected leaders\n\nmust be allowed to help supporters deal with\n\nbureaucratic® problems without fear of prosecution 1 for\n\nbribery. ❸\"The basic compactu underlying\n\nrepresentative government,w wrote Chief Justice John\n\nRoberts for the court, ** assumes® that public officials will\n\nhear from their constituents® and act on their concerns. w\n\n最高法院的裁决在法律上合理地界定\n\n了一种不违法的“偏袒行为”。民选领袖应\n\n该被允许帮助其支持者解决繁文缚节问题\n\n而不用担心被起诉受贿赂。“构成代议制政\n\n府基础的基本契约认定，公职人员要倾听选\n\n民心声，要据选民关切之事出谋划策，”最高\n\n法院首席法官约翰•罗伯茨写道。\n\n•词汇注释与难句分析•也\n\n©bureaucratic [ibjo：rRkrsetik] a.政府的，官员的\n\n©prosecution [prDsi'kju：Jan] n.起诉，诉讼\n\n③ compact [kam'psekt] n.契约；协定\n\n④ assume [a'sjuim] v.假设，假定\n\n⑤constituent Ekan'stitjuant] n.选民，选举人\n\n©justified E'd3Astifaid] a.有正当理由的（38 题）\n\n⑦exempt [ig'zem（p）t] v.免除，豁免（38 题）\n\n44\n\n•经典搭配\n\n》③representative government （代议制政府）\n\n（Delected leader （民选领袖）\n\n?\n\n④ acton...（按照... 行事）\n\n②deal with （处理，解决，应对）\n\nI\n\n•语篇分析\n\n第五至八段评价裁决的影响/意义。\n\n第五段分析直接影响：从法律上合理界定了一种不违法的“偏袒行为”。关键词为：legally sound0\n\n① 句直指影响：明晰偏袒行为与腐败之间的界线—\n\n有一种偏袒并不属于腐败。sound**合理的，正\n\n确的”承前said、found、suggest,实现由“描述”到“评价”的转换，奠定作者支持最高法院裁决的情感基调；\n\ndefine以“当前最高法院裁决界定了偏袒行为违法界线”反衬“此前下级法院未能明晰偏袒行为与腐败之\n\n间的界线，进而误读误判了麦克唐纳的偏袒行为”；that is not criminal则以“修饰限定最高法院界定的对\n\n象:不违法的偏袒行为”暗示“此前偏袒行为违法与否界线不明，易被人们乃至法院误读误判，错将一切\n\n偏袒行为划拨为腐败行为”，也反衬“本案实际聚焦偏袒行为与腐败之间的界线问题”。\n\n②③句通过说明“政府官员某种偏袒行为的必要性”侧面解释①句“某些偏袒行为并不等同于贪\n\n腐”o ②句 help supporters deal with bureaucratic problems、③句 will hear from their constituents and act\n\non their concerns 实质回应 a kind o£ favoritism that is no criminal,实现两层次间解释说明关联。\n\n② 句说明某种偏袒行为“民选领袖帮助选民解决繁文縛节问题”的必要性。must以其“必要性、重要\n\n性（有时事关规则或法律）”强调“民选领袖享有'帮助支持者解决与政府相关繁文縛节问题，即予以一定偏\n\n袒，而无须担心被起诉受贿'的法律权利”。\n\n③ 句引用首席法官之言“代议制政府基本契约中认定公职人员应倾听选民心声、为选民出谋划策”\n\n说明②句原因。basic,underlying复现“基础”之意，强调这一契约的重要性，反衬“遵契约办事”是对公职\n\n人员的基本要求;will义同②句must,表命令语气，即“（基础契约之下，）公职人员必须这么做”;and形似\n\n连接两个并列命令结构，实表语义递进“民选领袖在了解选民心声之后，要为民众出谋划策”。\n\n【深层解读】本段分析裁决的直接影响，深层用意有二：一、指出“政府官员有权对其选民采取一定形\n\n式的偏袒行为，并不是一切偏袒行为都算腐败”；",
+      "explanation": "37. According to Paragraph 4, an official act is\n\ndeemed corruptive only if it involves\n\n・\n\n37.根据第四段，一个公务行为只有在它涉及\n\n时，才被认为是腐败。\n\n[A] leaking secrets intentionally\n\n【A】故意泄密\n\n[B] sizable gains in the form of gifts\n\n【B】可观的礼物收益\n\n[C] concrete returns for gift-givers\n\n【C】为送礼者提供实实在在的回报\n\n[D] breaking contracts officially\n\n【D】公务上的违约\n\n【精准定位】第四段②句指出：根据反贿赂法，（构成贪腐罪的）证据必须是实实在在的好处，譬如批准\n\n某项合同或规定。可见，公务行为判定为贪腐的必要条件是公务人员为送礼者提供切实回报，故【C】正确。\n\n【命题解密】题干+正确项【C】是对本段②句的proof must be made of concrete benefits的同义改写。\n\n【A】错将第三段clear intent...（明确意图）由“对官员施压”曲解为“故意泄密”。【B】错将concrete\n\nbenefits\"公务人员回赠给送礼者的切实的、有形的收益”曲解为“公务人员自身收到的可观礼物”。【D】\n\n由approval of a contract反向捏造出breaking contracts\",但\"批准一项合约\"是为了举例说明构成腐败\n\n的具体证据，属构成腐败的个例而非必要条件，反向干扰更不成立。\n\n【技巧总结】解答段落细节推理题时要善于借助题干抓取正确项定位信息，然后就定位信息敲定正\n\n确答案。如本题，题干中only if提示所设题眼为“（公务行为被判定为腐败的）必要条件”，顺而从第四段\n\n中抓取表达必要条件的关键词，由此锁定②句（must为必要条件表达词）并根据该句句意敲定【C】正确。\n\nV ©The court's ruling is legally sound in defining a\n\nkind of favoritism that is not criminal. ©Elected leaders\n\nmust be allowed to help supporters deal with\n\nbureaucratic® problems without fear of prosecution 1 for\n\nbribery. ❸\"The basic compactu underlying\n\nrepresentative government,w wrote Chief Justice John\n\nRoberts for the court,  assumes® that public officials will\n\nhear from their constituents® and act on their concerns. w\n\n最高法院的裁决在法律上合理地界定\n\n了一种不违法的“偏袒行为”。民选领袖应\n\n该被允许帮助其支持者解决繁文缚节问题\n\n而不用担心被起诉受贿赂。“构成代议制政\n\n府基础的基本契约认定，公职人员要倾听选\n\n民心声，要据选民关切之事出谋划策，”最高\n\n法院首席法官约翰•罗伯茨写道。\n\n•词汇注释与难句分析•也\n\n©bureaucratic [ibjo：rRkrsetik] a.政府的，官员的\n\n©prosecution [prDsi'kju：Jan] n.起诉，诉讼\n\n③ compact [kam'psekt] n.契约；协定\n\n④ assume [a'sjuim] v.假设，假定\n\n⑤constituent Ekan'stitjuant] n.选民，选举人\n\n©justified E'd3Astifaid] a.有正当理由的（38 题）\n\n⑦exempt [ig'zem（p）t] v.免除，豁免（38 题）\n\n44\n\n•经典搭配\n\n》③representative government （代议制政府）\n\n（Delected leader （民选领袖）\n\n?\n\n④ acton...（按照... 行事）\n\n②deal with （处理，解决，应对）\n\nI\n\n•语篇分析\n\n第五至八段评价裁决的影响/意义。\n\n第五段分析直接影响：从法律上合理界定了一种不违法的“偏袒行为”。关键词为：legally sound0\n\n① 句直指影响：明晰偏袒行为与腐败之间的界线—\n\n有一种偏袒并不属于腐败。sound合理的，正\n\n确的”承前said、found、suggest,实现由“描述”到“评价”的转换，奠定作者支持最高法院裁决的情感基调；\n\ndefine以“当前最高法院裁决界定了偏袒行为违法界线”反衬“此前下级法院未能明晰偏袒行为与腐败之\n\n间的界线，进而误读误判了麦克唐纳的偏袒行为”；that is not criminal则以“修饰限定最高法院界定的对\n\n象:不违法的偏袒行为”暗示“此前偏袒行为违法与否界线不明，易被人们乃至法院误读误判，错将一切\n\n偏袒行为划拨为腐败行为”，也反衬“本案实际聚焦偏袒行为与腐败之间的界线问题”。\n\n②③句通过说明“政府官员某种偏袒行为的必要性”侧面解释①句“某些偏袒行为并不等同于贪\n\n腐”o ②句 help supporters deal with bureaucratic problems、③句 will hear from their constituents and act\n\non their concerns 实质回应 a kind o£ favoritism that is no criminal,实现两层次间解释说明关联。\n\n② 句说明某种偏袒行为“民选领袖帮助选民解决繁文縛节问题”的必要性。must以其“必要性、重要\n\n性（有时事关规则或法律）”强调“民选领袖享有'帮助支持者解决与政府相关繁文縛节问题，即予以一定偏\n\n袒，而无须担心被起诉受贿'的法律权利”。\n\n③ 句引用首席法官之言“代议制政府基本契约中认定公职人员应倾听选民心声、为选民出谋划策”\n\n说明②句原因。basic,underlying复现“基础”之意，强调这一契约的重要性，反衬“遵契约办事”是对公职\n\n人员的基本要求;will义同②句must,表命令语气，即“（基础契约之下，）公职人员必须这么做”;and形似\n\n连接两个并列命令结构，实表语义递进“民选领袖在了解选民心声之后，要为民众出谋划策”。\n\n【深层解读】本段分析裁决的直接影响，深层用意有二：一、指出“政府官员有权对其选民采取一定形\n\n式的偏袒行为，并不是一切偏袒行为都算腐败”；",
       "points": 2,
       "sort_order": 37,
       "answer": "C"
@@ -1524,11 +1524,11 @@
           "value": "G"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "F",
       "explanation": "41.本题考核的知识点是：上下文逻辑衔接\n\n【选项推测】已经确定位置的【E】段首句提及重要时间线索“他父亲从监狱获释后不久”，可推知上\n\n文必定涉及“他父亲入狱”的内容；另外首段【D】也已给出，需注意考查所选项能否与【D】顺畅衔接。\n\n【答案敲定】由【路标词解析】可知，【F】为本题备选项。\n\n【F】 段主要介绍狄更斯的家庭背景和童年经历，其中第六、七句指出，狄更斯家庭日渐贫困，之后他\n\n的父亲因债入狱，在内容上能够与【E】段首句“他父亲获释”形成顺畅的叙事顺序；同时，【E】段还提及狄\n\n更斯在他父亲获释后获得更好的工作：法律事务所的跑腿，而【F】段第六句介绍他曾做过鞋油厂受人嘲\n\n笑的童工，两者相比，显然前者更好，比较级a better job as errand boy所体现的前后比较逻辑成立，故\n\n【F】与下文【E】衔接顺畅；从与上文的衔接看，由首段【D】的内容可知，本文是关于狄更斯的传记。传记\n\n在引出人物之后，一般以时间顺序介绍人物生平，而【F】段介绍了狄更斯的出生地、家庭背景、童年经历\n\n57\n\n等，符合传记的一般写作顺序，故[F]与上文也能顺畅衔接，敲定为本题答案。",
       "points": 2,
       "sort_order": 41,
-      "answer": "A"
+      "answer": "F"
     },
     {
       "id": "b2eb06e9-efab-51fb-a2d7-af6cce12a16f",
@@ -1574,11 +1574,11 @@
           "value": "G"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "E",
       "explanation": "42.本题考核的知识点是：上下文逻辑衔接\n\n【选项推测】已经确定位置的【A】段首句提及“狄更斯发表了第一篇随笔”，故推知上文必定涉及狄\n\n更斯开始写随笔并向杂志社投稿的过程。\n\n【答案敲定】由【路标词解析】可知，【E】为本题备选项。\n\n【E】 段先介绍了狄更斯早年工作经历，之后指出，在他当议会记者期间，他就注意观察并记录周围生\n\n活中的奇闻趣事，写成随笔后开始向不知名的杂志投稿，与【A】段“第一篇随笔发表”正好形成“写稿投\n\n稿一一发表”的叙述顺序，逻辑合理，衔接顺畅，故敲定【E】为本题答案。",
       "points": 2,
       "sort_order": 42,
-      "answer": "C"
+      "answer": "E"
     },
     {
       "id": "0cefd0ef-500a-572c-8fc9-01215fddd8fb",
@@ -1624,11 +1624,11 @@
           "value": "G"
         }
       ],
-      "correct_answer": "F",
+      "correct_answer": "A",
       "explanation": "43.本题考核的知识点是：上下文逻辑衔接\n\n【选项推测】已经确定位置的【C】段首句出现明显时间线索，指出“《博兹札记》面世不久之后，狄更斯\n\n开始创作第一部小说”,故推知上文必定涉及《博兹札记》的创作过程。\n\n【答案敲定】由【路标词解析】可知，【A】为本题备选项。\n\n【A】段指出，第一篇随笔发表之后，狄更斯便开始以笔名Boz“博兹”大规模创作并发表，由关键词\n\nsketches可知，【C】段中Sketches by Bozd.博兹札记》是狄更斯所创作的大量随笔的集结汇总，且随笔署名\n\n为Boz,与【A】段所述内容相符，【A】与【C】前后能够形成“大量创作随笔一集结出版面世”的叙述顺\n\n序，符合逻辑，故敲定【A】为本题答案。",
       "points": 2,
       "sort_order": 43,
-      "answer": "F"
+      "answer": "A"
     },
     {
       "id": "9375b335-38fe-5381-afc6-4cd661a193d6",
@@ -1674,11 +1674,11 @@
           "value": "G"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "44.本题考核的知识点是\n\n：上下文逻辑衔接\n\n【选项推测】已经给定位置的【B】段首句指出“《匹克威克外传》获得巨大成功，在全国掀起了，匹克\n\n威客热'”，由此推测上文必定介绍该部小说的创作或出版过程。\n\n【答案敲定】由【路标词解析】可知，【C】为本题备选项。\n\n【C】段以大篇幅介绍狄更斯与画家西摩的合作经历，之后点明两人合作故事为《匹克威克俱乐部遗\n\n稿》，即《匹克威克外传》，段末补充该故事先以月刊连载、后集结成书，可总结本段主要介绍该部小说的\n\n创作和出版过程，与【B】 “该小说出版后读者反响强烈、大获成功”前后衔接顺畅，故敲定【C】正确。",
       "points": 2,
       "sort_order": 44,
-      "answer": "B"
+      "answer": "C"
     },
     {
       "id": "316b16fe-77de-5613-a670-cbc4947b12ef",
@@ -1724,12 +1724,12 @@
           "value": "G"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "G",
       "explanation": "45.本题考核的知识点是\n\n：上下文逻辑衔接+末段的作用\n\n【选项推测】已经确定位置的[B]指出，狄更斯的第一部小说大获成功，结合人物传记的行文顺序，\n\n后文很可能介绍他后续发表的作品及影响等。\n\n【答案敲定】由【路标词解析】可知，[G]为本题备选项。\n\n[G]首句时间线索词After Pickwick(继《匹克威客外传》之后)表明本段按时间顺序，继续说明狄更\n\n斯的后续创作，指出他后续作品风格阴郁，并以《雾都孤儿》和《尼古拉斯•尼克贝》来例证说明，与上文\n\n[B]衔接顺畅；另外，[G]段末句在列举狄更斯几部重要小说之后，再次肯定评价狄更斯的崇高文学地\n\n位，与首段“总评狄更斯的文学成就”相照应，全文总体形成“总一分— -总”的结构，逻辑合理。\n\n至此，全文顺序确定为]D]—[A]—[C]—[B]—[G]。\n\n(2)通读检验。在上面排序的基础之上，再通读一遍，检查思路是否清晰连贯，结构是否相对完整.\n\n段间层次关系是否恰当。在整体审视后，方最终确定。\n\n知识补充",
       "points": 2,
       "sort_order": 45,
-      "answer": "D"
+      "answer": "G"
     }
   ],
-  "exportedAt": "2026-10-13T00:01:45.353Z"
+  "exportedAt": "2026-10-15T11:04:53.738Z"
 }
