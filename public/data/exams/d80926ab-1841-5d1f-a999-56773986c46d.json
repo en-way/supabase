@@ -425,7 +425,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "\n10 \nva l u 巳\no f 100, and have \ncontributed ",
+      "explanation": "10. [A] normal 正常的，平常的\n[B] common 常见的，共同的\n[C] mean 平均的\n[D] total 总的，全部的\n［考点提炼］熟词僻意＋形容词辨析。正确率：14%\n［解题思路］空格所在部分说明这一族群在智商测试中表现突出（do well）：得分比 100 的值高出 12 至 15 分。前文提及，这一族群比其他族群智商更高，即他们在智商测试中的得分应该高于其他族群的得分，故必然高于测试的平均值，［C］后接名词，可表示“平均的”，用法等同于 average，故正确。\n［错项排除］normal value 指“标准值，正常值”，介词 of 后可以接“正常值的主体”；其次该短语表示一个区间的范围，而非某确定数值，故排除［A］。common value 指“共同价值观”，偏离上下文语境，排除［B］。total value 指“总价、总值”，而 above the total value of... 显然违背逻辑：既然是“总数值”，自然不能“高于它”，排除［D］。",
       "points": 0.5,
       "sort_order": 10,
       "answer": "C"
@@ -635,7 +635,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "\n16 \neducation. 0 The latter was \nseen as a ( an) ",
+      "explanation": "16. [A] assessing 评价，评定；估价\n[B] supervising 监督，指导\n[C] administering 管理，治理\n[D] valuing 尊重，重视\n［考点提炼］熟词僻意。正确率：34%\n［解题思路］句中 such as... 引出对 social effects 的举例说明，即“高智商形成的社会因素”。结合选项动词，再由已知信息“重视教育的传统”以及段首句“他们对西方知识文化的贡献巨大”可以推知，该族群在教育方面投入很大，故这一传统应该是“重视教育”，［D］正确。\n［错项排除］［A］、［B］与［C］均从管理者的角度介绍某种单一因素，文中对象为“某一特定族群”，既未强调其地位，也未说明其身份，且对教育单纯的“评估、监管、管理”并不能与“贡献巨大”发生直接关联，排除这三项。",
       "points": 0.5,
       "sort_order": 16,
       "answer": "D"
@@ -1731,5 +1731,5 @@
       "answer": "E"
     }
   ],
-  "exportedAt": "2026-10-15T11:15:12.942Z"
+  "exportedAt": "2026-10-15T11:40:33.826Z"
 }

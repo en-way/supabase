@@ -180,7 +180,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "\n3 \nbulbs© burn longer , \nthat there is a( n) ",
+      "explanation": "3. [A] thinner 更薄的；更细的；更稀的\n[B] stabler 更稳定的，更稳固的\n[C] lighter 更明亮的；更轻的\n[D] dimmer 更暗淡的；更愚笨的\n［考点提炼］上下文语义。正确率：73%\n［解题思路］由 This suggests 可推知空格句“____ 的灯泡寿命越长”是由上文实验结果“越聪明的果蝇寿命越短”得出的推论，两句之间为反向呼应的关系；而由后半句 ...not being too bright（不是特别明亮）可以判断本句涉及对“暗灯泡 vs 亮灯泡”的对比，故空格处只能为 dimmer，即“越暗的灯泡寿命越长”，dim 既表示“暗的”，还含有“愚笨的”这层喻意，恰与上句“聪明的（smarter）”反向对应，［D］正确。\n［错项排除］［A］只涉及灯泡的粗细造型，而灯泡的寿命主要取决于灯丝。［B］利用常识“性能稳定的灯泡寿命长”干扰，但与上文结论“聪明的果蝇寿命短”无关。［C］与文中大逻辑相反。",
       "points": 0.5,
       "sort_order": 3,
       "answer": "D"
@@ -460,7 +460,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "\n11 \nof our own \nintelligence might be. OThis is ",
+      "explanation": "11. [A] features 特征，特色\n[B] influences 影响\n[C] costs 代价，付出\n[D] rewards 报酬，奖赏\n［考点提炼］上下文语义。正确率：56%\n［解题思路］空格句指出，研究含蓄地提出了一个问题：我们独有的智力到底会有怎样的 ____。上文第二段首句已明确指出“智力是代价高昂的选择（a high-priced option）”，并且后文第三段继续探讨智力消耗更多能量和给养的弊端，故此处空格词必然对应“代价（costs）”，［C］正确。\n［错项排除］［A］“特征”偏离文意，文章并非在泛泛列举智力的特点；［B］“影响”过于宽泛，无法呼应前文 high-priced option 所体现的代价；［D］“报酬”与全文探讨智力负面代价的主题逻辑相反。",
       "points": 0.5,
       "sort_order": 11,
       "answer": "D"
@@ -600,7 +600,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "\n15 \nanimals ran the labs, they would test us to ",
+      "explanation": "15. [A] if 如果\n[B] unless 除非\n[C] as 当……时\n[D] lest 免得，以免\n［考点提炼］上下文语义＋虚拟语气。正确率：75%\n［解题思路］空格句意为：我们认为，____ 动物掌管实验室，它们会测定我们的……。首先“动物掌管实验室”并非真实情况，从时态 ran... would test 可知此句为虚拟语气，表达对不可能情况的假设，只有 if 符合要求，同时与前句假设“动物如果有机会，将会对人类做什么实验”相呼应，［A］正确。\n［错项排除］［B］用于引出某事不会发生的唯一条件；［C］引导时间状语从句，不与虚拟语气配合表假设；［D］表“以免、免得”，不符合虚拟条件句的语义。",
       "points": 0.5,
       "sort_order": 15,
       "answer": "A"
@@ -1731,5 +1731,5 @@
       "answer": "G"
     }
   ],
-  "exportedAt": "2026-10-15T11:15:12.600Z"
+  "exportedAt": "2026-10-15T11:40:32.719Z"
 }
