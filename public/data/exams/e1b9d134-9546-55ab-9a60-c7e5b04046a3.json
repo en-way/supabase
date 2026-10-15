@@ -170,11 +170,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "3.\n\n【AJ means方法，手段，工具\n\n【B】 method方法，条理\n\n【C】 medium媒介，手段\n\n【D】 measure措施，手段，策略\n\n【试题考点】名词词义辨析\n\n【解题思路】③句历数印刷时代通信的发展历程：主句强调报纸直到19世纪才成为“主流3\n\n”,\n\n随后说明之前的主流依次是“宣传册、书籍、期刊”等。同时空格受到pre-electronic限定，暗示文章将\n\n“报纸等印刷品”和“电子时代产品(①句电视、④句电报、电话、电影等)”划归同一类别，因此空格处应概\n\n括上下文所涉及的“各种印刷品和电子产品”的共同特点，即“大众传媒”，因此【C】项正确。\n\n【错项排除】四个选项均含“方法、策略”之意，但只有medium特指“(传播信息的)媒介、手段”。另\n\n外，其他三项表示“方法”时略有区别:means泛指“(做某事的)手段或工具”，可指“人或物”，也可指“具\n\n体事物或抽象意念method强调“(成体系或可总结以供使用的)方法或办法”;measure做“措施、办法”\n\n讲时相当于step,多指“(官方采取的有步骤的)行动”，旨在解决负面问题。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "D"
+      "answer": "C"
     },
     {
       "id": "92e4ae41-51c6-5856-8e96-b1ebb836db71",
@@ -186,30 +186,30 @@
       "options": [
         {
           "key": "A",
-          "text": "Verified standard correct option according to official analysis",
+          "text": "(in the) process (of)",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Alternative comparative expression discussed in the text",
+          "text": "(in the) company (of)",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Contrasting rhetorical device emphasized by the author",
+          "text": "(in the) light (of)",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Secondary grammatical element indicated in the sentence",
+          "text": "(in the) form (of)",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "\n4. \n［A］ (in the) process (of)在... 过程中\n［B］ (in the) company (of)在....陪伴下；与.... 同时出现\n［C］ (in the) light (of)考虑到，鉴于，根据\n［D］ (in the) form (of)以....的形式\n［试题考点］上下文语义+介词短语辨析\n［解题思路］③句以“19世纪报纸成为主要传播媒介的时间”为参照点，用一条线罗列宣传册、书 \n籍、期刊、报纸作为主要传播媒介的发展历程。其中following in the wake of...指“报纸紧跟宣传册和 \n书之后而来”；而空格处连接“期刊”，应体现“期刊与报纸在时间上的先后顺序”,选项中体现时间线索 \n的只有［B］项(in the) company (of),意为“与……同时出现”，至此纸质媒体的发展顺序可整理为：先是 \n宣传册与图书，然后19世纪报纸伴随期刊一同成为印刷时代的主流媒介。\n［错项排除］［A］［C］［D］三项都不能体现期刊与报纸两者在时间上的关系；其中 ,in the process of \n表示进程，in the light of侧重“考虑问题的根据、视角等”，in the form of表示“形式”。",
+      "correct_answer": "B",
+      "explanation": "［A］ (in the) process (of)在... 过程中\n［B］ (in the) company (of)在....陪伴下；与.... 同时出现\n［C］ (in the) light (of)考虑到，鉴于，根据\n［D］ (in the) form (of)以....的形式\n［试题考点］上下文语义+介词短语辨析\n［解题思路］③句以“19世纪报纸成为主要传播媒介的时间”为参照点，用一条线罗列宣传册、书籍、期刊、报纸作为主要传播媒介的发展历程。其中following in the wake of...指“报纸紧跟宣传册和书之后而来”；而空格处连接“期刊”，应体现“期刊与报纸在时间上的先后顺序”,选项中体现时间线索的只有［B］项(in the) company (of),意为“与……同时出现”，至此纸质媒体的发展顺序可整理为：先是宣传册与图书，然后19世纪报纸伴随期刊一同成为印刷时代的主流媒介。\n［错项排除］［A］［C］［D］三项都不能体现期刊与报纸两者在时间上的关系；其中 ,in the process of表示进程，in the light of侧重“考虑问题的根据、视角等”，in the form of表示“形式”。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "A"
+      "answer": "B"
     },
     {
       "id": "e0ebfd23-3875-5594-b55d-85267a234d77",
@@ -256,30 +256,30 @@
       "options": [
         {
           "key": "A",
-          "text": "Verified standard correct option according to official analysis",
+          "text": "(lead) on",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Alternative comparative expression discussed in the text",
+          "text": "(lead) out",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Contrasting rhetorical device emphasized by the author",
+          "text": "over",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Secondary grammatical element indicated in the sentence",
+          "text": "(lead) off",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "\n6. \n［A］ (lead) on引导，率领……继续前进 \n［B］ (lead) out领舞伴起舞;鼓励、逗引(某人)讲话\n［C］ over不与lead搭配 \n［D］ (lead) off起始于；开始\n［试题考点］短语动词搭配+副词词义辨析\n［解题思路］通过对上题的分析，可知④句主题为通信革命进程，空格6、7同样位于此句，均表示进 \n程。其主干部分说明，通信革命在19世纪(during the same time)加速发展。beginning with. . . leading\n6 through...部分为现在分词做状语，详细描述通讯革命加速发展的进程态势：始于铁路，然后是 \n电报电话等，此处空格前lead意为“带路、引路、前行”，因此空格处应能体现“继续前进”的态势。介词 \non含有be continuing to do sth\"继续地，向前地\"之意，与lead连用，凸显了通信革命一路向前、马不停蹄 \n的发展势头。［A］项正确。\n［错项排除］out与lead搭配意为“领舞伴起舞；鼓励、逗弓|(某人)讲话”，脱离全句主题；over不与 \nlead搭配，其本身作为进程讲含有“结束”的意思，而文中表示的却是“继续往前发展”。［D］项lead off \n(from) sth意为“起始于(某地)% lead (sth) off则指“开始做某事”，不合文意。",
+      "correct_answer": "A",
+      "explanation": "［A］ (lead) on引导，率领……继续前进\n［B］ (lead) out领舞伴起舞;鼓励、逗引(某人)讲话\n［C］ over不与lead搭配\n［D］ (lead) off起始于；开始\n［试题考点］短语动词搭配+副词词义辨析\n［解题思路］通过对上题的分析，可知④句主题为通信革命进程，空格6、7同样位于此句，均表示进程。其主干部分说明，通信革命在19世纪(during the same time)加速发展。beginning with. . . leading 6 through...部分为现在分词做状语，详细描述通讯革命加速发展的进程态势：始于铁路，然后是电报电话等，此处空格前lead意为“带路、引路、前行”，因此空格处应能体现“继续前进”的态势。介词on含有be continuing to do sth\"继续地，向前地\"之意，与lead连用，凸显了通信革命一路向前、马不停蹄的发展势头。［A］项正确。\n［错项排除］out与lead搭配意为“领舞伴起舞；鼓励、逗弓|(某人)讲话”，脱离全句主题；over不与lead搭配，其本身作为进程讲含有“结束”的意思，而文中表示的却是“继续往前发展”。［D］项lead off (from) sth意为“起始于(某地)% lead (sth) off则指“开始做某事”，不合文意。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "f1ce9ea1-31c8-53ec-a21b-90c9a2a9f0cd",
@@ -380,11 +380,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "9. Besides reducing human labor, robots can also\n\n・\n\n29.除了能够节省劳力外，机器人还能。\n\n[A] make a few decisions for themselves\n\n【A】自己做些决定\n\n[B] deal with some errors with human intervention\n\n【B】在人为干预下处理一些错误\n\n[C] improve factory environments\n\n【C】改善工厂的环境\n\nLDJ cultivate human creativity\n\n【D】培养人类的创造性\n\n【命题解密】正确项【B】是对②句机器人已实现功能的替换和改写：deal with some errors同义替换\n\nhandle a specific error, with human intervention 则是对 we.. . tell a robot to...的概括和改写。\n\n【A】源于第三段①句make at least a few decisions for themselves,但根据上下文可知这是机器人尚\n\n无法实现的功能。【C】首先利用第二段第②句中factories设障，并将第一段①句中to cope with work that\n\nis dangerous, boring, burdensome, or just plain nasty所述“恶劣工作环境”偷换成“改善工厂环境”。【D】错\n\n在将第一段所述“人类创造力促使人们设计日益灵巧的工具”改为“机器人培养人类的创造性”。\n\n【技巧总结】第三段主要论述了机器人技术下一阶段面临的挑战，具体内容表现为机器人已实现及\n\n尚未实现的功能，两方面交叉呈现。不难发现，上题（28题）考查没有实现的功能，本题（29题）考査已经\n\n实现的功能。换句话说，前后两道题目从正、反角度考查第三段内容。也即本题的解题思路同28题，依\n\n然可以通过解密题干信息进行大概定位，随后从选项入手，将其内容与原文对号入座，做到“有的放矢、\n\n各个击破”，合题干意以及原文意者为正确项。\n\n如本题：根据题干robots can also可解密出是在考查机器人已经实现的功能，顺回原文对应的是\n\n“we know how to tell a robot to...（我们知道如何命令机器人... ）”。由此，可锁定答案范围为“tell a\n\nrobot to handle a specific error”，可见正确项【B】是答案范围内的同义表达，并且是机器人业已实现的功\n\n能。【A】属于未实现的功能，不对题干。【C】、【D】均曲解原文意思。\n\n21\n\nIV O Indeed the quest for true artificial intelligence\n\nhas produced very mixed results. ❷ Despite a spell® of\n\ninitial© optimism in the 1960s and 1970s when it appeared\n\nthat transistor® circuits and microprocessors® might be\n\nable to copy the action of the human brain by the year\n\n2010, researchers lately have begun to extend that\n\nforecast by decades if not centuries.\n\n实际上对真正人工智能的探索己经产\n\n生了喜忧参半的结果。尽管在20世纪60\n\n年代和70年代有过一段最初的乐观时\n\n期—\n\n那时侯晶体管电路和微处理器的发\n\n展似乎使人们相信到2010年就能实现复\n\n制人脑—\n\n但最近研究人员已开始将这个\n\n预测延后数十年，甚至数百年。\n\n•阴兀注樽写难句分析也/\n\n① spell [spel] n. 一段时间\n\n② initial [JniJl] a.[仅用于名词前]开始的，最初的\n\n③ transistor [treen'zisto] n.晶体管\n\n④ microprocessor [imaikrau'prausesa] n.微处理器\n\n》•经典搭配\n\n》 ©artificial intelligence 人工智能\n\n]\n\n②mixed results喜忧参半的结果\n\nDespite a spell of initial optimism in the 1960s and 1970s when it appeared that transistor circuits and\n\nmicroprocessors might be able to copy the action of the human brain by the year 2010, researchers lately\n\nhave begun to extend that forecast by decades if not centuries.\n\n结构切分：\n\ntransistor circuits and microprocessors might be able to copy\n\n主语\n\n谓语\n\nthe action of the human brain by the year 2010\n\n宾语\n\n时间状语\n\nDespite a spell of initial optimism in the 1960s and 1970s\n\n让步状语\n\n句子主干:\n\ndespite的介词宾语\n\n定韬从句\n\n主语从句\n\njjr—\n\nwhen it\n\nappeared that...\n\n关麺词形无主语谓语\n\nresearchers lately have begun to extend that forecast by decades if not centuries\n\n主语\n\n谓语\n\n功能注释：本句Despite... 2010（**尽管……”）为让步状语，描述研究者曾经对“机器人技术复制人\n\n类大脑”的乐观看法，主句则转而指出研究人员现在已将之前预计的时间无限期推后。\n\n方式状语\n\nV ❶ What they found, in attempting to model①\n\nthought, is that the human brain's roughly one hundred\n\nbillion nerve cells are much more talented一and human\n\nperception far more complicated—than previously\n\nimagined. ©They have built robots that can recognize the\n\nerror of a machine panel② by a fraction0 of a millimeter in\n\na controlled factory environment. © But the human mind\n\ncan glimpse® a rapidly changing scene and immediately\n\ndisregard ⑤ the 98 percent that is irrelevant,\n\ninstantaneously® focusing on the monkey at the side of a\n\nwinding forest road or the single suspicious⑦ face in a big\n\ncrowd. ©The most advanced computer systems on Earth\n\ncan't approach⑧ that kind of ability, and neuroscientists\n\nstill don't know quite how we do it. [419 words]\n\n在试图模拟人类思维的过程中，研究\n\n人员发现，人类大脑的近一千亿个神经细\n\n胞远比以前想象的更聪明，人类的感知能\n\n力也复杂得多。人类已经建造了能够在受\n\n控的工厂环境里识别仪器板上若干分之一\n\n毫米差错的机器人。但是人脑只要瞥一眼\n\n快速变化的场景，就能迅速排除98%的不\n\n相干信息—\n\n立即聚焦于蜿蜒的森林小路\n\n边的一只猴子，或者一大群人中的一张可\n\n疑面孔上。世界上最先进的计算机系统也\n\n不能与这种能力相媲美，而神经科学家们\n\n至今仍然不知道我们（人类）是怎样做到的\n\n这一点O\n\n22\n\n•词汇注释与难句分析・/\n\n(Dnodel [\"mDdl] u.做... 的模型，模拟\n\n(2J)anel ['peenl] n.仪表板，(控制)面板\n\n③Fraction E'fraekJanJ n.少量，一点儿\n\n(glimpse [glimps] v.(常指无意中)一瞥，一看\n\n◎disregard [(disregard] v.不理会，漠视\n\n(instantaneously [iinstan'teinjasliJ ad.即刻地\n\n》（Auspicious [sSspiJas] a.怀疑的；可疑的，令人起疑的\n\n| （Approach Ca'prautJ] v.接近，比得上\n\nj ©ibnormaiity [isebnoi'mselit订（30 题）n.异常，变态\n\nI •经典搭配\n\nf ①model thought模拟思维\n\n? ②a fraction of 一小部分\n\n1. What they found, in attempting to model thought, is that the human brain's roughly one hundred billion\n\nnerve cells are much more talented—and human perception far more complicated—than previously imagined.\n\n功能注释：句子主干是What .they found is that...,指岀研究人员的相关发现。插入成分in\n\nattempting to model thought说明该发现来源于模拟人类思维的过程。\n\n2. But the human mind can glimpse a rapidly changing scene and immediately disregard the 98 percent\n\nthat is irrelevant, instantaneously focusing on the monkey at the side of a winding forest road or the single\n\nsuspicious face in a big crowd・\n\n结构切分：句子主干：\n\n功能注释：句子主框架为 the human mind can glimpse. .. and disregard. . . , focusing on. . . or...,谓\n\n语由and连接的两个动词担当，以瞬间发生的两个动作表明人脑在动态环境中“过滤无关信息”的速度之\n\n快,focusing on为分词结构做结果状语，引出两个直观场景展现人脑“锁定目标”的能力。\n\n「•真题精解\n\n30. The author uses the example of a monkey to argue\n\nthat robots are\n\n.\n\n30.作者以猴子为例是为了说明机器\n\n人\n\n。\n\n[A] expected to copy human brain in internal structure\n\n[A]有望复制人脑的内部结构\n\n[B] able to perceive abnormalities immediately\n\nEB]能够立即感知异常现象\n\n23\n\n[C] far less able than human brain in focusing on\n\nrelevant information\n\nEc】在聚焦相关信息方面远不如人脑\n\n[D] best used in a controlled environment\n\n【D】在受控的环境下使用得最好\n\n【精准定位】第五段首、末句都指出，人脑的聪明、复杂程度超出了人类自己的想象，是任何机器人\n\n所无法达到的。②③句对机器人和人脑进行比较：机器人能够快速识别仪器板上的微小差错；但是人\n\n脑瞥一眼快速变化的场景就能够迅速排除不相干信息，把注意力集中到婉蜒的森林小路边的一只猴\n\n子。显然，人脑聚焦目标的速度和精确度远远超出了机器人。【C】选项符合题意。\n\n【命题解密】正确项【C】是例子细节（disregard the 98 percent that is irrelevant, instantaneously focusing\n\non）和段落主旨（human brain... much more talented,computer systems... can't approach）的结合。\n\n【A】、【B】分别利用第四段②句copy the action of the human brain和第五段首句perception对第五\n\n段主旨“计算机系统达不到人脑的聪明程度”进行反向干扰.强调机器人的优越性。【D】将第五段②句机\n\n器人的局限性“必须在受控的工厂环境下工作”曲解为机器人在不同条件下的使用效果“机器人在受控的\n\n环境下使用的最好”。\n\n【技巧总结】在例子处设题是考研常用命题方式。通常来说，例子以分句或从句出现时，可能旨在\n\n解释前一分句或主句；例子以单句或句群出现时，其前后一般会有总结性信息，该例子即在论证此信息。\n\n如本题:第③句提到“人脑只要瞥一眼快速变化的场景，就能迅速排除98%的不相干信息—\n\n立即聚焦\n\n于蜿蜒的森林小路边的一只猴子，或者一大群人中的一张可疑面孔上”。其中猴子（或人群中可疑面孔）的例\n\n子以从句出现，旨在说明主句,人即便在复杂多变的场景下（如蜿蜒的森林小路边或人群中），排除不相关信\n\n息与定位的能力依然超强（锁定一只猴子或可疑面孔），同时该句以but起头转折，也可判定机器人尚不具备\n\n人类的这种能力。故【C】正确。均试图说明机器人能够达到人脑的聪明程度和感知能力，与原文相\n\n悖。【D】与例子所要说明的观点不相干，并且添加“best used”与原文表述不符。\n\nText 3油价上涨对全球经济的影响\n\n知识补充\n\n外教朗读\n\n匸一.文章总体分析\n\n本文摘自The Economist （《经济学家》）1999年11月27日一篇题为Oil Pleasant Surprise（石油的\n\n惊喜）的文章。作者围绕“近期石油价格暴涨现状”就其“对全球经济带来的影响”进行分析，表明作者\n\n乐观态度并给出结论—\n\n油价上涨不会造成经济衰退。因果论证为全文主要论证基调，另外，对比、例\n\n证、说理和引用等论证手法也增强了文章的说服力。\n\n童二•词句注赛及试题精解\n\nI ❶ Could the bad old days of economic\n\ndecline be about to return?❷ Since OPEC agreed to\n\nsupply-cuts® in March, the price of crude^ oil has\n\njumped to almost $ 26 a barrel® , up from less than\n\n$ 10 last December・❸ This near-tripling® of oil\n\nprices calls up® scary⑥ memories of the 1973 oil\n\nshock» when prices quadrupled⑦，and 1979-1980»\n\nwhen they also almost tripled.❹ Both previous\n\nshocks resulted in double-digit® inflation® and\n\nglobal economic decline.❺ So where are the\n\nheadlines® warning of gloom and doom this time?\n\n过去那些经济衰退的悲惨日子是否即将重\n\n现？自石油输出国组织三月决定削减原油供应\n\n以来，原油价格已从去年十二月的每桶不到10美\n\n元上涨到接近26美元。油价的近三倍上涨勾起\n\n了人们对1973年和1979-1980年石油冲击可怕\n\n的回忆：1973年时，油价翻了两番,1979-1980年\n\n期间，油价也几乎涨至原先的三倍。前两次油价\n\n冲击均导致了两位数的通货膨胀率并引发了全\n\n球性的经济衰退。那么，这次警告人们厄运来临\n\n的头版头条在哪里？\n\n24\n\n•词汇注释与难句分析•/\n\n©supply-cut削减供应，削减产量\n\n② crude [kru：d] a.天然的，未提炼的\n\n③ barrel ['bsersl] n.桶\n\n④ tripling ['triplirj] n.三倍\n\n⑤ call sb/sth up使回忆起，使想起\n\n©scary [*skear订a.可怕的，恐怖的\n\n⑦quadruple E'kwDdru：plJ v.成为四倍\n\n⑧ double-digit C'dAbl'did3i订 a.两位数的\n\n⑨ inflation Cin'fleifan] n.通货膨胀\n\n⑩ headline [’hedlain] n.大字标题，头条新闻\n\n•经典搭配\n\n① crude oil原油\n\n② gloom and doom厄运，对未来的悲观失望\n\nThis near-tripling of oil prices calls up scary memories of the 1973 oil shock, when prices quadrupled,\n\nand 1979—1980, when they also almost tripled・\n\n功能注释 :This near-tripling of oil prices calls up scary memories 为句子主干，of the 1973 oil shock\n\n和1979-1980均后置修饰宾语scary memories,两者各接一个由when引导的非限制性定语从句，分别\n\n补充说明 1973 oil shock 和 1979-1980（oil shock）的具体情况。\n\nII ❶ The oil price was given another push up this\n\nweek when Iraq suspended① oil exports. ©Strengthening\n\neconomic growth, at the same time as winter grips the\n\nnorthern hemisphere© , could push the price higher still in\n\nthe short term.\n\n本周伊拉克暂停石油出口使油价又一\n\n次被推高。强劲的经济增长势头，加上北\n\n半球冬季的来袭，可能在短期内将石油价\n\n格推得更高。\n\n\"词汇注释与举句分析\n\n① suspend [suspend] s暂停，中止\n\n》•经典搭配\n\n② hemisphere C'hemisfiar] n.地球的半球（尤指赤道以 I ①push up（提高）\n\n北或以南的北半球或南半球）\n\nj②oil export（石油出口）\n\nStrengthening economic growth, at the same time as winter grips the northern hemisphere, could push\n\nthe price higher still in the short term.\n\n结构切分:句子主干：\n\nStrengthening economic growth could push the price higher still in the short term\n\n主语\n\n丿1 谓语\n\n宾语\n\n宾补\n\n时间状语\n\n时间状语做插入成分\n\nat the same time as winter grips the northern hemisphere\n\n引导词\n\n主语谓语\n\n宾语\n\n25\n\n功能注释:Strengthening economic growth could push the price higher 为句子主干,Strengthening 表\n\n示“正在逐步增强的”。副词still常修饰比较级，指“更加、还要”。\n\n:•真题精解•」盘\n\n【精准定位】第一段②句明确指出：自OPEC决定减少原油供应以来，原油价格已大幅上升。可见,\n\n“供应量减少”与“最近石油价格上涨”之间为直接因果关系，【B】正确。\n\n31. The main reason for the latest rise of oil price is\n\n31.最近石油价格上涨的主要原因是\n\nO\n\n[A] global inflation\n\n【A】全球性通货膨胀\n\n[E] reduction in supply\n\n【B】石油供应量减少\n\n[C] fast growth in economy\n\nEC】经济快速增长\n\n[D] Iraq's suspension of exports\n\n【D】伊拉克暂停石油出口\n\n【命题解密】正确项【B】是对第一段②句中所指出的本次石油价格上涨主要原因OPEC agreed to\n\nsupply cuts的概括和改写。【A】用前两次石油价格上涨的内容作为干扰，且颠倒因果，将油价上涨“导\n\n致全球通胀”改为“源于全球通胀”；【C】、【D】为第二段所提油价上涨的“助推性因素”，而非“主要原因”\n\n(由 another push up this week 和 could push the price higher still in the short term 得以暗不)。\n\n【技巧总结】当文中提及某一现象的多个成因时，命题人经常会就其“主要原因/直接原因''设题，且\n\n“次要原因”会成为典型的干扰陷阱。这要求考生不仅能发现原因，还要分清主次。解题思路可归纳\n\n为:首先借助逻辑关系词(结合各项信息)找到\"所有原因\"；随后借助形容词/副词main(ly)、direct(ly)、\n\nprimary(ily)等、甚至其他词汇的微妙含义(如：时间副词表明的“先后顺序”、动词/动作名词等暗含的\n\n“动作强弱”)识别“主要原因”。\n\n如本题，根据题干中main —词可知题目考查最近石油价格上涨的主要原因。读文时先借助Since、\n\nanother, at the same time等找到“所有原因\"(OPEC削减原油供应、伊拉克暂停出口、经济发展势头强\n\n劲、北方进入严冬)，并排除【A】；再重点区分主次、寻找\"主要原因”：一、第一段②句since... has\n\njumped. . . last December暗示:“OPEC削减原油供应”是“油价上涨”的起因且为持续原因；",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "A"
+      "answer": "C"
     },
     {
       "id": "8c32d352-1ee2-58f2-83b0-991f4d58f108",
@@ -485,11 +485,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "\n12. [A] apparent明显的，显而易见的 \n[B] desirable合意的，令人想要的，悦人心意的\n[C] negative否定的，消极的；负的，阴性的 [D] plausible似乎是真的，有道理的\n[试题考点]上下文语义+形容词词义辨析\n[解题思路]①句主句从上段末尾⑤句Not everyone sees转向generally recognized,从对17—19世 \n纪通信革命的认识不足,转向对20世纪计算机革命的影响的普遍认可。而空格12所在分句与主句之 \n间以although连接，为让步转折关系，选项中apparent与not immediately连用，表示\"并不是立刻显现 \n的”,与“普遍认可”存在逻辑上的转折，符合语义逻辑。[A]项为正确项。\n[错项排除][B] desirable意为“值得拥有的”、“理想的”，用来形容某一事物对人的价值，而不适用 \n于“对计算机带来的影响''的评估；并且词义带有主观色彩，不符合全文中立客观的基调；[C] negative \n同样具有主观色彩，并且表示稳定的性质，并不受时间限制，因此不能与immediately(立刻，马上)连用； \n[D] plausible表示“看似合理”，而“不是立即看似合理的”并不符合逻辑，因而排除。\n\n【选项释义与词汇辨析】\n[A] apparent: 明显的，显而易见的\n[B] desirable: 合意的，令人想要的，悦人心意的\n[C] negative: 否定的，消极的；负的，阴性的\n[D] plausible: 似乎是真的，有道理的",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "C"
+      "answer": "A"
     },
     {
       "id": "2eea73c0-5cb5-5000-9955-21b62e85fd27",
@@ -590,11 +590,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "\n15. ［A］ by means of用，依靠，通过 \n［B］ in terms of在.... 方面，从.... 角度\n［C］ with regard to关于 \n［D］ in line with和.... 一致，与.... 相似或紧密相连\n［试题考点］介词短语辨析\n［解题思路］③句中like people做插入语，说明人们对计算机的认识（They were thought of...）与 \n人类相似。空格连接generations,该词表示“一代”，指人“从出生到成长到再有子女”这一时间段（周期 \n常为30年）；计算机要与人具有可比性，则generations是说明计算时所关注的一个角度（还可以关注其 \n它角度，如“功能、大小、应用等等”），空格处介词短语连接generations,应体现这一关系。选项中，in terms \nof 意为 to explain or describing sth only in relation to that fact or event\"按照某一方面，就某一方面而言\"，表 \n明全句从代际关系这一个具体角度出发，说明计算机和人一样具有更新换代的特征。［B］项正确。\n［错项排除］［A］ by means of表示方式，后面通常接某种手段或者工具；［C］ with regard to意为“关 \n于某事，相对于某事”，后面接“某种具体事物”；［D］ in line with意为“与某事物相似或紧密相连”，连接 \n前后词语应为并列事物，这三项均不符合计算机与generations之间“选取后者角度对前者进行描述或 \n解释”的关系，故排除。\n\n【选项释义与词汇辨析】\n[A] by means of: 用，依靠，通过\n[B] in terms of: 在.... 方面，从.... 角度\n[C] with regard to: 关于\n[D] in line with: 和.... 一致，与.... 相似或紧密相连",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "B"
     },
     {
       "id": "5a47a4b8-7732-596f-8896-2ade99b7edd0",
@@ -625,11 +625,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "D",
       "explanation": "\n16. ［A］ deeper 更深 \n［B］ fewer 更少 \n［C］ nearer 更近 \n［D］ smaller 更小\n［试题考点］习惯搭配\n［解题思路］空格词修饰distance between generations,形容\"计算机代际距离方面的发展趋势\"。此 \n处distance喻指“时间间隔”，即新计算机出现与上一代计算机出现之间的时间间隔，再根据全段“计算 \n机发展越来越快，对通信影响越来越大”的总导向，因此可以锁定正确项在［B］、［C］、［D］之间。distance \n强调的是“量”，而衡量“量”的标准显然是“大小”，所以空格处只能填入“更小”，［D］项正确。\n［错项排除］［A］ deeper侧重描述“程度”而非“量”，且总体方向错误；［B］ fewer用于描述“可数名 \n词的数量”，不能说明“一段时间或长度”；［C］ nearer干扰较强，虽然汉语中常以“远近”来说明“距离”， \n但不能用于说明表“量”的distance -词。\n［技巧补充］英汉两种语言的搭配、句法等方式不同，因而知识运用常以此为考查点设置题目，遇此 \n类词义辨析题时.切忌简单将英文的汉语意思代入。另外，类似的中英文表达差异还有：以high/low修 \n饰price,表示“价格高低”，而不能用expensive/cheap表示；以high/low说明speed表示“速度快慢”.而 \n不能用fast/slow来表示；用big/small说明height表示\"高低\"，而不能用high/low说明。\n7\n\n【选项释义与词汇辨析】\n[A] deeper: 更深\n[B] fewer: 更少\n[C] nearer: 更近\n[D] smaller: 更小",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "B"
+      "answer": "D"
     },
     {
       "id": "f9826502-26b7-535d-9591-062aa5be2cba",
@@ -730,11 +730,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "19. [A] competitive充满竞争的；有竞争力的\n\n[B] controversial引起争论的，有争议的\n\n[C] distracting使人分心的，分散注意力的\n\n[D] irrational无理性的，不合理的\n\n[试题考点]上下文语义+形容词词义辨析\n\n[解题思路]②句前半句指出：计算机影响了人们的工作和生活，后半句转折：人们对“计算机对政\n\n治文化等方面的影响”有……的看法。转折词but表明两部分是围绕“影响”展开的对比，暗示前半句实\n\n为“共识\"，后半句(逻辑与之相反，只能)为“不一致的看法”。此外，句中influenced与implications在含\n\n义上有所不同，前者侧重“客观现状的改变”，句中用于说明“计算机确实使生活方式改变”；而后者\n\n(implications)侧重“日后可能的结果”，暗示计算机对未来的政治、文化等的影响，难以给出定论，也即\n\n\"更容易引起争论和不一致意见\"，同时③句Benefits VS harmful的反义对比和末句generalization...\n\n8\n\ndifficult难以结论）也证实了此推测。因此[B] controversial正确。\n\n[错项排除][A] competitive重在“输贏”,[C] distracting强调“使人分心”，此两项均脱离上下文语\n\n义逻辑；[D] irrational含贬义，全文为客观论述，并未对“人们对通信革命的看法”做出批评。\n\n20, [A] above 在....上，超出\n\n[B] upon 在... 上\n\n[C] against对照，对比，与... 相反\n\n[D] with和... ，同.... 在一起\n\n[试题考点]习惯搭配\n\n[解题思路]上句指出，人们对通信革命对社会文化等方面的影响还存争议。本句顺而指出，争论\n\n的焦点在于对影响的定性：究竟有益还是有害。空格前后Benefits与harmful语义对立，空格词与\n\nweighed（衡量）连用，表示“（把计算机的利弊进行）比较、权衡”之意，四个选项中，首先排除两\n\n项，介词above和upon明显不能表现“利弊”的相反性。只有表示“对比、相反、对抗”的against符合题\n\n意。weigh A against B意为“把A与B相衡量，相权衡”,[C]项正确。\n\n[错项排除][A] above和[B] upon均还有“在某事物之上”之意，但是本句中对通信革命是好是坏的衡\n\n量（weighed）并没有得出结论，分出上下，因此从语义逻辑这个角度也可以排除该两项;[D] with指“把两者放\n\n在一起w,weigh A with B与weigh A against B相比，缺少\"较劲、对抗\"的意味，不能很好地与上文controversial\n\n正向照应,与下文generalizations反向照应，故排除。注:weigh作为不及物动词,可以与with和upon构成固\n\n定搭配,weigh with意为“对……有影响”,weigh upon意为“重压,成为负担”。\n\nSection H Reading Comprehension\n\n遍;",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "C"
     },
     {
       "id": "545a7b14-c6f4-502a-afbc-97744ece04b1",
@@ -800,11 +800,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "\n21. To make vour humor work, you should \n・\n21.要使自己的幽默奏效，你应当 \n。\n[A] take advantage of different kinds of audience\n[A]利用不同类型的听众\n[B] make fun of the disorganized people\nEB]取笑那些缺乏条理的人\n[C] address different problems to different people\n[C]对不同的人谈不同的问题\n[D] show sympathy for your listeners\n[D]向你的听众表示同情\n[精准定位]第一段首句指出，如果你想在谈话中用幽默使人发笑，就必须知道如何识别与其他人共\n10\n\n同的经历和问题。接着对此进行解释，即：你的幽默必须与听众相关，能显示你是他们中的一员，或理解 \n他们的处境并赞同他们的观点。③句进一步指出：针对不同听众,应谈及不同的问题。因此［C］项正确。\n［命题解密］题干和正确项［C］构成了第一段内容的概括。To make your humor work为①句If \nyou intend using humor. . . smile 的同义表达；address different problems to different people 为③句的 \n同义替换。\n［A］利用文中关键词汇different和audience加上无关信息take advantage of设置干扰；第一段谈及 \n“不同听众对于幽默话题奏效与否”起重要作用，但没有提到“利用听众”。［B］将④句中的具体例子当 \n作普遍规律，武断得出“取笑缺乏条理的人总会达到幽默效果”的结论。［D］对②句in sympathy with望 \n文生义，但该短语在文中指“赞同听众的观点”，其中sympathy为熟词僻义，指“赞同”而非“同情”。\n［技巧总结］第一段核心重点在指出“演讲中如何选择幽默话题”，即“应该选择说者与听者共同的 \n经历和问题”。命题人就此段落重点设题旨在考査段落主旨。此类题的解题技巧",
       "points": 2,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "C"
     },
     {
       "id": "044db257-77cd-5c3a-be82-88b68d9f0f7f",
@@ -870,11 +870,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "\n23. It can be inferred from the text that public services \n.\n23.从文中可以推出，公共服务 \n。\n[A] have benefited many people\n［A］给许多人带来了利益\n[B] are the focus of public attention\n［B］是公众关注的焦点\n[C] are an inappropriate subject for humor\n［C］不适合作为幽默的笑料\n[D] have often been the laughing stock\n［D］经常被人当作笑料\n［精准定位］第三段指出，如果谈话者是听众中的一份子，就可以用双方共同的经历作为幽默的素 \n材，否则，这样做就不合适。末句指出，如果拿公共服务行业作为“替罪羊\"（scapegoats）来调侃的话，你 \n将会平安无事。由此可以推知，它们是大家经常谈论的笑料，因此［D］正确。\n［命题解密］本题考查了考生对使用了比喻修辞手法的句子（第三段③句）的理解和推理能力。正 \n确项［D］是该句的言外之意.laughing stock（笑料）明确了 scapegoats的比喻性含义。\n［A］偏离了原文“公共部门常作为调侃对象”这一语义范畴。［B］“是公众关注的焦点”指向不明，文 \n中锁定了具体内容：公共部门是好的幽默素材。［C］ inappropriate与③句be on safer ground （more \nappropriate）相悖。\n［技巧总结］第三段介绍“如何选择恰当话题以取得幽默效果”的两个具体办法：一、说者、听者属同 \n一集体时可选用无伤大雅的“家丑”作为调侃话题（①句）；二、说者、听者属于不同集体时则最好选用公 \n共话题施展幽默（②③句）。命题人就办法二（即②③句）设置细节推理题，此题一箭双雕•既考查学生 \n对第二种办法掌握的同时，亦考查他们对修辞法的运用能力。此类题解题步骤为：一、根据题干锁定信 \n息群；二、联系上下文体味作者的言外之意；三、留意那些含修辞（如比喻、反讽、借代、省略等）、似乎“话 \n里有话”的含蓄表",
       "points": 2,
       "sort_order": 23,
-      "answer": "C"
+      "answer": "D"
     },
     {
       "id": "ca27a056-2250-5c6a-8384-e840ad6161ee",
@@ -940,11 +940,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "25. The best title for the text may be\n\n.\n\n25.本文的最佳标题是\n\n。\n\n[A] Use Humor Effectively\n\n【A】有效地使用幽默\n\n[B] Various Kinds of Humor\n\n【B】各种各样的幽默\n\n[C] Add Humor to Speech\n\n【C】在谈话中添加幽默\n\n[D] Different Humor Strategies\n\n【D】不同的幽默策略\n\n【精准定位】文章第一至三段谈论“选择恰当的幽默话题，来使幽默奏效”;第四段谈论“讲述幽默的\n\n方式”，即用自然随意的方式来达到幽默效果；第五段建议人们刻意寻找幽默，随后提出生成幽默的策\n\n略方法。由此可见，全文围绕“如何有效地使用幽默”展开，【A】为正确项。\n\n【命题解密】正确项【A】是全篇内容的恰当概括。\n\n文中虽然提及“应针对不同人群选择不同的幽默话题”，但并非围绕“幽默种类”展开，因此【B】\n\n不合题意。【C】过于宽泛，不适于概括全文“深入介绍如何使用幽默”这一具体话题。【D】“不同的\n\n幽默策略”应引领一篇“介绍不同幽默策略”的文章，而本文从“选择恰当话题、幽默的方式尽量自\n\n然、在言语中发现并创造幽默”几个角度展开，侧重“幽默如何才能奏效”；仅在末段提及一些具体\n\n制造幽默的策略，故排除【D】。\n\n【技巧总结】解答标题题的原则有三：一、概括性原则，即标题应从最大程度上涵盖全文的主要内\n\n容，体现主旨要义.因此应避免“以点概面、以偏概全、以部分代替整体”；",
       "points": 2,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "be1dab3a-9e65-58ff-aa80-866b0daa1163",
@@ -1220,11 +1220,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "D",
       "explanation": "\n33. The estimates in Economic Outlook show that in \nrich countries \n.\n33.《经济展望》中的估计表明，在发达国 \n家 \n。\n[A] heavy industry becomes more energy intensive\n［A］重工业更加能源密集化\n[B] income loss mainly results from fluctuating \ncrude oil prices\n［B］收入损失主要起因于原油价格波动\n[C] manufacturing industry has been seriously \nsqueezed\n［C］制造业已经受到严重打击\n[D] oil price changes have no significant impact \non GDP\n［D］油价变化对国内生产总值没有重要 \n影响\n［精准定位］由Economic Outlook和rich countries定位到第四段⑤⑥句。两句提到\"国际经合组织 \n在最近一期《经济展望》中估计.若全年平均油价由每桶13美元涨至22美元，发达国家的石油进口支出 \n也仅增加GDP的0.25%〜0.5%,该收入损失仅为前两次石油冲击的1/4”。数据本身及only-词都表 \n明其影响不大，［D］正确。\n［命题解密］正确项［D］中have no significant impact on GDP是对⑤⑥句中 increase the oil import \nbill by only 0. 25~0. 5% 及 less than one quarter of the income loss in 1974 or 1980 的概括和改写。\n［A］和①②句提到的发达国家情形“能源密集型重工业的重要性降低、不像过去那样依赖石油”不 \n符；［B］与⑥句“油价变化造成的发达国家收入损失不及1974年或1980年的四分之一”相悖；［C］将段 \n末句所述“新兴国家的情况”当作“发达国家的情形”。\n［技巧总结］本题考查“事例本身细节”和“事例整体写作目的”，",
       "points": 2,
       "sort_order": 33,
-      "answer": "A"
+      "answer": "D"
     },
     {
       "id": "c379b26b-d460-595c-9808-722fdd7dfbe7",
@@ -1255,11 +1255,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "\n34. We can draw a conclusion from the text that \n.\n34.从文中，我们可以得出的结论是 \n。\n[A] oil price shocks are less shocking now\n［A］此次的油价冲击并不可怕\n[B] inflation seems irrelevant to oil-price shocks\n［B］通货膨胀似乎与油价冲击无关\n[C] energy conservation can keep down the oil prices\n［C］能源节约可以抑制油价\n[D] the price rise of crude leads to the shrinking of \nheavy industry\n［D］原油价格上涨导致重工业的萎缩\n［精准定位］第三段首句提出作者观点，我们有充分的理由预期这次油价上涨所带来的经济影响不 \n会很严重，接着阐述原因：（1）原油价格只占汽油价格的一小部分；（2）发达国家对石油的依赖性降低；\n（3）此次油价上涨并非发生在商品总价格上涨和全球需求旺盛这种大环境下。［A］正确.\n［命题解密］正确项［A］与第三段首句观点（文章主旨句）一致，并通过第三至五段的论述得以证 \n实。less shocking对应第三段首句中less severe以及随后论证过程中的more muted effect、less \ndependent on oil Jess sensitive to swings 等。\n［B］夸大第二段中暗含关系“经济情形不会受油价冲击太大影响”。［C］将第四段中表明的关系“节 \n约能源使得对石油的依赖程度降低”改为“能源节约可以抑制油价”；［D］对第四段暗含的另一关系“原 \n油价格上涨会导致重工业成本的增加”过度推导，且文中虽提到富裕国家重工业重要性降低，但未提及 \n其原因。\n［技巧总结］本题属“文中具体关系+文章主旨”型，命题人虽意在“文章主旨”，却将选项设置为“囊 \n括多处细节”。解题需知：①正确项往往是对文章多处内容的概括；②选项只要满足“违背文章主旨”或 \n“不符文中细",
       "points": 2,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "A"
     },
     {
       "id": "0608fed1-1136-52eb-a193-ab9293e9afc5",
@@ -1290,11 +1290,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "A",
       "explanation": "\n35. From the text we can see that the writer seems\n35.从文中我们可以看出作者的态度似乎 \n是 \n。\n[A] optimistic\n［A］乐观\n[B] sensitive\n［B］敏感\n[C] gloomy\n［C］忧郁\n[D] scared\n［D］害怕\n30\n\n［命题解密］正确项［A］与第三段首句（文章主旨句）观点一致，是对第三到五段中have a muted \neffect,less dependent on, less sensitive to, not to lose sleep 等的高度概括。\n［B］将发达国家经济对原油价格的反应“不像先前那样敏感”反向篡改为作者态度。［C］、［D］利用 \n文章前两段所描述的情形“油价持续猛涨，甚至短期内还会大幅上扬、引发对经济危机的担忧”设置干 \n扰。但这只是为后文摆出作者的乐观态度“此次石油猛涨不会像之前一样造成经济衰退”造势。\n［技巧总结］把握“全文体现的作者总体态度”时一定要有充分的依据，抽取各主要部分所体现的作 \n者态度、并加以概括；万不能只看开篇作者渲染的气氛、或只抓文中只言片语便确定选项（注：这恰恰是 \n命题人最常用的陷阱）。如本题，［A］体现了全文主旨句（第三段首句）和随后三段不同角度论证所展现 \n的作者态度，故为正确项；［B］则利用文中只言片语设置陷阱，［C］、［D］利用开篇两段渲染的气氛设置陷 \n阱，故均错误。\n",
       "points": 2,
       "sort_order": 35,
-      "answer": "C"
+      "answer": "A"
     },
     {
       "id": "d92d0cc2-5509-5173-8654-c1b958ae10dd",
@@ -1360,11 +1360,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "\n37. Which of the following statements is true \naccording to the text?\n37.按照文章内容，下列哪个说法是正确的？\n[A] Doctors will be held guilty if they risk their \npatients* death.\n[A]如果医生冒导致病人死亡的风险，他 \n们将被认为有罪。\n35\n\n［精准定位］由第二、三段可知：法院支持“双重效果”，即肯定医生为临终病人开大剂量止痛药物的 \n行为，［C］正确。\n[B J Modern medicine has assisted terminally ill \npatients in painless recovery.\n［B］现代医学已经帮助晚期病人进行无痛 \n康复。\n[C] The Court ruled that high-dosage pain-relieving \nmedication can be prescribed.\nEC］法院判决，可以开大剂量的镇痛药。\n[D] A doctor's medication is no longer justified by \nhis intentions.\n［D］医生用药是否合法不再取决于他的 \n意图。\n［命题解密］第二、三段通过“双效”医疗原则这一桥梁间接指出了法院裁定对医生“给病人开大剂 \n量止痛药物”的行为的保护作用，正确项［C］则结合两段、明确法院裁定的意义：ruled that high-dosage \npain-relieving medication can be prescribed 是对原文 supported the medical principle of wdouble effect,\" \n和 Doctors have used that principle.. . to justify using high doses of morphine to control terminally ill \npatients' pain的高度概括。\n［A］与第二段为法",
       "points": 2,
       "sort_order": 37,
-      "answer": "A"
+      "answer": "C"
     },
     {
       "id": "2358f590-f861-52de-a37c-888089977218",
@@ -1465,11 +1465,11 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "\n40. George Annas would probably agree that doctors \nshould be punished if they \n・\n40.乔治•安纳斯可能认为医生应该受到惩 \n罚.如果他们 \n。\n[A] manage their patients incompetently\n［A］治疗病人不力\n[B] give patients more medicine than needed\n［B］给病人的药物超量\n[C] reduce drug dosages for their patients\n［C］减少病人的药物剂量\n[D] prolong the needless suffering of the patients\n［D］延长病人不必要的痛苦\n［精准定位］末段中安纳斯指出，许多医生对病人遭受不必要的、可预见的痛苦无动于衷。如果病 \n人痛苦的死亡可以推定是由于医生治疗不当造成的，应当吊销其行医执照，［D］正确。\n［命题解密］题干+正确项［D］构成对第九段②③句所述“条件一结果”关系的概括和改写:doctors \nshould be punished 对应 license suspension,说明结果\"医生受到惩罚（被吊销执照）\"；［D］ prolong the \nneedless suffering of the patients 对应 unconcerned with the pain their patients are needlessly and \npredictably suffering 以及 painful deaths, incompetently managed,明确医生受惩罚的条件。\n［A］偷换概念，将第九段③句 painful deaths . . . incompetently managed 中 painful deaths 偷换成 \npatients。［B］、［C］利用文中词汇medicine和dosages分别从“加大”和“减少”两个方向进行干扰，但根 \n据第五段可知，在Annas看来，“用药多少”并非医生行",
       "points": 2,
       "sort_order": 40,
-      "answer": "C"
+      "answer": "D"
     }
   ],
   "exportedAt": "2026-10-13T00:01:51.336Z"
