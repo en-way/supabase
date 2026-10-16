@@ -70,6 +70,8 @@ def main():
         "35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原": True,
         "36. 2004 年阅读理解 4 篇官方黄金篇章与 20 道试题及黄皮书精解 100% 黄金还原": True,
         "37. 全库 0 处章节末题译文倒灌、0 处掌柜水印、2005 Q25 题干选项答案 100% 黄金校准": True,
+        "38. 全库 0 处占位符选项，2002/2003/2006/2008/2010/2012/2017/2018/2020/2021/2022 核心题项 100% 黄金校准": True,
+        "39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准": True,
     }
 
     total_passages = 0
@@ -107,6 +109,8 @@ def main():
     round13_anomalies = []
     round14_2004_reading_anomalies = []
     round15_anomalies = []
+    round16_anomalies = []
+    round17_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -367,6 +371,113 @@ def main():
                 if '【空格推测】' not in expl or '【答案敲定】' not in expl or len(expl) < 150:
                     round15_anomalies.append((f'2012_q{so}_expl_incomplete', len(expl)))
 
+            # Check Round 16: Zero placeholders and authentic options/answers
+            opt_map = {o.get('key'): o.get('text', '').strip() for o in opts if isinstance(o, dict)}
+            for ok, ov in opt_map.items():
+                if 'Verified standard' in ov or '占位' in ov:
+                    round16_anomalies.append((f"{yr}_{cat}_q{so}", f"placeholder_opt_{ok}"))
+
+            if yr == 2017 and cat == 'ky1' and so == 39:
+                if not stem.endswith('________.') or ans != 'B' or 'fair play in official access' not in opt_map.get('B', ''):
+                    round16_anomalies.append(('2017_q39_stem_or_ans', stem, ans, opt_map.get('B')))
+                if 'In the year and a half' in expl or 'Text 4' in expl:
+                    round16_anomalies.append(('2017_q39_expl_bleeding', expl[-100:]))
+            if yr == 2017 and cat == 'ky1' and so == 40:
+                if not stem.endswith('________.') or ans != 'D' or opt_map.get('D') != 'supportive':
+                    round16_anomalies.append(('2017_q40_stem_or_ans', stem, ans, opt_map.get('D')))
+            if yr == 2006 and cat == 'ky1' and so == 20:
+                if ans != 'D' or opt_map.get('D') != 'coordination':
+                    round16_anomalies.append(('2006_q20_ans_or_opts', ans, opt_map))
+            if yr == 2008 and cat == 'ky1' and so == 20:
+                if ans != 'A' or opt_map.get('A') != 'paradoxical':
+                    round16_anomalies.append(('2008_q20_ans_or_opts', ans, opt_map))
+            if yr == 2003 and cat == 'ky1' and so == 2:
+                if ans != 'B' or opt_map.get('B') != 'accommodate':
+                    round16_anomalies.append(('2003_q2_ans_or_opts', ans, opt_map))
+            if yr == 2003 and cat == 'ky1' and so == 9:
+                if ans != 'A' or opt_map.get('A') != 'displaying':
+                    round16_anomalies.append(('2003_q9_ans_or_opts', ans, opt_map))
+            if yr == 2020 and cat == 'ky1' and so == 23:
+                if ans != 'D' or 'commits to its long-term growth' not in opt_map.get('D', ''):
+                    round16_anomalies.append(('2020_q23_ans_or_opts', ans, opt_map.get('D')))
+            if yr == 2020 and cat == 'ky1' and so == 25:
+                if ans != 'C' or opt_map.get('C') != 'Favourable':
+                    round16_anomalies.append(('2020_q25_ans_or_opts', ans, opt_map.get('C')))
+            if yr == 2020 and cat == 'ky1' and so == 28:
+                if ans != 'C' or opt_map.get('C') != 'Concerned.':
+                    round16_anomalies.append(('2020_q28_ans_or_opts', ans, opt_map.get('C')))
+            if yr == 2018 and cat == 'ky1':
+                if so == 24 and ans != 'D': round16_anomalies.append(('2018_q24_ans', ans))
+                if so == 27 and ans != 'A': round16_anomalies.append(('2018_q27_ans', ans))
+                if so == 30 and ans != 'A': round16_anomalies.append(('2018_q30_ans', ans))
+                if so == 34 and ans != 'D': round16_anomalies.append(('2018_q34_ans', ans))
+                if so == 40 and ans != 'D': round16_anomalies.append(('2018_q40_ans', ans))
+            if yr == 2002 and cat == 'ky1':
+                if so == 31 and ans != 'B': round16_anomalies.append(('2002_q31_ans', ans))
+                if so == 32 and ans != 'D': round16_anomalies.append(('2002_q32_ans', ans))
+                if so == 38 and ans != 'B': round16_anomalies.append(('2002_q38_ans', ans))
+            if yr == 2010 and cat == 'ky1' and so == 27 and ans != 'D':
+                round16_anomalies.append(('2010_q27_ans', ans))
+            if yr == 2021 and cat == 'ky1' and so == 24 and ans != 'D':
+                round16_anomalies.append(('2021_q24_ans', ans))
+            if yr == 2012 and cat == 'ky1':
+                if so == 33 and ans != 'B': round16_anomalies.append(('2012_q33_ans', ans))
+                if so == 35 and ans != 'C': round16_anomalies.append(('2012_q35_ans', ans))
+            if yr == 2022 and cat == 'ky2':
+                if so in range(1, 21):
+                    if len(expl) < 100 or '事实细节:' in expl:
+                        round16_anomalies.append((f'2022_ky2_cloze_q{so}', len(expl)))
+                if so == 32 and ans != 'D': round16_anomalies.append(('2022_ky2_q32_ans', ans))
+                if so == 38 and ans != 'D': round16_anomalies.append(('2022_ky2_q38_ans', ans))
+                if so == 40 and ans != 'C': round16_anomalies.append(('2022_ky2_q40_ans', ans))
+
+            # Check Round 17: 2005 cloze authentic options, un-truncated stems
+            if yr == 2005 and cat == 'ky1':
+                if so == 4 and (ans != 'C' or opt_map.get('C') != 'missing'):
+                    round17_anomalies.append(('2005_q4_ans_or_opts', ans, opt_map))
+                if so == 5 and (ans != 'B' or opt_map.get('B') != 'though'):
+                    round17_anomalies.append(('2005_q5_ans_or_opts', ans, opt_map))
+                if so == 9 and (ans != 'D' or opt_map.get('D') != 'whereas'):
+                    round17_anomalies.append(('2005_q9_ans_or_opts', ans, opt_map))
+                if so == 11 and (ans != 'C' or opt_map.get('C') != 'messages' or not expl.startswith('11.')):
+                    round17_anomalies.append(('2005_q11_ans_or_opts_or_expl', ans, opt_map.get('C'), expl[:30]))
+                if so == 12 and (ans != 'A' or opt_map.get('A') != 'at first' or not expl.startswith('12.')):
+                    round17_anomalies.append(('2005_q12_ans_or_opts_or_expl', ans, opt_map.get('A'), expl[:30]))
+                if so == 13 and (ans != 'D' or opt_map.get('D') != 'exposed'):
+                    round17_anomalies.append(('2005_q13_ans_or_opts', ans, opt_map))
+                if so == 14 and (ans != 'C' or opt_map.get('C') != 'inefficient'):
+                    round17_anomalies.append(('2005_q14_ans_or_opts', ans, opt_map))
+                if so == 15 and (ans != 'D' or opt_map.get('D') != 'create'):
+                    round17_anomalies.append(('2005_q15_ans_or_opts', ans, opt_map))
+                if so == 16 and (ans != 'B' or opt_map.get('B') != 'also'):
+                    round17_anomalies.append(('2005_q16_ans_or_opts', ans, opt_map))
+                if so == 17 and (ans != 'C' or opt_map.get('C') != 'aware'):
+                    round17_anomalies.append(('2005_q17_ans_or_opts', ans, opt_map))
+                if so == 18 and (ans != 'D' or opt_map.get('D') != 'notice'):
+                    round17_anomalies.append(('2005_q18_ans_or_opts', ans, opt_map))
+                if so == 19 and (ans != 'A' or opt_map.get('A') != 'available'):
+                    round17_anomalies.append(('2005_q19_ans_or_opts', ans, opt_map))
+                if so == 20 and (ans != 'B' or opt_map.get('B') != 'such as'):
+                    round17_anomalies.append(('2005_q20_ans_or_opts', ans, opt_map))
+                if so == 22:
+                    if not stem.endswith('________.') or 'it is all too monkey' not in stem or ans != 'B':
+                        round17_anomalies.append(('2005_q22_stem_or_ans', stem, ans))
+                    if opt_map.get('A') != 'monkeys are also outraged by slack rivals' or opt_map.get('B') != "resenting unfairness is also monkeys' nature":
+                        round17_anomalies.append(('2005_q22_opts', opt_map))
+            if yr == 2003 and cat == 'ky1' and so == 23:
+                if stem != 'The phrase "making the biggest splash" (Line 1, Paragraph 3) most probably means ________.':
+                    round17_anomalies.append(('2003_q23_stem', stem))
+            if yr == 2006 and cat == 'ky1' and so == 28:
+                if stem != 'By saying "Stratford cries poor traditionally" (Line 2, Paragraph 4), the author implies that ________.':
+                    round17_anomalies.append(('2006_q28_stem', stem))
+                if opt_map.get('A') != 'Stratford cannot afford the expansion projects':
+                    round17_anomalies.append(('2006_q28_opt_A', opt_map.get('A')))
+            if yr == 2006 and cat == 'ky1' and so == 33:
+                if stem != 'By saying "these figures are conservative" (Line 1, Paragraph 3), Dr. Worm means that ________.':
+                    round17_anomalies.append(('2006_q33_stem', stem))
+                if opt_map.get('D') != 'the data collected so far are out of date':
+                    round17_anomalies.append(('2006_q33_opt_D', opt_map.get('D')))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -418,6 +529,8 @@ def main():
     results["35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原"] = (len(round13_anomalies) == 0)
     results["36. 2004 年阅读理解 4 篇官方黄金篇章与 20 道试题及黄皮书精解 100% 黄金还原"] = (len(round14_2004_reading_anomalies) == 0)
     results["37. 全库 0 处章节末题译文倒灌、0 处掌柜水印、2005 Q25 题干选项答案 100% 黄金校准"] = (len(round15_anomalies) == 0)
+    results["38. 全库 0 处占位符选项，2002/2003/2006/2008/2010/2012/2017/2018/2020/2021/2022 核心题项 100% 黄金校准"] = (len(round16_anomalies) == 0)
+    results["39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准"] = (len(round17_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -459,6 +572,10 @@ def main():
             print(f"Round 13 anomalies ({len(round13_anomalies)}):", round13_anomalies)
         if round15_anomalies:
             print(f"Round 15 anomalies ({len(round15_anomalies)}):", round15_anomalies)
+        if round16_anomalies:
+            print(f"Round 16 anomalies ({len(round16_anomalies)}):", round16_anomalies)
+        if round17_anomalies:
+            print(f"Round 17 anomalies ({len(round17_anomalies)}):", round17_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")

@@ -1127,26 +1127,26 @@
       "passage_id": "53474821-9120-5962-acc2-5c36455d7aeb",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The main reason for the latest rise of oil price is",
+      "stem": "The main reason for the latest rise of oil price is ________.",
       "options": [
         {
           "key": "A",
-          "text": "reduction of crude oil supply",
+          "text": "global inflation",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "acceleration of global economic growth",
+          "text": "reduction in supply",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "speculative trading in futures markets",
+          "text": "fast growth in economy",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "political unrest in oil-exporting nations",
+          "text": "Iraq's suspension of exports",
           "value": "D"
         }
       ],
@@ -1166,22 +1166,22 @@
       "options": [
         {
           "key": "A",
-          "text": "commodity prices are surging dramatically",
+          "text": "price of crude rises",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "central banks are raising interest rates",
+          "text": "commodity prices rise",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "the economy is far less dependent on oil today",
+          "text": "consumption rises",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "alternative green energy sources are booming",
+          "text": "oil taxes rise",
           "value": "D"
         }
       ],
@@ -1376,22 +1376,22 @@
       "options": [
         {
           "key": "A",
-          "text": "inadequate treatment of terminal physical agony",
+          "text": "prolonged medical procedures",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "excessive legal liability imposed on hospitals",
+          "text": "inadequate treatment of pain",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "unreasonable refusal of patients' euthanasia requests",
+          "text": "systematic drug abuse",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "widespread misuse of addictive narcotic analgesics",
+          "text": "insufficient hospital care",
           "value": "D"
         }
       ],

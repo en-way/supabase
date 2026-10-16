@@ -891,26 +891,26 @@
       "passage_id": "035165eb-d3b0-52e9-afb3-46c9f2bd1bbb",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author suggests that tax policies be aimed at",
+      "stem": "The author suggests that tax policies be aimed at ________.",
       "options": [
         {
           "key": "A",
-          "text": "boosting the return on capital investment",
+          "text": "encouraging the development of automation",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "taxing robot-owning corporations heavily",
+          "text": "increasing the return on capital investment",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "broadening the distribution of machine wealth",
+          "text": "easing the hostility between rich and poor",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "curbing the pace of automation in service sectors",
+          "text": "preventing the income gap from widening",
           "value": "D"
         }
       ],
@@ -1000,22 +1000,22 @@
       "options": [
         {
           "key": "A",
-          "text": "broaden",
+          "text": "sharpen",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "redefine",
+          "text": "define",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "question",
+          "text": "boast",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "defend",
+          "text": "share",
           "value": "D"
         }
       ],
@@ -1105,22 +1105,22 @@
       "options": [
         {
           "key": "A",
-          "text": "young readers' preference for print journalism",
+          "text": "A Rise in Critical Skills for Sharing News Online",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "the declining credibility of mainstream social media",
+          "text": "A Counteraction Against the Over-tweeting Trend",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "the growing skepticism toward established news sources",
+          "text": "The Accumulation of Mutual Trust on Social Media",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "the resilience of public trust in local reporting",
+          "text": "The Platforms for Projection of Personal Interests",
           "value": "D"
         }
       ],
@@ -1245,22 +1245,22 @@
       "options": [
         {
           "key": "A",
-          "text": "inadequate enforcement of privacy laws",
+          "text": "the vicious rivalry among big pharmas",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "lax internal management in tech conglomerates",
+          "text": "the ineffective enforcement of privacy law",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "slow legislative response to cyber intrusion",
+          "text": "the uncontrolled use of new software",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "widespread public indifference to personal data safety",
+          "text": "the monopoly of big data by tech giants",
           "value": "D"
         }
       ],
@@ -1455,22 +1455,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Post Office: Don't Touch My Cheese",
+          "text": "The USPS Starts to Miss Its Good Old Days",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Postal Banking: A Relief for Rural America",
+          "text": "The Postal Service: Keep Away from My Cheese",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "USPS in Deficit: Time for Privatization",
+          "text": "The USPS: Chronic Illness Requires a Quick Cure",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Financial Giants: Allies or Rivals to USPS?",
+          "text": "The Postal Service Needs More Than a Band-Aid",
           "value": "D"
         }
       ],

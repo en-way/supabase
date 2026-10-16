@@ -26,16 +26,16 @@ import time
 def run_sql(query: str):
     """Execute raw SQL against Supabase project using the Management API."""
     url = f"https://api.supabase.com/v1/projects/{PROJECT_REF}/database/query"
-    req = urllib.request.Request(
-        url,
-        data=json.dumps({"query": query}).encode('utf-8'),
-        headers={
-            "Authorization": f"Bearer {ACCESS_TOKEN}",
-            "Content-Type": "application/json"
-        }
-    )
-    for attempt in range(4):
+    for attempt in range(5):
         try:
+            req = urllib.request.Request(
+                url,
+                data=json.dumps({"query": query}).encode('utf-8'),
+                headers={
+                    "Authorization": f"Bearer {ACCESS_TOKEN}",
+                    "Content-Type": "application/json"
+                }
+            )
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = resp.read().decode('utf-8')
                 return json.loads(data) if data else []

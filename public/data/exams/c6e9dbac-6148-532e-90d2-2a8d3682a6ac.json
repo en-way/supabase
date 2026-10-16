@@ -755,22 +755,22 @@
       "options": [
         {
           "key": "A",
-          "text": "addicted",
+          "text": "supervision",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "resistant",
+          "text": "manipulation",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "sensitive",
+          "text": "regulation",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "exposed",
+          "text": "coordination",
           "value": "D"
         }
       ],
@@ -1031,11 +1031,11 @@
       "passage_id": "28dfa39a-3497-58ab-b17a-4b2e1849a872",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "By saying “ Stratford cries poor traditionally\" ( Line",
+      "stem": "By saying \"Stratford cries poor traditionally\" (Line 2, Paragraph 4), the author implies that ________.",
       "options": [
         {
           "key": "A",
-          "text": "Stratford can",
+          "text": "Stratford cannot afford the expansion projects",
           "value": "A"
         },
         {
@@ -1206,26 +1206,26 @@
       "passage_id": "fe979c03-674c-5223-9d58-f99599d97e78",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "By saying “ these figures are conservative\" ( Line 1 ,",
+      "stem": "By saying \"these figures are conservative\" (Line 1, Paragraph 3), Dr. Worm means that ________.",
       "options": [
         {
           "key": "A",
-          "text": "fi shing technology has improved rapidly",
+          "text": "fishing technology has improved rapidly",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "the catch-sizes are actuall y smaller than recorded",
+          "text": "the catch-sizes are actually smaller than recorded",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "the marine biomass has s uffered a greater loss",
+          "text": "the marine biomass has suffered a greater loss",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "the data co llected so far are out of elate",
+          "text": "the data collected so far are out of date",
           "value": "D"
         }
       ],

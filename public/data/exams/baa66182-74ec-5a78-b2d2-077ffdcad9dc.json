@@ -1206,26 +1206,26 @@
       "passage_id": "eed30545-c966-5cf7-96bc-731f2ab56649",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Paragraph 3 shows that a discovery claim becomes credible after it",
+      "stem": "Paragraph 3 shows that a discovery claim becomes credible after it ________.",
       "options": [
         {
           "key": "A",
-          "text": "be checked by the scientific community",
+          "text": "has attracted the attention of the general public",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "be protected by intellectual property laws",
+          "text": "has been examined by the scientific community",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "be widely circulated among researchers",
+          "text": "has received recognition from editors and reviewers",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "be recognized by authoritative bodies",
+          "text": "has been frequently quoted by peer scientists",
           "value": "D"
         }
       ],
@@ -1280,22 +1280,22 @@
       "options": [
         {
           "key": "A",
-          "text": "Collective Scrutiny in Scientific Discovery",
+          "text": "Novelty as an Engine of Scientific Development.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "The Perils of Publishing Preliminary Findings",
+          "text": "Collective Scrutiny in Scientific Discovery.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Biased Reviews in Peer Evaluation",
+          "text": "Evolution of Credibility in Doing Science.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "The Acceleration of Scientific Verification",
+          "text": "Challenge to Credibility at the Gate to Science.",
           "value": "D"
         }
       ],
