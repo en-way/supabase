@@ -1,0 +1,418 @@
+[
+  {
+    "year": 2001,
+    "q_num": 1,
+    "reason": "Polluted with passage translation/analysis",
+    "old_len": 999,
+    "new_len": 751,
+    "q_id": "b150ea79-fed8-5f02-ad3a-e4ca5d5eb55b"
+  },
+  {
+    "year": 2001,
+    "q_num": 5,
+    "reason": "Polluted with passage translation/analysis",
+    "old_len": 1009,
+    "new_len": 693,
+    "q_id": "6a69de94-9e3d-58f3-95c5-da59e06395fa"
+  },
+  {
+    "year": 2002,
+    "q_num": 1,
+    "reason": "Missing 错项排除",
+    "old_len": 314,
+    "new_len": 674,
+    "q_id": "132cbb29-3f3d-5927-8907-4b87b48085a6"
+  },
+  {
+    "year": 2002,
+    "q_num": 2,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 73,
+    "new_len": 551,
+    "q_id": "4da2c3b8-3ac8-5edd-b3e7-b6d3c49e968d"
+  },
+  {
+    "year": 2002,
+    "q_num": 8,
+    "reason": "Missing 错项排除",
+    "old_len": 573,
+    "new_len": 1327,
+    "q_id": "fc347343-ab7d-5118-8051-2bf720644998"
+  },
+  {
+    "year": 2002,
+    "q_num": 10,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 64,
+    "new_len": 508,
+    "q_id": "8c32d352-1ee2-58f2-83b0-991f4d58f108"
+  },
+  {
+    "year": 2002,
+    "q_num": 20,
+    "reason": "Missing 错项排除",
+    "old_len": 799,
+    "new_len": 697,
+    "q_id": "545a7b14-c6f4-502a-afbc-97744ece04b1"
+  },
+  {
+    "year": 2003,
+    "q_num": 8,
+    "reason": "Missing 错项排除",
+    "old_len": 441,
+    "new_len": 530,
+    "q_id": "bfd8c569-959c-55d1-9a0d-c6551c60d7a1"
+  },
+  {
+    "year": 2003,
+    "q_num": 14,
+    "reason": "Missing 错项排除",
+    "old_len": 346,
+    "new_len": 583,
+    "q_id": "bcea35ea-b9a2-5d1b-95e9-156f9bf3b412"
+  },
+  {
+    "year": 2005,
+    "q_num": 11,
+    "reason": "Missing 解题思路",
+    "old_len": 513,
+    "new_len": 470,
+    "q_id": "68b47e57-48c9-5385-9c82-ea4ecbcaceab"
+  },
+  {
+    "year": 2006,
+    "q_num": 3,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 73,
+    "new_len": 839,
+    "q_id": "17d1f168-edca-5dfd-8125-b31010abe68d"
+  },
+  {
+    "year": 2006,
+    "q_num": 7,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 95,
+    "new_len": 718,
+    "q_id": "8fadbe51-5c27-5d3c-ae19-773af77125c9"
+  },
+  {
+    "year": 2006,
+    "q_num": 10,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 72,
+    "new_len": 697,
+    "q_id": "3d978d7e-a819-55ca-89ef-76a7e62578c6"
+  },
+  {
+    "year": 2006,
+    "q_num": 12,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 118,
+    "new_len": 406,
+    "q_id": "418ea2cb-f746-5d8e-b34f-7e36d8d53c0c"
+  },
+  {
+    "year": 2006,
+    "q_num": 13,
+    "reason": "Missing 错项排除",
+    "old_len": 196,
+    "new_len": 1153,
+    "q_id": "b202dc22-35c7-5af4-8337-20e49d1b784d"
+  },
+  {
+    "year": 2006,
+    "q_num": 14,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 55,
+    "new_len": 395,
+    "q_id": "6895081d-b73a-56f9-950b-7a1c05d0a0ed"
+  },
+  {
+    "year": 2006,
+    "q_num": 17,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 58,
+    "new_len": 345,
+    "q_id": "477b81b6-39dd-5ff5-baae-5d6cc8e34103"
+  },
+  {
+    "year": 2006,
+    "q_num": 18,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 90,
+    "new_len": 474,
+    "q_id": "2c553d86-d8cd-56b4-b0eb-a95f9c47f9d1"
+  },
+  {
+    "year": 2007,
+    "q_num": 4,
+    "reason": "Missing 解题思路",
+    "old_len": 645,
+    "new_len": 807,
+    "q_id": "10acb6be-c4ba-54f3-a4f9-ea80919de359"
+  },
+  {
+    "year": 2008,
+    "q_num": 2,
+    "reason": "Missing 错项排除",
+    "old_len": 385,
+    "new_len": 1844,
+    "q_id": "8541ca44-c38b-59bc-848f-89fa65a50501"
+  },
+  {
+    "year": 2008,
+    "q_num": 3,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 75,
+    "new_len": 425,
+    "q_id": "a78f9aef-76af-5a76-b7fc-5ec70ea78285"
+  },
+  {
+    "year": 2008,
+    "q_num": 7,
+    "reason": "Missing 解题思路",
+    "old_len": 525,
+    "new_len": 602,
+    "q_id": "5776b29c-40c2-5df8-b59d-6e28c2614e29"
+  },
+  {
+    "year": 2008,
+    "q_num": 12,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 64,
+    "new_len": 708,
+    "q_id": "83c44fb7-9b12-5974-9dfd-5a092907f4cf"
+  },
+  {
+    "year": 2008,
+    "q_num": 15,
+    "reason": "Missing 错项排除",
+    "old_len": 169,
+    "new_len": 740,
+    "q_id": "4d89517f-1637-513b-9ac0-681444e816cd"
+  },
+  {
+    "year": 2008,
+    "q_num": 17,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 95,
+    "new_len": 603,
+    "q_id": "eae19259-745c-5f51-83dd-62045e5fd2cd"
+  },
+  {
+    "year": 2008,
+    "q_num": 18,
+    "reason": "Missing 错项排除",
+    "old_len": 255,
+    "new_len": 712,
+    "q_id": "8a934c1e-7e67-5870-b613-521a5647a8c6"
+  },
+  {
+    "year": 2009,
+    "q_num": 1,
+    "reason": "Missing 错项排除",
+    "old_len": 155,
+    "new_len": 696,
+    "q_id": "8ac06c32-5472-5681-a570-c78958bcad00"
+  },
+  {
+    "year": 2009,
+    "q_num": 2,
+    "reason": "Missing 错项排除",
+    "old_len": 175,
+    "new_len": 1047,
+    "q_id": "b6398e29-1f51-5176-b71a-c14c5f1aa466"
+  },
+  {
+    "year": 2009,
+    "q_num": 6,
+    "reason": "Missing 错项排除",
+    "old_len": 123,
+    "new_len": 456,
+    "q_id": "1e888841-df1d-516b-b76c-3c552e02d3fa"
+  },
+  {
+    "year": 2009,
+    "q_num": 7,
+    "reason": "Missing 错项排除",
+    "old_len": 213,
+    "new_len": 1201,
+    "q_id": "f909c01c-1082-57a5-9041-97443e18dcf0"
+  },
+  {
+    "year": 2009,
+    "q_num": 13,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 61,
+    "new_len": 497,
+    "q_id": "2152bd71-fb52-5f33-8efc-905b20f66eb4"
+  },
+  {
+    "year": 2009,
+    "q_num": 16,
+    "reason": "Missing 错项排除",
+    "old_len": 142,
+    "new_len": 1412,
+    "q_id": "db2a5b46-58a5-5889-84f4-e16bf86ddc16"
+  },
+  {
+    "year": 2010,
+    "q_num": 2,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 47,
+    "new_len": 541,
+    "q_id": "43b6a41c-9ab1-5d1f-bb0f-b086cc8bfb2f"
+  },
+  {
+    "year": 2010,
+    "q_num": 3,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 73,
+    "new_len": 1325,
+    "q_id": "d70e5f15-c679-5393-81c3-518bd3b65b3e"
+  },
+  {
+    "year": 2010,
+    "q_num": 5,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 57,
+    "new_len": 377,
+    "q_id": "11e319d0-9286-54be-ad35-425f4c1026ac"
+  },
+  {
+    "year": 2010,
+    "q_num": 7,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 46,
+    "new_len": 539,
+    "q_id": "49c03cb0-03af-55d6-ad8a-98dff78aed35"
+  },
+  {
+    "year": 2010,
+    "q_num": 12,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 50,
+    "new_len": 481,
+    "q_id": "b1847d7c-0254-580b-a013-4e4c15bb3a08"
+  },
+  {
+    "year": 2010,
+    "q_num": 13,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 74,
+    "new_len": 1433,
+    "q_id": "389307b7-f44f-56cc-85f2-8f3c9aa7bc09"
+  },
+  {
+    "year": 2010,
+    "q_num": 14,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 54,
+    "new_len": 429,
+    "q_id": "6339bb6c-9971-5ad2-a27c-2530db04c8d1"
+  },
+  {
+    "year": 2010,
+    "q_num": 20,
+    "reason": "Missing 错项排除",
+    "old_len": 150,
+    "new_len": 578,
+    "q_id": "82419f2f-baba-51e9-9426-209728ef86e0"
+  },
+  {
+    "year": 2012,
+    "q_num": 20,
+    "reason": "Missing 错项排除",
+    "old_len": 215,
+    "new_len": 440,
+    "q_id": "406ed4f4-6684-5e0b-b813-d7fc22882c37"
+  },
+  {
+    "year": 2013,
+    "q_num": 1,
+    "reason": "Truncated OCR corruption",
+    "old_len": 53,
+    "new_len": 786,
+    "q_id": "0ca0eb6d-66ee-5130-8c30-2a652a0cdd7f"
+  },
+  {
+    "year": 2013,
+    "q_num": 2,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 54,
+    "new_len": 450,
+    "q_id": "570a4111-1eb6-5d25-9bf9-6ab570147ea3"
+  },
+  {
+    "year": 2013,
+    "q_num": 12,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 48,
+    "new_len": 440,
+    "q_id": "2cfc90d1-0252-535f-8669-0040becf8de6"
+  },
+  {
+    "year": 2013,
+    "q_num": 13,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 50,
+    "new_len": 652,
+    "q_id": "841b1373-03ec-59a0-a540-6d5204fed222"
+  },
+  {
+    "year": 2013,
+    "q_num": 17,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 49,
+    "new_len": 419,
+    "q_id": "13d4bf00-a10c-5c7a-8a57-30f7c3205a41"
+  },
+  {
+    "year": 2014,
+    "q_num": 6,
+    "reason": "Missing 错项排除",
+    "old_len": 892,
+    "new_len": 463,
+    "q_id": "028ab3cb-ed07-5207-bce3-ceb0f77e03ce"
+  },
+  {
+    "year": 2015,
+    "q_num": 7,
+    "reason": "Too short (< 120 chars)",
+    "old_len": 78,
+    "new_len": 538,
+    "q_id": "67b80841-2ff9-5cc8-844f-c306a1db7d3b"
+  },
+  {
+    "year": 2015,
+    "q_num": 8,
+    "reason": "Missing 错项排除",
+    "old_len": 313,
+    "new_len": 440,
+    "q_id": "d79dff8e-17ea-54e9-a35e-8fe0a049f7b7"
+  },
+  {
+    "year": 2015,
+    "q_num": 14,
+    "reason": "Missing 错项排除",
+    "old_len": 221,
+    "new_len": 680,
+    "q_id": "f61d947b-6ecc-599b-ae0b-8339d0705790"
+  },
+  {
+    "year": 2015,
+    "q_num": 18,
+    "reason": "Missing 错项排除",
+    "old_len": 208,
+    "new_len": 432,
+    "q_id": "8508fc15-16c8-5b85-83b5-acc30da14afd"
+  },
+  {
+    "year": 2015,
+    "q_num": 19,
+    "reason": "Missing 错项排除",
+    "old_len": 257,
+    "new_len": 420,
+    "q_id": "d4eea8ed-9307-5033-8027-c5fc4bf6e51d"
+  }
+]
