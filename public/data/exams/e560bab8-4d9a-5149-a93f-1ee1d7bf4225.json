@@ -195,22 +195,22 @@
       "options": [
         {
           "key": "A",
-          "text": "related (to talent",
+          "text": "related (to)",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "close ( totalent",
+          "text": "close (to)",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "open ( to",
+          "text": "open (to)",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "devoted ( to",
+          "text": "devoted (to)",
           "value": "D"
         }
       ],
@@ -230,22 +230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "access ( to)",
+          "text": "access (to)",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "succession ( to",
+          "text": "succession (to)",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "right ( to",
+          "text": "right (to)",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "return ( to",
+          "text": "return (to)",
           "value": "D"
         }
       ],
@@ -335,22 +335,22 @@
       "options": [
         {
           "key": "A",
-          "text": "nati ves",
+          "text": "freedom",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "inhabitants",
+          "text": "origin",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "peop l es",
+          "text": "impact",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "indi vi",
+          "text": "reform",
           "value": "D"
         }
       ],
@@ -415,7 +415,7 @@
         },
         {
           "key": "C",
-          "text": "amon",
+          "text": "among",
           "value": "C"
         },
         {
@@ -440,22 +440,22 @@
       "options": [
         {
           "key": "A",
-          "text": "ll owed",
+          "text": "allowed",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "pr eac hed",
+          "text": "preached",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "ranted",
+          "text": "granted",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "fun ded",
+          "text": "funded",
           "value": "D"
         }
       ],
@@ -545,22 +545,22 @@
       "options": [
         {
           "key": "A",
-          "text": "s pr ead",
+          "text": "spread",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "int e rfere n ce",
+          "text": "interference",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "xclusion",
+          "text": "exclusion",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "influ ence",
+          "text": "influence",
           "value": "D"
         }
       ],
@@ -580,22 +580,22 @@
       "options": [
         {
           "key": "A",
-          "text": "freedom",
+          "text": "support",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "o rigin",
+          "text": "cry",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "im pac t",
+          "text": "plea",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "reform",
+          "text": "wish",
           "value": "D"
         }
       ],
@@ -856,7 +856,7 @@
       "passage_id": "6347524b-92cc-55f6-9c71-961054eb82d0",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Ericsson, good memory",
+      "stem": "According to Ericsson, good memory ________.",
       "options": [
         {
           "key": "A",
@@ -870,7 +870,7 @@
         },
         {
           "key": "C",
-          "text": "is determined by ge",
+          "text": "is determined by genetic rather than psychological factors",
           "value": "C"
         },
         {
@@ -975,7 +975,7 @@
         },
         {
           "key": "C",
-          "text": "T elling the differences between ce rtain concepts.",
+          "text": "Telling the differences between certain concepts.",
           "value": "C"
         },
         {
@@ -996,26 +996,26 @@
       "passage_id": "cc38bed7-6339-5a13-8ee9-2f840e1befbe",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "What can be inferred about intelligence",
+      "stem": "What can be inferred about intelligence testing from Paragraph 3?",
       "options": [
         {
           "key": "A",
-          "text": "People no longer use IQ sco res as an",
+          "text": "People no longer use IQ scores as an indicator of intelligence.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "More versions",
+          "text": "More versions of IQ tests are now available on the Internet.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The test co nt e nt",
+          "text": "The test content and formats for adults and children may be different.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Scientists have defined the im portant",
+          "text": "Scientists have defined the important elements of human intelligence.",
           "value": "D"
         }
       ],
@@ -1031,26 +1031,26 @@
       "passage_id": "cc38bed7-6339-5a13-8ee9-2f840e1befbe",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "People nowadays can no longer achieve IQ scores as",
+      "stem": "People nowadays can no longer achieve IQ scores as high as vos Savant's because ________.",
       "options": [
         {
           "key": "A",
-          "text": "the scores are obtained through different",
+          "text": "the scores are obtained through different computational procedures",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "creativity rather than analytical skills I S",
+          "text": "creativity rather than analytical skills is emphasized now",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "vos Savant’s case is an extreme one that will",
+          "text": "vos Savant's case is an extreme one that will not repeat",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "the defi ning characteristic of IQ tests has changed",
+          "text": "the defining characteristic of IQ tests has changed",
           "value": "D"
         }
       ],
@@ -1066,16 +1066,16 @@
       "passage_id": "cc38bed7-6339-5a13-8ee9-2f840e1befbe",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "We can conclude from the last paragraph that",
+      "stem": "We can conclude from the last paragraph that ________.",
       "options": [
         {
           "key": "A",
-          "text": "test scores may not be relic",
+          "text": "test scores may not be reliable indicators of one's ability",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "IQ sco r",
+          "text": "IQ scores and SAT results are highly correlated",
           "value": "B"
         },
         {
@@ -1171,11 +1171,11 @@
       "passage_id": "3a4dede3-a1af-5bd5-9cb6-3ba199fd7119",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "As a result of President Bush's reform,",
+      "stem": "As a result of President Bush's reform, retired people may have ________.",
       "options": [
         {
           "key": "A",
-          "text": "higher sense of security",
+          "text": "a higher sense of security",
           "value": "A"
         },
         {
@@ -1185,12 +1185,12 @@
         },
         {
           "key": "C",
-          "text": "less ch anc",
+          "text": "less chance to invest",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "guaranteed future",
+          "text": "a guaranteed future",
           "value": "D"
         }
       ],
@@ -1346,11 +1346,11 @@
       "passage_id": "6d432ded-32e4-5c0a-8da2-59b623ec3075",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 2, some organizations",
+      "stem": "According to Paragraph 2, some organizations check their systems to find out ________.",
       "options": [
         {
           "key": "A",
-          "text": "whether there is any weak poin t",
+          "text": "whether there is any weak point",
           "value": "A"
         },
         {
@@ -1365,7 +1365,7 @@
         },
         {
           "key": "D",
-          "text": "how the potential spies can be l oca l",
+          "text": "how the potential spies can be located",
           "value": "D"
         }
       ],
@@ -1381,11 +1381,11 @@
       "passage_id": "6d432ded-32e4-5c0a-8da2-59b623ec3075",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "In bringing up the concept of GASP the author is",
+      "stem": "In bringing up the concept of GASP the author is making the point that ________.",
       "options": [
         {
           "key": "A",
-          "text": "shareholders' interests should be properl y attended to",
+          "text": "shareholders' interests should be properly attended to",
           "value": "A"
         },
         {
@@ -1451,16 +1451,16 @@
       "passage_id": "6d432ded-32e4-5c0a-8da2-59b623ec3075",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It can be inferred from Paragraph 5 that",
+      "stem": "It can be inferred from Paragraph 5 that ________.",
       "options": [
         {
           "key": "A",
-          "text": "data l eakag",
+          "text": "data leakage is more severe in Europe",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "FTC's decision is",
+          "text": "FTC's decision is essential to data security",
           "value": "B"
         },
         {

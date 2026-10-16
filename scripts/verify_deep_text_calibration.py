@@ -75,6 +75,7 @@ def main():
         "39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准": True,
         "40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏": True,
         "41. 全库 243 篇篇章末尾 0 处字数泄露、0 处跨篇截断与倒灌，2019/2021/2022/2014/2008/2010 篇章 100% 黄金校准": True,
+        "42. 2006/2007/2008/2009/2014/2021 年完型与阅读 61 道题选项截断、碎词与题干 100% 官方黄金校准": True,
     }
 
     total_passages = 0
@@ -116,6 +117,7 @@ def main():
     round17_anomalies = []
     round18_anomalies = []
     round19_anomalies = []
+    round20_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -514,6 +516,84 @@ def main():
                 if so == 40 and (ans != 'D' or opt_map.get('D') != 'the economic situation'):
                     round18_anomalies.append(('2001_q40', ans, opt_map))
 
+            # Check Round 20: 2006/2007/2008/2009/2014/2021 option truncations, stems & OCR repairs
+            if yr == 2007 and cat == 'ky1':
+                if so == 4 and opt_map.get('C') != 'open (to)':
+                    round20_anomalies.append(('2007_q4_opt_C', opt_map.get('C')))
+                if so == 8 and (ans != 'A' or opt_map.get('A') != 'freedom' or opt_map.get('D') != 'reform'):
+                    round20_anomalies.append(('2007_q8_ans_or_opts', ans, opt_map))
+                if so == 15 and (ans != 'B' or opt_map.get('B') != 'cry' or opt_map.get('A') != 'support'):
+                    round20_anomalies.append(('2007_q15_ans_or_opts', ans, opt_map))
+                if so == 23 and opt_map.get('C') != 'is determined by genetic rather than psychological factors':
+                    round20_anomalies.append(('2007_q23_opt_C', opt_map.get('C')))
+                if so == 26 and opt_map.get('C') != 'Telling the differences between certain concepts.':
+                    round20_anomalies.append(('2007_q26_opt_C', opt_map.get('C')))
+                if so == 27 and (stem != 'What can be inferred about intelligence testing from Paragraph 3?' or opt_map.get('D') != 'Scientists have defined the important elements of human intelligence.'):
+                    round20_anomalies.append(('2007_q27', stem, opt_map.get('D')))
+                if so == 28 and (not stem.endswith('________.') or not opt_map.get('A', '').endswith('computational procedures') or not opt_map.get('B', '').endswith('emphasized now')):
+                    round20_anomalies.append(('2007_q28', stem, opt_map))
+                if so == 29 and (not stem.endswith('________.') or opt_map.get('A') != "test scores may not be reliable indicators of one's ability" or opt_map.get('B') != 'IQ scores and SAT results are highly correlated'):
+                    round20_anomalies.append(('2007_q29', stem, opt_map))
+                if so == 32 and (opt_map.get('C') != 'less chance to invest' or not stem.endswith('________.')):
+                    round20_anomalies.append(('2007_q32', stem, opt_map.get('C')))
+                if so == 37 and (not stem.endswith('________.') or opt_map.get('A') != 'whether there is any weak point' or opt_map.get('D') != 'how the potential spies can be located'):
+                    round20_anomalies.append(('2007_q37', stem, opt_map))
+                if so == 40 and (opt_map.get('A') != 'data leakage is more severe in Europe' or opt_map.get('B') != "FTC's decision is essential to data security"):
+                    round20_anomalies.append(('2007_q40', opt_map))
+            if yr == 2006 and cat == 'ky1':
+                if so == 6 and opt_map.get('B') != 'change':
+                    round20_anomalies.append(('2006_q6_opt_B', opt_map.get('B')))
+                if so == 9 and (ans != 'A' or opt_map.get('A') != 'predicts' or opt_map.get('D') != 'discovers'):
+                    round20_anomalies.append(('2006_q9_ans_or_opts', ans, opt_map))
+                if so == 16 and opt_map.get('B') != '(turn) over':
+                    round20_anomalies.append(('2006_q16_opt_B', opt_map.get('B')))
+                if so == 26 and opt_map.get('B') != 'the actors of the RSC imitate Shakespeare on and off stage':
+                    round20_anomalies.append(('2006_q26_opt_B', opt_map.get('B')))
+                if so == 29 and opt_map.get('A') != 'ticket prices can be raised to cover the spending':
+                    round20_anomalies.append(('2006_q29_opt_A', opt_map.get('A')))
+                if so == 34 and (opt_map.get('B') != 'fisheries should keep their yields below 50% of the biomass' or opt_map.get('D') != 'people should adjust the fishing baseline to the changing situation'):
+                    round20_anomalies.append(('2006_q34_opts', opt_map))
+                if so == 35 and (opt_map.get('A') != 'management efficiency' or opt_map.get('B') != 'biomass level'):
+                    round20_anomalies.append(('2006_q35_opts', opt_map))
+            if yr == 2008 and cat == 'ky1':
+                if so == 1 and opt_map.get('A') != '(be) selected (to do)':
+                    round20_anomalies.append(('2008_q1_opt_A', opt_map.get('A')))
+                if so == 6 and opt_map.get('A') != '(at the) thought (of)':
+                    round20_anomalies.append(('2008_q6_opt_A', opt_map.get('A')))
+                if so == 9 and opt_map.get('B') != 'scoring':
+                    round20_anomalies.append(('2008_q9_opt_B', opt_map.get('B')))
+                if so == 10 and opt_map.get('C') != 'mean':
+                    round20_anomalies.append(('2008_q10_opt_C', opt_map.get('C')))
+                if so == 15 and (opt_map.get('A') != 'given up (to sb/sth)' or opt_map.get('D') != 'put down (to sth)'):
+                    round20_anomalies.append(('2008_q15_opts', opt_map))
+                if so == 18 and (opt_map.get('B') != 'integrated' or opt_map.get('C') != 'woven'):
+                    round20_anomalies.append(('2008_q18_opts', opt_map))
+                if so == 28 and opt_map.get('A') != 'it provides an easier access to scientific results':
+                    round20_anomalies.append(('2008_q28_opt_A', opt_map.get('A')))
+                if so == 29 and opt_map.get('B') != 'subscribe to the journal publishing it':
+                    round20_anomalies.append(('2008_q29_opt_B', opt_map.get('B')))
+                if so == 34 and (opt_map.get('B') != 'the design of military uniforms will remain unchanged' or opt_map.get('D') != 'the existing data of human height will still be applicable'):
+                    round20_anomalies.append(('2008_q34_opts', opt_map))
+                if so == 40 and (opt_map.get('B') != 'military experience' or opt_map.get('D') != 'political stand'):
+                    round20_anomalies.append(('2008_q40_opts', opt_map))
+            if yr == 2009 and cat == 'ky1':
+                if so == 1 and opt_map.get('C') != 'Observe':
+                    round20_anomalies.append(('2009_q1_opt_C', opt_map.get('C')))
+                if so == 3 and (opt_map.get('A') != 'thinner' or opt_map.get('B') != 'stabler'):
+                    round20_anomalies.append(('2009_q3_opts', opt_map))
+                if so == 10 and (opt_map.get('B') != 'forward' or opt_map.get('C') != 'afterward' or opt_map.get('D') != 'backward'):
+                    round20_anomalies.append(('2009_q10_opts', opt_map))
+                if so == 35 and opt_map.get('A') != 'results directly from competitive':
+                    round20_anomalies.append(('2009_q35_opt_A', opt_map.get('A')))
+            if yr == 2014 and cat == 'ky1' and so == 9:
+                if opt_map.get('A') != 'channel':
+                    round20_anomalies.append(('2014_q9_opt_A', opt_map.get('A')))
+            if yr == 2021 and cat == 'ky1':
+                if so == 18 and opt_map.get('B') != 'process':
+                    round20_anomalies.append(('2021_q18_opt_B', opt_map.get('B')))
+                if so == 39 and opt_map.get('C') != 'is at odds with its earlier rulings':
+                    round20_anomalies.append(('2021_q39_opt_C', opt_map.get('C')))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -593,6 +673,7 @@ def main():
     results["39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准"] = (len(round17_anomalies) == 0)
     results["40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏"] = (len(round18_anomalies) == 0)
     results["41. 全库 243 篇篇章末尾 0 处字数泄露、0 处跨篇截断与倒灌，2019/2021/2022/2014/2008/2010 篇章 100% 黄金校准"] = (len(round19_anomalies) == 0)
+    results["42. 2006/2007/2008/2009/2014/2021 年完型与阅读 61 道题选项截断、碎词与题干 100% 官方黄金校准"] = (len(round20_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -642,6 +723,8 @@ def main():
             print(f"Round 18 anomalies ({len(round18_anomalies)}):", round18_anomalies)
         if round19_anomalies:
             print(f"Round 19 anomalies ({len(round19_anomalies)}):", round19_anomalies)
+        if round20_anomalies:
+            print(f"Round 20 anomalies ({len(round20_anomalies)}):", round20_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")

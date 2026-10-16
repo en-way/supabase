@@ -90,22 +90,22 @@
       "options": [
         {
           "key": "A",
-          "text": "( be) selected ( todo",
+          "text": "(be) selected (to do)",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "( be) prepared ( todo",
+          "text": "(be) prepared (to do)",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "( be) obliged (to do)",
+          "text": "(be) obliged (to do)",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "( be) pleased ( todo",
+          "text": "(be) pleased (to do)",
           "value": "D"
         }
       ],
@@ -240,7 +240,7 @@
         },
         {
           "key": "C",
-          "text": "Eve n",
+          "text": "Even",
           "value": "C"
         },
         {
@@ -265,7 +265,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Cat the) thought (of)",
+          "text": "(at the) thought (of)",
           "value": "A"
         },
         {
@@ -275,12 +275,12 @@
         },
         {
           "key": "C",
-          "text": "Cat the) cost (of)",
+          "text": "(at the) cost (of)",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Cat the) risk (of)",
+          "text": "(at the) risk (of)",
           "value": "D"
         }
       ],
@@ -370,22 +370,22 @@
       "options": [
         {
           "key": "A",
-          "text": "t ta inin g",
+          "text": "attaining",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "sco rin",
+          "text": "scoring",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "r eac hing",
+          "text": "reaching",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "ca lcul a ting",
+          "text": "calculating",
           "value": "D"
         }
       ],
@@ -410,17 +410,17 @@
         },
         {
           "key": "B",
-          "text": "comm on",
+          "text": "common",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "m ea n",
+          "text": "mean",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "tota l",
+          "text": "total",
           "value": "D"
         }
       ],
@@ -475,7 +475,7 @@
       "options": [
         {
           "key": "A",
-          "text": "mis s ions",
+          "text": "missions",
           "value": "A"
         },
         {
@@ -485,12 +485,12 @@
         },
         {
           "key": "C",
-          "text": "in terests",
+          "text": "interests",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "ca r eers",
+          "text": "careers",
           "value": "D"
         }
       ],
@@ -545,17 +545,17 @@
       "options": [
         {
           "key": "A",
-          "text": "mor eover",
+          "text": "moreover",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "therefor",
+          "text": "therefore",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "how ever",
+          "text": "however",
           "value": "C"
         },
         {
@@ -580,12 +580,12 @@
       "options": [
         {
           "key": "A",
-          "text": "given up(to s b/ sth",
+          "text": "given up (to sb/sth)",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "got over( to sb",
+          "text": "got over (to sb)",
           "value": "B"
         },
         {
@@ -595,7 +595,7 @@
         },
         {
           "key": "D",
-          "text": "put down(to st h",
+          "text": "put down (to sth)",
           "value": "D"
         }
       ],
@@ -615,22 +615,22 @@
       "options": [
         {
           "key": "A",
-          "text": "asse ss ing",
+          "text": "assessing",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "sup e rvising",
+          "text": "supervising",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "adm ini ste ring",
+          "text": "administering",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "va luing",
+          "text": "valuing",
           "value": "D"
         }
       ],
@@ -650,7 +650,7 @@
       "options": [
         {
           "key": "A",
-          "text": "developm e nt",
+          "text": "development",
           "value": "A"
         },
         {
@@ -660,12 +660,12 @@
         },
         {
           "key": "C",
-          "text": "cons equence",
+          "text": "consequence",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "ins trum ent",
+          "text": "instrument",
           "value": "D"
         }
       ],
@@ -685,17 +685,17 @@
       "options": [
         {
           "key": "A",
-          "text": "li nked",
+          "text": "linked",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "int egrate d",
+          "text": "integrated",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "wov",
+          "text": "woven",
           "value": "C"
         },
         {
@@ -720,22 +720,22 @@
       "options": [
         {
           "key": "A",
-          "text": "limited (sb to st h",
+          "text": "limited (sb to sth)",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "subj ected ( sb to st h",
+          "text": "subjected (sb to sth)",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "converted ( sb to sth",
+          "text": "converted (sb to sth)",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "directed ( sb to s th",
+          "text": "directed (sb to sth)",
           "value": "D"
         }
       ],
@@ -1031,16 +1031,16 @@
       "passage_id": "f78ff8be-ed70-5a30-8dc1-893d450d8289",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to the text , online publication is significant",
+      "stem": "According to the text, online publication is significant in that ________.",
       "options": [
         {
           "key": "A",
-          "text": "it pro vid",
+          "text": "it provides an easier access to scientific results",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "it brings huge profits to scientifi c researchers",
+          "text": "it brings huge profits to scientific researchers",
           "value": "B"
         },
         {
@@ -1050,7 +1050,7 @@
         },
         {
           "key": "D",
-          "text": "it fac ilitates public investment in scientifi c research",
+          "text": "it facilitates public investment in scientific research",
           "value": "D"
         }
       ],
@@ -1066,21 +1066,21 @@
       "passage_id": "f78ff8be-ed70-5a30-8dc1-893d450d8289",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "With the open-access publishing model, the author",
+      "stem": "With the open-access publishing model, the author of a paper is required to ________.",
       "options": [
         {
           "key": "A",
-          "text": "cover the cost of its publica tion",
+          "text": "cover the cost of its publication",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "subscribe to the journal p ubli s hi",
+          "text": "subscribe to the journal publishing it",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "allow other onli ne journals to use it freely",
+          "text": "allow other online journals to use it freely",
           "value": "C"
         },
         {
@@ -1241,7 +1241,7 @@
       "passage_id": "ced284a0-eb80-5389-a203-0057441d6c2e",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "We learn from the last paragraph that in the near",
+      "stem": "We learn from the last paragraph that in the near future ________.",
       "options": [
         {
           "key": "A",
@@ -1250,7 +1250,7 @@
         },
         {
           "key": "B",
-          "text": "the design of military unifo rms will I",
+          "text": "the design of military uniforms will remain unchanged",
           "value": "B"
         },
         {
@@ -1260,7 +1260,7 @@
         },
         {
           "key": "D",
-          "text": "the existing data of human height will still be appli ca ble",
+          "text": "the existing data of human height will still be applicable",
           "value": "D"
         }
       ],
@@ -1460,7 +1460,7 @@
         },
         {
           "key": "B",
-          "text": "m ilitary experience",
+          "text": "military experience",
           "value": "B"
         },
         {
@@ -1470,7 +1470,7 @@
         },
         {
           "key": "D",
-          "text": "poli tical stand",
+          "text": "political stand",
           "value": "D"
         }
       ],
