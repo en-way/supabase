@@ -64,6 +64,10 @@ def main():
         "29. 选项文本 0 处日文中黑点 (・) 伪符号残留": True,
         "30. 2004 年完型填空 20 题 100% 具备黄皮书真题精解": True,
         "31. 2014 年完型第 8 题选项与答案 100% 为 functions (D)": True,
+        "32. 2010 Q26 / 2012 Q40 / 2016 Q1 / 2017 Q14 / 2013 Q2 官方答案 100% 黄金校准": True,
+        "33. 2011 完型第 7/8 题及阅读 40 题选项与答案 100% 官方黄金校准": True,
+        "34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原": True,
+        "35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原": True,
     }
 
     total_passages = 0
@@ -98,6 +102,7 @@ def main():
     cloze_2004_placeholders = []
     cloze_2014_q8_anomalies = []
     round12_core_anomalies = []
+    round13_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -275,6 +280,35 @@ def main():
                 if ans != 'D' or 'experienced' not in opt_texts:
                     round12_core_anomalies.append(('2004_q13', ans, opt_texts))
 
+            # 35. Round 13 25 questions calibration check
+            if yr == 2017 and cat == 'ky1' and so == 38:
+                if len(opts) != 4 or ans != 'A' or len(expl) < 500 or not any('justified in addressing' in o.get('text', '') for o in opts):
+                    round13_anomalies.append(('2017_q38', ans, len(expl)))
+            if yr == 2016 and cat == 'ky1' and so == 45:
+                if len(expl) < 300 or 'Make it efficient' not in expl:
+                    round13_anomalies.append(('2016_q45', len(expl)))
+            if yr == 2002 and cat == 'ky1' and so == 30:
+                if len(opts) != 4 or ans != 'C' or len(expl) < 400 or 'far from reaching human mental standards' not in [o.get('text') for o in opts]:
+                    round13_anomalies.append(('2002_q30', ans, len(expl)))
+            if yr == 2010 and cat == 'ky1' and so == 25:
+                if len(opts) != 4 or ans != 'B' or len(expl) < 400 or 'The Lost Horizon in Newspapers' not in [o.get('text') for o in opts]:
+                    round13_anomalies.append(('2010_q25', ans, len(expl)))
+            if yr == 2009 and cat == 'ky1' and so in [43, 44]:
+                if len(expl) < 300 or expl.endswith('、'):
+                    round13_anomalies.append((f'2009_q{so}', len(expl)))
+            if yr == 2020 and cat == 'ky1' and so == 29:
+                if len(expl) < 900 or '开放获取模式实质上还是出版商的盈利工具' not in expl:
+                    round13_anomalies.append(('2020_q29', len(expl)))
+            if yr == 2021 and cat == 'ky2' and so in [21, 23, 24, 25]:
+                if len(expl) < 400 or '事实细节:' in expl:
+                    round13_anomalies.append((f'2021_ky2_q{so}', len(expl)))
+            if yr == 2022 and cat == 'ky1' and so in [27, 32, 36, 37, 38, 39]:
+                if len(expl) < 400 or '段落主旨\n' in expl or '写作目的\n' in expl:
+                    round13_anomalies.append((f'2022_ky1_q{so}', len(expl)))
+            if yr == 2022 and cat == 'ky2' and so in [21, 22, 23, 24, 26, 27, 28, 29]:
+                if len(expl) < 250 or '事实细节:' in expl:
+                    round13_anomalies.append((f'2022_ky2_q{so}', len(expl)))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -310,6 +344,7 @@ def main():
     results["32. 2010 Q26 / 2012 Q40 / 2016 Q1 / 2017 Q14 / 2013 Q2 官方答案 100% 黄金校准"] = (len(round12_core_anomalies) == 0)
     results["33. 2011 完型第 7/8 题及阅读 40 题选项与答案 100% 官方黄金校准"] = (len([x for x in round12_core_anomalies if '2011' in str(x)]) == 0)
     results["34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原"] = (len([x for x in round12_core_anomalies if '2004' in str(x)]) == 0)
+    results["35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原"] = (len(round13_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -347,6 +382,8 @@ def main():
             print(f"Semantic conflicts ({len(semantic_conflicts)}):", semantic_conflicts[:5])
         if mismatched_answers:
             print(f"Mismatched answers ({len(mismatched_answers)}):", mismatched_answers[:5])
+        if round13_anomalies:
+            print(f"Round 13 anomalies ({len(round13_anomalies)}):", round13_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")

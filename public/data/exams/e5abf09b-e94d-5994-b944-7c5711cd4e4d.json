@@ -926,7 +926,7 @@
       "passage_id": "617af397-6632-5f9b-82d5-b9388d9bbb12",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "What would be the best title for the text?",
+      "stem": "Which of the following would be the most appropriate title for the text?",
       "options": [
         {
           "key": "A",
@@ -950,7 +950,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "25. What would be the best title for the text?\n25.本文最好的题目是什么？\n[A] Newspapers of the Good Old Days\n［A］报纸令人追忆的美好时代",
+      "explanation": "25. Which of the following would be the most appropriate title for the text?\n[A] Newspapers of the Good Old Days 报纸令人追忆的美好时代\n[B] The Lost Horizon in Newspapers 报纸上消失的视域\n[C] Mournful Decline of Journalism 新闻业令人悲哀的衰落\n[D] Prominent Critics in Memory 记忆中杰出的评论家\n\n【精准定位】本文开篇直陈主旨：英文报纸艺术报道已“不可遏止”地衰落了。第二、三段追述往昔艺术评论曾盛极一时的情况。最后两段从一位辉煌时期代表评论家的角度再次论证这一趋势，明确复兴前景渺茫的事实。文章通篇都在传达一个信息：艺术评论正逐渐从报纸上消失。[B]为最合适的标题。\n【命题解密】[B]以 Horizon（知识、兴趣的范围）喻指“艺术评论”，指向主题词 arts coverage；Lost（无法恢复的）则概括了全文陈述的趋势 inexorable decline / headlong retreat。\n【干扰项设置】[A]中 the Good Old Days 源自文中第二、三段对“过去辉煌”的追溯，未涉及文章实际着意凸显的“衰微现状”；且原文论述的中心在于“艺术评论”而非更大范围的“报纸”。[C]亦将主题词 arts criticism 偷换成更大范围的 journalism。[D]源自最后两段对 Cardus 的追忆，但对 Cardus 的遗忘只是用以论证艺术评论衰落的论据，并非全文主旨。",
       "points": 2,
       "sort_order": 25,
       "answer": "B"
