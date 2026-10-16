@@ -30,7 +30,7 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Many theories concerning the causes of juvenile delinquency focus either on the individual or on society as the major contributing influence. Theories [1] on the individual suggest that children engage in criminal behavior because they were not sufficiently penalized for previous misdeeds or that they have learned criminal behavior through interaction with others. Theories focusing on the role of society suggest that children commit crimes in [2] to their failure to achieve success in ways that society considers acceptable, or in [3] to peer pressure.\n\nMost theories of juvenile delinquency have focused on children from disadvantaged families, [4] the fact that children from wealthy homes also commit crimes. The latter may commit crimes [5] lack of adequate parental supervision. All children may be [6] to criminal behavior because they listen to other children or [7] of other antisocial acts in school or in their community.\n\nA [8] theory of juvenile delinquency focuses on the role that society plays in [9] children delinquent. It suggests that children who are labeled delinquent by the [10] system become committed to a delinquent career, in [11] because other people expect them to behave that way.\n\nTheories concerning the conditions that [12] to juvenile delinquency usually emphasize the role of the family. Lack of parental guidance and affection, harsh discipline, [13] a high rate of conflict within the home have all been [14] with criminal behavior in children. In [15], children from unstable or broken families are more likely to become delinquent than children from [16] families.\n\nDelinquency also appears to be related to the [17] of the peer group. Children who associate with delinquents are [18] likely to become delinquent themselves. Finally, schools may contribute to delinquency by failing to [19] children who are at risk, or by [20] them into low-achievement tracks.",
+      "content": "Many theories concerning the causes of juvenile delinquency focus either on the individual or on society as the major influence. Theories [1] on the individual suggest that children engage in criminal behavior [2] they were not sufficiently penalized for previous misdeeds or that they have learned criminal behavior through [3] with others. Theories focusing on the role of society suggest that children commit crimes in [4] to their failure to rise above their socioeconomic status, [5] as a rejection of middle-class values.\n\nMost theories of juvenile delinquency have focused on children from disadvantaged families, [6] the fact that children from wealthy homes also commit crimes. The latter may commit crimes [7] lack of adequate parental control. All theories, however, are tentative and are [8] to criticism.\n\nChanges in the social structure may indirectly [9] juvenile crime rates. For example, changes in the economy that [10] to fewer job opportunities for youth and rising unemployment [11] make gainful employment increasingly difficult to obtain. The resulting discontent may in [12] lead more youths into criminal behavior.\n\nFamilies have also [13] changes these years. More families consist of one-parent households or two working parents; [14], children are likely to have less supervision at home [15] was common in the traditional family [16]. This lack of parental supervision is thought to be an influence on juvenile crime rates. Other [17] causes of offensive acts include frustration or failure in school, the increased [18] of drugs and alcohol, and the growing [19] of child abuse and child neglect. All these conditions tend to increase the probability of a child committing a criminal act, [20] a direct cause-and-effect relationship has not yet been established.",
       "sort_order": 1
     },
     {
@@ -81,6 +81,181 @@
       "options": [
         {
           "key": "A",
+          "text": "acting",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "relying",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "centering",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "commenting",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "C",
+      "explanation": "1. [A] acting(on)对……起作用 [B] relying(on)依靠，指望\n[C] centering(on)以……为中心，围绕；集中于……\n[D] commenting(on)表达意见，对……做出评论\n【考点提炼】平行句子结构+分词短语辨析。正确率：49%\n【精准定位】\n从结构上看，文章第一段由三个平行结构的长句构成，其主要结构为Many (heories\nconcerning...focusonnT)eories1on(heindividualsuggestthatnTheoriesfocusingontheroleofsoci-\netysuggestt)at。三个句子的主语都是theories，并都接有分词短语做后置定语。因此，句空格处填\n入的分词和介词on的搭配应和；句中的：oncerningy(句中的focusingon遥相呼应，也表达“集中\n强调”的含义。符合要求的分词短语只有[C] centering(on)。\n【空格设置】\n本题既考查了短语：enteron，又考查了考生根据上下文准确理解句意的能力。例\n句：Hernovelscen(eredont)eproblemsofadolescence.她的小说以青少年问题为中心。\n【干扰项设置】\n其他项都符合文中语法要求，能与介词on搭配，且都可以与theories构成逻辑主谓\n关系，因此需要从更宏观的上下文进行排除。例句：Alcoholac(sont)ebrain.酒精对大脑起作用。\nSherelieson)erparentsfortuition.她的学费依赖于父母。Hecommen(edonthebadweather)ere.\n他对这里糟糕的天气发表评论。",
+      "points": 0.5,
+      "sort_order": 1,
+      "answer": "C"
+    },
+    {
+      "id": "421c5ec3-d8c5-5227-acff-5c7186d63bbb",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [2] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "before",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "unless",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "until",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "because",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "2. [A] before在……之前(表时间)\n[B] unless如果不，除非(表条件)\n[C] until直到……才(表时间)\n[D] because因为(表因果)\n【考点提炼】逻辑关系。正确率：76%\n【精准定位】\n本题空格所在部分为，句谓语动词suggest后跟的第一个that宾语从句。该从句\n含有两个完整的分句：childrenengageincriminalbehavior和theywerenotsufficientlypenalizedfor\npreviousmisdeeds。考生关键要判断出这两个在空格前后的分句之间是什么逻辑关系。根据文意，\n强调个人因素的理论把犯罪归结于个人原因，因此“对青少年以前的不良行为惩罚不够”就是“青少\n年犯罪”的原因之一。两个分句之间是因果关系。选项中只有[D] because表因果，因此是正确答案。\n【空格设置】\n本题考查了句内逻辑关系以及对较复杂句子结构的分析理解。\n【干扰项设置】\n其他项都是常用的表示逻辑关系的连接词。",
+      "points": 0.5,
+      "sort_order": 2,
+      "answer": "D"
+    },
+    {
+      "id": "97fbddcb-801a-574e-8bd3-a706c89b7c5f",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [3] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "interaction",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "assimilation",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "cooperation",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "consultation",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "3. [A] interaction (with)沟通，交流；互相作用、影响 [B] assimilation (into)吸收，同化，融入\n[C] cooperation (with)合作，协作\n[D] consultation (with)咨询，磋商\n【考点提炼】名词短语辨析。正确率：47%\n【精准定位】\n空格所在部分为， 句中第二个that引导的宾语从句。其中介词短语(hroug)3\nwi(hot)ers做状语，修饰从句谓语learnedcriminalbehavior，表明“和其他人的……”是“孩子们学会\n犯罪”的方式和原因。in(eractionwithot)ers意为“和他人的相互影响，即受到坏人的影响(而学会\n了犯罪)”，符合文意。assimilation不与with搭配，首先排除。cooperation (with)“合作”和：onsulta-\n(ion(with)“磋商”为褒义，在文中表达的含义“通过合作或磋商学会犯罪”不符合逻辑。\n【空格设置】\n本题考查抽象名词interaction，其构词法是“前缀inter-(在…… 之间)+action(作\n用)”。例句：(heinteractionbetweenperformersandt)eiraudience演员和观众之间的互动。\n【干扰项设置】\n其他项都是“核心词+ 词缀”构成的抽象名词，且构成对interaction的近义干扰。\nassimilation的构成法是“前缀as-(表强调)+similar(相同的)+名词后缀-tion”yassimilate是其动词\n形式，如：therapidassimilationofnewideas对新思想的迅速吸收，hisassimila(ionintot)epolitical\ncommunit，他进入政界。cooperation的构词法是“前缀：o-(共同)+operation(操作)”ycooperate是\n其动词形式，如：arepor(producedbythegovernmentincooperationwiththec)emicalindustr，政府\n与化工行业合作提出的一份报告。consultation含有前缀：on-(共同的，相同的)yconsul(是其动词形\n式，如：Thedecisionwas(akena“tercloseconsultationwit)localresidents.这项决定是在与当地居民\n仔细磋商后作出的。亦可作“查找，查阅”讲，如：alargecollectionoftextsavailableforconsultation\non-scree；大量的可通过电脑查阅的文本。",
+      "points": 0.5,
+      "sort_order": 3,
+      "answer": "A"
+    },
+    {
+      "id": "9d2b17b7-f846-5765-98cb-697e60198f71",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [4] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "in return",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "in reply",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "in reference",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "in response",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "D",
+      "explanation": "4. [A] tin)re(urntfor)作为(对……的)回报，交换，反应\n[B] tin)reply(to)作为对……的答复\n[C] tin)re“erence(to)关于\n[D] tin)response(to)作为对……的反应，答复\n【考点提炼】固定搭配。正确率：66%\n【精准定位】\n空格所在部分为(句中that引导的宾语从句，其中介词短语in4(ot)eirfailure做\n状语，修饰谓语动词：ommitcrimes。该从句的含义为“孩子们犯罪……他们没有成功地超越现有的\n社会经济地位”。retur；只与介词for搭配，构成短语inreturnfor，因此排除。tin)re“erence(to)代\n入文中意为“关于他们没有成功……”，语义明显不通。最后对inreplyto和inresponseto进行比\n较，这两个短语区别的关键在其中心名词repl，和response。repl，指“回答，答复”，而response多表\n示“一种自发的反应”。青少年犯罪是对自己没有成功地超越现有的社会经济地位的一种“自发的a\n本能的反应行为”，因此这个正确选项应是[D] inresponseto。\n【空格设置】\n对response设空，一方面考查了它构成的介词短语；另一方面考查了句内逻辑关系\n(文中inresponseto连接了前后的“行为”与“行为原因”h。response可意为“回答，答复”，但还指\n“(对已发生的事、说过的话等的)反应，响应”，如：Inresponsetoyourinquiry...作为对你提出的查\n询的答复……yThelaw waspassedinresponsetopublicpressure.在公众压力下该法律获得通过。\n【干扰项设置】\nretur；在词义上具有干扰，但如果准确掌握搭配则很容易排除。例句：CanIbuy\n，oulunchinre(urnforyour)elp- 感谢你帮忙，我请你吃午饭好吗- Iaskedheropinionybu(s)ejust\naskedmeaquestioninreturn.我征求她的意见，她却只是反问了我一句。其他两项都符合文中搭配\n要求，且repl，构成response的近义干扰，如：Ivmwritinginreplytoyourletterof16。arch.3月16日来\n函收悉，现答复如下。inre“erenceto更常见的形式为withre“erenceto，如：Wi(hre“erencetoyourrecent\nadvertisementyIvmwritingtorequest“urt)erdetails.关于贵方最近的广告，现特函查询详情。",
+      "points": 0.5,
+      "sort_order": 4,
+      "answer": "D"
+    },
+    {
+      "id": "e23d33fe-4ff4-579d-b416-b8d9e77af0d8",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [5] in the passage:",
+      "options": [
+        {
+          "key": "A",
+          "text": "or",
+          "value": "A"
+        },
+        {
+          "key": "B",
+          "text": "but rather",
+          "value": "B"
+        },
+        {
+          "key": "C",
+          "text": "but",
+          "value": "C"
+        },
+        {
+          "key": "D",
+          "text": "or else",
+          "value": "D"
+        }
+      ],
+      "correct_answer": "A",
+      "explanation": "5. [A] or或者(表并列)\n[B] bu(rat)er(非固定搭配)\n[C] bu(而是(表转折)\n[D] orelse否则，要不然\n【考点提炼】逻辑关系。正确率：57%\n【精准定位】\n(句that引导的定语从句中，\ninresponse(ot)eirfailure和asare”ectionofmiddle-\nclassvalues都是介词短语，做谓语动词：ommitcrimes的状语，说明“没有提升社会经济地位的反应”\n和“对中产阶级价值观的排斥”都是青少年犯罪的社会因素。显然无论从结构还是含义上，这两者都\n是并列关系，需要一个表并列的连词来连接，所以[A] or正确。\n【空格设置】\n此处考查的是短语之间的逻辑关系。由于句子成分较长，给判断连接词倒底连接\n哪两部分内容造成障碍。\n【干扰项设置】\n其他项都是表示逻辑关系的连词r词组。bu(rat)er要与否定词连用，即常用搭配\n为；o(...butrat)er，意为“不是……而是……”，如：Thecommi(teedoesnotdealwithindividualcor-\nrespondenceybutrat)erdiscussesissueinitsnewsletter.该委员会不处理个人信件，而是在简报中讨\n论问题。orelse对or构成形近干扰，它表示一种假设的结果，如：Hurryuporelseyouvllbelate.快\n点，否则你就要迟到了\n。\n” a。os(theoriesofjuveniledelinquencyhave“o-\ncusedonc)ildrenfrom -trg-wgeygca-\nn “amiliesy。6。\n(he“ac(thatchildrenfrom wealthyhomesalsocommit\ncrimes.hT)elattermaycommitcrimes。7。lackof\ng-avlgya\n， paren(alcontrol.iAlltheoriesy)owevery\nareyaeygytwa\n( andare。8。tocriticism.\n大部分研究青少年犯罪的理论都集\n中在来自贫困家庭的儿童身上，而忽略了\n出身富裕家庭的儿童也会犯罪这一事实；\n这些儿童可能由于缺乏父母管教而犯罪；\n然而，所有这些理论都不是定论，并且经\n常遭到批判\nn\nn\na\n。词汇注释与难句分析。\nn-trg-wgeygca-\ne\nstynyttlmcaoyt”to\n(.会地位低下的；生活条件差的；贫困的\ni速记sdis-(表示否定或相反)+advantage(优势)\n+-ed\ni近义sdeprivedyhandicappedyimpoverishedypoor\ni反义sprivilegedyrichywealthy\ni同根sadvantagen.n 优势，有利条件， 利益，\n益处\n，g-avlgya\net。ty。eyoo\n(.(数量或质量)令人满意的；足够的，适当的\ni速记sad-(表方向)+equ(相等)+-ate(形容词后\n缀)n(与要求的相当)；足够\ni近义sacceptableycompetentysatisfactoryysu““i-\ncientysuitable\ni反义sinadequateyin“erioryinsufficientyun“ity\nunquali“iedyunsuitableyuseless\ni同根sadequacyn.足够，适当\n(yaeygytwa\netovaoyoylo\n(.(安排、协议等)不确定的；暂定的\ni速记stent(尝试)+-ative(形容词后缀)\ni近义sinde“initeytemporaryyundecidedyunsettled\ni反义scertainyconclusiveydecisiveyde“initey“inal\neraertytwa\netnvanyoylot8题)\n(.敏感的；过敏的；灵敏的\ni速记ssens(感觉)+-itive(形容词后缀，有……倾\n向性的)\ni搭配sbeutoybeuabou(神经过敏的\ni同根s1.sensitivityn.敏感；灵敏；感受性2.in-\nsensitivea.不敏感的，\niiiiiiiiiiiiiiiiiiiii\n感觉迟钝的\n Ehryy“ah”(ar)i5lwae(ua-autevlaenm“gwaihnlra-hen“tu-”aei”h.-trg-wgeygca-ig.tutarytce)”tec\n，“aignyy“gyn“(u-”aei”).3aguy“m“h.argurhn)..tyn”t.ar1\n结构分析a\n注释、句中disadvantaged 与wealthy 是一对反义词，通过对比说明现有理论的不足。igno-\nring...现在分词结构做伴随状语，其逻辑主语即为句子主语theories，并且与theories存在逻辑上的\n主谓关系\n。\nn\na\n【语篇分析】\n第二段首句指出大部分现有的研究青少年犯罪的理论只关注来自贫困家庭的青少年。句中复\n现了第一段中的关键词theories，实现了段间的衔接。，句对首句中“来自富裕家庭的孩子也犯罪”\n的原因提出解释。，句中通过代词thelatter指代及关键词：ommitcrimes的复现，实现与首句的衔\n接。(句是第二段末句，是个过渡句。一方面对上文两段介绍的有关青少年犯罪的理论(alltheo-\nries)作总体评价，指出它们都是“不确定的、易遭到批评的”，同时引出thowever表明与上文的语义\n转折)下文关于青少年犯罪的新的见解。\nn\na\n【真题精解】",
+      "points": 0.5,
+      "sort_order": 5,
+      "answer": "A"
+    },
+    {
+      "id": "1b36a08e-ecea-5146-8660-1077a687146d",
+      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
+      "category_id": "ky1",
+      "q_type": "cloze_item",
+      "stem": "Choose the best option for blank [6] in the passage:",
+      "options": [
+        {
+          "key": "A",
           "text": "considering",
           "value": "A"
         },
@@ -100,19 +275,19 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "1.[A]acting（on)对.…..·起作用\n[B]relying（on)依靠，指望\n[C]centering（on)以....为中心，围绕；集中于....….\n[D]commenting（on）表达意见，对...做出评论\n\n【考点提炼】平行句子结构十分词短语辨析。正确率：49%\n\n【解题思路】］从结构上看，文章第一段由三个平行结构的长句构成，其主要结构为Manytheories\nconcerning...focus on; Theories 1 on the individual suggest that;Theories focusing on the role of soci-\nety suggestthat。三个句子的主语都是theories，并都接有分词短语做后置定语。因此②句空格处填\n入的分词和介词on的搭配应和①句中的concerning，③句中的focusingon遥相呼应，也表达“集中\n强调”的含义。符合要求的分词短语只有[C]centering（on）。\n\n【空格设置】］本题既考查了短语centeron，又考查了考生根据上下文准确理解句意的能力。例\n句:Her novels centered on the problems of adolescence.她的小说以青少年问题为中心。\n关系，因此需要从更宏观的上下文进行排除。例句：Alcoholactsonthebrain.酒精对大脑起作用。\nShe relies on her parents for tuition.她的学费依赖于父母。He commented on the bad weather here.\n他对这里糟糕的天气发表评论。",
+      "correct_answer": "B",
+      "explanation": "6. [A] considering考虑，细想 [B] ignoring忽视，对……不予理会\n[C] highlighting突出，强调\n[D] discarding丢弃，抛弃(不想要或不再需要的人r物)\n【考点提炼】分词结构做状语+动词词义辨析。正确率：70%\n【精准定位】\n首句中空格前的部分指出“大部分研究青少年犯罪的理论都关注来自贫穷家庭的\n孩子”，空格后的部分指出“……来自富有家庭的孩子也犯罪的事实”。从逻辑上讲，“只关注贫穷家\n庭的孩子的情况”会导致“不关注富裕家庭孩子的情况”的结果。选项中能表达“不关注”含义的只有\nignoring，它在这里做结果状语，意为“(于是)就忽视了……”。discarding不能与fact搭配。\n【空格设置】\nignore并非生僻词，对它设空，因为它和主句的谓语focusedon形成反义对照：关注\n……忽视……。例句：Wecanno(a“fordtoignoret)eiradvice.我们不能不考虑他们的劝告。\n【干扰项设置】\n其他项中，consider与)ighligh(对ignore构成反义干扰，discard则对ignore构成近\n义干扰。例句：Therepor(highlightedt)ema”orproblems“acingsocietytoday.报告特别强调了当今社会\n所面临的主要问题。10% ofthedatawasdiscardedasunreliable.10%的数据因不可靠而被废弃。",
       "points": 0.5,
-      "sort_order": 1,
-      "answer": "C"
+      "sort_order": 6,
+      "answer": "B"
     },
     {
-      "id": "421c5ec3-d8c5-5227-acff-5c7186d63bbb",
+      "id": "1a7596d9-8057-5756-a6f9-16e09b9b6fb6",
       "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
       "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
       "category_id": "ky1",
       "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [2] in the passage:",
+      "stem": "Choose the best option for blank [7] in the passage:",
       "options": [
         {
           "key": "A",
@@ -135,19 +310,19 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "2.[A]before在.…...之前（表时间）\n[B]unless如果不，除非（表条件）\n[C]until直到.…..才（表时间）\n[D]because因为（表因果）\n\n【考点提炼】逻辑关系。正确率：76%\n\n【解题思路】］本题空格所在部分为②句谓语动词suggest后跟的第一个that宾语从句。该从句\n含有两个完整的分句：children engage in criminalbehavior和theywere not sufficientlypenalizedfor\npreviousmisdeeds。考生关键要判断出这两个在空格前后的分句之间是什么逻辑关系。根据文意，\n\n【错项排除】］其他项都是常用的表示逻辑关系的连接词。",
+      "correct_answer": "C",
+      "explanation": "7. [A] on [B] in  [C] for [D] wit)\n【考点提炼】逻辑关系+ 介词用法辨析。正确率：55%\n【精准定位】\n考生首先要知道，句主语thelatter(后者)指代首句中提到的“富有家庭的孩子”n\n其次要搞清楚空格前后部分Thelattercommitcrimes和lackofadequateparentalcontrol之间的逻\n辑关系。由于上文一直在探讨青少年犯罪的原因，这里也不例外，谈论的是“富有家庭的孩子犯罪”\n是由于“缺少父母管教”，空格处需填入表因果关系的介词。onyforywith都可用于引出原因，但只有\nfor能与lack搭配，forlackof表示“由于缺乏……”，为正确选项。\n【空格设置】\nfor是常用介词，用法较多，此处考查了它表示原因的用法及搭配。for可意为“因为，\n由于”，如：Hegotanawardforbravery.他因英勇受奖。forlackof是常用搭配，相当于(hroug)lackof。\n【干扰项设置】\n在常用介词中，许多可表示相似的含义，但具体的用法及搭配并不相同。on可意为\n“根据，由于”，如：astorybasedonfact基于事实的小说，On(heiradviceIappliedfort)ejob.我听从\n了他们的建议申请了这份工作。i；可以表示时间、地点、状态、有关……等，但不表示原因；\ninthat可\n以表示原因，要接从句，文中原句可改写为Thela(termaycommitcrimesinthattheylackadequate\nparentalcontrol.wit)可意为“因为，由于，作为……的结果”，如：His“ingerswerenumbedwithcold.\n他的手指冻木了。",
       "points": 0.5,
-      "sort_order": 2,
-      "answer": "A"
+      "sort_order": 7,
+      "answer": "C"
     },
     {
-      "id": "97fbddcb-801a-574e-8bd3-a706c89b7c5f",
+      "id": "97d6317c-ab42-5d29-8191-d422b423bd53",
       "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
       "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
       "category_id": "ky1",
       "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [3] in the passage:",
+      "stem": "Choose the best option for blank [8] in the passage:",
       "options": [
         {
           "key": "A",
@@ -171,18 +346,18 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "3．[A］interaction（with)沟通，交流；互相作用、影响[B]assimilation（into）吸收，同化，融入\n[C」cooperation（with）合作，协作\n[D」consultation（with）咨询，磋商\n\n【考点提炼】名词短语辨析。正确率：47%\n\n【解题思路】］空格所在部分为②句中第二个that引l导的宾语从句。其中介词短语through3\nwithothers做状语，修饰从句谓语learnedcriminalbehavior，表明“和其他人的.…...”是“孩子们学会\n了犯罪）”，符合文意。assimilation不与with搭配，首先排除。cooperation（with）“合作”和consulta\ntion（with）“商”为褒义，在文中表达的含义“通过合作或磋商学会犯罪”不符合逻辑。\n\n【空格设置】］本题考查抽象名词interaction，其构词法是“前缀inter-（在…...之间）十action（作\n用）”。例句：theinteractionbetween performers and their audience演员和观众之间的互动。\n\n【错项排除】］其他项都是“核心词十词缀”构成的抽象名词，且构成对interaction的近义干扰。\nassimilation的构成法是“前缀as-（表强调）十similar（相同的）十名词后缀-tion”，assimilate是其动词\n形式，如：therapid assimilation of new ideas对新思想的迅速吸收，his assimilation into the political\ncommunity他进入政界。cooperation的构词法是“前缀co-（共同）十operation（操作）”，cooperate是\n其动词形式，如:a report produced by the government in cooperation with the chemical industry 政府\n与化工行业合作提出的一份报告。consultation含有前缀con-（共同的，相同的），consult是其动词形\n式，如：The decision was taken after close consultation with localresidents.这项决定是在与当地居民\n仔细磋商后作出的。亦可作“查找，查阅”讲，如：alargecollectionoftextsavailableforconsultation\non-screen大量的可通过电脑查阅的文本。",
+      "explanation": "8. [A] immune (to)免疫的，不受影响的\n[B] resistant (to)有抵抗力的；对……抵制的\n[C] sensitive (to)敏感的，过敏的\n[D] sub”ect (to)易受……影响的；取决于；服从于\n【考点提炼】形容词结构作表语。正确率：41%\n【精准定位】\n空格所在句为(句。从语法上讲，空格处填入的形容词应与介词to搭配。从含义\n上看，句中由and连接的两个表语都描述了主语“所有理论”的特点，因此是并列关系。把四个选项\n一一放入，只有sub”ectto表达的“容易受到批评和攻击”与tentative表达的“试验性的、不确定的”在\n含义上近似，“不确定”就意味着“容易遭受批评和攻击”。因此选[D] 。\n【空格设置】\nbesub”ectto短语含义丰富，是常考点；同时besub”ectto与tentative含义相关，互\n为提示。例句：Smokersaremoresub”ec(toheartattackst)annon-smokers.吸烟的人比不吸烟的人\n更容易得心脏病。e干扰项设置o其他项都可以和to搭配，符合文中语法要求。且immune与resist-\nan(含义相近，都构成对sub”ec(的反义干扰，sensitive则构成对sub”ec(的近义干扰。例句：immune\n(oGermanmeaslesrpersuasion对风疹有免疫力的r不能被说服的；resis(anttocorrosionrc)ange抗腐\n蚀的r抵制变革的；sensitivetocoldfood对冷食过敏的；asensitiveinstrumen(灵敏的仪器\n。\n- aChangesinthesocialstructuremayindirectly。\n9。juvenilecrimera(es.hForexampleychangesinthe\neconomyt)at 。10。tofewerjob opportunitiesfor\n，outhandrisingunemployment。11。makecg(eilu\nn\nemploymentincreasinglydifficulttoobtain.iT)ere-\nsulting-trn)eyaey\n， mayin。12。leadmoreyou(hsinto\ncriminalbe)avior.\n社会结构的变化可能会间接地影响\n青少年犯罪率；比如，某些经济变化导致\n了年轻人就业机会减少和失业率上升，通\n常在这种情况下，想找到薪水丰厚的工作\n就愈加困难；由此产生的不满反过来可\n能导致更多的年轻人犯罪\nn\nn\na\n。词汇注释与难句分析。\nncg(eilu\net-vyady)o\n(.有收益的；有报酬的；有利可图的\ni速记sgain(收益)+“ul-(形容词后缀)\ni近义sadvantageousybene“icialyprofitableypro-\nductiveyrewarding\ni反义sdisadvantageousyunproductiveyunprofita-\nble\n，-trn)eyaey\nestyn。yatovaoo\n，.不满；不满足；不满的缘由\ni速记sdis-(表示否定或相反)+content(满意)\ni近义sdissatisfactionydiscontentment\ni反义scontentmentysatisfaction\ni搭配sbeu atroverrwit)\ni同根sdiscontenteda.\niiiiiiiii\n不满意的\n(giiany\neytdv。oot9题)\nh.影响；(疾病、灾难等)感染，侵袭\ni速记sa“-tXad-Xto 表方向)+“ect(做)；产生\n影响\nen“anz\neovv。ot9题)\nh.控制，抑制\nbhteyy)\n(10题)\n1.指向……(以引起注意)2.指明，提出例：The\nboardofdirectorspointedtofallingproductivity\n(o”us(i“yt)eirdecision.董事会指出生产率下降\n一事为其决策辩护。c3.\niiiiiiii\n预示\nOh”aYg.buayn“gecartey“aan)eh.my“gyuag-yhia3a”5hdhbbh”yle(ytarih”m)ly“ge-”trteclea.+\nbuhm.aey(ecaea”gu.gzacgteilua.buhm.aeyten”agrtecum-tiitnluyyh)dygte1\n结构分析a\n注释、句中的谓语部分是“make+复合宾语”的结构，make这里是使动含义，即“使好的工作更\n难得到”。注意toobtai；不定式修饰形容词difficult，共同说明employmen(的情况，虽然这里obtain\n与employmen(是被动关系，但在不定式中仍然用主动式\n。\nn\na\n【语篇分析】\n第三段提出与上文常见理论不同的关于青少年犯罪的新见解。段首句点明段主题：社会结构的\n变化可能间接地影响了青少年犯罪率，y(句通过具体的例证(forexample)进行说明。y(句构成\n一个完整的例证，它们各自内部含有因果关系(leadtoymakenlead...into)，而两句之间也有因果联\n系(theresulting)，因此形成了一个因果链条：经济变化lll青少年就业困难lll产生不满情绪lll\n犯罪增加。\n本首句中juvenilecrime与第一、二段首句juveniledelinquenc，是同义词复现，实现语篇的衔接。ny\n句通过changesinthesocialstructure和changesintheeconom，上下义词复现实现句间的衔接。\nn\na\n【真题精解】",
       "points": 0.5,
-      "sort_order": 3,
+      "sort_order": 8,
       "answer": "D"
     },
     {
-      "id": "9d2b17b7-f846-5765-98cb-697e60198f71",
+      "id": "52feb4b7-cab3-546c-8598-ef6450b581ae",
       "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
       "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
       "category_id": "ky1",
       "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [4] in the passage:",
+      "stem": "Choose the best option for blank [9] in the passage:",
       "options": [
         {
           "key": "A",
@@ -196,7 +371,7 @@
         },
         {
           "key": "C",
-          "text": "chock",
+          "text": "check",
           "value": "C"
         },
         {
@@ -206,158 +381,53 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "4.[A］（in)return（for)作为（对.….……-的）回报，交换，反应\n[B]（in)reply（to)作为对.…...·的答复\n[C](in)reference(to)关于\n[D]（in)response（to)作为对.…...·的反应，答复\n\n【考点提炼】固定搭配。正确率：66%\n\n【解题思路】］空格所在部分为③句中that引导的宾语从句，其中介词短语in4totheirfailure做\n状语，修饰谓语动词commitcrimes。该从句的含义为“孩子们犯罪…...他们没有成功地超越现有的\n社会经济地位”。return只与介词for搭配，构成短语inreturnfor，因此排除。（in）reference（to）代\n入文中意为“关于他们没有成功.…...”，语义明显不通。最后对inreplyto和inresponseto进行比\n较，这两个短语区别的关键在其中心名词reply和response。reply指“回答，答复”，而response多表\n示“一种自发的反应”。青少年犯罪是对自己没有成功地超越现有的社会经济地位的一种“自发的、\n本能的反应行为”，因此这个正确选项应是[D]inresponse to。\n\n【空格设置】］对response设空，一方面考查了它构成的介词短语；另一方面考查了句内逻辑关系\n（文中inresponseto连接了前后的“行为”与“行为原因”）。response可意为“回答，答复”，但还指\n“（对已发生的事、说过的话等的）反应，响应”，如：Inresponsetoyourinquiry...作为对你提出的查\n询的答复.....,Thelaw was passed inresponse to public pressure.在公众压力下该法律获得通过。\n［\n\n【错项排除】］return在词义上具有干扰，但如果准确掌握搭配则很容易排除。例句：CanIbuy\nyou lunch in return for your help？感谢你帮忙，我请你吃午饭好吗？Iasked her opinion，but shejust\naskedmeaquestion inreturn.我征求她的意见，她却只是反问了我一句。其他两项都符合文中搭配\n要求，且reply构成response的近义干扰，如:I'm writing in reply to your letter of16 March.3月16日来\n函收悉，现答复如下。inreference to更常见的形式为withreference to,如：Withreference toyour recent\nadvertisement，I'mwritingtorequestfurtherdetails.关于贵方最近的广告，现特函查询详情。",
+      "explanation": "9. [A] a““ec(影响；感染，侵袭\n[B] reduce减少，缩小，还原\n[C] check制止，控制\n[D] re“lec(反射，反映，表现\n【考点提炼】上下文语义+ 动词词义辨析。正确率：75%\n【精准定位】\n空格处需填入一个谓语动词，其主语是Changesinthesocialstructure，宾语是”u-\nvenilecrimerates，同时受副词indirectl，修饰。因此，考生关键要判断主语“社会结构的变化”能间接\n地对宾语“青少年犯罪率”做什么动作。首先，由于文中只提到“社会结构的变化”，没有具体指明向\n哪个方面的变化，所以不能用：heck或reduce这类表单方向作用的词，而且上下文没有涉及犯罪率\n高低变化的问题。其次，re“lec(也不合适，逻辑上讲，只能是“犯罪率(的变化)反映了社会结构的变\n迁”，而不能反过来说“社会结构的变化反映了犯罪率(的变化)”。a““ec(表示“社会结构的变化间接\n地影响了青少年犯罪率”，符合文意。\n【空格设置】\n此处既考查了动词a““ec(的用法，也考查了考生根据“分析青少年犯罪原因”的上\n下文选择恰当词语的能力。a““ec(意为“影响，(疾病、灾难等)感染，侵袭”，如：How will(hesec)an-\ngesaffectus- 这些变化对我们会有什么影响-\n【干扰项设置】\n其他项都可与句中的主语及宾语形成合乎逻辑的搭配，因此需要根据更宏观的上\n下文来排除干扰。例句：(ocheckthegrowt)ofpublicspending控制公共开支的增长。Hismusicre-\n“lec(s)isinterestinA“ricanculture.他的音乐反映了他对非洲文化的兴趣。",
       "points": 0.5,
-      "sort_order": 4,
+      "sort_order": 9,
       "answer": "A"
     },
     {
-      "id": "e23d33fe-4ff4-579d-b416-b8d9e77af0d8",
+      "id": "37f83188-4717-5e1a-8fc7-fa27b66181b2",
       "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
       "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
       "category_id": "ky1",
       "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [5] in the passage:",
+      "stem": "Choose the best option for blank [10] in the passage:",
       "options": [
         {
           "key": "A",
+          "text": "point",
+          "value": "A"
+        },
+        {
+          "key": "B",
           "text": "lead",
-          "value": "A"
-        },
-        {
-          "key": "B",
-          "text": "connect",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "respond",
+          "text": "come",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "refer",
+          "text": "amount",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "5．[A］or或者(表并列)\n[B]butrather（非固定搭配）\n[C]but而是(表转折）\n[D]orelse否则，要不然\n\n【考点提炼】逻辑关系。正确率：57%\n\n【解题思路】③句that引导的定语从句中，inresponse totheir failure和asarejection of middle\nclassvalues都是介词短语，做谓语动词commitcrimes的状语，说明“没有提升社会经济地位的反应”\n和“对中产阶级价值观的排斥”都是青少年犯罪的社会因素。显然无论从结构还是含义上，这两者都\n是并列关系，需要一个表并列的连词来连接，所以[A]or正确。\n\n【空格设置】］此处考查的是短语之间的逻辑关系。由于句子成分较长，给判断连接词倒底连接\n哪两部分内容造成障碍。\n\n【错项排除】］其他项都是表示逻辑关系的连词/词组。butrather要与否定词连用，即常用搭配\n为not...but rather，意为“不是......而是.....\",如:The committee does not dealwith individualcor-\nrespondence，butratherdiscussesissuein itsnewsletter.该委员会不处理个人信件，而是在简报中讨\n论问题。or else对or构成形近干扰，它表示一种假设的结果，如：Hurry uporelseyou'llbelate.快\n点，否则你就要迟到了。",
+      "explanation": "10. [A] point (to)指向；预示\n[B] lead (to)通向，导致，引起，造成\n[C] come (to)到达，达到；共计\n[D] amount (to)总计，等于，等同，接近\n【考点提炼】上下文语义+ 动词短语辨析。正确率：82%\n【精准定位】\n本题空格所在部分是that引导的定语从句，从句的主语是先行词changesinthee-\nconomy，谓语是空格处填入的动词与介词to的搭配，宾语是fewerjobopportunitiesandrisingunem-\nployment。由于选项中的动词都可与to搭配，组成短语动词，因此考生关键要根据句意选择。备选\n项中，只有[B] leadto能表达主语和宾语之间合乎逻辑的关系，即“经济变化导致了年轻人就业机会\n减少”，其余三项代入表示“经济变化指向r到达r等同于工作机会减少”，都不符合逻辑。\n【空格设置】\n本题通过短语动词leadto，实际上考查了句内因果逻辑关系。例句：(oomuc)work\nleadstoillness劳累过度致病。\n【干扰项设置】\n其他项的动词都是简单词，且都可与介词to形成含义丰富的固定短语。pointto意\n为“指向；暗示，预示”，如：All(hesignspointtoasuccess“ulyeara)ead.一切迹象都预示着来年将一\n帆风顺。cometo意为“达到，进入(某种状态、某状况)；共计，合计”，如：cometoanunderstanding达\n成谅解，ThebillcametoY30.账单金额总计为30元。amountto意为“总计，共计；等于，相当于”y\n如：Herstandardsamountedtoper“ection.她简直要求事事十全十美。\n补充与to搭配的短语动词：applyto(适合)ybringto(苏醒，停下来)yconformto(相称)yfallto(开\n始)yob”ectto(反对)yre“erto(提及，指)ysetto(着手)ytaketo(喜爱上，专心于)yyieldto(屈服于)。",
       "points": 0.5,
-      "sort_order": 5,
+      "sort_order": 10,
       "answer": "B"
     },
     {
-      "id": "1b36a08e-ecea-5146-8660-1077a687146d",
+      "id": "bfab560e-2187-5601-a51d-1da25a058278",
       "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
       "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
       "category_id": "ky1",
       "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [6] in the passage:",
-      "options": [
-        {
-          "key": "A",
-          "text": "in case",
-          "value": "A"
-        },
-        {
-          "key": "B",
-          "text": "in turn",
-          "value": "B"
-        },
-        {
-          "key": "C",
-          "text": "in short",
-          "value": "C"
-        },
-        {
-          "key": "D",
-          "text": "in vain",
-          "value": "D"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "6．[A］considering考虑，细想\n[B]ignoring忽视，对......不予理会\n[C]highlighting突出，强调\n[D]discarding丢弃，抛弃（不想要或不再需要的人/物）\n\n【考点提炼】分词结构做状语十动词词义辨析。正确率：70%\n\n【解题思路】］首句中空格前的部分指出“大部分研究青少年犯罪的理论都关注来自贫穷家庭的\nignoring，它在这里做结果状语，意为“（于是）就忽视了.…....”。discarding不能与fact搭配。\n\n【空格设置】］ignore并非生僻词，对它设空，因为它和主句的谓语focusedon形成反义对照：关注\n......忽视……。例句：Wecannotaffordtoignoretheiradvice.我们不能不考虑他们的劝告。\n\n【错项排除】］其他项中，consider与highlight对ignore构成反义干扰，discard则对ignore构成近\n义干扰。例句：Thereporthighlighted themajor problems facing society today.报告特别强调了当今社会\n所面临的主要问题。10%of thedatawas discarded asunreliable.10%的数据因不可靠而被废弃。",
-      "points": 0.5,
-      "sort_order": 6,
-      "answer": "B"
-    },
-    {
-      "id": "1a7596d9-8057-5756-a6f9-16e09b9b6fb6",
-      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
-      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
-      "category_id": "ky1",
-      "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [7] in the passage:",
-      "options": [
-        {
-          "key": "A",
-          "text": "favorable",
-          "value": "A"
-        },
-        {
-          "key": "B",
-          "text": "precious",
-          "value": "B"
-        },
-        {
-          "key": "C",
-          "text": "essential",
-          "value": "C"
-        },
-        {
-          "key": "D",
-          "text": "worthwhile",
-          "value": "D"
-        }
-      ],
-      "correct_answer": "C",
-      "explanation": "7.[A]on\n[B] in\n[C]for\n[D]with\n\n【考点提炼】逻辑关系十介词用法辨析。正确率：55%\n\n【解题思路】］考生首先要知道②句主语thelatter（后者）指代首句中提到的“富有家庭的孩子”；\n其次要搞清楚空格前后部分Thelatter commitcrimes和lackof adequateparentalcontrol之间的逻\n辑关系。由于上文一直在探讨青少年犯罪的原因，这里也不例外，谈论的是“富有家庭的孩子犯罪”\nfor能与lack搭配，forlackof表示“由于缺乏·…...”，为正确选项。\n\n【空格设置】］for是常用介词，用法较多，此处考查了它表示原因的用法及搭配。for可意为“因为，\n由于”，如：Hegotanawardforbravery.他因英勇受奖。forlackof是常用搭配，相当于throughlackof。\n\n【错项排除】］在常用介词中，许多可表示相似的含义，但具体的用法及搭配并不相同。on可意为\n“根据，由于”，如：a storybasedonfact基于事实的小说，Ontheir adviceIappliedfor thejob.我听从\n了他们的建议申请了这份工作。in可以表示时间、地点、状态、有关….等，但不表示原因；inthat可\n以表示原因，要接从句，文中原句可改写为Thelattermaycommitcrimesinthattheylackadequate\nparentalcontrol.with可意为“因为，由于，作为....的结果”,如：His fingers were numbed with cold.\n他的手指冻木了。",
-      "points": 0.5,
-      "sort_order": 7,
-      "answer": "C"
-    },
-    {
-      "id": "97d6317c-ab42-5d29-8191-d422b423bd53",
-      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
-      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
-      "category_id": "ky1",
-      "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [8] in the passage:",
-      "options": [
-        {
-          "key": "A",
-          "text": "little",
-          "value": "A"
-        },
-        {
-          "key": "B",
-          "text": "much",
-          "value": "B"
-        },
-        {
-          "key": "C",
-          "text": "some",
-          "value": "C"
-        },
-        {
-          "key": "D",
-          "text": "any",
-          "value": "D"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "8．[A］immune（to)免疫的，不受影响的[B］resistant（to）有抵抗力的；对.….……·抵制的\n[C]sensitive（to）敏感的，过敏的\n[D]subject（to）易受.…...影响的；取决于；服从于\n\n【考点提炼】形容词结构作表语。正确率：41%\n\n【解题思路】］空格所在句为③句。从语法上讲，空格处填入的形容词应与介词to搭配。从含义\n上看，句中由and连接的两个表语都描述了主语“所有理论”的特点，因此是并列关系。把四个选项\n一一放入，只有subjectto表达的“容易受到批评和攻击”与tentative表达的“试验性的、不确定的”在\n含义上近似，“不确定”就意味着“容易遭受批评和攻击”。因此选[D]。\n\n【空格设置】］be subject to短语含义丰富，是常考点；同时be subject to与tentative含义相关，互\n为提示。例句：Smokers are more subject toheart attacks than non-smokers.吸烟的人比不吸烟的人\n更容易得心脏病。［干扰项设置］其他项都可以和to搭配，符合文中语法要求。且immune与resist-\nant含义相近，都构成对subject的反义干扰，sensitive则构成对subject的近义干扰。例句：immune\ntoGermanmeasles/persuasion对风疹有免疫力的/不能被说服的；resistanttocorrosion/change抗腐\n蚀的/抵制变革的；sensitive tocoldfood对冷食过敏的；a sensitiveinstrument灵敏的仪器。",
-      "points": 0.5,
-      "sort_order": 8,
-      "answer": "B"
-    },
-    {
-      "id": "52feb4b7-cab3-546c-8598-ef6450b581ae",
-      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
-      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
-      "category_id": "ky1",
-      "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [9] in the passage:",
+      "stem": "Choose the best option for blank [11] in the passage:",
       "options": [
         {
           "key": "A",
@@ -381,80 +451,10 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "9.[A]affect影响；感染，侵袭\n[B]reduce减少，缩小，还原\n[C]check制止，控制\n[D]reflect反射，反映，表现\n\n【考点提炼】上下文语义十动词词义辨析。正确率：75%\n\n【解题思路】］空格处需填入一个谓语动词，其主语是Changesinthesocialstructure，宾语是ju-\nvenilecrimerates，同时受副词indirectly修饰。因此，考生关键要判断主语“社会结构的变化”能间接\n地对宾语“青少年犯罪率”做什么动作。首先，由于文中只提到“社会结构的变化”，没有具体指明向\n高低变化的问题。其次，reflect也不合适，逻辑上讲，只能是“犯罪率（的变化）反映了社会结构的变\n迁”，而不能反过来说“社会结构的变化反映了犯罪率（的变化）”。affect表示“社会结构的变化间接\n地影响了青少年犯罪率”，符合文意。\n下文选择恰当词语的能力。affect意为“影响，（疾病、灾难等）感染，侵袭”，如：Howwillthesechan-\ngesaffectus？这些变化对我们会有什么影响？\n下文来排除干扰。例句：to checkthe growthof public spending控制公共开支的增长。His music re-\nflectshisinterestinAfricanculture.他的音乐反映了他对非洲文化的兴趣。",
-      "points": 0.5,
-      "sort_order": 9,
-      "answer": "A"
-    },
-    {
-      "id": "37f83188-4717-5e1a-8fc7-fa27b66181b2",
-      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
-      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
-      "category_id": "ky1",
-      "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [10] in the passage:",
-      "options": [
-        {
-          "key": "A",
-          "text": "case",
-          "value": "A"
-        },
-        {
-          "key": "B",
-          "text": "short",
-          "value": "B"
-        },
-        {
-          "key": "C",
-          "text": "turn",
-          "value": "C"
-        },
-        {
-          "key": "D",
-          "text": "essence",
-          "value": "D"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "10.[A」point（to)指向；预示\nLB」lead（to）通向，导致，引起，造成\n[C]come（to)到达，达到；共计\n[D]amount（to）总计，等于，等同，接近\n\n【考点提炼】上下文语义十动词短语辨析。正确率：82%\n\n【解题思路】］本题空格所在部分是that引l导的定语从句，从句的主语是先行词changesinthee-\nconomy，谓语是空格处填入的动词与介词to的搭配，宾语是fewerjobopportunitiesandrisingunem-\nployment。由于选项中的动词都可与to搭配，组成短语动词，因此考生关键要根据句意选择。备选\n减少”，其余三项代入表示“经济变化指向/到达/等同于工作机会减少”，都不符合逻辑。\n\n【空格设置】］本题通过短语动词leadto，实际上考查了句内因果逻辑关系。例句：toomuchwork\nleadstoillness劳累过度致病。\n\n【错项排除】］其他项的动词都是简单词，且都可与介词to形成含义丰富的固定短语。pointto意\n为“指向；暗示，预示”,如：All the signs point toa successfulyearahead.一切迹象都预示着来年将一\n帆风顺。cometo意为“达到，进入（某种状态、某状况）；共计，合计”，如：cometoanunderstanding达\n成谅解，ThebillcametoS30.账单金额总计为30元。amountto意为“总计，共计；等于，相当于”，\n如：Her standards amounted toperfection.她简直要求事事十全十美。\n补充与to搭配的短语动词：applyto（适合），bringto（苏醒，停下来），conformto（相称），fallto（开\n始），object to（反对），refer to（提及，指），setto（着手），take to（喜爱上，专心于），yield to（屈服于）。",
-      "points": 0.5,
-      "sort_order": 10,
-      "answer": "B"
-    },
-    {
-      "id": "bfab560e-2187-5601-a51d-1da25a058278",
-      "exam_id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
-      "passage_id": "20b372af-0760-51bb-a363-2c84f5c74ac9",
-      "category_id": "ky1",
-      "q_type": "cloze_item",
-      "stem": "Choose the best option for blank [11] in the passage:",
-      "options": [
-        {
-          "key": "A",
-          "text": "survivors",
-          "value": "A"
-        },
-        {
-          "key": "B",
-          "text": "scholars",
-          "value": "B"
-        },
-        {
-          "key": "C",
-          "text": "researchers",
-          "value": "C"
-        },
-        {
-          "key": "D",
-          "text": "patients",
-          "value": "D"
-        }
-      ],
-      "correct_answer": "B",
-      "explanation": "11．[A]in general通常，一般说来\n[B]on average平均起来\n[C]bycontrast对比起来\n[D]atlength最后，终于；充分地，详细地\n\n【考点提炼】句内语义十固定短语。正确率：38%\n\n【解题思路】］由于空格所在句（②句）的主干结构已经完整：changesintheeconomy（主语）make\n（谓语）employment（宾语）difficulttoobtain（宾补），填入的短语显然只能做状语来修饰谓语。根据\n句意“（导致年轻人工作机会减少，失业率上升）的经济变化·使收入丰厚的工作很难被找到”，只\n有ingeneral放入后符合逻辑，表示一种普遍规律：经济形势不好，一般就业就很困难。\n\n【空格设置】］此处ingeneral在句中做状语，即使缺少它，句子的基本意思也是完整的。因此本\n题考查了对短语的掌握及对句意的正确理解。例句：Childrenin generalarefondofcandy.孩子一般\n都喜欢糖果。\n\n【错项排除】其他项都在句内上下文中造成较大的语义干扰。例句：On average wereceive 5letters each day.我们每天平均收\n到五封信。Mr.Green is a taciturn person.By contrast，his brother was much more talkative.格林先\n生是一个沉默寡言的人，相比之下，他兄弟要健谈得多。Atlengththeyreachedtheirdestination.他\n们最终到达了目的地。Hequoted at lengthfrom thereport.他大段大段地引l用报告中的话。",
+      "explanation": "11. [A] ingeneral通常，一般说来\n[B] onaverage平均起来\n[C] bycontras(对比起来\n[D] a(lengt)最后，终于；充分地，详细地\n【考点提炼】句内语义+ 固定短语。正确率：38%\n【精准定位】\n由于空格所在句t，句)的主干结构已经完整：changesintheeconomy(主语)make\n(谓语)employment(宾语)difficulttoobtain(宾补)，填入的短语显然只能做状语来修饰谓语。根据\n句意“(导致年轻人工作机会减少，失业率上升)的经济变化……使收入丰厚的工作很难被找到”，只\n有ingeneral放入后符合逻辑，表示一种普遍规律：经济形势不好，一般就业就很困难。\n【空格设置】\n此处ingeneral在句中做状语，即使缺少它，句子的基本意思也是完整的。因此本\n题考查了对短语的掌握及对句意的正确理解。例句：Childreningeneralare“ondofcandy.孩子一般\n都喜欢糖果。\n【干扰项设置】\n其他项都是常用的介词短语，其中onaverage与ingeneral含义相近，a(lengt)在句\n内上下文中造成较大的语义干扰。例句：Onaveragewereceive5le(terseac)day.我们每天平均收\n到五封信 r.Greenisa(aciturnperson.Bycontrastyhisbrotherwasmuc)moretalkative.格林先\n生是一个沉默寡言的人，相比之下，他兄弟要健谈得多。A(lengththeyreachedt)eirdestination.他\n们最终到达了目的地。Hequo(edatlengthfromt)ereport.他大段大段地引用报告中的话。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "B"
+      "answer": "A"
     },
     {
       "id": "77727309-2a2a-51da-95c4-0a86a85ed0c0",
@@ -466,27 +466,27 @@
       "options": [
         {
           "key": "A",
-          "text": "components",
+          "text": "in case",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "elements",
+          "text": "in short",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "factors",
+          "text": "in turn",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "ingredients",
+          "text": "in essence",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "12.[A]（in)case假使，如果，万一\n[B]（in)short简而言之，总而言之\n[C]（in）turn轮流地，依次；转而，反过来[D]（in）essence本质上\n\n【考点提炼】句内语义十固定搭配。正确率：49%\n\n【解题思路】］空格所在句子（③句）的主干结构已经完整：discontent（主语）maylead（谓语）more\nyouths（宾语）into criminalbehavior（宾补），填入的名词与in搭配后在句中做状语。由于四个选项都\n可以与in搭配，因此考生只需根据句意判断。选项中只有inturn放入后符合逻辑，因为它可以表示\n一种连锁的因果联系，即“（经济变化导致就业困难，就业困难造成不满情绪，）不满情绪转而又导致\n更多犯罪”。\n\n【空格设置】］本题考查了介词短语inturn的特殊含义及句间逻辑关系。③句中的提示线索是\nresulting“因而发生的，由此产生的”，它在文中指“因就业困难而产生的”。例句：Hefound thatMary\nhadtoldRichard'ssister，andsheinturnhadtoldRichard.他发现玛丽告诉了理查德的姐姐，然后她\n又告诉了理查德。\n\n【错项排除】］其他项都与介词in构成固定搭配。例句：Takewarmclothesin case theweatheris\ncold.带上厚衣服以防天气变冷。Inshort，societymustbereorganized.总之，社会必须重组。Heis\nin essence anhonest person.他本质上是个诚实的人。\nIVO Families have also\n13changes these\n近年来家庭也在经历着变化。单亲\nyears. ②More families consist of one-parent househol-\n家庭和双职工家庭越来越多。因此，儿童\nds or two working parents; 14_,children are likely\n在家里所受到的监管就可能比过去传统\nto have less supervision at home 15\nwas common in\n家庭结构中的监督要少。人们认为缺乏\nthe traditional family16.③ This lack of parental\n父母管教是影响青少年犯罪率的因素之\nsupervision is thought to be an influence on juvenile\n一。其他已知的因素还包括：青少年在学\ncrime rates.④ Other17\ncauses of offensiveacts\n校里形成的挫败感或学习不及格、越来越\ninclude frustration or failure in school,theincreased\n容易获得毒品和酒精，以及儿童受虐待和\n18_of drugs and alcohol,and the growing_19of\n得不到关怀的事件的发生率增加。所有\nchild abuse and child neglect. All these conditions\n上述情况都会增加青少年犯罪的可能性，\ntend to increase the probability of a child committing a\n虽然其中的直接因果关系还没有得到\ncriminal act,_20_a direct causal relationship has not\n证实。\nyet been established。",
+      "explanation": "12. [A] tin)case假使，如果，万一\n [B] tin)shor(简而言之，总而言之\n[C] tin)tur；轮流地，依次；转而，反过来 [D] tin)essence本质上\n【考点提炼】句内语义+ 固定搭配。正确率：49%\n【精准定位】\n空格所在句子t(句)的主干结构已经完整：discontent(主语)maylead(谓语)more\n，ouths(宾语)in(ocriminalbe)avior(宾补)，填入的名词与i；搭配后在句中做状语。由于四个选项都\n可以与i；搭配，因此考生只需根据句意判断。选项中只有intur；放入后符合逻辑，因为它可以表示\n一种连锁的因果联系，即“(经济变化导致就业困难，就业困难造成不满情绪，h不满情绪转而又导致\n更多犯罪”。\n【空格设置】\n本题考查了介词短语intur；的特殊含义及句间逻辑关系。(句中的提示线索是\nresulting“因而发生的，由此产生的”，它在文中指“因就业困难而产生的”。例句：Hefoundthat。ary\nhad(oldZichardvssisteryands)einturn)ad(oldZic)ard.他发现玛丽告诉了理查德的姐姐，然后她\n又告诉了理查德。\n【干扰项设置】\n其他项都与介词i；构成固定搭配。例句：Takewarmclo(hesincasetheweat)eris\ncold.带上厚衣服以防天气变冷。Inshortysocietymustbereorganized.总之，社会必须重组。Heis\ninessencean)onestperson.他本质上是个诚实的人\n。\nv a Families havealso 。13。changesthese\n，ears.h。ore“amiliesn)er(ryhi)ea+bg”aey\nn “hlra“hu+\n-r\n， ortwoworkingparentsn。14。ychildrenarelikely\n(ohavelessrlba”w(rt)e\n(athome。15。wascommonin\n(hetraditionalfamily。16。.iThislackofparen(al\nsupervisionisthoughttobeaninfluenceonjuvenile\ncrimerates.lOt)er。17。causesofhiiaer(wa\ne acts\ninclude“rustrationorfailureinschoolyt)eincreased。\n18。ofdrugsandalcoholyandthegrowing 。19。of\nchildabuseandchildneglec(.m Allt)eseconditions\n(end(oincreasetheprobabilityofac)ildcommittinga\ncriminalacty。20。adirec(nglrgu\norelationship)asnot\n，etbeenarygdutr“a-\nr .\n近年来家庭也在经历着变化；单亲\n家庭和双职工家庭越来越多；因此，儿童\n在家里所受到的监管就可能比过去传统\n家庭结构中的监督要少；人们认为缺乏\n父母管教是影响青少年犯罪率的因素之\n一；其他已知的因素还包括(青少年在学\n校里形成的挫败感或学习不及格)越来越\n容易获得毒品和酒精，以及儿童受虐待和\n得不到关怀的事件的发生率增加；所有\n上述情况都会增加青少年犯罪的可能性，\n虽然其中的直接因果关系还没有得到\n证实\nn\nn\na\n。词汇注释与难句分析。\nnconsistofst)\nh.由……组成、构成\n“hlra“hu-\nebgunbyuto\n，.一家人；家庭例：low-incomehouseholds低收\n入家庭。\n(rlba”w(rt)e\ne\nssuepytvI”yno\n，.监督，管理\ni速记ssuper-(在上)+vis(看)+-ion(名词后缀)\ni近义sadminis(rationyc)argeycontrolydirec-\n(ionyhandlingyoversight\ni搭配sundersbvsu\ni同根ssuperviseho监督，管理\nehiiaertwa\neytdvanylo\n(.1.冒犯的；令人不快的2.攻击性的；进攻性的\n例：He wascharged wit) carrying an offensive\nweapon.他被指控携带攻击性武器。\ni速记sof-tXob-Xto表方向)+“ens(打击)+-ive\n(形容词后缀)\ni近义s1.annoyingyinsultingyirritatingyob”ec-\n(ionableyoutrageousyrude2.aggressiveyassaul-\n(ingyinvading\ni反义s1.pleasingyrespect“ul2.de“endingyde-\n“ensiveyguarding\ni同根soffendn 触怒，冒犯， 触犯，违犯eua-\ngainsto例：offendagainsthumanit，违反人性\ni搭配sbeuto\nonglrgu\net。lc”yho\n(.因果关系的；前因后果的；原因的\ni速记scause(原因)+-al(形容词后缀)\nrestablis)\ney(nopi)yv\niiiiiiiiiiiiiiiiiiiii\no\n1\nh.查实；确定；证实例：[oliceares(illtryingto\nestablishthecauseoft)eaccident.警方仍在努力\n确定事故的原因。\ni近义sascertainycerti“yyconfirmydeterminey\n“indoutyproveysubstantiateyvalidateyveri“y\ni反义scon“useydisproveyinvalidate\ni搭配suthefact查明事实；u (hecause查明\n原因\nsaYbhrl”a\ney。tnuyu”yot19题)\n，.(真相的)揭露，暴露\ni速记sex-(向外)+pos(放，置)+-ure(名词后缀)\ni近义sdisclosureyrevelationyun“oldingyunmas-\nkingyunveiling\ni反义sconcealmen(ycoveringy)iding\ni同根sexposeh.露出；暴露，\niiiiiiiiiii\n揭露\nT1Eh”aig.tutarn)er(ryhi)ea+bg”aey“hlra“hu-rh”y3h3h”ztecbg”aeyrnn)eravlaeyumyn“(u-”ae\ng”autzaumyh“gwauarrrlba”wtrthegy“).ay“ge3grn)..he(ey“ay”g-tyt)eguig.tumry”lnyl”a1\n结构分析a\n分句1c 。ore“amilies\n主语\nconsistof\n谓语\none-paren(house)olds\n宾语1\nortwoworkingparents\n宾语2\n分句2c\n注释、本句是以分号连接的并列句，后一个分句中，主句和从句使用不同时态(c)ildrenarenwas\ncommon)，形成现在与过去的对比。tha；引导定语从句，兼有连词和代词的性质，相当于(hanw)at。\n41k……y“aran)e-(ytheryae-yhten”agray“ab”hdgdtutym)ign“tu-n)..tyytecgn”t.tegugnyygu+\n，“hlc“g-(”anynglrgu”augyther“tb“gre)ymaydaaearygdutr“a-1\n结构分析a\n注释aprobabilit，后是of介词短语做后置定语对它进行修饰，注意of的介词宾语是带有自己的\n逻辑主语(achild)的动名词结构(committingacrime\n)。\nn\na\n【语篇分析】\n第四段；至(句论述了影响青少年犯罪率的另一个因素：家庭的变化。首句总起，以also表明\n与上文第三段之间的并列关系；y(句分述，，句对上文“家庭变化”具体阐述，(句顺承，句指出这\n种家庭变化的结果成为影响青少年犯罪率的因素。y(句间通过lesssupervisionathome与this\nlackofparentalsupervision近义词复现实现衔接。本句在上文(第三段至本段(句)论述导致青少年\n犯罪的社会和家庭结构变化的两方面原因的基础上，简略地补充了其他(other)几个原因。\n1\n末句是全文末句，对上文探讨的青少年犯罪的原因作出总体评价：这些因素与青少年犯罪率增\n加之间直接的因果联系尚未确立。o 句中alltheseconditions指代上文提到的种种原因，achild\ncommittingacriminalac(与上文offensiveac(sy\njuvenilecrimeycriminalbe)aviory\njuveniledelinquency\n(crimescommi(tedbyyoungpeople)等是同义词复现，实现了语篇的衔接。\nn\na\n【真题精解】",
       "points": 0.5,
       "sort_order": 12,
       "answer": "C"
@@ -501,30 +501,30 @@
       "options": [
         {
           "key": "A",
-          "text": "readily",
+          "text": "survived",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "rarely",
+          "text": "noticed",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "intentionally",
+          "text": "undertaken",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "reluctantly",
+          "text": "experienced",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "13．［A]survived生存，继续存在；幸存，幸免于\n[B]noticed注意到\n[C」undertaken承担，着手（工作），从事\n[D]experienced经历，体验\n\n【考点提炼】上下文语义十动宾搭配。正确率：47%\n\n【解题思路】］首句指出，这些年来家庭也.….·变化。备选项中的四个动词都可以与changes构成\ndertake不与family构成主谓搭配，因为其施动者通常是人，因此排除。下文②句提到，越来越多的\n家庭变成单亲或双职工家庭，这显然说明家庭结构有了变化。因此排除survived\"（家庭）幸免于（变\n化）”。[D]experienced代入文中，意为“近几年家庭也经历着变化”，符合文意，与上文第二段论述的\n“社会结构的变化”相呼应。\n\n【空格设置】］本题考查了experience的习惯搭配以及考生对上下文意的把握。例句：Everyone\nexperiences theseproblems at sometimein theirlives.每个人在人生的某个阶段都会经历这些问题。\ntoexperiencepain/pleasure感受痛苦/愉快。\n［\n\n【错项排除】］其他项可接changes做宾语，构成搭配干扰。例句：Some strangecustomshavesur-\nvivedfrom earlier times.有些奇怪的风俗是从早年留存下来的。Manybirds didn’t survive the severe\nwinter.很多鸟死于这次严冬。toundertakeaproject/investigation承担一个项目/进行调查。此外，\n2003年知识运用第2题也考查了与change构成动宾搭配的动词。当change作“变化”含义时，常与\n之搭配的动词有：make做出改变，have改变，有变化，take改变，产生变化，bringabout产生变化，\nexperience经历变化，accommodate（to）/adaptedto/adjustto适应变化。",
+      "correct_answer": "D",
+      "explanation": "13. [A] survived生存，继续存在；幸存，幸免于 [B] noticed注意到\n[C] undertake；承担，着手(工作)，从事\n[D] experienced经历，体验\n【考点提炼】上下文语义+ 动宾搭配。正确率：47%\n【精准定位】\n首句指出，这些年来家庭也……变化。备选项中的四个动词都可以与changes构成\n动宾搭配，分别表示“幸免于变化”a“注意到变化”a“着手进行变化”和“经历变化”，但；otice和un-\ndertake不与“amil，构成主谓搭配，因为其施动者通常是人，因此排除。下文，句提到，越来越多的\n家庭变成单亲或双职工家庭，这显然说明家庭结构有了变化。因此排除survived“(家庭)幸免于(变\n化)”。[D] experienced代入文中，意为“近几年家庭也经历着变化”，符合文意，与上文第二段论述的\n“社会结构的变化”相呼应。\n【空格设置】\n本题考查了experience的习惯搭配以及考生对上下文意的把握。例句：Everyone\nexperiences(heseproblemsatsometimeint)eirlives.每个人在人生的某个阶段都会经历这些问题。\n(oexperiencepainrpleasure感受痛苦r愉快。\n【干扰项设置】\n其他项可接changes做宾语，构成搭配干扰。例句：Somes(rangecustoms)avesur-\nvivedfromearliertimes.有些奇怪的风俗是从早年留存下来的 anybirdsdidnv(survivet)esevere\nwinter.很多鸟死于这次严冬。toundertakeapro”ectrinvestigation承担一个项目r进行调查。此外，\n2003年知识运用第2题也考查了与：hange构成动宾搭配的动词。当：hange作“变化”含义时，常与\n之搭配的动词有：make做出改变，have改变，有变化，take改变，产生变化，bringabou(产生变化，\nexperience经历变化，accommoda(etto)radaptedtoradjustto适应变化。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "C"
+      "answer": "D"
     },
     {
       "id": "79d0d32f-f197-5cab-9f0d-5978861aa576",
@@ -536,30 +536,30 @@
       "options": [
         {
           "key": "A",
-          "text": "consequence",
+          "text": "contrarily",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "influence",
+          "text": "consequently",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "impression",
+          "text": "similarly",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "impact",
+          "text": "simultaneously",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "14.[A」contrarily相反地（表对比）\n[B」consequently所以，因此（表因果）\n[C」similarly同样地，类似于（表比较）\n[D」simultaneously同时地（表时间）\n\n【考点提炼】逻辑关系。正确率：78%\n\n【解题思路】］分号和逗号之间一般填入表达句子逻辑关系的词，因此本题要求考生判断空格前\n后“单亲和双职工家庭增多”和“孩子们在家里得到的监护减少”之间的逻辑关系。根据常识，在单亲\n逻辑副词，选项中只有consequently符合要求。\n［\n\n【空格设置】」本题考查了句间的逻辑关系。\n\n【错项排除】］其他项都是表示逻辑关系的副词。例句：Bobisaliberal.Contrarily，hiswifeis a\nconservative.鲍勃是个开明的人，相反地，他妻子却很保守。Menmustwearajacket and tie.Simi-\nlarly，womenmustwear a skirtordressandnot trousers.男士必须穿外套、打领带；同样，女士必须\n穿裙子或套装，但不宜穿长裤。The gamewillbebroadcast simultaneouslyon TVandradio.比赛将\n同时在电视和广播中进行转播。",
+      "correct_answer": "B",
+      "explanation": "14. [A] contraril，相反地(表对比)\n[B] consequentl，所以，因此(表因果)\n[C] similarl，同样地，类似于(表比较)\n[D] simultaneousl，同时地(表时间)\n【考点提炼】逻辑关系。正确率：78%\n【精准定位】\n分号和逗号之间一般填入表达句子逻辑关系的词，因此本题要求考生判断空格前\n后“单亲和双职工家庭增多”和“孩子们在家里得到的监护减少”之间的逻辑关系。根据常识，在单亲\n和双职工家庭中，父母工作繁忙，因此孩子受到的监护就会减少。可见，这里需要一个表因果关系的\n逻辑副词，选项中只有：onsequentl，符合要求。\n【空格设置】\n本题考查了句间的逻辑关系。\n【干扰项设置】\n其他项都是表示逻辑关系的副词。例句：Bobisaliberal.Con(rarilyy)iswi“eisa\nconservative.鲍勃是个开明的人，相反地，他妻子却很保守 enmustweara”acketandtie.Simi-\nlarlyywomenmustwearaskirtordressandnottrousers.男士必须穿外套、打领带；同样，女士必须\n穿裙子或套装，但不宜穿长裤。ThegamewillbebroadcastsimultaneouslyonT\\andradio.比赛将\n同时在电视和广播中进行转播。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "B"
     },
     {
       "id": "e9774cdd-fec0-50e4-b70b-989b556d5c3c",
@@ -571,27 +571,27 @@
       "options": [
         {
           "key": "A",
-          "text": "normal",
+          "text": "than",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "constant",
+          "text": "that",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "permanent",
+          "text": "which",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "practical",
+          "text": "as",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "15.[A]than兼有连词和代词的性质，引导比较成分\n[B]that关系代词，不能引l导比较成分\n[C]which关系代词，不能引导比较成分\n[D]as关系代词，不能单独引导比较成分\n\n【考点提炼】从句中的关系代词。正确率：44%\n\n【解题思路】］空格的前文是一个主干结构完整的句子：children arelikelytohaveless supervision\nathome，空格的后文是：wascommoninthetraditionalfamily。显然空格处的词连接了一个从句。\n解题的关键词是less，它只能和than搭配构成比较级。此外，than兼有连词和代词的性质，相当于\n得到的监护（thanwhatwas commonin the traditionalfamily）。\n其他项都是关系代词。that和which可代替先行词（名词或代词），在本句中代替less supervi-\nsion athome;which和as可代替整个主句，在本句中代替children arelikelytohaveless supervision\nathome。这样句子的含义都成了：（孩子们）在家里得到的监护越来越少，这种现象在传统家庭中非\n常普遍。这与上文提到的“家庭结构变化造成孩子在家无人看管”的论述不符。此外，which和as代\n替整个句子时通常要用逗号与主句隔开。\n\n【空格设置】本题考查了than的特殊用法。than做关系代词引导定语从句，其结构为“比较\n级...than十从句”，此时它兼有连词和代词的性质，相当于thanwhat,如：Theboyhaseaten more\nfood than is good for his health.（=...eaten more food than what is good for his health)那个孩子吃\n得太多，多得对身体都不好了。\n\n【错项排除】］其他项都是引导定语从句的关系代词。which和as可引导非限定性从句中，代替\n整个主句部分，如：Hetookover the government，whichwasunlawful.他接管了政府，这一行为实际\n是非法的。Sheusually takes a nap afterlunch，as is herhabit.午饭后她一般午睡，这已经成了习惯。",
+      "explanation": "15. [A] tha；兼有连词和代词的性质，引导比较成分\n[B] that关系代词，不能引导比较成分\n[C] whic) 关系代词，不能引导比较成分\n[D] as关系代词，不能单独引导比较成分\n【考点提炼】从句中的关系代词。正确率：44%\n1\n【精准定位】\n空格的前文是一个主干结构完整的句子：childrenarelikely(ohavelesssupervision\nat)ome，空格的后文是：wascommoninthetraditionalfamily。显然空格处的词连接了一个从句。\n解题的关键词是less，它只能和tha；搭配构成比较级。此外，tha；兼有连词和代词的性质，相当于\n(hanwhat，因此该句子的含义是：现在的孩子们在家里得到的监护要少于过去在传统的家庭里普遍\n得到的监护(thanwhatwascommoninthetraditionalfamily)。\n其他项都是关系代词。that和which可代替先行词(名词或代词)，在本句中代替lesssupervi-\nsiona(homenwhic)和as可代替整个主句，在本句中代替：hildrenarelikely(ohavelesssupervision\nat)ome。这样句子的含义都成了：(孩子们)在家里得到的监护越来越少，这种现象在传统家庭中非\n常普遍。这与上文提到的“家庭结构变化造成孩子在家无人看管”的论述不符。此外，which和as代\n替整个句子时通常要用逗号与主句隔开。\n【空格设置】\n本题考查了tha；的特殊用法。tha；做关系代词引导定语从句，其结构为“比较\n级...than+从句”，此时它兼有连词和代词的性质，相当于(hanw)at，如：Theboyhaseatenmore\nfood(hanisgoodforhishealth.tX...eatenmorefoodthanwhatisgoodforhishealth)那个孩子吃\n得太多，多得对身体都不好了。\n【干扰项设置】\n其他项都是引导定语从句的关系代词。which和as可引导非限定性从句中，代替\n整个主句部分，如：He(ookoverthegovernmentywhic)wasunlaw“ul.他接管了政府，这一行为实际\n是非法的。Sheusually(akesanapa“terlunchyasisher)abit.午饭后她一般午睡，这已经成了习惯。",
       "points": 0.5,
       "sort_order": 15,
       "answer": "A"
@@ -606,27 +606,27 @@
       "options": [
         {
           "key": "A",
-          "text": "incidentally",
+          "text": "system",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "unexpectedly",
+          "text": "structure",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "unobtrusively",
+          "text": "concept",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "subsequently",
+          "text": "heritage",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "16.[A]system系统，体系，体制\n[B]structure结构，构造\n[C]concept观念，概念\n[D]heritage(重要特性、习俗、传统等）遗产\n\n【考点提炼】上下文语义十名词词义辨析。正确率：66%\n\n【解题思路】］此题有两个解题线索。第一个线索是空格所在句子中的比较。thetraditionalfam\nily 16与句内上文families...one-parent households or two working parents 形成对照，后者为现代家\n庭的结构，那么空格处也应相应地填入一个表“结构”含义的词。第二个线索则需要结合更宏观的上\n下文。第三段首句提出changesinthesocialstructure；第四段首句提出Families...changes，即从“社\n会结构的变化”到“家庭结构的变化”。而且②句提到的“单亲和双职工家庭”进一步明确了这一点。\n因此空格处应填入这个多次出现的关键词structure。\n\n【错项排除】］其他项利用family的常用搭配进行干扰。例句：theconceptofinfinitespace无限空\n间的概念，theculturalheritageofItaly意大利的文化遗产。",
+      "explanation": "16. [A] system 系统，体系，体制\n[B] structure结构，构造\n[C] concep(观念，概念\n[D] heritage(重要特性、习俗、传统等)遗产\n【考点提炼】上下文语义+ 名词词义辨析。正确率：66%\n【精准定位】\n此题有两个解题线索。第一个线索是空格所在句子中的比较。thetraditional“am-\nily16与句内上文“amilies...one-paren(house)oldsortwoworkingparents形成对照，后者为现代家\n庭的结构，那么空格处也应相应地填入一个表“结构”含义的词。第二个线索则需要结合更宏观的上\n下文。第三段首句提出changesinthesocialstructure；第四段首句提出Families...changes，即从“社\n会结构的变化”到“家庭结构的变化”。而且，句提到的“单亲和双职工家庭”进一步明确了这一点。\n因此空格处应填入这个多次出现的关键词structure。\n【空格设置】\n本题考查考生对上下文的理解以及局部内容的概括能力。\n【干扰项设置】\n其他项利用“amil，的常用搭配进行干扰。例句：theconceptofin“initespace无限空\n间的概念，(hecultural)eritageofItal，意大利的文化遗产。",
       "points": 0.5,
       "sort_order": 16,
       "answer": "B"
@@ -641,27 +641,27 @@
       "options": [
         {
           "key": "A",
-          "text": "divided",
+          "text": "assessable",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "attached",
+          "text": "identifiable",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "allocated",
+          "text": "negligible",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "distributed",
+          "text": "incredible",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "17.[A」assessable可估价的；可征税的\n[B」identifiable可确认的；可识别的\n[C」negligible可以忽略的，不予重视的\n[D」incredible难以置信的，惊人的\n\n【考点提炼】形容词用法辨析。正确率：29%\n\n【解题思路】④句中Other17causesofoffensiveacts与上文③句中aninfluence（影响，原因）on\njuvenilecrimerates形成对照，因此④句承接上文，继续阐述造成青少年犯罪的其他原因。空格处填\n入的形容词修饰causes，并且是下文提到的所有原因“在学校里形成的挫败感或学习不及格、酗酒、\n毒品、虐待儿童”的共同特点。选项中只有identifiable能成为这些原因的共同特点，即：它们都是人\n们已经有所了解的。\n\n【空格设置】］identifiable是由动词identify派生出的形容词，并且只能通过上下文的正确理解才能\n判断。例句：Only three people in the photograph are identifiable.照片上只有三个人可以辨认出来。\n\n【错项排除】］其他项都是以形容词后缀-able（-ible）结尾的单词。例句：Thefuture price of the\nbuilding is assessable.这栋楼未来的价格可以估计。assessable income 可征税收入。In buying a\nsuit，a difference of ten cents in prices is negligible.买一套衣服价钱只差一角钱是无所谓的。He\nwas dressedwithincredible speed.他以惊人的速度穿好了衣服。",
+      "explanation": "17. [A] assessable可估价的；可征税的\n[B] identifiable可确认的；可识别的\n[C] negligible可以忽略的，不予重视的\n[D] incredible难以置信的，惊人的\n【考点提炼】形容词用法辨析。正确率：29%\n【精准定位】\n本句中Other17causesofoffensiveacts与上文(句中aninfluence(影响，原因)on\njuvenilecrimerates形成对照，因此本句承接上文，继续阐述造成青少年犯罪的其他原因。空格处填\n入的形容词修饰：auses，并且是下文提到的所有原因“在学校里形成的挫败感或学习不及格、酗酒a\n毒品、虐待儿童”的共同特点。选项中只有identifiable能成为这些原因的共同特点，即：它们都是人\n们已经有所了解的。\n【空格设置】\nidentifiable是由动词identi“，派生出的形容词，并且只能通过上下文的正确理解才能\n判断。例句：Only(hreepeopleinthephotograp)areidentifiable.照片上只有三个人可以辨认出来。\n【干扰项设置】\n其他项都是以形容词后缀-able(-ible)结尾的单词。例句：The“u(urepriceoft)e\nbuildingisassessable.这栋楼未来的价格可以估计。assessableincome可征税收入。Inbuyinga\nsuityadifferenceoftencentsinpricesisnegligible.买一套衣服价钱只差一角钱是无所谓的。He\n1\nwasdressedwithincrediblespeed.他以惊人的速度穿好了衣服。",
       "points": 0.5,
       "sort_order": 17,
       "answer": "B"
@@ -676,27 +676,27 @@
       "options": [
         {
           "key": "A",
-          "text": "despite",
+          "text": "expense",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "besides",
+          "text": "restriction",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "without",
+          "text": "allocation",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "beyond",
+          "text": "availability",
           "value": "D"
         }
       ],
       "correct_answer": "D",
-      "explanation": "18.[A]expense费用，代价\n[B]restriction限制，约束\n[C]allocation分配，拨款\n[D]availability可获得性，有效性，实用性\n\n【考点提炼】上下文语义十名词词义辨析。正确率：56%\n\n【解题思路】］空格处填入的名词同时被increased和ofdrugsandalcohol修饰，描述造成青少年\n犯罪的一种原因。首先可排除allocation，因为它不能被increased修饰；其次，从逻辑上讲，“毒品和\n反而有可能减少犯罪。只有“（青少年）越来越容易接触（availability）毒品和酒精”才可能引起犯罪。\n因此[D正确。\n\n【空格设置】］availability本身词义较抽象，且它是所在名词短语中的核心名词。例句：Theavail-\nabilityofcleanwaterresourceisbecomingmoreandmoredifficult.找到纯净的水源变得越来越难。\n［\n\n【错项排除】］其他项都是根据与of drugs andalcohol的搭配设置干扰。例句：Redecorating the\nhouse will be a considerable expense.重新装饰房屋将是一项很大的花费。There is arestriction against\nsmokinginschools.学校禁止吸烟。Sugarisunderallocationduringwartime.战争时期糖是配给的。",
+      "explanation": "18. [A] expense费用，代价\n[B] restriction限制，约束\n[C] allocation分配，拨款\n[D] availabilit，可获得性，有效性，实用性\n【考点提炼】上下文语义+ 名词词义辨析。正确率：56%\n【精准定位】\n空格处填入的名词同时被increased 和ofdrugsandalcohol修饰，描述造成青少年\n犯罪的一种原因。首先可排除allocation，因为它不能被increased修饰；其次，从逻辑上讲，“毒品和\n酒精的价格(expense)提高”a“对毒品和酒精的限制trestriction)增多”都不应该是造成犯罪的原因，\n反而有可能减少犯罪。只有“(青少年)越来越容易接触(availability)毒品和酒精”才可能引起犯罪。\n因此[D] 正确。\n【空格设置】\navailabilit，本身词义较抽象，且它是所在名词短语中的核心名词。例句：Theavail-\nabilityofcleanwaterresourceisbecomingmoreandmoredifficult.找到纯净的水源变得越来越难。\n【干扰项设置】\n其他项都是根据与ofdrugsandalcohol的搭配设置干扰。例句：Zedecora(ingthe\n)ousewillbeaconsiderableexpense.重新装饰房屋将是一项很大的花费。Thereisares(rictionagainst\nsmokinginsc)ools.学校禁止吸烟。Sugarisunderallocationduringwartime.战争时期糖是配给的。",
       "points": 0.5,
       "sort_order": 18,
       "answer": "D"
@@ -711,27 +711,27 @@
       "options": [
         {
           "key": "A",
-          "text": "accessible",
+          "text": "incidence",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "amiable",
+          "text": "awareness",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "agreeable",
+          "text": "exposure",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "accountable",
+          "text": "popularity",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "19.[A]incidence（of)发生（率）\n[B]awareness（of)意识，知道\n[C]exposure（to)暴露，揭露\n[D]popularity普及，流行，出名\n\n【考点提炼】上下文语义十名词词义辨析。正确率：37%\n\n【解题思路】］和上题一样，本题空格处的名词同时被growing和ofchildabuse andchildneglect\n修饰，描述造成青少年犯罪的另一种原因。由于四个选项都可以被growing修饰，解题的关键只能\n是根据逻辑语义做出判断。首先“儿童受虐待和得不到关怀的日益普及（popularity）”明显不可能，\n其次“不断意识到（awareness）、不断暴露（exposure）儿童受虐待和得不到关怀”不但不是犯罪发生的\n原因，反而有利于减少犯罪；只有“儿童受虐待和得不到关怀的事件发生日益增多”才符合文意，因此\nLA]正确。\n\n【空格设置】］本题考查了抽象名词incidence的用法以及上下文意的理解。incidence意为“发生\n（率）”，如：Thereisahighincidenceofmalariainthetropics.在热带地区疤疾发病率很高。\n［\n\n【错项排除】］其他项中，awareness与exposure构成对incidence的反义干扰，popularity则是它的\n近义干扰。例句:A good parliamentarian must have an awareness of what the people at home want.\n一个好的国会议员必须知道国内的人民想要什么。Exposureof thebodyto strong sunlightmaybe\nthe30sand40s.这个喜剧演员在三、四十年代很受人欢迎。",
+      "explanation": "19. [A] incidence (of)发生(率)\n[B] awareness (of)意识，知道\n[C] exposure (to)暴露，揭露\n[D] popularit，普及，流行，出名\n【考点提炼】上下文语义+ 名词词义辨析。正确率：37%\n【精准定位】\n和上题一样，本题空格处的名词同时被growing和ofchildabuseandchildneglect\n修饰，描述造成青少年犯罪的另一种原因。由于四个选项都可以被growing修饰，解题的关键只能\n是根据逻辑语义做出判断。首先“儿童受虐待和得不到关怀的日益普及(popularity)”明显不可能，\n其次“不断意识到(awareness)a不断暴露(exposure)儿童受虐待和得不到关怀”不但不是犯罪发生的\n原因，反而有利于减少犯罪；只有“儿童受虐待和得不到关怀的事件发生日益增多”才符合文意，因此\n[A] 正确。\n【空格设置】\n本题考查了抽象名词incidence的用法以及上下文意的理解。incidence意为“发生\n(率)”，如：Thereisahighincidenceofmalariainthetropics.在热带地区疟疾发病率很高。\n【干扰项设置】\n其他项中，awareness与exposure构成对incidence的反义干扰，popularit，则是它的\n近义干扰。例句：Agoodparliamen(arianmusthaveanawarenessofwhatthepeopleat)omewant.\n一个好的国会议员必须知道国内的人民想要什么。Exposureof(hebodytostrongsunlightmaybe\n)arm“ul.让身体暴露在强烈的阳光下可能是有害的。Thecomedianen”oyedgreatpopularityduring\n(he30sand40s.这个喜剧演员在三、四十年代很受人欢迎。",
       "points": 0.5,
       "sort_order": 19,
       "answer": "A"
@@ -746,27 +746,27 @@
       "options": [
         {
           "key": "A",
-          "text": "contemplate",
+          "text": "provided",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "speculate",
+          "text": "since",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "recognize",
+          "text": "although",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "associate",
+          "text": "supposing",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "20.[A」provided倘若（表条件）\n[B」since因为，既然（表因果或让步）\n[C」although虽然，尽管（表转折或让步）\n[D]supposing如果，假使（表条件）\n\n【考点提炼】逻辑关系。正确率：52%\n\n【解题思路】③句中空格前后是两个完整的分句，因此空格处填入的词应体现它们之间的逻辑\n关系。前一句提到，以上所有这些情形，即④句提到的其他可识别的原因，都提高了青少年犯罪的可\n能性；后一句提到，直接的因果关系还没有确定。“已识别的（identifiable）原因”和“还不确定（notyet\nbeenestablished)的因果关系”之间显然存在转折关系。表转折的连词只有[C]although。\n［\n\n【空格设置】］文中考查了句内逻辑以及although的用法。例句：Ifelthewaswrong，althoughI\ndidn’tsaysoatthetime.我觉得他错了，不过我当时没有说出来。\n\n【错项排除】］其他项都是表示逻辑关系的连词，其中supposing与provided是分词形式的连词。\n例句：The factory will pay the bonus provided the job is completed on time.如果工作及时完成的话，\n工厂将会发放奖金。Sinceyou”renotinterested，Iwon’ttellyou about it.既然你不感兴趣，那我就\n不告诉你了。Supposingitrainswhatwill youdo？假如下雨，你会怎么办呢?\nSection I Reading Comprehension\nPart A",
+      "explanation": "20. [A] provided倘若(表条件)\n[B] since因为，既然(表因果或让步)\n[C] although虽然，尽管(表转折或让步)\n[D] supposing如果，假使(表条件)\n【考点提炼】逻辑关系。正确率：52%\n【精准定位】\n末句中空格前后是两个完整的分句，因此空格处填入的词应体现它们之间的逻辑\n关系。前一句提到，以上所有这些情形，即本句提到的其他可识别的原因，都提高了青少年犯罪的可\n能性；后一句提到，直接的因果关系还没有确定。“已识别的(identifiable)原因”和“还不确定(notyet\nbeenestablished)的因果关系”之间显然存在转折关系。表转折的连词只有[C] although。\n【空格设置】\n文中考查了句内逻辑以及although的用法。例句：I“el(hewaswrongyalthoughI\ndidnvtsaysoatt)etime.我觉得他错了，不过我当时没有说出来。\n【干扰项设置】\n其他项都是表示逻辑关系的连词，其中supposing与provided是分词形式的连词。\n例句：The“ac(orywillpaythebonusprovidedt)ejobiscompletedontime.如果工作及时完成的话，\n工厂将会发放奖金。SinceyouvrenotinterestedyIwonvttellyouaboutit.既然你不感兴趣，那我就\n1\n不告诉你了。Supposingi(rainsw)atwillyoudo- 假如下雨，你会怎么办呢-\n。any(hea Aag-tecBh.b”a“aert)e\n2aYyT 帮助求职的个人搜索引擎工具\n本文摘自risncu“ ”-avlmn。-aetm美国新闻与世界报道dh1997 年10 月27 日一篇题为\ndbeegype.nsnee-”-aT(利用网络找工作)的文章。这是一篇说明文，介绍了一种用于求职的个人\n搜索引擎工具，从使用搜索引擎而找到工作的实例入手，通过引用求职当事人以及求职专家的观点，\n对这种新事物的优缺点进行了全面的分析，并给出了最佳使用建议。\n。 aCley(eci)”\nn ajoblatelastyearylaw-\n，erGan(Zedmonryl.dua-gn”)rr\n， CareerBuild-\neryajob -gygdgra\n( on (heInternet. ) He\nsearchedi(wit)nosuccessbutwasattractedby\n(hesitevs “personalsearchagent”.iItvsan\n(eya”gnytwa\ne “ea(uret)atletsvisitorskeyinjob\nn”tya”tg\no suc) aslocationytitleyand salaryy\n(henE-mails(hem whena.gyn“tec\nr positionis\npostedinthedatabase.l Zedmonchoset)e\nkeywords legaly (eya……anylgu b”hba”ym\ns\nand\nWashing(onyD.C.mThreeweekslateryhegot\nhisfirstehytitngyt)e\nc ofanopening.d“Iry”ln+\nz\nb goldy”saysZedmonywhoE-mailedhisre-\nsume(ot)eemployerandwonapositionaste+\n“hlra\ng counselforacompany.\n去年年末找工作的时候，甘特e雷德曼律师\n偶然在网上发现了一个名为CareerBuilder的网\n站，该网站是一个求职数据库；他在上面搜索了\n一下，虽然没有成功找到。所要的职位信息a，却\n被该网站上的o个人搜索引擎r所吸引；它是一\n个互动功能项，访问者可敲入一些和工作标准相\n关的关键词，比如(地点)职位和薪水，当数据库\n里发布出与关键词相匹配的职位时，个人搜索引\n擎就会给这些访问者发送邮件；雷德曼键入了\n关键词o法律rho知识产权r和o华盛顿r；三个星\n期后，他收到了第一个职位空缺通知； 雷德曼\n说，o我挖到金子了；r他用电子邮件给雇主发送\n了自己的简历，谋到了给一家公司做内部法律顾\n问的职位\nn\nn\na\n。词汇注释与难句分析。\nn“leyih”\n寻找，搜寻\ni扩充shun(的短语：hun(sbrst)dow；对某人、某\n物穷追到底；)un(st)ou(找出(尤指闲置或不复\n使用之物)n)un(st)up寻找某物(尤指隐蔽而不\n易发现的)\n，ryl.duagn”hrrrherlbhe\n无意间碰到，偶然发现\ni扩充ss(umble).绊脚，跌倒；说话时打结巴，.\n绊脚，出错\ni近义schanceonyhituponronystrikeon\n(-gygdgra\nettvyoysivyno\n，.数据库\neteya”gnytwa\nesyaoytrp。oylo\n(.互相作用的，互相影响的\ni速记sinter-(互相)+act(做)+-ivet\niiiiiiiiiii\n形容词后\n1",
       "points": 0.5,
       "sort_order": 20,
       "answer": "C"

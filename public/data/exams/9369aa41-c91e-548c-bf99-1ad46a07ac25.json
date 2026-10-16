@@ -440,17 +440,17 @@
       "options": [
         {
           "key": "A",
-          "text": "feat ur es",
+          "text": "features",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "influ en ces",
+          "text": "influences",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "r es ults",
+          "text": "results",
           "value": "C"
         },
         {
@@ -460,7 +460,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "11. [A] features 特征，特色\n[B] influences 影响\n[C] costs 代价，付出\n[D] rewards 报酬，奖赏\n［考点提炼］上下文语义。正确率：56%\n［解题思路］空格句指出，研究含蓄地提出了一个问题：我们独有的智力到底会有怎样的 ____。上文第二段首句已明确指出“智力是代价高昂的选择（a high-priced option）”，并且后文第三段继续探讨智力消耗更多能量和给养的弊端，故此处空格词必然对应“代价（costs）”，［C］正确。\n［错项排除］［A］“特征”偏离文意，文章并非在泛泛列举智力的特点；［B］“影响”过于宽泛，无法呼应前文 high-priced option 所体现的代价；［D］“报酬”与全文探讨智力负面代价的主题逻辑相反。",
+      "explanation": "11. [A] features 特色，特点\n[B] influences 影响，作用\n[C] results 后果，结果\n[D] costs 成本；代价\n\n【考点提炼】上下文语义。正确率：26%\n【解题思路】空格句指出，新研究没有……，而是含蓄地提出问题：我们智力的真正 ______ 会是什么。it 指代 this new research，因此这一问题应该与段首句问题“不那么聪明是否更具备适应能力”相统一，而 of our own intelligence 表明本句论述主体为“人类的智力（＝非常聪明）”，因此两个问题是反向呼应关系，选项中能体现“不利”逻辑的只有 cost，即：人类为了获得更高的智力，损失了许多，这也与上文从实验得出的结论 Intelligence is a high-priced option 相吻合。因此正确项为[D]。\n【错项排除】the real features 暗指实验聚焦于研究“人类智力区别于其他物种的特征”，偏离文章主题“智力的代价高昂”，故排除[A]；[B]、[C] 皆用中文思维近义干扰，但错在“真正的动作/结果”缺乏方向性（两者既可以指“好影响/结果”，也可指“坏影响/结果”），不足以表现“代价不利”这一语义逻辑。",
       "points": 0.5,
       "sort_order": 11,
       "answer": "D"

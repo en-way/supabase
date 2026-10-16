@@ -97,6 +97,7 @@ def main():
     trailing_dot_opts = []
     cloze_2004_placeholders = []
     cloze_2014_q8_anomalies = []
+    round12_core_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -234,6 +235,46 @@ def main():
                 if ans != 'D' or 'functions' not in opt_texts or 'rigid bodies' in expl:
                     cloze_2014_q8_anomalies.append((title, so, ans, opt_texts, expl[:50]))
 
+            # 32. Key official answers gold standard
+            if yr == 2010 and cat == 'ky1' and so == 26:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'C' or 'the possible restriction on their granting' not in opt_texts:
+                    round12_core_anomalies.append(('2010_q26', ans, opt_texts))
+            if yr == 2012 and cat == 'ky1' and so == 40:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'A' or 'disapproval' not in opt_texts:
+                    round12_core_anomalies.append(('2012_q40', ans, opt_texts))
+            if yr == 2016 and cat == 'ky1' and so == 1 and ans != 'A':
+                round12_core_anomalies.append(('2016_q1', ans))
+            if yr == 2017 and cat == 'ky1' and so == 14 and ans != 'B':
+                round12_core_anomalies.append(('2017_q14', ans))
+            if yr == 2013 and cat == 'ky1' and so == 2 and ans != 'B':
+                round12_core_anomalies.append(('2013_q2', ans))
+
+            # 33. 2011 cloze & reading calibration
+            if yr == 2011 and cat == 'ky1' and so == 7:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'A' or 'opposite' not in opt_texts:
+                    round12_core_anomalies.append(('2011_q7', ans, opt_texts))
+            if yr == 2011 and cat == 'ky1' and so == 8:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'D' or 'relaxes' not in opt_texts:
+                    round12_core_anomalies.append(('2011_q8', ans, opt_texts))
+            if yr == 2011 and cat == 'ky1' and so == 40:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'B' or 'Celebrity moms have influenced our attitude towards child rearing.' not in opt_texts:
+                    round12_core_anomalies.append(('2011_q40', ans, opt_texts))
+
+            # 34. 2004 cloze 20 questions gold standard
+            if yr == 2004 and cat == 'ky1' and so == 1:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'C' or 'centering' not in opt_texts:
+                    round12_core_anomalies.append(('2004_q1', ans, opt_texts))
+            if yr == 2004 and cat == 'ky1' and so == 13:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'D' or 'experienced' not in opt_texts:
+                    round12_core_anomalies.append(('2004_q13', ans, opt_texts))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -266,6 +307,9 @@ def main():
     results["29. 选项文本 0 处日文中黑点 (・) 伪符号残留"] = (len(trailing_dot_opts) == 0)
     results["30. 2004 年完型填空 20 题 100% 具备黄皮书真题精解"] = (len(cloze_2004_placeholders) == 0)
     results["31. 2014 年完型第 8 题选项与答案 100% 为 functions (D)"] = (len(cloze_2014_q8_anomalies) == 0)
+    results["32. 2010 Q26 / 2012 Q40 / 2016 Q1 / 2017 Q14 / 2013 Q2 官方答案 100% 黄金校准"] = (len(round12_core_anomalies) == 0)
+    results["33. 2011 完型第 7/8 题及阅读 40 题选项与答案 100% 官方黄金校准"] = (len([x for x in round12_core_anomalies if '2011' in str(x)]) == 0)
+    results["34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原"] = (len([x for x in round12_core_anomalies if '2004' in str(x)]) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
