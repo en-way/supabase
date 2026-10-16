@@ -68,6 +68,7 @@ def main():
         "33. 2011 完型第 7/8 题及阅读 40 题选项与答案 100% 官方黄金校准": True,
         "34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原": True,
         "35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原": True,
+        "36. 2004 年阅读理解 4 篇官方黄金篇章与 20 道试题及黄皮书精解 100% 黄金还原": True,
     }
 
     total_passages = 0
@@ -103,6 +104,7 @@ def main():
     cloze_2014_q8_anomalies = []
     round12_core_anomalies = []
     round13_anomalies = []
+    round14_2004_reading_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -309,10 +311,38 @@ def main():
                 if len(expl) < 250 or '事实细节:' in expl:
                     round13_anomalies.append((f'2022_ky2_q{so}', len(expl)))
 
+            # Check Round 14: 2004 Reading Q21-Q40
+            if yr == 2004 and cat == 'ky1' and so in range(21, 41):
+                expected_ans_2004 = {
+                    21: 'C', 22: 'A', 23: 'D', 24: 'B', 25: 'C',
+                    26: 'A', 27: 'D', 28: 'C', 29: 'B', 30: 'D',
+                    31: 'D', 32: 'A', 33: 'B', 34: 'A', 35: 'C',
+                    36: 'C', 37: 'A', 38: 'D', 39: 'B', 40: 'C'
+                }
+                if ans != expected_ans_2004.get(so):
+                    round14_2004_reading_anomalies.append((f'2004_q{so}_ans', ans, expected_ans_2004.get(so)))
+                if len(expl) < 300 or '【精准定位】' not in expl:
+                    round14_2004_reading_anomalies.append((f'2004_q{so}_expl_len', len(expl)))
+                if '⿼㡿' in expl or '⿼' in expl:
+                    round14_2004_reading_anomalies.append((f'2004_q{so}_garbage', 'found'))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
             c = (p.get('content') or '').strip()
+            so = p.get('sort_order')
+
+            # Check Round 14: 2004 Reading Passages 2-5
+            if yr == 2004 and cat == 'ky1':
+                if so == 2 and ('Gant Redmon' not in c or 'CareerBuilder' not in c):
+                    round14_2004_reading_anomalies.append(('2004_p2', 'missing_gant_redmon'))
+                if so == 3 and ('alphabetism' not in c or 'AAAA cars' not in c):
+                    round14_2004_reading_anomalies.append(('2004_p3', 'missing_alphabetism'))
+                if so == 4 and ('Ellen Spero' not in c or 'Alan Greenspan' not in c):
+                    round14_2004_reading_anomalies.append(('2004_p4', 'missing_ellen_spero'))
+                if so == 5 and ('Richard Hofstadter' not in c or 'Ralph Waldo Emerson' not in c):
+                    round14_2004_reading_anomalies.append(('2004_p5', 'missing_hofstadter'))
+
             if 'shop249445206' in c or 'taobao.com' in c or '新一文化' in c:
                 watermark_hits.append((title, pt, 'watermark_in_passage'))
             if re.search(r'\b(?:[2-4]\d|Q[2-4]\d)\s*[\.・\、\:]\s*[A-Z]', c[-150:]):
@@ -345,6 +375,7 @@ def main():
     results["33. 2011 完型第 7/8 题及阅读 40 题选项与答案 100% 官方黄金校准"] = (len([x for x in round12_core_anomalies if '2011' in str(x)]) == 0)
     results["34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原"] = (len([x for x in round12_core_anomalies if '2004' in str(x)]) == 0)
     results["35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原"] = (len(round13_anomalies) == 0)
+    results["36. 2004 年阅读理解 4 篇官方黄金篇章与 20 道试题及黄皮书精解 100% 黄金还原"] = (len(round14_2004_reading_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True

@@ -1,0 +1,87 @@
+{
+  "2017_ky1_q38": {
+    "options": [
+      {
+        "key": "A",
+        "text": "justified in addressing the needs of their constituents",
+        "value": "A"
+      },
+      {
+        "key": "B",
+        "text": "qualified to deal independently with bureaucratic issues",
+        "value": "B"
+      },
+      {
+        "key": "C",
+        "text": "allowed to focus on the concerns of their supporters",
+        "value": "C"
+      },
+      {
+        "key": "D",
+        "text": "exempt from conviction on the charge of favoritism",
+        "value": "D"
+      }
+    ],
+    "correct_answer": "A",
+    "answer": "A",
+    "explanation": "38. The court's ruling is based on the assumption that public officials are ________.\n[A] justified in addressing the needs of their constituents 有正当理由满足其选民的需求\n[B] qualified to deal independently with bureaucratic issues 有能力独立处理政府事宜\n[C] allowed to focus on the concerns of their supporters 被允许将精力集中在其支持者所关心的事情上\n[D] exempt from conviction on the charge of favoritism 在面临偏袒指控时免除定罪\n\n【精准定位】第五段首句指出最高法院裁决在法律上合理地界定了某种合法的偏袒行为，末句则以首席大法官之言引出其依据：基本契约是代议制政府的执政基础，契约中有一条假设“公职人员应该听取其选民心声，并就选民所关切之事行事”，亦即“公职人员应该满足其选民需求”，因此[A]正确。\n【命题解密】题干+正确项[A]是对第五段③句 assumes that public officials will hear from their constituents and act on their concerns 的同义改写。\n【干扰项设置】[B]错将②句“应该帮助其支持者处理与政府相关的繁文缛节问题”篡改成“有能力独立处理政府事宜”。[C]错将③句“选民关切之事是公务人员的行动依据（act on their concerns）”狭隘理解为“将精力集中放在支持者关注之事上”。[D]错将①句“该裁决从法律上合理地界定了某种合法的偏袒行为”断章取义为“公职人员面临偏袒指控时可被免除定罪”，事实是“偏袒行为也有不合法的”。"
+  },
+  "2016_ky1_q45": {
+    "explanation": "45. 【答案】G 【精解】第八段首两句通过正反对比指出：提升形象不是为了变得更自负或花费更多时间考虑穿衣打扮，而是为了减少决策疲劳，提高效率；后文进一步介绍正确做法，即如何高效地提升形象。选项[G] Make it efficient 为对本段主要观点的概括，efficient 与段末两句的具体做法一致。\n【干扰项设置】根据首句的 become more vain（变得更加虚荣、自负），可能会将包含 confidence（信心）的[B] Have confidence in yourself 当作正确项。但首先 vain 与 confidence 语义及褒贬色彩不同，vain 强调“爱慕虚荣”，为贬义，confidence 为褒义；其次，文中针对 become more vain 予以否定，与[B]的肯定态度不符；再次，继续阅读本段可知后文主要针对如何提高效率提出建议，并非“要有自信”，故排除[B]选项。"
+  },
+  "2002_ky1_q30": {
+    "options": [
+      {
+        "key": "A",
+        "text": "expected to copy human brain in internal structure",
+        "value": "A"
+      },
+      {
+        "key": "B",
+        "text": "able to perceive abnormalities immediately",
+        "value": "B"
+      },
+      {
+        "key": "C",
+        "text": "far from reaching human mental standards",
+        "value": "C"
+      },
+      {
+        "key": "D",
+        "text": "best used in a controlled environment",
+        "value": "D"
+      }
+    ],
+    "correct_answer": "C",
+    "answer": "C",
+    "explanation": "30. The example of the monkey in Paragraph 6 shows that robots are ________.\n[A] expected to copy human brain in internal structure 有望复制人脑的内部结构\n[B] able to perceive abnormalities immediately 能够立即感知异常现象\n[C] far from reaching human mental standards 远未达到人类的智力水平\n[D] best used in a controlled environment 最适合在受控的环境下使用\n\n【精准定位】第六段第③句提到：人脑只要瞥一眼快速变化的场景，就能迅速排除98%的不相干信息——立即聚焦于蜿蜒的森林小路边的一只猴子，或者一大群人中的一张可疑面孔上。其中猴子（或人群中可疑面孔）的例子以从句出现，旨在说明主句：人即便在复杂多变的场景下，排除不相关信息与定位的能力依然超强，同时该句以 but 起头转折，说明机器人尚不具备人类的这种能力。故[C]正确。\n【干扰项设置】[A]将第五段末句由上下文语境推知的“人类从未打算在内部结构上模仿人脑”反向干扰为“期望在内部结构上复制人脑”。[B]对本段主旨“计算机系统达不到人脑的聪明程度”进行反向干扰，强调机器人的优越性。[D]将第五段②句机器人的局限性“必须在受控的工厂环境下工作”曲解为机器人在不同条件下的使用效果“机器人在受控的环境下使用的最好”。"
+  },
+  "2010_ky1_q25": {
+    "stem": "Which of the following would be the most appropriate title for the text?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Newspapers of the Good Old Days",
+        "value": "A"
+      },
+      {
+        "key": "B",
+        "text": "The Lost Horizon in Newspapers",
+        "value": "B"
+      },
+      {
+        "key": "C",
+        "text": "Mournful Decline of Journalism",
+        "value": "C"
+      },
+      {
+        "key": "D",
+        "text": "Prominent Critics in Memory",
+        "value": "D"
+      }
+    ],
+    "correct_answer": "B",
+    "answer": "B",
+    "explanation": "25. Which of the following would be the most appropriate title for the text?\n[A] Newspapers of the Good Old Days 报纸令人追忆的美好时代\n[B] The Lost Horizon in Newspapers 报纸上消失的视域\n[C] Mournful Decline of Journalism 新闻业令人悲哀的衰落\n[D] Prominent Critics in Memory 记忆中杰出的评论家\n\n【精准定位】本文开篇直陈主旨：英文报纸艺术报道已“不可遏止”地衰落了。第二、三段追述往昔艺术评论曾盛极一时的情况。最后两段从一位辉煌时期代表评论家的角度再次论证这一趋势，明确复兴前景渺茫的事实。文章通篇都在传达一个信息：艺术评论正逐渐从报纸上消失。[B]为最合适的标题。\n【命题解密】[B]以 Horizon（知识、兴趣的范围）喻指“艺术评论”，指向主题词 arts coverage；Lost（无法恢复的）则概括了全文陈述的趋势 inexorable decline / headlong retreat。\n【干扰项设置】[A]中 the Good Old Days 源自文中第二、三段对“过去辉煌”的追溯，未涉及文章实际着意凸显的“衰微现状”；且原文论述的中心在于“艺术评论”而非更大范围的“报纸”。[C]亦将主题词 arts criticism 偷换成更大范围的 journalism。[D]源自最后两段对 Cardus 的追忆，但对 Cardus 的遗忘只是用以论证艺术评论衰落的论据，并非全文主旨。"
+  }
+}
