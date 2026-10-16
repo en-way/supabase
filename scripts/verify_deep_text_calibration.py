@@ -59,6 +59,7 @@ def main():
         "23. 试题题干 0 处断裂、截断与多行丢失": True,
         "24. 全库试题与选项 0 处解析语义冲突、重复选项与空选项": True,
         "25. 全库完型与阅读 0 处选项跨题覆盖与重复": True,
+        "26. 全库试题与篇章 0 处 o£、th&r 异形字符与 44 伪双引号残留": True,
         "27. 全库新题型 Part B 41-45 题答案与题干 100% 官方黄金吻合": True,
         "28. 全库试题与篇章 0 处商业广告与淘宝水印残留": True,
         "29. 选项文本 0 处日文中黑点 (・) 伪符号残留": True,
@@ -72,6 +73,7 @@ def main():
         "37. 全库 0 处章节末题译文倒灌、0 处掌柜水印、2005 Q25 题干选项答案 100% 黄金校准": True,
         "38. 全库 0 处占位符选项，2002/2003/2006/2008/2010/2012/2017/2018/2020/2021/2022 核心题项 100% 黄金校准": True,
         "39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准": True,
+        "40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏": True,
     }
 
     total_passages = 0
@@ -111,6 +113,7 @@ def main():
     round15_anomalies = []
     round16_anomalies = []
     round17_anomalies = []
+    round18_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -478,6 +481,37 @@ def main():
                 if opt_map.get('D') != 'the data collected so far are out of date':
                     round17_anomalies.append(('2006_q33_opt_D', opt_map.get('D')))
 
+            # Check Round 18: 2011 ky1, 2014 ky1, 2001 ky1 authentic options & answers
+            if yr == 2011 and cat == 'ky1':
+                if so == 21 and (ans != 'C' or opt_map.get('C') != 'received acclaim'):
+                    round18_anomalies.append(('2011_q21', ans, opt_map))
+                if so == 22 and (ans != 'B' or opt_map.get('B') != 'modest'):
+                    round18_anomalies.append(('2011_q22', ans, opt_map))
+                if so == 23 and (ans != 'D' or opt_map.get('D') != 'overestimate the value of live performances'):
+                    round18_anomalies.append(('2011_q23', ans, opt_map))
+                if so == 32 and (ans != 'C' or opt_map.get('C') != 'strong user traffic'):
+                    round18_anomalies.append(('2011_q32', ans, opt_map))
+                if so == 33 and (ans != 'B' or opt_map.get('B') != 'can be used to produce negative effects in marketing'):
+                    round18_anomalies.append(('2011_q33', ans, opt_map))
+                if so == 35 and (ans != 'A' or opt_map.get('A') != 'Alternatives to conventional paid media.'):
+                    round18_anomalies.append(('2011_q35', ans, opt_map))
+            if yr == 2014 and cat == 'ky1':
+                if so == 31 and (ans != 'B' or opt_map.get('B') != 'a handsome reward for researchers'):
+                    round18_anomalies.append(('2014_q31', ans, opt_map))
+                if so == 32 and (ans != 'C' or opt_map.get('C') != 'the founders of the new awards'):
+                    round18_anomalies.append(('2014_q32', ans, opt_map))
+                if so == 33 and (ans != 'C' or opt_map.get('C') != 'the joint effort of modern researchers'):
+                    round18_anomalies.append(('2014_q33', ans, opt_map))
+                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not expl.startswith('39.')):
+                    round18_anomalies.append(('2014_q39', ans, opt_map, expl[:30]))
+                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not expl.startswith('40.')):
+                    round18_anomalies.append(('2014_q40', ans, opt_map, expl[:30]))
+            if yr == 2001 and cat == 'ky1':
+                if so == 32 and (ans != 'A' or opt_map.get('A') != 'failure to realize its real problem'):
+                    round18_anomalies.append(('2001_q32', ans, opt_map))
+                if so == 40 and (ans != 'D' or opt_map.get('D') != 'the economic situation'):
+                    round18_anomalies.append(('2001_q40', ans, opt_map))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -531,6 +565,7 @@ def main():
     results["37. 全库 0 处章节末题译文倒灌、0 处掌柜水印、2005 Q25 题干选项答案 100% 黄金校准"] = (len(round15_anomalies) == 0)
     results["38. 全库 0 处占位符选项，2002/2003/2006/2008/2010/2012/2017/2018/2020/2021/2022 核心题项 100% 黄金校准"] = (len(round16_anomalies) == 0)
     results["39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准"] = (len(round17_anomalies) == 0)
+    results["40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏"] = (len(round18_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -576,6 +611,8 @@ def main():
             print(f"Round 16 anomalies ({len(round16_anomalies)}):", round16_anomalies)
         if round17_anomalies:
             print(f"Round 17 anomalies ({len(round17_anomalies)}):", round17_anomalies)
+        if round18_anomalies:
+            print(f"Round 18 anomalies ({len(round18_anomalies)}):", round18_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
