@@ -69,6 +69,7 @@ def main():
         "34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原": True,
         "35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原": True,
         "36. 2004 年阅读理解 4 篇官方黄金篇章与 20 道试题及黄皮书精解 100% 黄金还原": True,
+        "37. 全库 0 处章节末题译文倒灌、0 处掌柜水印、2005 Q25 题干选项答案 100% 黄金校准": True,
     }
 
     total_passages = 0
@@ -105,6 +106,7 @@ def main():
     round12_core_anomalies = []
     round13_anomalies = []
     round14_2004_reading_anomalies = []
+    round15_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -326,6 +328,45 @@ def main():
                 if '⿼㡿' in expl or '⿼' in expl:
                     round14_2004_reading_anomalies.append((f'2004_q{so}_garbage', 'found'))
 
+            # Check Round 15: Zero leaked translations, zero commerce watermarks, authentic 2005 Q25
+            bad_patterns_round15 = ['掌柜', '旺旺', '淘宝', '店铺', '新一文化', '全文翻译', '长难句分析', '核心词与超纲词', '核心词汇与超纲词汇', '文章题材结构分析', '【翻译】', '【长难句分析】']
+            for bp in bad_patterns_round15:
+                if bp in expl:
+                    round15_anomalies.append((f"{yr}_{cat}_q{so}", f"bad_pattern_{bp}"))
+
+            if yr == 2005 and cat == 'ky1' and so == 25:
+                if stem != "What can we infer from the last paragraph?" or ans != 'B':
+                    round15_anomalies.append(('2005_q25_stem_or_ans', stem, ans))
+                if len(expl) < 400 or '【精准定位】' not in expl:
+                    round15_anomalies.append(('2005_q25_expl', len(expl)))
+            if yr == 2004 and cat == 'ky1' and so == 20:
+                if not expl.endswith('假如下雨，你会怎么办呢？'):
+                    round15_anomalies.append(('2004_q20_not_truncated', expl[-50:]))
+            if yr == 2004 and cat == 'ky1' and so == 40:
+                if not expl.endswith('捏造它们与才智之间的关系（evolves from 和 underlies）。'):
+                    round15_anomalies.append(('2004_q40_not_truncated', expl[-50:]))
+            if yr == 2007 and cat == 'ky1' and so == 45:
+                expl_norm = re.sub(r'\s+', '', expl)
+                if not expl_norm.endswith('最后要教会孩子在面对挫折和失败时如何解决问题（E）。'):
+                    round15_anomalies.append(('2007_q45_not_truncated', expl[-50:]))
+            if yr == 2008 and cat == 'ky1' and so == 43:
+                if '掌柜' in expl:
+                    round15_anomalies.append(('2008_q43_watermark', expl[-30:]))
+            if yr == 2008 and cat == 'ky1' and so == 45:
+                expl_norm = re.sub(r'\s+', '', expl)
+                if not expl_norm.endswith('确定答案E后，我们马上可以排除F。'):
+                    round15_anomalies.append(('2008_q45_not_truncated', expl[-50:]))
+            if yr == 2009 and cat == 'ky1' and so == 41:
+                if '【空格推测】' not in expl or '【答案敲定】' not in expl or len(expl) < 200:
+                    round15_anomalies.append(('2009_q41_expl_incomplete', len(expl)))
+            if yr == 2012 and cat == 'ky1' and so == 25:
+                expl_norm = re.sub(r'\s+', '', expl)
+                if not expl_norm.endswith('由此可以看出，作者对于peerpressure的影响持质疑态度，故答案选D。'):
+                    round15_anomalies.append(('2012_q25_not_truncated', expl[-50:]))
+            if yr == 2012 and cat == 'ky1' and so in range(41, 46):
+                if '【空格推测】' not in expl or '【答案敲定】' not in expl or len(expl) < 150:
+                    round15_anomalies.append((f'2012_q{so}_expl_incomplete', len(expl)))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -376,6 +417,7 @@ def main():
     results["34. 2004 完型篇章正文与 20 题选项 100% 官方黄金还原"] = (len([x for x in round12_core_anomalies if '2004' in str(x)]) == 0)
     results["35. 2002/2009/2010/2016/2017/2020/2021/2022 等25题官方精解与完整选项 100% 黄金还原"] = (len(round13_anomalies) == 0)
     results["36. 2004 年阅读理解 4 篇官方黄金篇章与 20 道试题及黄皮书精解 100% 黄金还原"] = (len(round14_2004_reading_anomalies) == 0)
+    results["37. 全库 0 处章节末题译文倒灌、0 处掌柜水印、2005 Q25 题干选项答案 100% 黄金校准"] = (len(round15_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -415,6 +457,8 @@ def main():
             print(f"Mismatched answers ({len(mismatched_answers)}):", mismatched_answers[:5])
         if round13_anomalies:
             print(f"Round 13 anomalies ({len(round13_anomalies)}):", round13_anomalies)
+        if round15_anomalies:
+            print(f"Round 15 anomalies ({len(round15_anomalies)}):", round15_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
