@@ -300,22 +300,22 @@
       "options": [
         {
           "key": "A",
-          "text": "issued",
+          "text": "forget",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "received",
+          "text": "regret",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "ignored",
+          "text": "finish",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "cancelled",
+          "text": "avoid",
           "value": "D"
         }
       ],
@@ -786,7 +786,7 @@
       "passage_id": "f302706f-9974-5b80-8629-8e25ea60bba3",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Cooper and her colleagues argue that a \"town of culture\" award could",
+      "stem": "Critics argue that a 'town of culture' award could",
       "options": [
         {
           "key": "A",
@@ -1241,7 +1241,7 @@
       "passage_id": "91b89f45-07cf-5554-9cf7-405b0ca6586c",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Norway's adoption of a nationwide corporate gender quota has led to",
+      "stem": "The nationwide corporate gender quota has led to",
       "options": [
         {
           "key": "A",
@@ -1381,7 +1381,7 @@
       "passage_id": "827fbddb-e7f0-5a92-8bd1-e292d035500e",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The countries adopting the unilateral measures share the opinion that",
+      "stem": "Proponents of multilateral measures share the opinion that",
       "options": [
         {
           "key": "A",

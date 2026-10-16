@@ -440,22 +440,22 @@
       "options": [
         {
           "key": "A",
-          "text": "aggravate",
+          "text": "Except for",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "generate",
+          "text": "According to",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "moderate",
+          "text": "Due to",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "enhance",
+          "text": "As for",
           "value": "D"
         }
       ],
@@ -961,7 +961,7 @@
       "passage_id": "64dd172e-6421-5316-9880-0c1386987ae5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "When McGee announced his departure, his",
+      "stem": "We learn from Paragraph 1 that Gilbert's study shows",
       "options": [
         {
           "key": "A",
@@ -996,7 +996,7 @@
       "passage_id": "64dd172e-6421-5316-9880-0c1386987ae5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 2, senior executives'",
+      "stem": "Gilbert's study finds that our negative feelings",
       "options": [
         {
           "key": "A",
@@ -1020,7 +1020,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "\n27. According to Paragraph 2, senior executives' \nquitting may be spurred by \n・\n27.根据第二段，高管们辞职可能是受到 \n的驱使。\n[A] their expectation of better financial status\n[A]他们对更佳财务状况的期望\n[B] their need to reflect on their private life\n[B]他们想认真思考个人生活的需求\n18\n \n\n［精准定位］第二段主要分析了高管裸辞的原因：麦基裸辞为了实现“管理一家公司”的职业目标，雅 \n芳公司和美国运通公司二号高管为追求CEO职位而辞职，还有一些高管因继任计划未获董事会首肯而 \n希望换份工作进一步发展。归纳便是：高管裸辞主要由于想要“追求新的职业目标”，［D］正确。\n[C] their strained relations with the boards\n［C］他们与董事会的紧张关系\n[D] their pursuit o£ new career goals\n［D］他们对全新职业目标的追求\n［命题解密］正确项［D］是对第一段②句to pursue my goal of running a company、第二段④句 \nlooking for a CEO post 的高度概括。\n［A］从⑥句 a turbulent business environment 和④句 looking for a CEO post 等片段信息中臆断出 \n“高管的经济收入因糟糕的商业环境而下滑，希望通过寻求CEO职位来改善”，但段中未提及他们是因 \n为追求财富而辞职。［E］将①句to reflect on what kind of company he wanted to run偷换为\"思考个人生 \n活”。［C］对⑤句in response to shareholder pressure断章取义，文中此处指\"董事会囿于股东压力，因而 \n审查高管继任计划，致使一些高管无法获得首肯通过，从而选择辞职”。而非“高",
+      "explanation": "\n27. According to Paragraph 2, senior executives' \nquitting may be spurred by \n・\n27.根据第二段，高管们辞职可能是受到 \n的驱使。\n[A] their expectation of better financial status\n[A]他们对更佳财务状况的期望\n[B] their need to reflect on their private life\n[B]他们想认真思考个人生活的需求\n18\n \n\n［精准定位］第二段主要分析了高管裸辞的原因：麦基裸辞为了实现“管理一家公司”的职业目标，雅 \n芳公司和美国运通公司二号高管为追求CEO职位而辞职，还有一些高管因继任计划未获董事会首肯而 \n希望换份工作进一步发展。归纳便是：高管裸辞主要由于想要“追求新的职业目标”，［D］正确。\n[C] their strained relations with the boards\n［C］他们与董事会的紧张关系\n[D] their pursuit of new career goals\n［D］他们对全新职业目标的追求\n［命题解密］正确项［D］是对第一段②句to pursue my goal of running a company、第二段④句 \nlooking for a CEO post 的高度概括。\n［A］从⑥句 a turbulent business environment 和④句 looking for a CEO post 等片段信息中臆断出 \n“高管的经济收入因糟糕的商业环境而下滑，希望通过寻求CEO职位来改善”，但段中未提及他们是因 \n为追求财富而辞职。［E］将①句to reflect on what kind of company he wanted to run偷换为\"思考个人生 \n活”。［C］对⑤句in response to shareholder pressure断章取义，文中此处指\"董事会囿于股东压力，因而 \n审查高管继任计划，致使一些高管无法获得首肯通过，从而选择辞职”。而非“高",
       "points": 2,
       "sort_order": 27,
       "answer": "D"
@@ -1206,7 +1206,7 @@
       "passage_id": "7706c121-f6b0-5bbc-8fea-b1dbbdc7591f",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author indicates in Paragraph 3 that earned",
+      "stem": "The discovery of the 'peer effect' in human behavior shows that",
       "options": [
         {
           "key": "A",
@@ -1241,7 +1241,7 @@
       "passage_id": "7706c121-f6b0-5bbc-8fea-b1dbbdc7591f",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Toyota Motor's experience is cited as an example",
+      "stem": "According to Paragraph 4, the public health campaign",
       "options": [
         {
           "key": "A",

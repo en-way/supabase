@@ -370,22 +370,22 @@
       "options": [
         {
           "key": "A",
-          "text": "nearly",
+          "text": "only",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "curiously",
+          "text": "rather",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "eagerly",
+          "text": "once",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "quickly",
+          "text": "also",
           "value": "D"
         }
       ],
@@ -786,7 +786,7 @@
       "passage_id": "49ed5441-c835-51e8-9252-429e470fbe53",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Research by the World Economic Forum",
+      "stem": "Research by the World Economic Forum suggests",
       "options": [
         {
           "key": "A",
@@ -800,12 +800,12 @@
         },
         {
           "key": "C",
-          "text": "steady growth of job opportunities",
+          "text": "a steady growth of job opportunities",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "controversy about the 44core skills\"",
+          "text": "a controversy about \"core skills\"",
           "value": "D"
         }
       ],
@@ -856,7 +856,7 @@
       "passage_id": "49ed5441-c835-51e8-9252-429e470fbe53",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Efforts to resolve the skills mismatch in",
+      "stem": "Efforts to resolve the skills mismatch in Canada",
       "options": [
         {
           "key": "A",
@@ -891,7 +891,7 @@
       "passage_id": "49ed5441-c835-51e8-9252-429e470fbe53",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "We can learn from Paragraph 3 that there",
+      "stem": "We can learn from Paragraph 3 that there was",
       "options": [
         {
           "key": "A",
@@ -930,30 +930,30 @@
       "options": [
         {
           "key": "A",
-          "text": "an increase in full-time employment",
+          "text": "create job vacancies for the unemployed",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "an urgent demand for new job skills",
+          "text": "prepare their laid-off workers for other jobs",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "a steady growth of job opportunities",
+          "text": "retrain their cabin staff for better services",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "a controversy about the 44core skills\"",
+          "text": "finance their staff's college education",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "B",
       "explanation": "\n25. Scandinavian Airlines decided to \n.\n事实细节:Scandinavian Airlines 的决定。\n能首先通过World Economic Forum的研究引入“工作技能不匹配”的话题，尔后借由AT&T、加拿大、\n9\n\nScandinavian Airlines等公司/国家采取的措施正向或反向说明“解决技能不匹配”的方法。\n问题总结：本文论及“工作中的技能不匹配问题”，引用了研究并列举了大量实例说明解决办法。\n埜三畫分析及试题精解\nI OuReskillingis something that sounds like a \nbuzzword② but is actually a requirement^ if we plan to \nhave a future where a lot of would-be1 workers do not \nget left behind・ @ We know we are moving into a period \nwhere the jobs in demand will change rapidly, as will \nthe requirements of the jobs that remain. ©Research by \nthe World Economic Forum finds that on average 42 \nper cent of the “core skills\" within job roles will change \nby 2022.❹That is a very short timeline®.\n“再培训”虽然听上去像个时髦词，但实 \n际上，如果我们希望未来的劳动力不被大量 \n抛弃，那它就是一件必须要做的事情。众所 \n周知，我们正步入这样一个时期：（社会）所需 \n的工作岗位将迅速变化，而剩余工作岗位的 \n要求也将迅速变化。世界经济论坛的研究发 \n现，到2022年，各类职业中平均42%的“核心 \n技能”将发生变化。这是非常短的时间。\n•词汇注释与难句分析\n",
       "points": 2,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "B"
     },
     {
       "id": "0715c893-3ad4-5307-9cb0-795e2d8879a1",
@@ -961,7 +961,7 @@
       "passage_id": "0f9e5a82-f82f-5c52-bd4d-e5f545a0c485",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Some people argue that food self-sufficiency in the",
+      "stem": "Some people argue that food self-sufficiency in the UK would",
       "options": [
         {
           "key": "A",
@@ -996,7 +996,7 @@
       "passage_id": "0f9e5a82-f82f-5c52-bd4d-e5f545a0c485",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "The report by the University of Leeds shows that in",
+      "stem": "The report by the University of Leeds shows that in the UK",
       "options": [
         {
           "key": "A",
@@ -1066,7 +1066,7 @@
       "passage_id": "0f9e5a82-f82f-5c52-bd4d-e5f545a0c485",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "It can be learned from the last paragraph that",
+      "stem": "It can be learned from the last paragraph that British people",
       "options": [
         {
           "key": "A",
@@ -1101,7 +1101,7 @@
       "passage_id": "0f9e5a82-f82f-5c52-bd4d-e5f545a0c485",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "The author's attitude to food self-sufficiency in the",
+      "stem": "The author's attitude to food self-sufficiency in the UK is",
       "options": [
         {
           "key": "A",
@@ -1171,7 +1171,7 @@
       "passage_id": "fbd49496-cbd6-5676-ad1d-29e41cd6aad3",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Microsoft's critics believe that the big tech",
+      "stem": "Microsoft's critics believe that the big tech companies",
       "options": [
         {
           "key": "A",
@@ -1276,7 +1276,7 @@
       "passage_id": "fbd49496-cbd6-5676-ad1d-29e41cd6aad3",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "For the five biggest tech companies, their small",
+      "stem": "For the five biggest tech companies, their small acquisitions",
       "options": [
         {
           "key": "A",

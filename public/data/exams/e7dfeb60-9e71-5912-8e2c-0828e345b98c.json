@@ -160,22 +160,22 @@
       "options": [
         {
           "key": "A",
-          "text": "pauses",
+          "text": "while",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "returns",
+          "text": "since",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "peaks",
+          "text": "once",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "fades",
+          "text": "until",
           "value": "D"
         }
       ],
@@ -580,22 +580,22 @@
       "options": [
         {
           "key": "A",
-          "text": "superior",
+          "text": "compensations",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "attributable",
+          "text": "symptoms",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "parallel",
+          "text": "demands",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "resistant",
+          "text": "treatments",
           "value": "D"
         }
       ],
@@ -1675,7 +1675,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "44. 答案B 考查知识点：上下文逻辑衔接+词义复现\n\n由选项分析可知，为本题备选项。\n\n【A】 中have AL . . look for. . . sources and information4可让人工智能去寻找原始资料和信息“似与空格\n\n前 Machine learning. . . provides a more reliable form of statistics*4人工智能能提供更可靠的统计形式\"照应，\n\n但选项侧重人工智能帮人分担枯燥的任务，未提及使数据或信息更准确，与本段主旨不符，故排除。\n\n【B】 叙述安永会计事务所利用人工智能协助员工审查合同，从而使审计过程更快、结果更准确\n\n50\n\n（faster and more accurate），即人工智能的审查功能可以提髙数据准确度和工作效率。空格前两句概述\n\n人工智能可以提高数据的价值，帮助人们做出更明智的决策，B项是对前两句的具体例证，而且选项中\n\n的more accurate恰好呼应小标题Improved accuracy,为正确项。\n\n[G]说明人工智能浏览更多简历从而筛选岀更具潜力的求职者，看似与空格前句“人工智能帮助人\n\n们做岀更明智的决策\"相契合，但无法彰显空格前两句more reliable44更可靠”，以及空格所在段标题\n\nImproved accuracy\"更精准/准确”所传递的“（数据/结果）更可靠、更准确”之意。且该项更契合空41上\n\n下文语义及所在段的核心主旨，故排除。",
+      "explanation": "44. 答案B 考查知识点：上下文逻辑衔接+词义复现\n\n由选项分析可知，为本题备选项。\n\n【A】 中have AL . . look for. . . sources and information4可让人工智能去寻找原始资料和信息“似与空格\n\n前 Machine learning. . . provides a more reliable form of statistics*4人工智能能提供更可靠的统计形式\"照应，\n\n但选项侧重人工智能帮人分担枯燥的任务，未提及使数据或信息更准确，与本段主旨不符，故排除。\n\n【B】 叙述安永会计事务所利用人工智能协助员工审查合同，从而使审计过程更快、结果更准确\n\n50\n\n（faster and more accurate），即人工智能的审查功能可以提髙数据准确度和工作效率。空格前两句概述\n\n人工智能可以提高数据的价值，帮助人们做出更明智的决策，B项是对前两句的具体例证，而且选项中\n\n的more accurate恰好呼应小标题Improved accuracy,为正确项。\n\n[G]说明人工智能浏览更多简历从而筛选岀更具潜力的求职者，看似与空格前句“人工智能帮助人\n\n们做岀更明智的决策\"相契合，但无法彰显空格前两句more reliable“更可靠”，以及空格所在段标题\n\nImproved accuracy\"更精准/准确”所传递的“（数据/结果）更可靠、更准确”之意。且该项更契合空41上\n\n下文语义及所在段的核心主旨，故排除。",
       "points": 2,
       "sort_order": 44,
       "answer": "B"

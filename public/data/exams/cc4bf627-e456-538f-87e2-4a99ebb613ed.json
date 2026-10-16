@@ -230,22 +230,22 @@
       "options": [
         {
           "key": "A",
-          "text": "If",
+          "text": "Accept",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Though",
+          "text": "Explain",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Once",
+          "text": "Remember",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Unless",
+          "text": "Suppose",
           "value": "D"
         }
       ],
@@ -370,22 +370,22 @@
       "options": [
         {
           "key": "A",
-          "text": "If",
+          "text": "highlight",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Though",
+          "text": "sacrifice",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Once",
+          "text": "continue",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Unless",
+          "text": "explore",
           "value": "D"
         }
       ],
@@ -475,22 +475,22 @@
       "options": [
         {
           "key": "A",
-          "text": "cause",
+          "text": "put up with",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "purpose",
+          "text": "make up for",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "question",
+          "text": "hang on to",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "condition",
+          "text": "cut down on",
           "value": "D"
         }
       ],
@@ -926,26 +926,26 @@
       "passage_id": "eff47a08-7564-52c6-930e-fa1fa5419508",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "John Brunnquell would disagree with Julie Stanton over regenerative products' ________.",
+      "stem": "John Brunnquell would disagree with Julie Stanton over regenerative eggs'",
       "options": [
         {
           "key": "A",
-          "text": "at a considerably low cost",
+          "text": "market prospects",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "at the demand of regular shoppers",
+          "text": "standard definition",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "as a replacement for organic eggs",
+          "text": "nutritional value",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "on specially designed farms",
+          "text": "moral implication",
           "value": "D"
         }
       ],
@@ -1066,7 +1066,7 @@
       "passage_id": "67c09a70-0142-5c3d-a747-1a83db05af21",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Many 44 unretireesare increasing their savings",
+      "stem": "Many 'unretirees' are increasing their savings",
       "options": [
         {
           "key": "A",
