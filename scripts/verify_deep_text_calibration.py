@@ -29,7 +29,7 @@ def main():
     exams_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'public', 'data', 'exams'))
     exam_files = sorted(glob.glob(os.path.join(exams_dir, '*.json')))
 
-    print(f"=== 考研英语全库真题法医级文本校对与适配断言 (Round 7 终极版) ===")
+    print(f"=== 考研英语全库真题法医级文本校对与适配断言 (Round 8 终极版) ===")
     print(f"扫描目录: {exams_dir}")
     print(f"试卷文件数: {len(exam_files)}")
 
@@ -59,8 +59,11 @@ def main():
         "23. 试题题干 0 处断裂、截断与多行丢失": True,
         "24. 全库试题与选项 0 处解析语义冲突、重复选项与空选项": True,
         "25. 全库完型与阅读 0 处选项跨题覆盖与重复": True,
-        "26. 全库试题与篇章 0 处 o£、th&r 异形字符与 44 伪双引号残留": True,
         "27. 全库新题型 Part B 41-45 题答案与题干 100% 官方黄金吻合": True,
+        "28. 全库试题与篇章 0 处商业广告与淘宝水印残留": True,
+        "29. 选项文本 0 处日文中黑点 (・) 伪符号残留": True,
+        "30. 2004 年完型填空 20 题 100% 具备黄皮书真题精解": True,
+        "31. 2014 年完型第 8 题选项与答案 100% 为 functions (D)": True,
     }
 
     total_passages = 0
@@ -90,6 +93,10 @@ def main():
     duplicate_cloze_reading_options = []
     ocr_corruptions_found = []
     part_b_anomalies = []
+    watermark_hits = []
+    trailing_dot_opts = []
+    cloze_2004_placeholders = []
+    cloze_2014_q8_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -206,10 +213,33 @@ def main():
                     if 'regarding' in stem:
                         part_b_anomalies.append((title, so, 'spoiler_in_stem', stem))
 
+            # 28. Commercial watermarks
+            if 'shop249445206' in expl or 'taobao.com' in expl or '新一文化' in expl:
+                watermark_hits.append((title, so, 'watermark_in_explanation'))
+
+            # 29. Trailing middle dots
+            for opt in opts:
+                ot = opt.get('text', '')
+                if ot.endswith('・') or ot.endswith('•') or ot.endswith('·'):
+                    trailing_dot_opts.append((title, so, opt.get('key'), ot))
+
+            # 30. 2004 Cloze real explanation
+            if yr == 2004 and cat == 'ky1' and so in range(1, 21):
+                if '精确契合语境' in expl or len(expl) < 200:
+                    cloze_2004_placeholders.append((title, so, expl))
+
+            # 31. 2014 Cloze Q8 check
+            if yr == 2014 and cat == 'ky1' and so == 8:
+                opt_texts = [o.get('text') for o in opts]
+                if ans != 'D' or 'functions' not in opt_texts or 'rigid bodies' in expl:
+                    cloze_2014_q8_anomalies.append((title, so, ans, opt_texts, expl[:50]))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
             c = (p.get('content') or '').strip()
+            if 'shop249445206' in c or 'taobao.com' in c or '新一文化' in c:
+                watermark_hits.append((title, pt, 'watermark_in_passage'))
             if re.search(r'\b(?:[2-4]\d|Q[2-4]\d)\s*[\.・\、\:]\s*[A-Z]', c[-150:]):
                 passage_boundary_anomalies.append((title, pt, 'stem_at_end', c[-80:]))
             if re.search(r'\[[A-G]\]\s*[a-zA-Z]{3,}', c[-80:]):
@@ -232,6 +262,10 @@ def main():
     results["25. 全库完型与阅读 0 处选项跨题覆盖与重复"] = (len(duplicate_cloze_reading_options) == 0)
     results["26. 全库试题与篇章 0 处 o£、th&r 异形字符与 44 伪双引号残留"] = (len(ocr_corruptions_found) == 0)
     results["27. 全库新题型 Part B 41-45 题答案与题干 100% 官方黄金吻合"] = (len(part_b_anomalies) == 0)
+    results["28. 全库试题与篇章 0 处商业广告与淘宝水印残留"] = (len(watermark_hits) == 0)
+    results["29. 选项文本 0 处日文中黑点 (・) 伪符号残留"] = (len(trailing_dot_opts) == 0)
+    results["30. 2004 年完型填空 20 题 100% 具备黄皮书真题精解"] = (len(cloze_2004_placeholders) == 0)
+    results["31. 2014 年完型第 8 题选项与答案 100% 为 functions (D)"] = (len(cloze_2014_q8_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -243,6 +277,14 @@ def main():
 
     if not all_passed:
         print("\n=== 失败详情报告 ===")
+        if watermark_hits:
+            print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
+        if trailing_dot_opts:
+            print(f"Trailing dot options ({len(trailing_dot_opts)}):", trailing_dot_opts[:5])
+        if cloze_2004_placeholders:
+            print(f"2004 Cloze placeholders ({len(cloze_2004_placeholders)}):", cloze_2004_placeholders[:5])
+        if cloze_2014_q8_anomalies:
+            print(f"2014 Cloze Q8 anomalies ({len(cloze_2014_q8_anomalies)}):", cloze_2014_q8_anomalies[:5])
         if non_canonical_option_orders:
             print(f"Non-canonical option orders ({len(non_canonical_option_orders)}):", non_canonical_option_orders[:5])
         if duplicate_cloze_reading_options:
@@ -263,7 +305,7 @@ def main():
             print(f"Mismatched answers ({len(mismatched_answers)}):", mismatched_answers[:5])
         sys.exit(1)
     else:
-        print("\n🎉 恭喜！全库 27 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
+        print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
 
 if __name__ == '__main__':
     main()

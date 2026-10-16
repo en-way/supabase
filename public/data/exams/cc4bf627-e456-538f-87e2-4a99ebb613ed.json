@@ -1350,12 +1350,12 @@
       "options": [
         {
           "key": "A",
-          "text": "It is common among students・",
+          "text": "It is common among students.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "It is a behavior easy to measure・",
+          "text": "It is a behavior easy to measure.",
           "value": "B"
         },
         {
@@ -1365,7 +1365,7 @@
         },
         {
           "key": "D",
-          "text": "It is a hot topic in ethics classes・",
+          "text": "It is a hot topic in ethics classes.",
           "value": "D"
         }
       ],
