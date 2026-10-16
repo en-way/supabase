@@ -74,6 +74,7 @@ def main():
         "38. 全库 0 处占位符选项，2002/2003/2006/2008/2010/2012/2017/2018/2020/2021/2022 核心题项 100% 黄金校准": True,
         "39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准": True,
         "40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏": True,
+        "41. 全库 243 篇篇章末尾 0 处字数泄露、0 处跨篇截断与倒灌，2019/2021/2022/2014/2008/2010 篇章 100% 黄金校准": True,
     }
 
     total_passages = 0
@@ -114,6 +115,7 @@ def main():
     round16_anomalies = []
     round17_anomalies = []
     round18_anomalies = []
+    round19_anomalies = []
 
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
@@ -529,6 +531,30 @@ def main():
                 if so == 5 and ('Richard Hofstadter' not in c or 'Ralph Waldo Emerson' not in c):
                     round14_2004_reading_anomalies.append(('2004_p5', 'missing_hofstadter'))
 
+            # Check Round 19: Passage integrity
+            if yr == 2014 and cat == 'ky1' and so == 4:
+                if '[432 words]' in c or not c.endswith('with gratitude and grace.'):
+                    round19_anomalies.append(('2014_ky1_text3_end', c[-40:]))
+            if yr == 2021 and cat == 'ky2' and so == 1:
+                if not c.endswith('better [20] the objective.'):
+                    round19_anomalies.append(('2021_ky2_cloze_end', c[-40:]))
+            if yr == 2019 and cat == 'ky1':
+                if so == 2 and ('Grade inflation' in c or not c.endswith('for the long term.')):
+                    round19_anomalies.append(('2019_ky1_text1_end', c[-40:]))
+                if so == 3 and not c.startswith('Grade inflation—the gradual increase in average GPAs'):
+                    round19_anomalies.append(('2019_ky1_text2_start', c[:50]))
+                if so == 5 and ('f,' in c or 'complying with various state sales tax laws' not in c):
+                    round19_anomalies.append(('2019_ky1_text4_end', c[-50:]))
+            if yr == 2022 and cat == 'ky2' and so == 4:
+                if 'According to the last paragraph' in c or not c.endswith('best practices and standards.'):
+                    round19_anomalies.append(('2022_ky2_text3_end', c[-50:]))
+            if yr == 2008 and cat == 'ky1' and so == 4:
+                if 'ba 1;ketball' in c or ' [,' in c or not c.endswith('feel fairly confident."'):
+                    round19_anomalies.append(('2008_ky1_text3_end', c[-50:]))
+            if yr == 2010 and cat == 'ky2' and so == 6:
+                if ',"’' in c:
+                    round19_anomalies.append(('2010_ky2_partb_quote', 'contains stray quote'))
+
             if 'shop249445206' in c or 'taobao.com' in c or '新一文化' in c:
                 watermark_hits.append((title, pt, 'watermark_in_passage'))
             if re.search(r'\b(?:[2-4]\d|Q[2-4]\d)\s*[\.・\、\:]\s*[A-Z]', c[-150:]):
@@ -566,6 +592,7 @@ def main():
     results["38. 全库 0 处占位符选项，2002/2003/2006/2008/2010/2012/2017/2018/2020/2021/2022 核心题项 100% 黄金校准"] = (len(round16_anomalies) == 0)
     results["39. 2005 完型 20 题官方黄金还原、4 处截断题干与残损选项 100% 官方黄金校准"] = (len(round17_anomalies) == 0)
     results["40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏"] = (len(round18_anomalies) == 0)
+    results["41. 全库 243 篇篇章末尾 0 处字数泄露、0 处跨篇截断与倒灌，2019/2021/2022/2014/2008/2010 篇章 100% 黄金校准"] = (len(round19_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -613,6 +640,8 @@ def main():
             print(f"Round 17 anomalies ({len(round17_anomalies)}):", round17_anomalies)
         if round18_anomalies:
             print(f"Round 18 anomalies ({len(round18_anomalies)}):", round18_anomalies)
+        if round19_anomalies:
+            print(f"Round 19 anomalies ({len(round19_anomalies)}):", round19_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
