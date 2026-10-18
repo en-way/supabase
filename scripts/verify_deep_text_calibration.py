@@ -118,7 +118,7 @@ def main():
     round18_anomalies = []
     round19_anomalies = []
     round20_anomalies = []
-
+    round21_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -594,6 +594,40 @@ def main():
                 if so == 39 and opt_map.get('C') != 'is at odds with its earlier rulings':
                     round20_anomalies.append(('2021_q39_opt_C', opt_map.get('C')))
 
+            # Check Round 21: Official Answer Rectification & Bleeding Cut
+            if yr == 2001 and cat == 'ky1' and so == 7:
+                if ans != 'D':
+                    round21_anomalies.append(('2001_ky1_q7_ans', ans))
+            if yr == 2003 and cat == 'ky1':
+                if so == 24:
+                    if opt_map.get('B') != 'Straitford guarantees the truthfulness of its information' or opt_map.get('C') != "Straitford's business is characterized by unpredictability":
+                        round21_anomalies.append(('2003_ky1_q24_opts', opt_map))
+                if so == 25:
+                    if expl.startswith('25.') or 'nonconformist image' not in expl or '【命题解七' in expl:
+                        round21_anomalies.append(('2003_ky1_q25_expl', expl[:50]))
+            if yr == 2015 and cat == 'ky1':
+                if so == 28 and ('entering his or her home' not in expl or len(expl) < 300):
+                    round21_anomalies.append(('2015_ky1_q28_expl', len(expl)))
+                if so == 34 and ('has room for further improvement' not in expl or len(expl) < 300):
+                    round21_anomalies.append(('2015_ky1_q34_expl', len(expl)))
+                if so == 36:
+                    if ans != 'A' or 'Others await trial' in expl or len(expl) > 2500:
+                        round21_anomalies.append(('2015_ky1_q36', ans, len(expl)))
+                if so == 37 and ('Rebekah Brooks' in expl or len(expl) > 2500):
+                    round21_anomalies.append(('2015_ky1_q37', len(expl)))
+                if so == 38 and ('astonishing' not in expl or len(expl) < 300):
+                    round21_anomalies.append(('2015_ky1_q38_expl', len(expl)))
+            if yr == 2018 and cat == 'ky1':
+                if so == 31:
+                    if opt_map.get('B') != "It failed to pay due attention to patients' rights." or '【C】正确' in expl:
+                        round21_anomalies.append(('2018_ky1_q31', opt_map.get('B'), 'bleeding' in expl))
+                if so == 32 and 'Q33' in expl:
+                    round21_anomalies.append(('2018_ky1_q32_expl', expl[:50]))
+                if so == 35 and (expl.startswith('done.❻') or '谨慎' not in expl):
+                    round21_anomalies.append(('2018_ky1_q35_expl', expl[:50]))
+                if so in [36, 37, 38] and len(expl) > 2500:
+                    round21_anomalies.append((f'2018_ky1_q{so}_len', len(expl)))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -674,6 +708,7 @@ def main():
     results["40. 2011/2014/2001 年阅读理解 13 道被篡改试题官方真实选项、答案与题解 100% 黄金纠偏"] = (len(round18_anomalies) == 0)
     results["41. 全库 243 篇篇章末尾 0 处字数泄露、0 处跨篇截断与倒灌，2019/2021/2022/2014/2008/2010 篇章 100% 黄金校准"] = (len(round19_anomalies) == 0)
     results["42. 2006/2007/2008/2009/2014/2021 年完型与阅读 61 道题选项截断、碎词与题干 100% 官方黄金校准"] = (len(round20_anomalies) == 0)
+    results["43. 2001 Q7 / 2015 Q36 官方答案与 2015/2018 跨题解析倒灌 100% 官方黄金纠偏"] = (len(round21_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -725,6 +760,8 @@ def main():
             print(f"Round 19 anomalies ({len(round19_anomalies)}):", round19_anomalies)
         if round20_anomalies:
             print(f"Round 20 anomalies ({len(round20_anomalies)}):", round20_anomalies)
+        if round21_anomalies:
+            print(f"Round 21 anomalies ({len(round21_anomalies)}):", round21_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
