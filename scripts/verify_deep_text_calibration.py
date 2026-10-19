@@ -128,6 +128,7 @@ def main():
     round28_anomalies = []
     round29_anomalies = []
     round30_anomalies = []
+    round31_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1028,6 +1029,35 @@ def main():
                 if len(expl) > 600 or not expl.endswith('这些措施并未涉及“谈论未来”，故排除。') or 'Canadian Constitution' in expl or '形式主语' in expl:
                     round30_anomalies.append(('2007_ky1_q41', len(expl), expl[-30:]))
 
+            # Check Round 31: 2021 ky2 Cloze Q14, 2007 ky1 Cloze Q15, 2004 ky1 Reading Q25,30, 2022 ky1 Reading Q27,32,37,38, 2022 ky2 Reading Q27
+            if yr == 2021 and cat == 'ky2' and so == 14:
+                if len(expl) > 600 or not expl.endswith('与is meant to take（时间段）无法搭配。') or '语篇分析' in expl or 'The moral of the story' in expl:
+                    round31_anomalies.append(('2021_ky2_q14', len(expl), expl[-30:]))
+
+            if yr == 2007 and cat == 'ky1' and so == 15:
+                if len(expl) > 800 or not expl.endswith('但wish同样不能由rallying修饰。') or '语篇分析' in expl or 'egalitarian' in expl:
+                    round31_anomalies.append(('2007_ky1_q15', len(expl), expl[-30:]))
+
+            if yr == 2004 and cat == 'ky1':
+                if so == 25 and (len(expl) > 600 or not expl.endswith('maintains his agent（保留搜索代理）。') or '参考答案at1hCMt2hBMt3hDMt4hA' in expl):
+                    round31_anomalies.append(('2004_ky1_q25', len(expl), expl[-30:]))
+                elif so == 30 and (len(expl) > 700 or not expl.endswith('而没有提及该现象的消除。') or '【参考答案】t1hBMt2hCMt3hC' in expl):
+                    round31_anomalies.append(('2004_ky1_q30', len(expl), expl[-30:]))
+
+            if yr == 2022 and cat == 'ky1':
+                if so == 27 and (stem != 'The percentage of UK graduates in non-graduate roles reflects ________.' or len(expl) > 1400 or not expl.endswith('故A、C、D三项皆可排除。') or '从教室到讲堂的转换不是必然之路' in expl):
+                    round31_anomalies.append(('2022_ky1_q27', stem, len(expl), expl[-30:]))
+                elif so == 32 and (stem != 'The reworked version of The Four Seasons is mentioned to show that ________.' or len(expl) > 900 or not expl.endswith('对此应保持警惕。') or '语篇分析' in expl):
+                    round31_anomalies.append(('2022_ky1_q32', stem, len(expl), expl[-30:]))
+                elif so == 37 and (stem != 'It can be learned from Paragraph 3 that the provisions may ________.' or len(expl) > 1500 or not expl.endswith('D项窜改第三个因果关系。') or not any(opt.get('key') == 'B' and opt.get('text') == "undermine managers' authority" for opt in opts)):
+                    round31_anomalies.append(('2022_ky1_q37', stem, len(expl), expl[-30:]))
+                elif so == 38 and (stem != 'Which of the following measures would the Productivity Commission support?' or len(expl) > 1400 or not expl.endswith('故锁定为正确项。') or '语篇分析' in expl):
+                    round31_anomalies.append(('2022_ky1_q38', stem, len(expl), expl[-30:]))
+
+            if yr == 2022 and cat == 'ky2' and so == 27:
+                if stem != 'It can be inferred from Paragraph 3 that Americans tend to think that ________.' or len(expl) > 800 or not expl.endswith('故正确。') or '语篇分析' in expl or 'United Income' in expl:
+                    round31_anomalies.append(('2022_ky2_q27', stem, len(expl), expl[-30:]))
+
 
 
 
@@ -1121,6 +1151,7 @@ def main():
     results["50. 2016 Cloze Q20 / 2017 Text 4 Q36-40 / 2011 Q20 / 2013 Q20 / 2015 Q31 跨篇倒灌彻底切除与精准精解还原 100% 官方黄金校准"] = (len(round28_anomalies) == 0)
     results["51. 2004 完型 Q5,8,12 语篇倒灌 / 2005 Q35 / 2009 Q35 / 2008 Q42 / 2006 Q45 跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round29_anomalies) == 0)
     results["52. 2021 ky2 完型 Q2,11 与 T4 Q36 / 2022 ky1 T4 Q36,39 / 2003 ky1 T2 Q30 / 2007 ky1 Part B Q41 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round30_anomalies) == 0)
+    results["53. 2021 ky2 完型 Q14 / 2007 ky1 完型 Q15 / 2004 ky1 阅读 Q25,30 / 2022 ky1 阅读 Q27,32,37,38 / 2022 ky2 阅读 Q27 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round31_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1192,6 +1223,8 @@ def main():
             print(f"Round 29 anomalies ({len(round29_anomalies)}):", round29_anomalies)
         if round30_anomalies:
             print(f"Round 30 anomalies ({len(round30_anomalies)}):", round30_anomalies)
+        if round31_anomalies:
+            print(f"Round 31 anomalies ({len(round31_anomalies)}):", round31_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
