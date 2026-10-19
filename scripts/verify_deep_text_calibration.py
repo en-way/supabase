@@ -135,6 +135,7 @@ def main():
     round35_anomalies = []
     round36_anomalies = []
     round37_anomalies = []
+    round38_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1258,6 +1259,25 @@ def main():
                 elif so == 25 and (stem != 'Which of the following proverbs is closest to the message the text tries to convey?' or not expl.startswith('［精准定位］文章开篇由“优秀球员生日现象”引入') or '25.' in expl[:50] or not expl.endswith('抓住文章脉络进行解答。')):
                     round37_anomalies.append(('2007_ky1_t1_q25', stem, expl[:40], expl[-40:]))
 
+            # Check Round 38: 2011 ky1 Reading Comprehension (Q21-Q40)
+            if yr == 2011 and cat == 'ky1' and 21 <= so <= 40:
+                if not expl.startswith('［精准定位］') or '[A]' in expl[:80] or '21.' in expl[:50] or '28.' in expl[:50] or '31.' in expl[:50]:
+                    round38_anomalies.append((f'2011_ky1_q{so}_head_stacked', expl[:60]))
+                if so == 24 and stem != 'According to the text, which of the following is true of recordings?':
+                    round38_anomalies.append(('2011_ky1_q24_stem', stem))
+                elif so == 27 and (opt_map.get('D') != 'their pursuit of new career goals' or opt_map.get('C') != 'their strained relations with the boards'):
+                    round38_anomalies.append(('2011_ky1_q27_opts', opt_map))
+                elif so == 28 and (stem != 'The word "poached" (Line 3, Paragraph 4) most probably means ________.' or opt_map.get('C') != 'hunted for'):
+                    round38_anomalies.append(('2011_ky1_q28', stem, opt_map))
+                elif so == 31 and stem != 'Consumers may create "earned" media when they are ________.':
+                    round38_anomalies.append(('2011_ky1_q31_stem', stem))
+                elif so == 34 and ('Motor9' in stem or 'Toyota Motor9' in expl):
+                    round38_anomalies.append(('2011_ky1_q34_motor9', stem, expl[:60]))
+                elif so == 36 and stem != 'Jennifer Senior suggests in her article that raising a child can bring ________.':
+                    round38_anomalies.append(('2011_ky1_q36_stem', stem))
+                elif so == 38 and not expl.startswith('［精准定位］第三段②③句指出：不快乐的无子女者不断被外界信息所烦扰'):
+                    round38_anomalies.append(('2011_ky1_q38_expl', expl[:60]))
+
 
 
 
@@ -1361,6 +1381,7 @@ def main():
     results["57. 2004 ky1 T3 模拟题乱码切除与参考答案清零 / 2021 ky2 T1 双语堆叠与倒灌切除 / 9处正文段落残片彻底提纯 100% 官方黄金校准"] = (len(round35_anomalies) == 0)
     results["58. 完型填空6题段落正文及句式倒灌彻底切除 / 2021 ky2 T2 Q26-30 题干下划线补全、双语堆叠切除与技巧总结补齐 100% 官方黄金校准"] = (len(round36_anomalies) == 0)
     results["59. 2013 ky1 T1 严重乱码重构与双语堆叠切除 / 2007 ky1 T1 官方原卷题干选项校准与正文倒灌切除 100% 官方黄金校准"] = (len(round37_anomalies) == 0)
+    results["60. 2011 ky1 阅读全篇20题(Q21-40)题干汉译吞噬与恶性OCR修复、双语堆叠切除与精解完整重构 100% 官方黄金校准"] = (len(round38_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1446,6 +1467,8 @@ def main():
             print(f"Round 36 anomalies ({len(round36_anomalies)}):", round36_anomalies)
         if round37_anomalies:
             print(f"Round 37 anomalies ({len(round37_anomalies)}):", round37_anomalies)
+        if round38_anomalies:
+            print(f"Round 38 anomalies ({len(round38_anomalies)}):", round38_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
