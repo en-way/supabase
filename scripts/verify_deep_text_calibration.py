@@ -125,6 +125,7 @@ def main():
     round25_anomalies = []
     round26_anomalies = []
     round27_anomalies = []
+    round28_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -946,6 +947,38 @@ def main():
                 if stem != 'The French Senate has passed a bill to ________.' or len(expl) > 1200 or not expl.endswith('粗犷型学习者甚至只借助“tax一词与［C］中levy一词同义”即可做出选择）。'):
                     round27_anomalies.append(('2020_ky1_q36', stem, len(expl), expl[-30:]))
 
+            # Check Round 28: 2016 Cloze Q20, 2017 Text 4 (Q36-Q40), 2011 Cloze Q20, 2013 Cloze Q20, 2015 Text 3 Q31
+            if yr == 2016 and cat == 'ky1' and so == 20:
+                if len(expl) > 500 or not expl.endswith('故排除此三项。') or 'Section' in expl or '时尚业' in expl:
+                    round28_anomalies.append(('2016_ky1_q20', len(expl), expl[-30:]))
+
+            if yr == 2017 and cat == 'ky1' and so in range(36, 41):
+                if not expl.startswith('［精准定位］'):
+                    round28_anomalies.append(('2017_ky1_q' + str(so) + '_echo', expl[:40]))
+                if so == 36 and (stem != 'The underlined sentence (Para. 1) most probably shows that the court ________.' or len(expl) > 1200 or not expl.endswith('从而确定［C］为正确项。')):
+                    round28_anomalies.append(('2017_ky1_q36', stem, len(expl), expl[-30:]))
+                elif so == 37 and (stem != 'According to Paragraph 4, an official act is deemed corruptive only if it involves ________.' or len(expl) > 800 or not expl.endswith('由此锁定②句（must为必要条件表达词）并根据该句句意敲定［C］正确。')):
+                    round28_anomalies.append(('2017_ky1_q37', stem, len(expl), expl[-30:]))
+                elif so == 38 and (stem != 'The court\'s ruling is based on the assumption that public officials are ________.' or len(expl) > 1000 or not expl.endswith('最后不难推断③句所述假设即为①句法院裁决的法律依据，最终得出正确项是［A］。')):
+                    round28_anomalies.append(('2017_ky1_q38', stem, len(expl), expl[-30:]))
+                elif so == 39 and (stem != 'Well-enforced laws in government transparency are needed to ________.' or len(expl) > 1000 or not expl.endswith('④干扰项最常见的设置方式是偷换对象、反向干扰、改变因果、偷换时态，曲解文意等。')):
+                    round28_anomalies.append(('2017_ky1_q39', stem, len(expl), expl[-30:]))
+                elif so == 40 and (stem != 'The author\'s attitude toward the court\'s ruling is ________.' or len(expl) > 1200 or not expl.endswith('如本题，作者对裁决的态度透过其所使用的饱含正面色彩的词汇legally sound、reinforces、a step forward可窥一斑。')):
+                    round28_anomalies.append(('2017_ky1_q40', stem, len(expl), expl[-30:]))
+
+            if yr == 2011 and cat == 'ky1' and so == 20:
+                if len(expl) > 500 or not expl.endswith('用于引出“和之前情况相反的内容”，而文中上下文内容是契合的。') or 'Tommasini' in expl or '古典音乐' in expl:
+                    round28_anomalies.append(('2011_ky1_q20', len(expl), expl[-30:]))
+
+            if yr == 2013 and cat == 'ky1' and so == 20:
+                if len(expl) > 600 or not expl.endswith('“比正常情况下有用的分数”不合文意。') or '[292 words]' in expl or 'Section' in expl:
+                    round28_anomalies.append(('2013_ky1_q20', len(expl), expl[-30:]))
+
+            if yr == 2015 and cat == 'ky1' and so == 31:
+                if stem != 'It can be learned from Paragraph 1 that ________.' or len(expl) > 1000 or not expl.startswith('［精准定位］') or not expl.endswith('simplify与“开篇呈现问题”的总基调相反，故为干扰项。'):
+                    round28_anomalies.append(('2015_ky1_q31', stem, len(expl), expl[-30:]))
+
+
 
         # Passage boundary check
         for p in passages:
@@ -1034,6 +1067,7 @@ def main():
     results["47. 2016 Q35 / 2017 Text 2 / 2019 Text 4 / 2001 Q22 / 2002 Q34 / 2010 Q24 Q31 / 2009 Q38 / 2012 Q22 Q39 等 25 题官方黄金校准"] = (len(round25_anomalies) == 0)
     results["48. 2019 Q34 真实题干选项答案、2019 Q35、2016 Text 2 题干与精解纠偏、2018 Q33 选项与 2018/2020 开头回声 100% 官方黄金校准"] = (len(round26_anomalies) == 0)
     results["49. 2019 T2 / 2016 T3 / 2013 T2-T3 / 2020 T4 题干截断补全与超长篇章/跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round27_anomalies) == 0)
+    results["50. 2016 Cloze Q20 / 2017 Text 4 Q36-40 / 2011 Q20 / 2013 Q20 / 2015 Q31 跨篇倒灌彻底切除与精准精解还原 100% 官方黄金校准"] = (len(round28_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1099,6 +1133,8 @@ def main():
             print(f"Round 26 anomalies ({len(round26_anomalies)}):", round26_anomalies)
         if round27_anomalies:
             print(f"Round 27 anomalies ({len(round27_anomalies)}):", round27_anomalies)
+        if round28_anomalies:
+            print(f"Round 28 anomalies ({len(round28_anomalies)}):", round28_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
