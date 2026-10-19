@@ -138,6 +138,7 @@ def main():
     round38_anomalies = []
     round39_anomalies = []
     round40_anomalies = []
+    round41_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1344,6 +1345,26 @@ def main():
                     if ans != 'B' or stem != "What can we learn from the last paragraph?" or opt_map.get('B') != 'Intuition may affect reflective tasks.' or not expl.rstrip().endswith('［B］选项符合这一逻辑推理。'):
                         round40_anomalies.append(('2021_ky2_q40', stem, ans, opt_map, expl[-60:]))
 
+            # Check Round 41: 2017 ky1 Reading Comprehension Text 1 (Q21-Q25)
+            if yr == 2017 and cat == 'ky1' and 21 <= so <= 25:
+                if not expl.startswith('［精准定位］') or '21.' in expl[:50] or '22.' in expl[:50] or '23.' in expl[:50] or '24.' in expl[:50] or '25.' in expl[:50]:
+                    round41_anomalies.append((f'2017_ky1_q{so}_head_stacked', expl[:60]))
+                if so == 21:
+                    if ans != 'A' or stem != "The crash of EgyptAir Flight 804 is mentioned to ________." or opt_map.get('A') != "explain Americans' tolerance of current security checks" or not expl.rstrip().endswith('其余项均脱离该内容。'):
+                        round41_anomalies.append(('2017_ky1_q21', stem, ans, opt_map, expl[-60:]))
+                elif so == 22:
+                    if ans != 'C' or stem != "Which of the following contributes to long waits at major airports?" or opt_map.get('A') != 'New restrictions on carry-on bags.' or opt_map.get('C') != 'An increase in the number of travelers.' or not expl.rstrip().endswith('不难确定正确项。'):
+                        round41_anomalies.append(('2017_ky1_q22', stem, ans, opt_map, expl[-60:]))
+                elif so == 23:
+                    if ans != 'D' or stem != 'The word "expedited" (Line 4, Para. 5) is closest in meaning to ________.' or opt_map.get('D') != 'faster' or not expl.rstrip().endswith('故faster最接近expedited词义。'):
+                        round41_anomalies.append(('2017_ky1_q23', stem, ans, opt_map, expl[-60:]))
+                elif so == 24:
+                    if ans != 'D' or stem != "One problem with the PreCheck program is ________." or opt_map.get('A') != 'a dramatic reduction of its scale' or opt_map.get('D') != 'an unreasonable price for enrollment' or not expl.rstrip().endswith('过度引申出“国会不愿支持预检计划”。'):
+                        round41_anomalies.append(('2017_ky1_q24', stem, ans, opt_map, expl[-60:]))
+                elif so == 25:
+                    if ans != 'C' or stem != "Which of the following would be the best title for the text?" or opt_map.get('B') != 'PreCheck — a Belated Solution' or opt_map.get('C') != 'Getting Stuck in Security Lines' or not expl.rstrip().endswith('以偏概全。'):
+                        round41_anomalies.append(('2017_ky1_q25', stem, ans, opt_map, expl[-60:]))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -1358,6 +1379,11 @@ def main():
                 elif p.get('id') == 'c45660d2-1cee-5a4f-8852-8203bf51b493':
                     if not c.startswith("We're fairly good at judging") or 'strawberry jams' not in c or 'Thinking too much can also harm our ability to form preferences.' not in c:
                         round40_anomalies.append(('2021_ky2_passage_text4_content', c[:100]))
+
+            # Check Round 41: 2017 ky1 Passage 2 (Text 1)
+            if yr == 2017 and cat == 'ky1' and p.get('id') == 'ec90837a-70ab-52e5-8b01-92083581086b':
+                if not c.startswith('First two hours, now three hours') or 'EgyptAir Flight 804' not in c or 'Enroll more people in the PreCheck program' not in c or 'underused PreCheck lanes' not in c:
+                    round41_anomalies.append(('2017_ky1_passage_text1_content', c[:100]))
 
             # Check Round 14: 2004 Reading Passages 2-5
             if yr == 2004 and cat == 'ky1':
@@ -1453,6 +1479,7 @@ def main():
     results["60. 2011 ky1 阅读全篇20题(Q21-40)题干汉译吞噬与恶性OCR修复、双语堆叠切除与精解完整重构 100% 官方黄金校准"] = (len(round38_anomalies) == 0)
     results["61. 2014 ky1 阅读全篇20题(Q21-40)官方答案纠偏(Q30选B/Q35选D)、题干下划线补全、占位符选项彻底填充与双语堆叠倒灌提纯 100% 官方黄金校准"] = (len(round39_anomalies) == 0)
     results["62. 2021 ky2 Text 3-4(Q31-40)官方答案纠偏(Q32选B)、跨篇污染选项修复(Q33)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round40_anomalies) == 0)
+    results["63. 2017 ky1 Text 1(Q21-25)跨篇污染选项修复(Q22/24)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round41_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1544,6 +1571,8 @@ def main():
             print(f"Round 39 anomalies ({len(round39_anomalies)}):", round39_anomalies)
         if round40_anomalies:
             print(f"Round 40 anomalies ({len(round40_anomalies)}):", round40_anomalies)
+        if round41_anomalies:
+            print(f"Round 41 anomalies ({len(round41_anomalies)}):", round41_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
