@@ -119,6 +119,7 @@ def main():
     round19_anomalies = []
     round20_anomalies = []
     round21_anomalies = []
+    round22_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -628,6 +629,34 @@ def main():
                 if so in [36, 37, 38] and len(expl) > 2500:
                     round21_anomalies.append((f'2018_ky1_q{so}_len', len(expl)))
 
+            # Check Round 22: 2008 Text 4 (Q36-40), 2009 Text 2 (Q29-30), 2010 Q45
+            if yr == 2008 and cat == 'ky1':
+                if so == 36:
+                    if not stem.endswith('to') or ans != 'D' or opt_map.get('C') != 'stress the role of slaves in the U.S. history' or '乔治”大为不同' in expl or len(expl) < 400:
+                        round22_anomalies.append(('2008_ky1_q36', stem, ans, opt_map.get('C'), len(expl)))
+                elif so == 37:
+                    if ans != 'B' or opt_map.get('B') != 'in its early days the U.S. was confronted with delicate situations' or '大众生活中存在的记忆资料' in expl:
+                        round22_anomalies.append(('2008_ky1_q37', ans, opt_map.get('B')))
+                elif so == 38:
+                    if stem != 'What do we learn about Thomas Jefferson?' or ans != 'C' or opt_map.get('C') != 'His attitude towards slavery was complex.' or '实施细节' in expl or len(expl) < 400:
+                        round22_anomalies.append(('2008_ky1_q38', stem, ans, opt_map.get('C'), len(expl)))
+                elif so == 39:
+                    if ans != 'A' or expl.startswith('旺。Mo r e than anything') or '【深层解读】' in expl:
+                        round22_anomalies.append(('2008_ky1_q39', ans, expl[:40]))
+                elif so == 40:
+                    if ans != 'B' or expl.startswith('矛盾态度') or '【深层解读】' in expl:
+                        round22_anomalies.append(('2008_ky1_q40', ans, expl[:40]))
+            if yr == 2009 and cat == 'ky1':
+                if so == 29:
+                    if stem != 'In the last paragraph, a problem commercial genetic testing faces is' or ans != 'A' or expl.startswith('29.'):
+                        round22_anomalies.append(('2009_ky1_q29', stem, ans, expl[:30]))
+                elif so == 30:
+                    if stem != 'An appropriate title for the text is most likely to be' or ans != 'B' or expl.startswith('30 . . .'):
+                        round22_anomalies.append(('2009_ky1_q30', stem, ans, expl[:30]))
+            if yr == 2010 and cat == 'ky1' and so == 45:
+                if '42. 本题考核的知识点是' in expl:
+                    round22_anomalies.append(('2010_ky1_q45_bleeding', 'leaked Q42 in explanation'))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -709,6 +738,7 @@ def main():
     results["41. 全库 243 篇篇章末尾 0 处字数泄露、0 处跨篇截断与倒灌，2019/2021/2022/2014/2008/2010 篇章 100% 黄金校准"] = (len(round19_anomalies) == 0)
     results["42. 2006/2007/2008/2009/2014/2021 年完型与阅读 61 道题选项截断、碎词与题干 100% 官方黄金校准"] = (len(round20_anomalies) == 0)
     results["43. 2001 Q7 / 2015 Q36 官方答案与 2015/2018 跨题解析倒灌 100% 官方黄金纠偏"] = (len(round21_anomalies) == 0)
+    results["44. 2008 Text 4 错位错挂、2009 Q29 截断题干与 2010 Q45 倒灌 100% 官方黄金纠偏"] = (len(round22_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -762,6 +792,8 @@ def main():
             print(f"Round 20 anomalies ({len(round20_anomalies)}):", round20_anomalies)
         if round21_anomalies:
             print(f"Round 21 anomalies ({len(round21_anomalies)}):", round21_anomalies)
+        if round22_anomalies:
+            print(f"Round 22 anomalies ({len(round22_anomalies)}):", round22_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
