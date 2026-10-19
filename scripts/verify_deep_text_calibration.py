@@ -134,6 +134,7 @@ def main():
     round34_anomalies = []
     round35_anomalies = []
     round36_anomalies = []
+    round37_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1230,6 +1231,33 @@ def main():
                 elif so == 30 and (stem != "The author's attitude to food self-sufficiency in the UK is ________." or not expl.startswith('［精准定位］本文整体脉络为：引出话题“英国粮食自给自足是否可行”') or '30•作者对英国粮食自给自足的态度' in expl or 'Text 3' in expl or not expl.endswith('更何况这本身实行起来会造成巨大代价”。')):
                     round36_anomalies.append(('2021_ky2_t2_q30', stem, expl[:40], expl[-40:]))
 
+            # Check Round 37:
+            # 1. 2013 ky1 Text 1 (Q21-Q25) full golden calibration
+            # 2. 2007 ky1 Text 1 (Q21-Q25) full golden calibration
+            if yr == 2013 and cat == 'ky1':
+                if so == 21 and (stem != 'Priestly criticizes her assistant for her ________.' or not expl.startswith('［精准定位］第一段①句指出Priestly在斥责助手') or not expl.endswith('根据②句解释可知偏离文意。')):
+                    round37_anomalies.append(('2013_ky1_t1_q21', stem, expl[:40], expl[-40:]))
+                elif so == 22 and (stem != 'According to Cline, mass-market labels urge consumers to ________.' or not expl.startswith('［精准定位］第二段④句指出，大众品牌鼓励消费者') or '22.' in expl[:50] or not expl.endswith('同时排除与之矛盾的［A］、［C］、［D］。')):
+                    round37_anomalies.append(('2013_ky1_t1_q22', stem, expl[:40], expl[-40:]))
+                elif so == 23 and (stem != 'The word "indictment" (Line 3, Para. 2) is closest in meaning to ________.' or not expl.startswith('［精准定位］由考查词所在句（第二段①句）可知') or '23.' in expl[:50] or not expl.endswith('均体现Cline对快时尚的态度）。')):
+                    round37_anomalies.append(('2013_ky1_t1_q23', stem, expl[:40], expl[-40:]))
+                elif so == 24 and (stem != 'Which of the following can be inferred from the last paragraph?' or not expl.startswith('［精准定位］末段③句指出，虚荣深植人心') or '24.' in expl[:50] or not expl.endswith('故舍［D］选［C］。')):
+                    round37_anomalies.append(('2013_ky1_t1_q24', stem, expl[:40], expl[-40:]))
+                elif so == 25 and (stem != 'What is the subject of the text?' or not expl.startswith('［精准定位］文章第一至三段引出并介绍克莱恩该书作对大众品牌驱动快时尚的强烈批判。') or '25.' in expl[:50] or len(expl) < 500 or not expl.endswith('均非全文关注对象。')):
+                    round37_anomalies.append(('2013_ky1_t1_q25', stem, expl[:40], expl[-40:]))
+
+            if yr == 2007 and cat == 'ky1':
+                if so == 21 and (stem != 'The birthday phenomenon found among soccer players is mentioned to ________.' or opt_map.get('C') != 'introduce the topic of what makes expert performance' or not expl.startswith('［精准定位］文章前两段言及足球运动员生日现象') or '21.' in expl[:50] or not expl.endswith('文首现象仅为引出这一话题服务，敲定［C］正确。')):
+                    round37_anomalies.append(('2007_ky1_t1_q21', stem, opt_map.get('C'), expl[:40], expl[-40:]))
+                elif so == 22 and (stem != 'The word “mania” (Line 4, Paragraph 2) most probably means ________.' or opt_map.get('D') != 'excitement' or not expl.startswith('［精准定位］被考查词上文指出') or 'Anders Ericsson' in expl or not expl.endswith('最终锁定答案为［B］。')):
+                    round37_anomalies.append(('2007_ky1_t1_q22', stem, opt_map.get('D'), expl[:40], expl[-40:]))
+                elif so == 23 and (stem != 'According to Ericsson, good memory ________.' or not expl.startswith('［精准定位］第四段②③句明确指出') or '【选项释义与词汇辨析】' in expl or not expl.endswith('相比之下，正确项则通常具有归纳概括性。')):
+                    round37_anomalies.append(('2007_ky1_t1_q23', stem, expl[:40], expl[-40:]))
+                elif so == 24 and (stem != 'Ericsson and his colleagues believe that ________.' or opt_map.get('A') != 'talent is a dominating factor for professional success' or opt_map.get('D') != 'high achievers owe their success mostly to nurture' or not expl.startswith('［精准定位］第五段④句以另一种方式重述了') or '24.' in expl[:50] or not expl.endswith('由此最终敲定［D］正确。')):
+                    round37_anomalies.append(('2007_ky1_t1_q24', stem, opt_map, expl[:40], expl[-40:]))
+                elif so == 25 and (stem != 'Which of the following proverbs is closest to the message the text tries to convey?' or not expl.startswith('［精准定位］文章开篇由“优秀球员生日现象”引入') or '25.' in expl[:50] or not expl.endswith('抓住文章脉络进行解答。')):
+                    round37_anomalies.append(('2007_ky1_t1_q25', stem, expl[:40], expl[-40:]))
+
 
 
 
@@ -1332,6 +1360,7 @@ def main():
     results["56. 2021 ky1 T3 Q33,35 / 2022 ky2 T1 Q21-23,25 / 2022 ky2 T2 Q26,28-30 / 2006 ky1 T2 Q21,23-25 题干截断补全与双语重复/概览错挂切除 100% 官方黄金校准"] = (len(round34_anomalies) == 0)
     results["57. 2004 ky1 T3 模拟题乱码切除与参考答案清零 / 2021 ky2 T1 双语堆叠与倒灌切除 / 9处正文段落残片彻底提纯 100% 官方黄金校准"] = (len(round35_anomalies) == 0)
     results["58. 完型填空6题段落正文及句式倒灌彻底切除 / 2021 ky2 T2 Q26-30 题干下划线补全、双语堆叠切除与技巧总结补齐 100% 官方黄金校准"] = (len(round36_anomalies) == 0)
+    results["59. 2013 ky1 T1 严重乱码重构与双语堆叠切除 / 2007 ky1 T1 官方原卷题干选项校准与正文倒灌切除 100% 官方黄金校准"] = (len(round37_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1415,6 +1444,8 @@ def main():
             print(f"Round 35 anomalies ({len(round35_anomalies)}):", round35_anomalies)
         if round36_anomalies:
             print(f"Round 36 anomalies ({len(round36_anomalies)}):", round36_anomalies)
+        if round37_anomalies:
+            print(f"Round 37 anomalies ({len(round37_anomalies)}):", round37_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
