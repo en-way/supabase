@@ -124,6 +124,7 @@ def main():
     round24_anomalies = []
     round25_anomalies = []
     round26_anomalies = []
+    round27_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -888,6 +889,64 @@ def main():
                 if so == 28 and ('2&' in expl or '2&' in stem or not expl.endswith('让权力重获平衡”相符。')):
                     round26_anomalies.append(('2020_ky1_q28_content', expl[:40], expl[-30:]))
 
+            # Check Round 27: 2019 ky1 Text 2 (Q26-Q30), 2016 ky1 Text 3 (Q31-Q35), 2013 ky1 Text 2-3 (Q26-Q35), 2020 ky1 Text 4 (Q36)
+            if yr == 2019 and cat == 'ky1' and so in range(26, 31):
+                if not expl.startswith('［精准定位］'):
+                    round27_anomalies.append(('2019_ky1_q' + str(so) + '_echo', expl[:40]))
+                if so == 26 and (len(expl) > 1200 or not expl.endswith('谨防利用②句逻辑或信息设置的干扰。')):
+                    round27_anomalies.append(('2019_ky1_q26', len(expl), expl[-30:]))
+                elif so == 27 and (len(expl) < 500 or not expl.endswith('（B、D背离初衷，C则扩大作用对象）干扰。')):
+                    round27_anomalies.append(('2019_ky1_q27', len(expl), expl[-30:]))
+                elif so == 28 and (stem != 'According to Paragraph 5, grade forgiveness enables colleges to ________.' or not expl.endswith('但比对后发现为过度引申。')):
+                    round27_anomalies.append(('2019_ky1_q28', stem, expl[-30:]))
+                elif so == 29 and (stem != 'What does the phrase "to be aligned" (Line 5, Para. 6) most probably mean?' or not expl.endswith('排除体现矛盾关系的以及互补关系的［B］。')):
+                    round27_anomalies.append(('2019_ky1_q29', stem, expl[-30:]))
+                elif so == 30 and (stem != 'The author examines the practice of grade forgiveness by ________.' or not expl.endswith('希望借此引发公众对高等教育“商品化”的反思，［B］正确。')):
+                    round27_anomalies.append(('2019_ky1_q30', stem, expl[-30:]))
+
+            if yr == 2016 and cat == 'ky1' and so in range(31, 36):
+                if not expl.startswith('［精准定位］'):
+                    round27_anomalies.append(('2016_ky1_q' + str(so) + '_echo', expl[:40]))
+                if so == 31 and (stem != "The author views Milton Friedman's statement about CSR with ________." or len(expl) > 1200 or not expl.endswith('让步假设、虚拟语气等的真实语义和表面含义通常相反。')):
+                    round27_anomalies.append(('2016_ky1_q31', stem, len(expl), expl[-30:]))
+                elif so == 32 and (stem != "According to Paragraph 2, CSR helps a company by ________." or not expl.endswith('可初步推知［C］正确；而［A］与［B］与该部分信息无直接关联，可排除。')):
+                    round27_anomalies.append(('2016_ky1_q32', stem, expl[-30:]))
+                elif so == 33 and (stem != 'The expression "more lenient" (Para. 4) is closest in meaning to ________.' or not expl.endswith('而其他三项则无法在其间建立顺滑的逻辑关系，故排除。')):
+                    round27_anomalies.append(('2016_ky1_q33', stem, expl[-30:]))
+                elif so == 34 and (stem != "When prosecutors evaluate a case, a company's CSR record ________." or not expl.endswith('企业CSR会在其被诉时创造货币价值。')):
+                    round27_anomalies.append(('2016_ky1_q34', stem, expl[-30:]))
+                elif so == 35 and not expl.endswith('只有［B］是对①句主要内容的同义表达。'):
+                    round27_anomalies.append(('2016_ky1_q35', expl[-30:]))
+
+            if yr == 2013 and cat == 'ky1' and so in range(26, 36):
+                if not expl.startswith('［精准定位］'):
+                    round27_anomalies.append(('2013_ky1_q' + str(so) + '_echo', expl[:40]))
+                if so == 26 and (stem != 'It is suggested in Paragraph 1 that "behavioural" ads help advertisers to ________.' or not expl.endswith('不难推断，行为广告能帮广告商省钱。')):
+                    round27_anomalies.append(('2013_ky1_q26', stem, expl[-30:]))
+                elif so == 27 and (stem != '"the industry" (Line 4, Para. 3) refers to ________.' or len(expl) > 1200 or not expl.endswith('4. 将找到的词、词组或句子与四个选项进行比较，找出最佳答案。')):
+                    round27_anomalies.append(('2013_ky1_q27', stem, len(expl), expl[-30:]))
+                elif so == 28 and (stem != 'Bob Liodice holds that setting DNT as a default ________.' or not expl.endswith('可锁定［C］。')):
+                    round27_anomalies.append(('2013_ky1_q28', stem, expl[-30:]))
+                elif so == 29 and not expl.endswith('最终将正确项落在［B］。'):
+                    round27_anomalies.append(('2013_ky1_q29', expl[-30:]))
+                elif so == 30 and (stem != "The author's attitude towards what Brendon Lynch said in his blog is one of ________." or not expl.endswith('故表否定之意。')):
+                    round27_anomalies.append(('2013_ky1_q30', stem, expl[-30:]))
+                elif so == 31 and (stem != 'Our vision of the future used to be inspired by ________.' or len(expl) > 1200 or not expl.endswith('故真正的源头在前，即全句主语：科学和技术。')):
+                    round27_anomalies.append(('2013_ky1_q31', stem, len(expl), expl[-30:]))
+                elif so == 32 and (stem != 'The IUCN\'s "Red List" suggests that human beings are ________.' or len(expl) > 1200 or not expl.endswith('而［B］夸大人在星球中的地位，与“《名录》本身立足于自然保护（the Conservation of Nature）”脱节。')):
+                    round27_anomalies.append(('2013_ky1_q32', stem, len(expl), expl[-30:]))
+                elif so == 33 and (len(expl) > 1200 or not expl.endswith('阐述性信息“日益流行”、“有助于未来学研究”和“解决了社会问题”均对文意做了扭曲。')):
+                    round27_anomalies.append(('2013_ky1_q33', len(expl), expl[-30:]))
+                elif so == 34 and (stem != 'To ensure the future of mankind, it is crucial to ________.' or not expl.endswith('干扰项均偏离第六、七段要义。')):
+                    round27_anomalies.append(('2013_ky1_q34', stem, expl[-30:]))
+                elif so == 35 and (len(expl) > 1200 or not expl.endswith('另外还可结合主题词（本文为“人类未来”）对选项进行过滤，可直接排除两项。')):
+                    round27_anomalies.append(('2013_ky1_q35', len(expl), expl[-30:]))
+
+            if yr == 2020 and cat == 'ky1' and so == 36:
+                if stem != 'The French Senate has passed a bill to ________.' or len(expl) > 1200 or not expl.endswith('粗犷型学习者甚至只借助“tax一词与［C］中levy一词同义”即可做出选择）。'):
+                    round27_anomalies.append(('2020_ky1_q36', stem, len(expl), expl[-30:]))
+
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -974,6 +1033,7 @@ def main():
     results["46. 2021 ky1/2020 ky1/2022 ky2 Text 4 题干选项截断与倒灌、2007 ky1 Q34-35 真实选项与精解 100% 官方黄金校准"] = (len(round24_anomalies) == 0)
     results["47. 2016 Q35 / 2017 Text 2 / 2019 Text 4 / 2001 Q22 / 2002 Q34 / 2010 Q24 Q31 / 2009 Q38 / 2012 Q22 Q39 等 25 题官方黄金校准"] = (len(round25_anomalies) == 0)
     results["48. 2019 Q34 真实题干选项答案、2019 Q35、2016 Text 2 题干与精解纠偏、2018 Q33 选项与 2018/2020 开头回声 100% 官方黄金校准"] = (len(round26_anomalies) == 0)
+    results["49. 2019 T2 / 2016 T3 / 2013 T2-T3 / 2020 T4 题干截断补全与超长篇章/跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round27_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1037,6 +1097,8 @@ def main():
             print(f"Round 25 anomalies ({len(round25_anomalies)}):", round25_anomalies)
         if round26_anomalies:
             print(f"Round 26 anomalies ({len(round26_anomalies)}):", round26_anomalies)
+        if round27_anomalies:
+            print(f"Round 27 anomalies ({len(round27_anomalies)}):", round27_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
