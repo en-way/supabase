@@ -126,6 +126,7 @@ def main():
     round26_anomalies = []
     round27_anomalies = []
     round28_anomalies = []
+    round29_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -978,6 +979,32 @@ def main():
                 if stem != 'It can be learned from Paragraph 1 that ________.' or len(expl) > 1000 or not expl.startswith('［精准定位］') or not expl.endswith('simplify与“开篇呈现问题”的总基调相反，故为干扰项。'):
                     round28_anomalies.append(('2015_ky1_q31', stem, len(expl), expl[-30:]))
 
+            # Check Round 29: 2004 Cloze (Q5, Q8, Q12), 2005 Text 3 Q35, 2009 Text 3 Q35, 2008 Part B Q42, 2006 Part B Q45
+            if yr == 2004 and cat == 'ky1':
+                if so == 5 and (len(expl) > 600 or not expl.endswith("例句：Run, or else you'll be late. 快跑，要不然你就会迟到了。") or '语篇分析' in expl):
+                    round29_anomalies.append(('2004_ky1_q5', len(expl), expl[-30:]))
+                elif so == 8 and (len(expl) > 600 or not expl.endswith("例句：I am sensitive to cold. 我怕冷。") or '语篇分析' in expl):
+                    round29_anomalies.append(('2004_ky1_q8', len(expl), expl[-30:]))
+                elif so == 12 and (len(expl) > 800 or not expl.endswith("He is in essence an honest person. 他本质上是个诚实的人。") or '语篇分析' in expl):
+                    round29_anomalies.append(('2004_ky1_q12', len(expl), expl[-30:]))
+
+            if yr == 2005 and cat == 'ky1' and so == 35:
+                if len(expl) > 1000 or not expl.endswith('最后，对号入座，敲定正确答案［A］。') or '越说越俗的英语' in expl:
+                    round29_anomalies.append(('2005_ky1_q35', len(expl), expl[-30:]))
+
+            if yr == 2009 and cat == 'ky1' and so == 35:
+                if stem != 'According to the last paragraph, development of education ________.' or len(expl) > 1000 or not expl.endswith('故可快速锁定选项［C］。') or '新英格兰的早期文化生活' in expl:
+                    round29_anomalies.append(('2009_ky1_q35', stem, len(expl), expl[-30:]))
+
+            if yr == 2008 and cat == 'ky1' and so == 42:
+                if len(expl) > 1000 or not expl.endswith('因此［G］能承上启下，敲定为答案。') or 'adds humbly' in expl:
+                    round29_anomalies.append(('2008_ky1_q42', len(expl), expl[-30:]))
+
+            if yr == 2006 and cat == 'ky1' and so == 45:
+                if len(expl) > 800 or not expl.endswith('故选项应出现在第十一段之后，而不是之前，故排除。') or '对“知识分子”的定义' in expl:
+                    round29_anomalies.append(('2006_ky1_q45', len(expl), expl[-30:]))
+
+
 
 
         # Passage boundary check
@@ -1068,6 +1095,7 @@ def main():
     results["48. 2019 Q34 真实题干选项答案、2019 Q35、2016 Text 2 题干与精解纠偏、2018 Q33 选项与 2018/2020 开头回声 100% 官方黄金校准"] = (len(round26_anomalies) == 0)
     results["49. 2019 T2 / 2016 T3 / 2013 T2-T3 / 2020 T4 题干截断补全与超长篇章/跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round27_anomalies) == 0)
     results["50. 2016 Cloze Q20 / 2017 Text 4 Q36-40 / 2011 Q20 / 2013 Q20 / 2015 Q31 跨篇倒灌彻底切除与精准精解还原 100% 官方黄金校准"] = (len(round28_anomalies) == 0)
+    results["51. 2004 完型 Q5,8,12 语篇倒灌 / 2005 Q35 / 2009 Q35 / 2008 Q42 / 2006 Q45 跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round29_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1135,6 +1163,8 @@ def main():
             print(f"Round 27 anomalies ({len(round27_anomalies)}):", round27_anomalies)
         if round28_anomalies:
             print(f"Round 28 anomalies ({len(round28_anomalies)}):", round28_anomalies)
+        if round29_anomalies:
+            print(f"Round 29 anomalies ({len(round29_anomalies)}):", round29_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
