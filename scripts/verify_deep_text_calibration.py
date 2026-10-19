@@ -122,6 +122,7 @@ def main():
     round22_anomalies = []
     round23_anomalies = []
     round24_anomalies = []
+    round25_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -785,6 +786,69 @@ def main():
                 elif so == 35 and (opt_map.get('B') != 'The Middle Class on the Cliff' or opt_map.get('C') != 'The Middle Class in Conflict' or opt_map.get('D') != 'The Middle Class in Ruins'):
                     round24_anomalies.append(('2007_ky1_q35_opts', opt_map))
 
+            # Round 25 checks
+            if yr == 2009 and cat == 'ky1' and so == 38:
+                if not stem.endswith('Massachusetts Bay') or len(expl) < 500 or '［精准定位］' not in expl:
+                    round25_anomalies.append(('2009_ky1_q38', stem, len(expl)))
+            if yr == 2012 and cat == 'ky1':
+                if so == 22 and (opt_map.get('D') != 'recognize the limitations of advertisements' or opt_map.get('B') != "learn from advertisers' experience"):
+                    round25_anomalies.append(('2012_ky1_q22', opt_map))
+                elif so == 39 and (len(expl) < 500 or '［精准定位］' not in expl):
+                    round25_anomalies.append(('2012_ky1_q39', len(expl)))
+            if yr == 2016 and cat == 'ky1' and so == 35:
+                if ans != 'B' or opt_map.get('B') != "The necessary amount of companies' spending on it is unknown." or len(expl) < 400 or '［精准定位］' not in expl:
+                    round25_anomalies.append(('2016_ky1_q35', ans, opt_map.get('B'), len(expl)))
+            if yr == 2010 and cat == 'ky1':
+                if so == 23 and opt_map.get('A') != "It is writers' duty to fulfill journalistic goals.":
+                    round25_anomalies.append(('2010_ky1_q23', opt_map.get('A')))
+                elif so == 24 and (stem != "What can be learned about Cardus according to the last two paragraphs?" or opt_map.get('A') != "His music criticism may not appeal to readers today." or opt_map.get('B') != "His reputation as a music critic has long been in dispute."):
+                    round25_anomalies.append(('2010_ky1_q24', stem, opt_map))
+                elif so == 31 and (stem != "By citing the book The Tipping Point, the author intends to" or opt_map.get('B') != "discuss influentials' function in spreading ideas"):
+                    round25_anomalies.append(('2010_ky1_q31', stem, opt_map.get('B')))
+            if yr == 2001 and cat == 'ky1' and so == 22:
+                if opt_map.get('A') != "there is little distinction between specialisation and professionalisation" or opt_map.get('B') != "amateurs can compete with professionals in some areas of science":
+                    round25_anomalies.append(('2001_ky1_q22', opt_map))
+            if yr == 2002 and cat == 'ky1' and so == 34:
+                if opt_map.get('D') != "the price rise of crude leads to the shrinking of heavy industry":
+                    round25_anomalies.append(('2002_ky1_q34', opt_map.get('D')))
+            if yr == 2013 and cat == 'ky1':
+                if so == 37 and opt_map.get('B') != "Federal officers' duty to withhold immigrants' information.":
+                    round25_anomalies.append(('2013_ky1_q37', opt_map.get('B')))
+                elif so == 39 and opt_map.get('A') != "is dependent on the states' support":
+                    round25_anomalies.append(('2013_ky1_q39', opt_map.get('A')))
+            if yr == 2014 and cat == 'ky1':
+                if so == 21 and opt_map.get('A') != "encourage jobseekers' active engagement in job seeking":
+                    round25_anomalies.append(('2014_ky1_q21', opt_map.get('A')))
+                elif so == 28 and opt_map.get('B') != "lawyers' and clients' strong resistance":
+                    round25_anomalies.append(('2014_ky1_q28', opt_map.get('B')))
+                elif so == 37 and opt_map.get('B') != "safeguard individuals' rights to education":
+                    round25_anomalies.append(('2014_ky1_q37', opt_map.get('B')))
+            if yr == 2015 and cat == 'ky1' and so == 23:
+                if opt_map.get('A') != "Aristocrats' excessive reliance on inherited wealth.":
+                    round25_anomalies.append(('2015_ky1_q23', opt_map.get('A')))
+            if yr == 2017 and cat == 'ky1' and so in range(31, 36):
+                if so == 31 and ('［精准定位］' not in expl or expl.startswith('31.')):
+                    round25_anomalies.append(('2017_ky1_q31', expl[:40]))
+                elif so == 32 and (opt_map.get('B') != 'GDP as the measure of success is widely defied in the UK' or opt_map.get('D') != 'policymakers in the UK are paying less attention to GDP' or 'A recent annual study' in expl):
+                    round25_anomalies.append(('2017_ky1_q32', opt_map, expl[-40:]))
+                elif so == 33 and ('［精准定位］' not in expl or len(expl) < 350):
+                    round25_anomalies.append(('2017_ky1_q33', len(expl)))
+                elif so == 34 and ('［精准定位］' not in expl or len(expl) < 400):
+                    round25_anomalies.append(('2017_ky1_q34', len(expl)))
+                elif so == 35 and stem != "Which of the following is the best title for the text?":
+                    round25_anomalies.append(('2017_ky1_q35', stem))
+            if yr == 2019 and cat == 'ky1' and so in range(36, 41):
+                if so == 36 and (opt_map.get('A') != "better businesses' relations with states" or opt_map.get('D') != "force some states to cut sales tax" or expl.startswith('36.')):
+                    round25_anomalies.append(('2019_ky1_q36', opt_map, expl[:40]))
+                elif so == 37 and (stem != "It can be learned from paragraphs 2 and 3 that the overruled decisions" or opt_map.get('D') != "were considered unfavorable by states" or '［精准定位］' not in expl):
+                    round25_anomalies.append(('2019_ky1_q37', stem, opt_map.get('D')))
+                elif so == 38 and (stem != "According to Justice Anthony Kennedy, the physical presence rule has" or opt_map.get('C') != "harmed fair market competition" or '［精准定位］' not in expl):
+                    round25_anomalies.append(('2019_ky1_q38', stem, opt_map.get('C')))
+                elif so == 39 and (opt_map.get('B') != "Big-chain owners." or '［精准定位］' not in expl or len(expl) < 400):
+                    round25_anomalies.append(('2019_ky1_q39', opt_map.get('B'), len(expl)))
+                elif so == 40 and (opt_map.get('A') != "gives a factual account of it and discusses its consequences" or opt_map.get('B') != "describes the long and complicated process of its making" or opt_map.get('C') != "presents its main points with conflicting views on them" or opt_map.get('D') != "cites some cases related to it and analyzes their implications" or '［命题解密］' not in expl or len(expl) < 400):
+                    round25_anomalies.append(('2019_ky1_q40', opt_map, len(expl)))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -869,6 +933,7 @@ def main():
     results["44. 2008 Text 4 错位错挂、2009 Q29 截断题干与 2010 Q45 倒灌 100% 官方黄金纠偏"] = (len(round22_anomalies) == 0)
     results["45. 2008 Q35 / 2006 Q22,25,31,32,36,38,39 / 2005 阅读16处截断与纠偏 / 2001 Q28 / 完型OCR碎词 100% 官方黄金校准"] = (len(round23_anomalies) == 0)
     results["46. 2021 ky1/2020 ky1/2022 ky2 Text 4 题干选项截断与倒灌、2007 ky1 Q34-35 真实选项与精解 100% 官方黄金校准"] = (len(round24_anomalies) == 0)
+    results["47. 2016 Q35 / 2017 Text 2 / 2019 Text 4 / 2001 Q22 / 2002 Q34 / 2010 Q24 Q31 / 2009 Q38 / 2012 Q22 Q39 等 25 题官方黄金校准"] = (len(round25_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -928,6 +993,8 @@ def main():
             print(f"Round 23 anomalies ({len(round23_anomalies)}):", round23_anomalies)
         if round24_anomalies:
             print(f"Round 24 anomalies ({len(round24_anomalies)}):", round24_anomalies)
+        if round25_anomalies:
+            print(f"Round 25 anomalies ({len(round25_anomalies)}):", round25_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")

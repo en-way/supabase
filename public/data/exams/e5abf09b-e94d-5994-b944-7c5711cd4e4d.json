@@ -860,7 +860,7 @@
       "options": [
         {
           "key": "A",
-          "text": "It is writers* duty to fulfill journalistic goals.",
+          "text": "It is writers' duty to fulfill journalistic goals.",
           "value": "A"
         },
         {
@@ -895,12 +895,12 @@
       "options": [
         {
           "key": "A",
-          "text": "His music criticism may not appeal to readers",
+          "text": "His music criticism may not appeal to readers today.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "His reputation as a music critic has long been in",
+          "text": "His reputation as a music critic has long been in dispute.",
           "value": "B"
         },
         {
@@ -1136,7 +1136,7 @@
       "passage_id": "d92f03fb-836e-5e00-b5cf-98625e07171f",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "By citing the book The Tipping Point, the author intends",
+      "stem": "By citing the book The Tipping Point, the author intends to",
       "options": [
         {
           "key": "A",
@@ -1145,7 +1145,7 @@
         },
         {
           "key": "B",
-          "text": "discuss influentials* function in spreading ideas",
+          "text": "discuss influentials' function in spreading ideas",
           "value": "B"
         },
         {
