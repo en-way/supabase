@@ -130,6 +130,7 @@ def main():
     round30_anomalies = []
     round31_anomalies = []
     round32_anomalies = []
+    round33_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1085,6 +1086,32 @@ def main():
                 if not expl.startswith('8. ［A］ concept') or len(expl) > 700 or not expl.endswith('而非“究竟看到与否”。') or '计算机也按“代”来划分' in expl:
                     round32_anomalies.append(('2002_ky1_q8', len(expl), expl[:20], expl[-30:]))
 
+            # Check Round 33: 2008 ky1 Cloze (Q4, Q11) / 2007 ky1 Cloze Q7 / 2021 ky1 Text 3 (Q32, Q34) / 2021 ky2 Text 1 Q22 / 2022 ky2 Text 1 Q24
+            if yr == 2008 and cat == 'ky1':
+                if so == 4 and (not expl.startswith('4. [A] subsequently') or len(expl) > 600 or not expl.endswith('故排除。') or 'a bacterial cause were actually' in expl):
+                    round33_anomalies.append(('2008_ky1_q4', len(expl), expl[:30], expl[-30:]))
+                elif so == 11 and (not expl.startswith('11. [A] unconsciously') or len(expl) > 900 or not expl.endswith('而非“出人意料、不可解释地”。') or '11 . 感染；传染病' in expl):
+                    round33_anomalies.append(('2008_ky1_q11', len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2007 and cat == 'ky1' and so == 7:
+                if not expl.startswith('7. [A] unique') or len(expl) > 400 or not expl.endswith('这种说法显然不合逻辑。') or 'crown' in expl or 'conserv山' in expl:
+                    round33_anomalies.append(('2007_ky1_q7', len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2021 and cat == 'ky1':
+                if so == 32 and (not expl.startswith('［精准定位］根据题干关键词Victorian portraits he has collected') or len(expl) > 900 or not expl.endswith('故［B］正确。') or '32.关于他收集的' in expl):
+                    round33_anomalies.append(('2021_ky1_q32', len(expl), expl[:30], expl[-30:]))
+                elif so == 34 and (stem != 'Mark Twain is quoted to show that the disapproval of smiles in pictures was ________.' or not expl.startswith('［精准定位］题干问及作者引用马克•吐温之言的目的') or len(expl) > 1000 or not expl.endswith('就可以“既见树木，又见森林”了。') or '34.引用马克•吐温的话' in expl):
+                    round33_anomalies.append(('2021_ky1_q34', stem, len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2021 and cat == 'ky2' and so == 22:
+                if not expl.startswith('［精准定位］第二段②句指出') or len(expl) > 950 or not expl.endswith('故［A］正确。') or '22. 文中引用美国电话电报公司' in expl:
+                    round33_anomalies.append(('2021_ky2_q22', len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2022 and cat == 'ky2' and so == 24:
+                if not expl.startswith('［精准定位］末段①句指出蛋品行业') or len(expl) > 1000 or not expl.endswith('而且也符合末段主旨。') or '24.从最后一段可以得知' in expl:
+                    round33_anomalies.append(('2022_ky2_q24', len(expl), expl[:30], expl[-30:]))
+
+
 
 
 
@@ -1181,6 +1208,7 @@ def main():
     results["52. 2021 ky2 完型 Q2,11 与 T4 Q36 / 2022 ky1 T4 Q36,39 / 2003 ky1 T2 Q30 / 2007 ky1 Part B Q41 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round30_anomalies) == 0)
     results["53. 2021 ky2 完型 Q14 / 2007 ky1 完型 Q15 / 2004 ky1 阅读 Q25,30 / 2022 ky1 阅读 Q27,32,37,38 / 2022 ky2 阅读 Q27 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round31_anomalies) == 0)
     results["54. 2006 ky1 T4 Q40 二维码乱码切除 / 2017 & 2019 ky1 完型 Q20 章节标题与词汇切除 / 2022 ky2 完型 Q2 语篇切除 / 2021 ky2 完型 Q20 选项错挂修复与杂质切除 / 2002 ky1 完型 Q8 段落倒灌切除 100% 官方黄金校准"] = (len(round32_anomalies) == 0)
+    results["55. 2008 ky1 完型 Q4,11 错挂纠偏 / 2007 ky1 完型 Q7 词汇与正文切除 / 2021 ky1 T3 Q32,34 双语重复切除与题干补全 / 2021 ky2 T1 Q22 与 2022 ky2 T1 Q24 双语重复切除 100% 官方黄金校准"] = (len(round33_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1256,6 +1284,8 @@ def main():
             print(f"Round 31 anomalies ({len(round31_anomalies)}):", round31_anomalies)
         if round32_anomalies:
             print(f"Round 32 anomalies ({len(round32_anomalies)}):", round32_anomalies)
+        if round33_anomalies:
+            print(f"Round 33 anomalies ({len(round33_anomalies)}):", round33_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
