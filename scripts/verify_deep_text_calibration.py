@@ -137,6 +137,7 @@ def main():
     round37_anomalies = []
     round38_anomalies = []
     round39_anomalies = []
+    round40_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1309,17 +1310,54 @@ def main():
                     if len(str(ov).strip()) <= 1 or str(ov).strip() == ok:
                         round39_anomalies.append((f'2014_ky1_q{so}_opt_placeholder_{ok}', ov))
 
-
-
-
-
-
+            # Check Round 40: 2021 ky2 Reading Comprehension Text 3 & 4 (Q31-Q40)
+            if yr == 2021 and cat == 'ky2' and 31 <= so <= 40:
+                if not expl.startswith('［精准定位］') or '31.' in expl[:50] or '32.' in expl[:50] or '33.' in expl[:50] or '34.' in expl[:50] or '35.' in expl[:50] or '36.' in expl[:50] or '37.' in expl[:50] or '38.' in expl[:50] or '39.' in expl[:50] or '40.' in expl[:50]:
+                    round40_anomalies.append((f'2021_ky2_q{so}_head_stacked', expl[:60]))
+                if so == 31 and (opt_map.get('A') != 'Their engineers were retained.' or ans != 'A'):
+                    round40_anomalies.append(('2021_ky2_q31', ans, opt_map))
+                elif so == 32:
+                    if ans != 'B' or stem != "Microsoft's critics believe that the big tech companies tend to ________." or opt_map.get('B') != 'eliminate their potential competitors' or not expl.rstrip().endswith('与之相匹配的唯有［B］。'):
+                        round40_anomalies.append(('2021_ky2_q32', stem, ans, opt_map, expl[-60:]))
+                elif so == 33:
+                    if ans != 'C' or stem != "Paul Arnold is concerned that small acquisitions might ________." or opt_map.get('A') != 'weaken big tech companies' or opt_map.get('B') != 'worsen market competition' or opt_map.get('C') != 'harm the national economy' or opt_map.get('D') != 'discourage start-up investors' or not expl.rstrip().endswith('从而锁定正确答案为［C］。'):
+                        round40_anomalies.append(('2021_ky2_q33', stem, ans, opt_map, expl[-60:]))
+                elif so == 34:
+                    if ans != 'C' or stem != "The US Federal Trade Commission intends to ________." or opt_map.get('D') != "supervise start-ups' operation" or not expl.rstrip().endswith('可进一步佐证。'):
+                        round40_anomalies.append(('2021_ky2_q34', stem, ans, opt_map, expl[-60:]))
+                elif so == 35:
+                    if ans != 'A' or stem != "For the five biggest tech companies, their small acquisitions have ________." or opt_map.get('A') != 'brought little financial pressure' or not expl.rstrip().endswith('不难锁定正确项为［A］。'):
+                        round40_anomalies.append(('2021_ky2_q35', stem, ans, opt_map, expl[-60:]))
+                elif so == 36:
+                    if ans != 'B' or stem != "Nalini Ambady's study deals with ________." or opt_map.get('B') != 'the reliability of first impressions' or not expl.rstrip().endswith('［A］［C］［D］均运用各项研究对参与者的不同要求捏造干扰，可排除。'):
+                        round40_anomalies.append(('2021_ky2_q36', stem, ans, opt_map, expl[-60:]))
+                elif so == 37:
+                    if ans != 'A' or stem != "In Ambady's study, rating accuracy dropped when participants ________." or opt_map.get('A') != 'focused on specific details' or not expl.rstrip().endswith('浏览选项后可锁定［A］选项为对评分下降原因的正确描述，其他三个选项均属主观臆断，可排除。'):
+                        round40_anomalies.append(('2021_ky2_q37', stem, ans, opt_map, expl[-60:]))
+                elif so == 38:
+                    if ans != 'A' or stem != "Judith Hall mentions driving to show that ________." or opt_map.get('A') != 'reflection can be distracting' or not expl.rstrip().endswith('因此，朱迪斯•霍尔提及驾驶是为了表明（处理社交信息时）深思熟虑反会让人分心。'):
+                        round40_anomalies.append(('2021_ky2_q38', stem, ans, opt_map, expl[-60:]))
+                elif so == 39:
+                    if ans != 'D' or stem != "When you are making complex decisions, it is advisable to ________." or opt_map.get('D') != 'follow your feelings' or not expl.rstrip().endswith('不在本题考查的信息范围内，因此排除。'):
+                        round40_anomalies.append(('2021_ky2_q39', stem, ans, opt_map, expl[-60:]))
+                elif so == 40:
+                    if ans != 'B' or stem != "What can we learn from the last paragraph?" or opt_map.get('B') != 'Intuition may affect reflective tasks.' or not expl.rstrip().endswith('［B］选项符合这一逻辑推理。'):
+                        round40_anomalies.append(('2021_ky2_q40', stem, ans, opt_map, expl[-60:]))
 
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
             c = (p.get('content') or '').strip()
             so = p.get('sort_order')
+
+            # Check Round 40: 2021 ky2 Passages (Text 3 & Text 4)
+            if yr == 2021 and cat == 'ky2':
+                if p.get('id') == 'fbd49496-cbd6-5676-ad1d-29e41cd6aad3':
+                    if not c.startswith('When Microsoft bought') or 'Both apps, however, were later' not in c or 'buy and kill' not in c:
+                        round40_anomalies.append(('2021_ky2_passage_text3_content', c[:100]))
+                elif p.get('id') == 'c45660d2-1cee-5a4f-8852-8203bf51b493':
+                    if not c.startswith("We're fairly good at judging") or 'strawberry jams' not in c or 'Thinking too much can also harm our ability to form preferences.' not in c:
+                        round40_anomalies.append(('2021_ky2_passage_text4_content', c[:100]))
 
             # Check Round 14: 2004 Reading Passages 2-5
             if yr == 2004 and cat == 'ky1':
@@ -1414,6 +1452,7 @@ def main():
     results["59. 2013 ky1 T1 严重乱码重构与双语堆叠切除 / 2007 ky1 T1 官方原卷题干选项校准与正文倒灌切除 100% 官方黄金校准"] = (len(round37_anomalies) == 0)
     results["60. 2011 ky1 阅读全篇20题(Q21-40)题干汉译吞噬与恶性OCR修复、双语堆叠切除与精解完整重构 100% 官方黄金校准"] = (len(round38_anomalies) == 0)
     results["61. 2014 ky1 阅读全篇20题(Q21-40)官方答案纠偏(Q30选B/Q35选D)、题干下划线补全、占位符选项彻底填充与双语堆叠倒灌提纯 100% 官方黄金校准"] = (len(round39_anomalies) == 0)
+    results["62. 2021 ky2 Text 3-4(Q31-40)官方答案纠偏(Q32选B)、跨篇污染选项修复(Q33)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round40_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1503,6 +1542,8 @@ def main():
             print(f"Round 38 anomalies ({len(round38_anomalies)}):", round38_anomalies)
         if round39_anomalies:
             print(f"Round 39 anomalies ({len(round39_anomalies)}):", round39_anomalies)
+        if round40_anomalies:
+            print(f"Round 40 anomalies ({len(round40_anomalies)}):", round40_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
