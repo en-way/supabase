@@ -121,6 +121,7 @@ def main():
     round21_anomalies = []
     round22_anomalies = []
     round23_anomalies = []
+    round24_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -746,6 +747,44 @@ def main():
                 if opt_map.get('A') != 'well-known':
                     round23_anomalies.append(('2022_ky2_q6_opt_A', opt_map.get('A')))
 
+            # Check Round 24: 2021 ky1 / 2020 ky1 / 2022 ky2 Text 4 & 2007 ky1 Text 3 (Q34-35)
+            if yr == 2021 and cat == 'ky1':
+                if so == 36 and (expl.startswith('36•') or '［A］控制互联网公司' in expl or len(expl) < 300):
+                    round24_anomalies.append(('2021_ky1_q36_expl', expl[:40]))
+                elif so == 37 and (expl.startswith('37.') or '［B］' in expl[:100] or len(expl) < 300):
+                    round24_anomalies.append(('2021_ky1_q37_expl', expl[:40]))
+                elif so == 38 and (opt_map.get('B') != 'It engages in anti-competitive practices.' or expl.startswith('38.')):
+                    round24_anomalies.append(('2021_ky1_q38', opt_map.get('B'), expl[:40]))
+                elif so == 39 and (opt_map.get('A') != 'focuses on trivialities' or expl.startswith('39.')):
+                    round24_anomalies.append(('2021_ky1_q39', opt_map.get('A'), expl[:40]))
+                elif so == 40 and (opt_map.get('C') != 'Rules need to be set to diversify online services.' or opt_map.get('D') != "Broadband providers' rights should be protected." or expl.startswith('40.')):
+                    round24_anomalies.append(('2021_ky1_q40', opt_map, expl[:40]))
+            if yr == 2020 and cat == 'ky1':
+                if so == 37 and (expl.startswith('37.') or '根据第二段可知' in expl):
+                    round24_anomalies.append(('2020_ky1_q37_expl', expl[:40]))
+                elif so == 38 and (stem != 'The countries adopting the unilateral measures share the opinion that' or opt_map.get('C') != "tech multinationals' monopoly should be prevented" or expl.startswith('38.')):
+                    round24_anomalies.append(('2020_ky1_q38', stem, opt_map.get('C'), expl[:40]))
+                elif so == 39 and (expl.startswith('39.') or '根据第五段可知' in expl):
+                    round24_anomalies.append(('2020_ky1_q39_expl', expl[:40]))
+                elif so == 40 and (expl.startswith('40.') or '下列哪一项可能是本文的最佳标题' in expl):
+                    round24_anomalies.append(('2020_ky1_q40_expl', expl[:40]))
+            if yr == 2022 and cat == 'ky2':
+                if so == 36 and (expl.startswith('36.') or 'classes are' in expl[:50]):
+                    round24_anomalies.append(('2022_ky2_q36_expl', expl[:40]))
+                elif so == 37 and (opt_map.get('C') != 'It is important to students.' or expl.startswith('37.')):
+                    round24_anomalies.append(('2022_ky2_q37', opt_map.get('C'), expl[:40]))
+                elif so == 38 and (stem != "Eric Schwitzgebel's previous findings suggest that ethics professors ________." or expl.startswith('38.')):
+                    round24_anomalies.append(('2022_ky2_q38', stem, expl[:40]))
+                elif so == 39 and (expl.startswith('39.') or '尼娜•施特罗明格' in expl):
+                    round24_anomalies.append(('2022_ky2_q39_expl', expl[:40]))
+                elif so == 40 and (expl.startswith('40.') or '埃里克•施维茨格贝尔认为' in expl):
+                    round24_anomalies.append(('2022_ky2_q40_expl', expl[:40]))
+            if yr == 2007 and cat == 'ky1':
+                if so == 34 and (len(expl) < 300 or ('【精准定位】' not in expl and '［精准定位］' not in expl)):
+                    round24_anomalies.append(('2007_ky1_q34_expl', len(expl)))
+                elif so == 35 and (opt_map.get('B') != 'The Middle Class on the Cliff' or opt_map.get('C') != 'The Middle Class in Conflict' or opt_map.get('D') != 'The Middle Class in Ruins'):
+                    round24_anomalies.append(('2007_ky1_q35_opts', opt_map))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -829,6 +868,7 @@ def main():
     results["43. 2001 Q7 / 2015 Q36 官方答案与 2015/2018 跨题解析倒灌 100% 官方黄金纠偏"] = (len(round21_anomalies) == 0)
     results["44. 2008 Text 4 错位错挂、2009 Q29 截断题干与 2010 Q45 倒灌 100% 官方黄金纠偏"] = (len(round22_anomalies) == 0)
     results["45. 2008 Q35 / 2006 Q22,25,31,32,36,38,39 / 2005 阅读16处截断与纠偏 / 2001 Q28 / 完型OCR碎词 100% 官方黄金校准"] = (len(round23_anomalies) == 0)
+    results["46. 2021 ky1/2020 ky1/2022 ky2 Text 4 题干选项截断与倒灌、2007 ky1 Q34-35 真实选项与精解 100% 官方黄金校准"] = (len(round24_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -886,6 +926,8 @@ def main():
             print(f"Round 22 anomalies ({len(round22_anomalies)}):", round22_anomalies)
         if round23_anomalies:
             print(f"Round 23 anomalies ({len(round23_anomalies)}):", round23_anomalies)
+        if round24_anomalies:
+            print(f"Round 24 anomalies ({len(round24_anomalies)}):", round24_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
