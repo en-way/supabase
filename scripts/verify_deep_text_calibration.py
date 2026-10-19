@@ -136,6 +136,7 @@ def main():
     round36_anomalies = []
     round37_anomalies = []
     round38_anomalies = []
+    round39_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -523,9 +524,9 @@ def main():
                     round18_anomalies.append(('2014_q32', ans, opt_map))
                 if so == 33 and (ans != 'C' or opt_map.get('C') != 'the joint effort of modern researchers'):
                     round18_anomalies.append(('2014_q33', ans, opt_map))
-                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not expl.startswith('39.')):
+                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not expl.startswith('［精准定位］')):
                     round18_anomalies.append(('2014_q39', ans, opt_map, expl[:30]))
-                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not expl.startswith('40.')):
+                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not expl.startswith('［精准定位］')):
                     round18_anomalies.append(('2014_q40', ans, opt_map, expl[:30]))
             if yr == 2001 and cat == 'ky1':
                 if so == 32 and (ans != 'A' or opt_map.get('A') != 'failure to realize its real problem'):
@@ -1278,6 +1279,36 @@ def main():
                 elif so == 38 and not expl.startswith('［精准定位］第三段②③句指出：不快乐的无子女者不断被外界信息所烦扰'):
                     round38_anomalies.append(('2011_ky1_q38_expl', expl[:60]))
 
+            # Check Round 39: 2014 ky1 Reading Comprehension (Q21-Q40)
+            if yr == 2014 and cat == 'ky1' and 21 <= so <= 40:
+                if not expl.startswith('［精准定位］') or '[A]' in expl[:80] or '21.' in expl[:50] or '26.' in expl[:50] or '31.' in expl[:50] or '36.' in expl[:50]:
+                    round39_anomalies.append((f'2014_ky1_q{so}_head_stacked', expl[:60]))
+                if expl.rstrip().endswith(('benefits get into w', 'undergraduate degree in', 'draw people into', 'maintain national')):
+                    round39_anomalies.append((f'2014_ky1_q{so}_leakage', expl[-60:]))
+                if so == 21 and stem != "George Osborne's scheme was intended to ________.":
+                    round39_anomalies.append(('2014_ky1_q21_stem', stem))
+                elif so == 24 and stem != "According to Paragraph 3, being unemployed makes one feel ________.":
+                    round39_anomalies.append(('2014_ky1_q24_stem', stem))
+                elif so == 26 and stem != "A lot of students take up law as their profession due to ________.":
+                    round39_anomalies.append(('2014_ky1_q26_stem', stem))
+                elif so == 27 and stem != "Which of the following adds to the costs of legal education in most American states?":
+                    round39_anomalies.append(('2014_ky1_q27_stem', stem))
+                elif so == 28 and stem != "Hindrance to the reform of the legal system originates from ________.":
+                    round39_anomalies.append(('2014_ky1_q28_stem', stem))
+                elif so == 29 and stem != 'The guild-like ownership structure is considered "restrictive" partly because it ________.':
+                    round39_anomalies.append(('2014_ky1_q29_stem', stem))
+                elif so == 30 and (stem != "In this text, the author mainly discusses ________." or ans != 'B'):
+                    round39_anomalies.append(('2014_ky1_q30', stem, ans))
+                elif so == 35 and (stem != "The author believes that the new awards are ________." or ans != 'D'):
+                    round39_anomalies.append(('2014_ky1_q35', stem, ans))
+                elif so == 37 and (stem != "Influential figures in the Congress required that the AAAS report on how to ________." or '匹语篇分析' in expl or not expl.startswith('［精准定位］第二段首句明确指出：国会重要人物要求')):
+                    round39_anomalies.append(('2014_ky1_q37', stem, expl[:60]))
+                elif so == 38 and stem != "According to Paragraph 3, the report suggests ________.":
+                    round39_anomalies.append(('2014_ky1_q38_stem', stem))
+                for ok, ov in opt_map.items():
+                    if len(str(ov).strip()) <= 1 or str(ov).strip() == ok:
+                        round39_anomalies.append((f'2014_ky1_q{so}_opt_placeholder_{ok}', ov))
+
 
 
 
@@ -1382,6 +1413,7 @@ def main():
     results["58. 完型填空6题段落正文及句式倒灌彻底切除 / 2021 ky2 T2 Q26-30 题干下划线补全、双语堆叠切除与技巧总结补齐 100% 官方黄金校准"] = (len(round36_anomalies) == 0)
     results["59. 2013 ky1 T1 严重乱码重构与双语堆叠切除 / 2007 ky1 T1 官方原卷题干选项校准与正文倒灌切除 100% 官方黄金校准"] = (len(round37_anomalies) == 0)
     results["60. 2011 ky1 阅读全篇20题(Q21-40)题干汉译吞噬与恶性OCR修复、双语堆叠切除与精解完整重构 100% 官方黄金校准"] = (len(round38_anomalies) == 0)
+    results["61. 2014 ky1 阅读全篇20题(Q21-40)官方答案纠偏(Q30选B/Q35选D)、题干下划线补全、占位符选项彻底填充与双语堆叠倒灌提纯 100% 官方黄金校准"] = (len(round39_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1469,6 +1501,8 @@ def main():
             print(f"Round 37 anomalies ({len(round37_anomalies)}):", round37_anomalies)
         if round38_anomalies:
             print(f"Round 38 anomalies ({len(round38_anomalies)}):", round38_anomalies)
+        if round39_anomalies:
+            print(f"Round 39 anomalies ({len(round39_anomalies)}):", round39_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
