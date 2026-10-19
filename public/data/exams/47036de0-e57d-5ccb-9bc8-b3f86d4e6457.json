@@ -6,8 +6,8 @@
     "year": 2004,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 50,
+    "pass_score": 30,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -1472,5 +1472,5 @@
       "answer": "C"
     }
   ],
-  "exportedAt": "2026-10-19T11:54:39.996Z"
+  "exportedAt": "2026-10-19T11:57:27.238Z"
 }
