@@ -133,6 +133,7 @@ def main():
     round33_anomalies = []
     round34_anomalies = []
     round35_anomalies = []
+    round36_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1194,6 +1195,41 @@ def main():
             if yr == 2022 and cat == 'ky1' and so == 45 and '奢三、语篇分析' in expl:
                 round35_anomalies.append(('2022_ky1_q45_leakage', expl[-40:]))
 
+            # Check Round 36:
+            # 1. Cloze leakage cleanup: 2014 ky1 Q14 / 2013 ky1 Q7 / 2015 ky1 Q2 / 2012 ky1 Q9, 14, 17
+            # 2. 2021 ky2 Text 2 (Q26-Q30) full calibration
+            if yr == 2014 and cat == 'ky1' and so == 14:
+                if 'The Web-based program' in expl or len(expl) > 600 or not expl.endswith('与文意明显不符。'):
+                    round36_anomalies.append(('2014_ky1_cloze_q14', len(expl), expl[-40:]))
+
+            if yr == 2013 and cat == 'ky1' and so == 7:
+                if 'Simonsohn suspected the truth was' in expl or len(expl) > 650 or not expl.endswith('语义相反。'):
+                    round36_anomalies.append(('2013_ky1_cloze_q7', len(expl), expl[-40:]))
+
+            if yr == 2015 and cat == 'ky1' and so == 2:
+                if 'The study is a genome1 -wide analysis' in expl or 'iiMi注释' in expl or len(expl) > 500 or not expl.endswith('而是说明性内容。'):
+                    round36_anomalies.append(('2015_ky1_cloze_q2', len(expl), expl[-40:]))
+
+            if yr == 2012 and cat == 'ky1':
+                if so == 9 and ('The framers' in expl or len(expl) > 450 or not expl.endswith('之间不涉及“冲突与否”。')):
+                    round36_anomalies.append(('2012_ky1_cloze_q9', len(expl), expl[-40:]))
+                elif so == 14 and ('Constitutional law is political' in expl or len(expl) > 400 or not expl.endswith('同样与文意无关。')):
+                    round36_anomalies.append(('2012_ky1_cloze_q14', len(expl), expl[-40:]))
+                elif so == 17 and ('The justices must' in expl or len(expl) > 700 or not expl.endswith('与文意相反。')):
+                    round36_anomalies.append(('2012_ky1_cloze_q17', len(expl), expl[-40:]))
+
+            if yr == 2021 and cat == 'ky2':
+                if so == 26 and (stem != 'Some people argue that food self-sufficiency in the UK would ________.' or not expl.startswith('［精准定位］根据题干关键词food self-sufficiency in the UK定位至第二段') or '26.有些人提出' in expl or len(expl) > 600):
+                    round36_anomalies.append(('2021_ky2_t2_q26', stem, expl[:40]))
+                elif so == 27 and (stem != 'The report by the University of Leeds shows that in the UK ________.' or not expl.startswith('［精准定位］根据题干关键词The report by the University of Leeds定位到第三段①句') or '27.利兹大学的报告显示' in expl or len(expl) > 900):
+                    round36_anomalies.append(('2021_ky2_t2_q27', stem, expl[:40]))
+                elif so == 28 and (stem != 'Crop-growing in the UK is restricted due to ________.' or not expl.startswith('［精准定位］第五段首句指出转向以植物为主的饮食也不会有太大意义') or '28.英国的作物种植因' in expl or 'Just 23 per cent' in expl or not expl.endswith('［B］则颠倒因果。')):
+                    round36_anomalies.append(('2021_ky2_t2_q28', stem, expl[:40], expl[-40:]))
+                elif so == 29 and (stem != 'It can be learned from the last paragraph that British people ________.' or not expl.startswith('［精准定位］末段①句指出“如今英国人食用的果蔬中仅有23%产自本国”') or '29.从末段可知' in expl or not expl.endswith('故为正确项。')):
+                    round36_anomalies.append(('2021_ky2_t2_q29', stem, expl[:40], expl[-40:]))
+                elif so == 30 and (stem != "The author's attitude to food self-sufficiency in the UK is ________." or not expl.startswith('［精准定位］本文整体脉络为：引出话题“英国粮食自给自足是否可行”') or '30•作者对英国粮食自给自足的态度' in expl or 'Text 3' in expl or not expl.endswith('更何况这本身实行起来会造成巨大代价”。')):
+                    round36_anomalies.append(('2021_ky2_t2_q30', stem, expl[:40], expl[-40:]))
+
 
 
 
@@ -1295,6 +1331,7 @@ def main():
     results["55. 2008 ky1 完型 Q4,11 错挂纠偏 / 2007 ky1 完型 Q7 词汇与正文切除 / 2021 ky1 T3 Q32,34 双语重复切除与题干补全 / 2021 ky2 T1 Q22 与 2022 ky2 T1 Q24 双语重复切除 100% 官方黄金校准"] = (len(round33_anomalies) == 0)
     results["56. 2021 ky1 T3 Q33,35 / 2022 ky2 T1 Q21-23,25 / 2022 ky2 T2 Q26,28-30 / 2006 ky1 T2 Q21,23-25 题干截断补全与双语重复/概览错挂切除 100% 官方黄金校准"] = (len(round34_anomalies) == 0)
     results["57. 2004 ky1 T3 模拟题乱码切除与参考答案清零 / 2021 ky2 T1 双语堆叠与倒灌切除 / 9处正文段落残片彻底提纯 100% 官方黄金校准"] = (len(round35_anomalies) == 0)
+    results["58. 完型填空6题段落正文及句式倒灌彻底切除 / 2021 ky2 T2 Q26-30 题干下划线补全、双语堆叠切除与技巧总结补齐 100% 官方黄金校准"] = (len(round36_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1376,6 +1413,8 @@ def main():
             print(f"Round 34 anomalies ({len(round34_anomalies)}):", round34_anomalies)
         if round35_anomalies:
             print(f"Round 35 anomalies ({len(round35_anomalies)}):", round35_anomalies)
+        if round36_anomalies:
+            print(f"Round 36 anomalies ({len(round36_anomalies)}):", round36_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
