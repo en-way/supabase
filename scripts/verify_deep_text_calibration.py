@@ -131,6 +131,7 @@ def main():
     round31_anomalies = []
     round32_anomalies = []
     round33_anomalies = []
+    round34_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1111,6 +1112,42 @@ def main():
                 if not expl.startswith('［精准定位］末段①句指出蛋品行业') or len(expl) > 1000 or not expl.endswith('而且也符合末段主旨。') or '24.从最后一段可以得知' in expl:
                     round33_anomalies.append(('2022_ky2_q24', len(expl), expl[:30], expl[-30:]))
 
+            # Check Round 34: 2021 ky1 T3 (Q33, Q35) / 2022 ky2 T1 (Q21-Q23, Q25) / 2022 ky2 T2 (Q26, Q28-Q30) / 2006 ky1 T2 (Q21, Q23-Q25)
+            if yr == 2021 and cat == 'ky1':
+                if so == 33 and (not expl.startswith('【精准定位】根据题干关键词kept the Victorians from smiling') or len(expl) > 1100 or not expl.endswith('（【B】【C】项）。') or '33.在19世纪90年代' in expl):
+                    round34_anomalies.append(('2021_ky1_q33', len(expl), expl[:30], expl[-30:]))
+                elif so == 35 and (not expl.startswith('【精准定位】本文首段介绍作者发现') or len(expl) > 1250 or not expl.endswith('【A】符合文章主题。') or '35.本文回答了以下哪个问题？' in expl):
+                    round34_anomalies.append(('2021_ky1_q35', len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2022 and cat == 'ky2':
+                if so == 21 and (stem != 'The climate-friendly eggs are produced ________.' or not expl.startswith('［精准定位］气候友好型鸡蛋出现于首段末尾') or len(expl) > 1300 or not expl.endswith('并未指出后者会替代前者。') or '21.气候友好型鸡蛋是' in expl):
+                    round34_anomalies.append(('2022_ky2_q21', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 22 and (stem != 'Larry Brown is excited about his progress in ________.' or not expl.startswith('［精准定位］由人名Larry Brown及其态度') or len(expl) > 950 or not expl.endswith('为正确项。') or '22.拉里•布朗对他在' in expl):
+                    round34_anomalies.append(('2022_ky2_q22', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 23 and (not expl.startswith('［精准定位］例子位于第四段②句') or len(expl) > 900 or not expl.endswith('［C］符合该论点。') or '23.第四段使用有机鸡蛋的例子' in expl):
+                    round34_anomalies.append(('2022_ky2_q23', len(expl), expl[:30], expl[-30:]))
+                elif so == 25 and (stem != "John Brunnquell would disagree with Julie Stanton over regenerative products' ________." or not expl.startswith('［精准定位］约翰•布伦克尔和朱莉•斯坦顿分别出自末段和第五段') or len(expl) > 1050 or not expl.endswith('推断出其言论暗含的观点态度。') or '问题速览' in expl):
+                    round34_anomalies.append(('2022_ky2_q25', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 26 and (stem != 'The survey conducted by Harris Poll indicates that ________.' or not expl.startswith('［精准定位］根据survey conducted by Harris Poll定位至第二段') or len(expl) > 900 or not expl.endswith('［D］完美契合这两点要求。') or '26.哈里斯民意调查公司' in expl):
+                    round34_anomalies.append(('2022_ky2_q26', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 28 and (stem != 'Retirement patterns are changing partly due to ________.' or not expl.startswith('［精准定位］根据Retirement patterns定位至第五段首句') or len(expl) > 650 or not expl.endswith('也就不会掉入命题人利用其中细节设立的陷阱。') or '28.退休模式正在发生变化' in expl):
+                    round34_anomalies.append(('2022_ky2_q28', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 29 and (stem != "Many 'unretirees' are increasing their savings by ________." or not expl.startswith('［精准定位］根据increasing their savings定位至第六段②句') or len(expl) > 500 or not expl.endswith('故正确。') or '29.许多“不退休者"通过' in expl):
+                    round34_anomalies.append(('2022_ky2_q29', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 30 and (not expl.startswith('［精准定位］根据Brent Weiss定位至第七、八段') or len(expl) > 750 or not expl.endswith('故均排除。') or '问题速览' in expl or 'More Americans are opting to work' in expl):
+                    round34_anomalies.append(('2022_ky2_q30', len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2006 and cat == 'ky1':
+                if so == 21 and (not expl.startswith('［精准定位］文章首句指出，尽管（人们）无休止地谈论差异') or len(expl) > 650 or not expl.endswith('也有助于锁定［C］。') or '第－段第二行homogenizing' in expl):
+                    round34_anomalies.append(('2006_ky1_q21', len(expl), expl[:30], expl[-30:]))
+                elif so == 23 and (stem != 'The text suggests that immigrants now in the U.S. ________.' or not expl.startswith('［精准定位］根据题干定位到第二段') or len(expl) > 750 or not expl.endswith('是合乎逻辑的正确推断。') or '23. 本文暗示现在美国的移民' in expl):
+                    round34_anomalies.append(('2006_ky1_q23', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 24 and (stem != 'Why are Arnold Schwarzenegger and Garth Brooks mentioned in Paragraph 5?' or not expl.startswith('［精准定位］第五段首先指出') or len(expl) > 650 or not expl.endswith('直指论点核心。') or '24. 第五段为什么提到' in expl):
+                    round34_anomalies.append(('2006_ky1_q24', stem, len(expl), expl[:30], expl[-30:]))
+                elif so == 25 and (stem != "In the author's opinion, the absorption of immigrants into American society is ________." or not expl.startswith('【精准定位】该题考查作者态度，需纵观全文') or len(expl) > 650 or not expl.endswith('不可将其误当成作者观点。') or '25. 按照作者观点' in expl):
+                    round34_anomalies.append(('2006_ky1_q25', stem, len(expl), expl[:30], expl[-30:]))
+
+
 
 
 
@@ -1209,6 +1246,7 @@ def main():
     results["53. 2021 ky2 完型 Q14 / 2007 ky1 完型 Q15 / 2004 ky1 阅读 Q25,30 / 2022 ky1 阅读 Q27,32,37,38 / 2022 ky2 阅读 Q27 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round31_anomalies) == 0)
     results["54. 2006 ky1 T4 Q40 二维码乱码切除 / 2017 & 2019 ky1 完型 Q20 章节标题与词汇切除 / 2022 ky2 完型 Q2 语篇切除 / 2021 ky2 完型 Q20 选项错挂修复与杂质切除 / 2002 ky1 完型 Q8 段落倒灌切除 100% 官方黄金校准"] = (len(round32_anomalies) == 0)
     results["55. 2008 ky1 完型 Q4,11 错挂纠偏 / 2007 ky1 完型 Q7 词汇与正文切除 / 2021 ky1 T3 Q32,34 双语重复切除与题干补全 / 2021 ky2 T1 Q22 与 2022 ky2 T1 Q24 双语重复切除 100% 官方黄金校准"] = (len(round33_anomalies) == 0)
+    results["56. 2021 ky1 T3 Q33,35 / 2022 ky2 T1 Q21-23,25 / 2022 ky2 T2 Q26,28-30 / 2006 ky1 T2 Q21,23-25 题干截断补全与双语重复/概览错挂切除 100% 官方黄金校准"] = (len(round34_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1286,6 +1324,8 @@ def main():
             print(f"Round 32 anomalies ({len(round32_anomalies)}):", round32_anomalies)
         if round33_anomalies:
             print(f"Round 33 anomalies ({len(round33_anomalies)}):", round33_anomalies)
+        if round34_anomalies:
+            print(f"Round 34 anomalies ({len(round34_anomalies)}):", round34_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
