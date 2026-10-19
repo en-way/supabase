@@ -129,6 +129,7 @@ def main():
     round29_anomalies = []
     round30_anomalies = []
     round31_anomalies = []
+    round32_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1058,6 +1059,33 @@ def main():
                 if stem != 'It can be inferred from Paragraph 3 that Americans tend to think that ________.' or len(expl) > 800 or not expl.endswith('故正确。') or '语篇分析' in expl or 'United Income' in expl:
                     round31_anomalies.append(('2022_ky2_q27', stem, len(expl), expl[-30:]))
 
+            # Check Round 32: 2006 ky1 T4 Q40 / 2017 ky1 Cloze Q20 / 2019 ky1 Cloze Q20 / 2022 ky2 Cloze Q2 / 2021 ky2 Cloze Q20 / 2002 ky1 Cloze Q8
+            if yr == 2006 and cat == 'ky1' and so == 40:
+                if len(expl) > 1200 or not expl.startswith('【精准定位】') or not expl.endswith('故均可排除。') or '回｜回回' in expl or '思墨西' in expl:
+                    round32_anomalies.append(('2006_ky1_q40', len(expl), expl[:30], expl[-30:]))
+
+            if yr == 2017 and cat == 'ky1' and so == 20:
+                if len(expl) > 600 or not expl.endswith('不涉及“为之正名”的问题。') or '巒第三部金' in expl or '催产素的去向' in expl:
+                    round32_anomalies.append(('2017_ky1_q20', len(expl), expl[-30:]))
+
+            if yr == 2019 and cat == 'ky1' and so == 20:
+                if len(expl) > 800 or not expl.endswith('同样与“从迷途返回”的语境不符。') or '知识补充' in expl or 'Trail blazes' in expl:
+                    round32_anomalies.append(('2019_ky1_q20', len(expl), expl[-30:]))
+
+            if yr == 2022 and cat == 'ky2' and so == 2:
+                if len(expl) > 700 or not expl.endswith('均偏离文意。') or '语篇分析' in expl or 'Harlan Coben believes' in expl:
+                    round32_anomalies.append(('2022_ky2_q2', len(expl), expl[-30:]))
+
+            if yr == 2021 and cat == 'ky2' and so == 20:
+                opt_texts = [o.get('text') for o in opts]
+                if opt_texts != ['modify', 'review', 'present', 'achieve'] or len(expl) > 600 or not expl.endswith('也无法体现trick的“智慧方法”之意。') or 'against' in expl:
+                    round32_anomalies.append(('2021_ky2_q20', opt_texts, len(expl), expl[-30:]))
+
+            if yr == 2002 and cat == 'ky1' and so == 8:
+                if not expl.startswith('8. ［A］ concept') or len(expl) > 700 or not expl.endswith('而非“究竟看到与否”。') or '计算机也按“代”来划分' in expl:
+                    round32_anomalies.append(('2002_ky1_q8', len(expl), expl[:20], expl[-30:]))
+
+
 
 
 
@@ -1152,6 +1180,7 @@ def main():
     results["51. 2004 完型 Q5,8,12 语篇倒灌 / 2005 Q35 / 2009 Q35 / 2008 Q42 / 2006 Q45 跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round29_anomalies) == 0)
     results["52. 2021 ky2 完型 Q2,11 与 T4 Q36 / 2022 ky1 T4 Q36,39 / 2003 ky1 T2 Q30 / 2007 ky1 Part B Q41 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round30_anomalies) == 0)
     results["53. 2021 ky2 完型 Q14 / 2007 ky1 完型 Q15 / 2004 ky1 阅读 Q25,30 / 2022 ky1 阅读 Q27,32,37,38 / 2022 ky2 阅读 Q27 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round31_anomalies) == 0)
+    results["54. 2006 ky1 T4 Q40 二维码乱码切除 / 2017 & 2019 ky1 完型 Q20 章节标题与词汇切除 / 2022 ky2 完型 Q2 语篇切除 / 2021 ky2 完型 Q20 选项错挂修复与杂质切除 / 2002 ky1 完型 Q8 段落倒灌切除 100% 官方黄金校准"] = (len(round32_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1225,6 +1254,8 @@ def main():
             print(f"Round 30 anomalies ({len(round30_anomalies)}):", round30_anomalies)
         if round31_anomalies:
             print(f"Round 31 anomalies ({len(round31_anomalies)}):", round31_anomalies)
+        if round32_anomalies:
+            print(f"Round 32 anomalies ({len(round32_anomalies)}):", round32_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
