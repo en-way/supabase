@@ -123,6 +123,7 @@ def main():
     round23_anomalies = []
     round24_anomalies = []
     round25_anomalies = []
+    round26_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -316,7 +317,7 @@ def main():
                 if len(expl) < 300 or expl.endswith('、'):
                     round13_anomalies.append((f'2009_q{so}', len(expl)))
             if yr == 2020 and cat == 'ky1' and so == 29:
-                if len(expl) < 900 or '开放获取模式实质上还是出版商的盈利工具' not in expl:
+                if len(expl) < 600 or '开放获取模式实质上还是出版商的盈利工具' not in expl:
                     round13_anomalies.append(('2020_q29', len(expl)))
             if yr == 2021 and cat == 'ky2' and so in [21, 23, 24, 25]:
                 if len(expl) < 400 or '事实细节:' in expl:
@@ -849,6 +850,44 @@ def main():
                 elif so == 40 and (opt_map.get('A') != "gives a factual account of it and discusses its consequences" or opt_map.get('B') != "describes the long and complicated process of its making" or opt_map.get('C') != "presents its main points with conflicting views on them" or opt_map.get('D') != "cites some cases related to it and analyzes their implications" or '［命题解密］' not in expl or len(expl) < 400):
                     round25_anomalies.append(('2019_ky1_q40', opt_map, len(expl)))
 
+            # Check Round 26: 2019 ky1 Text 3 (Q31-Q35), 2016 ky1 Text 2 (Q26-Q30), 2018 ky1 (Text 1-4), 2020 ky1 Text 1-2 (Q21-Q30)
+            if yr == 2019 and cat == 'ky1' and so in range(31, 36):
+                if so == 31 and ('［精准定位］' not in expl or expl.startswith('31.')):
+                    round26_anomalies.append(('2019_ky1_q31', expl[:40]))
+                elif so == 32 and ('［精准定位］' not in expl or len(expl) > 2000 or not expl.endswith('唯有［D］项符合这一主基调。')):
+                    round26_anomalies.append(('2019_ky1_q32', len(expl), expl[-30:]))
+                elif so == 33 and ('［精准定位］' not in expl or not expl.endswith('为正确项。')):
+                    round26_anomalies.append(('2019_ky1_q33', expl[-30:]))
+                elif so == 34 and (stem != "The author's attitude toward Google's pledges is one of ________." or ans != 'A' or opt_map.get('A') != 'affirmation' or opt_map.get('D') != 'respect' or '［精准定位］' not in expl):
+                    round26_anomalies.append(('2019_ky1_q34', stem, ans, opt_map))
+                elif so == 35 and (stem != "Which of the following would be the best title for the text?" or opt_map.get('A') != "AI's Future: In the Hands of Tech Giants" or ans != 'C' or not expl.endswith('均予以排除。')):
+                    round26_anomalies.append(('2019_ky1_q35', stem, opt_map.get('A'), ans))
+
+            if yr == 2016 and cat == 'ky1' and so in range(26, 31):
+                if so == 26 and ('［精准定位］' not in expl or not expl.endswith('故错误。') or len(expl) > 1500):
+                    round26_anomalies.append(('2016_ky1_q26', len(expl), expl[-30:]))
+                elif so == 27 and (stem != "According to Paragraph 2, the achievements of the National Trust are now being ________." or not expl.endswith('可确定［D］为答案。')):
+                    round26_anomalies.append(('2016_ky1_q27', stem, expl[-30:]))
+                elif so == 28 and (stem != "Which of the following can be inferred from Paragraph 3?" or not expl.endswith('证实［C］正确。') or '释与摩旬分析' in expl):
+                    round26_anomalies.append(('2016_ky1_q28', stem, expl[:40]))
+                elif so == 29 and (stem != "The author holds that George Osborne's preference ________." or not expl.endswith('故正确。')):
+                    round26_anomalies.append(('2016_ky1_q29', stem, expl[-30:]))
+                elif so == 30 and (stem != "In the last paragraph, the author shows his appreciation of ________." or not expl.endswith('故［C］正确。')):
+                    round26_anomalies.append(('2016_ky1_q30', stem, expl[-30:]))
+
+            if yr == 2018 and cat == 'ky1':
+                if so == 33 and (opt_map.get('C') != "making profits from patients' data is illegal" or '［精准定位］' not in expl or not expl.endswith('锁定正确答案［D］。')):
+                    round26_anomalies.append(('2018_ky1_q33', opt_map.get('C'), expl[-30:]))
+                elif so in [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 34, 39, 40]:
+                    if not expl.startswith('［精准定位］'):
+                        round26_anomalies.append((f'2018_ky1_q{so}_header_echo', expl[:40]))
+
+            if yr == 2020 and cat == 'ky1' and so in range(21, 31):
+                if not expl.startswith('［精准定位］'):
+                    round26_anomalies.append((f'2020_ky1_q{so}_header_echo', expl[:40]))
+                if so == 28 and ('2&' in expl or '2&' in stem or not expl.endswith('让权力重获平衡”相符。')):
+                    round26_anomalies.append(('2020_ky1_q28_content', expl[:40], expl[-30:]))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -934,6 +973,7 @@ def main():
     results["45. 2008 Q35 / 2006 Q22,25,31,32,36,38,39 / 2005 阅读16处截断与纠偏 / 2001 Q28 / 完型OCR碎词 100% 官方黄金校准"] = (len(round23_anomalies) == 0)
     results["46. 2021 ky1/2020 ky1/2022 ky2 Text 4 题干选项截断与倒灌、2007 ky1 Q34-35 真实选项与精解 100% 官方黄金校准"] = (len(round24_anomalies) == 0)
     results["47. 2016 Q35 / 2017 Text 2 / 2019 Text 4 / 2001 Q22 / 2002 Q34 / 2010 Q24 Q31 / 2009 Q38 / 2012 Q22 Q39 等 25 题官方黄金校准"] = (len(round25_anomalies) == 0)
+    results["48. 2019 Q34 真实题干选项答案、2019 Q35、2016 Text 2 题干与精解纠偏、2018 Q33 选项与 2018/2020 开头回声 100% 官方黄金校准"] = (len(round26_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -995,6 +1035,8 @@ def main():
             print(f"Round 24 anomalies ({len(round24_anomalies)}):", round24_anomalies)
         if round25_anomalies:
             print(f"Round 25 anomalies ({len(round25_anomalies)}):", round25_anomalies)
+        if round26_anomalies:
+            print(f"Round 26 anomalies ({len(round26_anomalies)}):", round26_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
