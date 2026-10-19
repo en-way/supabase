@@ -8,14 +8,14 @@ import db_ops
 
 sys.stdout.reconfigure(encoding='utf-8')
 
-print("=== Verifying Supabase DB vs Local JSON Parity ===")
+print("=== Verifying Supabase DB vs Local JSON Golden Parity ===")
 
 db_questions = db_ops.run_sql('select count(*) as c from questions')
 db_passages = db_ops.run_sql('select count(*) as c from passages')
 print(f"DB total questions: {db_questions[0]['c']}, passages: {db_passages[0]['c']}")
 
 db_q = db_ops.run_sql('''
-    select e.year, e.category_id, q.sort_order, q.correct_answer, q.explanation
+    select e.year, e.category_id, q.sort_order, q.correct_answer, q.explanation, q.stem, q.options
     from questions q
     join exams e on q.exam_id = e.id
 ''')
@@ -39,7 +39,22 @@ for f in sorted(glob.glob(r'public/data/exams/*.json')):
         if q.get('correct_answer') != db_item.get('correct_answer'):
             print(f"Ans diff: {yr} {cat} Q{so}")
             diff_count += 1
+        if (q.get('stem') or '').strip() != (db_item.get('stem') or '').strip():
+            print(f"Stem diff: {yr} {cat} Q{so}")
+            diff_count += 1
+        # normalize options compare
+        j_opts = json.dumps(q.get('options', []), sort_keys=True)
+        d_opts = db_item.get('options')
+        if isinstance(d_opts, str):
+            try:
+                d_opts = json.loads(d_opts)
+            except:
+                pass
+        d_opts_str = json.dumps(d_opts if isinstance(d_opts, (list, dict)) else [], sort_keys=True)
+        if j_opts != d_opts_str:
+            print(f"Opts diff: {yr} {cat} Q{so}")
+            diff_count += 1
 
 print(f"Total DB vs JSON diffs: {diff_count}")
 if diff_count == 0:
-    print("SUCCESS: 100% Full Golden Parity Achieved! 0 differences!")
+    print("SUCCESS: 100% Full Golden Parity Achieved across ALL stems, options, answers, and explanations! 0 differences!")
