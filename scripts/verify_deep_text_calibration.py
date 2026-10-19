@@ -127,6 +127,7 @@ def main():
     round27_anomalies = []
     round28_anomalies = []
     round29_anomalies = []
+    round30_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1004,6 +1005,29 @@ def main():
                 if len(expl) > 800 or not expl.endswith('故选项应出现在第十一段之后，而不是之前，故排除。') or '对“知识分子”的定义' in expl:
                     round29_anomalies.append(('2006_ky1_q45', len(expl), expl[-30:]))
 
+            # Check Round 30: 2021 ky2 Cloze (Q2, Q11) & Text 4 (Q36), 2022 ky1 Text 4 (Q36, Q39), 2003 ky1 Text 2 Q30, 2007 ky1 Part B Q41
+            if yr == 2021 and cat == 'ky2':
+                if so == 2 and (len(expl) > 800 or not expl.endswith('one已经是“被分解的、不难理解的一个要素”。') or '语篇分析' in expl or '乘坐伦敦公交车出行' in expl):
+                    round30_anomalies.append(('2021_ky2_q2', len(expl), expl[-30:]))
+                elif so == 11 and (len(expl) > 600 or not expl.endswith('不能与“将安全作为标准”构成“条件一结果”关联。') or '语篇分析' in expl or '第二段以多个问答形式' in expl):
+                    round30_anomalies.append(('2021_ky2_q11', len(expl), expl[-30:]))
+                elif so == 36 and (stem != "Nalini Ambady's study deals with ________." or len(expl) > 1500 or not expl.endswith('［A］［C］［D］均运用各项研究对参与者的不同要求捏造干扰，可排除。') or '语篇分析' in expl or '第二段继续介绍安巴迪的研究' in expl):
+                    round30_anomalies.append(('2021_ky2_q36', stem, len(expl), expl[-30:]))
+
+            if yr == 2022 and cat == 'ky1':
+                if so == 36 and (stem != "The personal grievance provisions of the ERA are intended to ________." or len(expl) > 1400 or not expl.endswith('D项同时包含三个方面的内容，故锁定为正确项。') or '工作能力平平' in expl or 'But these provisions create difficulties' in expl):
+                    round30_anomalies.append(('2022_ky1_q36', stem, len(expl), expl[-30:]))
+                elif so == 39 and (stem != "What might be an effect of ERA's unjustified dismissal procedures?" or len(expl) > 1300 or not expl.endswith('将选项与原文相比对，详见“锁定答案”与“排除干扰”。') or '语篇分析' in expl or '不正当解雇悖论' in expl):
+                    round30_anomalies.append(('2022_ky1_q39', stem, len(expl), expl[-30:]))
+
+            if yr == 2003 and cat == 'ky1' and so == 30:
+                if stem != "From the text we learn that Stephen Cooper is ________." or len(expl) > 1000 or not expl.endswith('［B］则利用文中无关信息捏造干扰。') or '铁路公司合并' in expl or 'who support mergers' in expl:
+                    round30_anomalies.append(('2003_ky1_q30', stem, len(expl), expl[-30:]))
+
+            if yr == 2007 and cat == 'ky1' and so == 41:
+                if len(expl) > 600 or not expl.endswith('这些措施并未涉及“谈论未来”，故排除。') or 'Canadian Constitution' in expl or '形式主语' in expl:
+                    round30_anomalies.append(('2007_ky1_q41', len(expl), expl[-30:]))
+
 
 
 
@@ -1096,6 +1120,7 @@ def main():
     results["49. 2019 T2 / 2016 T3 / 2013 T2-T3 / 2020 T4 题干截断补全与超长篇章/跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round27_anomalies) == 0)
     results["50. 2016 Cloze Q20 / 2017 Text 4 Q36-40 / 2011 Q20 / 2013 Q20 / 2015 Q31 跨篇倒灌彻底切除与精准精解还原 100% 官方黄金校准"] = (len(round28_anomalies) == 0)
     results["51. 2004 完型 Q5,8,12 语篇倒灌 / 2005 Q35 / 2009 Q35 / 2008 Q42 / 2006 Q45 跨篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round29_anomalies) == 0)
+    results["52. 2021 ky2 完型 Q2,11 与 T4 Q36 / 2022 ky1 T4 Q36,39 / 2003 ky1 T2 Q30 / 2007 ky1 Part B Q41 题干截断补全与语篇倒灌彻底提纯 100% 官方黄金校准"] = (len(round30_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1165,6 +1190,8 @@ def main():
             print(f"Round 28 anomalies ({len(round28_anomalies)}):", round28_anomalies)
         if round29_anomalies:
             print(f"Round 29 anomalies ({len(round29_anomalies)}):", round29_anomalies)
+        if round30_anomalies:
+            print(f"Round 30 anomalies ({len(round30_anomalies)}):", round30_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
