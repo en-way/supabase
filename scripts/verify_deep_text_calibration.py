@@ -132,6 +132,7 @@ def main():
     round32_anomalies = []
     round33_anomalies = []
     round34_anomalies = []
+    round35_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1147,6 +1148,52 @@ def main():
                 elif so == 25 and (stem != "In the author's opinion, the absorption of immigrants into American society is ________." or not expl.startswith('【精准定位】该题考查作者态度，需纵观全文') or len(expl) > 650 or not expl.endswith('不可将其误当成作者观点。') or '25. 按照作者观点' in expl):
                     round34_anomalies.append(('2006_ky1_q25', stem, len(expl), expl[:30], expl[-30:]))
 
+            # Check Round 35: 2004 ky1 T3 (Q31-Q35) / 2021 ky2 T1 (Q21, Q23, Q24, Q25) / 9 leakage cleanups / zero '参考答案'
+            if '参考答案' in expl:
+                round35_anomalies.append(('zero_cankaodaan_leakage', yr, cat, so, expl[-50:]))
+
+            if yr == 2004 and cat == 'ky1':
+                if so == 31 and (not expl.startswith('【精准定位】\n该句子的下文，即从②句 but 开始论述') or "31.By fEllenSperoisn't" in expl):
+                    round35_anomalies.append(('2004_ky1_q31', expl[:50]))
+                elif so == 32 and (not expl.startswith('【精准定位】\n第二段前四句先列举了经济减速的表现') or '32.Howdothepublicfeelabout' in expl):
+                    round35_anomalies.append(('2004_ky1_q32', expl[:50]))
+                elif so == 33 and (not expl.startswith('【精准定位】\n直接定位至第三段②句') or '33.Whenmentioningfthe$4' in expl):
+                    round35_anomalies.append(('2004_ky1_q33', expl[:50]))
+                elif so == 34 and (not expl.startswith('【精准定位】\n根据题干定位到最后一段首句') or '34.Whycanmanypeopleseefsilverliningsj' in expl):
+                    round35_anomalies.append(('2004_ky1_q34', expl[:50]))
+                elif so == 35 and (not expl.startswith('【精准定位】\n这篇文章主要涉及美国经济') or 'tThOjh' in expl or 'Dinerscangethotfood' in expl):
+                    round35_anomalies.append(('2004_ky1_q35', expl[:50]))
+
+            if yr == 2021 and cat == 'ky2':
+                if so == 21 and (stem != 'Research by the World Economic Forum suggests ________.' or not expl.startswith('［精准定位］根据题干关键词Research by the World Economic Forum定位至首段③句') or 'U ❶' in expl or '21.世界经济论坛的研究表明' in expl):
+                    round35_anomalies.append(('2021_ky2_q21', stem, expl[:50]))
+                elif so == 23 and (stem != 'Efforts to resolve the skills mismatch in Canada ________.' or not expl.startswith('［精准定位］第二段末句指出，加拿大及其他地方所作的努力充其量只能说是迟缓无力的') or '皿❶' in expl or '23.为解决技能不匹配问题' in expl):
+                    round35_anomalies.append(('2021_ky2_q23', stem, expl[:50]))
+                elif so == 24 and (stem != 'We can learn from Paragraph 3 that there was ________.' or not expl.startswith('［精准定位］第三段①句指出，疫情期间失业率居高不下。') or '24.从第三段我们得知' in expl):
+                    round35_anomalies.append(('2021_ky2_q24', stem, expl[:50]))
+                elif so == 25 and (stem != 'Scandinavian Airlines decided to ________.' or not expl.startswith('［精准定位］由题干关键词Scandinavian Airlines快速定位至末段③句。') or '25.北欧航空公司决定' in expl):
+                    round35_anomalies.append(('2021_ky2_q25', stem, expl[:50]))
+
+            # Leakage tail cleanups
+            if yr == 2014 and cat == 'ky1' and so == 28 and 'The ot' in expl:
+                round35_anomalies.append(('2014_ky1_q28_leakage', expl[-40:]))
+            if yr == 2001 and cat == 'ky1' and so == 34 and 'Examples of benef' in expl:
+                round35_anomalies.append(('2001_ky1_q34_leakage', expl[-40:]))
+            if yr == 2018 and cat == 'ky1' and so == 29 and 'So when young people' in expl:
+                round35_anomalies.append(('2018_ky1_q29_leakage', expl[-40:]))
+            if yr == 2017 and cat == 'ky1' and so == 23 and 'It has not gotten anywhere close' in expl:
+                round35_anomalies.append(('2017_ky1_q23_leakage', expl[-40:]))
+            if yr == 2010 and cat == 'ky1' and so == 28 and 'The Bilski case involves' in expl:
+                round35_anomalies.append(('2010_ky1_q28_leakage', expl[-40:]))
+            if yr == 2020 and cat == 'ky1' and so == 24 and 'A u town of culture could be' in expl:
+                round35_anomalies.append(('2020_ky1_q24_leakage', expl[-40:]))
+            if yr == 2013 and cat == 'ky1' and so == 38 and 'The 8-0 objection' in expl:
+                round35_anomalies.append(('2013_ky1_q38_leakage', expl[-40:]))
+            if yr == 2013 and cat == 'ky1' and so == 39 and 'Some powers do belong' in expl:
+                round35_anomalies.append(('2013_ky1_q39_leakage', expl[-40:]))
+            if yr == 2022 and cat == 'ky1' and so == 45 and '奢三、语篇分析' in expl:
+                round35_anomalies.append(('2022_ky1_q45_leakage', expl[-40:]))
+
 
 
 
@@ -1247,6 +1294,7 @@ def main():
     results["54. 2006 ky1 T4 Q40 二维码乱码切除 / 2017 & 2019 ky1 完型 Q20 章节标题与词汇切除 / 2022 ky2 完型 Q2 语篇切除 / 2021 ky2 完型 Q20 选项错挂修复与杂质切除 / 2002 ky1 完型 Q8 段落倒灌切除 100% 官方黄金校准"] = (len(round32_anomalies) == 0)
     results["55. 2008 ky1 完型 Q4,11 错挂纠偏 / 2007 ky1 完型 Q7 词汇与正文切除 / 2021 ky1 T3 Q32,34 双语重复切除与题干补全 / 2021 ky2 T1 Q22 与 2022 ky2 T1 Q24 双语重复切除 100% 官方黄金校准"] = (len(round33_anomalies) == 0)
     results["56. 2021 ky1 T3 Q33,35 / 2022 ky2 T1 Q21-23,25 / 2022 ky2 T2 Q26,28-30 / 2006 ky1 T2 Q21,23-25 题干截断补全与双语重复/概览错挂切除 100% 官方黄金校准"] = (len(round34_anomalies) == 0)
+    results["57. 2004 ky1 T3 模拟题乱码切除与参考答案清零 / 2021 ky2 T1 双语堆叠与倒灌切除 / 9处正文段落残片彻底提纯 100% 官方黄金校准"] = (len(round35_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1326,6 +1374,8 @@ def main():
             print(f"Round 33 anomalies ({len(round33_anomalies)}):", round33_anomalies)
         if round34_anomalies:
             print(f"Round 34 anomalies ({len(round34_anomalies)}):", round34_anomalies)
+        if round35_anomalies:
+            print(f"Round 35 anomalies ({len(round35_anomalies)}):", round35_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
