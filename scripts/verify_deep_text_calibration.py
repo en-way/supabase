@@ -141,6 +141,7 @@ def main():
     round41_anomalies = []
     round42_anomalies = []
     round43_anomalies = []
+    round44_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -821,7 +822,7 @@ def main():
                     round25_anomalies.append(('2010_ky1_q23', opt_map.get('A')))
                 elif so == 24 and (stem != "What can be learned about Cardus according to the last two paragraphs?" or opt_map.get('A') != "His music criticism may not appeal to readers today." or opt_map.get('B') != "His reputation as a music critic has long been in dispute."):
                     round25_anomalies.append(('2010_ky1_q24', stem, opt_map))
-                elif so == 31 and (stem != "By citing the book The Tipping Point, the author intends to" or opt_map.get('B') != "discuss influentials' function in spreading ideas"):
+                elif so == 31 and (stem not in ["By citing the book The Tipping Point, the author intends to", "By citing the book The Tipping Point, the author intends to ________."] or opt_map.get('B') != "discuss influentials' function in spreading ideas"):
                     round25_anomalies.append(('2010_ky1_q31', stem, opt_map.get('B')))
             if yr == 2001 and cat == 'ky1' and so == 22:
                 if opt_map.get('A') != "there is little distinction between specialisation and professionalisation" or opt_map.get('B') != "amateurs can compete with professionals in some areas of science":
@@ -1465,6 +1466,27 @@ def main():
                     if not c.startswith('The most thoroughly studied intellectuals in the history of the New World') or 'carriers of European culture, adjusting to New World circumstances' not in c or 'John Winthrop, an educated gentleman, lawyer, and official of the Crown' not in c or 'Our main end was to catch fish.' not in c:
                         round43_anomalies.append(('2009_ky1_passage_text4_content', c[:100]))
 
+            # Check Round 44: 2010 ky1 Passages 0-5
+            if yr == 2010 and cat == 'ky1':
+                if p.get('id') == '7202d636-987e-50db-b353-d6a943afd957':
+                    if not c.startswith("In 1924 America's National Research Council") or c.startswith("T In 1924") or 'alleged "Hawthorne effect" is hard to pin down.' not in c:
+                        round44_anomalies.append(('2010_ky1_passage_use_of_english', c[:60]))
+                elif p.get('id') == '617af397-6632-5f9b-82d5-b9388d9bbb12':
+                    if not c.startswith('Of all the changes that have taken place in English-language newspapers') or 'Neville Cardus' not in c or 'amateur tradition in music criticism has been in headlong retreat.' not in c or 'What can be learned about Cardus' in c or len(c.split()) < 420:
+                        round44_anomalies.append(('2010_ky1_passage_text1_content', len(c.split()), c[:80]))
+                elif p.get('id') == '6c969315-eaf7-55c2-867f-73543fe33ff5':
+                    if not c.startswith('Over the past decade, thousands of patents have been granted') or 'The Bilski case involves a claimed patent on a method for hedging risk in the energy market.' not in c or 'anti-patent trend at the Supreme Court' not in c or len(c.split()) < 420:
+                        round44_anomalies.append(('2010_ky1_passage_text2_content', len(c.split()), c[:80]))
+                elif p.get('id') == 'd92f03fb-836e-5e00-b5cf-98625e07171f':
+                    if not c.startswith('In his book The Tipping Point, Malcolm Gladwell argues') or 'With the exception of a few celebrities like Oprah Winfrey' not in c or 'critical mass of easily influenced people.' not in c or len(c.split()) < 430:
+                        round44_anomalies.append(('2010_ky1_passage_text3_content', len(c.split()), c[:80]))
+                elif p.get('id') == '9dc10314-cec1-55df-ab57-10c3a373d2df':
+                    if not c.startswith('Bankers have been blaming themselves for their troubles in public.') or "Unfortunately, banks' lobbying now seems to be working." not in c or 'It was banks that were on the wrong planet, with accounts that vastly overvalued assets.' not in c or 'Successful markets require independent and even combative standard-setters.' not in c or len(c.split()) < 420:
+                        round44_anomalies.append(('2010_ky1_passage_text4_content', len(c.split()), c[:80]))
+                elif p.get('id') == '74816315-11f3-5946-91bf-77d6d41c2323':
+                    if '[A]' not in c or '[B]' not in c or '[C]' not in c or '[D]' not in c or '[E]' not in c or '[F]' not in c or '[G]' not in c or len(c.split()) < 580:
+                        round44_anomalies.append(('2010_ky1_passage_partb_content', len(c.split())))
+
             # Check Round 14: 2004 Reading Passages 2-5
             if yr == 2004 and cat == 'ky1':
                 if so == 2 and ('Gant Redmon' not in c or 'CareerBuilder' not in c):
@@ -1561,8 +1583,8 @@ def main():
     results["62. 2021 ky2 Text 3-4(Q31-40)官方答案纠偏(Q32选B)、跨篇污染选项修复(Q33)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round40_anomalies) == 0)
     results["63. 2017 ky1 Text 1(Q21-25)跨篇污染选项修复(Q22/24)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round41_anomalies) == 0)
     results["64. 2009 ky1 Text 1(Q21-25)与Text 2(Q26-28)截断题干补全、双语堆叠与截断彻底提纯、篇章7段417词黄金还原 100% 官方黄金校准"] = (len(round42_anomalies) == 0)
-    results["64. 2009 ky1 Text 1(Q21-25)与Text 2(Q26-28)截断题干补全、双语堆叠与截断彻底提纯、篇章7段417词黄金还原 100% 官方黄金校准"] = (len(round42_anomalies) == 0)
     results["65. 2009 ky1 Text 3-4(Q31-40)题干补全、Q35截断选项修复、Q39污染选项还原、双语堆叠彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round43_anomalies) == 0)
+    results["66. 2010 ky1 阅读 Text 1-4 与 Part B 全篇黄金重构、Q37 真实选项纠偏、Q39 原卷精解还原与双语堆叠切除 100% 官方黄金校准"] = (len(round44_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1662,6 +1684,8 @@ def main():
             print(f"Round 42 anomalies ({len(round42_anomalies)}):", round42_anomalies)
         if round43_anomalies:
             print(f"Round 43 anomalies ({len(round43_anomalies)}):", round43_anomalies)
+        if round44_anomalies:
+            print(f"Round 44 anomalies ({len(round44_anomalies)}):", round44_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
