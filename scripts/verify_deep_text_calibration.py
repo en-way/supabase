@@ -140,6 +140,7 @@ def main():
     round40_anomalies = []
     round41_anomalies = []
     round42_anomalies = []
+    round43_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -604,7 +605,7 @@ def main():
                     round20_anomalies.append(('2009_q3_opts', opt_map))
                 if so == 10 and (opt_map.get('B') != 'forward' or opt_map.get('C') != 'afterward' or opt_map.get('D') != 'backward'):
                     round20_anomalies.append(('2009_q10_opts', opt_map))
-                if so == 35 and opt_map.get('A') != 'results directly from competitive':
+                if so == 35 and not opt_map.get('A', '').startswith('results directly from competitive'):
                     round20_anomalies.append(('2009_q35_opt_A', opt_map.get('A')))
             if yr == 2014 and cat == 'ky1' and so == 9:
                 if opt_map.get('A') != 'channel':
@@ -805,7 +806,7 @@ def main():
 
             # Round 25 checks
             if yr == 2009 and cat == 'ky1' and so == 38:
-                if not stem.endswith('Massachusetts Bay') or len(expl) < 500 or '［精准定位］' not in expl:
+                if 'Massachusetts Bay' not in stem or len(expl) < 500 or '［精准定位］' not in expl:
                     round25_anomalies.append(('2009_ky1_q38', stem, len(expl)))
             if yr == 2012 and cat == 'ky1':
                 if so == 22 and (opt_map.get('D') != 'recognize the limitations of advertisements' or opt_map.get('B') != "learn from advertisers' experience"):
@@ -1395,6 +1396,41 @@ def main():
                     if ans != 'D' or stem != 'Skeptical observers believe that ancestry testing fails to ________.' or opt_map.get('D') != 'achieve the claimed accuracy' or not expl.rstrip().endswith('故正确。'):
                         round42_anomalies.append(('2009_ky1_q28', stem, ans, opt_map, expl[-60:]))
 
+            # Check Round 43: 2009 ky1 Reading Comprehension Text 3 & 4 (Q31-Q40)
+            if yr == 2009 and cat == 'ky1' and 31 <= so <= 40:
+                if not expl.startswith('［精准定位］') or '31.' in expl[:50] or '32.' in expl[:50] or '33.' in expl[:50] or '34.' in expl[:50] or '35.' in expl[:50] or '36.' in expl[:50] or '37.' in expl[:50] or '38.' in expl[:50] or '39.' in expl[:50] or '40.' in expl[:50]:
+                    round43_anomalies.append((f'2009_ky1_q{so}_head_stacked', expl[:60]))
+                if so == 31:
+                    if ans != 'D' or stem != 'The author holds in Paragraph 1 that the importance of education in poor countries ________.' or opt_map.get('D') != 'has been overestimated' or not expl.rstrip().endswith('通常正确答案在两者之中。'):
+                        round43_anomalies.append(('2009_ky1_q31', stem, ans, opt_map, expl[-60:]))
+                elif so == 32:
+                    if ans != 'B' or stem != 'It is stated in Paragraph 1 that the construction of a new educational system ________.' or opt_map.get('B') != 'takes efforts of generations' or not expl.rstrip().endswith('快速锁定答案。'):
+                        round43_anomalies.append(('2009_ky1_q32', stem, ans, opt_map, expl[-60:]))
+                elif so == 33:
+                    if ans != 'B' or stem != 'A major difference between the Japanese and U.S. workforces is that ________.' or opt_map.get('B') != 'the Japanese workforce is more productive' or not expl.rstrip().endswith('故而迅速锁定答案为［B］。'):
+                        round43_anomalies.append(('2009_ky1_q33', stem, ans, opt_map, expl[-60:]))
+                elif so == 34:
+                    if ans != 'C' or stem != 'The author quotes the example of our ancestors to show that education emerged ________.' or opt_map.get('C') != 'when people no longer went hungry' or not expl.rstrip().endswith('故排除。'):
+                        round43_anomalies.append(('2009_ky1_q34', stem, ans, opt_map, expl[-60:]))
+                elif so == 35:
+                    if ans != 'C' or stem != 'According to the last paragraph, development of education ________.' or opt_map.get('A') != 'results directly from competitive environments' or opt_map.get('B') != 'does not depend on economic performance' or opt_map.get('C') != 'follows improved productivity' or not expl.rstrip().endswith('故可快速锁定选项［C］。'):
+                        round43_anomalies.append(('2009_ky1_q35', stem, ans, opt_map, expl[-60:]))
+                elif so == 36:
+                    if ans != 'B' or stem != 'The author holds that in the seventeenth-century New England ________.' or opt_map.get('B') != 'intellectual interests were encouraged' or not expl.rstrip().endswith('因此排除。'):
+                        round43_anomalies.append(('2009_ky1_q36', stem, ans, opt_map, expl[-60:]))
+                elif so == 37:
+                    if ans != 'B' or stem != 'It is suggested in Paragraph 2 that New Englanders ________.' or opt_map.get('A') != 'experienced a comparatively peaceful early history' or opt_map.get('B') != 'brought with them the culture of the Old World' or not expl.rstrip().endswith('得到正确答案［B］。'):
+                        round43_anomalies.append(('2009_ky1_q37', stem, ans, opt_map, expl[-60:]))
+                elif so == 38:
+                    if ans != 'D' or stem != 'The early ministers and political leaders in Massachusetts Bay ________.' or opt_map.get('D') != 'created a new intellectual atmosphere in New England' or not expl.rstrip().endswith('与“新大陆的文化生活”无关。'):
+                        round43_anomalies.append(('2009_ky1_q38', stem, ans, opt_map, expl[-60:]))
+                elif so == 39:
+                    if ans != 'A' or stem != 'The story of John Dane shows that less well-educated New Englanders were often ________.' or opt_map.get('A') != 'influenced by superstitions' or opt_map.get('B') != 'troubled with religious beliefs' or opt_map.get('C') != 'puzzled by church sermons' or opt_map.get('D') != 'frustrated with family earnings' or not expl.rstrip().endswith('从而快速锁定答案［A］。'):
+                        round43_anomalies.append(('2009_ky1_q39', stem, ans, opt_map, expl[-60:]))
+                elif so == 40:
+                    if ans != 'C' or stem != 'The text suggests that early settlers in New England ________.' or opt_map.get('C') != 'came from different intellectual backgrounds' or not expl.rstrip().endswith('如［A］、［B］、［D］。'):
+                        round43_anomalies.append(('2009_ky1_q40', stem, ans, opt_map, expl[-60:]))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -1419,6 +1455,15 @@ def main():
             if yr == 2009 and cat == 'ky1' and p.get('id') == '4558fc29-b3c2-5b42-8fe0-886db1970083':
                 if not c.startswith('Habits are a funny thing') or 'setting our brains on auto-pilot' not in c or 'unchangeable creatures of habit' not in c or 'Dawna Markova' not in c or 'This is where developing new habits comes in.' not in c:
                     round42_anomalies.append(('2009_ky1_passage_text1_content', c[:100]))
+
+            # Check Round 43: 2009 ky1 Passage 4 (Text 3) & Passage 5 (Text 4)
+            if yr == 2009 and cat == 'ky1':
+                if p.get('id') == '009572b7-6be8-54fc-bf41-1b95675cf4ec':
+                    if not c.startswith('The relationship between formal education and economic growth in poor countries is widely misunderstood') or 'illiterate, non-English-speaking Mexican workers' not in c or "constraints on improving productivity explain why education isn't developing more quickly there than it is." not in c:
+                        round43_anomalies.append(('2009_ky1_passage_text3_content', c[:100]))
+                elif p.get('id') == '13ea06a2-2815-5010-a422-61e736731501':
+                    if not c.startswith('The most thoroughly studied intellectuals in the history of the New World') or 'carriers of European culture, adjusting to New World circumstances' not in c or 'John Winthrop, an educated gentleman, lawyer, and official of the Crown' not in c or 'Our main end was to catch fish.' not in c:
+                        round43_anomalies.append(('2009_ky1_passage_text4_content', c[:100]))
 
             # Check Round 14: 2004 Reading Passages 2-5
             if yr == 2004 and cat == 'ky1':
@@ -1516,6 +1561,8 @@ def main():
     results["62. 2021 ky2 Text 3-4(Q31-40)官方答案纠偏(Q32选B)、跨篇污染选项修复(Q33)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round40_anomalies) == 0)
     results["63. 2017 ky1 Text 1(Q21-25)跨篇污染选项修复(Q22/24)、题干补全、双语堆叠与截断彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round41_anomalies) == 0)
     results["64. 2009 ky1 Text 1(Q21-25)与Text 2(Q26-28)截断题干补全、双语堆叠与截断彻底提纯、篇章7段417词黄金还原 100% 官方黄金校准"] = (len(round42_anomalies) == 0)
+    results["64. 2009 ky1 Text 1(Q21-25)与Text 2(Q26-28)截断题干补全、双语堆叠与截断彻底提纯、篇章7段417词黄金还原 100% 官方黄金校准"] = (len(round42_anomalies) == 0)
+    results["65. 2009 ky1 Text 3-4(Q31-40)题干补全、Q35截断选项修复、Q39污染选项还原、双语堆叠彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round43_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1611,6 +1658,10 @@ def main():
             print(f"Round 41 anomalies ({len(round41_anomalies)}):", round41_anomalies)
         if round42_anomalies:
             print(f"Round 42 anomalies ({len(round42_anomalies)}):", round42_anomalies)
+        if round42_anomalies:
+            print(f"Round 42 anomalies ({len(round42_anomalies)}):", round42_anomalies)
+        if round43_anomalies:
+            print(f"Round 43 anomalies ({len(round43_anomalies)}):", round43_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
