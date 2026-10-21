@@ -145,6 +145,7 @@ def main():
     round45_anomalies = []
     round46_anomalies = []
     round47_anomalies = []
+    round48_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -571,7 +572,7 @@ def main():
                     round20_anomalies.append(('2006_q6_opt_B', opt_map.get('B')))
                 if so == 9 and (ans != 'A' or opt_map.get('A') != 'predicts' or opt_map.get('D') != 'discovers'):
                     round20_anomalies.append(('2006_q9_ans_or_opts', ans, opt_map))
-                if so == 16 and opt_map.get('B') != '(turn) over':
+                if so == 16 and opt_map.get('B') not in ['(turn) over', 'over']:
                     round20_anomalies.append(('2006_q16_opt_B', opt_map.get('B')))
                 if so == 26 and opt_map.get('B') != 'the actors of the RSC imitate Shakespeare on and off stage':
                     round20_anomalies.append(('2006_q26_opt_B', opt_map.get('B')))
@@ -688,22 +689,262 @@ def main():
                     round23_anomalies.append(('2008_ky1_q35', ans, opt_map.get('C'), len(expl)))
             if yr == 2006 and cat == 'ky1':
                 if so == 22:
-                    if stem != 'According to the author, the department stores of the 19th century' or ans != 'A' or opt_map.get('A') != 'played a role in the spread of popular culture' or opt_map.get('D') != 'owed its emergence to the culture of consumption':
+                    if stem not in ['According to the author, the department stores of the 19th century', 'According to the author, the department stores of the 19th century ________.'] or ans != 'A' or opt_map.get('A') != 'played a role in the spread of popular culture' or opt_map.get('D') != 'owed its emergence to the culture of consumption':
                         round23_anomalies.append(('2006_ky1_q22', stem, ans, opt_map))
                 elif so == 25 and opt_map.get('B') != 'successful':
                     round23_anomalies.append(('2006_ky1_q25_opt_B', opt_map.get('B')))
-                elif so == 31 and (opt_map.get('A') != 'large animals were vulnerable to the changing' or opt_map.get('D') != 'slow-growing fish outlive fast-growing ones'):
+                elif so == 31 and (opt_map.get('A') not in ['large animals were vulnerable to the changing', 'large animals were vulnerable to the changing environment'] or opt_map.get('D') != 'slow-growing fish outlive fast-growing ones'):
                     round23_anomalies.append(('2006_ky1_q31_opts', opt_map))
                 elif so == 32:
-                    if stem != "We can infer from Dr. Myers and Dr. Worm’s paper that" or ans != 'A' or opt_map.get('A') != 'the stock of large predators in some old fisheries has reduced by 90%' or opt_map.get('C') != 'the catch sizes in new fisheries are only 20% of the original amount':
+                    if (not stem.startswith("We can infer from Dr. Myers and Dr. Worm")) or ans != 'A' or opt_map.get('A') != 'the stock of large predators in some old fisheries has reduced by 90%' or opt_map.get('C') != 'the catch sizes in new fisheries are only 20% of the original amount':
                         round23_anomalies.append(('2006_ky1_q32', stem, ans, opt_map))
                 elif so == 36:
-                    if stem != 'By citing the examples of poets Wordsworth and Baudelaire, the author intends to show that' or ans != 'D' or opt_map.get('D') != 'artists have changed their focus of interest' or expl.startswith('情况并非总是如此'):
+                    if stem not in ['By citing the examples of poets Wordsworth and Baudelaire, the author intends to show that', 'By citing the examples of poets Wordsworth and Baudelaire, the author intends to show that ________.'] or ans != 'D' or opt_map.get('D') != 'artists have changed their focus of interest' or expl.startswith('情况并非总是如此'):
                         round23_anomalies.append(('2006_ky1_q36', stem, ans, opt_map.get('D'), expl[:50]))
                 elif so == 38 and opt_map.get('A') != 'emerges in the wake of the anti-happy art':
                     round23_anomalies.append(('2006_ky1_q38_opt_A', opt_map.get('A')))
                 elif so == 39:
-                    if stem != 'We can learn from the last paragraph that the author believes' or opt_map.get('D') != 'the anti-happy art flourishes when economy booms' or opt_map.get('B') != 'the anti-happy art is distasteful but refreshing':
+                    if stem not in ['We can learn from the last paragraph that the author believes', 'We can learn from the last paragraph that the author believes ________.'] or opt_map.get('D') != 'the anti-happy art flourishes when economy booms' or opt_map.get('B') != 'the anti-happy art is distasteful but refreshing':
+                        round23_anomalies.append(('2006_ky1_q39', stem, opt_map))
+            if yr == 2005 and cat == 'ky1':
+                if so == 4 and (ans != 'C' or opt_map.get('C') != 'missing'):
+                    round17_anomalies.append(('2005_q4_ans_or_opts', ans, opt_map))
+                if so == 5 and (ans != 'B' or opt_map.get('B') != 'though'):
+                    round17_anomalies.append(('2005_q5_ans_or_opts', ans, opt_map))
+                if so == 9 and (ans != 'D' or opt_map.get('D') != 'whereas'):
+                    round17_anomalies.append(('2005_q9_ans_or_opts', ans, opt_map))
+                if so == 11 and (ans != 'C' or opt_map.get('C') != 'messages' or not expl.startswith('11.')):
+                    round17_anomalies.append(('2005_q11_ans_or_opts_or_expl', ans, opt_map.get('C'), expl[:30]))
+                if so == 12 and (ans != 'A' or opt_map.get('A') != 'at first' or not expl.startswith('12.')):
+                    round17_anomalies.append(('2005_q12_ans_or_opts_or_expl', ans, opt_map.get('A'), expl[:30]))
+                if so == 13 and (ans != 'D' or opt_map.get('D') != 'exposed'):
+                    round17_anomalies.append(('2005_q13_ans_or_opts', ans, opt_map))
+                if so == 14 and (ans != 'C' or opt_map.get('C') != 'inefficient'):
+                    round17_anomalies.append(('2005_q14_ans_or_opts', ans, opt_map))
+                if so == 15 and (ans != 'D' or opt_map.get('D') != 'create'):
+                    round17_anomalies.append(('2005_q15_ans_or_opts', ans, opt_map))
+                if so == 16 and (ans != 'B' or opt_map.get('B') != 'also'):
+                    round17_anomalies.append(('2005_q16_ans_or_opts', ans, opt_map))
+                if so == 17 and (ans != 'C' or opt_map.get('C') != 'aware'):
+                    round17_anomalies.append(('2005_q17_ans_or_opts', ans, opt_map))
+                if so == 18 and (ans != 'D' or opt_map.get('D') != 'notice'):
+                    round17_anomalies.append(('2005_q18_ans_or_opts', ans, opt_map))
+                if so == 19 and (ans != 'A' or opt_map.get('A') != 'available'):
+                    round17_anomalies.append(('2005_q19_ans_or_opts', ans, opt_map))
+                if so == 20 and (ans != 'B' or opt_map.get('B') != 'such as'):
+                    round17_anomalies.append(('2005_q20_ans_or_opts', ans, opt_map))
+                if so == 22:
+                    if not stem.endswith('________.') or 'it is all too monkey' not in stem or ans != 'B':
+                        round17_anomalies.append(('2005_q22_stem_or_ans', stem, ans))
+                    if opt_map.get('A') != 'monkeys are also outraged by slack rivals' or opt_map.get('B') != "resenting unfairness is also monkeys' nature":
+                        round17_anomalies.append(('2005_q22_opts', opt_map))
+            if yr == 2003 and cat == 'ky1' and so == 23:
+                if stem != 'The phrase "making the biggest splash" (Line 1, Paragraph 3) most probably means ________.':
+                    round17_anomalies.append(('2003_q23_stem', stem))
+            if yr == 2006 and cat == 'ky1' and so == 28:
+                if stem != 'By saying "Stratford cries poor traditionally" (Line 2, Paragraph 4), the author implies that ________.':
+                    round17_anomalies.append(('2006_q28_stem', stem))
+                if opt_map.get('A') != 'Stratford cannot afford the expansion projects':
+                    round17_anomalies.append(('2006_q28_opt_A', opt_map.get('A')))
+            if yr == 2006 and cat == 'ky1' and so == 33:
+                if stem != 'By saying "these figures are conservative" (Line 1, Paragraph 3), Dr. Worm means that ________.':
+                    round17_anomalies.append(('2006_q33_stem', stem))
+                if opt_map.get('D') != 'the data collected so far are out of date':
+                    round17_anomalies.append(('2006_q33_opt_D', opt_map.get('D')))
+
+            # Check Round 18: 2011 ky1, 2014 ky1, 2001 ky1 authentic options & answers
+            if yr == 2011 and cat == 'ky1':
+                if so == 21 and (ans != 'C' or opt_map.get('C') != 'received acclaim'):
+                    round18_anomalies.append(('2011_q21', ans, opt_map))
+                if so == 22 and (ans != 'B' or opt_map.get('B') != 'modest'):
+                    round18_anomalies.append(('2011_q22', ans, opt_map))
+                if so == 23 and (ans != 'D' or opt_map.get('D') != 'overestimate the value of live performances'):
+                    round18_anomalies.append(('2011_q23', ans, opt_map))
+                if so == 32 and (ans != 'C' or opt_map.get('C') != 'strong user traffic'):
+                    round18_anomalies.append(('2011_q32', ans, opt_map))
+                if so == 33 and (ans != 'B' or opt_map.get('B') != 'can be used to produce negative effects in marketing'):
+                    round18_anomalies.append(('2011_q33', ans, opt_map))
+                if so == 35 and (ans != 'A' or opt_map.get('A') != 'Alternatives to conventional paid media.'):
+                    round18_anomalies.append(('2011_q35', ans, opt_map))
+            if yr == 2014 and cat == 'ky1':
+                if so == 31 and (ans != 'B' or opt_map.get('B') != 'a handsome reward for researchers'):
+                    round18_anomalies.append(('2014_q31', ans, opt_map))
+                if so == 32 and (ans != 'C' or opt_map.get('C') != 'the founders of the new awards'):
+                    round18_anomalies.append(('2014_q32', ans, opt_map))
+                if so == 33 and (ans != 'C' or opt_map.get('C') != 'the joint effort of modern researchers'):
+                    round18_anomalies.append(('2014_q33', ans, opt_map))
+                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not expl.startswith('［精准定位］')):
+                    round18_anomalies.append(('2014_q39', ans, opt_map, expl[:30]))
+                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not expl.startswith('［精准定位］')):
+                    round18_anomalies.append(('2014_q40', ans, opt_map, expl[:30]))
+            if yr == 2001 and cat == 'ky1':
+                if so == 32 and (ans != 'A' or opt_map.get('A') != 'failure to realize its real problem'):
+                    round18_anomalies.append(('2001_q32', ans, opt_map))
+                if so == 40 and (ans != 'D' or opt_map.get('D') != 'the economic situation'):
+                    round18_anomalies.append(('2001_q40', ans, opt_map))
+
+            # Check Round 20: 2006/2007/2008/2009/2014/2021 option truncations, stems & OCR repairs
+            if yr == 2007 and cat == 'ky1':
+                if so == 4 and opt_map.get('C') != 'open (to)':
+                    round20_anomalies.append(('2007_q4_opt_C', opt_map.get('C')))
+                if so == 8 and (ans != 'A' or opt_map.get('A') != 'freedom' or opt_map.get('D') != 'reform'):
+                    round20_anomalies.append(('2007_q8_ans_or_opts', ans, opt_map))
+                if so == 15 and (ans != 'B' or opt_map.get('B') != 'cry' or opt_map.get('A') != 'support'):
+                    round20_anomalies.append(('2007_q15_ans_or_opts', ans, opt_map))
+                if so == 23 and opt_map.get('C') != 'is determined by genetic rather than psychological factors':
+                    round20_anomalies.append(('2007_q23_opt_C', opt_map.get('C')))
+                if so == 26 and opt_map.get('C') != 'Telling the differences between certain concepts.':
+                    round20_anomalies.append(('2007_q26_opt_C', opt_map.get('C')))
+                if so == 27 and (stem != 'What can be inferred about intelligence testing from Paragraph 3?' or opt_map.get('D') != 'Scientists have defined the important elements of human intelligence.'):
+                    round20_anomalies.append(('2007_q27', stem, opt_map.get('D')))
+                if so == 28 and (not stem.endswith('________.') or not opt_map.get('A', '').endswith('computational procedures') or not opt_map.get('B', '').endswith('emphasized now')):
+                    round20_anomalies.append(('2007_q28', stem, opt_map))
+                if so == 29 and (not stem.endswith('________.') or opt_map.get('A') != "test scores may not be reliable indicators of one's ability" or opt_map.get('B') != 'IQ scores and SAT results are highly correlated'):
+                    round20_anomalies.append(('2007_q29', stem, opt_map))
+                if so == 32 and (opt_map.get('C') != 'less chance to invest' or not stem.endswith('________.')):
+                    round20_anomalies.append(('2007_q32', stem, opt_map.get('C')))
+                if so == 37 and (not stem.endswith('________.') or opt_map.get('A') != 'whether there is any weak point' or opt_map.get('D') != 'how the potential spies can be located'):
+                    round20_anomalies.append(('2007_q37', stem, opt_map))
+                if so == 40 and (opt_map.get('A') != 'data leakage is more severe in Europe' or opt_map.get('B') != "FTC's decision is essential to data security"):
+                    round20_anomalies.append(('2007_q40', opt_map))
+            if yr == 2006 and cat == 'ky1':
+                if so == 6 and opt_map.get('B') != 'change':
+                    round20_anomalies.append(('2006_q6_opt_B', opt_map.get('B')))
+                if so == 9 and (ans != 'A' or opt_map.get('A') != 'predicts' or opt_map.get('D') != 'discovers'):
+                    round20_anomalies.append(('2006_q9_ans_or_opts', ans, opt_map))
+                if so == 16 and opt_map.get('B') not in ['(turn) over', 'over']:
+                    round20_anomalies.append(('2006_q16_opt_B', opt_map.get('B')))
+                if so == 26 and opt_map.get('B') != 'the actors of the RSC imitate Shakespeare on and off stage':
+                    round20_anomalies.append(('2006_q26_opt_B', opt_map.get('B')))
+                if so == 29 and opt_map.get('A') != 'ticket prices can be raised to cover the spending':
+                    round20_anomalies.append(('2006_q29_opt_A', opt_map.get('A')))
+                if so == 34 and (opt_map.get('B') != 'fisheries should keep their yields below 50% of the biomass' or opt_map.get('D') != 'people should adjust the fishing baseline to the changing situation'):
+                    round20_anomalies.append(('2006_q34_opts', opt_map))
+                if so == 35 and (opt_map.get('A') != 'management efficiency' or opt_map.get('B') != 'biomass level'):
+                    round20_anomalies.append(('2006_q35_opts', opt_map))
+            if yr == 2008 and cat == 'ky1':
+                if so == 1 and opt_map.get('A') != '(be) selected (to do)':
+                    round20_anomalies.append(('2008_q1_opt_A', opt_map.get('A')))
+                if so == 6 and opt_map.get('A') != '(at the) thought (of)':
+                    round20_anomalies.append(('2008_q6_opt_A', opt_map.get('A')))
+                if so == 9 and opt_map.get('B') != 'scoring':
+                    round20_anomalies.append(('2008_q9_opt_B', opt_map.get('B')))
+                if so == 10 and opt_map.get('C') != 'mean':
+                    round20_anomalies.append(('2008_q10_opt_C', opt_map.get('C')))
+                if so == 15 and (opt_map.get('A') != 'given up (to sb/sth)' or opt_map.get('D') != 'put down (to sth)'):
+                    round20_anomalies.append(('2008_q15_opts', opt_map))
+                if so == 18 and (opt_map.get('B') != 'integrated' or opt_map.get('C') != 'woven'):
+                    round20_anomalies.append(('2008_q18_opts', opt_map))
+                if so == 28 and opt_map.get('A') != 'it provides an easier access to scientific results':
+                    round20_anomalies.append(('2008_q28_opt_A', opt_map.get('A')))
+                if so == 29 and opt_map.get('B') != 'subscribe to the journal publishing it':
+                    round20_anomalies.append(('2008_q29_opt_B', opt_map.get('B')))
+                if so == 34 and (opt_map.get('B') != 'the design of military uniforms will remain unchanged' or opt_map.get('D') != 'the existing data of human height will still be applicable'):
+                    round20_anomalies.append(('2008_q34_opts', opt_map))
+                if so == 40 and (opt_map.get('B') != 'military experience' or opt_map.get('D') != 'political stand'):
+                    round20_anomalies.append(('2008_q40_opts', opt_map))
+            if yr == 2009 and cat == 'ky1':
+                if so == 1 and opt_map.get('C') != 'Observe':
+                    round20_anomalies.append(('2009_q1_opt_C', opt_map.get('C')))
+                if so == 3 and (opt_map.get('A') != 'thinner' or opt_map.get('B') != 'stabler'):
+                    round20_anomalies.append(('2009_q3_opts', opt_map))
+                if so == 10 and (opt_map.get('B') != 'forward' or opt_map.get('C') != 'afterward' or opt_map.get('D') != 'backward'):
+                    round20_anomalies.append(('2009_q10_opts', opt_map))
+                if so == 35 and not opt_map.get('A', '').startswith('results directly from competitive'):
+                    round20_anomalies.append(('2009_q35_opt_A', opt_map.get('A')))
+            if yr == 2014 and cat == 'ky1' and so == 9:
+                if opt_map.get('A') != 'channel':
+                    round20_anomalies.append(('2014_q9_opt_A', opt_map.get('A')))
+            if yr == 2021 and cat == 'ky1':
+                if so == 18 and opt_map.get('B') != 'process':
+                    round20_anomalies.append(('2021_q18_opt_B', opt_map.get('B')))
+                if so == 39 and opt_map.get('C') != 'is at odds with its earlier rulings':
+                    round20_anomalies.append(('2021_q39_opt_C', opt_map.get('C')))
+
+            # Check Round 21: Official Answer Rectification & Bleeding Cut
+            if yr == 2001 and cat == 'ky1' and so == 7:
+                if ans != 'D':
+                    round21_anomalies.append(('2001_ky1_q7_ans', ans))
+            if yr == 2003 and cat == 'ky1':
+                if so == 24:
+                    if opt_map.get('B') != 'Straitford guarantees the truthfulness of its information' or opt_map.get('C') != "Straitford's business is characterized by unpredictability":
+                        round21_anomalies.append(('2003_ky1_q24_opts', opt_map))
+                if so == 25:
+                    if expl.startswith('25.') or 'nonconformist image' not in expl or '【命题解七' in expl:
+                        round21_anomalies.append(('2003_ky1_q25_expl', expl[:50]))
+            if yr == 2015 and cat == 'ky1':
+                if so == 28 and ('entering his or her home' not in expl or len(expl) < 300):
+                    round21_anomalies.append(('2015_ky1_q28_expl', len(expl)))
+                if so == 34 and ('has room for further improvement' not in expl or len(expl) < 300):
+                    round21_anomalies.append(('2015_ky1_q34_expl', len(expl)))
+                if so == 36:
+                    if ans != 'A' or 'Others await trial' in expl or len(expl) > 2500:
+                        round21_anomalies.append(('2015_ky1_q36', ans, len(expl)))
+                if so == 37 and ('Rebekah Brooks' in expl or len(expl) > 2500):
+                    round21_anomalies.append(('2015_ky1_q37', len(expl)))
+                if so == 38 and ('astonishing' not in expl or len(expl) < 300):
+                    round21_anomalies.append(('2015_ky1_q38_expl', len(expl)))
+            if yr == 2018 and cat == 'ky1':
+                if so == 31:
+                    if opt_map.get('B') != "It failed to pay due attention to patients' rights." or '【C】正确' in expl:
+                        round21_anomalies.append(('2018_ky1_q31', opt_map.get('B'), 'bleeding' in expl))
+                if so == 32 and 'Q33' in expl:
+                    round21_anomalies.append(('2018_ky1_q32_expl', expl[:50]))
+                if so == 35 and (expl.startswith('done.❻') or '谨慎' not in expl):
+                    round21_anomalies.append(('2018_ky1_q35_expl', expl[:50]))
+                if so in [36, 37, 38] and len(expl) > 2500:
+                    round21_anomalies.append((f'2018_ky1_q{so}_len', len(expl)))
+
+            # Check Round 22: 2008 Text 4 (Q36-40), 2009 Text 2 (Q29-30), 2010 Q45
+            if yr == 2008 and cat == 'ky1':
+                if so == 36:
+                    if not stem.endswith('to') or ans != 'D' or opt_map.get('C') != 'stress the role of slaves in the U.S. history' or '乔治”大为不同' in expl or len(expl) < 400:
+                        round22_anomalies.append(('2008_ky1_q36', stem, ans, opt_map.get('C'), len(expl)))
+                elif so == 37:
+                    if ans != 'B' or opt_map.get('B') != 'in its early days the U.S. was confronted with delicate situations' or '大众生活中存在的记忆资料' in expl:
+                        round22_anomalies.append(('2008_ky1_q37', ans, opt_map.get('B')))
+                elif so == 38:
+                    if stem != 'What do we learn about Thomas Jefferson?' or ans != 'C' or opt_map.get('C') != 'His attitude towards slavery was complex.' or '实施细节' in expl or len(expl) < 400:
+                        round22_anomalies.append(('2008_ky1_q38', stem, ans, opt_map.get('C'), len(expl)))
+                elif so == 39:
+                    if ans != 'A' or expl.startswith('旺。Mo r e than anything') or '【深层解读】' in expl:
+                        round22_anomalies.append(('2008_ky1_q39', ans, expl[:40]))
+                elif so == 40:
+                    if ans != 'B' or expl.startswith('矛盾态度') or '【深层解读】' in expl:
+                        round22_anomalies.append(('2008_ky1_q40', ans, expl[:40]))
+            if yr == 2009 and cat == 'ky1':
+                if so == 29:
+                    if stem != 'In the last paragraph, a problem commercial genetic testing faces is' or ans != 'A' or expl.startswith('29.'):
+                        round22_anomalies.append(('2009_ky1_q29', stem, ans, expl[:30]))
+                elif so == 30:
+                    if stem != 'An appropriate title for the text is most likely to be' or ans != 'B' or expl.startswith('30 . . .'):
+                        round22_anomalies.append(('2009_ky1_q30', stem, ans, expl[:30]))
+            if yr == 2010 and cat == 'ky1' and so == 45:
+                if '42. 本题考核的知识点是' in expl:
+                    round22_anomalies.append(('2010_ky1_q45_bleeding', 'leaked Q42 in explanation'))
+
+            # Check Round 23: 2008 Q35 / 2006 Q22,25,31,32,36,38,39 / 2005 Reading 16 checks / 2001 Q28 / Cloze OCR
+            if yr == 2008 and cat == 'ky1' and so == 35:
+                if opt_map.get('C') != 'Americans have reached their genetic growth limit' or ans != 'C' or len(expl) < 400:
+                    round23_anomalies.append(('2008_ky1_q35', ans, opt_map.get('C'), len(expl)))
+            if yr == 2006 and cat == 'ky1':
+                if so == 22:
+                    if stem not in ['According to the author, the department stores of the 19th century', 'According to the author, the department stores of the 19th century ________.'] or ans != 'A' or opt_map.get('A') != 'played a role in the spread of popular culture' or opt_map.get('D') != 'owed its emergence to the culture of consumption':
+                        round23_anomalies.append(('2006_ky1_q22', stem, ans, opt_map))
+                elif so == 25 and opt_map.get('B') != 'successful':
+                    round23_anomalies.append(('2006_ky1_q25_opt_B', opt_map.get('B')))
+                elif so == 31 and (opt_map.get('A') not in ['large animals were vulnerable to the changing', 'large animals were vulnerable to the changing environment'] or opt_map.get('D') != 'slow-growing fish outlive fast-growing ones'):
+                    round23_anomalies.append(('2006_ky1_q31_opts', opt_map))
+                elif so == 32:
+                    if (not stem.startswith("We can infer from Dr. Myers and Dr. Worm")) or ans != 'A' or opt_map.get('A') != 'the stock of large predators in some old fisheries has reduced by 90%' or opt_map.get('C') != 'the catch sizes in new fisheries are only 20% of the original amount':
+                        round23_anomalies.append(('2006_ky1_q32', stem, ans, opt_map))
+                elif so == 36:
+                    if stem not in ['By citing the examples of poets Wordsworth and Baudelaire, the author intends to show that', 'By citing the examples of poets Wordsworth and Baudelaire, the author intends to show that ________.'] or ans != 'D' or opt_map.get('D') != 'artists have changed their focus of interest' or expl.startswith('情况并非总是如此'):
+                        round23_anomalies.append(('2006_ky1_q36', stem, ans, opt_map.get('D'), expl[:50]))
+                elif so == 38 and opt_map.get('A') != 'emerges in the wake of the anti-happy art':
+                    round23_anomalies.append(('2006_ky1_q38_opt_A', opt_map.get('A')))
+                elif so == 39:
+                    if stem not in ['We can learn from the last paragraph that the author believes', 'We can learn from the last paragraph that the author believes ________.'] or opt_map.get('D') != 'the anti-happy art flourishes when economy booms' or opt_map.get('B') != 'the anti-happy art is distasteful but refreshing':
                         round23_anomalies.append(('2006_ky1_q39', stem, opt_map))
             if yr == 2005 and cat == 'ky1':
                 if so == 21 and stem != 'In the opening paragraph, the author introduces his topic by':
@@ -1587,6 +1828,35 @@ def main():
                     if not (stem.endswith('________.') or stem.endswith('?')):
                         round47_anomalies.append((f'2001_ky1_q{so}_missing_underline', stem))
 
+            # Check Round 48: 2006 ky1
+            if yr == 2006 and cat == 'ky1':
+                if so == 14 and opt_map.get('D') != 'whereas':
+                    round48_anomalies.append(('2006_ky1_q14_opt_D', opt_map.get('D')))
+                elif so == 15 and opt_map.get('C') != 'survival':
+                    round48_anomalies.append(('2006_ky1_q15_opt_C', opt_map.get('C')))
+                elif so == 16 and opt_map.get('B') not in ['over', '(turn) over']:
+                    round48_anomalies.append(('2006_ky1_q16_opt_B', opt_map.get('B')))
+                elif so == 30:
+                    if opt_map.get('B') != "favors the townsfolk's view" or opt_map.get('C') != "takes a detached attitude":
+                        round48_anomalies.append(('2006_ky1_q30_opts', opt_map))
+                elif so == 31:
+                    if stem != 'The extinction of large prehistoric animals is noted to suggest that ________.' or opt_map.get('A') != 'large animals were vulnerable to the changing environment':
+                        round48_anomalies.append(('2006_ky1_q31', stem, opt_map.get('A')))
+                elif so == 35:
+                    if len(expl) < 600 or '［精准定位］' not in expl:
+                        round48_anomalies.append(('2006_ky1_q35_expl_len', len(expl)))
+                elif so == 39:
+                    if not stem.endswith('________.') or '［精准定位］' not in expl or len(expl) < 700:
+                        round48_anomalies.append(('2006_ky1_q39_expl', stem, len(expl)))
+
+                if 21 <= so <= 40:
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round48_anomalies.append((f'2006_ky1_q{so}_missing_underline', stem))
+                    if 26 <= so <= 38:
+                        if re.search(r'^\s*\d{1,2}\.', expl[:40]):
+                            round48_anomalies.append((f'2006_ky1_q{so}_leaked_header', expl[:50]))
+
+
 
 
 
@@ -1695,6 +1965,27 @@ def main():
                     if len(c.split()) < 400 or c.count('\n\n') + 1 != 6 or 'her much-publicized resignation from the editorship' not in c or '12-hour working days, pressured deadlines' not in c:
                         round47_anomalies.append(('2001_ky1_passage_text5_content', len(c.split()), c[:80]))
 
+                # 2006 ky1 Passages Golden Calibration
+                elif p.get('id') == 'fd77d6d0-6ded-51ba-9d44-013d77ee979c':
+                    if p.get('type') != 'cloze' or p.get('passage_number') != 1 or c.count('\n\n') + 1 != 4 or len(c.split()) < 270 or 'Ame ri ca' in c:
+                        round48_anomalies.append(('2006_ky1_passage_cloze', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '0bac5a94-e87c-55fb-b24c-8c12f9d18ef6':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or c.count('\n\n') + 1 != 6 or len(c.split()) < 380 or 'Amen can' in c or 'Peop l e' in c:
+                        round48_anomalies.append(('2006_ky1_passage_t1', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '28dfa39a-3497-58ab-b17a-4b2e1849a872':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or c.count('\n\n') + 1 != 6 or len(c.split()) < 440 or not c.startswith('Stratford-on-Avon'):
+                        round48_anomalies.append(('2006_ky1_passage_t2', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == 'fe979c03-674c-5223-9d58-f99599d97e78':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 3 or c.count('\n\n') + 1 != 4 or len(c.split()) < 420 or 'bad way to do business' not in c:
+                        round48_anomalies.append(('2006_ky1_passage_t3', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '9e8e8e4e-9255-5653-ab22-be437e84ce83':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or c.count('\n\n') + 1 != 7 or len(c.split()) < 410 or 'biomass' in c[:50] or 'pornography' in c[-60:]:
+                        round48_anomalies.append(('2006_ky1_passage_t4', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '5f091ca1-0269-547e-b380-e82bc98ba95d':
+                    if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5:
+                        round48_anomalies.append(('2006_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
+
+
 
 
             # Check Round 14: 2004 Reading Passages 2-5
@@ -1798,6 +2089,7 @@ def main():
     results["67. 2003 ky1 完形与阅读全卷 5 篇篇章黄金重构（Text 3 深度补齐 449 词、Text 4 剔除串文）、Q17/Q20 纠偏、Q27/Q28/Q31/Q37 官方真卷选项还原与解析提纯 100% 官方黄金校准"] = (len(round45_anomalies) == 0)
     results["Assertion 68: 2002 年真题 Use of English + Text 1-4 黄金重构，腰斩截断与倒灌彻底消除，Q5/Q14/Q19/Q22/Q39 五大致命错题纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round46_anomalies) == 0)
     results["Assertion 69: 2001 年开山真题 Use of English + Text 1-5 全卷黄金重构，假文本篡改/掉包与严重腰斩彻底消除，Q12/Q13 官方答案致命纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round47_anomalies) == 0)
+    results["Assertion 70: 2006 年真题 Use of English + Text 1-4 黄金重构，严重腰斩/碎词/截断/双向跨篇倒灌彻底消除，Q14/15/16 选项提纯，Q21-Q39 题干下划线规范化与解析彻底提纯 100% 官方黄金校准"] = (len(round48_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1905,6 +2197,8 @@ def main():
             print(f"Round 46 anomalies ({len(round46_anomalies)}):", round46_anomalies)
         if round47_anomalies:
             print(f"Round 47 anomalies ({len(round47_anomalies)}):", round47_anomalies)
+        if round48_anomalies:
+            print(f"Round 48 anomalies ({len(round48_anomalies)}):", round48_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
