@@ -2,7 +2,7 @@
   "exam": {
     "id": "d80926ab-1841-5d1f-a999-56773986c46d",
     "category_id": "ky1",
-    "title": "2008年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2008年全国硕士研究生入学统一考试英语（一）真题",
     "year": 2008,
     "exam_type": "real",
     "duration_minutes": 180,
@@ -30,8 +30,10 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "The idea that some groups of people may be more intelligent than others is one of those hypotheses that dare not speak its name. But Gregory Cochran is [1] to say it anyway. He is that [2] bird, a scientist who works independently [3] any institution. He helped popularize the idea that some diseases not [4] thought to have a bacterial origin actually have. [5] he, however, might tremble at the [6] of what he is about to do. Together with another two scientists, he is publishing a paper which not only [7] that one group of humanity is more intelligent than the others, but explains the process that has brought this about. The group in [8] are a particular people originated from central Europe. The process is natural selection.\n\nThis group generally do well in IQ test, [9] 12-15 points above the [10] value of 100, and have contributed [11] to the intellectual and cultural life of the West, as the [12] of their elites, including Albert Einstein, [13]. They also suffer more often than most people from a number of nasty genetic diseases, such as Tay-Sachs disease and breast cancer. These facts, [14], have previously been thought to be unrelated. The former was [15] to social effects, such as a tradition of [16] education; the latter was seen as a genetic [17] of genetic isolation. Dr. Cochran suggests that the intelligence and diseases are intimately [18]. His argument is that the unusual history of these people has [19] them to unique evolutionary pressures that have resulted in this [20] state of affairs.",
-      "sort_order": 1
+      "content": "The idea that some groups of people may be more intelligent than others is one of those hypotheses that dare not speak its name. But Gregory Cochran is [1] prepared to say it anyway. He is that [2] rare bird, a scientist who works independently [3] of any institution. He helped popularize the idea that some diseases not [4] previously thought to have a bacterial cause were actually infections, which aroused much controversy when it was first suggested.\n\n[5] Even he, however, might tremble at the [6] thought of what he is about to do. Together with another two scientists, he is publishing a paper which not only [7] suggests that one group of humanity is more intelligent than the others, but explains the process that has brought this about. The group in [8] question are a particular people originated from central Europe. The process is natural selection.\n\nThis group generally do well in IQ test, [9] scoring 12-15 points above the [10] mean value of 100, and have contributed [11] disproportionately to the intellectual and cultural life of the West, as the [12] careers of their elites, including several world-renowned scientists, [13] affirm. They also suffer more often than most people from a number of nasty genetic diseases, such as breast cancer. These facts, [14] however, have previously been thought unrelated. The former has been [15] put down to social effects, such as a strong tradition of [16] valuing education. The latter was seen as a (an) [17] consequence of genetic isolation. Dr. Cochran suggests that the intelligence and diseases are intimately [18] linked. His argument is that the unusual history of these people has [19] subjected them to unique evolutionary pressures that have resulted in this [20] paradoxical state of affairs.",
+      "sort_order": 1,
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "00768dd3-9266-5d06-b52a-479261bf3e73",
@@ -39,8 +41,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "While still catching up to men in some spheres(of modern life, women appear to bway ahead in at least one undesirable catgory. “ Women are particularly susceptible to developing(depression and anxiety di so rd r s in response to stress compared to men,” according to Dr. Yehuda, chief psychiatrist at New York ’s Veteran’S Administration Hospital. JC o S tudi es of both animals and humans have shown that sex hormonesCD som ehow affect the stress response, ca using fem ales under stress to produce more of the trigger chemicals than do males under the same conditions.\n\nIn several of the studies, w h n stressed-out female rats had their ovaries (the female repr od uctive orιans) removed, their chemical responses became equal to those: Jf the males. (trigger [’ tr、 hormones;(trigger chemicals. paragraphs? Addito a woman ’S increased dose(of stress chemicals, are her increased “ opportuniti es” for stress.\n\n“ It’s not n \"cessarily that women don’t cope as wIL\n\nIt’s just that they have so much more to cope with,” says Dr. Y e hud a.. “ Th e i r capacity for tolerating stress may even be greater than men’s,” she observes(,“ it’s just that they’re dealing with so many more things that they become worn out from it more visi bly and sooner. ” (worn out. susceptible to...compared to men,,. N O Dr. Yehuda notes another difference between the sexes. 8“ I think that the kinds of things that women are exposed(to tend to be in more of a chronic or repeated nature.\n\nMen go to war and are exposed to combat stress. 0 Men are exposed to more acts of random physical violence. 0 The kinds of interpersonal(violence that women are exposed to tend to be in domestic situations, by, unfortunately, parents or other fami ly members, and they tend not to be one-shot deals. 0 The wear-and-tear that comes from these longer relationships can be quite devastating. ” so much frustration that that was my escapeCD, to go to school, and ιet ahead and do be tter. ”. Later, her marriage ended and she became a single mother. 0“ It ’ s the hardest thing to ta k care of a teenager, have a job, pay the rent, pay the car payment, and pay the de bt.. I lived from paycheck to paycheck. ” frustration.. Not everyone experiences the kinds of severe chronic stresses Alvarez describes.\n\nBut most women today are coping with a lot of obligations, with few breaks, and feeling the strain(.\n\nAlvarez’s expenence demonstrates the importance of finding ways to diffuse stress before it threatens your health.",
-      "sort_order": 2
+      "content": "While still catching up to men in some spheres of modern life, women appear to be way ahead in at least one undesirable category. \"Women are particularly susceptible to developing depression and anxiety disorders in response to stress compared to men,\" according to Dr. Yehuda, chief psychiatrist at New York's Veteran's Administration Hospital.\n\nStudies of both animals and humans have shown that sex hormones somehow affect the stress response, causing females under stress to produce more of the trigger chemicals than do males under the same conditions. In several of the studies, when stressed-out female rats had their ovaries (the female reproductive organs) removed, their chemical responses became equal to those of the males.\n\nAdding to a woman's increased dose of stress chemicals, are her increased \"opportunities\" for stress. \"It's not necessarily that women don't cope as well. It's just that they have so much more to cope with,\" says Dr. Yehuda. \"Their capacity for tolerating stress may even be greater than men's,\" she observes, \"it's just that they're dealing with so many more things that they become worn out from it more visibly and sooner.\"\n\nDr. Yehuda notes another difference between the sexes. \"I think that the kinds of things that women are exposed to tend to be in more of a chronic or repeated nature. Men go to war and are exposed to combat stress. Men are exposed to more acts of random physical violence. The kinds of interpersonal violence that women are exposed to tend to be in domestic situations, by, unfortunately, parents or other family members, and they tend not to be one-shot deals. The wear-and-tear that comes from these longer relationships can be quite devastating.\"\n\nAdeline Alvarez married at 18 and gave birth to a son, but was determined to finish college. \"I struggled a lot to get the college degree. I was living in so much frustration that that was my escape, to go to school, and get ahead and do better.\" Later, her marriage ended and she became a single mother. \"It's the hardest thing to take care of a teenager, have a job, pay the rent, pay the car payment, and pay the debt. I lived from paycheck to paycheck.\" Not everyone experiences the kinds of severe chronic stresses Alvarez describes. But most women today are coping with a lot of obligations, with few breaks, and feeling the strain. Alvarez's experience demonstrates the importance of finding ways to diffuse stress before it threatens your health and your ability to function.",
+      "sort_order": 2,
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "f78ff8be-ed70-5a30-8dc1-893d450d8289",
@@ -48,8 +52,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "r. I t used to be so straightforward(. A team of researchers working together in the laboratory would subm i t the res ults of their research to a journal.\n\nA journal editor would then remove th e authors' names and affiliations from the paper and send it to their peers(for review.. Depending on the comments received, the editor would accept the paper for publication or decline it. 0 Copyright rested with the journal publisher, and researchers seeking knowledge of the results would have to subscribe(to the journal. have to subscribe to. Il O No longer. 8 Th e Internetand press ure from funding agencies, who are questioning why commercial pub li s h e rιar e making money from government-funded research by restricting access to it is making free access to scientific a reality. 8 The Organisa tion for Economic Co-operation and Development (OECD) has just issued a report describing the far-reaching consequences of this. OThe report, by John Houghton of Victoria University in Austra lia and Graham Vickery of the OECD, makes heavy reading for publishers who have, so far, made handsome(]) profits. 0 But it goes furth er than that. 0 It results a rality. i -and pressure from fundinq aqencies handsome profits. T h e va lue of knowledge and the return on the public investment in research depends, in part, upon wide distribution and ready(access.\n\nIt is big business.\n\nIn America, the core scientific publishing market is estimated at between $ 7 billion and $ 11 billion. 0 T he International Assoc i a ti o l of Scientific, T echnical and Medical Publishers says that there are more than 2, 000 publishers worldwide specializing in these subjects. 0 T hey publish m o r tha n 1. 2 million articles each year in some 16,000 journals. distribution and ready access,. 0 This is now changing. According to the OECD report, some 75 % of scholarl y journals are now online.\n\nEntirely new business models are emerging; three main ones were identified by the report ’s aut h o r s.. Th ere is the so-called big deal, where institutional subscribers pay for access to a collection of online journal titles through site licensing agreements. 0 Th e re is open-access publishi ng, typically supported by asking the author (or his employer) to pay for the paper to be published. Finally, there are open access archives, where organisa tions such as universities or international laboratories support ins ti tu tional r eposi tori es.\n\nOther models exist that are hybrids(of these three, such as delayed open-access, where journals al low only subscribers to read a paper fo.1 the first six months, before making it freely availa l: le to everyone who wishes to see it.\n\nAll this could change the traditional form of the p ee \"r ev i ew process, at least for the publication of papers. wishes to see it.",
-      "sort_order": 3
+      "content": "It used to be so straightforward. A team of researchers working together in the laboratory would submit the results of their research to a journal. A journal editor would then remove the authors' names and affiliations from the paper and send it to their peers for review. Depending on the comments received, the editor would accept the paper for publication or decline it. Copyright rested with the journal publisher, and researchers wanted to use the results of the paper had to subscribe to the journal.\n\nNo longer. The Internet—and pressure from funding agencies, who are questioning why commercial publishers should make money from government-funded research by restricting access to it—is hacking at the foundations of the $5.5 billion a year chemical, and medical publishing market. A report by the Wellcome Trust, a generous charity that funds biomedical research, said that each year more than 1.2 million articles are published in some 16,000 journals.\n\nThis is now changing. According to the OECD report, some 75% of scholarly journals are now online. Entirely new business models for funding are emerging. Three main alternative models have been launched: open-access publishing, which makes articles freely available to all and makes money by charging authors for publication; institutional repositories, in which organizations such as universities make the work of their researchers freely available for anyone to read; and open-access archives, where researchers themselves can make their work available on the Internet.\n\nOf the three models, the open-access publishers have made the most impressive progress: the Public Library of Science (PLoS), a non-profit open-access publisher, has made significant progress in just a few years. Open-access publishing is supported by a large and growing number of universities, research organizations, and government agencies.\n\nThe new publishing models will have a significant impact on scholarly communication. As open-access publishing continues to grow, it will improve the quality of scientific research and speed up scientific progress. It may even end the peer-review process, at least for the publication of papers, since the open-access model allows papers to be reviewed after publication by anyone who wishes to read them.",
+      "sort_order": 3,
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "ced284a0-eb80-5389-a203-0057441d6c2e",
@@ -57,8 +63,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "n the early 1960s Wi lt Chamberlain was one of the only three players in the National Basketball Association (NBA) listed at over seven feet. If he had played last season, however, he wou ld have been one of\n\ns. 8 And they aren’t likely to get any ta ll er.. “ I n the general population today, at this genetic, environmental level, we’ve pretty much gone as far as we can go,” says\n\nf 0 1:/il Growth, which rarely(continues beyond the age of 20, demands calories and nutrients - notably(, protein - to feed expanding tissues. @At the start of the 20th century, under-nutrition and childhood infections got in the way. @) But as di et and health improved, children and adolescents(have, on average, increased in height by about an inch and a ha f every 20 years, a pattern known as the secular trend in height. 0 Yet accord ing to the Centers for Disease Control and Prevention, average height- 5' 911 for men, 51 4” for women-hasn't really changed since 1960.: hasn ’t really changed.\n\nGenetic maximums can change, but don’t expect this to happen soon. Claire C. Gordon, senior anthropologist at the Army Research Center in Na tick, Mass. ’ ensures that 90 percent of the uniforms and workstations fit recrui ts without alteration. 8 She says that, unlike those for basketball, the length of military uniforms has not changed for some time. And if you need to predict human height in the near future to design a piece of equipment, Gordon says that by and large, \"you could use today's data and feel fairly confident.\"",
-      "sort_order": 4
+      "content": "In the early 1960s Wilt Chamberlain was one of the only three players in the National Basketball Association (NBA) listed at over seven feet. If he had played last season, however, he would have been one of 42. The bodies playing major professional sports have changed dramatically over the years, and managers have been more than willing to adjust team uniforms to fit the growing numbers of bigger, longer frames.\n\nThe trend in sports, though, may be obscuring an unnoticed aspect of the American demographic: we seem to have reached our genetic limit in height. Though typically about two inches taller now than 140 years ago, today's people—those born to families who have lived in the U.S. for many generations—apparently reached their limit in the early 1960s. And they aren't likely to get any taller. \"In the general population today, at this genetic, environmental level, we've pretty much gone as far as we can go,\" says anthropologist William Cameron Chumlea of Wright State University School of Medicine in Dayton, Ohio. In the case of sports, the increase in height appears to result from the increasingly common practice of recruiting players from all over the world.\n\nGrowth, which rarely continues beyond the age of 20, demands calories and nutrients—notably, protein—to feed expanding tissues. At the start of the 20th century, under-nutrition and childhood infections got in the way. But as diet and health improved, children and adolescents have, on average, increased in height by about an inch and a half every 20 years, a pattern known as the secular trend in height. Yet according to the Centers for Disease Control and Prevention, average height—5' 9\" for men, 5' 4\" for women—hasn't really changed since 1960.\n\nGenetically speaking, there are advantages to avoiding substantial height. During childbirth, larger babies have more difficulty passing through the birth canal. Moreover, even though humans have been upright for millions of years, our feet and back continue to struggle with bipedal posture and cannot easily withstand repeated strain imposed by oversize limbs. \"There are some real constraints that are set by the genetic architecture of the individual organism,\" says anthropologist William Leonard of Northwestern University.\n\nGenetic maximums can change, but don't expect this to happen soon. Claire C. Gordon, senior anthropologist at the Army Research Center in Natick, Mass., ensures that 90 percent of the uniforms and workstations fit recruits without alteration. She says that, unlike those for basketball, the length of military uniforms has not changed for some time. And if you need to predict human height in the near future to design a piece of equipment, Gordon says that by and large, \"you could use today's data and feel fairly confident.\"",
+      "sort_order": 4,
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "ecc17037-e37f-52df-8075-77576bc1953d",
@@ -66,8 +74,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "In 1784, five years before he became president of the United States, George Washington, 52, was nearly toothless. So he hired a dentist to transplant nine teeth into his jaw — having extracted them from the mouths of his slaves.\n\nThat's a far different image from the cherry-tree-chopping George most people remember from their history books. But recently, many historians have begun to focus on the roles slavery played in the lives of the founding generation. They have been spurred in part by DNA evidence made available in 1998, which almost certainly proved Thomas Jefferson had fathered at least one child with his slave Sally Hemings. More significantly, historians have begun to reveal the moral compromises and the fragile nature of the country's infancy. They argue that the Founding Fathers knew slavery was wrong and yet most did little to fight it.\n\nMore than anything, the historians say, the founders were hampered by the culture of their time. While Washington and Jefferson privately expressed distaste for slavery, they also understood that it was part of the political and economic bedrock of the country they helped to create.\n\nFor one thing, the South could not afford to part with its slaves. Owning slaves was \"like having a large bank account,\" says Wiencek, author of An Imperfect God: George Washington, His Slaves, and the Creation of America. The southern states would not have signed the Constitution without protections for the \"peculiar institution,\" including a clause that counted a slave as three fifths of a man for purposes of congressional representation.\n\nAnd the statesmen's political lives depended on slavery. The three-fifths formula handed Jefferson his narrow victory in the presidential election of 1800 by inflating the votes of the southern states in the Electoral College. Once in office, Jefferson extended slavery with the Louisiana Purchase in 1803; the new land was carved into 13 states, including three slave states.\n\nStill, Jefferson freed Hemings's children — though not Hemings herself or his approximately 150 other slaves. Washington, who had begun to believe that all men were created equal after observing the bravery of the black soldiers during the Revolutionary War, overcame the strong opposition of his relatives to grant his slaves their freedom in his will. Only a decade earlier, such an act would have required legislative approval in Virginia.",
-      "sort_order": 5
+      "content": "In 1784, five years before he became president of the United States, George Washington, 52, was nearly toothless. So he hired a dentist to transplant nine teeth into his jaw—having extracted them from the mouths of his slaves.\n\nThat's a far different image from the cherry-tree-chopping George most people remember from their history books. But recently, many historians have begun to focus on the roles slavery played in the lives of the founding generation. They have been aided in this by the appearance of new tools—such as DNA testing that was not available in 1998, which almost certainly proved Thomas Jefferson had fathered at least one child with his slave Sally Hemings. And only over the past 30 years have scholars examined history from the bottom up. Works of several historians reveal the moral compromises made by the nation's early leaders and the fragile nature of the country's infancy. More significantly, they argue that many of the Founding Fathers knew slavery was wrong—and yet most did little to fight it.\n\nMore than anything, the historians say, the founders were hampered by the culture of their time. While Washington and Jefferson privately expressed distaste for slavery, they also understood that it was part of the political and economic bedrock of the country they helped to create.\n\nFor one thing, the South could not afford to part with its slaves. Owning slaves was \"like having a large bank account,\" says Wiencek, author of An Imperfect God: George Washington, His Slaves, and the Creation of America. The southern states would not have signed the Constitution without protections for the \"peculiar institution,\" including a clause that counted a slave as three fifths of a man for purposes of congressional representation.\n\nAnd the statesmen's political lives depended on slavery. The three-fifths formula handed Jefferson his narrow victory in the presidential election of 1800 by inflating the votes of the southern states in the Electoral College. Once in office, Jefferson extended slavery with the Louisiana Purchase in 1803; the new land was carved into 13 states, including three slave states.\n\nStill, Jefferson freed Hemings's children—though not Hemings herself or his approximately 150 other slaves. Washington, who had begun to question the ethics of slavery in his late 20s and had freed his slaves after observing the bravery of the black soldiers during the Revolutionary War, overcame the strong opposition of his relatives to grant his slaves their freedom in his will. Only a decade earlier, such an act would have required legislative approval in Virginia.",
+      "sort_order": 5,
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "d36e2758-b918-5cd0-a49a-d8da330214b8",
@@ -76,7 +86,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
       "content": "Writing a Draft\n\nThe time for sharpening pencils, arranging your desk, and doing almost anything else instead of writing has ended. The first draft will appear on the page only if you stop avoiding the inevitable and sit, stand up, or lie down to write. [41]\n\nBe flexible. Your outline should smoothly conduct you from one point to the next, but do not permit it to railroad you. If a relevant and important idea occurs to you now, work it into the draft. [42] Grammar, punctuation, and spelling can wait until you revise. Concentrate on what you are saying. Good writing most often occurs when you are in hot pursuit of an idea rather than in a nervous search for errors.\n\n[43] Your pages will be easier to keep track of that way, and, if you have to clip a paragraph to place it elsewhere, you will not lose any writing on the other side.\n\nIf you are working on a word processor, you can take advantage of its capacity to make additions and deletions as well as move entire paragraphs by making just a few simple keyboard commands. Some software programs can also check spelling and certain grammatical elements in your writing. [44] These printouts are also easier to read than the screen when you work on revisions.\n\nOnce you have a first draft on paper, you can delete material that is unrelated to your thesis and add material necessary to illustrate your points and make your paper convincing. The student who wrote \"The A&P as a State of Mind\" wisely dropped a paragraph that questioned whether Sammy displays chauvinistic attitudes toward women. [45]\n\nRemember that your initial draft is only that. You should go through the paper many times and then again—working to substantiate and clarify your ideas. You may even end up with several entire versions of the paper. Rewrite. The sentences within each paragraph should be related to a single topic. Transitions should connect one paragraph to the next so that there are no abrupt or confusing shifts. Awkward or wordy phrasing or unclear sentences and paragraphs should be mercilessly poked and prodded into shape.",
-      "sort_order": 6
+      "sort_order": 6,
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -90,30 +102,28 @@
       "options": [
         {
           "key": "A",
-          "text": "(be) selected (to do)",
-          "value": "A"
+          "text": "(be) selected (to do)"
         },
         {
           "key": "B",
-          "text": "(be) prepared (to do)",
-          "value": "B"
+          "text": "(be) prepared (to do)"
         },
         {
           "key": "C",
-          "text": "(be) obliged (to do)",
-          "value": "C"
+          "text": "(be) obliged (to do)"
         },
         {
           "key": "D",
-          "text": "(be) pleased (to do)",
-          "value": "D"
+          "text": "(be) pleased (to do)"
         }
       ],
       "correct_answer": "B",
-      "explanation": "1. \n[A] (be) selected (to do) 被选拔做\n[B] (be) prepared (to do) 愿意做，准备好做\n[C] (be) obliged (to do) 被迫做\n[D] (be) pleased (to do) 乐意做\n［考点提炼］上下文语义＋动词用法。正确率：24%\n［解题思路］首句指出，某种观点无人敢明说；空格句继而指出，可 Gregory Cochran ______ 说出这一观点。But 和 anyway 表明前后两句发生语义转折，故空格处应表达“敢于（dare to）”的逻辑，符合要求的只有 (be) prepared to do，表示 Cochran“愿做、敢做、要做”普天下人所不敢为的事，［B］正确。\n［错项排除］［A］和［C］均表被动，而“被选中去说”和“不得不说”均不符合 Cochran“积极勇敢”的主动态度，不能与上文构成转折。［D］表示“欣喜于某消息、情况”，非文中的果敢决心。",
+      "explanation": "［精准定位］首句指出，某种观点无人敢明说；空格句继而指出，可 Gregory Cochran 还是准备说出这一观点。But 和 anyway 表明前后两句发生语义转折，故空格处应表达“敢于（dare to）”的逻辑，符合要求的只有 (be) prepared (to do)，表示 Cochran“愿做、敢做、要做”普天下人所不敢为的事，[B] 正确。\n［错项排除］[A] 和 [C] 均表被动，而“被选中去说”和“不得不说”均不符合 Cochran“积极勇敢”的主动心态，不能与上文构成转折。[D] 或表示“欣喜于某消息、情况、做法等”（非文中的“某人很高兴去做某事”），后常接 hear/see/know 等，亦与文意不符；同时，第二段首句明确指出 Cochran 也紧张，其心情并非“愉悦、满足的”。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 1,
+      "analysis": "［精准定位］首句指出，某种观点无人敢明说；空格句继而指出，可 Gregory Cochran 还是准备说出这一观点。But 和 anyway 表明前后两句发生语义转折，故空格处应表达“敢于（dare to）”的逻辑，符合要求的只有 (be) prepared (to do)，表示 Cochran“愿做、敢做、要做”普天下人所不敢为的事，[B] 正确。\n［错项排除］[A] 和 [C] 均表被动，而“被选中去说”和“不得不说”均不符合 Cochran“积极勇敢”的主动心态，不能与上文构成转折。[D] 或表示“欣喜于某消息、情况、做法等”（非文中的“某人很高兴去做某事”），后常接 hear/see/know 等，亦与文意不符；同时，第二段首句明确指出 Cochran 也紧张，其心情并非“愉悦、满足的”。"
     },
     {
       "id": "8541ca44-c38b-59bc-848f-89fa65a50501",
@@ -125,30 +135,28 @@
       "options": [
         {
           "key": "A",
-          "text": "special",
-          "value": "A"
+          "text": "unique"
         },
         {
           "key": "B",
-          "text": "particular",
-          "value": "B"
+          "text": "particular"
         },
         {
           "key": "C",
-          "text": "specific",
-          "value": "C"
+          "text": "special"
         },
         {
           "key": "D",
-          "text": "peculiar",
-          "value": "D"
+          "text": "rare"
         }
       ],
       "correct_answer": "D",
-      "explanation": "2. [ A] uni q u e 独特的；独一无二的\n[CJ s p ec i a l 特殊的，特别的，不寻常的\n［考点提炼］上下文语义十固定搭配。正确率：1 6%\n［解题思路］前文\n[ BJ p a rti c ul ar 特别的，格外的；特定的\n[ DJ ra r e 稀罕的，珍贵的\n用，表达“特立独行的人”含义的只有［DJ ; rare bird 为固定短i吾，喻指“［褒义］罕见、稀有的人或事物，，。\n［错项排除］其余三项均涉及“独特、特别的”这一含义。［A］内含最高级意味，强调“顶级难得的、无\n可匹敌的、极佳／杰出的”，文中虽有对Cochran 的赞赏，但首先他不至于独一无二（第二段②句提及他与\n另外两名科学家一起发表相关研究），其次上下文语义重点落在其“为真理而勇于不从众”而非“优秀得\n无与伦比”；［BJ 限定名同时，用于“在当前讨论中特指某人或物，与泛指相对”，等同于certain 和specific,\n还可表示“特别的、不寻常的”，多用于限定抽象名词，强调强烈性或显著性，等同于\ns p ecial 。［CJ 限定具\n体的人或物时，强调其“重要的、格外看重的或特别关照的”，文中此处并非强调Cochran 其人对于谁的\n重要性，因而不符合文意。",
+      "explanation": "［精准定位］前文指出 Cochran 特立独行，表达“特立独行的人”含义的只有 [D]；rare bird 为固定短语，喻指“［褒义］罕见、稀有的人或事物”，[D] 正确。\n［错项排除］其余三项均涉及“独特、特别的”这一含义。[A] 内含最高级意味，强调“顶级难得的、无可匹敌的”，文中虽有赞赏，但上下文重点落在其“为真理而勇于不从众”而非“优秀得无与伦比”；[B] 用于“特指某人或物，与泛指相对”；[C] 限定具体的人或物时，强调其“重要的、格外看重的”，均不符合文意。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 2,
+      "analysis": "［精准定位］前文指出 Cochran 特立独行，表达“特立独行的人”含义的只有 [D]；rare bird 为固定短语，喻指“［褒义］罕见、稀有的人或事物”，[D] 正确。\n［错项排除］其余三项均涉及“独特、特别的”这一含义。[A] 内含最高级意味，强调“顶级难得的、无可匹敌的”，文中虽有赞赏，但上下文重点落在其“为真理而勇于不从众”而非“优秀得无与伦比”；[B] 用于“特指某人或物，与泛指相对”；[C] 限定具体的人或物时，强调其“重要的、格外看重的”，均不符合文意。"
     },
     {
       "id": "a78f9aef-76af-5a76-b7fc-5ec70ea78285",
@@ -160,30 +168,28 @@
       "options": [
         {
           "key": "A",
-          "text": "of",
-          "value": "A"
+          "text": "of"
         },
         {
           "key": "B",
-          "text": "with",
-          "value": "B"
+          "text": "with"
         },
         {
           "key": "C",
-          "text": "in",
-          "value": "C"
+          "text": "in"
         },
         {
           "key": "D",
-          "text": "against",
-          "value": "D"
+          "text": "against"
         }
       ],
       "correct_answer": "A",
-      "explanation": "：：：~：：~）~ ！精解；·\n1 11\n5. \n[A] On l y 只，仅仅\n[BJ So 因此\n[ CJ Eve n 甚至，即使\n[ DJ Hence 因此\n［考点提炼］上下文逻辑语义。正确率：44%\n［解题思路］上文指出，Coc h ran 特立独行，准备说出世人皆不敢言的观点；空格句指出，然而，\n他也会不寒而栗。关键词howeve r 表明空格句与上文为转折逻辑；选项逻辑词中，只有Eve n 可\n以用于“强调某事出乎意料或令人吃惊”，能够强化这一转折逻辑，契合\nra r e bird 与\ntr embl e at ..\n. 之间的\n“出人意料”的意味：甚至连Cochran 这样的人也仍然会害怕，所以正确项为［CJ 。\n［错项排除］“只有他会不寒而栗”与首段①句“元人敢明说（dare not speak its name）”文意相悖，排\n除［A] ;[BJ 和［DJ 均引出顺承因果逻辑，与句中however 体现的转折逻辑相矛盾。",
+      "explanation": "［精准定位］空格所在部分为 rare bird 的同位语，阐释 Cochran 与大多数科学家的不同；已知多数科学家都为科研机构工作，因而这里应该表示他“不隶属于任何机构，独自工作”，能够与 independently 搭配，表示“独立于……之外”语义的介词只有 [A] of。\n［错项排除］其他项虽都能接 any institution 作介词宾语，但 [B]、[C] 均与 independently 所体现的“独立性”相矛盾；而 [D] against 涉及极端倾向，“独立地反对任何机构”显然不合逻辑。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 3,
+      "analysis": "［精准定位］空格所在部分为 rare bird 的同位语，阐释 Cochran 与大多数科学家的不同；已知多数科学家都为科研机构工作，因而这里应该表示他“不隶属于任何机构，独自工作”，能够与 independently 搭配，表示“独立于……之外”语义的介词只有 [A] of。\n［错项排除］其他项虽都能接 any institution 作介词宾语，但 [B]、[C] 均与 independently 所体现的“独立性”相矛盾；而 [D] against 涉及极端倾向，“独立地反对任何机构”显然不合逻辑。"
     },
     {
       "id": "7d152b11-7036-53b6-9f1f-fd1578f11402",
@@ -195,30 +201,28 @@
       "options": [
         {
           "key": "A",
-          "text": "subsequently",
-          "value": "A"
+          "text": "subsequently"
         },
         {
           "key": "B",
-          "text": "presently",
-          "value": "B"
+          "text": "presently"
         },
         {
           "key": "C",
-          "text": "previously",
-          "value": "C"
+          "text": "previously"
         },
         {
           "key": "D",
-          "text": "lately",
-          "value": "D"
+          "text": "lately"
         }
       ],
       "correct_answer": "C",
-      "explanation": "4. [A] subsequently 随后\n[B] presently 马上；目前\n[C] previously 以前\n[D] lately 最近，不久前\n［考点提炼］句内逻辑语义。正确率：51%\n［解题思路］空格所在句意为，他帮助普及一种观点：一些以前被认为不是由细菌引起的疾病实际上是传染病，……。副词actually以及which定语从句表明的“观点提出时的巨大争议性”均暗示“人们对某疾病的普遍认知”和“Cochran参与普及的事实”完全不同，两者间存在时间上的先后逻辑关系，即“过去的看法后被Cochran证实有误”，［C］符合文意。\n［错项排除］［A］引出“后来事件”，［B］表示“当前事件”，均无法使not... have a bacterial cause和were actually infections构成合理的前后时间链条。［D］指“近来，最近”，而文中定语从句“初次提出时引发极大争议”暗示这一观点从“饱受争议”到“今被认可”，需要一定的时间，不可能是“人们新近的普遍认识被推翻”；另外从语法层面来看，lately必须和完成时态一起使用，而文中为一般过去时态，故排除。",
+      "explanation": "［精准定位］空格所在句意为：他帮助普及一种观点：一些以前被认为不是由细菌引起的疾病实际上是传染病。副词 actually 以及 which 定语从句表明“人们对某疾病的普遍认知”和“Cochran 证实的事实”完全不同，两者间存在时间上的先后逻辑关系，即“过去的看法后被 Cochran 证实有误”，[C] previously 符合文意。\n［错项排除］[A] 引出“后来事件”，[B] 表示“当前事件”，均无法使 not have a bacterial cause 和 were actually infections 构成合理的“前后”时间链条。[D] lately 指“近来”，且必须和完成时态连用，文中为一般过去时，故排除。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 4,
+      "analysis": "［精准定位］空格所在句意为：他帮助普及一种观点：一些以前被认为不是由细菌引起的疾病实际上是传染病。副词 actually 以及 which 定语从句表明“人们对某疾病的普遍认知”和“Cochran 证实的事实”完全不同，两者间存在时间上的先后逻辑关系，即“过去的看法后被 Cochran 证实有误”，[C] previously 符合文意。\n［错项排除］[A] 引出“后来事件”，[B] 表示“当前事件”，均无法使 not have a bacterial cause 和 were actually infections 构成合理的“前后”时间链条。[D] lately 指“近来”，且必须和完成时态连用，文中为一般过去时，故排除。"
     },
     {
       "id": "1e6f79b1-c2e9-5eff-a0c5-ee297627a30b",
@@ -230,30 +234,28 @@
       "options": [
         {
           "key": "A",
-          "text": "Only",
-          "value": "A"
+          "text": "Only"
         },
         {
           "key": "B",
-          "text": "So",
-          "value": "B"
+          "text": "So"
         },
         {
           "key": "C",
-          "text": "Even",
-          "value": "C"
+          "text": "Even"
         },
         {
           "key": "D",
-          "text": "Hence",
-          "value": "D"
+          "text": "Hence"
         }
       ],
       "correct_answer": "C",
-      "explanation": "5. \n[A] Only 只，仅仅\n[B] So 因此\n[C] Even 甚至，即使\n[D] Hence 因此\n［考点提炼］上下文逻辑语义。正确率：44%\n［解题思路］上文指出，Cochran 特立独行，准备说出世人皆不敢言的观点；空格句指出，然而，他也会不寒而栗。关键词 however 表明空格句与上文为转折逻辑；选项逻辑词中，只有 Even 可以用于“强调某事出乎意料或令人吃惊”，能够强化这一转折逻辑，契合 rare bird 与 tremble at 之间的“出人意料”意味：甚至连 Cochran 这样的人也仍然会害怕，所以正确项为［C］。\n［错项排除］“只有他会不寒而栗”与首段①句“无人敢明说（dare not speak its name）”文意相悖，排除［A］；［B］和［D］均引出顺承因果逻辑，与句中 however 体现的转折逻辑相矛盾。",
+      "explanation": "［精准定位］上文指出 Cochran 特立独行，准备说出世人皆不敢言的观点；空格句指出，然而，他也会不寒而栗。关键词 however 表明空格句与上文为转折逻辑；选项逻辑词中，只有 Even 可以用于“强调某事出乎意料或令人吃惊”，能够强化转折逻辑：甚至连 Cochran 这样的人也仍然会害怕，[C] 正确。\n［错项排除］“只有他会不寒而栗”与首段①句“无人敢明说（dare not speak its name）”文意相悖，排除 [A]；[B] 和 [D] 均引出顺承因果逻辑，与句中 however 相矛盾。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 5,
+      "analysis": "［精准定位］上文指出 Cochran 特立独行，准备说出世人皆不敢言的观点；空格句指出，然而，他也会不寒而栗。关键词 however 表明空格句与上文为转折逻辑；选项逻辑词中，只有 Even 可以用于“强调某事出乎意料或令人吃惊”，能够强化转折逻辑：甚至连 Cochran 这样的人也仍然会害怕，[C] 正确。\n［错项排除］“只有他会不寒而栗”与首段①句“无人敢明说（dare not speak its name）”文意相悖，排除 [A]；[B] 和 [D] 均引出顺承因果逻辑，与句中 however 相矛盾。"
     },
     {
       "id": "1ff7a3d8-1568-5cc7-952c-bf00077204c5",
@@ -265,30 +267,28 @@
       "options": [
         {
           "key": "A",
-          "text": "(at the) thought (of)",
-          "value": "A"
+          "text": "(at the) thought (of)"
         },
         {
           "key": "B",
-          "text": "(at the) sight (of)",
-          "value": "B"
+          "text": "(at the) sight (of)"
         },
         {
           "key": "C",
-          "text": "(at the) cost (of)",
-          "value": "C"
+          "text": "(at the) cost (of)"
         },
         {
           "key": "D",
-          "text": "(at the) risk (of)",
-          "value": "D"
+          "text": "(at the) risk (of)"
         }
       ],
       "correct_answer": "A",
-      "explanation": "6. \n[A] Cat the) thought (of) 一想起（… … 就）\n[ BJ (at the) sight (of) 一看见（…… 就）\n[CJ Cat the) cost (of) 以…… 为代价，丧失\n[DJ Cat the) risk (of) 冒着… … 的危险\n［考点提炼］旬内语义＋固定短语。正确率：33%\n［解题思路］空格句转承上文指出，可即使是他（这样特立独行的人）也会颤抖于…… 。\ntremb l e\nat ...后接“引起颤抖的原因”，其后常为\nt h e idea/ thought/ mention/ rea lization of. ..等表观感的抽象名\n词，表示“一想到／提到／意识到……（就…… ）飞此外句中.\n.. about to do 表明事情尚未发生，选项中符合\n将来时态，且和\nof.\n.\n. 一起能表明“颤抖原因”的选项只有［A］表示“一想到即将要做的事就颤抖”。\n［错项排除］[DJ 后多接“ 风险、危机本身”，强调“……的危险性”，而文中“ 他将做之事\n身” ；［CJ 同理，其后成分需为“ 代价本身，，，也即，［CJ 、［DJ 与\nt remb l 巳搭配，tr巳mb l 巴＋a t the cost/ risk of 章\n、\n为“以．．．．．．为代价而颤抖，，和l “ 冒．．．．．．的风险而颤抖，，，显然不合逻辑。句中表明事情尚未发生，因而不可\n能被看到，排除［BJ 。\n\n【选项释义与词汇辨析】\n[A] Cat the) thought (of): 一想起（… … 就）\n[B] (at the) sight (of): 一看见（…… 就）\n[C] Cat the) cost (of): 以…… 为代价，丧失\n[D] Cat the) risk (of): 冒着… … 的危险 ［考点提炼］旬内语义＋固定短语。正确率：33% ［解题思路］空格句转承上文指出，可即使是他（这样特立独行的人）也会颤抖于…… 。 tremb l e at ...后接“引起颤抖的原因",
+      "explanation": "［精准定位］空格句转承上文指出，可即使是他（这样特立独行的人）也会颤抖于……。tremble at 后接引起颤抖的原因，常接 the idea/thought/mention/realization of 等表观感的抽象名词，表示“一想到……就颤抖”。句中 about to do 表明事情尚未发生，选项中符合将来时态且能表明“颤抖原因”的只有 [A] at the thought of。\n［错项排除］[D] 后多接“风险本身”；[C] 其后需为“代价本身”；句中事情尚未发生，不可能被看到，排除 [B] sight。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 6,
+      "analysis": "［精准定位］空格句转承上文指出，可即使是他（这样特立独行的人）也会颤抖于……。tremble at 后接引起颤抖的原因，常接 the idea/thought/mention/realization of 等表观感的抽象名词，表示“一想到……就颤抖”。句中 about to do 表明事情尚未发生，选项中符合将来时态且能表明“颤抖原因”的只有 [A] at the thought of。\n［错项排除］[D] 后多接“风险本身”；[C] 其后需为“代价本身”；句中事情尚未发生，不可能被看到，排除 [B] sight。"
     },
     {
       "id": "5776b29c-40c2-5df8-b59d-6e28c2614e29",
@@ -300,30 +300,28 @@
       "options": [
         {
           "key": "A",
-          "text": "advises",
-          "value": "A"
+          "text": "advises"
         },
         {
           "key": "B",
-          "text": "suggests",
-          "value": "B"
+          "text": "suggests"
         },
         {
           "key": "C",
-          "text": "protests",
-          "value": "C"
+          "text": "protests"
         },
         {
           "key": "D",
-          "text": "objects",
-          "value": "D"
+          "text": "objects"
         }
       ],
       "correct_answer": "B",
-      "explanation": "7. [ A] adv i ses 建议\n[BJ s uggests 建议；显示\n［考点提炼］动词辨析。正确率：56%\n[ C] prot ests 抗议；断言\n[ DJ objects 反对\n［解题思路］空格所在从句“某人类族群比其他族群智商更高，，与文章首句提及的观点（The\nidea ）相\n吻合，同日才填补了首段②句信息\n容的论文待发表，，’也就是说Cochran 在其论文中提出并解释了这一观点；句~，习but exp l a i ns 对应“（而且）\n解释，，，空格处应该对应“（不仅）提出，，，选项中只有［BJ 可用于“引出观点”，符合文意。\n［错项排除］“某一族群比其他族群智商更高”属于阐释性内容，而非建议性内容，故排除表“提意见、\n建议”的［A];[C］用法有二，一表示“反对某事”，义同［DJ ，但首段已经明确\nthat O口E group ... is more\ni nte ll igent 为Coc h ran 所要提及的观点，故排除，同时排除［D J ；二表示“坚定地说明某事为真，尽管他人\n不相信”，但由首段①句“无人敢明白t”可知，他人未必不相信此理论，而只是“不敢明说”，故排除该项。",
+      "explanation": "［精准定位］空格所在从句“某人类族群比其他族群智商更高”与文章首句观点相吻合，指出 Cochran 在其论文中提出并解释了这一观点；句中 but explains 对应“（而且）解释”，空格处对应“（不仅）提出”，选项中只有 [B] suggests 可用于“引出观点”，符合文意。\n［错项排除］“某一族群比其他族群智商更高”属于阐释性内容，而非建议性内容，排除表“提建议”的 [A]；[C] 和 [D] 均含反对之意，与语境相悖。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 7,
+      "analysis": "［精准定位］空格所在从句“某人类族群比其他族群智商更高”与文章首句观点相吻合，指出 Cochran 在其论文中提出并解释了这一观点；句中 but explains 对应“（而且）解释”，空格处对应“（不仅）提出”，选项中只有 [B] suggests 可用于“引出观点”，符合文意。\n［错项排除］“某一族群比其他族群智商更高”属于阐释性内容，而非建议性内容，排除表“提建议”的 [A]；[C] 和 [D] 均含反对之意，与语境相悖。"
     },
     {
       "id": "76f224cf-cd09-55db-adf6-626cb7d280ef",
@@ -335,30 +333,28 @@
       "options": [
         {
           "key": "A",
-          "text": "(in) progress",
-          "value": "A"
+          "text": "(in) progress"
         },
         {
           "key": "B",
-          "text": "(in) fact",
-          "value": "B"
+          "text": "(in) fact"
         },
         {
           "key": "C",
-          "text": "(in) need",
-          "value": "C"
+          "text": "(in) need"
         },
         {
           "key": "D",
-          "text": "(in) question",
-          "value": "D"
+          "text": "(in) question"
         }
       ],
       "correct_answer": "D",
-      "explanation": "8. [A] (in) progress （事情）进行中\n[BJ ( in) fact 事实上\n[ CJ\nC\ni 口）\nneed 贫困／困难中的\n[DJ C in) question 正被讨论的\n［考点提炼］上下文语义十介词短语。正确率：1 3%\n［解题思路］The group 回指上文one group of hu manity ，即Coc h ran 论文中智商更高的族群；介词短\n语\nl口\n作后置定语修饰T h e gro u p ，表示“论文中提及或讨论的”，体现限定、特指，［DJ 正Tef/J 。\n［错项排除］ [A］表示“某事此刻正在进行／发展当中”，不用于修饰人。\n［BJ 不能用作后置定语｛彦饰\n人，可作为状i吾，或“用于补充说明，强调前面所说的话，，；或“转承上文，强调实际情况恰恰相反，，，空格上\n句是对论文内容的概述，空格句明确上句on巳group of ht nan\n的关系，也非“转折纠正，，的逻辅，故排除此项。\n［CJ 表示“（食物或金钱的）短缺或困窘”，此处“这一群体”\n为智商较高的特定族群，仅涉及其智商状况，与生活状况元关。",
+      "explanation": "［精准定位］The group 回指上文 one group of humanity，即 Cochran 论文中智商更高的族群；介词短语 in question 作后置定语修饰 The group，表示“论文中提及或讨论的”，体现限定、特指，[D] 正确。\n［错项排除］[A] in progress 表示“事情此刻正在进行当中”，不用于修饰人；[B] in fact 不能作后置定语修饰人；[C] in need 表示“处于贫困或困难中”，文中仅涉及智商状况，与经济状况无关。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 8,
+      "analysis": "［精准定位］The group 回指上文 one group of humanity，即 Cochran 论文中智商更高的族群；介词短语 in question 作后置定语修饰 The group，表示“论文中提及或讨论的”，体现限定、特指，[D] 正确。\n［错项排除］[A] in progress 表示“事情此刻正在进行当中”，不用于修饰人；[B] in fact 不能作后置定语修饰人；[C] in need 表示“处于贫困或困难中”，文中仅涉及智商状况，与经济状况无关。"
     },
     {
       "id": "746fc9bd-aa44-5053-a4c1-b3a581a4416b",
@@ -370,30 +366,28 @@
       "options": [
         {
           "key": "A",
-          "text": "attaining",
-          "value": "A"
+          "text": "attaining"
         },
         {
           "key": "B",
-          "text": "scoring",
-          "value": "B"
+          "text": "scoring"
         },
         {
           "key": "C",
-          "text": "reaching",
-          "value": "C"
+          "text": "reaching"
         },
         {
           "key": "D",
-          "text": "calculating",
-          "value": "D"
+          "text": "calculating"
         }
       ],
       "correct_answer": "B",
-      "explanation": "9.\n\n[ A] a t ta inin g 获得，赢得；达到（某年龄、级别等）\n\n[ BJ sco rin趴在游戏、竞赛、测试等中）得分\n\n[ CJ r eac hing 达到（某水平、标准），达成（目标）\n\n[ D] ca lcul a ting 计算，核算；估计，推断\n\n【考点提炼】动词辨析。正确率：4.4. %\n\n【解题思路】空格所在部分\n\n12- 15 points above . . . 1 00 是现在分词结构作状语，说明主干d o\n\nwe ll in IQ t est ，再由关键词IQ tes t 和l\n\n1 2 一1 5 points above . . . 1 00 可以明确，状语部分是在“说明智商测\n\n试中的得分”，选项中能够以具体的分数（12\n\n15 po int s ）作为宾语，表示“得分”含义的只有【目。\n\n【错项排除】\n\n[A】后内容强调所达到的程度／高度；【CJ 后内容表示增加之后达到的水平或实现的结\n\n果，而非增加量；而由空格前ge n e ral l y do we ll 可知，1 2\n\n15 po i nt s 是该族i怦比常人高「I ＼来的分数，因而\n\n[ A 】、〔CJ 均不利合文意。\n\n【DJ后虽然可以接“分数” ，表示“ 狈j ／估算分数” ，去｜】不接具体数字；另一方面，句\n\n中逻辑主语为T h i s gro u p ，而这一族群不可能自己测算自己的智商分数，故排除。",
+      "explanation": "［精准定位］空格所在部分 12-15 points above 100 是现在分词结构作状语，说明主干 do well in IQ test。关键词 IQ test 和 12-15 points 说明是在“说明智商测试中的得分”，选项中能够以具体分数作为宾语，表示“得分”的只有 [B] scoring。\n［错项排除］[A] attaining 强调达到的程度；[C] reaching 表示增加之后达到的水平，而非增加量；[D] calculating 逻辑主语是该族群，族群不可能自己测算自己的智商分数，故排除。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 9,
+      "analysis": "［精准定位］空格所在部分 12-15 points above 100 是现在分词结构作状语，说明主干 do well in IQ test。关键词 IQ test 和 12-15 points 说明是在“说明智商测试中的得分”，选项中能够以具体分数作为宾语，表示“得分”的只有 [B] scoring。\n［错项排除］[A] attaining 强调达到的程度；[C] reaching 表示增加之后达到的水平，而非增加量；[D] calculating 逻辑主语是该族群，族群不可能自己测算自己的智商分数，故排除。"
     },
     {
       "id": "301cad2f-35bc-5b53-8696-71c0f1ca48e6",
@@ -405,30 +399,28 @@
       "options": [
         {
           "key": "A",
-          "text": "normal",
-          "value": "A"
+          "text": "normal"
         },
         {
           "key": "B",
-          "text": "common",
-          "value": "B"
+          "text": "common"
         },
         {
           "key": "C",
-          "text": "mean",
-          "value": "C"
+          "text": "mean"
         },
         {
           "key": "D",
-          "text": "total",
-          "value": "D"
+          "text": "total"
         }
       ],
       "correct_answer": "C",
-      "explanation": "10. [A] normal 正常的，平常的\n[B] common 常见的，共同的\n[C] mean 平均的\n[D] total 总的，全部的\n［考点提炼］熟词僻意＋形容词辨析。正确率：14%\n［解题思路］空格所在部分说明这一族群在智商测试中表现突出（do well）：得分比 100 的值高出 12 至 15 分。前文提及，这一族群比其他族群智商更高，即他们在智商测试中的得分应该高于其他族群的得分，故必然高于测试的平均值，［C］后接名词，可表示“平均的”，用法等同于 average，故正确。\n［错项排除］normal value 指“标准值，正常值”，介词 of 后可以接“正常值的主体”；其次该短语表示一个区间的范围，而非某确定数值，故排除［A］。common value 指“共同价值观”，偏离上下文语境，排除［B］。total value 指“总价、总值”，而 above the total value of... 显然违背逻辑：既然是“总数值”，自然不能“高于它”，排除［D］。",
+      "explanation": "［精准定位］空格部分说明这一族群在智商测试中得分比 100 的平均值高出 12 至 15 分。前文提及该族群比其他族群智商更高，即其得分高于平均值，[C] mean 后接名词可表示“平均的”，等同于 average，故正确。\n［错项排除］[A] normal value 指“标准值、正常值”，表示区间范围而非确定数值；[B] common value 指“共同价值观”；[D] total value 指“总价值”，违背逻辑。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 10,
+      "analysis": "［精准定位］空格部分说明这一族群在智商测试中得分比 100 的平均值高出 12 至 15 分。前文提及该族群比其他族群智商更高，即其得分高于平均值，[C] mean 后接名词可表示“平均的”，等同于 average，故正确。\n［错项排除］[A] normal value 指“标准值、正常值”，表示区间范围而非确定数值；[B] common value 指“共同价值观”；[D] total value 指“总价值”，违背逻辑。"
     },
     {
       "id": "f8e60e16-1545-5359-9f06-b243e6abd3ed",
@@ -440,30 +432,28 @@
       "options": [
         {
           "key": "A",
-          "text": "unconsciously",
-          "value": "A"
+          "text": "unconsciously"
         },
         {
           "key": "B",
-          "text": "disproportionately",
-          "value": "B"
+          "text": "disproportionately"
         },
         {
           "key": "C",
-          "text": "indefinitely",
-          "value": "C"
+          "text": "indefinitely"
         },
         {
           "key": "D",
-          "text": "unaccountably",
-          "value": "D"
+          "text": "unaccountably"
         }
       ],
       "correct_answer": "B",
-      "explanation": "11. [A] unconsciously 无意识地，不知不觉地\n[B] disproportionately 不相称地，不成比例地\n[C] indefinitely 不明确地；无期限地\n[D] unaccountably 莫名其妙地；不可理解地；无明显原因地\n［考点提炼］句内语义＋副词辨析。正确率：18%\n［解题思路］空格前表明，这一族群智商得分比平均分（100分）高出十几分；空格后继而指出，他们对西方的知识和文化生活做出了________的贡献；空格处副词说明“贡献的具体性质或情况”。句中the intellectual and cultural life涉及“知识文化”，而该族群IQ又超高，判断此处想强调“他们在这些方面贡献很大”（and体现顺承逻辑），且下文关键词several world-renowned scientists进一步印证这一判断，［B］正确阐述该逻辑：该高智商族群人口有限，但做出的贡献却与人数不成比例，强调贡献极其之大。\n［错项排除］［A］强调“非刻意地或未意识到地”，而由下文world-renowned scientists可知，这一高智商族群对知识文化方面的贡献不可能是潜意识中完成的，而是有意为之的结果。［C］或强调“细节的不确定性、模糊性”，总体为负面导向，与文中and have contributed... to..., world-renowned等呈现出的“正向肯定意味”相矛盾；或强调“时间方面无限期地”，但文中此处为完成时态（have contributed...），强调过去的事对现在的影响，不涉及未来情况，故排除。［D］用于“说明某情况令人奇怪地、难以解释地”，而文中①句前半句“智商分数高于常人”暗示“其在文化方面有所贡献”有其合理性，而非“出人意料、不可解释地”。",
+      "explanation": "［精准定位］空格前表明该族群智商得分比平均值高出十几分；空格后指出他们对西方知识和文化生活做出了不成比例的巨大贡献。该高智商族群人口有限，但做出的贡献却与人数不成比例，强调贡献极其之大，[B] disproportionately 正确。\n［错项排除］[A] unconsciously 强调“无意识地”，而对文化的贡献是有意为之的结果；[C] indefinitely 强调“细节不确定”或“时间无限期”；[D] unaccountably 指“莫名其妙地”，而高智商族群做出大贡献合情合理，排除。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 11,
+      "analysis": "［精准定位］空格前表明该族群智商得分比平均值高出十几分；空格后指出他们对西方知识和文化生活做出了不成比例的巨大贡献。该高智商族群人口有限，但做出的贡献却与人数不成比例，强调贡献极其之大，[B] disproportionately 正确。\n［错项排除］[A] unconsciously 强调“无意识地”，而对文化的贡献是有意为之的结果；[C] indefinitely 强调“细节不确定”或“时间无限期”；[D] unaccountably 指“莫名其妙地”，而高智商族群做出大贡献合情合理，排除。"
     },
     {
       "id": "83c44fb7-9b12-5974-9dfd-5a092907f4cf",
@@ -475,30 +465,28 @@
       "options": [
         {
           "key": "A",
-          "text": "missions",
-          "value": "A"
+          "text": "missions"
         },
         {
           "key": "B",
-          "text": "fortunes",
-          "value": "B"
+          "text": "fortunes"
         },
         {
           "key": "C",
-          "text": "interests",
-          "value": "C"
+          "text": "interests"
         },
         {
           "key": "D",
-          "text": "careers",
-          "value": "D"
+          "text": "careers"
         }
       ],
       "correct_answer": "D",
-      "explanation": "12. [A] missions 重要任务；使命；天职\n[B] fortunes 时运；运气；财富\n[C] interests 兴趣；利益\n[D] careers 事业；成就\n\n【考点提炼】名词辨析+熟词僻意。正确率：36%\n【解题思路】由13题选项均为及物动词判断，as引导非限定性定语从句（即正如他们中的精英的……所表明的那样；其中as指代前文and have contributed...），对主句内容“这一族群对西方知识文化生活贡献巨大”进行补充说明，故从句内容只能涉及“精英们做出贡献的证据、体现”；而已知as从句中主语为“the careers of their elites（族群中精英的事业成就）”，因此判断空格处只能表示“（这些精英们的）成就、成功”，[D]符合文意，该词此处取其僻意：（事业的）成功，成就。\n【错项排除】[A]的两层含义“客观（硬性的）任务”和“主观（认定的）使命”均不涉及内容是否得以完成或实现，无法体现贡献巨大。[B]可以表示“物质财富”，但“有钱”不等同于“贡献大”；也可以表示“个人、家庭、国家等的发展变化趋势、际遇”，或“影响人生的机会、运气”，两者同属偶然性因素，不足以证明“贡献颇大”。[C]可表示“个人兴趣或爱好”、“利益或好处”，但“感兴趣不等于擅长”，“有利益不等于贡献大”，排除。",
+      "explanation": "［精准定位］as 引导非限定性定语从句，对主句“该族群对西方知识文化生活贡献巨大”进行补充说明，从句主语为 careers of their elites，表示“精英们的成就、成功”，[D] 符合文意，取其僻意：“（事业的）成功，成就”。\n［错项排除］[A] missions 强调任务或使命，不涉及是否实现；[B] fortunes 强调财富或运气，不足以证明贡献；[C] interests 兴趣或利益，排除。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 12,
+      "analysis": "［精准定位］as 引导非限定性定语从句，对主句“该族群对西方知识文化生活贡献巨大”进行补充说明，从句主语为 careers of their elites，表示“精英们的成就、成功”，[D] 符合文意，取其僻意：“（事业的）成功，成就”。\n［错项排除］[A] missions 强调任务或使命，不涉及是否实现；[B] fortunes 强调财富或运气，不足以证明贡献；[C] interests 兴趣或利益，排除。"
     },
     {
       "id": "ee1fca0c-3785-52c4-8925-fd07677cf1ae",
@@ -510,30 +498,28 @@
       "options": [
         {
           "key": "A",
-          "text": "mission",
-          "value": "A"
+          "text": "affirm"
         },
         {
           "key": "B",
-          "text": "fortune",
-          "value": "B"
+          "text": "witness"
         },
         {
           "key": "C",
-          "text": "interest",
-          "value": "C"
+          "text": "observe"
         },
         {
           "key": "D",
-          "text": "success",
-          "value": "D"
+          "text": "approve"
         }
       ],
       "correct_answer": "A",
-      "explanation": "13 题选项均为及物动同判断，as 引导非限定性定语从句（即\n．正如他们中的精英的\nJfr …… 的那样；其中as 指代前文and have contributed ... ），对主句内容“这一族群对西方知识文\n化生活贡献巨大”进行补充说明，故从句内容只能涉及“精英们做出贡献的证据、体现”；而已知as 从句\n中主语为“\nof their e lit e （族群中精英的\n）”，因此判断空格处只能表示“（这些精英们的）成\n就、成功”，［DJ符合文意，该词此处取其僻意：（事业的）成功，成就。\n［错项排除］［A］的两层含义“客观（硬性的）任务”和“主观（认定的〉使命”均不涉及内容是否得以完成\n或实现，无法体现贡献巨大。〔BJ可以表示“物质财富”，但“有钱”不等同于“贡献大” ；也可以表示“个人、家\n庭、国家等的发展变化趋势、际遇”，或“影响人生的机会、运气”，两者同属偶然性因素，不足以证明“贡献颇\n大”。［CJ可表示“个人兴趣或爱好”、“利益或好处” ，但“感兴趣手擅长’γ‘有利益手贡献大”，排除。\n13. [ A] aff i rm 肯定，证实\n[ BJ witness 是…… 的迹象；为……的证据\n[CJ observe 看到，注意到；遵守\n[DJ approve 赞成，同意\n［考点提炼］上下文语义十动词辨析。正确率：1 7 %\n［解题思路］结合上题可知，但从句旨在对“该高智商族群在知识和文化方面贡献极大”提供论据支\n撑，空格同应涉及“表明、体现、反映、证实”等内容，也即，正如他们中精英人物的成就所证实／反映的，他\n们为…… 做出了超凡贡献。［A］、［BJ 均含有“证实”的语义，但w i t ness 一般用于. .. as witnessed by sth \n（从某事物可以看出……）这一结构。［A］不仅有“证实，证明”之意，同时还包含\nto st rengthen a feeling, \nbelief, or i dea 的意味，用在此处表明“精英人物的成就证实且强化了这一观点”，因此［A］正确。\n［错项排除］［CJ 表示“人”所发出的动作，〔町的主语是“人或机构”，不",
+      "explanation": "［精准定位］as 从句旨在对“该高智商族群在知识和文化方面贡献极大”提供论据支撑，正如他们中精英人物的成就所证实的那样。affirm 不仅有“证实、证明”之意，还包含强化论点的意味，表明“精英人物的成就证实且强化了这一观点”，[A] affirm 正确。\n［错项排除］[B] witness 常用于 as witnessed by sth 结构；[C] observe 主语应为人；[D] approve 意为“批准、赞成”，物不能作为主语发出批准动作，排除。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 13,
+      "analysis": "［精准定位］as 从句旨在对“该高智商族群在知识和文化方面贡献极大”提供论据支撑，正如他们中精英人物的成就所证实的那样。affirm 不仅有“证实、证明”之意，还包含强化论点的意味，表明“精英人物的成就证实且强化了这一观点”，[A] affirm 正确。\n［错项排除］[B] witness 常用于 as witnessed by sth 结构；[C] observe 主语应为人；[D] approve 意为“批准、赞成”，物不能作为主语发出批准动作，排除。"
     },
     {
       "id": "028095f4-4356-5e7a-b7a6-1fa6762d96ad",
@@ -545,30 +531,28 @@
       "options": [
         {
           "key": "A",
-          "text": "moreover",
-          "value": "A"
+          "text": "moreover"
         },
         {
           "key": "B",
-          "text": "therefore",
-          "value": "B"
+          "text": "therefore"
         },
         {
           "key": "C",
-          "text": "however",
-          "value": "C"
+          "text": "however"
         },
         {
           "key": "D",
-          "text": "meanwhile",
-          "value": "D"
+          "text": "meanwhile"
         }
       ],
       "correct_answer": "C",
-      "explanation": "14. [ A] mor eover 此外\n\n[ BJ therefor巳因此\n\n[ CJ how ever 但是，然而\n\n[ DJ meanwhile 同时；另一方面\n\n【考点提炼】上下文逻辑关系。正确率：71 %\n\n【解题思路】①②句指出，该族群智商超出常人，对知识和文化贡献巨大；他们也比常人更容易耀患\n\n严重的遗传疾病；①句继而指出，\n\n这些事实先前被认为并无关联，其中T h ese\n\nfacts 回指前两句中\n\n的“智商更高”和“患病概率更大” 。首先②句中副词\n\na l so .\n\n. .强调某情况与上述情况同时存在，暗中透露\n\n前后内容之间的关联；其次由常识“易患重病属于自然选择的结果”以及上段“这一族群智商更高源于自\n\n然选择”，判断①②句介绍事实是为了引出两者的关联，因而与③句构成语义转折，【CJ 符合文意。\n\n【错项排除】\n\n[ A】用于“引出新信息以补充或支持前述内容”，前后为递进补充关系；【BJ用于“引出逻辑\n\n结果或结论”，前后为因果关系；文中“两项事实” vs“人们的相关认知”，后者既不是对前者的“递进补充” ，\n\n也不是前者的“逻辑结果”，因此排除此两项。\n\n【DJ 可表示“时间上的同时发生”，也可“用来对比两种并列\n\n的，但完全相反的情况” ，而文中上下文并非对比或时间关系。",
+      "explanation": "［精准定位］①②句指出该族群智商超出常人，对知识文化贡献巨大，但同时也比常人更容易罹患严重遗传疾病；③句指出这些事实先前被认为并无关联。转折词 [C] however 正确衔接了“两项客观事实”与“人们普遍认知并无关联”之间的语义转折。\n［错项排除］[A] moreover 表递进；[B] therefore 表因果；[D] meanwhile 表同时发生，均不符合逻辑转折关系。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14,
+      "analysis": "［精准定位］①②句指出该族群智商超出常人，对知识文化贡献巨大，但同时也比常人更容易罹患严重遗传疾病；③句指出这些事实先前被认为并无关联。转折词 [C] however 正确衔接了“两项客观事实”与“人们普遍认知并无关联”之间的语义转折。\n［错项排除］[A] moreover 表递进；[B] therefore 表因果；[D] meanwhile 表同时发生，均不符合逻辑转折关系。"
     },
     {
       "id": "4d89517f-1637-513b-9ac0-681444e816cd",
@@ -580,30 +564,28 @@
       "options": [
         {
           "key": "A",
-          "text": "given up (to sb/sth)",
-          "value": "A"
+          "text": "given up (to sb/sth)"
         },
         {
           "key": "B",
-          "text": "got over (to sb)",
-          "value": "B"
+          "text": "got over (to sb)"
         },
         {
           "key": "C",
-          "text": "carried on",
-          "value": "C"
+          "text": "carried on"
         },
         {
           "key": "D",
-          "text": "put down (to sth)",
-          "value": "D"
+          "text": "put down (to sth)"
         }
       ],
       "correct_answer": "D",
-      "explanation": "15. [ A] given up(to s b/ st h ）把……让给；留出…… 给［BJ got over( to sb ）把… …说清楚，使理解\n[ CJ carried on 继续做；开展，进行\n[ DJ put down(to st h ）把（某事）归因于\n［考点提炼］上下文i吾义十动词短语。正确率：27%\n［解题思路］空格上文③句Th es e\nfacts 与④⑤句Th e form er. . . The latter. ..逻辑衔接紧密，两句中\nsocial effects 和genetic\ni so l a t i on 毫不相干，解释③句“人们一直认为两者本身并不相干（unre lated ）”，因\n此空格处应能体现“相关、有关”这一逻辑。［DJ 引出“原因”，能体现“关联”逻辑，同时该短语可用于被动\n语态，符合语法要求，为正确项。\n［错项排除］\n[A］意为“留tl\\ （时间或地点等）给…… ，专用于”，而文中T h e former 指代①句事实“智\n商高”，“把事实留给／专用于影响”显然不符合逻辑。\n［BJ 与介同\nto 连用时后加\ns b ，表示“讲清某事，让\n（某人）明白某事”；而文中to 之后为“ socia l effec ts （社会影响）”并非sb 。\n［CJ 后宾语多为“客观的任务、事\n务、目标、事业”等，表示“（尤指迎着困难）继续；经营，参与”，常用于carry on with sth/ carry sth on/ carry\non doing sth 结构中，其后若接介词to ，实际表示“继续到（某人）、持续达到（某水平）”，亦错厌。",
+      "explanation": "［精准定位］空格上文指出人们先前认为两事实不相关，④⑤句分别指出智商高被归因于社会影响，患病被看作遗传隔离的结果。put down to 表示“归因于”，引出原因，符合被动语态，[D] 正确。\n［错项排除］[A] given up to 表示“把时间或地点让给”；[B] got over to sb 表示“向某人讲清楚”；[C] carried on 表示“继续开展”，均不搭配。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 15,
+      "analysis": "［精准定位］空格上文指出人们先前认为两事实不相关，④⑤句分别指出智商高被归因于社会影响，患病被看作遗传隔离的结果。put down to 表示“归因于”，引出原因，符合被动语态，[D] 正确。\n［错项排除］[A] given up to 表示“把时间或地点让给”；[B] got over to sb 表示“向某人讲清楚”；[C] carried on 表示“继续开展”，均不搭配。"
     },
     {
       "id": "4ea642f1-11c8-558d-83c8-d16efe8cff0a",
@@ -615,30 +597,28 @@
       "options": [
         {
           "key": "A",
-          "text": "assessing",
-          "value": "A"
+          "text": "assessing"
         },
         {
           "key": "B",
-          "text": "supervising",
-          "value": "B"
+          "text": "supervising"
         },
         {
           "key": "C",
-          "text": "administering",
-          "value": "C"
+          "text": "administering"
         },
         {
           "key": "D",
-          "text": "valuing",
-          "value": "D"
+          "text": "valuing"
         }
       ],
       "correct_answer": "D",
-      "explanation": "16. [A] assessing 评价，评定；估价\n[B] supervising 监督，指导\n[C] administering 管理，治理\n[D] valuing 尊重，重视\n［考点提炼］熟词僻意。正确率：34%\n［解题思路］句中 such as... 引出对 social effects 的举例说明，即“高智商形成的社会因素”。结合选项动词，再由已知信息“重视教育的传统”以及段首句“他们对西方知识文化的贡献巨大”可以推知，该族群在教育方面投入很大，故这一传统应该是“重视教育”，［D］正确。\n［错项排除］［A］、［B］与［C］均从管理者的角度介绍某种单一因素，文中对象为“某一特定族群”，既未强调其地位，也未说明其身份，且对教育单纯的“评估、监管、管理”并不能与“贡献巨大”发生直接关联，排除这三项。",
+      "explanation": "［精准定位］句中 such as 引出对 social effects 的举例说明。由“重视教育的传统”以及段首“对西方知识文化的贡献巨大”可知，该族群在教育方面投入巨大，这一传统应是“重视教育”，[D] valuing 正确。\n［错项排除］[A] assessing（评估）、[B] supervising（监督）、[C] administering（管理）均从管理者角度出发，无法解释“贡献巨大”，排除。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16,
+      "analysis": "［精准定位］句中 such as 引出对 social effects 的举例说明。由“重视教育的传统”以及段首“对西方知识文化的贡献巨大”可知，该族群在教育方面投入巨大，这一传统应是“重视教育”，[D] valuing 正确。\n［错项排除］[A] assessing（评估）、[B] supervising（监督）、[C] administering（管理）均从管理者角度出发，无法解释“贡献巨大”，排除。"
     },
     {
       "id": "eae19259-745c-5f51-83dd-62045e5fd2cd",
@@ -650,30 +630,28 @@
       "options": [
         {
           "key": "A",
-          "text": "development",
-          "value": "A"
+          "text": "development"
         },
         {
           "key": "B",
-          "text": "origin",
-          "value": "B"
+          "text": "origin"
         },
         {
           "key": "C",
-          "text": "consequence",
-          "value": "C"
+          "text": "consequence"
         },
         {
           "key": "D",
-          "text": "instrument",
-          "value": "D"
+          "text": "instrument"
         }
       ],
       "correct_answer": "C",
-      "explanation": "17. [ A] developm e nt 发展；发展（或培育等）的结果\n[ BJ or i g in 起因，开端\n[ CJ cons equence 结果，后果\n[ DJ ins trum e n t 孚段，工具；重要因素\n［考点提炼］旬内逻辑语义。正确率：49%\n［解题思路］④⑤句为平行句，其中Th e former 和The latter,social effects 和genet i c\ni so l at i o n 分别\n两两对应，可推知空格部分was seen as a (an）一一一＿of 应该对应has been put down to ，表因果关系，并\n且空格后（即genetic\ni so l at io n ）为原因，选项中只有［CJ 符合要求。\n注：a s a consequence of 为正式用语，意\n为as a result of“因此．由于…… 的结果” 。\n［错项排除］\n[ A］干扰较强，该词可表因果关系，但这种“因果关联” 实际发生于同源的两种事物，强\n调“由一种情况至另一种情况的线性发展过程”，如：Thi s new rose is a development from a very old kind\nof rose. （这一玫瑰新品种是由一种很老的品种培育而成的。），但文中T h e\nlatter 指代“易患遗传疾病”，\n是一种趋向性，而“遗传隔离”不是，两者不在一条线上，因此不存在谁向谁发展的问题。\n［BJ 和［DJ 均颠\n倒因果关系，两者加介词。［，其后名词皆为“结果”，而非“原因飞o ri gin of st h 表示“某问题的起因”，\ninstrument of st h 表示“促成某事的因素或手段” 。",
+      "explanation": "［精准定位］④⑤句为平行结构，The former has been put down to social effects 对应 The latter was seen as a consequence of genetic isolation，表因果关系，空格后为原因，as a consequence of 意为“由于……的结果”，[C] 正确。\n［错项排除］[A] development 强调由一种事物向另一种事物的线性演变过程；[B] origin 和 [D] instrument 均颠倒因果关系，排除。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 17,
+      "analysis": "［精准定位］④⑤句为平行结构，The former has been put down to social effects 对应 The latter was seen as a consequence of genetic isolation，表因果关系，空格后为原因，as a consequence of 意为“由于……的结果”，[C] 正确。\n［错项排除］[A] development 强调由一种事物向另一种事物的线性演变过程；[B] origin 和 [D] instrument 均颠倒因果关系，排除。"
     },
     {
       "id": "8a934c1e-7e67-5870-b613-521a5647a8c6",
@@ -685,30 +663,28 @@
       "options": [
         {
           "key": "A",
-          "text": "linked",
-          "value": "A"
+          "text": "linked"
         },
         {
           "key": "B",
-          "text": "integrated",
-          "value": "B"
+          "text": "integrated"
         },
         {
           "key": "C",
-          "text": "woven",
-          "value": "C"
+          "text": "woven"
         },
         {
           "key": "D",
-          "text": "combined",
-          "value": "D"
+          "text": "combined"
         }
       ],
       "correct_answer": "A",
-      "explanation": "18. [A]\nli nked 联系，连结\n[CJ wov巳n 编，织；编造\n［考点提炼］动词辨析。正确率：49%\n[BJ int egrate d 使合并，使结合\n[ DJ combined 结合，组合\n［解题思路］上文为人们之前的看法：“智商高”与“易患遗传疾病”并无关联（unre l ated ）；空格＠句\n引出Cochran 的观点：智商和疾病紧密\n。结合上下文可推知，人们之前的想法与现在Coc h ran 的\n观点应该相对立，故空格词与③句unrelated 反向对应，应表示“有关联的”，［A］符合文意。\n［错项排除］\n〔BJ 内涵为“使成为一个整体，从而变得更加高效”；〔CJ 动词原形为weave ，内涵为“组合\n不同元素或细节，使之成为相互联系的整体”，动作对象一般为“手工制品或故事、书籍等” ；［DJ 内涵为\n“组合不同事物，使之成为一体”。此三项均含有“结合为一个整体”这层释义，误区在于“既然结合为一\n体，自然彼此有所关联”，但这种关联主要强调“物理”上的相加、整合，且三项重心均落于“整合、一体”，\n而非“彼此之间有关联”，故排除。",
+      "explanation": "［精准定位］上文指出人们之前认为高智商与遗传疾病并无关联（unrelated）；本句引出 Cochran 的相反观点：智商和疾病密切相关，与 unrelated 反向对应，[A] linked 符合文意。\n［错项排除］[B] integrated 强调使合并为一个整体；[C] woven 强调手工编织或编造故事；[D] combined 强调物理组合，三项均侧重“整合一体”而非“内在关联”，排除。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18,
+      "analysis": "［精准定位］上文指出人们之前认为高智商与遗传疾病并无关联（unrelated）；本句引出 Cochran 的相反观点：智商和疾病密切相关，与 unrelated 反向对应，[A] linked 符合文意。\n［错项排除］[B] integrated 强调使合并为一个整体；[C] woven 强调手工编织或编造故事；[D] combined 强调物理组合，三项均侧重“整合一体”而非“内在关联”，排除。"
     },
     {
       "id": "2bfd5156-cf13-5e93-938f-c3afdf189264",
@@ -720,30 +696,28 @@
       "options": [
         {
           "key": "A",
-          "text": "limited (sb to sth)",
-          "value": "A"
+          "text": "limited (sb to sth)"
         },
         {
           "key": "B",
-          "text": "subjected (sb to sth)",
-          "value": "B"
+          "text": "subjected (sb to sth)"
         },
         {
           "key": "C",
-          "text": "converted (sb to sth)",
-          "value": "C"
+          "text": "converted (sb to sth)"
         },
         {
           "key": "D",
-          "text": "directed (sb to sth)",
-          "value": "D"
+          "text": "directed (sb to sth)"
         }
       ],
       "correct_answer": "B",
-      "explanation": "19. \n[A] limited (sb to sth) 限量；限定\n[B] subjected (sb to sth) 使遭受，经历\n[C] converted (sb to sth) 使转变（信仰等）\n[D] directed (sb to sth) 给（某人）指路\n［考点提炼］上下文语义＋动词用法。正确率：36%\n［解题思路］上句摆出 Cochran 观点：智商和疾病紧密相关；随后详细说明该观点：这些人（该高智商族群）不同寻常的历史——他们……独特的进化压力。空格后 evolutionary pressures（进化压力）呼应第二段 natural selection（自然选择），由此判断 Cochran 观点应该是：该族群智商高很大程度源于进化压力，而这种压力同时也是他们易患病的主要源头，从而明确“高智商”和“易患病”的内在关联；故空格所在部分应该表现“他们因为不同寻常的经历而遭受到不一般的进化压力”之意，［B］符合文意。\n［错项排除］［A］强调“对于数量或范围的限制”，而“不寻常的历史限制他们只受到进化压力”显然不合语义逻辑。［C］+ sb to sth 时，sth 需为“转而接受的信仰、立场”等；［D］+ sb to sth 时，sth 为“地点或方位词语”，两项均无法与“进化压力”构成合理搭配。",
+      "explanation": "［精准定位］Cochran 认为该族群不同寻常的历史致使他们承受了独特的进化压力，subject sb to sth 意为“使某人遭受、经历某种压力”，[B] subjected 正确。\n［错项排除］[A] limited sb to sth 强调数量限制；[C] converted 强调转变信仰；[D] directed 强调指路，均无法与进化压力构成合理搭配。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 19,
+      "analysis": "［精准定位］Cochran 认为该族群不同寻常的历史致使他们承受了独特的进化压力，subject sb to sth 意为“使某人遭受、经历某种压力”，[B] subjected 正确。\n［错项排除］[A] limited sb to sth 强调数量限制；[C] converted 强调转变信仰；[D] directed 强调指路，均无法与进化压力构成合理搭配。"
     },
     {
       "id": "875b534a-283f-5fb3-93cf-97ea99ccea86",
@@ -755,30 +729,28 @@
       "options": [
         {
           "key": "A",
-          "text": "paradoxical",
-          "value": "A"
+          "text": "paradoxical"
         },
         {
           "key": "B",
-          "text": "incompatible",
-          "value": "B"
+          "text": "incompatible"
         },
         {
           "key": "C",
-          "text": "inevitable",
-          "value": "C"
+          "text": "inevitable"
         },
         {
           "key": "D",
-          "text": "continuous",
-          "value": "D"
+          "text": "continuous"
         }
       ],
       "correct_answer": "A",
-      "explanation": "20. \n[A] paradoxical 似非而是的，自相矛盾的\n[B] incompatible 不相容的，不能并存的\n[C] inevitable 不可避免的，必然的\n[D] continuous 连续的，持续的\n［考点提炼］上下文语义＋形容词辨析。正确率：27%\n［解题思路］this state of affairs 回指上句“智商（高）与（易患）疾病密切相关”这一状况，空格处形容词表明这一状况的特点。根据上下文可知，此前人们普遍认为两者没有关联，而 Cochran 试图通过研究证实这一状况“看似矛盾不可能（前者为积极优势，后者为负面问题），但实际上很可能为真”，选项中能够表达该含义的形容词只有 paradoxical，强调某情况“看起来矛盾却很可能为真”。故［A］正确。\n［错项排除］［B］常用于表示“事物或人非常不同，不协调或合不来的”，在说明观点时表示“不能同时为真、不能共存”，绝对化了这种矛盾性，违背文中“高智商和遗传疾病共存于一个族群”这一已知事实。［C］强调必然性，而“高智商与遗传疾病相关”是进化压力的结果，具有或然性，并非族群中每个高智商者都患病。［D］强调时间持续性，与句意不符。",
+      "explanation": "［精准定位］this state of affairs 回指高智商与易患遗传疾病密切相关这一状况。此前人们普遍认为二者无关，Cochran 证实这种“看似矛盾却很可能为真”的状况，[A] paradoxical 正确。\n［错项排除］[B] incompatible 强调绝对不能并存，违背已知事实；[C] inevitable 强调必然发生；[D] continuous 强调时间连续不间断，排除。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 20,
+      "analysis": "［精准定位］this state of affairs 回指高智商与易患遗传疾病密切相关这一状况。此前人们普遍认为二者无关，Cochran 证实这种“看似矛盾却很可能为真”的状况，[A] paradoxical 正确。\n［错项排除］[B] incompatible 强调绝对不能并存，违背已知事实；[C] inevitable 强调必然发生；[D] continuous 强调时间连续不间断，排除。"
     },
     {
       "id": "fabb99f5-431e-5538-b820-8a52a9b2aaa4",
@@ -786,34 +758,32 @@
       "passage_id": "00768dd3-9266-5d06-b52a-479261bf3e73",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Which of the following is true according to the first two",
+      "stem": "Which of the following is true according to the first two paragraphs?",
       "options": [
         {
           "key": "A",
-          "text": "Women are biologically mor",
-          "value": "A"
+          "text": "Women are biologically more vulnerable to stress."
         },
         {
           "key": "B",
-          "text": "Women are still suffering much stress caused by men.",
-          "value": "B"
+          "text": "Women are still suffering much stress caused by men."
         },
         {
           "key": "C",
-          "text": "Women",
-          "value": "C"
+          "text": "Women are more experienced than men in coping with stress."
         },
         {
           "key": "D",
-          "text": "Men and women show different inclinations when",
-          "value": "D"
+          "text": "Men and women show different inclinations when faced with stress."
         }
       ],
       "correct_answer": "A",
-      "explanation": "21. Which of the following is true according to the first two \n21. 根据前两段可知下面哪项正确？\nparagraphs? \n[A] Women are biologically mor巳vulnerab l e to stress. \n[A ］女性在生理上更易受到压力的伤害。\n[BJ Women are still suffering much stress caused by men. \n[BJ 女性仍然遭受着很多男性施加的压力。\n[CJ Women 缸e more experienced than men in coping with stress. \n[CJ 在应对压力方面女性比男性更有经验。\n[ D] Men and women show different inclinations when \n[ DJ 面对压力时女性和男性表现出不同\nfaced with stress. \n的倾向。\n［精准定位］首段第二句指出，女性在压力下特别容易患抑郁症或焦虑症；第二段借助研究发现指\n出雌激素造成女性在压力下比男性分泌更多诱发不良反应的化学物质，从而影响健康，并以具体实验\n“摘除雌鼠卵巢（除去fl 雌性激素），雌鼠压力反应等同于雄鼠”例证说明。可见雌性激素是“女性更易受到\n压力伤害” 的根源，而这属于“生理”情况，所以［A］正确。\n［命题解密］正确项［A］是对前两段的概括，是全文主题的体现，其中more vulnerable to stress 和\nbiol ogica ll y 分别对应pa rti c ul a rl y susceptible ... in r巳s p o n s巳to\nst r ess 和第二段\ns ex hormone s 、ovar i es,\n[ BJ 望文生义，从文中catching up with m e n 臆造ti:\\ suffering much stress caused by men , [C]more \nexper i ence d 因文章首句way\na h e\n\n【选项释义与词汇辨析】\n[A] Women are biologically mor: 巳vulnerab l e to stress.\n[C] Women: 缸e more experienced than men in coping with stress.",
+      "explanation": "［精准定位］首段第二句指出，女性在压力下特别容易患抑郁症或焦虑症；第二段借助研究发现指出雌激素造成女性在压力下比男性分泌更多诱发不良反应的化学物质，从而影响健康，并以具体实验“摘除雌鼠卵巢（除去雌性激素），雌鼠压力反应等同于雄鼠”例证说明。可见雌性激素是“女性更易受到压力伤害”的根源，而这属于“生理”情况，所以 [A] 正确。\n［命题解密］正确项 [A] 是对前两段的概括，是全文主题的体现，其中 more vulnerable to stress 和 biologically 分别对应 particularly susceptible ... in response to stress 和第二段 sex hormones、ovaries。\n［错项排除］[B] 望文生义，从文中 catching up to men 臆造出 suffering much stress caused by men；[C] more experienced 因文章首句 way ahead 而来，但其为反语，表示“更易受压力负面影响”而非“更会应对压力”；[D] 对第二段①句中 causing females under stress produce more of... 偷换概念，原文意在说明“雌雄体因激素不同而分泌不同量的不良化学物质”，属于“客观生理现象”，而选项中 different inclinations 为“主观倾向”。\n［技巧总结］首段以比较手法开篇，引出全文分析现象：女性比男性更易受到压力的负面影响；第二段进一步以比较手法论证指出：女性在生理上比男性更易因压力而分泌出更多不良化学物质。命题人常就对比开篇型文章的对比处设题，解答此类题关键在于找出与文中比较信息贴合的选项。[A] 正确概括比较结论，故选 [A]。",
       "points": 2,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "analysis": "［精准定位］首段第二句指出，女性在压力下特别容易患抑郁症或焦虑症；第二段借助研究发现指出雌激素造成女性在压力下比男性分泌更多诱发不良反应的化学物质，从而影响健康，并以具体实验“摘除雌鼠卵巢（除去雌性激素），雌鼠压力反应等同于雄鼠”例证说明。可见雌性激素是“女性更易受到压力伤害”的根源，而这属于“生理”情况，所以 [A] 正确。\n［命题解密］正确项 [A] 是对前两段的概括，是全文主题的体现，其中 more vulnerable to stress 和 biologically 分别对应 particularly susceptible ... in response to stress 和第二段 sex hormones、ovaries。\n［错项排除］[B] 望文生义，从文中 catching up to men 臆造出 suffering much stress caused by men；[C] more experienced 因文章首句 way ahead 而来，但其为反语，表示“更易受压力负面影响”而非“更会应对压力”；[D] 对第二段①句中 causing females under stress produce more of... 偷换概念，原文意在说明“雌雄体因激素不同而分泌不同量的不良化学物质”，属于“客观生理现象”，而选项中 different inclinations 为“主观倾向”。\n［技巧总结］首段以比较手法开篇，引出全文分析现象：女性比男性更易受到压力的负面影响；第二段进一步以比较手法论证指出：女性在生理上比男性更易因压力而分泌出更多不良化学物质。命题人常就对比开篇型文章的对比处设题，解答此类题关键在于找出与文中比较信息贴合的选项。[A] 正确概括比较结论，故选 [A]。"
     },
     {
       "id": "8fd68b39-5a92-5c60-8fd9-7e16541d3192",
@@ -821,34 +791,32 @@
       "passage_id": "00768dd3-9266-5d06-b52a-479261bf3e73",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Dr. Yehuda's research suggests that women",
+      "stem": "Dr. Yehuda's research suggests that women ________.",
       "options": [
         {
           "key": "A",
-          "text": "need extra doses of chemicals to handle stress",
-          "value": "A"
+          "text": "need extra doses of chemicals to handle stress"
         },
         {
           "key": "B",
-          "text": "have limited capacity for tolerating stress",
-          "value": "B"
+          "text": "have limited capacity for tolerating stress"
         },
         {
           "key": "C",
-          "text": "are more capable of avo idi",
-          "value": "C"
+          "text": "are more capable of avoiding stress"
         },
         {
           "key": "D",
-          "text": "are exposed to more stress",
-          "value": "D"
+          "text": "are exposed to more stress"
         }
       ],
       "correct_answer": "D",
-      "explanation": "22. Dr. Yehuda’s research suggests that women 一一一一一·\n22 . 耶胡达博士的研究表明女性\n。\n[ A] need extra doses of chemicals to handle stress \n[ A］需要额外剂量的化学物质来处理压力\n[ BJ have limited capacity for tolerating stress \n[ BJ 忍受压力的能力有限\n[CJ are more capable of avo idi 吨stress\n[CJ 更有能力避免压力\n[ DJ are exposed to more stress \n[ DJ 遭受更多压力\n［精准定位］第三段②③句Ye h u d a 指出，并非女性应付压力的能力不如男性，而是她们要应对的压\n力太多。④句进一步指出，女性要处理的事情如此之多，以至于她们精疲力竭得更快更明显，［DJ 正确。\n［命题解密］正确项［D J 是对第三段主旨的概括，巳xposed to more stress 是对\nh er increased \n“ opportunities” for stress, have so much more to cope with, dealing with so many more things 的高度总结。\n[A］把①句“女性面对压力的机会增多，这加重了其体内（本就多于男性的）压力化学物质的剂量”曲\n解为“女性需要额外的化学物质剂量来应对压力” 。［BJ 对②句断章取义，只取了后半句\nthat women \ndon’t cope as well ，但该内容与\nIt ’ s not n ecessa ril y 一起实际构成双重否定，强调“女性抗压能力不比男性\n\n差”，随后④句递进表明“女性抗压能力可能甚至高过男性”，选项与该内容完全矛盾。［CJ 把④句“女性\n善于忍受压力”偷换为“女性善于避免压力” 。\n［技巧总结］针对研究结果、事例等细节设题，命题人无意单纯考查“实验或事例本身”，而是基于它\n们所服务的论点，再结合细节，综合考\n\n【选项释义与词汇辨析】\n[C] are more capable of avo idi: 吨stress",
+      "explanation": "［精准定位］第三段②③句 Yehuda 指出，并非女性应付压力的能力不如男性，而是她们要应对的压力太多。④句进一步指出，女性要处理的事情如此之多，以至于她们精疲力竭得更快更明显，[D] 正确。\n［命题解密］正确项 [D] 是对第三段主旨的概括，exposed to more stress 是对 her increased 'opportunities' for stress, have so much more to cope with, dealing with so many more things 的高度总结。\n［错项排除］[A] 把①句“女性面对压力的机会增多，这加重了其体内压力化学物质的剂量”曲解为“女性需要额外的化学物质剂量来应对压力”；[B] 对②句断章取义，忽略了前面的否定词 It's not necessarily，且④句递进表明“女性抗压能力可能甚至高过男性”，选项与原文矛盾；[C] 把④句“女性善于忍受压力”偷换为“女性善于避免压力”。\n［技巧总结］针对研究结果、事例等细节设题，命题人意在考查它们所服务的论点。本题看似考查实验细节，实质考查两性在压力问题上的比较。段中反复出现的 It's not necessarily that... It's just that they have so much more to cope with 表明重心在“压力数量更多”上，[D] 契合主旨。",
       "points": 2,
       "sort_order": 22,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 22,
+      "analysis": "［精准定位］第三段②③句 Yehuda 指出，并非女性应付压力的能力不如男性，而是她们要应对的压力太多。④句进一步指出，女性要处理的事情如此之多，以至于她们精疲力竭得更快更明显，[D] 正确。\n［命题解密］正确项 [D] 是对第三段主旨的概括，exposed to more stress 是对 her increased 'opportunities' for stress, have so much more to cope with, dealing with so many more things 的高度总结。\n［错项排除］[A] 把①句“女性面对压力的机会增多，这加重了其体内压力化学物质的剂量”曲解为“女性需要额外的化学物质剂量来应对压力”；[B] 对②句断章取义，忽略了前面的否定词 It's not necessarily，且④句递进表明“女性抗压能力可能甚至高过男性”，选项与原文矛盾；[C] 把④句“女性善于忍受压力”偷换为“女性善于避免压力”。\n［技巧总结］针对研究结果、事例等细节设题，命题人意在考查它们所服务的论点。本题看似考查实验细节，实质考查两性在压力问题上的比较。段中反复出现的 It's not necessarily that... It's just that they have so much more to cope with 表明重心在“压力数量更多”上，[D] 契合主旨。"
     },
     {
       "id": "fa5adddd-2dc1-5951-aa7a-15dd3196e380",
@@ -856,34 +824,32 @@
       "passage_id": "00768dd3-9266-5d06-b52a-479261bf3e73",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 4, the stress women",
+      "stem": "According to Paragraph 4, the stress women encounter tends to be ________.",
       "options": [
         {
           "key": "A",
-          "text": "domestic and temporary",
-          "value": "A"
+          "text": "domestic and temporary"
         },
         {
           "key": "B",
-          "text": "irregular and violen",
-          "value": "B"
+          "text": "irregular and violent"
         },
         {
           "key": "C",
-          "text": "dura ble and frequent",
-          "value": "C"
+          "text": "durable and frequent"
         },
         {
           "key": "D",
-          "text": "tri vial and random",
-          "value": "D"
+          "text": "trivial and random"
         }
       ],
       "correct_answer": "C",
-      "explanation": "23. According to Paragraph 4, the stress women \n23 .\n由第四段可知\n，女性面临的压力往往是\n。\nconfront tends to be \n[A] domestic and temporary \n[ A］家庭内部的、暂时的\n[ BJ irregular and violen \n[ BJ 无规律的、暴力的\n[ CJ dura ble and frequent \n[ CJ 长期的、频繁的\n[ DJ tri vial and random \n[ DJ 琐碎的、偶然的\n［精准定位］第四段②句指出女性面对的各种事情（即压力）往往更具长期性或反复性。故［CJ “长\n期的、频繁的”符合题意。\n［命题解密］正确项［CJ 是第四段②句chron i c or rep巳at：“的同义替换，是对女性压力特征的概括。\n[ A ］中\nt empora ry （暂时的）与文中\nc h ronic （长期的）相矛盾。［町、［DJ 源自④句random 、v i olence ，但\n原文用以描述的是男性压力特征而非女性。\n［技巧总结］“特征题”是考研阅读典型题型，这类题型的选项常常采取“ A and/ or/ but B”这种形式。\n解题关键在文中找出与A and/ or/ but B 相同或相似的句式结构，但切记A 和B 在内容上都需要贴合，干\n扰项多采取“偷换其中某一个”的方式设置；另外还可以借助主旨来辅助判断大方向。本题直接考点是\n第四段②旬，实质考查对第四段的全面掌握。\n四个选项皆为A and B 结构，而在第四段中很容易找出\nchronic or repeated（长期的、反复的）是A and/ or B 结构，［CJ是其同义替换。其他三项要么整体偷换，要么\n换掉A 或队偷换的内容temporary 、random 从程度上来看显然“削弱了压力的副作用”，而题干问及“女性\n压力特征”，全文旨在强调“女性受到压力负面影响之大”，从大方向来看便不符合逻辑。\nV OAcleline Alvarez marr ied at 18 and gave",
+      "explanation": "［精准定位］第四段②句指出女性面对的各种事情（即压力）往往更具长期性或反复性（in more of a chronic or repeated nature）。故 [C]“长期的、频繁的”符合文意。\n［命题解密］正确项 [C] durable and frequent 分别是对文中的 chronic（慢性的，长期的）和 repeated（反复的，经常发生的）的同义替换。\n［错项排除］[A] 中的 domestic 源自⑤句 domestic situations，但 temporary 与原文的 chronic or repeated nature 以及 not to be one-shot deals 完全相悖；[B] 中的 violent 源自③④⑤句中的 combat stress, physical violence, interpersonal violence，但 irregular（不规则的，无规律的）与 repeated nature 相悖；[D] 选项中 random 源自④句 random physical violence，但其属于男性面临压力的特点，trivial（微不足道的）文中未提及。\n［技巧总结］解答特征细节题时，一定要紧扣原文定位句的形容词同义替换，并注意对比男女所面临压力的不同维度。女性面临的压力特点是慢性的、反复的，对应 [C] durable and frequent。",
       "points": 2,
       "sort_order": 23,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 23,
+      "analysis": "［精准定位］第四段②句指出女性面对的各种事情（即压力）往往更具长期性或反复性（in more of a chronic or repeated nature）。故 [C]“长期的、频繁的”符合文意。\n［命题解密］正确项 [C] durable and frequent 分别是对文中的 chronic（慢性的，长期的）和 repeated（反复的，经常发生的）的同义替换。\n［错项排除］[A] 中的 domestic 源自⑤句 domestic situations，但 temporary 与原文的 chronic or repeated nature 以及 not to be one-shot deals 完全相悖；[B] 中的 violent 源自③④⑤句中的 combat stress, physical violence, interpersonal violence，但 irregular（不规则的，无规律的）与 repeated nature 相悖；[D] 选项中 random 源自④句 random physical violence，但其属于男性面临压力的特点，trivial（微不足道的）文中未提及。\n［技巧总结］解答特征细节题时，一定要紧扣原文定位句的形容词同义替换，并注意对比男女所面临压力的不同维度。女性面临的压力特点是慢性的、反复的，对应 [C] durable and frequent。"
     },
     {
       "id": "0588295b-75fb-5830-b6d5-49ba5c67d259",
@@ -891,34 +857,32 @@
       "passage_id": "00768dd3-9266-5d06-b52a-479261bf3e73",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The sentence “ I lived from paycheck to paycheck. ”",
+      "stem": "The sentence \"I lived from paycheck to paycheck.\" (Line 6, Para. 5) shows that ________.",
       "options": [
         {
           "key": "A",
-          "text": "Alvarez cared about not hing but making money",
-          "value": "A"
+          "text": "Alvarez cared about nothing but making money"
         },
         {
           "key": "B",
-          "text": "Alvarez's salary barely covered her household",
-          "value": "B"
+          "text": "Alvarez's salary barely covered her household expenses"
         },
         {
           "key": "C",
-          "text": "Alva rez got paychecks from different jobs",
-          "value": "C"
+          "text": "Alvarez got paychecks from different jobs"
         },
         {
           "key": "D",
-          "text": "A lvarez paid practically everything by check",
-          "value": "D"
+          "text": "Alvarez paid practically everything by check"
         }
       ],
       "correct_answer": "B",
-      "explanation": "24. The sentence “ I lived from paycheck to paycheck. ” \n24. 第五段第五行的句子“ I lived from \n( Line S, Para. S) shows that \npaycheck to paycheck. ”表明\n。\n[ A] Alvarez cared about not hing but making money \n〔A ］阿尔瓦雷兹只关心赚钱\n[BJ Alvarez's salary barely covered her household 巳xpe n ses\n[ BJ 阿尔瓦雷兹的收入几乎不能满足家庭\n开支\n[CJ Alva rez got paychecks from different jobs \n[ CJ 阿尔瓦雷兹通过不同的工作挣薪水\n[ DJ A lvarez paid practically everything by check \n[ DJ 阿尔瓦雷兹几乎都使用支票付款\n［精准定位］所考句上一句（⑤句）指／：I:\\\n, A lvarez 要照顾\n｜－多岁的孩子、找工作、交房租、还车款、还要\n还欠债，所考句与此句为顺承关系，ti'/i 述A l varez 的“巨大生活压力”，故［BJ 最符合文意。\n［命题解密］正确项［BJ 是对第五段⑤句“ It ’ s the hardest thing to tak巳ca r e of a teenager , have a job, \npay the rent, pay the car payment, and pay the d eb t ”的合理推断。\n固定短语\nli ve from paycheck to \np ayc h eck 指“挣的钱勉强够用，根本没有剩余”，意即“月光族” 。\n[ A ］由文中determin ed ...、st ru gg l ed .\n. .等内容主观推出“她努力进步的目的是为了赚钱”，但③句\n表明她意在借此积极应对压力、摆脱挫败的境地，而非“单纯赚钱” 。\n［CJ从from paycheck to\n\n【选项释义与词汇辨析】\n[B] Alvarez's salary barely covered her household: 巳xpe n ses",
+      "explanation": "［精准定位］所考句上一句（⑤句）指出，Alvarez 要照顾十多岁的孩子、找工作、付房租、还车贷以及偿还债务。紧接着指出“I lived from paycheck to paycheck.”，由此可推知其薪水勉强应付各项家庭开支，[B] 正确。\n［命题解密］正确项 [B] 是对上下文语境及美国俚语 live from paycheck to paycheck（领到薪水刚好维持生计，无节余，即“月光族”）的准确理解，barely covered her household expenses 准确诠释了该句含义。\n［错项排除］[A] 主观臆测其“只在乎赚钱”，原文表明她上大学是为了应对压力、摆脱困境，并非见钱眼开；[C] 将 paycheck to paycheck 字面曲解为从不同工作中拿支票，且与原文 have a job（单数）矛盾；[D] 望文生义将 paycheck 误解为付款方式（用支票付款），偏离文意。\n［技巧总结］句意理解题的考查重点常为成语、习语或比喻表达。解答此类题必须结合前后句逻辑。前句列举了多项沉重的开销负担，顺承下来必然是经济拮据、捉襟见肘，[B] 完全吻合。",
       "points": 2,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24,
+      "analysis": "［精准定位］所考句上一句（⑤句）指出，Alvarez 要照顾十多岁的孩子、找工作、付房租、还车贷以及偿还债务。紧接着指出“I lived from paycheck to paycheck.”，由此可推知其薪水勉强应付各项家庭开支，[B] 正确。\n［命题解密］正确项 [B] 是对上下文语境及美国俚语 live from paycheck to paycheck（领到薪水刚好维持生计，无节余，即“月光族”）的准确理解，barely covered her household expenses 准确诠释了该句含义。\n［错项排除］[A] 主观臆测其“只在乎赚钱”，原文表明她上大学是为了应对压力、摆脱困境，并非见钱眼开；[C] 将 paycheck to paycheck 字面曲解为从不同工作中拿支票，且与原文 have a job（单数）矛盾；[D] 望文生义将 paycheck 误解为付款方式（用支票付款），偏离文意。\n［技巧总结］句意理解题的考查重点常为成语、习语或比喻表达。解答此类题必须结合前后句逻辑。前句列举了多项沉重的开销负担，顺承下来必然是经济拮据、捉襟见肘，[B] 完全吻合。"
     },
     {
       "id": "2f441595-7181-572c-a9d6-4d1eda7242db",
@@ -930,30 +894,28 @@
       "options": [
         {
           "key": "A",
-          "text": "Stra in of Stress: No Way Out?",
-          "value": "A"
+          "text": "Strain of Stress: No Way Out?"
         },
         {
           "key": "B",
-          "text": "Responses to Stress: Gender Difference",
-          "value": "B"
+          "text": "Responses to Stress: Gender Difference"
         },
         {
           "key": "C",
-          "text": "Stress Analysis : What Chemicals Say",
-          "value": "C"
+          "text": "Stress Analysis: What Chemicals Say"
         },
         {
           "key": "D",
-          "text": "Gender Inequality : Women Under Stress",
-          "value": "D"
+          "text": "Gender Inequality: Women Under Stress"
         }
       ],
       "correct_answer": "D",
-      "explanation": "25. Which of the following would be the best title for the text? \n25. 下面哪一项是本文最佳标题？\n[ A] Stra in of Stress: No Way Out? \n[ A］压力的束缚：无路可逃？\n[BJ Responses to Stress: Gender Difference \n[ BJ 对压力的反应：性别差异\n[ CJ Stress Analysis : What Chemicals Say \n[ CJ 压力分析：化学物质起的作用\n[ DJ Gender Inequality : Women Under Stress \n[ DJ 性别不平等：压力下的女性\n［精准定位］开篇即通过对比男女情况提出现象：比起男性，女性尤其容易受到压力的负面影响；第二\n至五段分别从生理和社会两个角度分析现象产生的原因：雌性激素使得女性在压力下更易分泌不良化学\n物质，她们承担多得多的压力且这种压力更具将久性和反复性。尽管论述有时II路去“与男性的比较”，但这\n一对比贯穿全文始终，是作者关注的重点；而从文中way ahead ... undesirable catego ry 、unfort unate l y 、not\nnecessarily that women don’t cope as we ll 等明显吁占在女性一边”的笔触以及末段“向女性的建议”可知作者\n并非“客观论述性别差异” ，而是发表对其性别所致劣势的同情与担忧，因此［DJ 为最佳题目。\n［命题解密］正确项［DJ 与主题保持了高度的→致性：其中G e nd e r\nIn eq ua l i ty 概括了文章主体部分\nsex h o rm o n es 、Ad ding to a women ’s . . . her increased “ opportunities ”\nfor \nst ress 、\nanot her di ff er ence \nbetween the sexes 的论述角度；Women Under Str巳ss 则包含了全文",
+      "explanation": "［精准定位］开篇即通过对比男女情况提出现象：比起男性，女性尤其容易受到压力的负面影响；第二至五段分别从生理和社会两个角度剖析原因：雌激素使女性分泌更多有害化学物质，且社会中女性承担了更多、更持久的压力；末段提出应对建议。全文贯穿男女对比并鲜明地站在同情女性劣势的立场上，[D] 为最佳标题。\n［命题解密］正确项 [D] 与主题高度契合：Gender Inequality 概括了文章从生理到社会全方位的两性劣势对比；Women Under Stress 则准确锁定了全文的核心论述对象 women 和 stress。\n［错项排除］[A] 中反问 No Way Out? 误导全文以解决问题为主，且忽略了核心主体 Women；[B] 范围过窄，仅源自第二段对压力的反应差异，忽略了两性在社会压力承担上的不平等性；[C] 局限于第二段的化学物质分析，以偏概全。\n［技巧总结］标题归纳题必须涵盖文章的核心关键词并体现作者的情感态度倾向。本文两个核心关键词为 women 和 stress，且通篇强调女性在压力面前遭受的不公与劣势，[D] 最为精准贴切。",
       "points": 2,
       "sort_order": 25,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 25,
+      "analysis": "［精准定位］开篇即通过对比男女情况提出现象：比起男性，女性尤其容易受到压力的负面影响；第二至五段分别从生理和社会两个角度剖析原因：雌激素使女性分泌更多有害化学物质，且社会中女性承担了更多、更持久的压力；末段提出应对建议。全文贯穿男女对比并鲜明地站在同情女性劣势的立场上，[D] 为最佳标题。\n［命题解密］正确项 [D] 与主题高度契合：Gender Inequality 概括了文章从生理到社会全方位的两性劣势对比；Women Under Stress 则准确锁定了全文的核心论述对象 women 和 stress。\n［错项排除］[A] 中反问 No Way Out? 误导全文以解决问题为主，且忽略了核心主体 Women；[B] 范围过窄，仅源自第二段对压力的反应差异，忽略了两性在社会压力承担上的不平等性；[C] 局限于第二段的化学物质分析，以偏概全。\n［技巧总结］标题归纳题必须涵盖文章的核心关键词并体现作者的情感态度倾向。本文两个核心关键词为 women 和 stress，且通篇强调女性在压力面前遭受的不公与劣势，[D] 最为精准贴切。"
     },
     {
       "id": "2c7f8105-d609-55a7-b5b1-aac7416aee08",
@@ -961,34 +923,32 @@
       "passage_id": "f78ff8be-ed70-5a30-8dc1-893d450d8289",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "In the first paragraph, the author discusses",
+      "stem": "In the first paragraph, the author discusses ________.",
       "options": [
         {
           "key": "A",
-          "text": "the background information of journal editin",
-          "value": "A"
+          "text": "the background information of journal editing"
         },
         {
           "key": "B",
-          "text": "the publication routine of laboratory reports",
-          "value": "B"
+          "text": "the publication routine of laboratory reports"
         },
         {
           "key": "C",
-          "text": "the relations of authors with journal publishers",
-          "value": "C"
+          "text": "the relations of authors with journal publishers"
         },
         {
           "key": "D",
-          "text": "the traditional process of journal publication",
-          "value": "D"
+          "text": "the traditional process of journal publication"
         }
       ],
       "correct_answer": "D",
-      "explanation": "26. In the first paragraph, the author discusses \n26. 作者在第一段论述的是\n。\n[A] the background information of journal editin \n[ A］期刊编辑的背景知识\n[BJ the publication routine of laboratory reports \n[BJ 实验报告的出版流程\n[CJ the relations of authors with journal publishers \n[CJ 作者与期刊出版商的关系\n\n[ DJ the traditional process of journal publication \n[ DJ 传统的期刊出版过程\n［精准定位］第一段①句总述指出“它”过于单一、直接，②至⑤通过“论文提交→论文送审→论文发\n表→论文版权归属”详述各大具体环节明确①句所指：传统的期刊出版流程，故［DJ 正确。\nf命题解密］正确项［D J 是对wou ld submit the r巳s ult s.. . wou ld remove the authors' names ... and \nsend it to their peers . .. wou ld accept the paper or decline it 所展现论文出版流程的合理概括，为首句\nit\n( used to ）所指。其中\ntrad i t i ona l 对应过去时间标识词\nu sed\nto 和l would 。\n[ A ］利用同源词e ditor 设置干扰，将e ditor 的工作se nd it to their peers for review . . . accept the paper \nfor publication or decline it （将论文送审并决定能否出版）偷换为journ a l\ned i t ing （对期刊进行编辑校对）。\n[BJ有两处错误：一，将\nth e results of their r esea r c h 篡改为\nl",
+      "explanation": "［精准定位］第一段①句指出“过去一切曾如此简单直接”，②至⑤句通过“提交成果→编辑隐去姓名送同行评审→根据意见决定录用与否→版权归属出版社、读者付费订阅”完整再现了过去传统学术期刊的出版流程，[D] 正确。\n［命题解密］正确项 [D] the traditional process of journal publication 是对第一段首句 It used to be so straightforward 以及后文提交、评审、出版、订阅全流程的高度概括，traditional 对应过去时间标识词 used to be 和 would。\n［错项排除］[A] 利用 editor 设置干扰，将送审录用过程偷换为期刊编辑背景；[B] 将科研成果 results of research 缩小为 laboratory reports，且缺少过去时间限定；[C] 仅涵盖最后一句的局部细节，未能概括整段出版流程。\n［技巧总结］段落大意题应着眼于段落主旨句及句间发展逻辑。首段以 used to be so straightforward 领起，全文详细列举了传统出版的步步流程，[D] 为最佳概括。",
       "points": 2,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "analysis": "［精准定位］第一段①句指出“过去一切曾如此简单直接”，②至⑤句通过“提交成果→编辑隐去姓名送同行评审→根据意见决定录用与否→版权归属出版社、读者付费订阅”完整再现了过去传统学术期刊的出版流程，[D] 正确。\n［命题解密］正确项 [D] the traditional process of journal publication 是对第一段首句 It used to be so straightforward 以及后文提交、评审、出版、订阅全流程的高度概括，traditional 对应过去时间标识词 used to be 和 would。\n［错项排除］[A] 利用 editor 设置干扰，将送审录用过程偷换为期刊编辑背景；[B] 将科研成果 results of research 缩小为 laboratory reports，且缺少过去时间限定；[C] 仅涵盖最后一句的局部细节，未能概括整段出版流程。\n［技巧总结］段落大意题应着眼于段落主旨句及句间发展逻辑。首段以 used to be so straightforward 领起，全文详细列举了传统出版的步步流程，[D] 为最佳概括。"
     },
     {
       "id": "32f22a7f-247f-5454-9efb-f31ffd011313",
@@ -1000,30 +960,28 @@
       "options": [
         {
           "key": "A",
-          "text": "It criticizes government-funded res",
-          "value": "A"
+          "text": "It criticizes government-funded research."
         },
         {
           "key": "B",
-          "text": "It int roduces an effective means of publication.",
-          "value": "B"
+          "text": "It introduces an effective means of publication."
         },
         {
           "key": "C",
-          "text": "It upsets profit-making journal publishers.",
-          "value": "C"
+          "text": "It upsets profit-making journal publishers."
         },
         {
           "key": "D",
-          "text": "It benefits scientific research considera bly.",
-          "value": "D"
+          "text": "It benefits scientific research considerably."
         }
       ],
       "correct_answer": "C",
-      "explanation": "27. Which of the following is true of the OECD report? \n27.\n下面有关OECD 报告的说法中哪项正确？\n[A] It criticizes government-funded res巳arc h .\n[A］它批评了政府资助的研究项目。\n[ BJ It int roduces an effective means of publication. \n[BJ 它提出了一种有效的出版方式。\n[CJ It upsets profit-making journal publishers. \n[CJ 它让获利的期刊出版商悻然不快。\n[ DJ It benefits scientific research considera bly. \n[DJ 它使科学研究受益匪浅。\n［精准定位J\nI主l 关键词OECD\nreport 定位到第二段③至⑤句，此部分借OECD 报告指出出版方式变化\n带来的影响，④句说明直接影响：使一直以来靠限制科研成果获取方式谋利的出版商心情沉重，［C〕正确。\n［命题解密］正确项［CJ 是对第二段④句m akes heavy reading for publishers who have, so fa r , mad 巳\nhandsome prof it s 的同义改写，其中\nup sets 对应\nma k es heavy reading ; profit m a king 对应\nh ave made \nhandsome profits 。\n[ A ］将第二段②句资助机构的谴责质疑对象“从政府资助的研究中获利的商业出版商”篡改为“政府\n所资助的研究” 。［BJ 将OECD 报告的核心内容“阐述出版方式变化的深远影响”篡改为“（初次）提出一种有\n效的出版方式”，且文中并未指出OECD 报告是否为首个介绍新出版方式的文件，也并未说明新的出版方式如\n何“有效” 。［DJ 将段末\nI t signals a change in ... a key element of scientific end eavo ur （\n\n【选项释义与词汇辨析】\n[A] It criticizes government-funded res: 巳arc h .",
+      "explanation": "［精准定位］第二段③至⑤句提到 OECD 报告。④句指出该报告 makes heavy reading for publishers who have, so far, made handsome profits（让迄今为止获利颇丰的出版商心情沉重），[C] 正确。\n［命题解密］正确项 [C] 是对第二段④句的同义改写，upsets 对应 makes heavy reading for；profit-making journal publishers 对应 publishers who have made handsome profits。\n［错项排除］[A] 将资助机构质疑的对象“从政府资助的研究中获利的商业出版商”篡改为“政府资助的研究本身”；[B] 将报告陈述出版方式深远影响篡改为“提出一种有效的出版方式”；[D] 将报告标志着科研关键要素发生改变篡改为“报告本身给科研带来巨大好处”，过度引申。\n［技巧总结］事实细节题要求严格回原文比对关键信息点。原文明确指出报告使得盈利出版商 reading heavy（沉重、不悦），同义替换为 upsets profit-making publishers，[C] 准确对应。",
       "points": 2,
       "sort_order": 27,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 27,
+      "analysis": "［精准定位］第二段③至⑤句提到 OECD 报告。④句指出该报告 makes heavy reading for publishers who have, so far, made handsome profits（让迄今为止获利颇丰的出版商心情沉重），[C] 正确。\n［命题解密］正确项 [C] 是对第二段④句的同义改写，upsets 对应 makes heavy reading for；profit-making journal publishers 对应 publishers who have made handsome profits。\n［错项排除］[A] 将资助机构质疑的对象“从政府资助的研究中获利的商业出版商”篡改为“政府资助的研究本身”；[B] 将报告陈述出版方式深远影响篡改为“提出一种有效的出版方式”；[D] 将报告标志着科研关键要素发生改变篡改为“报告本身给科研带来巨大好处”，过度引申。\n［技巧总结］事实细节题要求严格回原文比对关键信息点。原文明确指出报告使得盈利出版商 reading heavy（沉重、不悦），同义替换为 upsets profit-making publishers，[C] 准确对应。"
     },
     {
       "id": "0118964e-6c9e-51be-a8e7-5acd4b4e72e6",
@@ -1035,30 +993,28 @@
       "options": [
         {
           "key": "A",
-          "text": "it provides an easier access to scientific results",
-          "value": "A"
+          "text": "it provides an easier access to scientific results"
         },
         {
           "key": "B",
-          "text": "it brings huge profits to scientific researchers",
-          "value": "B"
+          "text": "it brings huge profits to scientific researchers"
         },
         {
           "key": "C",
-          "text": "it emphasizes the crucial role of scientific knowledge",
-          "value": "C"
+          "text": "it emphasizes the crucial role of scientific knowledge"
         },
         {
           "key": "D",
-          "text": "it facilitates public investment in scientific research",
-          "value": "D"
+          "text": "it facilitates public investment in scientific research"
         }
       ],
       "correct_answer": "A",
-      "explanation": "28. According to the text , online publication is significant \n28 . 根据文章，网络出版意义重大的原因在\nin that \n于\n。\n[A] it pro v i d 巳S an easier access to scientific res ults \n[A］它提供了更为便捷的科研成果获取渠道\n[ BJ it brings huge profits to scientifi c researchers \n[ BJ 它给科研人员带来了巨大的利润\n[ C] it emphasizes the crucial role of scientific knowledge \n[ CJ 它强调了科学知识的关键作用\n[ DJ it fac ilitates public investment in scientifi c research \n[ DJ 它便利了科研的公共投资\n［精准定位］第二至四段论述科学:_u 版的变化及其影响，第二段②句指出科学出版的变化：网络使\n“自由获取科研成果”成为现实，第四段l书科学出版网络化带来的全新商业模式进一步展现科研成果获\n取的便利化（open access ），可见［A］正确。\n［命题解密］正确项［A］是对第二段②句\nis making free access to scientific res ul ts a rea l ity 和第四段\n以op e n- access 为核心的各种网络出版模式特点的合理概括。\n[ BJ 将第二段④句made handsome profits 的主体pu bli s h ers 篡改为sc i e nt if i c\nr esea rc h e r s ；此外，原文\n虽表达了“ 网络出版有利于科研成果自由获取，科研｜人员得以受益”之意，但不能等同于“ 网络出版会为\n研究人员带来巨大利润” 。［CJ 将第三段首句“科研成果的广泛传播和l 方便获取有利于实现科学知识的\n价值”改为与之偏差极大的“网络：－IJ，版强调了科学知识的重要性”（传统的：－H\n\n【选项释义与词汇辨析】\n[A] it pro vid: 巳S an easier access to scientific res ults",
+      "explanation": "［精准定位］第二段②句指出网络使科研成果的自由获取成为现实（is making free access to scientific results a reality），第四段进一步指出各种开放获取模式使科研成果对所有人免费开放，极大地便利了科研成果的获取，[A] 正确。\n［命题解密］正确项 [A] an easier access to scientific results 是对文中文意 free access to scientific results 以及 freely available for anyone to read 的综合同义表达。\n［错项排除］[B] 将商业出版商攫取暴利的主体颠倒为“科研人员”；[C] 将“传播与获取便利有利于实现科学知识的价值”曲解为“网络出版强调了科学知识的重要性”；[D] 无中生有，文中未提及促进公共投资科研。\n［技巧总结］原因与意义题应定位到作者论述网络出版核心价值的段落。网络出版的核心冲击就在于打破了传统出版社的壁垒，让科研成果更容易被获取，[A] 切中要害。",
       "points": 2,
       "sort_order": 28,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 28,
+      "analysis": "［精准定位］第二段②句指出网络使科研成果的自由获取成为现实（is making free access to scientific results a reality），第四段进一步指出各种开放获取模式使科研成果对所有人免费开放，极大地便利了科研成果的获取，[A] 正确。\n［命题解密］正确项 [A] an easier access to scientific results 是对文中文意 free access to scientific results 以及 freely available for anyone to read 的综合同义表达。\n［错项排除］[B] 将商业出版商攫取暴利的主体颠倒为“科研人员”；[C] 将“传播与获取便利有利于实现科学知识的价值”曲解为“网络出版强调了科学知识的重要性”；[D] 无中生有，文中未提及促进公共投资科研。\n［技巧总结］原因与意义题应定位到作者论述网络出版核心价值的段落。网络出版的核心冲击就在于打破了传统出版社的壁垒，让科研成果更容易被获取，[A] 切中要害。"
     },
     {
       "id": "b9023687-bdb5-58fe-93fb-0d3fb54a17e8",
@@ -1070,30 +1026,28 @@
       "options": [
         {
           "key": "A",
-          "text": "cover the cost of its publication",
-          "value": "A"
+          "text": "cover the cost of its publication"
         },
         {
           "key": "B",
-          "text": "subscribe to the journal publishing it",
-          "value": "B"
+          "text": "subscribe to the journal publishing it"
         },
         {
           "key": "C",
-          "text": "allow other online journals to use it freely",
-          "value": "C"
+          "text": "allow other online journals to use it freely"
         },
         {
           "key": "D",
-          "text": "complete the peer-review before submission",
-          "value": "D"
+          "text": "complete the peer-review process beforehand"
         }
       ],
       "correct_answer": "A",
-      "explanation": "29. With the open-access publishing model, the author \n29. 在开放存取出版模式中\n，论文作者需\nof a paper is required to 一一一一一·\n要\n。\n[ A] cover the cost of its publica tion \n[ A ］承担出版成本\n[ BJ subscribe to the journal p ubli s hi哩\ni t\n[ BJ 订阅发表论文的期刊\n\n[ C] allow other onli ne journals to use it freely \n[ DJ complete the peer-review before submission \n[CJ 允许其他网络期刊免费使用他的论文\n[D：在递交论文之前完成同行专家评议\n［精准定位］根据题干关键词op e n access publishing mod e l 定位到第四段⑤句：在这一模式下，论文\n作者或其所属机构负担论文发表的费用，［A］正确。\n［命题解密］正确项［A］是第四段⑤句pay for the paper to be pu b l i shed 的同义改写。\n〔BJ 将开放存取出版模式特点“论文获取不受限（ope n- access ）”改为与之相反的传统出版模式特点\n“论文获取受限（ha ve to subscribe to the j ournal) ”；且传统出版模式下期刊订阅主体是“论文作者以外的\n其他研究者”而非“论文作者” 。［CJ将open-a ccess 的面向群体“广大研究者”篡改为“其它期刊” 。［DJ 将\n本段末句change the traditional form of the peer-review process （改变传统同行评审制度）主观臆断为“改\n变递交论文和同行审议的先后顺序”（即由“先提交论文，后进行同行评议”转变为“先进行同行评议，后\n提交论文勺，但原文并未提及现在出版流程的具体步骤。\n［技巧总结］末段列举了多种网络出版新模式并分别介绍了各自的特\n\n【选项释义与词汇辨析】\n[B] subscribe to the journal p ubli s hi: 哩 i t",
+      "explanation": "［精准定位］根据题干关键词 open-access publishing model 定位到第三段③句。该句明确指出 open-access publishing, which makes articles freely available to all and makes money by charging authors for publication（向作者收取出版费用以赢利），[A] 正确。\n［命题解密］正确项 [A] cover the cost of its publication 是对 charging authors for publication 的同义转述。\n［错项排除］[B] 将第一段末句传统出版模式对“读者/研究人员”的订阅要求错误套用到开放获取模式中的“作者”身上；[C] 开放获取是让所有人免费阅读，而非特指“允许其他在线期刊免费使用”；[D] 末段推测开放获取可能最终改变同行评审流程，但并非要求作者提前完成同行评审。\n［技巧总结］细节题直接在原文找定义。第三段对 open-access publishing 的明确界定为 charging authors for publication，即由作者支付出版费用，[A] 毫无争议。",
       "points": 2,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29,
+      "analysis": "［精准定位］根据题干关键词 open-access publishing model 定位到第三段③句。该句明确指出 open-access publishing, which makes articles freely available to all and makes money by charging authors for publication（向作者收取出版费用以赢利），[A] 正确。\n［命题解密］正确项 [A] cover the cost of its publication 是对 charging authors for publication 的同义转述。\n［错项排除］[B] 将第一段末句传统出版模式对“读者/研究人员”的订阅要求错误套用到开放获取模式中的“作者”身上；[C] 开放获取是让所有人免费阅读，而非特指“允许其他在线期刊免费使用”；[D] 末段推测开放获取可能最终改变同行评审流程，但并非要求作者提前完成同行评审。\n［技巧总结］细节题直接在原文找定义。第三段对 open-access publishing 的明确界定为 charging authors for publication，即由作者支付出版费用，[A] 毫无争议。"
     },
     {
       "id": "a258628c-3bad-5189-94dc-8c520becee53",
@@ -1105,30 +1059,28 @@
       "options": [
         {
           "key": "A",
-          "text": "The I",
-          "value": "A"
+          "text": "The Internet is posing a threat to publishers."
         },
         {
           "key": "B",
-          "text": "A new mode of publication is emerging.",
-          "value": "B"
+          "text": "A new mode of publication is emerging."
         },
         {
           "key": "C",
-          "text": "Authors welcome the new channel for publication.",
-          "value": "C"
+          "text": "Authors welcome the new channel for publication."
         },
         {
           "key": "D",
-          "text": "Publication is rendered easier by online service.",
-          "value": "D"
+          "text": "Publication is rendered easier by online service."
         }
       ],
       "correct_answer": "B",
-      "explanation": "30. Which of the following best summarizes the text? \n3 0 . 下面哪一项最恰当地概括了本文？\n[ A] The I川e rn e t is posing a threat to publishers. \n[ A ］网络对出版商正在构成威胁。\n[ BJ A new mode of publication is emerging. \n[ BJ 新的出版方式正在出现。\n[CJ Authors welcome the new channel for publication. \n[CJ 论文作者乐意接受出版新渠道。\n[ DJ Publication is rendered easier by online service. \n[ DJ 网络服务使出版更容易。\n［精准定位］文章前两段指出：随着网络的发展，如今出现了科学成果自由获取的新趋势，并概述其\n影响。第三、四段则具体指出如今大多数科学期刊已在线出版，并带来了全新的在线商业模式。\n可见，\n作者主要关注点在于“科学出版新方式一一在线出版”，［BJ 正确。\n［命题解密］正确项［BJ 是对原文\nI t used to be, No longer, This is now chang i ng 时间线索所凸显的\n“出版方式变化”的合理概括。\n〔A ］将第二段④句出版商的威胁“科研出版自由获取新趋势，即网络出版”篡改为“网络”，且文章并\n非只关注新趋势对“出版商”的影响。［CJ 由“科研成果的广泛传播和方便获取有利于实现知识的价值”\n而推断“论文作者（为实现研究的价值）愿意接受网络出版”，但文中未直接论述作者对新出版方式的态\n度，即使推断正确，也并非文章重心。［DJ 将“网络（I nt ern e t / On li ne ）影响：科研成果获取更容易”篡改为\n“网络服务（Online serv i ce）的影响\n：出版更容易”，且文中并未指出出版变得更容易。\n［技巧总结］从文章来看，本文涉及多处今昔对比，以及多个概念之间的纷杂关系，抓取文章主旨需\n要较强的分Vi· 、概括、归纳、\n\n【选项释义与词汇辨析】\n[A] The I: 川e rn e t is posing a threat to publishers.",
+      "explanation": "［精准定位］文章前两段通过今昔对比指出科学成果自由获取的新趋势冲击着传统出版业；第三、四段具体介绍目前涌现的开放获取出版、机构知识库等全新出版模式；第五段指出这些新模式将对学术交流产生深远影响。全文主线为新型学术出版模式的兴起，[B] 正确。\n［命题解密］正确项 [B] A new mode of publication is emerging 是对全文核心线索 It used to be, No longer, This is now changing, Entirely new business models are emerging 的精准概括。\n［错项排除］[A] 仅属于第二段涉及的局部影响，无法概括全文；[C] 无中生有，文中并未专门调查或阐述作者对新渠道的态度；[D] 偷换概念，原文强调“获取科研成果变得更容易”，而非“出版工作变得更容易”。\n［技巧总结］主旨题要求通览全文结构。本文采用“传统模式（1段）→变革发生（2段）→全新模式涌现（3-4段）→未来深远影响（5段）”的脉络展开，核心就是新的出版模式正在崛起，[B] 是最全面的概括。",
       "points": 2,
       "sort_order": 30,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 30,
+      "analysis": "［精准定位］文章前两段通过今昔对比指出科学成果自由获取的新趋势冲击着传统出版业；第三、四段具体介绍目前涌现的开放获取出版、机构知识库等全新出版模式；第五段指出这些新模式将对学术交流产生深远影响。全文主线为新型学术出版模式的兴起，[B] 正确。\n［命题解密］正确项 [B] A new mode of publication is emerging 是对全文核心线索 It used to be, No longer, This is now changing, Entirely new business models are emerging 的精准概括。\n［错项排除］[A] 仅属于第二段涉及的局部影响，无法概括全文；[C] 无中生有，文中并未专门调查或阐述作者对新渠道的态度；[D] 偷换概念，原文强调“获取科研成果变得更容易”，而非“出版工作变得更容易”。\n［技巧总结］主旨题要求通览全文结构。本文采用“传统模式（1段）→变革发生（2段）→全新模式涌现（3-4段）→未来深远影响（5段）”的脉络展开，核心就是新的出版模式正在崛起，[B] 是最全面的概括。"
     },
     {
       "id": "d0191276-07a4-5b83-9482-05292f15c8d1",
@@ -1136,34 +1088,32 @@
       "passage_id": "ced284a0-eb80-5389-a203-0057441d6c2e",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Wilt Chamberlain is cited as an example to",
+      "stem": "Wilt Chamberlain is cited as an example to ________.",
       "options": [
         {
           "key": "A",
-          "text": "illustrate the change of height of NBA players",
-          "value": "A"
+          "text": "illustrate the change of height of NBA players"
         },
         {
           "key": "B",
-          "text": "show the popularity of NBA players in the U. S.",
-          "value": "B"
+          "text": "show the popularity of NBA players in the U.S."
         },
         {
           "key": "C",
-          "text": "compare different generations of NBA players",
-          "value": "C"
+          "text": "compare the stature of players in different sports"
         },
         {
           "key": "D",
-          "text": "assess the achievements of famous NBA players",
-          "value": "D"
+          "text": "assess the impact of height on sports performance"
         }
       ],
       "correct_answer": "A",
-      "explanation": "31. 飞,V il t Chamberlain is cited as an example to 一一一－·\n31.\n文中以威尔特·张伯伦为例旨在\n。\n[ A] illustrate the change of height of NBA players \n[ A ］说明NBA 球员身高的变化\n[ BJ show the popularity of NBA players in the U. S. \n[BJ 表明NBA 球员在美国很受欢迎\n[CJ compare different generations of NBA players \n[ CJ 比较几代NBA 球员\n[ DJ assess the achievements of famous NBA players \n[ DJ 评估著名NBA 球员的成就\n［精准定位］首段①②句言及张伯伦：1960 年代，他是NBA 中仅有的3 名七尺长人之一；上个赛季\n假使他依然效力NBA ，则会是42 名之一。③句进而指出\n：美国职业运动员身高发生了显著变化，出现了\n越来越多更大更高的身躯。可见，在①②句所述张伯伦事例中，作者意在比较过去与现在NBA 球员身\n高，说明其增长趋势，［A］正确。\n［命题解密］正确项［A］正确把握住了首段从点“ NBA 球员身高的增长（①②句）” 扩大到面“美国职\n业运动员身高的增长（③句）”这一论证逻辑。\n[ BJ 以常识“ NBA 球员在美国很受欢迎”干扰，但文中并未提及NBA 球员的受欢迎程度。［CJ 以①\n②句中提及的时间\nI n the early 1960s J ast season 捏造干扰（different gen e rat i o n s ），但选项太泛、并·未触\n及原文关注点“球员身高” 。［DJ 以背景信息“张伯伦是著名NBA 球员”干扰，但文中并未提及其成就。\n［技巧总结］本文以事例开篇，且涉及虚拟语气、时间对比、范围变化等，是典型的命题点，本题即就此\n设题，意在考查对开篇事例的掌握。解此类题时需注意：开篇事例本身往往并非作者关注点，常常意在以\n点带面说明作者关注的更大",
+      "explanation": "［精准定位］首段提到 20 世纪 60 年代初 NBA 超过 7 英尺的球员只有三人，张伯伦就是其中之一；而上一赛季这样身高的球员已有 42 人。紧接着指出职业运动员的身材多年来发生了戏剧性变化。举张伯伦的例子正是为了说明 NBA 球员身高的变化，[A] 正确。\n［命题解密］正确项 [A] illustrate the change of height of NBA players 准确反映了首段以张伯伦时代（3人）与当今时代（42人）对比展现的 NBA 球员身高演变事实。\n［错项排除］[B] 偷换概念，举例旨在说明运动员身高的增长，而非说明球员受欢迎程度；[C] 首段虽然提及 major professional sports，但并未对不同运动项目球员的身材进行横向对比；[D] 文中没有评估身高对运动成绩的影响。\n［技巧总结］例证题必须回到原文查看作者举例所服务的中心句子。张伯伦的例子前后紧扣身高数据的变化（from one of 3 to one of 42），显然是为了说明 NBA 球员身高的变迁，[A] 正确。",
       "points": 2,
       "sort_order": 31,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 31,
+      "analysis": "［精准定位］首段提到 20 世纪 60 年代初 NBA 超过 7 英尺的球员只有三人，张伯伦就是其中之一；而上一赛季这样身高的球员已有 42 人。紧接着指出职业运动员的身材多年来发生了戏剧性变化。举张伯伦的例子正是为了说明 NBA 球员身高的变化，[A] 正确。\n［命题解密］正确项 [A] illustrate the change of height of NBA players 准确反映了首段以张伯伦时代（3人）与当今时代（42人）对比展现的 NBA 球员身高演变事实。\n［错项排除］[B] 偷换概念，举例旨在说明运动员身高的增长，而非说明球员受欢迎程度；[C] 首段虽然提及 major professional sports，但并未对不同运动项目球员的身材进行横向对比；[D] 文中没有评估身高对运动成绩的影响。\n［技巧总结］例证题必须回到原文查看作者举例所服务的中心句子。张伯伦的例子前后紧扣身高数据的变化（from one of 3 to one of 42），显然是为了说明 NBA 球员身高的变迁，[A] 正确。"
     },
     {
       "id": "0f4126ac-0c51-5254-ade4-3a253891dc8e",
@@ -1171,34 +1121,32 @@
       "passage_id": "ced284a0-eb80-5389-a203-0057441d6c2e",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Which of the following plays a key role in",
+      "stem": "Which of the following plays a key role in body growth according to the text?",
       "options": [
         {
           "key": "A",
-          "text": "Genetic moclifica tion.",
-          "value": "A"
+          "text": "Genetic modification."
         },
         {
           "key": "B",
-          "text": "Nat ural environment.",
-          "value": "B"
+          "text": "Natural environment."
         },
         {
           "key": "C",
-          "text": "Living standards.",
-          "value": "C"
+          "text": "Living standards."
         },
         {
           "key": "D",
-          "text": "Daily exercise.",
-          "value": "D"
+          "text": "Daily exercise."
         }
       ],
       "correct_answer": "C",
-      "explanation": "32. Which of the following plays a key role in \n32.\n根据文章，下面哪一项在身高增长方面发挥关\nbody growth according to the text? \n键作用？\n[ A] Genetic moclifica tion. \n[ A］基因改造。\n[BJ Nat ural environment. \n[ BJ \nI虽然环境。\n[ C] Living standards. \n[ CJ 生活水平。\n[DJ Daily exercise. \n[ DJ 日常锻炼。\n［精准定位］第三段①句指出，身高增长需要热量和营养。②③句对比指出\n：20 世纪初营养不足曾\n阻碍了美国人身高的增长，但后来饮食和健康状况的改善使得美国人的身高出现增长。\n由此可见，生活\n水平在人们总体的身高增长上发挥关键作用，［CJ 正确。\n［命题解密］正确项［CJ Li ving standards 是对第三段的影响身高因素calon es, nutnents , protein, \nnutrition , diet and h ea l th 的合理概括。\n[A］将第四段末句“基因限定身高增长”改为“通过基因改造可以影响身高增长” 。［BJ 将第二段④句\nenvironmenta l 含义“生活环境”改为“自然环境” 。［D〕利用常识“锻炼有助于长高”干扰，但文中并未提及。\n［技巧总结］事实概括题的解题关键在“根据题干定位原文，借助原文信息（尤其高频出现的语义场）\n进行概括推理” 。女日本题，首先由题干可知本题围绕“影响身高增长的因素”命题，定位到第三段并概括\n该段可发现，与“营养和健康”相关的词汇calories, nutrients, protein, nutrition, diet and health 频现，且\n以情形对比说明这对“ 身高增长”的关键作用，故可大致确定与其方向相同的［CJ 为正确项。\nilYJ O Genetically \nspeaki吨，\nt h ere are advantages to I \n从基因角度来讲，避免身材过高",
+      "explanation": "［精准定位］第三段①句指出身高的增长需要热量和营养；②③句对比指出 20 世纪初营养不良和儿童感染阻碍了生长，但随着饮食和健康状况的改善，儿童和青少年的身高在过去持续增长。这表明生活水平在身高增长中发挥了关键作用，[C] 正确。\n［命题解密］正确项 [C] Living standards 是对第三段中 diet, health, nutrition, calories, protein 等生活与健康物质条件的合理高度概括。\n［错项排除］[A] Genetic modification（基因改造）文中未提及，第四段谈的是基因结构限制而非人工基因改造；[B] Natural environment（自然环境）与文中的饮食、医疗健康不符；[D] Daily exercise（日常锻炼）纯属常识干扰，文中未作提及。\n［技巧总结］事实细节题需要把握段落核心语义场。第三段围绕 diet and health improved, under-nutrition, protein, calories 展开，这些都属于生活水平提高的具体体现，[C] 最具概括力与真实性。",
       "points": 2,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "analysis": "［精准定位］第三段①句指出身高的增长需要热量和营养；②③句对比指出 20 世纪初营养不良和儿童感染阻碍了生长，但随着饮食和健康状况的改善，儿童和青少年的身高在过去持续增长。这表明生活水平在身高增长中发挥了关键作用，[C] 正确。\n［命题解密］正确项 [C] Living standards 是对第三段中 diet, health, nutrition, calories, protein 等生活与健康物质条件的合理高度概括。\n［错项排除］[A] Genetic modification（基因改造）文中未提及，第四段谈的是基因结构限制而非人工基因改造；[B] Natural environment（自然环境）与文中的饮食、医疗健康不符；[D] Daily exercise（日常锻炼）纯属常识干扰，文中未作提及。\n［技巧总结］事实细节题需要把握段落核心语义场。第三段围绕 diet and health improved, under-nutrition, protein, calories 展开，这些都属于生活水平提高的具体体现，[C] 最具概括力与真实性。"
     },
     {
       "id": "02a58c7f-3b1b-58c5-90e2-595faa6988f1",
@@ -1206,34 +1154,32 @@
       "passage_id": "ced284a0-eb80-5389-a203-0057441d6c2e",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "On which of the following statements would the author",
+      "stem": "On which of the following statements would the author most probably agree?",
       "options": [
         {
           "key": "A",
-          "text": "Non-Americans add to the average he",
-          "value": "A"
+          "text": "Non-Americans add to the average height of the nation."
         },
         {
           "key": "B",
-          "text": "Human height is conditioned by the upright post ure.",
-          "value": "B"
+          "text": "Human height is conditioned by the upright posture."
         },
         {
           "key": "C",
-          "text": "Americans are the tallest on average in the world.",
-          "value": "C"
+          "text": "Americans are the tallest on average in the world."
         },
         {
           "key": "D",
-          "text": "Larger babies tend to become taller in adulthood.",
-          "value": "D"
+          "text": "Larger babies tend to become taller in adulthood."
         }
       ],
       "correct_answer": "B",
-      "explanation": "33. On which of the following statements would the author \n33. 作者很可能同意下面哪种论述7\nmost probably agree? \n[ A] Non-Americans add to the average h e阶t of the nation. \n[ A］二｜｜二美国人增加了美国的平均身高。\n[ BJ Human height is conditioned by the upright post ure. \n〔BJ 人类身高受直立姿势的制约。\n[ CJ Americans are the tallest on average in the world. \n[ CJ 美国人是世界上平均身高最高的人。\n[ DJ Larger babies tend to become taller in adulthood. \n[ DJ 较大的婴儿在成年后往往身材较高。\n［精准定位］第四段③句指出“直立行走给人体双足和背部带来巨大压力，身高无限增长带来的巨\n大压力使其难以承受”；④句紧而指出“人体（直立行走的）基因结构决定了其身高限制” 。可见［BJ 正确。\n［命题解密］正确项［BJ 是对第四段③④句间“例证关系”的正确解读。\nco nditi one d\nby 和\nupr i g ht\npo st ur e 分别对应文中的con s tra in ts 和b ip eda l posture o \n[ A］将第二段⑤句“外国球员增加了NBA 队员的平均身高”偷换成“非美国人增加了美国人的平均\n身高”，将“个例”偷换成“ 普遍”。［CJ 将第二段②句“美国人身高达到向身极限”夸大为“美国人全世界平\n均身高最高” 。［DJ 利用第四段②句提及的\nl a rg e r b abi es 和全文关键词“身高（t a ll\n,\nh e i g h t 等）”探杂形成\n干扰，但文中并未指出较大婴儿长大后会更高。\n［技巧总结］\nWhi c h ＋作者观点题的典型解答方式为：借助选项关键词（通常为名词性信息词）找准\n选项关注点并回\n\n【选项释义与词汇辨析】\n[A] Non-Americans add to the average he: 阶t of the nation.",
+      "explanation": "［精准定位］第四段③句指出虽然人类直立行走了数百万年，但双足和背部仍在与两足直立姿势（bipedal posture）做斗争，无法轻易承受过大四肢带来的重复压力；④句进一步指出这是机体基因结构的现实限制。可见人类身高受到直立行走姿势的制约，[B] 正确。\n［命题解密］正确项 [B] Human height is conditioned by the upright posture 准确概括了第四段 our feet and back continue to struggle with bipedal posture 所表达的身高制约机制，conditioned by 对应 constraints。\n［错项排除］[A] 将第二段末句“招募外国球员增加了 NBA 球队的身高”偷换为“非美国人增加了整个国家的平均身高”；[C] 将美国人达到自身基因极限夸大为“美国人全世界平均身高最高”；[D] 将第四段中“分娩时大婴儿更难通过产道”主观臆断为“大婴儿成年后往往更高”。\n［技巧总结］推断判断题应紧扣作者的科学逻辑分析。第四段深入分析了为什么人类身高不能无限增长的生理原因——两足直立行走对骨骼和足背的压力限制，[B] 严谨符合原文。",
       "points": 2,
       "sort_order": 33,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 33,
+      "analysis": "［精准定位］第四段③句指出虽然人类直立行走了数百万年，但双足和背部仍在与两足直立姿势（bipedal posture）做斗争，无法轻易承受过大四肢带来的重复压力；④句进一步指出这是机体基因结构的现实限制。可见人类身高受到直立行走姿势的制约，[B] 正确。\n［命题解密］正确项 [B] Human height is conditioned by the upright posture 准确概括了第四段 our feet and back continue to struggle with bipedal posture 所表达的身高制约机制，conditioned by 对应 constraints。\n［错项排除］[A] 将第二段末句“招募外国球员增加了 NBA 球队的身高”偷换为“非美国人增加了整个国家的平均身高”；[C] 将美国人达到自身基因极限夸大为“美国人全世界平均身高最高”；[D] 将第四段中“分娩时大婴儿更难通过产道”主观臆断为“大婴儿成年后往往更高”。\n［技巧总结］推断判断题应紧扣作者的科学逻辑分析。第四段深入分析了为什么人类身高不能无限增长的生理原因——两足直立行走对骨骼和足背的压力限制，[B] 严谨符合原文。"
     },
     {
       "id": "b93906f7-fea8-51e5-b4a3-69691b7e9f28",
@@ -1245,30 +1191,28 @@
       "options": [
         {
           "key": "A",
-          "text": "the garment industry will reconsider the uniform size",
-          "value": "A"
+          "text": "the garment industry will reconsider the uniform size"
         },
         {
           "key": "B",
-          "text": "the design of military uniforms will remain unchanged",
-          "value": "B"
+          "text": "the design of military uniforms will remain unchanged"
         },
         {
           "key": "C",
-          "text": "genetic testing will be employed in selecting sportsmen",
-          "value": "C"
+          "text": "genetic testing will be employed in selecting sportsmen"
         },
         {
           "key": "D",
-          "text": "the existing data of human height will still be applicable",
-          "value": "D"
+          "text": "the existing data of human height will still be applicable"
         }
       ],
       "correct_answer": "D",
-      "explanation": "34. We learn from the last paragraph that in the near \n34.\n从最后一段我们可以知道在不久的\nfuture \n将来\n。\n[ A] the garment industry will reconsider the uniform size \n[A ］服装业将重新考虑制服尺码\n[ BJ the design of military unifo rms will I巳main unchanged \n[BJ 军服的设计将保悔不变\n[CJ genetic testing will be employed in selecting sportsmen \n[CJ 基因检测将被应用到选择运动员上\n[ DJ the existing data of human height will still be appli ca ble \n[DJ 现在的人类身高数据将来仍然适用\n［精准定位］末段指出：军服的尺寸无需改动（②句），若因设计将来设备而需推断身高，完全可采用\n当前数据（④句）。［DJ 符合文意。\n［命题解密］正确项［D〕是对末句\nif you need to predict human height in the near future ... you could \nuse today's data and feel fairly co nfid e nt 的概括推理。\n[ A］将末段②句中‘＇90 % 的制服适合新兵用，不需要改动”反向篡改为“需要重新考虑制服尺码”，且\n选项中“ t he garment indu st r y （服装业）”偏离了文中“ milit a r y\nunifo rm s （军服）”所涉范围。［BJ 将末段③\n\n【选项释义与词汇辨析】\n[B] the design of military unifo rms will I: 巳main unchanged",
+      "explanation": "［精准定位］最后一段指出军服的尺寸已有一段时间无需修改（②③句），末句明确指出如果你需要在近期预测人类身高以设计设备，大体上“你可以使用今天的数据并且感到相当放心”，[D] 正确。\n［命题解密］正确项 [D] the existing data of human height will still be applicable 是对末句 you could use today's data and feel fairly confident 的精准改写与概括。\n［错项排除］[A] 将军装尺寸无需修改反向篡改为服装业将重新考虑尺码，且扩大了范围；[B] 将长度（length of military uniforms）偷换为设计（design），且属于军服事例的就事论事，未上升到整段结论高度；[C] 无中生有，文中从未提及用基因检测选拔运动员。\n［技巧总结］段落推断题的结论通常落在末句的总结上。末句以设计设备的建议收尾，明确指出今天的数据依然可以放心使用，[D] 与之完全同义。",
       "points": 2,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 34,
+      "analysis": "［精准定位］最后一段指出军服的尺寸已有一段时间无需修改（②③句），末句明确指出如果你需要在近期预测人类身高以设计设备，大体上“你可以使用今天的数据并且感到相当放心”，[D] 正确。\n［命题解密］正确项 [D] the existing data of human height will still be applicable 是对末句 you could use today's data and feel fairly confident 的精准改写与概括。\n［错项排除］[A] 将军装尺寸无需修改反向篡改为服装业将重新考虑尺码，且扩大了范围；[B] 将长度（length of military uniforms）偷换为设计（design），且属于军服事例的就事论事，未上升到整段结论高度；[C] 无中生有，文中从未提及用基因检测选拔运动员。\n［技巧总结］段落推断题的结论通常落在末句的总结上。末句以设计设备的建议收尾，明确指出今天的数据依然可以放心使用，[D] 与之完全同义。"
     },
     {
       "id": "4b75e638-85f7-561f-8b1e-31736f677368",
@@ -1276,34 +1220,32 @@
       "passage_id": "ced284a0-eb80-5389-a203-0057441d6c2e",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The text intends to tell us that",
+      "stem": "The text intends to tell us that ________.",
       "options": [
         {
           "key": "A",
-          "text": "the change of human height follows a cyclic pattern",
-          "value": "A"
+          "text": "the change of human height follows a cyclic pattern"
         },
         {
           "key": "B",
-          "text": "human height is becoming even more predictable",
-          "value": "B"
+          "text": "human height is becoming even more predictable"
         },
         {
           "key": "C",
-          "text": "Americans have reached their genetic growth limit",
-          "value": "C"
+          "text": "Americans have reached their genetic growth limit"
         },
         {
           "key": "D",
-          "text": "the genetic pattern of Americans has altered",
-          "value": "D"
+          "text": "the genetic pattern of Americans has altered"
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］文章前三段指出：美国人总体身高已停止增长；第四段明确原因：达到基因设定极限；第五段则指出这种基因最大值近期不会改变。可见［C］为文章意在传达的主旨。\n\n［命题解密］［C］是全文主旨句（第二段①句）Americans have generally stopped growing 以及其同义表达 reached their limit ... aren't likely to get any taller ... average height hasn't really changed since 1960 的概括改写。其中 genetic 对应第四段所述“真正原因” real constraints that are set by the genetic architecture。\n\n［干扰排除］\n［A］将第三段②③④句所述历史个别现象“20 世纪初美国人身高增长缓慢，随后出现了较快的增长；至 1960 年又停止了增长”篡改为“整体趋势”，且其本身也算不上是“循环模式”。\n［B］误将末段末句 And if you need to predict human height 包含的信息引申为“人类身高的可预测性”，偏离了文章关于身高停止增长的核心主旨。\n［D］将末段首句 can 歪曲为事实，误以为基因模式“已经改变”，实际上该句转折之后指出 don't expect this to happen soon，说明短期内不会改变。\n\n［技巧总结］主旨大意题的解题关键在于：透过各段观点处、结论处及转折处掌握文章核心线索。正确选项往往是对全文核心主旨的同义替换或高度概括。",
+      "explanation": "［精准定位］文章前三段指出美国人总体身高已经停止增长（average height hasn't really changed since 1960）；第四段从直立行走骨骼压力指出其真正原因：达到基因设定的极限；第五段指出这一极限近期不会改变。全文核心观点为美国人的身高增长已达基因极限，[C] 正确。\n［命题解密］正确项 [C] Americans have reached their genetic growth limit 是对第二段主旨句 we seem to have reached our genetic limit in height 以及全文核心结论的高度浓缩。\n［错项排除］[A] 错误归纳历史片段为“循环模式”，与原文事实不符；[B] 将用现有数据预测身高偷换为“人类身高变得更加可预测”；[D] 末段首句明确强调 Genetic maximums can change, but don't expect this to happen soon，并未说基因模式已经改变。\n［技巧总结］主旨大意题需把握全文核心论点。文章开篇以 NBA 球员身高反衬普通大众身高停滞的现状，进而论证基因极限的存在，[C] 全面、深刻、准确。",
       "points": 2,
       "sort_order": 35,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 35,
+      "analysis": "［精准定位］文章前三段指出美国人总体身高已经停止增长（average height hasn't really changed since 1960）；第四段从直立行走骨骼压力指出其真正原因：达到基因设定的极限；第五段指出这一极限近期不会改变。全文核心观点为美国人的身高增长已达基因极限，[C] 正确。\n［命题解密］正确项 [C] Americans have reached their genetic growth limit 是对第二段主旨句 we seem to have reached our genetic limit in height 以及全文核心结论的高度浓缩。\n［错项排除］[A] 错误归纳历史片段为“循环模式”，与原文事实不符；[B] 将用现有数据预测身高偷换为“人类身高变得更加可预测”；[D] 末段首句明确强调 Genetic maximums can change, but don't expect this to happen soon，并未说基因模式已经改变。\n［技巧总结］主旨大意题需把握全文核心论点。文章开篇以 NBA 球员身高反衬普通大众身高停滞的现状，进而论证基因极限的存在，[C] 全面、深刻、准确。"
     },
     {
       "id": "d8f51e6c-674b-5f66-b016-78a3bf348561",
@@ -1311,7 +1253,7 @@
       "passage_id": "ecc17037-e37f-52df-8075-77576bc1953d",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "George Washington's dental surgery is mentioned to",
+      "stem": "George Washington's dental surgery is mentioned to ________.",
       "options": [
         {
           "key": "A",
@@ -1331,10 +1273,12 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］由题干关键词 George Washington's dental surgery 定位至首段。该段指出华盛顿从奴隶口中拔了九颗牙移植到自己口中。第二段首句则指出：这与人们通过历史书所熟知的华盛顿砍樱桃树的形象大不相同。反推可知，作者第一段事例意在让读者看到华盛顿不为人知的一面，［D］正确。\n\n［命题解密］正确项［D］体现了“第一段事例”和“第二段首句”之间形成的对比。选项 some unknown aspect 恰和第二段首句 most people remember 相对。\n\n［错项排除］［A］利用第一段②句关于牙齿手术的实施细节，以及考生背景知识“18世纪牙齿移植技术尚不发达”形成干扰，但和上下文无法顺接。［B］利用第一段②句所述事实“华盛顿命人从奴隶口中拔出牙齿移入自己口中”及背景信息“奴隶制相当残忍”设置干扰，但偏离事例关注对象（主角）“华盛顿”。［C］改变讨论范围，故事最多只能说明奴隶对于华盛顿、开国元勋一代人的作用，而选项却将其扩大至在美国历史上的作用。\n\n［技巧总结］本题就首段事例设置写作目的题，解题关键在第二段首句。解题思路为：1）若文章首段整段单纯讲述事例，则写作目的应往下文寻找。2）理清“方向”：作者是正向引入（从点扩大到面）还是反向引入（从特例到相反的总体现象）；且要注意把握“度”：既不能拘泥于事例本身细节，又不能主观拔高事例意义。3）避免干扰的关键在于：不能脱离语境，依赖自身背景知识对事例细节进行主观臆测。具体到本题，文章首段并未就牙齿手术直接给出作者观点，而是讲述了一个事例；随后第二段首句承接指出“这与大多数人记忆中历史书上的华盛顿大不相同”，作者对比意图极为明显，即说明“这一面是不为人所知的”，锁定［D］。［A］、［B］、［C］均脱离了“华盛顿事例不为人知”这一核心意图，故排除。",
+      "explanation": "［精准定位］由题干关键词 George Washington’s dental surgery 定位至首段。该段指出华盛顿从奴隶口中拔了九颗牙移植到自己口中。第二段首句则指出：这与人们通过历史书所熟知的华盛顿砍樱桃树的形象大不相同。反推可知，作者第一段事例意在让读者看到华盛顿不为人知的一面，[D] 正确。\n［命题解密］正确项 [D] 体现了“第一段事例”和“第二段首句”之间形成的对比。选项中的 some unknown aspect 恰和第二段首句 most people remember 相对。\n［错项排除］[A] 利用第一段②句关于牙齿手术的实施细节，以及考生背景知识“18 世纪牙齿移植技术尚不发达”形成干扰，但和上下文无法顺接；[B] 利用第一段②句所述事实“华盛顿命人从奴隶口中拔出牙齿移入自己口中”及背景信息“奴隶制相当残忍”设置干扰，但偏离事例关注对象（主角）“华盛顿”；[C] 改变讨论范围，故事最多只能说明奴隶对于华盛顿、开国元勋一代人的作用，而选项却将其扩大至在美国历史上的作用。\n［技巧总结］本题就首段事例设置写作目的题，解题关键在第二段首句。若文章首段整段单纯讲述事例，写作目的应往下文寻找。作者在“反向引入”，以“人们所不知的华盛顿一面”引入“人们所熟知的华盛顿形象”，事件主角为“华盛顿”，[D] 符合逻辑。",
       "points": 2,
       "sort_order": 36,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 36,
+      "analysis": "［精准定位］由题干关键词 George Washington’s dental surgery 定位至首段。该段指出华盛顿从奴隶口中拔了九颗牙移植到自己口中。第二段首句则指出：这与人们通过历史书所熟知的华盛顿砍樱桃树的形象大不相同。反推可知，作者第一段事例意在让读者看到华盛顿不为人知的一面，[D] 正确。\n［命题解密］正确项 [D] 体现了“第一段事例”和“第二段首句”之间形成的对比。选项中的 some unknown aspect 恰和第二段首句 most people remember 相对。\n［错项排除］[A] 利用第一段②句关于牙齿手术的实施细节，以及考生背景知识“18 世纪牙齿移植技术尚不发达”形成干扰，但和上下文无法顺接；[B] 利用第一段②句所述事实“华盛顿命人从奴隶口中拔出牙齿移入自己口中”及背景信息“奴隶制相当残忍”设置干扰，但偏离事例关注对象（主角）“华盛顿”；[C] 改变讨论范围，故事最多只能说明奴隶对于华盛顿、开国元勋一代人的作用，而选项却将其扩大至在美国历史上的作用。\n［技巧总结］本题就首段事例设置写作目的题，解题关键在第二段首句。若文章首段整段单纯讲述事例，写作目的应往下文寻找。作者在“反向引入”，以“人们所不知的华盛顿一面”引入“人们所熟知的华盛顿形象”，事件主角为“华盛顿”，[D] 符合逻辑。"
     },
     {
       "id": "8dd812d7-076a-51f3-bd43-40f3ce1ae055",
@@ -1342,7 +1286,7 @@
       "passage_id": "ecc17037-e37f-52df-8075-77576bc1953d",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "We may infer from the second paragraph that",
+      "stem": "We may infer from the second paragraph that ________.",
       "options": [
         {
           "key": "A",
@@ -1362,10 +1306,12 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］第二段⑤句指出，历史学家的著作揭示了美国建国初期的脆弱性。根据上下文可知，这里“脆弱性”指的是早期美国特殊的、微妙的环境，它导致了建国者的道德妥协（明知奴隶制错误，却很少有人试图推翻它）。因此［B］正确。\n\n［命题解密］正确项［B］是对第二段⑤句 the fragile nature of the country's infancy 的改写，delicate（needing to be dealt with carefully or sensitively in order to avoid problems or failure“微妙的，需要谨慎处理的”）对应 fragile；in its early days the U.S. 对应 the country's infancy。\n\n［错项排除］［A］将②③句信息“DNA技术激发了历史学家对奴隶制在开国元勋们生活中所扮演角色的关注”夸大为“DNA技术被广泛用于历史研究”。［C］将③句信息“历史学家借助DNA证据几乎可以确证杰斐逊与其奴隶的故事”改为与之完全相反的“历史学家故意编造杰斐逊的生活故事”。［D］将⑤句信息“美国早期领袖做出了道德妥协”夸大为“政治妥协在整个美国历史上随处可见”。\n\n［技巧总结］第二段涉及历史学家对开国元勋研究角度的转变及具体的研究发现等，本题就此考查考生“对具体细节进行推理引申”的能力。解答此类题目首先要“抓大”（比对上下文语境，提取本段关键词，归纳段落主旨），然后“揪小”（在段落主旨宏观脉络下，理解文章细节、对比选项）；错误项一般就段中“细节”颠倒是非或夸大其词。如本题，提取段落关键词 begun to focus on... examined history from the bottom up... moral compromises... knew slavery was wrong... did little to fight it 可知，本段意在指出历史学家通过研究角度的转变取得的新发现：开国元勋对待奴隶制态度矛盾复杂（做出道德妥协；意识到奴隶制的错误性，却没有以实际行动来极力反对它），下文就此态度展开原因分析。［B］从大方向上符合这一段落主线（开国元勋之所以这样做，很大原因在于当时微妙的环境），且从细节上选项关键词 delicate 是对原文关键词 fragile 的同义表达，in its early days the U.S. 正确表述文中关注范围 the country's infancy，故正确。［A］、［D］夸大其词、［C］颠倒是非，且三个选项均无法与段落主旨相关联，故排除。",
+      "explanation": "［精准定位］第二段⑤句指出，历史学家的著作揭示了美国建国初期的脆弱性（the fragile nature of the country's infancy）。根据上下文可知，这里“脆弱性”指的是早期美国特殊的、微妙的环境，它导致了建国者的道德妥协（明知奴隶制错误，却很少有人试图推翻它）。因此 [B] 正确。\n［命题解密］正确项 [B] 是对第二段⑤句 the fragile nature of the country's infancy 的改写，delicate 对应 fragile；in its early days the U.S. 对应 the country's infancy。\n［错项排除］[A] 将②③句信息“DNA 技术激发了历史学家对奴隶制在开国元勋们生活中所扮演角色的关注”夸大为“DNA 技术被广泛用于历史研究”；[C] 将③句信息“历史学家借助 DNA 证据几乎可以确证杰斐逊与其奴隶的故事”改为与之完全相反的“历史学家故意编造杰斐逊的生活故事”；[D] 将⑤句信息“美国早期领袖做出了道德妥协”夸大为“政治妥协在整个美国历史上随处可见”。\n［技巧总结］解答此类推理引申题首先要“抓大”（归纳段落主旨），然后“揪小”（对比选项细节）。本段意在指出开国元勋对待奴隶制态度矛盾复杂，很大原因在于当时微妙脆弱的建国初期环境，[B] 符合段落主线且同义改写精准。",
       "points": 2,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37,
+      "analysis": "［精准定位］第二段⑤句指出，历史学家的著作揭示了美国建国初期的脆弱性（the fragile nature of the country's infancy）。根据上下文可知，这里“脆弱性”指的是早期美国特殊的、微妙的环境，它导致了建国者的道德妥协（明知奴隶制错误，却很少有人试图推翻它）。因此 [B] 正确。\n［命题解密］正确项 [B] 是对第二段⑤句 the fragile nature of the country's infancy 的改写，delicate 对应 fragile；in its early days the U.S. 对应 the country's infancy。\n［错项排除］[A] 将②③句信息“DNA 技术激发了历史学家对奴隶制在开国元勋们生活中所扮演角色的关注”夸大为“DNA 技术被广泛用于历史研究”；[C] 将③句信息“历史学家借助 DNA 证据几乎可以确证杰斐逊与其奴隶的故事”改为与之完全相反的“历史学家故意编造杰斐逊的生活故事”；[D] 将⑤句信息“美国早期领袖做出了道德妥协”夸大为“政治妥协在整个美国历史上随处可见”。\n［技巧总结］解答此类推理引申题首先要“抓大”（归纳段落主旨），然后“揪小”（对比选项细节）。本段意在指出开国元勋对待奴隶制态度矛盾复杂，很大原因在于当时微妙脆弱的建国初期环境，[B] 符合段落主线且同义改写精准。"
     },
     {
       "id": "fa5548a8-5bad-58f2-9113-5d3e78ae65e5",
@@ -1393,10 +1339,12 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］第三段②句指出杰斐逊私下表达过对奴隶制的反感，但又知道奴隶制非常重要；第五段指出在任期间他扩大了奴隶制的范围；第六段则指出他解放了奴隶赫明斯的孩子。可见他对奴隶制的态度是复杂的，［C］正确。\n\n［命题解密］正确项［C］是对散落全篇的 knew slavery was wrong and yet most did little to fight it... Jefferson privately expressed distaste for slavery, they also understood that... extended slavery... freed Hemings's children 等内容的高度概括。\n\n［错项排除］［A］将第五段①句 the statesmen's political lives depended on slavery 中涉及关系“（政治家们/杰斐逊等）的政治生涯取决于奴隶制”歪曲成与之存在巨大含义偏差的“他的政治观点改变（影响）了他对奴隶制的态度”。［B］将第六段①句中杰斐逊给予自由的对象“赫明斯的子女”放大为“儿童奴隶”。［D］对第二段③句 Thomas Jefferson had fathered at least one child with his slave Sally Hemings 进行过度推导，文中并未指出这玷污了杰斐逊的声誉。\n\n［技巧总结］本题综合考查“关于杰斐逊的事实细节”，虽段落跨度较大，但究其根本仍在借文中典型事例人物考查文章主旨。此类题的解答方法有二：1）将原文所有关于杰斐逊的信息一网打尽，然后结合全文主旨，归纳出人物的行为特点、情感态度及前后变化，最后与选项对比，做出正确选择；2）先概括各选项主要信息，有目的地回文中找相关类似信息。对此类借典型事例人物考查文章主旨的题，正确项一般不仅是文章信息的同义表达，还须从大局出发，不拘泥于细节；错误项通常会对文章的细枝末节偷梁换柱、过度引申或故意歪曲。如本题，可将第二、三、五、六段关于杰斐逊对奴隶制的态度行为及阶段性变化逐一罗列（杰斐逊为开国元勋之一，因此文中提及开国元勋部分也需留意），经对比发现：［C］是对相关信息的高度概括，为正确项；［A］歪曲文中关系，［B］夸大其词，［D］过度引申，故均排除。",
+      "explanation": "［精准定位］第三段②句指出杰斐逊私下表达过对奴隶制的反感，但又知道奴隶制非常重要；第五段指出在任期间他扩大了奴隶制的范围；第六段则指出他解放了奴隶赫明斯的孩子。可见他对奴隶制的态度是复杂的，[C] 正确。\n［命题解密］正确项 [C] 是对散落全篇的 knew slavery was wrong and yet most did little to fight it ... privately expressed distaste for slavery, they also understood that ... extended slavery ... freed Hemings's children 等内容的高度概括。\n［错项排除］[A] 将第五段①句 the statesmen's political lives depended on slavery 中涉及关系“政治生涯取决于奴隶制”歪曲成“他的政治观点改变了他对奴隶制的态度”；[B] 将第六段①句中杰斐逊给予自由的对象“赫明斯的子女”放大为“所有儿童奴隶”；[D] 对第二段③句过度推导，文中并未指出这玷污了杰斐逊的声誉。\n［技巧总结］本题综合考查关于典型人物的事实细节。解答方法为将原文所有关于杰斐逊的信息综合梳理，结合全文主旨归纳其行为特点与情感态度。[C] 是对相关矛盾信息的高度概括，符合客观事实。",
       "points": 2,
       "sort_order": 38,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 38,
+      "analysis": "［精准定位］第三段②句指出杰斐逊私下表达过对奴隶制的反感，但又知道奴隶制非常重要；第五段指出在任期间他扩大了奴隶制的范围；第六段则指出他解放了奴隶赫明斯的孩子。可见他对奴隶制的态度是复杂的，[C] 正确。\n［命题解密］正确项 [C] 是对散落全篇的 knew slavery was wrong and yet most did little to fight it ... privately expressed distaste for slavery, they also understood that ... extended slavery ... freed Hemings's children 等内容的高度概括。\n［错项排除］[A] 将第五段①句 the statesmen's political lives depended on slavery 中涉及关系“政治生涯取决于奴隶制”歪曲成“他的政治观点改变了他对奴隶制的态度”；[B] 将第六段①句中杰斐逊给予自由的对象“赫明斯的子女”放大为“所有儿童奴隶”；[D] 对第二段③句过度推导，文中并未指出这玷污了杰斐逊的声誉。\n［技巧总结］本题综合考查关于典型人物的事实细节。解答方法为将原文所有关于杰斐逊的信息综合梳理，结合全文主旨归纳其行为特点与情感态度。[C] 是对相关矛盾信息的高度概括，符合客观事实。"
     },
     {
       "id": "4a4733ce-5d73-592b-98ff-5e9d5e81483b",
@@ -1408,30 +1356,28 @@
       "options": [
         {
           "key": "A",
-          "text": "Some Founding Fathers benefit politically from slavery.",
-          "value": "A"
+          "text": "Some Founding Fathers benefit politically from slavery."
         },
         {
           "key": "B",
-          "text": "Slaves in the old days did not have the right to vote.",
-          "value": "B"
+          "text": "Slaves in the old days did not have the right to vote."
         },
         {
           "key": "C",
-          "text": "Slaves owners usually had large savings accounts.",
-          "value": "C"
+          "text": "Slaves owners usually had large savings accounts."
         },
         {
           "key": "D",
-          "text": "Slavery was regarded as a peculiar institution.",
-          "value": "D"
+          "text": "Slavery was regarded as a peculiar institution."
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］第五段首句指出，政治家的政治生涯取决于奴隶制；紧接着以杰斐逊事例证明：杰斐逊在1800年总统选举中的险胜即得益于五分之三方案。由此可知，以杰斐逊为代表的一些开国元勋在政治上得益于奴隶制，［A］正确。\n\n［命题解密］正确项［A］是对第五段首句的同义改写，Some Founding Fathers 对应 the statesmen, benefit politically from slavery 对应 political lives depended on slavery 以及 The three-fifths formula handed Jefferson his narrow victory。\n\n［错项排除］［B］对第四段③句 counted a slave as three fifths of a man for purposes of congressional representation 设置干扰，但原文提及该条款是为说明出于国会代表权（congressional representation）考虑，在计算人口时将奴隶的人口乘以五分之三，并未提及奴隶选举权问题。该选项是利用“奴隶没有选举权”这一常识设置干扰。［C］对第四段②句的比喻 Owning slaves was “like having a large bank account”（喻意“奴隶对奴隶主具有巨大价值”）断章取义。［D］将第四段③句 the “peculiar institution”等同于 a peculiar institution：将“奴隶制”称为“特别制度（peculiar institution）”的是“南方各州”，而不是“本文作者”（句中定冠词 the 和引号表明：作者并不认同这一称谓）。\n\n［技巧总结］本题题干无法推知所考范围。对此，可先提炼选项关键词，然后大致定位搜索范围，并将原文和选项进行推理对比。需注意：一，理清句间关系（尤其是例证关系），完整把握句群信息；二，不能对比喻表达断章取义，而是应该结合上下文得知其具体含义；三，注意文中特殊标点的语用功能，如引号经常表示引用、反语或讽刺，其表示的不一定是作者认同的观点，甚至可能是作者排斥的看法。如本题，首先根据题干关键信息 savings accounts/peculiar institution/benefit politically from slavery 与原文 a large bank account/the “peculiar institution”/political lives depended on slavery 的相似性可以定位到第四、五段。完成定位后进行对比推理发现，［A］把握了第五段①②句间的例证关系，完整体现该部分内容，故正确。",
+      "explanation": "［精准定位］第五段首句指出，政治家的政治生涯取决于奴隶制；紧接着以杰斐逊事例证明：杰斐逊在 1800 年总统选举中的险胜即得益于五分之三方案。由此可知，以杰斐逊为代表的一些开国元勋在政治上得益于奴隶制，[A] 正确。\n［命题解密］正确项 [A] 是对第五段首句的同义改写，Some Founding Fathers 对应 the statesmen，benefit politically from slavery 对应 political lives depended on slavery 以及 The three-fifths formula handed Jefferson his narrow victory。\n［错项排除］[B] 对第四段③句 counted a slave as three fifths of a man for purposes of congressional representation 设置干扰，原文强调出于国会代表权考虑计算人口，未提及选举权问题，利用常识设置干扰；[C] 对第四段②句比喻 Owning slaves was 'like having a large bank account'（喻意奴隶具有巨大经济价值）断章取义；[D] 定冠词 the 和引号表明“特别制度”是南方各州的称谓，作者并不认同。\n［技巧总结］解答正误判断题需理清句间例证关系。第五段以杰斐逊选举险胜为例证明政治家政治生涯依赖奴隶制，[A] 完整准确把握了该段中心论点。",
       "points": 2,
       "sort_order": 39,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 39,
+      "analysis": "［精准定位］第五段首句指出，政治家的政治生涯取决于奴隶制；紧接着以杰斐逊事例证明：杰斐逊在 1800 年总统选举中的险胜即得益于五分之三方案。由此可知，以杰斐逊为代表的一些开国元勋在政治上得益于奴隶制，[A] 正确。\n［命题解密］正确项 [A] 是对第五段首句的同义改写，Some Founding Fathers 对应 the statesmen，benefit politically from slavery 对应 political lives depended on slavery 以及 The three-fifths formula handed Jefferson his narrow victory。\n［错项排除］[B] 对第四段③句 counted a slave as three fifths of a man for purposes of congressional representation 设置干扰，原文强调出于国会代表权考虑计算人口，未提及选举权问题，利用常识设置干扰；[C] 对第四段②句比喻 Owning slaves was 'like having a large bank account'（喻意奴隶具有巨大经济价值）断章取义；[D] 定冠词 the 和引号表明“特别制度”是南方各州的称谓，作者并不认同。\n［技巧总结］解答正误判断题需理清句间例证关系。第五段以杰斐逊选举险胜为例证明政治家政治生涯依赖奴隶制，[A] 完整准确把握了该段中心论点。"
     },
     {
       "id": "07bd4279-000a-5c11-a0a0-a2e461c15767",
@@ -1439,34 +1385,32 @@
       "passage_id": "ecc17037-e37f-52df-8075-77576bc1953d",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Washington's decision to free slaves originated from his",
+      "stem": "Washington's decision to free slaves originated from his ________.",
       "options": [
         {
           "key": "A",
-          "text": "moral considerations",
-          "value": "A"
+          "text": "moral considerations"
         },
         {
           "key": "B",
-          "text": "military experience",
-          "value": "B"
+          "text": "military experience"
         },
         {
           "key": "C",
-          "text": "financial conditions",
-          "value": "C"
+          "text": "financial conditions"
         },
         {
           "key": "D",
-          "text": "political stand",
-          "value": "D"
+          "text": "political stand"
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］根据题干关键词 Washington's decision to free slaves 定位到第六段②句。该句指出华盛顿在目睹了独立战争中黑人士兵的勇敢后，开始相信人人生而平等，最终决定解放其奴隶。可见，让他最终下决心释放奴隶的是他在独立战争中的经历，［B］为正确选项。\n\n［命题解密］题干+正确项［B］构成对末段②句 ...had begun to... after observing the bravery of the black soldiers during the Revolutionary War, ...grant his slaves their freedom 所暗含因果关系的明确。\n\n［错项排除］［A］对第二段⑤句反向干扰，将开国元勋（包括华盛顿）“在奴隶制问题上做出了道德妥协/采取了不够道德的做法（moral compromises）”改为相反的“华盛顿出于道德考虑释放了奴隶（moral considerations）”。［C］曲解第四段②句 Owning slaves was “like having a large bank account”之中含有的逻辑关系，将“奴隶具有巨大的经济价值，所以奴隶主不愿解放奴隶”改为与之相悖的“华盛顿（奴隶主）之所以释放奴隶是因为其经济状况”。［D］利用第五段①句 political lives 断章取义，但原文指出政治家的“政治生涯得益于奴隶制”，与华盛顿解放奴隶的行为无关。\n\n［技巧总结］本文就“文中多处提及的人物行为”设置因果细节题，答案所在句为关系复杂的长难句、且并未使用直接因果关系词。本题考查考生对文中隐含因果关系的把握。解答此类题目时需：一，定位需准确：一定要抓住题干关键词、知道题目问的是该人物的哪一具体行为；二，挖掘需深入：定位原文后，需深入挖掘原文中隐含的因果关系，要意识到因果关系不仅体现在逻辑副词、连词上（therefore, consequently, because），还可能体现在动词上（drive, prompt等），甚至是时间关系上（如作者强调的先后动作）；三，干扰排除需有理有据：查看选项是否与原文对应内容相悖，是否与本题所问逻辑不通。如本题，先根据题干关键词明确：本题考查“华盛顿释放奴隶”的原因，定位至第六段②句；随后发现该句所强调的时间先后中（had begun to... after...）暗含因果关系，［B］选项符合这一关系，故正确。而［A］、［C］、［D］不仅与题目所问华盛顿行为没有直接关系，且与题干无法建立通顺的逻辑关系，故排除。",
+      "explanation": "［精准定位］根据题干关键词 Washington's decision to free slaves 定位到第六段②句。该句指出华盛顿在目睹了独立战争中黑人士兵的勇敢后，开始相信人人生而平等，最终决定解放其奴隶。可见，让他最终下决心释放奴隶的是他在独立战争中的经历，[B] 正确。\n［命题解密］题干＋正确项 [B] 构成对末段②句 had begun to ... after observing the bravery of the black soldiers during the Revolutionary War ... grant his slaves their freedom 所暗含因果关系的明确。\n［错项排除］[A] 对第二段⑤句反向干扰，将开国元勋“做出道德妥协（moral compromises）”改为相反的“出于道德考虑（moral considerations）”；[C] 曲解第四段②句，将“奴隶具有经济价值”歪曲为“因为经济状况释放奴隶”；[D] 利用第五段 political lives 断章取义，与华盛顿解放奴隶行为无关。\n［技巧总结］本题考查长难句中隐含的因果关系。文中 after observing the bravery of black soldiers during the Revolutionary War 暗含时间先后的因果触发，[B] military experience 准确概括了独立战争经历。",
       "points": 2,
       "sort_order": 40,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 40,
+      "analysis": "［精准定位］根据题干关键词 Washington's decision to free slaves 定位到第六段②句。该句指出华盛顿在目睹了独立战争中黑人士兵的勇敢后，开始相信人人生而平等，最终决定解放其奴隶。可见，让他最终下决心释放奴隶的是他在独立战争中的经历，[B] 正确。\n［命题解密］题干＋正确项 [B] 构成对末段②句 had begun to ... after observing the bravery of the black soldiers during the Revolutionary War ... grant his slaves their freedom 所暗含因果关系的明确。\n［错项排除］[A] 对第二段⑤句反向干扰，将开国元勋“做出道德妥协（moral compromises）”改为相反的“出于道德考虑（moral considerations）”；[C] 曲解第四段②句，将“奴隶具有经济价值”歪曲为“因为经济状况释放奴隶”；[D] 利用第五段 political lives 断章取义，与华盛顿解放奴隶行为无关。\n［技巧总结］本题考查长难句中隐含的因果关系。文中 after observing the bravery of black soldiers during the Revolutionary War 暗含时间先后的因果触发，[B] military experience 准确概括了独立战争经历。"
     },
     {
       "id": "87dfddea-62c4-52f1-b9e7-44fde9ab99f6",
@@ -1478,45 +1422,40 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
-          "value": "A"
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introduction and conclusion. It is often easier to write the introduction last, after you know precisely what you are introducing.",
-          "value": "B"
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a legitimate case can be made for making a first draft as neat as possible, a clean copy has drawbacks. A word processor can produce a handsome draft, but the printer may well print errors that your eyes will miss on a clean page.",
-          "value": "C"
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "Just so you do write, it doesn't matter how you write. You can write by hand or on a computer. Some writers dictate their ideas. Some outline; some do not. But once you begin to write, you will discover that writing can be a process of discovery.",
-          "value": "D"
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
-          "value": "E"
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting, she began by summarizing her main points and then added a quotation from John Updike that she had found in a library book.",
-          "value": "F"
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "As you draft, you may discover other points that you didn't think of when you made your outline. Don't be afraid to change your outline to include these new insights. A draft is an exploration.",
-          "value": "G"
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "D",
-      "explanation": "41.【答案】D\n【考点】上下文的衔接\n【难度系数】0.456\n【解析】本段作为文章的首段，主要讲写作最重要的是要开始写，作者甚至夸张的说，站着、坐着，甚至躺着，\n都不重要，这就正好与选项D 中的第一句it makes no differences how you write 连接起来。因此答案是D。",
+      "explanation": "［精准定位］第一段指出写作前的准备工作已经结束，只有不再逃避，动笔开始写，初稿才能完成。紧承上文，[D] 项首句 It makes no difference how you write, Just so you do. 明确指出“如何写并不重要，只要去写”，顺接前句 sit, stand up, or lie down to write；且 [D] 项末句提到根据提纲展开写作（flesh out whatever outline you have made），恰好与第二段首句 Your outline smoothly conduct you 实现无缝过渡，[D] 为最佳选项。\n［命题解密］[D] 项在句意上承接第一段对“动笔开写”的强调，在结构上引出第二段对“提纲（outline）”的运用，起到了完美的承上启下作用。",
       "points": 2,
       "sort_order": 41,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 41,
+      "analysis": "［精准定位］第一段指出写作前的准备工作已经结束，只有不再逃避，动笔开始写，初稿才能完成。紧承上文，[D] 项首句 It makes no difference how you write, Just so you do. 明确指出“如何写并不重要，只要去写”，顺接前句 sit, stand up, or lie down to write；且 [D] 项末句提到根据提纲展开写作（flesh out whatever outline you have made），恰好与第二段首句 Your outline smoothly conduct you 实现无缝过渡，[D] 为最佳选项。\n［命题解密］[D] 项在句意上承接第一段对“动笔开写”的强调，在结构上引出第二段对“提纲（outline）”的运用，起到了完美的承上启下作用。"
     },
     {
       "id": "ee981615-d104-5263-bbe1-4f4942218e90",
@@ -1528,45 +1467,40 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
-          "value": "A"
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introduction and conclusion. It is often easier to write the introduction last, after you know precisely what you are introducing.",
-          "value": "B"
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a legitimate case can be made for making a first draft as neat as possible, a clean copy has drawbacks. A word processor can produce a handsome draft, but the printer may well print errors that your eyes will miss on a clean page.",
-          "value": "C"
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "Just so you do write, it doesn't matter how you write. You can write by hand or on a computer. Some writers dictate their ideas. Some outline; some do not. But once you begin to write, you will discover that writing can be a process of discovery.",
-          "value": "D"
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
-          "value": "E"
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting, she began by summarizing her main points and then added a quotation from John Updike that she had found in a library book.",
-          "value": "F"
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "As you draft, you may discover other points that you didn't think of when you made your outline. Don't be afraid to change your outline to include these new insights. A draft is an exploration.",
-          "value": "G"
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "G",
-      "explanation": "42. 本题考核的知识点是：词汇复现 ＋ 上下文的衔接。正确率：37%\n\n【空格推测】上文提出“要灵活运用提纲，随时补充相关要点”，下文提出“初稿要以内容为重，某些错误可留待后续解决”，推测空格内容也应关乎“灵活运用提纲、以思想内容为重”。\n\n【答案敲定】由选项分析可知，［B］、［D］、［G］为本题备选项。\n［B］针对正文已经完成后的写作阶段提出建议“如何写首尾两部分”，与空格上下文内容可形成“合理利用提纲、补充文章要点（即写好正文）→写结尾、开头→检查语法、拼写等错误”的顺序，看似合乎逻辑，但选项首句“已经清晰地、充分地展开正文”暗示前文围绕“正文写作”展开，而空格上文“灵活应用提纲”实质针对整个写作过程而言，尤其是针对“写作过程中出现的新想法”而言，并未重点说明“正文”，也未提及任何“写作顺序”相关内容，故排除。\n［D］中复现关键词 outline，且 just so you do（倒装句，正常语序为 you just do so, so 为省略指代词）看似是对空格上文 work it into the draft 的省略指代，引人误解。但选项中 begin to flesh out... outline 表明写作仍处于“开始充实提纲，提纲还未确定”的阶段，而第二段②句指出“你的提纲应引导你行文”表明“提纲已经确定”，若选项出现在空格 42，显然与第二段空格前内容顺序颠倒，故排除。\n［G］首句指出“在写初稿的过程中会想到更多新要点”，与空格上文“如果你突然想到一个重要观点就写进初稿”内容一致，语义顺承第二段主旨“要灵活运用提纲、不拘泥于提纲”，选项②句随即列举“许多优秀作家不列提纲、而是边写边摸索写作顺序的做法”进一步论证主旨；选项③句“不要企图第一次就写出完美无误的初稿”又与下文“语法、标点、拼写等问题”衔接自然，因此［G］能承上启下，敲定为答案。",
+      "explanation": "［精准定位］第二段强调灵活运用提纲（Be flexible.），指出若想到切题的重要观点就写进稿中。后文强调初稿时语法标点等可暂缓（can wait until you revise），应专注于思想本身。[G] 项指出“通过写初稿来思考你想表达的内容，你会发现比笔记更多的观点……不要试图第一次就写出完美的稿子”，不仅承接前句 work it into the draft，也启承后句关于不要纠结于错误的论述，[G] 为最佳选项。\n［命题解密］[G] 项中 discover more than your notes originally suggested 以及 Do not attempt to compose a perfectly correct draft 完美吻合本段“注重思想构思而非苛求初稿完美”的主旨。",
       "points": 2,
       "sort_order": 42,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 42,
+      "analysis": "［精准定位］第二段强调灵活运用提纲（Be flexible.），指出若想到切题的重要观点就写进稿中。后文强调初稿时语法标点等可暂缓（can wait until you revise），应专注于思想本身。[G] 项指出“通过写初稿来思考你想表达的内容，你会发现比笔记更多的观点……不要试图第一次就写出完美的稿子”，不仅承接前句 work it into the draft，也启承后句关于不要纠结于错误的论述，[G] 为最佳选项。\n［命题解密］[G] 项中 discover more than your notes originally suggested 以及 Do not attempt to compose a perfectly correct draft 完美吻合本段“注重思想构思而非苛求初稿完美”的主旨。"
     },
     {
       "id": "ad54f853-bd10-5fcc-b999-da5e4042ffd4",
@@ -1578,45 +1512,40 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
-          "value": "A"
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introduction and conclusion. It is often easier to write the introduction last, after you know precisely what you are introducing.",
-          "value": "B"
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a legitimate case can be made for making a first draft as neat as possible, a clean copy has drawbacks. A word processor can produce a handsome draft, but the printer may well print errors that your eyes will miss on a clean page.",
-          "value": "C"
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "Just so you do write, it doesn't matter how you write. You can write by hand or on a computer. Some writers dictate their ideas. Some outline; some do not. But once you begin to write, you will discover that writing can be a process of discovery.",
-          "value": "D"
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
-          "value": "E"
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting, she began by summarizing her main points and then added a quotation from John Updike that she had found in a library book.",
-          "value": "F"
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "As you draft, you may discover other points that you didn't think of when you made your outline. Don't be afraid to change your outline to include these new insights. A draft is an exploration.",
-          "value": "G"
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "A",
-      "explanation": "43.【答案】A\n【考点】词汇复现+上下文的衔接\n【难度系数】0.529\n【解析】该题缺失内容在段首，因此重点定位其后的信息。空格下文提到，这么做便于你整理每一页的内容，\n并且不损失写在背面的内容。该句中that way 所指代的对象应在空格处填入的内容中寻找。A 项中“只在纸的\n一面写字”(Write on only one side of the paper)与下文“不会损失写在背面的内容”(not lose any writing on the other\nside)同义复现，含义紧密衔接。A 项的第一句“为了便于修改”也与第二段末“将语法等问题留待修改时考虑”\n相呼应，关键词revise 复现。",
+      "explanation": "［精准定位］空格后指出 Your pages will be easier to keep track of that way, and, if you have to clip a paragraph... you will not lose any writing on the other side（那样更便于掌握页面内容，且剪切段落时不会丢失背面的文字）。后文中的 that way 和 on the other side 具有极强的指代指向。[A] 项指出 To make revising easier, leave wide margins... Write on only one side of the paper（只在纸的一面写字），正好与后文的 on the other side 形成绝对严密的逻辑指代，[A] 为最佳选项。\n［命题解密］[A] 项中的 Write on only one side of the paper 是后文 you will not lose any writing on the other side 发生的唯一直接前提条件。",
       "points": 2,
       "sort_order": 43,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 43,
+      "analysis": "［精准定位］空格后指出 Your pages will be easier to keep track of that way, and, if you have to clip a paragraph... you will not lose any writing on the other side（那样更便于掌握页面内容，且剪切段落时不会丢失背面的文字）。后文中的 that way 和 on the other side 具有极强的指代指向。[A] 项指出 To make revising easier, leave wide margins... Write on only one side of the paper（只在纸的一面写字），正好与后文的 on the other side 形成绝对严密的逻辑指代，[A] 为最佳选项。\n［命题解密］[A] 项中的 Write on only one side of the paper 是后文 you will not lose any writing on the other side 发生的唯一直接前提条件。"
     },
     {
       "id": "30adff68-536a-5e5a-bb43-1964538cca8b",
@@ -1628,45 +1557,40 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
-          "value": "A"
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introduction and conclusion. It is often easier to write the introduction last, after you know precisely what you are introducing.",
-          "value": "B"
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a legitimate case can be made for making a first draft as neat as possible, a clean copy has drawbacks. A word processor can produce a handsome draft, but the printer may well print errors that your eyes will miss on a clean page.",
-          "value": "C"
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "Just so you do write, it doesn't matter how you write. You can write by hand or on a computer. Some writers dictate their ideas. Some outline; some do not. But once you begin to write, you will discover that writing can be a process of discovery.",
-          "value": "D"
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
-          "value": "E"
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting, she began by summarizing her main points and then added a quotation from John Updike that she had found in a library book.",
-          "value": "F"
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "As you draft, you may discover other points that you didn't think of when you made your outline. Don't be afraid to change your outline to include these new insights. A draft is an exploration.",
-          "value": "G"
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "C",
-      "explanation": "44.【答案】C\n【考点】相关词同现+段落主题一致性\n【难度系数】0.481\n【解析】本题缺失内容在第四段中间，上文提到利用软件能够很方便地检查稿子的拼写和语法错误，下文提到\n在修改过程中，看打印的文稿比看屏幕上的内容更为容易，从这个话题看，空白处应该填入与打印有关的内容，\n则C 选项更符合这一要求。\n本题的另一考虑角度：第四段谈到是文字处理器给写作带来的便利，整段内容都与电脑有关，填空的内容必然\n也离不开与电脑相关的内容。看选项，只有选项C 中出现了disks，故答案为C。",
+      "explanation": "［精准定位］第四段讨论在文字处理软件（电脑）上写作与打印。空格后指出 These printouts are also easier to read than the screen when you work on revisions（这些打印件在修改时也比屏幕更容易阅读）。句中的 These printouts 具有明确的照应词要求。[C] 项提到打印稿看起来虽好但取决于内容，并指出很多作家在写完一稿后都将页面打印出来（print their pages each time they finish a draft），直接呼应了后句的 These printouts，[C] 为最佳选项。\n［命题解密］[C] 项中的 print their pages 完美提供了空格后 These printouts 的直接复现前件，语义与逻辑完全契合。",
       "points": 2,
       "sort_order": 44,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 44,
+      "analysis": "［精准定位］第四段讨论在文字处理软件（电脑）上写作与打印。空格后指出 These printouts are also easier to read than the screen when you work on revisions（这些打印件在修改时也比屏幕更容易阅读）。句中的 These printouts 具有明确的照应词要求。[C] 项提到打印稿看起来虽好但取决于内容，并指出很多作家在写完一稿后都将页面打印出来（print their pages each time they finish a draft），直接呼应了后句的 These printouts，[C] 为最佳选项。\n［命题解密］[C] 项中的 print their pages 完美提供了空格后 These printouts 的直接复现前件，语义与逻辑完全契合。"
     },
     {
       "id": "e44b485b-bfea-58c2-9232-9212f000bf1b",
@@ -1678,45 +1602,40 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
-          "value": "A"
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introduction and conclusion. It is often easier to write the introduction last, after you know precisely what you are introducing.",
-          "value": "B"
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a legitimate case can be made for making a first draft as neat as possible, a clean copy has drawbacks. A word processor can produce a handsome draft, but the printer may well print errors that your eyes will miss on a clean page.",
-          "value": "C"
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "Just so you do write, it doesn't matter how you write. You can write by hand or on a computer. Some writers dictate their ideas. Some outline; some do not. But once you begin to write, you will discover that writing can be a process of discovery.",
-          "value": "D"
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
-          "value": "E"
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting, she began by summarizing her main points and then added a quotation from John Updike that she had found in a library book.",
-          "value": "F"
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "As you draft, you may discover other points that you didn't think of when you made your outline. Don't be afraid to change your outline to include these new insights. A draft is an exploration.",
-          "value": "G"
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "E",
-      "explanation": "45.【答案】E\n【考点】相关词同现+段落主题一致性\n【难度系数】0.616\n【解析】该题缺失内容在段尾，上一句话提到一个学生写作的例子，删除了一段关于“怀疑Sammy 有大男子\n主义倾向”的段落。并由此句确定包含专有名词的选项E 和F。本段的首句提到，在写作中要删去与主题无关\n的材料，因此E 选项符合要求，而且，选项F 只提到对一个段落的写作，相对来说离主旨较远。\n本题的另一考虑角度：该段谈的是对文章的修改的一种态度，要无情的删除一些不相干的信息，接着后面的事\n例是对这一中心的说明。通过A&P，我们可以确定本题答案在E 和F 间，而E 中含有的关键词this 是对上文\n的承接，故答案为E。确定答案E 后，我们马上可以排除F。",
+      "explanation": "［精准定位］第五段介绍初稿完成后的增删工作。空格前一句举例提到：写《作为一种心态的 A&P》的学生明智地删除了质疑萨米对女性大男子主义态度的一段（wisely dropped a paragraph that questioned whether Sammy displays chauvinistic attitudes toward women）。[E] 项以 Although this is an interesting issue, it has nothing to do with the thesis 开头，其中的 this issue 正是指代上句的大男子主义态度；且 [E] 项接着说明 Instead of including that paragraph, she added one...（没有保留该段，而是增加了一段……），完整承接并深化了本例，[E] 为最佳选项。\n［命题解密］[E] 项中的 this issue 与 instead of including that paragraph 与前一句形成天衣无缝的例证承接关系。",
       "points": 2,
       "sort_order": 45,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 45,
+      "analysis": "［精准定位］第五段介绍初稿完成后的增删工作。空格前一句举例提到：写《作为一种心态的 A&P》的学生明智地删除了质疑萨米对女性大男子主义态度的一段（wisely dropped a paragraph that questioned whether Sammy displays chauvinistic attitudes toward women）。[E] 项以 Although this is an interesting issue, it has nothing to do with the thesis 开头，其中的 this issue 正是指代上句的大男子主义态度；且 [E] 项接着说明 Instead of including that paragraph, she added one...（没有保留该段，而是增加了一段……），完整承接并深化了本例，[E] 为最佳选项。\n［命题解密］[E] 项中的 this issue 与 instead of including that paragraph 与前一句形成天衣无缝的例证承接关系。"
     }
   ],
   "exportedAt": "2026-10-15T11:40:33.826Z"

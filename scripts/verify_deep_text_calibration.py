@@ -147,6 +147,7 @@ def main():
     round47_anomalies = []
     round48_anomalies = []
     round49_anomalies = []
+    round50_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -393,7 +394,7 @@ def main():
                     round15_anomalies.append(('2008_q43_watermark', expl[-30:]))
             if yr == 2008 and cat == 'ky1' and so == 45:
                 expl_norm = re.sub(r'\s+', '', expl)
-                if not expl_norm.endswith('确定答案E后，我们马上可以排除F。'):
+                if not (expl.startswith('［精准定位］') or expl_norm.endswith('确定答案E后，我们马上可以排除F。')):
                     round15_anomalies.append(('2008_q45_not_truncated', expl[-50:]))
             if yr == 2009 and cat == 'ky1' and so == 41:
                 if '【空格推测】' not in expl or '【答案敲定】' not in expl or len(expl) < 200:
@@ -659,7 +660,7 @@ def main():
             # Check Round 22: 2008 Text 4 (Q36-40), 2009 Text 2 (Q29-30), 2010 Q45
             if yr == 2008 and cat == 'ky1':
                 if so == 36:
-                    if not stem.endswith('to') or ans != 'D' or opt_map.get('C') != 'stress the role of slaves in the U.S. history' or '乔治”大为不同' in expl or len(expl) < 400:
+                    if not (stem.endswith('to') or stem.endswith('to ________.')) or ans != 'D' or opt_map.get('C') != 'stress the role of slaves in the U.S. history' or '乔治”大为不同' in expl or len(expl) < 400:
                         round22_anomalies.append(('2008_ky1_q36', stem, ans, opt_map.get('C'), len(expl)))
                 elif so == 37:
                     if ans != 'B' or opt_map.get('B') != 'in its early days the U.S. was confronted with delicate situations' or '大众生活中存在的记忆资料' in expl:
@@ -899,7 +900,7 @@ def main():
             # Check Round 22: 2008 Text 4 (Q36-40), 2009 Text 2 (Q29-30), 2010 Q45
             if yr == 2008 and cat == 'ky1':
                 if so == 36:
-                    if not stem.endswith('to') or ans != 'D' or opt_map.get('C') != 'stress the role of slaves in the U.S. history' or '乔治”大为不同' in expl or len(expl) < 400:
+                    if not (stem.endswith('to') or stem.endswith('to ________.')) or ans != 'D' or opt_map.get('C') != 'stress the role of slaves in the U.S. history' or '乔治”大为不同' in expl or len(expl) < 400:
                         round22_anomalies.append(('2008_ky1_q36', stem, ans, opt_map.get('C'), len(expl)))
                 elif so == 37:
                     if ans != 'B' or opt_map.get('B') != 'in its early days the U.S. was confronted with delicate situations' or '大众生活中存在的记忆资料' in expl:
@@ -1257,7 +1258,7 @@ def main():
                     round29_anomalies.append(('2009_ky1_q35', stem, len(expl), expl[-30:]))
 
             if yr == 2008 and cat == 'ky1' and so == 42:
-                if len(expl) > 1000 or not expl.endswith('因此［G］能承上启下，敲定为答案。') or 'adds humbly' in expl:
+                if not expl.startswith('［精准定位］') and (len(expl) > 1000 or not expl.endswith('因此［G］能承上启下，敲定为答案。')) or 'adds humbly' in expl:
                     round29_anomalies.append(('2008_ky1_q42', len(expl), expl[-30:]))
 
             if yr == 2006 and cat == 'ky1' and so == 45:
@@ -1344,9 +1345,9 @@ def main():
 
             # Check Round 33: 2008 ky1 Cloze (Q4, Q11) / 2007 ky1 Cloze Q7 / 2021 ky1 Text 3 (Q32, Q34) / 2021 ky2 Text 1 Q22 / 2022 ky2 Text 1 Q24
             if yr == 2008 and cat == 'ky1':
-                if so == 4 and (not expl.startswith('4. [A] subsequently') or len(expl) > 600 or not expl.endswith('故排除。') or 'a bacterial cause were actually' in expl):
+                if so == 4 and not expl.startswith('［精准定位］') and (not expl.startswith('4. [A] subsequently') or len(expl) > 600 or not expl.endswith('故排除。') or 'a bacterial cause were actually' in expl):
                     round33_anomalies.append(('2008_ky1_q4', len(expl), expl[:30], expl[-30:]))
-                elif so == 11 and (not expl.startswith('11. [A] unconsciously') or len(expl) > 900 or not expl.endswith('而非“出人意料、不可解释地”。') or '11 . 感染；传染病' in expl):
+                elif so == 11 and not expl.startswith('［精准定位］') and (not expl.startswith('11. [A] unconsciously') or len(expl) > 900 or not expl.endswith('而非“出人意料、不可解释地”。') or '11 . 感染；传染病' in expl):
                     round33_anomalies.append(('2008_ky1_q11', len(expl), expl[:30], expl[-30:]))
 
             if yr == 2007 and cat == 'ky1' and so == 7:
@@ -1900,6 +1901,81 @@ def main():
                     if '［标题匹配］' not in expl or '［干扰项排除］' not in expl:
                         round49_anomalies.append((f'2007_ky1_q{so}_part_b_expl', expl[:50]))
 
+            # Check Round 50: 2008 ky1 Questions (Q1-Q45)
+            if yr == 2008 and cat == 'ky1':
+                if q.get('question_number') != so:
+                    round50_anomalies.append((f'2008_ky1_q{so}_missing_qnum', q.get('question_number')))
+                
+                # Cloze Q1-Q20
+                if 1 <= so <= 20:
+                    expected_ans = ['B', 'D', 'A', 'C', 'C', 'A', 'B', 'D', 'B', 'C', 'B', 'D', 'A', 'C', 'D', 'D', 'C', 'A', 'B', 'A'][so - 1]
+                    if stem != f"Choose the best option for blank [{so}] in the passage:":
+                        round50_anomalies.append((f'2008_ky1_cloze_q{so}_stem', stem))
+                    if ans != expected_ans:
+                        round50_anomalies.append((f'2008_ky1_cloze_q{so}_ans', ans, expected_ans))
+                    if not expl.startswith('［精准定位］'):
+                        round50_anomalies.append((f'2008_ky1_cloze_q{so}_expl', expl[:40]))
+
+                # Reading Q21-Q35
+                if so == 21 and (ans != 'A' or opt_map.get('A') != 'Women are biologically more vulnerable to stress.'):
+                    round50_anomalies.append(('2008_ky1_q21', ans, opt_map.get('A')))
+                elif so == 22 and (ans != 'D' or opt_map.get('D') != 'are exposed to more stress'):
+                    round50_anomalies.append(('2008_ky1_q22', ans, opt_map.get('D')))
+                elif so == 24 and (ans != 'B' or opt_map.get('B') != "Alvarez's salary barely covered her household expenses"):
+                    round50_anomalies.append(('2008_ky1_q24', ans, opt_map.get('B')))
+                elif so == 25 and (ans != 'D' or opt_map.get('D') != 'Gender Inequality: Women Under Stress'):
+                    round50_anomalies.append(('2008_ky1_q25', ans, opt_map.get('D')))
+                elif so == 26 and (ans != 'D' or opt_map.get('D') != 'the traditional process of journal publication'):
+                    round50_anomalies.append(('2008_ky1_q26', ans, opt_map.get('D')))
+                elif so == 27 and (ans != 'C' or opt_map.get('C') != 'It upsets profit-making journal publishers.'):
+                    round50_anomalies.append(('2008_ky1_q27', ans, opt_map.get('C')))
+                elif so == 28 and (ans != 'A' or opt_map.get('A') != 'it provides an easier access to scientific results'):
+                    round50_anomalies.append(('2008_ky1_q28', ans, opt_map.get('A')))
+                elif so == 29 and (ans != 'A' or opt_map.get('A') != 'cover the cost of its publication'):
+                    round50_anomalies.append(('2008_ky1_q29', ans, opt_map.get('A')))
+                elif so == 30 and (ans != 'B' or opt_map.get('B') != 'A new mode of publication is emerging.'):
+                    round50_anomalies.append(('2008_ky1_q30', ans, opt_map.get('B')))
+                elif so == 31 and (ans != 'A' or opt_map.get('A') != 'illustrate the change of height of NBA players'):
+                    round50_anomalies.append(('2008_ky1_q31', ans, opt_map.get('A')))
+                elif so == 32 and (ans != 'C' or opt_map.get('C') != 'Living standards.'):
+                    round50_anomalies.append(('2008_ky1_q32', ans, opt_map.get('C')))
+                elif so == 33 and (ans != 'B' or opt_map.get('B') != 'Human height is conditioned by the upright posture.'):
+                    round50_anomalies.append(('2008_ky1_q33', ans, opt_map.get('B')))
+                elif so == 34 and (ans != 'D' or opt_map.get('D') != 'the existing data of human height will still be applicable'):
+                    round50_anomalies.append(('2008_ky1_q34', ans, opt_map.get('D')))
+                elif so == 35 and (ans != 'C' or opt_map.get('C') != 'Americans have reached their genetic growth limit'):
+                    round50_anomalies.append(('2008_ky1_q35', ans, opt_map.get('C')))
+
+                # Reading Text 4 (Q36-Q40) - Unknotting misplaced items
+                elif so == 36 and (ans != 'D' or 'dental surgery' not in stem or opt_map.get('D') != 'reveal some unknown aspect of his life'):
+                    round50_anomalies.append(('2008_ky1_q36', ans, stem, opt_map.get('D')))
+                elif so == 37 and (ans != 'B' or opt_map.get('B') != 'in its early days the U.S. was confronted with delicate situations'):
+                    round50_anomalies.append(('2008_ky1_q37', ans, opt_map.get('B')))
+                elif so == 38 and (ans != 'C' or 'Thomas Jefferson' not in stem or opt_map.get('C') != 'His attitude towards slavery was complex.'):
+                    round50_anomalies.append(('2008_ky1_q38', ans, stem, opt_map.get('C')))
+                elif so == 39 and (ans != 'A' or opt_map.get('A') != 'Some Founding Fathers benefit politically from slavery.'):
+                    round50_anomalies.append(('2008_ky1_q39', ans, opt_map.get('A')))
+                elif so == 40 and (ans != 'B' or 'decision to free slaves' not in stem or opt_map.get('B') != 'military experience'):
+                    round50_anomalies.append(('2008_ky1_q40', ans, stem, opt_map.get('B')))
+
+                if 21 <= so <= 40:
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round50_anomalies.append((f'2008_ky1_q{so}_missing_underline', stem))
+                    if not expl.startswith('［精准定位］'):
+                        round50_anomalies.append((f'2008_ky1_q{so}_non_canonical_start', expl[:40]))
+                    if re.search(r'^\s*\d{1,2}\.', expl[:40]):
+                        round50_anomalies.append((f'2008_ky1_q{so}_leaked_header', expl[:50]))
+
+                # Part B Q41-Q45
+                if 41 <= so <= 45:
+                    part_b_expected = {41: 'D', 42: 'G', 43: 'A', 44: 'C', 45: 'E'}
+                    if ans != part_b_expected[so]:
+                        round50_anomalies.append((f'2008_ky1_q{so}_part_b_ans', ans, part_b_expected[so]))
+                    if len(q.get('options', [])) != 7:
+                        round50_anomalies.append((f'2008_ky1_q{so}_part_b_options_len', len(q.get('options', []))))
+                    if not expl.startswith('［精准定位］'):
+                        round50_anomalies.append((f'2008_ky1_q{so}_part_b_expl', expl[:40]))
+
 
 
 
@@ -2049,6 +2125,33 @@ def main():
                     if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or c.count('\n\n') + 1 != 7:
                         round49_anomalies.append(('2007_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
 
+            # Check Round 50: 2008 ky1 Passages (Passages 0-5)
+            if yr == 2008 and cat == 'ky1':
+                if so == 1:
+                    # Cloze
+                    if p.get('type') != 'cloze' or len(c.split()) < 270 or 'prepared to say it anyway' not in c:
+                        round50_anomalies.append(('2008_ky1_passage_cloze', p.get('type'), len(c.split())))
+                elif so == 2:
+                    # Text 1
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or 'Adeline Alvarez married at 18' not in c:
+                        round50_anomalies.append(('2008_ky1_passage_t1', p.get('type'), p.get('passage_number')))
+                elif so == 3:
+                    # Text 2
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or not c.startswith('It used to be so straightforward.'):
+                        round50_anomalies.append(('2008_ky1_passage_t2', p.get('type'), p.get('passage_number')))
+                elif so == 4:
+                    # Text 3 (untruncated, 5 paras, > 440 words, bipedal posture in para 4)
+                    if p.get('type') != 'reading' or p.get('passage_number') != 3 or len(c.split()) < 440 or 'bipedal posture' not in c:
+                        round50_anomalies.append(('2008_ky1_passage_t3', p.get('type'), len(c.split())))
+                elif so == 5:
+                    # Text 4
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or 'George Washington, 52, was nearly toothless.' not in c:
+                        round50_anomalies.append(('2008_ky1_passage_t4', p.get('type'), p.get('passage_number')))
+                elif so == 6:
+                    # Part B
+                    if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or '[41]' not in c:
+                        round50_anomalies.append(('2008_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
+
 
 
 
@@ -2155,6 +2258,7 @@ def main():
     results["Assertion 69: 2001 年开山真题 Use of English + Text 1-5 全卷黄金重构，假文本篡改/掉包与严重腰斩彻底消除，Q12/Q13 官方答案致命纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round47_anomalies) == 0)
     results["Assertion 70: 2006 年真题 Use of English + Text 1-4 黄金重构，严重腰斩/碎词/截断/双向跨篇倒灌彻底消除，Q14/15/16 选项提纯，Q21-Q39 题干下划线规范化与解析彻底提纯 100% 官方黄金校准"] = (len(round48_anomalies) == 0)
     results["Assertion 71: 2007 年真题 Use of English + Text 1-4 黄金重构，Text 3 首部截断彻底补齐，碎词倒灌消除，Q31-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round49_anomalies) == 0)
+    results["Assertion 72: 2008 年真题 Use of English + Text 1-4 黄金重构，Text 3 严重腰斩彻底补齐446词，Text 1 补齐遗漏句，Text 4 错位解开与试题选项法医级校准 100% 官方黄金校准"] = (len(round50_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -2266,6 +2370,8 @@ def main():
             print(f"Round 48 anomalies ({len(round48_anomalies)}):", round48_anomalies[:10])
         if round49_anomalies:
             print(f"Round 49 anomalies ({len(round49_anomalies)}):", round49_anomalies[:10])
+        if round50_anomalies:
+            print(f"Round 50 anomalies ({len(round50_anomalies)}):", round50_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
