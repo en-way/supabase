@@ -142,6 +142,7 @@ def main():
     round42_anomalies = []
     round43_anomalies = []
     round44_anomalies = []
+    round45_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1432,6 +1433,80 @@ def main():
                     if ans != 'C' or stem != 'The text suggests that early settlers in New England ________.' or opt_map.get('C') != 'came from different intellectual backgrounds' or not expl.rstrip().endswith('如［A］、［B］、［D］。'):
                         round43_anomalies.append(('2009_ky1_q40', stem, ans, opt_map, expl[-60:]))
 
+            # Check Round 45: 2003 ky1 Questions (Q1-Q40 calibration)
+            if yr == 2003 and cat == 'ky1':
+                if so == 17:
+                    if ans != 'B' or opt_map.get('B') != 'down' or 'let down' not in expl:
+                        round45_anomalies.append(('2003_ky1_q17', ans, opt_map, expl[:50]))
+                elif so == 20:
+                    if ans != 'A' or opt_map.get('A') != 'capabilities' or 'within capabilities' not in expl:
+                        round45_anomalies.append(('2003_ky1_q20', ans, opt_map, expl[:50]))
+                elif 21 <= so <= 40:
+                    # Verify no bilingual header leakage in reading explanations
+                    if any(f"{so}." in expl[:50] for so in range(21, 41)):
+                        round45_anomalies.append((f'2003_ky1_q{so}_header_leak', expl[:60]))
+                    
+                    if so == 21:
+                        if ans != 'B' or stem != 'The emergence of the Net has ________.' or opt_map.get('B') != 'remolded the intelligence services' or not expl.endswith('［A］正确。'):
+                            round45_anomalies.append(('2003_ky1_q21', stem, ans, opt_map, expl[-40:]))
+                    elif so == 22:
+                        if ans != 'A' or stem != "Donovan's story is mentioned in the text to ________." or opt_map.get('A') != 'introduce the topic of online spying' or not expl.endswith('致命错误。'):
+                            round45_anomalies.append(('2003_ky1_q22', stem, ans, opt_map, expl[-40:]))
+                    elif so == 23:
+                        if ans != 'C' or stem != 'The phrase "making the biggest splash" (Line 1, Paragraph 3) most probably means ________.' or opt_map.get('C') != 'achieving the greatest success' or not expl.endswith('错误引申。'):
+                            round45_anomalies.append(('2003_ky1_q23', stem, ans, opt_map, expl[-40:]))
+                    elif so == 24:
+                        if ans != 'D' or stem != 'It can be learned from Paragraph 4 that ________.' or opt_map.get('D') != 'Straitford is able to provide fairly reliable information' or not expl.endswith('故舍［B］选［D］。'):
+                            round45_anomalies.append(('2003_ky1_q24', stem, ans, opt_map, expl[-40:]))
+                    elif so == 25:
+                        if ans != 'B' or stem != 'Straitford is most proud of its ________.' or opt_map.get('B') != 'nonconformist image' or not expl.endswith('选取［B］。'):
+                            round45_anomalies.append(('2003_ky1_q25', stem, ans, opt_map, expl[-40:]))
+                    elif so == 26:
+                        if ans != 'A' or stem != "The author begins his article with Edmund Burke's words to ________." or opt_map.get('A') != 'call on scientists to take some actions' or not expl.endswith('“已有事实”。'):
+                            round45_anomalies.append(('2003_ky1_q26', stem, ans, opt_map, expl[-40:]))
+                    elif so == 27:
+                        if ans != 'B' or stem != 'Misled people tend to think that using an animal in research is ________.' or opt_map.get('A') != 'cruel but natural' or opt_map.get('B') != 'inhuman and unacceptable' or opt_map.get('C') != 'inevitable but vicious' or opt_map.get('D') != 'pointless and wasteful' or not expl.endswith('抵制态度。'):
+                            round45_anomalies.append(('2003_ky1_q27', stem, ans, opt_map, expl[-40:]))
+                    elif so == 28:
+                        if ans != 'B' or stem != "The example of the grandmotherly woman is used to show the public's ________." or opt_map.get('A') != 'discontent with animal research' or opt_map.get('B') != 'ignorance about medical science' or opt_map.get('C') != 'indifference to epidemics' or opt_map.get('D') != 'anxiety about animal rights' or not expl.endswith('故错误。'):
+                            round45_anomalies.append(('2003_ky1_q28', stem, ans, opt_map, expl[-40:]))
+                    elif so == 29:
+                        if ans != 'A' or stem != 'The author believes that, in face of the challenge from animal rights advocates, scientists should ________.' or opt_map.get('A') != 'communicate more with the public' or not expl.endswith('顺滑逻辑。'):
+                            round45_anomalies.append(('2003_ky1_q29', stem, ans, opt_map, expl[-40:]))
+                    elif so == 30:
+                        if ans != 'D' or stem != 'From the text we learn that Stephen Cooper is ________.' or opt_map.get('D') != 'a supporter of animal research' or not expl.endswith('捏造干扰。'):
+                            round45_anomalies.append(('2003_ky1_q30', stem, ans, opt_map, expl[-40:]))
+                    elif so == 31:
+                        if ans != 'C' or stem != 'According to those who support mergers, railway monopoly is unlikely because ________.' or opt_map.get('A') != 'cost reduction is based on competition' or opt_map.get('B') != 'services call for cross-trade coordination' or opt_map.get('C') != 'outside competitors will continue to exist' or opt_map.get('D') != 'shippers will have the railway by the throat' or not expl.endswith('正确答案。'):
+                            round45_anomalies.append(('2003_ky1_q31', stem, ans, opt_map, expl[-40:]))
+                    elif so == 32:
+                        if ans != 'D' or stem != "What is many captive shippers' attitude towards the consolidation in the rail industry?" or opt_map.get('D') != 'Apprehensive' or not expl.endswith('漠不关心”）。'):
+                            round45_anomalies.append(('2003_ky1_q32', stem, ans, opt_map, expl[-40:]))
+                    elif so == 33:
+                        if ans != 'C' or stem != 'It can be inferred from Paragraph 3 that ________.' or opt_map.get('C') != 'overcharged shippers are unlikely to appeal for rate relief' or not expl.endswith('故排除。'):
+                            round45_anomalies.append(('2003_ky1_q33', stem, ans, opt_map, expl[-40:]))
+                    elif so == 34:
+                        if ans != 'B' or stem != 'The word "arbiters" (Line 6, Paragraph 4) most probably refers to those ________.' or opt_map.get('B') != 'who function as judges' or not expl.endswith('正确解释。'):
+                            round45_anomalies.append(('2003_ky1_q34', stem, ans, opt_map, expl[-40:]))
+                    elif so == 35:
+                        if ans != 'A' or stem != 'According to the text, the cost increase in the rail industry is mainly caused by ________.' or opt_map.get('A') != 'the continuing acquisition' or not expl.endswith('［A］为答案。'):
+                            round45_anomalies.append(('2003_ky1_q35', stem, ans, opt_map, expl[-40:]))
+                    elif so == 36:
+                        if ans != 'C' or stem != 'What is implied in the first sentence?' or opt_map.get('A') != 'Americans are better prepared for death than other people.' or opt_map.get('C') != 'Americans are over-confident of their medical technology.' or not expl.endswith('故正确。'):
+                            round45_anomalies.append(('2003_ky1_q36', stem, ans, opt_map, expl[-40:]))
+                    elif so == 37:
+                        if ans != 'A' or stem != 'The author uses the example of cancer patients to show that ________.' or opt_map.get('A') != 'medical resources are often wasted' or opt_map.get('B') != 'doctors are helpless against fatal diseases' or opt_map.get('C') != 'some treatments are too aggressive' or opt_map.get('D') != 'medical costs are becoming unaffordable' or not expl.endswith('曲解原文。'):
+                            round45_anomalies.append(('2003_ky1_q37', stem, ans, opt_map, expl[-40:]))
+                    elif so == 38:
+                        if ans != 'B' or stem != "The author's attitude toward Richard Lamm's remark is one of ________." or opt_map.get('B') != 'reserved consent' or not expl.endswith('［B］。'):
+                            round45_anomalies.append(('2003_ky1_q38', stem, ans, opt_map, expl[-40:]))
+                    elif so == 39:
+                        if ans != 'D' or stem != 'In contrast to the US, Japan and Sweden are funding their medical care ________.' or opt_map.get('D') != 'more reasonably' or not expl.endswith('主题服务。'):
+                            round45_anomalies.append(('2003_ky1_q39', stem, ans, opt_map, expl[-40:]))
+                    elif so == 40:
+                        if ans != 'C' or stem != 'The text intends to express the idea that ________.' or opt_map.get('C') != 'death should be accepted as a fact of life' or not expl.endswith('［C］。'):
+                            round45_anomalies.append(('2003_ky1_q40', stem, ans, opt_map, expl[-40:]))
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -1486,6 +1561,24 @@ def main():
                 elif p.get('id') == '74816315-11f3-5946-91bf-77d6d41c2323':
                     if '[A]' not in c or '[B]' not in c or '[C]' not in c or '[D]' not in c or '[E]' not in c or '[F]' not in c or '[G]' not in c or len(c.split()) < 580:
                         round44_anomalies.append(('2010_ky1_passage_partb_content', len(c.split())))
+
+            # Check Round 45: 2003 ky1 Passages 0-4
+            if yr == 2003 and cat == 'ky1':
+                if p.get('id') == 'baf9ac68-c463-5062-81e7-086ea2e053c2':
+                    if not c.startswith('Teachers need to be aware of the emotional, intellectual, and physical changes') or 'O [4]' in c or 'practice in successful [11] dynamics.' not in c or 'and knowing that their accomplishments are admired by others.' in c or not c.endswith('having clearly stated rules.') or len(c.split()) < 260:
+                        round45_anomalies.append(('2003_ky1_passage_use_of_english', len(c.split()), c[:80]))
+                elif p.get('id') == '42614f3c-867d-5b54-a985-106027132f60':
+                    if not c.startswith('Wild Bill Donovan would have loved the Internet.') or 'Among the firms making the biggest splash in this new world is Straitford, Inc.' not in c or 'takes pride in its independent voice.' not in c or len(c.split()) < 390 or c.count('\n\n') + 1 != 5:
+                        round45_anomalies.append(('2003_ky1_passage_text1_content', len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == 'b0b11306-8638-56f7-b906-ba1282efce2c':
+                    if not c.startswith('To paraphrase 18th-century statesman Edmund Burke, "all that is needed for the triumph of a misguided cause is that good people do nothing."') or 'extinguish the precious embers of medical progress.' not in c or len(c.split()) < 400 or c.count('\n\n') + 1 != 4:
+                        round45_anomalies.append(('2003_ky1_passage_text2_content', len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '9ba61f50-0a1f-5ccf-8eb0-af5b8c9dd841':
+                    if not c.startswith('In recent years, railroads have been combining with each other, merging into supersystems') or 'The vast consolidation within the rail industry means that most shippers are served by only one rail company.' not in c or '"Do we really want railroads to be the arbiters of who wins and who loses in the marketplace?"' not in c or 'Many captive shippers fear that they will, as Norfolk Southern and CSX increase their grip on the market.' not in c or len(c.split()) < 445 or c.count('\n\n') + 1 != 5:
+                        round45_anomalies.append(('2003_ky1_passage_text3_content', len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == 'ca2c47ce-e376-58c8-8a48-5dd6d192b3b6':
+                    if not c.startswith('It is said that in England death is pressing, in Canada inevitable and in California optional.') or 'The author uses the example of cancer patients to show that' in c or '- IB' in c or 'In 1950, the U.S. spent $12.7 billion on health care.' not in c or 'I would not go that far.' not in c or "underfunding research on humbler therapies that could improve people's lives." not in c or len(c.split()) < 435 or c.count('\n\n') + 1 != 5:
+                        round45_anomalies.append(('2003_ky1_passage_text4_content', len(c.split()), c.count('\n\n') + 1))
 
             # Check Round 14: 2004 Reading Passages 2-5
             if yr == 2004 and cat == 'ky1':
@@ -1585,6 +1678,7 @@ def main():
     results["64. 2009 ky1 Text 1(Q21-25)与Text 2(Q26-28)截断题干补全、双语堆叠与截断彻底提纯、篇章7段417词黄金还原 100% 官方黄金校准"] = (len(round42_anomalies) == 0)
     results["65. 2009 ky1 Text 3-4(Q31-40)题干补全、Q35截断选项修复、Q39污染选项还原、双语堆叠彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round43_anomalies) == 0)
     results["66. 2010 ky1 阅读 Text 1-4 与 Part B 全篇黄金重构、Q37 真实选项纠偏、Q39 原卷精解还原与双语堆叠切除 100% 官方黄金校准"] = (len(round44_anomalies) == 0)
+    results["67. 2003 ky1 完形与阅读全卷 5 篇篇章黄金重构（Text 3 深度补齐 449 词、Text 4 剔除串文）、Q17/Q20 纠偏、Q27/Q28/Q31/Q37 官方真卷选项还原与解析提纯 100% 官方黄金校准"] = (len(round45_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1686,6 +1780,8 @@ def main():
             print(f"Round 43 anomalies ({len(round43_anomalies)}):", round43_anomalies)
         if round44_anomalies:
             print(f"Round 44 anomalies ({len(round44_anomalies)}):", round44_anomalies)
+        if round45_anomalies:
+            print(f"Round 45 anomalies ({len(round45_anomalies)}):", round45_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
