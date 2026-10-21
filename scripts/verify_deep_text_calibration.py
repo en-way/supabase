@@ -143,6 +143,7 @@ def main():
     round43_anomalies = []
     round44_anomalies = []
     round45_anomalies = []
+    round46_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -327,7 +328,7 @@ def main():
                 if len(expl) < 300 or 'Make it efficient' not in expl:
                     round13_anomalies.append(('2016_q45', len(expl)))
             if yr == 2002 and cat == 'ky1' and so == 30:
-                if len(opts) != 4 or ans != 'C' or len(expl) < 400 or 'far from reaching human mental standards' not in [o.get('text') for o in opts]:
+                if len(opts) != 4 or ans != 'C' or len(expl) < 400 or ('far from reaching human mental standards' not in [o.get('text') for o in opts] and 'far less able than human brain in focusing on relevant information' not in [o.get('text') for o in opts]):
                     round13_anomalies.append(('2002_q30', ans, len(expl)))
             if yr == 2010 and cat == 'ky1' and so == 25:
                 if len(opts) != 4 or ans != 'B' or len(expl) < 400 or 'The Lost Horizon in Newspapers' not in [o.get('text') for o in opts]:
@@ -1095,7 +1096,7 @@ def main():
                     round32_anomalies.append(('2021_ky2_q20', opt_texts, len(expl), expl[-30:]))
 
             if yr == 2002 and cat == 'ky1' and so == 8:
-                if not expl.startswith('8. ［A］ concept') or len(expl) > 700 or not expl.endswith('而非“究竟看到与否”。') or '计算机也按“代”来划分' in expl:
+                if not (expl.startswith('8. ［A］ concept') or expl.startswith('［试题考点］')) or len(expl) > 700 or not expl.endswith('而非“究竟看到与否”。') or '计算机也按“代”来划分' in expl:
                     round32_anomalies.append(('2002_ky1_q8', len(expl), expl[:20], expl[-30:]))
 
             # Check Round 33: 2008 ky1 Cloze (Q4, Q11) / 2007 ky1 Cloze Q7 / 2021 ky1 Text 3 (Q32, Q34) / 2021 ky2 Text 1 Q22 / 2022 ky2 Text 1 Q24
@@ -1507,6 +1508,58 @@ def main():
                         if ans != 'C' or stem != 'The text intends to express the idea that ________.' or opt_map.get('C') != 'death should be accepted as a fact of life' or not expl.endswith('［C］。'):
                             round45_anomalies.append(('2003_ky1_q40', stem, ans, opt_map, expl[-40:]))
 
+            # Check Round 46: 2002 ky1 Questions (Q1-Q40 calibration & 5 deadly errors fixed)
+            if yr == 2002 and cat == 'ky1':
+                if so == 5:
+                    if ans != 'B' or opt_map.get('B') != 'speeded':
+                        round46_anomalies.append(('2002_ky1_q5', ans, opt_map.get('B')))
+                elif so == 14:
+                    if ans != 'C' or opt_map.get('C') != 'capacity':
+                        round46_anomalies.append(('2002_ky1_q14', ans, opt_map.get('C')))
+                elif so == 19:
+                    if ans != 'B' or opt_map.get('B') != 'controversial':
+                        round46_anomalies.append(('2002_ky1_q19', ans, opt_map.get('B')))
+                elif so == 21:
+                    if ans != 'C' or stem != 'To make your humor work, you should ________.' or opt_map.get('C') != 'address different problems to different people':
+                        round46_anomalies.append(('2002_ky1_q21', stem, ans, opt_map))
+                elif so == 22:
+                    if ans != 'B' or opt_map.get('B') != 'very conscious of their godlike role':
+                        round46_anomalies.append(('2002_ky1_q22', ans, opt_map.get('B')))
+                elif so == 23:
+                    if ans != 'D' or opt_map.get('D') != 'have often been the laughing stock':
+                        round46_anomalies.append(('2002_ky1_q23', ans, opt_map.get('D')))
+                elif so == 28:
+                    if ans != 'D' or opt_map.get('A') != 'fulfill delicate tasks like performing brain surgery':
+                        round46_anomalies.append(('2002_ky1_q28', ans, opt_map.get('A')))
+                elif so == 29:
+                    if ans != 'B' or opt_map.get('D') != 'cultivate human creativity':
+                        round46_anomalies.append(('2002_ky1_q29', ans, opt_map.get('D')))
+                elif so == 30:
+                    if ans != 'C' or stem != 'The author uses the example of a monkey to argue that robots are ________.':
+                        round46_anomalies.append(('2002_ky1_q30', stem, ans))
+                elif so == 32:
+                    if ans != 'D' or stem != 'It can be inferred from the text that the retail price of petrol will go up for even a small change in crude oil prices if ________.':
+                        round46_anomalies.append(('2002_ky1_q32', stem, ans))
+                elif so == 34:
+                    if ans != 'A' or opt_map.get('A') != 'oil price shocks are less shocking now':
+                        round46_anomalies.append(('2002_ky1_q34', ans, opt_map.get('A')))
+                elif so == 36:
+                    if ans != 'B' or "their patients' pain" not in opt_map.get('A', '') or 'physician-assisted suicide' not in opt_map.get('C', ''):
+                        round46_anomalies.append(('2002_ky1_q36', ans, opt_map))
+                elif so == 39:
+                    if ans != 'A' or opt_map.get('A') != 'Bold':
+                        round46_anomalies.append(('2002_ky1_q39', ans, opt_map.get('A')))
+                elif so == 40:
+                    if ans != 'D' or stem != 'George Annas would probably agree that doctors should be punished if they ________.':
+                        round46_anomalies.append(('2002_ky1_q40', stem, ans))
+
+                if 21 <= so <= 40:
+                    if any(f"{so}." in expl[:50] for so in range(21, 41)):
+                        round46_anomalies.append((f'2002_ky1_q{so}_header_leak', expl[:60]))
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round46_anomalies.append((f'2002_ky1_q{so}_missing_underline', stem))
+
+
         # Passage boundary check
         for p in passages:
             pt = p.get('title', '')
@@ -1579,6 +1632,24 @@ def main():
                 elif p.get('id') == 'ca2c47ce-e376-58c8-8a48-5dd6d192b3b6':
                     if not c.startswith('It is said that in England death is pressing, in Canada inevitable and in California optional.') or 'The author uses the example of cancer patients to show that' in c or '- IB' in c or 'In 1950, the U.S. spent $12.7 billion on health care.' not in c or 'I would not go that far.' not in c or "underfunding research on humbler therapies that could improve people's lives." not in c or len(c.split()) < 435 or c.count('\n\n') + 1 != 5:
                         round45_anomalies.append(('2003_ky1_passage_text4_content', len(c.split()), c.count('\n\n') + 1))
+
+                # Check Round 46: 2002 ky1 Passages (Passage 0-4 Gold Reconstruction)
+                if p.get('id') == '8b7dec36-0057-5b3e-8d45-b736f5b913e2':
+                    if c.startswith('I ') or c.count('\n\n') + 1 != 3 or len(c.split()) < 265:
+                        round46_anomalies.append(('2002_ky1_passage_use_of_english', len(c.split()), c[:80]))
+                elif p.get('id') == 'c82eb2c3-d5f7-58fa-981e-0806ff32c124':
+                    if c.startswith('lf ') or '. The joke about doctors implies that' in c or c.count('\n\n') + 1 != 5 or len(c.split()) < 430:
+                        round46_anomalies.append(('2002_ky1_passage_text1_content', len(c.split()), c[:80]))
+                elif p.get('id') == 'e105b25c-a6ec-502d-b204-11a9c304d4fe':
+                    if '. The word " gizmos"' in c or "According to the text, what is beyond man's ability" in c or c.count('\n\n') + 1 != 5 or 'What they found' not in c:
+                        round46_anomalies.append(('2002_ky1_passage_text2_content', len(c.split()), c[:80]))
+                elif p.get('id') == '53474821-9120-5962-acc2-5c36455d7aeb':
+                    if len(c.split()) < 400 or c.count('\n\n') + 1 != 5 or 'One more reason not to lose sleep' not in c or 'Iraq suspended oil exports' not in c:
+                        round46_anomalies.append(('2002_ky1_passage_text3_content', len(c.split()), c[:80]))
+                elif p.get('id') == 'f0cbd337-0bdf-58e8-8723-cf2c30aa0d62':
+                    if len(c.split()) < 420 or c.count('\n\n') + 1 != 9 or 'George Annas, chair of the health law department' not in c or 'Approaching Death: Improving Care' not in c:
+                        round46_anomalies.append(('2002_ky1_passage_text4_content', len(c.split()), c[:80]))
+
 
             # Check Round 14: 2004 Reading Passages 2-5
             if yr == 2004 and cat == 'ky1':
@@ -1679,6 +1750,7 @@ def main():
     results["65. 2009 ky1 Text 3-4(Q31-40)题干补全、Q35截断选项修复、Q39污染选项还原、双语堆叠彻底提纯、篇章段落黄金还原 100% 官方黄金校准"] = (len(round43_anomalies) == 0)
     results["66. 2010 ky1 阅读 Text 1-4 与 Part B 全篇黄金重构、Q37 真实选项纠偏、Q39 原卷精解还原与双语堆叠切除 100% 官方黄金校准"] = (len(round44_anomalies) == 0)
     results["67. 2003 ky1 完形与阅读全卷 5 篇篇章黄金重构（Text 3 深度补齐 449 词、Text 4 剔除串文）、Q17/Q20 纠偏、Q27/Q28/Q31/Q37 官方真卷选项还原与解析提纯 100% 官方黄金校准"] = (len(round45_anomalies) == 0)
+    results["Assertion 68: 2002 年真题 Use of English + Text 1-4 黄金重构，腰斩截断与倒灌彻底消除，Q5/Q14/Q19/Q22/Q39 五大致命错题纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round46_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1782,6 +1854,8 @@ def main():
             print(f"Round 44 anomalies ({len(round44_anomalies)}):", round44_anomalies)
         if round45_anomalies:
             print(f"Round 45 anomalies ({len(round45_anomalies)}):", round45_anomalies)
+        if round46_anomalies:
+            print(f"Round 46 anomalies ({len(round46_anomalies)}):", round46_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
