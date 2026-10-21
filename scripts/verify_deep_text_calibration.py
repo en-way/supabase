@@ -144,6 +144,7 @@ def main():
     round44_anomalies = []
     round45_anomalies = []
     round46_anomalies = []
+    round47_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -737,7 +738,7 @@ def main():
                 elif so == 39 and (opt_map.get('C') != 'admiration for their memory' or opt_map.get('D') != 'contempt for their old-fashionedness'):
                     round23_anomalies.append(('2005_ky1_q39_opts', opt_map))
             if yr == 2001 and cat == 'ky1' and so == 28:
-                if stem != "It seems that now a country's economy depends much on" or opt_map.get('D') != 'how much control it has over foreign corporations' or '2&现在看来' in expl:
+                if stem not in ["It seems that now a country's economy depends much on", "It seems that now a country's economy depends much on ________."] or opt_map.get('D') != 'how much control it has over foreign corporations' or '2&现在看来' in expl:
                     round23_anomalies.append(('2001_ky1_q28', stem, opt_map.get('D'), expl[:40]))
             if yr == 2007 and cat == 'ky1':
                 if so == 1 and (opt_map.get('C') != 'peoples' or opt_map.get('D') != 'individuals'):
@@ -1559,6 +1560,36 @@ def main():
                     if not (stem.endswith('________.') or stem.endswith('?')):
                         round46_anomalies.append((f'2002_ky1_q{so}_missing_underline', stem))
 
+            # Check Round 47: 2001 ky1 Questions (Q1-Q40 calibration & Q12/Q13 deadly errors fixed)
+            if yr == 2001 and cat == 'ky1':
+                if so == 12:
+                    if ans != 'C' or opt_map.get('C') != 'rather than':
+                        round47_anomalies.append(('2001_ky1_q12', ans, opt_map.get('C')))
+                elif so == 13:
+                    if ans != 'B' or opt_map.get('B') != 'makes':
+                        round47_anomalies.append(('2001_ky1_q13', ans, opt_map.get('B')))
+                elif so == 21:
+                    if ans != 'D' or stem != 'The growth of specialisation in the 19th century might be more clearly seen in sciences such as ________.':
+                        round47_anomalies.append(('2001_ky1_q21', stem, ans))
+                elif so == 27:
+                    if ans != 'D' or stem != 'The writer mentioned the case of the United States to justify the policy of ________.':
+                        round47_anomalies.append(('2001_ky1_q27', stem, ans))
+                elif so == 28:
+                    if ans != 'A' or stem != "It seems that now a country's economy depends much on ________.":
+                        round47_anomalies.append(('2001_ky1_q28', stem, ans))
+                elif so == 39:
+                    if ans != 'C' or stem != '"Juggling one\'s life" probably means living a life characterized by ________.':
+                        round47_anomalies.append(('2001_ky1_q39', stem, ans))
+
+                if 21 <= so <= 40:
+                    if any(f"{so}." in expl[:50] for so in range(21, 41)):
+                        round47_anomalies.append((f'2001_ky1_q{so}_header_leak', expl[:60]))
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round47_anomalies.append((f'2001_ky1_q{so}_missing_underline', stem))
+
+
+
+
 
         # Passage boundary check
         for p in passages:
@@ -1649,6 +1680,21 @@ def main():
                 elif p.get('id') == 'f0cbd337-0bdf-58e8-8723-cf2c30aa0d62':
                     if len(c.split()) < 420 or c.count('\n\n') + 1 != 9 or 'George Annas, chair of the health law department' not in c or 'Approaching Death: Improving Care' not in c:
                         round46_anomalies.append(('2002_ky1_passage_text4_content', len(c.split()), c[:80]))
+
+                # Check Round 47: 2001 ky1 Passages (Passage 0-5 Gold Reconstruction)
+                if p.get('id') == '4f5df10d-1837-59f4-98d4-6588100bcaec':
+                    if c.startswith('I ') or 'the trial of Rosemary West' not in c or 'Harold Shipman' in c or c.count('\n\n') + 1 != 7 or len(c.split()) < 240:
+                        round47_anomalies.append(('2001_ky1_passage_use_of_english', len(c.split()), c[:80]))
+                elif p.get('id') == '4e851c3e-3768-52a5-b959-5e5b308906c9':
+                    if len(c.split()) < 410 or c.count('\n\n') + 1 != 4 or 'A comparison of British geological publications' not in c:
+                        round47_anomalies.append(('2001_ky1_passage_text1_content', len(c.split()), c[:80]))
+                elif p.get('id') == 'dea76b45-8738-5e7c-b1ed-77d39cdd1f55':
+                    if len(c.split()) < 370 or c.count('\n\n') + 1 != 4 or "America's Second Wave infrastructure" not in c or 'Today, computers are small and cheap' in c:
+                        round47_anomalies.append(('2001_ky1_passage_text2_content', len(c.split()), c[:80]))
+                elif p.get('id') == 'e1a90001-2001-4000-8000-000000000006':
+                    if len(c.split()) < 400 or c.count('\n\n') + 1 != 6 or 'her much-publicized resignation from the editorship' not in c or '12-hour working days, pressured deadlines' not in c:
+                        round47_anomalies.append(('2001_ky1_passage_text5_content', len(c.split()), c[:80]))
+
 
 
             # Check Round 14: 2004 Reading Passages 2-5
@@ -1751,6 +1797,7 @@ def main():
     results["66. 2010 ky1 阅读 Text 1-4 与 Part B 全篇黄金重构、Q37 真实选项纠偏、Q39 原卷精解还原与双语堆叠切除 100% 官方黄金校准"] = (len(round44_anomalies) == 0)
     results["67. 2003 ky1 完形与阅读全卷 5 篇篇章黄金重构（Text 3 深度补齐 449 词、Text 4 剔除串文）、Q17/Q20 纠偏、Q27/Q28/Q31/Q37 官方真卷选项还原与解析提纯 100% 官方黄金校准"] = (len(round45_anomalies) == 0)
     results["Assertion 68: 2002 年真题 Use of English + Text 1-4 黄金重构，腰斩截断与倒灌彻底消除，Q5/Q14/Q19/Q22/Q39 五大致命错题纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round46_anomalies) == 0)
+    results["Assertion 69: 2001 年开山真题 Use of English + Text 1-5 全卷黄金重构，假文本篡改/掉包与严重腰斩彻底消除，Q12/Q13 官方答案致命纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round47_anomalies) == 0)
 
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -1856,6 +1903,8 @@ def main():
             print(f"Round 45 anomalies ({len(round45_anomalies)}):", round45_anomalies)
         if round46_anomalies:
             print(f"Round 46 anomalies ({len(round46_anomalies)}):", round46_anomalies)
+        if round47_anomalies:
+            print(f"Round 47 anomalies ({len(round47_anomalies)}):", round47_anomalies)
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
