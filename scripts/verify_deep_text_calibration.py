@@ -146,6 +146,7 @@ def main():
     round46_anomalies = []
     round47_anomalies = []
     round48_anomalies = []
+    round49_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1856,6 +1857,49 @@ def main():
                         if re.search(r'^\s*\d{1,2}\.', expl[:40]):
                             round48_anomalies.append((f'2006_ky1_q{so}_leaked_header', expl[:50]))
 
+            # Check Round 49: 2007 ky1
+            if yr == 2007 and cat == 'ky1':
+                if so == 1 and opt_map.get('A') != 'natives':
+                    round49_anomalies.append(('2007_ky1_q1_opt_A', opt_map.get('A')))
+                elif so == 26 and opt_map.get('A') != 'Answering philosophical questions.':
+                    round49_anomalies.append(('2007_ky1_q26_opt_A', opt_map.get('A')))
+                elif so == 31:
+                    if stem != "Today's double-income families are at greater financial risk in that ________." or opt_map.get('B') != 'their chances of being laid off have greatly increased':
+                        round49_anomalies.append(('2007_ky1_q31', stem, opt_map.get('B')))
+                elif so == 32:
+                    if stem != "As a result of President Bush's reform, retired people may have ________." or '［精准定位］' not in expl or len(expl) < 400:
+                        round49_anomalies.append(('2007_ky1_q32', stem, len(expl)))
+                elif so == 33:
+                    if stem != "According to the author, health-savings plans will ________." or opt_map.get('D') != "increase the families' investment risk":
+                        round49_anomalies.append(('2007_ky1_q33', stem, opt_map.get('D')))
+                elif so == 34 and stem != "It can be inferred from the last paragraph that ________.":
+                    round49_anomalies.append(('2007_ky1_q34', stem))
+                elif so == 36 and stem != 'The statement "It never rains but it pours" is used to introduce ________.':
+                    round49_anomalies.append(('2007_ky1_q36', stem))
+                elif so == 37:
+                    if stem != "According to Paragraph 2, some organizations check their systems to find out ________." or '［精准定位］' not in expl or len(expl) < 400:
+                        round49_anomalies.append(('2007_ky1_q37', stem, len(expl)))
+                elif so == 38:
+                    if stem != "In bringing up the concept of GASP the author is making the point that ________." or '［精准定位］' not in expl or len(expl) < 400:
+                        round49_anomalies.append(('2007_ky1_q38', stem, len(expl)))
+                elif so == 39:
+                    if stem != "According to Paragraph 4, what puzzles the author is that some bosses fail to ________." or opt_map.get('B') != 'perceive the sensitivity of personal data':
+                        round49_anomalies.append(('2007_ky1_q39', stem, opt_map.get('B')))
+                elif so == 40 and stem != "It can be inferred from Paragraph 5 that ________.":
+                    round49_anomalies.append(('2007_ky1_q40', stem))
+
+                if 21 <= so <= 40:
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round49_anomalies.append((f'2007_ky1_q{so}_missing_underline', stem))
+                    if not expl.startswith('［'):
+                        round49_anomalies.append((f'2007_ky1_q{so}_non_canonical_start', expl[:40]))
+                    if re.search(r'^\s*\d{1,2}\.', expl[:40]):
+                        round49_anomalies.append((f'2007_ky1_q{so}_leaked_header', expl[:50]))
+
+                if 41 <= so <= 45:
+                    if '［标题匹配］' not in expl or '［干扰项排除］' not in expl:
+                        round49_anomalies.append((f'2007_ky1_q{so}_part_b_expl', expl[:50]))
+
 
 
 
@@ -1985,6 +2029,26 @@ def main():
                     if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5:
                         round48_anomalies.append(('2006_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
 
+                # 2007 ky1 Passages Golden Calibration
+                elif p.get('id') == 'a6146626-b40e-5ea0-a148-d77c21f68ca1':
+                    if p.get('type') != 'cloze' or p.get('passage_number') != 1 or c.count('\n\n') + 1 != 4 or len(c.split()) < 260 or 'Spani sh' in c:
+                        round49_anomalies.append(('2007_ky1_passage_cloze', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '6347524b-92cc-55f6-9c71-961054eb82d0':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or c.count('\n\n') + 1 != 5 or len(c.split()) < 390 or 'deliberate practiceo' in c or 'the message the text' in c:
+                        round49_anomalies.append(('2007_ky1_passage_t1', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == 'cc38bed7-6339-5a13-8ee9-2f840e1befbe':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or c.count('\n\n') + 1 != 5 or len(c.split()) < 430 or 'Clearly, intelligence encompasses' not in c or "whether it's knowing when to guess" not in c:
+                        round49_anomalies.append(('2007_ky1_passage_t2', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '3a4dede3-a1af-5bd5-9cb6-3ba199fd7119':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 3 or c.count('\n\n') + 1 != 4 or len(c.split()) < 420 or 'During the past generation, the American middle-class family' not in c or 'From the middle-class family perspective' not in c:
+                        round49_anomalies.append(('2007_ky1_passage_t3', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == '6d432ded-32e4-5c0a-8da2-59b623ec3075':
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or c.count('\n\n') + 1 != 5 or len(c.split()) < 380 or 'The scramble to organize security checks' not in c or 'puts corporate America on notice' not in c:
+                        round49_anomalies.append(('2007_ky1_passage_t4', p.get('type'), len(c.split()), c.count('\n\n') + 1))
+                elif p.get('id') == 'f130a52b-7ad6-53c2-96fe-e909afb03e49':
+                    if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or c.count('\n\n') + 1 != 7:
+                        round49_anomalies.append(('2007_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
+
 
 
 
@@ -2090,7 +2154,8 @@ def main():
     results["Assertion 68: 2002 年真题 Use of English + Text 1-4 黄金重构，腰斩截断与倒灌彻底消除，Q5/Q14/Q19/Q22/Q39 五大致命错题纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round46_anomalies) == 0)
     results["Assertion 69: 2001 年开山真题 Use of English + Text 1-5 全卷黄金重构，假文本篡改/掉包与严重腰斩彻底消除，Q12/Q13 官方答案致命纠偏，Q1-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round47_anomalies) == 0)
     results["Assertion 70: 2006 年真题 Use of English + Text 1-4 黄金重构，严重腰斩/碎词/截断/双向跨篇倒灌彻底消除，Q14/15/16 选项提纯，Q21-Q39 题干下划线规范化与解析彻底提纯 100% 官方黄金校准"] = (len(round48_anomalies) == 0)
-
+    results["Assertion 71: 2007 年真题 Use of English + Text 1-4 黄金重构，Text 3 首部截断彻底补齐，碎词倒灌消除，Q31-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round49_anomalies) == 0)
+    
     print("\n=== 断言检查结果 ===")
     all_passed = True
     for metric, status in results.items():
@@ -2199,6 +2264,8 @@ def main():
             print(f"Round 47 anomalies ({len(round47_anomalies)}):", round47_anomalies)
         if round48_anomalies:
             print(f"Round 48 anomalies ({len(round48_anomalies)}):", round48_anomalies[:10])
+        if round49_anomalies:
+            print(f"Round 49 anomalies ({len(round49_anomalies)}):", round49_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
