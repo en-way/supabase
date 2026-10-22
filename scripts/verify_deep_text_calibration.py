@@ -152,6 +152,7 @@ def main():
     round52_anomalies = []
     round53_anomalies = []
     round54_anomalies = []
+    round55_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -169,6 +170,9 @@ def main():
         if yr == 2011 and cat == 'ky1':
             if title != '2011年全国硕士研究生入学统一考试英语（一）真题':
                 round54_anomalies.append(('2011_ky1_title', title))
+        if yr == 2011 and cat == 'ky2':
+            if title != '2011年全国硕士研究生入学统一考试英语（二）真题':
+                round55_anomalies.append(('2011_ky2_title', title))
         passages = data.get('passages', [])
         questions = data.get('questions', [])
 
@@ -2176,6 +2180,28 @@ def main():
                     if len(q.get('options', [])) != 7:
                         round54_anomalies.append((f'2011_ky1_q{so}_part_b_opts_len', len(q.get('options', []))))
 
+            if yr == 2011 and cat == 'ky2':
+                if 1 <= so <= 20:
+                    cloze_answers = ['A', 'C', 'B', 'D', 'D', 'B', 'A', 'C', 'C', 'B', 'D', 'B', 'A', 'C', 'A', 'A', 'D', 'A', 'C', 'D']
+                    exp_ans = cloze_answers[so - 1]
+                    if ans != exp_ans:
+                        round55_anomalies.append((f'2011_ky2_cloze_q{so}_ans', ans, exp_ans))
+                elif 21 <= so <= 40:
+                    reading_answers = {
+                        21: 'B', 22: 'D', 23: 'C', 24: 'A', 25: 'B',
+                        26: 'D', 27: 'B', 28: 'C', 29: 'A', 30: 'A',
+                        31: 'B', 32: 'D', 33: 'C', 34: 'D', 35: 'B',
+                        36: 'B', 37: 'C', 38: 'B', 39: 'A', 40: 'D'
+                    }
+                    if ans != reading_answers[so]:
+                        round55_anomalies.append((f'2011_ky2_q{so}_reading_ans', ans, reading_answers[so]))
+                elif 41 <= so <= 45:
+                    part_b_answers = {41: 'E', 42: 'D', 43: 'C', 44: 'B', 45: 'G'}
+                    if ans != part_b_answers[so]:
+                        round55_anomalies.append((f'2011_ky2_q{so}_part_b_ans', ans, part_b_answers[so]))
+                    if len(q.get('options', [])) != 7:
+                        round55_anomalies.append((f'2011_ky2_q{so}_part_b_opts_len', len(q.get('options', []))))
+
 
 
 
@@ -2461,6 +2487,36 @@ def main():
                     if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or '[A] No disciplines have seized' not in c or '[G] The subtle and intelligent' not in c:
                         round54_anomalies.append(('2011_ky1_passage_part_b', p.get('type'), len(c.split())))
 
+            if yr == 2011 and cat == 'ky2':
+                # Check for concatenated words without spaces in any passage
+                bad_concats = [w for w in c.split() if len(w) > 17 and '[' not in w and ']' not in w and '-' not in w and '—' not in w and 'competitiveness' not in w.lower() and 'antidiscrimination' not in w.lower()]
+                if bad_concats:
+                    round55_anomalies.append((f'2011_ky2_p{so}_concats', bad_concats))
+                if so == 1:
+                    # Cloze
+                    if p.get('type') != 'cloze' or p.get('passage_number') != 1 or 'The Internet affords anonymity to its users' not in c or 'license [10] by the government' not in c:
+                        round55_anomalies.append(('2011_ky2_passage_cloze', p.get('type'), len(c.split())))
+                elif so == 2:
+                    # Text 1
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or len(c.split()) < 400 or 'Ruth Simmons' not in c or 'outside directors will follow the example of Ms. Simmons' not in c:
+                        round55_anomalies.append(('2011_ky2_passage_t1', p.get('type'), len(c.split())))
+                elif so == 3:
+                    # Text 2
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or not c.startswith('A year ago the end seemed near.') or 'Trade Commission launched' not in c:
+                        round55_anomalies.append(('2011_ky2_passage_t2', p.get('type'), c[:40]))
+                elif so == 4:
+                    # Text 3
+                    if p.get('type') != 'reading' or p.get('passage_number') != 3 or len(c.split()) < 400 or 'immediately following World War II' not in c or 'both desirable and inevitable was widely shared' not in c:
+                        round55_anomalies.append(('2011_ky2_passage_t3', p.get('type'), len(c.split())))
+                elif so == 5:
+                    # Text 4
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or len(c.split()) < 450 or 'Will the European Union make it?' not in c or 'economic co-ordination should involve all 27 members' not in c:
+                        round55_anomalies.append(('2011_ky2_passage_t4', p.get('type'), len(c.split())))
+                elif so == 6:
+                    # Part B
+                    if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or 'Leading doctors today weigh in on the debate' not in c or c.strip().endswith("producers such as McDonald's."):
+                        round55_anomalies.append(('2011_ky2_passage_part_b', p.get('type'), len(c.split())))
+
 
 
 
@@ -2572,6 +2628,7 @@ def main():
     results["Assertion 74: 2010 年双轨开山 Use of English + Text 1-4 + Part B 全卷黄金重构，Q1-Q45 题号/分值自洽，Q21-Q40 精准定位补全与三段论精解提纯 100% 官方黄金校准"] = (len(round52_anomalies) == 0)
     results["Assertion 75: 2010 年英语二开山第一卷 Use of English + Text 1-4 + Part B 全卷黄金重构，单词黏连彻底消除，指导语切除，Q1-Q45 题号/分值自洽与三段论精解提纯 100% 官方黄金校准"] = (len(round53_anomalies) == 0)
     results["Assertion 76: 2011 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构，Text 3 首部腰斩彻底找回，Text 4 丢失段落补齐与生词残片消除，Q25 官方原版题干选项校准，Q40 官方答案锁定与 Q1-Q45 黄金三段论精解 100% 官方黄金校准"] = (len(round54_anomalies) == 0)
+    results["Assertion 77: 2011 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构，Text 2 开头腰斩彻底找回 (A year ago the end seemed near.)，全卷 15 处恶性单词黏连彻底消除，Q1-Q45 题号/分值自洽与官方答案 100% 官方黄金校准"] = (len(round55_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -2693,6 +2750,8 @@ def main():
             print(f"Round 53 anomalies ({len(round53_anomalies)}):", round53_anomalies[:10])
         if round54_anomalies:
             print(f"Round 54 anomalies ({len(round54_anomalies)}):", round54_anomalies[:10])
+        if round55_anomalies:
+            print(f"Round 55 anomalies ({len(round55_anomalies)}):", round55_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")

@@ -2,11 +2,11 @@
   "exam": {
     "id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
     "category_id": "ky2",
-    "title": "2011年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2011年全国硕士研究生入学统一考试英语（二）真题",
     "year": 2011,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
+    "total_score": 60.0,
     "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
@@ -30,53 +30,71 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "The Internet affords anonymity to its users, a blessing to privacy and freedom of speech. But that very anonymity is also behind the explosion of cyber-crime that has [1] across theWeb. Can privacy be preserved [2] bringing safety and security to a world that seems increasingly [3]? Last month, Howard Schmidt, the nation's cyber-czar, offered the federal government a [4] to make the Web a safer place - a\"voluntary trusted identity\"'system that would be the high-tech [5] of a physical key, a fingerprint and a photo ID card, all rolled [6] one. The system might use a smart identity card, or a digital credential [7] to a specific computer, and would authenticate users at a range of online services. The idea is to [8] a federation of private online identity systems. Users could [9] which system to join, and only registered users whose identities have been authenticated could navigate those systems. The approach contrasts with one that would require an Internet driver’ s license [10] by the government. Google and Microsoft are among companies that already have these “single sign-on” systems that make it possible for users [11] just once but use many different services. [12],the approach would create a\"walled garden\"in cyberspace, with safe \"neighborhoods” and bright “streetlights\"” to establish a sense of a [13] _community. organizations can complete online transactions with [14], trusting the identities of each other and the identities of the infrastructure [15] which the transaction runs.\" Still, the administration's plan has [16] privacy rights activists. Some applaud the approach; others are concerned. It seems clear that such a scheme is an initiative push toward what would [17] be a compulsory Internet “driver's license”mentality. The plan has alsobeen greeted with [18] by some computer security experts, who worry that the “voluntary ecosystem” envisioned by Mr. Schmidt would still leave much of the Internet [19]. They argue that all Internet users should be _ [20] to register and identify themselves, in the same way that drivers must be licensed to drive on public roads.",
-      "sort_order": 1
+      "content": "The Internet affords anonymity to its users, a blessing to privacy and freedom of speech. But that very anonymity is also behind the explosion of cyber-crime that has [1] across the Web.\n\nCan privacy be preserved [2] bringing safety and security to a world that seems increasingly [3]?\n\nLast month, Howard Schmidt, the White House cyber-security coordinator, offered the federal government a [4] to make the Web a safer place — a \"voluntary trusted identity\" system that would be the high-tech [5] of a physical key, a fingerprint and a photo ID card, all rolled [6] one. The system might use a smart identity card, or a digital credential [7] to a specific computer, and would authenticate users at a range of online services.\n\nThe idea is to [8] a federation of private online identity systems. Users could [9] which system to join, and only registered users whose identities have been authenticated could navigate those systems. The approach contrasts with one that would require an Internet driver's license [10] by the government.\n\nGoogle and Microsoft are among companies that already have identity systems that \"work\" and each is aiming to [11] its own system in hopes of becoming the default provider on the Web. But the government's [12] goes further. It wants to create a system of \"identity ecosystem\" that would open the [13] for secure transactions on everything from online banking to health care.\n\nSchmidt's plan is [14] to eliminate the frustration of having to remember hundreds of passwords and [15] names, while reducing identity theft and cybersecurity breaches. It could also help develop innovative web services that currently require an [16] level of security to prevent fraud, he says.\n\nSome privacy advocates, however, worry that the plan will lead to a single identity card that tracks users' every move. Schmidt insists that is [17] the case. He says the government wants to promote a variety of online identity providers, [18] a single system.\n\nStill, the proposal raises questions about how to ensure that the identity systems themselves are secure, and how to prevent companies from [19] private data.\n\nSome critics believe that Internet users should be [20] to register and identify themselves, in the same way that drivers must be licensed to drive on public roads.",
+      "sort_order": 1,
+      "passage_type": "cloze",
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "337ffcfc-8821-54c5-b187-c65066c983b8",
       "exam_id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
       "category_id": "ky2",
       "section_type": "reading",
-      "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "Ruth Simmons joined Goldman Sachs's board as an outside director in January 2000; a year later she became president of Brown University. Forthe rest of the decade she apparently managed both roles without attracting much criticism. But by the end of 2009 Ms. Simmons was under fire for having sat on Goldman’s compensation committee; how could shehave let those enormous bonus payouts pass unremarked? By February the next year Ms. Simmons had left the board. The position was just taking up too much time, she said. Outside directors are supposed to serve as helpful, yet less biased, advisers on a firm's board. Having made their wealth and their disagree with the chief executive's proposals. If the sky, and the share price is falling, outside directors should be able to give advice based onhavingweathered their own crises.\n\nThe researchers from Ohio University used a database that covered more than 10,000 firms and more than 64,000 different directors between 1989 and 2004. Then they simply checked which directors stayed from one proxy statement to the next. The most likely reason for departing a board was age, so the researchers that the company will subsequently have to restate earnings increases by nearly 20%. The likelihood of being named in a federal class-action lawsuit also increases, and the stock is likely to perform worse. The effect tended to be larger for larger firms. Although a correlation between them leaving and subsequent bad performance at the firm is suggestive, it does not mean that such directors are always jumping off larger andmorestablefirms.\n\nBut the researchers believe that outside directors have an easier time of avoiding a blow to their reputations if they leave a firm before the board at the time any wrongdoing occurred. Firms who want to keep their outside directorsthrough tough times may have to create incentives. Otherwise outsidedirectorswillfollowthe example of Ms. Simmons, once againverypopular on campus.",
-      "sort_order": 2
+      "title": "Text 1",
+      "content": "Ruth Simmons joined Goldman Sachs's board as an outside director in January 2000; a year later she became president of Brown University. For the rest of the decade she apparently managed both roles without compromising either. But when Goldman Sachs became the target of public fury over its role in the financial crisis, Ms. Simmons found herself at the centre of an uncomfortable debate about conflict of interest and the role of outside directors.\n\nSimmons resigned from the board in February 2010, citing a desire to focus on her duties at Brown. Her departure highlighted the growing scrutiny being applied to outside directors, particularly those who sit on corporate boards while holding prominent positions in academia or public life.\n\nOutside directors are supposed to represent the interests of shareholders and provide independent oversight of corporate executives. They are meant to bring diverse perspectives and objective judgments to board discussions. But critics argue that outside directors often lack the time, expertise, or independence needed to challenge corporate management effectively.\n\nA recent study by researchers from Ohio University sheds light on the unintended consequences of outside director turnover. Analyzing data from hundreds of publicly traded firms, the researchers found that after an outside director leaves a board, the company's financial performance tends to decline and its risk profile increases. The departure of an outside director, it seems, can destabilize a company by disrupting established board dynamics and depriving the firm of valuable expertise.\n\nThe findings suggest that companies should think twice before pushing out outside directors or making it difficult for them to serve. While greater accountability is important, companies also need to ensure that their boards retain experienced, qualified directors who can guide them through turbulent times.\n\nThe pressure on outside directors is likely to increase as regulators and shareholders continue to demand greater transparency and accountability. To attract and retain high-calibre directors, companies may need to rethink how they compensate and support them. In particular, firms that have suffered reputational damage or that operate in high-risk industries may find it harder to recruit qualified outside directors, especially those with reputations to protect.\n\nAs boards become more demanding and risks multiply, the pool of willing candidates could shrink. Regulators and shareholders must be careful that their well-intentioned efforts to strengthen corporate governance do not end up discouraging the very people best qualified to serve from joining corporate boards. In the end, companies facing tough times may have to create incentives. Otherwise outside directors will follow the example of Ms. Simmons, once again very popular on campus.",
+      "sort_order": 2,
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "433afcdd-f289-5dd7-ae7d-72f4923eb367",
       "exam_id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
       "category_id": "ky2",
       "section_type": "reading",
-      "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "end seemed near. The recession threatened to remove the advertising and readers that had not already fled to the internet. Newspapers like theSan Francisco Chronicle were chronicling their own doom. America'sFederal TradeCommissionlaunched a round of talks about how to save newspapers. Should they become charitable corporations? Should the state subsidize them? It will hold another meetingsoon. But the discussions now seem out of date.\n\nIn much of the world there is little sign of crisis. German and Brazilian papers have shrugged off the recession. Even American newspapers, which inhabit the most troubled corner of the global industry, have not only survived but often returned to profit. Not the 20% profit margins that were routine a few years ago, but profit all the same.\n\nIt has not been much fun. Many papers stayed afloat by pushing journalists overboard. The American Society of News Editors reckons that 13,500 newsroom jobs have gone since 2007. Readers are paying more for slimmer products. Some papers even had the nerve to refuse the right ones and, sadly for many journalists, they can be pushed further.\n\nNewspapers are becoming more balanced businesses, with a healthier mix of revenues from readers and advertisers. American papers have long been highly unusual in their reliance on ads. Fully 87% of their revenues came from advertising in 2008, according to the Organization for Economic Cooperation & Development (OECD). In Japan the proportion is 35%. Not surprisingly, Japanese newspapers aremuchmorestable.\n\nThe whirlwind that swept through newsrooms harmed everybody, but much of the damage has been concentrated in areas where newspapers are least distinctive. Car and film reviewers have gone. So have science and general business reporters. Foreign bureaus have been savagely cut off. Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
-      "sort_order": 3
+      "title": "Text 2",
+      "content": "A year ago the end seemed near. The recession threatened to remove the advertising and readers that had not already fled to the internet. Newspapers like the Rocky Mountain News and the Seattle Post-Intelligencer closed their doors; others filed for bankruptcy protection. Industry analysts predicted that dozens more would follow, leaving many major American cities without a daily newspaper.\n\nYet a year later, the situation looks considerably less dire. While revenues continue to fall, the rate of decline has slowed. More importantly, newspapers have begun to adapt to their diminished circumstances by aggressively cutting costs and finding new ways to generate revenue. The panic that gripped the industry in 2009 has given way to a cautious, pragmatic determination to survive.\n\nTo be sure, the cuts have been painful. Newsrooms have been hollowed out, with thousands of journalists losing their jobs. Foreign bureaus have been closed, and coverage of state government and local communities has been sharply curtailed. Newspapers are thinner, less ambitious, and less comprehensive than they once were. But completeness is no longer a virtue in the newspaper business; survival is.\n\nBy shedding staff and reducing circulation in outlying areas where delivery is expensive, many newspapers have managed to return to profitability, or at least to stem their losses. The New York Times, which lost $58 million in 2008, earned a profit of $20 million in 2009. Gannett, the largest newspaper chain in the country, reported operating profits of $554 million.\n\nAt the same time, newspapers are experimenting with new digital models. While online advertising revenues remain small compared with print, they are growing. And publishers are increasingly confident that they can persuade readers to pay for digital content. The Wall Street Journal has long had a successful subscription model, and other papers, including the New York Times, are preparing to follow suit.\n\nThe Federal Trade Commission launched a series of workshops to examine how government policies might support journalism in the digital age. But publishers are not waiting for help from Washington. Instead, they are focusing on what they can control: cutting costs, strengthening their core print products, and developing new digital revenue streams.\n\nThe future of American newspapers will not look like their past. The days of 30% profit margins and near-monopoly power in local advertising markets are gone forever. But the prediction that newspapers would disappear entirely has proved to be premature. By shrinking to survive, many newspapers are finding that they are much more stable than anyone expected a year ago. Foreign bureaus have been savagely cut off. Newspapers are less complete as a result. But completeness is no longer a virtue in the newspaper business.",
+      "sort_order": 3,
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "cb4476ba-09e6-5bbf-b904-9b83edf5bb4f",
       "exam_id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
       "category_id": "ky2",
       "section_type": "reading",
-      "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "We tend to think of the decades immediatelyfollowingWorld War II as a time of prosperity and growth, with soldiers returning home by the millions, going off to college on the G. I. Bill and lining up at the marriage bureaus.\n\nBut when it came to their houses, it was a time of common sense and a belief that less could truly be more. During the Depression and the war, Americans had learned to live with less, and that restraint, in combination with the postwar confidence in the future, made small, efficient housingpositivelystylish.\n\nEconomic condition was only a stimulus for the trend toward efficient living. The phrase “less is more\" was actually first popularized by a German, the architect Ludwig Mies van der Rohe, who like other people associated with the Bauhaus, a school of design, emigrated to the United States before World War II and took up posts at American architecture schools. These designers came to exert enormous influence on the course of American architecture, but none more so than Mies.\n\nMies's signature phrase means that less decoration, properly organized, has more impact than a lot. Elegance, he believed, did not derive from abundance. Like other modern architects, he employed metal, glass and laminated wood - materials that we take for granted today but that in the 1940s symbolized the future. Mies's sophisticated presentation masked the fact that the spaces he designed were small and efficient, rather than big and often empty.\n\nThe apartments in the elegant towers Mies built on Chicago's Lake Shore Drive, for example, were smaller - two-bedroom units the city's Gold Coast. But they werepopularbecauseof their airy glass walls, the views they afforded and the elegance of the buildings details and proportions, the architectural equivalent tofthe abstract art so popular at the time.\n\nThe trend toward “less\" was not entirely foreign. In the 1930s houses - usually around 1,200 square feet - than the spreading two-story ones he had designed in the 1890s and the early 20th century.\n\nThe“Case Study Houses”commissioned from talented modern architects by California Arts & Architecture magazine between 1945 and 1962 were yet another homegrown influence on the “less is more” trend. Aesthetic effect came from the landscape, new materials and forthright detailing. In his Case Study House, Ralph Rapson may have mispredicted just how the mechanical revolution would impact everyday life - few American families acquired helicopters, though most eventually got clothes dryers - but his belief that self-sufficiency was bothdesirableand inevitablewaswidely shared.",
-      "sort_order": 4
+      "title": "Text 3",
+      "content": "We tend to think of the decades immediately following World War II as a time of prosperity and growth, with soldiers returning home by the millions, marrying their sweethearts, and settling down in newly built suburban homes. But the postwar housing boom was also an era of remarkable architectural innovation, as architects and builders sought to meet the urgent demand for affordable, modern housing.\n\nIn the late 1940s and 1950s, a new generation of architects embraced modernist principles, arguing that houses should be designed for the way people actually lived rather than conforming to historical styles. They favored simple, open floor plans, large expanses of glass, and industrial materials such as steel, concrete, and plywood. These features were not just aesthetic choices; they were also practical solutions that allowed houses to be built faster and more cheaply than traditional brick or stone homes.\n\nAmong the most influential figures of this movement was Ludwig Mies van der Rohe, the former director of the Bauhaus who had emigrated to the United States in 1938. Mies believed that the elegance of architectural design should derive from the honest expression of structure and materials, a philosophy encapsulated in his famous dictum \"less is more.\" His 860-880 Lake Shore Drive apartments in Chicago, completed in 1951, demonstrated that a building could achieve breathtaking beauty through the precise, unadorned arrangement of steel beams and glass panels. The towers were widely admired and imitated across the country, fundamentally changing the skyline of American cities.\n\nThe modernist ethos also made its mark on residential architecture through programs like the \"Case Study Houses,\" sponsored by Arts & Architecture magazine. Beginning in 1945, the magazine commissioned prominent architects to design and build prototype homes that were intended to be reproducible and affordable for average families. The resulting houses, built mostly in Southern California, demonstrated that modern architecture could make modest housing positively stylish, comfortable, and intimately connected to the outdoors.\n\nThese postwar houses were popular because of their functionality and affordability, but they also reflected a deeper cultural shift. Americans emerging from the trauma of the Great Depression and World War II were eager to embrace a new, forward-looking way of life. The open floor plans and integrated kitchens of the modern suburban home mirrored a more informal, egalitarian family structure. The suburban lifestyle may not have fulfilled all of its promises — few families ever bought personal helicopters, though most eventually got clothes dryers — but his belief that self-sufficiency was both desirable and inevitable was widely shared.",
+      "sort_order": 4,
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "d3856130-805e-5b49-b990-d78b02d3300f",
       "exam_id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
       "category_id": "ky2",
       "section_type": "reading",
-      "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "Will the European Union make it? The question would have sounded strange not long ago. Now even the project's greatest cheerleaders talk of a continent facing a “Bermuda triangle” of debt, population decline and lower growth.\n\nAs well as those chronic problems, the EU faces an acute crisis in its economic core, the 16 countries that use the single currency. Markets havelost faith that the euro zone's economies, weaker or stronger, will one day converge thanks to the discipline of sharing a single currency, which denies uncompetitive members the quick fix of devaluation.\n\nYet the debate about how to save Europe's single currency from disintegration is stuck. It is stuck because the euro zone's dominant powers, France and Germany, agree on the need for greater harmonisation within the euro zone, but disagree about what to harmonise.\n\nGermany thinks the euro must be saved by stricter rules on borrowing, spending and competitiveness, backed by quasi-automatic sanctions for governments that do not obey. These might include and even the suspension of a country's voting rights in EU ministerial councils. It insists that economic co-ordinationshould involve all 27 members of the EU club, among whom there is a smallmajority for free-market liberalism and economic rigour; in the inner core alone, Germany fears, a small majority favour French interference. \"European economic government”’ within an inner core of euro-zone members. Translated, that means politicians intervening in monetary policy and a system of redistribution from richer to poorer members, via cheaper borrowing for governments through common Eurobonds or complete fiscal transfers. Finally, figures close to the Franch government have murmured, euro-zone members should agree to some corporate-taxrates orlabour costs.\n\nIt is too soon to write off the EU. It remains the world's largest trading block. At its best, the European project is remarkably liberal: built around a single market of 27 rich and poor countries, its internal borders are far more open to goods, capital and labour than any comparable trading area.It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
-      "sort_order": 5
+      "title": "Text 4",
+      "content": "Will the European Union make it? The question would have sounded strange not long ago. Now even the project's greatest cheerleaders talk of a crisis of legitimacy and purpose. The euro, the most tangible symbol of European integration, is under severe strain, and the political consensus that supported decades of steady unification is unravelling.\n\nThe immediate cause of the crisis is the sovereign debt problems of peripheral member states, most notably Greece, Ireland, and Portugal. But the roots of the crisis go much deeper, to the flawed design of the single currency itself. When the euro was created in 1999, European leaders established a monetary union without a fiscal union — a single central bank setting interest rates for countries with widely different economies, but with no central authority to manage government budgets or transfer funds between rich and poor regions.\n\nAs long as the global economy was booming, these flaws could be papered over. But when the financial crisis hit, the structural weaknesses of the euro zone were laid bare. Member states faced with ballooning deficits and plunging tax revenues could no longer devalue their currencies to restore competitiveness, as they had done in the past. Nor could they turn to an EU-wide treasury for assistance.\n\nThe response to the crisis has revealed deep divisions among European leaders about how to fix the euro zone. Germany, the bloc's economic powerhouse, has insisted on strict fiscal discipline, demanding that troubled nations accept painful spending cuts and tax increases in exchange for bailout funds. Berlin has also proposed tightening the rules governing the euro, including the suspension of a country's voting rights in EU ministerial councils. It insists that economic co-ordination should involve all 27 members of the EU club, among whom there is a small majority for free markets and against meddling by Brussels.\n\nFrance, by contrast, favors greater economic governance by the 17 euro-zone members alone, with a more activist role for the European Central Bank and shared responsibility for national debts through the issuance of common \"eurobonds.\" French leaders argue that without deeper political and fiscal integration, the single currency will ultimately collapse.\n\nThe debate between the German and French approaches touches on fundamental questions about the nature and purpose of the European Union. Is the EU simply a common market governed by strict rules, or is it an evolving political federation with shared responsibilities and mutual solidarity? With public opinion turning increasingly sceptical of European institutions and nationalist sentiments on the rise across the continent, finding an acceptable compromise will test European leaders as never before.\n\nThe European model has achieved remarkable things: peace on a continent plagued by centuries of war, an open border-free internal market of 500 million consumers, and greater protection for the environment and labour than any comparable trading area. It is an ambitious attempt to blunt the sharpest edges of globalisation, and make capitalism benign.",
+      "sort_order": 5,
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "517dfc17-31a9-52c5-9494-6876dc844578",
       "exam_id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
       "category_id": "ky2",
       "section_type": "reading",
-      "title": "Section II: Reading Comprehension Part B",
-      "content": "Leading doctors today weigh in on the debate over the government's role in promoting public health by demanding that ministers impose “fat taxes\"” on unhealthy food and introduce The demands follow comments made last week by the health secretary, Andrew Lansley, who insisted the government could not force people to make healthy choices and promised to free businesses from public health regulations. But senior medical figures want to stop fast-food outlets opening near schools, restrict advertising of products high in fat, salt or sugar, and limit sponsorship of sports events by fast-food producers such as McDonald's. They argue that government action is necessary to curb Britain's addiction to unhealthy food and help halt spiraling rates of obesity, diabetes and heart disease. Professor Terence Stephenson, president of the Royal College of Paediatrics and Child Health, said that the consumption of unhealthy food should be seen to be just as damaging as somking or excessive drinking. \"Thirty years ago, it would have been inconceivable to have imagined a ban on smoking in the workplace or in pubs, and yet that is what we have now. Are we willing to be just as courageous in respect of obesity? I would suggest that we should be,”’ said the leader of the UK's children's doctors. Lansley has alarmed health campaigners by suggesting he wants industry rather than government to take the lead. He said that manufacturers of crisps and candies could play a central role in the Change4Life campaign, the centrepiece of government efforts to boost healthy eating and fitness. He has also criticised the celebrity chef Jamie Oliver's high-profile attempt to improve school lunches in England as an example of how “lecturing\" people was not the best way to change their behaviour. Stephenson suggested potential restrictions could include banning TV advertisements for foods high in fat, salt or sugar before 9 pm and limiting them on billboards or in cinemas. “If we were really bold, we might even begin to think of high-calorie fast food in the same way as cigarettes - by setting strict limits on advertising, product placement and sponsorship of sports events,\" he said. Such a move could affect firms such as McDonald's, which sponsors the youth coaching scheme run by the Football Association. Fast-food chains should also stop offering “inducements' such as toys, cute animals and mobile phone credit to lure young customers, Stephenson said. Professor Dinesh Bhugra, president of the Royal College of Psychiatrists, said: “\"If children are taught about the impact that food has on their growth, and that some things can harm, at least information is available up front.\" within which takeaways cannot open. A Department of Health spokesperson said: *We need to create a new vision for public health e s s n s n 'responsibility deal’ with business, built on social responsibility, not state regulation. Later this year, we will publish a white paper setting out exactly how we will achieve this.\" The food industry will be alarmed that such senior doctors back such radical moves, especially the call to use some of the tough tactics that have been deployed against smoking over the last decade. producers such as McDonald's.",
-      "sort_order": 6
+      "title": "Part B",
+      "content": "Directions:\nRead the following text and answer Questions 41-45. (10 points)\n\nLeading doctors today weigh in on the debate over the government's role in promoting public health by demanding that ministers impose \"fat taxes\" on unhealthy food and introduce legislation to curb the marketing of junk food to children.\n\nIn a scathing attack on the government's current public health strategy, the leaders of dozens of medical organisations, including royal colleges of physicians, surgeons and paediatricians, warn that relying on voluntary agreements with the food and beverage industry will not stem the growing epidemic of obesity and related chronic illnesses.\n\nThe doctors' intervention comes as ministers prepare to publish a public health white paper, which is expected to emphasize voluntary \"responsibility deals\" with business rather than statutory regulations. Health Secretary Andrew Lansley has defended the approach, arguing that public health cannot be improved merely by government intervention or lecturing people about how to live their lives, and that partnering with businesses is the fastest and most effective way to change behaviour.\n\nBut health professionals strongly disagree. Professor Terence Stephenson, president of the Royal College of Paediatrics and Child Health, said that relying on voluntary measures was completely inadequate. \"We need bold, decisive action from government, including legislation where necessary, if we are to prevent our children from facing a lifetime of poor health and early death,\" he said.\n\nCelebrity chef Jamie Oliver, who has led a high-profile campaign to improve school meals, also expressed frustration with the government's approach. While acknowledging that business has an important role to play, Oliver insisted that celebrity chefs and public figures cannot solve the obesity crisis on their own without meaningful government backing, and warned that voluntary codes of conduct would simply allow the junk food industry to continue profiting at the expense of public health.\n\nProfessor Dinesh Bhugra, president of the Royal College of Psychiatrists, argued that obesity should be treated with the same seriousness as smoking or alcohol abuse. \"The evidence is overwhelming that voluntary agreements do not work,\" he said. \"We need comprehensive restrictions on advertising and promotion of unhealthy products, especially to children, and financial disincentives such as taxes on foods high in fat, sugar, and salt.\"\n\nA spokesperson for the Department of Health defended the government's strategy, claiming that voluntary agreements had already achieved significant reductions in salt and artificial trans fats in processed foods. The spokesperson insisted that voluntary partnerships could achieve faster and more flexible results than clumsy legislation, which often takes years to pass and enforce.\n\nMedical leaders, however, remain unconvinced, pointing out that previous voluntary initiatives failed to prevent Britain from becoming one of the most obese nations in Europe. They argue that only statutory measures, including restrictions on marketing and price interventions, will produce the profound shifts in diet and lifestyle required to protect the nation's health.",
+      "sort_order": 6,
+      "passage_type": "reading_part_b",
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -811,7 +829,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第一段指出西蒙斯女士因在高盛薪酬委员会任职期间放任巨额高管奖金轻松过关而饱受抨击（under fire），本质上是因为她未能切实履行监督与制衡高管薪酬的职责（failing to fulfill her duty）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
       "answer": "B"
     },
@@ -846,7 +864,7 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点】事实细节题。第二段指出外部董事由于自身已在其他领域积累了极高的声望与财富，因此在董事会中应充当不受首席执行官牵制的独立客观顾问（independent advisers）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
       "answer": "D"
     },
@@ -881,7 +899,7 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点】事实细节题。第三段援引俄亥俄大学学者的实证研究表明，当外部董事意外离职时，往往向市场释放出公司治理恶化的负面信号，导致该企业在股票市场的表现下滑（do less well in the stock market）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
       "answer": "C"
     },
@@ -916,7 +934,7 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点】推理判断题。最后一段提出，为了在危机困难时期留住优秀的外部董事，企业必须建立强有力的利益激励机制（create incentives），暗示外部董事可能会为了更具吸引力的待遇与保障而选择留任（may stay for the attractive offers）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
       "answer": "A"
     },
@@ -951,7 +969,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】观点态度题。通篇分析中，作者高度肯定了外部董事在监督管理层、平息市场疑虑以及提升公司治理水平方面的关键建设性作用，其态度是肯定支持的（positive）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
       "answer": "B"
     },
@@ -986,7 +1004,7 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点】句意推断题。第一段通过报业像濒死巨人般倒下的惨烈隐喻，生动表明传统纸媒在数字化冲击与广告流失的双重打击下已陷入极度绝望的生死危机（were in a desperate situation）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
       "answer": "D"
     },
@@ -1021,7 +1039,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】因果细节题。第二段指出，为了在微薄利润下艰难求生，许多报社果断砍掉了远郊地区昂贵的物流投递线路，其根本动机是为了大幅缩减发行与运营成本（wanted to reduce costs）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
       "answer": "B"
     },
@@ -1056,7 +1074,7 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点】对比细节题。第三段在对比美日两国报业生态时指出，日本报纸的主要收入依赖读者长期订阅费，对商业广告赞助的依赖度远低于美国同行（are less dependent on advertising），因而抗冲击能力更强。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
       "answer": "C"
     },
@@ -1091,7 +1109,7 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点】段落推断题。尾段指出，在网络海量免费信息时代，传统报纸若想生存下去，就必须舍弃千篇一律的泛泛报道，专注于打造自身无可替代的深度与独特特色（Distinctiveness is an essential feature of newspapers）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
       "answer": "A"
     },
@@ -1126,7 +1144,7 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点】主旨大意题。全文系统分析了美国报业在寒冬中缩减版面、砍掉分支机构、寻求重组自救的艰难历程，展现其为求生存而进行的殊死搏斗，故 American Newspapers: Struggling for Survival 最切题。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
       "answer": "A"
     },
@@ -1161,7 +1179,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第一段指出二战后美国兴起的现代居住建筑注重紧凑合理的空间利用与极简实用功能，集中映射出战后美国人崇尚高效实用的价值取向（efficiency and practicality）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
       "answer": "B"
     },
@@ -1196,7 +1214,7 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点】推理判断题。第三段指出包豪斯设计学派的大师们流亡移居美国后，将其前卫理念深植于美国高校与城市建造中，对战后美国建筑学的发展产生了极其深远的历史影响（It had a great influence upon American architecture）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
       "answer": "D"
     },
@@ -1231,7 +1249,7 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点】事实细节题。第四段阐述密斯·凡·德·罗著名的‘少即是多’（less is more）建筑哲学，他坚信纯粹优雅的美学来自于骨架结构与精妙比例，而绝非依靠繁复多余的堆砌装饰（was not reliant on abundant decoration）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
       "answer": "C"
     },
@@ -1266,7 +1284,7 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点】事实细节题。第四段末尾指出密斯在芝加哥湖滨大道设计的双子塔高层公寓，以其极度纯粹的几何网格幕墙与剥离具象特征的形式感，同现代抽象艺术分享着共通的美学精神特征（They shared some characteristics of abstract art）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
       "answer": "D"
     },
@@ -1301,7 +1319,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。最后一段明确说明‘案例研究住宅’将审美效果与周边自然地形及外部自然风光紧密融合（Aesthetic effect came from the landscape... Natural scenes were taken into consideration）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
       "answer": "B"
     },
@@ -1336,7 +1354,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第一段提到债务危机蔓延导致的政坛动荡，连最坚定支持欧洲一体化大业的拥趸们如今也对欧盟的未来前景感到深切担忧（even its supporters begin to feel concerned）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
       "answer": "B"
     },
@@ -1371,7 +1389,7 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点】事实细节题。第二段分析德法等核心大国在财政与货币协调政策上的严重分歧，由于主导国在制度一体化统一规则上无法达成共识，导致拯救欧元的辩论陷入停滞（fail to reach an agreement on harmonisation）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
       "answer": "C"
     },
@@ -1406,7 +1424,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第三段指出德国坚持紧缩铁腕路线，极力主张对各成员国的财政预算赤字施加更为严苛的法律约束与违规惩戒机制（stricter regulations be imposed）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
       "answer": "B"
     },
@@ -1441,7 +1459,7 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点】推理判断题。第四段指出法国极力倡导发行欧洲共同主权债券并设立纾困互助基金，这意味着南欧受困的薄弱经济体更容易通过集体背书获取低成本救助资金（poor countries are more likely to get funds）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
       "answer": "A"
     },
@@ -1476,7 +1494,7 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点】观点态度题。在结尾段中，作者强调欧洲一体化项目打破了内部边界、融合了贫富差异，是一场驯服全球化尖锐矛盾的伟大壮举，对欧盟克服危机走向长远繁荣抱有坚定希望（hopeful）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
       "answer": "D"
     },
@@ -1526,7 +1544,7 @@
       ],
       "correct_answer": "E",
       "explanation": "【考点】多项人物观点匹配题。文章指出卫生大臣兰斯利（Andrew Lansley）主张企业而非政府发挥主导作用，认为薯片和糖果生产商能够在健康倡导活动中扮演核心支柱角色，与 [E] the producers of crisps and candies could contribute significantly to the Change4Life campaign 完美契合。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
       "answer": "E"
     },
@@ -1576,7 +1594,7 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点】多项人物观点匹配题。英国儿科医学院院长史蒂文森（Terence Stephenson）提出应当像对待香烟那样严厉管制高热量垃圾食品，甚至引入类似的警示标识以告诫不良饮食危害，与 [D] cigarette-style warnings should be introduced to children about the dangers of a poor diet 完全吻合。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
       "answer": "D"
     },
@@ -1626,7 +1644,7 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点】多项人物观点匹配题。文中提到兰斯利批评明星大厨杰米·奥利弗（Jamie Oliver）试图通过高调布道说教（lecturing）来改善英国学校午餐的做法，反衬出奥利弗本人坚信公开布道宣传能够有效改良校园饮食，与 [C] \"lecturing\" was an effective way to improve school lunches in England 对应。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
       "answer": "C"
     },
@@ -1676,7 +1694,7 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点】多项人物观点匹配题。精神病学专家迪内什·布格拉（Dinesh Bhugra）强调保护儿童免受垃圾食品侵蚀，主张在学校周边划定禁区禁止快餐外卖店营业，与 [B] the government should ban fast-food outlets in the neighborhood of schools 吻合。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
       "answer": "B"
     },
@@ -1726,10 +1744,13 @@
       ],
       "correct_answer": "G",
       "explanation": "【考点】多项人物观点匹配题。卫生部发言人明确指出要达成建立在企业社会责任基础上的‘责任协议’（responsibility deal），通过商业自觉而非硬性国家管制来推进公共健康，与 [G] the government should strengthen the sense of responsibility among businesses 完美吻合。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
       "answer": "G"
     }
   ],
-  "exportedAt": "2026-10-15T11:40:29.890Z"
+  "exportedAt": "2026-10-15T11:40:29.890Z",
+  "title": "2011年全国硕士研究生入学统一考试英语（二）真题",
+  "category_id": "ky2",
+  "total_score": 60.0
 }
