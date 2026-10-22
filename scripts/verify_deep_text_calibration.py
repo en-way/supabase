@@ -149,6 +149,7 @@ def main():
     round49_anomalies = []
     round50_anomalies = []
     round51_anomalies = []
+    round52_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -156,6 +157,10 @@ def main():
         title = data['exam'].get('title', '')
         yr = data['exam'].get('year')
         cat = data['exam'].get('category_id')
+
+        if yr == 2010 and cat == 'ky1':
+            if title != '2010年全国硕士研究生入学统一考试英语（一）真题':
+                round52_anomalies.append(('2010_ky1_title', title))
         passages = data.get('passages', [])
         questions = data.get('questions', [])
 
@@ -2040,6 +2045,53 @@ def main():
                     if '民主与教育' in expl or '广义的教育' in expl:
                         round51_anomalies.append((f'2009_ky1_q{so}_part_b_leak', expl[-50:]))
 
+            # Check Round 52: 2010 ky1 Questions (Q1-Q45)
+            if yr == 2010 and cat == 'ky1':
+                if q.get('question_number') != so:
+                    round52_anomalies.append((f'2010_ky1_q{so}_missing_qnum', q.get('question_number')))
+                
+                # Cloze Q1-Q20
+                if 1 <= so <= 20:
+                    cloze_answers = ['A', 'B', 'C', 'B', 'C', 'B', 'D', 'A', 'C', 'D', 'C', 'A', 'A', 'D', 'B', 'A', 'D', 'C', 'B', 'D']
+                    exp_ans = cloze_answers[so - 1]
+                    if stem != f"Choose the best option for blank [{so}] in the passage:":
+                        round52_anomalies.append((f'2010_ky1_cloze_q{so}_stem', stem))
+                    if ans != exp_ans:
+                        round52_anomalies.append((f'2010_ky1_cloze_q{so}_ans', ans, exp_ans))
+                    if not expl.startswith('［考点提炼］'):
+                        round52_anomalies.append((f'2010_ky1_cloze_q{so}_expl_start', expl[:40]))
+                    if '［解题思路］' not in expl or '［错项排除］' not in expl:
+                        round52_anomalies.append((f'2010_ky1_cloze_q{so}_expl_structure', expl[:40]))
+
+                # Reading Q21-Q40
+                elif 21 <= so <= 40:
+                    reading_answers = {
+                        21: 'B', 22: 'A', 23: 'D', 24: 'A', 25: 'B',
+                        26: 'C', 27: 'D', 28: 'C', 29: 'B', 30: 'A',
+                        31: 'B', 32: 'D', 33: 'A', 34: 'C', 35: 'C',
+                        36: 'A', 37: 'D', 38: 'C', 39: 'B', 40: 'D'
+                    }
+                    if ans != reading_answers[so]:
+                        round52_anomalies.append((f'2010_ky1_q{so}_reading_ans', ans, reading_answers[so]))
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round52_anomalies.append((f'2010_ky1_q{so}_reading_stem_end', stem))
+                    if not expl.startswith('［精准定位］'):
+                        round52_anomalies.append((f'2010_ky1_q{so}_reading_expl_start', expl[:40]))
+                    if '［命题解密］' not in expl:
+                        round52_anomalies.append((f'2010_ky1_q{so}_reading_expl_decrypt', expl[:40]))
+                    if len(expl) > 1500:
+                        round52_anomalies.append((f'2010_ky1_q{so}_reading_expl_len', len(expl)))
+
+                # Part B Q41-Q45
+                elif 41 <= so <= 45:
+                    part_b_answers = {41: 'B', 42: 'F', 43: 'D', 44: 'G', 45: 'A'}
+                    if stem != f"Choose the correct paragraph [A]-[G] for position ({so}):":
+                        round52_anomalies.append((f'2010_ky1_q{so}_part_b_stem', stem))
+                    if ans != part_b_answers[so]:
+                        round52_anomalies.append((f'2010_ky1_q{so}_part_b_ans', ans, part_b_answers[so]))
+                    if len(q.get('options', [])) != 7:
+                        round52_anomalies.append((f'2010_ky1_q{so}_part_b_opts_len', len(q.get('options', []))))
+
 
 
 
@@ -2243,6 +2295,32 @@ def main():
                     if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or c.count('\n\n') + 1 != 7 or not c.startswith('19th and 20th Century Theories of Cultural Anthropology') or '[41]' not in c or '[45]' not in c:
                         round51_anomalies.append(('2009_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
 
+            if yr == 2010 and cat == 'ky1':
+                if so == 1:
+                    # Cloze
+                    if p.get('type') != 'cloze' or p.get('passage_number') != 1 or len(c.split()) < 250 or 'Hawthorne' not in c:
+                        round52_anomalies.append(('2010_ky1_passage_cloze', p.get('type'), len(c.split())))
+                elif so == 2:
+                    # Text 1
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or len(c.split()) < 400 or 'Cardus' not in c:
+                        round52_anomalies.append(('2010_ky1_passage_t1', p.get('type'), p.get('passage_number')))
+                elif so == 3:
+                    # Text 2
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or len(c.split()) < 400 or 'Bilski' not in c:
+                        round52_anomalies.append(('2010_ky1_passage_t2', p.get('type'), p.get('passage_number')))
+                elif so == 4:
+                    # Text 3
+                    if p.get('type') != 'reading' or p.get('passage_number') != 3 or len(c.split()) < 400 or 'The Tipping Point' not in c:
+                        round52_anomalies.append(('2010_ky1_passage_t3', p.get('type'), p.get('passage_number')))
+                elif so == 5:
+                    # Text 4
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or len(c.split()) < 400 or 'standard-setters' not in c:
+                        round52_anomalies.append(('2010_ky1_passage_t4', p.get('type'), p.get('passage_number')))
+                elif so == 6:
+                    # Part B
+                    if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or '[A]' not in c or '[G]' not in c:
+                        round52_anomalies.append(('2010_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
+
 
 
 
@@ -2351,6 +2429,7 @@ def main():
     results["Assertion 71: 2007 年真题 Use of English + Text 1-4 黄金重构，Text 3 首部截断彻底补齐，碎词倒灌消除，Q31-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round49_anomalies) == 0)
     results["Assertion 72: 2008 年真题 Use of English + Text 1-4 黄金重构，Text 3 严重腰斩彻底补齐446词，Text 1 补齐遗漏句，Text 4 错位解开与试题选项法医级校准 100% 官方黄金校准"] = (len(round50_anomalies) == 0)
     results["Assertion 73: 2009 年真题 Use of English + Text 1-4 + Part B 全卷黄金重构，Q29 截断题干补全，Q14 真实选项(for instance)纠偏，完型与新题型精解彻底提纯 100% 官方黄金校准"] = (len(round51_anomalies) == 0)
+    results["Assertion 74: 2010 年双轨开山 Use of English + Text 1-4 + Part B 全卷黄金重构，Q1-Q45 题号/分值自洽，Q21-Q40 精准定位补全与三段论精解提纯 100% 官方黄金校准"] = (len(round52_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -2466,6 +2545,8 @@ def main():
             print(f"Round 50 anomalies ({len(round50_anomalies)}):", round50_anomalies[:10])
         if round51_anomalies:
             print(f"Round 51 anomalies ({len(round51_anomalies)}):", round51_anomalies[:10])
+        if round52_anomalies:
+            print(f"Round 52 anomalies ({len(round52_anomalies)}):", round52_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
