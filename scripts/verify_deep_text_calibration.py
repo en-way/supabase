@@ -148,6 +148,7 @@ def main():
     round48_anomalies = []
     round49_anomalies = []
     round50_anomalies = []
+    round51_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -676,10 +677,10 @@ def main():
                         round22_anomalies.append(('2008_ky1_q40', ans, expl[:40]))
             if yr == 2009 and cat == 'ky1':
                 if so == 29:
-                    if stem != 'In the last paragraph, a problem commercial genetic testing faces is' or ans != 'A' or expl.startswith('29.'):
+                    if stem not in ['In the last paragraph, a problem commercial genetic testing faces is', 'In the last paragraph, a problem commercial genetic testing faces is ________.'] or ans != 'A' or expl.startswith('29.'):
                         round22_anomalies.append(('2009_ky1_q29', stem, ans, expl[:30]))
                 elif so == 30:
-                    if stem != 'An appropriate title for the text is most likely to be' or ans != 'B' or expl.startswith('30 . . .'):
+                    if stem not in ['An appropriate title for the text is most likely to be', 'An appropriate title for the text is most likely to be ________.'] or ans != 'B' or expl.startswith('30 . . .'):
                         round22_anomalies.append(('2009_ky1_q30', stem, ans, expl[:30]))
             if yr == 2010 and cat == 'ky1' and so == 45:
                 if '42. 本题考核的知识点是' in expl:
@@ -916,10 +917,10 @@ def main():
                         round22_anomalies.append(('2008_ky1_q40', ans, expl[:40]))
             if yr == 2009 and cat == 'ky1':
                 if so == 29:
-                    if stem != 'In the last paragraph, a problem commercial genetic testing faces is' or ans != 'A' or expl.startswith('29.'):
+                    if stem not in ['In the last paragraph, a problem commercial genetic testing faces is', 'In the last paragraph, a problem commercial genetic testing faces is ________.'] or ans != 'A' or expl.startswith('29.'):
                         round22_anomalies.append(('2009_ky1_q29', stem, ans, expl[:30]))
                 elif so == 30:
-                    if stem != 'An appropriate title for the text is most likely to be' or ans != 'B' or expl.startswith('30 . . .'):
+                    if stem not in ['An appropriate title for the text is most likely to be', 'An appropriate title for the text is most likely to be ________.'] or ans != 'B' or expl.startswith('30 . . .'):
                         round22_anomalies.append(('2009_ky1_q30', stem, ans, expl[:30]))
             if yr == 2010 and cat == 'ky1' and so == 45:
                 if '42. 本题考核的知识点是' in expl:
@@ -1976,6 +1977,69 @@ def main():
                     if not expl.startswith('［精准定位］'):
                         round50_anomalies.append((f'2008_ky1_q{so}_part_b_expl', expl[:40]))
 
+            # Check Round 51: 2009 ky1 Questions (Q1-Q45)
+            if yr == 2009 and cat == 'ky1':
+                if q.get('question_number') != so:
+                    round51_anomalies.append((f'2009_ky1_q{so}_missing_qnum', q.get('question_number')))
+                
+                # Cloze Q1-Q20
+                if 1 <= so <= 20:
+                    cloze_answers = ['B', 'A', 'D', 'B', 'C', 'A', 'D', 'C', 'B', 'D', 'D', 'B', 'C', 'D', 'A', 'C', 'B', 'A', 'A', 'C']
+                    exp_ans = cloze_answers[so - 1]
+                    if stem != f"Choose the best option for blank [{so}] in the passage:":
+                        round51_anomalies.append((f'2009_ky1_cloze_q{so}_stem', stem))
+                    if ans != exp_ans:
+                        round51_anomalies.append((f'2009_ky1_cloze_q{so}_ans', ans, exp_ans))
+                    if not expl.startswith('［考点提炼］'):
+                        round51_anomalies.append((f'2009_ky1_cloze_q{so}_expl_start', expl[:40]))
+                    if so == 2 and 'tended (to do)' not in opt_map.get('A', ''):
+                        round51_anomalies.append(('2009_ky1_q2_opt_A', opt_map.get('A')))
+                    if so == 14 and opt_map.get('D') != 'for instance':
+                        round51_anomalies.append(('2009_ky1_q14_opt_D', opt_map.get('D')))
+                    if so == 19 and opt_map.get('B') != 'comprehensive':
+                        round51_anomalies.append(('2009_ky1_q19_opt_B', opt_map.get('B')))
+                    if so == 20 and opt_map.get('A') != 'By accident':
+                        round51_anomalies.append(('2009_ky1_q20_opt_A', opt_map.get('A')))
+
+                # Reading Q21-Q40
+                elif 21 <= so <= 40:
+                    reading_answers = {
+                        21: 'C', 22: 'D', 23: 'A', 24: 'D', 25: 'A',
+                        26: 'A', 27: 'C', 28: 'D', 29: 'A', 30: 'B',
+                        31: 'D', 32: 'B', 33: 'B', 34: 'C', 35: 'C',
+                        36: 'B', 37: 'B', 38: 'D', 39: 'A', 40: 'C'
+                    }
+                    if ans != reading_answers[so]:
+                        round51_anomalies.append((f'2009_ky1_q{so}_reading_ans', ans, reading_answers[so]))
+                    if not (stem.endswith('________.') or stem.endswith('?')):
+                        round51_anomalies.append((f'2009_ky1_q{so}_reading_stem_end', stem))
+                    if not expl.startswith('［精准定位］'):
+                        round51_anomalies.append((f'2009_ky1_q{so}_reading_expl_start', expl[:40]))
+                    if '［命题解密］' not in expl:
+                        round51_anomalies.append((f'2009_ky1_q{so}_reading_expl_decrypt', expl[:40]))
+                    if so == 29:
+                        if stem != "In the last paragraph, a problem commercial genetic testing faces is ________.":
+                            round51_anomalies.append(('2009_ky1_q29_stem', stem))
+                        if opt_map.get('A') != 'disorganized data collection':
+                            round51_anomalies.append(('2009_ky1_q29_opt_A', opt_map.get('A')))
+                    if so == 30:
+                        if stem != "An appropriate title for the text is most likely to be ________.":
+                            round51_anomalies.append(('2009_ky1_q30_stem', stem))
+                        if opt_map.get('B') != 'DNA Testing and Its Problems':
+                            round51_anomalies.append(('2009_ky1_q30_opt_B', opt_map.get('B')))
+
+                # Part B Q41-Q45
+                elif 41 <= so <= 45:
+                    part_b_answers = {41: 'C', 42: 'E', 43: 'A', 44: 'B', 45: 'G'}
+                    if stem != f"Choose the best paragraph [A]-[G] that fits into gap ({so}):":
+                        round51_anomalies.append((f'2009_ky1_q{so}_part_b_stem', stem))
+                    if ans != part_b_answers[so]:
+                        round51_anomalies.append((f'2009_ky1_q{so}_part_b_ans', ans, part_b_answers[so]))
+                    if len(q.get('options', [])) != 7:
+                        round51_anomalies.append((f'2009_ky1_q{so}_part_b_opts_len', len(q.get('options', []))))
+                    if '民主与教育' in expl or '广义的教育' in expl:
+                        round51_anomalies.append((f'2009_ky1_q{so}_part_b_leak', expl[-50:]))
+
 
 
 
@@ -2152,6 +2216,33 @@ def main():
                     if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or '[41]' not in c:
                         round50_anomalies.append(('2008_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
 
+            # Check Round 51: 2009 ky1 Passages (Passages 0-5)
+            if yr == 2009 and cat == 'ky1':
+                if so == 1:
+                    # Cloze
+                    if p.get('type') != 'cloze' or p.get('passage_number') != 1 or c.count('\n\n') + 1 != 4 or len(c.split()) < 270 or 'fruit-fly experiments' not in c or not c.endswith('results are inconclusive.'):
+                        round51_anomalies.append(('2009_ky1_passage_cloze', p.get('type'), len(c.split())))
+                elif so == 2:
+                    # Text 1
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or c.count('\n\n') + 1 != 7 or len(c.split()) < 400 or not c.startswith('Habits are a funny thing.') or not c.endswith('developing new habits comes in.'):
+                        round51_anomalies.append(('2009_ky1_passage_t1', p.get('type'), p.get('passage_number')))
+                elif so == 3:
+                    # Text 2
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or c.count('\n\n') + 1 != 6 or len(c.split()) < 390 or not c.startswith('It is a wise father that knows his own child') or not c.endswith('outside evaluation.'):
+                        round51_anomalies.append(('2009_ky1_passage_t2', p.get('type'), p.get('passage_number')))
+                elif so == 4:
+                    # Text 3
+                    if p.get('type') != 'reading' or p.get('passage_number') != 3 or c.count('\n\n') + 1 != 5 or len(c.split()) < 430 or not c.startswith('The relationship between formal education and economic growth') or not c.endswith("developing more quickly there than it is."):
+                        round51_anomalies.append(('2009_ky1_passage_t3', p.get('type'), p.get('passage_number')))
+                elif so == 5:
+                    # Text 4
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or c.count('\n\n') + 1 != 5 or len(c.split()) < 400 or not c.startswith('The most thoroughly studied intellectuals in the history of the New World') or not c.endswith('"Our main end was to catch fish."'):
+                        round51_anomalies.append(('2009_ky1_passage_t4', p.get('type'), p.get('passage_number')))
+                elif so == 6:
+                    # Part B
+                    if p.get('type') != 'reading_part_b' or p.get('passage_number') != 5 or c.count('\n\n') + 1 != 7 or not c.startswith('19th and 20th Century Theories of Cultural Anthropology') or '[41]' not in c or '[45]' not in c:
+                        round51_anomalies.append(('2009_ky1_passage_part_b', p.get('type'), p.get('passage_number')))
+
 
 
 
@@ -2259,6 +2350,7 @@ def main():
     results["Assertion 70: 2006 年真题 Use of English + Text 1-4 黄金重构，严重腰斩/碎词/截断/双向跨篇倒灌彻底消除，Q14/15/16 选项提纯，Q21-Q39 题干下划线规范化与解析彻底提纯 100% 官方黄金校准"] = (len(round48_anomalies) == 0)
     results["Assertion 71: 2007 年真题 Use of English + Text 1-4 黄金重构，Text 3 首部截断彻底补齐，碎词倒灌消除，Q31-Q40 题干下划线规范化与解析提纯 100% 官方黄金校准"] = (len(round49_anomalies) == 0)
     results["Assertion 72: 2008 年真题 Use of English + Text 1-4 黄金重构，Text 3 严重腰斩彻底补齐446词，Text 1 补齐遗漏句，Text 4 错位解开与试题选项法医级校准 100% 官方黄金校准"] = (len(round50_anomalies) == 0)
+    results["Assertion 73: 2009 年真题 Use of English + Text 1-4 + Part B 全卷黄金重构，Q29 截断题干补全，Q14 真实选项(for instance)纠偏，完型与新题型精解彻底提纯 100% 官方黄金校准"] = (len(round51_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -2372,6 +2464,8 @@ def main():
             print(f"Round 49 anomalies ({len(round49_anomalies)}):", round49_anomalies[:10])
         if round50_anomalies:
             print(f"Round 50 anomalies ({len(round50_anomalies)}):", round50_anomalies[:10])
+        if round51_anomalies:
+            print(f"Round 51 anomalies ({len(round51_anomalies)}):", round51_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
