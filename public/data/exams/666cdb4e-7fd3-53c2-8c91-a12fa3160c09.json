@@ -2,12 +2,12 @@
   "exam": {
     "id": "666cdb4e-7fd3-53c2-8c91-a12fa3160c09",
     "category_id": "ky1",
-    "title": "2016年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2016年全国硕士研究生招生考试英语（一）真题",
     "year": 2016,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -30,8 +30,10 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "In Cambodia, the choice of a spouse is a complex one for the young male. It may involve not only his parents and his friends, [1] those of the young woman, but also a matchmaker. A young man can [2] a likely spouse on his own and then ask his parents to [3] the marriage negotiations, or the young man's parents may make the choice of a spouse, giving the child little to say in the selection. 0 [4], a girl may veto the spouse her parents have chosen. [5] a spouse has been selected each family investigates the other to make sure its child is marrying [6] a good family. The traditional wedding is a long and colorful affair. Formerly it lasted three days, [7] by the 1980s it more commonly lasted a day and a half. Buddhist priests offer a short sermon and [8] prayers of blessing. Parts of the ceremony involve [9] cotton threads around the bride's and groom's wrists, and [10] a candle around a circle of happily married and respected couples to bless the [11] union. Newlyweds traditionally move in with the wife's parents and may [12] with them up to a year? [13] they can build a new house nearby. Divorce is legal and easy to [14], but not comm on. Divorced persons are [15] with some disapproval. Each spouse retains [16] property he or she [17] into the marriage, and jointly-acquired property is [18] equally. Divorced persons may remarry, but a gender prejudice [19] up: The divorced male doesn't have a waiting period before he can remarry [20] the woman must wait ten months.",
-      "sort_order": 1
+      "content": "In Cambodia, the choice of a spouse is a complex one for the young male. It may involve not only his parents and his friends, [1] those of the young woman, but also a matchmaker. A young man can [2] a likely spouse on his own and then ask his parents to [3] the marriage negotiations, or the young man's parents may make the choice of a spouse, giving the child little to say in the selection. [4], a girl may veto the spouse her parents have chosen. [5] a spouse has been selected, each family investigates the other to make sure its child is marrying [6] a good family.\n\nThe traditional wedding is a long and colorful affair. Formerly it lasted three days, [7] by the 1980s it more commonly lasted a day and a half. Buddhist priests offer a short sermon and [8] prayers of blessing. Parts of the ceremony involve ritual hair cutting, [9] cotton threads soaked in holy water around the bride's and groom's wrists, and [10] a candle around a circle of happily married and respected couples to bless the [11]. Newlyweds traditionally move in with the wife's parents and may [12] with them up to a year, [13] they can build a new house nearby.\n\nDivorce is legal and easy to [14], but not common. Divorced persons are [15] with some disapproval. Each spouse retains [16] property he or she [17] into the marriage, and jointly-acquired property is [18] equally. Divorced persons may remarry, but a gender prejudice [19] up: The divorced male doesn't have a waiting period before he can remarry [20] the woman must wait ten months.",
+      "sort_order": 1,
+      "passage_type": "cloze",
+      "order_index": 0
     },
     {
       "id": "6e13f945-c380-5a7c-b353-ce745281e578",
@@ -39,8 +41,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "France 9 which prides itself as the global innovator of fashion, has decided its fashion industry has lost an absolute right to define physical beauty for women. Its lawmakers gave preliminary approval last week to a law that would make it a crime to employ ultra-thin models on runways. The parliament also agreed to ban websites that \"incite excessive thinness\" by promoting extreme dieting. an absolute right to define physical beauty for women.\n\nSuch measures have a couple of uplifting motives. They suggest beauty should not be defined by looks that end up impinging on health. That's a start. O And the ban on ultra-thin models seems to go beyond protecting models from starving themselves to death — as some have done. It tells the fashion industry that it must take responsibility for the signal it sends women, especially teenage girls, about the social tape-measure they must use to determine their individual worth. a couple of uplifting motiveso\n\n. The phrase <cimpinging on\" (Line 2, Para. 2) is closest in meaning to. The bans, if fully enforced, would suggest to women (and many men) that they should not let others be arbiters of their beauty. And perhaps faintly, they hint that people should look to intangible'\" qualities like character and intellect rather than dieting their way to size zero or wasp-waist physiques. rather than dieting their way to size zero or wasp-waist physiques.\n\nThe French measures, however, rely too much on severe punishment to change a culture that still regards beauty as skin-deep-and bone-showing. Under the law, using a fashion model that does not meet a government-defined index of body mass could result in a $ 85,000 fine and six months in prison. \n\nThe fashion industry knows it has an inherent\" problem in focusing on material adornment and idealized body types. In Denmark, the United States, and a few other countries, it is trying to set voluntary standards for models and fashion images that rely more on peer pressure for enforcement.\n\nn contrast to France's actions, Denmark's fashion industry agreed last month on rules and sanctions regarding the age, health, and other characteristics of models. The newly revised Danish Fashion Ethical Charter clearly states: \"We are aware of and take responsibility for the impact the fashion industry has on body ideals, especially on young people. The charter's main tool of enforcement is to deny access for designers and modeling agencies to Copenhagen Fashion Week (CFW), which is run by the Danish Fashion Institute. But in general it relies on a name-and-shame method of compliance.",
-      "sort_order": 2
+      "content": "France, which prides itself as the global innovator of fashion, has decided its fashion industry has lost an absolute right to define physical beauty for women. Its lawmakers gave preliminary approval last week to a law that would make it a crime to employ ultra-thin models on runways. The parliament also agreed to ban websites that \"incite excessive thinness\" by promoting extreme dieting.\n\nSuch measures have a couple of uplifting motives. They suggest beauty should not be defined by looks that end up impinging on health. That's a start. And the ban on ultra-thin models seems to go beyond protecting models from starving themselves to death - as some have done. It tells the fashion industry that it must take responsibility for the signal it sends women, especially teenage girls, about the social tape-measure they must use to determine their individual worth.\n\nThe bans, if fully enforced, would suggest to women (and many men) that they should not let others be arbiters of their beauty. And perhaps faintly, they hint that people should look to intangible qualities like character and intellect rather than dieting their way to size zero or wasp-waist physiques.\n\nThe French measures, however, rely too much on severe punishment to change a culture that still regards beauty as skin-deep-and bone-showing. Under the law, using a fashion model that does not meet a government-defined index of body mass could result in a $85,000 fine and six months in prison.\n\nThe fashion industry knows it has an inherent problem in focusing on material adornment and idealized body types. In Denmark, the United States, and a few other countries, it is trying to set voluntary standards for models and fashion images that rely more on peer pressure for enforcement.\n\nIn contrast to France's actions, Denmark's fashion industry agreed last month on rules and sanctions regarding the age, health, and other characteristics of models. The newly revised Danish Fashion Ethical Charter clearly states: \"We are aware of and take responsibility for the impact the fashion industry has on body ideals, especially on young people.\" The charter's main tool of enforcement is to deny access for designers and modeling agencies to Copenhagen Fashion Week (CFW), which is run by the Danish Fashion Institute. But in general it relies on a name-and-shame method of compliance.\n\nRelying on ethical persuasion rather than law to address the misuse of body ideals may be the best step. Even better would be to help elevate notions of beauty beyond the material standards of a particular industry.",
+      "sort_order": 2,
+      "passage_type": "reading",
+      "order_index": 1
     },
     {
       "id": "af81ac59-4a6d-5723-ac8a-59d23766582d",
@@ -48,8 +52,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "For the first time in history more people live in towns than in the country. In Britain this has had a curious result. While polls show Britons rate \" the countryside\" alongside the royal family, Shakespeare and the National Health Service (NHS) as what makes them proudest of their country, this has limited political support. Service (NHS) as.... While polls showT this has limited political support.\n\nA century ago Octavia Hill launched the National Trust not to rescue stylish houses but to save \"the beauty of natural places for everyone forever. ” It was specifically to provide city dwellers with spaces for leisure where they could experience \" a refreshing air.\" Hill's pressure later led to the creation of national parks and green belts. They don't make countryside any more, and every year concrete consumes more of it, It needs constant guardianship.\n\n. According to Paragraph 2, the achievements of the National Trust are now being. At the next election none of the big parties seem likely to endorse this sentiment. 0 The Conservatives' planning reform explicitly gives rural development priority over conservation, even authorizing **off-plan,, building where local people might object. The concept of sustainable development has been defined as profitable. Labour likewise* wants to discontinue local planning where councils oppose development. The Liberal Democrats are silent. Only Ukip, sensing its chance, has sided with those pleading for a more considered approach to using green land. Its Campaign to Protect Rural England struck terror into many local Conservative parties. authorizing \"off-plan” building where local people might object.\n\nThe sensible place to build new houses, factories and offices is where people are, in cities and towns where infrastructure' is in place. The London agents Stirling Ackroyd recently identified enough sites for half a million houses in the London area alone, with no intrusion' on green belt. What is true of London is even truer of the provinces.\n\nThe idea that ** housing crisis ” equals w concreted meadows n is pure lobby talk. The issue is not the need for more houses but, as always, where to put them. Under lobby pressure, George Osborne favours rural new-build against urban renovation and renewal. He favours out-of-town'- shopping sites against high streets. This is not a free market but a biased one. Rural towns and villages have grown and will always grow. They do so best where building sticks to their edges and respects their character. We do not ruin urban conservation areas. Why ruin rural ones?\n\nevelopment should be planned, not let rip. After the Netherlands, Britain is Europe's most crowded country. Half a century of town and country planning has enabled it to retain\" an enviable rural coherence, while still permitting low-density urban living. There is no doubt of the alternative—the corrupted landscapes of southern Portugal, Spain or Ireland. Avoiding this rather than promoting it should unite the left and right of the political spectrum.",
-      "sort_order": 3
+      "content": "For the first time in history more people live in towns than in the country. In Britain this has had a curious result. While polls show Britons rate \"the countryside\" alongside the royal family, Shakespeare and the National Health Service (NHS) as what makes them proudest of their country, this has limited political support.\n\nA century ago Octavia Hill launched the National Trust not to rescue stylish houses but to save \"the beauty of natural places for everyone forever.\" It was specifically to provide city dwellers with spaces for leisure where they could experience \"a refreshing air.\" Hill's pressure later led to the creation of national parks and green belts. They don't make countryside any less a charity for the public good. It is endangered by annual increments of development, in particular the spread of suburban sprawl and what is called \"infill\" - the filling in of urban green space. And the country's population continues to grow. As every town expands and consumes more of it, it needs constant guardianship.\n\nAt the next election none of the big parties seem likely to endorse this sentiment. The Conservatives' planning reform explicitly gives rural development priority over conservation, even authorizing \"off-plan\" building where local people might object. The concept of sustainable development has been defined as profitable. Labour likewise wants to discontinue local planning where councils oppose development. The Liberal Democrats are silent. Only Ukip, sensing its chance, has sided with those pleading for a more considered approach to using green land. Its Campaign to Protect Rural England struck terror into many local Conservative parties.\n\nThe sensible place to build new houses, factories and offices is where people are, in cities and towns where infrastructure is in place. The London agents Stirling Ackroyd recently identified enough sites for half a million houses in the London area alone, with no intrusion on green belt. What is true of London is even truer of the provinces.\n\nThe idea that \"housing crisis\" equals \"concreted meadows\" is pure lobby talk. The issue is not the need for more houses but, as always, where to put them. Under lobby pressure, George Osborne favours rural new-build against urban renovation and renewal. He favours out-of-town shopping sites against high streets. This is not a free market but a biased one. Rural towns and villages have grown and will always grow. They do so best where building sticks to their edges and respects their character. We do not need to ruin urban conservation areas. Why ruin rural ones?\n\nDevelopment should be planned, not let rip. After the Netherlands, Britain is Europe's most crowded country. Half a century of town and country planning has enabled it to retain an enviable rural coherence, while still permitting low-density urban living. There is no doubt of the alternative - the ribbon development and fragmented sprawl of the 1930s. The countryside had to be defended then. It must be defended now, if only for the great and growing numbers who love it so that it is considered a national treasure. It should unite the left and right of the political spectrum.",
+      "sort_order": 3,
+      "passage_type": "reading",
+      "order_index": 2
     },
     {
       "id": "b7255c52-e45b-5bd7-b28a-53b3e6cdec17",
@@ -57,8 +63,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "“There is one and only one social responsibility of business,\" wrote Milton Friedman, a Nobel Prize winning economist, \"That is, to use its resources and engage in activities designed to increase its profits. w But even if you accept Friedman's premise and regard corporate social responsibility (CSR) policies as a waste of shareholders' money, things may not be absolutely cleaicut. New research suggests that CSR may create monetary value for companies—at least when they are prosecuted for corruption..\n\nThe largest firms in America and Britain together spend more than $ 15 billion a year on CSR, according to an estimate by EPG, a consulting firm. This could add value to their businesses in three ways. First, consumers may take. CSR spending as a \"signal” that a company's products are of high quality. O Second, customers may be willing to buy a company's products as an indirect way to donate to the good causes it helps. And third, through a more diffuse u halo effect ” whereby its good deeds earn it greater consideration' from consumers and others. causes it helps.\n\nPrevious studies on CSR have had trouble differentiating these effects because consumers can be affected by all three. A recent study attempts to separate them by looking at bribery prosecutions under American's Foreign Corrupt Practices Act (FCPA).\n\nThe study found that, among prosecuted firms, those with the most comprehensive |J CSR programmes tended to get more lenient penalties. Their analysis ruled out the possibility that it was firm's political influence, rather than their CSR stand, that accounted for the leniency: Companies that contributed more to political campaigns did not receive lower fines. receive lower fines.:Companies did not receive lower fines.\n\nn all, the study concludes that whereas prosecutors should only evaluate a case based on its merits, they do seem to be influenced by a company's record in CSR.\"We estimate that either eliminating a substantial labour-rights concern, such as child labour, or increasing corporate giving by about 20% result in fines that generally are 40% lower than the typical punishment for bribing foreign officials,w says one researcher. punishment for bribing foreign officials. We estimate < record in CSRO\n\nResearchers admit that their study does not answer the question of how much businesses ought to spend on CSR. Nor does it reveal how much companies are banking on the halo effect, rather than the other possible benefits, when they decide their do-gooding policies. But at least they have demonstrated that when companies get into trouble with the law, evidence of good character can win them a less costly punishment.",
-      "sort_order": 4
+      "content": "\"There is one and only one social responsibility of business,\" wrote Milton Friedman, a Nobel Prize-winning economist, \"that is, to use its resources and engage in activities designed to increase its profits.\" But even if you accept Friedman's premise and regard corporate social responsibility (CSR) policies as a waste of shareholders' money, things may not be absolutely clear-cut. New research suggests that CSR may create monetary value for companies - at least when they are prosecuted for corruption.\n\nThe largest firms in America and Britain together spend more than $15 billion a year on CSR, according to an estimate by EPG, a consulting firm. This could add value to their businesses in three ways. First, consumers may take CSR spending as a \"signal\" that a company's products are of high quality. Second, customers may be willing to buy a company's products as an indirect way to donate to the good causes it helps. And third, through a more diffuse \"halo effect,\" CSR may earn a company greater respect from both consumers and others.\n\nPrevious studies on CSR have had trouble differentiating these effects because consumers can be affected by all three. A recent study attempts to separate them by looking at bribery prosecutions under America's Foreign Corrupt Practices Act (FCPA).\n\nThe study found that, among prosecuted firms, those with the most comprehensive CSR programmes tended to get more lenient penalties. Their analysis ruled out the possibility that it was firms' political influence, rather than their CSR stand, that accounted for the leniency: Companies that contributed more to political campaigns did not receive lower fines.\n\nIn all, the study concludes that whereas prosecutors should only evaluate a case based on its merits, they do seem to be influenced by a company's record in CSR. \"We estimate that either eliminating a substantial labour-rights concern, such as child labour, or increasing corporate giving by about 20% results in fines that generally are 40% lower than the typical punishment for bribing foreign officials,\" says one researcher.\n\nResearchers admit that their study does not answer the question of how much businesses ought to spend on CSR. Nor does it reveal how much companies are banking on the halo effect, rather than the other possible benefits, when they decide their CSR budgets. What it does show is that online reputation management may not be enough: When companies get into serious legal trouble, having built up a reservoir of good character can win them a less costly punishment.",
+      "sort_order": 4,
+      "passage_type": "reading",
+      "order_index": 3
     },
     {
       "id": "2c619eac-7752-5443-86a8-608d752b3c82",
@@ -66,8 +74,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "There will eventually come a day when The New York Times ceases to publish stories on newsprint. Exactly when that day will be is a matter of debate. \"Sometime in the future,\" the paper's publisher said back in 2010.\n\nNostalgia for ink on paper and the rustle of pages aside, there's plenty of incentive to ditch print. The infrastructure required to make a physical newspaper—printing presses, delivery trucks—isn't just expensive; it's excessive at a time when online-only competitors don't have the same set of financial constraints. Readers are migrating away from print anyway. And though print ad sales still dwarf their online and mobile counterparts, revenue from print is still declining.\n\nOverhead may be high and circulation lower, but rushing to eliminate its print edition would be a mistake, says BuzzFeed CEO Jonah Peretti.\n\nPeretti says the Times shouldn't waste time getting out of the print business, but only if they go about doing it the right way. \"Figuring out a way to accelerate that transition would make sense for them,\" he said, \"but if you discontinue it, you're going to have your most loyal customers really upset with you.\"\n\nSometimes that's worth making a change anyway. Peretti gives the example of Netflix discontinuing its DVD-mailing service to focus on streaming. \"It was seen as a blunder,\" he said. The move turned out to be foresighted. And if Peretti were in charge at the Times? \"I wouldn't pick a year to end print,\" he said, \"I would raise prices and make it into more of a legacy product.\"\n\nThe most loyal customers would still get the product they favor, the idea goes, and they'd feel like they were helping sustain the quality of something they believe in. \"So if you're overpaying for print, you could feel like you were helping,\" Peretti said. \"Then increase it at a higher rate each year and essentially try to generate additional revenue.\" In other words, if you're going to make a print product, make it for the people who are already obsessed with it. Which may be what the Times is doing already. Getting the print edition seven days a week costs nearly $500 a year—more than twice as much as a digital-only subscription.\n\n\"It's a really hard thing to do and it's a tremendous luxury that BuzzFeed doesn't have a legacy business,\" Peretti remarked. \"But we're going to have questions like that where we have things we're doing that don't make sense when the market changes and the world changes. In those situations, it's better to be more aggressive than less aggressive.\"",
-      "sort_order": 5
+      "content": "There will eventually come a day when The New York Times ceases to publish stories on newsprint. Exactly when that day will be is a matter of debate. \"Sometime in the future,\" the paper's publisher said back in 2010.\n\nNostalgia for ink on paper and the rustle of pages aside, there's plenty of incentive to ditch print. The infrastructure required to make a physical newspaper - printing presses, delivery trucks - isn't just expensive; it's excessive at a time when online-only competitors don't have the same set of financial constraints. Readers are migrating away from print anyway. And though print ad sales continue to dwarf their online and mobile counterparts, revenue from print is still declining.\n\nOverhead may be high and circulation lower, but rushing to eliminate its print edition would be a mistake, says BuzzFeed CEO Jonah Peretti.\n\nPeretti says the Times shouldn't waste time getting out of the print business, but only if they go about doing it the right way. \"Figuring out a way to accelerate that transition would make sense for them,\" he said, \"but if you discontinue it, you're going to have your most loyal customers really upset with you.\"\n\nSometimes that's worth making a change anyway. Peretti gives the example of Netflix moving away from DVDs in favor of streaming, which was seen as a blunder at the time but turned out to be foresighted. But Netflix was offering a better alternative and can't be compared to what when the Times discontinue print. \"You can't do that with the Times, but you can raise prices and make it into more of a legacy product.\"\n\nThe most loyal customers would still get the product they favor, the idea goes, and they'd feel like they were helping sustain the quality of something they believe in. \"So if you're overpaying for print, you could feel like you were helping,\" Peretti said. \"Then increase it at a higher rate each year and essentially make it generate more revenue.\" In other words, look at print as a luxury, and make it for the people who are already obsessed with it. Which may be what the Times is doing, given that a home-delivery subscription was recently bumped to $8.60 a week, or more than twice as much as a digital-only subscription.\n\n\"It's a really hard thing to do and it's a tremendous luxury that BuzzFeed doesn't have a legacy business,\" Peretti remarked. \"But we're going to have questions like that where we have things we're doing that don't make sense when the market changes and the world changes. In those situations, it's better to be more aggressive than less aggressive.\"",
+      "sort_order": 5,
+      "passage_type": "reading",
+      "order_index": 4
     },
     {
       "id": "0599eef5-ae6e-58cf-9ef0-a7e21e5baff5",
@@ -75,8 +85,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions:\nIn the following text, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list A-G to fit into each of the numbered blanks. There are two extra choices, which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)\n\n[A] Create a new image of yourself\n[B] Have confidence in yourself\n[C] Decide if the time is right\n[D] Understand the context\n[E] Work with professionals\n[F] Know your goals\n[G] Make it efficient\n\nNo matter how formal or informal the work environment, the way you present yourself has an impact. This is especially true in first impressions. According to research from Princeton University, people assess your competence, trustworthiness, and likeability in just a tenth of a second, solely based on the way you look.\n\nThe difference between today's workplace and the \"dress for success\" era is that the range of options is so much broader. Norms have evolved and fragmented. In some settings, red sneakers or dress T-shirts can convey status; in others not so much. Plus, whatever image we present is magnified by social-media services like LinkedIn. Chances are, your headshots are seen much more often now than a decade or two ago. Millennials, it seems, face the paradox of being the least formal generation yet the most conscious of style.\n\nSo how do we navigate this? How do we know when to invest in an upgrade? And what's the best way to pull off one that enhances our goals? Here are some tips:\n\n[41] _________________________________\nAs an executive coach, I've seen image upgrades be particularly helpful during transitions—when looking for a new job, stepping into a new or more public role, or changing work environments. If you're in a period of change or just feeling stuck and in a rut, now may be a good time. If you're not sure, ask for honest feedback from trusted friends, colleagues and professionals. Look for cues about how others perceive you. Maybe there's no need for an upgrade and that's OK.\n\n[42] _________________________________\nGet clear on what impact you're hoping to have. Are you looking to refresh your image or pivot it? For one person, the goal may be to be taken more seriously and enhance their professional image. For another, it may be to be perceived as more approachable, or more modern and stylish. For someone moving from finance to advertising, maybe they want to look more \"SoHo.\" (It's OK to use characterizations like that.)\n\n[43] _________________________________\nLook at your work environment like an anthropologist. What are the norms of your environment? What conveys status? Who are your most important audiences? How do the people you respect and look up to present themselves? The better you understand the cultural context, the more control you can have over your impact.\n\n[44] _________________________________\nEnlist the support of professionals and share with them your goals and context. Hire a personal stylist, or use the free styling service of a store like J. Crew. Try a hair stylist instead of a barber. Work with a professional photographer instead of your spouse or friend. It's not as expensive as you might think.\n\n[45] _________________________________\nThe point of a style upgrade isn't to become more vain, or to spend more time fussing over what to wear. Instead, use it as an opportunity to reduce decision fatigue. Pick a standard work uniform or a few go-to options. Buy all your clothes at once with a stylist instead of shopping alone, one article of clothing at a time.",
-      "sort_order": 6
+      "content": "No matter how formal or informal the work environment, the way you present yourself has an impact. This is especially true in first impressions. According to research from Princeton University, people assess your competence, trustworthiness, and likeability in just a tenth of a second, solely based on the way you look.\n\nThe difference between today's workplace and the \"dress for success\" era is that the range of options is so much broader. Norms have evolved and fragmented. In some settings, red sneakers or dress T-shirts can convey status; in others not so much. Plus, whatever image we present is magnified by social-media services like LinkedIn. Chances are, your headshots are seen much more often now than a decade or two ago. Millennials, it seems, face the paradox of being the least formal generation yet the most conscious of style and personal branding. It can be confusing.\n\nSo how do we navigate this? How do we know when to invest in an upgrade? And what's the best way to pull off one that enhances our goals? Here are some tips:\n\n[41] _________________________________\nAs an executive coach, I've seen image upgrades be make-or-break over the years. But they don't make sense in every situation. If you're doing it simply because you're bored or you've decided to be more \"stylish,\" that's probably not a good enough reason to spend time and money on clothes. On the other hand, if you're in a period of transition - say, you've taken a new job or you're preparing for a promotion - it can be a good time to reassess your image. If it's working for you, maybe there's no need for an upgrade and that's OK.\n\n[42] _________________________________\nGet clear on what impact you're trying to achieve. Do you need to appear more authoritative, or more approachable? Does your work require you to convey confidence and competence, or creativity and innovation? As image consultant Sarah Jane Sloane puts it, you want to figure out whether you're trying to look like \"a sleek executive or a colorful bohemian or something in between.\" Once you know your goal, it's easier to create a look that aligns with it. (It's OK to use characterizations like that.)\n\n[43] _________________________________\nLook at your work environment like an anthropologist. What are the norms of your industry and company? What are senior leaders wearing? Are there specific pieces or styles that communicate credibility? A three-piece suit might make you look like a leader in one company, but alienate you in another. The better you understand your context, the more control you can have over your impact.\n\n[44] _________________________________\nEnlist the support of professionals. You don't need a whole glam squad, but consider hiring a stylist for a couple of hours or consulting a knowledgeable salesperson or friend. It's not as expensive as you might think.\n\n[45] _________________________________\nThe point of a style upgrade isn't to become more vain, or to spend more time fussing with your clothes. It's to make getting dressed easy and give you more time and mental energy for what matters. Edit down your options. Buy all your clothes at once with a stylist instead of shopping alone, one article of clothing at a time.",
+      "sort_order": 6,
+      "passage_type": "reading",
+      "order_index": 5
     }
   ],
   "questions": [
@@ -110,10 +122,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "1. [A] as well as以及；除... 之外；也 \n[B] by way of经由，经过；用作，作为\n[C] on behalf of 代表 \n[D] with regard to 关于\n[考点提炼]句内逻辑。\n[解题思路]空格所在句出现表并列关系的词组not only,.. but also...，且空格前后出现多个人物名 \n词 his parents and his friends/ those of the young woman（those 回指 parents and friends）/ a matchmaker,结合 \n首句（主题句〉“在柬埔寨，男性择偶很复杂”可以推知，②句意在说明男性择偶事宜涉及多方人物，不仅涉 \n及男方亲友、女方亲友，还涉及媒人，显然空格处应填入表并列关系的词语,[A]正确。\n[错项排除：！ [B]表示“路线经过、经由某地”或“作为……的形式/手段；为了”，其后为某地点或某事 \n物，不能体现人物间关系，且“男方亲友经由/通过女方亲友作为纽带来向女方提亲”或“男方亲友为了女 \n方亲友去提亲”与后文matchmaker存在语义重复，提亲一般是媒人的职责；[C]表示“代表（或代替）某 \n人”，首先男方亲友无法代表女方亲友，其次，能代表男女一方向另一方提亲的一般是媒人；[D] —般多用 \n于对某事物做具体说明，不能体现人物间关系，故排除。",
+      "explanation": "［考点提炼］句内并列逻辑与介词短语辨析。\n［精准定位］空格所在句：It may involve not only his parents and his friends, [1] those of the young woman, but also a matchmaker.\n［解题思路］句中出现 not only... but also... 结构，空格前后连接并列人物名词 his parents and his friends 与 those of the young woman（指代女方的父母朋友）。[A] as well as 意为“以及，除……之外也”，与 not only 构成自然补充并列，符合文意。\n［错项排除］[B] by way of 意为“经由，作为”；[C] on behalf of 意为“代表”；[D] with regard to 意为“关于”，均无法表示并列关系。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e03210a0-b170-5311-8767-226d6b62aa01",
@@ -145,10 +160,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "2. ［A］ adapt to 适应 ［B］ provide for 供养，抚养 ［C］ compete with 与... 竞争 ［D］ decide on 决定；选定\n［考点提炼］句内语义+动词词组语义辨析。\n［解题思路］空格所在的③句实为由并列连词or连接的两个分句，or后面的句子从男方父母的角度(the young man's parents)指出父母替孩子选择配偶(may make the choice of a spouse) ,or 前面的句子则从男方本人角度(A young man)指出男方自主(on his own)选择配偶，因此不难推知______ a likely spouse 与 make the choice of a spouse 近义，空格处应表达\"选择\"的语义，［D］意为 to choose sth from a number of possibilities,符合文意。",
+      "explanation": "［考点提炼］动词短语语义辨析与上下文线索。\n［精准定位］空格所在句：A young man can [2] a likely spouse on his own and then ask his parents to [3] the marriage negotiations, or the young man's parents may make the choice of a spouse...\n［解题思路］or 后面并列分句表示父母替孩子做选择（make the choice of a spouse），与前面分句年轻男子自己（on his own）选择配偶形成并列对应，[D] decide on 意为“选定，决定”，与 make the choice 语义契合。\n［错项排除］[A] adapt to 意为“适应”；[B] provide for 意为“抚养，供养”；[C] compete with 意为“与……竞争”，均不符合语境。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "f78beced-c615-5859-a943-8c68bc5fd7a6",
@@ -180,10 +198,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "3. ［A］ renew重新开始；继续 \n［B］ close终止，结束\n［C］ arrange安排，筹划，准备 \n［D］ postpone延迟，推迟\n［考点提炼］句内语义+动词语义辨析。\n［解题思路］空格所在句中and then表动作或行为顺接，其前指岀男性自主选择对象,之后要求他的 \n父母______ 提亲。依据顺滑逻辑原则，男性选好对象后自然会要求父母安排提亲，让美好的姻缘转变为\n婚姻。［C］ arrange符合文意。\n［错项排除］［A］指某事中止之后再重新开始，但提亲事宜在此之前并未发生过，故“重新开始”无从 \n谈起；［B］和［D］(结束/延迟提亲)反向干扰，既然年轻男性已经选定配偶，必然不会终止或推迟姻缘，这 \n与其期盼娶到心仪之人的心情显然相悖。\n\n【选项释义与词汇辨析】\n[A] renew: 重新开始；继续\n[B] close: 终止，结束\n[C] arrange: 安排，筹划，准备\n[D] postpone: 延迟，推迟",
+      "explanation": "［考点提炼］句内动作顺承与动词辨析。\n［精准定位］空格所在句：...and then ask his parents to [3] the marriage negotiations...\n［解题思路］and then 表示动作承接。年轻男子自己选定意中人之后，请求父母“安排/筹办”提亲议婚事宜。[C] arrange 意为“安排，筹划”，完全符合婚礼礼仪流程。\n［错项排除］[A] renew 意为“重新开始”；[B] close 意为“结束”；[D] postpone 意为“推迟”，均与求婚提亲的语境相悖。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "08a6f347-2e80-5e75-b4a3-a92335afb48c",
@@ -215,10 +236,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "4. ［A］ In theory理论上 \n［B］ In time及时；最后，终于\n［C］ Above all 最重要的是 \n［D］ For example 例如\n［考点提炼］句际逻辑关系。\n［解题思路］空格上文③句指出，倘若年轻男性的父母为其选择配偶，那么年轻男性对于这一选择 \n过程基本没有发言权。空格句指出，______ ，女孩可以否决父母为其选择的配偶。两句间为反向对比关\n系或同向并列关系，即男性没有发言权VS女性有否决权或男性女性都没有发言权。［A］ In theory表示 \n“某事在理论上成立，但现实情况可能不会发生”，表示女孩否决父母为其选择的配偶的可能性只能在理 \n论上成立，现实中的可能性很小，恰与上句共同表明男女双方对父母所选择的配偶基本没有否决权，暗 \n含父母包办婚姻的可能性，符合文意。\n［错项排除］［B］表示事情的发展结果或“及时做某事”，均强调时间逻辑，但“女孩否决父母为其选 \n择的配偶”与上文“年轻男性在择偶中的发言权”不存在时间关系；［C］指出所述内容中最重要或特别的 \n一点，但空格句与上文为同向并列关系，不存在语义上的递进或强调；［D］表例证关系，本句年轻女性的 \n选择权与上文年轻男性对配偶的选择显然无法构成例证关系。\n\n【选项释义与词汇辨析】\n[A] In theory: 理论上\n[B] In time: 及时；最后，终于\n[C] Above all: 最重要的是\n[D] For example: 例如",
+      "explanation": "［考点提炼］句际逻辑关系与状语短语辨析。\n［精准定位］空格所在句：[4], a girl may veto the spouse her parents have chosen.\n［解题思路］上句指出如果父母作主，孩子几乎毫无发言权（giving the child little to say in the selection）。本句指出女孩可以否决父母选定的配偶。[A] In theory 意为“理论上”，表明这只存在于理论条文中，实践中往往难以违抗父母之命，与上下文形成精准逻辑对比。\n［错项排除］[B] In time 意为“及时，终究”；[C] Above all 意为“最重要的是”；[D] For example 意为“例如”，均不符合反差对比逻辑。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "5a08eedc-74e1-5ecb-83f4-d4929995cccd",
@@ -250,10 +274,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "5. ［A］ Although尽管；不过 ［B］ Lest以免；唯恐 ［C］ After在……之后 ［D］ Unless除非\n［考点提炼］上下文逻辑。\n［解题思路］空格后指出，______配偶已经被选定，双方家庭相互调查，由空格句语义以及动词时态的过渡has been selected-investigates可知，前后两种行为是程序性的先后关系：配偶选定之后，双方家庭开始相互调查家庭背景，［C］ After符合这一顺承逻辑。\n［错项排除］［A］通常表让步，还可对前述内容做出评价，表语义的轻微转折，但语义重点仍落于主句；此处“配偶已经选定”与“双方开始调查家庭背景”为顺承逻辑，而非让步或转折逻辑；［B］或表目的，引出竭力避免或不希望发生的情况；［D］表条件，“选定配偶”是“双方家庭开始调查家庭背景”的前提，“以免/除非配偶已经被选定，双方家庭开始调查家庭背景”均不合逻辑。",
+      "explanation": "［考点提炼］时间顺序与从属连词辨析。\n［精准定位］空格所在句：[5] a spouse has been selected, each family investigates the other to make sure its child is marrying [6] a good family.\n［解题思路］从时态 has been selected（现在完成时）到 investigates（一般现在时），体现程序上的先后承接关系：配偶选定之后，双方家庭展开背景调查。[C] After 意为“在……之后”，逻辑严丝合缝。\n［错项排除］[A] Although 表让步；[B] Lest 表唯恐、以免；[D] Unless 表除非，均违背顺承程序逻辑。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "fdd5bedc-37a9-5dac-bb59-91be72c0fb03",
@@ -284,11 +311,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "6. ［A］ within在... 之内 \n［B］ into进入，到... 里面\n［C］ from由... \n［D］ through穿过；经过；因为；凭借\n［考点提炼］固定搭配。\n［解题思路］空格句指出双方家庭相互调査家庭背景的目的（to make sure）:确保他们的孩子嫁（娶） \n______ 一个好家庭。空格词与marry构成合理搭配表明its child与a good family的关系，由惯常认知 \n“结婚不仅关乎两个人，更关乎两个家庭”可知，结婚应是“一方进入对方家庭”的过程，选项中只有［B］ \ninto可与marry构成固定搭配，表示“通过婚姻而进人（配偶所属的家庭或团体）”,符合文意。\n［错项排除］［A］表明一种已经处于事物内部的状态，“在一个好家庭内结婚”表明的是内部结合，既 \n然是内部结合，那么“调查对方家庭背景”也就没有必要，与原文相悖；［C］干扰源于命题人意图用“…… \n确保子女嫁或娶了来自好人家的孩子”来迷惑考生，若from能填入空格，则空格句正确表述应为to \nmake sure its child is marrying a spouse from a good family,而原文空格为 a good family,并无关键词 a \nspouse；CD］表示空间上的“穿过，通过”或过程、原因、途径等，均不合文意。\n•围汇注释写难句分析\n① spouse [spauz] n.配偶\n② complex E'kDmpleks] a.复杂的\n§ ③matchmaker ['msetjimeika] n.媒人\n§ ④negotiation [nigaufi'eifan] n.谈判，协商\nA young man can decide on a likely spouse on his own and then ask his parents to arrange the marriage \nnegotiations, or the young man's parents may make the choice of a spouse, givin\n\n【选项释义与词汇辨析】\n[A] within: 在... 之内\n[B] into: 进入，到... 里面\n[C] from: 由...\n[D] through: 穿过；经过；因为；凭借",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］介词固定搭配。\n［精准定位］空格所在句：...to make sure its child is marrying [6] a good family.\n［解题思路］marry into a family 为地道英文固定搭配，意为“通过婚姻嫁入/入赘到……家庭”。此处表示确保孩子能与一个门当户对的好人家联姻，[B] into 完全正确。\n［错项排除］[A] within 表示在某范围内部；[C] from 表示来自；[D] through 表示通过、穿过，均不能与 marry 构成此特定婚姻搭配。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c39efd21-ca44-5e8d-adf6-4545f7007994",
@@ -319,11 +349,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "7. [A] since自从……以来；因为，由于 \n[B] or或者；不然，否则\n[C] so因此，所以 \n[D] but但是\n[考点提炼]句内语义逻辑。\n[解题思路]空格句指岀，以前的婚礼持续三天,______到了 20世纪80年代婚礼持续的时间为一天\n半。由 formerly VS by the 1980s 和 lasted three days VS lasted a day and a half 所体现的不同时代婚礼 \n持续时间的对比，可判断两句为并列句，两句间为对比转折关系，[D] but符合文意。\n[错项排除][A]表时间或原因，[C]表结果，二者引导的分句间均为主从关系（主句一从句），而非并 \n列关系（分句一分句），且原文已包含时间副词，时间逻辑不成立；空格后内容也不是空格前内容的原因 \n或结果，排除此两项。[B]或表示并列选择关系，或用于说明原因，但原文并非意在说明“婚礼可能会持 \n续三天或者一天半/婚礼可能会持续三天，否则就持续一天半”.而是说明不同时期婚礼持续时间的长 \n短，故排除。\n&[A] test测试；忠诚宣誓 \n[B] recite背诵，吟诵\n[C] copy抄写；仿造 \n[D] create创作\n[考点提炼]句内语义+动词辨析。\n[解题思路]空格句指出，僧侣进行简短的布道，然后______ 祝祷词。由空格前and可推知，______\nprayers of blessing与\"进行简短的布道（offer a short sermon）w语义并列，均表示婚礼上佛教僧侣们所进 \n行的宗教仪式，[B] recite与prayers of blessing搭配，意为\"吟诵祝祷词\"，既搭配合理，又能渲染婚礼的 \n宗教仪式感，符合文意。\n[错项排除][A]意为“测试”时显然与prayers of blessing搭配不当，但其还有一个僻意“忠诚宣誓”， \n在婚礼典礼上需要进行宣誓的只有新郎新娘，而僧侣无需宣誓，且test表示此意时为名词，用于此处词 \n性不符；[C]若取“抄写”之意，“抄写祝祷词”不符合传统婚礼的仪式，若取“仿造”之意，则“仿造祝祷词”\n\n【选项释义与词汇辨析】\n[A] since: 自从……以来；因为，由于\n[B] or: 或者；不然，否则\n[C] so: 因此，所以\n[D] but: 但是",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］分句转折对比与连词辨析。\n［精准定位］空格所在句：Formerly it lasted three days, [7] by the 1980s it more commonly lasted a day and a half.\n［解题思路］Formerly（从前，三天）与 by the 1980s（20世纪80年代，一天半）形成鲜明的时间与习俗演化对比，[D] but 表并列转折对比，语义通顺。\n［错项排除］[A] since 表自从或因为；[B] or 表选择；[C] so 表因果，均无法表达前后时间长度的反差对比。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "7a6999b4-7a42-54b8-a328-fafbee70a6fb",
@@ -354,11 +387,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "8. [A] test 测试\n[B]copy 复制\n[C]recite 朗诵；详述\n[D] create 创作；创造\n【答案】C\n【考点】动词辨析。\n【解析】本空所需动词的主语为Buddhist priests，宾语为prayers of blessing（祈福），由此宾语线索可以判断选项[A]\ntest （测试）和[B]copy （复制）是不可能的。选项[D] create （创作；创造）也不合适，因为这种祈福英国是现成\n的、既有的，无需去临时创作。故合理的答案只有选项[C]recite 朗诵；详述。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］动词语义搭配与宗教仪式语境。\n［精准定位］空格所在句：Buddhist priests offer a short sermon and [8] prayers of blessing.\n［解题思路］and 连接僧侣主持仪式的两个动作：布道（offer a short sermon）与吟诵祈福祝祷词（recite prayers of blessing）。[B] recite 意为“朗诵，吟诵”，是宗教祈祷的固定搭配。\n［错项排除］[A] test 意为“测试”；[C] copy 意为“抄写，复制”；[D] create 意为“创造”，在现场婚礼仪式中僧侣不可能“测试”或“抄写/创造”祈福词。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "B",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "09ec31f5-75ad-5ce3-9b27-a5f82066d6c2",
@@ -390,10 +426,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "9. [A] folding 折叠，对折 \n[B] piling 堆放 [C] wrapping 包，裹 [D] tying 系，拴\n[考点提炼]动词辨析。\n\n［解题思路］空格后关键词cotton threads. . . around sb's wrists（棉线______ 环绕某人的手腕）提示\n本句意在描写“将棉线系在/缠绕在新郎和新娘的手腕上”这一行为，选项中能够与cotton threads（棉线） \n搭配的只有［D］ tying,其动词原形为tie,意为“系上（绳子等）”。另外，根据常识，系棉线这一仪式有着新 \n人缔结连理，永结同心的寓意，符合本段论述传统婚俗的语境。\n［错项排除］［A］通常用于纸、织物等可以折叠的事物，［B］表示“将事物堆放、叠放在一起”,［C］表示 \n\"用纸或布等包裹某物，三项均不能与cotton threads搭配。\n\n【选项释义与词汇辨析】\n[A] folding: 折叠，对折\n[B] piling: 堆放\n[C] wrapping: 包，裹\n[D] tying: 系，拴",
+      "explanation": "［考点提炼］动词与宾语介词搭配。\n［精准定位］空格所在句：...[9] cotton threads soaked in holy water around the bride's and groom's wrists...\n［解题思路］tie... around... 为固定搭配，意为“把……系/缠在……周围”。此处指柬埔寨传统仪式中把圣水浸泡过的棉线系在新郎新娘手腕上象征永结同心，[D] tying 正确。\n［错项排除］[A] folding 意为“折叠”；[B] piling 意为“堆积”；[C] wrapping 意为“包裹”，棉线无法 folding 或 piling，且 tie around 最为贴切精准。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6887606c-77ee-54d2-b3de-f211419779a9",
@@ -424,11 +463,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "10. ［A］ passing 传递 \n［B］ lighting 点燃 \n［C］ hiding 隐藏 \n［D］ serving 提供\n［考点提炼］动词搭配。\n［解题思路］and表明空格后内容继续介绍婚礼习俗。该分句中的关键词a candle/a circle of ... \ncouples/bless（—支蜡烛、一圈人、表达祝福）提示考生空格词与a candle以及后文的around a circle构成 \n合理搭配，同时符合“在一圈人中用一支蜡烛做某种事情来祝福新人”的语义场景。［A］ passing符合文 \n意，pass sth around表示“传递、传送”。同时“在一圈婚姻美满且受人尊敬的夫妇中传递蜡烛”这一仪式 \n有着将幸福美好的婚姻传递给新人的寓意，与本文语义契合。\n［错项排除］［B］虽然可以与a candle搭配表示\"点燃蜡烛\"，但light a candle around a circle of...并 \n非表示“一圈人围绕着一支点燃的蜡烛”，而是表示“在一圈人周围点燃一支蜡烛”，这显然是无法实现的 \n事情，不合逻辑。［C］表示\"隐藏，掩盖\"时常用于hide sb/sth in/under/behind etc结构中，但是\"在一圈 \n人中藏蜡烛”的行为在结婚典礼的背景中，不能传达较为明确的祝福意味，故排除。［D］表示“（向某地或 \n某群体）供应，提供”，常用于provide sb/sth （with sth）结构中，此处“向一圈婚姻美满且受尊敬的夫妇” \n只提供\"一支蜡烛（a candle）\"首先不合常理，同时也搭配不当，正确用法应为serve a circle of.. . with a \ncandle,故排除此项。\n\n【选项释义与词汇辨析】\n[A] passing: 传递\n[B] lighting: 点燃\n[C] hiding: 隐藏\n[D] serving: 提供",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］动词搭配与仪式场景。\n［精准定位］空格所在句：...and [10] a candle around a circle of happily married and respected couples to bless the [11].\n［解题思路］pass a candle around a circle 表示在围成一圈的人群中依次“传递”点燃的蜡烛，将幸福美满的婚姻祝福传递下去，[A] passing 符合民俗语境。\n［错项排除］[B] lighting 意为“点燃”，虽然蜡烛可以 light，但不能说“在一圈人中点燃蜡烛并传递祝福”；[C] hiding 意为“隐藏”；[D] serving 意为“端上，服务”，均不符合语境。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "B"
+      "answer": "A",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a290d61a-3097-5a4b-9a4f-95fa06095027",
@@ -460,10 +502,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "11. ［A］ association关联；联系 \n［B］ meeting会议；相遇，会面\n［C］ collection收集，采集；聚集 \n［D］ union结合；婚姻\n［考点提炼］句内语义+熟词僻意。\n［解题思路］to bless the________ （祝福______ ）指出“在一圈婚姻美满且受尊敬的夫妇手中传递蜡烛”\n的目的，由“婚姻美满且受尊敬的夫妇”可推知，他们传递蜡烛的目的应该是将自己的幸福婚姻传递给这 \n对新婚夫妇，即祝福新人结为夫妻，祝福他们的婚姻。四个选项均有“联合”之意，但能够表示结为夫妻、 \n婚姻的只有［D］ union（此处union用其僻意a marriage） 0\n［错项排除］［A］指“（与某人、机构、团体等的）关联，交往和关系”;［B］指“人们聚集到一起讨论事情 \n的会议、集会”或“偶然或事先安排好的会面”;［C］指“一群人或一批物品”，三项均泛指“人们的关系或聚 \n会”，均无法体现新人的结合，故排除。\n\n【选项释义与词汇辨析】\n[A] association: 关联；联系\n[B] meeting: 会议；相遇，会面\n[C] collection: 收集，采集；聚集\n[D] union: 结合；婚姻",
+      "explanation": "［考点提炼］熟词僻义与名词辨析。\n［精准定位］空格所在句：...to bless the [11].\n［解题思路］前文描述全套婚礼仪式，目的自然是祝福新人喜结连理，即祝福这段新结合的婚姻。[D] union 可指“婚姻，结合”（a marriage/matrimonial union），完全吻合文意。\n［错项排除］[A] association 意为“协会，联系”；[B] meeting 意为“会议”；[C] collection 意为“收藏品，收集”，均不能指代新人神圣的婚姻结合。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "ad9831c8-11ed-5849-ab5c-995fae3c6a0c",
@@ -494,11 +539,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "12. ［A］ grow成长;增长 \n［B］ part离开；分离\n［C］ live居住 \n［D］ deal （with）对付,应付；与... 做生意\n［考点提炼］动词搭配。\n［解题思路］空格句介绍新婚夫妇的婚后居住地点。由空格前并列连词and可知，______ with them\n与其前内容“按照传统，新婚夫妇要搬进妻子的父母家（move in with sb表示'搬来和某人一起居住'）”语 \n义大方向一致，故此处应该表示“和他们一起居住、生活”，［C］ live符合文意，live （with）表示“与……住 \n在一起”。\n［错项排除］［A］ grow与with搭配表示“与……一起成长”，一般指长辈陪同晚辈成长或同辈之间 \n一起成长，晚辈和长辈一起成长不合语义。［B］ part （with）表示\"与 分离\"时与前文move in with语 \n义相反；表示“（不情愿地）放弃某物，舍弃某物”时其后为sth,既与文意不符，同时与空格后them搭配不 \n当，故排除。［D］ deal （with）意为“（尤指为解决某问题而）采取必要行动”，“新婚夫妇与女方父母打交 \n道”看似符合文意，但仅仅“打交道”无法体现他们住在一起的语义，同时也表现出新婚夫妇住进女方家 \n的不情愿，应付其父母，与后文“他们能在附近盖房子”相悖，如果是“应付”关系，就不会在他们附近建造 \n\n新居，故排除。\n\n【选项释义与词汇辨析】\n[A] grow: 成长;增长\n[B] part: 离开；分离\n[C] live: 居住\n[D] deal: （with）对付,应付；与... 做生意",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］动词短语语义顺承。\n［精准定位］空格所在句：Newlyweds traditionally move in with the wife's parents and may [12] with them up to a year...\n［解题思路］前文 move in with the wife's parents（搬来与女方父母同住），由 and 连接，顺承说明“可以和他们生活/居住至多一年”，[C] live (with) 意为“同住，共同生活”，与文意高度自洽。\n［错项排除］[A] grow with 意为“与……一同成长”；[B] part with 意为“舍弃，与……分离”；[D] deal with 意为“应付，处理”，均违背居住语境。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "D"
+      "answer": "C",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a05414ce-657c-5b41-9871-397e6e47590a",
@@ -530,10 +578,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "13. [A] whereas 然而，但是 [B] until 直到 [C] for 因为 \n[D] if 如果\n[考点提炼]上下文逻辑。\n[解题思路]空格前指出，新婚夫妇要搬进妻子的父母家，同他们一起居住长达一年。空格所在分句 \n指出，______ 他们能在附近建造新居。由文意及关键词up to a year(至多一年)可推知，两句之间存在时\n间链条，即“新婚夫妇能建造新居前可以住在女方父母家”，空格处应体现这一时间逻辑，[B] until正确。\n[错项排除]〔A] whereas表转折，用以比较或对比两个事实；[C] for作连词时，表因果关系；做介词 \n连接时间时,后面常接一段时间。[D] if表条件，但“他们能建造新居”和“与女方父母同住”间不存在对 \n比或比较关系，前者也不是后者的原因或条件，故排除此三项。\n(Daffair [Jfeo]\n② sermon [’s3：mon] \n讲道，布道\n③ prayer [pres] n.祷告，祈祷\n•国汇注務写窿包分析门/\n》④blessing ['blesig] n.祝福，赐福，祷告 \n》 ⑤thread [0red] n.线，细线\nJ ⑥soak [sauk] 0浸泡，浸湿\n析•] /\n第二段介绍柬埔寨的结婚传统。①句总述传统婚礼的特点：耗时较长、饶有趣味。②句介绍第一个 \n特点：耗时较长。转折连词but串联起两组对比结构(formerly VS by the 1980s和lasted three days VS \nlasted a day and a half)，以今昔对比表明传统婚礼持续时间的变化。③④句介绍第一个特点：饶有趣味。 \n③句介绍婚礼的一部分：由僧侣进行简短的布道，以及吟诵祈祷词。④句介绍典礼的一系列流程：理发 \n仪式(ritual hair cutting)-缠绕棉线(tying cotton threads)-*传递蜡烛(passing a candle),包含祝福新人 \n喜结连理、白头偕老、百年好合的美好寓意。⑤句介绍新婚夫妇的婚后居所。并列结构move in with the \nwife\n\n【选项释义与词汇辨析】\n[A] whereas: 然而，但是\n[B] until: 直到\n[C] for: 因为\n[D] if: 如果",
+      "explanation": "［考点提炼］时间连词辨析。\n［精准定位］空格所在句：...may live with them up to a year, [13] they can build a new house nearby.\n［解题思路］新婚夫妇与女方父母居住长达一年，“直到”他们能在附近建好自己的新房为止，[B] until 表时间终点，逻辑顺畅。\n［错项排除］[A] whereas 表对比转折；[C] for 表因为；[D] if 表如果，均不符合时间期限与居住过渡逻辑。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "64f17522-f9af-5b7e-b6f9-6f17dbec0174",
@@ -564,11 +615,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "14. [A] follow跟随；仿效；理解\n[C] challenge 挑战；质疑\n[考点提炼]动词辨析。\n[解题思路]空格句指出，离婚在柬埔寨合法，而且容易______ ，但并不常见。由空格前并列连词\nand可知.easy to_________与legal语义同向，既然离婚是合法的，那应该具有可操作性，应该容易实现，且\n下文\"离婚的人(Divorced persons)也能印证离婚的可操作性这一推测，[B] obtain符合文意。\n[错项排除][A]表示“仿效、追随(to copy sb/sth)”或“理解、明白说明或意思”，如果离婚“容易仿 \n\n效”，那应该会成为一种常见行为，与原文“离婚不常见”相悖，而“容易理解”与下文②句的with some \ndisapproval语义逻辑相矛盾。［C］、［D］均与legal语义大方向相悖，故排除。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］动宾搭配与上下文对比。\n［精准定位］空格所在句：Divorce is legal and easy to [14], but not common.\n［解题思路］空格与 legal 构成并列同向表达，主语为 Divorce。离婚合法且容易“办理/取得”（obtain a divorce 为地道用法），但并不常见，[B] obtain 正确。\n［错项排除］[A] follow 意为“遵循，理解”；[C] challenge 意为“质疑，挑战”；[D] avoid 意为“避免”，均无法表达依法办理取得离婚资格。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "b61ccf74-f239-58e4-99c0-999676a6519d",
@@ -600,10 +654,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "15. ［A］ isolated孤立，隔离；区别看待 \n［B］ persuaded说服\n［C］ viewed看待 \n［D］ exposed暴露；揭露；使接触，使体验\n［考点提炼］句内语义+动词辨析。\n［解题思路］由上文\"离婚不常见\"及空格后关键词with some disapproval可推知，\"不认同\"应该是 \n人们对于离婚之人的态度，故空格部分are________应为态度提示词，表示“被看待”之意，选项中只有［C］\nviewed能够与后文的with搭配，表示“以……的目光看待”，故为正确项。\n［错项排除］［A］ isolated表示\"孤立，隔离\"时只能与介词from搭配.isolate sb/sth from sb/sth,表 \n示“把……从……中隔离，孤立”；表示“区别看待”时，其后一般为观点、问题等，不能为sb,常用于isolate \nsth from sth结构中，而原文空格处的逻辑主语为Divorced persons,故排除。［B］ persuaded看似能解释 \n上文not common的原因，因为人们受到劝说，所以离婚的人减少，致使离婚不常见。但由主语Divorced \npersons可知，离婚已成既定事实，所以去“劝说”不太可能。［D］ exposed表示“暴露，显露（一般予以掩 \n盖或隐藏的东西）”或“使暴露于（险境），使置身于（危险）当中”或“接触，体验（新想法、观念）”时，常用于 \nexpose sth/ sb to sth结构中；表示\"揭露，揭发某人或某事的真相\"时，常用于expose sth或expose sb as \nsth结构中，此处\"离婚之人被暴露/揭发”均无法与上下文顺接，且与其后的with some disapproval无法 \n构成合理搭配。\n\n【选项释义与词汇辨析】\n[A] isolated: 孤立，隔离；区别看待\n[B] persuaded: 说服\n[C] viewed: 看待\n[D] exposed: 暴露；揭露；使接触，使体验",
+      "explanation": "［考点提炼］动词与介词 with 搭配。\n［精准定位］空格所在句：Divorced persons are [15] with some disapproval.\n［解题思路］view... with disapproval 意为“带着某种不赞成/非议的眼光看待某人”。离婚者会受到一定程度的非议，[C] viewed 正确。\n［错项排除］[A] isolated 搭配 from；[B] persuaded 意为“被说服”；[D] exposed 搭配 to，均不能与 with some disapproval 构成自然搭配。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "28195ea0-6469-5b1f-9fd9-a1d2c08ff5f0",
@@ -635,10 +692,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "16. ［A］ whatever无论什么 \n［B］ however无论如何\n［C］ whenever无论何时 \n［D］ wherever无论在哪\n［考点提炼］句内逻辑+词义辨析。\n［解题思路］空格句介绍离婚后的财产处置问题，可知本句从婚前婚后财产的分割两个角度来描述。 \n从语法结构上来讲，空格之前为动词retains,所以空格处应该填入适当的关系词引出后面的宾语从句，并 \n且能够与空格后的property搭配，组成宾语从句的宾语。只有［A］ whatever能够引导名词性从句。\n［错项排除］［B］引导方式状语从句，［C］引导时间状语从句，［D］引导地点状语从句，三项均无法与 \nproperty搭配，作为retains的宾语，故排除。\n\n【选项释义与词汇辨析】\n[A] whatever: 无论什么\n[B] however: 无论如何\n[C] whenever: 无论何时\n[D] wherever: 无论在哪",
+      "explanation": "［考点提炼］连接代词引导名词性从句。\n［精准定位］空格所在句：Each spouse retains [16] property he or she brought into the marriage...\n［解题思路］retains 之后需要接宾语从句修饰名词 property，[A] whatever 充当限制性定语修饰 property，引导宾语从句，意为“无论何种财产”，语义完整。\n［错项排除］[B] however、[C] whenever、[D] wherever 均为副词，分别引导方式、时间、地点状语，不能作定语修饰 property。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a53db274-431d-52db-9b88-c5f79b2fb87b",
@@ -670,10 +730,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "17. ［A］ changed改变；调换；兑换 \n［B］ brought带来，拿来\n［C］ shaped塑造；影响... 的发展 \n［D］ pushed推动；促使\n［考点提炼］句内语义+动词辨析。\n［解题思路］由常识可知，离婚后财产的分割，包括婚前财产的分割以及婚后夫妻双方共同所得财 \n产的分割，已知jointly-acquired property （共同获得的财产）为婚后共同财产，故property he or she \n_________into the marriage应表示婚前财产。而婚前财产便是夫妻各自带进婚姻的财产，由此可知［B］ \nbrought符合文意。\n［错项排除］［A］利用夫妻双方对婚姻财产带来的改变进行干扰,change sb/sth into sth表示\"把 \n……变成……”；［C］意为“使某物成为……形状，塑造”，常用于shape A into B结构中；［D］表示“推动， \n促使达到某程度或状态”，但“将财产兑换/定形为婚姻”或“促使财产进入婚姻”均不符合语义逻辑。\n1& ［A］ withdrawn 取岀 ［B］ invested 投资 \n［C］ donated 捐献 \n［D］ divided 分割\n［考点提炼］动词辨析。\n［解题思路］空格句指出夫妻共有财产的处置问题：会被平均______ o由空格后的修饰词equally\n（平均地）、以及离婚财产涉及到的夫妻双方，判断出只有［D］ divided符合文意。\n［错项排除］［A］后一般为“金钱或款项”，而不能与property（财产）搭配，故排除此项。夫妻共同财 \n产可以进行投资、捐献，但不能“平均投资/平均捐献”，即［B］和［C］不能与equally搭配；另外，此两项也 \n与离婚财产处置问题这一背景不符。\n19. ［A］ clears（up）转晴；好转；整理；澄清 \n［B］ shows（up）出现；显露；显现\n\n【选项释义与词汇辨析】\n[A] changed: 改变；调换；兑换\n[B] brought: 带来，拿来\n[C] shaped: 塑造；影响... 的发展\n[D] pushed: 推动；促使",
+      "explanation": "［考点提炼］动词搭配与婚前财产语境。\n［精准定位］空格所在句：...property he or she [17] into the marriage...\n［解题思路］bring into the marriage 为婚产分割法律术语，意为“带入婚姻的财产”，即婚前财产。[B] brought 正确。\n［错项排除］[A] changed into 意为“转变成”；[C] shaped into 意为“塑造成”；[D] pushed into 意为“推入”，均不符合婚姻财产法理常识。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c8d0da25-97c4-5dae-9f53-1c6e7a234fd1",
@@ -704,11 +767,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "18. [A] divided 分配，分享；把……隔开[B] invested 投资[C] donated 捐赠，捐献\n[D] withdrawn 撤退；取出\n【答案】A\n【考点】动词辨析（无关词排除法）。\n【解析】本空所需动词是以被动语态的形式出现的，主语是jointly-acquired property（共同获取的财产），同时本动\n词被副词equally（平均地）所修饰。而且，上下文是在谈论离婚时的财产分配问题，据此选项[B] invested （投资）\n和[C] donated （捐赠，捐献）都是不符合题意的动作，属于无关选项，应予排除。而[D] withdrawn （撤退；取出）\n填入空格后的意思是把自己之前的财产撤走，而本动词的主语是jointly-acquired property,因此最佳答案为[A] divided\n分配，分享；把……隔开，填入空格后所在句的意思是：（在婚姻存续期间）共同获取的财产评价分配。",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］动词与副词 equally 搭配。\n［精准定位］空格所在句：...and jointly-acquired property is [18] equally.\n［解题思路］jointly-acquired property 指夫妻婚后共同财产。既然婚前财产各自保留，共同财产自然是“均分”，divide equally 意为“平均分割”，[D] divided 正确。\n［错项排除］[A] withdrawn 意为“提现，撤回”；[B] invested 意为“投资”；[C] donated 意为“捐赠”，均不合平分家产语境。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "D",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "bfe27492-fdfc-5b5c-aa4d-24f962796a05",
@@ -739,11 +805,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "19. ［A］ clears（up）转晴；好转；整理；澄清 \n［B］ shows（up）出现；显露；显现\n\n[C] warms （up）活跃起来 \n[D] breaks（up）终止；结束\n[考点提炼]动词词组辨析。\n[解题思路]由冒号后内容“离异男性再婚之前没有等待期，……女性必须要等待数月”可知，在再婚问 \n题上，男女之间存在性别偏见，故空格所在部分______ up应该表示“存在，出现”的意思,[B] shows符合文意。\n[错项排除][A] clears（up）表示“（天气）转晴”或“（疾病、感染等）好转”或“整理、收拾东西”时均与 \n上下文文意无关，表示“澄清（误会）、消除（疑虑）\"时，其主语一般为sb,宾语为sth,而此处a gender \nprejudice为主语而不是宾语，搭配不当，且“性别偏见得以消除”与下文“离婚男女面临不同境遇”的文意 \n相悖。[C] warms up表示“（使）某人或某事物活跃起来，热情起来”，但“性别偏见逐渐活跃起来”表明针 \n对离婚男女的性别偏见从无到有、逐渐显现并明显，与原文“离婚男女不公平境遇的事实早已存在”不 \n符。[D] breaks（up）意为to come to an end,与冒号后男女性再婚存在性别偏见的事实相悖。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］动词短语辨析。\n［精准定位］空格所在句：Divorced persons may remarry, but a gender prejudice [19] up: The divorced male doesn't have a waiting period...\n［解题思路］冒号后面具体指出离异男性再婚无等待期，而女性必须等待十个月，显而易见存在性别偏见。show up 意为“显露，显现”，[B] shows 正确。\n［错项排除］[A] clear up 意为“清理，天气放晴”；[C] warm up 意为“活跃，热身”；[D] break up 意为“破碎，结束”，均无法表示偏见显露。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "B",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3afd04ba-b23f-5d3c-8616-99b56a23ebc0",
@@ -760,7 +829,7 @@
         },
         {
           "key": "B",
-          "text": "once.... ...........",
+          "text": "once",
           "value": "B"
         },
         {
@@ -778,7 +847,10 @@
       "explanation": "［考点提炼］句内逻辑。\n\n［解题思路］空格前分句“离异男性再婚之前没有等待期”与空格后分句“女性必须要等待十个月”存在语义对比（离异男性VS女性、无等待期VS等待十个月），故空格处应体现对比逻辑。［A］ while 用于对比两件事物，符合文意。\n\n［错项排除］［B］ once 作连词时意为 as soon as，表条件；［C］ so that 或引出结果，或表示目的；［D］ in that 表示因果关系，但“离异女性必须等待十个月”并非“离异男性再婚之前无等待期”的条件、结果、目的或原因，故排除此三项。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a51c61ba-1a65-5483-bac1-63ddd8527361",
@@ -786,7 +858,7 @@
       "passage_id": "6e13f945-c380-5a7c-b353-ce745281e578",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to the first paragraph, what would",
+      "stem": "According to the first paragraph, what would happen in France?",
       "options": [
         {
           "key": "A",
@@ -810,10 +882,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "21. According to the first paragraph, what would \nhappen in France?\n21.根据第一段内容可知，法国将会发生什么\n情形？\n[A] Physical beauty would be redefined.\n［A］形体美会被重新界定。\n[B] New runways would be constructed.\n［B］新的T台会被建造。\n[C] Websites about dieting would thrive.\n［C］节食网站会兴盛。\n[D] The fashion industry would decline.\n［D］时尚业会衰落。\n\n绍其新近立法内容：禁止雇用极瘦模特走T台；取缔鼓吹过度瘦削的网站。可见，“以超瘦为美”的标准 \n将会被重新界定，［A］正确。\n［命题解密］［A］是结合②③句对①句 its fashion industry has lost an absolute right to define physical \nbeauty做出的正确解读。\n［B］曲解②句内容：法规禁止的是“时尚业雇用过瘦的T台模特（介词结构on runways修饰 \nmodels）而非“模特在（当前的）T台上行走”。［C］将文中对象从“提倡极端节食的网站”偷换为“普通 \n节食网站”,且“取缔前者”大概率对后者有负面影响，“兴盛”含义恰恰相反。［D］过度推断①句内容：时 \n尚业“兴衰与否”与其“是否拥有定义美的绝对权”并无直接关联，选项过于武断。\n［技巧总结］当选项为完整的陈述性内容时，应对其分解：“名词性部分”往往取自原文，用于引导定 \n位;“描述或评论的谓语或修饰成分”是需要判断正误的内容。由于正确项不会偏离段落/文章主旨，据 \n此可先对\"名词部分\"进行初步过滤，再逐一定位原文比对。本题中,［A］ Physical beauty、［B］ runways、 \nCC］Websites about dieting,［D］the fashion industry 当中，［B］与［C］重心分别落在\"T 台\"和\"网站\"",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题。\n［精准定位］第一段①句指出，法国裁定其时尚业不再享有界定女性形体美的绝对权（its fashion industry has lost an absolute right to define physical beauty for women），②③句进一步阐述禁止极瘦模特走秀、取缔极端节食网站的法案。\n［命题解密］题干与正确项 [A] Physical beauty would be redefined是对第一段主旨的概括提炼：极瘦不再是唯一的美，形体美将被重新定义。\n［错项排除］[B]项曲解法规对T台模特的限制；[C]项颠倒黑白，法案意在取缔（ban）此类网站而非让其蓬勃发展（thrive）；[D]项过度推断，法规旨在规范模特健康，并非导致整个时尚行业衰退。",
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "06521eee-90a1-530f-befc-1d47798902f8",
@@ -821,7 +896,7 @@
       "passage_id": "6e13f945-c380-5a7c-b353-ce745281e578",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The phrase \"impinging on\" (Line 2, Para. 2) is closest",
+      "stem": "The phrase \"impinging on\" (Line 2, Para. 2) is closest in meaning to ________.",
       "options": [
         {
           "key": "A",
@@ -845,10 +920,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "22. The phrase <cimpinging on\" (Line 2, Para. 2) is closest \nin meaning to \n・\n22.短语impinging on（第二段第二行）含义 \n最接近于 \nO\n[A] indicating the state of\n［A］表明• ••…的状态\n[B] heightening the value of\n［B］提高• …•的价值\n[C] losing faith in\n[C]对•… •失去信心\n[D] doing harm to\n[D]对•… ••造成伤害\n \n［精准定位］考查短语所在句（第二段②句）指出，法国新岀台的法令意在表明“美不应由最终……健\n康的外表来界定”，且根据上文（第一段及第二段①句）可知：法令意在叫停时尚业定义的“极瘦为美”，第\n \n\n二段则是在介绍法令的\"积极动机（uplifting motives） „可见，符合文意的只有［D］。\n［命题解密］短语end up doing所含的“意想不到”、uplifting的“褒义”色彩，以及上文对时尚业推崇 \n•的超瘦为美的“否定态度”、下文“法令意在保护模特以免节食致死”等信息综合起来即为“过度瘦削的外 \n形有害健康”，与正确项［D］契合。\n［A］利用常识“外表特征反映身体健康状况”干扰，但该内容不带任何导向性。［B］把第二段①句 \nuplifting反映的“作者对法令动机的肯定”强行与“时尚业审美标准对健康的影响”关联。［C］曲解第二 \n段④句starving them to death含义，该内容用于说明法令意图之一是“保护模特免于节食致死”，并非表 \n明“模特失去了对健康的信心”。\n［技巧总结］impinging on为“超纲词+关键词（集中体现了“美”和“健康”的关系，以及作者对时尚 \n业所定义美的否定态度）”，是典型的词义题命题点。解答这类题目需要从上下文中找到足够的线索，把 \n握文中多个主体之间的逻辑关系，以及作者整体的观点态度。“逻辑顺滑”为检验选择是否正确的主要 \n标准。［D］可与上下文形成顺滑逻辑：时尚业所宣扬的“",
-      "points": 2,
+      "explanation": "［考点提炼］词义推断题。\n［精准定位］第二段②句指出：They suggest beauty should not be defined by looks that end up impinging on health.\n［解题思路］上文提到模特因过度节食而饿死（starving themselves to death），法令明确反对以牺牲健康为代价的瘦削，因此美不应由最终“危害/损害”健康的容貌来界定。[D] doing harm to 意为“对……造成损害”，与 impinging on 含义最为接近。\n［错项排除］[A] indicating the state of（表明……的状态）；[B] heightening the value of（提高……的价值）；[C] losing faith in（对……失去信心），均脱离损害健康的语境。",
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "2d08bb22-23d9-5a45-bc42-a845f075b78e",
@@ -880,10 +958,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "23. Which of the following is true of the fashion industry?\n23.下列关于时尚业的说法哪项正确？\n[A] The French measures have already failed.\n[A]法国的措施已经失败。\n[B] Its inherent problems are getting worse・\n[B]其固有问题在日益恶化。\n[C] Models are no longer under peer pressure.\n[C]模特们不再面临同侪压力。\n[D] New standards are being set in Denmark・\n[D]丹麦正在制定新的标准。\n \n[精准定位]第五段②句指出丹麦等国的时尚业正尝试制定自愿标准，第六段则以丹麦为例介绍其\n \n\n具体措施，可见，丹麦正在制定新标准，［D］正确。\n［命题解密］正确项［D］是对第五段②句 In Denmark ... it is trying to set voluntary standards 以及 \n第六段内容的高度概括。\n［A］将第四段信息“法国的法令存在明显不足”夸大为“法国的法令已经失败（have already failed）\\\n［B］利用第五段①句 The fashion industry knows it has an inherent problem 干扰，但 are getting worse 为 \n杜撰内容，与②句“时尚业正在制定行业标准解决其固有问题”相悖。［C］对第五段②句models. .. peer \npressure断章取义，将“时尚业针对模特雇佣制定了（更多依靠同侪压力作用的）自愿标准”改为“模特不 \n再受同侪压力影响”。\n［技巧总结］题干关键词fashion industry遍布全篇，且选项涉及的内容范围很大（第四、五、六段）， \n可先划定各选项关键词（在文中出现的名词或其变体），分别回原文进行定位〜再将选项信息与原文比 \n较，判断正误：正确项往往是对原文主要信息的恰当概括和合理推理。本题中，利用in",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节正误判断题。\n［精准定位］第五段②句指出：In Denmark, the United States, and a few other countries, it is trying to set voluntary standards for models and fashion images... 第六段详细介绍了丹麦时尚界达成的行业自愿新标准。\n［命题解密］正确项 [D] New standards are being set in Denmark 是对五、六两段关于丹麦时尚伦理宪章事实的同义转述。\n［错项排除］[A]项无中生有，法案刚获初步批准，谈不上已经失败；[B]项中 are getting worse 原文未提及；[C]项与文意相反，丹麦等国的自愿标准恰恰更多依赖同侪压力（rely more on peer pressure）来执行。",
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9e1ed05c-65c7-5629-bcaf-762273ef6ccd",
@@ -891,34 +972,37 @@
       "passage_id": "6e13f945-c380-5a7c-b353-ce745281e578",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "A designer is most likely to be rejected by CFW",
+      "stem": "A designer is most likely to be rejected by CFW for ________.",
       "options": [
         {
           "key": "A",
-          "text": "care too much about models' personalities",
+          "text": "pursuing perfect physical conditions",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "ignore consumers' actual psychological preferences",
+          "text": "caring too much about models' character",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "over-emphasize the commercial impact of slimness",
+          "text": "showing little concern for health factors",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "underestimate models' health vulnerabilities",
+          "text": "setting a high age threshold for models",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "24. A designer is most likely to be rejected by CFW \nfor \n・\n24.某位设计师遭到CFW拒绝最可能是 \n因为 \n。\n[A] pursuing perfect physical conditions\n［A］追求完美的身体状况\n[E] caring too much about models' character\n［B］过于在意模特的性格\n[C] showing little concern for health factors\n［C］几乎不关心健康因素\n[D] setting a high age threshold for models\n［D］对模特的年龄设置高门槛\n［命题解密］正确项 EC］ showing little concern for health factors 是结合第六段①句 rules and \nsanctions regarding. .. health... of models 以及② take responsibility for the impact the fashion industry \nhas on body ideals,对③句 to deny access for designers 做出的合理推断。\n［A］利用第六段①②句中health,body ideals形成干扰，但选项中physical conditions指\"身体状况\"， \n并非文中遭抵制的\"超瘦身材（时尚界所认可的完美体形）\"。［B］把第六段①句characteristics of models \n偷换为models' character,但前者characteristics意为\"特征\"，后者character则指\"性格\"。［D］利用第六 \n段①句age. . . of models干扰，但并未指出设计师会对模特年龄设置高门槛（setting a high age threshold \nfor）,更无法推知设计师会因此被时装周拒之门外。\n［技巧总结］本题容易定位，但难点在于：选项均与原文非常相似，真假难辨。解",
-      "points": 2,
+      "explanation": "［考点提炼］事实推断与因果细节题。\n［精准定位］第六段①句提到丹麦达成关于模特年龄、健康及其它特征的规范与处罚（rules and sanctions regarding the age, health...），③句指出主要强制手段为拒绝违规设计师参加哥本哈根时装周（to deny access for designers and modeling agencies to CFW）。\n［命题解密］结合宪章强调对模特健康负责可知，如果设计师不顾及模特健康因素，极易被CFW拒之门外，[C] showing little concern for health factors 符合题意。\n［错项排除］[A]项追求完美体魄并非受罚理由；[B]项注重模特品格符合文章提倡方向；[D]项设定高年龄门槛与保护未成年模特的初衷背道而驰。",
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "3341c55d-b5bd-598b-a201-1a5d548cc6af",
@@ -949,11 +1033,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "25. Which of the following may be the best title of the text?\n25.下列哪项可能是本文的最佳题目？\n[A] The Great Threats to the Fashion Industry\n［A］时尚业面临的巨大威胁\n[B] Just Another Round of Struggle for Beauty\n［B］只不过是又一轮挣扎求“美”\n[C] A Dilemma for the Starving Models in France\n［C］法国饥饿模特面临的两难处境\n[D] A Challenge to the Fashion Industry's Body Ideals\n［D］时尚业的身材典范面临挑战\n \n \n \n \n \n \n \n \n \n \n \n \n \n［精准定位］通读全文，前四段介绍并评判法国针对时尚业“以超瘦为美”所下禁令；第五、六段转而\n介绍丹麦等国针对该问题的不同解决思路“道德劝说”，末段比较评判两种措施，并进一步提岀建议。可\n见，全文论述对象为各国对“时尚业以超瘦为美”发起的挑战，［D］为最适合标题。\n［命题解密］正确项［D］是对文章主要内容的恰当概括。the Fashion Industry's Body Ideals指文章\n针对现象“时尚业以超瘦为美”；A Challenge囊括“法国的强制措施（law）”以及丹麦等国的“道德劝服方\n式（ethical persuasion）\"„\n［A］夸大其词，面临威胁的并非是“整个时尚业”，而只是“时尚业引领的审美观”。［B］对第七段作\n者态度断章取义，作者最后提出更应该提升审美观念，但他其实支持时尚业“通过道德劝说来纠正畸形\n瘦身风”的新举持，未将其归结为“又一种求美之举”。［C］利用文中细节信息“一些模特节食致死”干扰，\n但这仅为文中细节.并非全文主要关注点。\n \n\n［技巧总结］文章题目应概括全文主旨，既要体现文章探讨的对象，又要传达文章情感态度。解题时 \n可借助以下线索：①以同义词、近义词、上下义词的形式多次出现的关键词；②各段落（段群）",
-      "points": 2,
+      "correct_answer": "D",
+      "explanation": "［考点提炼］全文主旨大意题。\n［精准定位］全文围绕法国立法禁止超瘦模特以及丹麦等国推行行业健康自愿标准展开，核心议题在于挑战并纠正时尚界长期奉行的病态身材标准（misuse of body ideals）。\n［命题解密］[D] A Challenge to the Fashion Industry's Body Ideals（对时尚业身材典范的挑战）精准涵盖全文中心论题，且态度鲜明中肯。\n［错项排除］[A]项夸大事实，文章并非讨论时尚业的灭顶之灾；[B]项泛泛而谈，偏离法律与行业规范的主旨；[C]项局限于法国模特的困境，忽视了国际反思与伦理标准的主线。",
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "D",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "d74e5671-7644-5eb8-8de4-9334a77251b9",
@@ -961,7 +1048,7 @@
       "passage_id": "af81ac59-4a6d-5723-ac8a-59d23766582d",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Britain's public sentiment about the countryside",
+      "stem": "Britain's public sentiment about the countryside ________.",
       "options": [
         {
           "key": "A",
@@ -986,9 +1073,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第一段③句明确指出：英国人很重视乡村，认为“乡村”与王室、莎士比亚、NHS 一样，令他们引以为傲，但是这种民意得到的政治支持却非常有限。换言之，英国民众对乡村的观点没有在政治中得到很好的体现。［A］正确。\n\n［命题解密］正确项［A］是对第一段③句has limited political support的合理解读。\n\n［B］利用③句royal family、support等词捏造出“受到王室的全面支持”，但文中并未介绍王室的态度。［C］利用③句Shakespeare捏造关联，但文中用其旨在体现“人们对countryside的重视：将其与Shakespeare相提并论”，并未介绍英国民众乡村观的起始时间。［D］利用③句NHS捏造关联，由makes them proudest捏造出“带给NHS许多好处”，但同样文中提到NHS旨在突出人们对乡村的重视（将其与NHS等并列，视为“国之四宝”），二者并无直接关联。\n\n［技巧总结］本题直接考点为第一段③句（长难句），实际全面考查对第一段信息的分析能力。正确解答此类试题需要考生：1）会读题，抓住各选项关键信息，锁定答题范围；2）细读文，借助语法知识理清句子结构，由逻辑关联词确定各语义成分功能，明确句子语义重点以及各提及对象之间关系。\n具体来看，首先读题：根据四个选项关键词politics、royal family、Shakespearean age、NHS可锁定本题答题范围在③句。随后梳理理清句子结构：While构成句内转折，语义重点在后：转折之前Britons rate the countryside alongside... as...（人们认为乡村与 一样，都是 ）为题干所述内容（即民众对乡村的看法），其中the countryside与the royal family、Shakespeare、NHS为并列平行结构，四者之间并无直接语义逻辑关联；this（指代前半句）has limited political support为语义重点。最后于语义重点中比对选项：唯有［A］体现作者强调内容，故正确；［B］、［C］、［D］均以并列平行结构the royal family、Shakespeare、NHS强生关联，故错误。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "50727b5f-da01-5201-a678-11c9bdd022b7",
@@ -1021,9 +1111,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第二段④句指出：现在他们（即英国当局）不仅不再建设乡村，甚至逐年用混凝土（即城市建设）吞噬乡村（土地）。这很明显与①②句所述国民托管组织宗旨（永葆自然美之地）背道而驰，损坏了③句所述该组织所取得的成果（使得国家公园和绿化带得以创建）。故［D］正确。\n\n［命题解密］正确项［D］是对④句中第二分句的同义概括，其中gradually对应every year, destroyed对应consumes。\n\n［A］因④句They don't make countryside any more and... consumes more of it 而来，但句中They 实指英国当局，而非组织本身，组织所取得的成就是“被破坏，逐渐消失”而非“被蒙上阴影，黯然失色”。［B］根据⑤句constant guardianship（持续保护）制造出properly protected（恰当保护），却将文意“作者建议乡村需要持续保护”篡改为“作者描述组织目前的成果维护情况”。［C］源自④句concrete一词，但此处该词为名词“混凝土”（混凝土吞噬了该组织的成果），并非动词“巩固，加强”（该组织的成果正被加强）。\n\n［技巧总结］本题就涉及今昔变化以及多个提及对象的段落（第二段）命制事实概括题。解答此类题时需要考生：1）根据原文时态或时间标记词（no more, not any more, no longer）等理解事实细节、概括得出今昔变化；2）借助作者评论性话语把握整体趋势。\n如本题，首先了解事实细节：根据A century ago可推知国民托管组织的创建初衷“旨在永葆自然美之地”，根据later可推知该组织的成就“使得诸多国家公园和绿化带得以创建”，根据一般现在时态及every year可推知英国住建当局不再建设乡村，相反每年混凝土还吞噬乡村。随后概括今昔对比得出：国民托管组织的成果正逐年被破坏。最后结合末句作者评注（呼吁）“乡村需要持续保护”，可确定［D］为答案。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "03c979af-ee58-5c88-8549-a0169572cc14",
@@ -1055,10 +1148,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］根据第三段⑥⑦句可知，Ukip是下一届选举中唯一支持乡村保护的政党，且⑥句中“嗅到了机会”暗示UKip将从中获利，即为其下一届选举获得民众支持。由此可见，［C］属于合理推测，故正确。\n\n［命题解密］正确项［C］是对第三段⑥⑦句的合理推断，其中may gain照应chance。\n\n［A］将第三段④句councils oppose development（当地议会反对开发）错误说成Labour... opposing development（工党反对开发），而实际上工党反对当地议会、支持开发。［B］错误推导②句：“保守党会放弃'计划外'建筑”与原文“保守党批准在当地居民可能反对的地方进行'计划外'建设”方向相反。［D］干扰源自⑤句silent一词，但该词指自由民主党在“保护乡村”问题上保持沉默，并非指该党正失去政治影响力。\n\n［技巧总结］本段就涉及多方观点及多个事实的第三段命制事实细节题。解答此类题型时需结合“定位法”与“排除法”：1）先根据各选项关键词定位至原文；2）然后将选项内容与原文逐一进行细致对比，比对中需深挖原文信息；3）错误项一般是添加信息或篡改原文内容，正确项有可能是原文信息的言外之意。\n具体来看，首先根据选项关键词Labour、The Conservatives、Ukip、The Liberal Democrats分别定位至文中④句、②句、⑥⑦句和⑤句。接着仔细比对发现：［A］opposing development与④句gives rural development priority over conservation意义相反，且under attack属于添加信息；［B］may abandon与②句authorizing不符，且无从推知；［C］may gain大致同⑥句chance（机会）之意，且⑥⑦句确实指出Ukip支持保护乡村（sided with those pleading for...），其保护乡村运动使得其他党胆战心惊，由此可推测该党可能因其支持民众乡村保护而在下一届选举中受益，故初步断定其正确；［D］losing political influence从⑤句中难以推断，证实［C］正确。",
-      "points": 2,
+      "explanation": "［精准定位］根据第三段⑥⑦句可知，Ukip是下一届选举中唯一支持乡村保护的政党，且⑥句中“嗅到了机会”暗示UKip将从中获利，⑦句中其发起的运动使得许多地方保守党胆战心惊（证明其已然获利），故［C］正确。\n\n［命题解密］根据本段各句主语可知，作者按“三大党派（保守党、工党、自由民主党）VS独立党（UKip）”的逻辑行文，通过介绍各党派对于“乡村开发还是保护”的态度（即对于民意的支持与否），反衬出唯一支持民意的独立党（UKip）的举动以及可能由此带来的影响（获利）。［C］为根据该信息做出的合理推断。\n\n［A］从④句中得出，但句中指出“地方议会反对乡村开发”，而不是工党；工党“反对地方规划”，故错误。［B］根据②句off-plan building得出，但该句指出保守党“支持乡村开发优先于乡村保护，甚至批准'计划外'建设”，由此并不能推知保守党将“放弃计划外建设”，故错误。［D］根据⑤句得出，但由The Liberal Democrats are silent 只能推知自民党未就“乡村保护”表态，losing political influence从⑤句中难以推断，证实［C］正确。",
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "acc48f83-7285-5e5c-933d-4c358758c20b",
@@ -1090,10 +1186,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］第五段⑥⑦句指出：乡村得到了发展且将一直发展下去，边界及特点被尊重的乡村发展得最好；⑧⑨句批判奥斯本偏好“支持在乡村新建而不是在城市翻新或改造，支持在城郊修建购物中心而非在城中建商业街”：没有破坏城市保护区，却破坏了乡村保护区。可见［A］正确。\n\n［命题解密］题干+正确项［A］是第五段奥斯本倾向favours... against...及作者对其点评a biased one, ruin rural ones 的合理推断。\n\n［B］将第五段①句隐含的“强调解决住房危机必要性”的主体由“游说团体(lobby)”偷换成“奥斯本(Osborne)”。［C］将第五段③句“奥斯本在游说团体的压力下支持在乡村建新房子(Under lobby pressure, George Osborne...)”理解为与之相反的“奥斯本对抗游说团体的立场坚定(firm stand against lobby pressure)”。［D］将第五段③④句 favours rural new-build against urban..., favours out-of-town shopping sites against high streets所传递的“奥斯本不重视乡村保护，对乡村地区持偏见”反向曲解为“奥斯本对城市地区有强烈偏见(a strong prejudice against urban areas)”。\n\n［技巧总结］解答本题的关键是借助三个取舍表达(③句favours... against；④句favours... against；⑤句not a... but a...)，一个反问质疑(⑧⑨句do not ruin... Why ruin...?)、以及诸多形容词副词(biased, always等)理解③至⑨句所述奥斯本做法及作者对其态度。具体来看，可借助③④句取舍结构明确奥斯本做法；借助⑤句取舍、⑧⑨句反问、以及形容词副词，理解作者对奥斯本倾向(不去破坏城市保护区，却去破坏乡村保护区)的批驳，从而确定［A］正确，其他三项均与原文相悖，可排除。\n附捷径1：细读选项发现［A］、［D］实为对立选项，答案有可能在其中之一，而［D］很明显与文意不符，故［A］正确。附捷径2：文章主要讲述乡村保护未得到政府足够重视，题干中Osborne实际代表政府，选项中唯有［A］跟countryside搭边，且指出了 Osborne对乡村的忽视，故正确。",
-      "points": 2,
+      "explanation": "［精准定位］第五段⑥⑦句指出：乡村得到了发展且将一直发展下去，而在村镇边缘建设并尊重其特征的做法最为可取。而③④句指出：在游说团体的压力下，Osborne支持乡村新建，支持城外购物场所建设。言外之意为：Osborne的做法与这种可取的做法背道而驰，不尊重乡村的特征。［A］正确。\n\n［命题解密］正确项［A］由第三四句Osborne的做法以及第六七句作者所建议的做法对比推断得出。\n\n［B］利用①②句中housing crisis, need for more houses干扰，文中指出“住房危机等同于将草地变成混凝土建筑纯粹是游说之词，问题不是需要更多房屋而是建在哪里”，可见作者意在强调“住房危机并非需要在乡村建房的合理借口”，由此并不能推知Osborne强调缓解住房危机。［C］与③句Under lobby pressure...（在游说团体的压力下……）文意相悖。［D］与③句against urban renovation and renewal（反对城市改造更新）相悖，Osborne反对城市更新并非出于“对城市的偏见”，而是出于“对游说团体的顺从”。\n\n［技巧总结］本题就作者对George Osborne的观点态度进行考查。通常作者态度往往体现在字里行间的用词色彩上（褒义、贬义、中性）；在涉及对比的语段中，往往体现在作者对不同立场的取舍上。本题中，首先由Under lobby pressure（迫于游说团体的压力）以及a biased one（有偏见/不公允的市场）可知作者对Osborne持批评态度，进而排除［B］与［C］（均含肯定色彩）；再结合后文作者对乡村建设的建议（building sticks to their edges and respects their character）对比Osborne的实际做法，即可得知唯有［A］跟countryside搭边，且指出了 Osborne对乡村的忽视，故正确。",
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f6e70ba5-e837-5ed3-a084-99afe51db7cd",
@@ -1125,10 +1224,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］第六段③句指岀半个世纪的城乡规划使得拥挤度位居欧洲第二的英国拥有令人艳羡的乡村协调性以及低密度城市居住条件，很明显作者对英国城乡规划表示欣赏。［C］正确。\n\n［命题解密］题干 + 正确项［C］是对第六段③句 town and country planning has enabled... enviable rural coherence... low-density urban living 的合理推断。\n\n［A］利用②句所述“英国是欧洲最拥挤的国家(Britain is Europe's most crowded country)”制造出“英国人口规模(the size of population)”的干扰，但原文中作者并未对英国人口大小表示欣赏。［B］“英国令人羡慕的城市生活方式(the enviable urban lifestyle in Britain)”干扰来自③句“令人羡慕的乡村协调性(an enviable rural coherence)”，但作者谈到乡村协调性是为了表达城乡规划的成功。［D］“当今英国政治生活(the political life in today's Britain)”干扰来自⑤句“政治光谱上的左派和右派(the left and right of the political spectrum)”，但作者意指团结政治力量保护乡村，而非表达对政治生活的欣赏。\n\n［技巧总结］作者于末段针对全文所述问题提出建议并表明态度，且提及正反两个事例，命题人于此设置态度细节题旨在考查对事实信息的分辨以及对全文主旨的把握。解题关键在于：1)理解作者的建议(should be..., not...)、呼吁(rather than... should...)；2)理解文中两个事例(Britain VS Southern Portugal, Spain or Ireland)的正反关系；3)体味形容词副词(enviable, still permitting...)等传达的作者态度；4)意识到作者所赞同的必定与文章论述主题挂钩或相近，而不是生疏的细枝末节。\n具体来看，文章一直围绕乡村开发还是保护、城乡规划的问题而展开，［C］ the town-and-country planning in Britain最接近主题；且末段③④句提到了英国的城乡规划带来了令人羡慕的乡村和谐和低密度城市生活(enviable rural coherence, low-density urban living)，体现出作者的赏识，故［C］正确。",
-      "points": 2,
+      "explanation": "［精准定位］第六段③句指岀半个世纪的城乡规划使得拥挤度位居欧洲第二的英国拥有令人艳羡的乡村协调性以及低密度城市居住条件，很明显作者对英国城乡规划表示欣赏。［C］正确。\n\n［命题解密］题干 + 正确项［C］是对第六段③句 town and country planning has enabled... enviable rural coherence... low-density urban living的合理解读，其中 appreciation 对应原文 enviable。\n\n［A］源自②句Europe's most crowded country,但文中意在说明英国拥挤程度之高（反衬城乡规划的重要作用），而非欣赏英国的人口规模。［B］根据③句enviable, urban living捏造出“令人羡慕的城市生活”，但文中enviable修饰的是rural coherence（乡村和谐协调），而非urban living。［D］为全文的引申信息，但纵观全文，作者一直强调“政党不支持乡村保护”，故作者不可能对其表示欣赏。\n\n［技巧总结］题干问及“作者对……的欣赏”，结合选项内容可知，本题考查考生对第六段具体细节的理解。本题解答可借助褒义词enviable迅速反推答案：纵观第六段，唯有③句中使用了具有明显褒贬色彩的形容词enviable（令人羡慕的），从而确定答题范围为③句；随后细读该句：Half a century of town and country planning has enabled it to retain an enviable rural coherence, while still permitting low-density urban living（半个世纪的城乡规划使得拥挤度位居欧洲第二的英国拥有令人艳羡的乡村协调性，同时还允许低密度的城市生活），由主语Half a century of town and country planning以及谓语动词has enabled可知，英国之所以拥有令人艳羡的乡村协调性（enviable rural coherence），以及低密度的城市生活（low-density urban living)，体现出作者的赏识，故［C］正确。",
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "c5ab2dfe-7d27-5867-9e05-f1ab4aa74dd0",
@@ -1160,10 +1262,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］首段①句先介绍Friedman观点，②句则转折指出作者看法“即便你接受Friedman的基本观点，事情也可能并非那么绝对”，③句引用最新研究发现具体说明作者观点“CSR能为企业创造货币价值”。可见作者对Friedman观点持怀疑态度，［B］正确。\n\n［命题解密］正确项［B］是对首段②③句 Even if you accept... things may not be absolutely clear-cut... CSR may create monetary value for companies 中所传达作者态度的合理推断。\n\n［A］没能正确把握“度”：tolerance虽含有一定的“质疑”，但总体为“接受”态度。［C］对②句accept Friedman's premise断章取义，认为作者赞同Friedman观点，但Even if（就算）暗示“Friedman的观点实则难以令人接受”。［D］将②句things may not be absolutely clear-cut（作者认为Friedman观点过于绝对）曲解为“作者对Friedman观点持不确定态度”。\n\n［技巧总结］开篇引用人物观点/话语主要有“批驳立意（反向）”和“援引入题（正向）”两个方向。确定方向主要有以下几种办法：1. 句间以及句内逻辑衔接词所提示的论证逻辑；2. 蕴含情感色彩的形容词、副词、甚至动词、名词等所体现的作者态度；3. 两者观点具体信息所指方向。此外还需注意：文中的研究发现（尤其是最新研究发现）往往和作者观点一致；让步假设、虚拟语气等的真实语义和表面含义通常相反。",
-      "points": 2,
+      "explanation": "［精准定位］首段①句先介绍Friedman观点，②句则转折指出“即便认同其前提假设，……，事实可能也非绝对分明”，③句则指出新研究表明CSR能够给企业带来货币价值。由此可推知，作者对于Friedman的言论持怀疑态度，［B］正确。\n\n［命题解密］由①句wrote Milton Friedman, a Nobel Prize-winning economist可知作者对Friedman的身份给予了客观介绍；紧接着在②句以But even if you accept Friedman's premise...引出自己的看法，其中premise说明Friedman言论仅仅是一家之言（属于未经验证的前提假设），things may not be absolutely clear-cut则直接针对Friedman言论提出质疑；最后在③句借New research（新研究发现）直接驳斥Friedman观点，由此可知作者对Friedman言论持怀疑态度，即［B］正确。\n\n［A］“宽容”、［C］“认可”与文意相悖；［D］“不确定”，纵观全文，作者态度十分明确（借助研究结论肯定CSR的积极价值，反驳Friedman言论），而非不确定。\n\n［技巧总结］作者观点态度题的解答关键在于：1）把握文章主旨大意；2）理清各观点持有者之间的逻辑关系；3）关注带有褒贬色彩的词汇或特殊句式。一般而言，转折连词（如本题中的But）、作者对论据（或某一观点）的评价性话语（如本题中的things may not be absolutely clear-cut）、以及具有公信力的新近事实（如本题中借引的新研究发现）往往和作者观点一致；让步假设、虚拟语气等的真实语义和表面含义通常相反。",
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f24021e3-ef9b-5c7d-8989-79cfd2527395",
@@ -1195,10 +1300,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］第二段介绍了 CSR使企业增值的三种方式：一、消费者将CSR看作是企业产品质量高的标志；二、消费者出于间接捐助慈善事业的心理愿意购买产品；三、CSR使消费者及他人对企业更加关注并认可。可见这三种方式共同之处在于“为企业赢得来自消费者的信任”，［C］正确。\n\n［命题解密］［C］抓住了③④⑤句核心关键人物consumers/customers，并概括提炼出内容背后信息：消费者对注重CSR投入的企业持认同和信任态度。\n\n［A］malpractices（不法行为）源自第一段末句 when they are prosecuted for corruption，但将 CSR 能使企业“因不法行为受诉时受罚较轻”改为“避免做出不法行为”。［B］夸大了第二段⑤句内容“CSR能为企业赢得更多尊重（earn it greater consideration）”，事实上若企业确实行为不当，CSR未必能保护企业免受指摘，顶多能够缓解而已。［D］利用第二段③句词汇high quality设置干扰，但将原文内容CSR会“使消费者认为企业产品质量高（consumers may take... as... products are of high quality）”篡改为“使企业提高其产品质量”。\n\n［技巧总结］由题目设问方式According to Paragraph 2, CSR helps a company by可知本题既可是“事实细节题（对应第二段②③④所述CSR为企业增值的三种方式之一）”，又可是“事实概括题（体现三种方式共同特征）”。前一种情况考生只需将选项回文定位，找到与某一句内容一致的选项即可。而后一种情况则难度较大，需要考生对所涉及的内容进行总结提炼，找出其共同指向，具体可采用“提炼法”与“排除法”相结合的策略。首先排除与③句内容明显不符的［D］（偷换行为主体）。其余选项需要综合③④⑤句内容进行筛选：三句均出现 consumers... customers... consumers，且 take... a company's products are of high quality... be willing to buy a company's products... greater consideration 均和企业产品及企业本身所受关注度、信任度相关，可初步推知［C］正确；而［A］与［B］与该部分信息无直接关联，可排除。",
-      "points": 2,
+      "explanation": "［精准定位］第二段介绍了 CSR使企业增值的三种方式：一、消费者将CSR看作是企业产品质量高的标志；二、消费者出于间接捐助慈善事业的心理愿意购买产品；三、CSR使消费者及他人对企业更加关注并认可。可见这三种方式共同之处在于“为企业赢得来自消费者的信任”，［C］正确。\n\n［命题解密］［C］抓住了③④⑤句核心关键人物consumers/customers,并概括提炼出内容背后信息：无论是第一种方式中所提及的“将CSR视作企业产品质量高的标志(take... as a signal that...)”，还是第二种方式中所提及的“出于间接捐助慈善事业的心理愿意购买产品(willing to buy... as an indirect way to donate...)”，亦或是第三种方式中所提及的“赢得来自消费者及他人的尊重(earn greater respect from both consumers and others)”，均与“赢得消费者信任(winning trust from consumers)”密切相关。\n\n［A］利用第二段末句halo effect（光环效应）设置干扰，将第三段首句消费者可能受到所有三种效应的影响、以及行贿诉讼偷换概念为防范企业做出不法行为。［B］将文意偷换为保护企业名誉免遭诋毁。［D］对第一种方式断章取义，由consumers may take CSR spending as a signal that a company's products are of high quality（消费者可能会将企业在CSR上的花销看作是企业产品高质量的标志）捏造出“提高企业产品质量”，但实际上这只是消费者的主观认知而非客观事实。\n\n［技巧总结］由题目设问方式According to Paragraph 2, CSR helps a company by可知本题既可是考查第二段主旨，也可能是事实细节考查。浏览第二段可知，该段论述了CSR使企业增值的三种方式，且各方式均与消费者对于企业的信任度相关，可初步推知［C］正确；而［A］与［B］与该部分信息无直接关联，可排除。",
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "55bbd2d0-35c5-58e4-80d8-17bc07d49cb7",
@@ -1230,10 +1338,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］第四段①句（考查词所在句）指出：研究发现CSR计划最全面的企业往往会获得______的处罚。②句进一步指出，研究排除了“由于企业的政治影响力，而非其CSR立场使它们获得宽大处理”的可能：为政治活动捐款更多的企业受到的罚款并不更低。可见，more lenient大概含义为“较轻的处罚，较低的罚款”，［D］正确。\n\n［命题解密］［D］ less severe正确解读②句对①句的补充解释逻辑，体现more lenient penalties与lower fines的同义关系。\n\n［A］从第四段②句ruled out... that it was firm's political influence（排除了企业的政治影响力因素的干扰）推出“处罚较为公正、较不具争议性”，但这里为研究方法，与“被诉企业的受罚情况”无关。［B］将第四段②句 it was firm's political influence, rather than their CSR stand, that accounted for the leniency曲解为“政治处罚比CSR处罚更为有效”，从而设置干扰more effective，但由上文可知，CSR会给企业带来“收益”，而不是“惩罚”。［C］利用第二段末句以及第三段所体现的halo effect（光环效应）的性质“更加扩散、持久”设置干扰more lasting，但所考词修饰的是penalties（惩罚）。\n\n［技巧总结］本题就“研究发现”中的关键词设置词义推断题。对于此类题目，除了常规的词义推断方法“通过判断句间关系在上下文中寻找所考词汇的同义词、近义词、上下义词或者反义词”之外，还必须要结合“研究目的”、“研究对象”、“研究结论”等来理解，正确项应能在其间形成顺滑一致的逻辑关系。如本题的解答，通过判断第四段①②句间为补充解释关系，得知leniency与lower fines同义，基本确定［D］正确。再结合研究目的（区分CSR的三种效应、验证光环效应的影响）、研究方式（研究美国的行贿诉讼案例）以及第一段便已经明确的研究结论（CSR的光环效应能使企业在被诉时受益），可推知研究发现（考查词所在句内容）：CSR计划最全面的企业在被诉时受罚较轻，确定［D］为答案。而其他三项则无法在其间建立顺滑的逻辑关系，故排除。",
-      "points": 2,
+      "explanation": "［精准定位］第四段①句（考查词所在句）指出：研究发现CSR计划最全面的企业往往会受到更宽大的处罚。②句随即解释该现象，指出原因在于企业在CSR方面的立场（CSR stand），并于冒号后对该立场进行说明：政治竞选捐款较多的企业并未获得较低罚款。由解释说明逻辑可知，lower fines与more lenient penalties语义同向，故判断出［D］正确。\n\n［命题解密］题干more lenient与正确项［D］less severe同义。从语法结构上来看，题干所在句与下文解释说明部分构成取舍关系，通过排除政治捐款的影响，突显CSR对减轻企业处罚的重要作用。\n\n［A］利用第四段中ruled out the possibility设置干扰，臆断出受到的处罚“争议较小”，偏离文意。［B］“更有效”和［C］“更持久”均无法与句中penalties形成合理搭配。\n\n［技巧总结］词义推断题的解题关键在于：在明确代入该词的句子信息的基础上，结合上下文语境（尤其是相邻句之间的逻辑关系：如因果、解释说明、并列或对比等），寻找同义复现或反义线索，以确保段落间建立起顺滑一致的逻辑关系。如本题的解答，通过判断第四段①②句间为补充解释关系，得知leniency与lower fines同义，基本确定［D］正确。再结合研究目的（区分CSR的三种效应、验证光环效应的影响）、研究方式（研究美国的行贿诉讼案例）以及第一段便已经明确的研究结论（CSR的光环效应能使企业在被诉时受益），可推知研究发现（考查词所在句内容）：CSR计划最全面的企业在被诉时受罚较轻，确定［D］为答案。而其他三项则无法在其间建立顺滑的逻辑关系，故排除。",
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "d99a963f-d4eb-5d8a-87be-09e52ede7a9e",
@@ -1266,9 +1377,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］根据题干直接定位至第五段。该段首句指出，检察官原本应该只是基于案情本身进行评判，但实际上他们确实会受到公司CSR记录的影响，可见［A］符合文义。\n\n［命题解密］正确项［A］ has an impact 是对原文 they do seem to be influenced by a company's record in CSR的同义改写。\n\n［B］将检察官“基于案情本身判案，但难免受公司CSR记录的影响(seem to be influenced by)”夸大为“将公司CSR记录视为判案可靠证据(reliable evidence)”。［C］对②句increasing... by about 20% result in fines断章取义，从而将文中完整信息“企业捐赠提高20%/即CSR记录佳，则罚款会降低40%”改为“CSR记录会使得公司受罚可能性增加”。［D］对“检察官判案受企业CSR记录影响”过度推断出“企业CSR记录是检察官调查的一部分(constitutes part of the investigation)”，但由第三段可知，这种影响并非来自“调查”，而是来自“光环效应”。\n\n［技巧总结］本题就第五段所述的“研究结论”命制事实细节题。对于该类题型，需从两个角度加以考虑：①遵循事实细节题正确项的一般原则“题干+正确项=//~原文某句”；②注意“研究是为了论证文章主旨，研究结论体现的便是文章主旨”，故题干+正确项应与文章主旨高度契合。如本题题干+正确项 ［A］ When prosecutors evaluate a case, a company's CSR record has an impact on their decision 对应①句主要内容 they/prosecutors do seem to be influenced by a company's record in CSR，又体现了文章主旨，企业CSR会在其被诉时创造货币价值。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "47695546-3425-5746-b6b9-866d98793294",
@@ -1301,9 +1415,12 @@
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］末段首句指出，研究未能回答“企业应该在CSR上投入多少”这一问题，也即企业在CSR上具体的必要花费数额尚不得而知，［B］正确。\n\n［命题解密］正确项［B］是对末段首句their study does not answer the question of how much businesses ought to spend on CSR 的同义改写。\n\n［A］误认为末段③句get into trouble with the law... costly punishment 是在介绍“CSR 被人们所忽视的负面影响”，而实际上该句是在说明CSR最起码的积极作用。［C］将末段①句信息“研究未能解答企业应该在CSR上投入多少”曲解为“研究高估了企业的CSR支出能力/CSR财政能力”。［D］根据末段②句词汇banking望文生义、捏造出“CSR能为银行业带来很多收益”，而实际上banking on意为“指望”，和“银行业”无关。\n\n［技巧总结］从原文来看，命题的陷阱在于取舍结构、倒装句、否定句等特殊句式。从选项来看，命题人通常会采用望文生义（文中取某词僻义或特殊用法，选项却用其常见含义）、断章取义（不是整体理解句子信息，而是将个别词汇糅杂到一起形成完整的语句）等方式形成干扰。本题中，根据［A］negative effect、［B］spending on、［C］financial capacity、［D］banking industry 不难分别定位至③句、①句、①句、②句，但需要借助语法知识、语义逻辑、以及文章主题等才能理解到［C］曲解文意、［A］断章取义、［D］望文生义，只有［B］是对①句主要内容的同义表达。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "dfa9db38-90bb-5ffb-b741-b8140360eb71",
@@ -1311,7 +1428,7 @@
       "passage_id": "2c619eac-7752-5443-86a8-608d752b3c82",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The New York Times is considering ending its print edition partly due to",
+      "stem": "The New York Times is considering ending its print edition partly due to ________.",
       "options": [
         {
           "key": "A",
@@ -1334,11 +1451,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "36.《纽约时报》考虑停止其印刷版本，部分原\n\n因在于\n\n。\n\n[A] the high cost of operation\n\n【A】运营成本高昂\n\n[B] the increasing online ad sales\n\n【B】网络版广告销量日益增长\n\n[C] the pressure from its investors\n\n【C】来自投资人的压力\n\n[D] the complaints from its readers\n\n【D】来自读者的抱怨\n\n【命题解密】正确项【A】是对第二段②句的概括，the high cost对应expensive,excessive;operation对\n\n应 The infrastructure required to. .. 0\n\n【B】与第二段④句前半句“纸质版广告销量仍高于网络版广告”形成反向干扰；【C】从第一段“《纽约\n\n时报》终有一天会停印纸质版”和第二段“纸质版的印制成本甚高”臆断出“投资人对其施压”;【D】由第二\n\n段③句“读者正在逐步抽离纸质版转向网络版或手机版”曲解出“读者对纸质版有抱怨”。\n\n【技巧总结】因果细节题的常规解答步骤为：一、于文中找寻因果表达词，",
-      "points": 2,
+      "correct_answer": "A",
+      "explanation": "［考点提炼］因果事实细节题。\n［精准定位］第二段①②句指出报纸放弃印刷版的充足动力：The infrastructure required to make a physical newspaper - printing presses, delivery trucks - isn't just expensive; it's excessive at a time when online-only competitors don't have the same set of financial constraints.\n［命题解密］维持实体印刷版的印刷机、送货车等基础设施造价高昂，甚至在网络竞争对手面前显得过于昂贵，即高昂的运营维护成本，[A] the high cost of operation 正确对应 expensive 和 excessive。\n［错项排除］[B]项与第四句 print ad sales continue to dwarf their online... 形成的反差不符；[C]项投资者施压与[D]项读者投诉在文中均未提及。",
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b662fd6b-af42-5d8d-9775-0a06acc0c3d3",
@@ -1346,7 +1466,7 @@
       "passage_id": "2c619eac-7752-5443-86a8-608d752b3c82",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Peretti suggests that, in face of the present",
+      "stem": "Peretti suggests that, in face of the present situation, the Times should ________.",
       "options": [
         {
           "key": "A",
@@ -1370,10 +1490,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "37. Peretti suggests that, in face of the present \nsituation, the Times should \n.\n37. Peretti指出，面对当前形势，《纽约时报》应 \n该 \n。\n[A] end the print edition for good\n［A］永久性停止印刷版\n[B] make strategic adjustments\n［B］做出战略性调整\n[C] seek new sources of readership\n［C］寻找新的读者资源\n[D] aim for efficient management\n［D］以高效管理为目标\n［精准定位］文章第三、四、五段均言及Peretti针对《纽约时报》纸质版当前困境所发表的看法，如第 \n三段“仓促终结纸质版将会是个错误”、第四段“不该在淘汰纸质版上浪费时间，而应以对的方式来做此 \n事，想办法加速转型”以及第五段“有时候值得一变，提高纸质版价格并将其改变为传承品”，由这些信息 \n可知,Peretti认为《纽约时报》应该变换思路、做出战略性调整，即［B］正确。\n［命题解密］正确项是对第三、四、五段中Peretti观点（rushing to eliminate... would be a mistake、 \nshouldn't waste time. . . but only if. . . the right way,Figuring out a way to accelerate that transition would \nmake sense for them,Sometimes that's worth making a change）的全面概括。\n［A］与第三段“匆匆终止纸质版将是个错误”形成反向干扰；［C］根据第四段②句“停止纸质版将伤 \n及最忠实的读者”捏造出“应该选择新的读者资源”，而文意重心在“利用现有最忠实的读者将纸质版进 \n行战略性调整转型”;［D］将《纽约时报》面临的窘境由“纸质版的存留”偷换为“管理的低效/无效”。\n［技巧总结］解答涉及诸多细节",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点理解题。\n［精准定位］第三段至第五段Peretti指出：急于淘汰纸质版是个错误（rushing to eliminate... would be a mistake），不应彻底放弃忠实读者，而是可以通过提高售价将其转变为传承奢侈品（raise prices and make it into more of a legacy product）。\n［命题解密］Peretti建议不要一刀切停印，而是因势利导改变定位与定价策略，[B] make strategic adjustments（做出战略性调整）高度概括其策略主张。\n［错项排除］[A]项永久停印恰恰是Peretti明确反对的愚蠢做法；[C]项寻找新读者与关注忠实拥趸（most loyal customers）相悖；[D]项以高效管理为目标偏离文章产品转型的重心。",
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "38e93748-e4d6-5367-95b5-d3a81301eb98",
@@ -1381,7 +1504,7 @@
       "passage_id": "2c619eac-7752-5443-86a8-608d752b3c82",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It can be inferred from Paragraphs 5 and 6 that a",
+      "stem": "It can be inferred from Paragraphs 5 and 6 that a \"legacy product\" ________.",
       "options": [
         {
           "key": "A",
@@ -1405,10 +1528,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "38. It can be inferred from Paragraphs 5 and 6 that a \nu legacy product \n.\n3&从第五、六段可以推知“传承产品”\nO\n[A] helps restore the glory of former times\n［A］有助于恢复昔日辉煌\n[B] is meant for the most loyal customers\n［B］专为最忠诚的顾客打造\n[C] will have the cost of printing reduced\n［C］会让印刷成本降低\n[D] expands the popularity of the paper\n［D］加大报纸受欢迎程度\n［命题解密］第五段末句涉及题干关键词legacy product,但仅仅透露“价格高昂”这一信息；第六段 \n才对Peretti的这一理念作出说明。正确项［B］是从两段，尤其是第六段④句信息（make it for the people \nwho are already obsessed with it）中推出的合理结论。\n［A］利用第六段①句片段信息helping sustain the quality of...设置干扰，但这是Peretti所言“最忠 \n实客户之所以愿意购买高价的纸质版报纸”的背后心理，而不是legacy product本身的效力；此外sustain \n（维持、保持）也不同于选项的restore（使复原、重建）。［C］由第二段“《纽约时报》纸质版成本过高”主观 \n得岀“Peretti的建议能降低印刷成本”的结论，而第六段③句明确指出传承产品的终极目的是“创造额外 \n收入”而非“降低印刷成本”。［D］与第六段③句“纸质版专为痴迷于纸质版的最忠实读者而设”相悖。\n［技巧总结］涉及文章要点的抽象概念往往是命题对象。此类题往往“信息较多而又不够简洁明 \n显”，解题关键在借助逻辑词理清句意关系、找准核心信息。如本题，抽象概念legacy product于第五段 \n末句首次提出，而根据第六段首句the idea goes不难推断接下来",
-      "points": 2,
+      "explanation": "［考点提炼］段落推理判断题。\n［精准定位］第六段①④句：The most loyal customers would still get the product they favor... In other words, look at print as a luxury, and make it for the people who are already obsessed with it.\n［命题解密］所谓传承产品（legacy product）就是将纸质报纸作为一种奢侈品，专供那些对其深深入迷、甚至心甘情愿支付高溢价的最忠实客户，[B] is meant for the most loyal customers 是最核心的本质特征。\n［错项排除］[A]项恢复往昔辉煌脱离实际；[C]项并未减少印刷成本；[D]项扩大知名度与定位小众忠实读者群体的策略完全相反。",
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "083829d9-33d6-5e41-a849-b6bbca55369e",
@@ -1416,7 +1542,7 @@
       "passage_id": "2c619eac-7752-5443-86a8-608d752b3c82",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Peretti believes that, in a changing world,",
+      "stem": "Peretti believes that, in a changing world, ________.",
       "options": [
         {
           "key": "A",
@@ -1440,10 +1566,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "39. Peretti believes that, in a changing world, \n・\n39. Peretti认为，在不断变化的世界中,。\n[A] traditional luxuries can stay unaffected\nEA3传统奢侈品能独善其身\n[B] cautiousness facilitates problem-solving\n[B]谨慎有助于问题的解决\n[C] aggressiveness better meets challenges\n[C]积极进取能更好应对挑战\n[D] legacy businesses are becoming outdated\n[D]传承业务正在变得过时\n\n［精准定位］末段②③句直接引用Peretti原话：当市场和现实世界都发生变化时，BuzzFeed如若做 \n事不明智、不合时宜，也将会遇见与《纽约时报》相类似的传承业务的挑战；届时，BuzzFeed应有更多一些 \n积极进取精神。可见，Peretti认为：在日益变化的世界中，积极进取更能应对挑战，即［C］正确。\n［命题解密］题干+正确项是文末句的同义改写；其中题干in a changing world即对应In those \nsituations（回指②句 have questions like that where.. . when the market changes and the world changes）, \n正确项对应 it's better to be more aggressive than less aggressiveo\n［A］先由①句luxury Jegacy杂糅出traditional luxuries,再将其与常识背景结合捏造出\"传统奢侈品 \n能独善其身、不受世界变化的影响”；而文中并未谈及“传统奢侈品、现代奢侈品”，同时也与文意“时代在 \n变，所做事情也应做出相应改变才能历久弥新”相悖；［B］源自③句，却与句意“更多冲劲更好\"形成反向 \n干扰；［D］由①句doesn't have a legacy business捏造而来，",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点态度题。\n［精准定位］第七段末句Peretti总结道：In those situations, it's better to be more aggressive than less aggressive.\n［命题解密］当市场与世界发生巨变、过去的做法不再奏效时，更加积极进取比谨小慎微更能从容应对挑战，[C] aggressiveness better meets challenges 与原文原词精妙吻合。\n［错项排除］[A]项传统奢侈品不受影响与全文求变理念不符；[B]项主张谨慎行事与原文 more aggressive 正好相反；[D]项断言传承业务彻底过时过于武断绝对。",
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8abc9a35-3865-52fb-b581-8f500bf1bb54",
@@ -1474,11 +1603,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "40. Which of the following would be the best title of the text?\n40.下面哪项最适合作为本文的题目？\n[A] Shift to Online Newspapers All at Once\n［A］立刻转向在线报纸\n[B] Make Your Print Newspaper a Luxury Good\n［B］让你的纸质报纸成为一种奢侈品\n[C] Keep Your Newspapers Forever in Fashion\n［C］让你的报纸永远保持时尚\n[D] Cherish the Newspaper Still in Your Hand\n［D］珍惜仍然还在你手中的报纸\n［精准定位］前两段铺设《纽约时报》考虑放弃纸质版的背景及原因，末五段阐述BuzzFeed公司CEO \nPeretti的看法及建议：第三段明确其态度“匆匆放弃纸质版并不明智”;第四五段提出建议“提高价格，将 \n其打造为传承产品”，第六段对传承产品做出说明“专为痴迷于产品的人而做”，末段重申并总结看法“当 \n所做之事与时代背景脱节之时，应大胆突破以迎接挑战而非逃避问题（即，不该直接喊停纸质版而应对 \n其做出战略性调整以求突破）”。由此可见，全文意在借Peretti之言向传统报纸行业提出一种建议:转型 \n为一种“少数最忠实的顾客乐在其中”的昂贵商品，唯有［B］最贴合。\n［命题解密］正确项中Print Newspaper为全文高频复现词,Make.. . a Luxury Good高度概括第五 \n段⑥句 raise prices and make it into..・ legacy product、第六段③句 increase it at a higher rate each year 及 \n④句make it for. . . obsessed with让所暗含的“价高、珍稀、只有少部分人才能享有的”这一性质。\n［A］利用第二段③句 Readers are migrating away...和④句 revenue from print is de",
-      "points": 2,
+      "correct_answer": "B",
+      "explanation": "［考点提炼］文章标题归纳题。\n［精准定位］全文开篇陈述纸质《纽约时报》终将走向终结的行业困局，随后借BuzzFeed CEO Peretti的建言，深入论证传统报业不应仓促关停纸质版，而应提价并将其打造成供忠实受众享用的传承奢侈品（look at print as a luxury）。\n［命题解密］[B] Make Your Print Newspaper a Luxury Good（让你的纸版报纸成为奢侈品）契合原刊标题（Make Them a Luxury Good），精准概括全文核心破局方案。\n［错项排除］[A]项一蹴而就转入网络正是文中反对的鲁莽行为；[C]项让报纸永远保持流行脱离现实；[D]项珍惜手中报纸流于感性怀旧，偏离商业战略调整的主题。",
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "B",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "29ee1eb8-1186-5659-bb3e-74eabda56114",
@@ -1486,7 +1618,7 @@
       "passage_id": "0599eef5-ae6e-58cf-9ef0-a7e21e5baff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (41):",
+      "stem": "Choose the best heading [A]-[G] for paragraph (41).",
       "options": [
         {
           "key": "A",
@@ -1525,10 +1657,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "41. 【答案】C 【精解】第四段首先指出作者见证过形象提升对过渡期职场人士的帮助，继而分情\n\n况介绍如何判断是否是提升自身形象的好时机，段中表示时间的词汇和短语during transitions, in a\n\nperiod of , a good time表明，在不同的时间段有不同的策略。浏览小标题可知，只有选项【C】 Decide if\n\nthe time is right出现了表示时间的词汇，且段中第二句中的good与小标题中的right也恰好对应，【C】\n\n为对本段内容的恰当概括。\n\n【干扰项设置】根据首句提到的image upgrades很容易将【A】Create a new image of yourself当作正\n\n确项，认为可由“作者见证过很多形象提升特别有用的实例”推出作者意在“号召打造新形象”。但段落\n\n标题不能只契合某一句，而应该契合整段主旨，继续阅读下文可知，本段主要介绍如何判断提升形象的\n\n合适时间，【A】选项不能概括段落主旨，故排除。",
-      "points": 2,
+      "explanation": "［考点提炼］小标题匹配题。\n［精准定位］第四段讨论何时应该进行形象升级：指出形象升级并不能适用于每种情况，但在职业过渡期（in a period of transition）则是重新评估形象的合适时机（a good time to reassess your image）。\n［命题解密］全段关键词围绕 a good time 和是否需要升级展开，[C] Decide if the time is right（判断时机是否合适）准确概括本段中心论点。\n［错项排除］[A] Create a new image of yourself 过于宽泛，无法体现本段对时机的权衡考量。",
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f99263e3-ac44-51ba-8f23-463e9724d07c",
@@ -1536,7 +1671,7 @@
       "passage_id": "0599eef5-ae6e-58cf-9ef0-a7e21e5baff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (42):",
+      "stem": "Choose the best heading [A]-[G] for paragraph (42).",
       "options": [
         {
           "key": "A",
@@ -1575,10 +1710,13 @@
         }
       ],
       "correct_answer": "F",
-      "explanation": "42. 【答案】F 【精解】第五段首句给岀建议：明确你希望自己有什么样的影响，后文举例说明不同\n\n的人目标不同，其关键词为the goal„因此本段的重点在于\"目标\"，【F】选项Know your goals与段意契\n\n合，且选项中的know与首句的get clear为同义表达。",
-      "points": 2,
+      "explanation": "［考点提炼］小标题匹配题。\n［精准定位］第五段首句总领：Get clear on what impact you're trying to achieve. 末尾明确指出：Once you know your goal, it's easier to create a look that aligns with it.\n［命题解密］全段强调明确自己想通过外在形象达到的目标与影响力，[F] Know your goals（明确你的目标）为原文 your goal 的直接对应。\n［错项排除］其他选项均未涉及目标（goals）与预期成效的设定。",
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "629f30ad-b44e-5f73-9ffd-9da04705f2a5",
@@ -1586,7 +1724,7 @@
       "passage_id": "0599eef5-ae6e-58cf-9ef0-a7e21e5baff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (43):",
+      "stem": "Choose the best heading [A]-[G] for paragraph (43).",
       "options": [
         {
           "key": "A",
@@ -1625,10 +1763,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "43、【答案】D\n【解题方法】复现结构+无关词排除\n【解析】首先定位本段的中心主旨。本段首句是典型的总述性概括句：Look at your work environment like an\nanthropologist．该句的核心主题是work environment，想表达的意思是“审视你的工作环境”。该句之后出现的四个\n疑问句都在进一步详述这个主题。本段尾句再一次围绕着本段主题做了详述，句中出现了understand the cultural\ncontext。根据这些主题关键线索，对比剩余选项，如下：\n[A] Create a new image of yourself\n[B] Decide if the time is right\n[E]Work with professionals\n[F]Make it efficient\n上述选项中的核心主题与本段的主题不匹配，都可以排除。只有选项[D]Understand the context 与本段的主\n题完全相符，因此为最佳答案。",
-      "points": 2,
+      "explanation": "［考点提炼］小标题匹配题。\n［精准定位］第六段建议像人类学家一样审视工作环境：Look at your work environment like an anthropologist. 段末总结：The better you understand your context, the more control you can have over your impact.\n［命题解密］全段剖析所处行业与公司的风气与环境脉络，[D] Understand the context（了解你所处的环境/语境）与段末原词完美呼应。\n［错项排除］其他选项均脱离了对工作环境与背景规范的考察。",
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "7a372dc6-4dd0-5ae1-942f-d2da7aebc904",
@@ -1636,7 +1777,7 @@
       "passage_id": "0599eef5-ae6e-58cf-9ef0-a7e21e5baff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (44):",
+      "stem": "Choose the best heading [A]-[G] for paragraph (44).",
       "options": [
         {
           "key": "A",
@@ -1675,10 +1816,13 @@
         }
       ],
       "correct_answer": "E",
-      "explanation": "44. 【答案】E 【精解】第七段首句开门见山提出建议:谋求专业人士的帮助，后文举例介绍具体应\n\n如何谋求他们的帮助，其关键词为professionals.因此，选项【E】Work with professionals与全段内容统\n\n—，其中 professionals 包含段中提到的 personal stylist,hair stylist 以及 professional photographer„",
-      "points": 2,
+      "explanation": "［考点提炼］小标题匹配题。\n［精准定位］第七段首句开门见山：Enlist the support of professionals. 接着具体建议雇佣形象造型师（hiring a stylist）或向懂行的销售人员请教。\n［命题解密］[E] Work with professionals（与专业人士合作）与段首首句及 hiring a stylist 形成直接呼应。\n［错项排除］其他选项均未涉及寻求外部专业人员支持这一核心行动。",
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "96354400-bb07-503d-8968-181014881c75",
@@ -1686,7 +1830,7 @@
       "passage_id": "0599eef5-ae6e-58cf-9ef0-a7e21e5baff5",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (45):",
+      "stem": "Choose the best heading [A]-[G] for paragraph (45).",
       "options": [
         {
           "key": "A",
@@ -1726,9 +1870,12 @@
       ],
       "correct_answer": "G",
       "explanation": "45. 【答案】G 【精解】第八段首两句通过正反对比指出：提升形象不是为了变得更自负或花费更多时间考虑穿衣打扮，而是为了减少决策疲劳，提高效率；后文进一步介绍正确做法，即如何高效地提升形象。选项[G] Make it efficient 为对本段主要观点的概括，efficient 与段末两句的具体做法一致。\n【干扰项设置】根据首句的 become more vain（变得更加虚荣、自负），可能会将包含 confidence（信心）的[B] Have confidence in yourself 当作正确项。但首先 vain 与 confidence 语义及褒贬色彩不同，vain 强调“爱慕虚荣”，为贬义，confidence 为褒义；其次，文中针对 become more vain 予以否定，与[B]的肯定态度不符；再次，继续阅读本段可知后文主要针对如何提高效率提出建议，并非“要有自信”，故排除[B]选项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
   "exportedAt": "2026-10-15T11:40:23.330Z"
