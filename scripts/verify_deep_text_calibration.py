@@ -159,6 +159,7 @@ def main():
     round59_anomalies = []
     round60_anomalies = []
     round61_anomalies = []
+    round62_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3177,6 +3178,7 @@ def main():
     results["Assertion 81: 2013 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段351词、Text 1 恢复6段366词并补齐G.I. Bill完整句、Text 2 恢复5段402词理顺候鸟脉络、Text 3 恢复6段381词、Text 4 独立设问恢复7段356词、Part B 恢复6段504词含引言及[41]-[45]建议、切除全卷45题假占位符、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round59_anomalies) == 0)
     results["Assertion 82: 2014 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段284词、Text 1 恢复4段341词切除尾部拼接、Text 2 恢复6段415词彻底消除Q26/Q27题干倒灌与腰斩、Text 3 恢复5段380词补齐诺贝尔奖对比、Text 4 恢复6段412词切除Q37题干倒灌、Part B 恢复8段592词完整找回[B][C][D][E]四段、纠偏完型8题与阅读Q27、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round60_anomalies) == 0)
     results["Assertion 83: 2014 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段354词补齐腰斩句、Text 1 恢复4段392词消除黏连、Text 2 恢复5段397词补齐首段Ocean引述与Epley原话、Text 3 恢复4段391词治愈腰斩并理顺结尾设问、Text 4 恢复7段384词补齐政府与拨款计划论述、Part B 恢复8段499词规范艺术家分段切除杂质、Q34纠偏为真题原版选项、彻底治愈全卷45题question_number丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round61_anomalies) == 0)
+    results["Assertion 84: 2015 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段267词、Text 1 恢复7段410词补齐君主立宪选民服务论述、Text 2 恢复7段437词切除倒灌题干与伪造监听句并补齐云计算与汽车类比、Text 3 恢复6段438词还原Parmigiani/Ioannidis/Vaux三大权威引述、Text 4 恢复6段441词还原默多克之女讲话与审判真实表述、Part B 恢复5段324词剥离Directions与选项、Q22/Q32/Q38致命答案纠偏、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round62_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -3312,6 +3314,8 @@ def main():
             print(f"Round 60 anomalies ({len(round60_anomalies)}):", round60_anomalies[:10])
         if round61_anomalies:
             print(f"Round 61 anomalies ({len(round61_anomalies)}):", round61_anomalies[:10])
+        if round62_anomalies:
+            print(f"Round 62 anomalies ({len(round62_anomalies)}):", round62_anomalies[:10])
         if round58_anomalies:
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:
