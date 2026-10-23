@@ -155,6 +155,7 @@ def main():
     round55_anomalies = []
     round56_anomalies = []
     round57_anomalies = []
+    round58_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -185,6 +186,99 @@ def main():
                 round57_anomalies.append(('2012_ky2_title', title))
             if float(data['exam'].get('total_score', 0)) != 60.0:
                 round57_anomalies.append(('2012_ky2_total_score', data['exam'].get('total_score')))
+        if yr == 2013 and cat == 'ky1':
+            if title != '2013年全国硕士研究生入学统一考试英语（一）真题':
+                round58_anomalies.append(('2013_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round58_anomalies.append(('2013_ky1_total_score', data['exam'].get('total_score')))
+            
+            p_list = data.get("passages", [])
+            if len(p_list) != 6:
+                round58_anomalies.append(('2013_ky1_passages_count', len(p_list)))
+            else:
+                cloze = p_list[0]
+                c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round58_anomalies.append(('2013_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("People are, on the whole, poor at considering"):
+                    round58_anomalies.append(('2013_ky1_cloze_header', 'corrupted'))
+
+                t1 = p_list[1]
+                t1_paras = [p for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 6:
+                    round58_anomalies.append(('2013_ky1_t1_paras', len(t1_paras)))
+                if "The victims of this revolution, of course, are not limited to designers" not in t1.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t1_p3', 'corrupted'))
+                if "Overdressed is the fashion world's answer" not in t1.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t1_p4', 'missing'))
+                if "better clothes is good for both the planet" in t1.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t1_external_junk', 'present'))
+
+                t2 = p_list[2]
+                t2_paras = [p for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 7:
+                    round58_anomalies.append(('2013_ky1_t2_paras', len(t2_paras)))
+                if "It is suggested in Paragraph 1" in t2.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t2_stem_pollution', 'present'))
+                if "hoirified" in t2.get("content", "") or "Microsoffs" in t2.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t2_ocr_errors', 'present'))
+
+                t3 = p_list[3]
+                t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 7:
+                    round58_anomalies.append(('2013_ky1_t3_paras', len(t3_paras)))
+                if "the past holds the key to the future" not in t3.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t3_p6', 'missing'))
+                if "This long perspective makes the pessimistic view of our prospects" not in t3.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t3_p7', 'missing'))
+
+                t4 = p_list[4]
+                t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 7:
+                    round58_anomalies.append(('2013_ky1_t4_paras', len(t4_paras)))
+                if "to holds the key to" in t4.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t4_inverted_residue', 'present'))
+                if "In Arizona v. United States" not in t4.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t4_p2', 'corrupted'))
+                if "Two of the three objecting Justices—" not in t4.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_t4_p5', 'missing_header'))
+
+                pb = p_list[5]
+                if "[A] The idea is to force social scientists" not in pb.get("content", "") or "[B] The solution is to change the mindset" not in pb.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_pb_options', 'missing_A_or_B'))
+                if "[41] ____________" not in pb.get("content", "") or "[45] ____________" not in pb.get("content", ""):
+                    round58_anomalies.append(('2013_ky1_pb_gaps', 'missing'))
+
+            q_list = data.get("questions", [])
+            if len(q_list) != 45:
+                round58_anomalies.append(('2013_ky1_questions_count', len(q_list)))
+            else:
+                total_pts = sum(q.get("points", 0) for q in q_list)
+                if abs(total_pts - 60.0) > 1e-4:
+                    round58_anomalies.append(('2013_ky1_total_points', total_pts))
+
+                q22 = next((q for q in q_list if q.get("sort_order") == 22), None)
+                if not q22 or q22.get("correct_answer") != "B":
+                    round58_anomalies.append(('2013_ky1_q22_ans', 'not_B'))
+                else:
+                    opt_b = next((it["text"] for it in q22.get("options", []) if it["key"] == "B"), "")
+                    if "shop for their garments more frequently" not in opt_b:
+                        round58_anomalies.append(('2013_ky1_q22_opt_b', opt_b))
+
+                q23 = next((q for q in q_list if q.get("sort_order") == 23), None)
+                if not q23 or q23.get("correct_answer") != "D":
+                    round58_anomalies.append(('2013_ky1_q23_ans', 'not_D'))
+                else:
+                    opt_d = next((it["text"] for it in q23.get("options", []) if it["key"] == "D"), "")
+                    if opt_d != "accusation":
+                        round58_anomalies.append(('2013_ky1_q23_opt_d', opt_d))
+
+                pb_ans_map = {41: 'E', 42: 'F', 43: 'D', 44: 'G', 45: 'A'}
+                for qn, exp_a in pb_ans_map.items():
+                    q_obj = next((q for q in q_list if q.get("sort_order") == qn), None)
+                    if not q_obj or q_obj.get("correct_answer") != exp_a:
+                        round58_anomalies.append((f'2013_ky1_q{qn}_ans', q_obj.get('correct_answer') if q_obj else None))
+
         passages = data.get('passages', [])
         questions = data.get('questions', [])
 
@@ -2768,6 +2862,7 @@ def main():
     results["Assertion 77: 2011 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构，Text 2 开头腰斩彻底找回 (A year ago the end seemed near.)，全卷 15 处恶性单词黏连彻底消除，Q1-Q45 题号/分值自洽与官方答案 100% 官方黄金校准"] = (len(round55_anomalies) == 0)
     results["Assertion 78: 2012 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构，Text 4 整篇彻底找回(7段435词)，Text 1 补齐腰斩两段，Text 3 乱码/题干串文切除，Q26-Q30 真实真题选项纠偏与 Q1-Q45 官方答案 100% 官方黄金校准"] = (len(round56_anomalies) == 0)
     results["Assertion 79: 2012 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 1 找回腰斩两句恢复5段、Text 2 补齐截断残损与中句、Q1-Q45 题型/分值/官方标准答案 100% 零差异对齐）"] = (len(round57_anomalies) == 0)
+    results["Assertion 80: 2013 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 1 找回丢失段落恢复6段、Text 2 剔除题干倒灌恢复7段、Text 3 补齐VI/VII段、Text 4 切除倒灌残渣恢复7段、Part B 找回缺失选项[A][B]、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round58_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -2895,6 +2990,10 @@ def main():
             print(f"Round 56 anomalies ({len(round56_anomalies)}):", round56_anomalies[:10])
         if round57_anomalies:
             print(f"Round 57 anomalies ({len(round57_anomalies)}):", round57_anomalies[:10])
+        if round58_anomalies:
+            print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
+        if round58_anomalies:
+            print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
