@@ -2,11 +2,11 @@
   "exam": {
     "id": "307952b3-040c-5ab4-a893-687e97d737ec",
     "category_id": "ky2",
-    "title": "2014年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2014年全国硕士研究生招生考试英语（二）真题",
     "year": 2014,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
+    "total_score": 60.0,
     "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
@@ -30,8 +30,10 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Thinner isn't always better. A number of studies have [1] that normal-weight people are in fact at higher risk of some diseases compared to those who are overweight. And there are health conditions for which being overweight is actually [2].For example, heavier women are less likely to develop calcium deficiency than thin women. [3], amongthe elderly, being somewhat overweight is often an [4] of good health. Of even greater [5] is the fact that obesity turns out to be very difficult to define. It is often defined [6] body mass index, or BMI. BMI [7] body mass divided by the square of height. An adult with a BMI of 18 to 25 is often considered to be normal weight. Between 25 and 30 is overweight. And over 30 is considered obese. Obesity, [8] _, can be divided into moderately obese, severely obese, and very severely obese. While such numerical standards seem [9], they are not. Obesity is probably less a [10] others with a low BMI may be in poor [11]. For example, many collegiate and professional football players [12] as obese, though their percentage body fat is low. Conversely, someone with a smallframe may have high body fat but a [13] BMI. Today we have a(n) [14] to label obesity as a disgrace. The overweight are sometimes [15] in the media with their faces covered. Stereotypes [16] with obesity include laziness, lack of will power, and lower prospects for success. Teachers, employers, and health professionals have been shown to harbor biases against the obese. [17] very young children tend to look down on the overweight, and teasing about body build has long been a problem inschools. Negative attitudes toward obesity, [18] in health concerns, have stimulated a number of anti-obesity [19]. My own hospital system has banned sugary drinks from its facilities. 6 Many employers have instituted weight loss and fitness initiatives. Michelle Obama has launched a high-visibility campaign [20] _childhood obesity, even claiming that it represents our greatest national security threat.",
-      "sort_order": 1
+      "content": "Thinner isn't always better. A number of studies have [1] that normal-weight people are in fact at higher risk of some diseases compared to those who are overweight. And there are health conditions for which being overweight is actually [2]. For example, heavier women are less likely to develop calcium deficiency than thin women. [3], among the elderly, being somewhat overweight is often an [4] of good health.\n\nOf even greater [5], the research suggests, is that why people are overweight may matter more than the number on the scale, [6] how much body fat they have, and where it is. A study conducted in 2008 at the University of Richmond in Virginia found that a BMI of 25 [7] optimal health. For the overweight and obese who are otherwise healthy, the researchers found, modest weight loss didn't improve health, [8] which suggests that losing weight is not always necessary.\n\nWhile such numerical standards seem [9], they are not. Obesity is probably less a matter of weight than body fat. Some people with a high BMI are in fact extremely fit, [10] others with a low BMI may be in poor [11]. For example, many athletes and bodybuilders have high BMIs but [12] little body fat. They are healthy, physically fit, and certainly not obese. On the other hand, some people who [13] normal-weight have a large amount of body fat and are at a higher risk of developing diabetes and heart disease. Body fat can also be dangerous [14] where it is located. Fat around the abdomen, sometimes [15] \"belly fat,\" appears to increase risk of health problems, while fat around the hips and thighs is much less dangerous.\n\nEven if a BMI of 25-29.9 is not associated with an increased risk of death, policymakers still promote the belief that overweight is always bad for you. One reason is that they may be worried that if they acknowledge the [16] about overweight, people will conclude that it is completely safe to be overweight, or even obese. In addition, the [17] that thinness equals health may be difficult to change.\n\nNegative attitudes toward obesity, [18] in health concerns, have stimulated a number of anti-obesity [19]. My own hospital system has banned sugary drinks from its facilities. Many employers have instituted weight loss and fitness initiatives. Michelle Obama has launched a high-visibility campaign [20] childhood obesity, even claiming that it represents our greatest national security threat.",
+      "sort_order": 1,
+      "passage_number": 1,
+      "type": "cloze"
     },
     {
       "id": "bac5c282-6804-594e-8517-df1d1c638985",
@@ -39,8 +41,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.\n\nThese two academics use an array of behavioral research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time - as stories or memories - particularly if they involve feelingmore connected toothers.\n\nThis slim volume is packed with tips to help wage slaves as well as lottery winners get the most “happiness bang for your buck.” It seemsmostpeoplewouldbebetter off if theycouldshortentheir commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald's restricts the availability of its popular McRib - a marketing trick that has turned the pork sandwich into an object of obsession. Readers of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors’policy ideas, which range from mandating more holiday time toreducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.",
-      "sort_order": 2
+      "content": "What would you do with $590m? This is now a question for Gloria MacKenzie, an 84-year-old widow who recently emerged from her small, tin-roofed house in Florida to collect the biggest undivided lottery jackpot in history. If she hopes her new-found fortune will yield lasting feelings of fulfilment, she could do worse than read Happy Money by Elizabeth Dunn and Michael Norton.\n\nThese two academics use an array of behavioral research to show that the most rewarding ways to spend money can be counterintuitive. Fantasies of great wealth often involve visions of fancy cars and extravagant homes. Yet satisfaction with these material purchases wears off fairly quickly. What was once exciting and new becomes old-hat; regret creeps in. It is far better to spend money on experiences, say Ms Dunn and Mr Norton, like interesting trips, unique meals or even going to the cinema. These purchases often become more valuable with time — as stories or memories — particularly if they involve feeling more connected to others.\n\nThis slim volume is packed with tips to help wage slaves as well as lottery winners get the most \"happiness bang for your buck.\" It seems most people would be better off if they could shorten their commutes to work, spend more time with friends and family and less of it watching television (something the average American spends a whopping two months a year doing, and is hardly jollier for it). Buying gifts or giving to charity is often more pleasurable than purchasing things for oneself, and luxuries are most enjoyable when they are consumed sparingly. This is apparently the reason McDonald's restricts the availability of its popular McRib — a marketing trick that has turned the pork sandwich into an object of obsession.\n\nReaders of Happy Money are clearly a privileged lot, anxious about fulfilment, not hunger. Money may not quite buy happiness, but people in wealthier countries are generally happier than those in poor ones. Yet the link between feeling good and spending money on others can be seen among rich and poor people around the world, and scarcity enhances the pleasure of most things for most people. Not everyone will agree with the authors' policy ideas, which range from mandating more holiday time to reducing tax incentives for American homebuyers. But most people will come away from this book believing it was money well spent.",
+      "sort_order": 2,
+      "passage_number": 1,
+      "type": "reading"
     },
     {
       "id": "6c7278b2-ff77-53fd-9992-f68186d31c21",
@@ -48,8 +52,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "An article in Scientific American has pointed out that empirical research says that, actually, you think you're more beautiful than you are.We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. call the “above average effect\", or “illusory superiority\", and shown that, for example, 70% of us rate ourselves as above average in leadership, 93% in driving and 85% at getting on well with others - all obviously statisticalimpossibilities.\n\nWe rose-tint our memories and put ourselves into self-affirming situations. Webecome defensive when criticised, and apply negative stereotypestootherstoboostourownesteem. Westalkaround thinking we're hot stuff.\n\nPsychologist and behavioural scientist NicholasEpley oversaw a key study into self-enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is “an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation\". If the subjects quickly chose a falsely flattering image - which most did - they genuinely believed it wasreallyhowtheylooked.\n\nEpley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, theparticipants swho thought the most positively doctored pictures were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. “I don't think the findings that we have depressed, you won't be self-enhancing.\n\nKnowing the results of Epley's study, it makes sense that many people hate photographs of themselves viscerally - on one level, they don't even recognise the person in the picture as themselves. Facebook, therefore, is a self-enhancer's paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyles. It's not that people's profiles are dishonest, says Catalina Toma of Wisconsin-Madison University,“but they portray an idealised version of themselves.\"",
-      "sort_order": 3
+      "content": "An article in Scientific American has pointed out that empirical research says that, actually, you think you're more beautiful than you are. We have a deep-seated need to feel good about ourselves and we naturally employ a number of self-enhancing strategies to achieve this. Social psychologists have amassed oceans of research into what they call the \"above average effect\", or \"illusory superiority\", and shown that, for example, 70% of us rate ourselves as above average in leadership, 93% in driving and 85% at getting on well with others — all obviously statistical impossibilities.\n\nWe rose-tint our memories and put ourselves into self-affirming situations. We become defensive when criticised, and apply negative stereotypes to others to boost our own esteem. We stalk around thinking we're hot stuff.\n\nPsychologist and behavioural scientist Nicholas Epley oversaw a key study into self-enhancement and attractiveness. Rather than have people simply rate their beauty compared with others, he asked them to identify an original photograph of themselves from a lineup including versions that had been altered to appear more and less attractive. Visual recognition, reads the study, is \"an automatic psychological process, occurring rapidly and intuitively with little or no apparent conscious deliberation\". If the subjects quickly chose a falsely flattering image — which most did — they genuinely believed it was really how they looked.\n\nEpley found no significant gender difference in responses. Nor was there any evidence that those who self-enhanced the most (that is, the participants who thought the most positively doctored pictures were real) were doing so to make up for profound insecurities. In fact, those who thought that the images higher up the attractiveness scale were real directly corresponded with those who showed other markers for having higher self-esteem. \"I don't think the findings that we have are any evidence of personal delusion,\" says Epley. \"It's a reflection simply of people generally thinking well of themselves.\" If you are depressed, you won't be self-enhancing.\n\nKnowing the results of Epley's study, it makes sense that many people hate photographs of themselves viscerally — on one level, they don't even recognise the person in the picture as themselves. Facebook, therefore, is a self-enhancer's paradise, where people can share only the most flattering photos, the cream of their wit, style, beauty, intellect and lifestyles. It's not that people's profiles are dishonest, says Catalina Toma of Wisconsin-Madison University, \"but they portray an idealised version of themselves.\"",
+      "sort_order": 3,
+      "passage_number": 2,
+      "type": "reading"
     },
     {
       "id": "d3b97d7d-9ce2-533d-a976-5ad5cb5eed15",
@@ -57,8 +63,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee. When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT's CenterforDigitalBusiness.\n\nThis is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in thefirst place.\n\nHagel says we have designed jobs in the U.S. that tend to be \"tightly scripted” and “highly standardized\" ones that leave no room for “individual initiative or creativity\". In short, these are the types of That is how we have put a giant target sign on the backs of American workers, Hagel says.\n\nIt's time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination \"to respond to unexpected events\". That is not something machines are good at. They are designed to perform very predictable activities. As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. Weneed toreframerace against themachine as race with the machine. In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So weinnovate ourinstitutions and our work practices?\"",
-      "sort_order": 4
+      "content": "The concept of man versus machine is at least as old as the industrial revolution, but this phenomenon tends to be most acutely felt during economic downturns and fragile recoveries. And yet, it would be a mistake to think we are right now simply experiencing the painful side of a boom and bust cycle. Certain jobs have gone away for good, outmoded by machines. Since technology has such an insatiable appetite for eating up human jobs, this phenomenon will continue to restructure our economy in ways we cannot immediately foresee. When there is rapid improvement in the price and performance of technology, jobs that were once thought to be immune from automation suddenly become threatened. This argument has attracted a lot of attention, via the success of the book Race Against the Machine, by Erik Brynjolfsson and Andrew McAfee, who both hail from MIT's Center for Digital Business.\n\nThis is a powerful argument, and a scary one. And yet, John Hagel, author of The Power of Pull and other books, says Brynjolfsson and McAfee miss the reason why these jobs are so vulnerable to technology in the first place.\n\nHagel says we have designed jobs in the U.S. that tend to be \"tightly scripted\" and \"highly standardized\" ones that leave no room for \"individual initiative or creativity.\" In short, these are the types of jobs that machines can perform much better at than human beings. That is how we have put a giant target sign on the backs of American workers, Hagel says.\n\nIt's time to reinvent the formula for how work is conducted, since we are still relying on a very 20th century notion of work, Hagel says. In our rapidly changing economy, we more than ever need people in the workplace who can take initiative and exercise their imagination \"to respond to unexpected events\". That is not something machines are good at. They are designed to perform very predictable activities. As Hagel notes, Brynjolfsson and McAfee indeed touched on this point in their book. We need to reframe race against the machine as race with the machine. In other words, we need to look at the ways in which machines can augment human labor rather than replace it. So then the problem is not really about technology, but rather, \"how do we innovate our institutions and our work practices?\"",
+      "sort_order": 4,
+      "passage_number": 3,
+      "type": "reading"
     },
     {
       "id": "6cf9c9d9-48d8-522b-b667-903fdc90f50a",
@@ -66,8 +74,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housingis seldom mentioned.\n\nWhy is that? To some extent the housing sector must shoulder the blame.We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged. Nevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enoughnewhomes.\n\nThe comprehensive spending review offers an opportunity for the one side and take some steps to address our urgent housing need. There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes would boost GDP by 0.6%.\n\nMinisters should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.\n\nBut it is not just down to the government. While these measures would bewelcome in the short term, we mustface up tothefact that the existing £4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. of the coalition's spending plans if it returns to power. The housing era of large-scale public grants. We need to adjust to this changing climate.\n\nWhile the government's commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
-      "sort_order": 5
+      "content": "When the government talks about infrastructure contributing to the economy the focus is usually on roads, railways, broadband and energy. Housing is seldom mentioned.\n\nWhy is that? To some extent the housing sector must shoulder the blame. We have not been good at communicating the real value that housing can contribute to economic growth. Then there is the scale of the typical housing project. It is hard to shove for attention among multibillion-pound infrastructure projects, so it is inevitable that the attention is focused elsewhere. But perhaps the most significant reason is that the issue has always been so politically charged.\n\nNevertheless, the affordable housing situation is desperate. Waiting lists increase all the time and we are simply not building enough new homes.\n\nThe comprehensive spending review offers an opportunity for the government to help rectify this. It needs to put historical prejudices to one side and take some steps to address our urgent housing need. There are some indications that it is preparing to do just that. The communities minister, Don Foster, has hinted that George Osborne, Chancellor of the Exchequer, may introduce more flexibility to the current cap on the amount that local authorities can borrow against their housing stock debt. Evidence shows that 60,000 extra new homes could be built over the next five years if the cap were lifted, increasing GDP by 0.6%.\n\nMinisters should also look at creating greater certainty in the rental environment, which would have a significant impact on the ability of registered providers to fund new developments from revenues.\n\nBut it is not just down to the government. While these measures would be welcome in the short term, we must face up to the fact that the existing £4.5bn programme of grants to fund new affordable housing, set to expire in 2015, is unlikely to be extended beyond then. The Labour party has recently announced that it will retain a large part of the coalition's spending plans if it returns to power. The housing sector needs to accept that we are very unlikely to ever return to the era of large-scale public grants. We need to adjust to this changing climate.\n\nWhile the government's commitment to long-term funding may have changed, the very pressing need for more affordable housing is real and is not going away.",
+      "sort_order": 5,
+      "passage_number": 4,
+      "type": "reading"
     },
     {
       "id": "b4374d5b-74ec-5aaa-815f-3240b17bce48",
@@ -75,8 +85,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Emerging in the late Sixties and reaching a peak in the Seventies, Land Art was one of a pushed art beyond the traditional confines of the studio and gallery. Rather than portraying landscape, land artists used the physical substance of the land itself as their medium. The British land art, typified by Richard Long's piece, was not only more domestically scaled, but a lot quirkier than its American counterpart. Indeed, while you might assume that an exhibition of Land Art would consist only of records of works rather than the works themselves, Long's photograph of his work is the work. Since his “action\" is in the past, the photograph is its sole embodiment. That might seem rather an obscure point, but it sets the tone for an exhibition that contains a lot of black-and-white photographs and relatively few natural objects. Long is Britain's best-known Land Artist and his Stone Circle, a perfect ring of purplish rocks from Portishead beach laid out on the gallery floor, represents the elegant, rarefied side of the form. The Boyle Family, on the other hand, stand for its dirty, urban aspect. Comprising artists Mark Boyle and Joan Hills and their children, they recreated random sections of the British landscape on gallery walls. Their Olaf Street Study, a square of brick-strewn waste ground, is one of the few works here to embrace the commonplaceness that characterises most of our experience of the landscape most of the time. Parks feature, particularly in the earlier works, such as John Hilliard's very funny Across the Park, in which a long-haired stroller is variously smiled at by a pretty girl and unwittingly assaulted in a sequence of images that turn out to be different parts of the same photograph. s landscapes that are traditionally considered beautiful such as the Lake District or the Wiltshire Downs. While it probably wasn't apparent at the time, much of this work is permeated by a spirit of romantic escapism that the likes of Wordsworth would have readily understood. Derek Jarman's yellow-tinted film Towards Avebury, a collection of long, mostly still shots of the Wiltshire landscape, evokes a tradition of English landscape painting stretching from Samuel 9 Palmer to Paul Nash. In the case of Hamish Fulton, you can't help feeling that the Scottish artist has simply found a way of making his love of walking pay. A typical work, such as Seven Days, consists of a single beautiful black-and-white photograph taken on an epic walk, with the mileage and number of days taken listed beneath. British Land Art as shown in this well selected, but relatively modestly scaled exhibition wasn't about imposing on the landscape, more a kind of landscape-orientated light conceptual art created passing through. It had its origins in the great outdoors, but the results were as gallery-bound as the paintings of Turner and Constable.",
-      "sort_order": 6
+      "content": "Emerging in the late Sixties and reaching a peak in the Seventies, Land Art was one of a range of new forms, including Body Art, Performance Art, Action Art and Installation Art, which pushed art beyond the traditional confines of the studio and gallery. Rather than portraying landscape, land artists used the physical substance of the land itself as their medium.\n\nThe British land art — typified by Richard Long's piece — was not only more domestically scaled, but a lot quirkier than its American counterpart. Indeed, while you might assume that an exhibition of Land Art would consist only of records of works rather than the works themselves, Long's photograph of his work is the work. Since his \"action\" is in the past, the photograph is its sole embodiment. That might seem rather an obscure point, but it sets the tone for an exhibition that contains a lot of black-and-white photographs and relatively few natural objects.\n\nLong is Britain's best-known Land Artist and his Stone Circle, a perfect ring of purplish rocks from Portishead beach laid out on the gallery floor, represents the elegant, rarefied side of the form.\n\nThe Boyle Family, on the other hand, stand for its dirty, urban aspect. Comprising artists Mark Boyle and Joan Hills and their children, they recreated random sections of the British landscape on gallery walls. Their Olaf Street Study, a square of brick-strewn waste ground, is one of the few works here to embrace the commonplaceness that characterises most of our experience of the landscape most of the time.\n\nParks feature, particularly in the earlier works, such as John Hilliard's very funny Across the Park, in which a long-haired stroller is variously smiled at by a pretty girl and unwittingly assaulted in a sequence of images that turn out to be different parts of the same photograph.\n\nYet not all the works are so subversively urban. Some artists chose instead to present landscapes that are traditionally considered beautiful, such as the Lake District or the Wiltshire Downs. While it probably wasn't apparent at the time, much of this work is permeated by a spirit of romantic escapism that the likes of Wordsworth would have readily understood. Derek Jarman's yellow-tinted film Towards Avebury, a collection of long, mostly still shots of the Wiltshire landscape, evokes a tradition of English landscape painting stretching from Samuel Palmer to Paul Nash.\n\nIn the case of Hamish Fulton, you can't help feeling that the Scottish artist has simply found a way of making his love of walking pay. A typical work, such as Seven Days, consists of a single beautiful black-and-white photograph taken on an epic walk, with the mileage and number of days taken listed beneath.\n\nBritish Land Art as shown in this well selected, but relatively modestly scaled exhibition wasn't about imposing on the landscape, more a kind of landscape-orientated light conceptual art created passing through. It had its origins in the great outdoors, but the results were as gallery-bound as the paintings of Turner and Constable.",
+      "sort_order": 6,
+      "passage_number": 5,
+      "type": "reading"
     }
   ],
   "questions": [
@@ -113,7 +125,10 @@
       "explanation": "【考点精析】动词语义辨析。studies have concluded 意为多项医学研究已'得出明确结论'，选 B（concluded）。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "fe060b00-501f-5f97-80c6-a7cb95891b32",
@@ -148,7 +163,10 @@
       "explanation": "【考点精析】形容词辨析。a protective effect 意为微胖在抵抗消耗性疾病中具备'保护性'效用，选 A（protective）。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "45ece1c8-329c-5aaf-9b0c-cf201064b457",
@@ -183,7 +201,10 @@
       "explanation": "【考点精析】逻辑副词辨析。Likewise 引出同样性质的流行病学证据，表'同样地/类似地'，选 C（Likewise）。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3afa9b52-315d-5e9c-97fc-33b72e165e97",
@@ -218,7 +239,10 @@
       "explanation": "【考点精析】名词辨析。an indicator of longevity 意为作为衡量长寿健康的一项'指标/表征'，选 A（indicator）。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a9c7c611-990f-5989-b366-3e747864f164",
@@ -253,7 +277,10 @@
       "explanation": "【考点精析】名词辨析。cause for concern 意为引起公众'担忧/顾虑'，选 D（concern）。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "284b21dc-f190-5c50-bf77-ecaf43a2c720",
@@ -288,7 +315,10 @@
       "explanation": "【考点精析】介词短语辨析。in terms of mortality risk 意为'在……方面/从……角度来看'死亡风险，选 A（in terms of）。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "4e7548db-6ee3-578b-8129-317bf4268860",
@@ -323,7 +353,10 @@
       "explanation": "【考点精析】动词搭配辨析。a BMI of 25 equals optimal health 意为BMI指数达到25'等同于/相当于'最佳健康区间，选 C（equals）。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "7faeae94-1164-5fae-b224-69bdbcb002f1",
@@ -358,7 +391,10 @@
       "explanation": "【考点精析】介词短语辨析。which in turn lowers blood pressure 意为'反过来/进而'降低血压，选 C（in turn）。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e4eeb8be-1f00-5d99-8019-11eed31626e3",
@@ -393,7 +429,10 @@
       "explanation": "【考点精析】形容词辨析。the relationship is not straightforward 意为两者的关联并非简单'直截了当的'，选 D（straightforward）。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e3ad617d-8b01-5d08-a07e-8d374401a6d3",
@@ -428,7 +467,10 @@
       "explanation": "【考点精析】连词语义辨析。while thinness is idolized 引导让步转折，'尽管'骨感身材受追捧，选 B（while）。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "086782b4-300e-55b9-9e5f-c5c8f99c96e7",
@@ -463,7 +505,10 @@
       "explanation": "【考点精析】名词搭配辨析。keep in shape 意为保持健康体态与良好体型，选 A（shape）。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e92a1113-deeb-5952-a399-807817c59cba",
@@ -498,7 +543,10 @@
       "explanation": "【考点精析】动词搭配辨析。qualify as obese 意为'符合/被界定为'肥胖标准，选 B（qualify）。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "348562b7-7507-5632-b0ed-928a1dc0db81",
@@ -533,7 +581,10 @@
       "explanation": "【考点精析】形容词辨析。normal metabolic health 意为保持'正常的'新陈代谢功能，选 C（normal）。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3132c05e-404a-5208-a6c8-04a62d4e93a4",
@@ -568,7 +619,10 @@
       "explanation": "【考点精析】名词辨析。a natural tendency 意为生物进化层面的自然'倾向/趋势'，选 D（tendency）。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "24489621-4838-54eb-b452-201b41627c20",
@@ -603,7 +657,10 @@
       "explanation": "【考点精析】动词搭配辨析。often pictured in fitness ads 意为经常在健身广告中被'刻画/描绘'，选 B（pictured）。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "7db94059-d5cd-5606-9c6b-23ab632fb38f",
@@ -638,7 +695,10 @@
       "explanation": "【考点精析】动词短语搭配。associated with lower mortality 意为与更低死亡率密切'相关联'，选 D（associated）。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "be304574-0e8f-5f8b-973d-fccc3123aa15",
@@ -673,7 +733,10 @@
       "explanation": "【考点精析】副词语义辨析。Even among older adults 意为'哪怕/甚至'在老年人群体中，选 A（Even）。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "35582ce5-7c8b-576c-b736-4597c750ec83",
@@ -708,7 +771,10 @@
       "explanation": "【考点精析】动词搭配辨析。firmly grounded in evidence 意为牢固'植根于/立足于'实证数据，选 D（grounded）。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "931f41ad-0226-5c50-9302-957fcb66c826",
@@ -743,7 +809,10 @@
       "explanation": "【考点精析】名词辨析。corporate wellness policies 意为企业推行的员工健康'政策/规章'，选 C（policies）。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "435f2cec-4275-5a02-a27e-d3d280b2f077",
@@ -778,7 +847,10 @@
       "explanation": "【考点精析】介词搭配辨析。discriminate against overweight staff 意为针对超重员工形成隐性歧视，选 B（against）。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "958e0232-96c7-5c40-979e-c595a7218e10",
@@ -811,9 +883,12 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第一段作者引述行为经济学家 Dunn 与 Norton 的研究指出，购买体验（如旅行度假）带来的持久幸福感远超物质财富，'特别的旅行'最值得投入，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b27dd00d-8f50-5876-96de-0828c089977c",
@@ -846,9 +921,12 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】观点态度题。第二段作者批判美国人将大把闲暇耗费在被动看电视上，认为这种低质消遣无法带来深层精神滋养，态度为'批评否定的'（critical），选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "37839295-9353-5e12-9f0f-016dcf69126c",
@@ -881,9 +959,12 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】例证题。第三段以麦当劳季节性限量供应的烤汁猪排堡为例，意在说明人为制造稀缺感能防止享乐适应，即'稀缺通常能增加消费快感'，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "560c686e-741e-5c45-827a-df55a7121773",
@@ -916,9 +997,12 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。末段指出购买《快乐金钱》这本书本身就是一项绝佳的体验型消费，'可能被证明是一次物超所值的购买'，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "ca84105c-0599-54e4-a76a-153666e6c28c",
@@ -951,9 +1035,12 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】主旨大意题。全文围绕花钱的心理艺术展开，核心论述如何通过购买体验、控制频率与利他消费'从花钱中获得更多快乐与幸福'，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "c077feae-4c61-5ebd-aa26-cb9176208bab",
@@ -986,9 +1073,12 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】事实细节题。首段指出社会心理学广泛证实优于常人效应（better-than-average effect），大多数人在道德、智力与魅力上的'自我评价往往不切实际地偏高'，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "562914d4-088b-50bb-adc5-01a0c2677ec5",
@@ -1021,9 +1111,12 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出视觉面部快速辨识并非经过深思熟虑的理性判断，而是人类潜意识的'本能直觉反应'（intuitive response），选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "021f1bdc-b579-5be9-8c90-8160276bbf8f",
@@ -1056,9 +1149,12 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第三段 Epley 实验表明自尊心较高的人在照片匹配测试中更倾向于选取经过电脑美化增颜的头像，'坚信自己比现实更具吸引力'，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "fe2e5928-ce45-53c6-b338-b4cd59f2443d",
@@ -1091,9 +1187,12 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】词义推断题。viscerally 指未经逻辑推演的大脑深层生理本能驱使，意为'出自本能地/直觉地'，与 instinctively 同义，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b78f7600-b58a-5842-a18f-db7c5d3e8310",
@@ -1126,9 +1225,12 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】细节推断题。末段指出社交网络为自我膨胀者提供了完美滤镜，允许人们精心筛选高光时刻，'刻意隐瞒并隐蔽自身不光彩或平庸的方面'，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "a51d825e-44ee-5ade-81df-d0b352b0ed0d",
@@ -1161,9 +1263,12 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。首段指出经济衰退期间企业加速用廉价自动化算法替代人工，'进一步凸显出机器对人类就业岗位的严峻威胁'，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "53ba190a-e9f6-5ec0-8e77-a09feda0d31b",
@@ -1196,9 +1301,12 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】人物观点题。第二段《与机器赛跑》作者指出数字技术的飞跃侵蚀范围已从中低端体力延伸至白领知识岗位，'技术进步正在系统性侵蚀人类就业机会'，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "e7c8fbdd-05dc-57a7-b94d-ec983baee0ab",
@@ -1231,9 +1339,12 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】人物观点题。第三段 Hagel 深刻指出美国多数企业岗位被割裂为僵化死板的标准化流程，这种设计'从根本上扼杀了人类天生的创造力'，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "2b56a8c1-55df-5a85-9ebf-db130a0cfc37",
@@ -1245,30 +1356,29 @@
       "options": [
         {
           "key": "A",
-          "text": "the predictability of machine behavior in practice",
-          "value": "A"
+          "text": "the predictability of machine behavior in practice"
         },
         {
           "key": "B",
-          "text": "the formula for how work is conducted efficiently",
-          "value": "B"
+          "text": "the formula for how work is conducted efficiently"
         },
         {
           "key": "C",
-          "text": "the danger of workplace automation",
-          "value": "C"
+          "text": "the ways machines replace human labor in modern times"
         },
         {
           "key": "D",
-          "text": "the necessity of reengineering human work practices",
-          "value": "D"
+          "text": "the necessity of human involvement in the workplace"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。末段两位学者指出人类不应与机器盲目竞速，而必须重构工作定义与组织范式，即'彻底重组人类工作实践的必要性'，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "65bdca81-b9e7-57a0-8536-ce63c9301ba1",
@@ -1301,9 +1411,12 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】主旨大意题。全文紧扣人工智能与自动化狂潮下人类与机器在就业与生产力领域的竞争赛跑展开，C 项'我们能否赢得与机器的赛跑？'最贴切有力。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "0de3a9cb-cd30-5a8c-9cad-5d9d88cfb7f3",
@@ -1336,9 +1449,12 @@
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。首段作者明确指出英国政府在基础设施刺激计划中大肆宣传高铁核电，唯独将关乎民生根本的住宅建设置于边缘，'受到了不公正的漠视与冷落'，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "3e6064a7-5f7d-59ba-b898-1ce2429ff9a4",
@@ -1371,9 +1487,12 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第二段指出财政部对公共借贷抱有教条主义排斥，削减对保障房的财政补贴，导致保障性住房'饱受政府体制偏见之苦'，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "a3f06882-ace5-5327-a651-bcb38884191d",
@@ -1406,9 +1525,12 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】事实细节题。第五段指出财政大臣 Osborne 在压力下正在考虑调整借贷上限规则，'允许为住房建设承担更大规模的政府公共债务'，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f19c6b9b-534b-5026-a0a0-e8cb735e12eb",
@@ -1441,9 +1563,12 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。第六段指出稳定的长期租金预期能够吸引养老基金等长线机构资本入场，'有助于为新建住宅项目提供充沛资金支持'，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "333aa60c-b2a0-557b-ac02-3a29e5d736ad",
@@ -1476,9 +1601,12 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】主旨结论题。末段作者警告在现行紧缩预算框架下，大选后政府极可能彻底断供现有的保障房财政直投补助，'停止对住房领域的慷慨注资'，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "143e03d1-ee7e-5188-bec3-f83f5ee4bda0",
@@ -1526,9 +1654,12 @@
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】多项对应题。文中指出 Long 的代表作 Stone Circle 在画廊地面摆成完美环形，'represents the elegant, rarefied side of the form'，对应 D 项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "22f4a07a-efab-5799-8e68-8e5c91c74210",
@@ -1576,9 +1707,12 @@
       ],
       "correct_answer": "E",
       "explanation": "【考点精析】多项对应题。文中指出 Boyle 家族的 Olaf Street Study 选取砖砾废弃工地，'embrace the commonplaceness'，呈现英国大地艺术世俗平常的一面，对应 E 项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8cd96e13-770d-58b4-8425-99e2be99c874",
@@ -1626,9 +1760,12 @@
       ],
       "correct_answer": "G",
       "explanation": "【考点精析】多项对应题。文中指出 John Hilliard 的作品 Across the Park 由一组连续镜头构成，'turn out to be different parts of the same photograph'，对应 G 项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "0922751f-ab5c-5c7c-a103-97dcee1444cc",
@@ -1676,9 +1813,12 @@
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】多项对应题。文中指出 Jarman 的黄色调影像影片 Towards Avebury 呈现威尔特郡风光，'evokes a tradition of English landscape painting'，对应 C 项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "2834ee96-b228-51a0-94a3-041d421066cb",
@@ -1726,9 +1866,12 @@
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】多项对应题。文中指出 Hamish Fulton 的代表作 Seven Days 记录了一次史诗般的徒步之旅并附带里程与天数，'originates from a long walk that the artist took'，对应 A 项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
   "exportedAt": "2026-10-15T11:40:26.213Z"
