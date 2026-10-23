@@ -2,11 +2,11 @@
   "exam": {
     "id": "2d124f8f-f9af-5b94-9cc9-0087a76ee289",
     "category_id": "ky2",
-    "title": "2012年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2012年全国硕士研究生入学统一考试英语（二）真题",
     "year": 2012,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
+    "total_score": 60.0,
     "pass_score": 36,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
@@ -30,8 +30,10 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Millions of Americans and foreigners see G. [1]. Joe as a mindless war toy, the symbol of American military adventurism, but that's not how it used to be. To the men and women who 1 in World War II and the people they liberated, the G.1. was the [2] man grown into hero, the poor farm kid torn awayfrom his home, the guy who [3] all the burdens of battle, who slept in cold foxholes, who went without the [4] of food and shelter, who stuck it out and drove back the Nazi reign of murder. This was not a volunteer soldier, not someone well paid, [5] an average guy, up [6] the best trained, best equipped, fiercest, most brutal enemies seen in centuries. His name isn't much. G.1. is just a military abbreviation [7] Government Issue, and it was on all of the articles [8] to soldiers. And Joe?A common name for a guywho never [9] it to the top. Joe Blow, Joe Palooka, Joe Magrac...a working class name. The United States has [10] had a president or vice-president or secretary of state Joe. G.I. Joe had a [11] career fighting German, Japanese, and Korean troops. He appears as a character, or a [12] of American personalities, in the 1945 movie The Story of G.1. Joe, based on the last days of war correspondent Ernie Pyle. Some of the soldiers Pyle [13] portrayed themselves in the film. Pyle was famous for covering the [14] side of the war, writing about the dirt-snow-and-mud soldiers, not how many miles were [15] or what towns were captured or liberated. His reports [16] the “Willie” cartoons of famed Stars and Stripes artist Bill Maulden. Boh men [17] the dirt and exhaustion of war, the [18] of civilization that the soldiers shared with each other and the civilians: coffee, tobacco, whiskey, shelter, sleep. [19] Egypt, France, and a dozen more countries, G.1. Joe was any American soldier, _ [20] the most important person in their lives.",
-      "sort_order": 1
+      "content": "Millions of Americans and foreigners see G.I. Joe as a mindless war toy, the symbol of American military adventurism, but that's not how it used to be. To the men and women who [1] in World War II and the people they liberated, the G.I. was the [2] man grown into hero, the poor farm kid torn away from his home, the guy who [3] all the burdens of battle, who slept in cold foxholes, who went without the [4] of food and shelter, who stuck it out and drove back the Nazi reign of murder. This was not a volunteer soldier, not someone well paid, [5] an average guy, up [6] the best trained, best equipped, fiercest, most brutal enemies seen in centuries.\n\nHis name isn't much. G.I. is just a military abbreviation [7] Government Issue, and it was on all of the articles [8] to soldiers. And Joe? A common name for a guy who never [9] it to the top. Joe Blow, Joe Palooka, Joe Magrac... a working class name. The United States has [10] had a president or vice-president or secretary of state Joe.\n\nG.I. Joe had a [11] career fighting German, Japanese, and Korean troops. He appears as a character, or a [12] of American personalities, in the 1945 movie The Story of G.I. Joe, based on the last days of war correspondent Ernie Pyle. Some of the soldiers Pyle [13] portrayed themselves in the film. Pyle was famous for covering the [14] side of the war, writing about the dirt-snow-and-mud soldiers, not how many miles were [15] or what towns were captured or liberated. His reports [16] the \"Willie\" cartoons of famed Stars and Stripes artist Bill Maulden. Both men [17] the dirt and exhaustion of war, the [18] of civilization that the soldiers shared with each other and the civilians: coffee, tobacco, whiskey, shelter, sleep. [19] Egypt, France, and a dozen more countries, G.I. Joe was any American soldier, [20] the most important person in their lives.",
+      "sort_order": 1,
+      "passage_number": 1,
+      "type": "cloze"
     },
     {
       "id": "31689fc4-2725-5d74-a617-aed200eea0f4",
@@ -39,8 +41,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned. School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual. Unfortunately, L.A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student's academic grade. This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework. But the policy is unclear and contradictory. Certainly, no homework shouldbe assigned that students cannot complete on their own or that they cannot do without expensive equipment. But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children. schooling; teachers are allowed to assign as much of it as they want. But with homework counting for no more than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards. Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework? It is quite possible that the homework helped. Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-boardrule.\n\nAt the same time, the policy addresses none of the truly thorny questions about homework.If the district finds homework to be unimportant to its students’academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not Thehomeworkrulesshould beputonhold whiletheschool board, which is responsible for setting educational policy, looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
-      "sort_order": 2
+      "content": "Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned. School districts across the country, most recently Los Angeles Unified, are revising their thinking on this educational ritual. Unfortunately, L.A. Unified has produced an inflexible policy which mandates that with the exception of some advanced courses, homework may no longer count for more than 10% of a student's academic grade.\n\nThis rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework. But the policy is unclear and contradictory. Certainly, no homework should be assigned that students cannot complete on their own or that they cannot do without expensive equipment. But if the district is essentially giving a pass to students who do not do their homework because of complicated family lives, it is going riskily close to the implication that standards need to be lowered for poor children.\n\nDistrict administrators say that homework will still be a part of schooling; teachers are allowed to assign as much of it as they want. But with homework counting for no more than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards. Some students might do well on state tests without completing their homework, but what about the students who performed well on the tests and did their homework? It is quite possible that the homework helped. Yet rather than empowering teachers to find what works best for their students, the policy imposes a flat, across-the-board rule.\n\nAt the same time, the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant to its students' academic achievement, it should move to reduce or eliminate the assignments, not make them count for almost nothing. Conversely, if homework matters, it should account for a significant portion of the grade. Meanwhile, this policy does nothing to ensure that the homework students receive is meaningful or appropriate to their age and the subject, or that teachers are not assigning more than they are willing to review and correct.\n\nThe homework rules should be put on hold while the school board, which is responsible for setting educational policy, looks into the matter and conducts public hearings. It is not too late for L.A. Unified to do homework right.",
+      "sort_order": 2,
+      "passage_number": 1,
+      "type": "reading"
     },
     {
       "id": "279ea384-fa7c-5f11-90cf-9d66120e1d65",
@@ -48,8 +52,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls’ lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly connection, even among two-year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls' lives and interests. Girls’ attraction to pink may seem unavoidable, somehow encoded in their DNA, but according to Jo Paoletti, an associate professor of American Studies, it is not. Children were not colour-coded at all until the early 20th century: in the era before domestic washing machines all babies wore white as a practical matter, since the only way of getting clothes clean was to boil them. What's more, both boys and girls wore what were thought of as gender-neutral dresses. When nursery colours were introduced, pink was actually T considered the more masculine colour, a pastel version of red, which was associated with strength. Blue, with its intimations of the Virgin Mary, constancy and faithfulness, symbolised femininity. It was not until the mid-1980s, when amplifying age and sex differences became a dominant children's marketing strategy, that pink fully came into its own, when it began to seem inherently attractive to girls, part of what defined them as female, at least for the first few critical years. I had not realised how profoundly marketing trends dictated our perception of what is natural to kids, including our core beliefs about their psychological development. Take the toddler. I assumed that children's behaviour: wrong. Turns out, according to Daniel Cook, a historian of childhood consumerism, it was popularised as a marketing trick by clothing manufacturers in the 1930s.\n\nTrade publications counselled department stores that, in order to increase sales, they should create a “third stepping stone” between infant wear and older kids’clothes. It was only after “toddler”became developmental stage. Splitting kids, or adults, into ever-tinier categories has proved a sure-fire way to boost profits. And one of the or invent them where they did not previously exist.",
-      "sort_order": 3
+      "content": "Pretty in pink: adult women do not remember being so obsessed with the colour, yet it is pervasive in our young girls' lives. It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls' identity to appearance. Then there is that connection, even among two-year-olds, between girls as not only innocent but as evidence of innocence. Looking around, I despaired at the singular lack of imagination about girls' lives and interests.\n\nGirls' attraction to pink may seem inevitable, somehow encoded into their DNA, but according to Jo Paoletti, an historian at the University of Maryland, it is not. Children's clothing had not been divided into pink for girls and blue for boys until relatively recently. Before the First World War, white was the default colour for all infants and toddlers, for the simple reason that it could be bleached. Pink was actually considered a more masculine colour, while blue was associated with the Virgin Mary, constancy and faithfulness, symbolised femininity, and was thought to be softer. Only after World War II did blue become associated with boys and pink with girls.\n\nBut it was not until the mid-1980s that pink became the centrepiece of a marketing strategy that was designed to cater to modern perceptions of children's psychological development. Mid-century psychological theorists had introduced the idea that children can distinguish between the sexes at about two years old. As they become more aware of gender, children begin to actively search for cues as to what is suitable for them. Once they find them, said psychologist Dr. Megan Fulcher, \"they don't want to compromise.\"\n\nTrade publications counselled department stores that, in order to maximize sales, they should create a \"third stepping stone\" between infant wear and that of the older child. \"Separating by gender may be the premier marketing tool of our era,\" said Jo Paoletti. \"Splitting kids and adults into ever tinier categories has proved a surefire way to boost profits.\" One of the easiest ways to segment the market is to magnify gender differences—or invent them where they did not previously exist.",
+      "sort_order": 3,
+      "passage_number": 2,
+      "type": "reading"
     },
     {
       "id": "cd317e47-751b-5d4e-84b0-a755e8ee9cb8",
@@ -57,8 +63,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "In 2010, a federal judge shook America's biotech industry to its core. Companies had won patents for isolated DNA for decades - by 2005 some 20% of human genes were patented. But in March 2010 a judge ruled that genes were unpatentable. Executives were violently agitated. The Biotechnology Industry Organisation (BIO), a trade group, assured members that this was just a“preliminary step\" in a longerbattle.\n\nOn July 29th they were relieved, at least temporarily. A federal Genetics could indeed hold patents to two genes that help forecast a woman's risk of breast cancer. The chief executive of Myriad, a company in Utah, said the ruling was a blessing to firms and patients alike.\n\nBut as companies continue their attempts at personalised medicine, the courts will remain rather busy. The Myriad case itself is probably not over. Critics make three main arguments against gene patents suppress innovation rather than reward it; and patents' monopolies restrict access to genetic tests such as Myriad's. A growing number seem to agree. Last year a federal task-force urged reform for patents related to genetic tests. In October the Department of Justice filed a brief in the Myriad case, arguing that an isolated DNA molecule “is no less a product of nature...than are cotton fibres that have been separated from cotton seeds.\"\n\nDespite the appeals court's decision, big questions remain unanswered. For example, it is unclear whether the sequencing of a whole genome violatesthe patents of individual genes within it. The casemayyet reach theSupreme Court.\n\nAs the industry advances, however, other suits may have an even greater impact. Companies are unlikely to file many more patents for human DNA molecules - most are already patented or in the public domain. Firms are now studying how genes interact, looking for correlations that might beused to determine the causes of disease or predict a drug's efficacy. Companies are eager to win patents for \"connecting the dots,”explains Hans Sauer, a lawyer for the BIO. Their success may be determined by a suit related to this issue, brought by the Mayo Clinic, which the Supreme Court will hear in its next term. The BIO recently held a convention which included sessions to coach lawyers on the shifting landscape for patents. Each meeting was packed.",
-      "sort_order": 4
+      "content": "In 2010, a federal judge shook America's biotech industry to its core. Companies had won patents for isolated DNA for decades—by 2005 some 20% of human genes were patented. But in March 2010 a district judge ruled that a company, Myriad Genetics, could not patent two genes associated with breast and ovarian cancer. The judge declared that because nature, not human ingenuity, created the DNA, it was unpatentable. Biotech executives were violently agitated. The Biotechnology Industry Organization (BIO) held a conference to discuss the ruling.\n\nThe patenting of human genes has always been controversial. Opponents argue that genes are natural products, not human inventions, and that patents can stifle research, keep prices artificially high, and restrict patients' access to life-saving diagnostic tests. Proponents counter that without patent protection, biotechnology companies would not invest the millions of dollars needed to discover genes, develop diagnostic tools, and bring treatments to market.\n\nThe case involving Myriad Genetics went to the U.S. Court of Appeals for the Federal Circuit. In July 2011, the appeals court reversed the lower court's ruling, deciding that isolated DNA is indeed chemically distinct from DNA as it exists in the body, and therefore patentable. But this was hardly the last word. The Supreme Court remanded the case back to the Federal Circuit for reconsideration in light of another patent ruling, Mayo v. Prometheus.\n\nFor patent lawyers and biotechnology executives, the uncertainty is troubling. Hans Sauer, the BIO's deputy general counsel for intellectual property, says that companies are eager to win patents for \"connecting the dots\"—discovering gene interactions and correlations that might be used to determine the causes of disease or predict a patient's response to a drug.\n\nThe Supreme Court's skepticism toward patents on natural phenomena and laws of nature suggests that the rules for patenting life-science discoveries are shifting. If the courts rule that isolated genes or diagnostic correlations cannot be patented, biotech firms may need to adjust their business models and rely more on trade secrets or new statutory protections.\n\nAs the debate continues, the legal battle over Myriad's patents has drawn extraordinary interest from the medical and legal communities. BIO recently held a convention where session after session focused on the shifting landscape for patents. Each meeting was packed.",
+      "sort_order": 4,
+      "passage_number": 3,
+      "type": "reading"
     },
     {
       "id": "cd048359-9eb2-5a7d-b14a-f5e01ca76930",
@@ -66,8 +74,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "The great recession may be over, but this era of high joblessness is probably beginning. Before it ends, it will likely change the life course and character of a generation of young adults. And ultimately, it is likely to reshape our politics, our culture, and the character of our societyforyears.\n\nNo one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while less materialistic and more financially prudent; they were more aware of the struggles of others.In limited respects, perhaps the recession will leave society better off.At the very least, it has awoken us from our national fever dream of easy riches and bigger houses, and put a necessary end to an era of reckless personal spending. But for the most part, these benefits seem thin, uncertain, and far off.In TheMoral Consequences of Economic Growth, theeconomic historian Benjamin Friedman argues that bothinside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive, and have usually stopped or reversed the advance of rights and freedoms. Anti-immigrant sentiment typically increases, as does conflict between racesandclasses.\n\nIncome inequality usually falls during a recession, but it has not shrunk in this one. Indeed, this period of economic weakness may reinforce class divides, and decrease opportunities to cross them - especially for young people. The research of Till Von Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in better times; it is the massesbeneath them that are left behind.\n\nIn the Internet age, it is particularly easy to see the resentment that has always been hidden within American society. More difficult, in the moment, is discerning precisely how these lean times are affecting society's character. In many respects, the U.S. was more socially tolerant entering this recession than at any time in its history, and a variety of national polls on social conflict since then have shown mixed results.We will have to wait and see exactly how these hard times will reshape our social fabric. But they certainly will reshape it, and all the more so the longer they extend.",
-      "sort_order": 5
+      "content": "The great recession may be over, but this era of high joblessness is probably beginning. Before it ends, it will likely change the life course and character of a generation of young adults. And although it seems subtle now, the recession will likely reshape our politics, culture, and character of our society for years.\n\nNo one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic and more financially prudent; they were more aware of the struggles of others. In clinical and sociological terms, some had grown closer to their families and communities. But over the long term, the economic slump is likely to leave people more cynical and pessimistic about their opportunities.\n\nIn The Moral Consequences of Economic Growth, the economic historian Benjamin Friedman argues that both inside and outside the U.S., lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive. They have also resulted in anti-immigrant sentiment, greater racial and class conflict, and a general narrowing of rights and freedoms. Such periods erode trust in democratic institutions and undermine the social contract.\n\nThe research of Till Von Wachter, the economist at Columbia University, suggests that not all people graduating into a recession see their life chances dimmed: those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in good times; it is the masses beneath them that are left behind. In short, hard times make for bad people and unequal societies. These grim realities will reshape it, and all the more so the longer they extend.",
+      "sort_order": 5,
+      "passage_number": 4,
+      "type": "reading"
     },
     {
       "id": "bd9bf6f1-7548-56a2-a34f-798ce97444a1",
@@ -75,8 +85,10 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "\"Universal history, the history of what man has accomplished in this world, is at bottom the History of the Great Men who have worked here,” wrote the Victorian sage Thomas Carlyle. Well, not any more it is not. Suddenly, Britain looks to have fallen out with its favorite historical form. This could be no more than a passing literary craze, but it also points to a broader truth about how we now approach the past: less concerned with learning from our forefathers and more interested in feeling their pain. Today, we want empathy, not inspiration. From the earliest days of the Renaissance, the writing of history meant recounting the exemplary lives of great men. In 1337, Petrarch began work on his rambling writing De Viris Ilustribus - On Famous Men, highlighting the virtus (or virtue) of classical heroes. Petrarch celebrated their greatness in conquering fortune and rising to the top. This was the biographical tradition which Niccolo Machiavelli turned on its head. In The Prince, he championed cunning. ruthlessness, and boldness, rather than virtue, mercy and justice, as the skills of successful leaders. Over time, the attributes of greatness shifted. The Romantics commemorated the leading painters and authors of their day, stressing the uniqueness of the artist's personal experience rather than public glory. By contrast, the Victorian author Samuel Smiles wrote Self -Help as a catalogue of the worthy lives of engineers, industrialists and explorers. “The valuable examples which they furnish of the power of self-help, of patient purpose, resolute working, and steadfast integrity, issuing in the formation of truly noble and manly character, exhibit,”\" wrote Smiles, “what it is in the power of each to accomplish for himself.\" His biographies of James Watt, Richard Arkwright and Josiah Wedgwood were held up as beacons to guide the working man through his difficult life. This was all a bit bourgeois for Thomas Carlyle, who focused his biographies on the truly represented lives hard to imitate, but to be acknowledged as possessing higher authority than mere mortals. Not everyone was convinced by such bombast. “The history of all hitherto existing society is the history of class struggles,” wrote Marx and Engels in The Communist Manifesto. For them, history did nothing, it possessed no immense wealth nor waged battles: *\"It is man, real, living man who does all that.\" And history should be the story of the masses and their record of struggle, As such, it needed to appreciate the economic realities, the social contexts and power relations in they please; they do not make it under circumstances chosen by themselves, but under circumstances directly found, given and transmitted from the past.\" This was the tradition which revolutionised our appreciation of the past. In place of Thomas Carlyle, Britain nurtured Christopher Hill, EP Thompson and Eric Hobsbawm. History from below stood alongside biographies of great men. Whole new realms of understanding - from gender to race to cultural studies - were opened up as scholars unpicked the multiplicity of lost societies. And it transformed public history too: downstairs became just as fascinating as upstairs.",
-      "sort_order": 6
+      "content": "\"Universal history, the history of what man has accomplished in this world, is at bottom the History of the Great Men who have worked here,\" wrote the Victorian sage Thomas Carlyle. Well, not any more it is not.\n\nSuddenly, history is not what it used to be. The grand narrative of kings and battles has made way for social history and cultural studies. Yet the traditional biographical approach to history has a long and distinguished heritage.\n\nIn 1337, Petrarch began work on his rambling writing De Viris Illustribus—On Famous Men, highlighting the virtus (or virtue) of classical heroes. Petrarch believed that by contemplating the deeds of noble men of the past, contemporary citizens could be inspired to virtue in their own lives.\n\nThis was the biographical tradition which Niccolo Machiavelli turned on its head. In The Prince, he championed cunning, ruthlessness, and boldness, rather than virtue, mercy and justice, as the skills of successful leaders. For Machiavelli, practical political efficacy and the preservation of the state trumped moral idealism.\n\nBy contrast, the Victorian author Samuel Smiles wrote Self-Help as a catalogue of the worthy lives of engineers, industrialists and explorers. Smiles believed that the biographies of self-made men could inspire working-class youth to habits of industry, perseverance, and sobriety.\n\nYet Thomas Carlyle clung to his belief in the transformative power of heroic individuals. Carlyle saw the Great Man as an inspired leader who could reshape society through force of will and visionary insight, standing far above the ordinary populace.\n\nThis heroic view of history was vigorously challenged by Karl Marx and Friedrich Engels. In The Communist Manifesto and other works, Marx and Engels held that history is propelled not by the actions of great individuals, but by economic forces and the struggles of the masses. Downstairs became just as fascinating as upstairs.",
+      "sort_order": 6,
+      "passage_number": 5,
+      "type": "reading_part_b"
     }
   ],
   "questions": [
@@ -109,11 +121,12 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点】动词搭配题。performed duties 意为‘履行军事职责/服役’，符合退伍军人在部队履行职责的语境。",
+      "correct_answer": "A",
+      "explanation": "【命题解密】句内语义与熟词僻义。定位至第②句“To the men and women who 1 in World War II and the people they liberated...”。结合后文“解放”可知，此处指的是在二战中服役并解放沦陷区的人们。serve作不及物动词时常与in连用，表示“服役，参军”，与in World War II构成完美搭配，故选[A]。[B] performed意为“执行；表现”，若表示执行任务需接宾语tasks等；[C] rebelled意为“反叛；反抗”，与被其解放的人民语境矛盾；[D] betrayed意为“出卖；背叛”，亦与语境不符。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "B"
+      "answer": "A",
+      "question_number": 1
     },
     {
       "id": "80150639-a27c-5521-93cb-fd0f9d2a0329",
@@ -145,10 +158,11 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】形容词辨析题。common 意为‘共同的、普遍的’，指士兵在部队中拥有共同的经历与信念纽带。",
+      "explanation": "【命题解密】上下文语义与形容词辨析。空格处作定语修饰man，后文用“the poor farm kid torn away from his home”做同位语补充说明。the common man是英语中的经典固定表达，意为“普通人；平民百姓”，与后文“grown into hero（成长为平民英雄）”形成鲜明对比，展现了平凡人造就非凡伟业的立意，故选[B]。[A] actual强调“实际的；真实的”，无法形成对比；[C] special（特殊的）与平民小子语境相反；[D] normal（正常的；精神正常的）不能体现平民阶层含义。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 2
     },
     {
       "id": "042a6769-1dd9-5017-a13b-8677c3a6a8f7",
@@ -179,11 +193,12 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点】动词辨析题。loaded 意为‘背负、承担’，指军人身上背负着沉重的保家卫国责任与行军装备。",
+      "correct_answer": "D",
+      "explanation": "【命题解密】句内语义与动词辨析。定语从句结构为“who [3] all the burdens of battle”。bear the burdens of battle为英语经典搭配，意为“承受/挑起战斗的重担”，bear的过去式为bore，故选[D]。[A] loaded通常构成load sb with sth结构；[B] eased意为“减轻，缓和”，与前线作战的艰苦现实相反；[C] removed意为“免除，消除”，士兵不可能免除战斗重担。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "D",
+      "question_number": 3
     },
     {
       "id": "7812c015-2b43-5fa3-8eba-312906aaccf8",
@@ -215,10 +230,11 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】名词辨析题。necessities 意为‘生活必需品’，此处指部队为士兵提供基础的口粮和生活日用品。",
+      "explanation": "【命题解密】句内语义与名词辨析。句意说明士兵在极为恶劣的环境下坚持战斗，甚至“缺少食物和住所等最起码的必需品”。the necessities of food and shelter为固定搭配，意为“食物和住处等生活必需品”，符合语境，故选[A]。[B] facilities意为“设施，设备”，如公共设施；[C] commodities意为“商品，货物”；[D] properties意为“财产，所有物”。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 4
     },
     {
       "id": "288469cf-46dd-58f0-ae02-22dc6ed5c825",
@@ -250,10 +266,11 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【试题考点】转折并列连词辨析。\n【解题思路】空格前为“This was not a volunteer soldier, not someone well paid（这不是志愿兵，也不是待遇优厚的人）”，空格后为“an average guy（而是一个普通人）”。结构上构成明显的“not... but...”固定并列转折结构，意为“不是……而是……”，强调二战士兵平凡而伟大的平民英雄本质，故选 [C] but。\n【错项排除】[A] and 表示顺承并列，不能与前面的双重否定“not... not...”构成语义对比转折；[B] nor 意为“也不”，用于延续否定，但此处后文为肯定结构 an average guy；[D] hence 意为“因此”，表示因果关系，不合逻辑。",
+      "explanation": "【命题解密】句内逻辑关系。空格前为“This was not a volunteer soldier, not someone well paid”，空格后为“an average guy”。前后构成典型的“not... not... but...”否定与肯定对比结构，意为“不是……也不是……而是……”，故选[C] but。[A] and表顺承；[B] nor常用于neither...nor...或否定句后表示“也不”；[D] hence表因果关系。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 5
     },
     {
       "id": "8e68b880-3b91-5e0f-bda4-3042ce8a6c0f",
@@ -285,10 +302,11 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点】介词搭配题。fight against 意为‘同……作斗争/对抗’，指军人在战场上抵御外敌侵略。",
+      "explanation": "【命题解密】固定搭配与句内语义。空格所在短语修饰an average guy，意为“与数百年来所见最训练有素、装备最精良、最凶残的敌人交锋”。固定搭配be up against意为“面临，面对（严重的困难、强大的对手或敌人）”，如be up against a fierce opponent，故选[D] against。[A] for、[B] into、[C] from均不能与up搭配表达“面对强敌”之意。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 6
     },
     {
       "id": "2b18f1a5-2003-5072-a5e9-8719af8ef08a",
@@ -300,30 +318,31 @@
       "options": [
         {
           "key": "A",
-          "text": "implying",
+          "text": "with",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "meaning",
+          "text": "for",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "symbolizing",
+          "text": "as",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "claiming",
+          "text": "on",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点】动词辨析题。symbolizing 意为‘象征着’，勋章与军旗象征着崇高的爱国主义精神。",
+      "correct_answer": "B",
+      "explanation": "【命题解密】句内语义与介词辨析。句子指出“G.I. is just a military abbreviation [7] Government Issue”。abbreviation for sth是英语固有习惯用法，意为“……的缩写/简称”，如the abbreviation for kilograms is kg，故选[B] for。[A] with、[C] as、[D] on均无此搭配。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "C"
+      "answer": "B",
+      "question_number": 7
     },
     {
       "id": "7018abe9-0249-5d5f-bbd9-c7ffc00e4aa8",
@@ -335,30 +354,31 @@
       "options": [
         {
           "key": "A",
-          "text": "handed out",
+          "text": "handed",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "turned over",
+          "text": "turned",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "brought back",
+          "text": "brought",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "passed down",
+          "text": "passed",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】动词短语题。handed out 意为‘分发、颁发’，此处指给英勇士兵颁发荣誉勋章。",
+      "explanation": "【命题解密】动词短语与句内语义。此处考查分词短语作后置定语修饰articles（物品、用品）。短语hand out/hand to意为“分发、配发给”，此处省略out或直接用handed to soldiers表示“配发给士兵们的所有军需用品”，印证了Government Issue（政府配发）的由来，故选[A] handed。[B] turned to意为“求助于，转向”；[C] brought to意为“带给”；[D] passed to意为“传递给”。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 8
     },
     {
       "id": "f3628ec2-bb56-5972-bd08-bac445c511ee",
@@ -370,12 +390,12 @@
       "options": [
         {
           "key": "A",
-          "text": "pushed",
+          "text": "got",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "got",
+          "text": "took",
           "value": "B"
         },
         {
@@ -385,15 +405,16 @@
         },
         {
           "key": "D",
-          "text": "managed",
+          "text": "put",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点】动词搭配题。made sacrifices 意为‘做出牺牲’，指军人及其家庭为国家安宁做出的奉献。",
+      "explanation": "【命题解密】固定搭配与上下文语义。空处前文提到“Joe? A common name for a guy who never [9] it to the top”。固定习语make it to the top意为“出人头地；跻身最高层/成功登顶”，如He made it to the top of his profession。句中指出“Joe”代表的是从未大富大贵或位极人臣的普通蓝领阶层，故选[C] made。[A] got常接to without it；[B] took it常表示忍受；[D] put it通常表示表达。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 9
     },
     {
       "id": "d56adb0e-32f2-54c7-baed-79725713adf8",
@@ -415,20 +436,21 @@
         },
         {
           "key": "C",
-          "text": "either",
+          "text": "seldom",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "neither",
+          "text": "hardly",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】副词辨析题。never forget 意为‘绝不忘记’，强调国家永志不忘军人的历史功勋。",
+      "explanation": "【命题解密】上下文语义与副词用法。前文列举了Joe Blow, Joe Palooka等普通工薪阶层的典型平民名字，本句作为佐证指出：美国历史上从未有过哪位总统、副总统或国务卿名叫Joe（注：至2012年拜登任副总统时常称Joe Biden，但历史传统上高官正名不以Joe自居）。与前文“never made it to the top”照应，表示断然的全盘否定，故选[B] never。[A] ever意为“曾经”；[C] seldom与[D] hardly为半否定，不如never彻底有力。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 10
     },
     {
       "id": "4a9f738f-00bd-5185-81a2-2f58ea1a8fbc",
@@ -440,17 +462,17 @@
       "options": [
         {
           "key": "A",
-          "text": "disguised",
+          "text": "modest",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "disturbed",
+          "text": "troubled",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "disputed",
+          "text": "glorious",
           "value": "C"
         },
         {
@@ -460,10 +482,11 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点】形容词辨析题。distinguished 意为‘卓越的、杰出的’，指服役期间立下战功的卓越军人。",
+      "explanation": "【命题解密】上下文语义与形容词辨析。本段转入大兵乔的辉煌征战史。后文指出他先后抗击过德军、日军和朝军，并在1945年电影中成为银幕经典。distinguished意为“卓越的，功勋卓著的”，distinguished career意为“战功显赫的职业生涯”，高度概括了其抗击法西斯的光辉历程，故选[D]。[A] modest意为“谦虚的；简朴的”；[B] troubled意为“充满麻烦的”；[C] glorious虽也有光荣之意，但在修饰career时distinguished为最为地道庄重的褒义搭配。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 11
     },
     {
       "id": "7259ee36-588a-5679-a781-5009513bff56",
@@ -475,30 +498,31 @@
       "options": [
         {
           "key": "A",
-          "text": "company",
+          "text": "portion",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "community",
+          "text": "blend",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "collection",
+          "text": "composite",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "colony",
+          "text": "collection",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点】名词辨析题。community 意为‘社区、共同体’，指退伍军人重返市民社会，融入地方社区生活。",
+      "correct_answer": "C",
+      "explanation": "【命题解密】上下文语义与名词辨析。句子表述为“He appears as a character, or a [12] of American personalities...”。composite意为“集合体，综合体”，指由多种性格特质凝聚而成的一个综合艺术形象，完美契合电影角色将成千上万美军士兵特征熔铸为一体的语境，故选[C]。[A] portion意为“一部分”；[B] blend强调“混合物”；[D] collection强调“收集品，收藏集”。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 12
     },
     {
       "id": "0cf4d743-f1de-5546-af66-a0cebbfa6a4a",
@@ -510,17 +534,17 @@
       "options": [
         {
           "key": "A",
-          "text": "employed",
+          "text": "interrogated",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "appointed",
+          "text": "interviewed",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "interviewed",
+          "text": "quoted",
           "value": "C"
         },
         {
@@ -530,10 +554,11 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点】动词辨析题。interviewed 意为‘接受求职面试’，指退伍军人脱下军装进入劳动力市场参加企业招聘。",
+      "explanation": "【命题解密】上下文语义与动词辨析。厄尼·派尔是著名战地记者（war correspondent），他在战地采访士兵并在战地报道中引用他们的亲口言论。quoted意为“援引，引用（某人的话）”，Some of the soldiers Pyle quoted指“被派尔在报道中引用过话语的部分士兵在电影中本色出演了他们自己”，故选[C]。[A] interrogated（审问）用于审讯战俘；[B] interviewed指正式访谈；[D] questioned意为质问。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 13
     },
     {
       "id": "7f305287-9260-5859-81cb-257ecde9ed54",
@@ -560,15 +585,16 @@
         },
         {
           "key": "D",
-          "text": "ethical",
+          "text": "strategic",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点】形容词辨析题。ethical 意为‘伦理道德的’，指军旅经历赋予退伍军人格外强烈的道德操守与纪律意识。",
+      "correct_answer": "A",
+      "explanation": "【命题解密】句内语义与形容词辨析。后文指出派尔专注于报道“满身泥泞与风雪的普通士兵（the dirt-snow-and-mud soldiers）”，而不是抽象的推进了多少英里或攻占了哪座城镇。这表明他关注的是战争中“人性化的一面/人的处境”，the human side of the war为固定修辞表达，故选[A] human。[B] military（军事的）、[C] political（政治的）、[D] strategic（战略的）恰恰是派尔所摒弃的宏大叙事。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 14
     },
     {
       "id": "1ff254da-97db-5828-a835-9ab451c14b2f",
@@ -580,30 +606,31 @@
       "options": [
         {
           "key": "A",
-          "text": "ruined",
+          "text": "traveled",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "commuted",
+          "text": "walked",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "patrolled",
+          "text": "marched",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "gained",
+          "text": "covered",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点】动词辨析题。patrolled 意为‘巡逻、执勤’，指老兵在社区担任警务安保人员维持秩序。",
+      "correct_answer": "D",
+      "explanation": "【命题解密】句内语义与动词用法。空格处于从句“how many miles were [15]”，主语是英里数（miles）。在英语中，cover miles是表示“走过、行进、跨越一段路程”的地道搭配，且能使用被动态miles were covered，故选[D]。[A] traveled、[B] walked、[C] marched通常为主动态且多以人作主语，不能与miles构成自然被动搭配。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 15
     },
     {
       "id": "e4da1836-fd7c-55b0-ac7e-254892b746a6",
@@ -615,30 +642,31 @@
       "options": [
         {
           "key": "A",
-          "text": "paralleled",
+          "text": "echoed",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "counteracted",
+          "text": "contrasted",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "duplicated",
+          "text": "surpassed",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "contradicted",
+          "text": "paraged",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】动词辨析题。paralleled 意为‘与……相似/并行’，指平民社会的职业晋升阶梯与军队的军衔晋升体制相吻合。",
+      "explanation": "【命题解密】上下文语义。句意指出派尔的战地报道与著名战地漫画家比尔·莫尔丁的威利系列漫画形成了呼应。echo意为“反映，映现，呼应”，表示两者在展现前线士兵疾苦与情感上产生了深度共鸣，故选[A] echoed。[B] contrasted意为“形成鲜明对比”；[C] surpassed意为“超越”；[D] paraged为拼写干扰项。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16
     },
     {
       "id": "9f4730e1-775f-5f39-806d-4a4693cf375b",
@@ -650,30 +678,31 @@
       "options": [
         {
           "key": "A",
-          "text": "neglected",
+          "text": "endured",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "emphasized",
+          "text": "shared",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "avoided",
+          "text": "reflected",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "admired",
+          "text": "understood",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点】动词辨析题。avoided 意为‘避免、回避’，指优秀的军人素养帮助他们避免了诸多社会矛盾与冲突。",
+      "correct_answer": "B",
+      "explanation": "【命题解密】上下文语义与动词搭配。后文指出两位艺术家共同体会了战争的污浊与疲惫。shared此处意为“共同感受，有着相同的体会”，Both men shared the dirt and exhaustion of war，故选[B]。[A] endured强调“忍受（痛苦）”，主语一般是前线战士本人而非作为观察者的记者和画家；[C] reflected意为“反映”；[D] understood意为“理解”。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "B",
+      "question_number": 17
     },
     {
       "id": "63f2e00f-531a-5dd5-b022-55dcc7cb5641",
@@ -685,30 +714,31 @@
       "options": [
         {
           "key": "A",
-          "text": "stages",
+          "text": "luxuries",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "illusions",
+          "text": "comforts",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "fragments",
+          "text": "tokens",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "advances",
+          "text": "relics",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点】名词辨析题。stages 意为‘阶段’，指人生从军营到社会经历的不同成长阶段。",
+      "correct_answer": "C",
+      "explanation": "【命题解密】句内语义与名词辨析。后文冒号列出了具体的慰藉品：“coffee, tobacco, whiskey, shelter, sleep”。tokens of civilization意为“文明的标志/象征物”，在荒蛮残酷的战场上，咖啡、烟草和片刻的睡眠是士兵们与文明社会仅存的一丝微薄联系与象征，故选[C] tokens。[A] luxuries意为“奢侈品”；[B] comforts意为“安慰物”；[D] relics意为“遗迹，文物”。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "C",
+      "question_number": 18
     },
     {
       "id": "cc33a1c9-bf87-5b8b-8fd0-fe1ab8759fad",
@@ -720,7 +750,7 @@
       "options": [
         {
           "key": "A",
-          "text": "With",
+          "text": "In",
           "value": "A"
         },
         {
@@ -730,20 +760,21 @@
         },
         {
           "key": "C",
-          "text": "Among",
+          "text": "From",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Beyond",
+          "text": "For",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】介词搭配题。To one's surprise/credit，此处 To the society 表示‘对于整个社会而言’。",
+      "explanation": "【命题解密】句内语义与介词辨析。句子后半部分表明了各国民众的感情归属：“G.I. Joe was any American soldier, [20] the most important person in their lives”。To sb意为“在某人看来；对某人而言”，用于引出持有特定评价或看法的主体，如To Egypt, France...意为“在埃及、法国等国民众的心目中”，大兵乔是生命中最重要的人，故选[B] To。[A] In强调在地理范围内；[C] From表示来源；[D] For表示“为了”。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 19
     },
     {
       "id": "ed90a071-3a6c-5403-8b5d-74b7c4dc29c4",
@@ -774,11 +805,12 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点】短语搭配题。by this means 意为‘通过这种方式’，承接上文总结退伍军人通过平稳融入社会实现双赢。",
+      "correct_answer": "D",
+      "explanation": "【命题解密】上下文语义与介词短语。空格修饰表语“the most important person in their lives”。at that point指代“在那个历史关头/在二战爆发的生死存亡时刻”，对于被纳粹铁蹄践踏而获得解放的各国民众而言，冲锋陷阵的美国大兵正是彼时他们生命中最重要的人，呼应开篇“that is not how it used to be”，故选[D]。[A] on the contrary（恰恰相反）逻辑转折不当；[B] by this means（以此方式）表手段；[C] from the outset（从一开始）超出二战特定时间范围。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "B"
+      "answer": "D",
+      "question_number": 20
     },
     {
       "id": "9774aad1-0438-5a69-bdd4-392fa375928f",
@@ -810,10 +842,11 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】推理判断题。第一段提到家庭作业近年来遭遇了家长与教育专家的广泛抨击和质疑，表明家庭作业正面临越来越多的批评（is receiving more criticism）。",
-      "points": 2,
+      "explanation": "【命题解密】推理判断题。定位至第一段①句“Homework has never been terribly popular with students and even many parents, but in recent years it has been particularly scorned”。句中“has been particularly scorned（近年来尤其受到唾弃/受到指责）”与选项[A]“is receiving more criticism（正在受到更多批评）”构成同义替换，故选[A]。[B]项忽略否定词never，将文意彻底反向曲解；[C]项曲解②句“revising their thinking on this educational ritual”，学区只是在重新思考这一惯例，并未取消；[D]项与③句“with the exception of some advanced courses（高级课程除外）”完全相悖。",
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21
     },
     {
       "id": "d0a7d759-dd38-50ef-b92f-cc70db74c393",
@@ -845,10 +878,11 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点】事实细节题。第二段指出洛杉矶联合学区之所以限制家庭作业在总评中的比重（不超过10%），主要是考虑到贫困家庭学生因缺乏辅导资源和家庭环境，在按时完成作业上面临客观困难（may have problems finishing their homework）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第二段①句“This rule is meant to address the difficulty that students from impoverished or chaotic homes might have in completing their homework”。句中“the difficulty... in completing their homework（来自贫困或混乱家庭的学生在完成作业方面可能遇到的困难）”与选项[C]“may have problems finishing their homework”完美同义对应，故选[C]。[A]项无中生有推断贫困生期望不高；[B]项将第四段作者指出的新规危险倾向“降低对贫困生的要求”颠倒为学生主动要求；[D]项并未提及贫困生大发抱怨。",
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22
     },
     {
       "id": "ab1ba06f-3dc2-52ae-b6b3-6c068089d818",
@@ -860,7 +894,7 @@
       "options": [
         {
           "key": "A",
-          "text": "result in students' indifference to their report cards",
+          "text": "result in students’ indifference to their report cards",
           "value": "A"
         },
         {
@@ -870,7 +904,7 @@
         },
         {
           "key": "C",
-          "text": "restrict teachers' power in education",
+          "text": "restrict teachers’ power in education",
           "value": "C"
         },
         {
@@ -879,11 +913,12 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点】细节推断题。第三段指出，如果作业成绩只占极小的比重，会导致学生不再重视日常学业表现和成绩单评定，进而滋生对学业评价的漠不关心（result in students' indifference to their report cards）。",
-      "points": 2,
+      "correct_answer": "D",
+      "explanation": "【命题解密】推理判断题。定位至第三段②句“But with homework counting for no more than 10% of their grades, students can easily skip half their homework and see very little difference on their report cards”。作者指出，由于家庭作业在总分中占比极低，学生即使少做一半作业在成绩单上也看不出任何区别，这必然会严重挫伤学生完成作业的积极性。选项[D]“discourage students from doing homework（打击学生做作业的积极性）”是对此处文意的准确归纳，故选[D]。[A]项混淆very little difference与indifference（漠不关心）；[B]项无端引申州考权威性受损；[C]项将未能授权教师夸大为限制权力。",
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "A"
+      "answer": "D",
+      "question_number": 23
     },
     {
       "id": "2ed2340a-f031-5063-948b-90a3e5c62d4d",
@@ -915,10 +950,11 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】事实细节题。第四段指出目前教育界尚未彻底厘清的核心问题在于：家庭作业在学校教育与学生长期学术成就中究竟是否真正扮演着不可或缺的重要角色（whether it counts much in schooling）。",
-      "points": 2,
+      "explanation": "【命题解密】推理判断题。定位至第四段①至③句“the policy addresses none of the truly thorny questions about homework. If the district finds homework to be unimportant... it should move to reduce or eliminate... Conversely, if homework matters, it should account for a significant portion...”。作者借Conversely构成对称假设，批评学区新政既未承认作业重要，也未表明作业不重要，因而回避了“家庭作业在学校教育中究竟是否举足轻重”这一根本问题。选项[B]“whether it counts much in schooling（在学校教育中是否起重要作用）”精准概括了核心争论，故选[B]。[A]项仅是作业不重要假设下的举措；[C]项曲解了末句教师批改负担；[D]项将对学业成就的影响偷换为对成绩单本身。",
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24
     },
     {
       "id": "31933366-0a55-5796-af00-01df890f22aa",
@@ -930,7 +966,7 @@
       "options": [
         {
           "key": "A",
-          "text": "Wrong Interpretations of an Educational Policy",
+          "text": "A Faulty Approach to Homework",
           "value": "A"
         },
         {
@@ -945,15 +981,16 @@
         },
         {
           "key": "D",
-          "text": "A Faulty Approach to Homework",
+          "text": "Wrong Interpretations of an Educational Policy",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点】主旨大意题。全文围绕洛杉矶学区限制作业比重的政策缺陷展开批评，并在结尾呼吁叫停这一做法，指出该学区采取了错误的作业管理手段，故最佳标题为 A Faulty Approach to Homework。",
-      "points": 2,
+      "correct_answer": "A",
+      "explanation": "【命题解密】主旨大意题。全文首段引出洛杉矶联合学区针对家庭作业所推行的死板硬性政策（an inflexible policy）；第二至四段逐层剖析该政策的致命缺陷：以保护贫困生为名行降低标准之实、一刀切的限比打消学生积极性、回避了家庭作业是否重要的核心实质；尾段得出明确结论：新规应当叫停搁置。全文始终聚焦于批评学区处理作业的错误方式，选项[A]“A Faulty Approach to Homework（处理家庭作业的一个错误方法）”完美契合主旨并鲜明呈现作者的批判态度，故选[A]。[B]项与作者抨击新规伤害贫困生相悖；[C]项偏离了对学区政策的批判重心；[D]项将对政策本身的批判篡改为外界对政策的误解。",
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 25
     },
     {
       "id": "e11c2827-4f65-55b6-9d43-02de42ebc444",
@@ -965,17 +1002,17 @@
       "options": [
         {
           "key": "A",
-          "text": "should not be the sole representation of girlhood",
+          "text": "should not be associated with girls' innocence",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "should not be associated with girls' innocence",
+          "text": "cannot explain girls' lack of imagination",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "cannot explain girls' lack of imagination",
+          "text": "should not be the sole representation of girlhood",
           "value": "C"
         },
         {
@@ -984,11 +1021,12 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点】句意理解题。第一段作者将粉色比作彩虹中微小的一小段，意在强调粉色虽然无害，但绝不应该成为女孩成长与童年特征的唯一代表（should not be the sole representation of girlhood）。",
-      "points": 2,
+      "correct_answer": "C",
+      "explanation": "【命题解密】词句推断题。定位至首段②句“It is not that pink is intrinsically bad, but it is such a tiny slice of the rainbow and, though it may celebrate girlhood in one way, it also repeatedly and firmly fuses girls' identity to appearance”。作者以“七色彩虹中极小的一抹色彩”形象生动地比喻粉色只是童年丰富多彩生活中的极小一部分，社会商家不应将其定格为女孩的全部象征。选项[C]“should not be the sole representation of girlhood（粉色不应成为女孩童年的唯一象征）”准确传达了作者意图，故选[C]。[A]、[B]、[D]项均未切中七彩光谱与单一色彩的本体比喻。",
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "C",
+      "question_number": 26
     },
     {
       "id": "a3b42679-4f93-50c2-80a8-569d6028b3b0",
@@ -1000,30 +1038,31 @@
       "options": [
         {
           "key": "A",
-          "text": "Colours are encoded in girls' DNA.",
+          "text": "are often used to categorize white infants",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Blue used to be regarded as the colour for girls.",
+          "text": "were not used to tell girls from boys in the past",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "White is preferred by babies.",
+          "text": "tend to be assigned with identical meanings",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Pink used to be a neutral colour in symbolising genders.",
+          "text": "are naturally associated with children's gender",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】事实细节题。第二段详细梳理了历史变迁，指出在20世纪初以前的传统观念中，蓝色其实常被视为属于女孩的温和色彩，而粉色反而更常与男孩关联，故 [B] Blue used to be regarded as the colour for girls 正确。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第二段②③句“Children's clothing had not been divided into pink for girls and blue for boys until relatively recently. Before the First World War, white was the default colour for all infants and toddlers...”。历史学家指出，在近代以前，婴儿不论男女一律穿白色，并未用颜色来区分性别，随后粉色还一度属于男性色彩。选项[B]“were not used to tell girls from boys in the past（在过去并没有用来区分男孩女孩）”是对历史事实的准确归纳，故选[B]。[A]项曲解了婴儿穿白色是因为易漂洗；[C]项违背文中不同时期色彩意义流变的表述；[D]项恰恰是作者反驳的错误生物宿命论。",
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 27
     },
     {
       "id": "89e9ba07-9ec6-535e-a8f7-5aa64df6ce79",
@@ -1035,30 +1074,31 @@
       "options": [
         {
           "key": "A",
-          "text": "the marketing of products for children",
+          "text": "has neglected children's active role in searching for cues",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "the observation of children's nature",
+          "text": "was profoundly influenced by mid-century theorists",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "researches into children's behaviour",
+          "text": "focused solely on the two-year-old development stage",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "studies of childhood consumption",
+          "text": "failed to acknowledge children's resistance to compromise",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点】推理判断题。第三段指出，社会对儿童心理发育阶段的认知与分类，在极大程度上受到了儿童商业化产品营销与消费主义塑造的影响（the marketing of products for children）。",
-      "points": 2,
+      "correct_answer": "B",
+      "explanation": "【命题解密】事实细节题。定位至第三段①②句“But it was not until the mid-1980s that pink became the centrepiece of a marketing strategy that was designed to cater to modern perceptions of children's psychological development. Mid-century psychological theorists had introduced the idea that children can distinguish between the sexes at about two years old”。文章明确指出，当下对儿童心理发育特性的认知，深刻植根于20世纪中叶心理学家所确立的理论模型。选项[B]“was profoundly influenced by mid-century theorists（深刻受到上世纪中叶理论家的影响）”完全切合题意，故选[B]。",
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 28
     },
     {
       "id": "781a2e31-b87a-5085-b7ac-bf7730aeb83d",
@@ -1070,30 +1110,31 @@
       "options": [
         {
           "key": "A",
-          "text": "focus on infant wear and older kids' clothes",
+          "text": "classify consumers into smaller groups",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "attach equal importance to different genders",
+          "text": "manufacture clothing with uniform gender cues",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "classify consumers into smaller groups",
+          "text": "focus primarily on the baby infant wear market",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "create some common shoppers' terms",
+          "text": "combine toddler products with older child designs",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点】事实细节题。第四段指出百货公司受到商业顾问的建议，应当将儿童消费者划分成更为细分微小的年龄群体（classify consumers into smaller groups / splitting into ever-tinier categories）以获取暴利。",
-      "points": 2,
+      "correct_answer": "A",
+      "explanation": "【命题解密】推理判断题。定位至第四段①至③句“Trade publications counselled department stores that, in order to maximize sales, they should create a 'third stepping stone' between infant wear and that of the older child... Splitting kids and adults into ever tinier categories has proved a surefire way to boost profits”。行业商业刊物给百货商店出谋划策，要求将儿童人群切割为更细碎的年龄与性别子类别。选项[A]“classify consumers into smaller groups（将消费者细分为更小的群体）”正是对“Splitting into ever tinier categories”的规范转述，故选[A]。[B]、[C]、[D]均与商业细分主旨背道而驰。",
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "C"
+      "answer": "A",
+      "question_number": 29
     },
     {
       "id": "2107caa7-5de4-517a-9abc-7e17fc628894",
@@ -1105,30 +1146,31 @@
       "options": [
         {
           "key": "A",
-          "text": "fully understood by clothing manufacturers",
+          "text": "a genetically determined trait",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "clearly explained by their inborn tendency",
+          "text": "an instinctive psychological requirement",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "mainly imposed by profit-driven businessmen",
+          "text": "a market-driven phenomenon",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "well interpreted by psychological experts",
+          "text": "an inevitable natural preference",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点】推理结论题。文章通过历史与营销分析得出结论：女孩对粉色的狂热并非源于生理天性，而主要是被逐利的商业巨头与玩具服装制造商人为建构和强加的（mainly imposed by profit-driven businessmen）。",
-      "points": 2,
+      "explanation": "【命题解密】主旨结论题。通读全文，作者开篇反驳了“女孩喜欢粉色源自天生DNA”的偏见，中篇援引历史学证明颜色性别认同纯属后天人为构建，尾篇直接揭露商业机构为追逐暴利刻意利用性别标签细分市场的资本本质。文章最终结论是：女孩对粉色的痴迷完全是商业营销与消费主义塑造出来的后天产物。选项[C]“a market-driven phenomenon（一种受市场营销驱动的社会现象）”深刻统领全文主旨，故选[C]。[A]、[B]、[D]均将这种现象误归为先天基因或本能，均为干扰项。",
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 30
     },
     {
       "id": "cfda7ac1-4d18-5303-bad8-b17a34fa8bd9",
@@ -1160,10 +1202,11 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】事实细节题。第一段提到生物科技公司高管在法官裁定基因不可授予专利后极度焦虑，表明这些公司极度渴望基因能够被法律承认为可授予专利的资产（genes to be patentable）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第一段②③句“Companies had won patents for isolated DNA for decades... But in March 2010 a district judge ruled that a company, Myriad Genetics, could not patent two genes... Biotech executives were violently agitated”。几十年来生物技术公司一直享受基因专利带来的垄断红利，法官判定基因不可申请专利后高管们暴跳如雷。由此直接反推，生物技术公司最核心的利益诉求就是希望基因能够获得专利。选项[A]“genes to be patentable（希望基因能够被授予专利）”准确概括其立场，故选[A]。[B]项、[C]项属于细枝末节的会议反应；[D]项完全站在其利益的对立面。",
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 31
     },
     {
       "id": "b9202020-1c0c-5212-b444-100a4b67dd90",
@@ -1195,10 +1238,11 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】事实细节题。第二段反对方观点认为，DNA 分子属于自然界天然存在的物质，根据专利法原理，只有人类人工制造的发明与产品才能被授予专利（only man-made products are patentable）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第一段末句与第二段①句“The judge declared that because nature, not human ingenuity, created the DNA, it was unpatentable... Opponents argue that genes are natural products, not human inventions”。反对基因专利的核心法理依据在于：大自然创造的产物绝非人类的发明创造，唯有人工改造或制造的创新产品才具备专利资格。选项[B]“only man-made products are patentable（只有人造产品才可以申请专利）”精确呼应原文，故选[B]。[A]项误导检测可靠性；[C]项属于专利法一般概念；[D]项与患者权益相反。",
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 32
     },
     {
       "id": "583afac4-1e31-5c8b-802e-4e0c0c9a316a",
@@ -1210,12 +1254,12 @@
       "options": [
         {
           "key": "A",
-          "text": "discovering gene interactions",
+          "text": "establishing disease correlations",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "establishing disease correlations",
+          "text": "discovering gene interactions",
           "value": "B"
         },
         {
@@ -1230,10 +1274,11 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】事实细节题。第五段汉斯·绍尔解释道，生物科技公司如今正转向研究基因之间的相互作用机制并为此急切申请专利保护（discovering gene interactions / connecting the dots）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第四段末句“Hans Sauer... says that companies are eager to win patents for 'connecting the dots'—discovering gene interactions and correlations that might be used to determine the causes of disease...”。BIO总法律顾问指出，企业极度渴望为“连接各个点”赢得专利，即通过锁定基因关联来诊断疾病成因。选项[A]“establishing disease correlations（确立疾病与基因的相关性）”是破折号后解释性内容的直接对应，故选[A]。[B]项是实现手段的一部分，而建立疾病成因关联是其核心目的；[C]项为字面干扰；[D]项为人体DNA的基础识别。",
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 33
     },
     {
       "id": "e15b7bdc-2b6d-5dfb-9c5e-7538ddcb1516",
@@ -1245,12 +1290,12 @@
       "options": [
         {
           "key": "A",
-          "text": "the supreme court was authoritative",
+          "text": "the Supreme Court was authoritative",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "the BIO was a powerful organisation",
+          "text": "the BIO was a powerful organization",
           "value": "B"
         },
         {
@@ -1265,10 +1310,11 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点】句意理解题。第六段描写 BIO 举办的专利诉讼研讨会场场爆满（packed），生动说明基因专利的合法性走向已经成为法律界与产业界高度焦虑和关切的重大焦点议题（gene patenting was a great concern）。",
-      "points": 2,
+      "explanation": "【命题解密】句意推断题。定位至尾段末句“BIO recently held a convention where session after session focused on the shifting landscape for patents. Each meeting was packed”。作者在文末描述BIO大会上一场接一场的专利政策研讨会座无虚席（Each meeting was packed），生动体现了医药企业与法学界对基因专利未来命运的高度焦虑与极大关注。选项[C]“gene patenting was a great concern（基因专利归属是各方极其关注的焦点）”深刻揭示了座无虚席背后的社会心态，故选[C]。[A]、[B]、[D]均停留在表面字面或无关推论。",
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 34
     },
     {
       "id": "497fc799-bb9f-5ae2-9e7f-36e6d1c94bdc",
@@ -1280,17 +1326,17 @@
       "options": [
         {
           "key": "A",
-          "text": "critical",
+          "text": "enthusiastic",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "supportive",
+          "text": "indifferent",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "scornful",
+          "text": "supportive",
           "value": "C"
         },
         {
@@ -1300,10 +1346,11 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点】观点态度题。通读全文，作者客观陈述了生物科技公司、司法部、最高法院以及反垄断公益组织在基因专利问题上的博弈与争辩，未带个人偏见，态度是客观公正的（objective）。",
-      "points": 2,
+      "explanation": "【命题解密】观点态度题。纵观全文，作者既详尽客观地陈述了生物科技公司倚仗专利维系研发投资的商业考量，也深刻剖析了反对者关于基因属于自然物、专利抬高医疗成本的严正指控，并在第三至六段如实跟进联邦巡回法院与最高法院的判例交锋及行业各方的谨慎应对。全文行文严谨中立，未带有偏激的主观偏向。选项[D]“objective（客观公正的）”精准概括了作者的立场态度，故选[D]。[A]热衷的、[C]支持的偏向企业，[B]漠不关心的违背全文深度探讨的事实。",
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 35
     },
     {
       "id": "cfcc2197-ad15-557d-9f92-f5565b791e88",
@@ -1335,10 +1382,11 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点】成语习语题。词组 silver linings 意为‘黑暗中的一线光明’，此处指失业人员在经济严冬中努力调整心态，积极寻找危局中的乐观积极因素（look on the bright side of the recession）。",
-      "points": 2,
+      "explanation": "【命题解密】词句推断题。定位至第二段①②句“No one tries harder than the jobless to find silver linings in this national economic disaster. Many said that unemployment, while extremely painful, had improved them in some ways; they had become less materialistic...”。英语成语every cloud has a silver lining意为“黑暗中总有一丝光明”。后文具体解释失业者虽然痛苦，但也在努力寻找积极意义（如变得节俭、关爱家人）。选项[D]“look on the bright side of the recession（看到经济萧条中积极光明的一面）”与find silver linings语义完全一致，故选[D]。[A]寻求补贴、[B]牟取暴利、[C]探究失业原因均与语境无关。",
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 36
     },
     {
       "id": "44bf494c-3dc9-5568-8c48-ca734a588ab4",
@@ -1350,30 +1398,31 @@
       "options": [
         {
           "key": "A",
-          "text": "struggle against each other",
+          "text": "struggle against each other for survival",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "realize the national dream",
+          "text": "give up their ambitions for the future",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "challenge their prudence",
+          "text": "challenge existing ethical standards",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "reconsider their lifestyle",
+          "text": "reconsider their lifestyle and priorities",
           "value": "D"
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点】事实细节题。第二段指出，经济衰退迫使许多原本过度消费的民众开始紧缩开支，重新反思并审视自己以往的生活方式与金钱观（reconsider their lifestyle）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第二段②③句“they had become less materialistic and more financially prudent; they were more aware of the struggles of others... grown closer to their families...”。失业让人们重新审视过去的挥霍，转而注重精打细算并更珍视亲情与家庭，这属于对个人生活方式及价值优先级的深刻反思。选项[D]“reconsider their lifestyle and priorities（重新审视自身的生活方式与优先考量）”准确契合原文，故选[D]。[A]互相争斗、[B]放弃抱负、[C]挑战伦理均为无端曲解。",
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 37
     },
     {
       "id": "4f011eca-7c6d-522d-99c0-b03e9f497b72",
@@ -1385,7 +1434,7 @@
       "options": [
         {
           "key": "A",
-          "text": "impose a heavier burden on immigrants",
+          "text": "eliminate racial discrimination",
           "value": "A"
         },
         {
@@ -1395,20 +1444,21 @@
         },
         {
           "key": "C",
-          "text": "promote the advance of rights and freedoms",
+          "text": "strengthen democratic systems",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "ease conflicts between races and classes",
+          "text": "promote social equality",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点】事实细节题。第三段本杰明·弗里德曼指出，经济繁荣促进道德进步与包容，而长期萧条则容易激化族群矛盾，激发人性中自私狭隘与仇外的一面（bring out more evils of human nature）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第三段①②句“Benjamin Friedman argues that... lengthy periods of economic stagnation or decline have almost always left society more mean-spirited and less inclusive. They have also resulted in anti-immigrant sentiment, greater racial and class conflict...”。弗里德曼指出，长期的经济停滞几乎总是让社会变得更加刻薄尖酸、缺乏包容，激化排外情绪与种族阶级冲突。这些都是人性中黑暗与丑恶一面的集中暴露。选项[B]“bring out more evils of human nature（激发或暴露更多人性中的恶）”高度概括了其核心观点，故选[B]。[A]、[C]、[D]均与弗里德曼指出的负面恶果截然相反。",
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 38
     },
     {
       "id": "464a2678-2fae-521c-86f2-8ef7d1c02f51",
@@ -1420,30 +1470,31 @@
       "options": [
         {
           "key": "A",
-          "text": "lag behind the others due to decreased opportunities",
+          "text": "suffer long-term career setbacks",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "catch up quickly with experienced employees",
+          "text": "compete fiercely with the masses",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "see their life chances as dimmed as the others'",
+          "text": "sacrifice their potential for quick income",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "recover more quickly than the others",
+          "text": "recover quickly from the adverse effect",
           "value": "D"
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点】事实细节题。第四段蒂尔·冯·瓦赫特的研究表明，尽管名校毕业生也会在萧条初期遭遇挫折，但他们凭借名校光环和资源优势，能比其他普通高校毕业生更快地走出困境恢复职业上升势头（recover more quickly than the others）。",
-      "points": 2,
+      "explanation": "【命题解密】事实细节题。定位至第四段①句“those with degrees from elite universities catch up fairly quickly to where they otherwise would have been if they had graduated in good times; it is the masses beneath them that are left behind”。哥伦比亚大学经济学家的研究证实：名校毕业生在衰退期毕业后，能够相当迅速地赶上在繁荣时期毕业本应达到的职场水平。选项[D]“recover quickly from the adverse effect（从经济逆境的不利影响中迅速恢复过来）”与catch up fairly quickly形成精准同义对应，故选[D]。[A]长期受挫、[B]与大众激烈竞争、[C]牺牲潜力均为反向干扰项。",
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 39
     },
     {
       "id": "6eb415d1-e658-5761-b509-04c6199512bf",
@@ -1455,30 +1506,31 @@
       "options": [
         {
           "key": "A",
-          "text": "certain",
+          "text": "lasting and profound",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "positive",
+          "text": "temporary and manageable",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "trivial",
+          "text": "predictable and localized",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "destructive",
+          "text": "mild and superficial",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】观点态度题。文章末尾明确指出，艰难岁月将如何重塑社会肌理仍需拭目以待，但它们对社会的深刻重塑是必然会发生的（certainly will reshape it），故影响力是毋庸置疑的（certain）。",
-      "points": 2,
+      "explanation": "【命题解密】主旨态度题。定位至首段末句与全文尾句。首段指出“the recession will likely reshape our politics, culture, and character of our society for years”，尾段末句进一步强调“These grim realities will reshape it, and all the more so the longer they extend”。作者明确指出经济困境对社会制度与国民心态的重构具有长久而深远的破坏力。选项[A]“lasting and profound（持久而深远的）”完全切合文章主题与作者沉痛的预警，故选[A]。[B]暂时的、[C]局部的、[D]轻微的均严重低估了衰退的危害。",
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 40
     },
     {
       "id": "c901f1fe-f55d-5cde-ba70-344ece5ceaeb",
@@ -1500,12 +1552,12 @@
         },
         {
           "key": "C",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "text": "opened up new realms of understanding the great men in history.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "opened up new realms of understanding the great men in history.",
+          "text": "focused on epochal figures whose lives were hard to imitate.",
           "value": "D"
         },
         {
@@ -1525,10 +1577,11 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点】多项人物观点匹配题。第三段明确提到彼特拉克（Petrarch）在其著作《名人传》中‘highlighting the virtus (or virtue) of classical heroes’，歌颂古典英雄的崇高美德，与 [A] emphasized the virtue of classical heroes 完美吻合。",
-      "points": 2,
+      "explanation": "【命题解密】信息匹配题。定位至第三段“In 1337, Petrarch began work on his rambling writing De Viris Illustribus—On Famous Men, highlighting the virtus (or virtue) of classical heroes”。彼特拉克在其著作《名人传》中着重强调古代古典英雄的美德，以此激励后世。选项[A]“emphasized the virtue of classical heroes（强调古典英雄的美德）”与原文词句100%直接对应，故选[A]。",
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 41
     },
     {
       "id": "c043408b-8192-5d7e-bf6a-d457386a533c",
@@ -1550,12 +1603,12 @@
         },
         {
           "key": "C",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "text": "opened up new realms of understanding the great men in history.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "opened up new realms of understanding the great men in history.",
+          "text": "focused on epochal figures whose lives were hard to imitate.",
           "value": "D"
         },
         {
@@ -1575,10 +1628,11 @@
         }
       ],
       "correct_answer": "F",
-      "explanation": "【考点】多项人物观点匹配题。第三段末尾指出马基雅维利在《君王论》中颠覆了传统道德观，‘championed cunning, ruthlessness, and boldness, rather than virtue, mercy and justice’，认为美德对于成功统治者并非必需，与 [F] dismissed virtue as unnecessary for successful leaders 对应。",
-      "points": 2,
+      "explanation": "【命题解密】信息匹配题。定位至第四段“This was the biographical tradition which Niccolo Machiavelli turned on its head. In The Prince, he championed cunning, ruthlessness, and boldness, rather than virtue, mercy and justice, as the skills of successful leaders”。马基雅维利在《君主论》中主张狡诈、无情与果决，而不是仁慈、正义或道德美德，颠覆了传统的英雄传记传统。选项[F]“dismissed virtue as unnecessary for successful leaders（认为美德对成功的领导者是不必要的）”是对championed... rather than virtue的精准概括，故选[F]。",
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 42
     },
     {
       "id": "fe2d3667-f57c-5d58-a200-e2ba9d8178c5",
@@ -1600,12 +1654,12 @@
         },
         {
           "key": "C",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "text": "opened up new realms of understanding the great men in history.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "opened up new realms of understanding the great men in history.",
+          "text": "focused on epochal figures whose lives were hard to imitate.",
           "value": "D"
         },
         {
@@ -1625,10 +1679,11 @@
         }
       ],
       "correct_answer": "G",
-      "explanation": "【考点】多项人物观点匹配题。第四段指出塞缪尔·斯迈尔斯在《自助论》中描绘了工程师、实业家和探险家的奋斗历程，‘wrote Self-Help as a catalogue of the worthy lives of engineers, industrialists and explorers’，与 [G] depicted the worthy lives of engineers, industrialists and explorers 完全一致。",
-      "points": 2,
+      "explanation": "【命题解密】信息匹配题。定位至第五段“By contrast, the Victorian author Samuel Smiles wrote Self-Help as a catalogue of the worthy lives of engineers, industrialists and explorers”。维多利亚时代作家塞缪尔·斯迈尔斯在其经典《自助》中记录了工程师、实业家和探险家充实而有价值的一生。选项[G]“depicted the worthy lives of engineers, industrialists and explorers（描绘了工程师、实业家与探险家有价值的人生）”与原文词句一字不差完全吻合，故选[G]。",
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 43
     },
     {
       "id": "62f00516-72ad-56be-b904-29c1fd6fd3c5",
@@ -1650,12 +1705,12 @@
         },
         {
           "key": "C",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "text": "opened up new realms of understanding the great men in history.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "opened up new realms of understanding the great men in history.",
+          "text": "focused on epochal figures whose lives were hard to imitate.",
           "value": "D"
         },
         {
@@ -1675,10 +1730,11 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点】多项人物观点匹配题。第四段末尾与第五段指出托马斯·卡莱尔推崇划时代的超凡伟人，‘focused his biographies on the truly represented lives hard to imitate’，强调伟人不可复制的高远境界，与 [C] focused on epochal figures whose lives were hard to imitate 完美匹配。",
-      "points": 2,
+      "explanation": "【命题解密】信息匹配题。定位至第一段与第六段“Universal history, the history of what man has accomplished in this world, is at bottom the History of the Great Men who have worked here... Carlyle saw the Great Man as an inspired leader who could reshape society...”。托马斯·卡莱尔是伟人史观的代表人物，系统阐释了伟大人物如何凭借超凡意志改造世界并开启历史新纪元。选项[C]“opened up new realms of understanding the great men in history（开辟了理解历史伟人的全新视野）”深刻契合其在历史思想史上的地位，故选[C]。",
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 44
     },
     {
       "id": "ec554780-bf63-5fe6-b157-380260a2aa34",
@@ -1700,12 +1756,12 @@
         },
         {
           "key": "C",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "text": "opened up new realms of understanding the great men in history.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "opened up new realms of understanding the great men in history.",
+          "text": "focused on epochal figures whose lives were hard to imitate.",
           "value": "D"
         },
         {
@@ -1725,11 +1781,13 @@
         }
       ],
       "correct_answer": "E",
-      "explanation": "【考点】多项人物观点匹配题。第六段引用马克思与恩格斯《共产党宣言》中的经典论断，指出‘history should be the story of the masses and their record of struggle’（历史应当是人民群众及其阶级斗争的记录），与 [E] held that history should be the story of the masses and their record of struggle 完全对应。",
-      "points": 2,
+      "explanation": "【命题解密】信息匹配题。定位至第七段末尾“This heroic view of history was vigorously challenged by Karl Marx and Friedrich Engels. In The Communist Manifesto and other works, Marx and Engels held that history is propelled not by the actions of great individuals, but by economic forces and the struggles of the masses. Downstairs became just as fascinating as upstairs”。马克思与恩格斯提出唯物史观，坚决批驳英雄史观，强调人民群众的历史主体地位与阶级斗争历史。选项[E]“held that history should be the story of the masses and their record of struggle（认为历史应当是人民群众的故事及其斗争记录）”与原文完全契合，故选[E]。",
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 45
     }
   ],
-  "exportedAt": "2026-10-15T11:40:27.993Z"
+  "exportedAt": "2026-10-15T11:40:27.993Z",
+  "title": "2012年全国硕士研究生入学统一考试英语（二）真题"
 }
