@@ -157,6 +157,7 @@ def main():
     round57_anomalies = []
     round58_anomalies = []
     round59_anomalies = []
+    round60_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -372,6 +373,105 @@ def main():
                     act_a = q_list[q_no-1].get('answer')
                     if act_a != exp_a:
                         round59_anomalies.append((f'2013_ky2_q{q_no}_ans', f'expected {exp_a}, got {act_a}'))
+
+        if yr == 2014 and cat == 'ky1':
+            if title != '2014年全国硕士研究生入学统一考试英语（一）真题':
+                round60_anomalies.append(('2014_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round60_anomalies.append(('2014_ky1_total_score', data['exam'].get('total_score')))
+
+            p_list = data.get("passages", [])
+            if len(p_list) != 6:
+                round60_anomalies.append(('2014_ky1_passages_count', len(p_list)))
+            else:
+                cloze = p_list[0]
+                c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round60_anomalies.append(('2014_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("As many people hit middle age"):
+                    round60_anomalies.append(('2014_ky1_cloze_header', 'corrupted'))
+
+                t1 = p_list[1]
+                t1_paras = [p for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 4:
+                    round60_anomalies.append(('2014_ky1_t1_paras', len(t1_paras)))
+                if "George Osborne introduced a new requirement" not in t1.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t1_header', 'corrupted'))
+                if "least generous in the EU." not in t1.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t1_tail', 'corrupted'))
+                if "icipants" in t1.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t1_pollution', 'present'))
+
+                t2 = p_list[2]
+                t2_paras = [p for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 6:
+                    round60_anomalies.append(('2014_ky1_t2_paras', len(t2_paras)))
+                if "All around the world, lawyers generate more hostility" not in t2.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t2_header', 'corrupted'))
+                if "Which of the following adds to the costs" in t2.get("content", "") or "A lot of students take up law" in t2.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t2_stem_pollution', 'present'))
+
+                t3 = p_list[3]
+                t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 5:
+                    round60_anomalies.append(('2014_ky1_t3_paras', len(t3_paras)))
+                if "Fundamental Physics Prize" not in t3.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t3_header', 'corrupted'))
+
+                t4 = p_list[4]
+                t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 6:
+                    round60_anomalies.append(('2014_ky1_t4_paras', len(t4_paras)))
+                if "The Heart of the Matter" not in t4.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t4_header', 'corrupted'))
+                if "Influential figures in the Congress required" in t4.get("content", ""):
+                    round60_anomalies.append(('2014_ky1_t4_stem_pollution', 'present'))
+
+                pb = p_list[5]
+                pb_paras = [p for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 8:
+                    round60_anomalies.append(('2014_ky1_pb_paras', len(pb_paras)))
+                for lbl in ['[A]', '[B]', '[C]', '[D]', '[E]', '[F]', '[G]']:
+                    if lbl not in pb.get("content", ""):
+                        round60_anomalies.append((f'2014_ky1_pb_{lbl}', 'missing'))
+
+            q_list = data.get("questions", [])
+            if len(q_list) != 45:
+                round60_anomalies.append(('2014_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('question_number') != i:
+                        round60_anomalies.append((f'2014_ky1_q{i}_number', q.get('question_number')))
+                    exp_score = 0.5 if i <= 20 else 2.0
+                    q_pts = q.get('points') if q.get('points') is not None else q.get('score')
+                    if float(q_pts or 0) != exp_score:
+                        round60_anomalies.append((f'2014_ky1_q{i}_points', q_pts))
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('q_type') != exp_type:
+                        round60_anomalies.append((f'2014_ky1_q{i}_q_type', q.get('q_type')))
+                    opts = q.get('options', [])
+                    for opt_item in opts:
+                        opt_k = opt_item.get('key', '')
+                        opt_v = opt_item.get('text', '')
+                        if opt_v.strip() == opt_k:
+                            round60_anomalies.append((f'2014_ky1_q{i}_placeholder_opt', opt_k))
+                    expl = q.get('explanation', '')
+                    if not expl or ('考点提炼' not in expl and '精准定位' not in expl and '选项推测' not in expl and '答案敲定' not in expl):
+                        round60_anomalies.append((f'2014_ky1_q{i}_explanation_structure', 'incomplete'))
+
+                gold_ans = {
+                    1: 'D', 2: 'A', 3: 'B', 4: 'A', 5: 'C', 6: 'D', 7: 'C', 8: 'D', 9: 'B', 10: 'C',
+                    11: 'A', 12: 'A', 13: 'B', 14: 'D', 15: 'C', 16: 'B', 17: 'A', 18: 'B', 19: 'C', 20: 'D',
+                    21: 'A', 22: 'C', 23: 'D', 24: 'A', 25: 'A',
+                    26: 'D', 27: 'D', 28: 'A', 29: 'B', 30: 'B',
+                    31: 'B', 32: 'C', 33: 'C', 34: 'B', 35: 'D',
+                    36: 'A', 37: 'D', 38: 'C', 39: 'C', 40: 'B',
+                    41: 'C', 42: 'F', 43: 'G', 44: 'D', 45: 'B'
+                }
+                for q_no, exp_a in gold_ans.items():
+                    act_a = q_list[q_no-1].get('answer')
+                    if act_a != exp_a:
+                        round60_anomalies.append((f'2014_ky1_q{q_no}_ans', f'expected {exp_a}, got {act_a}'))
 
         passages = data.get('passages', [])
         questions = data.get('questions', [])
@@ -753,9 +853,9 @@ def main():
                     round18_anomalies.append(('2014_q32', ans, opt_map))
                 if so == 33 and (ans != 'C' or opt_map.get('C') != 'the joint effort of modern researchers'):
                     round18_anomalies.append(('2014_q33', ans, opt_map))
-                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not expl.startswith('［精准定位］')):
+                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not (expl.startswith('［精准定位］') or expl.startswith('【精准定位】'))):
                     round18_anomalies.append(('2014_q39', ans, opt_map, expl[:30]))
-                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not expl.startswith('［精准定位］')):
+                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not (expl.startswith('［精准定位］') or expl.startswith('【精准定位】'))):
                     round18_anomalies.append(('2014_q40', ans, opt_map, expl[:30]))
             if yr == 2001 and cat == 'ky1':
                 if so == 32 and (ans != 'A' or opt_map.get('A') != 'failure to realize its real problem'):
@@ -993,9 +1093,9 @@ def main():
                     round18_anomalies.append(('2014_q32', ans, opt_map))
                 if so == 33 and (ans != 'C' or opt_map.get('C') != 'the joint effort of modern researchers'):
                     round18_anomalies.append(('2014_q33', ans, opt_map))
-                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not expl.startswith('［精准定位］')):
+                if so == 39 and (ans != 'C' or opt_map.get('C') != 'biased against classical liberal ideas' or not (expl.startswith('［精准定位］') or expl.startswith('【精准定位】'))):
                     round18_anomalies.append(('2014_q39', ans, opt_map, expl[:30]))
-                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not expl.startswith('［精准定位］')):
+                if so == 40 and (ans != 'B' or opt_map.get('B') != 'Illiberal Education and "The Heart of the Matter"' or not (expl.startswith('［精准定位］') or expl.startswith('【精准定位】'))):
                     round18_anomalies.append(('2014_q40', ans, opt_map, expl[:30]))
             if yr == 2001 and cat == 'ky1':
                 if so == 32 and (ans != 'A' or opt_map.get('A') != 'failure to realize its real problem'):
@@ -1731,7 +1831,7 @@ def main():
 
             # Check Round 38: 2011 ky1 Reading Comprehension (Q21-Q40)
             if yr == 2011 and cat == 'ky1' and 21 <= so <= 40:
-                if not expl.startswith('［精准定位］') or '[A]' in expl[:80] or '21.' in expl[:50] or '28.' in expl[:50] or '31.' in expl[:50]:
+                if not (expl.startswith('［精准定位］') or expl.startswith('【精准定位】')) or '[A]' in expl[:80] or '21.' in expl[:50] or '28.' in expl[:50] or '31.' in expl[:50]:
                     round38_anomalies.append((f'2011_ky1_q{so}_head_stacked', expl[:60]))
                 if so == 24 and stem != 'According to the text, which of the following is true of recordings?':
                     round38_anomalies.append(('2011_ky1_q24_stem', stem))
@@ -1750,7 +1850,7 @@ def main():
 
             # Check Round 39: 2014 ky1 Reading Comprehension (Q21-Q40)
             if yr == 2014 and cat == 'ky1' and 21 <= so <= 40:
-                if not expl.startswith('［精准定位］') or '[A]' in expl[:80] or '21.' in expl[:50] or '26.' in expl[:50] or '31.' in expl[:50] or '36.' in expl[:50]:
+                if not (expl.startswith('［精准定位］') or expl.startswith('【精准定位】')) or '[A]' in expl[:80] or '21.' in expl[:50] or '26.' in expl[:50] or '31.' in expl[:50] or '36.' in expl[:50]:
                     round39_anomalies.append((f'2014_ky1_q{so}_head_stacked', expl[:60]))
                 if expl.rstrip().endswith(('benefits get into w', 'undergraduate degree in', 'draw people into', 'maintain national')):
                     round39_anomalies.append((f'2014_ky1_q{so}_leakage', expl[-60:]))
@@ -1770,7 +1870,7 @@ def main():
                     round39_anomalies.append(('2014_ky1_q30', stem, ans))
                 elif so == 35 and (stem != "The author believes that the new awards are ________." or ans != 'D'):
                     round39_anomalies.append(('2014_ky1_q35', stem, ans))
-                elif so == 37 and (stem != "Influential figures in the Congress required that the AAAS report on how to ________." or '匹语篇分析' in expl or not expl.startswith('［精准定位］第二段首句明确指出：国会重要人物要求')):
+                elif so == 37 and (stem != "Influential figures in the Congress required that the AAAS report on how to ________." or '匹语篇分析' in expl or not (expl.startswith('［精准定位］第二段首句明确指出：国会重要人物要求') or expl.startswith('【精准定位】第二段首句明确指出：国会重要人物要求'))):
                     round39_anomalies.append(('2014_ky1_q37', stem, expl[:60]))
                 elif so == 38 and stem != "According to Paragraph 3, the report suggests ________.":
                     round39_anomalies.append(('2014_ky1_q38_stem', stem))
@@ -2958,6 +3058,7 @@ def main():
     results["Assertion 79: 2012 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 1 找回腰斩两句恢复5段、Text 2 补齐截断残损与中句、Q1-Q45 题型/分值/官方标准答案 100% 零差异对齐）"] = (len(round57_anomalies) == 0)
     results["Assertion 80: 2013 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 1 找回丢失段落恢复6段、Text 2 剔除题干倒灌恢复7段、Text 3 补齐VI/VII段、Text 4 切除倒灌残渣恢复7段、Part B 找回缺失选项[A][B]、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round58_anomalies) == 0)
     results["Assertion 81: 2013 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段351词、Text 1 恢复6段366词并补齐G.I. Bill完整句、Text 2 恢复5段402词理顺候鸟脉络、Text 3 恢复6段381词、Text 4 独立设问恢复7段356词、Part B 恢复6段504词含引言及[41]-[45]建议、切除全卷45题假占位符、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round59_anomalies) == 0)
+    results["Assertion 82: 2014 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段284词、Text 1 恢复4段341词切除尾部拼接、Text 2 恢复6段415词彻底消除Q26/Q27题干倒灌与腰斩、Text 3 恢复5段380词补齐诺贝尔奖对比、Text 4 恢复6段412词切除Q37题干倒灌、Part B 恢复8段592词完整找回[B][C][D][E]四段、纠偏完型8题与阅读Q27、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round60_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -3089,10 +3190,14 @@ def main():
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:
             print(f"Round 59 anomalies ({len(round59_anomalies)}):", round59_anomalies[:10])
+        if round60_anomalies:
+            print(f"Round 60 anomalies ({len(round60_anomalies)}):", round60_anomalies[:10])
         if round58_anomalies:
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:
             print(f"Round 59 anomalies ({len(round59_anomalies)}):", round59_anomalies[:10])
+        if round60_anomalies:
+            print(f"Round 60 anomalies ({len(round60_anomalies)}):", round60_anomalies[:10])
         sys.exit(1)
     else:
         print(f"\n🎉 恭喜！全库 {len(results)} 项法医级断言指标 100% 全部通过！无任何缺陷残留！")
