@@ -163,6 +163,7 @@ def main():
     round63_anomalies = []
     round64_anomalies = []
     round65_anomalies = []
+    round66_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1007,6 +1008,116 @@ def main():
                     act_ans = q_list[q_idx - 1].get('correct_answer') or q_list[q_idx - 1].get('answer')
                     if act_ans != exp_ans:
                         round65_anomalies.append((f'2016_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2017 and cat == 'ky1':
+            if title != '2017年全国硕士研究生招生考试英语（一）真题':
+                round66_anomalies.append(('2017_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round66_anomalies.append(('2017_ky1_total_score', data['exam'].get('total_score')))
+
+            p_list = data.get("passages", [])
+            if len(p_list) != 6:
+                round66_anomalies.append(('2017_ky1_passages_count', len(p_list)))
+            else:
+                cloze = p_list[0]
+                c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round66_anomalies.append(('2017_ky1_cloze_paras', len(c_paras)))
+                if "resounding ayes!" in cloze.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_cloze_typo_ayes', 'resounding ayes!'))
+                if "oxytocin, often called “the bonding hormone”" not in cloze.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_cloze_oxytocin_text', 'missing'))
+
+                t1 = p_list[1]
+                t1_paras = [p for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round66_anomalies.append(('2017_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("First two hours, now three hours"):
+                    round66_anomalies.append(('2017_ky1_t1_start', t1.get("content", "")[:50]))
+                if "EgyptAir Flight 804" not in t1.get("content", "") or "underused PreCheck lanes" not in t1.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t1_required_phrases', 'missing'))
+
+                t2 = p_list[2]
+                t2_paras = [p for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 6:
+                    round66_anomalies.append(('2017_ky1_t2_paras', len(t2_paras)))
+                if "“The ancient Hawaiians were astronomers,” wrote Queen Liliuokalani" not in t2.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t2_missing_queen_liliuokalani', 'not found'))
+                if "Thirty Meter Telescope (TMT)" not in t2.get("content", "") or "dormant volcano worshiped by some Hawaiians as the piko" not in t2.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t2_content_phrases', 'missing'))
+
+                t3 = p_list[3]
+                t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 7:
+                    round66_anomalies.append(('2017_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("Robert F. Kennedy once said that a country's GDP measures"):
+                    round66_anomalies.append(('2017_ky1_t3_start', t3.get("content", "")[:60]))
+                if "Across the 163 countries measured, the UK is one of the poorest performers" not in t3.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t3_gdp_study_text', 'missing'))
+                if "Robert McDonnell" in t3.get("content", "") or "Supreme Court" in t3.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t3_inversion_contamination', 'McDonnell present in T3'))
+                if "[452 words]" in t3.get("content", "") or "452 words" in t3.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t3_word_count_leakage', 'present'))
+
+                t4 = p_list[4]
+                t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 8:
+                    round66_anomalies.append(('2017_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith('In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell.'):
+                    round66_anomalies.append(('2017_ky1_t4_start', t4.get("content", "")[:60]))
+                if "The court's ruling is a step forward in the struggle against both corruption and official favoritism." not in t4.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t4_ending', 'missing'))
+                if "When GDP is no longer regarded as the sole measure" in t4.get("content", "") or "Brexit" in t4.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_t4_inversion_contamination', 'GDP present in T4'))
+
+                pb = p_list[5]
+                pb_paras = [p for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 7:
+                    round66_anomalies.append(('2017_ky1_pb_paras', len(pb_paras)))
+                if "Directions:" in pb.get("content", "") or "[D] -> [41]" in pb.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_pb_directions_leak', 'present'))
+                if not pb.get("content", "").startswith('[A] The first published sketch'):
+                    round66_anomalies.append(('2017_ky1_pb_start', pb.get("content", "")[:50]))
+                if "A Dinner at Poplar Walk" not in pb.get("content", "") or "The Pickwick Papers" not in pb.get("content", ""):
+                    round66_anomalies.append(('2017_ky1_pb_content', 'missing Dickens work'))
+
+            q_list = data.get("questions", [])
+            if len(q_list) != 45:
+                round66_anomalies.append(('2017_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('question_number') != i:
+                        round66_anomalies.append((f'2017_ky1_q{i}_number', q.get('question_number')))
+                    exp_score = 0.5 if i <= 20 else 2.0
+                    q_pts = q.get('points') if q.get('points') is not None else q.get('score')
+                    if float(q_pts or 0) != exp_score:
+                        round66_anomalies.append((f'2017_ky1_q{i}_points', q_pts))
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round66_anomalies.append((f'2017_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    opts = q.get('options', [])
+                    for opt_item in opts:
+                        opt_k = opt_item.get('key', '')
+                        opt_v = opt_item.get('text', '')
+                        if opt_v.strip() == opt_k:
+                            round66_anomalies.append((f'2017_ky1_q{i}_placeholder_opt', opt_k))
+                    expl = q.get('explanation', '')
+                    if not expl or len(expl) < 100:
+                        round66_anomalies.append((f'2017_ky1_q{i}_explanation', 'insufficient'))
+
+                gold_ans_ky1_2017 = {
+                    1: 'B', 2: 'A', 3: 'D', 4: 'C', 5: 'B', 6: 'D', 7: 'B', 8: 'C', 9: 'A', 10: 'D',
+                    11: 'A', 12: 'B', 13: 'D', 14: 'B', 15: 'C', 16: 'A', 17: 'C', 18: 'A', 19: 'C', 20: 'D',
+                    21: 'A', 22: 'C', 23: 'D', 24: 'D', 25: 'C',
+                    26: 'B', 27: 'A', 28: 'B', 29: 'A', 30: 'D',
+                    31: 'D', 32: 'B', 33: 'D', 34: 'C', 35: 'A',
+                    36: 'C', 37: 'C', 38: 'A', 39: 'B', 40: 'D',
+                    41: 'F', 42: 'E', 43: 'A', 44: 'C', 45: 'G'
+                }
+                for q_idx, exp_ans in gold_ans_ky1_2017.items():
+                    act_ans = q_list[q_idx - 1].get('correct_answer') or q_list[q_idx - 1].get('answer')
+                    if act_ans != exp_ans:
+                        round66_anomalies.append((f'2017_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -3600,6 +3711,7 @@ def main():
     results["Assertion 85: 2015 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段320词消除占位符残损、Text 1 恢复6段398词纠偏Q21为A及Q25为D、Text 2 恢复5段397词治愈引文格式与Q28真实选项纠偏、Text 3 恢复5段420词还原右脑修辞与团队导向论述消除黏连、Text 4 恢复6段427词消除黏连并还原医保核心失落句、Part B 恢复7段519词剔除OCR杂质并补齐44段社交陪伴完整句、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round63_anomalies) == 0)
     results["Assertion 86: 2016 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型规范3段理顺婚俗脉络、Text 1 恢复7段找回失落第7段并修复首句France注脚与第3段首句截断、Text 2 恢复6段找回第3段6句大篇失落句并剔除showT与倒灌题干、Text 3 恢复6段切除双重重复与OCR乱码并补全罚金论述、Text 4 恢复7段理顺奢侈品转型、Part B 恢复8段剥离指导语与选项、全卷45题question_number彻底自洽赋值1..45、纠偏Q24为真题原版选项、纠偏Q25为D及Q36为A及Q40为B、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round64_anomalies) == 0)
     results["Assertion 87: 2016 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并补齐年轻企业关联句、Text 1 恢复6段修复101班级与shelf life、Text 2 恢复4段补齐栖息地补偿金论述与Lininger引述、Text 3 恢复4段补全Eberle空瓶子比喻与灵魂时间、Text 4 恢复6段理顺里程碑与Schneider失落求职句、Part B 恢复7段切除乱码-ns与补齐情绪宣泄句、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round65_anomalies) == 0)
+    results["Assertion 88: 2017 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 3 与 Text 4 历史颠倒互换彻底归位纠偏、Text 2 补齐失落利留卡拉尼女王首段恢复6段、完型恢复4段并修复yes与碎词、Text 3 剔除词数泄露恢复7段、Text 4 恢复8段独立设问、Part B 剥离指导语与连线图恢复7段[A]-[G]、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round66_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -3743,6 +3855,8 @@ def main():
             print(f"Round 64 anomalies ({len(round64_anomalies)}):", round64_anomalies[:10])
         if round65_anomalies:
             print(f"Round 65 anomalies ({len(round65_anomalies)}):", round65_anomalies[:10])
+        if round66_anomalies:
+            print(f"Round 66 anomalies ({len(round66_anomalies)}):", round66_anomalies[:10])
         if round58_anomalies:
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:

@@ -2,7 +2,7 @@
   "exam": {
     "id": "4fd42872-4822-5786-8d16-0317051bf03d",
     "category_id": "ky1",
-    "title": "2017年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2017年全国硕士研究生招生考试英语（一）真题",
     "year": 2017,
     "exam_type": "real",
     "duration_minutes": 180,
@@ -28,55 +28,61 @@
       "id": "027994fc-a97b-5b0c-9eec-a8b499cf62fd",
       "exam_id": "4fd42872-4822-5786-8d16-0317051bf03d",
       "category_id": "ky1",
-      "section_type": "cloze",
+      "section_type": "use_of_english",
       "title": "Section I: Use of English",
-      "content": "Could a hug a day keep the doctor away? The answer may be a resounding ayes! [1] helping you feel close and [2] to people you care about, it turns out that hugs can bring a [3] of health benefits to your body and mind. Believe it or not, a warm embrace might even help you [4] getting sick this winter. In a recent study [5] over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs [6] the participants' susceptibility to developing the common cold after being [7] to the virus. People who perceived greater social support were less likely to come [8] with a cold, and the researchers [9] that the stress-reducing effects of hugging [10] about 32 percent of that beneficial effect. [11] among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe [12] \" Hugging protects people who are under stress from the [13] risk for colds that's usually [14] with stress,\" notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging \"is a marker of intimacy and helps [15] the feeling that others are there to help [16] difficulty.\" 1\\ 0 Some experts [17] the stress-reducing, healthrelated benefits of hugging to the release of oxytocinJ,, often called \" the bonding hormone ” [18] it promotes attachment in relationships, including that between mothers and their newborn babies. 0 Oxytocin is made primarily in the central lower part of the brain, and some of it is released into the bloodstream But some of it [19] in the brain, where it [20] mood, behavior and physiology.",
-      "sort_order": 1
+      "content": "Could a hug a day keep the doctor away? The answer may be a resounding “yes!” [1] helping you feel close and [2] to people you care about, it turns out that hugs can bring a [3] of health benefits to your body and mind. Believe it or not, a warm embrace might even help you [4] getting sick this winter.\n\nIn a recent study [5] over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs [6] the participants' susceptibility to developing the common cold after being [7] to the virus. People who perceived greater social support were less likely to come [8] with a cold, and the researchers [9] that the stress-reducing effects of hugging [10] about 32 percent of that beneficial effect. [11] among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe [12].\n\n“Hugging protects people who are under stress from the [13] risk for colds that's usually [14] with stress,” notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging “is a marker of intimacy and helps [15] the feeling that others are there to help [16] difficulty.”\n\nSome experts [17] the stress-reducing, health-related benefits of hugging to the release of oxytocin, often called “the bonding hormone” [18] it promotes attachment in relationships, including that between mothers and their newborn babies. Oxytocin is made primarily in the central lower part of the brain, and some of it is released into the bloodstream. But some of it [19] in the brain, where it [20] mood, behavior and physiology.",
+      "sort_order": 1,
+      "passage_type": "cloze"
     },
     {
       "id": "ec90837a-70ab-52e5-8b01-92083581086b",
       "exam_id": "4fd42872-4822-5786-8d16-0317051bf03d",
       "category_id": "ky1",
-      "section_type": "reading",
+      "section_type": "reading_part_a",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "First two hours, now three hours — this is how far in advance authorities are recommending people show up to catch a domestic flight, at least at some major U.S. airports with increasingly massive security lines.\n\nAmericans are willing to tolerate time-consuming security procedures in return for increased safety. The crash of EgyptAir Flight 804, which terrorists may have downed over the Mediterranean Sea, provides another tragic reminder of why. But demanding too much of air travelers or providing too little security in return undermines public support for the process. And it should: Wasted time is a drag on Americans' economic and private lives, not to mention infuriating.\n\nLast year, the Transportation Security Administration (TSA) found in a secret check that undercover investigators were able to sneak weapons — both fake and real — past airport security nearly every time they tried. Enhanced security measures since then, combined with a rise in airline travel due to the improving economy and low oil prices, have resulted in long waits at major airports such as Chicago's O'Hare International. It is not yet clear how much more effective airline security has become — but the lines are obvious.\n\nPart of the issue is that the government did not anticipate the steep increase in airline travel, so the TSA is now rushing to get new screeners on the line. Part of the issue is that airports have only so much room for screening lanes. Another factor may be that more people are trying to overpack their carry-on bags to avoid checked-baggage fees, though the airlines strongly dispute this.\n\nThere is one step the TSA could take that would not require remodeling airports or rushing to hire: Enroll more people in the PreCheck program. PreCheck is supposed to be a win-win for travelers and the TSA. Passengers who pass a background check are eligible to use expedited screening lanes. This allows the TSA to focus on travelers who are higher risk, saving time for everyone involved. The TSA wants to enroll 25 million people in PreCheck.\n\nIt has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks. Since the beginning, this price tag has been PreCheck's fatal flaw. Upcoming reforms might bring the price to a more reasonable level. But Congress should look into doing so directly, by helping to finance PreCheck enrollment or to cut costs in other ways.\n\nThe TSA cannot continue diverting resources into underused PreCheck lanes while most of the traveling public suffers in unnecessary lines. It is long past time to make the program work.",
-      "sort_order": 2
+      "content": "First two hours, now three hours — this is how far in advance authorities are recommending people show up to catch a domestic flight, at least at some major U.S. airports with increasingly massive security lines.\n\nAmericans are willing to tolerate time-consuming security procedures in return for safer skies. The crash of EgyptAir Flight 804 provides another tragic reminder of why. But demanding greater numbers of passengers wait in ever-longer lines until they become frantic and miss flights is an ineffective way to provide security. And it should be unnecessary. There is an alternative: Enroll more people in the PreCheck program. The federal government should take steps to make that happen. Otherwise, the wait times will continue to be a drag on Americans' economic and private lives, not to mention infuriating.\n\nLast year, the Transportation Security Administration (TSA) found in a secret check that undercover investigators were able to sneak weapons past airport security nearly every time they tried. In response, the agency stopped using shortcuts to get people through security faster. Combined with a surge in airline travel due to a growing economy and lower fuel prices, the result was predictable: longer waits at screening lanes across the country. TSA screeners may be doing a better job — there is no evidence that this has happened, or that aviation security has improved since the agency was created — but the lines are obvious.\n\nPart of the issue is that the government did not anticipate the steep increase in airline passengers this year, which meant that TSA screeners were understaffed. The airlines also did not help by continuing to charge baggage fees, which prompted travelers to pack more carry-on bags into screening lanes, rather than paying checked-baggage fees, though the airlines strongly dispute this.\n\nThere is one step the TSA could take that would not require remodeling airports or hiring armies of new screeners: Enroll more people in PreCheck. PreCheck passengers pay an $85 fee, undergo a background check, and are then allowed to use expedited security screening lanes where they do not have to take off shoes, belts, or light jackets, or remove laptops and liquids from bags. High-risk passengers become the primary focus of TSA screeners, saving time for everyone involved. The TSA wants to enroll 25 million people in PreCheck.\n\nIt has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks. Since the beginning, this price tag has been PreCheck's fatal flaw. Upcoming reforms might bring the price to a more reasonable level. But Congress should look into doing so directly, by helping to finance PreCheck enrollment or to cut costs in other ways.\n\nThe TSA cannot continue diverting resources into underused PreCheck lanes while most of the traveling public suffers in unnecessary lines. It is long past time to make the program work.",
+      "sort_order": 2,
+      "passage_type": "traditional"
     },
     {
       "id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "exam_id": "4fd42872-4822-5786-8d16-0317051bf03d",
       "category_id": "ky1",
-      "section_type": "reading",
+      "section_type": "reading_part_a",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "Mauna Kea on Hawaii Island is widely considered one of the best sites in the world for astronomical observation. With its dark skies, high altitude, and stable atmosphere, the summit already hosts thirteen giant telescopes. Many Native Hawaiians, however, consider the dormant volcano sacred ground, the piko that connects the Hawaiian Islands to the heavens. Opposition to the Thirty Meter Telescope (TMT) is not just about astronomy; it reflects deeper grievances over the historical loss of sovereignty.\n\nAt issue is the TMT's planned location on Mauna Kea. While astronomers view the summit as an unparalleled scientific resource that could reveal the earliest origins of the universe, protesters argue that decades of construction have degraded an ecologically and culturally sensitive landscape without adequate community consent.\n\nSome blame for the current controversy belongs to astronomers. In their eagerness to build the world's most powerful telescope, they failed to anticipate the strength of local cultural attachment to the mountain, treating public hearings as administrative hurdles rather than opportunities for genuine dialogue.\n\nYet science has a cultural history, too, with roots going back to the dawn of civilization. Early Polynesian voyagers used stellar navigation to cross vast oceans and discover the Hawaiian archipelago. The desire to explore the cosmos and understand our origins is not foreign to Hawaiian tradition; in many ways, astronomy shares the same reverence for the stars.\n\nThe astronomy community is making efforts to engage more respectfully with local culture. Project leaders have committed millions of dollars to local education and workforce development, while promising that the TMT will be the last telescope built on the summit and that several existing observatories will be decommissioned.",
-      "sort_order": 3
+      "content": "“The ancient Hawaiians were astronomers,” wrote Queen Liliuokalani, Hawaii's last reigning monarch, in 1897. Star watchers were among the most esteemed members of Hawaiian society. Sadly, all is not well with astronomy in Hawaii today. Protests have erupted over construction of the Thirty Meter Telescope (TMT), a giant observatory that promises to revolutionize humanity's view of the cosmos.\n\nAt issue is the TMT's planned location on Mauna Kea, a dormant volcano worshiped by some Hawaiians as the piko, that connects the Hawaiian Islands to the heavens. But Mauna Kea is also home to some of the world's most powerful telescopes. Rested in the Pacific Ocean, Mauna Kea's peak rises above the bulk of our planet's dense atmosphere, where conditions allow telescopes to obtain images of unsurpassed clarity.\n\nOpposition to telescopes on Mauna Kea is nothing new. A small but vocal group of Hawaiians and environmentalists have long viewed their presence as disrespect for sacred land and a painful reminder of the occupation of what was once a sovereign nation.\n\nSome blame for the current controversy belongs to astronomers. In their eagerness to build bigger telescopes, they forgot that science is not the only way of understanding the world. They did not always prioritize the protection of Mauna Kea's fragile ecosystems or its holiness to the islands' inhabitants. Hawaiian culture is not a relic of the past; it is a living culture undergoing a renaissance today.\n\nYet science has a cultural history, too, with roots going back to the dawn of civilization. The same curiosity to find what lies beyond the horizon that first brought early Polynesians to Hawaii's shores inspires astronomers today to explore the heavens. Calls to disassemble all telescopes on Mauna Kea or to ban future development there ignore the reality that astronomy and Hawaiian culture both seek to answer big questions about who we are, where we come from and where we are going. Perhaps that is why we explore the starry skies, as if answering a primal calling to know ourselves and our true ancestral homes.\n\nThe astronomy community is making compromises to change its use of Mauna Kea. The TMT site was chosen to minimize the telescope's visibility around the island and to avoid archaeological and environmental impact. To limit the number of telescopes on Mauna Kea, old ones will be removed at the end of their lifetimes and their sites returned to a natural state. There is no reason why everyone cannot be welcomed on Mauna Kea to embrace their cultural heritage and to study the stars.",
+      "sort_order": 3,
+      "passage_type": "traditional"
     },
     {
       "id": "1d1a3e13-c857-5497-a0dc-65438288b1ae",
       "exam_id": "4fd42872-4822-5786-8d16-0317051bf03d",
       "category_id": "ky1",
-      "section_type": "reading",
+      "section_type": "reading_part_a",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "In a rare unanimous ruling, the US Supreme Court vacated the corruption conviction of former Virginia Governor Bob McDonnell. The decision narrowed the legal definition of what constitutes an \"official act\" under federal anti-corruption statutes, creating higher standards for prosecutors pursuing bribery charges against public servants.\n\nThe high court's decision said the judge in Mr. McDonnell's trial failed to tell jurors that setting up meetings, organizing events or calling other officials is not corruption, the justices found. While in office, McDonnell and his wife accepted more than $175,000 in personal loans, luxury vacations, and expensive gifts from a businessman seeking state university research on a dietary supplement.\n\nThe court did suggest that accepting favors in return for opening doors is \"distasteful\", but insisted that federal bribery law requires more than routine political courtesies. Chief Justice John Roberts noted that conscientiously serving constituents often involves arranging meetings and listening to citizens' requests, and that broad federal statutes must not criminalize standard democratic representation.\n\nThe ruling raises important questions about where to draw the line between legitimate constituent services and corrupt quid pro quo agreements. While prosecutors argued that the decision leaves the public vulnerable to legalized favoritism, the justices emphasized that states and Congress remain free to enact stricter ethics laws and gift bans to ensure public confidence in government.",
-      "sort_order": 4
+      "content": "Robert F. Kennedy once said that a country's GDP measures \"everything except that which makes life worthwhile.\" With Britain voting to leave the European Union, and GDP already predicted to slow as a result, it is now a timely moment to assess what he was referring to.\n\nThe question of GDP and its usefulness has annoyed policymakers for over half a century. Many argue that it is a flawed concept. It measures things that do not matter and misses things that do. By most recent measures, the UK's GDP has been the envy of the Western world, with record low unemployment and high growth figures. If everything was going so well, then why did over 17 million people vote for Brexit, despite the warnings about what it could do to their country's economic prospects?\n\nA recent annual study of countries and their ability to convert growth into well-being sheds some light on that question. Across the 163 countries measured, the UK is one of the poorest performers in ensuring that economic growth is translated into meaningful improvements for its citizens. Rather than just focusing on GDP, over 40 different sets of criteria from health, education and civil society engagement have been measured to get a more rounded assessment of how countries are performing.\n\nWhile all of these countries face their own challenges, there are a number of consistent themes. Yes, there has been a budding economic recovery since the 2008 global crash, but in key indicators in areas such as health and education, major economies have continued to decline. Yet this isn't the case with all countries. Some relatively poor European countries have seen huge improvements across measures including health, education and income equality.\n\nThis is a lesson that rich countries can learn: When GDP is no longer regarded as the sole measure of a country's success, the world looks very different.\n\nSo, what Kennedy was referring to was that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough. It does not include important factors such as environmental quality or education outcomes — all things that contribute to a person's sense of well-being.\n\nThe sharp hit to growth predicted around the world and in the UK could lead to a decline in the everyday services we depend on for our well-being and for growth. But policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures could avoid the forecasted doom and may even see progress.",
+      "sort_order": 4,
+      "passage_type": "traditional"
     },
     {
       "id": "71580345-b4ce-57d9-a313-30a09b94c68c",
       "exam_id": "4fd42872-4822-5786-8d16-0317051bf03d",
       "category_id": "ky1",
-      "section_type": "reading",
+      "section_type": "reading_part_a",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "This is a lesson that rich countries can learn: When GDP is no longer regarded as the sole measure of a country's success< the world looks very different.\n\nSo, what Kennedy was referring to was that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough. It does not include important factors such as environmental quality or education of well-being.\n\nThe sharp hit to growth predicted around the world and in the UK could lead to a decline in the everyday services we depend on for our well-being and for growth. But policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures could avoid the forecasted doom and may even see progress. [452 wordsj\n\nn a rare unanimous ruling, the US Supreme Court has overturned the corruptio n conviction of a former Virginia governor, Robert McDonnell. But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari automobile v from a company seeking access to government.. The underlined sentence (Para. 1) most probably shows that the court. (The high court's decision said the judge in Mr. McDonnell's trial failed to tell a jury that it must look only at his u official acts,\" or the former governor's decisions on uspecificw and \"unsettled\" issues related to his duties.\n\nMerely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found 0.\n\nThe court did suggest that accepting favors' \"nasty.\"But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation. Simply arranging a meeting, making a phone call, or hosting an event is not an \"official act\".",
-      "sort_order": 5
+      "content": "In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell. But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government.\n\nThe high court's decision said the judge in Mr. McDonnell's trial failed to tell a jury that it must look only at his \"official acts,\" or the former governor's decisions on \"specific\" and \"unsettled\" issues related to his duties.\n\nMerely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found.\n\nThe court did suggest that accepting favors in return for opening doors is \"distasteful\" and \"nasty.\" But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation. Simply arranging a meeting, making a phone call, or hosting an event is not an \"official act\".\n\nThe court's ruling is legally sound in defining a kind of favoritism that is not criminal. Elected leaders must be allowed to help supporters deal with bureaucratic problems without fear of prosecution for bribery. \"The basic compact underlying representative government,\" wrote Chief Justice John Roberts for the court, \"assumes that public officials will hear from their constituents and act on their concerns.\"\n\nBut the ruling reinforces the need for citizens and their elected representatives, not the courts, to ensure equality of access to government. Officials must not be allowed to play favorites in providing information or in arranging meetings simply because an individual or group provides a campaign donation or a personal gift. This type of integrity requires well-enforced laws in government transparency, such as records of official meetings, rules on lobbying, and information about each elected leader's source of wealth.\n\nFavoritism in official access can fan public perceptions of corruption. But it is not always corruption. Rather officials must avoid double standards, or different types of access for average people and the wealthy. If connections can be bought, a basic premise of democratic society — that all are equal in treatment by government — is undermined. Good governance rests on an understanding of the inherent worth of each individual.\n\nThe court's ruling is a step forward in the struggle against both corruption and official favoritism.",
+      "sort_order": 5,
+      "passage_type": "traditional"
     },
     {
       "id": "fa949cef-2c2c-5709-9648-dc2a9e9ed7a6",
       "exam_id": "4fd42872-4822-5786-8d16-0317051bf03d",
       "category_id": "ky1",
-      "section_type": "reading",
+      "section_type": "reading_part_b",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions:\nThe following paragraphs are given in a wrong order. For Questions 41-45, you are required to reorganize these paragraphs into a coherent article by choosing from the list [A]-[G] to fill each numbered box. Paragraphs [D] and [B] have been placed for you. Mark your answers on the ANSWER SHEET.\n\n[D] -> [41] -> [42] -> [43] -> [44] -> [B] -> [45]\n\n[A] The first published sketch, \"A Dinner at Poplar Walk\", brought tears to Dickens's eyes when he discovered it in the pages of the Monthly Magazine in December 1833. Other sketches soon followed, published under the pseudonym \"Boz\", which earned him a modest reputation and led to an invitation to publish them in book form.\n\n[B] The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens's fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure.\n\n[C] Soon after Sketches by Boz appeared, a publisher invited Dickens to write a comic story to accompany a series of sporting plates by a popular artist. Dickens agreed, on condition that he could write about a subject of his own choosing, and that the illustrations should illustrate the story, rather than the story the illustrations.\n\n[D] Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A man of immense energy and dramatic personality, he was an author of worldwide acclaim in his own lifetime, creating a fictional world that reflected the vibrant, complex society of Victorian Britain.\n\n[E] Soon after his father's release from debtor's prison, young Charles got a better job as an errand boy in law offices. He taught himself shorthand to get an even better job later as a court stenographer and as a reporter in Parliament. At the same time, Dickens, who had a reporter's eye for transcribing human comedy and social absurdity, began submitting sketches to magazines.\n\n[F] Dickens was born in Portsmouth, on England's southern coast, in 1812. His father was a clerk in the Navy Pay Office — a respectable position, but with little social status. When Charles was 12, his father's debts landed him in debtor's prison, and young Charles was forced to work at a blacking warehouse, an experience of shame and humiliation that haunted him for the rest of his life.\n\n[G] After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan's progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, attacked the cruelties of Yorkshire schools. These works demonstrated his unmatched ability to combine sharp social satire with deep emotional appeal.",
-      "sort_order": 6
+      "content": "[A] The first published sketch, \"A Dinner at Poplar Walk\", brought tears to Dickens's eyes when he discovered it in the pages of The Monthly Magazine. From then on his sketches, which appeared under the pen name \"Boz\" in The Evening Chronicle, earned him a modest reputation.\n\n[B] The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens's fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure.\n\n[C] Soon after Sketches by Boz appeared, a publisher invited Dickens to write a story in monthly installments, as a backdrop for a series of woodcuts by the then-famous artist Robert Seymour, who had originated the idea for the story. With characteristic confidence, Dickens successfully insisted that Seymour's pictures should illustrate his story, rather than the story the illustrations.\n\n[D] Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A moralist, satirist, and social reformer, Dickens crafted complex plots and striking characters that capture the panorama of English society.\n\n[E] Soon after his father's release from debtor's prison, young Charles got a better job as an errand boy in the office of an attorney. He worked hard and eventually became a reporter in Parliament. Meanwhile, his humorous sketches of London life, combining a sharp eye for detail with a keen sense of the ridiculous and absurdity, began submitting sketches to magazines.\n\n[F] Dickens was born in Portsmouth, on England's southern coast, in 1812. His father was a clerk in the British Navy pay office — a respectable position, but with little social status. His paternal grandparents, a steward and a housekeeper, possessed even less status, having been servants, and Dickens later concealed his humble background. His father went into debt, and in 1824 was imprisoned. Charles was forced to work in a blacking factory, an experience of poverty and humiliation that haunted him for the rest of his life.\n\n[G] After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan's progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, combines the darkness of Oliver Twist with the sunlight of Pickwick. The popularity of these novels consolidated Dickens's reputation as a writer of uncommon power, and he followed them with a succession of masterpieces that confirmed his genius and captured the vibrant, complex society of Victorian Britain.",
+      "sort_order": 6,
+      "passage_type": "ordering"
     }
   ],
   "questions": [
@@ -90,7 +96,7 @@
       "options": [
         {
           "key": "A",
-          "text": "UnlikeC",
+          "text": "Unlike",
           "value": "A"
         },
         {
@@ -100,7 +106,7 @@
         },
         {
           "key": "C",
-          "text": "DesPite",
+          "text": "Despite",
           "value": "C"
         },
         {
@@ -110,10 +116,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "\n1 helping\nyou feel close and 2 to people you care about, it \nturns out that hugs can bring a 3 of health benefits \nto your body and mind. ❹ Believe it or not, a warm \nembrace® might even help you 4 getting sick this \nwinter.\n①“一天一拥抱”能让你远离医生吗？②答 \n案也许是响亮的“是！”③陸工有助于让人们感 \n到和自己关心的人亲密无间外，拥抱竟然能够 \n给身心带来进參健康益处。④信不信由你，一 \n个热烈的拥抱甚至可能有助于人们在这个冬天 \n避免生病。\n•真题精解•7\n1. [A] UnlikeC表对比）与……不同 \n[B] Besides（表补充）除……之外（还）\n[C] DesPite（表让步）尽管 \n[D] Throughout（表范围）遍及；贯穿\n[考点提炼]逻辑关系。\n[解题思路]首句设问：一天一拥抱能让你远离医生吗？②句以resounding限定不仅表明回答 \n声音的响亮，同时内含“极其肯定，令人惊异”之意；③句进而解释该结论，前半句“______ 有助于感到和\n关心的人亲密和……”为惯常认知，后半句it turns out that...（原来，竟然）引出惊人的新发现：对身心 \n健康益处颇多，回应②句结论；因此空格词既要表明二者均在拥抱积极作用之列，同时要能“引出普通认 \n识，以反衬主句意料之外新发现（语义重点所在）”，选项中符合要求的只有[B] Besideso\n[错项排除][A]用于“对比某人/事和另一人/事的不同”，[C] Despite用于“引出使句子其余内容显 \n得意外的一项事实”;而文中“能让人感觉和关心的人亲近”和“对身心有益”均是拥抱的益处，逻辑同向， \n不涉及“差别”或“语义上的转折”。[D]其后接“地点或时间”，分别表示“遍及、渗透至某地各个部分”和 \n“贯穿某时间段始终”，均无法串联起前后两部分内容。\n\n【选项释义与词汇辨析】\n[A] UnlikeC: 表对比）与……不同\n[B] Besides: （表补充）除……之外（还）\n[C] DesPite: （表让步）尽管\n[D] Throughout: （表范围）遍及；贯穿",
+      "explanation": "［考点提炼］逻辑关系。\n［解题思路］首句设问：一天一拥抱能让你远离医生吗？②句以resounding限定不仅表明回答声音的响亮，同时内含“极其肯定，令人惊异”之意；③句进而解释该结论，前半句“______ 有助于感到和关心的人亲密和……”为惯常认知，后半句it turns out that...（原来，竟然）引出惊人的新发现：对身心健康益处颇多，回应②句结论；因此空格词既要表明二者均在拥抱积极作用之列，同时要能“引出普通认识，以反衬主句意料之外新发现（语义重点所在）”，选项中符合要求的只有［B］ Besides。\n［错项排除］［A］用于“对比某人/事和另一人/事的不同”，［C］ Despite用于“引出使句子其余内容显得意外的一项事实”；而文中“能让人感觉和关心的人亲近”和“对身心有益”均是拥抱的益处，逻辑同向，不涉及“差别”或“语义上的转折”。［D］其后接“地点或时间”，分别表示“遍及、渗透至某地各个部分”和“贯穿某时间段始终”，均无法串联起前后两部分内容。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a7ee4457-b7d6-5622-818b-9bccf26b4cb0",
@@ -144,11 +153,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "2. [A] connected有联系的；关系亲密的 \n[E] restricted受限制的，受约束的\n[C] equal平等的；（能力）相当的，胜任的 \n[D] inferior差的，次的\n[考点提炼]句内语义。\n[解题思路]空格词和close由并列连词and连接，可以推知两者语义方向一致，表明拥抱使人们感 \n到与其关心的人之间关系的亲近，选项中符合要求的只有[A] connectedo\n\n［错项排除］［B］ restricted其后为介词to时，一般为A is restricted to B结构，其中B表示\"限定/制 \n的具体范围(人、数量、活动、地域等)”。［C］ equal后接to时，可以表示“有能力应付某事”；还可以表示 \n“(大小、数量、价值等)相同的”或“比得上某人/物”，而“感觉和自己关心的人相同”语义不清，“感觉比得 \n上自己关心的人”语义偏至“竞争”，脱离“拥抱对健康的正面影响”这一语境。［D］ inferior表示“不如某 \n人/物”;但“感觉不如自己关心的人”为负面情绪，与“拥抱使人际关系融洽”的文意相悖。\n\n【选项释义与词汇辨析】\n[A] connected: 有联系的；关系亲密的\n[C] equal: 平等的；（能力）相当的，胜任的\n[D] inferior: 差的，次的\n[B] restricted: 其后为介词to时，一般为A is restricted to B结构，其中B表示\"限定/制",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］句内语义。\n［解题思路］空格词和close由并列连词and连接，可以推知两者语义方向一致，表明拥抱使人们感到与其关心的人之间关系的亲近，选项中符合要求的只有［A］ connected。\n［错项排除］［B］ restricted其后为介词to时，一般为A is restricted to B结构，其中B表示“限定/制的具体范围（人、数量、活动、地域等）”。［C］ equal后接to时，可以表示“有能力应付某事”；还可以表示“（大小、数量、价值等）相同的”或“比得上某人/物”，而“感觉和自己关心的人相同”语义不清，“感觉比得上自己关心的人”语义偏至“竞争”，脱离“拥抱对健康的正面影响”这一语境。［D］ inferior表示“不如某人/物”；但“感觉不如自己关心的人”为负面情绪，与“拥抱使人际关系融洽”的文意相悖。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "C"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "690e70f4-4ca4-51d3-8413-ec145ca39ab0",
@@ -160,30 +172,33 @@
       "options": [
         {
           "key": "A",
-          "text": "puzzling",
+          "text": "choice",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "satisfying",
+          "text": "view",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "surprising",
+          "text": "lesson",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "disturbing",
+          "text": "host",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "3. ［A］ choice选择;选择范围 \n［B］ view看法；方法，方式\n:C］ lesson课；课程；经验，教训 \n［D］ host大量，许多\n［考点提炼］句内语义+固定搭配。\n［解题思路］空格所在部分a_____ of后为复数形式(health benefits),因此空格所在部分在内容上\n应表示“多项健康益处”，同时在语法上必须能够接复数，选项中符合要求的只有［D］ host。注:a host of \n表示\"许多，大量(a number of)\"。\n［错项排除］［A］表示“可选的范围choice of后为“选择的人/事”，此处“对身体和心灵的健康益 \n处”并非供选择的内容。［B］ view (of sth)表示“(理解或思维的)方法，方式”，此处“拥抱能够带来健康 \n益处的一种看法”不合逻辑。［C］或表示“课程”，或表示“经验，教训”；而“对身心的健康益处”既非“课 \n程”，亦非“教训”。",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］句内语义+固定搭配。\n［解题思路］空格所在部分a _____ of后为复数形式（health benefits），因此空格所在部分在内容上应表示“多项健康益处”，同时在语法上必须能够接复数，选项中符合要求的只有［D］ host。注：a host of表示“许多，大量（a number of）”。\n［错项排除］［A］表示“可选的范围”，choice of后为“选择的人/事”，此处“对身体和心灵的健康益处”并非供选择的内容。［B］ view (of sth)表示“（理解或思维的）方法，方式”，此处“拥抱能够带来健康益处的一种看法”不合逻辑。［C］或表示“课程”，或表示“经验，教训”；而“对身心的健康益处”既非“课程”，亦非“教训”。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "D",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "1db7bb96-f634-5744-889b-f200149f7847",
@@ -215,10 +230,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "4. ［A］ recall回想，回忆起 \n［B］ forget忘记；遗忘\n［C］ avoid避免，防止 \n［D］ keep保持；继续\n［考点提炼］动词辨析。\n［解题思路］Believe it or not表明尽管“每日拥抱能让人远离医生(疾病)”这一发现可能会令人惊 \n讶，但确凿无疑，a warm embrace与程度副词even强化Believe it or not所暗含的诱导性成分，进一步表 \n明“热烈拥抱对远离疾病的神奇作用”,空格部分只能表达“有助于不生病”之意，符合文意的只有［C］。\n［错项排除］［A］表示“回想起某事”；［B］表示“忘记过去的事、信息等”；两词加doing sth做宾语均 \n指过去发生的事情，与时间标志词this winter不符；且“回忆起生病”或“忘记生过病”均无法契合上下文 \n“拥抱对于身体健康有益”的语境。［D］表示“继续做某事或多次重复做同一件事”，而“重复得感冒”显然 \n为负面内容，不可能“有助于(help you...)”，同时背离“拥抱有益”的文意。\n；•词汇注释与难句分析•扬\n(D resounding ［n'zaundig］ a.响亮的；瞭亮的；巨大的，$ \n② embrace ［im'breis］ n.抱；拥抱\n令人瞩目的 \nI\n•语篇分析必\n首段提出观点：拥抱有益于健康。①②句以问答形式提出全文观点。Could a hug a day keep the \ndoctor away?源于谚语An apple a day keeps the doctor away.(一天一苹果，医生远离我。)，提示主题\"拥 \n抱和健康的关系”。“yes”继而明确这一关系，昭示观点，并以限定语resounding (clear and emphatic； \nunmistakable)和“感叹号”对其极致肯定，打消一切质疑，反令人惊诧“拥抱是否真有此般神奇功效”。③ \n④句具化上述观点。③句Besides...铺垫人们对拥抱的惯常认识，it turns out. . . (to be discovered to \nbe, especially\n\n【选项释义与词汇辨析】\n[A] recall: 回想，回忆起\n[B] forget: 忘记；遗忘\n[C] avoid: 避免，防止\n[D] keep: 保持；继续",
+      "explanation": "［考点提炼］动词辨析。\n［解题思路］Believe it or not表明尽管“每日拥抱能让人远离医生（疾病）”这一发现可能会令人惊讶，但确凿无疑，a warm embrace与程度副词even强化Believe it or not所暗含的诱导性成分，进一步表明“热烈拥抱对远离疾病的神奇作用”，空格部分只能表达“有助于不生病”之意，符合文意的只有［C］ avoid。\n［错项排除］［A］表示“回想起某事”；［B］表示“忘记过去的事、信息等”；两词加doing sth做宾语均指过去发生的事情，与时间标志词this winter不符；且“回忆起生病”或“忘记生过病”均无法契合上下文“拥抱对于身体健康有益”的语境。［D］表示“继续做某事或多次重复做同一件事”，而“重复得感冒”显然为负面内容，不可能“有助于（help you...）”，同时背离“拥抱有益”的文意。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "92b49bf7-4aa3-5136-838a-470411c92834",
@@ -249,11 +267,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "5. [A] collecting收集；使集合，聚集 \n[B] involving （使）参加，加入\n[C] guiding带领；引导，指导 \n[D] affecting影响；打动；使感动\n[考点提炼]句内语义+动词辨析。\n[解题思路]空格处考查“研究”和“400多名健康成人”之间的关系，关键词study, researchers, \nexamined表明本句是对实验内容的介绍，over 400 healthy adults应为实验的\"研究对象\"，即\"研究的参 \n与者\",[B] involving表示\"使某人参加，参与某事（to make sb take part in sth）\",符合文意。\n[错项排除][A]常接“物”作宾语，虽也可与“人”搭配表示“聚集、集合”,但只用于“主谓”结构；文中 \n空格词与其后内容为“动宾”结构，即“研究集合人群”，不合逻辑。[C]表示“引导，指导（某人的行为或观 \n点）”，但下文并未提及“引导”研究对象去做某事。[D]或表示“影响某人/事”，或表示“打动某人，使某人 \n感动”，一般用被动态，但该句是对实验内容而非对实验影响的介绍，“影响或打动400余名健康成人”均 \n与“介绍实验内容”这一语境不符。\n\n【选项释义与词汇辨析】\n[A] collecting: 收集；使集合，聚集\n[B] involving: （使）参加，加入\n[C] guiding: 带领；引导，指导\n[D] affecting: 影响；打动；使感动",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］句内语义+动词辨析。\n［解题思路］空格处考查“研究”和“400多名健康成人”之间的关系，关键词study, researchers, examined表明本句是对实验内容的介绍，over 400 healthy adults应为实验的“研究对象”，即“研究的参与者”，［B］ involving表示“使某人参加，参与某事（to make sb take part in sth）”，符合文意。\n［错项排除］［A］常接“物”作宾语，虽也可与“人”搭配表示“聚集、集合”，但只用于“主谓”结构；文中空格词与其后内容为“动宾”结构，即“研究集合人群”，不合逻辑。［C］表示“引导，指导（某人的行为或观点）”，但下文并未提及“引导”研究对象去做某事。［D］或表示“影响某人/事”，或表示“打动某人，使某人感动”，一般用被动态，但该句是对实验内容而非对实验影响的介绍，“影响或打动400余名健康成人”均与“介绍实验内容”这一语境不符。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "B",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "b371d561-c461-5bfd-b119-305ef1407c6b",
@@ -285,10 +306,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "6. [A] of \n[B] in \n[C] at \n[D] on\n[考点提炼]句内语义+介词搭配。\n[解题思路]空格处介词表示“感知到社会支持和受到拥抱的影响”与“参与者对感冒的易感性”两者之 \n间的关系，由上段末句“一个热烈的拥抱有助于人们在这个冬天避免生病”可知，研究人员测试的应该是“社会 \n支持与拥抱”对'感冒易感性”的影响,选项中能够与effects连用，引出受影响的对象的介词只有on,[D]正确。\n[错项排除][A] of 置于空格处，只能表示 the participants' susceptibility 与 the receipt of hugs 之间 \n的关系，即“得到参与者易感性的拥抱”，显然不合逻辑。[B] in表“方位”；[C] at表“方位”或“时间”，此 \n两项均无法与effects搭配引出受影响的对象。",
+      "explanation": "［考点提炼］句内语义+介词搭配。\n［解题思路］空格处介词表示“感知到社会支持和受到拥抱的影响”与“参与者对感冒的易感性”两者之间的关系，由上段末句“一个热烈的拥抱有助于人们在这个冬天避免生病”可知，研究人员测试的应该是“社会支持与拥抱”对“感冒易感性”的影响，选项中能够与effects连用，引出受影响的对象的介词只有on，［D］正确。\n［错项排除］［A］ of 置于空格处，只能表示 the participants' susceptibility 与 the receipt of hugs 之间的关系，即“得到参与者易感性的拥抱”，显然不合逻辑。［B］ in表“方位”；［C］ at表“方位”或“时间”，此两项均无法与effects搭配引出受影响的对象。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a5c79807-7580-51d2-9887-68d91c1855de",
@@ -320,10 +344,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "7 to the virus^ . ❷ People who perceived greater \nsocial support were less likely to come 8 with a cold, \nand the researchers 9 that the stress-reducing effects \nof hugging 10 about 32 percent of that beneficial® \neffect. ❸ \n11 among those who got a cold, the ones\nwho felt greater social support and received more frequent \nhugs had less severe 12 \n.\n①在最近一项400余名健康成人爹亘 \n的研究中，来自宾夕法尼亚州卡耐基梅隆大 \n学的研究人员对“感知到社会支持和受到拥 \n抱”对参与者鯉病毒后感冒易感性的影响 \n进行了研究。②当人们感知到更多社会支 \n持时，他们患感冒的可能性更小，研究人员 \n值莫，在有助于降低感冒几率的有益影响因 \n素中，拥抱的减压效果大约点了 32%。③ \n基至在那些患了感冒的人中，感受到更多社 \n会支持且更频繁受到拥抱的人的垂芟也要 \n更轻一些。\n真题精解•【拧\n5. [A] collecting收集；使集合，聚集 \n[B] involving （使）参加，加入\n[C] guiding带领；引导，指导 \n[D] affecting影响；打动；使感动\n[考点提炼]句内语义+动词辨析。\n[解题思路]空格处考查“研究”和“400多名健康成人”之间的关系，关键词study, researchers, \nexamined表明本句是对实验内容的介绍，over 400 healthy adults应为实验的\"研究对象\"，即\"研究的参 \n与者\",[B] involving表示\"使某人参加，参与某事（to make sb take part in sth）\",符合文意。\n[错项排除][A]常接“物”作宾语，虽也可与“人”搭\n\n【选项释义与词汇辨析】\n[A] collecting: 收集；使集合，聚集\n[B] involving: （使）参加，加入\n[C] guiding: 带领；引导，指导\n[D] affecting: 影响；打动；使感动",
+      "explanation": "［考点提炼］句内语义+动词用法。\n［解题思路］空格处考查“参与者易患感冒”与“病毒”间的关系，由常识可知，病毒会引发感冒，即“处于病毒环境中、接触到病毒”才会感冒。另外，“病毒（virus）”为负面事物，空格词还需要能接负面事物。be exposed to sth常表示“暴露于（险境、不利情况）”，［B］ exposed正确。\n［错项排除］［A］ devoted (to)其后引出“奉献或服务的对象”，但“参与者献身于、被专用于病毒”显然不合逻辑。［C］利用“被病毒打败”进行语义干扰，但lose和to搭配表示“输给某人”时使用主动态。［D］这一动作的发出者具有“某种令人想接近的特点”，而文中为“病毒”，恰恰是人们极力想避免的对象。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "161332cd-520d-570b-98ba-eb7065045ac1",
@@ -335,30 +362,33 @@
       "options": [
         {
           "key": "A",
-          "text": "(come) across (with sth)",
+          "text": "across",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "(come) along",
+          "text": "along",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "(come) down (with sth)",
+          "text": "down",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "(come) out (with sth)",
+          "text": "out",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "& 【A】 (come) across (with sth)被理解;提供，供给 【B】 (come) along偶尔出现,到达;跟随,跟着来\n\n【C】 (come) down (with sth)患；染上\n\n【D】 (come) out (with sth)说出\n\n【考点提炼】固定搭配。\n\n【解题思路】上段表明“拥抱有助于人们避免生病”，而上句将“拥抱”和“感知社会支持”归于一类，因\n\n而此处想说明“他们的患病几率更低”，即come_____ with a cold应该表达“患感冒”的含义，选项中符\n\n合要求的只有【C】 down,come down with sth为固定搭配，表示\"患、得(小病)\"。\n\n【错项排除】【A】表示“提供，供给所需内容”。【B】利用其“偶尔出现”这层释义进行干扰，但该动词\n\n短语的主语才是“出现的具体内容”；而文中主语为“实验参与者”,come along with a cold不能表示“出现\n\n感冒”;另外，该短语后可接with,此时常跟sb,表示“跟随某人一起”。【D】表示“说出，提出(尤指异乎寻\n\n常或出人意料的话)”。",
+      "explanation": "［考点提炼］固定搭配。\n［解题思路］上段表明“拥抱有助于人们避免生病”，而上句将“拥抱”和“感知社会支持”归于一类，因而此处想说明“他们的患病几率更低”，即come _____ with a cold应该表达“患感冒”的含义，选项中符合要求的只有［C］ down，come down with sth为固定搭配，表示“患、得（小病）”。\n［错项排除］［A］表示“提供，供给所需内容”。［B］利用其“偶尔出现”这层释义进行干扰，但该动词短语的主语才是“出现的具体内容”；而文中主语为“实验参与者”，come along with a cold不能表示“出现感冒”；另外，该短语后可接with，此时常跟sb，表示“跟随某人一起”。［D］表示“说出，提出（尤指异乎寻常或出人意料的话）”。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6348c7cf-ecf3-595e-a79e-46851e6aff22",
@@ -389,11 +419,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "9. ［A］ calculated计算；推测，估计 \n［B］ denied否认，否定\n［C］ doubted怀疑，不确信 \n［D］ imagined想象；设想\n［考点提炼］句内语义+动词辨析。\n［解题思路］that beneficial effect回指逗号前内容“感知到更多社会支持的人们得感冒的可能性更 \n小”，即“社会支持和拥抱对健康的积极影响”，而由段首句研究目的“ 了解拥抱对患病率的影响”以及本 \n句关键词researchers,32 percent可推知，该句为研究人员对于\"拥抱积极影响\"的量化评估，即32%这一 \n数值是由实验推断或估算而来，选项中符合要求的只有［A］ calculated。\n［错项排除］［B］表示“否认某事为真”；［C］表示“怀疑，不相信某人或某事”，而文首已经表明全文导 \n向“拥抱有助于身体健康”，因此相关研究应该扮演“证实这一结论”的角色，故排除这两项。［D］具有极 \n大主观性，单凭“主观想象、猜想”显然无法得出32%这一精确数值。\n\n【选项释义与词汇辨析】\n[A] calculated: 计算；推测，估计\n[B] denied: 否认，否定\n[C] doubted: 怀疑，不确信\n[D] imagined: 想象；设想",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］句内语义+动词辨析。\n［解题思路］that beneficial effect回指逗号前内容“感知到更多社会支持的人们得感冒的可能性更小”，即“社会支持和拥抱对健康的积极影响”，而由段首句研究目的“了解拥抱对患病率的影响”以及本句关键词researchers, 32 percent可推知，该句为研究人员对于“拥抱积极影响”的量化评估，即32%这一数值是由实验推断或估算而来，选项中符合要求的只有［A］ calculated。\n［错项排除］［B］表示“否认某事为真”；［C］表示“怀疑，不相信某人或某事”，而文首已经表明全文导向“拥抱有助于身体健康”，因此相关研究应该扮演“证实这一结论”的角色，故排除这两项。［D］具有极大主观性，单凭“主观想象、猜想”显然无法得出32%这一精确数值。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e57395a9-a685-5f61-9760-b5a6bb933393",
@@ -424,11 +457,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "10. ［A］ served起作用；服务；对... 有用； \n［B］ required需要；要求，规定\n［C］ restored恢复；使复原 \n［D］ explained解释；说明....的原因\n［考点提炼］句内语义+动词用法。\n［解题思路］stressing-reducing effects和beneficial effect,前者为\"内在具体作用\"，后者为\"外在宽泛 \n影响(有助于避免感冒)”，两者存在因果关联，即，拥抱的“减压作用”说明了其为何“有助降低感冒几 \n率”，选项中符合要求的只有［D］ explained,字面为“这一作用解释了总影响的32%”，也可以理解为“占 \n了总影响的32%\"。\n［错项排除］［A］利用其“产生某种结果”这层释义干扰，认为“减压作用能起到32%的积极结果”，但 \n其具体用法为serve as...或serve to do sth。［B］表示“需要某物”,但“拥抱的减压作用”需要“它对疾病 \n的预防、缓解作用”所表现的逻辑为“要避免生病一才能减压”，显然颠倒了两者关系。［C］利用“拥抱的 \n减压作用会让健康部分恢复”干扰，但该词内涵为“使先前的情况重现”，而文中宾语为“32%的有益影 \n响”,不存在“重现、恢复”的问题。\n\n【选项释义与词汇辨析】\n[A] served: 起作用；服务；对... 有用；\n[B] required: 需要；要求，规定\n[C] restored: 恢复；使复原\n[D] explained: 解释；说明....的原因",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］句内语义+动词用法。\n［解题思路］stress-reducing effects和beneficial effect，前者为“内在具体作用”，后者为“外在宽泛影响（有助于避免感冒）”，两者存在因果关联，即，拥抱的“减压作用”说明了其为何“有助降低感冒几率”，选项中符合要求的只有［D］ explained，字面为“这一作用解释了总影响的32%”，也可以理解为“占了总影响的32%”。\n［错项排除］［A］利用其“产生某种结果”这层释义干扰，认为“减压作用能起到32%的积极结果”，但其具体用法为serve as...或serve to do sth。［B］表示“需要某物”，但“拥抱的减压作用”需要“它对疾病的预防、缓解作用”所表现的逻辑为“要避免生病—才能减压”，显然颠倒了两者关系。［C］利用“拥抱的减压作用会让健康部分恢复”干扰，但该词内涵为“使先前的情况重现”，而文中宾语为“32%的有益影响”，不存在“重现、恢复”的问题。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "B"
+      "answer": "D",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "64a14649-c2f3-5274-84e8-2adca03ffb7f",
@@ -460,10 +496,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "11 among those who got a cold, the ones\nwho felt greater social support and received more frequent \nhugs had less severe 12 \n.\n①在最近一项400余名健康成人爹亘 \n的研究中，来自宾夕法尼亚州卡耐基梅隆大 \n学的研究人员对“感知到社会支持和受到拥 \n抱”对参与者鯉病毒后感冒易感性的影响 \n进行了研究。②当人们感知到更多社会支 \n持时，他们患感冒的可能性更小，研究人员 \n值莫，在有助于降低感冒几率的有益影响因 \n素中，拥抱的减压效果大约点了 32%。③ \n基至在那些患了感冒的人中，感受到更多社 \n会支持且更频繁受到拥抱的人的垂芟也要 \n更轻一些。\n真题精解•【拧\n5. [A] collecting收集；使集合，聚集 \n[B] involving （使）参加，加入\n[C] guiding带领；引导，指导 \n[D] affecting影响；打动；使感动\n[考点提炼]句内语义+动词辨析。\n[解题思路]空格处考查“研究”和“400多名健康成人”之间的关系，关键词study, researchers, \nexamined表明本句是对实验内容的介绍，over 400 healthy adults应为实验的\"研究对象\"，即\"研究的参 \n与者\",[B] involving表示\"使某人参加，参与某事（to make sb take part in sth）\",符合文意。\n[错项排除][A]常接“物”作宾语，虽也可与“人”搭配表示“聚集、集合”,但只用于“主谓”结构；文中 \n空格词与其后内容为“动宾”结构，即“研究集合人群”，不合逻辑。[C]表示“引导，指导（某人的行为或观 \n点）”，但下文并未提及“引导”研究对象去做某事。[D]或表示“影响某人/事”，或表示“打动某人，使某人 \n感动”，一般用被动态，但该句是对实验内容而非对实验影响的介绍，“影响或打动400余名健康成人”均 \n与“介绍实验内容”这一语境不符。\n6. [A] of \n[B] in \n[C] at\n\n【选项释义与词汇辨析】\n[A] collecting: 收集；使集合，聚集\n[B] involving: （使）参加，加入\n[C] guiding: 带领；引导，指导\n[D] affecting: 影响；打动；使感动",
+      "explanation": "［考点提炼］句际逻辑关系。\n［解题思路］上段结论为“拥抱对身心健康有益”；空格上句针对“未患病人群”，指出拥抱对疾病的预防作用，而本句针对“患病人群”，结合已知信息had less severe...推测本句表明拥抱对疾病的缓解作用，很明显前后为递进关系，后者补充并强调出人意料的作用：就算已经生病，仍能起到积极作用，符合这一逻辑的只有［A］ Even。\n［错项排除］［B］表强调时用于句内的still more/further/another/other等结构中，意为“某事还有更多、某情况更进一步”；位于句首时Still常用于“引出与上文形成转折的内容”。［C］或用于“纠正所说的话或提供更确切的信息”；或用于“提出不同或相反的观点”；［D］用于“引出上述内容带来的结果”；而文中两句分别介绍两种改善作用，既不是“纠正、补充、转折对比”的逻辑，更不是“因果逻辑”。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "66ddc09d-c963-50f8-829b-b49c4b0fc6df",
@@ -495,10 +534,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "12. [A] defeats失败；战胜，击败 \n[B] symptoms症状；征兆\nEC] tests测验，测试；检验；考验 \n[D] errors错误，谬误\n[考点提炼]句内语义+名词用法。\n[解题思路]上题分析已知空格句表明“拥抱对感冒的缓解作用”，had less severe______和上句\nwere less likely to...相对，故空格词只能表示\"（感冒的）具体病状\"之意，[B] symptoms正确。\n[错项排除][A] defeats和[D] errors与severe搭配，分别表示\"重大的失败\"、\"严重的错误\"，由 \nless加以否定，虽然体现“积极影响”，但均脱离上下文论述中心“拥抱对健康的益处（在避免疾病方面的 \n作用）”。EC] tests利用其“考验”这一释义设置干扰，但“考验严峻与否”与“拥抱对健康的作用”无关。\n词汇注释与难句分析-\n① perceive [pRsi：v] v.感知，感觉 \n④common cold 感冒，伤风\n② receipt [rdsilt] \n接收；收到 \n? ⑤virus ['vairss] n.病毒\n③ susceptibility [saisepti'bilit订 n.易受影响（或伤害等）: ⑥beneficial [benJfiJd] a.有利的；有裨益的\n的特性；敏感性 \ni\n-语篇分析•\n第二段介绍观点相关研究。①句介绍研究内容。the effects of...其后内容看似复杂，但由关键词 \nhugs以及全文主题可知，此处语义重心为“拥抱的作用”，介词on...引出“发生作用的对象”， \nsusceptibility to...指\"对某不利情况（疾病）的易受影响性（易感性）”，developing the common cold呼应 \n上段末getting sick,明确研究聚焦“拥抱在防控感冒（疾病）方面的作用”。②③句介绍实验发现，印证观 \n点。两句中・・・less likely to come down with a cold和...less severe symptoms共",
+      "explanation": "［考点提炼］句内语义+名词用法。\n［解题思路］上题分析已知空格句表明“拥抱对感冒的缓解作用”，had less severe ______ 和上句 were less likely to...相对，故空格词只能表示“（感冒的）具体病状”之意，［B］ symptoms正确。\n［错项排除］［A］ defeats和［D］ errors与severe搭配，分别表示“重大的失败”、“严重的错误”，由less加以否定，虽然体现“积极影响”，但均脱离上下文论述中心“拥抱对健康的益处（在避免疾病方面的作用）”。［C］ tests利用其“考验”这一释义设置干扰，但“考验严峻与否”与“拥抱对健康的作用”无关。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "90d0f16f-3a5a-5c4c-b51c-bf3bf38c19a2",
@@ -530,10 +572,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "13. [A] minimized最小化的；使达到最低限度的 [B] highlighted突出的，强调的\n[C] controlled限制的，控制的；克制的 \n[D] increased增加的；增强的\n[考点提炼]句内语义+形容词用法。\n[解题思路]由protects. . . from...（保护……免受……）可知,from后应为“危险、伤害”等负面事 \n物，再结合常识\"压力大的人患病几率相对较高”，[D] increased语义等同于greaterAhigher,为正确项。\n[错项排除][A]源自动词minimize;EC]表示“受限制的，受控的”；两者修饰“风险（risk）”在大方向 \n上均表明风险程度低，与文意相反。[E]源自动词highlight,但“（被）突出/强调的风险”暗中存在一种语 \n境，即“某人强调了、或某事件凸显出某种风险”，上下文并未涉及该内容。\n\n【选项释义与词汇辨析】\n[A] minimized: 最小化的；使达到最低限度的\n[B] highlighted: 突出的，强调的\n[C] controlled: 限制的，控制的；克制的\n[D] increased: 增加的；增强的",
+      "explanation": "［考点提炼］句内语义+形容词用法。\n［解题思路］由protects... from...（保护……免受……）可知，from后应为“危险、伤害”等负面事物，再结合常识“压力大的人患病几率相对较高”，［D］ increased语义等同于greater/higher，为正确项。\n［错项排除］［A］源自动词minimize；［C］表示“受限制的，受控的”；两者修饰“风险（risk）”在大方向上均表明风险程度低，与文意相反。［B］源自动词highlight，但“（被）突出/强调的风险”暗中存在一种语境，即“某人强调了、或某事件凸显出某种风险”，上下文并未涉及该内容。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6156c6c8-20b8-52c2-a677-446d396c46cf",
@@ -565,10 +610,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "14. [A] equipped配备；装备；使能够胜任 \n[B] associated联想，联系；与.... 有关\n\n[C] presented颁发；提供；呈现；引起，造成 ［D］ compared比较；对比\n［考点提炼］句内语义+动词用法。\n［解题思路］空格所在部分为that定语从句修饰risk for colds（患感冒的风险）：增加的感冒风险通 \n常______ 压力。上段②句表明“拥抱的减压作用是降低感冒发生几率的部分原因”，因此两者之间存在\n因果关联，即压力越大，患病几率越大-associate意为“有逻辑或因果关联”，［B］符合文意。\n［错项排除］［A］ equipped常用于be equipped with sth结构，表示\"为特定目的而向某人/地提供某 \n物”;但“为感冒风险配备压力”显然不合逻辑；或表示“传授某人知识、技能等使其能够胜任某事”，其逻 \n辑宾语（即传授的对象）必须是sb,而文中为“感冒风险”（被动态作主语），不可能“接受技能并胜任某 \n事\"。［C］利用其\"引起、造成（某事发生）\"这一释义干扰，用于present sb with sth或present sth结构中， \n其中sth多指“麻烦、问题”等；文中stress虽属于“问题”，但“给患病风险带来压力问题”显然错误。［D］ \n与with搭配表示“把两个事物进行比较”，但“感冒风险”和“压力”属性不同，无可比性。",
+      "explanation": "［考点提炼］句内语义+动词用法。\n［解题思路］空格所在部分为that定语从句修饰risk for colds（患感冒的风险）：增加的感冒风险通常 ______ 压力。上段②句表明“拥抱的减压作用是降低感冒发生几率的部分原因”，因此两者之间存在因果关联，即压力越大，患病几率越大。associate意为“有逻辑或因果关联”，［B］ associated符合文意。\n［错项排除］［A］ equipped常用于be equipped with sth结构，表示“为特定目的而向某人/地提供某物”；但“为感冒风险配备压力”显然不合逻辑；或表示“传授某人知识、技能等使其能够胜任某事”，其逻辑宾语（即传授的对象）必须是sb，而文中为“感冒风险”（被动态作主语），不可能“接受技能并胜任某事”。［C］利用其“引起、造成（某事发生）”这一释义干扰，用于present sb with sth或present sth结构中，其中sth多指“麻烦、问题”等；文中stress虽属于“问题”，但“给患病风险带来压力问题”显然错误。［D］与with搭配表示“把两个事物进行比较”，但“感冒风险”和“压力”属性不同，无可比性。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3ab4eb56-3411-5b6f-be77-1d5eb5b060a1",
@@ -600,10 +648,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "15. ［A］ assess评价，评定；估价，估计 \n［B］ moderate缓和；使适中\nEC］ generate产生，创造 \n［D］ record记录；记载\n［考点提炼］句内语义+动词用法。\n［解题思路］上段将\"拥抱（hugging）\"秋憾受到社会支持（perceived social support）w反复并提，说明 \n它们对疾病的积极作用；本句引用专家说法重申拥抱的意义，只能表达“拥抱会让人们觉得时刻有外界 \n的支持和帮助”的语义，即“产生、生成这种感觉”，［C］ generate正确。\n［错项排除］［A］和［D］均脱离上下文，“有助于评价/记录感觉”与“拥抱对健康的积极作用”毫无关 \n联。［B］表示“（使）减轻，缓和”，其后宾语多为负面内容，但文中feeling后that同位语从句“其他人会予 \n以帮助”表明其为“正向、积极的感觉”，而非需要“缓和”的负面情绪。\n\n【选项释义与词汇辨析】\n[A] assess: 评价，评定；估价，估计\n[B] moderate: 缓和；使适中\n[D] record: 记录；记载\n[C] generate: 正确。",
+      "explanation": "［考点提炼］句内语义+动词用法。\n［解题思路］上段将“拥抱（hugging）”和“感知到社会支持（perceived social support）”反复并提，说明它们对疾病的积极作用；本句引用专家说法重申拥抱的意义，只能表达“拥抱会让人们觉得时刻有外界的支持和帮助”的语义，即“产生、生成这种感觉”，［C］ generate正确。\n［错项排除］［A］和［D］均脱离上下文，“有助于评价/记录感觉”与“拥抱对健康的积极作用”毫无关联。［B］表示“（使）减轻，缓和”，其后宾语多为负面内容，但文中feeling后that同位语从句“其他人会予以帮助”表明其为“正向、积极的感觉”，而非需要“缓和”的负面情绪。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6962d0f0-7e79-5cac-b0e7-bc95d7fb903b",
@@ -635,10 +686,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "16. ［A］ in the face of 在... 面前，面对 \n［B］ in the form of 以... 的形式\n［C］ in the way of 按照；关于，就.... 而言 ［D］ in the name of 代表... ；为了....\n［考点提炼］句内语义+介词短语。\n［解题思路］根据选项可知______difficulty为介词结构.因此在句中作状语，随句子谓语动词的动作\n发生；而从已知信息“他人随时会帮忙（others are there to help）”和“困难、困境（difficulty）\"可大致推断 \n句中feeling的具体内容为：在遇到困难之时，（预感）外界会帮忙或支持；in the face of常引出问题、困难、 \n危险等情况，表示“在面对问题/困难/危险的情况下”，故［A］正确。\n［错项排除］［B］和［C］均为方式状语,of后为具体形式，而无论是“他人以困难的形式/办法帮助”还 \n是“以困难的形式/办法产生一种感觉”均不合语义逻辑；另外in the way of还可以表示“关于”。［D］表 \n示“所属权或代表权”，还可表“目的”,但“代表困难而做”或“为了困难而做”均不合逻辑。\n「•词汇注释与难句分析•皿\n（Dmarker ［ma:ka］ n.标志；标识；表示 \n§ ②intimacy ［'intimas订亲密；关系密切\nu Hugging protects people who are under stress from the increased risk for colds that's usually associated \nwith stress,\" notes Sheldon Cohen, a professor of psychology at Carnegie.\n结狗切分：\na professor of psychology at Carnegie, \nwho are under stress \nthat's usually associated with stress,\"\n同位语\nv\n句子主干:\nnotes\n\n【选项释义与词汇辨析】\n[A] in the face of: 在... 面前，面对\n[B] in the form of: 以... 的形式\n[C] in the way of: 按照；关于，就.... 而言\n[D] in the name of: 代表... ；为了....",
+      "explanation": "［考点提炼］句内语义+介词短语。\n［解题思路］根据选项可知 ______ difficulty为介词结构，因此在句中作状语，随句子谓语动词的动作发生；而从已知信息“他人随时会帮忙（others are there to help）”和“困难、困境（difficulty）”可大致推断句中feeling的具体内容为：在遇到困难之时，（预感）外界会帮忙或支持；in the face of常引出问题、困难、危险等情况，表示“在面对问题/困难/危险的情况下”，故［A］正确。\n［错项排除］［B］和［C］均为方式状语，of后为具体形式，而无论是“他人以困难的形式/办法帮助”还是“以困难的形式/办法产生一种感觉”均不合语义逻辑；另外in the way of还可以表示“关于”。［D］表示“所属权或代表权”，还可表“目的”，但“代表困难而做”或“为了困难而做”均不合逻辑。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "5ced15dc-ad32-5c30-ae9e-f41a93d060c6",
@@ -670,10 +724,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "17. ［A］ transfer转移；调动 \n［B］ commit承诺，保证；忠于；投入\n［C］ attribute把... 归因于.... \n［D］ return返回；送回；退还\n［考点提炼］句内语义+动词用法。\n［解题思路］本题考查谓语动词，句子较长，首先明确宾语为“拥抱的减压、有益健康等好处”，介词to \n引出宾语复合结构“某种荷尔蒙的释放”。上文“拥抱表明关系亲密，有助于产生被支持感（从而减缓压 \n力）”暗示“拥抱发挥作用的关键在于它能加强亲密感”，再结合空格句后半句“它（荷尔蒙）促进关系亲密 \n感\"，推知\"该荷尔蒙是拥抱作用背后的生理因素\",attribute常用于attribute A to B的结构，［C］符合文意。\n［错项排除］［A］或表示“地理位置的搬迁，转移”，或表示“感觉、疾病、权力等的转移，传染，转让 \n等\"，常用于transfer （sth/sb） （from. . . ） to...结构中。［B］或表示\"某人承诺做某事.遵守协议或遵从 \n安排等\"，常用于commit sb/yourself to sth/to doing sth结构中；两种用法均不能用于说明\"拥抱的好处 \n（抽象内容）VS荷尔蒙（生理激素）”之间的关系。［D］作及物动词与to搭配时，用于三种结构：1） return \nsth to somewhere;2）return sb to sth,3）return sth to sth,均不能用于说明两者关系。",
+      "explanation": "［考点提炼］句内语义+动词用法。\n［解题思路］本题考查谓语动词，句子较长，首先明确宾语为“拥抱的减压、有益健康等好处”，介词to引出宾语复合结构“某种荷尔蒙的释放”。上文“拥抱表明关系亲密，有助于产生被支持感（从而减缓压力）”暗示“拥抱发挥作用的关键在于它能加强亲密感”，再结合空格句后半句“它（荷尔蒙）促进关系亲密感”，推知“该荷尔蒙是拥抱作用背后的生理因素”，attribute常用于attribute A to B的结构，［C］ attribute符合文意。\n［错项排除］［A］或表示“地理位置的搬迁，转移”，或表示“感觉、疾病、权力等的转移，传染，转让等”，常用于transfer (sth/sb) (from...) to...结构中。［B］或表示“某人承诺做某事、遵守协议或遵从安排等”，常用于commit sb/yourself to sth/to doing sth结构中；两种用法均不能用于说明“拥抱的好处（抽象内容）VS荷尔蒙（生理激素）”之间的关系。［D］作及物动词与to搭配时，用于三种结构：1) return sth to somewhere; 2) return sb to sth; 3) return sth to sth，均不能用于说明两者关系。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "0c823020-8422-57d4-b6d3-df119766fc47",
@@ -705,10 +762,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "18. ［A］ because因为；由于 \n［B］ unless除非；如果不\n［C］ though虽然，尽管；不过，可是 \n［D］ until直到....为止；到.... 时\n［考点提炼］句内语义逻辑+连词用法。\n［解题思路］空格后“它促进亲密关系”说明的是“该荷尔蒙对人际关系的积极影响”，而上题分析后 \n得知空格前为“专家认为拥抱的积极作用得益于这种荷尔蒙”，前后很明显为因果关系，即，拥抱能发挥 \n作用源于荷尔蒙，其原因在于（拥抱时产生的）荷尔蒙会加强亲密感（减轻压力），［A］ because正确。\n［错项排除］［B］用于引出“主句所述情形不会发生或不真实”的唯一情况/条件，而“除非荷尔蒙促 \n\n进亲密关系，否则专家会把拥抱的好处归功于荷尔蒙的释放”明显不合逻辑。[C]或表让步；或表轻微转 \n折，引出对主句的补充说明，使主句语气变弱；但空格前后为顺承关系。[D] until用于“引出主句（干）动 \n作的终止时刻”，而文中空格后“促进亲密关系”为人体通常生理情况的说明，不涉及“时间性内容”。",
+      "explanation": "［考点提炼］句内语义逻辑+连词用法。\n［解题思路］空格后“它促进亲密关系”说明的是“该荷尔蒙对人际关系的积极影响”，而上题分析后得知空格前为“专家认为拥抱的积极作用得益于这种荷尔蒙”，前后很明显为因果关系，即，拥抱能发挥作用源于荷尔蒙，其原因在于（拥抱时产生的）荷尔蒙会加强亲密感（减轻压力），［A］ because正确。\n［错项排除］［B］用于引出“主句所述情形不会发生或不真实”的唯一情况/条件，而“除非荷尔蒙促进亲密关系，否则专家会把拥抱的好处归功于荷尔蒙的释放”明显不合逻辑。［C］或表让步；或表轻微转折，引出对主句的补充说明，使主句语气变弱；但空格前后为顺承关系。［D］ until用于“引出主句（干）动作的终止时刻”，而文中空格后“促进亲密关系”为人体通常生理情况的说明，不涉及“时间性内容”。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "bc2028f6-3782-59f9-92d6-7ca42a28dea5",
@@ -740,10 +800,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "19. [A] emerges出现，复现；显露\n\n[B] vanishes突然不见，消失\n\n[C] remains仍然是；剩余；继续存在\n\n[D] decreases减少，降低\n\n[考点提炼]句际语义+动词用法。\n\n[解题思路]上句指出，催产素主要产于大脑的中下部，其中一些被释放到血液中。由some of it...\n\n和But some of it...可知，两句间存在语义的对比转折，因而本句内容应该符合“一些没有进入血液”的\n\n大逻辑，[B]和[C]似乎都符合，但空格后 where it （Oxytocin）. .. mood, behavior and physiology 暗示该\n\n激素还有其功用，不可能凭空突然消失，因而文意只能是“一些留在大脑中”,[C]正确。\n\n[错项排除][A]利用其“出现，产生”这一释义干扰，但文中表明“催产素本就产于大脑”，some of it\n\n这一说法针对的是“大脑中已有的催产素”，即“已生成的催产素中，有一些产生在大脑中”，显然为矛盾\n\n说法。[D]对应的上文应该是“一些催产素增加”，而文中为“被释放入血液”。",
+      "explanation": "［考点提炼］句际语义+动词用法。\n［解题思路］上句指出，催产素主要产于大脑的中下部，其中一些被释放到血液中。由some of it... 和But some of it...可知，两句间存在语义的对比转折，因而本句内容应该符合“一些没有进入血液”的大逻辑，［B］和［C］似乎都符合，但空格后 where it (oxytocin)... mood, behavior and physiology 暗示该激素还有其功用，不可能凭空突然消失，因而文意只能是“一些留在大脑中”，［C］ remains正确。\n［错项排除］［A］利用其“出现，产生”这一释义干扰，但文中表明“催产素本就产于大脑”，some of it 这一说法针对的是“大脑中已有的催产素”，即“已生成的催产素中，有一些产生在大脑中”，显然为矛盾说法。［D］对应的上文应该是“一些催产素增加”，而文中为“被释放入血液”。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6504977e-d81a-5879-8e7c-aa11c3a795e8",
@@ -775,10 +838,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "20. [A] experiences 经历；体验；体会\n[B] combines （使）结合，组合；兼有；兼备\n[C] justifies 证明... 正确；为.... 辩护\n[D] influences 影响，对....起作用\n[考点提炼] 句际语义+动词辨析。\n[解题思路] 上文“拥抱的减压功能得益于催产素的释放”表明，“留在大脑中的催产素”和“心情、行为和生理机能”应该是“影响VS被影响”的关系，[D] influences符合文意。\n[错项排除] [A] 表示“体会，体验某种情感或生理感受”，但动作的发出者为人，其后为具体的感受，此处空格前主语it指“催产素”，而非sb，且其后宾语泛指“心情、行为和生理机能”，并非特指某种具体的情感。[B] 表示“将……结合，组合在一起形成单独的事物或群体”，文中“它将心情、行为和生理机能结合在一起”在语法上说得通，但逻辑上看这三者无法组合成全新事物。[C] 或表示“证明……正确或正当”，或表示“为……解释/辩护”；而文中宾语为泛指的客观存在，不涉及“为之正名”的问题。",
+      "explanation": "［考点提炼］句际语义+动词辨析。\n［解题思路］上文“拥抱的减压功能得益于催产素的释放”表明，“留在大脑中的催产素”和“心情、行为和生理机能”应该是“影响VS被影响”的关系，［D］ influences符合文意。\n［错项排除］［A］ experiences表示“体会，体验某种情感或生理感受”，但动作的发出者为人，其后为具体的感受，此处空格前主语it指“催产素”，而非sb，且其后宾语泛指“心情、行为和生理机能”，并非特指某种具体的情感。[B] combines表示“将……结合，组合在一起形成单独的事物或群体”，文中“它将心情、行为和生理机能结合在一起”在语法上说得通，但逻辑上看这三者无法组合成全新事物。[C] justifies或表示“证明……正确或正当”，或表示“为……解释/辩护”；而文中宾语为泛指的客观存在，不涉及“为之正名”的问题。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "68128422-97e6-5462-bd5b-eabf66d73a9f",
@@ -813,7 +879,10 @@
       "explanation": "［精准定位］由题干中 The crash of EgyptAir Flight 804 定位至第二段②句。provides another tragic reminder of why表明①②句间的“结果—原因”关联：埃及航空坠机的悲剧提醒人们航空旅行存在风险，所以美国人愿意忍受费时的安检程序来换取安全保障。故［A］正确。\n\n［命题解密］题干+正确项［A］是对第二段①②句内容的概括，其中explain与②句provides... reminder of why均表示“解释原因”之意，tolerance of current security checks复现①句tolerate time-consuming security procedures。\n［B］一方面将②句空难传达的“航空旅行安全问题”放大为“全球安全问题”，另一方面无视上下文，从安全问题顺势推出作者“急切呼吁加强安全”。［C］从第五段①句remodeling airports推出“作者建议改造机场来预防安全事故”，但首先该句围绕的是“无需改造机场或……的一项措施”，其次该举措是基于“安检费时问题”而非“航空安全问题”。［D］将第二段末句private lives过度引申为privacy，实际上原文旨在说明安检费时对旅客个人生活的负面影响，与“隐私”无关。\n\n［技巧总结］写作目的题考查作者写某事例的用意，而事例的本质是“论据”，即它们就是为服务某观点或情况而存在的（或正或反），因此解题切忌囿于事例本身，关键要锁定其所服务的对象。本题针对第二段②句某空难事例考查写作目的，而③④句But..., And it should:表明本段为两个内容对立的意群，初步断定事例服务于首句内容；而关键词provides another tragic reminder of why为缩略形式，只能是承上文而来，对其进行例证说明，由此推断事例在于解释“人们为何支持安检”，再结合首段内容“安检日益费时”判断全文主题与“安检”密切相关，其余项均脱离该内容。",
       "points": 2,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "88936908-fa32-5b14-aa3c-efbc622a17ee",
@@ -848,7 +917,10 @@
       "explanation": "［精准定位］第三段②句指出，“安检措施加强”，连同“旅客人数增加”，是导致候机时间长的原因，［C］符合其中第二项内容，为正确项。\n\n［命题解密］第三段②句have resulted in long waits at major airports对应题干contributes to long waits at major airports；插入语中的a rise in airline travel对应正确项［C］。\n［A］把第四段③句原因之一“乘客随身行李过多”扭曲为“对随身行李的新限制”，逻辑颠倒。［B］将第四段①句原因之一“TSA未及时配足安检员”曲解为“TSA效率逐渐降低”。［D］将第三段①句TSA加强安检力度的缘由“一次秘密调查”偷换为“多次、突击的秘密调查”。\n\n［技巧总结］因果细节题关键在于借助表因果逻辑的词（组）找到原因或结果，再与选项核对匹配，锁定正确项。本题题干给出结果“主要机场等候时间长”，提问“原因”。第三段②句have resulted in提示两个因素：1、安全措施加强；2、旅客人数增加，随后第四段的Part of the issue, Another factor...又列举三个因素：1、管理部门准备不足；2、机场空间有限；3、乘客随身行李太多。最后比对选项，不难确定正确项。",
       "points": 2,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "3f6ff517-1825-52c3-812e-d1404a09dcfd",
@@ -883,7 +955,10 @@
       "explanation": "［精准定位］第五段③句介绍预检计划的具体内容，即“通过背景调查的乘客可使用‘特殊’安检通道”，④句指出预检计划（背景调查）筛选出来的“高风险乘客”成为TSA重点检查的对象，最终“为所有人节省时间”，可见expedited的词义应与“节省时间”有关，［D］正确。\n\n［命题解密］正确项［D］表示时间，与预检计划的预期效果“节省时间”以及全文话题“安检时间费时”相符。\n［A］由“旅客人数激增”及“通过预检的乘客有权走某种特殊通道”主观臆断而来，但通道“安静与否”与“解决安检费时问题”并无关联。［B］借第四段末句“旅客想规避行李托运费”以及第六段所述预检计划“收费过高”这一问题进行干扰，但文中并未提及“机场安检通道需要收取费用”。［C］由第四段only so much room for screening lanes而来，但原文旨在说明“机场空间限制导致安检通道数量不足”，而非“安检通道的宽度不够”。\n\n［技巧总结］词义推断题关键要找到文中提示性的内容，根据语义或逻辑关系推断词义。第五段③④句通过分别介绍两种乘客的待遇“通过背景调查的乘客可使用‘特殊’安检通道，（背景调查有问题的）高风险乘客成为TSA重点关注对象”说明预检计划的预期效果：为所有人节省时间。由“节省时间”反观“特殊”通道，可知预检计划分担了一部分安检压力，简化了通过预检的乘客的安检程序，从而为这类乘客节省时间，故faster最接近expedited词义。",
       "points": 2,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8ca97158-61a6-5417-b5fe-afb3ad93b9df",
@@ -918,7 +993,10 @@
       "explanation": "［精准定位］第六段首句指出，预检计划远未达到预期目标，一大问题在于sticker shock，由④句“即将进行的改革将使价格降至合理水平”反推出sticker shock意为“价格过高”，因此［D］正确。\n\n［命题解密］正确项［D］an unreasonable price for enrollment概括了第六段中sticker shock、$85 every five years、price tag、bring the price to a more reasonable level、finance PreCheck enrollment、cut costs共同说明的问题“预检计划标价过高”，题干one problem呼应第六段①句one big reason、③句fatal flaw。\n［A］干扰来自①句前半句事实“参加预检的实际人数远未达到预期目标”，但选项中reduction涉及“由大到小”的过程，③句表明预检一开始就有着致命弱点，故“规模由大到小”无从谈起。［B］由③句“预检标价过高从一开始就很致命”而来，但末句建议“国会应为预检提供资金以降低价格”侧面表明，该项目价格高源于成本太高，而并非是谁指导有误。［C］从⑤句Congress should...反向推出“国会不支持预检项目”，但④句Upcoming reforms might... more reasonable暗示国会有其作为，作者只是认为它做得不够，建议其立即采取直接行动。\n\n［技巧总结］事实细节题需结合题干和选项定位至原文对应位置，根据原文内容确定正确项，再对比选项与原文内容一一排除干扰项，干扰项通常歪曲原文细节，过度推断，或主观臆断。解答本题时，首先要根据题干关键词problem with PreCheck program定位至第六段，该段指出预检计划的致命缺陷是“价格过高”，可确定［D］为正确项。［A］将原文的“数量落差”曲解为“规模缩小”，［B］主观臆断出“TSA指导不当”，［C］由作者敦促国会采取行动而过度引申出“国会不愿支持预检计划”。",
       "points": 2,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "7b7b55c4-884d-50a7-b27e-b4e9bbadc6e1",
@@ -953,7 +1031,10 @@
       "explanation": "［精准定位］首段提出问题“机场安检越来越费时”，第二段分析问题影响“对个人生活和经济都是拖累”，第三、四段分析问题产生的原因，第五至七段针对问题提出解决建议，因此全文围绕“安检等候时间太长、旅客不堪其苦”这一问题展开论述，［C］正确。\n\n［命题解密］正确项［C］是对全文中心问题的概括。Security lines贯穿全文，Getting stuck（困住）形象刻画“乘客被困在安检长龙里无能为力”的情形，符合作者对问题“日益严峻、棘手，亟待解决”的论述。\n［A］中Screening、Safety都是文中关键词，但for More Safety表明选项重心在于“安全”，此标题下的论述应该围绕“如何加强航空旅行安全（建议少一些安检，以实现更大安全）”展开，显然偏离本文问题“如何解决安检耗时问题”。［B］中Belated看似符合末段long past time to make the program work，但文中“迟来的”实为“安检计划的作用”，而非“安检计划”本身，该计划本就存在，只是价格过高导致其一直没有得到有效利用。［D］和第七段①句信息有所重合，符合第六段“预检计划纳入人数远未达到预期目标”，但选项内容只是全文论述过程中的“解决问题”环节，无力涵盖全篇。\n\n［技巧总结］主旨题的解答需要先梳理全文脉络，过滤出主题后首先从选项中寻找对应内容；而主旨题难点主要在于干扰项的排除，解答时可以借助“反向思考法”，即对于不能确定的选项，反向思考其所能代表的文意重点，再和过滤出的主题进行比对。\n本文梳理结构后可确定为“问题分析型”文章，围绕“安检队伍太长、费时”这一问题，分析其影响和原因，最后提出“抓紧让预检计划起效”这一解决措施，［A］对应的文意重点为“加强安全的办法”，明显偏离；［B］对应“预检来得太晚了”，暗示已无力回天，不符合文中积极立意；［D］对应“预检通道为何未被充分利用、如何改进”，以偏概全。",
       "points": 2,
       "sort_order": 25,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9fefcf1b-e4f5-5f6c-8a84-b54cbdfb4806",
@@ -961,7 +1042,7 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Queen Liliuokalani's remark in Paragraph 1 indicates",
+      "stem": "Queen Liliuokalani's remark in Paragraph 1 indicates ________.",
       "options": [
         {
           "key": "A",
@@ -985,10 +1066,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］①句直引利留卡拉尼女王之言“古代夏威夷人都是天文学家”，②句随后解释“古代夏威夷社会观星师极受尊敬”。借由两句间“观星师与天文学家、天文学与天文学家、受尊敬与受重视”的语义关联可推断，女王之言实质表明了天文学家在古代夏威夷社会中的重要性，［B］正确。\n［命题解密］正确项［B］是对①②句的合理推断，其中the importance对应the most esteemed。\n［A］conservative利用惯性思维制造干扰，与①②句传达的女王对“古代天文学家备受重视，即天文学在古代有重要作用”毫无保留的肯定态度相悖。［C］将③④句暗含之今日情形“夏威夷天文学地位衰落（decline）偷换为女王之言所表古代情形。［D］利用②句Star watchers the most esteemed过度推导出“观星师因技艺高超、功勋卓著受到女王的赞赏”，且in her time（女王所处时代）与①句引言中ancient, were等词表明的信息“在女王生活时代之前的古代时期”明显相悖。",
+      "explanation": "［精准定位］①句直引利留卡拉尼女王之言“古代夏威夷人都是天文学家”，②句随后解释“古代夏威夷社会观星师极受尊敬”。借由两句间“观星师与天文学家、天文学与天文学家、受尊敬与受重视”的语义关联可推断，女王言论旨在说明天文学在古代夏威夷极受重视，故［B］正确。\n［命题解密］题干+正确项［B］是对①②句内容的综合归纳，其中the importance of astronomy是对②句Star watchers were among the most esteemed members的同义改写。\n［错项排除］［A］根据第一段Queen, reigning monarch等封建色彩词汇主观臆断女王持“保守观点”，脱离文意。［C］由首段③句Sadly, all is not well with astronomy in Hawaii today反向捏造出“天文学在古代令人遗憾地衰落”，违背文意。［D］错将第二句所述古代夏威夷社会观星师的卓越功绩篡改为“女王所处时代的观星师功绩”。",
       "points": 2,
       "sort_order": 26,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f44a001c-f706-5dc0-a2db-f9f655ce94ea",
@@ -996,7 +1080,7 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Mauna Kea is deemed as an ideal astronomical site due to",
+      "stem": "Mauna Kea is deemed as an ideal astronomical site due to ________.",
       "options": [
         {
           "key": "A",
@@ -1020,10 +1104,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］根据Mauna Kea定位至第二段。①句直陈莫纳克亚山为全球天文学研究重地，②句进而说明原因：气候干燥、没有光污染、高出空气对流层且空气稀薄；由此可知，莫纳克亚山是因其自身优越的地理环境成为绝佳天文观测台址，［A］正确。\n［命题解密］正确项［A］是对②句其地理环境优势的概括归纳。\n［B］利用②句“空气稀薄、位于对流层之上”制造干扰，认为其具有“保护性周边环境”，但莫纳克亚山周边为无边海洋，并未有起保护作用的周边环境，且②句所述条件为该山本身特性，并非“周围事物赋予其的保护特征”。［C］利用③句Sacred Mount和has deep religious meaning干扰，但这是夏威夷原住民视其为圣地、反对修建TMT的原因，并非天文学界选择其为天文台址的原因。［D］将②句“十几座巨型望远镜已立于该山”偷换为“现有的完备基础设施”。",
+      "explanation": "［精准定位］根据Mauna Kea定位至第二段。①句直陈莫纳克亚山为全球天文学研究重地，②句进而说明原因：气候干燥、没有光污染、高出空气对流层且空气稀薄；由此可知，莫纳克亚山是因其自身优越的地理环境成为理想观测地，故［A］正确。\n［命题解密］正确项［A］是对第二段③句Rested in the Pacific Ocean, Mauna Kea's peak rises above the bulk of our planet's dense atmosphere的归纳概括。\n［错项排除］［B］将峰顶自然地理环境条件曲解为“防护性周边环境”。［C］将第一句中部分夏威夷人视该山为圣地的宗教意义偷换为“科学观测的理想条件”。［D］错将该山拥有顶尖望远镜的现状（果）颠倒为“成为理想天文台的原因（因）”。",
       "points": 2,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "bf5ea858-7f72-58fe-be6d-121ed1ea68d6",
@@ -1031,7 +1118,7 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The construction of the TMT is opposed by some locals partly because",
+      "stem": "The construction of the TMT is opposed by some locals partly because ________.",
       "options": [
         {
           "key": "A",
@@ -1055,10 +1142,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］第三段①句以“抗议者认为在莫纳克亚山顶修建望远镜不仅亵渎圣山、而且也是对夏威夷主权的侵犯”引出反对原因。②③句进而说明抗议者眼中“侵犯夏威夷主权”具体含义：强迫夏威夷放弃其主权并被美国吞并，给其带来屈辱历史，而建立TMT不仅会加剧历史苦痛、而且勾起痛苦回忆；由这些信息可知，建立TMT勾起当地人屈辱历史的回忆是其反对修建TMT的原因之一，［B］正确。\n［命题解密］正确项［B］是对第三段②③句内容的合理概括，其中a humiliating history对应③句a painful history of ... annexation。\n［A］将第三段①句“夏威夷原住民正在为追求自身文化、历史以及知性生活的复兴而斗争”曲解为“TMT的修建会毁掉其知性生活”。［C］颠倒第三段①句逻辑，文中指出原住民为了复兴自身文化而反对修建TMT，并非修建TMT使其文化丧失复兴机会。［D］过度推断，当地人反对修建TMT旨在保护圣山和唤醒夏威夷主权意识，并不存在“惧怕失去莫纳克亚山控制权”这一担忧。",
+      "explanation": "［精准定位］第三段①句以“抗议者认为在莫纳克亚山顶修建望远镜不仅亵渎圣山、而且也是对夏威夷主权的侵犯”引出反对原因。②③句进而说明抗议者眼中“侵犯夏威夷主权”具体含义：强迫夏威夷放弃其主权并被美国吞并的屈辱历史；由此可知，修建望远镜唤起了当地人对屈辱历史的痛苦回忆，故［B］正确。\n［命题解密］题干+正确项［B］是对第三段②句a painful reminder of the occupation of what was once a sovereign nation的同义改写。\n［错项排除］［A］将文化与宗教冲突无中生有地引申为“毁坏精神知识生活”。［C］将第四段末句夏威夷文化正在经历复兴（living culture undergoing a renaissance）反向篡改为“夏威夷文化将失去复兴机会”。［D］过度引申出“当地人害怕失去对莫纳克亚山的控制”，当前争议焦点并不在控制权，而在其神圣性与生态环境保护。",
       "points": 2,
       "sort_order": 28,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "6c5cd941-9a00-5da2-b4e4-1ce2066716e9",
@@ -1066,7 +1156,7 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It can be inferred from Paragraph 5 that progress in today's astronomy",
+      "stem": "It can be inferred from Paragraph 5 that progress in today's astronomy ________.",
       "options": [
         {
           "key": "A",
@@ -1090,10 +1180,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］第五段①句以“科学也有其文化历史”指出天文学和夏威夷文化具有相通之处，②③④句具体说明相通之处：探索人（天文学家&古代夏威夷人）好奇心相同、都在试图解答相同人类本源问题（我们是谁？从哪里来？到哪里去？）、文化使命一致（了解自己以及祖先的真正家园）；末句进而借引言指明今日天文学对古代夏威夷文化的继承发展：古代夏威夷人敢于在太平洋上开拓探索，当代天文学家正继承这一精神开拓星空；由这些信息可知，今日天文学的发展正在实现古代夏威夷人的梦想，［A］正确。\n［命题解密］正确项［A］是对第五段⑤句引言中“两代人都在开拓探索（voyage）”深层内涵的合理引申推断。\n［B］过度推导，天文学探索的是“人类重大起源问题”，并非致力于“传播夏威夷文化”。［C］将③句“追寻人类共同家园、探求人类本源问题”偷换为“探求夏威夷文化起源”。［D］主观臆断，文中末两段着力阐述天文学与夏威夷文化的相通之处，但并未提及“这是否会缓和当地人敌意”。",
+      "explanation": "［精准定位］第五段①句以“科学也有其文化历史”指出天文学和夏威夷文化具有相通之处，②③④句具体说明相通之处：探索人（天文学家&古代夏威夷人）好奇心相同、都在试图解答相同人类本源问题（我们是谁？从哪里来？到哪里去？）。由这种相通之处可推知，现代天文学的发展实际上是在继承和实现古代夏威夷人的探索梦想，故［A］正确。\n［命题解密］题干+正确项［A］是对第五段②③句“波利尼西亚人探索未知的好奇心激励着今天的天文学家探索苍穹”的深层合理推论。\n［错项排除］［B］将天文学与文化的精神契合曲解为“向全世界传播夏威夷文化”。［C］将探索人类共同祖先家园曲解为“揭示夏威夷文化的起源”。［D］主观臆断天文学进步将软化夏威夷人的敌意，文中未提及敌意消解的必然结果。",
       "points": 2,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "bbac36f1-86a8-52fd-a451-2d7afda7e940",
@@ -1101,7 +1194,7 @@
       "passage_id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author's attitude toward choosing Mauna Kea as the TMT site is one of",
+      "stem": "The author's attitude toward choosing Mauna Kea as the TMT site is one of ________.",
       "options": [
         {
           "key": "A",
@@ -1125,10 +1218,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］第一段以Sadly引出天文学TMT项目进展不顺，体现作者的同情遗憾之意；第五段③④句指出抗议者忽视了“天文学家和夏威夷文化都在探索相同重大问题”这一现实，体现作者支持天文探索事业的立场：天文学与夏威夷文化本源相通，并不存在难以化解的矛盾，天文事业的进步有助于解答夏威夷文化所探索的问题;末段④句指出完全有理由欢迎任何人来莫纳克亚山探索星空，明确作者态度：完全支持天文学家。［D］正确。\n［命题解密］正确项［D］是对文中 Sadly、ignore the reality、There is no reason why everyone cannot be welcomed on Mauna Kea等信息所传递出的作者对TMT选址于莫纳克亚山态度的正确解读。",
+      "explanation": "［精准定位］第一段以Sadly引出天文学TMT项目进展不顺，体现作者的同情遗憾之意；第五段③④句指出抗议者忽视了“天文学家和夏威夷文化都在探索相同重大问题”这一现实，体现作者支持天文探索事业的立场；第六段作者肯定天文学界做出妥协和退让的举措，并在末句发出呼吁“完全有理由欢迎所有人到莫纳克亚山上来拥抱其文化遗产并研究星空”，充分展示了作者对选址莫纳克亚山建设TMT的完全赞同与支持态度，故［D］正确。\n［命题解密］正确项［D］是对全文论述基调及末段欢迎各方拥抱文化遗产并研究星体的号召的准确概括。\n［错项排除］［A］ severe criticism（严厉批评）与作者支持天文探索的立场完全相反。［B］ passive acceptance（被动接受）忽视了作者主动积极呼吁双方共享与推进TMT建设的鲜明态度。［C］ slight hesitancy（略带犹豫）不符事实，作者通篇立场坚定，不存在犹豫不决。",
       "points": 2,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "fdc8f8b0-cbd2-594b-bccd-23639890981f",
@@ -1163,7 +1259,10 @@
       "explanation": "［精准定位］第一段①句引用肯尼迪对GDP的评价指出GDP衡量一切，除了那些令人生真正有价值的东西（即GDP存在巨大缺陷）。②句以英国看似不可理解的做法“明知GDP会减缓却还执意脱欧”暗证Kennedy观点正确性，并进而引出话题“是时候评定Kennedy的GDP论了”。可知，作者引用意在正向立意：GDP有极大局限性，［D］正确。\n［命题解密］正确项［D］中had a low opinion是对everything except that which makes life worthwhile“明褒实贬”态度的明确。\n［A］干扰源自第二段④句，但该句是在介绍GDP的最新计算结果，且随后一句对其进行了质疑，并非表明肯尼迪对英国GDP的赞扬。［B］将肯尼迪“认为GDP不能衡量幸福”改为与之相悖的“将GDP等同于幸福”。［C］将作者对肯尼迪观点的“赞同”改为“否定”：首段②句以及第二段④⑤句暗含作者观点“GDP不能反映实际民生状况”，即赞同肯尼迪观点。\n［技巧总结］本题就“开篇所引人物话语”设置写作目的题，间接考查“人物观点”与“文章主旨/作者观点”的关系。解题时应首先分析开篇段句际逻辑、初步得出正确项；随后借助下文进行检验、最终确定答案。需注意选项陷阱：文中特殊句式、与人物观点无直接关系的文中内容。\n具体来看，首先可发现第一段逻辑“①句介绍Kennedy观点（GDP有重大缺陷）—②句以英国脱欧事件提出应认真考量Kennedy观点”，初步确定本文开篇属于“正向援引”，目的在于借他人话语表明作者探讨对象，［D］很可能正确。再粗略浏览后文即可验证这一判断。",
       "points": 2,
       "sort_order": 31,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f5b7793d-a361-53df-8e88-4867123fc060",
@@ -1198,7 +1297,10 @@
       "explanation": "［精准定位］第二段④⑤句展现矛盾情形“GDP数据显示英国当前形势喜人；多数英国人却投票选择脱欧、且无视这会对其经济前景的影响”，这一情形实则暗示：GDP作为衡量一国整体发展成就的标准如今在英国广受质疑，［B］正确。\n［命题解密］［B］正确解读第二段④⑤句言外之意：GDP as the measure of success对应④句the UK's GDP has been the envy of the Western world；is widely defied in the UK对应⑤句以反问和转折表明的质疑态度（over 17 million people对应widely）。\n［A］由④句the UK's GDP has been the envy of the Western world主观推出“英国目前经济发展极好，因此不愿改变现有模式”，但⑤句实则以反问表明与之相反的信息“英国人并不认可GDP体现的表面繁荣，反而希望脱欧带来改变”。［C］由⑤句“英国经济前景很可能会受脱欧影响”过度推出“英国对世界经济的贡献将会减少”，但二者并不存在直接关联，且选项将“可能（warnings, could）”绝对化为“必然（will）”。［D］将①句“政策制定者多年来受GDP问题困扰”改为与之存在巨大偏差的“英国政策制定者当前对GDP的关注降低”，即同时偷换了时间、人物、以及人物态度。\n［技巧总结］“推理引申题”重在考查学生把握句际关系，明辨整体语义的能力。答题时需注意：①细节背后必有主旨，应抓取文字背后整体信息；②特殊句式（反问句、双重否定句、转折句式等）暗含强烈观点，需作为重要推理对象；③情感色彩词汇易成为命题人设置干扰的陷阱，需注意排除断章取义的选项。\n具体看本题，首先浏览第二段可大概抓住本段主线：质疑GDP的效用。以此为据进一步推理④⑤句，可知作者重在以反问说明英国人总体上不再信任GDP作为衡量国家是否成功的标尺，从而大致判断［B］正确。随后可进一步发现，［A］、［C］重点落在“英国经济模式”、“英国对世界经济的贡献”，与本段主线无关，且扭曲文中细节，［D］虽然涉及关注对象GDP，但严重改变文中事实，故均可排除。",
       "points": 2,
       "sort_order": 32,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "6efd456f-e284-582c-9d38-dbd920e39bff",
@@ -1233,7 +1335,10 @@
       "explanation": "［精准定位］第三段首句针对上段末反问“英国如果真像GDP反映的那么喜人，人民为何还支持脱欧？”作出回答：最近一项年度调查提供了一些解释；随后介绍调查结果：在“经济增长-民生福祉”的转化方面，英国表现最差。第四段进而对比“富国VS穷国”情况：前者在健康、教育等方面持续下滑，后者却在民主、公平等方面提升显著。第五段作出评论：富国应吸取教训——以GDP以外的标准进行衡量，情况会大不相同。可见作者通过调查结果启示富国：“唯GDP论”掩盖国家整体发展实情（“富”未必“福”），由此解答了英国人民执意脱欧的疑问，因此［D］正确。\n［命题解密］正确项［D］enlightening是第三段首句sheds some light on的同义替换，同时与第五段a lesson that rich countries can learn相符。\n［A］将第三段②句163国家承担的角色“研究对象”偷换为“研究发起者”。［B］将第三段③句研究指标“不止包括GDP，还有其他多套不同标准”曲解为“不包括GDP”。［C］将第三段③句暗含的对研究“采取多套衡量标准”的肯定态度篡改为否定态度。\n［技巧总结］本题需要对文中大篇幅（第三至五段）涉及的大量信息（涉及研究方法，研究结论，研究细节，研究意义等）进行概括引申，难以直接确定正确答案。解题可以首先从选项入手，通过排除法锁定潜在正确项，再判断段落或段群主旨，对锁定的选项进行验证。另外需注意：与段落乃至全文核心无关联的选项为干扰项。",
       "points": 2,
       "sort_order": 33,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "d1ebd962-7006-52e7-9362-c0357c273afe",
@@ -1268,7 +1373,10 @@
       "explanation": "［精准定位］第六段指出GDP不足以衡量国家的整体发展状况，因为它无法衡量“环境质量、教育成果”等能提升民众幸福感的重要因素。第七段则给出应对建议：政策制定者不应一味忧心GDP，而应采取实际行动、努力提升社会福利。可见，考虑GDP以外的因素极为重要，［C］正确。\n［命题解密］正确项［C］是对第六段it is no longer enough/It does not include important factors...和第七段refocus efforts on improving well-being rather than simply worrying about GDP...的概括改写。\n［A］将第七段“预测显示英国经济将因脱欧遭受重创”篡改为与之完全相悖的“英国将迎来经济繁荣”。［B］将第七段①句a decline和文中关键词high GDP之间强加因果关联：实际并非“高GDP预示经济下滑”，而是“经济打击会导致日常服务下滑，从而影响国民幸福感，只求高GDP则无法避免这一厄运”。［D］将第七段②句“要重新努力‘提升福利’而非‘忧心GDP数字’”偷换为“要谨慎处理经济问题”。\n［技巧总结］本题借作者认可之观点考查末两段主旨。解答此类题时需注意：1）否定词、否定句以及取舍关系词尤其体现文章观点，应作为重点关注对象；2）干扰项常由细节信息篡改而来或把细节信息与文章高频词杂糅而得，应予以警惕。\n具体来说，第六段完全否定词no longer，否定句it does not include明确GDP局限、暗示对“关乎民众幸福感、生活质量等民生因素”进行衡量之重要；第七段再度以取舍关系词rather than强调民生因素（well-being）的重要性及“唯GDP论”的错误性，选项［C］最为契合。［A］、［D］由细节信息篡改而来，［B］将细节信息与高频词杂糅。",
       "points": 2,
       "sort_order": 34,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9f9617c1-4907-5dc3-8c1b-d9b7758bdc40",
@@ -1303,7 +1411,10 @@
       "explanation": "［精准定位］文章首两段质疑GDP的观点，并聚焦“英国脱欧事件”予以强调；第三至五段则以近期研究发现“英国及其他主要经济体未能将高GDP转化为民生福祉”暗示高GDP并不等同于国民幸福；第六、七段则明确指出“GDP无法衡量环境质量、教育成果等关乎民生的重要因素，因此政策制定者不能一味忧心GDP,而应努力提升社会福利”。可见，全文以“英国脱欧”为反例，指出高GDP并非等同于幸福感，不足以衡量国家发展，［A］正确。\n［命题解密］正确项［A］既锁定了文章核心论点“GDP在衡量民生方面存在局限性（High GDP But Inadequate Well-being）\",又明确了文章切入点：“以英国为反例，给各国以警醒（a UK lesson）”。\n［B］将文章观点“GDP不足以衡量国家经济活动”篡改为与之完全相反的“GDP是全球经济健康之窗”。［C］肯尼迪只是GDP的批判者，并非终结者，无力概括全篇。［D］将文中信息“英国人选择脱欧在一定程度上是不满幸福感的持续下降”篡改夸大为“脱欧是英国实现幸福之路”。",
       "points": 2,
       "sort_order": 35,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "5cc03fcc-6591-5ec4-9d1d-43b326c3809a",
@@ -1338,7 +1449,10 @@
       "explanation": "［精准定位］划线句上文指出最高法院罕见地一致推翻了对麦克唐纳的贪腐定罪；划线句下文列举了麦克唐纳从公司收受贵重礼物的行为；而划线句内逻辑词But, while则将语义重点锁定在最高法院对麦克唐纳行为的举动上，且这一举动与其“推翻麦克唐纳的贪腐定罪”存在反向关联，唯有［C］符合这一条件：尽管推翻了对麦克唐纳的贪腐定罪，却也对其行为表达了明确不满，故［C］正确。\n\n［命题解密］正确项［C］符合划线句与其上下文之间语义逻辑，是对划线句中holding its nose at the ethics of his conduct 的正确解读。\n\n［A］根据第二段failed to tell... issues related to his duties捏造干扰，却将下级法院失职行为“未能告知陪审团必须只关注麦克唐纳的公务行为”曲解为最高法院行为“未能界定麦克唐纳的职责范围”，且严重偏离划线句考查对象“最高法院对麦克唐纳行为的举动”。［B］将第一段①句rare unanimous ruling... overturned... conviction...“罕见地一致推翻了定罪：有罪→无罪”反向曲解为“在定罪问题上严防死守：有罪→有罪”，同时也严重偏离了划线句论述对象。［D］由划线句中ethics of his conduct捏造而来，却将划线句中holding its nose所传递出的“（因臭味而）掩鼻而过”曲解为“拒绝予以评价”，且由第四段可知法院确实表明了对这一行为的态度。\n\n［技巧总结］本题考查对含有抽象含义词组的句子的理解。解题关键步骤在：首先根据逻辑词把握划线句与上下文之间的语义逻辑（并列、转折、递进、例证等）；然后结合抽象含义词组的字面义及其所指向的对象进行语义初判；最后将两者结合筛选出正确项，将不符合逻辑、语义、对象的干扰项排除。具体看本题，逻辑词But, while表明划线句与上文为转折关联、与下文为例证关联，抽象含义词组holding its nose字面含义为“（为避开臭气等）捂住鼻子”，且该动作针对的对象是麦克唐纳收受礼物这一行为，就此可排除表顺承逻辑的［B］、针对“麦克唐纳的职责范围”的［A］以及与抽象词组字面义不符的［D］，从而确定［C］为正确项。",
       "points": 2,
       "sort_order": 36,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "1389074a-2053-5ea9-b0bc-14e8f9aae7eb",
@@ -1373,7 +1487,10 @@
       "explanation": "［精准定位］第四段②句指出：根据反贿赂法，（构成贪腐罪的）证据必须是实实在在的好处，譬如批准某项合同或规定。可见，公务行为判定为贪腐的必要条件是公务人员为送礼者提供切实回报，故［C］正确。\n\n［命题解密］题干+正确项［C］是对本段②句的proof must be made of concrete benefits的同义改写。\n\n［A］错将第三段clear intent...（明确意图）由“对官员施压”曲解为“故意泄密”。［B］错将concrete benefits“公务人员回赠给送礼者的切实的、有形的收益”曲解为“公务人员自身收到的可观礼物”。［D］由approval of a contract反向捏造出“breaking contracts”，但“批准一项合约”是为了举例说明构成腐败的具体证据，属构成腐败的个例而非必要条件，反向干扰更不成立。\n\n［技巧总结］解答段落细节推理题时要善于借助题干抓取正确项定位信息，然后就定位信息敲定正确答案。如本题，题干中only if提示所设题眼为“（公务行为被判定为腐败的）必要条件”，顺而从第四段中抓取表达必要条件的关键词，由此锁定②句（must为必要条件表达词）并根据该句句意敲定［C］正确。",
       "points": 2,
       "sort_order": 37,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "148aa68c-870f-57f8-8d80-022b7480dd24",
@@ -1408,7 +1525,10 @@
       "explanation": "［精准定位］第五段首句指出最高法院裁决在法律上合理地界定了某种合法的偏袒行为，末句则以首席大法官之言引出其依据：基本契约是代议制政府的执政基础，契约中有一条假设“公职人员应该听取其选民心声，并就选民所关切之事行事”，亦即“公职人员应该满足其选民需求”，因此［A］正确。\n\n［命题解密］题干+正确项［A］是对第五段③句 assumes that public officials will hear from their constituents and act on their concerns 的同义改写。\n\n［B］错将②句“应该帮助其支持者处理与政府相关的繁文缛节问题”篡改成“有能力独立处理政府事宜”。［C］错将③句“选民关切之事是公务人员的行动依据（act on their concerns）”狭隘理解为“将精力集中放在支持者关注之事上”。［D］错将①句“该裁决从法律上合理地界定了某种合法的偏袒行为”断章取义为“公职人员面临偏袒指控时可被免除定罪”，事实是“偏袒行为也有不合法的”。\n\n［技巧总结］本题既考查对段落细节的理解，又考查对段落主旨的把握。解答这类题目时，首先要根据题干关键词锁定定位信息，再理清段落结构锁定段落主题，最后明确段落主题与定位信息的关联。以本题为例，首先根据题干关键词assumption定位至第五段③句，该句所述一项假设的具体内容为“公务人员要听取选民心声，并行选民关切之事”；其次，由段中“①句点评指出裁决对某种合法偏袒行为的界定在法律上是合理的，②③句进而讲述其法律根据”可知①句为段落主体；最后不难推断③句所述假设即为①句法院裁决的法律依据，最终得出正确项是［A］。",
       "points": 2,
       "sort_order": 38,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "465dc666-f62d-5f57-a509-3924c574e36d",
@@ -1443,7 +1563,10 @@
       "explanation": "［精准定位］第六段三句间语义逻辑实为“官员接见时要确保公平（①句），这需要官员做到廉正（即不徇私情）（②句），而廉正又需要政府透明度方面有强有力的法律保障（③句）”，由此可见，政府透明度方面强有力的法律旨在确保官员接见中的人人平等，因此［B］正确。\n\n［命题解密］正确项［B］是对③句This type of integrity的正确解读：官员禁止徇私情，官员要确保政府接见机会人人平等。\n\n［A］根据integrity的中文释义“正直诚实”捏造而来，而此处this type of integrity却指的是“官员确保接近政府机会平等这一行为上的廉正”而非“官员的道德心”。［C］利用rules on lobbying捏造干扰，但它实为例证政府透明度方面的法律规制：对游说活动做出规定（从而杜绝某些权钱交易的游说活动），而非为某些游说活动预留空间；且偏离题干考查要义“政府透明度法律规制的目的”。［D］average people源自第七段③句，并捏造出“普通人失去希望”这一文中无中生有的信息。\n\n［技巧总结］本题于含有复杂语义关联的句子处设题，旨在考查透过复杂语义关联把握段落主旨的能力。解题时应：①识别文中所有的“名词替换”和“代词所指”，因为它们代表着文章讨论的对象，只有将其分清，才能理清文章内容；②梳理出一条大概主线，因为只有这样才能对选项的判断有一个大致的标准；③认识到正确项往往是对段落中某个句子的同义改写、或是对句群、段落甚至段群主要内容的总结概括或合理引申；④干扰项最常见的设置方式是偷换对象、反向干扰、改变因果、偷换时态，曲解文意等。",
       "points": 2,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9ebed109-f4e3-571a-9f4b-417db445c806",
@@ -1478,7 +1601,10 @@
       "explanation": "［精准定位］第五段作者指出裁决从法律上合理地界定了某种偏袒行为的合法界线；第六段指出该裁决强化了公民及其民选代表确保接近政府机会人人平等的必要性；第七段虽未就裁决发表评论，却以作者观点“偏袒行为并非一定腐败，政府官员必须在政务接见时避免双重标准以确保会见机会人人平等”强化了第五、六段文意；末段直接明确指出该裁决将与腐败、“公务偏袒行为”的斗争向前推进了一步。由此可见，作者对该项裁决持支持态度。［D］正确。\n\n［命题解密］正确项［D］是对末四段中legally sound, reinforces, a step forward等词所传递出的作者对裁决看法的正确解读。\n\n［A］实从holding its nose而来，却将第一段语义逻辑“最高法院虽极其反感麦克唐纳行为，却依然推翻对其贪腐定罪”错误解读为“最高法院既然极其蔑视其行为，就应该维持其有罪判定”从而推导出作者对该裁决的“讽刺”态度。［B］将第六段首词But所传递出的第五、六段间语义逻辑错误解读为“裁决虽...（legally sound，好的方面），但却...（reinforces，不好的方面）”，从而错误推导出作者对裁决的“容忍”态度，而该词的实际语义逻辑为“裁决为政府官员们某种偏袒行为做了合法界定，尽管如此，裁决也侧面加强了对政府官员廉正办公的要求”，实际传达出的是作者对裁决的双重肯定之意。［C］将第七段首句所述偏袒行为与腐败关联“官员接见中的偏袒行为会激起公众对腐败的感知”与最高法院裁决“推翻腐败定罪”相连，错误推导出作者对该裁决正确性的“怀疑”态度。\n\n［技巧总结］全文通篇都围绕“最高法院裁决”展开，后半部分重在对其做出点评。因此，本题实以“作者观点题”的形式来考查考生对篇章后半部分的宏观把握。解答这种作者态度题的关键在抓取篇章中饱含作者情感色彩的形容词、副词、甚至动词、名词等，切勿戴上有色眼镜做题。如本题，作者对裁决的态度透过其所使用的饱含正面色彩的词汇legally sound、reinforces、a step forward可窥一斑。",
       "points": 2,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "6a7d1ff4-c5f2-59dd-ae5a-36d2bee902b5",
@@ -1490,45 +1616,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The first published sketch, 'A Dinner at Poplar Walk' brought tears to Dickens's eyes when he discovered it in print in The Monthly Magazine.",
+          "text": "[A]",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Soon, his popular sketches were succeeded by a proposal from publishers Chapman and Hall to write commentary for sporting plates.",
+          "text": "[B]",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "After a series of successful sketches, the young journalist embarked on his first full-length serialized novel, Oliver Twist.",
+          "text": "[C]",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "With the astronomical success of The Pickwick Papers, Dickens was catapulted into literary superstardom across Britain and America.",
+          "text": "[D]",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Charles Dickens was born in Landport, Hampshire, during the rapid urbanization of the British industrial revolution.",
+          "text": "[E]",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "His father's chronic financial mismanagement led to the family being imprisoned in Marshalsea debtor's prison, traumatizing young Charles.",
+          "text": "[F]",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Dickens's early hardships working in a blacking warehouse deeply shaped his lifelong social consciousness and empathetic literary vision.",
+          "text": "[G]",
           "value": "G"
         }
       ],
       "correct_answer": "F",
-      "explanation": "41.本题考核的知识点是：上下文逻辑衔接\n\n【选项推测】已经确定位置的【E】段首句提及重要时间线索“他父亲从监狱获释后不久”，可推知上\n\n文必定涉及“他父亲入狱”的内容；另外首段【D】也已给出，需注意考查所选项能否与【D】顺畅衔接。\n\n【答案敲定】由【路标词解析】可知，【F】为本题备选项。\n\n【F】 段主要介绍狄更斯的家庭背景和童年经历，其中第六、七句指出，狄更斯家庭日渐贫困，之后他\n\n的父亲因债入狱，在内容上能够与【E】段首句“他父亲获释”形成顺畅的叙事顺序；同时，【E】段还提及狄\n\n更斯在他父亲获释后获得更好的工作：法律事务所的跑腿，而【F】段第六句介绍他曾做过鞋油厂受人嘲\n\n笑的童工，两者相比，显然前者更好，比较级a better job as errand boy所体现的前后比较逻辑成立，故\n\n【F】与下文【E】衔接顺畅；从与上文的衔接看，由首段【D】的内容可知，本文是关于狄更斯的传记。传记\n\n在引出人物之后，一般以时间顺序介绍人物生平，而【F】段介绍了狄更斯的出生地、家庭背景、童年经历\n\n等，符合传记的一般写作顺序，故[F]与上文也能顺畅衔接，敲定为本题答案。",
+      "explanation": "［考点提炼］上下文逻辑衔接\n［选项推测］已经确定位置的［E］段首句提及重要时间线索“他父亲从监狱获释后不久”，可推知上文必定涉及“他父亲入狱”的内容；另外首段［D］也已给出，需注意考查所选项能否与［D］顺畅衔接。\n［答案敲定］［F］段主要介绍狄更斯的家庭背景和童年经历，其中第六、七句指出，狄更斯家庭日渐贫困，之后他的父亲因债入狱，在内容上能够与［E］段首句“他父亲获释”形成顺畅的叙事顺序；同时，［E］段还提及狄更斯在他父亲获释后获得更好的工作：法律事务所的跑腿，而［F］段第六句介绍他曾做过鞋油厂受人嘲笑的童工，两者相比，［F］与［E］前后衔接自然顺畅，故敲定［F］为正确项。",
       "points": 2,
       "sort_order": 41,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b2eb06e9-efab-51fb-a2d7-af6cce12a16f",
@@ -1540,45 +1669,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The first published sketch, 'A Dinner at Poplar Walk' brought tears to Dickens's eyes when he discovered it in print in The Monthly Magazine.",
+          "text": "[A]",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Soon, his popular sketches were succeeded by a proposal from publishers Chapman and Hall to write commentary for sporting plates.",
+          "text": "[B]",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "After a series of successful sketches, the young journalist embarked on his first full-length serialized novel, Oliver Twist.",
+          "text": "[C]",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "With the astronomical success of The Pickwick Papers, Dickens was catapulted into literary superstardom across Britain and America.",
+          "text": "[D]",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Charles Dickens was born in Landport, Hampshire, during the rapid urbanization of the British industrial revolution.",
+          "text": "[E]",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "His father's chronic financial mismanagement led to the family being imprisoned in Marshalsea debtor's prison, traumatizing young Charles.",
+          "text": "[F]",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Dickens's early hardships working in a blacking warehouse deeply shaped his lifelong social consciousness and empathetic literary vision.",
+          "text": "[G]",
           "value": "G"
         }
       ],
       "correct_answer": "E",
-      "explanation": "42.本题考核的知识点是：上下文逻辑衔接\n\n【选项推测】已经确定位置的【A】段首句提及“狄更斯发表了第一篇随笔”，故推知上文必定涉及狄\n\n更斯开始写随笔并向杂志社投稿的过程。\n\n【答案敲定】由【路标词解析】可知，【E】为本题备选项。\n\n【E】 段先介绍了狄更斯早年工作经历，之后指出，在他当议会记者期间，他就注意观察并记录周围生\n\n活中的奇闻趣事，写成随笔后开始向不知名的杂志投稿，与【A】段“第一篇随笔发表”正好形成“写稿投\n\n稿一一发表”的叙述顺序，逻辑合理，衔接顺畅，故敲定【E】为本题答案。",
+      "explanation": "［考点提炼］上下文逻辑衔接\n［选项推测］已经确定位置的［A］段首句提及“狄更斯发表了第一篇随笔”，故推知上文必定涉及狄更斯开始写随笔并向杂志社投稿的过程。\n［答案敲定］［E］段先介绍了狄更斯早年工作经历，之后指出，在他当议会记者期间，他就注意观察并记录周围生活中的奇闻趣事，写成随笔后开始向不知名的杂志投稿，与［A］段“第一篇随笔发表”正好形成“写稿投稿—发表”的叙述顺序，逻辑合理，衔接顺畅，故敲定［E］为正确项。",
       "points": 2,
       "sort_order": 42,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "0cefd0ef-500a-572c-8fc9-01215fddd8fb",
@@ -1590,45 +1722,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The first published sketch, 'A Dinner at Poplar Walk' brought tears to Dickens's eyes when he discovered it in print in The Monthly Magazine.",
+          "text": "[A]",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Soon, his popular sketches were succeeded by a proposal from publishers Chapman and Hall to write commentary for sporting plates.",
+          "text": "[B]",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "After a series of successful sketches, the young journalist embarked on his first full-length serialized novel, Oliver Twist.",
+          "text": "[C]",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "With the astronomical success of The Pickwick Papers, Dickens was catapulted into literary superstardom across Britain and America.",
+          "text": "[D]",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Charles Dickens was born in Landport, Hampshire, during the rapid urbanization of the British industrial revolution.",
+          "text": "[E]",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "His father's chronic financial mismanagement led to the family being imprisoned in Marshalsea debtor's prison, traumatizing young Charles.",
+          "text": "[F]",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Dickens's early hardships working in a blacking warehouse deeply shaped his lifelong social consciousness and empathetic literary vision.",
+          "text": "[G]",
           "value": "G"
         }
       ],
       "correct_answer": "A",
-      "explanation": "43.本题考核的知识点是：上下文逻辑衔接\n\n【选项推测】已经确定位置的【C】段首句出现明显时间线索，指出“《博兹札记》面世不久之后，狄更斯\n\n开始创作第一部小说”,故推知上文必定涉及《博兹札记》的创作过程。\n\n【答案敲定】由【路标词解析】可知，【A】为本题备选项。\n\n【A】段指出，第一篇随笔发表之后，狄更斯便开始以笔名Boz“博兹”大规模创作并发表，由关键词\n\nsketches可知，【C】段中Sketches by Bozd.博兹札记》是狄更斯所创作的大量随笔的集结汇总，且随笔署名\n\n为Boz,与【A】段所述内容相符，【A】与【C】前后能够形成“大量创作随笔一集结出版面世”的叙述顺\n\n序，符合逻辑，故敲定【A】为本题答案。",
+      "explanation": "［考点提炼］上下文逻辑衔接\n［选项推测］已经确定位置的［C］段首句出现明显时间线索，指出“《博兹札记》面世不久之后，狄更斯开始创作第一部小说”，故推知上文必定涉及《博兹札记》的创作过程。\n［答案敲定］［A］段指出，第一篇随笔发表之后，狄更斯便开始以笔名Boz（“博兹”）大规模创作并发表，由关键词sketches可知，［C］段中Sketches by Boz《博兹札记》是狄更斯所创作的大量随笔的集结汇总，且随笔署名为Boz，与［A］段所述内容相符，［A］与［C］前后能够形成“大量创作随笔—集结出版面世”的叙述顺序，符合逻辑，故敲定［A］为正确项。",
       "points": 2,
       "sort_order": 43,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9375b335-38fe-5381-afc6-4cd661a193d6",
@@ -1640,45 +1775,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The first published sketch, 'A Dinner at Poplar Walk' brought tears to Dickens's eyes when he discovered it in print in The Monthly Magazine.",
+          "text": "[A]",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Soon, his popular sketches were succeeded by a proposal from publishers Chapman and Hall to write commentary for sporting plates.",
+          "text": "[B]",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "After a series of successful sketches, the young journalist embarked on his first full-length serialized novel, Oliver Twist.",
+          "text": "[C]",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "With the astronomical success of The Pickwick Papers, Dickens was catapulted into literary superstardom across Britain and America.",
+          "text": "[D]",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Charles Dickens was born in Landport, Hampshire, during the rapid urbanization of the British industrial revolution.",
+          "text": "[E]",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "His father's chronic financial mismanagement led to the family being imprisoned in Marshalsea debtor's prison, traumatizing young Charles.",
+          "text": "[F]",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Dickens's early hardships working in a blacking warehouse deeply shaped his lifelong social consciousness and empathetic literary vision.",
+          "text": "[G]",
           "value": "G"
         }
       ],
       "correct_answer": "C",
-      "explanation": "44.本题考核的知识点是\n\n：上下文逻辑衔接\n\n【选项推测】已经给定位置的【B】段首句指出“《匹克威克外传》获得巨大成功，在全国掀起了，匹克\n\n威客热'”，由此推测上文必定介绍该部小说的创作或出版过程。\n\n【答案敲定】由【路标词解析】可知，【C】为本题备选项。\n\n【C】段以大篇幅介绍狄更斯与画家西摩的合作经历，之后点明两人合作故事为《匹克威克俱乐部遗\n\n稿》，即《匹克威克外传》，段末补充该故事先以月刊连载、后集结成书，可总结本段主要介绍该部小说的\n\n创作和出版过程，与【B】 “该小说出版后读者反响强烈、大获成功”前后衔接顺畅，故敲定【C】正确。",
+      "explanation": "［考点提炼］上下文逻辑衔接\n［选项推测］已经给定位置的［B］段首句指出“《匹克威克外传》获得巨大成功，在全国掀起了‘匹克威克热’”，由此推测上文必定介绍该部小说的创作或出版过程。\n［答案敲定］［C］段以大篇幅介绍狄更斯与画家西摩的合作经历，之后点明两人合作故事为《匹克威克俱乐部遗稿》，即《匹克威克外传》，段末补充该故事先以月刊连载、后集结成书，可总结本段主要介绍该部小说的创作和出版过程，与［B］“该小说出版后读者反响强烈、大获成功”前后衔接顺畅，故敲定［C］正确。",
       "points": 2,
       "sort_order": 44,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "316b16fe-77de-5613-a670-cbc4947b12ef",
@@ -1690,45 +1828,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The first published sketch, 'A Dinner at Poplar Walk' brought tears to Dickens's eyes when he discovered it in print in The Monthly Magazine.",
+          "text": "[A]",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Soon, his popular sketches were succeeded by a proposal from publishers Chapman and Hall to write commentary for sporting plates.",
+          "text": "[B]",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "After a series of successful sketches, the young journalist embarked on his first full-length serialized novel, Oliver Twist.",
+          "text": "[C]",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "With the astronomical success of The Pickwick Papers, Dickens was catapulted into literary superstardom across Britain and America.",
+          "text": "[D]",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Charles Dickens was born in Landport, Hampshire, during the rapid urbanization of the British industrial revolution.",
+          "text": "[E]",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "His father's chronic financial mismanagement led to the family being imprisoned in Marshalsea debtor's prison, traumatizing young Charles.",
+          "text": "[F]",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Dickens's early hardships working in a blacking warehouse deeply shaped his lifelong social consciousness and empathetic literary vision.",
+          "text": "[G]",
           "value": "G"
         }
       ],
       "correct_answer": "G",
-      "explanation": "45.本题考核的知识点是\n\n：上下文逻辑衔接+末段的作用\n\n【选项推测】已经确定位置的[B]指出，狄更斯的第一部小说大获成功，结合人物传记的行文顺序，\n\n后文很可能介绍他后续发表的作品及影响等。\n\n【答案敲定】由【路标词解析】可知，[G]为本题备选项。\n\n[G]首句时间线索词After Pickwick(继《匹克威客外传》之后)表明本段按时间顺序，继续说明狄更\n\n斯的后续创作，指出他后续作品风格阴郁，并以《雾都孤儿》和《尼古拉斯•尼克贝》来例证说明，与上文\n\n[B]衔接顺畅；另外，[G]段末句在列举狄更斯几部重要小说之后，再次肯定评价狄更斯的崇高文学地\n\n位，与首段“总评狄更斯的文学成就”相照应，全文总体形成“总一分— -总”的结构，逻辑合理。\n\n至此，全文顺序确定为]D]—[A]—[C]—[B]—[G]。\n\n(2)通读检验。在上面排序的基础之上，再通读一遍，检查思路是否清晰连贯，结构是否相对完整.\n\n段间层次关系是否恰当。在整体审视后，方最终确定。\n\n知识补充",
+      "explanation": "［考点提炼］上下文逻辑衔接+末段的作用\n［选项推测］已经确定位置的［B］段指出，狄更斯的第一部小说大获成功，结合人物传记的行文顺序，后文很可能介绍他后续发表的作品及影响等。\n［答案敲定］［G］段首句时间线索词After Pickwick（继《匹克威克外传》之后）表明本段按时间顺序，继续说明狄更斯的后续创作，指出他后续作品风格阴郁，并以《雾都孤儿》和《尼古拉斯·尼克贝》来例证说明，与上文［B］衔接顺畅；另外，［G］段末句在列举狄更斯几部重要小说之后，再次肯定评价狄更斯的崇高文学地位，与首段“总评狄更斯的文学成就”相照应，全文形成完整的总—分—总结构，故敲定［G］正确。",
       "points": 2,
       "sort_order": 45,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
   "exportedAt": "2026-10-15T11:40:21.955Z"
