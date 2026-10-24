@@ -165,6 +165,7 @@ def main():
     round65_anomalies = []
     round66_anomalies = []
     round67_anomalies = []
+    round68_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1239,6 +1240,130 @@ def main():
                     act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
                     if act_ans != exp_ans:
                         round67_anomalies.append((f'2017_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2018 and cat == 'ky1':
+            if title != '2018年全国硕士研究生招生考试英语（一）真题':
+                round68_anomalies.append(('2018_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round68_anomalies.append(('2018_ky1_total_score', data['exam'].get('total_score')))
+
+            p_list = data.get("passages", [])
+            if len(p_list) != 6:
+                round68_anomalies.append(('2018_ky1_passages_count', len(p_list)))
+            else:
+                # Cloze
+                cloze = p_list[0]
+                c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round68_anomalies.append(('2018_ky1_cloze_paras', len(c_paras)))
+                if "[1] for" in cloze.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_cloze_leaked_ans', 'present'))
+                if not cloze.get("content", "").startswith("Trust is a tricky business."):
+                    round68_anomalies.append(('2018_ky1_cloze_start', cloze.get("content", "")[:50]))
+
+                # Text 1 (Automation & Middle Class)
+                t1 = p_list[1]
+                t1_paras = [p for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round68_anomalies.append(('2018_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("Among the annoying challenges facing the middle class"):
+                    round68_anomalies.append(('2018_ky1_t1_start', t1.get("content", "")[:50]))
+                if re.search(r"\bon't dismiss\b", t1.get("content", "")) or "\\ The first step" in t1.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_t1_broken_text', 'present'))
+                if "The Second Machine Age" not in t1.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_t1_second_machine_age', 'missing'))
+
+                # Text 2 (Social Media & Media Literacy)
+                t2 = p_list[2]
+                t2_paras = [p for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 6:
+                    round68_anomalies.append(('2018_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("A new survey by Harvard University finds"):
+                    round68_anomalies.append(('2018_ky1_t2_start', t2.get("content", "")[:50]))
+                if re.search(r"\bniversity of Oxford\b", t2.get("content", "")) or re.search(r"\bnited States\b", t2.get("content", "")):
+                    round68_anomalies.append(('2018_ky1_t2_broken_words', 'present'))
+                if ". The phrase “beef up”" in t2.get("content", "") or ". The Barna survey found" in t2.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_t2_leaked_stems', 'present'))
+
+                # Text 3 (NHS & DeepMind)
+                t3 = p_list[3]
+                t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 4:
+                    round68_anomalies.append(('2018_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("Any fair-minded assessment of the dangers of the deal between Britain's National Health Service (NHS) and DeepMind"):
+                    round68_anomalies.append(('2018_ky1_t3_start', t3.get("content", "")[:60]))
+                if "Social media allows users" in t3.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_t3_cross_contamination', 'present'))
+                if "digital feudalism" not in t3.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_t3_digital_feudalism', 'missing'))
+
+                # Text 4 (USPS Reform)
+                t4 = p_list[4]
+                t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 4:
+                    round68_anomalies.append(('2018_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("The U. S. Postal Service (USPS) continues to bleed red ink."):
+                    round68_anomalies.append(('2018_ky1_t4_start', t4.get("content", "")[:60]))
+                if "unfunded liabilities" not in t4.get("content", "") or "Medicare" not in t4.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_t4_core_text', 'missing'))
+
+                # Part B (EEOB)
+                pb = p_list[5]
+                pb_paras = [p for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 7:
+                    round68_anomalies.append(('2018_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("[A] In December of 1869, Congress appointed a commission"):
+                    round68_anomalies.append(('2018_ky1_pb_start', pb.get("content", "")[:50]))
+                if "Directions:" in pb.get("content", "") or "[41] -> [C]" in pb.get("content", ""):
+                    round68_anomalies.append(('2018_ky1_pb_directions_leak', 'present'))
+
+            # Questions verification
+            q_list = data.get("questions", [])
+            if len(q_list) != 45:
+                round68_anomalies.append(('2018_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('question_number') != i or q.get('sort_order') != i:
+                        round68_anomalies.append((f'2018_ky1_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round68_anomalies.append((f'2018_ky1_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round68_anomalies.append((f'2018_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    opts = q.get('options', [])
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        if opt_t in ['[A]', '[B]', '[C]', '[D]', 'A', 'B', 'C', 'D', ''] or len(opt_t.strip()) == 0:
+                            round68_anomalies.append((f'2018_ky1_q{i}_placeholder_opt', opt_k))
+                        if 41 <= i <= 45 and 'playhouse' in opt_t.lower():
+                            round68_anomalies.append((f'2018_ky1_q{i}_hallucinated_part_b', opt_k))
+                    
+                    exp = q.get('explanation') or q.get('analysis') or ''
+                    if len(exp.strip()) < 15:
+                        round68_anomalies.append((f'2018_ky1_q{i}_explanation', 'insufficient'))
+
+                # Official answers verification
+                official_answers_2018_ky1 = {
+                    1: 'C', 2: 'A', 3: 'D', 4: 'B', 5: 'D',
+                    6: 'B', 7: 'C', 8: 'D', 9: 'B', 10: 'A',
+                    11: 'B', 12: 'B', 13: 'A', 14: 'C', 15: 'D',
+                    16: 'A', 17: 'C', 18: 'B', 19: 'A', 20: 'C',
+                    21: 'D', 22: 'C', 23: 'A', 24: 'D', 25: 'B',
+                    26: 'D', 27: 'A', 28: 'B', 29: 'C', 30: 'A',
+                    31: 'B', 32: 'C', 33: 'D', 34: 'D', 35: 'B',
+                    36: 'B', 37: 'A', 38: 'A', 39: 'C', 40: 'D',
+                    41: 'E', 42: 'G', 43: 'A', 44: 'B', 45: 'D'
+                }
+                for q_idx, exp_ans in official_answers_2018_ky1.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round68_anomalies.append((f'2018_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -3834,6 +3959,7 @@ def main():
     results["Assertion 87: 2016 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并补齐年轻企业关联句、Text 1 恢复6段修复101班级与shelf life、Text 2 恢复4段补齐栖息地补偿金论述与Lininger引述、Text 3 恢复4段补全Eberle空瓶子比喻与灵魂时间、Text 4 恢复6段理顺里程碑与Schneider失落求职句、Part B 恢复7段切除乱码-ns与补齐情绪宣泄句、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round65_anomalies) == 0)
     results["Assertion 88: 2017 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 3 与 Text 4 历史颠倒互换彻底归位纠偏、Text 2 补齐失落利留卡拉尼女王首段恢复6段、完型恢复4段并修复yes与碎词、Text 3 剔除词数泄露恢复7段、Text 4 恢复8段独立设问、Part B 剥离指导语与连线图恢复7段[A]-[G]、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round66_anomalies) == 0)
     results["Assertion 89: 2017 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型治愈单一大段黏连恢复4段348词并切除reservedfor、Text 1 恢复4段治愈toprovidethe与Baddeley原句、Text 2 恢复4段治愈therest ofthe并补全静止脸实验与Tronick论述、Text 3 恢复4段并理顺大一新生适应与转专业省钱逻辑、Text 4 恢复10段并纠偏鲍尔奇火灾哲学、Part B 恢复6段理顺五位制造业代表访谈、全卷45题question_number彻底自洽赋值1..45、Q21/22/25/26/28/29/30/32/33/34/36/38/39 严重乱序选项彻底归位、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round67_anomalies) == 0)
+    results["Assertion 90: 2018 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并切除[1] for答案泄露、Text 1 恢复7段治愈on't dismiss与反斜杠、Text 2 恢复6段切除niversity/nited碎词与beef up/Barna题干倒灌、Text 3 彻底切除Text 2跨篇倒灌段落并完整还原NHS/DeepMind四段论、Text 4 恢复4段理顺USPS赤字与改革、Part B 恢复7段[A]-[G]彻底剔除莎士比亚剧场串题伪选项、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round68_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -3981,6 +4107,8 @@ def main():
             print(f"Round 66 anomalies ({len(round66_anomalies)}):", round66_anomalies[:10])
         if round67_anomalies:
             print(f"Round 67 anomalies ({len(round67_anomalies)}):", round67_anomalies[:10])
+        if round68_anomalies:
+            print(f"Round 68 anomalies ({len(round68_anomalies)}):", round68_anomalies[:10])
         if round58_anomalies:
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:

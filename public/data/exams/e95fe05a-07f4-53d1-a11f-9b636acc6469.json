@@ -2,12 +2,12 @@
   "exam": {
     "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
     "category_id": "ky1",
-    "title": "2018年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2018年全国硕士研究生招生考试英语（一）真题",
     "year": 2018,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Trust is a tricky business. On the one hand, it's a necessary condition [1] for many worthwhile things: child care, friendships, etc. On the other hand, putting your [2] in the wrong place often carries a high [3]. [4] Why do we trust at all? Well, because it feels good. [5] people place their trust in an individual or an institution, their brains release oxytocin, a hormone that [6] pleasurable feelings and triggers 0 the herding instinct' that prompts humans to [7] with one another. Scientists have found that exposure [8] this hormone puts us in a trusting [9]: In a Swiss study, researchers sprayed oxytocin into the noses of half the subjects; those subjects were ready to lend significantly higher amounts of money to strangers than were their [10] who inhaled something else. thatthe herding instinct HI O [11] for us, we also have a sixth sense for dishonesty that may [12] us. A Canadian study found that children as young as 14 months can differentiate _ [13] _ a credible person and a dishonest one. Sixty toddlers were each [14] to an adult tester holding a plastic container. The tester would ask, \"What's in here?\" before looking into the container, smiling, and exclaiming, “Wow!\" Each subject was then invited to look [15]. 0 Half of them found a toy; the other half [16] the container was empty — and realized the tester had [17] them. JV O Among the children who had not been tricked, the majory were [18] to cooperate with the tester in learning a new skill, demonstrating that they trusted his leadership. [19], only five of the 30 children paired with the \" [20] \" tester participated in a follow-up activity.",
+      "content": "Trust is a tricky business. On the one hand, it's a necessary condition [1] many worthwhile things: child care, friendships, etc. On the other hand, putting your [2] in the wrong place often carries a high [3].\n\n[4], why do we trust at all? Well, because it feels good. [5] people place their trust in an individual or an institution, their brains release oxytocin, a hormone that [6] pleasurable feelings and triggers the herding instinct that prompts humans to [7] with one another. Scientists have found that exposure [8] this hormone puts us in a trusting [9]. In a Swiss study, researchers sprayed oxytocin into the noses of half the subjects; those subjects were ready to lend significantly higher amounts of money to strangers than were their [10] who inhaled something else.\n\n[11] for us, we also have a sixth sense for dishonesty that may [12] us. A Canadian study found that children as young as 14 months can differentiate [13] a credible person and a dishonest one. Sixty toddlers were each [14] to an adult tester holding a plastic container. The tester would ask, \"What's in here?\" before looking into the container, smiling, and exclaiming, \"Wow!\" Each subject was then invited to look [15]. Half of them found a toy; the other half [16] the container was empty — and realized the tester had [17] them.\n\nAmong the children who had not been tricked, the majority were [18] to cooperate with the tester in learning a new skill, demonstrating that they trusted his leadership. [19], only five of the 30 children paired with the \"[20]\" tester participated in a follow-up activity.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "Among the annoying challenges facing the middle class is one that will probably go unmentioned in the next presidential campaign: What happens when the robots come for their jobs?\n\non't dismiss \" that possibility entirely. About half of U. S. jobs are at high risk of being automated, according to a University of Oxford study, with the middle class disproportionately squeezed. Lower-income jobs like gardening or day care don't appeal to robots. But many middle-class occupations—trucking, financial advice, software engineering — have aroused their interest? or soon will. The rich own the robots, so they will be fine. dismiss that possibility entirelyo\n\nThis isn't to be alarmist. Optimists point out that technological upheaval has benefited workers in the past. The Industrial Revolution didn't go so well for Luddites whose jobs were displaced by mechanized'\" looms, but it eventually raised living standards and created more jobs than it destroyed. Likewise, automation should eventually boost productivity, stimulate demand by driving down prices, and free workers from hard, boring work. But in the medium term, middle-class workers may need a lot of help adjusting. |\n\n\\ The first step, as Erik Brynjolfsson and Andrew McAfee argue in The Second Machine Age, should be rethinking education and job training. Curriculums — less on memorizing facts and more on creativity and complex communication. V ocational schools should do a better job of fostering problem-solving skills and helping students work alongside robots. 0 Online education can supplement the traditional kind. It could make extra training and instruction affordable. Professionals trying to acquire new skills will be able to do so without going into debt.\n\nThe challenge of coping with automation underlines the need for the U. S. to revive its fading business dynamism: Starting new companies must be made easier. In previous eras' of drastic technological change, entrepreneurs smoothed the transition by dreaming up ways to combine labor and machines. The best uses of 3D printers and virtual reality haven't been invented yet. The U. S. needs the new companies that will invent them. $ dynamism: Starting new companies must be made easier. of coping with automation Starting new companies must be made easier\n\nFinally, because automation threatens to widen the gap between capital income and labor income, taxes and the safety net will have to be rethought. Taxes on low-wage labor need to be cut, and wage subsidies such\n\nas the earned income tax credit should be expanded: This would boost incomes, encourage work, reward companies for job creation, and reduce inequality.\n\nTechnology will improve society in ways big and small over the next few years, yet this will be little comfort to those who find their lives and careers upended by automation. Destroying the machines that are coming for our jobs would be nuts. But policies to help workers adapt will be indispensable.",
+      "content": "Among the annoying challenges facing the middle class is one that will probably go unmentioned in the next presidential campaign: What happens when the robots come for their jobs?\n\nDon't dismiss that possibility entirely. About half of U. S. jobs are at high risk of being automated, according to a University of Oxford study, with the middle class disproportionately squeezed. Lower-income jobs like gardening or day care don't appeal to robots. But many middle-class occupations — trucking, financial advice, software engineering — have aroused their interest, or soon will. The rich own the robots, so they will be fine.\n\nThis isn't to be alarmist. Optimists point out that technological upheaval has benefited workers in the past. The Industrial Revolution didn't go so well for Luddites whose jobs were displaced by mechanized looms, but it eventually raised living standards and created more jobs than it destroyed. Likewise, automation should eventually boost productivity, stimulate demand by driving down prices, and free workers from hard, boring work. But in the medium term, middle-class workers may need a lot of help adjusting.\n\nThe first step, as Erik Brynjolfsson and Andrew McAfee argue in The Second Machine Age, should be rethinking education and job training. Curriculums — from grammar school to college — should evolve to focus less on memorizing facts and more on creativity and complex communication. Vocational schools should do a better job of fostering problem-solving skills and helping students work alongside robots. Online education can supplement the traditional kind. It could make extra training and instruction affordable. Professionals trying to acquire new skills will be able to do so without going into debt.\n\nThe challenge of coping with automation underlines the need for the U. S. to revive its fading business dynamism: Starting new companies must be made easier. In previous eras of drastic technological change, entrepreneurs smoothed the transition by dreaming up ways to combine labor and machines. The best uses of 3D printers and virtual reality haven't been invented yet. The U. S. needs the new companies that will invent them.\n\nFinally, because automation threatens to widen the gap between capital income and labor income, taxes and the safety net will have to be rethought. Taxes on low-wage labor need to be cut, and wage subsidies such as the earned income tax credit should be expanded: This would boost incomes, encourage work, reward companies for job creation, and reduce inequality.\n\nTechnology will improve society in ways big and small over the next few years, yet this will be little comfort to those who find their lives and careers upended by automation. Destroying the machines that are coming for our jobs would be nuts. But policies to help workers adapt will be indispensable.",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "A new survey by Harvard University finds more than two-thirds of young Americans disapproveJ of President Trump's use of Twitter. The implication is that Millennials prefer news from the White House to be filtered through other sources, not a president's social media platform. \" disapprove of; prefer... not... o\n\nMost Americans rely on social media to check daily headlines. 0 Yet as distrust has risen toward all media, people may be starting to beef up their media literacy skills. Such a trend is badly needed. During the 2016 presidential campaign, nearly a quarter of web content shared by Twitter users in the politically critical state of Michigan was fake news, according to the\n\nniversity of Oxford. And a survey conducted for BuzzFeed News found 44 percent of Facebook users rarely or never trust news from the media giant.\n\n. The phrase “beef up” (Line 2, Para. 2) is closest in meaning to. ll Young people who are digital natives are indeed becoming more skillful at separating fact from fiction in cyberspace. A Knight Foundation focus-group survey of young people between ages 14 and 24 found they use u distributed trustto verify stories. They cross-check sources and prefer news from different perspectives — especially those that are open about any bias. \"Many young people assume a great deal of personal responsibility for educating themselves and actively seeking out opposing viewpoints,w the survey concluded. skillfulo\n\nSuch active research can have another effect. A 2014 survey conducted in Australia, Britain, and the\n\nnited States by the University of Wisconsin-Madison found that young people's reliance on social media led to greater political engagement.\n\nSocial media allows users to experience news events more intimately and immediately while also permitting them to re-share news as a projection of their values and interests. This forces users to be more conscious of their role in passing along information. A survey by Barna research group found the top reason given by Americans for the fake news phenomenon is **reader error,\" more so than made-up stories or factual mistakes in reporting. About a third say the problem of fake news lies in ** misinterpretation or exaggeration of actual news\" via social media. In other words, the choice to share news on social media may be the heart of the issue. \"This indicates there is a real personal responsibility in counteracting this problem,w says Roxanne Stone, editor in chief at Barna Group. intimately[1 role in passing along informationo\n\n. The Barna survey found that a main cause for the fake news problem is.\n\nSo when young people are critical of an over tweeting president, they reveal a mental discipline in thinking skills-and in their choices on when to share on social media.",
+      "content": "A new survey by Harvard University finds more than two-thirds of young Americans disapprove of President Trump's use of Twitter. The implication is that Millennials prefer news from the White House to be filtered through other sources, not a president's social media platform.\n\nMost Americans rely on social media to check daily headlines. Yet as distrust has risen toward all media, people may be starting to beef up their media literacy skills. Such a trend is badly needed. During the 2016 presidential campaign, nearly a quarter of web content shared by Twitter users in the politically critical state of Michigan was fake news, according to the University of Oxford. And a survey conducted for BuzzFeed News found 44 percent of Facebook users rarely or never trust news from the media giant.\n\nYoung people who are digital natives are indeed becoming more skillful at separating fact from fiction in cyberspace. A Knight Foundation focus-group survey of young people between ages 14 and 24 found they use \"distributed trust\" to verify stories. They cross-check sources and prefer news from different perspectives — especially those that are open about any bias. \"Many young people assume a great deal of personal responsibility for educating themselves and actively seeking out opposing viewpoints,\" the survey concluded.\n\nSuch active research can have another effect. A 2014 survey conducted in Australia, Britain, and the United States by the University of Wisconsin-Madison found that young people's reliance on social media led to greater political engagement.\n\nSocial media allows users to experience news events more intimately and immediately while also permitting them to re-share news as a projection of their values and interests. This forces users to be more conscious of their role in passing along information. A survey by Barna research group found the top reason given by Americans for the fake news phenomenon is \"reader error,\" more so than made-up stories or factual mistakes in reporting. About a third say the problem of fake news lies in \"misinterpretation or exaggeration of actual news\" via social media. In other words, the choice to share news on social media may be the heart of the issue. \"This indicates there is a real personal responsibility in counteracting this problem,\" says Roxanne Stone, editor in chief at Barna Group.\n\nSo when young people are critical of an over-tweeting president, they reveal a mental discipline in thinking skills — and in their choices on when to share on social media.",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "Social media allows users to experience news events more intimately and immediately while also permitting them to re-share news as a projection of their values and interests. This forces users to be more conscious of their role in passing along information. A survey by Barna research group found the top reason given by Americans for the fake news phenomenon is **reader error,\" more so than made-up stories or factual mistakes in reporting. About a third say the problem of fake news lies in ** misinterpretation or exaggeration of actual news\" via social media. In other words, the choice to share news on social media may be the heart of the issue. \"This indicates there is a real personal responsibility in counteracting this problem,w says Roxanne Stone, editor in chief at Barna Group. intimately[1 role in passing along informationo\n\n. The Barna survey found that a main cause for the fake news problem is.\n\nSo when young people are critical of an over tweeting president, they reveal a mental discipline in thinking skills-and in their choices on when to share on social media.\n\nAny fair-minded assessment of the dangers of the deal between Britain National Health Service (NHS) and DeepMind must start by acknowledging that both sides mean well. DeepMind is one of the leading artificial intelligence (AI) companies in the world. The potential of this work applied to healthcare is very great, but it could also lead to further concentration of power in the tech giants. O It is against that background that the information commissioner, Elizabeth Denham, has issued her damning verdict against the Royal Free hospital trust under the NHS, which handed over to DeepMind the records of 1. 6 million patients in 2015 on the basis of a vague agreement which took far too little account of the patients, rights and their expectations of privacy. their expectations of privacy.\n\neepMind has almost apologized. The NHS trust has mended its ways. Further arrangements— and there may be many — between the NHS and DeepMind will be carefully scrutinised to ensure that all necessary permissions have been asked of patients and all unnecessary data has been cleaned. There are lessons about informed patient consent to learn. But privacy is not the only angle in this case and not even the most important. Ms Denham chose to concentrate the blame on the NHS trust, since under existing law it \"controlled” the data and DeepMind merely aprocessed,f it. But this distinction misses the point that it is processing and aggregation, not the mere possession of bits, that gives the data value. been cleaned. -and there may be many -\n\nThe great question is who should benefit from the analysis of all the data that our lives now generate. Privacy law builds on the concept of damage to an individual from identifiable knowledge about them. That misses the way the surveillance economy works. The data of an individual there gains its value only when it is compared with the data of countless millions more.",
+      "content": "Any fair-minded assessment of the dangers of the deal between Britain's National Health Service (NHS) and DeepMind must start by acknowledging that both sides mean well. DeepMind is one of the leading artificial intelligence (AI) companies in the world. The potential of this work applied to healthcare is very great, but it could also lead to further concentration of power in the tech giants. It is against that background that the information commissioner, Elizabeth Denham, has issued her damning verdict against the Royal Free hospital trust under the NHS, which handed over to DeepMind the records of 1.6 million patients in 2015 on the basis of a vague agreement which took far too little account of the patients' rights and their expectations of privacy.\n\nDeepMind has almost apologized. The NHS trust has mended its ways. Further arrangements — and there may be many — between the NHS and DeepMind will be carefully scrutinised to ensure that all necessary permissions have been asked of patients and all unnecessary data has been cleaned. There are lessons about informed patient consent to learn. But privacy is not the only angle in this case and not even the most important. Ms Denham chose to concentrate the blame on the NHS trust, since under existing law it \"controlled\" the data and DeepMind merely \"processed\" it. But this distinction misses the point that it is processing and aggregation, not the mere possession of bits, that gives the data value.\n\nThe great question is who should benefit from the analysis of all the data that our lives now generate. Privacy law builds on the concept of damage to an individual from identifiable knowledge about them. That misses the way the surveillance economy works. The data of an individual there gains its value only when it is compared with the data of countless millions more.\n\nThe use of privacy law to curb the tech giants in this instance feels slightly maladapted. This practice does not address the real worry. It is not enough to say that the algorithms DeepMind develops will benefit patients and save lives. What matters is that they will belong to a private monopoly which developed them using public resources. If software promises to save lives on the scale that drugs now can, big data may be expected to behave as a big pharma has done. We are still at the beginning of this revolution and small choices now may turn out to have gigantic consequences later. A long struggle will be needed to avoid a future of digital feudalism. Ms Denham's report is a welcome start.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "The U. S. Postal Service (USPS) continues to bleed red ink. It reported a net loss of $5.6 billion for fiscal 2016, the 10th straight year its expenses have exceeded revenue. Meanwhile, it has more than $120 billion in unfunded liabilities, mostly for employee health and retirement costs. There are many reasons this formerly stable federal institution finds itself at the brink of bankruptcy. Fundamentally, the USPS is in a historic squeeze between technological change that has permanently decreased demand for its bread-and-butter product, first-class mail, and a regulatory structure that denies management the flexibility to adjust its operations to the new reality.\n\nAnd interest groups ranging from postal unions to greeting-card makers exert self-interested pressure on the USPS's ultimate overseer — Congress — insisting that whatever else happens to the Postal Service, aspects of the status quo they depend on get protected. This is why repeated attempts at reform legislation have failed in recent years, leaving the Postal Service unable to pay its bills except by deferring vital modernization.\n\nNow comes word that everyone involved — the Postal Service, Democrats, Republicans, the unions and the system's heaviest users — has finally agreed on a plan to fix the system. Legislation is moving through the House that would save the USPS an estimated $2.6 billion over five years, which could help fund new vehicles, among other survival measures. Most importantly, the bill would largely shift the cost of retiree health care into Medicare, thus addressing a long-standing complaint by the USPS and its unions.\n\nIf it clears the House, this measure would still have to get through the Senate — where someone is bound to point out that it amounts to the bare, bare minimum necessary to keep the Postal Service afloat, not comprehensive reform. There's no change to collective bargaining at the USPS, a major omission considering that personnel accounts for 80 percent of the agency's costs. Also missing is any discussion of eliminating Saturday letter delivery. That common-sense change enjoys wide public support and would save the USPS $2 billion per year. But postal special-interest groups seem to have killed it, at least in the House. The emerging consensus around the bill is a sign that legislators are getting frightened about a politically embarrassing short-term collapse at the USPS. It is not, however, a sign that they're getting serious about transforming the postal system for the 21st century.",
+      "content": "The U. S. Postal Service (USPS) continues to bleed red ink. It reported a net loss of $5.6 billion for fiscal 2016, the 10th straight year its expenses have exceeded revenue. Meanwhile, it has more than $120 billion in unfunded liabilities, mostly for employee health and retirement costs. There are many reasons this formerly stable federal institution finds itself at the brink of bankruptcy. Fundamentally, the USPS is in a historic squeeze between technological change that has permanently decreased demand for its bread-and-butter product, first-class mail, and a regulatory structure that denies management the flexibility to adjust its operations to the new reality.\n\nAnd interest groups ranging from postal unions to greeting-card makers exert self-interested pressure on the USPS's ultimate overseer — Congress — insisting that whatever else happens to the Postal Service, aspects of the status quo they depend on get protected. This is why repeated attempts at reform legislation have failed in recent years, leaving the Postal Service unable to pay its bills except by deferring vital modernization.\n\nNow comes word that everyone involved — Democrats, Republicans, the Postal Service, the unions and the system's heaviest users — has finally agreed on a plan to fix the system. Legislation is moving through the House that would save USPS an estimated $28.6 billion over five years, which could help pay for new vehicles, among other survival measures. Most of the money would come from a penny-per-letter permanent rate increase and from shifting postal retirees into Medicare. The latter step would largely offset the financial burden of annually pre-funding retiree health care, thus addressing a long-standing complaint by the USPS and its unions.\n\nIf it clears the House, this measure would still have to get through the Senate — where someone is bound to point out that it amounts to the bare, bare minimum necessary to keep the Postal Service afloat, not comprehensive reform. There's no change to collective bargaining at the USPS, a major omission considering that personnel accounts for 80 percent of the agency's costs. Also missing is any discussion of eliminating Saturday letter delivery. That common-sense change enjoys wide public support and would save the USPS $2 billion per year. But postal special-interest groups seem to have killed it, at least in the House. The emerging consensus around the bill is a sign that legislators are getting frightened about a politically embarrassing short-term collapse at the USPS. It is not, however, a sign that they're getting serious about transforming the postal service.",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions:\nThe following paragraphs are given in a wrong order. For Questions 41-45, you are required to reorganize these paragraphs into a coherent article by choosing from the list [A]-[G] to fill each numbered box. Paragraphs [C] and [F] have been placed for you. Mark your answers on the ANSWER SHEET.\n\n[41] -> [C] -> [42] -> [43] -> [F] -> [44] -> [45]\n\n[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building. The commission was also to consider possible arrangements for the War and Navy Departments. To the horror of some who expected a Greek Revival twin of the Treasury Building to be erected on the other side of the White House, the elaborate French Second Empire style design by Alfred Mullett was selected, and construction of a building to house all three departments began in June of 1871.\n\n[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876), Diplomatic Reception Room, and Secretary's office decorated with carved wood, Oriental rugs, and stenciled wall patterns. The Navy Department moved into the east wing in 1879, where elaborate wall and ceiling stenciling and marquetry floors decorated the office of the Secretary.\n\n[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy in the last quarter of the nineteenth century and the first quarter of the twentieth century — the period when the United States emerged as an international power. The building has housed some of the nation's most significant diplomats and politicians and has been the scene of many historic events.\n\n[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls. Theodore and Franklin D. Roosevelt, William Howard Taft, Dwight D. Eisenhower, Lyndon B. Johnson, Gerald Ford, and George H. W. Bush all had offices in this building before becoming president. It has housed 16 Secretaries of the Navy, 21 Secretaries of War, and 24 Secretaries of State. Winston Churchill once walked its corridors, and Japanese emissaries met here with Secretary of State Cordell Hull after the bombing of Pearl Harbor.\n\n[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and architectural heritage of the United States. Designed by Supervising Architect of the Treasury Alfred B. Mullett, this massive French Second Empire style building was originally erected between 1871 and 1888 to house the growing staffs of the State, War, and Navy Departments.\n\n[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington, with nearly 2 miles of black and white tiled corridors, sweeping cantilevered granite staircases with ornate bronze balusters, and nearly 500 rooms.\n\n[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820. A series of fires (including those set by the British in 1814) and overcrowded conditions led to the construction of the existing Treasury Building. In 1866, the construction of the North Wing of the Treasury Building necessitated the demolition of the State Department building.",
+      "content": "[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building. The commission was also to consider possible arrangements for the War and Navy Departments. To the horror of some who expected a Greek Revival twin of the Treasury Building to be erected on the other side of the White House, the elaborate French Second Empire style design by Alfred Mullett was selected, and construction of the State Department began in June of 1871.\n\n[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876), Diplomatic Reception Room, and Secretary's office decorated with carved wood, Oriental rugs, and stenciled wall patterns. The Navy Department moved into the east wing in 1879, where elaborate wall and ceiling stenciling and thoughtful design features were also incorporated, including the great floor-to-ceiling skylight over the central stairwell and masonry fireplace mantels.\n\n[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy in the last quarter of the nineteenth century and the first quarter of the twentieth century — the period when the United States emerged as an international power. The building has housed some of the nation's most important diplomatic agreements, and many memorable events have taken place within its walls.\n\n[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls. Theodore and Franklin D. Roosevelt, William Howard Taft, Dwight D. Eisenhower, Lyndon B. Johnson, Gerald Ford, and George H. W. Bush all had offices in this building before becoming president. It has housed 16 Secretaries of the Navy, 21 Secretaries of War, and 24 Secretaries of State. Winston Churchill once walked its corridors and Japanese emissaries met here with Secretary of State Cordell Hull after the bombing of Pearl Harbor.\n\n[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States. Designed by Supervising Architect of the Treasury, Alfred B. Mullett, it was built from 1871 to 1888 to house the growing staffs of the State, War, and Navy Departments, and is considered one of the best examples of French Second Empire architecture in the country.\n\n[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington, with nearly 2 miles of black and white tiled corridors. Almost all of the interior detail is of cast iron or plaster; the use of wood was minimized to insure fire safety. Eight monumental curving staircases of granite with over 4,000 individually cast bronze balusters are capped by four skylight domes and two stained glass rotundas.\n\n[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820. A series of fires (including those set by the British in 1814) and overcrowded conditions led to the construction of the existing Treasury Building. In 1866, the construction of the North Wing of the Treasury Building necessitated the demolition of the State Department building.",
       "sort_order": 6
     }
   ],
@@ -113,7 +113,10 @@
       "explanation": "\n1. [A] on对... ；关于 [B] like 像;类似 [C] for 对.... （来说） [D] from 自，从\n[考点提炼]句内语义+介词用法。\n[解题思路]it回指首句主题词Trust（信任），空格前后信息分别为a necessary conditionC必要条件） \n和many worthwhile things...（儿童看护、友谊等有价值之事），故文意只能是：要想（为了）实现这些有价 \n值的事，信任是一项前提条件。空格介词一方面要“明确前提的涉及对象（对谁来说是必要条件）”，另一 \n方面还应体现\"（为达成某事的）目的性”,for既能“引出陈述/问题的相关对象（=concerning）”，还有“为 \n了（某目的）”的含义，因此[C]正确，a condition for/of sth为常见搭配，表示“某事的先决条件”。\n[错项排除][A] on干扰点有二:一、表“关于（某特定内容）”时,on之后是对其前内容的“范围、内容 \n等的具体说明\"，如some books on India（有关印度的一些书）；二、表\"对 造成影响/和 有关\"时， \non之前的名词实际上包含动作意味，其后内容是该动作的承受者，如new restrictions on the sales of \nweapons（武器买卖的新限制）。[B] like作介词只有“类比”和“举例”两种功能；[D] from表示“来源或出 \n处”;均与“某事以……为前提条件”的逻辑相去甚远。\n\n【选项释义与词汇辨析】\n[A] on: 对... ；关于\n[B] like: 像;类似\n[C] for: 对.... （来说）\n[D] from: 自，从",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "f8b3104e-12ed-5f5e-9eb4-241134bee024",
@@ -148,7 +151,10 @@
       "explanation": "2. [A] faith信任；信心 \n[B] concern担心，关切；关怀，关爱\nEC] attention注意，专心；关心，关注 \n[D] interest爱好；兴趣，关注\n[考点提炼]名词辨析。\n[解题思路]由逻辑关联词On the one hand. . . On the other hand...（用于\"引出两个相对立的观点、 \n事实等”）可知，②③句是对首句“信任是一件玄妙的事”的正反两方面说明，已知②句“信任是许多有价 \n值之事的前提”在说明信任好的一面，③句“将______放在错误的地方通常……”应该是解释“信任的不 \n\n利一面”,所以空格词也应表示“信任”的语义，[A] faith是对trust的同义替换，符合文意。\n[错项排除]干扰项“担心、关怀、关注、兴趣”等内容都属于人与人之间的情感联系，与“信任”有一定 \n关联，但并不能简单等同于“信任”。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "bdf86abd-60c4-5513-bd19-16db915ac929",
@@ -183,7 +189,10 @@
       "explanation": "3. [A] benefit好处[B] debt债务；恩情；影响[C] hope希望；期望[D] price价格；代价\n[考点提炼]上下文语义+名词辨析。\n[解题思路]由上题分析结合句中in the wrong place可知，③句解释的应该是“信任的不利一面”， \n故carries a high________应该表示\"信任可能的负面后果/影响\"，carry a high price表不\"承受巨大的代\n价/损失\"，[D] price符合文意。\n[错项排除][A] benefit与[C] hope都可以由high修饰，表示“很大的好处/希望”，但两者为正向语 \n义，与文中“错置信任的负面后果”矛盾。[B] debt利用“信任不当会让人负债累累”的语义干扰，此处 \n“债”主要有两层内涵：金钱方面以及人情方面，而“错置信任”时受伤者是自己，故不会欠下人情债；把这 \n种负面影响归结于金钱方面，又过于细化绝对，忽略了其他形式的代价。\n•",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "1991674f-e361-5835-a8e3-8efc1facd673",
@@ -218,7 +227,10 @@
       "explanation": "4. [A] Therefore因此 [B] Then那么，既然如此 [C] Instead相反；而[D] Again又；再说 \n[考点提炼]上下文语义逻辑。\n[解题思路]上段末指出“信任不当的弊端”，本段空格后why do we trust at all提示前后逻辑为：既 \n然信任有巨大的潜在风险，那人们为何还彼此信任。Then除表示时间先后以外，还有if that is the \n\nsituation既然那样、那样的话”的逻辑内涵，[B]正确。\n[错项排除][A] Therefore引出前述内容的逻辑结果;其引出的文章内容应是：（因而）我们应谨慎付出 \n自己的信任;而非发出“人们为何信任彼此”的疑问。[C] Instead用于表示“（没有做A,）而是做了 B”,[D] \nAgain用于给出能够解释或补充前述内容的事实或观点，但上下文不存在“取舍”或“补充说明”逻辑。\n\n【选项释义与词汇辨析】\n[A] Therefore: 因此\n[B] Then: 那么，既然如此\n[C] Instead: 相反；而\n[D] Again: 又；再说",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "8ecc3999-82a4-5ad7-99fe-27df1f8d8687",
@@ -253,7 +265,10 @@
       "explanation": "5. [A] Until直到... 为止 [B] Unless除非 [C] Although虽然；但是 [D] When在.... 情况下\n[考点提炼]句内语义逻辑。\n[解题思路]本题考查从句“人们寄予信任”与主句“大脑释放oxytocin”的逻辑关系。上文已知“人们信任他人是因为这让他们感觉很好（feels good）”，所以应先确认oxytocin是好是坏，同位语 a hormone that... pleasurable feelings 信息不足，结合第6题的四个选项大方向可知 oxytocin 与“愉悦感”是正向关系，所以空格句逻辑应该是：付出信任时，就会产生这种快乐荷尔蒙，[D] When 表示“当（某种条件出现）时会（产生某种状况）”，符合语义逻辑。\n[错项排除][A] Until 引出主句事件终止的时间，如：I waited until it got dark.（意即：天黑后我就没等了。），但“人们寄予信任后，大脑就不再释放快乐荷尔蒙”恰好与上文相悖。[B] Unless 在意义上相当于 if... not，如：I can't leave her unless I know she's all right.（意即：如果我知道她不顺利，我不会离开她。），但“如果人们不付出信任，大脑就会释放快乐荷尔蒙”也与文意相悖；[C] Although 表让步转折，而空格前后为顺承条件关系，故排除。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e428237e-b303-5dff-bb5c-caddc775858d",
@@ -288,7 +303,10 @@
       "explanation": "6. [A] selects选择，挑选 \n[B] produces引起，造成；产生\n[C] applies申请；应用；对... 适用 \n[D] maintains保持，维持\n[考点提炼]句内语义+动词辨析。\n[解题思路]由空格后 and 可知，______ pleasurable feelings（________ 愉悦感）与 triggers the herding\ninstinct（激发群居本能）为同向并列关系，表明这一荷尔蒙的积极作用，而“愉悦感”与“群居本能”性质相 \n同，同属感知意识类内容，故空格处应该与triggers对应，表示“激发，产生”等类似语义,[B] produces正确。\n[错项排除][A] selects利用“人会有各种情绪.oxytocin会挑选出愉悦的情绪将其展示出来”的语 \n义逻辑干扰，但显然“荷尔蒙”不可能主观思考并发出“挑选、精选”的动作。[C] applies -方面利用“使 \n……起作用”这层意义干扰，但此时与机械相关，如apply the brakesC踩刹车）；另一方面利用文中出现的 \nto制造apply sth to sth（把……运/应用于某特定情形中）这一固定搭配干扰，但与文中to搭配的动词为 \nprompts,而非applies,即文中根本不存在（apply sth） to sth这一部分，\"荷尔蒙运用愉悦感\"的说法逻辑 \n不完整。[D] maintains表示“维持现状、保持水平或速度”，但“维持愉悦感”表明“愉悦感”本就存在，与 \n“释放催产素（release.触发群居本能（trigger...）\"所含的“从无到有”的逻辑不符。\n\n【选项释义与词汇辨析】\n[A] selects: 选择，挑选\n[B] produces: 引起，造成；产生\n[C] applies: 申请；应用；对... 适用\n[D] maintains: 保持，维持",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "b571f26a-bcc0-5587-a213-087e8cfea4f6",
@@ -323,7 +341,10 @@
       "explanation": "7. [A] consult咨询，请教；商量 \n[B] compete竞争，争夺\n[C] connect连接；（融洽地）沟通，相处 \n[D] compare比较；与....类似\n[考点提炼]句内语义+动词辨析。\n[解题思路]空格句指出，群居本能促使人类______ 彼此。由关键词herding instinct可知，群居生活是\n人类的本能追求,所谓群居本能，自然是人们与生俱来想要与他人联系、沟通，再结合“人们往往愿意彼此 \n信任”的上下文语境，判断空格部分只能表示“群居本能促使人们和谐相处”的语义，[C] connect符合文意。\n[错项排除]“向他人咨询、与他人商议”属于社会学范畴下的行为，而“荷尔蒙所催生的人类原始本能 \n（instinct）\"属于生理学范畴,故排除[A] consult., [B] compete和[D] compare表示\"与他人相竞争/比较\"，它们 \n与“争夺/努力争上游、互相比较”的环境相关联，而与上下文“彼此信任、愉悦感、群居本能”无法构成统一的语 \n义场;不过[D] compare 还表亦\"与... 相似\"的含义，女U：This school compares with the best in the country.（这\n所学校可与全国最好的学校媲美。），但潜含“能力、水平相当”之意，仍然具有“竞争”的内在逻辑。\n\n【选项释义与词汇辨析】\n[A] consult: 咨询，请教；商量\n[B] compete: 竞争，争夺\n[C] connect: 连接；（融洽地）沟通，相处\n[D] compare: 比较；与....类似",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "39b95d9d-4154-51b2-85b2-8dcb41a07afb",
@@ -358,7 +379,10 @@
       "explanation": "8. [A] at在；朝；因为，由于 \n[B] by被，由；通过；经由\n[C] of......... 的 \n[D] to向；对于\n\n[考点提炼]固定搭配。\n[解题思路]由冒号后内容“研究人员将oxytocin喷进一半受试者的鼻子中”可知，受试者在研究中 \n处于这种荷尔蒙环境中，受到该荷尔蒙的作用/影响‘exposure to为固定搭配，表示“暴露于……环境，受 \n到……的影响”，故[D] to正确。\n[错项排除][A] at表方位、时间或引出原因，可首先排除。[B] by和[C] of两者区别在于，前者引 \n出动作的施动者或达成动作的方式，如to avoid chemical exposure by opting for formula（通过选择配方 \n奶粉来避免化学物质接触/影响），后者引出动作的主体，如the exposure of in£ormation（信息的披露）；文 \n中空格后宾语为“荷尔蒙”，既不是exposure的施动者，也不是其主体，故排除两项。\n\n【选项释义与词汇辨析】\n[A] at: 在；朝；因为，由于\n[B] by: 被，由；通过；经由\n[C] of.........: 的\n[D] to: 向；对于",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "31688c09-79e7-5dad-b213-ed8550d13e14",
@@ -393,7 +417,10 @@
       "explanation": "9. [A] context环境，背景；语境 \n[B] mood情绪；思想倾向；氛围\n[C] period时期；阶段 \n[D] circle圆圈；圈子\n[考点提炼]上下文语义+名词辨析。\n[解题思路]由上文③句“oxytocin能产生愉悦感”可知，文中主要论及该荷尔蒙对“情绪、思维”的影 \n响，同时，空格前关键词trusting（容易相信他人的）及冒号后实例（吸入oxytocin的人愿意借给陌生人的金 \n钱数额要更高）中ready to所表达的心理倾向性可知，空格处表示一种思维倾向性，[B] mood符合文意。\n[错项排除][A] context意为“（事情发生的）背景、环境（以更好理解事情）”，侧重外部环境，而非 \n人们的内部心境。[C] period和[D] circle分别利用“喷入荷尔蒙后，有一阵子会容易信任他人”和“把我 \n们置入一个思维圈内”的中文思维干扰，但冒号后内容并非“时间段”，其次put sb in. . . period也不合语 \n用逻辑;circle只能表示“（相同兴趣、职业等的人形成的）圈子”，同样无法表现内部心境。\n10, [A] counterparts 对应的人或物 \n[B] substitutes 替代者/品\n[C] colleagues同事，同僚 \n[D] supporters支持者，拥护者\n[考点提炼]句内语义+名词辨析。\n[解题思路]分号前为实验行为：研究人员将oxytocin喷进一半受试者的鼻腔中；分号后为结论：那 \n些（被喷入oxytocin的）受试者比起吸入其他东西的______ ，愿意借给陌生人更多的钱。很明显，their\n______ 应该指“同一实验中另一半施与条件不同的受试者”，[A] counterparts符合文意。\n[错项排除]根据文意可知，实验将受试者分为两部分，分别设定两种不同的条件后对其心态进行 \n比较，因此两部分人不会是“替代和被替代”或“支持与被支持”的关系，排除[B] substitutes和[D] \nsupporterso [C] colleagues表示\"（在同一个专业岗位的）一起共事的人\"，\n\n【选项释义与词汇辨析】\n[A] context: 环境，背景；语境\n[B] mood: 情绪；思想倾向；氛围\n[C] period: 时期；阶段\n[D] circle: 圆圈；圈子",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e65c96a3-2c63-50bf-8ad0-8ae3090ba20a",
@@ -428,7 +455,10 @@
       "explanation": "10. [A] counterparts 对应的人或物 \n[B] substitutes 替代者/品\n[C] colleagues同事，同僚 \n[D] supporters支持者，拥护者\n[考点提炼]句内语义+名词辨析。\n[解题思路]分号前为实验行为：研究人员将oxytocin喷进一半受试者的鼻腔中；分号后为结论：那 \n些（被喷入oxytocin的）受试者比起吸入其他东西的______ ，愿意借给陌生人更多的钱。很明显，their\n______ 应该指“同一实验中另一半施与条件不同的受试者”，[A] counterparts符合文意。\n[错项排除]根据文意可知，实验将受试者分为两部分，分别设定两种不同的条件后对其心态进行 \n比较，因此两部分人不会是“替代和被替代”或“支持与被支持”的关系，排除[B] substitutes和[D] \nsupporterso [C] colleagues表示\"（在同一个专业岗位的）一起共事的人\"，而文中为实验对象。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "8acf846a-8193-5153-bb74-b7e1b2ca9d49",
@@ -463,7 +493,10 @@
       "explanation": "11. [A] Funny有趣的；古怪的；难以解释的 \n[B] Lucky运气好的，幸运的\nEC] Odd古怪的，不同寻常的 \n[D] Ironic讽刺的；具有讽刺意味的\n[考点提炼]上下文语义逻辑+形容词辨析。\n[解题思路]空格上文指出oxytocin会让我们容易信任他人，而空格后内容“针对不可信行为的第六 \n感”应该是对我们有利的，故空格词应体现从上文的“暗藏危机”到本段“大可不必担心”的语义反转，同 \n时引出下文对这一乐观情况的详细说明,[B] Lucky符合文意。\n[错项排除][A] Funny和[C] Odd利用“人既具备信任本能，同时又具备不信任本能，这种情况很奇 \n怪，难以解释”这一语义干扰，但两词侧重强调“和惯常情况不同、怪异（unusual）M,更倾向于“感叹、疑问或 \n发表看法”，而非“试图解释或说明什么”，如It's funny that the kids are so quiet.（真怪，孩子们这么安静。）， \nodd还往往带有\"对情况不满\"的内涵，如It was an odd thing to say.（这话说得很奇怪。），因此两词与\"整段 \n均围绕该内容展开解释说明，并非单纯感叹,且并无不满”的语境不符。[D] ironic用于引出“可笑或古怪 \n的内容（amusing or odd）”,而“对不可信行为的第六感”并非作者反对的内容，不含讽刺意味。\n\n【选项释义与词汇辨析】\n[A] Funny: 有趣的；古怪的；难以解释的\n[B] Lucky: 运气好的，幸运的\n[D] Ironic: 讽刺的；具有讽刺意味的\n[C] Odd: 利用“人既具备信任本能，同时又具备不信任本能，这种情况很奇",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "017945e0-04b7-571f-ab88-143255b2b8b4",
@@ -498,7 +531,10 @@
       "explanation": "12. [A] monitor 监视；监听 \n[B] protect 保护，防护\n[C] surprise使惊奇，使诧异 \n[D] delight使愉快，使高兴\n[考点提炼]句内语义+上下文语义。\n[解题思路]已知“对不可信行为的第六感”对我们有利，下文T4个月大的孩童能区别……可信与 \n不可信之人”进一步印证该内容，再辅以上文“信任不当会让我们承受高昂代价”可推知，这种第六感应 \n该能保护我们免受危害，[B] protect符合文意。\n\n[错项排除][A] monitor意为“认真观察和检查某情况,监视”，但空格逻辑主语“第六感”属于正常感 \n官之外的一种直觉,并不能做出“监督”这一有意识的行为。[C] surprise干扰与上题[A] Funny.EC] Odd \n类似，单纯认为“我们拥有这种第六感”让人意外，却忽略上下文用意:虽然信任暗藏危机，但我们也拥有识 \n别可信VS不可信行为的天然机能。[D] delight根据上段“信任让我们感觉良好”设置相近语义干扰，但全 \n段并非分析我们对这种第六感“非常欣喜”的主观感受，而是侧重解释其对不良情况的积极防范作用。\n\n【选项释义与词汇辨析】\n[A] monitor: 监视；监听\n[B] protect: 保护，防护\n[C] surprise: 使惊奇，使诧异\n[D] delight: 使愉快，使高兴",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "aaff8951-1dd7-5800-bddf-b94d8d73f53a",
@@ -533,7 +569,10 @@
       "explanation": "13. [A] between 在... 中间 \n[B] within 在....之内\n[C] toward朝，向；接近 \n[D] over在....上面；超过\n[考点提炼]动词短语搭配。\n[解题思路]由空格前关键词differentiate（区分，区别）及空格后a credible person and a dishonest \none（可信与不可信的人）可知，文意意在说明孩童可以区别开这两类人‘differentiate between A and B为 \n固定搭配，表示“将A和B区分开来”，[A] between符合文意。\n[错项排除][B] within可以接sb表示\"在一群人里面（inside a group of people）\",同时sb必须为复 \n数形式，而 sb 在文中为 a credible person and a dishonest one。[C] toward 表7K\"朝向某人/物\",[D] over \n其后为sb时意为“超过某人”或“关于某人”，均不能与differentiate构成合理的语义逻辑。\n\n【选项释义与词汇辨析】\n[A] between: 在... 中间\n[B] within: 在....之内\n[C] toward: 朝，向；接近\n[D] over: 在....上面；超过",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "7490bbe4-77f1-5617-b084-65d4f45569f4",
@@ -568,7 +607,10 @@
       "explanation": "14. [A] transferred转移，调用；移交 \n[B] added添加；增加\n[C] introduced介绍，引见；引进 \n[D] entrusted委托（照料），交付（处理）\n[考点提炼]上下文语义+动词辨析。\n[解题思路]空格上文指出一项研究发现：14个月大的孩童就能区分可信与不可信之人。空格句具 \n体介绍研究过程，60个学步儿童在此之前应该从未与成人测试员有过接触，这样才不会代入已有的认 \n知，使实验结果失效。因而文意只能是:受试儿童被介绍给测试员认识，[C] introduced正确。\n[错项排除][A] transferred表示“转移（地方或感情）”或“移交权力/责任/控制权（给某人）”，但实 \n验并不涉及“位置/感情的转移或权力的移交”。[B] added常用于〜A to B（把A添加入B中）结构中， \n文中A=儿童，B=成人测试者，“将儿童加到测试员中”显然不会是实验内容。[D] entrusted利用与本 \n文主题词trust形似设置干扰，但“将孩童委托给成人测试员照料”脱离了实验的目的，即“测试孩童对于 \n不可信行为的第六感”。\n\n【选项释义与词汇辨析】\n[A] transferred: 转移，调用；移交\n[B] added: 添加；增加\n[C] introduced: 介绍，引见；引进\n[D] entrusted: 委托（照料），交付（处理）",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "5b829933-383d-5fb3-8152-0bbb2028c69f",
@@ -603,7 +645,10 @@
       "explanation": "15. [A] out 向外，往外 [B] back 向后 [C] around 围绕 [D] inside 往里\n[考点提炼]上下文语义。\n[解题思路]由空格上文④句What's in here（这里面是什么）可推知，测试员问的是“容器内部有什 \n么东西”,故受试者应该是往容器内部看，才能发现玩具或其他东西，[D] inside符合文意。\n[错项排除][A] （look） out表示“朝外看”或“注意，当心”；[B] （look） back表示“回顾，回头看”； \n:C] （look） around表示“环顾，四下察看”，三项均不符合实验的场景。\n\n【选项释义与词汇辨析】\n[A] out: 向外，往外\n[B] back: 向后\n[C] around: 围绕\n[D] inside: 往里",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "fad944ac-f005-52de-98b9-d1c755535c2b",
@@ -638,7 +683,10 @@
       "explanation": "16. [A] discovered 发现，发觉 \n[B] proved 证明，证实\n[C] insisted坚称，坚决认为 \n[D] remembered记得；想起，回忆起\n[考点提炼]句内语义逻辑。\n[解题思路]由空格句并列结构Half of them. . . the other half...可知，本句意在对比两组受试者的 \n不同情况，前半句指出“其中一半人发现了玩具”，由此推知空格所在半句应该说明另外一半人的发现， \n故空格处语义应该与found接近，[A] discovered符合文意。\n[错项排除][B] proved与[D] remembered言外之意是\"孩子们已经知道容器内并无东西\"，与\"他们事 \n先并不知晓容器内为何物”的文意相悖，同时也偏离实验目的。[C] insisted表示“坚决认为某事为真”，但 \n“坚决认为容器是空的”与上文“测试员朝容器里看同时惊呼”给受试者营造“容器内有东西”的氛围不符。\n\n【选项释义与词汇辨析】\n[A] discovered: 发现，发觉\n[B] proved: 证明，证实\n[C] insisted: 坚称，坚决认为\n[D] remembered: 记得；想起，回忆起",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "92cd42bd-0d60-5016-9d79-b9712c22ffbf",
@@ -673,7 +721,10 @@
       "explanation": "17. [A] betrayed辜负；背叛 \n[B] wronged不公正（不诚实）地对待，冤枉\n[C] fooled开玩笑，戏弄 \n[D] mocked嘲笑；使希望落空，欺骗\n[考点提炼]上下文语义+动词辨析。\n[解题思路]由上文“测试员朝容器内部看并惊呼一声一另一半受试者发现容器是空的”及下文 \n关键信息“没有被测试员欺骗的孩子（not been tricked）\"可推知，测试员是通过花招让孩子们相信容器内 \n有东西，而他们应该是意识到自己被测试员“欺骗、愚弄”了，[C] fooled与tricked语义接近，符合文意。\n\n[错项排除]其余三项均涉及“欺骗”之意，但语义色彩不同。[A] betrayed和[D] mocked分别利用 \n“让信任你的人受伤/失望”以及“使希望/预期落空”的含义干扰，但前者相对于“忠贞的信仰、坚决的信 \n念”而说，含有“端正的”批判意味，后者是“借助嘲讽受伤者的信任”来侧面批判犯事者，如He betrayed/ \nmocked my trust over and over again.（他一次又一次辜负了我的信任。betrayed 侧重\"他可恨\"，mocked \n侧重“我可悲”。）；实验中孩童们虽可能一开始倾向于相信测试员，但这种信任属于本能，并非“坚决的信 \n仰/信任”;所以两项均用词过大。[B] wronged表“欺骗”时，侧重表示“道德/法律方面的欺骗行径”，与 \n文中科学实验的背景不符。\n「•",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e7f81a88-df6c-522d-8a39-4d822473f9ae",
@@ -708,7 +759,10 @@
       "explanation": "18. [A] forced 勉强的；被迫的\n[B] willing 乐意的；心甘情愿的\n[C] hesitant 犹豫的；不情愿的\n[D] entitled 有权做……的，有资格的\n［考点提炼］句内语义+形容词辨析。\n［解题思路］空格后 demonstrating that they trusted his leadership 表明这些没有被欺骗过的孩子信任测试员的指挥，既然如此，他们肯定“乐意配合测试员的下一步行动”，［B］ willing 符合文意。\n［错项排除］［A］ forced 表示“违背个人意愿、被迫做某事”；［C］ hesitant 表示“迟疑不决的”，两项均与“信任测试员指挥”相悖；［D］ entitled 表示“被赋予法律/正式权利或资格”，文中实验为游戏性质，与权利无关。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "d5f26827-7590-58b8-a699-41ffce76cb58",
@@ -743,7 +797,10 @@
       "explanation": "19. [A] In contrast 相比之下 \n[B] As a result 作为结果；因此\n[C] On the whole 总体而言 \n[D] For instance 例如\n［考点提炼］上下文语义逻辑+介词短语辨析。\n［解题思路］上文“大部分没有被欺骗过的孩子乐意配合测试员”与空格句“30个孩子中只有5个参与了后续活动”存在明显语义对比（the majority vs only five），也与“两组孩子分别面对可信 vs 不可信行为，反应截然不同”的实验预期相符，［A］ In contrast 用于引出与前述内容完全不同的对照情形，符合文意。\n［错项排除］［B］ As a result 引出结果；［C］ On the whole 用于引出总体概括；［D］ For instance 用于引出事例；空格后为两组受试儿童的对比数据，故排除其他三项。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "8b384d23-6b19-5a36-978d-2bbf344a754e",
@@ -778,7 +835,10 @@
       "explanation": "20. [A] inflexible顽固的，僵化的\n\n[B] incapable无能力的；软弱的\n\n[C] unreliable不可靠的；不可信赖的\n\n[D] unsuitable不合适的；不适宜的\n\n[考点提炼]上下文语义+形容词辨析。\n\n[解题思路]空格处所述的30个孩子经历了“被骗”，与上句“未被欺骗过的孩子”为两组受试对象，\n\n再辅以后者“信任其测试员的指挥”可推知，与“被骗孩子”组对的测试员应该是“不可信、不可靠的”，同\n\n时也与上段②句内容“学步的儿童就能区分可信与不可信之人”吻合，[C] unreliable正确。\n\n[错项排除][A] inflexible表示“态度、计划等顽固的、僵化的”；[B] incapable表示“无能力做某事\n\n的”或“（某人）软弱、愚蠢的”；[D] unsuitable表示“对某人、目的或情形来说不合适的；不适宜的”；三项\n\n均脱离文中实验内容，偏离全文主旨。\n\n…",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "fb467114-5e67-56c5-95c3-8576073588d8",
@@ -811,9 +871,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第二段②句指出，美国的工作中约一半处于被自动化的高风险，中产阶级尤其不堪负担。④句进一步指出，许多中产职业已经引起、或很快会引起机器人的兴趣。可见，受自动化威胁最大的是中产阶级工人，［D］正确。\n\n［命题解密］正确项［D］ Middle-class workers 是对原文 the middle class,middle-class occupations 的 \n同义替换，是文中以 disproportionately squeezed. . . have aroused their interest, or soon will 指向的\"受自 \n动化威胁最大的群体”。\n［A］利用第一段the next presidential campaign暗示群体\"政治领袖\"设置干扰，但这并非\"自动化威 \n胁对象”，而是“应该关注自动化威胁的主体”。［B］对第二段③句反向干扰：将“低薪工作不能吸引机器 \n人/受到自动化威胁较低(don't appeal to robots)w改为与之相悖的\"受最大威胁\"。［C］对第二段⑤句反 \n向干扰:将“富人/机器人拥有者将会很好/不受威胁(will be fine)”改为与之完全相反的“受最大威胁”。\n［技巧总结］本题设问Who will be most threatened by automation?表明：这是典型的就\"文中分类 \n比较信息”设置的事实判断题。解题关键在于对所涉群体情形进行分类排序。具体来看，对第三段②③ \n④⑤句所述群体情形排序可得：富人很安全(The rich/robots owners. . . will be fine)-*低薪者受威胁但 \n较低(Lower-income jobs... don't appeal to robots )f 中产阶级受威胁最大(middle class/middle-class \noccupatio",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "4a82b552-70e8-5e7f-93f6-f539eb65fa0a",
@@ -846,9 +909,12 @@
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第三段①句作者指出，这（自动化对中产阶级工人的巨大威胁）并非危言耸听。⑤句提 \n出：在（自动化使工人受益之前的）中期阶段，中产阶级工人需要大量帮助以做出调整。可见，作者认为 \n自动化会引发诸多问题，［C］正确。\n［命题解密］正确项［C］为第三段①⑤句 This isn't to be alarmist. . . middle-class workers may need a \nlot of help adjusting 的言外之意。\n［A］将第三段①句“这/对自动化问题的担忧并非杞人忧天/而是有理有据（isn't to be alarmist）”改 \n为与之相悖的“没有根据的（in fact groundless） o ［B］将第三段②③④句整体含义“乐观主义者基于历史 \n情形，提出自动化最终会使工人受益”改为与之反的“几乎找不到依据（find little support）［D］对第三 \n段①⑤句推导过度：将“应帮助工人应对（adjusting）新技术产生的问题（言外之意：难以避免）”改为“新技 \n术的负面影响可以避免（avoided） o\n［技巧总结］本题针对“作者观点和人物观点交杂”的段落命题，要求从中",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "394f5646-0c9a-5ce6-bc17-84617d6641a1",
@@ -881,9 +947,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第四段①句指出，自动化时代应该反思教育。②句则指出，从小学到大学的所有课程都应该少强调事实记忆，多强调创新及复杂沟通能力。可见［A］正确。\n\n［命题解密］正确项［A］creative potential是对第四段②句creativity的同义改写。\n［E］对第四段①句job training断章取义、捏造出job-hunting skills,实际该词指“职业培训”，无关“求 \n职技能”。［C］利用人们所熟知的在线教育特征（第四段⑤⑥句也稍有暗示）捏造干扰“强调个人需求 \n（individual needs） ”，无法体现自动化时代教育的重点。［D］利用第四段③句helping students work \nalongside robots设置干扰，但这里指的是“人机合作”，与“合作精神（cooperative spirit）”有很大差异。\n［技巧总结］本题就“提出建议的段落（涉及众多对象）”考查作者主要观点。解题时可采取策略：首 \n先分清主次信息，概括主要内容，初步得到答案；随后借助针对问题进行检验（看能否形成“针对问 \n题—\n解决方案”的逻辑）。\n具体来看，首先借助段落的总分结构以及④句Online education can supplement the traditional kind,可知 \n“自动化时代教育的重点”主要体现在②③句所述传统教育的转变，尤其是②句所述普通教育重点的转变， \n随后可发现［A］体现②句核心内容,初步确定为正确项。最后检验发现，“强调创造潜能”恰能和针对问题 \n“自动化的挑战”匹配：以“人类所长”补“机器所短”,故正确无误。其他三项均不得要领，可排除。\nV O The challenge of coping with automation \nunderl",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "303f941c-4933-5de6-b3db-355cbaa81b87",
@@ -916,9 +985,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第六段①句指出，自动化很可能导致资本收入和劳动收入之间差距拉大，所以必须重新 \n考虑税收政策。②句进一步指出，应削减对低薪劳动的税收、扩大薪资补贴，以提高收入，鼓励工作，减 \n少不平等。概括可知，作者建议通过税收政策阻止收入差距扩大,［D］正确。\n［命题解密］正确项［D］是对第六段①句因果关系以及②句“行为一目的”关系的概括。正确项the \nincome gap 对应文中 the gap between capital income and labor incomeo\n［A］将第六段①句所述调整税收政策的目的“应对自动化造成的问题（because automation threatens \nto...）”改为“促进自动化的发展”。［E］将①句所述调整税收政策的目的“防止资本收入和劳动收入之 \n\n间的差距进一步扩大/提高劳动收入（the gap between capital income and labor income）n曲解为与之相反 \n的\"提高投资回报/资本收入（increasing the return on capital investment） o [C]捏造文中没有的信息 \nhostility,文中并未提及穷人和富人之间的敌视。\n[技巧总结]本题就“作者提出的方向性建议（be aimed at）”命题。考生解题时首先需要意识",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "0d7b16a9-741e-5ebd-9c6b-5aba4934625c",
@@ -951,9 +1023,12 @@
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］本文前三段论证展现问题--美国中产阶级面临自动化的巨大威胁。第四至六段则 \n从教育、经济、税收等多方面指出，应提供政策支持，助其平稳过渡。末段总结指出，帮助中产阶级适应 \n自动化的政策必不可少。可见［B］正确。\n［命题解密］正确项［B］体现文章“提出并论证问题—\n就问题解决提供多项建议”的整体结构。\n［A］错在作者只提到了“乐观主义者(Optimists)” 一方看法，并未介绍其对立看法。［C］源自开篇 \nannoying challenges,但这指问题本身(a problem所指)，文章并未展开介绍其影响。［D］错误理解文章前后 \n两部分之间关系：后半部分的(First. .. Finally)并非说明“问题的表现形式”，而是说明“问题的解决方式”。\n［技巧总结］由于本题采用了一种创新性的设题方式(往年未出现过“最后一题侧重考查全篇论证结 \n构”情形)，所以会对学生造成一定困难。但万变不离其宗，学生只需抓大放小，牢牢把握文章主线。另 \n外，为了确保正确，可结合“排除法”。\n具体来看，浏览题干In this text, the author presents a problem with,可大致推断本文侧重宏观考查 \n全文，a problem是全文关注问题，答案则是问题阐释之外的主要内容，初步确定可概括后四段内容的\n［B］为答案。随后结合排除法：文中并未提到“双方观点交锋”，排除［A］；并未展开介绍“自动化的影响”, \n排除［C］；并未介绍“自动化挑战”的多种变化形式，排除［D］。\n回\n•/",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "ccf952ea-892d-53b3-9b83-1f6060dfd88f",
@@ -986,9 +1061,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］先由首段“超2/3美国年轻人反对总统特朗普使用推特，他们更倾向于从别的渠道而非 \n总统社交平台获取白宫消息”可推知“美国年轻人不太信任由推特这一社交媒体作为白宫新闻的可靠来 \n源”，再结合第二段①②句“美国人依靠社交媒体获取新闻资讯，却又越来越不信任媒体”不难敲定“美国 \n人对社交媒体作为可靠新闻来源产生了怀疑”，即［D］正确。\n［命题解密］题干+正确项［D］是对第一二段段落主旨（尤其是第二段①②句）的合理概括。\n\n［A］由首段末句prefer news. . . filtered through. . . not...捏造出\"新闻过滤这一做法不被年轻人认 \n可”，而文意实为“年轻人认为由总统推特透露出来的白宫消息没有其他渠道透露出来的更可靠”；［B］根 \n据第二段①句“人们依赖社交媒体获取新闻资讯”捏造而来，虽属事实，却并非年轻人质疑的对象（即② \n句“（包括社交媒体在内的）所有媒体（信息资讯）”；［C］根据第二段④句“2016年总统选举期间，密西根 \n州推特用户分享的网络内容中充斥虚假信息”捏造出“年轻人质疑政府处理（网络虚假）信息的能力”。\n［技巧总结］概括推理题意在考查学生明辨整体语义的能力，解题过程中重在关联",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "22685f1c-d607-5eff-94ca-01d6a1a8d946",
@@ -1021,9 +1099,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］将被考词所在句“随着美国人越来越不信任媒体，他们开始______ 自身的媒体素养”与\n其前文“大多数美国人依靠社交媒体来查阅每日头条”结合，可推测语义逻辑：美国人一方面要依靠社交 \n媒体来获取信息，一方面又不信任媒体上的信息，这种矛盾僵局需要依靠自身来突破，即逼迫其开始强 \n化自身媒体素养来对媒体信息进行判别、选择。选项中唯有［A］契合这一语义逻辑，故正确。且由第三 \n段首句“作为数字原住民的年轻人们确实能够更加娴熟地区分辨别事实与虚假消息”可推知他们的媒体 \n信息资讯辨识能力得以提升，由此侧推beef up应该理解为“增强”更契合。\n［命题解密］正确项［A］是基于第二段①②句间Most Americans rely on social media to check daily \nheadlines. Yet as distrust has risen toward all media 所矛盾僵局，对 people may be starting to beef up \ntheir media literacy skills 的合理推断。\n［B］由②句划线词后的术语“媒体素养”捏造出“定义/界定”;［C］由“虚假新闻”捏造出“吹嘘”之意；\n［D］由常识“社交媒体上的分享行为”捏造出“分享”，却与文中矛盾僵局“人们依赖媒体却又不信任媒体” \n所暗藏问题解决之策“从自身突破,______其自身媒体素养”无法完美衔接。\n［技巧总结］解答词义题的关键步骤是：一、由句内寻找特殊情感色彩表达词，初步筛选句意基调；\n二、根据句间语义逻辑揣摩被考词与上下文情感基调的“同向”、“反向”关系；三、结合两线索，最终确定 \n正确选项。如本题，首先根据",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "2b9a7d6f-d9d9-5dee-bf9c-2284537f35c1",
@@ -1056,9 +1137,12 @@
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第三段②③④句介绍奈特基金会的调查结果，其中②句指出年轻人利用分布式信任来验证新闻，③句进而做出解释：他们交叉核对新闻来源、倾向于多角度分析的新闻资讯、尤其是对各种观点兼收并蓄的新闻资讯。由此可见，［B］正确。\n\n［命题解密］正确项［B］契合段中所述年轻人多重角度验证新闻真伪的方式方法，是对②③句verify \nstories.. . cross-check sources 的合理改写。\n［A］根据①句调查对象digital natives的特点“自幼熟悉信息技术”合理推导而来，但它并非调查结 \n果；［C］将④句所示“年轻人在新闻审视过程中的自我责任意识”泛化为“对社会、对集体、对他人等的责 \n任意识”；［D］将②句use udistributed trust\" to verify stories1*利用分布式信任来验证新闻真伪\"曲解为 \n“喜欢就分布式信任交换意见”，将“信息甄辨方式”偷换为“讨论焦点”。\n［技巧总结］本题为研究结论类的事实细节题。常规解题思路为“（题干/选项）定位法+排除法”： \n即，首先根据题干已知关键信息the Knight Foundation survey定位至第三段②③④句；随后根据各选项 \n关键信息词分别定位至段中各句（［A］对①，［B］对③，［C］对④，［D］对②）并仔细甄别发现［A］、［C］、［D］ \n与句意不符，唯有［B］与句意相似。非常规解题思路则为“作为论据的调查实为论点服务，故找寻与调查 \n相关的论点即可”：即，本段②③④句均意在说明①句论点“年轻人越来越擅长辨别信息真伪”，而四个选 \n项",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "e1dcfb71-970b-5ceb-b499-d65e4f6f4231",
@@ -1091,9 +1175,12 @@
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第五段③④⑤⑥句介绍巴纳调查结果，其中③句指出虚假新闻问题的最重要原因是 \n“读者错误”，④句进而做出解释:对事实新闻信息的误读或夸大，故［C］正确。\n［命题解密］题干 + 正确项［C］是对③④句中 top reason、reader error、misinterpretation or \nexaggeration of actual news 的完美替换。\n［A］由①句碎片信息re-share.their values捏造而来，而句子并无“读者价值观过时”之意；［E］由前 \n文第三段③句中bias及本段③句中in reporting捏造而来，而文中仅言及“记者报道中可能会捏造新闻、 \n或者会犯事实性错误\"而并未言及\"记者报道带有偏见\"；［D］由③句made-up stories. . . in reporting而 \n来，可它并非题干所考查的“主要原因”。\n［技巧总结］主次因果细节题的解题思路为：于文中找寻因果关联词，再于关联词前后定位主次因果， \n最后可借主次因果的注释性内容辅助解答。如本题，首先由题干main cause for the fake news problem定位 \n至③句the top reason. . . for the fake news phenomenon,然后借其后 more so than 锁定 reader error,最后再借 \nreader error 的解释'性表达 misinterpretation or exaggeration of actual news 锁定［C］。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "cbebccd8-344f-5533-b975-18100093fd6b",
@@ -1126,9 +1213,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］文首两段先提出现象“美国人离不开媒体却又不信任媒体”及其因应之策“增强媒体素 \n养”;第三至五段进而阐释现状，指出美国人(尤其年轻一代)媒体素养的确得以提升，其信息真伪辨识能 \n力提高、信息分享行为中自我责任意识增强；最后末段呼应首段作结“年轻一代反对总统推特实质是其 \n审辨思维能力的展示，是其在新闻分享行为中的一种自制行为”。由此可见，［A］最契合文意。\n［命题解密］正确项［A］是对全文主旨“以年轻一代为代表的美国人的媒体素养正在提升”的概括。\n［B］利用首末段“年轻一代反对特朗普总统过度推特”捏造而来，却偏离文意重心；［C］利用第二三段 \ndistrust‘distributed trust捏造而来，而文中所言信任实际针对\"网络媒体信息''而非\"网络人际沟通\"； \n［D］利用第五段首句as a projection of. . . interests设置干扰，可文意重点并不在platforms**社交媒体平 \n台''而在news on the platforms**社交平台上的新闻资讯\"。\n［技巧总结］解答文章主旨题重在关联文章主题词、主题句。主题词通常可以借由高频词体现，主题 \n句常位于文首末段。如本题，文中频出share,news,skills等词，",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9f6582ee-3e4d-527a-8473-94e7a304b55f",
@@ -1161,9 +1251,12 @@
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］根据题干 agreement 定位至首段末句中 which 定语从句部分：NHS下属的皇家自由信托医院把数据交由 DeepMind 负责是基于一项不明确的协议，协议远没有对患者权利及其隐私权期望进行考虑，可见［B］符合文义。\n\n［命题解密］正确项［B］同义替换原文 took far too little account of the patients' rights。\n\n［错项排除］［A］将③句“会使权力更加集中于科技巨头(further concentration of power in the tech giants)”曲解为“导致科技巨头之间的冲突(conflicts among tech giants)”。［C］将末句“协议远未考虑患者的隐私权期望(the patients'... and their expectations)”张冠李戴成“协议未达到 DeepMind 的期待(the latter's expectations)”。［D］误解首句信息 the dangers of the deal between...(协议带来的威胁)，并把末句信息“委员会专员裁定……违法(verdict against)”、“协议不明确、忽视患者权益”相关联，主观推出“协议危及双方”，但“被判违法”≠“陷入危险”，其次只有 NHS 一方被判违法。\n\n［技巧总结］本题聚焦 agreement, 考查相关信息正误，可知该词意义重大，因此除“定位并比对信息”之外，还应刻意思考它在文中“为何重要、起什么作用”，命题人常会基于此设置正确项。如本题，可首先定位至④句，It is against that background that... 强调句式暗示前三句实为背景铺垫，本句事件才是段落核心信息，即“裁定NHS违法”(verdict against)；而 agreement 位于 which 定语从句中，两个修饰成分 vague 以及 which took far little... 负面指向明显，可知“agreement有问题、无视患者权益”是事件的导火索，选项中只有[B]直接聚焦事件（说明了裁定的原因），其余均与裁定无关。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "70a49408-9013-5d1a-8828-8b59cf2792db",
@@ -1196,9 +1289,12 @@
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第二段②③句指出 NHS 信托对 Denham 裁定的回应：已纠正了其错误行为；其与 DeepMind 的协议会受到仔细审查以确保所有要使用的内容都取得患者允许，所有不必要的数据则加以清除，可见［C］正确。\n\n［命题解密］［C］意同②句 has mended its ways, 并概括了③句 Further arrangements... will be carefully scrutinised to ensure that all... all... 所体现的具体补救措施。\n\n［错项排除］［A］受到①句 almost (apologized) 干扰，但一方面该句主语为 DeepMind 而非题干中的 NHS, 另一方面“差不多道歉了”不能简单等同于“空头承诺”。［B］将②句 mended its ways 错误理解为“拒不服从判决”。［D］源于第二段①句 apologized, 但这是 DeepMind 做法，其次“诚恳道歉”≠“采取了补救措施”。\n\n［技巧总结］对于涉及到“事件、争议N方做法/观点”的题目，首先要明确题目考查对象，然后理清相关方各自的做法/观点，再对比选项进行排除，混淆各方的做法/观点是常见的干扰。本题中，由第二段前两句提炼出的做法分别是“DeepMind几乎已经道歉”、“NHS信托纠正了其行为方式”，故很容易先排除张冠李戴的［D］，初步推知［C］正确；进而由③句提到的具体改进做法，排除反向干扰的［A］、［B］，最终确定［C］为答案。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "0f6121b8-f2b4-5d20-b3b2-413a174a9604",
@@ -1231,9 +1327,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第二段末句指出作者对⑥句Ms Denham裁定依据（判NHS违法因为它才是数据拥有者，而DeepMind只是处理数据而已）的看法：不得要领（misses the point）：“让数据拥有价值的，是处理和集成它们，而不是掌控它们”，［D］正确。\n\n［命题解密］［D］是第二段末句 it is processing and aggregation... that gives the data value 的同义改写。\n\n［A］将第二段③句保护隐私的措施 all necessary permissions... and all unnecessary data...误当成作者观点，但⑤句中作者已明确指出“在此案中，隐私甚至不是最重要的（not even the most important）”。\n［B］从⑥句“NHS掌控数据，而DeepMind只处理数据”捏造出“NHS泄露数据，而DeepMind贩卖数据，前者比后者更恶劣”，与文意相去甚远。\n［C］是由第二段第⑥句“NHS掌控患者数据”杂糅第三段首句“问题是谁该从分析数据中获利（who should benefit from...）”而成，但作者在文中并未“指出谁/某事违法（illegal）”，他想表达的是“具有垄断性质的科技巨头从分析患者数据中获利，而不受监管限制（裁定只判NHS侵犯病人隐私权）”这一情况并不合理。\n\n［技巧总结］涉及多方观点/做法的段落常成为命题人关注的焦点。若就作者观点设题，则一般要求考生通过抓取语气词、关联词，尤其是表示转折、常常引出作者观点的but、yet、however等词来把握作者站位；要警惕命题人扭曲或直接利用他人观点命制干扰项。就本题而言，细读⑤句和⑦句转折词But后内容，从 not the only...，not even the most important 以及 misses the point 基本可判定作者对于 Denham裁定依据的不认同态度，从而排除［A］，而［C］illegal并非作者所能认定，最后根据⑦句作者的反对理由排除［B］，锁定正确答案［D］。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "aa2b7f36-a882-531f-8286-04ee3eed8fad",
@@ -1266,9 +1365,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］根据题干关键词real worry定位至末段②句：“聚焦隐私”并不能解决真正的烦恼；④句 \n指出真正的问题所在（What matters is...）：那些利用公共资源得以开发的算法，竟归属私人垄断企业 \n（也即①句提到的the tech giants）；并在⑤句类比说明其危险：会和大制药企业如今所做的那样（即垄断 \n药物，伤及患者利益），可见作者认为这一事件的矛头应指向垄断数据的科技巨头，［D］正确。\n［命题解密］［D］是对原文they will belong to a private monopoly的同义改写。\n［A］由第⑤句枝节信息monopoly.a big pharma捏造而出，但大制药公司仅作为垄断的一个例子出 \n现，并非作者在文中关注的焦点，且vicious rivalry（恶性竞争）存在与否从也无从推知。［B］将末段①句 \n“此案中用隐私法约束科技巨头不太合适（The use of privacy law to curb the tech giants ... \n\nmaladapted）\"篡改为\"隐私法执法效率低下（the ineffective enforcement of privacy law）\"。［C］从④句 \nmonopoly、behave as",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "32f840d4-21a6-5d55-822b-c69f1d72acb0",
@@ -1301,9 +1403,12 @@
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］由题干关键词 AI 所对应的 software, big data 等词定位至末段⑤至⑧句。⑥句指出“我们尚处于技术革命的初期，任何现在看似微不足道的决定都可能对未来产生巨大影响”，言下之意即“当前就‘高科技用于医疗’问题所做的任何决定都应周全考虑、谨慎行事”，可见［B］符合文义。\n\n［命题解密］［B］是对末段⑥句 small choices now may turn out to have gigantic consequences 的概括。\n\n［错项排除］［A］把第⑤句中 big data may be... as a big pharma has done 误读为一种不确定态度（ambiguous），但此处意在说明作者对未来情况的推测“大数据以后预计会像大型制药公司那样（垄断行事）”。［C］把文末作者“赞赏案情报告（a welcome start）”偷换为作者“赞赏AI应用在医疗领域”，作者虽然承认这种应用是一大进步，但全文意在表现应用背后的问题所在。文末也只是“支持监管部门对问题的重视和介入”，作者实际不认同裁定本身的效力，而是期待相关措施能更加谨慎，完善到位。［D］源于⑦句带负面色彩的 long struggle（漫长的斗争）、avoid a future of digital feudalism（避免未来变成数据封建专制），但作者的矛头是“科技公司垄断”，而非题干中的“AI应用在医疗领域”；其次 contemptuous 一词侧重于“傲慢瞧不上”，作者在文中并未表现出此态度。\n\n［技巧总结］作者态度题实际影射全文主旨。此类题目可借助“文章论述结构”以及“作者论述角度”两个方面解题。从论证结构来看，第一至三段作者以“树靶—批驳”结构，明确批评了 Ms Denham 的裁定不妥、未切中要害，并在末段指出“科技巨头（垄断）才是需要担忧的对象”，站位相当明确，据此可排除［A］、［C］；而从论述角度看，作者在质疑科技巨头垄断之余却于首段、末段几度指出“AI技术用于医疗研究富有潜力、有望挽救患者生命”，可见其并非一味批判，据此可排除完全否定的［D］，确定答案为［B］，即作者意欲“警示人们及早防范新事物的负面影响”。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8541688b-4f45-57c6-9d98-e5196ab145a3",
@@ -1336,9 +1441,12 @@
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］首段①②③句指出 USPS 处于严重财政赤字状态，④⑤句说明根本原因：技术变革使得对其核心产品需求降低，而其监管体系又致其无法灵活管理、适应新现实。可见“管理僵化”为内因，［B］正确。\n\n［命题解密］正确项［B］是对首段末句 a regulatory structure that denies management the flexibility... 的概括改写。\n\n［错项排除］［A］将首段②句“USPS持续收支不平衡(expenses have exceeded revenue)”篡改为“预算不平衡(unbalanced budget)”，且这是 USPS 财政问题“本身”，而非“成因”。［C］由首段⑤句的“技术变革”主观推出“USPS耗费大量财力升级技术”，而文中实际情形是“USPS未能灵活调整业务以适应新现实/技术变革”。［D］将首段③句 unfunded 断章取义为“银行终止对USPS的资金支持”，而这实际上指“USPS背负无资金准备负债”，文中并未提及“银行支持”。\n\n［技巧总结］本题是就长难句命制的因果细节题。可采取的解题思路：首先借助因果标记词(reasons、fundamentally等)锁定答案来源(长难句)；随后从语法结构、语义逻辑等角度分析长难句、初步得出答案；最后梳理逻辑、看是否形成顺滑的因果关系。\n具体来看：首先明确题目考查“USPS财政问题的部分原因”（选项只要符合原因之一便正确），定位至 There are many reasons... 之后的⑤句。随后分析该长难句：整体以 the USPS is in a historic squeeze between A and B 结构说明 USPS 两难境地：技术变革对其核心业务造成巨大冲击(decrease...)，监管体系造成管理僵化(denies... the flexibility)，［B］体现后者，故正确。最后梳理逻辑：“管理僵化”令其无法适应“技术冲击新现实”，故陷入“财政问题”（确定［B］无误）。［C］与此相悖，［A］、［D］与此无直接关联，可排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "62c906ee-588b-5b01-90cb-21dcde5cb0af",
@@ -1371,9 +1479,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第二段指出，由于各利益集团向国会施压、要求保护现状，近年来立法改革频频失败，导致邮政局无力偿还债务、唯有推迟现代化。可见［A］正确。\n\n［命题解密］正确项［A］是对第二段因果链的合理概括。\n\n［错项排除］［B］将第二段信息 Congress、the Postal Service unable to pay its bills 杂糅，主观推断出“国会援助资金不足”，但文章并未提及“国会资金援助”。［C］将首段⑤句 decreased demand for its... product 以及第二段②句 whatever else happens to the Postal Service 关联，主观得出“邮政服务需求减少导致USPS未能进行现代化”，但这只是在退步说明“无论邮政服务境况如何（利益集团都要求保护与其利益相关的现状）”，并未触及第二段所示真正原因。［D］与第二段因果逻辑“邮政工会向国会施压→立法改革失败”中传递的“邮政工会极具影响力”之意完全相悖。\n\n［技巧总结］本题就“涉及多个主体之间复杂关系的段落”命制因果事实题。解题关键在于借助状语功能、逻辑关联词、指代关系等，理解各主体之间关系，明确因果关系网。注：“与文中事实相反”以及“虽为文中事实、但和主干不存在因果关系”的选项均排除。\n具体来看，解题关键在于借助 This is why（this指代①句）、leaving（引导结果状语）、A exert pressure on B（A向B施压等）描绘多个主体“利益集团、国会、USPS等”之间关系，明确其间因果关系，得出［A］正确。［D］与文中事实相反，［C］虽为文中事实但并非原因、［B］则捏造信息 funding，均排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "bb26e308-72e1-54ec-8548-230f3a5ac39a",
@@ -1406,9 +1517,12 @@
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第三段②③句指出新法规提出的缓解 USPS 财政困难的两种方式：每封信邮资费率上涨 1 美分；将退休人员转入联邦医疗保险。④句指出，后一举措将大幅抵消预付退休人员医保造成的财政负担，化解 USPS 及其工会长久以来的抱怨。可见［A］正确。\n\n［命题解密］正确项［A］ removing its burden of retiree health care 同义改写第三段③句 shifting postal retirees into Medicare（④句 the latter step 所指）。\n\n［错项排除］［B］源自②句立法举措的积极意义“所节省资金可用于负担新运输工具”，但这与 USPS 及其工会的抱怨消解无因果关联。［C］源自③句法案的前一举措（former step），且将“提高邮资费率”篡改为“采用新的邮资费率增长机制”。［D］与立法举措“提高邮资费率”的可预期后果“邮件用户减少”显然矛盾。\n\n［技巧总结］命题人于涉及“多重指代关系、多个提及对象”的内容设置“结果—方式（可视为因果关系）题”，旨在考查考生梳理文中关系的能力。解题时应：借助逻辑关联词初步理清句内/句间逻辑，厘清“词汇替换”和“代词所指”，明确文中对应关系；识别“强加因果”或“偷换因果”的陷阱。\n具体来看，先由题干关键词 long-standing complaint by the USPS and its unions 定位至第三段末句，thus 明确主句内容为原因，初步锁定［A］。再上溯探寻 The latter step 所指即 shifting postal retirees into Medicare，可完全确定［A］正确。［B］虽为文中提及内容，但与题干所问没有因果关联。［C］、［D］不仅与题干所问没有因果关联，且违背原文事实细节。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "de7886ed-d430-5ad3-b1d9-2aab8af35b26",
@@ -1441,9 +1555,12 @@
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］末段先评价法案“仅够邮政局勉强维持的最基本的必要之举，而非全面改革”，随后指出 \n法案的两项重大疏漏，最后总结评价立法者“只是害怕USPS的短期崩溃令其政治难堪，并非认真对待 \n邮政系统转型”，可见作者对立法者十分不满，［C］正确。\n［命题解密］正确项［C］是对末段⑥⑦句 legislators are getting frightened about.. . not, however... \nthey're getting serious about...的合理归纳。\n［A］将末段①句“参议院中必然会有人指出法案不全面彻底”曲解为“作者尊重立法者，相信其正 \n直”，但作者实则强调“法案缺陷明显”。［B］将末段①句“该法案只是最基本的必要之举(it amounts to \nthe bare, bare minimum)w所暗含的“强烈否定”错误理解为“勉强接受［D］将末段①句“作者肯定推 \n测一一参议院中定会有人不得不指出法案不全面彻底”曲解为“已发生事实一作者感激立法者履职尽 \n责之举”。\n［技巧总结］本题考查作者对文中人物(也即人物行为)的看法，解题难点在于明确人物(legislators) \n具体所指。解题时可从两方面入手：一，体会评价性词汇中所暗含的作者态度，二，抓取直观表达作者观 \n点的评述性句子，如判断句式A is/is not B,出现but/however等的转折句式。\n具体来看解题:一，借助上下文所述立法进程明确legislators所指“发起、赞同提案的立法者(主要指 \n向众议院，并非末段首句参议院)\"；二，借助两处评述结构it (the bill) amounts to. . . not...和The \nemerging consensus around the bill is a sign that. . . It is not,",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "ed0df785-8d6f-5527-976a-887d14d179b3",
@@ -1476,9 +1593,12 @@
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］文章首两段提出问题“USPS财政赤字严重”并分析原因“技术冲击、管理僵化、改革阻 \n力大”，末两段介绍新近法案内容并予以评价“虽会有所成效，却遗漏重点/治标不治本”。可见，全文论 \n述对象为“USPS改革脱困”，文章观点为“权宜之计无用，还需标本兼治”,［D］正确。\n［命题解密］正确项［D］中The Postal Service贯穿全文；a Band-Aid(本意“创可贴”，引申为“权宜之 \n计\")符合作者对新近法案的评述 amounts to the bare, bare minimum necessary to keep the Postal Service \nafloat;Needs More Than 正确解读 not comprehensive reform^a major omission.. . Also omissing...传递 \n的作者观点“立法举措需标本兼治”。\n［A］利用首段④句“USPS曾经财务稳健VS如今濒临破产”设置干扰，但全文论述基调并非“怀念美 \n好往昔”，而是“走出当前困境”。［B］利用首段⑤句“技术变革导致USPS普通邮件需求减少”设置干扰， \n\n但文章并未展开论述邮政如何“保护奶酪（对抗竞争对手）”，而是如何“进行自身改革”。［C",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "28d5fc23-08c1-59df-81ae-f4928805b514",
@@ -1490,45 +1610,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'.",
+          "text": "[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building...",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground.",
+          "text": "[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876)...",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers.",
+          "text": "[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy...",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture.",
+          "text": "[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls...",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls.",
+          "text": "[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States...",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard.",
+          "text": "[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington...",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance.",
+          "text": "[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820...",
           "value": "G"
         }
       ],
       "correct_answer": "E",
       "explanation": "41. 本题考核的知识点：首段的作用+代词指代\n\n【选项推测】文首段一般直接点题，或介绍背景，为下文论述做铺垫。纵观全文,EEOB是全文论述\n\n的对象，且其全称仅在【E】中出现，而【D】【G】选项中含有EEOB,不可能为首段。首段作为文章开头，也\n\n不会与上文有明显衔接关系，而【A】借今昔对比词new可知其应在【G】之后，【B】借事件发展顺序词\n\nCompleted in 1975 回应【A】began in June of 1871，故【A】和【B】均不可能为首段。\n\n【答案敲定】由【路标词解析】可知，【:E】为首段备选项。\n\n【E】先指出EEOB具有独特的双重地位(美国历史+建筑遗产)，后指出其具体设计者、设计风格及\n\n建造目的，这种“由抽象到具体”的行文是阐释性说明文较为常见的开篇方式。【E】与其余各段可构成说\n\n明性文章常见的\"总一分\"结构；同时，【E】末句the State, War, and Navy Departments与固定段第二段\n\n【C】首句 the three Executive Branch Departments 所指相同，【E】中 The Eisenhower Executive O 伍 ce\n\nBuilding (EEOB)与【C】首句(as) it (was originally known)的指代关系成立，两段可形成顺畅衔接。最终\n\n确定【E】为正确答案。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "0b615fef-dc18-5585-b569-0d801ec549bb",
@@ -1540,45 +1663,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'.",
+          "text": "[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building...",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground.",
+          "text": "[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876)...",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers.",
+          "text": "[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy...",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture.",
+          "text": "[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls...",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls.",
+          "text": "[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States...",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard.",
+          "text": "[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington...",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance.",
+          "text": "[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820...",
           "value": "G"
         }
       ],
       "correct_answer": "G",
       "explanation": "42. 本题考核的知识点：上下文衔接+逻辑衔接\n\n【选项推测】已定位的【A】首句new表明上文可能提及“国务院旧办公楼因某种原因而不能继续使\n\n用”。固定段【C】内容相对独立，下文可能继续介绍历史意义，或另起话头，介绍大楼其他方面的信息。\n\n【答案敲定】由【路标词解析】可知，本题的备选项可能为\n\n【D】首句 the most celebrated national figuresA historical events 似乎与【C】末句 most significant\n\ndiplomats and politicians,historic events 近义复现,但借由【D】首句中 the EEOB's granite walls 可知其上\n\n文应提及EEOB的内饰细节，即【D】应在之后，故排除。\n\n【G】首末句\"奠基前(before its foundations were laid)\"、\"拆旧楼(the demolition of...与【A】首末\n\n句\"建新楼(new. .建造开始(construction. . . began)w符合事件发展顺序(拆-•■建，奠基前f开建\n\n时)，两段时间线索也吻合先后顺序(1799—1820/1866^1869/1871)；且【G】开启对EEOB自身历史的介\n\n绍，与【C】并无冲突。故正确。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "950936c5-fad3-5514-a102-d2052d68e5c2",
@@ -1590,45 +1716,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'.",
+          "text": "[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building...",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground.",
+          "text": "[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876)...",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers.",
+          "text": "[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy...",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture.",
+          "text": "[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls...",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls.",
+          "text": "[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States...",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard.",
+          "text": "[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington...",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance.",
+          "text": "[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820...",
           "value": "G"
         }
       ],
       "correct_answer": "A",
       "explanation": "43. 本题考核的知识点：上下文衔接+逻辑衔接\n\n【选项推测】已经给出位置的【F】首句Construction,the building表明上文提及“某建筑的建造”。\n\n【答案敲定】由【路标词解析】可知，【A】【G】为本题备选项。\n\n【A】 若与【F】相连，两段内容1871年建筑动工—耗时17年逐翼完工”符合建造的先后顺序，也与已\n\n定位的【E】中时间线索(1871 —1888 年)完全相符；且【A】末句 construction,a building to house all three\n\ndepartments 与【F】首句 Construction,the building 可形成完美衔接。故【A】正确。\n\n【G】若与【F】衔接，【F】首句the building所指“ EEOB(由【F】段中的②句可知)”与【G】末句the\n\nTreasury Building产生冲突，故排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "165a341b-3737-5aa6-b97e-338ecf3dc390",
@@ -1640,45 +1769,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'.",
+          "text": "[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building...",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground.",
+          "text": "[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876)...",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers.",
+          "text": "[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy...",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture.",
+          "text": "[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls...",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls.",
+          "text": "[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States...",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard.",
+          "text": "[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington...",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance.",
+          "text": "[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820...",
           "value": "G"
         }
       ],
       "correct_answer": "B",
       "explanation": "44. 本题考核的知识点：上下文衔接+逻辑衔接\n\n【选项推测】固定段【F】概括EEOB的建造过程并详述其建筑细节，下文可能继续说明。\n\n【答案敲定】由【路标词解析】可知，【B】可能与【F】衔接。\n\n【B】 south wing, the east wing呼应【F】 wing by wing,按照大楼侧翼建成的时间顺序介绍EEOB\n\n的完工情况，是对【F】首句建造过程“逐翼建成”的具体说明，同样按照时间顺序介绍各部门的入驻\n\n情况，在【F】之后符合“先完工后入驻”的顺序。同时，【F】从整体上介绍EEOB的建筑细节(the\n\nEEOB、Almost all of the interior detail) ,【B】分别介绍各部门的内饰，符合“概括到具体”的逻辑关系。\n\n故【B】为本题答案。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "2c6b3644-0275-589b-9f6c-57821b0c3509",
@@ -1690,45 +1822,48 @@
       "options": [
         {
           "key": "A",
-          "text": "The theatre was constructed using the disassembled timbers of an earlier public playhouse, known simply as 'The Theatre'.",
+          "text": "[A] In December of 1869, Congress appointed a commission to select a site and prepare plans and cost estimates for a new State Department Building...",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "In 1613, during a performance of Henry VIII, a theatrical cannon misfired and ignited the thatched roof, burning the Globe to the ground.",
+          "text": "[B] Completed in 1875, the State Department's south wing was the first to be occupied, with its elegant four-story library (completed in 1876)...",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The Globe was a polygonal open-air wooden amphitheater capable of holding up to three thousand boisterous Elizabethan playgoers.",
+          "text": "[C] The State, War, and Navy Building, as it was originally known, housed the three Executive Branch Departments most intimately associated with formulating and conducting the nation's foreign policy...",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "The reconstruction of Shakespeare's Globe on the South Bank represents an extraordinary achievement in archaeological architecture.",
+          "text": "[D] Many of the most celebrated national figures have participated in historical events that have taken place within the EEOB's granite walls...",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "When Shakespeare was twelve years old, the first permanent public playhouse was erected in the suburbs outside London's city walls.",
+          "text": "[E] The Eisenhower Executive Office Building (EEOB) commands a unique position in both the national history and the architectural heritage of the United States...",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Performances took place in broad daylight, with actors engaging intimately with the standing 'groundlings' in the central yard.",
+          "text": "[F] Construction took 17 years as the building slowly rose wing by wing. When the EEOB was finished, it was the largest office building in Washington...",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "The closure of London theatres by the Puritan government in 1642 marked the end of England's golden theatrical Renaissance.",
+          "text": "[G] The history of the EEOB began long before its foundations were laid. The first executive offices were constructed between 1799 and 1820...",
           "value": "G"
         }
       ],
       "correct_answer": "D",
       "explanation": "45.本题考核的知识点：逻辑衔接\n\n【选项推测】已定位的[G][A][F][B]共同介绍了 EEOB的发展历程，相对独立，下文可能另起话\n\n头；文章末段也可能总结全文或呼应开头。\n\n【答案敲定】由上文分析可知，[D]为本题备选项。\n\n[D]地点状语within the EEOB's granite walls -方面实指“墙”，明确墙体材料为花岗岩，与\n\n介绍内饰细节及材料的内容一脉相承；另一方面则虚指完工后的EEOB,呼应其建造过程，[F][B][D]由\n\n此形成“大楼修建〜各部入驻—各部部长参与楼内历史事件”的顺序，关注重点由“建筑本身”逐渐过渡\n\n到“人”。同时，本段点题，通过列举相关名人再次凸显EEOB的重要地位，呼应文首两段（尤其首段[E]\n\n中a unique position in. . . the national history）所述历史重要性，故[D]应为本文末段。\n\n至此，全文顺序确定为[E]—[C]—[G]—[A]—[F]—[B]—[D] o\n\n（2）通读检验。根据以上排序通读文章，检查思路是否清晰连贯，结构是否完整，段间层次关系是否\n\n恰当，从而最终确定答案。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
   "exportedAt": "2026-10-15T11:40:21.297Z"
