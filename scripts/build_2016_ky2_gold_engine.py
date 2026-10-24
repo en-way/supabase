@@ -1,0 +1,546 @@
+# -*- coding: utf-8 -*-
+"""
+Round 65: 2016 ky2 Gold Reconstruction Engine
+UUID: 65f67ba3-fe8c-5113-be4d-48917cef6c59
+Standardizes metadata, reconstructs passages 0-5 to gold quality,
+assigns 1..45 question numbering, standard scores (0.5/2.0),
+and complete three-tier explanations for all 45 questions.
+"""
+import json
+import os
+
+JSON_PATH = r'd:\A16pro\Aing\antigravity\supabase\public\data\exams\65f67ba3-fe8c-5113-be4d-48917cef6c59.json'
+
+def build_gold_engine():
+    with open(JSON_PATH, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # 1. Exam Metadata
+    exam = data['exam']
+    exam['title'] = '2016年全国硕士研究生招生考试英语（二）真题'
+    exam['total_score'] = 60.0
+    exam['pass_score'] = 36.0
+
+    # 2. Passages Gold Reconstruction
+    passages = data['passages']
+
+    # Passage 0: Section I: Use of English
+    p0_content = (
+        "Happy people work differently. They're more productive, more creative, and willing to take greater risks. And new research suggests that happiness might influence [1] firms work, too. Companies located in places with happier people invest more, according to a recent research paper. [2], firms in happy places spend more on R&D (research and development). That's because happiness is linked to the kind of longer-term thinking [3] for making investments for the future.\n\n"
+        "The researchers wanted to know if the [4] and inclination for risk-taking that come with happiness would [5] the way companies invested. So they compared U.S. cities' average happiness [6] by Gallup polling with the investment activity of publicly traded firms in those areas. [7] enough, firms' investment and R&D intensity were correlated with the happiness of the area in which they were [8].\n\n"
+        "But is it really happiness that's linked to investment, or could something else about happier cities [9] why firms there spend more on R&D? To find out, the researchers controlled for various [10] that might make firms more likely to invest - like size, industry, and sales - and for indicators that a place was [11] to live in, like growth in wages or population. The link between happiness and investment generally [12] even after accounting for these things.\n\n"
+        "The correlation between happiness and investment was particularly strong for younger firms, which the authors [13] to “less codified decision making process” and the possible presence of “younger and less [14] managers who are more likely to be influenced by sentiment.” The relationship was [15] stronger in places where happiness was spread more [16]. Firms seem to invest more in places where most people are relatively happy, rather than in places with happiness inequality. [17] this doesn't prove that happiness causes firms to invest more or to take a longer-term view, the authors believe it at least [18] at that possibility. It's not hard to imagine that local culture and sentiment would help [19] how executives think about the future. “It surely seems plausible that happy people would be more forward-thinking and creative and [20] R&D more than the average,” said one researcher."
+    )
+    passages[0]['title'] = 'Section I: Use of English'
+    passages[0]['passage_type'] = 'use_of_english'
+    passages[0]['content'] = p0_content
+
+    # Passage 1: Text 1 (Computer Science in High School / Flatiron School)
+    p1_content = (
+        "It's true that high-school coding classes aren't essential for learning computer science in college. Students without experience can catch up after a few introductory courses, said Tom Cortina, the assistant dean at Carnegie Mellon's School of Computer Science.\n\n"
+        "However, Cortina said, early exposure is beneficial. When younger kids learn computer science, they learn that it's not just a confusing, endless string of letters and numbers - but a tool to build apps, or create artwork, or test hypotheses. It's not as hard for them to transform their thought processes as it is for older students. Breaking down problems into bite-sized chunks and using code to solve them becomes normal. Giving more children this training could increase the number of people interested in the field and help fill the jobs gap, Cortina said.\n\n"
+        "Students also benefit from learning something about coding before they get to college, where introductory computer-science 101 classes are packed to the brim, which can drive the less-experienced or -determined students away.\n\n"
+        "The Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that's become popular for adults looking for a career change. The high-schoolers get the same curriculum, but “we try to gear lessons toward things they're interested in,” said Victoria Friedman, an instructor. For instance, one of the apps the students are developing suggests movies based on your mood.\n\n"
+        "The students in the Flatiron class probably won't drop out of high school and build the next Facebook. Programming languages have a short shelf life, and the ones Flatiron teaches may not even be relevant by the time they enter the job market. But the skills they learn - how to think logically through a problem and organize the results - apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.\n\n"
+        "Indeed, the Flatiron students might not go into IT at all. But creating a future army of coders is not the sole purpose of the classes. These kids are going to be surrounded by computers - in their pockets, in their offices, in their homes - for the rest of their lives. The younger they learn how computers think, how to coax the machine into producing what they want - the earlier they learn that they have the power to do that - the better."
+    )
+    passages[1]['title'] = 'Section II: Reading Comprehension Part A - Text 1'
+    passages[1]['passage_type'] = 'reading'
+    passages[1]['content'] = p1_content
+
+    # Passage 2: Text 2 (Lesser Prairie Chicken Conservation)
+    p2_content = (
+        "Biologists estimate that as many as 2 million lesser prairie chickens - a kind of bird living on stretching grasslands - once lent red to the often grey landscape of the midwestern and southwestern United States. But just some 22,000 birds remain today, occupying about 16% of the species' historic range.\n\n"
+        "The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken's habitat.\n\n"
+        "Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre of destroyed habitat with 2 new acres of suitable habitat. The fund will also be used to compensate landowners who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress. Overall, the idea is to let “states remain in the driver's seat for managing the species,” Ashe said.\n\n"
+        "Not everyone buys the win-win rhetoric. Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court. Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn't go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says Jay Lininger, a senior scientist at the Center for Biological Diversity."
+    )
+    passages[2]['title'] = 'Section II: Reading Comprehension Part A - Text 2'
+    passages[2]['passage_type'] = 'reading'
+    passages[2]['content'] = p2_content
+
+    # Passage 3: Text 3 (Finding Time to Read / Deep Reading)
+    p3_content = (
+        "That everyone's too busy these days is a cliche. But one specific complaint is made especially mournfully: There's never any time to read.\n\n"
+        "What makes the problem thornier is that the usual time-management techniques don't seem sufficient. The web's full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn't work. Sit down to read and the flywheel of work-related thoughts keeps spinning - or else you're so exhausted that a challenging book's the last thing you need. The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication... It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can't be obtained merely by becoming more efficient.\n\n"
+        "Thinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal. Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting. Try to slot it in as a to-do list item and you'll manage only goal-focused reading - useful, sometimes, but not the most fulfilling kind. “The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in Sacred Time, “and we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.\n\n"
+        "So what does work? Perhaps surprisingly, scheduling regular times for reading. You'd think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time's flow” into “soul time.” You might also consider reading only physical books, or on single-purpose e-readers. “Carry a book with you at all times” can actually work, too - providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down. On a really good day, it no longer feels as if you're “making time to read,” but just reading, and making time for everything else."
+    )
+    passages[3]['title'] = 'Section II: Reading Comprehension Part A - Text 3'
+    passages[3]['passage_type'] = 'reading'
+    passages[3]['content'] = p3_content
+
+    # Passage 4: Text 4 (Younger Americans / Milestones of Success)
+    p4_content = (
+        "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.\n\n"
+        "Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties. But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.\n\n"
+        "Young people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.\n\n"
+        "From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.\n\n"
+        "Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations. While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.\n\n"
+        "Pete Schneider considers the climb tougher today. Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college. Even now that he is working steadily, he said, “I can't afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.” Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn't have college degrees,” Schneider said. “I don't think people are capable of that anymore.”"
+    )
+    passages[4]['title'] = 'Section II: Reading Comprehension Part A - Text 4'
+    passages[4]['passage_type'] = 'reading'
+    passages[4]['content'] = p4_content
+
+    # Passage 5: Part B (Act Your Shoe Size, Not Your Age)
+    p5_content = (
+        "Act Your Shoe Size, Not Your Age\n\n"
+        "As adults, it seems that we are constantly pursuing happiness, often with mixed results. Yet children appear to have it down to an art - and for the most part they don't need self-help books or therapy. Instead, they look after their wellbeing instinctively, and usually more effectively than we do as grownups. Perhaps it's time to learn a few lessons from them.\n\n"
+        "[41] _________________________________\n"
+        "What does a child do when he's sad? He cries. When he's angry? He shouts. Scared? Probably a bit of both. As we grow up, we learn to control our emotions so they are manageable and don't dictate our behaviours, which is in many ways a good thing. But too often we take this process too far and end up suppressing emotions, especially negative ones. That's about as effective as brushing dirt under a carpet and can even make us ill. What we need to do is find a way to acknowledge and express what we feel appropriately, and then move on.\n\n"
+        "[42] _________________________________\n"
+        "A couple of Christmases ago, my youngest stepdaughter, who was nine years old at the time, got a Superman T-shirt for Christmas. It cost less than a fiver but she was overjoyed, and couldn't stop talking about it. Too often we believe that a new job, bigger house or better car will be the magic silver bullet that will allow us to finally be content, but the reality is these things have very little lasting impact on our happiness levels. Instead, being grateful for small things every day is a much better way to improve wellbeing.\n\n"
+        "[43] _________________________________\n"
+        "Have you ever noticed how much children laugh? If we adults could indulge in a bit of silliness and giggling, we would reduce the stress hormones in our bodies, increase good hormones like endorphins, improve blood flow to our hearts and even have a greater chance of fighting off infection. All of which would, of course, have a positive effect on our happiness levels.\n\n"
+        "[44] _________________________________\n"
+        "The problem with being a grownup is that there's an awful lot of serious stuff to deal with - work, mortgage payments, figuring out what to cook for dinner. But as adults we also have the luxury of being able to control our own diaries and it's important that we schedule in time to enjoy the things we love. Those things might be social, sporting, creative or completely random (dancing around the living room, anyone?) - it doesn't matter, so long as they're enjoyable, and not likely to have negative side effects, such as drinking too much alcohol or going on a wild spending spree if you're on a tight budget.\n\n"
+        "[45] _________________________________\n"
+        "Having said all of the above, it's important to add that we shouldn't try too hard to be happy. Scientists tell us this can backfire and actually have a negative impact on our wellbeing. As the Chinese philosopher Chuang Tzu is reported to have said: “Happiness is the absence of striving for happiness.” And in that, once more, we need to look to the example of our children, to whom happiness is not a goal but a natural byproduct of the way they live."
+    )
+    passages[5]['title'] = 'Section II: Reading Comprehension Part B'
+    passages[5]['passage_type'] = 'reading'
+    passages[5]['content'] = p5_content
+
+    # 3. Gold Question Configurations (1..45)
+    # Answers and comprehensive explanations
+    questions = data['questions']
+    
+    gold_q_configs = {
+        1: {
+            "ans": "B",
+            "stem": "Choose the best option for blank [1] in the passage:",
+            "expl": (
+                "［考点提炼］连词辨析与宾语从句引导词。\n"
+                "［解题思路］空格所在句为“And new research suggests that happiness might influence [1] firms work, too.”，其中 influence 之后为宾语从句。结合前文“Happy people work differently...”，此处顺承指幸福感也会影响“企业运作的方式”。how 引导方式状语从句/宾语从句，意为“如何、……的方式”，符合句意逻辑。\n"
+                "［错项排除］[A] why 意为“为什么”，表原因，此处文章并非探讨企业为什么运作；[C] where 意为“在哪里”，表地点，后文并无地点逻辑承接；[D] when 意为“何时”，表时间，均与文意不符。"
+            )
+        },
+        2: {
+            "ans": "B",
+            "stem": "Choose the best option for blank [2] in the passage:",
+            "expl": (
+                "［考点提炼］逻辑关系与短语辨析。\n"
+                "［解题思路］前文指出“Companies located in places with happier people invest more”，后文进一步指出“[2], firms in happy places spend more on R&D...”。从“投资更多（invest more）”具体深入到“研发投资更多（spend more on R&D）”，属于从宏观到微观的具体例证和强调。In particular 意为“特别是、尤其”，表递进和具体说明，逻辑契合。\n"
+                "［错项排除］[A] In return 意为“作为回报”，前后并无付出与回报因果关系；[C] In contrast 意为“相反”，前后两句是顺承深入而非对比转折；[D] In conclusion 意为“总而言之”，通常用于文末总结，此处位于段中阐述，不合逻辑。"
+            )
+        },
+        3: {
+            "ans": "A",
+            "stem": "Choose the best option for blank [3] in the passage:",
+            "expl": (
+                "［考点提炼］形容词辨析与后置定语搭配。\n"
+                "［解题思路］空格后接介词短语“for making investments for the future”，整体作后置定语修饰 longer-term thinking。句子表达“这是因为幸福感与进行面向未来的投资所【必需的】长远思考紧密相连”。necessary 意为“必要的、必需的”，与 for 搭配形成 necessary for doing sth.，契合理性投资的逻辑。\n"
+                "［错项排除］[B] famous 意为“著名的”，长远思考并非“著名的”；[C] perfect 意为“完美的”，语义过重且逻辑不当；[D] sufficient 意为“充分的”，但长远思维是必要条件而非充分条件，语义偏离。"
+            )
+        },
+        4: {
+            "ans": "C",
+            "stem": "Choose the best option for blank [4] in the passage:",
+            "expl": (
+                "［考点提炼］名词语义辨析与并列结构。\n"
+                "［解题思路］空格处与 inclination for risk-taking（承担风险的意向）构成并列，由 and 连接，且后接定语从句 that come with happiness（伴随幸福感而来的）。常识与心理学研究均表明，幸福感强的人通常更加乐观且愿意冒险。optimism 意为“乐观主义、乐观心态”，与 risk-taking 搭配得当。\n"
+                "［错项排除］[A] individualism 意为“个人主义”，与幸福感无必然因果关系；[B] realism 意为“现实主义”，现实主义往往倾向于规避风险而非冒进；[D] modernism 意为“现代主义”，属于文艺思潮，偏离主题。"
+            )
+        },
+        5: {
+            "ans": "D",
+            "stem": "Choose the best option for blank [5] in the passage:",
+            "expl": (
+                "［考点提炼］动词语义辨析。\n"
+                "［解题思路］句意为“研究人员想知道，伴随幸福感而来的乐观情绪和冒险倾向是否会【改变】公司的投资方式”。change 意为“改变、影响”，与前文的 influence how firms work 遥相呼应。\n"
+                "［错项排除］[A] miss 意为“错过、遗漏”；[B] echo 意为“回响、重复”；[C] spoil 意为“糟蹋、破坏”，均无法表达对投资行为产生塑造或改变之意。"
+            )
+        },
+        6: {
+            "ans": "B",
+            "stem": "Choose the best option for blank [6] in the passage:",
+            "expl": (
+                "［考点提炼］非谓语动词作后置定语与常识搭配。\n"
+                "［解题思路］空格所在成分为 by Gallup polling（通过盖洛普民意调查），修饰 average happiness（平均幸福感）。民意调查用来“衡量、测定”公众的幸福感。measured 意为“测量的、测定的”，符合数据统计与科学调研的规范表达。\n"
+                "［错项排除］[A] imagined 意为“想象的”，科研数据不能靠想象；[C] assumed 意为“假定的”；[D] invented 意为“发明的”，民意调查测出的是客观数值而非主观捏造。"
+            )
+        },
+        7: {
+            "ans": "A",
+            "stem": "Choose the best option for blank [7] in the passage:",
+            "expl": (
+                "［考点提炼］固定短语与副词搭配。\n"
+                "［解题思路］空格后紧接 enough，构成固定习惯表达 Sure enough，意为“果然、果不其然”，用于证实前文研究者的假设与预期。后文 firms' investment and R&D intensity were correlated with the happiness of the area... 证实了前文的推测，逻辑完全吻合。\n"
+                "［错项排除］[B] Disappointed 意为“感到失望的”，不能与 enough 连用表副词逻辑；[C] Unfortunate 意为“不幸的”；[D] Often enough 虽有此短语但意为“经常、屡屡”，无法表达“证实预期”的逻辑语义。"
+            )
+        },
+        8: {
+            "ans": "D",
+            "stem": "Choose the best option for blank [8] in the passage:",
+            "expl": (
+                "［考点提炼］动词被动语态与企业选址搭配。\n"
+                "［解题思路］定语从句 the area in which they were [8] 修饰 the area，先行词是地区，they 指代 public traded firms（上市公司）。上市公司在其所在区域“设立总部/设立驻地”。be headquartered in 是商务英语核心高频短语，意为“总部位于……”。\n"
+                "［错项排除］[A] divided 意为“被划分”；[B] advertised 意为“做广告”；[C] overtaxed 意为“被课以重税”，均不符合公司与所在区域的客观关系。"
+            )
+        },
+        9: {
+            "ans": "C",
+            "stem": "Choose the best option for blank [9] in the passage:",
+            "expl": (
+                "［考点提炼］动词语义辨析。\n"
+                "［解题思路］句意为“但究竟是幸福感与投资相关，还是更幸福城市的其他因素能够【解释】为什么那里的企业在研发上投入更多？”。explain why... 意为“解释……的原因”，符合因果关系探讨的语境。\n"
+                "［错项排除］[A] summarize 意为“总结、概述”；[B] overstate 意为“夸大”；[D] emphasize 意为“强调”，均不能搭配 why 从句引出合理解释。"
+            )
+        },
+        10: {
+            "ans": "A",
+            "stem": "Choose the best option for blank [10] in the passage:",
+            "expl": (
+                "［考点提炼］名词词义辨析与科研术语。\n"
+                "［解题思路］后文提到“like size, industry, and sales”（诸如规模、行业和销售额），在科学实验与统计学中，这些被称为“控制变量/控制因素”。controlled for various factors 是标准学术表达，意为“控制了各种因素/变量”。\n"
+                "［错项排除］[B] stages 意为“阶段”；[C] levels 意为“水平、级别”；[D] methods 意为“方法”，均不能概括规模、行业这类客观特征属性。"
+            )
+        },
+        11: {
+            "ans": "A",
+            "stem": "Choose the best option for blank [11] in the passage:",
+            "expl": (
+                "［考点提炼］形容词词义辨析。\n"
+                "［解题思路］后文提到“like growth in wages or population”（诸如工资增长或人口增长），这些是衡量一个地方是否“适宜居住/令人向往”的指标。desirable to live in 意为“适宜居住的、令人向往的”，与 wage/population growth 形成正向因果。\n"
+                "［错项排除］[B] sociable 意为“好交际的、友善的”，修饰人；[C] reliable 意为“可靠的”；[D] reputable 意为“声誉好的”，均不常用于形容城市的宜居特质。"
+            )
+        },
+        12: {
+            "ans": "C",
+            "stem": "Choose the best option for blank [12] in the passage:",
+            "expl": (
+                "［考点提炼］动词词义辨析与一词多义。\n"
+                "［解题思路］句意为“即使在考虑了这些因素之后，幸福感与投资之间的联系通常仍然【成立/保持有效】”。hold 此处用作不及物动词，意为“（论点、联系、规律）持续有效、成立、适用”，这是考研核心高频一词多义考点。\n"
+                "［错项排除］[A] resumed 意为“重新开始、恢复”；[B] emerged 意为“浮现、显露”；[D] broke 意为“破裂、中断”，后文说 even after accounting for these things，说明关联没有中断，因此 broke 错误。"
+            )
+        },
+        13: {
+            "ans": "B",
+            "stem": "Choose the best option for blank [13] in the passage:",
+            "expl": (
+                "［考点提炼］动词短语固定搭配。\n"
+                "［解题思路］空格前为 the authors，空格后接 to “less codified decision making process”。attribute ... to ... 是英语核心固定搭配，意为“把……归因于……”。作者将年轻企业与投资幸福感之间的强烈关联“归因于”其决策流程规范化程度较低。\n"
+                "［错项排除］[A] assign ... to 意为“指派、分配”；[C] transfer ... to 意为“转移、调动”；[D] compare ... to 意为“把……比作”，均无法表达因果归因之意。"
+            )
+        },
+        14: {
+            "ans": "D",
+            "stem": "Choose the best option for blank [14] in the passage:",
+            "expl": (
+                "［考点提炼］形容词语义辨析与并列结构。\n"
+                "［解题思路］空格处与 younger 并列，修饰 managers（管理层人员），且后文补充说明他们“more likely to be influenced by sentiment（更容易受情绪影响）”。年轻且“缺乏经验的（less experienced）”管理者才更容易受情绪左右。\n"
+                "［错项排除］[A] serious 意为“严肃的、认真的”；[B] civilized 意为“文明的、有教养的”；[C] ambitious 意为“有雄心的”，均与易受情绪影响无必然逻辑关系。"
+            )
+        },
+        15: {
+            "ans": "C",
+            "stem": "Choose the best option for blank [15] in the passage:",
+            "expl": (
+                "［考点提炼］副词语义辨析与递进逻辑。\n"
+                "［解题思路］前文阐述了年轻企业中的关联，此处进一步补充另外一种更强关联的情形：“在幸福感分布更均衡的地方，这种关联【也】更强”。also 意为“也、同样”，表顺承并列与补充说明。\n"
+                "［错项排除］[A] instead 意为“相反、代替”，表转折对立；[B] thus 意为“因此”，两句之间并非严密因果逻辑；[D] never 意为“从不”，彻底扭曲事实。"
+            )
+        },
+        16: {
+            "ans": "D",
+            "stem": "Choose the best option for blank [16] in the passage:",
+            "expl": (
+                "［考点提炼］副词语义辨析与反义暗示。\n"
+                "［解题思路］紧随其后的句子给出直接解密：“rather than in places with happiness inequality（而不是在存在幸福不平等的地区）”。既然不是 inequality（不平等），反面就是 equally（均等地、平衡地）。spread more equally 意为“分布更加均衡”。\n"
+                "［错项排除］[A] rapidly 意为“迅速地”；[B] directly 意为“直接地”；[C] regularly 意为“定期地、规律地”，均未体现与 inequality（不平等）的鲜明反差。"
+            )
+        },
+        17: {
+            "ans": "A",
+            "stem": "Choose the best option for blank [17] in the passage:",
+            "expl": (
+                "［考点提炼］从属连词与让步逻辑。\n"
+                "［解题思路］从句为“[17] this doesn't prove that happiness causes firms to invest more”，主句为“the authors believe it at least [18] at that possibility”。前半句说“虽然这不能直接证明因果关系”，后半句说“作者认为它至少暗示了这种可能性”，属于极其典型的让步转折逻辑。While 引导让步状语从句，意为“尽管、虽然”，完全吻合。\n"
+                "［错项排除］[B] Until 意为“直到……为止”；[C] After 意为“在……之后”；[D] Since 意为“既然、自从”，均无法建立前后让步关系。"
+            )
+        },
+        18: {
+            "ans": "C",
+            "stem": "Choose the best option for blank [18] in the passage:",
+            "expl": (
+                "［考点提炼］动词短语固定搭配。\n"
+                "［解题思路］空格后接介词 at。hint at 是固定搭配，意为“暗示、示意”。与前文 doesn't prove 构成对比，虽然未能确凿证实（prove），但至少“暗示（hints at）”了这种可能性。\n"
+                "［错项排除］[A] arrives at 意为“到达、得出（结论）”，不能表示轻微倾向；[B] jumps at 意为“欣然接受、抓住机会”；[D] strikes at 意为“袭击、打击”，均不符合语境。"
+            )
+        },
+        19: {
+            "ans": "D",
+            "stem": "Choose the best option for blank [19] in the passage:",
+            "expl": (
+                "［考点提炼］动词语义辨析与宾语搭配。\n"
+                "［解题思路］句意为“不难想象，当地的文化与氛围有助于【塑造】高管对未来的思考方式”。shape 意为“塑造、影响、决定”，与 how executives think 形成自然地道搭配。\n"
+                "［错项排除］[A] share 意为“分享”；[B] rediscover 意为“重新发现”；[C] simplify 意为“简化”，都不能准确描述文化情绪对人思维模式的潜移默化影响。"
+            )
+        },
+        20: {
+            "ans": "B",
+            "stem": "Choose the best option for blank [20] in the passage:",
+            "expl": (
+                "［考点提炼］动词短语辨析。\n"
+                "［解题思路］空格处与 be more forward-thinking and creative 并列，后接 R&D more than the average。lean towards 意为“倾向于、偏向”，指快乐的人会比普通人更加偏向于研发投入，符合全文核心主旨。\n"
+                "［错项排除］[A] pray for 意为“为……祈祷”；[C] send out 意为“派遣、散发”；[D] give away 意为“赠送、泄露”，均与商业研发投资决策风马牛不相及。"
+            )
+        },
+        21: {
+            "ans": "B",
+            "stem": "Cortina holds that early exposure to computer science makes it easier to",
+            "expl": (
+                "［精准定位］根据题干中的关键词 Cortina 和 early exposure 定位至第 2 段。\n"
+                "［解题思路］第 2 段明确指出：“When younger kids learn computer science... It's not as hard for them to transform their thought processes as it is for older students. Breaking down problems into bite-sized chunks and using code to solve them becomes normal.” 即尽早接触计算机科学，孩子改变其思维模式（transform their thought processes）不像大孩子那么困难。选项 [B] remodel the way of thinking（重塑思维方式）是对 transform their thought processes 的同义替换，故为正确答案。\n"
+                "［错项排除］[A] complete future job training（完成未来的岗位培训），文中未提及在培训上的容易度；[C] formulate logical hypotheses（形成逻辑假设），文中提到了 test hypotheses（检验假设），但并非指形成假设；[D] perfect artwork production（完善艺术品制作），文中说的是 create artwork（创作艺术品），并非完善制作过程。"
+            )
+        },
+        22: {
+            "ans": "B",
+            "stem": "In delivering lessons for high-schoolers, Flatiron has considered their",
+            "expl": (
+                "［精准定位］根据题干关键词 Flatiron 和 high-schoolers 定位至第 4 段。\n"
+                "［解题思路］第 4 段提到：“The high-schoolers get the same curriculum, but 'we try to gear lessons toward things they're interested in,' said Victoria Friedman...”。教师 Victoria Friedman 明确指出他们尽量使课程贴合学生“感兴趣的事物（things they're interested in）”。选项 [B] interest 正是对 interested in 的词性转换与同义表达，故为正确答案。\n"
+                "［错项排除］[A] experience（经验），第 1 段指出即便没有经验也能跟上，Flatiron 并没有要求或考虑经验；[C] career prospects（职业前景），第 4 段指出成人参加训练营是为了转行，但高中生并非出于职业前景考虑；[D] academic backgrounds（学术背景），文中未提及对高中生学术背景的考量。"
+            )
+        },
+        23: {
+            "ans": "A",
+            "stem": "Deborah Seehorn believes that the skills learned at Flatiron will",
+            "expl": (
+                "［精准定位］根据人名 Deborah Seehorn 定位至第 5 段末尾。\n"
+                "［解题思路］第 5 段末尾指出：“But the skills they learn - how to think logically through a problem and organize the results - apply to any coding language, said Deborah Seehorn...”。Seehorn 指出学生学到的是逻辑思维和组织结果的能力，这些技能具有高度普适性。结合第 2 段关于建立应用、创作艺术或检验假设等综合能力，选项 [A] help students learn other subjects（帮助学生学习其他科目）抓住了这些核心思维能力跨学科赋能的本质，故为正确答案。\n"
+                "［错项排除］[B] foster students' creativity in gaming（培养学生在游戏方面的创造力），文中未提及游戏设计或创造力；[C] need improving when students look for jobs（学生找工作时需要提升），文中明确指出这些技能通用，且第 6 段强调并非人人都去 IT 行业找工作；[D] enable students to make big quick money（使学生赚大钱快钱），属于无中生有、过度功利的臆想选项。"
+            )
+        },
+        24: {
+            "ans": "C",
+            "stem": "According to the last paragraph, Flatiron students are expected to",
+            "expl": (
+                "［精准定位］根据题干中的 the last paragraph 定位至第 6 段（最后一段）。\n"
+                "［解题思路］最后一段指出：“Indeed, the Flatiron students might not go into IT at all. But creating a future army of coders is not the sole purpose of the classes... The younger they learn how computers think, how to coax the machine into producing what they want... the better.” 文章指出学习编程不是为了人人都做程序员，而是为了让孩子们置身于被计算机包围的未来时，懂得计算机的逻辑，能够“引导/哄动机器产生他们想要的结果”。选项 [C] become articulate about technical issues（能够清楚表达和掌握技术问题，懂得技术逻辑与控制机器）符合文意对掌握计算机核心思维的期待，故选 [C]。\n"
+                "［错项排除］[A] bring fresh vitality to the school（为学校带来新生机），文中未提及对学校本身的贡献；[B] stay longer in the information technology industry（在 IT 行业工作更久），文首就明确否定了“might not go into IT at all”；[D] compete with a future army of programmers（与未来的程序员大军竞争），文中说的是学校目的不是创造程序员大军（not the sole purpose），更未让高中生去竞争。"
+            )
+        },
+        25: {
+            "ans": "A",
+            "stem": "The word \"coax\" (Line 4, Para. 6) is closest in meaning to",
+            "expl": (
+                "［精准定位］根据题干指引定位至第 6 段倒数第 2 句：“how to coax the machine into producing what they want”。\n"
+                "［解题思路］句子主干为 how to coax the machine into doing sth.（如何……机器产生他们想要的东西）。在计算机编程语境中，程序员通过输入逻辑代码引导、驱动计算机完成指定任务。coax 本义为“耐心地哄诱、劝导、循序渐进地引导”，此处比喻耐心地调试指令驱使机器运作。选项 [A] persuade 意为“说服、劝说”，最贴近“通过指令引导/哄劝”的比喻义，故为正确答案。\n"
+                "［错项排除］[B] frighten 意为“吓唬、恐吓”；[C] misguide 意为“误导”；[D] challenge 意为“挑战”，均与指导机器正向输出结果的语境完全相悖。"
+            )
+        },
+        26: {
+            "ans": "A",
+            "stem": "The major reason for listing the lesser prairie chicken as threatened is",
+            "expl": (
+                "［精准定位］根据题干关键词 major reason 和 listing the lesser prairie chicken as threatened 定位至第 1 段和第 2 段开头。\n"
+                "［解题思路］第 1 段指出原先多达 200 万只的原生草原鸡如今仅存约 2.2 万只（just some 22,000 birds remain today），栖息地仅剩历史范围的 16%。第 2 段首句紧承上文明确说明：“The crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened.” 这里的 crash 指代第 1 段提到的数量暴跌。选项 [A] its drastically decreased population（其种群数量急剧下降）正是 crash 的精准替换，故为正确答案。\n"
+                "［错项排除］[B] the underestimate of the grassland acreage（低估草地面积），草地破坏是客观事实而非低估面积；[C] a desperate appeal from some biologists（来自某些生物学家的绝望呼吁），文中 Daniel Ashe 提到处于绝望境地，但这并非主管机构列入受威胁名录的根本原因；[D] the insistence of private landowners（私有土地所有者的坚持），私有土地所有者通常抵触联邦管制，而非要求列入受威胁名单。"
+            )
+        },
+        27: {
+            "ans": "C",
+            "stem": "The \"threatened\" tag disappointed some environmentalists in that it",
+            "expl": (
+                "［精准定位］根据题干关键词 \"threatened\" tag 和 disappointed some environmentalists 定位至第 2 段中段。\n"
+                "［解题思路］第 2 段第 3-4 句指出：“Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as 'endangered,' a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the 'threatened' tag gave the federal government flexibility...”。环保人士希望将其列为“濒危（endangered）”，因为濒危标签能赋予联邦官员更强的监管权来打击威胁；而“受威胁（threatened）”标签所赋予的联邦管制权力相对较小。选项 [C] granted less federal regulatory power（赋予了更少的联邦监管权力）正是反向解释环保人士感到失望的原因，故为正确答案。\n"
+                "［错项排除］[A] was a give-in to governmental pressure（向政府压力妥协），文中是联邦机构内部策略调整，并非向外部政府妥协；[B] would involve fewer agencies in action（将使更少的机构参与行动），后文明确提到动员了州政府和多方机构参与；[D] went against conservation policies（违反了保护政策），该标签本身就是保护政策的一种，并未违背政策。"
+            )
+        },
+        28: {
+            "ans": "A",
+            "stem": "It can be learned from Paragraph 3 that unintentional harm-doers will not be",
+            "expl": (
+                "［精准定位］根据题干中的 Paragraph 3 和 unintentional harm-doers 定位至第 3 段开头。\n"
+                "［解题思路］第 3 段第 1 句指出：“Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan...”。句中明确说明只要签署了管理协议，主管机构“would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird”。选项 [A] prosecuted by other agencies（被主管机构起诉），由 not be 否定后与 not prosecute 形成完美对应，故为正确答案。\n"
+                "［错项排除］[B] volunteered to set up an equally big habitat（自愿设立同样大的栖息地），协议要求补偿 2 倍面积（2 new acres），而非 equally big，且属强制出资机制；[C] fined for violating the conservation plan（因违反保护计划而被罚款），如若违反计划自然会被追责，文中并未豁免违法者；[D] exempt from federal criminal penalties（免除联邦刑事处罚），文中只提到在签署恢复协议前提下不被 prosecute，未做绝对免除刑事处罚的泛化承诺。"
+            )
+        },
+        29: {
+            "ans": "D",
+            "stem": "According to Ashe, the leading role in managing the species is",
+            "expl": (
+                "［精准定位］根据人名 Ashe 定位至第 3 段最后一句。\n"
+                "［解题思路］第 3 段末尾引用 Ashe 的原话明确指出：“Overall, the idea is to let 'states remain in the driver's seat for managing the species,' Ashe said.”。in the driver's seat 是地道英语习语，意为“处于控制地位、居于主导/领先地位”。由此可知，Ashe 认为主导物种管理的是各个州（the states）。选项 [D] the states 是原文的直接对应，故为正确答案。\n"
+                "［错项排除］[A] the federal government（联邦政府），Ashe 明确主张将控制权下放给州；[B] the wildlife agencies（野生动物机构），文中 WAFWA 负责的是 monitoring progress，并非主导治理的掌舵者；[C] the local landowners（当地土地拥有者），土地所有者是合作与补偿对象，并不掌控主导地位。"
+            )
+        },
+        30: {
+            "ans": "C",
+            "stem": "Jay Lininger would most likely support",
+            "expl": (
+                "［精准定位］根据人名 Jay Lininger 定位至第 4 段最后一句。\n"
+                "［解题思路］第 4 段末尾引用生物多样性中心高级科学家 Jay Lininger 的批评：“'The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,' says Jay Lininger...”。结合第 4 段前文“environmentalists say it doesn't go far enough”，Lininger 作为环保机构科学家，对妥协方案极为不满，其立场与环保团体的诉求高度一致。选项 [C] environmental groups（环保团体）正是其立场的代表，故为正确答案。\n"
+                "［错项排除］[A] the industry-friendly compromise（对工业界友好的妥协），Lininger 猛烈抨击联邦政府将责任交给破坏生态的工业界，断然不会支持该妥协；[B] the win-win rhetoric（双赢的说辞），第 4 段首句明确指出“Not everyone buys the win-win rhetoric”，Lininger 是反对者；[D] the plan under challenge（受到质疑的保护计划），Lininger 认为该方案无异于让凶手管案子，坚决反对该方案。"
+            )
+        },
+        31: {
+            "ans": "D",
+            "stem": "The usual time-management techniques don't work because",
+            "expl": (
+                "［精准定位］根据题干中的 usual time-management techniques don't work 定位至第 2 段。\n"
+                "［解题思路］第 2 段首句指出“What makes the problem thornier is that the usual time-management techniques don't seem sufficient”，随后解释原因：“Sit down to read and the flywheel of work-related thoughts keeps spinning... Deep reading requires not just time, but a special kind of time which can't be obtained merely by becoming more efficient.” 深度阅读所需要的特殊专注时间无法通过追求高效率的时间管理技巧来获得。选项 [D] what deep reading requires cannot be guaranteed（深度阅读所需的前提条件无法得到保障）准确概括了这一因果关系，故为正确答案。\n"
+                "［错项排除］[A] what they can offer does not ease the modern mind（它们所能提供的无法缓解现代人的思维），文中指出现代人思维倾向于被干扰，但技巧不管用的根本在于无法保障深度阅读所需的心态；[B] what challenging books demand is repetitive reading（挑战性书籍要求重复阅读），文中未提及重复阅读；[C] what people often forget is carrying a book with them（人们经常忘记随身带书），文中指出即便带了书，零碎时间也解决不了思维飞转的问题，并非忘记带书。"
+            )
+        },
+        32: {
+            "ans": "B",
+            "stem": "The \"empty bottles\" metaphor illustrates that people feel a pressure to",
+            "expl": (
+                "［精准定位］根据题干中的 \"empty bottles\" metaphor 定位至第 3 段后半部分。\n"
+                "［解题思路］第 3 段引用 Gary Eberle 的话指出：“'The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,' writes Gary Eberle in Sacred Time, 'and we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.'” Eberle 把未来比作传送带上迎面而来的空瓶子，人们感到一种必须把流逝的时间填满充实的紧迫感，否则就认为浪费了时间。选项 [B] make passing time fulfilling（让流逝的时间过得充实）准确对应 fill these different-sized bottles as they pass，故为正确答案。\n"
+                "［错项排除］[A] pursue material consumption（追求物质消费），文中 bottles 是时间的比喻，并非物质商品；[C] carry their plans through（贯彻他们的计划），文中强调的是填满时间的焦虑感而非执行计划；[D] pursue carefree reading（追求无忧无虑的阅读），空瓶子比喻揭示的是令人焦虑的功利时间观，与无忧阅读恰恰相反。"
+            )
+        },
+        33: {
+            "ans": "D",
+            "stem": "Eberle would agree that scheduling regular times for reading helps",
+            "expl": (
+                "［精准定位］根据题干中的 Eberle 和 scheduling regular times for reading 定位至第 4 段前两句。\n"
+                "［解题思路］第 4 段前两句指出：“So what does work? Perhaps surprisingly, scheduling regular times for reading. You'd think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us 'step outside time's flow' into 'soul time.'” 安排固定的阅读时间能够帮助人们从传送带般匆忙的时间流中脱离出来，进入宁静的“灵魂时间”，从而实现第 3 段所说的沉浸式阅读（Immersive reading）。选项 [D] achieve immersive reading（实现沉浸式阅读）是对进入不受干扰的阅读境界的高度概括，故为正确答案。\n"
+                "［错项排除］[A] encourage the efficiency mind-set（助长效率至上的心态），文中明确指出“You'd think this might fuel the efficiency mind-set, but in fact... helps us step outside...”，表示它打破了效率迷思；[B] develop online reading habits（培养网络阅读习惯），后文建议读实体书（physical books），而非网络阅读；[C] promote ritualistic reading（促进仪式化阅读），文中是说 ritualistic behavior 带来良好效果，手段是工具而非最终目标。"
+            )
+        },
+        34: {
+            "ans": "A",
+            "stem": "\"Carry a book with you at all times\" can work if",
+            "expl": (
+                "［精准定位］根据题干中的 \"Carry a book with you at all times\" can work 定位至第 4 段倒数第 2 句。\n"
+                "［解题思路］第 4 段倒数第 2 句指出：“'Carry a book with you at all times' can actually work, too - providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down.” 条件是经常翻阅，以至于“阅读成了常态/默认状态，而处理事务只是临时浮出水面”。换言之，阅读成为了人一天当中的核心要务（primary business）。选项 [A] reading becomes your primary business of the day 精准契合 default state 的内涵，故为正确答案。\n"
+                "［错项排除］[B] all the daily business has been promptly dealt with（所有日常事务已得到迅速处理），文中说的是暂且离开阅读去处理事务，而非处理完事务再读；[C] distractions can be completely avoided（干扰可以被彻底避免），文章第 2 段指出现代人不可避免会受干扰，完全避免不切实际；[D] time can be evenly split for reading and business（时间可以在阅读和事务间平分），文中强调的是阅读作为主导常态，而非五五均分时间。"
+            )
+        },
+        35: {
+            "ans": "B",
+            "stem": "The best title for this text could be",
+            "expl": (
+                "［精准定位］全文主旨题，通读全文把握核心脉络。\n"
+                "［解题思路］文章开篇提出核心问题：人们普遍抱怨“没有时间读书（There's never any time to read）”。第 2-3 段剖析常规的时间管理方法为何无效，指出现代人的时间焦虑和效率陷阱；第 4 段则针对性地提出破局良方：“So what does work? Perhaps surprisingly, scheduling regular times for reading...”，最终达到“making time for everything else”的境界。整篇文章全方位围绕“如何才能真正挤出时间来读书”展开。选项 [B] How to Find Time to Read（如何找到时间读书）最为精准传神，故为正确答案。\n"
+                "［错项排除］[A] How to Enjoy Easy Reading（如何享受轻松阅读），本文重点探讨的是深度阅读的时间困境而非轻松阅读；[C] How to Set Reading Goals（如何设定阅读目标），第 3 段明确指出 goal-focused reading 容易损害沉浸体验，并非主旨；[D] How to Read Extensively（如何进行泛读），文章倡导的是 deep reading / immersive reading，而非泛读。"
+            )
+        },
+        36: {
+            "ans": "B",
+            "stem": "One cross-generation mark of a successful life is",
+            "expl": (
+                "［精准定位］根据题干关键词 cross-generation mark 和 successful life 定位至第 2 段第 1 句。\n"
+                "［解题思路］第 2 段首句明确指出：“Across generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties.” 跨越几代人，美国人共同珍视的成功里程碑包括结婚、生子（having children）、买房以及六十岁退休。选项 [B] having a family with children（拥有带孩子的家庭）正是 getting married, having children 的综合概括，故为正确答案。\n"
+                "［错项排除］[A] trying out different lifestyles（尝试不同的生活方式），属于部分年轻人个性化选择，非跨代共识；[C] working beyond retirement age（工作至退休年龄之后），文中明确提到的是 retiring in their sixties（六十岁退休）；[D] setting up a profitable business（建立盈利企业），文中未将其列为跨代共同的成功标志。"
+            )
+        },
+        37: {
+            "ans": "C",
+            "stem": "It can be learned from Paragraph 3 that young people tend to",
+            "expl": (
+                "［精准定位］根据题干中的 Paragraph 3 定位至第 3 段。\n"
+                "［解题思路］第 3 段详细罗列了年轻人的观念差异，其中指出：“...to agree that couples should be financially secure before getting married or having children...”。年轻人认为夫妻双方必须在经济稳定之后才能结婚或生子，说明他们推迟了婚姻，对结婚的态度更加审慎，不再视其为青年早期的唯一头等大事。选项 [C] attach less importance to marriage（不把婚姻看得那么重/推迟看轻即时婚姻的绝对优先级）是对这一现实考量的合理推断，故为正确答案。\n"
+                "［错项排除］[A] favor a slower life pace（喜欢更慢的生活节奏），文中明确说年轻人“favor... a faster pace of life（喜欢更快的节奏）”，彻底与文意相悖；[B] hold an occupation longer（在同一职业停留更久），文中指出年轻人主张“regularly changing jobs（频繁跳槽）”，选项正反颠倒；[D] give priority to childcare outside the home（优先考虑家庭外的托儿服务），文中说的是父母双职工，并非托儿所优先。"
+            )
+        },
+        38: {
+            "ans": "D",
+            "stem": "The priorities and expectations defined by the young will",
+            "expl": (
+                "［精准定位］根据题干关键词 priorities and expectations defined by the young 定位至第 4 段。\n"
+                "［解题思路］第 4 段指出：“From career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.” 刚刚步入社会的年轻人所定义的优先级和期望“将逐渐渗透到美国人生活的几乎方方面面（virtually all aspects of American life）”。选项 [D] reach almost all aspects of American life（触及美国生活的几乎所有方面）是对 spread through virtually all aspects 的精准同义替换，故为正确答案。\n"
+                "［错项排除］[A] become outdated soon（很快过时），文中强调的是影响会日益扩散，不会迅速过时；[B] focus on materialistic issues（聚焦于物质问题），文中不仅包含消费，还涵盖社区、家庭、政治与个人实现；[C] depend largely on political preferences（主要取决于政治偏好），文中说的是影响渗透到政治等各个方面，并非反过来由政治偏好决定。"
+            )
+        },
+        39: {
+            "ans": "D",
+            "stem": "Both young and old agree that",
+            "expl": (
+                "［精准定位］根据题干关键词 Both young and old agree 定位至第 5 段第 1 句。\n"
+                "［解题思路］第 5 段首句明确指出：“Young and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations.” 无论年轻人还是年长者，压倒性多数都一致认为“当今年轻人自立成家立业比前几代人要艰难得多”。选项 [D] getting established is harder for the young（对于年轻人而言自立起步更加困难）是 harder for young people to get started in life 的精准同义替换，故为正确答案。\n"
+                "［错项排除］[A] good-paying jobs are less available（高薪职位更少了），高薪职位只是起步艰难的一个具体方面，并非共同认同的概括论点；[B] the old made more life achievements（老年人取得了更多人生终身成就），文中未做成就总量的对比；[C] social security is well preserved（社会保障维持良好），文中未讨论社会保障制度的完好程度。"
+            )
+        },
+        40: {
+            "ans": "C",
+            "stem": "Which of the following is true about Schneider?",
+            "expl": (
+                "［精准定位］根据人名 Schneider 定位至第 6 段（最后一段）。\n"
+                "［解题思路］第 6 段后半部分指出：“Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. 'I still grew up in an upper middle-class home with parents who didn't have college degrees,' Schneider said.” 施耐德回忆自己的父母都没有大学文凭（didn't have college degrees），却依然为子女提供了优渥舒适的中产阶层生活。选项 [C] His parents' good life has little to do with a college degree.（他父母的良好生活与大学学位关系不大）完全符合原文事实，故为正确答案。\n"
+                "［错项排除］[A] He found a dream job after graduating from college.（他大学毕业后找到了一份梦想的工作），原文明确指出他“struggled to find a job after graduating”，并非顺利找到梦想工作；[B] His parents believe working steadily is a must for success.（他的父母坚信稳定工作是成功的必备条件），文中未讨论其父母对稳定工作的信仰；[D] He thinks his job as a technician quite challenging.（他认为自己作为技工的工作极具挑战性），文中只讨论了工资无法单枪匹马还月供的经济压力，并未抱怨技术工作本身的难度。"
+            )
+        },
+        41: {
+            "ans": "D",
+            "stem": "Choose the most suitable subheading from A-G for section [41]:",
+            "expl": (
+                "［精准定位］根据段落 [41] 的核心内容定位分析。\n"
+                "［解题思路］第 [41] 节开篇提到：“What does a child do when he's sad? He cries. When he's angry? He shouts. Scared? Probably a bit of both.” 说明小孩喜怒哀乐自然流露。接着批评成人往往压抑情感（suppressing emotions），最后总结指出成年人应该像孩子一样：“find a way to acknowledge and express what we feel appropriately, and then move on”（找到合理承认和宣泄情感的方式）。选项 [D] Express your emotions（表达你的情绪）精准涵盖了整段主旨，故为正确答案。\n"
+                "［错项排除］[A] Be silly（傻一点），对应后文大笑与顽皮；[B] Have fun（享受乐趣），对应规划时间做喜爱的事；[C] Ask for help（寻求帮助），文中未提及求助；[E] Don't overthink it（别想太多），对应末尾不过分强求幸福；[F] Be easily pleased（容易满足），对应一件 T 恤就能开心。"
+            )
+        },
+        42: {
+            "ans": "F",
+            "stem": "Choose the most suitable subheading from A-G for section [42]:",
+            "expl": (
+                "［精准定位］根据段落 [42] 的核心内容定位分析。\n"
+                "［解题思路］第 [42] 节叙述了作者 9 岁的继女只得到了一件不足 5 英镑的超人 T 恤，却兴奋不已、喜形于色。作者借此对比成年人总以为大房子、好车才能满足，而事实上这些持久性很低，正确的做法是：“being grateful for small things every day is a much better way to improve wellbeing”（为每天细微的小事心存感激）。选项 [F] Be easily pleased（容易满足、知足常乐）精准契合本段通过微小事物获得快乐的哲理，故为正确答案。\n"
+                "［错项排除］[A] Be silly 强调滑稽搞笑；[B] Have fun 强调休闲娱乐；[C] Ask for help 强调求助他人；[D] Express your emotions 对应上一段的情感宣泄；[E] Don't overthink it 对应末尾庄子名言。"
+            )
+        },
+        43: {
+            "ans": "A",
+            "stem": "Choose the most suitable subheading from A-G for section [43]:",
+            "expl": (
+                "［精准定位］根据段落 [43] 的核心内容定位分析。\n"
+                "［解题思路］第 [43] 节首句设问：“Have you ever noticed how much children laugh?” 接着指出如果成年人也能“indulge in a bit of silliness and giggling（沉浸于少许傻气和吃吃傻笑）”，就能减少压力荷尔蒙、增加内啡肽分泌。全段紧扣 silliness and giggling 展开。选项 [A] Be silly（傻气一点、天真顽皮一点）是段落核心关键词 silliness 的直接对应，故为正确答案。\n"
+                "［错项排除］[B] Have fun 过于宽泛，未突出 silliness 的专属傻气与欢笑特征；[C] Ask for help、[D] Express your emotions、[E] Don't overthink it、[F] Be easily pleased 均不符合本段笑声与童稚傻气的主题。"
+            )
+        },
+        44: {
+            "ans": "B",
+            "stem": "Choose the most suitable subheading from A-G for section [44]:",
+            "expl": (
+                "［精准定位］根据段落 [44] 的核心内容定位分析。\n"
+                "［解题思路］第 [44] 节指出成年人面临很多繁重的严肃事务（serious stuff），但成年人的优势在于拥有自主支配日程的自由：“it's important that we schedule in time to enjoy the things we love... so long as they're enjoyable...”。强调一定要在生活中留出专门的时间去享受自己热爱的事情，寻找纯粹的快乐。选项 [B] Have fun（尽情享乐、寻找乐趣）精准提炼了安排时间享受生活乐趣的核心旨趣，故为正确答案。\n"
+                "［错项排除］[A] Be silly 对应上一段的大笑；[C] Ask for help 文中未提及；[D] Express your emotions 对应情绪表达；[E] Don't overthink it 对应下文别强求幸福；[F] Be easily pleased 对应微小礼物的知足。"
+            )
+        },
+        45: {
+            "ans": "E",
+            "stem": "Choose the most suitable subheading from A-G for section [45]:",
+            "expl": (
+                "［精准定位］根据段落 [45] 的核心内容定位分析。\n"
+                "［解题思路］第 [45] 节首句点题：“we shouldn't try too hard to be happy. Scientists tell us this can backfire...”，过分用力追求幸福反而会适得其反。随后引用中国古代哲学家庄子的名言：“Happiness is the absence of striving for happiness”（至乐无乐）。说明不应思虑过多、刻意强求，幸福是生活方式的自然副产品。选项 [E] Don't overthink it（别想太多、顺其自然）高度概括了“不刻意追求幸福”的超脱心态，故为正确答案。\n"
+                "［错项排除］[A] Be silly、[B] Have fun、[C] Ask for help、[D] Express your emotions、[F] Be easily pleased 均偏离了庄子顺其自然、切忌用力过猛的哲思主旨。"
+            )
+        }
+    }
+
+    # Apply gold updates to all 45 questions
+    for idx, q in enumerate(questions):
+        so = idx + 1
+        cfg = gold_q_configs[so]
+        q['question_number'] = so
+        q['sort_order'] = so
+        q['stem'] = cfg['stem']
+        q['answer'] = cfg['ans']
+        q['correct_answer'] = cfg['ans']
+        q['explanation'] = cfg['expl']
+        if so <= 20:
+            q['score'] = 0.5
+            q['question_type'] = 'cloze_item'
+            q['q_type'] = 'cloze_item'
+        else:
+            q['score'] = 2.0
+            q['question_type'] = 'reading_item'
+            q['q_type'] = 'reading_item'
+
+    with open(JSON_PATH, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+    print("Successfully built 2016 ky2 Gold Standard Engine!")
+    print(f"Exam title: {data['exam']['title']}")
+    print(f"Total passages: {len(data['passages'])}, Total questions: {len(data['questions'])}")
+    for i, p in enumerate(data['passages']):
+        print(f"  P{i}: {p['title']} (paras={len(p['content'].split(chr(10)+chr(10)))}, len={len(p['content'])})")
+
+if __name__ == '__main__':
+    build_gold_engine()
