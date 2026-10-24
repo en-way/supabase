@@ -2,12 +2,12 @@
   "exam": {
     "id": "8868dd40-75bf-590b-98a4-a516c5e1c161",
     "category_id": "ky2",
-    "title": "2018年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2018年全国硕士研究生招生考试英语（二）真题",
     "year": 2018,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Why do people read negative Internet comments and do other things that will obviously be painful? Because humans have an inherent need to [1] uncertainty, according to a recent study in Psychological Science. The new research reveals that the need to know is so strong that people will [2] to satisfy their curiosity even when it is clear the answer will [3].\n\nIn a series of four experiments, behavioral scientists tested students' willingness to [4] themselves to unpleasant stimuli in an effort to satisfy curiosity. For one trial, each participant was shown a pile of pens and told that clicking some would deliver an electric shock. The researchers wanted to see which pens the students would choose to click: pens that were clearly labeled as shocking, pens labeled as safe, or pens whose status was a [5].\n\nWhen participants were left alone, they were substantially more likely to click the uncertain pens. In another experiment, the researchers found that students who faced uncertain outcomes clicked more pens than those who were warned. The need to resolve uncertainty seems so strong that people are willing to [6] painful outcomes. [7] curiosity is generally beneficial, helping humans explore and learn, it can sometimes lead to irrational and even [8] choices. Rather than seeking what is pleasant, people often chase uncertainty [9] the potential pain it may cause. We seem driven to see what lies behind the unknown door, even if we know a monster lurks behind it.\n\nThe drive to [10] is deeply rooted in humans, much the same as the basic drives for [11] or shelter, says Christopher Hsee of the University of Chicago. Curiosity is often considered a good instinct - it can [12] new scientific advances, for instance - but sometimes such [13] can backfire. The insight that curiosity can drive you to do [14] things is a profound one.\n\nUnhealthy curiosity is possible to [15], however. In a final experiment, participants who were encouraged to [16] how they would feel after viewing an unpleasant picture were less likely to [17] to see such an image. These results suggest that imagining the [18] of following through on one's curiosity ahead of time can help determine [19] it is worth the endeavor. \"Thinking about long-term [20] is key to reducing the possible negative effects of curiosity,\" Hsee says. In other words, don't read online comments.",
+      "content": "Why do people read negative Internet comments and do other things that will obviously be painful? Because humans have an inherent need to [1] uncertainty, according to a recent study in Psychological Science. The new research reveals that the need to know is so strong that people will [2] to satisfy their curiosity, even when it is clear the answer will [3].\n\nIn a series of four experiments, behavioral scientists at the University of Chicago and the Wisconsin School of Business tested students' willingness to [4] themselves to unpleasant stimuli in an effort to satisfy curiosity. For one [5], each participant was shown a pile of pens that the researcher claimed were from a previous experiment. The twist? Half of the pens would [6] an electric shock when clicked.\n\nTwenty-seven students were told which pens were electrified; another twenty-seven were told only that some were electrified. [7] left alone in the room, the students who did not know which ones would shock them clicked more pens and incurred more shocks than the students who knew what would [8]. Subsequent experiments reproduced this effect with other stimuli, [9] the sound of fingernails on a chalkboard and photographs of disgusting insects.\n\nThe drive to [10] is deeply rooted in humans, much the same as the basic drives for [11] or shelter, says Christopher Hsee of the University of Chicago. Curiosity is often considered a good instinct - it can [12] new scientific advances, for instance - but sometimes such [13] can backfire. The insight that curiosity can drive you to do [14] things is a profound one.\n\nUnhealthy curiosity is possible to [15], however. In a final experiment, participants who were encouraged to [16] how they would feel after viewing an unpleasant picture were less likely to [17] to see such an image. These results suggest that imagining the [18] of following through on one's curiosity ahead of time can help determine [19] it is worth the endeavor. \"Thinking about long-term [20] is key to reducing the possible negative effects of curiosity,\" Hsee says. In other words, don't read online comments.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future. Mr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical. When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bikechain?\n\nAs Koziatek knows, there is learning in just about everything Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum. They can also learn geometry by assembling a bicycle. But he's also found a kind of insidious prejudice. Working with your hands is seen as almost a mark of inferiority. Schools in the family of vocational education “have that stereotype...that it's for kids who can't make it academically,\"he says.\n\nOn one hand, that viewpoint is a logical product of America's evolution. Manufacturing is not the economic engine that it once was. The job security that the US economy once offered to high school graduates has largely evaporated. More education is the new principle. We want more for our kids, and rightfully so.\n\nBut the headlong push into bachelor's degrees for all - and the subtle devaluing of anything less - misses an important point: That's not the only thing the American economy needs. Yes, a bachelor's degree opens more doors. But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and high-skill manufacturing. But only 44 percent of workers are adequately trained. In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face. There is a gap in working-class jobs, but the workers who need those jobs most aren't equipped to do them. Koziatek's Manchester school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation's diversity of gifts.",
+      "content": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.\n\nMr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical. When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?\n\nAs Koziatek knows, there is learning in just about everything. Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum. They can also learn geometry by assembling a bicycle.\n\nBut he's also found a kind of insidious prejudice. Working with your hands is seen as almost a mark of inferiority. Schools in the family of vocational education \"have that stereotype... that it's for kids who can't make it academically,\" he says.\n\nOn one hand, that viewpoint is a logical product of America's evolution. Manufacturing is not the economic engine that it once was. The job security that the US economy once offered to high school graduates has largely evaporated. More education is the new principle. We want more for our kids, and rightfully so.\n\nBut the headlong push into bachelor's degrees for all - and the subtle devaluing of anything less - misses an important point: That's not the only thing the American economy needs. Yes, a bachelor's degree opens more doors. But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and advanced manufacturing. But only 44 percent of workers are adequately trained.\n\nIn other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face. There is a gap in working-class jobs, but the workers who need those jobs most aren't equipped to do them. Koziatek's Manchester School of Technology High School is trying to fill that gap.\n\nKoziatek's school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation's diversity of gifts.",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "While fossil fuels - coal, oil, gas - still generate roughly 85 percent of the world's energy supply, it's clearer than ever that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line. Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources. But increasingly the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years. In many parts of the world renewable energy is already a principal energy source.In Scotland, for example, wind turbines rest of the world takes the lead, notably China and Europe, the United States is also seeing a remarkable shift. In March, for the first time, wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration. the path to economic growth. In a recent speech in Iowa, he dismissed wind power as an unreliable energy source. But that message did not play well with many in Iowa, where wind turbines dot the fields and provide 36 percent of the state's electricity generation-and where tech giants like Microsoft are being attracted by the availability of clean energy topower their data centers.\n\nThe question “what happens when the wind doesn't blow or the sun doesn't shine?\" has provided a quick put-down for skeptics. But a power flowing around the clock more likely.\n\nThe advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles. Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years. While there's a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up—perhaps just in time to have a meaningful effect in slowing climate change. What Washington does—or doesn't do—to promote alternative energy may mean less and less at a time of a global shift in thought.",
+      "content": "While fossil fuels - coal, oil, gas - still generate roughly 85 percent of the world's energy supply, it's clearer than ever that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line.\n\nSome growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources. But increasingly the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years.\n\nIn many parts of the world renewable energy is already a principal energy source. In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes. While the rest of the world takes the lead - notably China and Europe - the United States is also seeing a remarkable shift. In March - for the first time - wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.\n\nPresident Trump has underlined fossil fuels - especially coal - as the path to economic growth. In a recent speech in Iowa, he dismissed wind power as an unreliable energy source. But that message did not play well with many in Iowa - where wind turbines dot the fields and provide 36 percent of the state's electricity generation - and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.\n\nThe question \"what happens when the wind doesn't blow or the sun doesn't shine?\" has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.\n\nThe advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles. Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.\n\nWhile there's a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up - perhaps just in time to have a meaningful effect in slowing climate change. What Washington does - or doesn't do - to promote alternative energy may mean less and less at a time of a global shift in thought.",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "The power and ambition of the giants of the digital economy is astonishing-Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $ 13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, offered Facebook was an intricate and finely detailed web of its users friendships and social lives.\n\nFacebook promised the European commission then that it would notlink phone numbers toFacebook identities, but it brokethe promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May's enemies are currently plotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers havepurchasedwhat.\n\nCompetition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don't pay for them. The users of their services are not their customers. That would be the people who buy advertising from them - and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.\n\nThe product they're selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn't feel like a human or democraticrelationship, evenifbothsidesbenefit.",
+      "content": "The power and ambition of the giants of the digital economy is astonishing - Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn't have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives.\n\nFacebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May's enemies are currently plotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n\nCompetition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don't pay for them. The users of their services are not their customers. That would be the people who buy advertising from them - and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.\n\nThe product they're selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn't feel like a human or democratic relationship, even if both sides get something out of it.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of “deep work”- the ability to focus without distraction.\n\nThere are a number of approaches to mastering the art of deep work - be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a “journalistic\"” approach to seizing moments of deep work when you can throughout the day. Whichever approach, the key is to determine your length of focus time and stick to it. Newport also recommends “deep scheduling” to combat constant I d un, ss i p o p s should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would a doctor's appointment or important meeting\", he writes.\n\nAnother approach to getting more done in less time is to rethink Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day.\n\nWhile the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford arguesthatinevitabledistractions oftenrender thedailyto-dolist ineffective, while leaving room for improvisation in such a list can reapthebestresults.\n\nIn order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, \"be lazy\". \"Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body...s, paradoxically, necessary to getting any work done,” he argues. Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitivelink between downtime and productivity may be due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend tobemoreefficient.\n\n\"'What people don't realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,\" says Pillay.",
+      "content": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of \"deep work\" - the ability to focus without distraction.\n\nThere are a number of approaches to mastering the art of deep work - be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a \"journalistic\" approach and seizing moments of deep work when you can find them. Whichever approach, the key is to determine your length of focus time and stick to it.\n\nNewport also recommends \"deep scheduling\" to combat constant interruptions and get more done in less time. \"At any given point, I should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would a doctor's appointment or important meeting,\" he writes.\n\nAnother approach to getting more done in less time is to rethink how you prioritise your day - in particular how we craft our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day.\n\nWhile the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.\n\nIn order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, \"be lazy\". \"Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body... and it is, paradoxically, necessary to getting any work done,\" he argues.\n\nSrini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity is due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient. \"What people don't realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,\" says Pillay.",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions: Read the following text and match each of the numbered sections (Questions 41-45) with the most suitable heading from the list A-G.\n\nMark your answers on the ANSWER SHEET. (10 points)\n\n[A] Just say it\n\n[B] Be present\n\n[C] Pay a unique compliment\n\n[D] Name, places, things\n\n[E] Find the \"me too\"s\n\n[F] Skip the small talk\n\n[G] Ask for an opinion\n\nFive Ways to Make Conversation with Anyone\n\nConversations are links, which means when you have a conversation with a new person a link gets formed and every conversation you have after that moment will strengthen the link. You meet new people every day: the grocery worker, the cab driver, new people at work or the security guard at the door. Simply starting a conversation with them will form a link. Here are five simple ways that you can make the first move and start a conversation with strangers.\n\n[41] ____________________ Suppose you are in a room with someone you don't know and something within you says \"I want to talk with this person\"—this is something that mostly happens with all of us. You wanted to say something—the first word—but it just won't come out, it feels like it is stuck somewhere. I know the feeling and here is my advice: just get it out. Just think: what is the worst that could happen? They won't talk with you? Well, they are not talking with you now! I truly believe that once you get that first word out everything else will just flow. So keep it simple: \"Hi\", \"Hey\" or \"Hello\"—do the best you can to gather all of the enthusiasm and energy you can, put on a big smile and say \"Hi\".\n\n[42] ____________________ It is a problem all of us face: you have limited time with the person that you want to talk with and you want to make this talk memorable. If you stick to mundane pleasantries about the weather or traffic, you will fail to give the initial jolt to the conversation that can make it so memorable. So don't be afraid to ask more personal, provocative questions. Trust me, you'll be surprised to see how much people are willing to share if you just ask.\n\n[43] ____________________ When you meet a person for the first time, make an effort to find the things which you and that person have in common so that you can build the conversation from that point. Whether it's a shared hometown, mutual acquaintances, a favorite musical artist, or a shared pet preference, mutual commonalities establish instantaneous rapport. When you start conversation from there and then move outwards, you'll find all of a sudden that the conversation becomes a lot easier.\n\n[44] ____________________ Imagine you are pouring your heart out to someone and they are just busy on their phone, nodding absentmindedly while scrolling through social media. Nothing kills a budding connection faster. So when someone tries to communicate with you, just be in that communication fully. Put away your devices, look the speaker in the eye, and listen with genuine curiosity. When you make authentic eye contact, you can feel the conversation come alive.\n\n[45] ____________________ You all came into a conversation where you first met a person, but after some time you may have met again and have forgotten their name. Isn't that awkward! So, remember the little details of the people you met or talked with: their names, the places they have been to, the places they want to go, the things they like, the things they hate—whatever you talk about. When you remember such things you automatically become an investor in their well-being. So they feel a responsibility to you to keep that relationship going.",
+      "content": "Five Ways to Make Conversation with Anyone\n\nConversations are links, which means when you have a conversation with a new person a link gets formed and every conversation you have after that moment will strengthen this link.\n\nYou meet new people every day: the grocery worker, the cab driver, new people at work or the security guard at the door. Simply starting a conversation with them will jump start your networking skills.\n\nHere are five simple ways that you can make the first move and start a conversation with strangers.\n\n[41] ____________________\nSuppose you are in a room with someone you don't know and something within you says \"I want to talk with this person\" - this is something that mostly happens with all of us. You wanted to say something, the first word, but it just won't come out - it feels like it is stuck somewhere. I know the feeling and here is my advice: just get it out.\nJust think: what is the worst that could happen? They won't talk with you? Well, they are not talking with you now!\nI truly believe that once you get that first word out everything else will just flow. So keep it simple: \"Hi\", \"Hey\" or \"Hello\" - do the best you can to gather all of the enthusiasm and energy you can, put on a big smile and just say \"Hi\".\n\n[42] ____________________\nIt's a problem all of us face: you have limited time with the person that you want to talk with and you want to make this talk memorable.\nHonestly, if we got stuck in the rut of \"hi\", \"hello\", \"how are you?\" and \"what's going on?\", you will fail to give the initial jolt to the conversation that can make it memorable.\nSo don't be afraid to ask more personal questions. Trust me, you'll be surprised to see how much people are willing to share if you just ask.\n\n[43] ____________________\nWhen you meet a person for the first time, make an effort to find the things which you and that person have in common so that you can build the conversation from that point. When you start conversation from there and then move outwards, you'll find all of a sudden that the conversation becomes a lot easier.\n\n[44] ____________________\nImagine you are pouring your heart out to someone and they are just busy on their phone, and if you ask for their attention you get the response \"I can multitask\". It is not pleasant and it shows that you don't care about the person.\nSo when someone tries to communicate with you, just be in that communication wholeheartedly. Make eye contact. Trust me, eye contact is where all the magic happens. When you make eye contact, you can feel the conversation.\n\n[45] ____________________\nYou all came into a conversation where you first met the person, but after some time you may have met again and have forgotten their name. Isn't that awkward!\nSo, remember the little details of the people you met or you talked with; perhaps the places they have been to, the places they want to go, the things they like, the things they hate - whatever you talk about.\nWhen you remember such things you can automatically become investor in their wellbeing. So they feel a responsibility to you to keep that relationship going.\n\nThat's it. Five amazing ways that you can make conversation with almost anyone. Every person is a really good book to read, or to have a conversation with!",
       "sort_order": 6
     }
   ],
@@ -90,30 +90,33 @@
       "options": [
         {
           "key": "A",
-          "text": "protect",
+          "text": "ignore",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "resolve",
+          "text": "protect",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "discuss",
+          "text": "resolve",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "ignore",
+          "text": "discuss",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】动词语义搭配。resolve uncertainty 意为'消除/解决不确定性'，固定搭配，选 B（resolve）。",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］句间因果逻辑＋研究结果一致性。\n［解题思路］首句设问“人们为何会阅读负面的网络评论并做其他令自己不快的事？”。第二句以 Because 给出原因：研究表明，这是因为人类生来就有“消除不确定性的需求”。第三句进一步阐释：研究表明，人们的认知需求是如此强烈。联系三句可推知，an inherent need to resolve uncertainty（消除不确定性、明确认知情形的需求），恰能解释人们为何“宁愿忍受不快也要去阅读负面评论等”。因此C项 resolve 符合文意。\n［错项排除］[A] ignore（忽视；不理）与“强烈的认知需求”语义相反；[B] protect（保护；维护）无法回答首句设问；[D] discuss（讨论；商讨）尚未付诸个人实践，与下文“努力求知（know）”存在偏差。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "7ff1169e-9907-5b1c-8df5-6ddf5c326b3f",
@@ -125,30 +128,33 @@
       "options": [
         {
           "key": "A",
-          "text": "refuse",
+          "text": "seek",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "wait",
+          "text": "refuse",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "regret",
+          "text": "wait",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "seek",
+          "text": "regret",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】动词搭配辨析。seek to satisfy curiosity 意为'试图/寻求'满足好奇心，选 D（seek）。",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］句内因果逻辑＋句间解释关系。\n［解题思路］空格所在的宾语从句为 so...that...（如此……以至于……）结构，people will seek to satisfy their curiosity 说明 the need to know is so strong 所导致的结果。新研究显示，人们的认知需求是如此强烈，以至于他们会试图、设法满足自己的好奇心。seek to do sth 既符合句内因果逻辑，又解释上句研究结果。\n［错项排除］[B] refuse（拒绝）与“认知需求极其强烈”方向相反；[C] wait（等待）偏中性，不足以成为强烈认知需求的结果；[D] regret（后悔；遗憾）同样与强烈认知需求相悖。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c56c8f80-36ab-5394-a4f9-5b9f5f4248d3",
@@ -160,30 +166,33 @@
       "options": [
         {
           "key": "A",
-          "text": "hurt",
+          "text": "rise",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "last",
+          "text": "hurt",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "mislead",
+          "text": "last",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "rise",
+          "text": "mislead",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】动词语义辨析。even when it is clear the answer will hurt 意为哪怕明知答案会带来'伤害/痛苦'，选 A（hurt）。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］句内语义逻辑＋上下文语义一致。\n［解题思路］空格所在时间状语从句为 even when it is clear the answer will hurt。让步逻辑词 even（即使；甚至）提示“答案明显会令人不快”，结合开篇的 negative 与 painful，可进一步确认空格词应表示“伤害；使令人不快/痛苦”。因此B项 hurt 契合文意。\n［错项排除］[A] rise（上升；出现）偏离上下文总体方向；[C] last（持续）搭配不合理且偏离文意；[D] mislead（误导）同样偏离上下文“就算令人不快也要探寻答案”的主旨。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "e69483a5-f79e-5f43-a98f-80513493908d",
@@ -195,30 +204,33 @@
       "options": [
         {
           "key": "A",
-          "text": "alert",
+          "text": "expose",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "tie",
+          "text": "alert",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "treat",
+          "text": "tie",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "expose",
+          "text": "treat",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】动词短语辨析。expose themselves to unpleasant stimuli 意为让自己'暴露于'不适的刺激之下，选 D（expose）。",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］固定短语＋研究内容与结论一致性。\n［解题思路］空格句指出，行为科学家们对“学生是否愿意为了满足好奇心而让自己遭受令人不快的刺激”进行了测试。expose sb to sth 意为“使某人遭受（不快）”。expose themselves to unpleasant stimuli 既与首段末句形成对应，又符合受试者的身份。\n［错项排除］[B] alert（提醒；使警惕）与满足好奇心甘愿受苦文意不符；[C] tie（捆绑；束缚）体现长期接触，而刺激是短暂的；[D] treat（款待）通常接正面美好事物，无法与 unpleasant stimuli 搭配。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "547d6606-3385-56b9-9009-e629e44aec78",
@@ -230,30 +242,33 @@
       "options": [
         {
           "key": "A",
-          "text": "message",
+          "text": "concept",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "review",
+          "text": "message",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "trial",
+          "text": "review",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "concept",
+          "text": "trial",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】名词语义辨析。pens whose status was a trial 意为状态作为'试验/未知'的笔，选 C（trial）。",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］句间衔接关系＋近义指代。\n［解题思路］空格所在短语 For one trial 位于句首作状语，起句间衔接作用。上句总述在一连串四项实验中（In a series of four experiments），下文第三段末句指出随后实验（Subsequent experiments），此处引出其中一项试验的操作，trial（试验；考验）与 experiment 近义，符合上下文。\n［错项排除］[A] concept（概念）、[B] message（信息；消息）、[C] review（回顾；审查）均与实验具体操作步骤的顺接不符。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "0e1e4b76-1573-5b1d-bbdf-c1ce35c61095",
@@ -265,30 +280,33 @@
       "options": [
         {
           "key": "A",
-          "text": "remove",
+          "text": "deliver",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "weaken",
+          "text": "remove",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "interrupt",
+          "text": "weaken",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "deliver",
+          "text": "interrupt",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】动词语义辨析。willing to deliver painful outcomes 意为愿意'招致/承受'痛苦后果，选 D（deliver）。",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］动宾搭配＋上下文语义。\n［解题思路］空格句指出：Half of the pens would deliver an electric shock when clicked（一半的笔在被按动时会产生/发出电击）。deliver an electric shock 表示“释放/给予电击”，符合实验中令人不快的刺激设置。\n［错项排除］[B] remove（移走；消除）、[C] weaken（减弱）、[D] interrupt（打断；中断）均预设前提为“原本所有笔均带电，按动后消除或减弱”，完全倒置了电击产生的顺序与实验机制。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "d0154760-d6a2-5bac-bd8b-a278230010d1",
@@ -300,30 +318,33 @@
       "options": [
         {
           "key": "A",
-          "text": "When",
+          "text": "Unless",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "If",
+          "text": "When",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Though",
+          "text": "If",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Unless",
+          "text": "Though",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】连词语义辨析。When curiosity is generally beneficial 引导时间/让步对比，选 A（When）。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］省略句＋时间条件状语从句。\n［解题思路］逗号前为省略“主语＋be动词”的状语从句，完整形式为 When left alone in the room（当被单独留在房间不加打扰时）。不知道究竟哪些笔带电的学生受好奇心驱使，不停按笔并因此遭受更多电击。When 引出时间与实验情境，符合心理学实验设计规范。\n［错项排除］[A] Unless（除非）逻辑反常；[C] If（如果）通常用于条件假设或分组对照，文中此句为同一测试情境下的行为对比；[D] Though（尽管；虽然）让步逻辑与事实不符。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "80b59871-65f0-5f90-8500-d9d773bc6f2b",
@@ -335,30 +356,33 @@
       "options": [
         {
           "key": "A",
-          "text": "continue",
+          "text": "change",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "happen",
+          "text": "continue",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "disappear",
+          "text": "happen",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "change",
+          "text": "disappear",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】动词语义辨析。lead to irrational choices that happen 意为导致非理性选择的'发生'，选 B（happen）。",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］比较成分的语义相对性＋上下文语境。\n［解题思路］句内形成对比：不知道哪些笔会电击自己的学生（who did not know which ones would shock them）与知道将会发生什么的学生（who knew what would happen）。“知道会发生什么”即知道是否会产生电击，happen 与 shock 形成对应。\n［错项排除］[A] change（改变）、[B] continue（继续）、[D] disappear（消失）均无法与 which ones would shock them 构成自然的语义对比。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3631c249-d831-513b-943a-82f53795d4c5",
@@ -370,30 +394,33 @@
       "options": [
         {
           "key": "A",
-          "text": "rather than",
+          "text": "owing to",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "regardless of",
+          "text": "rather than",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "such as",
+          "text": "regardless of",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "owing to",
+          "text": "such as",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】介词短语辨析。regardless of the potential pain 意为'不顾/不管'潜在的痛苦后果，选 C（regardless of）。",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］句内列举举例逻辑。\n［解题思路］空格句指出随后的实验利用其他刺激（with other stimuli）再现了该效应，空格后紧接着 the sound of fingernails on a chalkboard and photographs of disgusting insects（指甲刮擦黑板的声音和令人作呕的昆虫图片），显然是对“其他刺激”的具体举例。such as 意为“例如；诸如”，用于列举举例。\n［错项排除］[A] owing to（因为；由于）表原因；[B] rather than（而不是）表排除；[C] regardless of（不管；不顾）表让步，均不符合列举逻辑。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "79672e42-9ff2-5fce-8d6c-abccc7b307af",
@@ -405,30 +432,33 @@
       "options": [
         {
           "key": "A",
-          "text": "discover",
+          "text": "disagree",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "forgive",
+          "text": "discover",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "forget",
+          "text": "forgive",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "disagree",
+          "text": "forget",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】动词语义辨析。driven to discover what lies behind 意为受驱使去'发现/探究'未知背后的事物，选 A（discover）。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］短语搭配＋文章主旨。\n［解题思路］第四段首句援引研究者 Hsee 的观点指出：The drive to discover is deeply rooted in humans（探索的欲望深深扎根于人类的本能之中）。The drive to discover 概括了前文的 an inherent need to resolve uncertainty、the need to know 等核心表述，discover（探索；发现）契合全文主旨。\n［错项排除］[A] disagree（不同意；反对）、[C] forgive（原谅；宽恕）、[D] forget（遗忘）均脱离文章讨论的“求知与好奇心本能”主旨。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "37e8defd-2771-5ef1-90aa-0d41833c2edc",
@@ -440,30 +470,33 @@
       "options": [
         {
           "key": "A",
-          "text": "pay",
+          "text": "food",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "marriage",
+          "text": "pay",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "schooling",
+          "text": "marriage",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "food",
+          "text": "schooling",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】名词语义辨析。food choices 意为日常饮食与健康层面的'食物'选择，选 D（food）。",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］句内并列关系＋同级类比。\n［解题思路］空格词与 shelter（住所）通过 or 并列，共同受 the basic drives 修饰，属于人类最基础的生存本能需求。food or shelter（食物与住所）为常见经典并列，用最基本的生理需求类比人类探索欲之强烈。\n［错项排除］[B] pay（工资）、[C] marriage（婚姻）、[D] schooling（学校教育）均不属于最底层的生理生存基本本能需求。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "ea4f706c-02ed-556b-a216-7422dcef259d",
@@ -475,30 +508,33 @@
       "options": [
         {
           "key": "A",
-          "text": "lead to",
+          "text": "begin with",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "rest on",
+          "text": "lead to",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "learn from",
+          "text": "rest on",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "begin with",
+          "text": "learn from",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】动词短语辨析。lead to painful situations 意为'导致/引起'令人痛苦的处境，选 A（lead to）。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］动宾搭配＋正面因果关系。\n［解题思路］破折号内内容为举例说明好奇心是一种有益的本能（a good instinct）：it can lead to new scientific advances（例如它能带来新的科学进步）。lead to 意为“导致；引起；带来”，符合正面积极的因果逻辑。\n［错项排除］[A] begin with（以……为起点）、[C] rest on（依赖于）、[D] learn from（向……学习）均倒置或错置了好奇心与科学进步之间的逻辑因果关系。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c8c3d519-8673-5927-b23d-7ac332396cc1",
@@ -510,30 +546,33 @@
       "options": [
         {
           "key": "A",
-          "text": "withdrawal",
+          "text": "diligence",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "persistence",
+          "text": "withdrawal",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "inquiry",
+          "text": "persistence",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "diligence",
+          "text": "inquiry",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】名词语义辨析。relentless inquiry 意为对未知的持续'探究/追问'，选 C（inquiry）。",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］指代回指＋句内转折。\n［解题思路］转折词 but 提示上下文语义反转：好奇心通常有益，但有时这种探究却可能适得其反（sometimes such inquiry can backfire）。such inquiry 回指前句的 curiosity，inquiry（探究；探索）与 curiosity 近义复现。\n［错项排除］[A] diligence（勤勉）、[B] withdrawal（退缩；退出）、[C] persistence（坚持）均不能准确回指好奇求知本能。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "94deaeaa-9335-5035-9422-12fad331d26d",
@@ -545,30 +584,33 @@
       "options": [
         {
           "key": "A",
-          "text": "self-reliant",
+          "text": "self-deceptive",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "self-destructive",
+          "text": "self-reliant",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "self-evident",
+          "text": "self-destructive",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "self-deceptive",
+          "text": "self-evident",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】形容词辨析。self-destructive choices 意为非理性的'自我毁灭/自残倾向'行为，选 B（self-destructive）。",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］上下文语义顺承＋负面后果修饰。\n［解题思路］空格句指出，好奇心会驱使人们去做 self-destructive things（自我毁灭/自毁之事），这是一种深刻的见解。承接上句的 backfire，指出好奇心可能带来的负面严重后果，self-destructive（自毁的；自我破坏的）精准呼应开篇的痛苦与自残式好奇行为。\n［错项排除］[A] self-deceptive（自欺欺人的）语义过窄；[B] self-reliant（自力更生的）为褒义词；[D] self-evident（显而易见的；不言而喻的）为中性词，均不符合负面有害语境。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "17ca3d5d-7a2f-5552-89e4-d34950104601",
@@ -580,30 +622,33 @@
       "options": [
         {
           "key": "A",
-          "text": "define",
+          "text": "trace",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "resist",
+          "text": "define",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "replace",
+          "text": "resist",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "trace",
+          "text": "replace",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】动词语义辨析。resist the temptation 意为难以'抵制'好奇诱惑，选 B（resist）。",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］段首转折＋应对策略。\n［解题思路］末段首句以 however 转折上文的好奇心负面危害，开启应对解决之道：Unhealthy curiosity is possible to resist, however（不过，病态的好奇心是有可能被抵制/抑制的）。下文紧接着通过实验证明预测感受能减少不良行为，证实病态好奇心可以被抑制（resist）。\n［错项排除］[A] trace（追踪；追溯）、[B] define（界定；定义）、[D] replace（取代；替换）均无法承接转折引出“如何避免负面好奇心”的下文。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "56005280-beca-5a75-85a8-2bb7af1a5ee1",
@@ -615,30 +660,33 @@
       "options": [
         {
           "key": "A",
-          "text": "overlook",
+          "text": "conceal",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "predict",
+          "text": "overlook",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "design",
+          "text": "predict",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "conceal",
+          "text": "design",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】动词搭配辨析。predict the outcome 意为提前'预测'好奇行为的结果，选 B（predict）。",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］动宾搭配＋前后近义复现。\n［解题思路］空格句指出，在最后一项实验中，被鼓励去 predict how they would feel after viewing an unpleasant picture（预测看到令人不快图片后自己作何感受）的参与者更不可能选择看此类图片。predict 与下句的 imagining ahead of time（提前设想）构成精准同义复现。\n［错项排除］[A] conceal（隐瞒；掩盖）、[B] overlook（忽视；忽略）、[D] design（设计）均与下文的“提前设想后果”语义相悖。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "74a1bac3-be4e-568b-9e1c-3a2f27569a54",
@@ -650,30 +698,33 @@
       "options": [
         {
           "key": "A",
-          "text": "remember",
+          "text": "pretend",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "promise",
+          "text": "remember",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "choose",
+          "text": "promise",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "pretend",
+          "text": "choose",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】动词语义辨析。choose to see such an image 意为更少会'选择'去看这类令人不适的图片，选 C（choose）。",
+      "correct_answer": "D",
+      "explanation": "［考点提炼］动词搭配＋实验行为选择。\n［解题思路］提前预测了不快感受的参与者 were less likely to choose to see such an image（更不可能选择去看这样的图片）。choose to do sth 意为“选择/决定做某事”，体现受试者自主克制了盲目好奇的冲动。\n［错项排除］[A] pretend（假装）、[B] remember（记得）、[C] promise（答应；承诺）均偏离实验中受试者在好奇心诱惑面前的自主决策行为。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "80fa5ba5-5170-5948-80bf-e5888cf1f7cf",
@@ -685,30 +736,33 @@
       "options": [
         {
           "key": "A",
-          "text": "relief",
+          "text": "outcome",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "plan",
+          "text": "relief",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "duty",
+          "text": "plan",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "outcome",
+          "text": "duty",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】名词语义辨析。imagining the outcome 意为提前设想好奇行为的'结局/后果'，选 D（outcome）。",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］上下文近义复现。\n［解题思路］句中指出 imagining the outcome of following through on one's curiosity ahead of time（事先设想坚持满足自己好奇心的结果）有助于确定这是否值得一试。outcome（结果；后果）呼应上句的 how they would feel after...。\n［错项排除］[B] relief（解脱；宽慰）、[C] plan（计划）、[D] duty（责任；义务）均不符合设想行为后果的逻辑。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c168ad9c-0cf0-5bda-8ba2-5f929798f6dc",
@@ -720,17 +774,17 @@
       "options": [
         {
           "key": "A",
-          "text": "why",
+          "text": "where",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "whether",
+          "text": "why",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "where",
+          "text": "whether",
           "value": "C"
         },
         {
@@ -739,11 +793,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】从属连词辨析。determine whether it is worth 引导宾语从句表示'是否'值得，选 B（whether）。",
+      "correct_answer": "C",
+      "explanation": "［考点提炼］宾语从句引导词＋衡量判断。\n［解题思路］空格句指出设想后果有助于确定这是否值得一试（help determine whether it is worth the endeavor）。whether 引导宾语从句，表达“是否”，体现对盲目满足好奇心价值的理性反思与衡量。\n［错项排除］[A] where（在哪里）、[B] why（为什么）、[D] how（如何）均无法表达理性衡量“是否值得”的判断逻辑。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "C",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a79efefb-5719-5972-a150-d11730b11d49",
@@ -755,30 +812,33 @@
       "options": [
         {
           "key": "A",
-          "text": "consequences",
+          "text": "limitations",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "investments",
+          "text": "consequences",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "strategies",
+          "text": "investments",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "limitations",
+          "text": "strategies",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】名词语义辨析。thinking about long-term consequences 意为考虑长远'后果/影响'，选 A（consequences）。",
+      "correct_answer": "B",
+      "explanation": "［考点提炼］文章主旨总结＋引言复现。\n［解题思路］研究者 Hsee 总结指出：Thinking about long-term consequences is key to reducing the possible negative effects of curiosity（思考长远后果是减少好奇心潜在负面影响的关键）。consequences（后果；结果）高度复现上文的 outcome 与 how they would feel。\n［错项排除］[A] limitations（局限性）、[C] investments（投资）、[D] strategies（策略）均不符合通过权衡后果以抑制好奇心负面冲动的语境。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "aabcdf3f-02cb-50c1-bf5b-c4187bb43f65",
@@ -810,10 +870,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】例证题。首段通过断掉的自行车链条这一生活实例，说明当下学生缺乏动手操作与解决现实物理问题的'实践能力'（practical ability），选 A。",
-      "points": 2,
+      "explanation": "［考点提炼］写作目的题＋例证功能。\n［解题思路］第二段第二句指出 Koziatek 所在的高中教学特色是实践性的（learning is not something of books... but practical）。紧接着第三句通过反问指出：学生能够说出第13任总统的名字，却完全不会应对坏掉的自行车链条（be utterly overwhelmed by a broken bike chain）。提及坏掉的自行车链条，正是为了具象化说明传统教育下学生“缺乏实际动手与实践能力”。A项 practical ability 为第二句 practical 的原词复现与正解。\n［错项排除］[B] academic training（学术培训）与[D] mechanical memorization（机械记忆）是传统教育过分强调的内容，而非学生所缺乏的能力；[C] pioneering spirit（开创精神）属于 Koziatek 所在高中的办学特征，而非学生欠缺的技能。",
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "e2f7fb07-a122-5ee1-b647-de1c8c6443fe",
@@ -845,10 +908,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】事实细节题。第二段首句明确指出社会普遍存在职业教育只适合那些'学业成绩不佳/学术上不成功'的学生（not academically successful）的陈旧偏见，选 C。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题＋同义改写。\n［解题思路］根据题干 prejudice 与 vocational education 定位至第四段第三句：Schools in the family of vocational education have that stereotype... that it's for kids who can't make it academically（职业教育类学校有这种刻板印象……即它是面向那些在学业上无法取得成功的孩子）。C项 are not academically successful 是对 can't make it academically 的标准同义改写。\n［错项排除］[A] have a stereotyped mind（思维模式化）将学校面临的刻板印象偷换为学生自身固化；[B] have no career motivation（缺乏职业动机）无中生有；[D] are financially disadvantaged（经济贫困）将体力劳动地位低下误解为经济困难。",
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "82eeac46-292f-549b-8a19-846232e66a3e",
@@ -880,10 +946,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】细节推断题。第五段指出以往中学生毕业后即可依托本地工业获得充沛的中等技能岗位，过去的高中毕业生'拥有更多就业机会'，选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］推理引申题＋今昔对比。\n［解题思路］根据题干 Paragraph 5 与 high school graduates 定位至第五段第二、三句：Manufacturing is not the economic engine that it once was. The job security that the US economy once offered to high school graduates has largely evaporated（制造业已不再是曾经的经济引擎，美国经济曾提供给高中毕业生的就业保障很大程度上已不复存在）。这表明过去制造业繁荣时，高中毕业生享有更多就业机会和保障。B项 used to have more job opportunities 是对原文反向推导的准确表达。\n［错项排除］[A] used to have big financial concerns（过去有很大的经济顾虑）时态颠倒；[C] are reluctant to work in manufacturing（不愿进入制造业）违背文意；[D] are entitled to more educational privileges（享有更多教育特权）曲解了原文想让孩子多受教育的愿望。",
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "27e30145-09be-548c-8e9b-647c7de7128a",
@@ -915,10 +984,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。文中批判社会不切实际盲目推崇人人上大学的狂热倾向，反映出对高等学历的'盲目高估与过度看重'（overvaluing of higher education），选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题＋态度观点推断。\n［解题思路］根据题干定位至第六段首句：But the headlong push into bachelor's degrees for all - and the subtle devaluing of anything less - misses an important point: That's not the only thing the American economy needs（但盲目向所有人推行学士学位——并暗中贬低其他教育——忽略了重要一点：这并非美国经济的唯一所需）。下文进一步指出54%的工作仍是中等技能工作，说明盲目推行本科教育高估了高等学位的普适必要性，D项 indicates the overvaluing of higher education 精准概括了全段论点。\n［错项排除］[A] helps create a lot of middle-skill jobs（有助于创造大量中等技能岗位）与原文逻辑相悖，推行本科学位忽视了中等技能需求；[B] may narrow the gap in working-class jobs（可能缩小工人职位缺口）将解决方案与问题混淆；[C] is expected to yield a better-trained workforce（有望产生训练更好的劳动力）与原文仅有44%合格工人的事实相反。",
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "43f49c8e-caf2-575b-a970-ffb770837088",
@@ -950,10 +1022,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】观点态度题。全文对 Koziatek 学校结合学术基础与动手技术培养合格毕业生的实践高度赞赏，态度为'支持肯定'（supportive），选 A。",
-      "points": 2,
+      "explanation": "［考点提炼］作者态度题＋全文行文脉络。\n［解题思路］通读全文，作者在第二段称赞 Koziatek 的实践是 Mr. Koziatek is part of something pioneering（具有开创性的事业），在第七段指出其学校正致力于填补国家急需的技能缺口（trying to fill that gap），末段更是将其学校评价为一记及时的警钟（wake-up call），防止教育走向一刀切。全篇字里行间充满了对该学校的赞许与支持，因此A项 supportive（支持的）为正确答案。\n［错项排除］[B] tolerant（容忍的）、[C] disappointed（失望的）、[D] cautious（谨慎的）均无法体现作者高度肯定赞赏的主基调。",
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "065b2d66-6a23-5450-9bbb-59b1c7f70fd6",
@@ -961,34 +1036,37 @@
       "passage_id": "e661f9f4-de0a-5d85-99f4-6a25d93214bd",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "The word \"plummeting\" (Line 3, Para. 2) is closest in meaning to",
+      "stem": "The word \"plummeting\" (Para. 2) is closest in meaning to",
       "options": [
         {
           "key": "A",
-          "text": "stabilizing",
+          "text": "rising",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "changing",
+          "text": "falling",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "falling",
+          "text": "changing",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "rising",
+          "text": "stabilizing",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】词义推断题。plummeting 描述风电和光伏设备建造成本断崖式下跌，意为'暴跌/下降'，与 falling 同义，选 C。",
-      "points": 2,
+      "correct_answer": "B",
+      "explanation": "［考点提炼］词义猜测题＋上下文语境。\n［解题思路］根据定位词 Paragraph 2 定位至第二段第二、三句：But increasingly the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third...。第三句中价格猛降80%和近三分之一（dropped by 80 percent）直接对第二句的 plummeting prices 进行数据阐释，plummeting 意为“暴跌；急剧下降”，与 falling（下降）词义最接近。\n［错项排除］[A] rising（上涨）、[C] changing（改变）、[D] stabilizing（趋于稳定）均与后句的价格骤跌80%语义不符。",
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "C"
+      "answer": "B",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "67bf6310-abba-5f5c-ba33-38b4f42ae8d5",
@@ -1000,30 +1078,33 @@
       "options": [
         {
           "key": "A",
-          "text": "is progressing notably",
+          "text": "is as extensive as in Europe",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "is as extensive as in Europe",
+          "text": "is progressing notably",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "faces many challenges",
+          "text": "has proved to be impractical",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "has proved to be impractical",
+          "text": "faces many challenges",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。第三段首句明确指出可再生能源在美国的使用'进展显著'（is progressing notably），成本效益跨越关键临界点，选 A。",
-      "points": 2,
+      "correct_answer": "B",
+      "explanation": "［考点提炼］事实细节题＋同义改写。\n［解题思路］根据题干 Paragraph 3 与 in America 定位至第三段第三、四句：...the United States is also seeing a remarkable shift. In March - for the first time - wind and solar power accounted for more than 10 percent of the power generated in the US...。文中指出美国正在经历显著的转变（remarkable shift），风能和太阳能发电占比历史性突破10%。B项 is progressing notably（正在显著进步）是对 seeing a remarkable shift 的精准同义置换。\n［错项排除］[A] is as extensive as in Europe（与欧洲一样广泛）与原文美国正在跟进的描述不符；[C] has proved to be impractical（被证实不切实际）与实际突破10%相悖；[D] faces many challenges（面临诸多挑战）并非第三段强调的核心事实。",
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8c96576d-2663-54e9-8ab2-37c48d22d04e",
@@ -1035,12 +1116,12 @@
       "options": [
         {
           "key": "A",
-          "text": "wind is a widely used energy source",
+          "text": "wind energy has replaced fossil fuels",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "wind energy has replaced fossil fuels",
+          "text": "there is a shortage of clean energy supply",
           "value": "B"
         },
         {
@@ -1050,15 +1131,18 @@
         },
         {
           "key": "D",
-          "text": "there is a shortage of clean energy supply",
+          "text": "wind is a widely used energy source",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。第四段指出在爱荷华州风电占全州发电量的36%以上，证明风能已成为'广泛使用的能源'（widely used energy source），选 A。",
-      "points": 2,
+      "correct_answer": "D",
+      "explanation": "［考点提炼］事实细节题＋细节事实识别。\n［解题思路］根据定位词 Iowa 定位至第四段第三句：...where wind turbines dot the fields and provide 36 percent of the state's electricity generation...。句中指出在爱荷华州风力发电机遍布田野（dot the fields），并提供了该州36%的电力供应。这充分说明风能是当地广泛使用的能源。D项 wind is a widely used energy source 正确反映了该事实。\n［错项排除］[A] wind energy has replaced fossil fuels（风能取代了化石燃料）言过其实，仅占36%；[B] there is a shortage of clean energy supply（清洁能源供应不足）与科技巨头被其充足供应所吸引相反；[C] tech giants are investing in clean energy（科技巨头投资清洁能源）偷换概念，科技巨头是被清洁能源吸引以运营数据中心，而非投资开发清洁能源。",
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "A"
+      "answer": "D",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8cdf8aff-dbdf-522d-999e-7a75d6e83d49",
@@ -1066,7 +1150,7 @@
       "passage_id": "e661f9f4-de0a-5d85-99f4-6a25d93214bd",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Which of the following is true about clean energy according to Paragraphs 5&6?",
+      "stem": "Which of the following is true about clean energy according to Paragraphs 5 & 6?",
       "options": [
         {
           "key": "A",
@@ -1090,10 +1174,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】细节理解题。文章指出伴随储能电池与智能电网突破，可再生能源的间歇性得到克服，'持续供电正成为现实'（continuous supply is becoming a reality），选 C。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题＋推理归纳。\n［解题思路］根据定位词 Paragraphs 5 & 6 定位至第五段：质疑者常提出“无风无阳光时怎么办”的反驳，但电池存储容量的提升正使其全天候供电能力变得更有可能（making their ability to keep power flowing around the clock more likely）。keep power flowing around the clock（全天候/不间断供电）与 continuous supply 对应，more likely 表明其正在成为现实。C项准确反映了两段阐述的趋势。\n［错项排除］[A] Its application has boosted battery storage（其应用促进了电池存储）因果倒置，是电池存储进步促进了清洁能源应用；[B] It is commonly used in car manufacturing（通常用于汽车制造）与电动车仍属罕见（still a rarity）相悖；[D] Its sustainable exploitation will remain difficult（可持续开发仍将困难）与技术突破的前景相反。",
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "a47f4413-f2eb-5b8b-a3f4-b760f32ba065",
@@ -1105,30 +1192,33 @@
       "options": [
         {
           "key": "A",
-          "text": "will bring the US closer to other countries",
+          "text": "is not really encouraged by the US government",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "will accelerate global environmental change",
+          "text": "is not competitive enough with regard to its cost",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "is not really encouraged by the US government",
+          "text": "will bring the US closer to other countries",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "is not competitive enough with regard to its cost",
+          "text": "will accelerate global environmental change",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】细节推断题。末段指出联邦政策矛盾甚至通过补贴旧煤电和加征太阳能关税设置障碍，暗示可再生能源'并未真正受到联邦政府鼓励'，选 C。",
-      "points": 2,
+      "correct_answer": "A",
+      "explanation": "［考点提炼］推理引申题＋末段深层含义推断。\n［解题思路］根据定位词 the last paragraph 定位至第七段末句：What Washington does - or doesn't do - to promote alternative energy may mean less and less at a time of a global shift in thought（在全人类思想观念发生全球性转变之际，华盛顿政府为推广替代能源所做的事情——或者不做的事情——其影响力可能越来越微不足道）。结合第四段特朗普总统公开贬低风能（dismissed wind power），可推知美国政府并未真正大力鼓励和推动可再生能源发展。因此A项 is not really encouraged by the US government 为正解。\n［错项排除］[B] is not competitive enough with regard to its cost（成本上不够有竞争力）与第二段成本大跌相反；[C] will bring the US closer to other countries（使美国与其他国家更紧密）缺乏依据；[D] will accelerate global environmental change（加速全球环境变化）曲解了减缓气候变化（slowing climate change）的本意。",
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "A",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b40a8264-84ba-58d0-88a4-e91c6c380c1d",
@@ -1145,7 +1235,7 @@
         },
         {
           "key": "B",
-          "text": "user information",
+          "text": "quality service",
           "value": "B"
         },
         {
@@ -1155,15 +1245,18 @@
         },
         {
           "key": "D",
-          "text": "quality service",
+          "text": "user information",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。首段指出 Facebook 以天价收购 WhatsApp 的真正意图在于获取海量'用户信息与数据资产'（user information），选 B。",
-      "points": 2,
+      "correct_answer": "D",
+      "explanation": "［考点提炼］事实细节题＋核心意图识别。\n［解题思路］根据定位词 Paragraph 1 与 Facebook acquired WhatsApp 定位至第一段末句：...acquire the WhatsApp messaging service, which doesn't have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives。这表明 WhatsApp 没有任何实体产品，它能给 Facebook 带来的正是由用户关系网络构成的详尽用户数据与社交生活信息。D项 user information 为其高度提炼。\n［错项排除］[A] digital products（数字产品）与[C] physical assets（实体资产）与原文 doesn't have any physical product at all 矛盾；[B] quality service（优质服务）只是表面现象，并非两年前斥资收购的核心资产。",
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "D",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "498f1cd4-cdeb-55df-b4fb-86081cd848c4",
@@ -1180,7 +1273,7 @@
         },
         {
           "key": "B",
-          "text": "mess up customer records",
+          "text": "mislead the European commission",
           "value": "B"
         },
         {
@@ -1190,15 +1283,18 @@
         },
         {
           "key": "D",
-          "text": "mislead the European commission",
+          "text": "mess up customer records",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】事实细节题。第二段指出手机号与社交身份深度绑定打破了匿名机制，带来严峻隐私监控与操纵风险，'对用户构成潜在危险'（pose a risk），选 C。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题＋后果推断。\n［解题思路］根据定位词 Linking phone numbers to Facebook identities 定位至第二段：Facebook 违背承诺将手机号与社交身份关联，即使不知道消息内容，了解谁与谁通信也是极其泄密的（enormously revealing），后文以政界丑闻和用户购买记录为例，说明个人隐私面临严重泄露风险。C项 pose a risk to Facebook users（对 Facebook 用户构成风险）准确概括了其潜在危害。\n［错项排除］[A] worsen political disputes（加剧政治争端）属于举例中的背景修辞，非主干影响；[B] mislead the European commission（误导欧盟委员会）是收购时的违约行为，非绑定账号的直接后果；[D] mess up customer records（弄乱客户记录）违背原文记录变得极具价值的表述。",
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8b0f3f5e-3080-5a90-b0d9-e0501aecbc05",
@@ -1220,20 +1316,23 @@
         },
         {
           "key": "C",
-          "text": "should not provide just one legal solution",
+          "text": "cannot keep pace with the changing market",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "cannot keep pace with the changing market",
+          "text": "should not provide just one legal solution",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第三段指出传统反垄断法规诞生于工业经济时代，面对以免费服务换取用户数据的数字平台时'无法跟上快速变化的市场格局'，选 D。",
-      "points": 2,
+      "correct_answer": "C",
+      "explanation": "［考点提炼］作者观点题＋同义转换。\n［解题思路］根据定位词 competition law 定位至第三段第三、四句：For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace...。作者明确指出反垄断法非常迟缓，根本赶不上数字经济的变化节奏。C项 cannot keep pace with the changing market（跟不上市场的变化步伐）是对 very slow compared to the pace of change 的精准改写。\n［错项排除］[A] should serve the new market powers（应当服务新的市场力量）违背反垄断法监管市场的宗旨；[B] may worsen the economic imbalance（可能加剧经济失衡）无中生有；[D] should not provide just one legal solution（不应只提供一种法律方案）偏离文意。",
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "D"
+      "answer": "C",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "1a30c7a2-c630-5beb-ae92-245cb1bbe8d3",
@@ -1245,12 +1344,12 @@
       "options": [
         {
           "key": "A",
-          "text": "they are not defined as customers",
+          "text": "they are not financially reliable",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "they are not financially reliable",
+          "text": "they are not defined as customers",
           "value": "B"
         },
         {
@@ -1264,11 +1363,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。第四段指出在当前反垄断法界定下，使用免费服务的网民在法律上'并未被界定为付费消费者'（not defined as customers），因而难以获得救济，选 A。",
-      "points": 2,
+      "correct_answer": "B",
+      "explanation": "［考点提炼］事实细节题＋因果逻辑。\n［解题思路］根据题干定位至第三段第六、七句：Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don't pay for them. The users of their services are not their customers. That would be the people who buy advertising from them...。作者指出，现行反垄断法关注的是消费者的经济损失，而普通用户免费使用平台，并非法律定义的“客户”（真正的客户是广告商）。B项 they are not defined as customers 直接对应 The users of their services are not their customers。\n［错项排除］[A] they are not financially reliable（他们在经济上不可靠）曲解了用户不付费；[C] the services are generally digital（服务普遍是数字化的）不是反垄断法难以保护的根本法律原因；[D] the services are paid for by advertisers（服务由广告商买单）是客观商业模式，但法律保护缺失的核心在于用户未被界定为客户。",
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "A"
+      "answer": "B",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f5d63b81-7702-5d86-9fe2-4ad756c987f0",
@@ -1280,12 +1382,12 @@
       "options": [
         {
           "key": "A",
-          "text": "a win-win business model between digital giants",
+          "text": "a typical competition pattern among digital giants",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "a typical competition pattern among digital giants",
+          "text": "a win-win business model between digital giants",
           "value": "B"
         },
         {
@@ -1300,10 +1402,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】例证题。作者将个人用户比喻为蚂蚁，意在生动揭示数字巨头与普通网民之间极度不对等的'支配与被收割关系'，选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］写作手法题＋比喻类比说明。\n［解题思路］根据定位词 ants analogy 定位至第四段第二、三句：Just as some ants farm the bugs called aphids for the honeydew they produce... so Google farms us for the data that our digital lives yield. Ants keep predatory insects away... Gmail keeps the spammers out... It doesn't feel like a human or democratic relationship...。作者借蚂蚁饲养蚜虫吸取蜜露并提供保护的共生关系，形象比喻数字巨头通过提供邮件等服务圈养用户以获取数据的控制与剥削关系。D项 the relationship between digital giants and their users 精确揭示了比喻所阐明的对象。\n［错项排除］[A] a typical competition pattern among digital giants（数字巨头间的竞争模式）与[B] a win-win business model between digital giants（数字巨头间的双赢模式）均将对象错定为巨头之间；[C] the benefits provided for digital giants' customers（为数字巨头客户提供的利益）偏离了巨头与普通数据用户之间的关系本质。",
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "497dd171-727b-5532-bddf-121fb89432b1",
@@ -1315,17 +1420,17 @@
       "options": [
         {
           "key": "A",
-          "text": "keep to your focus time",
+          "text": "list your immediate tasks",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "list your immediate tasks",
+          "text": "make specific daily plans",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "make specific daily plans",
+          "text": "keep to your focus time",
           "value": "C"
         },
         {
@@ -1334,11 +1439,14 @@
           "value": "D"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。第二段指出掌握深度工作艺术的关键在于坚决捍卫并'坚守专注时间段'（keep to your focus time），杜绝分心打扰，选 A。",
-      "points": 2,
+      "correct_answer": "C",
+      "explanation": "［考点提炼］事实细节题＋核心要素识别。\n［解题思路］根据定位词 key to mastering the art of deep work 定位至第二段末句：Whichever approach, the key is to determine your length of focus time and stick to it（无论哪种方法，关键都在于确定专注时间的长短并坚持下去）。stick to 意为“坚持”，与 keep to 同义。C项 keep to your focus time（坚守你的专注时间）是原句的直接对应正解。\n［错项排除］[A] list your immediate tasks（列出眼前的任务）与[B] make specific daily plans（制定具体每日计划）在后文均被指出存在弊端；[D] seize every minute to work（抓紧每分每秒工作）曲解了新闻工作者式在有空时专注工作的内涵。",
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "A"
+      "answer": "C",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b3daf8d9-3679-5795-bc8c-cef3e978caf4",
@@ -1350,30 +1458,33 @@
       "options": [
         {
           "key": "A",
-          "text": "distractions may actually increase efficiency",
+          "text": "daily schedules are indispensable to studying",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "daily schedules are indispensable to studying",
+          "text": "students are hardly motivated by monthly goals",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "students are hardly motivated by monthly goals",
+          "text": "detailed plans may not be as fruitful as expected",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "detailed plans may not be as fruitful as expected",
+          "text": "distractions may actually increase efficiency",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第三段援引哈福德研究指出事无巨细的严密时间表极易因现实干扰而崩溃，'详尽的计划可能并不如预期那般富有成效'，选 D。",
-      "points": 2,
+      "correct_answer": "C",
+      "explanation": "［考点提炼］事实细节题＋同义转换。\n［解题思路］根据定位词 study in the early 1980s 与 Harford 定位至第五段首句：While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students。研究表明，原本以为最详尽的每日计划最有效，事实证明却适得其反，详细计划反而打击了学生积极性。C项 detailed plans may not be as fruitful as expected（详尽的计划可能不如预期的那样有成效）准确表达了实验结论。\n［错项排除］[A] daily schedules are indispensable to studying（每日日程对学习必不可少）与实验结论相反；[B] students are hardly motivated by monthly goals（学生很难受月度目标激励）事实相反，月度目标组表现更好；[D] distractions may actually increase efficiency（干扰可能提高效率）是对不可避免干扰的错误解读。",
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "D"
+      "answer": "C",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "cdc9d9fa-6558-5d2c-a4e2-3ba15b7be02f",
@@ -1385,30 +1496,33 @@
       "options": [
         {
           "key": "A",
-          "text": "a desirable mental state for busy people",
+          "text": "an essential factor in accomplishing any work",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "a major contributor to physical health",
+          "text": "an effective way to save time and energy",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "an effective way to save time and energy",
+          "text": "a major contributor to physical health",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "an essential factor in accomplishing any work",
+          "text": "a desirable mental state for busy people",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第四段 Newport 指出有规律的休歇是完成有价值智力成果的必要神经生理前提，'闲暇是完成任何工作的必要因素'，选 D。",
-      "points": 2,
+      "correct_answer": "A",
+      "explanation": "［考点提炼］作者观点题＋同义转换。\n［解题思路］根据定位词 Newport 与 idleness 定位至第六段末句引述：[idleness] is, paradoxically, necessary to getting any work done, he argues（闲暇看似矛盾，实则是完成任何工作所必需的）。necessary to getting any work done 意即“完成任何工作所必不可少的”。A项 an essential factor in accomplishing any work（完成任何工作中不可或缺的要素）是对原文的完美同义转换。\n［错项排除］[B] an effective way to save time and energy（节省时间和精力的有效方式）偏离文意，闲暇旨在恢复精力而非单纯节约时间；[C] a major contributor to physical health（身体健康的主要贡献者）借比喻维生素D进行过度引申；[D] a desirable mental state for busy people（忙碌人群理想的心态）未触及“完成工作所必需”的实质。",
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "fb4a2a25-db56-55dc-94ea-a09a314a765c",
@@ -1440,10 +1554,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】人物观点题。第五段神经科学家 Pillay 指出大脑在大脑网络专注与发散之间的动态切换能够激活默认网络激发灵感，从而'带来更高的工作效率'，选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题＋同义改写。\n［解题思路］根据定位词 Pillay 与 shift between being focused and unfocused 定位至第七段第二句：When our brains switch between being focused and unfocused on a task, they tend to be more efficient（当我们的大脑在一项任务上于专注与非专注状态之间切换时，往往效率更高）。B项 can bring about greater efficiency（能够带来更高的效率）是对 tend to be more efficient 的直接同义置换。\n［错项排除］[A] can result in psychological well-being（能够带来心理健康）无中生有；[C] is aimed at better balance in work（旨在更好平衡工作）并非大脑机制的目标；[D] is driven by task urgency（受任务紧迫性驱动）偏离原文。",
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "fdcc858c-5c03-5f7e-8094-a1354832446b",
@@ -1455,30 +1572,33 @@
       "options": [
         {
           "key": "A",
-          "text": "ways to relieve the tension of busy life",
+          "text": "the key to eliminating distractions",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "approaches to getting more done in less time",
+          "text": "the cause of the lack of focus time",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "the key to eliminating distractions",
+          "text": "ways to relieve the tension of busy life",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "the cause of the lack of focus time",
+          "text": "approaches to getting more done in less time",
           "value": "D"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】主旨大意题。全文围绕摆脱虚假忙碌陷阱、通过深度专注与科学休歇在更短时间内取得更大成果展开，核心是'如何在更少时间内完成更多工作的方法'，选 B。",
-      "points": 2,
+      "correct_answer": "D",
+      "explanation": "［考点提炼］主旨大意题＋篇章宏观归纳。\n［解题思路］通读全文，文章开篇提出 Cal Newport 克服盲目忙碌陷阱的“深度工作”理念，第二段阐述掌握深度工作的多种途径（approaches to mastering the art of deep work），第三段提出高效日程规划以在更少时间内完成更多工作（get more done in less time），第四、五段探讨每日任务清单的灵活安排（Another approach to getting more done in less time），第六、七、八段阐明结合适当闲暇与大脑切换以实现高效产出。全文核心贯穿于如何在较少时间内完成更多工作的科学方法与途径。D项 approaches to getting more done in less time（在更少时间内完成更多工作的方法）为文章最佳主旨概括。\n［错项排除］[A] the key to eliminating distractions（消除干扰的关键）与[B] the cause of the lack of focus time（缺乏专注时间的原因）以及[C] ways to relieve the tension of busy life（缓解忙碌生活紧张感的方法）均仅涉及局部细节或片面解读，无法涵盖整篇探讨工作效能方法的宏观架构。",
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "B"
+      "answer": "D",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "187b29bb-3a68-560f-af7b-ca5be19c855b",
@@ -1486,7 +1606,7 @@
       "passage_id": "8c62ec77-2d9c-5924-bcf3-94bf65f2c1df",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Choose the most suitable subheading from A-G for section [41]:",
+      "stem": "Choose the most suitable subheading for section [41]:",
       "options": [
         {
           "key": "A",
@@ -1500,12 +1620,12 @@
         },
         {
           "key": "C",
-          "text": "Pay a unique compliment",
+          "text": "Skip the small talk",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Name, places, things",
+          "text": "Ask for an opinion",
           "value": "D"
         },
         {
@@ -1515,20 +1635,23 @@
         },
         {
           "key": "F",
-          "text": "Skip the small talk",
+          "text": "Name, places, things",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Ask for an opinion",
+          "text": "Pay a unique compliment",
           "value": "G"
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】小标题题。本节阐述遇到想交谈的陌生人时不要犹豫拖延，勇敢迈出第一步脱口而出打招呼即可，对应 A 项'Just say it'，选 A。",
-      "points": 2,
+      "explanation": "［考点提炼］新题型小标题匹配。\n［解题思路］[41]段描述在陌生人面前想说话却卡在喉咙不知如何开口的心理状态，作者给出的建议是：just get it out... So keep it simple: \"Hi\", \"Hey\" or \"Hello\"... put on a big smile and just say \"Hi\"（大胆说出来，保持简单直接说声嗨）。A项 Just say it（想说就说/直接说出口）与段落主旨和原词 just say \"Hi\" 完美匹配。\n［错项排除］段落核心是克服开不了口的恐惧直接说话，而非泛泛寒暄或讨好夸奖，其他选项无法概括该段。",
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "587c468a-72c1-57b4-9615-c9d7e26117b9",
@@ -1536,7 +1659,7 @@
       "passage_id": "8c62ec77-2d9c-5924-bcf3-94bf65f2c1df",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Choose the most suitable subheading from A-G for section [42]:",
+      "stem": "Choose the most suitable subheading for section [42]:",
       "options": [
         {
           "key": "A",
@@ -1550,12 +1673,12 @@
         },
         {
           "key": "C",
-          "text": "Pay a unique compliment",
+          "text": "Skip the small talk",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Name, places, things",
+          "text": "Ask for an opinion",
           "value": "D"
         },
         {
@@ -1565,20 +1688,23 @@
         },
         {
           "key": "F",
-          "text": "Skip the small talk",
+          "text": "Name, places, things",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Ask for an opinion",
+          "text": "Pay a unique compliment",
           "value": "G"
         }
       ],
-      "correct_answer": "F",
-      "explanation": "【考点精析】小标题题。本节强调不要局限于无聊的寒暄客套，敢于探讨更具个人化的话题打造令人难忘的对话，对应 F 项'Skip the small talk'，选 F。",
-      "points": 2,
+      "correct_answer": "C",
+      "explanation": "［考点提炼］新题型小标题匹配。\n［解题思路］[42]段指出人们常陷入枯燥无聊的日常寒暄套话中（got stuck in the rut of \"hi\", \"hello\", \"how are you?\" and \"what's going on?\"），导致谈话无法给人留下深刻印象，因此建议 don't be afraid to ask more personal questions（不要害怕问更个性化、深入的问题）。C项 Skip the small talk（跳过闲聊/略过套路寒暄）精准契合该段核心。\n［错项排除］[D] Ask for an opinion 虽涉及提问，但原文建议是询问个性化问题以突破表面套话，并非征求对方意见。",
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "F"
+      "answer": "C",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "39c17eb6-6385-531b-8355-ffa57c5b90d2",
@@ -1586,7 +1712,7 @@
       "passage_id": "8c62ec77-2d9c-5924-bcf3-94bf65f2c1df",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Choose the most suitable subheading from A-G for section [43]:",
+      "stem": "Choose the most suitable subheading for section [43]:",
       "options": [
         {
           "key": "A",
@@ -1600,12 +1726,12 @@
         },
         {
           "key": "C",
-          "text": "Pay a unique compliment",
+          "text": "Skip the small talk",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Name, places, things",
+          "text": "Ask for an opinion",
           "value": "D"
         },
         {
@@ -1615,20 +1741,23 @@
         },
         {
           "key": "F",
-          "text": "Skip the small talk",
+          "text": "Name, places, things",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Ask for an opinion",
+          "text": "Pay a unique compliment",
           "value": "G"
         }
       ],
       "correct_answer": "E",
-      "explanation": "【考点精析】小标题题。本节建议寻找彼此之间的共同点，从共鸣之处切入让对话顺畅展开，对应 E 项'Find the \"me too\"s'，选 E。",
-      "points": 2,
+      "explanation": "［考点提炼］新题型小标题匹配。\n［解题思路］[43]段明确指出初次见面时，要努力寻找双方的共同点（make an effort to find the things which you and that person have in common），并从共同点展开交谈。E项 Find the \"me too\"s（寻找“我也一样”的共鸣点）正是“寻找共同之处”的生动地道表达。\n［错项排除］其他选项均未涉及双方寻找共同爱好或经历的内容。",
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "3aaadfb3-f412-5362-a17c-06787c37983c",
@@ -1636,7 +1765,7 @@
       "passage_id": "8c62ec77-2d9c-5924-bcf3-94bf65f2c1df",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Choose the most suitable subheading from A-G for section [44]:",
+      "stem": "Choose the most suitable subheading for section [44]:",
       "options": [
         {
           "key": "A",
@@ -1650,12 +1779,12 @@
         },
         {
           "key": "C",
-          "text": "Pay a unique compliment",
+          "text": "Skip the small talk",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Name, places, things",
+          "text": "Ask for an opinion",
           "value": "D"
         },
         {
@@ -1665,20 +1794,23 @@
         },
         {
           "key": "F",
-          "text": "Skip the small talk",
+          "text": "Name, places, things",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Ask for an opinion",
+          "text": "Pay a unique compliment",
           "value": "G"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】小标题题。本节指出交谈时切勿心不在焉看手机，全身心投入并保持真诚目光接触，对应 B 项'Be present'，选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］新题型小标题匹配。\n［解题思路］[44]段举出低头看手机、心不在焉听人倾诉的反面事例，进而提出正向建议：just be in that communication wholeheartedly. Make eye contact（全心全意投入交流中，保持目光接触）。B项 Be present（专注当下/全心投入）精准对应 be in that communication wholeheartedly。\n［错项排除］该段强调的是倾听与交谈时的专注投入态度，与其他选项无关。",
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "c52e6673-8c89-530d-a02c-5095a32d4342",
@@ -1686,7 +1818,7 @@
       "passage_id": "8c62ec77-2d9c-5924-bcf3-94bf65f2c1df",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "Choose the most suitable subheading from A-G for section [45]:",
+      "stem": "Choose the most suitable subheading for section [45]:",
       "options": [
         {
           "key": "A",
@@ -1700,12 +1832,12 @@
         },
         {
           "key": "C",
-          "text": "Pay a unique compliment",
+          "text": "Skip the small talk",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Name, places, things",
+          "text": "Ask for an opinion",
           "value": "D"
         },
         {
@@ -1715,20 +1847,23 @@
         },
         {
           "key": "F",
-          "text": "Skip the small talk",
+          "text": "Name, places, things",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Ask for an opinion",
+          "text": "Pay a unique compliment",
           "value": "G"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】小标题题。本节提醒记住对方的名字、去过的地方和喜好细节，让彼此关系长期维系，对应 D 项'Name, places, things'，选 D。",
-      "points": 2,
+      "correct_answer": "F",
+      "explanation": "［考点提炼］新题型小标题匹配。\n［解题思路］[45]段讲述再次相遇却忘记对方名字的尴尬，并建议：remember the little details of the people you met or you talked with; perhaps the places they have been to, the places they want to go, the things they like, the things they hate...（记住对方的细枝末节：去过或想去的地方、喜欢或讨厌的事物）。F项 Name, places, things（名字、地点、事物）准确归纳了段落所列举的细节记忆范畴。\n［错项排除］[G] Pay a unique compliment 虽提及给人关注，但段落落脚点在于记住对方去过的地方和喜好事物等具体细节，而非赞美对方。",
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "D"
+      "answer": "F",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
   "exportedAt": "2026-10-15T11:40:20.630Z"

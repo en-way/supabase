@@ -1,0 +1,173 @@
+# -*- coding: utf-8 -*-
+"""
+Round 69 Gold Engine: 2018 ky2 (2018年全国硕士研究生招生考试英语（二）真题)
+Target Exam UUID: 8868dd40-75bf-590b-98a4-a516c5e1c161
+"""
+import json
+
+def get_gold_passages():
+    # Passage 0: Cloze (5 paragraphs, 350 words)
+    p0 = (
+        "Why do people read negative Internet comments and do other things that will obviously be painful? "
+        "Because humans have an inherent need to [1] uncertainty, according to a recent study in Psychological Science. "
+        "The new research reveals that the need to know is so strong that people will [2] to satisfy their curiosity, "
+        "even when it is clear the answer will [3].\n\n"
+        "In a series of four experiments, behavioral scientists at the University of Chicago and the Wisconsin School of Business "
+        "tested students' willingness to [4] themselves to unpleasant stimuli in an effort to satisfy curiosity. "
+        "For one [5], each participant was shown a pile of pens that the researcher claimed were from a previous experiment. "
+        "The twist? Half of the pens would [6] an electric shock when clicked.\n\n"
+        "Twenty-seven students were told which pens were electrified; another twenty-seven were told only that some were electrified. "
+        "[7] left alone in the room, the students who did not know which ones would shock them clicked more pens and incurred more "
+        "shocks than the students who knew what would [8]. Subsequent experiments reproduced this effect with other stimuli, "
+        "[9] the sound of fingernails on a chalkboard and photographs of disgusting insects.\n\n"
+        "The drive to [10] is deeply rooted in humans, much the same as the basic drives for [11] or shelter, "
+        "says Christopher Hsee of the University of Chicago. Curiosity is often considered a good instinct - "
+        "it can [12] new scientific advances, for instance - but sometimes such [13] can backfire. "
+        "The insight that curiosity can drive you to do [14] things is a profound one.\n\n"
+        "Unhealthy curiosity is possible to [15], however. In a final experiment, participants who were encouraged to [16] "
+        "how they would feel after viewing an unpleasant picture were less likely to [17] to see such an image. "
+        "These results suggest that imagining the [18] of following through on one's curiosity ahead of time can help "
+        "determine [19] it is worth the endeavor. \"Thinking about long-term [20] is key to reducing the possible "
+        "negative effects of curiosity,\" Hsee says. In other words, don't read online comments."
+    )
+
+    # Passage 1: Text 1 (Vocational Education / Stephen Koziatek, 8 paragraphs, 370 words)
+    p1 = (
+        "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.\n\n"
+        "Mr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school where learning is not something "
+        "of books and tests and mechanical memorization, but practical. When did it become accepted wisdom that students should be able "
+        "to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?\n\n"
+        "As Koziatek knows, there is learning in just about everything. Nothing is necessarily gained by forcing students to learn "
+        "geometry at a graffitied desk stuck with generations of discarded chewing gum. They can also learn geometry by assembling a bicycle.\n\n"
+        "But he's also found a kind of insidious prejudice. Working with your hands is seen as almost a mark of inferiority. "
+        "Schools in the family of vocational education \"have that stereotype... that it's for kids who can't make it academically,\" he says.\n\n"
+        "On one hand, that viewpoint is a logical product of America's evolution. Manufacturing is not the economic engine that it once was. "
+        "The job security that the US economy once offered to high school graduates has largely evaporated. More education is the new principle. "
+        "We want more for our kids, and rightfully so.\n\n"
+        "But the headlong push into bachelor's degrees for all - and the subtle devaluing of anything less - misses an important point: "
+        "That's not the only thing the American economy needs. Yes, a bachelor's degree opens more doors. But even now, 54 percent of the jobs "
+        "in the country are middle-skill jobs, such as construction and advanced manufacturing. But only 44 percent of workers are adequately trained.\n\n"
+        "In other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity "
+        "that once defined America is vanishing, one obvious solution is staring us in the face. There is a gap in working-class jobs, "
+        "but the workers who need those jobs most aren't equipped to do them. Koziatek's Manchester School of Technology High School is trying to fill that gap.\n\n"
+        "Koziatek's school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation's diversity of gifts."
+    )
+
+    # Passage 2: Text 2 (Renewable Energy, 7 paragraphs, 416 words)
+    p2 = (
+        "While fossil fuels - coal, oil, gas - still generate roughly 85 percent of the world's energy supply, it's clearer than ever "
+        "that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around "
+        "the world: They now account for more than half of new power sources going on line.\n\n"
+        "Some growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources. But increasingly "
+        "the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by "
+        "80 percent and the cost of wind turbines by close to one-third in the past eight years.\n\n"
+        "In many parts of the world renewable energy is already a principal energy source. In Scotland, for example, wind turbines "
+        "provide enough electricity to power 95 percent of homes. While the rest of the world takes the lead - notably China and Europe - "
+        "the United States is also seeing a remarkable shift. In March - for the first time - wind and solar power accounted for more than "
+        "10 percent of the power generated in the US, reported the US Energy Information Administration.\n\n"
+        "President Trump has underlined fossil fuels - especially coal - as the path to economic growth. In a recent speech in Iowa, "
+        "he dismissed wind power as an unreliable energy source. But that message did not play well with many in Iowa - where wind "
+        "turbines dot the fields and provide 36 percent of the state's electricity generation - and where tech giants like Microsoft "
+        "are being attracted by the availability of clean energy to power their data centers.\n\n"
+        "The question \"what happens when the wind doesn't blow or the sun doesn't shine?\" has provided a quick put-down for skeptics. "
+        "But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.\n\n"
+        "The advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles. "
+        "Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.\n\n"
+        "While there's a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to "
+        "be speeding up - perhaps just in time to have a meaningful effect in slowing climate change. What Washington does - or doesn't do - "
+        "to promote alternative energy may mean less and less at a time of a global shift in thought."
+    )
+
+    # Passage 3: Text 3 (Digital Giants / Competition Law, 4 paragraphs, 412 words)
+    p3 = (
+        "The power and ambition of the giants of the digital economy is astonishing - Amazon has just announced the purchase of "
+        "the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp "
+        "messaging service, which doesn't have any physical product at all. What WhatsApp offered Facebook was an intricate and "
+        "finely detailed web of its users' friendships and social lives.\n\n"
+        "Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke "
+        "the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent "
+        "them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know "
+        "the makeup of the WhatsApp groups in which Theresa May's enemies are currently plotting? It may be that the value of Whole Foods "
+        "to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n\n"
+        "Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very "
+        "slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may "
+        "have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. "
+        "Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users "
+        "of these services don't pay for them. The users of their services are not their customers. That would be the people who buy "
+        "advertising from them - and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage "
+        "of all other media and entertainment companies.\n\n"
+        "The product they're selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. "
+        "Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data "
+        "that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. "
+        "It doesn't feel like a human or democratic relationship, even if both sides get something out of it."
+    )
+
+    # Passage 4: Text 4 (Deep Work / Cal Newport, 7 paragraphs, 439 words)
+    p4 = (
+        "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a "
+        "Distracted World, recommends building a habit of \"deep work\" - the ability to focus without distraction.\n\n"
+        "There are a number of approaches to mastering the art of deep work - be it lengthy retreats dedicated to a specific task; "
+        "developing a daily ritual; or taking a \"journalistic\" approach and seizing moments of deep work when you can find them. "
+        "Whichever approach, the key is to determine your length of focus time and stick to it.\n\n"
+        "Newport also recommends \"deep scheduling\" to combat constant interruptions and get more done in less time. \"At any given "
+        "point, I should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would "
+        "a doctor's appointment or important meeting,\" he writes.\n\n"
+        "Another approach to getting more done in less time is to rethink how you prioritise your day - in particular how we craft "
+        "our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early "
+        "1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others "
+        "were told to plan activities and goals in much more detail, day by day.\n\n"
+        "While the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of "
+        "tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render "
+        "the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.\n\n"
+        "In order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, \"be lazy\". "
+        "\"Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body... "
+        "and it is, paradoxically, necessary to getting any work done,\" he argues.\n\n"
+        "Srini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between "
+        "downtime and productivity is due to the way our brains operate. When our brains switch between being focused and unfocused on "
+        "a task, they tend to be more efficient. \"What people don't realise is that in order to complete these tasks they need to use "
+        "both the focus and unfocus circuits in their brain,\" says Pillay."
+    )
+
+    # Passage 5: Part B (Five Ways to Make Conversation with Anyone, 584 words)
+    p5 = (
+        "Five Ways to Make Conversation with Anyone\n\n"
+        "Conversations are links, which means when you have a conversation with a new person a link gets formed and every conversation "
+        "you have after that moment will strengthen this link.\n\n"
+        "You meet new people every day: the grocery worker, the cab driver, new people at work or the security guard at the door. "
+        "Simply starting a conversation with them will jump start your networking skills.\n\n"
+        "Here are five simple ways that you can make the first move and start a conversation with strangers.\n\n"
+        "[41] ____________________\n"
+        "Suppose you are in a room with someone you don't know and something within you says \"I want to talk with this person\" - "
+        "this is something that mostly happens with all of us. You wanted to say something, the first word, but it just won't come out - "
+        "it feels like it is stuck somewhere. I know the feeling and here is my advice: just get it out.\n"
+        "Just think: what is the worst that could happen? They won't talk with you? Well, they are not talking with you now!\n"
+        "I truly believe that once you get that first word out everything else will just flow. So keep it simple: \"Hi\", \"Hey\" or "
+        "\"Hello\" - do the best you can to gather all of the enthusiasm and energy you can, put on a big smile and just say \"Hi\".\n\n"
+        "[42] ____________________\n"
+        "It's a problem all of us face: you have limited time with the person that you want to talk with and you want to make this talk memorable.\n"
+        "Honestly, if we got stuck in the rut of \"hi\", \"hello\", \"how are you?\" and \"what's going on?\", you will fail to give the initial "
+        "jolt to the conversation that can make it memorable.\n"
+        "So don't be afraid to ask more personal questions. Trust me, you'll be surprised to see how much people are willing to share if you just ask.\n\n"
+        "[43] ____________________\n"
+        "When you meet a person for the first time, make an effort to find the things which you and that person have in common so that you can "
+        "build the conversation from that point. When you start conversation from there and then move outwards, you'll find all of a sudden "
+        "that the conversation becomes a lot easier.\n\n"
+        "[44] ____________________\n"
+        "Imagine you are pouring your heart out to someone and they are just busy on their phone, and if you ask for their attention you get the "
+        "response \"I can multitask\". It is not pleasant and it shows that you don't care about the person.\n"
+        "So when someone tries to communicate with you, just be in that communication wholeheartedly. Make eye contact. Trust me, eye contact is "
+        "where all the magic happens. When you make eye contact, you can feel the conversation.\n\n"
+        "[45] ____________________\n"
+        "You all came into a conversation where you first met the person, but after some time you may have met again and have forgotten their name. "
+        "Isn't that awkward!\n"
+        "So, remember the little details of the people you met or you talked with; perhaps the places they have been to, the places they want to go, "
+        "the things they like, the things they hate - whatever you talk about.\n"
+        "When you remember such things you can automatically become investor in their wellbeing. So they feel a responsibility to you to keep "
+        "that relationship going.\n\n"
+        "That's it. Five amazing ways that you can make conversation with almost anyone. Every person is a really good book to read, "
+        "or to have a conversation with!"
+    )
+
+    return [p0, p1, p2, p3, p4, p5]
+
+print("Gold passages defined successfully!")

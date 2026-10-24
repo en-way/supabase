@@ -166,6 +166,7 @@ def main():
     round66_anomalies = []
     round67_anomalies = []
     round68_anomalies = []
+    round69_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1364,6 +1365,125 @@ def main():
                     act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
                     if act_ans != exp_ans:
                         round68_anomalies.append((f'2018_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2018 and cat == 'ky2':
+            if title != '2018年全国硕士研究生招生考试英语（二）真题':
+                round69_anomalies.append(('2018_ky2_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round69_anomalies.append(('2018_ky2_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round69_anomalies.append(('2018_ky2_pass_score', data['exam'].get('pass_score')))
+
+            p_list = data.get("passages", [])
+            if len(p_list) != 6:
+                round69_anomalies.append(('2018_ky2_passages_count', len(p_list)))
+            else:
+                # Cloze (5 paras, 350 words)
+                cloze = p_list[0]
+                c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 5:
+                    round69_anomalies.append(('2018_ky2_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("Why do people read negative Internet comments"):
+                    round69_anomalies.append(('2018_ky2_cloze_start', cloze.get("content", "")[:50]))
+                if "each participant were shown 10 pens" in cloze.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_cloze_hallucination', 'present'))
+
+                # Text 1 (Vocational Ed / Koziatek, 8 paras, 370 words)
+                t1 = p_list[1]
+                t1_paras = [p for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 8:
+                    round69_anomalies.append(('2018_ky2_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("It is curious that Stephen Koziatek feels almost as though"):
+                    round69_anomalies.append(('2018_ky2_t1_start', t1.get("content", "")[:50]))
+                if len(t1_paras) >= 5 and "On one hand, that viewpoint is a logical product of America's evolution" not in t1_paras[4]:
+                    round69_anomalies.append(('2018_ky2_t1_para5_q23_alignment', 'missing'))
+
+                # Text 2 (Renewable Energy, 7 paras, 416 words)
+                t2 = p_list[2]
+                t2_paras = [p for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 7:
+                    round69_anomalies.append(('2018_ky2_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("While fossil fuels - coal, oil, gas - still generate roughly 85 percent"):
+                    round69_anomalies.append(('2018_ky2_t2_start', t2.get("content", "")[:50]))
+                if "plummeting prices of renewables" not in t2.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_t2_plummeting', 'missing'))
+
+                # Text 3 (Digital Giants, 4 paras, 412 words)
+                t3 = p_list[3]
+                t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 4:
+                    round69_anomalies.append(('2018_ky2_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("The power and ambition of the giants of the digital economy is astonishing"):
+                    round69_anomalies.append(('2018_ky2_t3_start', t3.get("content", "")[:50]))
+                if "very slow compared to the pace of change within the digital economy. By the time a problem has been addressed" not in t3.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_t3_truncated_clause', 'missing'))
+                if "notlink" in t3.get("content", "") or "toFacebook" in t3.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_t3_glued_words', 'present'))
+
+                # Text 4 (Deep Work, 7 paras, 439 words)
+                t4 = p_list[4]
+                t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 7:
+                    round69_anomalies.append(('2018_ky2_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("To combat the trap of putting a premium on being busy, Cal Newport"):
+                    round69_anomalies.append(('2018_ky2_t4_start', t4.get("content", "")[:50]))
+                if 'Newport also recommends "deep scheduling" to combat constant interruptions' not in t4.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_t4_deep_scheduling', 'missing'))
+                if "rethink Tim Harford" in t4.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_t4_rethink_truncation', 'present'))
+
+                # Part B (Five Ways to Make Conversation, 584 words)
+                pb = p_list[5]
+                if not pb.get("content", "").startswith("Five Ways to Make Conversation with Anyone"):
+                    round69_anomalies.append(('2018_ky2_pb_start', pb.get("content", "")[:50]))
+                if "Directions:" in pb.get("content", "") or "10 points" in pb.get("content", ""):
+                    round69_anomalies.append(('2018_ky2_pb_directions_leak', 'present'))
+
+            # Questions verification
+            q_list = data.get("questions", [])
+            if len(q_list) != 45:
+                round69_anomalies.append(('2018_ky2_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('question_number') != i or q.get('sort_order') != i:
+                        round69_anomalies.append((f'2018_ky2_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round69_anomalies.append((f'2018_ky2_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round69_anomalies.append((f'2018_ky2_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    opts = q.get('options', [])
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        if opt_t in ['[A]', '[B]', '[C]', '[D]', 'A', 'B', 'C', 'D', ''] or len(opt_t.strip()) == 0:
+                            round69_anomalies.append((f'2018_ky2_q{i}_placeholder_opt', opt_k))
+                    
+                    exp = q.get('explanation') or q.get('analysis') or ''
+                    if len(exp.strip()) < 15:
+                        round69_anomalies.append((f'2018_ky2_q{i}_explanation', 'insufficient'))
+
+                # Official answers verification
+                official_answers_2018_ky2 = {
+                    1: 'C', 2: 'A', 3: 'B', 4: 'A', 5: 'D',
+                    6: 'A', 7: 'B', 8: 'C', 9: 'D', 10: 'B',
+                    11: 'A', 12: 'B', 13: 'D', 14: 'C', 15: 'C',
+                    16: 'C', 17: 'D', 18: 'A', 19: 'C', 20: 'B',
+                    21: 'A', 22: 'C', 23: 'B', 24: 'D', 25: 'A',
+                    26: 'B', 27: 'B', 28: 'D', 29: 'C', 30: 'A',
+                    31: 'D', 32: 'C', 33: 'C', 34: 'B', 35: 'D',
+                    36: 'C', 37: 'C', 38: 'A', 39: 'B', 40: 'D',
+                    41: 'A', 42: 'C', 43: 'E', 44: 'B', 45: 'F'
+                }
+                for q_idx, exp_ans in official_answers_2018_ky2.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round69_anomalies.append((f'2018_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -3960,6 +4080,7 @@ def main():
     results["Assertion 88: 2017 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 3 与 Text 4 历史颠倒互换彻底归位纠偏、Text 2 补齐失落利留卡拉尼女王首段恢复6段、完型恢复4段并修复yes与碎词、Text 3 剔除词数泄露恢复7段、Text 4 恢复8段独立设问、Part B 剥离指导语与连线图恢复7段[A]-[G]、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round66_anomalies) == 0)
     results["Assertion 89: 2017 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型治愈单一大段黏连恢复4段348词并切除reservedfor、Text 1 恢复4段治愈toprovidethe与Baddeley原句、Text 2 恢复4段治愈therest ofthe并补全静止脸实验与Tronick论述、Text 3 恢复4段并理顺大一新生适应与转专业省钱逻辑、Text 4 恢复10段并纠偏鲍尔奇火灾哲学、Part B 恢复6段理顺五位制造业代表访谈、全卷45题question_number彻底自洽赋值1..45、Q21/22/25/26/28/29/30/32/33/34/36/38/39 严重乱序选项彻底归位、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round67_anomalies) == 0)
     results["Assertion 90: 2018 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并切除[1] for答案泄露、Text 1 恢复7段治愈on't dismiss与反斜杠、Text 2 恢复6段切除niversity/nited碎词与beef up/Barna题干倒灌、Text 3 彻底切除Text 2跨篇倒灌段落并完整还原NHS/DeepMind四段论、Text 4 恢复4段理顺USPS赤字与改革、Part B 恢复7段[A]-[G]彻底剔除莎士比亚剧场串题伪选项、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round68_anomalies) == 0)
+    results["Assertion 91: 2018 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段350词消除假实验段、Text 1 恢复8段370词对齐Q23第5段与推行本科论述、Text 2 恢复7段416词理顺风能与储能电池进展、Text 3 恢复4段412词补全反垄断法变化慢从句并消除黏连、Text 4 恢复7段439词找回失落第3段深度日程并治愈rethink截断、Part B 恢复584词剥离Directions与分值杂质、彻底治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round69_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
