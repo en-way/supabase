@@ -2,12 +2,12 @@
   "exam": {
     "id": "0c9161be-007f-5eef-87e7-977c93b9e486",
     "category_id": "ky2",
-    "title": "2019年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2019年全国硕士研究生招生考试英语（二）真题",
     "year": 2019,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Weighing yourself regularly is a wonderful way to stay aware of any significant weight fluctuations. [1], when done too often, this habit can sometimes hurt more than it [2] As for me, weighing myself every day caused me to shift my focus from being generally healthy and physically active, to focusing [3] _ on the scale. That was bad to my overall fitness goals. I had gained weight in the form of muscle mass, but thinking only of_ [4] _the number on the scale, I altered my training program. That conflicted with how I needed to train to [5] my goals. I also found that weighing myself daily did not provide an accurate_ [6] of the hard work and progress I was making in the gym. It takes about three weeks to a month to notice significant changes in your weight [7] altering your training program. The most_ [8] changes will be observed in skill level, strength and inches lost. For these_ [9], I stopped weighing myself every day and switched to a bimonthly weighing schedule [10]. Since weight loss is not my goal, it is less important for me to [11] my weight each week. Weighing every other week allows me to observe and [12] any significant weight changes. That tells me whether I need to [13] my training program. I use my bimonthly weigh-in [14] to get information about my nutrition as well. If my training intensity remains the same, but I'm constantly [15] and dropping weight, this is a_ [16] _ that I need to increase my daily caloric intake. The [17] to stop weighing myself every day has done wonders for my overall health, fitness and well-being. I'm experiencing increased zeal for working out since I no longer carry the burden of a [18] morning weigh-in. I've also experienced greater success in achieving my specific fitness goals, [19] I'm training according to those goals, not the numbers on a scale. Rather than_ [20] over the scale, turn your focus to how you look, feel, how your clothes fit and your overall energy level.",
+      "content": "Weighing yourself regularly is a wonderful way to stay aware of any significant weight fluctuations. [1], when done too often, this habit can sometimes hurt more than it [2].\n\nAs for me, weighing myself every day caused me to shift my focus from being generally healthy and physically active, to focusing [3] on the scale. That was bad to my overall fitness goals. I had gained weight in the form of muscle mass, but thinking only of [4] the number on the scale, I altered my training program. That conflicted with how I needed to train to [5] my goals.\n\nI also found that weighing myself daily did not provide an accurate [6] of the hard work and progress I was making in the gym. It takes about three weeks to a month to notice significant changes in your weight [7] altering your training program. The most [8] changes will be observed in skill level, strength and inches lost.\n\nFor these [9], I stopped weighing myself every day and switched to a bimonthly weighing schedule [10]. Since weight loss is not my goal, it is less important for me to [11] my weight each week. Weighing every other week allows me to observe and [12] any significant weight changes. That tells me whether I need to [13] my training program.\n\nI use my bimonthly weigh-in [14] to get information about my nutrition as well. If my training intensity remains the same, but I'm constantly [15] and dropping weight, this is a [16] that I need to increase my daily caloric intake.\n\nThe [17] to stop weighing myself every day has done wonders for my overall health, fitness and well-being. I'm experiencing increased zeal for working out since I no longer carry the burden of a [18] morning weigh-in. I've also experienced greater success in achieving my specific fitness goals, [19] I'm training according to those goals, not the numbers on a scale.\n\nRather than [20] over the scale, turn your focus to how you look, feel, how your clothes fit and your overall energy level.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child's growing grasp of social and moral norms. Children aren't born knowing how to say \"I'm sorry'\"; rather, they learn over time that such statements appease parents and friends - and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be agood thing.\n\nIn the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable - it's the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated. “There has been a kind of revival or a rethinking about what guilt is and what the University of Virginia, adding that this revival is part of a larger advantageous in one context may be harmful in another. Jealousy and anger, for example, may have evolved to alert us to important inequalities. Too much happiness can be destructive. And guilt, by prompting us to think more deeply about our goodness, can encourage humans to make up for errors and fix relationships. Guilt, in other words, can help hold a cooperative species together. It is a kind of social glue.\n\nViewed in this light, guilt is an opportunity. Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt Malti and others have shown that guilt and sympathy may represent different pathways to cooperation and sharing. Some kids who are low in sympathy may make up for that shortfall by experiencing more guilt which can rein in their nastier impulses. And vice versa: High sympathy can substitute for low guilt.\n\nIn a 2014 study, for example, Malti looked at 244 children. Using caregiver assessments and the children's self-observations, she rated each child's overall sympathy level and his or her tendency to feel negative emotions after moral transgressions. Then the kids were handed chocolate coins, and given a chance to share them with an anonymous child. For the low-sympathy kids, how much they shared appeared to turn on how inclined they were to feel guilty. The guilt-prone ones shared more, even though they hadn't magically become more sympathetic to the other child's deprivation. we caused harm and we feel regret.\"",
+      "content": "Unlike so-called basic emotions such as sadness, fear, and anger, guilt emerges a little later, in conjunction with a child's growing grasp of social and moral norms. Children aren't born feeling guilty, but rather, they learn over time that such statements appease parents and friends—and their own consciences. This is why researchers generally regard so-called moral guilt, in the right amount, to be a good thing.\n\nIn the popular imagination, of course, guilt still gets a bad rap. It is deeply uncomfortable—it's the emotional equivalent of wearing a jacket weighted with stones. Yet this understanding is outdated. \"There has been a kind of revival or a rethinking about what guilt is and what role guilt can play in our lives,\" says Amrisha Vaish, a psychology researcher at the University of Virginia, adding that this revival is part of a larger movement in psychology toward protecting people from negative feelings, even as researchers learn more about their upside. \"Emotions are not completely good or completely bad—they are either useful or not useful depending on the context,\" says Vaish. Too much happiness, it turns out, can be bad for you, while in the right balance, guilt can serve as an emotional compass.\n\nIn addition, despite its uncomfortable feel, guilt is a key emotion that allows us to cooperate and communicate with other people in our lives. Like other social emotions, guilt helps bind us together. It is a kind of social glue.\n\nViewed in this light, guilt is an opportunity. Work by Tina Malti, a psychology professor at the University of Toronto, suggests that guilt may compensate for an emotional deficiency. In a number of studies, Malti and others have shown that guilt and sympathy may represent different paths to cooperation and sharing. Some kids who are low in sympathy may find that guilt takes its place, while kids who are low in guilt can rely on sympathy instead. In other words, there are different emotional pathways to good social behavior, and high guilt in children who are low in sympathy can substitute for low guilt.\n\nIn a 2014 study, for example, Malti looked at 244 children. Using caregiver reports and clinical interviews, Malti measured how likely children were to feel sympathy or guilt when they were facing situations involving moral transgressions. They were also assessed on how likely they were to share with their peers and cooperate with them.\n\nMalti found that children who were low in sympathy, but had a solid capacity to feel guilt, engaged in the same amount of prosocial behavior as children who were high in sympathy. And the children with high guilt and low sympathy behaved more kindly than children who were low in both guilt and sympathy. \"Guilt had a unique role to play, by bringing children back into the prosocial, moral sphere,\" Malti says. In other words, though these children hadn't magically become more sympathetic to the other child's deprivation, \"guilt tells them, we caused harm and we feel regret.\"",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Even as we humans count on forests to soak up a good share of the carbon dioxide we produce, we are threatening their ability to do so. The climate change we are hastening could one day leave us with forests that emit more carbon than they absorb.\n\nThankfully, there is a way out of this trap -but it involves striking a subtle balance. Helping forests flourish as valuable “carbon sinks” long into the future may require reducing their capacity to absorb carbon now. California is leading the way, as it does on so many climate efforts, in figuring out the details.\n\nThe state's proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear brush in parts of the forest. This temporarily lowers carbon-carrying capacity. But the remaining trees draw a greater share of the available moisture, so they grow and thrive, restoring the forest's capacity to pull carbon from the air. Healthy trees are also better able to fend off insects. The landscape is rendered less easily burnable. Even in the event of a fire, fewer trees are consumed. The need for such planning is increasingly urgent. Already, since California, most of them in 2016 alone, and wildfires have burned hundreds of thousandsof acres.\n\nCalifornia plans to treat 35, 000 acres of forest a year by 2020, and 60,000 by 2030 - financed from the proceeds of the state's emissions-permit auctions. That's only a small share of the total acreage that could benefit, about half a million acres in all, so it will be vital to prioritize areas at greatest risk of fire or drought. The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid lumber or burned as biofuel in vehicles that would otherwise run on fossil fuels. New research on transportation biofuels is already under way. State governments are well accustomed to managing forests, but traditionally they've focused on wildlife, watersheds and opportunities for recreation. Only recently have they come to see the vital part forests will have to play in storing carbon. California's plan, which is expected to be finalized by the governor next year, should serve as a model.",
+      "content": "Forests give us shade, quiet and one of the harder challenges in the fight against climate change. Essentially, they are a vast sink of carbon, that absorbs it from the atmosphere and stores it in wood, leaves and soil. But as the climate change, they face increasing risks from drought, fire, pests and disease. And in the balance between the moisture they absorb and the carbon they release, forests can become part of the problem. Climate change could leave us with forests that emit more carbon than they absorb.\n\nThankfully, there is a way out of this trap—but it involves striking a delicate balance. Helping forests flourish as valuable \"carbon sinks\" long into the future may require reducing their capacity to absorb carbon now. California is leading the way, as it does on so many climate efforts, in figuring out the details.\n\nThe state's proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear underbrush in parts of the forest including by controlled burning of 35,000 acres a year. This temporarily lowers a forest's carbon-carrying capacity, but the remaining trees will grow larger and more resilient, thereby restoring capacity long into the future and preventing the megafires that now routinely sweep through California, threatening lives, property and the state's climate-change goals. Such fires have burned hundreds of thousands of acres in recent weeks alone.\n\nCalifornia plans to treat 35,000 acres of forest a year by 2020, and 60,000 by 2030, financed from the proceeds of the state's carbon emissions permit auctions. That's a good start, but it's only a fraction of what is needed. The plan prioritizes treating areas in or near forests that are close to human communities, which is sensible; this could prevent the next North Bay fires, which killed 44 people and destroyed more than 8,000 homes in October 2017. But other elements of the plan are more controversial.\n\nThe strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid wood products, such as lumber, or used in power plants to generate electricity, which the state considers carbon-neutral under the principle that the tree would have died anyway and released its carbon. Most important, the plan does not take into account the crucial role that federal forests will have to play in storing carbon. California's plan, which is expected to be finalized by the governor next year, should serve as a model.",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "American farmers have been complaining of labor shortages for several years. The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.\n\nCongress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry. If this doesn't change, American businesses, communities, and consumers will be the losers. Perhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country, the characteristics of the agricultural workforce are changing. Today's farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single. They're also aging. At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies. One oft-debated cure for this labor shortage remains as implausible as it's been all along: Native U.S. workers won't be returning to the farm.\n\nMechanization isn't the answer, either - not yet, at least. Production of corn, cotton, rice, soybeans, and wheat has been largely mechanized, but many high-value, labor-intensive crops, such as strawberries, need labor. Even dairy farms, where robots do a small share of milking, have a long way to go before they're automated. As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce. Starting around 2012, requests for the visas rose sharply; from 2011 to has no numerical cap, unlike the H-2B visa for nonagricultural work, which is limited to 66,000 a year. Even so, employers complain they aren't given all the workers they need. The process is cumbersome, expensive, and unreliable. One survey found that bureaucratic delays led the average H-2A worker to arrive on the job 22 days late. The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.\n\nIn a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded by moving operations to Mexico. From 1998 to 2000,14.5 percent of the fruit Americans consumed was imported. Little more than a decade later, the share of imports was 25.8 percent. In effect, the U.S. can import food or it can import the workers who pick it.",
+      "content": "American farmers have been complaining of labor shortages for several years. The complaints are unlikely to stop without an overhaul of immigration rules for farm workers.\n\nCongress has obstructed efforts to create a more straightforward visa for agricultural workers that would let foreign workers stay longer in the U.S. and change jobs within the industry. If this doesn't change, American businesses, communities, and consumers will be the losers.\n\nPerhaps half of U.S. farm laborers are undocumented immigrants. As fewer such workers enter the country, the characteristics of the agricultural workforce are changing. Today's farm laborers, while still predominantly born in Mexico, are more likely to be settled rather than migrating and more likely to be married than single. They're also aging. At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are. And picking crops is hard on older bodies. One oft-debated cure for this labor shortage remains as implausible as it's been all along: Native U.S. workers won't be returning to the farm.\n\nMechanization isn't the answer, either—not yet, at least. Production of gentler, smarter robots is getting closer, but it's still weeks or years away for most crops. And in any case, machines can't pick vegetables and fruits on hillsides with uneven terrain.\n\nAs a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce. In 2017, the U.S. Department of State issued more than 161,000 such visas—a sharp increase from about 79,000 in 2012.\n\nThe H-2A visa has no numerical cap, unlike the H-2B visa, which is limited to 66,000 a year. Even so, agricultural employers complain that the process is cumbersome, expensive, and unreliable. Bureaucratic delays regularly cause the average H-2A worker to arrive on the job 22 days late. The shortage is compounded by federal immigration raids, which remove some workers and drive others underground.\n\nIn a 2012 survey, 71 percent of tree-fruit growers and almost 80 percent of raisin and berry growers said they were short of labor. Some western farmers have responded by moving operations to Mexico. From 1998 to 2000, 14.5 percent of the fruit Americans consumed was imported. Little more than a decade later, the share of imports was up to 25.8 percent.\n\nIn effect, the U.S. can import food or it can import the workers who pick it.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It's easy to beat plastic. They're part of a bunch of celebrities starring in a new video for World Environment Day - encouraging you, the consumer, to swap out your single-use plastic staples like straws and cutlery to combat the plastics crisis. Environment Day do include a call for governments to enact legislation to curb single-use plastics. But the overarching message is directed atindividuals.\n\nMy concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved. On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us. They could even be detrimental, satisfying a need to have “done our bit”without ever progressing onto bigger, bolder, more effective actions - a kind of “moral licensing” that allays our concerns and stops us doing more and asking more of those in charge.\n\nWhile the conversationaroundour environment andour responsibility toward it remains centered on shopping bags and straws, we're ignoring the balance of power that implies that as “consumers\" we must shop sustainably, rather than as “citizens\" hold our governments and industries to account to push for real systemic change.\n\nIt's important to acknowledge that the environment isn't everyone's priority - or even most people's. We shouldn't expect it to be. In her latest book, Why Good People Do Bad Environmental Things, Wellesley College professor Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.\n\nThis might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether. India has just announced it will \"eliminate all single-use plastic in the country by 2022. There are also incentive-based ways of makingbetter environmental choices easier, DeSombre isn't saying people should stop caring about the environment. It's just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.\n\nNone of this is about writing off the individual. It's just about putting things into perspective. We don't have time to wait. We need progressive policies that shape collective action (and rein in polluting businesses), alongside engaged citizens pushing for change.",
+      "content": "Arnold Schwarzenegger, Dia Mirza and Adrian Grenier have a message for you: It's easy to beat plastic. They're part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis.\n\nThe key messages that have been put together for World Environment Day do include a call for governments to enact legislation to curb single-use plastics. But the overarching message is directed at individuals.\n\nMy concern with leaving it up to the individual, however, is our limited sense of what needs to be achieved. On their own, taking our own bags to the grocery store or quitting plastic straws, for example, will accomplish little and require very little of us. They could even be harmful, satisfying a need to have \"done our bit\" without ever progressing onto bigger, bolder, more effective actions—a kind of \"moral licensing\" that eases our concerns and stops us doing more and asking more of those in charge.\n\nWhile the conversation around our environment and our responsibility toward it remains centered on shopping bags and straws, we're ignoring the balance of power that implies that as \"consumers\" we must shop sustainably, rather than as \"citizens\" hold our governments and industries to account to push for real systemic change.\n\nIt's important to acknowledge that the environment isn't everyone's priority. It's also unreasonable to expect each individual to be constantly making the right choice, in conditions that are not set up to favor that choice. In a complex world, Elizabeth R. DeSombre argues that the best way to collectively change the behavior of large numbers of people is for the change to be structural.\n\nThis might mean implementing policy such as a plastic tax that adds a cost to environmentally problematic action, or banning single-use plastics altogether. India has just announced it will \"eliminate all single-use plastic in the country by 2022.\" There are also incentive-based ways of making better environmental choices easier, such as ensuring recycling is at least as easy as trash disposal.\n\nDeSombre isn't saying people should stop caring about the environment. It's just that individual actions are too slow, she says, for that to be the only, or even primary, approach to changing widespread behavior.\n\nNone of this is about writing off the individual. It's just about putting things into perspective. We don't have time to wait. We need progressive policies that shape collective action, alongside engaged citizens pushing for change.",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "In choosing a new home, Camille McClain's kids have a single demand: a backyard. McClain's little ones aren't the only kids who have an opinion when it comes to housing, and in many cases youngsters’ views weigh heavily on parents’ real estate decisions, according to a 2018 Harris Poll survey of more than 2,000 U.S. adults. While more families buck an older-generation proclivity to leave kids in the dark about real estate decisions, realty agents and psychologists have mixed views about the financial, personal and long-term effects kids′ opinions may have. The idea of involving children in a big decision is a great idea because it can help them feel a sense of control and ownership in what can be an overwhelming process, said Ryan Hooper, clinical psychologist in Chicago. \"Children may face serious difficulties in coping with significant moves, especially if it Greg Jaroszewski, real estate broker with Gagliardo Realty Associates, said he's not convinced that kids should be involved in selecting a home - but their opinions should be considered in regards to proximity to friends and social activities, if possible. Younger children should feel like they're choosing their home - without actually getting a choice in the matter, said Adam Bailey, real estate attorney based in New York. Asking them questions about what they like about the backyard of a potential home will make them feel like they're being included in the decision-making process, Bailey said. Many of the aspects of homebuying aren't a consideration for children, said Tracey Hampson, a real estate agent based in Santa Clarita, Calif. And placing too much emphasis on their opinions can ruin a fantastic home purchase. 'Speaking with your children before you make a real estate decision is wise, but I wouldn't base the purchasing decision solely on their opinions.\" Hampson said. The other issue is that many children - especially older ones - may base their real state knowledge on HGTV shows, said Aaron Norris of The Norris Group in Riverside, Calif. \"They love Chip and Joanna Gaines just as much as the rest of us,”’ he said. “\"HGTV has seriously changed how people view real estate. It's not shelter, it's a lifestyle. With that mindset change come some serious money consequences.\" Kids tend to get stuck in the features and the immediate benefits to them personally, Norris said. Parents need to remind their children that their needs and desires may change over time, said Julie Gurner, a real estate analyst with FitSmallBusiness.com. \"Their opinions can change tomorrow,” Gurner said. “Harsh as it may be to say, that decision a s e n n consideration into what home can meet their needs best-and give them an opportunity to customize it a bit and make it their own.\" This advice is more relevant now than ever before, even as more parents want to embrace the ideas of their children, despite the current housing crunch.",
+      "content": "In choosing a new home, Camille McClain's kids have a single demand: a backyard.\n\nMcClain's little ones aren't the only kids who have an opinion when it comes to housing, and in many cases youngsters' views weigh heavily on parents' real estate decisions, according to a 2018 Harris Poll survey of more than 2,000 U.S. adults.\n\nWhile more families buck an older-generation proclivity to leave kids in the dark about real estate decisions, realty agents and psychologists have mixed views about the financial, personal and long-term effects of giving kids too much sway.\n\nThe idea of involving children in a big decision is a great idea because it can help them feel a sense of control and ownership in what can be an overwhelming process, said Ryan Hooper, a clinical psychologist in Chicago.\n\n\"Children may face serious difficulties in coping with significant moves, especially if it removes them from their current school or support system,\" he said.\n\nGreg Jaroszewski, a real estate broker with Gagliardo Realty Associates, said he's not convinced that kids should be involved in selecting a home—but their opinions should be considered in regards to proximity to friends and social activities, if possible.\n\nYounger children should feel like they're choosing their home—without actually getting a choice in the matter, said Adam Bailey, a real estate attorney based in New York.\n\nAsking them questions about what they like about the backyard of a potential home will make them feel like they're being included in the decision-making process, Bailey said.\n\nMany have opinions, but naturally lack the wisdom to make a reasoned decision, said Tracey Hampson, a real estate agent based in Santa Clarita, Calif.\n\n\"Buying a home is one of the biggest decisions you'll make in your life, and having children participate can complicate the process,\" Hampson said. \"I would never base the purchase of a home on the opinions of children.\"\n\nThe other issue is that many children—especially older ones—may base their real estate knowledge on HGTV shows, said Aaron Norris of The Norris Group in Riverside, Calif.\n\n\"They love the luxury amenities, the open-concept floor plans and cool pools,\" said Norris. \"Well, most homes don't have that.\"\n\nNorris said he's had a number of home sales fall through in the final stages because children have disliked the house.\n\nHaving kids participate in home purchases is a noble idea, but it should be done with \"extreme caution,\" said Julie Gurner, a real estate analyst and psychologist based in New York.\n\n\"That decision should likely not be made contingent on a child's opinions, but rather made for them with their best interests in mind,\" Gurner said. \"Children may not know what is best for them long-term.\"\n\nSome parents who let their children have an oversized say may also miss out on great deals, especially in a competitive market, Gurner added. Still, more parents want to embrace the ideas of their children, despite the current housing crunch.",
       "sort_order": 6
     }
   ],
@@ -110,10 +110,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】逻辑副词辨析。首句称定期称重是好方法，次句指出频繁称重害大于利，表转折对比，选 D（However）。",
+      "explanation": "［考点提炼］句间逻辑关系与副词辨析。\n\n［解题思路］首句指出定期称重是随时了解体重波动的极佳方式（a wonderful way）；次句指出如果称重过于频繁，这一习惯造成的伤害有时会大于益处。前句赞扬其益处，后句指出其弊端，两句之间存在明显的转折对比关系，故正确答案为［D］However（然而）。\n\n［错项排除］［A］Besides（此外）表递进补充；［B］Therefore（因此）表因果结果；［C］Otherwise（否则）表相反假设条件，三项均无法体现转折关系。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "4933310e-2c64-534e-806d-9a0cce9ec8f9",
@@ -145,10 +148,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】动词语义辨析。hurt more than it helps 意为伤害多过带来的'帮助/益处'，选 A（helps）。",
+      "explanation": "［考点提炼］动词语义辨析与比较结构搭配。\n\n［解题思路］空格所在分句hurt more than it [2]与首句中的a wonderful way形成语义照应，hurt（伤害）与空格词形成鲜明反义对比。能与hurt相对立并构成比较的是表示“有帮助、有益处”的词，故选［A］helps（帮助，促进）。hurt more than it helps意为“弊大于利、害多于益”。\n\n［错项排除］［B］cares（关心，照料）；［C］warns（警告，提醒）；［D］reduces（减少，降低），三项均不能与hurt形成对仗反义搭配。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "0d5e4d86-bc46-5298-aae5-f91840cad228",
@@ -180,10 +186,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】副词语义辨析。focusing solely on the scale 意为'仅仅/唯一'紧盯体重计上的数字，选 B（solely）。",
+      "explanation": "［考点提炼］副词语义辨析与语境限制。\n\n［解题思路］第二段开头作者结合自身经历指出，每日称重导致自己将注意力从“保持整体健康和运动活力”转移到“只关注体重计上的数字”。后句强调thinking only of the number，only与［B］solely（仅仅，单独地）形成精准语义同义复现，故选［B］。\n\n［错项排除］［A］initially（最初，首先）；［C］occasionally（偶尔）；［D］formally（形式上，正式地），均无法体现“唯独、极端局限”的负面偏狭语境。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "044ca8bc-89b6-53dc-90cc-f6379fb280c4",
@@ -215,10 +224,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】动词搭配辨析。thinking only of lowering the number 意为心心念念只想'降低/减少'体重数字，选 B（lowering）。",
+      "explanation": "［考点提炼］动词辨析与动宾搭配。\n\n［解题思路］作者指出自己通过锻炼增加了肌肉重量（gained weight in the form of muscle mass），但因为心中只想着“让体重计上的数字降下来”，从而错误地修改了训练计划。数字下降对应［B］lowering（降低，减少），lowering the number on the scale符合语境。\n\n［错项排除］［A］recording（记录）；［C］explaining（解释）；［D］accepting（接受），均无法体现盲目减重、排斥肌肉增长数字的心态。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "d6bdaa21-5264-5e85-bc4c-cb6c68c0cf4f",
@@ -250,10 +262,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】动词搭配辨析。train to reach my goals 意为为了'实现/达到'目标而训练，选 D（reach）。",
+      "explanation": "［考点提炼］动宾搭配与目标达成表达。\n\n［解题思路］作者指出修改后的训练计划与自己为了“实现目标”所必需的训练方式相冲突。在英语中，与goals（目标）形成标准动宾搭配并表示“实现、达到目标”的动词是reach，reach my goals意为“达成我的目标”，故选［D］reach。\n\n［错项排除］［A］modify（修改）；［B］set（设定）；［C］review（审视，回顾），与前面“训练以求达成目标”的语境不符。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "9554f78e-376e-5aaa-b746-5a8bf79c3e00",
@@ -285,10 +300,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】名词语义辨析。provide an accurate depiction 意为无法准确'描绘/反映'辛勤付出和进步，选 B（depiction）。",
+      "explanation": "［考点提炼］名词辨析与语境对应。\n\n［解题思路］作者第三段指出，每日称重并不能准确反映出自己在健身房付出的辛勤努力与进步。provide an accurate depiction of...意为“准确描绘/真实反映出……”，depiction（描绘，刻画，反映）切中文意，故选［B］。\n\n［错项排除］［A］definition（定义）；［C］distribution（分配，分布）；［D］prediction（预测），三项均不符合“体现训练成效”的搭配语义。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "f33c7ad4-3dab-5da9-a9f6-b4379e30258b",
@@ -320,10 +338,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】介词短语辨析。due to altering your training program 意为'由于/因为'调整了训练计划导致的体重变化，选 A（due to）。",
+      "explanation": "［考点提炼］介词短语辨析与因果逻辑。\n\n［解题思路］空格前后为：在改变训练计划之后，需要大约三周到一个多月才能察觉到体重的显著变化。空格后altering your training program是体重变化的原因，due to表示“由于，归因于”，引导原因状语，故选［A］due to。\n\n［错项排除］［B］regardless of（不管，不顾）；［C］aside from（除了……之外）；［D］along with（随着，与……一道），均无法表达因果因由。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "0b8e2afc-fbcc-5b40-8d50-1aaaf3346de8",
@@ -355,10 +376,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】形容词语义辨析。The most immediate changes 意为最'直接/立竿见影的'变化体现在体能和力量上，选 D（immediate）。",
+      "explanation": "［考点提炼］形容词辨析与时间语义对比。\n\n［解题思路］上文提到体重数字的变化需要数周到一个月才能体现，而技能水平、力量增长和体围缩小则是最先、最快被观察到的。immediate在此表示“立即的，最直接的”，与上文需漫长等待的体重变化形成时间快慢对照，故选［D］immediate。\n\n［错项排除］［A］orderly（整齐的，有秩序的）；［B］rigid（死板的，僵硬的）；［C］precise（精确的），均无法体现“立竿见影、迅速显现”的含义。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "5824642d-8fa9-5d5f-b775-a56e72509cd9",
@@ -390,10 +414,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】名词语义辨析。For these reasons 意为出于这些'原因'，固定搭配，选 C（reasons）。",
+      "explanation": "［考点提炼］固定搭配与因果总结。\n\n［解题思路］第四段开头承接上两段所剖析的每日称重弊端，作者总结道：出于这些原因，我停止了每天称重。For these reasons为英语常用固定短语，表示“出于这些原因”，故选［C］reasons。\n\n［错项排除］［A］claims（主张，声称）；［B］judgments（判断，评判）；［D］methods（方法），均不能构成表达因果总结的习惯搭配。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "4cba17e0-52c3-595d-80eb-ed420e103061",
@@ -425,10 +452,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】副词语义辨析。switched to a bimonthly weighing schedule instead 意为转而改用两周称一次的方案，选 A（instead）。",
+      "explanation": "［考点提炼］副词辨析与替代转折逻辑。\n\n［解题思路］作者指出自己停止了每天称重，转而（instead）改用每半个月称一次的日程安排。instead表示“替代，反而，转而”，生动刻画出摒弃错误做法、采纳新方案的转变，故选［A］instead。\n\n［错项排除］［B］though（虽然，然而）；［C］again（再次）；［D］indeed（确实），均不能准确表达行为方式的更替。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "d192c493-b596-5faa-bc57-792052ca72fc",
@@ -460,10 +490,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】动词搭配辨析。less important for me to track my weight each week 意为每周'追踪/监控'体重不再那么重要，选 A（track）。",
+      "explanation": "［考点提炼］动词语义与健身监控搭配。\n\n［解题思路］作者指出，既然减重不是自己的目标，那么每周去“追踪、监控”自己的体重就显得不那么重要了。track my weight意为“追踪/监测体重变化”，精准表达定期记录体重趋势的动作，故选［A］track。\n\n［错项排除］［B］overlook（忽视，漏看）；［C］conceal（隐瞒，掩盖）；［D］report（报告），均偏离客观自我监测的动作含义。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a751026d-760b-5161-b5ea-318b35bb1838",
@@ -495,10 +528,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】动词短语辨析。observe and account for any significant changes 意为观察并'解释/查明'任何显著体重波动的原因，选 D（account for）。",
+      "explanation": "［考点提炼］动词短语辨析与原因解释。\n\n［解题思路］每隔一周称重一次允许我观察并查明（account for）任何显著的体重变化。account for在此意为“对……做出合理解释，弄清……的原因”，与observe形成并列递进：先观察到变化，再分析其原因，故选［D］account for。\n\n［错项排除］［A］depend on（取决于）；［B］approve of（赞同）；［C］hold onto（坚守，保住），均不能与体重变化搭配表达分析溯源。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "cd43a592-da92-5690-95a7-d407cb6789c1",
@@ -530,10 +566,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】动词搭配辨析。whether I need to adjust my training program 意为是否需要'调整'训练方案，选 B（adjust）。",
+      "explanation": "［考点提炼］动宾搭配与语境连贯。\n\n［解题思路］分析清楚体重变化的原因，能告诉“我”是否需要对训练计划进行微调。adjust my training program意为“调整我的训练计划”，呼应前文根据身体机能变化做出适应性调整的主旨，故选［B］adjust。\n\n［错项排除］［A］share（分享）；［C］confirm（确认）；［D］prepare（准备），均与根据身体反馈改进方案的语境不合。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3451bd19-eb40-54a9-b6b4-63ed7ee9d8a9",
@@ -565,10 +604,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】名词语义辨析。use my bimonthly weigh-in results 意为利用半月称重'结果'获取营养摄入信息，选 A（results）。",
+      "explanation": "［考点提炼］名词辨析与上下文信息指代。\n\n［解题思路］第五段首句指出，作者利用自己每半月一次的称重“结果”（results）来获取有关营养摄入的信息。weigh-in results表示称重测试得出的数据结果，故选［A］results。\n\n［错项排除］［B］features（特征）；［C］rules（规则）；［D］tests（测试，与weigh-in语义重叠且不合句意）。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "660e6b6d-42de-52e6-9433-88bdf313613d",
@@ -600,10 +642,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】形容词辨析。constantly hungry and dropping weight 意为常常感到'饥饿'且体重下降，选 C（hungry）。",
+      "explanation": "［考点提炼］形容词辨析与身体生理反应。\n\n［解题思路］下文指出“需要增加日常热量摄入（increase my daily caloric intake）”，这说明身体能量摄入不足，因此生理状态必然是经常感到“饥饿”，hungry and dropping weight（经常挨饿且体重不断下滑）完全契合，故选［C］hungry。\n\n［错项排除］［A］bored（无聊的）；［B］anxious（焦虑的）；［D］sick（生病的），均无法作为提示“必须增加卡路里摄入”的直接营养反馈指标。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "d9677bf4-1949-5965-969e-8ceda954c37f",
@@ -635,10 +680,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】名词语义辨析。this is a sign that I need to increase calories 意为这是一个需要增加热量的'迹象/信号'，选 D（sign）。",
+      "explanation": "［考点提炼］名词辨析与表征信号。\n\n［解题思路］训练强度未变但人一直饥饿且掉秤，这是一个“信号/迹象”（sign），表明需要增加热量摄入。this is a sign that...为固定表达，意为“这是……的迹象/信号”，故选［D］sign。\n\n［错项排除］［A］principle（原则）；［B］secret（秘密）；［C］belief（信念），三项均不能表达生理状况所释放出的指标提示。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "055d387c-16ec-54e1-b98b-86a6a532c53d",
@@ -670,10 +718,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】名词语义辨析。The decision to stop weighing myself 意为停止每日称重的'决定'带来诸多好处，选 C（decision）。",
+      "explanation": "［考点提炼］名词辨析与自主抉择表达。\n\n［解题思路］第六段开头总结道：停止每天称重的“决定”（decision）对作者的整体健康、体能和幸福感产生了奇迹般的效果。The decision to stop...准确概括了前文作者主动做出的行为改变，故选［C］decision。\n\n［错项排除］［A］request（请求）；［B］necessity（必需品）；［D］wish（愿望），均无法准确反映作者坚决实施的行为转变。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "8eec711b-780d-5e4d-8c6f-de9775ed2bd6",
@@ -705,10 +756,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】形容词辨析。burden of a disappointing morning weigh-in 意为不再承受晨起称重令人'失望/沮丧'的心理负担，选 A（disappointing）。",
+      "explanation": "［考点提炼］形容词辨析与心理重负照应。\n\n［解题思路］作者表示自己对健身产生了更大的热情，因为不再背负每天早晨称重带来的令人沮丧失望的心理负担（burden of a disappointing morning weigh-in）。disappointing符合人们每日面对数字波动时的沮丧心态，故选［A］disappointing。\n\n［错项排除］［B］surprising（令人吃惊的）；［C］restricting（限制性的）；［D］consuming（消耗性的），均无法贴切修饰打击健身信心的称重心理负担。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "5a5f953d-0159-5c9e-9a14-0547a5df1674",
@@ -740,10 +794,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】连词语义辨析。because I'm training according to those goals 引导原因状语从句，'因为'是按照目标训练，选 D（because）。",
+      "explanation": "［考点提炼］连词辨析与因果论证。\n\n［解题思路］后半句指出“我正在依据那些切实的目标而不是体重计上的数字来训练”，这是前半句“在实现具体健身目标方面取得了更大成功”的根本原因。because（因为）引导原因状语从句，逻辑顺畅，故选［D］because。\n\n［错项排除］［A］if（如果）；［B］unless（除非）；［C］until（直到……为止），均无法构成合乎情理的因果论证关系。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c7e3936d-4213-553c-92f5-a532c0754a1b",
@@ -775,10 +832,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】动词搭配辨析。Rather than obsessing over the scale 意为与其对体重计上的数字'过分纠结/念念不忘'，选 A（obsessing）。",
+      "explanation": "［考点提炼］动词短语辨析与警示呼吁。\n\n［解题思路］末段作者向读者呼吁：与其对体重计上的数字过度执迷（obsessing over the scale），不如将精力转向自己的外表容貌、感觉、衣服合身度以及整体精力水平。obsess over意为“对……过分挂念/执迷不悟”，与后半句积极豁达的心态形成强烈对比，选［A］obsessing。\n\n［错项排除］［B］dominating（主导，支配）；［C］puzzling（使迷惑）；［D］triumphing（战胜，获胜），三项均无法与over搭配表达沉溺执迷之态。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "461b9439-1380-5c57-b030-0b03c2f5a4a7",
@@ -810,10 +870,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】事实细节题。首段末句指出 guilt can actually be a good thing, helping to foster children's moral development，直接对应 C 项。",
-      "points": 2,
+      "explanation": "［考点提炼］因果细节题（考查研究人员认为内疚感是好事的原因）。\n\n［解题思路］首段①句指出内疚感是随着孩子对社会和道德规范的逐步领会而出现的（in conjunction with a child's growing grasp of social and moral norms）；②句说明孩子表达道歉有助于安抚他人以及自身的良知；③句得出结论This is why researchers generally regard so-called moral guilt... to be a good thing。因此研究人员认为适度内疚是好事的原因在于它能够促进儿童道德品质的发展，［C］foster a child's moral development正确。\n\n［错项排除］［A］调节基础情绪混淆概念，内疚与基础情绪是发展阶段的比较而非调节关系；［B］提升智力无中生有；［D］强化积极情感与适度内疚的道德指南针功能相悖。",
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "ec8af097-acaa-5195-a3e0-6f42af623302",
@@ -845,10 +908,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第二段首句指出大部分人将内疚感与消极负面感受（badness, unworthiness, shame）联系在一起，感到沉重压抑，对应 B 项 burdensome。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查公众传统观念中对内疚感的看法）。\n\n［解题思路］第二段前两句指出：在公众印象中，内疚感名声不佳（gets a bad rap），它让人极度不适，“就像穿了一件装满石头的沉重外套”（the emotional equivalent of wearing a jacket weighted with stones）。jacket weighted with stones形象比喻沉重的情感负担，［B］burdensome（沉重的，繁重的）为此比喻的同义提炼，故选［B］。\n\n［错项排除］［A］deceptive（欺骗性的）；［C］addictive（令人上瘾的）；［D］inexcusable（不可原谅的），均与“如负巨石”的沉重感无关。",
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9450d67d-b64f-5cc0-a2ab-d8848e385878",
@@ -880,10 +946,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】人物观点题。第二段 Vaish 指出反思内疚感源于人们认识到同一种情绪在不同语境下可发挥相反作用（play opposing roles depending on the context），选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］观点态度题（考查学者Vaish对内疚感反思根源的认识）。\n\n［解题思路］第二段中Vaish指出对内疚感的新反思属于心理学领域保护人们免受负面情绪影响趋势的一部分，她强调：Emotions are not completely good or completely bad—they are either useful or not useful depending on the context（情绪并非绝对好或绝对坏——取决于具体语境，它们既可能有用也可能无用）。同一种情绪在不同语境下可发挥相反作用，［D］an emotion can play opposing roles准确同义转换了useful or not useful depending on the context，故选［D］。\n\n［错项排除］［A］情绪与语境无关与原文depending on the context直接相悖；［B］强调情绪具社会建设性仅局限于正面，遗漏了有益与无益的辩证对比；［C］情绪稳定有利于健康偏离文本论述核心。",
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "07008f2f-b765-53dc-babe-bb3b9c49502b",
@@ -915,10 +984,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第四段指出 cooperation and sharing can result from either sympathy or guilt（合作与分享既可来自同情心也可来自内疚感），选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查学者Malti关于合作与分享行为的研究发现）。\n\n［解题思路］第四段③句明确指出：Malti and others have shown that guilt and sympathy may represent different paths to cooperation and sharing（马尔蒂等人指出，内疚感和同情心代表了通向合作与分享的不同路径）。有的孩子靠同情，有的孩子靠内疚，两者皆可激发合作与分享行为，［B］can result from either sympathy or guilt切中文意，故选［B］。\n\n［错项排除］［A］纠正情绪缺陷与后文互补代偿机制不符；［C］带来情感满足颠倒了因果逻辑；［D］冲动行为的产物与理性道德情感的引导相反。",
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "d1b17cb7-1d97-5e7b-bd6a-02a2719a7a87",
@@ -950,10 +1022,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】词义推断题。根据第五段后文可知孩子意识到犯错并试图弥补损害，moral transgressions 意为'道德过错/不当行为'，对应 wrongdoings，选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］词义句意题（考查代词语境与词汇含义推断）。\n\n［解题思路］划线词位于第五段②句：Malti measured how likely children were to feel sympathy or guilt when they were facing situations involving moral transgressions。后文第六段末句通过孩子所犯错误解释道：guilt tells them, we caused harm and we feel regret（内疚感告诉他们：我们造成了伤害，我们感到后悔）。造成伤害、引发违背道德良知的行为即为道德越轨/过错，transgressions在此即指wrongdoings（违法行为，过失，过错），故选［D］。\n\n［错项排除］［A］teachings（教导）；［B］discussions（讨论）；［C］restrictions（限制），均与道德过失行为的含义相差甚远。",
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "04da79d1-80ab-5aab-8b8d-b82d8078062f",
@@ -985,10 +1060,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】句意推断题。首段阐述森林本为吸收二氧化碳的碳汇，但在气候变化下可能反而释放更多碳，从气候帮手变成潜在威胁（potential threat），选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］推理判断题（考查作者使用“更严峻挑战”的深层暗示）。\n\n［解题思路］第一段首先指出森林本是巨大的碳汇，能够吸收并存储二氧化碳；随后以But转折指出随着气候变暖，森林面临干旱、火灾、病虫害等巨大风险，最终可能演变成排放碳多于吸收碳的加害者（Climate change could leave us with forests that emit more carbon than they absorb）。因此“更严峻挑战”暗示原本保护气候的森林如今自身可能反过来加剧气候危机，构成严峻威胁，［D］Some forests may become a practical threat to climate正确。\n\n［错项排除］［A］不能抵御极端天气夸大事实；［B］碳汇历史作用小与vast sink of carbon直接相悖；［C］木材需求大在首段未予讨论。",
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "39f990f8-bc30-5cb8-8e75-cf045e251f4a",
@@ -1020,10 +1098,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第二段明确指出 may require reducing their capacity to absorb carbon now，即为了长远碳汇效益目前需要主动降低其当下的吸碳容量，对应 D。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查维持森林碳汇价值的必要措施）。\n\n［解题思路］第二段②句指出：Helping forests flourish as valuable \"carbon sinks\" long into the future may require reducing their capacity to absorb carbon now（为了帮助森林在长远未来保持有价值的“碳汇”繁盛状态，可能需要在当前降低其吸碳能力）。题目中的maintain forests as valuable carbon sinks直接对应原文语句，［D］lower their present capacity to absorb carbon与reducing their capacity to absorb carbon now完全同义，故选［D］。\n\n［错项排除］［A］加速开发木材产品偷换概念；［B］禁止毁林并非本段核心对策；［C］优先开展短期减排与原文牺牲短期吸碳力以保长期的逻辑相悖。",
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "5981d5ad-909d-5d6e-81c3-c89d9f3d747e",
@@ -1055,10 +1136,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第三段首句明确指出该方案致力于 reduce the density of some of its forests（降低部分过度密植森林的密度），选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查加州森林碳计划的具体目标）。\n\n［解题思路］第三段①句指出：The state's proposed Forest Carbon Plan aims to double efforts to thin out young trees and clear underbrush in parts of the forest including by controlled burning...（加州的森林碳计划致力于通过可控焚烧等手段，加倍开展对部分林区幼树的疏伐以及对灌木丛的清理）。清理幼树和灌木丛即为降低森林树木密度，［B］reduce the density of some of its forests正确。\n\n［错项排除］［A］培育巨树断章取义，文中是保留树木长得更坚韧；［C］彻底消除特大火灾过于绝对；［D］恢复森林整体湿度无中生有。",
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f8801a5e-9f8f-5747-864a-ad38ce7590ab",
@@ -1090,10 +1174,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。末段首句明确指出 prioritizes treating areas in serious danger first（优先处置面临严重危险的高危区域），选 A。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查第五段所提及计划的关键内容）。\n\n［解题思路］第五段①句指出：The strategy also aims to ensure that carbon in woody material removed from the forests is locked away in the form of solid wood products, such as lumber, or used in power plants to generate electricity...（该战略还旨在确保从森林中清除出来的木质材料所含的碳被锁在实木产品中，或用于发电）。即确保被砍伐清理出来的木材能得到妥善存储和再利用，［A］handle the woody material properly正确。\n\n［错项排除］［B］增加私人土地森林面积与原文第五段末句提及的联邦森林角色不符；［C］评估电厂环境影响偏离木材利用主题；［D］加速森林自然枯死与文意完全背离。",
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "d2c83126-ce8a-59c6-8097-0411f7f74910",
@@ -1125,10 +1212,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】观点态度题。全文第二段称其 should serve as a model，末段肯定其为示范标杆，作者态度积极赞赏与支持，选 C（supportive）。",
-      "points": 2,
+      "explanation": "［考点提炼］观点态度题（考查作者对加州计划的整体评价态度）。\n\n［解题思路］文章第二段末尾赞许加州California is leading the way（加州在这方面走在全国前列）；并在末段末句高度评价该计划：California's plan, which is expected to be finalized by the governor next year, should serve as a model（加州的计划应当成为典范和标杆）。should serve as a model表明作者对该方案持积极支持赞成态度，［C］supportive（支持的）切合文意，故选［C］。\n\n［错项排除］［A］skeptical（怀疑的）；［B］objective（客观中立的，力度不足）；［D］cautious（谨慎的，作者通篇给予极高肯定）。",
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "11cc8ba7-343d-5a37-8f25-984d70fe5308",
@@ -1160,10 +1250,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】细节理解题。首段末句指出 flaws in U.S. immigration rules for farm workers prevent employers from hiring enough laborers，需要解决美国农工移民法规的漏洞，选 C。",
-      "points": 2,
+      "explanation": "［考点提炼］推理判断题（考查前两段指出亟须解决的问题）。\n\n［解题思路］第一段指出美国农场主多年来一直抱怨农工短缺，且如果不彻底改革针对农工的移民政策，抱怨就不会停歇；第二段进一步指出国会一直阻挠为农工建立更加简便易行的签证制度（Congress has obstructed efforts to create a more straightforward visa for agricultural workers...），如果这一现状不改变，美国经济将沦为输家。由此可知当前亟须解决的问题在于针对农工的签证和移民政策繁琐滞后，阻碍劳工引进，［C］flaws in U.S. immigration rules for farm workers正确。\n\n［错项排除］［A］针对外籍工人的歧视无中生有；［B］商业企业之间缺乏合作偏离移民法规主题；［D］农作物品种减少与文本问题无关。",
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8fa6d8e9-2612-51cf-b0e8-b1f8cef699b1",
@@ -1195,10 +1288,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第二段首句明确指出 One trouble with the U.S. agricultural workforce is the aging of immigrant farm workers（移民农工的老龄化问题），选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查美国农业劳动力面临的主要困难）。\n\n［解题思路］第三段指出目前近半数农工是非法移民，随着新流入非法移民减少，劳动力特征发生显著改变：本地老龄化严重（They're also aging... At the start of this century, about one-third of crop workers were over the age of 35. Now more than half are）。老龄化工人难以承受高强度的采摘体力劳动，且本地美国人不会重返农场，［D］the aging of its workforce（劳动力的老龄化）准确对应文本，故选［D］。\n\n［错项排除］［A］人口缓慢增长泛化概念；［B］过分依赖外籍劳工是行业现状而非该段强调的劳动力本身困境；［C］非法移民迅速外流与原文逐渐减少不同。",
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "10662176-b8f5-5901-812c-18f26a870ed8",
@@ -1230,10 +1326,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第三段首句指出 A much-argued solution... is to get native U.S. workers back to farming（让美国本土工人重返农业），选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查解决农工短缺的备受争议方案）。\n\n［解题思路］第四段指出机械化短期内指望不上；第五段顺承指出：As a result, farms have grown increasingly reliant on temporary guest workers using the H-2A visa to fill the gaps in the workforce（因此农场越来越依赖使用H-2A签证的临时客籍劳工来填补劳动力缺口）。后文第六段进一步指出该签证政策引发雇主大量抱怨，故［B］importing foreign guest workers（引进外籍客籍工人）切中题旨，选［B］。\n\n［错项排除］［A］提高本地工人体能是不切实际的设想；［C］加快机械化进程在第四段已被指出短期无法实现；［D］将生产设施迁往海外是部分农场的无奈反应而非争议解决案的核心。",
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8a00299b-6eb5-5515-b66f-85c86eb42851",
@@ -1265,10 +1364,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。第四段指出雇主抱怨 H-2A 签证审核流程迟缓冗长（slow granting procedures），导致无法按时抢收农作物，选 A。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查农业雇主对H-2A签证流程的抱怨）。\n\n［解题思路］第六段②③句指出：agricultural employers complain that the process is cumbersome, expensive, and unreliable. Bureaucratic delays regularly cause the average H-2A worker to arrive on the job 22 days late（雇主抱怨签证流程繁琐冗长、花费高昂且不可靠，官僚主义导致的延误通常让工人到岗迟到22天）。cumbersome, expensive, and unreliable集中体现了签证审批程序的繁杂迟缓，［A］slow granting procedures（迟缓的审批程序）与delays同义，故选［A］。\n\n［错项排除］［B］限制性工人配额与H-2A has no numerical cap相悖；［C］严苛的申请要求偏离审批耗时核心；［D］农场经营频繁突击检查属于执法行动而非签证本身规定。",
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "fb78c9a2-65a3-59e2-a125-d411046bab71",
@@ -1300,10 +1402,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】主旨大意题。文章末尾总结指出美国面临的选择是 import workers to pick the food, or import the food itself，B 项精准概括全文核心论题。",
-      "points": 2,
+      "explanation": "［考点提炼］主旨大意题（考查文章最佳标题）。\n\n［解题思路］文章从美国农工短缺、国会阻挠签证改革切入，分析了劳工老龄化、机械化难以立竿见影、H-2A签证繁冗等现状，最后在末段总结定调：In effect, the U.S. can import food or it can import the workers who pick it（实质上，美国要么进口食物，要么进口采摘食物的工人）。全文的核心就在于进口食品还是进口劳工的两难抉择，［B］Import Food or Labor?切中全篇议题，为最佳标题。\n\n［错项排除］［A］美国农业的暗淡前景过于悲观泛化；［C］美国农业需要重新思考偏离外籍劳工核心；［D］机器还是工人未涵盖进口农产品的深刻讨论。",
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "4031257c-e9e0-50fe-850c-84825d04cd60",
@@ -1335,10 +1440,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。首段指出明星出演宣传片旨在 encouraging you, the consumer, to swap out your single-use plastic staples，即敦促消费者减少塑料使用，选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查多位明星出演环保短片的目的）。\n\n［解题思路］首段②句指出：They're part of a bunch of celebrities starring in a new video for World Environment Day—encouraging you, the consumer, to swap out your single-use plastic staples to combat the plastics crisis（他们参与拍摄世界环境日新短片，鼓励消费者换掉日常一次性塑料用品，以抗击塑料危机）。swap out your single-use plastic staples对应减少一次性塑料消费，［B］promote a harmless lifestyle（倡导一种环境无害的生活方式）符合短片宗旨，故选［B］。\n\n［错项排除］［A］呼吁政府出台环保新法在第二段被指出是短片次要内容，非明星主旨；［C］宣传明星公益环保形象偏离短片宣传主旨；［D］为塑料危机筹集资金无中生有。",
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "e88e3d21-30ae-59e6-a392-0774f937cf3d",
@@ -1370,10 +1478,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第二段指出道德许可效应让人们在做出微小象征性举动后产生道德满足感，进而妨碍做出更进一步且更有力的努力（prevent them from making further efforts），选 B。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查作者对“道德许可”效应的担忧）。\n\n［解题思路］第三段指出自带购物袋或停用塑料吸管收效甚微，甚至可能带来危害：satisfying a need to have \"done our bit\" without ever progressing onto bigger, bolder, more effective actions—a kind of \"moral licensing\" that eases our concerns and stops us doing more and asking more of those in charge（满足了人们觉得“尽了本分”的心态，却阻碍了他们采取更大、更有效行动，这种“道德许可”消解了担忧，并阻碍我们做更多事情）。因此道德许可阻碍了深度努力，［B］suppress our desire to do more正确。\n\n［错项排除］［A］削弱对政府的信任与文意相反（作者恰恰呼吁监督政府）；［C］让人沉迷象征性抗议夸大事实；［D］伤害对公众利益的认同偏离论点。",
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9af31d69-0bc6-5834-8ee8-fbb3c0020f56",
@@ -1405,10 +1516,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】细节推断题。第三段强调公众应以'公民'身份向政府与工业界施压要求系统性改革（hold governments to account to push for systemic change），对应 D 项。",
-      "points": 2,
+      "explanation": "［考点提炼］推理判断题（考查作者强调“公民”身份的意图）。\n\n［解题思路］第四段指出如果我们只聚焦于吸管和购物袋，就忽略了权力平衡：implies that as \"consumers\" we must shop sustainably, rather than as \"citizens\" hold our governments and industries to account to push for real systemic change（这暗示我们必须作为“消费者”可持续购物，而不是作为“公民”向政府和行业问责，以推动切实的系统性变革）。作者强调公民身份旨在呼吁公众行使公民权向政府施压推进结构性变革，［D］press governments for systemic changes正确。\n\n［错项排除］［A］抵制企业非可持续产品仍停留在消费者层面；［B］承担对后代的道德责任未切中政治问责；［C］关注日常消费细节与作者观点截然相反。",
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "4d6e5457-9e2c-5149-b022-c9a0e4461cc7",
@@ -1440,10 +1554,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】人物观点题。第四段 DeSombre 指出分散的个人自发行为太慢，有效的集体行动必须依靠自上而下的制度与法规推进（top-down processes），选 D。",
-      "points": 2,
+      "explanation": "［考点提炼］观点态度题（考查学者DeSombre对实现集体改变最佳途径的主张）。\n\n［解题思路］第五段末句引用Elizabeth R. DeSombre观点指出：the best way to collectively change the behavior of large numbers of people is for the change to be structural（大规模改变众人行为的最佳途径是实现结构性变革）。第六段进一步通过征收塑料税、全面出台禁令等政策措施阐述这一结构性举措，［D］be systematic and structural（具有系统性和结构性）完全契合，故选［D］。\n\n［错项排除］［A］由具有环保意识的先锋引领偏离制度层面；［B］完全依靠市场激励手段片面；［C］要求自愿参与与强制立法政策相反。",
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "3d02466e-5343-563d-9019-b5301cf7514b",
@@ -1475,10 +1592,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】主旨结论题。末段总结指出 personal choices alone are far from sufficient（仅靠个人努力远不足以应对危机），选 C。",
-      "points": 2,
+      "explanation": "［考点提炼］主旨结论题（考查作者对个人努力作用的总结性结论）。\n\n［解题思路］第七段和第八段总结全文指出：作者并非否定个人环保行动，但个人行动进展过于缓慢，不足以成为改变普遍行为的唯一甚至主要途径（individual actions are too slow... to be the only, or even primary, approach）；必须依靠先进的政策来塑造集体行动，同时辅以公民参与。由此可知仅凭个人努力是远远不够的，［C］are far from sufficient正确。\n\n［错项排除］［A］可能过于激进不符合文意；［B］值得更多公众认可偏离文章呼吁宏观政策的主旨；［D］远非理性与原文逻辑不合。",
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "c6dda5d9-666a-588e-8661-e4b9c4665417",
@@ -1525,10 +1645,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【考点精析】多项对应题。文中 Hooper 指出 Children may face serious difficulties in coping with significant moves，重大搬迁会给孩子带来严峻适应挑战，对应 A 项。",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点多项对应题（考查Ryan Hooper的观点匹配）。\n\n［解题思路］第四段和第五段中芝加哥临床心理学家Ryan Hooper指出：Children may face serious difficulties in coping with significant moves, especially if it removes them from their current school or support system（重大搬迁会给孩子带来严重的应对困难，尤其是脱离当前学校和支持系统时）。significant moves带来serious difficulties与选项［A］remarks that significant moves may pose challenges to children（指出重大搬迁可能给孩子带来挑战）完全匹配，故选［A］。\n\n［错项排除］［B］留给前代传统观念；［C］为Tracey Hampson观点；［D］为Adam Bailey观点；［E］为Greg Jaroszewski观点；［F］为Julie Gurner观点；［G］为Aaron Norris观点。",
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "01ff3cd6-167e-5e91-a2cc-a7cf96289546",
@@ -1575,10 +1698,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【考点精析】多项对应题。文中 Bailey 建议向孩子询问后院等喜好，使其感到参与到决策流程中（make them feel like they're being included in the decision-making process），对应 D 项。",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点多项对应题（考查Adam Bailey的观点匹配）。\n\n［解题思路］第七段和第八段中纽约房地产律师Adam Bailey建议：Younger children should feel like they're choosing their home... Asking them questions about what they like about the backyard... will make them feel like they're being included in the decision-making process（年幼孩子应该感觉自己参与了选房，询问他们关于潜在房屋后院的喜好，能让他们感觉参与到了决策过程中）。make them feel like they're being included对应［D］thinks that children should be given a sense of involvement in homebuying decisions（认为在购房决定中应给予孩子参与感），故选［D］。\n\n［错项排除］选项［A］、［B］、［C］、［E］、［F］、［G］均对应其他专家观点或干扰项。",
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8f12da73-b172-56a9-90b9-66e2d937f022",
@@ -1625,10 +1751,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【考点精析】多项对应题。文中 Hampson 明确建议 wouldn't base the purchasing decision solely on their opinions（购房绝不可仅仅基于孩子的看法），对应 C 项。",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点多项对应题（考查Tracey Hampson的观点匹配）。\n\n［解题思路］第九段和第十段中加州房产经纪人Tracey Hampson指出：孩子缺乏做出理性决定的智慧，购房是人生重大决定，并斩钉截铁表示：\"I would never base the purchase of a home on the opinions of children\"（我绝不会仅仅基于孩子的意见来买房）。这与选项［C］advises that home purchases should not be based only on children's opinions（建议购房不应仅仅基于孩子的意见）完全吻合，故选［C］。\n\n［错项排除］选项［A］为Ryan Hooper观点；［D］为Adam Bailey观点；［F］为Julie Gurner观点；［G］为Aaron Norris观点。",
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f3dc29a3-af7e-5e3f-b9c4-2ffd03ed5c19",
@@ -1675,10 +1804,13 @@
         }
       ],
       "correct_answer": "G",
-      "explanation": "【考点精析】多项对应题。文中 Norris 指出孩子多从 HGTV 装修节目中获取房产认知，受到电视媒体深刻影响，对应 G 项。",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点多项对应题（考查Aaron Norris的观点匹配）。\n\n［解题思路］第十一至十三段中加州The Norris Group的Aaron Norris指出：The other issue is that many children—especially older ones—may base their real estate knowledge on HGTV shows（许多孩子尤其是大龄孩子从HGTV家居装修电视节目中获取房产知识，向往豪宅泳池但现实多数房屋并不具备）。电视节目属于典型媒体媒介，这与选项［G］assumes that many children's views on real estate are influenced by the media（认为许多孩子对房地产的看法受到媒体的影响）完美吻合，故选［G］。\n\n［错项排除］其余选项为不同专家的观点，媒体影响为Norris的独特见解。",
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f7a2022d-991d-5069-8dff-fa72e8816ea1",
@@ -1725,10 +1857,13 @@
         }
       ],
       "correct_answer": "F",
-      "explanation": "【考点精析】多项对应题。文中 Gurner 指出孩子的意见随时会变，购房应基于满足切实需求而非瞬息万变的主观意见（meets their practical needs best, rather than transient opinions），对应 F 项。",
-      "points": 2,
+      "explanation": "［考点提炼］人物观点多项对应题（考查Julie Gurner的观点匹配）。\n\n［解题思路］第十四和十五段中纽约房地产分析师兼心理学家Julie Gurner指出：孩子参与购房需极其谨慎，That decision should likely not be made contingent on a child's opinions, but rather made for them with their best interests in mind（这一决定不应该取决于孩子的意见，而应该出于对他们长远利益的考虑来替他们做决定）。not contingent on opinions but with best interests对应选项［F］believes that homebuying decisions should be based on children's needs rather than their opinions（认为购房决定应基于孩子的需求而非他们的意见），故选［F］。\n\n［错项排除］其余选项分别属于其他受访专家的观点，本题关键在于识别not... but rather...的取舍结构。",
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
   "exportedAt": "2026-10-15T11:40:18.833Z"
