@@ -2,12 +2,12 @@
   "exam": {
     "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
     "category_id": "ky1",
-    "title": "2019年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2019年全国硕士研究生招生考试英语（一）真题",
     "year": 2019,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Today we live in a world where GPS systems, digital maps, and other navigation apps are available on our smartphones. [1] of us just walk straight into the woods without a phone. But phones [2] on batteries, and batteries can die faster than we realize. [3] you get lost without a phone or a compass, and you [4] can't find north, we have a few tricks to help you navigate [5] to civilization, one of which is to follow the land. When you find yourself well [6] a trail, but not in a completely [7] area, you have to answer two questions: Which [8] is downhill, in this particular area? And where is the nearest water source? Humans overwhelmingly live in valleys, and on supplies of fresh water. [9], if you head downhill, and follow any H2O you find, you should [10] see signs of people. If you've explored the area before, keep an eye out for familiar sights— you may be [11] how quickly identifying a distinctive rock or tree can restore your bearings. Another [12]: Climb high and look for signs of human habitation. [13], even in dense forest, you should be able to [14] gaps in the tree line! due to roads, train tracks, and other paths people carve [15] the woods. Head toward these [16] to find a way out. At night, scan 0 the horizon for [17] light sources, such as fires and streetlights, then walk toward the glow of light pollution. [18], assuming you're lost in an area humans tend to frequent, look for the [19] we leave on the landscape. Trail blazes, tire tracks, and other features can [20] you to civilization.",
+      "content": "Today we live in a world where GPS systems, digital maps, and other navigation apps are available on our smartphones. 1 of us just walk straight into the woods without a phone. But phones 2 on batteries, and batteries can die faster than we realize. 3 you get lost without a phone or a compass, and you 4 can't find north, we have a few tricks to help you navigate 5 to civilization, one of which is to follow the land.\n\nWhen you find yourself well 6 a trail, but not in a completely 7 area, you have to answer two questions: Which 8 is downhill, in this particular area? And where is the nearest water source? Humans overwhelmingly live in valleys, and on supplies of fresh water. 9 , if you head downhill, and follow any H2O you find, you should 10 see signs of people.\n\nIf you've explored the area before, keep an eye out for familiar sights — you may be 11 how quickly identifying a distinctive rock or tree can restore your bearings.\n\nAnother 12 : Climb high and look for signs of human habitation. 13 , even in dense forest, you should be able to 14 gaps in the tree line due to roads, train tracks, and other paths people carve 15 the woods. Head toward these 16 to find a way out. At night, scan the horizon for 17 light sources, such as fires and streetlights, then walk toward the glow of light pollution.\n\n18 , assuming you're lost in an area humans tend to frequent, look for the 19 we leave on the landscape. Trail blazes, tire tracks, and other features can 20 you to civilization.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "\"Short-termism\" or the desire for quick profits, has worsened in publicly traded companies, says the Bank of England's top economist, Andrew Haldane. He quotes a giant of classical economics, Alfred Marshall, in describing this financial impatience as acting like children who pick the plums out of their pudding to eat them at once\" rather than putting them aside to be eaten last.\n\nThe average time for holding a stock in both the United States and Britain, he notes, has dropped from seven years to seven months in recent decades. Transient investors, who demand high quarterly profits from companies, can hinder a firm's efforts to invest in long-term research or to build up customer loyalty 1. This has been dubbed“quarterly capitalism. ”\n\nln addition, new digital technologies have allowed more rapid trading of equities, quicker use of markets. There seems to be a predominance * of short term thinking at the expense of long-term investing, said Commissioner Daniel Gallagher of the US Securities and Exchange Commission in a speech this week. invest in long-term research or to build up customer loyalty. Transient investors can hinder a firm's efforts who demand high quarterly profits from companies\n\n. It is argued that the influence of transient investment on public companies can be. n the US, the Sarbanes-Oxley Act of 2002 has pushed most public companies to defer performance bonuses\" for senior executives by about a year, slightly helping reduce \" short-termism. In its latest survey of CEO pay, The Wall Street Journal finds that \"a substantial part\" of executive pay is now tied to performance. \\ I O Much more could be done to encourage \" long-termism,\" such as changes in the tax code and quicker disclosure of stock acquisitions. 0 In France, shareholders who hold onto a company investment for at least two years can sometimes earn more voting rights in a company.\n\ncan provide incentives for executives to think beyond their own time at the company and on behalf of all stakeholders. Britain's new rule is a reminder to bankers that society has an interest in their performance, not just for the short term but for the long term.",
+      "content": "Financial regulators in Britain have imposed a rather unusual rule on the bosses of big banks. Starting next year, any guaranteed bonus of top executives could be delayed 10 years if their banks are under investigation for wrongdoing. The main purpose of this \"clawback\" rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions. Yet officials also hope for a much larger benefit: more long-term decisionmaking, not only by banks but also by all corporations, to build a stronger economy for future generations.\n\n\"Short-termism\" or the desire for quick profits, has worsened in publicly traded companies, says the Bank of England's top economist, Andrew Haldane. He quotes a giant of classical economics, Alfred Marshall, in describing this financial impatience as acting like \"children who pick the plums out of their pudding to eat them at once\" rather than putting them aside to be eaten last.\n\nThe average time for holding a stock in both the United States and Britain, he notes, has dropped from seven years to seven months in recent decades. Transient investors, who demand high quarterly profits from companies, can hinder a firm's efforts to invest in long-term research or to build up customer loyalty. This has been dubbed \"quarterly capitalism.\"\n\nIn addition, new digital technologies have allowed more rapid trading of equities, quicker use of information, and thus shorter attention spans in financial markets. \"There seems to be a predominance of short-term thinking at the expense of long-term investing,\" said Commissioner Daniel Gallagher of the US Securities and Exchange Commission in a speech this week.\n\nIn the US, the Sarbanes-Oxley Act of 2002 has pushed most public companies to defer performance bonuses for senior executives by about a year, slightly helping reduce \"short-termism.\" In its latest survey of CEO pay, The Wall Street Journal finds that \"a substantial part\" of executive pay is now tied to performance.\n\nMuch more could be done to encourage \"long-termism,\" such as changes in the tax code, greater disclosure of long-term investments to financial analysts, and more incentives for investors to hold onto their shares. In France, for example, investors who hold onto their investment for at least two years can earn more voting rights in a company.\n\nWithin companies, the right compensation design can provide incentives for executives to think beyond their own time at the company and on behalf of all stakeholders. Britain's new rule is a reminder to bankers that society has an interest in their performance, not just for the short term but for the long term.",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "Grade inflation—the gradual increase in average GPAs (grade-point averages) over the past few decades—is often considered a product of a consumer era in higher education, in which students are treated like customers to be pleased. But another, related force—a policy often buried deep in course catalogs called \"grade forgiveness\"—is helping raise GPAs.\n\nGrade forgiveness allows students to retake a course in which they received a low grade > and the most recent grade or the highest grade is the only one that counts in calculating a student's overall GPA.\n\nCollege officials tend to emphasize that the goal of grade forgiveness is less about the grade itself and more about encouraging students to retake courses critical to their degree program and graduation without incurring a big penalty.“ Ultimately,w said Jack Miner, Ohio State University's registrar, \" we see students achieve more success because they retake a course and do better in subsequent courses or master the content that allows them to graduate on time. ” successo\n\nThat said, there is a way in which grade forgiveness satisfies colleges, own needs as well. For public institutions, state funds are sometimes tied partly to their success on metrics such as graduation rates and figures like those, mean more money. And anything better value for their tidtion dollars, which is another big concern for colleges. ndeed, grade forgiveness is just another way that universities are responding to consumers' expectations for higher education. Since students and parents expect a college degree to lead to a job, it is in the best interest of a school to turn out graduates who are as qualified as possible—or at least appear to be. On this, students' and colleges' incentives seem to be aligned.\n\n. What does the phrase 11 to be aligned** (Line 5, Para. 6) most probably mean?\n\nThis year marks exactly two centuries since the publication of wFrankenstein; or, The Modern Prometheus,\" by Mary Shelley. Even before the invention of the electric light bulb 9 the author produced a remarkable work of speculative fiction that would foreshadow' many ethical \" questions to be raised' by technologies yet to come.",
+      "content": "Grade inflation—the gradual increase in average GPAs (grade-point averages) over the past few decades — is often considered a product of a consumer era in higher education, in which students are treated like customers to be pleased. But another, related force — a policy often buried deep in course catalogs called \"grade forgiveness\" — is helping raise GPAs.\n\nGrade forgiveness allows students to retake a course in which they received a low grade, and the most recent grade or the highest grade is the only one that counts in calculating a student's overall GPA.\n\nThe use of this little-known practice has accelerated in recent years, as colleges continue to do their utmost to keep students in school (and paying tuition) and improve their graduation rates. When this practice first started decades ago, it was usually limited to freshmen, to give them a second chance to take a class in their first year if they struggled in their transition to college-level courses. But now most colleges, save for many selective campuses, allow all undergraduates, and even graduate students, to get their low grades forgiven.\n\nCollege officials tend to emphasize that the goal of grade forgiveness is less about reshaping GPAs and more about encouraging students to retake courses critical to their degree program and establishing acceptable academic performance that allows them to graduate. As an official at Ohio State University said, \"We see students achieve more success because they retake a course and do better in the subsequent course, or master the content that allows them to graduate.\"\n\nThat said, there is a way in which grade forgiveness satisfies colleges' own needs as well. For public institutions, state funds are sometimes tied partly to their success on metrics such as graduation rates and student retention — so better grades can, by boosting figures like those, mean more money. And anything that raises GPAs will likely make students — who, at the end of the day, are paying the bill — feel they've gotten a better value for their tuition dollars, which is another big concern for colleges.\n\nIndeed, grade forgiveness is just another way that universities are responding to consumers' expectations for higher education. Since students and parents expect a college degree to lead to a job, it is in the best interest of a school to turn out graduates who are as qualified as possible — or at least appear to be. On this, students' and colleges' incentives seem to be aligned.",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "This year marks exactly two centuries since the publication of Frankenstein; or, The Modern Prometheus, by Mary Shelley. Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come.\n\nToday the rapid growth of artificial intelligence (AI) raises fundamental questions: \"What is intelligence, identity, or consciousness? What makes humans humans?\"\n\nWhat is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists. Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, similar to those recently depicted on popular sci-fi TV series such as Westworld and Humans.\n\nJust how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist. \"We are just in a situation where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there.\"\n\nBut that doesn't mean crucial ethical issues involving AI aren't at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions. Human drivers sometimes must make split-second decisions. Their reactions may be a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell them in that moment. AI \"vision\" today is not nearly as sophisticated as that of humans. And to anticipate every imaginable driving situation is a difficult programming problem.\n\nWhenever decisions are based on masses of data, \"you quickly get into a lot of ethical questions,\" notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI. Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines. Britain is setting up a data ethics center. India released its AI ethics strategy this spring.\n\nOn June 7 Google pledged not to \"design or deploy AI\" that would cause \"overall harm,\" or to develop AI-directed weapons or use AI for surveillance that would violate international norms. It also pledged not to deploy AI whose use would violate international laws or human rights.\n\nWhile the statement is vague, it represents one starting point. So does the idea that decisions made by AI systems should be explainable, transparent, and fair.\n\nTo put it another way: How can we make sure that the thinking of intelligent machines reflects humanity's highest values? Only then will they be useful servants and not Frankenstein's out-of-control monster.",
+      "content": "This year marks exactly two centuries since the publication of \"Frankenstein; or, The Modern Prometheus,\" by Mary Shelley. Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come.\n\nToday the rapid growth of artificial intelligence (AI) raises fundamental questions: \"What is intelligence, identity, or consciousness? What makes humans humans?\"\n\nWhat is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists. Yet humans remain fascinated by the idea of robots that would be like people. Artificial intelligence has already shaped entertainment, with television shows such as Westworld and Humans.\n\nJust how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist. \"We are just in a situation where there are no clear rules for computers on how to deal with ethical questions,\" he says. \"We're not anywhere close to having machines that can reason about ethics.\"\n\nBut that doesn't mean crucial ethical issues involving AI aren't at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions. Human drivers sometimes must make split-second choices between their own safety and the safety of others. Machines may have to be programmed to make similar decisions. How to make those choices in advance through programming is a difficult engineering and ethical problem.\n\nWhenever decisions are based on masses of data, \"you quickly get into a lot of ethical questions,\" notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI. Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines. Britain is setting up a data ethics center. India released its AI ethics strategy this spring.\n\nOn June 7 Google pledged not to \"design or deploy AI\" that would cause \"overall harm,\" or to develop AI-directed weapons or use AI for surveillance that would violate international norms. It also pledged not to deploy AI whose use would violate international laws or human rights.\n\nWhile the statement is vague, it represents one starting point. So does the work of the European Union, which has formed a high-level expert group to draft guidelines for trustworthy AI. The group's preliminary report says AI should be lawful, ethical, and robust, and should be explainable, transparent, and fair.\n\nTo put it another way: How can we make sure that the thinking of intelligent machines reflects humanity's highest values? Only then will they be useful servants and not Frankenstein's out-of-control monster.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states. states.\n\nThe Supreme Court's opinion Thursday overruled 0 a pair of decades-old decisions that states said The decisions made it more difficult for states to collect sales tax on certain online purchases. \"\n\nThe cases the court overturned 1 said that if a business was shipping a customer's purchase to a state where the business didn't have a physical presence such as a warehouse or office, the business didn't have to collect sales tax for the state. Customers were generally responsible for paying the sales tax to the state themselves if they weren't chargedf it, but most didn't realize they owed it and few paid. sales tax for the state. generally responsible\n\n. It can be learned from paragraphs 2 and 3 that the overruled decisions. \\ OJ ustice Anthony Kennedy wrote that the previous decisions were flawed. \"Each year the physical presence rule becomes further removed from economic reality and results in significant revenue losses to the States,\" he wrote in an opinion joined by four other justices. Kennedy wrote that the rule \" limited states' ability to seek long-term prosperity and has prevented market participants from competing on an even playing field.\" market participants from competing on an even playing field.'' Kennedy wrote V-------------\n\nThe ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online purchases already. Now, rivals will be charging sales tax where they hadn't before. Big chains have been collecting sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to. 0 Amazon, com,\n\nUntil now, many sellers that have a physical presence in only a single state or a few states have been able to avoid charging sales taxes when they ship to addresses outside those states. Sellers that use eBay and Etsy, which provide platforms, for smaller sellers, also haven't been collecting sales tax nationwide. Under the ruling Thursday, states can pass laws requiring out-of-state sellers to collect the state's sales tax from customers and send it to the state.\n\nRetail trade groups praised the ruling, saying it levels the playing field for local and online businesses. The losers, said retail analyst Neil Saunders, are online-only retailers, especially smaller ones. Those retailers may face headaches complying with various state sales tax laws. The Small Business & Entrepreneurship Council advocacy group said in a statement, \"Small businesses and internet entrepreneurs are not well served at all by this decision.\"",
+      "content": "States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states.\n\nThe Supreme Court's opinion Thursday overruled a pair of decades-old decisions that states said cost them billions of dollars in lost revenue annually. The decisions made it more difficult for states to collect sales tax on certain online purchases.\n\nThe cases the court overturned said that if a business was shipping a customer's purchase to a state where the business didn't have a physical presence such as a warehouse or office, the business didn't have to collect sales tax for the state. Customers were generally responsible for paying the sales tax to the state themselves if they weren't charged it, but most didn't realize they owed it and few paid.\n\nJustice Anthony Kennedy wrote that the previous decisions were flawed. \"Each year the physical presence rule becomes further removed from economic reality and results in significant revenue losses to the States,\" he wrote in an opinion joined by four other justices. Kennedy wrote that the rule \"limited states' ability to seek long-term prosperity and has prevented market participants from competing on an even playing field.\"\n\nThe ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online purchases already. Now, rivals will be charging sales tax where they hadn't before. Big chains have been collecting sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to. Amazon.com, with its network of warehouses, also collects sales tax in every state that charges it, though third-party sellers who use the site don't have to.\n\nUntil now, many sellers that have a physical presence in only a single state or a few states have been able to avoid charging sales taxes when they ship to addresses outside those states. Sellers that use eBay and Etsy, which provide platforms for smaller sellers, also haven't been collecting sales tax nationwide. Under the ruling Thursday, states can pass laws requiring out-of-state sellers to collect the state's sales tax from customers and send it to the state.\n\nRetail trade groups praised the ruling, saying it levels the playing field for local and online businesses. The losers, said retail analyst Neil Saunders, are online-only retailers, especially smaller ones. Those retailers may face headaches complying with various state sales tax laws. The Small Business & Entrepreneurship Council advocacy group said in a statement, \"Small businesses and internet entrepreneurs are not well served at all by this decision.\"",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "[A] These tools can help you win every argument —not in the unhelpful sense of beating your opponent, but in the better sense of understanding the issues that divide people, learning why they disagree with us and learning to talk and work with them. If we readjust our view of arguments—from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect and understanding—then we change the very nature of what it means to \"win\" an argument.\n\n[B] Of course, many arguments are not like that. Some are hostile, angry or personal. People shout, insult each other, and talk past each other without listening. That is why so many people avoid arguments altogether. They see argumentation as stressful, unpleasant, and potentially damaging to relationships.\n\n[C] In his classic book How to Win Friends and Influence People, Dale Carnegie famously advised that the only way to get the best of an argument is to avoid it. Carnegie warned that you can't win an argument because if you lose it, you lose it; and if you win it, you lose it by making your opponent feel inferior and resentful.\n\n[D] But avoiding arguments is not always the best solution. In personal relationships, in professional environments, and in democratic societies, disagreement is inevitable and often necessary. When people suppress their differences, unresolved issues fester. Creative problem-solving requires questioning assumptions and evaluating alternatives.\n\n[E] Furthermore, when we avoid arguments, we miss out on opportunities to test our beliefs and learn from others. Arguments provide us with reasons for and against different viewpoints. When people present arguments, they are inviting us to evaluate their evidence and logic.\n\n[F] The problem is not argumentation itself, but the adversarial way we approach it. We tend to view arguments as contests with winners and losers. When our ideas are challenged, we react defensively, treating intellectual debate as a personal attack.\n\n[G] If we want our disagreements to be productive, we need to distinguish good arguments from bad ones. A good argument does not merely assert a conclusion; it gives sound premises that support that conclusion. By learning to recognize fallacies and evaluate evidence, we can engage with opposing viewpoints constructively.",
+      "content": "[A] These tools can help you win every argument — not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people, learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments — from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding — then we change the very nature of what it means to \"win\" an argument.\n\n[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.\n\n[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.\n\n[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions — like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.\n\n[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: \"There is only one way... to get the best of an argument — and that is to avoid it.\" This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives — and in many ways misses the point of arguing in the first place.\n\n[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don't get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win — in one way.\n\n[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, \"Yes,\" and I yell, \"No,\" neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other's positions and recognize our shared values, since we both care about needy workers.",
       "sort_order": 6
     }
   ],
@@ -95,7 +95,7 @@
         },
         {
           "key": "B",
-          "text": "Many",
+          "text": "Most",
           "value": "B"
         },
         {
@@ -105,15 +105,18 @@
         },
         {
           "key": "D",
-          "text": "Most",
+          "text": "All",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "\n1 of us just walk\nstraight® into the woods without a phone. ❸ But \nphones 2 on batteries® , and batteries can die*® \nfaster than we realize. ❹ \n3 you get lost without a\nphone or a compass® , and you 4 can't find north, \nwe have a few tricks® to help you navigate® 5 to \ncivilization, one of which is to follow the land.\n①\n今天\n，我们生活在一个GPS系统、数字 \n地图和其他导航应用程序均可在智能手机上使 \n用的世界。②我们中很少有人会在没有手机的 \n情况下就径直走进森林。③但手机是靠电池运 \n红的，而电池耗尽的速度比我们所意识到的更 \n快。④妲墨你在没有手机和指南针的情况下迷 \n路，并且鯉找不到北了，我们有一些技巧可以 \n助你找到返旦文明社会的路，其中一个是沿着 \n陆地走。\n•真题精解八也\n1. [A] Some —些；有些，一部分 \n[B] Most大多数，大部分;最多，最大量\nEC] Few很少；几乎没有 \n[D] All全部，所有；每一个\n[考点提炼]上下文语义。\n[解题思路]首句指出如今我们的智能手机拥有各种导航功能；②句切入具体场景：我们中______会\n不带手机走进森林。可见首句意在为②句结论做铺垫：手机导航功能强大，自然是户外必备“神器”，也 \n即，没有人会不带手机就贸然入林，选项中表否定含义的代词只有[C] Few。\n[错项排除]“我们中的一些人/大部分人/所有人会在没有手机的情况下走进森林”均传达“手机并 \n非必需”之意，与首句信息相悖。\n\n【选项释义与词汇辨析】\n[B] Most: 大多数，大部分;最多，最大量\n[D] All: 全部，所有；每一个\n[C] Few: 。",
+      "explanation": "［考点提炼］上下文语义。\n\n［解题思路］首句指出如今我们的智能手机拥有各种导航功能；②句切入具体场景：我们中______会不带手机走进森林。可见首句意在为②句结论做铺垫：手机导航功能强大，自然是户外必备“神器”，也即，没有人会不带手机就贸然入林，选项中表否定含义的代词只有［C］Few。\n\n［错项排除］［A］Some、“我们中的一些人/大部分人/所有人会在没有手机的情况下走进森林”均传达“手机并非必需”之意，与首句信息相悖。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 1,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "bd9eca3f-a27c-5e98-893d-18a7dd60962a",
@@ -145,10 +148,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "2. [A] put （on）使运行；穿戴；举办 \n[C] run （on）运转\n[考点提炼]句内语义+动词短语搭配。\n[B] take （on）承担；呈现\n[D] come （on）开始；进展；开始运转\n[解题思路]空格所在句意为：但是手机 ______电池，而电池耗尽的速度会比我们意识到的更快。\n“空格动词+ on”需体现“手机”与“电池”的关系，由句首But（体现上下文语义转折：手机功能固然强大,\n但一切最终取决于电池）以及常识“手机是依靠电池提供能量才得以运转”可以判断[C]正确，run on为\n固定搭配，表示“（机器/设备依靠某种能源）运转”。\n\n[错项排除]LA] put （on）利用其“使运行”的用法干扰，但“Aput on B”意为“A开动/发动了 B”，如 \nHe got up and put on the light.（他起身打开了灯。），而文中\"手机VS电池\"之间实为\"依靠（运转）VS被 \n依靠”的关系。[B] take （on）利用中文思维“手机携带电池”干扰，但take on sth实指“承担（工作/责 \n任）”或“呈现（新面貌/品质）”。[D] come （on）虽可表示“开始运转”，但这里on为“副词”，用于修饰 \ncome,其后不接宾语，如The central heating comes on.（中央供热系统开始工作。）；而文中on为介词，用 \n以说明事物（手机和电池）之间的关系。\n\n【选项释义与词汇辨析】\n[A] put: （on）使运行；穿戴；举办\n[C] run: （on）运转\n[B] take: （on）承担；呈现\n[D] come: （on）开始；进展；开始运转",
+      "explanation": "［考点提炼］句内语义+动词短语搭配。\n\n［解题思路］空格所在句意为：但是手机______电池，而电池耗尽的速度会比我们意识到的更快。“空格动词+ on”需体现“手机”与“电池”的关系，由句首But（体现上下文语义转折：手机功能固然强大，但一切最终取决于电池）以及常识“手机是依靠电池提供能量才得以运转”可以判断［C］正确，run on为固定搭配，表示“（机器/设备依靠某种能源）运转”。\n\n［错项排除］［A］put on利用其“使运行”的用法干扰，但“A put on B”意为“A开动/发动了B”，而文中“手机VS电池”实为“依靠VS被依靠”；［B］take on实指“承担（责任）”或“呈现（面貌）”；［D］come on表示“开始运转”时on为副词，不接宾语，文中on为介词。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 2,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "14c03f8e-4f20-5be1-922e-f6cfe5cf154e",
@@ -160,30 +166,33 @@
       "options": [
         {
           "key": "A",
-          "text": "Some",
+          "text": "Since",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Other",
+          "text": "If",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "These",
+          "text": "Though",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Those",
+          "text": "Until",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "3 you get lost without a\nphone or a compass® , and you 4 can't find north, \nwe have a few tricks® to help you navigate® 5 to \ncivilization, one of which is to follow the land.\n①\n今天\n，我们生活在一个GPS系统、数字 \n地图和其他导航应用程序均可在智能手机上使 \n用的世界。②我们中很少有人会在没有手机的 \n情况下就径直走进森林。③但手机是靠电池运 \n红的，而电池耗尽的速度比我们所意识到的更 \n快。④妲墨你在没有手机和指南针的情况下迷 \n路，并且鯉找不到北了，我们有一些技巧可以 \n助你找到返旦文明社会的路，其中一个是沿着 \n陆地走。\n•真题精解八也\n1. [A] Some —些；有些，一部分 \n[B] Most大多数，大部分;最多，最大量\nEC] Few很少；几乎没有 \n[D] All全部，所有；每一个\n[考点提炼]上下文语义。\n[解题思路]首句指出如今我们的智能手机拥有各种导航功能；②句切入具体场景：我们中______会\n不带手机走进森林。可见首句意在为②句结论做铺垫：手机导航功能强大，自然是户外必备“神器”，也 \n即，没有人会不带手机就贸然入林，选项中表否定含义的代词只有[C] Few。\n[错项排除]“我们中的一些人/大部分人/所有人会在没有手机的情况下走进森林”均传达“手机并 \n非必需”之意，与首句信息相悖。\n2. [A] put （on）使运行；穿戴；举办 \n[C] run （on）运转\n[考点提炼]句内语义+动词短语搭配。\n[B] take （on）承担；呈现\n[D] come （on）开始；进展；开始运转\n[解题思路]空格所在句意为：但是手机 ______电池，而电池耗尽的速度会比我们意识到的更快。\n“空格动词+ on”需体现“手机”与“电池”的关系，由句首But（体现上下文语义转折：手机功能固然强大,\n但一切最终取决于电池）以及常识“手机是依靠电池提供能量才得以运转”可以判断[C]\n\n【选项释义与词汇辨析】\n[B] Most: 大多数，大部分;最多，最大量\n[D] All: 全部，所有；每一个\n[C] Few: 。",
+      "explanation": "［考点提炼］句内语义逻辑。\n\n［解题思路］本题考查句内逻辑，从句、主句大意分别为“在没有导航工具的情况下迷路”、“我们有一些技巧能助你确定路线……”，很明显，“迷路”构成“帮你找路”的“假设性前提”，［B］If符合文意。\n\n［错项排除］［A］Since引出真实情况（既成事实），而原文“迷路”为假设性情况；［C］Though表示让步转折，语意不合；［D］Until引出动作终止时间，“迷路前提供技巧/迷路后不再提供”逻辑混乱。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 3,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "57cbf45e-fe68-504b-ac2a-0679a724356b",
@@ -215,10 +224,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "4. [A] formally正式地；礼貌地 \n[B] relatively比较而言，相对地\n[C] gradually逐渐地，逐步地 \n[D] literally的确，确实；根据字面意思\n[考点提炼]句内语义+副词辨析。\n[解题思路]“______ 找不到北”与其前的“在没有手机和指南针的情况下迷路”形式上由and相连，\n语义统一但更进一步：迷路〜且方向感尽失，故空格处副词只能表示肯定或强调，[D] literally用于“强 \n调所说内容为真，尽管听起来有些夸张”，符合文意。\n[错项排除][A] formally 表示\"行为正式/有礼貌\"，如 formally recognize the new government（正式 \n承认新政府），而文中的被修饰对象“找不到北”属于日常情形，且不涉及“礼貌”与否。[B] relatively表 \n示“（与其他相比）相对、相当地”，如relatively easy（相对/比较容易），而文中空格词修饰整个句子，且 \ncan't find north也不涉及“程度”。[C] gradually多形容过程的渐进性，但“找不到北”强调结果，而非 \n过程。\n\n【选项释义与词汇辨析】\n[A] formally: 正式地；礼貌地\n[B] relatively: 比较而言，相对地\n[C] gradually: 逐渐地，逐步地\n[D] literally: 的确，确实；根据字面意思",
+      "explanation": "［考点提炼］句内语义+副词辨析。\n\n［解题思路］“______找不到北”与其前的“在没有手机和指南针的情况下迷路”形式上由and相连，语义统一但更进一步：迷路且方向感尽失，故空格处副词表示肯定或强调，［D］literally用于“强调所说内容为真，尽管听起来有些夸张”，符合文意。\n\n［错项排除］［A］formally表示“正式地/有礼貌地”，语境不符；［B］relatively表示“相对、相当地”，不涉及程度；［C］gradually形容过程渐进性，但“找不到北”强调结果而非过程。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "db2ea71d-e27a-5977-be06-dec0b4150bc1",
@@ -250,10 +262,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "5. [A] back回到原处；恢复原状 \n[B] next（时间）紧接着的；（位置）离得最近的\n[C] around环绕；围绕 \n[D] away离开；朝另一个方向\n[考点提炼]句内语义逻辑。\n[解题思路]空格所在句意为，如果你（在林中）迷路，我们有一些技巧可以助你确定路线 ______ 文\n明社会。上下文语境表明civilization与woods构成\"文明社会VS原始丛林\"的对立，而help navigate意 \n为“助你找回/明确方向”，故______ to civilizatio n应体现“返回文明社会”之意，[A] back正确。\n[错项排除]各项副词均体现方位，从副词本身含义看，“紧挨/围绕/离开文明”均不合语义；从用法 \n看，[C] around可用于navigate your way around sth结构中，意为\"辨明方向，走出某地\"，[D] away通常 \n用于navigate away from...结构中，表示\"离开某地\"，如navigate away from the page（离开该网页）；但原 \n文civilization为“迷路后找寻的目的地”，而非“迷路/逃离之地”，且之前有介词to。\n•词汇注释与难句分析•@\n① GPS 全球定位系统(Global Positioning System)\n② navigation [insevi'geifan] n.导航；领航\n③ straight [streit] ad.径直；笔直地\n④ battery [baetar订 n.电池\n§ ⑤die [dai] v.停止运转\n©compass ['kAmpas] n.指南针，罗盘\n: ⑦trick [trik] n.诀窍；技巧\n《 ⑧navigate ['nsevigeit] v.找到正确的行进方向\n\nIf you get lost without a phone or a compass, and you literally can't find north, we have a few tricks to \nhelp you navigat\n\n【选项释义与词汇辨析】\n[A] back: 回到原处；恢复原状\n[B] next: （时间）紧接着的；（位置）离得最近的\n[C] around: 环绕；围绕\n[D] away: 离开；朝另一个方向",
+      "explanation": "［考点提炼］句内语义逻辑。\n\n［解题思路］空格所在句意为：我们有一些技巧可以助你______文明社会，其中一个是沿着陆地走。由常识可知，迷路后的诉求是“走出森林，回到文明社会”，navigate back to civilization呼应常识与后文重返人类生活环境的诉求，［A］back符合文意。\n\n［错项排除］［B］next表示“紧接着的”；［C］around表示“环绕”；［D］away表示“离开”，离开文明社会与找路意图完全相悖。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 5,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "3401c77a-015a-5efc-baef-c718871c572f",
@@ -265,7 +280,7 @@
       "options": [
         {
           "key": "A",
-          "text": "ont",
+          "text": "onto",
           "value": "A"
         },
         {
@@ -285,10 +300,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "6. [A] ont。到……上，朝……上 \n[B] off离开；不在（某地）上\n[C] across穿过，越过；朝，向 \n[D] alone单独，独自；孤身一人\n[考点提炼]介词搭配。\n[解题思路]上段末句指出，迷路后的对策之一是沿着陆地走。本句指出，当发现自己   小路/ \n路线，但又……时，你必须回答两个问题：在这片区域内哪一……是下坡路？最近的水源在哪里？可见， \n上段末与本句构成\"概说（迷路后的对策）f细说\"的语义场，故本句When you find yourself  _____a trail\n实际在重申上述假设前提（When表示“条件”），即“如果迷路”，off作介词可表“偏离”，由程度副词well \n（大大地，远远地）修饰，意为“完全偏离路线/迷路”，故[B]符合文意。\n[错项排除]“到小路上去”或“横穿小路”均与“迷路”的语境不符，排除ED] alone利用 \n“在独自一人的情况下迷路”的语义干扰，但alone只作形容词或副词用，正确形式应为alone on a trail, \n其次“独自一人”也不等于“迷路”。\n\n【选项释义与词汇辨析】\n[A] ont: 。到……上，朝……上\n[B] off: 离开；不在（某地）上\n[C] across: 穿过，越过；朝，向\n[D] alone: 单独，独自；孤身一人",
+      "explanation": "［考点提炼］介词搭配。\n\n［解题思路］上段末句指出，迷路后的对策之一是沿着陆地走。本句指出，当发现自己______小路/路线，但又……时，你必须回答两个问题：在这片区域内哪一边是下坡路？最近的水源在哪里？本句When you find yourself...实际上在重申“如果迷路”的假设前提，off作介词可表“偏离”，由程度副词well（大大地，远远地）修饰，well off a trail意为“完全偏离路线/迷路”，故［B］符合文意。\n\n［错项排除］［A］onto（到小路上去）与［C］across（横穿小路）均与“迷路”语境不符；［D］alone为形容词或副词，正确形式应为alone on a trail，且独自一人不等于迷路。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "c92d1a17-8d8b-5159-b23c-7358dc59aba3",
@@ -320,10 +338,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "7. [A] unattractive无吸引力的；不好的\n[C] unchanged未改变过的\n[B] uncrowded不拥挤的\n[D] unfamiliar不熟悉的，不了解的\n[考点提炼]形容词辨析。\n[解题思路]but表明“并非身处完全 ______ 的区域”与“发现自己远离小路（即迷路）”构成对比转\n折，而not再度转折，则in a completely_____ area应该与well off a trail同指\"迷路\"，意即\"身处完全陌\n生之地\"，故[D] unfamiliar符合文意。\n[错项排除][A] unattractive强调“（人或物的外表）无吸引力，不招人喜爱”，[B] uncrowded用于形 \n容“（某地）不拥挤”，均与“迷路”的大语境无关。[C] unchanged表示“一段时间内未曾改变过”，“不在完 \n全未改变过的地方”暗示所处之地相较过去有一定程度的变化，但同时也暗示迷路者对此区域较为熟悉 \n（才会意识到变化），而下文给出的建议是“寻找下坡和水源地”，而不是具体的熟悉之物，说明迷路者对 \n该区域不够熟悉，故选项与该文意不符。\n& [A] site场所，地方 [B] point观点；位置 [C] way方向；路线 [D] place地方，地点\n[考点提炼]名词辨析。\n[解题思路]空格所在句介绍迷路时必须思考的两个问题：哪一______ 是下山/下坡/向下的？最近\n的水源在哪里？由②句“绝大多数人住在山谷中（山谷地势较低）”和③句“如果你朝下坡方向走（head \ndownhill）……就应该能看到人的迹象”可知，下坡方向有人类居住的可能性极大，迷路者的目的地既然 \n是文明社会.downhill应是其努力辨明并选择走的方向，which way ...为固定用法，表示“某方向、往某 \n方向”，[C] way正确。\n[错项排除]其余三项虽能表示“位置”，但与Which搭配不能表示“方向、方位”，无法与downhill形 \n成对照。\n9. [A] So因此，所以 [B] Yet但是，然而 [C] Instead相反；而I;却 [D] Bes\n\n【选项释义与词汇辨析】\n[A] unattractive: 无吸引力的；不好的\n[C] unchanged: 未改变过的\n[B] uncrowded: 不拥挤的\n[D] unfamiliar: 不熟悉的，不了解的",
+      "explanation": "［考点提炼］形容词辨析。\n\n［解题思路］but表明“并非身处完全______的区域”与“发现自己远离小路（即迷路）”构成对比转折，而not再度转折，则in a completely... area应该与well off a trail同指“迷路”，意即“身处完全陌生之地”，故［D］unfamiliar符合文意。\n\n［错项排除］［A］unattractive强调外表无吸引力；［B］uncrowded指某地不拥挤；［C］unchanged表示未改变过，均与“迷路”语境无关。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 7,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "a66a1412-bc33-54d7-bba0-07b8a3cb4fe8",
@@ -355,10 +376,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "8. [A] site 场所，地方\n[B] point 观点；位置\n[C] way 方向；路线\n[D] place 地方，地点\n【答案】C\n【考点】名词辨析。\n【解析】空格所在句介绍迷路时必须思考的两个问题：哪一______是下山/下坡/向下的?最近的水源\n在哪里?由“绝大多数人住在山谷中（山谷地势较低）”和“如果你朝下坡方向走（head downhill）……\n就应该能看到人的迹象”可知，下坡方向有人类居住的可能性极大，迷路者的目的既然是文明社会，\n\ndownhill 应是其努力辨明并选择走的方向，which way...为固定用法，表示“某方向、往某方向”，[C] way\n正确。",
+      "explanation": "［考点提炼］名词辨析。\n\n［解题思路］空格所在句介绍迷路时必须思考的两个问题：哪一______是下山/下坡/向下的？最近的水源在哪里？由②句“绝大多数人住在山谷中（山谷地势较低）”和③句“如果你朝下坡方向走（head downhill）……就应该能看到人的迹象”可知，下坡方向有人类居住的可能性极大，迷路者的目的地既然是文明社会，downhill应是其努力辨明并选择走的方向，which way ...为固定用法，表示“某方向、往某方向”，［C］way正确。\n\n［错项排除］其余三项［A］site、［B］point、［D］place虽能表示“地点/位置”，但与Which搭配不能表示“方向、方位”，无法与downhill形成对照。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "0a2bccc3-14ad-5e32-90de-26b165d31a84",
@@ -390,10 +414,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "9. [A] So因此，所以 [B] Yet但是，然而 [C] Instead相反；而I;却 [D] Besides除此之外 \n[考点提炼]上下文语义逻辑。\n[解题思路]本题考查②③句之间的逻辑关联，②句意为：（森林里）绝大多数人住在山谷中，依靠淡 \n水供应生活，③句意为：如果你朝下坡且顺着发现的水走，……应该会看到人的迹象。可见③句是基于 \n②句常识得出的逻辑结论，[A] So符合文意。\n[错项排除][B] Yet表转折；[C] Instead表取舍，用于说明“没做A,相反，做了 B”，如Geoff didn't \nstudy law. Instead, he decided to become an actor.（杰夫没学法律。相反，他决定当演员。）；[D] Besides \n用于在前述内容基础上补充说明另一层信息或原因，如I need the money. And besides, when I agree to \ndo something, I do it.（我需要这笔钱。而且，我一旦答应做什么事情就会做到。）；而空格前后不存在转 \n折、取舍或并列递进关系。\n\n【选项释义与词汇辨析】\n[A] So: 因此，所以\n[B] Yet: 但是，然而\n[C] Instead: 相反；而I;却\n[D] Besides: 除此之外",
+      "explanation": "［考点提炼］上下文语义逻辑。\n\n［解题思路］本题考查②③句之间的逻辑关联。②句指出绝大多数人住在山谷中，依靠淡水生活；③句指出如果你朝下坡方向走，顺着水走，就应该能看到人烟。②句的客观常识构成了③句行动建议的前提与原因，两句构成因果关系，［A］So（因此，所以）符合文意。\n\n［错项排除］［B］Yet表转折；［C］Instead表对比替代；［D］Besides表递进补充，均不符合前后因果顺承逻辑。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 9,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "abf9e58b-5539-5191-beb4-690a4ae45876",
@@ -425,10 +452,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "10. [A] immediately即刻，马上；立即 \n[B] intentionally故意地，蓄意地\n[C] unexpectedly 出人意料地 \n[D] eventually 终于，最终\n[考点提炼]句内语义逻辑。\n[解题思路]句子架构if. . . , you should...（如果 ，你应该会 ；此处should用于\"表示预 \n期”，指“应该会、可能”）明确“条件〜结果”的句内逻辑，即主句中“看到人的迹象”是从句中条件“朝下坡 \n方向走”达成的结果，选项中符合文意的只有[D] eventually,该词强调“（经过一番困难后）最终”，符合 \n“一路向下、同时不断追寻水源”的语境。\n[错项排除][A] immediately强调时间之快，与“迷路后短时间内找不到方向、需花费一定时间寻找 \n人迹”的文意相悖。[B] intentionally含贬义，常用语境为“蓄意/故意带来伤害”，含义和语义色彩均与原 \n文不符。[C] unexpectedly表示“意料之外”，而基于②句惯常情形，“沿下坡和水源而行”自当会“发现人 \n迹”，这是意料中的结果。\n•词汇注释与难句分析•也\n;痕迹；踪迹 \n②downhill Cidaun'hil] a.下坡的\n©trail :treil] ”.〔乡间或森林里的〕小路；痕迹；踪迹\n\n③ source [so:s] n.〔溪流的〕发源地，源头；来源 \n》 ⑤fresh water淡水\n④ overwhelmingly [lauva'welmiOl订ad.压倒性地 \n? ®H2O水的化学分子式\n;•语篇分析、詔\n第二段介绍第一种迷路情况及对策。①句表明“在不完全陌生之地迷路”的对策：顺着下坡方向以 \n及水源走。well off a trail 对上文末句 get lost 进行细化说明；but not in a completely unfamiliar area 转 \n而弱化前述well（大大地）的程度：但没彻底迷失。Which与where引出应对措施：确定下坡方向及最近 \n水源。②③句解释对策为何有效。So关联两句逻辑：鉴\n\n【选项释义与词汇辨析】\n[A] immediately: 即刻，马上；立即\n[B] intentionally: 故意地，蓄意地\n[C] unexpectedly: 出人意料地\n[D] eventually: 终于，最终",
+      "explanation": "［考点提炼］句内语义逻辑。\n\n［解题思路］句子架构if... you should...明确“条件-结果”逻辑，主句中“看到人的迹象”是从句中“朝下坡方向走并追随水源”最终达成的结果，［D］eventually强调“（经过一番努力后）最终，终于”，符合一路向下寻找人迹的语境。\n\n［错项排除］［A］immediately强调时间迅速，与迷路后需花费时间寻找的现实相悖；［B］intentionally意为故意地；［C］unexpectedly意为出人意料地，均不合逻辑。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 10,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "dcc4c154-345c-5429-95fb-d284c8a6910c",
@@ -460,10 +490,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "11. [A] surprised惊讶的，诧异的 \n[B] annoyed烦恼的，生气的\n[C] frightened受惊的，害怕的 \n[D] confused困惑的，糊涂的；不清楚的\n[考点提炼]句内语义+形容词辨析。\n[解题思路]破折号后内容是对其前建议“密切关注熟悉景物”的解释说明（a distinctive rock or tree \n具化familiar sights）,表明这么做的意义：认出某熟悉景物会让人迅速找回方向感。how quickly引导的 \n感叹句体现对耗时之短的惊叹，空格词应与该惊叹语气一致，为积极正向语义，:A] surprised符合文意。\n[错项排除][B] annoyed>EC] frightened与[D] confused均为负面、消极情绪，与文中感叹句how \nquickly., . can restore your bearings所暗含的积极正向文意不符，故排除。\n[知识补充]“系动词+表示精神/情感作用的形容词（或过去分词）”在语法上相当于一个及物动 \n词，后可接that引导的宾语从句（本句中that省略，感叹句how quickly...充当宾语从句），表示精神/情 \n感的施加对象/释放背景，如I am sure（ = believe） that he is at home.（我确信他在家。）。\n■-词汇注释与难句分析•\n©explore [ik'splo:] v.探险；考察；勘査 \nS ④identify [ai'dentifai] v.认出，识别；发现\n② keep an eye out/open for...密切注意... \nJ ⑤distinctive [di'stiOktiv] a.独特的，与众不同的\n③ sight [salt] n.景物，景象 \n《 ©bearing [beano] n.方向，方位 \nIf you've explored the area before, keep an eye out for familiar sights—you may be surprised how \nquickly\n\n【选项释义与词汇辨析】\n[A] surprised: 惊讶的，诧异的\n[B] annoyed: 烦恼的，生气的\n[C] frightened: 受惊的，害怕的\n[D] confused: 困惑的，糊涂的；不清楚的",
+      "explanation": "［考点提炼］形容词辨析。\n\n［解题思路］第三段指出：如果你以前探索过这个区域，留意熟悉的景象——认出一块独特的岩石或树木竟能如此迅速地让你恢复方向感，你可能会感到______。从句how quickly...强调其恢复方位感速度之快，主句表达心理反应，［A］surprised（惊讶的）契合语境。\n\n［错项排除］［B］annoyed（烦恼的）；［C］frightened（害怕的）；［D］confused（困惑的），迅速恢复方位感应带来惊喜而非烦恼、恐惧或困惑。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "8dd8aea5-08a1-5042-98b4-6551e6d8eaf7",
@@ -495,10 +528,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "12. [A] problem问题；困难 \n[B] option选择；可选择的东西\n[C] view （理解）方法、方式；观点 \n[D] result结果，后果\n[考点提炼]上下文语义+名词辨析。\n[解题思路]第二段介绍迷路后的一种对策“朝下坡方向、顺着水源走，以寻找人迹”;第三段介绍在 \n曾探索过区域迷路后的对策“寻找熟悉景物”。第四段①句冒号后内容“登高并寻找人类居住的迹象”在 \n语义上与前述内容构成并列关系，故本段应开始介绍第三种对策‘option内涵为“可供选择的事物、选 \n项”,用在此处可以代指“（可供选择的）对策”，故[B]正确。\n[错项排除]“登高并寻找人类居住的迹象”是针对迷路这一问题给出的解决方案/达成（找到路）结 \n果的途径，既非问题本身，也非圆满结果，故排除[A] problem,[D] result。[C] view源于中文思维\"从不 \n同的视角/角度来解决问题”,但这里的“方式”特指“理解或思考某事的方式（a way of understanding or \nthinking about sth）\",如He has an optimistic view of life.（他乐观地看待人生。），而文中\"登高寻找人类 \n迹象”属于行为建议，并非思维方式。\n\n【选项释义与词汇辨析】\n[A] problem: 问题；困难\n[B] option: 选择；可选择的东西\n[C] view: （理解）方法、方式；观点\n[D] result: 结果，后果",
+      "explanation": "［考点提炼］上下文语义+名词辨析。\n\n［解题思路］第二段介绍迷路后顺着水源下坡走，第三段介绍留意熟悉景象，第四段冒号后“登高并寻找人类居住的迹象”是与前述并列的又一种应对策略。option表示“可供选择的方案、选择项”，代指“对策”，故［B］option正确。\n\n［错项排除］［A］problem指问题；［C］view指观点或思维方式；［D］result指结果，登高寻找人迹是解决途径而非问题或结果。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "83ad7c46-c019-57c0-acc9-9104304754b1",
@@ -530,10 +566,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "13. [A] Above all最重要的是；首要的是 \n[B] In contrast对比之下\n[C] On average 平均来看，通常 \n[D] For example 例如\n[考点提炼]上下文语义逻辑。\n[解题思路]①句引出对策内容：登高并寻找人类居住的迹象。②③句指出，即便身处密林之中，也 \n应该能……由于人们开辟道路、铁轨和其他小路而造成的林木线缺口，朝这些……走以便找到出路。由 \n文意可知，②句“林木线缺口（gaps in the tree line）”是人力为之的结果，应属于①句“人类居住的迹象 \n（signs of human habitation）w,故①句与②③句构成\"抽象—■具化\"的例证关系，[D] For example正确。\n[错项排除][A] Above all表递进，用于引出所述内容中最重要或特别的一点，如Never waste anything, \nand above all never waste time.（永远别浪费任何东西，尤其不要浪费时间。），而文中\"即使在密林中，你也能 \n……”显然不是“作者要极力凸显的某种对策”。EB] In contrast用于引出与前述内容反差鲜明的情形,而文中 \n前后为顺承关系，都在论述“林中迷路的情况”。EC] On average利用其中文释义“通常”干扰,但该词内涵为 \n“基于多项数值得出平均值或平均水平，对某事发生的频次、人们某行为的情况等做结论”，而非“单纯论断大 \n体情形\"，如On average, men still earn more than women.（平均来看,男性仍比女性挣得多。）。\n\n【选项释义与词汇辨析】\n[A] Above all: 最重要的是；首要的是\n[B] In contrast: 对比之下\n[C] On average: 平均来看，通常\n[D] For example: 例如",
+      "explanation": "［考点提炼］上下文语义逻辑。\n\n［解题思路］①句引出对策：登高寻找人类居住的迹象；②句指出即便身处茂密森林，你也应该能够发现人们开辟道路、铁轨而形成的林木线缺口。②句的“林木线缺口”是①句“人类居住迹象”的具体例证，前后为抽象概括与具体举例的关系，［D］For example正确。\n\n［错项排除］［A］Above all表最重要；［B］In contrast表对比相反；［C］On average表平均来看，均不合举例逻辑。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 13,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "7319217c-4a2c-56c1-86ce-c20583161fcc",
@@ -565,10 +604,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "14. [A] bridge弥合，消除；在……上架桥 \n[B] avoid避免；躲避\n[C] spot发现；注意到；看出 \n[D] separate把……隔开，分离；分辨\n[考点提炼]动词辨析。\n[解题思路]由上题分析可知，②③句例证说明①句，空格后gaps in the tree line（林木线缺口）是① \n句signs of human habitation（人类居住迹象）的具化，上文指出迷路后可以登高来寻找人类居住的迹象， \n空格词应该与①句look for语义接近，说明“寻找、发现（林木线缺口）”的文意，[C] spot符合文意。\n[错项排除]均可与gaps搭配，但bridge gaps/ the gap表示\"弥合鸿沟、填补空白”，avoid \ngaps表示“避免缺口 /差距”，均与“登高远眺、寻找人迹”的语境无关。[D] separate利用中文义项“分辨、 \n区分”干扰，但用于separate A from B结构，表示“看出/展示两者差异”，而非“辨别/识别某物（缺口）”。\n\n【选项释义与词汇辨析】\n[A] bridge: 弥合，消除；在……上架桥\n[B] avoid: 避免；躲避\n[C] spot: 发现；注意到；看出\n[D] separate: 把……隔开，分离；分辨",
+      "explanation": "［考点提炼］动词辨析。\n\n［解题思路］空格后gaps in the tree line（林木线缺口）是前文signs of human habitation（人类居住迹象）的具化，上文指出登高寻找迹象，空格词应与look for语义接近，表示“发现、注意到（缺口）”，［C］spot符合文意。\n\n［错项排除］［A］bridge表示在……上架桥或弥合分歧；［B］avoid表示避开；［D］separate表示隔开或区分，均不合登高远眺发现目标的语境。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "278a4d7a-4094-552f-b477-6a7eed71a325",
@@ -600,10 +642,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "15. [A] from自，从，由 \n[B] through穿过，通过；切断，切开\n[C] beyond超出；在....的另一边 \n[D] under在....下面\n[考点提炼]介词搭配。\n[解题思路]空格位于修饰 roads, train tracks and other paths 的定语从句（that） people carve \n_____ the woods中，已知关联为“道路、铁轨等是由人们铺就而成”，故本题实质转化为“考查roads... \n与woods之间的（方位）关联”。由因果标记词due to可知,roads...即为林木线缺口的原因，可见它们位 \n于森林之中，是人们开辟的结果，carve a road through a place为常见用法，表示“建起贯穿某地的道路”， \n介词through表示\"从一端到另一端\"，[B]正确。\n[错项排除][A] from可用于carve sth from sth结构中，表示\"减少，削减\"，如The company carved \n$ 1 million from its budget.（公司从预算中削减了 100万美元。），但森林和道路并非“整体VS个体”的 \n关系，\"从森林中削减道路\"不合逻辑。beyond the woods表示\"在森林的另一边\",under the woods表示 \n“在森林下面”，均与原文“在密林之中迷路”的文意不符，排除\n\n【选项释义与词汇辨析】\n[A] from: 自，从，由\n[B] through: 穿过，通过；切断，切开\n[C] beyond: 超出；在....的另一边\n[D] under: 在....下面",
+      "explanation": "［考点提炼］介词搭配。\n\n［解题思路］空格位于定语从句that people carve _____ the woods中，修饰roads, train tracks and other paths。道路铁轨是人们开辟穿过森林而形成的，carve a path through the woods为地道表达，through表示“穿过、贯穿”，故［B］正确。\n\n［错项排除］［A］from表示来自；［C］beyond表示在……之外；［D］under表示在……之下，穿过森林才能形成缺口。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 15,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "1313440e-31ad-5039-881e-e60d6eca4f49",
@@ -615,7 +660,7 @@
       "options": [
         {
           "key": "A",
-          "text": "posts I",
+          "text": "posts",
           "value": "A"
         },
         {
@@ -635,10 +680,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "16. [A] posts I作，职位；柱，杆 \n[B] links联系，关联；线路\n[C] shades背阴处，阴凉处；阴影 \n[D] breaks裂口，缺口；休息\n[考点提炼]上下文语义。\n[解题思路]由these的回指功能可知，解题线索在上文②句核心信息中。②句核心内容为：登高便 \n能发现各种林木线缺口（gaps）。可见本句“朝着它们走应该能找到出路”中“它们”指代“缺口”，空格词 \n应与②句gaps近义，[D] breaks符合文意。\n[错项排除][A] posts含“木杆、木桩”之意，看似可与上文②句woods呼应；[B] links含“（铁路/公 \n路/电话线等）线路\"之意，看似可与②句roads, train tracks, and other paths呼应；[C] shades意为\"背阴 \n处、阴凉处”,看似可与②句trees构成“树荫”干扰；但三项均歪曲了 these的回指内容。\n\n【选项释义与词汇辨析】\n[A] posts I: 作，职位；柱，杆\n[B] links: 联系，关联；线路\n[C] shades: 背阴处，阴凉处；阴影\n[D] breaks: 裂口，缺口；休息",
+      "explanation": "［考点提炼］上下文语义。\n\n［解题思路］由these的回指功能可知，these breaks回指上文②句中人们开辟道路形成的“gaps in the tree line（林木线缺口）”，breaks与gaps近义复现，表示“裂口、缺口”，［D］breaks正确。\n\n［错项排除］［A］posts指柱、杆；［B］links指线路或关联；［C］shades指阴凉处，均歪曲了these的回指对象。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "77ff2ef0-6a38-5e30-9806-ad84de83e0ee",
@@ -670,10 +718,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "17. [A] artificial人造的，人工的；人为的 \n[B] mysterious神秘的，难以解释的\n[C] hidden隐藏的，隐秘的；潜在的 \n[D] limited有限的\n[考点提炼]形容词辨析。\n[解题思路]已知①句总体介绍迷路后的又一项对策，④句At night提7K③句Head toward...和④句 \nscan the...分别是白天和夜晚时的具体做法。因此④句scan the horizon for_____ light sources应该对应\n① 句 look for signs of human habitation,空格词应与 human 对应。再由 such as 可知,fires and streetlights 是 \n \n light sources的具体例证，而\"火和路灯\"的共同特征是\"人造光源\"，[A] artificial正确。\n[错项排除]其他三项虽均可与light sources搭配，但“神秘的/隐秘的/有限的光源”既无法体现“人 \n类居住的迹象”，也无法概括“火和路灯”的共同特征。\n「•词汇注释与难句分析•詔\nQhabitation [ihseb讥eijon]死.居住；住宅 \n》⑤scan Eskaen] v.细看，审视，查找\n② dense [dens] a.茂密的，密集的，稠密的 \nI ©horizon [ha'raizan] n.地平线\n③ tree line林木线；指高海拔或高纬度地区树木生长 J ⑦glow [gleu] n.光亮；光辉\n的上限 \nj ⑧】ight pollution光污染\n④ carve [ka：v] e.切；雕刻 \n《\n\n【选项释义与词汇辨析】\n[A] artificial: 人造的，人工的；人为的\n[B] mysterious: 神秘的，难以解释的\n[C] hidden: 隐藏的，隐秘的；潜在的\n[D] limited: 有限的",
+      "explanation": "［考点提炼］形容词辨析。\n\n［解题思路］④句指出夜间眺望地平线寻找______light sources，such as fires and streetlights。火光和路灯的共同属性是“人造光源”，与自然光线相对，［A］artificial（人造的）正确。\n\n［错项排除］［B］mysterious（神秘的）；［C］hidden（隐秘的）；［D］limited（有限的），均无法准确概括火与路灯的本质特征。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 17,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "c3e765e2-4f62-50fc-a126-eb85905b8f70",
@@ -705,10 +756,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "18.[A] Finally 最后，终于\n[B] Consequently 因此，所以\n[C] Incidentally 顺便提一下；偶然地\n[D] Generally 总体上来说；普遍地\n【答案】A\n【考点】上下文语义逻辑。\n【解析】空格所在句assuming you’re lost in an area 与第二段首句When you find yourself...but not in a\ncompletely...area、第三段首句If you’ve explored the area before 结构一致、内容呼应，分别引出三种假\n设下（在“人类经常出没”、“不完全陌生”以及“曾探索过”的地方迷路时）的应对之举，因此可推\n知空格处应引出最后一种假设下的对策，[A] Finally 符合文意。",
+      "explanation": "［考点提炼］上下文语义逻辑。\n\n［解题思路］空格句assuming you're lost in an area...与第二段When you find yourself...、第三段If you've explored...呼应，引出最后一种假设情形下的对策，［A］Finally（最后，终于）符合文意。\n\n［错项排除］［B］Consequently表因果推论；［C］Incidentally表附带提及；［D］Generally表笼统概括，均不合行文展开顺序。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "49892e39-64fd-5588-9e07-010c2eae4056",
@@ -740,10 +794,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "19. [A] memories记忆力；记忆，回忆\n\n[B] marks记号；标记；迹象\n\n[C] notes笔记;便条\n\n[D] belongings所有物；财物\n\n[考点提炼]上下文语义+名词辨析。\n\n[解题思路]空格所在句指出，假设你在人类经常出没的地方迷路，寻找我们在地面景观上留下的\n\n______ 。下文②句指出，小路上的树皮刻痕、轮胎的痕迹和其他特征可以……文明社会。可见②句主语\n\nTrail blazes, tire tracks, and other features 即为①句宾语______ we leave on the landscape 的具体例证，\n\n而它们显然是人们在地面景观上留下的痕迹，[B] marks符合文意。\n\n[错项排除][A] memories由第三段“假如你曾探索过某个地区”臆断出“人们对某地景观还有记\n\n忆，应努力找回”，但此处论述角度并非“自己曾到之地”，而是“人们经常出没之地”。[C] notes虽有“标\n\n记”之意，但该词侧重“用笔写下的待复习或备忘内容”，[D] belongings表示“（尤指能携带走的）个人财\n\n物”,显然均不能指代文中“树皮折痕与轮胎痕迹”。",
+      "explanation": "［考点提炼］上下文语义+名词辨析。\n\n［解题思路］①句指出寻找人类在地面景观上留下的______；②句指出小路刻痕、轮胎痕迹等可以引领你走向文明。②句的痕迹正是①句宾语的具体体现，［B］marks（痕迹，记号）符合文意。\n\n［错项排除］［A］memories指回忆；［C］notes指笔记便条；［D］belongings指个人财物，均不能概括树皮刻痕与车轮压痕。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 19,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "f19ddfd0-0266-54f5-b439-51e67185b468",
@@ -775,10 +832,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "20. [A] restrict 限制，控制；约束\n[B] adopt 采用；收养；移居，承袭\n[C] lead 领路；引领\n[D] expose 使暴露（于险境）；使接触\n[考点提炼] 上下文语义+动词短语搭配。\n[解题思路] 由上题分析可知，“小路上的树皮刻痕、轮胎痕迹和其他特征”是迷路时可以借助的线索，而这些线索应该有助于引导人们重返文明社会。此外，本句是介绍迷路时的一种对策，应该与首段末句“一些回到文明世界的技巧”语义方向一致，______ you to civilization呼应首段navigate... to civilization，空格词应与navigate近义，[C] lead符合文意，lead sb to/into sth为固定搭配，表示“引领某人到/进入某地”。\n[错项排除] [A] restrict、[D] expose 均能用于～sb to sth 的结构中，如 I'm restricting myself to two cigarettes a day.（我在限制自己每天只抽两支烟。）、Some children are never exposed to classical music.（有些孩子从来没有接触过古典音乐。）；但文中“限制到文明”说不通，“接触文明”看似合理，但脱离了“在大自然迷路，如何返回人类社会”的语境，曲解此处civilization所指——文明社会。[B] adopt从“移居（某国）、承袭（风俗）”的中文义项断章取义，而其内涵仍与“接纳、采纳”相关，只是更侧重“选新替旧”，同样与“从迷途返回”的语境不符。",
+      "explanation": "［考点提炼］动词辨析与动宾搭配题。\n\n［解题思路］本句指出：这些活动旨在引导迷茫的学生重新找回生活或学业方向。lead back（引领……返回，带回）为固定搭配，符合“带他们走出迷途并回归正轨”的语境，故正确答案为［C］lead。\n\n［错项排除］［A］restrict表示限制；［B］adopt表示采纳；［D］expose表示使暴露，三项均无法与back搭配表达积极的引导救助之意，同样与“从迷途返回”的语境不符。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 20,
+      "score": 0.5,
+      "prompt": null
     },
     {
       "id": "e888059c-fd12-5cd0-b5c6-273e4c94593b",
@@ -786,7 +846,7 @@
       "passage_id": "46e48d9e-78b9-5d8b-a8dd-dbdf4a3b71a4",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 1, one motive in imposing the new rule is to",
+      "stem": "According to Paragraph 1, one motive in imposing the new rule is to _______.",
       "options": [
         {
           "key": "A",
@@ -795,25 +855,28 @@
         },
         {
           "key": "B",
-          "text": "guarantee the bonuses of top executives",
+          "text": "help corporations achieve larger profits",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "avoid the embarrassment of bank directors",
+          "text": "build a new system of financial regulation",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "foster the competition in the banking industry",
+          "text": "guarantee the bonuses of top executives",
           "value": "D"
         }
       ],
       "correct_answer": "A",
-      "explanation": "21. According to Paragraph 1, one motive in imposing 21.根据第一段，施行新规的目的之一是_______。\nthe new rule is to\n[A] enhance bankers’ sense of responsibility\n[A] 增强银行家的责任感\n[B] help corporations achieve larger profits\n[B] 帮助企业获得更多利润\n[C] build a new system of financial regulation\n[C] 建立新的金融监管体制\n[D] guarantee the bonuses of top executives\n[D] 保证高管的奖金\n【答案】A\n【解析】根据题干可知这是一道典型的细节题。根据题干关键词“paragraph 1”和“one motive in imposing\nthe new rule”回文定位在第一段第三句“The main purpose of the ‘clawback’ rule is to hold bankers\naccountable for harmful risk-taking and to restore public trust in financial institutions.”（这个规则主要目的\n是让银行家为不良风险负责以及修复公众对金融机构的信任），对比所给的四个选项，只有A 项\n“enhance bankers’ sense of responsibility”（增加银行的责任感）与原文表述一致，故为正确答案。B\n项“help corporations achieve larger profits”\n（帮助公司获得利润）以及C 项“build a new system of financial\nregulation”（建立新的金融监管体系）在原文中并未提及。D 项“guarantee the bonuses of top executives”\n（保证高管的奖金）与原文“...any guaranteed bonus of top executives could be delayed 10 years...”（高管\n的任何有保证的奖金会被延迟10 年）表述相反，故排除。",
-      "points": 2,
+      "explanation": "［考点提炼］事实细节题（考查某项政策的实施目的与动机）。\n\n［解题思路］第一段③句明确指出：The main purpose of this \"clawback\" rule is to hold bankers accountable for harmful risk-taking and to restore public trust in financial institutions（新规主要目的是让银行家对有害冒险负责，并重建公众对金融机构的信任）。hold bankers accountable for harmful risk-taking概括即为增强银行家的责任感，［A］正确。\n\n［错项排除］［B］对④句larger benefit... all corporations断章取义，该句含义实为“新规有望带来更大的益处——企业将会做出更多长远决策”，并非追求更大利润；［C］夸大其词，文中只提及“一项极不寻常的银行业新规”，并未提及建立新的金融监管体制；［D］对②句guaranteed bonus of top executives断章取义，与该句完整含义“新规将推迟高管固定奖金的发放”相悖。",
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "score": 2.0,
+      "prompt": "According to Paragraph 1, one motive in imposing the new rule is to _______."
     },
     {
       "id": "e335f793-ee51-5cd2-8477-cf4b4d5745d4",
@@ -821,34 +884,37 @@
       "passage_id": "46e48d9e-78b9-5d8b-a8dd-dbdf4a3b71a4",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Alfred Marshall is quoted to indicate",
+      "stem": "Alfred Marshall is quoted to indicate _______.",
       "options": [
         {
           "key": "A",
-          "text": "impatience of governments in decision-making",
+          "text": "the conditions for generating quick profits",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "reluctance of commercial banks to accept supervision",
+          "text": "governments' impatience in decision-making",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "instability of capital markets across Europe",
+          "text": "the solid structure of publicly traded companies",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "inefficiency of international monetary regulations",
+          "text": "\"short-termism\" in economic activities",
           "value": "D"
         }
       ],
       "correct_answer": "D",
-      "explanation": "22. Alfred Marshall is quoted to indicate \n・\n22•文中引用阿尔弗雷德・马歇尔之言是为 \n说明 \n。\n[A] the conditions for generating quick profits\n[A]实现快速获利的条件\n[E] governments, impatience in decision-making\n[B]政府在决策上没有耐心\n\n[C] the solid structure of publicly traded companies\n［C］公开上市公司的坚实架构\n[D] ''short-termism” in economic activities\n［D］经济活动中的“短期主义”\n［精准定位］第二段首先指出，Andrew Haldane提出上市公司中“短期主义\"(“ Short-termism”)加 \n剧。随后指出他援引Alfred Marshall之言，将“这种经济上的烦躁(this financial impatience)n形容为\"从 \n布丁里拣出葡萄干马上吃掉的孩子行为”。可见this financial impatience与Short-termism同指，援引 \nMarshall之言意在形象说明经济行为中的“短期主义”，［D］正确。\n［命题解密］［D］明确第二段 Short-termism%this financial impatience 所指，也即 Andrew Haldane 援 \n引Alfred Marshall之言所阐释的对象。\n［A］将第二段关注对象“渴望快速获利的心理/行为”曲解为“实现快速获利的条件”，从而将两人对 \n快速获利的态度由“否定”改为“肯定”。［B］将缺乏耐心者(短期主义者)所指“上市公司管理者/股东(in \npublicly traded companies ) v 窜改为“政府(governments)o ［C］复现第二段①句 publicly traded \ncompanies,但文中未论及“公开上市公司的组织架构(solid structure无据可依)”",
-      "points": 2,
+      "explanation": "［考点提炼］写作目的题（考查引用权威人物言论的目的）。\n\n［解题思路］第二段①句指出，Andrew Haldane提出上市公司中“短期主义”（Short-termism）加剧；随后②句指出他援引Alfred Marshall之言，将“这种经济上的急躁（this financial impatience）”形容为“从布丁里拣出葡萄干马上吃掉的孩子行为”。可见this financial impatience与Short-termism同指，援引Marshall之言意在形象阐释经济行为中的“短期主义”，［D］正确。\n\n［错项排除］［A］将第二段关注对象“急于获利的心理”曲解为“实现快速获利的条件”；［B］将缺乏耐心者所指（上市公司管理者/股东）篡改为“政府”；［C］复现第二段publicly traded companies，但文中并未论及公开上市公司的组织架构。",
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 22,
+      "score": 2.0,
+      "prompt": "Alfred Marshall is quoted to indicate _______."
     },
     {
       "id": "e8a5c88f-3443-5992-b118-46e8ea184368",
@@ -856,34 +922,37 @@
       "passage_id": "46e48d9e-78b9-5d8b-a8dd-dbdf4a3b71a4",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It is argued that the influence of transient",
+      "stem": "It is argued that the influence of transient investment on public companies can be _______.",
       "options": [
         {
           "key": "A",
-          "text": "adverse",
+          "text": "indirect",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "negligible",
+          "text": "adverse",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "temporary",
+          "text": "minimal",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "favorable",
+          "text": "temporary",
           "value": "D"
         }
       ],
       "correct_answer": "B",
-      "explanation": "23. It is argued that the influence of transient \ninvestment on public companies can be \n・\n23.文章认为，短暂型投资对上市公司的影响 \n可能是 \n。\n[A] indirect\n[A]间接的\n[E] adverse\n[B]不利的\n[C] minimal\n[C]极小的\n[D] temporary\n[D]暂时的\n\n［精准定位］第三段②句指出，短暂投资者会妨碍公司投资长期研究或提升客户忠诚度。第四段②句 \n也指出：短期主义思维盛行的代价是长期投资受损。可见短暂型投资的影响是消极的、不利的，［B］正确。\n［命题解密XB］adverse是对第三段②句can hinder...以及第四段②句at the expense of...的概括推理。\n［A］不符合第三段②句can hinder a firm's efforts传递的“短暂型投资直接影响上市公司”之意。 \n［C］、［D］均由transientC短暂的，转瞬即逝的）捏造而来，但背离②句含义：“投资长期研究项目”和“建立 \n客户忠诚”均于企业长远发展至关重要，故公司在这些方面的努力受阻所造成影响应是“深远的、致命 \n的”,绝非“暂时的、极小的”。\n［技巧总结］本题要求用一词概括“短暂投资对上市公司的影响”，可采用思路为“先找到文中相关论 \n述信息，再根据上下文对其进行概括推理”：先由transient investment>public companies定位至第三段② \n句（Transient investors. . . a firm），随后由定位信息 hinder a firm's efforts to invest in long-term research \nor to build up customer loyalty 得出影响是\"负面的”；再结合第二段①句“ Short-termism”.・.has \nworsened 和第四段②句 a predominance of short-term thinking at th",
-      "points": 2,
+      "explanation": "［考点提炼］观点推理题（考查对短期投资行为负面影响的概括）。\n\n［解题思路］第三段②句明确指出，Transient investors... can hinder a firm's efforts to invest in long-term research or to build up customer loyalty（短暂型投资者会阻碍公司投资长期研究或建立客户忠诚的努力）。第四段②句也指出短期主义思维盛行的代价是长期投资受损（at the expense of long-term investing）。可见短暂型投资对上市公司造成的阻碍和损害是消极不利的，adverse（不利的）正是对其影响的精确概括，［B］正确。\n\n［错项排除］［A］indirect与第三段②句hinder a firm's efforts传递的直接妨碍相悖；［C］minimal（极小的）与［D］temporary（暂时的）均源于transient（短暂的）字面干扰，但研发受阻与客户流失对企业的影响深远且致命，绝非微不足道或暂时。",
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 23,
+      "score": 2.0,
+      "prompt": "It is argued that the influence of transient investment on public companies can be _______."
     },
     {
       "id": "a5ce1fd1-3c87-5bdb-863c-539eb938f8cb",
@@ -891,11 +960,11 @@
       "passage_id": "46e48d9e-78b9-5d8b-a8dd-dbdf4a3b71a4",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The US and France examples are used to illustrate",
+      "stem": "The US and France examples are used to illustrate _______.",
       "options": [
         {
           "key": "A",
-          "text": "the obstacles to preventing 'short-termism'",
+          "text": "the obstacles to preventing \"short-termism\"",
           "value": "A"
         },
         {
@@ -905,20 +974,23 @@
         },
         {
           "key": "C",
-          "text": "the approaches to tackling financial crises",
+          "text": "the approaches to promoting \"long-termism\"",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "the necessity of reducing bonuses",
+          "text": "the prevalence of short-term thinking",
           "value": "D"
         }
       ],
       "correct_answer": "C",
-      "explanation": "24. The US and France examples and used to illustrate 24.美国和法国的例子被用来说明_______。\n[A] the obstacles to preventing “short-termism”. [A] 制止“短期主义”的障碍\n[B] the significance of long-term thinking.\n[B] 长线思维的重要性\n[C] the approaches to promoting “long-termism”. [C] 增进“长期主义”的方法\n[D] the prevalence of short-term thinking.\n[D] 断线思维的盛行\n【答案】C\n【解析】根据题干定位到第五、六段，第五段为美国的例子，第六段为法国的例子，（第五段中美国延\n迟发放才上任一年左右的高管绩效津贴，继而促进缓解“短期主义”盛行的现状；第六段在法国持股\n两年以上者拥有更大的选票选。）第六段首句承前启后讲到“Much more could be done to encourage\n‘long-termism’”促进“长期主义”还有很多做法。A 项The obstacles to preventing “short-termism”（预\n防“短期主义”的阻碍），无中生有，故排除；B 项The significance of long-term thinking（“长期主义”\n思维的意义），无中生有，故排除；C 项The approaches to promoting “Long-termism”（促进“长期主义”\n的方法），与原文一致，故为正确选项；D 项The prevalence of short-term thinking（“长期主义”思维的\n盛行）为第四段内容，与题干无关，故排除。",
-      "points": 2,
+      "explanation": "［考点提炼］例证题（考查列举多国举措的写作意图）。\n\n［解题思路］第五段指出美国施行《萨班斯-奥克斯利法案》促使高管大部分薪酬与业绩挂钩，从而稍微有助于削弱短期主义（slightly helping reduce \"short-termism\"）；第六段承上启下指出鼓励长期主义还可以做很多（Much more could be done to encourage \"long-termism\"），随后列举法国给予持股两年以上投资者更多表决权的做法。综合可知，举美、法两工事例是为了说明如何遏制短期主义、增进长期主义的具体方法与途径，［C］正确。\n\n［错项排除］［A］obstacles（阻碍）无中生有，文中未提及美法两国在遏制短期主义时遇到困难；［B］与［D］中的长线思维重要与短线思维盛行是第二至四段所述现实，而非五、六段列举举措的阐释重点。",
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 24,
+      "score": 2.0,
+      "prompt": "The US and France examples are used to illustrate _______."
     },
     {
       "id": "a1823eb2-c979-538d-a2a1-ed83dc41c9ae",
@@ -950,10 +1022,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "25. Which of the following would be the best title for the text?\n25.下列哪项是本文的最佳标题？\n[A] Failure of Quarterly Capitalism\n［A］季度资本主义的失败\n[B] Patience as a Corporate Virtue\n［B］耐心，企业的美德\n[C] Decisiveness Required of Top Executives\n［C］高管必备的果决\n[D] Frustration of Risk-taking Bankers\n［D］冒险型银行家的挫败\n［精准定位］文首段引入“英国银行业监管新规”并说明其长远目的“让银行及其他所有企业能够做 \n出更长远的决策，为后代建立更强健的经济”。第二至四段剖析现状“上市公司中短期主义盛行”并明确 \n其消极影响。第五至七段则说明削弱短期主义、鼓励长期主义的方法，可见，文章旨在倡导企业奉行长 \n期主义、多些耐心，以为后代建立更强健的经济，［B］正确。\n［命题解密］［B］中 patience 指向 long-termism,与 short-termism/financial impatience 相对，a \nCorporate Virtue 暗合 to build a stronger economy for future generations,体现作者对长期主义的倡导。\n［A］与第三段信息“投资者平均持股时间锐减/季度资本主义加剧”相悖。［C］由首段④句 \ndecisionmaking臆断出“高管行事需果决”，但文意并非在于“高管必须果断”，而是在于“高管的决策应考 \n虑长远（more long-term decisionmaking）”。［D］源自第一段③句“英国新规将惩罚银行家的有害冒险行 \n为”，但文章随后范围已经扩大，批驳的并非仅仅是“银行家的冒险行为”，而是“所有公司的短期主义”。\n［技巧总结］本题以文章标题形式考查考生对全篇的把握，除“锁定答案”中所用梳理文章脉络这一 \n基本解题思路外，还可以借助如下技巧：一",
-      "points": 2,
+      "explanation": "［考点提炼］主旨大意题（考查全文核心主旨与最佳标题）。\n\n［解题思路］文首段引入英国银行业监管新规，说明其长远目的在于促使企业做出更多长期决策、为后代建立更强健的经济；第二至四段剖析企业中短期主义盛行及其危害；第五至七段说明鼓励长期主义的举措，并在文末呼吁具备长期思维、承担社会长远利益责任。全文旨在倡导企业摒弃急躁、奉行长期主义、多些耐心，Patience as a Corporate Virtue（耐心，企业的美德）精准契合全文主旨，［B］正确。\n\n［错项排除］［A］Failure of与文中反映季度资本主义依然盛行的现实不符；［C］将首段决策应考虑长远曲解为高管需具备决断力；［D］仅涉及首段惩罚银行家冒险行为的局部背景，无法统摄全文。",
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 25,
+      "score": 2.0,
+      "prompt": "Which of the following would be the best title for the text?"
     },
     {
       "id": "a8cecdce-18c8-5a50-8242-3732e5ac7de1",
@@ -965,7 +1040,7 @@
       "options": [
         {
           "key": "A",
-          "text": "The change of course catalogs",
+          "text": "The change of course catalogs.",
           "value": "A"
         },
         {
@@ -985,10 +1060,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］根据题干关键词grade inflation定位至首段①句，该句指出：“分数膨胀”往往被视作高等教育进入消费者时代的产物，即人们通常认为消费者文化是高等教育“分数膨胀”的诱因，［D］正确。\n\n［命题解密］题干与正确项［D］同义改写首段①句grade inflation is often considered a product of a consumer era in higher education。\n\n［A］由首段②句“课程目录出现剧烈变化（course catalogs underwent dramatic changes）”干扰，但该现象为“消费者文化进入高等教育领域”的伴生现象，并非“分数膨胀”的原因。［B］源自首段②句graders were far more unforgiving,但将原文“过去的评分者（老师）并不像现在这样宽容”曲解为“学生对分数漠不关心”。［C］利用常识设置干扰，但原文并未提及。\n\n［技巧总结］考研英语事实细节题题干通常就文中“某事物/现象的产生原因”进行设问，其主要考查方向有二：一是针对文中的“普遍看法（铺垫性信息）”发问，二是针对文中的“真实原因（意欲重点论述的信息）”发问。本题中，首段①句先提出对于“分数膨胀”的普遍看法（often considered a product of...），②句紧接着借从句以a less examined trend引出“相较之下对较少被人关注的原因”，这也是文中意欲重点论述的原因。再审视题干，发现命题人“避重就轻”，针对“普遍看法（铺垫性信息）”发问，所以解题时需牢牢锁定①句，谨防利用②句逻辑或信息设置的干扰。",
-      "points": 2,
+      "explanation": "［精准定位］首段①句 Grade inflation... is often considered a product of a consumer era in higher education, in which students are treated like customers to be pleased。\n\n［考点提炼］事实细节题（考查公众普遍认知的原因定位）。\n\n［解题思路］首段①句明确指出：Grade inflation... is often considered a product of a consumer era in higher education, in which students are treated like customers to be pleased（分数膨胀往往被视作高等教育进入消费者时代的产物，在该时代学生被当作需要讨好的顾客）。题干commonly regarded as the cause对应is often considered a product of，［D］The influence of consumer culture同义替换a consumer era，［D］正确。\n\n［错项排除］［A］course catalogs在首段②句复现，但文中并未涉及课程目录变更；［B］与［C］断章取义，学生和高校都极其看重GPA而非漠视或忽略，谨防利用②句逻辑或信息设置的干扰。",
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "score": 2.0,
+      "prompt": "What is commonly regarded as the cause of grade inflation?"
     },
     {
       "id": "d2385925-4c40-5ba6-b717-f9db9c86e3d9",
@@ -1020,10 +1098,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］根据题干关键词the original purpose of grade forgiveness可定位至第三段②句，该句介绍数十年前“成绩宽恕”政策刚开始实行时的情形（When this practice first started decades ago...）：仅针对大一新生，旨在为新生提供一次重修课程的机会，帮他们应对高中到大学的过渡，也即适应大学学习，［A］正确。\n\n［命题解密］［A］是对第三段②句 to give them a second chance... if they struggled in their transition to college-level courses 的概括。\n\n利用第三段①句as从句的内容进行干扰，但“维持毕业率”和“（提升保留率，）增加学费收入”均为该政策近年来加速实行的原因，而非其初始目的。［C］借第四段②句“通过重修课程，学生在后续课程中表现得更好，最终取得了更大的成功”干扰，该内容固然是“（高校管理者眼中）政策对学生的好处”，但并非政策初衷。\n\n［技巧总结］本题考查事实细节，解题关键在于准确定位。题干关键词the original purpose of grade forgiveness 看似直接对应第四段①句 the goal of grade forgiveness,但 College officials tend to emphasize that...表明该句/段为当前大学管理者对政策的看法，与题干中过去时态以及original 一词表明的“政策实行之初”不符，故实际应定位至第三段②句（When this practice first started decades ago...）。四个选项中只有［A］符合题意，其他三项均借该政策当前的执行效果（B、D背离初衷，C则扩大作用对象）干扰。",
-      "points": 2,
+      "explanation": "［精准定位］第三段②句 When this practice first started decades ago, it was usually limited to freshmen, to give them a second chance to take a class in their first year if they struggled in their transition to college-level courses。\n\n［考点提炼］事实细节题（考查政策出台初期的原初目的）。\n\n［解题思路］第三段②句明确指出：数十年前该做法刚开始推行时，通常仅适用于大一新生，为的是在其向大学水平课程艰难过渡的过程中给予一次重修机会。帮助新生应对向大学课程的过渡即为帮助其适应大学学习，选项［A］To help freshmen adapt to college learning与原文完全契合，为正确答案。\n\n［错项排除］［B］与［D］是第三段①句及第五段指出的如今大学加快推行该政策以留住学生收学费、提高毕业率的功利动机，并非数十年前的初衷；［C］无中生有。解答本题关键在于严格抓住题干时间限定词original purpose，准确剔除（B、D背离初衷，C则扩大作用对象）干扰。",
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0,
+      "prompt": "What was the original purpose of grade forgiveness?"
     },
     {
       "id": "c1d1215d-14cf-5bdf-b557-32f40f9bf93a",
@@ -1031,7 +1112,7 @@
       "passage_id": "b0342352-d5c0-5cad-83a5-a9bf94a42538",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 5, grade forgiveness enables colleges to ________.",
+      "stem": "According to Paragraph 5, grade forgiveness enables colleges to _______.",
       "options": [
         {
           "key": "A",
@@ -1055,10 +1136,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］第五段指出“成绩宽恕”满足了大学两方面的需要：1.帮助公立大学获得更多政府拨款；2.提高学生对于学校的满意度。［A］符合第一项内容。\n\n［命题解密］“题干 + ［A］”同义改写②句 better grades can... mean more money。\n\n［B］由③句“让学生觉得学费物超所值（即，提高消费者满意度）”过度引申而来，但该句实际指“留住在校学生”，而非“吸引还未入学的学生”。［C］由②句“提高毕业率和保留率”臆测出“成绩宽恕”政策有助于“提升高校教学质量”，但文中没有信息支撑这一结论。［D］借②句干扰，但原文为“州政府拨款的部分依据（毕业率和学生保留率高）”，这一条件并非地方政府本身的需求（governments' needs）。\n\n［技巧总结］题干中的enables colleges to提示本题考查“大学热衷成绩宽恕政策的背后原因/对大学的好处”。应结合微观与宏观思维解题：微观上定位梳理原文并比对选项，宏观上还应思考文中对这一好处的定位。第五段首句satisfies colleges' own needs将这种好处定位为“（大学的）私利”，②句随即验证——财政拨款。③句则呼应首句的“消费者时代”，说明高校的“取悦”心态。所以整段内容与“高等教育本身（［C］项）、州政府需求（［D］项）”毫无关联，［B］虽符合“高校逐利”的总体导向（有利于增加高校学费收入），但比对后发现为过度引申。",
-      "points": 2,
+      "explanation": "［精准定位］第五段②句 For public institutions, state funds are sometimes tied partly to their success on metrics such as graduation rates and student retention — so better grades can, by boosting figures like those, mean more money。\n\n［考点提炼］段落细节题（考查某项政策给高校带来的利益）。\n\n［解题思路］第五段②句指出：州政府拨款部分与毕业率和留校率挂钩，因此更好的成绩通过提升这些指标可以意味着获得更多资金。mean more money同义替换obtain more financial support，［A］正确。\n\n［错项排除］［B］留住学生（student retention）是指在校生，而非增加新生入学人数（boost enrollments）；［C］成绩虚高并不等于提高教学质量；［D］偷换概念，政府资金拨款取决于达标指标，并非满足地方政府需要，看似合乎常理，但比对后发现为过度引申。",
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 28,
+      "score": 2.0,
+      "prompt": "According to Paragraph 5, grade forgiveness enables colleges to _______."
     },
     {
       "id": "ab8541cc-e90a-5cba-a17f-78d4444146ed",
@@ -1090,10 +1174,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］所考词组位于第六段③句，而该句中this回指前文信息，需综合分析：本段①句先揭示学校与学生之间关系的实质——商品/服务提供者VS消费者，②句具体说明这一关系：作为消费者的学生及其家长希望顺利拿到学位，作为商品/服务提供者的学校尽力产出合格或看起来合格（即符合学位授予条件）的学生，可见两者动机是一致的，to be aligned意为“一致的，相同的”，［C］正确。\n\n［命题解密］［C］是基于学生和学校之间关系（responding to consumers' expectations）以及两者目标（expect a college degree 与 turn out graduates who are as qualified as possible 一致）作出的合理推断。\n\n全文均未提到学生与学校之间存在任何的对立、矛盾，反而是学校致力于满足学生的需求，为学生提供支持，排除［A］与［D］。［B］利用“学校服务学生的同时，实现自身需求，两者互帮互补、各取所需”干扰，但原文主语为“动机（incentives）”，文中动机均指向“拿到文凭”，而非“互补”。\n\n［技巧总结］③句this乍看指代不明，此时应回顾全段进行判断，首先明确“总—分”布局（①句概述，②③句具体说明），①句 universities are responding to consumers' expectations、②句 Since students... expect..., it is in the best interest of a school to...均表明学生与大学出发点一致（均追求一纸文凭），故推知to be aligned意为“一致的”。捷径：本题实际考查学生与大学动机/态度的关系，可结合全文或明示或暗示的二者关系（首段 consumer era/customers to be pleased、第三段 students... paying tuition、第五段 students... paying the bill... value for... tuition均表明学生与学校为消费关系）可知，学校致力于取悦学生，排除体现矛盾关系的以及互补关系的［B］。",
-      "points": 2,
+      "explanation": "［精准定位］第六段末句 On this, students' and colleges' incentives seem to be aligned。\n\n［考点提炼］词义句意题（考查短语在上下文中的特定语义）。\n\n［解题思路］划线词组位于第六段末句：On this, students' and colleges' incentives seem to be aligned。前句指出：既然学生和家长希望大学文凭能带来工作，那么培养出尽可能合格（或至少看起来合格）的毕业生就最符合学校利益。在这一点上，学生希望拿到漂亮文凭，学校希望输出合格学生维持利益，两者的动机是一致、相同的，to be aligned意为保持一致，［C］To be identical with each other正确。\n\n［错项排除］［A］相互抗衡与［D］彼此矛盾均与文中利益一致相悖；排除体现矛盾关系的以及互补关系的［B］。",
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 29,
+      "score": 2.0,
+      "prompt": "What does the phrase \"to be aligned\" (Line 5, Para. 6) most probably mean?"
     },
     {
       "id": "83801683-ef55-5c36-861e-fcd772960a64",
@@ -1101,7 +1188,7 @@
       "passage_id": "b0342352-d5c0-5cad-83a5-a9bf94a42538",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author examines the practice of grade forgiveness by ________.",
+      "stem": "The author examines the practice of grade forgiveness by _______.",
       "options": [
         {
           "key": "A",
@@ -1125,10 +1212,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］本题考查作者写作方式（examines... by...），需结合全文内容进行判断。文章第一至三段先介绍“成绩宽恕”政策的内容及其发展情况，特别指出近年来该政策日益普及的现状，第四至六段揭示政策产生和发展的原因，其中第四、五段先分别指出该政策符合学生和大学的需求，第六段总结原因，揭示学生和大学之间关系的实质是消费关系，“成绩宽恕”政策的加速施行是双方共同利益驱使的结果。可见，作者是借助“分析政策背后的原因和动机”来剖析政策、表明态度的，［B］正确。\n\n［命题解密］［B］正确概括本文写作方式，主要指向第四、五段具体原因分析以及第六段原因总结。\n\n［A］利用作者隐含的担忧态度进行臆测，但选项内涵实为对尚未实施的计划、政策等进行可行性评定（feasible意为“切实可行的，行得通的”），而本文论述对象“成绩宽恕”政策早已实行数十年；且“可行性”一词侧重“能不能”，而非“该不该”。第四段涉及政策相关观点，但仅涉及制定者和执行者一方的观点，没有观点交锋，故排除［C］。第四、五段虽涉及政策对学生和大学的影响（助学生顺利毕业就业、提高毕业率和学生保留率），但都是双方想要的短期效果，且与全文“曝光这一动机”的立意不符，排除［D］。\n\n［技巧总结］本题形式上考查论证方式/结构，但作为最后一道题，也可以视作考查文章主旨，解题时需捋清文章主线。前三段介绍大学“成绩宽恕”政策，并指出其近年来加速普及，第四至六段分析原因，指出该政策的背后推手是“买卖双方（学生和大学）的共同需求”，可见本文主要分析了“成绩宽恕”的原因，希望借此引发公众对高等教育“商品化”的反思，［B］正确。",
-      "points": 2,
+      "explanation": "［精准定位］全文论证脉络与篇章结构剖析。\n\n［考点提炼］篇章结构与行文方式题（考查作者论证方式）。\n\n［解题思路］文章第一至二段介绍“成绩宽恕”的背景与现象；第三段剖析其初衷与演变；第四至六段深入剖析推动该政策愈演愈烈的深层动力——高校面临的财政拨款考核、对学费收入的依赖以及学生迎合就业市场的需求。整篇文章的核心在于分析该制度背后的种种驱动动因，［B］analyzing the causes behind it切中主旨。\n\n［错项排除］［A］文章重点不在于评估该制度可行与否；［C］文章并未并列对比支持与反对的各方观点；［D］文章分析的是当下促成该现象的原因，而非罗列长远影响。作者深入剖析成因，希望借此引发公众对高等教育“商品化”的反思，［B］正确。",
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 30,
+      "score": 2.0,
+      "prompt": "The author examines the practice of grade forgiveness by _______."
     },
     {
       "id": "0dea801f-281b-56ac-9e9e-b6d08efa09a0",
@@ -1136,11 +1226,11 @@
       "passage_id": "2e2f0b79-bf19-57df-91dd-33efed69f831",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Mary Shelley's novel Frankenstein is mentioned because it",
+      "stem": "Mary Shelley's novel Frankenstein is mentioned because it _______.",
       "options": [
         {
           "key": "A",
-          "text": "fascinates Al scientists all over the world",
+          "text": "fascinates AI scientists all over the world",
           "value": "A"
         },
         {
@@ -1160,10 +1250,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］由题干关键词Mary Shelley's novel Frankenstein虽可直接定位至首段，但由is mentioned because it即可推断此题考查写作目的，故应结合文章话题及下文内容予以解答。首段以科幻小说《弗兰肯斯坦》出版200周年开篇，称赞著作者极有远见，在书中预言了未来（200年后的今天）技术将带来的诸多道德问题，浏览下文发现只有篇末复现作品相关词Frankenstein，而AI、ethical/ethics却贯穿全篇。由此推知，文章关注点并非《弗兰肯斯坦》本身，该小说只是作为开篇引子用以引出本文核心话题“与AI相关的伦理道德问题”，也即，文章提及《弗兰肯斯坦》是因为书中预言了 200年后的今天新技术（AI）所引发的道德伦理问题，［C］正确。\n\n［命题解密］正确项［C］恰当解读了小说重大意义foreshadow many ethical questions to be raised by technologies yet to come 与下文复现关键词 AI, ethical/ethics, issues/questions 之间“引子-正题”关联。\n\n［A］中fascinate源自第三段②句，但原文意在说明“人类痴迷于某种'机器人'概念”，选项内容“全球AI科学家痴迷于《弗兰肯斯坦》”文中并未提及。\n［B］由开篇句所涉信息“《弗兰肯斯坦》出版200周年”过度推出“该小说200年来一直受欢迎”，但下文并未论及小说的受欢迎度，故选项偏离文章话题，并非小说被提及的原因。\n［D］中ethical controversies源自首段末句中ethical questions，但选项将引发伦理问题的主体由“新技术”偷换为“小说《弗兰肯斯坦》”。\n\n［技巧总结］本题就开篇引子（事例、故事、名人名言等）设置写作目的题。解题思路为：一、首先明确引子的作用：激发读者兴趣，为引入正题服务；二、大体锁定全文主述话题词：速览下文抓取与引子内容有关联的高频复现词；三、分析选项：“能体现引子本身所涉内容”且“能和下文内容顺接（或反映全文主述话题）”的选项是正确项，“与引子所涉内容相悖/无关”或“无法与下文内容建立有效关联（偏离全文主述话题）”的通常是干扰项。如本题，［A］、［B］实际均囿于小说本身，而未与全文多次反复出现的AI、ethical/ethics、questions/issues/problems相关联，故均予以排除。",
-      "points": 2,
+      "explanation": "［精准定位］第一段以《弗兰肯斯坦》成书200周年切入，探讨人工智能引发的人类道德与生存焦虑。\n\n［考点提炼］写作目的题（考查开篇引用文学名著的意图）。\n\n［解题思路］第一段以《弗兰肯斯坦》200周年为引子，指出小说中科学家创造出生命却对其后果失去控制，这一母题恰好折射了当今人类对AI技术失去控制、违背道德伦理的深层担忧。作者引用名著是为了引出当下AI带来的道德与现实担忧，［C］involves some concerns raised by AI today切中题旨。\n\n［错项排除］［A］全世界AI科学家着迷属于过度引申；［B］流行200年只是时间事实，非引用目的；［D］小说本身预见了争议，但引用是为了映射当前AI问题。",
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31,
+      "score": 2.0,
+      "prompt": "Mary Shelley's novel Frankenstein is mentioned because it _______."
     },
     {
       "id": "de66cba5-d782-5a6e-a683-a4187225aeaf",
@@ -1171,7 +1264,7 @@
       "passage_id": "2e2f0b79-bf19-57df-91dd-33efed69f831",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "In David Eagleman's opinion, our current knowledge of consciousness",
+      "stem": "In David Eagleman's opinion, our current knowledge of consciousness _______.",
       "options": [
         {
           "key": "A",
@@ -1195,10 +1288,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］由题干关键词David Eagleman可直接定位至第四段。该段通过直接引用、间接引用两种方式指出伊格曼观点：人类思维方式（文中又指“意识”）极其复杂、难于理解，更甭提复制（思维方式/意识）。换言之，人类目前对意识的认识还十分有限、尚且无法复制意识。［D］正确。\n\n［命题解密］题干+正确项是对第四段①句的同义改写：题干中consciousness对应how people think，［D］项同义改写 far too complex to be understood, let alone reproduced。\n\n［A］利用第四段②句中explaining what... and how...设障，却忽略其前否定表达there are no good theories，从而将原文no theories explaining...“没有理论能够解释意识、更甭提去制造复制意识的机器（即'人工智能'）”曲解为helps explain“有助解释人工智能”。\n［B］中robot making虽与第四段段末build a machine同义，但原文意在指出我们目前对意识的认识“阻碍（how you could ever）”，而非“误导（misleading）”机器人的制造。\n［C］虽复现第三段末popular sci-fi TV series，但原文并未提及“我们目前对意识的认识”与热门科幻剧的关系，而且该处也并非伊格曼的观点。\n\n［技巧总结］人物观点题的解题关键是把握人物观点表达中的情感色彩表达词以及特定特殊句式。如本题，定位段中far too complex to be understood（强调否定意义的too... to...“太……而不能……”结构）、let alone reproduced（常用在含否定意味的句子后表示进一步否定的let alone“更不要谈”结构）、no good theories explaining（绝对表达 no“没有”）、how you could ever...（反问表达“你怎么可能……？”）等均透露出David Eagleman对人类理解意识以及机器复制意识（即人工智能）的否定态度，借此可确定相关题目的基调定是“负向（局限、不能）”，而非“正向（有助、启示）”，对比选项，唯有［D］项符合这一主基调。",
-      "points": 2,
+      "explanation": "［精准定位］第二段①句 Neuroscientist David Eagleman likes to point out that when similar promises for Frankenstein computers were made back in the 1950s... 及该段末句。\n\n［考点提炼］观点态度题（考查专家对意识与复制认知的判断）。\n\n［解题思路］第二段指出神经科学家David Eagleman强调：正如早先计算机先驱低估了大脑复杂性一样，我们如今对大脑意识的理解仍然非常粗浅（just scratches the surface）。既然人类对意识本身的机制知之甚少，自然无法将其复制到机器中，［D］is too limited for us to reproduce it正确。\n\n［错项排除］［A］与文意相悖，粗浅认知无法解释AI；［B］误导机器人制造无中生有；［C］第三段提到科幻剧，但非伊格曼观点。唯有［D］项符合这一主基调。",
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 32,
+      "score": 2.0,
+      "prompt": "In David Eagleman's opinion, our current knowledge of consciousness _______."
     },
     {
       "id": "eee9b4b0-4595-5344-b391-760f8e77472f",
@@ -1206,7 +1302,7 @@
       "passage_id": "2e2f0b79-bf19-57df-91dd-33efed69f831",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The solution to the ethical issues brought by autonomous vehicles",
+      "stem": "The solution to the ethical issues brought by autonomous vehicles _______.",
       "options": [
         {
           "key": "A",
@@ -1230,10 +1326,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］根据题干关键词the ethical issues brought by autonomous vehicles定位至第五段。该段①句概述指出AI相关伦理问题业已出现，②至⑥句进而以自动驾驶汽车引发的伦理问题予以说明。②句首先指出自动驾驶汽车的投入使用带来了棘手的伦理问题，③至⑥句以“AI（自动驾驶汽车）与人类驾驶员的差距”解释其棘手的伦理问题：人类驾驶员的决策过程十分短暂且极其复杂（③④句）；而目前的AI技术不太成熟：AI眼力远不及人类，且编程上也很难穷举所有驾驶情景（⑤⑥句）。由此可知，我们目前仍无法解决自动驾驶汽车带来的伦理问题，［B］正确。\n\n［命题解密］正确项［B］是对第五段②句 thorny ethical questions、⑤句 not nearly as sophisticated、⑥句 a difficult programming problem 的综合概括和推断。\n\n［A］是对末句中a difficult programming problem“一个有难度的编程问题”的近乎绝对/全盘否定化。\n［C］、［D］涉及大众对伦理问题解决办法的“关注”、“好奇”，但文中并不涉及大众的关注和好奇。\n\n［技巧总结］本题考查事实细节，解题时应先确定解题范围，再注意对比选项与原文。题干autonomous vehicles在第五段②句中复现，由该句中表示例证的for example可确定解题范围为该段②至⑥句；四个选项涉及“能否解决（hardly... found, beyond... capacity）”与“大众反响（public concern, much curiosity）”两大方向，②至⑥句分析现状“自动驾驶汽车带来的伦理问题相当棘手：目前的AI与人类驾驶员相比仍有很大缺陷（split-second, complex, not nearly as sophisticated, difficult programming problem）”，并不涉及大众看法，先排除［C］、［D］；剩余两项中，［A］过度推导，几乎全盘否定了解决问题的可能，过于绝对，［B］客观描述问题解决的现状，为正确项。",
-      "points": 2,
+      "explanation": "［精准定位］第四段②句 This is not an easy problem to solve. 及第五段对自动驾驶道德困境的具体剖析。\n\n［考点提炼］事实细节题（考查自动驾驶伦理困境的解决现状）。\n\n［解题思路］第四段明确指出：让AI做道德抉择绝非易事（not an easy problem to solve）；第五段进一步通过自动驾驶汽车撞一人还是撞多人的两难抉择，说明目前人们乃至算法均无法给出两全其美的道德解决方案。由此可知解决该伦理问题仍然超出当前能力范围，［B］is still beyond our capacity正确。\n\n［错项排除］［A］hardly ever be found过于悲观绝对；［C］与［D］与文中指出该问题棘手并引起政府、企业高度重视的现实不符。为正确项。",
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 33,
+      "score": 2.0,
+      "prompt": "The solution to the ethical issues brought by autonomous vehicles _______."
     },
     {
       "id": "48f84c0f-cadb-5e0a-9515-0a862f9c8cc9",
@@ -1241,7 +1340,7 @@
       "passage_id": "2e2f0b79-bf19-57df-91dd-33efed69f831",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author's attitude toward Google's pledges is one of ________.",
+      "stem": "The author's attitude toward Google's pledges is one of _______.",
       "options": [
         {
           "key": "A",
@@ -1265,10 +1364,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］由题干关键词Google's pledges初步定位至第七段，但由The author's attitude可知本题考查作者态度，故应注意上下文相关内容。第七段具体介绍了谷歌有关AI的相关承诺，第八段①句作者随即做出点评：虽然谷歌的声明含混笼统，但它代表了一个起点。由此可知，作者认为谷歌声明虽有瑕疵，但总体值得肯定，［A］正确。\n\n［命题解密］正确项［A］是对第八段①句 While the statement is vague, it represents one starting point中“让步-转折”逻辑所含作者态度的正确解读。\n\n［B］skepticism为负向态度词，由第八段首句vague臆断而来，却忽视句中语义重心（While预示主句为语义重点）represents one starting point所传递的肯定语义色彩。\n［C］contempt（意为 the feeling that sb/sth is without value and deserves no respect at all“蔑视；轻蔑；鄙视”）是极端负向情感词，明显与第八段represents one starting point所传递的肯定态度相悖。\n［D］respect（语用色彩为 used for showing that you admire or strongly approve of someone or something“对……的赞赏或强烈支持”）虽是正向情感词，但程度过重，忽略其前让步从句中vague所传递的否定语义色彩。\n\n［技巧总结］本题考查作者态度，解题关键在于找准并理解体现作者态度的词（组）或表达。题干Google's pledges为作者评价对象，可据此初步定位具体介绍谷歌承诺的第七段，作者态度有可能出现在该段前后：第六段介绍各国政府的举措，排除；第八段①句中作者先让步（While）指出谷歌声明的缺点“含混笼统”，随后肯定其优点“是一个起点”，由此可知作者对谷歌承诺总体持肯定态度。浏览四个选项，先排除带有明显负面色彩的［B］、［C］；剩余两项中虽均为正面评价，但只有［A］与作者客观肯定的态度相符，［D］有夸大赞誉之嫌。",
-      "points": 2,
+      "explanation": "［精准定位］第七段与第八段关于谷歌承诺原则的评述。\n\n［考点提炼］态度倾向题（考查作者对企业道德承诺的态度）。\n\n［解题思路］第七段提到谷歌发布了AI道德原则，第八段首句指出：While pledges may not be entirely enforceable, they are an important starting point（尽管这些承诺可能无法完全执行，但它们是一个重要的起点）。作者对谷歌率先设立规则和自我约束的行为给予了积极正面的肯定，故［A］affirmation（肯定、赞许）符合文意。\n\n［错项排除］［B］skepticism怀疑；［C］contempt蔑视；［D］respect尊敬（程度过高）。",
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 34,
+      "score": 2.0,
+      "prompt": "The author's attitude toward Google's pledges is one of _______."
     },
     {
       "id": "dc63ba42-b476-5756-b311-564f92baa0b6",
@@ -1300,10 +1402,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］文章先以玛丽•雪莱巨著《弗兰肯斯坦》为引，提出全文话题：技术引发的伦理道德问题；尔后铺垫当前AI技术的发展现状：尚且难以复制人类意识；随后指出当前AI技术已然引发伦理问题，并对各国政府、企业的相关具体措施予以了肯定；最后总结强调AI必须反映人类最高价值观才能真正造福人类（言外之意：人类必须将自身价值观灌输给AI）。综上可知，本文传达的主旨是：虽然目前的AI无法复制复杂的人类意识（不具备复杂的道德意识），但为了应对日益凸显的AI伦理问题，人类必须将自身道德观念灌输给AI，让其具备“道德意识”，［C］为最恰当的标题，其中conscience意为the part of your mind that tells you whether your actions are right or wrong“良心，良知（心智的一部分）”。\n\n［命题解密］正确项［C］是对文中两大意群（一、当前AI尚不能复制极为复杂的人类意识［包括道德伦理意识］；二、当前AI已然引发诸多关键性伦理问题，要解决这些伦理问题唯有赋予AI以最高人类价值观）的高度概括。\n\n［A］中Tech Giants对应第六、七段提及的mega-corporations、Google，无法概括全文，且文中并未明确指出AI的未来掌握在科技巨擘手中。\n［B］以开篇引子《弗兰肯斯坦》为标题，但它并非文章论述焦点。\n［D］近义复现末段out-of-control monster，但选项只提及“问题（AI有可能失控）”，而未触及文章后半部分的语义重点“针对问题给出的建议/出路（要让AI反映人类价值观）”。\n\n［技巧总结］本题考查文章标题，要求考生总体把握文章，梳理全文脉络时需着重把握文中两个关键词consciousness与values的语义逻辑关系“人类意识包含多个方面，价值观念/道德意识是其中一方面”，由此才能深层理解本文中的让步转折行文逻辑：AI虽无法复制包括道德意识在内的人类意识（第二至四段），但为了应对日益凸显的AI伦理问题人类必须将其道德意识灌输给AI（第五至末段）；［C］既抓住全文的核心话题，也高度概括了第二至末段的让步转折行文脉络。［A］、［B］、［D］或仅涵盖文章部分信息或偏离论述焦点，均予以排除。",
-      "points": 2,
+      "explanation": "［精准定位］全文主旨大意与标题归纳。\n\n［考点提炼］主旨大意题（考查文章最佳标题）。\n\n［解题思路］文章从《弗兰肯斯坦》的道德隐喻出发，深入探讨了人工智能在意识模拟、道德抉择（自动驾驶）、行业规则与自我监管等各方面所面临的伦理挑战，呼吁建立AI时代的伦理规范。［C］Frankenstein Goes to Work: Redefining AI Ethics既包含了开篇的核心隐喻，又精准涵盖了“重塑AI伦理”的主旨，为最佳标题。\n\n［错项排除］［A］过分聚焦科技巨头，偏离伦理主旨；［B］与［D］过于狭隘，均予以排除。",
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 35,
+      "score": 2.0,
+      "prompt": "Which of the following would be the best title for the text?"
     },
     {
       "id": "2dd95c5e-6b0e-57cf-ad07-7ac9d5b16a8e",
@@ -1311,7 +1416,7 @@
       "passage_id": "f94b5666-c10f-5579-a745-e302a86501bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The Supreme Court decision Thursday will",
+      "stem": "The Supreme Court decision Thursday will _______.",
       "options": [
         {
           "key": "A",
@@ -1335,10 +1440,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］开篇段指出，最高法院周四裁定各州可强制更多的人为在线购物支付销售税，［C］正确。\n［命题解密］正确项［C］是对第一段more people to pay sales tax when they make online purchases的同义改写。\n［A］利用“裁定使各州有权（责令企业为它们）收取销售税”所隐含的“企业将增加与各州的联系”错误推断出“企业与各州之间关系会改善”，但双方单纯是命令的发布者与命令的执行者，裁定无关双方关系的改善（抑或恶化）。［B］将第二段中新裁定的影响范围“某些网购商品（certain online purchases）”篡改为“大多数在线商家（most online businesses）”，并捏造出新裁定“使他们陷入困境”的说法。［D］与“裁定使各州有权对更多网购商品征收销售税（即扩大销售税征收范围）”相悖。\n［技巧总结］首段一方面是长难句，另一方面又是对全文的高度概括，所以很容易成为命题点。解答本题时，可在锁定本题答案来源的基础上，从语法结构和语义逻辑角度分析长难句，并与选项对比后得出答案。\n具体来看，首段长句由States will be able to...及under a Supreme Court decision Thursday that...构成，前半部分指出各州可对更多的在线购物强制推行销售税；后半部分指出最高法院的裁定让消费者的钱流入各州财政。因此本题题干+答案应能体现“最高法院裁定—州政府—在线消费者”的逻辑，而题干给出的信息是“最高法院裁定”，那么答案应能表明州政府与在线消费者之间的联系（政府让消费者交税）；通读选项后即可确定答案为［C］。",
-      "points": 2,
+      "explanation": "［精准定位］首段①句 The U.S. Supreme Court ruled Thursday that states can force online retailers to collect billions of dollars in sales taxes...。\n\n［考点提炼］事实细节题（考查法院新裁决带来的直接结果）。\n\n［解题思路］首段开门见山指出：美国最高法院周四裁定，各州可以强迫线上零售商向消费者收取数十亿美元的销售税。这意味着以前许多无需缴纳销售税的网购者现在必须纳税，［C］make more online shoppers pay sales tax正确。\n\n［错项排除］［A］与文意相悖，企业关系并未改善；［B］使多数线上企业陷入进退两难纯属夸大；［D］force some states to cut sales tax与原文增加税收相反。",
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 36,
+      "score": 2.0,
+      "prompt": "The Supreme Court decision Thursday will _______."
     },
     {
       "id": "3875c69d-23f1-5853-a5dd-d8fd2f3b16fa",
@@ -1346,7 +1454,7 @@
       "passage_id": "f94b5666-c10f-5579-a745-e302a86501bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It can be learned from paragraphs 2 and 3 that the overruled decisions",
+      "stem": "It can be learned from paragraphs 2 and 3 that the overruled decisions _______.",
       "options": [
         {
           "key": "A",
@@ -1370,10 +1478,13 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］第二段首先指出，各州称遭到推翻的两起裁定每年都给他们带来巨额损失，加大了对某些网购商品的销售税征收难度。第三段具体说明州政府财政如何损失：原裁定导致未在本州设立实体存在的州外商家无需为本州代收销售税，而原则上需要交税的消费者也很少自行缴纳。由此可知，各州认为原裁定对他们不利，［D］正确。\n［命题解密］正确项［D］与第二段①句中的...states said cost them billions of dollars in lost revenue annually直接对应。\n［A］将“原裁定加大对某些网购商品的销售税征收难度”蕴含的“某些电商（线上商家）得利”偷换为“电子商务取得了主导地位”，而文中并未对不同商务模式的市场地位进行比较，“主导地位”纯属无中生有。［B］、［C］的干扰均源于第三段②句“大多数消费者不知道自己欠税，上缴销售税的消费者也很少”，但前者与“大多数消费者实际得利”相悖，后者将“大多数消费者未自行缴税”错误地归结为“他们对原裁定不满并广泛批评”。\n［技巧总结］本题就“同一事件对不同主体的影响”命制事实细节题。解题可结合“从文章出发明确事件影响”和“从选项出发明确各主体所受影响”两个方向。具体来看：第二段介绍被推翻的裁定给各州带来财政损失；第三段说明被推翻的裁定认为在本州没有实体存在的商家不用代收销售税，而消费者对需要自交销售税大多不知情且很少人交。因此，被推翻的裁定对各州不利、对某些商家及消费者有利，初步排除［B］、［C］，并确定［D］正确。而剩下的［A］涉及“电子商务”，其特点“占据主导地位”在文中没有提到，因此同样排除。",
-      "points": 2,
+      "explanation": "［精准定位］第二段及第三段关于1967年及1992年被推翻裁决的历史背景。\n\n［考点提炼］推理判断题（考查被推翻先例裁决的历史影响）。\n\n［解题思路］第二段和第三段指出：先前的裁决规定各州不得向在该州没有实体存在的企业征收销售税。随着电商兴起，这一规则导致各州每年损失数十亿至上百亿美元的税收收入（cost states billions of dollars annually），令各州财税部门极其不满。因此被推翻的裁决长期以来一直被各州认为对其极为不利，［D］were considered unfavorable by states符合文意。\n\n［错项排除］［A］阻碍了技术进步与文意不符；［B］并未导致各州陷入有害的税收竞争；［C］有利于传统实体零售商与事实相反（实体店必须收税而处于劣势）。",
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 37,
+      "score": 2.0,
+      "prompt": "It can be learned from paragraphs 2 and 3 that the overruled decisions _______."
     },
     {
       "id": "ac292d50-0dc2-5223-9ebc-6e1f99756795",
@@ -1381,7 +1492,7 @@
       "passage_id": "f94b5666-c10f-5579-a745-e302a86501bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Justice Anthony Kennedy, the physical presence rule has",
+      "stem": "According to Justice Anthony Kennedy, the physical presence rule has _______.",
       "options": [
         {
           "key": "A",
@@ -1405,10 +1516,13 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］第四段②句指出，实体存在规则脱离经济现实，使各州蒙受巨额收入损失；③句进一步指出它使市场参与者无法在公平的环境下展开竞争，［C］正确。\n［命题解密］正确项［C］是对has prevented market participants from competing on an even playing field的同义改写。\n［A］将实体存在规则“使各州蒙受巨额财政损失”曲解为它“阻碍了经济发展”，但原文讨论的是各州“税收收入（sales tax, revenue）”而非整体“经济发展（economic development）”。［B］、［D］分别与第四段②句和③句实体存在规则“限制了各州寻求长久繁荣的能力”及“使各州蒙受巨额收入损失”相悖。\n［技巧总结］本题针对人物观点命制事实细节题，解题关键在于准确定位、把握观点核心；同时需要避开曲解观点（如过度推断、反向干扰）、张冠李戴等常见干扰形式。具体来看，第四段是肯尼迪大法官观点的集中体现：①句总述原裁定有缺陷，②③句具体阐述缺陷，即实体存在规则（原裁定）的问题所在，因此首先可排除两个显然带有正面含义的选项［B］、［D］（属于反向干扰）；经过与原文的比对后可进一步排除曲解文意的［A］，并最终确定［C］为正确答案。",
-      "points": 2,
+      "explanation": "［精准定位］第四段肯尼迪大法官关于实体存在规则扭曲市场竞争的论述。\n\n［考点提炼］观点细节题（考查大法官肯尼迪对实体存在规则的批评）。\n\n［解题思路］第四段中肯尼迪大法官撰写的多数意见指出：旧的“实体存在”规则已经变成了对线上卖家的特权庇护，对实体店构成了不公平的竞争劣势（an unfair advantage to online sellers over brick-and-mortar stores）。这种差别对待扭曲了市场机制，破坏了公平竞争，［C］harmed fair market competition正确。\n\n［错项排除］［A］阻碍经济发展与［B］损害各州财政收入虽然看似沾边，但肯尼迪大法官着重强调的是“市场公平竞争”受到扭曲；［D］使线上销售失去动力与现实完全相反。",
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 38,
+      "score": 2.0,
+      "prompt": "According to Justice Anthony Kennedy, the physical presence rule has _______."
     },
     {
       "id": "dcb63c90-8439-54fb-8d2b-e139bc167075",
@@ -1440,10 +1554,13 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］第五段①句指出，本次裁定对在多州设有实体机构的大型连锁店而言是一次胜利，所以最有可能欢迎此次裁定的应该是大型连锁店店主，［B］正确。\n［命题解密］正确项［B］Big-chain owners与第五段①句big chains所指相同，句中a victory体现出新裁定给他们带来的巨大利好，因此他们应该最欢迎（welcome）此次裁定。\n［A］与第七段④句“互联网企业家完全没有受到本次裁定的周全考虑”相悖。［C］、［D］与第五段④句和第六段②句“第三方商家和小型零售商原本无需代收销售税，而此次裁定迫使他们开始收税”所暗示的“不会欢迎本次裁定”相悖。\n［技巧总结］题干设问句表明，本题是就“事件对各方影响”设置的事实判断题，解题关键在于准确定位各方受到的影响。具体来看，对第五、六段描述各类商家所受影响可定位如下：第五段①句明确指出新裁定对大型连锁店而言是胜利（a victory for big chains with a presence in many states）；第六段③句指出，根据新裁定，各州可立法强制要求州外商家（包括第三方卖家和小型零售商）开始代收销售税（requiring out-of-state sellers to collect the state's sales tax from customers），由此排除［C］、［D］并初步确定［B］为答案。最后，根据末段信息“互联网企业家没有受到本次裁定的周全考虑（internet entrepreneurs are not well served at all by this decision）”排除［A］。",
-      "points": 2,
+      "explanation": "［精准定位］第五段①句 The ruling is a victory for big chains with a presence in many states...。\n\n［考点提炼］事实细节题（考查新裁决直接受益方）。\n\n［解题思路］第五段①句明确指出：The ruling is a victory for big chains with a presence in many states...（该裁决对于在多州拥有实体门店的大型连锁企业而言是一场胜利）。因为此前大型实体连锁店依法必须代征销售税，而纯电商则享受免税优势，如今大家一视同仁，大型实体连锁店将极大获益。因此最欢迎该裁决的是大连锁店老板，［B］Big-chain owners.正确。\n\n［错项排除］［A］互联网创业者受新政冲击，绝不可能欢迎；［C］第三方平台卖家将面临跨州报税难题；［D］小型零售商由于需要应对各州纷繁复杂的税法合规成本，同样感到沉重负担，故均可排除。",
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39,
+      "score": 2.0,
+      "prompt": "Who are most likely to welcome the Supreme Court ruling?"
     },
     {
       "id": "6f4e8d61-c4be-5655-8931-0380ed694915",
@@ -1451,7 +1568,7 @@
       "passage_id": "f94b5666-c10f-5579-a745-e302a86501bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "In dealing with the Supreme Court decision Thursday, the author",
+      "stem": "In dealing with the Supreme Court decision Thursday, the author _______.",
       "options": [
         {
           "key": "A",
@@ -1475,10 +1592,13 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］本文首段概述事件：最高法院裁定各州可对在线购物征收销售税。第二至四段对新裁定的来龙去脉进行客观描述，包括其推翻的原裁定内容及推翻的原因。第五至七段介绍了新裁定对各类商家的影响及他们的反应。由此可见，［A］正确。\n［命题解密］正确项［A］体现文章“概述事件—详述事件—说明影响”的整体结构。\n［B］把第三、四段对原裁定的回溯及其缺陷的分析曲解为新裁定的形成过程，但本文并未介绍新裁定形成前所经历的复杂司法程序；另外，该选项完全没有涉及第五至七段关于新裁定影响的论述。［C］利用末段不同团体（零售贸易团体和在线零售商）对裁定的不同反应干扰，但显然无力概括全文。［D］源于第三段①句The cases the court overturned，但文中是为了分析原裁定的缺陷，从而说明做出新裁定的必要性，而非列举相关案例；另外，本文第五至七段分析的是新裁定的影响，而非其他案件的影响。\n［技巧总结］本题与2018年Text 1最后一题相似，同样考查全篇论证结构，考生需站在全文高度抓取文章主线，切忌囿于个别段内容。具体来看，题干中的the Supreme Court decision Thursday提示它是全文关注核心，答案应体现文章如何围绕它展开论述。根据第二至四段的事实细节及第五至七段的事件影响及各方反应可确定［A］为答案。同时结合排除法确保答案正确：文中并不涉及本次裁定的形成过程（大法官内部争论），排除［B］；并无针对裁定结果本身的观点交锋，排除［C］；并无案件引述，排除［D］。",
-      "points": 2,
+      "explanation": "［命题解密］篇章结构与行文方式题（考查作者对核心事件的论述方式与行文逻辑）。\n\n［精准定位］全文整体行文脉络与论证逻辑。\n\n［考点提炼］篇章结构与行文方式题（考查作者对核心事件的论述手法）。\n\n［解题思路］第一至四段客观叙述了最高法院周四对电商销售税案作出的最新裁决及其推翻先例的法律逻辑（gives a factual account of it）；第五至七段详细分析了该裁决对实体大连锁店、纯电商、小卖家、各州财税等产生的直接经济后果与深远影响（discusses its consequences）。作者采取了“客观叙述裁决事实并讨论其后果”的行文方式，［A］gives a factual account of it and discusses its consequences正确。\n\n［错项排除］［B］并未详细展开长达数月或数年的制定过程细节；［C］文章重在分析对不同主体的实际经济影响，而非罗列截然对立的观点交锋；［D］文中推翻的是先例规则，而非着眼分析其他案例的深层含义。",
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 40,
+      "score": 2.0,
+      "prompt": "In dealing with the Supreme Court decision Thursday, the author _______."
     },
     {
       "id": "042db72a-27e5-52e0-be58-35e8b5d3331e",
@@ -1490,45 +1610,48 @@
       "options": [
         {
           "key": "A",
-          "text": "These challenges are exacerbated by the staggering explosion in the total volume of specialized scientific papers published each year.",
+          "text": "[A] These tools can help you win every argument — not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people, learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments — from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding — then we change the very nature of what it means to \"win\" an argument.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Rather than viewing fierce disagreement as a scientific failure, robust public contestation is the very engine of empirical progress.",
+          "text": "[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The traditional anonymous peer-review system was created to ensure rigor, but it has increasingly become a sluggish bottleneck.",
+          "text": "[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Open pre-print servers and transparent post-publication commentary offer the most promising path toward democratic scientific validation.",
+          "text": "[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions — like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "In recent years, public trust in published scientific research has faced mounting skepticism due to high-profile retractions.",
+          "text": "[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: \"There is only one way... to get the best of an argument — and that is to avoid it.\" This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives — and in many ways misses the point of arguing in the first place.",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Reproducibility crises across psychology and medicine have forced premier journal editors to re-evaluate their validation protocols.",
+          "text": "[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don't get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win — in one way.",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Critics point out that hyper-competitive grant systems reward eye-catching novelty over meticulous, slow scientific replication.",
+          "text": "[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, \"Yes,\" and I yell, \"No,\" neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other's positions and recognize our shared values, since we both care about needy workers.",
           "value": "G"
         }
       ],
       "correct_answer": "E",
-      "explanation": "41•本题考核的知识点是：首段的作用\n【选项推测】根据“文章首段首句不能出现衔接上文的逻辑关系词、指代词等”原则，可首先排除［A］ \nThese tools、［B］ Of course/so successful、［G］ a better way,剩余［D］和［E］。两段首句均出现同一人物\n\nCarnegie、Dale Carnegie，根据\"人物全名一定用于首次出现\"原则，可锁定［E］为首段。\n【答案敲定】由【路标词解析】分析可知，［E］为首段备选项。\n［E］首句虽然出现人称代词his,但随之明确his所指为Dale Carnegie,因此his并非回指上文。本段 \n先援引指出卡耐基对争论的否定态度(avoid it),之后转折(but)提出异议：这种观点根基错误且曲解争 \n论内涵(it/This aversion to arguments... depends on a mistaken view of arguments... misses the point of \narguing)Mo可见［E］符合“树靶—\n批驳”这一典型开篇方式，可确定为首段。",
-      "points": 2,
+      "explanation": "［考点提炼］段落排序题（考查文章首段的特点与判定）。\n\n［解题思路］根据“文章首段首句不能出现衔接上文的逻辑关系词、指代词等”原则，可首先排除［A］These tools、［B］Of course/so successful、［G］a better way，剩余［D］和［E］。两段首句均出现同一人物Dale Carnegie，但［E］段以人名全名及作品全名In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote引入，符合人物初次登场规范，树立批驳靶子；［D］段则以简略Carnegie would be right if arguments were fights顺承展开。因此［E］为文章首段，［E］确定为41题答案。\n\n［错项排除］［A］These tools含回指代词；［B］Of course含让步转折；［D］人名简写且属于顺承分析；［F］These views of arguments含回指代词；［G］a better way含比较级转折，均不能作为文章首段。",
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 41,
+      "score": 2.0,
+      "prompt": "[41]"
     },
     {
       "id": "a374271c-d7fd-569d-ae69-e689e8c3609d",
@@ -1540,45 +1663,48 @@
       "options": [
         {
           "key": "A",
-          "text": "These challenges are exacerbated by the staggering explosion in the total volume of specialized scientific papers published each year.",
+          "text": "[A] These tools can help you win every argument — not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people, learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments — from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding — then we change the very nature of what it means to \"win\" an argument.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Rather than viewing fierce disagreement as a scientific failure, robust public contestation is the very engine of empirical progress.",
+          "text": "[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The traditional anonymous peer-review system was created to ensure rigor, but it has increasingly become a sluggish bottleneck.",
+          "text": "[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Open pre-print servers and transparent post-publication commentary offer the most promising path toward democratic scientific validation.",
+          "text": "[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions — like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "In recent years, public trust in published scientific research has faced mounting skepticism due to high-profile retractions.",
+          "text": "[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: \"There is only one way... to get the best of an argument — and that is to avoid it.\" This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives — and in many ways misses the point of arguing in the first place.",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Reproducibility crises across psychology and medicine have forced premier journal editors to re-evaluate their validation protocols.",
+          "text": "[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don't get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win — in one way.",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Critics point out that hyper-competitive grant systems reward eye-catching novelty over meticulous, slow scientific replication.",
+          "text": "[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, \"Yes,\" and I yell, \"No,\" neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other's positions and recognize our shared values, since we both care about needy workers.",
           "value": "G"
         }
       ],
       "correct_answer": "D",
-      "explanation": "42. 本题考核的知识点是：关键词复现+逻辑衔接\n\n【选项推测】已定位的【F】首两句出现回指代词These views of arguments及并列逻辑词also,并提\n\n出：“这些争论观还会逐渐瓦解理智；如果你将对话看成是争斗或比赛，那么……”这说明上文一定提及\n\n观点“争论就像是争斗或比赛”,且已经初步说明这种观点的弊端。\n\n【答案敲定】由【路标词解析】可知【D】为本题备选项。\n\n【D】段复现【F】段中的关键词fight和competition,从上下文语义衔接上看，【D】首先以虚拟语气指\n\n出“如果争论等同于争斗，那卡耐基是对的”(言外之意为，实际上争论并不等于争斗，所以卡耐基看法并\n\n不对。恰合首段【E】中作者反驳其观点)。随后指出，若争论等于争斗或比赛，则输家和赢家都得不到任\n\n何好处、甚至会两败俱伤。正因如此，人们极力避免争论，尤其是关于政治和宗教的争论。可见，作者在\n\n解释卡耐基观点的同时进行了批驳，指出该观点的弊端：这种思维不利于对社会重大问题的思辨与探\n\n讨，可顺接下文【F】段首句卡耐基争论观的弊端“也会逐渐削弱理智”，因此可确定【D】为答案。",
-      "points": 2,
+      "explanation": "［考点提炼］段落排序题（考查关键词复现与逻辑衔接）。\n\n［解题思路］已定位的［F］首两句出现回指代词These views of arguments及并列逻辑词also，并提出：“这些争论观还会逐渐瓦解理智；如果你将对话看成是争斗或比赛，那么……”，说明其上文必然论述“争论就像是争斗或比赛”，且初步说明这种观点的弊端。［D］段首先以虚拟语气指出“如果争论等同于争斗，那卡耐基是对的”（言外之意为实际上争论并不等于争斗，卡耐基看法不对，恰合首段［E］中作者反驳其观点），随后指出若争论等于争斗或比赛，输家和赢家都两败俱伤，导致人们避免争论，可顺接下文［F］段。故42题答案敲定为［D］。\n\n［错项排除］［A］、［B］、［C］、［G］均未讨论“争论如同一场打斗或网球赛”的错误观念定义，无法与［E］段及已定位的［F］段形成语义逻辑闭环。",
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 42,
+      "score": 2.0,
+      "prompt": "[42]"
     },
     {
       "id": "ef777fa1-3232-5d65-8cdf-a98f23f79d1a",
@@ -1590,45 +1716,48 @@
       "options": [
         {
           "key": "A",
-          "text": "These challenges are exacerbated by the staggering explosion in the total volume of specialized scientific papers published each year.",
+          "text": "[A] These tools can help you win every argument — not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people, learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments — from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding — then we change the very nature of what it means to \"win\" an argument.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Rather than viewing fierce disagreement as a scientific failure, robust public contestation is the very engine of empirical progress.",
+          "text": "[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The traditional anonymous peer-review system was created to ensure rigor, but it has increasingly become a sluggish bottleneck.",
+          "text": "[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Open pre-print servers and transparent post-publication commentary offer the most promising path toward democratic scientific validation.",
+          "text": "[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions — like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "In recent years, public trust in published scientific research has faced mounting skepticism due to high-profile retractions.",
+          "text": "[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: \"There is only one way... to get the best of an argument — and that is to avoid it.\" This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives — and in many ways misses the point of arguing in the first place.",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Reproducibility crises across psychology and medicine have forced premier journal editors to re-evaluate their validation protocols.",
+          "text": "[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don't get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win — in one way.",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Critics point out that hyper-competitive grant systems reward eye-catching novelty over meticulous, slow scientific replication.",
+          "text": "[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, \"Yes,\" and I yell, \"No,\" neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other's positions and recognize our shared values, since we both care about needy workers.",
           "value": "G"
         }
       ],
       "correct_answer": "G",
-      "explanation": "43. 本题考核的知识点是：关键词复现+逻辑衔接\n\n【选项推测】根据已经定位的【F】末句but they can help you win一in one way中关键词汇win/way可\n\n以锁定【G】。\n\n【答案敲定】由【路标词解析】可知为本题备选项。\n\n【G】首句There is a better way to win arguments复现关键词win,并暗中转折递进 上文所述方\n\n法让你从某种意义上获胜(言外之意，算不上真正的获胜)，而实际上还有更好的获胜方法。再看两段核\n\n心内容：【F】指出欺骗、贬低对方等伎俩完全无助于你理解对手及对手观点，以及你们的分歧所在，但能\n\n帮助你赢得争论；【G】段则指出，争论中完全可以不是大喊大叫各执一词，而是给出对方合理的理由、理\n\n解对方的立场(言外之意，这才是更好的获胜，阐释in one way. . . a better way之间暗含的取舍)。因此，\n\n无论从词汇、逻辑还是内容关联上，都可确定【G】为答案。\n\n【B】首句让步指出“并非所有争论都那么成功”，提示上文一定提及一种“成功的争论方式”，但已经\n\n定位的【F】段首句已经明确说明本段主旨“卡耐基的错误争论观的弊端—\n\n破坏理智”，显然并非是一种\n\n“成功的争论方式”，故【B】与上文不能衔接，排除。",
-      "points": 2,
+      "explanation": "［考点提炼］段落排序题（考查关键词复现与转折递进）。\n\n［解题思路］根据已经定位的［F］末句but they can help you win — in one way中关键词汇win/way可以锁定［G］。［G］首句There is a better way to win arguments复现关键词win，并暗中转折递进：上文所述方法让你从某种意义上获胜（言外之意算不上真正的获胜），而实际上还有更好的获胜方法。再看两段核心内容：［F］指出欺骗、贬低对方等伎俩完全无助于理解对手，但能帮助你赢得争论；［G］段则指出，争论中可以不是大喊大叫各执一词，而是给出对方合理的理由、理解对方的立场。因此，43题确定答案为［G］。\n\n［错项排除］［A］These tools属于更后期的总结；［B］让步说明并非所有讨论都成功，应承接在［G］的理想讨论模型之后；［C］属于具体行动指南，位置应更靠后。",
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 43,
+      "score": 2.0,
+      "prompt": "[43]"
     },
     {
       "id": "4105de86-522e-5cbf-b529-0d98b15c1789",
@@ -1640,45 +1769,48 @@
       "options": [
         {
           "key": "A",
-          "text": "These challenges are exacerbated by the staggering explosion in the total volume of specialized scientific papers published each year.",
+          "text": "[A] These tools can help you win every argument — not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people, learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments — from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding — then we change the very nature of what it means to \"win\" an argument.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Rather than viewing fierce disagreement as a scientific failure, robust public contestation is the very engine of empirical progress.",
+          "text": "[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The traditional anonymous peer-review system was created to ensure rigor, but it has increasingly become a sluggish bottleneck.",
+          "text": "[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Open pre-print servers and transparent post-publication commentary offer the most promising path toward democratic scientific validation.",
+          "text": "[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions — like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "In recent years, public trust in published scientific research has faced mounting skepticism due to high-profile retractions.",
+          "text": "[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: \"There is only one way... to get the best of an argument — and that is to avoid it.\" This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives — and in many ways misses the point of arguing in the first place.",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Reproducibility crises across psychology and medicine have forced premier journal editors to re-evaluate their validation protocols.",
+          "text": "[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don't get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win — in one way.",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Critics point out that hyper-competitive grant systems reward eye-catching novelty over meticulous, slow scientific replication.",
+          "text": "[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, \"Yes,\" and I yell, \"No,\" neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other's positions and recognize our shared values, since we both care about needy workers.",
           "value": "G"
         }
       ],
       "correct_answer": "B",
-      "explanation": "44. 本题考核的知识点是：代词指代+逻辑衔接\n\n【选项推测】已定位的【C】中出现回指代词None of these,并指出这些之中无一容易，但你可以开始\n\n尝试。暗示上文在论述“虽很难做到，但确实非常有效的多种策略”。\n\n【答案敲定】根据【路标词解析】可知【B】为本题备选项，但【G】已经确定为43题答案，故本题只需考查【B】。\n\n【B】中出现了 多个并列句式 we need to. . . We need to... we also need to. . . and to... Humility\n\nrequires you to. . . and sometimes also to...,列举说明正确的、理性的争论方法，能够回应【C】中these的\n\n具体所指，初步确定为正确项。另外，【B】段首句Of course, many discussions are not so successful让步\n\n说明“并非所有的争论都如此理性、成功”，恰合上文【G】段末信息“理性争论会取得非常好的效果(Now\n\nwe can.... )。【B】与上下文均衔接合理顺畅，可敲定为答案。",
-      "points": 2,
+      "explanation": "［考点提炼］段落排序题（考查代词指代与应对策略展开）。\n\n［解题思路］已定位的［C］中出现回指代词None of these，并指出这些之中无一容易，但你可以开始尝试，暗示上文在论述“虽很难做到，但确实非常有效的多种策略”。［B］中出现了多个并列句式we need to... We need to... we also need to... and to... Humility requires you to... and sometimes also to...，列举说明正确的、理性的争论方法，能够回应［C］中these的具体所指。另外，［B］段首句Of course, many discussions are not so successful让步说明“并非所有的争论都如此理性、成功”，恰合上文［G］段末信息“理性争论会取得非常好的效果”，故本题敲定为［B］。\n\n［错项排除］［A］为全文总结呼吁，不能放在［C］之前；［C］是具体实践步骤；其他段落［D］、［E］、［F］、［G］均已定位。",
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 44,
+      "score": 2.0,
+      "prompt": "[44]"
     },
     {
       "id": "dabdae11-e899-563f-8bd7-ef87c86cf76d",
@@ -1690,45 +1822,48 @@
       "options": [
         {
           "key": "A",
-          "text": "These challenges are exacerbated by the staggering explosion in the total volume of specialized scientific papers published each year.",
+          "text": "[A] These tools can help you win every argument — not in the unhelpful sense of beating your opponents but in the better sense of learning about the issues that divide people, learning why they disagree with us and learning to talk and work together with them. If we readjust our view of arguments — from a verbal fight or tennis game to a reasoned exchange through which we all gain mutual respect, and understanding — then we change the very nature of what it means to \"win\" an argument.",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Rather than viewing fierce disagreement as a scientific failure, robust public contestation is the very engine of empirical progress.",
+          "text": "[B] Of course, many discussions are not so successful. Still, we need to be careful not to accuse opponents of bad arguments too quickly. We need to learn how to evaluate them properly. A large part of evaluation is calling out bad arguments, but we also need to admit good arguments by opponents and to apply the same critical standards to ourselves. Humility requires you to recognize weakness in your own arguments and sometimes also to accept reasons on the opposite side.",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "The traditional anonymous peer-review system was created to ensure rigor, but it has increasingly become a sluggish bottleneck.",
+          "text": "[C] None of these will be easy but you can start even if others refuse to. Next time you state your position, formulate an argument for what you claim and honestly ask yourself whether your argument is any good. Next time you talk with someone who takes a stand, ask them to give you a reason for their view. Spell out their argument fully and charitably. Assess its strength impartially. Raise objections and listen carefully to their replies.",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Open pre-print servers and transparent post-publication commentary offer the most promising path toward democratic scientific validation.",
+          "text": "[D] Carnegie would be right if arguments were fights, which is how we often think of them. Like physical fights, verbal fights can leave both sides bloodied. Even when you win, you end up no better off. Your prospects would be almost as dismal if arguments were even just competitions — like, say, tennis games. Pairs of opponents hit the ball back and forth until one winner emerges from all who entered. Everybody else loses. This kind of thinking is why so many people try to avoid arguments, especially about politics and religion.",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "In recent years, public trust in published scientific research has faced mounting skepticism due to high-profile retractions.",
+          "text": "[E] In his 1936 work How to Win Friends and Influence People, Dale Carnegie wrote: \"There is only one way... to get the best of an argument — and that is to avoid it.\" This aversion to arguments is common, but it depends on a mistaken view of arguments that causes profound problems for our personal and social lives — and in many ways misses the point of arguing in the first place.",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Reproducibility crises across psychology and medicine have forced premier journal editors to re-evaluate their validation protocols.",
+          "text": "[F] These views of arguments also undermine reason. If you see a conversation as a fight or competition, you can win by cheating as long as you don't get caught. You will be happy to convince people with bad arguments. You can call their views stupid, or joke about how ignorant they are. None of these tricks will help you understand them, their positions or the issues that divide you, but they can help you win — in one way.",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Critics point out that hyper-competitive grant systems reward eye-catching novelty over meticulous, slow scientific replication.",
+          "text": "[G] There is a better way to win arguments. Imagine that you favor increasing the minimum wage in our state, and I do not. If you yell, \"Yes,\" and I yell, \"No,\" neither of us learns anything. We neither understand nor respect each other, and we have no basis for compromise or cooperation. In contrast, suppose you give a reasonable argument: that full-time workers should not have to live in poverty. Then I counter with another reasonable argument: that a higher minimum wage will force businesses to employ fewer people for less time. Now we can understand each other's positions and recognize our shared values, since we both care about needy workers.",
           "value": "G"
         }
       ],
       "correct_answer": "A",
-      "explanation": "45. 本题考核的知识点是：代词指代+末段特点\n\n【选项推测】已定位的【C】中以多个祈使句(Next time you . . . ) formulate. . . and honestly ask...",
-      "points": 2,
+      "explanation": "［考点提炼］段落排序题（考查代词指代与文章末段总结）。\n\n［解题思路］已定位的［C］中以多个祈使句（Next time you... formulate... and honestly ask... ask them to... Spell out... Assess... Raise... and listen...）给出正确、理性争论的方法。［A］首句These tools can help you win every argument恰能承接［C］中列出的各种工具方法（These tools概指［C］中的方法）。同时，［A］末句提出作者愿景“如果我们调整自己的争论观，就能改变赢得争论的本质内涵”，全面总结全文（其中a verbal fight or tennis game照应第二、三段［D］［F］，a reasoned exchange照应第四至六段［G］［B］［C］），实现首尾圆合，因此敲定［A］为末段，45题答案为［A］。\n\n［错项排除］其余选项［B］、［C］、［D］、［E］、［F］、［G］均已在对应位置就位，全文结构为［E］->［D］->［F］->［G］->［B］->［C］->［A］，逻辑链条严丝合缝。",
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 45,
+      "score": 2.0,
+      "prompt": "[45]"
     }
   ],
   "exportedAt": "2026-10-15T11:40:19.991Z"

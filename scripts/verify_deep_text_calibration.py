@@ -167,6 +167,7 @@ def main():
     round67_anomalies = []
     round68_anomalies = []
     round69_anomalies = []
+    round70_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1484,6 +1485,115 @@ def main():
                     act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
                     if act_ans != exp_ans:
                         round69_anomalies.append((f'2018_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2019 and cat == 'ky1':
+            if title != '2019年全国硕士研究生招生考试英语（一）真题':
+                round70_anomalies.append(('2019_ky1_title', title))
+            if data['exam'].get('total_score') != 60.0:
+                round70_anomalies.append(('2019_ky1_total_score', data['exam'].get('total_score')))
+            if data['exam'].get('pass_score') != 36.0:
+                round70_anomalies.append(('2019_ky1_pass_score', data['exam'].get('pass_score')))
+            
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round70_anomalies.append(('2019_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 5 paras, 288 words
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 5:
+                    round70_anomalies.append(('2019_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("Today we live in a world where GPS systems"):
+                    round70_anomalies.append(('2019_ky1_cloze_start', cloze.get("content", "")[:50]))
+                
+                # Text 1: 7 paras, 426 words, restored para 1, no leaked Q21-Q25
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round70_anomalies.append(('2019_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("Financial regulators in Britain have imposed a rather unusual rule"):
+                    round70_anomalies.append(('2019_ky1_t1_start', t1.get("content", "")[:50]))
+                if '21. A' in t1.get("content", "") or '22. A' in t1.get("content", ""):
+                    round70_anomalies.append(('2019_ky1_t1_leaked_questions', 'present'))
+
+                # Text 2: 6 paras, 414 words, no leaked Q29 or Text 3 cross-contamination
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 6:
+                    round70_anomalies.append(('2019_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("Grade inflation—the gradual increase in average GPAs"):
+                    round70_anomalies.append(('2019_ky1_t2_start', t2.get("content", "")[:50]))
+                if '29. What does the phrase' in t2.get("content", "") or 'Mary Shelley' in t2.get("content", ""):
+                    round70_anomalies.append(('2019_ky1_t2_cross_contamination', 'present'))
+
+                # Text 3: 9 paras, 442 words, Frankenstein & AI ethics
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 9:
+                    round70_anomalies.append(('2019_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("This year marks exactly two centuries since the publication"):
+                    round70_anomalies.append(('2019_ky1_t3_start', t3.get("content", "")[:50]))
+
+                # Text 4: 7 paras, 443 words, no leaked Q36-Q40 or arrows
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 7:
+                    round70_anomalies.append(('2019_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("States will be able to force more people to pay sales tax"):
+                    round70_anomalies.append(('2019_ky1_t4_start', t4.get("content", "")[:50]))
+                if '36.' in t4.get("content", "") or '->' in t4.get("content", "") or '→' in t4.get("content", ""):
+                    round70_anomalies.append(('2019_ky1_t4_leaks', 'present'))
+
+                # Part B: 7 paras [A]-[G], 593 words, no fake scientific paper options
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 7:
+                    round70_anomalies.append(('2019_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("[A] These tools can help you win every argument"):
+                    round70_anomalies.append(('2019_ky1_pb_start', pb.get("content", "")[:50]))
+                if 'peer review' in pb.get("content", "") or 'scientific paper' in pb.get("content", ""):
+                    round70_anomalies.append(('2019_ky1_pb_hallucination', 'present'))
+
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round70_anomalies.append(('2019_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round70_anomalies.append((f'2019_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round70_anomalies.append((f'2019_ky1_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round70_anomalies.append((f'2019_ky1_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round70_anomalies.append((f'2019_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    opts = q.get('options', [])
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        if opt_t in ['[A]', '[B]', '[C]', '[D]', 'A', 'B', 'C', 'D', ''] or len(opt_t.strip()) == 0:
+                            round70_anomalies.append((f'2019_ky1_q{i}_placeholder_opt', opt_k))
+                    
+                    exp = q.get('explanation') or q.get('analysis') or ''
+                    if len(exp.strip()) < 15:
+                        round70_anomalies.append((f'2019_ky1_q{i}_explanation', 'insufficient'))
+
+                official_answers_2019_ky1 = {
+                    1: 'C', 2: 'C', 3: 'B', 4: 'D', 5: 'A',
+                    6: 'B', 7: 'D', 8: 'C', 9: 'A', 10: 'D',
+                    11: 'A', 12: 'B', 13: 'D', 14: 'C', 15: 'B',
+                    16: 'D', 17: 'A', 18: 'A', 19: 'B', 20: 'C',
+                    21: 'A', 22: 'D', 23: 'B', 24: 'C', 25: 'B',
+                    26: 'D', 27: 'A', 28: 'A', 29: 'C', 30: 'B',
+                    31: 'C', 32: 'D', 33: 'B', 34: 'A', 35: 'C',
+                    36: 'C', 37: 'D', 38: 'C', 39: 'B', 40: 'A',
+                    41: 'E', 42: 'D', 43: 'G', 44: 'B', 45: 'A'
+                }
+                for q_idx, exp_ans in official_answers_2019_ky1.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round70_anomalies.append((f'2019_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -4081,6 +4191,7 @@ def main():
     results["Assertion 89: 2017 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型治愈单一大段黏连恢复4段348词并切除reservedfor、Text 1 恢复4段治愈toprovidethe与Baddeley原句、Text 2 恢复4段治愈therest ofthe并补全静止脸实验与Tronick论述、Text 3 恢复4段并理顺大一新生适应与转专业省钱逻辑、Text 4 恢复10段并纠偏鲍尔奇火灾哲学、Part B 恢复6段理顺五位制造业代表访谈、全卷45题question_number彻底自洽赋值1..45、Q21/22/25/26/28/29/30/32/33/34/36/38/39 严重乱序选项彻底归位、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round67_anomalies) == 0)
     results["Assertion 90: 2018 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并切除[1] for答案泄露、Text 1 恢复7段治愈on't dismiss与反斜杠、Text 2 恢复6段切除niversity/nited碎词与beef up/Barna题干倒灌、Text 3 彻底切除Text 2跨篇倒灌段落并完整还原NHS/DeepMind四段论、Text 4 恢复4段理顺USPS赤字与改革、Part B 恢复7段[A]-[G]彻底剔除莎士比亚剧场串题伪选项、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round68_anomalies) == 0)
     results["Assertion 91: 2018 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段350词消除假实验段、Text 1 恢复8段370词对齐Q23第5段与推行本科论述、Text 2 恢复7段416词理顺风能与储能电池进展、Text 3 恢复4段412词补全反垄断法变化慢从句并消除黏连、Text 4 恢复7段439词找回失落第3段深度日程并治愈rethink截断、Part B 恢复584词剥离Directions与分值杂质、彻底治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round69_anomalies) == 0)
+    results["Assertion 92: 2019 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段288词、Text 1 找回失落首段追回规定并恢复7段426词彻底切除Q21-Q25题干倒灌、Text 2 恢复6段414词切除Q29题干与Text 3跨篇倒灌、Text 3 恢复9段442词理顺弗兰肯斯坦与AI伦理、Text 4 恢复7段443词切除倒灌题干与排版箭头、Part B 恢复7段[A]-[G]593词彻底替换假科学论文选项并规范排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round70_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -4230,6 +4341,10 @@ def main():
             print(f"Round 67 anomalies ({len(round67_anomalies)}):", round67_anomalies[:10])
         if round68_anomalies:
             print(f"Round 68 anomalies ({len(round68_anomalies)}):", round68_anomalies[:10])
+        if round69_anomalies:
+            print(f"Round 69 anomalies ({len(round69_anomalies)}):", round69_anomalies[:10])
+        if round70_anomalies:
+            print(f"Round 70 anomalies ({len(round70_anomalies)}):", round70_anomalies[:10])
         if round58_anomalies:
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:
