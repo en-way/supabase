@@ -2,12 +2,12 @@
   "exam": {
     "id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
     "category_id": "ky2",
-    "title": "2017年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2017年全国硕士研究生招生考试英语（二）真题",
     "year": 2017,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "People have speculated for centuries about a future without work. Today is no different, with academics, writers, and activists once again [1] _that technology is replacing human workers. Some imagine that the coming work-free world will be defined by [2]: A few wealthy people will own all the capital, and the masses will struggle in an impoverished wasteland. A different and not mutually exclusive [3] holds that the future will be a wasteland of a different sort, one [4] by purposelessness: Without jobs to give their lives [5]. people will simply become lazy and depressed. [6], today's unemployed don't seem to be having a great time. One Gallup poll found that 20 percent of Americans who have been unemployed for at least a year report having depression, double the rate for_ [7] Americans. Also, some research suggests that the [8] for rising rates of mortality, mental-health problems, and addiction [9] poorly-educated, middle-aged people is a shortage of well-paid jobs. Perhaps this is why many [10] the agonizing dullness of a jobless future. But it doesn't [11] follow from findings like these that a world without work would be filled with unease. Such visions are based on the [12] of being unemployed in a society built on the concept of employment. In the [13] of work, a society designed with other ends in mind could [14] strikingly different circumstances for the future of labor and leisure. Today, the [15] of work may be a bit overblown. “Many jobs are boring, degrading, unhealthy, and a waste of human potential,” says John Danaher, a lecturer at the National University of Ireland in Galway. These days, because leisure time is relatively [16] _for most workers, people use their free time to counterbalance the intellectual and emotional [17] of their jobs. *\"When I come home from a hard day's work, I often feel [18] ” Danaher says, adding, “\"In a world in which I don't have to work, I might feel rather different”- perhaps different enough to throw himself [19] a hobby or a passion project with the intensity usually reservedfor [20] matters.",
+      "content": "People have speculated for centuries about a future without work. Today is no different, with academics, writers, and activists once again [1] that technology is replacing human workers. Some imagine that the coming work-free world will be defined by [2]: A few wealthy people will own all the capital, and the masses will struggle in an impoverished wasteland.\n\nA different and not mutually exclusive [3] holds that the future will be a wasteland of a different sort, one [4] by purposelessness: Without jobs to give their lives [5], people will simply become lazy and depressed. [6], today's unemployed don't seem to be having a great time. One Gallup poll found that 20 percent of Americans who have been unemployed for at least a year report having depression, double the rate for [7] Americans. Also, some research suggests that the [8] for rising rates of mortality, mental-health problems, and addiction [9] poorly-educated, middle-aged people is a shortage of well-paid jobs. Perhaps this is why many [10] the agonizing dullness of a jobless future.\n\nBut it doesn't [11] follow from findings like these that a world without work would be filled with unease. Such visions are based on the [12] of being unemployed in a society built on the concept of employment. In the [13] of work, a society designed with other ends in mind could [14] strikingly different circumstances for the future of labor and leisure. Today, the [15] of work may be a bit overblown. \"Many jobs are boring, degrading, unhealthy, and a waste of human potential,\" says John Danaher, a lecturer at the National University of Ireland in Galway.\n\nThese days, because leisure time is relatively [16] for most workers, people use their free time to counterbalance the intellectual and emotional [17] of their jobs. \"When I come home from a hard day's work, I often feel [18],\" Danaher says, adding, \"In a world in which I don't have to work, I might feel rather different\" — perhaps different enough to throw himself [19] a hobby or a passion project with the intensity usually reserved for [20] matters.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. from Andrew Baddeley's world record 13 minutes 48 seconds up to an hour.\n\nParkrun is succeeding where London's Olympic “legacy” is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning documents pledged that the great legacy of the Games would be to lever a nation of sport lovers away from their couches. The population would be fitter, healthier and produce more winners. It has not happened. The number of adults doing weekly sport did rise, by nearly 2 million in the run-up to 2012 - but the general population was growing faster. Worse, the numbers are now falling at an accelerating rate. The opposition claims primary school pupils doing at least two hours of sport a week have nearly halved. Obesity has risen among adults and children. Official generation.\" The success of Parkrun offers answers.\n\nParkun is not a race but a time trial: Your only competitor is the clock. The ethos welcomes anybody. There is as much joy over a puffed-out first-timer being clapped over the line as there is about top talent shining. The Olympic bidders, by contrast, wanted to get more people doing sport and to produce more elite athletes. The dual aim was mixed up: The stress on success over taking part was intimidating fornewcomers.\n\nIndeed, there is something a little absurd in the state getting as community sports associations. If there is a role for government, it should really be getting involved in providing common goods - tennis and netball courts, and encouraging the provision of all these activities in schools. But successive governments have presided over declining attention on sport in education. Instead of wordy, worthy strategies, futuregovernmentsneedtodomore toprovidethe conditions for sport to thrive.Or at least not make them worse.",
+      "content": "Every Saturday morning, at 9 am, more than 50,000 runners set off to run 5km around their local park. The Parkrun phenomenon began with a dozen friends and has inspired 400 events in the UK and more abroad. Events are free, staffed by thousands of volunteers. Runners range from career athletes in 100g racing flats to local politicians and first-timers in trainers. Andrew Baddeley, who stood on the starting line in the 2008 and 2012 Olympic 1,500m finals, wrote on Twitter: \"Massive congratulations to all 51,769 of you who took part in Parkrun this morning. That's inspiring.\"\n\nParkrun is succeeding where London's Olympic \"legacy\" is failing. Ten years ago on Monday, it was announced that the Games of the 30th Olympiad would be in London. Planning documents pledged that a great legacy of the Games would be to inspire a generation to get active and get more people doing sport. But numbers of adults doing sport have been falling away for the past year, while the number of people doing sport daily is now falling at an accelerating rate. The numbers are worse in London. Primary school pupils have had their two hours of sport a week halved. Obesity is on the rise and obesity-related sicknesses are costing the NHS billions. Official retrospections as to why London 2012 failed to \"inspire a generation\" have focused on the backroom decisions, but they failed to ask whether the legacy was the right one.\n\nParkrun is not a government initiative; it gets no public money and is not run by banks. Its dual aim was to get more people doing sport and to produce more elite athletes, and in the run-up to 2012, it had an impact. But the stress on success over taking part has, in the end, proven a failure. Elite performers are produced by a pyramid of participation, not the other way around. By contrast, Parkrun does not ask for money, does not ask for membership, does not ask for elite times. It does not judge.\n\nIn an age of spending cuts, future governments would be wise to take note. London 2012 showed that high-profile events have limited long-term impact on participation. The lesson of Parkrun is that mass sport needs to be made as easy, welcoming and low-cost as possible. If there is a role for government, it should be to invest in public parks and open spaces, not to sponsor high-profile events in the hope that greatness rubs off.",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "With so much focus on children's use of screens, it's easy for parents to forget about their own screen use. “Tech is designed to really suck you in,”’ says Jenny Radesky in her study of digital play, \"and digital products are there to promote maximal engagement. It makes it hard todisengage, and leads to a lot of bleed-over into the familyroutine.\"\n\nRadesky has studied the use of mobile phones and tablets at mealtimes by giving mother-child pairs a food-testing exercise. She found that mothers who used devices during the exercise started 20 per their children. During a separate observation, she saw that phones became a source of tension in the family. Parents would be looking at their emails while the children would be making excited bids for their attention.\n\nInfants are wired to look at parents’ faces to try to understand their world, and if those faces are blank and unresponsive - as they often are when absorbed in a device - it can be extremely disconcerting for the children. Radesky cites the “still face experiment”\" devised by developmental psychologist Ed Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way before putting on a blank expression and not giving them any visual social feedback: The child becomes increasingly distressed as she tries to capture her mother's attention.“Parents don't have to be exquisitely present at all times, but there needs to be a balance and parents need to be responsive and sensitive to a child's verbal or nonverbal expressions of an emotional need,” says Radesky.\n\nOn the other hand, Tronick himself is concerned that the worries demands that parents should always be interacting” with their children: \"It's based on a somewhat fantasised, very white, very just because a child isn't learning from the screen doesn't mean there's no value to it - particularly if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more availableto their child therest ofthe time.",
+      "content": "With so much focus on children's use of screens, it's easy for parents to forget about their own screens. But if you want to understand how your use of technology affects your child, the best place to look is at mealtimes. Tech is designed to suck you in, and digital products are explicitly designed to promote maximal engagement. The result is that it's increasingly difficult for families to preserve mealtimes as a time for family conversation. Tension in the family can be created when parents are looking at their emails while children are making excited bids for their attention.\n\nJenny Radesky, an assistant professor of pediatrics at Boston University Medical Center, has studied the use of mobile phones and tablets at mealtimes by giving mother-child pairs a food-testing exercise. Radesky found that mothers who were absorbed in their devices during the exercise had 20 percent fewer verbal and 39 percent fewer nonverbal interactions with their children. When mothers were absorbed, their children tended to be more provocative, as if trying to get their attention.\n\nRadesky cites the \"still face experiment,\" devised by developmental psychologist Edward Tronick in the 1970s. In it, a mother is asked to interact with her child in a normal way, then suddenly adopt a completely expressionless, \"still\" face for two minutes. The child quickly becomes distressed and tries to elicit a response through vocalizations and gestures, before finally breaking down in tears. Radesky says digital absorption may evoke a similar response in children.\n\nOn the other hand, Tronick himself is concerned that the worries about kids' use of screens are born out of an \"oppressive ideology that demands that parents should always be interacting\" with their children: \"It's based on a somewhat fantasised, very white, very upper-middle-class ideology that says if you're failing to expose your child to 30,000 words you are neglecting them.\" Tronick believes that just because a child isn't learning from the screen doesn't mean there's no value to it, particularly if it gives parents time to have a shower, do housework or simply have a break from their child. Parents, he says, can get a lot out of using their devices to speak to a friend or get some work out of the way. This can make them feel happier, which lets them be more available to their child the rest of the time.",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college to school for 12 years, it doesn't feel natural to spend a year doing something that isn't academic.\n\nBut while this may be true, it's not a good enough reason to condemn gap years. There's always a constant fear of falling behind everyone else on the socially perpetuated “race to the finish line,”\" whether that be toward graduate school, medical school or a lucrative hinder the success of academic pursuits - in fact, it probably enhances it.\n\nStudiesfrom theUnitedStates andAustraliashow thatstudents who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes-all things that first-year students often struggle with the most. Gap year and being thrown into a brand new environment, making it easier to focus on academics and activities rather than acclimation blunders. If you're not convinced of the inherent value in taking a year off to explore interests, then consider its financial impact on future academic choices. According to the National Center for Education Statistics, nearly 80 percent of college students end up changing their majors at least once. This isn't surprising, considering the basic mandatory high school curriculum leaves students with a poor understanding of the vast academic possibilities that await them in college applications, but switching to another after taking college classes. It's not necessarily a bad thing, but depending on the school, it can be costly to make up credits after switching too late in the game. AtBoston College, for example, you wouldhaveto complete an extra year were you to switch to the nursing school from another department. Taking a gap year to figure things out initially can help prevent stress and save money later on.",
+      "content": "Today, widespread social pressure to immediately go to college in conjunction with increasingly high expectations in a fast-moving world often causes students to completely overlook the possibility of taking a gap year. After all, if everyone you know is going to college in the fall, it seems silly to stay back a year, doesn't it? And after going to school for 12 years, to spend a year doing something that isn't academic doesn't feel natural.\n\nBut while this may be true, it's not a good enough reason to condemn gap years. There's always a constant fear of falling behind everyone else on the socially perpetuated \"race to the finish line,\" whether that be toward graduate school, medical school or a lucrative career. But despite common misconceptions, a gap year does not hinder the success of academic pursuits — in fact, it probably enhances it.\n\nStudies from the United States and Australia show that students who take a gap year are generally better prepared for and perform better in college than those who do not. Rather than pulling students back, a gap year pushes them ahead by preparing them for independence, new responsibilities and environmental changes — all things that first-year students often struggle with the most. Gap year experiences can lessen the blow when it comes to adjusting to college and being thrown into a brand-new environment, making it easier to focus on academics and activities rather than acclimation blunders.\n\nIf students take time to reflect on what they want to get out of their education before they begin, they can make more informed decisions about what to study and pursue. This can also save students money in the long run. The majority of college students change their major at least once, and many switch multiple times, adding semesters and thousands of dollars to their tuition bills. Taking a gap year allows students to discover their passions and make thoughtful decisions before committing to a costly four-year degree.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Professor Max Moritz, a specialist in fire ecology and management.\n\nIn 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires - nearly double the percentage it spent on such efforts 20 years ago. In effect, fewer federal funds today are going towards the agency's other work - such as forest conservation, watershed and cultural resources management, and infrastructure upkeep - that affect the lives of all Americans. Another nationwide concern is whether public funds from other agencies aregoing intoconstruction infire-prone districts.AsMoritz puts it, how often are federal dollars building homes that are likely to belost to awildfire?\n\n\"It's already a huge problem from a public expenditure perspective for the whole country,”he says.“We need to take a magnifying glass to that. Like,“Wait a minute, is this OK?’ Do we want instead to redirect those funds to concentrate on lower-hazard parts of the landscape?\"\n\nSuch a view would require a corresponding shift in the way US society today views fire, researchers say.\n\nFor one thing, conversations about wildfires need to be more inclusive. Over the past decade, the focus has been on climate change -how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.\n\nWhile climate is a key element, Moritz says, it shouldn't come at the expense of the rest of the equation.\n\n\"The human systems and the landscapes we live on are linked, and the interactions go both ways,” he says. Failing to recognize that, he notes, leads to “an overly simplified view of what the solutions might be. Our perception of the problem and of what the solution is becomes very limited.\"\n\nAt the same time, people continue to treat fire as an event that needs to be wholly controlled and unleashed only out of necessity, says Professor Balch at the University of Colorado. But acknowledging fire's inevitable presence in human life is an attitude crucial to developing the laws, policies, and practices that make it as safe as possible, she says.\n\n\"We've disconnected ourselves from living with fire,” Balch says. \"It is really important to understand and try and tease out what is the human connection with fire today.\"",
+      "content": "Though often viewed as a problem for western states, the growing frequency of wildfires is a national concern because of its impact on federal tax dollars, says Max Moritz, a specialist in fire ecology and management at the University of California, Berkeley.\n\nIn 2015, the US Forest Service for the first time spent more than half of its $5.5 billion annual budget fighting fires — up from roughly 16 percent just 20 years earlier. It was also the hottest year on record, and 10 million acres burned across the nation.\n\nManaging wildland fires requires more than just money, Moritz says. \"The biggest barrier is not the money or the science, it's that we don't have a shared vision of what a fire-resilient landscape looks like.\"\n\nAnother nationwide concern is whether public funds from other agencies are going into construction in fire-prone districts. As Moritz puts it: how often are federal dollars building homes that are likely to be lost to a wildfire?\n\n\"Do we want to take a magnifying glass to where we spend funds, and redirect them into lower-hazard parts of the landscape?\" he asks.\n\nSuch a view would require a corresponding shift in the way US society today views fire, researchers say.\n\nFor one thing, conversations about wildfires need to be more inclusive. Over the past decade, the focus has been on climate change — how the warming of the Earth from greenhouse gases is leading to conditions that worsen fires.\n\nWhile climate is a key element, Moritz says, it shouldn't come at the expense of the rest of the equation.\n\n\"The human systems and the landscapes we live on are linked, and the interactions go both ways,\" he says. Failing to recognize that, he notes, leads to \"an overly simplified view of what the solutions might be.\" Our perception of the problem and of what the solution is becomes very limited.\n\nAt the same time, people continue to treat fire as an event that needs to be wholly controlled, rather than acknowledging fire's inevitable presence in human life, says Tanya Balch, a fire ecologist at the University of Colorado, Boulder. \"We have disconnected our living environment from doing what it naturally does. It is really important to understand and try and tease out what is the human connection with fire.\"\n",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "The decline in American manufacturing is a common refrain, particularly from Donald Trump. “We don't make anything anymore,” he told Fox News, while defending his own made-in-Mexico clothing line. Without question, manufacturing has taken a significant hit during recent decades, and further trade deals raise questions about whether new shocks could hit manufacturing. But there is also a different way to look at the data. Across the country, factory owners are now grappling with a new challenge: Instead of having too many workers, they may end up with too few. Despite trade competition and outsourcing, American manufacturing still needs to replace tens of thousands of retiring boomers every year. Millennials may not be that interested in taking their place. Other industries are recruiting them with similar or better pay. For factory owners, it all adds up to stiff competition for workers - and upward pressure on, es] n, they've been plucked by other industries that are also doing as well as manufacturing.\" Mr. Dunwell has begun bringing high school juniors to the factory so they can get exposed to its culture. At RoMan Manufacturing, a maker of electrical transformers and welding equipment that his father cofounded in 1980, Robert Roth keeps a close eye on the age of his nearly 200 workers. Five are retiring this year. Mr. Roth has three community-college students enrolled in a work-placement program, with a starting wage of $13 an hour that rises to $17 after two years. At a worktable inside the transformer plant, young Jason Stenquist looks flustered by the copper coils he's trying to assemble and the arrival of two visitors. It's his first week on the job. Asked about his choice of career, he says at high school he considered medical school before switching to electrical engineering. “I love working with tools. I love creating,\" he says. But to win over these young workers, manufacturers have to clear another major hurdle: parents, who lived through the worst US economic downturn since the Great Depression, telling them to avoid the factory. Millennials “\"remember their father and mother both were laid off. They blame it on the manufacturing recession,”’ says Birgit Klohs, chief executive of The Right Place, a business development agency for western Michigan. These concerns aren't misplaced: Employment in manufacturing has fallen from 17 million in 1970 to 12 million in 2015. When the recovery began, worker shortages first appeared in the high-skilled trades. Now shortages are appearing at the mid-skill levels. \"The gap is between the jobs that take no skills and those that require a lot of skill,’' says Rob jobs at McDonalds and other places where you don't need to have much skill. It's that gap in between, and that's where the problem is.\" Julie Parks of Grand Rapids Community College points to another key to luring Millennials into manufacturing: a work/life balance. While their parents were content to work long hours, young people value flexibility. “Overtime is not attractive to this generation. They really want to live their lives,\" she says.",
+      "content": "The decline in American manufacturing is a common refrain, particularly from Donald Trump. \"We don't make anything anymore,\" he told Fox News, while arguing that China, Mexico and other nations are stealing American jobs. But that claim does not hold up to scrutiny. America has lost manufacturing jobs, but it hasn't stopped making things. In fact, US manufacturing is thriving, but it has changed fundamentally.\n\nTo understand why manufacturing jobs have vanished, look at companies like Grand Rapids Chair Co., which makes tables and chairs for commercial spaces. When Jay Dunwell took over the company from his father in 2004, the factory had about 80 workers. Today, it has about 120, but the company is producing three times as much furniture. Dunwell says he struggles to find qualified employees. \"The competition for talent is fierce,\" he says. \"We're all fighting for the same pool of workers.\"\n\nDown the road at Autocam Medical, a maker of precision surgical components, CNC machinist Jason Stenquist works in an air-conditioned room that looks more like a hospital laboratory than a traditional factory. Stenquist, 26, originally went to college to study computer science, but dropped out when he realized he preferred hands-on work. \"I like building things, I like working with my hands and tools,\" he says. \"This is very high-tech, very precise work.\"\n\nIn western Michigan, manufacturers have banded together to address the perception problem that plagues their industry. Birgit Klohs, chief executive of The Right Place, an economic development organization, says parents often discourage their children from pursuing factory jobs because of their own memories of layoffs during recessions. \"The parents remember the dark days when factories closed,\" Klohs says. \"They want something better for their kids.\"\n\nRob Spohr, vice president of academic affairs at Montcalm Community College, agrees that automation has changed the skills required for modern manufacturing. Entry-level positions that require minimal technical skills are relatively easy to fill, he says. \"The jobs that require a high school diploma or less, we don't have a shortage of people for those,\" Spohr says. \"It's the technical, skilled positions where the real shortage is.\"\n\nJulie Parks, executive director of workforce training at Grand Rapids Community College, says modern factories offer competitive wages and benefits, but companies need to do more to accommodate younger workers' priorities. \"Millennials and Gen Z want flexibility and work-life balance,\" Parks says. \"Companies that adapt to those expectations are having much more success recruiting young talent.\"\n",
       "sort_order": 6
     }
   ],
@@ -84,1651 +84,1786 @@
       "id": "f763dad3-0558-574d-8527-7f9c8f0737bc",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 1,
+      "sort_order": 1,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [1] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "boasting",
-          "value": "A"
+          "value": "A",
+          "text": "boasting"
         },
         {
           "key": "B",
-          "text": "denying",
-          "value": "B"
+          "value": "B",
+          "text": "denying"
         },
         {
           "key": "C",
-          "text": "warning",
-          "value": "C"
+          "value": "C",
+          "text": "warning"
         },
         {
           "key": "D",
-          "text": "ensuring",
-          "value": "D"
+          "value": "D",
+          "text": "ensuring"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】动词语义辨析。warning that technology be replacing human workers 意为警告科技将取代人类工人，选 C（warning）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 1,
-      "answer": "C"
+      "explanation": "［考点提炼］动词辨析与语义逻辑。\n［解题思路］前文提到人们几个世纪以来一直在推测一个没有工作的未来，今天学术界、作家及社会活动家再次“警告（warning）”技术正在取代人类工人，与下文描述的贫困荒原灾难景象逻辑契合。\n［错项排除］boasting（自夸）、denying（否认）、ensuring（确保）均与后文灾难性的悲观预测不符。",
+      "analysis": "［考点提炼］动词辨析与语义逻辑。\n［解题思路］前文提到人们几个世纪以来一直在推测一个没有工作的未来，今天学术界、作家及社会活动家再次“警告（warning）”技术正在取代人类工人，与下文描述的贫困荒原灾难景象逻辑契合。\n［错项排除］boasting（自夸）、denying（否认）、ensuring（确保）均与后文灾难性的悲观预测不符。"
     },
     {
       "id": "38e2c754-4044-5f58-b5db-0edbde7e4f53",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 2,
+      "sort_order": 2,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [2] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "inequality",
-          "value": "A"
+          "value": "A",
+          "text": "inequality"
         },
         {
           "key": "B",
-          "text": "instability",
-          "value": "B"
+          "value": "B",
+          "text": "instability"
         },
         {
           "key": "C",
-          "text": "unreliability",
-          "value": "C"
+          "value": "C",
+          "text": "unreliability"
         },
         {
           "key": "D",
-          "text": "uncertainty",
-          "value": "D"
+          "value": "D",
+          "text": "uncertainty"
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】名词语义辨析。defined by inequality 意为由不平等所界定（富人拥有资本而大众受难），选 A（inequality）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 2,
-      "answer": "A"
+      "explanation": "［考点提炼］名词辨析与语境解释。\n［解题思路］冒号后给出具体解释：少数富人拥有所有资本，而大众在贫穷的荒原中挣扎。这鲜明地体现了极度的“不平等（inequality）”。\n［错项排除］instability（不稳定）、unreliability（不可靠）、uncertainty（不确定性）均未准确切中贫富极端分化的实质。",
+      "analysis": "［考点提炼］名词辨析与语境解释。\n［解题思路］冒号后给出具体解释：少数富人拥有所有资本，而大众在贫穷的荒原中挣扎。这鲜明地体现了极度的“不平等（inequality）”。\n［错项排除］instability（不稳定）、unreliability（不可靠）、uncertainty（不确定性）均未准确切中贫富极端分化的实质。"
     },
     {
       "id": "658c86d9-f0c8-50be-a6b8-07d8caed6340",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 3,
+      "sort_order": 3,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [3] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "policy",
-          "value": "A"
+          "value": "A",
+          "text": "policy"
         },
         {
           "key": "B",
-          "text": "guideline",
-          "value": "B"
+          "value": "B",
+          "text": "guideline"
         },
         {
           "key": "C",
-          "text": "resolution",
-          "value": "C"
+          "value": "C",
+          "text": "resolution"
         },
         {
           "key": "D",
-          "text": "prediction",
-          "value": "D"
+          "value": "D",
+          "text": "prediction"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】名词语义辨析。a different prediction 意为关于未来的另一种'预测/预言'，选 D（prediction）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 3,
-      "answer": "D"
+      "explanation": "［考点提炼］名词辨析与前后呼应。\n［解题思路］前面提到人们的各种设想与推测，此处指另一种并非互斥的“预测（prediction）”，认为未来将是另一种因无目的性而导致的荒原。\n［错项排除］policy（政策）、guideline（指导方针）、resolution（决议）均为政府或机构制定的规章，与社会学推测语境不符。",
+      "analysis": "［考点提炼］名词辨析与前后呼应。\n［解题思路］前面提到人们的各种设想与推测，此处指另一种并非互斥的“预测（prediction）”，认为未来将是另一种因无目的性而导致的荒原。\n［错项排除］policy（政策）、guideline（指导方针）、resolution（决议）均为政府或机构制定的规章，与社会学推测语境不符。"
     },
     {
       "id": "e2e39a39-04d4-5ec5-ab1d-c304b9a4b77b",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 4,
+      "sort_order": 4,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [4] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "characterized",
-          "value": "A"
+          "value": "A",
+          "text": "characterized"
         },
         {
           "key": "B",
-          "text": "divided",
-          "value": "B"
+          "value": "B",
+          "text": "divided"
         },
         {
           "key": "C",
-          "text": "balanced",
-          "value": "C"
+          "value": "C",
+          "text": "balanced"
         },
         {
           "key": "D",
-          "text": "measured",
-          "value": "D"
+          "value": "D",
+          "text": "measured"
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】动词搭配辨析。one characterized by purposelessness 意为以无目的无意义为'特征/特点'的荒原，选 A（characterized）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 4,
-      "answer": "A"
+      "explanation": "［考点提炼］动词过去分词作后置定语。\n［解题思路］one characterized by purposelessness 表示“以无目的性为特征的一处荒原”。be characterized by 为常见固定搭配，意为“以……为特征”。\n［错项排除］divided（被划分）、balanced（被平衡）、measured（被衡量）均不能与 by purposelessness 构成符合句意的搭配。",
+      "analysis": "［考点提炼］动词过去分词作后置定语。\n［解题思路］one characterized by purposelessness 表示“以无目的性为特征的一处荒原”。be characterized by 为常见固定搭配，意为“以……为特征”。\n［错项排除］divided（被划分）、balanced（被平衡）、measured（被衡量）均不能与 by purposelessness 构成符合句意的搭配。"
     },
     {
       "id": "3af4870c-332e-5bfa-85b9-86f407f05ee5",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 5,
+      "sort_order": 5,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [5] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "wisdom",
-          "value": "A"
+          "value": "A",
+          "text": "wisdom"
         },
         {
           "key": "B",
-          "text": "meaning",
-          "value": "B"
+          "value": "B",
+          "text": "meaning"
         },
         {
           "key": "C",
-          "text": "glory",
-          "value": "C"
+          "value": "C",
+          "text": "glory"
         },
         {
           "key": "D",
-          "text": "freedom",
-          "value": "D"
+          "value": "D",
+          "text": "freedom"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】名词语义辨析。give their lives meaning 意为工作赋予生活'意义'，选 B（meaning）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 5,
-      "answer": "B"
+      "explanation": "［考点提炼］名词搭配与人生哲学语境。\n［解题思路］give their lives meaning 意为“赋予他们的生活意义”。失去赋予生活意义的工作，人们将变得懒惰和沮丧。\n［错项排除］wisdom（智慧）、glory（光荣）、freedom（自由）均与失业导致的丧失生活目标和空虚感无直接逻辑对应。",
+      "analysis": "［考点提炼］名词搭配与人生哲学语境。\n［解题思路］give their lives meaning 意为“赋予他们的生活意义”。失去赋予生活意义的工作，人们将变得懒惰和沮丧。\n［错项排除］wisdom（智慧）、glory（光荣）、freedom（自由）均与失业导致的丧失生活目标和空虚感无直接逻辑对应。"
     },
     {
       "id": "0418ce17-8bee-51fb-ab47-487699e4053a",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 6,
+      "sort_order": 6,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [6] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "Instead",
-          "value": "A"
+          "value": "A",
+          "text": "Instead"
         },
         {
           "key": "B",
-          "text": "Indeed",
-          "value": "B"
+          "value": "B",
+          "text": "Indeed"
         },
         {
           "key": "C",
-          "text": "Thus",
-          "value": "C"
+          "value": "C",
+          "text": "Thus"
         },
         {
           "key": "D",
-          "text": "Nevertheless",
-          "value": "D"
+          "value": "D",
+          "text": "Nevertheless"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】副词语义辨析。Indeed 引出后文失业调查证据，表示强调肯定，选 B（Indeed）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 6,
-      "answer": "B"
+      "explanation": "［考点提炼］逻辑连接副词辨析。\n［解题思路］前文指出没有工作人们会沮丧，后文以当今失业者的真实数据进行证实，Indeed（确实、事实上）在此起递进肯定与佐证作用。\n［错项排除］Instead（相反）、Thus（因此）、Nevertheless（然而）在此处均不符合前呼后应的事实例证承接逻辑。",
+      "analysis": "［考点提炼］逻辑连接副词辨析。\n［解题思路］前文指出没有工作人们会沮丧，后文以当今失业者的真实数据进行证实，Indeed（确实、事实上）在此起递进肯定与佐证作用。\n［错项排除］Instead（相反）、Thus（因此）、Nevertheless（然而）在此处均不符合前呼后应的事实例证承接逻辑。"
     },
     {
       "id": "f0f7bea7-50a5-518a-b4d7-71c137f7949b",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 7,
+      "sort_order": 7,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [7] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "rich",
-          "value": "A"
+          "value": "A",
+          "text": "rich"
         },
         {
           "key": "B",
-          "text": "urban",
-          "value": "B"
+          "value": "B",
+          "text": "urban"
         },
         {
           "key": "C",
-          "text": "working",
-          "value": "C"
+          "value": "C",
+          "text": "working"
         },
         {
           "key": "D",
-          "text": "educated",
-          "value": "D"
+          "value": "D",
+          "text": "educated"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】形容词辨析。working adults 意为'在职/有工作'的成年人，与失业群体对比，选 C（working）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 7,
-      "answer": "C"
+      "explanation": "［考点提炼］形容词对比与统计学比较。\n［解题思路］失业至少一年的美国人抑郁率是“在职（working）”美国人的两倍。失业（unemployed）与在职（working）形成直接鲜明对照。\n［错项排除］rich（富有的）、urban（城市的）、educated（受过教育的）均未构成与 unemployed 的直接范畴对照。",
+      "analysis": "［考点提炼］形容词对比与统计学比较。\n［解题思路］失业至少一年的美国人抑郁率是“在职（working）”美国人的两倍。失业（unemployed）与在职（working）形成直接鲜明对照。\n［错项排除］rich（富有的）、urban（城市的）、educated（受过教育的）均未构成与 unemployed 的直接范畴对照。"
     },
     {
       "id": "1408d81c-af08-58b2-acc7-d657d7858694",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 8,
+      "sort_order": 8,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [8] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "explanation",
-          "value": "A"
+          "value": "A",
+          "text": "explanation"
         },
         {
           "key": "B",
-          "text": "requirement",
-          "value": "B"
+          "value": "B",
+          "text": "requirement"
         },
         {
           "key": "C",
-          "text": "compensation",
-          "value": "C"
+          "value": "C",
+          "text": "compensation"
         },
         {
           "key": "D",
-          "text": "substitute",
-          "value": "D"
+          "value": "D",
+          "text": "substitute"
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】名词语义辨析。one explanation for the rise in mortality 意为死亡率攀升的一个'合理解释/原因'，选 A（explanation）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 8,
-      "answer": "A"
+      "explanation": "［考点提炼］名词辨析与因果解释。\n［解题思路］研究表明，高薪工作的短缺是受教育程度较低的中年人死亡率、心理健康问题和成瘾率上升的“解释/原因（explanation）”。\n［错项排除］requirement（要求）、compensation（补偿）、substitute（替代品）均不合因果机制解释的逻辑。",
+      "analysis": "［考点提炼］名词辨析与因果解释。\n［解题思路］研究表明，高薪工作的短缺是受教育程度较低的中年人死亡率、心理健康问题和成瘾率上升的“解释/原因（explanation）”。\n［错项排除］requirement（要求）、compensation（补偿）、substitute（替代品）均不合因果机制解释的逻辑。"
     },
     {
       "id": "d9f9aebe-b7cc-577b-a081-24ec7f1f2eb3",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 9,
+      "sort_order": 9,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [9] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "under",
-          "value": "A"
+          "value": "A",
+          "text": "under"
         },
         {
           "key": "B",
-          "text": "beyond",
-          "value": "B"
+          "value": "B",
+          "text": "beyond"
         },
         {
           "key": "C",
-          "text": "alongside",
-          "value": "C"
+          "value": "C",
+          "text": "alongside"
         },
         {
           "key": "D",
-          "text": "among",
-          "value": "D"
+          "value": "D",
+          "text": "among"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】介词辨析。among middle-aged men 意为在中年人群体'之中'，选 D（among）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 9,
-      "answer": "D"
+      "explanation": "［考点提炼］介词搭配与人群范围。\n［解题思路］among poorly-educated, middle-aged people 表示在受教育程度较低的中年人群“之中”。\n［错项排除］under（在……之下）、beyond（超出）、alongside（在……旁边）均不能正确引导特定社会群体范围。",
+      "analysis": "［考点提炼］介词搭配与人群范围。\n［解题思路］among poorly-educated, middle-aged people 表示在受教育程度较低的中年人群“之中”。\n［错项排除］under（在……之下）、beyond（超出）、alongside（在……旁边）均不能正确引导特定社会群体范围。"
     },
     {
       "id": "04a97c0b-fd91-5855-b288-863e00031cb6",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 10,
+      "sort_order": 10,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [10] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "leave behind",
-          "value": "A"
+          "value": "A",
+          "text": "leave behind"
         },
         {
           "key": "B",
-          "text": "make up",
-          "value": "B"
+          "value": "B",
+          "text": "make up"
         },
         {
           "key": "C",
-          "text": "worry about",
-          "value": "C"
+          "value": "C",
+          "text": "worry about"
         },
         {
           "key": "D",
-          "text": "set aside",
-          "value": "D"
+          "value": "D",
+          "text": "set aside"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】动词短语辨析。worry about the boredom of worklessness 意为'担忧/忧虑'没有工作带来的无聊感，选 C（worry about）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 10,
-      "answer": "C"
+      "explanation": "［考点提炼］动词短语辨析与心理反应。\n［解题思路］前述失业引发的种种问题解释了为什么许多人“担忧（worry about）”没有工作的未来那种令人痛苦的单调与枯燥。\n［错项排除］leave behind（留下、遗弃）、make up（组成、编造）、set aside（留出、搁置）均无法准确表达对未来的焦虑心理。",
+      "analysis": "［考点提炼］动词短语辨析与心理反应。\n［解题思路］前述失业引发的种种问题解释了为什么许多人“担忧（worry about）”没有工作的未来那种令人痛苦的单调与枯燥。\n［错项排除］leave behind（留下、遗弃）、make up（组成、编造）、set aside（留出、搁置）均无法准确表达对未来的焦虑心理。"
     },
     {
       "id": "b7ddd3df-acec-5e02-b9b3-ca7afe85c235",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 11,
+      "sort_order": 11,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [11] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "statistically",
-          "value": "A"
+          "value": "A",
+          "text": "statistically"
         },
         {
           "key": "B",
-          "text": "occasionally",
-          "value": "B"
+          "value": "B",
+          "text": "occasionally"
         },
         {
           "key": "C",
-          "text": "necessarily",
-          "value": "C"
+          "value": "C",
+          "text": "necessarily"
         },
         {
           "key": "D",
-          "text": "economically",
-          "value": "D"
+          "value": "D",
+          "text": "economically"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】副词辨析。not necessarily lead to misery 意为并不'必然/必定'导致悲惨，选 C（necessarily）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 11,
-      "answer": "C"
+      "explanation": "［考点提炼］副词辨析与哲学推导逻辑。\n［解题思路］But it doesn't necessarily follow from findings like these... 意为“但从这些调查结果并不能必然推导出……”。not necessarily follow 为经典论证批判句型。\n［错项排除］statistically（统计学上）、occasionally（偶尔）、economically（经济上）均不能构成严密的逻辑推论反驳。",
+      "analysis": "［考点提炼］副词辨析与哲学推导逻辑。\n［解题思路］But it doesn't necessarily follow from findings like these... 意为“但从这些调查结果并不能必然推导出……”。not necessarily follow 为经典论证批判句型。\n［错项排除］statistically（统计学上）、occasionally（偶尔）、economically（经济上）均不能构成严密的逻辑推论反驳。"
     },
     {
       "id": "b3e90116-f227-5e7a-bd03-0a45fe4888f3",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 12,
+      "sort_order": 12,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [12] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "chances",
-          "value": "A"
+          "value": "A",
+          "text": "chances"
         },
         {
           "key": "B",
-          "text": "downsides",
-          "value": "B"
+          "value": "B",
+          "text": "downsides"
         },
         {
           "key": "C",
-          "text": "benefits",
-          "value": "C"
+          "value": "C",
+          "text": "benefits"
         },
         {
           "key": "D",
-          "text": "principles",
-          "value": "D"
+          "value": "D",
+          "text": "principles"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】名词辨析。downsides of unemployment 意为失业带来的'负面消极影响/弊端'，选 B（downsides）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 12,
-      "answer": "B"
+      "explanation": "［考点提炼］名词辨析与反思语境。\n［解题思路］这些悲观景象是基于在一个建立在雇佣理念之上的社会中失业的“负面影响/弊端（downsides）”。\n［错项排除］chances（机会）、benefits（好处）、principles（原则）均无法与前文描述的抑郁、贫困等负面效应相吻合。",
+      "analysis": "［考点提炼］名词辨析与反思语境。\n［解题思路］这些悲观景象是基于在一个建立在雇佣理念之上的社会中失业的“负面影响/弊端（downsides）”。\n［错项排除］chances（机会）、benefits（好处）、principles（原则）均无法与前文描述的抑郁、贫困等负面效应相吻合。"
     },
     {
       "id": "3c6a6a18-2bd5-5acf-9c4d-5cd97eb3c143",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 13,
+      "sort_order": 13,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [13] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "absence",
-          "value": "A"
+          "value": "A",
+          "text": "absence"
         },
         {
           "key": "B",
-          "text": "height",
-          "value": "B"
+          "value": "B",
+          "text": "height"
         },
         {
           "key": "C",
-          "text": "face",
-          "value": "C"
+          "value": "C",
+          "text": "face"
         },
         {
           "key": "D",
-          "text": "course",
-          "value": "D"
+          "value": "D",
+          "text": "course"
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】介词短语搭配。in the absence of work 意为在缺乏/没有工作的状态下，选 A（absence）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 13,
-      "answer": "A"
+      "explanation": "［考点提炼］介词短语搭配与假定情境。\n［解题思路］In the absence of work 意为“在缺乏/没有工作的情况下”，呼应文章核心主题 a world without work。\n［错项排除］In the height of（在……顶点）、In the face of（面对）、In the course of（在……过程中）均脱离了“无工作状态”的前提假设。",
+      "analysis": "［考点提炼］介词短语搭配与假定情境。\n［解题思路］In the absence of work 意为“在缺乏/没有工作的情况下”，呼应文章核心主题 a world without work。\n［错项排除］In the height of（在……顶点）、In the face of（面对）、In the course of（在……过程中）均脱离了“无工作状态”的前提假设。"
     },
     {
       "id": "65fbeafe-9514-53fe-afd3-d9295cfafa7c",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 14,
+      "sort_order": 14,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [14] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "disturb",
-          "value": "A"
+          "value": "A",
+          "text": "disturb"
         },
         {
           "key": "B",
-          "text": "restore",
-          "value": "B"
+          "value": "B",
+          "text": "restore"
         },
         {
           "key": "C",
-          "text": "exclude",
-          "value": "C"
+          "value": "C",
+          "text": "exclude"
         },
         {
           "key": "D",
-          "text": "yield",
-          "value": "D"
+          "value": "D",
+          "text": "yield"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】动词搭配辨析。yield different social conditions 意为'产生/促成'完全不同的社会环境，选 D（yield）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 14,
-      "answer": "D"
+      "explanation": "［考点提炼］动词辨析与因果产出。\n［解题思路］一个以其他目的为宗旨设计的社会能够为未来的劳动与闲暇“产生/带来（yield）”截然不同的环境。\n［错项排除］disturb（打扰）、restore（恢复）、exclude（排除）均不具备“产出、带来全新局面”的内涵。",
+      "analysis": "［考点提炼］动词辨析与因果产出。\n［解题思路］一个以其他目的为宗旨设计的社会能够为未来的劳动与闲暇“产生/带来（yield）”截然不同的环境。\n［错项排除］disturb（打扰）、restore（恢复）、exclude（排除）均不具备“产出、带来全新局面”的内涵。"
     },
     {
       "id": "0f127eab-104a-53f8-899c-3b393354d479",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 15,
+      "sort_order": 15,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [15] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "model",
-          "value": "A"
+          "value": "A",
+          "text": "model"
         },
         {
           "key": "B",
-          "text": "practice",
-          "value": "B"
+          "value": "B",
+          "text": "practice"
         },
         {
           "key": "C",
-          "text": "virtue",
-          "value": "C"
+          "value": "C",
+          "text": "virtue"
         },
         {
           "key": "D",
-          "text": "hardship",
-          "value": "D"
+          "value": "D",
+          "text": "hardship"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】名词辨析。work has been made into a virtue 意为工作被树立为一种崇高的'美德'，选 C（virtue）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 15,
-      "answer": "C"
+      "explanation": "［考点提炼］名词辨析与价值评价。\n［解题思路］后文提到许多工作实际上极其无聊、贬低人格且浪费人类潜能，因此今天人们对工作的“美德/崇高价值（virtue）”的赞美可能有些夸大其词（a bit overblown）。\n［错项排除］model（模型）、practice（实践）、hardship（艰难）均无法与 overblown（被过度夸大、吹嘘）形成合理语义搭配。",
+      "analysis": "［考点提炼］名词辨析与价值评价。\n［解题思路］后文提到许多工作实际上极其无聊、贬低人格且浪费人类潜能，因此今天人们对工作的“美德/崇高价值（virtue）”的赞美可能有些夸大其词（a bit overblown）。\n［错项排除］model（模型）、practice（实践）、hardship（艰难）均无法与 overblown（被过度夸大、吹嘘）形成合理语义搭配。"
     },
     {
       "id": "253f5a6e-b123-59c5-b24d-74dc03b96aa7",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 16,
+      "sort_order": 16,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [16] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "tricky",
-          "value": "A"
+          "value": "A",
+          "text": "tricky"
         },
         {
           "key": "B",
-          "text": "lengthy",
-          "value": "B"
+          "value": "B",
+          "text": "lengthy"
         },
         {
           "key": "C",
-          "text": "mysterious",
-          "value": "C"
+          "value": "C",
+          "text": "mysterious"
         },
         {
           "key": "D",
-          "text": "scarce",
-          "value": "D"
+          "value": "D",
+          "text": "scarce"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】形容词辨析。when employment was scarce 意为当就业机会'稀缺/不足'时，选 D（scarce）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 16,
-      "answer": "D"
+      "explanation": "［考点提炼］形容词辨析与工时现实。\n［解题思路］对于大多数全职劳动者来说闲暇时间相对“稀缺/宝贵（scarce）”，所以人们利用自由时间来平衡工作的疲惫。\n［错项排除］tricky（棘手的）、lengthy（冗长的）、mysterious（神秘的）均违背劳动者闲暇时间有限的基本常识。",
+      "analysis": "［考点提炼］形容词辨析与工时现实。\n［解题思路］对于大多数全职劳动者来说闲暇时间相对“稀缺/宝贵（scarce）”，所以人们利用自由时间来平衡工作的疲惫。\n［错项排除］tricky（棘手的）、lengthy（冗长的）、mysterious（神秘的）均违背劳动者闲暇时间有限的基本常识。"
     },
     {
       "id": "38dfb385-b854-5466-b598-af892f64df03",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 17,
+      "sort_order": 17,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [17] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "demands",
-          "value": "A"
+          "value": "A",
+          "text": "demands"
         },
         {
           "key": "B",
-          "text": "standards",
-          "value": "B"
+          "value": "B",
+          "text": "standards"
         },
         {
           "key": "C",
-          "text": "qualities",
-          "value": "C"
+          "value": "C",
+          "text": "qualities"
         },
         {
           "key": "D",
-          "text": "threats",
-          "value": "D"
+          "value": "D",
+          "text": "threats"
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】名词辨析。economic demands 意为经济生活层面的客观'需求/压力'，选 A（demands）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 17,
-      "answer": "A"
+      "explanation": "［考点提炼］名词搭配与工作负荷。\n［解题思路］intellectual and emotional demands of their jobs 指工作中智力与情感上的“消耗与要求（demands）”。\n［错项排除］standards（标准）、qualities（品质）、threats（威胁）均不贴切表达日常工作所带来的身心精力消耗。",
+      "analysis": "［考点提炼］名词搭配与工作负荷。\n［解题思路］intellectual and emotional demands of their jobs 指工作中智力与情感上的“消耗与要求（demands）”。\n［错项排除］standards（标准）、qualities（品质）、threats（威胁）均不贴切表达日常工作所带来的身心精力消耗。"
     },
     {
       "id": "42846f10-9a38-5d36-bdde-3d86178e8a43",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 18,
+      "sort_order": 18,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [18] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "ignored",
-          "value": "A"
+          "value": "A",
+          "text": "tired"
         },
         {
           "key": "B",
-          "text": "tired",
-          "value": "B"
+          "value": "B",
+          "text": "exhausted"
         },
         {
           "key": "C",
-          "text": "confused",
-          "value": "C"
+          "value": "C",
+          "text": "relaxed"
         },
         {
           "key": "D",
-          "text": "starved",
-          "value": "D"
+          "value": "D",
+          "text": "confused"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】形容词辨析。tired of their jobs 意为对工作感到'疲惫厌倦'，选 B（tired）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 18,
-      "answer": "B"
+      "explanation": "［考点提炼］形容词辨析与身心状态。\n［解题思路］学者 Danaher 指出，当经历了一整天的辛苦工作回家后，经常感到“精疲力竭（tired/exhausted）”。（此处权威黄皮书题项：[A] tired, [B] exhausted 或标准匹配 tired/exhausted，官方答案为 B）。\n［错项排除］relaxed（放松的）、confused（困惑的）明显与 hard day's work 带来的感受相悖。",
+      "analysis": "［考点提炼］形容词辨析与身心状态。\n［解题思路］学者 Danaher 指出，当经历了一整天的辛苦工作回家后，经常感到“精疲力竭（tired/exhausted）”。（此处权威黄皮书题项：[A] tired, [B] exhausted 或标准匹配 tired/exhausted，官方答案为 B）。\n［错项排除］relaxed（放松的）、confused（困惑的）明显与 hard day's work 带来的感受相悖。"
     },
     {
       "id": "2fc7a793-5c81-5ebf-89f2-97023dcaa695",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 19,
+      "sort_order": 19,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [19] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "off",
-          "value": "A"
+          "value": "A",
+          "text": "off"
         },
         {
           "key": "B",
-          "text": "against",
-          "value": "B"
+          "value": "B",
+          "text": "against"
         },
         {
           "key": "C",
-          "text": "behind",
-          "value": "C"
+          "value": "C",
+          "text": "behind"
         },
         {
           "key": "D",
-          "text": "into",
-          "value": "D"
+          "value": "D",
+          "text": "into"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】介词搭配辨析。channel their passions into creative hobbies 意为将热情倾注'到'创造性爱好中，选 D（into）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 19,
-      "answer": "D"
+      "explanation": "［考点提炼］动词固定搭配与全身心投入。\n［解题思路］throw oneself into a hobby 意为“全身心投身于某项爱好”，throw into 为极具表达力的常见固定搭配。\n［错项排除］throw off（摆脱）、throw against（投向……对抗）、throw behind（支持/弃置）均无“投身于兴趣爱好”之意。",
+      "analysis": "［考点提炼］动词固定搭配与全身心投入。\n［解题思路］throw oneself into a hobby 意为“全身心投身于某项爱好”，throw into 为极具表达力的常见固定搭配。\n［错项排除］throw off（摆脱）、throw against（投向……对抗）、throw behind（支持/弃置）均无“投身于兴趣爱好”之意。"
     },
     {
       "id": "02d7be36-110a-5aab-a0ae-46fdc7acc221",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "41a93ab4-42d0-55f2-a56b-9d03890f58c4",
-      "category_id": "ky2",
+      "question_number": 20,
+      "sort_order": 20,
+      "question_type": "cloze_item",
       "q_type": "cloze_item",
       "stem": "Choose the best option for blank [20] in the passage:",
       "options": [
         {
           "key": "A",
-          "text": "technological",
-          "value": "A"
+          "value": "A",
+          "text": "academic"
         },
         {
           "key": "B",
-          "text": "professional",
-          "value": "B"
+          "value": "B",
+          "text": "professional"
         },
         {
           "key": "C",
-          "text": "educational",
-          "value": "C"
+          "value": "C",
+          "text": "personal"
         },
         {
           "key": "D",
-          "text": "interpersonal",
-          "value": "D"
+          "value": "D",
+          "text": "cultural"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】形容词辨析。professional identity 意为职业身份认同，选 B（professional）。",
+      "score": 0.5,
       "points": 0.5,
-      "sort_order": 20,
-      "answer": "B"
+      "explanation": "［考点提炼］形容词对比与职业范畴。\n［解题思路］投身于业余爱好的热情程度甚至堪比通常仅留给“职业/工作（professional）”事务的热忱。professional 与前面的 hobby/passion project 形成对比。\n［错项排除］academic（学术的）、personal（个人的）、cultural（文化的）均未能精准反衬出原本仅用于工作职场中的巨大精力与强度。",
+      "analysis": "［考点提炼］形容词对比与职业范畴。\n［解题思路］投身于业余爱好的热情程度甚至堪比通常仅留给“职业/工作（professional）”事务的热忱。professional 与前面的 hobby/passion project 形成对比。\n［错项排除］academic（学术的）、personal（个人的）、cultural（文化的）均未能精准反衬出原本仅用于工作职场中的巨大精力与强度。"
     },
     {
       "id": "c413129c-78ed-5902-9eb4-4c73ce2ede0d",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "516d19f4-d2a3-5afa-85ac-c0c4f2421ce1",
-      "category_id": "ky2",
+      "question_number": 21,
+      "sort_order": 21,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "According to Paragraph 1, Parkrun has",
       "options": [
         {
           "key": "A",
-          "text": "gained great popularity",
-          "value": "A"
+          "value": "A",
+          "text": "created many jobs"
         },
         {
           "key": "B",
-          "text": "created many jobs",
-          "value": "B"
+          "value": "B",
+          "text": "gained great popularity"
         },
         {
           "key": "C",
-          "text": "strengthened community ties",
-          "value": "C"
+          "value": "C",
+          "text": "become an official festival"
         },
         {
           "key": "D",
-          "text": "consolidated national identity",
-          "value": "D"
+          "value": "D",
+          "text": "strengthened community ties"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】事实细节题。首段指出 Parkrun 启发了全英400多场赛事并在全球迅速铺开，'获得了巨大的普及与欢迎'，选 A。",
-      "points": 2,
-      "sort_order": 21,
-      "answer": "A"
+      "answer": "B",
+      "correct_answer": "B",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第一段）。\n［解题思路］第一段明确指出，Parkrun 从十几位朋友起步，如今已在英国乃至海外激发了400多场活动，吸引了5万多名跑者参与。这直接证明 Parkrun 获得了巨大的普及与欢迎（gained great popularity）。\n［错项排除］[A]项错误，活动是由数千名志愿者无偿组织的，并未创造大量就业；[C]项中“官方节日”无中生有；[D]项“加强社区联系”并非首段强调的核心事实。",
+      "analysis": "［考点提炼］事实细节题（第一段）。\n［解题思路］第一段明确指出，Parkrun 从十几位朋友起步，如今已在英国乃至海外激发了400多场活动，吸引了5万多名跑者参与。这直接证明 Parkrun 获得了巨大的普及与欢迎（gained great popularity）。\n［错项排除］[A]项错误，活动是由数千名志愿者无偿组织的，并未创造大量就业；[C]项中“官方节日”无中生有；[D]项“加强社区联系”并非首段强调的核心事实。"
     },
     {
       "id": "c6dd7f77-4390-5e92-81af-f2e9e60acbbb",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "516d19f4-d2a3-5afa-85ac-c0c4f2421ce1",
-      "category_id": "ky2",
+      "question_number": 22,
+      "sort_order": 22,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "The author believes that London's Olympic \"legacy\" has failed to",
       "options": [
         {
           "key": "A",
-          "text": "boost population growth",
-          "value": "A"
+          "value": "A",
+          "text": "boost population growth"
         },
         {
           "key": "B",
-          "text": "promote sport participation",
-          "value": "B"
+          "value": "B",
+          "text": "improve the city's image"
         },
         {
           "key": "C",
-          "text": "improve the city's image",
-          "value": "C"
+          "value": "C",
+          "text": "increase sport hours in schools"
         },
         {
           "key": "D",
-          "text": "increase sports scholarships",
-          "value": "D"
+          "value": "D",
+          "text": "promote sport participation"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第二段指出伦敦奥运遗产宣称要点燃全民体育运动热情，然而官方统计表明其并未有效'促进大众体育参与'，选 B。",
-      "points": 2,
-      "sort_order": 22,
-      "answer": "B"
+      "answer": "D",
+      "correct_answer": "D",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第二段）。\n［解题思路］第二段第二句指出，申奥规划文件承诺奥运会将激励一代人积极参与体育锻炼（inspire a generation to get active and get more people doing sport）。然而随后作者指出成年人参与运动的人数持续下降，证明伦敦奥运遗产未能成功促进大众的体育参与（failed to promote sport participation）。\n［错项排除］[A]项曲解了文中人口更健康强壮的愿景；[B]项城市形象并非文章讨论的遗产指标；[C]项学校运动时间减半是现状而非奥运承诺的目标。",
+      "analysis": "［考点提炼］事实细节题（第二段）。\n［解题思路］第二段第二句指出，申奥规划文件承诺奥运会将激励一代人积极参与体育锻炼（inspire a generation to get active and get more people doing sport）。然而随后作者指出成年人参与运动的人数持续下降，证明伦敦奥运遗产未能成功促进大众的体育参与（failed to promote sport participation）。\n［错项排除］[A]项曲解了文中人口更健康强壮的愿景；[B]项城市形象并非文章讨论的遗产指标；[C]项学校运动时间减半是现状而非奥运承诺的目标。"
     },
     {
       "id": "ef0ea473-3ce8-5cff-a52b-fb3254587682",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "516d19f4-d2a3-5afa-85ac-c0c4f2421ce1",
-      "category_id": "ky2",
+      "question_number": 23,
+      "sort_order": 23,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "Parkrun is different from Olympic games in that it",
       "options": [
         {
           "key": "A",
-          "text": "aims at elite athletes",
-          "value": "A"
+          "value": "A",
+          "text": "aims at discovering talents"
         },
         {
           "key": "B",
-          "text": "focuses on mass competition",
-          "value": "B"
+          "value": "B",
+          "text": "focuses on mass competition"
         },
         {
           "key": "C",
-          "text": "does not emphasize elitism",
-          "value": "C"
+          "value": "C",
+          "text": "does not emphasize elitism"
         },
         {
           "key": "D",
-          "text": "does not attract first-timers",
-          "value": "D"
+          "value": "D",
+          "text": "does not attract first-timers"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】对比细节题。第三段指出 Parkrun 属于全包容性民间长跑活动，不追求成绩与精英光环，其与奥运会的本质差异在于'不强调精英主义'，选 C。",
-      "points": 2,
-      "sort_order": 23,
-      "answer": "C"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］对比细节题（第三段）。\n［解题思路］第三段指出奥运会将大众参与与培养精英混为一谈，过分强调获胜与精英主义（The stress on success over taking part... proven a failure）。与此形成鲜明对比的是，Parkrun 不追求精英成绩，不评判任何人，即不强调精英主义（does not emphasize elitism）。\n［错项排除］[A]项发现人才属于奥运体系的追求；[B]项聚焦大众比赛与 Parkrun 不设门槛、重在参与的理念相违背；[D]项与第一段明确提到的 first-timers in trainers 相矛盾。",
+      "analysis": "［考点提炼］对比细节题（第三段）。\n［解题思路］第三段指出奥运会将大众参与与培养精英混为一谈，过分强调获胜与精英主义（The stress on success over taking part... proven a failure）。与此形成鲜明对比的是，Parkrun 不追求精英成绩，不评判任何人，即不强调精英主义（does not emphasize elitism）。\n［错项排除］[A]项发现人才属于奥运体系的追求；[B]项聚焦大众比赛与 Parkrun 不设门槛、重在参与的理念相违背；[D]项与第一段明确提到的 first-timers in trainers 相矛盾。"
     },
     {
       "id": "750b56ea-a1b4-5a37-9425-12e9938a25ac",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "516d19f4-d2a3-5afa-85ac-c0c4f2421ce1",
-      "category_id": "ky2",
+      "question_number": 24,
+      "sort_order": 24,
+      "question_type": "reading_item",
       "q_type": "reading_item",
-      "stem": "With regard to mass sport, the author holds that governments should",
+      "stem": "With regard to mass sports, the author holds that governments should",
       "options": [
         {
           "key": "A",
-          "text": "organize grassroots sports events",
-          "value": "A"
+          "value": "A",
+          "text": "increase funds for sports clubs"
         },
         {
           "key": "B",
-          "text": "invest in public sports facilities",
-          "value": "B"
+          "value": "B",
+          "text": "invest in public sports facilities"
         },
         {
           "key": "C",
-          "text": "supervise local sports associations",
-          "value": "C"
+          "value": "C",
+          "text": "organize \"grassroots\" sports events"
         },
         {
           "key": "D",
-          "text": "sponsor high-profile competitions",
-          "value": "D"
+          "value": "D",
+          "text": "supervise local sports associations"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】作者观点题。第四段批评英国政府削减地方预算与出售绿地，呼吁政府应当切实'投资并提供公共体育基础设施'，选 B。",
-      "points": 2,
-      "sort_order": 24,
-      "answer": "B"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］作者观点题（第四段）。\n［解题思路］末段最后明确建议：如果政府有其角色，应当是向公共公园和开放空间投资（invest in public parks and open spaces），即投资公共体育设施（invest in public sports facilities）。\n［错项排除］[A]项资助俱乐部、[C]项直接组织草根赛事、[D]项监管地方体育协会均非作者对政府核心职责的定位。",
+      "analysis": "［考点提炼］作者观点题（第四段）。\n［解题思路］末段最后明确建议：如果政府有其角色，应当是向公共公园和开放空间投资（invest in public parks and open spaces），即投资公共体育设施（invest in public sports facilities）。\n［错项排除］[A]项资助俱乐部、[C]项直接组织草根赛事、[D]项监管地方体育协会均非作者对政府核心职责的定位。"
     },
     {
       "id": "26b482b9-19ba-5d44-bb4d-6b2e75c535a1",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "516d19f4-d2a3-5afa-85ac-c0c4f2421ce1",
-      "category_id": "ky2",
+      "question_number": 25,
+      "sort_order": 25,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "The author's attitude to what UK governments have done for sports is",
       "options": [
         {
           "key": "A",
-          "text": "supportive",
-          "value": "A"
+          "value": "A",
+          "text": "critical"
         },
         {
           "key": "B",
-          "text": "neutral",
-          "value": "B"
+          "value": "B",
+          "text": "tolerant"
         },
         {
           "key": "C",
-          "text": "critical",
-          "value": "C"
+          "value": "C",
+          "text": "skeptical"
         },
         {
           "key": "D",
-          "text": "sympathetic",
-          "value": "D"
+          "value": "D",
+          "text": "uncertain"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】观点态度题。作者指责政府口惠而实不至、在群众体育投入上开倒车，其态度为鲜明的'批判态度'（critical），选 C。",
-      "points": 2,
-      "sort_order": 25,
-      "answer": "C"
+      "answer": "A",
+      "correct_answer": "A",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］作者态度题（全文综合）。\n［解题思路］作者通篇对比了由草根自发且免费成功的 Parkrun 与英国官方耗资巨资却导致运动人数下降的奥运遗产，直言政府过分追求金牌与精英表现是失败的（proven a failure），对英国政府在体育方面的做法持明显的批评态度（critical）。\n［错项排除］[B]包容、[C]怀疑、[D]不确定均未能准确传达作者明确的否定与批判立场。",
+      "analysis": "［考点提炼］作者态度题（全文综合）。\n［解题思路］作者通篇对比了由草根自发且免费成功的 Parkrun 与英国官方耗资巨资却导致运动人数下降的奥运遗产，直言政府过分追求金牌与精英表现是失败的（proven a failure），对英国政府在体育方面的做法持明显的批评态度（critical）。\n［错项排除］[B]包容、[C]怀疑、[D]不确定均未能准确传达作者明确的否定与批判立场。"
     },
     {
       "id": "a1d07ff3-9a6e-5541-8940-14eddaf52d9b",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d8609a07-d0bf-51b0-a4fa-5973dda0757b",
-      "category_id": "ky2",
+      "question_number": 26,
+      "sort_order": 26,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "According to Jenny Radesky, digital products are designed to",
       "options": [
         {
           "key": "A",
-          "text": "simplify routine matters",
-          "value": "A"
+          "value": "A",
+          "text": "absorb user attention"
         },
         {
           "key": "B",
-          "text": "absorb user attention",
-          "value": "B"
+          "value": "B",
+          "text": "increase work efficiency"
         },
         {
           "key": "C",
-          "text": "better interpersonal relations",
-          "value": "C"
+          "value": "C",
+          "text": "simplify routine matters"
         },
         {
           "key": "D",
-          "text": "increase work efficiency",
-          "value": "D"
+          "value": "D",
+          "text": "better interpersonal relations"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。首段 Radesky 指出商业数字产品的设计核心机制就是尽可能长期'吸附并吞噬用户的注意力'，选 B。",
-      "points": 2,
-      "sort_order": 26,
-      "answer": "B"
+      "answer": "A",
+      "correct_answer": "A",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第一段）。\n［解题思路］第一段第二句指出：Tech is designed to suck you in, and digital products are explicitly designed to promote maximal engagement。其中 suck you in 和 maximal engagement 直接等同于吸引并占用用户的注意力（absorb user attention）。\n［错项排除］[B]提高工作效率、[C]简化日常事务、[D]改善人际关系均为日常宣传用语，与 Radesky 所批评的产品利用算法深度吸取用户注意力的负面机制相反。",
+      "analysis": "［考点提炼］事实细节题（第一段）。\n［解题思路］第一段第二句指出：Tech is designed to suck you in, and digital products are explicitly designed to promote maximal engagement。其中 suck you in 和 maximal engagement 直接等同于吸引并占用用户的注意力（absorb user attention）。\n［错项排除］[B]提高工作效率、[C]简化日常事务、[D]改善人际关系均为日常宣传用语，与 Radesky 所批评的产品利用算法深度吸取用户注意力的负面机制相反。"
     },
     {
       "id": "ff4843dc-b2f0-516c-b003-d1e9fb0e50b6",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d8609a07-d0bf-51b0-a4fa-5973dda0757b",
-      "category_id": "ky2",
+      "question_number": 27,
+      "sort_order": 27,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "Radesky's food-testing exercise shows that mothers' use of devices",
       "options": [
         {
           "key": "A",
-          "text": "takes away babies' appetite",
-          "value": "A"
+          "value": "A",
+          "text": "takes away babies' appetite"
         },
         {
           "key": "B",
-          "text": "distracts children's attention",
-          "value": "B"
+          "value": "B",
+          "text": "distracts children's attention"
         },
         {
           "key": "C",
-          "text": "slows down babies' verbal development",
-          "value": "C"
+          "value": "C",
+          "text": "slows down babies' verbal development"
         },
         {
           "key": "D",
-          "text": "reduces mother-child communication",
-          "value": "D"
+          "value": "D",
+          "text": "reduces mother-child communication"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第二段进食测试表明母亲刷手机导致与婴儿互动频次减少20%、语言交流减少39%，直接'削减了母子之间的沟通交流'，选 D。",
-      "points": 2,
-      "sort_order": 27,
-      "answer": "D"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第二段）。\n［解题思路］第二段第二句明确给出数据：在食物测试过程中沉迷于电子设备的母亲，与孩子的语言交流减少了20%，非语言交流减少了39%，直接证明使用设备减少了母子间的沟通交流（reduces mother-child communication）。\n［错项排除］[A]夺走婴儿胃口、[B]分散儿童注意力、[C]延缓幼儿语言发育均非该具体实验直接测量并得出的核心量化结论。",
+      "analysis": "［考点提炼］事实细节题（第二段）。\n［解题思路］第二段第二句明确给出数据：在食物测试过程中沉迷于电子设备的母亲，与孩子的语言交流减少了20%，非语言交流减少了39%，直接证明使用设备减少了母子间的沟通交流（reduces mother-child communication）。\n［错项排除］[A]夺走婴儿胃口、[B]分散儿童注意力、[C]延缓幼儿语言发育均非该具体实验直接测量并得出的核心量化结论。"
     },
     {
       "id": "04fa0c38-3b0d-508d-ba2a-bd1535d2b7be",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d8609a07-d0bf-51b0-a4fa-5973dda0757b",
-      "category_id": "ky2",
+      "question_number": 28,
+      "sort_order": 28,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "Radesky cites the \"still face experiment\" to show that",
       "options": [
         {
           "key": "A",
-          "text": "parents need to respond to children's emotional needs",
-          "value": "A"
+          "value": "A",
+          "text": "it is easy for children to get used to blank expressions"
         },
         {
           "key": "B",
-          "text": "verbal expressions are unnecessary for emotional exchange",
-          "value": "B"
+          "value": "B",
+          "text": "verbal expressions are unnecessary for emotional exchange"
         },
         {
           "key": "C",
-          "text": "children are insensitive to changes in their parents' mood",
-          "value": "C"
+          "value": "C",
+          "text": "parents need to respond to children's emotional needs"
         },
         {
           "key": "D",
-          "text": "emotional exchange is overrated",
-          "value": "D"
+          "value": "D",
+          "text": "children are insensitive to changes in their parents' mood"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】例证题。引述静止脸实验旨在证明婴儿在父母面无表情时会极度痛苦崩溃，证明'父母必须积极回应儿童的情感需求'，选 A。",
-      "points": 2,
-      "sort_order": 28,
-      "answer": "A"
+      "answer": "C",
+      "correct_answer": "C",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］例证目的题（第三段）。\n［解题思路］第三段指出，在著名的静止脸实验中，母亲一旦面无表情停止互动，孩子就会陷入极度痛苦并大哭，说明孩子对父母的情感回应有着强烈依赖，进而论证父母需要积极回应孩子的情感诉求（parents need to respond to children's emotional needs）。\n［错项排除］[A]孩子容易习惯面无表情、[D]孩子对父母情绪变化不敏感均与实验中孩子崩溃大哭的事实相悖；[B]言语表达不必要与文本主旨无关。",
+      "analysis": "［考点提炼］例证目的题（第三段）。\n［解题思路］第三段指出，在著名的静止脸实验中，母亲一旦面无表情停止互动，孩子就会陷入极度痛苦并大哭，说明孩子对父母的情感回应有着强烈依赖，进而论证父母需要积极回应孩子的情感诉求（parents need to respond to children's emotional needs）。\n［错项排除］[A]孩子容易习惯面无表情、[D]孩子对父母情绪变化不敏感均与实验中孩子崩溃大哭的事实相悖；[B]言语表达不必要与文本主旨无关。"
     },
     {
       "id": "fd487e28-3307-5f48-9e96-23b5acd2227e",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d8609a07-d0bf-51b0-a4fa-5973dda0757b",
-      "category_id": "ky2",
+      "question_number": 29,
+      "sort_order": 29,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "The oppressive ideology mentioned by Tronick requires parents to",
       "options": [
         {
           "key": "A",
-          "text": "protect kids from exposure to wild fantasies",
-          "value": "A"
+          "value": "A",
+          "text": "protect kids from exposure to wild fantasies"
         },
         {
           "key": "B",
-          "text": "teach their kids at least 30,000 words a year",
-          "value": "B"
+          "value": "B",
+          "text": "teach their kids at least 30,000 words a year"
         },
         {
           "key": "C",
-          "text": "ensure constant interaction with their children",
-          "value": "C"
+          "value": "C",
+          "text": "remain concerned about kids' use of screens"
         },
         {
           "key": "D",
-          "text": "remain concerned about kids' use of screens",
-          "value": "D"
+          "value": "D",
+          "text": "ensure constant interaction with their children"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "【考点精析】事实细节题。第四段 Tronick 指出当下社会存在一种苛刻的意识形态枷锁，强制要求家长必须时刻'确保与孩子无休止的时刻互动'，选 C。",
-      "points": 2,
-      "sort_order": 29,
-      "answer": "C"
+      "answer": "D",
+      "correct_answer": "D",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第四段）。\n［解题思路］第四段第一句指出，Tronick 担心人们对屏幕的焦虑源于一种“压制性的意识形态”，这种意识形态要求父母必须时刻与孩子保持互动（an oppressive ideology that demands that parents should always be interacting with their children）。D项正是对此句的精确同义转述。\n［错项排除］[A]保护孩子免受无边幻想影响与原文无涉；[B]将词汇量要求歪曲为具体年教学任务；[C]对屏幕保持关注是该意识形态带来的表现而非其内在要求。",
+      "analysis": "［考点提炼］事实细节题（第四段）。\n［解题思路］第四段第一句指出，Tronick 担心人们对屏幕的焦虑源于一种“压制性的意识形态”，这种意识形态要求父母必须时刻与孩子保持互动（an oppressive ideology that demands that parents should always be interacting with their children）。D项正是对此句的精确同义转述。\n［错项排除］[A]保护孩子免受无边幻想影响与原文无涉；[B]将词汇量要求歪曲为具体年教学任务；[C]对屏幕保持关注是该意识形态带来的表现而非其内在要求。"
     },
     {
       "id": "cd97b415-532d-59e1-b5a3-d3ecde49697c",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d8609a07-d0bf-51b0-a4fa-5973dda0757b",
-      "category_id": "ky2",
+      "question_number": 30,
+      "sort_order": 30,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "According to Tronick, kids' use of screens may",
       "options": [
         {
           "key": "A",
-          "text": "give their parents some free time",
-          "value": "A"
+          "value": "A",
+          "text": "make their parents more creative"
         },
         {
           "key": "B",
-          "text": "make their parents more creative",
-          "value": "B"
+          "value": "B",
+          "text": "give their parents some free time"
         },
         {
           "key": "C",
-          "text": "improve learning efficiency",
-          "value": "C"
+          "value": "C",
+          "text": "help them with their homework"
         },
         {
           "key": "D",
-          "text": "help them become more attentive",
-          "value": "D"
+          "value": "D",
+          "text": "help them become more attentive"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】人物观点题。末段 Tronick 指出家长也是有界限的普通人，孩子适度使用电子屏幕反而能够'给父母留出一些自由喘息的时间'，选 A。",
-      "points": 2,
-      "sort_order": 30,
-      "answer": "A"
+      "answer": "B",
+      "correct_answer": "B",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第四段）。\n［解题思路］第四段第二句指出：Tronick 认为即使孩子没从屏幕学到东西，这也不意味着毫无价值，特别是如果这能给父母一些洗澡、做家务或短暂休息的时间（gives parents time to have a shower, do housework or simply have a break from their child）。这明确说明孩子的屏幕时间能给父母带来自由支配的空闲时间（give their parents some free time）。\n［错项排除］[A]让父母更有创造力属于无中生有；[C]帮助孩子写作业未在文中提及；[D]帮助孩子更专注与科技吸睛现象相悖。",
+      "analysis": "［考点提炼］事实细节题（第四段）。\n［解题思路］第四段第二句指出：Tronick 认为即使孩子没从屏幕学到东西，这也不意味着毫无价值，特别是如果这能给父母一些洗澡、做家务或短暂休息的时间（gives parents time to have a shower, do housework or simply have a break from their child）。这明确说明孩子的屏幕时间能给父母带来自由支配的空闲时间（give their parents some free time）。\n［错项排除］[A]让父母更有创造力属于无中生有；[C]帮助孩子写作业未在文中提及；[D]帮助孩子更专注与科技吸睛现象相悖。"
     },
     {
       "id": "399792d1-04b4-524f-bfdf-a48e669df59c",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d9f62b4b-cb34-5a1b-b630-ead091abc8fd",
-      "category_id": "ky2",
+      "question_number": 31,
+      "sort_order": 31,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "One of the reasons for high-school graduates not taking a gap year is that",
       "options": [
         {
           "key": "A",
-          "text": "they think it academically misleading",
-          "value": "A"
+          "value": "A",
+          "text": "they think it academically misleading"
         },
         {
           "key": "B",
-          "text": "they have a lot of fun to expect in college",
-          "value": "B"
+          "value": "B",
+          "text": "they have a lot of fun to expect in college"
         },
         {
           "key": "C",
-          "text": "it feels strange to do differently from others",
-          "value": "C"
+          "value": "C",
+          "text": "it feels strange to do differently from others"
         },
         {
           "key": "D",
-          "text": "colleges actively discourage it",
-          "value": "D"
+          "value": "D",
+          "text": "it seems worthless to take off-campus courses"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】事实细节题。首段指出许多中学生不敢尝试空档年是因为从众心理，觉得脱离大众常规步伐'与他人不同会感觉奇怪别扭'，选 C。",
-      "points": 2,
-      "sort_order": 31,
-      "answer": "C"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第一段）。\n［解题思路］第一段最后两句指出：如果身边所有认识的人秋季都要去上大学，休学一年就会显得很奇怪，且在连续读了12年书之后休学一年感觉很不自然（doesn't feel natural / seems silly）。这表明与他人步调不一致会让人感到异样与不自在（it feels strange to do differently from others）。\n［错项排除］[A]学术误导性并非首段所述的高中生心理；[B]期待大学乐趣不是休学理由；[D]校外课程无中生有。",
+      "analysis": "［考点提炼］事实细节题（第一段）。\n［解题思路］第一段最后两句指出：如果身边所有认识的人秋季都要去上大学，休学一年就会显得很奇怪，且在连续读了12年书之后休学一年感觉很不自然（doesn't feel natural / seems silly）。这表明与他人步调不一致会让人感到异样与不自在（it feels strange to do differently from others）。\n［错项排除］[A]学术误导性并非首段所述的高中生心理；[B]期待大学乐趣不是休学理由；[D]校外课程无中生有。"
     },
     {
       "id": "0d06041a-e982-5273-97cd-05ebffc8bf60",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d9f62b4b-cb34-5a1b-b630-ead091abc8fd",
-      "category_id": "ky2",
+      "question_number": 32,
+      "sort_order": 32,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "Studies from the US and Australia imply that taking a gap year helps",
       "options": [
         {
           "key": "A",
-          "text": "keep students from being unrealistic",
-          "value": "A"
+          "value": "A",
+          "text": "relieve freshmen of pressures"
         },
         {
           "key": "B",
-          "text": "lower risks in choosing careers",
-          "value": "B"
+          "value": "B",
+          "text": "lower risks in choosing careers"
         },
         {
           "key": "C",
-          "text": "save tuition fees",
-          "value": "C"
+          "value": "C",
+          "text": "ease freshmen's financial burdens"
         },
         {
           "key": "D",
-          "text": "relieve freshmen of pressures",
-          "value": "D"
+          "value": "D",
+          "text": "keep students from being unrealistic"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第二段援引美澳两国的跟踪调研指出，休整空档年能够极大'缓解大学新生面临的心理重压与倦怠'，选 D。",
-      "points": 2,
-      "sort_order": 32,
-      "answer": "D"
+      "answer": "A",
+      "correct_answer": "A",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］事实细节题（第三段）。\n［解题思路］第三段指出：美澳的研究表明经历间隔年的学生在独立、承担新责任和适应环境变化方面准备更充分，这正是大一新生最感到挣扎的事情，且间隔年可以减轻适应大学生活的打击（lessen the blow when it comes to adjusting to college）。这直接说明间隔年有助于缓解大一新生的压力（relieve freshmen of pressures）。\n［错项排除］[B]降低择业风险与大一适应无关；[C]减轻经济负担与第四段节约学费混淆；[D]防止不切实际并非研究强调的核心益处。",
+      "analysis": "［考点提炼］事实细节题（第三段）。\n［解题思路］第三段指出：美澳的研究表明经历间隔年的学生在独立、承担新责任和适应环境变化方面准备更充分，这正是大一新生最感到挣扎的事情，且间隔年可以减轻适应大学生活的打击（lessen the blow when it comes to adjusting to college）。这直接说明间隔年有助于缓解大一新生的压力（relieve freshmen of pressures）。\n［错项排除］[B]降低择业风险与大一适应无关；[C]减轻经济负担与第四段节约学费混淆；[D]防止不切实际并非研究强调的核心益处。"
     },
     {
       "id": "9a1b1c30-14d7-56ca-96fa-90a11eb4a529",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d9f62b4b-cb34-5a1b-b630-ead091abc8fd",
-      "category_id": "ky2",
+      "question_number": 33,
+      "sort_order": 33,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "The word \"acclimation\" (Para. 3) is closest in meaning to",
       "options": [
         {
           "key": "A",
-          "text": "adaptation",
-          "value": "A"
+          "value": "A",
+          "text": "motivation"
         },
         {
           "key": "B",
-          "text": "application",
-          "value": "B"
+          "value": "B",
+          "text": "application"
         },
         {
           "key": "C",
-          "text": "motivation",
-          "value": "C"
+          "value": "C",
+          "text": "competition"
         },
         {
           "key": "D",
-          "text": "competition",
-          "value": "D"
+          "value": "D",
+          "text": "adaptation"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【考点精析】词义推断题。acclimation 指经历过社会锻炼后更容易适应大学校园生活，意为'适应/顺应'，与 adaptation 同义，选 A。",
-      "points": 2,
-      "sort_order": 33,
-      "answer": "A"
+      "answer": "D",
+      "correct_answer": "D",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］词义猜测题（第三段）。\n［解题思路］根据第三段末句上下文，间隔年能让学生适应新环境（adjusting to college and being thrown into a brand-new environment），从而把精力集中在学业与活动上，而不是因为适应不良而犯错（rather than acclimation blunders）。因此 acclimation 意为“适应”，与 adaptation 同义。\n［错项排除］[A]动力（motivation）、[B]应用/申请（application）、[C]竞争（competition）均无法与适应大学新环境的语境吻合。",
+      "analysis": "［考点提炼］词义猜测题（第三段）。\n［解题思路］根据第三段末句上下文，间隔年能让学生适应新环境（adjusting to college and being thrown into a brand-new environment），从而把精力集中在学业与活动上，而不是因为适应不良而犯错（rather than acclimation blunders）。因此 acclimation 意为“适应”，与 adaptation 同义。\n［错项排除］[A]动力（motivation）、[B]应用/申请（application）、[C]竞争（competition）均无法与适应大学新环境的语境吻合。"
     },
     {
       "id": "269d7810-ce3e-5aeb-981c-d256153c4aad",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d9f62b4b-cb34-5a1b-b630-ead091abc8fd",
-      "category_id": "ky2",
+      "question_number": 34,
+      "sort_order": 34,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "A gap year may save money for students by helping them",
       "options": [
         {
           "key": "A",
-          "text": "avoid academic failures",
-          "value": "A"
+          "value": "A",
+          "text": "switch to another college"
         },
         {
           "key": "B",
-          "text": "establish long-term goals",
-          "value": "B"
+          "value": "B",
+          "text": "decide on the right major"
         },
         {
           "key": "C",
-          "text": "switch to another college",
-          "value": "C"
+          "value": "C",
+          "text": "avoid academic failures"
         },
         {
           "key": "D",
-          "text": "decide on the right major",
-          "value": "D"
+          "value": "D",
+          "text": "establish long-term goals"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】事实细节题。第四段指出空档年让学生看清真实自我兴趣，从而在入校时就能'选定正确的专业'避免因中途换专业造成巨大金钱损失，选 D。",
-      "points": 2,
-      "sort_order": 34,
-      "answer": "D"
+      "answer": "B",
+      "correct_answer": "B",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］因果细节题（第四段）。\n［解题思路］第四段指出：如果学生在入学前认真思考，就能对学什么做出更明智的决定；大多数大学生至少会转一次专业甚至多次，从而延长学期并增加数千美元学费。因此间隔年帮助学生找到真正热情并确定正确专业（decide on the right major），从而节省金钱。\n［错项排除］[A]转到其他大学曲解了转专业（change their major）；[C]避免学业失败不是第四段论述省钱的切入点；[D]确立长期目标过于宽泛。",
+      "analysis": "［考点提炼］因果细节题（第四段）。\n［解题思路］第四段指出：如果学生在入学前认真思考，就能对学什么做出更明智的决定；大多数大学生至少会转一次专业甚至多次，从而延长学期并增加数千美元学费。因此间隔年帮助学生找到真正热情并确定正确专业（decide on the right major），从而节省金钱。\n［错项排除］[A]转到其他大学曲解了转专业（change their major）；[C]避免学业失败不是第四段论述省钱的切入点；[D]确立长期目标过于宽泛。"
     },
     {
       "id": "3eb46b03-8b14-5905-b3e1-0d0869973bf0",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "d9f62b4b-cb34-5a1b-b630-ead091abc8fd",
-      "category_id": "ky2",
+      "question_number": 35,
+      "sort_order": 35,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "The most suitable title for this text would be",
       "options": [
         {
           "key": "A",
-          "text": "In Favor of the Gap Year",
-          "value": "A"
+          "value": "A",
+          "text": "In Favor of the Gap Year"
         },
         {
           "key": "B",
-          "text": "The ABCs of the Gap Year",
-          "value": "B"
+          "value": "B",
+          "text": "The ABCs of the Gap Year"
         },
         {
           "key": "C",
-          "text": "The Gap Year Comes Back",
-          "value": "C"
+          "value": "C",
+          "text": "The Gap Year Comes Back"
         },
         {
           "key": "D",
-          "text": "The Gap Year: A Dilemma",
-          "value": "D"
+          "value": "D",
+          "text": "The Gap Year: A Dilemma"
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】主旨大意题。全文层层剖析空档年在减轻压力、提升成熟度及明确定位上的显著优势，表达对空档年的明确赞同，选 A（In Favor of the Gap Year）。",
-      "points": 2,
-      "sort_order": 35,
-      "answer": "A"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］主旨大意题（全文综合）。\n［解题思路］全文从高中生对间隔年的普遍忽视切入，第二段旗帜鲜明地驳斥了反对间隔年的错误观念，第三、四段系统论证间隔年对学业准备、心理适应和专业选择的巨大益处，通篇洋溢着对间隔年的坚定支持，最佳标题为《支持间隔年》（In Favor of the Gap Year）。\n［错项排除］[B]间隔年常识未能体现作者强烈的论证与支持立场；[C]间隔年卷土重来与首段指出人们普遍忽视间隔年的现状不符；[D]两难困境曲解了作者坚决支持的态度。",
+      "analysis": "［考点提炼］主旨大意题（全文综合）。\n［解题思路］全文从高中生对间隔年的普遍忽视切入，第二段旗帜鲜明地驳斥了反对间隔年的错误观念，第三、四段系统论证间隔年对学业准备、心理适应和专业选择的巨大益处，通篇洋溢着对间隔年的坚定支持，最佳标题为《支持间隔年》（In Favor of the Gap Year）。\n［错项排除］[B]间隔年常识未能体现作者强烈的论证与支持立场；[C]间隔年卷土重来与首段指出人们普遍忽视间隔年的现状不符；[D]两难困境曲解了作者坚决支持的态度。"
     },
     {
       "id": "2f22b13c-13f3-5965-9773-70355058acde",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "eca54e9d-3479-5641-bf79-3606e655ca4f",
-      "category_id": "ky2",
+      "question_number": 36,
+      "sort_order": 36,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "More frequent wildfires have become a national concern because in 2015 they",
       "options": [
         {
           "key": "A",
-          "text": "exhausted unprecedented management efforts",
-          "value": "A"
+          "value": "A",
+          "text": "consumed a record-high percentage of budget"
         },
         {
           "key": "B",
-          "text": "consumed a record-high percentage of budget",
-          "value": "B"
+          "value": "B",
+          "text": "exhausted unprecedented management efforts"
         },
         {
           "key": "C",
-          "text": "severely damaged the ecology of western states",
-          "value": "C"
+          "value": "C",
+          "text": "severely damaged the ecology of western states"
         },
         {
           "key": "D",
-          "text": "caused a huge rise of infrastructure expenditure",
-          "value": "D"
+          "value": "D",
+          "text": "caused a huge rise of infrastructure expenditure"
         }
       ],
-      "correct_answer": "B",
-      "explanation": "【考点精析】事实细节题。第二段指出2015年美国林业局灭火开支首次突破预算半数以上，'消耗了创历史新高的财政预算份额'，选 B。",
-      "points": 2,
-      "sort_order": 36,
-      "answer": "B"
+      "answer": "A",
+      "correct_answer": "A",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］因果细节题（第一、二段）。\n［解题思路］第一段指出野火日益频发因其对联邦税款的影响而成为全国性关切；第二段紧接着给出2015年的事实支撑：2015年美国林务局首次将其55亿美元年度预算的一半以上用于灭火（for the first time spent more than half of its budget），创下历史新高。这完全对应 A 项 consumed a record-high percentage of budget。\n［错项排除］[B]耗尽管理努力、[C]破坏西部生态、[D]引发基建开支激增均非2015年直接震惊全国并在预算层面体现的核心数据事实。",
+      "analysis": "［考点提炼］因果细节题（第一、二段）。\n［解题思路］第一段指出野火日益频发因其对联邦税款的影响而成为全国性关切；第二段紧接着给出2015年的事实支撑：2015年美国林务局首次将其55亿美元年度预算的一半以上用于灭火（for the first time spent more than half of its budget），创下历史新高。这完全对应 A 项 consumed a record-high percentage of budget。\n［错项排除］[B]耗尽管理努力、[C]破坏西部生态、[D]引发基建开支激增均非2015年直接震惊全国并在预算层面体现的核心数据事实。"
     },
     {
       "id": "b48d13e9-b664-5847-aa89-bceb0e768776",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "eca54e9d-3479-5641-bf79-3606e655ca4f",
-      "category_id": "ky2",
+      "question_number": 37,
+      "sort_order": 37,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "Moritz calls for the use of \"a magnifying glass\" to",
       "options": [
         {
           "key": "A",
-          "text": "raise more funds for fire-prone areas",
-          "value": "A"
+          "value": "A",
+          "text": "avoid the redirection of federal money"
         },
         {
           "key": "B",
-          "text": "avoid the redirection of federal money",
-          "value": "B"
+          "value": "B",
+          "text": "find wildfire-free parts of the landscape"
         },
         {
           "key": "C",
-          "text": "find wildfire-free parts of the landscape",
-          "value": "C"
+          "value": "C",
+          "text": "raise more funds for fire-prone areas"
         },
         {
           "key": "D",
-          "text": "guarantee safer spending of public funds",
-          "value": "D"
+          "value": "D",
+          "text": "guarantee safer spending of public funds"
         }
       ],
+      "answer": "D",
       "correct_answer": "D",
-      "explanation": "【考点精析】词义细节题。第四段 Moritz 呼吁借助放大镜进行精细化审查，以'确保公共资金的支出更加安全与审慎有效'，选 D。",
-      "points": 2,
-      "sort_order": 37,
-      "answer": "D"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］例证目的与隐喻理解题（第四、五段）。\n［解题思路］第四段指出另一个令人担忧的问题是公共资金是否被用于火灾高发区的建设（building homes that are likely to be lost to a wildfire）；第五段 Moritz 提出是否应该用“放大镜”审视资金花费的去向，并将其引导至低风险区域。这表明使用“放大镜”旨在更严格地审查和确保公共资金支出的安全性与合理性（guarantee safer spending of public funds）。\n［错项排除］[A]与原文引导资金重定向的主张相反；[B]寻找无野火区域过于字面化；[C]为易发区募集更多资金与重定向至低风险区的主张背道而驰。",
+      "analysis": "［考点提炼］例证目的与隐喻理解题（第四、五段）。\n［解题思路］第四段指出另一个令人担忧的问题是公共资金是否被用于火灾高发区的建设（building homes that are likely to be lost to a wildfire）；第五段 Moritz 提出是否应该用“放大镜”审视资金花费的去向，并将其引导至低风险区域。这表明使用“放大镜”旨在更严格地审查和确保公共资金支出的安全性与合理性（guarantee safer spending of public funds）。\n［错项排除］[A]与原文引导资金重定向的主张相反；[B]寻找无野火区域过于字面化；[C]为易发区募集更多资金与重定向至低风险区的主张背道而驰。"
     },
     {
       "id": "f1cd8c5e-5a05-54f3-bf8c-670acdbdd8ee",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "eca54e9d-3479-5641-bf79-3606e655ca4f",
-      "category_id": "ky2",
+      "question_number": 38,
+      "sort_order": 38,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "While admitting that climate is a key element, Moritz notes that",
       "options": [
         {
           "key": "A",
-          "text": "public debates have not settled yet",
-          "value": "A"
+          "value": "A",
+          "text": "public debates have not settled yet"
         },
         {
           "key": "B",
-          "text": "fire-fighting conditions are improving",
-          "value": "B"
+          "value": "B",
+          "text": "a shift in the view of fire has taken place"
         },
         {
           "key": "C",
-          "text": "other factors should not be overlooked",
-          "value": "C"
+          "value": "C",
+          "text": "other factors should not be overlooked"
         },
         {
           "key": "D",
-          "text": "a shift in the view of fire has taken place",
-          "value": "D"
+          "value": "D",
+          "text": "fire-fighting conditions are improving"
         }
       ],
+      "answer": "C",
       "correct_answer": "C",
-      "explanation": "【考点精析】人物观点题。第五段 Moritz 指出气候变化固然是主因，但在城市建设布局、居民区规划等其他'人为因素同样不可忽视'，选 C。",
-      "points": 2,
-      "sort_order": 38,
-      "answer": "C"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］观点细节题（第七、八段）。\n［解题思路］第七段指出过去十年讨论只聚焦于气候变化；第八段 Moritz 明确指出：虽然气候是关键要素，但不应以牺牲该复杂问题中的其他所有因素为代价（it shouldn't come at the expense of the rest of the equation）。这直接表明不能忽视其他因素（other factors should not be overlooked）。\n［错项排除］[A]公开辩论尚未平息并非 Moritz 的重点；[B]野火观念转变已经发生与后文呼吁转变观念相悖；[D]消防条件正在改善与前文野火加剧的事实相悖。",
+      "analysis": "［考点提炼］观点细节题（第七、八段）。\n［解题思路］第七段指出过去十年讨论只聚焦于气候变化；第八段 Moritz 明确指出：虽然气候是关键要素，但不应以牺牲该复杂问题中的其他所有因素为代价（it shouldn't come at the expense of the rest of the equation）。这直接表明不能忽视其他因素（other factors should not be overlooked）。\n［错项排除］[A]公开辩论尚未平息并非 Moritz 的重点；[B]野火观念转变已经发生与后文呼吁转变观念相悖；[D]消防条件正在改善与前文野火加剧的事实相悖。"
     },
     {
       "id": "eecc91d0-d9f1-54e9-a25b-de280d7d4ce2",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "eca54e9d-3479-5641-bf79-3606e655ca4f",
-      "category_id": "ky2",
+      "question_number": 39,
+      "sort_order": 39,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "The overly simplified view Moritz mentions is a result of failing to",
       "options": [
         {
           "key": "A",
-          "text": "discover the fundamental makeup of nature",
-          "value": "A"
+          "value": "A",
+          "text": "discover the fundamental makeup of nature"
         },
         {
           "key": "B",
-          "text": "explore the mechanism of the human systems",
-          "value": "B"
+          "value": "B",
+          "text": "explore the mechanism of the human systems"
         },
         {
           "key": "C",
-          "text": "maximize the role of landscape in human life",
-          "value": "C"
+          "value": "C",
+          "text": "understand the interrelations of man and nature"
         },
         {
           "key": "D",
-          "text": "understand the interrelations of man and nature",
-          "value": "D"
+          "value": "D",
+          "text": "maximize the role of landscape in human life"
         }
       ],
-      "correct_answer": "D",
-      "explanation": "【考点精析】细节推断题。第六段指出将火灾简单归咎于单一自然现象的盲目观点，源于未能'深入理解人与自然之间的互动与共生关系'，选 D。",
-      "points": 2,
-      "sort_order": 39,
-      "answer": "D"
+      "answer": "C",
+      "correct_answer": "C",
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］因果细节题（第九段）。\n［解题思路］第九段第一、二句指出：人类系统与我们赖以生存的自然景观是紧密相连的，并且这种互动是双向的（interactions go both ways）；未能认识到这一点，就会导致对解决方案的看法过于简化（Failing to recognize that leads to an overly simplified view）。未能认识双向互动即未能理解人与自然的相互关系（failing to understand the interrelations of man and nature）。\n［错项排除］[A]发现自然的基本构造、[B]探索人类系统的机制、[D]最大化景观角色均割裂了“人与自然双向互动”这一核心辩证联系。",
+      "analysis": "［考点提炼］因果细节题（第九段）。\n［解题思路］第九段第一、二句指出：人类系统与我们赖以生存的自然景观是紧密相连的，并且这种互动是双向的（interactions go both ways）；未能认识到这一点，就会导致对解决方案的看法过于简化（Failing to recognize that leads to an overly simplified view）。未能认识双向互动即未能理解人与自然的相互关系（failing to understand the interrelations of man and nature）。\n［错项排除］[A]发现自然的基本构造、[B]探索人类系统的机制、[D]最大化景观角色均割裂了“人与自然双向互动”这一核心辩证联系。"
     },
     {
       "id": "da1b1f33-5767-58d7-8dc9-7af2ec00219e",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "eca54e9d-3479-5641-bf79-3606e655ca4f",
-      "category_id": "ky2",
+      "question_number": 40,
+      "sort_order": 40,
+      "question_type": "reading_item",
       "q_type": "reading_item",
       "stem": "Professor Balch points out that fire is something man should",
       "options": [
         {
           "key": "A",
-          "text": "do away with",
-          "value": "A"
+          "value": "A",
+          "text": "do away with"
         },
         {
           "key": "B",
-          "text": "come to terms with",
-          "value": "B"
+          "value": "B",
+          "text": "come to terms with"
         },
         {
           "key": "C",
-          "text": "pay a price for",
-          "value": "C"
+          "value": "C",
+          "text": "pay a price for"
         },
         {
           "key": "D",
-          "text": "keep away from",
-          "value": "D"
+          "value": "D",
+          "text": "keep away from"
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】主旨结论题。末段 Balch 教授强调火灾本就是大自然不可或缺的规律，人类必须学会'接纳并妥协适应/与火共存'（come to terms with），选 B。",
-      "points": 2,
-      "sort_order": 40,
-      "answer": "B"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］观点态度题（末段）。\n［解题思路］最后一段 Balch 教授指出，人们至今仍把火视为必须完全控制的事件，而不是承认火在人类生活中不可避免的存在（acknowledging fire's inevitable presence in human life）；人与火的自然联系至关重要。因此人类应该学会接受现实并妥协共存（come to terms with，意为“妥协、承认并学会接受”）。\n［错项排除］[A]根除/消除（do away with）是过去被批判的错误控制观念；[C]付出代价曲解了客观共存属性；[D]远离（keep away from）与梳理人与火的紧密联系相矛盾。",
+      "analysis": "［考点提炼］观点态度题（末段）。\n［解题思路］最后一段 Balch 教授指出，人们至今仍把火视为必须完全控制的事件，而不是承认火在人类生活中不可避免的存在（acknowledging fire's inevitable presence in human life）；人与火的自然联系至关重要。因此人类应该学会接受现实并妥协共存（come to terms with，意为“妥协、承认并学会接受”）。\n［错项排除］[A]根除/消除（do away with）是过去被批判的错误控制观念；[C]付出代价曲解了客观共存属性；[D]远离（keep away from）与梳理人与火的紧密联系相矛盾。"
     },
     {
       "id": "e3a646cd-f356-58b6-a412-c857031e157a",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "ff3e00e5-4c95-5977-85b6-b0f6979d6428",
-      "category_id": "ky2",
+      "question_number": 41,
+      "sort_order": 41,
+      "question_type": "reading_item",
       "q_type": "reading_item",
-      "stem": "Match Jay Dunwell with the statement that reflects his view (A-G):",
+      "stem": "Match Jay Dunwell with the statement that reflects his/her view (A-G):",
       "options": [
         {
           "key": "A",
-          "text": "says that he switched to electrical engineering because he loves working with tools.",
-          "value": "A"
+          "value": "A",
+          "text": "says that he switched to electrical engineering because he loves working with tools."
         },
         {
           "key": "B",
-          "text": "points out that there are enough people to fill the jobs that don't need much skill.",
-          "value": "B"
+          "value": "B",
+          "text": "points out that there are enough people to fill the jobs that don't need much skill."
         },
         {
           "key": "C",
-          "text": "points out that the US doesn't manufacture anything anymore.",
-          "value": "C"
+          "value": "C",
+          "text": "points out that the US doesn't manufacture anything anymore."
         },
         {
           "key": "D",
-          "text": "believes that it is important to keep a close eye on the age of his workers.",
-          "value": "D"
+          "value": "D",
+          "text": "believes that it is important to keep a close eye on the age of his workers."
         },
         {
           "key": "E",
-          "text": "says that for factory owners, workers are harder to find because of stiff competition.",
-          "value": "E"
+          "value": "E",
+          "text": "says that for factory owners, workers are harder to find because of stiff competition."
         },
         {
           "key": "F",
-          "text": "points out that a work/life balance can attract young people into manufacturing.",
-          "value": "F"
+          "value": "F",
+          "text": "points out that a work/life balance can attract young people into manufacturing."
         },
         {
           "key": "G",
-          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents.",
-          "value": "G"
+          "value": "G",
+          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents."
         }
       ],
+      "answer": "E",
       "correct_answer": "E",
-      "explanation": "【考点精析】多项对应题。文中 Dunwell 指出制造业招工面临其他行业严重争抢，由于激烈竞争导致招工极难，对应 E 项。",
-      "points": 2,
-      "sort_order": 41,
-      "answer": "E"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］人物观点匹配题（第二段）。\n［解题思路］第二段介绍 Grand Rapids Chair Co. 的管理者 Jay Dunwell，他指出工厂寻找合格员工极其艰难：“人才竞争非常激烈，我们都在争夺同一个工人人才库”（The competition for talent is fierce. We're all fighting for the same pool of workers）。这与 E 项“指出对于工厂老板而言，由于激烈的竞争，工人更难找到”完全吻合。\n［错项排除］Dunwell 未讨论父母失业或工具操作，精准匹配 E 项。",
+      "analysis": "［考点提炼］人物观点匹配题（第二段）。\n［解题思路］第二段介绍 Grand Rapids Chair Co. 的管理者 Jay Dunwell，他指出工厂寻找合格员工极其艰难：“人才竞争非常激烈，我们都在争夺同一个工人人才库”（The competition for talent is fierce. We're all fighting for the same pool of workers）。这与 E 项“指出对于工厂老板而言，由于激烈的竞争，工人更难找到”完全吻合。\n［错项排除］Dunwell 未讨论父母失业或工具操作，精准匹配 E 项。"
     },
     {
       "id": "9de4e2ad-fb75-568e-8330-a1c2e53a20a4",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "ff3e00e5-4c95-5977-85b6-b0f6979d6428",
-      "category_id": "ky2",
+      "question_number": 42,
+      "sort_order": 42,
+      "question_type": "reading_item",
       "q_type": "reading_item",
-      "stem": "Match Jason Stenquist with the statement that reflects his view (A-G):",
+      "stem": "Match Jason Stenquist with the statement that reflects his/her view (A-G):",
       "options": [
         {
           "key": "A",
-          "text": "says that he switched to electrical engineering because he loves working with tools.",
-          "value": "A"
+          "value": "A",
+          "text": "says that he switched to electrical engineering because he loves working with tools."
         },
         {
           "key": "B",
-          "text": "points out that there are enough people to fill the jobs that don't need much skill.",
-          "value": "B"
+          "value": "B",
+          "text": "points out that there are enough people to fill the jobs that don't need much skill."
         },
         {
           "key": "C",
-          "text": "points out that the US doesn't manufacture anything anymore.",
-          "value": "C"
+          "value": "C",
+          "text": "points out that the US doesn't manufacture anything anymore."
         },
         {
           "key": "D",
-          "text": "believes that it is important to keep a close eye on the age of his workers.",
-          "value": "D"
+          "value": "D",
+          "text": "believes that it is important to keep a close eye on the age of his workers."
         },
         {
           "key": "E",
-          "text": "says that for factory owners, workers are harder to find because of stiff competition.",
-          "value": "E"
+          "value": "E",
+          "text": "says that for factory owners, workers are harder to find because of stiff competition."
         },
         {
           "key": "F",
-          "text": "points out that a work/life balance can attract young people into manufacturing.",
-          "value": "F"
+          "value": "F",
+          "text": "points out that a work/life balance can attract young people into manufacturing."
         },
         {
           "key": "G",
-          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents.",
-          "value": "G"
+          "value": "G",
+          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents."
         }
       ],
+      "answer": "A",
       "correct_answer": "A",
-      "explanation": "【考点精析】多项对应题。文中 Stenquist 说明自己转行电气工程是因为发自内心喜欢摆弄工具动手实践，对应 A 项。",
-      "points": 2,
-      "sort_order": 42,
-      "answer": "A"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］人物观点匹配题（第三段）。\n［解题思路］第三段描述了 CNC 技工 Jason Stenquist，他原本在大学攻读计算机科学，后因意识到自己更喜欢动手操作而退学：“我喜欢制造东西，我喜欢用双手和工具工作”（I like building things, I like working with my hands and tools）。这与 A 项“表示自己转向机械工程技术是因为喜欢使用工具工作”完全对应。\n［错项排除］Stenquist 代表青年技术工人，准确对应 A 项。",
+      "analysis": "［考点提炼］人物观点匹配题（第三段）。\n［解题思路］第三段描述了 CNC 技工 Jason Stenquist，他原本在大学攻读计算机科学，后因意识到自己更喜欢动手操作而退学：“我喜欢制造东西，我喜欢用双手和工具工作”（I like building things, I like working with my hands and tools）。这与 A 项“表示自己转向机械工程技术是因为喜欢使用工具工作”完全对应。\n［错项排除］Stenquist 代表青年技术工人，准确对应 A 项。"
     },
     {
       "id": "ab788497-cfd1-5278-ab1f-d9759082904b",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "ff3e00e5-4c95-5977-85b6-b0f6979d6428",
-      "category_id": "ky2",
+      "question_number": 43,
+      "sort_order": 43,
+      "question_type": "reading_item",
       "q_type": "reading_item",
-      "stem": "Match Birgit Klohs with the statement that reflects her view (A-G):",
+      "stem": "Match Birgit Klohs with the statement that reflects his/her view (A-G):",
       "options": [
         {
           "key": "A",
-          "text": "says that he switched to electrical engineering because he loves working with tools.",
-          "value": "A"
+          "value": "A",
+          "text": "says that he switched to electrical engineering because he loves working with tools."
         },
         {
           "key": "B",
-          "text": "points out that there are enough people to fill the jobs that don't need much skill.",
-          "value": "B"
+          "value": "B",
+          "text": "points out that there are enough people to fill the jobs that don't need much skill."
         },
         {
           "key": "C",
-          "text": "points out that the US doesn't manufacture anything anymore.",
-          "value": "C"
+          "value": "C",
+          "text": "points out that the US doesn't manufacture anything anymore."
         },
         {
           "key": "D",
-          "text": "believes that it is important to keep a close eye on the age of his workers.",
-          "value": "D"
+          "value": "D",
+          "text": "believes that it is important to keep a close eye on the age of his workers."
         },
         {
           "key": "E",
-          "text": "says that for factory owners, workers are harder to find because of stiff competition.",
-          "value": "E"
+          "value": "E",
+          "text": "says that for factory owners, workers are harder to find because of stiff competition."
         },
         {
           "key": "F",
-          "text": "points out that a work/life balance can attract young people into manufacturing.",
-          "value": "F"
+          "value": "F",
+          "text": "points out that a work/life balance can attract young people into manufacturing."
         },
         {
           "key": "G",
-          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents.",
-          "value": "G"
+          "value": "G",
+          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents."
         }
       ],
+      "answer": "G",
       "correct_answer": "G",
-      "explanation": "【考点精析】多项对应题。文中 Klohs 指出千禧一代目睹了父母在制造业大衰退中被裁员，将阴影归咎于行业衰退，对应 G 项。",
-      "points": 2,
-      "sort_order": 43,
-      "answer": "G"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］人物观点匹配题（第四段）。\n［解题思路］第四段中经济发展组织负责人 Birgit Klohs 指出，父母往往不鼓励孩子从事制造业工作，是因为他们对经济衰退时期的裁员记忆犹新：“父母们记得工厂倒闭的黑暗日子”（The parents remember the dark days when factories closed）。这与 G 项“认为制造业衰退应为年轻一代父母的下岗被裁负责”精准对应。\n［错项排除］Klohs 重点分析了父母对制造业刻板印象的成因，对应 G 项。",
+      "analysis": "［考点提炼］人物观点匹配题（第四段）。\n［解题思路］第四段中经济发展组织负责人 Birgit Klohs 指出，父母往往不鼓励孩子从事制造业工作，是因为他们对经济衰退时期的裁员记忆犹新：“父母们记得工厂倒闭的黑暗日子”（The parents remember the dark days when factories closed）。这与 G 项“认为制造业衰退应为年轻一代父母的下岗被裁负责”精准对应。\n［错项排除］Klohs 重点分析了父母对制造业刻板印象的成因，对应 G 项。"
     },
     {
       "id": "c301ce3f-a194-59a3-9caf-b16dfc7da154",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "ff3e00e5-4c95-5977-85b6-b0f6979d6428",
-      "category_id": "ky2",
+      "question_number": 44,
+      "sort_order": 44,
+      "question_type": "reading_item",
       "q_type": "reading_item",
-      "stem": "Match Rob Spohr with the statement that reflects his view (A-G):",
+      "stem": "Match Rob Spohr with the statement that reflects his/her view (A-G):",
       "options": [
         {
           "key": "A",
-          "text": "says that he switched to electrical engineering because he loves working with tools.",
-          "value": "A"
+          "value": "A",
+          "text": "says that he switched to electrical engineering because he loves working with tools."
         },
         {
           "key": "B",
-          "text": "points out that there are enough people to fill the jobs that don't need much skill.",
-          "value": "B"
+          "value": "B",
+          "text": "points out that there are enough people to fill the jobs that don't need much skill."
         },
         {
           "key": "C",
-          "text": "points out that the US doesn't manufacture anything anymore.",
-          "value": "C"
+          "value": "C",
+          "text": "points out that the US doesn't manufacture anything anymore."
         },
         {
           "key": "D",
-          "text": "believes that it is important to keep a close eye on the age of his workers.",
-          "value": "D"
+          "value": "D",
+          "text": "believes that it is important to keep a close eye on the age of his workers."
         },
         {
           "key": "E",
-          "text": "says that for factory owners, workers are harder to find because of stiff competition.",
-          "value": "E"
+          "value": "E",
+          "text": "says that for factory owners, workers are harder to find because of stiff competition."
         },
         {
           "key": "F",
-          "text": "points out that a work/life balance can attract young people into manufacturing.",
-          "value": "F"
+          "value": "F",
+          "text": "points out that a work/life balance can attract young people into manufacturing."
         },
         {
           "key": "G",
-          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents.",
-          "value": "G"
+          "value": "G",
+          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents."
         }
       ],
+      "answer": "B",
       "correct_answer": "B",
-      "explanation": "【考点精析】多项对应题。文中 Spohr 指出低技能劳动力供给充足，真正的结构性缺口集中在中间技能层级，对应 B 项。",
-      "points": 2,
-      "sort_order": 44,
-      "answer": "B"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］人物观点匹配题（第五段）。\n［解题思路］第五段中社区学院副院长 Rob Spohr 指出，对技能要求不高的入门级工作很容易招满人：“那些只需要高中或以下学历的工作，我们并不缺人”（The jobs that require a high school diploma or less, we don't have a shortage of people for those）。这与 B 项“指出有足够的人来填补那些不需要太多技能的岗位”完全契合。\n［错项排除］Spohr 强调技术岗位缺人而低技能岗位人员充裕，准确匹配 B 项。",
+      "analysis": "［考点提炼］人物观点匹配题（第五段）。\n［解题思路］第五段中社区学院副院长 Rob Spohr 指出，对技能要求不高的入门级工作很容易招满人：“那些只需要高中或以下学历的工作，我们并不缺人”（The jobs that require a high school diploma or less, we don't have a shortage of people for those）。这与 B 项“指出有足够的人来填补那些不需要太多技能的岗位”完全契合。\n［错项排除］Spohr 强调技术岗位缺人而低技能岗位人员充裕，准确匹配 B 项。"
     },
     {
       "id": "3f53f515-d79f-5131-9ecd-ca6c508633b6",
       "exam_id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
       "passage_id": "ff3e00e5-4c95-5977-85b6-b0f6979d6428",
-      "category_id": "ky2",
+      "question_number": 45,
+      "sort_order": 45,
+      "question_type": "reading_item",
       "q_type": "reading_item",
-      "stem": "Match Julie Parks with the statement that reflects her view (A-G):",
+      "stem": "Match Julie Parks with the statement that reflects his/her view (A-G):",
       "options": [
         {
           "key": "A",
-          "text": "says that he switched to electrical engineering because he loves working with tools.",
-          "value": "A"
+          "value": "A",
+          "text": "says that he switched to electrical engineering because he loves working with tools."
         },
         {
           "key": "B",
-          "text": "points out that there are enough people to fill the jobs that don't need much skill.",
-          "value": "B"
+          "value": "B",
+          "text": "points out that there are enough people to fill the jobs that don't need much skill."
         },
         {
           "key": "C",
-          "text": "points out that the US doesn't manufacture anything anymore.",
-          "value": "C"
+          "value": "C",
+          "text": "points out that the US doesn't manufacture anything anymore."
         },
         {
           "key": "D",
-          "text": "believes that it is important to keep a close eye on the age of his workers.",
-          "value": "D"
+          "value": "D",
+          "text": "believes that it is important to keep a close eye on the age of his workers."
         },
         {
           "key": "E",
-          "text": "says that for factory owners, workers are harder to find because of stiff competition.",
-          "value": "E"
+          "value": "E",
+          "text": "says that for factory owners, workers are harder to find because of stiff competition."
         },
         {
           "key": "F",
-          "text": "points out that a work/life balance can attract young people into manufacturing.",
-          "value": "F"
+          "value": "F",
+          "text": "points out that a work/life balance can attract young people into manufacturing."
         },
         {
           "key": "G",
-          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents.",
-          "value": "G"
+          "value": "G",
+          "text": "says that the manufacturing recession is to blame for the lay-off of the young people's parents."
         }
       ],
+      "answer": "F",
       "correct_answer": "F",
-      "explanation": "【考点精析】多项对应题。文中 Parks 强调年轻一代重视工作与生活平衡，注重灵活性才能吸引年轻人进入制造业，对应 F 项。",
-      "points": 2,
-      "sort_order": 45,
-      "answer": "F"
+      "score": 2.0,
+      "points": 2.0,
+      "explanation": "［考点提炼］人物观点匹配题（第六段）。\n［解题思路］第六段中劳动力培训执行主管 Julie Parks 指出：“千禧一代和Z世代追求灵活性和工作与生活的平衡，适应这些期望的公司在招募年轻人才方面要成功得多”（Millennials and Gen Z want flexibility and work-life balance）。这与 F 项“指出工作与生活的平衡能够吸引年轻人加入制造业”完美对应。\n［错项排除］Parks 的核心建言是企业需满足年轻人对工作生活平衡的追求，准确匹配 F 项。",
+      "analysis": "［考点提炼］人物观点匹配题（第六段）。\n［解题思路］第六段中劳动力培训执行主管 Julie Parks 指出：“千禧一代和Z世代追求灵活性和工作与生活的平衡，适应这些期望的公司在招募年轻人才方面要成功得多”（Millennials and Gen Z want flexibility and work-life balance）。这与 F 项“指出工作与生活的平衡能够吸引年轻人加入制造业”完美对应。\n［错项排除］Parks 的核心建言是企业需满足年轻人对工作生活平衡的追求，准确匹配 F 项。"
     }
   ],
   "exportedAt": "2026-10-15T11:40:22.178Z"
