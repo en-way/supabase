@@ -2,12 +2,12 @@
   "exam": {
     "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
     "category_id": "ky1",
-    "title": "2020年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2020年全国硕士研究生招生考试英语（一）真题",
     "year": 2020,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -30,8 +30,10 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Even if families don't sit down to eat together as frequently as before, millions of Britons will nonetheless! have got a share this weekend of one of the nation's great traditions: the Sunday roast. [1] a cold winter's day, few culinary pleasures can [2] it. Yet as we report now, the food police are determined that this [3] should be rendered yet another guilty pleasure [4] to damage our health. The Food Standards Authority (FSA) has [5] a public warning about the risks of a compound called acrylamide that forms in some foods cooked [6] high temperatures. This means that people should [7] crisping their roast potatoes, reject thin-crust pizzas and only [8] toast their bread. But where is the evidence to support such alaimist advice? O [9] studies have shown that acrylamide can cause neurological damage in mice, there is no [10] evidence that it causes cancer in humans. Scientists say the chemical is [11] to cause cancer, but have no hard scientific proof. [12] the precautionary principle, it could be argued that it is [13] to follow the FSA advice. [14], it was rumoured that smoking caused cancer for years before the evidence was found to prove a [15] I\\ Doubtless a piece of boiled beef can always be [16] up on Sunday alongside some steamed vegetables, without the Yorkshire pudding and no wine. But would life be worth living? [17], the FSA says it is not telling people to cut out roast foods [18], but to reduce their lifetime intake. O However, their [19] risks coining across as being pushy \" and overprotective. Constant health scares just [20] with no one listening.",
-      "sort_order": 1
+      "content": "Even if families don't sit down to eat together as frequently as before, millions of Britons will nonetheless have got a share this weekend of one of the nation's great traditions: the Sunday roast. [1] a cold winter's day, few culinary pleasures can [2] it. Yet as we report now, the food police are determined that this [3] should be rendered yet another guilty pleasure [4] to damage our health.\n\nThe Food Standards Authority (FSA) has [5] a public warning about the risks of a compound called acrylamide that forms in some foods cooked [6] high temperatures. This means that people should [7] crisping their roast potatoes, reject thin-crust pizzas and only [8] toast their bread. But where is the evidence to support such alarmist advice? [9] studies have shown that acrylamide can cause neurological damage in mice, there is no [10] evidence that it causes cancer in humans.\n\nScientists say the compound is [11] to cause cancer but have no hard scientific proof. [12] the precautionary principle, it could be argued that it is [13] to follow the FSA advice. [14], it was rumoured that smoking caused cancer for years before the evidence was found to prove a [15].\n\nDoubtless a piece of boiled beef can always be [16] up on Sunday alongside some steamed vegetables, without the Yorkshire pudding and no wine. But would life be worth living? [17], the FSA says it is not telling people to cut out roast foods [18], but to reduce their lifetime intake. However, their [19] risks coming across as being pushy and overprotective. Constant health scares just [20] with no one listening.",
+      "sort_order": 1,
+      "text": "Even if families don't sit down to eat together as frequently as before, millions of Britons will nonetheless have got a share this weekend of one of the nation's great traditions: the Sunday roast. [1] a cold winter's day, few culinary pleasures can [2] it. Yet as we report now, the food police are determined that this [3] should be rendered yet another guilty pleasure [4] to damage our health.\n\nThe Food Standards Authority (FSA) has [5] a public warning about the risks of a compound called acrylamide that forms in some foods cooked [6] high temperatures. This means that people should [7] crisping their roast potatoes, reject thin-crust pizzas and only [8] toast their bread. But where is the evidence to support such alarmist advice? [9] studies have shown that acrylamide can cause neurological damage in mice, there is no [10] evidence that it causes cancer in humans.\n\nScientists say the compound is [11] to cause cancer but have no hard scientific proof. [12] the precautionary principle, it could be argued that it is [13] to follow the FSA advice. [14], it was rumoured that smoking caused cancer for years before the evidence was found to prove a [15].\n\nDoubtless a piece of boiled beef can always be [16] up on Sunday alongside some steamed vegetables, without the Yorkshire pudding and no wine. But would life be worth living? [17], the FSA says it is not telling people to cut out roast foods [18], but to reduce their lifetime intake. However, their [19] risks coming across as being pushy and overprotective. Constant health scares just [20] with no one listening.",
+      "passage_type": "use_of_english"
     },
     {
       "id": "f302706f-9974-5b80-8629-8e25ea60bba3",
@@ -39,8 +41,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "A group of Labour MPs, among them Yvette Cooper, are bringing in the new year with a call to institute a UK \"town of culturev award. The\n\n. Cooper and her colleagues argue that a 41 town of culture\" award could. Some might see the proposal as a booby prize for the fact that Britain is no longer able to apply for the much more prestigious title of European capital of culture, a sought-after award bagged by Glasgow in\n\nand Liverpool in 2008. A cynic' might speculate that the UK is on the verge of disappearing into an endless fever of self-celebration in its desperation to reinvent itself for the post-Brexit world: after town of culture, who knows what will follow—village of culture? Suburb of culture? Hamlet\" of culture? Some might see the proposal as a booby prize for the fact\n\nA u town of culture** could be not just about the arts but about honouring a town's peculiarities — helping sustain its high street, supporting local facilities and above all celebrating its people. Jeremy Wright, the culture secretary, should welcome this positive, hope-filled proposal. and turn it into action.\n\nScientific publishing has long been a licence to print money. Scientists need journals in which to publish their research, so they will supply the articles without monetary reward. Other scientists perforin 1 the specialised work of peer review also for free, because it is a central element in the acquisition of status and the production of scientific knowledge.",
-      "sort_order": 2
+      "content": "A group of Labour MPs, among them Yvette Cooper, are bringing in the new year with a call to institute a UK \"town of culture\" award. The proposal is that it should sit alongside the existing city of culture title, which was held by Hull in 2017, and has been awarded to Coventry for 2021. Cooper and her colleagues argue that the success of the crown for Hull, where it brought in £220m of investment and an avalanche of arts, ought not to be confined to cities. Britain's towns, it is true, are not prevented from applying, but they generally lack the resources to put together a bid to beat their bigger competitors. A town of culture award could, it is argued, become an annual event, attracting funding and creating jobs.\n\nSome might see the proposal as a booby prize for the fact that Britain is no longer able to apply for the much more prestigious title of European capital of culture, a sought-after award bagged by Glasgow in 1990 and Liverpool in 2008. A cynic might speculate that the UK is on the verge of disappearing into an endless fever of self-celebration in its desperation to reinvent itself for the post-Brexit world: after town of culture, who knows what will follow—village of culture? Suburb of culture? Hamlet of culture?\n\nIt is also wise to recall that such titles are not a cure-all. A badly run \"year of culture\" washes in and washes out of a place like the tide, bringing prominence for a spell but leaving no lasting benefits to the community. The really successful holders of such titles are those that do a great deal more than fill hotel bedrooms and bring in high-profile arts events and good press for a year. They transform the aspirations of the people who live there; they nudge the self-image of the city into a bolder and more optimistic light. It is hard to get right, and requires a remarkable degree of vision, as well as cooperation between city authorities, the private sector, community groups and cultural organisations. But it can be done: Glasgow's year as European capital of culture can certainly be seen as one of a complex series of factors that have turned the city into the powerhouse of art, music and theatre that it remains today.\n\nA \"town of culture\" could be not just about the arts but about honouring a town's peculiarities—helping sustain its high street, supporting local facilities and above all celebrating its people. Jeremy Wright, the culture secretary, should welcome this positive, hope-filled proposal, and turn it into action.",
+      "sort_order": 2,
+      "text": "A group of Labour MPs, among them Yvette Cooper, are bringing in the new year with a call to institute a UK \"town of culture\" award. The proposal is that it should sit alongside the existing city of culture title, which was held by Hull in 2017, and has been awarded to Coventry for 2021. Cooper and her colleagues argue that the success of the crown for Hull, where it brought in £220m of investment and an avalanche of arts, ought not to be confined to cities. Britain's towns, it is true, are not prevented from applying, but they generally lack the resources to put together a bid to beat their bigger competitors. A town of culture award could, it is argued, become an annual event, attracting funding and creating jobs.\n\nSome might see the proposal as a booby prize for the fact that Britain is no longer able to apply for the much more prestigious title of European capital of culture, a sought-after award bagged by Glasgow in 1990 and Liverpool in 2008. A cynic might speculate that the UK is on the verge of disappearing into an endless fever of self-celebration in its desperation to reinvent itself for the post-Brexit world: after town of culture, who knows what will follow—village of culture? Suburb of culture? Hamlet of culture?\n\nIt is also wise to recall that such titles are not a cure-all. A badly run \"year of culture\" washes in and washes out of a place like the tide, bringing prominence for a spell but leaving no lasting benefits to the community. The really successful holders of such titles are those that do a great deal more than fill hotel bedrooms and bring in high-profile arts events and good press for a year. They transform the aspirations of the people who live there; they nudge the self-image of the city into a bolder and more optimistic light. It is hard to get right, and requires a remarkable degree of vision, as well as cooperation between city authorities, the private sector, community groups and cultural organisations. But it can be done: Glasgow's year as European capital of culture can certainly be seen as one of a complex series of factors that have turned the city into the powerhouse of art, music and theatre that it remains today.\n\nA \"town of culture\" could be not just about the arts but about honouring a town's peculiarities—helping sustain its high street, supporting local facilities and above all celebrating its people. Jeremy Wright, the culture secretary, should welcome this positive, hope-filled proposal, and turn it into action.",
+      "passage_type": "reading"
     },
     {
       "id": "bacebfee-081a-5b38-a494-901034d4dcaf",
@@ -49,7 +53,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "Scientific publishing has long been a licence to print money. Scientists need journals in which to publish their research, so they will supply the articles without monetary reward. Other scientists perform the specialised work of peer review also for free, because it is a central element in the acquisition of status and the production of scientific knowledge.\n\nWith the content of papers secured for free, the publisher needs only find a market for its journal. Until this century, university libraries were not very price sensitive. Scientific publishers routinely report profit margins approaching 40% on their operations, at a time when the rest of the publishing industry is in an existential crisis.\n\nThe Dutch giant Elsevier, which claims to publish 25% of the scientific papers produced in the world, made profits of more than £900m last year, while UK universities alone spent more than £210m in 2016 to enable researchers to access their own publicly funded research; both figures seem to rise unstoppably despite increasingly desperate efforts to change them.\n\nThe most drastic, and thoroughly illegal, reaction has been the emergence of Sci-Hub, a kind of global photocopier for scientific papers, set up in 2012, which now claims to offer access to every paywalled article published since 2015. The success of Sci-Hub, which relies on researchers passing on copies they have themselves legally accessed, shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants.\n\nIn Britain the move towards open access publishing has been driven by funding bodies. In some ways it has been very successful. More than half of all British scientific research is now published under open access terms: either freely available from the moment of publication, or paywalled for a year or more so that the publishers can make a profit before being placed on general release.\n\nYet the new system has not yet worked out any cheaper for the universities. Publishers have responded to the demand that they make their product free to readers by charging their writers fees to cover the costs of preparing an article. These range from around £500 to $5,000, and apparently the work gets more expensive the more that publishers do it. A report last year pointed out that the costs both of subscriptions and of these \"article preparation costs\" had been steadily rising at a rate above inflation.\n\nIn some ways the scientific publishing model resembles the economy of the social internet: labour is provided free in exchange for the hope of status, while huge profits are made by a few big firms who run the market places. In both cases, we need a rebalancing of power.",
-      "sort_order": 3
+      "sort_order": 3,
+      "text": "Scientific publishing has long been a licence to print money. Scientists need journals in which to publish their research, so they will supply the articles without monetary reward. Other scientists perform the specialised work of peer review also for free, because it is a central element in the acquisition of status and the production of scientific knowledge.\n\nWith the content of papers secured for free, the publisher needs only find a market for its journal. Until this century, university libraries were not very price sensitive. Scientific publishers routinely report profit margins approaching 40% on their operations, at a time when the rest of the publishing industry is in an existential crisis.\n\nThe Dutch giant Elsevier, which claims to publish 25% of the scientific papers produced in the world, made profits of more than £900m last year, while UK universities alone spent more than £210m in 2016 to enable researchers to access their own publicly funded research; both figures seem to rise unstoppably despite increasingly desperate efforts to change them.\n\nThe most drastic, and thoroughly illegal, reaction has been the emergence of Sci-Hub, a kind of global photocopier for scientific papers, set up in 2012, which now claims to offer access to every paywalled article published since 2015. The success of Sci-Hub, which relies on researchers passing on copies they have themselves legally accessed, shows the legal ecosystem has lost legitimacy among its users and must be transformed so that it works for all participants.\n\nIn Britain the move towards open access publishing has been driven by funding bodies. In some ways it has been very successful. More than half of all British scientific research is now published under open access terms: either freely available from the moment of publication, or paywalled for a year or more so that the publishers can make a profit before being placed on general release.\n\nYet the new system has not yet worked out any cheaper for the universities. Publishers have responded to the demand that they make their product free to readers by charging their writers fees to cover the costs of preparing an article. These range from around £500 to $5,000, and apparently the work gets more expensive the more that publishers do it. A report last year pointed out that the costs both of subscriptions and of these \"article preparation costs\" had been steadily rising at a rate above inflation.\n\nIn some ways the scientific publishing model resembles the economy of the social internet: labour is provided free in exchange for the hope of status, while huge profits are made by a few big firms who run the market places. In both cases, we need a rebalancing of power.",
+      "passage_type": "reading"
     },
     {
       "id": "91b89f45-07cf-5554-9cf7-405b0ca6586c",
@@ -57,8 +63,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "Progressives often support diversity mandates as a path to equality and a way to level the playing field. But all too often such policies are an insincere form of virtue-signaling that benefits only the most privileged and does little to help average people.\n\nA pair of bills sponsored by Massachusetts state Senator Jason Lewis and House Speaker Pro Tempore Patricia Haddad, to ensure ugender parity ” on boards and commissions, provide a case in point.\n\naddad and Lewis are concerned that more than half the state-government boards are less than 40 percent female. In order to ensure that elite women have more such opportunities, they have proposed imposing government quotas. If the bills become law, state boards and commissions will be required to set aside 50 percent of board seats for women by 2022.\n\n. The author believes that the bills sponsored by Lewis and Haddad will. the most privileged and does little to help average people).\n\nThe bills are similar to a measure recently adopted in California, which last year became the first state to require gender quotas for private companies. In signing the measure, California Governor Jerry Brown admitted that the law, which expressly classifies people on the basis of sex, is probably unconstitutional.\n\nThe US Supreme Court frowns on sex-based classifications unless they are designed to address an \"important” policy interest. Because the California law applies to all boards, even where there is no history of prior discrimination, courts are likely to rule that the law violates the constitutional guarantee of \"equal protection\".\n\nBut are such government mandates even necessary? Female participation on corporate boards may not currently mirror the percentage of women in the general population, but so what? W The number of women on corporate boards has been steadily increasing without government interference. According to a study by Catalyst, between 2010 and 2015 the share of women on the boards of global corporations increased by\n\nRequiring companies to make gender the primary qualification for board membership will inevitably lead to less experienced private sector boards. That is exactly what happened when Norway adopted a nationwide corporate gender quota. K Writing in The New Republic, Alice Lee notes that increasing the number of opportunities for board membership without increasing the pool\" of qualified women to serve on such boards has led to a **golden skirtM phenomenon, where the same elite women scoop up multiple seats on a variety of boards.",
-      "sort_order": 4
+      "content": "Progressives often support diversity mandates as a path to equality and a way to level the playing field. But all too often such policies are an insincere form of virtue-signaling that benefits only the most privileged and does little to help average people.\n\nA pair of bills sponsored by Massachusetts state Senator Jason Lewis and House Speaker Pro Tempore Patricia Haddad, to ensure \"gender parity\" on boards and commissions, provide a case in point.\n\nHaddad and Lewis are concerned that more than half the state-government boards are less than 40 percent female. In order to ensure that elite women have more such opportunities, they have proposed imposing government quotas. If the bills become law, state boards and commissions will be required to set aside 50 percent of board seats for women by 2022.\n\nThe bills are similar to a measure recently adopted in California, which last year became the first state to require gender quotas for private companies. In signing the measure, California Governor Jerry Brown admitted that the law, which expressly classifies people on the basis of sex, is probably unconstitutional.\n\nThe US Supreme Court frowns on sex-based classifications unless they are designed to address an \"important\" policy interest. Because the California law applies to all boards, even where there is no history of prior discrimination, courts are likely to rule that the law violates the constitutional guarantee of \"equal protection\".\n\nBut are such government mandates even necessary? Female participation on corporate boards may not currently mirror the percentage of women in the general population, but so what?\n\nThe number of women on corporate boards has been steadily increasing without government interference. According to a study by Catalyst, between 2010 and 2015 the share of women on the boards of global corporations increased by 54 percent.\n\nRequiring companies to make gender the primary qualification for board membership will inevitably lead to less experienced private sector boards. That is exactly what happened when Norway adopted a nationwide corporate gender quota.\n\nWriting in The New Republic, Alice Lee notes that increasing the number of opportunities for board membership without increasing the pool of qualified women to serve on such boards has led to a \"golden skirt\" phenomenon, where the same elite women scoop up multiple seats on a variety of boards.\n\nNext time somebody pushes corporate quotas as a way to promote gender equity, remember that such policies are largely self-serving measures that make their sponsors feel good but do little to help average women.",
+      "sort_order": 4,
+      "text": "Progressives often support diversity mandates as a path to equality and a way to level the playing field. But all too often such policies are an insincere form of virtue-signaling that benefits only the most privileged and does little to help average people.\n\nA pair of bills sponsored by Massachusetts state Senator Jason Lewis and House Speaker Pro Tempore Patricia Haddad, to ensure \"gender parity\" on boards and commissions, provide a case in point.\n\nHaddad and Lewis are concerned that more than half the state-government boards are less than 40 percent female. In order to ensure that elite women have more such opportunities, they have proposed imposing government quotas. If the bills become law, state boards and commissions will be required to set aside 50 percent of board seats for women by 2022.\n\nThe bills are similar to a measure recently adopted in California, which last year became the first state to require gender quotas for private companies. In signing the measure, California Governor Jerry Brown admitted that the law, which expressly classifies people on the basis of sex, is probably unconstitutional.\n\nThe US Supreme Court frowns on sex-based classifications unless they are designed to address an \"important\" policy interest. Because the California law applies to all boards, even where there is no history of prior discrimination, courts are likely to rule that the law violates the constitutional guarantee of \"equal protection\".\n\nBut are such government mandates even necessary? Female participation on corporate boards may not currently mirror the percentage of women in the general population, but so what?\n\nThe number of women on corporate boards has been steadily increasing without government interference. According to a study by Catalyst, between 2010 and 2015 the share of women on the boards of global corporations increased by 54 percent.\n\nRequiring companies to make gender the primary qualification for board membership will inevitably lead to less experienced private sector boards. That is exactly what happened when Norway adopted a nationwide corporate gender quota.\n\nWriting in The New Republic, Alice Lee notes that increasing the number of opportunities for board membership without increasing the pool of qualified women to serve on such boards has led to a \"golden skirt\" phenomenon, where the same elite women scoop up multiple seats on a variety of boards.\n\nNext time somebody pushes corporate quotas as a way to promote gender equity, remember that such policies are largely self-serving measures that make their sponsors feel good but do little to help average women.",
+      "passage_type": "reading"
     },
     {
       "id": "827fbddb-e7f0-5a92-8bd1-e292d035500e",
@@ -66,8 +74,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "Last Thursday, the French Senate passed a digital services tax, which would impose an entirely new tax on large multinationals that provide digital services to consumers or users in France. Digital services include everything from providing a platform for selling goods and services online to targeting advertising based on user data, and the tax applies to gross revenue from such services. Many French politicians and media outlets have referred to this as a \"GAFA tax,\" meaning that it is designed to apply primarily to companies such as Google, Apple, companies based in the United States.\n\nThe digital services tax now awaits the signature of President Emmanuel Macron, who has expressed support for the measure, and it could go into effect within the next few weeks. But it has already sparked significant controversy, with the United States trade representative opening an investigation into whether the tax discriminates against American companies, which in turn could lead to trade sanctions against France.\n\nThe French tax is not just a unilateral move by one country in need of revenue. Instead, the digital services tax is part of a much larger trend, with countries over the past few years proposing or putting in place an alphabet soup of new international tax provisions. They have included Britain DPT (diverted profits tax), Australia's MAAL (multinational anti-avoidance law), and India's SEP (significant economic presence) test, to name but a few. At the same time, the European Union, Spain, Britain and several other countries have all seriously contemplated digital services taxes. j\n\nThese unilateral developments differ in their specifics, but they are all designed to tax multinationals on income and revenue that countries believe they should have a right to tax. even if international tax rules do not grant them that right. In other words, they all share a view that the international tax system has failed to keep up with the current economy. not grant them that right.\n\nThese unilateral developments differ in their specifics. even if international tax rules do not grant them that right.\n\nn response to these many unilateral measures, the Organization for Economic Cooperation and Development (OECD) is currently working with 131 countries to reach a consensus by the end of 2020 on an international solution. Both France and the United States are involved in the organization's work, but France's digital services tax and the American response raise questions about what the future holds for the international tax system.",
-      "sort_order": 5
+      "content": "Last Thursday, the French Senate passed a digital services tax, which would impose an entirely new tax on large multinationals that provide digital services to consumers or users in France. Digital services include everything from providing a platform for selling goods and services online to targeting advertising based on user data, and the tax applies to gross revenue from such services. Many French politicians and media outlets have referred to this as a \"GAFA tax,\" meaning that it is designed to apply primarily to companies such as Google, Apple, Facebook and Amazon—in other words, multinational tech companies based in the United States.\n\nThe digital services tax now awaits the signature of President Emmanuel Macron, who has expressed support for the measure, and it could go into effect within the next few weeks. But it has already sparked significant controversy, with the United States trade representative opening an investigation into whether the tax discriminates against American companies, which in turn could lead to trade sanctions against France.\n\nThe French tax is not just a unilateral move by one country in need of revenue. Instead, the digital services tax is part of a much larger trend, with countries over the past few years proposing or putting in place an alphabet soup of new international tax provisions. They have included Britain's DPT (diverted profits tax), Australia's MAAL (multinational anti-avoidance law), and India's SEP (significant economic presence) test, to name but a few. At the same time, the European Union, Spain, Britain and several other countries have all seriously contemplated digital services taxes.\n\nThese unilateral developments differ in their specifics, but they are all designed to tax multinationals on income and revenue that countries believe they should have a right to tax, even if international tax rules do not grant them that right. In other words, they all share a view that the international tax system has failed to keep up with the current economy.\n\nIn response to these many unilateral measures, the Organization for Economic Cooperation and Development (OECD) is currently working with 131 countries to reach a consensus by the end of 2020 on an international solution. Both France and the United States are involved in the organization's work, but France's digital services tax and the American response raise questions about what the future holds for the international tax system.\n\nFrance's planned tax is a clear warning: Unless a broad consensus can be reached on reforming the international tax system, other nations are likely to follow suit, and American companies will face a cascade of different taxes from dozens of nations that will prove burdensome and costly.",
+      "sort_order": 5,
+      "text": "Last Thursday, the French Senate passed a digital services tax, which would impose an entirely new tax on large multinationals that provide digital services to consumers or users in France. Digital services include everything from providing a platform for selling goods and services online to targeting advertising based on user data, and the tax applies to gross revenue from such services. Many French politicians and media outlets have referred to this as a \"GAFA tax,\" meaning that it is designed to apply primarily to companies such as Google, Apple, Facebook and Amazon—in other words, multinational tech companies based in the United States.\n\nThe digital services tax now awaits the signature of President Emmanuel Macron, who has expressed support for the measure, and it could go into effect within the next few weeks. But it has already sparked significant controversy, with the United States trade representative opening an investigation into whether the tax discriminates against American companies, which in turn could lead to trade sanctions against France.\n\nThe French tax is not just a unilateral move by one country in need of revenue. Instead, the digital services tax is part of a much larger trend, with countries over the past few years proposing or putting in place an alphabet soup of new international tax provisions. They have included Britain's DPT (diverted profits tax), Australia's MAAL (multinational anti-avoidance law), and India's SEP (significant economic presence) test, to name but a few. At the same time, the European Union, Spain, Britain and several other countries have all seriously contemplated digital services taxes.\n\nThese unilateral developments differ in their specifics, but they are all designed to tax multinationals on income and revenue that countries believe they should have a right to tax, even if international tax rules do not grant them that right. In other words, they all share a view that the international tax system has failed to keep up with the current economy.\n\nIn response to these many unilateral measures, the Organization for Economic Cooperation and Development (OECD) is currently working with 131 countries to reach a consensus by the end of 2020 on an international solution. Both France and the United States are involved in the organization's work, but France's digital services tax and the American response raise questions about what the future holds for the international tax system.\n\nFrance's planned tax is a clear warning: Unless a broad consensus can be reached on reforming the international tax system, other nations are likely to follow suit, and American companies will face a cascade of different taxes from dozens of nations that will prove burdensome and costly.",
+      "passage_type": "reading"
     },
     {
       "id": "8fccb237-63da-59e2-b4c2-f21143c9c9cc",
@@ -75,8 +85,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions:\nRead the following text and answer Questions 41-45 by choosing the most suitable heading from the list [A]-[G] for each numbered paragraph. There are two extra choices, which you do not need to use. Mark your answers on the ANSWER SHEET.\n\n[A] Eye fixations are brief\n[B] Too much eye contact is instinctively felt to be rude\n[C] Eye contact can be a friendly social signal\n[D] Personality can affect how a person reacts to eye contact\n[E] Biological factors behind eye contact are being investigated\n[F] Most people are not comfortable holding eye contact with strangers\n[G] Eye contact can also be aggressive\n\nIn a social situation, eye contact with another person can show that you are paying attention in a friendly way. But it can also make you feel uncomfortable. In a political debate, looking into an opponent's eyes might signal hostility. Here's what hard science reveals about eye contact:\n\n[41]\n\nWe look at a person's eyes from the earliest stages of life. Even newborn infants prefer to look at faces that engage in direct eye contact. As we grow older, eye contact serves as a powerful social cue that indicates interest, empathy and connection. In conversation, it signals to the other person that you are actively listening and engaged.\n\n[42]\n\nNeuroscientists are beginning to identify the biological mechanisms behind eye contact. Researchers found that the hormone oxytocin increased the amount of eye contact men made during conversations. Specific brain regions that respond to social interaction become active when people make direct eye contact, suggesting our brains are hardwired for mutual gaze.\n\n[43]\n\nResearchers have also concluded that eye contact can signal very different kinds of intentions. Looking directly at someone can be perceived as an aggressive act or a threat, particularly among primates and in competitive situations. Staring down a competitor is a classic dominance display across many cultures.\n\n[44]\n\nWhen we look at someone's face, our eyes don't stay locked on a single spot. Instead, our gaze makes rapid shifts between different facial features. Eye fixations typically last only a fraction of a second before darting to another point of interest, allowing us to rapidly read emotional cues without appearing to stare inappropriately.\n\n[45]\n\nPersonality traits play a major role in how comfortable individuals feel with eye contact. People who score high in neuroticism tend to avoid direct gaze, fearing negative evaluation, while extraverted individuals are generally far more comfortable maintaining mutual eye contact during social exchanges.",
-      "sort_order": 6
+      "content": "In a social situation, eye contact with another person can show that you are paying attention in a friendly way. But it can also be antagonistic, such as when a political candidate turns toward their competitor during a debate and makes eye contact that signals hostility. Here's what hard science reveals about eye contact:\n\n[41] ____________________\nWe know that a typical infant will instinctively gaze into its mother's eyes, and she will look back. This mutual gaze is a major part of the attachment between mother and child. In adulthood, looking at someone else in a pleasant way can be a complimentary sign of paying attention. It can catch someone's attention in a crowded room. \"Eye contact and smile\" can signal availability and confidence, a common-sense notion supported in studies by psychologist Monica Moore.\n\n[42] ____________________\nNeuroscientist Bonnie Auyeung found that the hormone oxytocin increased the amount of eye contact from men toward the interviewer during a brief interview when the direction of their gaze was recorded. This was also found in high-functioning men with some autistic spectrum symptoms, who may tend to avoid eye contact. Specific brain regions that respond during direct gaze are being explored by other researchers, using advanced methods of brain scanning.\n\n[43] ____________________\nWith the use of eye-tracking technology, Julia Minson of the Harvard Kennedy School of Government concluded that eye contact can signal very different kinds of messages, depending on the situation. While eye contact may be a sign of connection or trust in friendly situations, it's more likely to be associated with dominance or intimidation in adversarial situations. \"Whether you're a politician or a parent, it might be helpful to keep in mind that trying to maintain eye contact may backfire if you're trying to convince someone who has a different set of beliefs than you,\" said Minson.\n\n[44] ____________________\nWhen we look at a face or a picture, our eyes pause on one spot at a time, often on the eyes or mouth. These pauses typically occur at about three per second, and the eyes then jump to another spot, until several important points in the image are registered like a series of snapshots. How the whole image is then assembled and perceived is still a mystery although it is the subject of current research.\n\n[45] ____________________\nIn people who score high in a test of neuroticism, a personality dimension associated with self-consciousness and anxiety, eye contact triggered more activity associated with avoidance, according to the Finnish researcher Jari Hietanen and colleagues. \"Our findings indicate that people do not only feel different when they are the centre of attention but that their brain reactions also differ.\" A more direct finding is that people who scored highly for negative emotions like anxiety looked at others for shorter periods of time and reported more comfortable feelings when others did not look directly at them.",
+      "sort_order": 6,
+      "text": "In a social situation, eye contact with another person can show that you are paying attention in a friendly way. But it can also be antagonistic, such as when a political candidate turns toward their competitor during a debate and makes eye contact that signals hostility. Here's what hard science reveals about eye contact:\n\n[41] ____________________\nWe know that a typical infant will instinctively gaze into its mother's eyes, and she will look back. This mutual gaze is a major part of the attachment between mother and child. In adulthood, looking at someone else in a pleasant way can be a complimentary sign of paying attention. It can catch someone's attention in a crowded room. \"Eye contact and smile\" can signal availability and confidence, a common-sense notion supported in studies by psychologist Monica Moore.\n\n[42] ____________________\nNeuroscientist Bonnie Auyeung found that the hormone oxytocin increased the amount of eye contact from men toward the interviewer during a brief interview when the direction of their gaze was recorded. This was also found in high-functioning men with some autistic spectrum symptoms, who may tend to avoid eye contact. Specific brain regions that respond during direct gaze are being explored by other researchers, using advanced methods of brain scanning.\n\n[43] ____________________\nWith the use of eye-tracking technology, Julia Minson of the Harvard Kennedy School of Government concluded that eye contact can signal very different kinds of messages, depending on the situation. While eye contact may be a sign of connection or trust in friendly situations, it's more likely to be associated with dominance or intimidation in adversarial situations. \"Whether you're a politician or a parent, it might be helpful to keep in mind that trying to maintain eye contact may backfire if you're trying to convince someone who has a different set of beliefs than you,\" said Minson.\n\n[44] ____________________\nWhen we look at a face or a picture, our eyes pause on one spot at a time, often on the eyes or mouth. These pauses typically occur at about three per second, and the eyes then jump to another spot, until several important points in the image are registered like a series of snapshots. How the whole image is then assembled and perceived is still a mystery although it is the subject of current research.\n\n[45] ____________________\nIn people who score high in a test of neuroticism, a personality dimension associated with self-consciousness and anxiety, eye contact triggered more activity associated with avoidance, according to the Finnish researcher Jari Hietanen and colleagues. \"Our findings indicate that people do not only feel different when they are the centre of attention but that their brain reactions also differ.\" A more direct finding is that people who scored highly for negative emotions like anxiety looked at others for shorter periods of time and reported more comfortable feelings when others did not look directly at them.",
+      "passage_type": "reading"
     }
   ],
   "questions": [
@@ -91,21 +103,25 @@
         {
           "key": "A",
           "text": "In",
+          "content": "In",
           "value": "A"
         },
         {
           "key": "B",
           "text": "Towards",
+          "content": "Towards",
           "value": "B"
         },
         {
           "key": "C",
           "text": "On",
+          "content": "On",
           "value": "C"
         },
         {
           "key": "D",
           "text": "Till",
+          "content": "Till",
           "value": "D"
         }
       ],
@@ -113,7 +129,10 @@
       "explanation": "•真题精解\n1. [A] In在（时段/月/季节/年），在（一段时间）内 [B] Towards快要到、接近（某时刻）\n[C] On在（日期/礼拜几/特殊日子） \n[D] Till直到（特定时间点）\n[考点提炼]介词搭配。\n[解题思路]②句主干few... can. .. it（少有乐事能够 它；其中it回指the Sunday roast）顺承首句语 \n义进一步强调该家庭活动的魅力；因此句中状语______ a cold winter's day（ 寒冷的冬日）与首句中的\n（Britons will. . . ） this weekend共同构筑了“在寒冷的冬日周末\"这个特定条件。选项中的四个介词都可以 \n接表示时间的名词，其中on表时间时，通常指特定的、确定的某一天，如一周中的某一天（如on Monday）. \n重大节庆日（如on Christmas Day）、具体日期（如on July 1st）等；当on后接不确定的时间（a. . . day）时, \n至少要有一个限定条件（如on a cold day in April）,此时与空格所处的分句意境一致，故[C]正确。\n[错项排除][A]In表时间时，一般表示跨度较长的时间（用于强调时间范围），如“星期、月、季、年、世 \n纪等”，也可以表示某一天内较长时间跨度的“上午/下午/晚上”（如in the evening）；此外，in也可以接表示 \n一段时间的词，意为\"在... 期间\"（强调在限定的时间内完成了某件事情），如We should remember that\nRome was not built in a day.（我们应该\n\n【选项释义与词汇辨析】\n[A] In: 在（时段/月/季节/年），在（一段时间）内\n[B] Towards: 快要到、接近（某时刻）\n[C] On: 在（日期/礼拜几/特殊日子）\n[D] Till: 直到（特定时间点）",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 1,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "63c2a5ed-a0c9-56c5-8f53-3a1b52bb080d",
@@ -126,21 +145,25 @@
         {
           "key": "A",
           "text": "match",
+          "content": "match",
           "value": "A"
         },
         {
           "key": "B",
           "text": "express",
+          "content": "express",
           "value": "B"
         },
         {
           "key": "C",
           "text": "satisfy",
+          "content": "satisfy",
           "value": "C"
         },
         {
           "key": "D",
           "text": "influence",
+          "content": "influence",
           "value": "D"
         }
       ],
@@ -148,7 +171,10 @@
       "explanation": "\n\n2. [A] match相匹敌，和... 不相上下 \n[B] express表达，表露，表示\n[C] satisfy使满意；满足（需求）；使确信 \n[D] influence影响；支配，左右\n[考点提炼]上下文语义+动词辨析。\n[解题思路]②句主语中的culinary pleasures（指在“边烹边食”中获得满足和幸福的乐事）与空格后 \n的宾语it是并列关系。这里的it指代的是①句中one of... traditions, BPfi期日烤肉”这一家庭活动，限 \n定语few（几乎没有的）传达出一种否定其他的对比关系，因此，空格所在句意应为“没有任何烹饪乐事能 \n够比得上它”，[A] match表示“（在价值、大小或品质等方面）和……不相上下”，正确。\n[错项排除]句中主语、宾语为并列关系中的同类事物。[B] express（意为to show or make known a \nfeeling, an opinion, etc.）后接表示\"观点、态度或情感\"的词，显然非it所指。选项[C]satisfy的宾语通常为 \n“（某人的）需求、欲望;或（外界的）期待、要求”等，其主宾关系是不同类的，故先行排除[B]和[C]。[D] \ninfluence虽然从语法和逻辑都说得通，但“少有乐事能影响/左右星期日烤肉活动”不符合上下文语义。\n\n【选项释义与词汇辨析】\n[A] match: 相匹敌，和... 不相上下\n[B] express: 表达，表露，表示\n[C] satisfy: 使满意；满足（需求）；使确信\n[D] influence: 影响；支配，左右",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6351f64f-ce65-5ad2-9e2f-069882a35486",
@@ -161,21 +187,25 @@
         {
           "key": "A",
           "text": "patience",
+          "content": "patience",
           "value": "A"
         },
         {
           "key": "B",
           "text": "enjoyment",
+          "content": "enjoyment",
           "value": "B"
         },
         {
           "key": "C",
           "text": "surprise",
+          "content": "surprise",
           "value": "C"
         },
         {
           "key": "D",
           "text": "concern",
+          "content": "concern",
           "value": "D"
         }
       ],
@@ -183,7 +213,10 @@
       "explanation": "\n3. [A] patience耐心；坚忍，恒心 \n[B] enjoyment愉快；乐事；享受\n[C] surprise意想不到的事；惊讶，意外 \n[D] concern担忧；关爱，关心\n[考点提炼]上下文语义+名词辨析。\n[解题思路]③句句首Yet提示本句与①②句内容（the Sunday roast活动无与伦比）形成转折，即系表 \n结构the food police are determined that. . . （determined表\"执意、决意\"）应该传递\"在寒冷冬日，食品监管部 \n门却要大煞风景，决意告诫数百万其乐融融参与活动的民众:烤肉危害健康”的语义，也即this_____ 作为\n主语，既要呼应上述乐事，又要与guilty pleasure形成反差，故]B]enjoyment（ = sth you enjoy doing）正确。\n[错项排除][A] patience利用“烤肉（较慢）、聚餐（难得）”干扰，但该传统活动实与“忍耐力、毅力”无 \n关，而是“无与伦比的享受”，因而无法与pleasure形成对应语义。[C]surprise利用我们常说的“What a \nsurprise!（真让人惊喜）”干扰，但词义侧重于“意想不到（之事/心情）”,其次星期日烤肉活动作为全国性的 \n伟大传统，人所皆知，因此谈不上“意外”。[D]concern将句子核心义，也即“食品警察”的观点与大众感受 \n（this_____ ）混淆，无视句首Yet所传达的逻辑。\n\n【选项释义与词汇辨析】\n[A] patience: 耐心；坚忍，恒心\n[B] enjoyment: 愉快；乐事；享受\n[C] surprise: 意想不到的事；惊讶，意外\n[D] concern: 担忧；关爱，关心",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 3,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "9fdc376c-4492-57e9-a3ed-bfb478e137e3",
@@ -196,21 +229,25 @@
         {
           "key": "A",
           "text": "intensified",
+          "content": "intensified",
           "value": "A"
         },
         {
           "key": "B",
           "text": "privileged",
+          "content": "privileged",
           "value": "B"
         },
         {
           "key": "C",
           "text": "compelled",
+          "content": "compelled",
           "value": "C"
         },
         {
           "key": "D",
           "text": "guaranteed",
+          "content": "guaranteed",
           "value": "D"
         }
       ],
@@ -218,7 +255,10 @@
       "explanation": "4. [A] intensified加强的，加剧的 \n[B] privileged有特权的，受特别优待的；荣幸\n[C] compelled强迫的；（感到）必须得.... \n[D] guaranteed肯定的，保证的\n[考点提炼]句内语义+形容词辨析。\n[解题思路]______ to damage our health作后置定语，说明guilty pleasure的特点/影响，意即：星期\n日烤肉活动______ 损害健康。determine（已下决心的，决意）一词暗示其\"坚决、笃定\"，be guaranteed to\ndo sth为固定用法，表示“必然会（发生某事）”，故[D]符合文意以及句内情感色彩。\n[错项排除][A] intensified意为\"（在力量、数量或程度上）加强的，加剧的\"，如intensified effort/ \nscrutiny（努力/审查加强）；若出现于be〜to do sth结构，则该词并非作为形容词使用，而是被动语态 \n（intensify 取及物动词\"加强、强化\"之意），如 Efforts were intensified to converse and improve the \necological environment.（生态环境保护和建设力度加大。）。固定搭配be privileged to do sth、feel \ncompelled to do sth分别表示“有幸做某事”、“（觉得某事正确）感到必须做某事”，均不合语义逻辑。\n•",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "219a9b6a-0179-5f69-b161-5a10b566ad63",
@@ -231,21 +271,25 @@
         {
           "key": "A",
           "text": "issued",
+          "content": "issued",
           "value": "A"
         },
         {
           "key": "B",
           "text": "received",
+          "content": "received",
           "value": "B"
         },
         {
           "key": "C",
           "text": "ignored",
+          "content": "ignored",
           "value": "C"
         },
         {
           "key": "D",
           "text": "cancelled",
+          "content": "cancelled",
           "value": "D"
         }
       ],
@@ -253,7 +297,10 @@
       "explanation": "\n5. ［A］ issued发布，发出；出版，发表 \n［B］ received收到；接待；接纳\n［C］ ignored忽略；驳回诉讼；不理睬 \n［D］ cancelled取消；删去\n［考点提炼］上下文语义+动词辨析。\n［解题思路］由 The Food Standards Authority（回应上文 food police） ,warning about the risks of...（关于 \n某物风险的警告）判断，本段承上引出官方“判定烤肉有害”具体说辞-issue sth about...表示“针对某情况 \n发出 \"，回应上文be rendered. . . guilty...（被正式定性为 ），体现发布者权威身份，故［A］正确。\n［错项排除］“烤制食品有害”是the food police提出的，而他们“收到/无视/取消警告”均与该逻辑矛盾。\n\n【选项释义与词汇辨析】\n[A] issued: 发布，发出；出版，发表\n[B] received: 收到；接待；接纳\n[C] ignored: 忽略；驳回诉讼；不理睬\n[D] cancelled: 取消；删去",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 5,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "136b11d4-c3ed-52c9-a03a-5bfeeabf019b",
@@ -266,21 +313,25 @@
         {
           "key": "A",
           "text": "under",
+          "content": "under",
           "value": "A"
         },
         {
           "key": "B",
           "text": "at",
+          "content": "at",
           "value": "B"
         },
         {
           "key": "C",
           "text": "for",
+          "content": "for",
           "value": "C"
         },
         {
           "key": "D",
           "text": "by",
+          "content": "by",
           "value": "D"
         }
       ],
@@ -288,7 +339,10 @@
       "explanation": "\n6. ［A］ under在（……情况或条件）下 \n［B］ at （用于速度、比率等）以，达\nEC］ for因为；（表示对象、用途等）给；为了 \n［D］ by根据，由，通过\n［考点提炼］介词搭配。\n［解题思路］空格介词位于cooked和high temperatures之间，体现“烹饪”与“高温”之间的关系，由 \n此修饰some foods,空格所在部分应该表示“以很高的温度烹制而成的食物”，at可用于表示“价格、速 \n率、程度、速度等”，故［B］at正确。\n［错项排除］［A］、［D］均利用中文字面义“在高温下烤制”、“通过高温烤制”干扰.但under用于引出 \n“（实现某事所需的）条件”，而文中“高温”表示火候之程度，并非“食物烹熟”的条件；by用于引出“方式/ \n方法（本身）\"，如The house is heated by gas.（这房子是煤气供暖的。），但文中\"高温\"并非\"烹饪方式/途 \n径”，而是方式之特点。［C］for表示“目的、原因”,显然“烹饪”不是为了“高温”。\n\n【选项释义与词汇辨析】\n[A] under: 在（……情况或条件）下\n[B] at: （用于速度、比率等）以，达\n[D] by: 根据，由，通过\n[C] for: 表示“目的、原因”,显然“烹饪”不是为了“高温”。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "219bd8a3-9c19-581f-a152-ba7e4ebbabb4",
@@ -301,21 +355,25 @@
         {
           "key": "A",
           "text": "forget",
+          "content": "forget",
           "value": "A"
         },
         {
           "key": "B",
           "text": "regret",
+          "content": "regret",
           "value": "B"
         },
         {
           "key": "C",
           "text": "finish",
+          "content": "finish",
           "value": "C"
         },
         {
           "key": "D",
           "text": "avoid",
+          "content": "avoid",
           "value": "D"
         }
       ],
@@ -323,7 +381,10 @@
       "explanation": "7. [A] forget 忘记；忽略\n[B] regret 后悔；遗憾\n[C] finish 完成；结束\n[D] avoid 避免；躲避\n\n【考点提炼】上下文语义+动词辨析。\n【解题思路】This means that...（这也就是说……）提示本句继上句“官方警告”引出相应的逻辑结论（即官方认定的可取做法）。而根据已有信息“人们应该______将土豆烤脆，拒绝薄皮披萨……”不难判断“脆土豆片和薄脆皮披萨一样，均为需抵制的高温烹制食品”，选项中只有[D] avoid 与 reject 语义一致，avoid doing sth 意为“（刻意）避免做某事”。\n【错项排除】其他三项虽然均可接 doing sth，分别表示“忘记做过某事”、“后悔做了某事”以及“完成了某事”，但均不合文意。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 7,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "b4209e66-00e4-574c-aeea-85e84dbc8f36",
@@ -336,21 +397,25 @@
         {
           "key": "A",
           "text": "partially",
+          "content": "partially",
           "value": "A"
         },
         {
           "key": "B",
           "text": "regularly",
+          "content": "regularly",
           "value": "B"
         },
         {
           "key": "C",
           "text": "easily",
+          "content": "easily",
           "value": "C"
         },
         {
           "key": "D",
           "text": "initially",
+          "content": "initially",
           "value": "D"
         }
       ],
@@ -358,7 +423,10 @@
       "explanation": "8. [A] partially不完全地，部分地 [B] regularly定期地；常常地；匀称地，整齐地\n[C] easily简单地；很可能；动不动 [D] initially 最初；首先\n[考点提炼]句内语义+副词辨析。\n[解题思路]空格所在部分and only_____ toast their bread与前两项建议并行.only暗示应控制面包加热的程度，而空格副词修饰动词toast,选项中只有副词partially能弱化\"动作（toast）\"的程度，表示“不完全地、在一定程度上”，[A]正确。\n[错项排除][B] regularly 一方面表\"频率\"，另一方面表\"排列整齐、美观（evenly arranged or shaped）”;[C] easily表示做某事的难易程度，两项均与“食物是否高温烹制”无关。[D] initially是时间副词，表示“在某事的最初阶段（而非中间或其他阶段）”，而先烤还是什么时候烤，均与温度高低无关。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 8,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3d5ed04b-0098-5362-8f66-40016a9b4266",
@@ -371,21 +439,25 @@
         {
           "key": "A",
           "text": "Unless",
+          "content": "Unless",
           "value": "A"
         },
         {
           "key": "B",
           "text": "Since",
+          "content": "Since",
           "value": "B"
         },
         {
           "key": "C",
           "text": "If",
+          "content": "If",
           "value": "C"
         },
         {
           "key": "D",
           "text": "While",
+          "content": "While",
           "value": "D"
         }
       ],
@@ -393,7 +465,10 @@
       "explanation": "\n9. [A] Unless除非，如果不 \n[B] Since既然；由于\nEC] If 如果 \n[D] While 尽管\n[考点提炼]上下文语义逻辑。\n[解题思路]④句从句指出，______ 已有研究表明丙烯酰胺会造成小鼠神经损伤（即确定会危害小\n鼠健康），主句指出，没有证据表明丙烯酰胺会导致人类患癌（即不确定会危害人类健康）；可见主从句之 \n间存在明显的转折逻辑，也与③句针对②句官方建议提出的质疑相吻合,[D]While位于句首表示“虽 \n然，尽管”，为正确项。\n[错项排除]其余三项分别表示“（某事成行的）绝对条件”、“（某选择、做法的）原因”以及“（实现某事 \n的）条件”，均不合文意。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 9,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "6875bb62-2ea3-5a22-a91a-e74819aa16e3",
@@ -406,21 +481,25 @@
         {
           "key": "A",
           "text": "secondary",
+          "content": "secondary",
           "value": "A"
         },
         {
           "key": "B",
           "text": "external",
+          "content": "external",
           "value": "B"
         },
         {
           "key": "C",
           "text": "conclusive",
+          "content": "conclusive",
           "value": "C"
         },
         {
           "key": "D",
           "text": "negative",
+          "content": "negative",
           "value": "D"
         }
       ],
@@ -428,7 +507,10 @@
       "explanation": "10. [A] secondary次要的；中等的 \n[B] external外部的；表面的\n[C] conclusive结论性的，确凿的 \n[D] negative负面的；消极的；否定的\n[考点提炼]句内语义+形容词辨析。\n[解题思路]空格处形容词修饰evidence,而“研究表明会造成”（即有结论性的/确凿的证据）与“没 \n有_____ 证据”之间暗含一种对比关系，故[C] conclusive符合文意。\n[错项排除]“次要/外部的证据”均不能加强结论的可靠性，从而也就不能表达作者意在强调的观点 \n“烤肉有害值得怀疑”，排除negative evidence意为“反面论据”,恰与文意相悖，排除[D]。\n•",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 10,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "149e64a6-0507-5990-a3b2-87ce48c336d0",
@@ -441,21 +523,25 @@
         {
           "key": "A",
           "text": "insufficient",
+          "content": "insufficient",
           "value": "A"
         },
         {
           "key": "B",
           "text": "bound",
+          "content": "bound",
           "value": "B"
         },
         {
           "key": "C",
           "text": "likely",
+          "content": "likely",
           "value": "C"
         },
         {
           "key": "D",
           "text": "slow",
+          "content": "slow",
           "value": "D"
         }
       ],
@@ -463,7 +549,10 @@
       "explanation": "\n11. EA] insufficient不足的；不能胜任的 \n[B] bound必然会；受约束的，有义务的\n[C] likely有可能 \n[D] slow缓慢的；迟钝的\n[考点提炼]上下文语义+形容词辨析。\n[解题思路]空格所在句承接第二段末作者对官方建议的反驳“并没有确凿的证据证明丙烯酰胺会 \n致癌”，过渡至作者对科学家态度的反驳，进一步强调观点：科学家们称这种化合物______致癌，但是并\n没有确凿的科学依据，由此可见，空格处应为表示“不确定（=无结论性的证据）”含义的形容词，be likely \nto意为“有可能”,[C]正确。\n[错项排除]be insufficient to意为“（数量或程度）不足以”，“不足以致癌”说明“科学家与作者观点 \n一致”，与句内but体现的转折逻辑不符，故排除[A]。be bound to表示“一定，必然会（致癌）”、而“致癌 \n较慢”仍然肯定了“致癌的必然性”，均与文中“没有确凿的科学依据”矛盾，排除\n\n【选项释义与词汇辨析】\n[B] bound: 必然会；受约束的，有义务的\n[C] likely: 有可能\n[D] slow: 缓慢的；迟钝的",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 11,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "d7ff152c-2d5d-5bc0-bb0d-a12c2423992e",
@@ -476,21 +565,25 @@
         {
           "key": "A",
           "text": "On the basis of",
+          "content": "On the basis of",
           "value": "A"
         },
         {
           "key": "B",
           "text": "At the cost of",
+          "content": "At the cost of",
           "value": "B"
         },
         {
           "key": "C",
           "text": "In addition to",
+          "content": "In addition to",
           "value": "C"
         },
         {
           "key": "D",
           "text": "In contrast to",
+          "content": "In contrast to",
           "value": "D"
         }
       ],
@@ -498,7 +591,10 @@
       "explanation": "\n12. [A] On the basis of基于……，以……为由 [B] At the cost of以……为代价\n[C] In addition to 除... 之外还 \n[D] In contrast to 与....形成对比\n[考点提炼]上下文语义+介词短语辨析。\n[解题思路]______ the precautionary principle为句子状语，意为\" 的原则\"，主干it could be\nargued that it is.. . to follow the FSA advice（有理由/可以认为，听从官方建议是 的）明显在引出作者 \n对“遵循官方建议”这一做法的评判（the FSA advice回指第二段首句“食品管理局针对高温烹制食物危 \n害性发出的警告”）；而根据常理，“原则”是行为的规范/参考标准，可见主句是根据“预防原则”评判做法 \n（合理与否），空格处应该表示“根据、考虑到”，[A] On the basis of表示“基于……（原因）”，符合文意。\n[错项排除][B]At the cost of（ = at the expense of doing sth）表示\"某事的实现要付出某种代价\"，如 \nShe saved him from the fire but at the cost of her own life （ = she died）.（她从火中把他救了 出来，却牺牲 \n了自己的生命。），而“'可以说……'要以预防原则为代价”不合逻辑。[C]In addition to用于“提及除某 \n事外的另一事\"，如 In addition to these arrangements, extra ambulances will be on duty until midnight. \n（除了这些安排以外，另增救护车值班至午夜。），而文中主干部分主语并非与预防原则并行的另一种原 \n则。[D]用于\"对比两件事的差别\"，如 In contrast to last year's profits, the company is not doing v\n\n【选项释义与词汇辨析】\n[A] On the basis of: 基于……，以……为由\n[B] At the cost of: 以……为代价\n[C] In addition to: 除... 之外还\n[D] In contrast to: 与....形成对比",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 12,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "c8163b4b-b5b0-54ec-a5ac-ae920a04b9d9",
@@ -511,21 +607,25 @@
         {
           "key": "A",
           "text": "interesting",
+          "content": "interesting",
           "value": "A"
         },
         {
           "key": "B",
           "text": "advisable",
+          "content": "advisable",
           "value": "B"
         },
         {
           "key": "C",
           "text": "urgent",
+          "content": "urgent",
           "value": "C"
         },
         {
           "key": "D",
           "text": "fortunate",
+          "content": "fortunate",
           "value": "D"
         }
       ],
@@ -533,7 +633,10 @@
       "explanation": "13. [A] interesting 有趣的 \n[B] advisable 明智的；可取的\n[C] urgent紧急的；急迫的 \n[D] fortunate幸运的；吉祥的\n[考点提炼]句内语义+形容词辨析。\n\n［解题思路］结合上题分析可知，②句主干在传达作者对“听从官方建议”这一做法（合适与否）的评 \n判。作者虽然认为官方建议没有确凿依据，但并未否定“烤制食品有害”的可能性，而precautionary指的 \n是“预防负面结果发生的”，综合判断本句意在委婉认可官方建议在一定程度上有其意义，即：少吃烤制 \n食品从预防角度来说是有益/可取的，［B］ advisable符合文意。\n［错项排除］“听从官方建议是有趣的”与状语“预防原则”全无关联，排除［A］；be fortunate to do sth \n（荣幸、有福气做某事）表现的是一种“确定性/结论性评价”，指向某事发生后“感到庆幸”，而作者指出 \n“烧烤危害尚无确切证据”，因此不能说“采纳官方建议值得庆幸”，故排除［D］。［C］ urgent句内逻辑正 \n确.但背离大语境“作者总体上不认同官方建议”，也就更谈不上“立刻照做”。\n\n【选项释义与词汇辨析】\n[A] interesting: 有趣的\n[B] advisable: 明智的；可取的\n[C] urgent: 紧急的；急迫的\n[D] fortunate: 幸运的；吉祥的",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "3ec99b05-aa97-58c9-88d7-7af0831a289c",
@@ -546,21 +649,25 @@
         {
           "key": "A",
           "text": "As usual",
+          "content": "As usual",
           "value": "A"
         },
         {
           "key": "B",
           "text": "In particular",
+          "content": "In particular",
           "value": "B"
         },
         {
           "key": "C",
           "text": "By definition",
+          "content": "By definition",
           "value": "C"
         },
         {
           "key": "D",
           "text": "After all",
+          "content": "After all",
           "value": "D"
         }
       ],
@@ -568,7 +675,10 @@
       "explanation": "14. ［A］ As usual 照例 \n［B］ In particular 尤其\n［C］ By definition 必然；总是 \n［D］ After all 毕竟，别J忘了\n［考点提炼］上下文语义逻辑。\n［解题思路］③句意为：吸烟致癌说存在了很多年以后，才证明……。结合上文“官方建议（虽无确切 \n证据但至少）有防患于未然的价值”以及现实“如今吸烟致癌已有确切科学结论”，判断本句是在借经典 \n例子“吸烟（对健康的影响）”类比“食用烤制食品”，进一步解释“官方建议为何有预防价值（现在没有证 \n明不代表就无害）”，故空格逻辑词应能引出“原因”，after all能用于“解释某事或给出原因”，故［D］正确。\n［错项排除］分别引出“惯常的方式、和往常一样的举动”、“特殊的，特别需要强调的内容”， \n均与文意不符；［C］By definition意为“必然［有某种品质，因为同类事物全都有这种品质］”，如People say \nthat students are by definition idealistic and impatient.（人们说学生必定是理想主义的、躁动不安的。）, \n文中吸烟和烧烤固然有相同特质，但by definition作为状语，修饰的是整个句子，也即it was \nrumoured.. . before...,而“必定是在……之前流传了多年”显然不合逻辑。\n\n【选项释义与词汇辨析】\n[A] As usual: 照例\n[B] In particular: 尤其\n[C] By definition: 必然；总是\n[D] After all: 毕竟，别J忘了",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 14,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "b6fc779f-1284-5d14-9ba4-b6a16f2c8607",
@@ -581,21 +691,25 @@
         {
           "key": "A",
           "text": "resemblance",
+          "content": "resemblance",
           "value": "A"
         },
         {
           "key": "B",
           "text": "combination",
+          "content": "combination",
           "value": "B"
         },
         {
           "key": "C",
           "text": "connection",
+          "content": "connection",
           "value": "C"
         },
         {
           "key": "D",
           "text": "pattern",
+          "content": "pattern",
           "value": "D"
         }
       ],
@@ -603,7 +717,10 @@
       "explanation": "15. ［A］ resemblance 相似之处 \n［B］ combination 组合；混合物\n［C］ connection联系，关联 \n［D］ pattern模式；图案；样品\n［考点提炼］句内语义+名词辨析。\n［解题思路］空格所在句意为：在“吸烟致癌说”流传多年之后，人们才找到了证明 ______ 的证据。\n结合上题分析可知- the evidence是证明\"smoking caused cancer\"这件事情的证据，也就是\"吸烟导致癌 \n症\"这一关联性的证据，故［C］ connection符合文意。\n［错项排除］［A］ resemblance利用“吸烟和烧烤”的类比关系干扰，但空格处针对的只是“吸烟”，探 \n讨“是否有证据证明吸烟有害健康（致癌）”。“吸烟”与“癌症”之间是因果关系，而非“结合、组合”关系，故 \n［B］ combination可排除。［D］利用中文思维“发现了吸烟究竟如何致癌的模式”干扰，但文意重点不在 \n于“如何致癌”，而在于“是否致癌”。\n:-",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "a3cb4fde-e6b2-5aa9-8a18-942a24916a5a",
@@ -616,21 +733,25 @@
         {
           "key": "A",
           "text": "made",
+          "content": "made",
           "value": "A"
         },
         {
           "key": "B",
           "text": "served",
+          "content": "served",
           "value": "B"
         },
         {
           "key": "C",
           "text": "saved",
+          "content": "saved",
           "value": "C"
         },
         {
           "key": "D",
           "text": "used",
+          "content": "used",
           "value": "D"
         }
       ],
@@ -638,7 +759,10 @@
       "explanation": "16. ［A］ made 做；构成 \n［B］ served 端上（菜、饮料）；为……服务\n［C］ saved 拯救；节省；保存 \n［D］ used 使用\n［考点提炼］上下文语义+动词辨析。\n［解题思路］空格所在句直译为：在周日，一块煮牛肉和一些清蒸蔬菜总可以被端上桌，没有约克郡布丁或葡萄酒。结合上文中提到的食品标准局的健康建议和②句反诘（这样的生活还值得过吗？）可知，这里是在说“周日人们并非不能只吃清淡的煮牛肉和清蒸蔬菜”，但如此一来生活就失去了乐趣，serve up 为固定动词短语，意为“（为某人）端上、提供（饭菜）”，故［B］为正确选项。\n［错项排除］make up 意为“组成，构成”，脱离餐饮语境；save up 宾语通常为钱财，指攒钱；use up 意为“用光，耗尽”，均不符合文意。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 16,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "0769f79e-d665-5359-b211-9f0eb4a3d68a",
@@ -651,29 +775,36 @@
         {
           "key": "A",
           "text": "To be fair",
+          "content": "To be fair",
           "value": "A"
         },
         {
           "key": "B",
           "text": "For instance",
+          "content": "For instance",
           "value": "B"
         },
         {
           "key": "C",
           "text": "To be brief",
+          "content": "To be brief",
           "value": "C"
         },
         {
           "key": "D",
           "text": "In general",
+          "content": "In general",
           "value": "D"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "A",
       "explanation": "17. ［A］ To be fair说句公道话，公平说 \n［B］ For instance例如\n［C］ To be brief简言之 \n［D］ In general通常；总的来说\n［考点提炼］上下文语义逻辑。\n［解题思路］③句指出：______ ，食品标准局称他们并不是建议人们……戒除烤制食品，而是建议大\n家减少其终身摄入量。从主干内容来看，官方的建议很中肯，这与作者通篇“批判、质疑”的基调似有矛 \n盾，而结合上句表强烈反对的“反问语气”以及下文表强势转折的However,判断作者此处想要“缓和批 \n判力度”，为提出最终结论做好准备，选项［A］契合“批判之余不忘客观”的常见论述方式。\n［错项排除］其他项分别表示“举例”、“扼要总结（结论）”、“说明通常或总体情形”，均不能诠释本段 \n②③④句中起到的“过渡让步”功能。\n1& ［A］ reluctantly不情愿地，勉强地 \n［B］ entirely完全地；彻底地\nEC］ gradually逐渐地 \n［D］ carefully仔细地；小心地\n［考点提炼］上下文语义+副词辨析。\n［解题思路］结合上题分析可知，③句作者在传达其委婉态度（给官方建议正名），副词必须要契合这 \n一用意，故语义应为“他们并不是让人们完全不吃烤制食品\".［B］entirely符合文意。\n［错项排除］“不是建议让人们勉强戒除”意即“是建议让人们心甘情愿戒除”，“不是建议让人们逐渐 \n戒除”意即“让人们快速戒除”，故［A］、［C］两项均偏离文意。“不是让人们小心戒除”暗示“无须太过谨 \n慎”，与“官方郑重警告”矛盾，排除［D］。\n19. ［A］ promise 承诺；希望 \n［B］ experience 经验；经历\n［C］ campaign 运动；战役 \n［D］ competition 竞争；比赛\n［考点提炼］上下文语义+名词辨析。\n［解题思路］④句承接上文指出：然而，他们的（their指代“食品标准局的”）______可能会给人一种\n强势的、过度保护的感觉，故空格处应为“可概括上文食品标准局举动（认定……有害、发布警告、提出建 \n议等）”的名词，［C］\n\n【选项释义与词汇辨析】\n[A] To be fair: 说句公道话，公平说\n[B] For instance: 例如\n[C] To be brief: 简言之\n[D] In general: 通常；总的来说",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "D"
+      "answer": "A",
+      "question_number": 17,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "598e5342-6554-561a-958b-dfedbf71dd66",
@@ -686,21 +817,25 @@
         {
           "key": "A",
           "text": "reluctantly",
+          "content": "reluctantly",
           "value": "A"
         },
         {
           "key": "B",
           "text": "entirely",
+          "content": "entirely",
           "value": "B"
         },
         {
           "key": "C",
           "text": "gradually",
+          "content": "gradually",
           "value": "C"
         },
         {
           "key": "D",
           "text": "carefully",
+          "content": "carefully",
           "value": "D"
         }
       ],
@@ -708,7 +843,10 @@
       "explanation": "18. \n[A] reluctantly 不情愿地，勉强地\n[B] entirely 完全地；彻底地\n[C] gradually 逐渐地\n[D] carefully 仔细地；小心地\n[考点提炼] 上下文语义+副词辨析。\n[解题思路] ③句作者在传达其委婉态度（给官方建议正名），副词必须要契合这一用意，故语义应为“他们并不是让人们完全不吃烤制食品”。[B] entirely符合文意，为正确答案。\n[错项排除] “不是建议让人们勉强戒除”意即“是建议让人们心甘情愿戒除”，“不是建议让人们逐渐戒除”意即“让人们快速戒除”，故[A]、[C]两项均偏离文意。“不是让人们小心戒除”暗示“无须太过谨慎”，与“官方郑重警告”矛盾，排除[D]。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 18,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "82da2597-42bd-5161-b615-7291e5dfb311",
@@ -721,29 +859,36 @@
         {
           "key": "A",
           "text": "promise",
+          "content": "promise",
           "value": "A"
         },
         {
           "key": "B",
           "text": "experience",
+          "content": "experience",
           "value": "B"
         },
         {
           "key": "C",
           "text": "campaign",
+          "content": "campaign",
           "value": "C"
         },
         {
           "key": "D",
           "text": "competition",
+          "content": "competition",
           "value": "D"
         }
       ],
-      "correct_answer": "A",
+      "correct_answer": "C",
       "explanation": "19. ［A］ promise 承诺；希望 \n［B］ experience 经验；经历\n［C］ campaign 运动；战役 \n［D］ competition 竞争；比赛\n［考点提炼］上下文语义+名词辨析。\n［解题思路］④句承接上文指出：然而，他们的（their指代“食品标准局的”）______可能会给人一种\n强势的、过度保护的感觉，故空格处应为“可概括上文食品标准局举动（认定……有害、发布警告、提出建 \n议等）”的名词，［C］ campaign指为社会、商业或政治目的而进行的一系列有计划的活动，正确。\n［错项排除］根据全文可知，食品标准局并没有做出什么承诺，也未谈及相关经验，也并未涉及竞争\n\n【选项释义与词汇辨析】\n[A] promise: 承诺；希望\n[B] experience: 经验；经历\n[C] campaign: 运动；战役\n[D] competition: 竞争；比赛",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "A"
+      "answer": "C",
+      "question_number": 19,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "4f22508f-7223-50c2-acd3-aba96c62f131",
@@ -756,29 +901,36 @@
         {
           "key": "A",
           "text": "follow up",
+          "content": "follow up",
           "value": "A"
         },
         {
           "key": "B",
           "text": "pick up",
+          "content": "pick up",
           "value": "B"
         },
         {
           "key": "C",
           "text": "open up",
+          "content": "open up",
           "value": "C"
         },
         {
           "key": "D",
           "text": "end up (with)",
+          "content": "end up (with)",
           "value": "D"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "D",
       "explanation": "20. [A] follow up （with）随后做\n\n[C] open up 开放\n\n[B] pick up 捡起\n\n[D] end up (with)以... 而结束\n\n[考点提炼]上下文语义+动词短语辨析。\n\n[解题思路]③句承认官方建议具有一定合理性，④句转而指出其问题：让人觉得强势、管得太宽，\n\n⑤句Constant health scares对全文聚焦的批判对象\"官方对食品危害警示\"做出终极归纳定性 反复、\n\n不断的“吓唬”，并以“无人听信（no one listening）\"收尾全文，而“无人听信”很明显是作者“对官方做法的\n\n最终效果”的评价，end up （with）后常接“ing、形容词、介词结构、独立主格”等，表现“最终、到头来（发现\n\n形势完全违背自己的初衷）”之意，故[D]契合文意。\n\n[错项排除]no one listening是在说一种结果，而不是指接下来做的事，排除[A] follow up。[B]pick up、\n\n[C]open up后不接with结构，只能接sth,且两者均不符合文意。\n\n•",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "C"
+      "answer": "D",
+      "question_number": 20,
+      "score": 0.5,
+      "question_type": "cloze_item"
     },
     {
       "id": "647bd265-3084-5f42-812e-4a4b6828fcdd",
@@ -791,29 +943,36 @@
         {
           "key": "A",
           "text": "consolidate the town-city ties in Britain",
+          "content": "consolidate the town-city ties in Britain",
           "value": "A"
         },
         {
           "key": "B",
           "text": "promote cooperation among Britain's towns",
+          "content": "promote cooperation among Britain's towns",
           "value": "B"
         },
         {
           "key": "C",
           "text": "increase the economic strength of Britain's towns",
+          "content": "increase the economic strength of Britain's towns",
           "value": "C"
         },
         {
           "key": "D",
           "text": "focus Britain's limited resources on cultural events",
+          "content": "focus Britain's limited resources on cultural events",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］首段⑤句指出，库珀等人认为“文化之镇”奖能够“吸引投资，创造就业”，可以概括为“增 \n强英国小镇的经济实力”，故［C］正确。\n［命题解密］正确项［C］是对首段⑤句的合理概括。题干中Cooper and her colleagues argue对应插 \n入语 it is argued, increase economic strength ■应结果状语 attracting funds and creating jobs,,\n［A］由③④句错误推断出“加强小镇和城市间的联系”。③句指出，“文化之城”取得的成功不应该局 \n限于城市；④句指出，在竞争“文化之城”时，小镇不敌城市。因此可知，在角逐奖项方面，小镇和城市是 \n竞争关系，而“文化之镇”奖是单独为小镇设立的称号，并不涉及城市和小镇之间的联系。［B］将④句后 \n半部分的put together a bid曲解为cooperation among Britain's towns,但原文中指的是小镇内部各种资 \n源的整合，而非小镇之间的合作。［D］糅合④⑤句，并利用惯性思维制造干扰。④句后半句说，英国的小 \n镇缺乏资源，无法与城市角逐“文化之城”称号；⑤句提及“文化之镇”可以办成一年一度的盛会，并没有 \n提及要将英国的资源集中于文化活动。\n［技巧总结］本题就提议发起人的观点命制人物观点题，解答此题时应：1•根据题干中的人物进行定 \n位，找",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 21,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "4d8b6b7c-d3be-533e-874d-10a0918c7bc9",
@@ -826,29 +985,36 @@
         {
           "key": "A",
           "text": "a sensible compromise",
+          "content": "a sensible compromise",
           "value": "A"
         },
         {
           "key": "B",
           "text": "a self-deceiving attempt",
+          "content": "a self-deceiving attempt",
           "value": "B"
         },
         {
           "key": "C",
           "text": "an eye-catching bonus",
+          "content": "an eye-catching bonus",
           "value": "C"
         },
         {
           "key": "D",
           "text": "an inaccessible target",
+          "content": "an inaccessible target",
           "value": "D"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］本段①句指出，一些人认为该提议是英国失去申请“欧洲文化之都”资格后的自我安慰；②句指出英国正陷入无休止的自我庆祝之中。［B］项是对质疑者态度的合理概括。\n\n［命题解密］正确项［E］是对 booby prize, self-celebration, desperation to reinvent itself...的正确解读。\n［A］与原文相反。本段集中展示了质疑者对这项提议的鄙夷态度，从booby prize.self-celebration. \nendless fever .desperation等措辞中可看出他们根本不认为这是明智之举。［C］将质疑者对“欧洲文化之 \n都”奖的看法误当作对“文化之镇”奖的态度。①句中the much more prestigioussought-after都在讲“欧 \n洲文化之都”奖引人注目，以凸显“文化之镇”奖微不足道，与eye-catching正好相反。另外，文中也未提 \n到bonus这一内容。［D］将②句中质疑者对英国自我庆祝的评价“没完没了（endless/desperation）误当 \n作他们对“新提议”的态度。对于新提议，质疑者只是认为其影响力微不足道，是英国为了展示新形象的 \n自欺欺人行为，并没有提到该提议无法实现。\n［技巧总结］人物观点+段落主旨题。以“人物观点”之形，考査对段落主旨的概括。解答此题时应：\n\n1.准确把握人物的基本态度\n，这样可以保证排除一部分感情色彩不符的选项；2.因为人物的观点也是本 \n段的段落主旨，根据上下文逻辑分析概括，寻找对应的选项。如本题，根据题干可以定位到①句，但只有 \nbooby prize对于解题没有帮助，我们只能求助于下文。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 22,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "f8d2e7e5-a0f5-5753-965c-0fbc843e08b1",
@@ -861,29 +1027,36 @@
         {
           "key": "A",
           "text": "endeavours to maintain its image",
+          "content": "endeavours to maintain its image",
           "value": "A"
         },
         {
           "key": "B",
           "text": "meets the aspiration of its people",
+          "content": "meets the aspiration of its people",
           "value": "B"
         },
         {
           "key": "C",
           "text": "brings its local arts to prominence",
+          "content": "brings its local arts to prominence",
           "value": "C"
         },
         {
           "key": "D",
           "text": "commits to its long-term growth",
+          "content": "commits to its long-term growth",
           "value": "D"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第三段②句描述失败的“文化年”只带来一时的风光而不是长远的利益，暗示“成功的称 \n号获得者”应该为当地带来长远的利益。③④句正面展开对成功的称号获得者的论述，即成功者不止于 \n短期的酒店客房满员、备受瞩目的艺术活动以及一整年的正面报道，还应改变当地人民的愿景 \n（transform the aspirations of the people who live there）、将城市的自我认知引向更加乐观的一面（nudge \nthe self-image of the city into a bolder and more optimistic light），这显然在强调长期发展。正确项［D］是 \n原文观点的合理推断。\n［命题解密］正确项［D］是基于第三段②③④句推理出的“成功的称号获得者”的要素，并在末句 \nGlasgow的例子中得以证实（Glasgow获得的成功持续至今［it remains today］） o\n［A］源于 nudge the self-image of the city into a bolder and more optimistic light,原文 nudge.・.into 是一 \n个动态发展的过程,将城市自我认知推向“更加乐观的一面”，而非一成不变。maintain意为“维护，维持”， \n和原文相悖。［B］源于 transform the aspi",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "3fc7536b-21dd-5e4e-8645-9f1f0ab59d14",
@@ -896,29 +1069,36 @@
         {
           "key": "A",
           "text": "a contrasting case",
+          "content": "a contrasting case",
           "value": "A"
         },
         {
           "key": "B",
           "text": "a supporting example",
+          "content": "a supporting example",
           "value": "B"
         },
         {
           "key": "C",
           "text": "a background story",
+          "content": "a background story",
           "value": "C"
         },
         {
           "key": "D",
           "text": "a related topic",
+          "content": "a related topic",
           "value": "D"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］定位到第三段⑥句,Glasgow出现在But it can be done之后，是冒号之后的论证内容。要 \n搞清Glasgow的功能需要确定前面的it所指。往回看，③④⑤句都在阐述如何才能成为成功的称号获得 \n者,it指代的是“成为成功的称号获得者”这件事，而Glasgow所在的句子讲的正是它当选“欧洲文化之都” \n后成功转变为艺术、音乐以及戏剧重镇，并持续至今，与上文逻辑吻合，因此是一个正面例证,［B］正确。\n［命题解密］But it can be done是一个观点句，随后的冒号自然要引出论据从正面支撑观点，正确项 \n［B］是对句内逻辑的准确把握。\n［A］与文中逻辑恰恰相反。［C］ ［D］均不符合观点之后通过冒号引出论据的论证逻辑，直接排除。\n［技巧总结］写作目的题。作者在文中援引名人名言，数据或是举例通常是为了引出主题或论证观 \n点，如果该内容岀现在段首则通常用于引出主题，如果出现在段末则大多用来论证观点。当然.为了确 \n保正确，还应联系上下文内容进行确认。如本题.Glasgow跟在观点句But it can be done之后，大致可以 \n确定其功能为论据，再联系上文内容则可进一步确定它是一个正面的支撑例证。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "5b71b235-1e38-5d09-b1c1-5188239dfc94",
@@ -931,29 +1111,36 @@
         {
           "key": "A",
           "text": "Skeptical",
+          "content": "Skeptical",
           "value": "A"
         },
         {
           "key": "B",
           "text": "Objective",
+          "content": "Objective",
           "value": "B"
         },
         {
           "key": "C",
           "text": "Favourable",
+          "content": "Favourable",
           "value": "C"
         },
         {
           "key": "D",
           "text": "Critical",
+          "content": "Critical",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］末段末句作者明确建议文化部长应该“欣然接受\"这一积极向上、充满希望的提议，体现 \n出其对提议的支持态度。［C］项正确。\n［命题解密］正确项［C］是对作者态度的正确概括。从第二段作者对质疑者的措辞(cynic, \nspeculate)，第三段作者对文化称号能够获得成功的坚定信心(But it can be done)并援引Glasgow的成功 \n先例，以及末段的建议(welcome this positive, hope-filled proposal, and turn it into action)都可以得知作 \n者对该提议的支持态度。\n［A］［D］误将第三段质疑者的态度偷换为作者态度。作者对该提议进行了客观的分析，但是有明显 \n的支持态度，［B］错误。\n［技巧总结］观点态度题。解答此类题时应：1.查找明确表达作者态度的词句，包括形容词、动词、副 \n词、名词等，利用词语的感情色彩进行判断;2.but等转折词后为语义重点，可以推测作者态度;3.判断作者 \n对其他人物观点的态度。如本题，作者在末句建议文化大臣接受该提议，而且还使用了 positive和hope \nfilled这类积极的词汇来修饰该提议，支持态度表露无遗。另外，从前文也可以判断出作者的态度。首先， \n作者在陈述质疑者观点时用cynic来指称，表示作者对质疑者的态度是不赞同的；之后，第三段作者论述自 \n己观点时，着更多笔墨于成功的称呼获得者，并且以but it can be done转折，说明作者支持这一提议。\n/",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 25,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "377bc741-6284-5689-b9be-293a3a228ba9",
@@ -966,29 +1153,36 @@
         {
           "key": "A",
           "text": "its funding has enjoyed a steady increase",
+          "content": "its funding has enjoyed a steady increase",
           "value": "A"
         },
         {
           "key": "B",
           "text": "its marketing strategy has been successful",
+          "content": "its marketing strategy has been successful",
           "value": "B"
         },
         {
           "key": "C",
           "text": "its payment for peer review is reduced",
+          "content": "its payment for peer review is reduced",
           "value": "C"
         },
         {
           "key": "D",
           "text": "its content acquisition costs nothing",
+          "content": "its content acquisition costs nothing",
           "value": "D"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］首段首句提出科学出版业一本万利（a licence to print money），②③句分别指出，科学文献的供稿与审稿皆为无偿进行，即科学出版业在“内容获取”方面投入的成本为零。可见［D］正确。\n\n［命题解密］本题为因果细节题，“题干+正确项”是对第一段内容的合理概括。\n［A］根据第二、三段科学出版商获取暴利的相关数据臆断出“科学出版商资金供应在增长”，但原文 \n并未提及相关信息；［B］从第二段首句needs only find a market for its journal捏造出“出版商营销策略已 \n获成功”,但原文重在强调其获利轻松（只需找销路，而销路其实也不愁），并不在说明其具体营销策略的 \n好坏；［C］曲解首段③句 perform the specialised work of peer review also for free,此处明言同行评议为 \n“无偿”进行，不存在“支出减少”。\n［技巧总结］本题为因果细节题，可采取“寻找因果逻辑词先判断正确项、再搭配段落/群主旨加以确 \n定”的方式解题:首段②③句分别以so与because明示因果逻辑，概括两句内容即可确定［D］正确。本题 \n迷惑点在于，题干来自首段首句，看似考查首段，实则首段首句统领前三段•即本题考查前三段内容，选项 \n纵跨三个段落，此时应梳理段群主旨：首段从“内容获取”入手，指出科学出版业中供稿与审稿皆为无偿进 \n行，说明内容获取成本为零;第二、三段从“文献销售”入手，指出出版商获利颇丰。据此归纳主旨为“科学 \n出版商一本万利",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "e39ccce6-ee06-5bd2-9f73-6fb4dffade98",
@@ -1001,29 +1195,36 @@
         {
           "key": "A",
           "text": "thrived mainly on univers",
+          "content": "thrived mainly on univers",
           "value": "A"
         },
         {
           "key": "B",
           "text": "gone through an existential crisis",
+          "content": "gone through an existential crisis",
           "value": "B"
         },
         {
           "key": "C",
           "text": "reviewed the publishing industry",
+          "content": "reviewed the publishing industry",
           "value": "C"
         },
         {
           "key": "D",
           "text": "financed researchers generously",
+          "content": "financed researchers generously",
           "value": "D"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第二段初步说明，大学图书馆是科学文献的购买主力；第三段为第二段的具体例证，以 \n“爱思唯尔盈利之巨”与“英国图书馆购买科学文献花销之大”证明爱思唯尔等科学出版商主要依靠大学 \n图书馆赚取巨额利润。因此［A］正确。\n[B] gone through an existential crisis\nLB］经历了一场生死存亡的危机\n[C] reviewed the publishing industry\n［C］对出版行业进行了反思\n[D] financed researchers generously\n［D］为研究人员提供了慷慨资助\n［命题解密］正确选项［A］是对爱思唯尔的例子所论证内容的准确归纳。\n［B］将第二段③句“其他出版业”的经历偷换为“科学出版机构爱思唯尔”的经历；［C］曲解第三段 \ndesperate efforts to change them,原文说的是\"人们试图改变爱思唯尔获取暴利的模式\"，即爱思唯尔等出版 \n商为被反思的对象,而非其主动对出版业进行了反思；［D］将第三段“政府资助”偷换为“爱思唯尔资助”。\n［技巧总结］本题实质上为“写作目的+推理引申”题，回答本题应首先准确归纳第二、三段的段落主 \n旨，然后在两段话的基础上进行合理引申。第二段①②③句分别通过needs only find a market,not very \nprice sensitive与profit margins approaching 40%形成\"需找销路大学图书馆慷慨购买（也即销路不愁） \n亠科学出版社利润丰厚”的逻辑链，因此第二段主旨为科学出版机构的盈利主要依靠大学图书馆的购 \n买；第三段以爱思唯尔与英国大学为例进行具体论证\n\n【选项释义与词汇辨析】\n[A] thrived mainly on univers: 让y libraries",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9a69d30c-8056-5c7f-9bd5-625ff2e2929b",
@@ -1036,29 +1237,36 @@
         {
           "key": "A",
           "text": "Relieved.",
+          "content": "Relieved.",
           "value": "A"
         },
         {
           "key": "B",
           "text": "Puzzled.",
+          "content": "Puzzled.",
           "value": "B"
         },
         {
           "key": "C",
           "text": "Concerned.",
+          "content": "Concerned.",
           "value": "C"
         },
         {
           "key": "D",
           "text": "Encouraged.",
+          "content": "Encouraged.",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第四段①句thoroughly illegal（完全不合法）初步暗示作者对Sci-Hub的质疑态度；②句评述Sci-Hub的成功带来的启示：科学出版业合法的生态体系在其用户中已失去合理/正统性（the legal ecosystem has lost legitimacy），该合法体系必须彻底改变（must be transformed），以重获权威/合理性。由此可见，作者通过非法（无版权保障的）网站的大获成功反向凸显当前科学出版业态的弊病之重，改革之迫切（如不进行自我改革，事态可能会进一步恶化，催生更多危及各方合法权利的非法事物），可见作者对Sci-Hub等非法网站的成功其实是感到担忧的，［C］正确。\n\n［命题解密］本题为作者观点态度题，考查作者对免费文献下载网站Sci-Hub的态度。\n\n［A］、［D］分别传达“问题终获解决”、“有了信心、希望”之意，均为正面态度，与文中thoroughly illegal, lost legitimacy与must be transformed所传递的作者情感“必须对'正统'加以改革，以避免'违法'愈演愈烈”相矛盾。［B］体现“不理解”之意，但事实上作者对Sci-hub的兴起原因以及兴起的启示都相当明了。\n\n［技巧总结］当作者的观点态度没有明确给出时，要根据作者选用词汇及表达的情感色彩判断其观点态度。第四段①句thoroughly illegal流露作者对Sci-Hub的批评态度，②句三个“合法性”相关的描述 legally accessed、the legal ecosystem与has lost legitimacy连用，再次通过“合法体系的正统性必须得到维护”来强调Sci-Hub的非法性，进一步明确作者对Sci-Hub的不满态度，must be transformed以断然的语气强调真正的解决办法——彻底改革现有科学出版体系（不能任由非法网站继续发展），同时也与文末作者所述结论“打破行业垄断态势，让权力重获平衡”相符。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "1c16445d-6456-5a34-a057-cd0ad26dcb00",
@@ -1071,29 +1279,36 @@
         {
           "key": "A",
           "text": "allow publishers some room to make money",
+          "content": "allow publishers some room to make money",
           "value": "A"
         },
         {
           "key": "B",
           "text": "render commercial publishers financially unviable",
+          "content": "render commercial publishers financially unviable",
           "value": "B"
         },
         {
           "key": "C",
           "text": "reduce the cost of publication substantially",
+          "content": "reduce the cost of publication substantially",
           "value": "C"
         },
         {
           "key": "D",
           "text": "free universities from financial burdens",
+          "content": "free universities from financial burdens",
           "value": "D"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第五、六段围绕“开放出版条款”展开论述，其中第五段③句指出“选择开放获取出版”需 \n遵循的方式之二 付费一年或更久，之后转为免费获取（paywalled for a year or more），并指出这种模 \n式使出版机构有一些时间进行盈利（so that the publishers can make a profit） o因此［A］正确。\n［命题解密］本题为事实细节题，\"题干+正确项”是对第五段③句paywalled for a year. . . general \nrelease的同义改写。\n反向曲解第六段②至④句“开放获取出版向科学文献的作者（即科学家）收取高昂的论文准 \n备费用，且一直在快速持续增加”;［D］反向曲解第六段①句“开放获取出版对于大学而言并未便宜分毫”。\n［技巧总结］从选项［E］、［C］、［D］含有明确的方向性（much easier for.・.、reduce the cost, free \nuniversities from...表明作者认可其价值）可知，本题考查对细节信息的理解之外，还考查作者态度，因 \n此除定位确定答案之外，还应该思考作者对于“开放式获取条款/模式”的看法，而两段中so that. . . can \nmake a profit、not. . . any cheaperrising at a rate above...均传达作者不满\"盈利反而成了主要任务、费用 \n一点没降,还越来越高”，可知只有［A］正确体现作者态度：开放获取模式实质上还是出版商的盈利工具。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "ef2cf0ce-f141-5615-85d1-981530e81e84",
@@ -1106,29 +1321,36 @@
         {
           "key": "A",
           "text": "Trial subscription is offered.",
+          "content": "Trial subscription is offered.",
           "value": "A"
         },
         {
           "key": "B",
           "text": "Labour triumphs over status.",
+          "content": "Labour triumphs over status.",
           "value": "B"
         },
         {
           "key": "C",
           "text": "Costs are well controlled.",
+          "content": "Costs are well controlled.",
           "value": "C"
         },
         {
           "key": "D",
           "text": "The few feed on the many.",
+          "content": "The few feed on the many.",
           "value": "D"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］末段①句指出，（众多科学家）付出免费劳动，而赚取巨额利润的却是控制行业的少数大公司，由此可知，科学出版业中，少数（大公司）以多数（科学家的免费劳动）为食，从而发展壮大。［D］正确。\n\n［命题解密］本题考查所讨论话题“科学出版模式”的特点，正确项是对第七段①句的合理概括。\n［A］与文义不符，本文开篇即指出科学出版业一本万利.依靠大学图书馆的高昂订阅费获取暴利.随 \n后介绍当前出现的一些新的出版模式•要么非法，要么换汤不换药.反而更加重科研经济负担.并未提及 \n\"试用订阅（Trial subscription）\" ; 源于第七段首句 labour is provided free in exchange for the hope of \nstatus,但该句说明科学家处于弱势，只能用劳动来换取社会地位，而非其劳动战胜了社会地位；［C］曲解 \n第六段④句，该句指出“论文准备费（即成本）”在持续增加，而非“成本得到了很好的控制”。\n［技巧总结］本题形为细节题，实为主旨大意题.考查对文章主题的把握。应在把握文章主旨的前提 \n下，结合具体内容确定正确答案。由文章前六段可知，本文旨在批判科学出版业盈利模式不合理，第七 \n段首句高度总结，直言科学出版业 labour is provided free. . . while huge profits are made by a few big \nfirms.因此［D］与文章主旨一致，且为对第七段①句的准确概括。［A］曲解文义；［B］与［C］皆为正面评 \n价，不符合文章“批评科学出版业由少数巨头垄断、利用科研成果坐收暴利”的情感态度。\n知识补充 \n原文外教朗读\n亍一、文章",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "9d4b0276-3d31-5a36-ae33-2dbb21fe2f08",
@@ -1141,29 +1363,36 @@
         {
           "key": "A",
           "text": "help little to reduce gender bias",
+          "content": "help little to reduce gender bias",
           "value": "A"
         },
         {
           "key": "B",
           "text": "pose a threat to the state government",
+          "content": "pose a threat to the state government",
           "value": "B"
         },
         {
           "key": "C",
           "text": "raise women's position in politics",
+          "content": "raise women's position in politics",
           "value": "C"
         },
         {
           "key": "D",
           "text": "greatly broaden career options",
+          "content": "greatly broaden career options",
           "value": "D"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］首段提到进步人士通常支持旨在促进平等的法案，随后第二段首句指出两位议员在马萨诸塞州发起的议案（提议所有州委员会和顾问委员会中女性人数至少占50%）便属于此类法案，但紧接着在②句明确作者态度：但此类硬性规定几乎无助于促进真正的平等。由此可见，作者认为该法案对促进性别平等收效甚微，［A］正确。\n［命题解密］正确项［A］是对第二段②句 do little to promote genuine equality 的同义改写，其中 help little to reduce 对应 do little to promote，gender bias 与 equality 构成反义转述。\n［B］pose a threat无中生有，第二段提及各州委员会，但并未提及法案对州政府构成威胁。［C］与第二段②句“法案无助于促进平等”相悖。［D］broaden career options偏离文章讨论重点，法案针对的是“委员会任命”，并非普通大众的职业选择。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 31,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "73789adf-bd17-599e-a4b6-e89aeea398ac",
@@ -1176,29 +1405,36 @@
         {
           "key": "A",
           "text": "It has irritated private business owners.",
+          "content": "It has irritated private business owners.",
           "value": "A"
         },
         {
           "key": "B",
           "text": "It is welcomed by the Supreme Court.",
+          "content": "It is welcomed by the Supreme Court.",
           "value": "B"
         },
         {
           "key": "C",
           "text": "It may go against the Constitution.",
+          "content": "It may go against the Constitution.",
           "value": "C"
         },
         {
           "key": "D",
           "text": "It will settle the prior controversies.",
+          "content": "It will settle the prior controversies.",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第四段①句指出加州已通过一项具有法律约束力的类似法案，随后②句指出该法案可能招致的严重后果：极可能被判违宪。由此可见，加州法案很可能违反宪法，［C］正确。\n［命题解密］正确项［C］中 may go against the Constitution 是对第四段②句 is likely to be struck down on constitutional grounds 的同义改写。\n［A］利用第四段①句 publicly held corporations 干扰，但文中并未提及私企老板的愤怒情绪。［B］与第四段②句“可能被最高法院裁定违宪而废止”的走向完全相反。［D］settle the prior controversies捏造事实，法案反而引发了新的合宪性争议。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "b77d03d7-ef87-55bd-b707-cacfdcf36fd6",
@@ -1211,29 +1447,36 @@
         {
           "key": "A",
           "text": "the harm from arbitrary board decision",
+          "content": "the harm from arbitrary board decision",
           "value": "A"
         },
         {
           "key": "B",
           "text": "the importance of constitutional guarantees",
+          "content": "the importance of constitutional guarantees",
           "value": "B"
         },
         {
           "key": "C",
           "text": "the pressure on women in global corporations",
+          "content": "the pressure on women in global corporations",
           "value": "C"
         },
         {
           "key": "D",
           "text": "the needlessness of government interventions",
+          "content": "the needlessness of government interventions",
           "value": "D"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第五段首句先指出政府强制措施根本没必要，随后②③句援引非营利研究机构Catalyst的调查发现（即便没有政府干预，财富500强企业中女性董事比例也已实现显著上升）作为论据；由此可见，作者引用该机构的调查旨在说明：无需政府干涉，企业董事会女性比例也在自发上升，政府干预实属多余，［D］正确。\n［命题解密］正确项［D］是对第五段①句 Government intervention is not needed 以及②③句数据的准确概括，needlessness 对应 not needed。\n［A］arbitrary board decision脱离上下文逻辑，该研究讨论的是董事会女性比例自然增长，无关任意决策的危害。［B］属于第四段话题，第五段已转向探讨干预的必要性。［C］pressure on women偏离调查核心内容。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 33,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "92e1ad29-7742-51e7-a9b0-d0a8950426c4",
@@ -1246,29 +1489,36 @@
         {
           "key": "A",
           "text": "the underestimation of elite women's role",
+          "content": "the underestimation of elite women's role",
           "value": "A"
         },
         {
           "key": "B",
           "text": "the objection to female participation on boards",
+          "content": "the objection to female participation on boards",
           "value": "B"
         },
         {
           "key": "C",
           "text": "the entry of unqualified candidates into the board",
+          "content": "the entry of unqualified candidates into the board",
           "value": "C"
         },
         {
           "key": "D",
           "text": "the growing tension between labour and management",
+          "content": "the growing tension between labour and management",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第七段引出挪威全国性企业性别配额的案例，随后第八段指出研究发现：由于硬性配额要求企业必须在短时间内任命大量女性董事，导致大批缺乏管理经验、资历不足的女性进入董事会，对企业业绩造成不利影响。由此可见，挪威配额制直接导致不合格人选进入了董事会，［C］正确。\n［命题解密］正确项［C］是对第八段 less-experienced women were appointed to boards 的归纳总结，unqualified candidates 对应 less-experienced candidates。\n［A］与事实相反，政策过度拔高了少数精英女性的职位。［B］objection to female participation曲解文意，各界反对的是硬性配额机制本身，而非女性参评。［D］labour and management劳资紧张关系属于杜撰内容。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 34,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "ea98e154-a6ee-543b-9ead-f10d3bdf0674",
@@ -1281,29 +1531,36 @@
         {
           "key": "A",
           "text": "Women's need in employment should be considered.",
+          "content": "Women's need in employment should be considered.",
           "value": "A"
         },
         {
           "key": "B",
           "text": "Feasibility should be a prime concern in policymaking.",
+          "content": "Feasibility should be a prime concern in policymaking.",
           "value": "B"
         },
         {
           "key": "C",
           "text": "Everyone should try hard to promote social justice.",
+          "content": "Everyone should try hard to promote social justice.",
           "value": "C"
         },
         {
           "key": "D",
           "text": "Major social issues should be the focus of legislation.",
+          "content": "Major social issues should be the focus of legislation.",
           "value": "D"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］文章开篇三段提出观点：多样性指令等政策对促进公平无济于事，反而会强化特权。第四至九段指出此类政策的不可行：可能被判违宪；不但没有必要，甚至很可能带来多种不良后果。末段重申此类政策的无效性。可见，本文重在指出此类政策不可行，建议政策制定者考量其可行性，［B］正确。\n［命题解密］正确项为全文主旨的换角度表述:此类政策无可行性=政策制定者在制定政策时应首要考量其可行性（Feasibility should be a prime concern in policymaking）。\n［A］偏离文章关注对象：文中关注的是\"董事会性别配额制政策\"，并非\"普通女性就业需求\"。［C］偏离话题：本文讨论的是\"政策有效性\"，并非“大众应如何推进社会正义”。［D］与作者立场相反，作者认为硬性立法往往得不偿失。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "eb225a3c-d49c-525e-8820-508903f78819",
@@ -1316,29 +1573,36 @@
         {
           "key": "A",
           "text": "regulate digital services platforms",
+          "content": "regulate digital services platforms",
           "value": "A"
         },
         {
           "key": "B",
           "text": "protect French companies' interests",
+          "content": "protect French companies' interests",
           "value": "B"
         },
         {
           "key": "C",
           "text": "impose a levy on tech multinationals",
+          "content": "impose a levy on tech multinationals",
           "value": "C"
         },
         {
           "key": "D",
           "text": "curb the influence of advertising",
+          "content": "curb the influence of advertising",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第1段第1句指出，法国参议院通过了一项数字服务税法案，将对跨国科技巨头征收新的税收，选 C。\n\n［命题解密］正确项［C］impose a levy、tech multinationals分别同义改写文首句中impose an entirely new tax与multinationals that provide digital services。\n\n［A］利用②句第一分句中碎片信息Digital services platform杂糅而来，但该部分意在解释数字服务税法案中“数字服务”的含义，并非指向法案内容；［B］利用常识误导学生认为“法国对跨国公司收税”意在“保护本土公司利益”，但由第三段首句in need of revenue可知，法国数字服务税意在“提高本国财政收入”；［D］利用②句中targeting advertising based on user data所传递出的广告影响力“基于用户数据即可精准定投”捏造而来，但它错误属性同［A］，对应的原文指向的是“数字服务”的具体内容，而非法案本身的内容。\n\n［技巧总结］本题解答难点在于：明确题干中bill指向开篇句中a digital services tax。两者的对等关系可以借助a digital services tax前passed“经表决通过（动议、法律等）”、后impose“推行，采用（规章制度），强势实行”两词判断。然后再据由which从句所展示的a digital services tax具体内容“向提供数字服务的大型跨国公司征收一项全新税种”锁定正确项［C］（粗犷型学习者甚至只借助“tax一词与［C］中levy一词同义”即可做出选择）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 36,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "995340e6-4989-534a-aa07-49f68089bae5",
@@ -1351,29 +1615,36 @@
         {
           "key": "A",
           "text": "may trigger countermeasures against France",
+          "content": "may trigger countermeasures against France",
           "value": "A"
         },
         {
           "key": "B",
           "text": "is apt to arouse criticism at home and abroad",
+          "content": "is apt to arouse criticism at home and abroad",
           "value": "B"
         },
         {
           "key": "C",
           "text": "aims to promote fair competition in multilateral trade",
+          "content": "aims to promote fair competition in multilateral trade",
           "value": "C"
         },
         {
           "key": "D",
           "text": "will be applied to all international enterprises in France",
+          "content": "will be applied to all international enterprises in France",
           "value": "D"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第二段末句指出，美国已对法国数字服务税展开 301 调查，可能导致美国对法国征收报复性关税（could lead to retaliatory tariffs on French goods）。由此可知，法国征收数字服务税可能会招致反制措施，［A］正确。\n\n［命题解密］正确项［A］may trigger countermeasures against France 是对第二段末句 could lead to retaliatory tariffs 的合理同义替换。\n\n［干扰排除］\n［B］将外部调查与报复关税曲解为“国内外饱受批评”。\n［C］将法国单边税收举措曲解为“旨在促进多边贸易公平竞争”，与第三段所述单边举措相悖。\n［D］偷换征税范围：首段明确指出该税只适用于全球数字业务收入超过 7.5 亿欧元的科技巨头，并非所有国际企业。\n\n［技巧总结］推断细节题需注意情态动词的对应（could lead to 对应选项中的 may trigger）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 37,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "c8bd875b-50a6-590c-8ae8-d22b3691e8b9",
@@ -1386,29 +1657,36 @@
         {
           "key": "A",
           "text": "redistribution of tech giants' revenue must be ensured",
+          "content": "redistribution of tech giants' revenue must be ensured",
           "value": "A"
         },
         {
           "key": "B",
           "text": "the current international tax system needs upgrading",
+          "content": "the current international tax system needs upgrading",
           "value": "B"
         },
         {
           "key": "C",
           "text": "tech multinationals' monopoly should be prevented",
+          "content": "tech multinationals' monopoly should be prevented",
           "value": "C"
         },
         {
           "key": "D",
           "text": "all countries ought to enjoy equal taxing rights",
+          "content": "all countries ought to enjoy equal taxing rights",
           "value": "D"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第四段②句指出，采取单边措施的国家都一致认同：当前的国际税收体制未能跟上变化中的全球经济的发展步伐（they all share a view that the international tax system has failed to keep up with the changing global economy）。换言之，现行的国际税收体系需要升级改革，［B］正确。\n\n［命题解密］正确项［B］the current international tax system needs upgrading 是对定位句 has failed to keep up with the changing global economy 的同义改写。\n\n［干扰排除］\n［A］无中生有，文中并未提及必须确保科技巨头的收入再分配。\n［C］偏离主题，文章讨论的是税收管辖权问题，而非反垄断问题。\n［D］过度引申，文中并未探讨所有国家是否享有平等的征税权。\n\n［技巧总结］观点归纳题应抓住观点引导词（share a view that ...）后的宾语从句内容进行直接对应。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 38,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "2d493199-27c2-579c-a2e8-621212e3017d",
@@ -1421,29 +1699,36 @@
         {
           "key": "A",
           "text": "is being resisted by US companies",
+          "content": "is being resisted by US companies",
           "value": "A"
         },
         {
           "key": "B",
           "text": "needs to be readjusted immediately",
+          "content": "needs to be readjusted immediately",
           "value": "B"
         },
         {
           "key": "C",
           "text": "is faced with uncertain prospects",
+          "content": "is faced with uncertain prospects",
           "value": "C"
         },
         {
           "key": "D",
           "text": "needs to involve more countries",
+          "content": "needs to involve more countries",
           "value": "D"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第五段②句指出：法国的数字服务税以及美国的反应给国际税收体系的未来走向打上了问号（raise questions about what the future holds for the international tax system）。由此可知，OECD 目前正在推进的多边国际解决方案面临着不确定的前景，［C］正确。\n\n［命题解密］正确项［C］is faced with uncertain prospects 是对②句 raise questions about what the future holds 的同义转述。\n\n［干扰排除］\n［A］与第二句指出美国也参与了 OECD 工作的客观事实相悖。\n［B］将前景不明朗曲解为“需要立即进行重新调整”。\n［D］将已有 131 个国家参与的事实歪曲为“需要更多国家参与”。\n\n［技巧总结］考查对未来趋势或机构工作现状评价时，重点关注具有转折和评判色彩的短语（raise questions about what the future holds）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 39,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "6d5f57f5-181d-5f0d-ade0-fb212e679b03",
@@ -1456,29 +1741,36 @@
         {
           "key": "A",
           "text": "France Is Confronted with Trade Sanctions",
+          "content": "France Is Confronted with Trade Sanctions",
           "value": "A"
         },
         {
           "key": "B",
           "text": "France Leads the Charge on Digital Tax",
+          "content": "France Leads the Charge on Digital Tax",
           "value": "B"
         },
         {
           "key": "C",
           "text": "France Says \"NO\" to Tech Multinationals",
+          "content": "France Says \"NO\" to Tech Multinationals",
           "value": "C"
         },
         {
           "key": "D",
           "text": "France Demands a Role in the Digital Economy",
+          "content": "France Demands a Role in the Digital Economy",
           "value": "D"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］全文首句指出法国率先通过数字服务税法案；随后的论述指出法国开此先河引发多国效仿及国际税收体系的震荡；末段总结指出法国拟征的数字税是一个明确警告，若国际解决方案难产，更多国家将跟进效仿。可见全文紧紧围绕“法国率先开征数字税”展开，［B］为最佳标题。\n\n［命题解密］正确项［B］France Leads the Charge on Digital Tax（法国带头开征数字税）高度概括了全文主题。Leads the charge 形象贴切地概括了法国开创先河的举措。\n\n［干扰排除］\n［A］以偏概全，法国面临关税威胁只是第二段中提到的潜在局部后果。\n［C］情感色彩与事实偏颇，法国开征数字税是为了增加财政收入，并非对科技巨头说“不”。\n［D］偏离核心，法国并非要求在数字经济中占有一席之地，而是要求分享税收红利。\n\n［技巧总结］主旨标题题需把握文章首尾呼应的线索，正确项既要有核心主体（France），又要有核心事件（Digital Tax）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 40,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "518d6358-a7b0-5a63-8064-aec8ede9829a",
@@ -1486,49 +1778,59 @@
       "passage_id": "8fccb237-63da-59e2-b4c2-f21143c9c9cc",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (41):",
+      "stem": "Choose the best heading [A]-[G] for Paragraph 2 [41]:",
       "options": [
         {
           "key": "A",
-          "text": "Ask clarifying questions",
+          "text": "Eye fixations are brief",
+          "content": "Eye fixations are brief",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Show that you're listening",
+          "text": "Too much eye contact is instinctively felt to be rude",
+          "content": "Too much eye contact is instinctively felt to be rude",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Find common ground",
+          "text": "Eye contact can be a friendly social signal",
+          "content": "Eye contact can be a friendly social signal",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Be comfortable with silence",
+          "text": "Personality can affect how a person reacts to eye contact",
+          "content": "Personality can affect how a person reacts to eye contact",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Avoid unsolicited advice",
+          "text": "Biological factors behind eye contact are being investigated",
+          "content": "Biological factors behind eye contact are being investigated",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Keep an open mind",
+          "text": "Most people are not comfortable holding eye contact with strangers",
+          "content": "Most people are not comfortable holding eye contact with strangers",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Give your full attention",
+          "text": "Eye contact can also be aggressive",
+          "content": "Eye contact can also be aggressive",
           "value": "G"
         }
       ],
       "correct_answer": "C",
-      "explanation": "41. 【答案】C 【精解】第二段首两句指出，婴儿与母亲的对视是母子依恋关系的重要组成部分。\n\n③④句指出成年后愉快地注视他人可以释放友好的社交信号。⑤句概括指出“目光接触可以传达交流\n\n意愿和信任”这一常识性认识已得到心理学家研究证实。【C】 Eye contact can be a friendly social signal\n\n是对段落主要内容的恰当概括，be a friendly social signal 概括 be a complimentary sign of paying\n\nattention（向对方表明你在欣赏地关注他/她）;catch someone's attention in a crowded room（在拥挤的人\n\n群中引起某人的注意）;signal availability and confidenceC向对方表明你信任他/她、愿意与之交流）等所\n\n体现的“强大的社交信号功能”。\n\n【干扰项设置】【E】中instinctively复现本段词语，有一定干扰性，但rude.too much在本段中丝毫找\n\n不到对应信息（该段并未提及过多目光接触，以及被冒犯之感），故可排除。",
-      "points": 2,
+      "explanation": "41. ［答案］C ［精解］第二段首两句指出，婴儿与母亲的对视是母子依恋关系的重要组成部分。 \n③④句指出成年后愉快地注视他人可以释放友好的社交信号。⑤句概括指出“目光接触可以传达交流 \n意愿和信任”这一常识性认识已得到心理学家研究证实。［C］ Eye contact can be a friendly social signal \n是对段落主要内容的恰当概括，be a friendly social signal 概括 be a complimentary sign of paying \nattention（向对方表明你在欣赏地关注他/她）;catch someone's attention in a crowded room（在拥挤的人 \n群中引起某人的注意）;signal availability and confidenceC向对方表明你信任他/她、愿意与之交流）等所 \n体现的“强大的社交信号功能”。\n［干扰项设置］［E］中instinctively复现本段词语，有一定干扰性，但rude.too much在本段中丝毫找 \n不到对应信息（该段并未提及过多目光接触，以及被冒犯之感），故可排除。",
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 41,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "8dc8cea1-bc89-572e-811f-edd2948794c2",
@@ -1536,49 +1838,59 @@
       "passage_id": "8fccb237-63da-59e2-b4c2-f21143c9c9cc",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (42):",
+      "stem": "Choose the best heading [A]-[G] for Paragraph 3 [42]:",
       "options": [
         {
           "key": "A",
-          "text": "Ask clarifying questions",
+          "text": "Eye fixations are brief",
+          "content": "Eye fixations are brief",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Show that you're listening",
+          "text": "Too much eye contact is instinctively felt to be rude",
+          "content": "Too much eye contact is instinctively felt to be rude",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Find common ground",
+          "text": "Eye contact can be a friendly social signal",
+          "content": "Eye contact can be a friendly social signal",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Be comfortable with silence",
+          "text": "Personality can affect how a person reacts to eye contact",
+          "content": "Personality can affect how a person reacts to eye contact",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Avoid unsolicited advice",
+          "text": "Biological factors behind eye contact are being investigated",
+          "content": "Biological factors behind eye contact are being investigated",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Keep an open mind",
+          "text": "Most people are not comfortable holding eye contact with strangers",
+          "content": "Most people are not comfortable holding eye contact with strangers",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Give your full attention",
+          "text": "Eye contact can also be aggressive",
+          "content": "Eye contact can also be aggressive",
           "value": "G"
         }
       ],
       "correct_answer": "E",
-      "explanation": "42. 【答案】E 【精解】先浏览第三段，根据 Neuroscientist、the hormone oxytocin、Specific brain\n\nregions（这些都属“生物学”范畴）基本上可以将选项锁定到【E】 Biological factors behind eye contact are\n\nbeing investigatedo随后分析该段内容:①②句介绍一位神经科学家的发现：无论是对于“面试中的正常男\n\n性”还是“通常避免目光接触的自闭症患者这一特殊群体”，催产素都能增加目光接触（This= that the\n\nhormone oxytocin increased the amount of eye contact） o③句指出其他研究者正在探究直接注视他人时产生\n\n反应的特定大脑区域。可见段落确为介绍“目光接触背后的生物学因素”的相关研究，确定【E】无误，段中\n\nfound、explored 恰对应选项中 investigated。",
-      "points": 2,
+      "explanation": "42. ［答案］E ［精解］先浏览第三段，根据 Neuroscientist、the hormone oxytocin、Specific brain \nregions（这些都属“生物学”范畴）基本上可以将选项锁定到［E］ Biological factors behind eye contact are \nbeing investigatedo随后分析该段内容:①②句介绍一位神经科学家的发现：无论是对于“面试中的正常男 \n性”还是“通常避免目光接触的自闭症患者这一特殊群体”，催产素都能增加目光接触（This= that the \nhormone oxytocin increased the amount of eye contact） o③句指出其他研究者正在探究直接注视他人时产生 \n反应的特定大脑区域。可见段落确为介绍“目光接触背后的生物学因素”的相关研究，确定［E］无误，段中 \nfound、explored 恰对应选项中 investigated。",
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 42,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "1503f7e5-f8c6-51fe-9a68-580ca97966bb",
@@ -1586,49 +1898,59 @@
       "passage_id": "8fccb237-63da-59e2-b4c2-f21143c9c9cc",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (43):",
+      "stem": "Choose the best heading [A]-[G] for Paragraph 4 [43]:",
       "options": [
         {
           "key": "A",
-          "text": "Ask clarifying questions",
+          "text": "Eye fixations are brief",
+          "content": "Eye fixations are brief",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Show that you're listening",
+          "text": "Too much eye contact is instinctively felt to be rude",
+          "content": "Too much eye contact is instinctively felt to be rude",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Find common ground",
+          "text": "Eye contact can be a friendly social signal",
+          "content": "Eye contact can be a friendly social signal",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Be comfortable with silence",
+          "text": "Personality can affect how a person reacts to eye contact",
+          "content": "Personality can affect how a person reacts to eye contact",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Avoid unsolicited advice",
+          "text": "Biological factors behind eye contact are being investigated",
+          "content": "Biological factors behind eye contact are being investigated",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Keep an open mind",
+          "text": "Most people are not comfortable holding eye contact with strangers",
+          "content": "Most people are not comfortable holding eye contact with strangers",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Give your full attention",
+          "text": "Eye contact can also be aggressive",
+          "content": "Eye contact can also be aggressive",
           "value": "G"
         }
       ],
       "correct_answer": "G",
-      "explanation": "43. 【答案】G 【精解】第四段首句指出研究结论：目光接触视情境不同可传达不同信息。第二句\n\n以While... ,it's more likely结构将语义重点落在“敌对情形”：目光接触更可能传达的是“控制”或“恫\n\n吓”（dominance or intimidation）。末句提出建议：谨记在这些情形下，设法保持目光接触可能会事与愿\n\n违。由此可见，本段论述针对的是目光接触传递“敌意、攻击、好斗”信号的情形，【G】为恰当选项，\n\naggressive 概括段中 dominance or intimidationo\n\n【干扰项设置】【B】Too much eye contact is instinctively felt to be rude 中 »too'much eye contact 和\n\nrude 可分别对应本段中 trying to maintain eye contact may backfire 和 dominance or intimidation,因此具\n\n有极强的干扰性。但整体理解可发现：【B】强调的是“过多目光接触引起的个人感受”，而段落针对的是\n\n\"目光接触传达敌意的情景”；且选项中Too much eye contact泛指“一切情形”，而段中trying to maintain\n\neye contact may backfire局限于\"敌对情形”，故可排除。",
-      "points": 2,
+      "explanation": "43. ［答案］G ［精解］第四段首句指出研究结论：目光接触视情境不同可传达不同信息。第二句 \n以While... ,it's more likely结构将语义重点落在“敌对情形”：目光接触更可能传达的是“控制”或“恫 \n吓”（dominance or intimidation）。末句提出建议：谨记在这些情形下，设法保持目光接触可能会事与愿 \n违。由此可见，本段论述针对的是目光接触传递“敌意、攻击、好斗”信号的情形，［G］为恰当选项， \naggressive 概括段中 dominance or intimidationo\n［干扰项设置］［B］Too much eye contact is instinctively felt to be rude 中 »too'much eye contact 和 \nrude 可分别对应本段中 trying to maintain eye contact may backfire 和 dominance or intimidation,因此具 \n有极强的干扰性。但整体理解可发现：［B］强调的是“过多目光接触引起的个人感受”，而段落针对的是 \n\"目光接触传达敌意的情景”；且选项中Too much eye contact泛指“一切情形”，而段中trying to maintain \neye contact may backfire局限于\"敌对情形”，故可排除。",
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 43,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "78bb3908-9675-5444-98cf-50c8f2002395",
@@ -1636,49 +1958,59 @@
       "passage_id": "8fccb237-63da-59e2-b4c2-f21143c9c9cc",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (44):",
+      "stem": "Choose the best heading [A]-[G] for Paragraph 5 [44]:",
       "options": [
         {
           "key": "A",
-          "text": "Ask clarifying questions",
+          "text": "Eye fixations are brief",
+          "content": "Eye fixations are brief",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Show that you're listening",
+          "text": "Too much eye contact is instinctively felt to be rude",
+          "content": "Too much eye contact is instinctively felt to be rude",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Find common ground",
+          "text": "Eye contact can be a friendly social signal",
+          "content": "Eye contact can be a friendly social signal",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Be comfortable with silence",
+          "text": "Personality can affect how a person reacts to eye contact",
+          "content": "Personality can affect how a person reacts to eye contact",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Avoid unsolicited advice",
+          "text": "Biological factors behind eye contact are being investigated",
+          "content": "Biological factors behind eye contact are being investigated",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Keep an open mind",
+          "text": "Most people are not comfortable holding eye contact with strangers",
+          "content": "Most people are not comfortable holding eye contact with strangers",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Give your full attention",
+          "text": "Eye contact can also be aggressive",
+          "content": "Eye contact can also be aggressive",
           "value": "G"
         }
       ],
       "correct_answer": "A",
-      "explanation": "44. 【答案】A 【精解】第五段主要阐述“在一张面孔或照片上定位一系列重要点”的过程，描述过\n\n程中作者借助“具体数据的使用（about three per second）”、\"动词的恰当选用（spot、pauses、jump）”、\"类\n\n比的形象使用（like a series of snapshots）”等说明这一过程\"非常快速\"。【A】正确,eye fixations对应our\n\neyes pause、These pauseso",
-      "points": 2,
+      "explanation": "44. ［答案］A ［精解］第五段主要阐述“在一张面孔或照片上定位一系列重要点”的过程，描述过 \n程中作者借助“具体数据的使用（about three per second）”、\"动词的恰当选用（spot、pauses、jump）”、\"类 \n比的形象使用（like a series of snapshots）”等说明这一过程\"非常快速\"。［A］正确,eye fixations对应our \neyes pause、These pauseso",
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 44,
+      "score": 2.0,
+      "question_type": "reading_item"
     },
     {
       "id": "fdeaaeb4-4c4f-5965-a6ae-a772ac0e6738",
@@ -1686,50 +2018,69 @@
       "passage_id": "8fccb237-63da-59e2-b4c2-f21143c9c9cc",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best heading [A]-[G] for paragraph (45):",
+      "stem": "Choose the best heading [A]-[G] for Paragraph 6 [45]:",
       "options": [
         {
           "key": "A",
-          "text": "Ask clarifying questions",
+          "text": "Eye fixations are brief",
+          "content": "Eye fixations are brief",
           "value": "A"
         },
         {
           "key": "B",
-          "text": "Show that you're listening",
+          "text": "Too much eye contact is instinctively felt to be rude",
+          "content": "Too much eye contact is instinctively felt to be rude",
           "value": "B"
         },
         {
           "key": "C",
-          "text": "Find common ground",
+          "text": "Eye contact can be a friendly social signal",
+          "content": "Eye contact can be a friendly social signal",
           "value": "C"
         },
         {
           "key": "D",
-          "text": "Be comfortable with silence",
+          "text": "Personality can affect how a person reacts to eye contact",
+          "content": "Personality can affect how a person reacts to eye contact",
           "value": "D"
         },
         {
           "key": "E",
-          "text": "Avoid unsolicited advice",
+          "text": "Biological factors behind eye contact are being investigated",
+          "content": "Biological factors behind eye contact are being investigated",
           "value": "E"
         },
         {
           "key": "F",
-          "text": "Keep an open mind",
+          "text": "Most people are not comfortable holding eye contact with strangers",
+          "content": "Most people are not comfortable holding eye contact with strangers",
           "value": "F"
         },
         {
           "key": "G",
-          "text": "Give your full attention",
+          "text": "Eye contact can also be aggressive",
+          "content": "Eye contact can also be aggressive",
           "value": "G"
         }
       ],
       "correct_answer": "D",
-      "explanation": "45. 【答案】D 【精解】第六段①句指出神经质程度越高的人越倾向于避免与他人目光接触。②句\n\n进一步指出不同个性的人成为关注焦点时，无论是心理感受还是大脑反应都大为不同。③句进而指出\n\n负面情绪高的人注视他人的时间更短、且自己不被他人直视时更自在。可见选项【D】可以作为该段理想\n\n的小标题。Personality 原词复现，且概括 self-consciousnessanxietynegative emotions 等人格特质。\n\n【干扰项设置】【F】复现段末comfortable -词，有一定干扰。但该句含义为“负面情绪高的人（people\n\nwho scored highly for negative emotions ）在不被他人（others）直视时感到更自在\"，而选项是\"大多数人\n\n（Most people）在和陌生人（strangers）目光接触时会不自在\"，含义相差巨大，可排除。",
-      "points": 2,
+      "explanation": "45. ［答案］D ［精解］第六段①句指出神经质程度越高的人越倾向于避免与他人目光接触。②句 \n进一步指出不同个性的人成为关注焦点时，无论是心理感受还是大脑反应都大为不同。③句进而指出 \n负面情绪高的人注视他人的时间更短、且自己不被他人直视时更自在。可见选项［D］可以作为该段理想 \n的小标题。Personality 原词复现，且概括 self-consciousnessanxietynegative emotions 等人格特质。\n［干扰项设置］［F］复现段末comfortable -词，有一定干扰。但该句含义为“负面情绪高的人（people \nwho scored highly for negative emotions ）在不被他人（others）直视时感到更自在\"，而选项是\"大多数人 \n（Most people）在和陌生人（strangers）目光接触时会不自在\"，含义相差巨大，可排除。\n48",
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 45,
+      "score": 2.0,
+      "question_type": "reading_item"
     }
   ],
-  "exportedAt": "2026-10-15T11:40:18.195Z"
+  "exportedAt": "2026-10-13T00:01:42.509Z",
+  "title": "2020年全国硕士研究生招生考试英语（一）真题",
+  "category_id": "ky1",
+  "year": 2020,
+  "exam_type": "real",
+  "total_score": 60.0,
+  "pass_score": 36.0,
+  "duration_minutes": 180,
+  "approval_status": "approved",
+  "is_published": true
 }

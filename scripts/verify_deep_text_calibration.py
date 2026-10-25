@@ -169,6 +169,7 @@ def main():
     round69_anomalies = []
     round70_anomalies = []
     round71_anomalies = []
+    round72_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1704,6 +1705,117 @@ def main():
                     act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
                     if act_ans != exp_ans:
                         round71_anomalies.append((f'2019_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2020 and cat == 'ky1':
+            if title != '2020年全国硕士研究生招生考试英语（一）真题':
+                round72_anomalies.append(('2020_ky1_title', title))
+            if data['exam'].get('total_score') != 60.0:
+                round72_anomalies.append(('2020_ky1_total_score', data['exam'].get('total_score')))
+            if data['exam'].get('pass_score') != 36.0:
+                round72_anomalies.append(('2020_ky1_pass_score', data['exam'].get('pass_score')))
+            
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round72_anomalies.append(('2020_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 4 paras, 271 words, clean
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round72_anomalies.append(('2020_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("Even if families don't sit down to eat together"):
+                    round72_anomalies.append(('2020_ky1_cloze_start', cloze.get("content", "")[:50]))
+
+                # Text 1: 4 paras, 433 words, pure, no Text 2 pollution
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 4:
+                    round72_anomalies.append(('2020_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("A group of Labour MPs, among them Yvette Cooper"):
+                    round72_anomalies.append(('2020_ky1_t1_start', t1.get("content", "")[:50]))
+                if 'production of scientific knowledge' in t1.get("content", "") or 'acquisition of status' in t1.get("content", ""):
+                    round72_anomalies.append(('2020_ky1_t1_cross_contamination', 'present'))
+
+                # Text 2: 7 paras, 447 words, Scientific publishing
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 7:
+                    round72_anomalies.append(('2020_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("Scientific publishing has long been a licence to print money"):
+                    round72_anomalies.append(('2020_ky1_t2_start', t2.get("content", "")[:50]))
+
+                # Text 3: 10 paras, 414 words, Board diversity mandates, clean of question leak
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 10:
+                    round72_anomalies.append(('2020_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("Progressives often support diversity mandates"):
+                    round72_anomalies.append(('2020_ky1_t3_start', t3.get("content", "")[:50]))
+                if 'The author believes that the bills sponsored' in t3.get("content", ""):
+                    round72_anomalies.append(('2020_ky1_t3_question_leak', 'present'))
+                if 'increased by 54 percent' not in t3.get("content", ""):
+                    round72_anomalies.append(('2020_ky1_t3_catalyst_truncation', 'missing'))
+
+                # Text 4: 6 paras, 435 words, French digital tax, complete with Para 6
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 6:
+                    round72_anomalies.append(('2020_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("Last Thursday, the French Senate passed a digital services tax"):
+                    round72_anomalies.append(('2020_ky1_t4_start', t4.get("content", "")[:50]))
+                if "France's planned tax is a clear warning" not in t4.get("content", ""):
+                    round72_anomalies.append(('2020_ky1_t4_para6_missing', 'missing'))
+
+                # Part B: 6 paras, 480 words, eye contact research
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 6:
+                    round72_anomalies.append(('2020_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("In a social situation, eye contact with another person"):
+                    round72_anomalies.append(('2020_ky1_pb_start', pb.get("content", "")[:50]))
+                if "Directions:" in pb.get("content", ""):
+                    round72_anomalies.append(('2020_ky1_pb_directions_leak', 'present'))
+
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round72_anomalies.append(('2020_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round72_anomalies.append((f'2020_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round72_anomalies.append((f'2020_ky1_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round72_anomalies.append((f'2020_ky1_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round72_anomalies.append((f'2020_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    opts = q.get('options', [])
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('content', '') or opt.get('text', '')
+                        if opt_t in ['[A]', '[B]', '[C]', '[D]', 'A', 'B', 'C', 'D', ''] or len(opt_t.strip()) == 0:
+                            round72_anomalies.append((f'2020_ky1_q{i}_placeholder_opt', opt_k))
+                    
+                    exp = q.get('explanation') or q.get('analysis') or ''
+                    if len(exp.strip()) < 80:
+                        round72_anomalies.append((f'2020_ky1_q{i}_three_tier_expl', 'insufficient'))
+
+                official_answers_2020_ky1 = {
+                    1: 'C', 2: 'A', 3: 'B', 4: 'D', 5: 'A',
+                    6: 'B', 7: 'D', 8: 'A', 9: 'D', 10: 'C',
+                    11: 'C', 12: 'A', 13: 'B', 14: 'D', 15: 'C',
+                    16: 'B', 17: 'A', 18: 'B', 19: 'C', 20: 'D',
+                    21: 'C', 22: 'B', 23: 'D', 24: 'B', 25: 'C',
+                    26: 'D', 27: 'A', 28: 'C', 29: 'A', 30: 'D',
+                    31: 'A', 32: 'C', 33: 'D', 34: 'C', 35: 'B',
+                    36: 'C', 37: 'A', 38: 'B', 39: 'C', 40: 'B',
+                    41: 'C', 42: 'E', 43: 'G', 44: 'A', 45: 'D'
+                }
+                for q_idx, exp_ans in official_answers_2020_ky1.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round72_anomalies.append((f'2020_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -4303,6 +4415,7 @@ def main():
     results["Assertion 91: 2018 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段350词消除假实验段、Text 1 恢复8段370词对齐Q23第5段与推行本科论述、Text 2 恢复7段416词理顺风能与储能电池进展、Text 3 恢复4段412词补全反垄断法变化慢从句并消除黏连、Text 4 恢复7段439词找回失落第3段深度日程并治愈rethink截断、Part B 恢复584词剥离Directions与分值杂质、彻底治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round69_anomalies) == 0)
     results["Assertion 92: 2019 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段288词、Text 1 找回失落首段追回规定并恢复7段426词彻底切除Q21-Q25题干倒灌、Text 2 恢复6段414词切除Q29题干与Text 3跨篇倒灌、Text 3 恢复9段442词理顺弗兰肯斯坦与AI伦理、Text 4 恢复7段443词切除倒灌题干与排版箭头、Part B 恢复7段[A]-[G]593词彻底替换假科学论文选项并规范排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round70_anomalies) == 0)
     results["Assertion 93: 2019 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复7段347词并剔除划线噪音、Text 1 恢复6段375词理顺内疚感与同情心研究并切除黏连词、Text 2 恢复5段388词对齐Q29第5段定位与加州森林碳计划、Text 3 恢复8段409词理顺农工签证与移民政策、Text 4 恢复8段395词切除黏连并理顺个体与制度变革、Part B 恢复16段484词理顺购房决策五人访谈脉络、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round71_anomalies) == 0)
+    results["Assertion 94: 2020 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词、Text 1 彻底剔除Text 2跨篇倒灌污染恢复4段433词、Text 2 恢复7段447词理顺学术出版垄断与开源博弈、Text 3 恢复10段414词切除倒灌题干并追回加州违宪与Catalyst及金裙现象完整论述、Text 4 恢复6段435词找回失落末段并补全GAFA表述、Part B 恢复6段480词彻底替换假沟通选项为眼神交流真实7选项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round72_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -4458,6 +4571,8 @@ def main():
             print(f"Round 70 anomalies ({len(round70_anomalies)}):", round70_anomalies[:10])
         if round71_anomalies:
             print(f"Round 71 anomalies ({len(round71_anomalies)}):", round71_anomalies[:10])
+        if round72_anomalies:
+            print(f"Round 72 anomalies ({len(round72_anomalies)}):", round72_anomalies[:10])
         if round58_anomalies:
             print(f"Round 58 anomalies ({len(round58_anomalies)}):", round58_anomalies[:10])
         if round59_anomalies:
