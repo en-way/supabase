@@ -171,6 +171,7 @@ def main():
     round71_anomalies = []
     round72_anomalies = []
     round73_anomalies = []
+    round74_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -1916,6 +1917,107 @@ def main():
                     act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
                     if act_ans != exp_ans:
                         round73_anomalies.append((f'2020_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2021 and cat == 'ky1':
+            if title != '2021年全国硕士研究生招生考试英语（一）真题':
+                round74_anomalies.append(('2021_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round74_anomalies.append(('2021_ky1_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round74_anomalies.append(('2021_ky1_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round74_anomalies.append(('2021_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 5 paras, 273 words
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 5:
+                    round74_anomalies.append(('2021_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("Fluid intelligence is the type of intelligence that has to do with short-term memory"):
+                    round74_anomalies.append(('2021_ky1_cloze_start', cloze.get("content", "")[:50]))
+
+                # Text 1: 4 paras, 388 words, rail passenger fares
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 4:
+                    round74_anomalies.append(('2021_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("How can the train operators possibly justify yet another increase to rail passenger fares?"):
+                    round74_anomalies.append(('2021_ky1_t1_start', t1.get("content", "")[:50]))
+
+                # Text 2: 8 paras, 406 words, Indonesia deforestation and CCT
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 8:
+                    round74_anomalies.append(('2021_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("Last year marked the third year in a row that Indonesia's bleak rate of deforestation has slowed in pace."):
+                    round74_anomalies.append(('2021_ky1_t2_start', t2.get("content", "")[:50]))
+
+                # Text 3: 6 paras, 444 words, Victorian photographs smiling
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 6:
+                    round74_anomalies.append(('2021_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("As a historian who's always searching for the text or the image that makes us re-evaluate the past"):
+                    round74_anomalies.append(('2021_ky1_t3_start', t3.get("content", "")[:50]))
+                if 'nothing more damning than a silly, foolish smile fixed forever' not in t3.get("content", ""):
+                    round74_anomalies.append(('2021_ky1_t3_repair', 'Mark Twain quote missing'))
+
+                # Text 4: 6 paras, 426 words, FCC and net neutrality
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 6:
+                    round74_anomalies.append(('2021_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("From the early days of broadband, advocates for consumers and web-based companies worried"):
+                    round74_anomalies.append(('2021_ky1_t4_start', t4.get("content", "")[:50]))
+
+                # Part B: 14 paras (Title + Headings + Gaps + [A]-[G] Options)
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 14:
+                    round74_anomalies.append(('2021_ky1_pb_paras', len(pb_paras)))
+                if 'Directions:' in pb.get("content", ""):
+                    round74_anomalies.append(('2021_ky1_pb_directions_leak', 'Directions found'))
+                if '[A] AI replaces the boring parts of your job' not in pb.get("content", ""):
+                    round74_anomalies.append(('2021_ky1_pb_options', 'Options missing'))
+
+            # Questions validation
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round74_anomalies.append(('2021_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round74_anomalies.append((f'2021_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round74_anomalies.append((f'2021_ky1_q{i}_question_number', q.get('question_number')))
+                    exp_sc = 0.5 if i <= 20 else 2.0
+                    if float(q.get('score', 0)) != exp_sc or float(q.get('points', 0)) != exp_sc:
+                        round74_anomalies.append((f'2021_ky1_q{i}_score', q.get('score'), q.get('points')))
+                    
+                    exp_opt_count = 7 if i >= 41 else 4
+                    opts = q.get('options', [])
+                    if len(opts) != exp_opt_count:
+                        round74_anomalies.append((f'2021_ky1_q{i}_options_count', len(opts)))
+                    for o in opts:
+                        if not o.get('key') or not o.get('text') or not o.get('content') or not o.get('value'):
+                            round74_anomalies.append((f'2021_ky1_q{i}_option_fields', o))
+                            break
+                    exp = q.get('explanation') or q.get('analysis') or ''
+                    if len(exp.strip()) < 50:
+                        round74_anomalies.append((f'2021_ky1_q{i}_expl_length', len(exp)))
+
+                official_answers_2021_ky1 = {
+                    1: 'C', 2: 'D', 3: 'A', 4: 'B', 5: 'A',
+                    6: 'A', 7: 'C', 8: 'B', 9: 'A', 10: 'C',
+                    11: 'D', 12: 'B', 13: 'C', 14: 'D', 15: 'D',
+                    16: 'B', 17: 'D', 18: 'A', 19: 'A', 20: 'C',
+                    21: 'C', 22: 'B', 23: 'C', 24: 'D', 25: 'D',
+                    26: 'B', 27: 'D', 28: 'C', 29: 'C', 30: 'A',
+                    31: 'A', 32: 'B', 33: 'D', 34: 'A', 35: 'A',
+                    36: 'C', 37: 'B', 38: 'B', 39: 'D', 40: 'A',
+                    41: 'G', 42: 'C', 43: 'E', 44: 'B', 45: 'D'
+                }
+                for q_idx, exp_ans in official_answers_2021_ky1.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round74_anomalies.append((f'2021_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -4517,6 +4619,7 @@ def main():
     results["Assertion 93: 2019 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复7段347词并剔除划线噪音、Text 1 恢复6段375词理顺内疚感与同情心研究并切除黏连词、Text 2 恢复5段388词对齐Q29第5段定位与加州森林碳计划、Text 3 恢复8段409词理顺农工签证与移民政策、Text 4 恢复8段395词切除黏连并理顺个体与制度变革、Part B 恢复16段484词理顺购房决策五人访谈脉络、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round71_anomalies) == 0)
     results["Assertion 94: 2020 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词、Text 1 彻底剔除Text 2跨篇倒灌污染恢复4段433词、Text 2 恢复7段447词理顺学术出版垄断与开源博弈、Text 3 恢复10段414词切除倒灌题干并追回加州违宪与Catalyst及金裙现象完整论述、Text 4 恢复6段435词找回失落末段并补全GAFA表述、Part B 恢复6段480词彻底替换假沟通选项为眼神交流真实7选项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round72_anomalies) == 0)
     results["Assertion 95: 2020 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段362词规范冒号题干、Text 1 恢复7段401词找回塑料盒机器鼠与失落Wiles引述句、Text 2 恢复5段396词理顺CEO高薪与标准治理博弈、Text 3 恢复7段395词理顺马德里低排区与伦敦Ulez及威尔士限速、Text 4 恢复4段407词理顺Z世代务实求稳与避免前人覆辙、Part B 恢复6段458词彻底切除Directions并规范[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round73_anomalies) == 0)
+    results["Assertion 96: 2021 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段273词规范冒号题干、Text 1 恢复4段388词补全H开头与trumpeting改善从句并切除末尾伪增补、Text 2 恢复8段406词理顺印尼CCT扶贫与减缓毁林相关性、Text 3 恢复6段444词彻底替换假缩写文本还原推特维多利亚人微笑真相与马克吐温论断、Text 4 恢复6段426词理顺FCC废除网络中立与米利特法官协同意见、Part B 恢复14段605词彻底剔除假高校资助伪选项恢复商业AI真实7项[A]-[G]、治愈全卷45题question_number与score丢失缺陷、Q21纠偏官方标准答案C、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round74_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -4527,6 +4630,8 @@ def main():
             all_passed = False
 
     if not all_passed:
+        if round74_anomalies:
+            print("Round 74 anomalies:", round74_anomalies)
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
