@@ -175,6 +175,7 @@ def main():
     round75_anomalies = []
     round76_anomalies = []
     round77_anomalies = []
+    round78_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -2315,6 +2316,111 @@ def main():
                         opt_c = opt.get('content', '')
                         if not opt_k or (not opt_t and not opt_c):
                             round77_anomalies.append((f'2022_ky2_q{i}_opt_invalid', opt_k, opt_t))
+
+        if yr == 2023 and cat == 'ky1':
+            if title != '2023年全国硕士研究生招生考试英语（一）真题':
+                round78_anomalies.append(('2023_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round78_anomalies.append(('2023_ky1_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round78_anomalies.append(('2023_ky1_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round78_anomalies.append(('2023_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 5 paras, 281 words, Caravanserais
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 5:
+                    round78_anomalies.append(('2023_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("Caravanserais were roadside inns that were built along the Silk Road"):
+                    round78_anomalies.append(('2023_ky1_cloze_start', cloze.get("content", "")[:50]))
+                if not cloze.get("content", "").endswith("many of which are in [20]."):
+                    round78_anomalies.append(('2023_ky1_cloze_end', cloze.get("content", "")[-40:]))
+
+                # Text 1: 7 paras, 443 words, Texas climate education
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round78_anomalies.append(('2023_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("The weather in Texas may have cooled since the recent extreme heat,"):
+                    round78_anomalies.append(('2023_ky1_t1_start', t1.get("content", "")[:50]))
+                if not t1.get("content", "").endswith("sponsored by energy industry associations."):
+                    round78_anomalies.append(('2023_ky1_t1_end', t1.get("content", "")[-50:]))
+
+                # Text 2: 9 paras, 464 words, Short-term rentals
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 9:
+                    round78_anomalies.append(('2023_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("Communities throughout New England have been attempting to regulate short-term rentals"):
+                    round78_anomalies.append(('2023_ky1_t2_start', t2.get("content", "")[:50]))
+                if not t2.get("content", "").endswith('across the board," he said.'):
+                    round78_anomalies.append(('2023_ky1_t2_end', t2.get("content", "")[-50:]))
+
+                # Text 3: 7 paras, 412 words, Waterstones vs PRH
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 7:
+                    round78_anomalies.append(('2023_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("If you're heading for your nearest branch of Waterstones,"):
+                    round78_anomalies.append(('2023_ky1_t3_start', t3.get("content", "")[:50]))
+                if not t3.get("content", "").endswith("showcase their books to casual browsers."):
+                    round78_anomalies.append(('2023_ky1_t3_end', t3.get("content", "")[-50:]))
+
+                # Text 4: 6 paras, 360 words, Citations manipulation
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 6:
+                    round78_anomalies.append(('2023_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("Scientific papers are the record keepers of progress in research."):
+                    round78_anomalies.append(('2023_ky1_t4_start', t4.get("content", "")[:50]))
+                if not t4.get("content", "").endswith("restoring integrity to scientific research."):
+                    round78_anomalies.append(('2023_ky1_t4_end', t4.get("content", "")[-50:]))
+
+                # Part B: 8 paras, 594 words, Yellowstone
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 8:
+                    round78_anomalies.append(('2023_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("[A] Last year marked the 150th anniversary of a series of Yellowstone photographs"):
+                    round78_anomalies.append(('2023_ky1_pb_start', pb.get("content", "")[:50]))
+                if not pb.get("content", "").endswith("Yellowstone ought to be preserved."):
+                    round78_anomalies.append(('2023_ky1_pb_end', pb.get("content", "")[-50:]))
+
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round78_anomalies.append(('2023_ky1_questions_count', len(q_list)))
+            else:
+                exp_answers = {
+                    1: 'C', 2: 'A', 3: 'D', 4: 'C', 5: 'C', 6: 'A', 7: 'B', 8: 'B', 9: 'A', 10: 'D',
+                    11: 'D', 12: 'C', 13: 'C', 14: 'B', 15: 'A', 16: 'B', 17: 'D', 18: 'A', 19: 'D', 20: 'A',
+                    21: 'C', 22: 'B', 23: 'A', 24: 'C', 25: 'D', 26: 'A', 27: 'D', 28: 'B', 29: 'C', 30: 'D',
+                    31: 'A', 32: 'C', 33: 'B', 34: 'A', 35: 'D', 36: 'B', 37: 'C', 38: 'B', 39: 'B', 40: 'D',
+                    41: 'B', 42: 'F', 43: 'D', 44: 'C', 45: 'G'
+                }
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round78_anomalies.append((f'2023_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round78_anomalies.append((f'2023_ky1_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round78_anomalies.append((f'2023_ky1_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round78_anomalies.append((f'2023_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    ans = q.get('correct_answer') or q.get('answer')
+                    if ans != exp_answers.get(i):
+                        round78_anomalies.append((f'2023_ky1_q{i}_ans', ans, exp_answers.get(i)))
+
+                    opts = q.get('options', [])
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        opt_c = opt.get('content', '')
+                        if not opt_k or (not opt_t and not opt_c):
+                            round78_anomalies.append((f'2023_ky1_q{i}_opt_invalid', opt_k, opt_t))
 
 
         passages = data.get('passages', [])
@@ -4920,6 +5026,7 @@ def main():
     results["Assertion 97: 2021 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段351词理顺伦敦公交司机与航班时刻博弈、Text 1 彻底治愈190词严重腰斩恢复4段420词完整篇章理顺后疫情时代劳动力错配与再培训迫切性、Text 2 治愈开头残缺恢复6段385词理顺英国脱欧与粮食自足科学论述、Text 3 恢复7段401词还原Wunderlist/Sunrise收购与小巨头审查、Text 4 恢复5段411词理顺行为薄片与直觉决策科学实验、Part B 恢复6段563词消除假冗余段落对齐上司异议沟通指南7选5小标题、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round75_anomalies) == 0)
     results["Assertion 98: 2022 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段279词理顺植物神经生物学争鸣、Text 1 恢复7段406词彻底切除Q21倒灌与DABC杂质理顺塑料文物保护、Text 2 恢复7段423词找回失落第3段切除Q27/29倒灌理顺Z世代学位价值演变、Text 3 恢复6段431词切除Q32倒灌与末尾杂质理顺科艺合作超越科普、Text 4 恢复8段474词解开3段长合并理顺新西兰与澳大利亚解雇法门槛机制、Part B 恢复11段553词彻底清除假标题与答案内嵌恢复5人观点与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round76_anomalies) == 0)
     results["Assertion 99: 2022 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段398词理顺写作与时间分配哲理、Text 1 恢复6段401词理顺再生农业与气候友好鸡蛋、Text 2 恢复8段461词理顺美国中老年不退休潮流与寿命延长、Text 3 恢复6段402词理顺黑暗模式与UX伦理规范、Text 4 恢复5段394词理顺道德课堂对吃肉影响与自我言行改变、Part B 恢复8段538词理顺恢复运动指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round77_anomalies) == 0)
+    results["Assertion 100: 2023 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段281词理顺丝绸之路驿站驿舍、Text 1 恢复7段443词理顺德州气候教育争议与能源行业教材、Text 2 恢复9段464词理顺新英格兰短租监管与季节工人住房危机、Text 3 恢复7段412词理顺水石书店与企鹅兰登信用额度争议、Text 4 恢复6段360词理顺学术论文引用堆积作弊与Scopus审查算法、Part B 恢复8段594词彻底切除Directions并规范黄石公园150周年[A]-[H]8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round78_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -4940,6 +5047,8 @@ def main():
             print(f"Round 76 anomalies ({len(round76_anomalies)}):", round76_anomalies[:10])
         if round77_anomalies:
             print(f"Round 77 anomalies ({len(round77_anomalies)}):", round77_anomalies[:10])
+        if round78_anomalies:
+            print(f"Round 78 anomalies ({len(round78_anomalies)}):", round78_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
