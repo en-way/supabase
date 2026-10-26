@@ -172,6 +172,7 @@ def main():
     round72_anomalies = []
     round73_anomalies = []
     round74_anomalies = []
+    round75_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -4620,6 +4621,7 @@ def main():
     results["Assertion 94: 2020 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词、Text 1 彻底剔除Text 2跨篇倒灌污染恢复4段433词、Text 2 恢复7段447词理顺学术出版垄断与开源博弈、Text 3 恢复10段414词切除倒灌题干并追回加州违宪与Catalyst及金裙现象完整论述、Text 4 恢复6段435词找回失落末段并补全GAFA表述、Part B 恢复6段480词彻底替换假沟通选项为眼神交流真实7选项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round72_anomalies) == 0)
     results["Assertion 95: 2020 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段362词规范冒号题干、Text 1 恢复7段401词找回塑料盒机器鼠与失落Wiles引述句、Text 2 恢复5段396词理顺CEO高薪与标准治理博弈、Text 3 恢复7段395词理顺马德里低排区与伦敦Ulez及威尔士限速、Text 4 恢复4段407词理顺Z世代务实求稳与避免前人覆辙、Part B 恢复6段458词彻底切除Directions并规范[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round73_anomalies) == 0)
     results["Assertion 96: 2021 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段273词规范冒号题干、Text 1 恢复4段388词补全H开头与trumpeting改善从句并切除末尾伪增补、Text 2 恢复8段406词理顺印尼CCT扶贫与减缓毁林相关性、Text 3 恢复6段444词彻底替换假缩写文本还原推特维多利亚人微笑真相与马克吐温论断、Text 4 恢复6段426词理顺FCC废除网络中立与米利特法官协同意见、Part B 恢复14段605词彻底剔除假高校资助伪选项恢复商业AI真实7项[A]-[G]、治愈全卷45题question_number与score丢失缺陷、Q21纠偏官方标准答案C、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round74_anomalies) == 0)
+    results["Assertion 97: 2021 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段351词理顺伦敦公交司机与航班时刻博弈、Text 1 彻底治愈190词严重腰斩恢复4段420词完整篇章理顺后疫情时代劳动力错配与再培训迫切性、Text 2 治愈开头残缺恢复6段385词理顺英国脱欧与粮食自足科学论述、Text 3 恢复7段401词还原Wunderlist/Sunrise收购与小巨头审查、Text 4 恢复5段411词理顺行为薄片与直觉决策科学实验、Part B 恢复6段563词消除假冗余段落对齐上司异议沟通指南7选5小标题、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round75_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -4632,6 +4634,9 @@ def main():
     if not all_passed:
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
+
+        if round75_anomalies:
+            print(f"Round 75 anomalies ({len(round75_anomalies)}):", round75_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
