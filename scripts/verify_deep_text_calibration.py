@@ -173,6 +173,7 @@ def main():
     round73_anomalies = []
     round74_anomalies = []
     round75_anomalies = []
+    round76_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -2019,6 +2020,195 @@ def main():
                     act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
                     if act_ans != exp_ans:
                         round74_anomalies.append((f'2021_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2021 and cat == 'ky2':
+            if title != '2021年全国硕士研究生招生考试英语（二）真题':
+                round75_anomalies.append(('2021_ky2_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round75_anomalies.append(('2021_ky2_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round75_anomalies.append(('2021_ky2_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round75_anomalies.append(('2021_ky2_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 6 paras, 351 words
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 6:
+                    round75_anomalies.append(('2021_ky2_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("It's not difficult to set targets for staff."):
+                    round75_anomalies.append(('2021_ky2_cloze_start', cloze.get("content", "")[:50]))
+
+                # Text 1: 4 paras, 420 words, Reskilling
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 4:
+                    round75_anomalies.append(('2021_ky2_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith('"Reskilling" is something that sounds like a buzzword'):
+                    round75_anomalies.append(('2021_ky2_t1_start', t1.get("content", "")[:50]))
+
+                # Text 2: 6 paras, 385 words, UK food self-sufficiency & Brexit
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 6:
+                    round75_anomalies.append(('2021_ky2_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("With the global population predicted to hit close to 10 billion by 2050"):
+                    round75_anomalies.append(('2021_ky2_t2_start', t2.get("content", "")[:50]))
+
+                # Text 3: 7 paras, 401 words, Wunderlist and Sunrise tech acquisitions
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 7:
+                    round75_anomalies.append(('2021_ky2_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015"):
+                    round75_anomalies.append(('2021_ky2_t3_start', t3.get("content", "")[:50]))
+
+                # Text 4: 5 paras, 411 words, Intuition and thin slicing
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 5:
+                    round75_anomalies.append(('2021_ky2_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("We're fairly good at judging people based on first impressions"):
+                    round75_anomalies.append(('2021_ky2_t4_start', t4.get("content", "")[:50]))
+
+                # Part B: 6 paras, 563 words
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 6:
+                    round75_anomalies.append(('2021_ky2_pb_paras', len(pb_paras)))
+
+            # Questions validation
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round75_anomalies.append(('2021_ky2_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round75_anomalies.append((f'2021_ky2_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round75_anomalies.append((f'2021_ky2_q{i}_question_number', q.get('question_number')))
+                    exp_sc = 0.5 if i <= 20 else 2.0
+                    if float(q.get('score', 0)) != exp_sc or float(q.get('points', 0)) != exp_sc:
+                        round75_anomalies.append((f'2021_ky2_q{i}_score', q.get('score'), q.get('points')))
+                    exp_opt_count = 7 if i >= 41 else 4
+                    opts = q.get('options', [])
+                    if len(opts) != exp_opt_count:
+                        round75_anomalies.append((f'2021_ky2_q{i}_options_count', len(opts)))
+                    for o in opts:
+                        if not o.get('key') or not o.get('text') or not o.get('content') or not o.get('value'):
+                            round75_anomalies.append((f'2021_ky2_q{i}_option_fields', o))
+                            break
+
+                official_answers_2021_ky2 = {
+                    1: 'B', 2: 'A', 3: 'D', 4: 'C', 5: 'B', 6: 'A', 7: 'B', 8: 'C', 9: 'D', 10: 'B',
+                    11: 'C', 12: 'B', 13: 'D', 14: 'B', 15: 'A', 16: 'C', 17: 'D', 18: 'C', 19: 'A', 20: 'D',
+                    21: 'B', 22: 'A', 23: 'D', 24: 'B', 25: 'B',
+                    26: 'B', 27: 'D', 28: 'C', 29: 'B', 30: 'B',
+                    31: 'A', 32: 'B', 33: 'C', 34: 'C', 35: 'A',
+                    36: 'B', 37: 'A', 38: 'A', 39: 'D', 40: 'B',
+                    41: 'C', 42: 'F', 43: 'G', 44: 'A', 45: 'B'
+                }
+                for q_idx, exp_ans in official_answers_2021_ky2.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round75_anomalies.append((f'2021_ky2_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
+
+        if yr == 2022 and cat == 'ky1':
+            if title != '2022年全国硕士研究生招生考试英语（一）真题':
+                round76_anomalies.append(('2022_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round76_anomalies.append(('2022_ky1_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round76_anomalies.append(('2022_ky1_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round76_anomalies.append(('2022_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 6 paras, 279 words
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 6:
+                    round76_anomalies.append(('2022_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("The idea that plants have some degree of consciousness first took root in the early 2000s;"):
+                    round76_anomalies.append(('2022_ky1_cloze_start', cloze.get("content", "")[:50]))
+
+                # Text 1: 7 paras, 406 words, Plastics in museums
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round76_anomalies.append(('2022_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("People often complain that plastics are too durable."):
+                    round76_anomalies.append(('2022_ky1_t1_start', t1.get("content", "")[:50]))
+                if 'According to Paragraph 1, museums are faced with difficulties' in t1.get("content", ""):
+                    round76_anomalies.append(('2022_ky1_t1_leakage', 'Q21 leaked into Text 1'))
+
+                # Text 2: 7 paras, 423 words, Generation Z and degree value
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 7:
+                    round76_anomalies.append(('2022_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("As the latest crop of students pen their undergraduate application form"):
+                    round76_anomalies.append(('2022_ky1_t2_start', t2.get("content", "")[:50]))
+                if 'The percentage of UK graduates in non-graduate roles reflects' in t2.get("content", ""):
+                    round76_anomalies.append(('2022_ky1_t2_leakage', 'Q27 leaked into Text 2'))
+
+                # Text 3: 6 paras, 431 words, Art-science collaborations
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 6:
+                    round76_anomalies.append(('2022_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("Enlightening, challenging, stimulating, fun."):
+                    round76_anomalies.append(('2022_ky1_t3_start', t3.get("content", "")[:50]))
+                if 'The reworked version of The Four Seasons is mentioned to show that' in t3.get("content", ""):
+                    round76_anomalies.append(('2022_ky1_t3_leakage', 'Q32 leaked into Text 3'))
+
+                # Text 4: 8 paras, 474 words, ERA unjustified dismissal procedures
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 8:
+                    round76_anomalies.append(('2022_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("The personal grievance provisions of New Zealand's Employment Relations Act 2000 (ERA)"):
+                    round76_anomalies.append(('2022_ky1_t4_start', t4.get("content", "")[:50]))
+
+                # Part B: 7 paras (Intro + 5 People + Options [A]-[G])
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 7:
+                    round76_anomalies.append(('2022_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("In the following text, five people express their views about zoos."):
+                    round76_anomalies.append(('2022_ky1_pb_start', pb.get("content", "")[:50]))
+
+            # Questions validation
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round76_anomalies.append(('2022_ky1_questions_count', len(q_list)))
+            else:
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round76_anomalies.append((f'2022_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round76_anomalies.append((f'2022_ky1_q{i}_question_number', q.get('question_number')))
+                    exp_sc = 0.5 if i <= 20 else 2.0
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if float(q.get('score', 0)) != exp_sc or float(q.get('points', 0)) != exp_sc:
+                        round76_anomalies.append((f'2022_ky1_q{i}_score', q.get('score'), q.get('points')))
+                    if q.get('q_type') != exp_type:
+                        round76_anomalies.append((f'2022_ky1_q{i}_q_type', q.get('q_type')))
+                    exp_opt_count = 7 if i >= 41 else 4
+                    opts = q.get('options', [])
+                    if len(opts) != exp_opt_count:
+                        round76_anomalies.append((f'2022_ky1_q{i}_options_count', len(opts)))
+                    for o in opts:
+                        if not o.get('key') or not o.get('text') or not o.get('content') or not o.get('value'):
+                            round76_anomalies.append((f'2022_ky1_q{i}_option_fields', o))
+                            break
+
+                official_answers_2022_ky1 = {
+                    1: 'A', 2: 'C', 3: 'D', 4: 'C', 5: 'D', 6: 'B', 7: 'C', 8: 'B', 9: 'A', 10: 'D',
+                    11: 'C', 12: 'B', 13: 'A', 14: 'C', 15: 'B', 16: 'D', 17: 'A', 18: 'A', 19: 'D', 20: 'B',
+                    21: 'A', 22: 'C', 23: 'D', 24: 'D', 25: 'B',
+                    26: 'C', 27: 'B', 28: 'C', 29: 'D', 30: 'A',
+                    31: 'B', 32: 'A', 33: 'A', 34: 'B', 35: 'C',
+                    36: 'D', 37: 'A', 38: 'D', 39: 'B', 40: 'C',
+                    41: 'F', 42: 'C', 43: 'A', 44: 'D', 45: 'G'
+                }
+                for q_idx, exp_ans in official_answers_2022_ky1.items():
+                    act_ans = q_list[q_idx - 1].get('answer') or q_list[q_idx - 1].get('correct_answer')
+                    if act_ans != exp_ans:
+                        round76_anomalies.append((f'2022_ky1_q{q_idx}_answer', f"Expected {exp_ans}, got {act_ans}"))
 
 
         passages = data.get('passages', [])
@@ -4622,6 +4812,7 @@ def main():
     results["Assertion 95: 2020 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段362词规范冒号题干、Text 1 恢复7段401词找回塑料盒机器鼠与失落Wiles引述句、Text 2 恢复5段396词理顺CEO高薪与标准治理博弈、Text 3 恢复7段395词理顺马德里低排区与伦敦Ulez及威尔士限速、Text 4 恢复4段407词理顺Z世代务实求稳与避免前人覆辙、Part B 恢复6段458词彻底切除Directions并规范[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round73_anomalies) == 0)
     results["Assertion 96: 2021 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段273词规范冒号题干、Text 1 恢复4段388词补全H开头与trumpeting改善从句并切除末尾伪增补、Text 2 恢复8段406词理顺印尼CCT扶贫与减缓毁林相关性、Text 3 恢复6段444词彻底替换假缩写文本还原推特维多利亚人微笑真相与马克吐温论断、Text 4 恢复6段426词理顺FCC废除网络中立与米利特法官协同意见、Part B 恢复14段605词彻底剔除假高校资助伪选项恢复商业AI真实7项[A]-[G]、治愈全卷45题question_number与score丢失缺陷、Q21纠偏官方标准答案C、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round74_anomalies) == 0)
     results["Assertion 97: 2021 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段351词理顺伦敦公交司机与航班时刻博弈、Text 1 彻底治愈190词严重腰斩恢复4段420词完整篇章理顺后疫情时代劳动力错配与再培训迫切性、Text 2 治愈开头残缺恢复6段385词理顺英国脱欧与粮食自足科学论述、Text 3 恢复7段401词还原Wunderlist/Sunrise收购与小巨头审查、Text 4 恢复5段411词理顺行为薄片与直觉决策科学实验、Part B 恢复6段563词消除假冗余段落对齐上司异议沟通指南7选5小标题、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round75_anomalies) == 0)
+    results["Assertion 98: 2022 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段279词理顺植物神经生物学争鸣、Text 1 恢复7段406词彻底切除Q21倒灌与DABC杂质理顺塑料文物保护、Text 2 恢复7段423词找回失落第3段切除Q27/29倒灌理顺Z世代学位价值演变、Text 3 恢复6段431词切除Q32倒灌与末尾杂质理顺科艺合作超越科普、Text 4 恢复8段474词解开3段长合并理顺新西兰与澳大利亚解雇法门槛机制、Part B 恢复11段553词彻底清除假标题与答案内嵌恢复5人观点与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round76_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -4637,6 +4828,9 @@ def main():
 
         if round75_anomalies:
             print(f"Round 75 anomalies ({len(round75_anomalies)}):", round75_anomalies[:10])
+
+        if round76_anomalies:
+            print(f"Round 76 anomalies ({len(round76_anomalies)}):", round76_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])

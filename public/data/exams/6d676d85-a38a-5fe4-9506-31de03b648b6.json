@@ -2,12 +2,12 @@
   "exam": {
     "id": "6d676d85-a38a-5fe4-9506-31de03b648b6",
     "category_id": "ky1",
-    "title": "2022年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2022年全国硕士研究生招生考试英语（一）真题",
     "year": 2022,
-    "exam_type": "real",
+    "exam_type": "ky1",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "The idea that plants have some degree of consciousness first took root in the early 2000s; the term \"plant neurobiology\" was [1] around the notion that some aspects of plant behavior could be [2] to intelligence in animals. [3] plants lack brains, the firing of electrical signals in their stems and leaves nonetheless triggered responses that [4] consciousness, researchers previously reported.\n\nBut such an idea is untrue, according to a new opinion article. Plant biology is complex and fascinating, but it [5] so greatly from that of animals that so-called [6] of plants' intelligence is inconclusive, the authors wrote.\n\nBeginning in 2006, some scientists have [7] that plants possess neuron-like cells that interact with hormones and neurotransmitters, [8] a plant nervous system, [9] to that in animals. They [10] claimed that plants have brain-like command centers at their root tips.\n\nThis [11] makes sense if you simplify the workings of a complex brain, [12] it to an array of electrical pulses; cells in plants also communicate through electrical signals. [13], the signaling in a plant is only [14] similar to the firing in a complex animal brain, which is more than \"a mass of cells that communicate by electricity,\" Taiz said.\n\n\"For consciousness to have evolved, a brain with a threshold [15] of complexity and capacity is required,\" he [16]. \"Since plants don't have nervous systems, the [17] that they have consciousness are effectively zero.\"\n\nAnd what's to be gained from consciousness, according to the article? Plants can't run away from [18], so investing energy in a body system which [19] a threat and can feel pain would be a very [20] evolutionary strategy.",
+      "content": "The idea that plants have some degree of consciousness first took root in the early 2000s; the term \"plant neurobiology\" was [1] around the notion that some aspects of plant behavior could be [2] to intelligence in animals. [3] plants lack brains, the firing of electrical signals in their stems and leaves nonetheless triggered responses that [4] consciousness, researchers previously reported.\n\nBut such an idea is untrue, according to a new opinion article. Plant biology is complex and fascinating, but it [5] so greatly from that of animals that so-called [6] of plant intelligence is inconclusive, the authors wrote.\n\nBeginning in 2006, some scientists have [7] that plants possess neuron-like cells that interact with hormones and neurotransmitters, [8] \"a plant nervous system, [9] to that in animals,\" said lead study author Lincoln Taiz. \"They [10] claimed that plants have brain-like command centers at their root tips.\"\n\nThis [11] makes sense if you simplify the workings of a complex brain, [12] it to an array of electrical pulses; cells in plants also communicate through electrical signals. [13], the signaling in a plant is only [14] similar to the firing in a complex animal brain, which is more than \"a mass of cells that communicate by electricity,\" Taiz said.\n\n\"For consciousness to evolve, a brain with a threshold [15] of complexity and capacity is required,\" he [16]. \"Since plants don't have nervous systems, the [17] that they have consciousness are effectively zero.\"\n\nAnd what's so great about consciousness, anyway? Plants can't run away from [18], so investing energy in a body system which [19] a threat and can feel pain would be a very [20] evolutionary strategy, according to the article.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "People often complain that plastics are too durable. Water bottles, shopping bags, and other trash litter the planet, from Mount Everest to the Mariana Trench, because plastics are everywhere and don, t break down easily. But some plastic materials change over time. They crack and frizzle. They “weep” out additives. They melt into sludge. All of which creates huge headaches for institutions, such as museums, trying to preserve culturally important objects. The variety of plastic objects at risk is dizzying: early radios, avant-garde sculptures, celluloid animation stills from Disney films, the first artificial heart.\n\n. According to Paragraph 1, museums are faced with difficulties in. B C D\n\nCertain artifacts are especially vulnerable because some pioneers in plastic art didn't always know how to mix ingredients properly, says Thea van Oosten, a polymer chemist who, until retiring a few years ago, worked for decades at the Cultural Heritage Agency of the Netherlands (RCE).\"It's like baking a cake: If you don't have exact amounts, it goes wrong,\" she says.\"The object you make is already a time bomb.\"\n\nAnd sometimes, it's not the artist's fault. In the 1960s, the Italian artist Piero Gilardi began to create hundreds of bright, colorful foam pieces. Those pieces included small beds of roses and other items as well as a few dozen \"nature carpets\"—large rectangles decorated with foam pumpkins, cabbages, and watermelons.He wanted viewers to walk around on the carpets—which meant they had to be durable.\n\nUnfortunately, the polyurethane foam he used is inherently unstable. It's especially vulnerable to light damage, and by the mid-1990s, Gilardi's pumpkins, roses, and other figures were splitting and crumbling. Museums locked some of them away in the dark.\n\nSo van Oosten and colleagues worked to D A B C preserve Gilardi's sculptures. They infused some with stabilizing and consolidating chemicals. Van Oosten calls those chemicals \"sunscreens\" because their goal was to prevent further light damage and rebuild worn polymer fibers. She is proud that several sculptures have even gone on display again, albeit sometimes beneath protective cases. Despite success stories like van Oosten's, preservation of plastics will likely get harder. Old objects continue to deteriorate. Worse, biodegradable plastics, designed to disintegrate, are increasingly common.\n\ntt O And more is at stake here than individual objects. Joana Lia Ferreira, an assistant professor of conservation and restoration at the NOVA School of Science and Technology, notes that archaeologists first defined the great material ages of human history— artifacts in museums.We now live in an age of plastic, she says, \"and what we decide to collect today, what we decide to preserve...will have a strong impact on how in the future we'll be seen.\"",
+      "content": "People often complain that plastics are too durable. Water bottles, shopping bags, and other trash litter the planet, from Mount Everest to the Mariana Trench, because plastics are everywhere and don't break down easily. But some plastic materials change over time. They crack and frizzle. They \"weep\" out additives. They melt into sludge. All of which creates huge headaches for institutions, such as museums, trying to preserve culturally important objects. The variety of plastic objects at risk is dizzying: early radios, avant-garde sculptures, celluloid animation stills from Disney films, the first artificial heart.\n\nCertain artifacts are especially vulnerable because some pioneers in plastic art didn't always know how to mix ingredients properly, says Thea van Oosten, a polymer chemist who, until retiring a few years ago, worked for decades at the Cultural Heritage Agency of the Netherlands (RCE). \"It's like baking a cake: If you don't have exact amounts, it goes wrong,\" she says. \"The object you make is already a time bomb.\"\n\nAnd sometimes, it's not the artist's fault. In the 1960s, the Italian artist Piero Gilardi began to create hundreds of bright, colorful foam pieces. Those pieces included small beds of roses and other items as well as a few dozen \"nature carpets\"—large rectangles decorated with foam pumpkins, cabbages, and watermelons. He intended people to sit, lie, and walk on these carpets—which meant they had to be durable.\n\nUnfortunately, the polyurethane foam he used is inherently unstable. It's often gone in 15 or 20 years. As Gilardi's nature carpets began to crumble, museums locked some of them away in the dark.\n\nSo van Oosten and colleagues worked to preserve Gilardi's sculptures. They infused some with Stabiltex, a mixture of water and synthetic resin, and bathed others in a solution of Plexisol, an acrylic resin. The treatments restored elasticity to the carpets, giving them another few decades of life.\n\nSuch struggles, as art of all types begins to disintegrate, are increasingly common.\n\nAnd more is at stake here than individual objects. Joana Lia Ferreira, an assistant professor of conservation and restoration at the NOVA School of Science and Technology, notes that archaeologists first defined the great material ages of human history—Stone Age, Iron Age, and so on—after examining artifacts in museums. We now live in an age of plastic, she says, \"and what we decide to collect today, what we decide to preserve...will have a strong impact on how in the future we'll be seen.\"",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "As the latest crop of students pen their undergraduate application form and weigh up their options, it may be worth considering just how the point, purpose and value of a degree has changed and what Generation Z need to consider as they start the third stage of their educational journey. C A B D\n\nMillennials were told that if you did well in school, got a decent degree, you would be set up for life. But that promise has been found wanting. As degrees became universal, they became devalued. Education was no longer a secure route of social mobility. Today, 28 per cent of graduates in the UK are in non-graduate roles, a percentage which is double the average among the OECD countries.\n\n. The percentage of UK graduates in non-graduate roles reflects. B A C D Hl This is not to say that there is no point in getting a degree, but rather stress that a degree is not for everyone, that the switch from classroom to lecture hall is not an inevitable one and that other options are available.\n\nThankfully, there are signs that this is already happening, with Generation Z seeking to learn from their millennial predecessors, even if parents and teachers tend to be still set in the degree mindset. Employers have long seen the advantages of hiring school leavers who often prove themselves to be more committed and loyal employees than graduates. Many too are seeing the advantages of scrapping a degree requirement for certain roles. C A B D\n\nFor those for whom a degree is the desired route, consider that this may well be the first of many. In this age of generalists, it pays to have specific knowledge or skills. Postgraduates now earn 40 per cent more than graduates. When more and more of us have a degree, it makes sense to have two.\n\n. It is advised in Paragraph 5 that those with one degree should. D A B C\n\nt is unlikely that Generation Z will be done with education at 18 or 21; they will need to be constantly upskilling throughout their career to stay employable. It has been estimated that this generation, due to the pressures of technology, the wish for personal fulfilment and desire for diversity, will work for 17 different employers over the course of their working life and have five different careers. Education, and not just knowledge gained on campus, will be a core part of Generation Z's career trajectory.\n\nlder generations often talk about their degree in the present and personal tense: 'I am a geographer, or 41 am a classicistJ. Their sons or daughters would never say such a thing; it's as if they already know that their degree won't define them in the same way.",
+      "content": "As the latest crop of students pen their undergraduate application form and weigh up their options, it may be worth considering just how the point, purpose and value of a degree has changed and what Generation Z need to consider as they start the third stage of their educational journey.\n\nMillennials were told that if you did well in school, got a decent degree, you would be set up for life. But that promise has been found wanting. As degrees became universal, they became devalued. Education was no longer a secure route of social mobility. Today, 28 per cent of graduates in the UK are in non-graduate roles, a percentage which is double the average among the OECD countries.\n\nThis is not to say that there is no point in getting a degree, but rather stress that a degree is not for everyone, that the switch from classroom to lecture hall is not an inevitable one and that other options are available.\n\nThankfully, there are signs that this is already happening, with Generation Z seeking to learn from their millennial predecessors, even if parents and teachers tend to be still set in the degree mindset. Employers have long seen the advantages of hiring school leavers who often prove themselves to be more committed and loyal employees than graduates. Many too are seeing the advantages of scrapping a degree requirement for certain roles.\n\nFor those for whom a degree is the desired route, consider that this may well be the first of many. In this age of generalists, it pays to have specific knowledge or skills. Postgraduates now earn 40 per cent more than graduates. When more and more of us have a degree, it makes sense to have two.\n\nIt is unlikely that Generation Z will be done with education at 18 or 21; they will need to be constantly upskilling throughout their career to stay employable. It has been estimated that this generation, due to the pressures of technology, the wish for personal fulfilment and desire for diversity, will work for 17 different employers over the course of their working life and have five different careers. Education, and not just knowledge gained on campus, will be a core part of Generation Z's career trajectory.\n\nOlder generations often talk about their degree in the present and personal tense: \"I am a geographer,\" or \"I am a classicist.\" Their sons or daughters would never say such a thing; it's as if they already know that their degree won't define them in the same way.",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "Enlightening, challenging, stimulating, fun. These were some of the words that Nature readers used to describe their experience of art-science collaborations in a series of articles on partnerships between artists and researchers. Nearly 40% of the roughly 350 people who responded to an accompanying poll said, they had collaborated with artists; and almost all said they would consider doing so in future.\n\nSuch an encouraging result is not surprising. Scientists are increasingly seeking out visual artists to help them communicate their work to new audiences.\"Artists help scientists reach a broader audience and make emotional connections that enhance learning, one respondent said.\n\nne example of how artists and scientists have together rocked the scenes came last month when the Sydney Symphony Orchestra performed a reworked version of Antonio Vivaldi's The Four Seasons. They reimagined the 300-year-old score by injecting the latest climate prediction data for each season provided by Monash University's Climate Change Communication Research Hub. The performance was a creative call to action ahead of November's United Nations Climate Change Conference in Glasgow, UK.\n\n. The reworked version of The Four Seasons is mentioned to show that. A B C D\n\nBut a genuine partnership must be a two-way street. Fewer artists than scientists responded to the Nature poll, however, several respondents noted that artists do not simply assist scientists with their communication requirements. Nor should their work be considered only as an object of study. The alliances are most valuable when scientists and artists have a shared stake in a project, are able to jointly design it and can critique each other's work. Such an approach can both prompt new research as well as result in powerful art.\n\nMore than half a century ago, the Massachusetts Institute of Technology opened its Center for Advanced Visual Studies (CAVS) to explore the role of technology in culture. The founders deliberately focused their projects Light was a something that both artists and scientists had an interest in, and therefore could form the basis of collaboration. As science and technology progressed, and divided into more sub-disciplines, the centre was simultaneously looking to a time when leading researchers could also be artists, writers and poets, and vice versa. B\n\nNature's poll findings suggest that this trend is as strong as ever, but, to make a collaboration work, both sides need to invest time, and embrace surprise and challenge. The reach of art-science tie-ups needs to go beyond the necessary purpose of research communication, and participants must not fall into the trap of stereotyping each other. Artists and scientists alike are immersed in discovery and invention, and challenge and critique are core to both, too.",
+      "content": "Enlightening, challenging, stimulating, fun. These were some of the words that Nature readers used to describe their experience of art-science collaborations in a series of articles on partnerships between artists and researchers. Nearly 40% of the roughly 350 people who responded to an accompanying poll said they had collaborated with artists; and almost all said they would consider doing so in future.\n\nSuch an encouraging result is not surprising. Scientists are increasingly seeking out visual artists to help them communicate their work to new audiences. \"Artists help scientists reach a broader audience and make emotional connections that enhance learning,\" one respondent said.\n\nOne example of how artists and scientists have together rocked the scenes came last month when the Sydney Symphony Orchestra performed a reworked version of Antonio Vivaldi's The Four Seasons. They reimagined the 300-year-old score by injecting the latest climate prediction data for each season provided by Monash University's Climate Change Communication Research Hub. The performance was a creative call to action ahead of November's United Nations Climate Change Conference in Glasgow, UK.\n\nBut a genuine partnership must be a two-way street. Fewer artists than scientists responded to the Nature poll, however, several respondents noted that artists do not simply assist scientists with their communication requirements. Nor should their work be considered only as an object of study. The alliances are most valuable when scientists and artists have a shared stake in a project, are able to jointly design it and can critique each other's work. Such an approach can both prompt new research as well as result in powerful art.\n\nMore than half a century ago, the Massachusetts Institute of Technology opened its Center for Advanced Visual Studies (CAVS) to explore the role of technology in culture. The founders deliberately focused their projects around light—hence the \"visual studies\" in the name. Light was a something that both artists and scientists had an interest in, and therefore could form the basis of collaboration. As science and technology progressed, and divided into more sub-disciplines, the centre was simultaneously looking to a time when leading researchers could also be artists, writers and poets, and vice versa.\n\nNature's poll findings suggest that this trend is as strong as ever, but, to make a collaboration work, both sides need to invest time, and embrace surprise and challenge. The reach of art-science tie-ups needs to go beyond the necessary purpose of research communication, and participants must not fall into the trap of stereotyping each other. Artists and scientists alike are immersed in discovery and invention, and challenge and critique are core to both, too.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "The personal grievance provisions of New Zealand's Employment Relations Act 2000 (ERA) prevent an employer from firing an employee without good cause. Instead, dismissals must be justified. Employers must both show cause and act in a procedurally fair way.\n\nPersonal grievance procedures were designed to guard the jobs of ordinary workers from \" unjustified dismissals. 0 The premise was that the common law of contract lacked sufficient safeguards for workers against arbitrary conduct by management. Long gone are the days when a boss could simply give an employee contractual notice.\n\nBut these provisions create difficulties for businesses when applied to highly paid managers and executives. As countless boards and business owners will attest, constraining firms from firing poorly performing, high-earning managers is a handbrake on boosting productivity and overall performance. The difference between C-grade and A-grade managers may very well be the cHfference between business success or failure. Between preserving the jobs of ordinary workers or losing them. Yet mediocrity is no longer enough to justify a dismissal. to protect the jobs of ordinary workers may be placing those jobs at risk.\n\nf not placing jobs at risk, to the extent employment protection laws constrain business owners from dismissing under-performing managers, those laws act as a constraint on firm productivity and therefore on workers, wages. Indeed, in \" An International Perspective on New Zealand's Productivity Paradox\" (2014), the Productivity Commission singled out the low quality of managerial capabilities as a cause of the country's poor productivity growth record. D A B C\n\nM O Nor are highly paid managers themselves immune from the harm caused by the ERA, s unjustified dismissal procedures. Because employment protection laws make it costlier to fire an employee, employers are more cautious about hiring new staff. This makes it harder for the marginal manager to gain employment. And firms pay staff less because firms carry the burden of the employment arrangement going wrong. MI O Society also suffers from excessive employment protections. Stringent job dismissal regulations adversely affect productivity growth and hamper both prosperity and overall well-being. ffl O Across the Tasman Sea, Australia deals with the unjustified dismissal paradox by excluding employees earning above a specified \"high-income threshold from the protection of its unfair dismissal laws.In New Zealand, a 2016 private members, Bill tried to permit firms and high-income employees to contract out of the unjustified dismissal regime. However, the mechanisms proposed were unwieldy and the Bill was voted down following the change in government later that year.",
+      "content": "The personal grievance provisions of New Zealand's Employment Relations Act 2000 (ERA) prevent an employer from firing an employee without good cause. Instead, dismissals must be justified. Employers must both show cause and act in a procedurally fair way.\n\nPersonal grievance procedures were designed to guard the jobs of ordinary workers from unjustified dismissals. The premise was that the balance of power in an employment relationship is inherently tilted against the employee, who needs special protections. It was also designed to reinforce the standard dismissal process: an employer cannot simply give an employee contractual notice.\n\nBut these provisions create difficulties for businesses when applied to highly paid managers and executives. As countless boards and business owners will attest, constraining firms from firing poorly performing, high-earning managers is a handbrake on boosting productivity and overall performance. The difference between C-grade and A-grade managers may very well be the difference between business success or failure.\n\nBetween two equally sized teams, all other things being equal, the team with the better manager will win. Because managers are responsible for organizing resources to achieve business objectives, a bad manager can quickly jeopardize company results. Discretionary work effort is rapidly foregone when employees lose confidence in their bosses, and employees will eventually depart the firm for greener pastures. When poorly performing managers cannot be removed without considerable difficulty, other workers may be placing those jobs at risk.\n\nIf not placing jobs at risk, to the extent employment protection laws constrain business owners from dismissing under-performing managers, those laws act as a constraint on firm productivity and therefore on workers' wages. Indeed, in \"An International Perspective on New Zealand's Productivity Paradox\" (2014), the Productivity Commission singled out the low quality of managerial capabilities as a cause of the country's poor productivity growth record.\n\nNor are highly paid managers themselves immune from the harm caused by the ERA's unjustified dismissal procedures. Because employment protection laws make it costlier to fire an employee, employers are more cautious about hiring new staff. This makes it harder for the marginal manager to gain employment. And firms pay staff less because firms carry the burden of the employment arrangement going wrong.\n\nIron-clad employment protection procedures can also be a barrier for high-performing managers to make quick exits. The threat of a grievance process can create huge difficulties in ending employment arrangements quietly, cleanly and quickly, even if both sides agree that they should end.\n\nAcross the Tasman Sea, Australia deals with the unjustified dismissal paradox by excluding employees earning above a specified \"high-income threshold\" from the protection of its unfair dismissal laws. In New Zealand, a 2016 private members' Bill tried to permit firms and high-income employees to contract out of the unjustified dismissal regime. However, the mechanisms proposed were unwieldy and the Bill was voted down following the change in government later that year.",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Zoos which spare no effort to take care of animals should not be subjected to unfair criticism. To pressure zoos to spend less on their animals would lead to inhumane outcomes for the precious creatures in their care. While animals in captivity deserve sympathy, zoos play a significant role in starting young people down the path of related sciences. Zoos save people trips to wilderness areas and thus contribute to wildlife conservation. For wild animals that cannot be returned to their natural habitats zoos offer the best alternative Zoos should have been closed down as they prioritize money making over animals wellbeing Marris distorts our findings which actually prove that zoos serve as an indispensable link between man and nature the benefit of the animals and for conservation purposes. This claim was false. Neither one of them actually participated in any contributions to animal research or conservation. They are profitable institutions whose bottom line is much more important than the condition of the animals. Animals despise being captives in zoos. No matter how you \"enhance\" enclosures, they do not allow for freedom, a natural diet or adequate exercise. Animals end up stressed and unhealthy or dead. It s past time for transparency with these institutions, and it's past time to eliminate zoos from our culture. (42) Karen R. Sime:\n\n[C] While animals in captivity deserve sympathy, zoos play a significant role in starting young people down the path of related sciences.\n\nAs a zoology professor, I agree with Emma Marris that zoo displays can be sad and cruel. But she underestimates the educational value of zoos. and interactive experience. Surely there must be some middle ground that balances zoos' treatment of animals with their educational potential. (43) Greg Newberry:\n\n[A] Zoos which spare no effort to take care of animals should not be subjected to unfair criticism\n\nEmma Marris's article is an insult and a disservice to the thousands of passionate people who work tirelessly to improve the lives of animals and protect our planet. She uses outdated research and decades-old examples to undermine the noble mission of organizations committed to connecting children to a world beyond their own. VI O Zoos are at the forefront of conservation and constantly evolving to improve how they care for animals and protect each species in its natural habitat. Are there tragedies? Of course. But they are the exception, not the norm that Ms. Marris implies. (44) Dean Gallea:\n\n[D] Zoos save people trips to wilderness areas and thus contribute to wildlife conservation. As a fellow environmentalist, animal protection advocate and longtime vegetarian, I could properly be in the same camp as Emma Marris on the issue of zoos. But I believe that well-run zoos, and the heroic animals that suffer their captivity, do serve a higher purpose. Were it not for opportunities to observe these beautiful, wild creatures close to home, many more people would be driven by their fascination to travel to wild areas to seek out, disturb and even hunt them down. Vffl Zoos are, in that sense, similar to natural history and archeology museums, serving to satisfy our need for contact with these living creatures while leaving the vast majority undisturbed in their natural environments. (45) John Fraser:\n\n[G] Marris distorts our findings which actually prove that zoos serve as an indispensable link between man and nature. IX O Emma Marris selectively describes and misrepresents the findings of our research. Our studies focused on the impact of zoo experiences on how people think about themselves and nature, and the data points extracted from our studies do not, in any way, discount what is learned in a zoo visit. Zoos are tools for thinking. Our research provides strong support for the value of zoos in connecting people with animals and with nature. Zoos provide a critical voice for conservation and environmental protection. O They afford an opportunity for people from all backgrounds to encounter a range of animals, from drone bees to springbok or salmon, to better understand the natural world we live in.",
+      "content": "In the following text, five people express their views about zoos. For questions 41-45, choose from the arguments (A-G) the one which each person would most likely support.\n\n(41) Teri Byrd\nI was a zoo and wildlife-park employee for years, both in the UK and in the US, and I was always told that the main purpose of zoos was for the benefit of the animals and for conservation purposes. This claim was false. Neither one of them actually participated in any contributions to animal research or conservation. They are profitable institutions whose bottom line is much more important than the condition of the animals.\nAnimals despise being captives in zoos. No matter how you \"enhance\" enclosures, they do not allow for freedom, a natural diet or adequate exercise. Animals end up stressed and unhealthy or dead. It's past time for transparency with these institutions, and it's past time to eliminate zoos from our culture.\n\n(42) Karen R. Sime\nAs a zoology professor, I agree with Emma Marris that zoo displays can be sad and cruel, but she understates the educational potential.\nMy colleagues and I surveyed students in our classes about their early experiences with animals. The vast majority of our students told us that zoo visits were the crucial and very early experience that led to their passion for biology. We need to educate children to care about animals and nature, and zoos remain the best way to do that.\n\n(43) Greg Newberry\nEmma Marris's article is an insult and a disservice to the thousands of zoo professionals who work tirelessly to improve how they care for animals. Zoos are not static; they are constantly evolving to provide better care for animals.\nZoos do vital conservation work and help people, especially children, connect with the broader natural world. They are not the soulless prisons that Ms. Marris implies.\n\n(44) Dean Gallea\nZoos and the captive animals they house serve a higher purpose. Without them, far more people would travel to wilderness areas, disrupting wildlife and damaging ecosystems.\nBy keeping a relatively small number of animals in captivity, we can satisfy the public's desire to see animals while leaving the vast majority undisturbed in their natural environments.\n\n(45) John Fraser\nMarris misrepresents the findings of our research. Our work actually demonstrates that zoo visitors gain a deeper appreciation for biodiversity and are more motivated to take action to protect the natural world.\nZoos serve as an essential bridge between human society and wildlife, helping millions of urban dwellers understand the natural world we live in.\n\n[A] Zoos which spare no effort to take care of animals should not be subjected to unfair criticism.\n[B] To pressure zoos to spend less on their animals would lead to inhumane outcomes for the precious creatures in their care.\n[C] While animals in captivity deserve sympathy, zoos play a significant role in starting young people down the path of related sciences.\n[D] Zoos save people trips to wilderness areas and thus contribute to wildlife conservation.\n[E] For wild animals that cannot be returned to their natural habitats, zoos offer the best alternative.\n[F] Zoos should have been closed down as they prioritize money making over animals' wellbeing.\n[G] Marris distorts our findings which actually prove that zoos serve as an indispensable link between man and nature.",
       "sort_order": 6
     }
   ],
@@ -91,29 +91,35 @@
         {
           "key": "A",
           "text": "coined",
-          "value": "A"
+          "value": "A",
+          "content": "coined"
         },
         {
           "key": "B",
           "text": "discovered",
-          "value": "B"
+          "value": "B",
+          "content": "discovered"
         },
         {
           "key": "C",
           "text": "collected",
-          "value": "C"
+          "value": "C",
+          "content": "collected"
         },
         {
           "key": "D",
           "text": "issued",
-          "value": "D"
+          "value": "D",
+          "content": "issued"
         }
       ],
       "correct_answer": "A",
       "explanation": "1.本题考查的知识点：句内语义+动宾搭配。\n第一步：语法结构分析\n①定位：空格1位于第一句的分句2中，与was共同构成谓语。②句子结构分析:结合选项可知，空格 \n所在分句为\"主语（the term 'plant neurobiology'） + 被动态谓语（was 1 \n） + 状语（around the\nnotion that...,其中that...从句是notion的同位语）\"结构，was 1 应能体现主语the term uplant \nneurobiology\"所承受的动作，并匹配around the notion这一方式。\n21世纪初，“植物具有某种程度的意识”这 \n一观点开始深入人心；“植物神经生物学”这一 \n术语就是围绕“植物行为在某些方面（的智慧） \n堪比动物智力”这一观念创造的。研究人员此 \n前曾报告称，冬覽植物没有大脑，但它们的茎和 \n叶所发出的电信号能触发反应，这些反应魁 \n了意识的存在。\n第二步：语义逻辑分析\n空格句指出：“植物具有某种程度的意识”这一观念（The idea）在21世纪初开始深入人心，“植物神经 \n生物学”这一术语（the term）就是围绕“植物行为的某些方面可……动物智力”这一观念（the notion） \n而被1的。可见，全句意在介绍\"植物意识说\"（The idea,the term、the notion均与之相关）的起 \n源、发展状况。\n第三步：选项正误分析 \n【答案A】\n[A] coined\n意为\"创造（新词、短语）\",置入此处既能与主语the term \"plant neurobiology”构成合 \n理搭配，同时又能契合句中“21世纪初观念盛行-新术语应运而生”的语境，故正确。\n[B] discovered\n意为“发现；找到”，其宾语应为业已存在但尚不为人知的事物，而句中其逻辑宾语 \n“'植物神经生物学'这一术语”实际上才刚刚兴起，并非早已存在而不被人知的事 \n物，故排除。\n[C] collected\n意为\"收集；采集\"，如to collect data/evidence/information（收集资料/证据/信息）。 \n首先，其宾语应为具有一定数量的某种类型的事物，而the term \"plant \nneurobiology”为特指的单一对象；其次，“收集术语”的前提是存在术语，用于此处显 \n然与语境不符，排除。\n\n续表\n[D] issued\n意为\"宣布；公布\"，其宾语常为\"声明、命令、警告\"等，如They issued a joint \nstatement denying the charges.他们发表联合声明否认指控。选项利用term的\"条 \n款”之义设置陷阱，而句中term表示“术语”，无法与issued构成合理搭配；且issued \n也无法搭建“植物神经学”这一术语与“植物行为可……动物智力”这一观念之间的 \n强关联。注:around 意为(of something abstract) having (the thing mentioned) as a \nfocal points抽象事物)以(已提及事物)为中心”，强调两事物之间的强关联。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 1,
+      "score": 0.5
     },
     {
       "id": "8ff390fc-11de-5c30-835b-a73cb0acc015",
@@ -126,29 +132,35 @@
         {
           "key": "A",
           "text": "attributed",
-          "value": "A"
+          "value": "A",
+          "content": "attributed"
         },
         {
           "key": "B",
           "text": "directed",
-          "value": "B"
+          "value": "B",
+          "content": "directed"
         },
         {
           "key": "C",
           "text": "compared",
-          "value": "C"
+          "value": "C",
+          "content": "compared"
         },
         {
           "key": "D",
           "text": "confined",
-          "value": "D"
+          "value": "D",
+          "content": "confined"
         }
       ],
       "correct_answer": "C",
       "explanation": "2.本题考查的知识点：句内语义+固定搭配。\n第一步：语法结构分析\n①定位：空格2位于第一句的分句2内嵌的同位语从句中。②句子结构分析：同位语从句可简化为A \ncould be 2 to B(A为“植物行为”，B为“动物智力”)，还原为主动即could 2 A to B,空格动词 \n应与to构成搭配。\n第二步：语义逻辑分析\n空格所在分句指出，“植物神经生物学”这一术语是围绕“植物行为在某些方面可以2 动物智力”这 \n一观念而被创造出来的。可见，“植物神经生物学”的核心理念是“植物行为可二_动物智力”，而“植 \n物神经生物学”实际暗示“植物同动物一样，具有神经系统”，故植物行为与动霸丽之间应该存在某 \n种共通性。\n第三步：选项正误分析 \n【答案C】\n[A] attributed\nattribute A to B 表不\"把 A 归因于 B\",如 She attributes her success to hard work \nand a little luck.她认为她的成功来自勤劳和一点运气。命题人利用“智力”与“行 \n为”之间的因果关系捏造干扰(intelligence— behavior)，但“动物智力”显然不可能导 \n致“植物行为”，故排除。\n[B] directed\ndirect A to B表示“把A对准B；把A集中在B上”,A通常指注意力、情绪、行为等， \n如1 The learner's attention needs to be directed to the significant features.学习者的 \n注意力需要集中在重要特征上。但“动物智力”显然不可能是“植物行为”聚焦的对 \n象，故排除。\n[C] compared\ncompare A to B表示\"把A和B作比较；表明A与B相似\"，如Her novel was \ncompared to the work of Daniel Defoe.她的小说与丹尼尔•笛福的作品相提并论。 \n用于此处指“植物行为在某些方面(所展现出的智慧)”与“动物智力”相似，能够体现 \n“植物具有意识和智力”这一观点，明确“植物神经生物学”这一术语诞生的缘由(植 \n物智慧堪比动物-*neurobiology也应涵盖植物—plant neurobiology应运而生)及内 \n涵，故正确。\n[D] confined\nconfine A to B表示“把A局限在B；把A控制在B”，B通常为“某一范围、区域或限 \n度\"等，如 The work will not be confined to the Glasgow area.此项工作不会局限于 \n格拉斯哥地区。“动物智力”显然无法表示某种范围、区域或限度，故排除。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 2,
+      "score": 0.5
     },
     {
       "id": "a5695823-1fa9-580c-94d9-5a3fb5eb81fa",
@@ -161,29 +173,35 @@
         {
           "key": "A",
           "text": "Unless",
-          "value": "A"
+          "value": "A",
+          "content": "Unless"
         },
         {
           "key": "B",
           "text": "When",
-          "value": "B"
+          "value": "B",
+          "content": "When"
         },
         {
           "key": "C",
           "text": "Once",
-          "value": "C"
+          "value": "C",
+          "content": "Once"
         },
         {
           "key": "D",
           "text": "Though",
-          "value": "D"
+          "value": "D",
+          "content": "Though"
         }
       ],
       "correct_answer": "D",
       "explanation": "3.本题考查的知识点：句内逻辑+连词辨析。 \n第一步：语法结构分析\n①定位：空格3位于第二句句首，充当从句的引导词。②句子结构分析：that引导的定语从句修饰 \nresponses,故主句的核心结构为“主语(the firing of...) + 状语(nonetheless) + 谓语(triggered) + 宾语 \n(responses)\"，从句的结构为\"主语(plants) +谓语(lack) +宾语(brains)\"，空格词应表明主从句间的 \n逻辑关系，并能与主句中的副词nonetheless形成合理关联。\n\n第二步：语义逻辑分析\nI从句先指出“植物没有大脑”，主句随后指出“然而，植物的茎和叶所发出的电信号能触发反应”。结合 \n上文“植物意识说”以及句内nonetheless\"然而；尽管如此”所传递的让步转折关联可判断，从句意在表 \n明“植物看似没有意识（因为不存在大脑）”，主句则意在表明“植物却具有一些意识性的反应”。\n【答案D】\n第三步：选项正误分析\n[A] Unless\n意为“除非；如果不”，用于引出主句情形不成立/被打破的条件。但“植物没有大脑”是 \n客观现实，而非某种可以假设的条件（“除非植物没有大脑”暗示“植物一般情况下拥有 \n大脑\"）。注:nonetheless 意为 in spite of the fact that has just been mentioned“尽管如 \n此”，暗示从句所述“植物没有大脑”为客观事实。\n[B] When\n1.可表条件关系，意为“当（某种条件出现）时会（产生某种状况）”，如When lead is added \nto petrol, it improves the car's performance.汽油中加铅可以提高汽车的性能。考生若将 \n文章理解为“植物如果缺乏大脑，它们的茎和叶就会发出电信号，进而触发反应”则可能会 \n误选此项，但此类解读错误性质同A项。2•也可表“虽然；然而”，看似与nonetheless所表 \n达的语义对接，但该用法通常用于主句之后，且不与nonetheless搭配使用，如He said he \nwas 18 when in fact he was only 15.他说他18岁了，而其实只有15岁。故也排除。\n[C] Once\n同样可表条件关系，意为“一……就；一旦；当……时候”，例：Once I get him a job, he'll \nbe fine. 一旦我帮他找到了工作，他就会好的。错误性质同A项。\n[D] Though\n意为“虽然；尽管；即使”，引导让步状语从句，用于此处契合主从句间的逻辑关系，且可 \n与主句中的副词nonetheless连用，进一步强调主从句间的让步转折关系，故正确。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 3,
+      "score": 0.5
     },
     {
       "id": "dfb49515-e21f-5b50-a633-7ea6d62d8e38",
@@ -196,29 +214,35 @@
         {
           "key": "A",
           "text": "coped",
-          "value": "A"
+          "value": "A",
+          "content": "coped"
         },
         {
           "key": "B",
           "text": "consisted",
-          "value": "B"
+          "value": "B",
+          "content": "consisted"
         },
         {
           "key": "C",
           "text": "hinted",
-          "value": "C"
+          "value": "C",
+          "content": "hinted"
         },
         {
           "key": "D",
           "text": "extended",
-          "value": "D"
+          "value": "D",
+          "content": "extended"
         }
       ],
       "correct_answer": "C",
       "explanation": "4.本题考查的知识点：上下文语义+动词短语辨析。\n第一步：语法结构分析\n①定位：空格4位于第二句的定语从句中。②句子结构分析：空格所在定语从句为“主语（that作主 \n语，指代responses） +谓语（4 ） +宾语（consciousness）w形式，空格词应体现\"反应（responses）w与 \n\"意识（consciousness）,5之间的关系。\n第二步：语义逻辑分析\n结合上题分析可知，主从句为让步转折关系，从句“植物没有大脑”暗示“植物应该不存在意识”，而主 \n句“植物的茎和叶却触发了某些反应，这些反应意识”则应体现“植物具有意识”这一核心语义, \n换言之主句应体现“植物的这些反应体现了植物意识的存在”这一文意。\n第三步：选项正误分析 \n【答案C】\n[A] coped with\n意为“（成功地）应付，对付”，但外显的“行为反应”显然无法应对内在的“心理意 \n识”,此外也无法体现主从句的让步转折关系。\n[B] consisted of\n意为“由 组成（或构成）\"，表达\"整体”与\"部分\"的关系，如The buffet consisted \nof several different Indian dishes.自助餐由几种不同的印度菜组成。但\"反应\"属 \n于行为层面，而“意识”属于心理层面，前者不可能由后者组成，故排除。\n[C] hinted at\n意为\"暗示着；表明\"，如Dark clouds hint at the storm to come.乌云预示暴风雨即 \n将来临。用于此处即“茎和叶所触发的反应表明了意识的存在”，能够正确体现 \nresponses和consciousness的关系，符合主从句间的让步转折逻辑，故正确。\n[D] extended to\n可表\"影响；包括v（to affect or include people, things, or places） 0 考生若将该句理 \n解为“植物发出的电信号触发了反应，这些反应进而影响了意识”则可能会误选此 \n项，错误原因同A项。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 4,
+      "score": 0.5
     },
     {
       "id": "b97144c6-4f0d-551f-882b-c4c85541d686",
@@ -231,29 +255,35 @@
         {
           "key": "A",
           "text": "suffers",
-          "value": "A"
+          "value": "A",
+          "content": "suffers"
         },
         {
           "key": "B",
           "text": "benefits",
-          "value": "B"
+          "value": "B",
+          "content": "benefits"
         },
         {
           "key": "C",
           "text": "develops",
-          "value": "C"
+          "value": "C",
+          "content": "develops"
         },
         {
           "key": "D",
           "text": "differs",
-          "value": "D"
+          "value": "D",
+          "content": "differs"
         }
       ],
       "correct_answer": "D",
       "explanation": "5.本题考查的知识点：多义词含义的确定+ that在比较结构中的指代。\n第一步：语法结构分析\n①定位：空格5位于第二句的分句2（内嵌so...that...结构）的主句中。②句子结构分析：分句2的主句 \n可简化为 A 5 from B 形式，A= it（回指 Plant biology）, B = that of animals（ that 指代 biology） o \n可见，空格词应能与from搭配，体现A（植物的生命机理）和B（动物的生命机理）之间的关系。\n第二步：语义逻辑分析\n第一句总述新研究的观点：“植物电信号所触发的反应表明植物具有意识”这一看法没有事实根据。 \n第二句援引研究者之言具体说明：植物的生命机理复杂而奇妙，但与动物的生命机理______ 很大/很 \n强，大/强到……无确定结果。结合上段“植物意识说”的论据“植物的某些行为反应可与动物的行为 \n反应媲美”可知，本段意在介绍反对派的观点，其论据应该是“植物生命机理与动物生命机理的差异性 \n很大，大到不能单凭个别行为反应就断定植物具有和动物媲美的意识”。\n第三步：选项正误分析 \n【答案D】\n[A] suffers\nsuffer from意为“（因疾病、痛苦、悲伤等）受苦，受难，受折磨”，from的宾语通常为某 \n种苦难或疾病，但that of animals\"动物的生命机理”显然并非表示“某种折磨或困 \n难”，故排除。\n[B] benefits\nbenefit from意为“得益于……；受益于……”，考生若将该句理解为“植物生物学从动物生 \n物学中借鉴良多”则可能会误选此项，但该句意在说明的是植物神经生物学（植物意识说） \n反对派的观点，强调的是“植物生命机理”和“动物生命机理”之间的差异，故排除。\n[C] develops\ndevelop from 意为 由 发育/发展而来，如 A blossom develops from a bud.花朵 \n由花蕾发育而成。该项利用上文\"plant neurobiology\" was coined（动物神经生物 \n学一植物神经生物学）意图捏造出“植物生物学源自动物生物学”，错误原因同B项。\n\n续表\n[D] differs\ndiffer from意为“不同于……；区别于……”，既能体现“植物生命机理”与“动物生命 \n机理”的差异性，又可与so greatly形成合理搭配（差异如此之大，大到……无法定 \n论），故正确。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5
     },
     {
       "id": "ed91c45d-6b1f-5e78-9104-f930477c4672",
@@ -266,29 +296,35 @@
         {
           "key": "A",
           "text": "acceptance",
-          "value": "A"
+          "value": "A",
+          "content": "acceptance"
         },
         {
           "key": "B",
           "text": "evidence",
-          "value": "B"
+          "value": "B",
+          "content": "evidence"
         },
         {
           "key": "C",
           "text": "cultivation",
-          "value": "C"
+          "value": "C",
+          "content": "cultivation"
         },
         {
           "key": "D",
           "text": "creation",
-          "value": "D"
+          "value": "D",
+          "content": "creation"
         }
       ],
       "correct_answer": "B",
       "explanation": "6.本题考查的知识点：上下文语义+名词辨析。\n第一步：语法结构分析\n①定位:空格6位于第二句的分句2的结果状语从句中。②句子结构分析:分句2的结果状语从句为 \n\"主语（so-called 6 of plants5 intelligence） + 系动词（is） + 表语（inconclusive）\"结构'空格词作主语 \n的中心词，应具备表语inconclusive所展示的特征“非结论性的；不确定的；不能使人信服的”。\n第二步：语义逻辑分析\n根据上题分析可知，空格所在分句2“植物生命机理与动物生命机理差异非常大，大到所谓的植物智力 \n的并没有说服力”意在说明第一句“植物意识说缺乏事实根据（即植物并不存在意识）”，分句2 \n中帝的植物智力的”应该指向与事实依据相关的事物。\n第三步：选项正误分析 \n【答案B】\n[A] acceptance\n意为\"正式接受；赞同，认可\"，如the acceptance of Einstein's theory对爱因斯坦理 \n论的认同。但\"（对....的）认同\"无法与inconclusive\"非结论性的；不确定的；不能\n使人信服的”形成合理搭配，故排除。\n[B] evidence\n意为“证据；证明”，置入空格处恰能完美体现“有关植物智力的证据说服力不足一植 \n物意识说缺乏事实依据”这一语义逻辑，故正确。\n[C] cultivation\n意为\"耕种；（某种素质或技能的）培养\"，如the cultivation of good manners（礼貌习惯 \n的养成）。但文中讨论焦点不在“植物意识的培养”而在“植物意识的存在”，故排除。\n[D] creation\n意为\"创造；创建\"，如the creation of 2,000 new jobs（创造2 000个新的就业机会）, \n该项的错误原因和排除策略同C项。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5
     },
     {
       "id": "7bf0680e-f82a-52c3-9581-d4922c8aa41c",
@@ -301,29 +337,35 @@
         {
           "key": "A",
           "text": "doubted",
-          "value": "A"
+          "value": "A",
+          "content": "doubted"
         },
         {
           "key": "B",
           "text": "denied",
-          "value": "B"
+          "value": "B",
+          "content": "denied"
         },
         {
           "key": "C",
           "text": "argued",
-          "value": "C"
+          "value": "C",
+          "content": "argued"
         },
         {
           "key": "D",
           "text": "requested",
-          "value": "D"
+          "value": "D",
+          "content": "requested"
         }
       ],
       "correct_answer": "C",
       "explanation": "7.本题考查的知识点：上下文语义+代词的回指功能。\n第一步：语法结构分析\n①定位：空格7位于第三段第一句。②句子结构分析:said lead study author Lincoln Taiz辖域前后两 \n句。第一句引语部分主干结构为\"主语(some scientists) 4-谓语(have 7 ) +宾语从句(that plants \npossess neuron-like cells...),,o 第二句的主干结构为\"主语(They) + 状语(10 \n) + 谓语(claimed) +\n宾语从句(that plants have...)\"。They与some scientists同指，第一句谓语部分have 7 应充当主 \n语“一些科学家”与宾语“植物拥有类似于神经元的细胞”之间的桥梁。\n第二步：语义逻辑分析\n空格所在段整体援引新研究的第一作者泰兹的话语:从2006年开始，有一些科学家植物拥有类 \n似于神经元的细胞；他们……声称植物的根尖有类似大脑的指挥中心。可见，全段滴弔物意识说” \n反对者口中的支持者言论：他们认为“植物拥有类似于神经元的细胞，植物的根尖都有类似大脑的指 \n挥中心”，空格7应该与claimed\"声称”语义一致。\n第三步：选项正误分析 \n【答案C】\n[A] doubted\n意为“不能肯定；认为……未必可能”，后接that宾语从句表示“不确信/怀疑的具体事 \n物\"。如 She doubted that the accident could have been avoided.她不认为那场意外 \n本可以避免。而文中要表达的是“认为……可能；肯定……为真”之意，故排除。\n[B] denied\n意为“否认；否定”，后接that宾语从句表示“否定/否认的具体内容”。如She denied \nthat there had been any cover-up.她否认有任何隐瞒。该项的错误原因同A项。\n[C] argued\n意为“(坚决)主张;认为;提出理由(企图)证明”，多用于说服他人同意自己的观点，后接 \nthat 宾语从句表示\"主张的观点/想法\"。如 He argued that man was descended from apes. \n他论证人类的祖先是猿。用于此处符合主语和宾语之间的关系，故正确。\n[D] requested\n意为“请求；要求”，后接that宾语从句表示“请求/要求的具体内容”。如She \nrequested that no one be told of her decision until the next meeting.她要求下次开会 \n前不要向任何人透露她的决定。但宾语从句“植物拥有类似于神经元的细胞”显然不 \n是某种要求，故排除。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 7,
+      "score": 0.5
     },
     {
       "id": "65cf28fb-32fd-5303-8fa6-504a406c4d8c",
@@ -336,29 +378,35 @@
         {
           "key": "A",
           "text": "adapting",
-          "value": "A"
+          "value": "A",
+          "content": "adapting"
         },
         {
           "key": "B",
           "text": "forming",
-          "value": "B"
+          "value": "B",
+          "content": "forming"
         },
         {
           "key": "C",
           "text": "repairing",
-          "value": "C"
+          "value": "C",
+          "content": "repairing"
         },
         {
           "key": "D",
           "text": "testing",
-          "value": "D"
+          "value": "D",
+          "content": "testing"
         }
       ],
       "correct_answer": "B",
       "explanation": "8.本题考查的知识点：上下文语义+现在分词短语作结果状语。\n第一步：语法结构分析\n①定位：空格8位于neuron-like cells的定语从句中。②句子结构分析：定语从句的主干结构为“主语 \n(that/neuron-like cells) + 谓语(interact) +状语(with hormones and neurotransmitters),结合选项可 \n知 8 \"a plant nervous system...animals,＞为现在分词短语作状语，其逻辑主语为neuron-like cellso\n\n第二步：语义逻辑分析 \n空格8所在部分指出“植物意识说”持有者的观点：植物拥有类似于神经元的细胞，这些细胞与荷尔蒙 \n以及神经递质相互作用，“植物的神经系统”。结合相关科学常识“（类）神经元细胞为神经系统 \n的基本结构，而荷尔蒙（激素）以及神经递质是神经系统发挥作用的重要物质”可判断，该部分意在表 \n达“植物体内的类神经元细胞通过与荷尔蒙以及神经递质的相互作用，构成了植物的神经系统”，现 \n在分词短语作结果状语。\n第三步：选项正误分析 \n【答案B】\n[A] adapting\n意为\"（使）适应；（使）适合\"，其后常接to sth引出适应的对象，如Those flowers are \nwell adapted to harsh winters.这些花非常适应严冬。置入此处则表\"使植物的神经 \n系统适应”，暗示植物的神经系统已存在，但需要做出一定调整以适应新的情况，而文 \n中意在探讨的是“植物的神经系统是否存在”而非“是否适应”，故排除。\n[B] forming\n意为\"形成；变成\"，如 Petrol forms vapour above a certain temperature.超过一定温 \n度时，汽油变成蒸气。用于此处一方面能够体现“类神经元细胞”与“神经系统”部分 \n与整体的关系（契合neuron-like cells、a plant nervous system逻辑上的主宾关系），另 \n一方面能够表明“类神经元细胞与荷尔蒙和神经递质相互作用产生的结果”（契合现 \n在分词短语的语义内涵），故正确。\n[C] repairing\n意为\"修理；修补；修复\"，如 It will take a while to repair foreign confidence.要恢复 \n外国人的信心需要时间。考生若将文意理解为“类神经元细胞通过与荷尔蒙和神经 \n递质相互作用来修复神经系统”则可能会误选此项，但“修复”暗示“受损”（也即神经 \n系统本就存在），而文章争论的焦点在于“植物是否拥有神经系统”，而非“神经系统是 \n否受损”，故排除。\n[D] testing\n意为“测试；检测；检验”，考生若将空格所在的现在分词短语理解为“（一些科学家）测 \n试了植物的神经系统\"（将现在分词短语视为some scientists have...的伴随状语），则 \n可能误选此项。但“测试神经系统”也暗示该系统已存在，与文意重心不符，故排除。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 8,
+      "score": 0.5
     },
     {
       "id": "9990dcf8-79f4-5c6b-b98a-f4f0c34e67d7",
@@ -371,29 +419,35 @@
         {
           "key": "A",
           "text": "analogous",
-          "value": "A"
+          "value": "A",
+          "content": "analogous"
         },
         {
           "key": "B",
           "text": "essential",
-          "value": "B"
+          "value": "B",
+          "content": "essential"
         },
         {
           "key": "C",
           "text": "suitable",
-          "value": "C"
+          "value": "C",
+          "content": "suitable"
         },
         {
           "key": "D",
           "text": "sensitive",
-          "value": "D"
+          "value": "D",
+          "content": "sensitive"
         }
       ],
       "correct_answer": "A",
       "explanation": "9.本题考查的知识点：上下文语义逻辑+代词指代+形容词短语作后置定语。 \n第一步：语法结构分析\n①定位:空格9位于forming...这一结果状语中。②句子结构分析:结合选项可知，结果状语的主干结 \n构为\"现在分词（forming） + 逻辑宾语（a plant nervous system）wo 9 to that in animals 为形容词 \n短语作a plant nervous system的后置定语，其中that指代nervous system,空格形容词应能与介词to \n连用，且能体现“植物神经系统”与“动物神经系统”之间的关联。\n第二步：语义逻辑分析\n结合上两题分析可知，本句意在介绍“植物意识说”支持者的观点，故空格所在结果状语“（植物的类神 \n经元细胞通过与荷尔蒙以及神经递质相互作用）形成了植物的神经系统，丄_动物的神经系统”应该 \n意在表达“植物具有跟动物相类似的神经系统，因而具有跟动物相类似的意识”。\n第三步：选项正误分析 \n【答案A】\n[A] analogous\nanalogous to sth 意为\"类似于....；可比拟于.....\"，如 Sleep is analogous to death.睡\n眠可以和死亡相比拟。用于此处即“植物的神经系统类似于动物的神经系统”，能够 \n体现“植物意识说”支持者的论证逻辑，故正确。\n\n续表\n[B] essential\nessential to sth意为\"对于....必不可少的；对.... 至关重要的\"，如Money is not\nessential to happiness.金钱对于幸福并非必不可少。考生若将文意理解为\"类神经元 \n细胞”对“神经系统”必不可少，则可能会误选此项。但这一理解先是错判了 9 to \nthat in animals 的逻辑主语（应指向 a plant nervous system，而非 neuron-like cells）, \n然后又错误地将存在于不同生物体内的事物“植物的类神经元细胞（neuron-like \ncells）”与“动物的神经系统（that in animals）”进行重要性关联，认为前者对后者至关 \n重要，而这明显不符合常识，故排除。\n[C] suitable\nsuitable to sth意为“符合……要求的；适合……的”（此搭配较少见‘suitable后一般接 \n介词for）,如words suitable to the occasionC适合该场合的言辞）。但\"植物的神经系 \n统适用于动物的神经系统”同样不符合常识，故排除。\n[D] sensitive\nsensitive to sth 意为 对 敏感的；易受 影响的\"，如 Older people tend to be \nvery sensitive to cold.老年人一般对寒冷都很敏感。本选项利用常识\"类神经元细胞 \n对外界刺激的敏感性”设障，但同样错误地解读了 9 to that in animals的逻辑主 \n语以及that的所指，故排除。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 9,
+      "score": 0.5
     },
     {
       "id": "ea3e0886-9093-5283-984d-16879e920431",
@@ -406,29 +460,35 @@
         {
           "key": "A",
           "text": "just",
-          "value": "A"
+          "value": "A",
+          "content": "just"
         },
         {
           "key": "B",
           "text": "ever",
-          "value": "B"
+          "value": "B",
+          "content": "ever"
         },
         {
           "key": "C",
           "text": "still",
-          "value": "C"
+          "value": "C",
+          "content": "still"
         },
         {
           "key": "D",
           "text": "even",
-          "value": "D"
+          "value": "D",
+          "content": "even"
         }
       ],
       "correct_answer": "D",
       "explanation": "10.本题考查的知识点：上下文语义逻辑+副词辨析。 \n第一步：语法结构分析\n①定位：空格10位于第二句的主句中。②句子结构分析：结合第7题以及选项可知，本空格词作状 \n语，或说明claimed发生的方式、时间、程度等，或表明与上文的逻辑关系。\n第二步：语义逻辑分析\n同样结合第7题可知，本段意在介绍“植物意识说”反对者眼中的支持者论调：他们主张植物拥有与动 \n物类似的神经系统，他们」_断言植物的根尖拥有类似大脑的指挥中心。结合反对者用词argued、 \nclaimed的递进（“提出理由以论证/论辩”亠“即便未经证实也直接断言”）以及支持者用词a plant \nnervous system, analogous to that in animals、brain-like command centers 的递进（\"类似于动物的神 \n经系统”-“类似大脑的指挥中心”）可判断两句间存在语义递进，同时应体现反对者的质疑之情。\n【答案D】\n第三步：选项正误分析\n[A] just\n可表示\"只是；正好；冈!1才;确实\"等，如They were just interested in making money.他们 \n只对挣钱感兴趣。但“他们只是声称……”一方面无法体现支持者观点的语义递进，另 \n一方面也无法体现反对者的质疑语气，故排除。\n[B] ever\n可表示“在任何时候；曾经”，命题人利用中文语境“他们曾经声称……”设障，但ever表 \n达该义时，通常用于疑问句、否定句、比较结构或带if的句子中，女口 If you're ever in \nSeattle, come and see me.如果你什么时候到了西雅图，就来看我吧。用于肯定句中 \n时,ever —般表示\"总是；始终\",He is ever ready to help his friends.他总是乐于帮助朋 \n友。而“他们总是声称……”强调的是一种频率，无法与上文形成递进逻辑，也不能体现 \n反对者的质疑口吻，故排除。\n[C] still\n可表\"还；还是；仍然；依旧\"，如It was, and still is, my favorite movie.那部影片以前是 \n我最喜欢的，现在仍然是。命题人利用“他们不仅主张……，还断言……”的情境设障， \n但still表达此义时强调的是一种状态的延续，而不是语义的递进，故排除。\n\n续表\n[D] even\n意为\"甚至；即使\"（used to emphasize something that is unexpected or surprising in what \nyou are saying），女口 Most companies have suffered a drop in their profits, even very \nlarge companies.大多数公司的利润都岀现下滑，甚至连很大的公司也不例外。用于此 \n处一方面能够体现两句间的递进关系，另一方面能够体现泰兹对“植物拥有类似大脑的 \n指挥中心”的质疑态度，符合全文基调。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 10,
+      "score": 0.5
     },
     {
       "id": "0ef12f46-98c3-5c2d-ad49-482f8e7d2764",
@@ -441,29 +501,35 @@
         {
           "key": "A",
           "text": "restriction",
-          "value": "A"
+          "value": "A",
+          "content": "restriction"
         },
         {
           "key": "B",
           "text": "experiment",
-          "value": "B"
+          "value": "B",
+          "content": "experiment"
         },
         {
           "key": "C",
           "text": "perspective",
-          "value": "C"
+          "value": "C",
+          "content": "perspective"
         },
         {
           "key": "D",
           "text": "demand",
-          "value": "D"
+          "value": "D",
+          "content": "demand"
         }
       ],
       "correct_answer": "C",
       "explanation": "11.本题考查的知识点：代词指代+条件关系。\n第一步：语法结构分析\n①定位：空格11位于第四段第一句的分句1的主句中。②句子结构分析：分句1为“主句+if从句”结 \n构，其中主句的结构为“主语（This 11 \n）+谓语（makes sense）w,This 11回指上文所述内容。\n第二步：语义逻辑分析\n分句1指出：如果简化复杂大脑的运作机制，这一」_就言之有理。结合句内makes sense“讲得通； \n言之有理”的置评口吻可知本句意在对上文所述“植物意识说”支持者的论调进行评述,This 11回 \n指支持者的论调“植物的类神经元细胞通过与荷尔蒙和神经递质相互作用，构成了植物的神菇统； \n植物也有类似大脑的指挥中心”。\n第三步：选项正误分析 \n【答案C】\n[A] restriction\n意为“限制；约束”，该项利用if条件句中“将复杂大脑的运作机制简化”捏造出“由 \n此受限”,但此处This 11回指前文所述内容，而非讦从句的假设情境，故排除。\n[B] experiment\n意为“实验;试验”，该项由if条件句中workings\"运作；工作方法”望文生义而来，但它 \n实际指向“（大脑的）运作，工作方法”，表示某种“抽象的机制”，显然并非可以进行人 \n为操作的条件;且上下文均是对观点和事实的介绍，未涉及实验，故排除。\n[C] perspective\n意为“观点；思考方法；视角”，This perspective回指上文“植物意识说”支持者的观 \n点，用于此处既能恰当概括上文内涵，又可与下文辻从句形成合理的“条件一结果” \n关联9故正确。\n[D] demand\n意为“要求；需求”，该项利用其前brain-like command centers中的command设障， \n但该词实际上是在强调植物具有“（行为的）控制能力”，着力点还在“植物存在意识” \n这一支持者的看法，而This command却将command视为核心名词，偷换了上文的 \n语义内涵，上文并未单独谈及“要求；需求”等，故排除。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 11,
+      "score": 0.5
     },
     {
       "id": "05e2ecba-157b-5efc-b8e1-f43f1a987146",
@@ -476,29 +542,35 @@
         {
           "key": "A",
           "text": "attaching",
-          "value": "A"
+          "value": "A",
+          "content": "attaching"
         },
         {
           "key": "B",
           "text": "reducing",
-          "value": "B"
+          "value": "B",
+          "content": "reducing"
         },
         {
           "key": "C",
           "text": "returning",
-          "value": "C"
+          "value": "C",
+          "content": "returning"
         },
         {
           "key": "D",
           "text": "exposing",
-          "value": "D"
+          "value": "D",
+          "content": "exposing"
         }
       ],
       "correct_answer": "B",
       "explanation": "12.本题考查的知识点：熟词僻义+现在分词短语作伴随状语。\n第一步：语法结构分析\n①定位：空格12位于第一句的分句1的条件状语从句中。②句子结构分析：条件状语从句的主谓宾 \n结构完整（主语you+谓语simplify+宾语the workings of a complex brain），结合选项（均为V-ing结 \n构）可知，空格所在部分为现在分词短语作状语，其逻辑主语为you,逻辑宾语为it（the workings of a \ncomplex brain）。\n第二步：语义逻辑分析\n空格所在句指出：这种观点言之有理，如果将复杂大脑的运作机制简化，12它为一系列电脉冲；植 \n物的细胞也通过电信号交流。可见，本句背后的逻辑为：条件［如果动物亦就通过电信号交流，即如 \n果其作用机制（可简化）为“电脉冲+事实（植物细胞也通过电信号交流）=结论（“植物具有类似动 \n物的神经系统，存在类似大脑的控制中心”这一观点言之有理）。即，空格所在部分“」_它为一系 \n列电脉冲\"应是对simplify的解释说明。\n\n第三步：选项正误分析 \n【答案B】\n[A] attaching\nattach sth to sth 意为 把....固定在.... ；把.... 附在.....上 9如 attach a label to\na suitcase（把标签贴在衣箱上）。但此处“把复杂大脑的运作机制附着在一系列电脉 \n冲上”无法表达合理逻辑，且不能体现simplify的语义，故排除。\n[B] reducing\nreduce sth to sth 可表示\"把 简化为 \"，如 Many jobs can be reduced to a few \nsimple points.许多工作都可以概括成简单的几点。用于此处恰能体现simplify的 \n语义，表达“将复杂大脑的运作机制简化为一系列电脉冲”之意，故正确。\n[C] returning\nreturn sth to sth 意为\"把....归还给.... ；把.... 送回.....\"，如 I must return some\nbooks to the library.我得把一些书还给图书馆。选项错误性质同A项。\n[D] exposing\nexpose sth to sth意为\"把....暴露在.... 中；使.....接触.... \",如expose one's\nskin to the sun（使皮肤遭受日晒）。选项错误性质同A项。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5
     },
     {
       "id": "89b6f2a2-a2ca-5d99-83ca-77f167ff127d",
@@ -511,29 +583,35 @@
         {
           "key": "A",
           "text": "However",
-          "value": "A"
+          "value": "A",
+          "content": "However"
         },
         {
           "key": "B",
           "text": "Moreover",
-          "value": "B"
+          "value": "B",
+          "content": "Moreover"
         },
         {
           "key": "C",
           "text": "Therefore",
-          "value": "C"
+          "value": "C",
+          "content": "Therefore"
         },
         {
           "key": "D",
           "text": "Otherwise",
-          "value": "D"
+          "value": "D",
+          "content": "Otherwise"
         }
       ],
       "correct_answer": "A",
       "explanation": "13.本题考查的知识点：上下文语义逻辑+连词辨析。 \n第一步：语法结构分析\n①定位：空格13位于第二句的句首。②句子结构分析：第二句由“主句+ which引导的非限制性定语从 \n句”构成，主、从句均为主系表结构。结合选项可知，空格词为衔接性副词，体现本句与上文的逻辑关系。\n第二步：语义逻辑分析\n空格所在句介绍泰兹（新研究的作者、“植物意识说”的反对者）的观点：植物体内的信号传递与复杂的 \n动物大脑的信号传递只是……相似，动物的大脑不只是“一团通过电脉冲交流的细胞”这么简单；可见 \n该句意在说明“植物意识说”的错误性，而结合空格句上句语意“植物意识说在某种条件下言之有理” \n可判断，两句之间为对比语义。\n第三步：选项正误分析 \n【答案A】\n[A] However\n意为“然而;但是”，表达转折关联。用于此处恰能传递两句间的转折逻辑，表达泰兹 \n（新研究的作者）对“植物意识说”的否定。\n[B] Moreover\n意为“此外；而且”，表达递进关联。考生若仅关注空格句中的similar to则可能将该 \n句理解为对动植物相似性的进一步强调，但由only、more than可知，空格句实际是 \n对动植物相似性的一种否定，故排除。\n[C] Therefore\n意为“因此；所以\"，表示因果关联。命题人利用两句中also,similar to捏造因果逻辑 \n（植物也通过电信号交流，因此动植物存在相似性），但前者用以强调“植物与动物在 \n信号传递方面的相似性”，后者则用以强调“植物与动物仅仅在某些方面相似（而并 \n未上升到意识的高度相似），两者实际表达对立语义，故排除。\n[D] Otherwise\n意为\"否则；要不然\"，表达条件关联，女口 Shut the window, otherwise it'll get too cold \nin here.把窗户关好，不然屋子里就太冷了。但上文对于“植物意识说”的评述显然 \n无法充当某种条件，泰兹的观点也并非某条件导致的结果，故排除。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 13,
+      "score": 0.5
     },
     {
       "id": "9f492b63-bb0e-5e2c-a3f8-b5106b8bf650",
@@ -546,29 +624,35 @@
         {
           "key": "A",
           "text": "temporarily",
-          "value": "A"
+          "value": "A",
+          "content": "temporarily"
         },
         {
           "key": "B",
           "text": "literally",
-          "value": "B"
+          "value": "B",
+          "content": "literally"
         },
         {
           "key": "C",
           "text": "superficially",
-          "value": "C"
+          "value": "C",
+          "content": "superficially"
         },
         {
           "key": "D",
           "text": "imaginarily",
-          "value": "D"
+          "value": "D",
+          "content": "imaginarily"
         }
       ],
       "correct_answer": "C",
       "explanation": "14.本题考查的知识点：上下文语义逻辑+副词辨析。 \n第一步：语法结构分析\n①定位：空格14位于第二句的主句中。②句子结构分析：主句可简化为A is only 14 similar to B \n形式，A=thc signaling in a plantthe firing in a complex animal brain,空格词修饰 similars说明 \nA、B二者相似的具体情况。\n\n第二步：语义逻辑分析 \n空格句介绍泰兹的观点：植物体内的信号传递与动物复杂的大脑的信号传递只是」_相似，动物的 \n大脑不仅仅是（more than）“通过电脉冲交流的细胞团”这么简单。结合上文泰兹丽美言论“植物的 \n生命机理与动物的生命机理差别非常大，大到（so greatly...that..•）植物具有意识的相关证据并不具有 \n说服力”可知，泰兹对于动植物信号传递的相似性持表面认同、深层否定的态度。\n第三步：选项正误分析 \n【答案C】\n[A] temporarily\n意为\"短暂地；暂时地\"，如 We regret this service is temporarily unavailable.我们 \n很抱歉暂时不能提供这一服务。但句中要传递的并非“短暂”与“永久”的语义，而 \n是“表面”与“深层”的关联，故排除。\n[B] literally\n意为\"确实地；真正地\"，如They were literally starving to death.他们真的快要饿 \n死了。该项强调的是事实的千真万确性“的的确确存在”，但句中实际要强调的是 \n一种表面肯定、深层否定的韵味，\"的的确确相似\"很难与However, only, more \nthan所共同构成的否定语境吻合，故排除。\n[C] superficially\n意为“表面上地；浅薄地”，用于此处即“表面上相似”，在部分承认“相似性”的基础 \n上，更暗示深层的不同，能够明确传递出泰兹的否定态度，符合文中的转折逻辑， \n故正确。\n[D] imaginarily\n意为“想象中地；虚构地”，强调的是一种虚构现象，而文中要表达的是“存在一定程 \n度的相似”，故不可能是虚构的，排除。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14,
+      "score": 0.5
     },
     {
       "id": "c689ebd8-033e-5f2c-af8d-1abccd2446fe",
@@ -581,29 +665,35 @@
         {
           "key": "A",
           "text": "list",
-          "value": "A"
+          "value": "A",
+          "content": "list"
         },
         {
           "key": "B",
           "text": "level",
-          "value": "B"
+          "value": "B",
+          "content": "level"
         },
         {
           "key": "C",
           "text": "label",
-          "value": "C"
+          "value": "C",
+          "content": "label"
         },
         {
           "key": "D",
           "text": "load",
-          "value": "D"
+          "value": "D",
+          "content": "load"
         }
       ],
       "correct_answer": "B",
       "explanation": "15.本题考查的知识点：介词短语作后置定语+固定用法。\n第一步：语法结构分析\n①定位：空格位于第一句的直接引语中。②句子结构分析：直接引语的主干为“主语(a brain) +被动 \n态谓语(is required),介词短语 with a threshold 15 of complexity and capacity 作 a brain 的后置 \n定语。介词with的宾语较长，内部成分有两种可能：1. threshold 15 为中心词，of complexity and \ncapacity 作其后置定语；2. a threshold 15 of 为限定词 ‘complexity and capacity 为中心词。\n第二步：语义逻辑分析\n空格所在句介绍泰兹的言论（he指代上文Taiz）:想要进化形成意识，大脑的复杂度和容纳度都需要 \n具有阈/临界15 \n。可见，句子意在表明“大脑的复杂性和容纳度需要达到（能够形成意识的）临界\n值后，才能够形成意识”。\n第三步：选项正误分析 \n【答案B】\n[A] list\n意为\"名单；目录；清单\"，a threshold list of complexity and capacity即\"一个复杂度和容 \n纳度的临界列表”，表明含有多个复杂度和容纳度的临界值，而这很明显与句意想要传 \n递的“一个复杂度和容纳度的临界值”不符，故排除。\n[B] level\n意为“水平；程度；级别\", threshold level为固定搭配,表示“阈值”，又称“临界值”，指一 \n个效应能够产生的最低值或最高值。with a threshold level即指\"（大脑）达到阈值\",of \ncomplexity and capacity说明“在复杂性和容纳度方面（达到阈值）”，符合语法逻辑，同 \n时能够体现“形成意识”的条件，故正确。\n[C] label\n意为“标签；签条；标记”，无法与threshold搭配形成合理语义，且文中也未谈及任何有 \n关“标签”的内容，故排除。\n[D] load\n意为\"负载；负荷;容纳量\",a load of sth表示\"大量;许多\"，如We got a load of complaints \nabout the loud music.很多人向我们投诉音乐太响。考生若将该句理解为“想要进化形成意 \n识，大脑需要非常复杂、容量非常大”则可能会误选此项，但a load of —般用于形容数量大， \n而此处threshold指向的是程度、水平，两者不能形成合理搭配，故排除。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 15,
+      "score": 0.5
     },
     {
       "id": "49177754-dcdd-5828-a043-1d0d2f874b4c",
@@ -616,29 +706,35 @@
         {
           "key": "A",
           "text": "recalled",
-          "value": "A"
+          "value": "A",
+          "content": "recalled"
         },
         {
           "key": "B",
           "text": "agreed",
-          "value": "B"
+          "value": "B",
+          "content": "agreed"
         },
         {
           "key": "C",
           "text": "questioned",
-          "value": "C"
+          "value": "C",
+          "content": "questioned"
         },
         {
           "key": "D",
           "text": "added",
-          "value": "D"
+          "value": "D",
+          "content": "added"
         }
       ],
       "correct_answer": "D",
       "explanation": "16.本题考查的知识点：段际语义逻辑+引述动词辨析。 \n第一步：语法结构分析\n①定位：空格16位于第一句的引述分句中。②句子结构分析：引述分句的结构为“主语（he） +谓语 \n（—16 \n该引述分句实际辖域本段两句内容。he指代上文Taiz,即新研究的第_作者。\n第二步：语义逻辑分析\n本段两句指出，“想要进化成意识，大脑的复杂性和容纳度都需要达到一定的阈值。”他16 \n，“既然\n植物没有神经系统，那么它们拥有意识的……为零。”结合上文泰兹的话语（Taiz said）“动植物的信号 \n传递只是表面上的相似”可知，本段是在上文基础上的进一步延伸、补充。\n\n第三步：选项正误分析 \n【答案D】\n[A] recalled\n意为\"回忆;回想\"，如\"He's sitting on the back and we're doing 36 knots, \" he \nrecalled.\"他坐在船后面，我们开到了 36节。”他回忆道。该项所辖域的引号内的内 \n容是对过去事件或经历的回忆，而文中为泰兹的观点，故排除。\n[B] agreed\n意为\"同意；赞成\"，如\"That's true,\" she agreed. u是这样的。\"她同意道。该项所辖 \n域的引号内的内容表达的是对他人观点的认可，而文中均为泰兹本人的观点(he回 \n指Taiz)，故排除。\n[C] questioned\n意为“询问；质疑”，如“Why?”he questioned.\"为什么？”他质问道。该项所辖域的引 \n号内的内容表达的是疑问或质疑，与文章内容不符，故排除。\n[D] added\n意为\"补充说；继续说\"，如\"And don't be late,\" she added. u还有别迟到。'‘她补充说 \n道。该项所辖域的引号内的内容是对观点或看法的进一步补充说明，契合文中引号 \n内内容的性质，故正确。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16,
+      "score": 0.5
     },
     {
       "id": "9dd578a1-04c1-58f2-aa96-89036c59ef08",
@@ -651,29 +747,35 @@
         {
           "key": "A",
           "text": "chances",
-          "value": "A"
+          "value": "A",
+          "content": "chances"
         },
         {
           "key": "B",
           "text": "risks",
-          "value": "B"
+          "value": "B",
+          "content": "risks"
         },
         {
           "key": "C",
           "text": "excuses",
-          "value": "C"
+          "value": "C",
+          "content": "excuses"
         },
         {
           "key": "D",
           "text": "assumptions",
-          "value": "D"
+          "value": "D",
+          "content": "assumptions"
         }
       ],
       "correct_answer": "A",
       "explanation": "17.本题考查的知识点:句内语义逻辑十名词辨析。\n第一步：语法结构分析\n①\n定位\n:空格17位于第二句的主句中。②句子结构分析:主句中that从句内部的主谓宾结构完整(主 \n语they+谓语have+宾语consciousness)，结合选项的名词性质可判断该that从句为空格词的同位 \n语，故主句的主干结构为\"主语(the 17 ) +系动词(are) +表语(effectively zero)\"。\n第二步：语义逻辑分析\n空格所在句指出，既然植物没有神经系统，那它们存在意识的17 实际上为零。而上句则提到“想 \n要进化形成意识，至少需要一颗复杂性和容纳度都达阈值的大脑”。可见，空格句意在表达：植物连神 \n经系统都没有，更遑论一颗复杂性、容纳度达到阈值的大脑，因此不可能存在意识。\n第三步：选项正误分析 \n【答案A】\n[A] chances\n意为\"可能性；机会\"，如 There's a slight chance that he'll be back in time.他及时赶回 \n来的可能性不大。用于此处契合全文主述话题“植物到底可不可能存在意识”，也能 \n体现“植物意识说”反对者泰兹对“植物存在意识的可能性”的否定，故正确。\n[B] risks\n意为\"危险；风险\"，如 There is still a risk that the whole deal will fall through.整 \n桩买卖化为泡影的风险仍然存在。该项虽然能够与表语effectively zero构成合理 \n搭配,但文中“植物存在意识”不是一种“风险/危险”，而是一种尚在争论的“可能性”。\n[C] excuses\n意为\"借口 ；理由；辩解\"，如 He came out with his staple excuse that he was too busy. \n他又拿出惯用的借口，说他太忙了。该项的错误有二：1•“植物存在意识”不是一种 \n借口或理由；2.\"借口\"不是一个数值，与表语effectively zero无法搭配，故排除。\n[D] assumptions\n意为\"假定；假设\"，女口 We are working on the assumption that everyone invited will \nturn up.我们假定了每一个人都会应邀出席并正就此作出安排。“假定”同样不是 \n一个数值，故与表语effectively zero无法搭配。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 17,
+      "score": 0.5
     },
     {
       "id": "7daff49d-0b40-5765-9a2c-120c2fae3fdd",
@@ -686,29 +788,35 @@
         {
           "key": "A",
           "text": "danger",
-          "value": "A"
+          "value": "A",
+          "content": "danger"
         },
         {
           "key": "B",
           "text": "failure",
-          "value": "B"
+          "value": "B",
+          "content": "failure"
         },
         {
           "key": "C",
           "text": "warning",
-          "value": "C"
+          "value": "C",
+          "content": "warning"
         },
         {
           "key": "D",
           "text": "control",
-          "value": "D"
+          "value": "D",
+          "content": "control"
         }
       ],
       "correct_answer": "A",
       "explanation": "18.本题考查的知识点:上下文语义关联+文章主旨。\n第一步：语法结构分析\n①定位:空格18位于第二句的分句1中。②句子结构分析：分句1的结构为“主语(Plants) +谓语 \n(can't run away) +状语(from \n18 )\",空格词作介词from的宾语，指向逃离的对象、处境等。\n\n第二步：语义逻辑分析\n空格所在段首尾And...according to the article表明本段实际承接上文继续介绍“植物意识说”反对派 \n的观点，其中第一句以反问语气指岀“植物具有意识有什么好处”,深层暗示植物具有意识没有什么好 \n处。第二句(空格所在句)进而指出：由于植物无法逃离_^_，因此把能量投放在一个“ 威胁并 \n能感知疼痛”(即存在意识)的身体系统将是一种……进化策略。可见，两句间语义逻辑应该是：只会 \n感知威胁和疼痛(具有意识)却不能逃离威胁和疼痛(实际事实)无疑对植物来说没有什么好处，空格 \n词应为与威胁、疼痛相关的事物。\n第三步：选项正误分析 \n【答案A】\n[A] danger\n意为“危险；威胁；危害”，用于此处即“植物无法逃离危险”，符合常识，能够与threat, \npain共同构建“伤害、受伤”的语义场，解释植物没有进化出意识的合理性(无法逃离危 \n险，故而最好不要意识和感受到伤害)，故正确。\n[B] failure\n意为“失败；故障”，虽然“植物无法规避失败”看似合理，但“失败”指向自身，而“威胁” \n“疼痛”指向外界;“无法规避失败”与“无需感受外界伤害”之间无法形成合理的因果关 \n联，故无法体现“植物没必要进化出意识”的文意，排除。\n[C] warning\n意为“警告；警示”，但“无法逃避警告”同样无法体现“植物没有进化出意识”的原因。\n[D] control\n意为“控制；掌控”，但“控制”也无法契合“威胁”“疼痛”所构建的语义场，且“无法逃离 \n控制”与“无需感受外界伤害”也无法构成因果关联，故也排除。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18,
+      "score": 0.5
     },
     {
       "id": "7aa7189d-e478-53fa-84ec-fd75a12838b5",
@@ -721,29 +829,35 @@
         {
           "key": "A",
           "text": "represents",
-          "value": "A"
+          "value": "A",
+          "content": "represents"
         },
         {
           "key": "B",
           "text": "includes",
-          "value": "B"
+          "value": "B",
+          "content": "includes"
         },
         {
           "key": "C",
           "text": "reveals",
-          "value": "C"
+          "value": "C",
+          "content": "reveals"
         },
         {
           "key": "D",
           "text": "recognizes",
-          "value": "D"
+          "value": "D",
+          "content": "recognizes"
         }
       ],
       "correct_answer": "D",
       "explanation": "19.本题考查的知识点：上下文语义逻辑十动词辨析。 \n第一步：语法结构分析\n①\n定位:空\n格位于第二句的分句2的定语从句中。②句子结构分析:分句2内嵌定语从句，其主句的结构为 \n\"主语(investing energy in a body system) + 系动词(would be)+表语(a... strategy)定语从句的结构为\"主 \n语(which,指代 a body system) + 并列谓语部分 1( \n19 a threat) + 并列谓语部分 2(can feel pain)\"。\n第二步：语义逻辑分析\n结合上题分析可知，空格句是在论述“植物没有意识”的合理性。故定语从句“可以19威胁并能感知疼 \n痛”应用于形容身体系统的意识性，“ 19威胁”应与“感知疼痛”并列，体现对外部初丽感知和意识。\n第三步：选项正误分析 \n【答案D】\n[A] represents\n意为\"代表；相当于；意味着\"，如 European orders represented 30 percent of our \nsales last year.欧洲订单占了我们去年销售额的30%。A represents B,A与B为对 \n等/象征关系。考生若将which误解为指代danger,则可能会误选此项，但由空格后 \n的并列谓语can feel pain可知,which具有某种主观意识，不可能指代dangero\n[B] includes\n意为\"包含；包括\"，如 His job includes looking after under-21 teams.他的职责包括 \n照管21岁以下的球队。A includes B, A与B为整体与部分的关系。该项的干扰方 \n式和排除策略同A项。\n[C] reveals\n意为“揭示；显示；露出”，强调的是将某事物展示于人，让人知道，而文中意欲表达的 \n是身体系统自身感知外界威胁，以体现植物的意识性，而不是将不为人知的威胁展 \n示于人，故排除。\n[D] recognizes\n意为“认出；认识；辨认出”，此处即“识别威胁”，能够体现植物身体系统的意识性，且 \n“识别威胁/感知疼痛”-“逃离威胁”能构成合理的逻辑关系，故正确。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 19,
+      "score": 0.5
     },
     {
       "id": "e61631b8-a26c-59c9-bc7a-c0232bad95b6",
@@ -756,29 +870,35 @@
         {
           "key": "A",
           "text": "humble",
-          "value": "A"
+          "value": "A",
+          "content": "humble"
         },
         {
           "key": "B",
           "text": "poor",
-          "value": "B"
+          "value": "B",
+          "content": "poor"
         },
         {
           "key": "C",
           "text": "practical",
-          "value": "C"
+          "value": "C",
+          "content": "practical"
         },
         {
           "key": "D",
           "text": "easy",
-          "value": "D"
+          "value": "D",
+          "content": "easy"
         }
       ],
       "correct_answer": "B",
       "explanation": "20.本题考查的知识点:上下文语义逻辑+形容词辨析。\n第一步：语法结构分析\n①定位:空格位于第二句的分句2的主句中。②句子结构分析:a very 20 evolutionary strategy作 \n表语，空格词是对evolutionary strategy的描述、说明。\n第二步：语义逻辑分析\n结合第18题分析可知，空格所在句意在指出“植物不具有意识的合理性”，故“把能量投放在一个可以识别 \n威胁并能感知疼痛的（有意识的）身体系统是一种非常』_进化策略”应该具有比较强烈的否定意味。\n第三步：选项正误分析 \n【答案B】\n[A] humble\n修饰人时，可表“谦虚的；谦逊的”；修饰物时，可表“不大的；没有特别之处的”，如a \nhumble farmhouse （小农舍）。但整体语义指向还是表肯定，与文中要传递的否定语 \n义相悖，故排除。\n[B] poor\n修饰人时，表示“贫穷的；可怜的”；修饰物时，表示“劣质的；差的；糟糕的”，如He \nmade a poor job of it.这件事他干得很糟。用于此处指\"一个糟糕/不理想的进化策 \n略”，能够恰当体现此处的因果关系，符合新研究的立场。\n[C] practical\n意为\"实际的；切实可行的\"，如 a practical way of achieving greater efficiencyC达到 \n更高效率的切实有效的方法），该项利用中文语境“进化出识别威胁和感知疼痛的身 \n体系统是非常实用的”捏造干扰，但很明显不符合句内所需的负面语义，故排除。\n[D] easy\n意为“容易的；不费力的”，命题人利用动物世界的惯常情形“可以识别威胁并感知疼 \n痛”捏造出“这一进化策略非常容易”，但空格句是在论述植物的进化策略而非动物， \n此外由上文“想要进化形成意识，大脑的复杂性和容纳度需要达到一定的阈值”也可 \n得知，“进化出意识”并不简单。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 20,
+      "score": 0.5
     },
     {
       "id": "c6c256aa-8a05-542d-a0b4-49124484502c",
@@ -791,29 +911,35 @@
         {
           "key": "A",
           "text": "maintaining their plastic items",
-          "value": "A"
+          "value": "A",
+          "content": "maintaining their plastic items"
         },
         {
           "key": "B",
           "text": "obtaining durable plastic artifacts",
-          "value": "B"
+          "value": "B",
+          "content": "obtaining durable plastic artifacts"
         },
         {
           "key": "C",
           "text": "handling outdated plastic exhibits",
-          "value": "C"
+          "value": "C",
+          "content": "handling outdated plastic exhibits"
         },
         {
           "key": "D",
           "text": "classifying their plastic collections",
-          "value": "D"
+          "value": "D",
+          "content": "classifying their plastic collections"
         }
       ],
       "correct_answer": "A",
       "explanation": "21.根据第一段内容，博物馆在 \n面正面临困难。\n方\n[A] maintaining their plastic items\n［A］维护其塑料物品\n[B] obtaining durable plastic artifacts\n［B］获取耐久的塑料手工艺品\n[C] handling outdated plastic exhibits\n:C］处理过时的塑料展品\n[D] classifying their plastic collections\n［D］对其塑料藏品进行分类\n锁定 \n答案\n1. 定位：由题干关键词 Paragraph 1 museums are faced with difficulties 可先定位至第一段 \n⑦⑧句（creates huge headaches for...museums）,再通过回指词 All of which 可将定位范围 \n进一步扩大到③至⑧句（some plastic materials...They...They...They...） 0\n2. 分析：③至⑥句指出部分塑料材料会变形变质，⑦⑧句进而指出这给博物馆带来了大麻 \n烦，博物馆努力保护重要文物，而多种塑料文物岌岌可危。可见，博物馆面临的困难是“难 \n以保护老化变质的塑料文物”。\n3. 确定：A项是对⑦⑧句（preserve culturally important objects...plastic objects at risk）的概括。\n\n续表\n排除\n干扰\nB\n1. 定位：由选项关键词durable可定位至第一段①②句(durable、don't break down easily) 0\n2. 排除：B项由①②句内容“公众抱怨塑料太过耐久”及随后所述博物馆塑料文物面临的险 \n情“变形变质、岌岌可危”臆断出“博物馆渴望拥有耐久的塑料文物而不得(difficulties in \nobtaining...)\",实际上误读段落前后两部分的关系。\nC\n1. 定位：由选项关键词outdated plastic可定位至第一段⑧句(early radios... the fir",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "score": 2.0
     },
     {
       "id": "8c9b4beb-1372-5ec9-ab64-9eac8b05636a",
@@ -826,29 +952,35 @@
         {
           "key": "A",
           "text": "immune to decay",
-          "value": "A"
+          "value": "A",
+          "content": "immune to decay"
         },
         {
           "key": "B",
           "text": "improperly shaped",
-          "value": "B"
+          "value": "B",
+          "content": "improperly shaped"
         },
         {
           "key": "C",
           "text": "inherently flawed",
-          "value": "C"
+          "value": "C",
+          "content": "inherently flawed"
         },
         {
           "key": "D",
           "text": "complex in structure",
-          "value": "D"
+          "value": "D",
+          "content": "complex in structure"
         }
       ],
       "correct_answer": "C",
       "explanation": "22. Van Oosten believes that certain plastic objects are \n.\n22.范•奥斯藤认为,某些塑料物件\nO\n[A] immune to decay\n［A］不会腐烂\n[B] improperly shaped\n［B］塑形不当\n[C] inherently flawed\n［C］本身有缺陷\n[D] complex in structure\n［D］构造复杂\n锁定 \n答案\nC\n1. 定位：由题干关键词 Van Oosten, certain plastic objects 可定位至第二段(Thea van \nOosten‘Certain artifacts...) o\n2. 分析：该段①句间接援引范•奥斯藤观点指出“某些塑料手工艺品之所以格外脆弱，是因 \n为先驱艺术家并不总是知道如何正确地混合各种成分”，②③则以直接引语作以阐释，先将 \n“制作手工艺品”与“烤蛋糕”作类比，指出“如若用量不精准，就会出问题”，后将“所做的手 \n工艺品/蛋糕”比喻为“定时炸弹”，指岀“物品损毁只是时间问题”。可见，他认为某些塑料 \n物件“当初制作之时便配比不当，存在先天缺陷，因而终究会岀问题”。\n3. 确定：C项体现①句所述塑料物件的先天缺陷“各成分用量、配比不当”(didn't...mix \ningredients properly)。\n排除 \n干扰\nA\n1. 定位：由选项关键词decay可定位至第二段①句(especially vulnerable) o\n2. 排除:A项immune to decay与该句\"某些手工艺品格外脆弱(易变形变质)\"完全相悖。\nB\n1. 定位：由选项关键词improperly shaped可关联至第二段①句(didn't...properly) o\n2. 排除：B项将“艺术家对原料成分的混合不当”扭曲为“艺术家对艺术品外形的塑造不当”。 \n注:shape意为“使成形；塑造”。\nD\n1. 定位：由选项关键词complex in structure可关联至第三段③句(decorated with foam \npumpk",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0
     },
     {
       "id": "5a8531ec-5712-5414-a22c-621665a2254d",
@@ -861,29 +993,35 @@
         {
           "key": "A",
           "text": "keep them from hurting visitors",
-          "value": "A"
+          "value": "A",
+          "content": "keep them from hurting visitors"
         },
         {
           "key": "B",
           "text": "duplicate them for future display",
-          "value": "B"
+          "value": "B",
+          "content": "duplicate them for future display"
         },
         {
           "key": "C",
           "text": "have their ingredients analyzed",
-          "value": "C"
+          "value": "C",
+          "content": "have their ingredients analyzed"
         },
         {
           "key": "D",
           "text": "prevent them from further damage",
-          "value": "D"
+          "value": "D",
+          "content": "prevent them from further damage"
         }
       ],
       "correct_answer": "D",
       "explanation": "23.博物馆暂停展出部分吉拉尔迪的艺 \n术作品以 \nO\n[A] keep them from hurting visitors\n［A］防止它们伤害参观者\n[B] duplicate them for future display\nEB］复制它们以供将来展出\n[C] have their ingredients analyzed\n［C］分析它们的成分\n[D] prevent them from further damage\n［D］防止它们受到更大程度的损坏\nV O So van Oosten and colleagues worked to\n锁定 \n答案\nD\n1. 定位：由题干关键词 Museums stopped exhibiting some of Gilardi's artworks 定位至第四 \n段(Museums locked some of them away...)。\n2. 分析:该段先介绍吉拉尔迪雕塑的材料特点“本身不稳定,特别易被光照损伤”，随后说明约 \n30年后雕塑的状态“纷纷碎裂、坍塌”，最后指出博物馆应对之举“将部分雕塑锁起来藏于暗 \n处”。可推知，博物馆暂停展岀吉拉尔迪的部分作品是为“保护它们免遭更严重的光损伤”。\n3. 确定:D项是结合“吉拉尔迪所用材料的特点(vulnerable to light damage)和博物馆举措 \n(locked...away in the dark)\"做出的合理推断。\n排除 \n干扰\nA\n1. 定位：由选项关键词keep... from hurting visitors可关联至第四段②句(splitting and \ncrumbling)以及第三段末句(viewers)。\n2. 排除:A项由第四段②句“吉拉尔迪的手工艺品都在碎裂、坍塌”臆断出“这些手工艺品可 \n能伤及参观者，故博物馆将其撤展”，而文中保护对象是“手工艺品”，并非“参观者”。\nB\n1. 定位：由选项关键词 duplicate>future display 可关联至第五段(rebuildson display again) o\n2. 排除:B项中“",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0
     },
     {
       "id": "ea280a3f-7110-52d1-9b46-4d40ac9ae510",
@@ -896,29 +1034,35 @@
         {
           "key": "A",
           "text": "costly",
-          "value": "A"
+          "value": "A",
+          "content": "costly"
         },
         {
           "key": "B",
           "text": "unworthy",
-          "value": "B"
+          "value": "B",
+          "content": "unworthy"
         },
         {
           "key": "C",
           "text": "unpopular",
-          "value": "C"
+          "value": "C",
+          "content": "unpopular"
         },
         {
           "key": "D",
           "text": "challenging",
-          "value": "D"
+          "value": "D",
+          "content": "challenging"
         }
       ],
       "correct_answer": "D",
       "explanation": "24. The author thinks that preservation of plastics is \n・\n24.作者认为，保护塑料文物是 \n。\n[A] costly\n［A］代价高昂的\n[B] unworthy\nCB］不值得的\n[C] unpopular\n［C］不得人心的\n[D] challenging\n［D］具有挑战性的\n\n锁定 \n答案\nD\n1. 定位:结合题文同序原则和题干关键词preservation of plastics可定位至涉及作者观点的 \n第六段(preservation of plastics will...) o\n2. 分析:第六段中作者先提出观点“保护塑料文物很可能会愈加困难”，随后论证观点“旧物 \n件持续老化变质，更糟的是，可生物降解的新型塑料日益普遍”。可见，塑料文物保护工作 \n将会是“极为艰难、充满挑战的”。\n3. 确定：D项challenging概括第六段get harder.Worse等体现的难度。\n排除 \n干扰\nA\n1. 定位：由选项costly可联系到第六段“保护塑料文物越来越难”(get harder) o\n2. 排除:A项由“塑料文物难以保护”主观推断出“保护塑料文物花费极大”，但文中并未提及。\nB\n1. 定位：由选项unworthy可联系到第六段②③句。\n2. 排除:B项由两句信息“旧物件持续老化变质；可降解塑料日益普遍”主观得岀“塑料文物 \n保护工作只会劳而无功”，而这两种趋势只能体现塑料文物保护工作“难度加大”，不涉及主 \n观态度“不值得/划不来”。\nC\n1. 定位：由选项unpopular可联系到第六段①句。\n2. 排除:C项对该句断章取义，理解为“尽管有范•奥斯藤这样的成功故事，但保护塑料物 \n件的工作会更加困难，因此会少有人涉足”，但结合后两句可知，作者意在强调“保护工作会 \n非常困难”，并未论及“人们是否还会热衷于保护工作”。\n技巧 \n总结\n本题易于定位(定位段为第六段)，解题关键在借助逻辑衔接词、词汇照应等线索把握段落 \n行文逻辑，体味作者观点。\n具体而言，首先由 preservation of p",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24,
+      "score": 2.0
     },
     {
       "id": "94f843b7-357d-561e-ade3-4f90ccdddca9",
@@ -931,29 +1075,35 @@
         {
           "key": "A",
           "text": "will inspire future scientific research",
-          "value": "A"
+          "value": "A",
+          "content": "will inspire future scientific research"
         },
         {
           "key": "B",
           "text": "has profound historical significance",
-          "value": "B"
+          "value": "B",
+          "content": "has profound historical significance"
         },
         {
           "key": "C",
           "text": "will help us separate the material ages",
-          "value": "C"
+          "value": "C",
+          "content": "will help us separate the material ages"
         },
         {
           "key": "D",
           "text": "has an impact on today's cultural life",
-          "value": "D"
+          "value": "D",
+          "content": "has an impact on today's cultural life"
         }
       ],
       "correct_answer": "B",
       "explanation": "25. In Ferreira^s opinion, preservation of plastic artifacts\n25.在费雷拉看来，保护塑料手工艺品\nO\n[A] will inspire future scientific research\n[A]会启发未来的科学研究\n[B] has profound historical significance\n[B]具有深远的历史意义\n[C] will help us separate the material ages\n[C]会帮助我们划分出材料时代\n[D] has an impact on today's cultural life\n[D]对当今文化生活产生巨大影响\n锁定 \n答案\nB\n1. 定位:由题干人物关键词 Ferreira's opinion 可定位至末段(Joana Lia Ferreira...notes...)。\n2. 分析:末段①句指出“面临威胁的不只是单个物件”,②③句援引费雷拉观点指出“考古学家考 \n察博物馆中的文物/人工制品之后界定了材料时代，塑料时代收藏、保护的文物也必将影响后世 \n如何看待我们”，也即“保护塑料文物关乎后世对我们的评判、界定，具有深远的历史意义”。\n3. 确定：B 项是对③句 have a strong impact on how in the future we'll be seen 的合理概括。\n排除\n干扰\nA\n1. 定位：由选项关键词future scientific research可定位至末段②③句(examiningjn the future) „\n2. 排除:A项将两处信息杂糅，两处信息分别指“考古学家当初对馆藏文物/人工制品的研 \n究”以及“后世会如何看待我们”，无关“未来的科学研究”。\nC\n1. 定位：由选项关键词separate the material ages可定位至末段②句(defined the great \nmaterial ages)。\n2. 排除：C项混淆②③句信息，帮助我们划分、界定材料时代的是“材料时代的人工制品”， \n并非“塑料制品”",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 25,
+      "score": 2.0
     },
     {
       "id": "a72f925d-2341-5897-aec4-8a42597b76e6",
@@ -966,29 +1116,35 @@
         {
           "key": "A",
           "text": "be careful in choosing a college",
-          "value": "A"
+          "value": "A",
+          "content": "be careful in choosing a college"
         },
         {
           "key": "B",
           "text": "be diligent at each educational stage",
-          "value": "B"
+          "value": "B",
+          "content": "be diligent at each educational stage"
         },
         {
           "key": "C",
           "text": "reassess the necessity of college education",
-          "value": "C"
+          "value": "C",
+          "content": "reassess the necessity of college education"
         },
         {
           "key": "D",
           "text": "postpone their undergraduate application",
-          "value": "D"
+          "value": "D",
+          "content": "postpone their undergraduate application"
         }
       ],
       "correct_answer": "C",
       "explanation": "26. The author suggests that Generation Z should \n・\n26.作者建议Z世代应该 \n。\n[A] be careful in choosing a college\n[A]选择大学时三思而行\n[B] be diligent at each educational stage\n[B]在每个教育阶段都勤奋学习\n[C] reassess the necessity of college education\nEc]重估大学教育的必要性\n[D] postpone their undergraduate application\n[D]推迟本科入学申请\n锁定 \n答案\nC\n1. 定位：由题干中 Generation Z should 和选项中 choosing a college、educational stage、 \nundergraduate application 等词可定位至首段。\n2. 分析：首段指出，在最新一批学生（即Z世代）填写本科入学申请表、斟酌备选学校之时， \n思考“大学学位的意义、目的和价值到底已发生何种变化”以及“即将开始大学教育的z世 \n代需要考虑什么”这两个问题或许是值得的，言外之意即大学学位的作用和价值已经发生 \n变化，可能不再如先前那么重要，Z世代需要重估大学教育的必要性。\n3. 确定：题干+ C项是对首段言外之意的合理推断；题干中The author suggests that \nGeneration Z should 对应 it may be worth considering；选项中 reassess the necessity of \ncollege education 是对 considering just how...has changed 的合理演绎。\n排除 \n干扰\nA\n1. 定位：由选项关键词 careful in choosing a college 定位至首段（weigh up their options） o\n2. 排除：该项张冠李戴，将作者对Z世代当前所做之事的描述“斟酌备选院校”当作作",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 26,
+      "score": 2.0
     },
     {
       "id": "195ef9a1-f650-5b01-904c-c9f13d443c6c",
@@ -1001,29 +1157,35 @@
         {
           "key": "A",
           "text": "Millennial's opinion about work",
-          "value": "A"
+          "value": "A",
+          "content": "Millennial's opinion about work"
         },
         {
           "key": "B",
           "text": "the shrinking value of a degree",
-          "value": "B"
+          "value": "B",
+          "content": "the shrinking value of a degree"
         },
         {
           "key": "C",
           "text": "public discontent with education",
-          "value": "C"
+          "value": "C",
+          "content": "public discontent with education"
         },
         {
           "key": "D",
           "text": "the desired route of social mobility",
-          "value": "D"
+          "value": "D",
+          "content": "the desired route of social mobility"
         }
       ],
       "correct_answer": "B",
       "explanation": "【锁定答案】B\n1. 定位：根据题干中 The percentage...roles 可定位至第二段⑤句(28 per cent...roles...)。\n2. 分析：第二段⑤句指出，超过四分之一的英国大学毕业生从事着无需本科学历的工作。再看前文内容：随着大学学位的普及，其价值不免降低；教育不再是实现社会阶层流动的可靠途径。联系可知，⑤句所援引的数据是在说明大学学位不再被就业市场看重，意即学位价值降低。\n3. 确定：B项 the shrinking value of a degree 是对⑤句信息的准确概括，且复现③句 degrees...became devalued。\n\n【排除干扰】\n[A] 1. 定位：根据选项内容可定位至第二段①②句(Millennials were told...But...)。\n2. 排除：选项将题干直接定位句(第二段⑤句)结合该段第①②句进行过度引申：“大学学位不再是体面生活的保证”使得千禧一代“改变了对工作的看法，开始对所有工作一视同仁”，故大学毕业生从事无需本科学历的工作比例增加，但文中并未提及千禧一代的工作观。\n[C] 1. 定位：根据选项内容可定位至第二段③④句(degrees...devalued...Education was no longer...)。\n2. 排除：选项将题干定位句第二段⑤句结合③④句进行过度引申：“大学学位的价值降低，大学教育不再能实现社会阶层跃升，公众对此颇为不满，故大学毕业生从事非毕业生工作的比例增加”。文中并未提及公众对教育的不满。\n[D] 1. 定位：根据选项内容可定位至第二段④句(Education...mobility)。\n2. 排除：题干+ D项将第④⑤句理解为取舍关系“教育不再是实现社会流动性的可靠途径，从事无需本科学历的工作才是”，而实际上两者是观点一例证关系“教育不再能保证社会流动：很大一批大学毕业生从事着无需本科学历的工作”。\n\n【技巧总结】本题属于写作目的题。解答此类题时需注意，援引某个数据、事例目的都是为了服务于段落/文章主旨，因此，检验选项正确与否需看其是否符合段落/文章主旨。此外，由于主旨必不能脱离文本，故检验选项时亦可依据其是否确为文中所提及的信息。\n如本题，读题可发现解答本题的关键在于分清“导致英国大量大学毕业生从事无需本科学历的工作的原因”，且正确项必须符合两个要求：1. 确为文中所提及的信息；2. 和题干信息(对应第二段⑤句)存在因果关系。B项是文中所提及的信息(they/degrees became devalued)，且能和题干信息形成合理的因果关系(学位贬值 -> 大量大学毕业生从事无需本科学历的工作)，故正确；而千禧一代的工作观(Millennial's opinion)、公众的不满(public discontent)、实现社会阶层流动的理想途径(the desired route)文中均未提及，故A、C、D三项皆可排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 27,
+      "score": 2.0
     },
     {
       "id": "c71f5899-bb0b-54f2-a17d-a88600a0bc06",
@@ -1036,29 +1198,35 @@
         {
           "key": "A",
           "text": "Generation Z are seeking to earn a decent degree",
-          "value": "A"
+          "value": "A",
+          "content": "Generation Z are seeking to earn a decent degree"
         },
         {
           "key": "B",
           "text": "school leavers are willing to be skilled workers",
-          "value": "B"
+          "value": "B",
+          "content": "school leavers are willing to be skilled workers"
         },
         {
           "key": "C",
           "text": "employers are taking a realistic attitude to degree",
-          "value": "C"
+          "value": "C",
+          "content": "employers are taking a realistic attitude to degree"
         },
         {
           "key": "D",
           "text": "parents are changing their minds about education",
-          "value": "D"
+          "value": "D",
+          "content": "parents are changing their minds about education"
         }
       ],
       "correct_answer": "C",
       "explanation": "锁定 答案 C\n1. 定位：根据题干关键词a good sign可定位至第四段首句(there are signs...)。\n2. 分析：第四段首先指出，有迹象表明“大学不是Z世代的唯一出路”这一情形已经出现，随后明确有哪些迹象：1. Z世代已经谋求向千禧前辈学习从事无需本科学历的工作；2.雇主早已认识到相较大学毕业生来说雇用中学毕业生的好处；3.许多雇主还认识到取消某些职位的大学学历要求的诸多好处；其中2、3点表明中学毕业生在一定程度上受到了雇主的青睐，即雇主不再将有无大学学位视为判断员工是否适合雇用的标准。\n3. 确定：题干+ C项是对2、3点(文中第四段第②③句)的准确概括:taking a realistic attitude to degree对应have long seen the advantages...和seeing the advantages...的深层内涵。\n排除干扰：\nA. 1. 定位：根据题干Generation Z可定位至第四段首句(Generation Z...)。2. 排除：该项张冠李戴：将“尽管父母和老师还固守着学位论，Z世代却已在谋求向千禧前辈学习”改为“Z世代在谋求获得像样的学位”。\nB. 1. 定位：根据题干school leavers可定位至第四段②句(...school leavers...)。2. 排除：该项利用该句“中学毕业生工作认真敬业”这一碎片信息捏造而来。文章并未提到中学毕业生是否愿意成为技术工人。\nD. 1. 定位：根据题干parents可定位至第四段首句(parents...)。2. 排除：该项与首句意思相悖：该句指出父母和老师往往仍固守学位论，而非正在改变对教育的看法。\n技巧总结：\n对于某些正面解答较为困难的题目，如果各选项的结构极为相似，可从选项入手，采用“关键词定位一关键信息比对”的方式判断正误。如本题，各项均为X are doing/willing to do Y的结构，比对可知C项概括雇主做法，确定为正确项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28,
+      "score": 2.0
     },
     {
       "id": "40b15423-2ecc-5ead-9783-bf8cc7eb61ef",
@@ -1071,29 +1239,35 @@
         {
           "key": "A",
           "text": "make an early decision on their career",
-          "value": "A"
+          "value": "A",
+          "content": "make an early decision on their career"
         },
         {
           "key": "B",
           "text": "attend on-the-job training programs",
-          "value": "B"
+          "value": "B",
+          "content": "attend on-the-job training programs"
         },
         {
           "key": "C",
           "text": "team up with high-paid postgraduates",
-          "value": "C"
+          "value": "C",
+          "content": "team up with high-paid postgraduates"
         },
         {
           "key": "D",
           "text": "further their studies in a specific field",
-          "value": "D"
+          "value": "D",
+          "content": "further their studies in a specific field"
         }
       ],
       "correct_answer": "D",
       "explanation": "锁定 答案 D\n1. 定位：根据题干关键词Paragraph 5,those with one degree可定位至第五段(For those for whom a degree is the desired route...)。\n2. 分析：第五段首句先提出建议：认为获取大学学位是理想路线的人应把大学学位当作是许多学位中的第一个。随后进一步阐释：在目前这个通才时代，掌握专门的知识或技能大有裨益；研究生薪资比本科生高40%；当越来越多的人拥有一个学位时，拥有两个便是明智之举。可见，作者认为那些拥有了一个学位(本科学位)的人应继续深造。\n3. 确定：题干+ D项是对第五段作者建议的准确概括；其中further their studies in a specific field综合自②句have specific knowledge or skills，③句Postgraduates，④句have two。\n排除干扰：\nA. 1. 定位：根据题干early decision on...career可定位至首句(this...the first of many)。2. 排除：该项过度引申。首句意在提出“渴望获取大学学位的人拿到本科学位之后应该继续深造”，并未指出“因此应当提前做好职业规划”。\nB. 1. 定位：根据题干training programs可定位至②句(have specific knowledge or skills)。2. 排除：断章取义。“拥有专门的知识和技能”此处是指研究生阶段教育，而非“在职能力培训”。\nC. 1. 定位：根据题干关键词high-paid postgraduates、team up可定位至③④句。2. 排除：曲解两句关系。two指的是“一个人拥有两个学位”，并非“本科生与研究生合作”。\n技巧总结：\n考查“作者建议”的题目有时难在识别隐藏于定位句中的建议性表达。本题固定句式(it pays to do sth, it makes sense to do sth)和祈使语气(consider...)均在提出建议，综合得出“继续深造，获取更多学位”，从而确定D项正确。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 29,
+      "score": 2.0
     },
     {
       "id": "d21ab2f1-d3ff-5d90-a832-848c167e30b8",
@@ -1106,29 +1280,35 @@
         {
           "key": "A",
           "text": "Lifelong learning will define them.",
-          "value": "A"
+          "value": "A",
+          "content": "Lifelong learning will define them."
         },
         {
           "key": "B",
           "text": "They will make qualified educators.",
-          "value": "B"
+          "value": "B",
+          "content": "They will make qualified educators."
         },
         {
           "key": "C",
           "text": "Degrees will no longer appeal them.",
-          "value": "C"
+          "value": "C",
+          "content": "Degrees will no longer appeal them."
         },
         {
           "key": "D",
           "text": "They will have a limited choice of jobs.",
-          "value": "D"
+          "value": "D",
+          "content": "They will have a limited choice of jobs."
         }
       ],
       "correct_answer": "A",
       "explanation": "锁定 答案 A\n1. 定位：根据题干the last two paragraphs可定位至第六、七段。\n2. 分析：第六段指出，Z世代在其职业生涯中会从事5种职业、为17个雇主工作，他们需要不断提升职业技能才能保持就业能力。所以教育（不仅仅是学校里学的知识）将是Z世代职业轨迹的核心部分。第七段指出，对于一生所从事的职业和大学所学专业高度相关的老一辈人来说，大学学位是定义其身份的关键因素，然而对于Z世代却并非如此（言外之意：终身学习才能定义Z世代）。\n3. 确定：A项是对第六、七段信息的高度概括，其中Lifelong learning总结自第六段constantly up-skilling throughout their career... Education, and not just knowledge gained on campus；define采用第七段define一词。\n排除干扰：\nB. 1. 定位：根据选项关键词make qualified educators可定位至第六段首句。2. 排除：断章取义，目的是保持就业能力，而非成为合格的教育者。\nC. 1. 定位：根据选项可定位至第六段末句。2. 排除：误读，强调终身学习的重要性，并非表示学位对Z世代失去了吸引力。\nD. 1. 定位：根据选项limited choice of jobs可定位至第六段②句。2. 排除：与该句“Z世代的职业选择非常丰富”相悖。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 30,
+      "score": 2.0
     },
     {
       "id": "3097b94f-1fa1-5cc5-b03c-7620e27462d8",
@@ -1141,29 +1321,35 @@
         {
           "key": "A",
           "text": "caught the attention of critics",
-          "value": "A"
+          "value": "A",
+          "content": "caught the attention of critics"
         },
         {
           "key": "B",
           "text": "received favorable responses",
-          "value": "B"
+          "value": "B",
+          "content": "received favorable responses"
         },
         {
           "key": "C",
           "text": "promoted academic publishing",
-          "value": "C"
+          "value": "C",
+          "content": "promoted academic publishing"
         },
         {
           "key": "D",
           "text": "sparked heated public disputes",
-          "value": "D"
+          "value": "D",
+          "content": "sparked heated public disputes"
         }
       ],
       "correct_answer": "B",
       "explanation": "31.根据第一段可知，艺术与科学的合作已 \n经 \n。\n[A] caught the attention of critics\n［A］引起了评论家的注意\n[B] received favorable responses\n［B］得到了积极的响应\n[C] promoted academic publishing\nEC］促进了学术的出版\n[D] sparked heated public disputes\n［D］引发了激烈的公共争议\n锁定\n答案\nB\n1. 定位：由题干信息 Paragraph Kart-science collaborations 可定位至首段(②句 art-science \ncollaborations、③句 collaborated) o\n2. 分析：全段介绍《自然》杂志随附调查问卷的调查结果：大约350名读者接受了调查，他们 \n用“富于启发、颇具挑战、振奋人心、饶有乐趣”来表达自己对科艺合作的感受，其中大约 \n40%的人说自己与艺术家合作过，而且几乎所有人都表示希望在未来能与艺术家合作。可 \n见，科艺合作已经得到了积极响应与一致认可，且第二段首句中的指代性表达Such an \nencouraging result也传递了对这一调查结果的定性\"令人鼓舞的(encouraging)w0\n3. 确定：B 项准确概括了 Enlightening, challenging, stimulating, fun...Nearly 40% ...had... \nand almost all...would...所展示的接受调查者对科艺合作的看法。\n排除 \n干扰\nA\n1. 定位：选项关键词critics在文中并无直接对应，可关联至首段①句的评价语Enlightening, \nchallenging, stimulating, fun 以及②句的 These were some of the words that Nature readers \nused to describe表面上所展示的\"评价\"。\n2. 排除：选项将“《自然》读者对科艺合作的评价之语”偷换为“评论家们对",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 31,
+      "score": 2.0
     },
     {
       "id": "b93be53d-4a4f-5b83-912d-0245a168a38a",
@@ -1176,29 +1362,35 @@
         {
           "key": "A",
           "text": "art can offer audiences easy access to science",
-          "value": "A"
+          "value": "A",
+          "content": "art can offer audiences easy access to science"
         },
         {
           "key": "B",
           "text": "science can help with the expression of emotions",
-          "value": "B"
+          "value": "B",
+          "content": "science can help with the expression of emotions"
         },
         {
           "key": "C",
           "text": "public participation in science has a promising future",
-          "value": "C"
+          "value": "C",
+          "content": "public participation in science has a promising future"
         },
         {
           "key": "D",
           "text": "art is effective in facilitating scientific innovations",
-          "value": "D"
+          "value": "D",
+          "content": "art is effective in facilitating scientific innovations"
         }
       ],
       "correct_answer": "A",
       "explanation": "【锁定答案】A\n1. 定位：根据题干 The reworked version of The Four Seasons 定位至第三段①句。\n2. 分析：第三段以“例如”开头，说明本段内容是对第二段内容的例证。第二段主要阐述了科学家日益寻求与艺术家合作，艺术家能够帮助科学家以新的方式传播他们的科研成果。第三段详细列举了《四季》的改编版本如何通过艺术形式向公众传达气候变化的科学数据。因此，提到《四季》的改编版本是为了说明艺术能够帮助公众理解科学。\n3. 确定：A项 art can offer audiences easy access to science（艺术能让受众更好地理解科学）契合第二段主旨与第三段的例证目的。\n\n【排除干扰】\n[B] 科学有助于人们表达情感：第三段强调的是通过音乐表达科学数据，而非用科学表达情感，主客体倒置。\n[C] 公众参与科学有很好的前景：文中并未提及公众直接参与科研，而是公众作为受众接触科学。\n[D] 艺术有助于促进科学创新：第三段强调的是艺术在传播科学（research communication）方面的作用，而非促进科学本身的创新（innovations）。\n\n【技巧总结】本题为写作目的题（例证题）。解答例证题的关键在于寻找事例所服务的论点。论点通常出现在事例之前（即第二段末或第二段主旨句）。由第二段 Scientists are increasingly seeking out visual artists... Artists help scientists... 这一语义链条可知其重在说明“艺术家对于科学家传播科学的作用”，从而锁定A项。D项利用考生做题时间紧而来不及细看或不把选项读到底的倾向设置干扰，对此应保持警惕。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 32,
+      "score": 2.0
     },
     {
       "id": "14aef499-ac6e-5a8a-b604-240d34248269",
@@ -1211,29 +1403,35 @@
         {
           "key": "A",
           "text": "their role may be underestimated",
-          "value": "A"
+          "value": "A",
+          "content": "their role may be underestimated"
         },
         {
           "key": "B",
           "text": "their reputation may be impaired",
-          "value": "B"
+          "value": "B",
+          "content": "their reputation may be impaired"
         },
         {
           "key": "C",
           "text": "their creativity may be inhibited",
-          "value": "C"
+          "value": "C",
+          "content": "their creativity may be inhibited"
         },
         {
           "key": "D",
           "text": "their work may be misguided",
-          "value": "D"
+          "value": "D",
+          "content": "their work may be misguided"
         }
       ],
       "correct_answer": "A",
       "explanation": "33.在艺术与科学的合作关系中，一些艺术家 \n似乎担心 \n。\n[A] their role may be underestimated\n［A］他们的作用可能被低估了\n[B] their reputation may be impaired\n［B］他们的声誉可能会受到损害\n[C] their creativity may be inhibited\n［C］他们的创造力可能会被抑制\n[D] their work may be misguided\nLD］他们的工作可能会被误导\n\n锁定 \n答案\nA\n1. 定位：由题干关键词Some artists、worry、art-science partnership并结合试题命制顺序可 \n定位至第四段（But a genuine partnership...Fewer artists...noted...） o\n2. 分析:第四段①句转承（But表语义转折）上段指出真正的合作必须是相互成就的（暗示当 \n前的科艺合作存在问题），②③句引出艺术家的担忧（间接说明问题）：艺术不应该只被视为 \n科学的传播工具或研究对象（意即艺术还具有更多作用）。由此可见，在科艺合作的关系 \n中，艺术家们认为他们的作用被低估了。\n3. 确定:A项是对②③句的概括与改写,their role may be underestimated对应原文do not \nsimply assist...Nor should their work be considered only as...o\n排除 \n干扰\nB\n1. 定位:选项关键词reputation may be impaired在文中并无直接定位，仅可粗略关联至第 \n四段②句artists do not simply...看似体现的\"艺术家不作为\"。\n2. 排除：选项将②句 artists do not simply assist scientists...requirements 的评价主体由\"艺术 \n家（several respondents所指）\"偷换为\"科学家\"，并由此将该句曲解为科学界对艺术家的负 \n面评",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 33,
+      "score": 2.0
     },
     {
       "id": "00a6f4d0-67f8-57b8-913c-3f9cfa4390bf",
@@ -1246,29 +1444,35 @@
         {
           "key": "A",
           "text": "It was headed alternately by artists and scientists.",
-          "value": "A"
+          "value": "A",
+          "content": "It was headed alternately by artists and scientists."
         },
         {
           "key": "B",
           "text": "It exemplified valuable art-science alliances.",
-          "value": "B"
+          "value": "B",
+          "content": "It exemplified valuable art-science alliances."
         },
         {
           "key": "C",
           "text": "Its projects aimed at advancing visual studies.",
-          "value": "C"
+          "value": "C",
+          "content": "Its projects aimed at advancing visual studies."
         },
         {
           "key": "D",
           "text": "Its founders sought to raise the status of artists.",
-          "value": "D"
+          "value": "D",
+          "content": "Its founders sought to raise the status of artists."
         }
       ],
       "correct_answer": "B",
       "explanation": "34. What does the author say about CAVS?\n34.关于高级视觉研究中心，作者说了什么？\n[A] It was headed alternately by artists and scientists.\n[A]它由艺术家和科学家交替负责。\n[B] It exemplified valuable art-science alliances.\n[B]它体现了有价值的艺术和科学联盟。\n[C] Its projects aimed at advancing visual studies.\n[C]它的项目旨在推动视觉研究的发展。\n[D] Its founders sought to raise the status of artists.\n[D]它的创始人试图提高艺术家的地位。\n\n【答案锁定】B\n1. 定位：由题干信息CAVS可定位至第五段(CAVS)。\n2. 分析：第五段①句点明麻省理工学院设立高级视觉研究中心(CAVS)的初衷“探索科技在人文艺术中的作用”，②③句揭示该中心促成科艺合作的关键因素“以双方的兴趣/利益共同点为基础”，④句补充指出该中心一直坚持与时俱进，谋求科学与艺术的深度融合。结合第四段末两句“最有价值的科艺合作是双方都有共同的利益关系，能够共同参与项目设计并评判彼此成果”可判断,作者高度认可CAVS的做法，认为它是有价值的科艺联盟之典范。\n3. 确定：选项 It exemplified valuable art-science alliances 既体现了作者对 CAVS 的高度认可，又明确了第五段与第四段末两句之间的“观点/论点一例子/论据”关联，[B]正确。\n\n【排除干扰】\n[A] 定位至第五段④句，选项将该句所述“一流的科学家和艺术家突破各自专业边界，成为复合型人才”曲解为“艺术家和科学家轮流接管项目”。\n[C] 定位至第五段②句，选项将该句所述“项目组有意将光作为研究重点”断章取义为“旨在推动视觉研究的发展”，而下文明确其意在促成科艺合作。\n[D] 定位至第五段②③句，选项利用段中个别词汇捏造出“创始人试图提高艺术家的地位”，文中并未提及相关信息。\n\n【技巧总结】本题针对事例细节设题，解题关键在于抓住段中的关键信息，结合上下文明确事例的论点，能与之对应的选项即为正确项。综上可知，该段重在展现CAVS是如何促成科学与艺术达成合作共赢的，为“有价值的科艺联盟”的正面例证，B项与之对应。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 34,
+      "score": 2.0
     },
     {
       "id": "e1004ba0-e2aa-5dfd-b93b-29a461a61f45",
@@ -1281,29 +1485,35 @@
         {
           "key": "A",
           "text": "are likely to go beyond public expectations",
-          "value": "A"
+          "value": "A",
+          "content": "are likely to go beyond public expectations"
         },
         {
           "key": "B",
           "text": "will intensify interdisciplinary competition",
-          "value": "B"
+          "value": "B",
+          "content": "will intensify interdisciplinary competition"
         },
         {
           "key": "C",
           "text": "should do more than communicating science",
-          "value": "C"
+          "value": "C",
+          "content": "should do more than communicating science"
         },
         {
           "key": "D",
           "text": "are becoming more popular than before",
-          "value": "D"
+          "value": "D",
+          "content": "are becoming more popular than before"
         }
       ],
       "correct_answer": "C",
       "explanation": "续表\n本题虽为事实细节题，但提问对象art- science collaborations为贯穿定位段的核心概念,故可借 \n主旨题解题技巧推测答案，关键在于厘清“句间逻辑”:既要仔细单独分析各句（如每句的关注点在 \n哪儿？结论是什么？），更需提炼概括各句的“共同指向”（这些具体信息共同要说明什么观点/现 \n象？），最后找寻与之相匹配的选项。①②句借助These were some of the words的回指功能实现衔 \n接，两句语义重心在“《自然》读者（受调查者）对科艺合作赞誉有加”,③句句内则借Nearly 40% of \nthe roughly 350 people...said...； and almost all said...构成内部衔接，突出强调\"受调查者对科艺合作 \n的积极开放态度”，可见三句共同指向“受调查者对科艺合作的认可和支持”，由此锁定B。\n如此鼓舞人心的（调查）结果并不出 \n奇。科学家们正在日益寻求视觉艺术家来 \n帮助他们将工作成果传递给新的受众。一 \n位受访者表示，“艺术家帮助科学家获得更 \n广泛的受众，并建立起（能够）增进学习的 \n情感关联。\"\n举个艺术家和科学家如何联袂打造震 \n撼场面的例子：上个月，悉尼交响乐团改编 \n并演奏了安东尼奥•维瓦尔第的《四季九 \n他们通过引入蒙纳士大学气候变化交流研 \n究中心提供的每个季节的最新气候预测数 \n据，重构了这首有300年历史的乐曲。该 \n表演先于十一月将在英国格拉斯哥召开的 \n联合国气候变化大会，是一次富有创意的 \n行动呼吁。\nII O Such an encouraging result is not surprising. \n©Scientists are increasingly seeking out visual artists to help \nthem communicate their work to new audiences.❸\"Artists \nhelp scientists reach a broader audience and make emotional",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 35,
+      "score": 2.0
     },
     {
       "id": "a9515f1f-41fb-5c9e-932f-8b227d12f677",
@@ -1316,29 +1526,35 @@
         {
           "key": "A",
           "text": "punish dubious corporate practices",
-          "value": "A"
+          "value": "A",
+          "content": "punish dubious corporate practices"
         },
         {
           "key": "B",
           "text": "improve traditional hiring procedures",
-          "value": "B"
+          "value": "B",
+          "content": "improve traditional hiring procedures"
         },
         {
           "key": "C",
           "text": "exempt employers from certain duties",
-          "value": "C"
+          "value": "C",
+          "content": "exempt employers from certain duties"
         },
         {
           "key": "D",
           "text": "protect the rights of ordinary workers",
-          "value": "D"
+          "value": "D",
+          "content": "protect the rights of ordinary workers"
         }
       ],
       "correct_answer": "D",
       "explanation": "【锁定答案】D\n1. 定位：结合题干关键词personal grievance provisions与are intended to可定位至第二段①句(Personal grievance procedures were designed to...)。\n2. 分析：第二段①句指出，ERA的个人申诉程序旨在保护普通员工的工作岗位，避免员工被“不正当解雇”，意即：保障普通员工“免遭不正当解雇”的权利。\n3. 确定：题干+ D项契合第二段①句文意：are intended to protect the rights of ordinary workers同义改写were designed to guard the jobs of ordinary workers from \"unjustified dismissals\"。\n\n【排除干扰】\n[A] 1. 定位：由选项关键词corporate practices可定位至第二段②句(conduct by management)。\n2. 排除：A项错将条款的惩罚对象由“随意的解雇行为”扩大为“一切可疑的企业行为”；此外，惩罚只是个人申诉条款达到“保护普通员工的工作岗位”这一目的的途径，而非目的本身。\n[B] 1. 定位：由选项关键词procedures可定位至第一段③句(procedurally)以及第二段①句(procedures)。\n2. 排除：第一段③句的procedurally与第二段①句的procedures分别指“解雇流程”“个人申诉的流程”，B项论及的“招聘流程”这一细节与原文不符；其主体内容“完善流程”也并非条款目的所在，与题干所问不符。\n[C] 1. 定位：由选项关键词employers可定位至第一段(an employer/Employers)。\n2. 排除：C项“免除雇主的特定责任”与第一段中条款的具体规定“雇主必须给出解雇理由，并通过公正的程序解雇员工”的言外之意“雇主必须承担更多的责任”相悖。\n\n【技巧总结】目的细节题的基本解题思路为：根据表达目的的标记词(aim at、intend to、with the purpose of、so as to、in order to等)锁定目的相关内容，然后选取对其进行改写或概括的选项。第二段①句以were designed to引出“ERA的个人申诉条款”的目的：guard the jobs of ordinary workers from \"unjustified dismissals\"。由此可知，个人申诉条款的目的在于“保护”，保护群体为“普通员工”，保护内容为“避免被不正当解雇的权益”，D项同时包含三个方面的内容，故锁定为正确项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 36,
+      "score": 2.0
     },
     {
       "id": "638e6a90-25dc-5d65-97cc-01b35acd7a57",
@@ -1351,29 +1567,35 @@
         {
           "key": "A",
           "text": "hinder business development",
-          "value": "A"
+          "value": "A",
+          "content": "hinder business development"
         },
         {
           "key": "B",
           "text": "undermine managers' authority",
-          "value": "B"
+          "value": "B",
+          "content": "undermine managers' authority"
         },
         {
           "key": "C",
           "text": "affect the public image of the firms",
-          "value": "C"
+          "value": "C",
+          "content": "affect the public image of the firms"
         },
         {
           "key": "D",
           "text": "worsen labor-management relations",
-          "value": "D"
+          "value": "D",
+          "content": "worsen labor-management relations"
         }
       ],
       "correct_answer": "A",
       "explanation": "【锁定答案】A\n1. 定位：由题干关键词Paragraph 3, the provisions可定位至第三段（these provisions）。\n2. 分析：第三段①句概述指出“个人申诉条款（these provisions所指）如应用于企业管理人员，会给企业带来不少难题”。②句明确个人申诉条款给企业带来的具体难题：限制企业解雇表现不佳的管理人员，阻碍企业生产效率以及整体业绩的提高，即阻碍企业发展。\n3. 确定：A项 hinder business development 高度概括了②句中 a handbrake on boosting productivity and overall performance，契合①句中 create difficulties for businesses。\n\n【排除干扰】\n[B] 1. 定位：由选项关键词managers' authority可关联至第三段③句中对经理等级的表述（C-grade and A-grade managers）。\n2. 排除：B项错误有二：1. ③句中A级与C级界定的是工作能力高低而非其职权大小；2. 根据⑤句“无法仅凭工作能力不足就解雇员工”，可知条款“巩固”而非“动摇”了经理的职权。\n[C] 1. 定位：选项 affect the public image of the firms 对第三段②句 handbrake on... overall performance断章取义。\n2. 排除：C项将②句中个人申诉条款的影响对象overall performance由“企业的整体业绩”曲解为“企业的公众形象”，文中并无信息支持。\n[D] 1. 定位：选项关键词 labor-management relations 对第三段③④句 The difference between... managers... workers 断章取义。\n2. 排除：D项将③④句中论述的“管理人员能力差”与“员工下岗”之间经济上的消极因果关联窜改为“企业与劳动者之间的不和谐雇佣关系”，故错误。\n\n【技巧总结】联系选项谓语hinder、undermine、affect、worsen与题干关键词the provisions可知，本题询问“条款的影响（重点关注消极影响）”，实际为因果细节题。因果题解题时应紧抓文章的显性（如because、for、due to等）和隐性因果标志词（如contribute to、harm、affect等），具体到本题：1. 在题干限定的范围“第三段”找到因果标志词：create difficulties for、constraining... from、is a handbrake on... The difference between... and... may very well be the difference between... or... Between... or...；2. 提取因果关系链：①条款使企业发展困难；②条款限制企业解雇表现不佳的高薪经理 -> 阻碍企业生产效率及整体业绩的提高；③经理水平高低 -> 决定企业成败 -> 决定低能的普通员工是否能保住工作。3. 对比选项：A项契合前两个因果关系，B项与第二个因果关系不符，C项与以上三个因果关系均无直接关联，D项窜改第三个因果关系。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 37,
+      "score": 2.0
     },
     {
       "id": "c41ec98b-13be-5208-b0a6-b9e78fceac67",
@@ -1386,29 +1608,35 @@
         {
           "key": "A",
           "text": "Imposing reasonable wage restraints.",
-          "value": "A"
+          "value": "A",
+          "content": "Imposing reasonable wage restraints."
         },
         {
           "key": "B",
           "text": "Enforcing employment protection laws.",
-          "value": "B"
+          "value": "B",
+          "content": "Enforcing employment protection laws."
         },
         {
           "key": "C",
           "text": "Limiting the powers of business owners",
-          "value": "C"
+          "value": "C",
+          "content": "Limiting the powers of business owners"
         },
         {
           "key": "D",
           "text": "Dismissing poorly performing managers.",
-          "value": "D"
+          "value": "D",
+          "content": "Dismissing poorly performing managers."
         }
       ],
       "correct_answer": "D",
       "explanation": "【锁定答案】D\n1. 定位：由题干关键词Productivity Commission可定位至第五段②句(Productivity Commission)。\n2. 分析：第五段①句提出论点：限制企业主解雇表现不佳的经理可能限制企业生产效率和员工薪资。②句引用新西兰生产力委员会的结论具体说明：管理能力低下是该国生产率增长数据不佳的原因之一。联系委员会的职责“促进本国生产率增长”可反推其可能支持企业解雇表现不佳的经理，以提高整体管理能力。\n3. 确定：D项 Dismissing poorly performing managers 由第五段①句 constrain... from dismissing under-performing managers、②句 the low quality of managerial capabilities 反推而来。\n\n【排除干扰】\n[A] 1. 定位：由选项关键词wage restraints可定位至第五段①句(constraint on... wages)。\n2. 排除：由第五段①句 constraint on firm productivity and therefore on workers' wages可知“员工薪资受限”是“企业生产效率受限”产生的结果，而非“提高生产效率的手段”，故A项错误。\n[B] 1. 定位：由选项关键词employment protection laws可定位至第五段①句(employment protection laws)。\n2. 排除：第五段①句指出“就业保护法限制了企业的生产效率”，故B项“强制实施就业保护法”这一措施会进一步加剧该国生产率增长的不良状况，不符合生产力委员会的职责。\n[C] 1. 定位：由选项关键词business owners可定位至第五段①句(business owners)。\n2. 排除：结合第五段①句与第三段②句可知为了促进本国生产率增长，生产力委员会需“保障”而非“限制”企业主的合理解雇权，排除C项。\n\n【技巧总结】本题由题干关键词the Productivity Commission定位至第五段②句，但句中仅言及生产力委员会的研究发现，并未直接谈及委员会的对策，解题时需对第五段②句进行分析推理。推理题应避免拘泥于细枝末节，而需抓取大方向，如关注点、基本关系以及褒贬倾向。具体来看，第五段②句中in \"An International...\" (2014)部分点明信息来源，为细节信息，可略过不看；主干的谓语部分 singled out A as a cause of B提示基本关系“管理能力低下导致新西兰生产率增长数据不佳”，联系主语“生产力委员会”这一名称可知：委员会关注点在于“提高生产力”及其影响因素“管理能力强弱”。对比选项后发现：A项措施为企业管理的内容之一，对管理能力强弱无影响；B、C两项措施均有损企业的“管理能力”；D项措施有利于增强企业“管理能力”，故锁定为正确项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 38,
+      "score": 2.0
     },
     {
       "id": "1dd07672-d300-5e91-bbc1-c1f22ecb470a",
@@ -1421,29 +1649,35 @@
         {
           "key": "A",
           "text": "Highly paid managers lose their jobs.",
-          "value": "A"
+          "value": "A",
+          "content": "Highly paid managers lose their jobs."
         },
         {
           "key": "B",
           "text": "Employees suffer from salary cuts.",
-          "value": "B"
+          "value": "B",
+          "content": "Employees suffer from salary cuts."
         },
         {
           "key": "C",
           "text": "Society sees a rise in overall well-being",
-          "value": "C"
+          "value": "C",
+          "content": "Society sees a rise in overall well-being"
         },
         {
           "key": "D",
           "text": "Employers need to hire new staff.",
-          "value": "D"
+          "value": "D",
+          "content": "Employers need to hire new staff."
         }
       ],
       "correct_answer": "B",
       "explanation": "【锁定答案】B\n1. 定位：结合题文同序的出题规律及本题关键词effect, unjustified dismissal procedures，可定位至第六、七段(caused/because/suffers from/affect/hamper, unjustified dismissal procedures)。\n2. 分析：第六段介绍“ERA的不正当解雇程序对高薪经理自身的伤害”：使能力平平的经理们更难被雇用，并使包括经理在内的全体员工薪酬减少。第七段介绍ERA的不正当解雇程序对社会整体的伤害“阻碍社会繁荣与整体福祉”。\n3. 确定：B项Employees suffer from salary cuts同义改写第六段④句中ERA的不正当解雇程序对全体员工的伤害firms pay staff less。\n\n【排除干扰】\n[A] 1. 定位：由选项关键词Highly paid managers可定位至第六段①③句(highly paid managers, manager)。\n2. 排除：A项虽契合第六段①句的概述“使高薪经理受害”，但其强调的经理所受的具体伤害“直接下岗”与②句所述“企业更难解雇员工(costlier to fire an employee)”不符。\n[C] 1. 定位：由选项关键词overall well-being可定位至第七段②句(overall well-being)。\n2. 排除：C项将第七段②句中不正当解雇程序对整体福祉产生的影响由“阻碍”窜改为“助长”。\n[D] 1. 定位：由选项关键词hire new staff可定位至第六段②句(hiring new staff)。\n2. 排除：D项将第六段②句中ERA的不正当解雇程序对雇主招聘的影响由“招工更加谨慎(主观态度)”窜改为“招工需求扩大(客观情况)”。\n\n【技巧总结】本题就“同一事物对不同主体的影响”命制细节题，常规解题思路为“题干/选项定位法+排除法”：1. 首先根据题干已知关键信息ERA's unjustified dismissal procedures以及考研命题规律“题文同序(38题针对第五段末句设题、40题针对第八段设题)”可初步定位至第六、七段；2. 随后根据各个选项所涉及的受影响主体分别进行定位，A项对应第六段①③句，B项对应第六段④句，C项对应第七段②句，D项对应第六段②句；3. 将选项与原文相比对，详见“锁定答案”与“排除干扰”。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39,
+      "score": 2.0
     },
     {
       "id": "acfbf399-5e67-5fd2-8e96-5a1cb2025be9",
@@ -1456,29 +1690,35 @@
         {
           "key": "A",
           "text": "has secured managers' earnings",
-          "value": "A"
+          "value": "A",
+          "content": "has secured managers' earnings"
         },
         {
           "key": "B",
           "text": "has produced undesired results",
-          "value": "B"
+          "value": "B",
+          "content": "has produced undesired results"
         },
         {
           "key": "C",
           "text": "is beneficial to business owners",
-          "value": "C"
+          "value": "C",
+          "content": "is beneficial to business owners"
         },
         {
           "key": "D",
           "text": "is difficult to put into practice",
-          "value": "D"
+          "value": "D",
+          "content": "is difficult to put into practice"
         }
       ],
       "correct_answer": "C",
       "explanation": "锁定 答案 C\n1. 定位：由题干关键词\"high-income threshold\" in Australia可定位至第八段①句(Australia...high-income threshold)。\n2. 分析：第八段①句指出，澳大利亚为应对“不正当解雇悖论”，将超过特定“高收入门槛”的员工排除在“不公平解雇法”的保护范围之外。联系上文“不正当解雇法应用于高薪管理人员会阻碍企业发展”，可反推知，澳大利亚政府的“高收入门槛”有利于保障企业主的权益。\n3. 确定：C项is beneficial to business owners契合澳大利亚政府设置\"高收入门槛\"的目的(deals with the unjustified dismissal paradox)。\n排除干扰：\nA. 1. 定位：由选项关键词managers' earnings可定位至第八段①句。2. 排除：与第八段①句言外之意“高收入经理的工作与收入无法受到法律保障”相悖。\nB. 1. 定位：选项关键词undesired results由第八段中消极语义词unjustified、unfair、unwieldy捏造，排除。\nD. 1. 定位：选项论及\"低可行性\"，可关联至第八段③句中的unwieldy, was voted down，但那是新西兰的法案而非澳大利亚，张冠李戴，排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 40,
+      "score": 2.0
     },
     {
       "id": "ef5c81bb-7ed8-5f90-af8a-713429535664",
@@ -1486,49 +1726,58 @@
       "passage_id": "33cfc1f4-d12f-57b6-9b37-6c6fbd4fb9bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best paragraph [A]-[G] that fits into gap (41):",
+      "stem": "Match Teri Byrd to the corresponding argument [A]-[G]:",
       "options": [
         {
           "key": "A",
           "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
-          "value": "A"
+          "value": "A",
+          "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
           "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
-          "value": "B"
+          "value": "B",
+          "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
           "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
-          "value": "C"
+          "value": "C",
+          "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
           "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
-          "value": "D"
+          "value": "D",
+          "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
           "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
-          "value": "E"
+          "value": "E",
+          "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
           "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
-          "value": "F"
+          "value": "F",
+          "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
           "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
-          "value": "G"
+          "value": "G",
+          "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
       "correct_answer": "F",
       "explanation": "41. 答案F\n【选项推测】第一、二段为Teri Byrd的观点。（1） A项关键词unfair criticism（不公指责）近义复现 \n首段③句claim was false（说法有误）。（2）B项spend less与首段末句bottom line（盈利情况）存在关联, \n且“减少用于动物的开支”似乎是对首段④⑤句内容“在动物研究或保护方面投入不足”“自身营收高于 \n动物利益\"的归纳。（3）F项money making、animals' wellbeing分别近义复现首段末句bottom line、 \ncondition of the animalso 【备选项】ABF。\n【锁定答案】首段Byrd直接表达对动物园的不满：动物园声称以保护动物为己任，而实际上自己的 \n经济利益远比动物的生存状况重要。第二段通过介绍动物园中动物的悲惨生存状况，发出呼吁：应当让 \n动物园的经营管理透明化，应当让动物园彻底从人类文化中消失。F项核心义“动物园将营收置于动物 \n福祉之上，应被关停\"正确概括Byrd的观点，其中Zoos should have been closed down复现第二段末句 \nit's past time to eliminate zoos,句式结构 prioritize A over B 是对首段末句 A is much more important \nthan B的同义转述，且表达因果关系的as完美呈现原文“因为不满亠所以呼吁”的逻辑。\n【排除干扰】A、B项的核心态度均为“支持动物园”，与Teri Byrd的观点截然相反，故可快速排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 41,
+      "score": 2.0
     },
     {
       "id": "859ad829-6532-5c09-ac32-a30896f4f619",
@@ -1536,49 +1785,58 @@
       "passage_id": "33cfc1f4-d12f-57b6-9b37-6c6fbd4fb9bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best paragraph [A]-[G] that fits into gap (42):",
+      "stem": "Match Karen R. Sime to the corresponding argument [A]-[G]:",
       "options": [
         {
           "key": "A",
           "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
-          "value": "A"
+          "value": "A",
+          "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
           "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
-          "value": "B"
+          "value": "B",
+          "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
           "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
-          "value": "C"
+          "value": "C",
+          "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
           "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
-          "value": "D"
+          "value": "D",
+          "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
           "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
-          "value": "E"
+          "value": "E",
+          "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
           "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
-          "value": "F"
+          "value": "F",
+          "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
           "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
-          "value": "G"
+          "value": "G",
+          "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
       "correct_answer": "C",
       "explanation": "42. 答案C\n【选项推测】第三、四段为Karen R. Sime的观点。（1）C项关键信息young people,related sciences \n与第四段首句students .biological sciences为上下义关联。（2）D项trips to wilderness areas复现第四段 \n②句 travel to wilderness areas0【备选项】C Do\n【锁定答案】第三段Sime直陈观点：尽管如马里斯所言，将动物关起来供人观赏可能可悲又残忍，但 \n是（But）她低估了动物园的教育价值。第四段论证这一价值：有些大学生正是受参观动物园这一早期经 \n\n历启发，才选择学习生物科学专业，言下之意为，动物园的存在有助于促使孩子萌发从事相关专业的欲 \n望。C项核心义“动物园有助于启发年轻人从事相关科研工作”与之契合，其中逻辑词While对应原文 \nBut,合理传达Sime先让步否定、后强烈肯定动物园的态度，zoos play a significant role in starting...对应 \n第四段首句zoo visits were the crucial...experience that led...,体现动物园的关键推动作用。\n【排除干扰】D项核心义“动物园让人们无需去野外，从而有利于保护野生动物”呈现的是动物园的 \n“环保价值”，并非第三、四段所强调的“教育价值”。且D项中所呈现的因果逻辑与第三、四段所隐含的 \n因果逻辑“动物园启发孩子未来从事相关科研工作，从而有利于动物保护事业”有很大出入。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 42,
+      "score": 2.0
     },
     {
       "id": "c9f0a74e-46a5-55a7-935d-e2e1fdb3f350",
@@ -1586,49 +1844,58 @@
       "passage_id": "33cfc1f4-d12f-57b6-9b37-6c6fbd4fb9bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best paragraph [A]-[G] that fits into gap (43):",
+      "stem": "Match Greg Newberry to the corresponding argument [A]-[G]:",
       "options": [
         {
           "key": "A",
           "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
-          "value": "A"
+          "value": "A",
+          "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
           "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
-          "value": "B"
+          "value": "B",
+          "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
           "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
-          "value": "C"
+          "value": "C",
+          "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
           "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
-          "value": "D"
+          "value": "D",
+          "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
           "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
-          "value": "E"
+          "value": "E",
+          "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
           "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
-          "value": "F"
+          "value": "F",
+          "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
           "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
-          "value": "G"
+          "value": "G",
+          "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
       "correct_answer": "A",
       "explanation": "43. 答案A\n【选项推测】第五、六段为Greg Newberry的观点。（1）A项unfair criticism复现第五段首句an \ninsult and a disservice,均表达\"不公对待\"之意。（2）C 项 young peoplerelated sciences 与第五段末句 \nchildren‘research似有关联。（3）E项natural habitats于第六段首句原词复现。【备选项】A C E。\n【锁定答案】第五段Newberry对马里斯的文章进行直接驳斥：马里斯所用论据陈旧过时，她的文章 \n纯粹是在侮辱致力于动物保护事业的动物园工作人员，是在贬损动物园的崇高使命。第六段进行间接 \n驳斥：动物园为动物保护做出了杰出贡献，反衬马里斯的指责完全失实。综合可知，Newberry认为在动 \n物保护方面发挥重要作用的动物园不应受到这些不公指责，A项核心义与之匹配,unfair准确传达原文 \ninsult‘disservice、undermine the noble mission 等用词的感情色彩,spare no effort to take care of \nanimals 可以概括原文 work tirelessly ^constantly evolving to improve how they care for animals 等内容。\n【排除干扰】C、E项分别指向动物园的教育价值“启发年轻人从事相关科研工作”以及对动物的庇 \n护作用“收留无法回归野外的动物”，而Newberry谈及的动物园价值为：（1）让孩子与更广阔世界（动物 \n世界和自然世界）建立联结；（2）保护所有动物以及地球。二者并不相符，排除两项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 43,
+      "score": 2.0
     },
     {
       "id": "f94e8663-e053-5377-adc6-72337222f9a4",
@@ -1636,49 +1903,58 @@
       "passage_id": "33cfc1f4-d12f-57b6-9b37-6c6fbd4fb9bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best paragraph [A]-[G] that fits into gap (44):",
+      "stem": "Match Dean Gallea to the corresponding argument [A]-[G]:",
       "options": [
         {
           "key": "A",
           "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
-          "value": "A"
+          "value": "A",
+          "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
           "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
-          "value": "B"
+          "value": "B",
+          "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
           "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
-          "value": "C"
+          "value": "C",
+          "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
           "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
-          "value": "D"
+          "value": "D",
+          "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
           "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
-          "value": "E"
+          "value": "E",
+          "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
           "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
-          "value": "F"
+          "value": "F",
+          "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
           "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
-          "value": "G"
+          "value": "G",
+          "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
       "correct_answer": "D",
       "explanation": "44. 答案D\n【选项推测】第七、八段为Dean Gallea的观点。（1）D项关键词trips to wilderness areas复现第七 \n段末句 travel to wild areaso （2）E 项 their natural habitats 是第八段末句 their natural environments 的 \n同义表达。【备选项】D E。\n【锁定答案】第七段①②句Gallea表明看法：动物园以及被囚禁的动物是为了一个更高的目标服 \n务。第七段③句和第八段分别从反面和正面解释这一更高目标：动物园满足了人们与动物接触的需要， \n让人们不用远赴野外去观赏动物，从而有助于减少对野生动物的打扰或伤害。D项核心义“动物园让人 \n们无需去野外，从而有利于保护野生动物\"与之完全匹配，选项中save people trips、contribute to wildlife \nconservation是对第七段末句“如果没有动物园，那么会有更多的人去野外打扰或伤害野生动物”的反向 \n改写，且也可对应到第八段leaving the vast majority undisturbed（使绝大多数动物不受打扰）。\n【排除干扰】E项核心义“动物园的价值：收留无法回归野外的动物”与第七、八段所述“动物园的价 \n值:保护野外的动物”不符，故可排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 44,
+      "score": 2.0
     },
     {
       "id": "70efe185-a6ea-5e0a-9eec-72e4c109d093",
@@ -1686,49 +1962,58 @@
       "passage_id": "33cfc1f4-d12f-57b6-9b37-6c6fbd4fb9bd",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best paragraph [A]-[G] that fits into gap (45):",
+      "stem": "Match John Fraser to the corresponding argument [A]-[G]:",
       "options": [
         {
           "key": "A",
           "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
-          "value": "A"
+          "value": "A",
+          "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
           "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
-          "value": "B"
+          "value": "B",
+          "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
           "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
-          "value": "C"
+          "value": "C",
+          "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
           "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
-          "value": "D"
+          "value": "D",
+          "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
           "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
-          "value": "E"
+          "value": "E",
+          "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
           "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
-          "value": "F"
+          "value": "F",
+          "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
           "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
-          "value": "G"
+          "value": "G",
+          "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
       "correct_answer": "G",
       "explanation": "45. 答案G\n【选项推测】第九、十段为John Fraser的观点。G项定位词distorts our findings近义复现第九段首 \n句misrepresents the findings of our research,均表达\"歪曲了我们的研究发现\"之意。【备选项】G。\n【锁定答案】第九段首句Fraser指出马里斯对其研究发现进行了选择性描述与刻意歪曲。第九段 \n末句及第十段通过介绍其研究发现，力证马里斯所言有误：“我们”的研究实际证明，动物园在建立人与 \n动物、人与自然的联结方面具有重要价值。G项核心义“马里斯歪曲研究”“动物园是联结人与自然的纽 \n带\"是对Fraser观点的全面概括，选项中prove、link between man and nature分别改写末段②句 \nprovides strong support for‘connecting people with...nature o",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 45,
+      "score": 2.0
     }
   ],
   "exportedAt": "2026-10-15T11:40:13.913Z"
