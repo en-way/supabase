@@ -2,12 +2,12 @@
   "exam": {
     "id": "cc4bf627-e456-538f-87e2-4a99ebb613ed",
     "category_id": "ky2",
-    "title": "2022年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2022年全国硕士研究生招生考试英语（二）真题",
     "year": 2022,
     "exam_type": "real",
     "duration_minutes": 180,
-    "total_score": 60,
-    "pass_score": 36,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-02T14:12:25.356941+00:00",
     "approval_status": "approved",
@@ -30,7 +30,7 @@
       "category_id": "ky2",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "Harlan Coben believes that if you're a writer, you'll find the time; and that if you can't find the time, then writing isn't a priority and you're not a writer. For him writing is a [1] job—a job like any other. He has [2] it with plumbing', pointing out that a plumber doesn't wake up and say that he can't work with pipes today [3] 9 like most writers these days, you're holding down a job to pay the bills, it's not [4] to find the time to write. But it's not impossible. It requires determination and single-mindedness. [5] that most bestselling authors began writing when they were doing other things to earn a living. And today, even writers who are fairly [6] often have to do other work to [7] their writing income. IU As Harlan Coben has suggested,'s a [8] of priorities. To make writing a priority, you'll have to [9] some of your day-to-day activities and some things you really enjoy. Depending on your [10] and your lifestyle, that might mean spending less time watching television or listening to music 9 though some people can write [11] they listen to music. 0 You might have to [12] the amount of exercise or sport you do. You'll have to make social media an [13] activity rather than a daily, time-consuming [14] There'll probably have to be less socialising with your friends and less time with your family. It's a [15] learning curve and it won't always make you popular. There's just one thing you should try to keep at least some time for, [16] your writing—and that's reading Any writer needs to read as much and as widely as they can; it's the one [17] supporter\"— something you can't do without. M Time is finite. The older you get, the [18] it seems to go. We need to use it as carefully and as [19] as we can, that means prioritising our activities so that we spend most time on the things we really want to do. 0 If you're a writer, that means [20].",
+      "content": "Harlan Coben believes that if you're a writer, you'll find the time; and that if you can't find the time, then writing isn't a priority and you're not a writer. For him writing is a [1] job—a job like any other. He has [2] it with plumbing, pointing out that a plumber doesn't wake up and say that he can't work with pipes today.\n\n[3], like most writers these days, you're holding down a job to pay the bills, it's not [4] to find the time to write. But it's not impossible. It requires determination and single-mindedness. [5] that most bestselling authors began writing when they were doing other things to earn a living. And today, even writers who are fairly [6] often have to do other work to [7] their writing income.\n\nAs Harlan Coben has suggested, it's a [8] of priorities. To make writing a priority, you'll have to [9] some of your day-to-day activities and some things you really enjoy. Depending on your [10] and your lifestyle, that might mean spending less time watching television or listening to music, though some people can write [11] they listen to music. You might have to [12] the amount of exercise or sport you do. You'll have to make social media an [13] activity rather than a daily, time-consuming [14]. There'll probably have to be less socialising with your friends and less time with your family. It's a [15] learning curve and it won't always make you popular.\n\nThere's just one thing you should try to keep at least some time for, [16] your writing—and that's reading. Any writer needs to read as much and as widely as they can; it's the one [17] supporter—something you can't do without.\n\nTime is finite. The older you get, the [18] it seems to go. We need to use it as carefully and as [19] as we can, that means prioritising our activities so that we spend most time on the things we really want to do. If you're a writer, that means—[20] writing.",
       "sort_order": 1
     },
     {
@@ -39,7 +39,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "On a recent sunny day, 13,000 chickens roam over Larry Brown's 40 windswept acres in Shiner, Texas Some rest in the shade of a parked car. Others drink water with the cows. This all seems random*, but it's by design, part of what the $6.1 billion U S. egg industry bets will be its next big thing: climate-friendly eggs its next big thing: climate-friendly eggs\n\nThese eggs, which are making their debut now on shelves for as much as $ 8 a dozen, are still labeled 1 organic and animal-friendly, but they're also from birds that live on farms using regenerative agriculture—special techniques to cultivate rich soils that can trap greenhouse gases. Such eggs could be marketed\" as helping to fight climate change. \"I'm excited about our progress,M says Brown, who harvests eggs for Denver-based NestFresh Eggs and is adding more cover crops that draw worms!> and crickets for the chickens to eat. The birds' waste 11 then fertilizes ' fields. Such improvements 44 allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.\" Q) harvest 22 Larry Brown is excited about his progress in The egg industry's push is the first major test of whether animal products from regenerative farms can become the next premium offering. In barely more than a decade, organic eggs went from being dismissed as a niche product in natural foods stores to being sold at Walmart. More recently there were similar doubts about probiotics and plant-based meats? but both have exploded into major supermarket categories. If the sustainable-egg rollout\" is successful, it could open the floodgates for regenerative beef, broccoli 9 and beyond 23 The example of organic eggs is used in Paragraph \\1 O\n\nThe industry is betting that the same consumers paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs will embrace sustainability. Surveys show that younger generations are more concerned about climate change, and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment. \"Young adults really care about the planet,\" says John Brunnquell, president of Egg Innovations. \"They are absolutely altering the food chain beyond what I think even they understand what they're doing.\"",
+      "content": "On a recent sunny day, 13,000 chickens roam over Larry Brown's 40 windswept acres in Shiner, Texas. Some rest in the shade of a parked car. Others drink water with the cows. This all seems random, but it's by design, part of what the $6.1 billion U.S. egg industry bets will be its next big thing: climate-friendly eggs.\n\nThese eggs, which are making their debut now on shelves for as much as $8 a dozen, are still labeled organic and animal-friendly, but they're also from birds that live on farms using regenerative agriculture—special techniques to cultivate rich soils that can trap greenhouse gases. Such eggs could be marketed as helping to fight climate change.\n\n\"I'm excited about our progress,\" says Brown, who harvests eggs for Denver-based NestFresh Eggs and is adding more cover crops that draw worms and crickets for the chickens to eat. The birds' waste then fertilizes fields. Such improvements \"allow our hens to forage for higher-quality natural feed that will be good for the land, the hens, and the eggs that we supply to our customers.\"\n\nThe egg industry's push is the first major test of whether animal products from regenerative farms can become the next premium offering. In barely more than a decade, organic eggs went from being dismissed as a niche product in natural foods stores to being sold at Walmart. More recently there were similar doubts about probiotics and plant-based meats, but both have exploded into major supermarket categories. If the sustainable-egg rollout is successful, it could open the floodgates for regenerative beef, broccoli, and beyond.\n\nRegenerative products could be a hard sell, because the concept is tough to define quickly, says Julie Stanton, associate professor of agricultural economics at Pennsylvania State University Brandywine. Such farming also brings minimal, if any, improvement to the food products (though some producers say their eggs have more protein).\n\nThe industry is betting that the same consumers paying more for premium attributes such as free-range, non-GMO, and pasture-raised eggs will embrace sustainability. Surveys show that younger generations are more concerned about climate change, and some of the success of plant-based meat can be chalked up to shoppers wanting to signal their desire to protect the environment. Young adults \"really care about the planet,\" says John Brunnquell, president of Egg Innovations. \"They are absolutely altering the food chain beyond what I think even they understand what they're doing.\"",
       "sort_order": 2
     },
     {
@@ -48,7 +48,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "More Americans are opting to work well into retirement, a growing trend that threatens to upend the old workforce model.\n\nne in three Americans who are at least 40 have or plan to have a job in retirement to prepare for a longer life, according to a survey conducted by Harris Poll for TD Ameritrade. Even more surprising is that more than half of u unretireesw— those who plan to work in retirement or went back to work after retiring—said they would be employed in their later years even if they had enough money to settle down 9 the survey showed. money to settle down, the survey showed.\n\nunretirementtrend. @ Other reasons, according to the study 9 include personal fulfillment such as staying mentally fit, preventing boredom or avoiding depression D. About 72% of \"unretiree” respondentssaid that they would return to work once retired to keep mentally fit while 59% said it would be tied to making ends meet.\n\n\"The concept of retirement is evolvingsaid Christine Russell, senior manager of retirement at TD Ameritrade. “It's not just about finances. The value of work is also driving' folks to continue working past retirement.\"\n\n. It can be inferred from Paragraph 3 that Americans tend to think that. ne reason for the change in retirement patterns: Americans are living longer. The share of the population 65 and older was 16 % in 2018, up 3.2% from the prior year, according to the U. S. Census Bureau. That's also up 30. 2 % since 2010. Older Americans are also the fastest-growing segment of the U. S. workforce, and boomers are expected to live longer than previous generations. The percentage of retirement-age people in the labor force has doubledover the past three decades. About 20 % of people 65 and older were in the workforce in February, up from an all-time low of 10 % in January 1985, according to money manager United Income.\n\nBecause of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2, 000 adults between 40 to 79. Six in 10 \"unretirees\" are increasing their savings in anticipation of a longer life, according to the survey. Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.\n\ntt Unfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that preretirees should speak with a financial adviser to set long-term financial goals. W O “ The most challenging moments in life are getting married, starting a family and ultimately-retiring,M Weiss said. \"It's not just a financial decision, but an emotional one. Many people believe they can't retire. \"",
+      "content": "More Americans are opting to work well into retirement, a growing trend that threatens to upend the old workforce model.\n\nOne in three Americans who are at least 40 have or plan to have a job in retirement to prepare for a longer life, according to a survey conducted by Harris Poll for TD Ameritrade. Even more surprising is that more than half of \"unretirees\"—those who plan to work in retirement or went back to work after retiring—said they would be employed in their later years even if they had enough money to settle down, the survey showed.\n\nFinancial needs aren't the only culprit for the \"unretirement\" trend. Other reasons, according to the study, include personal fulfillment, such as staying mentally fit, preventing boredom or avoiding depression. About 72% of \"unretiree\" respondents said that they would return to work once retired to keep mentally fit, while 59% said it would be tied to making ends meet.\n\n\"The concept of retirement is evolving,\" said Christine Russell, senior manager of retirement at TD Ameritrade. \"It's not just about finances. The value of work is also driving folks to continue working past retirement.\"\n\nOne reason for the change in retirement patterns: Americans are living longer. The share of the population 65 and older was 16% in 2018, up 3.2% from the prior year, according to the U.S. Census Bureau. That's also up 30.2% since 2010. Older Americans are also the fastest-growing segment of the U.S. workforce, and boomers are expected to live longer than previous generations. The percentage of retirement-age people in the labor force has doubled over the past three decades. About 20% of people 65 and older were in the workforce in February, up from an all-time low of 10% in January 1985, according to money manager United Income.\n\nBecause of longer life spans, Americans are also boosting their savings to preserve their nest eggs, the TD Ameritrade study showed, which surveyed 2,000 adults between 40 to 79. Six in 10 \"unretirees\" are increasing their savings in anticipation of a longer life, according to the survey. Among the most popular ways they are doing this, the company said, is by reducing their overall expenses, securing life insurance or maximizing their contributions to retirement accounts.\n\nUnfortunately, many people who are opting to work in retirement are preparing to do so because they are worried about making ends meet in their later years, said Brent Weiss, a co-founder at Baltimore-based financial-planning firm Facet Wealth. He suggested that preretirees should speak with a financial adviser to set long-term financial goals.\n\n\"The most challenging moments in life are getting married, starting a family and ultimately retiring,\" Weiss said. \"It's not just a financial decision, but an emotional one. Many people believe they can't retire.\"",
       "sort_order": 3
     },
     {
@@ -57,7 +57,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "First coined in 2010 by user experience expert Harry Brignull, \"dark patterns\" is a catch-all term for practices that manipulate user interfaces to influence the decision-making ability of users. 0 Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to “ roach motel,\" where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out.\n\n,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood. Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.\n\n. The 2019 study on dark patterns is mentioned to show.]V O Where is the line between ethical, persuasive design and dark patterns? Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders* responsible for the company's user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions. Any or all these teams can play a role in creating or avoiding u digital deception'.\n\nLawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level. In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act (CCPA) that “ ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.\" The regulations aim to ban w confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn't opt out.\" \" seeking to exercise their data privacy rights. \" A when (they are) seeking to exercise their data privacy rights. fiw\n\nAs more states consider promulgating additional regulations, there is a need for greater accountability from within the business community. Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable, not just to legal requirements but also to industry best practices and standards.",
+      "content": "We have all encountered them, in both our personal and professional lives. Think about the times you felt tricked or frustrated by a membership or subscription that had a seamless sign-up process but was later difficult to cancel. Something that should be simple and transparent can be complicated, intentionally or unintentionally, in ways that impair consumer choice. These are examples of dark patterns.\n\nFirst coined in 2010 by user experience expert Harry Brignull, \"dark patterns\" is a catch-all term for practices that manipulate user interfaces to influence the decision-making ability of users. Brignull identifies 12 types of common dark patterns, ranging from misdirection and hidden costs to \"roach motel,\" where a user experience seems easy and intuitive at the start, but turns difficult when the user tries to get out.\n\nIn a 2019 study of 53,000 product pages and 11,000 websites, researchers found that about one in 10 employs these design practices. Though widely prevalent, the concept of dark patterns is still not well understood. Business and nonprofit leaders should be aware of dark patterns and try to avoid the gray areas they engender.\n\nWhere is the line between ethical, persuasive design and dark patterns? Businesses should engage in conversations with IT, compliance, risk, and legal teams to review their privacy policy, and include in the discussion the customer/user experience designers and coders responsible for the company's user interface, as well as the marketers and advertisers responsible for sign-ups, checkout baskets, pricing, and promotions. Any or all these teams can play a role in creating or avoiding \"digital deception.\"\n\nLawmakers and regulators are slowly starting to address the ambiguity around dark patterns, most recently at the state level. In March, the California Attorney General announced the approval of additional regulations under the California Consumer Privacy Act (CCPA) that \"ensure that consumers will not be confused or misled when seeking to exercise their data privacy rights.\" The regulations aim to ban dark patterns—this means prohibiting companies from using \"confusing language or unnecessary steps such as forcing them to click through multiple screens or listen to reasons why they shouldn't opt out.\"\n\nAs more states consider promulgating additional regulations, there is a need for greater accountability from within the business community. Dark patterns also can be addressed on a self-regulatory basis, but only if organizations hold themselves accountable, not just to legal requirements but also to industry best practices and standards.",
       "sort_order": 4
     },
     {
@@ -66,7 +66,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports. But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.\n\nThe researchers investigated one class session's impact on eating meat. They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students' attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering.\n\nHalf of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion. The other half focused on charitable giving instead. Then, unknown to the students, the researchers studied their anonymized campus dining meal purchases for almost 500 students.\n\nSchwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books. But among student subjects who discussed meat ethics, meat purchases dropped by roughly 10 percentage points and remained steady for the study's duration of several weeks. Purchases from the control group remained unchanged at 52 percent.\n\n\"That's actually a pretty large effect for a pretty small intervention,\" Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable. And if real, she notes, it might be reversible by another nudge: \"Easy come, easy go.\"\n\nSchwitzgebel suspects the greatest impact came from the teaching assistants who led the discussions, who may have shared their own vegetarianism, showing it as achievable or common. Second, the video may have had an emotional impact. Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role. Now the researchers are probing the specific effects of teaching style, teaching assistants' eating habits and students' video exposure. Meanwhile, Schwitzgebel — who had predicted no effect — will be eating his words.",
+      "content": "Although ethics classes are common around the world, scientists are unsure if their lessons can actually change behavior; evidence either way is weak, relying on contrived laboratory tests or sometimes unreliable self-reports. But a new study published in Cognition found that, in at least one real-world situation, a single ethics lesson may have had lasting effects.\n\nThe researchers investigated one class session's impact on eating meat. They chose this particular behavior for three reasons, according to study co-author Eric Schwitzgebel, a philosopher at the University of California, Riverside: students' attitudes on the topic are variable and unstable, behavior is easily measurable, and ethics literature largely agrees that eating less meat is good because it reduces environmental harm and animal suffering. Half of the students in four large philosophy classes read an article on the ethics of factory-farmed meat, optionally watched an 11-minute video on the topic and joined a 50-minute discussion. The other half focused on charitable giving instead. Then, unknown to the students, the researchers studied their anonymized meal-card purchases for that semester—nearly 14,000 receipts for almost 500 students.\n\nSchwitzgebel predicted the intervention would have no effect; he had previously found that ethics professors do not differ from other professors on a range of behaviors, including voting rates, blood donation and returning library books. But among student subjects who discussed meat ethics, meal purchases containing meat decreased, from 52 to 45 percent—and this effect held steady for the study's duration of several weeks. Purchases from the other group remained at 52 percent.\n\n\"That's actually a pretty large effect for a pretty small intervention,\" Schwitzgebel says. Psychologist Nina Strohminger at the University of Pennsylvania, who was not involved in the study, says she wants the effect to be real but cannot rule out some unknown confounding variable. And if real, she notes, it might be reversible by another nudge: \"Easy come, easy go.\"\n\nSchwitzgebel suspects the greatest impact came from social influence—classmates or teaching assistants leading the discussions may have shared their own vegetarianism, showing it as achievable or more common. Second, the video may have had an emotional impact. Least rousing, he thinks, was rational argument, although his co-authors say reason might play a bigger role. Now the researchers are probing the specific effects of teaching style, teaching assistants' eating habits and students' video exposure. Meanwhile, Schwitzgebel—who had predicted no effect—will be eating his words.",
       "sort_order": 5
     },
     {
@@ -75,7 +75,7 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions: Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45). There are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)\n\n[A] Make It a Habit.\n[B] Don't Go It Alone.\n[C] Start Low, Go Slow.\n[D] Talk With Your Doctor.\n[E] Listen to Your Body.\n[F] Go Through the Motions.\n[G] Round Out Your Routine.\n\nHow to Get Active Again\n\nGetting back into exercise can be a challenge in the best of times, but with gyms and in-person exercise classes off-limits to many people these days, it can be tricky to know where to start. And it's important to get the right dose of activity. \"Too much too soon either results in injury or burnout,\" says Mary Yoke, PhD, a faculty member in the kinesiology department at Indiana University in Bloomington. The following simple strategies will help you return to exercise safely after a break.\n\n[41] ____________________\nDon't try to go back to what you were doing before your break. If you were walking 3 miles a day, playing 18 holes of golf three times a week, or lifting 10-pound dumbbells for three sets of 10 reps, reduce activity to half a mile every other day, or nine holes of golf once a week with short walks on other days, or use 5-pound dumbbells for one set of 10 reps. Increase time, distance, and intensity gradually. \"This isn't something you can do overnight,\" says Keri L. Denay, MD, lead author of a recent American College of Sports Medicine advisory that encourages Americans to not overlook the benefits of activity during the pandemic. But you will reap benefits such as less anxiety and improved sleep right away.\n\n[42] ____________________\nIf you're breathing too hard to talk in complete sentences, back off. If you feel good, go a little longer or faster. Feeling wiped out after a session? Go easier next time. And stay alert to serious symptoms, such as chest pain or pressure, severe shortness of breath or dizziness, or faintness, and seek medical attention immediately.\n\n[43] ____________________\nConsistency is the key to getting stronger and building endurance and stamina. Ten minutes of activity per day is a good start, says Marcus Jackovitz, DPT, a physical therapist at the University of Miami Hospital. All the experts we spoke with highly recommend walking because it's the easiest, most accessible form of exercise. Although it can be a workout on its own, if your goal is to get back to Zumba classes, tennis, cycling, or any other activity, walking is also a great first step.\n\n[44] ____________________\nEven if you can't yet do a favorite activity, you can practice the moves. With or without a club or racket, swing like you're hitting the ball. Paddle like you're in a kayak or canoe. Mimic your favorite swimming strokes. The action will remind you of the joy the activity brought you and prime your muscles for when you can get back to it, Jackovitz says.\n\n[45] ____________________\nExercising with others \"can keep you accountable and make it more fun, so you're more likely to do it again,\" Jackovitz says. You can do activities such as golf and tennis or take a walk with others and still be socially distant. But when you can't connect in person, consider using technology. Chat on the phone with a friend while you walk around your neighborhood. FaceTime with a relative as you strength train or stretch at home. You can also join a livestream or on-demand exercise class.",
+      "content": "How to Get Active Again\n\n[A] Make It a Habit.\n[B] Don't Go It Alone.\n[C] Start Low, Go Slow.\n[D] Talk With Your Doctor.\n[E] Listen to Your Body.\n[F] Go Through the Motions.\n[G] Round Out Your Routine.\n\nGetting back into exercise can be a challenge in the best of times, but with gyms and in-person exercise classes off-limits to many people these days, it can be tricky to know where to start. And it's important to get the right dose of activity. \"Too much too soon either results in injury or burnout,\" says Mary Yoke, PhD, a faculty member in the kinesiology department at Indiana University in Bloomington. The following simple strategies will help you return to exercise safely after a break.\n\n[41] ____________________\nDon't try to go back to what you were doing before your break. If you were walking 3 miles a day, playing 18 holes of golf three times a week, or lifting 10-pound dumbbells for three sets of 10 reps, reduce activity to half a mile every other day, or nine holes of golf once a week with short walks on other days, or use 5-pound dumbbells for one set of 10 reps. Increase time, distance, and intensity gradually. \"This isn't something you can do overnight,\" says Keri L. Denay, MD, lead author of a recent American College of Sports Medicine advisory that encourages Americans to not overlook the benefits of activity during the pandemic. But you will reap benefits such as less anxiety and improved sleep right away.\n\n[42] ____________________\nIf you're breathing too hard to talk in complete sentences, back off. If you feel good, go a little longer or faster. Feeling wiped out after a session? Go easier next time. And stay alert to serious symptoms, such as chest pain or pressure, severe shortness of breath or dizziness, or faintness, and seek medical attention immediately.\n\n[43] ____________________\nConsistency is the key to getting stronger and building endurance and stamina. Ten minutes of activity per day is a good start, says Marcus Jackovitz, DPT, a physical therapist at the University of Miami Hospital. All the experts we spoke with highly recommend walking because it's the easiest, most accessible form of exercise. Although it can be a workout on its own, if your goal is to get back to Zumba classes, tennis, cycling, or any other activity, walking is also a great first step.\n\n[44] ____________________\nEven if you can't yet do a favorite activity, you can practice the moves. With or without a club or racket, swing like you're hitting the ball. Paddle like you're in a kayak or canoe. Mimic your favorite swimming strokes. The action will remind you of the joy the activity brought you and prime your muscles for when you can get out there again.\n\n[45] ____________________\nExercising with others \"can keep you accountable and make it more fun, so you're more likely to do it again,\" Jackovitz says. You can do activities such as golf and tennis or take a walk with others and still be socially distant. But when you can't connect in person, consider using technology. Chat on the phone with a friend while you walk around your neighborhood. FaceTime with a relative as you strength train or stretch at home. You can also join a livestream or on-demand exercise class.",
       "sort_order": 6
     }
   ],
@@ -91,29 +91,35 @@
         {
           "key": "A",
           "text": "difficult",
-          "value": "A"
+          "value": "A",
+          "content": "difficult"
         },
         {
           "key": "B",
           "text": "normal",
-          "value": "B"
+          "value": "B",
+          "content": "normal"
         },
         {
           "key": "C",
           "text": "steady",
-          "value": "C"
+          "value": "C",
+          "content": "steady"
         },
         {
           "key": "D",
           "text": "pleasant",
-          "value": "D"
+          "value": "D",
+          "content": "pleasant"
         }
       ],
       "correct_answer": "D",
       "explanation": "1. ［A］ difficult 困难的 \n［E］ normal 正常的；一般的\n［C］ steady稳定的 \n［D］ pleasant令人愉快的;让人满意的\n［考点提炼］句内语义+上下文语义。\n［解题思路］首句说明哈兰•科本的观点：作家总能找到时间来写作；找不到写作时间的人不可称 \n为作家。②句（空格句）指出，对哈兰•科本而言，写作是一份______ 工作—\n和其他任何工作一样。\n从②句句内来看，破折号后内容（a job like any other）解释说明a________ job,即空格词应说明写作的\"普\n通/平常”。再联系①句可知，空格句意在说明写作只是一项普通云匚作家也应像其他行业的工作者 \n一样花时间做好本职工作。综上，空格词应表示“平常的/普通的”，［B］normal正确。\n［错项排除］［A］、［C］、［D］均可描述写作的特点，且［A］、［D］看似符合①句暗含之意“人们往往很 \n难找到时间来写作；但写作应是作家的优先项/爱做之事”，但三项都与破折号后的解释说明内容不符。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 1,
+      "score": 0.5
     },
     {
       "id": "ab8c6d20-06e9-53ce-b1d8-b62cbb8485f3",
@@ -126,29 +132,35 @@
         {
           "key": "A",
           "text": "combined",
-          "value": "A"
+          "value": "A",
+          "content": "combined"
         },
         {
           "key": "B",
           "text": "compared",
-          "value": "B"
+          "value": "B",
+          "content": "compared"
         },
         {
           "key": "C",
           "text": "confused",
-          "value": "C"
+          "value": "C",
+          "content": "confused"
         },
         {
           "key": "D",
           "text": "confronted",
-          "value": "D"
+          "value": "D",
+          "content": "confronted"
         }
       ],
       "correct_answer": "B",
       "explanation": "2. ［A］ combined （使）结合\n［B］ compared 比较；对比\n［C］ confused 误认；混淆\n［D］ confronted 使面对；使面临\n［考点提炼］ 句内语义+上下文语义。\n［解题思路］ 空格句指出，哈兰•科本将写作（it = writing）与修管道（plumbing）________，指出管道工不会在早上醒来后说自己今天没法修理管道。联系上两句内容“如果你是一名作家，那你一定能找到时间来写作；写作和其他任何工作一样”可知，空格句是在将“写作”与最普通的工作“管道修理”相较，以此来直观说明“写作并没有什么特别之处，作家应该像管道工一样尽职尽责地完成工作”。空格词应表示“比较/对比”，compare A with B意为“将A与B比较”，［B］ compared正确。\n［错项排除］ 其他三项干扰性在于均能与with搭配，但［A］ combine A with B表示“使A和B结合”；［C］ confuse A with B表示“将A和B混淆；将A误认为B”；［D］ confront A with B表示“使A面对B（令人不快或难处的人、场合）”，均偏离文意。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 2,
+      "score": 0.5
     },
     {
       "id": "8eff9704-1239-579e-8670-0b56abaf4b16",
@@ -161,29 +173,35 @@
         {
           "key": "A",
           "text": "If",
-          "value": "A"
+          "value": "A",
+          "content": "If"
         },
         {
           "key": "B",
           "text": "Though",
-          "value": "B"
+          "value": "B",
+          "content": "Though"
         },
         {
           "key": "C",
           "text": "Once",
-          "value": "C"
+          "value": "C",
+          "content": "Once"
         },
         {
           "key": "D",
           "text": "Unless",
-          "value": "D"
+          "value": "D",
+          "content": "Unless"
         }
       ],
       "correct_answer": "A",
       "explanation": "3. [A] If如果 \n[B] Though虽然；尽管\nEC] Once —旦； ... 就.... \n[D] Unless 除非\n[考点提炼]句内语义逻辑+段际衔接。\n[解题思路]空格句从句部分指出，______ ，像现在的大多数作家一样，你干着一份糊口的工作。主\n句部分则指出，找到写作的时间不……。可见，从句是在引导读者想象自己是一位“边干其他工作养家 \n边写作的作家”，来分析“这种情况下找到写作时间的难易等”，空格词应表示“如果/假设”等以引出假 \n想情况，且这一“假定的具体情形”恰能顺接上段内容，:A] If正确。\n[错项排除][B] Though表转折，利用空格句和随后句的转折关系（But）设障，但though位于句首 \n时，体现的是\"句内转折关系\"或\"对上句的让步\"，且不与but成对出现。如Though she was tiny, she \nhad a very loud voice.（虽然 她个头 很小，嗓门却 很大。）I like him. Though he makes me angry \nsometimes.（我喜欢他，尽管他有时惹我生气。）文中并非though的正确用法。[C] Once表条件，含一定 \n的假设意味，有较强干扰。once与if的区别主要在于：if表示假设，其引出的情况可真可假（可以是真实 \n条件句，也可以是假定情形）；而once（as soon as; when\"   就；一旦；当 时候\"）则表示实现某事 \n的条件，其引出的情况一般都为真，如The water is fine once you're in!（你一旦下了水，就会觉得水里 \n挺舒适！）。文中“你是一名作家”为假设情形而非真实条件，故[C]错误。[D] Unless表示某事不成立 \n的唯一条件，如Unless it rains, the game will be played.（除非下雨，比赛将照常进行=只有下雨，比赛 \n才会取消）,Unless填入文中表示“除非像大多数作家一样干着养家糊口的工作，否则找到写作时间将 \n不是一件……的事”，若空格4表示“困难、不可能等”，则完全成立。这时需借助下句But it's not \nimpossible先判断空4应大致表示“容易、可行等”，确定unless不符合逻辑。\n2",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 3,
+      "score": 0.5
     },
     {
       "id": "d60d57ae-e56c-5165-a87f-d2c66610ed2c",
@@ -196,29 +214,35 @@
         {
           "key": "A",
           "text": "enough",
-          "value": "A"
+          "value": "A",
+          "content": "enough"
         },
         {
           "key": "B",
           "text": "strange",
-          "value": "B"
+          "value": "B",
+          "content": "strange"
         },
         {
           "key": "C",
           "text": "wrong",
-          "value": "C"
+          "value": "C",
+          "content": "wrong"
         },
         {
           "key": "D",
           "text": "easy",
-          "value": "D"
+          "value": "D",
+          "content": "easy"
         }
       ],
       "correct_answer": "D",
       "explanation": "4. [A] enough足够的；充足的 \n[E] strange奇怪的；异常的\n[C] wrong错误的；不正确的 \n[D] easy容易的；不费力的\n[考点提炼]句内语义+句间逻辑。\n[解题思路]空格句指出，如果你像大多数作家一样，干着一份养家糊口的工作，则找到写作时间不 \n______ 。随后一句则转而指出，但这不是不可能（But it's not impossible. ） 0联系两句间逻辑以及常识 \n丽忌句群意在说明作家在养家糊口的同时要找到时间写作“确有难处”，it's not _________指向“有难\n度”，空格词应表示“容易/简单”，[D] easy正确。\n[错项排除][A] enough利用“作家需要养家糊口（ to pay the bills）”得出貌似合乎逻辑的语义“作 \n家仅仅找时间写作是不够的（还要挣钱养家）”，但从句实则表示“分工并行”（一份工作来养家；同时进 \n行写作），且后句转折指出\"但这并非不可能\"，故[A]偏离文意。[E] strangewrong填入文中表示 \n“找时间写作不奇怪/没有错”，均无法与前后文形成合乎逻辑的语义关系。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4,
+      "score": 0.5
     },
     {
       "id": "a78256f8-f6fd-5953-bf74-a310aa0e88dd",
@@ -231,29 +255,35 @@
         {
           "key": "A",
           "text": "Accept",
-          "value": "A"
+          "value": "A",
+          "content": "Accept"
         },
         {
           "key": "B",
           "text": "Explain",
-          "value": "B"
+          "value": "B",
+          "content": "Explain"
         },
         {
           "key": "C",
           "text": "Remember",
-          "value": "C"
+          "value": "C",
+          "content": "Remember"
         },
         {
           "key": "D",
           "text": "Suppose",
-          "value": "D"
+          "value": "D",
+          "content": "Suppose"
         }
       ],
       "correct_answer": "C",
       "explanation": "5. [A] Accept接受；承认 \n[B] Explain解释；说明\n[C] Remember记住；牢记 \n[D] Suppose假定；假设\n[考点提炼]上下文语义。\n[解题思路]空格句指出，______ 大多数畅销书作家当初开始写作的时候都在干着其他赖以谋生的\n工作。结合前三句大意“干着养家糊口工作的作家要找到写作时间不容易，但并非不可能，只是这需要 \n决心和专注”可知，空格句是在以“畅销书作家大都经历的情形”来提醒/安慰/鼓励读者“开始写作的初 \n期都是辛苦的（要想成为成功作家，必然要经历艰辛）”,[C] Remember正确。\n[错项排除][A] Accept指向“接受/承认（某种对自己不利的情况）”，而空格后为“其他作家的成功 \n经历”，不存在接受/不接受的问题。[B] Explain指向“解释说明某事发生的理由”，而下文中并未展开 \n说明畅销书作家这样做的理由。[D] Suppose用于“假设某种情形”（其后从句常用一般现在时或现在/ \n过去进行时），而空格后从句是在以一般过去时介绍大多数畅销书作家曾有的经历。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 5,
+      "score": 0.5
     },
     {
       "id": "99675051-0d53-5bb6-abc4-7c0dfb0930fb",
@@ -266,29 +296,35 @@
         {
           "key": "A",
           "text": "well-known",
-          "value": "A"
+          "value": "A",
+          "content": "well-known"
         },
         {
           "key": "B",
           "text": "well-advised",
-          "value": "B"
+          "value": "B",
+          "content": "well-advised"
         },
         {
           "key": "C",
           "text": "well-informed",
-          "value": "C"
+          "value": "C",
+          "content": "well-informed"
         },
         {
           "key": "D",
           "text": "well-chosen",
-          "value": "D"
+          "value": "D",
+          "content": "well-chosen"
         }
       ],
       "correct_answer": "A",
       "explanation": "6. [A] well-know n出名的；知名的 \n[B] well-advised谨慎的；经过周密考虑的\n[C] well-informed消息灵通的；见多识广的 [D] well-chosen精心挑选的；合适的",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 6,
+      "score": 0.5
     },
     {
       "id": "d81737b2-3a3f-5f6c-8391-3dd1d8c1f5c1",
@@ -301,29 +337,35 @@
         {
           "key": "A",
           "text": "donate",
-          "value": "A"
+          "value": "A",
+          "content": "donate"
         },
         {
           "key": "B",
           "text": "generate",
-          "value": "B"
+          "value": "B",
+          "content": "generate"
         },
         {
           "key": "C",
           "text": "supplement",
-          "value": "C"
+          "value": "C",
+          "content": "supplement"
         },
         {
           "key": "D",
           "text": "calculate",
-          "value": "D"
+          "value": "D",
+          "content": "calculate"
         }
       ],
       "correct_answer": "C",
       "explanation": "7. [A] donate 捐赠；赠送 \n[B] generate 产生\n[C] supplement 增补；补充 \n[D] calculate 计算；核算\n[考点提炼]句内语义+句间逻辑。\n[解题思路]空格句指出，而且如今，即便是相当的作家也往往不得不干点别的活儿以二_他 \n们的写作收入，句中副词even表明情况出乎意料。再联系上句“大多数畅销书作家刚开始写作时都在干 \n着其他赖以谋生的工作”和And today体现的“顺接关系”，可知本句意在强调如今类似于以前畅销书作家 \n的情形“即便相当成功的作家也得干点别的活儿来补贴写作收入\", writers who are fairly 6和7 \ntheir writing income 分别对应上句 bestselling authors 和 doing other things to earn a livingo 可确定空格 6 应 \n表示\"成功的/知名的\"，[A] well-known正确；空格7应表示\"补贴/辅助v,[C]supplement正确。\n[错项排除]第六题中，[B] well-advised放入文中表示“即便谨慎的作家也不得不干点别的活儿”， \n语义合理，但无法与上句形成顺承关系。[C] well-informed放入文中表示“即便消息灵通的作家也不得 \n不干点别的活儿”略显不合逻辑，且也无法与上句形成顺承关系。[D] well-chosen“精心挑选出来的”含 \n有“优秀”之意，有一定干扰，但该词修饰“人”的时候，常用于“比赛、实验”等场景，不适合此处情形。\n第七题中，[A] donate填入文中表示“捐出他们的写作收入”，而上下文并未涉及该内容。[B] \ngenerate填入文中，表示\"干写作之外的活（other work）来产生写作收入（writing income）\",显然不合逻 \n辑。[D] calculate能与income搭配，但文中并未涉及“计算写作收入”，也错误。\n「•词:匚注释包难句分柠\n①determination [diit3：mi'neifn] n.决心 \n§ ②single-mindedness [isitlgl 'maindidnas]兀•专注力\n〔",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 7,
+      "score": 0.5
     },
     {
       "id": "fd9394cb-7f0b-56c3-be6e-0d8ff06cdc0e",
@@ -336,29 +378,35 @@
         {
           "key": "A",
           "text": "cause",
-          "value": "A"
+          "value": "A",
+          "content": "cause"
         },
         {
           "key": "B",
           "text": "purpose",
-          "value": "B"
+          "value": "B",
+          "content": "purpose"
         },
         {
           "key": "C",
           "text": "question",
-          "value": "C"
+          "value": "C",
+          "content": "question"
         },
         {
           "key": "D",
           "text": "condition",
-          "value": "D"
+          "value": "D",
+          "content": "condition"
         }
       ],
       "correct_answer": "C",
       "explanation": "8. [A] cause 原因；起因[B] purpose 意图；目的[C] question 问题 [D] condition 情况；条件 \n[考点提炼]上下文语义。\n[解题思路]空格句指出，正如哈兰•科本所说，这是一个优先项的______ 。“这(让)”指代n段所述\n问题“作家能否在从事其他工作的同时找到写作时间”，联系首段的科本观点“如果你找不到时间来写 \n作，那写作就不是你的优先项，你也就不是一名作家”可知，空格句是在点明u段所述问题的实质“作家 \n能否找到写作时间取决于写作是否被视为优先项”，空格词应体现“核心/关键问题”，a question of sth \n意为“……的问题”，表示问题的本质，[C] question正确。\n[错项排除]填入文中分别表示it( U段所述问题)为“优先项”的起因、目的和条件， \n但分析可知，it与“优先项”实指同一件事，两者为“表一里”关系，故三项均偏离文意。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8,
+      "score": 0.5
     },
     {
       "id": "485e6eb5-8889-5a5d-ab9c-81476b02607f",
@@ -371,29 +419,35 @@
         {
           "key": "A",
           "text": "highlight",
-          "value": "A"
+          "value": "A",
+          "content": "highlight"
         },
         {
           "key": "B",
           "text": "sacrifice",
-          "value": "B"
+          "value": "B",
+          "content": "sacrifice"
         },
         {
           "key": "C",
           "text": "continue",
-          "value": "C"
+          "value": "C",
+          "content": "continue"
         },
         {
           "key": "D",
           "text": "explore",
-          "value": "D"
+          "value": "D",
+          "content": "explore"
         }
       ],
       "correct_answer": "B",
       "explanation": "9. [A] highlight 突出；强调 \n[B] sacrifice 牺牲；舍弃\n[C] continue 继续做 \n[D] explore 探究；探索\n[考点提炼]词义分析+上下文语义。\n[解题思路]空格句指出，要想让写作成为优先项，你必须______ 一些日常活动和一些自己喜欢做\n的事。根据 priority 含义 sth that you think is more important than other things and should be dealt with \nfirst\"优先事项；最重要的事\"可知，\"日常活动(day-to-day activities) w和\"喜欢做的事(some things you \nreally enjoy)\"位于写作之后，居于次要地位，应做出让步/牺牲。根据下文spending less time、less \n4\n\nsocialising也可进一步推测，空格词应表加\"减少/牺牲/舍弃\"，[E]sacrifice正确。\n[错项排除][A] highlight 意为 to emphasize sth, especially so that people give it more attention“突 \n出；强调；给予更多关注”，与“日常活动”等的次要地位相悖。虽能与activities搭配，但无法体 \n现优先项和次要项间的取舍关系，三项均可排除。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 9,
+      "score": 0.5
     },
     {
       "id": "f93e8a8d-a351-5994-918c-4e5bd814357d",
@@ -406,29 +460,35 @@
         {
           "key": "A",
           "text": "relations",
-          "value": "A"
+          "value": "A",
+          "content": "relations"
         },
         {
           "key": "B",
           "text": "interests",
-          "value": "B"
+          "value": "B",
+          "content": "interests"
         },
         {
           "key": "C",
           "text": "memories",
-          "value": "C"
+          "value": "C",
+          "content": "memories"
         },
         {
           "key": "D",
           "text": "skills",
-          "value": "D"
+          "value": "D",
+          "content": "skills"
         }
       ],
       "correct_answer": "B",
       "explanation": "10. [A] relations 关系；亲属 \n[B] interests 兴趣爱好\n[C] memories记忆力；回忆 \n[D] skills技术；技能\n[考点提炼]句内语义+上下文语义。\n[解题思路]空格句指出，取决于你的“______ ”和“生活方式”，这可能意味着要减少花在“看电视”\n或\"听音乐\"上的时间。句内分析：your______ and your lifestyle 应能涵盖 watching television or listening\nto music 等活动 o 句间关联：空格句中 that 指代上句,watching television or listening to music 属于 day- \nto-day activities and some things you really enjoy,即 your \nand your lifestyle 应同样胄总体现 day-to-\nday activities and some things you really enjoy0 综上，your \nand your lifestyle 应表不\"兴趣爱好以\n及生活方式\",[B] interests正确。\n[错项排除][A]、[C]、[D]三项既无法涵盖“看电视”“听音乐”等活动，又无法体现上句的“日常活 \n动和喜欢之事”，可排除。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 10,
+      "score": 0.5
     },
     {
       "id": "fe3f51c4-c2b7-5590-a22f-4d041724e717",
@@ -441,29 +501,35 @@
         {
           "key": "A",
           "text": "until",
-          "value": "A"
+          "value": "A",
+          "content": "until"
         },
         {
           "key": "B",
           "text": "because",
-          "value": "B"
+          "value": "B",
+          "content": "because"
         },
         {
           "key": "C",
           "text": "while",
-          "value": "C"
+          "value": "C",
+          "content": "while"
         },
         {
           "key": "D",
           "text": "before",
-          "value": "D"
+          "value": "D",
+          "content": "before"
         }
       ],
       "correct_answer": "C",
       "explanation": "11. [A] until到……时；直到……为止\n[C] while与... 同时\n[考点提炼]句内语义+常识。\n[B] because 因为\n[D] before 在... 以前\n[解题思路]空格句指出，要让写作成为优先项，就要减少看电视或听音乐的时间，尽管有人可以写 \n作______ 听音乐。though提示转折，即空格所在部分应指向“不必减少听音乐的时间”，结合常识可知，\n该部分表示“写作与听音乐可同时进行，两者并不冲突”，空格词应表示“与……同时”，[C]while正确。\n[错项排除][A] until填入文中表示“直到听音乐前一直写作”意即“一开始听音乐就要停止写作”, \n表明写作需要让位于听音乐，不符合写作作为“优先项”的地位。[B] because填入文中表示“写作是因 \n为听音乐”，显然不合逻辑，也无法和前半句形成转折。[D] before填入文中表示“在听音乐前写作”，同 \n样表明两项活动无法同时进行，在时间上有冲突，无法与前半句形成转折。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 11,
+      "score": 0.5
     },
     {
       "id": "909893e6-ae96-5d3a-a89d-e5059dd4cc31",
@@ -476,29 +542,35 @@
         {
           "key": "A",
           "text": "put up with",
-          "value": "A"
+          "value": "A",
+          "content": "put up with"
         },
         {
           "key": "B",
           "text": "make up for",
-          "value": "B"
+          "value": "B",
+          "content": "make up for"
         },
         {
           "key": "C",
           "text": "hang on to",
-          "value": "C"
+          "value": "C",
+          "content": "hang on to"
         },
         {
           "key": "D",
           "text": "cut down on",
-          "value": "D"
+          "value": "D",
+          "content": "cut down on"
         }
       ],
       "correct_answer": "D",
       "explanation": "12. [A] put up with 容忍；忍受\n[C] hang on to紧握；保留；不放弃 \n[考点提炼]上下文语义+固定短语。 \n[解题思路]空格句指出，你可能不得不\n[B] make up for 补偿；弥补\n[D] cut down on 削减；减少\n锻炼或运动的量。其中，\"锻炼（exercise）\"\"运动\n（sport）”指向兴趣爱好/生活方式，可见空格句承上继续列举为了写作需要做出牺牲的活动，空格词应\n与上文 sacrifice‘spending less time 语义同向,表示\"减少\",[D] cut down on 正确。\n[错项排除][A]、[C]指向“保持现有的运动的量”,[B]指向“以其他方式补上运动量”,三项均错误。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 12,
+      "score": 0.5
     },
     {
       "id": "727984e4-c7af-551c-bda7-a24edb08578d",
@@ -511,29 +583,35 @@
         {
           "key": "A",
           "text": "intelligent",
-          "value": "A"
+          "value": "A",
+          "content": "intelligent"
         },
         {
           "key": "B",
           "text": "occasional",
-          "value": "B"
+          "value": "B",
+          "content": "occasional"
         },
         {
           "key": "C",
           "text": "intensive",
-          "value": "C"
+          "value": "C",
+          "content": "intensive"
         },
         {
           "key": "D",
           "text": "emotional",
-          "value": "D"
+          "value": "D",
+          "content": "emotional"
         }
       ],
       "correct_answer": "B",
       "explanation": "13. [A] intelligent明智的；智能的 \n[B] occasional不经常的；偶尔的\n[C] intensive加强的；集中的 \n[D] emotional情感的；情绪化的\n[考点提炼]上下文语义。\n[解题思路]空格句指出，你将不得不让使用社交媒体成为一项______活动。联系上文可知，“使用\n社交媒体”同样指向兴趣爱好/生活方式，是需要做出牺牲、让步的活疝屋格词应表示“次要的/偶尔为 \n之的\"等，[B] occasional 正确。\n[错项排除]空格句意在讨论活动“占用的时间量”，偏离话题，[C]指向“增加活动的投入 \n时间/重要性”，与文中方向相反。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13,
+      "score": 0.5
     },
     {
       "id": "a22a18d4-b1a9-57f8-9c48-922d7b26f4ad",
@@ -546,29 +624,35 @@
         {
           "key": "A",
           "text": "habit",
-          "value": "A"
+          "value": "A",
+          "content": "habit"
         },
         {
           "key": "B",
           "text": "test",
-          "value": "B"
+          "value": "B",
+          "content": "test"
         },
         {
           "key": "C",
           "text": "decision",
-          "value": "C"
+          "value": "C",
+          "content": "decision"
         },
         {
           "key": "D",
           "text": "plan",
-          "value": "D"
+          "value": "D",
+          "content": "plan"
         }
       ],
       "correct_answer": "A",
       "explanation": "14. [A] habit 习惯 [B] test 测试 \n[C] decision 决定 \n[D] plan 计划\n[考点提炼]句内语义。\n[解题思路]空格句指出，要让使用社交媒体成为一项偶尔为之的活动，而不是每日例行的、耗费时 \n间的______ o 取舍结构 rather than 表明，a daily, time-consuming 应与\"an occasional activityC偶尔\n为之的活动）\"语义相对，再结合空格前修饰成分daily（每日例行的）,time-consuming（耗费时间的）\"可 \n5\n\n知，空格词应表示“日常习惯/常规活动”，［A］ habit正确。\n［错项排除］三项均可与 dailytime-consuming 搭配，但无法与 occasional activity 形成 \n对比，不符合rather than所体现的取舍逻辑。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 14,
+      "score": 0.5
     },
     {
       "id": "48b6c45c-e75a-5e92-9faf-6035c497e360",
@@ -581,29 +665,35 @@
         {
           "key": "A",
           "text": "tough",
-          "value": "A"
+          "value": "A",
+          "content": "tough"
         },
         {
           "key": "B",
           "text": "gentle",
-          "value": "B"
+          "value": "B",
+          "content": "gentle"
         },
         {
           "key": "C",
           "text": "rapid",
-          "value": "C"
+          "value": "C",
+          "content": "rapid"
         },
         {
           "key": "D",
           "text": "funny",
-          "value": "D"
+          "value": "D",
+          "content": "funny"
         }
       ],
       "correct_answer": "A",
       "explanation": "15. ［A］ tough艰难的 \n［B］ gentle温和的；平缓的\n［C］ rapid快速的；瞬间的 \n［D］ funny有趣的\n［考点提炼］句内语义+上下文语义。\n［解题思路］空格句指出，这是一条______ 学习曲线，而且并不一定能让你大受欢迎。结合上文可\n知，“这(It)”概括上文内容“为了找出写作时间，牺牲掉多种兴趣爱好及日常活动”。此处learning curve \n含义不明，应根据语义逻辑解题。首先进行句内分析：结合其字面义“学习曲线”和“并不一定能让你大 \n受欢迎\"，可推测learning curve指\"学习过程\"，a________ learning curve应指\"一条艰难的/曲折的学习曲\n线”,体现“虽然过程艰难，但结果不一定如愿”之意，空格词应体现“艰难的/痛苦的/需要毅力的”等意。 \n随后，结合上文用词 have to sacrifice,have to cut down onhave to make>have to be less 等隐含的\"虽不 \n情愿但不得不努力减少自己用于多种兴趣爱好的时间”，可进一步确认这一推测，［A］ tough正确。\n［错项排除］语义色彩均偏正面，不符合上文“不得不克服困难，努力为之”的语义色 \n彩，另外，［B］填入文中，前后两个分句无法顺接—\n“学习过程平缓顺畅，且并不总能令你受欢迎”不合 \n逻辑；［D］看似可以形成顺畅的语义“有趣并不一定能让你受欢迎”，实则偏离文意。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 15,
+      "score": 0.5
     },
     {
       "id": "9cb7f685-8e34-5127-ba30-88f97f7c983e",
@@ -616,29 +706,35 @@
         {
           "key": "A",
           "text": "in place of",
-          "value": "A"
+          "value": "A",
+          "content": "in place of"
         },
         {
           "key": "B",
           "text": "in charge of",
-          "value": "B"
+          "value": "B",
+          "content": "in charge of"
         },
         {
           "key": "C",
           "text": "in response to",
-          "value": "C"
+          "value": "C",
+          "content": "in response to"
         },
         {
           "key": "D",
           "text": "in addition to",
-          "value": "D"
+          "value": "D",
+          "content": "in addition to"
         }
       ],
       "correct_answer": "D",
       "explanation": "16. ［A］ in place of 代替；顶替 \n［B］ in charge of 负责；主管\n［C］ in response to 作为对... 的反应 \n［D］ in addition to 除... 之外\n［考点提炼］上下文语义。\n［解题思路］空格句指出，只有一件事你应该尽力留出一些时间去做，___写作—\n那就是阅读。 \n上文提到，作家应将写作视为优先项，需为此牺牲一系列日常活动和兴趣爱好。联系可知，空格句是在 \n转承上段，指出唯有“阅读”是唯一必须留时间去做的事，是重要性仅次于写作的事，故空格词应表示 \n“除……之外/仅次于”，［D］ in addition to正确。\n［错项排除］［A］填入文中表示“阅读可代替写作”，这与本文主题“作家如何寻找写作时间”不符， \n且与随后一句信息“阅读是写作必不可少的支撑”不一致。［B］填入文中表示“阅读负责/主管写作”，貌 \n似符合实际情形“阅读面很大程度上决定你的写作水平”，但实则不合英文逻辑。［C］利用“阅读是为了 \n应对写作的需求\"这一常识设置干扰，但 in response to(response 意为 a reaction to sth that has happened \n)意为“对……做出反应/响应”，实际上并不能表达这种需求关系。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16,
+      "score": 0.5
     },
     {
       "id": "c7a94744-ea13-5f80-8b2a-4ebefb03ce6c",
@@ -651,29 +747,35 @@
         {
           "key": "A",
           "text": "indispensable",
-          "value": "A"
+          "value": "A",
+          "content": "indispensable"
         },
         {
           "key": "B",
           "text": "innovative",
-          "value": "B"
+          "value": "B",
+          "content": "innovative"
         },
         {
           "key": "C",
           "text": "invisible",
-          "value": "C"
+          "value": "C",
+          "content": "invisible"
         },
         {
           "key": "D",
           "text": "instant",
-          "value": "D"
+          "value": "D",
+          "content": "instant"
         }
       ],
       "correct_answer": "A",
       "explanation": "17. ［A］ indispensable不可或缺的；必不可少的［B］ innovative革新的；创新的\n［C］ invisible看不见的；隐形的 \n［D］ instant立即的；方便的；紧急的\n［考点提炼］句内语义。\n［解题思路］空格句指出，任何作家都需要尽可能多而广地阅读，这是______ 支撑—\n你没它不成。\n前一分句“需要尽可能多而广地阅读”、破折号后解释说明内容“你没它(阅读)不成(you can't do \nwithout)\"均强调了阅读的必要性，故空格词应表示“不可或缺；极其重要”，［A］ indispensable正确。\n［错项排除］［:D］三项虽能在一定程度上体现“阅读”的特点，但不符合空格前后内容。\n:-词汇注释与难句分析•:/\n© time-consuming ［'taim kan'sju：mi!］］ a.费时的 \n§ \n② supporter ［sa'poitaCr)］ n.支撑物\n[398 words]\n时间是有限的。年龄越大，时间似乎 \n流逝得越快。我们要尽可能谨慎、有效地 \n利用时间，这意味着要确定活动的优先次 \n序，以便将大多数时间花在我们真正要做 \n的事情上。如果你是一名作家，那意味 \n着 首要的是写作。\n；•負题辖廨• ；",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 17,
+      "score": 0.5
     },
     {
       "id": "925ed4e6-6a76-56ba-badc-b0b33c7bfc25",
@@ -686,29 +788,35 @@
         {
           "key": "A",
           "text": "duller",
-          "value": "A"
+          "value": "A",
+          "content": "duller"
         },
         {
           "key": "B",
           "text": "harder",
-          "value": "B"
+          "value": "B",
+          "content": "harder"
         },
         {
           "key": "C",
           "text": "quieter",
-          "value": "C"
+          "value": "C",
+          "content": "quieter"
         },
         {
           "key": "D",
           "text": "quicker",
-          "value": "D"
+          "value": "D",
+          "content": "quicker"
         }
       ],
       "correct_answer": "D",
       "explanation": "1& [A] duller更乏味地 [E] harder更困难地 [C] quieter更安静地 [D] quicker更快地\n[考点提炼]上下文语义。\n[解题思路]末段①句指出，时间是有限的。②句（空格句）指出，年龄越大，时间似乎流逝得 \n________ o③句以We need to...顺而提出建议：确定活动的优先次序，将大部分时间花在我们真正要做 \n的事情上。联系全文可知，末段进行升华，提醒读者时间有限、光阴飞逝，应将精力集中于优先事项。 \n故空格词应表示\"更快地\"，[D] quicker正确。\n[错项排除][A]、[B]、[C]三项均能在一定程度上体现年老（The older you get）的生活的特点，但 \n无法与前后文内容顺接。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 18,
+      "score": 0.5
     },
     {
       "id": "8f1dff67-e854-516e-9fdc-a7ec20d74d83",
@@ -721,29 +829,35 @@
         {
           "key": "A",
           "text": "peacefully",
-          "value": "A"
+          "value": "A",
+          "content": "peacefully"
         },
         {
           "key": "B",
           "text": "generously",
-          "value": "B"
+          "value": "B",
+          "content": "generously"
         },
         {
           "key": "C",
           "text": "productively",
-          "value": "C"
+          "value": "C",
+          "content": "productively"
         },
         {
           "key": "D",
           "text": "gratefully",
-          "value": "D"
+          "value": "D",
+          "content": "gratefully"
         }
       ],
       "correct_answer": "C",
       "explanation": "19. [A] peacefully 平静地[B] generously 慷慨地[C] productively 有效地[D] gratefully 感激地 \n[考点提炼]句内语义+上下文语义。\n[解题思路]空格句指出，我们要尽可能谨慎且______ 地利用时间，这意味着要确定活动的优先次\n序，以便将大多数时间花在我们真正要做的事情上。从句内来看，空格词应与其前的并列副词carefully \n（谨慎地）指向一致，“谨慎、______利用时间”应与其后的解释性从句“确定活动的优先次序，将时间花\n在真正要做的事上”语义一致，空格词应表示“合理地/有效地/明智地”等。此外，由上两句“时间有限、 \n光阴飞逝\"也可得出此结论，[C] productively正确。\n[错项排除][A] peacefully虽与carefully搭配合理，但其强调\"安静地、平和地\"做某事，文中并未 \n体现这一内容。[B] generously强调做某事时毫不吝啬、慷慨大方，与前后文意相悖。[D] gratefully能 \n与其前顺接，形成“时间有限，且年龄越大流逝越快，因而我们应认真地、心存感激地利用自己所拥有的 \n时间”这一合理逻辑，但与随后的解释性从句语义不一致，也偏离本文论述对象。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 19,
+      "score": 0.5
     },
     {
       "id": "e20c1f2e-7abd-54c0-bf74-b2efb8233a9b",
@@ -756,29 +870,35 @@
         {
           "key": "A",
           "text": "at most",
-          "value": "A"
+          "value": "A",
+          "content": "at most"
         },
         {
           "key": "B",
           "text": "in turn",
-          "value": "B"
+          "value": "B",
+          "content": "in turn"
         },
         {
           "key": "C",
           "text": "on average",
-          "value": "C"
+          "value": "C",
+          "content": "on average"
         },
         {
           "key": "D",
           "text": "above all",
-          "value": "D"
+          "value": "D",
+          "content": "above all"
         }
       ],
       "correct_answer": "D",
       "explanation": "20. [A] at most至多；不超过 \n[B] in turn依次；相应地；转而\n[C] on average平均来看 \n[D] above all最重要的是；首先\n[考点提炼]上下文语义。\n[解题思路]空格句指出，如果你是一名作家，那意味着一_____ 写作。“那（that）”指代上文的泛\n泛而谈“我们应确定活动的优先次序，将大多数时间花在真正要就両情上”。结合句间逻辑（从面向 \n7\n\n所有人到聚焦“作家”）、文章主旨（作家的优先项是写作）以及生活常识（作家的首要任务是写作）可知， \n故空格词应与prioritising,spend most time on语义指向一致，表示\"优先/首要”,[D] above all正确。\n[错项排除][A] at most表不\"（数量、程度）等不超过某一数值\"，如He faces at most 12 years in prison. \n（他面临最多12年的监禁。）该短语显然不符合文中语境。[E] m turn利用中文表达“人们都应将时间花在优 \n先事项上，轮到作家，优先事项则是写作”设置干扰。但in turn并不能用于表达这一情形。该词主要有两种 \n用法：1.表示“多人依顺序做某事”，如We look after him in turn.（我们依次照顾他。）2.表示“继而;转而”，如 \nIncreased production will, in turn, lead to increased profits.（增加生产会继而增加利润。）这两种用法均不符合 \n此处情形。[C] on average表示“一系列数值/情况的平均水平”，不符合此处语境。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 20,
+      "score": 0.5
     },
     {
       "id": "fb12fb93-e88f-5c79-bc40-f288c15e97c4",
@@ -791,29 +911,35 @@
         {
           "key": "A",
           "text": "at a considerably low cost",
-          "value": "A"
+          "value": "A",
+          "content": "at a considerably low cost"
         },
         {
           "key": "B",
           "text": "at the demand of regular shoppers",
-          "value": "B"
+          "value": "B",
+          "content": "at the demand of regular shoppers"
         },
         {
           "key": "C",
           "text": "as a replacement for organic eggs",
-          "value": "C"
+          "value": "C",
+          "content": "as a replacement for organic eggs"
         },
         {
           "key": "D",
           "text": "on specially designed farms",
-          "value": "D"
+          "value": "D",
+          "content": "on specially designed farms"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］气候友好型鸡蛋出现于首段末尾，该段①句至③句描述得州一个养鸡场的场景，随后④句指出该场景“看起来散漫无序，实际上是刻意设计的结果”，并指出它是美国蛋品行业新趋势的缩影，末尾冒号后面点明这个新趋势即气候友好型鸡蛋。综上可推知，该段前三句描述的农场是一个专门生产气候友好型鸡蛋的农场，④句则暗示这类农场是专门设计的农场（it's by design），且由下文第二、三段可进一步得知这类农场运用了再生农业这一专项技术来生产气候友好型鸡蛋。因此［D］正确。\n［命题解密］［D］中specially designed（专为某一目的设计的）对应首段④句的短语by design（本指“故意地；有计划地”，在文中与random相对，强调专门性、目的性）。\n［A］由首段描述的户外散养场景联想到常见的散养情形“不用修建鸡舍，节省饲料和人工费用”，进而臆断出生产成本低，而由第二、三段可知文中所述的散养方式并不是传统意义上的散养方式，而是需要运用专门的再生农业技术，暗示其成本可能并不低。［B］实际上指出气候友好型鸡蛋的生产是受市场需求驱动，与文意相悖，文中第二、四、五段提到蛋品行业正对“气候友好型鸡蛋”这个新品类进行积极营销，其最终能否打开市场尚无定论，由此可推知这类鸡蛋的生产不是源于现有市场的实际需求，而是为了开辟新的市场空间，而且regular shoppers一般指“常客；老顾客”，刚上架的新品类显然尚未积累老顾客。［C］曲解“有机鸡蛋”的相关信息：第二段①句暗示气候友好型鸡蛋不仅仅是有机鸡蛋，而且还运用了对气候友好的再生农业技术，具备新卖点；第四段②句则对有机鸡蛋通过营销从小众走向大众的市场发展趋势作了集中论述，以此暗示新推出的气候友好型鸡蛋很可能也会经历同样的市场发展趋势；综上仅能得知相比有机鸡蛋，气候友好型鸡蛋更有卖点，但无法推出行业生产后者是为了替代前者。\n［技巧总结］题干关键词climate-friendly eggs出现于开篇段的末尾，且以冒号引出，说明其为全文话题，下文的These eggs、Such eggs、sustainable-egg、Regenerative products均指代这类鸡蛋，围绕这些表达的相关信息均可作为解题依据。四个选项涉及这类鸡蛋的生产成本、生产动机（市场需求、品类更替）、生产方式（农场特点），需分别进行回文定位，核查相关信息。具体来看，［A］中关键信息“成本低”无法根据原文准确推断出来；［B］中“顾客”似乎对应文中的产品销售等信息，但“应老顾客的需求”与文中多处暗示的信息恰恰相反，气候友好型鸡蛋作为刚刚上架的新品类是为了挖掘市场潜力，而非因为老顾客的需求。［C］中“有机鸡蛋”在第四段有集中论述，但选项曲解了行文逻辑，该段提及有机鸡蛋和可持续鸡蛋（气候友好型鸡蛋）的目的是以前者为例子说明后者，并未指出后者会替代前者。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 21,
+      "score": 2.0
     },
     {
       "id": "480b6cbb-8e28-5f79-ac1a-20bdb9087d66",
@@ -826,29 +952,35 @@
         {
           "key": "A",
           "text": "reducing the damage of worms",
-          "value": "A"
+          "value": "A",
+          "content": "reducing the damage of worms"
         },
         {
           "key": "B",
           "text": "accelerating the disposal of waste",
-          "value": "B"
+          "value": "B",
+          "content": "accelerating the disposal of waste"
         },
         {
           "key": "C",
           "text": "creating a sustainable system",
-          "value": "C"
+          "value": "C",
+          "content": "creating a sustainable system"
         },
         {
           "key": "D",
           "text": "attracting customers to his products",
-          "value": "D"
+          "value": "D",
+          "content": "attracting customers to his products"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］由人名Larry Brown及其态度excited about...可定位到第三段。该段先指出布朗对自己农场取得的进展感到兴奋，随后以表具体的破折号引出具体事实：他农场的土壤有机质含量已翻番，而这不仅增加了土壤的蓄水量，而且让鸡觅食时吃到了更多虫子。由此可知布朗感到兴奋是因为农场的土壤状况得到了改善，［C］正确。\n［命题解密］正确项［C］是对第三段①②句所描述的布朗农场生产模式的高度总结，关键词soil condition概括了段中的soil organic matter、soil holds more water。\n［A］由第三段②句chickens have more bugs to eat捏造而来，该信息指土壤蓄水量的增加使得虫子变多，鸡因此能吃到更多的虫子（鸡以虫子为食，虫子变多有利于提高鸡蛋的质量），而并未涉及“害虫”。［B］中disposal of chicken dung属无中生有，第三段②句提到了鸡粪（chicken manure），但指出鸡粪对土壤有施肥作用（chicken manure fertilizes the soil），并未提及如何处理鸡粪。［D］曲解第三段①句的内容：该句提到有机质含量从1.5%增加到3%，表明有机质增加了1.5%（增加了一倍），而非有机质的增加改善了1.5%的土壤蓄水量。\n［技巧总结］根据题干很容易定位到第三段，该段采用了“总—分—总”的行文方式：段首出现了概括性信息excited about the progress；紧接着段中具体描述这种进展“土壤有机质翻番”“蓄水量增加”“鸡吃到了更多虫子”“鸡粪使土壤肥沃”；段末以this all creates a positive feedback loop对这些具体事实进行总结概括。解题时应立足于整体，重点关注概括性信息，选项中只有［C］能对这一系列的进展进行整体概括；干扰项往往利用局部的细节信息进行设障，如本题用来干扰的［A］、［B］、［D］，虽源自该部分，但曲解了其中的细节信息，［C］从整体上抓住了该部分的主旨，为正确项。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0
     },
     {
       "id": "8626f085-5b7e-5952-92d5-387a63038f35",
@@ -861,29 +993,35 @@
         {
           "key": "A",
           "text": "the doubts over natural feeds",
-          "value": "A"
+          "value": "A",
+          "content": "the doubts over natural feeds"
         },
         {
           "key": "B",
           "text": "the setbacks in the egg industry",
-          "value": "B"
+          "value": "B",
+          "content": "the setbacks in the egg industry"
         },
         {
           "key": "C",
           "text": "the potential of regenerative products",
-          "value": "C"
+          "value": "C",
+          "content": "the potential of regenerative products"
         },
         {
           "key": "D",
           "text": "the promotional success of supermarkets",
-          "value": "D"
+          "value": "D",
+          "content": "the promotional success of supermarkets"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］例子位于第四段②句，对①句（该段主旨句）进行举例论证。①句指出蛋品行业对再生鸡蛋的市场前景抱有信心，相信消费者会接受再生鸡蛋；②句继而以有机鸡蛋的发展历程为例进行说明：有机鸡蛋曾经也是一个微不足道的小众品类，如今已发展成为一个价值数十亿美元的大行业。由此可推知引用有机鸡蛋的例子是为了说明再生鸡蛋巨大的市场潜力，［C］正确。\n［命题解密］正确项［C］是对第四段行文逻辑及相关信息的合理推断，其中potential一词在本文语境下意为“潜力”，与上文的market success同义复现。\n［A］不符合例证逻辑：在论证“再生鸡蛋”的潜在市场时，蛋品行业引用“有机鸡蛋”的发展历程是将其作为成功的商业范例，旨在说明“小众产品也有大潜力”，并非为了说明两者属于同一个市场品类。［B］与第四段信息不符：该段指出随着时间推移有机鸡蛋已发展成为一个数十亿美元的成熟产业，而“再生鸡蛋”作为新产品，其生产方式（再生农业）尚处于起步阶段，两者测试的绝非同样的生产方法。［D］将第四段②句主语organic eggs偷换成了再生鸡蛋的生产商（began as a niche product and grown into a multi-billion-dollar business指有机鸡蛋通过从小众走向大众获得了巨大的商业成功，暗示其成功打开了大众市场），比对原文可发现［D］偷换了市场推广的行为主体，故可排除该项，最终确定［C］正确。\n［技巧总结］本题考查第四段例子的写作目的，需要准确把握第四段的行文逻辑，才能选出正确项。第四段为典型的“提出论点（①句）—举例论证（②句）”结构，①句指出蛋品行业认为可持续/再生农业也会取得像植物肉一样的市场成功，②句以有机鸡蛋的发展历程为例进行印证说明，指出这类鸡蛋也是起初属于微不足道的小众品类，如今已发展成规模庞大的行业。显然，引用有机鸡蛋的目的是为了证明①句的论点，也即说明再生鸡蛋同样具备巨大的商业潜力，［C］符合该论点。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 23,
+      "score": 2.0
     },
     {
       "id": "babe368c-8bd7-5dbf-bc84-2be94a134c9e",
@@ -896,29 +1034,35 @@
         {
           "key": "A",
           "text": "are reluctant to change their diet",
-          "value": "A"
+          "value": "A",
+          "content": "are reluctant to change their diet"
         },
         {
           "key": "B",
           "text": "are likely to buy climate-friendly eggs",
-          "value": "B"
+          "value": "B",
+          "content": "are likely to buy climate-friendly eggs"
         },
         {
           "key": "C",
           "text": "are curious about new food",
-          "value": "C"
+          "value": "C",
+          "content": "are curious about new food"
         },
         {
           "key": "D",
           "text": "are amazed at agriculture advances",
-          "value": "D"
+          "value": "D",
+          "content": "are amazed at agriculture advances"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］末段①句指出蛋品行业的看法：花更多钱购买“自由放养”“非转基因”等产品的消费者同样会乐意购买“可持续性”产品（指气候友好型鸡蛋）。随后②句阐述上述看法的依据：调查显示年轻人更关心气候变化，这是植物肉取得市场成功的部分原因。③④句引用一家蛋品生产商的总裁的言论进一步强化②句的信息。综上可推知年轻人更关心气候变化，很可能会购买气候友好型产品，［B］正确。\n［命题解密］题干中的young people不仅直接对应②③④句的younger generations、Young adults、They，实际上也指向①句中蛋品行业所押注的那类消费者（the same consumers paying...），而正确项既能直接对应②③句中年轻人的特点（are more concerned about climate change、really care about the planet），也能间接照应①句中那类消费者的购买意愿（will embrace sustainability）。\n［A］不符合末段传递的语义逻辑：年轻人更关心气候变化，因此会更乐意为了保护环境而改变饮食结构（比如他们更愿意接受植物肉）。［C］将末段信息“年轻人有很强的环境意识，愿意购买环境友好型食品”曲解为“年轻人有好奇心，愿意购买新型食品”。［D］中“农业的进步”偏离末段的主题，末段论述的焦点是消费者对气候友好型农产品的购买意愿，并未谈论农业取得的进步。\n［技巧总结］本题表面上考查对末段信息的梳理和推断，本质上也考查对末段主旨乃至全文主题的把握，有两种解题思路。思路一是从选项出发，将选项逐一回文定位，比对原文信息：四个选项描述年轻人在某方面的行为偏好（［A］、［B］）和情感态度（［C］、［D］），需要在末段中找到描述行为偏好或做事意愿的表达，以及描述情感态度的表达，然后核实选项是否符合原文信息。思路二是从段落主旨和全文主题出发，找到与其最为贴近、相似或匹配的选项：本文开篇段引出全文话题“气候友好型鸡蛋”，下文几段围绕此话题展开论述，着重论述了这类鸡蛋的市场潜力，末段进一步聚焦这类鸡蛋在年轻人群中的市场潜力，选项中只有［B］出现了全文主题词“气候友好型鸡蛋”，而且也符合末段主旨。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24,
+      "score": 2.0
     },
     {
       "id": "78ce4df8-06a5-5f14-8cfd-1d1dc2853f9a",
@@ -931,29 +1075,35 @@
         {
           "key": "A",
           "text": "market prospects",
-          "value": "A"
+          "value": "A",
+          "content": "market prospects"
         },
         {
           "key": "B",
           "text": "standard definition",
-          "value": "B"
+          "value": "B",
+          "content": "standard definition"
         },
         {
           "key": "C",
           "text": "nutritional value",
-          "value": "C"
+          "value": "C",
+          "content": "nutritional value"
         },
         {
           "key": "D",
           "text": "moral implication",
-          "value": "D"
+          "value": "D",
+          "content": "moral implication"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］约翰•布伦克尔和朱莉•斯坦顿分别出自末段和第五段。由第五段可知，朱莉•斯坦顿是一位学者，她对再生产品抱有怀疑态度，认为再生产品可能很难被市场接受（其市场前景可能并不好），而且再生农业对再生产品的改良作用也微乎其微。由末段可知，约翰•布伦克尔是Egg Innovations公司的总裁（暗示其代表的是蛋品生产商），而且他的言论（“年轻人很关心地球，他们正在改变食品供应链”，暗示年轻人更乐意购买环境友好型食品）与末段首句蛋品行业的看法（“那些为散养、非转基因等食品标签买单的消费者也会更乐意为可持续性买单”）本质上是一致的，均强调再生鸡蛋的市场前景：会吸引那些具有气候/环境意识的消费者。综上可知，二人对再生产品的市场前景持不同态度，［A］正确。\n［命题解密］正确项［A］可以涵盖斯坦顿对再生产品市场前景的描述（第五段的could be a hard sell）以及布伦克尔/蛋品行业对再生鸡蛋市场前景的描述（末段的the same consumers... will embrace sustainability、shoppers wanting to... protect the environment、really care about the planet）。\n［B］源自第五段中斯坦顿的看法“再生产品的概念很难快速定义（暗示其定义比较复杂）”，但末段布伦克尔言论中并未涉及对再生产品的定义，而且文中也未提到蛋品行业在这方面的看法，故排除该项。\n［C］源自第五段中斯坦顿的看法“再生农业技术对再生产品的改良作用微乎其微（尽管一些生产商宣称其鸡蛋含有更多蛋白质）”，但据此无法推知其他生产商或整个蛋品行业对再生鸡蛋营养价值的看法，而且末段布伦克尔的言论中并未谈论再生鸡蛋的营养价值，故也可排除该项。［D］在文中无据可依。\n［技巧总结］题干中的would（也许；会）表示推测，表明本题为推理判断题。解题思路为：先找到与两个人物相关的句群或段落，然后根据人物的身份和言论信息解读人物的观点态度，最后比对两人的观点态度，推断出两人的分歧点。解题的主要难点是把握布伦克尔的观点态度，可结合其身份信息（蛋品生产商）以及全文主旨（蛋品行业/生产商看好再生鸡蛋的市场前景）推断出其言论暗含的观点态度。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 25,
+      "score": 2.0
     },
     {
       "id": "aec1555c-0c72-5d55-b4dd-f97e61fc5cf7",
@@ -966,29 +1116,35 @@
         {
           "key": "A",
           "text": "over half of the retirees are physically fit for work",
-          "value": "A"
+          "value": "A",
+          "content": "over half of the retirees are physically fit for work"
         },
         {
           "key": "B",
           "text": "the old workforce is as active as the younger one",
-          "value": "B"
+          "value": "B",
+          "content": "the old workforce is as active as the younger one"
         },
         {
           "key": "C",
           "text": "one in three Americans enjoy earlier retirement",
-          "value": "C"
+          "value": "C",
+          "content": "one in three Americans enjoy earlier retirement"
         },
         {
           "key": "D",
           "text": "more Americans are willing to work in retirement",
-          "value": "D"
+          "value": "D",
+          "content": "more Americans are willing to work in retirement"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］根据survey conducted by Harris Poll定位至第二段。该段介绍两项调查结果（...according to a survey... the survey showed）：①句指出，三分之一的美国人已经或计划在退休后继续工作；②句指出，其中有超过一半的人表示他们这样做是因为自己想要继续工作，而不是迫于生计。可见，该调查表明越来越多的美国人选择退休后继续工作，［D］正确。\n［命题解密］［D］中的willing to work是对第二段②句they would be employed because they want to, not because they have to的同义替换。\n［A］曲解第二段②句的内容：该句指出有超过一半的人表示退休后想要继续工作，但并未提及他们的身体状况，physically fit for work在文中无据可依。［B］由第一段的threatens to upend the old workforce model捏造而来，文中并未在年老员工与年轻员工之间作对比，as active as the younger one在文中缺乏依据，亦排除。［C］ one in three Americans enjoy earlier retirement曲解第二段①句的信息，文中指出三分之一的美国人打算在退休后继续工作，而非三分之一的美国人乐于提前退休。［D］既与两项具体发现的核心义相一致，也契合该调查所服务的“现象句”，故为正确项。\n［技巧总结］本题题干关键词指向第二段的调查，但需结合第一段的主题句理解第二段的调查结果。第一段指出，越来越多的美国人选择退休后继续工作，这一增长趋势可能会颠覆旧有的劳动力模式。第二段紧接着引用哈里斯民调的调查数据对第一段的观点进行数据支撑。因此，正确项不仅要准确反映第二段的具体调查结果，而且要与第一段的主旨句保持高度一致，［D］完美契合这两点要求。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "score": 2.0
     },
     {
       "id": "ee090953-2ec7-59b2-978c-0bd47960b9a4",
@@ -1001,29 +1157,35 @@
         {
           "key": "A",
           "text": "retirement may cause problems for them",
-          "value": "A"
+          "value": "A",
+          "content": "retirement may cause problems for them"
         },
         {
           "key": "B",
           "text": "boredom can be relieved after retirement",
-          "value": "B"
+          "value": "B",
+          "content": "boredom can be relieved after retirement"
         },
         {
           "key": "C",
           "text": "the mental health of retirees is overlooked",
-          "value": "C"
+          "value": "C",
+          "content": "the mental health of retirees is overlooked"
         },
         {
           "key": "D",
           "text": "“unretirement” contributes to the economy",
-          "value": "D"
+          "value": "D",
+          "content": "“unretirement” contributes to the economy"
         }
       ],
       "correct_answer": "A",
       "explanation": "【精准定位】根据题干定位至第三段。该段①②句指出美国人不退休的两个原因“财务需求”和“个人满足感/情感需求”，③句援引受访者的看法具体说明：有人不退休是为了心理健康，有人是为了生计。可见，美国人认为不退休可以避免财务或健康问题，换言之即退休可能会引发这些问题，故［A］正确。\n\n【命题解密】［A］是对美国人的看法“不退休以避免财务或健康问题”的合理推断。\n\n【排除干扰】\n［B］利用第三段②句boredom干扰，但与该句暗含文意“不退休可防止无聊”恰好相反。\n［C］利用第三段②③句复现词mentally fit干扰，但原文实指“一些人不退休是为了保持心理健康”，并未提及“退休人员的心理健康是否得到关注”。\n［D］中the economy源自第三段①句Financial needs，但根据本段末句making ends meet（维持生计）及上段末句even if they had enough money可知，文意实指“不退休旨在满足个人的财务需求”，而非“利于宏观经济发展”。\n\n【技巧总结】推理引申题往往难以直接选出正确项，可采用排除法。本题中，［A］没有明显定位词，难以直接判断正误，可先保留。［B］可根据关键词boredom轻松定位，并判断出该项与文意相悖，故排除。［C］虽近义复现文中关键词mentally fit，但其核心义is overlooked在文中并无依据，故排除。［D］可根据the economy定位至第三段①③句，但回文阅读后发现该项曲解原文含义，故排除。此时再检视［A］，发现该项可由本段主旨“美国人为避免财务和心理问题而不退休”反推而来，故正确。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0
     },
     {
       "id": "8d77e500-62cc-50fd-83d6-a32abf627094",
@@ -1036,29 +1198,35 @@
         {
           "key": "A",
           "text": "labor shortage",
-          "value": "A"
+          "value": "A",
+          "content": "labor shortage"
         },
         {
           "key": "B",
           "text": "population growth",
-          "value": "B"
+          "value": "B",
+          "content": "population growth"
         },
         {
           "key": "C",
           "text": "longer life expectancy",
-          "value": "C"
+          "value": "C",
+          "content": "longer life expectancy"
         },
         {
           "key": "D",
           "text": "rising living costs",
-          "value": "D"
+          "value": "D",
+          "content": "rising living costs"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］根据Retirement patterns定位至第五段首句。该句指出，退休模式逐渐转变的一个原因是美国人的寿命越来越长。可见［C］正确。\n［命题解密］题干+［C］是对第五段首句的同义转述，其中partly due to...对应One reason..., longer life expectancy对应are living longer。\n［A］劳动力短缺源自第一段末尾upend the old workforce model（颠覆旧的劳动力模式），但第一段并未分析退休模式改变的原因。［B］人口增长属无中生有，文章未提及。［D］生活成本上涨利用常识进行干扰，人们可能会直觉认为生活成本上涨迫使人们不得不退休后继续工作，但原文明确指出客观推动力是寿命延长（living longer），生活成本上涨在第五段中并未提及。\n［技巧总结］本题属于因果细节题，解题关键在于迅速锁定段落主题句。根据题干中的Retirement patterns are changing定位至第五段首句，该句直接给出原因One reason retirement patterns are changing is that Americans are living longer。考生只要专注段首主题句即可，不必花费过多时间理解段中的长难句，也就不会掉入命题人利用其中细节设立的陷阱。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28,
+      "score": 2.0
     },
     {
       "id": "da1a5552-10d5-5a24-809f-205aec90a803",
@@ -1071,29 +1239,35 @@
         {
           "key": "A",
           "text": "investing more in stocks",
-          "value": "A"
+          "value": "A",
+          "content": "investing more in stocks"
         },
         {
           "key": "B",
           "text": "taking up odd jobs",
-          "value": "B"
+          "value": "B",
+          "content": "taking up odd jobs"
         },
         {
           "key": "C",
           "text": "getting well-paid work",
-          "value": "C"
+          "value": "C",
+          "content": "getting well-paid work"
         },
         {
           "key": "D",
           "text": "spending less",
-          "value": "D"
+          "value": "D",
+          "content": "spending less"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］根据increasing their savings定位至第六段②句，该句指出，许多“不退休者”都在增加储蓄，③句进一步指出，这些人最常用的增加储蓄的方法包括减少总体开支（doing this回指increasing their savings），可见［D］正确。\n［命题解密］［D］ spending less是对第六段③句reducing their overall expenses的同义转述。\n干扰项均利用常识“购买股票、打零工、从事高薪工作（可能）增加收入，进而可增加储蓄”干扰，但文中并未提及。\n［技巧总结］本题易于定位，但定位句并未提供答案，此时应通读对应文段，从上下文寻找线索。先看上文，该句与定位句含义一致，仅指出“美国人在增加储蓄”这一事实，并未具体说明“增储方法”；再看下文，该句出现关键词ways（方法）及表方式的标志词by（通过……；借由……），由此可判断该介词后内容为答案来源，［D］符合原文reducing their overall expenses，故正确。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 29,
+      "score": 2.0
     },
     {
       "id": "2accdad5-e99c-5b92-8712-6739c0ae4bbf",
@@ -1106,29 +1280,35 @@
         {
           "key": "A",
           "text": "many people are unprepared for retirement life",
-          "value": "A"
+          "value": "A",
+          "content": "many people are unprepared for retirement life"
         },
         {
           "key": "B",
           "text": "post-retirement employment will become universal",
-          "value": "B"
+          "value": "B",
+          "content": "post-retirement employment will become universal"
         },
         {
           "key": "C",
           "text": "early retirement remains an attractive option",
-          "value": "C"
+          "value": "C",
+          "content": "early retirement remains an attractive option"
         },
         {
           "key": "D",
           "text": "pension policies need urgent legislative overhaul",
-          "value": "D"
+          "value": "D",
+          "content": "pension policies need urgent legislative overhaul"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］根据Brent Weiss定位至第七、八段。第七段中，韦斯指出，许多人因担心晚年生计而被迫选择不退休，但他们实际应该在退休前咨询财务顾问，设定长期的财务目标。可见在韦斯眼中，对于退休，许多人尚未做好财务准备。第八段中，韦斯继续指出，退休还是一个情感决定，许多人认为自己不能退休，即尚未做好退休的情感准备。［A］概括了许多人面对退休时的状态，正确。\n［命题解密］题干+［A］是对韦斯话语的合理推断。\n［B］ unafraid与第七段①句are worried about体现的“担忧、害怕”情绪恰好相反。［C］ disappointed利用第七段段首的Unfortunately干扰，将之曲解为“退休后的生活令人遗憾、失望”，但此处实际指韦斯对人们的退休观念感到遗憾、惋惜。［D］ enthusiastic利用末段emotional干扰，将之曲解为表积极正面的“有感染力的、激动人心的”，但此处该词意为“情感的；情绪的”，为中性词。\n［技巧总结］本题易于定位，难点在于定位句表意委婉，考生需进行适度推理。各项均为描述人物状态或态度的词，故应尤其注意定位句处的情感态度表达词（如情态动词、形容词、副词等）。Unfortunately一词奠定了定位段的情感基调，即韦斯评述的是一种令人遗憾惋惜的现象。most challenging形容退休极具挑战，worried、can't retire体现许多人对退休的担忧和恐惧，只有［A］最能契合这一态度。与此相反，［C］ disappointed适用于描述“退休后生活不如预期”的情形，与本题提问对象“选择不退休的许多人”不符，故均排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 30,
+      "score": 2.0
     },
     {
       "id": "1b388e93-8c9d-5543-9472-c79981ff1bf4",
@@ -1141,29 +1321,35 @@
         {
           "key": "A",
           "text": "improve user experiences",
-          "value": "A"
+          "value": "A",
+          "content": "improve user experiences"
         },
         {
           "key": "B",
           "text": "leak user information for profit",
-          "value": "B"
+          "value": "B",
+          "content": "leak user information for profit"
         },
         {
           "key": "C",
           "text": "undermine users' decision-making",
-          "value": "C"
+          "value": "C",
+          "content": "undermine users' decision-making"
         },
         {
           "key": "D",
           "text": "remind users of hidden costs",
-          "value": "D"
+          "value": "D",
+          "content": "remind users of hidden costs"
         }
       ],
       "correct_answer": "C",
       "explanation": "31.从前两段可以得知，黑暗模式 \n。\n[A] improve user experiences\n[A]改善用户体验\n[B] leak user information for profit\n:B]泄露用户信息以牟利\n[C] undermine users' decision-making\n[C]损害用户的决策\n[D] remind users of hidden costs\n[D]提醒用户注意隐藏成本\n\n［精准定位］题干已给出明确定位（前两段），首段列举黑暗模式的例子，并指出它们损害消费者的 \n选择权，第二段①句进一步指出，黑暗模式实指操纵用户界面以影响用户决策能力的做法。综合可知， \n黑暗模式损害用户的决策，［C］正确。\n［命题解密］［C］对应首段末句 impair consumer choice、第二段①句 influence the decision-making \nability of users（influence 呼应 impair,实指\"产生负面影响\"）。\n［A］利用第二段②句a user experience seems easy and intuitive干扰，但忽略该句的语义重点\"当用 \n户试图退岀时，用户体验变得非常困难”。［E］由第五段data privacy rights过度推导而来，但与文中所 \n阐述的有关黑暗模式的事实并不直接相关，且超出本题的定位范围。［D］利用第二段②句hidden costs \n干扰，但“隐藏成本”实为黑暗模式欺诈用户的一种常见形式。\n［技巧总结］本题针对概念描述部分命制事实细节题，解题关键在于精准定位并区辨概念的语义色 \n彩，同时注意正确项往往是对原文信息的同义改写或总结概括。具体来看，可先基于前两段中have \nencountered（遭遇过）、felt tricked or frustratedC感到受骗或懊恼）、impair consumer choice（损害消费者 \n的选择权）、turns difficult. . . to get out（退出时就会变得非常困难）等表达所构建的消极语义场，排除表",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31,
+      "score": 2.0
     },
     {
       "id": "450bd174-55c4-54ed-8c25-255d10b3b15b",
@@ -1176,29 +1362,35 @@
         {
           "key": "A",
           "text": "their major flaws",
-          "value": "A"
+          "value": "A",
+          "content": "their major flaws"
         },
         {
           "key": "B",
           "text": "their complex designs",
-          "value": "B"
+          "value": "B",
+          "content": "their complex designs"
         },
         {
           "key": "C",
           "text": "their severe damage",
-          "value": "C"
+          "value": "C",
+          "content": "their severe damage"
         },
         {
           "key": "D",
           "text": "their strong presence",
-          "value": "D"
+          "value": "D",
+          "content": "their strong presence"
         }
       ],
       "correct_answer": "D",
       "explanation": "32. The 2019 study on dark patterns is mentioned to \nshow \n・\n32.文中提及2019年关于黑暗模式的研究， \n是为了说明 \n。\n[A] their major flaws\n［A］其主要缺陷\n[E] their complex designs\n［B］其复杂设计\n[C] their severe damage\n［C］其造成的严重损害\n[D] their strong presence\n［D］其大量存在\n［精准定位］根据题干关键词The 2019 study定位到第三段。该段①句引用2019年针对黑暗模式 \n展开的一项涵盖5. 3万个产品页面和1. 1万个网站的研究，说明该项研究的发现“大约有十分之一的页 \n面或网站运用了黑暗设计手法”，②句明确问题“黑暗模式广泛存在，却仍未被充分了解”，③句针对该 \n问题提议各大组织领导了解并避免运用黑暗模式。可见，文中借该项研究说明黑暗模式的现状或问题 \n“大量运用”，进而引出相关建议，［D］正确。\n［命题解密］\"题干+ ［D］\"是对第三段①②句的正确推导,strong presence不仅概括①句53,000 product \npages and 11,000 websites... one in 10 employs these design practices,而且契合②句 widely prevalento\n［A］由第三段末avoid the gray areas they engender反推而来，［B］、［C］体现前两段中所提及的黑暗 \n模式的特征，三项均非本文引用2019年研究所说明的事实，也与写作目的不符。\n［技巧总结］本题就引用论证处命制写作目的题，须注意引用的目的通常是引出主题或论证观点， \n而主题和观点或在论据之前，或在其之后，因此解题时不仅要理清论据本身传递的信息，还需要联系上 \n下文内容以推断写作目的。解答本题时，可根据论据(2019年关于黑暗模式的研究)本身内容锁定［D］, \n再通过对比下文总结概括性内容(widely prevalent)可知［D］",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 32,
+      "score": 2.0
     },
     {
       "id": "ddecbd99-eac0-5b15-913a-4cf98d0ed52a",
@@ -1211,29 +1403,35 @@
         {
           "key": "A",
           "text": "listen to customer feedback",
-          "value": "A"
+          "value": "A",
+          "content": "listen to customer feedback"
         },
         {
           "key": "B",
           "text": "talk with relevant teams",
-          "value": "B"
+          "value": "B",
+          "content": "talk with relevant teams"
         },
         {
           "key": "C",
           "text": "turn to independent agencies",
-          "value": "C"
+          "value": "C",
+          "content": "turn to independent agencies"
         },
         {
           "key": "D",
           "text": "rely on professional training",
-          "value": "D"
+          "value": "D",
+          "content": "rely on professional training"
         }
       ],
       "correct_answer": "B",
       "explanation": "33.为应对数字欺诈，企业应该 \n。\n[A] listen to customer feedback\n［A］听取客户的反馈\n[B] talk with relevant teams\n［B］与相关团队谈话\n[C] turn to independent agencies\n［C］求助于独立机构\n[D] rely on professional training\n［D］依靠专业培训\n［命题解密］\"题干+ ［B］\"是对第四段②③句的正确概括，talk同义复现engage in conversations, \nrelevant teams 概括 IT, compliance, risk, and legal teamso\n［A］将第四段②句 include in the discussion the customer/user experience designers and coders 的文 \n意“让客户/用户体验设计师和编码员参与隐私政策讨论”曲解为“让其与客户进行讨论（听取反馈意 \n\n见）”。［C］、［D］均利用第四段②句中提及的各专业团队干扰，［C］错将其概括为“独立机构”，［D］将“与 \n专业团队进行对话”曲解为“让各团队展开专业培训”。\n［技巧总结］本题就建议处命制事实细节题，虽易于定位，但定位处为长难句，信息较多较杂，解题时 \n可先通过提炼句子主干快速锁定答案，然后比对原文和选项关键信息，进一步排除和确定选项。首先，提 \n取②③句的主干 Businesses should engage in conversations with. . . and include in the discussion. . . as well \nas. . . Any or all these teams...可知，两句建议企业与多个团队对话，由此快速锁定［B］。其次，纵观各项中 \n提及的对象“客户”“相关团队”“独立机构”“专业培训团队”，经过与定位处提及对象“IT、合规、风险、法律 \n团队、客户/用户体验设计师和编码员、销售各环节相关的营销者和广告商”的比对，可排除明显不",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 33,
+      "score": 2.0
     },
     {
       "id": "d336eb7c-450e-5682-b476-31c67923a436",
@@ -1246,29 +1444,35 @@
         {
           "key": "A",
           "text": "comply with the guidelines voluntarily",
-          "value": "A"
+          "value": "A",
+          "content": "comply with the guidelines voluntarily"
         },
         {
           "key": "B",
           "text": "modify their user privacy interfaces",
-          "value": "B"
+          "value": "B",
+          "content": "modify their user privacy interfaces"
         },
         {
           "key": "C",
           "text": "lobby lawmakers to relax penalties",
-          "value": "C"
+          "value": "C",
+          "content": "lobby lawmakers to relax penalties"
         },
         {
           "key": "D",
           "text": "refrain from collecting biometric data",
-          "value": "D"
+          "value": "D",
+          "content": "refrain from collecting biometric data"
         }
       ],
       "correct_answer": "B",
       "explanation": "间状语从句，该从句省略了已知主语和部分谓语（they are）,进一步限定保障消费者权益的时间范围“在 \n消费者寻求行使数据隐私权时”。\n［•语篇分析•］必\n第五段进而从立法者和监管者角度，说明官方正在对黑暗模式采取相应管控。关键词:additional \nregulations （补充规定）。\n① 句概述立法者和监管者应对黑暗模式的情况。the ambiguity呼应前文gray areas（第三段末句）、 \nWhere is the line（第四段首句），提示本段继续从不同角度探讨黑暗模式（模糊性）的解决方式。are... \nstarting to addressslowlyat the state level点明立法者和监管者对黑暗模式的应对情况\"已经展开州级 \n规模的有效行动，但还需要进一步加快速度”。\n②③句详述立法者和监管者应对黑暗模式的措施:CCPA补充规定。\n② 句介绍CCPA补充规定的目的。 In March、the California Attorney Generalunder the California \nConsumer Privacy Act （CCPA）分别介绍补充规定的颁布时间、颁布者和对应法案。that定语从句中先 \n借data privacy与上段中privacy policy的近义复现强调应对黑暗模式的重中之重就在于严格把控数据 \n隐私，再借ensure,will not be confused or misled说明这一补充规定的目的\"确保消费者能够在寻求隐私 \n权保护时，不受诱惑和欺骗”，深层暗示当前消费者（因被诱惑或误导）隐私权遭到侵害。\n③ 句进一步补充该规定的目的及实现途径。本句借破折号呈递“说明目的一描述途径”的句内逻 \n辑。破折号前以aim to do sth结构进一步明确该补充规定的目的“禁止黑暗模式”；破折号后this \nmeans..・描述实现该目的的途径/补充规定的具体要求：prohibiting. . . from...［（尤指以法令）禁止某 \n人做某事］点明补充规定的管控对象“公司”和管控行为",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 34,
+      "score": 2.0
     },
     {
       "id": "80bb9c86-3e99-5a9c-851b-147b1bfe8ae5",
@@ -1281,29 +1485,35 @@
         {
           "key": "A",
           "text": "preventing deceptive opt-out design interfaces",
-          "value": "A"
+          "value": "A",
+          "content": "preventing deceptive opt-out design interfaces"
         },
         {
           "key": "B",
           "text": "restricting users' access to sensitive services",
-          "value": "B"
+          "value": "B",
+          "content": "restricting users' access to sensitive services"
         },
         {
           "key": "C",
           "text": "compelling websites to disclose advertising algorithms",
-          "value": "C"
+          "value": "C",
+          "content": "compelling websites to disclose advertising algorithms"
         },
         {
           "key": "D",
           "text": "standardizing cookie consent banner formats",
-          "value": "D"
+          "value": "D",
+          "content": "standardizing cookie consent banner formats"
         }
       ],
       "correct_answer": "B",
       "explanation": "that consumers will not be confused or misled、ban dark patterns.. . prohibiting companies from...。\n［A］利用第五段末opt out干扰，但CCPA补充规定要求的是“禁止为用户退出程序设置障碍（强迫其听 \n取不应选择退出的理由）”,而非“指导用户完成退出程序”。［C］与第五段②句“确保消费者的数据隐私权不 \n被公司侵犯”相悖。［D］将第五段③句“严禁公司使用有问题的语言”曲解为“限制用户访问有问题的内容”。\n［技巧总结］本题就某规定命制事实细节题，解题时可先结合规定背后的总体立场快速排除，然后按 \n照常规方法定位、比对原文确定答案。如本题定位段为\"概述一详述\"逻辑，由首句address the ambiguity \naround dark patterns可知CCPA补充规定旨在完善相关法规，打击黑暗模式，保护消费者权益，据此可快 \n速排除规定公司权益、限制用户自由的［C］、［D］两项。再比对原文可发现,［A］将CCPA的要求“禁止为用 \n户退出设置障碍”改为治标不治本的“为用户退出提供指引”，而［B］则准确概括了规定的目的。\nVI O As more states consider promulgating0 additional \nregulations, there is a need for greater accountability② from \nwithin the business community・ ❷ Dark patterns also can \nbe addressed on a self-regulatory basis, but only if \norganizations hold themselves accountable, not just to legal \nrequirements but also to industry best practices and \nstandards・[402 words]\n随着越来越多的州",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0
     },
     {
       "id": "88539a0f-b76b-5daa-800d-5f4fd09c242c",
@@ -1316,29 +1526,35 @@
         {
           "key": "A",
           "text": "hard to determine",
-          "value": "A"
+          "value": "A",
+          "content": "hard to determine"
         },
         {
           "key": "B",
           "text": "narrowly interpreted",
-          "value": "B"
+          "value": "B",
+          "content": "narrowly interpreted"
         },
         {
           "key": "C",
           "text": "difficult to ignore",
-          "value": "C"
+          "value": "C",
+          "content": "difficult to ignore"
         },
         {
           "key": "D",
           "text": "poorly summarized",
-          "value": "D"
+          "value": "D",
+          "content": "poorly summarized"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第一段①句指出，科学家们拿不准道德课是否真的能够改变人们的行为，因为证据不足，依赖的大多是人为的实验室测试或是不可靠的自陈报告（are unsure if their lessons can actually change people's behavior; evidence either way is weak）。换言之，科学家们普遍认为道德课的影响难以确定，故［A］正确。\n\n［命题解密］正确项［A］hard to determine 是对文首句 are unsure 与 evidence either way is weak 的同义概括。\n\n［干扰排除］\n［B］曲解文意，文中并未指责道德课的效果被狭隘理解。\n［C］反向干扰，科学家拿不准其是否有效果，而非其效果难以忽视。\n［D］无中生有，文中并未谈及对效果的总结质量问题。\n\n［技巧总结］首句细节题注意对比转折词前的让步与疑问焦点（unsure 对应 hard to determine）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 36,
+      "score": 2.0
     },
     {
       "id": "ec215c23-35fd-5294-8be8-eb8371ccc438",
@@ -1351,29 +1567,35 @@
         {
           "key": "A",
           "text": "It is common among students.",
-          "value": "A"
+          "value": "A",
+          "content": "It is common among students."
         },
         {
           "key": "B",
           "text": "It is a behavior easy to measure.",
-          "value": "B"
+          "value": "B",
+          "content": "It is a behavior easy to measure."
         },
         {
           "key": "C",
           "text": "It is important to students.",
-          "value": "C"
+          "value": "C",
+          "content": "It is important to students."
         },
         {
           "key": "D",
           "text": "It is a hot topic in ethics classes.",
-          "value": "D"
+          "value": "D",
+          "content": "It is a hot topic in ethics classes."
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第二段②句指出，研究人员之所以选择研究吃肉行为，是因为这是一种普遍且易于量化的行为（eating meat ... is a real-world behavior that is easy to measure）。由此可知，易于测量是选择其作为研究对象的原因，［B］正确。\n\n［命题解密］正确项［B］It is a behavior easy to measure 与原文 easy to measure 直接吻合。\n\n［干扰排除］\n［A］虽然吃肉很普遍，但研究者看重的是容易客观量化（超市购买记录）。\n［C］与［D］属于无中生有，文中并未提及这对学生是否重要或是课堂热点辩题。\n\n［技巧总结］因果事实题直接对照原文中的解释说明从句（a behavior that is easy to measure）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37,
+      "score": 2.0
     },
     {
       "id": "7bf202e4-7d07-5660-bf84-a1c3fe8f2089",
@@ -1386,29 +1608,35 @@
         {
           "key": "A",
           "text": "are seldom critical of their students",
-          "value": "A"
+          "value": "A",
+          "content": "are seldom critical of their students"
         },
         {
           "key": "B",
           "text": "are less sociable than other professors",
-          "value": "B"
+          "value": "B",
+          "content": "are less sociable than other professors"
         },
         {
           "key": "C",
           "text": "are not sensitive to political issues",
-          "value": "C"
+          "value": "C",
+          "content": "are not sensitive to political issues"
         },
         {
           "key": "D",
           "text": "are not necessarily ethically better",
-          "value": "D"
+          "value": "D",
+          "content": "are not necessarily ethically better"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第三段①句指出，研究者此前发现伦理学教授与其他学科教授在诸多现实行为上并无二致（ethics professors do not differ from other professors on a range of behaviors），比如投票率、献血、按时还书等。这说明伦理学教授在道德层面上未必比其他人表现得更好，［D］正确。\n\n［命题解密］正确项［D］are not necessarily ethically better 是对 do not differ from other professors on a range of behaviors 的合理深层引申。\n\n［干扰排除］\n［A］与［B］主观臆断伦理学教授对学生的宽容度或自身的社交性格，文中无依据。\n［C］将句中的投票率细节偷换为对政治问题不敏感。\n\n［技巧总结］例证推理题需要把握引证所要说明的宏观论点：知识上的道德并不必然转化为行为上的优越。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 38,
+      "score": 2.0
     },
     {
       "id": "e53f2ac5-dca6-5558-acf3-cd8e428d365a",
@@ -1421,29 +1649,35 @@
         {
           "key": "A",
           "text": "permanent",
-          "value": "A"
+          "value": "A",
+          "content": "permanent"
         },
         {
           "key": "B",
           "text": "predictable",
-          "value": "B"
+          "value": "B",
+          "content": "predictable"
         },
         {
           "key": "C",
           "text": "uncertain",
-          "value": "C"
+          "value": "C",
+          "content": "uncertain"
         },
         {
           "key": "D",
           "text": "unrepeatable",
-          "value": "D"
+          "value": "D",
+          "content": "unrepeatable"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第四段②③句指出心理学家尼娜·施特罗明格的看法：她希望这种影响是真实的，但无法排除存在未知的混杂变量；而且即便是真实的，也可能会被另一个轻微的干预所逆转（cannot rule out some unknown confounding variable ... might be reversible）。这表明她认为这种干预的效果是不确定的，［C］正确。\n\n［命题解密］正确项［C］uncertain 是对 cannot rule out some unknown confounding variable 以及 might be reversible 的高度抽象提炼。\n\n［干扰排除］\n［A］与末句“来得快，去得也快（Easy come, easy go）”完全相悖。\n［B］与［D］将不确定性偷换为可预测性或不可重复性。\n\n［技巧总结］人物观点题抓关键情态动词与转折词（cannot rule out, might be reversible 即 uncertain）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 39,
+      "score": 2.0
     },
     {
       "id": "7c47cec7-595f-5ac0-8a44-25f2b7a26cdc",
@@ -1456,29 +1690,35 @@
         {
           "key": "A",
           "text": "can bring psychological benefits",
-          "value": "A"
+          "value": "A",
+          "content": "can bring psychological benefits"
         },
         {
           "key": "B",
           "text": "can be analyzed statistically",
-          "value": "B"
+          "value": "B",
+          "content": "can be analyzed statistically"
         },
         {
           "key": "C",
           "text": "is a result of multiple factors",
-          "value": "C"
+          "value": "C",
+          "content": "is a result of multiple factors"
         },
         {
           "key": "D",
           "text": "is a sign of self-development",
-          "value": "D"
+          "value": "D",
+          "content": "is a sign of self-development"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第五段①句指出，施维茨格贝尔推测最大的影响来自社会影响——即同学或助教在讨论中起到的示范作用；②句接着指出，这一影响可能不仅包含理性说服，还夹杂着情感驱动（not only rational argument but also emotional engagement）。由此可知，学生行为的改变是多种因素共同作用的结果，［C］正确。\n\n［命题解密］正确项［C］is a result of multiple factors 是对文中 social influence, rational argument 以及 emotional engagement 等多重维度的概括。\n\n［干扰排除］\n［A］无中生有，文中并未讨论心理健康益处。\n［B］将前面的实验统计事实误用为对成因的猜测。\n［D］过度解读，行为变化并非单纯自我发展的标志。\n\n［技巧总结］归纳总结题注意段落中并列递进的要素结构（not only ... but also ... 提示多重因素驱动）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 40,
+      "score": 2.0
     },
     {
       "id": "8e19c856-54b0-5bdb-a47f-4e642c255fbb",
@@ -1491,44 +1731,53 @@
         {
           "key": "A",
           "text": "Make It a Habit",
-          "value": "A"
+          "value": "A",
+          "content": "Make It a Habit"
         },
         {
           "key": "B",
           "text": "Don't Go It Alone",
-          "value": "B"
+          "value": "B",
+          "content": "Don't Go It Alone"
         },
         {
           "key": "C",
           "text": "Start Low, Go Slow",
-          "value": "C"
+          "value": "C",
+          "content": "Start Low, Go Slow"
         },
         {
           "key": "D",
           "text": "Talk With Your Doctor",
-          "value": "D"
+          "value": "D",
+          "content": "Talk With Your Doctor"
         },
         {
           "key": "E",
           "text": "Listen to Your Body",
-          "value": "E"
+          "value": "E",
+          "content": "Listen to Your Body"
         },
         {
           "key": "F",
           "text": "Go Through the Motions",
-          "value": "F"
+          "value": "F",
+          "content": "Go Through the Motions"
         },
         {
           "key": "G",
           "text": "Round Out Your Routine",
-          "value": "G"
+          "value": "G",
+          "content": "Round Out Your Routine"
         }
       ],
       "correct_answer": "C",
       "explanation": "41. 【答案】C 【精解】第二段先指岀不要试图恢复中断之前的运动水平，随后列举具体运动案例，\n\n明确如何减少运动量，并总结指出应循序渐进地增加运动强度、时间和距离，C项“低起步，慢慢来”与该\n\n段主旨相符，其中 Start low 与段中 reduce activity 语义相关，Go Slow 对应 Increase. . . gradually。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 41,
+      "score": 2.0
     },
     {
       "id": "6ba926eb-48b3-5ad9-b358-083e0a9716d4",
@@ -1541,44 +1790,53 @@
         {
           "key": "A",
           "text": "Make It a Habit",
-          "value": "A"
+          "value": "A",
+          "content": "Make It a Habit"
         },
         {
           "key": "B",
           "text": "Don't Go It Alone",
-          "value": "B"
+          "value": "B",
+          "content": "Don't Go It Alone"
         },
         {
           "key": "C",
           "text": "Start Low, Go Slow",
-          "value": "C"
+          "value": "C",
+          "content": "Start Low, Go Slow"
         },
         {
           "key": "D",
           "text": "Talk With Your Doctor",
-          "value": "D"
+          "value": "D",
+          "content": "Talk With Your Doctor"
         },
         {
           "key": "E",
           "text": "Listen to Your Body",
-          "value": "E"
+          "value": "E",
+          "content": "Listen to Your Body"
         },
         {
           "key": "F",
           "text": "Go Through the Motions",
-          "value": "F"
+          "value": "F",
+          "content": "Go Through the Motions"
         },
         {
           "key": "G",
           "text": "Round Out Your Routine",
-          "value": "G"
+          "value": "G",
+          "content": "Round Out Your Routine"
         }
       ],
       "correct_answer": "E",
       "explanation": "42. 【答案】E 【精解】第三段围绕运动者的身体反应提出建议：如果喘得太厉害，就停下来；如果\n\n没有不良反应，就可以多运动一会儿；并对一些严重的症状保持警惕，如果不适的症状过于明显，那么\n\n需要立即寻求治疗。可见，第三段建议运动者时刻关注自己的身体状况，运动时要根据身体的不同反\n\n应来调整运动量，E项“倾听身体的声音”准确概括该段主旨，其中Listen to与段中stay alert to近义，段\n\n中的 breathing feel ^Feeling symptoms 等是 your body 的具体体现。\n\n【干扰项设置】C项Go Slow虽与段中back offGo easier所传达的\"停下来\"或\"慢慢来\"之意相符，\n\n但②句明确指出如果运动时感觉良好，可以增长运动时间或者提高运动的速度。可见，第三段并非一\n\n味强调“要从低基础开始慢慢加码”，而更侧重于强调“根据身体的反应来调整运动的强度和节奏”，故\n\n可排除C项。D项的Doctor虽与段中末句的medical attention语义相关，但本段末句仅针对严重的身\n\n体症状提议“立即寻求治疗\"，并未明确指出要“与医生交谈”,D项无法正确概括段意，故排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 42,
+      "score": 2.0
     },
     {
       "id": "ff6d0e7f-bcac-576c-a207-5765b884d0e7",
@@ -1591,44 +1849,53 @@
         {
           "key": "A",
           "text": "Make It a Habit",
-          "value": "A"
+          "value": "A",
+          "content": "Make It a Habit"
         },
         {
           "key": "B",
           "text": "Don't Go It Alone",
-          "value": "B"
+          "value": "B",
+          "content": "Don't Go It Alone"
         },
         {
           "key": "C",
           "text": "Start Low, Go Slow",
-          "value": "C"
+          "value": "C",
+          "content": "Start Low, Go Slow"
         },
         {
           "key": "D",
           "text": "Talk With Your Doctor",
-          "value": "D"
+          "value": "D",
+          "content": "Talk With Your Doctor"
         },
         {
           "key": "E",
           "text": "Listen to Your Body",
-          "value": "E"
+          "value": "E",
+          "content": "Listen to Your Body"
         },
         {
           "key": "F",
           "text": "Go Through the Motions",
-          "value": "F"
+          "value": "F",
+          "content": "Go Through the Motions"
         },
         {
           "key": "G",
           "text": "Round Out Your Routine",
-          "value": "G"
+          "value": "G",
+          "content": "Round Out Your Routine"
         }
       ],
       "correct_answer": "A",
       "explanation": "43. 【答案】A 【精解】第四段首先点明坚持不懈是增强体力、耐力和毅力的关键因素，随后提出具\n\n体可行的建议“每天步行十分钟”并说明原因。由此可见，第四段强调运动不在时长和强度，而在于每\n\n天的坚持，也就是说要将运动变成每天的习惯。A项契合本段段意，故正确。\n\n【干扰项设置】C项的Go Slow所体现的“慢慢来”看似是段中the easiest\"最简单的”之意的体现，\n\n但本段重在强调将“每天十分钟运动”这一运动方式的简单易行、可坚持，而非强调“要慢慢增加运动强\n\n度\"，故排除C项。G项的Round Out\"完善\"之意虽然与段中的a good starts a great first step所传递的\n\n“步行可以作为其他运动形式的补充和过渡”之意相近，但本段段末彰显“步行”的好处，是为了例证“每\n\n天运动十分钟”这一建议的可操作性，G项“完善你的常规锻炼”无法概括本段主旨，故排除。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 43,
+      "score": 2.0
     },
     {
       "id": "1f2f80ab-95f7-5c2f-8295-419d6cf5be38",
@@ -1641,44 +1908,53 @@
         {
           "key": "A",
           "text": "Make It a Habit",
-          "value": "A"
+          "value": "A",
+          "content": "Make It a Habit"
         },
         {
           "key": "B",
           "text": "Don't Go It Alone",
-          "value": "B"
+          "value": "B",
+          "content": "Don't Go It Alone"
         },
         {
           "key": "C",
           "text": "Start Low, Go Slow",
-          "value": "C"
+          "value": "C",
+          "content": "Start Low, Go Slow"
         },
         {
           "key": "D",
           "text": "Talk With Your Doctor",
-          "value": "D"
+          "value": "D",
+          "content": "Talk With Your Doctor"
         },
         {
           "key": "E",
           "text": "Listen to Your Body",
-          "value": "E"
+          "value": "E",
+          "content": "Listen to Your Body"
         },
         {
           "key": "F",
           "text": "Go Through the Motions",
-          "value": "F"
+          "value": "F",
+          "content": "Go Through the Motions"
         },
         {
           "key": "G",
           "text": "Round Out Your Routine",
-          "value": "G"
+          "value": "G",
+          "content": "Round Out Your Routine"
         }
       ],
       "correct_answer": "F",
       "explanation": "44. 【答案】F 【精解】第五段观点鲜明，呈“总一分”的论证模式，围绕“练习动作”这一中心话题展\n\n开。首句先引出中心话题“练习动作”，随后以击球、划船、游泳等运动为例，具体解释如何在不具备相\n\n关器械或条件的情况下练习动作，末句指出练习动作的益处。F项“练习动作”精确概括本段段意，其\n\n中,Go Through近义复现段中的practice, Motions近义复现段中的moves。\n\n【干扰项设置】G项的Round Out、Routine虽然与段中的prime、moves近义，但第五段侧重强调在\n\n不能去打球、划船或游泳的情况下，练习击球、划桨和游泳等动作，以调动运动状态，且prime强调“这些\n\n练习会使肌肉为恢复运动做好准备”，并非指完善锻炼组合，G项无法准确概括段落大意。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 44,
+      "score": 2.0
     },
     {
       "id": "c09fee0f-40d2-57e0-a133-2c9236dca53c",
@@ -1691,45 +1967,57 @@
         {
           "key": "A",
           "text": "Make It a Habit",
-          "value": "A"
+          "value": "A",
+          "content": "Make It a Habit"
         },
         {
           "key": "B",
           "text": "Don't Go It Alone",
-          "value": "B"
+          "value": "B",
+          "content": "Don't Go It Alone"
         },
         {
           "key": "C",
           "text": "Start Low, Go Slow",
-          "value": "C"
+          "value": "C",
+          "content": "Start Low, Go Slow"
         },
         {
           "key": "D",
           "text": "Talk With Your Doctor",
-          "value": "D"
+          "value": "D",
+          "content": "Talk With Your Doctor"
         },
         {
           "key": "E",
           "text": "Listen to Your Body",
-          "value": "E"
+          "value": "E",
+          "content": "Listen to Your Body"
         },
         {
           "key": "F",
           "text": "Go Through the Motions",
-          "value": "F"
+          "value": "F",
+          "content": "Go Through the Motions"
         },
         {
           "key": "G",
           "text": "Round Out Your Routine",
-          "value": "G"
+          "value": "G",
+          "content": "Round Out Your Routine"
         }
       ],
       "correct_answer": "B",
       "explanation": "45. 【答案】B 【精解】第六段首先指出与他人一起锻炼有益处：让人约束自己，增加运动的乐\n\n趣，从而促使运动者再次运动。随后探讨了疫情背景下的两种选择：选择高尔夫、网球、步行等可保持\n\n社交距离的运动；充分利用网络技术，在独自运动时与家人朋友交流，或是参与线上课程与他人实时\n\n一起锻炼。B项“不要单独行动”是对这些建议的准确概括,Don't Go It Alone近义复现段中Exercising\n\nwith others o",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 45,
+      "score": 2.0
     }
   ],
-  "exportedAt": "2026-10-15T11:40:14.767Z"
+  "exportedAt": "2026-10-15T11:40:14.767Z",
+  "title": "2022年全国硕士研究生招生考试英语（二）真题",
+  "total_score": 60.0,
+  "pass_score": 36.0
 }
