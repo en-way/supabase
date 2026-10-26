@@ -2,12 +2,12 @@
   "exam": {
     "id": "0a5fc663-29a1-504d-981d-49763767e394",
     "category_id": "ky2",
-    "title": "2023年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2023年全国硕士研究生招生考试英语（二）真题",
     "year": 2023,
     "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
+    "duration_minutes": 180,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
@@ -31,7 +31,8 @@
       "section_type": "cloze",
       "title": "Section I: Use of English",
       "content": "Here's a common scenario that any number of entrepreneurs face today: you're the CEO of a small business, and though you're making a nice [1], you need to find a way to take it to the next level. What you need to do is [2] growth by establishing a growth team. A growth team is made up of members from different departments within your company, and it harnesses the power of collaboration to focus [3] on finding ways to grow.\n\nLet's look at a real-world [4]. Prior to forming a growth team, the software company BitTorrent had 50 employees working in the [5] departments of engineering, marketing and product development. This brought them good results until 2012, when their growth plateaued. The [6] was that too many customers were using the basic, free version of their product. And [7] improvements to the premium, paid version, few people were making the upgrade.\n\nThings changed, [8], when an innovative project-marketing manager came aboard, [9] a growth team and sparked the kind of [10] perspective they needed. By looking at engineering issues from a marketing point of view, it became clear that the [11] of upgrades wasn't due to a quality issue. Most customers were simply unaware of the premium version and what it offered.\n\nArmed with this [12], the marketing and engineering teams joined forces to raise awareness by prominently [13] the premium version to users of the free version. [14], upgrades skyrocketed, and revenue increased by 92 percent.\n\nBut in order for your growth team to succeed, it needs to have a strong leader. It needs someone who can [15] the interdisciplinary team and keep them on course for improvement. This leader will [16] the target area, set clear goals and establish a time frame for the [17] of these goals.\n\nThe growth leader is also [18] for keeping the team focused on moving forward and steering them clear of distractions. [19] attractive new ideas can be distracting, the team leader must recognize when these ideas don't [20] the current goal and need to be put on the back burner.",
-      "sort_order": 1
+      "sort_order": 1,
+      "passage_type": null
     },
     {
       "id": "7d25728e-7009-5ba8-8311-b2bb304a2a43",
@@ -40,7 +41,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "In the quest for the perfect lawn, homeowners across the country are replacing natural turf with artificial plastic grass. But the trend has spread to the highest gardening circles, with the Royal Horticultural Society (RHS) banning fake grass from its prestigious shows because of the damage it causes to the environment.\n\nThe RHS says fake grass pollutes soils, harms wildlife and contributes to global warming. \"Artificial grass harms biodiversity and damages our environment,\" says Mark Gush, head of environmental horticulture at the RHS. \"It restricts the movement of worms, beetles and other soil life, and creates sterile green spaces that offer nothing to wildlife.\"\n\nThe RHS's decision comes as campaigners step up efforts to stop the spread of fake turf. Petitions calling for bans or taxes on plastic lawns have attracted tens of thousands of signatures, reflecting growing resistance among eco-conscious gardeners. They argue that at a time when nature is in crisis, covering gardens in plastic is disastrous for biodiversity.\n\nHowever, suppliers and supporters of fake grass argue it has an important role to play. They point out that real lawns require vast quantities of water, mowing, weedkillers and fertilizers—all of which carry environmental impacts. Plastic lawns, by contrast, require no mowing or watering, making them ideal for urban areas with little time for maintenance. Furthermore, modern artificial turf can be recycled and does not necessarily exclude wildlife if surrounded by flowering borders and shrubs.\n\nGovernment officials have largely stayed neutral in the debate. Ministers have declined to ban plastic grass outright or introduce special taxes, arguing that homeowners should be allowed to make their own choices.\n\nHowever, environmental groups continue to urge the government to take stronger action, pointing out that existing regulations fall short of addressing plastic pollution in private spaces. For now, the battle between lovers of natural lawns and advocates of artificial turf remains one of the most controversial issues in modern gardening.",
-      "sort_order": 2
+      "sort_order": 2,
+      "passage_type": null
     },
     {
       "id": "c595f087-f1cd-5ec1-a8f2-8287ae4c2458",
@@ -49,7 +51,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "America's national parks are often hailed as the nation's \"best idea,\" preserving millions of acres of wild landscapes and historic sites for public enjoyment. But beneath the majestic vistas, the national park system is grappling with an existential crisis: billions of dollars in deferred maintenance, deteriorating roads, crumbling visitor centers, and aging wastewater systems.\n\nThe National Park Service estimates its maintenance backlog at nearly $22 billion. Iconic sites like Yellowstone, Yosemite, and the Grand Canyon have faced catastrophic infrastructure failures, from burst sewer pipes to closed campgrounds. The crisis has been compounded by record crowds, as Americans flock to the outdoors in unprecedented numbers, straining resources and staff.\n\nTo bridge the funding gap, some policymakers and private contractors have advocated for increased commercialization and privatization of park services. Proposals include handing over campgrounds to private hospitality companies, introducing dynamic pricing, and allowing corporate sponsors to underwrite park facilities.\n\nHowever, conservationists argue that privatization threatens the very spirit of the parks. Critics warn that private operators would prioritize profit over preservation, turning affordable, democratic public lands into exclusive resorts for wealthy tourists. Commercial development could degrade wildlife habitats and dilute the wilderness experience that draws visitors in the first place.\n\nPublic surveys reveal strong support for preserving the national parks without commercial compromise. In a recent economic survey of 700 taxpayers, an overwhelming majority expressed willingness to pay higher federal taxes to ensure parks are adequately funded and maintained by public agencies.\n\nThe national parks hold profound value not only as recreational retreats but as reservoirs of biodiversity and living monuments to American history. To safeguard this heritage, lawmakers must step up and provide reliable, permanent public funding rather than relying on piecemeal privatization schemes.",
-      "sort_order": 3
+      "sort_order": 3,
+      "passage_type": null
     },
     {
       "id": "ac3b8992-ddf1-5679-a19b-43e41c84a443",
@@ -58,7 +61,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "The Internet may be changing merely what we remember, not our capacity to do so, suggests Columbia University psychology professor Betsy Sparrow. In a groundbreaking series of experiments, Sparrow and her colleagues investigated how access to search engines affects human memory, demonstrating that people are becoming adept at remembering where to find information rather than memorizing the information itself.\n\nThis phenomenon, dubbed \"cognitive offloading,\" allows our brains to delegate storage tasks to digital devices, freeing up mental bandwidth for other cognitive processes. Just as previous generations relied on books, rolodexes, and knowledgeable friends as external memory banks—a concept known as \"transactive memory\"—modern humans use the Internet as an omnipresent collective memory bank. Sparrow argues this adaptation does not indicate that our minds are declining, but rather that our cognitive habits are evolving to exploit powerful tools.\n\nHowever, other cognitive scientists urge caution before declaring the digital shift entirely benign. Benjamin Storm, a memory researcher at the University of California, Santa Cruz, points out that while offloading mundane facts can be convenient, relying heavily on Google may weaken our ability to retain complex knowledge long enough to form deep connections and creative insights.\n\nFurthermore, empirical studies on how internet use reshapes neural circuitry are still in their infancy. While early neuroimaging research shows that searching online stimulates brain activity in older adults, it remains too soon to know whether prolonged digital immersion fundamentally alters cognitive longevity.\n\nNeither Sparrow nor Storm believes that the Internet is rotting our minds or permanently destroying our capacity to remember. Rather, they agree that our brains are remarkably plastic, continuously adapting their memory systems to mirror the informational ecosystem in which we live.",
-      "sort_order": 4
+      "sort_order": 4,
+      "passage_type": null
     },
     {
       "id": "34109d29-7b4c-588c-b5f8-0e0c3603004c",
@@ -67,7 +71,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "Parents of adolescents often describe the teenage years as an emotional roller coaster, a paradoxical period marked by bewildering contradictions. On the one hand, young people become fiercely independent, capable of extraordinary empathy, altruism, and deep peer loyalty. On the other hand, they can be moody, reckless, and alarmingly prone to impulsive risk-taking.\n\nFor decades, psychological literature focused predominantly on the dark side of adolescence, framing it as a phase of vulnerability and deficit. But a new wave of research led by Dutch developmental psychologist Eveline Crone offers a fresh, more nuanced perspective. Crone's work emphasizes that adolescence is not a neurological defect to be survived, but a critical evolutionary window of opportunity and social learning.\n\nIn an extensive study surveying over 200 youths aged 11 to 28, Crone and her team analyzed both prosocial behaviors—such as sharing, volunteering, and defending classmates—and rebellious behaviors like rule-breaking and sensation-seeking. Surprisingly, the data revealed a strong positive correlation between prosociality and rebelliousness. The very teenagers who engaged in daring adventures were often the same individuals who showed the greatest capacity for generosity and teamwork.\n\nCrucially, the study showed that prosocial behavior follows the same developmental trajectory as risk-taking: both tend to peak during middle-to-late adolescence before plateauing in early adulthood.\n\nWhat explains this intriguing dualism? Researchers point to \"reward sensitivity.\" During adolescence, brain regions linked to social belonging and reward processing undergo rapid maturation, making teenagers hypersensitive to social recognition, praise, and peer approval. Seeking this social reward drives them to take bold chances—sometimes in reckless ways, but just as often in constructive, collaborative ways that prepare them for adulthood.",
-      "sort_order": 5
+      "sort_order": 5,
+      "passage_type": null
     },
     {
       "id": "d85d9eb9-a869-5675-ae48-0bd5bd31a571",
@@ -75,8 +80,9 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions: Read the following text and match each of the persons in the left column (Questions 41-45) with their corresponding viewpoints listed in the right column (A-G).\n\nMark your answers on the ANSWER SHEET. (10 points)\n\nNet-Zero Rules Set to Send Cost of New Homes and Extensions Soaring\n\n[I] New building regulations aimed at improving energy efficiency are set to increase the price of new homes, as well as those of extensions and loft conversions on existing ones.\n\n[II] The rules, which came into effect on Wednesday in England, are part of government plans to reduce the UK's carbon emissions to net zero by 2050. They set new standards for ventilation, energy efficiency and heating, and state that new residential buildings must have charging points for electric vehicles.\n\n[III] The moves are the most significant change to building regulations in years, and industry experts say they will inevitably lead to higher prices at a time when a shortage of materials and high labour costs are already driving up bills.\n\n[IV] Brian Berry, chief executive of the Federation of Master Builders, says the measures will require new materials, testing methods, products and systems to be installed. \"All this comes at an increased cost during a time when prices are already sky high. Inevitably, consumers will have to pay more,\" he says.\n\n[V] Gareth Belsham, of surveyors Naismiths, says people who are upgrading, or extending their home, will be directly affected. \"The biggest changes relate to heating and insulation,\" he explains. \"There are new rules concerning the amount of glazing used in extensions, and any new windows or doors must be highly insulated.\"\n\n[VI] Windows and doors will have to adhere to higher standards, while there are new limits on the amount of glazing you can have to reduce unwanted heat from the sun.\n\n[VII] Thomas Goodman, of MyJobQuote, says this will bring in new restrictions for extensions. \"Glazing on windows, doors and roof lights must cover no more than 25% of the floor area to prevent heat loss,\" he says.\n\n[VIII] As the rules came into effect last Wednesday, property developers were rushing to file plans just before the deadline. Any plans submitted before that date are considered to be under the previous rules, and can go ahead as long as work starts before 15 June next year.\n\n[IX] Builders which have costed projects, but have not filed the paperwork, may need to go back and submit fresh estimates, says Marcus Jefford of Build Aviator.\n\n[X] Materials prices are already up 25% in the last two years. How much overall prices will increase as a result of the rule changes is not clear. \"Whilst admirable in their intentions, they will add to the cost of housebuilding at a time when many already feel that they are priced out of homeownership,\" says Jonathan Rolande of the National Association of Property Buyers. \"An average extension will probably see around £3,000 additional cost thanks to the new regs.\"\n\n[XI] John Kelly, a construction lawyer at Freeths law firm, believes prices will eventually come down. But not in the immediate future. \"As the marketplace adapts to the new requirements, and the technologies that support them, the scaling up of these technologies will eventually bring costs down, but in the short term, we will all have to pay the price of the necessary transition,\" he says.\n\n[XII] However, the long-term effects of the changes will be more comfortable and energy-efficient homes, adds Andrew Mellor, of PRP architects. \"Homeowners will probably recoup that cost over time in energy bill savings. It will obviously be very volatile at the moment, but they will have that benefit over time.\"",
-      "sort_order": 6
+      "content": "Net-Zero Rules Set to Send Cost of New Homes and Extensions Soaring\n\n[I] New building regulations aimed at improving energy efficiency are set to increase the price of new homes, as well as those of extensions and loft conversions on existing ones.\n\n[II] The rules, which came into effect on Wednesday in England, are part of government plans to reduce the UK's carbon emissions to net zero by 2050. They set new standards for ventilation, energy efficiency and heating, and state that new residential buildings must have charging points for electric vehicles.\n\n[III] The moves are the most significant change to building regulations in years, and industry experts say they will inevitably lead to higher prices at a time when a shortage of materials and high labour costs are already driving up bills.\n\n[IV] Brian Berry, chief executive of the Federation of Master Builders, says the measures will require new materials, testing methods, products and systems to be installed. \"All this comes at an increased cost during a time when prices are already sky high. Inevitably, consumers will have to pay more,\" he says.\n\n[V] Gareth Belsham, of surveyors Naismiths, says people who are upgrading, or extending their home, will be directly affected. \"The biggest changes relate to heating and insulation,\" he explains. \"There are new rules concerning the amount of glazing used in extensions, and any new windows or doors must be highly insulated.\"\n\n[VI] Windows and doors will have to adhere to higher standards, while there are new limits on the amount of glazing you can have to reduce unwanted heat from the sun.\n\n[VII] Thomas Goodman, of MyJobQuote, says this will bring in new restrictions for extensions. \"Glazing on windows, doors and roof lights must cover no more than 25% of the floor area to prevent heat loss,\" he says.\n\n[VIII] As the rules came into effect last Wednesday, property developers were rushing to file plans just before the deadline. Any plans submitted before that date are considered to be under the previous rules, and can go ahead as long as work starts before 15 June next year.\n\n[IX] Builders which have costed projects, but have not filed the paperwork, may need to go back and submit fresh estimates, says Marcus Jefford of Build Aviator.\n\n[X] Materials prices are already up 25% in the last two years. How much overall prices will increase as a result of the rule changes is not clear. \"Whilst admirable in their intentions, they will add to the cost of housebuilding at a time when many already feel that they are priced out of homeownership,\" says Jonathan Rolande of the National Association of Property Buyers. \"An average extension will probably see around £3,000 additional cost thanks to the new regs.\"\n\n[XI] John Kelly, a construction lawyer at Freeths law firm, believes prices will eventually come down. But not in the immediate future. \"As the marketplace adapts to the new requirements, and the technologies that support them, the scaling up of these technologies will eventually bring costs down, but in the short term, we will all have to pay the price of the necessary transition,\" he says.\n\n[XII] However, the long-term effects of the changes will be more comfortable and energy-efficient homes, adds Andrew Mellor, of PRP architects. \"Homeowners will probably recoup that cost over time in energy bill savings. It will obviously be very volatile at the moment, but they will have that benefit over time.\"",
+      "sort_order": 6,
+      "passage_type": null
     }
   ],
   "questions": [
@@ -90,30 +96,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "purchase",
-          "value": "A"
+          "content": "purchase"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "profit",
-          "value": "B"
+          "content": "profit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "connection",
-          "value": "C"
+          "content": "connection"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "bet",
-          "value": "D"
+          "content": "bet"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】名词搭配辨析。making a nice profit 意为'获利丰厚/获得不错的利润'，契合中小企业CEO寻求利润提升的商业语境，选 B。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 1,
+      "score": 0.5
     },
     {
       "id": "5a2b88db-54e7-5050-9345-4bc823bb2ad6",
@@ -125,30 +137,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "define",
-          "value": "A"
+          "content": "define"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "predict",
-          "value": "B"
+          "content": "predict"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "prioritize",
-          "value": "C"
+          "content": "prioritize"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "appreciate",
-          "value": "D"
+          "content": "appreciate"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】动词语义辨析。prioritize growth 意为通过组建团队来'优先考虑/重点关注'业务增长，选 C。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 2,
+      "score": 0.5
     },
     {
       "id": "bc2a603d-c359-516e-9ff2-c1cd98a2414f",
@@ -160,30 +178,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "exclusively",
-          "value": "A"
+          "content": "exclusively"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "temporarily",
-          "value": "B"
+          "content": "temporarily"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "potentially",
-          "value": "C"
+          "content": "potentially"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "initially",
-          "value": "D"
+          "content": "initially"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】副词语义辨析。focus exclusively on 意为'专心致志/排他性地专注于'寻找增长途径，选 A。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 3,
+      "score": 0.5
     },
     {
       "id": "5e21fc41-cd8d-5dbc-acaa-c6ba14234c34",
@@ -195,30 +219,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "experiment",
-          "value": "A"
+          "content": "experiment"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "proposal",
-          "value": "B"
+          "content": "proposal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "debate",
-          "value": "C"
+          "content": "debate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "example",
-          "value": "D"
+          "content": "example"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】名词搭配辨析。look at a real-world example 意为来看一个现实生活中的'典型事例/案例'，选 D。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4,
+      "score": 0.5
     },
     {
       "id": "f1e61dde-904b-57d3-8ea2-872913629e30",
@@ -230,30 +260,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "identical",
-          "value": "A"
+          "content": "identical"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "marginal",
-          "value": "B"
+          "content": "marginal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "provisional",
-          "value": "C"
+          "content": "provisional"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "traditional",
-          "value": "D"
+          "content": "traditional"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】形容词语义辨析。traditional departments 意为在工程、市场和产品开发等'传统的/常规的'独立部门工作，选 D。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5
     },
     {
       "id": "7410f0ab-abd7-5761-8d7a-8ffe129252d8",
@@ -265,30 +301,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "rumor",
-          "value": "A"
+          "content": "rumor"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "secret",
-          "value": "B"
+          "content": "secret"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "myth",
-          "value": "C"
+          "content": "myth"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "problem",
-          "value": "D"
+          "content": "problem"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】名词语义辨析。The problem was that... 意为公司增长陷入瓶颈的'核心问题/症结'在于过多用户停留在免费版，选 D。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 6,
+      "score": 0.5
     },
     {
       "id": "bf59e906-2fdd-52cd-a4cb-42795d5ed2c8",
@@ -300,30 +342,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "despite",
-          "value": "A"
+          "content": "despite"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unlike",
-          "value": "B"
+          "content": "unlike"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "through",
-          "value": "C"
+          "content": "through"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "besides",
-          "value": "D"
+          "content": "besides"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】介词语义辨析。despite improvements to the premium version 引导让步，表示'尽管'付费升级版推出了改进，依然很少有人付费，选 A。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 7,
+      "score": 0.5
     },
     {
       "id": "2b7193a8-0862-5469-a741-de7624cc12f9",
@@ -335,30 +383,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "moreover",
-          "value": "A"
+          "content": "moreover"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "however",
-          "value": "B"
+          "content": "however"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "therefore",
-          "value": "C"
+          "content": "therefore"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "again",
-          "value": "D"
+          "content": "again"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】逻辑副词辨析。Things changed, however 引导上下文转折，表示'然而'当创新营销经理上任后局面发生转变，选 B。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 8,
+      "score": 0.5
     },
     {
       "id": "e8885d62-abad-5260-9d07-055e5d3102fb",
@@ -370,30 +424,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "inspected",
-          "value": "A"
+          "content": "inspected"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "created",
-          "value": "B"
+          "content": "created"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "expanded",
-          "value": "C"
+          "content": "expanded"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reformed",
-          "value": "D"
+          "content": "reformed"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】动词搭配辨析。created a growth team 意为'创建/组建'了增长团队，选 B。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 9,
+      "score": 0.5
     },
     {
       "id": "24700cfa-84ad-5f52-a70f-ccc413a240bb",
@@ -405,30 +465,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "cultural",
-          "value": "A"
+          "content": "cultural"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "objective",
-          "value": "B"
+          "content": "objective"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "fresh",
-          "value": "C"
+          "content": "fresh"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "personal",
-          "value": "D"
+          "content": "personal"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】形容词语义辨析。sparked the kind of fresh perspective 意为激发了公司亟需的'崭新的/新颖的'跨界思维视角，选 C。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 10,
+      "score": 0.5
     },
     {
       "id": "1820853c-f291-5aa4-bd49-614da3b44afb",
@@ -440,30 +506,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "end",
-          "value": "A"
+          "content": "end"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "burden",
-          "value": "B"
+          "content": "burden"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "lack",
-          "value": "C"
+          "content": "lack"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "decrease",
-          "value": "D"
+          "content": "decrease"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】名词搭配辨析。the lack of upgrades 意为升级人数的'匮乏/不足'并非质量原因，选 C。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 11,
+      "score": 0.5
     },
     {
       "id": "72f4a693-dc06-5d8c-8460-3836615841a0",
@@ -475,30 +547,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "policy",
-          "value": "A"
+          "content": "policy"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "suggestion",
-          "value": "B"
+          "content": "suggestion"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "purpose",
-          "value": "C"
+          "content": "purpose"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "insight",
-          "value": "D"
+          "content": "insight"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】名词语义辨析。Armed with this insight 意为掌握了这一'深刻洞见/深刻认识'后，两团队携手发力，选 D。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 12,
+      "score": 0.5
     },
     {
       "id": "2a7f6e8f-bd63-5962-8d19-b00c86866e1a",
@@ -510,30 +588,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "contributing",
-          "value": "A"
+          "content": "contributing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "allocating",
-          "value": "B"
+          "content": "allocating"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "promoting",
-          "value": "C"
+          "content": "promoting"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "transferring",
-          "value": "D"
+          "content": "transferring"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】动词语义辨析。prominently promoting the premium version 意为向免费版用户显著'推广/推销'高级版，选 C。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 13,
+      "score": 0.5
     },
     {
       "id": "07dd3ca6-ee51-5518-adc7-0fd1a07a150b",
@@ -545,30 +629,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "As a result",
-          "value": "A"
+          "content": "As a result"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "At any rate",
-          "value": "B"
+          "content": "At any rate"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "By the way",
-          "value": "C"
+          "content": "By the way"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In a sense",
-          "value": "D"
+          "content": "In a sense"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】逻辑连词辨析。As a result（结果）引导因果推论，升级量暴增且营收增长92%，选 A。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 14,
+      "score": 0.5
     },
     {
       "id": "8aae2718-fba1-5093-b1a3-cfa686cb36fb",
@@ -580,30 +670,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unite",
-          "value": "A"
+          "content": "unite"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "finance",
-          "value": "B"
+          "content": "finance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "follow",
-          "value": "C"
+          "content": "follow"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "choose",
-          "value": "D"
+          "content": "choose"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】动词搭配辨析。unite the interdisciplinary team 意为能够'团结/凝聚'这支跨学科多元团队的优秀领导者，选 A。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 15,
+      "score": 0.5
     },
     {
       "id": "dfc7172a-6f82-5764-a72e-70b853f7738f",
@@ -615,30 +711,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "share",
-          "value": "A"
+          "content": "share"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "identify",
-          "value": "B"
+          "content": "identify"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "divide",
-          "value": "C"
+          "content": "divide"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "broaden",
-          "value": "D"
+          "content": "broaden"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】动词搭配辨析。identify the target area 意为'识别/找准'目标领域并制定清晰目标，选 B。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 16,
+      "score": 0.5
     },
     {
       "id": "60e3d1ac-8f98-5967-8639-26c925388864",
@@ -650,30 +752,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "announcement",
-          "value": "A"
+          "content": "announcement"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "assessment",
-          "value": "B"
+          "content": "assessment"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "adjustment",
-          "value": "C"
+          "content": "adjustment"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "accomplishment",
-          "value": "D"
+          "content": "accomplishment"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】名词语义辨析。the accomplishment of these goals 意为设定实现这些目标的'达成/完成'时间表，选 D。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 17,
+      "score": 0.5
     },
     {
       "id": "db4c3469-cc74-5a7c-92c1-a96cff37980b",
@@ -685,30 +793,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "famous",
-          "value": "A"
+          "content": "famous"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "responsible",
-          "value": "B"
+          "content": "responsible"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "available",
-          "value": "C"
+          "content": "available"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "respectable",
-          "value": "D"
+          "content": "respectable"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】形容词搭配辨析。responsible for keeping the team focused 意为'负责'保持团队专注前进并排除干扰，选 B。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 18,
+      "score": 0.5
     },
     {
       "id": "60d3fd7c-cd61-5165-b256-2ef05b499103",
@@ -720,30 +834,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Before",
-          "value": "A"
+          "content": "Before"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Once",
-          "value": "B"
+          "content": "Once"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "While",
-          "value": "C"
+          "content": "While"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Unless",
-          "value": "D"
+          "content": "Unless"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】从属连词辨析。While attractive new ideas can be distracting 引导让步状语从句，'尽管'吸引人的新点子可能造成分心，选 C。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 19,
+      "score": 0.5
     },
     {
       "id": "b241ffbb-fd95-5b0d-aa4a-082227fbb263",
@@ -755,30 +875,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "serve",
-          "value": "A"
+          "content": "serve"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "limit",
-          "value": "B"
+          "content": "limit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "summarize",
-          "value": "C"
+          "content": "summarize"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "alter",
-          "value": "D"
+          "content": "alter"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】动词搭配辨析。don't serve the current goal 意为当这些想法'不符合/无助于'当前核心目标时需暂时搁置，选 A。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 20,
+      "score": 0.5
     },
     {
       "id": "d574466f-c1c0-5d3a-8540-07b3e4967597",
@@ -790,30 +916,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is harmful to the environment",
-          "value": "A"
+          "content": "is harmful to the environment"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is a hot topic in gardening circles",
-          "value": "B"
+          "content": "is a hot topic in gardening circles"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is overpraised in the annual show",
-          "value": "C"
+          "content": "is overpraised in the annual show"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is ruining the view of west London",
-          "value": "D"
+          "content": "is ruining the view of west London"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】事实细节题。首段及第二段指出 RHS 因其造成的环境破坏禁止人造草坪参展，明确强调 Artificial grass harms biodiversity and damages our environment，表明 RHS 认为塑料草坪对生态环境有害，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 21,
+      "score": 2.0
     },
     {
       "id": "dcf71bac-37e8-5096-90af-fd6953671a24",
@@ -825,30 +957,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disappointment with the RHS",
-          "value": "A"
+          "content": "disappointment with the RHS"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "resistance to fake grass use",
-          "value": "B"
+          "content": "resistance to fake grass use"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "anger over the proposed tax",
-          "value": "C"
+          "content": "anger over the proposed tax"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "concern about real grass supply",
-          "value": "D"
+          "content": "concern about real grass supply"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第三段指出请愿活动呼吁禁止或对塑料草坪征税并获得数万人签名，reflecting growing resistance among eco-conscious gardeners，直截了当地体现了环保人士对使用人造草坪的抵制态度，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 22,
+      "score": 2.0
     },
     {
       "id": "d4276f57-a143-57de-a0fe-839d9cda9c10",
@@ -860,30 +998,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the necessity to lower the costs of fake grass",
-          "value": "A"
+          "content": "the necessity to lower the costs of fake grass"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the disadvantages of growing real grass",
-          "value": "B"
+          "content": "the disadvantages of growing real grass"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the way to take care of artificial lawns",
-          "value": "C"
+          "content": "the way to take care of artificial lawns"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the challenges of insect habitat protection",
-          "value": "D"
+          "content": "the challenges of insect habitat protection"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第四段人造草坪支持者辩护指出，天然草坪需要消耗大量水源、割草机修剪、除草剂与化肥，这些都会造成不良环境影响，指出了种植天然草坪的诸多缺点，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 23,
+      "score": 2.0
     },
     {
       "id": "d7f1bdc3-aaa5-585d-a946-758bd816de56",
@@ -895,30 +1039,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Urge legislation to restrict its use.",
-          "value": "A"
+          "content": "Urge legislation to restrict its use."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Take measures to guarantee its quality.",
-          "value": "B"
+          "content": "Take measures to guarantee its quality."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Remind its users to obey existing rules.",
-          "value": "C"
+          "content": "Remind its users to obey existing rules."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Replace it with sustainable alternatives.",
-          "value": "D"
+          "content": "Replace it with sustainable alternatives."
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】观点细节题。第五段和第六段指出政府部长们拒绝全面立法禁止或加税，持中立态度，强调使用者必须遵守现有的法律与政策保护准则即可，即提醒使用者遵守现行规定，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 24,
+      "score": 2.0
     },
     {
       "id": "ef17a714-ee83-5d96-8746-2d6643be283f",
@@ -930,30 +1080,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is being improved continuously",
-          "value": "A"
+          "content": "is being improved continuously"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "has seen a market share decline",
-          "value": "B"
+          "content": "has seen a market share decline"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is becoming increasingly affordable",
-          "value": "C"
+          "content": "is becoming increasingly affordable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has been a controversial product",
-          "value": "D"
+          "content": "has been a controversial product"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】主旨推断题。全篇围绕人造塑料草坪展开，介绍了环保反对者、商业支持者及政府中立态度之间的尖锐博弈，末段总结指出这是现代园艺中争议最大的议题之一（one of the most controversial issues），选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 25,
+      "score": 2.0
     },
     {
       "id": "8a009fe7-c112-5a5f-967b-d811e21aedb1",
@@ -965,30 +1121,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Decline of business profits.",
-          "value": "A"
+          "content": "Decline of business profits."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Inadequate commercialization.",
-          "value": "B"
+          "content": "Inadequate commercialization."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Lack of transportation services.",
-          "value": "C"
+          "content": "Lack of transportation services."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Poorly maintained infrastructure.",
-          "value": "D"
+          "content": "Poorly maintained infrastructure."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。首段指出国家公园系统面临存在危机：数十亿美元的延期维护、道路老化、游客中心坍塌和排污系统年久失修（deteriorating roads, crumbling visitor centers），即基础设施维护状况极其糟糕，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26,
+      "score": 2.0
     },
     {
       "id": "e8fbe148-fb83-54f1-8345-cead875ce715",
@@ -1000,30 +1162,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "spoil visitor experience",
-          "value": "A"
+          "content": "spoil visitor experience"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "help preserve nature",
-          "value": "B"
+          "content": "help preserve nature"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "bring operational pressure",
-          "value": "C"
+          "content": "bring operational pressure"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "boost visits to parks",
-          "value": "D"
+          "content": "boost visits to parks"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】观点推断题。第四段批评将营地私有化给商业企业会转变成仅供富人消费的排他性度假村，degrade wildlife habitats and dilute the wilderness experience，削弱并破坏游客真实的自然体验，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0
     },
     {
       "id": "ea785cdd-0e4c-537b-8ee5-d637fcd24cdd",
@@ -1035,30 +1203,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "go to the national parks on a regular basis",
-          "value": "A"
+          "content": "go to the national parks on a regular basis"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "advocate a bigger budget for the national parks",
-          "value": "B"
+          "content": "advocate a bigger budget for the national parks"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "agree to pay extra for the national parks",
-          "value": "C"
+          "content": "agree to pay extra for the national parks"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "support the national parks' recent reforms",
-          "value": "D"
+          "content": "support the national parks' recent reforms"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第五段经济调查指出 an overwhelming majority expressed willingness to pay higher federal taxes to ensure parks are adequately funded，绝大多数受访者愿意多缴联邦税款来保障国家公园的公共维护，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28,
+      "score": 2.0
     },
     {
       "id": "7fcc348f-df57-5e97-8a4c-cc19d3dcfdfb",
@@ -1070,30 +1244,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "lead the way in tourism",
-          "value": "A"
+          "content": "lead the way in tourism"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have historical significance",
-          "value": "B"
+          "content": "have historical significance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sponsor research on climate",
-          "value": "C"
+          "content": "sponsor research on climate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "provide an income for the locals",
-          "value": "D"
+          "content": "provide an income for the locals"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。末段明确指出国家公园具有深远价值，不仅是休闲胜地和生物多样性宝库，更是 living monuments to American history（美国历史的鲜活纪念碑），具备重大历史意义，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 29,
+      "score": 2.0
     },
     {
       "id": "aefd0e74-939f-5ae6-a570-abc604fc6e63",
@@ -1105,30 +1285,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is able to cope with staff shortages",
-          "value": "A"
+          "content": "is able to cope with staff shortages"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is able to meet visitors' demands",
-          "value": "B"
+          "content": "is able to meet visitors' demands"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is in need of a new pricing policy",
-          "value": "C"
+          "content": "is in need of a new pricing policy"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is in need of a funding increase",
-          "value": "D"
+          "content": "is in need of a funding increase"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】主旨推断题。全文梳理国家公园 220 亿美元的维护赤字以及私有化弊端，末段总结呼吁立法机构提供可靠且长久的公共财政资金（provide reliable, permanent public funding），即亟需增加公共财政拨款，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30,
+      "score": 2.0
     },
     {
       "id": "ac5badd6-5b37-5218-9661-e32e46a3c373",
@@ -1140,30 +1326,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "focuses more on trivial facts",
-          "value": "A"
+          "content": "focuses more on trivial facts"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "struggles to adapt to technologies",
-          "value": "B"
+          "content": "struggles to adapt to technologies"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "changes its focus of memory",
-          "value": "C"
+          "content": "changes its focus of memory"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "takes longer to retain information",
-          "value": "D"
+          "content": "takes longer to retain information"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。首段及第二段 Sparrow 教授的实验证明互联网让人们善于记住何处能找到信息而非死记具体信息本身（remembering where to find information rather than memorizing the information itself），表明人类大脑改变了记忆关注的焦点，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31,
+      "score": 2.0
     },
     {
       "id": "454d83ec-a71b-5c33-af70-7c22d9a8ef69",
@@ -1175,30 +1367,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "helps us identify false information",
-          "value": "A"
+          "content": "helps us identify false information"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "distracts us from our current tasks",
-          "value": "B"
+          "content": "distracts us from our current tasks"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "frees up mental energy for thinking",
-          "value": "C"
+          "content": "frees up mental energy for thinking"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enhances our memory burdens",
-          "value": "D"
+          "content": "enhances our memory burdens"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段明确解释 cognitive offloading 能够将存储琐事的负担委派给数字设备，freeing up mental bandwidth for other cognitive processes（释放大脑带宽以用于其他高阶认知过程），选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "score": 2.0
     },
     {
       "id": "6db047af-4a1d-556b-9843-18b9170f9fa4",
@@ -1210,30 +1408,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It may reform our learning approach.",
-          "value": "A"
+          "content": "It may reform our learning approach."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It may impact our society negatively.",
-          "value": "B"
+          "content": "It may impact our society negatively."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It may enhance our adaptability to technology.",
-          "value": "C"
+          "content": "It may enhance our adaptability to technology."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It may interfere with our conceptual thinking.",
-          "value": "D"
+          "content": "It may interfere with our conceptual thinking."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】观点推断题。第二段末尾 Sparrow 认为这种数字转向并不意味着思维退化，而是认知习惯为了利用强大工具所发生的演进（cognitive habits are evolving），支持互联网改变和重塑了我们的学习与获取知识的方式，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 33,
+      "score": 2.0
     },
     {
       "id": "0946f686-e2e5-5593-8f07-8f4c09bae484",
@@ -1245,30 +1449,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "requires further academic research",
-          "value": "A"
+          "content": "requires further academic research"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is most studied in older adults",
-          "value": "B"
+          "content": "is most studied in older adults"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is reflected in our reading speed",
-          "value": "C"
+          "content": "is reflected in our reading speed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "depends on our web-surfing habits",
-          "value": "D"
+          "content": "depends on our web-surfing habits"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】事实细节题。第四段指出实证研究尚处于起步阶段（in their infancy），目前要确定长时间沉浸是否会从根本上改变认知寿命仍为时过早（remains too soon to know），需要开展更深入的学术研究，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 34,
+      "score": 2.0
     },
     {
       "id": "ef8e4191-67a1-5aca-b7f9-60cb4e73c643",
@@ -1280,30 +1490,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "our reliance on the Internet will be costly",
-          "value": "A"
+          "content": "our reliance on the Internet will be costly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the Internet is weakening our memory",
-          "value": "B"
+          "content": "the Internet is weakening our memory"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "memory exercise is a must for our brains",
-          "value": "C"
+          "content": "memory exercise is a must for our brains"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "our ability to focus declines with age",
-          "value": "D"
+          "content": "our ability to focus declines with age"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】观点细节题。末段明确指出 Neither Sparrow nor Storm believes that the Internet is rotting our minds or permanently destroying our capacity to remember，两位学者均不同意互联网正在削弱人类记忆力这一悲观断言，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0
     },
     {
       "id": "eaf4e867-acd4-54cf-8617-409130b3e417",
@@ -1315,30 +1531,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "develop opposite personality traits",
-          "value": "A"
+          "content": "develop opposite personality traits"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "see the world in an unreasonable way",
-          "value": "B"
+          "content": "see the world in an unreasonable way"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "have fond memories of their past",
-          "value": "C"
+          "content": "have fond memories of their past"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "show affection for their parents",
-          "value": "D"
+          "content": "show affection for their parents"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】事实细节题。首段指出青春期是一个令人困惑的矛盾时期（paradoxical period marked by bewildering contradictions），一方面极具同理心与利他心，另一方面又喜怒无常且鲁莽冒险，表现出截然相反的人格特质，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 36,
+      "score": 2.0
     },
     {
       "id": "9f39aa89-1fd7-5aff-bf7d-b13444bce87e",
@@ -1350,30 +1572,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "explores teenagers' social responsibilities",
-          "value": "A"
+          "content": "explores teenagers' social responsibilities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "examines teenagers' emotional problems",
-          "value": "B"
+          "content": "examines teenagers' emotional problems"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "provides a new insight into adolescence",
-          "value": "C"
+          "content": "provides a new insight into adolescence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "highlights negative adolescent behavior",
-          "value": "D"
+          "content": "highlights negative adolescent behavior"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第二段指出以往心理学只强调消极面，但克罗恩的新研究提供了 fresh, more nuanced perspective，打破旧观念，强调青春期是一扇进化中的机遇之窗，为理解青春期提供了全新的洞见视角，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 37,
+      "score": 2.0
     },
     {
       "id": "07b01303-3a27-55db-a4ef-e8d22b922bf2",
@@ -1385,30 +1613,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It results from the wish to cooperate.",
-          "value": "A"
+          "content": "It results from the wish to cooperate."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It is cultivated through education.",
-          "value": "B"
+          "content": "It is cultivated through education."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It is subject to family influence.",
-          "value": "C"
+          "content": "It is subject to family influence."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It tends to peak in adolescence.",
-          "value": "D"
+          "content": "It tends to peak in adolescence."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】事实细节题。第四段指出 Crucially, the study showed that prosocial behavior follows the same developmental trajectory as risk-taking: both tend to peak during middle-to-late adolescence，亲社会行为在青少年时期趋于最高峰，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 38,
+      "score": 2.0
     },
     {
       "id": "c01fb7d7-5c7f-5565-8e54-0b01a0541e6c",
@@ -1420,30 +1654,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "overstress their influence on others",
-          "value": "A"
+          "content": "overstress their influence on others"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "care a lot about social recognition",
-          "value": "B"
+          "content": "care a lot about social recognition"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "become anxious about their future",
-          "value": "C"
+          "content": "become anxious about their future"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "endeavor to live a joyful life",
-          "value": "D"
+          "content": "endeavor to live a joyful life"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】推断题。最后两段剖析青少年行为背后的回报敏感性（reward sensitivity），指出他们 hypersensitive to social recognition, praise, and peer approval，极为在意同伴认可与社交赞赏，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39,
+      "score": 2.0
     },
     {
       "id": "fffa6286-825d-5895-b23c-db20f73a5d01",
@@ -1455,30 +1695,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Why teenagers are self-contradictory.",
-          "value": "A"
+          "content": "Why teenagers are self-contradictory."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Why teenagers are risk-sensitive.",
-          "value": "B"
+          "content": "Why teenagers are risk-sensitive."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "How teenagers develop prosociality.",
-          "value": "C"
+          "content": "How teenagers develop prosociality."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "How teenagers become independent.",
-          "value": "D"
+          "content": "How teenagers become independent."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】主旨大意题。文章开篇提出青少年兼具利他与叛逆的自我矛盾特性（paradoxical），中间阐述克罗恩团队证实两者共存的研究，最后探讨大脑回报敏感性如何促成这一矛盾现象，全文核心围绕青少年为何具有自我矛盾性展开，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 40,
+      "score": 2.0
     },
     {
       "id": "461cc50c-2e84-5a7e-acd2-3942e5e1ad7d",
@@ -1490,45 +1736,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The rise of home prices is a temporary matter.",
-          "value": "A"
+          "content": "The rise of home prices is a temporary matter."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Builders possibly need to submit new estimates of their projects.",
-          "value": "B"
+          "content": "Builders possibly need to submit new estimates of their projects."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There will be specific limits on home extensions to prevent heat loss.",
-          "value": "C"
+          "content": "There will be specific limits on home extensions to prevent heat loss."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The new rules will take home prices to an even higher level.",
-          "value": "D"
+          "content": "The new rules will take home prices to an even higher level."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Many people feel that home prices are already beyond what they can afford.",
-          "value": "E"
+          "content": "Many people feel that home prices are already beyond what they can afford."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "The new rules will affect people whose home extensions include new windows or doors.",
-          "value": "F"
+          "content": "The new rules will affect people whose home extensions include new windows or doors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The rule changes will benefit homeowners eventually.",
-          "value": "G"
+          "content": "The rule changes will benefit homeowners eventually."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】多项对应题。第四段布雷恩·贝里（Brian Berry）指出新规要求安装新材料和系统，在物价高企之际进一步加重成本，消费者必然承担更高费用（consumers will have to pay more），对应 D 项'新规将使房价上升到更高的水平'，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 41,
+      "score": 2.0
     },
     {
       "id": "bad16475-78b9-5935-9d2b-c0ba975f45e7",
@@ -1540,45 +1795,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The rise of home prices is a temporary matter.",
-          "value": "A"
+          "content": "The rise of home prices is a temporary matter."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Builders possibly need to submit new estimates of their projects.",
-          "value": "B"
+          "content": "Builders possibly need to submit new estimates of their projects."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There will be specific limits on home extensions to prevent heat loss.",
-          "value": "C"
+          "content": "There will be specific limits on home extensions to prevent heat loss."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The new rules will take home prices to an even higher level.",
-          "value": "D"
+          "content": "The new rules will take home prices to an even higher level."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Many people feel that home prices are already beyond what they can afford.",
-          "value": "E"
+          "content": "Many people feel that home prices are already beyond what they can afford."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "The new rules will affect people whose home extensions include new windows or doors.",
-          "value": "F"
+          "content": "The new rules will affect people whose home extensions include new windows or doors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The rule changes will benefit homeowners eventually.",
-          "value": "G"
+          "content": "The rule changes will benefit homeowners eventually."
         }
       ],
       "correct_answer": "F",
       "explanation": "【考点精析】多项对应题。第五段加雷斯·贝尔沙姆（Gareth Belsham）指出进行房屋扩建的业主将受直接影响，新规针对供暖与隔热，任何新装门窗必须高度隔热，对应 F 项'新规将影响到那些需要新装门窗进行房屋扩建的人'，选 F。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 42,
+      "score": 2.0
     },
     {
       "id": "b0caf21a-8dfc-5056-a61c-e87cca9a1ab5",
@@ -1590,45 +1854,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The rise of home prices is a temporary matter.",
-          "value": "A"
+          "content": "The rise of home prices is a temporary matter."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Builders possibly need to submit new estimates of their projects.",
-          "value": "B"
+          "content": "Builders possibly need to submit new estimates of their projects."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There will be specific limits on home extensions to prevent heat loss.",
-          "value": "C"
+          "content": "There will be specific limits on home extensions to prevent heat loss."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The new rules will take home prices to an even higher level.",
-          "value": "D"
+          "content": "The new rules will take home prices to an even higher level."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Many people feel that home prices are already beyond what they can afford.",
-          "value": "E"
+          "content": "Many people feel that home prices are already beyond what they can afford."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "The new rules will affect people whose home extensions include new windows or doors.",
-          "value": "F"
+          "content": "The new rules will affect people whose home extensions include new windows or doors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The rule changes will benefit homeowners eventually.",
-          "value": "G"
+          "content": "The rule changes will benefit homeowners eventually."
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】多项对应题。第九段马库斯·杰福德（Marcus Jefford）指出已经完成项目成本核算但尚未提交备案的建筑商，可能需要重新计算并提交新的估算结果（submit fresh estimates），对应 B 项'建筑商可能需要提交新的项目成本估算结果'，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 43,
+      "score": 2.0
     },
     {
       "id": "e4ac3b7b-2ba3-5ee1-9574-8d9a19129aaf",
@@ -1640,45 +1913,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The rise of home prices is a temporary matter.",
-          "value": "A"
+          "content": "The rise of home prices is a temporary matter."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Builders possibly need to submit new estimates of their projects.",
-          "value": "B"
+          "content": "Builders possibly need to submit new estimates of their projects."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There will be specific limits on home extensions to prevent heat loss.",
-          "value": "C"
+          "content": "There will be specific limits on home extensions to prevent heat loss."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The new rules will take home prices to an even higher level.",
-          "value": "D"
+          "content": "The new rules will take home prices to an even higher level."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Many people feel that home prices are already beyond what they can afford.",
-          "value": "E"
+          "content": "Many people feel that home prices are already beyond what they can afford."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "The new rules will affect people whose home extensions include new windows or doors.",
-          "value": "F"
+          "content": "The new rules will affect people whose home extensions include new windows or doors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The rule changes will benefit homeowners eventually.",
-          "value": "G"
+          "content": "The rule changes will benefit homeowners eventually."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】多项对应题。第十一段约翰·凯利（John Kelly）指出房价最终肯定会回落（prices will eventually come down），虽然短期需要承担转型代价，但长远看技术扩张会降低成本，对应 A 项'房价的上涨是暂时的'，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 44,
+      "score": 2.0
     },
     {
       "id": "ff6681b8-5356-5093-9758-9e3f848fa695",
@@ -1690,46 +1972,58 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The rise of home prices is a temporary matter.",
-          "value": "A"
+          "content": "The rise of home prices is a temporary matter."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Builders possibly need to submit new estimates of their projects.",
-          "value": "B"
+          "content": "Builders possibly need to submit new estimates of their projects."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There will be specific limits on home extensions to prevent heat loss.",
-          "value": "C"
+          "content": "There will be specific limits on home extensions to prevent heat loss."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The new rules will take home prices to an even higher level.",
-          "value": "D"
+          "content": "The new rules will take home prices to an even higher level."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Many people feel that home prices are already beyond what they can afford.",
-          "value": "E"
+          "content": "Many people feel that home prices are already beyond what they can afford."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "The new rules will affect people whose home extensions include new windows or doors.",
-          "value": "F"
+          "content": "The new rules will affect people whose home extensions include new windows or doors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The rule changes will benefit homeowners eventually.",
-          "value": "G"
+          "content": "The rule changes will benefit homeowners eventually."
         }
       ],
       "correct_answer": "G",
       "explanation": "【考点精析】多项对应题。第十二段安德鲁·梅勒（Andrew Mellor）补充指出新规长远影响是提升能效，房主可以通过节省能源账单收回成本，长远看终将从中受益（have that benefit over time），对应 G 项'法规变动最终会使房主受益'，选 G。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 45,
+      "score": 2.0
     }
   ],
-  "exportedAt": "2026-10-15T11:40:12.854Z"
+  "exportedAt": "2026-10-15T11:40:12.854Z",
+  "title": "2023年全国硕士研究生招生考试英语（二）真题",
+  "total_score": 60.0,
+  "pass_score": 36.0
 }
