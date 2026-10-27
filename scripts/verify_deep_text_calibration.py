@@ -178,6 +178,7 @@ def main():
     round78_anomalies = []
     round79_anomalies = []
     round80_anomalies = []
+    round81_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -2634,6 +2635,115 @@ def main():
                         if not opt_k or (not opt_t and not opt_c):
                             round80_anomalies.append((f'2024_ky1_q{i}_opt_invalid', opt_k, opt_t))
 
+
+        
+        if yr == 2024 and cat == 'ky2':
+            if title != '2024年全国硕士研究生招生考试英语（二）真题':
+                round81_anomalies.append(('2024_ky2_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round81_anomalies.append(('2024_ky2_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round81_anomalies.append(('2024_ky2_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round81_anomalies.append(('2024_ky2_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 4 paras, 347 words, Balance Your Social Life
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round81_anomalies.append(('2024_ky2_cloze_paras', len(c_paras)))
+                if "Your social life is defined as" not in cloze.get("content", ""):
+                    round81_anomalies.append(('2024_ky2_cloze_start', cloze.get("content", "")[:50]))
+                if not cloze.get("content", "").endswith("[20] and recover."):
+                    round81_anomalies.append(('2024_ky2_cloze_end', cloze.get("content", "")[-40:]))
+
+                # Text 1: 8 paras, 398 words, Diane Coyle Cogs and Monsters
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 8:
+                    round81_anomalies.append(('2024_ky2_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle"):
+                    round81_anomalies.append(('2024_ky2_t1_start', t1.get("content", "")[:50]))
+                if not t1.get("content", "").endswith("education, and manufacturing."):
+                    round81_anomalies.append(('2024_ky2_t1_end', t1.get("content", "")[-50:]))
+
+                # Text 2: 5 paras, 394 words, UK timber shortage
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 5:
+                    round81_anomalies.append(('2024_ky2_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("The UK is facing a future construction crisis because of a failure to plant trees to produce wood"):
+                    round81_anomalies.append(('2024_ky2_t2_start', t2.get("content", "")[:50]))
+                if not t2.get("content", "").endswith("meet increasing demand.”") and not t2.get("content", "").endswith('meet increasing demand."'):
+                    round81_anomalies.append(('2024_ky2_t2_end', t2.get("content", "")[-50:]))
+
+                # Text 3: 6 paras, 384 words, Unsafe aging drivers
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 6:
+                    round81_anomalies.append(('2024_ky2_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("One of the biggest challenges in keeping unsafe aging drivers off the road"):
+                    round81_anomalies.append(('2024_ky2_t3_start', t3.get("content", "")[:50]))
+                if not t3.get("content", "").endswith("can drive comfortably.”") and not t3.get("content", "").endswith('can drive comfortably."'):
+                    round81_anomalies.append(('2024_ky2_t3_end', t3.get("content", "")[-50:]))
+
+                # Text 4: 5 paras, 419 words, Health app data privacy
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 5:
+                    round81_anomalies.append(('2024_ky2_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("If you look at the apps on your phone, chances are you have at least one related to your health"):
+                    round81_anomalies.append(('2024_ky2_t4_start', t4.get("content", "")[:50]))
+                if not t4.get("content", "").endswith("state consumer data privacy legislation."):
+                    round81_anomalies.append(('2024_ky2_t4_end', t4.get("content", "")[-50:]))
+
+                # Part B: 9 paras (1 title + 8 paras), 518 words, Extracurricular activities
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 9:
+                    round81_anomalies.append(('2024_ky2_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("How Colleges Weigh Applicants’ Extracurricular Activities") and not pb.get("content", "").startswith("How Colleges Weigh Applicants' Extracurricular Activities"):
+                    round81_anomalies.append(('2024_ky2_pb_start', pb.get("content", "")[:50]))
+                if not pb.get("content", "").endswith("Atlanta, a nonprofit organization."):
+                    round81_anomalies.append(('2024_ky2_pb_end', pb.get("content", "")[-50:]))
+
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round81_anomalies.append(('2024_ky2_questions_count', len(q_list)))
+            else:
+                exp_answers = {
+                    1: 'C', 2: 'B', 3: 'A', 4: 'D', 5: 'A', 6: 'C', 7: 'B', 8: 'B', 9: 'D', 10: 'A',
+                    11: 'D', 12: 'A', 13: 'B', 14: 'C', 15: 'C', 16: 'A', 17: 'C', 18: 'D', 19: 'B', 20: 'D',
+                    21: 'C', 22: 'C', 23: 'D', 24: 'A', 25: 'D', 26: 'A', 27: 'A', 28: 'B', 29: 'D', 30: 'C',
+                    31: 'C', 32: 'D', 33: 'B', 34: 'B', 35: 'B', 36: 'A', 37: 'A', 38: 'D', 39: 'B', 40: 'D',
+                    41: 'C', 42: 'E', 43: 'A', 44: 'G', 45: 'B'
+                }
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round81_anomalies.append((f'2024_ky2_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round81_anomalies.append((f'2024_ky2_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round81_anomalies.append((f'2024_ky2_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round81_anomalies.append((f'2024_ky2_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    ans = q.get('correct_answer') or q.get('answer')
+                    if ans != exp_answers.get(i):
+                        round81_anomalies.append((f'2024_ky2_q{i}_ans', ans, exp_answers.get(i)))
+
+                    exp_opts_count = 4 if i <= 40 else 7
+                    opts = q.get('options', [])
+                    if len(opts) != exp_opts_count:
+                        round81_anomalies.append((f'2024_ky2_q{i}_opts_count', len(opts)))
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        opt_c = opt.get('content', '')
+                        if not opt_k or (not opt_t and not opt_c):
+                            round81_anomalies.append((f'2024_ky2_q{i}_opt_invalid', opt_k, opt_t))
 
         passages = data.get('passages', [])
         questions = data.get('questions', [])
@@ -5241,6 +5351,7 @@ def main():
     results["Assertion 100: 2023 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段281词理顺丝绸之路驿站驿舍、Text 1 恢复7段443词理顺德州气候教育争议与能源行业教材、Text 2 恢复9段464词理顺新英格兰短租监管与季节工人住房危机、Text 3 恢复7段412词理顺水石书店与企鹅兰登信用额度争议、Text 4 恢复6段360词理顺学术论文引用堆积作弊与Scopus审查算法、Part B 恢复8段594词彻底切除Directions并规范黄石公园150周年[A]-[H]8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round78_anomalies) == 0)
     results["Assertion 101: 2023 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段349词理顺增长团队与BitTorrent案例、Text 1 恢复6段318词理顺英国皇家园艺学会禁止人造草坪参展博弈、Text 2 恢复6段284词理顺美国国家公园220亿美元基建赤字与营地私有化争议、Text 3 恢复5段277词理顺认知卸载与互联网对人类记忆模式重塑、Text 4 恢复5段268词理顺青少年利他与叛逆并存的神经回报敏感性、Part B 恢复13段574词彻底切除Directions并规范净零建筑新规12段与5人多项对应、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round79_anomalies) == 0)
     results["Assertion 102: 2024 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词理顺自动门演化机制、Text 1 彻底治愈4段残缺恢复7段424词完整篇章理顺罗马钉子与低价技术变革、Text 2 治愈假造文本恢复7段417词理顺非洲狩猎采集者异亲养育与英国托儿所对比、Text 3 治愈假造文本恢复8段437词理顺鲁特科夫斯基与AI图像盗用、Text 4 治愈假造文本恢复5段426词理顺切萨皮克湾湿地与最高法院爱达荷裁决、Part B 恢复5段669词彻底剔除伪7选5段落恢复5人关于海外掠夺文物归还观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round80_anomalies) == 0)
+    results["Assertion 103: 2024 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段347词理顺社交生活平衡、Text 1 恢复8段398词理顺戴安娜·科伊尔《齿轮与怪物》经济包容性、Text 2 恢复5段394词理顺英国木材种植危机与建筑净零瓶颈、Text 3 恢复6段384词理顺高龄不安全驾驶员与适老汽车、Text 4 恢复5段419词理顺健康应用数据隐私立法、Part B 恢复9段518词彻底清除Directions与多余选项恢复大学申请课外活动5人观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round81_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5267,6 +5378,8 @@ def main():
             print(f"Round 79 anomalies ({len(round79_anomalies)}):", round79_anomalies[:10])
         if round80_anomalies:
             print(f"Round 80 anomalies ({len(round80_anomalies)}):", round80_anomalies[:10])
+        if round81_anomalies:
+            print(f"Round 81 anomalies ({len(round81_anomalies)}):", round81_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])

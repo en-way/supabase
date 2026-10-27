@@ -2,12 +2,12 @@
   "exam": {
     "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
     "category_id": "ky2",
-    "title": "2024年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2024年全国硕士研究生招生考试英语（二）真题",
     "year": 2024,
     "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
+    "duration_minutes": 180,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-09-19T16:09:01.089647+00:00",
     "approval_status": "approved",
@@ -28,10 +28,11 @@
       "id": "32b062f2-1e30-4aaf-8069-0bcfbd3ee534",
       "exam_id": "9286880b-8738-4d73-8697-e70bdd8257c6",
       "category_id": "ky2",
-      "section_type": "cloze",
+      "section_type": "use_of_english",
       "title": "Section I: Use of English",
-      "content": "Directions: Read the following text. Choose the best word(s) for each numbered blank and mark A, B, C or D on the ANSWER SHEET. (10 points)\n\nYour social life is defined as “the activities you do with other people, for pleasure, when you are not working”. It’s important to have a social life, but what’s right for one person won’t be right for another. Some of us feel energised by spending lots of time with others, [1] some of us may feel drained, even if it’s doing something we enjoy.\n\nThis is why finding a [2] in your social life is key. Spending too much time on your own, not [3] others, can make you feel lonely and [4]. Loneliness is known to impact on your mental health and [5] a low mood. Anyone can feel lonely at any time. This might be especially true if, [6], you are working from home and you are [7] on the usual social conversations that happen in an office. Other life changes can [8] periods of loneliness too, such as retirement, changing jobs or becoming a parent.\n\nIt’s important to recognise these feelings of loneliness. There are ways to [9] a social life, but it can feel overwhelming [10]. It’s a great idea to start by thinking about hobbies you enjoy. You can then find groups and activities related to those where you will be able to meet [11] people. There are groups aimed at new parents, at those who want to [12] a new sport for the first time, or networking events for those in the same profession to meet up and [13] ideas.\n\nOn the other hand, it’s [14] possible to have too much of a social life. If you feel like you’re always doing something and there is never any [15] in your calendar for downtime, you could suffer social burnout or social [16]. We all have our own social limit and it’s important to recognise when you’re feeling like it’s all too much. Low mood, low energy, irritability and trouble sleeping could all be [17] of poor social health. Make sure you [18] some time in your diary when you’re [19] for socialising and use this time to relax, [20] and recover.",
-      "sort_order": 1
+      "content": "Your social life is defined as “the activities you do with other people, for pleasure, when you are not working”. It’s important to have a social life, but what’s right for one person won’t be right for another. Some of us feel energised by spending lots of time with others, [1] some of us may feel drained, even if it’s doing something we enjoy.\n\nThis is why finding a [2] in your social life is key. Spending too much time on your own, not [3] others, can make you feel lonely and [4]. Loneliness is known to impact on your mental health and [5] a low mood. Anyone can feel lonely at any time. This might be especially true if, [6], you are working from home and you are [7] on the usual social conversations that happen in an office. Other life changes can [8] periods of loneliness too, such as retirement, changing jobs or becoming a parent.\n\nIt’s important to recognise these feelings of loneliness. There are ways to [9] a social life, but it can feel overwhelming [10]. It’s a great idea to start by thinking about hobbies you enjoy. You can then find groups and activities related to those where you will be able to meet [11] people. There are groups aimed at new parents, at those who want to [12] a new sport for the first time, or networking events for those in the same profession to meet up and [13] ideas.\n\nOn the other hand, it’s [14] possible to have too much of a social life. If you feel like you’re always doing something and there is never any [15] in your calendar for downtime, you could suffer social burnout or social [16]. We all have our own social limit and it’s important to recognise when you’re feeling like it’s all too much. Low mood, low energy, irritability and trouble sleeping could all be [17] of poor social health. Make sure you [18] some time in your diary when you’re [19] for socialising and use this time to relax, [20] and recover.",
+      "sort_order": 1,
+      "passage_type": "cloze"
     },
     {
       "id": "5ecb8b51-008e-4dbd-9669-ba9955006bfe",
@@ -40,7 +41,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "In her new book Cogs and Monsters: What Economics Is, and What It Should Be, Diane Coyle, an economist at Cambridge University, argues that the digital economy requires new ways of thinking about progress. “Whatever we mean by the economy growing, by things getting better, the gains will have to be more evenly shared than in the recent past,” she writes. “An economy of tech millionaires or billionaires and gig workers, with middle-income jobs undercut by automation, will not be politically sustainable.”\n\nImproving living standards and increasing prosperity for more people will require greater use of digital technologies to boost productivity in various sectors, including health care and construction, says Coyle. But people can’t be expected to embrace the changes if they’re not seeing the benefits—if they’re just seeing good jobs being destroyed.\n\nIn a recent interview, Coyle said she fears that tech’s inequality problem could be a roadblock to deploying AI. “We’re talking about disruption,” she says. “These are transformative technologies that change the ways we spend our time every day, that change business models that succeed.” To make such “tremendous changes,” she adds, you need social buy-in.\n\nInstead, says Coyle, resentment is simmering among many as the benefits are perceived to go to elites in a handful of prosperous cities.\n\nAccording to the Brookings Institution, a short list of eight American cities that included San Francisco, San Jose, Boston, and Seattle had roughly 38% of all tech jobs by 2019. New AI technologies are particularly concentrated: Brookings’s Mark Muro and Sifan Liu estimate that just 15 cities account for two-thirds of the AI assets and capabilities in the United States.\n\nThe dominance of a few cities in the invention and commercialization of AI means that geographical disparities in wealth will continue to soar. Not only will this foster political and social unrest, but it could, as Coyle suggests, hold back the sorts of AI technologies needed for regional economies to grow.\n\nPart of the solution could lie in somehow loosening the stranglehold that Big Tech has on defining the AI agenda. That will likely take increased federal funding for research independent of the tech giants.\n\nA more immediate response is to broaden our digital imaginations to conceive of AI technologies that don’t simply replace jobs but expand opportunities in the sectors that different parts of the country care most about, like health care, education, and manufacturing.",
-      "sort_order": 2
+      "sort_order": 2,
+      "passage_type": null
     },
     {
       "id": "96ab343a-fe75-4ea3-b145-46bd2944c9cc",
@@ -49,7 +51,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "The UK is facing a future construction crisis because of a failure to plant trees to produce wood, Confor has warned. The forestry and wood trade body has called for urgent action to reduce the country’s reliance on timber imports and provide a stable supply of wood for future generations. Currently only 20 per cent of the UK’s wood requirement is home-grown while it remains the second-largest net importer of timber in the world.\n\nComing at a time of fresh incentives from the UK government for landowners to grow more trees, the trade body says these don’t go far enough and fail to promote the benefits of planting them to boost timber supplies. “Not only are we facing a carbon crisis now, but we will also be facing a future construction crisis because of a failure to plant trees to produce wood,” said Stuart Goodall, chief executive of Confor. “For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices and fighting for future supplies of wood as global demand rises and our own supplies fall.”\n\nThe UK has ideal conditions for growing wood to build low-carbon homes and is a global leader in certifying that its forests are sustainably managed, Confor says. While around three quarters of Scottish homes are built from Scottish timber, the use of home-grown wood in England is only around 25 per cent. The causes of the UK’s current position are complex and range from outdated perceptions of productive forestry to the decimation of trees by grey squirrels. It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects.\n\nWhile productive tree planting can deliver real financial benefits to rural economies and contribute to the UK’s net-zero strategy, the focus of government support continues to be on food production and the rewilding and planting of native woodland solely for biodiversity. Goodall added: “While food production and biodiversity health are clearly of critical importance, we need our land to also provide secure supplies of wood for construction, manufacturing and contribute to net zero.”\n\n“While the UK government has stated its ambition for more tree planting, there has been little action on the ground. Confor is now calling for much greater impetus behind those aspirations to ensure we have enough wood to meet increasing demand.”",
-      "sort_order": 3
+      "sort_order": 3,
+      "passage_type": null
     },
     {
       "id": "aa217ca1-a312-4c16-ae1d-f13a10b513bf",
@@ -58,7 +61,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "One of the biggest challenges in keeping unsafe aging drivers off the road is convincing them that it’s time to turn over the keys. “It’s a complete life-changer” when someone stops—or is forced to stop—driving, said former risk manager Anne M. Menke.\n\n“The American Medical Association advises physicians that ‘in situations where clear evidence of substantial driving impairment implies a strong threat to patient and public safety, and where the physician’s advice to discontinue driving privileges is ignored, it is desirable and ethical to notify the Department of Motor Vehicles,’” Menke wrote. “Some states require physicians to report, others allow but do not mandate reports, while a few consider a report a breach of confidentiality. There could be liability and penalties if a physician does not act in accordance with state laws on reporting and confidentiality,” she counseled.\n\nPart of the problem in keeping older drivers safe is that the difficulties are addressed piecemeal by different professions with different focuses, including gerontologists, highway administration officials, automotive engineers and others, said gerontologist Elizabeth Dugan. “There’s not a National Institute of Older Driver Studies,” she said. “We need better evidence on what makes drivers unsafe” and what can help, said Dugan.\n\nOne thing that does seem to work is requiring drivers to report in person for license renewal. Mandatory in-person renewal was associated with a 31 percent reduction in fatal crashes involving drivers 85 or older, according to one study. Passing vision tests also produced a similar decline in fatal crashes for those drivers, although there appeared to be no benefit from combining the two.\n\nMany older drivers don’t see eye doctors or can’t afford to. Primary care providers have their hands full and may not be able to follow through with patients who have trouble driving because they can’t turn their heads or remember where they are going—or have gotten shorter and haven’t changed their seat settings sufficiently to reach car pedals easily.\n\nAs long as there are other cars on the roads, self-driving cars won’t solve the problems of crashes, said Dugan. Avoiding dangers posed by all those human drivers would require too many algorithms, she said. But we need to do more to improve safety, said Dugan. “If we’re going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”",
-      "sort_order": 4
+      "sort_order": 4,
+      "passage_type": null
     },
     {
       "id": "28ff6ad9-13d7-42d6-abfa-066d999f0d66",
@@ -67,7 +71,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "If you look at the apps on your phone, chances are you have at least one related to your health—and probably several. Whether it is a mental health app, a fitness tracker, a connected health device or something else, many of us are taking advantage of this technology to keep better track of our health in some shape or form. Recent research from the Organization for the Review of Care and Health Applications found that 350,000 health apps were available on the market, 90,000 of which launched in 2020 alone.\n\nWhile these apps have a great deal to offer, it is not always clear how the personal information we input is collected, safeguarded and shared online. Existing health privacy law, such as the Health Insurance Portability and Accountability Act, is primarily focused on the way hospitals, doctors’ offices, clinics and insurance companies store health records online. The health information these apps and health data tracking wearables are collecting typically do not receive the same legal protections.\n\nWithout additional protections in place, companies may share (and potentially monetize) personal health information in a way consumers may not have authorized or anticipated. In 2021, Flo Health faced a Federal Trade Commission (FTC) investigation. The FTC alleged in a complaint that “despite express privacy claims, the company took control of users’ sensitive fertility data and shared it with third parties.” Flo Health and the FTC settled the matter with a Consent Order requiring the company to get app users’ express affirmative consent before sharing their health information as well as to instruct the third parties to delete the data they had obtained.\n\nSection 5 of the FTC Act empowers the FTC to initiate enforcement action against unfair or deceptive acts, meaning the FTC can only act after the fact if a company’s privacy practices are misleading or cause unjustified consumer harm. While the FTC is doing what it can to ensure apps are keeping their promises to consumers around the handling of their sensitive health information, the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is.\n\nAs to the prospects for federal legislation, commentators suggest that comprehensive federal privacy legislation seems unlikely in the short term. States have begun implementing their own solutions to shore up protections for consumer-generated health data. California has been at the forefront of state privacy efforts with the California Consumer Privacy Act of 2018. Virginia, Colorado and Utah have also recently passed state consumer data privacy legislation.",
-      "sort_order": 5
+      "sort_order": 5,
+      "passage_type": null
     },
     {
       "id": "7de0a175-4288-491e-951c-cf79c19b118e",
@@ -75,8 +80,9 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions: Read the following text and match each of the numbered items in the left column to its corresponding information in the right column.\n\nThere are two extra choices in the right column. Mark your answers on the ANSWER SHEET. (10 points)\n\nHow Colleges Weigh Applicants’ Extracurricular Activities\n\nHigh school students eager to stand out in the college application process often participate in a litany of extracurricular activities hoping to bolster their chances of admission to a selective undergraduate institution. However, college admissions experts say that the quality of a college hopeful’s extracurricular activities matters more than the number of activities he or she participates in.\n\nSue Rexford, the director of college guidance at the Charles E. Smith Jewish Day School, says it is not necessary for a student filling out the Common Application to list 10 activities in the application. “No college will expect that a student has a huge laundry list of extracurriculars that they have been passionately involved in each for an extended period of time,” Rexford wrote in an email.\n\nExperts say it is tougher to distinguish oneself in a school-affiliated extracurricular activity that is common among high school students than it is to stand out while doing an uncommon activity. “The competition to stand out and make an impact is going to be much stiffer, and so if they’re going to do a popular activity, I’d say, be the best at it,” says Sara Harberson, a college admissions consultant.\n\nHigh school students who have an impressive personal project they are working on independently often impress colleges, experts say. “For example, a student with an interest in entrepreneurship could demonstrate skill and potential by starting a profitable small business,” Olivia Valdes, the founder of Zen Admissions consulting firm, wrote in an email.\n\nJoseph Adegboyega-Edun, a Maryland high school guidance counselor, says unconventional extracurricular activities can help students impress college admissions offices, assuming they demonstrated serious commitment. “Again, since one of the big questions high school seniors must consider is ‘What makes you unique?,’ having an uncommon extracurricular activity vs. a conventional one is an advantage,” he wrote in an email.\n\nExperts say demonstrating talent in at least one extracurricular activity can help in the college admissions process, especially at top-tier undergraduate institutions. “Distinguishing yourself in one focused type of extracurricular activity can be a positive in the admissions process, especially for highly selective institutions, where having top grades and test scores is not enough,” Katie Kelley, admissions counselor at IvyWise admissions consultancy, wrote in an email. “Students need to have that quality or hook that will appeal to admissions officers and allow them to visualize how the student might come and enrich their campus community.”\n\nExtracurricular activities related to the college major declared on a college application are beneficial, experts suggest. “If you already know your major, having an extracurricular that fits into that major can be a big plus,” says Mayghin Levine, the manager of educational opportunities with The Cabbage Patch Settlement House, a Louisville, Kentucky, nonprofit community center.\n\nHigh school students who have had a strong positive influence on their community through an extracurricular activity may impress a college and win a scholarship, says Erica Gwyn, a former math and science magnet program assistant at a public high school who is now executive director of the Kaleidoscope Careers Academy in Atlanta, a nonprofit organization.\n\n[A] Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.\n\n[B] Students whose extracurricular activity has benefited their community are likely to win a scholarship.\n\n[C] Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.\n\n[D] A student who exhibits abilities in doing business can impress colleges.\n\n[E] High school students participating in a popular activity should excel in it.\n\n[F] Engaging in uncommon activities can demonstrate students’ determination and dedication.\n\n[G] It is advisable for students to choose an extracurricular activity that is related to their future study at college.",
-      "sort_order": 6
+      "content": "How Colleges Weigh Applicants’ Extracurricular Activities\n\nHigh school students eager to stand out in the college application process often participate in a litany of extracurricular activities hoping to bolster their chances of admission to a selective undergraduate institution. However, college admissions experts say that the quality of a college hopeful’s extracurricular activities matters more than the number of activities he or she participates in.\n\nSue Rexford, the director of college guidance at the Charles E. Smith Jewish Day School, says it is not necessary for a student filling out the Common Application to list 10 activities in the application. “No college will expect that a student has a huge laundry list of extracurriculars that they have been passionately involved in each for an extended period of time,” Rexford wrote in an email.\n\nExperts say it is tougher to distinguish oneself in a school-affiliated extracurricular activity that is common among high school students than it is to stand out while doing an uncommon activity. “The competition to stand out and make an impact is going to be much stiffer, and so if they’re going to do a popular activity, I’d say, be the best at it,” says Sara Harberson, a college admissions consultant.\n\nHigh school students who have an impressive personal project they are working on independently often impress colleges, experts say. “For example, a student with an interest in entrepreneurship could demonstrate skill and potential by starting a profitable small business,” Olivia Valdes, the founder of Zen Admissions consulting firm, wrote in an email.\n\nJoseph Adegboyega-Edun, a Maryland high school guidance counselor, says unconventional extracurricular activities can help students impress college admissions offices, assuming they demonstrated serious commitment. “Again, since one of the big questions high school seniors must consider is ‘What makes you unique?,’ having an uncommon extracurricular activity vs. a conventional one is an advantage,” he wrote in an email.\n\nExperts say demonstrating talent in at least one extracurricular activity can help in the college admissions process, especially at top-tier undergraduate institutions. “Distinguishing yourself in one focused type of extracurricular activity can be a positive in the admissions process, especially for highly selective institutions, where having top grades and test scores is not enough,” Katie Kelley, admissions counselor at IvyWise admissions consultancy, wrote in an email. “Students need to have that quality or hook that will appeal to admissions officers and allow them to visualize how the student might come and enrich their campus community.”\n\nExtracurricular activities related to the college major declared on a college application are beneficial, experts suggest. “If you already know your major, having an extracurricular that fits into that major can be a big plus,” says Mayghin Levine, the manager of educational opportunities with The Cabbage Patch Settlement House, a Louisville, Kentucky, nonprofit community center.\n\nHigh school students who have had a strong positive influence on their community through an extracurricular activity may impress a college and win a scholarship, says Erica Gwyn, a former math and science magnet program assistant at a public high school who is now executive director of the Kaleidoscope Careers Academy in Atlanta, a nonprofit organization.",
+      "sort_order": 6,
+      "passage_type": null
     }
   ],
   "questions": [
@@ -90,30 +96,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "because",
-          "value": "A"
+          "content": "because"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unless",
-          "value": "B"
+          "content": "unless"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "whereas",
-          "value": "C"
+          "content": "whereas"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "until",
-          "value": "D"
+          "content": "until"
         }
       ],
       "correct_answer": "C",
       "explanation": "考查逻辑连接词。前句提到“Some of us feel energised...”（有人感到精力充沛），后句提到“some of us may feel drained...”（有人感到身心俱疲），前后形成鲜明对比，连词 whereas（而，然而）表示对比转折。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 1,
+      "score": 0.5
     },
     {
       "id": "06dca805-276e-441d-85d6-0e2a60c67921",
@@ -125,30 +137,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "contrast",
-          "value": "A"
+          "content": "contrast"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "balance",
-          "value": "B"
+          "content": "balance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "link",
-          "value": "C"
+          "content": "link"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "gap",
-          "value": "D"
+          "content": "gap"
         }
       ],
       "correct_answer": "B",
       "explanation": "考查名词词义辨析。既然人与人之间的社交需求存在差异，那么在社交生活中寻求“平衡（balance）”就是核心关键。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 2,
+      "score": 0.5
     },
     {
       "id": "fdf36ada-b6a1-4c4e-b667-d58f27f08b36",
@@ -160,30 +178,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "seeing",
-          "value": "A"
+          "content": "seeing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "pleasing",
-          "value": "B"
+          "content": "pleasing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "judging",
-          "value": "C"
+          "content": "judging"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "teaching",
-          "value": "D"
+          "content": "teaching"
         }
       ],
       "correct_answer": "A",
       "explanation": "考查动词语义与搭配。not seeing others 指“不见人/不与人交往”，see 具有“会面、交往”之意，与 spending too much time on your own 形成呼应。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 3,
+      "score": 0.5
     },
     {
       "id": "895ee14c-650e-4840-a8a9-3b0600634913",
@@ -195,30 +219,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "misguided",
-          "value": "A"
+          "content": "misguided"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "surprised",
-          "value": "B"
+          "content": "surprised"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "spoiled",
-          "value": "C"
+          "content": "spoiled"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "disconnected",
-          "value": "D"
+          "content": "disconnected"
         }
       ],
       "correct_answer": "D",
       "explanation": "考查形容词辨析。与 lonely（孤独）并列，disconnected 表示“与社会脱节的、孤立的”。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4,
+      "score": 0.5
     },
     {
       "id": "95ea980b-faab-4a38-9d20-c2f543fe349e",
@@ -230,30 +260,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "contribute to",
-          "value": "A"
+          "content": "contribute to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rely on",
-          "value": "B"
+          "content": "rely on"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "interfere with",
-          "value": "C"
+          "content": "interfere with"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "go against",
-          "value": "D"
+          "content": "go against"
         }
       ],
       "correct_answer": "A",
       "explanation": "考查动词短语辨析。contribute to 意为“促成，导致”。孤独感不仅影响心理健康，还会导致/促成低落情绪（a low mood）。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 5,
+      "score": 0.5
     },
     {
       "id": "32caf196-24ae-4f4e-84c0-3be4260c5250",
@@ -265,30 +301,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in fact",
-          "value": "A"
+          "content": "in fact"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "of course",
-          "value": "B"
+          "content": "of course"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "for example",
-          "value": "C"
+          "content": "for example"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "on average",
-          "value": "D"
+          "content": "on average"
         }
       ],
       "correct_answer": "C",
       "explanation": "考查逻辑过渡短语。前句讲“任何人随时都可能感到孤独”，后句列举居家办公（working from home）的具体情境，for example（例如）表举例。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 6,
+      "score": 0.5
     },
     {
       "id": "bb847543-0672-42c6-a96b-f87ce9c7fac3",
@@ -300,30 +342,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "cutting back",
-          "value": "A"
+          "content": "cutting back"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "missing out",
-          "value": "B"
+          "content": "missing out"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "breaking in",
-          "value": "C"
+          "content": "breaking in"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "looking down",
-          "value": "D"
+          "content": "looking down"
         }
       ],
       "correct_answer": "B",
       "explanation": "考查动词短语搭配。miss out on sth. 为固定短语，表示“错失、错过”。居家办公会错失办公室里日常的社交闲聊。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 7,
+      "score": 0.5
     },
     {
       "id": "2c3762ec-c372-4c9b-bbaa-d8cdc4d516ba",
@@ -335,30 +383,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "shorten",
-          "value": "A"
+          "content": "shorten"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "trigger",
-          "value": "B"
+          "content": "trigger"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "follow",
-          "value": "C"
+          "content": "follow"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "interrupt",
-          "value": "D"
+          "content": "interrupt"
         }
       ],
       "correct_answer": "B",
       "explanation": "考查动词辨析。trigger 意为“引起，触发”。退休、换工作等生活重大转变同样会引发阶段性孤独。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 8,
+      "score": 0.5
     },
     {
       "id": "a4db5ad9-bb81-4af0-9178-6c7461d6a082",
@@ -370,30 +424,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assess",
-          "value": "A"
+          "content": "assess"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interpret",
-          "value": "B"
+          "content": "interpret"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "provide",
-          "value": "C"
+          "content": "provide"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "regain",
-          "value": "D"
+          "content": "regain"
         }
       ],
       "correct_answer": "D",
       "explanation": "考查动词语义。regain a social life 意为“重获/重新恢复社交生活”，与前文摆脱孤独的语境衔接。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 9,
+      "score": 0.5
     },
     {
       "id": "7f5dbb47-cfa3-4cae-9a26-2a723cbcef95",
@@ -405,30 +465,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "at first",
-          "value": "A"
+          "content": "at first"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "in turn",
-          "value": "B"
+          "content": "in turn"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "on time",
-          "value": "C"
+          "content": "on time"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "by chance",
-          "value": "D"
+          "content": "by chance"
         }
       ],
       "correct_answer": "A",
       "explanation": "考查介词短语。at first 意为“起初，一开始”。重塑社交起初可能会让人产生不知所措之感。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 10,
+      "score": 0.5
     },
     {
       "id": "c8e298a0-1d67-4732-897e-ad5c83af4cc2",
@@ -440,30 +506,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "far-sighted",
-          "value": "A"
+          "content": "far-sighted"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "strong-willed",
-          "value": "B"
+          "content": "strong-willed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "kind-hearted",
-          "value": "C"
+          "content": "kind-hearted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "like-minded",
-          "value": "D"
+          "content": "like-minded"
         }
       ],
       "correct_answer": "D",
       "explanation": "考查复合形容词。前文提到从自己喜欢的兴趣爱好入手寻找社群，自然能结识“志趣相投的（like-minded）”朋友。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 11,
+      "score": 0.5
     },
     {
       "id": "be5b8c08-a922-44bb-aa46-33603e7780ff",
@@ -475,30 +547,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "try",
-          "value": "A"
+          "content": "try"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "promote",
-          "value": "B"
+          "content": "promote"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "watch",
-          "value": "C"
+          "content": "watch"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "describe",
-          "value": "D"
+          "content": "describe"
         }
       ],
       "correct_answer": "A",
       "explanation": "考查动词搭配。try a new sport for the first time 表示初次“尝试”一项新运动。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 12,
+      "score": 0.5
     },
     {
       "id": "25cc8f51-84bd-45d9-9ce4-4fc076100e71",
@@ -510,30 +588,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "test",
-          "value": "A"
+          "content": "test"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "share",
-          "value": "B"
+          "content": "share"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "accept",
-          "value": "C"
+          "content": "accept"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "revise",
-          "value": "D"
+          "content": "revise"
         }
       ],
       "correct_answer": "B",
       "explanation": "考查动词搭配。同行职场交流聚会用于见面“交流/分享想法”（share ideas）。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13,
+      "score": 0.5
     },
     {
       "id": "bdcbce6b-68d1-4adb-bb69-06c2a92f355b",
@@ -545,30 +629,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "already",
-          "value": "A"
+          "content": "already"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "thus",
-          "value": "B"
+          "content": "thus"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "also",
-          "value": "C"
+          "content": "also"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "only",
-          "value": "D"
+          "content": "only"
         }
       ],
       "correct_answer": "C",
       "explanation": "考查副词逻辑。第二段讲社交过少，第三段讲如何社交，第四段以“On the other hand”引出反向论题，指社交过多“也（also）”是有可能的。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14,
+      "score": 0.5
     },
     {
       "id": "bf9de3b7-e34e-497b-b8f9-3d97f0489ed2",
@@ -580,30 +670,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "list",
-          "value": "A"
+          "content": "list"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "order",
-          "value": "B"
+          "content": "order"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "space",
-          "value": "C"
+          "content": "space"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "boundary",
-          "value": "D"
+          "content": "boundary"
         }
       ],
       "correct_answer": "C",
       "explanation": "考查名词词义。there is never any space in your calendar for downtime 指日程表中没有任何用于休整闲暇的“空白/空间（space）”。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5
     },
     {
       "id": "62fb75d1-50a8-482a-8507-b5cb15d45570",
@@ -615,30 +711,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "fatigue",
-          "value": "A"
+          "content": "fatigue"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "criticism",
-          "value": "B"
+          "content": "criticism"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "injustice",
-          "value": "C"
+          "content": "injustice"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "dilemma",
-          "value": "D"
+          "content": "dilemma"
         }
       ],
       "correct_answer": "A",
       "explanation": "考查名词辨析。与 social burnout（社交耗竭）并列，social fatigue 表示“社交疲劳/倦怠”。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16,
+      "score": 0.5
     },
     {
       "id": "62193d7e-87aa-4a06-b3ab-fa16adc4e8b8",
@@ -650,30 +752,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sources",
-          "value": "A"
+          "content": "sources"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "standards",
-          "value": "B"
+          "content": "standards"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "signs",
-          "value": "C"
+          "content": "signs"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "scores",
-          "value": "D"
+          "content": "scores"
         }
       ],
       "correct_answer": "C",
       "explanation": "考查名词辨析。情绪低落、精力不足、易怒、失眠都是社交健康不佳的“迹象/征兆（signs）”。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 17,
+      "score": 0.5
     },
     {
       "id": "cd8da46f-8410-4c9f-ad78-a35446eb4aeb",
@@ -685,30 +793,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "take over",
-          "value": "A"
+          "content": "take over"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "wipe off",
-          "value": "B"
+          "content": "wipe off"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "add up",
-          "value": "C"
+          "content": "add up"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "mark out",
-          "value": "D"
+          "content": "mark out"
         }
       ],
       "correct_answer": "D",
       "explanation": "考查动词短语。mark out some time in your diary 意为在日程表里“专门划出/标出”一段时间。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 18,
+      "score": 0.5
     },
     {
       "id": "1e92553f-9dbc-41e5-b973-146a02666002",
@@ -720,30 +834,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "ungrateful",
-          "value": "A"
+          "content": "ungrateful"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unavailable",
-          "value": "B"
+          "content": "unavailable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "responsible",
-          "value": "C"
+          "content": "responsible"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "regretful",
-          "value": "D"
+          "content": "regretful"
         }
       ],
       "correct_answer": "B",
       "explanation": "考查形容词辨析。unavailable for socialising 意为“不参与社交的、抽不出空的”，与后文留出时间休息呼应。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 19,
+      "score": 0.5
     },
     {
       "id": "03194249-470e-477d-870a-1e144ea6e8cd",
@@ -755,30 +875,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "react",
-          "value": "A"
+          "content": "react"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "repeat",
-          "value": "B"
+          "content": "repeat"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "return",
-          "value": "C"
+          "content": "return"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rest",
-          "value": "D"
+          "content": "rest"
         }
       ],
       "correct_answer": "D",
       "explanation": "考查动词并列。与 relax（放松）和 recover（恢复）并列，rest 意为“休息”。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 20,
+      "score": 0.5
     },
     {
       "id": "e913e19f-b0a4-4b8a-8069-0ca663061d54",
@@ -790,30 +916,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "give rise to innovations.",
-          "value": "A"
+          "content": "give rise to innovations."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "diversify career choices.",
-          "value": "B"
+          "content": "diversify career choices."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "benefit people equally.",
-          "value": "C"
+          "content": "benefit people equally."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "be promoted forcefully.",
-          "value": "D"
+          "content": "be promoted forcefully."
         }
       ],
       "correct_answer": "C",
       "explanation": "细节理解题。定位第一段“the gains will have to be more evenly shared than in the recent past”。经济增长的成果必须比以往更加均匀地分享，C选项“benefit people equally”（使所有人平等受益）是对“evenly shared”的同义替换。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 21,
+      "score": 2.0
     },
     {
       "id": "ac02e0dc-a4bc-4152-a0ff-7a20caf65d51",
@@ -825,30 +957,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "bring about instant prosperity.",
-          "value": "A"
+          "content": "bring about instant prosperity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "reduce people’s workload.",
-          "value": "B"
+          "content": "reduce people’s workload."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "raise overall work efficiency.",
-          "value": "C"
+          "content": "raise overall work efficiency."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enhance cross-sector cooperation.",
-          "value": "D"
+          "content": "enhance cross-sector cooperation."
         }
       ],
       "correct_answer": "C",
       "explanation": "细节理解题。定位第二段“require greater use of digital technologies to boost productivity in various sectors”。利用数字技术提升各领域的生产力（boost productivity），C选项“raise overall work efficiency”（提升整体工作效率）为同义转述。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0
     },
     {
       "id": "abcc3be5-af70-488a-bd36-85bc95f974d6",
@@ -860,30 +998,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "They may affect work-life balance.",
-          "value": "A"
+          "content": "They may affect work-life balance."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "They may be impractical to deploy.",
-          "value": "B"
+          "content": "They may be impractical to deploy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "They may incur huge expenditure.",
-          "value": "C"
+          "content": "They may incur huge expenditure."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They may be unwelcome to the public.",
-          "value": "D"
+          "content": "They may be unwelcome to the public."
         }
       ],
       "correct_answer": "D",
       "explanation": "观点态度题。定位第三、四段。Coyle指出变革需要“social buy-in”（社会的认同接受），但现实中“resentment is simmering among many”（许多人心中积怨暗涌），人们只看到好工作被摧毁。因此她担忧这些技术不受公众欢迎，故选D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 23,
+      "score": 2.0
     },
     {
       "id": "be966a0a-864b-476d-bbcb-e7bc14ab5be6",
@@ -895,30 +1039,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the uneven distribution of AI technologies in the US.",
-          "value": "A"
+          "content": "the uneven distribution of AI technologies in the US."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the disappointing prospect of tech jobs in the US.",
-          "value": "B"
+          "content": "the disappointing prospect of tech jobs in the US."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the fast progress of US regional economies.",
-          "value": "C"
+          "content": "the fast progress of US regional economies."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the increasing significance of US AI assets.",
-          "value": "D"
+          "content": "the increasing significance of US AI assets."
         }
       ],
       "correct_answer": "A",
       "explanation": "例证推断题。定位第五、六段。列举旧金山、波士顿等少数城市占据全美2/3的AI资产，紧接着第六段首句概括“The dominance of a few cities... means that geographical disparities in wealth will continue to soar”。举例旨在说明AI技术在美国地理分布上的严重不均衡，故选A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 24,
+      "score": 2.0
     },
     {
       "id": "c793ae56-01db-4395-9fe6-bd0bf582fdb5",
@@ -930,30 +1080,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "raising funds to start new AI projects.",
-          "value": "A"
+          "content": "raising funds to start new AI projects."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "encouraging collaboration in AI research.",
-          "value": "B"
+          "content": "encouraging collaboration in AI research."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "guarding against the side effects of AI.",
-          "value": "C"
+          "content": "guarding against the side effects of AI."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "redefining the role of AI technologies.",
-          "value": "D"
+          "content": "redefining the role of AI technologies."
         }
       ],
       "correct_answer": "D",
       "explanation": "细节推断题。定位末段“broaden our digital imaginations to conceive of AI technologies that don’t simply replace jobs but expand opportunities...”。作者建议拓宽数字想象力，不再把AI单纯看作替代岗位的工具，而是能在各领域扩展机会，即重新定义AI技术的角色，故选D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 25,
+      "score": 2.0
     },
     {
       "id": "2d33cb5f-44ad-49c8-adbd-0415bf5e7533",
@@ -965,30 +1121,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "increase its domestic wood supply.",
-          "value": "A"
+          "content": "increase its domestic wood supply."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "reduce its demand for timber.",
-          "value": "B"
+          "content": "reduce its demand for timber."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "lower its wood production costs.",
-          "value": "C"
+          "content": "lower its wood production costs."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "lift its control on timber imports.",
-          "value": "D"
+          "content": "lift its control on timber imports."
         }
       ],
       "correct_answer": "A",
       "explanation": "细节理解题。定位第一段。Confor呼吁采取紧急行动以“reduce the country’s reliance on timber imports and provide a stable supply of wood... Currently only 20 per cent... is home-grown”。英国自产木材仅占20%，高度依赖进口，因此需要提高国内木材供应（increase its domestic wood supply），故选A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26,
+      "score": 2.0
     },
     {
       "id": "792efb26-f6fa-47fd-8e69-0cf872b187d4",
@@ -1000,30 +1162,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "can hardly address a construction crisis.",
-          "value": "A"
+          "content": "can hardly address a construction crisis."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are believed to come at a wrong time.",
-          "value": "B"
+          "content": "are believed to come at a wrong time."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "seem to be misleading for landowners.",
-          "value": "C"
+          "content": "seem to be misleading for landowners."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "will be too costly to put into practice.",
-          "value": "D"
+          "content": "will be too costly to put into practice."
         }
       ],
       "correct_answer": "A",
       "explanation": "细节理解题。定位第二段首句“these don’t go far enough and fail to promote the benefits of planting them to boost timber supplies”以及随后指出英国仍将面临未来的建筑危机（facing a future construction crisis）。因此政府的新激励措施难以化解建筑危机，故选A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 27,
+      "score": 2.0
     },
     {
       "id": "d3869fce-aed1-45da-ae3c-cbdd04ca57dc",
@@ -1035,30 +1203,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the government’s inaction on timber imports.",
-          "value": "A"
+          "content": "the government’s inaction on timber imports."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "inadequate investment in growing wood.",
-          "value": "B"
+          "content": "inadequate investment in growing wood."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the competition among timber traders at home.",
-          "value": "C"
+          "content": "the competition among timber traders at home."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "wood producers’ motive to maximise profits.",
-          "value": "D"
+          "content": "wood producers’ motive to maximise profits."
         }
       ],
       "correct_answer": "B",
       "explanation": "因果细节题。定位第二段第三句“For decades we have not taken responsibility for investing in our domestic wood supply, leaving us exposed to fluctuating prices...”。长期以来没有对国内木材供应进行投资，导致暴露于价格波动中。B选项“inadequate investment in growing wood”（植树造林投资不足）为精确对应。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 28,
+      "score": 2.0
     },
     {
       "id": "e06ca123-fecb-49dc-8ccd-b09af39bd4d1",
@@ -1070,30 +1244,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Excessive timber consumption in construction.",
-          "value": "A"
+          "content": "Excessive timber consumption in construction."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Unfavourable conditions for growing wood.",
-          "value": "B"
+          "content": "Unfavourable conditions for growing wood."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Outdated technologies of the wood industry.",
-          "value": "C"
+          "content": "Outdated technologies of the wood industry."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Farmers’ unwillingness to plant trees.",
-          "value": "D"
+          "content": "Farmers’ unwillingness to plant trees."
         }
       ],
       "correct_answer": "D",
       "explanation": "事实细节题。定位第三段末句“It also encompasses significant hesitation on behalf of farmers and other landowners to invest in longer-term planting projects.”。农民及地主对长期植树项目充满犹豫踌躇，D选项“Farmers' unwillingness to plant trees”（农民不愿植树）为同义替换。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 29,
+      "score": 2.0
     },
     {
       "id": "8a505c51-ded2-4ec8-b4f3-36dbdb649100",
@@ -1105,30 +1285,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Subsidise the building of low-carbon homes.",
-          "value": "A"
+          "content": "Subsidise the building of low-carbon homes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Pay greater attention to boosting rural economies.",
-          "value": "B"
+          "content": "Pay greater attention to boosting rural economies."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Provide more support for productive tree planting.",
-          "value": "C"
+          "content": "Provide more support for productive tree planting."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Give priority to pursuing its net-zero strategy.",
-          "value": "D"
+          "content": "Give priority to pursuing its net-zero strategy."
         }
       ],
       "correct_answer": "C",
       "explanation": "观点态度题。定位第四、五段。第四段提到政府当前只支持食物生产与生物多样性野生树林，忽视了生产性林业（productive forestry）。Goodall强调土地还需为建筑和制造业提供安全木材，呼吁对植树愿景给予更大推动力（greater impetus）。因此政府应为生产性植树提供更多支持，故选C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 30,
+      "score": 2.0
     },
     {
       "id": "03ad2225-8fd9-4a38-8916-5200e6f08ee3",
@@ -1140,30 +1326,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is a new safety measure.",
-          "value": "A"
+          "content": "is a new safety measure."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "has become a disputed issue.",
-          "value": "B"
+          "content": "has become a disputed issue."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "can be a tough task to complete.",
-          "value": "C"
+          "content": "can be a tough task to complete."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "will be beneficial to their health.",
-          "value": "D"
+          "content": "will be beneficial to their health."
         }
       ],
       "correct_answer": "C",
       "explanation": "细节理解题。定位第一段首句“One of the biggest challenges in keeping unsafe aging drivers off the road is convincing them that it's time to turn over the keys.”。biggest challenges 对应 C 选项“can be a tough task to complete”（是一项难以完成的艰巨任务）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31,
+      "score": 2.0
     },
     {
       "id": "d3fe41b0-90aa-4d54-8025-447b4ec9c27b",
@@ -1175,30 +1367,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has won support from drivers.",
-          "value": "A"
+          "content": "has won support from drivers."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is generally considered unrealistic.",
-          "value": "B"
+          "content": "is generally considered unrealistic."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is widely dismissed as unnecessary.",
-          "value": "C"
+          "content": "is widely dismissed as unnecessary."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has met with different responses.",
-          "value": "D"
+          "content": "has met with different responses."
         }
       ],
       "correct_answer": "D",
       "explanation": "细节理解题。定位第二段第二句“Some states require physicians to report, others allow but do not mandate reports, while a few consider a report a breach of confidentiality.”。有的州强制要求报告，有的允许但不强制，少数州甚至视其为泄露隐私违法，说明各州对医学会建议的反应各不相同（met with different responses），故选D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 32,
+      "score": 2.0
     },
     {
       "id": "fc3fbf0e-6117-4aee-8cbb-092d0d88025a",
@@ -1210,30 +1408,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "have brought about big changes.",
-          "value": "A"
+          "content": "have brought about big changes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "need to be well coordinated.",
-          "value": "B"
+          "content": "need to be well coordinated."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "have gained public recognition.",
-          "value": "C"
+          "content": "have gained public recognition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "call for relevant legal support.",
-          "value": "D"
+          "content": "call for relevant legal support."
         }
       ],
       "correct_answer": "B",
       "explanation": "观点推断题。定位第三段“the difficulties are addressed piecemeal by different professions with different focuses... There's not a National Institute of Older Driver Studies”。老年驾驶员安全问题目前由各专业零散应对（addressed piecemeal）、各自为政且缺乏国家级统一机构，表明相关工作亟需良好协调（need to be well coordinated），故选B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 33,
+      "score": 2.0
     },
     {
       "id": "c315adab-23fe-468c-bab0-ed1beb286dfe",
@@ -1245,30 +1449,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "stick with bad driving habits.",
-          "value": "A"
+          "content": "stick with bad driving habits."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have a weakened memory.",
-          "value": "B"
+          "content": "have a weakened memory."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "suffer from chronic pains.",
-          "value": "C"
+          "content": "suffer from chronic pains."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "neglect car maintenance.",
-          "value": "D"
+          "content": "neglect car maintenance."
         }
       ],
       "correct_answer": "B",
       "explanation": "事实细节题。定位第五段第二句“have trouble driving because they can’t turn their heads or remember where they are going...”。老人无法记住自己要去哪儿（can't remember where they are going），对应B选项“have a weakened memory”（记忆力衰退）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 34,
+      "score": 2.0
     },
     {
       "id": "b397b333-c481-4dac-92eb-1bca747664c8",
@@ -1280,30 +1490,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "upgrading self-driving vehicles.",
-          "value": "A"
+          "content": "upgrading self-driving vehicles."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "developing senior-friendly cars.",
-          "value": "B"
+          "content": "developing senior-friendly cars."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "renovating transport facilities.",
-          "value": "C"
+          "content": "renovating transport facilities."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "adjusting the age limit for drivers.",
-          "value": "D"
+          "content": "adjusting the age limit for drivers."
         }
       ],
       "correct_answer": "B",
       "explanation": "观点态度题。定位末段最后两句“If we’re going to have 100-year lives, we need cars that a 90-year-old can drive comfortably.”。针对高龄化社会，Dugan认为需要能让90岁老人也能舒适驾驶的汽车，即研发适老化汽车（developing senior-friendly cars），故选B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35,
+      "score": 2.0
     },
     {
       "id": "95927e72-8402-401b-a421-742ace2834e7",
@@ -1315,30 +1531,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the prevalence of health apps",
-          "value": "A"
+          "content": "the prevalence of health apps"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the public concern over health",
-          "value": "B"
+          "content": "the public concern over health"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the popularity of smartphones",
-          "value": "C"
+          "content": "the popularity of smartphones"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the advancement of technology",
-          "value": "D"
+          "content": "the advancement of technology"
         }
       ],
       "correct_answer": "A",
       "explanation": "例证推断题。第一段首句指出人人的手机里都有至少一个健康APP，随后引用数据“350,000 health apps were available on the market, 90,000 of which launched in 2020 alone”。海量的APP数据旨在证明健康类应用程序的极其普遍和盛行（prevalence），故选A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 36,
+      "score": 2.0
     },
     {
       "id": "343ab23e-8c1b-4c16-86b7-9f0779f89a07",
@@ -1350,30 +1572,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Its coverage needs to be extended.",
-          "value": "A"
+          "content": "Its coverage needs to be extended."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Its enforcement needs strengthening.",
-          "value": "B"
+          "content": "Its enforcement needs strengthening."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It has discouraged medical misconduct.",
-          "value": "C"
+          "content": "It has discouraged medical misconduct."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It has disappointed insurance companies.",
-          "value": "D"
+          "content": "It has disappointed insurance companies."
         }
       ],
       "correct_answer": "A",
       "explanation": "推理判断题。定位第二段。现行隐私法（如HIPAA）主要监管医院、诊所及保险公司，“The health information these apps... are collecting typically do not receive the same legal protections.”。健康APP收集的个人数据无法获得同等法律保护，暗示现行法律的覆盖范围需要拓展（coverage needs to be extended），故选A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 37,
+      "score": 2.0
     },
     {
       "id": "f5a84c6d-eee2-49fc-b758-a44b88c415a6",
@@ -1385,30 +1613,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "seek the approval of the FTC",
-          "value": "A"
+          "content": "seek the approval of the FTC"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "find qualified third parties",
-          "value": "B"
+          "content": "find qualified third parties"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "remove irrelevant personal data",
-          "value": "C"
+          "content": "remove irrelevant personal data"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "obtain their explicit permission",
-          "value": "D"
+          "content": "obtain their explicit permission"
         }
       ],
       "correct_answer": "D",
       "explanation": "细节理解题。定位第三段末句“requiring the company to get app users’ express affirmative consent before sharing their health information...”。“express affirmative consent”即为“explicit permission”（明确的许可/同意），故选D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 38,
+      "score": 2.0
     },
     {
       "id": "00f70977-5d9b-463f-859e-0951733a72aa",
@@ -1420,30 +1654,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The complexity of health information.",
-          "value": "A"
+          "content": "The complexity of health information."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The rapid increase in new health apps.",
-          "value": "B"
+          "content": "The rapid increase in new health apps."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The subtle deceptiveness of health apps.",
-          "value": "C"
+          "content": "The subtle deceptiveness of health apps."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The difficulty in assessing consumer harm.",
-          "value": "D"
+          "content": "The difficulty in assessing consumer harm."
         }
       ],
       "correct_answer": "B",
       "explanation": "细节理解题。定位第四段末句“the rate at which these health apps are hitting the market demonstrates just how immense of a challenge this is.”。健康应用大量上市涌现的速度构成了巨大挑战，对应B选项“The rapid increase in new health apps”（新健康APP的迅猛激增）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39,
+      "score": 2.0
     },
     {
       "id": "7ae2c79d-927d-4ca5-816e-0d09b7c46037",
@@ -1455,30 +1695,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has been embraced by health app developers",
-          "value": "A"
+          "content": "has been embraced by health app developers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "has been a focus of federal policy-making",
-          "value": "B"
+          "content": "has been a focus of federal policy-making"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "has encountered opposition in California",
-          "value": "C"
+          "content": "has encountered opposition in California"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has gained legislative support in some states",
-          "value": "D"
+          "content": "has gained legislative support in some states"
         }
       ],
       "correct_answer": "D",
       "explanation": "细节推断题。定位末段。加州走在各州前列颁布了消费者隐私法案，弗吉尼亚州、科罗拉多州和犹他州也相继通过了州级立法，说明健康数据保护在部分州获得了立法支持（gained legislative support in some states），故选D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40,
+      "score": 2.0
     },
     {
       "id": "b66143eb-0b9c-459f-9ecc-4a52bbebc68a",
@@ -1490,45 +1736,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-          "value": "A"
+          "content": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-          "value": "B"
+          "content": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-          "value": "C"
+          "content": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A student who exhibits abilities in doing business can impress colleges.",
-          "value": "D"
+          "content": "A student who exhibits abilities in doing business can impress colleges."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "High school students participating in a popular activity should excel in it.",
-          "value": "E"
+          "content": "High school students participating in a popular activity should excel in it."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-          "value": "F"
+          "content": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college.",
-          "value": "G"
+          "content": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
         }
       ],
       "correct_answer": "C",
       "explanation": "定位原文第3-4段。Sue Rexford 表示申请时不必列满10个活动，“No college will expect that a student has a huge laundry list of extracurriculars...”。没有大学指望学生有一长串课外活动清单，与C选项“Undertaking too many extracurricular activities will hardly be seen as a plus by colleges”（从事过多课外活动很难被大学视作加分项）精准匹配。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 41,
+      "score": 2.0
     },
     {
       "id": "64876c61-512e-4bb7-8af0-404d7b491693",
@@ -1540,45 +1795,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-          "value": "A"
+          "content": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-          "value": "B"
+          "content": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-          "value": "C"
+          "content": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A student who exhibits abilities in doing business can impress colleges.",
-          "value": "D"
+          "content": "A student who exhibits abilities in doing business can impress colleges."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "High school students participating in a popular activity should excel in it.",
-          "value": "E"
+          "content": "High school students participating in a popular activity should excel in it."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-          "value": "F"
+          "content": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college.",
-          "value": "G"
+          "content": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
         }
       ],
       "correct_answer": "E",
       "explanation": "定位原文第6段。Sara Harberson 指出普遍常见的活动竞争更激烈，“so if they’re going to do a popular activity, I’d say, be the best at it”（如果要做大众热门活动，就要做到最好），与E选项“High school students participating in a popular activity should excel in it”（参加热门活动的高中生应当在其中表现卓越/出类拔萃）精准匹配。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 42,
+      "score": 2.0
     },
     {
       "id": "25804586-0772-4936-bf3a-5236e5a6f888",
@@ -1590,45 +1854,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-          "value": "A"
+          "content": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-          "value": "B"
+          "content": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-          "value": "C"
+          "content": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A student who exhibits abilities in doing business can impress colleges.",
-          "value": "D"
+          "content": "A student who exhibits abilities in doing business can impress colleges."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "High school students participating in a popular activity should excel in it.",
-          "value": "E"
+          "content": "High school students participating in a popular activity should excel in it."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-          "value": "F"
+          "content": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college.",
-          "value": "G"
+          "content": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
         }
       ],
       "correct_answer": "A",
       "explanation": "定位原文第10-11段。Katie Kelley 指出：“Distinguishing yourself in one focused type of extracurricular activity can be a positive in the admissions process, especially for highly selective institutions...”。在某一专注领域脱颖而出有助于进入选拔性极强的顶尖学府，与A选项“Students who stand out in a specific extracurricular activity will be favored by top-tier institutions”（在特定课外活动中表现突出的学生将受到顶尖学府青睐）精准匹配。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 43,
+      "score": 2.0
     },
     {
       "id": "f4cce0d4-970c-4cc8-9d44-ee352985fe96",
@@ -1640,45 +1913,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-          "value": "A"
+          "content": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-          "value": "B"
+          "content": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-          "value": "C"
+          "content": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A student who exhibits abilities in doing business can impress colleges.",
-          "value": "D"
+          "content": "A student who exhibits abilities in doing business can impress colleges."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "High school students participating in a popular activity should excel in it.",
-          "value": "E"
+          "content": "High school students participating in a popular activity should excel in it."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-          "value": "F"
+          "content": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college.",
-          "value": "G"
+          "content": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
         }
       ],
       "correct_answer": "G",
       "explanation": "定位原文第12段。Mayghin Levine 指出：“If you already know your major, having an extracurricular that fits into that major can be a big plus...”。如果明确了大学专业，有与之契合的课外活动会是巨大优势，与G选项“It is advisable for students to choose an extracurricular activity that is related to their future study at college”（建议学生选择与未来大学专业学习相关的课外活动）精准匹配。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 44,
+      "score": 2.0
     },
     {
       "id": "427db2a0-5821-4cac-8443-9eef48d1177b",
@@ -1690,45 +1972,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions.",
-          "value": "A"
+          "content": "Students who stand out in a specific extracurricular activity will be favored by top-tier institutions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Students whose extracurricular activity has benefited their community are likely to win a scholarship.",
-          "value": "B"
+          "content": "Students whose extracurricular activity has benefited their community are likely to win a scholarship."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges.",
-          "value": "C"
+          "content": "Undertaking too many extracurricular activities will hardly be seen as a plus by colleges."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A student who exhibits abilities in doing business can impress colleges.",
-          "value": "D"
+          "content": "A student who exhibits abilities in doing business can impress colleges."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "High school students participating in a popular activity should excel in it.",
-          "value": "E"
+          "content": "High school students participating in a popular activity should excel in it."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Engaging in uncommon activities can demonstrate students’ determination and dedication.",
-          "value": "F"
+          "content": "Engaging in uncommon activities can demonstrate students’ determination and dedication."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "It is advisable for students to choose an extracurricular activity that is related to their future study at college.",
-          "value": "G"
+          "content": "It is advisable for students to choose an extracurricular activity that is related to their future study at college."
         }
       ],
       "correct_answer": "B",
       "explanation": "定位原文第13段末句。Erica Gwyn 指出：“High school students who have had a strong positive influence on their community through an extracurricular activity may impress a college and win a scholarship...”。通过课外活动对所在社区产生积极影响的学生能够给大学留下深刻印象并赢得奖学金，与B选项“Students whose extracurricular activity has benefited their community are likely to win a scholarship”（课外活动造福社区的学生有可能赢得奖学金）精准匹配。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 45,
+      "score": 2.0
     }
   ],
   "exportedAt": "2026-10-15T11:40:12.615Z"
