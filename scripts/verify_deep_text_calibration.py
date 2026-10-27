@@ -179,6 +179,7 @@ def main():
     round79_anomalies = []
     round80_anomalies = []
     round81_anomalies = []
+    round82_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -2744,6 +2745,117 @@ def main():
                         opt_c = opt.get('content', '')
                         if not opt_k or (not opt_t and not opt_c):
                             round81_anomalies.append((f'2024_ky2_q{i}_opt_invalid', opt_k, opt_t))
+
+        
+        if yr == 2025 and cat == 'ky1':
+            if title != '2025年全国硕士研究生招生考试英语（一）真题':
+                round82_anomalies.append(('2025_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round82_anomalies.append(('2025_ky1_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round82_anomalies.append(('2025_ky1_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round82_anomalies.append(('2025_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 3 paras, 289 words, Pavlopetri sunken city
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 3:
+                    round82_anomalies.append(('2025_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("Located in the southern Peloponnesian peninsula, Pavlopetri"):
+                    round82_anomalies.append(('2025_ky1_cloze_start', cloze.get("content", "")[:50]))
+                if not cloze.get("content", "").endswith("[20] textile industry."):
+                    round82_anomalies.append(('2025_ky1_cloze_end', cloze.get("content", "")[-40:]))
+
+                # Text 1: 7 paras, 388 words, Shakespeare in schools
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round82_anomalies.append(('2025_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("The grammar school boy from Stratford-upon-Avon has landed a scholarly punch"):
+                    round82_anomalies.append(('2025_ky1_t1_start', t1.get("content", "")[:50]))
+                if not t1.get("content", "").endswith('using their whole bodies to bring words to life".'):
+                    round82_anomalies.append(('2025_ky1_t1_end', t1.get("content", "")[-50:]))
+
+                # Text 2: 7 paras, 421 words, Supercomputing and LUMI
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 7:
+                    round82_anomalies.append(('2025_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("I was shocked to learn recently that some scientists want to scale back their research"):
+                    round82_anomalies.append(('2025_ky1_t2_start', t2.get("content", "")[:50]))
+                if not t2.get("content", "").endswith("deliver sustainable computing and deliver more LUMIs."):
+                    round82_anomalies.append(('2025_ky1_t2_end', t2.get("content", "")[-50:]))
+
+                # Text 3: 6 paras, 417 words, Hollywood streaming wars
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 6:
+                    round82_anomalies.append(('2025_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("Ever since taking on Netflix Inc. at its own game, old Hollywood has struggled"):
+                    round82_anomalies.append(('2025_ky1_t3_start', t3.get("content", "")[:50]))
+                if not t3.get("content", "").endswith('says Parks Associates research analyst Sarah Hawley.'):
+                    round82_anomalies.append(('2025_ky1_t3_end', t3.get("content", "")[-50:]))
+
+                # Text 4: 5 paras, 475 words, Antiques and digital preservation
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 5:
+                    round82_anomalies.append(('2025_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("Visit any antiques store and you'll encounter artifacts from the past"):
+                    round82_anomalies.append(('2025_ky1_t4_start', t4.get("content", "")[:50]))
+                if not t4.get("content", "").endswith("they won't find it an impossible one."):
+                    round82_anomalies.append(('2025_ky1_t4_end', t4.get("content", "")[-50:]))
+
+                # Part B: 8 paras, 572 words, [A]-[H] butterfly photography
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 8:
+                    round82_anomalies.append(('2025_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("[A] Peters likes to photograph butterflies in a landscape"):
+                    round82_anomalies.append(('2025_ky1_pb_start', pb.get("content", "")[:50]))
+                if not pb.get("content", "").endswith("he layers 10 to 15 frames together in Photoshop."):
+                    round82_anomalies.append(('2025_ky1_pb_end', pb.get("content", "")[-50:]))
+
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round82_anomalies.append(('2025_ky1_questions_count', len(q_list)))
+            else:
+                exp_answers = {
+                    1: 'B', 2: 'C', 3: 'B', 4: 'C', 5: 'B', 6: 'A', 7: 'D', 8: 'A', 9: 'A', 10: 'D',
+                    11: 'D', 12: 'A', 13: 'D', 14: 'C', 15: 'D', 16: 'C', 17: 'B', 18: 'B', 19: 'B', 20: 'A',
+                    21: 'C', 22: 'A', 23: 'A', 24: 'B', 25: 'A',
+                    26: 'B', 27: 'D', 28: 'C', 29: 'A', 30: 'C',
+                    31: 'D', 32: 'A', 33: 'A', 34: 'C', 35: 'D',
+                    36: 'C', 37: 'B', 38: 'B', 39: 'C', 40: 'D',
+                    41: 'D', 42: 'G', 43: 'B', 44: 'E', 45: 'F'
+                }
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round82_anomalies.append((f'2025_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round82_anomalies.append((f'2025_ky1_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round82_anomalies.append((f'2025_ky1_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round82_anomalies.append((f'2025_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    ans = q.get('correct_answer') or q.get('answer')
+                    if ans != exp_answers.get(i):
+                        round82_anomalies.append((f'2025_ky1_q{i}_ans', ans, exp_answers.get(i)))
+
+                    exp_opts_count = 4 if i <= 40 else 7
+                    opts = q.get('options', [])
+                    if len(opts) != exp_opts_count:
+                        round82_anomalies.append((f'2025_ky1_q{i}_opts_count', len(opts)))
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        opt_c = opt.get('content', '')
+                        if not opt_k or (not opt_t and not opt_c):
+                            round82_anomalies.append((f'2025_ky1_q{i}_opt_invalid', opt_k, opt_t))
 
         passages = data.get('passages', [])
         questions = data.get('questions', [])
@@ -5352,6 +5464,7 @@ def main():
     results["Assertion 101: 2023 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段349词理顺增长团队与BitTorrent案例、Text 1 恢复6段318词理顺英国皇家园艺学会禁止人造草坪参展博弈、Text 2 恢复6段284词理顺美国国家公园220亿美元基建赤字与营地私有化争议、Text 3 恢复5段277词理顺认知卸载与互联网对人类记忆模式重塑、Text 4 恢复5段268词理顺青少年利他与叛逆并存的神经回报敏感性、Part B 恢复13段574词彻底切除Directions并规范净零建筑新规12段与5人多项对应、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round79_anomalies) == 0)
     results["Assertion 102: 2024 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词理顺自动门演化机制、Text 1 彻底治愈4段残缺恢复7段424词完整篇章理顺罗马钉子与低价技术变革、Text 2 治愈假造文本恢复7段417词理顺非洲狩猎采集者异亲养育与英国托儿所对比、Text 3 治愈假造文本恢复8段437词理顺鲁特科夫斯基与AI图像盗用、Text 4 治愈假造文本恢复5段426词理顺切萨皮克湾湿地与最高法院爱达荷裁决、Part B 恢复5段669词彻底剔除伪7选5段落恢复5人关于海外掠夺文物归还观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round80_anomalies) == 0)
     results["Assertion 103: 2024 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段347词理顺社交生活平衡、Text 1 恢复8段398词理顺戴安娜·科伊尔《齿轮与怪物》经济包容性、Text 2 恢复5段394词理顺英国木材种植危机与建筑净零瓶颈、Text 3 恢复6段384词理顺高龄不安全驾驶员与适老汽车、Text 4 恢复5段419词理顺健康应用数据隐私立法、Part B 恢复9段518词彻底清除Directions与多余选项恢复大学申请课外活动5人观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round81_anomalies) == 0)
+    results["Assertion 104: 2025 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复3段289词理顺帕夫洛彼特里沉没水下古城发现史、Text 1 恢复7段388词理顺莎士比亚排练室教学法对儿童读写与情感培育、Text 2 恢复7段421词理顺超级计算碳足迹与气候模型绿色计算LUMI、Text 3 恢复6段417词理顺好莱坞流媒体大战与盗版网站侵蚀破坏、Text 4 恢复5段475词理顺实体文物与数字原生资产寿命及特殊馆藏维护、Part B 恢复8段572词彻底切除Directions并规范英国蝴蝶摄影8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round82_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5380,6 +5493,8 @@ def main():
             print(f"Round 80 anomalies ({len(round80_anomalies)}):", round80_anomalies[:10])
         if round81_anomalies:
             print(f"Round 81 anomalies ({len(round81_anomalies)}):", round81_anomalies[:10])
+        if round82_anomalies:
+            print(f"Round 82 anomalies ({len(round82_anomalies)}):", round82_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
