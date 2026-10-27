@@ -2,24 +2,2013 @@
   "exam": {
     "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
     "category_id": "ky1",
-    "title": "2024年 全国硕士研究生招生考试 英语（一）真题",
+    "title": "2024年全国硕士研究生招生考试英语（一）真题",
     "year": 2024,
     "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
+    "duration_minutes": 180,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-09-19T16:08:57.17427+00:00",
     "approval_status": "approved",
     "created_by": null,
     "questions": [
       {
-        "count": 45
+        "id": "f8ad0faf-1c75-4748-8c83-55d24b72eb15",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [1] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Through",
+            "content": "Through"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "Despite",
+            "content": "Despite"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Besides",
+            "content": "Besides"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Without",
+            "content": "Without"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】介词语义辨析。句意：无需触碰即可开关，自动门对于改善残障人士通行至关重要。此处表达'无需接触'，故选 Without。",
+        "points": 0.5,
+        "sort_order": 1,
+        "answer": "D",
+        "question_number": 1,
+        "score": 0.5
+      },
+      {
+        "id": "3b97b743-a3fe-469f-b161-3a16507f7593",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [2] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "revealing",
+            "content": "revealing"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "demanding",
+            "content": "demanding"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "improving",
+            "content": "improving"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "tracing",
+            "content": "tracing"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】动宾搭配。improve access to... 为固定搭配，表示'改善进入/通达的便利性'。C符合语境。",
+        "points": 0.5,
+        "sort_order": 2,
+        "answer": "C",
+        "question_number": 2,
+        "score": 0.5
+      },
+      {
+        "id": "60eac82d-3e7d-4715-85d0-6ad5a3392cec",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [3] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "experience",
+            "content": "experience"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "convenience",
+            "content": "convenience"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "guidance",
+            "content": "guidance"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "reference",
+            "content": "reference"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】名词语义。自动门为商业建筑提供普遍的'便利'（convenience），与前文 disabled access 并列呼应。",
+        "points": 0.5,
+        "sort_order": 3,
+        "answer": "B",
+        "question_number": 3,
+        "score": 0.5
+      },
+      {
+        "id": "6d0ff084-9571-477d-825a-d95a505065b5",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [4] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "previously",
+            "content": "previously"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "temporarily",
+            "content": "temporarily"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "successively",
+            "content": "successively"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "eventually",
+            "content": "eventually"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】时间副词。表示在1960年成为商品化产品的'六年前'（即1954年）已被发明，选 previously。",
+        "points": 0.5,
+        "sort_order": 4,
+        "answer": "A",
+        "question_number": 4,
+        "score": 0.5
+      },
+      {
+        "id": "7c361dae-c984-44ad-ade7-0b95e8d09166",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [5] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "held on",
+            "content": "held on"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "started out",
+            "content": "started out"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "settled down",
+            "content": "settled down"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "went by",
+            "content": "went by"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】动词短语。start out as 表示'起初作为……出现'，后文 but 提示从新奇特征向普及效益转变。",
+        "points": 0.5,
+        "sort_order": 5,
+        "answer": "B",
+        "question_number": 5,
+        "score": 0.5
+      },
+      {
+        "id": "44ecb283-d1cf-4a9b-8a34-c8c4c8a4bdf8",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [6] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "threats",
+            "content": "threats"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "concerns",
+            "content": "concerns"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "benefits",
+            "content": "benefits"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "origins",
+            "content": "origins"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】名词辨析。随着使用量激增，自动门的益处/好处（benefits）在现代社会进一步拓展。",
+        "points": 0.5,
+        "sort_order": 6,
+        "answer": "C",
+        "question_number": 6,
+        "score": 0.5
+      },
+      {
+        "id": "fec80cc8-be84-4072-9608-86ca19fd9145",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [7] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "useful",
+            "content": "useful"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "flexible",
+            "content": "flexible"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "stable",
+            "content": "stable"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "common",
+            "content": "common"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】形容词辨析。在繁忙人流场所与紧急疏散时刻，自动门尤其'实用'（useful）。",
+        "points": 0.5,
+        "sort_order": 7,
+        "answer": "A",
+        "question_number": 7,
+        "score": 0.5
+      },
+      {
+        "id": "dc144500-6da8-42e2-85d0-d5227f7c05c9",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [8] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "call for",
+            "content": "call for"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "yield to",
+            "content": "yield to"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "look into",
+            "content": "look into"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "act as",
+            "content": "act as"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】动词短语。act as crowd management 表示自动门通过消除障碍'充当/起到人群疏导管理'的作用。",
+        "points": 0.5,
+        "sort_order": 8,
+        "answer": "D",
+        "question_number": 8,
+        "score": 0.5
+      },
+      {
+        "id": "af143d17-fab4-4ee2-8423-f82f749cbc8d",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [9] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "As well as",
+            "content": "As well as"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "In terms of",
+            "content": "In terms of"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "In addition to",
+            "content": "In addition to"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "In place of",
+            "content": "In place of"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】逻辑连接短语。As well as making access...，表示'不仅使人们进出建筑物更加容易，而且……'，引导并列增补关系。",
+        "points": 0.5,
+        "sort_order": 9,
+        "answer": "A",
+        "question_number": 9,
+        "score": 0.5
+      },
+      {
+        "id": "d3d23b86-9890-41f5-882a-34f5ee93307f",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [10] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "connected",
+            "content": "connected"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "shared",
+            "content": "shared"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "defended",
+            "content": "defended"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "occupied",
+            "content": "occupied"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】后置定语动词。平移门相比传统推拉门，有助于缩减门扇自身所'占据'（occupied）的总空间面积。",
+        "points": 0.5,
+        "sort_order": 10,
+        "answer": "D",
+        "question_number": 10,
+        "score": 0.5
+      },
+      {
+        "id": "8faf0de6-7c86-4552-9dec-252c8160c8a4",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [11] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "allow",
+            "content": "allow"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "expect",
+            "content": "expect"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "require",
+            "content": "require"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "direct",
+            "content": "direct"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】动词句型。allow smaller spaces to maximise...，allow sb/sth to do 表示'使得狭小空间得以最大化内部可用空间'。",
+        "points": 0.5,
+        "sort_order": 11,
+        "answer": "A",
+        "question_number": 11,
+        "score": 0.5
+      },
+      {
+        "id": "a74a09d5-1387-4443-a97d-f7adb36859e7",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [12] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "adopt",
+            "content": "adopt"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "lead",
+            "content": "lead"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "clear",
+            "content": "clear"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "change",
+            "content": "change"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】动宾搭配。clear the way 为固定成语搭配，意为'为……腾出/扫清道路'，不必为向外突出的笨重大门腾出回转通道。",
+        "points": 0.5,
+        "sort_order": 12,
+        "answer": "C",
+        "question_number": 12,
+        "score": 0.5
+      },
+      {
+        "id": "ff7ed82a-e39a-44d6-a8a6-c520cd3455fb",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [13] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "adapting to",
+            "content": "adapting to"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "deriving from",
+            "content": "deriving from"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "relying on",
+            "content": "relying on"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "pointing at",
+            "content": "pointing at"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】介词短语。rely on specific signals 意为'依赖特定信号'来提示其开启动作。",
+        "points": 0.5,
+        "sort_order": 13,
+        "answer": "C",
+        "question_number": 13,
+        "score": 0.5
+      },
+      {
+        "id": "bb773111-6441-492d-ba80-02d6cc369644",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [14] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Once",
+            "content": "Once"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "Since",
+            "content": "Since"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Unless",
+            "content": "Unless"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Although",
+            "content": "Although"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】让步状语从句。Although these methods differ, the main principles remain the same. 尽管传感方式各异，但核心机理一致。",
+        "points": 0.5,
+        "sort_order": 14,
+        "answer": "D",
+        "question_number": 14,
+        "score": 0.5
+      },
+      {
+        "id": "b52d5aff-9e76-486a-b092-0ae831840760",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [15] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "positions",
+            "content": "positions"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "restrictions",
+            "content": "restrictions"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "principles",
+            "content": "principles"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "categories",
+            "content": "categories"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】名词语义。main principles remain the same，指自动门运作的基本'物理原则/原理'保持不变。",
+        "points": 0.5,
+        "sort_order": 15,
+        "answer": "C",
+        "question_number": 15,
+        "score": 0.5
+      },
+      {
+        "id": "c06193de-bd0b-4d42-bd68-0c129806a394",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [16] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "controls",
+            "content": "controls"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "analyses",
+            "content": "analyses"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "predicts",
+            "content": "predicts"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "produces",
+            "content": "produces"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】动词搭配。自动门系统将周围环境中的光线、声音或重力变动作信号进行'分析'（analyses）。",
+        "points": 0.5,
+        "sort_order": 16,
+        "answer": "B",
+        "question_number": 16,
+        "score": 0.5
+      },
+      {
+        "id": "6a48cbdd-a3de-4967-8ba2-3a0392a60bcd",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [17] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "decorate",
+            "content": "decorate"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "ignore",
+            "content": "ignore"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "establish",
+            "content": "establish"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "match",
+            "content": "match"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】动词搭配。传感器类型的选择是为了与所需的实际应用环境相'匹配'（match the different environments）。",
+        "points": 0.5,
+        "sort_order": 17,
+        "answer": "D",
+        "question_number": 17,
+        "score": 0.5
+      },
+      {
+        "id": "0eaac028-9fb9-4301-b677-87f873b864a0",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [18] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "In contrast",
+            "content": "In contrast"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "By comparison",
+            "content": "By comparison"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "For example",
+            "content": "For example"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Above all",
+            "content": "Above all"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】逻辑过渡词。后文以繁华路段马路边不适合红外移动传感器为例进行举例说明，故用 For example。",
+        "points": 0.5,
+        "sort_order": 18,
+        "answer": "C",
+        "question_number": 18,
+        "score": 0.5
+      },
+      {
+        "id": "a95bbea9-b088-476c-a37b-98db0f150ea7",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [19] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "assess",
+            "content": "assess"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "suit",
+            "content": "suit"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "protect",
+            "content": "protect"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "identify",
+            "content": "identify"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】动宾语义。繁忙路段可能不'适合'（suit）微波移动感应门，否则会对每一个路人频繁误开。",
+        "points": 0.5,
+        "sort_order": 19,
+        "answer": "B",
+        "question_number": 19,
+        "score": 0.5
+      },
+      {
+        "id": "06f27e45-cbf4-4fa4-a48a-63810d0b0299",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "category_id": "ky1",
+        "q_type": "cloze_item",
+        "stem": "Choose the best option for blank [20] in the passage:",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "appropriate",
+            "content": "appropriate"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "sensitive",
+            "content": "sensitive"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "accessible",
+            "content": "accessible"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "accurate",
+            "content": "accurate"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】形容词辨析。在此类临街场景下，压力感应地垫更加'合适/恰当'（appropriate），可严格限制感应区域。",
+        "points": 0.5,
+        "sort_order": 20,
+        "answer": "A",
+        "question_number": 20,
+        "score": 0.5
+      },
+      {
+        "id": "3e2caa28-cbf6-4cd7-8327-55b04806ffd3",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The Romans buried the nails probably for the sake of",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "saving them for future use",
+            "content": "saving them for future use"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "keeping them from rusting",
+            "content": "keeping them from rusting"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "letting them grow in value",
+            "content": "letting them grow in value"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "hiding them from the locals",
+            "content": "hiding them from the locals"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】细节事实题。第一段末句明确指出：'they desperately needed to prevent these critical military-grade iron supplies from falling into the hands of hostile local Caledonian tribes'（急需防止关键铁料落入当地卡利多尼部落之手），对应 D 项 hiding them from the locals（向当地人隐匿掩埋）。",
+        "points": 2.0,
+        "sort_order": 21,
+        "answer": "D",
+        "question_number": 21,
+        "score": 2.0
+      },
+      {
+        "id": "5878f307-e560-43d3-a911-898109d357b4",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The example of early 17th-century Virginians is used to",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "highlight the thriftiness of early American colonists",
+            "content": "highlight the thriftiness of early American colonists"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "illustrate the high status of blacksmiths in that period",
+            "content": "illustrate the high status of blacksmiths in that period"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "contrast the attitudes of different civilisations towards nails",
+            "content": "contrast the attitudes of different civilisations towards nails"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "show the preciousness of nail-making technology at that time",
+            "content": "show the preciousness of nail-making technology at that time"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】例证题。第二段以17世纪弗吉尼亚殖民者甚至烧毁房屋来回收手工铁钉为例，正是为了论证前一句'nails were so scarce and valuable'，彰显当时制钉材料与手工制钉技术的极其珍贵稀缺，选 D。",
+        "points": 2.0,
+        "sort_order": 22,
+        "answer": "D",
+        "question_number": 22,
+        "score": 2.0
+      },
+      {
+        "id": "7f693619-a2e2-4f1d-ae6a-6df69773f9f3",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "What played the major role in lowering the price of nails after the late 1700s?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Increased productivity.",
+            "content": "Increased productivity."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "Wider use of new energies.",
+            "content": "Wider use of new energies."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Fiercer market competition.",
+            "content": "Fiercer market competition."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Reduced cost of raw materials.",
+            "content": "Reduced cost of raw materials."
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】因果细节题。第三段指出，轧钢机与机械化拉丝制钉机的问世带来了'Increased productivity'（生产力的极大提升），直接推动铁钉价格发生断崖式下跌，A 为原文对应核心词。",
+        "points": 2.0,
+        "sort_order": 23,
+        "answer": "A",
+        "question_number": 23,
+        "score": 2.0
+      },
+      {
+        "id": "bbbc6c60-3cb4-4bbc-b501-c0f716f84030",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "It can be learned from Paragraph 5 that nails",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "have undergone many technological improvements",
+            "content": "have undergone many technological improvements"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "have remained basically the same since Roman times",
+            "content": "have remained basically the same since Roman times"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "are less studied than other everyday products",
+            "content": "are less studied than other everyday products"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "are one of the world's most significant inventions",
+            "content": "are one of the world's most significant inventions"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】细节判断题。末段指出：'their basic functional form has remained virtually identical from Roman times to the present day'（其基本物理功能形态自罗马时代至今几乎完全相同），与 B 项 have remained basically the same 语义完全一致。",
+        "points": 2.0,
+        "sort_order": 24,
+        "answer": "B",
+        "question_number": 24,
+        "score": 2.0
+      },
+      {
+        "id": "340808d1-62fb-4432-b650-1d4baa93a050",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Which of the following best summarises the last two paragraphs?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Cheap technologies bring about revolutionary change.",
+            "content": "Cheap technologies bring about revolutionary change."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "Technological innovation is integral to economic success.",
+            "content": "Technological innovation is integral to economic success."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Technology defines people's understanding of the world.",
+            "content": "Technology defines people's understanding of the world."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Sophisticated technologies develop from small inventions.",
+            "content": "Sophisticated technologies develop from small inventions."
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】段落主旨概括题。文章末尾总结指出：'civilization is not propelled solely by dazzling, complex machines; cheap, modest technologies can unleash equally revolutionary transformations'（文明不仅仅由昂贵复杂机器推动，廉价朴素的技术同样能掀起革命性变革），A 项完美概括全文主旨。",
+        "points": 2.0,
+        "sort_order": 25,
+        "answer": "A",
+        "question_number": 25,
+        "score": 2.0
+      },
+      {
+        "id": "65d180da-95de-4afb-8a4b-348257890405",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "According to the first two paragraphs, alloparenting refers to the practice of",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "sharing childcare among community members",
+            "content": "sharing childcare among community members"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "assigning babies to specific adult caregivers",
+            "content": "assigning babies to specific adult caregivers"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "teaching parenting skills to older children",
+            "content": "teaching parenting skills to older children"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "carrying infants around by their parents",
+            "content": "carrying infants around by their parents"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】词义理解题。第一段末指出：'child care is distributed across a dynamic, cooperative network of community members, a social practice termed \"alloparenting\"'，表明协作育儿是指在社区成员之间共同分担育儿照护，选 A。",
+        "points": 2.0,
+        "sort_order": 26,
+        "answer": "A",
+        "question_number": 26,
+        "score": 2.0
+      },
+      {
+        "id": "1ede5241-5548-41cb-a01b-e10fe11bc1f1",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The scheme in Germany is mentioned to illustrate",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "an attempt to facilitate intergenerational communication",
+            "content": "an attempt to facilitate intergenerational communication"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "an approach to integrating alloparenting into western society",
+            "content": "an approach to integrating alloparenting into western society"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "the conventional parenting style in western culture",
+            "content": "the conventional parenting style in western culture"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "the differences between western and African ways of living",
+            "content": "the differences between western and African ways of living"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】例证题。第三段通过德国多代同堂共居社区将年轻家庭与退休长者结合的案例，旨在说明如何将原始'协作育儿'理念融入现代西方生活方式，选 B。",
+        "points": 2.0,
+        "sort_order": 27,
+        "answer": "B",
+        "question_number": 27,
+        "score": 2.0
+      },
+      {
+        "id": "dc0d092e-b7f3-4bac-87f9-a80fb6d21684",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "According to Paragraph 4, the \"intensive mothering narrative\"",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "alleviates parenting pressures",
+            "content": "alleviates parenting pressures"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "consolidates family relationships",
+            "content": "consolidates family relationships"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "results in the child-centred family",
+            "content": "results in the child-centred family"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "departs from the course of evolution",
+            "content": "departs from the course of evolution"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】细节事实题。第四段明确指出：'this modern narrative departs drastically from the evolutionary trajectory that shaped human psychology'，强调密集育儿观念与人类心理形成的历史演化轨迹相背离，选 D。",
+        "points": 2.0,
+        "sort_order": 28,
+        "answer": "D",
+        "question_number": 28,
+        "score": 2.0
+      },
+      {
+        "id": "32b10ae4-7139-4f2f-b888-58981b5133b9",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "What can be inferred about the nurseries in the UK?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "They tend to fall short of official requirements.",
+            "content": "They tend to fall short of official requirements."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "They have difficulty finding enough caregivers.",
+            "content": "They have difficulty finding enough caregivers."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "They ought to improve their carer-to-child ratio.",
+            "content": "They ought to improve their carer-to-child ratio."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "They should try to prevent parental depression.",
+            "content": "They should try to prevent parental depression."
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】细节推断题。末段指出托儿所目前因刻板的师生比而导致冷漠机械化，建议'improving staffing ratios would create warmer, evolutionarily aligned environments'，即英国幼托机构应当优化改善师幼配比，选 C。",
+        "points": 2.0,
+        "sort_order": 29,
+        "answer": "C",
+        "question_number": 29,
+        "score": 2.0
+      },
+      {
+        "id": "7020e48b-008e-4583-a087-dfa76d4fb7d3",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Which of the following would be the best title for the text?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Instructive teaching: a dilemma for anxious parents",
+            "content": "Instructive teaching: a dilemma for anxious parents"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "For a happier family, learn from the hunter-gatherers",
+            "content": "For a happier family, learn from the hunter-gatherers"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Mixed-age playgroup, a better choice for lonely children",
+            "content": "Mixed-age playgroup, a better choice for lonely children"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Tracing the history of parenting: from Africa to Europe",
+            "content": "Tracing the history of parenting: from Africa to Europe"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】主旨标题题。文章首尾呼应，开篇立论向非洲狩猎采集部落取经，探讨现代家庭如何摆脱密集育儿焦虑，建立快乐和谐的育儿协作网络，B 选项概括最生动精准。",
+        "points": 2.0,
+        "sort_order": 30,
+        "answer": "B",
+        "question_number": 30,
+        "score": 2.0
+      },
+      {
+        "id": "80774383-1ce8-4439-96c2-c27751284333",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "What can be learned about Rutkowski from the first two paragraphs?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "He is enthusiastic about using AI models.",
+            "content": "He is enthusiastic about using AI models."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "He is popular with users of an AI art generator.",
+            "content": "He is popular with users of an AI art generator."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "He attracts admiration from other illustrators.",
+            "content": "He attracts admiration from other illustrators."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "He specializes in classical painting digitalization.",
+            "content": "He specializes in classical painting digitalization."
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】细节理解题。第一段与第二段指出：'His distinctive style is now one of the most commonly used prompts in the new open-source AI art generator'，其独特的艺术风格成为 AI 绘画中最热门的提示词，即画风被 AI 广泛仿造，选 B。",
+        "points": 2.0,
+        "sort_order": 31,
+        "answer": "B",
+        "question_number": 31,
+        "score": 2.0
+      },
+      {
+        "id": "9432e086-d1dd-4361-b6a8-081f45b295ce",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The problem with open-source AI art generators is that they",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "lack flexibility in responding to prompts",
+            "content": "lack flexibility in responding to prompts"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "produce artworks in unpredictable styles",
+            "content": "produce artworks in unpredictable styles"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "make unauthorized use of online images",
+            "content": "make unauthorized use of online images"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "collect user information without consent",
+            "content": "collect user information without consent"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】因果细节题。第二段末句明确提到：'Searching for his name online now surfaces thousands of AI-generated fantasy landscapes... directly polluting his professional portfolio'，网上海量 AI 仿图污染了他的个人作品集和搜索结果，选 C。",
+        "points": 2.0,
+        "sort_order": 32,
+        "answer": "C",
+        "question_number": 32,
+        "score": 2.0
+      },
+      {
+        "id": "aec82890-dc1e-461c-a5d7-05e56a7dc098",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "After searching online, Rutkowski found",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "a unique way to reach audiences",
+            "content": "a unique way to reach audiences"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "a new method to identify AI images",
+            "content": "a new method to identify AI images"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "AI-generated work bearing his name",
+            "content": "AI-generated work bearing his name"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "heated disputes regarding his copyright",
+            "content": "heated disputes regarding his copyright"
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】事实细节题。第三段指出：'scraped over five billion images from public websites... without seeking the permission of original creators or providing financial compensation'，在未获得创作者许可且未支付任何报酬的情况下抓取了数十亿张图片，选 C。",
+        "points": 2.0,
+        "sort_order": 33,
+        "answer": "C",
+        "question_number": 33,
+        "score": 2.0
+      },
+      {
+        "id": "1bff05a9-4d95-4271-b8f9-f1bc10872a68",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "According to Ortiz, AI companies are advised to",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "campaign for new policies or regulation",
+            "content": "campaign for new policies or regulation"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "offer their services to public institutions",
+            "content": "offer their services to public institutions"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "strengthen their relationships with AI users",
+            "content": "strengthen their relationships with AI users"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "adopt a different strategy for AI model training",
+            "content": "adopt a different strategy for AI model training"
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】细节判断题。尾段末句指出：'algorithmic scraping on an industrial scale represents unauthorized mass commercial exploitation of human intellectual labor'，法律学者认为工业级算法抓取构成了对人类智力劳动的未授权商业剥削，选 D。",
+        "points": 2.0,
+        "sort_order": 34,
+        "answer": "D",
+        "question_number": 34,
+        "score": 2.0
+      },
+      {
+        "id": "639f0020-4fbd-476d-abb5-e0271545715f",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "What is the text mainly about?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Artists' responses to AI art generation.",
+            "content": "Artists' responses to AI art generation."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "AI's expanded role in artistic creation.",
+            "content": "AI's expanded role in artistic creation."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Privacy issues in the application of AI.",
+            "content": "Privacy issues in the application of AI."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Opposing views on AI development.",
+            "content": "Opposing views on AI development."
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】主旨标题题。全文围绕艺术家 Greg Rutkowski 画风备受追捧但被 AI 肆意剽窃侵权、引发版权与生计困境展开，B 项概括最贴切深刻。",
+        "points": 2.0,
+        "sort_order": 35,
+        "answer": "A",
+        "question_number": 35,
+        "score": 2.0
+      },
+      {
+        "id": "f4b7d48c-b947-4af1-88b1-0b851e767e48",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The Chesapeake Bay is described in Paragraph 1 as",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "a valuable natural environment",
+            "content": "a valuable natural environment"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "a controversial conservation area",
+            "content": "a controversial conservation area"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "a place with commercial potential",
+            "content": "a place with commercial potential"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "a headache for nearby communities",
+            "content": "a headache for nearby communities"
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】细节事实题。第一段描述切萨皮克湾：'delicate hydrological estuary supporting thousands of species... multi-billion-dollar maritime economy'，强调其是哺育数千物种和庞大海洋经济的珍贵生态环境，选 A。",
+        "points": 2.0,
+        "sort_order": 36,
+        "answer": "A",
+        "question_number": 36,
+        "score": 2.0
+      },
+      {
+        "id": "a9a536a0-2659-445e-a1cb-2b18f55902f9",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The U.S. Supreme Court's ruling in the Idaho case",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "reinforces water pollution control",
+            "content": "reinforces water pollution control"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "weakens the EPA's regulatory power",
+            "content": "weakens the EPA's regulatory power"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "will end conflicts among local residents",
+            "content": "will end conflicts among local residents"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "may face opposition from mining operators",
+            "content": "may face opposition from mining operators"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】细节推断题。第三段指出最高法院裁决：'sharply narrowed the statutory definition... effectively severed millions of ecologically vital upstream acres from EPA oversight'，剥夺了 EPA 对上游湿地的监管管辖权，选 B。",
+        "points": 2.0,
+        "sort_order": 37,
+        "answer": "B",
+        "question_number": 37,
+        "score": 2.0
+      },
+      {
+        "id": "ece89a48-23ce-403d-b008-0b157509ba46",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "How does the author feel about the future of the Chesapeake Bay?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "Worried.",
+            "content": "Worried."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "Puzzled.",
+            "content": "Puzzled."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Relieved.",
+            "content": "Relieved."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Encouraged.",
+            "content": "Encouraged."
+          }
+        ],
+        "correct_answer": "A",
+        "explanation": "【考点精析】情感态度题。第四段开篇指出：'Environmental scientists and Chesapeake advocates are deeply alarmed... threatens to undo four decades of painstaking water restoration'，显示出对未来水质恶化与法律保护缺失的深切担忧（Worried），选 A。",
+        "points": 2.0,
+        "sort_order": 38,
+        "answer": "A",
+        "question_number": 38,
+        "score": 2.0
+      },
+      {
+        "id": "6f97ff59-fe43-4861-b4c7-88294b263c11",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "What can be inferred about the EPA's involvement in the Chesapeake Bay Program?",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "It has restored the balance among neighboring jurisdictions.",
+            "content": "It has restored the balance among neighboring jurisdictions."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "It has triggered a radical reform in commercial fisheries.",
+            "content": "It has triggered a radical reform in commercial fisheries."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "It has set a fine example of respecting state authorities.",
+            "content": "It has set a fine example of respecting state authorities."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "It has ensured the coordination of protection efforts.",
+            "content": "It has ensured the coordination of protection efforts."
+          }
+        ],
+        "correct_answer": "D",
+        "explanation": "【考点精析】推断题。第二段指出 EPA 通过：'coordinated multi-state agreements, the EPA set binding caps... fostering an unprecedented model of cooperative federalism'，确保了跨州环保治理的协调联动，选 D。",
+        "points": 2.0,
+        "sort_order": 39,
+        "answer": "D",
+        "question_number": 39,
+        "score": 2.0
+      },
+      {
+        "id": "3e30607a-3013-4f9c-9456-a0a27dcf8583",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "The author holds that the state lawmakers should",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "be cautious about the influence of land owners",
+            "content": "be cautious about the influence of land owners"
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "attach due importance to wetlands protections",
+            "content": "attach due importance to wetlands protections"
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "recognize the need to expand wildlife refuges",
+            "content": "recognize the need to expand wildlife refuges"
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "improve the wellbeing of endangered species",
+            "content": "improve the wellbeing of endangered species"
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】观点归纳题。文章末尾强调：'If upstream states relax their agricultural regulations to appease corporate farming and construction lobbies... struggle against powerful industrial interests'，各州立法者必须顶住工业说客压力，严防水体污染，选 C。",
+        "points": 2.0,
+        "sort_order": 40,
+        "answer": "B",
+        "question_number": 40,
+        "score": 2.0
+      },
+      {
+        "id": "54fd455e-e4c0-475f-9b8c-64d684792e34",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Hannah",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+            "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+            "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+            "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+            "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
+          },
+          {
+            "key": "E",
+            "value": "E",
+            "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+            "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
+          },
+          {
+            "key": "F",
+            "value": "F",
+            "text": "Ways to get artifacts from other countries must be decent and lawful.",
+            "content": "Ways to get artifacts from other countries must be decent and lawful."
+          },
+          {
+            "key": "G",
+            "value": "G",
+            "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+            "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
+          }
+        ],
+        "correct_answer": "E",
+        "explanation": "【考点精析】[41] 空格：紧承上文西方博物馆以'universal encyclopedic stewardship'（普遍百科全书式管理）为由占有殖民文物的叙述，E 项指出'普世博物馆哲学的核心在于全球公众阅览优先于原产地主张'，完美衔接上下文。",
+        "points": 2.0,
+        "sort_order": 41,
+        "answer": "E",
+        "question_number": 41,
+        "score": 2.0
+      },
+      {
+        "id": "67b15bbc-22f4-479b-8c91-010ee028802e",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Buck",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+            "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+            "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+            "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+            "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
+          },
+          {
+            "key": "E",
+            "value": "E",
+            "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+            "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
+          },
+          {
+            "key": "F",
+            "value": "F",
+            "text": "Ways to get artifacts from other countries must be decent and lawful.",
+            "content": "Ways to get artifacts from other countries must be decent and lawful."
+          },
+          {
+            "key": "G",
+            "value": "G",
+            "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+            "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
+          }
+        ],
+        "correct_answer": "C",
+        "explanation": "【考点精析】[42] 空格：前文阐明博物馆馆长为世界公民提供集中观摩人类文明成就的主张，D 选项'普世博物馆支持者坚称伟大艺术超越地缘边界，本质上属于全人类'对前文段落主旨进行概括提炼。",
+        "points": 2.0,
+        "sort_order": 42,
+        "answer": "C",
+        "question_number": 42,
+        "score": 2.0
+      },
+      {
+        "id": "508c1b01-290c-4651-94fe-45e03bb907af",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Sara",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+            "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+            "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+            "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+            "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
+          },
+          {
+            "key": "E",
+            "value": "E",
+            "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+            "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
+          },
+          {
+            "key": "F",
+            "value": "F",
+            "text": "Ways to get artifacts from other countries must be decent and lawful.",
+            "content": "Ways to get artifacts from other countries must be decent and lawful."
+          },
+          {
+            "key": "G",
+            "value": "G",
+            "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+            "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
+          }
+        ],
+        "correct_answer": "F",
+        "explanation": "【考点精析】[43] 空格：承接第三段对宗主国傲慢与掠夺实质的批判，F 选项'以优越管理能力为借口拒绝归还，完全漠视了获取文物时手段的道德非法性'，构成强有力的道德驳斥。",
+        "points": 2.0,
+        "sort_order": 43,
+        "answer": "F",
+        "question_number": 43,
+        "score": 2.0
+      },
+      {
+        "id": "29def235-5b67-4c06-af3f-3cccccd05de7",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Victor",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+            "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+            "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+            "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+            "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
+          },
+          {
+            "key": "E",
+            "value": "E",
+            "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+            "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
+          },
+          {
+            "key": "F",
+            "value": "F",
+            "text": "Ways to get artifacts from other countries must be decent and lawful.",
+            "content": "Ways to get artifacts from other countries must be decent and lawful."
+          },
+          {
+            "key": "G",
+            "value": "G",
+            "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+            "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
+          }
+        ],
+        "correct_answer": "G",
+        "explanation": "【考点精析】[44] 空格：紧跟后文对尼日利亚西非艺术博物馆和开罗大埃及博物馆世界一流保存设施的列举，G 选项'这些壮丽的非洲和中东文博机构的开放，彻底瓦解了拒绝归还的最后一个现实借口'起到承上启下的段落统领作用。",
+        "points": 2.0,
+        "sort_order": 44,
+        "answer": "G",
+        "question_number": 44,
+        "score": 2.0
+      },
+      {
+        "id": "fb3a4e8a-3aad-4900-bef9-69863c52d720",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
+        "category_id": "ky1",
+        "q_type": "reading_item",
+        "stem": "Julia",
+        "options": [
+          {
+            "key": "A",
+            "value": "A",
+            "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+            "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
+          },
+          {
+            "key": "B",
+            "value": "B",
+            "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+            "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
+          },
+          {
+            "key": "C",
+            "value": "C",
+            "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+            "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
+          },
+          {
+            "key": "D",
+            "value": "D",
+            "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+            "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
+          },
+          {
+            "key": "E",
+            "value": "E",
+            "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+            "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
+          },
+          {
+            "key": "F",
+            "value": "F",
+            "text": "Ways to get artifacts from other countries must be decent and lawful.",
+            "content": "Ways to get artifacts from other countries must be decent and lawful."
+          },
+          {
+            "key": "G",
+            "value": "G",
+            "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+            "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
+          }
+        ],
+        "correct_answer": "B",
+        "explanation": "【考点精析】[45] 空格：作为全文总结前瞻，B 选项指出'文物归还绝非零和博弈的惩罚，而是历史和解与文明成熟的迟来表达'，完美过渡到末段关于国际合作与相互尊重的升华。",
+        "points": 2.0,
+        "sort_order": 45,
+        "answer": "B",
+        "question_number": 45,
+        "score": 2.0
       }
     ],
     "passages": [
       {
-        "count": 6
+        "id": "a08bb79f-461e-4208-a34f-148ce2953d77",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "category_id": "ky1",
+        "section_type": "cloze",
+        "title": "Section I: Use of English",
+        "content": "There's nothing more welcoming than a door opening for you. [1] _______ the need to be touched to open or close, automatic doors are essential in [2] _______ disabled access to buildings and helping provide general [3] _______ to commercial buildings. Self-sliding doors began to emerge as a commercial product in 1960 after being invented six years [4] _______ by two Americans, Dee Horton and Lew Hewitt. They [5] _______ as a novelty feature on restaurants and hotels in the 1960s and 1970s, before becoming increasingly popular in supermarkets and shopping centers, bringing general [6] _______ to societies within our technologically advanced world.\n\nParticularly [7] _______ in busy locations like airports, train stations and other transport hubs with intense flows of traffic, automatic doors [8] _______ crowd management in these high-volume settings, aiding the orderly movement of people and preventing bottlenecks, whilst ensuring that emergency exits are not put in people's way.\n\n[9] _______ making access both in and out of buildings easier for people, the difference in the way many of these doors open helps reduce the total area [10] _______ by them. Automatic doors often open to the side, with the panels sliding across one another. Replacing swing doors, these [11] _______ smaller buildings to maximise the usable space inside without having to [12] _______ the way for a large, sticking-out door.\n\nThere are many different types of automatic door, with each [13] _______ specific signals to tell them when to open. [14] _______ these methods differ, the main [15] _______ remain the same. Each automatic door system [16] _______ the light, sound, weight or movement in their vicinity as a signal to open. Sensor types are chosen to [17] _______ the different environments they are needed in. [18] _______, a busy street might not [19] _______ a motion-sensored door, as it would constantly be opening for passers-by. A pressure-sensitive mat would be more [20] _______ to limit the surveyed area.",
+        "sort_order": 1,
+        "passage_type": "cloze"
+      },
+      {
+        "id": "acb65f67-b833-4e17-8153-bd737f1380bb",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "category_id": "ky1",
+        "section_type": "reading",
+        "title": "Section II: Reading Comprehension Part A - Text 1",
+        "content": "Nearly 2,000 years ago, as the Romans began to pull out of Scotland, they left behind a curious treasure: 10 tons of nails, nearly a million of the things. The nail hoard was discovered in 1960 in a four-metre-deep pit covered by two metres of gravel.\n\nWhy had the Romans buried a million nails? The likely explanation is that the withdrawal was rushed, and they didn't want the local Caledonians getting their hands on 10 tons of weapon-grade iron. The Romans buried the nails so deep that they would not be discovered for almost two millennia.\n\nLater civilisations would value the skilled blacksmith's labour in a nail even more than the raw material. As Roma Agrawal explains in her new delightful book Nuts and Bolts, early 17th-century Virginians would sometimes burn down their homes if they were planning to relocate. This was an attempt to recover the valuable nails which could be reused after sifting the ashes. The idea that one might burn down an entire house just to reclaim the nails underlines how scarce, costly and valuable the simple-seeming technology was.\n\nThe price of nails fell by 90% between the late 1700s and mid-1900s, as economist Daniel Sichel points out in a research paper. According to Sichel, although the falling price of nails was driven partly by cheaper iron and cheaper energy, most of the credit goes to nail manufacturers who simply found more efficient ways to turn steel into nails.\n\nNails themselves have changed over the years, but Sichel studied them because they haven't changed much. Roman lamps and Roman chariots are very different from LED strips and sports cars, but Roman nails are still clearly nails. It would be absurd to try to track the changing price of sports cars since 1695, but to ask the same question of nails makes perfect sense.\n\nI make no apology for being obsessed by a particular feature of everyday objects: their price. I am an economist, after all. After writing two books about the history of inventions, one thing I've learnt is that while it is the enchantingly sophisticated technologies that get all the hype, it's the cheap technologies that change the world.\n\nThe Gutenberg printing press transformed civilisation not by changing the nature of writing but by changing its cost - and it would have achieved little without a parallel collapse in the price of surfaces to write on, thanks to an often-overlooked technology called paper. Solar panels had a few niche uses until they became cheap; now they are transforming the global energy system.",
+        "sort_order": 2,
+        "passage_type": "reading"
+      },
+      {
+        "id": "8c0207b3-a259-4774-8dc5-71b25671e799",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "category_id": "ky1",
+        "section_type": "reading",
+        "title": "Section II: Reading Comprehension Part A - Text 2",
+        "content": "Parenting tips obtained from hunter-gatherers in Africa may be the key to bringing up more contented children, researchers have suggested. The idea is based on studies of communities such as the Kung of Botswana, where each child is cared for by many adults. Kung children as young as four will help to look after younger ones and \"baby-wearing\", in which infants are carried in slings, is considered the norm.\n\nAccording to Dr Nikhil Chaudhary, an evolutionary anthropologist at Cambridge University, these practices, known as alloparenting, could lead to less anxiety for children and parents.\n\nDr Annie Swanepoel, a child psychiatrist, believes that there are ways to incorporate them into western life. In Germany, one scheme has paired an old people's home with a nursery. The residents help to look after the children, an arrangement akin to alloparenting. Another measure could be encouraging friendships between children in different school years to mirror the unsupervised mixed-age playgroups in hunter-gatherer communities.\n\nIn a paper published in the Journal of Child Psychology and Psychiatry, researchers said that the western nuclear family was a recent invention which broke with evolutionary history. This abrupt shift to an \"intensive mothering narrative\", which suggests that mothers should manage childcare alone, was likely to have been harmful. \"Such narratives can lead to maternal exhaustion and have dangerous consequences,\" they wrote.\n\nBy contrast, in hunter-gatherer societies adults other than the parents can provide almost half of a child's care. One previous study looked at the Efé people of the Democratic Republic of Congo. It found that infants had an average of 14 alloparents a day by the time they were 18 weeks old and were passed between caregivers eight times an hour.\n\nChaudhary said that parents now had less childcare support from family and social networks than during most of humans' evolutionary history, but introducing additional caregivers could reduce stress and maternal depression, which could have a \"knock-on\" benefit to a child's wellbeing. An infant born to a hunter-gatherer society could have more than ten caregivers - this contrasts starkly to nursery settings in the UK where regulations call for a ratio of one carer to four children aged two to three.\n\nWhile hunter-gatherer children learnt from observation and imitation in mixed-age playgroups, researchers said that western \"instructive teaching\" where pupils are asked to sit still, may contribute to conditions such as attention deficit hyperactivity disorder. Chaudhary said that Britain should explore the possibility that older siblings helping their parents \"might also enhance their own social development\".",
+        "sort_order": 3,
+        "passage_type": "reading"
+      },
+      {
+        "id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "category_id": "ky1",
+        "section_type": "reading",
+        "title": "Section II: Reading Comprehension Part A - Text 3",
+        "content": "A Polish digital artist who uses classical painting styles to create dreamy fantasy landscapes, Greg Rutkowski has made illustrations for games such as Dungeons & Dragons and Magic: The Gathering. And he's become a sudden hit in the new world of text-to-image AI generation.\n\nHis distinctive style is now one of the most commonly used prompts in the new open-source AI art generator Stable Diffusion. The tool, along with other popular image-generation AI models, allows anyone to create impressive images based on text prompts. For example, type in \"Wizard with sword and a glowing orb of magic fire fights a fierce dragon Greg Rutkowski,\" and the system will produce something that looks not a million miles away from works in Rutkowski's style.\n\nBut these open-source programs are built by scraping images from the internet, often without permission and proper attribution to artists. As a result, they are raising tricky questions about ethics and copyright. And artists like Rutkowski have had enough.\n\nAccording to the website Lexica, which tracks over 10 million Stable Diffusion images and prompts, Rutkowski's name has been used as a prompt around 93,000 times. Rutkowski was initially surprised but thought it might be a good way to reach new audiences. Then he tried searching for his name to see if a piece he had worked on had been published. The online search brought back work that had his name attached to it but wasn't his.\n\n\"It's been just a month. What about in a year? I probably won't be able to find my work out there because the internet will be flooded with AI art,\" Rutkowski said. \"That's concerning.\"\n\nOther artists besides Rutkowski have been surprised by the apparent popularity of their work in text-to-image generators — and some are now fighting back.\n\nKarla Ortiz, an illustrator based in San Francisco who found her work in Stable Diffusion's data set, has been raising awareness about the issues around AI art and copyright. Artists say they risk losing income as people start using AI-generated images based on copyrighted material for commercial purposes. But it's also a lot more personal, Ortiz says, arguing that because art is so closely linked to a person, it could raise data protection and privacy problems.\n\n\"There is a coalition growing within artist industries to figure out how to tackle or mitigate this,\" says Ortiz. The group is in its early days of mobilization, which could involve pushing for new policies or regulation. One suggestion is that AI models could be trained on images in the public domain, and AI companies could forge partnerships with museums and artists, Ortiz says.",
+        "sort_order": 4,
+        "passage_type": "reading"
+      },
+      {
+        "id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "category_id": "ky1",
+        "section_type": "reading",
+        "title": "Section II: Reading Comprehension Part A - Text 4",
+        "content": "The miracle of the Chesapeake Bay lies not in its depths, but in the complexity of its natural construction, the interaction of fresh and saline waters, and the mix of land and water. The shallows provide homes for hundreds of species while storing floodwaters, filtering pollutants from water, and protecting nearby communities from potentially destructive storm surges.\n\nAll this was put at great risk late last month, when the U.S. Supreme Court issued a ruling in an Idaho case that provides the U.S. Environmental Protection Agency (EPA) far less authority to regulate wetlands and waterways. Specifically, a 5-4 majority decided that wetlands protected by the EPA under its Clean Water Act authority must have a \"continuous surface connection\" to bodies of water. This narrowing of the regulatory scope was a victory for builders, mining operators and other commercial interests often at odds with environmental rules. And it carries \"significant repercussions for water quality and flood control throughout the United States,\" as Justice Brett Kavanaugh observed.\n\nIn Maryland, the good news is that there are many state laws in place that provide wetlands protections. But that's a very shortsighted view, particularly when it comes to the Chesapeake Bay. The reality is that water, and the pollutants that so often come with it, don't respect state boundaries. The Chesapeake draws from a 64,000-square-mile watershed that extends into Virginia, Pennsylvania, New York, West Virginia, the District of Columbia and Delaware. Will those jurisdictions extend the same protections now denied under Sackett v. EPA? Perhaps some, but all? That seems unlikely.\n\nIt is too easy, and misleading, to see such court rulings as merely standing up for the rights of land owners when the consequences can be so dire for their neighbors. And it's a reminder that the EPA's involvement in the Chesapeake Bay Program has long been crucial as the means to transcend the influence of deep-pocketed special interests in neighboring states. Pennsylvania farmers, to use one telling example, aren't thinking about next year's blue crab harvest in Maryland when they decide whether to spread animal waste on their fields, yet the runoff into nearby creeks can have enormous impact downstream.\n\nAnd so we would call on state lawmakers from Richmond to Albany to consider reviewing their own wetlands protections and see for themselves the enormous stakes involved. We can offer them a visit to Blackwater National Wildlife Refuge in Dorchester County where bald eagles fly over tidal marshes so shallow you could not paddle a boat across them but teeming with aquatic life. It's worth the scenic drive.",
+        "sort_order": 5,
+        "passage_type": "reading"
+      },
+      {
+        "id": "581c5844-7e32-4241-bdd2-61f99d383a68",
+        "exam_id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+        "category_id": "ky1",
+        "section_type": "reading",
+        "title": "Section II: Reading Comprehension Part B",
+        "content": "Hannah: Simply, there are people in Nigeria who cannot travel to the Smithsonian Institution to see that part of their history and culture represented by the Benin Bronzes. These should be available to them as part of their cultural heritage and history and as a source of national pride. There is no good reason that these artifacts should be beyond the ordinary reach of the educational objectives or inspiration of the generations to which they were left. They serve no purpose in a museum in the United States or elsewhere except as curious objects. They cannot be compared to works of art produced for sale which can be passed from hand to hand and place to place by purchase.\n\nBuck: We know very exact reproductions of artwork can be and are regularly produced. Perhaps museums and governments might explore some role for the use of nearly exact reproductions as a means of resolving issues relating to returning works of art and antiquities. The context of any exhibit is more important to me than whether the object being displayed is 2,000 years old or 2 months old. In many cases the experts have a hard time agreeing on what is the real object and what is a forgery. Again, the story an exhibit is trying to tell is what matters. The monetary value of the objects on display is a distant second place in importance.\n\nSara: When visiting the Baltimore Museum of Art, I came across a magnificent 15th-century Chinese sculpture. It inspired me to learn more about the culture that it represented. Artifacts in museums have the power to inspire, and perhaps spark that need to learn and understand the nature of their creators. Having said that, I do feel that whatever artifacts find their way to public museums should, in fact, be sanctioned as having been obtained on loan, legally purchased, or obtained by treaty. Stealing artifacts from other peoples' cultures is obscene; it robs not only the physical objects, but the dignity and spirit of their creators.\n\nVictor: Ancient art that is displayed in foreign countries by all means should be returned to the original country. The foreign countries have no right to hold back returning the items. I would ask that the foreign nations and the original country discuss the terms of transfer. Yes, there is the risk that the original country will not have as good security as do the foreign countries. But look at what happened to Boston's Gardner Museum theft in 1990, including the loss of Rembrandt, Vermeer, Manet, and other masterpieces. Nothing is absolutely safe, nowhere. And now Climate Change agitators are attacking publicly displayed works in European museums.\n\nJulia: To those of you in the comments section who are having strong feelings about artifacts being removed from cities in the US and Britain and returned to their countries of origin, I would ask you to consider: why do you think Americans have more of a right to easily access the Benin Bronzes than the people of Nigeria? Why are people who live within a day's drive of London entitled to go and see the Elgin Marbles whenever they want, but the people of Athens aren't? What intrinsic factors make the West a suitable home for these artifacts but preclude them from being preserved and displayed by their countries of origin? If your conclusion is that the West is better able to preserve these artifacts, think about why you're assuming that to be true.",
+        "sort_order": 6,
+        "passage_type": "reading"
       }
     ]
   },
@@ -30,8 +2019,9 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "There's nothing more welcoming than opening a door for you. [1] _______ the need to be touched to open or close, automatic doors are essential in [2] _______ disabled access to buildings and helping provide general [3] _______ to commercial buildings. Self-sliding doors began to emerge as a commercial product in 1960 after being invented six years [4] _______ by two Americans, Dee Horton and Lew Hewitt. They [5] _______ as a novelty feature, but as their use has grown, their [6] _______ have extended within our technologically advanced world. Particularly [7] _______ in busy locations and during times of emergency, the doors [8] _______ crowd management by reducing the obstacles put in people's way. [9] _______ making access both in and out of buildings easier for people, the difference in the way many of these doors open helps to reduce the total area [10] _______ by them.\n\nAutomatic doors often open to the side, with the panels sliding across one another. Replacing swing doors, these [11] _______ smaller spaces to maximise the usable space inside without having to [12] _______ the way for a large, sticking-out door. There are many different types of automatic door, with each [13] _______ specific signals to tell them when to open. [14] _______ these methods differ, the main [15] _______ remain the same. Each automatic door system [16] _______ the light, sound, weight, or movement in their vicinity as a signal. Sensor-types are chosen to [17] _______ the different environments they are needed in. [18] _______, a busy road might not [19] _______ a motion-sensored door, as it would constantly be opening for passers-by. A pressure-sensitive mat would be more [20] _______ to limit the surveyed area.",
-      "sort_order": 1
+      "content": "There's nothing more welcoming than a door opening for you. [1] _______ the need to be touched to open or close, automatic doors are essential in [2] _______ disabled access to buildings and helping provide general [3] _______ to commercial buildings. Self-sliding doors began to emerge as a commercial product in 1960 after being invented six years [4] _______ by two Americans, Dee Horton and Lew Hewitt. They [5] _______ as a novelty feature on restaurants and hotels in the 1960s and 1970s, before becoming increasingly popular in supermarkets and shopping centers, bringing general [6] _______ to societies within our technologically advanced world.\n\nParticularly [7] _______ in busy locations like airports, train stations and other transport hubs with intense flows of traffic, automatic doors [8] _______ crowd management in these high-volume settings, aiding the orderly movement of people and preventing bottlenecks, whilst ensuring that emergency exits are not put in people's way.\n\n[9] _______ making access both in and out of buildings easier for people, the difference in the way many of these doors open helps reduce the total area [10] _______ by them. Automatic doors often open to the side, with the panels sliding across one another. Replacing swing doors, these [11] _______ smaller buildings to maximise the usable space inside without having to [12] _______ the way for a large, sticking-out door.\n\nThere are many different types of automatic door, with each [13] _______ specific signals to tell them when to open. [14] _______ these methods differ, the main [15] _______ remain the same. Each automatic door system [16] _______ the light, sound, weight or movement in their vicinity as a signal to open. Sensor types are chosen to [17] _______ the different environments they are needed in. [18] _______, a busy street might not [19] _______ a motion-sensored door, as it would constantly be opening for passers-by. A pressure-sensitive mat would be more [20] _______ to limit the surveyed area.",
+      "sort_order": 1,
+      "passage_type": "cloze"
     },
     {
       "id": "acb65f67-b833-4e17-8153-bd737f1380bb",
@@ -39,8 +2029,9 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
-      "content": "About 2,000 years ago, as the Roman army abandoned its fortress at Inchtuthil in Perthshire, soldiers buried nearly a million iron nails in a pit, concealing them under 12 feet of gravel. The hoard remained untouched until archaeologists unearthed it in 1960. The Romans had not buried the nails out of superstition; rather, in their hurried retreat, they desperately needed to prevent these critical military-grade iron supplies from falling into the hands of hostile local Caledonian tribes, who coveted iron for weapons.\n\nNails have long played a pivotal yet underappreciated role in shaping human civilisation. In the early 17th century, nails were so scarce and valuable in the American colonies that settlers in Virginia reportedly burned down their own cabins when moving, simply to recover the precious hand-forged nails from the ashes. Recognising this destructive practice, the Virginia legislature was compelled to pass a statute offering citizens public land and alternative incentives specifically to discourage the burning of private homes for nails.\n\nFor millennia, blacksmiths laboured individually over each nail, shaping iron rod by rod with manual hammer blows. Consequently, nail prices remained remarkably high, constituting a substantial portion of any construction project. However, beginning in the late 18th century and accelerating through the Industrial Revolution, the advent of rolling mills, cutting machines, and mechanized wire fabrication triggered unprecedented shifts in nail economics. Increased productivity, accompanied by streamlined supply chains, caused nail prices to plummet dramatically over the subsequent century.\n\nToday, nails have become ubiquitous and virtually free, sold by the kilogram in bulk boxes at hardware superstores. Economists study nails precisely because, while their basic functional form has remained virtually identical from Roman times to the present day, the trajectory of their pricing offers a transparent window into two centuries of industrial growth. Ultimately, the profound lesson of the nail is that civilization is not propelled solely by dazzling, complex machines; cheap, modest technologies can unleash equally revolutionary transformations across human history.",
-      "sort_order": 2
+      "content": "Nearly 2,000 years ago, as the Romans began to pull out of Scotland, they left behind a curious treasure: 10 tons of nails, nearly a million of the things. The nail hoard was discovered in 1960 in a four-metre-deep pit covered by two metres of gravel.\n\nWhy had the Romans buried a million nails? The likely explanation is that the withdrawal was rushed, and they didn't want the local Caledonians getting their hands on 10 tons of weapon-grade iron. The Romans buried the nails so deep that they would not be discovered for almost two millennia.\n\nLater civilisations would value the skilled blacksmith's labour in a nail even more than the raw material. As Roma Agrawal explains in her new delightful book Nuts and Bolts, early 17th-century Virginians would sometimes burn down their homes if they were planning to relocate. This was an attempt to recover the valuable nails which could be reused after sifting the ashes. The idea that one might burn down an entire house just to reclaim the nails underlines how scarce, costly and valuable the simple-seeming technology was.\n\nThe price of nails fell by 90% between the late 1700s and mid-1900s, as economist Daniel Sichel points out in a research paper. According to Sichel, although the falling price of nails was driven partly by cheaper iron and cheaper energy, most of the credit goes to nail manufacturers who simply found more efficient ways to turn steel into nails.\n\nNails themselves have changed over the years, but Sichel studied them because they haven't changed much. Roman lamps and Roman chariots are very different from LED strips and sports cars, but Roman nails are still clearly nails. It would be absurd to try to track the changing price of sports cars since 1695, but to ask the same question of nails makes perfect sense.\n\nI make no apology for being obsessed by a particular feature of everyday objects: their price. I am an economist, after all. After writing two books about the history of inventions, one thing I've learnt is that while it is the enchantingly sophisticated technologies that get all the hype, it's the cheap technologies that change the world.\n\nThe Gutenberg printing press transformed civilisation not by changing the nature of writing but by changing its cost - and it would have achieved little without a parallel collapse in the price of surfaces to write on, thanks to an often-overlooked technology called paper. Solar panels had a few niche uses until they became cheap; now they are transforming the global energy system.",
+      "sort_order": 2,
+      "passage_type": "reading"
     },
     {
       "id": "8c0207b3-a259-4774-8dc5-71b25671e799",
@@ -48,8 +2039,9 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
-      "content": "Parenting tips obtained from hunter-gatherers in Africa may be the key to bringing up more contented children, researchers have suggested. In modern Western societies, raising infants is predominantly framed as an isolated, high-stress endeavor borne almost exclusively by biological mothers and fathers. Yet evolutionary anthropologists observing traditional Mbendjele BaYaka hunter-gatherer communities in the Congo basin observed a starkly different arrangement: child care is distributed across a dynamic, cooperative network of community members, a social practice termed \"alloparenting\".\n\nIn these traditional groups, infants receive attention, comforting, and direct physical care from more than a dozen different caregivers each day, ranging from grandparents and aunts to older siblings and unrelated neighbors. This widespread network buffers mothers from postpartum fatigue and emotional burnout, while ensuring that crying infants are responded to within seconds.\n\nRecognising that modern urban living has dismantled these ancestral support structures, progressive communities in Europe are experimenting with hybrid models. In Germany, experimental multigenerational co-housing schemes deliberately bring young families together with retired senior citizens in shared architectural complexes. The elders provide spontaneous childcare and emotional companionship, while young parents assist seniors with heavy chores and technology, effectively re-establishing an alloparenting ecosystem within a contemporary suburban context.\n\nBy contrast, the prevailing \"intensive mothering narrative\" dominant across industrialized societies places unrealistic moral pressure on nuclear family units, particularly working mothers. By compelling a single caregiver to serve as educator, playmate, protector, and emotional anchor round the clock, this modern narrative departs drastically from the evolutionary trajectory that shaped human psychology. Cross-cultural data reveals that maternal depression and pediatric anxiety disorders are substantially lower in societies with robust communal caregiving.\n\nEarly childhood institutions in the UK and North America could benefit immensely from adopting alloparenting principles. Currently, commercial nurseries often suffer from rigid carer-to-child ratios that foster transactional, impersonal environments. Encouraging mixed-age playgroups, involving extended families, and improving staffing ratios would create warmer, evolutionarily aligned environments for child development.",
-      "sort_order": 3
+      "content": "Parenting tips obtained from hunter-gatherers in Africa may be the key to bringing up more contented children, researchers have suggested. The idea is based on studies of communities such as the Kung of Botswana, where each child is cared for by many adults. Kung children as young as four will help to look after younger ones and \"baby-wearing\", in which infants are carried in slings, is considered the norm.\n\nAccording to Dr Nikhil Chaudhary, an evolutionary anthropologist at Cambridge University, these practices, known as alloparenting, could lead to less anxiety for children and parents.\n\nDr Annie Swanepoel, a child psychiatrist, believes that there are ways to incorporate them into western life. In Germany, one scheme has paired an old people's home with a nursery. The residents help to look after the children, an arrangement akin to alloparenting. Another measure could be encouraging friendships between children in different school years to mirror the unsupervised mixed-age playgroups in hunter-gatherer communities.\n\nIn a paper published in the Journal of Child Psychology and Psychiatry, researchers said that the western nuclear family was a recent invention which broke with evolutionary history. This abrupt shift to an \"intensive mothering narrative\", which suggests that mothers should manage childcare alone, was likely to have been harmful. \"Such narratives can lead to maternal exhaustion and have dangerous consequences,\" they wrote.\n\nBy contrast, in hunter-gatherer societies adults other than the parents can provide almost half of a child's care. One previous study looked at the Efé people of the Democratic Republic of Congo. It found that infants had an average of 14 alloparents a day by the time they were 18 weeks old and were passed between caregivers eight times an hour.\n\nChaudhary said that parents now had less childcare support from family and social networks than during most of humans' evolutionary history, but introducing additional caregivers could reduce stress and maternal depression, which could have a \"knock-on\" benefit to a child's wellbeing. An infant born to a hunter-gatherer society could have more than ten caregivers - this contrasts starkly to nursery settings in the UK where regulations call for a ratio of one carer to four children aged two to three.\n\nWhile hunter-gatherer children learnt from observation and imitation in mixed-age playgroups, researchers said that western \"instructive teaching\" where pupils are asked to sit still, may contribute to conditions such as attention deficit hyperactivity disorder. Chaudhary said that Britain should explore the possibility that older siblings helping their parents \"might also enhance their own social development\".",
+      "sort_order": 3,
+      "passage_type": "reading"
     },
     {
       "id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
@@ -57,8 +2049,9 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
-      "content": "Rutkowski is a Polish digital artist who uses classical painting styles to create dreamy fantasy landscapes. He has made illustrations for games such as Sony's Horizon Forbidden West, Ubisoft's Anno, Dungeons & Dragons, and Magic: The Gathering. And he's become a sudden hit in the new world of text-to-image AI generation. His distinctive style is now one of the most commonly used prompts in the new open-source AI art generator Stable Diffusion.\n\nThe tool was released in late August, and users quickly made Rutkowski one of their favorite aesthetic anchors. The artist was initially flattered, but soon grew deeply concerned. Searching for his name online now surfaces thousands of AI-generated fantasy landscapes that he never painted, directly polluting his professional portfolio and search ranking. Clients and art collectors are finding it difficult to discern between his genuine hand-crafted works and algorithmic imitations.\n\nLike many commercial illustrators, Rutkowski fears that generative AI will devastate the livelihood of living artists. Stable Diffusion was trained on the LAION-5B dataset, which scraped over five billion images from public websites, portfolios, and art platforms without seeking the permission of original creators or providing financial compensation. The system learns statistical patterns and lighting signatures directly from copyrighted works, allowing non-artists to generate Rutkowski-esque pieces within seconds.\n\nThe ethical crisis has sparked fierce legal and industrial pushback. Groups of artists are demanding that tech firms provide opt-out registries and financial royalties whenever creative portfolios are ingested into training corpora. While some computer scientists argue that AI synthesis mimics human creative inspiration, legal scholars point out that algorithmic scraping on an industrial scale represents unauthorized mass commercial exploitation of human intellectual labor.",
-      "sort_order": 4
+      "content": "A Polish digital artist who uses classical painting styles to create dreamy fantasy landscapes, Greg Rutkowski has made illustrations for games such as Dungeons & Dragons and Magic: The Gathering. And he's become a sudden hit in the new world of text-to-image AI generation.\n\nHis distinctive style is now one of the most commonly used prompts in the new open-source AI art generator Stable Diffusion. The tool, along with other popular image-generation AI models, allows anyone to create impressive images based on text prompts. For example, type in \"Wizard with sword and a glowing orb of magic fire fights a fierce dragon Greg Rutkowski,\" and the system will produce something that looks not a million miles away from works in Rutkowski's style.\n\nBut these open-source programs are built by scraping images from the internet, often without permission and proper attribution to artists. As a result, they are raising tricky questions about ethics and copyright. And artists like Rutkowski have had enough.\n\nAccording to the website Lexica, which tracks over 10 million Stable Diffusion images and prompts, Rutkowski's name has been used as a prompt around 93,000 times. Rutkowski was initially surprised but thought it might be a good way to reach new audiences. Then he tried searching for his name to see if a piece he had worked on had been published. The online search brought back work that had his name attached to it but wasn't his.\n\n\"It's been just a month. What about in a year? I probably won't be able to find my work out there because the internet will be flooded with AI art,\" Rutkowski said. \"That's concerning.\"\n\nOther artists besides Rutkowski have been surprised by the apparent popularity of their work in text-to-image generators — and some are now fighting back.\n\nKarla Ortiz, an illustrator based in San Francisco who found her work in Stable Diffusion's data set, has been raising awareness about the issues around AI art and copyright. Artists say they risk losing income as people start using AI-generated images based on copyrighted material for commercial purposes. But it's also a lot more personal, Ortiz says, arguing that because art is so closely linked to a person, it could raise data protection and privacy problems.\n\n\"There is a coalition growing within artist industries to figure out how to tackle or mitigate this,\" says Ortiz. The group is in its early days of mobilization, which could involve pushing for new policies or regulation. One suggestion is that AI models could be trained on images in the public domain, and AI companies could forge partnerships with museums and artists, Ortiz says.",
+      "sort_order": 4,
+      "passage_type": "reading"
     },
     {
       "id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
@@ -66,8 +2059,9 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
-      "content": "The miracle of the Chesapeake Bay lies not in its depths, but in the complexity of its natural construction, the interaction of fresh and saline waters, and the mix of land and water. Stretching nearly 200 miles through six Mid-Atlantic states, the bay represents a delicate hydrological estuary supporting thousands of species of fish, crabs, and waterfowl, as well as a multi-billion-dollar maritime economy.\n\nHowever, decades of urban development, agricultural fertilizer runoff, and municipal sewage have severely degraded the bay's ecological health. In response, the federal government enacted the Chesapeake Bay Program, mediated by the Environmental Protection Agency (EPA). Through coordinated multi-state agreements, the EPA set binding caps on nitrogen and phosphorus discharge, fostering an unprecedented model of cooperative federalism.\n\nYet this fragile ecological consensus now faces a legal crisis following a controversial ruling by the U.S. Supreme Court in an Idaho wetlands dispute (Sackett v. EPA). The conservative majority sharply narrowed the statutory definition of \"waters of the United States\" under the Clean Water Act, requiring that wetlands must have a continuous, permanent surface connection to navigable waters to qualify for federal jurisdiction. By stripping federal protection from isolated wetlands and ephemeral streams, the court effectively severed millions of ecologically vital upstream acres from EPA oversight.\n\nEnvironmental scientists and Chesapeake advocates are deeply alarmed. Because the bay's water quality depends inextricably on small feeder streams and seasonal wetlands across six jurisdictions, the lack of federal regulatory power threatens to undo four decades of painstaking water restoration. If upstream states relax their agricultural regulations to appease corporate farming and construction lobbies, toxic runoff will flow unchecked into the bay. The battle to safeguard America's greatest estuary has now shifted back to state legislatures, where environmentalists face an uphill struggle against powerful industrial interests.",
-      "sort_order": 5
+      "content": "The miracle of the Chesapeake Bay lies not in its depths, but in the complexity of its natural construction, the interaction of fresh and saline waters, and the mix of land and water. The shallows provide homes for hundreds of species while storing floodwaters, filtering pollutants from water, and protecting nearby communities from potentially destructive storm surges.\n\nAll this was put at great risk late last month, when the U.S. Supreme Court issued a ruling in an Idaho case that provides the U.S. Environmental Protection Agency (EPA) far less authority to regulate wetlands and waterways. Specifically, a 5-4 majority decided that wetlands protected by the EPA under its Clean Water Act authority must have a \"continuous surface connection\" to bodies of water. This narrowing of the regulatory scope was a victory for builders, mining operators and other commercial interests often at odds with environmental rules. And it carries \"significant repercussions for water quality and flood control throughout the United States,\" as Justice Brett Kavanaugh observed.\n\nIn Maryland, the good news is that there are many state laws in place that provide wetlands protections. But that's a very shortsighted view, particularly when it comes to the Chesapeake Bay. The reality is that water, and the pollutants that so often come with it, don't respect state boundaries. The Chesapeake draws from a 64,000-square-mile watershed that extends into Virginia, Pennsylvania, New York, West Virginia, the District of Columbia and Delaware. Will those jurisdictions extend the same protections now denied under Sackett v. EPA? Perhaps some, but all? That seems unlikely.\n\nIt is too easy, and misleading, to see such court rulings as merely standing up for the rights of land owners when the consequences can be so dire for their neighbors. And it's a reminder that the EPA's involvement in the Chesapeake Bay Program has long been crucial as the means to transcend the influence of deep-pocketed special interests in neighboring states. Pennsylvania farmers, to use one telling example, aren't thinking about next year's blue crab harvest in Maryland when they decide whether to spread animal waste on their fields, yet the runoff into nearby creeks can have enormous impact downstream.\n\nAnd so we would call on state lawmakers from Richmond to Albany to consider reviewing their own wetlands protections and see for themselves the enormous stakes involved. We can offer them a visit to Blackwater National Wildlife Refuge in Dorchester County where bald eagles fly over tidal marshes so shallow you could not paddle a boat across them but teeming with aquatic life. It's worth the scenic drive.",
+      "sort_order": 5,
+      "passage_type": "reading"
     },
     {
       "id": "581c5844-7e32-4241-bdd2-61f99d383a68",
@@ -75,8 +2069,9 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions: Read the following text and answer questions 41-45.\n\nChoose the most suitable paragraph from the list A-G for each numbered gap (41-45).\n\nThe controversy surrounding the restitution of historical artifacts housed in Western museums has reached an unprecedented boiling point. For over a century, prestigious cultural institutions in London, Paris, and Berlin have defended their possession of colonial-era treasures—from the Benin Bronzes to the Parthenon Sculptures—under the banner of universal encyclopedic stewardship.\n\n(41) ________________________________________\n\nWestern museum directors have long championed this cosmopolitan ideal. They argue that gathering treasures from disparate ancient civilizations under one roof allows global citizens to compare artistic triumphs and contemplate the unified story of human civilization. By shielding artifacts from regional wars, climate crises, and political upheaval, Western capitals positioned themselves as neutral conservators.\n\n(42) ________________________________________\n\nYet former colonial nations forcefully reject this paternalistic justification. To societies whose sovereign heritage was forcibly looted during military expeditions, these artifacts are not abstract decorative pieces for curious tourists; they are ancestral relics imbued with living spiritual and communal identity. Their continued exile in foreign vitrines represents an ongoing violation of sovereign cultural dignity.\n\n(43) ________________________________________\n\nLegal arguments against restitution are also crumbling. Museums traditionally hid behind domestic statutes prohibiting the de-accessioning of national collections. However, emerging international legal norms and progressive agreements have established that stolen property remains stolen regardless of how many decades have elapsed. Several European governments have begun enacting legislation permitting the unilateral repatriation of looted royal treasures.\n\n(44) ________________________________________\n\nFurthermore, the paternalistic claim that source nations lack the technical infrastructure to safeguard delicate antiquities has been decisively disproven. State-of-the-art facilities like the Edo Museum of West African Art in Nigeria and the Grand Egyptian Museum in Cairo demonstrate world-class curatorial, climate-controlled, and security standards.\n\n(45) ________________________________________\n\nThe ethical arc of the cultural world is clearly bending toward historical justice. Rather than impoverishing Western institutions, genuine restitution opens doors to collaborative partnerships, traveling exhibits, and mutual respect between nations.",
-      "sort_order": 6
+      "content": "Hannah: Simply, there are people in Nigeria who cannot travel to the Smithsonian Institution to see that part of their history and culture represented by the Benin Bronzes. These should be available to them as part of their cultural heritage and history and as a source of national pride. There is no good reason that these artifacts should be beyond the ordinary reach of the educational objectives or inspiration of the generations to which they were left. They serve no purpose in a museum in the United States or elsewhere except as curious objects. They cannot be compared to works of art produced for sale which can be passed from hand to hand and place to place by purchase.\n\nBuck: We know very exact reproductions of artwork can be and are regularly produced. Perhaps museums and governments might explore some role for the use of nearly exact reproductions as a means of resolving issues relating to returning works of art and antiquities. The context of any exhibit is more important to me than whether the object being displayed is 2,000 years old or 2 months old. In many cases the experts have a hard time agreeing on what is the real object and what is a forgery. Again, the story an exhibit is trying to tell is what matters. The monetary value of the objects on display is a distant second place in importance.\n\nSara: When visiting the Baltimore Museum of Art, I came across a magnificent 15th-century Chinese sculpture. It inspired me to learn more about the culture that it represented. Artifacts in museums have the power to inspire, and perhaps spark that need to learn and understand the nature of their creators. Having said that, I do feel that whatever artifacts find their way to public museums should, in fact, be sanctioned as having been obtained on loan, legally purchased, or obtained by treaty. Stealing artifacts from other peoples' cultures is obscene; it robs not only the physical objects, but the dignity and spirit of their creators.\n\nVictor: Ancient art that is displayed in foreign countries by all means should be returned to the original country. The foreign countries have no right to hold back returning the items. I would ask that the foreign nations and the original country discuss the terms of transfer. Yes, there is the risk that the original country will not have as good security as do the foreign countries. But look at what happened to Boston's Gardner Museum theft in 1990, including the loss of Rembrandt, Vermeer, Manet, and other masterpieces. Nothing is absolutely safe, nowhere. And now Climate Change agitators are attacking publicly displayed works in European museums.\n\nJulia: To those of you in the comments section who are having strong feelings about artifacts being removed from cities in the US and Britain and returned to their countries of origin, I would ask you to consider: why do you think Americans have more of a right to easily access the Benin Bronzes than the people of Nigeria? Why are people who live within a day's drive of London entitled to go and see the Elgin Marbles whenever they want, but the people of Athens aren't? What intrinsic factors make the West a suitable home for these artifacts but preclude them from being preserved and displayed by their countries of origin? If your conclusion is that the West is better able to preserve these artifacts, think about why you're assuming that to be true.",
+      "sort_order": 6,
+      "passage_type": "reading"
     }
   ],
   "questions": [
@@ -90,30 +2085,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Through",
-          "value": "A"
+          "content": "Through"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Despite",
-          "value": "B"
+          "content": "Despite"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Besides",
-          "value": "C"
+          "content": "Besides"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Without",
-          "value": "D"
+          "content": "Without"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】介词语义辨析。句意：无需触碰即可开关，自动门对于改善残障人士通行至关重要。此处表达'无需接触'，故选 Without。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 1,
+      "score": 0.5
     },
     {
       "id": "3b97b743-a3fe-469f-b161-3a16507f7593",
@@ -125,30 +2126,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "revealing",
-          "value": "A"
+          "content": "revealing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "demanding",
-          "value": "B"
+          "content": "demanding"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "improving",
-          "value": "C"
+          "content": "improving"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tracing",
-          "value": "D"
+          "content": "tracing"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】动宾搭配。improve access to... 为固定搭配，表示'改善进入/通达的便利性'。C符合语境。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 2,
+      "score": 0.5
     },
     {
       "id": "60eac82d-3e7d-4715-85d0-6ad5a3392cec",
@@ -160,30 +2167,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "experience",
-          "value": "A"
+          "content": "experience"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "convenience",
-          "value": "B"
+          "content": "convenience"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "guidance",
-          "value": "C"
+          "content": "guidance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reference",
-          "value": "D"
+          "content": "reference"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】名词语义。自动门为商业建筑提供普遍的'便利'（convenience），与前文 disabled access 并列呼应。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 3,
+      "score": 0.5
     },
     {
       "id": "6d0ff084-9571-477d-825a-d95a505065b5",
@@ -195,30 +2208,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "previously",
-          "value": "A"
+          "content": "previously"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "temporarily",
-          "value": "B"
+          "content": "temporarily"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "successively",
-          "value": "C"
+          "content": "successively"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "eventually",
-          "value": "D"
+          "content": "eventually"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】时间副词。表示在1960年成为商品化产品的'六年前'（即1954年）已被发明，选 previously。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 4,
+      "score": 0.5
     },
     {
       "id": "7c361dae-c984-44ad-ade7-0b95e8d09166",
@@ -230,30 +2249,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "held on",
-          "value": "A"
+          "content": "held on"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "started out",
-          "value": "B"
+          "content": "started out"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "settled down",
-          "value": "C"
+          "content": "settled down"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "went by",
-          "value": "D"
+          "content": "went by"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】动词短语。start out as 表示'起初作为……出现'，后文 but 提示从新奇特征向普及效益转变。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 5,
+      "score": 0.5
     },
     {
       "id": "44ecb283-d1cf-4a9b-8a34-c8c4c8a4bdf8",
@@ -265,30 +2290,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "threats",
-          "value": "A"
+          "content": "threats"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "concerns",
-          "value": "B"
+          "content": "concerns"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "benefits",
-          "value": "C"
+          "content": "benefits"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "origins",
-          "value": "D"
+          "content": "origins"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】名词辨析。随着使用量激增，自动门的益处/好处（benefits）在现代社会进一步拓展。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 6,
+      "score": 0.5
     },
     {
       "id": "fec80cc8-be84-4072-9608-86ca19fd9145",
@@ -300,30 +2331,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "useful",
-          "value": "A"
+          "content": "useful"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "flexible",
-          "value": "B"
+          "content": "flexible"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "stable",
-          "value": "C"
+          "content": "stable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "common",
-          "value": "D"
+          "content": "common"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】形容词辨析。在繁忙人流场所与紧急疏散时刻，自动门尤其'实用'（useful）。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 7,
+      "score": 0.5
     },
     {
       "id": "dc144500-6da8-42e2-85d0-d5227f7c05c9",
@@ -335,30 +2372,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "call for",
-          "value": "A"
+          "content": "call for"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "yield to",
-          "value": "B"
+          "content": "yield to"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "look into",
-          "value": "C"
+          "content": "look into"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "act as",
-          "value": "D"
+          "content": "act as"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】动词短语。act as crowd management 表示自动门通过消除障碍'充当/起到人群疏导管理'的作用。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 8,
+      "score": 0.5
     },
     {
       "id": "af143d17-fab4-4ee2-8423-f82f749cbc8d",
@@ -370,30 +2413,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "As well as",
-          "value": "A"
+          "content": "As well as"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In terms of",
-          "value": "B"
+          "content": "In terms of"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "In addition to",
-          "value": "C"
+          "content": "In addition to"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In place of",
-          "value": "D"
+          "content": "In place of"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】逻辑连接短语。As well as making access...，表示'不仅使人们进出建筑物更加容易，而且……'，引导并列增补关系。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 9,
+      "score": 0.5
     },
     {
       "id": "d3d23b86-9890-41f5-882a-34f5ee93307f",
@@ -405,30 +2454,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "connected",
-          "value": "A"
+          "content": "connected"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "shared",
-          "value": "B"
+          "content": "shared"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "defended",
-          "value": "C"
+          "content": "defended"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "occupied",
-          "value": "D"
+          "content": "occupied"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】后置定语动词。平移门相比传统推拉门，有助于缩减门扇自身所'占据'（occupied）的总空间面积。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 10,
+      "score": 0.5
     },
     {
       "id": "8faf0de6-7c86-4552-9dec-252c8160c8a4",
@@ -440,30 +2495,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "allow",
-          "value": "A"
+          "content": "allow"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "expect",
-          "value": "B"
+          "content": "expect"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "require",
-          "value": "C"
+          "content": "require"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "direct",
-          "value": "D"
+          "content": "direct"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】动词句型。allow smaller spaces to maximise...，allow sb/sth to do 表示'使得狭小空间得以最大化内部可用空间'。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5
     },
     {
       "id": "a74a09d5-1387-4443-a97d-f7adb36859e7",
@@ -475,30 +2536,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "adopt",
-          "value": "A"
+          "content": "adopt"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lead",
-          "value": "B"
+          "content": "lead"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "clear",
-          "value": "C"
+          "content": "clear"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "change",
-          "value": "D"
+          "content": "change"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】动宾搭配。clear the way 为固定成语搭配，意为'为……腾出/扫清道路'，不必为向外突出的笨重大门腾出回转通道。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 12,
+      "score": 0.5
     },
     {
       "id": "ff7ed82a-e39a-44d6-a8a6-c520cd3455fb",
@@ -510,30 +2577,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "adapting to",
-          "value": "A"
+          "content": "adapting to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "deriving from",
-          "value": "B"
+          "content": "deriving from"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "relying on",
-          "value": "C"
+          "content": "relying on"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "pointing at",
-          "value": "D"
+          "content": "pointing at"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】介词短语。rely on specific signals 意为'依赖特定信号'来提示其开启动作。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 13,
+      "score": 0.5
     },
     {
       "id": "bb773111-6441-492d-ba80-02d6cc369644",
@@ -545,30 +2618,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Once",
-          "value": "A"
+          "content": "Once"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Since",
-          "value": "B"
+          "content": "Since"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Unless",
-          "value": "C"
+          "content": "Unless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Although",
-          "value": "D"
+          "content": "Although"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】让步状语从句。Although these methods differ, the main principles remain the same. 尽管传感方式各异，但核心机理一致。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 14,
+      "score": 0.5
     },
     {
       "id": "b52d5aff-9e76-486a-b092-0ae831840760",
@@ -580,30 +2659,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "positions",
-          "value": "A"
+          "content": "positions"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "restrictions",
-          "value": "B"
+          "content": "restrictions"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "principles",
-          "value": "C"
+          "content": "principles"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "categories",
-          "value": "D"
+          "content": "categories"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】名词语义。main principles remain the same，指自动门运作的基本'物理原则/原理'保持不变。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15,
+      "score": 0.5
     },
     {
       "id": "c06193de-bd0b-4d42-bd68-0c129806a394",
@@ -615,30 +2700,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "controls",
-          "value": "A"
+          "content": "controls"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "analyses",
-          "value": "B"
+          "content": "analyses"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "predicts",
-          "value": "C"
+          "content": "predicts"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "produces",
-          "value": "D"
+          "content": "produces"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】动词搭配。自动门系统将周围环境中的光线、声音或重力变动作信号进行'分析'（analyses）。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 16,
+      "score": 0.5
     },
     {
       "id": "6a48cbdd-a3de-4967-8ba2-3a0392a60bcd",
@@ -650,30 +2741,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "decorate",
-          "value": "A"
+          "content": "decorate"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ignore",
-          "value": "B"
+          "content": "ignore"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "establish",
-          "value": "C"
+          "content": "establish"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "match",
-          "value": "D"
+          "content": "match"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】动词搭配。传感器类型的选择是为了与所需的实际应用环境相'匹配'（match the different environments）。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 17,
+      "score": 0.5
     },
     {
       "id": "0eaac028-9fb9-4301-b677-87f873b864a0",
@@ -685,30 +2782,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "In contrast",
-          "value": "A"
+          "content": "In contrast"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "By comparison",
-          "value": "B"
+          "content": "By comparison"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "For example",
-          "value": "C"
+          "content": "For example"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Above all",
-          "value": "D"
+          "content": "Above all"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】逻辑过渡词。后文以繁华路段马路边不适合红外移动传感器为例进行举例说明，故用 For example。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 18,
+      "score": 0.5
     },
     {
       "id": "a95bbea9-b088-476c-a37b-98db0f150ea7",
@@ -720,30 +2823,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assess",
-          "value": "A"
+          "content": "assess"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "suit",
-          "value": "B"
+          "content": "suit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "protect",
-          "value": "C"
+          "content": "protect"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "identify",
-          "value": "D"
+          "content": "identify"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】动宾语义。繁忙路段可能不'适合'（suit）微波移动感应门，否则会对每一个路人频繁误开。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 19,
+      "score": 0.5
     },
     {
       "id": "06f27e45-cbf4-4fa4-a48a-63810d0b0299",
@@ -755,30 +2864,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "appropriate",
-          "value": "A"
+          "content": "appropriate"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "sensitive",
-          "value": "B"
+          "content": "sensitive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "accessible",
-          "value": "C"
+          "content": "accessible"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "accurate",
-          "value": "D"
+          "content": "accurate"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】形容词辨析。在此类临街场景下，压力感应地垫更加'合适/恰当'（appropriate），可严格限制感应区域。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 20,
+      "score": 0.5
     },
     {
       "id": "3e2caa28-cbf6-4cd7-8327-55b04806ffd3",
@@ -786,34 +2901,40 @@
       "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The Romans buried the nails probably for the sake of ______.",
+      "stem": "The Romans buried the nails probably for the sake of",
       "options": [
         {
           "key": "A",
-          "text": "saving them for future use.",
-          "value": "A"
+          "value": "A",
+          "text": "saving them for future use",
+          "content": "saving them for future use"
         },
         {
           "key": "B",
-          "text": "keeping them from rusting.",
-          "value": "B"
+          "value": "B",
+          "text": "keeping them from rusting",
+          "content": "keeping them from rusting"
         },
         {
           "key": "C",
-          "text": "letting them grow in value.",
-          "value": "C"
+          "value": "C",
+          "text": "letting them grow in value",
+          "content": "letting them grow in value"
         },
         {
           "key": "D",
-          "text": "hiding them from the locals.",
-          "value": "D"
+          "value": "D",
+          "text": "hiding them from the locals",
+          "content": "hiding them from the locals"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第一段末句明确指出：'they desperately needed to prevent these critical military-grade iron supplies from falling into the hands of hostile local Caledonian tribes'（急需防止关键铁料落入当地卡利多尼部落之手），对应 D 项 hiding them from the locals（向当地人隐匿掩埋）。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 21,
+      "score": 2.0
     },
     {
       "id": "5878f307-e560-43d3-a911-898109d357b4",
@@ -821,34 +2942,40 @@
       "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The example of early 17th-century Virginians is used to ______.",
+      "stem": "The example of early 17th-century Virginians is used to",
       "options": [
         {
           "key": "A",
-          "text": "highlight the thriftiness of early American colonists.",
-          "value": "A"
+          "value": "A",
+          "text": "highlight the thriftiness of early American colonists",
+          "content": "highlight the thriftiness of early American colonists"
         },
         {
           "key": "B",
-          "text": "illustrate the high status of blacksmiths in that period.",
-          "value": "B"
+          "value": "B",
+          "text": "illustrate the high status of blacksmiths in that period",
+          "content": "illustrate the high status of blacksmiths in that period"
         },
         {
           "key": "C",
-          "text": "contrast the attitudes of different civilisations toward nails.",
-          "value": "C"
+          "value": "C",
+          "text": "contrast the attitudes of different civilisations towards nails",
+          "content": "contrast the attitudes of different civilisations towards nails"
         },
         {
           "key": "D",
-          "text": "show the preciousness of nail-making technology at that time.",
-          "value": "D"
+          "value": "D",
+          "text": "show the preciousness of nail-making technology at that time",
+          "content": "show the preciousness of nail-making technology at that time"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】例证题。第二段以17世纪弗吉尼亚殖民者甚至烧毁房屋来回收手工铁钉为例，正是为了论证前一句'nails were so scarce and valuable'，彰显当时制钉材料与手工制钉技术的极其珍贵稀缺，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 22,
+      "score": 2.0
     },
     {
       "id": "7f693619-a2e2-4f1d-ae6a-6df69773f9f3",
@@ -860,30 +2987,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Increased productivity.",
-          "value": "A"
+          "content": "Increased productivity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Wider use of new energies.",
-          "value": "B"
+          "content": "Wider use of new energies."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Fiercer market competition.",
-          "value": "C"
+          "content": "Fiercer market competition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Reduced cost of raw materials.",
-          "value": "D"
+          "content": "Reduced cost of raw materials."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】因果细节题。第三段指出，轧钢机与机械化拉丝制钉机的问世带来了'Increased productivity'（生产力的极大提升），直接推动铁钉价格发生断崖式下跌，A 为原文对应核心词。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 23,
+      "score": 2.0
     },
     {
       "id": "bbbc6c60-3cb4-4bbc-b501-c0f716f84030",
@@ -891,34 +3024,40 @@
       "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "It can be learned from Paragraph 5 that nails ______.",
+      "stem": "It can be learned from Paragraph 5 that nails",
       "options": [
         {
           "key": "A",
-          "text": "have undergone many technological improvements.",
-          "value": "A"
+          "value": "A",
+          "text": "have undergone many technological improvements",
+          "content": "have undergone many technological improvements"
         },
         {
           "key": "B",
-          "text": "have remained basically the same since Roman times.",
-          "value": "B"
+          "value": "B",
+          "text": "have remained basically the same since Roman times",
+          "content": "have remained basically the same since Roman times"
         },
         {
           "key": "C",
-          "text": "are less studied than other everyday products.",
-          "value": "C"
+          "value": "C",
+          "text": "are less studied than other everyday products",
+          "content": "are less studied than other everyday products"
         },
         {
           "key": "D",
-          "text": "are one of the world's most significant inventions.",
-          "value": "D"
+          "value": "D",
+          "text": "are one of the world's most significant inventions",
+          "content": "are one of the world's most significant inventions"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】细节判断题。末段指出：'their basic functional form has remained virtually identical from Roman times to the present day'（其基本物理功能形态自罗马时代至今几乎完全相同），与 B 项 have remained basically the same 语义完全一致。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 24,
+      "score": 2.0
     },
     {
       "id": "340808d1-62fb-4432-b650-1d4baa93a050",
@@ -926,34 +3065,40 @@
       "passage_id": "acb65f67-b833-4e17-8153-bd737f1380bb",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Which of the following best summarizes the last two paragraphs?",
+      "stem": "Which of the following best summarises the last two paragraphs?",
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Cheap technologies bring about revolutionary change.",
-          "value": "A"
+          "content": "Cheap technologies bring about revolutionary change."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Technological innovation is integral to economic success.",
-          "value": "B"
+          "content": "Technological innovation is integral to economic success."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Technology defines people's understanding of the world.",
-          "value": "C"
+          "content": "Technology defines people's understanding of the world."
         },
         {
           "key": "D",
-          "text": "Sophisticated technology developed from small inventions.",
-          "value": "D"
+          "value": "D",
+          "text": "Sophisticated technologies develop from small inventions.",
+          "content": "Sophisticated technologies develop from small inventions."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】段落主旨概括题。文章末尾总结指出：'civilization is not propelled solely by dazzling, complex machines; cheap, modest technologies can unleash equally revolutionary transformations'（文明不仅仅由昂贵复杂机器推动，廉价朴素的技术同样能掀起革命性变革），A 项完美概括全文主旨。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 25,
+      "score": 2.0
     },
     {
       "id": "65d180da-95de-4afb-8a4b-348257890405",
@@ -961,34 +3106,40 @@
       "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to the first two paragraphs, alloparenting refers to the practice of ______.",
+      "stem": "According to the first two paragraphs, alloparenting refers to the practice of",
       "options": [
         {
           "key": "A",
-          "text": "sharing child care among community members.",
-          "value": "A"
+          "value": "A",
+          "text": "sharing childcare among community members",
+          "content": "sharing childcare among community members"
         },
         {
           "key": "B",
-          "text": "assigning babies to specific adult caregivers.",
-          "value": "B"
+          "value": "B",
+          "text": "assigning babies to specific adult caregivers",
+          "content": "assigning babies to specific adult caregivers"
         },
         {
           "key": "C",
-          "text": "teaching parenting details to older children.",
-          "value": "C"
+          "value": "C",
+          "text": "teaching parenting skills to older children",
+          "content": "teaching parenting skills to older children"
         },
         {
           "key": "D",
-          "text": "carrying infants around by their parent.",
-          "value": "D"
+          "value": "D",
+          "text": "carrying infants around by their parents",
+          "content": "carrying infants around by their parents"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】词义理解题。第一段末指出：'child care is distributed across a dynamic, cooperative network of community members, a social practice termed \"alloparenting\"'，表明协作育儿是指在社区成员之间共同分担育儿照护，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26,
+      "score": 2.0
     },
     {
       "id": "1ede5241-5548-41cb-a01b-e10fe11bc1f1",
@@ -996,34 +3147,40 @@
       "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The scheme in Germany is mentioned to illustrate ______.",
+      "stem": "The scheme in Germany is mentioned to illustrate",
       "options": [
         {
           "key": "A",
-          "text": "an attempt to facilitate intergenerational communication.",
-          "value": "A"
+          "value": "A",
+          "text": "an attempt to facilitate intergenerational communication",
+          "content": "an attempt to facilitate intergenerational communication"
         },
         {
           "key": "B",
-          "text": "an approach to integrating alloparenting into western culture.",
-          "value": "B"
+          "value": "B",
+          "text": "an approach to integrating alloparenting into western society",
+          "content": "an approach to integrating alloparenting into western society"
         },
         {
           "key": "C",
-          "text": "the conventional parenting style in western culture.",
-          "value": "C"
+          "value": "C",
+          "text": "the conventional parenting style in western culture",
+          "content": "the conventional parenting style in western culture"
         },
         {
           "key": "D",
-          "text": "the differences between western and African ways of living.",
-          "value": "D"
+          "value": "D",
+          "text": "the differences between western and African ways of living",
+          "content": "the differences between western and African ways of living"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】例证题。第三段通过德国多代同堂共居社区将年轻家庭与退休长者结合的案例，旨在说明如何将原始'协作育儿'理念融入现代西方生活方式，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 27,
+      "score": 2.0
     },
     {
       "id": "dc0d092e-b7f3-4bac-87f9-a80fb6d21684",
@@ -1031,34 +3188,40 @@
       "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to Paragraph 4, the \"intensive mothering narrative\" ______.",
+      "stem": "According to Paragraph 4, the \"intensive mothering narrative\"",
       "options": [
         {
           "key": "A",
-          "text": "alleviate parenting pressure.",
-          "value": "A"
+          "value": "A",
+          "text": "alleviates parenting pressures",
+          "content": "alleviates parenting pressures"
         },
         {
           "key": "B",
-          "text": "considerate family relationships.",
-          "value": "B"
+          "value": "B",
+          "text": "consolidates family relationships",
+          "content": "consolidates family relationships"
         },
         {
           "key": "C",
-          "text": "results in the child-centered family.",
-          "value": "C"
+          "value": "C",
+          "text": "results in the child-centred family",
+          "content": "results in the child-centred family"
         },
         {
           "key": "D",
-          "text": "departs from the course of evolution.",
-          "value": "D"
+          "value": "D",
+          "text": "departs from the course of evolution",
+          "content": "departs from the course of evolution"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】细节事实题。第四段明确指出：'this modern narrative departs drastically from the evolutionary trajectory that shaped human psychology'，强调密集育儿观念与人类心理形成的历史演化轨迹相背离，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 28,
+      "score": 2.0
     },
     {
       "id": "32b10ae4-7139-4f2f-b888-58981b5133b9",
@@ -1066,34 +3229,40 @@
       "passage_id": "8c0207b3-a259-4774-8dc5-71b25671e799",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to paragraph 5, what can we learn about nurseries in the UK?",
+      "stem": "What can be inferred about the nurseries in the UK?",
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "They tend to fall short of official requirements.",
-          "value": "A"
+          "content": "They tend to fall short of official requirements."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "They have difficulty finding enough caregivers.",
-          "value": "B"
+          "content": "They have difficulty finding enough caregivers."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "They ought to improve their carer-to-child ratio.",
-          "value": "C"
+          "content": "They ought to improve their carer-to-child ratio."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They should try to prevent parental depression.",
-          "value": "D"
+          "content": "They should try to prevent parental depression."
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】细节推断题。末段指出托儿所目前因刻板的师生比而导致冷漠机械化，建议'improving staffing ratios would create warmer, evolutionarily aligned environments'，即英国幼托机构应当优化改善师幼配比，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 29,
+      "score": 2.0
     },
     {
       "id": "7020e48b-008e-4583-a087-dfa76d4fb7d3",
@@ -1105,30 +3274,36 @@
       "options": [
         {
           "key": "A",
-          "text": "Instructive teaching: a dilemma for anxious parents.",
-          "value": "A"
+          "value": "A",
+          "text": "Instructive teaching: a dilemma for anxious parents",
+          "content": "Instructive teaching: a dilemma for anxious parents"
         },
         {
           "key": "B",
-          "text": "For a happier family, learn from the hunter-gatherers.",
-          "value": "B"
+          "value": "B",
+          "text": "For a happier family, learn from the hunter-gatherers",
+          "content": "For a happier family, learn from the hunter-gatherers"
         },
         {
           "key": "C",
-          "text": "Mix-aged playgroup, a better choice for lonely children.",
-          "value": "C"
+          "value": "C",
+          "text": "Mixed-age playgroup, a better choice for lonely children",
+          "content": "Mixed-age playgroup, a better choice for lonely children"
         },
         {
           "key": "D",
-          "text": "Tracing the history of parenting: from Africa to Europe.",
-          "value": "D"
+          "value": "D",
+          "text": "Tracing the history of parenting: from Africa to Europe",
+          "content": "Tracing the history of parenting: from Africa to Europe"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】主旨标题题。文章首尾呼应，开篇立论向非洲狩猎采集部落取经，探讨现代家庭如何摆脱密集育儿焦虑，建立快乐和谐的育儿协作网络，B 选项概括最生动精准。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 30,
+      "score": 2.0
     },
     {
       "id": "80774383-1ce8-4439-96c2-c27751284333",
@@ -1136,34 +3311,40 @@
       "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "What do we learn about Rutkowski from the first two paragraphs?",
+      "stem": "What can be learned about Rutkowski from the first two paragraphs?",
       "options": [
         {
           "key": "A",
-          "text": "He founded an influential digital gaming studio.",
-          "value": "A"
+          "value": "A",
+          "text": "He is enthusiastic about using AI models.",
+          "content": "He is enthusiastic about using AI models."
         },
         {
           "key": "B",
-          "text": "His visual style has become widely mimicked by AI.",
-          "value": "B"
+          "value": "B",
+          "text": "He is popular with users of an AI art generator.",
+          "content": "He is popular with users of an AI art generator."
         },
         {
           "key": "C",
-          "text": "He abandoned classical techniques for modern algorithms.",
-          "value": "C"
+          "value": "C",
+          "text": "He attracts admiration from other illustrators.",
+          "content": "He attracts admiration from other illustrators."
         },
         {
           "key": "D",
-          "text": "He actively promotes open-source text-to-image software.",
-          "value": "D"
+          "value": "D",
+          "text": "He specializes in classical painting digitalization.",
+          "content": "He specializes in classical painting digitalization."
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】细节理解题。第一段与第二段指出：'His distinctive style is now one of the most commonly used prompts in the new open-source AI art generator'，其独特的艺术风格成为 AI 绘画中最热门的提示词，即画风被 AI 广泛仿造，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 31,
+      "score": 2.0
     },
     {
       "id": "9432e086-d1dd-4361-b6a8-081f45b295ce",
@@ -1171,34 +3352,40 @@
       "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Why did Rutkowski become concerned about his popularity on Stable Diffusion?",
+      "stem": "The problem with open-source AI art generators is that they",
       "options": [
         {
           "key": "A",
-          "text": "He lost his contractual partnership with major gaming firms.",
-          "value": "A"
+          "value": "A",
+          "text": "lack flexibility in responding to prompts",
+          "content": "lack flexibility in responding to prompts"
         },
         {
           "key": "B",
-          "text": "His computer servers were frequently overwhelmed by web traffic.",
-          "value": "B"
+          "value": "B",
+          "text": "produce artworks in unpredictable styles",
+          "content": "produce artworks in unpredictable styles"
         },
         {
           "key": "C",
-          "text": "AI-generated images began contaminating his professional reputation and search results.",
-          "value": "C"
+          "value": "C",
+          "text": "make unauthorized use of online images",
+          "content": "make unauthorized use of online images"
         },
         {
           "key": "D",
-          "text": "Other traditional painters accused him of using automated shortcuts.",
-          "value": "D"
+          "value": "D",
+          "text": "collect user information without consent",
+          "content": "collect user information without consent"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】因果细节题。第二段末句明确提到：'Searching for his name online now surfaces thousands of AI-generated fantasy landscapes... directly polluting his professional portfolio'，网上海量 AI 仿图污染了他的个人作品集和搜索结果，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 32,
+      "score": 2.0
     },
     {
       "id": "aec82890-dc1e-461c-a5d7-05e56a7dc098",
@@ -1206,34 +3393,40 @@
       "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "What is the primary criticism leveled against the LAION-5B dataset in Paragraph 3?",
+      "stem": "After searching online, Rutkowski found",
       "options": [
         {
           "key": "A",
-          "text": "It lacks sufficient high-resolution digital imagery.",
-          "value": "A"
+          "value": "A",
+          "text": "a unique way to reach audiences",
+          "content": "a unique way to reach audiences"
         },
         {
           "key": "B",
-          "text": "It discriminates against European classical artists.",
-          "value": "B"
+          "value": "B",
+          "text": "a new method to identify AI images",
+          "content": "a new method to identify AI images"
         },
         {
           "key": "C",
-          "text": "It harvested billions of images without creators' consent or compensation.",
-          "value": "C"
+          "value": "C",
+          "text": "AI-generated work bearing his name",
+          "content": "AI-generated work bearing his name"
         },
         {
           "key": "D",
-          "text": "It caused irreparable data breaches across commercial gaming servers.",
-          "value": "D"
+          "value": "D",
+          "text": "heated disputes regarding his copyright",
+          "content": "heated disputes regarding his copyright"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】事实细节题。第三段指出：'scraped over five billion images from public websites... without seeking the permission of original creators or providing financial compensation'，在未获得创作者许可且未支付任何报酬的情况下抓取了数十亿张图片，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 33,
+      "score": 2.0
     },
     {
       "id": "1bff05a9-4d95-4271-b8f9-f1bc10872a68",
@@ -1241,34 +3434,40 @@
       "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "According to legal scholars mentioned in the final paragraph, AI scraping constitutes ______.",
+      "stem": "According to Ortiz, AI companies are advised to",
       "options": [
         {
           "key": "A",
-          "text": "a benign continuation of classical human artistic tribute.",
-          "value": "A"
+          "value": "A",
+          "text": "campaign for new policies or regulation",
+          "content": "campaign for new policies or regulation"
         },
         {
           "key": "B",
-          "text": "a protected form of public academic fair use.",
-          "value": "B"
+          "value": "B",
+          "text": "offer their services to public institutions",
+          "content": "offer their services to public institutions"
         },
         {
           "key": "C",
-          "text": "an inevitable evolutionary phase of modern copyright law.",
-          "value": "C"
+          "value": "C",
+          "text": "strengthen their relationships with AI users",
+          "content": "strengthen their relationships with AI users"
         },
         {
           "key": "D",
-          "text": "an unauthorized commercial exploitation of intellectual labor.",
-          "value": "D"
+          "value": "D",
+          "text": "adopt a different strategy for AI model training",
+          "content": "adopt a different strategy for AI model training"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】细节判断题。尾段末句指出：'algorithmic scraping on an industrial scale represents unauthorized mass commercial exploitation of human intellectual labor'，法律学者认为工业级算法抓取构成了对人类智力劳动的未授权商业剥削，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 34,
+      "score": 2.0
     },
     {
       "id": "639f0020-4fbd-476d-abb5-e0271545715f",
@@ -1276,34 +3475,40 @@
       "passage_id": "fd975bf0-85dd-4c11-9fb4-551f32e184d7",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Which of the following would be the most suitable title for the passage?",
+      "stem": "What is the text mainly about?",
       "options": [
         {
           "key": "A",
-          "text": "The Demise of Digital Illustration in Europe.",
-          "value": "A"
+          "value": "A",
+          "text": "Artists' responses to AI art generation.",
+          "content": "Artists' responses to AI art generation."
         },
         {
           "key": "B",
-          "text": "An Artist's Dilemma: Celebrated Style, Stolen by AI.",
-          "value": "B"
+          "value": "B",
+          "text": "AI's expanded role in artistic creation.",
+          "content": "AI's expanded role in artistic creation."
         },
         {
           "key": "C",
-          "text": "How Stable Diffusion Conquered the Art World.",
-          "value": "C"
+          "value": "C",
+          "text": "Privacy issues in the application of AI.",
+          "content": "Privacy issues in the application of AI."
         },
         {
           "key": "D",
-          "text": "The Endless Potential of Open-Source Generative Algorithms.",
-          "value": "D"
+          "value": "D",
+          "text": "Opposing views on AI development.",
+          "content": "Opposing views on AI development."
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "【考点精析】主旨标题题。全文围绕艺术家 Greg Rutkowski 画风备受追捧但被 AI 肆意剽窃侵权、引发版权与生计困境展开，B 项概括最贴切深刻。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "A",
+      "question_number": 35,
+      "score": 2.0
     },
     {
       "id": "f4b7d48c-b947-4af1-88b1-0b851e767e48",
@@ -1311,34 +3516,40 @@
       "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The Chesapeake Bay is described in paragraph 1 as ______.",
+      "stem": "The Chesapeake Bay is described in Paragraph 1 as",
       "options": [
         {
           "key": "A",
-          "text": "a valuable natural environment.",
-          "value": "A"
+          "value": "A",
+          "text": "a valuable natural environment",
+          "content": "a valuable natural environment"
         },
         {
           "key": "B",
-          "text": "a controversial conservation area.",
-          "value": "B"
+          "value": "B",
+          "text": "a controversial conservation area",
+          "content": "a controversial conservation area"
         },
         {
           "key": "C",
-          "text": "a place with commercial potential.",
-          "value": "C"
+          "value": "C",
+          "text": "a place with commercial potential",
+          "content": "a place with commercial potential"
         },
         {
           "key": "D",
-          "text": "a headache for nearby communities.",
-          "value": "D"
+          "value": "D",
+          "text": "a headache for nearby communities",
+          "content": "a headache for nearby communities"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】细节事实题。第一段描述切萨皮克湾：'delicate hydrological estuary supporting thousands of species... multi-billion-dollar maritime economy'，强调其是哺育数千物种和庞大海洋经济的珍贵生态环境，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 36,
+      "score": 2.0
     },
     {
       "id": "a9a536a0-2659-445e-a1cb-2b18f55902f9",
@@ -1346,34 +3557,40 @@
       "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The U.S. Supreme Court's ruling in the Idaho case ______.",
+      "stem": "The U.S. Supreme Court's ruling in the Idaho case",
       "options": [
         {
           "key": "A",
-          "text": "reinforces water pollution control.",
-          "value": "A"
+          "value": "A",
+          "text": "reinforces water pollution control",
+          "content": "reinforces water pollution control"
         },
         {
           "key": "B",
-          "text": "weakens the EPA's regulatory power.",
-          "value": "B"
+          "value": "B",
+          "text": "weakens the EPA's regulatory power",
+          "content": "weakens the EPA's regulatory power"
         },
         {
           "key": "C",
-          "text": "will end conflicts among local residents.",
-          "value": "C"
+          "value": "C",
+          "text": "will end conflicts among local residents",
+          "content": "will end conflicts among local residents"
         },
         {
           "key": "D",
-          "text": "may face opposition from mining operators.",
-          "value": "D"
+          "value": "D",
+          "text": "may face opposition from mining operators",
+          "content": "may face opposition from mining operators"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】细节推断题。第三段指出最高法院裁决：'sharply narrowed the statutory definition... effectively severed millions of ecologically vital upstream acres from EPA oversight'，剥夺了 EPA 对上游湿地的监管管辖权，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37,
+      "score": 2.0
     },
     {
       "id": "ece89a48-23ce-403d-b008-0b157509ba46",
@@ -1385,30 +3602,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Worried.",
-          "value": "A"
+          "content": "Worried."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Puzzled.",
-          "value": "B"
+          "content": "Puzzled."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Relieved.",
-          "value": "C"
+          "content": "Relieved."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Encouraged.",
-          "value": "D"
+          "content": "Encouraged."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】情感态度题。第四段开篇指出：'Environmental scientists and Chesapeake advocates are deeply alarmed... threatens to undo four decades of painstaking water restoration'，显示出对未来水质恶化与法律保护缺失的深切担忧（Worried），选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 38,
+      "score": 2.0
     },
     {
       "id": "6f97ff59-fe43-4861-b4c7-88294b263c11",
@@ -1420,30 +3643,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It has restored the balance among neighboring jurisdictions.",
-          "value": "A"
+          "content": "It has restored the balance among neighboring jurisdictions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It has triggered a radical reform in commercial fisheries.",
-          "value": "B"
+          "content": "It has triggered a radical reform in commercial fisheries."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It has set a fine example of respecting state authorities.",
-          "value": "C"
+          "content": "It has set a fine example of respecting state authorities."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It has ensured the coordination of protection efforts.",
-          "value": "D"
+          "content": "It has ensured the coordination of protection efforts."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】推断题。第二段指出 EPA 通过：'coordinated multi-state agreements, the EPA set binding caps... fostering an unprecedented model of cooperative federalism'，确保了跨州环保治理的协调联动，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 39,
+      "score": 2.0
     },
     {
       "id": "3e30607a-3013-4f9c-9456-a0a27dcf8583",
@@ -1451,34 +3680,40 @@
       "passage_id": "5c33b7ed-154f-4b83-b72c-0a5f8b61bd7a",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "The author holds that in the wake of the Supreme Court ruling, state lawmakers ______.",
+      "stem": "The author holds that the state lawmakers should",
       "options": [
         {
           "key": "A",
-          "text": "will harmonize regional agricultural regulations smoothly.",
-          "value": "A"
+          "value": "A",
+          "text": "be cautious about the influence of land owners",
+          "content": "be cautious about the influence of land owners"
         },
         {
           "key": "B",
-          "text": "should prioritize industrial expansion over conservation.",
-          "value": "B"
+          "value": "B",
+          "text": "attach due importance to wetlands protections",
+          "content": "attach due importance to wetlands protections"
         },
         {
           "key": "C",
-          "text": "must resist industrial lobbying to protect upstream waterways.",
-          "value": "C"
+          "value": "C",
+          "text": "recognize the need to expand wildlife refuges",
+          "content": "recognize the need to expand wildlife refuges"
         },
         {
           "key": "D",
-          "text": "ought to hand over jurisdiction to federal military engineers.",
-          "value": "D"
+          "value": "D",
+          "text": "improve the wellbeing of endangered species",
+          "content": "improve the wellbeing of endangered species"
         }
       ],
-      "correct_answer": "C",
+      "correct_answer": "B",
       "explanation": "【考点精析】观点归纳题。文章末尾强调：'If upstream states relax their agricultural regulations to appease corporate farming and construction lobbies... struggle against powerful industrial interests'，各州立法者必须顶住工业说客压力，严防水体污染，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "C"
+      "answer": "B",
+      "question_number": 40,
+      "score": 2.0
     },
     {
       "id": "54fd455e-e4c0-475f-9b8c-64d684792e34",
@@ -1486,49 +3721,58 @@
       "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best sub-paragraph from A-G to fill in gap [41]:",
+      "stem": "Hannah",
       "options": [
         {
           "key": "A",
-          "text": "Modern digital replication technologies offer an easy compromise by allowing both source nations and Western museums to hold identical 3D replicas without moving original relics.",
-          "value": "A"
+          "value": "A",
+          "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+          "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
         },
         {
           "key": "B",
-          "text": "Restitution should not be viewed as a punitive zero-sum transfer, but rather as an overdue gesture of diplomatic reconciliation and ethical maturity.",
-          "value": "B"
+          "value": "B",
+          "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+          "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
         },
         {
           "key": "C",
-          "text": "Academic research grants increasingly prioritize archaeological excavations that promise to discover completely untouched burial sites.",
-          "value": "C"
+          "value": "C",
+          "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+          "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
         },
         {
           "key": "D",
-          "text": "Proponents of the universal museum model assert that great art transcends modern geopolitical borders and belongs fundamentally to all humankind.",
-          "value": "D"
+          "value": "D",
+          "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+          "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
         },
         {
           "key": "E",
-          "text": "At the heart of the universal museum philosophy lies the assertion that global public access outweighs local claims of origin.",
-          "value": "E"
+          "value": "E",
+          "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+          "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
         },
         {
           "key": "F",
-          "text": "Retaining treasures under the excuse of superior stewardship overlooks the moral illegitimacy of how those treasures were acquired in the first place.",
-          "value": "F"
+          "value": "F",
+          "text": "Ways to get artifacts from other countries must be decent and lawful.",
+          "content": "Ways to get artifacts from other countries must be decent and lawful."
         },
         {
           "key": "G",
-          "text": "The opening of these magnificent African and Middle Eastern institutions effectively dismantles the last practical excuse for holding overseas treasures.",
-          "value": "G"
+          "value": "G",
+          "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+          "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
         }
       ],
       "correct_answer": "E",
       "explanation": "【考点精析】[41] 空格：紧承上文西方博物馆以'universal encyclopedic stewardship'（普遍百科全书式管理）为由占有殖民文物的叙述，E 项指出'普世博物馆哲学的核心在于全球公众阅览优先于原产地主张'，完美衔接上下文。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 41,
+      "score": 2.0
     },
     {
       "id": "67b15bbc-22f4-479b-8c91-010ee028802e",
@@ -1536,49 +3780,58 @@
       "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best sub-paragraph from A-G to fill in gap [42]:",
+      "stem": "Buck",
       "options": [
         {
           "key": "A",
-          "text": "Modern digital replication technologies offer an easy compromise by allowing both source nations and Western museums to hold identical 3D replicas without moving original relics.",
-          "value": "A"
+          "value": "A",
+          "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+          "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
         },
         {
           "key": "B",
-          "text": "Restitution should not be viewed as a punitive zero-sum transfer, but rather as an overdue gesture of diplomatic reconciliation and ethical maturity.",
-          "value": "B"
+          "value": "B",
+          "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+          "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
         },
         {
           "key": "C",
-          "text": "Academic research grants increasingly prioritize archaeological excavations that promise to discover completely untouched burial sites.",
-          "value": "C"
+          "value": "C",
+          "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+          "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
         },
         {
           "key": "D",
-          "text": "Proponents of the universal museum model assert that great art transcends modern geopolitical borders and belongs fundamentally to all humankind.",
-          "value": "D"
+          "value": "D",
+          "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+          "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
         },
         {
           "key": "E",
-          "text": "At the heart of the universal museum philosophy lies the assertion that global public access outweighs local claims of origin.",
-          "value": "E"
+          "value": "E",
+          "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+          "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
         },
         {
           "key": "F",
-          "text": "Retaining treasures under the excuse of superior stewardship overlooks the moral illegitimacy of how those treasures were acquired in the first place.",
-          "value": "F"
+          "value": "F",
+          "text": "Ways to get artifacts from other countries must be decent and lawful.",
+          "content": "Ways to get artifacts from other countries must be decent and lawful."
         },
         {
           "key": "G",
-          "text": "The opening of these magnificent African and Middle Eastern institutions effectively dismantles the last practical excuse for holding overseas treasures.",
-          "value": "G"
+          "value": "G",
+          "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+          "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "【考点精析】[42] 空格：前文阐明博物馆馆长为世界公民提供集中观摩人类文明成就的主张，D 选项'普世博物馆支持者坚称伟大艺术超越地缘边界，本质上属于全人类'对前文段落主旨进行概括提炼。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "D"
+      "answer": "C",
+      "question_number": 42,
+      "score": 2.0
     },
     {
       "id": "508c1b01-290c-4651-94fe-45e03bb907af",
@@ -1586,49 +3839,58 @@
       "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best sub-paragraph from A-G to fill in gap [43]:",
+      "stem": "Sara",
       "options": [
         {
           "key": "A",
-          "text": "Modern digital replication technologies offer an easy compromise by allowing both source nations and Western museums to hold identical 3D replicas without moving original relics.",
-          "value": "A"
+          "value": "A",
+          "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+          "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
         },
         {
           "key": "B",
-          "text": "Restitution should not be viewed as a punitive zero-sum transfer, but rather as an overdue gesture of diplomatic reconciliation and ethical maturity.",
-          "value": "B"
+          "value": "B",
+          "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+          "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
         },
         {
           "key": "C",
-          "text": "Academic research grants increasingly prioritize archaeological excavations that promise to discover completely untouched burial sites.",
-          "value": "C"
+          "value": "C",
+          "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+          "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
         },
         {
           "key": "D",
-          "text": "Proponents of the universal museum model assert that great art transcends modern geopolitical borders and belongs fundamentally to all humankind.",
-          "value": "D"
+          "value": "D",
+          "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+          "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
         },
         {
           "key": "E",
-          "text": "At the heart of the universal museum philosophy lies the assertion that global public access outweighs local claims of origin.",
-          "value": "E"
+          "value": "E",
+          "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+          "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
         },
         {
           "key": "F",
-          "text": "Retaining treasures under the excuse of superior stewardship overlooks the moral illegitimacy of how those treasures were acquired in the first place.",
-          "value": "F"
+          "value": "F",
+          "text": "Ways to get artifacts from other countries must be decent and lawful.",
+          "content": "Ways to get artifacts from other countries must be decent and lawful."
         },
         {
           "key": "G",
-          "text": "The opening of these magnificent African and Middle Eastern institutions effectively dismantles the last practical excuse for holding overseas treasures.",
-          "value": "G"
+          "value": "G",
+          "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+          "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
         }
       ],
       "correct_answer": "F",
       "explanation": "【考点精析】[43] 空格：承接第三段对宗主国傲慢与掠夺实质的批判，F 选项'以优越管理能力为借口拒绝归还，完全漠视了获取文物时手段的道德非法性'，构成强有力的道德驳斥。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 43,
+      "score": 2.0
     },
     {
       "id": "29def235-5b67-4c06-af3f-3cccccd05de7",
@@ -1636,49 +3898,58 @@
       "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best sub-paragraph from A-G to fill in gap [44]:",
+      "stem": "Victor",
       "options": [
         {
           "key": "A",
-          "text": "Modern digital replication technologies offer an easy compromise by allowing both source nations and Western museums to hold identical 3D replicas without moving original relics.",
-          "value": "A"
+          "value": "A",
+          "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+          "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
         },
         {
           "key": "B",
-          "text": "Restitution should not be viewed as a punitive zero-sum transfer, but rather as an overdue gesture of diplomatic reconciliation and ethical maturity.",
-          "value": "B"
+          "value": "B",
+          "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+          "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
         },
         {
           "key": "C",
-          "text": "Academic research grants increasingly prioritize archaeological excavations that promise to discover completely untouched burial sites.",
-          "value": "C"
+          "value": "C",
+          "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+          "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
         },
         {
           "key": "D",
-          "text": "Proponents of the universal museum model assert that great art transcends modern geopolitical borders and belongs fundamentally to all humankind.",
-          "value": "D"
+          "value": "D",
+          "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+          "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
         },
         {
           "key": "E",
-          "text": "At the heart of the universal museum philosophy lies the assertion that global public access outweighs local claims of origin.",
-          "value": "E"
+          "value": "E",
+          "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+          "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
         },
         {
           "key": "F",
-          "text": "Retaining treasures under the excuse of superior stewardship overlooks the moral illegitimacy of how those treasures were acquired in the first place.",
-          "value": "F"
+          "value": "F",
+          "text": "Ways to get artifacts from other countries must be decent and lawful.",
+          "content": "Ways to get artifacts from other countries must be decent and lawful."
         },
         {
           "key": "G",
-          "text": "The opening of these magnificent African and Middle Eastern institutions effectively dismantles the last practical excuse for holding overseas treasures.",
-          "value": "G"
+          "value": "G",
+          "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+          "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
         }
       ],
       "correct_answer": "G",
       "explanation": "【考点精析】[44] 空格：紧跟后文对尼日利亚西非艺术博物馆和开罗大埃及博物馆世界一流保存设施的列举，G 选项'这些壮丽的非洲和中东文博机构的开放，彻底瓦解了拒绝归还的最后一个现实借口'起到承上启下的段落统领作用。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 44,
+      "score": 2.0
     },
     {
       "id": "fb3a4e8a-3aad-4900-bef9-69863c52d720",
@@ -1686,49 +3957,58 @@
       "passage_id": "581c5844-7e32-4241-bdd2-61f99d383a68",
       "category_id": "ky1",
       "q_type": "reading_item",
-      "stem": "Choose the best sub-paragraph from A-G to fill in gap [45]:",
+      "stem": "Julia",
       "options": [
         {
           "key": "A",
-          "text": "Modern digital replication technologies offer an easy compromise by allowing both source nations and Western museums to hold identical 3D replicas without moving original relics.",
-          "value": "A"
+          "value": "A",
+          "text": "It is clear that the countries of origin have never been compensated for the stolen artifacts.",
+          "content": "It is clear that the countries of origin have never been compensated for the stolen artifacts."
         },
         {
           "key": "B",
-          "text": "Restitution should not be viewed as a punitive zero-sum transfer, but rather as an overdue gesture of diplomatic reconciliation and ethical maturity.",
-          "value": "B"
+          "value": "B",
+          "text": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin.",
+          "content": "It is a flawed line of reasoning to argue against returning artifacts to their countries of origin."
         },
         {
           "key": "C",
-          "text": "Academic research grants increasingly prioritize archaeological excavations that promise to discover completely untouched burial sites.",
-          "value": "C"
+          "value": "C",
+          "text": "Museum visitors can still learn as much from artifacts' copies after the originals are returned.",
+          "content": "Museum visitors can still learn as much from artifacts' copies after the originals are returned."
         },
         {
           "key": "D",
-          "text": "Proponents of the universal museum model assert that great art transcends modern geopolitical borders and belongs fundamentally to all humankind.",
-          "value": "D"
+          "value": "D",
+          "text": "Reproductions, even if perfectly made, cannot take the place of the authentic objects.",
+          "content": "Reproductions, even if perfectly made, cannot take the place of the authentic objects."
         },
         {
           "key": "E",
-          "text": "At the heart of the universal museum philosophy lies the assertion that global public access outweighs local claims of origin.",
-          "value": "E"
+          "value": "E",
+          "text": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else.",
+          "content": "The real value of artifacts can only be recognized in their countries of origin rather than anywhere else."
         },
         {
           "key": "F",
-          "text": "Retaining treasures under the excuse of superior stewardship overlooks the moral illegitimacy of how those treasures were acquired in the first place.",
-          "value": "F"
+          "value": "F",
+          "text": "Ways to get artifacts from other countries must be decent and lawful.",
+          "content": "Ways to get artifacts from other countries must be decent and lawful."
         },
         {
           "key": "G",
-          "text": "The opening of these magnificent African and Middle Eastern institutions effectively dismantles the last practical excuse for holding overseas treasures.",
-          "value": "G"
+          "value": "G",
+          "text": "Concern over security is no excuse for refusing to return artifacts to their countries of origin.",
+          "content": "Concern over security is no excuse for refusing to return artifacts to their countries of origin."
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】[45] 空格：作为全文总结前瞻，B 选项指出'文物归还绝非零和博弈的惩罚，而是历史和解与文明成熟的迟来表达'，完美过渡到末段关于国际合作与相互尊重的升华。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 45,
+      "score": 2.0
     }
   ],
   "exportedAt": "2026-10-15T11:40:11.654Z"

@@ -177,6 +177,7 @@ def main():
     round77_anomalies = []
     round78_anomalies = []
     round79_anomalies = []
+    round80_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -2527,6 +2528,111 @@ def main():
                         opt_c = opt.get('content', '')
                         if not opt_k or (not opt_t and not opt_c):
                             round79_anomalies.append((f'2023_ky2_q{i}_opt_invalid', opt_k, opt_t))
+
+        if yr == 2024 and cat == 'ky1':
+            if title != '2024年全国硕士研究生招生考试英语（一）真题':
+                round80_anomalies.append(('2024_ky1_title', title))
+            if float(data['exam'].get('total_score', 0)) != 60.0:
+                round80_anomalies.append(('2024_ky1_total_score', data['exam'].get('total_score')))
+            if float(data['exam'].get('pass_score', 0)) != 36.0:
+                round80_anomalies.append(('2024_ky1_pass_score', data['exam'].get('pass_score')))
+
+            p_list = sorted(data.get('passages', []), key=lambda x: x.get('sort_order', 0))
+            if len(p_list) != 6:
+                round80_anomalies.append(('2024_ky1_passages_count', len(p_list)))
+            else:
+                cloze, t1, t2, t3, t4, pb = p_list[0], p_list[1], p_list[2], p_list[3], p_list[4], p_list[5]
+                # Cloze: 4 paras, 271 words, Automatic doors
+                c_paras = [p.strip() for p in cloze.get("content", "").split("\n\n") if p.strip()]
+                if len(c_paras) != 4:
+                    round80_anomalies.append(('2024_ky1_cloze_paras', len(c_paras)))
+                if not cloze.get("content", "").startswith("There's nothing more welcoming than a door opening for you."):
+                    round80_anomalies.append(('2024_ky1_cloze_start', cloze.get("content", "")[:50]))
+                if not cloze.get("content", "").endswith("to limit the surveyed area."):
+                    round80_anomalies.append(('2024_ky1_cloze_end', cloze.get("content", "")[-40:]))
+
+                # Text 1: 7 paras, 424 words, Roman nails
+                t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
+                if len(t1_paras) != 7:
+                    round80_anomalies.append(('2024_ky1_t1_paras', len(t1_paras)))
+                if not t1.get("content", "").startswith("Nearly 2,000 years ago, as the Romans began to pull out of Scotland"):
+                    round80_anomalies.append(('2024_ky1_t1_start', t1.get("content", "")[:50]))
+                if not t1.get("content", "").endswith("transforming the global energy system."):
+                    round80_anomalies.append(('2024_ky1_t1_end', t1.get("content", "")[-50:]))
+
+                # Text 2: 7 paras, 417 words, Hunter-gatherer parenting
+                t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
+                if len(t2_paras) != 7:
+                    round80_anomalies.append(('2024_ky1_t2_paras', len(t2_paras)))
+                if not t2.get("content", "").startswith("Parenting tips obtained from hunter-gatherers in Africa may be the key"):
+                    round80_anomalies.append(('2024_ky1_t2_start', t2.get("content", "")[:50]))
+                if not t2.get("content", "").endswith('enhance their own social development".'):
+                    round80_anomalies.append(('2024_ky1_t2_end', t2.get("content", "")[-50:]))
+
+                # Text 3: 8 paras, 437 words, Greg Rutkowski & AI art
+                t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
+                if len(t3_paras) != 8:
+                    round80_anomalies.append(('2024_ky1_t3_paras', len(t3_paras)))
+                if not t3.get("content", "").startswith("A Polish digital artist who uses classical painting styles"):
+                    round80_anomalies.append(('2024_ky1_t3_start', t3.get("content", "")[:50]))
+                if not t3.get("content", "").endswith("partnerships with museums and artists, Ortiz says."):
+                    round80_anomalies.append(('2024_ky1_t3_end', t3.get("content", "")[-50:]))
+
+                # Text 4: 5 paras, 426 words, Chesapeake Bay wetlands
+                t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
+                if len(t4_paras) != 5:
+                    round80_anomalies.append(('2024_ky1_t4_paras', len(t4_paras)))
+                if not t4.get("content", "").startswith("The miracle of the Chesapeake Bay lies not in its depths"):
+                    round80_anomalies.append(('2024_ky1_t4_start', t4.get("content", "")[:50]))
+                if not t4.get("content", "").endswith("It's worth the scenic drive."):
+                    round80_anomalies.append(('2024_ky1_t4_end', t4.get("content", "")[-50:]))
+
+                # Part B: 5 paras, 669 words, Returning artifacts 5 persons
+                pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
+                if len(pb_paras) != 5:
+                    round80_anomalies.append(('2024_ky1_pb_paras', len(pb_paras)))
+                if not pb.get("content", "").startswith("Hannah: Simply, there are people in Nigeria who cannot travel"):
+                    round80_anomalies.append(('2024_ky1_pb_start', pb.get("content", "")[:50]))
+                if not pb.get("content", "").endswith("think about why you're assuming that to be true."):
+                    round80_anomalies.append(('2024_ky1_pb_end', pb.get("content", "")[-50:]))
+
+            q_list = sorted(data.get('questions', []), key=lambda x: x.get('sort_order', 0))
+            if len(q_list) != 45:
+                round80_anomalies.append(('2024_ky1_questions_count', len(q_list)))
+            else:
+                exp_answers = {
+                    1: 'D', 2: 'C', 3: 'B', 4: 'A', 5: 'B', 6: 'C', 7: 'A', 8: 'D', 9: 'A', 10: 'D',
+                    11: 'A', 12: 'C', 13: 'C', 14: 'D', 15: 'C', 16: 'B', 17: 'D', 18: 'C', 19: 'B', 20: 'A',
+                    21: 'D', 22: 'D', 23: 'A', 24: 'B', 25: 'A', 26: 'A', 27: 'B', 28: 'D', 29: 'C', 30: 'B',
+                    31: 'B', 32: 'C', 33: 'C', 34: 'D', 35: 'A', 36: 'A', 37: 'B', 38: 'A', 39: 'D', 40: 'B',
+                    41: 'E', 42: 'C', 43: 'F', 44: 'G', 45: 'B'
+                }
+                for i, q in enumerate(q_list, 1):
+                    if q.get('sort_order') != i:
+                        round80_anomalies.append((f'2024_ky1_q{i}_sort_order', q.get('sort_order')))
+                    if q.get('question_number') != i:
+                        round80_anomalies.append((f'2024_ky1_q{i}_number', q.get('question_number')))
+                    
+                    exp_pts = 0.5 if i <= 20 else 2.0
+                    q_pts = float(q.get('score') or q.get('points') or 0)
+                    if abs(q_pts - exp_pts) > 1e-4:
+                        round80_anomalies.append((f'2024_ky1_q{i}_points', q_pts))
+                    
+                    exp_type = 'cloze_item' if i <= 20 else 'reading_item'
+                    if q.get('question_type') != exp_type and q.get('q_type') != exp_type:
+                        round80_anomalies.append((f'2024_ky1_q{i}_q_type', q.get('question_type') or q.get('q_type')))
+                    
+                    ans = q.get('correct_answer') or q.get('answer')
+                    if ans != exp_answers.get(i):
+                        round80_anomalies.append((f'2024_ky1_q{i}_ans', ans, exp_answers.get(i)))
+
+                    opts = q.get('options', [])
+                    for opt in opts:
+                        opt_k = opt.get('key', '')
+                        opt_t = opt.get('text', '')
+                        opt_c = opt.get('content', '')
+                        if not opt_k or (not opt_t and not opt_c):
+                            round80_anomalies.append((f'2024_ky1_q{i}_opt_invalid', opt_k, opt_t))
 
 
         passages = data.get('passages', [])
@@ -5134,6 +5240,7 @@ def main():
     results["Assertion 99: 2022 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段398词理顺写作与时间分配哲理、Text 1 恢复6段401词理顺再生农业与气候友好鸡蛋、Text 2 恢复8段461词理顺美国中老年不退休潮流与寿命延长、Text 3 恢复6段402词理顺黑暗模式与UX伦理规范、Text 4 恢复5段394词理顺道德课堂对吃肉影响与自我言行改变、Part B 恢复8段538词理顺恢复运动指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round77_anomalies) == 0)
     results["Assertion 100: 2023 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段281词理顺丝绸之路驿站驿舍、Text 1 恢复7段443词理顺德州气候教育争议与能源行业教材、Text 2 恢复9段464词理顺新英格兰短租监管与季节工人住房危机、Text 3 恢复7段412词理顺水石书店与企鹅兰登信用额度争议、Text 4 恢复6段360词理顺学术论文引用堆积作弊与Scopus审查算法、Part B 恢复8段594词彻底切除Directions并规范黄石公园150周年[A]-[H]8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round78_anomalies) == 0)
     results["Assertion 101: 2023 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段349词理顺增长团队与BitTorrent案例、Text 1 恢复6段318词理顺英国皇家园艺学会禁止人造草坪参展博弈、Text 2 恢复6段284词理顺美国国家公园220亿美元基建赤字与营地私有化争议、Text 3 恢复5段277词理顺认知卸载与互联网对人类记忆模式重塑、Text 4 恢复5段268词理顺青少年利他与叛逆并存的神经回报敏感性、Part B 恢复13段574词彻底切除Directions并规范净零建筑新规12段与5人多项对应、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round79_anomalies) == 0)
+    results["Assertion 102: 2024 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词理顺自动门演化机制、Text 1 彻底治愈4段残缺恢复7段424词完整篇章理顺罗马钉子与低价技术变革、Text 2 治愈假造文本恢复7段417词理顺非洲狩猎采集者异亲养育与英国托儿所对比、Text 3 治愈假造文本恢复8段437词理顺鲁特科夫斯基与AI图像盗用、Text 4 治愈假造文本恢复5段426词理顺切萨皮克湾湿地与最高法院爱达荷裁决、Part B 恢复5段669词彻底剔除伪7选5段落恢复5人关于海外掠夺文物归还观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round80_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5158,6 +5265,8 @@ def main():
             print(f"Round 78 anomalies ({len(round78_anomalies)}):", round78_anomalies[:10])
         if round79_anomalies:
             print(f"Round 79 anomalies ({len(round79_anomalies)}):", round79_anomalies[:10])
+        if round80_anomalies:
+            print(f"Round 80 anomalies ({len(round80_anomalies)}):", round80_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
