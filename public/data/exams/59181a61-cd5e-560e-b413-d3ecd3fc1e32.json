@@ -2,12 +2,12 @@
   "exam": {
     "id": "59181a61-cd5e-560e-b413-d3ecd3fc1e32",
     "category_id": "ky2",
-    "title": "2025年 全国硕士研究生招生考试 英语（二）真题",
+    "title": "2025年全国硕士研究生招生考试英语（二）真题",
     "year": 2025,
     "exam_type": "real",
-    "duration_minutes": 75,
-    "total_score": 60,
-    "pass_score": 36,
+    "duration_minutes": 180,
+    "total_score": 60.0,
+    "pass_score": 36.0,
     "is_published": true,
     "created_at": "2026-10-09T15:07:11.336494+00:00",
     "approval_status": "approved",
@@ -28,10 +28,11 @@
       "id": "b9f237eb-485a-5206-a698-73bc1cfc4043",
       "exam_id": "59181a61-cd5e-560e-b413-d3ecd3fc1e32",
       "category_id": "ky2",
-      "section_type": "cloze",
+      "section_type": "use_of_english",
       "title": "Section I: Use of English",
       "content": "There are many understandable reasons why you might find it difficult to ask for help when you need it. Psychologists have been interested in this [1] for decades, not least because people's widespread [2] to ask for help has led to some high-profile failures.\n\nAsking for help takes [3]. It involves communicating a need on your part—there's something you can't do. [4], you're broadcasting your own weaknesses, which can be [5]. You might worry about coming across as incompetent. You might have [6] about losing control of whatever it is you're asking for help with. [7] someone starts to help, perhaps they'll take over, or get credit for your earlier efforts. Yet another [8] that you might be worried about is being a nuisance or [9] the person you go to for help.\n\nIf you struggle with low self-esteem, you might find it especially difficult to [10] for help because you have the added worry of the other person [11] your request. You might see such refusals as implying something [12] about the status of your relationship with them. To [13] these difficulties, try to remind yourself that everyone needs help sometimes. Nobody knows everything and can do everything all by themselves. And while you might [14] coming across as incompetent, there's actually research that shows that advice-seekers are [15] as more competent, not less.\n\nPerhaps most encouraging of all is a paper from 2022 by researchers at Stanford University, in California, that involved a mix of contrived help-seeking interactions and asking people to [16] times they'd sought help in the past. The findings showed that help-seekers generally underestimate how [17] other people will be to help and how good it'll make the help-giver feel (for most people, having the chance to help someone is highly [18]).\n\nSo, bear all this in mind the next time you need to ask for help. [19], take care over who you ask and when you ask them. And if someone can't help right now, avoid taking it personally. They might just be too [20], or they might not feel confident about their ability to help.",
-      "sort_order": 1
+      "sort_order": 1,
+      "passage_type": "cloze"
     },
     {
       "id": "158a20a3-032e-57fd-b72c-f27391d5c9fa",
@@ -40,7 +41,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "U.S. customers historically tipped people they assumed were earning most of their income via tips, such as restaurant servers earning less than the minimum wage. In the early 2010s, a wide range of businesses started processing purchases with iPads and other digital payment systems. These systems often prompted customers to tip for services that were not previously tipped.\n\nToday's tip requests are often not connected to the salary and service norms that used to determine when and how people tip. Customers in the past nearly always paid tips after receiving a service, such as at the conclusion of a restaurant meal, after getting a haircut or once a pizza was delivered. That timing could reward high-quality service and give workers an incentive to provide it.\n\nIt's becoming more common for tips to be requested beforehand. And new tipping technology may even automatically add tips.\n\nThe prevalence of digital payment devices has made it easier to ask customers for a tip. That helps explain why tip requests are creeping into new kinds of services. Customers now routinely see menus of suggested default options—often well above 20% of what they owe. The amounts have risen from 10% or less in the 1950s to 15% around the year 2000 to 20% or higher today. This increase is sometimes called tipflation—the expectation of ever-higher tip amounts.\n\nTipping has always been a vital source of income for workers in historically tipped services, like restaurants, where the tipped minimum wage can be as low as US$2.13 an hour. Tip creep and tipflation are now further supplementing the income of many low-wage service workers.\n\nNotably, tipping primarily benefits some of these workers, such as waiters, but not others, such as cooks and dishwashers. To ensure that all employees were paid fair wages, some restaurants banned tipping and increased prices, but this movement toward no-tipping services has largely fizzled out.\n\nSo, to increase employee wages without raising prices, more employers are succumbing to the temptations of tip creep and tipflation. However, many customers are frustrated because they feel they are being asked for too high of a tip, too often. And, as our research emphasizes, tipping now seems to be more coercive, less generous and often completely disassociated from service quality.",
-      "sort_order": 2
+      "sort_order": 2,
+      "passage_type": null
     },
     {
       "id": "3f2bc4ac-601a-569d-b3e1-227222f4d583",
@@ -49,7 +51,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "When it was established, the National Health Service (NHS) was visionary: offering high-quality, timely care to meet the dominant needs of the population it served. Nearly 75 years on, with the UK facing very different health challenges, it is clear that the model is out of date.\n\nFrom life expectancy to cancer and infant mortality rates, we are lagging behind many of our peers. With more than 6.8 million on waitlists, healthcare is becoming increasingly inaccessible for those who cannot opt to pay for private treatment; and the cost of providing healthcare is increasingly squeezing out investment in other public services. As demand for healthcare continues to grow, pressures on the workforce—which is already near breaking point—will only become more acute.\n\nMany of the answers to the crisis in health and care are well rehearsed. We need to be much better at reducing and diverting demand on health services, rather than simply managing it. Much more needs to be invested in communities and primary care to reduce our reliance on hospitals. And capacity in social care needs to be greater, to support the growing number of people living with long-term conditions.\n\nYet despite two decades of strategies and a number of major health reforms, we have failed to make meaningful progress on any of these aims. That is why the Reform think tank is launching a new programme of work entitled \"Reimagining health\", supported by ten former health ministers. Together, we are calling for a much more open and honest conversation about the future of health in the UK, and an \"urgent rethink\" of the hospital-centric model we retain.\n\nThis must begin with the question of how we maximise the health of the nation, rather than \"fix\" the NHS. It is estimated, for example, that healthcare accounts for only about 20% of health outcomes. Much more important are the places we live, work and socialise—yet there is no clear cross-government strategy for improving these social determinants of health. Worse, when policies like the national obesity strategy are scrapped, taxpayers are left with the heavy price tag of treating the illnesses, like diabetes, that result.\n\nReform wants to ask how power and resources should be distributed in our health system. What health functions should remain at the centre, and what should be given to local leaders, often responsible for services that create health, and with a much better understanding of the needs of their populations?",
-      "sort_order": 3
+      "sort_order": 3,
+      "passage_type": null
     },
     {
       "id": "eeba0e0c-d209-5652-b432-684413d94631",
@@ -58,7 +61,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "Heat action plans, or HAPs, have been proliferating in India in the past few years. In general, an HAP spells out when and how officials should issue heat warnings and alert hospitals and other institutions. Nagpur's plan, for instance, calls for hospitals to set aside \"cold wards\" in the summer for treating heatstroke patients, and advises builders to give construction laborers a break from work on very hot days.\n\nBut implementation of existing HAPs has been uneven, according to a report from the Center for Policy Research. Many lack adequate funding, it found. And their triggering thresholds often are not customized to the local climate. In some areas, high daytime temperatures alone might serve as an adequate trigger for alerts. But in other places, nighttime temperatures or humidity might be as important a gauge of risk as daytime highs.\n\nMumbai's April heatstroke deaths highlighted the need for more nuanced and localized warnings, researchers say. That day's high temperature of roughly 36°C was 1°C shy of the heat wave alert threshold for coastal cities set by national meteorological authorities. But the effects of the heat were amplified by humidity—an often neglected factor in heat alert systems—and the lack of shade at the late-morning outdoor ceremony.\n\nTo help improve HAPs, urban planner Kotharkar's team is working on a model plan that outlines best practices and could be adapted to local conditions. Among other things, she says, all cities should create a vulnerability map to help focus responses on the populations most at risk.\n\nSuch mapping doesn't need to be complex, Kotharkar says. \"A useful map can be created by looking at even a few key parameters.\" For example, neighborhoods with a large elderly population or informal dwellings that cope poorly with heat could get special warnings or be bolstered with cooling centers. The Nagpur project has already created a risk and vulnerability map, which enabled Kotharkar to tell officials which neighborhoods to focus on in the event of a heat wave this summer.\n\nHAPs shouldn't just include short-term emergency responses, researchers say, but also recommend medium-to-long-term measures that could make communities cooler. In Nagpur, for example, Kotharkar's team has been able to advise city officials about where to plant trees to provide shade. HAPs could also guide efforts to retrofit homes or modify building regulations. \"Reducing deaths in an emergency is good target to have, but it's the lowest target,\" says climate researcher Chandni Singh.",
-      "sort_order": 4
+      "sort_order": 4,
+      "passage_type": null
     },
     {
       "id": "7b92f8eb-5e2a-5296-a03f-ac759d2d3331",
@@ -67,7 +71,8 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "Navigating beyond the organised pavements and parks of our urban spaces, desire paths are the unofficial footprints of a community, revealing the unspoken preferences, shared shortcuts and collective choices of humans. Often appearing as trodden dirt tracks through otherwise neat green spaces, these routes of collective disobedience cut corners, bisect lawns and cross hills, representing the natural capability of people (and animals) to go from point A to point B most effectively.\n\nUrban planners interpret desire paths as more than just convenient shortcuts; they offer valuable insights into the dynamics between planning and behaviour. Ohio State University allowed its students to navigate the Oval, a lawn in the centre of campus, freely, then proceeded to pave the desire paths, creating a web of effective routes students had established.\n\nYet, reluctance persists among other planners to integrate desire paths into formal plans, citing concerns about safety, environmental impact, or primarily, aesthetics. A Reddit webpage devoted to the phenomenon, boasting nearly 50,000 members, showcases images of local desire paths adorned with signs instructing pedestrians to adhere to designated walkways, underscoring the rebellious nature inherent in these human-made tracks. This clash highlights an ongoing struggle between the organic, user-driven evolution of public spaces and the desire for a visually curated and controlled urban environment.\n\nThe Wickquasgeck Trail is an example of a historical desire path, created by Native Americans to cross the forests of Manhattan and move between settlements quickly. This trail, when Dutch colonists arrived, was widened and made into one of the main trade roads across the island, known at the time as de Heere Straat, or Gentlemen's Street. Following the British assumption of control in New York, the street was renamed Broadway. Notably, Broadway stands out as one of the few areas in NYC that defies the grid-based system applied to the rest of the city, cutting a diagonal across parts of the city.\n\nIn online spaces, desire paths have sparked a fascination that can approach obsession, with the Reddit page serving as a hub. Contributors offer a wide array of stories, from little-known new shortcuts to long-established alternate routes. Animal desire paths, such as ducks forging trails through frozen ponds or dogs carving direct routes in gardens, highlight the adaptability of these trails in both human and animal experiences. As desire paths criss-cross through both physical and virtual landscapes, they stand as a proof of the collective insistence on forging unconventional routes and embracing the spirit of communal choice.",
-      "sort_order": 5
+      "sort_order": 5,
+      "passage_type": null
     },
     {
       "id": "954b533e-edbd-5eaa-b0ae-2818e838c4db",
@@ -75,8 +80,9 @@
       "category_id": "ky2",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions: Read the following text and answer the questions by choosing the most suitable subheading from the list A-G for each of the numbered paragraphs (41-45).\n\nThere are two extra subheadings which you do not need to use. Mark your answers on the ANSWER SHEET. (10 points)\n\n[A] Stay positive\n\n[B] Respect the past\n\n[C] Use channels\n\n[D] Give it time\n\n[E] Invite resistance\n\n[F] Be a salesman\n\n[G] Be humble\n\nFive Steps to Suggesting a Change at Work That'll Actually Get Taken Seriously\n\nEveryone wants to be that person—the one who looks at the same information as everyone else, but who sees a fresh, innovative solution. However, it takes more than simply having a good idea. How you share it is as important as the suggestion itself. Why? Because writing a new script—literally or figuratively—means that other team members will have to adapt to something new. So whether you're suggesting a (seemingly) benign change like streamlining outdated protocol, or a bigger change like adding an hour to each workday so people can leave early on Fridays, you're asking others to reimagine their workflow or schedule. Not to mention, if the process you're scrapping is one someone else suggested, there's the possibility of hurt feelings. To gain buy-in on an innovative, new idea, follow these steps:\n\n[41] Great ideas don't stand alone. In other words, you can't mention your suggestion once and expect it to be adopted. To see a change, you'll need to champion your plan and sell its merits. In addition, you need to be willing to stand up to scrutiny and criticism and be prepared to explain your innovation in different ways for various audiences.\n\n[42] Sometimes it makes sense to go to your boss first. But other times, it's useful to build a coalition among your co-workers or other stakeholders. When it works, it works great—because you're ready for your stubborn supervisor's pushback with answers like, \"Actually, I connected with a few people in our tech department to discuss how much time these kinds of website updates would take, and they suggested they have the bandwidth.\"\n\n[43] One of the biggest barriers to gaining buy-in occurs when the owner of an idea is viewed as argumentative, defensive, or close-minded. Because, let's be honest: No one likes a know-it-all. So, if people disagree with you, don't be indignant. Instead, listen to their concerns fully, try to understand their perspective, and include their concerns (and possible remedies) in future discussions. So, instead of saying, \"Martha, our current slogan is confusing and should be updated,\" you could try, \"Martha raises a great point that our current slogan has a long history for our stakeholders, but I wonder if we might be able to brainstorm a tagline that could build on that—and be clearer for new customers.\"\n\n[44] New ideas are the grandchildren of old ones. In other words, don't throw old solutions under the bus to make your improvement stand out. Remember that in light of whatever the problem the old system solved—or, maybe, has failed to solve in recent memory—it was a great idea at the time. Appreciating the older solution demonstrates that you understand the institutional history, and making respect clear will reassure long-tenured employees rather than alienating them from your idea.\n\n[45] When pitching a new idea, it's important to use the language of abundance instead of the language of deficit. Instead of saying what is wrong, broken, or suboptimal, talk about what is right, fixable, or ideal. For example, try, \"I can see lots of applications for this new approach\" rather than, \"This innovation is the only way.\" Be optimistic but realistic, and you will stand out.",
-      "sort_order": 6
+      "content": "Five Steps to Suggesting a Change at Work That'll Actually Get Taken Seriously\n\n[A] Stay positive\n[B] Respect the past\n[C] Use channels\n[D] Give it time\n[E] Invite resistance\n[F] Be a salesman\n[G] Be humble\n\nEveryone wants to be that person—the one who looks at the same information as everyone else, but who sees a fresh, innovative solution. However, it takes more than simply having a good idea. How you share it is as important as the suggestion itself. Why? Because writing a new script—literally or figuratively—means that other team members will have to adapt to something new. So whether you're suggesting a (seemingly) benign change like streamlining outdated protocol, or a bigger change like adding an hour to each workday so people can leave early on Fridays, you're asking others to reimagine their workflow or schedule. Not to mention, if the process you're scrapping is one someone else suggested, there's the possibility of hurt feelings. To gain buy-in on an innovative, new idea, follow these steps:\n\n[41] Great ideas don't stand alone. In other words, you can't mention your suggestion once and expect it to be adopted. To see a change, you'll need to champion your plan and sell its merits. In addition, you need to be willing to stand up to scrutiny and criticism and be prepared to explain your innovation in different ways for various audiences.\n\n[42] Sometimes it makes sense to go to your boss first. But other times, it's useful to build a coalition among your co-workers or other stakeholders. When it works, it works great—because you're ready for your stubborn supervisor's pushback with answers like, \"Actually, I connected with a few people in our tech department to discuss how much time these kinds of website updates would take, and they suggested they have the bandwidth.\"\n\n[43] One of the biggest barriers to gaining buy-in occurs when the owner of an idea is viewed as argumentative, defensive, or close-minded. Because, let's be honest: No one likes a know-it-all. So, if people disagree with you, don't be indignant. Instead, listen to their concerns fully, try to understand their perspective, and include their concerns (and possible remedies) in future discussions. So, instead of saying, \"Martha, our current slogan is confusing and should be updated,\" you could try, \"Martha raises a great point that our current slogan has a long history for our stakeholders, but I wonder if we might be able to brainstorm a tagline that could build on that—and be clearer for new customers.\"\n\n[44] New ideas are the grandchildren of old ones. In other words, don't throw old solutions under the bus to make your improvement stand out. Remember that in light of whatever the problem the old system solved—or, maybe, has failed to solve in recent memory—it was a great idea at the time. Appreciating the older solution demonstrates that you understand the institutional history, and making respect clear will reassure long-tenured employees rather than alienating them from your idea.\n\n[45] When pitching a new idea, it's important to use the language of abundance instead of the language of deficit. Instead of saying what is wrong, broken, or suboptimal, talk about what is right, fixable, or ideal. For example, try, \"I can see lots of applications for this new approach\" rather than, \"This innovation is the only way.\" Be optimistic but realistic, and you will stand out.",
+      "sort_order": 6,
+      "passage_type": null
     }
   ],
   "questions": [
@@ -90,30 +96,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "illusion",
-          "value": "A"
+          "content": "illusion"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "discussion",
-          "value": "B"
+          "content": "discussion"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tradition",
-          "value": "C"
+          "content": "tradition"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "question",
-          "value": "D"
+          "content": "question"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】名词辨析题。心理学家几十年来一直对'这一问题/议题'（question）保持浓厚兴趣，选 D。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 1,
+      "score": 0.5
     },
     {
       "id": "0a953aca-102a-58a0-9fc5-c0d33c5aca0a",
@@ -125,30 +137,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reluctance",
-          "value": "A"
+          "content": "reluctance"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ambition",
-          "value": "B"
+          "content": "ambition"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tendency",
-          "value": "C"
+          "content": "tendency"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enthusiasm",
-          "value": "D"
+          "content": "enthusiasm"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】名词辨析题。人们普遍'不愿/抗拒'（reluctance）寻求帮助导致了许多重大失败，选 A。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 2,
+      "score": 0.5
     },
     {
       "id": "6da38c44-8efc-564d-895c-992ff05ec68a",
@@ -160,30 +178,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "attention",
-          "value": "A"
+          "content": "attention"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "talent",
-          "value": "B"
+          "content": "talent"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "courage",
-          "value": "C"
+          "content": "courage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "patience",
-          "value": "D"
+          "content": "patience"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】名词辨析题。开口求助需要'勇气'（courage），后文解释需要袒露自己的不足，选 C。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 3,
+      "score": 0.5
     },
     {
       "id": "47bc461f-6211-5a1d-ada4-7d357310ac91",
@@ -195,30 +219,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "At any time",
-          "value": "A"
+          "content": "At any time"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In other words",
-          "value": "B"
+          "content": "In other words"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "By all means",
-          "value": "C"
+          "content": "By all means"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "On the contrary",
-          "value": "D"
+          "content": "On the contrary"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】逻辑短语题。后半句'you're broadcasting your own weaknesses'是对前半句'there's something you can't do'的同义转述，选 In other words（换句话说），选 B。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 4,
+      "score": 0.5
     },
     {
       "id": "0a583fa3-fa4d-555e-90e0-41d3bce9686a",
@@ -230,30 +260,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unrealistic",
-          "value": "A"
+          "content": "unrealistic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "deceptive",
-          "value": "B"
+          "content": "deceptive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tiresome",
-          "value": "C"
+          "content": "tiresome"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "uncomfortable",
-          "value": "D"
+          "content": "uncomfortable"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】形容词辨析题。暴露自己的弱点会让当事人感到'令人不安/不适的'（uncomfortable），选 D。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5,
+      "score": 0.5
     },
     {
       "id": "e1bd6b73-fd66-5aa4-8ac9-8baf5ba4f44f",
@@ -265,30 +301,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "doubts",
-          "value": "A"
+          "content": "doubts"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "concerns",
-          "value": "B"
+          "content": "concerns"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "suggestions",
-          "value": "C"
+          "content": "suggestions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "secrets",
-          "value": "D"
+          "content": "secrets"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】名词搭配题。担心失去对所求助事项的掌控，have concerns about 表示'担忧/顾虑'，选 B。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6,
+      "score": 0.5
     },
     {
       "id": "c9bd088d-7d43-5844-807f-7d4b1170101b",
@@ -300,30 +342,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Once",
-          "value": "A"
+          "content": "Once"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Unless",
-          "value": "B"
+          "content": "Unless"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Although",
-          "value": "C"
+          "content": "Although"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Before",
-          "value": "D"
+          "content": "Before"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】连词用法题。'一旦'（Once）有人开始帮忙，他们可能会接管或揽走功劳，选 A。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 7,
+      "score": 0.5
     },
     {
       "id": "43c741c2-21f5-54f4-9e97-e9ef3a719634",
@@ -335,30 +383,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "theory",
-          "value": "A"
+          "content": "theory"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "choice",
-          "value": "B"
+          "content": "choice"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "factor",
-          "value": "C"
+          "content": "factor"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "context",
-          "value": "D"
+          "content": "context"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】名词辨析题。另一个可能让你担忧的'因素'（factor）是害怕成为别人的累赘，选 C。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8,
+      "score": 0.5
     },
     {
       "id": "3172b82d-283f-51a7-ba12-17022daf7dc1",
@@ -370,30 +424,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "overpraising",
-          "value": "A"
+          "content": "overpraising"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "outperforming",
-          "value": "B"
+          "content": "outperforming"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reassessing",
-          "value": "C"
+          "content": "reassessing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "inconveniencing",
-          "value": "D"
+          "content": "inconveniencing"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】动词分词题。担心成为累赘或'给被求助者添麻烦'（inconveniencing），选 D。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 9,
+      "score": 0.5
     },
     {
       "id": "81dc9ac3-8c2e-5f45-901b-4b621e4c4295",
@@ -405,30 +465,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reach out",
-          "value": "A"
+          "content": "reach out"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "settle down",
-          "value": "B"
+          "content": "settle down"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "turn over",
-          "value": "C"
+          "content": "turn over"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "look back",
-          "value": "D"
+          "content": "look back"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】动词短语题。向他人'求助'（reach out for help）为固定地道用法，选 A。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 10,
+      "score": 0.5
     },
     {
       "id": "57811214-c99f-51b5-8c18-9477ecedacd9",
@@ -440,30 +506,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "declining",
-          "value": "A"
+          "content": "declining"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "considering",
-          "value": "B"
+          "content": "considering"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "criticizing",
-          "value": "C"
+          "content": "criticizing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "evaluating",
-          "value": "D"
+          "content": "evaluating"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】动词分词题。担心对方'拒绝'（declining）你的请求，与下文 such refusals 呼应，选 A。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11,
+      "score": 0.5
     },
     {
       "id": "66974787-a9b7-53fe-8d9e-faa48a2dc91c",
@@ -475,30 +547,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unnecessary",
-          "value": "A"
+          "content": "unnecessary"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "negative",
-          "value": "B"
+          "content": "negative"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "strange",
-          "value": "C"
+          "content": "strange"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "impractical",
-          "value": "D"
+          "content": "impractical"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】形容词辨析题。将拒绝视为暗示两人关系存在'负面的/不利的'（negative）问题，选 B。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12,
+      "score": 0.5
     },
     {
       "id": "65bcc494-59f7-554d-842b-bd3a60ee9c20",
@@ -510,30 +588,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "explain",
-          "value": "A"
+          "content": "explain"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "identify",
-          "value": "B"
+          "content": "identify"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "predict",
-          "value": "C"
+          "content": "predict"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "overcome",
-          "value": "D"
+          "content": "overcome"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】动词辨析题。为了'克服'（overcome）这些心理障碍与困难，试着提醒自己每个人都需要帮助，选 D。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 13,
+      "score": 0.5
     },
     {
       "id": "a94b3bb7-c1aa-5bf2-a404-641569224536",
@@ -545,30 +629,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "deny",
-          "value": "A"
+          "content": "deny"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "forget",
-          "value": "B"
+          "content": "forget"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "miss",
-          "value": "C"
+          "content": "miss"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "fear",
-          "value": "D"
+          "content": "fear"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】动词辨析题。尽管你可能会'害怕/担心'（fear）显得无能，但实际并非如此，选 D。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 14,
+      "score": 0.5
     },
     {
       "id": "55983fc0-1d1f-5b03-9a87-808e09eba341",
@@ -580,30 +670,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disguised",
-          "value": "A"
+          "content": "disguised"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "perceived",
-          "value": "B"
+          "content": "perceived"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "followed",
-          "value": "C"
+          "content": "followed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "introduced",
-          "value": "D"
+          "content": "introduced"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】动词被动题。求助者实际上被'看待/认为'（perceived）更加有能力而非无能，选 B。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 15,
+      "score": 0.5
     },
     {
       "id": "6bf6a90c-875b-5773-b6e3-a164f85694cc",
@@ -615,30 +711,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "recall",
-          "value": "A"
+          "content": "recall"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "classify",
-          "value": "B"
+          "content": "classify"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "analyse",
-          "value": "C"
+          "content": "analyse"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "compare",
-          "value": "D"
+          "content": "compare"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】动词辨析题。斯坦福实验要求参与者'回忆'（recall）过去寻求帮助的经历，选 A。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16,
+      "score": 0.5
     },
     {
       "id": "4e6b144e-3f2e-5d5f-8f53-35f88adc76aa",
@@ -650,30 +752,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "brave",
-          "value": "A"
+          "content": "brave"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "disapproving",
-          "value": "B"
+          "content": "disapproving"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "willing",
-          "value": "C"
+          "content": "willing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "hesitant",
-          "value": "D"
+          "content": "hesitant"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析题。求助者普遍低估了他人'乐意/愿意'（willing）提供帮助的程度，选 C。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 17,
+      "score": 0.5
     },
     {
       "id": "b02d96ef-e8db-5982-9cc8-92f2e44cb666",
@@ -685,30 +793,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "relaxing",
-          "value": "A"
+          "content": "relaxing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "surprising",
-          "value": "B"
+          "content": "surprising"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "rewarding",
-          "value": "C"
+          "content": "rewarding"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "demanding",
-          "value": "D"
+          "content": "demanding"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析题。对大多数人而言，有机会帮助他人本身是一件非常有'意义/收获/成就感的'（rewarding）事情，选 C。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 18,
+      "score": 0.5
     },
     {
       "id": "6c664a7f-dede-50e4-8b7c-513028e114df",
@@ -720,30 +834,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Thus",
-          "value": "A"
+          "content": "Thus"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Also",
-          "value": "B"
+          "content": "Also"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Finally",
-          "value": "C"
+          "content": "Finally"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Instead",
-          "value": "D"
+          "content": "Instead"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】副词衔接题。递进建议：'此外/同时'（Also），要慎重选择求助的对象与求助时机，选 B。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 19,
+      "score": 0.5
     },
     {
       "id": "75d934cb-4276-55a0-a094-9a5f2dc70de3",
@@ -755,30 +875,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "polite",
-          "value": "A"
+          "content": "polite"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "proud",
-          "value": "B"
+          "content": "proud"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "busy",
-          "value": "C"
+          "content": "busy"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "lazy",
-          "value": "D"
+          "content": "lazy"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】形容词辨析题。如果对方当下无法帮忙，不要觉得是针对自己，他们可能只是'太忙了'（busy），选 C。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 20,
+      "score": 0.5
     },
     {
       "id": "e8e6dad8-863b-5a89-af0a-22ab6a329d21",
@@ -790,30 +916,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "was regarded as a sign of generosity",
-          "value": "A"
+          "content": "was regarded as a sign of generosity"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "was considered essential for waiters",
-          "value": "B"
+          "content": "was considered essential for waiters"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "was a way of rewarding diligence",
-          "value": "C"
+          "content": "was a way of rewarding diligence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "was optional in most businesses",
-          "value": "D"
+          "content": "was optional in most businesses"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】细节理解题。第一段首句指出：'U.S. customers historically tipped people they assumed were earning most of their income via tips, such as restaurant servers earning less than the minimum wage'，顾客传统上给那些主要依赖小费维持生计且基本工资低于最低标准的餐馆服务员给小费，小费对服务员是至关重要的收入来源，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 21,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 21,
+      "score": 2.0
     },
     {
       "id": "f2dd9d61-9069-522a-baf5-9033e0b98e2f",
@@ -825,30 +957,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are paid much less frequently",
-          "value": "A"
+          "content": "are paid much less frequently"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are less often requested in advance",
-          "value": "B"
+          "content": "are less often requested in advance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "have less to do with service quality",
-          "value": "C"
+          "content": "have less to do with service quality"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "contribute less to workers' income",
-          "value": "D"
+          "content": "contribute less to workers' income"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】对比推断题。第二段指出过去小费几乎都在享受服务后支付以奖励高质量服务，而末段明确总结：'tipping now seems to be more coercive, less generous and often completely disassociated from service quality'，当今的小费普遍与服务质量完全脱钩，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 22,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 22,
+      "score": 2.0
     },
     {
       "id": "aa0bef16-5605-565f-a744-465b27b0e200",
@@ -860,30 +998,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the advancement of technology",
-          "value": "A"
+          "content": "the advancement of technology"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the desire for income increase",
-          "value": "B"
+          "content": "the desire for income increase"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the diversification of business",
-          "value": "C"
+          "content": "the diversification of business"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the emergence of tipflation",
-          "value": "D"
+          "content": "the emergence of tipflation"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】因果细节题。第四段指出：'The prevalence of digital payment devices has made it easier to ask customers for a tip. That helps explain why tip requests are creeping into new kinds of services'，iPad 等数字化支付设备的普及推动了小费请求渗透到各种新领域，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 23,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 23,
+      "score": 2.0
     },
     {
       "id": "3c5d01d8-179c-5417-95a3-2baa9f6c2998",
@@ -895,30 +1039,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "promote consumption",
-          "value": "A"
+          "content": "promote consumption"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "enrich income sources",
-          "value": "B"
+          "content": "enrich income sources"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "maintain reasonable prices",
-          "value": "C"
+          "content": "maintain reasonable prices"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "guarantee income fairness",
-          "value": "D"
+          "content": "guarantee income fairness"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】目的意图题。第六段指出小费多让服务员获益却忽视了后厨厨师与洗碗工，'To ensure that all employees were paid fair wages, some restaurants banned tipping and increased prices'，取消小费制度的初衷是为了确保所有员工都能获得公平合理的报酬，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24,
+      "score": 2.0
     },
     {
       "id": "fd278c89-208f-5748-9272-45359bc0fb92",
@@ -930,30 +1080,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is becoming a burden for customers",
-          "value": "A"
+          "content": "is becoming a burden for customers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "helps encourage quality service",
-          "value": "B"
+          "content": "helps encourage quality service"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is vital to business development",
-          "value": "C"
+          "content": "is vital to business development"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reflects the need to reduce prices",
-          "value": "D"
+          "content": "reflects the need to reduce prices"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】段落推断题。末段指出：'many customers are frustrated because they feel they are being asked for too high of a tip, too often... more coercive, less generous'，消费者频繁被索要过高比例的小费，感到非常沮丧受迫，小费已成为消费者的沉重心理与经济负担，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 25,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 25,
+      "score": 2.0
     },
     {
       "id": "04e960f5-948f-5c25-ba7d-2f80fb6af646",
@@ -965,30 +1121,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is troubled by funding deficiencies",
-          "value": "A"
+          "content": "is troubled by funding deficiencies"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "can hardly satisfy people's needs",
-          "value": "B"
+          "content": "can hardly satisfy people's needs"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "can barely retain its current employees",
-          "value": "C"
+          "content": "can barely retain its current employees"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is rivalled by private medical services",
-          "value": "D"
+          "content": "is rivalled by private medical services"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】细节理解题。第二段指出：'With more than 6.8 million on waitlists, healthcare is becoming increasingly inaccessible... lagging behind many of our peers'，超过680万人排队就医，等待名单过长，医疗服务难以满足民众基本需求，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 26,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 26,
+      "score": 2.0
     },
     {
       "id": "05a5a235-32a5-57e1-9a52-dda6b8175db4",
@@ -1000,30 +1162,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "boost the efficiency of hospitals",
-          "value": "A"
+          "content": "boost the efficiency of hospitals"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lighten the burden on social care",
-          "value": "B"
+          "content": "lighten the burden on social care"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "increase resources for primary care",
-          "value": "C"
+          "content": "increase resources for primary care"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reduce the pressure on communities",
-          "value": "D"
+          "content": "reduce the pressure on communities"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】细节事实题。第三段指出：'Much more needs to be invested in communities and primary care to reduce our reliance on hospitals'，需要大幅增加对基层社区和初级医疗保健（primary care）的资源投入以减少对大医院的过度依赖，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 27,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 27,
+      "score": 2.0
     },
     {
       "id": "2e9e89df-6d1d-5a7c-b345-992644fc1251",
@@ -1035,30 +1203,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reinforce hospital management",
-          "value": "A"
+          "content": "reinforce hospital management"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "readjust healthcare regulations",
-          "value": "B"
+          "content": "readjust healthcare regulations"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "restructure the health system",
-          "value": "C"
+          "content": "restructure the health system"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "resume suspended health reforms",
-          "value": "D"
+          "content": "resume suspended health reforms"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】主旨目标题。第四段指出智库 Reform 启动该项目是呼吁进行'urgent rethink of the hospital-centric model we retain'，并在下文探讨'how power and resources should be distributed in our health system'，旨在对现行医疗体制进行结构性重塑与再构，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28,
+      "score": 2.0
     },
     {
       "id": "c058ac06-d0f9-579f-8b49-2ef0b2da11d0",
@@ -1070,30 +1244,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "introducing relevant taxation policies",
-          "value": "A"
+          "content": "introducing relevant taxation policies"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "paying due attention to social factors",
-          "value": "B"
+          "content": "paying due attention to social factors"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reevaluating major health outcomes",
-          "value": "C"
+          "content": "reevaluating major health outcomes"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enhancing the quality of health care",
-          "value": "D"
+          "content": "enhancing the quality of health care"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】建议细节题。第五段指出医疗保健仅决定约20%的健康成果，'Much more important are the places we live, work and socialise... improving these social determinants of health'，生活、工作等社会决定因素（social determinants）更为重要，必须给予充分关注，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 29,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 29,
+      "score": 2.0
     },
     {
       "id": "e454c0d2-c406-53c4-bf61-847680304d36",
@@ -1105,30 +1285,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "exercise their power more reasonably",
-          "value": "A"
+          "content": "exercise their power more reasonably"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "develop a stronger sense of responsibility",
-          "value": "B"
+          "content": "develop a stronger sense of responsibility"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "play a bigger role in the health system",
-          "value": "C"
+          "content": "play a bigger role in the health system"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "understand people's health needs better",
-          "value": "D"
+          "content": "understand people's health needs better"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】推断题。尾段提出：'What health functions should remain at the centre, and what should be given to local leaders... with a much better understanding of the needs of their populations?'，暗示地方领导更接地气，应向其下放更多医疗与健康管理职能，在医疗体系中发挥更大作用，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 30,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 30,
+      "score": 2.0
     },
     {
       "id": "db7465ad-7eba-5c00-a08d-75554b76a20f",
@@ -1140,30 +1326,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tackle extreme weather",
-          "value": "A"
+          "content": "tackle extreme weather"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ensure construction quality",
-          "value": "B"
+          "content": "ensure construction quality"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "monitor emergency warnings",
-          "value": "C"
+          "content": "monitor emergency warnings"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "address excessive workloads",
-          "value": "D"
+          "content": "address excessive workloads"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】细节理解题。第一段指出那格浦尔的行动计划要求医院设立'冷水降温病房（cold wards）'救治中暑患者，并建议建筑工地在极端酷暑日给工人放假停工，这些措施旨在积极应对极端高温恶劣天气，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 31,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 31,
+      "score": 2.0
     },
     {
       "id": "876d1d26-7368-5134-8c99-752e604fbb30",
@@ -1175,30 +1367,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prove too costly to be implemented",
-          "value": "A"
+          "content": "prove too costly to be implemented"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lack localized alert-issuing criteria",
-          "value": "B"
+          "content": "lack localized alert-issuing criteria"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "give delayed responses to heat waves",
-          "value": "C"
+          "content": "give delayed responses to heat waves"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "keep hospitals under great pressure",
-          "value": "D"
+          "content": "keep hospitals under great pressure"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】事实细节题。第二段指出：'their triggering thresholds often are not customized to the local climate'，现存高温行动计划的预警触发阈值未能因地制宜结合当地气候特征定制，缺乏本土化的预警发布标准，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 32,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 32,
+      "score": 2.0
     },
     {
       "id": "464bf9b3-9bd6-5eda-b781-de5601264385",
@@ -1210,30 +1408,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "include other factors besides temperature",
-          "value": "A"
+          "content": "include other factors besides temperature"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "take subtle weather changes into account",
-          "value": "B"
+          "content": "take subtle weather changes into account"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "prioritize potentially disastrous heat waves",
-          "value": "C"
+          "content": "prioritize potentially disastrous heat waves"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "draw further support from local authorities",
-          "value": "D"
+          "content": "draw further support from local authorities"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】例证细节题。第三段指出孟买惨剧发生当天最高温虽未达法定热浪线，但'the effects of the heat were amplified by humidity—an often neglected factor in heat alert systems—and the lack of shade'，表明高温预警系统除温度外还必须纳入湿度、遮阳等多元环境风险因子，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 33,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 33,
+      "score": 2.0
     },
     {
       "id": "4786a54f-027b-5f2d-be5d-b1f59145e6f5",
@@ -1245,30 +1449,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prevent the harm of high humidity",
-          "value": "A"
+          "content": "prevent the harm of high humidity"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "target areas needing special attention",
-          "value": "B"
+          "content": "target areas needing special attention"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "expand the Nagpur project's coverage",
-          "value": "C"
+          "content": "expand the Nagpur project's coverage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "make relief plans for heat-stricken people",
-          "value": "D"
+          "content": "make relief plans for heat-stricken people"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】观点细节题。第四段与第五段指出：'create a vulnerability map to help focus responses on the populations most at risk... tell officials which neighborhoods to focus on'，脆弱性风险地图能协助政府迅速精准锁定最需要特别关照和援助的高危社区，选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 34,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 34,
+      "score": 2.0
     },
     {
       "id": "0b6fa875-e999-5c45-9255-87c13e76bd6e",
@@ -1280,30 +1490,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "focus more on the heatstroke treatment",
-          "value": "A"
+          "content": "focus more on the heatstroke treatment"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "invite wider public participation",
-          "value": "B"
+          "content": "invite wider public participation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "apply for more government grants",
-          "value": "C"
+          "content": "apply for more government grants"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "serve a broader range of purposes",
-          "value": "D"
+          "content": "serve a broader range of purposes"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】段落推断题。尾段指出：'HAPs shouldn't just include short-term emergency responses... but also recommend medium-to-long-term measures that could make communities cooler... guide efforts to retrofit homes or modify building regulations'，HAPs 不应仅局限于短期应急减员，更应服务于长远改造社区、规划绿化等更广泛的目标，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 35,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 35,
+      "score": 2.0
     },
     {
       "id": "460727d4-5002-5ad2-bfe3-0aa3c012edd5",
@@ -1315,30 +1531,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the curiosity to explore surrounding hills",
-          "value": "A"
+          "content": "the curiosity to explore surrounding hills"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the necessity to preserve green spaces",
-          "value": "B"
+          "content": "the necessity to preserve green spaces"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the tendency to pursue convenience",
-          "value": "C"
+          "content": "the tendency to pursue convenience"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the wish to find comfort in solitude",
-          "value": "D"
+          "content": "the wish to find comfort in solitude"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】细节理解题。第一段指出'desire paths are the unofficial footprints of a community, revealing the unspoken preferences, shared shortcuts... representing the natural capability of people to go from point A to point B most effectively'，欲望路径是人们（乃至动物）为追求最高效便捷地通行而自然踏出的捷径，选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 36,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 36,
+      "score": 2.0
     },
     {
       "id": "42bbfdb8-497a-578b-997b-a442893f2883",
@@ -1350,30 +1572,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "intends to improve its desire paths",
-          "value": "A"
+          "content": "intends to improve its desire paths"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "leads in the research on desire paths",
-          "value": "B"
+          "content": "leads in the research on desire paths"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "guides the creation of its desire paths",
-          "value": "C"
+          "content": "guides the creation of its desire paths"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "takes a positive view of desire paths",
-          "value": "D"
+          "content": "takes a positive view of desire paths"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】推断题。第二段指出：'Ohio State University allowed its students to navigate the Oval... freely, then proceeded to pave the desire paths, creating a web of effective routes'，学校不仅放任学生踏踩草坪，甚至直接将踏出的小径铺设为正式硬化路面，反映出校方对欲望路径的包容与积极顺应态度，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 37,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 37,
+      "score": 2.0
     },
     {
       "id": "fe281eea-4982-5682-9756-aac43a75b294",
@@ -1385,30 +1613,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "conflicting opinions on the use of desire paths",
-          "value": "A"
+          "content": "conflicting opinions on the use of desire paths"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the call to upgrade the designing of public spaces",
-          "value": "B"
+          "content": "the call to upgrade the designing of public spaces"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the demand for proper planning of desire paths",
-          "value": "C"
+          "content": "the demand for proper planning of desire paths"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "growing concerns over the loss of public spaces",
-          "value": "D"
+          "content": "growing concerns over the loss of public spaces"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】细节理解题。第三段指出 Reddit 论坛上晒出的照片中，自然踏出的小径旁立着告示牌勒令行人必须走规划人行道，'underscoring the rebellious nature... This clash highlights an ongoing struggle between the organic, user-driven evolution... and the desire for a visually curated urban environment'，反映出行人在使用欲望路径时与城市管理者意志之间的冲突与分歧，选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 38,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 38,
+      "score": 2.0
     },
     {
       "id": "c4065de4-7282-5b92-8e3c-b7ad64d4b981",
@@ -1420,30 +1654,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the growth of New York City",
-          "value": "A"
+          "content": "the growth of New York City"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the Dutch origin of desire paths",
-          "value": "B"
+          "content": "the Dutch origin of desire paths"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the importance of urban planning",
-          "value": "C"
+          "content": "the importance of urban planning"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the recognition of desire paths",
-          "value": "D"
+          "content": "the recognition of desire paths"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】例证题。第四段以印第安人穿越曼哈顿森林踏出的小径最终演化为纽约最著名的主干道百老汇大街为例，证明非正规的欲望路径最终能够打破网格规划并获得官方与历史的永久承认与采纳，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 39,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 39,
+      "score": 2.0
     },
     {
       "id": "dff32c1d-b50d-5722-bc56-455157190a1b",
@@ -1455,30 +1695,36 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reveal humans' deep respect for nature",
-          "value": "A"
+          "content": "reveal humans' deep respect for nature"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are crucial to humans' mental well-being",
-          "value": "B"
+          "content": "are crucial to humans' mental well-being"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are a human imitation of animal behaviour",
-          "value": "C"
+          "content": "are a human imitation of animal behaviour"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "show a shared trait in humans and animals",
-          "value": "D"
+          "content": "show a shared trait in humans and animals"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点精析】段落推断题。尾段指出：'Animal desire paths, such as ducks forging trails through frozen ponds or dogs carving direct routes in gardens, highlight the adaptability of these trails in both human and animal experiences'，鸭子走冰面、狗穿花园与人类踩出捷径如出一辙，揭示了人与动物在追求通行效率上的共有本能特质，选 D。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40,
+      "score": 2.0
     },
     {
       "id": "01cd911d-bcae-51e0-b129-41885658c725",
@@ -1490,45 +1736,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Stay positive",
-          "value": "A"
+          "content": "Stay positive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Respect the past",
-          "value": "B"
+          "content": "Respect the past"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Use channels",
-          "value": "C"
+          "content": "Use channels"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Give it time",
-          "value": "D"
+          "content": "Give it time"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Invite resistance",
-          "value": "E"
+          "content": "Invite resistance"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be a salesman",
-          "value": "F"
+          "content": "Be a salesman"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Be humble",
-          "value": "G"
+          "content": "Be humble"
         }
       ],
       "correct_answer": "F",
       "explanation": "【考点精析】小标题匹配题。段落[41]指出：'To see a change, you'll need to champion your plan and sell its merits... prepared to explain your innovation in different ways'，强调必须积极推销好创意的长处，对应小标题 [F] Be a salesman（做一个推销员），选 F。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 41,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 41,
+      "score": 2.0
     },
     {
       "id": "f8994764-ed67-5c19-82e0-201db7b83926",
@@ -1540,45 +1795,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Stay positive",
-          "value": "A"
+          "content": "Stay positive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Respect the past",
-          "value": "B"
+          "content": "Respect the past"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Use channels",
-          "value": "C"
+          "content": "Use channels"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Give it time",
-          "value": "D"
+          "content": "Give it time"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Invite resistance",
-          "value": "E"
+          "content": "Invite resistance"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be a salesman",
-          "value": "F"
+          "content": "Be a salesman"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Be humble",
-          "value": "G"
+          "content": "Be humble"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点精析】小标题匹配题。段落[42]指出：'Sometimes it makes sense to go to your boss first. But other times, it's useful to build a coalition among your co-workers... I connected with a few people in our tech department'，强调灵活运用上级沟通与跨部门同盟等沟通渠道，对应小标题 [C] Use channels（利用沟通渠道），选 C。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 42,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 42,
+      "score": 2.0
     },
     {
       "id": "efdf2f1c-ee7a-5c3f-9428-44dd85889847",
@@ -1590,45 +1854,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Stay positive",
-          "value": "A"
+          "content": "Stay positive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Respect the past",
-          "value": "B"
+          "content": "Respect the past"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Use channels",
-          "value": "C"
+          "content": "Use channels"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Give it time",
-          "value": "D"
+          "content": "Give it time"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Invite resistance",
-          "value": "E"
+          "content": "Invite resistance"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be a salesman",
-          "value": "F"
+          "content": "Be a salesman"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Be humble",
-          "value": "G"
+          "content": "Be humble"
         }
       ],
       "correct_answer": "G",
       "explanation": "【考点精析】小标题匹配题。段落[43]指出：'No one likes a know-it-all. So, if people disagree with you, don't be indignant. Instead, listen to their concerns fully, try to understand their perspective'，告诫不可自以为是无所不知，要虚心听取异议，对应小标题 [G] Be humble（保持谦逊），选 G。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 43,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 43,
+      "score": 2.0
     },
     {
       "id": "a14f6641-6815-58ab-b258-17f17771fab7",
@@ -1640,45 +1913,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Stay positive",
-          "value": "A"
+          "content": "Stay positive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Respect the past",
-          "value": "B"
+          "content": "Respect the past"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Use channels",
-          "value": "C"
+          "content": "Use channels"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Give it time",
-          "value": "D"
+          "content": "Give it time"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Invite resistance",
-          "value": "E"
+          "content": "Invite resistance"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be a salesman",
-          "value": "F"
+          "content": "Be a salesman"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Be humble",
-          "value": "G"
+          "content": "Be humble"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点精析】小标题匹配题。段落[44]指出：'New ideas are the grandchildren of old ones... don't throw old solutions under the bus... Appreciating the older solution demonstrates that you understand the institutional history'，强调不要贬低否定过去的旧系统旧方案，要尊重既往经验，对应小标题 [B] Respect the past（尊重过去），选 B。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 44,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 44,
+      "score": 2.0
     },
     {
       "id": "af83eca4-d09c-5a35-acef-7f54dff2d6dc",
@@ -1690,45 +1972,54 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Stay positive",
-          "value": "A"
+          "content": "Stay positive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Respect the past",
-          "value": "B"
+          "content": "Respect the past"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Use channels",
-          "value": "C"
+          "content": "Use channels"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Give it time",
-          "value": "D"
+          "content": "Give it time"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Invite resistance",
-          "value": "E"
+          "content": "Invite resistance"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be a salesman",
-          "value": "F"
+          "content": "Be a salesman"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Be humble",
-          "value": "G"
+          "content": "Be humble"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点精析】小标题匹配题。段落[45]指出：'use the language of abundance instead of the language of deficit. Instead of saying what is wrong, broken... talk about what is right, fixable, or ideal... Be optimistic but realistic'，强调在表达中使用肯定性积极词汇，对应小标题 [A] Stay positive（保持积极乐观），选 A。",
-      "points": 2,
+      "points": 2.0,
       "sort_order": 45,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 45,
+      "score": 2.0
     }
   ],
   "exportedAt": "2026-10-15T11:40:10.028Z"
