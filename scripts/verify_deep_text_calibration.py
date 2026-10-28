@@ -187,6 +187,7 @@ def main():
     round87_anomalies = []
     round88_anomalies = []
     round89_anomalies = []
+    round90_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3199,6 +3200,37 @@ def main():
                 if '....' in t and so <= 40:
                     round89_anomalies.append((f'{yr}_{cat}_q{so}_{k}_has_4_dots', t))
 
+        # Round 90 Verification: Intra-question options punctuation & ellipsis consistency
+        if yr == 2022 and cat == 'ky1':
+            for q in data.get('questions', []):
+                so = q.get('sort_order')
+                if so == 38:
+                    opt_c = next((o for o in q.get('options', []) if o.get('key') == 'C'), {})
+                    if opt_c.get('text') != 'Limiting the powers of business owners.':
+                        round90_anomalies.append(('2022_ky1_q38_opt_c_missing_period', opt_c.get('text')))
+                elif so == 39:
+                    opt_c = next((o for o in q.get('options', []) if o.get('key') == 'C'), {})
+                    if opt_c.get('text') != 'Society sees a rise in overall well-being.':
+                        round90_anomalies.append(('2022_ky1_q39_opt_c_missing_period', opt_c.get('text')))
+
+        if yr == 2018 and cat == 'ky1':
+            for q in data.get('questions', []):
+                if q.get('sort_order') == 22:
+                    opt_b = next((o for o in q.get('options', []) if o.get('key') == 'B'), {})
+                    opt_c = next((o for o in q.get('options', []) if o.get('key') == 'C'), {})
+                    if opt_b.get('text') != "Optimists' opinions on new tech find little support.":
+                        round90_anomalies.append(('2018_ky1_q22_opt_b_missing_period', opt_b.get('text')))
+                    if opt_c.get('text') != 'Issues arising from automation need to be tackled.':
+                        round90_anomalies.append(('2018_ky1_q22_opt_c_missing_period', opt_c.get('text')))
+
+        if yr == 2025 and cat == 'ky1':
+            for q in data.get('questions', []):
+                if 41 <= q.get('sort_order', 0) <= 45:
+                    opt_f = next((o for o in q.get('options', []) if o.get('key') == 'F'), {})
+                    if not opt_f.get('text', '').endswith('...'):
+                        round90_anomalies.append((f'2025_ky1_q{q.get("sort_order")}_opt_f_missing_ellipsis', opt_f.get('text')))
+
+
 
 
         passages = data.get('passages', [])
@@ -5816,6 +5848,7 @@ def main():
     results["Assertion 109: 全库 41 套真题试题选项完整性与分值自洽法医级校对（2021 英语一 Q35 选项 C/D 彻底修复截断与软连字符软伤、完整恢复 Victorian period? 与 post-Victorian norm?；2017 英语一 Part B Q41-Q45 选项 [A]-[G] 黄金注入狄更斯传记段落首句；全库 1,825 道试题 score 与 points 100% 严格一致零缺失；全库 7,830 个选项 0 处伪前缀、0 处不可见异常字符、0 处重复选项）"] = (len(round87_anomalies) == 0)
     results["Assertion 110: 2011 英语二 Text 2 与 2005 英语一 Text 2 黄皮书原汁原味权威重构校准（2011 英语二 Text 2 彻底消除伪造 7 段 441 词异化版本，100% 还原黄皮书 5 段 329 词报业危机真实正文与旧金山纪事报、日本 35% 广告例证，Q26 题干规范省略号，Q29 选项 B 纠正复数 failure of newspapers.；2005 英语一 Text 2 彻底清除后半截合成文本，100% 恢复黄皮书 5 段 438 词全球变暖真题正文与 paralysis by analysis 及立法倡议核心句）"] = (len(round88_anomalies) == 0)
     results["Assertion 111: 全库 7,830 个选项点号噪点彻底归零与试题解析 OCR 异形字符法医级提纯（2018 英语一 Q8 选项 C 彻底治愈 of......... 冗余噪点恢复标准介词 of 并深度净化解析中 in£ormation 乱码；2021 英语一 Q23、Q26、Q28 解析彻底消灭 ef£ect 及・］£ 伪符号恢复 effect 与规范标题；全库 1,825 道试题 Q1-Q40 选项 0 处多点截断残留）"] = (len(round89_anomalies) == 0)
+    results["Assertion 112: 全库选项同题标点句号与省略号对齐一致性法医级校准（2022 英语一 Q38 选项 C 与 Q39 选项 C 彻底补全末尾遗漏句号；2018 英语一 Q22 选项 B 与选项 C 彻底补全末尾遗漏句号；2025 英语一 Part B Q41-Q45 选项 [F] 黄金补全段落首句末尾省略号 ... 完美对齐 [A]-[G] 统一规范）"] = (len(round90_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5832,6 +5865,8 @@ def main():
             print(f"Round 88 anomalies ({len(round88_anomalies)}):", round88_anomalies[:10])
         if round89_anomalies:
             print(f"Round 89 anomalies ({len(round89_anomalies)}):", round89_anomalies[:10])
+        if round90_anomalies:
+            print(f"Round 90 anomalies ({len(round90_anomalies)}):", round90_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
