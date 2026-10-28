@@ -90,30 +90,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "as to",
-          "value": "A"
+          "content": "as to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for instance",
-          "value": "B"
+          "content": "for instance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "in particular",
-          "value": "C"
+          "content": "in particular"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "such as",
-          "value": "D"
+          "content": "such as"
         }
       ],
       "correct_answer": "D",
       "explanation": "[试题考点]逻辑关系+连接词\n[解题思路]空格前prominent cases泛指\"一些著名的案件\"，空格后the trial of Rosemary West则 \n是一个具体的案件事例，两者是例证关系。选项中只有such as表示“例如”且可以接名词做宾语，表达 \n“例如……，像这种的”含义，故正确答案为[D]。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 1
     },
     {
       "id": "97107643-8903-520f-97d5-08cc2751e9fd",
@@ -125,30 +130,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tightening",
-          "value": "A"
+          "content": "tightening"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "intensifying",
-          "value": "B"
+          "content": "intensifying"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "focusing",
-          "value": "C"
+          "content": "focusing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "fastening",
-          "value": "D"
+          "content": "fastening"
         }
       ],
       "correct_answer": "A",
       "explanation": "[试题考点]习惯搭配+动词词义辨析\n[解题思路]空格所在部分意为“在对报界的法律控制的大力……过程中”。根据常识，法律对新闻 \n的控制只能是强化管制或放松管制，而首段提出政府要禁止报界做某事，因此这里只能表“强化”，即收 \n紧原本宽松的东西，只有tightening符合此要求。tighten本指“把（绳）拉紧，拧紧（螺丝等）”，此处与 \nlegal control搭配，表示“对报界加强、加紧法律控制”，因此正确答案为[A]。\n[错项排除]intensify侧重于强调数量、活动、情感的增加或增强，不与control搭配；另外，intensify \n一词含有“使变大”的逻辑含义，区别于tighten含有的“使变小”这一逻辑内涵。focus与control搭配意为 \n“把法律控制集中于……”,后面应用介词on/upon引出对象。从语义上看，“将法律控制集中于报界”也不 \n符合逻辑。fasten表“扣紧，扎牢”时多强调稳固性，而且其后多接具体名词，不适用于抽象名词controL",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 2
     },
     {
       "id": "873751ca-d255-50d8-b659-d34353475c98",
@@ -160,30 +170,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sketch",
-          "value": "A"
+          "content": "sketch"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rough",
-          "value": "B"
+          "content": "rough"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "preliminary",
-          "value": "C"
+          "content": "preliminary"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "draft",
-          "value": "D"
+          "content": "draft"
         }
       ],
       "correct_answer": "D",
       "explanation": "［试题考点］固定搭配\n［解题思路］空格词修饰bill（法案），需从其后定语从句中寻找线索：that will propose making... illegal \n表明法案尚未实施，只是初步意见;并且法案已经提出但还未获立法机关（国会或议会）通过时，只能称作 \n“草案”;再结合首段the government is to...可知，政府禁令与大法官引入的法案都还未发生。draft bill是 \n法律用语中的一个固定搭配，意为“草案，（提交议会讨论的）法案”，符合上下文语义逻辑。故［D］正确。\n［错项排除］其他项对draft构成近义干扰，但不能与“bill（法案）”搭配。sketch与draft类似，也有 \n名词做定语的用法，但不与bill搭配；rough做名词表示“草图”是专业术语，它更常用作形容词； \npreliminary有名词和形容词的用法，如：a preliminary to making a decision做出决定之前的预备活动，a\npreliminary examination 初试。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 3
     },
     {
       "id": "b4d6231d-856d-5725-b9d8-a7f21b5d1d59",
@@ -195,30 +210,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "illogical",
-          "value": "A"
+          "content": "illogical"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illegal",
-          "value": "B"
+          "content": "illegal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "improbable",
-          "value": "C"
+          "content": "improbable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "improper",
-          "value": "D"
+          "content": "improper"
         }
       ],
       "correct_answer": "B",
       "explanation": "［试题考点］上下文语义+形容词词义辨析\n［解题思路］空格所在部分是that引导的定语从句，修饰先行词bill,说明“草案将提议使支付报酬 \n给证人的行为……”。联系上下文，第二段提到大法官将要提出这个法案是“为了加强对报界的控制”， \n因此，该草案只能围绕“反对报界收买证人”而设。选项中，与“法律”相关，同时又表示“反对”含义的，只 \n有illegal,故［B］正确。\n［错项排除］其他项都是由“否定前缀il-/im-+形容词”构成的否定形式，但均不符合文中draft bill \n所提示的法律语义范畴。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 4
     },
     {
       "id": "6a69de94-9e3d-58f3-95c5-da59e06395fa",
@@ -230,30 +250,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "publicity",
-          "value": "A"
+          "content": "publicity"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "penalty",
-          "value": "B"
+          "content": "penalty"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "popularity",
-          "value": "C"
+          "content": "popularity"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "peculiarity",
-          "value": "D"
+          "content": "peculiarity"
         }
       ],
       "correct_answer": "A",
       "explanation": "［试题考点］逻辑语义搭配\n［解题思路］首段提及政府欲禁止媒体买断目击者提供的案件消息，本段说明大法官欲采取具体行 \n动实施该禁令，即引入“规定媒体购买目击者信息违法”的草案，即“反对公开案件信息”，此处符合“严 \n格控制案件公开程度”的只有publicity**（报纸、电视等媒体对某人或某物的）关注，报道”。give publicity \nto sth为常用搭配，指“将某事宣扬、公布于世”。故［A］为正确答案。\n［错项排除］其他项都与publicity词形相近，但三项语义均不符合上下文逻辑。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 5
     },
     {
       "id": "45096adc-7071-5a7f-853a-dc4e2d70b1cd",
@@ -265,30 +290,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "since",
-          "value": "A"
+          "content": "since"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "if",
-          "value": "B"
+          "content": "if"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "before",
-          "value": "C"
+          "content": "before"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "as",
-          "value": "D"
+          "content": "as"
         }
       ],
       "correct_answer": "C",
       "explanation": "［试题考点］上下文语义+逻辑推理\n［解题思路］空格处连词用来连接两个动作：“严格限制案件的公开程度”和“审判开始”，表明两者 \n关系。前者初衷是防止审判时大众陪审的立场受到影响，从而做岀不符合事实的判断，按照逻辑应为 \n“审判开始之前\"限制公开程度，以防止妨碍司法公正，故［C］为正确答案。\n［错项排除］其他项都是可以表示时间的连词，since指“一段时间以来”，as指“当另一件事进行时， \n随着”,if引导时间状语从句则指“当……时”。\nID In a letter to Gerald Kaufman, chairman of the \nHouse of Commons media select committee, Lord Irvine \nsaid he 7 with a committee report this year which said\nthat self regulation did not 8 sufficient control.\n在给下院媒体特别委员会主席格拉德• \n考夫曼的一封信中，欧文勋爵说他赞同该委 \n员会今年的报告。该报告指出了自我监管 \n没有（对媒体）提供足够的监控。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 6
     },
     {
       "id": "8221f9bc-0fe7-5567-b4f8-a922598d742e",
@@ -300,30 +330,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sided",
-          "value": "A"
+          "content": "sided"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "shared",
-          "value": "B"
+          "content": "shared"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "complied",
-          "value": "C"
+          "content": "complied"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "agreed",
-          "value": "D"
+          "content": "agreed"
         }
       ],
       "correct_answer": "D",
       "explanation": "［试题考点］习惯搭配+动词短语语义辨析\n［解题思路］空格所在句主语为he,即Lord Irvine,宾语是report（由媒体特别委员会主席提出）,因 \n此该题实际考查“大法官观点与媒体特别委员会观点之间的关系”：该报告指出“只有自律是不够的”， \n与大法官的态度一致，所以大法官“赞同这份报告”，只有agreed with符合该语义逻辑，故［D］正确。\n［错项排除］其他项都可与介词with搭配，side with构成agree with的近义干扰。由于宾语是 \nreport,可先排除选项shared和complied„ side with后一般接人，side with sb意为\"与某人站在一处，支 \n持某人”。share （sth） with也一般接“人”，意为“与某人分享某物，告诉某人某消息”等。\n& \n［A］ present提交，提出 \n［B］ offer主动提出，提供，给予\n［C］ manifest表明，清楚显示（尤指情感、态度或品质）［D］ indicate显示，暗示\n［试题考点］动词词义辨析\n［解题思路］空格所在的定语从句修饰a committee report,指出\"该报告认为自我监管没有... 足\n够的监控”。而大法官对此表示赞同。did not offer sufficient control意为“没提供足够的监控”，符合上 \n下文语义。故［B］正确。\n［错项排除］manifest和indicate的含义为“显示，呈现，指示”，与“足够的监控”搭配，显然不符合文 \n意。present—般指\"（正式地）呈递\"，不与control搭配。\n9. \n［A］ Release发布，发行 \n［B］ Publication发表，刊登，公之于众；出版（物）\n［C］ Printing印刷，打印；印刷术 \n［D］ Exposure暴露，揭露\n［试题考点］名词词义辨析\n［解题思路］空格所在句指出，“这封信的……在大法官引起媒体抗议两天后发生了”，四个选项整 \n体导向相同，暗示该处信息应该为：信件被大众所知晓。首先应排除printing,该词指“（用机器大批量） \n印刷”，此处明显不是表达“信件两日后被大批量印刷出来”之意。publication —词具有“公布、公开”这 \n一含义，符合上下文语境，因此正确项为［B］。\n［错项排除］release多用于“（声明、报告的）发布\"、“（影片或者书籍）发行”；exposure多指“暴露或 \n揭露一些不好的事情，如违法或犯罪行为”。文中曝光的内容为“大法官对特别委员会主席的去信”，并 \n非负面内容。\n10. ［A］ （a） storm （of）群情迸发的浪潮，一阵风波 \n［B］ （a） rage暴怒，狂怒\n［C］ （a） flare （of）— 阵（怒气） \n［D］ （a） flash （of）突然闪现（的东西）\n［试题考点］固定搭配+名词词义辨析\n［解题思路］文中政府和法官先后表态要限制媒体，自然会引发媒体抗议，并且此处的媒体不只是 \n一家报社，而是众多的媒体，报纸、电视台、网络等，此处强调抗议的来势凶猛和范围广泛。［D］重在突 \n出“瞬时性”这一信息，而文中重在强调媒体抗议之“猛烈”，而非“瞬时性”，首先排除。a storm of喻指 \n“一阵猛烈的情感爆发或一阵风波”，修饰media protest,形象描绘了广大媒体的抗议如暴风浪潮一般汹 \n涌，波及范围巨大，故［A］正确。\n［错项排除］rage指“愤怒''，但该词不能用于a ... of的搭配；［C］选项利用flare —词含有的“（感 \n情、情绪等的）突然爆发”之意设置干扰，但a flare of常与表示“愤怒”的词搭配，与media protest搭配， \n无法体现“某群体爆发大范围的抗议浪潮”的含义。\n11. ［A］ translation翻译；译文，译本，译作；转化 ［B］ interpretation理解，解释；演绎，演奏方式\n［C］ exhibition展览；（技能、感情等的）显示 \n［D］ demonstration感情、观点等的）表露，表达\n［试题考点］上下文语义十名词词义辨析\n［解题思路］语言文字有多义性，而拥有解释权则意味着拥有对法条规定的权威判定权，此处文中法 \n官试图控制媒体对案件的曝光度，但却引起媒体针对“隐私控制”的抗议，因此推测法官应保留“对隐私控 \n制的解释权”,从而有利于司法公众，因此空格处应为“（对法律条文的）解释（权）”,故正确答案为［B］。\n［错项排除］translation和interpretation是近义词，表示\"翻译\"，但表示\"解释、阐释（语言以外的东 \n5\n公众号：旗胜考研",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 7
     },
     {
       "id": "589d2209-dd42-5157-a410-15a3e06ff71c",
@@ -335,30 +370,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "present",
-          "value": "A"
+          "content": "present"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "offer",
-          "value": "B"
+          "content": "offer"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "manifest",
-          "value": "C"
+          "content": "manifest"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "indicate",
-          "value": "D"
+          "content": "indicate"
         }
       ],
       "correct_answer": "B",
       "explanation": "［A］ present提交，提出\n［B］ offer主动提出，提供，给予\n［C］ manifest表明，清楚显示（尤指情感、态度或品质）\n［D］ indicate显示，暗示\n［试题考点］动词词义辨析\n［解题思路］空格所在的定语从句修饰a committee report,指出\"该报告认为自我监管没有... 足够的监控”。而大法官对此表示赞同。did not offer sufficient control意为“没提供足够的监控”，符合上下文语义。故［B］正确。\n［错项排除］manifest和indicate的含义为“显示，呈现，指示”，与“足够的监控”搭配，显然不符合文意。present—般指\"（正式地）呈递\"，不与control搭配。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 8
     },
     {
       "id": "ad9db682-f43f-5bc2-8659-25225b2c7ba0",
@@ -370,30 +410,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Release",
-          "value": "A"
+          "content": "Release"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Publication",
-          "value": "B"
+          "content": "Publication"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Printing",
-          "value": "C"
+          "content": "Printing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Exposure",
-          "value": "D"
+          "content": "Exposure"
         }
       ],
       "correct_answer": "B",
       "explanation": "［试题考点］名词词义辨析\n［解题思路］空格所在句指出，“这封信的……在大法官引起媒体抗议两天后发生了”，四个选项整 \n体导向相同，暗示该处信息应该为：信件被大众所知晓。首先应排除printing,该词指“（用机器大批量） \n印刷”，此处明显不是表达“信件两日后被大批量印刷出来”之意。publication —词具有“公布、公开”这 \n一含义，符合上下文语境，因此正确项为［B］。\n［错项排除］release多用于“（声明、报告的）发布\"、“（影片或者书籍）发行”；exposure多指“暴露或 \n揭露一些不好的事情，如违法或犯罪行为”。文中曝光的内容为“大法官对特别委员会主席的去信”，并 \n非负面内容。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 9
     },
     {
       "id": "d53b977b-f830-5e00-a1cf-1aa9a431210d",
@@ -405,30 +450,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "storm",
-          "value": "A"
+          "content": "storm"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rage",
-          "value": "B"
+          "content": "rage"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "flare",
-          "value": "C"
+          "content": "flare"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "flash",
-          "value": "D"
+          "content": "flash"
         }
       ],
       "correct_answer": "A",
       "explanation": "［试题考点］固定搭配+名词词义辨析\n［解题思路］文中政府和法官先后表态要限制媒体，自然会引发媒体抗议，并且此处的媒体不只是 \n一家报社，而是众多的媒体，报纸、电视台、网络等，此处强调抗议的来势凶猛和范围广泛。［D］重在突 \n出“瞬时性”这一信息，而文中重在强调媒体抗议之“猛烈”，而非“瞬时性”，首先排除。a storm of喻指 \n“一阵猛烈的情感爆发或一阵风波”，修饰media protest,形象描绘了广大媒体的抗议如暴风浪潮一般汹 \n涌，波及范围巨大，故［A］正确。\n［错项排除］rage指“愤怒''，但该词不能用于a ... of的搭配；［C］选项利用flare —词含有的“（感 \n情、情绪等的）突然爆发”之意设置干扰，但a flare of常与表示“愤怒”的词搭配，与media protest搭配， \n无法体现“某群体爆发大范围的抗议浪潮”的含义。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 10
     },
     {
       "id": "7d4ec246-4c4f-53c1-a283-13346e3f285f",
@@ -440,30 +490,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "translation",
-          "value": "A"
+          "content": "translation"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interpretation",
-          "value": "B"
+          "content": "interpretation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "exhibition",
-          "value": "C"
+          "content": "exhibition"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "demonstration",
-          "value": "D"
+          "content": "demonstration"
         }
       ],
       "correct_answer": "B",
       "explanation": "［试题考点］上下文语义十名词词义辨析\n［解题思路］语言文字有多义性，而拥有解释权则意味着拥有对法条规定的权威判定权，此处文中法 \n官试图控制媒体对案件的曝光度，但却引起媒体针对“隐私控制”的抗议，因此推测法官应保留“对隐私控 \n制的解释权”,从而有利于司法公众，因此空格处应为“（对法律条文的）解释（权）”,故正确答案为［B］。\n［错项排除］translation和interpretation是近义词，表示\"翻译\"，但表示\"解释、阐释（语言以外的东 \n5\n公众号：旗胜考研",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 11
     },
     {
       "id": "cdc70776-2da8-5d25-b8fc-3712d5b12980",
@@ -475,30 +530,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "better than",
-          "value": "A"
+          "content": "better than"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "other than",
-          "value": "B"
+          "content": "other than"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "rather than",
-          "value": "C"
+          "content": "rather than"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sooner than",
-          "value": "D"
+          "content": "sooner than"
         }
       ],
       "correct_answer": "C",
       "explanation": "[试题考点]逻辑关系+并列连词\n[解题思路]空格处的连接词应表示（left） to judges与（left）to Parliament之间的逻辑关系，它们描 \n述的对象都是interpretation of private controls,显然两者在意义上是不能共存的，只能选其一，因此空 \n格处只能为表达取舍关系的词。[C]选项正确。\n[错项排除]空格处词只能表达选择关系，所以可最先排除better than和sooner than,前者是程度 \n比较，后者是速度比较。other than表示“从总体中排除”，非选择关系。\n.V The Lord Chancellor said introduction of the \nHuman Rights Bill, which 13 the European Convention \non Human Rights legally 14 in Britain, laid down1' that \neverybody was 15 to privacy and that public figures® could \ngo to court to protect themselves and their families.\nVI ** Press freedoms will be in safe hands 16 our \nBritish judges,\" he said.\n大法官说《人权法案》的引入使《欧洲 \n人权公约》在英国具有了法律约束力。它 \n规定每个人都享有隐私权，公众人物可以 \n走上法庭去保护自己和家人。\n“新闻自由交由英国的法官掌握将安 \n然无恙”，他说道。\n「•词兀注释与难句分析• I /\n®lay down 1.中断（工作）；辞（职）；放弃*2.规定，制 》②figure C'figa] n,（提到的某类）人物；人士\n定（条例或原则） \nI\nThe Lord Chancellor said introduction of the Human Rights Bill, which makes the European Convention \non Human Rights legally binding in Britain 9 laid down that everybody was entitled to privacy and that public \nfigures could go to court to protect themselves and their families.\n结构切分：\n句子主干:\n宾语从句t\neverybody was entitled to privacy\nThe Lord Chancellor said\n主语 \n谓语 \n宾语\n宾语从句1\nintroduction of the Human Rights Bill, laid down that... and that...\n主语\n谓语\n定语从句\n宾语\nwhich makes the European Convention on Human Rights \n关系代词谓语\nlegally binding in Britain\n宾补\n宾语从句2\n地点状语\npublic figures could go to court to protect themselves and their families\n主语 \n谓语 \n目的状语\n功能注释：本句主干简短，重心同样在后面的宾语从句上。宾语从句中含有which引导的非限定性 \n定语从句做后置定语修饰其主语，宾语部分又是and连接的两个that引导的宾语从句：that everybody \nwas. . . and that public figures could.・・。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 12
     },
     {
       "id": "9f771725-dd02-5743-acc0-73bf98298819",
@@ -510,30 +570,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "changes",
-          "value": "A"
+          "content": "changes"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "makes",
-          "value": "B"
+          "content": "makes"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sets",
-          "value": "C"
+          "content": "sets"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "turns",
-          "value": "D"
+          "content": "turns"
         }
       ],
       "correct_answer": "B",
       "explanation": "［试题考点］动词用法\n［解题思路］空格位于which引导的非限制性定语从句中，说明the Human Rights Bill,从句的谓语 \n结构应是：动词+宾语（the European Convention on Human Rights） +宾语补足语（形容词），\"（make）使 \n《欧洲人权公约》具有了法律约束力”，符合上下文语义和语法逻辑，故正确答案为［B］。\n［错项排除］从语法上来看，change无使动用法，不能接形容词作宾补。set可接宾语补足语，意思是 \n“使……成为（某种状态）”,宾补一般是现在分词、不定式或介词短语，当宾补为形容词时，只能用于一些 \n固定的搭配中，如：set sb straight/right纠正某人的做法/想法。turn常用于表示颜色或天气的变化等。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13
     },
     {
       "id": "c94d2d16-fd63-5ec4-be0c-b6cd668dd2ee",
@@ -545,30 +610,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "binding",
-          "value": "A"
+          "content": "binding"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "convincing",
-          "value": "B"
+          "content": "convincing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "restraining",
-          "value": "C"
+          "content": "restraining"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sustaining",
-          "value": "D"
+          "content": "sustaining"
         }
       ],
       "correct_answer": "A",
       "explanation": "［试题考点］上下文语义+形容词词义辨析\n［解题思路］空格所在部分表明，《人权法案》使得《欧洲人权公约》在英国具有了法律上的……（或 \n在法律上……）。副词legally暗示其所修饰的形容词应含有“有管束效力的，约束力的”之意，bind作动 \n词意为“束缚、迫使”，binding意为“具有约束力的”。故正确答案为［A］。\n［错项排除］convincing意为“有说服力的”，上下文并未提及对《人权法案》和《公约》的质疑，不存在 \n“有无说服力”之说。restraining意为“有遏制效果的”；该词源于动词restrain,意为“（用身体的力量）制 \n止（某行为）、克制（情绪）、限制（某物过大，过高）”，不适用于文中所涉的法律语境。sustaining为sustain \n的现在分词形式，虽然可以表示“持续的，持久的”之意，但表达此意时，过去分词形式sustained更为 \n常见。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 14
     },
     {
       "id": "75ffe1be-dde1-5783-b2eb-f708c4f2e9e7",
@@ -580,30 +650,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "authorized",
-          "value": "A"
+          "content": "authorized"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "credited",
-          "value": "B"
+          "content": "credited"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "entitled",
-          "value": "C"
+          "content": "entitled"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "qualified",
-          "value": "D"
+          "content": "qualified"
         }
       ],
       "correct_answer": "C",
       "explanation": "［试题考点］动词搭配\n［解题思路］第五段后半句指出，苦于隐私被侵犯而无计可施的公众人物可以凭着此法案，用法律 \n武器捍卫自己的隐私权，根据文意应为“每个人都享有隐私权”，即空格所在部分的搭配是“be +过去分 \n词+ to sth”,介词宾语是“隐私权”，符合文意的只有固定搭配be entitled to sth,故正确答案为［C］。\n［错项排除］其他项对entitle构成近义干扰。［A］和［D］不能接介词to,只能接动词不定式to do, \n即 be authorized to do sth 和 be qualified to do sth,因此不符合题意。be credited to sth 虽然在语法上可 \n行，但在文中表达的意思是“把每个人归于隐私”，显然逻辑不通。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15
     },
     {
       "id": "262ce644-8df8-5967-8c32-ea88a236de9d",
@@ -615,30 +690,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "with",
-          "value": "A"
+          "content": "with"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "to",
-          "value": "B"
+          "content": "to"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "from",
-          "value": "C"
+          "content": "from"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "by",
-          "value": "D"
+          "content": "by"
         }
       ],
       "correct_answer": "A",
       "explanation": "［试题考点］介词的用法\n［解题思路］第六段指出：新闻自由交由法官掌握将安然无恙，即法官在解释法案时不会侵害到新 \n闻自由。with 本指 to introduce a current situation that is a factor affecting another situation \"在... 情况\n下”，此处与be in safe hands（意为“在可靠的人手中，安然无恙”）连用，使其含有了\"由……掌握、负责” \n之意。故［A］为正确选项。\n［错项排除］其他项都是常用介词，但均不能与in safe hands搭配。by —词表“被动”，干扰较强，但 \n其必须与动词相搭配。因此排除该项。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16
     },
     {
       "id": "d1a70cc3-02b9-506b-9c09-d74fab8228b8",
@@ -650,30 +730,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "impact",
-          "value": "A"
+          "content": "impact"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "incident",
-          "value": "B"
+          "content": "incident"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "inference",
-          "value": "C"
+          "content": "inference"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "issue",
-          "value": "D"
+          "content": "issue"
         }
       ],
       "correct_answer": "D",
       "explanation": "[试题考点]上下文语义+名词词义辨析\n[解题思路]Rosemary West案是“政府和法官一直提出禁止报界向证人提供报酬”的契机。并且 \n在上文中不仅提到政府和法官的观点，还出现媒体界的反对之声media protest,同时大法官作出“不会 \n伤及新闻自由”的承诺也从侧面说明该问题是有争议的。issue有“（尤指政治或经济方面的）影响到诸 \n多人群利益的、存争议的议题或问题”之意，故正确答案为LDL\n[错项排除]impact指\"对（其他人或事）的巨大影响作用\"，常用于~ of sth on sb/stho incident常 \n为“不寻常的、令人不快的事情，或指暴力事件、国与国间的冲突，摩擦”，此案不存在冲突一说。 \ninference指“推断”，偏离上下文探讨的中心。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 17
     },
     {
       "id": "4b3a2fdb-c8e0-59dd-8817-b4c06fd3c830",
@@ -685,30 +770,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "stated",
-          "value": "A"
+          "content": "stated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "remarked",
-          "value": "B"
+          "content": "remarked"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "said",
-          "value": "C"
+          "content": "said"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "told",
-          "value": "D"
+          "content": "told"
         }
       ],
       "correct_answer": "C",
       "explanation": "[试题考点]动词用法辨析\n[解题思路]媒体有向证人付钱的行为是可以肯定的，但并没有确实统计出人数，文中也并未交待， \n所以此处应为猜测口吻。be said to have done sth意为“据说做过某事”,[C]符合文意。\n[错项排除]tell可用于tell sb to do sth的结构，但意为“命令，指示，吩咐某人做某事”，因此其不定 \n式结构不能使用完成式，即“让某人做过某事”不合逻辑。state指“声明”。remark指“评论”。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 18
     },
     {
       "id": "0a84b140-1572-5c26-9a5b-0b2ca0e99565",
@@ -720,30 +810,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "what",
-          "value": "A"
+          "content": "what"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "when",
-          "value": "B"
+          "content": "when"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "which",
-          "value": "C"
+          "content": "which"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "that",
-          "value": "D"
+          "content": "that"
         }
       ],
       "correct_answer": "D",
       "explanation": "[试题考点]同位语从句中的关系代词\n[解题思路]③句空格前指出人们开始担忧；空格后内容指出，证人很可能会被怂恿夸大事实以确 \n保有罪判决。而该内容不缺任何成分，因此判断其为concerns（担忧）的同位语，具体说明担忧的内容。 \n选项中能引导同位语从句的只有that,故正确答案为[D]。\n[错项排除]其他项都是常用的关系词,需要对它们各自的用法加以辨析。when多引导时间或条件 \n状语从句。what引导名词性从句。which引导定语从句,what和which在从句中均需充当一定的成分。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 19
     },
     {
       "id": "510ae79d-ff43-5d1e-8337-b7e3f07c6e54",
@@ -755,30 +850,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assure",
-          "value": "A"
+          "content": "assure"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "confide",
-          "value": "B"
+          "content": "confide"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ensure",
-          "value": "C"
+          "content": "ensure"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "guarantee",
-          "value": "D"
+          "content": "guarantee"
         }
       ],
       "correct_answer": "C",
       "explanation": "[试题考点]动词词义辨析及用法\n[解题思路]空格所在句为被动态，潜在施动者为媒体。结合常识，媒体买断目击者提供的信息后， \n为使其新闻保持有效性和真实性，势必会希望被告获得有罪判决，因而此处应传达“怂恿目击者夸大事 \n实以确保有罪判决”之意。因此首先应排除与上下文语义无关的[BL to ensure guilty verdicts指“使有 \n罪判决这一结果得以保证”，故正确答案为[C]。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 20
     },
     {
       "id": "512e767c-e2ef-5345-8bec-bbdb4941c5bb",
@@ -790,30 +890,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sociology and chemistry",
-          "value": "A"
+          "content": "sociology and chemistry"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "physics and psychology",
-          "value": "B"
+          "content": "physics and psychology"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sociology and psychology",
-          "value": "C"
+          "content": "sociology and psychology"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "physics and chemistry",
-          "value": "D"
+          "content": "physics and chemistry"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第二段③④句指出，19世纪专业化的发展，以及随之而来的对训练的长期性和复杂性 \n的要求，对业余人员参与科学研究造成了更大的困难。且这一趋势在以数学或实验室训练为基础的自 \n然科学领域内表现得最为突出。根据常识，物理学、化学与地质学都是以数学和实验室培训为基础的 \n科学，而社会学和心理学则不是，因此只有［D］正确。\n［命题解密］第二段③④句描绘了专业化和职业化趋势明显的区域所具备的特征。备选项则都是 \n常见学科，考生需结合常识判断它们是否具备文中所说的特征，四个选项之中只有［D］符合文中描述。\n［技巧总结］本题属于最为典型的推理引申题，考生需：①基于对原文信息的准确理解和全面把握， \n提炼概括“这类学科的共性”:需要更长时间的、更复杂的培训I;属于以数学或实验室训练为基础的自然 \n科学；②基于自己掌握的常识，体味选项所列学科各自具备的特征。",
       "points": 2,
       "sort_order": 21,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 21
     },
     {
       "id": "ef6ea5e9-eab9-5c39-bdf9-ddce385c1774",
@@ -825,30 +930,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "there is little distinction between specialisation and professionalisation",
-          "value": "A"
+          "content": "there is little distinction between specialisation and professionalisation"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "amateurs can compete with professionals in some areas of science",
-          "value": "B"
+          "content": "amateurs can compete with professionals in some areas of science"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "professionals tend to welcome amateurs into the scientific community",
-          "value": "C"
+          "content": "professionals tend to welcome amateurs into the scientific community"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "amateurs have national academic societies but no local ones",
-          "value": "D"
+          "content": "amateurs have national academic societies but no local ones"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第二段①句指出，科学领域内，专业人员与业余人员之间没有绝对的区分，言外之意： \n业余人员有时可以与专业人员相匹敌。③④句指出，专业化的发展给业余人员进入专业队伍带来了困 \n难，这种趋势在某些科学领域尤为突出，言外之意：另外一些领域中业余人员很可能可以与专业人员竞 \n争。故［B］正确。\n［命题解密］［B］是第二段①句及④句的言外之意。\n［A］ there is little distinction 为第二段①句信息，但却将其所指对象 professionals and amateurs 偷换 \n成specialisation and professionalisation。［C］与第二段③句\"19世纪的专业化造成专业人员与业余人员 \n的分化”以及第三段所述“专业人员与业余人员的不相容”相反。［D］与第三段⑥句“业余地质学家既有全 \n国性的又有地方性的学术团体”不符。\n［技巧总结］推理引申题的一个解题思路是：提取文中“言外之意”（如，不完全否定之中暗留肯定信 \n息）。如本题，文章作者关注点在于“科学界业余者和专业者有一定差异、且二者分化在某些领域尤其 \n明显”，本题正确项［B］则为其暗示信息“科学界业余者和专业者总体没有明显差异，二者的分化在另一 \n些领域并不明显”。［A］、［C］、［D］虽均对原文进行了一定的归纳概括，但违背了文章信息，故排除。\n［精准定位］第一段①句指出专业化“可视为对科学知识不断积累这个问题的应对之策”，②句进一 \n步说明其具体功能：通过将信息细分,使人们得以处理信息、深入研究。因此［C］正确。\n24. The direct reason for specialisation is \n.\n24.造成专业化的直接原因是 \n。\n[A] the development in communication\n［A］交流的发展\n[B] the growth of professionalization\n［B］职业化的发展\n[C] the expansion of scientific knowledge\n［C］科学知识的扩展\n[D] the splitting up of academic societies\n［D］学术团体的分化\n［命题解密］题干+正确项［C］构成了对第一段①句暗含因果关系的明确化。The direct reason明 \n确 as a response to 暗含的直接因果对应关系；the expansion of scientific knowledge 同义改写 an \nincreasing accumulation of scientific knowledge o\n［A］、［B］、［D］分别用文中信息第一段③句 the process of communication、第二段③句 greater \nproblems for amateur participation in science、以及第三段⑥句 professional geologists coming together \n...societies, whereas the amateurs. . . societies or...设置干扰，但均将专业化的\"结果\"当做了原因。\n［解题技巧］本题考查因果细节，答题时要求考生不仅要识别暗含的多组因果关系、而且重点要分 \n清究竟谁“因”谁“果”;颠倒因果是典型的干扰项设置方式。\n具体来看本题，解题的关键在于识别各句间的“因”与“果”：第一段③句affect暗示“因",
       "points": 2,
       "sort_order": 22,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 22
     },
     {
       "id": "260bf2bd-8303-538c-9ef3-0ef8f1698e43",
@@ -860,30 +970,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the process of specialisation and professionalisation",
-          "value": "A"
+          "content": "the process of specialisation and professionalisation"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the hardship of amateurs in scientific study",
-          "value": "B"
+          "content": "the hardship of amateurs in scientific study"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the change of policies in scientific publications",
-          "value": "C"
+          "content": "the change of policies in scientific publications"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the discrimination of professionals against amateurs",
-          "value": "D"
+          "content": "the discrimination of professionals against amateurs"
         }
       ],
       "correct_answer": "A",
       "explanation": "［命题解密］题干+正确项［A］构成对第二段③④句例证关系的恰当概括，题干概述“事例”，［A］ \nthe process of specialisation and professionalisation 则高度概括③句（观点句）。\n［B］利用③句信息片段 implied greater problems for amateur participation in science 形成干扰，［C］ \n利用第三段首句 a changing definition of what constitutes an acceptable research paper 形成干扰，但两者 \n都是职业化和专业化发展过程中的具体表现，不能概括整个例子的内容和作用；［D］对原文信息make \nentrance to professional geological journals harder for amateurs 过度引申，这里只是说明\"业余者难以在 \n专业期刊上发表文章”，文中无法看出“情感变化”、“歧视”无从谈起。\n［技巧总结］对于以议论为主的考研文章，事例本身并非关注点，作者意在以其引出或证明更深层 \n的观点或现象。解答时须做到“整体把握”，具体策略为“于上下文（大多是上文）寻找事例所证明的整 \n体观点/现象，并关注事例本身、把握事例全景”。常见干扰项设置方式是：截取“事例具体细节（如本题 \n［C］［D］项）”或“观点句片段信息（如本题［B］项）”当做事例整体写作目的。\nIV O Although the process of professionalisation and \nspecialisation was already well under way® in British geology \nduring the nineteenth century, its full consequences were thus \ndelayed® until the twentieth century. ❷ In science generally, \nhowever, the nineteenth century must be reckoned® as the crucial® \nperiod for this change in the structure of science. [426 words]\n虽然职 业化和专业化过程在 \n19世纪的英国地质学界已得到良 \n好发展，但是它的彬响却延迟到20 \n世纪才充分显示出来。不过，就科 \n学总体来说，19世纪必须被视为科 \n学结构发生这一变化的关键时期。\n［•词汇注释与难句分析\n©under way已经开始，在进行中 \n§ ②delay Edi'lei］ v.推迟，使延迟",
       "points": 2,
       "sort_order": 23,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 23
     },
     {
       "id": "6d2c1694-6cff-520e-b01b-c9521c6f4548",
@@ -895,30 +1010,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the development in communication",
-          "value": "A"
+          "content": "the development in communication"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the growth of professionalization",
-          "value": "B"
+          "content": "the growth of professionalization"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the expansion of scientific knowledge",
-          "value": "C"
+          "content": "the expansion of scientific knowledge"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the splitting up of academic societies",
-          "value": "D"
+          "content": "the splitting up of academic societies"
         }
       ],
       "correct_answer": "C",
       "explanation": "［命题解密］题干+正确项［C］构成了对第一段①句暗含因果关系的明确化。The direct reason明 \n确 as a response to 暗含的直接因果对应关系；the expansion of scientific knowledge 同义改写 an \nincreasing accumulation of scientific knowledge o\n［A］、［B］、［D］分别用文中信息第一段③句 the process of communication、第二段③句 greater \nproblems for amateur participation in science、以及第三段⑥句 professional geologists coming together \n...societies, whereas the amateurs. . . societies or...设置干扰，但均将专业化的\"结果\"当做了原因。\n［解题技巧］本题考查因果细节，答题时要求考生不仅要识别暗含的多组因果关系、而且重点要分 \n清究竟谁“因”谁“果”;颠倒因果是典型的干扰项设置方式。\n具体来看本题，解题的关键在于识别各句间的“因”与“果”：第一段③句affect暗示“因",
       "points": 2,
       "sort_order": 24,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 24
     },
     {
       "id": "45b14c14-b26b-55d1-8c7a-dbc727edee29",
@@ -930,30 +1050,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "getting worse because of the Internet",
-          "value": "A"
+          "content": "getting worse because of the Internet"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the rich countries are responsible for",
-          "value": "B"
+          "content": "the rich countries are responsible for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the world must guard against",
-          "value": "C"
+          "content": "the world must guard against"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "considered positive today",
-          "value": "D"
+          "content": "considered positive today"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第一段③句提到，2°年前“我”就曾谈到这种迫在眉睫的危险dooming danger）,这里的 \nlooming danger指前文提到的digital divide,BP世界上信息资源丰富地区和信息资源贫乏地区之间的鸿 \n沟。既然是世界范围的危险，当然要警惕，因此［C］正确。\n[A] getting worse because of the Internet\n［A］因互联网而恶化的\n[B] the rich countries are responsible for\n［B］应由富裕国家负责的\n[C] the world must guard against\n［C］全世界应该警惕的\n[D] considered positive today\n［D］如今被认为积极的\n［命题解密］正确项［C］是第一段③句的引申,guard against对应句中this looming dangero\n［A］将网络由“对抗数字鸿沟的积极力量”改为“加大数字鸿沟的消极因素”；［B］利用第一段①句 \nthe rich捏造干扰,但文中用其指“信息丰富”，而非“富裕国家”，且文中没有提及数字鸿沟该由谁负责;［D］ \n将第一段④句“现在出现了对抗数字鸿沟（这一危险的）的积极因素”改为“数字鸿沟具有积极作用”。\n［技巧总结］“改变不同主体之间关联”以及“部分原文信息-部分捏造信息”是事实综合题中常见 \n干扰方式。\n如本题：错误项以文中词汇the internets the rich、positive加大干扰；正确项［C］虽单纯从字面来看 \n似在文中无所依，但其含义完全顺应作者观点，是对作者观点的合理引申。\nII ❶ There are technological0 reasons to hope the digital \ndivide will narrow・ ©As the Internet becomes more and more \ncommercialized®, it is in the interest of® business to \nuniversalize④ access—after all* the more people online, the \nmore potential customers® there are. ❸ More and more \ngovernments 9 afraid their countries will be left behind⑥，want \nto spread Internet access®. ©Within the next decade or two, \none to two billion people on the planet will be netted together®. \n❺As a result, I now believe the digital divide will narrow \nrather than widen in the years ahead. ©And that is very good \nnews because the Internet may well be the most powerful tool \nfor combating® world poverty that we've ever had.\n技术的发展让我们有理由期望数 \n字鸿沟会缩小。随着互联网的日趋商 \n业化，普及上网对商家是有利的 —\n \n毕竟，网络在线人数越多，潜在的客户 \n就越多。越来越多的政府惟恐自己的 \n国家落伍，纷纷想要推广互联网接入。 \n未来一二十年之内，全球将有一二十 \n亿人被网络连接在一起。因此，现在 \n我相信，在未来数年中数字鸿沟将会 \n缩小而不是扩大。这是非常好的消 \n息，因为互联网完全可以成为我们战 \n胜世界贫困最强有力的工具。\n•词汇注释与难句分析• g\n① technological [itekna'lDd3ikal] a.技术的\n② commercialize Ek3'm3：falaiz] v.使... 商业化\n③ in the interest（s） of sth 符合... 的利益\n④ universalize [,juiu,v3S31aiz] v.普及\n⑤ potential customer 潜在客户 \n®be left behind 落伍\n⑦ access ['eekses]仏接入\n⑧ be netted together加入互联网\n》⑨combat [’kDmbaet] v,战胜\nJ ⑩attach importance to（26 题）重视\n[ ⑪、vipe out（26 题）消除\nj •经典搭配\nJ ①after all毕竟\n》 ② in the years ahead 未来\nJ ③may well很可能\n词汇朗读\nAs the Internet becomes more and more commercialized, it is in the interest of business to universalize \naccess—after all, the more people online, the more potential customers there are.",
       "points": 2,
       "sort_order": 25,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 25
     },
     {
       "id": "e6d96040-8ba5-55a2-b3c6-64db5326fb85",
@@ -965,30 +1090,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "offers economic potentials",
-          "value": "A"
+          "content": "offers economic potentials"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "can bring foreign funds",
-          "value": "B"
+          "content": "can bring foreign funds"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "can soon wipe out world poverty",
-          "value": "C"
+          "content": "can soon wipe out world poverty"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "connects people all over the world",
-          "value": "D"
+          "content": "connects people all over the world"
         }
       ],
       "correct_answer": "A",
       "explanation": "［命题解密］第二段②③句之间暗含因果关系，题干是③句“果”的改写，正确项［A］是②句“因”的概括。\n［BLED］均颠倒因果；［B］将第四段⑩句谈到的“利用外资发展互联网”改为“互联网带来海外投 \n资”;［D］将第二段③④句“政府的重视使得互联网很快会把世界人们联系在一起”改为“政府重视互联 \n网是因为其将世界人民连接在一起”。［C］夸大其词，将第二段⑥句“互联网很可能是消除世界贫困的 \n最有力工具”改为“互联网能很快消除世界贫困”，从而将作者强调“潜在可能”改为“立马实现”。\n［技巧总结］隐蔽的、尤其是涉及一定推理的因果关系是阅读理解的常考点。\n如本题，根据题干可定位至第二段③句，但该句给岀的原因“害怕落伍”与选项没有直接对应关系。 \n这时需联系上下文，发现该句的“落伍”实际是顺承上句“互联网商业化带来的经济潜力”而来，两句间 \n暗藏因果关系，因此［A］正确。则采用了此类题型常见的干扰项设置方式—\n把“结果”当“原 \n因\"。\nID OOf course, the use of the Internet isn't the only \nway to defeat® poverty. ❷ And the Internet is not the \nonly tool we have. ❸ But it has enormous0 potential③.\n当然，使用互联网并非战胜贫困的惟 \n一方法。互联网也并非我们拥有的唯一工 \n具。但它蕴含巨大潜能。\n•词汇注释与难句分析・必\n① defeat [di'fU] ©.战胜\n② enormous Ei'noimas] a.庞大的，巨大的\n§ \n③potential [pitenjl] n.潜力，可能性",
       "points": 2,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26
     },
     {
       "id": "dd3a0317-f008-5cc0-a92e-584634b29786",
@@ -1000,30 +1130,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "providing financial support overseas",
-          "value": "A"
+          "content": "providing financial support overseas"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "preventing foreign capital's control",
-          "value": "B"
+          "content": "preventing foreign capital's control"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "building industrial infrastructure",
-          "value": "C"
+          "content": "building industrial infrastructure"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "accepting foreign investment",
-          "value": "D"
+          "content": "accepting foreign investment"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］根据题干中the United States定位到文章第四段。本段先提出建议：贫困国家应该抛 \n弃外国投资是对本国主权入侵的陈腐观点。随后介绍了美国在第二次基础设施建设浪潮中利用外资 \n的情况。最后直接指出，哪个国家利用外资多，哪个国家就会更富裕。可见，作者举例的目的在于证明 \n“接受外资”的正确性，［D］正确。\n［命题解密］正确项［D］是第四段首句(观点句)中get over their outdated anti-colonial prejudices \nwith respect to foreign investment 的概括和改写。\n［A］将第四段中\"获得外资\"改为\"向海外提供资金援助\"。［B］对②句foreign investment is an \ninvasion of their sovereignty断章取义，它是作者建议人们摒弃的错误看法。［C］用举例中的内容做干 \n扰，但这并非作者举例的目的。\n［技巧总结］本题考查学生对例证目的的推测，且例子出现于一个长段落的中间部分。解答这类题 \n目时一定不要拘泥于例子本身，而是要结合例子前后语境，从上下文中去找答案，这不仅要整体把握例 \n子，也要宏观把握段落。\n如本题，首先由分析可知段落谈论重点为“利用外资进行(第三次)基础设施建设”。随后借助衔接 \n词可大致划分段落层次为：①句提出论点一②一⑨句以美国早期事例进行例证⑩一⑬句回归今日 \n情形进一步直接论证。结合两者可将主要关注点落于①句和⑩⑪句、并进一步体味到：尽管作者也反复 \n提到“基础设施”的问题，但重点还在“外资”上，而且本文的中心目标也是在寻找破解“因信息差距而导 \n致经济差距”的方法，所以，答题时要尽量向“经济”、“投资”靠拢，最终确定［D］项正确。\n［精准定位］第四段⑪句提到：如今你拥有帮助你进行第三次基础设施建设浪潮(指电子基础设施) \n的外资越多，你(经济)状况就会越好。可见，电子工业发展的程度对于一个国家经济的发展非常重要, \n所以［A］正确。",
       "points": 2,
       "sort_order": 27,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 27
     },
     {
       "id": "16a10a80-abe0-527a-91f4-e2cf93569f2c",
@@ -1035,30 +1170,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "how well-developed it is electronically",
-          "value": "A"
+          "content": "how well-developed it is electronically"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "whether it is prejudiced against immigrants",
-          "value": "B"
+          "content": "whether it is prejudiced against immigrants"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "whether it adopts America's industrial pattern",
-          "value": "C"
+          "content": "whether it adopts America's industrial pattern"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "how much control it has over foreign corporations",
-          "value": "D"
+          "content": "how much control it has over foreign corporations"
         }
       ],
       "correct_answer": "A",
       "explanation": "［命题解密］正确项［A］是第四段⑪句的言外之意。该句主句部分强调了吸引外资对国家经济的 \n重要性，但插入语的定语从句部分明确指出吸引外资的目的-一用于建设电子基础设施，从而间接说 \n明了电子工业对国家经济的重要作用。\n［B］将第四段①句prejudice和⑦句immigrants糅杂到一起形成干扰，但文中并未提到\"对移民的歧 \n视”。［C］将第四段提到的“借鉴美国工业基础设施建设的经验证明利用外资进行基础设施建设的正确 \n性”改为“利用美国的产业模式作为经济成功的范例”。［D］利用第四段⑫句形成干扰，但“对外资企业 \n的控制”并非是“经济取得成功”的关键，而只是“利用外资进行基础设施建设过程中''应该关注的问题。\n［技巧总结］解答推理引申题时，要从小处着手，立足某个句子或某几个句子深入挖掘言外之意或 \n暗含逻辑。\n如解本题时，需要立足于第四段⑪句，发现“利用外资(foreign capital)M\"进行第三次基础设施建设 \n(build the Third Wave infrastructure)\"**国家(经济)状况改善(better off)\"三者之间的\"手段一目的_结 \n果”关系，以及“电子基础设施(electronic infrastructure)建设”和“第三次基础设施(Third Wave \ninfrastructure)建设”的同指关系，甚至于the more. . . the better off所暗示的“进行电子基础设施建设” \n和“经济发展”的同步上升关系。",
       "points": 2,
       "sort_order": 28,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 28
     },
     {
       "id": "13a09259-931b-5c70-b2ee-82f1ddf9fc86",
@@ -1070,30 +1210,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "needs of the readers all over the world",
-          "value": "A"
+          "content": "needs of the readers all over the world"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "causes of the public disappointment about newspapers",
-          "value": "B"
+          "content": "causes of the public disappointment about newspapers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "origins of the declining newspaper industry",
-          "value": "C"
+          "content": "origins of the declining newspaper industry"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "aims of a journalism credibility project",
-          "value": "D"
+          "content": "aims of a journalism credibility project"
         }
       ],
       "correct_answer": "B",
       "explanation": "［命题解密］正确项［B］为主旨句（首句）的同义表达：disappointment about对应文中distrust, \ncauses对应文中Why。\n［A］源于第二段末句，是调查所反映出来的问题之一，属细节,不能概括全文内容；［C］源于末段首句 \n提及的“报业是一个日趋衰败的行业”，但未就其原因进行探究；［D］源于第一段的内容“新闻可信度调 \n查”，不是全文讨论的对象。\n［技巧总结］本题采取“文章题目型”考查文章主旨。此类题型重在掌握：挖出主题段（通常为首 \n段）；如无主题段，则将各段的主题句（通常为首句）加以归纳和总结，得出文章中心。其次，要注意：如果 \n首段出现疑问句，且该问题是全文探讨的内容，那么对该问题的解答就是文章主旨。\n本题还可以通过排除法加以排除。首先［A］,从全文来看，仅探讨的是某一个国家读者对所在国报 \n业的不信任问题，没有提及世界各国读者的问题，第二段末句中的in the world为“究竟，到底”的含义而 \n非“世界上”之意，所以可以直接排除；其次［D］,可信度调查仅仅是报业寻找读者对报业不信任所采取的 \n一个调查手段而已，并非全文覆盖内容，所以排除；然后［C］,文章第七段首句提到报业衰败的问题仅仅是 \n任何行业中的一个特殊例子而已，句首this指代“商品提供者和客户的世界观之间的冲撞，文中即为'读 \n者想要的，跟报业提供的格格不入'”，而这是造成任何一个行业困境的关键所在。综上，［B］选项为合理 \n选择项。\n知识补充 \n外教朗读\n］一.文童側分析\n本文是一篇关于“企业并购浪潮”的文章，首先，作者就目前席卷全球的企业并购现象指出人们担 \n忧：这一浪潮是否会演变成一种无法控制的反竞争力量？接着作者分析人们有此担忧的原因。随后转 \n而给予企业并购以正面评价，回应人们担忧指出目前企业并购尚未形成反竞争力量。最后作者再次转 \n折，提出应密切关注这一现象、避免其不利影响。",
       "points": 2,
       "sort_order": 29,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 29
     },
     {
       "id": "ac6a64fb-4e6a-5ef4-acc7-e02e8f5263d0",
@@ -1105,30 +1250,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "quite trustworthy",
-          "value": "A"
+          "content": "quite trustworthy"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "somewhat contradictory",
-          "value": "B"
+          "content": "somewhat contradictory"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "very illuminating",
-          "value": "C"
+          "content": "very illuminating"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rather superficial",
-          "value": "D"
+          "content": "rather superficial"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第二段指出“遗憾的是，调查结果多半只是一些表面的发现以及许多令人挠头的困 \n惑”;第三段首句转折指出“报业不信任危机有其更深刻的根源”。由此可见，这项调查结果令人失望，并 \n未触及根本原因。［D］正确。\n［命题解密］正确项［D］是对第二段及第三段首句的正确概括;rather superficial高度概括了文中 \nsad to say, mostly low-level findings, lots of head-scratching puzzlement, go way deeper 所传达出的\"调 \n查结果发现较多低层次原因，深层次原因还有待进一步调查”之意。\n［A］利用第一段中distrust.credibility设置干扰，但选项将调查内容等同于调査结果；［B］将第二段 \n“调查结果大多数是……，还夹杂着令人挠头的困惑”扭曲理解为一种“矛盾”；［C］则利用考生可能对第 \n二段mostly low-level findings about. . . mistakes的错解(这些表面性错误有助于报业改正自己，非常具 \n有启发性)设置干扰。\n［技巧总结］第二段独句成段，高度概括了新闻可信度调査的结果，并于字里行间透露出了作者对 \n该调查结果的情感态度。解答此类题目的关键是根据作者使用词语的感情色彩去判断作者观点态度， \n如:successful(ly) , positive(ly) , active(ly) , unfortunate(ly) , doubtfuK ly) , sad(ly)等。除了形容词和 \n副词外，从情态动词、虚拟语气、衔接词(but, however等)也可觉察出作者的态度和立场。\n如本题，借助段中 sad to say, mostly low-level findings, lots of head-scratching puzzlement, go way \ndeeper等词不难推测出作者所要表达的文意为：调查结果不令人满意，比较肤浅。而［A］、［C］均表示明 \n显的褒义色彩，与作者情感基调完全不符；［B］无中生有。\nID OBut the sources of distrust go way® deeper. \n© Most journalists learn to see the world through a \nset of standard templates® (patterns) into which they \nplug 9 each day's events. ❸In other words, there is a \nconventional3' story line in the newsroom J culture that \nprovides a backbone\"' and a ready-made narrative® \nstructure for otherwise confusing news.\n但这种对报刊的不信任有更深刻的根源。 \n多数新闻记者学会了用一套标准模式去看待 \n世界，并把每天发生的事件套入这一模式。换 \n言之，在新闻采编室文化中存在着一种惯用的 \n故事套路，为原本纷繁复杂的新闻内容提供了 \n一个主干框架和一个现成的叙事结构。\n•词汇注释与难句分析\n①way ［wei］ ad.大大地，远远地\n②template ['templit] n.样板，标准",
       "points": 2,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30
     },
     {
       "id": "1d0ddf16-428d-577b-abe3-dd0c713b3fd0",
@@ -1140,30 +1290,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "working attitude",
-          "value": "A"
+          "content": "working attitude"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "conventional lifestyle",
-          "value": "B"
+          "content": "conventional lifestyle"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "world outlook",
-          "value": "C"
+          "content": "world outlook"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "educational background",
-          "value": "D"
+          "content": "educational background"
         }
       ],
       "correct_answer": "C",
       "explanation": "［命题解密］正确项［C］是对第六段末句中 the daily clash of world views between reporters and \ntheir readers的正确理解.world outlook是对其中world views的同义替换。\n［A］利用第二段中 factual errors and spelling and grammar mistakes 以及第六段②句中 inaccuracy \nor poor reportorial skills设置干扰，却忽略了作者借助于第六段②句明确表不\"读者不信任新闻媒体与 \n新闻报道失实或技巧拙劣无关而与新闻记者与读者之间世界观冲突有关”;误将记者和读者之 \n间的差异表现当做新闻记者存在的根本问题。\n［技巧总结］作者花大篇幅于第三至六段探讨报业不信任危机的根源，并指出根源在于新闻记者与 \n读者之间存在的世界观冲突，言外之意为，新闻记者的世界观不同于读者才导致了危机。命题人于此设 \n置题点，形似“广撒网”,实则“精打槽”，重在考查学生是否能够挖掘出报业不信任危机中新闻记者应该担 \n负起的根本责任。解答此类题目关键在:利用选项关键词回到文中找对应词，在对应词周围找答案。\n如本题，正确项［C］world outlook对应第六段②句world views,通过该句可明显得知本选项就是正 \n确项;EA］working attitude 看似对应第二段 factual errors and spelling and grammar mistakes 及第六段 \n②句inaccuracy or poor reportorial skills所隐晦传达出的记者的工作态度（即第七段②句中attitudes）, \n而事实却一叶障目，并未看到第六段②句中...isn't rooted in A but in B取舍结构所蕴藏的问题本质所 \n在为B而非A；［B］lifestyle,［D］educational background看似对应第五段以及第六段①句中所述新闻记 \n者不同于普通美国大众（读者）的生活方式差异以及教育背景差异，实质却忽略这两个差异旨在说明的 \n终极目标“记者与读者之间的世界观差异”。\nVI OThis is an explosive11' situation for any industry, \nparticularly a declining one. ❷ Here is a troubled \nbusiness that keeps hiring employees whose attitudes \nvastly® annoy® the customers. ©Then it sponsors® lots of \nsymposiums© and a credibility project dedicated to \nwondering why customers are annoyed and fleeing® in \nlarge numbers. ❹ But it never seems to get around to® \nnoticing the cultural and class biases® that so many \nformer buyers are complaining about. ❺ If it did, it \nwould open up its diversity program, now focused \nnarrowly® on race and gender, and look for reporters who \ndiffer broadly by outlook® , values, education, and class. \n[388 words]\n这对任何一个行 业来说，都是一种一 \n触即发的形势，尤其是对一个日趋衰败的 \n行业来说更是如此。这是一个深陷困境的 \n行业，却一直雇用那些态度极大惹恼客户 \n的员工。然后它又主办了许多研讨会和一 \n个可信度调查项目，致力于探究客户为什 \n么恼怒，为什么大量流失。但它似乎从来 \n就抽不出时间来注意那么多昔日买主都在 \n抱怨文化与社会等级偏见。如果它注意到 \n了的话，就会开设多样化栏目（目前关注只 \n限于种族与性别），雇用那些世界观、价值 \n观、教育水平和社会阶层完全不同的记者。",
       "points": 2,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31
     },
     {
       "id": "3d8afb86-2904-5d32-8d16-c24c5d20f31c",
@@ -1175,30 +1330,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "failure to realize its real problem",
-          "value": "A"
+          "content": "failure to realize its real problem"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "tendency to hire annoying reporters",
-          "value": "B"
+          "content": "tendency to hire annoying reporters"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "likeliness to do inaccurate reporting",
-          "value": "C"
+          "content": "likeliness to do inaccurate reporting"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "prejudice in matters of race and gender",
-          "value": "D"
+          "content": "prejudice in matters of race and gender"
         }
       ],
       "correct_answer": "A",
       "explanation": "[命题解密]正确项[A]为第七段④句的同义表达，realize对应get around to noticing, its real problem \n应并概括 the cultural and class biases・・• complaining abouto\n错将末段②句中的表面现象当作根本问题；[D]误将末段末句中focused narrowly on race and \ngender\" S前报纸栏目只关注'种族，和'性别\"曲解为“报业存有种族和性别方面的偏见”。\n[技巧总结]本题借因果细节题形式侧面考查报业做出种种努力却仍无法解决问题的原因（owing \nto）,以正面考查学生对报业自身问题的整体把握，而文章并未出现有关因果细节的信息提示词，也即此 \n类题型一般很难根据题干关键词准确定位，需要将各备选项一一回文定位，并加以比较和判断。\n如本题，根据题干关键词efforts* satisfy the readers 一时无法准确推知此题具体考査哪个段落内 \n容，则另辟蹊径，根据备选项关键词 realize its real problem, hire annoying reporters» do inaccurate",
       "points": 2,
       "sort_order": 32,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 32
     },
     {
       "id": "09e446df-3993-552d-8992-00a2e08d7bb8",
@@ -1210,30 +1370,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "to take in more foreign funds",
-          "value": "A"
+          "content": "to take in more foreign funds"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "to invest more abroad",
-          "value": "B"
+          "content": "to invest more abroad"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "to combine and become bigger",
-          "value": "C"
+          "content": "to combine and become bigger"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "to trade with more countries",
-          "value": "D"
+          "content": "to trade with more countries"
         }
       ],
       "correct_answer": "C",
       "explanation": "［命题解密］［Ckombine总结第一段“世界范围内的企业并购”趋势-become bigger概括了第二段“并 \n购浪潮的直接结果是大企业迅速变大变强”的内容。\n［A］、［B］两项均利用第二段④句中foreign investment设置干扰，［A］将“欢迎外资的国家”曲解为 \n“企业发展的典型趋势”;［B］将“跨国企业在欢迎外资的国家迅速壮大”曲解为“增加海外投资是企业的 \n典型发展趋势”。［D］利用第二段②句个别词汇international trade捏造事实。\n［技巧总结］题干归纳性很强的题目通常以原文某段或某几段为依据，考查段落主要内容或核心信 \n息。一般可以通过归纳段落主旨，概括总结或再加以适当推理得出答案。\n如本题，考生可先总结段落大意：首段描述现象“当前企业并购浪潮席卷全球”，第二段指出其结果 \n“大企业变得更大更强”，第三段分析企业并购浪潮的推动力，与题干关系不紧密。概括首两段得出：当 \n前企业的发展趋势是“通过并购而做大做强”。［C］符合题意。其余项利用段中个别词汇设置干扰。\nIH Ol believe that the most important forces behind \nthe massive® M&A wave are the same that underlie2 the \nglobalization process： falling transportation and \ncommunication costs, lower trade and investment \nbarriersA; and enlarged1\" markets that require enlarged \noperations® capable of meeting customers, demands. ❷ \nAll these are beneficial, not detrimental® ,to consumers. \n©As productivity grows, the world's wealth increases・\n我认为，推动这股巨大并购浪潮的最 \n主要力量，也是推动全球化进程的力量：运 \n输与通讯成本的降低，贸易与投资壁垒的 \n减少.以及要求扩大经营规模以满足顾客 \n需求的扩大的市场。所有这些对消费者来 \n说都是有益而不是有害的。随着生产力的 \n提高，全世界的财富也在增长。\n;•词汇注释与难句分析\n©massive ［\"meesiv］ a.巨大的 \n》⑤enlarged ［in'la:d3d］ a.扩大了 的\n② underlie ［lAnda'la订 u.构成... 的真正起因；构成 J ©operation ［iDpa'reilan］ n.经营，业务\n（某人行动、理论等）的基础 \ni ⑦detrimental ® ［idetri'mentH a.不利的，有害的\n③ communication ［kamju：ni'keiJon］ rz.通讯 \nJ ⑧surplus ［,s3：pl9s］（34 题）a.过剩的\n④ barrier ［'baeria］ n.障碍，屏障 \n《",
       "points": 2,
       "sort_order": 33,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 33
     },
     {
       "id": "f7fe5edd-8e01-578b-8ca0-31da1a49b77f",
@@ -1245,30 +1410,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the greater customer demands",
-          "value": "A"
+          "content": "the greater customer demands"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "a surplus supply for the market",
-          "value": "B"
+          "content": "a surplus supply for the market"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "a growing productivity",
-          "value": "C"
+          "content": "a growing productivity"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the increase of the world's wealth",
-          "value": "D"
+          "content": "the increase of the world's wealth"
         }
       ],
       "correct_answer": "A",
       "explanation": "［命题解密］第三段首句以三个名词短语的形式列举了企业并购浪潮的三个驱动因素，正确项［A］ \n的信息隐含于第三个名词短语中：其中心名词为enlarged markets,that引导的从句暗含的关系为：目前 \n消费需求增长-企业扩大生产规模亠企业间并购。［A］为最根本的推动因素。\n［B］是对首句中enlarged markets that...的反向曲解，捏造surplus supply,理论上\"供给过剩\"应该 \n是企业缩小生产的原因。［C］和［D］利用③句中productivity/the world's wealth设置干扰，但这两项均 \n是企业并购带来的结果而非原因。\n［技巧总结］第三段重点分析并购浪潮的推动力，其中涉及多种因素。命题人就此设题旨在考查学 \n生对多个因素的把握。解题关键在：勾勒出段中所述因素，随后对比选项，找出与文意一致的因素。\n如本题，直接在第三段首句中即能找出并购浪潮的几大推动因素，随后一一对比选项会发现，［A］、 \n［B］均是根据第三个因素设置的选项，通过对that定语从句、形容词短语capable of作后置定语的句式",
       "points": 2,
       "sort_order": 34,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 34
     },
     {
       "id": "fd60461c-a323-5089-b2d2-3a6e9d46acf6",
@@ -1280,30 +1450,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the increasing concentration is certain to hurt consumers",
-          "value": "A"
+          "content": "the increasing concentration is certain to hurt consumers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "WorldCom serves as a good example of corporate merger",
-          "value": "B"
+          "content": "WorldCom serves as a good example of corporate merger"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the government should intervene to halt oil mega-mergers",
-          "value": "C"
+          "content": "the government should intervene to halt oil mega-mergers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the standard oil trust was forced to disband 100 years ago",
-          "value": "D"
+          "content": "the standard oil trust was forced to disband 100 years ago"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第四段②句指出，很难想象如今几家石油公司的兼并会再次对竞争构成近100年前美 \n国人担心的那种威胁，那时标准石油托拉斯被迫解体，言外之意是100年前标准石油托拉斯对竞争构成 \n威胁，致使人们恐慌，最终被迫解体。［D］符合文意。\n[B] WorldCom serves as a good example of both \nbenefits and costs\n［B］世界通信公司是关于合并利弊兼有 \n的一个很好的例子\n[C] the costs of the globalization process are enormous\n［C］全球化过程成本巨大\n[D] the Standard Oil trust might have threatened \ncompetition\nED］标准石油托拉斯可能对竞争形成过 \n威胁\n［命题解密］正确项［D］是②句的隐含信息。该句将100年前的情形完整展现：石油公司并购威胁 \n竞争，损害消费者利益，人们因为恐慌和不满而强烈反对该合并，标准石油公司因而被迫解体。\n［A］与末句“消费者利益未受损”相悖。［B］主观臆断，首句提到“证明目前兼并浪潮是利或弊的例 \n子还不多见”，随后列举世界通信公司的例子也只是说明并购并没有带来坏处，并不能说明并购利弊兼 \n有。［C］将第三段提到的the globalization process和第四段首句costs杂糅设置无关干扰。\n［技巧总结］第四段列举多个事例说明此次并购浪潮并未威胁竞争。命题人针对此段设题意在考 \n查根据多处事实细节进行合理推理引申的能力。对于此类试题，考生应：一、了解段落大意，对段落进 \n行简单层次划分，掌握各句之间的逻辑关系；二、重点关注段中事例或话语的内容及其引用目的。\n如解答本题时，首先大致了解第四段大意及其句间逻辑关系：首两句明确指出此次并购浪潮是利 \n是弊尚不明朗，但不会威胁竞争；后三句列举电信行业和汽车行业的并购例证首两句。然后关注本段 \n例证:本段列举三个事例，其中标准石油托拉斯是过去企业兼并造成垄断的实例，用以对比说明现在情 \n况不同以往，后两个例子是当前企业并购不会威胁竞争的实例。最后带着这些背景知识浏览选项，发 \n现［A］中 is certain to hurt consumers 反向曲解文义，［B］中 a good example of both benefits and costs 与 \n文义不符，［C］中 the globalizatio n 在第四段并未提及，［D］中 might have threatened competition 是引用 \n标准石油托拉斯事例的隐含内容，正确。\nV ❶ Yet the fact remains that the merger movement\nmust be watched.\nwarned against'1\nindustry.❸ Who\noperate as lender11\nthat are being created?❹ Won t multinationals shift\n❷ A few weeks ago, Alan Greenspan \nthe megamergers® in the banking \nis going to supervise® , regulate and \nof last resort'\" with the gigantic banks\nproduction from one place to another when a nation gets \ntoo strict about infringements'* to fair competition?❺ And \nshould one country take upon itself the role of® udefending\ncompetition\" on issues that affect many other nations, as \nin the U. S. vs. Microsoft case? [417 words]\n不过真实的情况是，我们必须留心这 \n场兼并运动。几星期以前，艾伦•格林斯 \n潘曾对银行业的大型兼并发出了警告。谁 \n来充当最后贷款人，监督、规范和运营正在 \n出现餉特大银行？当一个国家对违反公平 \n竞争的行为控制过于严格时，跨国公司难 \n道不会将其生产地从一个地方转移到另一 \n个地方？在那些会给许多其他国家造成影 \n响的问题上，如美国政府诉讼微软公司的 \n案件那样，一个国家是否应该擅自担起“保 \n护竞争\"的职责？\n•词汇注释与难句分析・g\n① warn sb against sth警告某人不要\n② megamerger㉚［meg。1 m3：d3。］ n.大型合并\n③ supervise ［’su：povaiz］ p.监督\n④ lender ［\"lend。］ n.出借人，贷方\n⑤ resort En'zol］ n.求助、求援；求助的人或事物\n§ ⑥infringement矽[frind3m9nt] n.违反，侵害\nJ⑦take sth on/upon oneself擅自作主'越权承担\nI •经典搭配\n《 ©lender of last resort 最后贷款人\n§ ②defend competition 保护竞争",
       "points": 2,
       "sort_order": 35,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 35
     },
     {
       "id": "13414f11-dba5-5f59-95ec-861f08f15e53",
@@ -1315,30 +1490,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "optimistic",
-          "value": "A"
+          "content": "optimistic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "objective",
-          "value": "B"
+          "content": "objective"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "pessimistic",
-          "value": "C"
+          "content": "pessimistic"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "biased",
-          "value": "D"
+          "content": "biased"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］末三段作者就企业并购浪潮发表评论：此次并购浪潮的推动因素是积极正面的，这一 \n次的浪潮并未威胁竞争、损害消费者权益，末段转而提请人们留意此次浪潮以免带来不良影响。可见, \n作者从正反两方面对并购浪潮进行分析，就事论事，所以作者的态度应该是客观的，［B］正确。\n［命题解密］［B］是对作者对此次企业并购浪潮的态度的正确把握。\n［A］根据第三段②③句“这些因素对消费者有益而无害，有助于世界财富的增长”和第四段⑤句“日 \n益加强的并购似乎并未危害消费者”片面得出作者乐观态度；［C］根据首两段worrying/ created serious \nconcern over及第五段must be watched/ warned against片面得出作者悲观态度。［D］无中生有。\n［技巧总结］判断作者对全文论述现象的态度，除了关注文中词汇的褒贬色彩.还可以从两方面入",
       "points": 2,
       "sort_order": 36,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 36
     },
     {
       "id": "17d36c0a-b814-5ed2-b0d7-97b15385c01a",
@@ -1350,30 +1530,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Full-time employment is a new international trend.",
-          "value": "A"
+          "content": "Full-time employment is a new international trend."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The writer was compelled by circumstances to leave her job.",
-          "value": "B"
+          "content": "The writer was compelled by circumstances to leave her job."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "\"A lateral move\" means stepping out of full-time employment.",
-          "value": "C"
+          "content": "\"A lateral move\" means stepping out of full-time employment."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The writer was only too eager to spend more time with her family.",
-          "value": "D"
+          "content": "The writer was only too eager to spend more time with her family."
         }
       ],
       "correct_answer": "B",
       "explanation": "［命题解密］本题考查综合细节，正确项［B］是对第一段②句前半句的概括。compelled by对应 \nprompt,表示因果关系；circumstance 和 leave her job 分别对应文中的 a lateral move 和 abandon my.,. o\n［A］项与①句矛盾，该句指出导致作者成为国际潮流一份子的事件在于“辞去全职工作(to quit my \nfull time employment)\"，而非\"全职工作\"本身。［C］项混淆关系，利用②句A lateral move和abandon my \ncareer之间的因果关系制造干扰，错误地将两者等同。［D］项利用段末作者原话I wanted to spend more \ntime with my family设障,但该内容只是作者为掩饰真正原因而做出的托词(covered my exit),而非事实。\n［技巧总结］判断题一般难以定位，须将选项逐一和原文仔细比对。有时题目锁定某一段落，选项 \n围绕一个中心点，则提取出该中心点是掌握段落主旨和解题的关键。另外，阅读时应多注意因果关联 \n词以及情感性、导向性词语，有助于深入体会段落主旨。\n如本题，题干要求根据首段内容判断正确项。首先观察选项：和［D］三个选项中的 \nstepping out of ... employment,leave her job、to spend more time with her family 提不首段中心点：离 \n职、辞职。再带着信息回到原文，发现②句中出现hurt.block,disgraced,cover等负面导向性词语，判断 \n“我”的离职可能并非自愿或愉快的行为；同时句中谓语prompt(促使)明确了因果逻辑：有损自尊和阻 \n碍前途的平级调动促使我辞职。因此不难断定作者辞职为外界情况所迫。\nII ©Curiously, some two-and-a-half years and two \nnovels later, my experiment in what the Americans term \n\"downshifting” \" has turned my tired excuse into an \nabsolute reality. ❷I have been transformed0 from a\n奇妙的是，大约两年半的时间我写完两 \n部小说后，我这种被美国人称为“放慢生活 \n节奏”的尝试，已经把我那老掉牙的借口变 \n成了绝对的现实。我已经从一个(琳达•凯",
       "points": 2,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37
     },
     {
       "id": "a217a157-3f3d-5230-a9f6-584f202674ae",
@@ -1385,30 +1570,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "enables her to realize her dream",
-          "value": "A"
+          "content": "enables her to realize her dream"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "helps her mold a new philosophy of life",
-          "value": "B"
+          "content": "helps her mold a new philosophy of life"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "prompts her to abandon her high social status",
-          "value": "C"
+          "content": "prompts her to abandon her high social status"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "leads her to accept the doctrine of She magazine",
-          "value": "D"
+          "content": "leads her to accept the doctrine of She magazine"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］根据题干关键词experiment与downshifting定位至第二段①句。该句转承上文指出 \n“作者辞职后对慢节奏生活的尝试”使其之前“多陪家人”的借口成真，暗示作者态度因生活方式变化而 \n生变。随后②句以transformed from. . . into..・具体指出前后变化：从\"追求一切\"到\"知足常乐\"，因此 \n辞职后对downshifting的尝试使作者形成了全新生活哲学。［B］正确。\n「命题解密］题干 + 正确项［BJ与①句 my experiment in. . . has turned. . •与②句 transformed from a \npassionate advocate of the philosophy. . . into ...拼凑出的完整画面一致。\n［A］选项是对①句turned my tired excuse into an absolute reality的曲解，该句指\"使借口成真\"，而非 \n“梦想成真”;前两段表明，“放慢生活节奏”是作者当初迫不得已的选择，而后意外喜欢上这种生活，不涉 \n及“梦想成真”这一•内容。［C］选项因果倒置，退出职场之后才使生活节奏放慢，而非“慢节奏生活使其放弃 \n职位”。［D］项与原文②句相反,将“不再是杂志中所宣扬哲学的积极倡导者”改为“使她接受了该哲学”。\n［技巧总结］句与句之间均存在逻辑关系，而解释关系是除因果关系之外的第二大高频命题点。解 \n释句多是对重要内容的深入说明，往往体现段落主旨。因此应注意几个原则：一、解答此类细节题时应 \n以段落主题为导向；二、正确项一定是原文的同义替换，或为同义、近义词替换，或为句型转换，偶尔为 \n高度概括，解题必须忠实于原文，避免主观臆断；三、干扰项或偷换概念，与原文内容极为相似，但篡改 \n某关键词；或偏离段落或上下文讨论的中心，聚焦次要信息；或利用原文信息，颠倒逻辑关系。\n具体到本题,结合选项可知，题目就“放慢生活节奏(downshifting)对作者的影响”发问。第二段① \n句表明\"downshifting使作者辞职时的借口成真”，但此时尚未完全点明“借口成真”的具体内涵，而②句 \n是对①句的具体解释，体现段落主旨，也即本题题眼。全句主要信息I have been transformed from..・ \ninto...，与选项 helps her mold a new philosophy of life 完全对应。\nIH O I have discovered, as perhaps Kelsey will \nafter her much-publicized® resignation® from the \neditorship③ of She after a build-up④ of stress, that \nabandoning the doctrine⑤ of ujuggling® your life\", and \nmaking the alternative move into⑦\"downshifting\" \nbrings with it far greater rewards than financial success \nand social status・ ❷ Nothing could persuade me to \nreturn to the kind of life Kelsey used to advocate and I \nonce enjoyed: 12-hour working days, pressured \ndeadlines, the fearful strain⑧ of office politics® and the \nlimitations of being a parent on \"quality time\".\n我已经意识到，放弃“忙忙碌碌的生活”教 \n条，转而选择“放慢生活节奏”这一非传统做法 \n所带来的回报，远远超过财务上的成功和社会 \n地位，这一点，凯尔茜在因累积的重负而做出 \n引发外界广泛关注之举—\n辞去《她》杂志编 \n辑一职—\n之后可能也会领悟。没有什么能 \n说服我回到那种凯尔茜过去所倡导的、我自己 \n也曾自得其乐的生活中去：每天工作12小时、 \n因最后期限倍感压力、因办公室政治无比紧 \n张、连和孩子一起享受“黄金时光”都要受限。",
       "points": 2,
       "sort_order": 38,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 38
     },
     {
       "id": "9f079c10-3363-5b53-9cbf-4a4645f5daf0",
@@ -1420,30 +1610,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "non-materialistic lifestyle",
-          "value": "A"
+          "content": "non-materialistic lifestyle"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "a bit of everything",
-          "value": "B"
+          "content": "a bit of everything"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "extreme stress",
-          "value": "C"
+          "content": "extreme stress"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "anti-consumerism",
-          "value": "D"
+          "content": "anti-consumerism"
         }
       ],
       "correct_answer": "C",
       "explanation": "［命题解密］正确项［C］与①句downshifting含义对立，符合该句语义逻辑；同时是对②句冒号后所 \n述一系列特征的高度概括。\n［A］源自第四段①句 a less materialistic lifestyle, ［D］项源自同段②句(Downshifting. . . of what \nmight be termed )anti-consumerism；此两项均为题干中 juggling one's life 的反面 downshifting 的典型特 \n征，故排除。［B］项源自第二段②句(transformed from,, . into a woman who is happy to settle for )a bit \nof everything,这是第二段对于作者喜欢上downshifting生活方式的表现形式“满足于一切小事情”中的 \n信息碎片，与题干相去甚远。\n［技巧总结］词义句意题是考研阅读的基本题型。考查对象一般分为两大类：一是纲内词汇词义引 \n申，考查对熟悉词汇在特定语境下的正确理解。这类题型中，正确选项往往并非所考词句的常见含义， \n而是生僻含义或引申含义。二是纲外词汇词义的判断。词义句意题要求考生牢记“利用上下文和前后 \n关联的语句进行推测”这一原则，做到“既不轻敌，也不恐慌”。\nIV Oln America, the move away from juggling to a \nsimpler, less materialistic lifestyle1 is a well-established \ntrend®. ❷ Downshifting一also known in America as\nuvoluntary simplicityw—has, ironica II 严 ,even bred a \nnew area® of what might be termed\"\" anti-consumerismw ・ \n❸There are a number of bestselling® downshifting self­\nhelp books for people who want to simplify their lives； \nthere are newsletters, such as The Tightwad9 Gazette® , \nthat give hundreds of thousands of Americans useful tips on \nanything from recycling their ding-film® to making their \nown soap； there are even support groups for those who want \nto achieve the mid-'90s equivalent® of dropping out®.\n在美国，摆脱忙碌，转向一种更简朴、不 \n那么物质化的生活方式已成明确趋势。可笑 \n的是.“放慢生活节奏”—\n在美国也称“自愿 \n简朴”—\n甚至孕育了一个可称之为“反消费 \n主义”的崭新领域。对于那些希望简化生活 \n的人来说，有许多有关放慢生活节奏的畅销 \n自助书籍；有各种像《守财奴简报》这样的简 \n讯，给成千上万的美国人提供包罗万象的实 \n用小窍门，从重复利用保鲜膜到自己制造肥 \n皂；甚至还有一些团体为那些希望在90年代 \n中期实现“遁世生活”的人提供资助。\n•词汇注释与难句分析/\n①materialistic lifestyle物质化的生活方式\n② well-established trend 明确趋势 \n:\n③ ironically Cai'rDnikl订ad.让人哭笑不得的是 \n占\n④ breed a new area孕育了新领域 \nJ\n⑤ term [t3：m]仏 被称为 \n》\n⑥ anti-consumerism n.反消费主义\n⑦ bestselling Cibest'selirj] a.畅销的 \n《\nV While in America the trend started as a \nreaction to the economic decline—after the mass \nredundancies^ caused by downsizing'^ in the late'80s— \nand is still linked to the politics of thrift , in Britain, \nat least among the middle-class downshifters of my \nacquaintance^ , we have different reasons for seeking \nto simplify our lives.\n⑧ tightwad® ［'taitwDd］ n.吝啬鬼\n⑨ gazette® ［go'zet］ n.公报，简报\n⑩ cling-film n.保鲜膜\n⑪equivalent ［i'kwivalant］ n.等价物\n⑫drop out (因对传统的道德观和价值观不再抱幻想 \n而)退岀习俗社会，逃避现实\n在美国，这种趋势一开始是对经济衰退所 \n做出的一种反应—\n出现于80年代后期经济 \n规模缩小所引起的大量裁员之后—\n现在这 \n种趋势仍与节俭的政治思想有关；而在英国， \n至少在我所认识的这些中产阶层“放慢生活节 \n奏”者中，寻求简朴生活的缘由却不尽相同。",
       "points": 2,
       "sort_order": 39,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 39
     },
     {
       "id": "1d28cc01-99c0-59a1-8857-a1657ad8c211",
@@ -1455,30 +1650,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the quick pace of modern life",
-          "value": "A"
+          "content": "the quick pace of modern life"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "man's adventurous spirit",
-          "value": "B"
+          "content": "man's adventurous spirit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "man's search for mythical experiences",
-          "value": "C"
+          "content": "man's search for mythical experiences"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the economic situation",
-          "value": "D"
+          "content": "the economic situation"
         }
       ],
       "correct_answer": "D",
       "explanation": "[精准定位]第五段前半句指出，美国的这一趋势（即上段downshifting）的生成是对经济衰退的一 \n种反应，换句话说也就是，经济（不利）形势是其出现的原因。[D]项正确。\n[命题解密]题干和正确项是对第五段前半句内容的归纳：the trend和as a reaction to...分别对应",
       "points": 2,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40
     }
   ],
   "exportedAt": "2026-10-15T11:40:38.505Z"

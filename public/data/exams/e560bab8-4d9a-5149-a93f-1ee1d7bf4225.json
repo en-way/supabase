@@ -102,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "natives",
-          "value": "A"
+          "content": "natives"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "inhabitants",
-          "value": "B"
+          "content": "inhabitants"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "peoples",
-          "value": "C"
+          "content": "peoples"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "individuals",
-          "value": "D"
+          "content": "individuals"
         }
       ],
       "correct_answer": "B",
@@ -138,23 +142,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "confusedly",
-          "value": "A"
+          "content": "confusedly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "cheerfully",
-          "value": "B"
+          "content": "cheerfully"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "worriedly",
-          "value": "C"
+          "content": "worriedly"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "hopefully",
-          "value": "D"
+          "content": "hopefully"
         }
       ],
       "correct_answer": "D",
@@ -174,23 +182,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "shared",
-          "value": "A"
+          "content": "shared"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "forgot",
-          "value": "B"
+          "content": "forgot"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "attained",
-          "value": "C"
+          "content": "attained"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rejected",
-          "value": "D"
+          "content": "rejected"
         }
       ],
       "correct_answer": "A",
@@ -210,23 +222,27 @@
       "options": [
         {
           "key": "A",
-          "text": "related (to)",
-          "value": "A"
+          "value": "A",
+          "text": "related",
+          "content": "related"
         },
         {
           "key": "B",
-          "text": "close (to)",
-          "value": "B"
+          "value": "B",
+          "text": "close",
+          "content": "close"
         },
         {
           "key": "C",
-          "text": "open (to)",
-          "value": "C"
+          "value": "C",
+          "text": "open",
+          "content": "open"
         },
         {
           "key": "D",
-          "text": "devoted (to)",
-          "value": "D"
+          "value": "D",
+          "text": "devoted",
+          "content": "devoted"
         }
       ],
       "correct_answer": "C",
@@ -246,23 +262,27 @@
       "options": [
         {
           "key": "A",
-          "text": "access (to)",
-          "value": "A"
+          "value": "A",
+          "text": "access",
+          "content": "access"
         },
         {
           "key": "B",
-          "text": "succession (to)",
-          "value": "B"
+          "value": "B",
+          "text": "succession",
+          "content": "succession"
         },
         {
           "key": "C",
-          "text": "right (to)",
-          "value": "C"
+          "value": "C",
+          "text": "right",
+          "content": "right"
         },
         {
           "key": "D",
-          "text": "return (to)",
-          "value": "D"
+          "value": "D",
+          "text": "return",
+          "content": "return"
         }
       ],
       "correct_answer": "C",
@@ -282,23 +302,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Presumably",
-          "value": "A"
+          "content": "Presumably"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Incidentally",
-          "value": "B"
+          "content": "Incidentally"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Obviously",
-          "value": "C"
+          "content": "Obviously"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Generally",
-          "value": "D"
+          "content": "Generally"
         }
       ],
       "correct_answer": "D",
@@ -318,23 +342,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unique",
-          "value": "A"
+          "content": "unique"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "common",
-          "value": "B"
+          "content": "common"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "particular",
-          "value": "C"
+          "content": "particular"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "typical",
-          "value": "D"
+          "content": "typical"
         }
       ],
       "correct_answer": "B",
@@ -354,23 +382,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "freedom",
-          "value": "A"
+          "content": "freedom"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "origin",
-          "value": "B"
+          "content": "origin"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "impact",
-          "value": "C"
+          "content": "impact"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reform",
-          "value": "D"
+          "content": "reform"
         }
       ],
       "correct_answer": "A",
@@ -390,23 +422,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "therefore",
-          "value": "A"
+          "content": "therefore"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "however",
-          "value": "B"
+          "content": "however"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "indeed",
-          "value": "C"
+          "content": "indeed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "moreover",
-          "value": "D"
+          "content": "moreover"
         }
       ],
       "correct_answer": "B",
@@ -426,23 +462,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "with",
-          "value": "A"
+          "content": "with"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "about",
-          "value": "B"
+          "content": "about"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "among",
-          "value": "C"
+          "content": "among"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "by",
-          "value": "D"
+          "content": "by"
         }
       ],
       "correct_answer": "C",
@@ -462,23 +502,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "allowed",
-          "value": "A"
+          "content": "allowed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "preached",
-          "value": "B"
+          "content": "preached"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "granted",
-          "value": "C"
+          "content": "granted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "funded",
-          "value": "D"
+          "content": "funded"
         }
       ],
       "correct_answer": "A",
@@ -498,23 +542,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Since",
-          "value": "A"
+          "content": "Since"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "If",
-          "value": "B"
+          "content": "If"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Unless",
-          "value": "C"
+          "content": "Unless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "While",
-          "value": "D"
+          "content": "While"
         }
       ],
       "correct_answer": "D",
@@ -534,23 +582,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "as",
-          "value": "A"
+          "content": "as"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for",
-          "value": "B"
+          "content": "for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "under",
-          "value": "C"
+          "content": "under"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "against",
-          "value": "D"
+          "content": "against"
         }
       ],
       "correct_answer": "A",
@@ -570,23 +622,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "spread",
-          "value": "A"
+          "content": "spread"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interference",
-          "value": "B"
+          "content": "interference"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "exclusion",
-          "value": "C"
+          "content": "exclusion"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "influence",
-          "value": "D"
+          "content": "influence"
         }
       ],
       "correct_answer": "C",
@@ -606,23 +662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "support",
-          "value": "A"
+          "content": "support"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "cry",
-          "value": "B"
+          "content": "cry"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "plea",
-          "value": "C"
+          "content": "plea"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "wish",
-          "value": "D"
+          "content": "wish"
         }
       ],
       "correct_answer": "B",
@@ -642,23 +702,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "urged",
-          "value": "A"
+          "content": "urged"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "intended",
-          "value": "B"
+          "content": "intended"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "expected",
-          "value": "C"
+          "content": "expected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "promised",
-          "value": "D"
+          "content": "promised"
         }
       ],
       "correct_answer": "D",
@@ -678,23 +742,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "controlling",
-          "value": "A"
+          "content": "controlling"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "former",
-          "value": "B"
+          "content": "former"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "remaining",
-          "value": "C"
+          "content": "remaining"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "original",
-          "value": "D"
+          "content": "original"
         }
       ],
       "correct_answer": "C",
@@ -714,23 +782,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "slower",
-          "value": "A"
+          "content": "slower"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "faster",
-          "value": "B"
+          "content": "faster"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "easier",
-          "value": "C"
+          "content": "easier"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tougher",
-          "value": "D"
+          "content": "tougher"
         }
       ],
       "correct_answer": "A",
@@ -750,23 +822,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "created",
-          "value": "A"
+          "content": "created"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "produced",
-          "value": "B"
+          "content": "produced"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "contributed",
-          "value": "C"
+          "content": "contributed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "preferred",
-          "value": "D"
+          "content": "preferred"
         }
       ],
       "correct_answer": "B",
@@ -786,23 +862,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "puzzled by",
-          "value": "A"
+          "content": "puzzled by"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "hostile to",
-          "value": "B"
+          "content": "hostile to"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "pessimistic about",
-          "value": "C"
+          "content": "pessimistic about"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "unprepared for",
-          "value": "D"
+          "content": "unprepared for"
         }
       ],
       "correct_answer": "D",
@@ -822,23 +902,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "stress the importance of professional training",
-          "value": "A"
+          "content": "stress the importance of professional training"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "spotlight the soccer superstars in the World Cup",
-          "value": "B"
+          "content": "spotlight the soccer superstars in the World Cup"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "introduce the topic of what makes expert performance",
-          "value": "C"
+          "content": "introduce the topic of what makes expert performance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "explain why some soccer teams play better than others",
-          "value": "D"
+          "content": "explain why some soccer teams play better than others"
         }
       ],
       "correct_answer": "C",
@@ -858,23 +942,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "fun",
-          "value": "A"
+          "content": "fun"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "craze",
-          "value": "B"
+          "content": "craze"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "hysteria",
-          "value": "C"
+          "content": "hysteria"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "excitement",
-          "value": "D"
+          "content": "excitement"
         }
       ],
       "correct_answer": "B",
@@ -894,23 +982,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "depends on meaningful processing of information",
-          "value": "A"
+          "content": "depends on meaningful processing of information"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "results from intuitive rather than cognitive exercises",
-          "value": "B"
+          "content": "results from intuitive rather than cognitive exercises"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is determined by genetic rather than psychological factors",
-          "value": "C"
+          "content": "is determined by genetic rather than psychological factors"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "requires immediate feedback and a high degree of concentration",
-          "value": "D"
+          "content": "requires immediate feedback and a high degree of concentration"
         }
       ],
       "correct_answer": "A",
@@ -930,23 +1022,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "talent is a dominating factor for professional success",
-          "value": "A"
+          "content": "talent is a dominating factor for professional success"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "biographical data provide the key to excellent performance",
-          "value": "B"
+          "content": "biographical data provide the key to excellent performance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the role of talent tends to be overlooked",
-          "value": "C"
+          "content": "the role of talent tends to be overlooked"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "high achievers owe their success mostly to nurture",
-          "value": "D"
+          "content": "high achievers owe their success mostly to nurture"
         }
       ],
       "correct_answer": "D",
@@ -966,23 +1062,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "“Faith will move mountains.”",
-          "value": "A"
+          "content": "“Faith will move mountains.”"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "“One reaps what one sows.”",
-          "value": "B"
+          "content": "“One reaps what one sows.”"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "“Practice makes perfect.”",
-          "value": "C"
+          "content": "“Practice makes perfect.”"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "“Like father, like son.”",
-          "value": "D"
+          "content": "“Like father, like son.”"
         }
       ],
       "correct_answer": "C",
@@ -1002,23 +1102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Answering philosophical questions.",
-          "value": "A"
+          "content": "Answering philosophical questions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Folding or cutting paper into different shapes.",
-          "value": "B"
+          "content": "Folding or cutting paper into different shapes."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Telling the differences between certain concepts.",
-          "value": "C"
+          "content": "Telling the differences between certain concepts."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Choosing words or graphs similar to the given ones.",
-          "value": "D"
+          "content": "Choosing words or graphs similar to the given ones."
         }
       ],
       "correct_answer": "D",
@@ -1038,23 +1142,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "People no longer use IQ scores as an indicator of intelligence.",
-          "value": "A"
+          "content": "People no longer use IQ scores as an indicator of intelligence."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "More versions of IQ tests are now available on the Internet.",
-          "value": "B"
+          "content": "More versions of IQ tests are now available on the Internet."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The test content and formats for adults and children may be different.",
-          "value": "C"
+          "content": "The test content and formats for adults and children may be different."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Scientists have defined the important elements of human intelligence.",
-          "value": "D"
+          "content": "Scientists have defined the important elements of human intelligence."
         }
       ],
       "correct_answer": "C",
@@ -1074,23 +1182,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the scores are obtained through different computational procedures",
-          "value": "A"
+          "content": "the scores are obtained through different computational procedures"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "creativity rather than analytical skills is emphasized now",
-          "value": "B"
+          "content": "creativity rather than analytical skills is emphasized now"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "vos Savant's case is an extreme one that will not repeat",
-          "value": "C"
+          "content": "vos Savant's case is an extreme one that will not repeat"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the defining characteristic of IQ tests has changed",
-          "value": "D"
+          "content": "the defining characteristic of IQ tests has changed"
         }
       ],
       "correct_answer": "A",
@@ -1110,23 +1222,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "test scores may not be reliable indicators of one's ability",
-          "value": "A"
+          "content": "test scores may not be reliable indicators of one's ability"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "IQ scores and SAT results are highly correlated",
-          "value": "B"
+          "content": "IQ scores and SAT results are highly correlated"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "testing involves a lot of guesswork",
-          "value": "C"
+          "content": "testing involves a lot of guesswork"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "traditional tests are out of date",
-          "value": "D"
+          "content": "traditional tests are out of date"
         }
       ],
       "correct_answer": "A",
@@ -1146,23 +1262,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Supportive.",
-          "value": "A"
+          "content": "Supportive."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Skeptical.",
-          "value": "B"
+          "content": "Skeptical."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Impartial.",
-          "value": "C"
+          "content": "Impartial."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Biased.",
-          "value": "D"
+          "content": "Biased."
         }
       ],
       "correct_answer": "B",
@@ -1182,23 +1302,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the safety net they used to enjoy has disappeared",
-          "value": "A"
+          "content": "the safety net they used to enjoy has disappeared"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "their chances of being laid off have greatly increased",
-          "value": "B"
+          "content": "their chances of being laid off have greatly increased"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "they are more vulnerable to changes in family economics",
-          "value": "C"
+          "content": "they are more vulnerable to changes in family economics"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "they are deprived of unemployment or disability insurance",
-          "value": "D"
+          "content": "they are deprived of unemployment or disability insurance"
         }
       ],
       "correct_answer": "C",
@@ -1218,23 +1342,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a higher sense of security",
-          "value": "A"
+          "content": "a higher sense of security"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "less secured payments",
-          "value": "B"
+          "content": "less secured payments"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "less chance to invest",
-          "value": "C"
+          "content": "less chance to invest"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a guaranteed future",
-          "value": "D"
+          "content": "a guaranteed future"
         }
       ],
       "correct_answer": "B",
@@ -1254,23 +1382,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "help reduce the cost of healthcare",
-          "value": "A"
+          "content": "help reduce the cost of healthcare"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "popularize among the middle class",
-          "value": "B"
+          "content": "popularize among the middle class"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "compensate for the reduced pensions",
-          "value": "C"
+          "content": "compensate for the reduced pensions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "increase the families' investment risk",
-          "value": "D"
+          "content": "increase the families' investment risk"
         }
       ],
       "correct_answer": "D",
@@ -1290,23 +1422,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "financial risks tend to outweigh political risks",
-          "value": "A"
+          "content": "financial risks tend to outweigh political risks"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the middle class may face greater political challenges",
-          "value": "B"
+          "content": "the middle class may face greater political challenges"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "financial problems may bring about political problems",
-          "value": "C"
+          "content": "financial problems may bring about political problems"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "financial responsibility has been shifted to government",
-          "value": "D"
+          "content": "financial responsibility has been shifted to government"
         }
       ],
       "correct_answer": "C",
@@ -1326,23 +1462,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The Middle Class on the Alert",
-          "value": "A"
+          "content": "The Middle Class on the Alert"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The Middle Class on the Cliff",
-          "value": "B"
+          "content": "The Middle Class on the Cliff"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The Middle Class in Conflict",
-          "value": "C"
+          "content": "The Middle Class in Conflict"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The Middle Class in Ruins",
-          "value": "D"
+          "content": "The Middle Class in Ruins"
         }
       ],
       "correct_answer": "B",
@@ -1362,23 +1502,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the fierce business competition",
-          "value": "A"
+          "content": "the fierce business competition"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the feeble boss-board relations",
-          "value": "B"
+          "content": "the feeble boss-board relations"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the threat from news reports",
-          "value": "C"
+          "content": "the threat from news reports"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the severity of data leakage",
-          "value": "D"
+          "content": "the severity of data leakage"
         }
       ],
       "correct_answer": "D",
@@ -1398,23 +1542,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "whether there is any weak point",
-          "value": "A"
+          "content": "whether there is any weak point"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "what sort of data has been stolen",
-          "value": "B"
+          "content": "what sort of data has been stolen"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "who is responsible for the leakage",
-          "value": "C"
+          "content": "who is responsible for the leakage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "how the potential spies can be located",
-          "value": "D"
+          "content": "how the potential spies can be located"
         }
       ],
       "correct_answer": "A",
@@ -1434,23 +1582,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "shareholders' interests should be properly attended to",
-          "value": "A"
+          "content": "shareholders' interests should be properly attended to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "information protection should be given due attention",
-          "value": "B"
+          "content": "information protection should be given due attention"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "businesses should enhance their level of accounting security",
-          "value": "C"
+          "content": "businesses should enhance their level of accounting security"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the market value of customer data should be emphasized",
-          "value": "D"
+          "content": "the market value of customer data should be emphasized"
         }
       ],
       "correct_answer": "B",
@@ -1470,23 +1622,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "see the link between trust and data protection",
-          "value": "A"
+          "content": "see the link between trust and data protection"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "perceive the sensitivity of personal data",
-          "value": "B"
+          "content": "perceive the sensitivity of personal data"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "realize the high cost of data restoration",
-          "value": "C"
+          "content": "realize the high cost of data restoration"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "appreciate the economic value of trust",
-          "value": "D"
+          "content": "appreciate the economic value of trust"
         }
       ],
       "correct_answer": "A",
@@ -1506,23 +1662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "data leakage is more severe in Europe",
-          "value": "A"
+          "content": "data leakage is more severe in Europe"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "FTC's decision is essential to data security",
-          "value": "B"
+          "content": "FTC's decision is essential to data security"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "California takes the lead in security legislation",
-          "value": "C"
+          "content": "California takes the lead in security legislation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "legal penalty is a major solution to data leakage",
-          "value": "D"
+          "content": "legal penalty is a major solution to data leakage"
         }
       ],
       "correct_answer": "D",
@@ -1542,38 +1702,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Set a Good Example for Your Kids",
-          "value": "A"
+          "content": "Set a Good Example for Your Kids"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Build Your Kids' Work Skills",
-          "value": "B"
+          "content": "Build Your Kids' Work Skills"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Place Time Limits on Leisure Activities",
-          "value": "C"
+          "content": "Place Time Limits on Leisure Activities"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Talk about the Future on a Regular Basis",
-          "value": "D"
+          "content": "Talk about the Future on a Regular Basis"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Help Kids Develop Coping Strategies",
-          "value": "E"
+          "content": "Help Kids Develop Coping Strategies"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Help Your Kids Figure Out Who They Are",
-          "value": "F"
+          "content": "Help Your Kids Figure Out Who They Are"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Build Your Kids' Sense of Responsibility",
-          "value": "G"
+          "content": "Build Your Kids' Sense of Responsibility"
         }
       ],
       "correct_answer": "F",
@@ -1593,38 +1760,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Set a Good Example for Your Kids",
-          "value": "A"
+          "content": "Set a Good Example for Your Kids"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Build Your Kids' Work Skills",
-          "value": "B"
+          "content": "Build Your Kids' Work Skills"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Place Time Limits on Leisure Activities",
-          "value": "C"
+          "content": "Place Time Limits on Leisure Activities"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Talk about the Future on a Regular Basis",
-          "value": "D"
+          "content": "Talk about the Future on a Regular Basis"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Help Kids Develop Coping Strategies",
-          "value": "E"
+          "content": "Help Kids Develop Coping Strategies"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Help Your Kids Figure Out Who They Are",
-          "value": "F"
+          "content": "Help Your Kids Figure Out Who They Are"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Build Your Kids' Sense of Responsibility",
-          "value": "G"
+          "content": "Build Your Kids' Sense of Responsibility"
         }
       ],
       "correct_answer": "D",
@@ -1644,38 +1818,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Set a Good Example for Your Kids",
-          "value": "A"
+          "content": "Set a Good Example for Your Kids"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Build Your Kids' Work Skills",
-          "value": "B"
+          "content": "Build Your Kids' Work Skills"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Place Time Limits on Leisure Activities",
-          "value": "C"
+          "content": "Place Time Limits on Leisure Activities"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Talk about the Future on a Regular Basis",
-          "value": "D"
+          "content": "Talk about the Future on a Regular Basis"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Help Kids Develop Coping Strategies",
-          "value": "E"
+          "content": "Help Kids Develop Coping Strategies"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Help Your Kids Figure Out Who They Are",
-          "value": "F"
+          "content": "Help Your Kids Figure Out Who They Are"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Build Your Kids' Sense of Responsibility",
-          "value": "G"
+          "content": "Build Your Kids' Sense of Responsibility"
         }
       ],
       "correct_answer": "B",
@@ -1695,38 +1876,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Set a Good Example for Your Kids",
-          "value": "A"
+          "content": "Set a Good Example for Your Kids"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Build Your Kids' Work Skills",
-          "value": "B"
+          "content": "Build Your Kids' Work Skills"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Place Time Limits on Leisure Activities",
-          "value": "C"
+          "content": "Place Time Limits on Leisure Activities"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Talk about the Future on a Regular Basis",
-          "value": "D"
+          "content": "Talk about the Future on a Regular Basis"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Help Kids Develop Coping Strategies",
-          "value": "E"
+          "content": "Help Kids Develop Coping Strategies"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Help Your Kids Figure Out Who They Are",
-          "value": "F"
+          "content": "Help Your Kids Figure Out Who They Are"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Build Your Kids' Sense of Responsibility",
-          "value": "G"
+          "content": "Build Your Kids' Sense of Responsibility"
         }
       ],
       "correct_answer": "C",
@@ -1746,38 +1934,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Set a Good Example for Your Kids",
-          "value": "A"
+          "content": "Set a Good Example for Your Kids"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Build Your Kids' Work Skills",
-          "value": "B"
+          "content": "Build Your Kids' Work Skills"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Place Time Limits on Leisure Activities",
-          "value": "C"
+          "content": "Place Time Limits on Leisure Activities"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Talk about the Future on a Regular Basis",
-          "value": "D"
+          "content": "Talk about the Future on a Regular Basis"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Help Kids Develop Coping Strategies",
-          "value": "E"
+          "content": "Help Kids Develop Coping Strategies"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Help Your Kids Figure Out Who They Are",
-          "value": "F"
+          "content": "Help Your Kids Figure Out Who They Are"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Build Your Kids' Sense of Responsibility",
-          "value": "G"
+          "content": "Build Your Kids' Sense of Responsibility"
         }
       ],
       "correct_answer": "E",

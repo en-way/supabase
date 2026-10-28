@@ -32,7 +32,9 @@
       "title": "Section I: Use of English",
       "content": "Happy people work differently. They're more productive, more creative, and willing to take greater risks. And new research suggests that happiness might influence [1] firms work, too. Companies located in places with happier people invest more, according to a recent research paper. [2], firms in happy places spend more on R&D (research and development). That's because happiness is linked to the kind of longer-term thinking [3] for making investments for the future.\n\nThe researchers wanted to know if the [4] and inclination for risk-taking that come with happiness would [5] the way companies invested. So they compared U.S. cities' average happiness [6] by Gallup polling with the investment activity of publicly traded firms in those areas. [7] enough, firms' investment and R&D intensity were correlated with the happiness of the area in which they were [8].\n\nBut is it really happiness that's linked to investment, or could something else about happier cities [9] why firms there spend more on R&D? To find out, the researchers controlled for various [10] that might make firms more likely to invest - like size, industry, and sales - and for indicators that a place was [11] to live in, like growth in wages or population. The link between happiness and investment generally [12] even after accounting for these things.\n\nThe correlation between happiness and investment was particularly strong for younger firms, which the authors [13] to “less codified decision making process” and the possible presence of “younger and less [14] managers who are more likely to be influenced by sentiment.” The relationship was [15] stronger in places where happiness was spread more [16]. Firms seem to invest more in places where most people are relatively happy, rather than in places with happiness inequality. [17] this doesn't prove that happiness causes firms to invest more or to take a longer-term view, the authors believe it at least [18] at that possibility. It's not hard to imagine that local culture and sentiment would help [19] how executives think about the future. “It surely seems plausible that happy people would be more forward-thinking and creative and [20] R&D more than the average,” said one researcher.",
       "sort_order": 1,
-      "passage_type": "use_of_english"
+      "passage_type": "use_of_english",
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "db405343-12e6-5e24-8ab1-5c1932e7574f",
@@ -42,7 +44,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "It's true that high-school coding classes aren't essential for learning computer science in college. Students without experience can catch up after a few introductory courses, said Tom Cortina, the assistant dean at Carnegie Mellon's School of Computer Science.\n\nHowever, Cortina said, early exposure is beneficial. When younger kids learn computer science, they learn that it's not just a confusing, endless string of letters and numbers - but a tool to build apps, or create artwork, or test hypotheses. It's not as hard for them to transform their thought processes as it is for older students. Breaking down problems into bite-sized chunks and using code to solve them becomes normal. Giving more children this training could increase the number of people interested in the field and help fill the jobs gap, Cortina said.\n\nStudents also benefit from learning something about coding before they get to college, where introductory computer-science 101 classes are packed to the brim, which can drive the less-experienced or -determined students away.\n\nThe Flatiron School, where people pay to learn programming, started as one of the many coding bootcamps that's become popular for adults looking for a career change. The high-schoolers get the same curriculum, but “we try to gear lessons toward things they're interested in,” said Victoria Friedman, an instructor. For instance, one of the apps the students are developing suggests movies based on your mood.\n\nThe students in the Flatiron class probably won't drop out of high school and build the next Facebook. Programming languages have a short shelf life, and the ones Flatiron teaches may not even be relevant by the time they enter the job market. But the skills they learn - how to think logically through a problem and organize the results - apply to any coding language, said Deborah Seehorn, an education consultant for the state of North Carolina.\n\nIndeed, the Flatiron students might not go into IT at all. But creating a future army of coders is not the sole purpose of the classes. These kids are going to be surrounded by computers - in their pockets, in their offices, in their homes - for the rest of their lives. The younger they learn how computers think, how to coax the machine into producing what they want - the earlier they learn that they have the power to do that - the better.",
       "sort_order": 2,
-      "passage_type": "reading"
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "1af6dd5f-a12c-565a-98c9-0bb2a4bcd0f4",
@@ -52,7 +56,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "Biologists estimate that as many as 2 million lesser prairie chickens - a kind of bird living on stretching grasslands - once lent red to the often grey landscape of the midwestern and southwestern United States. But just some 22,000 birds remain today, occupying about 16% of the species' historic range.\n\nThe crash was a major reason the U.S. Fish and Wildlife Service (USFWS) decided to formally list the bird as threatened. “The lesser prairie chicken is in a desperate situation,” said USFWS Director Daniel Ashe. Some environmentalists, however, were disappointed. They had pushed the agency to designate the bird as “endangered,” a status that gives federal officials greater regulatory power to crack down on threats. But Ashe and others argued that the “threatened” tag gave the federal government flexibility to try out new, potentially less confrontational conservation approaches. In particular, they called for forging closer collaborations with western state governments, which are often uneasy with federal action, and with the private landowners who control an estimated 95% of the prairie chicken's habitat.\n\nUnder the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan to restore prairie chicken habitat. Negotiated by USFWS and the states, the plan requires individuals and businesses that damage habitat as part of their operations to pay into a fund to replace every acre of destroyed habitat with 2 new acres of suitable habitat. The fund will also be used to compensate landowners who set aside habitat. USFWS also set an interim goal of restoring prairie chicken populations to an annual average of 67,000 birds over the next 10 years. And it gives the Western Association of Fish and Wildlife Agencies (WAFWA), a coalition of state agencies, the job of monitoring progress. Overall, the idea is to let “states remain in the driver's seat for managing the species,” Ashe said.\n\nNot everyone buys the win-win rhetoric. Some Congress members are trying to block the plan, and at least a dozen industry groups, four states, and three environmental groups are challenging it in federal court. Not surprisingly, industry groups and states generally argue it goes too far; environmentalists say it doesn't go far enough. “The federal government is giving responsibility for managing the bird to the same industries that are pushing it to extinction,” says Jay Lininger, a senior scientist at the Center for Biological Diversity.",
       "sort_order": 3,
-      "passage_type": "reading"
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "eb685298-efa5-52b9-ae98-d84c4c04f5e3",
@@ -62,7 +68,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "That everyone's too busy these days is a cliche. But one specific complaint is made especially mournfully: There's never any time to read.\n\nWhat makes the problem thornier is that the usual time-management techniques don't seem sufficient. The web's full of articles offering tips on making time to read: “Give up TV” or “Carry a book with you at all times.” But in my experience, using such methods to free up the odd 30 minutes doesn't work. Sit down to read and the flywheel of work-related thoughts keeps spinning - or else you're so exhausted that a challenging book's the last thing you need. The modern mind, Tim Parks, a novelist and critic, writes, “is overwhelmingly inclined toward communication... It is not simply that one is interrupted; it is that one is actually inclined to interruption.” Deep reading requires not just time, but a special kind of time which can't be obtained merely by becoming more efficient.\n\nThinking of time as a resource to be maximised means you approach it instrumentally, judging any given moment as well spent only in so far as it advances progress toward some goal. Immersive reading, by contrast, depends on being willing to risk inefficiency, goallessness, even time-wasting. Try to slot it in as a to-do list item and you'll manage only goal-focused reading - useful, sometimes, but not the most fulfilling kind. “The future comes at us like empty bottles along an unstoppable and nearly infinite conveyor belt,” writes Gary Eberle in Sacred Time, “and we feel a pressure to fill these different-sized bottles (days, hours, minutes) as they pass, for if they get by without being filled, we will have wasted them.” No mind-set could be worse for losing yourself in a book.\n\nSo what does work? Perhaps surprisingly, scheduling regular times for reading. You'd think this might fuel the efficiency mind-set, but in fact, Eberle notes, such ritualistic behaviour helps us “step outside time's flow” into “soul time.” You might also consider reading only physical books, or on single-purpose e-readers. “Carry a book with you at all times” can actually work, too - providing you dip in often enough, so that reading becomes the default state from which you temporarily surface to take care of business, before dropping back down. On a really good day, it no longer feels as if you're “making time to read,” but just reading, and making time for everything else.",
       "sort_order": 4,
-      "passage_type": "reading"
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "c6554cd0-1c29-5b5c-9625-f745c88d2921",
@@ -72,7 +80,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "Against a backdrop of drastic changes in economy and population structure, younger Americans are drawing a new 21st-century road map to success, a latest poll has found.\n\nAcross generational lines, Americans continue to prize many of the same traditional milestones of a successful life, including getting married, having children, owning a home, and retiring in their sixties. But while young and old mostly agree on what constitutes the finish line of a fulfilling life, they offer strikingly different paths for reaching it.\n\nYoung people who are still getting started in life were more likely than older adults to prioritize personal fulfillment in their work, to believe they will advance their careers most by regularly changing jobs, to favor communities with more public services and a faster pace of life, to agree that couples should be financially secure before getting married or having children, and to maintain that children are best served by two parents working outside the home, the survey found.\n\nFrom career to community and family, these contrasts suggest that in the aftermath of the searing Great Recession, those just starting out in life are defining priorities and expectations that will increasingly spread through virtually all aspects of American life, from consumer preferences to housing patterns to politics.\n\nYoung and old converge on one key point: Overwhelming majorities of both groups said they believe it is harder for young people today to get started in life than it was for earlier generations. While younger people are somewhat more optimistic than their elders about the prospects for those starting out today, big majorities in both groups believe those “just getting started in life” face a tougher climb than earlier generations in reaching such signpost achievements as securing a good-paying job, starting a family, managing debt, and finding affordable housing.\n\nPete Schneider considers the climb tougher today. Schneider, a 27-year-old auto technician from the Chicago suburbs, says he struggled to find a job after graduating from college. Even now that he is working steadily, he said, “I can't afford to pay my monthly mortgage payments on my own, so I have to rent rooms out to people to make that happen.” Looking back, he is struck that his parents could provide a comfortable life for their children even though neither had completed college when he was young. “I still grew up in an upper middle-class home with parents who didn't have college degrees,” Schneider said. “I don't think people are capable of that anymore.”",
       "sort_order": 5,
-      "passage_type": "reading"
+      "passage_type": "reading",
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "a26e2be0-5e43-50e8-b0b3-283d139680c0",
@@ -82,7 +92,9 @@
       "title": "Section II: Reading Comprehension Part B",
       "content": "Act Your Shoe Size, Not Your Age\n\nAs adults, it seems that we are constantly pursuing happiness, often with mixed results. Yet children appear to have it down to an art - and for the most part they don't need self-help books or therapy. Instead, they look after their wellbeing instinctively, and usually more effectively than we do as grownups. Perhaps it's time to learn a few lessons from them.\n\n[41] _________________________________\nWhat does a child do when he's sad? He cries. When he's angry? He shouts. Scared? Probably a bit of both. As we grow up, we learn to control our emotions so they are manageable and don't dictate our behaviours, which is in many ways a good thing. But too often we take this process too far and end up suppressing emotions, especially negative ones. That's about as effective as brushing dirt under a carpet and can even make us ill. What we need to do is find a way to acknowledge and express what we feel appropriately, and then move on.\n\n[42] _________________________________\nA couple of Christmases ago, my youngest stepdaughter, who was nine years old at the time, got a Superman T-shirt for Christmas. It cost less than a fiver but she was overjoyed, and couldn't stop talking about it. Too often we believe that a new job, bigger house or better car will be the magic silver bullet that will allow us to finally be content, but the reality is these things have very little lasting impact on our happiness levels. Instead, being grateful for small things every day is a much better way to improve wellbeing.\n\n[43] _________________________________\nHave you ever noticed how much children laugh? If we adults could indulge in a bit of silliness and giggling, we would reduce the stress hormones in our bodies, increase good hormones like endorphins, improve blood flow to our hearts and even have a greater chance of fighting off infection. All of which would, of course, have a positive effect on our happiness levels.\n\n[44] _________________________________\nThe problem with being a grownup is that there's an awful lot of serious stuff to deal with - work, mortgage payments, figuring out what to cook for dinner. But as adults we also have the luxury of being able to control our own diaries and it's important that we schedule in time to enjoy the things we love. Those things might be social, sporting, creative or completely random (dancing around the living room, anyone?) - it doesn't matter, so long as they're enjoyable, and not likely to have negative side effects, such as drinking too much alcohol or going on a wild spending spree if you're on a tight budget.\n\n[45] _________________________________\nHaving said all of the above, it's important to add that we shouldn't try too hard to be happy. Scientists tell us this can backfire and actually have a negative impact on our wellbeing. As the Chinese philosopher Chuang Tzu is reported to have said: “Happiness is the absence of striving for happiness.” And in that, once more, we need to look to the example of our children, to whom happiness is not a goal but a natural byproduct of the way they live.",
       "sort_order": 6,
-      "passage_type": "reading"
+      "passage_type": "reading",
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -96,23 +108,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "why",
-          "value": "A"
+          "content": "why"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "how",
-          "value": "B"
+          "content": "how"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "where",
-          "value": "C"
+          "content": "where"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "when",
-          "value": "D"
+          "content": "when"
         }
       ],
       "correct_answer": "B",
@@ -134,23 +150,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "In return",
-          "value": "A"
+          "content": "In return"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In particular",
-          "value": "B"
+          "content": "In particular"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "In contrast",
-          "value": "C"
+          "content": "In contrast"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In conclusion",
-          "value": "D"
+          "content": "In conclusion"
         }
       ],
       "correct_answer": "B",
@@ -172,23 +192,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "necessary",
-          "value": "A"
+          "content": "necessary"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "famous",
-          "value": "B"
+          "content": "famous"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "perfect",
-          "value": "C"
+          "content": "perfect"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sufficient",
-          "value": "D"
+          "content": "sufficient"
         }
       ],
       "correct_answer": "A",
@@ -210,23 +234,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "individualism",
-          "value": "A"
+          "content": "individualism"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "realism",
-          "value": "B"
+          "content": "realism"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "optimism",
-          "value": "C"
+          "content": "optimism"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "modernism",
-          "value": "D"
+          "content": "modernism"
         }
       ],
       "correct_answer": "C",
@@ -248,23 +276,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "miss",
-          "value": "A"
+          "content": "miss"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "echo",
-          "value": "B"
+          "content": "echo"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "spoil",
-          "value": "C"
+          "content": "spoil"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "change",
-          "value": "D"
+          "content": "change"
         }
       ],
       "correct_answer": "D",
@@ -286,23 +318,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "imagined",
-          "value": "A"
+          "content": "imagined"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "measured",
-          "value": "B"
+          "content": "measured"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "assumed",
-          "value": "C"
+          "content": "assumed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "invented",
-          "value": "D"
+          "content": "invented"
         }
       ],
       "correct_answer": "B",
@@ -324,23 +360,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Sure",
-          "value": "A"
+          "content": "Sure"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Disappointed",
-          "value": "B"
+          "content": "Disappointed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Unfortunate",
-          "value": "C"
+          "content": "Unfortunate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Often",
-          "value": "D"
+          "content": "Often"
         }
       ],
       "correct_answer": "A",
@@ -362,23 +402,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "divided",
-          "value": "A"
+          "content": "divided"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "advertised",
-          "value": "B"
+          "content": "advertised"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "overtaxed",
-          "value": "C"
+          "content": "overtaxed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "headquartered",
-          "value": "D"
+          "content": "headquartered"
         }
       ],
       "correct_answer": "D",
@@ -400,23 +444,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "summarize",
-          "value": "A"
+          "content": "summarize"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "overstate",
-          "value": "B"
+          "content": "overstate"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "explain",
-          "value": "C"
+          "content": "explain"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "emphasize",
-          "value": "D"
+          "content": "emphasize"
         }
       ],
       "correct_answer": "C",
@@ -438,23 +486,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "factors",
-          "value": "A"
+          "content": "factors"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "stages",
-          "value": "B"
+          "content": "stages"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "levels",
-          "value": "C"
+          "content": "levels"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "methods",
-          "value": "D"
+          "content": "methods"
         }
       ],
       "correct_answer": "A",
@@ -476,23 +528,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "desirable",
-          "value": "A"
+          "content": "desirable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "sociable",
-          "value": "B"
+          "content": "sociable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reliable",
-          "value": "C"
+          "content": "reliable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reputable",
-          "value": "D"
+          "content": "reputable"
         }
       ],
       "correct_answer": "A",
@@ -514,23 +570,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "resumed",
-          "value": "A"
+          "content": "resumed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "emerged",
-          "value": "B"
+          "content": "emerged"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "held",
-          "value": "C"
+          "content": "held"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "broke",
-          "value": "D"
+          "content": "broke"
         }
       ],
       "correct_answer": "C",
@@ -552,23 +612,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assign",
-          "value": "A"
+          "content": "assign"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "attribute",
-          "value": "B"
+          "content": "attribute"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "transfer",
-          "value": "C"
+          "content": "transfer"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "compare",
-          "value": "D"
+          "content": "compare"
         }
       ],
       "correct_answer": "B",
@@ -590,23 +654,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "serious",
-          "value": "A"
+          "content": "serious"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "civilized",
-          "value": "B"
+          "content": "civilized"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ambitious",
-          "value": "C"
+          "content": "ambitious"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "experienced",
-          "value": "D"
+          "content": "experienced"
         }
       ],
       "correct_answer": "D",
@@ -628,23 +696,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "instead",
-          "value": "A"
+          "content": "instead"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "thus",
-          "value": "B"
+          "content": "thus"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "also",
-          "value": "C"
+          "content": "also"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "never",
-          "value": "D"
+          "content": "never"
         }
       ],
       "correct_answer": "C",
@@ -666,23 +738,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "rapidly",
-          "value": "A"
+          "content": "rapidly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "directly",
-          "value": "B"
+          "content": "directly"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "regularly",
-          "value": "C"
+          "content": "regularly"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "equally",
-          "value": "D"
+          "content": "equally"
         }
       ],
       "correct_answer": "D",
@@ -704,23 +780,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "While",
-          "value": "A"
+          "content": "While"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Until",
-          "value": "B"
+          "content": "Until"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "After",
-          "value": "C"
+          "content": "After"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Since",
-          "value": "D"
+          "content": "Since"
         }
       ],
       "correct_answer": "A",
@@ -742,23 +822,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "arrives",
-          "value": "A"
+          "content": "arrives"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "jumps",
-          "value": "B"
+          "content": "jumps"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "hints",
-          "value": "C"
+          "content": "hints"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "strikes",
-          "value": "D"
+          "content": "strikes"
         }
       ],
       "correct_answer": "C",
@@ -780,23 +864,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "share",
-          "value": "A"
+          "content": "share"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rediscover",
-          "value": "B"
+          "content": "rediscover"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "simplify",
-          "value": "C"
+          "content": "simplify"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "shape",
-          "value": "D"
+          "content": "shape"
         }
       ],
       "correct_answer": "D",
@@ -818,23 +906,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pray for",
-          "value": "A"
+          "content": "pray for"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lean towards",
-          "value": "B"
+          "content": "lean towards"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "send out",
-          "value": "C"
+          "content": "send out"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "give away",
-          "value": "D"
+          "content": "give away"
         }
       ],
       "correct_answer": "B",
@@ -856,23 +948,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "complete future job training",
-          "value": "A"
+          "content": "complete future job training"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "remodel the way of thinking",
-          "value": "B"
+          "content": "remodel the way of thinking"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "formulate logical hypotheses",
-          "value": "C"
+          "content": "formulate logical hypotheses"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "perfect artwork production",
-          "value": "D"
+          "content": "perfect artwork production"
         }
       ],
       "correct_answer": "B",
@@ -894,23 +990,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "experience",
-          "value": "A"
+          "content": "experience"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interest",
-          "value": "B"
+          "content": "interest"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "career prospects",
-          "value": "C"
+          "content": "career prospects"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "academic backgrounds",
-          "value": "D"
+          "content": "academic backgrounds"
         }
       ],
       "correct_answer": "B",
@@ -932,23 +1032,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "help students learn other subjects",
-          "value": "A"
+          "content": "help students learn other subjects"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "foster students' creativity in gaming",
-          "value": "B"
+          "content": "foster students' creativity in gaming"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "need improving when students look for jobs",
-          "value": "C"
+          "content": "need improving when students look for jobs"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enable students to make big quick money",
-          "value": "D"
+          "content": "enable students to make big quick money"
         }
       ],
       "correct_answer": "A",
@@ -970,23 +1074,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "bring fresh vitality to the school",
-          "value": "A"
+          "content": "bring fresh vitality to the school"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "stay longer in the information technology industry",
-          "value": "B"
+          "content": "stay longer in the information technology industry"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "become articulate about technical issues",
-          "value": "C"
+          "content": "become articulate about technical issues"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "compete with a future army of programmers",
-          "value": "D"
+          "content": "compete with a future army of programmers"
         }
       ],
       "correct_answer": "C",
@@ -1008,23 +1116,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "persuade",
-          "value": "A"
+          "content": "persuade"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "frighten",
-          "value": "B"
+          "content": "frighten"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "misguide",
-          "value": "C"
+          "content": "misguide"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "challenge",
-          "value": "D"
+          "content": "challenge"
         }
       ],
       "correct_answer": "A",
@@ -1046,23 +1158,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "its drastically decreased population",
-          "value": "A"
+          "content": "its drastically decreased population"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the underestimate of the grassland acreage",
-          "value": "B"
+          "content": "the underestimate of the grassland acreage"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "a desperate appeal from some biologists",
-          "value": "C"
+          "content": "a desperate appeal from some biologists"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the insistence of private landowners",
-          "value": "D"
+          "content": "the insistence of private landowners"
         }
       ],
       "correct_answer": "A",
@@ -1084,23 +1200,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "was a give-in to governmental pressure",
-          "value": "A"
+          "content": "was a give-in to governmental pressure"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "would involve fewer agencies in action",
-          "value": "B"
+          "content": "would involve fewer agencies in action"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "granted less federal regulatory power",
-          "value": "C"
+          "content": "granted less federal regulatory power"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "went against conservation policies",
-          "value": "D"
+          "content": "went against conservation policies"
         }
       ],
       "correct_answer": "C",
@@ -1122,23 +1242,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prosecuted by other agencies",
-          "value": "A"
+          "content": "prosecuted by other agencies"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "volunteered to set up an equally big habitat",
-          "value": "B"
+          "content": "volunteered to set up an equally big habitat"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "fined for violating the conservation plan",
-          "value": "C"
+          "content": "fined for violating the conservation plan"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "exempt from federal criminal penalties",
-          "value": "D"
+          "content": "exempt from federal criminal penalties"
         }
       ],
       "correct_answer": "A",
@@ -1160,23 +1284,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the federal government",
-          "value": "A"
+          "content": "the federal government"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the wildlife agencies",
-          "value": "B"
+          "content": "the wildlife agencies"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the local landowners",
-          "value": "C"
+          "content": "the local landowners"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the states",
-          "value": "D"
+          "content": "the states"
         }
       ],
       "correct_answer": "D",
@@ -1198,23 +1326,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the industry-friendly compromise",
-          "value": "A"
+          "content": "the industry-friendly compromise"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the win-win rhetoric",
-          "value": "B"
+          "content": "the win-win rhetoric"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "environmental groups",
-          "value": "C"
+          "content": "environmental groups"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the plan under challenge",
-          "value": "D"
+          "content": "the plan under challenge"
         }
       ],
       "correct_answer": "C",
@@ -1236,23 +1368,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "what they can offer does not ease the modern mind",
-          "value": "A"
+          "content": "what they can offer does not ease the modern mind"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "what challenging books demand is repetitive reading",
-          "value": "B"
+          "content": "what challenging books demand is repetitive reading"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "what people often forget is carrying a book with them",
-          "value": "C"
+          "content": "what people often forget is carrying a book with them"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "what deep reading requires cannot be guaranteed",
-          "value": "D"
+          "content": "what deep reading requires cannot be guaranteed"
         }
       ],
       "correct_answer": "D",
@@ -1274,23 +1410,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pursue material consumption",
-          "value": "A"
+          "content": "pursue material consumption"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "make passing time fulfilling",
-          "value": "B"
+          "content": "make passing time fulfilling"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "carry their plans through",
-          "value": "C"
+          "content": "carry their plans through"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "pursue carefree reading",
-          "value": "D"
+          "content": "pursue carefree reading"
         }
       ],
       "correct_answer": "B",
@@ -1312,23 +1452,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "encourage the efficiency mind-set",
-          "value": "A"
+          "content": "encourage the efficiency mind-set"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "develop online reading habits",
-          "value": "B"
+          "content": "develop online reading habits"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "promote ritualistic reading",
-          "value": "C"
+          "content": "promote ritualistic reading"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "achieve immersive reading",
-          "value": "D"
+          "content": "achieve immersive reading"
         }
       ],
       "correct_answer": "D",
@@ -1350,23 +1494,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reading becomes your primary business of the day",
-          "value": "A"
+          "content": "reading becomes your primary business of the day"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "all the daily business has been promptly dealt with",
-          "value": "B"
+          "content": "all the daily business has been promptly dealt with"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "distractions can be completely avoided",
-          "value": "C"
+          "content": "distractions can be completely avoided"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "time can be evenly split for reading and business",
-          "value": "D"
+          "content": "time can be evenly split for reading and business"
         }
       ],
       "correct_answer": "A",
@@ -1388,23 +1536,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "How to Enjoy Easy Reading",
-          "value": "A"
+          "content": "How to Enjoy Easy Reading"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "How to Find Time to Read",
-          "value": "B"
+          "content": "How to Find Time to Read"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "How to Set Reading Goals",
-          "value": "C"
+          "content": "How to Set Reading Goals"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "How to Read Extensively",
-          "value": "D"
+          "content": "How to Read Extensively"
         }
       ],
       "correct_answer": "B",
@@ -1426,23 +1578,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "trying out different lifestyles",
-          "value": "A"
+          "content": "trying out different lifestyles"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "having a family with children",
-          "value": "B"
+          "content": "having a family with children"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "working beyond retirement age",
-          "value": "C"
+          "content": "working beyond retirement age"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "setting up a profitable business",
-          "value": "D"
+          "content": "setting up a profitable business"
         }
       ],
       "correct_answer": "B",
@@ -1464,23 +1620,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "favor a slower life pace",
-          "value": "A"
+          "content": "favor a slower life pace"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "hold an occupation longer",
-          "value": "B"
+          "content": "hold an occupation longer"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "attach less importance to marriage",
-          "value": "C"
+          "content": "attach less importance to marriage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "give priority to childcare outside the home",
-          "value": "D"
+          "content": "give priority to childcare outside the home"
         }
       ],
       "correct_answer": "C",
@@ -1502,23 +1662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "become outdated soon",
-          "value": "A"
+          "content": "become outdated soon"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "focus on materialistic issues",
-          "value": "B"
+          "content": "focus on materialistic issues"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "depend largely on political preferences",
-          "value": "C"
+          "content": "depend largely on political preferences"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reach almost all aspects of American life",
-          "value": "D"
+          "content": "reach almost all aspects of American life"
         }
       ],
       "correct_answer": "D",
@@ -1540,23 +1704,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "good-paying jobs are less available",
-          "value": "A"
+          "content": "good-paying jobs are less available"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the old made more life achievements",
-          "value": "B"
+          "content": "the old made more life achievements"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "social security is well preserved",
-          "value": "C"
+          "content": "social security is well preserved"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "getting established is harder for the young",
-          "value": "D"
+          "content": "getting established is harder for the young"
         }
       ],
       "correct_answer": "D",
@@ -1578,23 +1746,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "He found a dream job after graduating from college.",
-          "value": "A"
+          "content": "He found a dream job after graduating from college."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "His parents believe working steadily is a must for success.",
-          "value": "B"
+          "content": "His parents believe working steadily is a must for success."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "His parents' good life has little to do with a college degree.",
-          "value": "C"
+          "content": "His parents' good life has little to do with a college degree."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "He thinks his job as a technician quite challenging.",
-          "value": "D"
+          "content": "He thinks his job as a technician quite challenging."
         }
       ],
       "correct_answer": "C",
@@ -1616,38 +1788,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Be silly",
-          "value": "A"
+          "content": "Be silly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Have fun",
-          "value": "B"
+          "content": "Have fun"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Ask for help",
-          "value": "C"
+          "content": "Ask for help"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Express your emotions",
-          "value": "D"
+          "content": "Express your emotions"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Don't overthink it",
-          "value": "E"
+          "content": "Don't overthink it"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be easily pleased",
-          "value": "F"
+          "content": "Be easily pleased"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Notice things",
-          "value": "G"
+          "content": "Notice things"
         }
       ],
       "correct_answer": "D",
@@ -1669,38 +1848,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Be silly",
-          "value": "A"
+          "content": "Be silly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Have fun",
-          "value": "B"
+          "content": "Have fun"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Ask for help",
-          "value": "C"
+          "content": "Ask for help"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Express your emotions",
-          "value": "D"
+          "content": "Express your emotions"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Don't overthink it",
-          "value": "E"
+          "content": "Don't overthink it"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be easily pleased",
-          "value": "F"
+          "content": "Be easily pleased"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Notice things",
-          "value": "G"
+          "content": "Notice things"
         }
       ],
       "correct_answer": "F",
@@ -1722,38 +1908,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Be silly",
-          "value": "A"
+          "content": "Be silly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Have fun",
-          "value": "B"
+          "content": "Have fun"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Ask for help",
-          "value": "C"
+          "content": "Ask for help"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Express your emotions",
-          "value": "D"
+          "content": "Express your emotions"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Don't overthink it",
-          "value": "E"
+          "content": "Don't overthink it"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be easily pleased",
-          "value": "F"
+          "content": "Be easily pleased"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Notice things",
-          "value": "G"
+          "content": "Notice things"
         }
       ],
       "correct_answer": "A",
@@ -1775,38 +1968,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Be silly",
-          "value": "A"
+          "content": "Be silly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Have fun",
-          "value": "B"
+          "content": "Have fun"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Ask for help",
-          "value": "C"
+          "content": "Ask for help"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Express your emotions",
-          "value": "D"
+          "content": "Express your emotions"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Don't overthink it",
-          "value": "E"
+          "content": "Don't overthink it"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be easily pleased",
-          "value": "F"
+          "content": "Be easily pleased"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Notice things",
-          "value": "G"
+          "content": "Notice things"
         }
       ],
       "correct_answer": "B",
@@ -1828,38 +2028,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Be silly",
-          "value": "A"
+          "content": "Be silly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Have fun",
-          "value": "B"
+          "content": "Have fun"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Ask for help",
-          "value": "C"
+          "content": "Ask for help"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Express your emotions",
-          "value": "D"
+          "content": "Express your emotions"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Don't overthink it",
-          "value": "E"
+          "content": "Don't overthink it"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Be easily pleased",
-          "value": "F"
+          "content": "Be easily pleased"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Notice things",
-          "value": "G"
+          "content": "Notice things"
         }
       ],
       "correct_answer": "E",

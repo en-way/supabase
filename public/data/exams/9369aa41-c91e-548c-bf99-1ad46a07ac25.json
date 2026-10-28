@@ -104,19 +104,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Suppose"
+          "value": "A",
+          "text": "Suppose",
+          "content": "Suppose"
         },
         {
           "key": "B",
-          "text": "Consider"
+          "value": "B",
+          "text": "Consider",
+          "content": "Consider"
         },
         {
           "key": "C",
-          "text": "Observe"
+          "value": "C",
+          "text": "Observe",
+          "content": "Observe"
         },
         {
           "key": "D",
-          "text": "Imagine"
+          "value": "D",
+          "text": "Imagine",
+          "content": "Imagine"
         }
       ],
       "answer": "B",
@@ -137,19 +145,27 @@
       "options": [
         {
           "key": "A",
-          "text": "tended (to do)"
+          "value": "A",
+          "text": "tended",
+          "content": "tended"
         },
         {
           "key": "B",
-          "text": "feared (to do)"
+          "value": "B",
+          "text": "feared",
+          "content": "feared"
         },
         {
           "key": "C",
-          "text": "happened (to do)"
+          "value": "C",
+          "text": "happened",
+          "content": "happened"
         },
         {
           "key": "D",
-          "text": "threatened (to do)"
+          "value": "D",
+          "text": "threatened",
+          "content": "threatened"
         }
       ],
       "answer": "A",
@@ -170,19 +186,27 @@
       "options": [
         {
           "key": "A",
-          "text": "thinner"
+          "value": "A",
+          "text": "thinner",
+          "content": "thinner"
         },
         {
           "key": "B",
-          "text": "stabler"
+          "value": "B",
+          "text": "stabler",
+          "content": "stabler"
         },
         {
           "key": "C",
-          "text": "lighter"
+          "value": "C",
+          "text": "lighter",
+          "content": "lighter"
         },
         {
           "key": "D",
-          "text": "dimmer"
+          "value": "D",
+          "text": "dimmer",
+          "content": "dimmer"
         }
       ],
       "answer": "D",
@@ -203,19 +227,27 @@
       "options": [
         {
           "key": "A",
-          "text": "tendency"
+          "value": "A",
+          "text": "tendency",
+          "content": "tendency"
         },
         {
           "key": "B",
-          "text": "advantage"
+          "value": "B",
+          "text": "advantage",
+          "content": "advantage"
         },
         {
           "key": "C",
-          "text": "inclination"
+          "value": "C",
+          "text": "inclination",
+          "content": "inclination"
         },
         {
           "key": "D",
-          "text": "priority"
+          "value": "D",
+          "text": "priority",
+          "content": "priority"
         }
       ],
       "answer": "B",
@@ -236,19 +268,27 @@
       "options": [
         {
           "key": "A",
-          "text": "insists on"
+          "value": "A",
+          "text": "insists on",
+          "content": "insists on"
         },
         {
           "key": "B",
-          "text": "sums up"
+          "value": "B",
+          "text": "sums up",
+          "content": "sums up"
         },
         {
           "key": "C",
-          "text": "turns out"
+          "value": "C",
+          "text": "turns out",
+          "content": "turns out"
         },
         {
           "key": "D",
-          "text": "puts forward"
+          "value": "D",
+          "text": "puts forward",
+          "content": "puts forward"
         }
       ],
       "answer": "C",
@@ -269,19 +309,27 @@
       "options": [
         {
           "key": "A",
-          "text": "off"
+          "value": "A",
+          "text": "off",
+          "content": "off"
         },
         {
           "key": "B",
-          "text": "behind"
+          "value": "B",
+          "text": "behind",
+          "content": "behind"
         },
         {
           "key": "C",
-          "text": "over"
+          "value": "C",
+          "text": "over",
+          "content": "over"
         },
         {
           "key": "D",
-          "text": "along"
+          "value": "D",
+          "text": "along",
+          "content": "along"
         }
       ],
       "answer": "A",
@@ -302,19 +350,27 @@
       "options": [
         {
           "key": "A",
-          "text": "incredible"
+          "value": "A",
+          "text": "incredible",
+          "content": "incredible"
         },
         {
           "key": "B",
-          "text": "spontaneous"
+          "value": "B",
+          "text": "spontaneous",
+          "content": "spontaneous"
         },
         {
           "key": "C",
-          "text": "inevitable"
+          "value": "C",
+          "text": "inevitable",
+          "content": "inevitable"
         },
         {
           "key": "D",
-          "text": "gradual"
+          "value": "D",
+          "text": "gradual",
+          "content": "gradual"
         }
       ],
       "answer": "D",
@@ -335,19 +391,27 @@
       "options": [
         {
           "key": "A",
-          "text": "fight"
+          "value": "A",
+          "text": "fight",
+          "content": "fight"
         },
         {
           "key": "B",
-          "text": "doubt"
+          "value": "B",
+          "text": "doubt",
+          "content": "doubt"
         },
         {
           "key": "C",
-          "text": "stop"
+          "value": "C",
+          "text": "stop",
+          "content": "stop"
         },
         {
           "key": "D",
-          "text": "think"
+          "value": "D",
+          "text": "think",
+          "content": "think"
         }
       ],
       "answer": "C",
@@ -368,19 +432,27 @@
       "options": [
         {
           "key": "A",
-          "text": "invisible"
+          "value": "A",
+          "text": "invisible",
+          "content": "invisible"
         },
         {
           "key": "B",
-          "text": "limited"
+          "value": "B",
+          "text": "limited",
+          "content": "limited"
         },
         {
           "key": "C",
-          "text": "indefinite"
+          "value": "C",
+          "text": "indefinite",
+          "content": "indefinite"
         },
         {
           "key": "D",
-          "text": "different"
+          "value": "D",
+          "text": "different",
+          "content": "different"
         }
       ],
       "answer": "B",
@@ -401,19 +473,27 @@
       "options": [
         {
           "key": "A",
-          "text": "upward"
+          "value": "A",
+          "text": "upward",
+          "content": "upward"
         },
         {
           "key": "B",
-          "text": "forward"
+          "value": "B",
+          "text": "forward",
+          "content": "forward"
         },
         {
           "key": "C",
-          "text": "afterward"
+          "value": "C",
+          "text": "afterward",
+          "content": "afterward"
         },
         {
           "key": "D",
-          "text": "backward"
+          "value": "D",
+          "text": "backward",
+          "content": "backward"
         }
       ],
       "answer": "D",
@@ -434,19 +514,27 @@
       "options": [
         {
           "key": "A",
-          "text": "features"
+          "value": "A",
+          "text": "features",
+          "content": "features"
         },
         {
           "key": "B",
-          "text": "influences"
+          "value": "B",
+          "text": "influences",
+          "content": "influences"
         },
         {
           "key": "C",
-          "text": "results"
+          "value": "C",
+          "text": "results",
+          "content": "results"
         },
         {
           "key": "D",
-          "text": "costs"
+          "value": "D",
+          "text": "costs",
+          "content": "costs"
         }
       ],
       "answer": "D",
@@ -467,19 +555,27 @@
       "options": [
         {
           "key": "A",
-          "text": "outside"
+          "value": "A",
+          "text": "outside",
+          "content": "outside"
         },
         {
           "key": "B",
-          "text": "on"
+          "value": "B",
+          "text": "on",
+          "content": "on"
         },
         {
           "key": "C",
-          "text": "by"
+          "value": "C",
+          "text": "by",
+          "content": "by"
         },
         {
           "key": "D",
-          "text": "across"
+          "value": "D",
+          "text": "across",
+          "content": "across"
         }
       ],
       "answer": "B",
@@ -500,19 +596,27 @@
       "options": [
         {
           "key": "A",
-          "text": "deliver"
+          "value": "A",
+          "text": "agree",
+          "content": "agree"
         },
         {
           "key": "B",
-          "text": "carry"
+          "value": "B",
+          "text": "belong",
+          "content": "belong"
         },
         {
           "key": "C",
-          "text": "perform"
+          "value": "C",
+          "text": "refer",
+          "content": "refer"
         },
         {
           "key": "D",
-          "text": "apply (to)"
+          "value": "D",
+          "text": "apply",
+          "content": "apply"
         }
       ],
       "answer": "C",
@@ -533,19 +637,27 @@
       "options": [
         {
           "key": "A",
-          "text": "by chance"
+          "value": "A",
+          "text": "by chance",
+          "content": "by chance"
         },
         {
           "key": "B",
-          "text": "in contrast"
+          "value": "B",
+          "text": "in contrast",
+          "content": "in contrast"
         },
         {
           "key": "C",
-          "text": "as usual"
+          "value": "C",
+          "text": "as usual",
+          "content": "as usual"
         },
         {
           "key": "D",
-          "text": "for instance"
+          "value": "D",
+          "text": "for instance",
+          "content": "for instance"
         }
       ],
       "answer": "D",
@@ -566,19 +678,27 @@
       "options": [
         {
           "key": "A",
-          "text": "if"
+          "value": "A",
+          "text": "if",
+          "content": "if"
         },
         {
           "key": "B",
-          "text": "unless"
+          "value": "B",
+          "text": "unless",
+          "content": "unless"
         },
         {
           "key": "C",
-          "text": "as"
+          "value": "C",
+          "text": "as",
+          "content": "as"
         },
         {
           "key": "D",
-          "text": "lest"
+          "value": "D",
+          "text": "lest",
+          "content": "lest"
         }
       ],
       "answer": "A",
@@ -599,19 +719,27 @@
       "options": [
         {
           "key": "A",
-          "text": "moderate"
+          "value": "A",
+          "text": "moderate",
+          "content": "moderate"
         },
         {
           "key": "B",
-          "text": "overcome"
+          "value": "B",
+          "text": "overcome",
+          "content": "overcome"
         },
         {
           "key": "C",
-          "text": "determine"
+          "value": "C",
+          "text": "determine",
+          "content": "determine"
         },
         {
           "key": "D",
-          "text": "reach"
+          "value": "D",
+          "text": "reach",
+          "content": "reach"
         }
       ],
       "answer": "C",
@@ -632,19 +760,27 @@
       "options": [
         {
           "key": "A",
-          "text": "at"
+          "value": "A",
+          "text": "at",
+          "content": "at"
         },
         {
           "key": "B",
-          "text": "for"
+          "value": "B",
+          "text": "for",
+          "content": "for"
         },
         {
           "key": "C",
-          "text": "after"
+          "value": "C",
+          "text": "after",
+          "content": "after"
         },
         {
           "key": "D",
-          "text": "with"
+          "value": "D",
+          "text": "with",
+          "content": "with"
         }
       ],
       "answer": "B",
@@ -665,19 +801,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Above all"
+          "value": "A",
+          "text": "Above all",
+          "content": "Above all"
         },
         {
           "key": "B",
-          "text": "After all"
+          "value": "B",
+          "text": "After all",
+          "content": "After all"
         },
         {
           "key": "C",
-          "text": "However"
+          "value": "C",
+          "text": "However",
+          "content": "However"
         },
         {
           "key": "D",
-          "text": "Otherwise"
+          "value": "D",
+          "text": "Otherwise",
+          "content": "Otherwise"
         }
       ],
       "answer": "A",
@@ -698,19 +842,27 @@
       "options": [
         {
           "key": "A",
-          "text": "fundamental"
+          "value": "A",
+          "text": "fundamental",
+          "content": "fundamental"
         },
         {
           "key": "B",
-          "text": "comprehensive"
+          "value": "B",
+          "text": "comprehensive",
+          "content": "comprehensive"
         },
         {
           "key": "C",
-          "text": "equivalent"
+          "value": "C",
+          "text": "equivalent",
+          "content": "equivalent"
         },
         {
           "key": "D",
-          "text": "hostile"
+          "value": "D",
+          "text": "hostile",
+          "content": "hostile"
         }
       ],
       "answer": "A",
@@ -731,19 +883,27 @@
       "options": [
         {
           "key": "A",
-          "text": "By accident"
+          "value": "A",
+          "text": "By accident",
+          "content": "By accident"
         },
         {
           "key": "B",
-          "text": "In time"
+          "value": "B",
+          "text": "In time",
+          "content": "In time"
         },
         {
           "key": "C",
-          "text": "So far"
+          "value": "C",
+          "text": "So far",
+          "content": "So far"
         },
         {
           "key": "D",
-          "text": "Better still"
+          "value": "D",
+          "text": "Better still",
+          "content": "Better still"
         }
       ],
       "answer": "C",
@@ -764,19 +924,27 @@
       "options": [
         {
           "key": "A",
-          "text": "casual"
+          "value": "A",
+          "text": "casual",
+          "content": "casual"
         },
         {
           "key": "B",
-          "text": "familiar"
+          "value": "B",
+          "text": "familiar",
+          "content": "familiar"
         },
         {
           "key": "C",
-          "text": "mechanical"
+          "value": "C",
+          "text": "mechanical",
+          "content": "mechanical"
         },
         {
           "key": "D",
-          "text": "changeable"
+          "value": "D",
+          "text": "changeable",
+          "content": "changeable"
         }
       ],
       "answer": "C",
@@ -797,19 +965,27 @@
       "options": [
         {
           "key": "A",
-          "text": "predicted"
+          "value": "A",
+          "text": "predicted",
+          "content": "predicted"
         },
         {
           "key": "B",
-          "text": "regulated"
+          "value": "B",
+          "text": "regulated",
+          "content": "regulated"
         },
         {
           "key": "C",
-          "text": "traced"
+          "value": "C",
+          "text": "traced",
+          "content": "traced"
         },
         {
           "key": "D",
-          "text": "guided"
+          "value": "D",
+          "text": "guided",
+          "content": "guided"
         }
       ],
       "answer": "D",
@@ -830,19 +1006,27 @@
       "options": [
         {
           "key": "A",
-          "text": "tracks"
+          "value": "A",
+          "text": "tracks",
+          "content": "tracks"
         },
         {
           "key": "B",
-          "text": "series"
+          "value": "B",
+          "text": "series",
+          "content": "series"
         },
         {
           "key": "C",
-          "text": "characteristics"
+          "value": "C",
+          "text": "characteristics",
+          "content": "characteristics"
         },
         {
           "key": "D",
-          "text": "connections"
+          "value": "D",
+          "text": "connections",
+          "content": "connections"
         }
       ],
       "answer": "A",
@@ -863,19 +1047,27 @@
       "options": [
         {
           "key": "A",
-          "text": "ideas are born of a relaxing mind"
+          "value": "A",
+          "text": "ideas are born of a relaxing mind",
+          "content": "ideas are born of a relaxing mind"
         },
         {
           "key": "B",
-          "text": "innovativeness could be taught"
+          "value": "B",
+          "text": "innovativeness could be taught",
+          "content": "innovativeness could be taught"
         },
         {
           "key": "C",
-          "text": "decisiveness derives from fantastic ideas"
+          "value": "C",
+          "text": "decisiveness derives from fantastic ideas",
+          "content": "decisiveness derives from fantastic ideas"
         },
         {
           "key": "D",
-          "text": "curiosity activates creative minds"
+          "value": "D",
+          "text": "curiosity activates creative minds",
+          "content": "curiosity activates creative minds"
         }
       ],
       "answer": "D",
@@ -896,19 +1088,27 @@
       "options": [
         {
           "key": "A",
-          "text": "prevents new habits from being formed"
+          "value": "A",
+          "text": "prevents new habits from being formed",
+          "content": "prevents new habits from being formed"
         },
         {
           "key": "B",
-          "text": "no longer emphasizes commonness"
+          "value": "B",
+          "text": "no longer emphasizes commonness",
+          "content": "no longer emphasizes commonness"
         },
         {
           "key": "C",
-          "text": "maintains the inherent American thinking mode"
+          "value": "C",
+          "text": "maintains the inherent American thinking mode",
+          "content": "maintains the inherent American thinking mode"
         },
         {
           "key": "D",
-          "text": "complies with the American belief system"
+          "value": "D",
+          "text": "complies with the American belief system",
+          "content": "complies with the American belief system"
         }
       ],
       "answer": "A",
@@ -929,19 +1129,27 @@
       "options": [
         {
           "key": "A",
-          "text": "easy availability"
+          "value": "A",
+          "text": "easy availability",
+          "content": "easy availability"
         },
         {
           "key": "B",
-          "text": "flexibility in pricing"
+          "value": "B",
+          "text": "flexibility in pricing",
+          "content": "flexibility in pricing"
         },
         {
           "key": "C",
-          "text": "successful promotion"
+          "value": "C",
+          "text": "successful promotion",
+          "content": "successful promotion"
         },
         {
           "key": "D",
-          "text": "popularity with households"
+          "value": "D",
+          "text": "popularity with households",
+          "content": "popularity with households"
         }
       ],
       "answer": "A",
@@ -962,19 +1170,27 @@
       "options": [
         {
           "key": "A",
-          "text": "locate one's birth place"
+          "value": "A",
+          "text": "locate one's birth place",
+          "content": "locate one's birth place"
         },
         {
           "key": "B",
-          "text": "promote genetic research"
+          "value": "B",
+          "text": "promote genetic research",
+          "content": "promote genetic research"
         },
         {
           "key": "C",
-          "text": "identify parent-child kinship"
+          "value": "C",
+          "text": "identify parent-child kinship",
+          "content": "identify parent-child kinship"
         },
         {
           "key": "D",
-          "text": "choose children for adoption"
+          "value": "D",
+          "text": "choose children for adoption",
+          "content": "choose children for adoption"
         }
       ],
       "answer": "C",
@@ -995,19 +1211,27 @@
       "options": [
         {
           "key": "A",
-          "text": "trace distant ancestors"
+          "value": "A",
+          "text": "trace distant ancestors",
+          "content": "trace distant ancestors"
         },
         {
           "key": "B",
-          "text": "rebuild reliable bloodlines"
+          "value": "B",
+          "text": "rebuild reliable bloodlines",
+          "content": "rebuild reliable bloodlines"
         },
         {
           "key": "C",
-          "text": "fully use genetic information"
+          "value": "C",
+          "text": "fully use genetic information",
+          "content": "fully use genetic information"
         },
         {
           "key": "D",
-          "text": "achieve the claimed accuracy"
+          "value": "D",
+          "text": "achieve the claimed accuracy",
+          "content": "achieve the claimed accuracy"
         }
       ],
       "answer": "D",
@@ -1028,23 +1252,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disorganized data collection",
-          "value": "A"
+          "content": "disorganized data collection"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "overlapping database building",
-          "value": "B"
+          "content": "overlapping database building"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "excessive sample comparison",
-          "value": "C"
+          "content": "excessive sample comparison"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "lack of patent evaluation",
-          "value": "D"
+          "content": "lack of patent evaluation"
         }
       ],
       "answer": "A",
@@ -1065,23 +1293,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Fors and Againsts of DNA Testing",
-          "value": "A"
+          "content": "Fors and Againsts of DNA Testing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "DNA Testing and Its Problems",
-          "value": "B"
+          "content": "DNA Testing and Its Problems"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "DNA Testing Outside the Lab",
-          "value": "C"
+          "content": "DNA Testing Outside the Lab"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Lies Behind DNA Testing",
-          "value": "D"
+          "content": "Lies Behind DNA Testing"
         }
       ],
       "answer": "B",
@@ -1102,19 +1334,27 @@
       "options": [
         {
           "key": "A",
-          "text": "is subject to groundless doubts"
+          "value": "A",
+          "text": "is subject to groundless doubts",
+          "content": "is subject to groundless doubts"
         },
         {
           "key": "B",
-          "text": "has fallen victim of bias"
+          "value": "B",
+          "text": "has fallen victim of bias",
+          "content": "has fallen victim of bias"
         },
         {
           "key": "C",
-          "text": "is conventionally downgraded"
+          "value": "C",
+          "text": "is conventionally downgraded",
+          "content": "is conventionally downgraded"
         },
         {
           "key": "D",
-          "text": "has been overestimated"
+          "value": "D",
+          "text": "has been overestimated",
+          "content": "has been overestimated"
         }
       ],
       "answer": "D",
@@ -1135,19 +1375,27 @@
       "options": [
         {
           "key": "A",
-          "text": "challenges economists and politicians"
+          "value": "A",
+          "text": "challenges economists and politicians",
+          "content": "challenges economists and politicians"
         },
         {
           "key": "B",
-          "text": "takes efforts of generations"
+          "value": "B",
+          "text": "takes efforts of generations",
+          "content": "takes efforts of generations"
         },
         {
           "key": "C",
-          "text": "demands priority from the government"
+          "value": "C",
+          "text": "demands priority from the government",
+          "content": "demands priority from the government"
         },
         {
           "key": "D",
-          "text": "requires sufficient labor force"
+          "value": "D",
+          "text": "requires sufficient labor force",
+          "content": "requires sufficient labor force"
         }
       ],
       "answer": "B",
@@ -1168,19 +1416,27 @@
       "options": [
         {
           "key": "A",
-          "text": "the Japanese workforce is better disciplined"
+          "value": "A",
+          "text": "the Japanese workforce is better disciplined",
+          "content": "the Japanese workforce is better disciplined"
         },
         {
           "key": "B",
-          "text": "the Japanese workforce is more productive"
+          "value": "B",
+          "text": "the Japanese workforce is more productive",
+          "content": "the Japanese workforce is more productive"
         },
         {
           "key": "C",
-          "text": "the U.S. workforce has a better education"
+          "value": "C",
+          "text": "the U.S. workforce has a better education",
+          "content": "the U.S. workforce has a better education"
         },
         {
           "key": "D",
-          "text": "the U.S. workforce is more organized"
+          "value": "D",
+          "text": "the U.S. workforce is more organized",
+          "content": "the U.S. workforce is more organized"
         }
       ],
       "answer": "B",
@@ -1201,19 +1457,27 @@
       "options": [
         {
           "key": "A",
-          "text": "when people had enough time"
+          "value": "A",
+          "text": "when people had enough time",
+          "content": "when people had enough time"
         },
         {
           "key": "B",
-          "text": "prior to better ways of finding food"
+          "value": "B",
+          "text": "prior to better ways of finding food",
+          "content": "prior to better ways of finding food"
         },
         {
           "key": "C",
-          "text": "when people no longer went hungry"
+          "value": "C",
+          "text": "when people no longer went hungry",
+          "content": "when people no longer went hungry"
         },
         {
           "key": "D",
-          "text": "as a result of pressure on government"
+          "value": "D",
+          "text": "as a result of pressure on government",
+          "content": "as a result of pressure on government"
         }
       ],
       "answer": "C",
@@ -1234,19 +1498,27 @@
       "options": [
         {
           "key": "A",
-          "text": "results directly from competitive environments"
+          "value": "A",
+          "text": "results directly from competitive environments",
+          "content": "results directly from competitive environments"
         },
         {
           "key": "B",
-          "text": "does not depend on economic performance"
+          "value": "B",
+          "text": "does not depend on economic performance",
+          "content": "does not depend on economic performance"
         },
         {
           "key": "C",
-          "text": "follows improved productivity"
+          "value": "C",
+          "text": "follows improved productivity",
+          "content": "follows improved productivity"
         },
         {
           "key": "D",
-          "text": "cannot afford political changes"
+          "value": "D",
+          "text": "cannot afford political changes",
+          "content": "cannot afford political changes"
         }
       ],
       "answer": "C",
@@ -1267,19 +1539,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Puritan tradition dominated political life"
+          "value": "A",
+          "text": "Puritan tradition dominated political life",
+          "content": "Puritan tradition dominated political life"
         },
         {
           "key": "B",
-          "text": "intellectual interests were encouraged"
+          "value": "B",
+          "text": "intellectual interests were encouraged",
+          "content": "intellectual interests were encouraged"
         },
         {
           "key": "C",
-          "text": "politics benefited much from intellectual endeavors"
+          "value": "C",
+          "text": "politics benefited much from intellectual endeavors",
+          "content": "politics benefited much from intellectual endeavors"
         },
         {
           "key": "D",
-          "text": "intellectual pursuits enjoyed a liberal environment"
+          "value": "D",
+          "text": "intellectual pursuits enjoyed a liberal environment",
+          "content": "intellectual pursuits enjoyed a liberal environment"
         }
       ],
       "answer": "B",
@@ -1300,19 +1580,27 @@
       "options": [
         {
           "key": "A",
-          "text": "experienced a comparatively peaceful early history"
+          "value": "A",
+          "text": "experienced a comparatively peaceful early history",
+          "content": "experienced a comparatively peaceful early history"
         },
         {
           "key": "B",
-          "text": "brought with them the culture of the Old World"
+          "value": "B",
+          "text": "brought with them the culture of the Old World",
+          "content": "brought with them the culture of the Old World"
         },
         {
           "key": "C",
-          "text": "paid little attention to southern intellectual life"
+          "value": "C",
+          "text": "paid little attention to southern intellectual life",
+          "content": "paid little attention to southern intellectual life"
         },
         {
           "key": "D",
-          "text": "were obsessed with religious innovations"
+          "value": "D",
+          "text": "were obsessed with religious innovations",
+          "content": "were obsessed with religious innovations"
         }
       ],
       "answer": "B",
@@ -1333,19 +1621,27 @@
       "options": [
         {
           "key": "A",
-          "text": "were famous in the New World for their writings"
+          "value": "A",
+          "text": "were famous in the New World for their writings",
+          "content": "were famous in the New World for their writings"
         },
         {
           "key": "B",
-          "text": "gained increasing importance in religious affairs"
+          "value": "B",
+          "text": "gained increasing importance in religious affairs",
+          "content": "gained increasing importance in religious affairs"
         },
         {
           "key": "C",
-          "text": "abandoned high positions before coming to the New World"
+          "value": "C",
+          "text": "abandoned high positions before coming to the New World",
+          "content": "abandoned high positions before coming to the New World"
         },
         {
           "key": "D",
-          "text": "created a new intellectual atmosphere in New England"
+          "value": "D",
+          "text": "created a new intellectual atmosphere in New England",
+          "content": "created a new intellectual atmosphere in New England"
         }
       ],
       "answer": "D",
@@ -1366,19 +1662,27 @@
       "options": [
         {
           "key": "A",
-          "text": "influenced by superstitions"
+          "value": "A",
+          "text": "influenced by superstitions",
+          "content": "influenced by superstitions"
         },
         {
           "key": "B",
-          "text": "troubled with religious beliefs"
+          "value": "B",
+          "text": "troubled with religious beliefs",
+          "content": "troubled with religious beliefs"
         },
         {
           "key": "C",
-          "text": "puzzled by church sermons"
+          "value": "C",
+          "text": "puzzled by church sermons",
+          "content": "puzzled by church sermons"
         },
         {
           "key": "D",
-          "text": "frustrated with family earnings"
+          "value": "D",
+          "text": "frustrated with family earnings",
+          "content": "frustrated with family earnings"
         }
       ],
       "answer": "A",
@@ -1399,19 +1703,27 @@
       "options": [
         {
           "key": "A",
-          "text": "were mostly engaged in political activities"
+          "value": "A",
+          "text": "were mostly engaged in political activities",
+          "content": "were mostly engaged in political activities"
         },
         {
           "key": "B",
-          "text": "were motivated by an illusory prospect"
+          "value": "B",
+          "text": "were motivated by an illusory prospect",
+          "content": "were motivated by an illusory prospect"
         },
         {
           "key": "C",
-          "text": "came from different intellectual backgrounds"
+          "value": "C",
+          "text": "came from different intellectual backgrounds",
+          "content": "came from different intellectual backgrounds"
         },
         {
           "key": "D",
-          "text": "left few formal records for later reference"
+          "value": "D",
+          "text": "left few formal records for later reference",
+          "content": "left few formal records for later reference"
         }
       ],
       "answer": "C",
@@ -1432,38 +1744,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism.",
-          "value": "A"
+          "content": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy.",
-          "value": "B"
+          "content": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies.",
-          "value": "C"
+          "content": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood.",
-          "value": "D"
+          "content": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved.",
-          "value": "E"
+          "content": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning.",
-          "value": "F"
+          "content": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world.",
-          "value": "G"
+          "content": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world."
         }
       ],
       "answer": "C",
@@ -1484,38 +1803,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism.",
-          "value": "A"
+          "content": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy.",
-          "value": "B"
+          "content": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies.",
-          "value": "C"
+          "content": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood.",
-          "value": "D"
+          "content": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved.",
-          "value": "E"
+          "content": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning.",
-          "value": "F"
+          "content": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world.",
-          "value": "G"
+          "content": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world."
         }
       ],
       "answer": "E",
@@ -1536,38 +1862,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism.",
-          "value": "A"
+          "content": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy.",
-          "value": "B"
+          "content": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies.",
-          "value": "C"
+          "content": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood.",
-          "value": "D"
+          "content": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved.",
-          "value": "E"
+          "content": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning.",
-          "value": "F"
+          "content": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world.",
-          "value": "G"
+          "content": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world."
         }
       ],
       "answer": "A",
@@ -1588,38 +1921,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism.",
-          "value": "A"
+          "content": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy.",
-          "value": "B"
+          "content": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies.",
-          "value": "C"
+          "content": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood.",
-          "value": "D"
+          "content": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved.",
-          "value": "E"
+          "content": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning.",
-          "value": "F"
+          "content": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world.",
-          "value": "G"
+          "content": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world."
         }
       ],
       "answer": "B",
@@ -1640,38 +1980,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism.",
-          "value": "A"
+          "content": "Other anthropologists believed that cultural innovations, such as inventions, had a single origin and passed from society to society. This theory was known as diffusionism."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy.",
-          "value": "B"
+          "content": "In order to study particular cultures as completely as possible, he became skilled in linguistics, the study of languages, and in physical anthropology, the study of human biology and anatomy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies.",
-          "value": "C"
+          "content": "He argued that human evolution was characterized by a struggle he called the \"survival of the fittest,\" in which weaker races and societies must eventually be replaced by stronger, more advanced races and societies."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood.",
-          "value": "D"
+          "content": "They also focused on important rituals that appeared to preserve a people's social structure, such as initiation ceremonies that formally signify children's entrance into adulthood."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved.",
-          "value": "E"
+          "content": "Thus, in his view, diverse aspects of culture, such as the structure of families, forms of marriage, categories of kinship, ownership of property, forms of government, technology, and systems of food production, all changed as societies evolved."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning.",
-          "value": "F"
+          "content": "Supporters of the theory viewed culture as a collection of integrated parts that work together to keep a society functioning."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world.",
-          "value": "G"
+          "content": "For example, British anthropologists Grafton Elliot Smith and W. J. Perry incorrectly suggested, on the basis of inadequate information, that farming, pottery making, and metallurgy all originated in ancient Egypt and diffused throughout the world. In fact, all of these cultural developments occurred separately at different times in many parts of the world."
         }
       ],
       "answer": "G",

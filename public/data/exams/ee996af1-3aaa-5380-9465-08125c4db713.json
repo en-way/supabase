@@ -102,27 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tedious",
-          "content": "tedious",
-          "value": "A"
+          "content": "tedious"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "pleasant",
-          "content": "pleasant",
-          "value": "B"
+          "content": "pleasant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "instructive",
-          "content": "instructive",
-          "value": "C"
+          "content": "instructive"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tricky",
-          "content": "tricky",
-          "value": "D"
+          "content": "tricky"
         }
       ],
       "correct_answer": "D",
@@ -143,27 +143,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in addition",
-          "content": "in addition",
-          "value": "A"
+          "content": "in addition"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for example",
-          "content": "for example",
-          "value": "B"
+          "content": "for example"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "at once",
-          "content": "at once",
-          "value": "C"
+          "content": "at once"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "by accident",
-          "content": "by accident",
-          "value": "D"
+          "content": "by accident"
         }
       ],
       "correct_answer": "B",
@@ -184,27 +184,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Fortunately",
-          "content": "Fortunately",
-          "value": "A"
+          "content": "Fortunately"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Occasionally",
-          "content": "Occasionally",
-          "value": "B"
+          "content": "Occasionally"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Accordingly",
-          "content": "Accordingly",
-          "value": "C"
+          "content": "Accordingly"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Eventually",
-          "content": "Eventually",
-          "value": "D"
+          "content": "Eventually"
         }
       ],
       "correct_answer": "A",
@@ -225,27 +225,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "amuse",
-          "content": "amuse",
-          "value": "A"
+          "content": "amuse"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "assist",
-          "content": "assist",
-          "value": "B"
+          "content": "assist"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "describe",
-          "content": "describe",
-          "value": "C"
+          "content": "describe"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "train",
-          "content": "train",
-          "value": "D"
+          "content": "train"
         }
       ],
       "correct_answer": "C",
@@ -266,27 +266,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "while",
-          "content": "while",
-          "value": "A"
+          "content": "while"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "because",
-          "content": "because",
-          "value": "B"
+          "content": "because"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unless",
-          "content": "unless",
-          "value": "C"
+          "content": "unless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "once",
-          "content": "once",
-          "value": "D"
+          "content": "once"
         }
       ],
       "correct_answer": "A",
@@ -307,27 +307,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "answer",
-          "content": "answer",
-          "value": "A"
+          "content": "answer"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "task",
-          "content": "task",
-          "value": "B"
+          "content": "task"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "choice",
-          "content": "choice",
-          "value": "C"
+          "content": "choice"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "access",
-          "content": "access",
-          "value": "D"
+          "content": "access"
         }
       ],
       "correct_answer": "B",
@@ -348,27 +348,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tolerant",
-          "content": "tolerant",
-          "value": "A"
+          "content": "tolerant"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "formal",
-          "content": "formal",
-          "value": "B"
+          "content": "formal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "rigid",
-          "content": "rigid",
-          "value": "C"
+          "content": "rigid"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "critical",
-          "content": "critical",
-          "value": "D"
+          "content": "critical"
         }
       ],
       "correct_answer": "A",
@@ -389,27 +389,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "move",
-          "content": "move",
-          "value": "A"
+          "content": "move"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "drag",
-          "content": "drag",
-          "value": "B"
+          "content": "drag"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "push",
-          "content": "push",
-          "value": "C"
+          "content": "push"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "send",
-          "content": "send",
-          "value": "D"
+          "content": "send"
         }
       ],
       "correct_answer": "C",
@@ -430,27 +430,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "mysterious",
-          "content": "mysterious",
-          "value": "A"
+          "content": "mysterious"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illogical",
-          "content": "illogical",
-          "value": "B"
+          "content": "illogical"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "suspicious",
-          "content": "suspicious",
-          "value": "C"
+          "content": "suspicious"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "inevitable",
-          "content": "inevitable",
-          "value": "D"
+          "content": "inevitable"
         }
       ],
       "correct_answer": "D",
@@ -471,27 +471,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "boring",
-          "content": "boring",
-          "value": "A"
+          "content": "boring"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "naive",
-          "content": "naive",
-          "value": "B"
+          "content": "naive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "harsh",
-          "content": "harsh",
-          "value": "C"
+          "content": "harsh"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "vague",
-          "content": "vague",
-          "value": "D"
+          "content": "vague"
         }
       ],
       "correct_answer": "C",
@@ -512,27 +512,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "turn back",
-          "content": "turn back",
-          "value": "A"
+          "content": "turn back"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "take apart",
-          "content": "take apart",
-          "value": "B"
+          "content": "take apart"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "set aside",
-          "content": "set aside",
-          "value": "C"
+          "content": "set aside"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cover up",
-          "content": "cover up",
-          "value": "D"
+          "content": "cover up"
         }
       ],
       "correct_answer": "A",
@@ -553,27 +553,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Overall",
-          "content": "Overall",
-          "value": "A"
+          "content": "Overall"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Instead",
-          "content": "Instead",
-          "value": "B"
+          "content": "Instead"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "However",
-          "content": "However",
-          "value": "C"
+          "content": "However"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Otherwise",
-          "content": "Otherwise",
-          "value": "D"
+          "content": "Otherwise"
         }
       ],
       "correct_answer": "C",
@@ -594,27 +594,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "like",
-          "content": "like",
-          "value": "A"
+          "content": "like"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "miss",
-          "content": "miss",
-          "value": "B"
+          "content": "miss"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "believe",
-          "content": "believe",
-          "value": "C"
+          "content": "believe"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "regret",
-          "content": "regret",
-          "value": "D"
+          "content": "regret"
         }
       ],
       "correct_answer": "D",
@@ -635,27 +635,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "raise",
-          "content": "raise",
-          "value": "A"
+          "content": "raise"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "affect",
-          "content": "affect",
-          "value": "B"
+          "content": "affect"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "justify",
-          "content": "justify",
-          "value": "C"
+          "content": "justify"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reflect",
-          "content": "reflect",
-          "value": "D"
+          "content": "reflect"
         }
       ],
       "correct_answer": "B",
@@ -676,27 +676,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "time",
-          "content": "time",
-          "value": "A"
+          "content": "time"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "bond",
-          "content": "bond",
-          "value": "B"
+          "content": "bond"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "race",
-          "content": "race",
-          "value": "C"
+          "content": "race"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cool",
-          "content": "cool",
-          "value": "D"
+          "content": "cool"
         }
       ],
       "correct_answer": "D",
@@ -717,27 +717,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "nature",
-          "content": "nature",
-          "value": "A"
+          "content": "nature"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "secret",
-          "content": "secret",
-          "value": "B"
+          "content": "secret"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "importance",
-          "content": "importance",
-          "value": "C"
+          "content": "importance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "context",
-          "content": "context",
-          "value": "D"
+          "content": "context"
         }
       ],
       "correct_answer": "C",
@@ -758,27 +758,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "cheated",
-          "content": "cheated",
-          "value": "A"
+          "content": "cheated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "defeated",
-          "content": "defeated",
-          "value": "B"
+          "content": "defeated"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "confused",
-          "content": "confused",
-          "value": "C"
+          "content": "confused"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "confronted",
-          "content": "confronted",
-          "value": "D"
+          "content": "confronted"
         }
       ],
       "correct_answer": "D",
@@ -799,27 +799,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "terrible",
-          "content": "terrible",
-          "value": "A"
+          "content": "terrible"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "hard",
-          "content": "hard",
-          "value": "B"
+          "content": "hard"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "strange",
-          "content": "strange",
-          "value": "C"
+          "content": "strange"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "wrong",
-          "content": "wrong",
-          "value": "D"
+          "content": "wrong"
         }
       ],
       "correct_answer": "B",
@@ -840,27 +840,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "trying",
-          "content": "trying",
-          "value": "A"
+          "content": "trying"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "changing",
-          "content": "changing",
-          "value": "B"
+          "content": "changing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "exciting",
-          "content": "exciting",
-          "value": "C"
+          "content": "exciting"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "surprising",
-          "content": "surprising",
-          "value": "D"
+          "content": "surprising"
         }
       ],
       "correct_answer": "A",
@@ -881,27 +881,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "hide",
-          "content": "hide",
-          "value": "A"
+          "content": "hide"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "emerge",
-          "content": "emerge",
-          "value": "B"
+          "content": "emerge"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "withdraw",
-          "content": "withdraw",
-          "value": "C"
+          "content": "withdraw"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "escape",
-          "content": "escape",
-          "value": "D"
+          "content": "escape"
         }
       ],
       "correct_answer": "B",
@@ -922,27 +922,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pick up social signals from non-living rats",
-          "content": "pick up social signals from non-living rats",
-          "value": "A"
+          "content": "pick up social signals from non-living rats"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "distinguish a friendly rat from a hostile one",
-          "content": "distinguish a friendly rat from a hostile one",
-          "value": "B"
+          "content": "distinguish a friendly rat from a hostile one"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "attain sociable traits through special training",
-          "content": "attain sociable traits through special training",
-          "value": "C"
+          "content": "attain sociable traits through special training"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "send out warning messages to their fellows",
-          "content": "send out warning messages to their fellows",
-          "value": "D"
+          "content": "send out warning messages to their fellows"
         }
       ],
       "correct_answer": "A",
@@ -963,27 +963,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It followed the social robot.",
-          "content": "It followed the social robot.",
-          "value": "A"
+          "content": "It followed the social robot."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It played with some toys.",
-          "content": "It played with some toys.",
-          "value": "B"
+          "content": "It played with some toys."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It set the trapped rats free.",
-          "content": "It set the trapped rats free.",
-          "value": "C"
+          "content": "It set the trapped rats free."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It moved around alone.",
-          "content": "It moved around alone.",
-          "value": "D"
+          "content": "It moved around alone."
         }
       ],
       "correct_answer": "D",
@@ -1004,27 +1004,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tried to practice a means of escape",
-          "content": "tried to practice a means of escape",
-          "value": "A"
+          "content": "tried to practice a means of escape"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "expected it to do the same in return",
-          "content": "expected it to do the same in return",
-          "value": "B"
+          "content": "expected it to do the same in return"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "wanted to display their intelligence",
-          "content": "wanted to display their intelligence",
-          "value": "C"
+          "content": "wanted to display their intelligence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "considered that an interesting game",
-          "content": "considered that an interesting game",
-          "value": "D"
+          "content": "considered that an interesting game"
         }
       ],
       "correct_answer": "B",
@@ -1045,27 +1045,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "can remember other rats' facial features",
-          "content": "can remember other rats' facial features",
-          "value": "A"
+          "content": "can remember other rats' facial features"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "differentiate smells better than sizes",
-          "content": "differentiate smells better than sizes",
-          "value": "B"
+          "content": "differentiate smells better than sizes"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "respond more to actions than to looks",
-          "content": "respond more to actions than to looks",
-          "value": "C"
+          "content": "respond more to actions than to looks"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "can be scared by a plastic box on wheels",
-          "content": "can be scared by a plastic box on wheels",
-          "value": "D"
+          "content": "can be scared by a plastic box on wheels"
         }
       ],
       "correct_answer": "C",
@@ -1086,27 +1086,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "appear to be adaptable to new surroundings",
-          "content": "appear to be adaptable to new surroundings",
-          "value": "A"
+          "content": "appear to be adaptable to new surroundings"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are more socially active than other animals",
-          "content": "are more socially active than other animals",
-          "value": "B"
+          "content": "are more socially active than other animals"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "behave differently from children in socializing",
-          "content": "behave differently from children in socializing",
-          "value": "C"
+          "content": "behave differently from children in socializing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are more sensitive to social cues than expected",
-          "content": "are more sensitive to social cues than expected",
-          "value": "D"
+          "content": "are more sensitive to social cues than expected"
         }
       ],
       "correct_answer": "D",
@@ -1127,27 +1127,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The growth in the number of corporations.",
-          "content": "The growth in the number of corporations.",
-          "value": "A"
+          "content": "The growth in the number of corporations."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The general pay rise with a better economy.",
-          "content": "The general pay rise with a better economy.",
-          "value": "B"
+          "content": "The general pay rise with a better economy."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Increased business opportunities for top firms.",
-          "content": "Increased business opportunities for top firms.",
-          "value": "C"
+          "content": "Increased business opportunities for top firms."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Close cooperation among leading economies.",
-          "content": "Close cooperation among leading economies.",
-          "value": "D"
+          "content": "Close cooperation among leading economies."
         }
       ],
       "correct_answer": "C",
@@ -1168,27 +1168,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "foster a stronger sense of teamwork",
-          "content": "foster a stronger sense of teamwork",
-          "value": "A"
+          "content": "foster a stronger sense of teamwork"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "finance more research and development",
-          "content": "finance more research and development",
-          "value": "B"
+          "content": "finance more research and development"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "establish closer ties with tech companies",
-          "content": "establish closer ties with tech companies",
-          "value": "C"
+          "content": "establish closer ties with tech companies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "operate more globalized companies",
-          "content": "operate more globalized companies",
-          "value": "D"
+          "content": "operate more globalized companies"
         }
       ],
       "correct_answer": "D",
@@ -1209,27 +1209,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "continual internal opposition",
-          "content": "continual internal opposition",
-          "value": "A"
+          "content": "continual internal opposition"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "strict corporate governance",
-          "content": "strict corporate governance",
-          "value": "B"
+          "content": "strict corporate governance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "conservative business strategies",
-          "content": "conservative business strategies",
-          "value": "C"
+          "content": "conservative business strategies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "repeated government warnings",
-          "content": "repeated government warnings",
-          "value": "D"
+          "content": "repeated government warnings"
         }
       ],
       "correct_answer": "B",
@@ -1250,27 +1250,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "confirm the status of CEOs",
-          "content": "confirm the status of CEOs",
-          "value": "A"
+          "content": "confirm the status of CEOs"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "motivate inside candidates",
-          "content": "motivate inside candidates",
-          "value": "B"
+          "content": "motivate inside candidates"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "boost the efficiency of CEOs",
-          "content": "boost the efficiency of CEOs",
-          "value": "C"
+          "content": "boost the efficiency of CEOs"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "increase corporate value",
-          "content": "increase corporate value",
-          "value": "D"
+          "content": "increase corporate value"
         }
       ],
       "correct_answer": "D",
@@ -1291,27 +1291,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "CEOs Are Not Overpaid",
-          "content": "CEOs Are Not Overpaid",
-          "value": "A"
+          "content": "CEOs Are Not Overpaid"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "CEO Pay: Past and Present",
-          "content": "CEO Pay: Past and Present",
-          "value": "B"
+          "content": "CEO Pay: Past and Present"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "CEOs' Challenges of Today",
-          "content": "CEOs' Challenges of Today",
-          "value": "C"
+          "content": "CEOs' Challenges of Today"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "CEO Traits: Not Easy to Define",
-          "content": "CEO Traits: Not Easy to Define",
-          "value": "D"
+          "content": "CEO Traits: Not Easy to Define"
         }
       ],
       "correct_answer": "A",
@@ -1332,27 +1332,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Its effects are questionable.",
-          "content": "Its effects are questionable.",
-          "value": "A"
+          "content": "Its effects are questionable."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It has been opposed by a judge.",
-          "content": "It has been opposed by a judge.",
-          "value": "B"
+          "content": "It has been opposed by a judge."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It needs tougher enforcement.",
-          "content": "It needs tougher enforcement.",
-          "value": "C"
+          "content": "It needs tougher enforcement."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Its fate is yet to be decided.",
-          "content": "Its fate is yet to be decided.",
-          "value": "D"
+          "content": "Its fate is yet to be decided."
         }
       ],
       "correct_answer": "D",
@@ -1373,27 +1373,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "They are biased against car manufacturers.",
-          "content": "They are biased against car manufacturers.",
-          "value": "A"
+          "content": "They are biased against car manufacturers."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "They prove impractical for city councils.",
-          "content": "They prove impractical for city councils.",
-          "value": "B"
+          "content": "They prove impractical for city councils."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "They are deemed too mild for politicians.",
-          "content": "They are deemed too mild for politicians.",
-          "value": "C"
+          "content": "They are deemed too mild for politicians."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They put too much burden on individual motorists.",
-          "content": "They put too much burden on individual motorists.",
-          "value": "D"
+          "content": "They put too much burden on individual motorists."
         }
       ],
       "correct_answer": "D",
@@ -1414,27 +1414,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "arouse strong resistance",
-          "content": "arouse strong resistance",
-          "value": "A"
+          "content": "arouse strong resistance"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ensure Khan's electoral success",
-          "content": "ensure Khan's electoral success",
-          "value": "B"
+          "content": "ensure Khan's electoral success"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "improve the city's traffic",
-          "content": "improve the city's traffic",
-          "value": "C"
+          "content": "improve the city's traffic"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "discourage car manufacturing",
-          "content": "discourage car manufacturing",
-          "value": "D"
+          "content": "discourage car manufacturing"
         }
       ],
       "correct_answer": "A",
@@ -1455,27 +1455,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Local residents.",
-          "content": "Local residents.",
-          "value": "A"
+          "content": "Local residents."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Mayors.",
-          "content": "Mayors.",
-          "value": "B"
+          "content": "Mayors."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Councilors.",
-          "content": "Councilors.",
-          "value": "C"
+          "content": "Councilors."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "National governments.",
-          "content": "National governments.",
-          "value": "D"
+          "content": "National governments."
         }
       ],
       "correct_answer": "D",
@@ -1496,27 +1496,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "will raise low-emission car production",
-          "content": "will raise low-emission car production",
-          "value": "A"
+          "content": "will raise low-emission car production"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "should be forced to follow regulations",
-          "content": "should be forced to follow regulations",
-          "value": "B"
+          "content": "should be forced to follow regulations"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "will upgrade the design of their vehicles",
-          "content": "will upgrade the design of their vehicles",
-          "value": "C"
+          "content": "will upgrade the design of their vehicles"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "should be put under public supervision",
-          "content": "should be put under public supervision",
-          "value": "D"
+          "content": "should be put under public supervision"
         }
       ],
       "correct_answer": "B",
@@ -1537,27 +1537,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are recognized for their abilities",
-          "content": "are recognized for their abilities",
-          "value": "A"
+          "content": "are recognized for their abilities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are optimistic about the labor market",
-          "content": "are optimistic about the labor market",
-          "value": "B"
+          "content": "are optimistic about the labor market"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are in favor of office job offers",
-          "content": "are in favor of office job offers",
-          "value": "C"
+          "content": "are in favor of office job offers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are drawing growing public attention",
-          "content": "are drawing growing public attention",
-          "value": "D"
+          "content": "are drawing growing public attention"
         }
       ],
       "correct_answer": "D",
@@ -1578,27 +1578,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "what their parents expect of them",
-          "content": "what their parents expect of them",
-          "value": "A"
+          "content": "what their parents expect of them"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "how valuable a counselor's advice is",
-          "content": "how valuable a counselor's advice is",
-          "value": "B"
+          "content": "how valuable a counselor's advice is"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "what a tough economic situation is like",
-          "content": "what a tough economic situation is like",
-          "value": "C"
+          "content": "what a tough economic situation is like"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "how they differ from past generations",
-          "content": "how they differ from past generations",
-          "value": "D"
+          "content": "how they differ from past generations"
         }
       ],
       "correct_answer": "C",
@@ -1619,31 +1619,31 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "deepen",
-          "content": "deepen",
-          "value": "A"
+          "content": "deepen"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "define",
-          "content": "define",
-          "value": "B"
+          "content": "define"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "maintain",
-          "content": "maintain",
-          "value": "C"
+          "content": "maintain"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "relieve",
-          "content": "relieve",
-          "value": "D"
+          "content": "relieve"
         }
       ],
       "correct_answer": "D",
-      "explanation": "［精准定位］第二段③句首先指出，乙世代清楚经济火车失事的惨状。④句紧接着解释：乙世代在\n2008年经济危机到来之时正是易受影响的孩子，当时他们许多人的父母失去了工作或毕生积蓄。由此\n可知，Z世代非常明白“严酷的经济形势是什么样子”，[C]正确。\n［命题解密］正确项[C]中（keenlyaware）whatatougheconomicsituationislike是对③句（know）\nwhataneconomictrainwrecklookslike的同义转换。\n[A]对④5句强加因果，认为乙世代“对冒险不感兴趣”是迎合经济危机中“丢掉工作或毕生积蓄”\n的父母之“期待”的结果，但文中并未提及他们父母的期待。[B]将②句内容“职业顾问和专家认为Z世\n代是头脑清醒的经济实用主义者”歪曲为“Z世代认同并珍惜职业顾问的建议”。[D]将①句事实“Z世\n代与千禧一代不同”歪曲为“Z世代知道自己与前几代人的区别”。\n［技巧总结］本题继续围绕Z世代进行考查，涉及Z世代的主观感受，解题关键是结合题干和选项\n中的关键词回文定位，然后比对信息确定答案。具体来看：题干中GenerationZsarekeenlyaware同义\n替换原文③句中GenZsknow，因此正确答案应该是对原文whataneconomictrainwrecklookslike的\n同义改写，故可直接锁定[C]。其他三项均利用该段中涉及的其他对象进行干扰（[A]涉及“父母”、[B]\n涉及“顾问”[D]涉及“千禧一代”），均不是Z世代的认识对象。\n·真题精解·\n38.The word“assuage”（Line 9，Para.2）is closest in\n38.“assuage”一词（第2段，第9行）的含\nmeaning to\n义最接近\n_。\n[A]deepen\n[A]加深\n[B]define\n[B]定义\n[C]maintain\n[C]保持\n[D]relieve\n[D]减轻\n［精准定位］所考单词出现在句，该句主语为Theboomingeconomy（蓬勃发展的经济），宾语为\nthisunderlyinggenerationalsenseofanxiousurgency（这一代人内心深处的忧患意识），本题实际考查\n主、宾语的逻辑关系。梳理上下文逻辑可知，本段首句为主旨句，指出Z世代的总体特征是practicaland\ncautious（讲求实际、谨慎小心），显然他们的性格是相当保守的，下文均围绕该特点展开论述。句中\nthisunderlyinggenerationalsenseofanxiousurgency回指上文“Z世代谨慎小心、不愿冒险”这一保守性\n格，而该句主语Theboomingeconomy却指向经济积极面，故整句信息应体现“积极的经济形势也难以\n改变这一代人的保守性格，无助于减缓他们内心深处的忧患意识”，即谓语seemstohavedonelittleto\n42\n\n\n\nassuage应传达出“难以缓解，对·…·无效”的含义，assuage应为“减轻、缓解”，[D]正确，同时排除与之\n相反的[A]。\n［命题解密］正确项[D]是根据Theboomingeconomy与thisunderlyinggenerationalsenseof\nanxiousurgency之间的对立关系、并结合上下文信息作出的合理推断。\n[B]看似符合“Z世代焦虑感的形成与当前经济形势无关”的事实，但无法体现局部信息重点“Z世代\n焦虑感难以改变”。[C]与其前后“经济蓬勃发展”“Z世代普遍具有焦虑感”两者之间的对立关系相。\n［技巧总结］词义推断题重在考查学生梳理上下文语义逻辑的能力，解题关键是把握所考词汇与上\n下文的“同向”“反向”关系。如本题，借助段内语义逻辑可知，上文指出Z世代具有“谨慎小心、不愿冒\n险”的保守性格，那么句也应该为论证这一主旨服务，所考词之后thisunderlyinggenerationalsenseof\nanxiousurgency与上文所述Z世代的保守性格为“同向”，而该句主语“经济繁荣”与Z世代的保守性格\nⅢlOne surveyfromAccenturefoundthat 88\n埃森哲咨询公司一项调查发现，今年毕\npercent of graduatingseniorsthisyear chose theirmajor\n业的大四学生中，88%在当初选择专业时已\nwithajobinmind.Ina2019surveyofUniversityof\n有心目中的工作。与此同时，佐治亚大学就\nGeorgia students，meanwhile，the careerofficefound the\n业办公室在2019年一项针对该校学生的调\nmostdesirabletraitinafutureemployerwastheability\n查中发现，未来雇主最受欢迎的品质是提供\ntooffersecureemployment（followedbyprofessional\n稳定工作的能力（其后分别是职业发展及培\ndevelopment and training，and then inspiringpurpose).\n训、激励人心的企业宗旨）。工作保障或稳\n③Jobsecurityorstabilitywasthesecondmostimportant\n定是第二重要的职业目标（最重要的是“工\ncareer goal （work-life balance was number one），\n作与生活平衡”），随后是事业奉献感或服务\nfollowed by a sense of being dedicatedto a cause or to\n于宏大高尚事业的满足感。\nfeel good about serving the greater good.",
+      "explanation": "·真题精解·\n38.The word“assuage”（Line 9，Para.2）is closest in\n38.“assuage”一词（第2段，第9行）的含\nmeaning to\n义最接近\n_。\n[A]deepen\n[A]加深\n[B]define\n[B]定义\n[C]maintain\n[C]保持\n[D]relieve\n[D]减轻\n［精准定位］所考单词出现在句，该句主语为Theboomingeconomy（蓬勃发展的经济），宾语为\nthisunderlyinggenerationalsenseofanxiousurgency（这一代人内心深处的忧患意识），本题实际考查\n主、宾语的逻辑关系。梳理上下文逻辑可知，本段首句为主旨句，指出Z世代的总体特征是practicaland\ncautious（讲求实际、谨慎小心），显然他们的性格是相当保守的，下文均围绕该特点展开论述。句中\nthisunderlyinggenerationalsenseofanxiousurgency回指上文“Z世代谨慎小心、不愿冒险”这一保守性\n格，而该句主语Theboomingeconomy却指向经济积极面，故整句信息应体现“积极的经济形势也难以\n改变这一代人的保守性格，无助于减缓他们内心深处的忧患意识”，即谓语seemstohavedonelittleto\n42\n\n\n\nassuage应传达出“难以缓解，对·…·无效”的含义，assuage应为“减轻、缓解”，[D]正确，同时排除与之\n相反的[A]。\n［命题解密］正确项[D]是根据Theboomingeconomy与thisunderlyinggenerationalsenseof\nanxiousurgency之间的对立关系、并结合上下文信息作出的合理推断。\n[B]看似符合“Z世代焦虑感的形成与当前经济形势无关”的事实，但无法体现局部信息重点“Z世代\n焦虑感难以改变”。[C]与其前后“经济蓬勃发展”“Z世代普遍具有焦虑感”两者之间的对立关系相。\n［技巧总结］词义推断题重在考查学生梳理上下文语义逻辑的能力，解题关键是把握所考词汇与上\n下文的“同向”“反向”关系。如本题，借助段内语义逻辑可知，上文指出Z世代具有“谨慎小心、不愿冒\n险”的保守性格，那么句也应该为论证这一主旨服务，所考词之后thisunderlyinggenerationalsenseof\nanxiousurgency与上文所述Z世代的保守性格为“同向”，而该句主语“经济繁荣”与Z世代的保守性格\nⅢlOne surveyfromAccenturefoundthat 88\n埃森哲咨询公司一项调查发现，今年毕\npercent of graduatingseniorsthisyear chose theirmajor\n业的大四学生中，88%在当初选择专业时已\nwithajobinmind.Ina2019surveyofUniversityof\n有心目中的工作。与此同时，佐治亚大学就\nGeorgia students，meanwhile，the careerofficefound the\n业办公室在2019年一项针对该校学生的调\nmostdesirabletraitinafutureemployerwastheability\n查中发现，未来雇主最受欢迎的品质是提供\ntooffersecureemployment（followedbyprofessional\n稳定工作的能力（其后分别是职业发展及培\ndevelopment and training，and then inspiringpurpose).\n训、激励人心的企业宗旨）。工作保障或稳\n③Jobsecurityorstabilitywasthesecondmostimportant\n定是第二重要的职业目标（最重要的是“工\ncareer goal （work-life balance was number one），\n作与生活平衡”），随后是事业奉献感或服务\nfollowed by a sense of being dedicatedto a cause or to\n于宏大高尚事业的满足感。\nfeel good about serving the greater good.",
       "points": 2.0,
       "sort_order": 38,
       "answer": "D",
@@ -1660,27 +1660,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "give top priority to professional training",
-          "content": "give top priority to professional training",
-          "value": "A"
+          "content": "give top priority to professional training"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have a clear idea about their future job",
-          "content": "have a clear idea about their future job",
-          "value": "B"
+          "content": "have a clear idea about their future job"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "care little about their job performance",
-          "content": "care little about their job performance",
-          "value": "C"
+          "content": "care little about their job performance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "think it hard to achieve work-life balance",
-          "content": "think it hard to achieve work-life balance",
-          "value": "D"
+          "content": "think it hard to achieve work-life balance"
         }
       ],
       "correct_answer": "B",
@@ -1701,27 +1701,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "less realistic",
-          "content": "less realistic",
-          "value": "A"
+          "content": "less realistic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "less adventurous",
-          "content": "less adventurous",
-          "value": "B"
+          "content": "less adventurous"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "more diligent",
-          "content": "more diligent",
-          "value": "C"
+          "content": "more diligent"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "more generous",
-          "content": "more generous",
-          "value": "D"
+          "content": "more generous"
         }
       ],
       "correct_answer": "B",
@@ -1742,45 +1742,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Give compliments, just not too many",
-          "content": "Give compliments, just not too many",
-          "value": "A"
+          "content": "Give compliments, just not too many"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Put on a good face, always",
-          "content": "Put on a good face, always",
-          "value": "B"
+          "content": "Put on a good face, always"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Tailor your interactions",
-          "content": "Tailor your interactions",
-          "value": "C"
+          "content": "Tailor your interactions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Spend time with everyone",
-          "content": "Spend time with everyone",
-          "value": "D"
+          "content": "Spend time with everyone"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Reveal, don't hide, information",
-          "content": "Reveal, don't hide, information",
-          "value": "E"
+          "content": "Reveal, don't hide, information"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Slow down and listen",
-          "content": "Slow down and listen",
-          "value": "F"
+          "content": "Slow down and listen"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Put yourselves in others' shoes",
-          "content": "Put yourselves in others' shoes",
-          "value": "G"
+          "content": "Put yourselves in others' shoes"
         }
       ],
       "correct_answer": "E",
@@ -1801,45 +1801,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Give compliments, just not too many",
-          "content": "Give compliments, just not too many",
-          "value": "A"
+          "content": "Give compliments, just not too many"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Put on a good face, always",
-          "content": "Put on a good face, always",
-          "value": "B"
+          "content": "Put on a good face, always"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Tailor your interactions",
-          "content": "Tailor your interactions",
-          "value": "C"
+          "content": "Tailor your interactions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Spend time with everyone",
-          "content": "Spend time with everyone",
-          "value": "D"
+          "content": "Spend time with everyone"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Reveal, don't hide, information",
-          "content": "Reveal, don't hide, information",
-          "value": "E"
+          "content": "Reveal, don't hide, information"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Slow down and listen",
-          "content": "Slow down and listen",
-          "value": "F"
+          "content": "Slow down and listen"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Put yourselves in others' shoes",
-          "content": "Put yourselves in others' shoes",
-          "value": "G"
+          "content": "Put yourselves in others' shoes"
         }
       ],
       "correct_answer": "F",
@@ -1860,45 +1860,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Give compliments, just not too many",
-          "content": "Give compliments, just not too many",
-          "value": "A"
+          "content": "Give compliments, just not too many"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Put on a good face, always",
-          "content": "Put on a good face, always",
-          "value": "B"
+          "content": "Put on a good face, always"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Tailor your interactions",
-          "content": "Tailor your interactions",
-          "value": "C"
+          "content": "Tailor your interactions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Spend time with everyone",
-          "content": "Spend time with everyone",
-          "value": "D"
+          "content": "Spend time with everyone"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Reveal, don't hide, information",
-          "content": "Reveal, don't hide, information",
-          "value": "E"
+          "content": "Reveal, don't hide, information"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Slow down and listen",
-          "content": "Slow down and listen",
-          "value": "F"
+          "content": "Slow down and listen"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Put yourselves in others' shoes",
-          "content": "Put yourselves in others' shoes",
-          "value": "G"
+          "content": "Put yourselves in others' shoes"
         }
       ],
       "correct_answer": "D",
@@ -1919,45 +1919,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Give compliments, just not too many",
-          "content": "Give compliments, just not too many",
-          "value": "A"
+          "content": "Give compliments, just not too many"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Put on a good face, always",
-          "content": "Put on a good face, always",
-          "value": "B"
+          "content": "Put on a good face, always"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Tailor your interactions",
-          "content": "Tailor your interactions",
-          "value": "C"
+          "content": "Tailor your interactions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Spend time with everyone",
-          "content": "Spend time with everyone",
-          "value": "D"
+          "content": "Spend time with everyone"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Reveal, don't hide, information",
-          "content": "Reveal, don't hide, information",
-          "value": "E"
+          "content": "Reveal, don't hide, information"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Slow down and listen",
-          "content": "Slow down and listen",
-          "value": "F"
+          "content": "Slow down and listen"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Put yourselves in others' shoes",
-          "content": "Put yourselves in others' shoes",
-          "value": "G"
+          "content": "Put yourselves in others' shoes"
         }
       ],
       "correct_answer": "A",
@@ -1978,45 +1978,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Give compliments, just not too many",
-          "content": "Give compliments, just not too many",
-          "value": "A"
+          "content": "Give compliments, just not too many"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Put on a good face, always",
-          "content": "Put on a good face, always",
-          "value": "B"
+          "content": "Put on a good face, always"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Tailor your interactions",
-          "content": "Tailor your interactions",
-          "value": "C"
+          "content": "Tailor your interactions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Spend time with everyone",
-          "content": "Spend time with everyone",
-          "value": "D"
+          "content": "Spend time with everyone"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Reveal, don't hide, information",
-          "content": "Reveal, don't hide, information",
-          "value": "E"
+          "content": "Reveal, don't hide, information"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Slow down and listen",
-          "content": "Slow down and listen",
-          "value": "F"
+          "content": "Slow down and listen"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Put yourselves in others' shoes",
-          "content": "Put yourselves in others' shoes",
-          "value": "G"
+          "content": "Put yourselves in others' shoes"
         }
       ],
       "correct_answer": "C",

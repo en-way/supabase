@@ -89,8 +89,8 @@
       "exam_id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
       "category_id": "ky2",
       "section_type": "reading",
-      "title": "Part B",
-      "content": "Directions:\nRead the following text and answer Questions 41-45. (10 points)\n\nLeading doctors today weigh in on the debate over the government's role in promoting public health by demanding that ministers impose \"fat taxes\" on unhealthy food and introduce legislation to curb the marketing of junk food to children.\n\nIn a scathing attack on the government's current public health strategy, the leaders of dozens of medical organisations, including royal colleges of physicians, surgeons and paediatricians, warn that relying on voluntary agreements with the food and beverage industry will not stem the growing epidemic of obesity and related chronic illnesses.\n\nThe doctors' intervention comes as ministers prepare to publish a public health white paper, which is expected to emphasize voluntary \"responsibility deals\" with business rather than statutory regulations. Health Secretary Andrew Lansley has defended the approach, arguing that public health cannot be improved merely by government intervention or lecturing people about how to live their lives, and that partnering with businesses is the fastest and most effective way to change behaviour.\n\nBut health professionals strongly disagree. Professor Terence Stephenson, president of the Royal College of Paediatrics and Child Health, said that relying on voluntary measures was completely inadequate. \"We need bold, decisive action from government, including legislation where necessary, if we are to prevent our children from facing a lifetime of poor health and early death,\" he said.\n\nCelebrity chef Jamie Oliver, who has led a high-profile campaign to improve school meals, also expressed frustration with the government's approach. While acknowledging that business has an important role to play, Oliver insisted that celebrity chefs and public figures cannot solve the obesity crisis on their own without meaningful government backing, and warned that voluntary codes of conduct would simply allow the junk food industry to continue profiting at the expense of public health.\n\nProfessor Dinesh Bhugra, president of the Royal College of Psychiatrists, argued that obesity should be treated with the same seriousness as smoking or alcohol abuse. \"The evidence is overwhelming that voluntary agreements do not work,\" he said. \"We need comprehensive restrictions on advertising and promotion of unhealthy products, especially to children, and financial disincentives such as taxes on foods high in fat, sugar, and salt.\"\n\nA spokesperson for the Department of Health defended the government's strategy, claiming that voluntary agreements had already achieved significant reductions in salt and artificial trans fats in processed foods. The spokesperson insisted that voluntary partnerships could achieve faster and more flexible results than clumsy legislation, which often takes years to pass and enforce.\n\nMedical leaders, however, remain unconvinced, pointing out that previous voluntary initiatives failed to prevent Britain from becoming one of the most obese nations in Europe. They argue that only statutory measures, including restrictions on marketing and price interventions, will produce the profound shifts in diet and lifestyle required to protect the nation's health.",
+      "title": "Section II: Reading Comprehension Part B",
+      "content": "Leading doctors today weigh in on the debate over the government's role in promoting public health by demanding that ministers impose \"fat taxes\" on unhealthy food and introduce legislation to curb the marketing of junk food to children.\n\nIn a scathing attack on the government's current public health strategy, the leaders of dozens of medical organisations, including royal colleges of physicians, surgeons and paediatricians, warn that relying on voluntary agreements with the food and beverage industry will not stem the growing epidemic of obesity and related chronic illnesses.\n\nThe doctors' intervention comes as ministers prepare to publish a public health white paper, which is expected to emphasize voluntary \"responsibility deals\" with business rather than statutory regulations. Health Secretary Andrew Lansley has defended the approach, arguing that public health cannot be improved merely by government intervention or lecturing people about how to live their lives, and that partnering with businesses is the fastest and most effective way to change behaviour.\n\nBut health professionals strongly disagree. Professor Terence Stephenson, president of the Royal College of Paediatrics and Child Health, said that relying on voluntary measures was completely inadequate. \"We need bold, decisive action from government, including legislation where necessary, if we are to prevent our children from facing a lifetime of poor health and early death,\" he said.\n\nCelebrity chef Jamie Oliver, who has led a high-profile campaign to improve school meals, also expressed frustration with the government's approach. While acknowledging that business has an important role to play, Oliver insisted that celebrity chefs and public figures cannot solve the obesity crisis on their own without meaningful government backing, and warned that voluntary codes of conduct would simply allow the junk food industry to continue profiting at the expense of public health.\n\nProfessor Dinesh Bhugra, president of the Royal College of Psychiatrists, argued that obesity should be treated with the same seriousness as smoking or alcohol abuse. \"The evidence is overwhelming that voluntary agreements do not work,\" he said. \"We need comprehensive restrictions on advertising and promotion of unhealthy products, especially to children, and financial disincentives such as taxes on foods high in fat, sugar, and salt.\"\n\nA spokesperson for the Department of Health defended the government's strategy, claiming that voluntary agreements had already achieved significant reductions in salt and artificial trans fats in processed foods. The spokesperson insisted that voluntary partnerships could achieve faster and more flexible results than clumsy legislation, which often takes years to pass and enforce.\n\nMedical leaders, however, remain unconvinced, pointing out that previous voluntary initiatives failed to prevent Britain from becoming one of the most obese nations in Europe. They argue that only statutory measures, including restrictions on marketing and price interventions, will produce the profound shifts in diet and lifestyle required to protect the nation's health.",
       "sort_order": 6,
       "passage_type": "reading_part_b",
       "type": "reading_part_b",
@@ -108,30 +108,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "swept",
-          "value": "A"
+          "content": "swept"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "skipped",
-          "value": "B"
+          "content": "skipped"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "walked",
-          "value": "C"
+          "content": "walked"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ridden",
-          "value": "D"
+          "content": "ridden"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】动词辨析题。swept across 意为‘席卷、横扫’，此处指网络犯罪浪潮席卷整个互联网世界。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 1
     },
     {
       "id": "f5d1f29a-331f-5fe9-8be6-c67d8c9cab45",
@@ -143,30 +148,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "for",
-          "value": "A"
+          "content": "for"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "within",
-          "value": "B"
+          "content": "within"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "while",
-          "value": "C"
+          "content": "while"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "though",
-          "value": "D"
+          "content": "though"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】连词逻辑题。while 表示转折对比或伴随‘在……的同时’，在保护隐私的同时保障网络安全。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 2
     },
     {
       "id": "d8f553c9-3b5d-541c-876f-0ff2810d0e45",
@@ -178,30 +188,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "careless",
-          "value": "A"
+          "content": "careless"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lawless",
-          "value": "B"
+          "content": "lawless"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "pointless",
-          "value": "C"
+          "content": "pointless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "helpless",
-          "value": "D"
+          "content": "helpless"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】形容词辨析题。lawless 意为‘无法无天的、缺乏法治的’，指缺乏监管的网络空间宛如蛮荒丛林。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 3
     },
     {
       "id": "00b2b92e-ef12-52bd-9218-fbe3ae1c9911",
@@ -213,30 +228,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reason",
-          "value": "A"
+          "content": "reason"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "reminder",
-          "value": "B"
+          "content": "reminder"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "compromise",
-          "value": "C"
+          "content": "compromise"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "proposal",
-          "value": "D"
+          "content": "proposal"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】名词辨析题。proposal 意为‘提案、建议书’，指白宫网络安全总监提出了一套全新的身份认证系统建议方案。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4
     },
     {
       "id": "b5e6a348-d78d-5553-a2f8-3dca3a1a8eb6",
@@ -248,30 +268,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "information",
-          "value": "A"
+          "content": "information"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interference",
-          "value": "B"
+          "content": "interference"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "entertainment",
-          "value": "C"
+          "content": "entertainment"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "equivalent",
-          "value": "D"
+          "content": "equivalent"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】名词辨析题。equivalent 意为‘等价物、对应物’，指数字凭证相当于实体钥匙、指纹和身份证的综合体。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5
     },
     {
       "id": "10f65b97-e299-5bb4-a971-57bbc376e37d",
@@ -283,30 +308,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "by",
-          "value": "A"
+          "content": "by"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "into",
-          "value": "B"
+          "content": "into"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "from",
-          "value": "C"
+          "content": "from"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "over",
-          "value": "D"
+          "content": "over"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】介词短语题。rolled into one 意为‘融为一体、合而为一’，属于经典英语惯用表达。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6
     },
     {
       "id": "94262dde-9cbd-526b-b168-77cc99f5dee0",
@@ -318,30 +348,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "linked",
-          "value": "A"
+          "content": "linked"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "directed",
-          "value": "B"
+          "content": "directed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "chained",
-          "value": "C"
+          "content": "chained"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "compared",
-          "value": "D"
+          "content": "compared"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】动词搭配题。linked to 意为‘与……绑定/关联’，指数字凭证与特定终端设备实现物理绑定。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 7
     },
     {
       "id": "2caf681a-fb5c-5dc1-bff0-416b2c08ec9a",
@@ -353,30 +388,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "dismiss",
-          "value": "A"
+          "content": "dismiss"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "discover",
-          "value": "B"
+          "content": "discover"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "create",
-          "value": "C"
+          "content": "create"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "improve",
-          "value": "D"
+          "content": "improve"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】动词辨析题。create a federation 意为‘创建/组建联盟’，指建立私营在线身份系统的统一联合机制。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8
     },
     {
       "id": "e11921cc-e636-5ffc-89ea-9a171c6b5a4d",
@@ -388,30 +428,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "recall",
-          "value": "A"
+          "content": "recall"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "suggest",
-          "value": "B"
+          "content": "suggest"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "select",
-          "value": "C"
+          "content": "select"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "realize",
-          "value": "D"
+          "content": "realize"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】动词辨析题。select 意为‘选择’，指互联网用户可以自主选择加入哪个认证体系。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 9
     },
     {
       "id": "dcc0ec6b-9c8b-5cce-842f-51a2b1f0d014",
@@ -423,30 +468,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "released",
-          "value": "A"
+          "content": "released"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "issued",
-          "value": "B"
+          "content": "issued"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "distributed",
-          "value": "C"
+          "content": "distributed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "delivered",
-          "value": "D"
+          "content": "delivered"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】动词搭配题。issued by 意为‘由……颁发’，license issued by the government 指政府核发的官方网络驾照。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 10
     },
     {
       "id": "abbec421-daed-5dde-8735-9faf327fcc9d",
@@ -458,30 +508,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "carry on",
-          "value": "A"
+          "content": "carry on"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "linger on",
-          "value": "B"
+          "content": "linger on"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "set in",
-          "value": "C"
+          "content": "set in"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "log in",
-          "value": "D"
+          "content": "log in"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】动词短语题。log in 意为‘登录系统’，指单点登录技术（single sign-on）只需用户登录一次即可畅行各服务。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 11
     },
     {
       "id": "b430e7ef-5f58-5909-85a6-d762c0ea5c8a",
@@ -493,30 +548,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "In vain",
-          "value": "A"
+          "content": "In vain"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In effect",
-          "value": "B"
+          "content": "In effect"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "In return",
-          "value": "C"
+          "content": "In return"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In contrast",
-          "value": "D"
+          "content": "In contrast"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】介词短语题。In effect 意为‘事实上、实际上’，引出该方案建立‘网络围墙花园’的实际效果。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12
     },
     {
       "id": "9008e374-6d0c-53de-844b-cbe71135f365",
@@ -528,30 +588,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "trusted",
-          "value": "A"
+          "content": "trusted"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "modernized",
-          "value": "B"
+          "content": "modernized"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "thriving",
-          "value": "C"
+          "content": "thriving"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "competing",
-          "value": "D"
+          "content": "competing"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】形容词辨析题。trusted community 意为‘值得信赖的社区’，指建立具备高透明度与安全感的互信网络环境。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 13
     },
     {
       "id": "07c878af-cf6d-5686-9863-f04c5ea71f58",
@@ -563,30 +628,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "caution",
-          "value": "A"
+          "content": "caution"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "delight",
-          "value": "B"
+          "content": "delight"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "confidence",
-          "value": "C"
+          "content": "confidence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "patience",
-          "value": "D"
+          "content": "patience"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】介词搭配题。with confidence 意为‘满怀信心地’，指用户和企业可以信心满满地在线完成支付与交易。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14
     },
     {
       "id": "17cf8709-d8d3-5195-b569-19dcfdf5a348",
@@ -598,30 +668,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "on",
-          "value": "A"
+          "content": "on"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "after",
-          "value": "B"
+          "content": "after"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "beyond",
-          "value": "C"
+          "content": "beyond"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "across",
-          "value": "D"
+          "content": "across"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】介词搭配题。runs on 意为‘在……上运行’，指交易在特定底层技术架构之上顺畅运转。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 15
     },
     {
       "id": "ec1a7d04-af7f-5ca9-b22b-9f7dfb758515",
@@ -633,30 +708,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "divided",
-          "value": "A"
+          "content": "divided"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "disappointed",
-          "value": "B"
+          "content": "disappointed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "protected",
-          "value": "C"
+          "content": "protected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "united",
-          "value": "D"
+          "content": "united"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】动词辨析题。divided 意为‘使……产生分歧’，指该政策公布后导致隐私权倡导者内部产生了截然相反的阵营。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16
     },
     {
       "id": "cc016d5f-f8dc-514b-841d-b6153297eb1e",
@@ -668,30 +748,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "frequently",
-          "value": "A"
+          "content": "frequently"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "incidentally",
-          "value": "B"
+          "content": "incidentally"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "occasionally",
-          "value": "C"
+          "content": "occasionally"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "eventually",
-          "value": "D"
+          "content": "eventually"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】副词辨析题。eventually 意为‘最终、迟早’，指反对者担忧这最终将演变为强制性的互联网执照审查。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 17
     },
     {
       "id": "733e1cb8-82c9-544e-bf6e-3d5e7ec61bbc",
@@ -703,30 +788,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "skepticism",
-          "value": "A"
+          "content": "skepticism"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "tolerance",
-          "value": "B"
+          "content": "tolerance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "indifference",
-          "value": "C"
+          "content": "indifference"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enthusiasm",
-          "value": "D"
+          "content": "enthusiasm"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】名词辨析题。skepticism 意为‘怀疑态度’，指计算机安全专家对该自愿生态系统的有效性抱持深刻怀疑。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18
     },
     {
       "id": "d8a68d21-ed48-5ed5-bc31-7907e104482c",
@@ -738,30 +828,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "manageable",
-          "value": "A"
+          "content": "manageable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "defendable",
-          "value": "B"
+          "content": "defendable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "vulnerable",
-          "value": "C"
+          "content": "vulnerable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "invisible",
-          "value": "D"
+          "content": "invisible"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】形容词辨析题。vulnerable 意为‘脆弱易受攻击的’，指自愿体系仍会留下大片未受保护的脆弱网络死角。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 19
     },
     {
       "id": "83c96901-b8c1-5423-8965-422b29bd69a4",
@@ -773,30 +868,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "invited",
-          "value": "A"
+          "content": "invited"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "appointed",
-          "value": "B"
+          "content": "appointed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "allowed",
-          "value": "C"
+          "content": "allowed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "forced",
-          "value": "D"
+          "content": "forced"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】动词辨析题。forced to 意为‘被迫、被强制要求’，专家主张所有网民必须强制实名认证，正如机动车上路须持有驾照。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 20
     },
     {
       "id": "15193817-a726-5487-85c4-8f4ef2614c17",
@@ -808,30 +908,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "gaining excessive profits",
-          "value": "A"
+          "content": "gaining excessive profits"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "failing to fulfill her duty",
-          "value": "B"
+          "content": "failing to fulfill her duty"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "refusing to make compromises",
-          "value": "C"
+          "content": "refusing to make compromises"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "leaving the board in tough times",
-          "value": "D"
+          "content": "leaving the board in tough times"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第一段指出西蒙斯女士因在高盛薪酬委员会任职期间放任巨额高管奖金轻松过关而饱受抨击（under fire），本质上是因为她未能切实履行监督与制衡高管薪酬的职责（failing to fulfill her duty）。",
       "points": 2.0,
       "sort_order": 21,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 21
     },
     {
       "id": "eb6cea2d-355b-5d0a-9b83-422502aab341",
@@ -843,30 +948,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "generous investors",
-          "value": "A"
+          "content": "generous investors"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unbiased executives",
-          "value": "B"
+          "content": "unbiased executives"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "share price forecasters",
-          "value": "C"
+          "content": "share price forecasters"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "independent advisers",
-          "value": "D"
+          "content": "independent advisers"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】事实细节题。第二段指出外部董事由于自身已在其他领域积累了极高的声望与财富，因此在董事会中应充当不受首席执行官牵制的独立客观顾问（independent advisers）。",
       "points": 2.0,
       "sort_order": 22,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 22
     },
     {
       "id": "482fc379-7b90-593a-8741-bff0fdeeb3a3",
@@ -878,30 +988,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "become more stable",
-          "value": "A"
+          "content": "become more stable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "report increased earnings",
-          "value": "B"
+          "content": "report increased earnings"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "do less well in the stock market",
-          "value": "C"
+          "content": "do less well in the stock market"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "perform worse in lawsuits",
-          "value": "D"
+          "content": "perform worse in lawsuits"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】事实细节题。第三段援引俄亥俄大学学者的实证研究表明，当外部董事意外离职时，往往向市场释放出公司治理恶化的负面信号，导致该企业在股票市场的表现下滑（do less well in the stock market）。",
       "points": 2.0,
       "sort_order": 23,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 23
     },
     {
       "id": "2109c2db-f4c8-5cc7-b68f-314a942a76bf",
@@ -913,30 +1028,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "may stay for the attractive offers from the firm",
-          "value": "A"
+          "content": "may stay for the attractive offers from the firm"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have often had records of wrongdoings in the firm",
-          "value": "B"
+          "content": "have often had records of wrongdoings in the firm"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are accustomed to stress-free work in the firm",
-          "value": "C"
+          "content": "are accustomed to stress-free work in the firm"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "will decline incentives from the firm",
-          "value": "D"
+          "content": "will decline incentives from the firm"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】推理判断题。最后一段提出，为了在危机困难时期留住优秀的外部董事，企业必须建立强有力的利益激励机制（create incentives），暗示外部董事可能会为了更具吸引力的待遇与保障而选择留任（may stay for the attractive offers）。",
       "points": 2.0,
       "sort_order": 24,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 24
     },
     {
       "id": "26b5dac4-1e0e-50a8-9b00-3f122fdd1019",
@@ -948,30 +1068,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "permissive",
-          "value": "A"
+          "content": "permissive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "positive",
-          "value": "B"
+          "content": "positive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "scornful",
-          "value": "C"
+          "content": "scornful"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "critical",
-          "value": "D"
+          "content": "critical"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】观点态度题。通篇分析中，作者高度肯定了外部董事在监督管理层、平息市场疑虑以及提升公司治理水平方面的关键建设性作用，其态度是肯定支持的（positive）。",
       "points": 2.0,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 25
     },
     {
       "id": "8380a95f-6bf9-5898-9d07-c8aa8ce4d998",
@@ -983,30 +1108,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "neglected the sign of crisis",
-          "value": "A"
+          "content": "neglected the sign of crisis"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "failed to get state subsidies",
-          "value": "B"
+          "content": "failed to get state subsidies"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "were not charitable corporations",
-          "value": "C"
+          "content": "were not charitable corporations"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "were in a desperate situation",
-          "value": "D"
+          "content": "were in a desperate situation"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】句意推断题。第一段通过报业像濒死巨人般倒下的惨烈隐喻，生动表明传统纸媒在数字化冲击与广告流失的双重打击下已陷入极度绝望的生死危机（were in a desperate situation）。",
       "points": 2.0,
       "sort_order": 26,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 26
     },
     {
       "id": "9f95cdbd-d5d5-555f-9a80-25d1a27a6dec",
@@ -1018,30 +1148,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "readers threatened to pay less",
-          "value": "A"
+          "content": "readers threatened to pay less"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "newspapers wanted to reduce costs",
-          "value": "B"
+          "content": "newspapers wanted to reduce costs"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "journalists reported little about these areas",
-          "value": "C"
+          "content": "journalists reported little about these areas"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "subscribers complained about slimmer products",
-          "value": "D"
+          "content": "subscribers complained about slimmer products"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】因果细节题。第二段指出，为了在微薄利润下艰难求生，许多报社果断砍掉了远郊地区昂贵的物流投递线路，其根本动机是为了大幅缩减发行与运营成本（wanted to reduce costs）。",
       "points": 2.0,
       "sort_order": 27,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 27
     },
     {
       "id": "d8d01144-bc98-5983-8fc2-e9af101670e7",
@@ -1053,30 +1188,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "have more sources of revenue",
-          "value": "A"
+          "content": "have more sources of revenue"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have more balanced newsrooms",
-          "value": "B"
+          "content": "have more balanced newsrooms"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are less dependent on advertising",
-          "value": "C"
+          "content": "are less dependent on advertising"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are less affected by readership",
-          "value": "D"
+          "content": "are less affected by readership"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】对比细节题。第三段在对比美日两国报业生态时指出，日本报纸的主要收入依赖读者长期订阅费，对商业广告赞助的依赖度远低于美国同行（are less dependent on advertising），因而抗冲击能力更强。",
       "points": 2.0,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28
     },
     {
       "id": "00640599-d76b-58c5-aa88-becf349af5ae",
@@ -1088,30 +1228,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Distinctiveness is an essential feature of newspapers.",
-          "value": "A"
+          "content": "Distinctiveness is an essential feature of newspapers."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Completeness is to blame for the failure of newspaper.",
-          "value": "B"
+          "content": "Completeness is to blame for the failure of newspaper."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Foreign bureaus play a crucial role in the newspaper business.",
-          "value": "C"
+          "content": "Foreign bureaus play a crucial role in the newspaper business."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Readers have lost their interest in car and film reviews.",
-          "value": "D"
+          "content": "Readers have lost their interest in car and film reviews."
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】段落推断题。尾段指出，在网络海量免费信息时代，传统报纸若想生存下去，就必须舍弃千篇一律的泛泛报道，专注于打造自身无可替代的深度与独特特色（Distinctiveness is an essential feature of newspapers）。",
       "points": 2.0,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29
     },
     {
       "id": "6ef4ae6c-bcc4-5fa2-a8f0-f100aabdb1d7",
@@ -1123,30 +1268,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "American Newspapers: Struggling for Survival",
-          "value": "A"
+          "content": "American Newspapers: Struggling for Survival"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "American Newspapers: Gone with the Wind",
-          "value": "B"
+          "content": "American Newspapers: Gone with the Wind"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "American Newspapers: A Thriving Business",
-          "value": "C"
+          "content": "American Newspapers: A Thriving Business"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "American Newspapers: A Hopeless Story",
-          "value": "D"
+          "content": "American Newspapers: A Hopeless Story"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】主旨大意题。全文系统分析了美国报业在寒冬中缩减版面、砍掉分支机构、寻求重组自救的艰难历程，展现其为求生存而进行的殊死搏斗，故 American Newspapers: Struggling for Survival 最切题。",
       "points": 2.0,
       "sort_order": 30,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 30
     },
     {
       "id": "ca051bc1-3997-5b5a-9124-2a22df388ff6",
@@ -1158,30 +1308,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prosperity and growth",
-          "value": "A"
+          "content": "prosperity and growth"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "efficiency and practicality",
-          "value": "B"
+          "content": "efficiency and practicality"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "restraint and confidence",
-          "value": "C"
+          "content": "restraint and confidence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "pride and faithfulness",
-          "value": "D"
+          "content": "pride and faithfulness"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第一段指出二战后美国兴起的现代居住建筑注重紧凑合理的空间利用与极简实用功能，集中映射出战后美国人崇尚高效实用的价值取向（efficiency and practicality）。",
       "points": 2.0,
       "sort_order": 31,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 31
     },
     {
       "id": "4f2cb9c8-917f-53c1-9162-966bff8cd9fd",
@@ -1193,30 +1348,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It was founded by Ludwig Mies van der Rohe.",
-          "value": "A"
+          "content": "It was founded by Ludwig Mies van der Rohe."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Its designing concept was affected by World War II.",
-          "value": "B"
+          "content": "Its designing concept was affected by World War II."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Most American architects used to be associated with it.",
-          "value": "C"
+          "content": "Most American architects used to be associated with it."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It had a great influence upon American architecture.",
-          "value": "D"
+          "content": "It had a great influence upon American architecture."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】推理判断题。第三段指出包豪斯设计学派的大师们流亡移居美国后，将其前卫理念深植于美国高校与城市建造中，对战后美国建筑学的发展产生了极其深远的历史影响（It had a great influence upon American architecture）。",
       "points": 2.0,
       "sort_order": 32,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 32
     },
     {
       "id": "22bc4627-dcec-54a2-b281-9438eed05f42",
@@ -1228,30 +1388,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "was related to large space",
-          "value": "A"
+          "content": "was related to large space"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "was identified with emptiness",
-          "value": "B"
+          "content": "was identified with emptiness"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "was not reliant on abundant decoration",
-          "value": "C"
+          "content": "was not reliant on abundant decoration"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "was not associated with efficiency",
-          "value": "D"
+          "content": "was not associated with efficiency"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】事实细节题。第四段阐述密斯·凡·德·罗著名的‘少即是多’（less is more）建筑哲学，他坚信纯粹优雅的美学来自于骨架结构与精妙比例，而绝非依靠繁复多余的堆砌装饰（was not reliant on abundant decoration）。",
       "points": 2.0,
       "sort_order": 33,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 33
     },
     {
       "id": "c5f48698-213b-5533-ba6f-907cd6c6fc7c",
@@ -1263,30 +1428,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "They ignored details and proportions.",
-          "value": "A"
+          "content": "They ignored details and proportions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "They were built with materials popular at that time.",
-          "value": "B"
+          "content": "They were built with materials popular at that time."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "They were more spacious than neighboring buildings.",
-          "value": "C"
+          "content": "They were more spacious than neighboring buildings."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They shared some characteristics of abstract art.",
-          "value": "D"
+          "content": "They shared some characteristics of abstract art."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】事实细节题。第四段末尾指出密斯在芝加哥湖滨大道设计的双子塔高层公寓，以其极度纯粹的几何网格幕墙与剥离具象特征的形式感，同现代抽象艺术分享着共通的美学精神特征（They shared some characteristics of abstract art）。",
       "points": 2.0,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 34
     },
     {
       "id": "cbada250-5052-5e38-9a5d-908dae44186d",
@@ -1298,30 +1468,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Mechanical devices were widely used.",
-          "value": "A"
+          "content": "Mechanical devices were widely used."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Natural scenes were taken into consideration.",
-          "value": "B"
+          "content": "Natural scenes were taken into consideration."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Details were sacrificed for the overall effect.",
-          "value": "C"
+          "content": "Details were sacrificed for the overall effect."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Eco-friendly materials were employed.",
-          "value": "D"
+          "content": "Eco-friendly materials were employed."
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。最后一段明确说明‘案例研究住宅’将审美效果与周边自然地形及外部自然风光紧密融合（Aesthetic effect came from the landscape... Natural scenes were taken into consideration）。",
       "points": 2.0,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35
     },
     {
       "id": "a6b6b294-51d6-5529-b543-76f0579a646c",
@@ -1333,30 +1508,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "it has more or less lost faith in markets",
-          "value": "A"
+          "content": "it has more or less lost faith in markets"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "even its supporters begin to feel concerned",
-          "value": "B"
+          "content": "even its supporters begin to feel concerned"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "some of its member countries plan to abandon euro",
-          "value": "C"
+          "content": "some of its member countries plan to abandon euro"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "it intends to deny the possibility of devaluation",
-          "value": "D"
+          "content": "it intends to deny the possibility of devaluation"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第一段提到债务危机蔓延导致的政坛动荡，连最坚定支持欧洲一体化大业的拥趸们如今也对欧盟的未来前景感到深切担忧（even its supporters begin to feel concerned）。",
       "points": 2.0,
       "sort_order": 36,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 36
     },
     {
       "id": "287252a4-8105-56ba-aa77-9a93efdb1341",
@@ -1368,30 +1548,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are competing for the leading position",
-          "value": "A"
+          "content": "are competing for the leading position"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are busy handling their own crises",
-          "value": "B"
+          "content": "are busy handling their own crises"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "fail to reach an agreement on harmonisation",
-          "value": "C"
+          "content": "fail to reach an agreement on harmonisation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "disagree on the steps towards disintegration",
-          "value": "D"
+          "content": "disagree on the steps towards disintegration"
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】事实细节题。第二段分析德法等核心大国在财政与货币协调政策上的严重分歧，由于主导国在制度一体化统一规则上无法达成共识，导致拯救欧元的辩论陷入停滞（fail to reach an agreement on harmonisation）。",
       "points": 2.0,
       "sort_order": 37,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 37
     },
     {
       "id": "2961a398-eb72-53df-baf2-52915c4483a5",
@@ -1403,30 +1588,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "EU funds for poor regions be increased",
-          "value": "A"
+          "content": "EU funds for poor regions be increased"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "stricter regulations be imposed",
-          "value": "B"
+          "content": "stricter regulations be imposed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "only core members be involved in economic co-ordination",
-          "value": "C"
+          "content": "only core members be involved in economic co-ordination"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "voting rights of the EU members be guaranteed",
-          "value": "D"
+          "content": "voting rights of the EU members be guaranteed"
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】事实细节题。第三段指出德国坚持紧缩铁腕路线，极力主张对各成员国的财政预算赤字施加更为严苛的法律约束与违规惩戒机制（stricter regulations be imposed）。",
       "points": 2.0,
       "sort_order": 38,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 38
     },
     {
       "id": "eecabdde-d188-5ab8-a26b-2dcc3fec1594",
@@ -1438,30 +1628,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "poor countries are more likely to get funds",
-          "value": "A"
+          "content": "poor countries are more likely to get funds"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "strict monetary policy will be applied to poor countries",
-          "value": "B"
+          "content": "strict monetary policy will be applied to poor countries"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "loans will be readily available to rich countries",
-          "value": "C"
+          "content": "loans will be readily available to rich countries"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rich countries will basically control Eurobonds",
-          "value": "D"
+          "content": "rich countries will basically control Eurobonds"
         }
       ],
       "correct_answer": "A",
       "explanation": "【考点】推理判断题。第四段指出法国极力倡导发行欧洲共同主权债券并设立纾困互助基金，这意味着南欧受困的薄弱经济体更容易通过集体背书获取低成本救助资金（poor countries are more likely to get funds）。",
       "points": 2.0,
       "sort_order": 39,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 39
     },
     {
       "id": "f3273fe5-853d-5287-9bd1-5687b8da41b0",
@@ -1473,30 +1668,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pessimistic",
-          "value": "A"
+          "content": "pessimistic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "desperate",
-          "value": "B"
+          "content": "desperate"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "conceited",
-          "value": "C"
+          "content": "conceited"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "hopeful",
-          "value": "D"
+          "content": "hopeful"
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】观点态度题。在结尾段中，作者强调欧洲一体化项目打破了内部边界、融合了贫富差异，是一场驯服全球化尖锐矛盾的伟大壮举，对欧盟克服危机走向长远繁荣抱有坚定希望（hopeful）。",
       "points": 2.0,
       "sort_order": 40,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 40
     },
     {
       "id": "cb03642f-2272-5d64-9241-20d342a3b2cc",
@@ -1508,45 +1708,53 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's.",
-          "value": "A"
+          "content": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the government should ban fast-food outlets in the neighborhood of schools.",
-          "value": "B"
+          "content": "the government should ban fast-food outlets in the neighborhood of schools."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "\"lecturing\" was an effective way to improve school lunches in England.",
-          "value": "C"
+          "content": "\"lecturing\" was an effective way to improve school lunches in England."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cigarette-style warnings should be introduced to children about the dangers of a poor diet.",
-          "value": "D"
+          "content": "cigarette-style warnings should be introduced to children about the dangers of a poor diet."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "the producers of crisps and candies could contribute significantly to the Change4Life campaign.",
-          "value": "E"
+          "content": "the producers of crisps and candies could contribute significantly to the Change4Life campaign."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "parents should set good examples for their children by keeping a healthy diet at home.",
-          "value": "F"
+          "content": "parents should set good examples for their children by keeping a healthy diet at home."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "the government should strengthen the sense of responsibility among businesses.",
-          "value": "G"
+          "content": "the government should strengthen the sense of responsibility among businesses."
         }
       ],
       "correct_answer": "E",
       "explanation": "【考点】多项人物观点匹配题。文章指出卫生大臣兰斯利（Andrew Lansley）主张企业而非政府发挥主导作用，认为薯片和糖果生产商能够在健康倡导活动中扮演核心支柱角色，与 [E] the producers of crisps and candies could contribute significantly to the Change4Life campaign 完美契合。",
       "points": 2.0,
       "sort_order": 41,
-      "answer": "E"
+      "answer": "E",
+      "question_number": 41
     },
     {
       "id": "886e91d4-6c33-561c-97d5-0d2d6aaf8904",
@@ -1558,45 +1766,53 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's.",
-          "value": "A"
+          "content": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the government should ban fast-food outlets in the neighborhood of schools.",
-          "value": "B"
+          "content": "the government should ban fast-food outlets in the neighborhood of schools."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "\"lecturing\" was an effective way to improve school lunches in England.",
-          "value": "C"
+          "content": "\"lecturing\" was an effective way to improve school lunches in England."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cigarette-style warnings should be introduced to children about the dangers of a poor diet.",
-          "value": "D"
+          "content": "cigarette-style warnings should be introduced to children about the dangers of a poor diet."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "the producers of crisps and candies could contribute significantly to the Change4Life campaign.",
-          "value": "E"
+          "content": "the producers of crisps and candies could contribute significantly to the Change4Life campaign."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "parents should set good examples for their children by keeping a healthy diet at home.",
-          "value": "F"
+          "content": "parents should set good examples for their children by keeping a healthy diet at home."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "the government should strengthen the sense of responsibility among businesses.",
-          "value": "G"
+          "content": "the government should strengthen the sense of responsibility among businesses."
         }
       ],
       "correct_answer": "D",
       "explanation": "【考点】多项人物观点匹配题。英国儿科医学院院长史蒂文森（Terence Stephenson）提出应当像对待香烟那样严厉管制高热量垃圾食品，甚至引入类似的警示标识以告诫不良饮食危害，与 [D] cigarette-style warnings should be introduced to children about the dangers of a poor diet 完全吻合。",
       "points": 2.0,
       "sort_order": 42,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 42
     },
     {
       "id": "85518255-95d7-5ead-81e0-d17277f8dd5f",
@@ -1608,45 +1824,53 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's.",
-          "value": "A"
+          "content": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the government should ban fast-food outlets in the neighborhood of schools.",
-          "value": "B"
+          "content": "the government should ban fast-food outlets in the neighborhood of schools."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "\"lecturing\" was an effective way to improve school lunches in England.",
-          "value": "C"
+          "content": "\"lecturing\" was an effective way to improve school lunches in England."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cigarette-style warnings should be introduced to children about the dangers of a poor diet.",
-          "value": "D"
+          "content": "cigarette-style warnings should be introduced to children about the dangers of a poor diet."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "the producers of crisps and candies could contribute significantly to the Change4Life campaign.",
-          "value": "E"
+          "content": "the producers of crisps and candies could contribute significantly to the Change4Life campaign."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "parents should set good examples for their children by keeping a healthy diet at home.",
-          "value": "F"
+          "content": "parents should set good examples for their children by keeping a healthy diet at home."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "the government should strengthen the sense of responsibility among businesses.",
-          "value": "G"
+          "content": "the government should strengthen the sense of responsibility among businesses."
         }
       ],
       "correct_answer": "C",
       "explanation": "【考点】多项人物观点匹配题。文中提到兰斯利批评明星大厨杰米·奥利弗（Jamie Oliver）试图通过高调布道说教（lecturing）来改善英国学校午餐的做法，反衬出奥利弗本人坚信公开布道宣传能够有效改良校园饮食，与 [C] \"lecturing\" was an effective way to improve school lunches in England 对应。",
       "points": 2.0,
       "sort_order": 43,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 43
     },
     {
       "id": "c9dffd81-e779-5a35-92ad-b3f6ea93dde2",
@@ -1658,45 +1882,53 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's.",
-          "value": "A"
+          "content": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the government should ban fast-food outlets in the neighborhood of schools.",
-          "value": "B"
+          "content": "the government should ban fast-food outlets in the neighborhood of schools."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "\"lecturing\" was an effective way to improve school lunches in England.",
-          "value": "C"
+          "content": "\"lecturing\" was an effective way to improve school lunches in England."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cigarette-style warnings should be introduced to children about the dangers of a poor diet.",
-          "value": "D"
+          "content": "cigarette-style warnings should be introduced to children about the dangers of a poor diet."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "the producers of crisps and candies could contribute significantly to the Change4Life campaign.",
-          "value": "E"
+          "content": "the producers of crisps and candies could contribute significantly to the Change4Life campaign."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "parents should set good examples for their children by keeping a healthy diet at home.",
-          "value": "F"
+          "content": "parents should set good examples for their children by keeping a healthy diet at home."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "the government should strengthen the sense of responsibility among businesses.",
-          "value": "G"
+          "content": "the government should strengthen the sense of responsibility among businesses."
         }
       ],
       "correct_answer": "B",
       "explanation": "【考点】多项人物观点匹配题。精神病学专家迪内什·布格拉（Dinesh Bhugra）强调保护儿童免受垃圾食品侵蚀，主张在学校周边划定禁区禁止快餐外卖店营业，与 [B] the government should ban fast-food outlets in the neighborhood of schools 吻合。",
       "points": 2.0,
       "sort_order": 44,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 44
     },
     {
       "id": "14dfebe2-10d6-54de-9981-8d5e5e478161",
@@ -1708,45 +1940,53 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's.",
-          "value": "A"
+          "content": "\"fat taxes\" should be imposed on fast-food producers such as McDonald's."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the government should ban fast-food outlets in the neighborhood of schools.",
-          "value": "B"
+          "content": "the government should ban fast-food outlets in the neighborhood of schools."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "\"lecturing\" was an effective way to improve school lunches in England.",
-          "value": "C"
+          "content": "\"lecturing\" was an effective way to improve school lunches in England."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cigarette-style warnings should be introduced to children about the dangers of a poor diet.",
-          "value": "D"
+          "content": "cigarette-style warnings should be introduced to children about the dangers of a poor diet."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "the producers of crisps and candies could contribute significantly to the Change4Life campaign.",
-          "value": "E"
+          "content": "the producers of crisps and candies could contribute significantly to the Change4Life campaign."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "parents should set good examples for their children by keeping a healthy diet at home.",
-          "value": "F"
+          "content": "parents should set good examples for their children by keeping a healthy diet at home."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "the government should strengthen the sense of responsibility among businesses.",
-          "value": "G"
+          "content": "the government should strengthen the sense of responsibility among businesses."
         }
       ],
       "correct_answer": "G",
       "explanation": "【考点】多项人物观点匹配题。卫生部发言人明确指出要达成建立在企业社会责任基础上的‘责任协议’（responsibility deal），通过商业自觉而非硬性国家管制来推进公共健康，与 [G] the government should strengthen the sense of responsibility among businesses 完美吻合。",
       "points": 2.0,
       "sort_order": 45,
-      "answer": "G"
+      "answer": "G",
+      "question_number": 45
     }
   ],
   "exportedAt": "2026-10-15T11:40:29.890Z",

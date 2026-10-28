@@ -31,7 +31,9 @@
       "section_type": "cloze",
       "title": "Section I: Use of English",
       "content": "It's not difficult to set targets for staff. It is much harder, [1], to understand their negative consequences. Most work-related behaviors have multiple components. [2] one and the others become distorted.\n\nTravel on a London bus and you'll [3] see how this works with drivers. Watch people get on and show their tickets. Are they carefully inspected? Never. Do people get on without paying? Of course! Are there inspectors to [4] that people have paid? Possibly, but very few. And people who run for the bus? They are [5]. How about jumping lights? Buses do so almost as frequently as cyclists.\n\nWhy? Because the target is [6]. People complained that buses were late and infrequent. [7], the number of buses and bus lanes were increased, and drivers were [8] or punished according to the time they took. And drivers hit these targets. But they [9] hit cyclists. If the target was changed [10], you would have more inspectors and more sensitive pricing. If the criterion changed to safety, you would get more [11] drivers who obeyed traffic laws. But both these criteria would be at the expense of time.\n\nThere is another [12]: people became immensely inventive in hitting targets. Have you [13] that you can leave on a flight an hour late but still arrive on time? Tailwinds? Of course not! Airlines have simply changed the time a [14] is meant to take. A one-hour flight is now billed as a two-hour flight.\n\nThe [15] of the story is simple. Most jobs are multidimensional, with multiple criteria. Choose one criterion and you may well [16] others. Everything can be done faster and made cheaper, but there is a [17]. Setting targets can and does have unforeseen negative consequences.\n\nThis is not an argument against target-setting. But it is an argument for exploring consequences first. All good targets should have multiple criteria [18] critical factors such as time, money, quality and customer feedback. The trick is not only to [19] just one or even two dimensions of the objective, but also to understand how to help people better [20] the objective.",
-      "sort_order": 1
+      "sort_order": 1,
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "49ed5441-c835-51e8-9252-429e470fbe53",
@@ -40,7 +42,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "\"Reskilling\" is something that sounds like a buzzword but is actually a requirement if we plan to have a future where a lot of would-be workers do not get left behind. We know we are moving into a period where the jobs in demand will change rapidly, as will the requirements of the jobs that remain. Research by the World Economic Forum finds that on average 42 per cent of the \"core skills\" within job roles will change by 2022. That is a very short timeline.\n\nThe question of who should pay for reskilling is a thorny one. For individual companies, the temptation is always to let go of workers whose skills are no longer in demand and replace them with those whose skills are. That does not always happen. AT&T is often given as the gold standard of a company who decided to do a massive reskilling program rather than go with a fire-and-hire strategy. Other companies including Amazon and Disney had also pledged to create their own plans. When the skills mismatch is in the broader economy though, the focus usually turns to government to handle. Efforts in Canada and elsewhere have been arguably languid at best, and have given us a situation where we frequently hear of employers begging for workers, even at times and in regions where unemployment is high.\n\nWith the pandemic, unemployment is very high indeed. In February, at 3.5 per cent and 5.5 per cent respectively, unemployment rates in Canada and the United States were at generational lows and worker shortages were everywhere. As of May, those rates had spiked up to 13.3 per cent and 13.7 per cent, and although many worker shortages had disappeared, not all had done so. In the medical field, to take an obvious example, the pandemic meant that there were still clear shortages of doctors, nurses and other medical personnel.\n\nOf course, it is not like you can take an unemployed waiter and train him to be a doctor in a few weeks, no matter who pays for it. But even if you cannot close that gap, maybe you can close others, and doing so would be to the benefit of all concerned. That seems to be the case in Sweden: When forced to furlough 90 per cent of their cabin staff, Scandinavian Airlines decided to start up a short retraining program that reskilled the laid-off workers to support hospital staff. The effort was a collective one and involved other companies as well as a Swedish university.",
-      "sort_order": 2
+      "sort_order": 2,
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "0f9e5a82-f82f-5c52-bd4d-e5f545a0c485",
@@ -49,7 +53,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "With the global population predicted to hit close to 10 billion by 2050, and forecasts that agricultural production in some regions will need to nearly double to keep pace, food security is increasingly making headlines. In the UK, it has become a big talking point recently too, for a rather particular reason: Brexit.\n\nBrexit is seen by some as an opportunity to reverse a recent trend towards the UK importing food. The country produces only about 60 per cent of the food it eats, down from almost three-quarters in the late 1980s. A move back to self-sufficiency, the argument goes, would boost the farming industry, political sovereignty and even the nation's health. Sounds great—but how feasible is this vision?\n\nAccording to a report on UK food production from the University of Leeds, UK, 85 per cent of the country's total land area is associated with meat and dairy production. That supplies 80 per cent of what is consumed, so even covering the whole country in livestock farms wouldn't allow us to cover all our meat and dairy needs.\n\nThere are many caveats to those figures, but they are still grave. To become much more self-sufficient, the UK would need to drastically reduce its consumption of animal foods, and probably also farm more intensively—meaning fewer green fields and more factory-style production.\n\nBut switching to a mainly plant-based diet wouldn't help. There is a good reason why the UK is dominated by animal husbandry: most of its terrain doesn't have the right soil or climate to grow crops on a commercial basis. Just 25 per cent of the country's land is suitable for crop-growing, most of which is already occupied by arable fields. Even if we converted all the suitable land to fields of fruit and veg—which would involve taking out all the nature reserves and removing thousands of people from their homes—we would achieve only a 30 per cent boost in crop production.\n\nJust 23 per cent of the fruit and vegetables consumed in the UK are currently home-grown, so even with the most extreme measures we could meet only 30 per cent of our fresh produce needs. That is before we look for the space to grow the grains, sugars, seeds and oils that provide us with the vast bulk of our current calorie intake.",
-      "sort_order": 3
+      "sort_order": 3,
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "fbd49496-cbd6-5676-ad1d-29e41cd6aad3",
@@ -58,7 +64,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "When Microsoft bought task management app Wunderlist and mobile calendar Sunrise in 2015, it picked two newcomers that were attracting considerable buzz in Silicon Valley. Microsoft's own Office dominates the market for \"productivity\" software, but the start-ups represented a new wave of technology designed from the ground up for the smartphone world.\n\nBoth apps, however, were later scrapped, after Microsoft said it had used their best features in its own products. Their teams of engineers stayed on, making them two of the many \"acqui-hires\" that the biggest companies have used to feed their great hunger for tech talent.\n\nTo Microsoft's critics, the fates of Wunderlist and Sunrise are examples of a remorseless drive by Big Tech to chew up any innovative companies that lie in their path. \"They bought the seedlings and closed them down,\" complained Paul Arnold, a partner at San Francisco-based Switch Ventures, putting an end to businesses that might one day turn into competitors. Microsoft declined to comment.\n\nLike other start-up investors, Mr. Arnold's own business often depends on selling start-ups to larger tech companies, though he admits to mixed feelings about the result: \"I think these things are good for me, if I put my selfish hat on. But are they good for the American economy? I don't know.\"\n\nThe US Federal Trade Commission says it wants to find the answer to that question. This week, it asked the five most valuable US tech companies for information about their many small acquisitions over the past decade. Although only a research project at this stage, the request has raised the prospect of regulators wading into early-stage tech markets that until now have been beyond their reach.\n\nGiven their combined market value of more than $5.5 trillion, rifling through such small deals—many of them much less prominent than Wunderlist and Sunrise—might seem beside the point. Between them, the five biggest tech companies have spent an average of only $3.4 billion a year on sub-$1 billion acquisitions over the past five years—a drop in the ocean compared with their massive financial reserves, and the more than $130 billion of venture capital that was invested in the US last year.\n\nHowever, critics say the big companies use such deals to buy their most threatening potential competitors before their businesses have a chance to gain momentum, in some cases as part of a \"buy and kill\" tactic to simply close them down.",
-      "sort_order": 4
+      "sort_order": 4,
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "c45660d2-1cee-5a4f-8852-8203bf51b493",
@@ -67,7 +75,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "We're fairly good at judging people based on first impressions, thin slices of experience ranging from a glimpse of a photo to five-minute interaction, and deliberation can be not only extraneous but intrusive. In one study of the ability she called \"thin slicing,\" the late psychologist Nalini Ambady asked participants to watch silent 10-second video clips of professors and to rate the instructor's overall effectiveness. Their ratings correlated strongly with students' end-of-semester ratings. Another set of participants had to count backward from 1,000 by nines as they watched the clips, occupying their conscious working memory. Their ratings were just as accurate, demonstrating the intuitive nature of the social processing.\n\nCritically, another group was asked to spend a minute writing down reasons for their judgment, before giving the rating. Accuracy dropped dramatically. Ambady suspected that deliberation focused them on vivid but misleading cues, such as certain gestures or utterances, rather than letting the complex interplay of subtle signals form a holistic impression. She found similar interference when participants watched 15-second clips of pairs of people and judged whether they were strangers, friends, or dating partners.\n\nOther research shows we're better at detecting deception from thin slices when we rely on intuition instead of reflection. \"It's as if you're driving stick shift,\" says Judith Hall, a psychologist at Northeastern University, \"and if you start thinking about it too much, you can't remember what you're doing. But if you go on automatic pilot, you're fine. Much of our social life is like that.\"\n\nThinking too much can also harm our ability to form preferences. College students' ratings of strawberry jams and college courses aligned better with experts' opinions when the students weren't asked to analyze their rationale. And people made car-buying decisions that were both objectively better and more personally satisfying when asked to focus on their feelings rather than on details, but only if the decision was complex—when they had a lot of information to process.\n\nIntuition's special powers are unleashed only in certain circumstances. In one study, participants completed a battery of eight tasks, including four that tapped reflective thinking (discerning rules, comprehending vocabulary) and four that tapped intuition and creativity (generating new products or figures of speech). Then they rated the degree to which they had used intuition (\"gut feelings,\" \"hunches,\" \"my heart\"). Use of their gut hurt their performance on the first four tasks, as expected, and helped them on the rest. Sometimes the heart is smarter than the head.",
-      "sort_order": 5
+      "sort_order": 5,
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "492ae593-e296-5bb0-9114-e5fe712d31b4",
@@ -76,7 +86,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
       "content": "Your boss proposes a new initiative you think won't work. Your senior colleague outlines a project timeline you believe is unrealistic. What do you say when you disagree with someone who has more power than you do? How do you decide whether it's worth speaking up? And if you do, what exactly should you say? Here's how to disagree with someone more powerful than you.\n\n[41] ________\nYou may decide it's best to hold off on voicing your opinion. Maybe you haven't finished thinking the problem through, or you want to get a clearer sense of what the group thinks. If you think other people are going to disagree, too, you might want to gather your army first. People can contribute experience or information to your thinking—all the things that would make the disagreement stronger or more valid. It's also a good idea to delay the conversation if you are in a meeting or other public space. Discussing the issue in private will make the powerful person feel less threatened.\n\n[42] ________\nBefore you share your thoughts, think about what the powerful person cares about—it may be the credibility of their team or getting a project done on time. You're more likely to be heard if you can connect your disagreement to a higher purpose. When you do speak up, don't assume the link will be clear. You'll want to state it overtly, contextualizing your statements so that you're seen not as a disagreeable subordinate but as a colleague who's trying to advance a common objective. The discussion will then become more like a chess game than a boxing match.\n\n[43] ________\nThis step may sound overly deferential, but it's a smart way to give the powerful person psychological safety and control. You can say something like, \"I know we seem to be moving toward a first-quarter commitment here. I have reasons to think that won't work. I'd like to lay out my reasoning. Would that be OK?\" This gives the person a choice, allowing him to verbally opt in. And, assuming he says yes, it will make you feel more confident about voicing your disagreement.\n\n[44] ________\nYou might feel your heart racing or your face turning red, but do whatever you can to remain neutral in both your words and actions. When your body language communicates reluctance or anxiety, it undercuts the message. It sends a mixed message, and your counterpart gets to choose what signals to read. Deep breaths can help, as can speaking more slowly and deliberately. When we feel panicky, we tend to talk louder and faster. Simply slowing the pace and talking in an even tone helps the other person cool down and does the same for you. It also makes you seem confident, even if you aren't.\n\n[45] ________\nEmphasize that you're only offering your opinion, not gospel truth. It may be a well-informed, well-researched opinion, but it's still an opinion, so talk tentatively and slightly understate your confidence. Instead of saying: \"If we set an end-of-quarter deadline, we will never make it,\" say, \"This is just my opinion, but I don't see how we will make that deadline.\" Having asserted your opinion (as a position, not as a fact), demonstrate equal curiosity about other views. Remind the person that this is your point of view, and then invite critique. Be open to hearing other opinions.",
-      "sort_order": 6
+      "sort_order": 6,
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -90,26 +102,26 @@
       "options": [
         {
           "key": "A",
-          "text": "therefore",
           "value": "A",
+          "text": "therefore",
           "content": "therefore"
         },
         {
           "key": "B",
-          "text": "however",
           "value": "B",
+          "text": "however",
           "content": "however"
         },
         {
           "key": "C",
-          "text": "again",
           "value": "C",
+          "text": "again",
           "content": "again"
         },
         {
           "key": "D",
-          "text": "moreover",
           "value": "D",
+          "text": "moreover",
           "content": "moreover"
         }
       ],
@@ -131,26 +143,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Emphasize",
           "value": "A",
+          "text": "Emphasize",
           "content": "Emphasize"
         },
         {
           "key": "B",
-          "text": "Identify",
           "value": "B",
+          "text": "Identify",
           "content": "Identify"
         },
         {
           "key": "C",
-          "text": "Assess",
           "value": "C",
+          "text": "Assess",
           "content": "Assess"
         },
         {
           "key": "D",
-          "text": "Explain",
           "value": "D",
+          "text": "Explain",
           "content": "Explain"
         }
       ],
@@ -172,26 +184,26 @@
       "options": [
         {
           "key": "A",
-          "text": "nearly",
           "value": "A",
+          "text": "nearly",
           "content": "nearly"
         },
         {
           "key": "B",
-          "text": "curiously",
           "value": "B",
+          "text": "curiously",
           "content": "curiously"
         },
         {
           "key": "C",
-          "text": "eagerly",
           "value": "C",
+          "text": "eagerly",
           "content": "eagerly"
         },
         {
           "key": "D",
-          "text": "quickly",
           "value": "D",
+          "text": "quickly",
           "content": "quickly"
         }
       ],
@@ -213,26 +225,26 @@
       "options": [
         {
           "key": "A",
-          "text": "claim",
           "value": "A",
+          "text": "claim",
           "content": "claim"
         },
         {
           "key": "B",
-          "text": "prove",
           "value": "B",
+          "text": "prove",
           "content": "prove"
         },
         {
           "key": "C",
-          "text": "check",
           "value": "C",
+          "text": "check",
           "content": "check"
         },
         {
           "key": "D",
-          "text": "recall",
           "value": "D",
+          "text": "recall",
           "content": "recall"
         }
       ],
@@ -254,26 +266,26 @@
       "options": [
         {
           "key": "A",
-          "text": "threatened",
           "value": "A",
+          "text": "threatened",
           "content": "threatened"
         },
         {
           "key": "B",
-          "text": "ignored",
           "value": "B",
+          "text": "ignored",
           "content": "ignored"
         },
         {
           "key": "C",
-          "text": "mocked",
           "value": "C",
+          "text": "mocked",
           "content": "mocked"
         },
         {
           "key": "D",
-          "text": "blamed",
           "value": "D",
+          "text": "blamed",
           "content": "blamed"
         }
       ],
@@ -295,26 +307,26 @@
       "options": [
         {
           "key": "A",
-          "text": "punctuality",
           "value": "A",
+          "text": "punctuality",
           "content": "punctuality"
         },
         {
           "key": "B",
-          "text": "hospitality",
           "value": "B",
+          "text": "hospitality",
           "content": "hospitality"
         },
         {
           "key": "C",
-          "text": "competition",
           "value": "C",
+          "text": "competition",
           "content": "competition"
         },
         {
           "key": "D",
-          "text": "innovation",
           "value": "D",
+          "text": "innovation",
           "content": "innovation"
         }
       ],
@@ -336,26 +348,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Yet",
           "value": "A",
+          "text": "Yet",
           "content": "Yet"
         },
         {
           "key": "B",
-          "text": "So",
           "value": "B",
+          "text": "So",
           "content": "So"
         },
         {
           "key": "C",
-          "text": "Besides",
           "value": "C",
+          "text": "Besides",
           "content": "Besides"
         },
         {
           "key": "D",
-          "text": "Still",
           "value": "D",
+          "text": "Still",
           "content": "Still"
         }
       ],
@@ -377,26 +389,26 @@
       "options": [
         {
           "key": "A",
-          "text": "hired",
           "value": "A",
+          "text": "hired",
           "content": "hired"
         },
         {
           "key": "B",
-          "text": "trained",
           "value": "B",
+          "text": "trained",
           "content": "trained"
         },
         {
           "key": "C",
-          "text": "rewarded",
           "value": "C",
+          "text": "rewarded",
           "content": "rewarded"
         },
         {
           "key": "D",
-          "text": "grouped",
           "value": "D",
+          "text": "grouped",
           "content": "grouped"
         }
       ],
@@ -418,26 +430,26 @@
       "options": [
         {
           "key": "A",
-          "text": "only",
           "value": "A",
+          "text": "only",
           "content": "only"
         },
         {
           "key": "B",
-          "text": "rather",
           "value": "B",
+          "text": "rather",
           "content": "rather"
         },
         {
           "key": "C",
-          "text": "once",
           "value": "C",
+          "text": "once",
           "content": "once"
         },
         {
           "key": "D",
-          "text": "also",
           "value": "D",
+          "text": "also",
           "content": "also"
         }
       ],
@@ -459,26 +471,26 @@
       "options": [
         {
           "key": "A",
-          "text": "comfort",
           "value": "A",
+          "text": "comfort",
           "content": "comfort"
         },
         {
           "key": "B",
-          "text": "revenue",
           "value": "B",
+          "text": "revenue",
           "content": "revenue"
         },
         {
           "key": "C",
-          "text": "efficiency",
           "value": "C",
+          "text": "efficiency",
           "content": "efficiency"
         },
         {
           "key": "D",
-          "text": "security",
           "value": "D",
+          "text": "security",
           "content": "security"
         }
       ],
@@ -500,26 +512,26 @@
       "options": [
         {
           "key": "A",
-          "text": "friendly",
           "value": "A",
+          "text": "friendly",
           "content": "friendly"
         },
         {
           "key": "B",
-          "text": "quiet",
           "value": "B",
+          "text": "quiet",
           "content": "quiet"
         },
         {
           "key": "C",
-          "text": "cautious",
           "value": "C",
+          "text": "cautious",
           "content": "cautious"
         },
         {
           "key": "D",
-          "text": "diligent",
           "value": "D",
+          "text": "diligent",
           "content": "diligent"
         }
       ],
@@ -541,27 +553,27 @@
       "options": [
         {
           "key": "A",
-          "text": "purpose",
           "value": "A",
+          "text": "purpose",
           "content": "purpose"
         },
         {
           "key": "B",
-          "text": "problem",
           "value": "B",
+          "text": "problem",
           "content": "problem"
         },
         {
           "key": "C",
-          "text": "prejudice",
           "value": "C",
+          "text": "prejudice",
           "content": "prejudice"
         },
         {
           "key": "D",
-          "text": "project",
           "value": "D",
-          "content": "project"
+          "text": "policy",
+          "content": "policy"
         }
       ],
       "correct_answer": "B",
@@ -582,31 +594,31 @@
       "options": [
         {
           "key": "A",
-          "text": "purpose",
           "value": "A",
-          "content": "purpose"
+          "text": "reported",
+          "content": "reported"
         },
         {
           "key": "B",
-          "text": "problem",
           "value": "B",
-          "content": "problem"
+          "text": "revealed",
+          "content": "revealed"
         },
         {
           "key": "C",
-          "text": "prejudice",
           "value": "C",
-          "content": "prejudice"
+          "text": "admitted",
+          "content": "admitted"
         },
         {
           "key": "D",
-          "text": "policy",
           "value": "D",
-          "content": "policy"
+          "text": "noticed",
+          "content": "noticed"
         }
       ],
       "correct_answer": "D",
-      "explanation": "13 that you can leave on a flight an hour late but still \narrive on time? ❸ Tailwinds® ?❹ Of course not! \n©Airlines have simply changed the time a 14 is \nmeant to take. © A one-hour flight is now billed 9 as a \ntwo-hour flight.\n①还有另外一个问题：人们在达成目 \n标方面变得极其有创意。②你有没有注意 \n到，你的航班延迟一小时起飞，却仍能准时 \n到达？③顺风吗？④当然不是！⑤航空公 \n司只是修改了一下旅程所需的时间。⑥一 \n小时的航程现在被号称为两小时。\n•真题精解「皿\n[B] problem棘手的问题；困难\n[D] policy政策；原则；为人之道\n:人们在达成目标方面变得极其有创意。而上文伦\n12. [A] purpose意图；目的；重要意义\n[C] prejudice 偏见；成见\n[考点提炼]段际逻辑+名词词义辨析。\n[解题思路]空格句指出，还存在另一个______\n敦公交示例“为了实现准时，对收益、对安全、对意欲乘车的顾客熟视无睹；而如若将目标设置为安全或\n\n收益，又无法做到准时”意在说明首段所提岀的“设定目标的负面影响：使得目标以外的要素受到扭 \n曲”，此处应接续介绍目标设定的另一负面影响（another________ ），且由本段末句“一个小时的航程现在\n号称需要两小时”所传递出的贬义色彩也能感知此空格应表“问题，负面影响”等，[B] problem正确。\n[错项排除]从总体语义导向看，[A]、[D]均为中性（偏正面）语义，与段间并列逻辑矛盾。具体而 \n言，[A] purpose表7K抽象的\"意义\"时指\"人生或生活的意义/目的感\"，例:Volunteer work gives her life \n（a sense of） purpose.（做志愿T作使她的生活有了意义0） [D] policy可指\"宏观政治或经济上的政策、 \n方\n\n【选项释义与词汇辨析】\n[B] problem: 棘手的问题；困难\n[D] policy: 政策；原则；为人之道\n[A] purpose: 意图；目的；重要意义\n[C] prejudice: 偏见；成见",
+      "explanation": "【命题解密】动词辨析。根据句意：“你有没有注意到，你的航班可能晚点一个小时起飞，但仍然准点到达？”notice意为“注意，察觉”，符合语境；reported“报告”；revealed“透露”；admitted“承认”，均不符合生活观察场景，故选[D] noticed。",
       "points": 0.5,
       "sort_order": 13,
       "answer": "D",
@@ -623,26 +635,26 @@
       "options": [
         {
           "key": "A",
-          "text": "break",
           "value": "A",
+          "text": "break",
           "content": "break"
         },
         {
           "key": "B",
-          "text": "trip",
           "value": "B",
+          "text": "trip",
           "content": "trip"
         },
         {
           "key": "C",
-          "text": "departure",
           "value": "C",
+          "text": "departure",
           "content": "departure"
         },
         {
           "key": "D",
-          "text": "transfer",
           "value": "D",
+          "text": "transfer",
           "content": "transfer"
         }
       ],
@@ -664,26 +676,26 @@
       "options": [
         {
           "key": "A",
-          "text": "moral",
           "value": "A",
+          "text": "moral",
           "content": "moral"
         },
         {
           "key": "B",
-          "text": "background",
           "value": "B",
+          "text": "background",
           "content": "background"
         },
         {
           "key": "C",
-          "text": "style",
           "value": "C",
+          "text": "style",
           "content": "style"
         },
         {
           "key": "D",
-          "text": "form",
           "value": "D",
+          "text": "form",
           "content": "form"
         }
       ],
@@ -705,26 +717,26 @@
       "options": [
         {
           "key": "A",
-          "text": "interpret",
           "value": "A",
+          "text": "interpret",
           "content": "interpret"
         },
         {
           "key": "B",
-          "text": "criticize",
           "value": "B",
+          "text": "criticize",
           "content": "criticize"
         },
         {
           "key": "C",
-          "text": "sacrifice",
           "value": "C",
+          "text": "sacrifice",
           "content": "sacrifice"
         },
         {
           "key": "D",
-          "text": "tolerate",
           "value": "D",
+          "text": "tolerate",
           "content": "tolerate"
         }
       ],
@@ -746,26 +758,26 @@
       "options": [
         {
           "key": "A",
-          "text": "task",
           "value": "A",
+          "text": "task",
           "content": "task"
         },
         {
           "key": "B",
-          "text": "secret",
           "value": "B",
+          "text": "secret",
           "content": "secret"
         },
         {
           "key": "C",
-          "text": "product",
           "value": "C",
+          "text": "product",
           "content": "product"
         },
         {
           "key": "D",
-          "text": "cost",
           "value": "D",
+          "text": "cost",
           "content": "cost"
         }
       ],
@@ -787,26 +799,26 @@
       "options": [
         {
           "key": "A",
-          "text": "leading to",
           "value": "A",
+          "text": "leading to",
           "content": "leading to"
         },
         {
           "key": "B",
-          "text": "calling for",
           "value": "B",
+          "text": "calling for",
           "content": "calling for"
         },
         {
           "key": "C",
-          "text": "relating to",
           "value": "C",
+          "text": "relating to",
           "content": "relating to"
         },
         {
           "key": "D",
-          "text": "accounting for",
           "value": "D",
+          "text": "accounting for",
           "content": "accounting for"
         }
       ],
@@ -828,26 +840,26 @@
       "options": [
         {
           "key": "A",
-          "text": "specify",
           "value": "A",
+          "text": "specify",
           "content": "specify"
         },
         {
           "key": "B",
-          "text": "predict",
           "value": "B",
+          "text": "predict",
           "content": "predict"
         },
         {
           "key": "C",
-          "text": "restore",
           "value": "C",
+          "text": "restore",
           "content": "restore"
         },
         {
           "key": "D",
-          "text": "create",
           "value": "D",
+          "text": "create",
           "content": "create"
         }
       ],
@@ -869,26 +881,26 @@
       "options": [
         {
           "key": "A",
-          "text": "modify",
           "value": "A",
+          "text": "modify",
           "content": "modify"
         },
         {
           "key": "B",
-          "text": "review",
           "value": "B",
+          "text": "review",
           "content": "review"
         },
         {
           "key": "C",
-          "text": "present",
           "value": "C",
+          "text": "present",
           "content": "present"
         },
         {
           "key": "D",
-          "text": "achieve",
           "value": "D",
+          "text": "achieve",
           "content": "achieve"
         }
       ],
@@ -910,26 +922,26 @@
       "options": [
         {
           "key": "A",
-          "text": "an increase in full-time employment",
           "value": "A",
+          "text": "an increase in full-time employment",
           "content": "an increase in full-time employment"
         },
         {
           "key": "B",
-          "text": "an urgent demand for new job skills",
           "value": "B",
+          "text": "an urgent demand for new job skills",
           "content": "an urgent demand for new job skills"
         },
         {
           "key": "C",
-          "text": "a steady growth of job opportunities",
           "value": "C",
+          "text": "a steady growth of job opportunities",
           "content": "a steady growth of job opportunities"
         },
         {
           "key": "D",
-          "text": "a controversy about \"core skills\"",
           "value": "D",
+          "text": "a controversy about \"core skills\"",
           "content": "a controversy about \"core skills\""
         }
       ],
@@ -951,26 +963,26 @@
       "options": [
         {
           "key": "A",
-          "text": "an alternative to the fire-and-hire strategy",
           "value": "A",
+          "text": "an alternative to the fire-and-hire strategy",
           "content": "an alternative to the fire-and-hire strategy"
         },
         {
           "key": "B",
-          "text": "an immediate need for government support",
           "value": "B",
+          "text": "an immediate need for government support",
           "content": "an immediate need for government support"
         },
         {
           "key": "C",
-          "text": "the importance of staff appraisal standards",
           "value": "C",
+          "text": "the importance of staff appraisal standards",
           "content": "the importance of staff appraisal standards"
         },
         {
           "key": "D",
-          "text": "the characteristics of reskilling programs",
           "value": "D",
+          "text": "the characteristics of reskilling programs",
           "content": "the characteristics of reskilling programs"
         }
       ],
@@ -992,26 +1004,26 @@
       "options": [
         {
           "key": "A",
-          "text": "have driven up labour costs",
           "value": "A",
+          "text": "have driven up labour costs",
           "content": "have driven up labour costs"
         },
         {
           "key": "B",
-          "text": "have proved to be inconsistent",
           "value": "B",
+          "text": "have proved to be inconsistent",
           "content": "have proved to be inconsistent"
         },
         {
           "key": "C",
-          "text": "have met with fierce opposition",
           "value": "C",
+          "text": "have met with fierce opposition",
           "content": "have met with fierce opposition"
         },
         {
           "key": "D",
-          "text": "have appeared to be insufficient",
           "value": "D",
+          "text": "have appeared to be insufficient",
           "content": "have appeared to be insufficient"
         }
       ],
@@ -1033,34 +1045,34 @@
       "options": [
         {
           "key": "A",
-          "text": "call for policy adjustment",
           "value": "A",
+          "text": "call for policy adjustment",
           "content": "call for policy adjustment"
         },
         {
           "key": "B",
-          "text": "change in hiring practices",
           "value": "B",
+          "text": "change in hiring practices",
           "content": "change in hiring practices"
         },
         {
           "key": "C",
-          "text": "lack of medical workers",
           "value": "C",
+          "text": "lack of medical workers",
           "content": "lack of medical workers"
         },
         {
           "key": "D",
-          "text": "sign of economic recovery",
           "value": "D",
+          "text": "sign of economic recovery",
           "content": "sign of economic recovery"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "C",
       "explanation": "［精准定位］第三段①句指出，疫情期间失业率居高不下。随后，②③句以具体数据说明疫情导致失业率大幅走高（潜在逻辑：疫情加剧—用人单位用工需求下降—失业率大幅走高），然后转折指出员工短缺的问题依然存在。④句进而以医疗领域员工短缺的现象为例予以佐证。由此可见，［C］正确。\n［命题解密］题干 +正确项［C］是对第三段④句 there were still clear shortages of doctors, nurses and other medical personnel 的同义改写。\n［A］根据该段所述客观现象“失业率走高、医护人员短缺”主观臆断出“人民不满政府的作为，呼吁调整政策”，但文中并未提及人们对政府政策的诉求。［B］将②③句“二月（疫情初期）员工短缺问题普遍存在—五月（疫情高峰期）员工短缺问题大多不复存在”所体现的“用工需求发生变化”窜改为“用工制度/雇佣惯例发生变化”。［D］与②③句所述现象“失业率由低到高、经济走向低迷”相悖。\n［技巧总结］让步转折处常常引出信息重点，也是命题人的关注点。本题对应的第三段中③句后半句although many. . . not all...形成让步转折，并将语义重点落在“员工短缺问题依然存在（not all had done so）”上；随后④句以“医务人员短缺”进行例证。掌握信息关键点后，很容易就能锁定正确项［C］。",
       "points": 2.0,
       "sort_order": 24,
-      "answer": "B",
+      "answer": "C",
       "question_number": 24,
       "score": 2.0
     },
@@ -1074,26 +1086,26 @@
       "options": [
         {
           "key": "A",
-          "text": "create job vacancies for the unemployed",
           "value": "A",
+          "text": "create job vacancies for the unemployed",
           "content": "create job vacancies for the unemployed"
         },
         {
           "key": "B",
-          "text": "prepare their laid-off workers for other jobs",
           "value": "B",
+          "text": "prepare their laid-off workers for other jobs",
           "content": "prepare their laid-off workers for other jobs"
         },
         {
           "key": "C",
-          "text": "retrain their cabin staff for better services",
           "value": "C",
+          "text": "retrain their cabin staff for better services",
           "content": "retrain their cabin staff for better services"
         },
         {
           "key": "D",
-          "text": "finance their staff's college education",
           "value": "D",
+          "text": "finance their staff's college education",
           "content": "finance their staff's college education"
         }
       ],
@@ -1115,26 +1127,26 @@
       "options": [
         {
           "key": "A",
-          "text": "be hindered by its population growth",
           "value": "A",
+          "text": "be hindered by its population growth",
           "content": "be hindered by its population growth"
         },
         {
           "key": "B",
-          "text": "contribute to the nation's well-being",
           "value": "B",
+          "text": "contribute to the nation's well-being",
           "content": "contribute to the nation's well-being"
         },
         {
           "key": "C",
-          "text": "become a priority of the government",
           "value": "C",
+          "text": "become a priority of the government",
           "content": "become a priority of the government"
         },
         {
           "key": "D",
-          "text": "pose a challenge to its farming industry",
           "value": "D",
+          "text": "pose a challenge to its farming industry",
           "content": "pose a challenge to its farming industry"
         }
       ],
@@ -1156,34 +1168,34 @@
       "options": [
         {
           "key": "A",
-          "text": "farmland has been inefficiently utilized",
           "value": "A",
+          "text": "farmland has been inefficiently utilized",
           "content": "farmland has been inefficiently utilized"
         },
         {
           "key": "B",
-          "text": "factory-style production needs reforming",
           "value": "B",
+          "text": "factory-style production needs reforming",
           "content": "factory-style production needs reforming"
         },
         {
           "key": "C",
-          "text": "most land is used for meat and dairy production",
           "value": "C",
+          "text": "most land is used for meat and dairy production",
           "content": "most land is used for meat and dairy production"
         },
         {
           "key": "D",
-          "text": "more green fields will be converted for farming",
           "value": "D",
+          "text": "more green fields will be converted for farming",
           "content": "more green fields will be converted for farming"
         }
       ],
-      "correct_answer": "D",
+      "correct_answer": "C",
       "explanation": "［精准定位］根据题干关键词The report by the University of Leeds定位到第三段①句：英国利兹大学发表了一份关于“英国粮食生产”的报告，该报告指出英国土地总面积的85%与肉类及奶制品的生产相关联，［C］正确。\n［命题解密］“题干 + ［C］”是对第三段①句的概括，其中 most land is used for meat and dairy production 对应 85 per cent of the country's total land area is associated with meat and dairy production。\n［A］、［B］、［D］的干扰均源于第四段②句，分别来自句中 farm more intensively、more factory-style production 以及 fewer green fields。但该句并非陈述报告展示的实际情形，而是作者基于报告数据，就“英国提高自给率”做出的设想（若要大幅提高自给率，英国将需要……），均不合题干要求。更何况［A］推导错误：由“农业需要更集约化”错误推导出“目前农田的利用效率低下”；［B］曲解信息：将“工厂式生产需要增加”理解为“工厂式生产需要改革”。\n［技巧总结］本题就“报告内容”命制事实细节题，解答关键在于精准定位，辨别“报告内容”与“作者基于报告所做设想”：第四段②句中 To become much more self-sufficient, the UK would need to 表明这里已经超越报告内容，作者开始就“英国如何才可能提升自给率”进行设想，因此不管是曲解作者设想的还是符合其内容的［D］，都需排除。合理概括第三段①句报告内容陈述（According to a report...）的［C］才是正确项。",
       "points": 2.0,
       "sort_order": 27,
-      "answer": "D",
+      "answer": "C",
       "question_number": 27,
       "score": 2.0
     },
@@ -1197,26 +1209,26 @@
       "options": [
         {
           "key": "A",
-          "text": "its farming technology",
           "value": "A",
+          "text": "its farming technology",
           "content": "its farming technology"
         },
         {
           "key": "B",
-          "text": "its dietary tradition",
           "value": "B",
+          "text": "its dietary tradition",
           "content": "its dietary tradition"
         },
         {
           "key": "C",
-          "text": "its natural conditions",
           "value": "C",
+          "text": "its natural conditions",
           "content": "its natural conditions"
         },
         {
           "key": "D",
-          "text": "its commercial interests",
           "value": "D",
+          "text": "its commercial interests",
           "content": "its commercial interests"
         }
       ],
@@ -1238,34 +1250,34 @@
       "options": [
         {
           "key": "A",
-          "text": "rely largely on imports for fresh produce",
           "value": "A",
+          "text": "rely largely on imports for fresh produce",
           "content": "rely largely on imports for fresh produce"
         },
         {
           "key": "B",
-          "text": "enjoy a steady rise in fruit consumption",
           "value": "B",
+          "text": "enjoy a steady rise in fruit consumption",
           "content": "enjoy a steady rise in fruit consumption"
         },
         {
           "key": "C",
-          "text": "are seeking effective ways to cut calorie intake",
           "value": "C",
+          "text": "are seeking effective ways to cut calorie intake",
           "content": "are seeking effective ways to cut calorie intake"
         },
         {
           "key": "D",
-          "text": "are trying to grow new varieties of grains",
           "value": "D",
+          "text": "are trying to grow new varieties of grains",
           "content": "are trying to grow new varieties of grains"
         }
       ],
-      "correct_answer": "B",
+      "correct_answer": "A",
       "explanation": "［精准定位］末段①句指出“如今英国人食用的果蔬中仅有23%产自本国”，可知其余77%/大部分都依靠进口，［A］正确。\n［命题解密］［A］中 rely largely on imports 是对①句 Just 23 per cent... are currently home-grown 的正确计算和合理推断。\n［B］错误理解段中23%和30%两个数据的含义，这里是在指出“产自本国的果蔬占果蔬总食用量的23%，采用最极端手段可以达到30%”，并非“果蔬食用量上升”。［C］和［D］分别将②句“英国人若采用极端手段尽力满足果蔬需求，则需要另找地方种植提供大部分卡路里摄入的谷物等（look for... the grains, sugars, seeds... the vast bulk of our current calorie intake）”曲解为“英国人正寻求减少卡路里摄入”和“英国人正努力培育新的谷物类型”。\n［技巧总结］题目就末段考查事实细节，需要将各项核心关键词回文比对，进行合理引申推断，关键在于理清数据关系（①句23%, 30%），辨别信息虚实（②句是在以假定情形说明采用极端手段种植果蔬不可行）：分别利用选项关键名词［A］ fresh produce, ［B］ fruit consumption, ［C］ calorie intake, ［D］ grains 定位原文，然后进行比对，发现［B］、［C］、［D］其余部分 enjoy a steady rise、are seeking effective ways to cut、are trying to grow new varieties 歪曲了文中信息，可排除；而［A］ rely largely on imports 是对 Just 23 per cent of the fruit and vegetables... are currently home-grown 的正确推算，故为正确项。",
       "points": 2.0,
       "sort_order": 29,
-      "answer": "B",
+      "answer": "A",
       "question_number": 29,
       "score": 2.0
     },
@@ -1279,26 +1291,26 @@
       "options": [
         {
           "key": "A",
-          "text": "economic development should not compromise ecological security",
           "value": "A",
+          "text": "economic development should not compromise ecological security",
           "content": "economic development should not compromise ecological security"
         },
         {
           "key": "B",
-          "text": "high-speed railways are the most sustainable transport mode",
           "value": "B",
+          "text": "high-speed railways are the most sustainable transport mode",
           "content": "high-speed railways are the most sustainable transport mode"
         },
         {
           "key": "C",
-          "text": "rural regeneration depends primarily on tourism expansion",
           "value": "C",
+          "text": "rural regeneration depends primarily on tourism expansion",
           "content": "rural regeneration depends primarily on tourism expansion"
         },
         {
           "key": "D",
-          "text": "ancient forests should be converted to commercial woodlands",
           "value": "D",
+          "text": "ancient forests should be converted to commercial woodlands",
           "content": "ancient forests should be converted to commercial woodlands"
         }
       ],
@@ -1320,26 +1332,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Their engineers were retained.",
           "value": "A",
+          "text": "Their engineers were retained.",
           "content": "Their engineers were retained."
         },
         {
           "key": "B",
-          "text": "Their market values declined.",
           "value": "B",
+          "text": "Their market values declined.",
           "content": "Their market values declined."
         },
         {
           "key": "C",
-          "text": "Their tech features improved.",
           "value": "C",
+          "text": "Their tech features improved.",
           "content": "Their tech features improved."
         },
         {
           "key": "D",
-          "text": "Their products were re-priced.",
           "value": "D",
+          "text": "Their products were re-priced.",
           "content": "Their products were re-priced."
         }
       ],
@@ -1361,26 +1373,26 @@
       "options": [
         {
           "key": "A",
-          "text": "exaggerate their product quality",
           "value": "A",
+          "text": "exaggerate their product quality",
           "content": "exaggerate their product quality"
         },
         {
           "key": "B",
-          "text": "eliminate their potential competitors",
           "value": "B",
+          "text": "eliminate their potential competitors",
           "content": "eliminate their potential competitors"
         },
         {
           "key": "C",
-          "text": "treat new tech talent unfairly",
           "value": "C",
+          "text": "treat new tech talent unfairly",
           "content": "treat new tech talent unfairly"
         },
         {
           "key": "D",
-          "text": "ignore public opinions",
           "value": "D",
+          "text": "ignore public opinions",
           "content": "ignore public opinions"
         }
       ],
@@ -1402,26 +1414,26 @@
       "options": [
         {
           "key": "A",
-          "text": "weaken big tech companies",
           "value": "A",
+          "text": "weaken big tech companies",
           "content": "weaken big tech companies"
         },
         {
           "key": "B",
-          "text": "worsen market competition",
           "value": "B",
+          "text": "worsen market competition",
           "content": "worsen market competition"
         },
         {
           "key": "C",
-          "text": "harm the national economy",
           "value": "C",
+          "text": "harm the national economy",
           "content": "harm the national economy"
         },
         {
           "key": "D",
-          "text": "discourage start-up investors",
           "value": "D",
+          "text": "discourage start-up investors",
           "content": "discourage start-up investors"
         }
       ],
@@ -1443,26 +1455,26 @@
       "options": [
         {
           "key": "A",
-          "text": "limit Big Tech's expansion",
           "value": "A",
+          "text": "limit Big Tech's expansion",
           "content": "limit Big Tech's expansion"
         },
         {
           "key": "B",
-          "text": "encourage research collaboration",
           "value": "B",
+          "text": "encourage research collaboration",
           "content": "encourage research collaboration"
         },
         {
           "key": "C",
-          "text": "examine small acquisitions",
           "value": "C",
+          "text": "examine small acquisitions",
           "content": "examine small acquisitions"
         },
         {
           "key": "D",
-          "text": "supervise start-ups' operation",
           "value": "D",
+          "text": "supervise start-ups' operation",
           "content": "supervise start-ups' operation"
         }
       ],
@@ -1484,26 +1496,26 @@
       "options": [
         {
           "key": "A",
-          "text": "brought little financial pressure",
           "value": "A",
+          "text": "brought little financial pressure",
           "content": "brought little financial pressure"
         },
         {
           "key": "B",
-          "text": "raised few management challenges",
           "value": "B",
+          "text": "raised few management challenges",
           "content": "raised few management challenges"
         },
         {
           "key": "C",
-          "text": "set an example for future deals",
           "value": "C",
+          "text": "set an example for future deals",
           "content": "set an example for future deals"
         },
         {
           "key": "D",
-          "text": "generated considerable profits",
           "value": "D",
+          "text": "generated considerable profits",
           "content": "generated considerable profits"
         }
       ],
@@ -1525,26 +1537,26 @@
       "options": [
         {
           "key": "A",
-          "text": "the power of people's memory",
           "value": "A",
+          "text": "the power of people's memory",
           "content": "the power of people's memory"
         },
         {
           "key": "B",
-          "text": "the reliability of first impressions",
           "value": "B",
+          "text": "the reliability of first impressions",
           "content": "the reliability of first impressions"
         },
         {
           "key": "C",
-          "text": "instructor-student interaction",
           "value": "C",
+          "text": "instructor-student interaction",
           "content": "instructor-student interaction"
         },
         {
           "key": "D",
-          "text": "people's ability to influence others",
           "value": "D",
+          "text": "people's ability to influence others",
           "content": "people's ability to influence others"
         }
       ],
@@ -1566,26 +1578,26 @@
       "options": [
         {
           "key": "A",
-          "text": "focused on specific details",
           "value": "A",
+          "text": "focused on specific details",
           "content": "focused on specific details"
         },
         {
           "key": "B",
-          "text": "gave the rating in limited time",
           "value": "B",
+          "text": "gave the rating in limited time",
           "content": "gave the rating in limited time"
         },
         {
           "key": "C",
-          "text": "watched shorter video clips",
           "value": "C",
+          "text": "watched shorter video clips",
           "content": "watched shorter video clips"
         },
         {
           "key": "D",
-          "text": "discussed with one another",
           "value": "D",
+          "text": "discussed with one another",
           "content": "discussed with one another"
         }
       ],
@@ -1607,26 +1619,26 @@
       "options": [
         {
           "key": "A",
-          "text": "reflection can be distracting",
           "value": "A",
+          "text": "reflection can be distracting",
           "content": "reflection can be distracting"
         },
         {
           "key": "B",
-          "text": "memory may be selective",
           "value": "B",
+          "text": "memory may be selective",
           "content": "memory may be selective"
         },
         {
           "key": "C",
-          "text": "social skills must be cultivated",
           "value": "C",
+          "text": "social skills must be cultivated",
           "content": "social skills must be cultivated"
         },
         {
           "key": "D",
-          "text": "deception is difficult to detect",
           "value": "D",
+          "text": "deception is difficult to detect",
           "content": "deception is difficult to detect"
         }
       ],
@@ -1648,26 +1660,26 @@
       "options": [
         {
           "key": "A",
-          "text": "collect enough data",
           "value": "A",
+          "text": "collect enough data",
           "content": "collect enough data"
         },
         {
           "key": "B",
-          "text": "list your preferences",
           "value": "B",
+          "text": "list your preferences",
           "content": "list your preferences"
         },
         {
           "key": "C",
-          "text": "seek expert advice",
           "value": "C",
+          "text": "seek expert advice",
           "content": "seek expert advice"
         },
         {
           "key": "D",
-          "text": "follow your feelings",
           "value": "D",
+          "text": "follow your feelings",
           "content": "follow your feelings"
         }
       ],
@@ -1689,26 +1701,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Generating new products takes time.",
           "value": "A",
+          "text": "Generating new products takes time.",
           "content": "Generating new products takes time."
         },
         {
           "key": "B",
-          "text": "Intuition may affect reflective tasks.",
           "value": "B",
+          "text": "Intuition may affect reflective tasks.",
           "content": "Intuition may affect reflective tasks."
         },
         {
           "key": "C",
-          "text": "Vocabulary comprehension needs creativity.",
           "value": "C",
+          "text": "Vocabulary comprehension needs creativity.",
           "content": "Vocabulary comprehension needs creativity."
         },
         {
           "key": "D",
-          "text": "Objective thinking may boost intuitiveness.",
           "value": "D",
+          "text": "Objective thinking may boost intuitiveness.",
           "content": "Objective thinking may boost intuitiveness."
         }
       ],
@@ -1730,44 +1742,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Stay calm",
           "value": "A",
+          "text": "Stay calm",
           "content": "Stay calm"
         },
         {
           "key": "B",
-          "text": "Stay humble",
           "value": "B",
+          "text": "Stay humble",
           "content": "Stay humble"
         },
         {
           "key": "C",
-          "text": "Decide whether to wait",
           "value": "C",
+          "text": "Decide whether to wait",
           "content": "Decide whether to wait"
         },
         {
           "key": "D",
-          "text": "Be realistic about the risks",
           "value": "D",
+          "text": "Be realistic about the risks",
           "content": "Be realistic about the risks"
         },
         {
           "key": "E",
-          "text": "Don't make judgements",
           "value": "E",
+          "text": "Don't make judgements",
           "content": "Don't make judgements"
         },
         {
           "key": "F",
-          "text": "Identify a shared goal",
           "value": "F",
+          "text": "Identify a shared goal",
           "content": "Identify a shared goal"
         },
         {
           "key": "G",
-          "text": "Ask permission to disagree",
           "value": "G",
+          "text": "Ask permission to disagree",
           "content": "Ask permission to disagree"
         }
       ],
@@ -1789,44 +1801,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Stay calm",
           "value": "A",
+          "text": "Stay calm",
           "content": "Stay calm"
         },
         {
           "key": "B",
-          "text": "Stay humble",
           "value": "B",
+          "text": "Stay humble",
           "content": "Stay humble"
         },
         {
           "key": "C",
-          "text": "Decide whether to wait",
           "value": "C",
+          "text": "Decide whether to wait",
           "content": "Decide whether to wait"
         },
         {
           "key": "D",
-          "text": "Be realistic about the risks",
           "value": "D",
+          "text": "Be realistic about the risks",
           "content": "Be realistic about the risks"
         },
         {
           "key": "E",
-          "text": "Don't make judgements",
           "value": "E",
+          "text": "Don't make judgements",
           "content": "Don't make judgements"
         },
         {
           "key": "F",
-          "text": "Identify a shared goal",
           "value": "F",
+          "text": "Identify a shared goal",
           "content": "Identify a shared goal"
         },
         {
           "key": "G",
-          "text": "Ask permission to disagree",
           "value": "G",
+          "text": "Ask permission to disagree",
           "content": "Ask permission to disagree"
         }
       ],
@@ -1848,44 +1860,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Stay calm",
           "value": "A",
+          "text": "Stay calm",
           "content": "Stay calm"
         },
         {
           "key": "B",
-          "text": "Stay humble",
           "value": "B",
+          "text": "Stay humble",
           "content": "Stay humble"
         },
         {
           "key": "C",
-          "text": "Decide whether to wait",
           "value": "C",
+          "text": "Decide whether to wait",
           "content": "Decide whether to wait"
         },
         {
           "key": "D",
-          "text": "Be realistic about the risks",
           "value": "D",
+          "text": "Be realistic about the risks",
           "content": "Be realistic about the risks"
         },
         {
           "key": "E",
-          "text": "Don't make judgements",
           "value": "E",
+          "text": "Don't make judgements",
           "content": "Don't make judgements"
         },
         {
           "key": "F",
-          "text": "Identify a shared goal",
           "value": "F",
+          "text": "Identify a shared goal",
           "content": "Identify a shared goal"
         },
         {
           "key": "G",
-          "text": "Ask permission to disagree",
           "value": "G",
+          "text": "Ask permission to disagree",
           "content": "Ask permission to disagree"
         }
       ],
@@ -1907,44 +1919,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Stay calm",
           "value": "A",
+          "text": "Stay calm",
           "content": "Stay calm"
         },
         {
           "key": "B",
-          "text": "Stay humble",
           "value": "B",
+          "text": "Stay humble",
           "content": "Stay humble"
         },
         {
           "key": "C",
-          "text": "Decide whether to wait",
           "value": "C",
+          "text": "Decide whether to wait",
           "content": "Decide whether to wait"
         },
         {
           "key": "D",
-          "text": "Be realistic about the risks",
           "value": "D",
+          "text": "Be realistic about the risks",
           "content": "Be realistic about the risks"
         },
         {
           "key": "E",
-          "text": "Don't make judgements",
           "value": "E",
+          "text": "Don't make judgements",
           "content": "Don't make judgements"
         },
         {
           "key": "F",
-          "text": "Identify a shared goal",
           "value": "F",
+          "text": "Identify a shared goal",
           "content": "Identify a shared goal"
         },
         {
           "key": "G",
-          "text": "Ask permission to disagree",
           "value": "G",
+          "text": "Ask permission to disagree",
           "content": "Ask permission to disagree"
         }
       ],
@@ -1966,44 +1978,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Stay calm",
           "value": "A",
+          "text": "Stay calm",
           "content": "Stay calm"
         },
         {
           "key": "B",
-          "text": "Stay humble",
           "value": "B",
+          "text": "Stay humble",
           "content": "Stay humble"
         },
         {
           "key": "C",
-          "text": "Decide whether to wait",
           "value": "C",
+          "text": "Decide whether to wait",
           "content": "Decide whether to wait"
         },
         {
           "key": "D",
-          "text": "Be realistic about the risks",
           "value": "D",
+          "text": "Be realistic about the risks",
           "content": "Be realistic about the risks"
         },
         {
           "key": "E",
-          "text": "Don't make judgements",
           "value": "E",
+          "text": "Don't make judgements",
           "content": "Don't make judgements"
         },
         {
           "key": "F",
-          "text": "Identify a shared goal",
           "value": "F",
+          "text": "Identify a shared goal",
           "content": "Identify a shared goal"
         },
         {
           "key": "G",
-          "text": "Ask permission to disagree",
           "value": "G",
+          "text": "Ask permission to disagree",
           "content": "Ask permission to disagree"
         }
       ],

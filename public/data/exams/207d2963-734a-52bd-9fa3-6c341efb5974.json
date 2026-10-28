@@ -102,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "criticized",
-          "value": "criticized"
+          "content": "criticized"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "appointed",
-          "value": "appointed"
+          "content": "appointed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "commented",
-          "value": "commented"
+          "content": "commented"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "designated",
-          "value": "designated"
+          "content": "designated"
         }
       ],
       "correct_answer": "D",
@@ -140,23 +144,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "proceeded",
-          "value": "proceeded"
+          "content": "proceeded"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "activated",
-          "value": "activated"
+          "content": "activated"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "followed",
-          "value": "followed"
+          "content": "followed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "prompted",
-          "value": "prompted"
+          "content": "prompted"
         }
       ],
       "correct_answer": "C",
@@ -178,23 +186,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "digits",
-          "value": "digits"
+          "content": "digits"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "numbers",
-          "value": "numbers"
+          "content": "numbers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "amounts",
-          "value": "amounts"
+          "content": "amounts"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sums",
-          "value": "sums"
+          "content": "sums"
         }
       ],
       "correct_answer": "B",
@@ -216,23 +228,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "moderate",
-          "value": "moderate"
+          "content": "moderate"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "normal",
-          "value": "normal"
+          "content": "normal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unusual",
-          "value": "unusual"
+          "content": "unusual"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "extreme",
-          "value": "extreme"
+          "content": "extreme"
         }
       ],
       "correct_answer": "A",
@@ -254,23 +270,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "with",
-          "value": "with"
+          "content": "with"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "in",
-          "value": "in"
+          "content": "in"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "from",
-          "value": "from"
+          "content": "from"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "by",
-          "value": "by"
+          "content": "by"
         }
       ],
       "correct_answer": "A",
@@ -292,23 +312,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "progress",
-          "value": "progress"
+          "content": "progress"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "absence",
-          "value": "absence"
+          "content": "absence"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "presence",
-          "value": "presence"
+          "content": "presence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "favor",
-          "value": "favor"
+          "content": "favor"
         }
       ],
       "correct_answer": "B",
@@ -330,23 +354,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reality",
-          "value": "reality"
+          "content": "reality"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "phenomenon",
-          "value": "phenomenon"
+          "content": "phenomenon"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "concept",
-          "value": "concept"
+          "content": "concept"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "notice",
-          "value": "notice"
+          "content": "notice"
         }
       ],
       "correct_answer": "D",
@@ -368,23 +396,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "over",
-          "value": "over"
+          "content": "over"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for",
-          "value": "for"
+          "content": "for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "among",
-          "value": "among"
+          "content": "among"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "to",
-          "value": "to"
+          "content": "to"
         }
       ],
       "correct_answer": "C",
@@ -406,23 +438,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "stay up",
-          "value": "stay up"
+          "content": "stay up"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "crop up",
-          "value": "crop up"
+          "content": "crop up"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "fill up",
-          "value": "fill up"
+          "content": "fill up"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cover up",
-          "value": "cover up"
+          "content": "cover up"
         }
       ],
       "correct_answer": "B",
@@ -444,23 +480,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "as",
-          "value": "as"
+          "content": "as"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "if",
-          "value": "if"
+          "content": "if"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unless",
-          "value": "unless"
+          "content": "unless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "until",
-          "value": "until"
+          "content": "until"
         }
       ],
       "correct_answer": "A",
@@ -482,23 +522,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "excessive",
-          "value": "excessive"
+          "content": "excessive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "enormous",
-          "value": "enormous"
+          "content": "enormous"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "significant",
-          "value": "significant"
+          "content": "significant"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "magnificent",
-          "value": "magnificent"
+          "content": "magnificent"
         }
       ],
       "correct_answer": "C",
@@ -520,23 +564,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "categories",
-          "value": "categories"
+          "content": "categories"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "examples",
-          "value": "examples"
+          "content": "examples"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "patterns",
-          "value": "patterns"
+          "content": "patterns"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "samples",
-          "value": "samples"
+          "content": "samples"
         }
       ],
       "correct_answer": "D",
@@ -558,23 +606,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "imparted",
-          "value": "imparted"
+          "content": "imparted"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "immersed",
-          "value": "immersed"
+          "content": "immersed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "injected",
-          "value": "injected"
+          "content": "injected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "infected",
-          "value": "infected"
+          "content": "infected"
         }
       ],
       "correct_answer": "D",
@@ -596,23 +648,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "released",
-          "value": "released"
+          "content": "released"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "relayed",
-          "value": "relayed"
+          "content": "relayed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "relieved",
-          "value": "relieved"
+          "content": "relieved"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "remained",
-          "value": "remained"
+          "content": "remained"
         }
       ],
       "correct_answer": "A",
@@ -634,23 +690,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "placing",
-          "value": "placing"
+          "content": "placing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "delivering",
-          "value": "delivering"
+          "content": "delivering"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "taking",
-          "value": "taking"
+          "content": "taking"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "giving",
-          "value": "giving"
+          "content": "giving"
         }
       ],
       "correct_answer": "C",
@@ -672,23 +732,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "feasible",
-          "value": "feasible"
+          "content": "feasible"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "available",
-          "value": "available"
+          "content": "available"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reliable",
-          "value": "reliable"
+          "content": "reliable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "applicable",
-          "value": "applicable"
+          "content": "applicable"
         }
       ],
       "correct_answer": "B",
@@ -710,23 +774,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prevalent",
-          "value": "prevalent"
+          "content": "prevalent"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "principal",
-          "value": "principal"
+          "content": "principal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "innovative",
-          "value": "innovative"
+          "content": "innovative"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "initial",
-          "value": "initial"
+          "content": "initial"
         }
       ],
       "correct_answer": "D",
@@ -748,23 +816,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "presented",
-          "value": "presented"
+          "content": "presented"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "restricted",
-          "value": "restricted"
+          "content": "restricted"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "recommended",
-          "value": "recommended"
+          "content": "recommended"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "introduced",
-          "value": "introduced"
+          "content": "introduced"
         }
       ],
       "correct_answer": "C",
@@ -786,23 +858,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "problems",
-          "value": "problems"
+          "content": "problems"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "issues",
-          "value": "issues"
+          "content": "issues"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "agonies",
-          "value": "agonies"
+          "content": "agonies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sufferings",
-          "value": "sufferings"
+          "content": "sufferings"
         }
       ],
       "correct_answer": "A",
@@ -824,23 +900,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "involved in",
-          "value": "involved in"
+          "content": "involved in"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "caring for",
-          "value": "caring for"
+          "content": "caring for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "concerned with",
-          "value": "concerned with"
+          "content": "concerned with"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "warding off",
-          "value": "warding off"
+          "content": "warding off"
         }
       ],
       "correct_answer": "B",
@@ -862,23 +942,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the art market had witnessed a succession of victories",
-          "value": "the art market had witnessed a succession of victories"
+          "content": "the art market had witnessed a succession of victories"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the auctioneer finally got the two pieces at the highest bids",
-          "value": "the auctioneer finally got the two pieces at the highest bids"
+          "content": "the auctioneer finally got the two pieces at the highest bids"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Beautiful Inside My Head Forever won over all masterpieces",
-          "value": "Beautiful Inside My Head Forever won over all masterpieces"
+          "content": "Beautiful Inside My Head Forever won over all masterpieces"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "it was successfully made just before the world financial crisis",
-          "value": "it was successfully made just before the world financial crisis"
+          "content": "it was successfully made just before the world financial crisis"
         }
       ],
       "correct_answer": "D",
@@ -900,23 +984,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "collectors were no longer actively involved in art-market auctions",
-          "value": "collectors were no longer actively involved in art-market auctions"
+          "content": "collectors were no longer actively involved in art-market auctions"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "people stopped every kind of spending and stayed away from galleries",
-          "value": "people stopped every kind of spending and stayed away from galleries"
+          "content": "people stopped every kind of spending and stayed away from galleries"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "art collection as a fashion had lost its appeal to a great extent",
-          "value": "art collection as a fashion had lost its appeal to a great extent"
+          "content": "art collection as a fashion had lost its appeal to a great extent"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "works of art in general had gone out of fashion so they were not worth buying",
-          "value": "works of art in general had gone out of fashion so they were not worth buying"
+          "content": "works of art in general had gone out of fashion so they were not worth buying"
         }
       ],
       "correct_answer": "A",
@@ -938,23 +1026,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Sales of contemporary art fell dramatically from 2007 to 2008.",
-          "value": "Sales of contemporary art fell dramatically from 2007 to 2008."
+          "content": "Sales of contemporary art fell dramatically from 2007 to 2008."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The art market surpassed many other industries in momentum.",
-          "value": "The art market surpassed many other industries in momentum."
+          "content": "The art market surpassed many other industries in momentum."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The art market generally went downward in various ways.",
-          "value": "The art market generally went downward in various ways."
+          "content": "The art market generally went downward in various ways."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Some art dealers were awaiting better chances to come.",
-          "value": "Some art dealers were awaiting better chances to come."
+          "content": "Some art dealers were awaiting better chances to come."
         }
       ],
       "correct_answer": "B",
@@ -976,23 +1068,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "auction houses' favorites",
-          "value": "auction houses' favorites"
+          "content": "auction houses' favorites"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "contemporary trends",
-          "value": "contemporary trends"
+          "content": "contemporary trends"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "factors promoting artwork circulation",
-          "value": "factors promoting artwork circulation"
+          "content": "factors promoting artwork circulation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "styles representing Impressionists",
-          "value": "styles representing Impressionists"
+          "content": "styles representing Impressionists"
         }
       ],
       "correct_answer": "C",
@@ -1014,23 +1110,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Fluctuation of Art Prices",
-          "value": "Fluctuation of Art Prices"
+          "content": "Fluctuation of Art Prices"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Up-to-date Art Auctions",
-          "value": "Up-to-date Art Auctions"
+          "content": "Up-to-date Art Auctions"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Art Market in Decline",
-          "value": "Art Market in Decline"
+          "content": "Art Market in Decline"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Shifted Interest in Arts",
-          "value": "Shifted Interest in Arts"
+          "content": "Shifted Interest in Arts"
         }
       ],
       "correct_answer": "C",
@@ -1052,23 +1152,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Talking to them.",
-          "value": "Talking to them."
+          "content": "Talking to them."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Trusting them.",
-          "value": "Trusting them."
+          "content": "Trusting them."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Supporting their careers.",
-          "value": "Supporting their careers."
+          "content": "Supporting their careers."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Sharing housework.",
-          "value": "Sharing housework."
+          "content": "Sharing housework."
         }
       ],
       "correct_answer": "A",
@@ -1090,23 +1194,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "generating motivation",
-          "value": "generating motivation"
+          "content": "generating motivation"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "exerting influence",
-          "value": "exerting influence"
+          "content": "exerting influence"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "causing damage",
-          "value": "causing damage"
+          "content": "causing damage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "creating pressure",
-          "value": "creating pressure"
+          "content": "creating pressure"
         }
       ],
       "correct_answer": "C",
@@ -1128,23 +1236,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "men tend to talk more in public than women",
-          "value": "men tend to talk more in public than women"
+          "content": "men tend to talk more in public than women"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "nearly 50 percent of recent divorces are caused by failed conversation",
-          "value": "nearly 50 percent of recent divorces are caused by failed conversation"
+          "content": "nearly 50 percent of recent divorces are caused by failed conversation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "women attach much importance to communication between couples",
-          "value": "women attach much importance to communication between couples"
+          "content": "women attach much importance to communication between couples"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a female tends to be more talkative at home than her spouse",
-          "value": "a female tends to be more talkative at home than her spouse"
+          "content": "a female tends to be more talkative at home than her spouse"
         }
       ],
       "correct_answer": "B",
@@ -1166,23 +1278,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The moral decaying deserves more research by sociologists.",
-          "value": "The moral decaying deserves more research by sociologists."
+          "content": "The moral decaying deserves more research by sociologists."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Marriage break-up stems from sex inequalities.",
-          "value": "Marriage break-up stems from sex inequalities."
+          "content": "Marriage break-up stems from sex inequalities."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Husband and wife have different expectations from their marriage.",
-          "value": "Husband and wife have different expectations from their marriage."
+          "content": "Husband and wife have different expectations from their marriage."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Conversational patterns between man and wife are different.",
-          "value": "Conversational patterns between man and wife are different."
+          "content": "Conversational patterns between man and wife are different."
         }
       ],
       "correct_answer": "D",
@@ -1204,23 +1320,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a vivid account of the new book Divorce Talk",
-          "value": "a vivid account of the new book Divorce Talk"
+          "content": "a vivid account of the new book Divorce Talk"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "a detailed description of the stereotypical cartoon",
-          "value": "a detailed description of the stereotypical cartoon"
+          "content": "a detailed description of the stereotypical cartoon"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "other possible reasons for a high divorce rate in the U.S.",
-          "value": "other possible reasons for a high divorce rate in the U.S."
+          "content": "other possible reasons for a high divorce rate in the U.S."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a brief introduction to the political scientist Andrew Hacker",
-          "value": "a brief introduction to the political scientist Andrew Hacker"
+          "content": "a brief introduction to the political scientist Andrew Hacker"
         }
       ],
       "correct_answer": "C",
@@ -1242,23 +1362,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "should be further cultivated",
-          "value": "should be further cultivated"
+          "content": "should be further cultivated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "should be changed gradually",
-          "value": "should be changed gradually"
+          "content": "should be changed gradually"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are deeply rooted in history",
-          "value": "are deeply rooted in history"
+          "content": "are deeply rooted in history"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are basically private concerns",
-          "value": "are basically private concerns"
+          "content": "are basically private concerns"
         }
       ],
       "correct_answer": "A",
@@ -1280,23 +1404,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reveal their impact on people's habits",
-          "value": "reveal their impact on people's habits"
+          "content": "reveal their impact on people's habits"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "show the urgent need of daily necessities",
-          "value": "show the urgent need of daily necessities"
+          "content": "show the urgent need of daily necessities"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "indicate their effect on people's buying power",
-          "value": "indicate their effect on people's buying power"
+          "content": "indicate their effect on people's buying power"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "manifest the significant role of good habits",
-          "value": "manifest the significant role of good habits"
+          "content": "manifest the significant role of good habits"
         }
       ],
       "correct_answer": "A",
@@ -1318,23 +1446,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Tide.",
-          "value": "Tide."
+          "content": "Tide."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Crest.",
-          "value": "Crest."
+          "content": "Crest."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Colgate.",
-          "value": "Colgate."
+          "content": "Colgate."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Unilever.",
-          "value": "Unilever."
+          "content": "Unilever."
         }
       ],
       "correct_answer": "D",
@@ -1356,23 +1488,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "perfected art of products",
-          "value": "perfected art of products"
+          "content": "perfected art of products"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "automatic behavior creation",
-          "value": "automatic behavior creation"
+          "content": "automatic behavior creation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "commercial promotions",
-          "value": "commercial promotions"
+          "content": "commercial promotions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "scientific experiments",
-          "value": "scientific experiments"
+          "content": "scientific experiments"
         }
       ],
       "correct_answer": "C",
@@ -1394,23 +1530,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "indifferent",
-          "value": "indifferent"
+          "content": "indifferent"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "negative",
-          "value": "negative"
+          "content": "negative"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "positive",
-          "value": "positive"
+          "content": "positive"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "biased",
-          "value": "biased"
+          "content": "biased"
         }
       ],
       "correct_answer": "B",
@@ -1432,23 +1572,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "both literate and illiterate people can serve on juries",
-          "value": "both literate and illiterate people can serve on juries"
+          "content": "both literate and illiterate people can serve on juries"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "defendants are immune from trial by their peers",
-          "value": "defendants are immune from trial by their peers"
+          "content": "defendants are immune from trial by their peers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "no age limit should be imposed for jury service",
-          "value": "no age limit should be imposed for jury service"
+          "content": "no age limit should be imposed for jury service"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "judgment should consider the opinion of the public",
-          "value": "judgment should consider the opinion of the public"
+          "content": "judgment should consider the opinion of the public"
         }
       ],
       "correct_answer": "D",
@@ -1470,23 +1614,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the inadequacy of antidiscrimination laws",
-          "value": "the inadequacy of antidiscrimination laws"
+          "content": "the inadequacy of antidiscrimination laws"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the prevalent discrimination against certain races",
-          "value": "the prevalent discrimination against certain races"
+          "content": "the prevalent discrimination against certain races"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the conflicting ideals in jury selection procedures",
-          "value": "the conflicting ideals in jury selection procedures"
+          "content": "the conflicting ideals in jury selection procedures"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the arrogance common among the Supreme Court judges",
-          "value": "the arrogance common among the Supreme Court judges"
+          "content": "the arrogance common among the Supreme Court judges"
         }
       ],
       "correct_answer": "A",
@@ -1508,23 +1656,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "they were automatically banned by state laws",
-          "value": "they were automatically banned by state laws"
+          "content": "they were automatically banned by state laws"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "they fell far short of the required qualifications",
-          "value": "they fell far short of the required qualifications"
+          "content": "they fell far short of the required qualifications"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "they were supposed to perform domestic duties",
-          "value": "they were supposed to perform domestic duties"
+          "content": "they were supposed to perform domestic duties"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "they tended to evade public engagement",
-          "value": "they tended to evade public engagement"
+          "content": "they tended to evade public engagement"
         }
       ],
       "correct_answer": "C",
@@ -1546,23 +1698,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sex discrimination in jury selection was unconstitutional and had to be abolished",
-          "value": "sex discrimination in jury selection was unconstitutional and had to be abolished"
+          "content": "sex discrimination in jury selection was unconstitutional and had to be abolished"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "educational requirements became less rigid in the selection of federal jurors",
-          "value": "educational requirements became less rigid in the selection of federal jurors"
+          "content": "educational requirements became less rigid in the selection of federal jurors"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "jurors at the state level ought to be representative of the entire community",
-          "value": "jurors at the state level ought to be representative of the entire community"
+          "content": "jurors at the state level ought to be representative of the entire community"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "states ought to conform to the federal court in reforming the jury system",
-          "value": "states ought to conform to the federal court in reforming the jury system"
+          "content": "states ought to conform to the federal court in reforming the jury system"
         }
       ],
       "correct_answer": "B",
@@ -1584,23 +1740,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "its nature and problems",
-          "value": "its nature and problems"
+          "content": "its nature and problems"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "its characteristics and tradition",
-          "value": "its characteristics and tradition"
+          "content": "its characteristics and tradition"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "its problems and their solutions",
-          "value": "its problems and their solutions"
+          "content": "its problems and their solutions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "its tradition and development",
-          "value": "its tradition and development"
+          "content": "its tradition and development"
         }
       ],
       "correct_answer": "D",
@@ -1622,13 +1782,15 @@
       "options": [
         {
           "key": "T",
+          "value": "T",
           "text": "True",
-          "value": "True"
+          "content": "True"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "False",
-          "value": "False"
+          "content": "False"
         }
       ],
       "correct_answer": "F",
@@ -1650,13 +1812,15 @@
       "options": [
         {
           "key": "T",
+          "value": "T",
           "text": "True",
-          "value": "True"
+          "content": "True"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "False",
-          "value": "False"
+          "content": "False"
         }
       ],
       "correct_answer": "T",
@@ -1678,13 +1842,15 @@
       "options": [
         {
           "key": "T",
+          "value": "T",
           "text": "True",
-          "value": "True"
+          "content": "True"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "False",
-          "value": "False"
+          "content": "False"
         }
       ],
       "correct_answer": "F",
@@ -1706,13 +1872,15 @@
       "options": [
         {
           "key": "T",
+          "value": "T",
           "text": "True",
-          "value": "True"
+          "content": "True"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "False",
-          "value": "False"
+          "content": "False"
         }
       ],
       "correct_answer": "T",
@@ -1734,13 +1902,15 @@
       "options": [
         {
           "key": "T",
+          "value": "T",
           "text": "True",
-          "value": "True"
+          "content": "True"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "False",
-          "value": "False"
+          "content": "False"
         }
       ],
       "correct_answer": "F",

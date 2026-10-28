@@ -30,7 +30,7 @@
       "category_id": "ky1",
       "section_type": "cloze",
       "title": "Section I: Use of English",
-      "content": "In 1924 America's National Research Council sent two engineers to supervise a series of experiments at a telephone-parts factory called the Hawthorne Plant near Chicago. It hoped they would learn how stop-floor lighting affected workers' productivity. Instead, the studies ended up giving their name to the \"Hawthorne effect\", the extremely influential idea that the very act of being experimented upon changes a subject's behavior.\n\nThe idea arose because of the behavior of the women in the plant. According to accounts of the experiments, their hourly output rose when lighting was increased, but also when it was dimmed. It did not matter what was done; so long as something was changed, productivity rose. An awareness that they were being experimented upon seemed to be enough to alter workers' behavior by itself.\n\nAfter a decade of the experiments, however, another researcher, H. A. Landsberger, noticed something peculiar. The original data had never been fully analyzed. He discovered that the descriptions on record were far from reliable. No systematic evidence was found that workers became more productive simply because their lighting levels were changed.\n\nInstead, the productivity increases had occurred on Sunday nights, after a day off, before climbing to a plateau for the first few days of the week, and then dropping toward the weekend. Other factors, such as regular breaks and bonuses, had also played a role. The Hawthorne effect has become one of the most famous ideas in the social sciences. But the evidence for it is astonishingly weak, and modern data suggests that the alleged \"Hawthorne effect\" is hard to pin down.",
+      "content": "In 1924 America's National Research Council sent two engineers to supervise a series of experiments at a telephone-parts factory called the Hawthorne Plant near Chicago. It hoped they would learn how shop-floor lighting [1] workers' productivity. Instead, the studies ended [2] giving their name to the \"Hawthorne effect\", the extremely influential idea that the very [3] of being experimented upon changed subjects' behavior.\n\nThe idea arose because of the [4] behavior of the women in the plant. According to [5] of the experiments, their hourly output rose when lighting was increased, but also when it was dimmed. It did not [6] what was done in the experiment; [7] something was changed, productivity rose. A(n) [8] that they were being experimented upon seemed to be [9] to alter workers' behavior [10] itself.\n\nAfter several decades, the same data were [11] to econometric analysis. The Hawthorne experiments had another surprise in store. [12] the descriptions on record, no systematic [13] was found that levels of productivity were related to changes in lighting.\n\nIt turns out that the peculiar way of conducting the experiments may have led to [14] interpretations of what happened. [15], lighting was always changed on a Sunday. When work started again on Monday, output [16] rose compared with the previous Saturday and [17] to rise for the next couple of days. [18], a comparison with data for weeks when there was no experimentation showed that output always went up on Mondays. Workers [19] to be diligent for the first few days of the week in any case, before [20] a plateau and then slackening off. This suggests that the alleged \"Hawthorne effect\" is hard to pin down.",
       "sort_order": 1,
       "type": "cloze",
       "passage_number": 1
@@ -102,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "affected",
-          "value": "A"
+          "content": "affected"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "achieved",
-          "value": "B"
+          "content": "achieved"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "extracted",
-          "value": "C"
+          "content": "extracted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "restored",
-          "value": "D"
+          "content": "restored"
         }
       ],
       "correct_answer": "A",
@@ -139,23 +143,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "at",
-          "value": "A"
+          "content": "at"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "up",
-          "value": "B"
+          "content": "up"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "with",
-          "value": "C"
+          "content": "with"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "off",
-          "value": "D"
+          "content": "off"
         }
       ],
       "correct_answer": "B",
@@ -176,23 +184,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "truth",
-          "value": "A"
+          "content": "truth"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "sight",
-          "value": "B"
+          "content": "sight"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "act",
-          "value": "C"
+          "content": "act"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "proof",
-          "value": "D"
+          "content": "proof"
         }
       ],
       "correct_answer": "C",
@@ -213,23 +225,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "controversial",
-          "value": "A"
+          "content": "controversial"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "perplexing",
-          "value": "B"
+          "content": "perplexing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "mischievous",
-          "value": "C"
+          "content": "mischievous"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ambiguous",
-          "value": "D"
+          "content": "ambiguous"
         }
       ],
       "correct_answer": "B",
@@ -250,23 +266,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "requirements",
-          "value": "A"
+          "content": "requirements"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "explanations",
-          "value": "B"
+          "content": "explanations"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "accounts",
-          "value": "C"
+          "content": "accounts"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "assessments",
-          "value": "D"
+          "content": "assessments"
         }
       ],
       "correct_answer": "C",
@@ -287,23 +307,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "conclude",
-          "value": "A"
+          "content": "conclude"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "matter",
-          "value": "B"
+          "content": "matter"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "indicate",
-          "value": "C"
+          "content": "indicate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "work",
-          "value": "D"
+          "content": "work"
         }
       ],
       "correct_answer": "B",
@@ -324,23 +348,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "as far as",
-          "value": "A"
+          "content": "as far as"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for fear that",
-          "value": "B"
+          "content": "for fear that"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "in case that",
-          "value": "C"
+          "content": "in case that"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "so long as",
-          "value": "D"
+          "content": "so long as"
         }
       ],
       "correct_answer": "D",
@@ -361,23 +389,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "awareness",
-          "value": "A"
+          "content": "awareness"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "expectation",
-          "value": "B"
+          "content": "expectation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sentiment",
-          "value": "C"
+          "content": "sentiment"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "illusion",
-          "value": "D"
+          "content": "illusion"
         }
       ],
       "correct_answer": "A",
@@ -398,23 +430,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "suitable",
-          "value": "A"
+          "content": "suitable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "excessive",
-          "value": "B"
+          "content": "excessive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "enough",
-          "value": "C"
+          "content": "enough"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "abundant",
-          "value": "D"
+          "content": "abundant"
         }
       ],
       "correct_answer": "C",
@@ -435,23 +471,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "by",
-          "value": "A"
+          "content": "by"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for",
-          "value": "B"
+          "content": "for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "on",
-          "value": "C"
+          "content": "on"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "through",
-          "value": "D"
+          "content": "through"
         }
       ],
       "correct_answer": "D",
@@ -472,23 +512,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "compared",
-          "value": "A"
+          "content": "compared"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "shown",
-          "value": "B"
+          "content": "shown"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "subjected",
-          "value": "C"
+          "content": "subjected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "conveyed",
-          "value": "D"
+          "content": "conveyed"
         }
       ],
       "correct_answer": "C",
@@ -509,23 +553,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Contrary to",
-          "value": "A"
+          "content": "Contrary to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Consistent with",
-          "value": "B"
+          "content": "Consistent with"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Parallel with",
-          "value": "C"
+          "content": "Parallel with"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Peculiar to",
-          "value": "D"
+          "content": "Peculiar to"
         }
       ],
       "correct_answer": "A",
@@ -546,23 +594,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "evidence",
-          "value": "A"
+          "content": "evidence"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "guidance",
-          "value": "B"
+          "content": "guidance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "implication",
-          "value": "C"
+          "content": "implication"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "source",
-          "value": "D"
+          "content": "source"
         }
       ],
       "correct_answer": "A",
@@ -583,23 +635,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disputable",
-          "value": "A"
+          "content": "disputable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "enlightening",
-          "value": "B"
+          "content": "enlightening"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reliable",
-          "value": "C"
+          "content": "reliable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "misleading",
-          "value": "D"
+          "content": "misleading"
         }
       ],
       "correct_answer": "D",
@@ -620,23 +676,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "In contrast",
-          "value": "A"
+          "content": "In contrast"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "For example",
-          "value": "B"
+          "content": "For example"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "In consequence",
-          "value": "C"
+          "content": "In consequence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "As usual",
-          "value": "D"
+          "content": "As usual"
         }
       ],
       "correct_answer": "B",
@@ -657,23 +717,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "duly",
-          "value": "A"
+          "content": "duly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "accidentally",
-          "value": "B"
+          "content": "accidentally"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unpredictably",
-          "value": "C"
+          "content": "unpredictably"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "suddenly",
-          "value": "D"
+          "content": "suddenly"
         }
       ],
       "correct_answer": "A",
@@ -694,23 +758,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "failed",
-          "value": "A"
+          "content": "failed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ceased",
-          "value": "B"
+          "content": "ceased"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "started",
-          "value": "C"
+          "content": "started"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "continued",
-          "value": "D"
+          "content": "continued"
         }
       ],
       "correct_answer": "D",
@@ -731,23 +799,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Therefore",
-          "value": "A"
+          "content": "Therefore"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Furthermore",
-          "value": "B"
+          "content": "Furthermore"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "However",
-          "value": "C"
+          "content": "However"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Meanwhile",
-          "value": "D"
+          "content": "Meanwhile"
         }
       ],
       "correct_answer": "C",
@@ -768,23 +840,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "attempted",
-          "value": "A"
+          "content": "attempted"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "tended",
-          "value": "B"
+          "content": "tended"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "chose",
-          "value": "C"
+          "content": "chose"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "intended",
-          "value": "D"
+          "content": "intended"
         }
       ],
       "correct_answer": "B",
@@ -805,23 +881,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "breaking",
-          "value": "A"
+          "content": "breaking"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "climbing",
-          "value": "B"
+          "content": "climbing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "surpassing",
-          "value": "C"
+          "content": "surpassing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "hitting",
-          "value": "D"
+          "content": "hitting"
         }
       ],
       "correct_answer": "D",
@@ -842,23 +922,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "arts criticism has disappeared from big-city newspapers",
-          "value": "A"
+          "content": "arts criticism has disappeared from big-city newspapers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "English-language newspapers used to carry more arts reviews",
-          "value": "B"
+          "content": "English-language newspapers used to carry more arts reviews"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "daily journalism has elevated the public's aesthetic taste",
-          "value": "C"
+          "content": "daily journalism has elevated the public's aesthetic taste"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "young readers doubt the suitability of criticism",
-          "value": "D"
+          "content": "young readers doubt the suitability of criticism"
         }
       ],
       "correct_answer": "B",
@@ -879,23 +963,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "free themes",
-          "value": "A"
+          "content": "free themes"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "casual style",
-          "value": "B"
+          "content": "casual style"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "elaborate layout",
-          "value": "C"
+          "content": "elaborate layout"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "radical viewpoints",
-          "value": "D"
+          "content": "radical viewpoints"
         }
       ],
       "correct_answer": "A",
@@ -916,23 +1004,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It is writers' duty to fulfill journalistic goals.",
-          "value": "A"
+          "content": "It is writers' duty to fulfill journalistic goals."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It is contemptible for writers to be journalists.",
-          "value": "B"
+          "content": "It is contemptible for writers to be journalists."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Writers are likely to be tempted into journalism.",
-          "value": "C"
+          "content": "Writers are likely to be tempted into journalism."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Not all writers are capable of journalistic writing.",
-          "value": "D"
+          "content": "Not all writers are capable of journalistic writing."
         }
       ],
       "correct_answer": "D",
@@ -953,23 +1045,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "His music criticism may not appeal to readers today.",
-          "value": "A"
+          "content": "His music criticism may not appeal to readers today."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "His reputation as a music critic has long been in dispute.",
-          "value": "B"
+          "content": "His reputation as a music critic has long been in dispute."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "His style caters largely to modern specialists.",
-          "value": "C"
+          "content": "His style caters largely to modern specialists."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "His writings fail to follow the amateur tradition.",
-          "value": "D"
+          "content": "His writings fail to follow the amateur tradition."
         }
       ],
       "correct_answer": "A",
@@ -990,23 +1086,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Newspapers of the Good Old Days",
-          "value": "A"
+          "content": "Newspapers of the Good Old Days"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The Lost Horizon in Newspapers",
-          "value": "B"
+          "content": "The Lost Horizon in Newspapers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Mournful Decline of Journalism",
-          "value": "C"
+          "content": "Mournful Decline of Journalism"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Prominent Critics in Memory",
-          "value": "D"
+          "content": "Prominent Critics in Memory"
         }
       ],
       "correct_answer": "B",
@@ -1027,23 +1127,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "their limited value to businesses",
-          "value": "A"
+          "content": "their limited value to businesses"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "their connection with asset allocation",
-          "value": "B"
+          "content": "their connection with asset allocation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the possible restriction on their granting",
-          "value": "C"
+          "content": "the possible restriction on their granting"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the controversy over their authorization",
-          "value": "D"
+          "content": "the controversy over their authorization"
         }
       ],
       "correct_answer": "C",
@@ -1064,23 +1168,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Its ruling complies with the court decisions.",
-          "value": "A"
+          "content": "Its ruling complies with the court decisions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It involves a very big business transaction.",
-          "value": "B"
+          "content": "It involves a very big business transaction."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It has been dismissed by the Federal Circuit.",
-          "value": "C"
+          "content": "It has been dismissed by the Federal Circuit."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It may change the legal practices in the U.S.",
-          "value": "D"
+          "content": "It may change the legal practices in the U.S."
         }
       ],
       "correct_answer": "D",
@@ -1101,23 +1209,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "loss of goodwill",
-          "value": "A"
+          "content": "loss of goodwill"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "increase of hostility",
-          "value": "B"
+          "content": "increase of hostility"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "change of attitude",
-          "value": "C"
+          "content": "change of attitude"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enhancement of dignity",
-          "value": "D"
+          "content": "enhancement of dignity"
         }
       ],
       "correct_answer": "C",
@@ -1138,23 +1250,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are immune to legal challenges",
-          "value": "A"
+          "content": "are immune to legal challenges"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are often unnecessarily issued",
-          "value": "B"
+          "content": "are often unnecessarily issued"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "lower the esteem for patent holders",
-          "value": "C"
+          "content": "lower the esteem for patent holders"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "increase the incidence of risks",
-          "value": "D"
+          "content": "increase the incidence of risks"
         }
       ],
       "correct_answer": "B",
@@ -1175,23 +1291,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "A looming threat to business-method patents.",
-          "value": "A"
+          "content": "A looming threat to business-method patents."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Protection for business-method patent holders.",
-          "value": "B"
+          "content": "Protection for business-method patent holders."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "A legal case regarding business-method patents.",
-          "value": "C"
+          "content": "A legal case regarding business-method patents."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A prevailing trend against business-method patents.",
-          "value": "D"
+          "content": "A prevailing trend against business-method patents."
         }
       ],
       "correct_answer": "A",
@@ -1212,23 +1332,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "analyze the consequences of social epidemics",
-          "value": "A"
+          "content": "analyze the consequences of social epidemics"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "discuss influentials' function in spreading ideas",
-          "value": "B"
+          "content": "discuss influentials' function in spreading ideas"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "exemplify people's intuitive response to social epidemics",
-          "value": "C"
+          "content": "exemplify people's intuitive response to social epidemics"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "describe the essential characteristics of influentials",
-          "value": "D"
+          "content": "describe the essential characteristics of influentials"
         }
       ],
       "correct_answer": "B",
@@ -1249,23 +1373,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "serves as a solution to marketing problems",
-          "value": "A"
+          "content": "serves as a solution to marketing problems"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "has helped explain certain prevalent trends",
-          "value": "B"
+          "content": "has helped explain certain prevalent trends"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "has won support from influentials",
-          "value": "C"
+          "content": "has won support from influentials"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "requires solid evidence for its validity",
-          "value": "D"
+          "content": "requires solid evidence for its validity"
         }
       ],
       "correct_answer": "D",
@@ -1286,23 +1414,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the power of influence goes with social interactions",
-          "value": "A"
+          "content": "the power of influence goes with social interactions"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interpersonal links can be enhanced through the media",
-          "value": "B"
+          "content": "interpersonal links can be enhanced through the media"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "influentials have more channels to reach the public",
-          "value": "C"
+          "content": "influentials have more channels to reach the public"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "most celebrities enjoy wide media attention",
-          "value": "D"
+          "content": "most celebrities enjoy wide media attention"
         }
       ],
       "correct_answer": "A",
@@ -1323,23 +1455,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "stay outside the network of social influence",
-          "value": "A"
+          "content": "stay outside the network of social influence"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have little contact with the source of influence",
-          "value": "B"
+          "content": "have little contact with the source of influence"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are influenced and then influence others",
-          "value": "C"
+          "content": "are influenced and then influence others"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are influenced by the initial influential",
-          "value": "D"
+          "content": "are influenced by the initial influential"
         }
       ],
       "correct_answer": "C",
@@ -1360,23 +1496,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The eagerness to be accepted.",
-          "value": "A"
+          "content": "The eagerness to be accepted."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The impulse to influence others.",
-          "value": "B"
+          "content": "The impulse to influence others."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The readiness to be influenced.",
-          "value": "C"
+          "content": "The readiness to be influenced."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The inclination to rely on others.",
-          "value": "D"
+          "content": "The inclination to rely on others."
         }
       ],
       "correct_answer": "C",
@@ -1397,23 +1537,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "follow unfavorable asset evaluation rules",
-          "value": "A"
+          "content": "follow unfavorable asset evaluation rules"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "collect payments from third parties",
-          "value": "B"
+          "content": "collect payments from third parties"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "cooperate with the price managers",
-          "value": "C"
+          "content": "cooperate with the price managers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reevaluate some of their assets",
-          "value": "D"
+          "content": "reevaluate some of their assets"
         }
       ],
       "correct_answer": "A",
@@ -1434,23 +1578,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the diminishing role of management",
-          "value": "A"
+          "content": "the diminishing role of management"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the revival of the banking system",
-          "value": "B"
+          "content": "the revival of the banking system"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the banks' long-term asset losses",
-          "value": "C"
+          "content": "the banks' long-term asset losses"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the weakening of its independence",
-          "value": "D"
+          "content": "the weakening of its independence"
         }
       ],
       "correct_answer": "D",
@@ -1471,23 +1619,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "keep away from political influences",
-          "value": "A"
+          "content": "keep away from political influences"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "evade the pressure from their peers",
-          "value": "B"
+          "content": "evade the pressure from their peers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "act on their own in rule-setting",
-          "value": "C"
+          "content": "act on their own in rule-setting"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "take gradual measures in reform",
-          "value": "D"
+          "content": "take gradual measures in reform"
         }
       ],
       "correct_answer": "C",
@@ -1508,23 +1660,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "misinterpreted market price indicators",
-          "value": "A"
+          "content": "misinterpreted market price indicators"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "exaggerated the real value of their assets",
-          "value": "B"
+          "content": "exaggerated the real value of their assets"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "neglected the likely existence of bad debts",
-          "value": "C"
+          "content": "neglected the likely existence of bad debts"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "denied booking losses in their sale of assets",
-          "value": "D"
+          "content": "denied booking losses in their sale of assets"
         }
       ],
       "correct_answer": "B",
@@ -1545,23 +1701,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "satisfaction",
-          "value": "A"
+          "content": "satisfaction"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "skepticism",
-          "value": "B"
+          "content": "skepticism"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "objectiveness",
-          "value": "C"
+          "content": "objectiveness"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sympathy",
-          "value": "D"
+          "content": "sympathy"
         }
       ],
       "correct_answer": "D",
@@ -1582,38 +1742,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales.",
-          "value": "A"
+          "content": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere.",
-          "value": "B"
+          "content": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage.",
-          "value": "C"
+          "content": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe.",
-          "value": "D"
+          "content": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed.",
-          "value": "E"
+          "content": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets.",
-          "value": "F"
+          "content": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators.",
-          "value": "G"
+          "content": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "B",
@@ -1634,38 +1801,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales.",
-          "value": "A"
+          "content": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere.",
-          "value": "B"
+          "content": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage.",
-          "value": "C"
+          "content": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe.",
-          "value": "D"
+          "content": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed.",
-          "value": "E"
+          "content": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets.",
-          "value": "F"
+          "content": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators.",
-          "value": "G"
+          "content": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "F",
@@ -1686,38 +1860,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales.",
-          "value": "A"
+          "content": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere.",
-          "value": "B"
+          "content": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage.",
-          "value": "C"
+          "content": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe.",
-          "value": "D"
+          "content": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed.",
-          "value": "E"
+          "content": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets.",
-          "value": "F"
+          "content": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators.",
-          "value": "G"
+          "content": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "D",
@@ -1738,38 +1919,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales.",
-          "value": "A"
+          "content": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere.",
-          "value": "B"
+          "content": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage.",
-          "value": "C"
+          "content": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe.",
-          "value": "D"
+          "content": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed.",
-          "value": "E"
+          "content": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets.",
-          "value": "F"
+          "content": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators.",
-          "value": "G"
+          "content": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "G",
@@ -1790,38 +1978,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales.",
-          "value": "A"
+          "content": "The first and more important is the rapid growth in consumer eating out, boosting wholesale food distribution over retail sales."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere.",
-          "value": "B"
+          "content": "Retail sales of food and drink in Europe's largest national markets are at best stagnant, forcing major supermarket chains to seek growth elsewhere."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage.",
-          "value": "C"
+          "content": "Most European countries have a grocery sector dominated by four or five giant retail conglomerates with immense purchasing leverage."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe.",
-          "value": "D"
+          "content": "Retailers that master this fragmented wholesale food industry will be exceptionally well placed to expand their operational margins across Europe."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed.",
-          "value": "E"
+          "content": "This is not to say that traditional high-street food retailing will vanish, but its era of unchallenged profit expansion has closed."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets.",
-          "value": "F"
+          "content": "Wholesale food and drink distribution in Europe generates higher annual revenues and operating margins than mainstream retail markets."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators.",
-          "value": "G"
+          "content": "However, the structural shift towards wholesale services has not been straightforward for traditional supermarket operators."
         }
       ],
       "correct_answer": "A",

@@ -31,7 +31,9 @@
       "section_type": "cloze",
       "title": "Section I: Use of English",
       "content": "The idea that plants have some degree of consciousness first took root in the early 2000s; the term \"plant neurobiology\" was [1] around the notion that some aspects of plant behavior could be [2] to intelligence in animals. [3] plants lack brains, the firing of electrical signals in their stems and leaves nonetheless triggered responses that [4] consciousness, researchers previously reported.\n\nBut such an idea is untrue, according to a new opinion article. Plant biology is complex and fascinating, but it [5] so greatly from that of animals that so-called [6] of plant intelligence is inconclusive, the authors wrote.\n\nBeginning in 2006, some scientists have [7] that plants possess neuron-like cells that interact with hormones and neurotransmitters, [8] \"a plant nervous system, [9] to that in animals,\" said lead study author Lincoln Taiz. \"They [10] claimed that plants have brain-like command centers at their root tips.\"\n\nThis [11] makes sense if you simplify the workings of a complex brain, [12] it to an array of electrical pulses; cells in plants also communicate through electrical signals. [13], the signaling in a plant is only [14] similar to the firing in a complex animal brain, which is more than \"a mass of cells that communicate by electricity,\" Taiz said.\n\n\"For consciousness to evolve, a brain with a threshold [15] of complexity and capacity is required,\" he [16]. \"Since plants don't have nervous systems, the [17] that they have consciousness are effectively zero.\"\n\nAnd what's so great about consciousness, anyway? Plants can't run away from [18], so investing energy in a body system which [19] a threat and can feel pain would be a very [20] evolutionary strategy, according to the article.",
-      "sort_order": 1
+      "sort_order": 1,
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "1a8df2a8-fa0f-58da-9334-82ebdeaee274",
@@ -40,7 +42,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "People often complain that plastics are too durable. Water bottles, shopping bags, and other trash litter the planet, from Mount Everest to the Mariana Trench, because plastics are everywhere and don't break down easily. But some plastic materials change over time. They crack and frizzle. They \"weep\" out additives. They melt into sludge. All of which creates huge headaches for institutions, such as museums, trying to preserve culturally important objects. The variety of plastic objects at risk is dizzying: early radios, avant-garde sculptures, celluloid animation stills from Disney films, the first artificial heart.\n\nCertain artifacts are especially vulnerable because some pioneers in plastic art didn't always know how to mix ingredients properly, says Thea van Oosten, a polymer chemist who, until retiring a few years ago, worked for decades at the Cultural Heritage Agency of the Netherlands (RCE). \"It's like baking a cake: If you don't have exact amounts, it goes wrong,\" she says. \"The object you make is already a time bomb.\"\n\nAnd sometimes, it's not the artist's fault. In the 1960s, the Italian artist Piero Gilardi began to create hundreds of bright, colorful foam pieces. Those pieces included small beds of roses and other items as well as a few dozen \"nature carpets\"—large rectangles decorated with foam pumpkins, cabbages, and watermelons. He intended people to sit, lie, and walk on these carpets—which meant they had to be durable.\n\nUnfortunately, the polyurethane foam he used is inherently unstable. It's often gone in 15 or 20 years. As Gilardi's nature carpets began to crumble, museums locked some of them away in the dark.\n\nSo van Oosten and colleagues worked to preserve Gilardi's sculptures. They infused some with Stabiltex, a mixture of water and synthetic resin, and bathed others in a solution of Plexisol, an acrylic resin. The treatments restored elasticity to the carpets, giving them another few decades of life.\n\nSuch struggles, as art of all types begins to disintegrate, are increasingly common.\n\nAnd more is at stake here than individual objects. Joana Lia Ferreira, an assistant professor of conservation and restoration at the NOVA School of Science and Technology, notes that archaeologists first defined the great material ages of human history—Stone Age, Iron Age, and so on—after examining artifacts in museums. We now live in an age of plastic, she says, \"and what we decide to collect today, what we decide to preserve...will have a strong impact on how in the future we'll be seen.\"",
-      "sort_order": 2
+      "sort_order": 2,
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "d3bf020e-7573-5317-a6d5-631febbdcb56",
@@ -49,7 +53,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "As the latest crop of students pen their undergraduate application form and weigh up their options, it may be worth considering just how the point, purpose and value of a degree has changed and what Generation Z need to consider as they start the third stage of their educational journey.\n\nMillennials were told that if you did well in school, got a decent degree, you would be set up for life. But that promise has been found wanting. As degrees became universal, they became devalued. Education was no longer a secure route of social mobility. Today, 28 per cent of graduates in the UK are in non-graduate roles, a percentage which is double the average among the OECD countries.\n\nThis is not to say that there is no point in getting a degree, but rather stress that a degree is not for everyone, that the switch from classroom to lecture hall is not an inevitable one and that other options are available.\n\nThankfully, there are signs that this is already happening, with Generation Z seeking to learn from their millennial predecessors, even if parents and teachers tend to be still set in the degree mindset. Employers have long seen the advantages of hiring school leavers who often prove themselves to be more committed and loyal employees than graduates. Many too are seeing the advantages of scrapping a degree requirement for certain roles.\n\nFor those for whom a degree is the desired route, consider that this may well be the first of many. In this age of generalists, it pays to have specific knowledge or skills. Postgraduates now earn 40 per cent more than graduates. When more and more of us have a degree, it makes sense to have two.\n\nIt is unlikely that Generation Z will be done with education at 18 or 21; they will need to be constantly upskilling throughout their career to stay employable. It has been estimated that this generation, due to the pressures of technology, the wish for personal fulfilment and desire for diversity, will work for 17 different employers over the course of their working life and have five different careers. Education, and not just knowledge gained on campus, will be a core part of Generation Z's career trajectory.\n\nOlder generations often talk about their degree in the present and personal tense: \"I am a geographer,\" or \"I am a classicist.\" Their sons or daughters would never say such a thing; it's as if they already know that their degree won't define them in the same way.",
-      "sort_order": 3
+      "sort_order": 3,
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "b480c03b-c6e6-5786-a481-b9830caa072f",
@@ -58,7 +64,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "Enlightening, challenging, stimulating, fun. These were some of the words that Nature readers used to describe their experience of art-science collaborations in a series of articles on partnerships between artists and researchers. Nearly 40% of the roughly 350 people who responded to an accompanying poll said they had collaborated with artists; and almost all said they would consider doing so in future.\n\nSuch an encouraging result is not surprising. Scientists are increasingly seeking out visual artists to help them communicate their work to new audiences. \"Artists help scientists reach a broader audience and make emotional connections that enhance learning,\" one respondent said.\n\nOne example of how artists and scientists have together rocked the scenes came last month when the Sydney Symphony Orchestra performed a reworked version of Antonio Vivaldi's The Four Seasons. They reimagined the 300-year-old score by injecting the latest climate prediction data for each season provided by Monash University's Climate Change Communication Research Hub. The performance was a creative call to action ahead of November's United Nations Climate Change Conference in Glasgow, UK.\n\nBut a genuine partnership must be a two-way street. Fewer artists than scientists responded to the Nature poll, however, several respondents noted that artists do not simply assist scientists with their communication requirements. Nor should their work be considered only as an object of study. The alliances are most valuable when scientists and artists have a shared stake in a project, are able to jointly design it and can critique each other's work. Such an approach can both prompt new research as well as result in powerful art.\n\nMore than half a century ago, the Massachusetts Institute of Technology opened its Center for Advanced Visual Studies (CAVS) to explore the role of technology in culture. The founders deliberately focused their projects around light—hence the \"visual studies\" in the name. Light was a something that both artists and scientists had an interest in, and therefore could form the basis of collaboration. As science and technology progressed, and divided into more sub-disciplines, the centre was simultaneously looking to a time when leading researchers could also be artists, writers and poets, and vice versa.\n\nNature's poll findings suggest that this trend is as strong as ever, but, to make a collaboration work, both sides need to invest time, and embrace surprise and challenge. The reach of art-science tie-ups needs to go beyond the necessary purpose of research communication, and participants must not fall into the trap of stereotyping each other. Artists and scientists alike are immersed in discovery and invention, and challenge and critique are core to both, too.",
-      "sort_order": 4
+      "sort_order": 4,
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "4052c645-dd13-520b-b46d-44e9e54be1b4",
@@ -67,7 +75,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "The personal grievance provisions of New Zealand's Employment Relations Act 2000 (ERA) prevent an employer from firing an employee without good cause. Instead, dismissals must be justified. Employers must both show cause and act in a procedurally fair way.\n\nPersonal grievance procedures were designed to guard the jobs of ordinary workers from unjustified dismissals. The premise was that the balance of power in an employment relationship is inherently tilted against the employee, who needs special protections. It was also designed to reinforce the standard dismissal process: an employer cannot simply give an employee contractual notice.\n\nBut these provisions create difficulties for businesses when applied to highly paid managers and executives. As countless boards and business owners will attest, constraining firms from firing poorly performing, high-earning managers is a handbrake on boosting productivity and overall performance. The difference between C-grade and A-grade managers may very well be the difference between business success or failure.\n\nBetween two equally sized teams, all other things being equal, the team with the better manager will win. Because managers are responsible for organizing resources to achieve business objectives, a bad manager can quickly jeopardize company results. Discretionary work effort is rapidly foregone when employees lose confidence in their bosses, and employees will eventually depart the firm for greener pastures. When poorly performing managers cannot be removed without considerable difficulty, other workers may be placing those jobs at risk.\n\nIf not placing jobs at risk, to the extent employment protection laws constrain business owners from dismissing under-performing managers, those laws act as a constraint on firm productivity and therefore on workers' wages. Indeed, in \"An International Perspective on New Zealand's Productivity Paradox\" (2014), the Productivity Commission singled out the low quality of managerial capabilities as a cause of the country's poor productivity growth record.\n\nNor are highly paid managers themselves immune from the harm caused by the ERA's unjustified dismissal procedures. Because employment protection laws make it costlier to fire an employee, employers are more cautious about hiring new staff. This makes it harder for the marginal manager to gain employment. And firms pay staff less because firms carry the burden of the employment arrangement going wrong.\n\nIron-clad employment protection procedures can also be a barrier for high-performing managers to make quick exits. The threat of a grievance process can create huge difficulties in ending employment arrangements quietly, cleanly and quickly, even if both sides agree that they should end.\n\nAcross the Tasman Sea, Australia deals with the unjustified dismissal paradox by excluding employees earning above a specified \"high-income threshold\" from the protection of its unfair dismissal laws. In New Zealand, a 2016 private members' Bill tried to permit firms and high-income employees to contract out of the unjustified dismissal regime. However, the mechanisms proposed were unwieldy and the Bill was voted down following the change in government later that year.",
-      "sort_order": 5
+      "sort_order": 5,
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "33cfc1f4-d12f-57b6-9b37-6c6fbd4fb9bd",
@@ -75,8 +85,10 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "In the following text, five people express their views about zoos. For questions 41-45, choose from the arguments (A-G) the one which each person would most likely support.\n\n(41) Teri Byrd\nI was a zoo and wildlife-park employee for years, both in the UK and in the US, and I was always told that the main purpose of zoos was for the benefit of the animals and for conservation purposes. This claim was false. Neither one of them actually participated in any contributions to animal research or conservation. They are profitable institutions whose bottom line is much more important than the condition of the animals.\nAnimals despise being captives in zoos. No matter how you \"enhance\" enclosures, they do not allow for freedom, a natural diet or adequate exercise. Animals end up stressed and unhealthy or dead. It's past time for transparency with these institutions, and it's past time to eliminate zoos from our culture.\n\n(42) Karen R. Sime\nAs a zoology professor, I agree with Emma Marris that zoo displays can be sad and cruel, but she understates the educational potential.\nMy colleagues and I surveyed students in our classes about their early experiences with animals. The vast majority of our students told us that zoo visits were the crucial and very early experience that led to their passion for biology. We need to educate children to care about animals and nature, and zoos remain the best way to do that.\n\n(43) Greg Newberry\nEmma Marris's article is an insult and a disservice to the thousands of zoo professionals who work tirelessly to improve how they care for animals. Zoos are not static; they are constantly evolving to provide better care for animals.\nZoos do vital conservation work and help people, especially children, connect with the broader natural world. They are not the soulless prisons that Ms. Marris implies.\n\n(44) Dean Gallea\nZoos and the captive animals they house serve a higher purpose. Without them, far more people would travel to wilderness areas, disrupting wildlife and damaging ecosystems.\nBy keeping a relatively small number of animals in captivity, we can satisfy the public's desire to see animals while leaving the vast majority undisturbed in their natural environments.\n\n(45) John Fraser\nMarris misrepresents the findings of our research. Our work actually demonstrates that zoo visitors gain a deeper appreciation for biodiversity and are more motivated to take action to protect the natural world.\nZoos serve as an essential bridge between human society and wildlife, helping millions of urban dwellers understand the natural world we live in.\n\n[A] Zoos which spare no effort to take care of animals should not be subjected to unfair criticism.\n[B] To pressure zoos to spend less on their animals would lead to inhumane outcomes for the precious creatures in their care.\n[C] While animals in captivity deserve sympathy, zoos play a significant role in starting young people down the path of related sciences.\n[D] Zoos save people trips to wilderness areas and thus contribute to wildlife conservation.\n[E] For wild animals that cannot be returned to their natural habitats, zoos offer the best alternative.\n[F] Zoos should have been closed down as they prioritize money making over animals' wellbeing.\n[G] Marris distorts our findings which actually prove that zoos serve as an indispensable link between man and nature.",
-      "sort_order": 6
+      "content": "(41) Teri Byrd\nI was a zoo and wildlife-park employee for years, both in the UK and in the US, and I was always told that the main purpose of zoos was for the benefit of the animals and for conservation purposes. This claim was false. Neither one of them actually participated in any contributions to animal research or conservation. They are profitable institutions whose bottom line is much more important than the condition of the animals.\nAnimals despise being captives in zoos. No matter how you \"enhance\" enclosures, they do not allow for freedom, a natural diet or adequate exercise. Animals end up stressed and unhealthy or dead. It's past time for transparency with these institutions, and it's past time to eliminate zoos from our culture.\n\n(42) Karen R. Sime\nAs a zoology professor, I agree with Emma Marris that zoo displays can be sad and cruel, but she understates the educational potential.\nMy colleagues and I surveyed students in our classes about their early experiences with animals. The vast majority of our students told us that zoo visits were the crucial and very early experience that led to their passion for biology. We need to educate children to care about animals and nature, and zoos remain the best way to do that.\n\n(43) Greg Newberry\nEmma Marris's article is an insult and a disservice to the thousands of zoo professionals who work tirelessly to improve how they care for animals. Zoos are not static; they are constantly evolving to provide better care for animals.\nZoos do vital conservation work and help people, especially children, connect with the broader natural world. They are not the soulless prisons that Ms. Marris implies.\n\n(44) Dean Gallea\nZoos and the captive animals they house serve a higher purpose. Without them, far more people would travel to wilderness areas, disrupting wildlife and damaging ecosystems.\nBy keeping a relatively small number of animals in captivity, we can satisfy the public's desire to see animals while leaving the vast majority undisturbed in their natural environments.\n\n(45) John Fraser\nMarris misrepresents the findings of our research. Our work actually demonstrates that zoo visitors gain a deeper appreciation for biodiversity and are more motivated to take action to protect the natural world.\nZoos serve as an essential bridge between human society and wildlife, helping millions of urban dwellers understand the natural world we live in.\n\n[A] Zoos which spare no effort to take care of animals should not be subjected to unfair criticism.\n[B] To pressure zoos to spend less on their animals would lead to inhumane outcomes for the precious creatures in their care.\n[C] While animals in captivity deserve sympathy, zoos play a significant role in starting young people down the path of related sciences.\n[D] Zoos save people trips to wilderness areas and thus contribute to wildlife conservation.\n[E] For wild animals that cannot be returned to their natural habitats, zoos offer the best alternative.\n[F] Zoos should have been closed down as they prioritize money making over animals' wellbeing.\n[G] Marris distorts our findings which actually prove that zoos serve as an indispensable link between man and nature.",
+      "sort_order": 6,
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -90,26 +102,26 @@
       "options": [
         {
           "key": "A",
-          "text": "coined",
           "value": "A",
+          "text": "coined",
           "content": "coined"
         },
         {
           "key": "B",
-          "text": "discovered",
           "value": "B",
+          "text": "discovered",
           "content": "discovered"
         },
         {
           "key": "C",
-          "text": "collected",
           "value": "C",
+          "text": "collected",
           "content": "collected"
         },
         {
           "key": "D",
-          "text": "issued",
           "value": "D",
+          "text": "issued",
           "content": "issued"
         }
       ],
@@ -131,26 +143,26 @@
       "options": [
         {
           "key": "A",
-          "text": "attributed",
           "value": "A",
+          "text": "attributed",
           "content": "attributed"
         },
         {
           "key": "B",
-          "text": "directed",
           "value": "B",
+          "text": "directed",
           "content": "directed"
         },
         {
           "key": "C",
-          "text": "compared",
           "value": "C",
+          "text": "compared",
           "content": "compared"
         },
         {
           "key": "D",
-          "text": "confined",
           "value": "D",
+          "text": "confined",
           "content": "confined"
         }
       ],
@@ -172,26 +184,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Unless",
           "value": "A",
+          "text": "Unless",
           "content": "Unless"
         },
         {
           "key": "B",
-          "text": "When",
           "value": "B",
+          "text": "When",
           "content": "When"
         },
         {
           "key": "C",
-          "text": "Once",
           "value": "C",
+          "text": "Once",
           "content": "Once"
         },
         {
           "key": "D",
-          "text": "Though",
           "value": "D",
+          "text": "Though",
           "content": "Though"
         }
       ],
@@ -213,26 +225,26 @@
       "options": [
         {
           "key": "A",
-          "text": "coped",
           "value": "A",
+          "text": "coped",
           "content": "coped"
         },
         {
           "key": "B",
-          "text": "consisted",
           "value": "B",
+          "text": "consisted",
           "content": "consisted"
         },
         {
           "key": "C",
-          "text": "hinted",
           "value": "C",
+          "text": "hinted",
           "content": "hinted"
         },
         {
           "key": "D",
-          "text": "extended",
           "value": "D",
+          "text": "extended",
           "content": "extended"
         }
       ],
@@ -254,26 +266,26 @@
       "options": [
         {
           "key": "A",
-          "text": "suffers",
           "value": "A",
+          "text": "suffers",
           "content": "suffers"
         },
         {
           "key": "B",
-          "text": "benefits",
           "value": "B",
+          "text": "benefits",
           "content": "benefits"
         },
         {
           "key": "C",
-          "text": "develops",
           "value": "C",
+          "text": "develops",
           "content": "develops"
         },
         {
           "key": "D",
-          "text": "differs",
           "value": "D",
+          "text": "differs",
           "content": "differs"
         }
       ],
@@ -295,26 +307,26 @@
       "options": [
         {
           "key": "A",
-          "text": "acceptance",
           "value": "A",
+          "text": "acceptance",
           "content": "acceptance"
         },
         {
           "key": "B",
-          "text": "evidence",
           "value": "B",
+          "text": "evidence",
           "content": "evidence"
         },
         {
           "key": "C",
-          "text": "cultivation",
           "value": "C",
+          "text": "cultivation",
           "content": "cultivation"
         },
         {
           "key": "D",
-          "text": "creation",
           "value": "D",
+          "text": "creation",
           "content": "creation"
         }
       ],
@@ -336,26 +348,26 @@
       "options": [
         {
           "key": "A",
-          "text": "doubted",
           "value": "A",
+          "text": "doubted",
           "content": "doubted"
         },
         {
           "key": "B",
-          "text": "denied",
           "value": "B",
+          "text": "denied",
           "content": "denied"
         },
         {
           "key": "C",
-          "text": "argued",
           "value": "C",
+          "text": "argued",
           "content": "argued"
         },
         {
           "key": "D",
-          "text": "requested",
           "value": "D",
+          "text": "requested",
           "content": "requested"
         }
       ],
@@ -377,26 +389,26 @@
       "options": [
         {
           "key": "A",
-          "text": "adapting",
           "value": "A",
+          "text": "adapting",
           "content": "adapting"
         },
         {
           "key": "B",
-          "text": "forming",
           "value": "B",
+          "text": "forming",
           "content": "forming"
         },
         {
           "key": "C",
-          "text": "repairing",
           "value": "C",
+          "text": "repairing",
           "content": "repairing"
         },
         {
           "key": "D",
-          "text": "testing",
           "value": "D",
+          "text": "testing",
           "content": "testing"
         }
       ],
@@ -418,26 +430,26 @@
       "options": [
         {
           "key": "A",
-          "text": "analogous",
           "value": "A",
+          "text": "analogous",
           "content": "analogous"
         },
         {
           "key": "B",
-          "text": "essential",
           "value": "B",
+          "text": "essential",
           "content": "essential"
         },
         {
           "key": "C",
-          "text": "suitable",
           "value": "C",
+          "text": "suitable",
           "content": "suitable"
         },
         {
           "key": "D",
-          "text": "sensitive",
           "value": "D",
+          "text": "sensitive",
           "content": "sensitive"
         }
       ],
@@ -459,26 +471,26 @@
       "options": [
         {
           "key": "A",
-          "text": "just",
           "value": "A",
+          "text": "just",
           "content": "just"
         },
         {
           "key": "B",
-          "text": "ever",
           "value": "B",
+          "text": "ever",
           "content": "ever"
         },
         {
           "key": "C",
-          "text": "still",
           "value": "C",
+          "text": "still",
           "content": "still"
         },
         {
           "key": "D",
-          "text": "even",
           "value": "D",
+          "text": "even",
           "content": "even"
         }
       ],
@@ -500,26 +512,26 @@
       "options": [
         {
           "key": "A",
-          "text": "restriction",
           "value": "A",
+          "text": "restriction",
           "content": "restriction"
         },
         {
           "key": "B",
-          "text": "experiment",
           "value": "B",
+          "text": "experiment",
           "content": "experiment"
         },
         {
           "key": "C",
-          "text": "perspective",
           "value": "C",
+          "text": "perspective",
           "content": "perspective"
         },
         {
           "key": "D",
-          "text": "demand",
           "value": "D",
+          "text": "demand",
           "content": "demand"
         }
       ],
@@ -541,26 +553,26 @@
       "options": [
         {
           "key": "A",
-          "text": "attaching",
           "value": "A",
+          "text": "attaching",
           "content": "attaching"
         },
         {
           "key": "B",
-          "text": "reducing",
           "value": "B",
+          "text": "reducing",
           "content": "reducing"
         },
         {
           "key": "C",
-          "text": "returning",
           "value": "C",
+          "text": "returning",
           "content": "returning"
         },
         {
           "key": "D",
-          "text": "exposing",
           "value": "D",
+          "text": "exposing",
           "content": "exposing"
         }
       ],
@@ -582,26 +594,26 @@
       "options": [
         {
           "key": "A",
-          "text": "However",
           "value": "A",
+          "text": "However",
           "content": "However"
         },
         {
           "key": "B",
-          "text": "Moreover",
           "value": "B",
+          "text": "Moreover",
           "content": "Moreover"
         },
         {
           "key": "C",
-          "text": "Therefore",
           "value": "C",
+          "text": "Therefore",
           "content": "Therefore"
         },
         {
           "key": "D",
-          "text": "Otherwise",
           "value": "D",
+          "text": "Otherwise",
           "content": "Otherwise"
         }
       ],
@@ -623,26 +635,26 @@
       "options": [
         {
           "key": "A",
-          "text": "temporarily",
           "value": "A",
+          "text": "temporarily",
           "content": "temporarily"
         },
         {
           "key": "B",
-          "text": "literally",
           "value": "B",
+          "text": "literally",
           "content": "literally"
         },
         {
           "key": "C",
-          "text": "superficially",
           "value": "C",
+          "text": "superficially",
           "content": "superficially"
         },
         {
           "key": "D",
-          "text": "imaginarily",
           "value": "D",
+          "text": "imaginarily",
           "content": "imaginarily"
         }
       ],
@@ -664,26 +676,26 @@
       "options": [
         {
           "key": "A",
-          "text": "list",
           "value": "A",
+          "text": "list",
           "content": "list"
         },
         {
           "key": "B",
-          "text": "level",
           "value": "B",
+          "text": "level",
           "content": "level"
         },
         {
           "key": "C",
-          "text": "label",
           "value": "C",
+          "text": "label",
           "content": "label"
         },
         {
           "key": "D",
-          "text": "load",
           "value": "D",
+          "text": "load",
           "content": "load"
         }
       ],
@@ -705,26 +717,26 @@
       "options": [
         {
           "key": "A",
-          "text": "recalled",
           "value": "A",
+          "text": "recalled",
           "content": "recalled"
         },
         {
           "key": "B",
-          "text": "agreed",
           "value": "B",
+          "text": "agreed",
           "content": "agreed"
         },
         {
           "key": "C",
-          "text": "questioned",
           "value": "C",
+          "text": "questioned",
           "content": "questioned"
         },
         {
           "key": "D",
-          "text": "added",
           "value": "D",
+          "text": "added",
           "content": "added"
         }
       ],
@@ -746,26 +758,26 @@
       "options": [
         {
           "key": "A",
-          "text": "chances",
           "value": "A",
+          "text": "chances",
           "content": "chances"
         },
         {
           "key": "B",
-          "text": "risks",
           "value": "B",
+          "text": "risks",
           "content": "risks"
         },
         {
           "key": "C",
-          "text": "excuses",
           "value": "C",
+          "text": "excuses",
           "content": "excuses"
         },
         {
           "key": "D",
-          "text": "assumptions",
           "value": "D",
+          "text": "assumptions",
           "content": "assumptions"
         }
       ],
@@ -787,26 +799,26 @@
       "options": [
         {
           "key": "A",
-          "text": "danger",
           "value": "A",
+          "text": "danger",
           "content": "danger"
         },
         {
           "key": "B",
-          "text": "failure",
           "value": "B",
+          "text": "failure",
           "content": "failure"
         },
         {
           "key": "C",
-          "text": "warning",
           "value": "C",
+          "text": "warning",
           "content": "warning"
         },
         {
           "key": "D",
-          "text": "control",
           "value": "D",
+          "text": "control",
           "content": "control"
         }
       ],
@@ -828,26 +840,26 @@
       "options": [
         {
           "key": "A",
-          "text": "represents",
           "value": "A",
+          "text": "represents",
           "content": "represents"
         },
         {
           "key": "B",
-          "text": "includes",
           "value": "B",
+          "text": "includes",
           "content": "includes"
         },
         {
           "key": "C",
-          "text": "reveals",
           "value": "C",
+          "text": "reveals",
           "content": "reveals"
         },
         {
           "key": "D",
-          "text": "recognizes",
           "value": "D",
+          "text": "recognizes",
           "content": "recognizes"
         }
       ],
@@ -869,26 +881,26 @@
       "options": [
         {
           "key": "A",
-          "text": "humble",
           "value": "A",
+          "text": "humble",
           "content": "humble"
         },
         {
           "key": "B",
-          "text": "poor",
           "value": "B",
+          "text": "poor",
           "content": "poor"
         },
         {
           "key": "C",
-          "text": "practical",
           "value": "C",
+          "text": "practical",
           "content": "practical"
         },
         {
           "key": "D",
-          "text": "easy",
           "value": "D",
+          "text": "easy",
           "content": "easy"
         }
       ],
@@ -910,26 +922,26 @@
       "options": [
         {
           "key": "A",
-          "text": "maintaining their plastic items",
           "value": "A",
+          "text": "maintaining their plastic items",
           "content": "maintaining their plastic items"
         },
         {
           "key": "B",
-          "text": "obtaining durable plastic artifacts",
           "value": "B",
+          "text": "obtaining durable plastic artifacts",
           "content": "obtaining durable plastic artifacts"
         },
         {
           "key": "C",
-          "text": "handling outdated plastic exhibits",
           "value": "C",
+          "text": "handling outdated plastic exhibits",
           "content": "handling outdated plastic exhibits"
         },
         {
           "key": "D",
-          "text": "classifying their plastic collections",
           "value": "D",
+          "text": "classifying their plastic collections",
           "content": "classifying their plastic collections"
         }
       ],
@@ -951,26 +963,26 @@
       "options": [
         {
           "key": "A",
-          "text": "immune to decay",
           "value": "A",
+          "text": "immune to decay",
           "content": "immune to decay"
         },
         {
           "key": "B",
-          "text": "improperly shaped",
           "value": "B",
+          "text": "improperly shaped",
           "content": "improperly shaped"
         },
         {
           "key": "C",
-          "text": "inherently flawed",
           "value": "C",
+          "text": "inherently flawed",
           "content": "inherently flawed"
         },
         {
           "key": "D",
-          "text": "complex in structure",
           "value": "D",
+          "text": "complex in structure",
           "content": "complex in structure"
         }
       ],
@@ -992,26 +1004,26 @@
       "options": [
         {
           "key": "A",
-          "text": "keep them from hurting visitors",
           "value": "A",
+          "text": "keep them from hurting visitors",
           "content": "keep them from hurting visitors"
         },
         {
           "key": "B",
-          "text": "duplicate them for future display",
           "value": "B",
+          "text": "duplicate them for future display",
           "content": "duplicate them for future display"
         },
         {
           "key": "C",
-          "text": "have their ingredients analyzed",
           "value": "C",
+          "text": "have their ingredients analyzed",
           "content": "have their ingredients analyzed"
         },
         {
           "key": "D",
-          "text": "prevent them from further damage",
           "value": "D",
+          "text": "prevent them from further damage",
           "content": "prevent them from further damage"
         }
       ],
@@ -1033,26 +1045,26 @@
       "options": [
         {
           "key": "A",
-          "text": "costly",
           "value": "A",
+          "text": "costly",
           "content": "costly"
         },
         {
           "key": "B",
-          "text": "unworthy",
           "value": "B",
+          "text": "unworthy",
           "content": "unworthy"
         },
         {
           "key": "C",
-          "text": "unpopular",
           "value": "C",
+          "text": "unpopular",
           "content": "unpopular"
         },
         {
           "key": "D",
-          "text": "challenging",
           "value": "D",
+          "text": "challenging",
           "content": "challenging"
         }
       ],
@@ -1074,26 +1086,26 @@
       "options": [
         {
           "key": "A",
-          "text": "will inspire future scientific research",
           "value": "A",
+          "text": "will inspire future scientific research",
           "content": "will inspire future scientific research"
         },
         {
           "key": "B",
-          "text": "has profound historical significance",
           "value": "B",
+          "text": "has profound historical significance",
           "content": "has profound historical significance"
         },
         {
           "key": "C",
-          "text": "will help us separate the material ages",
           "value": "C",
+          "text": "will help us separate the material ages",
           "content": "will help us separate the material ages"
         },
         {
           "key": "D",
-          "text": "has an impact on today's cultural life",
           "value": "D",
+          "text": "has an impact on today's cultural life",
           "content": "has an impact on today's cultural life"
         }
       ],
@@ -1115,26 +1127,26 @@
       "options": [
         {
           "key": "A",
-          "text": "be careful in choosing a college",
           "value": "A",
+          "text": "be careful in choosing a college",
           "content": "be careful in choosing a college"
         },
         {
           "key": "B",
-          "text": "be diligent at each educational stage",
           "value": "B",
+          "text": "be diligent at each educational stage",
           "content": "be diligent at each educational stage"
         },
         {
           "key": "C",
-          "text": "reassess the necessity of college education",
           "value": "C",
+          "text": "reassess the necessity of college education",
           "content": "reassess the necessity of college education"
         },
         {
           "key": "D",
-          "text": "postpone their undergraduate application",
           "value": "D",
+          "text": "postpone their undergraduate application",
           "content": "postpone their undergraduate application"
         }
       ],
@@ -1156,26 +1168,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Millennial's opinion about work",
           "value": "A",
+          "text": "Millennial's opinion about work",
           "content": "Millennial's opinion about work"
         },
         {
           "key": "B",
-          "text": "the shrinking value of a degree",
           "value": "B",
+          "text": "the shrinking value of a degree",
           "content": "the shrinking value of a degree"
         },
         {
           "key": "C",
-          "text": "public discontent with education",
           "value": "C",
+          "text": "public discontent with education",
           "content": "public discontent with education"
         },
         {
           "key": "D",
-          "text": "the desired route of social mobility",
           "value": "D",
+          "text": "the desired route of social mobility",
           "content": "the desired route of social mobility"
         }
       ],
@@ -1197,26 +1209,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Generation Z are seeking to earn a decent degree",
           "value": "A",
+          "text": "Generation Z are seeking to earn a decent degree",
           "content": "Generation Z are seeking to earn a decent degree"
         },
         {
           "key": "B",
-          "text": "school leavers are willing to be skilled workers",
           "value": "B",
+          "text": "school leavers are willing to be skilled workers",
           "content": "school leavers are willing to be skilled workers"
         },
         {
           "key": "C",
-          "text": "employers are taking a realistic attitude to degree",
           "value": "C",
+          "text": "employers are taking a realistic attitude to degree",
           "content": "employers are taking a realistic attitude to degree"
         },
         {
           "key": "D",
-          "text": "parents are changing their minds about education",
           "value": "D",
+          "text": "parents are changing their minds about education",
           "content": "parents are changing their minds about education"
         }
       ],
@@ -1238,26 +1250,26 @@
       "options": [
         {
           "key": "A",
-          "text": "make an early decision on their career",
           "value": "A",
+          "text": "make an early decision on their career",
           "content": "make an early decision on their career"
         },
         {
           "key": "B",
-          "text": "attend on-the-job training programs",
           "value": "B",
+          "text": "attend on-the-job training programs",
           "content": "attend on-the-job training programs"
         },
         {
           "key": "C",
-          "text": "team up with high-paid postgraduates",
           "value": "C",
+          "text": "team up with high-paid postgraduates",
           "content": "team up with high-paid postgraduates"
         },
         {
           "key": "D",
-          "text": "further their studies in a specific field",
           "value": "D",
+          "text": "further their studies in a specific field",
           "content": "further their studies in a specific field"
         }
       ],
@@ -1279,26 +1291,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Lifelong learning will define them.",
           "value": "A",
+          "text": "Lifelong learning will define them.",
           "content": "Lifelong learning will define them."
         },
         {
           "key": "B",
-          "text": "They will make qualified educators.",
           "value": "B",
+          "text": "They will make qualified educators.",
           "content": "They will make qualified educators."
         },
         {
           "key": "C",
-          "text": "Degrees will no longer appeal them.",
           "value": "C",
+          "text": "Degrees will no longer appeal them.",
           "content": "Degrees will no longer appeal them."
         },
         {
           "key": "D",
-          "text": "They will have a limited choice of jobs.",
           "value": "D",
+          "text": "They will have a limited choice of jobs.",
           "content": "They will have a limited choice of jobs."
         }
       ],
@@ -1320,26 +1332,26 @@
       "options": [
         {
           "key": "A",
-          "text": "caught the attention of critics",
           "value": "A",
+          "text": "caught the attention of critics",
           "content": "caught the attention of critics"
         },
         {
           "key": "B",
-          "text": "received favorable responses",
           "value": "B",
+          "text": "received favorable responses",
           "content": "received favorable responses"
         },
         {
           "key": "C",
-          "text": "promoted academic publishing",
           "value": "C",
+          "text": "promoted academic publishing",
           "content": "promoted academic publishing"
         },
         {
           "key": "D",
-          "text": "sparked heated public disputes",
           "value": "D",
+          "text": "sparked heated public disputes",
           "content": "sparked heated public disputes"
         }
       ],
@@ -1361,26 +1373,26 @@
       "options": [
         {
           "key": "A",
-          "text": "art can offer audiences easy access to science",
           "value": "A",
+          "text": "art can offer audiences easy access to science",
           "content": "art can offer audiences easy access to science"
         },
         {
           "key": "B",
-          "text": "science can help with the expression of emotions",
           "value": "B",
+          "text": "science can help with the expression of emotions",
           "content": "science can help with the expression of emotions"
         },
         {
           "key": "C",
-          "text": "public participation in science has a promising future",
           "value": "C",
+          "text": "public participation in science has a promising future",
           "content": "public participation in science has a promising future"
         },
         {
           "key": "D",
-          "text": "art is effective in facilitating scientific innovations",
           "value": "D",
+          "text": "art is effective in facilitating scientific innovations",
           "content": "art is effective in facilitating scientific innovations"
         }
       ],
@@ -1402,26 +1414,26 @@
       "options": [
         {
           "key": "A",
-          "text": "their role may be underestimated",
           "value": "A",
+          "text": "their role may be underestimated",
           "content": "their role may be underestimated"
         },
         {
           "key": "B",
-          "text": "their reputation may be impaired",
           "value": "B",
+          "text": "their reputation may be impaired",
           "content": "their reputation may be impaired"
         },
         {
           "key": "C",
-          "text": "their creativity may be inhibited",
           "value": "C",
+          "text": "their creativity may be inhibited",
           "content": "their creativity may be inhibited"
         },
         {
           "key": "D",
-          "text": "their work may be misguided",
           "value": "D",
+          "text": "their work may be misguided",
           "content": "their work may be misguided"
         }
       ],
@@ -1443,26 +1455,26 @@
       "options": [
         {
           "key": "A",
-          "text": "It was headed alternately by artists and scientists.",
           "value": "A",
+          "text": "It was headed alternately by artists and scientists.",
           "content": "It was headed alternately by artists and scientists."
         },
         {
           "key": "B",
-          "text": "It exemplified valuable art-science alliances.",
           "value": "B",
+          "text": "It exemplified valuable art-science alliances.",
           "content": "It exemplified valuable art-science alliances."
         },
         {
           "key": "C",
-          "text": "Its projects aimed at advancing visual studies.",
           "value": "C",
+          "text": "Its projects aimed at advancing visual studies.",
           "content": "Its projects aimed at advancing visual studies."
         },
         {
           "key": "D",
-          "text": "Its founders sought to raise the status of artists.",
           "value": "D",
+          "text": "Its founders sought to raise the status of artists.",
           "content": "Its founders sought to raise the status of artists."
         }
       ],
@@ -1484,26 +1496,26 @@
       "options": [
         {
           "key": "A",
-          "text": "are likely to go beyond public expectations",
           "value": "A",
+          "text": "are likely to go beyond public expectations",
           "content": "are likely to go beyond public expectations"
         },
         {
           "key": "B",
-          "text": "will intensify interdisciplinary competition",
           "value": "B",
+          "text": "will intensify interdisciplinary competition",
           "content": "will intensify interdisciplinary competition"
         },
         {
           "key": "C",
-          "text": "should do more than communicating science",
           "value": "C",
+          "text": "should do more than communicating science",
           "content": "should do more than communicating science"
         },
         {
           "key": "D",
-          "text": "are becoming more popular than before",
           "value": "D",
+          "text": "are becoming more popular than before",
           "content": "are becoming more popular than before"
         }
       ],
@@ -1525,26 +1537,26 @@
       "options": [
         {
           "key": "A",
-          "text": "punish dubious corporate practices",
           "value": "A",
+          "text": "punish dubious corporate practices",
           "content": "punish dubious corporate practices"
         },
         {
           "key": "B",
-          "text": "improve traditional hiring procedures",
           "value": "B",
+          "text": "improve traditional hiring procedures",
           "content": "improve traditional hiring procedures"
         },
         {
           "key": "C",
-          "text": "exempt employers from certain duties",
           "value": "C",
+          "text": "exempt employers from certain duties",
           "content": "exempt employers from certain duties"
         },
         {
           "key": "D",
-          "text": "protect the rights of ordinary workers",
           "value": "D",
+          "text": "protect the rights of ordinary workers",
           "content": "protect the rights of ordinary workers"
         }
       ],
@@ -1566,26 +1578,26 @@
       "options": [
         {
           "key": "A",
-          "text": "hinder business development",
           "value": "A",
+          "text": "hinder business development",
           "content": "hinder business development"
         },
         {
           "key": "B",
-          "text": "undermine managers' authority",
           "value": "B",
+          "text": "undermine managers' authority",
           "content": "undermine managers' authority"
         },
         {
           "key": "C",
-          "text": "affect the public image of the firms",
           "value": "C",
+          "text": "affect the public image of the firms",
           "content": "affect the public image of the firms"
         },
         {
           "key": "D",
-          "text": "worsen labor-management relations",
           "value": "D",
+          "text": "worsen labor-management relations",
           "content": "worsen labor-management relations"
         }
       ],
@@ -1607,26 +1619,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Imposing reasonable wage restraints.",
           "value": "A",
+          "text": "Imposing reasonable wage restraints.",
           "content": "Imposing reasonable wage restraints."
         },
         {
           "key": "B",
-          "text": "Enforcing employment protection laws.",
           "value": "B",
+          "text": "Enforcing employment protection laws.",
           "content": "Enforcing employment protection laws."
         },
         {
           "key": "C",
-          "text": "Limiting the powers of business owners",
           "value": "C",
+          "text": "Limiting the powers of business owners",
           "content": "Limiting the powers of business owners"
         },
         {
           "key": "D",
-          "text": "Dismissing poorly performing managers.",
           "value": "D",
+          "text": "Dismissing poorly performing managers.",
           "content": "Dismissing poorly performing managers."
         }
       ],
@@ -1648,26 +1660,26 @@
       "options": [
         {
           "key": "A",
-          "text": "Highly paid managers lose their jobs.",
           "value": "A",
+          "text": "Highly paid managers lose their jobs.",
           "content": "Highly paid managers lose their jobs."
         },
         {
           "key": "B",
-          "text": "Employees suffer from salary cuts.",
           "value": "B",
+          "text": "Employees suffer from salary cuts.",
           "content": "Employees suffer from salary cuts."
         },
         {
           "key": "C",
-          "text": "Society sees a rise in overall well-being",
           "value": "C",
+          "text": "Society sees a rise in overall well-being",
           "content": "Society sees a rise in overall well-being"
         },
         {
           "key": "D",
-          "text": "Employers need to hire new staff.",
           "value": "D",
+          "text": "Employers need to hire new staff.",
           "content": "Employers need to hire new staff."
         }
       ],
@@ -1689,26 +1701,26 @@
       "options": [
         {
           "key": "A",
-          "text": "has secured managers' earnings",
           "value": "A",
+          "text": "has secured managers' earnings",
           "content": "has secured managers' earnings"
         },
         {
           "key": "B",
-          "text": "has produced undesired results",
           "value": "B",
+          "text": "has produced undesired results",
           "content": "has produced undesired results"
         },
         {
           "key": "C",
-          "text": "is beneficial to business owners",
           "value": "C",
+          "text": "is beneficial to business owners",
           "content": "is beneficial to business owners"
         },
         {
           "key": "D",
-          "text": "is difficult to put into practice",
           "value": "D",
+          "text": "is difficult to put into practice",
           "content": "is difficult to put into practice"
         }
       ],
@@ -1730,44 +1742,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "value": "A",
+          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
-          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "value": "B",
+          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
-          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "value": "C",
+          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
-          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "value": "D",
+          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
-          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "value": "E",
+          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
-          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "value": "F",
+          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
-          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "value": "G",
+          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
@@ -1789,44 +1801,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "value": "A",
+          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
-          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "value": "B",
+          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
-          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "value": "C",
+          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
-          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "value": "D",
+          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
-          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "value": "E",
+          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
-          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "value": "F",
+          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
-          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "value": "G",
+          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
@@ -1848,44 +1860,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "value": "A",
+          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
-          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "value": "B",
+          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
-          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "value": "C",
+          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
-          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "value": "D",
+          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
-          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "value": "E",
+          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
-          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "value": "F",
+          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
-          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "value": "G",
+          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
@@ -1907,44 +1919,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "value": "A",
+          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
-          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "value": "B",
+          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
-          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "value": "C",
+          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
-          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "value": "D",
+          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
-          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "value": "E",
+          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
-          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "value": "F",
+          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
-          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "value": "G",
+          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],
@@ -1966,44 +1978,44 @@
       "options": [
         {
           "key": "A",
-          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "value": "A",
+          "text": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups.",
           "content": "Zoos which spare no effort to take care of animals should not be subjected to blanket ideological condemnation by animal rights groups."
         },
         {
           "key": "B",
-          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "value": "B",
+          "text": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare.",
           "content": "To pressure modern zoos to spend less on veterinary care and habitat enrichment is deeply counterproductive to wildlife welfare."
         },
         {
           "key": "C",
-          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "value": "C",
+          "text": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction.",
           "content": "While animals in captivity deserve the best possible ethical treatment, wild species in degraded natural habitats face urgent extinction."
         },
         {
           "key": "D",
-          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "value": "D",
+          "text": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens.",
           "content": "Zoos save ordinary urban dwellers expensive trips to distant wilderness habitats, making wildlife appreciation accessible to all citizens."
         },
         {
           "key": "E",
-          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "value": "E",
+          "text": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical.",
           "content": "Critics argue that confining intelligent social species in artificial enclosures for ticket sales is fundamentally unethical."
         },
         {
           "key": "F",
-          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "value": "F",
+          "text": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation.",
           "content": "Accredited zoological institutions now invest substantial proportions of their revenues directly into global habitat preservation."
         },
         {
           "key": "G",
-          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "value": "G",
+          "text": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither.",
           "content": "Without the educational empathy cultivated by visiting living animals, public enthusiasm for international conservation treaties would wither."
         }
       ],

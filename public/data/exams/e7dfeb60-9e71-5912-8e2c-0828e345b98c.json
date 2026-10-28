@@ -102,27 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pauses",
-          "content": "pauses",
-          "value": "A"
+          "content": "pauses"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "returns",
-          "content": "returns",
-          "value": "B"
+          "content": "returns"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "peaks",
-          "content": "peaks",
-          "value": "C"
+          "content": "peaks"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "fades",
-          "content": "fades",
-          "value": "D"
+          "content": "fades"
         }
       ],
       "correct_answer": "C",
@@ -143,27 +143,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "alternatively",
-          "content": "alternatively",
-          "value": "A"
+          "content": "alternatively"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "formally",
-          "content": "formally",
-          "value": "B"
+          "content": "formally"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "accidentally",
-          "content": "accidentally",
-          "value": "C"
+          "content": "accidentally"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "generally",
-          "content": "generally",
-          "value": "D"
+          "content": "generally"
         }
       ],
       "correct_answer": "D",
@@ -184,27 +184,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "while",
-          "content": "while",
-          "value": "A"
+          "content": "while"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "since",
-          "content": "since",
-          "value": "B"
+          "content": "since"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "once",
-          "content": "once",
-          "value": "C"
+          "content": "once"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "until",
-          "content": "until",
-          "value": "D"
+          "content": "until"
         }
       ],
       "correct_answer": "A",
@@ -225,27 +225,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "detection",
-          "content": "detection",
-          "value": "A"
+          "content": "detection"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "accumulation",
-          "content": "accumulation",
-          "value": "B"
+          "content": "accumulation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "consumption",
-          "content": "consumption",
-          "value": "C"
+          "content": "consumption"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "separation",
-          "content": "separation",
-          "value": "D"
+          "content": "separation"
         }
       ],
       "correct_answer": "B",
@@ -266,27 +266,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "possibility",
-          "content": "possibility",
-          "value": "A"
+          "content": "possibility"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "decision",
-          "content": "decision",
-          "value": "B"
+          "content": "decision"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "goal",
-          "content": "goal",
-          "value": "C"
+          "content": "goal"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "requirement",
-          "content": "requirement",
-          "value": "D"
+          "content": "requirement"
         }
       ],
       "correct_answer": "A",
@@ -307,27 +307,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "delay",
-          "content": "delay",
-          "value": "A"
+          "content": "delay"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ensure",
-          "content": "ensure",
-          "value": "B"
+          "content": "ensure"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "seek",
-          "content": "seek",
-          "value": "C"
+          "content": "seek"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "utilize",
-          "content": "utilize",
-          "value": "D"
+          "content": "utilize"
         }
       ],
       "correct_answer": "A",
@@ -348,27 +348,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "modified",
-          "content": "modified",
-          "value": "A"
+          "content": "modified"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "supported",
-          "content": "supported",
-          "value": "B"
+          "content": "supported"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "included",
-          "content": "included",
-          "value": "C"
+          "content": "included"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "predicted",
-          "content": "predicted",
-          "value": "D"
+          "content": "predicted"
         }
       ],
       "correct_answer": "C",
@@ -389,27 +389,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "devoted",
-          "content": "devoted",
-          "value": "A"
+          "content": "devoted"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "compared",
-          "content": "compared",
-          "value": "B"
+          "content": "compared"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "converted",
-          "content": "converted",
-          "value": "C"
+          "content": "converted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "applied",
-          "content": "applied",
-          "value": "D"
+          "content": "applied"
         }
       ],
       "correct_answer": "B",
@@ -430,27 +430,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "with",
-          "content": "with",
-          "value": "A"
+          "content": "with"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "above",
-          "content": "above",
-          "value": "B"
+          "content": "above"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "by",
-          "content": "by",
-          "value": "C"
+          "content": "by"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "against",
-          "content": "against",
-          "value": "D"
+          "content": "against"
         }
       ],
       "correct_answer": "A",
@@ -471,27 +471,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "lived",
-          "content": "lived",
-          "value": "A"
+          "content": "lived"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "managed",
-          "content": "managed",
-          "value": "B"
+          "content": "managed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "scored",
-          "content": "scored",
-          "value": "C"
+          "content": "scored"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "played",
-          "content": "played",
-          "value": "D"
+          "content": "played"
         }
       ],
       "correct_answer": "C",
@@ -512,27 +512,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "ran out",
-          "content": "ran out",
-          "value": "A"
+          "content": "ran out"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "set off",
-          "content": "set off",
-          "value": "B"
+          "content": "set off"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "drew in",
-          "content": "drew in",
-          "value": "C"
+          "content": "drew in"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "went by",
-          "content": "went by",
-          "value": "D"
+          "content": "went by"
         }
       ],
       "correct_answer": "D",
@@ -553,27 +553,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "superior",
-          "content": "superior",
-          "value": "A"
+          "content": "superior"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "attributable",
-          "content": "attributable",
-          "value": "B"
+          "content": "attributable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "parallel",
-          "content": "parallel",
-          "value": "C"
+          "content": "parallel"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "resistant",
-          "content": "resistant",
-          "value": "D"
+          "content": "resistant"
         }
       ],
       "correct_answer": "B",
@@ -594,27 +594,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "restored",
-          "content": "restored",
-          "value": "A"
+          "content": "restored"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "isolated",
-          "content": "isolated",
-          "value": "B"
+          "content": "isolated"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "involved",
-          "content": "involved",
-          "value": "C"
+          "content": "involved"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "controlled",
-          "content": "controlled",
-          "value": "D"
+          "content": "controlled"
         }
       ],
       "correct_answer": "C",
@@ -635,27 +635,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "alter",
-          "content": "alter",
-          "value": "A"
+          "content": "alter"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "spread",
-          "content": "spread",
-          "value": "B"
+          "content": "spread"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "remove",
-          "content": "remove",
-          "value": "C"
+          "content": "remove"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "explain",
-          "content": "explain",
-          "value": "D"
+          "content": "explain"
         }
       ],
       "correct_answer": "D",
@@ -676,27 +676,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "compensations",
-          "content": "compensations",
-          "value": "A"
+          "content": "compensations"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "symptoms",
-          "content": "symptoms",
-          "value": "B"
+          "content": "symptoms"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "demands",
-          "content": "demands",
-          "value": "C"
+          "content": "demands"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "treatments",
-          "content": "treatments",
-          "value": "D"
+          "content": "treatments"
         }
       ],
       "correct_answer": "D",
@@ -717,27 +717,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Likewise",
-          "content": "Likewise",
-          "value": "A"
+          "content": "Likewise"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Meanwhile",
-          "content": "Meanwhile",
-          "value": "B"
+          "content": "Meanwhile"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Therefore",
-          "content": "Therefore",
-          "value": "C"
+          "content": "Therefore"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Instead",
-          "content": "Instead",
-          "value": "D"
+          "content": "Instead"
         }
       ],
       "correct_answer": "B",
@@ -758,27 +758,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "change",
-          "content": "change",
-          "value": "A"
+          "content": "change"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "watch",
-          "content": "watch",
-          "value": "B"
+          "content": "watch"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "count",
-          "content": "count",
-          "value": "C"
+          "content": "count"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "take",
-          "content": "take",
-          "value": "D"
+          "content": "take"
         }
       ],
       "correct_answer": "D",
@@ -799,27 +799,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "well-being",
-          "content": "well-being",
-          "value": "A"
+          "content": "well-being"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "process",
-          "content": "process",
-          "value": "B"
+          "content": "process"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "formation",
-          "content": "formation",
-          "value": "C"
+          "content": "formation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "coordination",
-          "content": "coordination",
-          "value": "D"
+          "content": "coordination"
         }
       ],
       "correct_answer": "A",
@@ -840,27 +840,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "level",
-          "content": "level",
-          "value": "A"
+          "content": "level"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "love",
-          "content": "love",
-          "value": "B"
+          "content": "love"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "knowledge",
-          "content": "knowledge",
-          "value": "C"
+          "content": "knowledge"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "space",
-          "content": "space",
-          "value": "D"
+          "content": "space"
         }
       ],
       "correct_answer": "A",
@@ -881,27 +881,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "design",
-          "content": "design",
-          "value": "A"
+          "content": "design"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "routine",
-          "content": "routine",
-          "value": "B"
+          "content": "routine"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "diet",
-          "content": "diet",
-          "value": "C"
+          "content": "diet"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "prescription",
-          "content": "prescription",
-          "value": "D"
+          "content": "prescription"
         }
       ],
       "correct_answer": "C",
@@ -922,27 +922,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has kept pace with inflation",
-          "content": "has kept pace with inflation",
-          "value": "A"
+          "content": "has kept pace with inflation"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is a big surprise to commuters",
-          "content": "is a big surprise to commuters",
-          "value": "B"
+          "content": "is a big surprise to commuters"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "remains an unreasonable measure",
-          "content": "remains an unreasonable measure",
-          "value": "C"
+          "content": "remains an unreasonable measure"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "will ease train operators' burden",
-          "content": "will ease train operators' burden",
-          "value": "D"
+          "content": "will ease train operators' burden"
         }
       ],
       "correct_answer": "C",
@@ -963,27 +963,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "car drivers",
-          "content": "car drivers",
-          "value": "A"
+          "content": "car drivers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rail travelers",
-          "content": "rail travelers",
-          "value": "B"
+          "content": "rail travelers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "local investors",
-          "content": "local investors",
-          "value": "C"
+          "content": "local investors"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ordinary taxpayers",
-          "content": "ordinary taxpayers",
-          "value": "D"
+          "content": "ordinary taxpayers"
         }
       ],
       "correct_answer": "B",
@@ -1004,27 +1004,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are offering compensation to commuters",
-          "content": "are offering compensation to commuters",
-          "value": "A"
+          "content": "are offering compensation to commuters"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are trying to repair relations with the unions",
-          "content": "are trying to repair relations with the unions",
-          "value": "B"
+          "content": "are trying to repair relations with the unions"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "have failed to provide an adequate service",
-          "content": "have failed to provide an adequate service",
-          "value": "C"
+          "content": "have failed to provide an adequate service"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "have suffered huge losses owing to the strikes",
-          "content": "have suffered huge losses owing to the strikes",
-          "value": "D"
+          "content": "have suffered huge losses owing to the strikes"
         }
       ],
       "correct_answer": "C",
@@ -1045,27 +1045,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the loss of investment",
-          "content": "the loss of investment",
-          "value": "A"
+          "content": "the loss of investment"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the collapse of operations",
-          "content": "the collapse of operations",
-          "value": "B"
+          "content": "the collapse of operations"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "a reduction of revenue",
-          "content": "a reduction of revenue",
-          "value": "C"
+          "content": "a reduction of revenue"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a change of ownership",
-          "content": "a change of ownership",
-          "value": "D"
+          "content": "a change of ownership"
         }
       ],
       "correct_answer": "D",
@@ -1086,27 +1086,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Who Are to Blame for the Strikes?",
-          "content": "Who Are to Blame for the Strikes?",
-          "value": "A"
+          "content": "Who Are to Blame for the Strikes?"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Constant Complaining Doesn't Work",
-          "content": "Constant Complaining Doesn't Work",
-          "value": "B"
+          "content": "Constant Complaining Doesn't Work"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Can Nationalisation Bring Hope?",
-          "content": "Can Nationalisation Bring Hope?",
-          "value": "C"
+          "content": "Can Nationalisation Bring Hope?"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Ever-rising Fares Aren't Sustainable",
-          "content": "Ever-rising Fares Aren't Sustainable",
-          "value": "D"
+          "content": "Ever-rising Fares Aren't Sustainable"
         }
       ],
       "correct_answer": "D",
@@ -1127,27 +1127,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "facilitate healthcare reform",
-          "content": "facilitate healthcare reform",
-          "value": "A"
+          "content": "facilitate healthcare reform"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "help poor families get better off",
-          "content": "help poor families get better off",
-          "value": "B"
+          "content": "help poor families get better off"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "improve local education systems",
-          "content": "improve local education systems",
-          "value": "C"
+          "content": "improve local education systems"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "lower deforestation rates",
-          "content": "lower deforestation rates",
-          "value": "D"
+          "content": "lower deforestation rates"
         }
       ],
       "correct_answer": "B",
@@ -1168,27 +1168,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "cattle raising has been a major means of livelihood for the poor",
-          "content": "cattle raising has been a major means of livelihood for the poor",
-          "value": "A"
+          "content": "cattle raising has been a major means of livelihood for the poor"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "CCT programs have helped preserve traditional lifestyles",
-          "content": "CCT programs have helped preserve traditional lifestyles",
-          "value": "B"
+          "content": "CCT programs have helped preserve traditional lifestyles"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "antipoverty efforts require the participation of local farmers",
-          "content": "antipoverty efforts require the participation of local farmers",
-          "value": "C"
+          "content": "antipoverty efforts require the participation of local farmers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "economic growth tends to cause environmental degradation",
-          "content": "economic growth tends to cause environmental degradation",
-          "value": "D"
+          "content": "economic growth tends to cause environmental degradation"
         }
       ],
       "correct_answer": "D",
@@ -1209,27 +1209,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "its acceptance level of CCTs",
-          "content": "its acceptance level of CCTs",
-          "value": "A"
+          "content": "its acceptance level of CCTs"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "its annual rate of poverty alleviation",
-          "content": "its annual rate of poverty alleviation",
-          "value": "B"
+          "content": "its annual rate of poverty alleviation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the relation of CCTs to its forest loss",
-          "content": "the relation of CCTs to its forest loss",
-          "value": "C"
+          "content": "the relation of CCTs to its forest loss"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the role of its forests in climate change",
-          "content": "the role of its forests in climate change",
-          "value": "D"
+          "content": "the role of its forests in climate change"
         }
       ],
       "correct_answer": "C",
@@ -1250,27 +1250,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "it will benefit other Asian countries",
-          "content": "it will benefit other Asian countries",
-          "value": "A"
+          "content": "it will benefit other Asian countries"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "it will reduce regional inequality",
-          "content": "it will reduce regional inequality",
-          "value": "B"
+          "content": "it will reduce regional inequality"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "it can protect the environment",
-          "content": "it can protect the environment",
-          "value": "C"
+          "content": "it can protect the environment"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "it can benefit grain production",
-          "content": "it can benefit grain production",
-          "value": "D"
+          "content": "it can benefit grain production"
         }
       ],
       "correct_answer": "C",
@@ -1291,27 +1291,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The effects of a program.",
-          "content": "The effects of a program.",
-          "value": "A"
+          "content": "The effects of a program."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The debates over a program.",
-          "content": "The debates over a program.",
-          "value": "B"
+          "content": "The debates over a program."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The process of a study.",
-          "content": "The process of a study.",
-          "value": "C"
+          "content": "The process of a study."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The transferability of a study.",
-          "content": "The transferability of a study.",
-          "value": "D"
+          "content": "The transferability of a study."
         }
       ],
       "correct_answer": "A",
@@ -1332,27 +1332,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "changed people's impression of the Victorians",
-          "content": "changed people's impression of the Victorians",
-          "value": "A"
+          "content": "changed people's impression of the Victorians"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted social media's role in Victorian studies",
-          "content": "highlighted social media's role in Victorian studies",
-          "value": "B"
+          "content": "highlighted social media's role in Victorian studies"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "re-evaluated the Victorian's notion of public image",
-          "content": "re-evaluated the Victorian's notion of public image",
-          "value": "C"
+          "content": "re-evaluated the Victorian's notion of public image"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "illustrated the development of Victorian photography",
-          "content": "illustrated the development of Victorian photography",
-          "value": "D"
+          "content": "illustrated the development of Victorian photography"
         }
       ],
       "correct_answer": "A",
@@ -1373,27 +1373,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "They are in popular use among historians.",
-          "content": "They are in popular use among historians.",
-          "value": "A"
+          "content": "They are in popular use among historians."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "They are rare among photographs of that age.",
-          "content": "They are rare among photographs of that age.",
-          "value": "B"
+          "content": "They are rare among photographs of that age."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "They mirror 19th-century social conventions.",
-          "content": "They mirror 19th-century social conventions.",
-          "value": "C"
+          "content": "They mirror 19th-century social conventions."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "They show effects of different exposure times.",
-          "content": "They show effects of different exposure times.",
-          "value": "D"
+          "content": "They show effects of different exposure times."
         }
       ],
       "correct_answer": "B",
@@ -1414,27 +1414,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Their inherent social sensitiveness.",
-          "content": "Their inherent social sensitiveness.",
-          "value": "A"
+          "content": "Their inherent social sensitiveness."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Their tension before the camera.",
-          "content": "Their tension before the camera.",
-          "value": "B"
+          "content": "Their tension before the camera."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Their distrust of new inventions.",
-          "content": "Their distrust of new inventions.",
-          "value": "C"
+          "content": "Their distrust of new inventions."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Their unhealthy dental condition.",
-          "content": "Their unhealthy dental condition.",
-          "value": "D"
+          "content": "Their unhealthy dental condition."
         }
       ],
       "correct_answer": "D",
@@ -1455,27 +1455,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a deep-root belief",
-          "content": "a deep-root belief",
-          "value": "A"
+          "content": "a deep-root belief"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "a misguided attitude",
-          "content": "a misguided attitude",
-          "value": "B"
+          "content": "a misguided attitude"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "a controversial view",
-          "content": "a controversial view",
-          "value": "C"
+          "content": "a controversial view"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a thought-provoking idea",
-          "content": "a thought-provoking idea",
-          "value": "D"
+          "content": "a thought-provoking idea"
         }
       ],
       "correct_answer": "A",
@@ -1496,27 +1496,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Why did most Victorians look stern in photographs?",
-          "content": "Why did most Victorians look stern in photographs?",
-          "value": "A"
+          "content": "Why did most Victorians look stern in photographs?"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Why did the Victorians start to view photographs?",
-          "content": "Why did the Victorians start to view photographs?",
-          "value": "B"
+          "content": "Why did the Victorians start to view photographs?"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "What made photography develop in the Victorian",
-          "content": "What made photography develop in the Victorian",
-          "value": "C"
+          "content": "What made photography develop in the Victorian"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "How did smiling in photographs become a post­",
-          "content": "How did smiling in photographs become a post­",
-          "value": "D"
+          "content": "How did smiling in photographs become a post­"
         }
       ],
       "correct_answer": "A",
@@ -1537,27 +1537,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "bring web-based firms under control",
-          "content": "bring web-based firms under control",
-          "value": "A"
+          "content": "bring web-based firms under control"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "slow down the traffic on their network",
-          "content": "slow down the traffic on their network",
-          "value": "B"
+          "content": "slow down the traffic on their network"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "show partiality in treating clients",
-          "content": "show partiality in treating clients",
-          "value": "C"
+          "content": "show partiality in treating clients"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "intensify competition with their rivals",
-          "content": "intensify competition with their rivals",
-          "value": "D"
+          "content": "intensify competition with their rivals"
         }
       ],
       "correct_answer": "C",
@@ -1578,27 +1578,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sticks to an out-of-date order",
-          "content": "sticks to an out-of-date order",
-          "value": "A"
+          "content": "sticks to an out-of-date order"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "takes an anti-regulatory stance",
-          "content": "takes an anti-regulatory stance",
-          "value": "B"
+          "content": "takes an anti-regulatory stance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "has issued a special resolution",
-          "content": "has issued a special resolution",
-          "value": "C"
+          "content": "has issued a special resolution"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has allowed the states to intervene",
-          "content": "has allowed the states to intervene",
-          "value": "D"
+          "content": "has allowed the states to intervene"
         }
       ],
       "correct_answer": "B",
@@ -1619,27 +1619,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It protects against unfair competition.",
-          "content": "It protects against unfair competition.",
-          "value": "A"
+          "content": "It protects against unfair competition."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It engages in anti-competitive practices.",
-          "content": "It engages in anti-competitive practices.",
-          "value": "B"
+          "content": "It engages in anti-competitive practices."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "It is under the FCC's investigation.",
-          "content": "It is under the FCC's investigation.",
-          "value": "C"
+          "content": "It is under the FCC's investigation."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "It is in pursuit of quality service.",
-          "content": "It is in pursuit of quality service.",
-          "value": "D"
+          "content": "It is in pursuit of quality service."
         }
       ],
       "correct_answer": "B",
@@ -1660,27 +1660,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "focuses on trivialities",
-          "content": "focuses on trivialities",
-          "value": "A"
+          "content": "focuses on trivialities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "conveys an ambiguous message",
-          "content": "conveys an ambiguous message",
-          "value": "B"
+          "content": "conveys an ambiguous message"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is at odds with its earlier rulings",
-          "content": "is at odds with its earlier rulings",
-          "value": "C"
+          "content": "is at odds with its earlier rulings"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is out of touch with reality",
-          "content": "is out of touch with reality",
-          "value": "D"
+          "content": "is out of touch with reality"
         }
       ],
       "correct_answer": "D",
@@ -1701,27 +1701,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Congress needs to take action to ensure net neutrality.",
-          "content": "Congress needs to take action to ensure net neutrality.",
-          "value": "A"
+          "content": "Congress needs to take action to ensure net neutrality."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The FCC should be put under strict supervision.",
-          "content": "The FCC should be put under strict supervision.",
-          "value": "B"
+          "content": "The FCC should be put under strict supervision."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Rules need to be set to diversify online services.",
-          "content": "Rules need to be set to diversify online services.",
-          "value": "C"
+          "content": "Rules need to be set to diversify online services."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Broadband providers' rights should be protected.",
-          "content": "Broadband providers' rights should be protected.",
-          "value": "D"
+          "content": "Broadband providers' rights should be protected."
         }
       ],
       "correct_answer": "A",
@@ -1742,45 +1742,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "value": "A"
+          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "value": "B"
+          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "value": "C"
+          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "value": "D"
+          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "value": "E"
+          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "value": "F"
+          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "value": "G"
+          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
         }
       ],
       "correct_answer": "G",
@@ -1801,45 +1801,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "value": "A"
+          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "value": "B"
+          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "value": "C"
+          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "value": "D"
+          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "value": "E"
+          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "value": "F"
+          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "value": "G"
+          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
         }
       ],
       "correct_answer": "C",
@@ -1860,45 +1860,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "value": "A"
+          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "value": "B"
+          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "value": "C"
+          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "value": "D"
+          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "value": "E"
+          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "value": "F"
+          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "value": "G"
+          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
         }
       ],
       "correct_answer": "E",
@@ -1919,45 +1919,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "value": "A"
+          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "value": "B"
+          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "value": "C"
+          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "value": "D"
+          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "value": "E"
+          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "value": "F"
+          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "value": "G"
+          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
         }
       ],
       "correct_answer": "B",
@@ -1978,45 +1978,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for.",
-          "value": "A"
+          "content": "AI replaces the boring parts of your job. If you're doing research, you can have AI go out and look for relevant sources and information that otherwise you just wouldn't have time for."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate.",
-          "value": "B"
+          "content": "One accounting firm, EY, uses an AI system that helps review contracts during an audit. This process, along with employees reviewing the contracts, is faster and more accurate."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results.",
-          "value": "C"
+          "content": "There are also companies like Acquisio, which analyzes advertising performance across multiple channels like Adwords, Bing and social media and makes adjustments or suggestions about where advertising funds will yield best results."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to.",
-          "value": "D"
+          "content": "You want to predict if something needs attention now and point to where it's useful for employees to go to."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money.",
-          "value": "E"
+          "content": "Before, they might not insure the ones who felt like a high risk or charge them too much, or they would charge them too little and then it would cost the company money."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions.",
-          "value": "F"
+          "content": "We're also giving our customers better tools to manage their financial lives. Instead of calling customer service to ask about account activity, they can use an AI-powered conversational bot to get instant answers to common questions."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates.",
-          "value": "G"
+          "content": "AI looks at resumes in greater numbers than humans would be able to, and selects the more promising candidates."
         }
       ],
       "correct_answer": "D",

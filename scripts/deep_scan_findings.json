@@ -1,0 +1,364 @@
+{
+  "ky1_early": {
+    "2001_ky1": {
+      "id": "2c892204-071f-5943-86be-d49bca93fe71",
+      "title": "2001年 全国硕士研究生招生考试 英语（一）真题",
+      "year": 2001,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2004_ky1": {
+      "id": "47036de0-e57d-5ccb-9bc8-b3f86d4e6457",
+      "title": "2004年 全国硕士研究生招生考试 英语（一）真题",
+      "year": 2004,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2003_ky1": {
+      "id": "91ff038a-e3f9-5b6d-82c5-1328735be1d1",
+      "title": "2003年 全国硕士研究生招生考试 英语（一）真题",
+      "year": 2003,
+      "category": "ky1",
+      "passage_anomalies": [
+        {
+          "type": "punct_missing_space",
+          "passage": "Section II: Reading Comprehension Part A - Text 1",
+          "samples": [
+            "www.straitford"
+          ]
+        }
+      ],
+      "question_anomalies": []
+    },
+    "2009_ky1": {
+      "id": "9369aa41-c91e-548c-bf99-1ad46a07ac25",
+      "title": "2009年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2009,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2006_ky1": {
+      "id": "c6e9dbac-6148-532e-90d2-2a8d3682a6ac",
+      "title": "2006年 全国硕士研究生招生考试 英语（一）真题",
+      "year": 2006,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2008_ky1": {
+      "id": "d80926ab-1841-5d1f-a999-56773986c46d",
+      "title": "2008年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2008,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2005_ky1": {
+      "id": "d8ba7d14-5305-538d-b81b-f0f7ef3db461",
+      "title": "2005年 全国硕士研究生招生考试 英语（一）真题",
+      "year": 2005,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2002_ky1": {
+      "id": "e1b9d134-9546-55ab-9a60-c7e5b04046a3",
+      "title": "2002年 全国硕士研究生招生考试 英语（一）真题",
+      "year": 2002,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2007_ky1": {
+      "id": "e560bab8-4d9a-5149-a93f-1ee1d7bf4225",
+      "title": "2007年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2007,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    }
+  },
+  "ky1_mid": {
+    "2011_ky1": {
+      "id": "111d6c78-81a1-53dc-a039-dad4c94ebd35",
+      "title": "2011年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2011,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2014_ky1": {
+      "id": "240cc48a-439b-5d27-8464-f7dc53e060dc",
+      "title": "2014年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2014,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2017_ky1": {
+      "id": "4fd42872-4822-5786-8d16-0317051bf03d",
+      "title": "2017年全国硕士研究生招生考试英语（一）真题",
+      "year": 2017,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2016_ky1": {
+      "id": "666cdb4e-7fd3-53c2-8c91-a12fa3160c09",
+      "title": "2016年全国硕士研究生招生考试英语（一）真题",
+      "year": 2016,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2013_ky1": {
+      "id": "6c56eb6e-75e7-54d2-a03e-3ad93fc61fa5",
+      "title": "2013年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2013,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2015_ky1": {
+      "id": "865e5af8-24a4-58e1-bc9e-640f32d8e946",
+      "title": "2015年全国硕士研究生招生考试英语（一）真题",
+      "year": 2015,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2012_ky1": {
+      "id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
+      "title": "2012年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2012,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2010_ky1": {
+      "id": "e5abf09b-e94d-5994-b944-7c5711cd4e4d",
+      "title": "2010年全国硕士研究生入学统一考试英语（一）真题",
+      "year": 2010,
+      "category": "ky1",
+      "passage_anomalies": [
+        {
+          "type": "punct_missing_space",
+          "passage": "Section II: Reading Comprehension Part A - Text 2",
+          "samples": [
+            "Amazon.com"
+          ]
+        }
+      ],
+      "question_anomalies": []
+    }
+  },
+  "ky1_late": {
+    "2019_ky1": {
+      "id": "5bcba462-0a1e-59b2-9fcb-c171d242db3b",
+      "title": "2019年全国硕士研究生招生考试英语（一）真题",
+      "year": 2019,
+      "category": "ky1",
+      "passage_anomalies": [
+        {
+          "type": "punct_missing_space",
+          "passage": "Section II: Reading Comprehension Part A - Text 4",
+          "samples": [
+            "Amazon.com"
+          ]
+        }
+      ],
+      "question_anomalies": []
+    },
+    "2022_ky1": {
+      "id": "6d676d85-a38a-5fe4-9506-31de03b648b6",
+      "title": "2022年全国硕士研究生招生考试英语（一）真题",
+      "year": 2022,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2023_ky1": {
+      "id": "b5992dc7-d0ac-56ce-8845-aa2c58675802",
+      "title": "2023年全国硕士研究生招生考试英语（一）真题",
+      "year": 2023,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2025_ky1": {
+      "id": "c75ee9ef-ec21-5396-b3bf-4e30260d2918",
+      "title": "2025年全国硕士研究生招生考试英语（一）真题",
+      "year": 2025,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2021_ky1": {
+      "id": "e7dfeb60-9e71-5912-8e2c-0828e345b98c",
+      "title": "2021年全国硕士研究生招生考试英语（一）真题",
+      "year": 2021,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2018_ky1": {
+      "id": "e95fe05a-07f4-53d1-a11f-9b636acc6469",
+      "title": "2018年全国硕士研究生招生考试英语（一）真题",
+      "year": 2018,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2024_ky1": {
+      "id": "f303f3fb-abfe-477f-a2e5-8dcd1ba78ef0",
+      "title": "2024年全国硕士研究生招生考试英语（一）真题",
+      "year": 2024,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2020_ky1": {
+      "id": "f56943c1-0ba8-58fe-b7d3-061352345067",
+      "title": "2020年全国硕士研究生招生考试英语（一）真题",
+      "year": 2020,
+      "category": "ky1",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    }
+  },
+  "ky2_early": {
+    "2015_ky2": {
+      "id": "17ca33c3-66f2-5ae0-a1ba-847f507dd6e4",
+      "title": "2015年全国硕士研究生招生考试英语（二）真题",
+      "year": 2015,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2013_ky2": {
+      "id": "1ac5713f-fb5d-560f-a22a-3c5c3431d03f",
+      "title": "2013年全国硕士研究生入学统一考试英语（二）真题",
+      "year": 2013,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2010_ky2": {
+      "id": "207d2963-734a-52bd-9fa3-6c341efb5974",
+      "title": "2010年全国硕士研究生入学统一考试英语（二）真题",
+      "year": 2010,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2012_ky2": {
+      "id": "2d124f8f-f9af-5b94-9cc9-0087a76ee289",
+      "title": "2012年全国硕士研究生入学统一考试英语（二）真题",
+      "year": 2012,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2014_ky2": {
+      "id": "307952b3-040c-5ab4-a893-687e97d737ec",
+      "title": "2014年全国硕士研究生招生考试英语（二）真题",
+      "year": 2014,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2011_ky2": {
+      "id": "53a52573-0afc-51a4-86b6-b2f321cbe6a8",
+      "title": "2011年全国硕士研究生入学统一考试英语（二）真题",
+      "year": 2011,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2016_ky2": {
+      "id": "65f67ba3-fe8c-5113-be4d-48917cef6c59",
+      "title": "2016年全国硕士研究生招生考试英语（二）真题",
+      "year": 2016,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2017_ky2": {
+      "id": "68de78c3-98c6-507b-9a1e-566833a7f00b",
+      "title": "2017年全国硕士研究生招生考试英语（二）真题",
+      "year": 2017,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    }
+  },
+  "ky2_late": {
+    "2023_ky2": {
+      "id": "0a5fc663-29a1-504d-981d-49763767e394",
+      "title": "2023年全国硕士研究生招生考试英语（二）真题",
+      "year": 2023,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2019_ky2": {
+      "id": "0c9161be-007f-5eef-87e7-977c93b9e486",
+      "title": "2019年全国硕士研究生招生考试英语（二）真题",
+      "year": 2019,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2021_ky2": {
+      "id": "4ebd819e-c832-5890-9048-ba16040a5607",
+      "title": "2021年全国硕士研究生招生考试英语（二）真题",
+      "year": 2021,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2025_ky2": {
+      "id": "59181a61-cd5e-560e-b413-d3ecd3fc1e32",
+      "title": "2025年全国硕士研究生招生考试英语（二）真题",
+      "year": 2025,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2018_ky2": {
+      "id": "8868dd40-75bf-590b-98a4-a516c5e1c161",
+      "title": "2018年全国硕士研究生招生考试英语（二）真题",
+      "year": 2018,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2024_ky2": {
+      "id": "9286880b-8738-4d73-8697-e70bdd8257c6",
+      "title": "2024年全国硕士研究生招生考试英语（二）真题",
+      "year": 2024,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2022_ky2": {
+      "id": "cc4bf627-e456-538f-87e2-4a99ebb613ed",
+      "title": "2022年全国硕士研究生招生考试英语（二）真题",
+      "year": 2022,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    },
+    "2020_ky2": {
+      "id": "ee996af1-3aaa-5380-9465-08125c4db713",
+      "title": "2020年全国硕士研究生招生考试英语（二）真题",
+      "year": 2020,
+      "category": "ky2",
+      "passage_anomalies": [],
+      "question_anomalies": []
+    }
+  }
+}

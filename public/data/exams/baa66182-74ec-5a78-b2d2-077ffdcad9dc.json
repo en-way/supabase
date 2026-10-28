@@ -29,7 +29,7 @@
       "exam_id": "baa66182-74ec-5a78-b2d2-077ffdcad9dc",
       "title": "Section I: Use of English",
       "type": "cloze",
-      "passage_number": null,
+      "passage_number": 1,
       "content": "The ethical judgments of the Supreme Court justices have become an important issue recently. The court cannot [1] its legitimacy as guardian of the rule of law [2] justices behave like politicians. Yet, in several instances, justices acted in ways that [3] the court's reputation for being independent and impartial.\n\nJustice Antonin Scalia, for example, appeared at political events. That kind of activity makes it less likely that the court's decisions will be [4] as impartial judgments. Part of the problem is that the justices are not [5] by an ethics code. At the very least, the court should make itself [6] to the code of conduct that [7] to the rest of the federal judiciary.\n\nThis and other similar cases [8] the question of whether there is still a [9] between the court and politics.\n\nThe framers of the Constitution envisioned law [10] having authority apart from politics. They gave justices permanent positions [11] they would be free to [12] those in power and have no need to [13] political support. Our legal system was designed on the assumption that continued tying of law to politics would be dangerous. It was designed [14] to separate the two.\n\nConstitutional law is political because it results from choices between different [15] of liberty and property. But the court's decisions ought to be made according to principle, not based on politics. When the court departs from that rule, and allows politics to [16] its judgment, it loses its authority apart from politics. That makes it easier for decisions with which people disagree to be [17] as political rather than judicial.\n\nThe justices must [18] doubts about the court's legitimacy by making themselves [19] to the code of conduct. That would make it more likely that the court's decisions will be seen as separate from politics and, [20], convincing as law."
     },
     {
@@ -83,23 +83,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emphasize",
-          "value": "A"
+          "content": "emphasize"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "maintain",
-          "value": "B"
+          "content": "maintain"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "modify",
-          "value": "C"
+          "content": "modify"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "recognize",
-          "value": "D"
+          "content": "recognize"
         }
       ],
       "correct_answer": "B",
@@ -118,23 +122,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "when",
-          "value": "A"
+          "content": "when"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lest",
-          "value": "B"
+          "content": "lest"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "before",
-          "value": "C"
+          "content": "before"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "unless",
-          "value": "D"
+          "content": "unless"
         }
       ],
       "correct_answer": "A",
@@ -153,23 +161,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "restored",
-          "value": "A"
+          "content": "restored"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "weakened",
-          "value": "B"
+          "content": "weakened"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "established",
-          "value": "C"
+          "content": "established"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "eliminated",
-          "value": "D"
+          "content": "eliminated"
         }
       ],
       "correct_answer": "B",
@@ -188,23 +200,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "challenged",
-          "value": "A"
+          "content": "challenged"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "compromised",
-          "value": "B"
+          "content": "compromised"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "suspected",
-          "value": "C"
+          "content": "suspected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "accepted",
-          "value": "D"
+          "content": "accepted"
         }
       ],
       "correct_answer": "D",
@@ -223,23 +239,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "advanced",
-          "value": "A"
+          "content": "advanced"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "caught",
-          "value": "B"
+          "content": "caught"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "bound",
-          "value": "C"
+          "content": "bound"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "founded",
-          "value": "D"
+          "content": "founded"
         }
       ],
       "correct_answer": "C",
@@ -258,23 +278,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "resistant (to)",
-          "value": "A"
+          "content": "resistant (to)"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "subject (to)",
-          "value": "B"
+          "content": "subject (to)"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "immune (to)",
-          "value": "C"
+          "content": "immune (to)"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "prone (to)",
-          "value": "D"
+          "content": "prone (to)"
         }
       ],
       "correct_answer": "B",
@@ -293,23 +317,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "resorts (to)",
-          "value": "A"
+          "content": "resorts (to)"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "sticks (to)",
-          "value": "B"
+          "content": "sticks (to)"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "leads (to)",
-          "value": "C"
+          "content": "leads (to)"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "applies (to)",
-          "value": "D"
+          "content": "applies (to)"
         }
       ],
       "correct_answer": "D",
@@ -328,23 +356,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "evade",
-          "value": "A"
+          "content": "evade"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "raise",
-          "value": "B"
+          "content": "raise"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "deny",
-          "value": "C"
+          "content": "deny"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "settle",
-          "value": "D"
+          "content": "settle"
         }
       ],
       "correct_answer": "B",
@@ -363,23 +395,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "line",
-          "value": "A"
+          "content": "line"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "barrier",
-          "value": "B"
+          "content": "barrier"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "similarity",
-          "value": "C"
+          "content": "similarity"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "conflict",
-          "value": "D"
+          "content": "conflict"
         }
       ],
       "correct_answer": "A",
@@ -398,23 +434,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "by",
-          "value": "A"
+          "content": "by"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "as",
-          "value": "B"
+          "content": "as"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "through",
-          "value": "C"
+          "content": "through"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "towards",
-          "value": "D"
+          "content": "towards"
         }
       ],
       "correct_answer": "B",
@@ -433,23 +473,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "so",
-          "value": "A"
+          "content": "so"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "since",
-          "value": "B"
+          "content": "since"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "provided",
-          "value": "C"
+          "content": "provided"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "though",
-          "value": "D"
+          "content": "though"
         }
       ],
       "correct_answer": "A",
@@ -468,23 +512,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "serve",
-          "value": "A"
+          "content": "serve"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "satisfy",
-          "value": "B"
+          "content": "satisfy"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "upset",
-          "value": "C"
+          "content": "upset"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "replace",
-          "value": "D"
+          "content": "replace"
         }
       ],
       "correct_answer": "C",
@@ -503,23 +551,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "confirm",
-          "value": "A"
+          "content": "confirm"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "express",
-          "value": "B"
+          "content": "express"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "cultivate",
-          "value": "C"
+          "content": "cultivate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "offer",
-          "value": "D"
+          "content": "offer"
         }
       ],
       "correct_answer": "C",
@@ -538,23 +590,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "guarded",
-          "value": "A"
+          "content": "guarded"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "followed",
-          "value": "B"
+          "content": "followed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "studied",
-          "value": "C"
+          "content": "studied"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tied",
-          "value": "D"
+          "content": "tied"
         }
       ],
       "correct_answer": "D",
@@ -573,23 +629,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "concepts",
-          "value": "A"
+          "content": "concepts"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "theories",
-          "value": "B"
+          "content": "theories"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "divisions",
-          "value": "C"
+          "content": "divisions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "conventions",
-          "value": "D"
+          "content": "conventions"
         }
       ],
       "correct_answer": "A",
@@ -608,23 +668,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "excludes",
-          "value": "A"
+          "content": "excludes"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "questions",
-          "value": "B"
+          "content": "questions"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "shapes",
-          "value": "C"
+          "content": "shapes"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "controls",
-          "value": "D"
+          "content": "controls"
         }
       ],
       "correct_answer": "C",
@@ -643,23 +707,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "dismissed",
-          "value": "A"
+          "content": "dismissed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "released",
-          "value": "B"
+          "content": "released"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ranked",
-          "value": "C"
+          "content": "ranked"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "distorted",
-          "value": "D"
+          "content": "distorted"
         }
       ],
       "correct_answer": "A",
@@ -678,23 +746,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "suppress",
-          "value": "A"
+          "content": "suppress"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "exploit",
-          "value": "B"
+          "content": "exploit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "address",
-          "value": "C"
+          "content": "address"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ignore",
-          "value": "D"
+          "content": "ignore"
         }
       ],
       "correct_answer": "C",
@@ -713,23 +785,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "accessible",
-          "value": "A"
+          "content": "accessible"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "amiable",
-          "value": "B"
+          "content": "amiable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "agreeable",
-          "value": "C"
+          "content": "agreeable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "accountable",
-          "value": "D"
+          "content": "accountable"
         }
       ],
       "correct_answer": "D",
@@ -748,23 +824,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "by all means",
-          "value": "A"
+          "content": "by all means"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "at all costs",
-          "value": "B"
+          "content": "at all costs"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "in a word",
-          "value": "C"
+          "content": "in a word"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "as a result",
-          "value": "D"
+          "content": "as a result"
         }
       ],
       "correct_answer": "D",
@@ -783,23 +863,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a supplement to the social cure",
-          "value": "A"
+          "content": "a supplement to the social cure"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "a stimulus to group dynamics",
-          "value": "B"
+          "content": "a stimulus to group dynamics"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "an obstacle to social progress",
-          "value": "C"
+          "content": "an obstacle to social progress"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a cause of undesirable behaviors",
-          "value": "D"
+          "content": "a cause of undesirable behaviors"
         }
       ],
       "correct_answer": "D",
@@ -818,23 +902,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "recruit professional advertisers",
-          "value": "A"
+          "content": "recruit professional advertisers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "learn from advertisers' experience",
-          "value": "B"
+          "content": "learn from advertisers' experience"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "stay away from commercial advertisers",
-          "value": "C"
+          "content": "stay away from commercial advertisers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "recognize the limitations of advertisements",
-          "value": "D"
+          "content": "recognize the limitations of advertisements"
         }
       ],
       "correct_answer": "B",
@@ -853,23 +941,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "adequately probe social and biological factors",
-          "value": "A"
+          "content": "adequately probe social and biological factors"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "effectively evade the flaws of the social cure",
-          "value": "B"
+          "content": "effectively evade the flaws of the social cure"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "illustrate the functions of state funding",
-          "value": "C"
+          "content": "illustrate the functions of state funding"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "produce a long-lasting social effect",
-          "value": "D"
+          "content": "produce a long-lasting social effect"
         }
       ],
       "correct_answer": "A",
@@ -888,23 +980,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is harmful to our networks of friends",
-          "value": "A"
+          "content": "is harmful to our networks of friends"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "will mislead behavioral studies",
-          "value": "B"
+          "content": "will mislead behavioral studies"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "occurs without our realizing it",
-          "value": "C"
+          "content": "occurs without our realizing it"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "can produce negative health habits",
-          "value": "D"
+          "content": "can produce negative health habits"
         }
       ],
       "correct_answer": "C",
@@ -923,23 +1019,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "harmful",
-          "value": "A"
+          "content": "harmful"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "desirable",
-          "value": "B"
+          "content": "desirable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "profound",
-          "value": "C"
+          "content": "profound"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "questionable",
-          "value": "D"
+          "content": "questionable"
         }
       ],
       "correct_answer": "D",
@@ -958,23 +1058,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "condemning",
-          "value": "A"
+          "content": "condemning"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "reaffirming",
-          "value": "B"
+          "content": "reaffirming"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "dishonoring",
-          "value": "C"
+          "content": "dishonoring"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "securing",
-          "value": "D"
+          "content": "securing"
         }
       ],
       "correct_answer": "C",
@@ -993,23 +1097,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "obtain protection from Vermont regulators",
-          "value": "A"
+          "content": "obtain protection from Vermont regulators"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "seek favor from the federal legislature",
-          "value": "B"
+          "content": "seek favor from the federal legislature"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "acquire an extension of its business license",
-          "value": "C"
+          "content": "acquire an extension of its business license"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "get permission to purchase a power plant",
-          "value": "D"
+          "content": "get permission to purchase a power plant"
         }
       ],
       "correct_answer": "D",
@@ -1028,23 +1136,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "managerial practices",
-          "value": "A"
+          "content": "managerial practices"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "technical innovativeness",
-          "value": "B"
+          "content": "technical innovativeness"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "financial goals",
-          "value": "C"
+          "content": "financial goals"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "business vision",
-          "value": "D"
+          "content": "business vision"
         }
       ],
       "correct_answer": "A",
@@ -1063,23 +1175,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Entergy's capacity to fulfill all its promises",
-          "value": "A"
+          "content": "Entergy's capacity to fulfill all its promises"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the nature of states' patchwork regulations",
-          "value": "B"
+          "content": "the nature of states' patchwork regulations"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the federal authority over nuclear issues",
-          "value": "C"
+          "content": "the federal authority over nuclear issues"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the limits of states' power over nuclear issues",
-          "value": "D"
+          "content": "the limits of states' power over nuclear issues"
         }
       ],
       "correct_answer": "D",
@@ -1098,23 +1214,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Entergy's business elsewhere might be affected",
-          "value": "A"
+          "content": "Entergy's business elsewhere might be affected"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the authority of the NRC will be defied",
-          "value": "B"
+          "content": "the authority of the NRC will be defied"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Entergy will withdraw its Plymouth application",
-          "value": "C"
+          "content": "Entergy will withdraw its Plymouth application"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Vermont's reputation might be damaged",
-          "value": "D"
+          "content": "Vermont's reputation might be damaged"
         }
       ],
       "correct_answer": "A",
@@ -1133,23 +1253,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "uncertainty and complexity",
-          "value": "A"
+          "content": "uncertainty and complexity"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "misconception and deceptiveness",
-          "value": "B"
+          "content": "misconception and deceptiveness"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "logicality and objectivity",
-          "value": "C"
+          "content": "logicality and objectivity"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "systematicness and regularity",
-          "value": "D"
+          "content": "systematicness and regularity"
         }
       ],
       "correct_answer": "A",
@@ -1168,23 +1292,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "strict inspection",
-          "value": "A"
+          "content": "strict inspection"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "shared efforts",
-          "value": "B"
+          "content": "shared efforts"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "individual wisdom",
-          "value": "C"
+          "content": "individual wisdom"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "persistent innovation",
-          "value": "D"
+          "content": "persistent innovation"
         }
       ],
       "correct_answer": "B",
@@ -1203,23 +1331,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has attracted the attention of the general public",
-          "value": "A"
+          "content": "has attracted the attention of the general public"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "has been examined by the scientific community",
-          "value": "B"
+          "content": "has been examined by the scientific community"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "has received recognition from editors and reviewers",
-          "value": "C"
+          "content": "has received recognition from editors and reviewers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has been frequently quoted by peer scientists",
-          "value": "D"
+          "content": "has been frequently quoted by peer scientists"
         }
       ],
       "correct_answer": "B",
@@ -1238,23 +1370,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "scientific claims will survive challenges",
-          "value": "A"
+          "content": "scientific claims will survive challenges"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "discoveries today inspire future research",
-          "value": "B"
+          "content": "discoveries today inspire future research"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "efforts to make discoveries are justified",
-          "value": "C"
+          "content": "efforts to make discoveries are justified"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "scientific work calls for a critical mind",
-          "value": "D"
+          "content": "scientific work calls for a critical mind"
         }
       ],
       "correct_answer": "D",
@@ -1273,23 +1409,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Novelty as an Engine of Scientific Development.",
-          "value": "A"
+          "content": "Novelty as an Engine of Scientific Development."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Collective Scrutiny in Scientific Discovery.",
-          "value": "B"
+          "content": "Collective Scrutiny in Scientific Discovery."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Evolution of Credibility in Doing Science.",
-          "value": "C"
+          "content": "Evolution of Credibility in Doing Science."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Challenge to Credibility at the Gate to Science.",
-          "value": "D"
+          "content": "Challenge to Credibility at the Gate to Science."
         }
       ],
       "correct_answer": "C",
@@ -1308,23 +1448,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Teamsters still have a large body of members",
-          "value": "A"
+          "content": "Teamsters still have a large body of members"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Jimmy Hoffa used to work as a civil servant",
-          "value": "B"
+          "content": "Jimmy Hoffa used to work as a civil servant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unions have enlarged their public-sector membership",
-          "value": "C"
+          "content": "unions have enlarged their public-sector membership"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the government has improved its relationship with unionists",
-          "value": "D"
+          "content": "the government has improved its relationship with unionists"
         }
       ],
       "correct_answer": "C",
@@ -1343,23 +1487,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Public-sector unions are prudent in taking actions.",
-          "value": "A"
+          "content": "Public-sector unions are prudent in taking actions."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Education is required for public-sector union membership.",
-          "value": "B"
+          "content": "Education is required for public-sector union membership."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Labor Party has long been fighting against public-sector unions.",
-          "value": "C"
+          "content": "Labor Party has long been fighting against public-sector unions."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Public-sector unions seldom get in trouble for their actions.",
-          "value": "D"
+          "content": "Public-sector unions seldom get in trouble for their actions."
         }
       ],
       "correct_answer": "D",
@@ -1378,23 +1526,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "illegally secured",
-          "value": "A"
+          "content": "illegally secured"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "indirectly augmented",
-          "value": "B"
+          "content": "indirectly augmented"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "excessively increased",
-          "value": "C"
+          "content": "excessively increased"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "fairly adjusted",
-          "value": "D"
+          "content": "fairly adjusted"
         }
       ],
       "correct_answer": "B",
@@ -1413,23 +1565,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "often run against the current political system",
-          "value": "A"
+          "content": "often run against the current political system"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "can change people's political attitudes",
-          "value": "B"
+          "content": "can change people's political attitudes"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "may be a barrier to public-sector reforms",
-          "value": "C"
+          "content": "may be a barrier to public-sector reforms"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are dominant in the government",
-          "value": "D"
+          "content": "are dominant in the government"
         }
       ],
       "correct_answer": "C",
@@ -1448,23 +1604,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disapproval",
-          "value": "A"
+          "content": "disapproval"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "appreciation",
-          "value": "B"
+          "content": "appreciation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tolerance",
-          "value": "C"
+          "content": "tolerance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "indifference",
-          "value": "D"
+          "content": "indifference"
         }
       ],
       "correct_answer": "A",
@@ -1483,38 +1643,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
-          "value": "A"
+          "content": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
-          "value": "B"
+          "content": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day.",
-          "value": "C"
+          "content": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine.",
-          "value": "D"
+          "content": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players.",
-          "value": "E"
+          "content": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading.",
-          "value": "F"
+          "content": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.",
-          "value": "G"
+          "content": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
         }
       ],
       "correct_answer": "C",
@@ -1533,38 +1700,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
-          "value": "A"
+          "content": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
-          "value": "B"
+          "content": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day.",
-          "value": "C"
+          "content": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine.",
-          "value": "D"
+          "content": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players.",
-          "value": "E"
+          "content": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading.",
-          "value": "F"
+          "content": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.",
-          "value": "G"
+          "content": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
         }
       ],
       "correct_answer": "D",
@@ -1583,38 +1757,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
-          "value": "A"
+          "content": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
-          "value": "B"
+          "content": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day.",
-          "value": "C"
+          "content": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine.",
-          "value": "D"
+          "content": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players.",
-          "value": "E"
+          "content": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading.",
-          "value": "F"
+          "content": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.",
-          "value": "G"
+          "content": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
         }
       ],
       "correct_answer": "A",
@@ -1633,38 +1814,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
-          "value": "A"
+          "content": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
-          "value": "B"
+          "content": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day.",
-          "value": "C"
+          "content": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine.",
-          "value": "D"
+          "content": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players.",
-          "value": "E"
+          "content": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading.",
-          "value": "F"
+          "content": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.",
-          "value": "G"
+          "content": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
         }
       ],
       "correct_answer": "F",
@@ -1683,38 +1871,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity.",
-          "value": "A"
+          "content": "Of course, it is precisely these superfluous things that define human culture and ultimately what it is to be human. Downloading and consuming culture requires great skills, but failing to move beyond downloading is to strip oneself of a defining constituent of humanity."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others.",
-          "value": "B"
+          "content": "Applications like tumblr. com, which allow users to combine pictures, words and other media in creative ways and then share them, have the potential to add stickiness by amusing, entertaining and enlightening others."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day.",
-          "value": "C"
+          "content": "Not only did they develop such a device but by the turn of the millennium they had also managed to embed it in a worldwide system accessed by billions of people every day."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine.",
-          "value": "D"
+          "content": "This is because the networked computer has sparked a secret war between downloading and uploading — between passive consumption and active creation — whose outcome will shape our collective future in ways we can only begin to imagine."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players.",
-          "value": "E"
+          "content": "The challenge the computer mounts to television thus bears little similarity to one format being replaced by another in the manner of record players being replaced by CD players."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading.",
-          "value": "F"
+          "content": "One reason for the persistence of this pyramid of production is that for the past half-century, much of the world's media culture has been defined by a single medium — television — and television is defined by downloading."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading.",
-          "value": "G"
+          "content": "The networked computer offers the first chance in 50 years to reverse that flow, to encourage thoughtful downloading and, even more importantly, meaningful uploading."
         }
       ],
       "correct_answer": "G",

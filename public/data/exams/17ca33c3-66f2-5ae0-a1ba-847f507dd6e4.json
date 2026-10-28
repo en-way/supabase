@@ -32,7 +32,9 @@
       "title": "Section I: Use of English",
       "content": "In our contemporary culture, the prospect of communicating with — or even looking at — a stranger is virtually unbearable. Everyone around us seems to agree by the way they cling to their phones, even without a [1] on a subway.\n\nIt's a sad reality — our desire to avoid interacting with other human beings — because there's [2] to be gained from talking to the stranger standing by you. But you wouldn't know it, [3] into your phone. This universal protection sends the [4] \"Please don't approach me.\"\n\nWhat is it that makes us feel we need to hide [5] our screens? One answer is fear, according to Jon Wortmann, executive mental coach. We fear rejection, or that our innocent social advances will be [6] as \"creep.\" We fear we'll be [7]. We fear we'll be disruptive. Strangers are inherently [8] to us, so we are more likely to feel [9] when communicating with them compared with our friends and acquaintances. To avoid this anxiety, we [10] to our phones. \"Phones become our security blanket,\" Wortmann says. \"They are our happy glasses that protect us from what we perceive is going to be more [11].\"\n\nBut once we rip off the bandaid, tuck our smartphones in our pockets and look up, it doesn't [12] so bad. In one 2011 experiment, behavioral scientists Nicholas Epley and Juliana Schroeder asked commuters to do the unthinkable: Start a [13]. They had Chicago train commuters talk to their fellow [14]. \"When Dr. Epley and Ms. Schroeder asked other people in the same train station to [15] how they would feel after talking to a stranger, the commuters thought their [16] would be more pleasant if they sat on their own,\" the New York Times summarizes. Though the participants didn't expect a positive experience, after they [17] with the experiment, \"not a single person reported having been snubbed.\" [18], these commutes were reportedly more enjoyable compared with those without communication, which makes absolute sense, [19] human beings thrive off of social connections. It's that [20]: Talking to strangers can make you feel connected.",
       "sort_order": 1,
-      "sequence_number": 1
+      "sequence_number": 1,
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "94033907-5cbc-5424-8256-4c5ea088d37d",
@@ -42,7 +44,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "A new study suggests that contrary to most surveys, people are actually more stressed at home than at work. Researchers measured people's cortisol, which is a stress marker, while they were at work and while they were at home and found it higher at what is supposed to be a place of refuge.\n\nFurther contradicting conventional wisdom, we found that women as well as men have lower levels of stress at work than at home, writes one of the researchers, Sarah Damaske. In fact women even say they feel better at work, she notes. It is men, not women, who report being happier at home than at work. Another surprise is that the findings hold true for both those with children and without, but more so for nonparents. This is why people who work outside the home have higher happiness levels and lower stress levels than those who do not work outside the home.\n\nWhat explains this difference? For working women, it's not because, as some people believe, the roles of women and men have changed. Working women still experience the blurring of their roles as breadwinners and housewives. But Damaske suggests that work provides a sense of accomplishment and a social support network that home doesn't.\n\nBut it's not just a gender thing. At work, people pretty much know what they're supposed to be doing: working, making money, doing the tasks they have to do in order to draw an income. The bargain is very pure: Employee puts in hours of physical or mental labor and employee draws out life-sustaining moola.\n\nOn the home front, however, people have no such clarity. Rare is the household in which the division of labor is so clinically and methodically laid out. There are a lot of tasks to be done, there are inadequate rewards for most of them. Your home colleagues - your family - have no clear rewards for their labor; they need to be talked into it, or if they're teenagers, threatened with complete removal of all electronic devices. Plus, they're your family. You cannot fire your family. You never really get to go home from home.\n\nSo it's not surprising that people are more stressed at home. Not only are the tasks apparently infinite, the co-workers are much harder to motivate.",
       "sort_order": 2,
-      "sequence_number": 2
+      "sequence_number": 2,
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "2eeb3ee0-8d75-595a-b373-7f6dcdeb5b11",
@@ -52,7 +56,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "For years, studies have found that first-generation college students - those who do not have a parent with a college degree - lag other students on a range of education achievement factors. Their grades are lower and their dropout rates are higher. But since such students are most likely to advance economically if they succeed in higher education, colleges and universities have pushed for decades to recruit more of them. This has created \"a paradox\" in that recruiting first-generation students, but then watching many of them fail, means that higher education has \"continued to reproduce and widen, rather than close\" an achievement gap based on social class, according to the depressing beginning of a paper forthcoming in the journal Psychological Science.\n\nBut the article is actually quite optimistic, as it outlines a potential solution to this problem, suggesting that an approach (which involves a one-hour, next-to-no-cost program) can close 63 percent of the achievement gap (measured by such factors as grades) between first-generation and other students.\n\nThe authors of the paper are from different universities, and their findings are based on a study involving 147 students (who completed the project) at an unnamed private university. First generation was defined as not having a parent with a four-year college degree. Most of the first-generation students (59.1 percent) were recipients of Pell Grants, a federal grant for undergraduates with financial need, while this was true only for 8.6 percent of the students with at least one parent with a four-year degree.\n\nTheir thesis - that a relatively modest intervention could have a big impact - was based on the view that first-generation students may be most lacking not in potential but in practical knowledge about how to deal with the issues that face most college students. They cite past research by several authors to show that this is the gap that must be narrowed to close the achievement gap.\n\nMany first-generation students \"struggle to navigate the middle-class culture of higher education, learn the 'rules of the game,' and take advantage of college resources,\" they write. And this becomes more of a problem when colleges don't talk about the class advantages and disadvantages of different groups of students. \"Because US colleges and universities seldom acknowledge how social class can affect students' educational experiences, many first-generation students lack insight about why they are struggling and do not understand how students 'like them' can improve.\"",
       "sort_order": 3,
-      "sequence_number": 3
+      "sequence_number": 3,
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "34e06357-fd62-5f4d-a715-b0145eb48132",
@@ -62,7 +68,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "Even in traditional offices, the lingua franca of corporate America has gotten much more emotional and much more right-brained than it was 20 years ago, says Harvard Business School historian Nancy Koehn. She started spinning off examples. \"If you and I parachuted back to Fortune 500 companies in 1990, we would see much less frequent use of terms like journey, mission, passion. There were goals, there were strategies, there were objectives, but we didn't talk about energy; we didn't talk about passion.\"\n\nKoehn pointed out that this new era of corporate vocabulary is very \"team\"-oriented - and that is not by coincidence. \"Let's not forget sports - in male-dominated corporate America, it's still a big deal. It's not explicitly conscious; it's the idea that I'm a coach, and you're my team, and we're in this together. There are lots and lots of CEOs in very different companies, but most think of themselves as coaches and this is their team and they want to win.\"\n\nThese terms are also intended to infuse work with meaning - and, as Rakesh Khurana, another professor, points out, increase allegiance to the firm. \"You have the importation of terminology that historically used to be associated with non-profit organizations and religious organizations: terms like vision, values, passion, and purpose,\" said Khurana.\n\nThis new focus on personal fulfillment can help keep employees motivated amid increasingly loud debates over work-life balance. The \"mommy wars\" of the 1990s are still going on today, prompting arguments about why women still can't have it all and books like Sheryl Sandberg's Lean In, whose title has become a buzzword in its own right. Terms like unplug, offline, life-hack, bandwidth, and capacity are all about setting boundaries between the office and the home. But if your work is your \"passion,\" you'll be more likely to devote yourself to it, even if that means going home for dinner and then working long after the kids are in bed.\n\nBut this seems to be the irony of office speak: Everyone makes fun of it, but managers love it, companies depend on it, and regular people willingly absorb it. As a linguist once said, \"You can get people to think it's nonsense at the same time that you buy into it.\" In a workplace that's fundamentally indifferent to your life and its meaning, office speak can help you figure out how you relate to your work - and how your work defines who you are.",
       "sort_order": 4,
-      "sequence_number": 4
+      "sequence_number": 4,
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "7e558466-7a01-5cc8-9f0d-41cd9bff9bbe",
@@ -72,7 +80,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "Many people talked of the 288,000 new jobs the Labor Department reported for June, along with the drop in the unemployment rate to 6.1 percent, as good news. And they were right. For now it appears the economy is creating jobs at a decent pace. We still have a long way to go to get back to full employment, but at least we are now finally moving forward at a faster pace.\n\nHowever, there is another important part of the jobs picture that was largely overlooked. There was a big jump in the number of people who report voluntarily working part-time. This figure is now 830,000 (4.4 percent) above its year ago level.\n\nBefore explaining the connection to the Obamacare, it is worth making an important distinction. Many people who work part-time jobs actually want full-time jobs. They take part-time work because this is all they can get. An increase in involuntary part-time work is evidence of weakness in the labor market and it means that many people will be having a very hard time making ends meet. There was an increase in involuntary part-time in June, but the general direction has been down. Involuntary part-time employment is still far higher than before the recession, but it is down by 640,000 (7.9 percent) from its year ago level.\n\nWe know the difference between voluntary and involuntary part-time employment because people tell us. The survey used by the Labor Department asks people if they worked less than 35 hours in the past week. The survey then asks whether they worked less than 35 hours in that week because they wanted to work less than full time or because they had no choice. They are only classified as voluntary part-time workers if they tell the survey taker they chose to work less than 35 hours a week.\n\nThe issue of voluntary part-time relates to Obamacare because one of the main purposes was to allow people to get insurance outside of employment. For many people, especially those with serious health conditions or family members with serious health conditions, before Obamacare the only way to get insurance was through a job that provided health insurance.\n\nHowever, Obamacare has allowed more than 12 million people to either get insurance through Medicaid or the exchanges. These are people who may previously have felt the need to get a full-time job that provided insurance in order to cover themselves and their families. With Obamacare there is no longer a link between employment and insurance.",
       "sort_order": 5,
-      "sequence_number": 5
+      "sequence_number": 5,
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "fe66aabb-9bda-5d60-90f3-5aca6f5d1912",
@@ -82,7 +92,9 @@
       "title": "Section II: Reading Comprehension Part B",
       "content": "Some Old Truths to Help You Overcome Tough Times\n\nUnfortunately, life is not a bed of roses. We are going through life facing sad experiences. Moreover, we are grieving various kinds of loss: a friendship, a romantic relationship or a house. Hard times may hold you down at what usually seems like the most inopportune time, but you should remember that they won't last forever.\n\nWhen our time of mourning is over, we press forward, stronger with a greater understanding and respect for life. Furthermore, these losses make us mature and eventually move us toward future opportunities for growth and happiness. I want to share these old truths I've learned along the way.\n\n[41] ____________________\nFear is both useful and harmful. This normal human reaction is used to protect us by signaling danger and preparing us to deal with it. Unfortunately, people create inner barriers with a help of exaggerating fears. My favorite actor Will Smith once said, \"Fear is not real. It is a product of thoughts you create. Do not misunderstand me. Danger is very real. But fear is a choice.\" I do completely agree that fears are just the product of our luxuriant imagination.\n\n[42] ____________________\nIf you are surrounded by problems and cannot stop thinking about the past, try to focus on the present moment. Many of us are weighed down by the past or anxious about the future. You may feel guilt over your past, but you are poisoning the present with the things and circumstances you cannot change. Value the present moment and remember how fortunate you are to be alive. Enjoy the beauty of the world around and keep the eyes open to see the possibilities before you. Happiness is not a point of future and not a moment from the past, but a mindset that can be designed into the present.\n\n[43] ____________________\nSometimes it is easy to feel bad because you are going through tough times. You can be easily caught up by life problems that you forget to pause and appreciate the things you have. Only strong people prefer to smile and value their life instead of crying and complaining about something.\n\n[44] ____________________\nNo matter how isolated you might feel and how serious the situation is, you should always remember that you are not alone. Try to keep in mind that almost everyone respects and wants to help you if you are trying to make a good change in your life, especially your dearest and nearest people. You may have a circle of friends who provide constant good humor, help and companionship. If you have no friends or relatives, try to participate in several online communities, full of people who are always willing to share advice and encouragement.\n\n[45] ____________________\nToday many people find it difficult to trust their own opinion and seek balance by gaining objectivity from external sources. This way you devalue your opinion and show that you are incapable of managing your own life. When you are struggling to achieve something important you should believe in yourself and be sure that your decision is the best. You live in your skin, think your own thoughts, have your own values and make your own choices.",
       "sort_order": 6,
-      "sequence_number": 6
+      "sequence_number": 6,
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -96,23 +108,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "signal",
-          "value": "A"
+          "content": "signal"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "permit",
-          "value": "B"
+          "content": "permit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ticket",
-          "value": "C"
+          "content": "ticket"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "record",
-          "value": "D"
+          "content": "record"
         }
       ],
       "correct_answer": "A",
@@ -134,23 +150,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "nothing",
-          "value": "A"
+          "content": "nothing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "little",
-          "value": "B"
+          "content": "little"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "another",
-          "value": "C"
+          "content": "another"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "much",
-          "value": "D"
+          "content": "much"
         }
       ],
       "correct_answer": "D",
@@ -172,23 +192,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "beaten",
-          "value": "A"
+          "content": "beaten"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "plugged",
-          "value": "B"
+          "content": "plugged"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "guided",
-          "value": "C"
+          "content": "guided"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "brought",
-          "value": "D"
+          "content": "brought"
         }
       ],
       "correct_answer": "B",
@@ -210,23 +234,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "message",
-          "value": "A"
+          "content": "message"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "code",
-          "value": "B"
+          "content": "code"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "notice",
-          "value": "C"
+          "content": "notice"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "sign",
-          "value": "D"
+          "content": "sign"
         }
       ],
       "correct_answer": "A",
@@ -248,23 +276,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "under",
-          "value": "A"
+          "content": "under"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "beyond",
-          "value": "B"
+          "content": "beyond"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "behind",
-          "value": "C"
+          "content": "behind"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "from",
-          "value": "D"
+          "content": "from"
         }
       ],
       "correct_answer": "C",
@@ -286,23 +318,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "misapplied",
-          "value": "A"
+          "content": "misapplied"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "misinterpreted",
-          "value": "B"
+          "content": "misinterpreted"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "misadjusted",
-          "value": "C"
+          "content": "misadjusted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "mismatched",
-          "value": "D"
+          "content": "mismatched"
         }
       ],
       "correct_answer": "B",
@@ -324,23 +360,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "judged",
-          "value": "A"
+          "content": "judged"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "fired",
-          "value": "B"
+          "content": "fired"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "replaced",
-          "value": "C"
+          "content": "replaced"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "delayed",
-          "value": "D"
+          "content": "delayed"
         }
       ],
       "correct_answer": "A",
@@ -362,23 +402,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unreasonable",
-          "value": "A"
+          "content": "unreasonable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "ungrateful",
-          "value": "B"
+          "content": "ungrateful"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unconventional",
-          "value": "C"
+          "content": "unconventional"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "unfamiliar",
-          "value": "D"
+          "content": "unfamiliar"
         }
       ],
       "correct_answer": "D",
@@ -400,23 +444,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "comfortable",
-          "value": "A"
+          "content": "comfortable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "confident",
-          "value": "B"
+          "content": "confident"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "anxious",
-          "value": "C"
+          "content": "anxious"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "angry",
-          "value": "D"
+          "content": "angry"
         }
       ],
       "correct_answer": "C",
@@ -438,23 +486,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "attend",
-          "value": "A"
+          "content": "attend"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "turn",
-          "value": "B"
+          "content": "turn"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "take",
-          "value": "C"
+          "content": "take"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "point",
-          "value": "D"
+          "content": "point"
         }
       ],
       "correct_answer": "B",
@@ -476,23 +528,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "dangerous",
-          "value": "A"
+          "content": "dangerous"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "mysterious",
-          "value": "B"
+          "content": "mysterious"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "violent",
-          "value": "C"
+          "content": "violent"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "boring",
-          "value": "D"
+          "content": "boring"
         }
       ],
       "correct_answer": "A",
@@ -514,23 +570,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "bend",
-          "value": "A"
+          "content": "bend"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "resist",
-          "value": "B"
+          "content": "resist"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "hurt",
-          "value": "C"
+          "content": "hurt"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "decay",
-          "value": "D"
+          "content": "decay"
         }
       ],
       "correct_answer": "C",
@@ -552,23 +612,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "lecture",
-          "value": "A"
+          "content": "lecture"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "debate",
-          "value": "B"
+          "content": "debate"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "conversation",
-          "value": "C"
+          "content": "conversation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "negotiation",
-          "value": "D"
+          "content": "negotiation"
         }
       ],
       "correct_answer": "C",
@@ -590,23 +654,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "trainees",
-          "value": "A"
+          "content": "trainees"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "employees",
-          "value": "B"
+          "content": "employees"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "researchers",
-          "value": "C"
+          "content": "researchers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "passengers",
-          "value": "D"
+          "content": "passengers"
         }
       ],
       "correct_answer": "D",
@@ -628,23 +696,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reveal",
-          "value": "A"
+          "content": "reveal"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "choose",
-          "value": "B"
+          "content": "choose"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "predict",
-          "value": "C"
+          "content": "predict"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "design",
-          "value": "D"
+          "content": "design"
         }
       ],
       "correct_answer": "C",
@@ -666,23 +738,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "voyage",
-          "value": "A"
+          "content": "voyage"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "flight",
-          "value": "B"
+          "content": "flight"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "walk",
-          "value": "C"
+          "content": "walk"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ride",
-          "value": "D"
+          "content": "ride"
         }
       ],
       "correct_answer": "D",
@@ -704,23 +780,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "went through",
-          "value": "A"
+          "content": "went through"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "did away",
-          "value": "B"
+          "content": "did away"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "caught up",
-          "value": "C"
+          "content": "caught up"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "put up",
-          "value": "D"
+          "content": "put up"
         }
       ],
       "correct_answer": "A",
@@ -742,23 +822,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "In turn",
-          "value": "A"
+          "content": "In turn"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "In fact",
-          "value": "B"
+          "content": "In fact"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "In particular",
-          "value": "C"
+          "content": "In particular"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In consequence",
-          "value": "D"
+          "content": "In consequence"
         }
       ],
       "correct_answer": "B",
@@ -780,23 +864,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unless",
-          "value": "A"
+          "content": "unless"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "whereas",
-          "value": "B"
+          "content": "whereas"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "if",
-          "value": "C"
+          "content": "if"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "since",
-          "value": "D"
+          "content": "since"
         }
       ],
       "correct_answer": "D",
@@ -818,23 +906,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "funny",
-          "value": "A"
+          "content": "funny"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "simple",
-          "value": "B"
+          "content": "simple"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "logical",
-          "value": "C"
+          "content": "logical"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rare",
-          "value": "D"
+          "content": "rare"
         }
       ],
       "correct_answer": "B",
@@ -856,23 +948,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "offered greater relaxation than the workplace",
-          "value": "A"
+          "content": "offered greater relaxation than the workplace"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "was an ideal place for stress measurement",
-          "value": "B"
+          "content": "was an ideal place for stress measurement"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "generated more stress than the workplace",
-          "value": "C"
+          "content": "generated more stress than the workplace"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "was an unrealistic place for relaxation",
-          "value": "D"
+          "content": "was an unrealistic place for relaxation"
         }
       ],
       "correct_answer": "A",
@@ -894,23 +990,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Working mothers.",
-          "value": "A"
+          "content": "Working mothers."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Childless husbands.",
-          "value": "B"
+          "content": "Childless husbands."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Working fathers.",
-          "value": "C"
+          "content": "Working fathers."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Childless wives.",
-          "value": "D"
+          "content": "Childless wives."
         }
       ],
       "correct_answer": "B",
@@ -932,23 +1032,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "they are both breadwinners and housewives",
-          "value": "A"
+          "content": "they are both breadwinners and housewives"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "their home is also a place for kicking back",
-          "value": "B"
+          "content": "their home is also a place for kicking back"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "there is often much housework left behind",
-          "value": "C"
+          "content": "there is often much housework left behind"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "it is difficult for them to leave their office",
-          "value": "D"
+          "content": "it is difficult for them to leave their office"
         }
       ],
       "correct_answer": "A",
@@ -970,23 +1074,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "skills",
-          "value": "A"
+          "content": "skills"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "energy",
-          "value": "B"
+          "content": "energy"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "earnings",
-          "value": "C"
+          "content": "earnings"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "nutrition",
-          "value": "D"
+          "content": "nutrition"
         }
       ],
       "correct_answer": "C",
@@ -1008,23 +1116,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "family labor is often adequately rewarded",
-          "value": "A"
+          "content": "family labor is often adequately rewarded"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "home is hardly a cozier working environment",
-          "value": "B"
+          "content": "home is hardly a cozier working environment"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "household tasks are generally more motivating",
-          "value": "C"
+          "content": "household tasks are generally more motivating"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "division of labor at home is seldom clear-cut",
-          "value": "D"
+          "content": "division of labor at home is seldom clear-cut"
         }
       ],
       "correct_answer": "D",
@@ -1046,23 +1158,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "reduced their dropout rates",
-          "value": "A"
+          "content": "reduced their dropout rates"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "narrowed the achievement gap",
-          "value": "B"
+          "content": "narrowed the achievement gap"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "missed its original purpose",
-          "value": "C"
+          "content": "missed its original purpose"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "depressed college students",
-          "value": "D"
+          "content": "depressed college students"
         }
       ],
       "correct_answer": "C",
@@ -1084,23 +1200,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "their findings appeal to students",
-          "value": "A"
+          "content": "their findings appeal to students"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the recruiting rate has increased",
-          "value": "B"
+          "content": "the recruiting rate has increased"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the problem is solvable",
-          "value": "C"
+          "content": "the problem is solvable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "their approach is costless",
-          "value": "D"
+          "content": "their approach is costless"
         }
       ],
       "correct_answer": "C",
@@ -1122,23 +1242,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are from single-parent families",
-          "value": "A"
+          "content": "are from single-parent families"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "study at private universities",
-          "value": "B"
+          "content": "study at private universities"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are in need of financial support",
-          "value": "C"
+          "content": "are in need of financial support"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "have failed their college",
-          "value": "D"
+          "content": "have failed their college"
         }
       ],
       "correct_answer": "C",
@@ -1160,23 +1284,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "may lack opportunities to apply for research projects",
-          "value": "A"
+          "content": "may lack opportunities to apply for research projects"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "are inexperienced in handling their issues at college",
-          "value": "B"
+          "content": "are inexperienced in handling their issues at college"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "can have a potential influence on other students",
-          "value": "C"
+          "content": "can have a potential influence on other students"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are actually indifferent to the achievement gap",
-          "value": "D"
+          "content": "are actually indifferent to the achievement gap"
         }
       ],
       "correct_answer": "B",
@@ -1198,23 +1326,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "universities often reject the culture of the middle-class",
-          "value": "A"
+          "content": "universities often reject the culture of the middle-class"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "students are usually to blame for their lack of resources",
-          "value": "B"
+          "content": "students are usually to blame for their lack of resources"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "social class greatly helps enrich educational experiences",
-          "value": "C"
+          "content": "social class greatly helps enrich educational experiences"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "colleges are partly responsible for the problem in question",
-          "value": "D"
+          "content": "colleges are partly responsible for the problem in question"
         }
       ],
       "correct_answer": "D",
@@ -1236,23 +1368,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "less strategic",
-          "value": "A"
+          "content": "less strategic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "less energetic",
-          "value": "B"
+          "content": "less energetic"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "more objective",
-          "value": "C"
+          "content": "more objective"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "more emotional",
-          "value": "D"
+          "content": "more emotional"
         }
       ],
       "correct_answer": "D",
@@ -1274,23 +1410,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sports culture",
-          "value": "A"
+          "content": "sports culture"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "gender difference",
-          "value": "B"
+          "content": "gender difference"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "historical incidents",
-          "value": "C"
+          "content": "historical incidents"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "athletic executives",
-          "value": "D"
+          "content": "athletic executives"
         }
       ],
       "correct_answer": "A",
@@ -1312,23 +1452,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "revive historical terms",
-          "value": "A"
+          "content": "revive historical terms"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "promote company image",
-          "value": "B"
+          "content": "promote company image"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "foster corporate cooperation",
-          "value": "C"
+          "content": "foster corporate cooperation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "strengthen employee loyalty",
-          "value": "D"
+          "content": "strengthen employee loyalty"
         }
       ],
       "correct_answer": "D",
@@ -1350,23 +1494,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "voices for working women",
-          "value": "A"
+          "content": "voices for working women"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "appeals to passionate workaholics",
-          "value": "B"
+          "content": "appeals to passionate workaholics"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "triggers debates among mommies",
-          "value": "C"
+          "content": "triggers debates among mommies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "praises motivated employees",
-          "value": "D"
+          "content": "praises motivated employees"
         }
       ],
       "correct_answer": "A",
@@ -1388,23 +1536,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Linguists believe it to be nonsense.",
-          "value": "A"
+          "content": "Linguists believe it to be nonsense."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Regular people mock it but accept it.",
-          "value": "B"
+          "content": "Regular people mock it but accept it."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Companies find it to be fundamental.",
-          "value": "C"
+          "content": "Companies find it to be fundamental."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Managers admire it but avoid it.",
-          "value": "D"
+          "content": "Managers admire it but avoid it."
         }
       ],
       "correct_answer": "B",
@@ -1426,23 +1578,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The prospect of a thriving job market.",
-          "value": "A"
+          "content": "The prospect of a thriving job market."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The increase of voluntary part-time jobs.",
-          "value": "B"
+          "content": "The increase of voluntary part-time jobs."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The possibility of full employment.",
-          "value": "C"
+          "content": "The possibility of full employment."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The acceleration of job creation.",
-          "value": "D"
+          "content": "The acceleration of job creation."
         }
       ],
       "correct_answer": "B",
@@ -1464,23 +1620,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prefer part-time jobs to full-time jobs",
-          "value": "A"
+          "content": "prefer part-time jobs to full-time jobs"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "feel that is enough to make ends meet",
-          "value": "B"
+          "content": "feel that is enough to make ends meet"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "cannot get their hands on full-time jobs",
-          "value": "C"
+          "content": "cannot get their hands on full-time jobs"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "want more leisure time for family",
-          "value": "D"
+          "content": "want more leisure time for family"
         }
       ],
       "correct_answer": "C",
@@ -1502,23 +1662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "shows a general tendency of decline",
-          "value": "A"
+          "content": "shows a general tendency of decline"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is harder to acquire than one year ago",
-          "value": "B"
+          "content": "is harder to acquire than one year ago"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "satisfies the real need of the jobless",
-          "value": "C"
+          "content": "satisfies the real need of the jobless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has stabilized at a historical low",
-          "value": "D"
+          "content": "has stabilized at a historical low"
         }
       ],
       "correct_answer": "A",
@@ -1540,23 +1704,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "it is no longer easy for part-timers to get insurance",
-          "value": "A"
+          "content": "it is no longer easy for part-timers to get insurance"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "full-time employment is still essential for insurance",
-          "value": "B"
+          "content": "full-time employment is still essential for insurance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "companies are forced to hire more part-time workers",
-          "value": "C"
+          "content": "companies are forced to hire more part-time workers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "employment is no longer a precondition to get insurance",
-          "value": "D"
+          "content": "employment is no longer a precondition to get insurance"
         }
       ],
       "correct_answer": "D",
@@ -1578,23 +1746,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "employment in the US",
-          "value": "A"
+          "content": "employment in the US"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "part-timer classification",
-          "value": "B"
+          "content": "part-timer classification"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the impact of Obamacare on jobs",
-          "value": "C"
+          "content": "the impact of Obamacare on jobs"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the rise of gig economy",
-          "value": "D"
+          "content": "the rise of gig economy"
         }
       ],
       "correct_answer": "A",
@@ -1616,38 +1788,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "You are not alone",
-          "value": "A"
+          "content": "You are not alone"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Experience helps you grow",
-          "value": "B"
+          "content": "Experience helps you grow"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Pave your own unique path",
-          "value": "C"
+          "content": "Pave your own unique path"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Most of your fears are unreal",
-          "value": "D"
+          "content": "Most of your fears are unreal"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Think about the present moment",
-          "value": "E"
+          "content": "Think about the present moment"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Don't fear responsibility for your life",
-          "value": "F"
+          "content": "Don't fear responsibility for your life"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "There are many things to be grateful for",
-          "value": "G"
+          "content": "There are many things to be grateful for"
         }
       ],
       "correct_answer": "D",
@@ -1669,38 +1848,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "You are not alone",
-          "value": "A"
+          "content": "You are not alone"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Experience helps you grow",
-          "value": "B"
+          "content": "Experience helps you grow"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Pave your own unique path",
-          "value": "C"
+          "content": "Pave your own unique path"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Most of your fears are unreal",
-          "value": "D"
+          "content": "Most of your fears are unreal"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Think about the present moment",
-          "value": "E"
+          "content": "Think about the present moment"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Don't fear responsibility for your life",
-          "value": "F"
+          "content": "Don't fear responsibility for your life"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "There are many things to be grateful for",
-          "value": "G"
+          "content": "There are many things to be grateful for"
         }
       ],
       "correct_answer": "E",
@@ -1722,38 +1908,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "You are not alone",
-          "value": "A"
+          "content": "You are not alone"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Experience helps you grow",
-          "value": "B"
+          "content": "Experience helps you grow"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Pave your own unique path",
-          "value": "C"
+          "content": "Pave your own unique path"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Most of your fears are unreal",
-          "value": "D"
+          "content": "Most of your fears are unreal"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Think about the present moment",
-          "value": "E"
+          "content": "Think about the present moment"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Don't fear responsibility for your life",
-          "value": "F"
+          "content": "Don't fear responsibility for your life"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "There are many things to be grateful for",
-          "value": "G"
+          "content": "There are many things to be grateful for"
         }
       ],
       "correct_answer": "G",
@@ -1775,38 +1968,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "You are not alone",
-          "value": "A"
+          "content": "You are not alone"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Experience helps you grow",
-          "value": "B"
+          "content": "Experience helps you grow"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Pave your own unique path",
-          "value": "C"
+          "content": "Pave your own unique path"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Most of your fears are unreal",
-          "value": "D"
+          "content": "Most of your fears are unreal"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Think about the present moment",
-          "value": "E"
+          "content": "Think about the present moment"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Don't fear responsibility for your life",
-          "value": "F"
+          "content": "Don't fear responsibility for your life"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "There are many things to be grateful for",
-          "value": "G"
+          "content": "There are many things to be grateful for"
         }
       ],
       "correct_answer": "A",
@@ -1828,38 +2028,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "You are not alone",
-          "value": "A"
+          "content": "You are not alone"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Experience helps you grow",
-          "value": "B"
+          "content": "Experience helps you grow"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Pave your own unique path",
-          "value": "C"
+          "content": "Pave your own unique path"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Most of your fears are unreal",
-          "value": "D"
+          "content": "Most of your fears are unreal"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Think about the present moment",
-          "value": "E"
+          "content": "Think about the present moment"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Don't fear responsibility for your life",
-          "value": "F"
+          "content": "Don't fear responsibility for your life"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "There are many things to be grateful for",
-          "value": "G"
+          "content": "There are many things to be grateful for"
         }
       ],
       "correct_answer": "C",

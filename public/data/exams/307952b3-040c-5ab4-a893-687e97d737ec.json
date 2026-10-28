@@ -102,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "denied",
-          "value": "A"
+          "content": "denied"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "concluded",
-          "value": "B"
+          "content": "concluded"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "doubted",
-          "value": "C"
+          "content": "doubted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ensured",
-          "value": "D"
+          "content": "ensured"
         }
       ],
       "correct_answer": "B",
@@ -140,23 +144,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "protective",
-          "value": "A"
+          "content": "protective"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "dangerous",
-          "value": "B"
+          "content": "dangerous"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sufficient",
-          "value": "C"
+          "content": "sufficient"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "troublesome",
-          "value": "D"
+          "content": "troublesome"
         }
       ],
       "correct_answer": "A",
@@ -178,23 +186,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Instead",
-          "value": "A"
+          "content": "Instead"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "However",
-          "value": "B"
+          "content": "However"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Likewise",
-          "value": "C"
+          "content": "Likewise"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Therefore",
-          "value": "D"
+          "content": "Therefore"
         }
       ],
       "correct_answer": "C",
@@ -216,23 +228,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "indicator",
-          "value": "A"
+          "content": "indicator"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "objective",
-          "value": "B"
+          "content": "objective"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "origin",
-          "value": "C"
+          "content": "origin"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "example",
-          "value": "D"
+          "content": "example"
         }
       ],
       "correct_answer": "A",
@@ -254,23 +270,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "impact",
-          "value": "A"
+          "content": "impact"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "relevance",
-          "value": "B"
+          "content": "relevance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "assistance",
-          "value": "C"
+          "content": "assistance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "concern",
-          "value": "D"
+          "content": "concern"
         }
       ],
       "correct_answer": "D",
@@ -292,23 +312,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in terms of",
-          "value": "A"
+          "content": "in terms of"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "in case of",
-          "value": "B"
+          "content": "in case of"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "in favor of",
-          "value": "C"
+          "content": "in favor of"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "in respects of",
-          "value": "D"
+          "content": "in respects of"
         }
       ],
       "correct_answer": "A",
@@ -330,23 +354,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "measures",
-          "value": "A"
+          "content": "measures"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "determines",
-          "value": "B"
+          "content": "determines"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "equals",
-          "value": "C"
+          "content": "equals"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "modifies",
-          "value": "D"
+          "content": "modifies"
         }
       ],
       "correct_answer": "C",
@@ -368,23 +396,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in essence",
-          "value": "A"
+          "content": "in essence"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "in contrast",
-          "value": "B"
+          "content": "in contrast"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "in turn",
-          "value": "C"
+          "content": "in turn"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "in part",
-          "value": "D"
+          "content": "in part"
         }
       ],
       "correct_answer": "C",
@@ -406,23 +438,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "complicated",
-          "value": "A"
+          "content": "complicated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "conservative",
-          "value": "B"
+          "content": "conservative"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "variable",
-          "value": "C"
+          "content": "variable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "straightforward",
-          "value": "D"
+          "content": "straightforward"
         }
       ],
       "correct_answer": "D",
@@ -444,23 +480,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "so",
-          "value": "A"
+          "content": "so"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "while",
-          "value": "B"
+          "content": "while"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "since",
-          "value": "C"
+          "content": "since"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "unless",
-          "value": "D"
+          "content": "unless"
         }
       ],
       "correct_answer": "B",
@@ -482,23 +522,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "shape",
-          "value": "A"
+          "content": "shape"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "spirit",
-          "value": "B"
+          "content": "spirit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "balance",
-          "value": "C"
+          "content": "balance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "taste",
-          "value": "D"
+          "content": "taste"
         }
       ],
       "correct_answer": "A",
@@ -520,23 +564,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "start",
-          "value": "A"
+          "content": "start"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "qualify",
-          "value": "B"
+          "content": "qualify"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "retire",
-          "value": "C"
+          "content": "retire"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "stay",
-          "value": "D"
+          "content": "stay"
         }
       ],
       "correct_answer": "B",
@@ -558,23 +606,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "strange",
-          "value": "A"
+          "content": "strange"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "changeable",
-          "value": "B"
+          "content": "changeable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "normal",
-          "value": "C"
+          "content": "normal"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "constant",
-          "value": "D"
+          "content": "constant"
         }
       ],
       "correct_answer": "C",
@@ -596,23 +648,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "option",
-          "value": "A"
+          "content": "option"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "reason",
-          "value": "B"
+          "content": "reason"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "opportunity",
-          "value": "C"
+          "content": "opportunity"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tendency",
-          "value": "D"
+          "content": "tendency"
         }
       ],
       "correct_answer": "D",
@@ -634,23 +690,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "employed",
-          "value": "A"
+          "content": "employed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "pictured",
-          "value": "B"
+          "content": "pictured"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "imitated",
-          "value": "C"
+          "content": "imitated"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "monitored",
-          "value": "D"
+          "content": "monitored"
         }
       ],
       "correct_answer": "B",
@@ -672,23 +732,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "compared",
-          "value": "A"
+          "content": "compared"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "combined",
-          "value": "B"
+          "content": "combined"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "settled",
-          "value": "C"
+          "content": "settled"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "associated",
-          "value": "D"
+          "content": "associated"
         }
       ],
       "correct_answer": "D",
@@ -710,23 +774,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Even",
-          "value": "A"
+          "content": "Even"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Still",
-          "value": "B"
+          "content": "Still"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Yet",
-          "value": "C"
+          "content": "Yet"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Only",
-          "value": "D"
+          "content": "Only"
         }
       ],
       "correct_answer": "A",
@@ -748,23 +816,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "despised",
-          "value": "A"
+          "content": "despised"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "corrected",
-          "value": "B"
+          "content": "corrected"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ignored",
-          "value": "C"
+          "content": "ignored"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "grounded",
-          "value": "D"
+          "content": "grounded"
         }
       ],
       "correct_answer": "D",
@@ -786,23 +858,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "discussions",
-          "value": "A"
+          "content": "discussions"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "businesses",
-          "value": "B"
+          "content": "businesses"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "policies",
-          "value": "C"
+          "content": "policies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "studies",
-          "value": "D"
+          "content": "studies"
         }
       ],
       "correct_answer": "C",
@@ -824,23 +900,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "for",
-          "value": "A"
+          "content": "for"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "against",
-          "value": "B"
+          "content": "against"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "with",
-          "value": "C"
+          "content": "with"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "without",
-          "value": "D"
+          "content": "without"
         }
       ],
       "correct_answer": "B",
@@ -862,23 +942,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "A big house.",
-          "value": "A"
+          "content": "A big house."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "A special tour.",
-          "value": "B"
+          "content": "A special tour."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "A stylish car.",
-          "value": "C"
+          "content": "A stylish car."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "A rich meal.",
-          "value": "D"
+          "content": "A rich meal."
         }
       ],
       "correct_answer": "B",
@@ -900,23 +984,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "critical",
-          "value": "A"
+          "content": "critical"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "supportive",
-          "value": "B"
+          "content": "supportive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sympathetic",
-          "value": "C"
+          "content": "sympathetic"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ambiguous",
-          "value": "D"
+          "content": "ambiguous"
         }
       ],
       "correct_answer": "A",
@@ -938,23 +1026,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "consumers are sometimes irrational",
-          "value": "A"
+          "content": "consumers are sometimes irrational"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "popularity usually comes after quality",
-          "value": "B"
+          "content": "popularity usually comes after quality"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "marketing tricks are often effective",
-          "value": "C"
+          "content": "marketing tricks are often effective"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rarity generally increases pleasure",
-          "value": "D"
+          "content": "rarity generally increases pleasure"
         }
       ],
       "correct_answer": "D",
@@ -976,23 +1068,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has been a bestseller for years",
-          "value": "A"
+          "content": "has been a bestseller for years"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "may prove to be a worthwhile purchase",
-          "value": "B"
+          "content": "may prove to be a worthwhile purchase"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "gives advice on financial investments",
-          "value": "C"
+          "content": "gives advice on financial investments"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "may give its readers a sense of achievement",
-          "value": "D"
+          "content": "may give its readers a sense of achievement"
         }
       ],
       "correct_answer": "B",
@@ -1014,23 +1110,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "balance feeling good and spending money",
-          "value": "A"
+          "content": "balance feeling good and spending money"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "spend large sums of money won in lotteries",
-          "value": "B"
+          "content": "spend large sums of money won in lotteries"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "obtain more pleasure from spending money",
-          "value": "C"
+          "content": "obtain more pleasure from spending money"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "become more reasonable in spending on luxuries",
-          "value": "D"
+          "content": "become more reasonable in spending on luxuries"
         }
       ],
       "correct_answer": "C",
@@ -1052,23 +1152,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "our self-ratings are unrealistically high",
-          "value": "A"
+          "content": "our self-ratings are unrealistically high"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illusory superiority is a baseless effect",
-          "value": "B"
+          "content": "illusory superiority is a baseless effect"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "self-enhancement leads to mental disorders",
-          "value": "C"
+          "content": "self-enhancement leads to mental disorders"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "self-enhancing strategies are ineffective",
-          "value": "D"
+          "content": "self-enhancing strategies are ineffective"
         }
       ],
       "correct_answer": "A",
@@ -1090,23 +1194,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "rapid matching",
-          "value": "A"
+          "content": "rapid matching"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "conscious choice",
-          "value": "B"
+          "content": "conscious choice"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "intuitive response",
-          "value": "C"
+          "content": "intuitive response"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "automatic defense",
-          "value": "D"
+          "content": "automatic defense"
         }
       ],
       "correct_answer": "C",
@@ -1128,23 +1236,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "underestimate their insecurities",
-          "value": "A"
+          "content": "underestimate their insecurities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "believe in their attractiveness",
-          "value": "B"
+          "content": "believe in their attractiveness"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "cover up their depressions",
-          "value": "C"
+          "content": "cover up their depressions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "oversimplify their illusions",
-          "value": "D"
+          "content": "oversimplify their illusions"
         }
       ],
       "correct_answer": "B",
@@ -1166,23 +1278,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "instinctively",
-          "value": "A"
+          "content": "instinctively"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "occasionally",
-          "value": "B"
+          "content": "occasionally"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "particularly",
-          "value": "C"
+          "content": "particularly"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "aggressively",
-          "value": "D"
+          "content": "aggressively"
         }
       ],
       "correct_answer": "A",
@@ -1204,23 +1320,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "present their dishonest profiles",
-          "value": "A"
+          "content": "present their dishonest profiles"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "define their traditional lifestyles",
-          "value": "B"
+          "content": "define their traditional lifestyles"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "share their intellectual pursuits",
-          "value": "C"
+          "content": "share their intellectual pursuits"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "withhold their unflattering sides",
-          "value": "D"
+          "content": "withhold their unflattering sides"
         }
       ],
       "correct_answer": "D",
@@ -1242,23 +1362,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "ease the competition of man vs. machine",
-          "value": "A"
+          "content": "ease the competition of man vs. machine"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlight machines' threat to human jobs",
-          "value": "B"
+          "content": "highlight machines' threat to human jobs"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "provoke a painful technological revolution",
-          "value": "C"
+          "content": "provoke a painful technological revolution"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "intensify the dispute over wage levels",
-          "value": "D"
+          "content": "intensify the dispute over wage levels"
         }
       ],
       "correct_answer": "B",
@@ -1280,23 +1404,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "technology is diminishing man's job opportunities",
-          "value": "A"
+          "content": "technology is diminishing man's job opportunities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "automation is accelerating technological development",
-          "value": "B"
+          "content": "automation is accelerating technological development"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "certain jobs will remain intact after automation",
-          "value": "C"
+          "content": "certain jobs will remain intact after automation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "man will finally win the race against machine",
-          "value": "D"
+          "content": "man will finally win the race against machine"
         }
       ],
       "correct_answer": "A",
@@ -1318,23 +1446,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "performed by innovative minds",
-          "value": "A"
+          "content": "performed by innovative minds"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "scripted with an individual style",
-          "value": "B"
+          "content": "scripted with an individual style"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "standardized without a clear target",
-          "value": "C"
+          "content": "standardized without a clear target"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "designed against human creativity",
-          "value": "D"
+          "content": "designed against human creativity"
         }
       ],
       "correct_answer": "D",
@@ -1356,19 +1488,27 @@
       "options": [
         {
           "key": "A",
-          "text": "the predictability of machine behavior in practice"
+          "value": "A",
+          "text": "the predictability of machine behavior in practice",
+          "content": "the predictability of machine behavior in practice"
         },
         {
           "key": "B",
-          "text": "the formula for how work is conducted efficiently"
+          "value": "B",
+          "text": "the formula for how work is conducted efficiently",
+          "content": "the formula for how work is conducted efficiently"
         },
         {
           "key": "C",
-          "text": "the ways machines replace human labor in modern times"
+          "value": "C",
+          "text": "the ways machines replace human labor in modern times",
+          "content": "the ways machines replace human labor in modern times"
         },
         {
           "key": "D",
-          "text": "the necessity of human involvement in the workplace"
+          "value": "D",
+          "text": "the necessity of human involvement in the workplace",
+          "content": "the necessity of human involvement in the workplace"
         }
       ],
       "correct_answer": "D",
@@ -1390,23 +1530,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "How to Innovate Our Work Practices?",
-          "value": "A"
+          "content": "How to Innovate Our Work Practices?"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Machines Stealing Human Jobs",
-          "value": "B"
+          "content": "Machines Stealing Human Jobs"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Can We Win the Race Against Machines?",
-          "value": "C"
+          "content": "Can We Win the Race Against Machines?"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Economic Downturns Stimulate Innovations",
-          "value": "D"
+          "content": "Economic Downturns Stimulate Innovations"
         }
       ],
       "correct_answer": "C",
@@ -1428,23 +1572,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has attracted much attention",
-          "value": "A"
+          "content": "has attracted much attention"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "has been unfairly neglected",
-          "value": "B"
+          "content": "has been unfairly neglected"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "shoulders too much responsibility",
-          "value": "C"
+          "content": "shoulders too much responsibility"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "has lost its real value in economy",
-          "value": "D"
+          "content": "has lost its real value in economy"
         }
       ],
       "correct_answer": "B",
@@ -1466,23 +1614,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "increased its home supply",
-          "value": "A"
+          "content": "increased its home supply"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "offered spending opportunities",
-          "value": "B"
+          "content": "offered spending opportunities"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "suffered government biases",
-          "value": "C"
+          "content": "suffered government biases"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "disappointed the government",
-          "value": "D"
+          "content": "disappointed the government"
         }
       ],
       "correct_answer": "C",
@@ -1504,23 +1656,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "allow greater government debt for housing",
-          "value": "A"
+          "content": "allow greater government debt for housing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "stop local authorities from building homes",
-          "value": "B"
+          "content": "stop local authorities from building homes"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "prepare to reduce housing stock debt",
-          "value": "C"
+          "content": "prepare to reduce housing stock debt"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "release a lifted GDP growth forecast",
-          "value": "D"
+          "content": "release a lifted GDP growth forecast"
         }
       ],
       "correct_answer": "A",
@@ -1542,23 +1698,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "lower the costs of registered providers",
-          "value": "A"
+          "content": "lower the costs of registered providers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lessen the impact of government interference",
-          "value": "B"
+          "content": "lessen the impact of government interference"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "contribute to funding new developments",
-          "value": "C"
+          "content": "contribute to funding new developments"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "relieve the ministers of responsibilities",
-          "value": "D"
+          "content": "relieve the ministers of responsibilities"
         }
       ],
       "correct_answer": "C",
@@ -1580,23 +1740,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "adopt more flexible fiscal policies",
-          "value": "A"
+          "content": "adopt more flexible fiscal policies"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "review the need for large-scale public grants",
-          "value": "B"
+          "content": "review the need for large-scale public grants"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "renew the affordable housing grants programme",
-          "value": "C"
+          "content": "renew the affordable housing grants programme"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "stop generous funding to the housing sector",
-          "value": "D"
+          "content": "stop generous funding to the housing sector"
         }
       ],
       "correct_answer": "D",
@@ -1618,38 +1782,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "originates from a long walk that the artist took.",
-          "value": "A"
+          "content": "originates from a long walk that the artist took."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illustrates a kind of landscape-orientated light conceptual art.",
-          "value": "B"
+          "content": "illustrates a kind of landscape-orientated light conceptual art."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reminds people of the English landscape painting tradition.",
-          "value": "C"
+          "content": "reminds people of the English landscape painting tradition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "represents the elegance of the British land art.",
-          "value": "D"
+          "content": "represents the elegance of the British land art."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "depicts the ordinary side of the British land art.",
-          "value": "E"
+          "content": "depicts the ordinary side of the British land art."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "embodies a romantic escape into the Scottish outdoors.",
-          "value": "F"
+          "content": "embodies a romantic escape into the Scottish outdoors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "contains images from different parts of the same photograph.",
-          "value": "G"
+          "content": "contains images from different parts of the same photograph."
         }
       ],
       "correct_answer": "D",
@@ -1671,38 +1842,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "originates from a long walk that the artist took.",
-          "value": "A"
+          "content": "originates from a long walk that the artist took."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illustrates a kind of landscape-orientated light conceptual art.",
-          "value": "B"
+          "content": "illustrates a kind of landscape-orientated light conceptual art."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reminds people of the English landscape painting tradition.",
-          "value": "C"
+          "content": "reminds people of the English landscape painting tradition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "represents the elegance of the British land art.",
-          "value": "D"
+          "content": "represents the elegance of the British land art."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "depicts the ordinary side of the British land art.",
-          "value": "E"
+          "content": "depicts the ordinary side of the British land art."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "embodies a romantic escape into the Scottish outdoors.",
-          "value": "F"
+          "content": "embodies a romantic escape into the Scottish outdoors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "contains images from different parts of the same photograph.",
-          "value": "G"
+          "content": "contains images from different parts of the same photograph."
         }
       ],
       "correct_answer": "E",
@@ -1724,38 +1902,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "originates from a long walk that the artist took.",
-          "value": "A"
+          "content": "originates from a long walk that the artist took."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illustrates a kind of landscape-orientated light conceptual art.",
-          "value": "B"
+          "content": "illustrates a kind of landscape-orientated light conceptual art."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reminds people of the English landscape painting tradition.",
-          "value": "C"
+          "content": "reminds people of the English landscape painting tradition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "represents the elegance of the British land art.",
-          "value": "D"
+          "content": "represents the elegance of the British land art."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "depicts the ordinary side of the British land art.",
-          "value": "E"
+          "content": "depicts the ordinary side of the British land art."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "embodies a romantic escape into the Scottish outdoors.",
-          "value": "F"
+          "content": "embodies a romantic escape into the Scottish outdoors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "contains images from different parts of the same photograph.",
-          "value": "G"
+          "content": "contains images from different parts of the same photograph."
         }
       ],
       "correct_answer": "G",
@@ -1777,38 +1962,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "originates from a long walk that the artist took.",
-          "value": "A"
+          "content": "originates from a long walk that the artist took."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illustrates a kind of landscape-orientated light conceptual art.",
-          "value": "B"
+          "content": "illustrates a kind of landscape-orientated light conceptual art."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reminds people of the English landscape painting tradition.",
-          "value": "C"
+          "content": "reminds people of the English landscape painting tradition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "represents the elegance of the British land art.",
-          "value": "D"
+          "content": "represents the elegance of the British land art."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "depicts the ordinary side of the British land art.",
-          "value": "E"
+          "content": "depicts the ordinary side of the British land art."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "embodies a romantic escape into the Scottish outdoors.",
-          "value": "F"
+          "content": "embodies a romantic escape into the Scottish outdoors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "contains images from different parts of the same photograph.",
-          "value": "G"
+          "content": "contains images from different parts of the same photograph."
         }
       ],
       "correct_answer": "C",
@@ -1830,38 +2022,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "originates from a long walk that the artist took.",
-          "value": "A"
+          "content": "originates from a long walk that the artist took."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "illustrates a kind of landscape-orientated light conceptual art.",
-          "value": "B"
+          "content": "illustrates a kind of landscape-orientated light conceptual art."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reminds people of the English landscape painting tradition.",
-          "value": "C"
+          "content": "reminds people of the English landscape painting tradition."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "represents the elegance of the British land art.",
-          "value": "D"
+          "content": "represents the elegance of the British land art."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "depicts the ordinary side of the British land art.",
-          "value": "E"
+          "content": "depicts the ordinary side of the British land art."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "embodies a romantic escape into the Scottish outdoors.",
-          "value": "F"
+          "content": "embodies a romantic escape into the Scottish outdoors."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "contains images from different parts of the same photograph.",
-          "value": "G"
+          "content": "contains images from different parts of the same photograph."
         }
       ],
       "correct_answer": "A",

@@ -32,7 +32,9 @@
       "title": "Section I: Use of English",
       "content": "Could a hug a day keep the doctor away? The answer may be a resounding “yes!” [1] helping you feel close and [2] to people you care about, it turns out that hugs can bring a [3] of health benefits to your body and mind. Believe it or not, a warm embrace might even help you [4] getting sick this winter.\n\nIn a recent study [5] over 400 healthy adults, researchers from Carnegie Mellon University in Pennsylvania examined the effects of perceived social support and the receipt of hugs [6] the participants' susceptibility to developing the common cold after being [7] to the virus. People who perceived greater social support were less likely to come [8] with a cold, and the researchers [9] that the stress-reducing effects of hugging [10] about 32 percent of that beneficial effect. [11] among those who got a cold, the ones who felt greater social support and received more frequent hugs had less severe [12].\n\n“Hugging protects people who are under stress from the [13] risk for colds that's usually [14] with stress,” notes Sheldon Cohen, a professor of psychology at Carnegie. Hugging “is a marker of intimacy and helps [15] the feeling that others are there to help [16] difficulty.”\n\nSome experts [17] the stress-reducing, health-related benefits of hugging to the release of oxytocin, often called “the bonding hormone” [18] it promotes attachment in relationships, including that between mothers and their newborn babies. Oxytocin is made primarily in the central lower part of the brain, and some of it is released into the bloodstream. But some of it [19] in the brain, where it [20] mood, behavior and physiology.",
       "sort_order": 1,
-      "passage_type": "cloze"
+      "passage_type": "cloze",
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "ec90837a-70ab-52e5-8b01-92083581086b",
@@ -42,7 +44,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "First two hours, now three hours — this is how far in advance authorities are recommending people show up to catch a domestic flight, at least at some major U.S. airports with increasingly massive security lines.\n\nAmericans are willing to tolerate time-consuming security procedures in return for safer skies. The crash of EgyptAir Flight 804 provides another tragic reminder of why. But demanding greater numbers of passengers wait in ever-longer lines until they become frantic and miss flights is an ineffective way to provide security. And it should be unnecessary. There is an alternative: Enroll more people in the PreCheck program. The federal government should take steps to make that happen. Otherwise, the wait times will continue to be a drag on Americans' economic and private lives, not to mention infuriating.\n\nLast year, the Transportation Security Administration (TSA) found in a secret check that undercover investigators were able to sneak weapons past airport security nearly every time they tried. In response, the agency stopped using shortcuts to get people through security faster. Combined with a surge in airline travel due to a growing economy and lower fuel prices, the result was predictable: longer waits at screening lanes across the country. TSA screeners may be doing a better job — there is no evidence that this has happened, or that aviation security has improved since the agency was created — but the lines are obvious.\n\nPart of the issue is that the government did not anticipate the steep increase in airline passengers this year, which meant that TSA screeners were understaffed. The airlines also did not help by continuing to charge baggage fees, which prompted travelers to pack more carry-on bags into screening lanes, rather than paying checked-baggage fees, though the airlines strongly dispute this.\n\nThere is one step the TSA could take that would not require remodeling airports or hiring armies of new screeners: Enroll more people in PreCheck. PreCheck passengers pay an $85 fee, undergo a background check, and are then allowed to use expedited security screening lanes where they do not have to take off shoes, belts, or light jackets, or remove laptops and liquids from bags. High-risk passengers become the primary focus of TSA screeners, saving time for everyone involved. The TSA wants to enroll 25 million people in PreCheck.\n\nIt has not gotten anywhere close to that, and one big reason is sticker shock: Passengers must pay $85 every five years to process their background checks. Since the beginning, this price tag has been PreCheck's fatal flaw. Upcoming reforms might bring the price to a more reasonable level. But Congress should look into doing so directly, by helping to finance PreCheck enrollment or to cut costs in other ways.\n\nThe TSA cannot continue diverting resources into underused PreCheck lanes while most of the traveling public suffers in unnecessary lines. It is long past time to make the program work.",
       "sort_order": 2,
-      "passage_type": "traditional"
+      "passage_type": "traditional",
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "9f24f54d-5ab2-5198-b801-988201cf6f5a",
@@ -52,7 +56,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "“The ancient Hawaiians were astronomers,” wrote Queen Liliuokalani, Hawaii's last reigning monarch, in 1897. Star watchers were among the most esteemed members of Hawaiian society. Sadly, all is not well with astronomy in Hawaii today. Protests have erupted over construction of the Thirty Meter Telescope (TMT), a giant observatory that promises to revolutionize humanity's view of the cosmos.\n\nAt issue is the TMT's planned location on Mauna Kea, a dormant volcano worshiped by some Hawaiians as the piko, that connects the Hawaiian Islands to the heavens. But Mauna Kea is also home to some of the world's most powerful telescopes. Rested in the Pacific Ocean, Mauna Kea's peak rises above the bulk of our planet's dense atmosphere, where conditions allow telescopes to obtain images of unsurpassed clarity.\n\nOpposition to telescopes on Mauna Kea is nothing new. A small but vocal group of Hawaiians and environmentalists have long viewed their presence as disrespect for sacred land and a painful reminder of the occupation of what was once a sovereign nation.\n\nSome blame for the current controversy belongs to astronomers. In their eagerness to build bigger telescopes, they forgot that science is not the only way of understanding the world. They did not always prioritize the protection of Mauna Kea's fragile ecosystems or its holiness to the islands' inhabitants. Hawaiian culture is not a relic of the past; it is a living culture undergoing a renaissance today.\n\nYet science has a cultural history, too, with roots going back to the dawn of civilization. The same curiosity to find what lies beyond the horizon that first brought early Polynesians to Hawaii's shores inspires astronomers today to explore the heavens. Calls to disassemble all telescopes on Mauna Kea or to ban future development there ignore the reality that astronomy and Hawaiian culture both seek to answer big questions about who we are, where we come from and where we are going. Perhaps that is why we explore the starry skies, as if answering a primal calling to know ourselves and our true ancestral homes.\n\nThe astronomy community is making compromises to change its use of Mauna Kea. The TMT site was chosen to minimize the telescope's visibility around the island and to avoid archaeological and environmental impact. To limit the number of telescopes on Mauna Kea, old ones will be removed at the end of their lifetimes and their sites returned to a natural state. There is no reason why everyone cannot be welcomed on Mauna Kea to embrace their cultural heritage and to study the stars.",
       "sort_order": 3,
-      "passage_type": "traditional"
+      "passage_type": "traditional",
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "1d1a3e13-c857-5497-a0dc-65438288b1ae",
@@ -62,7 +68,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "Robert F. Kennedy once said that a country's GDP measures \"everything except that which makes life worthwhile.\" With Britain voting to leave the European Union, and GDP already predicted to slow as a result, it is now a timely moment to assess what he was referring to.\n\nThe question of GDP and its usefulness has annoyed policymakers for over half a century. Many argue that it is a flawed concept. It measures things that do not matter and misses things that do. By most recent measures, the UK's GDP has been the envy of the Western world, with record low unemployment and high growth figures. If everything was going so well, then why did over 17 million people vote for Brexit, despite the warnings about what it could do to their country's economic prospects?\n\nA recent annual study of countries and their ability to convert growth into well-being sheds some light on that question. Across the 163 countries measured, the UK is one of the poorest performers in ensuring that economic growth is translated into meaningful improvements for its citizens. Rather than just focusing on GDP, over 40 different sets of criteria from health, education and civil society engagement have been measured to get a more rounded assessment of how countries are performing.\n\nWhile all of these countries face their own challenges, there are a number of consistent themes. Yes, there has been a budding economic recovery since the 2008 global crash, but in key indicators in areas such as health and education, major economies have continued to decline. Yet this isn't the case with all countries. Some relatively poor European countries have seen huge improvements across measures including health, education and income equality.\n\nThis is a lesson that rich countries can learn: When GDP is no longer regarded as the sole measure of a country's success, the world looks very different.\n\nSo, what Kennedy was referring to was that while GDP has been the most common method for measuring the economic activity of nations, as a measure, it is no longer enough. It does not include important factors such as environmental quality or education outcomes — all things that contribute to a person's sense of well-being.\n\nThe sharp hit to growth predicted around the world and in the UK could lead to a decline in the everyday services we depend on for our well-being and for growth. But policymakers who refocus efforts on improving well-being rather than simply worrying about GDP figures could avoid the forecasted doom and may even see progress.",
       "sort_order": 4,
-      "passage_type": "traditional"
+      "passage_type": "traditional",
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "71580345-b4ce-57d9-a313-30a09b94c68c",
@@ -72,7 +80,9 @@
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "In a rare unanimous ruling, the US Supreme Court has overturned the corruption conviction of a former Virginia governor, Robert McDonnell. But it did so while holding its nose at the ethics of his conduct, which included accepting gifts such as a Rolex watch and a Ferrari automobile from a company seeking access to government.\n\nThe high court's decision said the judge in Mr. McDonnell's trial failed to tell a jury that it must look only at his \"official acts,\" or the former governor's decisions on \"specific\" and \"unsettled\" issues related to his duties.\n\nMerely helping a gift-giver gain access to other officials, unless done with clear intent to pressure those officials, is not corruption, the justices found.\n\nThe court did suggest that accepting favors in return for opening doors is \"distasteful\" and \"nasty.\" But under anti-bribery laws, proof must be made of concrete benefits, such as approval of a contract or regulation. Simply arranging a meeting, making a phone call, or hosting an event is not an \"official act\".\n\nThe court's ruling is legally sound in defining a kind of favoritism that is not criminal. Elected leaders must be allowed to help supporters deal with bureaucratic problems without fear of prosecution for bribery. \"The basic compact underlying representative government,\" wrote Chief Justice John Roberts for the court, \"assumes that public officials will hear from their constituents and act on their concerns.\"\n\nBut the ruling reinforces the need for citizens and their elected representatives, not the courts, to ensure equality of access to government. Officials must not be allowed to play favorites in providing information or in arranging meetings simply because an individual or group provides a campaign donation or a personal gift. This type of integrity requires well-enforced laws in government transparency, such as records of official meetings, rules on lobbying, and information about each elected leader's source of wealth.\n\nFavoritism in official access can fan public perceptions of corruption. But it is not always corruption. Rather officials must avoid double standards, or different types of access for average people and the wealthy. If connections can be bought, a basic premise of democratic society — that all are equal in treatment by government — is undermined. Good governance rests on an understanding of the inherent worth of each individual.\n\nThe court's ruling is a step forward in the struggle against both corruption and official favoritism.",
       "sort_order": 5,
-      "passage_type": "traditional"
+      "passage_type": "traditional",
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "fa949cef-2c2c-5709-9648-dc2a9e9ed7a6",
@@ -82,7 +92,9 @@
       "title": "Section II: Reading Comprehension Part B",
       "content": "[A] The first published sketch, \"A Dinner at Poplar Walk\", brought tears to Dickens's eyes when he discovered it in the pages of The Monthly Magazine. From then on his sketches, which appeared under the pen name \"Boz\" in The Evening Chronicle, earned him a modest reputation.\n\n[B] The runaway success of The Pickwick Papers, as it is generally known today, secured Dickens's fame. There were Pickwick coats and Pickwick cigars, and the plump, spectacled hero, Samuel Pickwick, became a national figure.\n\n[C] Soon after Sketches by Boz appeared, a publisher invited Dickens to write a story in monthly installments, as a backdrop for a series of woodcuts by the then-famous artist Robert Seymour, who had originated the idea for the story. With characteristic confidence, Dickens successfully insisted that Seymour's pictures should illustrate his story, rather than the story the illustrations.\n\n[D] Charles Dickens is probably the best-known and, to many people, the greatest English novelist of the 19th century. A moralist, satirist, and social reformer, Dickens crafted complex plots and striking characters that capture the panorama of English society.\n\n[E] Soon after his father's release from debtor's prison, young Charles got a better job as an errand boy in the office of an attorney. He worked hard and eventually became a reporter in Parliament. Meanwhile, his humorous sketches of London life, combining a sharp eye for detail with a keen sense of the ridiculous and absurdity, began submitting sketches to magazines.\n\n[F] Dickens was born in Portsmouth, on England's southern coast, in 1812. His father was a clerk in the British Navy pay office — a respectable position, but with little social status. His paternal grandparents, a steward and a housekeeper, possessed even less status, having been servants, and Dickens later concealed his humble background. His father went into debt, and in 1824 was imprisoned. Charles was forced to work in a blacking factory, an experience of poverty and humiliation that haunted him for the rest of his life.\n\n[G] After Pickwick, Dickens plunged into a bleaker world. In Oliver Twist, he traces an orphan's progress from the workhouse to the criminal slums of London. Nicholas Nickleby, his next novel, combines the darkness of Oliver Twist with the sunlight of Pickwick. The popularity of these novels consolidated Dickens's reputation as a writer of uncommon power, and he followed them with a succession of masterpieces that confirmed his genius and captured the vibrant, complex society of Victorian Britain.",
       "sort_order": 6,
-      "passage_type": "ordering"
+      "passage_type": "ordering",
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -96,23 +108,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Unlike",
-          "value": "A"
+          "content": "Unlike"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Besides",
-          "value": "B"
+          "content": "Besides"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Despite",
-          "value": "C"
+          "content": "Despite"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Throughout",
-          "value": "D"
+          "content": "Throughout"
         }
       ],
       "correct_answer": "B",
@@ -134,23 +150,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "connected",
-          "value": "A"
+          "content": "connected"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "restricted",
-          "value": "B"
+          "content": "restricted"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "equal",
-          "value": "C"
+          "content": "equal"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "inferior",
-          "value": "D"
+          "content": "inferior"
         }
       ],
       "correct_answer": "A",
@@ -172,23 +192,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "choice",
-          "value": "A"
+          "content": "choice"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "view",
-          "value": "B"
+          "content": "view"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "lesson",
-          "value": "C"
+          "content": "lesson"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "host",
-          "value": "D"
+          "content": "host"
         }
       ],
       "correct_answer": "D",
@@ -210,23 +234,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "recall",
-          "value": "A"
+          "content": "recall"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "forget",
-          "value": "B"
+          "content": "forget"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "avoid",
-          "value": "C"
+          "content": "avoid"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "keep",
-          "value": "D"
+          "content": "keep"
         }
       ],
       "correct_answer": "C",
@@ -248,23 +276,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "collecting",
-          "value": "A"
+          "content": "collecting"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "involving",
-          "value": "B"
+          "content": "involving"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "guiding",
-          "value": "C"
+          "content": "guiding"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "affecting",
-          "value": "D"
+          "content": "affecting"
         }
       ],
       "correct_answer": "B",
@@ -286,23 +318,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "of",
-          "value": "A"
+          "content": "of"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "in",
-          "value": "B"
+          "content": "in"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "at",
-          "value": "C"
+          "content": "at"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "on",
-          "value": "D"
+          "content": "on"
         }
       ],
       "correct_answer": "D",
@@ -324,23 +360,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "devoted",
-          "value": "A"
+          "content": "devoted"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "exposed",
-          "value": "B"
+          "content": "exposed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "lost",
-          "value": "C"
+          "content": "lost"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "attracted",
-          "value": "D"
+          "content": "attracted"
         }
       ],
       "correct_answer": "B",
@@ -362,23 +402,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "across",
-          "value": "A"
+          "content": "across"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "along",
-          "value": "B"
+          "content": "along"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "down",
-          "value": "C"
+          "content": "down"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "out",
-          "value": "D"
+          "content": "out"
         }
       ],
       "correct_answer": "C",
@@ -400,23 +444,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "calculated",
-          "value": "A"
+          "content": "calculated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "denied",
-          "value": "B"
+          "content": "denied"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "doubted",
-          "value": "C"
+          "content": "doubted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "imagined",
-          "value": "D"
+          "content": "imagined"
         }
       ],
       "correct_answer": "A",
@@ -438,23 +486,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "served",
-          "value": "A"
+          "content": "served"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "required",
-          "value": "B"
+          "content": "required"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "restored",
-          "value": "C"
+          "content": "restored"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "explained",
-          "value": "D"
+          "content": "explained"
         }
       ],
       "correct_answer": "D",
@@ -476,23 +528,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Even",
-          "value": "A"
+          "content": "Even"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Still",
-          "value": "B"
+          "content": "Still"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Rather",
-          "value": "C"
+          "content": "Rather"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Thus",
-          "value": "D"
+          "content": "Thus"
         }
       ],
       "correct_answer": "A",
@@ -514,23 +570,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "defeats",
-          "value": "A"
+          "content": "defeats"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "symptoms",
-          "value": "B"
+          "content": "symptoms"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tests",
-          "value": "C"
+          "content": "tests"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "errors",
-          "value": "D"
+          "content": "errors"
         }
       ],
       "correct_answer": "B",
@@ -552,23 +612,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "minimized",
-          "value": "A"
+          "content": "minimized"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted",
-          "value": "B"
+          "content": "highlighted"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "controlled",
-          "value": "C"
+          "content": "controlled"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "increased",
-          "value": "D"
+          "content": "increased"
         }
       ],
       "correct_answer": "D",
@@ -590,23 +654,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "equipped",
-          "value": "A"
+          "content": "equipped"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "associated",
-          "value": "B"
+          "content": "associated"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "presented",
-          "value": "C"
+          "content": "presented"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "compared",
-          "value": "D"
+          "content": "compared"
         }
       ],
       "correct_answer": "B",
@@ -628,23 +696,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assess",
-          "value": "A"
+          "content": "assess"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "moderate",
-          "value": "B"
+          "content": "moderate"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "generate",
-          "value": "C"
+          "content": "generate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "record",
-          "value": "D"
+          "content": "record"
         }
       ],
       "correct_answer": "C",
@@ -666,23 +738,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in the face of",
-          "value": "A"
+          "content": "in the face of"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "in the form of",
-          "value": "B"
+          "content": "in the form of"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "in the way of",
-          "value": "C"
+          "content": "in the way of"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "in the name of",
-          "value": "D"
+          "content": "in the name of"
         }
       ],
       "correct_answer": "A",
@@ -704,23 +780,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "transfer",
-          "value": "A"
+          "content": "transfer"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "commit",
-          "value": "B"
+          "content": "commit"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "attribute",
-          "value": "C"
+          "content": "attribute"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "return",
-          "value": "D"
+          "content": "return"
         }
       ],
       "correct_answer": "C",
@@ -742,23 +822,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "because",
-          "value": "A"
+          "content": "because"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unless",
-          "value": "B"
+          "content": "unless"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "though",
-          "value": "C"
+          "content": "though"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "until",
-          "value": "D"
+          "content": "until"
         }
       ],
       "correct_answer": "A",
@@ -780,23 +864,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emerges",
-          "value": "A"
+          "content": "emerges"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "vanishes",
-          "value": "B"
+          "content": "vanishes"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "remains",
-          "value": "C"
+          "content": "remains"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "decreases",
-          "value": "D"
+          "content": "decreases"
         }
       ],
       "correct_answer": "C",
@@ -818,23 +906,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "experiences",
-          "value": "A"
+          "content": "experiences"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "combines",
-          "value": "B"
+          "content": "combines"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "justifies",
-          "value": "C"
+          "content": "justifies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "influences",
-          "value": "D"
+          "content": "influences"
         }
       ],
       "correct_answer": "D",
@@ -856,23 +948,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "explain Americans' tolerance of current security checks",
-          "value": "A"
+          "content": "explain Americans' tolerance of current security checks"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "stress the urgency to strengthen security worldwide",
-          "value": "B"
+          "content": "stress the urgency to strengthen security worldwide"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "highlight the necessity of upgrading major U.S. airports",
-          "value": "C"
+          "content": "highlight the necessity of upgrading major U.S. airports"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "emphasize the importance of privacy protection",
-          "value": "D"
+          "content": "emphasize the importance of privacy protection"
         }
       ],
       "correct_answer": "A",
@@ -894,23 +990,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "New restrictions on carry-on bags.",
-          "value": "A"
+          "content": "New restrictions on carry-on bags."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The declining efficiency of the TSA.",
-          "value": "B"
+          "content": "The declining efficiency of the TSA."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "An increase in the number of travelers.",
-          "value": "C"
+          "content": "An increase in the number of travelers."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Frequent unexpected secret checks.",
-          "value": "D"
+          "content": "Frequent unexpected secret checks."
         }
       ],
       "correct_answer": "C",
@@ -932,23 +1032,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "quieter",
-          "value": "A"
+          "content": "quieter"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "cheaper",
-          "value": "B"
+          "content": "cheaper"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "wider",
-          "value": "C"
+          "content": "wider"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "faster",
-          "value": "D"
+          "content": "faster"
         }
       ],
       "correct_answer": "D",
@@ -970,23 +1074,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a dramatic reduction of its scale",
-          "value": "A"
+          "content": "a dramatic reduction of its scale"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "its wrongly-directed implementation",
-          "value": "B"
+          "content": "its wrongly-directed implementation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the government's reluctance to back it",
-          "value": "C"
+          "content": "the government's reluctance to back it"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "an unreasonable price for enrollment",
-          "value": "D"
+          "content": "an unreasonable price for enrollment"
         }
       ],
       "correct_answer": "D",
@@ -1008,23 +1116,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Less Screening for More Safety",
-          "value": "A"
+          "content": "Less Screening for More Safety"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "PreCheck — a Belated Solution",
-          "value": "B"
+          "content": "PreCheck — a Belated Solution"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Getting Stuck in Security Lines",
-          "value": "C"
+          "content": "Getting Stuck in Security Lines"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Underused PreCheck Lanes",
-          "value": "D"
+          "content": "Underused PreCheck Lanes"
         }
       ],
       "correct_answer": "C",
@@ -1046,23 +1158,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "her conservative view on the historical role of astronomy",
-          "value": "A"
+          "content": "her conservative view on the historical role of astronomy"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the importance of astronomy in ancient Hawaiian society",
-          "value": "B"
+          "content": "the importance of astronomy in ancient Hawaiian society"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the regrettable decline of astronomy in ancient times",
-          "value": "C"
+          "content": "the regrettable decline of astronomy in ancient times"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "her appreciation of star watchers' feats in her time",
-          "value": "D"
+          "content": "her appreciation of star watchers' feats in her time"
         }
       ],
       "correct_answer": "B",
@@ -1084,23 +1200,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "its geographical features",
-          "value": "A"
+          "content": "its geographical features"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "its protective surroundings",
-          "value": "B"
+          "content": "its protective surroundings"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "its religious implications",
-          "value": "C"
+          "content": "its religious implications"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "its existing infrastructure",
-          "value": "D"
+          "content": "its existing infrastructure"
         }
       ],
       "correct_answer": "A",
@@ -1122,23 +1242,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "it may risk ruining their intellectual life",
-          "value": "A"
+          "content": "it may risk ruining their intellectual life"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "it reminds them of a humiliating history",
-          "value": "B"
+          "content": "it reminds them of a humiliating history"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "their culture will lose a chance of revival",
-          "value": "C"
+          "content": "their culture will lose a chance of revival"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "they fear losing control of Mauna Kea",
-          "value": "D"
+          "content": "they fear losing control of Mauna Kea"
         }
       ],
       "correct_answer": "B",
@@ -1160,23 +1284,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is fulfilling the dreams of ancient Hawaiians",
-          "value": "A"
+          "content": "is fulfilling the dreams of ancient Hawaiians"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "helps spread Hawaiian culture across the world",
-          "value": "B"
+          "content": "helps spread Hawaiian culture across the world"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "may uncover the origin of Hawaiian culture",
-          "value": "C"
+          "content": "may uncover the origin of Hawaiian culture"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "will eventually soften Hawaiians' hostility",
-          "value": "D"
+          "content": "will eventually soften Hawaiians' hostility"
         }
       ],
       "correct_answer": "A",
@@ -1198,23 +1326,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "severe criticism",
-          "value": "A"
+          "content": "severe criticism"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "passive acceptance",
-          "value": "B"
+          "content": "passive acceptance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "slight hesitancy",
-          "value": "C"
+          "content": "slight hesitancy"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "full approval",
-          "value": "D"
+          "content": "full approval"
         }
       ],
       "correct_answer": "D",
@@ -1236,23 +1368,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "praised the UK for its GDP",
-          "value": "A"
+          "content": "praised the UK for its GDP"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "identified GDP with happiness",
-          "value": "B"
+          "content": "identified GDP with happiness"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "misinterpreted the role of GDP",
-          "value": "C"
+          "content": "misinterpreted the role of GDP"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "had a low opinion of GDP",
-          "value": "D"
+          "content": "had a low opinion of GDP"
         }
       ],
       "correct_answer": "D",
@@ -1274,23 +1410,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the UK is reluctant to remold its economic pattern",
-          "value": "A"
+          "content": "the UK is reluctant to remold its economic pattern"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "GDP as the measure of success is widely defied in the UK",
-          "value": "B"
+          "content": "GDP as the measure of success is widely defied in the UK"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the UK will contribute less to the world economy",
-          "value": "C"
+          "content": "the UK will contribute less to the world economy"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "policymakers in the UK are paying less attention to GDP",
-          "value": "D"
+          "content": "policymakers in the UK are paying less attention to GDP"
         }
       ],
       "correct_answer": "B",
@@ -1312,23 +1452,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "It is sponsored by 163 countries.",
-          "value": "A"
+          "content": "It is sponsored by 163 countries."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It excludes GDP as an indicator.",
-          "value": "B"
+          "content": "It excludes GDP as an indicator."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Its criteria are questionable.",
-          "value": "C"
+          "content": "Its criteria are questionable."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Its results are enlightening.",
-          "value": "D"
+          "content": "Its results are enlightening."
         }
       ],
       "correct_answer": "D",
@@ -1350,23 +1494,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the UK is preparing for an economic boom",
-          "value": "A"
+          "content": "the UK is preparing for an economic boom"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "high GDP foreshadows an economic decline",
-          "value": "B"
+          "content": "high GDP foreshadows an economic decline"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "it is essential to consider factors beyond GDP",
-          "value": "C"
+          "content": "it is essential to consider factors beyond GDP"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "it requires caution to handle economic issues",
-          "value": "D"
+          "content": "it requires caution to handle economic issues"
         }
       ],
       "correct_answer": "C",
@@ -1388,23 +1536,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "High GDP But Inadequate Well-being, a UK Lesson",
-          "value": "A"
+          "content": "High GDP But Inadequate Well-being, a UK Lesson"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "GDP Figures, a Window on Global Economic Health",
-          "value": "B"
+          "content": "GDP Figures, a Window on Global Economic Health"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Robert F. Kennedy, a Terminator of GDP",
-          "value": "C"
+          "content": "Robert F. Kennedy, a Terminator of GDP"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Brexit, the UK's Gateway to Well-being",
-          "value": "D"
+          "content": "Brexit, the UK's Gateway to Well-being"
         }
       ],
       "correct_answer": "A",
@@ -1426,23 +1578,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "avoided defining the extent of McDonnelFs duties",
-          "value": "A"
+          "content": "avoided defining the extent of McDonnelFs duties"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "made no compromise in convicting McDonnell",
-          "value": "B"
+          "content": "made no compromise in convicting McDonnell"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "was contemptuous of McDonnell's conduct",
-          "value": "C"
+          "content": "was contemptuous of McDonnell's conduct"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "refused to comment on McDonnelFs ethics",
-          "value": "D"
+          "content": "refused to comment on McDonnelFs ethics"
         }
       ],
       "correct_answer": "C",
@@ -1464,23 +1620,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "leaking secrets intentionally",
-          "value": "A"
+          "content": "leaking secrets intentionally"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "sizable gains in the form of gifts",
-          "value": "B"
+          "content": "sizable gains in the form of gifts"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "concrete returns for gift-givers",
-          "value": "C"
+          "content": "concrete returns for gift-givers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "breaking contracts officially",
-          "value": "D"
+          "content": "breaking contracts officially"
         }
       ],
       "correct_answer": "C",
@@ -1502,23 +1662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "justified in addressing the needs of their constituents",
-          "value": "A"
+          "content": "justified in addressing the needs of their constituents"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "qualified to deal independently with bureaucratic issues",
-          "value": "B"
+          "content": "qualified to deal independently with bureaucratic issues"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "allowed to focus on the concerns of their supporters",
-          "value": "C"
+          "content": "allowed to focus on the concerns of their supporters"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "exempt from conviction on the charge of favoritism",
-          "value": "D"
+          "content": "exempt from conviction on the charge of favoritism"
         }
       ],
       "correct_answer": "A",
@@ -1540,23 +1704,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "awaken the conscience of officials",
-          "value": "A"
+          "content": "awaken the conscience of officials"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "guarantee fair play in official access",
-          "value": "B"
+          "content": "guarantee fair play in official access"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "allow for certain kinds of lobbying",
-          "value": "C"
+          "content": "allow for certain kinds of lobbying"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "inspire hopes in average people",
-          "value": "D"
+          "content": "inspire hopes in average people"
         }
       ],
       "correct_answer": "B",
@@ -1578,23 +1746,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "sarcastic",
-          "value": "A"
+          "content": "sarcastic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "tolerant",
-          "value": "B"
+          "content": "tolerant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "skeptical",
-          "value": "C"
+          "content": "skeptical"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "supportive",
-          "value": "D"
+          "content": "supportive"
         }
       ],
       "correct_answer": "D",
@@ -1616,38 +1788,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "[A]",
-          "value": "A"
+          "content": "[A]"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "[B]",
-          "value": "B"
+          "content": "[B]"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "[C]",
-          "value": "C"
+          "content": "[C]"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "[D]",
-          "value": "D"
+          "content": "[D]"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "[E]",
-          "value": "E"
+          "content": "[E]"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "[F]",
-          "value": "F"
+          "content": "[F]"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "[G]",
-          "value": "G"
+          "content": "[G]"
         }
       ],
       "correct_answer": "F",
@@ -1669,38 +1848,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "[A]",
-          "value": "A"
+          "content": "[A]"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "[B]",
-          "value": "B"
+          "content": "[B]"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "[C]",
-          "value": "C"
+          "content": "[C]"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "[D]",
-          "value": "D"
+          "content": "[D]"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "[E]",
-          "value": "E"
+          "content": "[E]"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "[F]",
-          "value": "F"
+          "content": "[F]"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "[G]",
-          "value": "G"
+          "content": "[G]"
         }
       ],
       "correct_answer": "E",
@@ -1722,38 +1908,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "[A]",
-          "value": "A"
+          "content": "[A]"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "[B]",
-          "value": "B"
+          "content": "[B]"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "[C]",
-          "value": "C"
+          "content": "[C]"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "[D]",
-          "value": "D"
+          "content": "[D]"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "[E]",
-          "value": "E"
+          "content": "[E]"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "[F]",
-          "value": "F"
+          "content": "[F]"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "[G]",
-          "value": "G"
+          "content": "[G]"
         }
       ],
       "correct_answer": "A",
@@ -1775,38 +1968,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "[A]",
-          "value": "A"
+          "content": "[A]"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "[B]",
-          "value": "B"
+          "content": "[B]"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "[C]",
-          "value": "C"
+          "content": "[C]"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "[D]",
-          "value": "D"
+          "content": "[D]"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "[E]",
-          "value": "E"
+          "content": "[E]"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "[F]",
-          "value": "F"
+          "content": "[F]"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "[G]",
-          "value": "G"
+          "content": "[G]"
         }
       ],
       "correct_answer": "C",
@@ -1828,38 +2028,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "[A]",
-          "value": "A"
+          "content": "[A]"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "[B]",
-          "value": "B"
+          "content": "[B]"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "[C]",
-          "value": "C"
+          "content": "[C]"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "[D]",
-          "value": "D"
+          "content": "[D]"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "[E]",
-          "value": "E"
+          "content": "[E]"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "[F]",
-          "value": "F"
+          "content": "[F]"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "[G]",
-          "value": "G"
+          "content": "[G]"
         }
       ],
       "correct_answer": "G",

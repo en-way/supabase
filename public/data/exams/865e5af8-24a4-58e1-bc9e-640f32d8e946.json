@@ -102,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "when",
-          "value": "A"
+          "content": "when"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "why",
-          "value": "B"
+          "content": "why"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "how",
-          "value": "C"
+          "content": "how"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "what",
-          "value": "D"
+          "content": "what"
         }
       ],
       "correct_answer": "D",
@@ -138,23 +142,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "defended",
-          "value": "A"
+          "content": "defended"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "concluded",
-          "value": "B"
+          "content": "concluded"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "withdrawn",
-          "value": "C"
+          "content": "withdrawn"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "advised",
-          "value": "D"
+          "content": "advised"
         }
       ],
       "correct_answer": "B",
@@ -174,23 +182,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "for",
-          "value": "A"
+          "content": "for"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "with",
-          "value": "B"
+          "content": "with"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "on",
-          "value": "C"
+          "content": "on"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "by",
-          "value": "D"
+          "content": "by"
         }
       ],
       "correct_answer": "C",
@@ -210,23 +222,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "compared",
-          "value": "A"
+          "content": "compared"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "sought",
-          "value": "B"
+          "content": "sought"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "separated",
-          "value": "C"
+          "content": "separated"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "connected",
-          "value": "D"
+          "content": "connected"
         }
       ],
       "correct_answer": "A",
@@ -246,23 +262,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tests",
-          "value": "A"
+          "content": "tests"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "objects",
-          "value": "B"
+          "content": "objects"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "samples",
-          "value": "C"
+          "content": "samples"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "examples",
-          "value": "D"
+          "content": "examples"
         }
       ],
       "correct_answer": "C",
@@ -282,23 +302,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "insignificant",
-          "value": "A"
+          "content": "insignificant"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unexpected",
-          "value": "B"
+          "content": "unexpected"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "unreliable",
-          "value": "C"
+          "content": "unreliable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "incredible",
-          "value": "D"
+          "content": "incredible"
         }
       ],
       "correct_answer": "A",
@@ -318,23 +342,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "visit",
-          "value": "A"
+          "content": "visit"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "miss",
-          "value": "B"
+          "content": "miss"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "seek",
-          "value": "C"
+          "content": "seek"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "know",
-          "value": "D"
+          "content": "know"
         }
       ],
       "correct_answer": "D",
@@ -354,23 +382,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "resemble",
-          "value": "A"
+          "content": "resemble"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "influence",
-          "value": "B"
+          "content": "influence"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "favor",
-          "value": "C"
+          "content": "favor"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "surpass",
-          "value": "D"
+          "content": "surpass"
         }
       ],
       "correct_answer": "A",
@@ -390,23 +422,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "again",
-          "value": "A"
+          "content": "again"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "also",
-          "value": "B"
+          "content": "also"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "instead",
-          "value": "C"
+          "content": "instead"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "thus",
-          "value": "D"
+          "content": "thus"
         }
       ],
       "correct_answer": "B",
@@ -426,23 +462,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Meanwhile",
-          "value": "A"
+          "content": "Meanwhile"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Furthermore",
-          "value": "B"
+          "content": "Furthermore"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Likewise",
-          "value": "C"
+          "content": "Likewise"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Perhaps",
-          "value": "D"
+          "content": "Perhaps"
         }
       ],
       "correct_answer": "D",
@@ -462,23 +502,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "about",
-          "value": "A"
+          "content": "about"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "to",
-          "value": "B"
+          "content": "to"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "from",
-          "value": "C"
+          "content": "from"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "like",
-          "value": "D"
+          "content": "like"
         }
       ],
       "correct_answer": "B",
@@ -498,23 +542,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "drive",
-          "value": "A"
+          "content": "drive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "observe",
-          "value": "B"
+          "content": "observe"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "confuse",
-          "value": "C"
+          "content": "confuse"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "limit",
-          "value": "D"
+          "content": "limit"
         }
       ],
       "correct_answer": "A",
@@ -534,23 +582,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "according to",
-          "value": "A"
+          "content": "according to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rather than",
-          "value": "B"
+          "content": "rather than"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "regardless of",
-          "value": "C"
+          "content": "regardless of"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "along with",
-          "value": "D"
+          "content": "along with"
         }
       ],
       "correct_answer": "B",
@@ -570,23 +622,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "chances",
-          "value": "A"
+          "content": "chances"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "responses",
-          "value": "B"
+          "content": "responses"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "missions",
-          "value": "C"
+          "content": "missions"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "benefits",
-          "value": "D"
+          "content": "benefits"
         }
       ],
       "correct_answer": "D",
@@ -606,23 +662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "later",
-          "value": "A"
+          "content": "later"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "slower",
-          "value": "B"
+          "content": "slower"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "faster",
-          "value": "C"
+          "content": "faster"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "earlier",
-          "value": "D"
+          "content": "earlier"
         }
       ],
       "correct_answer": "C",
@@ -642,23 +702,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "forecast",
-          "value": "A"
+          "content": "forecast"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "remember",
-          "value": "B"
+          "content": "remember"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "understand",
-          "value": "C"
+          "content": "understand"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "express",
-          "value": "D"
+          "content": "express"
         }
       ],
       "correct_answer": "C",
@@ -678,23 +742,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "unpredictable",
-          "value": "A"
+          "content": "unpredictable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "contributory",
-          "value": "B"
+          "content": "contributory"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "controllable",
-          "value": "C"
+          "content": "controllable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "disruptive",
-          "value": "D"
+          "content": "disruptive"
         }
       ],
       "correct_answer": "B",
@@ -714,23 +782,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "endeavor",
-          "value": "A"
+          "content": "endeavor"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "decision",
-          "value": "B"
+          "content": "decision"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "arrangement",
-          "value": "C"
+          "content": "arrangement"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tendency",
-          "value": "D"
+          "content": "tendency"
         }
       ],
       "correct_answer": "D",
@@ -750,23 +822,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "political",
-          "value": "A"
+          "content": "political"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "religious",
-          "value": "B"
+          "content": "religious"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ethnic",
-          "value": "C"
+          "content": "ethnic"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "economic",
-          "value": "D"
+          "content": "economic"
         }
       ],
       "correct_answer": "C",
@@ -786,23 +862,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "see",
-          "value": "A"
+          "content": "see"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "show",
-          "value": "B"
+          "content": "show"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "prove",
-          "value": "C"
+          "content": "prove"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tell",
-          "value": "D"
+          "content": "tell"
         }
       ],
       "correct_answer": "A",
@@ -822,23 +902,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "eased his relationship with his rivals",
-          "value": "A"
+          "content": "eased his relationship with his rivals"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "used to enjoy high public support",
-          "value": "B"
+          "content": "used to enjoy high public support"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "was unpopular among European royals",
-          "value": "C"
+          "content": "was unpopular among European royals"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "ended his reign in embarrassment",
-          "value": "D"
+          "content": "ended his reign in embarrassment"
         }
       ],
       "correct_answer": "D",
@@ -858,23 +942,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "to give voters more public figures to look up to",
-          "value": "A"
+          "content": "to give voters more public figures to look up to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "to achieve a balance between tradition and reality",
-          "value": "B"
+          "content": "to achieve a balance between tradition and reality"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "owing to their undoubted and respectable status",
-          "value": "C"
+          "content": "owing to their undoubted and respectable status"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "due to their everlasting political embodiment",
-          "value": "D"
+          "content": "due to their everlasting political embodiment"
         }
       ],
       "correct_answer": "C",
@@ -894,23 +982,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Aristocrats' excessive reliance on inherited wealth.",
-          "value": "A"
+          "content": "Aristocrats' excessive reliance on inherited wealth."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "The role of the nobility in modern democracies.",
-          "value": "B"
+          "content": "The role of the nobility in modern democracies."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "The simple lifestyle of the aristocratic families.",
-          "value": "C"
+          "content": "The simple lifestyle of the aristocratic families."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "The nobility's adherence to their privileges.",
-          "value": "D"
+          "content": "The nobility's adherence to their privileges."
         }
       ],
       "correct_answer": "B",
@@ -930,23 +1022,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "fails to adapt himself to his future role",
-          "value": "A"
+          "content": "fails to adapt himself to his future role"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "fails to change his lifestyle as advised",
-          "value": "B"
+          "content": "fails to change his lifestyle as advised"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "takes republicans as his potential allies",
-          "value": "C"
+          "content": "takes republicans as his potential allies"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "takes a tough line on political issues",
-          "value": "D"
+          "content": "takes a tough line on political issues"
         }
       ],
       "correct_answer": "A",
@@ -966,23 +1062,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Carlos, Glory and Disgrace Combined",
-          "value": "A"
+          "content": "Carlos, Glory and Disgrace Combined"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Charles, Anxious to Succeed to the Throne",
-          "value": "B"
+          "content": "Charles, Anxious to Succeed to the Throne"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Carlos, a Lesson for All European Monarchs",
-          "value": "C"
+          "content": "Carlos, a Lesson for All European Monarchs"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Charles, Slow to React to the Coming Threats",
-          "value": "D"
+          "content": "Charles, Slow to React to the Coming Threats"
         }
       ],
       "correct_answer": "C",
@@ -1002,23 +1102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "prevent suspects from deleting their phone contents",
-          "value": "A"
+          "content": "prevent suspects from deleting their phone contents"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "search for suspects' mobile phones without a warrant",
-          "value": "B"
+          "content": "search for suspects' mobile phones without a warrant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "check suspects' phone contents without being authorized",
-          "value": "C"
+          "content": "check suspects' phone contents without being authorized"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "prohibit suspects from using their mobile phones",
-          "value": "D"
+          "content": "prohibit suspects from using their mobile phones"
         }
       ],
       "correct_answer": "C",
@@ -1038,23 +1142,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disapproval",
-          "value": "A"
+          "content": "disapproval"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "indifference",
-          "value": "B"
+          "content": "indifference"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tolerance",
-          "value": "C"
+          "content": "tolerance"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cautiousness",
-          "value": "D"
+          "content": "cautiousness"
         }
       ],
       "correct_answer": "A",
@@ -1074,23 +1182,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "going through one's wallet",
-          "value": "A"
+          "content": "going through one's wallet"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "handling one's historical records",
-          "value": "B"
+          "content": "handling one's historical records"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "scanning one's correspondences",
-          "value": "C"
+          "content": "scanning one's correspondences"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "getting into one's residence",
-          "value": "D"
+          "content": "getting into one's residence"
         }
       ],
       "correct_answer": "D",
@@ -1110,23 +1222,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "principles are hard to be clearly expressed",
-          "value": "A"
+          "content": "principles are hard to be clearly expressed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the court is giving police less room for action",
-          "value": "B"
+          "content": "the court is giving police less room for action"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "phones are used to store sensitive information",
-          "value": "C"
+          "content": "phones are used to store sensitive information"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "citizens' privacy is not effectively protected",
-          "value": "D"
+          "content": "citizens' privacy is not effectively protected"
         }
       ],
       "correct_answer": "D",
@@ -1146,23 +1262,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the Constitution should be implemented flexibly",
-          "value": "A"
+          "content": "the Constitution should be implemented flexibly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "principles of the Constitution should never be altered",
-          "value": "B"
+          "content": "principles of the Constitution should never be altered"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "California's argument violates principles of the Constitution",
-          "value": "C"
+          "content": "California's argument violates principles of the Constitution"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "new technology requires reinterpretation of the Constitution",
-          "value": "D"
+          "content": "new technology requires reinterpretation of the Constitution"
         }
       ],
       "correct_answer": "D",
@@ -1182,23 +1302,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Science intends to simplify its peer-review process",
-          "value": "A"
+          "content": "Science intends to simplify its peer-review process"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "journals are strengthening their statistical checks",
-          "value": "B"
+          "content": "journals are strengthening their statistical checks"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "few journals are blamed for mistakes in data analysis",
-          "value": "C"
+          "content": "few journals are blamed for mistakes in data analysis"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "lack of data analysis is common in research projects",
-          "value": "D"
+          "content": "lack of data analysis is common in research projects"
         }
       ],
       "correct_answer": "B",
@@ -1218,23 +1342,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "found",
-          "value": "A"
+          "content": "found"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "revised",
-          "value": "B"
+          "content": "revised"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "marked",
-          "value": "C"
+          "content": "marked"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "stored",
-          "value": "D"
+          "content": "stored"
         }
       ],
       "correct_answer": "C",
@@ -1254,23 +1382,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pose a threat to all its peers",
-          "value": "A"
+          "content": "pose a threat to all its peers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "meet with strong opposition",
-          "value": "B"
+          "content": "meet with strong opposition"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "increase Science's circulation",
-          "value": "C"
+          "content": "increase Science's circulation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "set an example for other journals",
-          "value": "D"
+          "content": "set an example for other journals"
         }
       ],
       "correct_answer": "D",
@@ -1290,23 +1422,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "adds to researchers' workload",
-          "value": "A"
+          "content": "adds to researchers' workload"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "diminishes the role of reviewers",
-          "value": "B"
+          "content": "diminishes the role of reviewers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "has room for further improvement",
-          "value": "C"
+          "content": "has room for further improvement"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is to fail in the foreseeable future",
-          "value": "D"
+          "content": "is to fail in the foreseeable future"
         }
       ],
       "correct_answer": "C",
@@ -1326,23 +1462,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Science Joins Push to Screen Statistics in Papers",
-          "value": "A"
+          "content": "Science Joins Push to Screen Statistics in Papers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Professional Statisticians Deserve More Respect",
-          "value": "B"
+          "content": "Professional Statisticians Deserve More Respect"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Data Analysis Finds Its Way onto Editors' Desks",
-          "value": "C"
+          "content": "Data Analysis Finds Its Way onto Editors' Desks"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Statisticians Are Coming Back with Science",
-          "value": "D"
+          "content": "Statisticians Are Coming Back with Science"
         }
       ],
       "correct_answer": "A",
@@ -1362,23 +1502,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the consequences of the current sorting mechanism",
-          "value": "A"
+          "content": "the consequences of the current sorting mechanism"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "companies' financial loss due to immoral practices",
-          "value": "B"
+          "content": "companies' financial loss due to immoral practices"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "governmental ineffectiveness on moral issues",
-          "value": "C"
+          "content": "governmental ineffectiveness on moral issues"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the wide misuse of integrity among institutions",
-          "value": "D"
+          "content": "the wide misuse of integrity among institutions"
         }
       ],
       "correct_answer": "A",
@@ -1398,23 +1542,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Glenn Mulcaire may deny phone hacking as a crime",
-          "value": "A"
+          "content": "Glenn Mulcaire may deny phone hacking as a crime"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "more journalists may be found guilty of phone hacking",
-          "value": "B"
+          "content": "more journalists may be found guilty of phone hacking"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Andy Coulson should be held innocent of the charge",
-          "value": "C"
+          "content": "Andy Coulson should be held innocent of the charge"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "phone hacking will be accepted on certain occasions",
-          "value": "D"
+          "content": "phone hacking will be accepted on certain occasions"
         }
       ],
       "correct_answer": "B",
@@ -1434,23 +1582,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "was hardly convincing",
-          "value": "A"
+          "content": "was hardly convincing"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "centered on trivial issues",
-          "value": "B"
+          "content": "centered on trivial issues"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "revealed a cunning personality",
-          "value": "C"
+          "content": "revealed a cunning personality"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "was part of a conspiracy",
-          "value": "D"
+          "content": "was part of a conspiracy"
         }
       ],
       "correct_answer": "A",
@@ -1470,23 +1622,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a marginalized lifestyle",
-          "value": "A"
+          "content": "a marginalized lifestyle"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unfair wealth distribution",
-          "value": "B"
+          "content": "unfair wealth distribution"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "generally distorted values",
-          "value": "C"
+          "content": "generally distorted values"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a rigid moral code",
-          "value": "D"
+          "content": "a rigid moral code"
         }
       ],
       "correct_answer": "C",
@@ -1506,23 +1662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "The quality of writings is of primary importance.",
-          "value": "A"
+          "content": "The quality of writings is of primary importance."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Moral awareness matters in editing a newspaper.",
-          "value": "B"
+          "content": "Moral awareness matters in editing a newspaper."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Common humanity is central to news reporting.",
-          "value": "C"
+          "content": "Common humanity is central to news reporting."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Journalists need stricter industrial regulations.",
-          "value": "D"
+          "content": "Journalists need stricter industrial regulations."
         }
       ],
       "correct_answer": "B",
@@ -1542,38 +1702,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
-          "value": "A"
+          "content": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at.",
-          "value": "B"
+          "content": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs.",
-          "value": "C"
+          "content": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them.",
-          "value": "D"
+          "content": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out.",
-          "value": "E"
+          "content": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona.",
-          "value": "F"
+          "content": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read.",
-          "value": "G"
+          "content": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read."
         }
       ],
       "correct_answer": "C",
@@ -1593,38 +1760,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
-          "value": "A"
+          "content": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at.",
-          "value": "B"
+          "content": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs.",
-          "value": "C"
+          "content": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them.",
-          "value": "D"
+          "content": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out.",
-          "value": "E"
+          "content": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona.",
-          "value": "F"
+          "content": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read.",
-          "value": "G"
+          "content": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read."
         }
       ],
       "correct_answer": "E",
@@ -1644,38 +1818,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
-          "value": "A"
+          "content": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at.",
-          "value": "B"
+          "content": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs.",
-          "value": "C"
+          "content": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them.",
-          "value": "D"
+          "content": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out.",
-          "value": "E"
+          "content": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona.",
-          "value": "F"
+          "content": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read.",
-          "value": "G"
+          "content": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read."
         }
       ],
       "correct_answer": "G",
@@ -1695,38 +1876,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
-          "value": "A"
+          "content": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at.",
-          "value": "B"
+          "content": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs.",
-          "value": "C"
+          "content": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them.",
-          "value": "D"
+          "content": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out.",
-          "value": "E"
+          "content": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona.",
-          "value": "F"
+          "content": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read.",
-          "value": "G"
+          "content": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read."
         }
       ],
       "correct_answer": "B",
@@ -1746,38 +1934,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room.",
-          "value": "A"
+          "content": "Are we studying that text and trying to respond in a way that fulfils the requirement of a given course? Reading it simply for pleasure? Skimming it for information? Ways of reading on a train or in bed are likely to differ considerably from reading in a seminar room."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at.",
-          "value": "B"
+          "content": "Factors such as the place and period in which we are reading, our gender, ethnicity, age and education will also affect the interpretation we arrive at."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs.",
-          "value": "C"
+          "content": "If you are unfamiliar with words or idioms, you guess at their meaning, using clues from them or the context, or look them up in a dictionary. As you read on, you may make inferences about the characters and about their relationship to each other. You also make more general inferences about the world that the text constructs."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them.",
-          "value": "D"
+          "content": "In effect, you try to reconstruct the likely meanings or intentions of that author, through your interaction with the text, but you cannot be certain of them."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out.",
-          "value": "E"
+          "content": "You make further inferences, for instance, about how the text might be meant to affect the reader, what it might be making the reader feel: surprise, suspense, amusement, disgust, indignation. You also infer information you feel the writer has intentionally left out."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona.",
-          "value": "F"
+          "content": "In plays, novels and narrative poems, characters speak and act within a fictional world, but in poetry and prose the world is also spoken by a voice: a narrator or persona."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read.",
-          "value": "G"
+          "content": "Rather, we ascribe meanings to texts on the basis of interaction between what we already know, what we believe, and what we read."
         }
       ],
       "correct_answer": "A",

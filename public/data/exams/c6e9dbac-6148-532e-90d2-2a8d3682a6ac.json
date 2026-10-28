@@ -85,7 +85,7 @@
       "category_id": "ky1",
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
-      "content": "Directions:\nIn the following article, some sentences have been removed. For Questions 41-45, choose the most suitable one from the list [A]-[G] to fit into each of the numbered blanks. There are two extra choices, which you do not need to use. Mark your answers on the ANSWER SHEET.\n\nOn one level, the case of David Williams v. Aztar Indiana Gaming Corp. is a simple one. The casino issued to him, as a good customer, a \"Fun Card\", which when used in the casino earns points for meals and drinks, and enables the casino to track the user's gambling activities. For Williams, these activities were extensive. He lost $175,000 in two years, and was so broke he had to borrow money from a fellow player to buy meals.\n\nFor Aztar, this was big business: The company says that its slot machine customers who use Fun Cards account for a large majority of its revenue.\n\n[41]\n\nIn March 1998, a friend of Williams's got him involuntarily confined to a treatment center for addictions, and wrote to inform the casino of Williams's gambling problem. The casino included a photo of Williams among those of banned gamblers, and wrote to him that he would not be permitted in the casino until he demonstrated that he had sought treatment.\n\nNoting the \"medical/psychological\" nature of problem gambling behavior, the letter said that before being readmitted to the casino he would have to present medical/psychological information demonstrating that patronizing the casino would pose no threat to his safety or well-being.\n\n[42]\n\nThe Wall Street Journal reports that the casino has 24 signs warning: \"Enjoy the fun... and always bet with your head, not over it.\" Every entrance ticket lists a toll-free number for counseling from the Indiana Department of Mental Health. Nevertheless, Williams's suit charges that the casino, knowing he was \"helplessly addicted to gambling\", intentionally worked to \"lure\" him to \"engage in conduct against his will.\"\n\n[43]\n\nThe fourth edition of the Diagnostic and Statistical Manual of Mental Disorders says \"pathological gambling\" involves persistent, recurring and uncontrollable pursuit less of money than of the thrill of taking risks in quest of a windfall.\n\n[44]\n\nPushed by science, or what claims to be science, society is reclassifying what once were considered character flaws or moral failings as personality disorders akin to physical disabilities.\n\n[45]\n\nForty-four states have lotteries, 29 have casinos, and most of these states are to varying degrees dependent on — you might say addicted to — revenues from wagering. And since the first Internet gambling site was created in 1995, competition for gamblers' dollars has become intense. The Oct. 28 issue of Newsweek reported that 2 million gamblers patronize 1,800 virtual casinos every week. With $3.5 billion being lost on Internet wagers this year, gambling has passed pornography as the Web's most profitable business.\n\n[A] Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected.\n\n[B] It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?\n\n[C] By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit.\n\n[D] Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government.\n\n[E] David Williams's suit should trouble this gambling nation. But don't bet on it.\n\n[F] It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will.\n\n[G] The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?",
+      "content": "On one level, the case of David Williams v. Aztar Indiana Gaming Corp. is a simple one. The casino issued to him, as a good customer, a \"Fun Card\", which when used in the casino earns points for meals and drinks, and enables the casino to track the user's gambling activities. For Williams, these activities were extensive. He lost $175,000 in two years, and was so broke he had to borrow money from a fellow player to buy meals.\n\nFor Aztar, this was big business: The company says that its slot machine customers who use Fun Cards account for a large majority of its revenue.\n\n[41]\n\nIn March 1998, a friend of Williams's got him involuntarily confined to a treatment center for addictions, and wrote to inform the casino of Williams's gambling problem. The casino included a photo of Williams among those of banned gamblers, and wrote to him that he would not be permitted in the casino until he demonstrated that he had sought treatment.\n\nNoting the \"medical/psychological\" nature of problem gambling behavior, the letter said that before being readmitted to the casino he would have to present medical/psychological information demonstrating that patronizing the casino would pose no threat to his safety or well-being.\n\n[42]\n\nThe Wall Street Journal reports that the casino has 24 signs warning: \"Enjoy the fun... and always bet with your head, not over it.\" Every entrance ticket lists a toll-free number for counseling from the Indiana Department of Mental Health. Nevertheless, Williams's suit charges that the casino, knowing he was \"helplessly addicted to gambling\", intentionally worked to \"lure\" him to \"engage in conduct against his will.\"\n\n[43]\n\nThe fourth edition of the Diagnostic and Statistical Manual of Mental Disorders says \"pathological gambling\" involves persistent, recurring and uncontrollable pursuit less of money than of the thrill of taking risks in quest of a windfall.\n\n[44]\n\nPushed by science, or what claims to be science, society is reclassifying what once were considered character flaws or moral failings as personality disorders akin to physical disabilities.\n\n[45]\n\nForty-four states have lotteries, 29 have casinos, and most of these states are to varying degrees dependent on — you might say addicted to — revenues from wagering. And since the first Internet gambling site was created in 1995, competition for gamblers' dollars has become intense. The Oct. 28 issue of Newsweek reported that 2 million gamblers patronize 1,800 virtual casinos every week. With $3.5 billion being lost on Internet wagers this year, gambling has passed pornography as the Web's most profitable business.",
       "sort_order": 6,
       "type": "reading_part_b",
       "passage_number": 5
@@ -102,30 +102,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Indeed",
-          "value": "A"
+          "content": "Indeed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Likewise",
-          "value": "B"
+          "content": "Likewise"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Therefore",
-          "value": "C"
+          "content": "Therefore"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Furthermore",
-          "value": "D"
+          "content": "Furthermore"
         }
       ],
       "correct_answer": "A",
       "explanation": "\n1. \n[A] Ind eed 实际上；甚至\n[BJ Likew i se 同样地；也\n[ CJ Th e refore 因此\n[ DJ Fu rt h ermo r e 此外\n［考点提炼］上下文逻辑关系。正确率：37 %\n［解题思路］首句提到，无家可归者数量越来越多；空格所在的主句指出，无家可归问题已经达到如\n此规模…… 。显然后句中\nreac h ed s uch proportions 是对a growi吨p e r centage 的正向肯定及强调，是对\n其进一步深化说明，［A］既能“肯定前文陈述”，还有“强调前文陈述”的功能，因此为正确答案。\n［错项排除］\n[BJ 常用于“ 比较两种方法、状态、情况等，说明它们的相似性”，而①②两句内容均为\n“无家可归者人数失控”，最先排除；［CJ 利用②句结果状语从句设置干扰，但句间逻辑词是对①句与②句\n主旬内容逻辑的体现，文中“ 比例如此之大（homelessness has reached s uch proportions）”与“人数比例日\n益增长（a growing percentage . .. ）”实属同类情况，而非因果逻辑；［DJ 似乎也含“递进”逻辑，但该词往往\n用于“针对前一论据（观点），补充其他论据（观点）”的情况；而两句并非“并列的论据或观点” 。\n\n【选项释义与词汇辨析】\n[A] Ind eed: 实际上；甚至\n[B] Likew i se: 同样地；也\n[C] Th e refore: 因此\n[D] Furth ermo re: 此外",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 1
     },
     {
       "id": "b1ea9029-e30f-51f7-97e7-3740ec1f07f1",
@@ -137,30 +142,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "stand",
-          "value": "A"
+          "content": "stand"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "cope",
-          "value": "B"
+          "content": "cope"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "approve",
-          "value": "C"
+          "content": "approve"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "retain",
-          "value": "D"
+          "content": "retain"
         }
       ],
       "correct_answer": "B",
       "explanation": "\n2. \n[A] sta nd 容忍；经受，承受\n[BJ cope 应忖，处理\n[CJ ap pro ve 同意；批准\n[ DJ r eta in 保持；记住\n［考点提炼］上下文语义十动词用法。正确率：24 %\n［解题思路］首句指出事实：无家可归者数量越来越多；空格②句强调无家可归问题的严峻程度：已\n达到如此规模，以至于地方政府已经不能\n。\nca n ’ t possib l y （副词poss i b l y 用于“强调某事完全不可\n能发生、完全做不到”）表明空格处动词应表示“政府已经不可能做到某事了”，而政府应有的形象为“主\n动应对社会问题”，②句又是对①句问题程度的递进说明，可推知此处应该是“问题严重到地方政府已经\n处理不了了”；此外，从语法角度来看，空格后为句号，因此空格词必须为不及物动词，选项中只有cop e 既\n\n符合“处理（问题）”的语义，同时满足“不及物”这一语法要求，因此〔BJ 正确。\n［错项排除J [A］利用其“忍受、经受住”这两层含义判断址：“地方政府已经无法容忍该问题、已经抵\n挡不了这一严峻问题”，但政府不应是被动地“容忍或抵挡”某社会问题；其次，取这两项含义时stand 为\n及物动词，其后必须接宾语。选［CJ 的人将文意理解为“无家可归者人数如此之多，以至于地方政府都不\n满意了”，但该词作“赞许；赞成”讲时，需使用～\no f 结构，引出赞许的具体对象。［DJ 共有两层干扰释义，\n一为“把… …保持／控制在某特定地方／情况”之意，但侧重于“维持住现有的情况”，而文中首句a growing \npercentage （无家可归者日益增多）表明情势在日趋恶化，也就不存在“维持住某情况” 一说；二为\nto\nremember information ，利用“人数比例如此之大，以至于政府都无法记得清”设置干扰，但“具体数字（是\n否弄得清、日得清）”并非文章重点，重点在于“无家可归问题已经成为社会难题”。另外从语法上看，\nreta i n 一词并无不及物动词的用法。\n\n【选项释义与词汇辨析】\n[A] sta nd: 容忍；经受，承受\n[B] cope: 应忖，处理\n[C] ap pro ve: 同意；批准\n[D] r eta in: 保持；记住",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 2
     },
     {
       "id": "17d1f168-edca-5dfd-8125-b31010abe68d",
@@ -172,30 +182,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in",
-          "value": "A"
+          "content": "in"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for",
-          "value": "B"
+          "content": "for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "with",
-          "value": "C"
+          "content": "with"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "toward",
-          "value": "D"
+          "content": "toward"
         }
       ],
       "correct_answer": "D",
       "explanation": "3. \n[A] \ni n 在… … 方面\n[BJ for 给，对；为了\n[CJ w i th 在…… 方面\n[ DJ toward i剖，向\n［考点提炼］上下文语义＋介词用法。正确率：21 % \n［解题思路］空格句指出，为了帮助无家可归者\n自立，联邦政府必须支持就业培训项目等。\nTo help \ni ndependenc巳为目的状语，而联邦政府措施的目的只能是帮助无家可归的人“从不自立变\n得自立” 。〔DJ 可以传达“产生、达成某种结果”这一目标趋向，即“走向自立”，符合文意。\n［错项排除］\n[ A］与h e l p 搭配使用表示“在某方面帮助某人”时，i n 之后通常不直接加\nst h ，而是he l p\nin doing sth ，因此文中只能是to help homeless people in achieving independence; [ BJ 与h e l p 一起出现时严\n格来讲不属于固定搭配，因为介词for 含义丰富，本身有“目的、时间、原因”之意，偶尔可以引出“需要帮\n忙的事情” ，即h e l p sb for( doing) st h ，但该表达通常为口语，并不正规，当动作明显的情况下，doing 还常\n常省略，如he l p me for( making) d i n ner ，注意：两句中的帮忙者必须对d i nner, paper 直接发出动作，而文\n中为independence ，不适用于这一结构（政府不能对“独立性”施以动作）; [CJ 与\nhe l p 可以构成固定搭配\nhelp sb with st h ，但w i t h 表示“关于… …，在…… 方面”，其后内容必须是“ 有待参与操作或帮忙改进的具\n体方面”，如h e l p us with imp l ementat ion“在执行方面协助我们（参与执行）”，而文中\ni ndependence （独立\n性）为一种“期许达成的状态”，属于帮助所要达成的结果。",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 3
     },
     {
       "id": "c439b036-0cf7-5439-acea-5062fbb9bc9b",
@@ -207,30 +222,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "raise",
-          "value": "A"
+          "content": "raise"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "add",
-          "value": "B"
+          "content": "add"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "take",
-          "value": "C"
+          "content": "take"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "keep",
-          "value": "D"
+          "content": "keep"
         }
       ],
       "correct_answer": "A",
       "explanation": "4. [ A] ra i se 提高\n[BJ add 增加，添加\n［考点提炼］动宾搭配。正确率：57 %\n[CJ ta k e 拿，取；接受\n[ DJ keep 保留；保持\n［解题思路］作者在③句对联邦政府展开敦促（must .. . ）。三项措施为并列的动宾结构（and ），因此\nthe minimum wage(\n最低工资）”应该和“ s u pport job training programs （支持就业培训项\n目）”、“ fund more low-cost hous ing（资助建设更多廉价住房）”一样，是对无家可归者有利的积极性政策，\n只有“提高最低工资（标准）”符合这一逻辑，［A］正确。\n［错项排除］\n[ BJ 利用“增加（工资）”这一释义设置干扰，但该词用法为a dd ( X) to Y , X 表示“增加\n（添加）的内容”，Y 表示“被增加（添加）的对象”，此处“最低工资”是被增加的对象，搭配不当；［CJ 与宾语\nthe minimum wage 连用，表示“拿最低工资”，一方面有违“帮助无家可归者”的大语境，另一方面，文中主\n语为“联邦政府”，显然语义混乱；［DJ 强调“保持情况不变”，对于无家可归者并无实质性帮助。",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 4
     },
     {
       "id": "b3ed77f3-eaf0-5eed-be9a-2ad8c5ba4602",
@@ -242,30 +262,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Generally",
-          "value": "A"
+          "content": "Generally"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Almost",
-          "value": "B"
+          "content": "Almost"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Hardly",
-          "value": "C"
+          "content": "Hardly"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Not",
-          "value": "D"
+          "content": "Not"
         }
       ],
       "correct_answer": "D",
       "explanation": "5. \n[A] Generally 普遍地；一般地\n[B] Almost 几乎，差不多\n[C] Hardly 几乎不\n[D] Not 不是\n［考点提炼］上下文逻辑语义。正确率：45%\n［解题思路］根据下文②句 600,000 to 3 million 及③句 the figure may vary 可判断，①句含义应为“人们对于无家可归者的具体数字没有统一定论（此处 agree 指‘对……取得一致意见’）”；［D］常与不定代词 all/both/everyone/everything 等连用，表示部分否定，符合文意。\n［错项排除］［A］和［B］均表达肯定含义，与句群整体导向不符；［C］强调“几乎没有（almost not）”，常与 any 和 anyone 搭配，而不与 some/someone/everyone 搭配。",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 5
     },
     {
       "id": "f839c96d-1fe4-5193-be2b-d63581f77d7e",
@@ -277,30 +302,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "cover",
-          "value": "A"
+          "content": "cover"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "change",
-          "value": "B"
+          "content": "change"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "range",
-          "value": "C"
+          "content": "range"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "differ",
-          "value": "D"
+          "content": "differ"
         }
       ],
       "correct_answer": "C",
       "explanation": "6. [A] cover 覆盖；行走，占据\n[B] change 变化\n[C] range 变化，变动\n[D] differ 看法不一致，不同\n［考点提炼］动词辨析。正确率：58%\n［解题思路］空格句含义为：（对无家可归者的）估算数字在 60 万到 300 万之间。空格处动词应可以接 anywhere from... to... 结构，表示“从 60 万到 300 万”的变化范围，［C］ range 可以与 from... to... 连用，表示“（在一定范围内）变化，变动”，符合文意。\n［错项排除］［A］ cover 后接数字时指“行走一段距离”或“占一片面积”，但宾语为固定数值而非数值范围；［B］接 from A to B 时表示“从 A 变成 B”，强调质变而非范围变动；［D］ differ 表示不同，estimates differ 后面接介词短语 on the homeless population，不接范围数值。",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 6
     },
     {
       "id": "8fadbe51-5c27-5d3c-ae19-773af77125c9",
@@ -312,30 +342,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Now that",
-          "value": "A"
+          "content": "Now that"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Although",
-          "value": "B"
+          "content": "Although"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Provided",
-          "value": "C"
+          "content": "Provided"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Except that",
-          "value": "D"
+          "content": "Except that"
         }
       ],
       "correct_answer": "B",
       "explanation": "7. \n[ A] Now that 既然，由于\n[BJ Altho u g h 虽然，尽管\n[ CJ Provid e d 倘若……才会……\n[ DJ Except t hat 除了……之外都；要不是由于，只可惜\n［考点提炼］旬内逻辅关系。正确率：6 4 %\n〔解题思路］空格所在分句“估计数值可能各不相同（figure may va ry）”与主句“ 的确达成共识（do agree \non）”之间语义存在转折关系，且主句中强调词do 加强语气，可推知语义重点在后半句，因此前半句应为让\n步逻辑，目n ：虽然在一件事上意见不一，但在另一件事上达成了共识，只有［BJ利合要求。\n［错项排除J\n[ A ］引出某事的原因正CJ 引出某事发生的条件，但文中“对数量的估计可能各不相同”\n不会是主句“在另一方面达成共识”的原因或条件；［DJ 常表示“除某部分外，其余部分都适用的情况”，\n如，Th e play went well , except that a few people forgot their lines. （演出很顺利，只是有几个人忘了台\n词。），但此处关键词\na noth er m atte r 表明主从句之间并非“部分与整体” 的关系，因此“排除”关系不能成\n立；Excep t\nth at 还可用于“说明某事没做成或没发生的原因”，如，I would have had a perfect score except \nthat I missed the last question. （要不是最后一道题没答对，我会得满分的。），此用法中，主句通常使用虚\n拟语气，与事实相反；而文中“分析家达成共识”是已经发生的事实。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 7
     },
     {
       "id": "36d4a8e3-2b7f-5d74-a31e-96f690c080ce",
@@ -347,30 +382,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "inflating",
-          "value": "A"
+          "content": "inflating"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "expanding",
-          "value": "B"
+          "content": "expanding"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "increasing",
-          "value": "C"
+          "content": "increasing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "extending",
-          "value": "D"
+          "content": "extending"
         }
       ],
       "correct_answer": "C",
       "explanation": "8. \n[A] infl at ing 膨胀，涨价\n[BJ expa nding 扩大，增加\n[ CJ \ni ncreas ing 增加\n[ D] ex t ending 延伸\n［考点提炼］动词搭配与辨析。正确率：80%\n［解题思路］空格下文④句指出，到这个十年结束之时，无家可归者的数量将达到近1900 万，与上文\n②句“从60 万到300 万不等”相比，无家可归者的数量呈增加l 趋势，且符合首段“ 问题相当严峻” 的基调，\n故空格处应表示“增加”的含义。\n四个选项都有“增加，扩张”的含义，解题关键在于词语的搭配。\n巳去IJ 主\n语为the number ，与之搭配的只能是［CJ 表示“无家可归者的人数正在增加” 。\n［错项排除J [A］表“膨胀”时指“（使… … ）充气”，表“抬高、涨高” 时，一般就“价格”而言，如\nth e pnce \ninflat es （价格上涨）;[BJ 可表示“（某事物在程度、大小、尺寸、体积、范围、区域等方面的）增加、扩充”，但\n\n其主语一般为“ 事物本身”，而不能是“数字或数量” ，如th e population expa nd s （人口增民）; [ DJ 强调“（长\n度或时间上）延长、延伸；（范围上）扩大，扩展”，亦无法与\nt h e numb e r 搭配。\n\n【选项释义与词汇辨析】\n[A] infl at ing: 膨胀，涨价\n[B] expa nding: 扩大，增加\n[C] i ncreas ing: 增加\n[D] ex t ending: 延伸",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8
     },
     {
       "id": "9a79ec2f-34cd-5d16-b804-10c2ae8bbc05",
@@ -382,30 +422,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "predicts",
-          "value": "A"
+          "content": "predicts"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "displays",
-          "value": "B"
+          "content": "displays"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "proves",
-          "value": "C"
+          "content": "proves"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "discovers",
-          "value": "D"
+          "content": "discovers"
         }
       ],
       "correct_answer": "A",
       "explanation": "9. [ A] pred i cts 预测\n[CJ pro ves 证明，证实\n[BJ di s pl ays 陈列，展示；显示\n[ DJ di scove r s 发现，发觉\n［考点提炼］旬内i吾义。正确率：72 %\n［解题思路］由空格后\nt h at 从句中的一般将来时w ill reach .\n. .以及表将来的时间状语\nb y the end of\nthis d ec a d e 可推知，研究内容涉及的是尚未发生的事情，故研究只能是推测或预测性的，［A］符合文意。\n［错项排除］\n[BJ 针对的对象为“ 既成的情况或事实” ，而文中di sp l a y 后为\nt h at 宾语从句，是对未来情\n况的具体预测内容，不属于“ 既成”的内容。值得注意的是：“ s pl ay a prediction/ v i 巳w/op ini o n （展示某观\n点／看法／预测）这种说法是成立的（其后还可以接\nth at 同位语从句，说明观点或预测的具体内容），因为\n这里的\np r e d i ct i o n / view/ o pini o n 是展示者已经生成的看法，属于既成的内容，和d i sp l ay 搭配，单纯表示\n“展示自己的某看法” ；［CJ 可接th at 宾语从旬，表示“提出证据证明某事的真实性”，但空格后内容涉及的\n是未来卡年无家可归者数量的增长，这一研究的真实与否尚不确定；［DJ 表示“发现，发觉（以前不知道的\n事物）”，出II 发现的对象是“真实存在” 的，而非“未来的，当前还不存在” 的内容。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 9
     },
     {
       "id": "3d978d7e-a819-55ca-89ef-76a7e62578c6",
@@ -417,30 +462,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assist",
-          "value": "A"
+          "content": "assist"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "track",
-          "value": "B"
+          "content": "track"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sustain",
-          "value": "C"
+          "content": "sustain"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "dismiss",
-          "value": "D"
+          "content": "dismiss"
         }
       ],
       "correct_answer": "A",
       "explanation": "10. [ A] ass i s t 帮助，辅助\n[BJ t rac k 跟踪，追踪\n[ C] s u s ta in 维持；支撑\n[DJ di sm i ss 遣散；ffi!~ 雇\n［考点提炼］上下文语义＋动词辨析。正确率：33%\n［解题思路］空格同和其后\nt hi s growing homeless po pul a tion 构成功宾搭配。\n由于下文主要围绕“如\n何解决无家可归者问题（存在困难，需要一揽子计划）”展开，可推知空格处应表示“帮助，协助” ，同时也\n契合首段第三句To help homeless people .\n. .所传达的全文主旨，［A]ass i st 符合文章、。\n［错项排除］\n[ BJ 侧重“跟踪某人或事物的进展情况” ，但“跟踪问题”无益于“政府解决无家可归者问\n\n题”，脱离主题；［CJ 侧重“维持当前现状”，但文章开篇就提及“无家可归者数量过多”，s u sta i n this \ngrowing homeless popu l at i on 显然无益于无家可归问题的解决；［DJ 意为\nto tell someone that they are \nallowed to go , or are no longer need e d ，但“遣散某人，将某人打发走”为消极手段，与首段末“积极帮助无\n家可归者走向自立”的内容不符，而且“遣散大批无家可归者”并不现实。\n［技巧点拨］解答知识运用题时需“瞻前顾后”。本题形式上考查动词辨析，内容上考查对上下文语\n义的理解。空格句位于段首，下文均围绕“帮助无家可归者”展开，不难确定正确项为“帮助” 。",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 10
     },
     {
       "id": "7ff49f25-bcef-522e-a6d7-9a269e4b43a6",
@@ -452,30 +502,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Hence",
-          "value": "A"
+          "content": "Hence"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "But",
-          "value": "B"
+          "content": "But"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Even",
-          "value": "C"
+          "content": "Even"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Only",
-          "value": "D"
+          "content": "Only"
         }
       ],
       "correct_answer": "C",
       "explanation": "11. [A] Hence 因此\n[B] But 但是\n[C] Even 甚至，连，即使\n[D] Only 只有；不过（连词）\n［考点提炼］句内逻辑关系。正确率：52%\n［解题思路］空格上文①句指出，找到能够帮助日益增多的无家可归者的方法变得日益困难；空格句继而指出，即使无家可归者设法找到提供三餐与住宿的地方，仍然有很多人每天大部分时间流落街头。主句中关键词 still 暗示从句和主句间为让步转折逻辑，Even when 意为“即使当……时”，契合让步语境，［C］正确。\n［错项排除］［A］表因果；［B］为并列连词，不能置于 when 从句前引导让步状语；［D］ Only when 引导充分必要条件，与主句 still 矛盾。",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 11
     },
     {
       "id": "418ea2cb-f746-5d8e-b34f-7e36d8d53c0c",
@@ -487,30 +542,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "lodging",
-          "value": "A"
+          "content": "lodging"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "shelter",
-          "value": "B"
+          "content": "shelter"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "dwelling",
-          "value": "C"
+          "content": "dwelling"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "house",
-          "value": "D"
+          "content": "house"
         }
       ],
       "correct_answer": "B",
       "explanation": "12. [A] l odging 寄宿处；租住的房间\n[BJ s h e l ter 收容所\n[ C] dw e llin g 住所\n[ DJ ho u se 住宅\n［考点提炼］名词辨析。正确率：48 %\n［解题思路］空格后that 引导的定语从句对空格词解释说明：为（无家可归者）提供一日三餐和l 夜间\n住宿的地方。\n空格词必须具备“为流浪者提供三餐和住宿”的属性，四个选项都有“住所、住处”的含义，\n但只有［BJ\ns h e l t e r 特指“收容所”，11 11 “为无家可归者提供食物和住宿的地方” 。\n［错项排除J\n[ A ］作可数名词时，表示“ 支付租金的租住房间”，但无家可归者正是因为生活窘困、无\n力租房或买房才无家可归，故排除；［CJ 表示“生活的寓所、住所”，［DJ 表示“居住的建筑物”，均泛指“居住\n的地方”，并不涉及“提供三餐”这一救济福利，且与全文核心群体“无家可归者”没有关联。",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 12
     },
     {
       "id": "b202dc22-35c7-5af4-8337-20e49d1b784d",
@@ -522,30 +582,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "searching",
-          "value": "A"
+          "content": "searching"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "strolling",
-          "value": "B"
+          "content": "strolling"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "crowding",
-          "value": "C"
+          "content": "crowding"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "wandering",
-          "value": "D"
+          "content": "wandering"
         }
       ],
       "correct_answer": "D",
       "explanation": "13. [A] sea rc hin g 搜索，搜查\n[BJ strolling 汹达，闲逛\n[CJ crowd i ng 挤满\n[DJ wander i ng 闲逛，流浪\n［考点提炼］动词辨析。正确率：46 %\n［解题思路］句中\ns ti ll 表明，大部分无家可归者在找到收容所后仍然继续先前的生活状态（即，流浪\n的生活）。从内容上看，空格处应表示“流浪，游荡”这层含义；从语法上看，必须为及物动词，［DJ 正确。\n［错项排除］［A］作及物动词时指“为寻找某人或某东西而搜查某地”，有明确的目的性，但此处\nthe street 后没有指出目的，无法形成完整逻辑；且无家可归者之前的生活状态并非“搜查街道”，故该项与\nsti ll 所传达的文意不符。［BJ 和［DJ 一样都有“溜达、闲逛”之意，但\ns t ro ll 意为\nto walk somewhere in a slow \nrelaxed way ，强调一种“ 悠闲、放松”的状态，不符合“无家可归者”毫无目的、四处漂泊的状态；［CJ 仅指“将某\n地挤满”，而“挤满街道”也可以是“游行示威者、节日中的人们”的行为动作，元法体现流浪汉最典型的生活\n特点“居无定所、搜无目的”，也就不能反映“无家可归问题异常严峻”这一段落主旨。\n［技巧点拨］动词辨析需考虑：①上下文语义是否对应；②语法搭配是否恰当；③感情色影是否得当。\n14. [ A] w h e n 当\n；虽然\n[ BJ onc e 一旦\n[CJ w hil e 而，然而；虽然\n[ DJ w h e r eas 然而，但是\n［考点捏炼］逻辑关系。正确率：47 %\n［解题思路］空格所在从句意为，这部分人不酬酒也不吸毒，精神正常；主句意为，他们缺乏… …日常\n技能。可以看1+1 ，前者强调他们“与正常人无异”的情况，而后者指出他们“和正常人不同”的情况（即“为\n何会沦落到无家可归勺，因此两句间为“让步→转折”的逻辑，空格词位于从句，应该能引出“让步从句”，\n[CJ位于句首时，用法常常等同于a l tho u gh ，引导让步逻辑，符合文意。\n［错项排除］\n[ A ］虽然也可以表让步，如Sh e stopped when she ought to have conti nued. （尽管她应该\n继续下去，可她却停住了。），但该词引出的内容，往往使句子其他部分（事实或评论）显得让人吃惊或不\n\n大可能，而文中“不酬酒l吸毒”不代表就“理应拥有基本生活技能”；［BJ 表条件，但“不吸烟酬酒”并非“缺\n乏日常技能”的条件；［DJ用以比较或对比两种截然对立的情况，此处主从句主语相同，均是对“其他无家\n可归者”的介绍，且“不酬酒吸毒，精神正常”与“缺乏……技能”不构成截然相反的对立关系。",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 13
     },
     {
       "id": "6895081d-b73a-56f9-950b-7a1c05d0a0ed",
@@ -557,30 +622,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "when",
-          "value": "A"
+          "content": "when"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "once",
-          "value": "B"
+          "content": "once"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "while",
-          "value": "C"
+          "content": "while"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "whereas",
-          "value": "D"
+          "content": "whereas"
         }
       ],
       "correct_answer": "C",
       "explanation": "14. [ A] w h e n 当\n；虽然\n[ BJ onc e 一旦\n[CJ w hil e 而，然而；虽然\n[ DJ w h e r eas 然而，但是\n［考点提炼］逻辑关系。正确率：47 %\n［解题思路］空格所在从句意为，这部分人不酬酒也不吸毒，精神正常；主句意为，他们缺乏… …日常\n技能。可以看1+1 ，前者强调他们“与正常人无异”的情况，而后者指出他们“和正常人不同”的情况（即“为\n何会沦落到无家可归勺，因此两句间为“让步→转折”的逻辑，空格词位于从句，应该能引出“让步从句”，\n[CJ位于句首时，用法常常等同于a l tho u gh ，引导让步逻辑，符合文意。\n［错项排除］\n[ A ］虽然也可以表让步，如Sh e stopped when she ought to have conti nued. （尽管她应该\n继续下去，可她却停住了。），但该词引出的内容，往往使句子其他部分（事实或评论）显得让人吃惊或不\n大可能，而文中“不酬酒l吸毒”不代表就“理应拥有基本生活技能”；［BJ 表条件，但“不吸烟酬酒”并非“缺\n乏日常技能”的条件；［DJ用以比较或对比两种截然对立的情况，此处主从句主语相同，均是对“其他无家\n可归者”的介绍，且“不酬酒吸毒，精神正常”与“缺乏……技能”不构成截然相反的对立关系。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 14
     },
     {
       "id": "d1184402-2c15-566b-a0fa-f6e08271b536",
@@ -592,30 +662,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "life",
-          "value": "A"
+          "content": "life"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "existence",
-          "value": "B"
+          "content": "existence"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "survival",
-          "value": "C"
+          "content": "survival"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "maintenance",
-          "value": "D"
+          "content": "maintenance"
         }
       ],
       "correct_answer": "C",
       "explanation": "15. [ A]\n\nli f e 生命，生活\n\n[ BJ ex i ste nce 生活（方式）；存在\n\n[CJ s ur v i val 生存，幸存\n\n[ DJ maint e nance 维护\n\n【考点提炼】名词辨析＋习惯搭配。正确率：54 %\n\n【解题思路】空格所在部分为⑤句主句，指出无家可归者缺乏日常\n\n技能。前文指出，他们即使\n\n找到了有三餐住宿的收容所，仍然有很多人在流浪。\n\n由此可知，元家可归者缺乏的应是人类最根本、最\n\n基本的技能，【CJ 强调“排除危难，存活下来”，s u rv i val\n\ns kills 指基本的“生存技能”，符合文意。\n\n【错项排除】[ A] life 十skill s 干扰性较强，但该短语外延更大，不仅包括“生存技能”，还包括“进一步\n\n追求发展的技能”；〔BJ表示“生活方式”，属抽象名词，通常不与skill s 搭配；【DJ后接skills 指“维修技能” 。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15
     },
     {
       "id": "be967e9f-7b3b-5193-bcae-58e1da765af9",
@@ -627,30 +702,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "around",
-          "value": "A"
+          "content": "around"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "over",
-          "value": "B"
+          "content": "over"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "on",
-          "value": "C"
+          "content": "on"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "up",
-          "value": "D"
+          "content": "up"
         }
       ],
       "correct_answer": "A",
       "explanation": "16. [ A]( turn) around 使转身；使好转，扭转\n[BJ C tur川\nover 使翻转；翻身\n[ CJ ( turn) o n 打开，启动\n[ D](turn) up 调高\n［考点提炼］固定词组。正确率：19 %\n［解题思路］根据上下文可知，无家可归者的各种需求目前并未得到满足，因此他们继续流浪生活\n的原因应该是“缺乏改善生活所必须的技能”，选项中可以与turn 搭配，表示“改善”生活含义的只有［A]\nturn aro und 表示从“不好”到“好”这一转变，呼应首段“帮助流浪者走向自立” 。\n［错项排除］\n[ BJ 表示“将物体翻转”或“翻身”这一具体实际的动作，并无“生活好转”的喻义；［C J 表\n示“启动（机器），打开（电视机等）” ，［DJ 意为“调高（音量等）”，均与“无家可归者基本的生存技能”无关。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 16
     },
     {
       "id": "477b81b6-39dd-5ff5-baae-5d6cc8e34103",
@@ -662,30 +742,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "complex",
-          "value": "A"
+          "content": "complex"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "comprehensive",
-          "value": "B"
+          "content": "comprehensive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "complementary",
-          "value": "C"
+          "content": "complementary"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "compensating",
-          "value": "D"
+          "content": "compensating"
         }
       ],
       "correct_answer": "B",
       "explanation": "17. [ A] comp l ex 复杂的\n[ BJ com p re h e nsive 综合的，全面的\n[ C] comp l em e nt ary 互补的，补充的\n[ DJ comp e nsating 补偿的，弥补的\n［考点提炼］上下文语义＋形容词辨析。正确率：34%\n［解题思路］③至⑤句分析了无家可归问题难以解决的多方面原因，空格所在的⑥句引记者之言提\n出建议：只有通过\n的规划以解决无家可归的许多问题，局面才会好转。\n由句中many needs of the\nhom e l ess 以及前文“无家可归者或酬酒、吸毒，或有精神问题，或缺乏基本生活技能” 可知，流浪者存在的\n问题各不相同，再结合末句Wha t ’ s needed is a package deal （需要的是一揽子计划）可知，解决方案肯定\n是“综合多方面考虑的、全面的”，而不是仅仅提供“吃、住”，［BJ 符合文意。\n［错项排除］\n[ A］强调“错综复杂、难以理解”，而上文已经将无家可归问题邓以解决的各方面原因分\n析清楚，因此解决方案尽管可以包含许多不同内容，但从内容上来说应族是“明了的”，而非“难懂的”；\n[CJ 强调“事物或人结合起来相互补足、弥补”，但暗示各部分要素大体不错，只是存在些许不足，其他要\n素能使之完美。前文己暗示“单纯提供收容所”治标不治本（许多流浪者问题并不在于“没有食物和住\n所勺，侧面否定了“该手段很具效力，只是存在一些缺陷，需要弥补”；［DJ 侧重“ 补偿损失、弥补过失”，流\n浪者问题主因并不在政府，而且，仅仅“补偿”并不能真正解决“无家可归者欠缺生存技能”的问题。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 17
     },
     {
       "id": "2c553d86-d8cd-56b4-b0eb-a95f9c47f9d1",
@@ -697,30 +782,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "So",
-          "value": "A"
+          "content": "So"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Since",
-          "value": "B"
+          "content": "Since"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "As",
-          "value": "C"
+          "content": "As"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Thus",
-          "value": "D"
+          "content": "Thus"
         }
       ],
       "correct_answer": "C",
       "explanation": "18. [ A] So 所以；那么\n[BJ Since 自从；因为，既然\n[CJ As 正如，如同\n[ DJ Thus 因而，从而\n［考点提炼］上下文逻辑关系。正确率：6 0%\n［解题思路］空格上文提到，一位记者认为只有通过全面规划解决元家可归者的各种需求，这种局\n面才能得到改善；空格句引出另一专业人士的观点：需要一揽子计划。\n由此可见，两位人士谈的都是全\n面规划的重要性，观点一致，上下文应为顺承关系。［CJ 有“ 用于表明所说的话已为人所知或已经说过”\n的语用功能，常常用于对前文所述内容进行论证，符合文意。\n［错项排除］\n[A］也可以用于引出评论或问题，但一般出现在两个人的对话当中，为非正式用语：［BJ\n引出原因或时间，［DJ 引出结果，但文中两句为内容类似的观点句，故排除两项。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 18
     },
     {
       "id": "bc5f4b3d-6aea-5847-ba55-d3489a26f335",
@@ -732,30 +822,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "puts",
-          "value": "A"
+          "content": "puts"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interprets",
-          "value": "B"
+          "content": "interprets"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "assumes",
-          "value": "C"
+          "content": "assumes"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "makes",
-          "value": "D"
+          "content": "makes"
         }
       ],
       "correct_answer": "A",
       "explanation": "19. [ A] put s 说，表达\n\n[ BJ int erpr e t s 解释，说明\n\n[ CJ assumes 假定，设想\n\n[ DJ ma kes 领会；解释\n\n【考点提炼】固定搭配＋熟词僻意。正确率：1 3%\n\n【解题思路】空格句引号内的内容是该主任的话语，因此空格处应该体现“ 表达，说”这层含义，选项\n\n中只有【A]\n\nputs 符合要求。注：as sb puts it 是固定结构，意为“正如某人所说” 。\n\n【错项排除J [BJ 指对某事的含义进行“解释，阐释”，而引号内为Z l otkowski 的直白建议，而非对某\n\n问题的深层阐释；【CJ侧重假设性情况，与引号内所引用的Z l otkowski 的真实观点不符；【D J 利用其“给\n\n出意见、解释（to judge, reckon, or give one’s own opinion or information as to . . . ）”等释义设置干扰，但\n\n该用法需要与介词。【搭配，如：What do you make of the idea? （你对这个主意有什么想法？）。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 19
     },
     {
       "id": "40bd0547-b29e-57e5-9631-cc8c9512d013",
@@ -767,30 +862,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "supervision",
-          "value": "A"
+          "content": "supervision"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "manipulation",
-          "value": "B"
+          "content": "manipulation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "regulation",
-          "value": "C"
+          "content": "regulation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "coordination",
-          "value": "D"
+          "content": "coordination"
         }
       ],
       "correct_answer": "D",
       "explanation": "20. \n[A] supervision 监督，管理\n[B] manipulation 操纵，控制\n[C] regulation 管理，调节\n[D] coordination 协调，配合\n［考点提炼］上下文语义＋名词辨析。正确率：32%\n［解题思路］As Edward Zlotkowski ... puts it（正如……所说）暗示本句与上文为顺承关系，即引另一位专家观点来进一步阐释上句内容。句中 a package deal（一揽子计划）对应上句 comprehensive programs（综合、全面的规划），换种说法阐明了方案性质，选项中与 of programs 搭配，能表示“各部分规划以高效的、条理的方式一同运作，配合并协调，从而达成好的结果”的只有［D］coordination。\n［错项排除］其余三项均为单一的行为举措，其中［A］［C］利用“监管、管理”这类政府惯有职能设置干扰，但这种单一举措与上下文强调的“措施应全面、综合”相矛盾；［B］侧重于“为一己之私的操控行为”，其感情色彩为贬义，不符合政府积极解决社会问题的应有角色。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 20
     },
     {
       "id": "0cdea91c-bdf4-508a-bd44-7e17bb086b3c",
@@ -802,30 +902,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "identifying",
-          "value": "A"
+          "content": "identifying"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "associating",
-          "value": "B"
+          "content": "associating"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "assimilating",
-          "value": "C"
+          "content": "assimilating"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "monopolizing",
-          "value": "D"
+          "content": "monopolizing"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］文章首句指出，尽管（人们）无休止地谈论差异，美国社会却是an amazing machine for homogenizing people。②句进一步解释指出，美国大众文化有着“服饰和言语上大众化的一致，以及随意和不拘礼节”的特点。可见homogenizing含义和“差异（difference）”相对，而与“大众化的一致（uniformity）”同义，［C］ assimilating（同化，使同化）符合文意。\n［命题解密］正确项［C］既把握了文章开篇句中despite一词提示的转折让步逻辑（“同化”与difference相对），又把握了①②句间的解说逻辑（“同化”与uniformity同向），同时紧扣全文中心“移民正迅速融入美国共同文化”。\n［A］ identifying意为“确认；识别”，［B］ associating意为“使联系；结合”，［D］ monopolizing意为“垄断，独占”，均偏离“消除差异、实现一致与同化”的行文主旨。\n［技巧总结］词义猜测题要求考生根据上下文推测生词的含义。解题时需紧扣上下文逻辑关系：一方面利用句内逻辑（如despite所表达的让步转折），另一方面利用句际关系（第二句对首句的补充说明）。此外，开篇句往往与全文主旨紧密相关，抓住全文主题词“移民融入美国社会”也有助于锁定［C］。",
       "points": 2,
       "sort_order": 21,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 21
     },
     {
       "id": "22c97389-9f83-52ad-8cd8-91a7ee6b8e10",
@@ -837,30 +942,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "played a role in the spread of popular culture",
-          "value": "A"
+          "content": "played a role in the spread of popular culture"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "became intimate shops for common consumers",
-          "value": "B"
+          "content": "became intimate shops for common consumers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "satisfied the needs of a knowledgeable elite",
-          "value": "C"
+          "content": "satisfied the needs of a knowledgeable elite"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "owed its emergence to the culture of consumption",
-          "value": "D"
+          "content": "owed its emergence to the culture of consumption"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］首段②句指出大众文化有着服饰和言语上大众化的一致，以及随意和不拘礼节的特点。③④⑤句指出：人们被一种由 19 世纪的百货商店掀起的消费文化同化，当时的百货商店将购物转变为一种公共和大众的行为。概括可知，19 世纪的百货商店在传播大众文化方面发挥了重要作用，［A］正确。\n\n［命题解密］正确项［A］是对文中 ... launched a culture of consumption ... turned shopping into a public and democratic act 等内容的概括。\n\n［干扰排除］\n［B］将文中信息“百货商店与私密商店存在本质不同（Instead of intimate shops ... these were stores ...）”改为“百货商店成为了私密商店（became intimate shops）”。\n［C］偷换概念：满足有见识的精英人士需求（satisfied the needs of a knowledgeable elite）的不是百货商场（department stores of the 19th century）而是私密商店（intimate shops）。\n［D］颠倒因果：将“19 世纪的百货商店是消费文化出现的原因（... a culture of consumption launched by the 19th century department stores）”改为“19 世纪的百货商店出现的原因是消费文化（owed its emergence to the culture of consumption）”。\n\n［技巧总结］本题意在考查学生区分概念、理清关系的能力。解题时需要从“启动逻辑推理，得出正确项”和“理解事实细节，识别干扰项”两个角度同时进行，并不断相互检测排除矛盾、最终确定正确项。",
       "points": 2,
       "sort_order": 22,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 22
     },
     {
       "id": "8fd357b6-b1d1-5a4a-966f-e614b1c00da5",
@@ -872,30 +982,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are resistant to homogenization",
-          "value": "A"
+          "content": "are resistant to homogenization"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "exert a great influence on American culture",
-          "value": "B"
+          "content": "exert a great influence on American culture"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are hardly a threat to the common culture",
-          "value": "C"
+          "content": "are hardly a threat to the common culture"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "constitute the majority of the population",
-          "value": "D"
+          "content": "constitute the majority of the population"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］根据题干定位到第二段。①句指出，移民正迅速融入美国共同文化，这不大能提升共同文化，但也几乎没什么害处。可见作者认为如今的移民对美国的共同文化几乎不构成威胁。\n［命题解密］正确项［C］是对第二段表明作者观点的关键句quickly fitting into this common culture, but doing it with little impact on the common culture的准确提炼，hardly a threat同义替换little impact。\n［A］ are resistant to homogenization与第二段①句quickly fitting into...截然相反。［B］ exert a great influence on American culture与little impact相反，夸大了移民对美国文化的影响。［D］ constitute the majority of the population将第二段②句提及的统计数据（如今出生的移民占美国总人口的9.8%）夸大为constitute the majority of the population，属于典型的数量夸大干扰项。\n［技巧总结］本题属于事实细节题中的推理引申题。解题关键在于准确理解第二段作者的态度倾向：通过fit into this common culture和little impact，作者客观指出移民既迅速同化又未对主流文化造成负面冲击，因此［C］“几乎不构成威胁”是合乎逻辑的正确推断。",
       "points": 2,
       "sort_order": 23,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 23
     },
     {
       "id": "794d4a90-3efb-5fd5-84f7-1c56ef1ff4ab",
@@ -907,30 +1022,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "To prove their popularity around the world.",
-          "value": "A"
+          "content": "To prove their popularity around the world."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "To reveal the public' s fear of immigrants.",
-          "value": "B"
+          "content": "To reveal the public' s fear of immigrants."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "To give examples of successful immigrants.",
-          "value": "C"
+          "content": "To give examples of successful immigrants."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "To show the powerful influence of American culture.",
-          "value": "D"
+          "content": "To show the powerful influence of American culture."
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第五段首先指出，全世界偏远乡村的儿童都是美国明星的粉丝，随后转折指出，然而某些美国人却担心有些移民不受同化影响（威胁美国社会）。可见，本句实则借两人实例说明：美国文化影响力惊人，无需担心移民会不受同化影响，［D］正确。\n［命题解密］正确项［D］是对第五段前半句深层含义的解读，以施瓦辛格和加斯·布鲁克斯为例，旨在证明美国大众文化具有无孔不入的强大征服力和影响力。\n［A］ To prove their popularity around the world停留在字面例子本身，未能把握举例的写作目的。［B］ To reveal the public's fear of immigrants将第五段后半句某些美国人的担忧（some Americans fear）与举例目的颠倒，举例是为了反驳这种担忧。［C］ To give examples of successful immigrants偷换概念，施瓦辛格虽是移民，但加斯·布鲁克斯是美国本土乡村歌手，两人并非都是移民范例。\n［技巧总结］本题考查例证题（写作目的题）。做例证题的黄金法则是“跳出例子看论点”：例子本身往往是干扰项的来源（如A选项证明他们受欢迎），而举例的目的永远是为了支撑前后的论点。第五段围绕美国大众文化的全球影响力展开，以此打消人们对移民不能被同化的疑虑，因此［D］直指论点核心。",
       "points": 2,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24
     },
     {
       "id": "45c21ffb-8d8a-554b-b4e7-6e1f884d470b",
@@ -942,30 +1062,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "rewarding",
-          "value": "A"
+          "content": "rewarding"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "successful",
-          "value": "B"
+          "content": "successful"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "fruitless",
-          "value": "C"
+          "content": "fruitless"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "harmful",
-          "value": "D"
+          "content": "harmful"
         }
       ],
       "correct_answer": "B",
       "explanation": "【精准定位】该题考查作者态度，需纵观全文。第一段提出主旨：美国社会是一部强大的“同化机器”。第二至四段通过“移民成功融入美国大众文化，不会带来威胁”论证主旨。第五、六段提出对立观点“一些美国人担心移民对同化免疫”并加以反驳。由此可见，移民的融入没有给美国社会带来威胁，即美国对移民的吸收同化是成功的，【B】正确。\n【命题解密】正确项【B】是对全文主旨的把握，贯穿全文的an amazing machine for homogenizing people, quickly fitting into this common culture, succeeded in taking people from all over the world... 均证明同化是成功的（successful）。\n【A】 rewarding表示“有回报的；值得做的”，文中并未从经济回报或利益角度评估同化过程。【C】 fruitless表示“毫无成果的”，与全文“成功同化”的主题背道而驰。【D】 harmful表示“有害的”，属于文中反驳的对立面观点。\n【技巧总结】本题属于态度题与主旨题的结合。考生需把握全文情感基调，区分作者观点与他人观点：作者坚信美国文化同化机器的强大力量，对移民同化持积极肯定的态度；文中所出现的担忧（fear, resistant）均为反驳的靶子，不可将其误当成作者观点。",
       "points": 2,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 25
     },
     {
       "id": "dfd0f630-28b6-5e9e-a9fc-3b71bade0d4c",
@@ -977,30 +1102,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the townsfolk deny the RSC's contribution to the town's revenue",
-          "value": "A"
+          "content": "the townsfolk deny the RSC's contribution to the town's revenue"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the actors of the RSC imitate Shakespeare on and off stage",
-          "value": "B"
+          "content": "the actors of the RSC imitate Shakespeare on and off stage"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the two branches of the RSC are not on good terms",
-          "value": "C"
+          "content": "the two branches of the RSC are not on good terms"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the townsfolk earn little from tourism",
-          "value": "D"
+          "content": "the townsfolk earn little from tourism"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第二段首句明确指出：小镇居民怀疑剧院是否为他们增添了哪怕是一分钱的收入。\n可\n见，小镇居民不认为剧院（即RSC）为小镇的财政收入做出了贡献，［A］正确。\n［命题解密］正确项［A ］是对第二段首句的同义改写，其中\nth e\ntownsfolk 对应\nthe residents of \nStratford; deny 对应doubt.. . adds a penny; the RSC's contr由ution to the town’s revenue 对应the theater \nadds . . . to their revenue 。\n[ BJ 曲解第二段②③句“莎士比亚本人也有RSC 演员们的某些特点”文意，将其言外之意“靠莎士比\n亚为生的小镇居民不应厌恶演员们的举止”改为“演员们台上台下均在模仿莎士比亚” 。［CJ 将第一段①\n句所表明的“有两个敌对分支”的主体由原文的“小镇（in Stratford）”偷换为“皇家莎士比亚剧团（RSC ）” 。\n[DJ 与第一段③句信息“小镇居民在很大程度上依赖旅游者生活（largely li ve off th\n\n【选项释义与词汇辨析】\n[B] the actors of the RSC imitate Shakespeare O: 口 a nd",
       "points": 2,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26
     },
     {
       "id": "f4829d5f-5ec3-5736-8a4a-246b7a36ba5e",
@@ -1012,30 +1142,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the sightseers cannot visit the Castle and the Palace separately",
-          "value": "A"
+          "content": "the sightseers cannot visit the Castle and the Palace separately"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the playgoers spend more money than the sightseers",
-          "value": "B"
+          "content": "the playgoers spend more money than the sightseers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the sightseers do more shopping than the playgoers",
-          "value": "C"
+          "content": "the sightseers do more shopping than the playgoers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the playgoers go to no other places in town than the theater",
-          "value": "D"
+          "content": "the playgoers go to no other places in town than the theater"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第三段中作者比较了两类旅游目的不同的小镇游客的特点：观光客只观光，不看戏，也\n不留宿；而看戏者既看戏又抽时间观光，还会在小镇上留宿，并将大把的钱花在酒店和餐馆中。\n据此可\n推知，看戏者比观光客在小镇上花钱要多，［BJ 正确。\n［命题解密］正确项［BJ 是对第三段具体信息的概括推理。\nthe playgoers spend more money than the \ns ight seers 囊括段中就“ p l aygoers 和\ns ight see r s 在小镇花费情况”暗含的对比（③④句vs ②⑤句）。\n[ A］将①句separat e 和②句..\n. Castle and ... Palace on the s id e 稼杂，篡改了②句原义“观光客经常\n会在参观小镇时顺路去参观城堡和宫殿”。［CJ 将⑤句T h e sightseers can take in everyth ing 含义“观光\n客会（匆匆）浏览完所有景点” 曲解为“ 观光客会大量购物” 。［DJ对③句反向干扰，与原文“看戏者会设法\n抽出时间观光（do manage a little sight-seeing",
       "points": 2,
       "sort_order": 27,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 27
     },
     {
       "id": "f86eaf88-61b7-5350-a9ce-3898aaf02266",
@@ -1047,30 +1182,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Stratford cannot afford the expansion projects",
-          "value": "A"
+          "content": "Stratford cannot afford the expansion projects"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Stratford has long been in financial difficulties",
-          "value": "B"
+          "content": "Stratford has long been in financial difficulties"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the town is not really short of money",
-          "value": "C"
+          "content": "the town is not really short of money"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the townsfolk used to be poorly paid",
-          "value": "D"
+          "content": "the townsfolk used to be poorly paid"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第四段②句上文指出，小镇市政没有直接补贴RSC ；下文指出，但小镇上每家旅馆\n都在扩建，希尔顿集团也在此兴建豪华酒店。\n可推知本段论述逻辑：小镇以“穷”为借口不给予RSC\n补贴，而事实是小镇并非真穷，否则没能力大兴土木，［CJ 正确，cry poor 恰好相合中文“哭穷”内涵。\n［命题解密］正确项［CJ合理解读②句所II音含的作者讽刺态度，且能和上文因果Jl[yj接，和下文构成转折。\n[ A］对③句事实“小镇各旅馆均在扩建（every hotel. . seems to be adding ... ）”反向干扰，改为“小镇\n负担不起扩张项目的费用” 。［B〕断章取义，将\ncries poor （哭穷〉直接等同于\npoor （真穷）。［DJ 捕风捉\n影，利用poo r 一同捏造选项，实际上与原文内容无关。\n［技巧总结］本题针对“体现作者强烈观点的短句”命制句意推断题。\nf(J!/c 答这类题目需：一、对句子本\n身从语言、逻辑等方面进行初步的理解推理；二、从上下文寻找对本句的解释、说明、例证（同向）或反驳、\n揭露（反\n\n【选项释义与词汇辨析】\n[A] Stratford can: 口ot afford the expansion projects",
       "points": 2,
       "sort_order": 28,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 28
     },
     {
       "id": "439020bb-39d7-51dc-89ba-a9e124fb627b",
@@ -1082,30 +1222,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "ticket prices can be raised to cover the spending",
-          "value": "A"
+          "content": "ticket prices can be raised to cover the spending"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the company is financially ill-managed",
-          "value": "B"
+          "content": "the company is financially ill-managed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the behavior of the actors is not socially acceptable",
-          "value": "C"
+          "content": "the behavior of the actors is not socially acceptable"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the theatre attendance is on the rise",
-          "value": "D"
+          "content": "the theatre attendance is on the rise"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第五段首句指出小镇居民不明白为什么RSC 需要补贴，括号内说明其理由：剧院的上\n座率已经连续三年打破记录，去年全年保持了94 % 的上座率，今年的形势更好。\n［DJ 正确。\n［命题解密］正确项［DJ 是对括号内解释内容的高度概括。\n[ A］过度引申④句，但该句是“本文作者观点”，与“ 小镇居民看法”无直接关联。\n［BJ 对括号内容．．\n．\nbroken. . this year they’II do b e tt e r 断章取义，做出有悖原义的理解“公司管理不善，今年有望好转” 。\n[ CJ 强加l 因果：利用第二段②句事实Th ey frankly di s l ik巳the RSC's actors .\n.\n. 得出“小镇居民认为演员的\n行为不可接受” ，但这和他们“反对给予剧团补贴”没有直接因果关系。\n［技巧总结］本题就“文中人物观点”命制因果细节题。解答此类题目的关键在于：一、正确划分意\n群，分清观点所属，避免命题人用其他人物观点或作者本人观点做干扰。\n二、正确识别因果关系，即便选\n\n项确实属于所考人物观点，但若和题干不存在直接因果关系，也应排除。\n如本题，可借助副词Anyway 和of course 的提示作\n\n【选项释义与词汇辨析】\n[A] ticket prices can be raised to cover the sp: 巳nding",
       "points": 2,
       "sort_order": 29,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 29
     },
     {
       "id": "5a11e894-2007-5a7b-9161-011b5065bf44",
@@ -1117,30 +1262,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is supportive of both sides",
-          "value": "A"
+          "content": "is supportive of both sides"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "favors the townsfolk's view",
-          "value": "B"
+          "content": "favors the townsfolk's view"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "takes a detached attitude",
-          "value": "C"
+          "content": "takes a detached attitude"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is sympathetic to the RSC",
-          "value": "D"
+          "content": "is sympathetic to the RSC"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］作者在第一段介绍RSC 时，使用明显褒义的表达\np rese nt s superb productions of the \np l ays ；第二段谈到小镇居民对RSC 演员的厌恶时，用It ’s all deliciously iro n i c 进行了辛辣的｜嘲讽；第三段\n则通过指\n:-I＂，“看戏的人除了看戏之外还会游览景点”来支持RSC 观点“看戏者带来了小慎的大部分收\n入”，驳斥小镇居民看法“ R SC 没有增加小镇收入”；第四段通过描述小镇大兴土木的情景驳斥小镇以穷\n为借口不支持RSC 的做法；最后一段借指出“提高票价会将那些真正热爱莎剧的年轻人拒之门外”表明\n作者观点“应该给RSC 提供补贴” 。\n由此可见，作者一直是同情和支持RSC 的，［DJ 正响。\n［命题解密］正1if(j 项［DJ 高度概括作者立场“ RSC 不应受到小镇居民的排斥，理应得到补贴” 。\n[ A］与作者在\nlt ’s all deli ciously ironic,c ri es poor tra diti o n a ll y 等语句中所表达的“批驳、讽刺小镇居\n民” 的态度相悖。\n［BJ 只意识到作者对双方观点的交叉介绍，未能体会：－H 字里行间暗中传达的作者\n，主，身\n态度。［CJ 将作者对小镇居民和l RSC 之争的态度rlti fflr 为“中立的、不偏不倚的”，而实际上作者用大量树\n靶一批驳结构、强调句式、以及情感强烈的词语表明自己“明显站",
       "points": 2,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30
     },
     {
       "id": "5f8398b2-0f73-57f8-9b5a-a587d8815b87",
@@ -1152,30 +1302,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "large animals were vulnerable to the changing environment",
-          "value": "A"
+          "content": "large animals were vulnerable to the changing environment"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "small species survived as large animals disappeared",
-          "value": "B"
+          "content": "small species survived as large animals disappeared"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "large sea animals may face the same threat today",
-          "value": "C"
+          "content": "large sea animals may face the same threat today"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "slow-growing fish outlive fast-growing ones",
-          "value": "D"
+          "content": "slow-growing fish outlive fast-growing ones"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］文章首三句描述“史前大型动物灭绝”，末句指出“类似情况可能正在海洋中上演” ，下文各段\n都围绕“海洋生物”展开，故提及“史前大型动物的灭绝”是为了引出“大型海洋生物的灭绝威胁”，［CJ正确。\n［命题解密］正确项［CJ 为第一段④句的同义改写（face the same threa t 将\nsom e thing simi lar 明确\n化），是对前文T h e large, slow-growing animals ... easy game . . . hunted to ex tin c tion 与下文\nth e seas are \nbeing ove rfi s h ed 的概括。\n[ A ］中\nth e changing e nv i ronm e nt 囚①句\nin new parts of the wo rld 而来，但原文隐性传达“人类到达\n新大陆后对大型动物的猎杀”，而非表明“ 大型动物受到环境变化的影响” 。［BJ 因①句\nth ey/ large \nanimals suddenly became ext i",
       "points": 2,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31
     },
     {
       "id": "273f4075-28ba-571f-a99f-42dd5722f1dd",
@@ -1187,30 +1342,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the stock of large predators in some old fisheries has reduced by 90%",
-          "value": "A"
+          "content": "the stock of large predators in some old fisheries has reduced by 90%"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "there are only half as many fisheries as there were 15 years ago",
-          "value": "B"
+          "content": "there are only half as many fisheries as there were 15 years ago"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the catch sizes in new fisheries are only 20% of the original amount",
-          "value": "C"
+          "content": "the catch sizes in new fisheries are only 20% of the original amount"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the number of large predators dropped faster in new fisheries than in the old",
-          "value": "D"
+          "content": "the number of large predators dropped faster in new fisheries than in the old"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第二段⑤句指出，新渔场在被开发后的 15 年中大型食肉鱼类减少 80%，即剩下 20%。⑥句指出，一些长期捕鱼的地区，生物量自那之后又减少了一半，即再减 10%。因此，旧渔场中大型食肉鱼类共减少了 90%，［A］正确。\n\n［命题解密］正确项［A］是对第二段⑤⑥句内容进行简单计算得出的结果。old fisheries 对应文中 long-fished areas，结合句中的数据计算：减少了 80% + (20% × 1/2) = 90%。\n\n［干扰排除］\n［B］误将原文中 15 年前大型食肉鱼类生物量减少了 80% 曲解为渔场数量减少了一半。\n［C］曲解文意，新渔场的捕捞量并不是原来总量的 20%，而是生物量减少了 80%。\n［D］无中生有，文中并未将新渔场和旧渔场中大型食肉鱼类减少的速度进行比较。\n\n［技巧总结］细节推断题解题时需要严格依据原文提供的数据和逻辑关系进行计算或推导，不能凭常识主观臆断。",
       "points": 2,
       "sort_order": 32,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 32
     },
     {
       "id": "30fd56c9-4bc9-5300-8a8a-fd33f369dc61",
@@ -1222,30 +1382,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "fishing technology has improved rapidly",
-          "value": "A"
+          "content": "fishing technology has improved rapidly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the catch-sizes are actually smaller than recorded",
-          "value": "B"
+          "content": "the catch-sizes are actually smaller than recorded"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the marine biomass has suffered a greater loss",
-          "value": "C"
+          "content": "the marine biomass has suffered a greater loss"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the data collected so far are out of date",
-          "value": "D"
+          "content": "the data collected so far are out of date"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］所考句为第三段首句，②至⑧句均是对其所做的原因解释。其中④句明确指出现在军II\n过去之间的真正差异很可能比捕捞量变化所显示出的差异更大，也即海洋生物量遭受更严重的损失，远\n非数据所能体现出来。［CJ 正确。\n［命题解密］正确项［C J 是对集中体现首句含义的④句的合理概括：th e\nca tch-s i zes 对应\na... \nproportion of what is in the s ea ，为th e s e figures 所指；suffer ed a greater lo ss 是对\nr eal difference between \npresent and past is likely to be wors e 的概括，解释con s ervativ e 含义。\n[ A ］利用第三段②句\nfi s hing technology has improved 干扰，但“技术进步”是导致“ 数据保守（figures \nare co n servativ e ）”的原因，非其“ 含义” 。［BJ 利用④句worse tha",
       "points": 2,
       "sort_order": 33,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 33
     },
     {
       "id": "39c9055b-9d25-54a1-8492-9d0879473663",
@@ -1257,30 +1422,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "people should look for a baseline that can work for a longer time",
-          "value": "A"
+          "content": "people should look for a baseline that can work for a longer time"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "fisheries should keep their yields below 50% of the biomass",
-          "value": "B"
+          "content": "fisheries should keep their yields below 50% of the biomass"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the ocean biomass should be restored to its original level",
-          "value": "C"
+          "content": "the ocean biomass should be restored to its original level"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "people should adjust the fishing baseline to the changing situation",
-          "value": "D"
+          "content": "people should adjust the fishing baseline to the changing situation"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第四段①句指出\nDr.\nMy e rs 认为自己的工作提供了“正确的基线”。②③句说明\nDr.\nM ye rs 等对现有变化基线的看法：只回顾过去二段较短时间，因此未能发觉海洋中的巨大变化。④句进\n一步指出，只有当目标物种的生物量不低于其原始水平的50% 时，才能从渔场中获得最大持续渔获量。\n可知D r.\nMye rs 等研究者观点：肯定“变化基线”，但提出应以较长时间之前的生物量水平作为基线参照\n才能更准确反映海洋生物量的巨大变化，即，应该根据变化的形势进行调整、以反映变化，［DJ 正确。\n［命题解密］正确项［DJ 是对第四段②③句研究者观点的合理推断，同时④句中\nits original l eve l s 复\n数形式也契合“根据情况调整基线，得到不同的原始水平借以参照”之意。\n[ A］干扰来自③句\nl oo king back only a relatively short tim e ，但该句意在说明“ 基线测量方法的时间\n跨度应该更长”，而不是强调“基线发挥作用（can\n\n【选项释义与词汇辨析】\n[B] fisheries shou ld keep th: 巳ir yields below 50 % of the",
       "points": 2,
       "sort_order": 34,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 34
     },
     {
       "id": "151116e1-ae2f-59d0-8235-bf41c9beafe8",
@@ -1292,30 +1462,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "management efficiency",
-          "value": "A"
+          "content": "management efficiency"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "biomass level",
-          "value": "B"
+          "content": "biomass level"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "catch-size limits",
-          "value": "C"
+          "content": "catch-size limits"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "technological application",
-          "value": "D"
+          "content": "technological application"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第一段指出海洋生物濒临灭绝的现状；第二、三段借一项研究具体说明海洋生物量的急剧减少；第四段建议渔场在正确基线的指导下，合理安排捕捞量，维持一定的生物量水平以确保可持续发展。可见，［B］“生物量水平”是作者始终关注的对象。\n［命题解密］正确项［B］为全文的论述对象，biomass 及同义表达 changes in that biomass、the biomass of large predators、real difference (in biomass) between present and past、fish stocks、the massive changes、the biomass of a target species 等多次复现贯穿全文。\n［错项排除］［A］干扰源于末段首句 management efforts（管理活动），但这仅涉及研究意义，无法涵盖全篇。［C］利用文中复现词汇 catch-size 设置干扰，具有一定迷惑性，但“捕捞量”仅仅是影响“生物量变化”的一个因素，不是文章中心话题。［D］干扰源于第三段②句的 fishing technology，“技术应用”是解释“实际生物量遭受更大损失”的原因之一，不是全篇中心。\n［技巧总结］本题以“中心关注点”的形式考查考生对文章的宏观把握。考生解题的关键在于分清主次：微观层面上，要对每个段落进行句意梳理、大意总结，再抠出段落关键词；宏观层面上，根据每个段落大意，找到或者提炼出能够将各段落意义联系起来的枢纽语段或中心词。正确项应该是贯穿全文的主线、中心词，而错误项则不一定会体现在所有段落中。\n本文第一段指出海洋生物濒临灭绝（数量剧减）的现状；第二段借研究指出过度捕捞导致“海洋生物量的剧减（changes in biomass）”；第三段指出生物量实际变化其实很可能更为严重；第四段则指出正确的基线应该准确反映生物量的变化，渔场应在此基础上合理安排捕捞，维持一定的生物量水平，实现可持续发展。可见各段落按照“概括指出海洋生物量锐减——以研究发现说明海洋生物量变化之快——进一步指出研究还可能低估了海洋实际生物量的变化——建议维持一定生物量水平以谋求可持续发展”的逻辑展开，“生物量水平”贯彻始终。［B］选项正确。",
       "points": 2,
       "sort_order": 35,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 35
     },
     {
       "id": "f1211f66-e85a-542a-b98f-15e360b9a5ef",
@@ -1327,30 +1502,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "poetry is not as expressive of joy as painting or music",
-          "value": "A"
+          "content": "poetry is not as expressive of joy as painting or music"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "art grows out of both positive and negative feelings",
-          "value": "B"
+          "content": "art grows out of both positive and negative feelings"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "poets today are less skeptical of happiness",
-          "value": "C"
+          "content": "poets today are less skeptical of happiness"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "artists have changed their focus of interest",
-          "value": "D"
+          "content": "artists have changed their focus of interest"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第一段指出现代艺术家喜欢表达悲伤主题；第二段指出过去并非如此，最早期的艺术形式最适合表达快乐主题，但大约从 19 世纪开始，艺术家们开始认为快乐虚假无聊。随后举例指出华兹华斯《水仙花》向波德莱尔《恶之花》的转变。显然，作者举例意在以点带面说明艺术家关注点从“积极情感”到“负面情感”的改变，［D］正确。\n\n［命题解密］正确项［D］artists have changed their focus of interest 概括前两段 focus on the ones that feel bad ... This wasn’t always so ... best suited for expressing joy 所体现的今昔变化。\n\n［干扰排除］\n［A］将第二段用以证实不同论点的例子［绘画和音乐（painting and music）用以说明最早期艺术最适合表达快乐主题，诗歌（daffodils ... flowers of evil）用以说明艺术家对快乐看法的渐次转变］杂糅设置干扰，而文中并未将“绘画”和“音乐与诗歌”进行比较。\n［B］将文中的“转变关系——艺术从关注正面情感变化为关注负面情感”改为“共存关系——艺术既产生于正面情感也产生于负面情感（both ... and ...）”。\n［C］将第二段③句（所考事例例证对象）“艺术家们开始质疑快乐（began seeing happiness as meaningless ... boring）”改为与之相悖的“艺术家们不再那么质疑快乐”。\n\n［技巧总结］第一、二段重在今昔对比说明变化，紧就其中涉及的举例命题，实则变相考查两段主旨。解答此题时需：先借助“路标词”和“反义表达”识别今昔对比逻辑；后对信息进行具体区分，并理清例子究竟归属于哪一方。",
       "points": 2,
       "sort_order": 36,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 36
     },
     {
       "id": "e11bb72b-05e0-566d-9f6b-92ee8a8834d5",
@@ -1362,30 +1542,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "religious",
-          "value": "A"
+          "content": "religious"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "unpleasant",
-          "value": "B"
+          "content": "unpleasant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "entertaining",
-          "value": "C"
+          "content": "entertaining"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "commercial",
-          "value": "D"
+          "content": "commercial"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］考查词所在的第五段④句以Given all t hi s（鉴于这一切0 ）表明该句与上文因果逻辑：①②\n③句指出，早期人们周围处处都是痛苦的提示：工作到精疲力竭、生活没有保障、且早早便会去吐，同时被\n宗教提醒灵魂处于危险之中，肉体终将被蠕虫咄噬；④句作结指出结果：这种情况下，人们不再需要艺术也\n成为一个bummer 。\n可见，bummeri吾义色影应该同上，与reminders of misery 相似，只有［BJ正确。\n［命题解密］正确项［BJ unpl easan t 是对和前文所述“早期人们的悲苦生活”及“教堂的苦难提醒”的\n特征（exhausted, few protections, died young, in danger, become meat for worms）的概括。\n[ A］源自第五段①句，但该句用以说明“宗教教导人们无论是生前还是死后都是痛苦的”，并非“艺\n术带有宗教性（r e li gious ）” 。\n［CJ 利用常识“艺术具有娱乐功能（e nt e rtaining）”形成干扰，但这无法体现所\n考词上文内容（早期人类的悲惨处境）。［DJ 源自第六段①句comm e r c ial ，但这是关于“现代社会”的内\n容，而所考同bumm er 是描述“早期社会”涉及词汇，语境错位。\n［技巧总结］同义题旨在考查对上下文（句内、句问甚至段间）逻辑关系的把握。当文中存在本身较\n为抽象且承载关键语义的短语或表达，且含有对比、比较、因果等逻辑关系时，则很可能会考查词义推\n理。解答此类题目需：一、根据路标词判断主要逻",
       "points": 2,
       "sort_order": 37,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 37
     },
     {
       "id": "8c235e7d-f16f-5709-82c2-4065a2a0872f",
@@ -1397,30 +1582,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emerges in the wake of the anti-happy art",
-          "value": "A"
+          "content": "emerges in the wake of the anti-happy art"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is a cause of disappointment for the general public",
-          "value": "B"
+          "content": "is a cause of disappointment for the general public"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "replaces the church as a major source of information",
-          "value": "C"
+          "content": "replaces the church as a major source of information"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "creates an illusion of happiness rather than happiness itself",
-          "value": "D"
+          "content": "creates an illusion of happiness rather than happiness itself"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第六段④句指出，商业信息（广告）不可告人的秘密便是诱使人们花钱，这使得幸福这一\n概念本身变得虚假不可靠，⑤句进而以一则“只宣扬幸福却未提示潜在危险的药品广告”为例加以说明。\n由此可知广告带给我们的幸福实际上是一种不真实的、不可靠的幸福，［DJ 正确。\n［命题解密］正确项［DJ 是第六段④⑤句make the very idea of happiness seem unreliable . .. increase \nthe risk of heart a tt acks 的概括引申。\n[AJ颠倒第四段③句中时间先后：将“反幸福艺术跟随商业文化（以广告为代表）而至”（ant i- happy art \nalmost exactly tracks the emergence of mass media, and with it , a commercial c ulture）改为与之相反的“广告\n尾随反幸福艺术而至”。［BJ 源自第七段②句disappointment 一间，而该词旨在说明“最大的快乐隐藏着最\n大的失望（the greatest joy ... the greatest potential for di sappointment）”，而非说明“广告",
       "points": 2,
       "sort_order": 38,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 38
     },
     {
       "id": "2a6e84a5-d809-57e7-81c3-681cb3cccb5a",
@@ -1432,30 +1622,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "happiness more often than not ends in sadness",
-          "value": "A"
+          "content": "happiness more often than not ends in sadness"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the anti-happy art is distasteful but refreshing",
-          "value": "B"
+          "content": "the anti-happy art is distasteful but refreshing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "misery should be enjoyed rather than denied",
-          "value": "C"
+          "content": "misery should be enjoyed rather than denied"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the anti-happy art flourishes when economy booms",
-          "value": "D"
+          "content": "the anti-happy art flourishes when economy booms"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］末段③句指出：我们需要艺术来告诉我们“你终将死亡，万事皆会结束，幸福的到来不在于否认这一点而在于与之共生”；④句进而指出：（艺术告诉我们的）这个信息比丁香烟还要苦涩却带来一缕清新空气。由此可知，作者认为反幸福艺术令人不悦却使人头脑清醒，［B］正确。\n［命题解密］正确项［B］是对末段③④句内容的高度概括，其中 distasteful 对应 you will die, that everything ends、bitter 等；refreshing 对应 we need art to tell us、a breath of fresh air 等。\n［错项排除］［A］将②句 carry the greatest potential for loss and disappointment（幸福之中暗藏痛苦的可能）曲解为“幸福以悲伤告终”。［C］将③句中 living with it（应该忍受痛苦）偷换成“应该享受痛苦”。［D］将①句中 our economy depends on us forgetting that happiness is more than pleasure without pain（我们的经济依赖于盲目的幸福）曲解为“反幸福艺术随经济的兴盛而繁荣”。\n［技巧总结］作者于末段提出自己观点并升华主题，命题人于此考查考生总结段落信息的能力，侧面考查考生对全篇主旨的把握。解题的关键是结合本段乃至全文信息理解段末比喻修辞。\n具体解题思路为：首先可从两个层面理解末段前三句信息：我们生活中充斥着幸福的承诺（surrounded by），我们忘记了幸福并非是没有痛苦的快乐（we forget...），基于这一情形，我们需要艺术来提醒我们痛苦的存在以及学会忍受（we need art to tell us...）。借此可理解段末比喻内涵：现代的（反幸福）艺术虽然苦涩却令人清醒，初步判定［B］正确。［D］中言及反幸福艺术与经济的关系，并非文章讨论重点，且违背①句所述关系。［A］、［C］则分别篡改②、③句信息，最终敲定［B］为答案。",
       "points": 2,
       "sort_order": 39,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 39
     },
     {
       "id": "f5607fb8-9373-5d40-995a-f1a5c5c58f4e",
@@ -1467,30 +1662,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Religion once functioned as a reminder of misery.",
-          "value": "A"
+          "content": "Religion once functioned as a reminder of misery."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Art provides a balance between expectation and reality.",
-          "value": "B"
+          "content": "Art provides a balance between expectation and reality."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "People feel disappointed at the realities of modern society.",
-          "value": "C"
+          "content": "People feel disappointed at the realities of modern society."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Mass media are inclined to cover disasters and deaths.",
-          "value": "D"
+          "content": "Mass media are inclined to cover disasters and deaths."
         }
       ],
       "correct_answer": "A",
       "explanation": "【精准定位】第五段③句指出教堂提醒信徒们灵魂处于危险之中、肉体会被蠕虫吞噬；第七段③句也表明宗教曾经告诉我们死亡终将降临、一切终将结束。由此不难推知［A］正确。\n\n【命题解密】正确项［A］中 reminder of misery 来自第五段 reminders of misery，是第五段 their souls were in danger... be meat for worms... 及第七段 that you will die, that everything ends 等信息的概括。\n\n【排除干扰】\n［B］将艺术的作用“提醒人们痛苦的现实（art to tell us that you will die, that everything ends）”偷换成“提供期望和现实之间的平衡（provides a balance between expectation and reality）”，文中并未谈及“期望与现实之间的平衡”问题。\n［C］利用末段②句中 disappointment 设置干扰，而该词是在说明“幸福与失望（即痛苦）并存（joy... carry... disappointment）”，并未谈及人们对现代社会失望（disappointed at the realities of modern society）。\n［D］将早期教堂传播的内容（the church... reminded...）说成是现代大众媒体倾向于报道的内容（are inclined to），将过去移位到现在。\n\n【技巧总结】本题是一道典型的考查考生理解和把握全文能力的题目，要求考生抓住全文多个关键词之间关系，充分理解作者观点态度。解题时可采取推理正确项（符合文中的逻辑关系和作者的观点态度）和排除错误项（明确每个错误项的“错点”）相结合的方法。\n具体来看本题，初步浏览四个选项可发现，全文关键词 art, modern society, mass media, religion, reminder of misery 均出现，这时考生应意识到自己需要结合作者观点（可参考前面几题）来分析这些关键词之间的关系。进一步分析发现，四个选项大体根据第五段以及第七段而来，这时考生可锁定这两段为解题关键信息。最后对比发现，［A］两段都涉及，符合第五段③句信息，并与末段中③句相契合（as religion once did），且符合作者观点（如今的反幸福艺术起到这一功能），判定为正确项；［B］、［C］与第七段信息相矛盾、［D］将第五段所述“早期教堂”所做之事套在现代“大众传媒”身上，故均可排除。",
       "points": 2,
       "sort_order": 40,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 40
     },
     {
       "id": "17b05b02-5369-5d74-a38c-192579a1cb67",
@@ -1502,45 +1702,53 @@
       "options": [
         {
           "key": "A",
-          "text": "Although no such evidence was presented, the casino operator was still actively encouraging his destructive habit through targeted mailings and VIP perks.",
-          "value": "A"
+          "value": "A",
+          "text": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected.",
+          "content": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected."
         },
         {
           "key": "B",
-          "text": "It is unclear what external luring was required, given his acknowledged compulsive behavior and internal psychological vulnerability.",
-          "value": "B"
+          "value": "B",
+          "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?",
+          "content": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?"
         },
         {
           "key": "C",
-          "text": "By the time he had lost $5,000 he said to himself that he would quit, but the casino's seductive promotional environment kept him playing.",
-          "value": "C"
+          "value": "C",
+          "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit.",
+          "content": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit."
         },
         {
           "key": "D",
-          "text": "Gambling has been a common feature of American life, transformed over decades from a social vice into an officially sanctioned source of state tax revenue.",
-          "value": "D"
+          "value": "D",
+          "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government.",
+          "content": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government."
         },
         {
           "key": "E",
-          "text": "Williams' lawsuit will likely do little to curb the nation's widespread gambling mania, given state governments' heavy fiscal dependence on lottery and casino revenues.",
-          "value": "E"
+          "value": "E",
+          "text": "David Williams's suit should trouble this gambling nation. But don't bet on it.",
+          "content": "David Williams's suit should trouble this gambling nation. But don't bet on it."
         },
         {
           "key": "F",
-          "text": "Disturbingly, contemporary society is medicalizing more and more behavioral problems, redefining weak personal willpower as an involuntary medical addiction.",
-          "value": "F"
+          "value": "F",
+          "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will.",
+          "content": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will."
         },
         {
           "key": "G",
-          "text": "Online gambling provides an anonymous, private, and 24-hour uninterrupted environment that accelerates addictive financial losses.",
-          "value": "G"
+          "value": "G",
+          "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?",
+          "content": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?"
         }
       ],
       "correct_answer": "C",
       "explanation": "41.【答案】C\n【考点】特征词的呼应+上下文的衔接\n【难度系数】0.587\n【解析】空格的上段对赌场给威廉姆斯提供的服务给出的总结是“这些赌博活动变成了他称为的‘电子海洛因’”。\n空后则给出了一系列他赌博输钱的情况。既然是海洛因，那么自然是表示有上瘾的功能，说明他会继续赌博，显然\n空后的内容正是这一说法的实证描述，那么作为在这中间的空自然也是谈到赌博输钱的内容，查看选项，只有C 满\n足题意。",
       "points": 2,
       "sort_order": 41,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 41
     },
     {
       "id": "e0fb1857-f03d-5c7c-952e-13fec2ab1ee1",
@@ -1552,45 +1760,53 @@
       "options": [
         {
           "key": "A",
-          "text": "Although no such evidence was presented, the casino operator was still actively encouraging his destructive habit through targeted mailings and VIP perks.",
-          "value": "A"
+          "value": "A",
+          "text": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected.",
+          "content": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected."
         },
         {
           "key": "B",
-          "text": "It is unclear what external luring was required, given his acknowledged compulsive behavior and internal psychological vulnerability.",
-          "value": "B"
+          "value": "B",
+          "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?",
+          "content": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?"
         },
         {
           "key": "C",
-          "text": "By the time he had lost $5,000 he said to himself that he would quit, but the casino's seductive promotional environment kept him playing.",
-          "value": "C"
+          "value": "C",
+          "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit.",
+          "content": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit."
         },
         {
           "key": "D",
-          "text": "Gambling has been a common feature of American life, transformed over decades from a social vice into an officially sanctioned source of state tax revenue.",
-          "value": "D"
+          "value": "D",
+          "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government.",
+          "content": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government."
         },
         {
           "key": "E",
-          "text": "Williams' lawsuit will likely do little to curb the nation's widespread gambling mania, given state governments' heavy fiscal dependence on lottery and casino revenues.",
-          "value": "E"
+          "value": "E",
+          "text": "David Williams's suit should trouble this gambling nation. But don't bet on it.",
+          "content": "David Williams's suit should trouble this gambling nation. But don't bet on it."
         },
         {
           "key": "F",
-          "text": "Disturbingly, contemporary society is medicalizing more and more behavioral problems, redefining weak personal willpower as an involuntary medical addiction.",
-          "value": "F"
+          "value": "F",
+          "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will.",
+          "content": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will."
         },
         {
           "key": "G",
-          "text": "Online gambling provides an anonymous, private, and 24-hour uninterrupted environment that accelerates addictive financial losses.",
-          "value": "G"
+          "value": "G",
+          "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?",
+          "content": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?"
         }
       ],
       "correct_answer": "A",
       "explanation": "42. 本题考核的知识点是：上下文的衔接。正确率：36 %\n\n【空格推测】第四段介绍赌场针对威廉姆斯的成瘾行为采取措施，第六段引用报道说明赌场预防赌\n\n客上瘾的一般性措施。\n\n由此可知，第五段空格可能也涉及“赌场的行为” 。\n\n【答案敲定】由选项分析可知，〔A][ B】为本题备选项。\n\n[ A] 汇P such ev i d ence 可回指第四段末句med i cal/ psychological informatio口，继上文指出“赌场要求威廉\n\n姆斯／J＼示相关证明才能重新出入赌场”，选项转折介绍实际情况“没有相关证明他也能自由出人赌场”，\n\nA l though 所体现的转折逻辑成立；同时选项提到“威廉姆斯使用游乐卡无人察觉”，与第二段三句“游乐卡\n\n能够追踪赌客赌博活动”看似矛盾，实则表明赌场并非没有察觉，而是察觉了却不作为，正好印证威廉姆斯\n\n控诉赌场的理由“明明知道他已经上臆却不加制止”，凸显作者对赌场的批判态度。综上，【A】正确。\n\n【BJ 提及“诱惑”和“意志力”的问题，且\n\nhis compulsive be h av i or 与第四段首句Wi ll iams ’s gambling\n\nprob l em 近义，考生可能误认为是作者对第四段“赌博是个人问题”的评论，但h i s wi ll 为指代词，而第四\n\n段并未涉及“他的意愿”的内容；且【目的下文可能就“诱惑和意志力”继续时论，与第六段不符，故排除。",
       "points": 2,
       "sort_order": 42,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 42
     },
     {
       "id": "cdc0943c-3f3d-5020-b528-3949f4b103f8",
@@ -1602,45 +1818,53 @@
       "options": [
         {
           "key": "A",
-          "text": "Although no such evidence was presented, the casino operator was still actively encouraging his destructive habit through targeted mailings and VIP perks.",
-          "value": "A"
+          "value": "A",
+          "text": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected.",
+          "content": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected."
         },
         {
           "key": "B",
-          "text": "It is unclear what external luring was required, given his acknowledged compulsive behavior and internal psychological vulnerability.",
-          "value": "B"
+          "value": "B",
+          "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?",
+          "content": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?"
         },
         {
           "key": "C",
-          "text": "By the time he had lost $5,000 he said to himself that he would quit, but the casino's seductive promotional environment kept him playing.",
-          "value": "C"
+          "value": "C",
+          "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit.",
+          "content": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit."
         },
         {
           "key": "D",
-          "text": "Gambling has been a common feature of American life, transformed over decades from a social vice into an officially sanctioned source of state tax revenue.",
-          "value": "D"
+          "value": "D",
+          "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government.",
+          "content": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government."
         },
         {
           "key": "E",
-          "text": "Williams' lawsuit will likely do little to curb the nation's widespread gambling mania, given state governments' heavy fiscal dependence on lottery and casino revenues.",
-          "value": "E"
+          "value": "E",
+          "text": "David Williams's suit should trouble this gambling nation. But don't bet on it.",
+          "content": "David Williams's suit should trouble this gambling nation. But don't bet on it."
         },
         {
           "key": "F",
-          "text": "Disturbingly, contemporary society is medicalizing more and more behavioral problems, redefining weak personal willpower as an involuntary medical addiction.",
-          "value": "F"
+          "value": "F",
+          "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will.",
+          "content": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will."
         },
         {
           "key": "G",
-          "text": "Online gambling provides an anonymous, private, and 24-hour uninterrupted environment that accelerates addictive financial losses.",
-          "value": "G"
+          "value": "G",
+          "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?",
+          "content": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?"
         }
       ],
       "correct_answer": "B",
       "explanation": "43 . 本题考核的知识点是：同义复现＋上下文的衔接。正确率：4 1 %\n\n【空格推测】上文第六段指出“赌场虽然采取措施避免赌客赌博成瘾，但这些措施却是表面功夫，于\n\n赌客无益” ，下文第八段分析“赌瘾的心理学定义”，开启下文对“赌博问题”的深入探讨，故空格内容可能\n\n涉及作者对赌场行为的评论，也可能分析赌瘾。\n\n【答案敲定】由选项分析可知，【B][ F】为本题备选项。\n\n〔BJ 中\n\nl ur i ng 、h i s w ill 复现第六段第三句lure 、w ill ，且\n\nhi s compulsive be havior 与上文h e was “ helplessly\n\naddicted to gamb l ing”近义；选项探讨“赌场的诱惑”和“赌客的意愿”，提出“在赌博成为强迫行为的情况下，\n\n难以明确赌场（诱惑）、贿客（个人意愿）各自的责任”，为追根究底，下文从“赌瘾”的心理学定义深入分析赌\n\n瘾所反映的“赌场推卸责任、社会回避问题严重性”的问题，也即【BJ 能够承上启下，为正确项。\n\n〔F】虽然复现w ill“意志力”，并提及“瘾症的定义”，与第八段“赌瘾的定义”在内容上有所关联，但上\n\n文第五至六段均介绍赌场表里不一的行为及威廉姆斯对贿场的控诉，选项突然跳出案件，介绍社会倾向\n\n“将行为问题医学化”无法与上文自然过液，故排除。",
       "points": 2,
       "sort_order": 43,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 43
     },
     {
       "id": "378e9d36-43ff-5590-b14a-df3c834af3b2",
@@ -1652,45 +1876,53 @@
       "options": [
         {
           "key": "A",
-          "text": "Although no such evidence was presented, the casino operator was still actively encouraging his destructive habit through targeted mailings and VIP perks.",
-          "value": "A"
+          "value": "A",
+          "text": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected.",
+          "content": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected."
         },
         {
           "key": "B",
-          "text": "It is unclear what external luring was required, given his acknowledged compulsive behavior and internal psychological vulnerability.",
-          "value": "B"
+          "value": "B",
+          "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?",
+          "content": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?"
         },
         {
           "key": "C",
-          "text": "By the time he had lost $5,000 he said to himself that he would quit, but the casino's seductive promotional environment kept him playing.",
-          "value": "C"
+          "value": "C",
+          "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit.",
+          "content": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit."
         },
         {
           "key": "D",
-          "text": "Gambling has been a common feature of American life, transformed over decades from a social vice into an officially sanctioned source of state tax revenue.",
-          "value": "D"
+          "value": "D",
+          "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government.",
+          "content": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government."
         },
         {
           "key": "E",
-          "text": "Williams' lawsuit will likely do little to curb the nation's widespread gambling mania, given state governments' heavy fiscal dependence on lottery and casino revenues.",
-          "value": "E"
+          "value": "E",
+          "text": "David Williams's suit should trouble this gambling nation. But don't bet on it.",
+          "content": "David Williams's suit should trouble this gambling nation. But don't bet on it."
         },
         {
           "key": "F",
-          "text": "Disturbingly, contemporary society is medicalizing more and more behavioral problems, redefining weak personal willpower as an involuntary medical addiction.",
-          "value": "F"
+          "value": "F",
+          "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will.",
+          "content": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will."
         },
         {
           "key": "G",
-          "text": "Online gambling provides an anonymous, private, and 24-hour uninterrupted environment that accelerates addictive financial losses.",
-          "value": "G"
+          "value": "G",
+          "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?",
+          "content": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?"
         }
       ],
       "correct_answer": "F",
       "explanation": "44 . 本题考核的知识点是：同义复现＋上下文的衔接。正确率：45%\n\n【空格推测】第八段提出赌瘾的心理学解释，第九段末句介绍社会对~者瘾的认识的变化，空格处可能\n\n涉及“对赌瘾的认识”相关内容。\n\n【答案敲定】由选项分析可知，【D][F】为本题备选项。\n\n[DJ 涉及社会对“赌博”而非“赌瘤”的认识，且Am e r i can life/ social policy/ governm e nt 为新信息，上\n\n下文均没有出现，无法衔接，故排除。\n\n[F】介绍社会倾向“将行为问题医学化、将意志力问题重新定义为瘾症（疾病化）”，空格后“社会将个\n\n人性格和道德问题重新划为人格疾病，也即将个人行为问题医学化”进一步解释，明确作者担忧的原因：赌\n\n瘾变成赌客个人问题，与赌场无关，更与社会无关，这无益于反思赌博这一社会问题，前后逻辑合理；同时\n\n选项和后文存在多处对应：behaviora l problems/ weakness of will 与下文character flaws or moral fa ili ngs 近\n\n义，defi ni ng as. . . what earlier. . . explained m 与\n\nr巳class ify i ng 近义；med i ca l izi ng 也与第八段\n\nDiagnostic 、\n\nMental D i sorders 、patho l og ica l 、第九段phys ica l d i sab il it町等词构成同一语义场。\n\n故【F】正确。",
       "points": 2,
       "sort_order": 44,
-      "answer": "F"
+      "answer": "F",
+      "question_number": 44
     },
     {
       "id": "f911d8f8-f358-542b-80cb-dba23423faad",
@@ -1702,45 +1934,53 @@
       "options": [
         {
           "key": "A",
-          "text": "Although no such evidence was presented, the casino operator was still actively encouraging his destructive habit through targeted mailings and VIP perks.",
-          "value": "A"
+          "value": "A",
+          "text": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected.",
+          "content": "Although no such evidence was presented, the casino's marketing department continued to pepper him with mailings. And he entered the casino and used his Fun Card without being detected."
         },
         {
           "key": "B",
-          "text": "It is unclear what external luring was required, given his acknowledged compulsive behavior and internal psychological vulnerability.",
-          "value": "B"
+          "value": "B",
+          "text": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?",
+          "content": "It is unclear what luring was required, given his compulsive behavior. And in what sense was his will operative?"
         },
         {
           "key": "C",
-          "text": "By the time he had lost $5,000 he said to himself that he would quit, but the casino's seductive promotional environment kept him playing.",
-          "value": "C"
+          "value": "C",
+          "text": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit.",
+          "content": "By the time he had lost $5,000 he said to himself that if he could get back to even, he would quit. One night he won $5,500, but he did not quit."
         },
         {
           "key": "D",
-          "text": "Gambling has been a common feature of American life, transformed over decades from a social vice into an officially sanctioned source of state tax revenue.",
-          "value": "D"
+          "value": "D",
+          "text": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government.",
+          "content": "Gambling has been a common feature of American life forever, but for a long time it was broadly considered a sin, or a social disease. Now it is a social policy: the most important and aggressive promoter of gambling in America is the government."
         },
         {
           "key": "E",
-          "text": "Williams' lawsuit will likely do little to curb the nation's widespread gambling mania, given state governments' heavy fiscal dependence on lottery and casino revenues.",
-          "value": "E"
+          "value": "E",
+          "text": "David Williams's suit should trouble this gambling nation. But don't bet on it.",
+          "content": "David Williams's suit should trouble this gambling nation. But don't bet on it."
         },
         {
           "key": "F",
-          "text": "Disturbingly, contemporary society is medicalizing more and more behavioral problems, redefining weak personal willpower as an involuntary medical addiction.",
-          "value": "F"
+          "value": "F",
+          "text": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will.",
+          "content": "It is worrisome that society is medicalizing more and more behavioral problems, often defining as addictions what earlier, sterner generations explained as weakness of will."
         },
         {
           "key": "G",
-          "text": "Online gambling provides an anonymous, private, and 24-hour uninterrupted environment that accelerates addictive financial losses.",
-          "value": "G"
+          "value": "G",
+          "text": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?",
+          "content": "The anonymous, lonely, undistracted nature of online gambling is especially conducive to compulsive behavior. But even if the government knew how to move against Internet gambling, what would be its grounds for doing so?"
         }
       ],
       "correct_answer": "D",
       "explanation": "45. 本题考核的知识点是：同义复现 ＋ 上下文的衔接。正确率：45%\n\n【空格推测】上文指出“‘行为问题’医学化”的社会倾向无益于反思赌博这一社会问题，下文介绍美国赌博业的火爆现状，空格处内容可能继续探讨赌博的社会影响，也可能介绍美国的赌博问题。\n\n【答案敲定】由选项分析可知，［D］、［E］、［G］为本题备选项。\n［D］顺承上文“社会对赌瘾的认识发生变化”，指出社会对赌博的看法也发生了相似的变化：从人民深恶痛绝的社会弊病转变为政府大力支持的社会政策，该内容可以解释下文“为何美国赌博业火爆异常”，形成因果逻辑；government 与下文 states 为近义替换，［D］为本题答案。\n［E］表达作者期望“借威廉姆斯一案警醒国人”，继而表示可能性不大，是对全文的总结；this gambling nation 提示上文涉及“美国赌博盛行”的情形，应出现在第十一段之后，而不是之前，故排除。\n［G］提及“在线赌博”的特征、危害及政府对其的态度，而第十一段第二句（And since the first Internet gambling site was created in 1995）表明“在线赌博”这一概念在全文首次出现，故选项应出现在第十一段之后，而不是之前，故排除。",
       "points": 2,
       "sort_order": 45,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 45
     }
   ],
   "exportedAt": "2026-10-15T11:40:34.847Z"

@@ -31,7 +31,9 @@
       "section_type": "cloze",
       "title": "Section I: Use of English",
       "content": "Why do people read negative Internet comments and do other things that will obviously be painful? Because humans have an inherent need to [1] uncertainty, according to a recent study in Psychological Science. The new research reveals that the need to know is so strong that people will [2] to satisfy their curiosity, even when it is clear the answer will [3].\n\nIn a series of four experiments, behavioral scientists at the University of Chicago and the Wisconsin School of Business tested students' willingness to [4] themselves to unpleasant stimuli in an effort to satisfy curiosity. For one [5], each participant was shown a pile of pens that the researcher claimed were from a previous experiment. The twist? Half of the pens would [6] an electric shock when clicked.\n\nTwenty-seven students were told which pens were electrified; another twenty-seven were told only that some were electrified. [7] left alone in the room, the students who did not know which ones would shock them clicked more pens and incurred more shocks than the students who knew what would [8]. Subsequent experiments reproduced this effect with other stimuli, [9] the sound of fingernails on a chalkboard and photographs of disgusting insects.\n\nThe drive to [10] is deeply rooted in humans, much the same as the basic drives for [11] or shelter, says Christopher Hsee of the University of Chicago. Curiosity is often considered a good instinct - it can [12] new scientific advances, for instance - but sometimes such [13] can backfire. The insight that curiosity can drive you to do [14] things is a profound one.\n\nUnhealthy curiosity is possible to [15], however. In a final experiment, participants who were encouraged to [16] how they would feel after viewing an unpleasant picture were less likely to [17] to see such an image. These results suggest that imagining the [18] of following through on one's curiosity ahead of time can help determine [19] it is worth the endeavor. \"Thinking about long-term [20] is key to reducing the possible negative effects of curiosity,\" Hsee says. In other words, don't read online comments.",
-      "sort_order": 1
+      "sort_order": 1,
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "bcdd6890-6fe5-5c3b-bb2f-1e13d154cc01",
@@ -40,7 +42,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "It is curious that Stephen Koziatek feels almost as though he has to justify his efforts to give his students a better future.\n\nMr. Koziatek is part of something pioneering. He is a teacher at a New Hampshire high school where learning is not something of books and tests and mechanical memorization, but practical. When did it become accepted wisdom that students should be able to name the 13th president of the United States but be utterly overwhelmed by a broken bike chain?\n\nAs Koziatek knows, there is learning in just about everything. Nothing is necessarily gained by forcing students to learn geometry at a graffitied desk stuck with generations of discarded chewing gum. They can also learn geometry by assembling a bicycle.\n\nBut he's also found a kind of insidious prejudice. Working with your hands is seen as almost a mark of inferiority. Schools in the family of vocational education \"have that stereotype... that it's for kids who can't make it academically,\" he says.\n\nOn one hand, that viewpoint is a logical product of America's evolution. Manufacturing is not the economic engine that it once was. The job security that the US economy once offered to high school graduates has largely evaporated. More education is the new principle. We want more for our kids, and rightfully so.\n\nBut the headlong push into bachelor's degrees for all - and the subtle devaluing of anything less - misses an important point: That's not the only thing the American economy needs. Yes, a bachelor's degree opens more doors. But even now, 54 percent of the jobs in the country are middle-skill jobs, such as construction and advanced manufacturing. But only 44 percent of workers are adequately trained.\n\nIn other words, at a time when the working class has turned the country on its political head, frustrated that the opportunity that once defined America is vanishing, one obvious solution is staring us in the face. There is a gap in working-class jobs, but the workers who need those jobs most aren't equipped to do them. Koziatek's Manchester School of Technology High School is trying to fill that gap.\n\nKoziatek's school is a wake-up call. When education becomes one-size-fits-all, it risks overlooking a nation's diversity of gifts.",
-      "sort_order": 2
+      "sort_order": 2,
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "e661f9f4-de0a-5d85-99f4-6a25d93214bd",
@@ -49,7 +53,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "While fossil fuels - coal, oil, gas - still generate roughly 85 percent of the world's energy supply, it's clearer than ever that the future belongs to renewable sources such as wind and solar. The move to renewables is picking up momentum around the world: They now account for more than half of new power sources going on line.\n\nSome growth stems from a commitment by governments and farsighted businesses to fund cleaner energy sources. But increasingly the story is about the plummeting prices of renewables, especially wind and solar. The cost of solar panels has dropped by 80 percent and the cost of wind turbines by close to one-third in the past eight years.\n\nIn many parts of the world renewable energy is already a principal energy source. In Scotland, for example, wind turbines provide enough electricity to power 95 percent of homes. While the rest of the world takes the lead - notably China and Europe - the United States is also seeing a remarkable shift. In March - for the first time - wind and solar power accounted for more than 10 percent of the power generated in the US, reported the US Energy Information Administration.\n\nPresident Trump has underlined fossil fuels - especially coal - as the path to economic growth. In a recent speech in Iowa, he dismissed wind power as an unreliable energy source. But that message did not play well with many in Iowa - where wind turbines dot the fields and provide 36 percent of the state's electricity generation - and where tech giants like Microsoft are being attracted by the availability of clean energy to power their data centers.\n\nThe question \"what happens when the wind doesn't blow or the sun doesn't shine?\" has provided a quick put-down for skeptics. But a boost in the storage capacity of batteries is making their ability to keep power flowing around the clock more likely.\n\nThe advance is driven in part by vehicle manufacturers, who are placing big bets on battery-powered electric vehicles. Although electric cars are still a rarity on roads now, this massive investment could change the picture rapidly in coming years.\n\nWhile there's a long way to go, the trend lines for renewables are spiking. The pace of change in energy sources appears to be speeding up - perhaps just in time to have a meaningful effect in slowing climate change. What Washington does - or doesn't do - to promote alternative energy may mean less and less at a time of a global shift in thought.",
-      "sort_order": 3
+      "sort_order": 3,
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "121063dd-a6af-5495-a971-3744ad962a0e",
@@ -58,7 +64,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "The power and ambition of the giants of the digital economy is astonishing - Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for $13.5bn, but two years ago Facebook paid even more than that to acquire the WhatsApp messaging service, which doesn't have any physical product at all. What WhatsApp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives.\n\nFacebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still could be. What political journalist, what party whip, would not want to know the makeup of the WhatsApp groups in which Theresa May's enemies are currently plotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n\nCompetition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as presently interpreted deals with financial disadvantage to consumers and this is not obvious when the users of these services don't pay for them. The users of their services are not their customers. That would be the people who buy advertising from them - and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies.\n\nThe product they're selling is data, and we, the users, convert our lives to data for the benefit of the digital giants. Just as some ants farm the bugs called aphids for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn't feel like a human or democratic relationship, even if both sides get something out of it.",
-      "sort_order": 4
+      "sort_order": 4,
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "2c6e2fe1-9dd2-52a5-960d-5be0c5f625d3",
@@ -67,7 +75,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "To combat the trap of putting a premium on being busy, Cal Newport, author of Deep Work: Rules for Focused Success in a Distracted World, recommends building a habit of \"deep work\" - the ability to focus without distraction.\n\nThere are a number of approaches to mastering the art of deep work - be it lengthy retreats dedicated to a specific task; developing a daily ritual; or taking a \"journalistic\" approach and seizing moments of deep work when you can find them. Whichever approach, the key is to determine your length of focus time and stick to it.\n\nNewport also recommends \"deep scheduling\" to combat constant interruptions and get more done in less time. \"At any given point, I should have deep work scheduled for roughly the next month. Once on the calendar, I protect this time like I would a doctor's appointment or important meeting,\" he writes.\n\nAnother approach to getting more done in less time is to rethink how you prioritise your day - in particular how we craft our to-do lists. Tim Harford, author of Messy: The Power of Disorder to Transform Our Lives, points to a study in the early 1980s that divided undergraduates into two groups: some were advised to set out monthly goals and study activities; others were told to plan activities and goals in much more detail, day by day.\n\nWhile the researchers assumed that the well-structured daily plans would be most effective when it came to the execution of tasks, they were wrong: the detailed daily plans demotivated students. Harford argues that inevitable distractions often render the daily to-do list ineffective, while leaving room for improvisation in such a list can reap the best results.\n\nIn order to make the most of our focus and energy, we also need to embrace downtime, or as Newport suggests, \"be lazy\". \"Idleness is not just a vacation, an indulgence or a vice; it is as indispensable to the brain as vitamin D is to the body... and it is, paradoxically, necessary to getting any work done,\" he argues.\n\nSrini Pillay, an assistant professor of psychiatry at Harvard Medical School, believes this counterintuitive link between downtime and productivity is due to the way our brains operate. When our brains switch between being focused and unfocused on a task, they tend to be more efficient. \"What people don't realise is that in order to complete these tasks they need to use both the focus and unfocus circuits in their brain,\" says Pillay.",
-      "sort_order": 5
+      "sort_order": 5,
+      "type": "reading",
+      "passage_number": 4
     },
     {
       "id": "8c62ec77-2d9c-5924-bcf3-94bf65f2c1df",
@@ -76,7 +86,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part B",
       "content": "Five Ways to Make Conversation with Anyone\n\nConversations are links, which means when you have a conversation with a new person a link gets formed and every conversation you have after that moment will strengthen this link.\n\nYou meet new people every day: the grocery worker, the cab driver, new people at work or the security guard at the door. Simply starting a conversation with them will jump start your networking skills.\n\nHere are five simple ways that you can make the first move and start a conversation with strangers.\n\n[41] ____________________\nSuppose you are in a room with someone you don't know and something within you says \"I want to talk with this person\" - this is something that mostly happens with all of us. You wanted to say something, the first word, but it just won't come out - it feels like it is stuck somewhere. I know the feeling and here is my advice: just get it out.\nJust think: what is the worst that could happen? They won't talk with you? Well, they are not talking with you now!\nI truly believe that once you get that first word out everything else will just flow. So keep it simple: \"Hi\", \"Hey\" or \"Hello\" - do the best you can to gather all of the enthusiasm and energy you can, put on a big smile and just say \"Hi\".\n\n[42] ____________________\nIt's a problem all of us face: you have limited time with the person that you want to talk with and you want to make this talk memorable.\nHonestly, if we got stuck in the rut of \"hi\", \"hello\", \"how are you?\" and \"what's going on?\", you will fail to give the initial jolt to the conversation that can make it memorable.\nSo don't be afraid to ask more personal questions. Trust me, you'll be surprised to see how much people are willing to share if you just ask.\n\n[43] ____________________\nWhen you meet a person for the first time, make an effort to find the things which you and that person have in common so that you can build the conversation from that point. When you start conversation from there and then move outwards, you'll find all of a sudden that the conversation becomes a lot easier.\n\n[44] ____________________\nImagine you are pouring your heart out to someone and they are just busy on their phone, and if you ask for their attention you get the response \"I can multitask\". It is not pleasant and it shows that you don't care about the person.\nSo when someone tries to communicate with you, just be in that communication wholeheartedly. Make eye contact. Trust me, eye contact is where all the magic happens. When you make eye contact, you can feel the conversation.\n\n[45] ____________________\nYou all came into a conversation where you first met the person, but after some time you may have met again and have forgotten their name. Isn't that awkward!\nSo, remember the little details of the people you met or you talked with; perhaps the places they have been to, the places they want to go, the things they like, the things they hate - whatever you talk about.\nWhen you remember such things you can automatically become investor in their wellbeing. So they feel a responsibility to you to keep that relationship going.\n\nThat's it. Five amazing ways that you can make conversation with almost anyone. Every person is a really good book to read, or to have a conversation with!",
-      "sort_order": 6
+      "sort_order": 6,
+      "type": "reading_part_b",
+      "passage_number": 5
     }
   ],
   "questions": [
@@ -90,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "ignore",
-          "value": "A"
+          "content": "ignore"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "protect",
-          "value": "B"
+          "content": "protect"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "resolve",
-          "value": "C"
+          "content": "resolve"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "discuss",
-          "value": "D"
+          "content": "discuss"
         }
       ],
       "correct_answer": "C",
@@ -128,23 +144,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "seek",
-          "value": "A"
+          "content": "seek"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "refuse",
-          "value": "B"
+          "content": "refuse"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "wait",
-          "value": "C"
+          "content": "wait"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "regret",
-          "value": "D"
+          "content": "regret"
         }
       ],
       "correct_answer": "A",
@@ -166,23 +186,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "rise",
-          "value": "A"
+          "content": "rise"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "hurt",
-          "value": "B"
+          "content": "hurt"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "last",
-          "value": "C"
+          "content": "last"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "mislead",
-          "value": "D"
+          "content": "mislead"
         }
       ],
       "correct_answer": "B",
@@ -204,23 +228,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "expose",
-          "value": "A"
+          "content": "expose"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "alert",
-          "value": "B"
+          "content": "alert"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tie",
-          "value": "C"
+          "content": "tie"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "treat",
-          "value": "D"
+          "content": "treat"
         }
       ],
       "correct_answer": "A",
@@ -242,23 +270,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "concept",
-          "value": "A"
+          "content": "concept"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "message",
-          "value": "B"
+          "content": "message"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "review",
-          "value": "C"
+          "content": "review"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "trial",
-          "value": "D"
+          "content": "trial"
         }
       ],
       "correct_answer": "D",
@@ -280,23 +312,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "deliver",
-          "value": "A"
+          "content": "deliver"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "remove",
-          "value": "B"
+          "content": "remove"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "weaken",
-          "value": "C"
+          "content": "weaken"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "interrupt",
-          "value": "D"
+          "content": "interrupt"
         }
       ],
       "correct_answer": "A",
@@ -318,23 +354,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Unless",
-          "value": "A"
+          "content": "Unless"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "When",
-          "value": "B"
+          "content": "When"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "If",
-          "value": "C"
+          "content": "If"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Though",
-          "value": "D"
+          "content": "Though"
         }
       ],
       "correct_answer": "B",
@@ -356,23 +396,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "change",
-          "value": "A"
+          "content": "change"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "continue",
-          "value": "B"
+          "content": "continue"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "happen",
-          "value": "C"
+          "content": "happen"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "disappear",
-          "value": "D"
+          "content": "disappear"
         }
       ],
       "correct_answer": "C",
@@ -394,23 +438,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "owing to",
-          "value": "A"
+          "content": "owing to"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "rather than",
-          "value": "B"
+          "content": "rather than"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "regardless of",
-          "value": "C"
+          "content": "regardless of"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "such as",
-          "value": "D"
+          "content": "such as"
         }
       ],
       "correct_answer": "D",
@@ -432,23 +480,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "disagree",
-          "value": "A"
+          "content": "disagree"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "discover",
-          "value": "B"
+          "content": "discover"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "forgive",
-          "value": "C"
+          "content": "forgive"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "forget",
-          "value": "D"
+          "content": "forget"
         }
       ],
       "correct_answer": "B",
@@ -470,23 +522,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "food",
-          "value": "A"
+          "content": "food"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "pay",
-          "value": "B"
+          "content": "pay"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "marriage",
-          "value": "C"
+          "content": "marriage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "schooling",
-          "value": "D"
+          "content": "schooling"
         }
       ],
       "correct_answer": "A",
@@ -508,23 +564,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "begin with",
-          "value": "A"
+          "content": "begin with"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "lead to",
-          "value": "B"
+          "content": "lead to"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "rest on",
-          "value": "C"
+          "content": "rest on"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "learn from",
-          "value": "D"
+          "content": "learn from"
         }
       ],
       "correct_answer": "B",
@@ -546,23 +606,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "diligence",
-          "value": "A"
+          "content": "diligence"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "withdrawal",
-          "value": "B"
+          "content": "withdrawal"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "persistence",
-          "value": "C"
+          "content": "persistence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "inquiry",
-          "value": "D"
+          "content": "inquiry"
         }
       ],
       "correct_answer": "D",
@@ -584,23 +648,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "self-deceptive",
-          "value": "A"
+          "content": "self-deceptive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "self-reliant",
-          "value": "B"
+          "content": "self-reliant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "self-destructive",
-          "value": "C"
+          "content": "self-destructive"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "self-evident",
-          "value": "D"
+          "content": "self-evident"
         }
       ],
       "correct_answer": "C",
@@ -622,23 +690,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "trace",
-          "value": "A"
+          "content": "trace"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "define",
-          "value": "B"
+          "content": "define"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "resist",
-          "value": "C"
+          "content": "resist"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "replace",
-          "value": "D"
+          "content": "replace"
         }
       ],
       "correct_answer": "C",
@@ -660,23 +732,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "conceal",
-          "value": "A"
+          "content": "conceal"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "overlook",
-          "value": "B"
+          "content": "overlook"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "predict",
-          "value": "C"
+          "content": "predict"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "design",
-          "value": "D"
+          "content": "design"
         }
       ],
       "correct_answer": "C",
@@ -698,23 +774,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "pretend",
-          "value": "A"
+          "content": "pretend"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "remember",
-          "value": "B"
+          "content": "remember"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "promise",
-          "value": "C"
+          "content": "promise"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "choose",
-          "value": "D"
+          "content": "choose"
         }
       ],
       "correct_answer": "D",
@@ -736,23 +816,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "outcome",
-          "value": "A"
+          "content": "outcome"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "relief",
-          "value": "B"
+          "content": "relief"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "plan",
-          "value": "C"
+          "content": "plan"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "duty",
-          "value": "D"
+          "content": "duty"
         }
       ],
       "correct_answer": "A",
@@ -774,23 +858,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "where",
-          "value": "A"
+          "content": "where"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "why",
-          "value": "B"
+          "content": "why"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "whether",
-          "value": "C"
+          "content": "whether"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "how",
-          "value": "D"
+          "content": "how"
         }
       ],
       "correct_answer": "C",
@@ -812,23 +900,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "limitations",
-          "value": "A"
+          "content": "limitations"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "consequences",
-          "value": "B"
+          "content": "consequences"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "investments",
-          "value": "C"
+          "content": "investments"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "strategies",
-          "value": "D"
+          "content": "strategies"
         }
       ],
       "correct_answer": "B",
@@ -850,23 +942,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "practical ability",
-          "value": "A"
+          "content": "practical ability"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "academic training",
-          "value": "B"
+          "content": "academic training"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "pioneering spirit",
-          "value": "C"
+          "content": "pioneering spirit"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "mechanical memorization",
-          "value": "D"
+          "content": "mechanical memorization"
         }
       ],
       "correct_answer": "A",
@@ -888,23 +984,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "have a stereotyped mind",
-          "value": "A"
+          "content": "have a stereotyped mind"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have no career motivation",
-          "value": "B"
+          "content": "have no career motivation"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are not academically successful",
-          "value": "C"
+          "content": "are not academically successful"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are financially disadvantaged",
-          "value": "D"
+          "content": "are financially disadvantaged"
         }
       ],
       "correct_answer": "C",
@@ -926,23 +1026,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "used to have big financial concerns",
-          "value": "A"
+          "content": "used to have big financial concerns"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "used to have more job opportunities",
-          "value": "B"
+          "content": "used to have more job opportunities"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "are reluctant to work in manufacturing",
-          "value": "C"
+          "content": "are reluctant to work in manufacturing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are entitled to more educational privileges",
-          "value": "D"
+          "content": "are entitled to more educational privileges"
         }
       ],
       "correct_answer": "B",
@@ -964,23 +1068,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "helps create a lot of middle-skill jobs",
-          "value": "A"
+          "content": "helps create a lot of middle-skill jobs"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "may narrow the gap in working-class jobs",
-          "value": "B"
+          "content": "may narrow the gap in working-class jobs"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is expected to yield a better-trained workforce",
-          "value": "C"
+          "content": "is expected to yield a better-trained workforce"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "indicates the overvaluing of higher education",
-          "value": "D"
+          "content": "indicates the overvaluing of higher education"
         }
       ],
       "correct_answer": "D",
@@ -1002,23 +1110,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "supportive",
-          "value": "A"
+          "content": "supportive"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "tolerant",
-          "value": "B"
+          "content": "tolerant"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "disappointed",
-          "value": "C"
+          "content": "disappointed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cautious",
-          "value": "D"
+          "content": "cautious"
         }
       ],
       "correct_answer": "A",
@@ -1040,23 +1152,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "rising",
-          "value": "A"
+          "content": "rising"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "falling",
-          "value": "B"
+          "content": "falling"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "changing",
-          "value": "C"
+          "content": "changing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "stabilizing",
-          "value": "D"
+          "content": "stabilizing"
         }
       ],
       "correct_answer": "B",
@@ -1078,23 +1194,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is as extensive as in Europe",
-          "value": "A"
+          "content": "is as extensive as in Europe"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is progressing notably",
-          "value": "B"
+          "content": "is progressing notably"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "has proved to be impractical",
-          "value": "C"
+          "content": "has proved to be impractical"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "faces many challenges",
-          "value": "D"
+          "content": "faces many challenges"
         }
       ],
       "correct_answer": "B",
@@ -1116,23 +1236,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "wind energy has replaced fossil fuels",
-          "value": "A"
+          "content": "wind energy has replaced fossil fuels"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "there is a shortage of clean energy supply",
-          "value": "B"
+          "content": "there is a shortage of clean energy supply"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tech giants are investing in clean energy",
-          "value": "C"
+          "content": "tech giants are investing in clean energy"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "wind is a widely used energy source",
-          "value": "D"
+          "content": "wind is a widely used energy source"
         }
       ],
       "correct_answer": "D",
@@ -1154,23 +1278,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Its application has boosted battery storage.",
-          "value": "A"
+          "content": "Its application has boosted battery storage."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "It is commonly used in car manufacturing.",
-          "value": "B"
+          "content": "It is commonly used in car manufacturing."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Its continuous supply is becoming a reality.",
-          "value": "C"
+          "content": "Its continuous supply is becoming a reality."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Its sustainable exploitation will remain difficult.",
-          "value": "D"
+          "content": "Its sustainable exploitation will remain difficult."
         }
       ],
       "correct_answer": "C",
@@ -1192,23 +1320,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is not really encouraged by the US government",
-          "value": "A"
+          "content": "is not really encouraged by the US government"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is not competitive enough with regard to its cost",
-          "value": "B"
+          "content": "is not competitive enough with regard to its cost"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "will bring the US closer to other countries",
-          "value": "C"
+          "content": "will bring the US closer to other countries"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "will accelerate global environmental change",
-          "value": "D"
+          "content": "will accelerate global environmental change"
         }
       ],
       "correct_answer": "A",
@@ -1230,23 +1362,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "digital products",
-          "value": "A"
+          "content": "digital products"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "quality service",
-          "value": "B"
+          "content": "quality service"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "physical assets",
-          "value": "C"
+          "content": "physical assets"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "user information",
-          "value": "D"
+          "content": "user information"
         }
       ],
       "correct_answer": "D",
@@ -1268,23 +1404,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "worsen political disputes",
-          "value": "A"
+          "content": "worsen political disputes"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "mislead the European commission",
-          "value": "B"
+          "content": "mislead the European commission"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "pose a risk to Facebook users",
-          "value": "C"
+          "content": "pose a risk to Facebook users"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "mess up customer records",
-          "value": "D"
+          "content": "mess up customer records"
         }
       ],
       "correct_answer": "C",
@@ -1306,23 +1446,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "should serve the new market powers",
-          "value": "A"
+          "content": "should serve the new market powers"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "may worsen the economic imbalance",
-          "value": "B"
+          "content": "may worsen the economic imbalance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "cannot keep pace with the changing market",
-          "value": "C"
+          "content": "cannot keep pace with the changing market"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "should not provide just one legal solution",
-          "value": "D"
+          "content": "should not provide just one legal solution"
         }
       ],
       "correct_answer": "C",
@@ -1344,23 +1488,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "they are not financially reliable",
-          "value": "A"
+          "content": "they are not financially reliable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "they are not defined as customers",
-          "value": "B"
+          "content": "they are not defined as customers"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the services are generally digital",
-          "value": "C"
+          "content": "the services are generally digital"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the services are paid for by advertisers",
-          "value": "D"
+          "content": "the services are paid for by advertisers"
         }
       ],
       "correct_answer": "B",
@@ -1382,23 +1530,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a typical competition pattern among digital giants",
-          "value": "A"
+          "content": "a typical competition pattern among digital giants"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "a win-win business model between digital giants",
-          "value": "B"
+          "content": "a win-win business model between digital giants"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "the benefits provided for digital giants' customers",
-          "value": "C"
+          "content": "the benefits provided for digital giants' customers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "the relationship between digital giants and their users",
-          "value": "D"
+          "content": "the relationship between digital giants and their users"
         }
       ],
       "correct_answer": "D",
@@ -1420,23 +1572,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "list your immediate tasks",
-          "value": "A"
+          "content": "list your immediate tasks"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "make specific daily plans",
-          "value": "B"
+          "content": "make specific daily plans"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "keep to your focus time",
-          "value": "C"
+          "content": "keep to your focus time"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "seize every minute to work",
-          "value": "D"
+          "content": "seize every minute to work"
         }
       ],
       "correct_answer": "C",
@@ -1458,23 +1614,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "daily schedules are indispensable to studying",
-          "value": "A"
+          "content": "daily schedules are indispensable to studying"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "students are hardly motivated by monthly goals",
-          "value": "B"
+          "content": "students are hardly motivated by monthly goals"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "detailed plans may not be as fruitful as expected",
-          "value": "C"
+          "content": "detailed plans may not be as fruitful as expected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "distractions may actually increase efficiency",
-          "value": "D"
+          "content": "distractions may actually increase efficiency"
         }
       ],
       "correct_answer": "C",
@@ -1496,23 +1656,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "an essential factor in accomplishing any work",
-          "value": "A"
+          "content": "an essential factor in accomplishing any work"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "an effective way to save time and energy",
-          "value": "B"
+          "content": "an effective way to save time and energy"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "a major contributor to physical health",
-          "value": "C"
+          "content": "a major contributor to physical health"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "a desirable mental state for busy people",
-          "value": "D"
+          "content": "a desirable mental state for busy people"
         }
       ],
       "correct_answer": "A",
@@ -1534,23 +1698,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "can result in psychological well-being",
-          "value": "A"
+          "content": "can result in psychological well-being"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "can bring about greater efficiency",
-          "value": "B"
+          "content": "can bring about greater efficiency"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is aimed at better balance in work",
-          "value": "C"
+          "content": "is aimed at better balance in work"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is driven by task urgency",
-          "value": "D"
+          "content": "is driven by task urgency"
         }
       ],
       "correct_answer": "B",
@@ -1572,23 +1740,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the key to eliminating distractions",
-          "value": "A"
+          "content": "the key to eliminating distractions"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the cause of the lack of focus time",
-          "value": "B"
+          "content": "the cause of the lack of focus time"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ways to relieve the tension of busy life",
-          "value": "C"
+          "content": "ways to relieve the tension of busy life"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "approaches to getting more done in less time",
-          "value": "D"
+          "content": "approaches to getting more done in less time"
         }
       ],
       "correct_answer": "D",
@@ -1610,38 +1782,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Just say it",
-          "value": "A"
+          "content": "Just say it"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Be present",
-          "value": "B"
+          "content": "Be present"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Skip the small talk",
-          "value": "C"
+          "content": "Skip the small talk"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Ask for an opinion",
-          "value": "D"
+          "content": "Ask for an opinion"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Find the \"me too\"s",
-          "value": "E"
+          "content": "Find the \"me too\"s"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Name, places, things",
-          "value": "F"
+          "content": "Name, places, things"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Pay a unique compliment",
-          "value": "G"
+          "content": "Pay a unique compliment"
         }
       ],
       "correct_answer": "A",
@@ -1663,38 +1842,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Just say it",
-          "value": "A"
+          "content": "Just say it"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Be present",
-          "value": "B"
+          "content": "Be present"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Skip the small talk",
-          "value": "C"
+          "content": "Skip the small talk"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Ask for an opinion",
-          "value": "D"
+          "content": "Ask for an opinion"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Find the \"me too\"s",
-          "value": "E"
+          "content": "Find the \"me too\"s"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Name, places, things",
-          "value": "F"
+          "content": "Name, places, things"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Pay a unique compliment",
-          "value": "G"
+          "content": "Pay a unique compliment"
         }
       ],
       "correct_answer": "C",
@@ -1716,38 +1902,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Just say it",
-          "value": "A"
+          "content": "Just say it"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Be present",
-          "value": "B"
+          "content": "Be present"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Skip the small talk",
-          "value": "C"
+          "content": "Skip the small talk"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Ask for an opinion",
-          "value": "D"
+          "content": "Ask for an opinion"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Find the \"me too\"s",
-          "value": "E"
+          "content": "Find the \"me too\"s"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Name, places, things",
-          "value": "F"
+          "content": "Name, places, things"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Pay a unique compliment",
-          "value": "G"
+          "content": "Pay a unique compliment"
         }
       ],
       "correct_answer": "E",
@@ -1769,38 +1962,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Just say it",
-          "value": "A"
+          "content": "Just say it"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Be present",
-          "value": "B"
+          "content": "Be present"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Skip the small talk",
-          "value": "C"
+          "content": "Skip the small talk"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Ask for an opinion",
-          "value": "D"
+          "content": "Ask for an opinion"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Find the \"me too\"s",
-          "value": "E"
+          "content": "Find the \"me too\"s"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Name, places, things",
-          "value": "F"
+          "content": "Name, places, things"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Pay a unique compliment",
-          "value": "G"
+          "content": "Pay a unique compliment"
         }
       ],
       "correct_answer": "B",
@@ -1822,38 +2022,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "Just say it",
-          "value": "A"
+          "content": "Just say it"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Be present",
-          "value": "B"
+          "content": "Be present"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Skip the small talk",
-          "value": "C"
+          "content": "Skip the small talk"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Ask for an opinion",
-          "value": "D"
+          "content": "Ask for an opinion"
         },
         {
           "key": "E",
+          "value": "E",
           "text": "Find the \"me too\"s",
-          "value": "E"
+          "content": "Find the \"me too\"s"
         },
         {
           "key": "F",
+          "value": "F",
           "text": "Name, places, things",
-          "value": "F"
+          "content": "Name, places, things"
         },
         {
           "key": "G",
+          "value": "G",
           "text": "Pay a unique compliment",
-          "value": "G"
+          "content": "Pay a unique compliment"
         }
       ],
       "correct_answer": "F",

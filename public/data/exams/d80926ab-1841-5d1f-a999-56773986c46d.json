@@ -102,19 +102,27 @@
       "options": [
         {
           "key": "A",
-          "text": "(be) selected (to do)"
+          "value": "A",
+          "text": "selected",
+          "content": "selected"
         },
         {
           "key": "B",
-          "text": "(be) prepared (to do)"
+          "value": "B",
+          "text": "prepared",
+          "content": "prepared"
         },
         {
           "key": "C",
-          "text": "(be) obliged (to do)"
+          "value": "C",
+          "text": "obliged",
+          "content": "obliged"
         },
         {
           "key": "D",
-          "text": "(be) pleased (to do)"
+          "value": "D",
+          "text": "pleased",
+          "content": "pleased"
         }
       ],
       "correct_answer": "B",
@@ -135,19 +143,27 @@
       "options": [
         {
           "key": "A",
-          "text": "unique"
+          "value": "A",
+          "text": "unique",
+          "content": "unique"
         },
         {
           "key": "B",
-          "text": "particular"
+          "value": "B",
+          "text": "particular",
+          "content": "particular"
         },
         {
           "key": "C",
-          "text": "special"
+          "value": "C",
+          "text": "special",
+          "content": "special"
         },
         {
           "key": "D",
-          "text": "rare"
+          "value": "D",
+          "text": "rare",
+          "content": "rare"
         }
       ],
       "correct_answer": "D",
@@ -168,19 +184,27 @@
       "options": [
         {
           "key": "A",
-          "text": "of"
+          "value": "A",
+          "text": "of",
+          "content": "of"
         },
         {
           "key": "B",
-          "text": "with"
+          "value": "B",
+          "text": "with",
+          "content": "with"
         },
         {
           "key": "C",
-          "text": "in"
+          "value": "C",
+          "text": "in",
+          "content": "in"
         },
         {
           "key": "D",
-          "text": "against"
+          "value": "D",
+          "text": "against",
+          "content": "against"
         }
       ],
       "correct_answer": "A",
@@ -201,19 +225,27 @@
       "options": [
         {
           "key": "A",
-          "text": "subsequently"
+          "value": "A",
+          "text": "subsequently",
+          "content": "subsequently"
         },
         {
           "key": "B",
-          "text": "presently"
+          "value": "B",
+          "text": "presently",
+          "content": "presently"
         },
         {
           "key": "C",
-          "text": "previously"
+          "value": "C",
+          "text": "previously",
+          "content": "previously"
         },
         {
           "key": "D",
-          "text": "lately"
+          "value": "D",
+          "text": "lately",
+          "content": "lately"
         }
       ],
       "correct_answer": "C",
@@ -234,19 +266,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Only"
+          "value": "A",
+          "text": "Only",
+          "content": "Only"
         },
         {
           "key": "B",
-          "text": "So"
+          "value": "B",
+          "text": "So",
+          "content": "So"
         },
         {
           "key": "C",
-          "text": "Even"
+          "value": "C",
+          "text": "Even",
+          "content": "Even"
         },
         {
           "key": "D",
-          "text": "Hence"
+          "value": "D",
+          "text": "Hence",
+          "content": "Hence"
         }
       ],
       "correct_answer": "C",
@@ -267,19 +307,27 @@
       "options": [
         {
           "key": "A",
-          "text": "(at the) thought (of)"
+          "value": "A",
+          "text": "thought",
+          "content": "thought"
         },
         {
           "key": "B",
-          "text": "(at the) sight (of)"
+          "value": "B",
+          "text": "sight",
+          "content": "sight"
         },
         {
           "key": "C",
-          "text": "(at the) cost (of)"
+          "value": "C",
+          "text": "cost",
+          "content": "cost"
         },
         {
           "key": "D",
-          "text": "(at the) risk (of)"
+          "value": "D",
+          "text": "risk",
+          "content": "risk"
         }
       ],
       "correct_answer": "A",
@@ -300,19 +348,27 @@
       "options": [
         {
           "key": "A",
-          "text": "advises"
+          "value": "A",
+          "text": "advises",
+          "content": "advises"
         },
         {
           "key": "B",
-          "text": "suggests"
+          "value": "B",
+          "text": "suggests",
+          "content": "suggests"
         },
         {
           "key": "C",
-          "text": "protests"
+          "value": "C",
+          "text": "protests",
+          "content": "protests"
         },
         {
           "key": "D",
-          "text": "objects"
+          "value": "D",
+          "text": "objects",
+          "content": "objects"
         }
       ],
       "correct_answer": "B",
@@ -333,19 +389,27 @@
       "options": [
         {
           "key": "A",
-          "text": "(in) progress"
+          "value": "A",
+          "text": "progress",
+          "content": "progress"
         },
         {
           "key": "B",
-          "text": "(in) fact"
+          "value": "B",
+          "text": "fact",
+          "content": "fact"
         },
         {
           "key": "C",
-          "text": "(in) need"
+          "value": "C",
+          "text": "need",
+          "content": "need"
         },
         {
           "key": "D",
-          "text": "(in) question"
+          "value": "D",
+          "text": "question",
+          "content": "question"
         }
       ],
       "correct_answer": "D",
@@ -366,19 +430,27 @@
       "options": [
         {
           "key": "A",
-          "text": "attaining"
+          "value": "A",
+          "text": "attaining",
+          "content": "attaining"
         },
         {
           "key": "B",
-          "text": "scoring"
+          "value": "B",
+          "text": "scoring",
+          "content": "scoring"
         },
         {
           "key": "C",
-          "text": "reaching"
+          "value": "C",
+          "text": "reaching",
+          "content": "reaching"
         },
         {
           "key": "D",
-          "text": "calculating"
+          "value": "D",
+          "text": "calculating",
+          "content": "calculating"
         }
       ],
       "correct_answer": "B",
@@ -399,19 +471,27 @@
       "options": [
         {
           "key": "A",
-          "text": "normal"
+          "value": "A",
+          "text": "normal",
+          "content": "normal"
         },
         {
           "key": "B",
-          "text": "common"
+          "value": "B",
+          "text": "common",
+          "content": "common"
         },
         {
           "key": "C",
-          "text": "mean"
+          "value": "C",
+          "text": "mean",
+          "content": "mean"
         },
         {
           "key": "D",
-          "text": "total"
+          "value": "D",
+          "text": "total",
+          "content": "total"
         }
       ],
       "correct_answer": "C",
@@ -432,19 +512,27 @@
       "options": [
         {
           "key": "A",
-          "text": "unconsciously"
+          "value": "A",
+          "text": "unconsciously",
+          "content": "unconsciously"
         },
         {
           "key": "B",
-          "text": "disproportionately"
+          "value": "B",
+          "text": "disproportionately",
+          "content": "disproportionately"
         },
         {
           "key": "C",
-          "text": "indefinitely"
+          "value": "C",
+          "text": "indefinitely",
+          "content": "indefinitely"
         },
         {
           "key": "D",
-          "text": "unaccountably"
+          "value": "D",
+          "text": "unaccountably",
+          "content": "unaccountably"
         }
       ],
       "correct_answer": "B",
@@ -465,19 +553,27 @@
       "options": [
         {
           "key": "A",
-          "text": "missions"
+          "value": "A",
+          "text": "missions",
+          "content": "missions"
         },
         {
           "key": "B",
-          "text": "fortunes"
+          "value": "B",
+          "text": "fortunes",
+          "content": "fortunes"
         },
         {
           "key": "C",
-          "text": "interests"
+          "value": "C",
+          "text": "interests",
+          "content": "interests"
         },
         {
           "key": "D",
-          "text": "careers"
+          "value": "D",
+          "text": "careers",
+          "content": "careers"
         }
       ],
       "correct_answer": "D",
@@ -498,19 +594,27 @@
       "options": [
         {
           "key": "A",
-          "text": "affirm"
+          "value": "A",
+          "text": "affirm",
+          "content": "affirm"
         },
         {
           "key": "B",
-          "text": "witness"
+          "value": "B",
+          "text": "witness",
+          "content": "witness"
         },
         {
           "key": "C",
-          "text": "observe"
+          "value": "C",
+          "text": "observe",
+          "content": "observe"
         },
         {
           "key": "D",
-          "text": "approve"
+          "value": "D",
+          "text": "approve",
+          "content": "approve"
         }
       ],
       "correct_answer": "A",
@@ -531,19 +635,27 @@
       "options": [
         {
           "key": "A",
-          "text": "moreover"
+          "value": "A",
+          "text": "moreover",
+          "content": "moreover"
         },
         {
           "key": "B",
-          "text": "therefore"
+          "value": "B",
+          "text": "therefore",
+          "content": "therefore"
         },
         {
           "key": "C",
-          "text": "however"
+          "value": "C",
+          "text": "however",
+          "content": "however"
         },
         {
           "key": "D",
-          "text": "meanwhile"
+          "value": "D",
+          "text": "meanwhile",
+          "content": "meanwhile"
         }
       ],
       "correct_answer": "C",
@@ -564,19 +676,27 @@
       "options": [
         {
           "key": "A",
-          "text": "given up (to sb/sth)"
+          "value": "A",
+          "text": "given up",
+          "content": "given up"
         },
         {
           "key": "B",
-          "text": "got over (to sb)"
+          "value": "B",
+          "text": "got over",
+          "content": "got over"
         },
         {
           "key": "C",
-          "text": "carried on"
+          "value": "C",
+          "text": "carried on",
+          "content": "carried on"
         },
         {
           "key": "D",
-          "text": "put down (to sth)"
+          "value": "D",
+          "text": "put down",
+          "content": "put down"
         }
       ],
       "correct_answer": "D",
@@ -597,19 +717,27 @@
       "options": [
         {
           "key": "A",
-          "text": "assessing"
+          "value": "A",
+          "text": "assessing",
+          "content": "assessing"
         },
         {
           "key": "B",
-          "text": "supervising"
+          "value": "B",
+          "text": "supervising",
+          "content": "supervising"
         },
         {
           "key": "C",
-          "text": "administering"
+          "value": "C",
+          "text": "administering",
+          "content": "administering"
         },
         {
           "key": "D",
-          "text": "valuing"
+          "value": "D",
+          "text": "valuing",
+          "content": "valuing"
         }
       ],
       "correct_answer": "D",
@@ -630,19 +758,27 @@
       "options": [
         {
           "key": "A",
-          "text": "development"
+          "value": "A",
+          "text": "development",
+          "content": "development"
         },
         {
           "key": "B",
-          "text": "origin"
+          "value": "B",
+          "text": "origin",
+          "content": "origin"
         },
         {
           "key": "C",
-          "text": "consequence"
+          "value": "C",
+          "text": "consequence",
+          "content": "consequence"
         },
         {
           "key": "D",
-          "text": "instrument"
+          "value": "D",
+          "text": "instrument",
+          "content": "instrument"
         }
       ],
       "correct_answer": "C",
@@ -663,19 +799,27 @@
       "options": [
         {
           "key": "A",
-          "text": "linked"
+          "value": "A",
+          "text": "linked",
+          "content": "linked"
         },
         {
           "key": "B",
-          "text": "integrated"
+          "value": "B",
+          "text": "integrated",
+          "content": "integrated"
         },
         {
           "key": "C",
-          "text": "woven"
+          "value": "C",
+          "text": "woven",
+          "content": "woven"
         },
         {
           "key": "D",
-          "text": "combined"
+          "value": "D",
+          "text": "combined",
+          "content": "combined"
         }
       ],
       "correct_answer": "A",
@@ -696,19 +840,27 @@
       "options": [
         {
           "key": "A",
-          "text": "limited (sb to sth)"
+          "value": "A",
+          "text": "limited",
+          "content": "limited"
         },
         {
           "key": "B",
-          "text": "subjected (sb to sth)"
+          "value": "B",
+          "text": "subjected",
+          "content": "subjected"
         },
         {
           "key": "C",
-          "text": "converted (sb to sth)"
+          "value": "C",
+          "text": "converted",
+          "content": "converted"
         },
         {
           "key": "D",
-          "text": "directed (sb to sth)"
+          "value": "D",
+          "text": "directed",
+          "content": "directed"
         }
       ],
       "correct_answer": "B",
@@ -729,19 +881,27 @@
       "options": [
         {
           "key": "A",
-          "text": "paradoxical"
+          "value": "A",
+          "text": "paradoxical",
+          "content": "paradoxical"
         },
         {
           "key": "B",
-          "text": "incompatible"
+          "value": "B",
+          "text": "incompatible",
+          "content": "incompatible"
         },
         {
           "key": "C",
-          "text": "inevitable"
+          "value": "C",
+          "text": "inevitable",
+          "content": "inevitable"
         },
         {
           "key": "D",
-          "text": "continuous"
+          "value": "D",
+          "text": "continuous",
+          "content": "continuous"
         }
       ],
       "correct_answer": "A",
@@ -762,19 +922,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Women are biologically more vulnerable to stress."
+          "value": "A",
+          "text": "Women are biologically more vulnerable to stress.",
+          "content": "Women are biologically more vulnerable to stress."
         },
         {
           "key": "B",
-          "text": "Women are still suffering much stress caused by men."
+          "value": "B",
+          "text": "Women are still suffering much stress caused by men.",
+          "content": "Women are still suffering much stress caused by men."
         },
         {
           "key": "C",
-          "text": "Women are more experienced than men in coping with stress."
+          "value": "C",
+          "text": "Women are more experienced than men in coping with stress.",
+          "content": "Women are more experienced than men in coping with stress."
         },
         {
           "key": "D",
-          "text": "Men and women show different inclinations when faced with stress."
+          "value": "D",
+          "text": "Men and women show different inclinations when faced with stress.",
+          "content": "Men and women show different inclinations when faced with stress."
         }
       ],
       "correct_answer": "A",
@@ -795,19 +963,27 @@
       "options": [
         {
           "key": "A",
-          "text": "need extra doses of chemicals to handle stress"
+          "value": "A",
+          "text": "need extra doses of chemicals to handle stress",
+          "content": "need extra doses of chemicals to handle stress"
         },
         {
           "key": "B",
-          "text": "have limited capacity for tolerating stress"
+          "value": "B",
+          "text": "have limited capacity for tolerating stress",
+          "content": "have limited capacity for tolerating stress"
         },
         {
           "key": "C",
-          "text": "are more capable of avoiding stress"
+          "value": "C",
+          "text": "are more capable of avoiding stress",
+          "content": "are more capable of avoiding stress"
         },
         {
           "key": "D",
-          "text": "are exposed to more stress"
+          "value": "D",
+          "text": "are exposed to more stress",
+          "content": "are exposed to more stress"
         }
       ],
       "correct_answer": "D",
@@ -828,19 +1004,27 @@
       "options": [
         {
           "key": "A",
-          "text": "domestic and temporary"
+          "value": "A",
+          "text": "domestic and temporary",
+          "content": "domestic and temporary"
         },
         {
           "key": "B",
-          "text": "irregular and violent"
+          "value": "B",
+          "text": "irregular and violent",
+          "content": "irregular and violent"
         },
         {
           "key": "C",
-          "text": "durable and frequent"
+          "value": "C",
+          "text": "durable and frequent",
+          "content": "durable and frequent"
         },
         {
           "key": "D",
-          "text": "trivial and random"
+          "value": "D",
+          "text": "trivial and random",
+          "content": "trivial and random"
         }
       ],
       "correct_answer": "C",
@@ -861,19 +1045,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Alvarez cared about nothing but making money"
+          "value": "A",
+          "text": "Alvarez cared about nothing but making money",
+          "content": "Alvarez cared about nothing but making money"
         },
         {
           "key": "B",
-          "text": "Alvarez's salary barely covered her household expenses"
+          "value": "B",
+          "text": "Alvarez's salary barely covered her household expenses",
+          "content": "Alvarez's salary barely covered her household expenses"
         },
         {
           "key": "C",
-          "text": "Alvarez got paychecks from different jobs"
+          "value": "C",
+          "text": "Alvarez got paychecks from different jobs",
+          "content": "Alvarez got paychecks from different jobs"
         },
         {
           "key": "D",
-          "text": "Alvarez paid practically everything by check"
+          "value": "D",
+          "text": "Alvarez paid practically everything by check",
+          "content": "Alvarez paid practically everything by check"
         }
       ],
       "correct_answer": "B",
@@ -894,19 +1086,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Strain of Stress: No Way Out?"
+          "value": "A",
+          "text": "Strain of Stress: No Way Out?",
+          "content": "Strain of Stress: No Way Out?"
         },
         {
           "key": "B",
-          "text": "Responses to Stress: Gender Difference"
+          "value": "B",
+          "text": "Responses to Stress: Gender Difference",
+          "content": "Responses to Stress: Gender Difference"
         },
         {
           "key": "C",
-          "text": "Stress Analysis: What Chemicals Say"
+          "value": "C",
+          "text": "Stress Analysis: What Chemicals Say",
+          "content": "Stress Analysis: What Chemicals Say"
         },
         {
           "key": "D",
-          "text": "Gender Inequality: Women Under Stress"
+          "value": "D",
+          "text": "Gender Inequality: Women Under Stress",
+          "content": "Gender Inequality: Women Under Stress"
         }
       ],
       "correct_answer": "D",
@@ -927,19 +1127,27 @@
       "options": [
         {
           "key": "A",
-          "text": "the background information of journal editing"
+          "value": "A",
+          "text": "the background information of journal editing",
+          "content": "the background information of journal editing"
         },
         {
           "key": "B",
-          "text": "the publication routine of laboratory reports"
+          "value": "B",
+          "text": "the publication routine of laboratory reports",
+          "content": "the publication routine of laboratory reports"
         },
         {
           "key": "C",
-          "text": "the relations of authors with journal publishers"
+          "value": "C",
+          "text": "the relations of authors with journal publishers",
+          "content": "the relations of authors with journal publishers"
         },
         {
           "key": "D",
-          "text": "the traditional process of journal publication"
+          "value": "D",
+          "text": "the traditional process of journal publication",
+          "content": "the traditional process of journal publication"
         }
       ],
       "correct_answer": "D",
@@ -960,19 +1168,27 @@
       "options": [
         {
           "key": "A",
-          "text": "It criticizes government-funded research."
+          "value": "A",
+          "text": "It criticizes government-funded research.",
+          "content": "It criticizes government-funded research."
         },
         {
           "key": "B",
-          "text": "It introduces an effective means of publication."
+          "value": "B",
+          "text": "It introduces an effective means of publication.",
+          "content": "It introduces an effective means of publication."
         },
         {
           "key": "C",
-          "text": "It upsets profit-making journal publishers."
+          "value": "C",
+          "text": "It upsets profit-making journal publishers.",
+          "content": "It upsets profit-making journal publishers."
         },
         {
           "key": "D",
-          "text": "It benefits scientific research considerably."
+          "value": "D",
+          "text": "It benefits scientific research considerably.",
+          "content": "It benefits scientific research considerably."
         }
       ],
       "correct_answer": "C",
@@ -993,19 +1209,27 @@
       "options": [
         {
           "key": "A",
-          "text": "it provides an easier access to scientific results"
+          "value": "A",
+          "text": "it provides an easier access to scientific results",
+          "content": "it provides an easier access to scientific results"
         },
         {
           "key": "B",
-          "text": "it brings huge profits to scientific researchers"
+          "value": "B",
+          "text": "it brings huge profits to scientific researchers",
+          "content": "it brings huge profits to scientific researchers"
         },
         {
           "key": "C",
-          "text": "it emphasizes the crucial role of scientific knowledge"
+          "value": "C",
+          "text": "it emphasizes the crucial role of scientific knowledge",
+          "content": "it emphasizes the crucial role of scientific knowledge"
         },
         {
           "key": "D",
-          "text": "it facilitates public investment in scientific research"
+          "value": "D",
+          "text": "it facilitates public investment in scientific research",
+          "content": "it facilitates public investment in scientific research"
         }
       ],
       "correct_answer": "A",
@@ -1026,19 +1250,27 @@
       "options": [
         {
           "key": "A",
-          "text": "cover the cost of its publication"
+          "value": "A",
+          "text": "cover the cost of its publication",
+          "content": "cover the cost of its publication"
         },
         {
           "key": "B",
-          "text": "subscribe to the journal publishing it"
+          "value": "B",
+          "text": "subscribe to the journal publishing it",
+          "content": "subscribe to the journal publishing it"
         },
         {
           "key": "C",
-          "text": "allow other online journals to use it freely"
+          "value": "C",
+          "text": "allow other online journals to use it freely",
+          "content": "allow other online journals to use it freely"
         },
         {
           "key": "D",
-          "text": "complete the peer-review process beforehand"
+          "value": "D",
+          "text": "complete the peer-review process beforehand",
+          "content": "complete the peer-review process beforehand"
         }
       ],
       "correct_answer": "A",
@@ -1059,19 +1291,27 @@
       "options": [
         {
           "key": "A",
-          "text": "The Internet is posing a threat to publishers."
+          "value": "A",
+          "text": "The Internet is posing a threat to publishers.",
+          "content": "The Internet is posing a threat to publishers."
         },
         {
           "key": "B",
-          "text": "A new mode of publication is emerging."
+          "value": "B",
+          "text": "A new mode of publication is emerging.",
+          "content": "A new mode of publication is emerging."
         },
         {
           "key": "C",
-          "text": "Authors welcome the new channel for publication."
+          "value": "C",
+          "text": "Authors welcome the new channel for publication.",
+          "content": "Authors welcome the new channel for publication."
         },
         {
           "key": "D",
-          "text": "Publication is rendered easier by online service."
+          "value": "D",
+          "text": "Publication is rendered easier by online service.",
+          "content": "Publication is rendered easier by online service."
         }
       ],
       "correct_answer": "B",
@@ -1092,19 +1332,27 @@
       "options": [
         {
           "key": "A",
-          "text": "illustrate the change of height of NBA players"
+          "value": "A",
+          "text": "illustrate the change of height of NBA players",
+          "content": "illustrate the change of height of NBA players"
         },
         {
           "key": "B",
-          "text": "show the popularity of NBA players in the U.S."
+          "value": "B",
+          "text": "show the popularity of NBA players in the U.S.",
+          "content": "show the popularity of NBA players in the U.S."
         },
         {
           "key": "C",
-          "text": "compare the stature of players in different sports"
+          "value": "C",
+          "text": "compare the stature of players in different sports",
+          "content": "compare the stature of players in different sports"
         },
         {
           "key": "D",
-          "text": "assess the impact of height on sports performance"
+          "value": "D",
+          "text": "assess the impact of height on sports performance",
+          "content": "assess the impact of height on sports performance"
         }
       ],
       "correct_answer": "A",
@@ -1125,19 +1373,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Genetic modification."
+          "value": "A",
+          "text": "Genetic modification.",
+          "content": "Genetic modification."
         },
         {
           "key": "B",
-          "text": "Natural environment."
+          "value": "B",
+          "text": "Natural environment.",
+          "content": "Natural environment."
         },
         {
           "key": "C",
-          "text": "Living standards."
+          "value": "C",
+          "text": "Living standards.",
+          "content": "Living standards."
         },
         {
           "key": "D",
-          "text": "Daily exercise."
+          "value": "D",
+          "text": "Daily exercise.",
+          "content": "Daily exercise."
         }
       ],
       "correct_answer": "C",
@@ -1158,19 +1414,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Non-Americans add to the average height of the nation."
+          "value": "A",
+          "text": "Non-Americans add to the average height of the nation.",
+          "content": "Non-Americans add to the average height of the nation."
         },
         {
           "key": "B",
-          "text": "Human height is conditioned by the upright posture."
+          "value": "B",
+          "text": "Human height is conditioned by the upright posture.",
+          "content": "Human height is conditioned by the upright posture."
         },
         {
           "key": "C",
-          "text": "Americans are the tallest on average in the world."
+          "value": "C",
+          "text": "Americans are the tallest on average in the world.",
+          "content": "Americans are the tallest on average in the world."
         },
         {
           "key": "D",
-          "text": "Larger babies tend to become taller in adulthood."
+          "value": "D",
+          "text": "Larger babies tend to become taller in adulthood.",
+          "content": "Larger babies tend to become taller in adulthood."
         }
       ],
       "correct_answer": "B",
@@ -1191,19 +1455,27 @@
       "options": [
         {
           "key": "A",
-          "text": "the garment industry will reconsider the uniform size"
+          "value": "A",
+          "text": "the garment industry will reconsider the uniform size",
+          "content": "the garment industry will reconsider the uniform size"
         },
         {
           "key": "B",
-          "text": "the design of military uniforms will remain unchanged"
+          "value": "B",
+          "text": "the design of military uniforms will remain unchanged",
+          "content": "the design of military uniforms will remain unchanged"
         },
         {
           "key": "C",
-          "text": "genetic testing will be employed in selecting sportsmen"
+          "value": "C",
+          "text": "genetic testing will be employed in selecting sportsmen",
+          "content": "genetic testing will be employed in selecting sportsmen"
         },
         {
           "key": "D",
-          "text": "the existing data of human height will still be applicable"
+          "value": "D",
+          "text": "the existing data of human height will still be applicable",
+          "content": "the existing data of human height will still be applicable"
         }
       ],
       "correct_answer": "D",
@@ -1224,19 +1496,27 @@
       "options": [
         {
           "key": "A",
-          "text": "the change of human height follows a cyclic pattern"
+          "value": "A",
+          "text": "the change of human height follows a cyclic pattern",
+          "content": "the change of human height follows a cyclic pattern"
         },
         {
           "key": "B",
-          "text": "human height is becoming even more predictable"
+          "value": "B",
+          "text": "human height is becoming even more predictable",
+          "content": "human height is becoming even more predictable"
         },
         {
           "key": "C",
-          "text": "Americans have reached their genetic growth limit"
+          "value": "C",
+          "text": "Americans have reached their genetic growth limit",
+          "content": "Americans have reached their genetic growth limit"
         },
         {
           "key": "D",
-          "text": "the genetic pattern of Americans has altered"
+          "value": "D",
+          "text": "the genetic pattern of Americans has altered",
+          "content": "the genetic pattern of Americans has altered"
         }
       ],
       "correct_answer": "C",
@@ -1257,19 +1537,27 @@
       "options": [
         {
           "key": "A",
-          "text": "show the primitive medical practice in the past"
+          "value": "A",
+          "text": "show the primitive medical practice in the past",
+          "content": "show the primitive medical practice in the past"
         },
         {
           "key": "B",
-          "text": "demonstrate the cruelty of slavery in his days"
+          "value": "B",
+          "text": "demonstrate the cruelty of slavery in his days",
+          "content": "demonstrate the cruelty of slavery in his days"
         },
         {
           "key": "C",
-          "text": "stress the role of slaves in the U.S. history"
+          "value": "C",
+          "text": "stress the role of slaves in the U.S. history",
+          "content": "stress the role of slaves in the U.S. history"
         },
         {
           "key": "D",
-          "text": "reveal some unknown aspect of his life"
+          "value": "D",
+          "text": "reveal some unknown aspect of his life",
+          "content": "reveal some unknown aspect of his life"
         }
       ],
       "correct_answer": "D",
@@ -1290,19 +1578,27 @@
       "options": [
         {
           "key": "A",
-          "text": "DNA technology has been widely applied to history research"
+          "value": "A",
+          "text": "DNA technology has been widely applied to history research",
+          "content": "DNA technology has been widely applied to history research"
         },
         {
           "key": "B",
-          "text": "in its early days the U.S. was confronted with delicate situations"
+          "value": "B",
+          "text": "in its early days the U.S. was confronted with delicate situations",
+          "content": "in its early days the U.S. was confronted with delicate situations"
         },
         {
           "key": "C",
-          "text": "historians deliberately made up some stories of Jefferson's life"
+          "value": "C",
+          "text": "historians deliberately made up some stories of Jefferson's life",
+          "content": "historians deliberately made up some stories of Jefferson's life"
         },
         {
           "key": "D",
-          "text": "political compromises are easily found throughout the U.S. history"
+          "value": "D",
+          "text": "political compromises are easily found throughout the U.S. history",
+          "content": "political compromises are easily found throughout the U.S. history"
         }
       ],
       "correct_answer": "B",
@@ -1323,19 +1619,27 @@
       "options": [
         {
           "key": "A",
-          "text": "His political view changed his attitude towards slavery."
+          "value": "A",
+          "text": "His political view changed his attitude towards slavery.",
+          "content": "His political view changed his attitude towards slavery."
         },
         {
           "key": "B",
-          "text": "His status as a father made him free the child slaves."
+          "value": "B",
+          "text": "His status as a father made him free the child slaves.",
+          "content": "His status as a father made him free the child slaves."
         },
         {
           "key": "C",
-          "text": "His attitude towards slavery was complex."
+          "value": "C",
+          "text": "His attitude towards slavery was complex.",
+          "content": "His attitude towards slavery was complex."
         },
         {
           "key": "D",
-          "text": "His affair with a slave stained his prestige."
+          "value": "D",
+          "text": "His affair with a slave stained his prestige.",
+          "content": "His affair with a slave stained his prestige."
         }
       ],
       "correct_answer": "C",
@@ -1356,19 +1660,27 @@
       "options": [
         {
           "key": "A",
-          "text": "Some Founding Fathers benefit politically from slavery."
+          "value": "A",
+          "text": "Some Founding Fathers benefit politically from slavery.",
+          "content": "Some Founding Fathers benefit politically from slavery."
         },
         {
           "key": "B",
-          "text": "Slaves in the old days did not have the right to vote."
+          "value": "B",
+          "text": "Slaves in the old days did not have the right to vote.",
+          "content": "Slaves in the old days did not have the right to vote."
         },
         {
           "key": "C",
-          "text": "Slaves owners usually had large savings accounts."
+          "value": "C",
+          "text": "Slaves owners usually had large savings accounts.",
+          "content": "Slaves owners usually had large savings accounts."
         },
         {
           "key": "D",
-          "text": "Slavery was regarded as a peculiar institution."
+          "value": "D",
+          "text": "Slavery was regarded as a peculiar institution.",
+          "content": "Slavery was regarded as a peculiar institution."
         }
       ],
       "correct_answer": "A",
@@ -1389,19 +1701,27 @@
       "options": [
         {
           "key": "A",
-          "text": "moral considerations"
+          "value": "A",
+          "text": "moral considerations",
+          "content": "moral considerations"
         },
         {
           "key": "B",
-          "text": "military experience"
+          "value": "B",
+          "text": "military experience",
+          "content": "military experience"
         },
         {
           "key": "C",
-          "text": "financial conditions"
+          "value": "C",
+          "text": "financial conditions",
+          "content": "financial conditions"
         },
         {
           "key": "D",
-          "text": "political stand"
+          "value": "D",
+          "text": "political stand",
+          "content": "political stand"
         }
       ],
       "correct_answer": "B",
@@ -1422,31 +1742,45 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
+          "value": "A",
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
+          "content": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
+          "value": "B",
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression.",
+          "content": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
+          "value": "C",
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems.",
+          "content": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
+          "value": "D",
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made.",
+          "content": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
+          "value": "E",
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
+          "content": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
+          "value": "F",
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies.",
+          "content": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
+          "value": "G",
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around.",
+          "content": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "D",
@@ -1467,31 +1801,45 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
+          "value": "A",
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
+          "content": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
+          "value": "B",
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression.",
+          "content": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
+          "value": "C",
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems.",
+          "content": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
+          "value": "D",
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made.",
+          "content": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
+          "value": "E",
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
+          "content": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
+          "value": "F",
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies.",
+          "content": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
+          "value": "G",
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around.",
+          "content": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "G",
@@ -1512,31 +1860,45 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
+          "value": "A",
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
+          "content": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
+          "value": "B",
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression.",
+          "content": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
+          "value": "C",
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems.",
+          "content": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
+          "value": "D",
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made.",
+          "content": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
+          "value": "E",
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
+          "content": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
+          "value": "F",
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies.",
+          "content": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
+          "value": "G",
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around.",
+          "content": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "A",
@@ -1557,31 +1919,45 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
+          "value": "A",
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
+          "content": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
+          "value": "B",
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression.",
+          "content": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
+          "value": "C",
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems.",
+          "content": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
+          "value": "D",
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made.",
+          "content": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
+          "value": "E",
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
+          "content": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
+          "value": "F",
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies.",
+          "content": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
+          "value": "G",
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around.",
+          "content": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "C",
@@ -1602,31 +1978,45 @@
       "options": [
         {
           "key": "A",
-          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
+          "value": "A",
+          "text": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper.",
+          "content": "To make revising easier, leave wide margins and extra space between lines so that you can easily add words, sentences, and corrections. Write on only one side of the paper."
         },
         {
           "key": "B",
-          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
+          "value": "B",
+          "text": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression.",
+          "content": "After you have clearly and adequately developed the body of your paper, pay particular attention to the introductory and concluding paragraphs. It's probably best to write the introduction last, after you know precisely what you are introducing. Concluding paragraphs demand equal attention because they leave the reader with a final impression."
         },
         {
           "key": "C",
-          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
+          "value": "C",
+          "text": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems.",
+          "content": "It's worth remembering, however, that though a clean copy fresh off a printer may look terrific, it will read only as well as the thinking and writing that have gone into it. Many writers prudently store their data on disks and print their pages each time they finish a draft to avoid losing any material because of power failures or other problems."
         },
         {
           "key": "D",
-          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
+          "value": "D",
+          "text": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made.",
+          "content": "It makes no difference how you write, Just so you do. Now that you have developed a topic into a tentative thesis, you can assemble your notes and begin to flesh out whatever outline you have made."
         },
         {
           "key": "E",
-          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
+          "value": "E",
+          "text": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces.",
+          "content": "Although this is an interesting issue, it has nothing to do with the thesis, which explains how the setting influences Sammy's decision to quit his job. Instead of including that paragraph, she added one that described Lengel's crabbed response to the girls so that she could lead up to the A&P \"policy\" he enforces."
         },
         {
           "key": "F",
-          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
+          "value": "F",
+          "text": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies.",
+          "content": "In the final paragraph about the significance of the setting in \"A & P,\" the student brings together the reasons Sammy quit his job by referring to his refusal to accept Lengel's store policies."
         },
         {
           "key": "G",
-          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
+          "value": "G",
+          "text": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around.",
+          "content": "By using the first draft as a means of thinking about what you want to say, you will very likely discover more than your notes originally suggested. Plenty of good writers don't use outlines at all but discover ordering principles as they write. Do not attempt to compose a perfectly correct draft the first time around."
         }
       ],
       "correct_answer": "E",

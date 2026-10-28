@@ -102,23 +102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "served",
-          "value": "A"
+          "content": "served"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "performed",
-          "value": "B"
+          "content": "performed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "rebelled",
-          "value": "C"
+          "content": "rebelled"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "betrayed",
-          "value": "D"
+          "content": "betrayed"
         }
       ],
       "correct_answer": "A",
@@ -138,23 +142,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "actual",
-          "value": "A"
+          "content": "actual"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "common",
-          "value": "B"
+          "content": "common"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "special",
-          "value": "C"
+          "content": "special"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "normal",
-          "value": "D"
+          "content": "normal"
         }
       ],
       "correct_answer": "B",
@@ -174,23 +182,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "loaded",
-          "value": "A"
+          "content": "loaded"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "eased",
-          "value": "B"
+          "content": "eased"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "removed",
-          "value": "C"
+          "content": "removed"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "bore",
-          "value": "D"
+          "content": "bore"
         }
       ],
       "correct_answer": "D",
@@ -210,23 +222,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "necessities",
-          "value": "A"
+          "content": "necessities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "facilities",
-          "value": "B"
+          "content": "facilities"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "commodities",
-          "value": "C"
+          "content": "commodities"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "properties",
-          "value": "D"
+          "content": "properties"
         }
       ],
       "correct_answer": "A",
@@ -246,23 +262,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "and",
-          "value": "A"
+          "content": "and"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "nor",
-          "value": "B"
+          "content": "nor"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "but",
-          "value": "C"
+          "content": "but"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "hence",
-          "value": "D"
+          "content": "hence"
         }
       ],
       "correct_answer": "C",
@@ -282,23 +302,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "for",
-          "value": "A"
+          "content": "for"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "into",
-          "value": "B"
+          "content": "into"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "from",
-          "value": "C"
+          "content": "from"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "against",
-          "value": "D"
+          "content": "against"
         }
       ],
       "correct_answer": "D",
@@ -318,23 +342,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "with",
-          "value": "A"
+          "content": "with"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "for",
-          "value": "B"
+          "content": "for"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "as",
-          "value": "C"
+          "content": "as"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "on",
-          "value": "D"
+          "content": "on"
         }
       ],
       "correct_answer": "B",
@@ -354,23 +382,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "handed",
-          "value": "A"
+          "content": "handed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "turned",
-          "value": "B"
+          "content": "turned"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "brought",
-          "value": "C"
+          "content": "brought"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "passed",
-          "value": "D"
+          "content": "passed"
         }
       ],
       "correct_answer": "A",
@@ -390,23 +422,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "got",
-          "value": "A"
+          "content": "got"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "took",
-          "value": "B"
+          "content": "took"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "made",
-          "value": "C"
+          "content": "made"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "put",
-          "value": "D"
+          "content": "put"
         }
       ],
       "correct_answer": "C",
@@ -426,23 +462,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "ever",
-          "value": "A"
+          "content": "ever"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "never",
-          "value": "B"
+          "content": "never"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "seldom",
-          "value": "C"
+          "content": "seldom"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "hardly",
-          "value": "D"
+          "content": "hardly"
         }
       ],
       "correct_answer": "B",
@@ -462,23 +502,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "modest",
-          "value": "A"
+          "content": "modest"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "troubled",
-          "value": "B"
+          "content": "troubled"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "glorious",
-          "value": "C"
+          "content": "glorious"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "distinguished",
-          "value": "D"
+          "content": "distinguished"
         }
       ],
       "correct_answer": "D",
@@ -498,23 +542,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "portion",
-          "value": "A"
+          "content": "portion"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "blend",
-          "value": "B"
+          "content": "blend"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "composite",
-          "value": "C"
+          "content": "composite"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "collection",
-          "value": "D"
+          "content": "collection"
         }
       ],
       "correct_answer": "C",
@@ -534,23 +582,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "interrogated",
-          "value": "A"
+          "content": "interrogated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "interviewed",
-          "value": "B"
+          "content": "interviewed"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "quoted",
-          "value": "C"
+          "content": "quoted"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "questioned",
-          "value": "D"
+          "content": "questioned"
         }
       ],
       "correct_answer": "C",
@@ -570,23 +622,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "human",
-          "value": "A"
+          "content": "human"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "military",
-          "value": "B"
+          "content": "military"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "political",
-          "value": "C"
+          "content": "political"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "strategic",
-          "value": "D"
+          "content": "strategic"
         }
       ],
       "correct_answer": "A",
@@ -606,23 +662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "traveled",
-          "value": "A"
+          "content": "traveled"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "walked",
-          "value": "B"
+          "content": "walked"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "marched",
-          "value": "C"
+          "content": "marched"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "covered",
-          "value": "D"
+          "content": "covered"
         }
       ],
       "correct_answer": "D",
@@ -642,23 +702,27 @@
       "options": [
         {
           "key": "A",
-          "text": "echoed",
-          "value": "A"
+          "value": "A",
+          "text": "paralleled",
+          "content": "paralleled"
         },
         {
           "key": "B",
-          "text": "contrasted",
-          "value": "B"
+          "value": "B",
+          "text": "counteracted",
+          "content": "counteracted"
         },
         {
           "key": "C",
-          "text": "surpassed",
-          "value": "C"
+          "value": "C",
+          "text": "duplicated",
+          "content": "duplicated"
         },
         {
           "key": "D",
-          "text": "paraged",
-          "value": "D"
+          "value": "D",
+          "text": "contradicted",
+          "content": "contradicted"
         }
       ],
       "correct_answer": "A",
@@ -678,23 +742,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "endured",
-          "value": "A"
+          "content": "endured"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "shared",
-          "value": "B"
+          "content": "shared"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "reflected",
-          "value": "C"
+          "content": "reflected"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "understood",
-          "value": "D"
+          "content": "understood"
         }
       ],
       "correct_answer": "B",
@@ -714,23 +782,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "luxuries",
-          "value": "A"
+          "content": "luxuries"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "comforts",
-          "value": "B"
+          "content": "comforts"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tokens",
-          "value": "C"
+          "content": "tokens"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "relics",
-          "value": "D"
+          "content": "relics"
         }
       ],
       "correct_answer": "C",
@@ -750,23 +822,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "In",
-          "value": "A"
+          "content": "In"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "To",
-          "value": "B"
+          "content": "To"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "From",
-          "value": "C"
+          "content": "From"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "For",
-          "value": "D"
+          "content": "For"
         }
       ],
       "correct_answer": "B",
@@ -786,23 +862,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "on the contrary",
-          "value": "A"
+          "content": "on the contrary"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "by this means",
-          "value": "B"
+          "content": "by this means"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "from the outset",
-          "value": "C"
+          "content": "from the outset"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "at that point",
-          "value": "D"
+          "content": "at that point"
         }
       ],
       "correct_answer": "D",
@@ -822,23 +902,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "is receiving more criticism",
-          "value": "A"
+          "content": "is receiving more criticism"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "is gaining more preferences",
-          "value": "B"
+          "content": "is gaining more preferences"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "is no longer an educational ritual",
-          "value": "C"
+          "content": "is no longer an educational ritual"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "is not required for advanced courses",
-          "value": "D"
+          "content": "is not required for advanced courses"
         }
       ],
       "correct_answer": "A",
@@ -858,23 +942,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "tend to have moderate expectations for their education",
-          "value": "A"
+          "content": "tend to have moderate expectations for their education"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "have asked for a different educational standard",
-          "value": "B"
+          "content": "have asked for a different educational standard"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "may have problems finishing their homework",
-          "value": "C"
+          "content": "may have problems finishing their homework"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "have voiced their complaints about homework",
-          "value": "D"
+          "content": "have voiced their complaints about homework"
         }
       ],
       "correct_answer": "C",
@@ -894,23 +982,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "result in students’ indifference to their report cards",
-          "value": "A"
+          "content": "result in students’ indifference to their report cards"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "undermine the authority of state tests",
-          "value": "B"
+          "content": "undermine the authority of state tests"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "restrict teachers’ power in education",
-          "value": "C"
+          "content": "restrict teachers’ power in education"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "discourage students from doing homework",
-          "value": "D"
+          "content": "discourage students from doing homework"
         }
       ],
       "correct_answer": "D",
@@ -930,23 +1022,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "it should be eliminated",
-          "value": "A"
+          "content": "it should be eliminated"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "it counts much in schooling",
-          "value": "B"
+          "content": "it counts much in schooling"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "it places extra burdens on teachers",
-          "value": "C"
+          "content": "it places extra burdens on teachers"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "it is important for grades",
-          "value": "D"
+          "content": "it is important for grades"
         }
       ],
       "correct_answer": "B",
@@ -966,23 +1062,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "A Faulty Approach to Homework",
-          "value": "A"
+          "content": "A Faulty Approach to Homework"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "A Welcomed Policy for Poor Students",
-          "value": "B"
+          "content": "A Welcomed Policy for Poor Students"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Thorny Questions about Homework",
-          "value": "C"
+          "content": "Thorny Questions about Homework"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Wrong Interpretations of an Educational Policy",
-          "value": "D"
+          "content": "Wrong Interpretations of an Educational Policy"
         }
       ],
       "correct_answer": "A",
@@ -1002,23 +1102,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "should not be associated with girls' innocence",
-          "value": "A"
+          "content": "should not be associated with girls' innocence"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "cannot explain girls' lack of imagination",
-          "value": "B"
+          "content": "cannot explain girls' lack of imagination"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "should not be the sole representation of girlhood",
-          "value": "C"
+          "content": "should not be the sole representation of girlhood"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "cannot affect girls' lives and interests",
-          "value": "D"
+          "content": "cannot affect girls' lives and interests"
         }
       ],
       "correct_answer": "C",
@@ -1038,23 +1142,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "are often used to categorize white infants",
-          "value": "A"
+          "content": "are often used to categorize white infants"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "were not used to tell girls from boys in the past",
-          "value": "B"
+          "content": "were not used to tell girls from boys in the past"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "tend to be assigned with identical meanings",
-          "value": "C"
+          "content": "tend to be assigned with identical meanings"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "are naturally associated with children's gender",
-          "value": "D"
+          "content": "are naturally associated with children's gender"
         }
       ],
       "correct_answer": "B",
@@ -1074,23 +1182,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "has neglected children's active role in searching for cues",
-          "value": "A"
+          "content": "has neglected children's active role in searching for cues"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "was profoundly influenced by mid-century theorists",
-          "value": "B"
+          "content": "was profoundly influenced by mid-century theorists"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "focused solely on the two-year-old development stage",
-          "value": "C"
+          "content": "focused solely on the two-year-old development stage"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "failed to acknowledge children's resistance to compromise",
-          "value": "D"
+          "content": "failed to acknowledge children's resistance to compromise"
         }
       ],
       "correct_answer": "B",
@@ -1110,23 +1222,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "classify consumers into smaller groups",
-          "value": "A"
+          "content": "classify consumers into smaller groups"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "manufacture clothing with uniform gender cues",
-          "value": "B"
+          "content": "manufacture clothing with uniform gender cues"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "focus primarily on the baby infant wear market",
-          "value": "C"
+          "content": "focus primarily on the baby infant wear market"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "combine toddler products with older child designs",
-          "value": "D"
+          "content": "combine toddler products with older child designs"
         }
       ],
       "correct_answer": "A",
@@ -1146,23 +1262,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "a genetically determined trait",
-          "value": "A"
+          "content": "a genetically determined trait"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "an instinctive psychological requirement",
-          "value": "B"
+          "content": "an instinctive psychological requirement"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "a market-driven phenomenon",
-          "value": "C"
+          "content": "a market-driven phenomenon"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "an inevitable natural preference",
-          "value": "D"
+          "content": "an inevitable natural preference"
         }
       ],
       "correct_answer": "C",
@@ -1182,23 +1302,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "genes to be patentable",
-          "value": "A"
+          "content": "genes to be patentable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the BIO to issue a warning",
-          "value": "B"
+          "content": "the BIO to issue a warning"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "their executives to be active",
-          "value": "C"
+          "content": "their executives to be active"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "judges to rule out gene patenting",
-          "value": "D"
+          "content": "judges to rule out gene patenting"
         }
       ],
       "correct_answer": "A",
@@ -1218,23 +1342,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "genetic tests are not reliable",
-          "value": "A"
+          "content": "genetic tests are not reliable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "only man-made products are patentable",
-          "value": "B"
+          "content": "only man-made products are patentable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "patents on genes depend much on innovation",
-          "value": "C"
+          "content": "patents on genes depend much on innovation"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "courts should restrict access to genetic tests",
-          "value": "D"
+          "content": "courts should restrict access to genetic tests"
         }
       ],
       "correct_answer": "B",
@@ -1254,23 +1382,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "establishing disease correlations",
-          "value": "A"
+          "content": "establishing disease correlations"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "discovering gene interactions",
-          "value": "B"
+          "content": "discovering gene interactions"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "drawing pictures of genes",
-          "value": "C"
+          "content": "drawing pictures of genes"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "identifying human DNA",
-          "value": "D"
+          "content": "identifying human DNA"
         }
       ],
       "correct_answer": "A",
@@ -1290,23 +1422,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "the Supreme Court was authoritative",
-          "value": "A"
+          "content": "the Supreme Court was authoritative"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "the BIO was a powerful organization",
-          "value": "B"
+          "content": "the BIO was a powerful organization"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "gene patenting was a great concern",
-          "value": "C"
+          "content": "gene patenting was a great concern"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "lawyers were keen to attend conventions",
-          "value": "D"
+          "content": "lawyers were keen to attend conventions"
         }
       ],
       "correct_answer": "C",
@@ -1326,23 +1462,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "enthusiastic",
-          "value": "A"
+          "content": "enthusiastic"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "indifferent",
-          "value": "B"
+          "content": "indifferent"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "supportive",
-          "value": "C"
+          "content": "supportive"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "objective",
-          "value": "D"
+          "content": "objective"
         }
       ],
       "correct_answer": "D",
@@ -1362,23 +1502,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "seek subsidies from the government",
-          "value": "A"
+          "content": "seek subsidies from the government"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "make profits from the troubled economy",
-          "value": "B"
+          "content": "make profits from the troubled economy"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "explore reasons for the unemployment",
-          "value": "C"
+          "content": "explore reasons for the unemployment"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "look on the bright side of the recession",
-          "value": "D"
+          "content": "look on the bright side of the recession"
         }
       ],
       "correct_answer": "D",
@@ -1398,23 +1542,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "struggle against each other for survival",
-          "value": "A"
+          "content": "struggle against each other for survival"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "give up their ambitions for the future",
-          "value": "B"
+          "content": "give up their ambitions for the future"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "challenge existing ethical standards",
-          "value": "C"
+          "content": "challenge existing ethical standards"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "reconsider their lifestyle and priorities",
-          "value": "D"
+          "content": "reconsider their lifestyle and priorities"
         }
       ],
       "correct_answer": "D",
@@ -1434,23 +1582,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "eliminate racial discrimination",
-          "value": "A"
+          "content": "eliminate racial discrimination"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "bring out more evils of human nature",
-          "value": "B"
+          "content": "bring out more evils of human nature"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "strengthen democratic systems",
-          "value": "C"
+          "content": "strengthen democratic systems"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "promote social equality",
-          "value": "D"
+          "content": "promote social equality"
         }
       ],
       "correct_answer": "B",
@@ -1470,23 +1622,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "suffer long-term career setbacks",
-          "value": "A"
+          "content": "suffer long-term career setbacks"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "compete fiercely with the masses",
-          "value": "B"
+          "content": "compete fiercely with the masses"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "sacrifice their potential for quick income",
-          "value": "C"
+          "content": "sacrifice their potential for quick income"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "recover quickly from the adverse effect",
-          "value": "D"
+          "content": "recover quickly from the adverse effect"
         }
       ],
       "correct_answer": "D",
@@ -1506,23 +1662,27 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "lasting and profound",
-          "value": "A"
+          "content": "lasting and profound"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "temporary and manageable",
-          "value": "B"
+          "content": "temporary and manageable"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "predictable and localized",
-          "value": "C"
+          "content": "predictable and localized"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "mild and superficial",
-          "value": "D"
+          "content": "mild and superficial"
         }
       ],
       "correct_answer": "A",
@@ -1542,38 +1702,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emphasized the virtue of classical heroes.",
-          "value": "A"
+          "content": "emphasized the virtue of classical heroes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted the public glory of the leading artists.",
-          "value": "B"
+          "content": "highlighted the public glory of the leading artists."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "opened up new realms of understanding the great men in history.",
-          "value": "C"
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "focused on epochal figures whose lives were hard to imitate.",
-          "value": "D"
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "held that history should be the story of the masses and their record of struggle.",
-          "value": "E"
+          "content": "held that history should be the story of the masses and their record of struggle."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "dismissed virtue as unnecessary for successful leaders.",
-          "value": "F"
+          "content": "dismissed virtue as unnecessary for successful leaders."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "depicted the worthy lives of engineers, industrialists and explorers.",
-          "value": "G"
+          "content": "depicted the worthy lives of engineers, industrialists and explorers."
         }
       ],
       "correct_answer": "A",
@@ -1593,38 +1760,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emphasized the virtue of classical heroes.",
-          "value": "A"
+          "content": "emphasized the virtue of classical heroes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted the public glory of the leading artists.",
-          "value": "B"
+          "content": "highlighted the public glory of the leading artists."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "opened up new realms of understanding the great men in history.",
-          "value": "C"
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "focused on epochal figures whose lives were hard to imitate.",
-          "value": "D"
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "held that history should be the story of the masses and their record of struggle.",
-          "value": "E"
+          "content": "held that history should be the story of the masses and their record of struggle."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "dismissed virtue as unnecessary for successful leaders.",
-          "value": "F"
+          "content": "dismissed virtue as unnecessary for successful leaders."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "depicted the worthy lives of engineers, industrialists and explorers.",
-          "value": "G"
+          "content": "depicted the worthy lives of engineers, industrialists and explorers."
         }
       ],
       "correct_answer": "F",
@@ -1644,38 +1818,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emphasized the virtue of classical heroes.",
-          "value": "A"
+          "content": "emphasized the virtue of classical heroes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted the public glory of the leading artists.",
-          "value": "B"
+          "content": "highlighted the public glory of the leading artists."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "opened up new realms of understanding the great men in history.",
-          "value": "C"
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "focused on epochal figures whose lives were hard to imitate.",
-          "value": "D"
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "held that history should be the story of the masses and their record of struggle.",
-          "value": "E"
+          "content": "held that history should be the story of the masses and their record of struggle."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "dismissed virtue as unnecessary for successful leaders.",
-          "value": "F"
+          "content": "dismissed virtue as unnecessary for successful leaders."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "depicted the worthy lives of engineers, industrialists and explorers.",
-          "value": "G"
+          "content": "depicted the worthy lives of engineers, industrialists and explorers."
         }
       ],
       "correct_answer": "G",
@@ -1695,38 +1876,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emphasized the virtue of classical heroes.",
-          "value": "A"
+          "content": "emphasized the virtue of classical heroes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted the public glory of the leading artists.",
-          "value": "B"
+          "content": "highlighted the public glory of the leading artists."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "opened up new realms of understanding the great men in history.",
-          "value": "C"
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "focused on epochal figures whose lives were hard to imitate.",
-          "value": "D"
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "held that history should be the story of the masses and their record of struggle.",
-          "value": "E"
+          "content": "held that history should be the story of the masses and their record of struggle."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "dismissed virtue as unnecessary for successful leaders.",
-          "value": "F"
+          "content": "dismissed virtue as unnecessary for successful leaders."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "depicted the worthy lives of engineers, industrialists and explorers.",
-          "value": "G"
+          "content": "depicted the worthy lives of engineers, industrialists and explorers."
         }
       ],
       "correct_answer": "C",
@@ -1746,38 +1934,45 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "emphasized the virtue of classical heroes.",
-          "value": "A"
+          "content": "emphasized the virtue of classical heroes."
         },
         {
           "key": "B",
+          "value": "B",
           "text": "highlighted the public glory of the leading artists.",
-          "value": "B"
+          "content": "highlighted the public glory of the leading artists."
         },
         {
           "key": "C",
+          "value": "C",
           "text": "opened up new realms of understanding the great men in history.",
-          "value": "C"
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "D",
+          "value": "D",
           "text": "focused on epochal figures whose lives were hard to imitate.",
-          "value": "D"
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "E",
+          "value": "E",
           "text": "held that history should be the story of the masses and their record of struggle.",
-          "value": "E"
+          "content": "held that history should be the story of the masses and their record of struggle."
         },
         {
           "key": "F",
+          "value": "F",
           "text": "dismissed virtue as unnecessary for successful leaders.",
-          "value": "F"
+          "content": "dismissed virtue as unnecessary for successful leaders."
         },
         {
           "key": "G",
+          "value": "G",
           "text": "depicted the worthy lives of engineers, industrialists and explorers.",
-          "value": "G"
+          "content": "depicted the worthy lives of engineers, industrialists and explorers."
         }
       ],
       "correct_answer": "E",

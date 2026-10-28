@@ -31,7 +31,9 @@
       "section_type": "cloze",
       "title": "Section I: Use of English",
       "content": "Teachers need to be aware of the emotional, intellectual, and physical changes that young adults experience. And they also need to give serious [1] to how they can best [2] such changes. Growing bodies need movement and [3], but not just in ways that emphasize competition. [4] they are adjusting to their new bodies and a whole host of new intellectual and emotional challenges, teenagers are especially self-conscious and need the [5] that comes from achieving success and knowing that their accomplishments are [6] by others. However, the typical teenage lifestyle is already filled with so much competition that it would be [7] to plan activities in which there are more winners than losers, [8], publishing newsletters with many student-written book reviews, [9] student artwork, and sponsoring book discussion clubs. A variety of small clubs can provide [10] opportunities for leadership, as well as for practice in successful [11] dynamics. Making friends is extremely important to teenagers, and many shy students need the [12] of some kind of organization with a supportive adult [13] visible in the background.\n\nIn these activities, it is important to remember that young teens have [14] attention spans. A variety of activities should be organized [15] participants can remain active as long as they want and then go on to [16] else without feeling guilty and without letting the other participants [17]. This does not mean that adults must accept irresponsibility. [18], they can help students acquire a sense of commitment by [19] for roles that are within their [20] and their attention spans and by having clearly stated rules.",
-      "sort_order": 1
+      "sort_order": 1,
+      "type": "cloze",
+      "passage_number": 1
     },
     {
       "id": "42614f3c-867d-5b54-a985-106027132f60",
@@ -40,7 +42,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 1",
       "content": "Wild Bill Donovan would have loved the Internet. The American spymaster who built the Office of Strategic Services in World War II and later laid the roots for the CIA was fascinated with information. Donovan believed in using whatever tools came to hand in the \"great game\" of espionage—spying as a \"profession\". These days the Net, which has already remade such everyday pastimes as buying books and sending mail, is reshaping Donovan's vocation as well.\n\nThe latest revolution isn't simply a matter of gentlemen reading other gentlemen's e-mail. That kind of electronic spying has been going on for decades. In the past three or four years, the World Wide Web has given birth to a whole industry of point-and-click spying. The spooks call it \"open-source intelligence,\" and as the Net grows, it is becoming increasingly influential. In 1995 the CIA held a contest to see who could compile the most data about Burundi. The winner, by a large margin, was a tiny Virginia company called Open Source Solutions, whose clear advantage was its mastery of the electronic world.\n\nAmong the firms making the biggest splash in this new world is Straitford, Inc., a private intelligence-analysis firm based in Austin, Texas. Straitford makes money by selling the results of spying (covering nations from Chile to Russia) to corporations like energy-services firm McDermott International. Many of its predictions are available online at www.straitford.com.\n\nStraitford president George Friedman says he sees the online world as a kind of mutually reinforcing tool for both information collection and distribution, a spymaster's dream. Last week his firm was busy vacuuming up data bits from the far corners of the world and predicting a crisis in Ukraine. \"As soon as that report runs, we'll suddenly get 500 new Internet sign-ups from Ukraine,\" says Friedman, a former political science professor. \"And we'll hear back from some of them.\" Open-source spying does have its risks, of course, since it can be difficult to tell good information from bad. That's where Straitford earns its keep.\n\nFriedman relies on a lean staff of 20 in Austin. Several of his staff members have military-intelligence backgrounds. He sees the firm's outsider status as the key to its success. Straitford's briefs don't sound like the usual Washington back-and-forthing, whereby agencies avoid dramatic declarations on the chance they might be wrong. Straitford, says Friedman, takes pride in its independent voice.",
-      "sort_order": 2
+      "sort_order": 2,
+      "type": "reading",
+      "passage_number": 1
     },
     {
       "id": "b0b11306-8638-56f7-b906-ba1282efce2c",
@@ -49,7 +53,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 2",
       "content": "To paraphrase 18th-century statesman Edmund Burke, \"all that is needed for the triumph of a misguided cause is that good people do nothing.\" One such cause now seeks to end biomedical research because of the theory that animals have rights ruling out their use in research. Scientists need to respond forcefully to animal rights advocates, whose arguments are confusing the public and thereby threatening advances in health knowledge and care. Leaders of the animal rights movement target biomedical research because it depends on public funding, and few people understand the process of health care research. Hearing allegations of cruelty to animals in research settings, many are perplexed that anyone would deliberately harm an animal.\n\nFor example, a grandmotherly woman staffing an animal rights booth at a recent street fair was distributing a brochure that encouraged readers not to use anything that comes from or is tested in animals—no meat, no fur, no medicines. Asked if she opposed immunizations, she wanted to know if vaccines come from animal research. When assured that they do, she replied, \"Then I would have to say yes.\" Asked what will happen when epidemics return, she said, \"Don't worry, scientists will find some way of using computers.\" Such well-meaning people just don't understand.\n\nScientists must communicate their message to the public in a compassionate, understandable way—in human terms, not in the language of molecular biology. We need to make clear the connection between animal research and a grandmother's hip replacement, a father's bypass operation, a baby's vaccinations, and even a pet's shots. To those who are unaware that animal research was needed to produce these treatments, as well as new treatments and vaccines, animal research seems wasteful at best and cruel at worst.\n\nMuch can be done. Scientists could \"adopt\" middle school classes and present their own research. They should be quick to respond to letters to the editor, lest animal rights misinformation go unchallenged and acquire a deceptive appearance of truth. Research institutions could be opened to tours, to show that laboratory animals receive humane care. Finally, because the ultimate stakeholders are patients, the health research community should actively recruit to its cause not only well-known personalities such as Stephen Cooper, who has made courageous statements about the value of animal research, but all who receive medical treatment. If good people do nothing, there is a real possibility that an uninformed citizenry will extinguish the precious embers of medical progress.",
-      "sort_order": 3
+      "sort_order": 3,
+      "type": "reading",
+      "passage_number": 2
     },
     {
       "id": "9ba61f50-0a1f-5ccf-8eb0-af5b8c9dd841",
@@ -58,7 +64,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 3",
       "content": "In recent years, railroads have been combining with each other, merging into supersystems, causing heightened concerns about monopoly. As recently as 1995, the top four railroads accounted for under 70 percent of the total ton-miles moved by rails. Next year, after a series of mergers is completed, just four railroads will control well over 90 percent of all the freight moved by major rail carriers.\n\nSupporters of the new supersystems argue that these mergers will allow for substantial cost reductions and better coordinated service. Any threat of monopoly, they argue, is removed by fierce competition from trucks. But many shippers complain that for heavy bulk commodities traveling long distances, such as coal, chemicals, and grain, trucking is too costly and the railroads therefore have them by the throat.\n\nThe vast consolidation within the rail industry means that most shippers are served by only one rail company. Railroads typically charge such \"captive\" shippers 20 to 30 percent more than they do when another railroad is competing for the business. Shippers who feel they are being overcharged have the right to appeal to the federal government's Surface Transportation Board for rate relief, but the process is expensive, time consuming, and will work only in truly extreme cases.\n\nRailroads justify rate discrimination against captive shippers on the grounds that in the long run it reduces everyone's cost. If railroads charged all customers the same average rate, they argue, shippers who have the option of switching to trucks or other forms of transportation would do so, leaving remaining customers to shoulder the cost of keeping up the line. It's a theory to which many economists subscribe, but in practice it often leaves railroads in the position of determining which companies will flourish and which will fail. \"Do we really want railroads to be the arbiters of who wins and who loses in the marketplace?\" asks Martin Bercovici, a Washington lawyer who frequently represents shippers.\n\nMany captive shippers also worry they will soon be hit with a round of huge rate increases. The railroad industry as a whole, despite its brightening fortunes, still does not earn enough to cover the cost of the capital it must invest to keep up with its surging traffic. Yet railroads continue to borrow billions to acquire one another, with Wall Street cheering them on. Consider the $10.2 billion bid by Norfolk Southern and CSX to acquire Conrail this year. Conrail's net railway operating income in 1996 was just $427 million, less than half of the carrying costs of the transaction. Who's going to pay for the rest of the bill? Many captive shippers fear that they will, as Norfolk Southern and CSX increase their grip on the market.",
-      "sort_order": 4
+      "sort_order": 4,
+      "type": "reading",
+      "passage_number": 3
     },
     {
       "id": "ca2c47ce-e376-58c8-8a48-5dd6d192b3b6",
@@ -67,7 +75,9 @@
       "section_type": "reading",
       "title": "Section II: Reading Comprehension Part A - Text 4",
       "content": "It is said that in England death is pressing, in Canada inevitable and in California optional. Small wonder. Americans' life expectancy has nearly doubled over the past century. Failing hips can be replaced, clinical depression controlled, cataracts removed in a 30-minute surgical procedure. Such advances offer the aging population a quality of life that was unimaginable when I entered medicine 50 years ago. But not even a great health-care system can cure death—and our failure to confront that reality now threatens this greatness of ours.\n\nDeath is normal; we are genetically programmed to disintegrate and perish, even under ideal conditions. We all understand that at some level, yet as medical consumers we treat death as a problem to be solved. Shielded by third-party payers from the cost of our care, we demand everything that can possibly be done for us, even if it's useless. The most obvious example is late-stage cancer care. Physicians—frustrated by their inability to cure the disease and fearing loss of hope in the patient—too often offer aggressive treatment far beyond what is scientifically justified.\n\nIn 1950, the U.S. spent $12.7 billion on health care. In 2002, the cost will be $1,540 billion. Anyone can see this trend is unsustainable. Yet few seem willing to try to reverse it. Some scholars conclude that a government with finite resources should simply stop paying for medical care that sustains life beyond a certain age—say 83 or so. Former Colorado governor Richard Lamm has been quoted as saying that the old and infirm \"have a duty to die and get out of the way\" so that younger, healthier people can realize their potential.\n\nI would not go that far. Energetic people now routinely work through their 60s and beyond, and remain dazzlingly productive. At 78, Viacom chairman Sumner Redstone jokingly claims to be 53. Supreme Court Justice Sandra Day O'Connor is in her 70s, and former surgeon general C. Everett Koop chairs an Internet start-up in his 80s. These leaders are living proof that prevention works and that we can manage the health problems that come naturally with age. As a mere 68-year-old, I wish to age as productively as they have.\n\nYet there are limits to what a society can spend in this pursuit. As a physician, I know the most costly and dramatic measures may be ineffective and painful. I also know that people in Japan and Sweden, countries that spend far less on medical care, have achieved longer, healthier lives than we have. As a nation, we may be overfunding the quest for unlikely cures while underfunding research on humbler therapies that could improve people's lives.",
-      "sort_order": 5
+      "sort_order": 5,
+      "type": "reading",
+      "passage_number": 4
     }
   ],
   "questions": [
@@ -81,30 +91,35 @@
       "options": [
         {
           "key": "A",
-          "text": "(give)thought (to)",
-          "value": "A"
+          "value": "A",
+          "text": "thought",
+          "content": "thought"
         },
         {
           "key": "B",
-          "text": "(give sb a/some) idea (of)",
-          "value": "B"
+          "value": "B",
+          "text": "idea",
+          "content": "idea"
         },
         {
           "key": "C",
-          "text": "(give)opinion (to sb/on sth)",
-          "value": "C"
+          "value": "C",
+          "text": "opinion",
+          "content": "opinion"
         },
         {
           "key": "D",
-          "text": "(give)advice (to sb/on sth)",
-          "value": "D"
+          "value": "D",
+          "text": "advice",
+          "content": "advice"
         }
       ],
       "correct_answer": "A",
       "explanation": "1. [A] (give) thought (to) 想过，思考\n[B] (give sb a/some) idea (of) 使了解……的情况\n[C] (give) opinion (to sb/on sth) 向某人提出意见\n[D] (give) advice (to sb/on sth) 提建议\n［试题考点］平行句子结构+固定搭配\n［解题思路］①②句针对“青少年成长过程中身心都处于变化”这一现象，提示教师不应忽视这一事实，语义重点在于“教师应对此给予重视”。①句指出教师“应意识到这类变化（need to be aware of...）”，②句 they also need to... 表明其与①句的并列关系，语义重点仍在于“教师对这些变化的认识”上，同时更进一步。填入 thought 一词，与 be aware of 含义相近并更进一步，give thought to... 指“认真考虑某事”，符合作者认为教师“应关注、研究变化进而帮助学生应对变化”的总体态度，［A］项正确。\n［错项排除］空格词语与 give... to 构成短语。idea 通常与介词 of 而不与 to 连用；另外，give sb an idea of sth 意为“让某人了解某事”，而文中建议对象为教师，不存在“教师让其他人了解青少年变化”这一问题，故排除［B］项。opinion 和 advice 用法相似，虽可与 give 及 to 搭配，但介词 to 后应接“人”，即 give opinion/advice to sb，而文中介词 to 之后为“how...从句”，用以说明教师应关注的内容，故排除该两项。",
       "points": 0.5,
       "sort_order": 1,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 1
     },
     {
       "id": "09f1f495-1c48-5baa-b79a-d408fd6bf7fc",
@@ -116,30 +131,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "strengthen",
-          "value": "A"
+          "content": "strengthen"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "accommodate",
-          "value": "B"
+          "content": "accommodate"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "stimulate",
-          "value": "C"
+          "content": "stimulate"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "enhance",
-          "value": "D"
+          "content": "enhance"
         }
       ],
       "correct_answer": "B",
       "explanation": "2. \n[A] strengthen 加强，巩固 \n[B] accommodate 适应，顺应\n[C] stimulate刺激，激励，激发 \n[D] enhance提高，增强，增进\n[试题考点]动宾搭配\n[解题思路]空格处主语线索为they,指代“青少年”，宾语线索为such changes,指代①句“青少年身 \n心变化\"，空格处表示青少年对这些变化所做出的动作。从①②句need to,also need to传递出的\"建议 \n基调”可知，空格处应为积极、正面的动作。另外从下文④句可知这些变化实际上对于青少年而言是 \n“全新而艰巨的挑战”，而这些挑战又是必须经历的客观事实，所以青少年只能调整自身去“适应、顺 \n应w,accommodate在此意为“改变自身行为以更好地应对新情况”，符合文意，[B]项为正确答案。\n[错项排除]strengthen意为“增强、加固”(感情、联系、实力等);stimulate意为“刺激、促进”，宾语通 \n常为“经济增长、需求”等‘enhance意为“提高、改进(宾语多为抽象事物)”，如，to enhance the reputation \nof the company(提升公司声誉)。三项都有“在原有基础上更进一步”的内涵，但是青少年要应对的变化 \n既然是“负面内容(困难、挑战)”，其应对方法就绝不应该是“加强、促进、提升\"，故排除这几项。",
       "points": 0.5,
       "sort_order": 2,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 2
     },
     {
       "id": "967914f4-5dcf-5f42-9a96-f388e74481fb",
@@ -151,30 +171,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "care",
-          "value": "A"
+          "content": "care"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "nutrition",
-          "value": "B"
+          "content": "nutrition"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "exercise",
-          "value": "C"
+          "content": "exercise"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "leisure",
-          "value": "D"
+          "content": "leisure"
         }
       ],
       "correct_answer": "C",
       "explanation": "3. \n[A] care 关心，照顾 \n[B] nutrition 营养\n[C] exercise练习，锻炼 \n[D] leisure空闲，安逸\n[试题考点]上下文语义+名词词义辨析\n\n［解题思路］空格词汇与movement由and相连，说明两者并列，因此空格词应与“身体的运动”相 \n关。exercise 意为 move your body energetically in order to get in shape and to remain healthy\"锻炼身 \n体”，与movement语义一致，并共同属于空格后competition所体现的\"竞争、竞技”语义范畴，［C］正确。\n［错项排除］［A］、［B］和［D］三项虽然从常识上讲都可以认为是青少年长身体的需要，但是“关 \n心”、“营养”、“休息”都不能与“运动”构成近义关系，并且与“竞争”无关，因此排除这三项。\n\n【选项释义与词汇辨析】\n[A] care: 关心，照顾\n[B] nutrition: 营养\n[C] exercise: 练习，锻炼\n[D] leisure: 空闲，安逸",
       "points": 0.5,
       "sort_order": 3,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 3
     },
     {
       "id": "4b1ecaf8-827c-5ba7-b021-b11b56f777db",
@@ -186,30 +211,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "If",
-          "value": "A"
+          "content": "If"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "Although",
-          "value": "B"
+          "content": "Although"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "Whereas",
-          "value": "C"
+          "content": "Whereas"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "Because",
-          "value": "D"
+          "content": "Because"
         }
       ],
       "correct_answer": "D",
       "explanation": "4. \n［A］ If表条件 \n［B］ Although表让步或转折\n［C］ Whereas反之，但是（表比较或对比）；鉴于（用于正式文件） \n［D］ Because表因果\n［试题考点］逻辑关系\n［解题思路］选项表明空格处为逻辑连词，体现主从句间关系。从句指出，青少年（they）不断调整 \n自己去适应新的身体状况，应对大量身心挑战；主句指出，他们格外敏感，在意自己的表现（self- \nconscious 意为\"过于在意自身表现和他人看法而局促不安的，敏感的\"），and引出self-conscious的结果： \n需要从成功和自身成果被他人……中获得的……。不难看出，后者是前者的结果，即由于青春期身心 \n各种挑战，青少年变得格外敏感不自信。所以句首连词为表示因果关系的Because. ［D］项正确。\n［错项排除］其他三项均为逻辑连词，但主从句间既不存在“条件”关系，也不存在“转折”逻辑，所以 \n排除］A］、［B］两项;Whereas通常表示“反之、但是”的转折逻辑，位于句中，当置于句首时，虽然可以表 \n示原因（意为“鉴于”），但是一般用于法律文书等正式文件，不符合本文文体。\n\n【选项释义与词汇辨析】\n[A] If: 表条件\n[B] Although: 表让步或转折\n[C] Whereas: 反之，但是（表比较或对比）；鉴于（用于正式文件）\n[D] Because: 表因果",
       "points": 0.5,
       "sort_order": 4,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 4
     },
     {
       "id": "30b6870e-5a69-5c62-a00a-887f790596a3",
@@ -221,30 +251,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "assistance",
-          "value": "A"
+          "content": "assistance"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "guidance",
-          "value": "B"
+          "content": "guidance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "confidence",
-          "value": "C"
+          "content": "confidence"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "tolerance",
-          "value": "D"
+          "content": "tolerance"
         }
       ],
       "correct_answer": "C",
       "explanation": "5. \n［A］ assistance帮助，援助，支持\n［B］ guidance引导，指导\n［C］ confidence 信心，自信\n［D］ tolerance忍受，容忍；忍耐力，忍受性\n［试题考点］上下文语义*名词词义辨析\n［解题思路］④句主句指出，青少年格外敏感、在意自身行为，因而（and）需要来自于“获得成功和知 \n道……被他人……”的 5 ;空格词为that定语从句的先行词，表示青少年所需要的“某种自身素质/ \n外在条件”等等，且该内容与“成功”息息相关。四个选项中，唯有confidence是“成功”的产物，且与上文 \nself-conscious表明的“对自我的关注、在意、不自信”相统一，均是从青少年“内心敏感、需要外在肯定”这 \n—青春期特点出发，导向一致，故［C］为正确项。\nL错项排除-assistance和guidance是利用上文teachers设置的干扰，但④句实为⑤句建议教师组 \n织多贏活动的理由；同时两词与其后的that定语从句无法组成合理语义：“引导或帮助”并非来自于“获 \n得成功”。tolerance利用句中challenges设置干扰，但作者提到挑战，实际是为了引出青少年“关注自我、敏 \n感”的心理特征，而工是由于这一特征，青少年所需要的实际是“自信”，而非“忍耐”，因此排除该项。\n\n【选项释义与词汇辨析】\n[A] assistance: 帮助，援助，支持\n[B] guidance: 引导，指导\n[C] confidence: 信心，自信\n[D] tolerance: 忍受，容忍；忍耐力，忍受性",
       "points": 0.5,
       "sort_order": 5,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 5
     },
     {
       "id": "9756e901-19db-57cc-893f-00dc83525295",
@@ -256,30 +291,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "claimed",
-          "value": "A"
+          "content": "claimed"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "admired",
-          "value": "B"
+          "content": "admired"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "ignored",
-          "value": "C"
+          "content": "ignored"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "surpassed",
-          "value": "D"
+          "content": "surpassed"
         }
       ],
       "correct_answer": "B",
       "explanation": "6. \n［A］ claimed（根据权利）要求，索取 \n［B］ admired钦佩，赞赏，羡慕；欣赏\n［C］ ignored忽视，不予理会 \n［D］ surpassed超越，胜过，优于\n［试题考点］常识*动词词义辨析\n［解题思路］空格句指出，敏感、在意自我的青少年需要（来自获得成功和知道自己的成就被他人 \n....）的自信。空格词与be动词构成被动语态，其逻辑宾语为their accomplishments,逻辑主语为 \nothers,若要与\"获得成功（achieving success）\"构成并列，一同说明\"自信心的来源\"，则空格词应该是\"肯 \n定、赞赏”等含义，即“自身成就”获得他人的“赞赏、钦佩”，［B］为正确答案。\n［错项排除〕ignored.surpassed与are... by others搭配，意为“成就被他人所忽视、超越”,均不利于建立 \n信心，因而排除。claim包括“要求、索取、声称、断言、夺去（生命）”等多重含义，与“自信”无关，因而排除。\n\n【选项释义与词汇辨析】\n[A] claimed: （根据权利）要求，索取\n[B] admired: 钦佩，赞赏，羡慕；欣赏\n[C] ignored: 忽视，不予理会\n[D] surpassed: 超越，胜过，优于",
       "points": 0.5,
       "sort_order": 6,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 6
     },
     {
       "id": "e0b35582-2d42-5920-9b89-b4a3f81d8d59",
@@ -291,30 +331,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "improper",
-          "value": "A"
+          "content": "improper"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "risky",
-          "value": "B"
+          "content": "risky"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "fair",
-          "value": "C"
+          "content": "fair"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "wise",
-          "value": "D"
+          "content": "wise"
         }
       ],
       "correct_answer": "D",
       "explanation": "7. \n［A］ improper不正当的；不恰当的 \n［B］ risky有风险或危险的\n［C］ fair合理的，公平的，公正的 \n［D］ wise充满智慧的，明智的，有判断力的\n［试题考点］上下文语义4形容词词义辨析\n［解题思路］空格词语与it would be ...连用，表示作者对组织多贏活动的态度和看法。根据上文 \n\n可知，③④句实际上是对②句serious thought的体现；而⑤句正是基于③④句中\"不能只是通过锻炼身 \n体来强化竞争靑少年更需要在其他方面获得自信\"这—思考和判断得出的建议：组织（有利于提升自 \n信的）多赢活諾（more winners than losers）。因此这种做法在作者看来无疑是“积极的、明智的；符合青 \n少年发展特点的”,答案为[D]项。\n[错项排除]本题形式上考查词义辨析，实际上重在考查考生对上下文语义的理解，空格词语表示 \n作者对所策划的活动的态度或评价。in which定语从句表明，这些活动中赢家应多于输家，结合④句中 \n“青少年需要自信”这一观点，可知作者对此类活动的态度是积极肯定的.improper和risky均含有否定 \n意味，故最先排除。fair虽然为正面导向词，但不符合语义逻辑，此处作者重在强调“多贏活动可以帮助 \n提升青少年自信”，而并不涉及“公平性、合理性”这一问题。",
       "points": 0.5,
       "sort_order": 7,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 7
     },
     {
       "id": "bfd8c569-959c-55d1-9a0d-c6551c60d7a1",
@@ -326,30 +371,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "in effect",
-          "value": "A"
+          "content": "in effect"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "as a result",
-          "value": "B"
+          "content": "as a result"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "for example",
-          "value": "C"
+          "content": "for example"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "in a sense",
-          "value": "D"
+          "content": "in a sense"
         }
       ],
       "correct_answer": "C",
       "explanation": "& \n[A] in effect实际上，事实上（表强调） \n[B] as a result作为……的结果（表因果）\n[C] for example例如（表例证） \n[D] in a sense在某种意义上\n[试题考点]逻辑关系\n[解题思路]本题考查逻辑关系，因此重点分析空格前后内容。空格前泛指一些活动（activities in \nwhich...），空格后列举具体的活动（publishing newsletters,student artwork,sponsoring..,）,因此两者之间 \n是综述和例证的逻辑关系，选项中能够表达例证逻辑关系的只有for example. [C]为正确答案。\n[错项排除]in effect 语用功能为 used when you are stating what the facts of a situation are\"（表强调）事 \n实上，实际上”，而空格后的具体活动并非“作者意欲强调的事实M；as a result表示因果关系，而“出版通讯、 \n组织研讨会”等内容与“组织多贏活动是明智的”无法构成因果关系；inasense意为“在某种意义上”,表示 \n看待某事的“角度”，也无法体现空格前后内容的例证关系。",
       "points": 0.5,
       "sort_order": 8,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 8
     },
     {
       "id": "0fdae536-4d66-58c6-b00c-17d77719887a",
@@ -361,30 +411,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "displaying",
-          "value": "A"
+          "content": "displaying"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "describing",
-          "value": "B"
+          "content": "describing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "creating",
-          "value": "C"
+          "content": "creating"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "exchanging",
-          "value": "D"
+          "content": "exchanging"
         }
       ],
       "correct_answer": "A",
       "explanation": "9. [A] displaying 展示，陈列 \n[B] describing 描写，描述，描绘\n[C] creating 创造，创建 \n[D] exchanging 交换，交流\n［试题考点］上下文语义+动宾搭配\n［解题思路］空格所在短语与前文 publishing newsletters... 和后文 sponsoring book discussion clubs 并列，都是“多赢活动”的具体例子。因此空格动词应能与 students' artwork 构成搭配，并且体现出“多赢”的特点。displaying students' artwork 意为“展出学生们的艺术作品”，让更多学生的作品得到展示与认可，属于典型的多赢活动，故［A］项正确。\n［错项排除］describing students' artwork 意为“描述学生作品”，显然无法作为一项组织性的活动；creating students' artwork 搭配不当，学校组织者不能“替学生创作作品”；exchanging students' artwork 强调学生之间“交换作品”，未能突出让更多学生获得他人赞赏和认可的激励目的。",
       "points": 0.5,
       "sort_order": 9,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 9
     },
     {
       "id": "7caabbe8-d41b-5d2f-8ac8-08d2a976dea5",
@@ -396,30 +451,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "durable",
-          "value": "A"
+          "content": "durable"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "excessive",
-          "value": "B"
+          "content": "excessive"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "surplus",
-          "value": "C"
+          "content": "surplus"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "multiple",
-          "value": "D"
+          "content": "multiple"
         }
       ],
       "correct_answer": "D",
       "explanation": "10. [A] durable耐用的，持久的 \n[B] excessive过多的，过量的（多为贬义）\n[C] surplus多余的，过剩的 \n[D] multiple复合的，由多个部分组成的，多样的\n[试题考点]句内语义+形容词词义辨析\n[解题思路]⑥句为作者对教师组织活动的第二项建议：组织活动应多种多样。空格词汇修饰 \nopportunities,说明这些活动所提供的机会的特点。而组织多样活动的目的，正是为学生提供多种多样 \n的锻炼机会,multiple意为“多样的”，与a variety of照应，[D]项为正确答案。\n[错项排除]⑥句为作者向教师所提的建议，所以此处对机会的描述一定是正面、积极的。 \nexcessive意为“过度、过量”，强调“超过合理、适宜的量”，含有贬义色彩。surplus意为“剩余的，多余 \n的”，侧重表示“超过客观所需的量”，该词虽然在情感上并无强烈贬义，但是“多余的机会”表示这些机 \n会是没有价值的，不符合文意导向。durable表示“（使用）耐用的”或“（存在）持久的”，但是文中只提及 \n了活动的多样性，并没有涉及“机会持续的时间”，另外，机会本身就具备“转瞬即逝”的特质，因此“持久 \n的机会”这一搭配单从逻辑上来看就已自相矛盾。\n\n【选项释义与词汇辨析】\n[A] durable: 耐用的，持久的\n[B] excessive: 过多的，过量的（多为贬义）\n[C] surplus: 多余的，过剩的\n[D] multiple: 复合的，由多个部分组成的，多样的",
       "points": 0.5,
       "sort_order": 10,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 10
     },
     {
       "id": "51e17a92-6bdd-5640-9449-7a5288700264",
@@ -431,30 +491,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "group",
-          "value": "A"
+          "content": "group"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "individual",
-          "value": "B"
+          "content": "individual"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "personnel",
-          "value": "C"
+          "content": "personnel"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "corporation",
-          "value": "D"
+          "content": "corporation"
         }
       ],
       "correct_answer": "A",
       "explanation": "11. [A] group 团体，组，群，批 \n[B] individual 个人\n[C] personnel全体人员，职员；人事部门 \n[D] corporation公司；法人，法人团体\n\n［试题考点］上下文语义+名词词义辨析\n［解题思路］⑥句中,as well as（也，和 一•样）表明其后的for practice和之前的for leadership为 \n并列内容，说明multiple opportunities的具体所指：不仅提供学生锻炼领导能力的机会，还可以提供成 \n功的……的实践机会。dynamic意为“（事物或人）相互作用的方式”，即人们的行为、反应对彼此的影 \n响，结合俱乐部“多人参与”这一特点，以及leadership（领导力）一词所蕴含的“对他人影响”的意味，可知 \n整句均以“团体中的相互作用和影响”为核心导向，因此“空格词+ dynamics”应强调学生能够在俱乐部中 \n锻炼“在群体中对人际互动关系的处理能力\",group dynamic为固定搭配，意为“群体互动”。［A］项正确。\n［错项排除］individual指“个人、个体”，显然一个人并不能构成人际互动，可以首先排除‘personnel \n与corporation虽然都能表示团体，但是personnel所代表的群体，是“某一组织（如“军队或公司”）中从事工 \n作的全体成员corporation所指的团体则与企业相关，二者均不适用于对“学生群体”的描述，故排除。\n\n【选项释义与词汇辨析】\n[A] group: 团体，组，群，批\n[B] individual: 个人\n[C] personnel: 全体人员，职员；人事部门\n[D] corporation: 公司；法人，法人团体",
       "points": 0.5,
       "sort_order": 11,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 11
     },
     {
       "id": "f5e93ac6-4544-5724-8268-0cc5f27896ee",
@@ -466,30 +531,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "consent",
-          "value": "A"
+          "content": "consent"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "insurance",
-          "value": "B"
+          "content": "insurance"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "admission",
-          "value": "C"
+          "content": "admission"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "security",
-          "value": "D"
+          "content": "security"
         }
       ],
       "correct_answer": "D",
       "explanation": "12. ［A］ consent同意，准许，赞成\n［B］ insurance保险，保险业，保险费；（防备不测的）保障措施\n［C］ admission准许进入，加人权\n［D］ security保护措施，安全工作；保卫部门；安全，平安\n［试题考点］上下文语义+名词词义辨析\n［解题思路］⑦句首先强调交友对青少年的重要性，然后提出性格胆怯的青少年需要团体带来的\n。纵观四个选项，既为羞怯的青少年所缺乏的，又是团体所能够提供的，只有“安全感”最为恰当。\n在特定的小团体内部，青少年感到熟悉和安全的氛围内，才可以克服羞怯，勇敢与人交往。因此［D］正确。\n［错项排除］insurance虽有“保障、安全”之意，但它特指“与保险公司相关的保险业务”，故排除。\n［A］、［C］都可以表示“许可consent表“许可”时一般指“某人对某行为的授权”或“同意”，文中只有许 \n可的施动者“某一团体”，而无“赞成、同意”的具体内容，表意不明，故排除‘admission表示“录取”时，常 \n用于招生，表示“允许进入、加入”时，可以表示“进入这一组织的许可”，但后面应接介词to,故排除。\n\n【选项释义与词汇辨析】\n[A] consent: 同意，准许，赞成\n[B] insurance: 保险，保险业，保险费；（防备不测的）保障措施\n[C] admission: 准许进入，加人权\n[D] security: 保护措施，安全工作；保卫部门；安全，平安",
       "points": 0.5,
       "sort_order": 12,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 12
     },
     {
       "id": "e4be49c1-60fd-5671-87f4-ba065357d386",
@@ -501,30 +571,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "particularly",
-          "value": "A"
+          "content": "particularly"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "barely",
-          "value": "B"
+          "content": "barely"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "definitely",
-          "value": "C"
+          "content": "definitely"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "rarely",
-          "value": "D"
+          "content": "rarely"
         }
       ],
       "correct_answer": "B",
       "explanation": "13. ［A］ particularly特别，尤其 \n［B］ barely仅仅，几乎不，勉强\n［C］ definitely肯定无疑地，明确地 \n［D］ rarely很少地，罕有\n［试题考点］上下文语义+副词用法辨析\n［解题思路］⑦句实为作者针对腼腆的青少年的交友问题，向教师组织活动提出的建议:他们需要能 \n够提供安全感的组织，由一名成人指导，空格副词+ visible则说明这名成人出现的特点。由于羞怯的青 \n少年敏感害羞、自我意识强，又需要锻炼独立交友的能力，依照此逻辑，指导老师应尽量避免被察觉。因 \n此与visible连用的副词应为barely,意为almost not**几乎不（可察觉）\"，表否定意味。barely visible与in the \nbackground相一致，凸显指导老师“隐于幕后（从而照顾到青少年不自信心理）”的特点。［B］项正确。\n［错项排除］本句意在说明交友活动的策划必须针对青少年的胆怯的特性。particularly起强调作 \n用-definitely表示强烈的肯定，二者为“程度或频率”副词，从逻辑上来看无法与visible相搭配：“特别看 \n得到、肯定看得到”不合语义逻辑，同时不符合“针对胆怯的学生”的文意导向，故排除。rarely是程度副 \n词，意为not often**很少\"，如：She is rarely seen here.她很少出现在这儿。visible —词侧重\"可见性\"这 \n一状态，而非“看见”这一短暂性动作，所以不能与程度副词rarely搭配使用。\nIl Oln these activities, it is important to remember \nthat young teens have 14 attention spans®. ❷ A \nvariety of activities should be organized 15 \nparticipants® can remain active as long as they want and \nthen go on to 16 else without feeli\n\n【选项释义与词汇辨析】\n[A] particularly: 特别，尤其\n[B] barely: 仅仅，几乎不，勉强\n[C] definitely: 肯定无疑地，明确地\n[D] rarely: 很少地，罕有",
       "points": 0.5,
       "sort_order": 13,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 13
     },
     {
       "id": "bcea35ea-b9a2-5d1b-95e9-156f9bf3b412",
@@ -536,30 +611,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "similar",
-          "value": "A"
+          "content": "similar"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "long",
-          "value": "B"
+          "content": "long"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "different",
-          "value": "C"
+          "content": "different"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "short",
-          "value": "D"
+          "content": "short"
         }
       ],
       "correct_answer": "D",
       "explanation": "14. [A] similar相似的\n，真题精解\n[B] long 长的 \n[C] different 不同的\n[D] short 短的\n\n[试题考点]常识+上下文语义\n解答此题的线索是 remain active as long as they want\n[解题思路]空格处形容词修饰attention spans,说明青少年的注意力持续时间的特点。②句提到 \n“应当组织各种各样的活动，让参加者自行决定在某一活动中的活跃时间的长短，然后转向其它”，as \nlong as they want（想多久就多久）强调了对青少年参加某一活动的时长\"不强求\"的特点，即，活动的设 \n计照顾的是青少年“注意力持续时间短”的特点。这也与“青少年一般比较好动”的常识一致。因此[D] \n正确，同时排除long。\n[错项排除〕similar与different含\"比较”意味，但文中并未涉及不同青少年的注意力持续时间是否 \n\"相似\"或\"不同\"的问题。different还利用\"a variety of\"进行干扰，但根据下文they can remain active as \nlong as they want and then go on to. . . else可知，组织\"多种\"活动是为了方便青少年将注意力转向另外 \n的活动，并未涉及和针对“青少年注意力持续时间各不相同”这一内容。",
       "points": 0.5,
       "sort_order": 14,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 14
     },
     {
       "id": "3576c288-cd49-5218-b917-dd363635ff19",
@@ -571,30 +651,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "if only",
-          "value": "A"
+          "content": "if only"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "now that",
-          "value": "B"
+          "content": "now that"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "so that",
-          "value": "C"
+          "content": "so that"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "even if",
-          "value": "D"
+          "content": "even if"
         }
       ],
       "correct_answer": "C",
       "explanation": "15. [A] if only（常用于虚拟语气）只要，要是……就好，但愿（表条件）\n[B] now that（常置于句首）既然……（表条件）\n[C] so that以便，为了（表目的）\n[D] even if即使……（表让步）\n[试题考点]逻辑关系\n[解题思路]空格为两个分句间的逻辑关系词。分句①指出，应组织多种多样的活动；分句②指出， \n参与者可以按照自己的意愿选择在某一活动中保持活跃的时间长短，并不带内疚感地转向其它活动。 \n而此句是针对上句“青少年注意力持续时间短”提出的建议，因此“组织多样化的活动”正是为了让参与 \n者有选择余地，最终解决青少年注意力转移的问题。因此两个分句间是手段与目的的关系，so that连 \n词表示目的，意为“以便”,[C]项正确。\n[错项排除]if only意为“要是……就好了”，常用于虚拟语气表“条件”，now that也常用于句首，意 \n为“既然……”,even if表示让步条件，这三组逻辑词虽然用法各不相同，但后面连接的都是表示条件的 \n句子，而空格后的分句表示“（组织多样活动的）结果或影响\"而非“条件”，故排除这三项。",
       "points": 0.5,
       "sort_order": 15,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 15
     },
     {
       "id": "c0e50261-742b-5817-918b-38a16be3c3e2",
@@ -606,30 +691,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "everything",
-          "value": "A"
+          "content": "everything"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "anything",
-          "value": "B"
+          "content": "anything"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "nothing",
-          "value": "C"
+          "content": "nothing"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "something",
-          "value": "D"
+          "content": "something"
         }
       ],
       "correct_answer": "D",
       "explanation": "16. [A] everything（else）其他每件事物 \n[B] anything （else）（任何）其他的事物\n[C] nothing （else）无其他事物 \n[D] something （else）其他的事物\n[试题考点]不定代词用法辨析\n[解题思路]②句指出，应当组织各种各样的活动，以便让参加者保持活跃，然后转而参与其他…… \n活动，而不会感到内疚。四个选项都可与else搭配，但此处指青少年对某项活动难以保持注意力时，可 \n在多种活动中选择“某项”去参加，但此处只是泛指某项其他活动，不必给出具体的活动内容。 \nsomething 语用功能为 You use something to refer to a thing, situation, event, or idea, without saying \nexactly what it is“用于指出某件事或情形（但说话者不给出确切的内容）”，符合语义逻辑和语法，因此\n[D]正确。\n[错项排除]everything else,nothing else所表达的“其他所有活动”和“没有其他任何活动”并不符 \n合“青少年能够随意由一项活动转至另一项活动”的上下文逻辑，因此最先排除;anything else只能用于 \n“否定句、疑间句'冲.无法在肯定句中使用，也排除。",
       "points": 0.5,
       "sort_order": 16,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 16
     },
     {
       "id": "78944547-86e5-5877-a6ca-7229e228ff1b",
@@ -641,30 +731,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "off",
-          "value": "A"
+          "content": "off"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "down",
-          "value": "B"
+          "content": "down"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "out",
-          "value": "C"
+          "content": "out"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "alone",
-          "value": "D"
+          "content": "alone"
         }
       ],
       "correct_answer": "B",
       "explanation": "[试题考点]短语动词用法辨析\n[解题思路]空格所在部分 without letting the other participants 17 和 without feeling guilty 并列，根据②句句意，空格部分说明“参加者转而参加其他活动”时除了不让自己感到内疚外，还要考虑团体中其他人的感受。对实际情形稍加设想可知，每个有组织的活动都有一定的周期，中途退出是一件不符合预期的突发事件，因此可能会让其他的团队成员感到失望。[B]项let down意为“使……失望”，能够表达这层意思，为正确项。\n[错项排除]其他项均可与let构成短语，但与文意不符。let off不惩罚，宽恕；let out放掉，使解脱；let alone不打扰，更不必说。",
       "points": 0.5,
       "sort_order": 17,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 17
     },
     {
       "id": "8f978767-0ce5-50c5-b02c-831b85b3cabe",
@@ -676,30 +771,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "On the contrary",
-          "value": "A"
+          "content": "On the contrary"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "On the average",
-          "value": "B"
+          "content": "On the average"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "On the whole",
-          "value": "C"
+          "content": "On the whole"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "On the other hand",
-          "value": "D"
+          "content": "On the other hand"
         }
       ],
       "correct_answer": "A",
       "explanation": "18. ［A］ On the contrary相反（表转折对比）\n［B］ On the average按平均数计算，平均来看\n［C］ On the whole总的看来（表总结）\n［D］ On the other hand另一方面（表转折对比）\n［试题考点］逻辑关系+短语用法辨析\n［解题思路］空格处填入的短语应反映所在句（④句）与上文之间的逻辑关系。③句提到“这并不是 \n说成人只能忍受学生不负责任的行为”，④句指出“他们还可以帮助学生获得一种责任感”，sense of \ncommitment与irresponsibility构成反义对照，表明两句间转折关系，选项中只有On the contrary能够准 \n确表达这一逻辑关系。答案为［A］项。\n［错项排除］On the average和On the whole都是表示看待问题的层面，不能体现转折意味。（）n \nthe other hand虽然可以表示转折，但重点强调“某一事物或情况存在两面性”，即“（一方面……）另一方 \n面……”，并非文中两种情况的对比转折。",
       "points": 0.5,
       "sort_order": 18,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 18
     },
     {
       "id": "6a1a71f9-0102-53d3-88cc-79e7d474433c",
@@ -711,30 +811,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "making",
-          "value": "A"
+          "content": "making"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "standing",
-          "value": "B"
+          "content": "standing"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "planning",
-          "value": "C"
+          "content": "planning"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "taking",
-          "value": "D"
+          "content": "taking"
         }
       ],
       "correct_answer": "C",
       "explanation": "19. 【A】 making （for）有利于，倾向于，促成\n\n【B】 standing （for）支持，主张\n\n【C】 planning （for）计划，打算，策划\n\n【D】 taking （for）把....当作，误认为\n\n【试题考点】短语动词辨析\n\n【解题思路】空格词与by连接，表示手段、方式，执行者是教师（they）。空格处为教师具体做法：为\n\n学生... 适当角色，以使其获得使命感和责任感。planning for（策划）与全文贯穿始终的plan,organize\n\n（组织）等词相呼应，体现教师的“青少年活动组织者”这一身份，因此正确项为【C】。\n\n【错项排除】make for意为\"有利于、促成\"，侧重事物对某一对象产生的作用，by making for\n\nroles...（通过“有利于或导致”角色……）本身就存在语义逻辑矛盾;stand for可以表示“代表（某观点或\n\n态度）”，还可以强调某人的观点、立场、主张，by standing for roles（通过“代表、支持”一些角色）不符合上\n\n下文语义逻辑。take for意为“把……当作”，一般表示“误认”。有考生选择take for是由于将该词理解\n\n为“充当，担当”之意，但文中by.. . for roles表明空格处动词的逻辑主语为they,即“成年人”，而之后\n\nwithin their…中，their则为“青少年”，因此推知roles（角色）只能由青少年充当，形成逻辑矛盾；另外，\n\n该词组含负面意味，不符合文中正面建议的语境，故排除。",
       "points": 0.5,
       "sort_order": 19,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 19
     },
     {
       "id": "80c39657-dae1-53ea-8c73-c3bcc22a0b70",
@@ -746,30 +851,35 @@
       "options": [
         {
           "key": "A",
+          "value": "A",
           "text": "capabilities",
-          "value": "A"
+          "content": "capabilities"
         },
         {
           "key": "B",
+          "value": "B",
           "text": "responsibilities",
-          "value": "B"
+          "content": "responsibilities"
         },
         {
           "key": "C",
+          "value": "C",
           "text": "proficiency",
-          "value": "C"
+          "content": "proficiency"
         },
         {
           "key": "D",
+          "value": "D",
           "text": "efficiency",
-          "value": "D"
+          "content": "efficiency"
         }
       ],
       "correct_answer": "A",
       "explanation": "[试题考点]名词词义辨析\n[解题思路]空格所在介词短语within their 20 and their attention spans描述教师为学生设计的角色的特点。within表示“在（某一限制或规则）之内”，该介词短语中给出原则之一：不能超出青少年注意力持续的范围，这与上文“顾及青少年青春期难以集中注意力”的内容相统一，但同时必须牢记本句旨在传递的内容：顾及其弱点并非只能纵容其不负责任，也即，必须对其加以适当约束。within capabilities（不超出能力范围之外）既表达了“约束”，同时也兼顾了客观情况，因此[A]为最佳选项。\n[错项排除]空格词与within连用，表示“在……范围内”，因此该词必须能体现“大小、多少”等程度之别。proficiency 意为 a good standard of ability or skill；efficiency 意为 the quality of doing sth well and effectively, without wasting time, money and energy；responsibility 意为 something you ought to do because it is morally or socially right；这三项分别指示某一标准、特征或必须要承担的义务，由于本身没有程度大小的范畴，因此不能和within连用。capability则意为the natural ability, skill or power，作为“能力”讲，可以有程度高低、大小，自身划定了一定的范畴，可与within连用。",
       "points": 0.5,
       "sort_order": 20,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 20
     },
     {
       "id": "19c85f92-a004-5ad8-8e80-d5d55c049c6e",
@@ -781,26 +891,35 @@
       "options": [
         {
           "key": "A",
-          "text": "received support from fans like Donovan"
+          "value": "A",
+          "text": "received support from fans like Donovan",
+          "content": "received support from fans like Donovan"
         },
         {
           "key": "B",
-          "text": "remolded the intelligence services"
+          "value": "B",
+          "text": "remolded the intelligence services",
+          "content": "remolded the intelligence services"
         },
         {
           "key": "C",
-          "text": "restored many common pastimes"
+          "value": "C",
+          "text": "restored many common pastimes",
+          "content": "restored many common pastimes"
         },
         {
           "key": "D",
-          "text": "revived spying as a profession"
+          "value": "D",
+          "text": "revived spying as a profession",
+          "content": "revived spying as a profession"
         }
       ],
       "correct_answer": "B",
       "explanation": "［命题解密］正确项［B］是第一段末句的改写 ,reshaping 替换成同义词 remolded, Donovan's \nvocation具体在上下文指“情报工作”。\n［A］将①句“虚拟情形”说成是“真实情况”，而多诺万在世时并没有互联网；［C］将④句“重建/改变 \n了日常消遣”改为“恢复了日常消遣”，而文中并未提及某些日常娱乐活动“暂停-— 恢复”的过程；［D］ \n将④句 reshaping Donovan's vocationC重塑多诺万的职业/谍报业）改为 revived the intelligence services \n（复兴了谍报业），但同样文中也未提及谍报业“消亡—\n复兴”的历程。\n［技巧总结］第一段叙述中不仅涉及今昔情形对比，且涉及个人具体事例和行业普遍现象，更涉及 \n虚拟语气的使用，故被命题人选作“因果事实题”考点，以检测考生辨别信息的能力。解答此类题目关 \n键在于\"从多个角度辨别真伪”，具体包括：辨别时态真伪（是过去还是现在？）、情态真伪（假设场景还是 \n真实情形）、动作真伪（选项中动词和文中动词是否含义相同）、对象真伪（有没有偷换动作针对对象或 \n形容词修饰对象？）等，且在去伪存真的过程中，“上下文信息”为重要依据。\n具体看本题：根据第一段内容很容易推知，［B］选项中the intelligence services即指段末句中 \nDonovan's vocation；remold（改造，改铸）替换原文的reshape,故正确。［A］以“情态”为陷阱（将假定场景 \n当做真实情形）；［D］以“动作”为陷阱（将reshape（重塑）改为与之形近意远的revive（复兴））；［C］同样以 \n\"动作\"为陷阱（将re-made（重建）改为restore（恢复））。\n［精准定位］根据题干直接定位到第一段，该段在介绍完Donovan事例后指出：互联网正在重塑 \nDonovan所从事的职业。且随后内容围绕“互联网对情报业的影响”展开。可见，文中提及Donovan事 \n例是为了引出网上谍报这个话题，［A］正确。",
       "points": 2,
       "sort_order": 21,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 21
     },
     {
       "id": "785849ac-f9d4-5dcc-9b68-b6a76822f4e8",
@@ -812,26 +931,35 @@
       "options": [
         {
           "key": "A",
-          "text": "introduce the topic of online spying"
+          "value": "A",
+          "text": "introduce the topic of online spying",
+          "content": "introduce the topic of online spying"
         },
         {
           "key": "B",
-          "text": "show how he fought for the U. S."
+          "value": "B",
+          "text": "show how he fought for the U. S.",
+          "content": "show how he fought for the U. S."
         },
         {
           "key": "C",
-          "text": "give an episode of the information war"
+          "value": "C",
+          "text": "give an episode of the information war",
+          "content": "give an episode of the information war"
         },
         {
           "key": "D",
-          "text": "honor his unique services to the CIA"
+          "value": "D",
+          "text": "honor his unique services to the CIA",
+          "content": "honor his unique services to the CIA"
         }
       ],
       "correct_answer": "A",
       "explanation": "［命题解密］正确项［A］体现了第一段“以具体事例引出文章主题”的写作方式-online spying概括 \n段末句主要信息\"the Net + Donovan's vocationCspying）且体现了随后论述的主题。\n［B］利用②句暗含事实“Donova n曾在二战中为美国立下汗马功劳”设置干扰，［D］利用②句暗含事 \n实“Donovan奠定了 CIA的根基”设置干扰，但两个选项均为关于Donovan的事实细节，并未体现事例 \n整体写作目的（既遗漏了事例另一关键信息“互联网”，又无法与下文内容顺接）。［C］将文中词汇 \ninformation、war糅杂形成干扰，但文中并未具体描述信息战，\"提供信息战的一个片段\"无从谈起。\n［技巧总结］本题针对第一段设题.侧重考查写作结构。我们需认识到，文章开篇通常采用列举事 \n例、引用名言、追溯往昔等方式，但作者绝非仅仅意在事例、名言、往昔本身，而是意在引入更为普遍的 \n现象或者更深层的观点（即：第一层次的主旨甚至全文的主旨）。因此，解答过程中要特别关注事例介 \n绍完毕之后那一句以及随后段落的内容；一定要抓大放小，以事例本身细节信息设置的选项往往是干 \n扰项。\n如本题，［A］体现了第一段“介绍Donovan事例—\n引出文章主题（互联网改变了谍报业）”的结构. \n且 online spying 既体现了段末句主要信息（the Net... is reshaping Donovan's vocation），又是下文论述 \n主要对象，故为正确项。［B］、［C］、［D］均以事例本身细节形成干扰、犯了“文不对题”的致命错误。",
       "points": 2,
       "sort_order": 22,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 22
     },
     {
       "id": "3afb518a-a206-592d-a295-b972c64dd20e",
@@ -843,26 +971,35 @@
       "options": [
         {
           "key": "A",
-          "text": "causing the biggest trouble"
+          "value": "A",
+          "text": "causing the biggest trouble",
+          "content": "causing the biggest trouble"
         },
         {
           "key": "B",
-          "text": "exerting the greatest effort"
+          "value": "B",
+          "text": "exerting the greatest effort",
+          "content": "exerting the greatest effort"
         },
         {
           "key": "C",
-          "text": "achieving the greatest success"
+          "value": "C",
+          "text": "achieving the greatest success",
+          "content": "achieving the greatest success"
         },
         {
           "key": "D",
-          "text": "enjoying the widest popularity"
+          "value": "D",
+          "text": "enjoying the widest popularity",
+          "content": "enjoying the widest popularity"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第三段首句用making the biggest splash描述Straitford在互联网催生的电子谍报领域 \n里的状况。第二段提到另一家公司凭借对互联网的掌握在情报大赛中以绝对优势胜出，第三至五段论 \n述Straitford公司在新时期情报领域的赚钱方式及独特地位。由此可推知，该词所在句承上启下，体现 \n新时期信息公司利用互联网所获成功，［C］正确。\n［命题解密］正确项［C］体现了第三段①句“引领第三至五段内容”的作用，是对该部分主要内容 \nmake money by（赚钱方式）、sees the online world as a mutually reinforcing tool...（对网络威力的使用）、 \ntake pride in...（该公司的独特优势）的高度概括。\n［A］利用splash本意“溅洒后留下的污渍”设置干扰，却无法体现短语的整体含义；［B］利用第四段 \n②句中was busy...形成干扰，但该内容是用于说明Straitford公司的“最近业务”，并非“努力程度”； \n［D］利用第三段②句covering nations from Chile to Russia形成干扰，但该内容是用于说明Straitford**收 \n集信息的范围”，而非“享有的欢迎程度”。\n［技巧总结］以超纲词或固定短语作为考点并非仅仅因为它是个“难词”，还在于它是理解文意的 \n“关键词”，命题人并非意在“词语本身”，而是借该词考查考生对“文中信息的理解能力”以及“对各部分 \n信息的推理联系能力”。干扰项典型设置方式：①将词语另一含义当做文中之意，或将短语中某词本意 \n当做短语整体含义；②直接将文中某处具体信息当做该词反映的整体信息，或对文中某处信息进行错 \n误引申之后作为干扰。解答此类题目时，要利用文中多条线索推知其意（如：前后词汇照应、语义逻辑、 \n作者态度的一致和观点的完整等），切忌断章取义（不能仅凭词汇本身某一含义提示、或文中某一具体 \n信息便确定答案）。\n如本题：［C］既能和上文信息\"Open Source Solutions公司借助对互联网的精通成为信息收集大赛 \n获胜者”顺接，又能概括下文主要内容“Straitford公司的赚钱方式、特别优势等”，且体现了文章主旨“互 \n联网正在重塑谍报业”，故为正确项。［A］用splash的本意形成干扰，却无法体现短语整体含义、无法和 \n文章内容相接（文中并未提及公司遇到麻烦），［B］、［D］则分别对文中某处信息进行错误引申。",
       "points": 2,
       "sort_order": 23,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 23
     },
     {
       "id": "74fa1d62-7170-582a-9306-cc291a5c95eb",
@@ -874,26 +1011,35 @@
       "options": [
         {
           "key": "A",
-          "text": "Straitford's prediction about Ukraine has proved true"
+          "value": "A",
+          "text": "Straitford's prediction about Ukraine has proved true",
+          "content": "Straitford's prediction about Ukraine has proved true"
         },
         {
           "key": "B",
-          "text": "Straitford guarantees the truthfulness of its information"
+          "value": "B",
+          "text": "Straitford guarantees the truthfulness of its information",
+          "content": "Straitford guarantees the truthfulness of its information"
         },
         {
           "key": "C",
-          "text": "Straitford's business is characterized by unpredictability"
+          "value": "C",
+          "text": "Straitford's business is characterized by unpredictability",
+          "content": "Straitford's business is characterized by unpredictability"
         },
         {
           "key": "D",
-          "text": "Straitford is able to provide fairly reliable information"
+          "value": "D",
+          "text": "Straitford is able to provide fairly reliable information",
+          "content": "Straitford is able to provide fairly reliable information"
         }
       ],
       "correct_answer": "D",
       "explanation": "[命题解密]正确项[D]为第四段最后两句的言外之意。[A]利用②句进行干扰，但该句只提到 \nStraitford对乌克兰局势作出了预测，但没有提到其真实性。[B]将Straitford能够“提供相对真实的信息”夸 \n大为“确保信息的真实性”。[C]曲解⑤句含义，它指网络信息真伪难辨，而非公司业务具有不可预测性。\n[技巧总结]第四段介绍“网络给Straitford公司带来的商机”，本题考查其中具体细节。对于这种 \n“主题集中的事实细节题（针对某一段/某一明确主题设置细节综合题）”，可采用的解题思路为：①提炼 \n归纳选项信息；②以归纳出的选项信息为导向，理解文中信息；③将文中信息和选项信息相较：含义一 \n致者正确，过度引申、夸大其辞、张冠李戴者排除；且选择过程中倾向那些“具有弹性、留有余地”的选项 \n（带有some, many* fairly, rather等），慎选那些\"完全肯定或完全否定”的选项（带有all, completely* \nabsolutely» guarantee ,certain(ly)等)，除非能从文中找到确切的依据，否则应将其排除。\n如本题:首先归纳选项信息，具体方向为：［A］“公司对乌克兰的预测”、“公司信息的真实 \n可靠性”、［C］“公司业务特征”。随后带着问题仔细分析文中信息、并与选项相比较发现:［A］过度引申， \n文中并没有提到已证实该公司对乌克兰局势的预测为真;［C］张冠李戴，将“具有不可预测性”的主体由 \n“开源间谍”偷换为“公司业务”让B］、［D］区别在于前者强调Straitford “能确保信息的真实可靠性”，后 \n者则指出Straitford\"能提供相当真实可靠的信息”,单从选项来看就应倾向“表达具有弹性的［D］”、而警 \n惕“表达过于绝对的［E］”,再对比原文，无从得知Straitford能否“确保”信息的真实性，故舍［B］选［D］。",
       "points": 2,
       "sort_order": 24,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 24
     },
     {
       "id": "3ea5ef23-8e71-542c-89a3-bf0cdb940592",
@@ -905,26 +1051,35 @@
       "options": [
         {
           "key": "A",
-          "text": "official status"
+          "value": "A",
+          "text": "official status",
+          "content": "official status"
         },
         {
           "key": "B",
-          "text": "nonconformist image"
+          "value": "B",
+          "text": "nonconformist image",
+          "content": "nonconformist image"
         },
         {
           "key": "C",
-          "text": "efficient staff"
+          "value": "C",
+          "text": "efficient staff",
+          "content": "efficient staff"
         },
         {
           "key": "D",
-          "text": "military background"
+          "value": "D",
+          "text": "military background",
+          "content": "military background"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］根据题干关键词proud of定位到全文末句：斯特雷福特公司对其独立的声音感到自 \n豪。由上文可知，斯特雷福特公司具有“局外人”的地位，不必附和官方，［B］正确。\n[B] nonconformist image\n［B］不随大流的形象\n[C] efficient staff\n［C］有效率的员工\n[D] military background\n［D］军事背景\n［命题解七 题干和正确项构成了对末段④⑤句的概括。nonconformist image对应文中don't \nsound like the usual Washington back-and-forthing 和 independent voice0\n［A］official status与③句\"Straitford将其“局外人的地位（outsider status）视为自己成功的关键\"相 \n悖。［C］、［D］错把“次要原因”当做“主要原因”：①②句虽暗示Straitford公司人员精简高效、且有些军 \n事背景，但这并非其成功的关键所在；随后内容才以 see. . . as the key to its success 亮出其成功的关键。\n［技巧总结］从题目所涉原文内容来看，第五段意在明确Straitford公司成功的关键，③句指出“局 \n外人地位”才是其成功关键。从选项设置来看.四个选项均为文中提及或暗示的信息，取舍颇有难度。 \n解答这类“无论从文章来看还是从选项来看都颇有迷惑性”题目的关键在于：牢牢抓住命题人留下的关 \n键线索，并以此反推；反推过程中排除偷梁换柱（将B的特征当做考査主体A的特征）、文不对题（将关 \n于“A的次要信息”当做题目所要求的“A的主要信息”）\n如本题，据题干中most proud of可理解到\"正确项必须是Straitford公司的特征且必须是其最引以 \n为豪的方面（其他主体的特征排除，是Straitford特征但并非其最自豪之处的也须排除）”,定位到文章末 \n句（take pride in its independent voice）,将问题转化为反推 its independent voice 所指。［A］是\"政府机 \n构”特征而非“ Straitford\"特征，直接排除；其他三个选项中，［C］、［D］虽为①②句表明的Straitford特 \n征，但无论是从“代词近指”还是“语义的对应”来看，都不大可能是its independent voice所指，而［B］ \nnonconformist image 恰能对应 outsider status,成为 its independent voice 所指，故排除］C］、［D］,选取［B］。",
       "points": 2,
       "sort_order": 25,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 25
     },
     {
       "id": "1838419b-2832-5a6c-a725-c61d686ea75d",
@@ -936,26 +1091,35 @@
       "options": [
         {
           "key": "A",
-          "text": "call on scientists to take some actions"
+          "value": "A",
+          "text": "call on scientists to take some actions",
+          "content": "call on scientists to take some actions"
         },
         {
           "key": "B",
-          "text": "criticize the misguided cause of animal rights"
+          "value": "B",
+          "text": "criticize the misguided cause of animal rights",
+          "content": "criticize the misguided cause of animal rights"
         },
         {
           "key": "C",
-          "text": "warn of the doom of biomedical research"
+          "value": "C",
+          "text": "warn of the doom of biomedical research",
+          "content": "warn of the doom of biomedical research"
         },
         {
           "key": "D",
-          "text": "show the triumph of the animal rights movement"
+          "value": "D",
+          "text": "show the triumph of the animal rights movement",
+          "content": "show the triumph of the animal rights movement"
         }
       ],
       "correct_answer": "A",
       "explanation": "[命题解密]正确项[A]是第一段③句的概括改写，明确了作者引用柏克话语的目的。\n[B]利用③句从句形成干扰，但其主句才真正触及作者语义重点。[C]利用②句形成干扰，但改变 \n了作者提及该内容的意图：将作者用其“说明为什么动物权利运动是被误导的事业”篡改为“预警生物 \n医学研究的厄运\"。［D］截取引语片段triumph of a misguided cause形成干扰，但将作者完整观点\"好人 \n的无为将导致被误导事业的胜利”改为“动物权利（被误导的事业）已经获得胜利”。\n［技巧总结］“引用名言”是常见开篇方式，结构可归纳为“名言（引子）—\n评述（作者观点或讨论现 \n象）”。从写作角度而言，本文的开篇方式可起到加强语势、展现文采、引发兴趣，佐证观点等多重作用； \n但在命题人设题角度而言，关注点则集中于“文章如何以契合的名言引出文章话题或佐证作者观点” \n（即：通过就名言设问间接考査考生对作者观点的把握）；故对答题考生而言，解题关键在于“从作者对 \n引语的评论中洞悉其引用意图，从表（名言）里（作者论述）甲找到对应关系、发现作者真正目的”。在寻 \n找这一“表里对应”的过程中，既要注意“语义点、关注点”的对应，又要注意“观点、语气”的对应。\n如本题:该句名言从“语义点、关注点”上来看有两个：“被误导事业得逞”和“好人不作为”，从“语 \n气、观点\"来看重点则在于：all that is needed is...（若要遏制被误导的事业，必须好人有所行动）。而后 \n文作者的阐述中，只有③句能体现这两个角度的对应：好人（科学家）必须采取行动遏制动物权利倡导 \n者（被误导的事业），从而发现［A］正确。［B］、［C］、［D］则均无法在“完整引用话语”和“作者整体评论” \n中建立对应关系：［B］将\"作者对引语中关键词a misguided cause具体含义的解释\"（动物权利运动是一 \n项是被误导的事业）当作“作者引用的意图”；［C］扭曲论证片断中所蕴含的作者观点态度；［D］则对引语 \n断章取义：忽略其中因果条件逻辑（若要……只需……/假如……则会……），直接将“可能情形”当做 \n“已有事实”。",
       "points": 2,
       "sort_order": 26,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 26
     },
     {
       "id": "d85a240b-cfab-5b51-b876-e1773dda70fa",
@@ -967,26 +1131,35 @@
       "options": [
         {
           "key": "A",
-          "text": "cruel but natural"
+          "value": "A",
+          "text": "cruel but natural",
+          "content": "cruel but natural"
         },
         {
           "key": "B",
-          "text": "inhuman and unacceptable"
+          "value": "B",
+          "text": "inhuman and unacceptable",
+          "content": "inhuman and unacceptable"
         },
         {
           "key": "C",
-          "text": "inevitable but vicious"
+          "value": "C",
+          "text": "inevitable but vicious",
+          "content": "inevitable but vicious"
         },
         {
           "key": "D",
-          "text": "pointless and wasteful"
+          "value": "D",
+          "text": "pointless and wasteful",
+          "content": "pointless and wasteful"
         }
       ],
       "correct_answer": "B",
       "explanation": "［命题解密］正确项［B］是对文中出现的相关词语cruelty, deliberately harm, wasteful at best and \ncruel at worst含义的概括。\n［A］中natural —词为命题人捏造的有悖文意的词汇。［C］中inevitable与文意相悖（假若他们认为 \n是不可避免的，则不会去竭力阻止）；［D］中wasteful源自第三段末句wasteful at best and cruel at \nworst,但pointless —说在文中找不到依据。\n［技巧总结］本题为“文中人物观点概括题”。需要考生搜集人物观点相关内容，并据此作出准确概 \n括和合理推断。此类题型的解答可分三步：一、先把文章中涉及题干人物或群体的言论及行为的表述 \n“一网打尽”;二、采用“点（找出其中体现人物观点态度的关键形容词、副词、甚至动词）、面（整体全面把 \n握人物观点）结合”的方式把握人物态度；三、回到选项、分别与原文信息进行比较并作出取舍。注意： \n若选项由两部分构成，必须保证每一部分都和文中观点一致，“半对半错”是常见的干扰方式。\n如本题.misled people这一群体在原文中指代“受动物权利鼓吹者言论影响的无知公众”，其观点集 \n中在第一段⑤句，第二段，以及第三段③句，且其观点的“影响源头”是动物权利鼓吹者言论（第二段② \n句）；其中关键词句为.ruling out their use、not to use anything、cruelty, deliberately harm, wasteful at \nbest and cruel at worsto据此可知该群体对动物研究的总体态度：非常残忍，必须抵制。只有［B］符合 \n这一态度;［A］、［C］则半对（vicious, cruel）半错（natural、inevitable） ;［D］两部分 pointless 和 wasteful 则 \n均太弱，不能体现这一群体对动物研究的强烈抵制态度。",
       "points": 2,
       "sort_order": 27,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 27
     },
     {
       "id": "a650d40c-c8f8-5bc5-8731-eb9bb04d4922",
@@ -998,26 +1171,35 @@
       "options": [
         {
           "key": "A",
-          "text": "discontent with animal research"
+          "value": "A",
+          "text": "discontent with animal research",
+          "content": "discontent with animal research"
         },
         {
           "key": "B",
-          "text": "ignorance about medical science"
+          "value": "B",
+          "text": "ignorance about medical science",
+          "content": "ignorance about medical science"
         },
         {
           "key": "C",
-          "text": "indifference to epidemics"
+          "value": "C",
+          "text": "indifference to epidemics",
+          "content": "indifference to epidemics"
         },
         {
           "key": "D",
-          "text": "anxiety about animal rights"
+          "value": "D",
+          "text": "anxiety about animal rights",
+          "content": "anxiety about animal rights"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］所考事例为文章第二段。先看事例本身，老奶奶的回答表明她对医学科学一无所知。 \n再看事例语境，第一段末指出，动物权利运动领导者将矛头指向生物医学研究的重要原因是“公众对动 \n物研究的不了解”，本段恰是对其进行具体例证。综合两个角度可确定［B］正确。\n［命题:瞪」 正确项［B］是对事例内容的恰当概括‘ignorance为don't understand的同义改写，且选 \n项体现了本段对第一段 few people understand the process of health care research 的例证关系。\n［A］利用第一段事实“公众不满动物研究”形成干扰，但文中阐述老奶奶事例的目的并非是说明公 \n众的“不满”，而是说明“不满的原因一一不了解”。［C］利用第二段④句事例细节形成干扰.但“传染病” \n并非本文专注点，选项无法体现写作目的。［D］无法和上文顺接成为一个整体，也非事例写作目的。\n举例论证是议论文常用写作方式，命题人则常以“事例写作目的题”考杳考生对“论点 \n—论据”的区分、对行文脉络的把握。解答此类题时，考生可采取如下思路：首先，依照“有论据必有论 \n点”的法则（作者举例无非是为引出或论证某一观点、且观点紧依事例前后），把事例叙述看做一个整 \n体、甚至把事例和其」:下文看做一个语义整体；随后将内容剥开，找到“论据（例子）”和“论点（事例服务 \n的目的）”。需注意：正确项需既能体现事例完整内容，又能和上下文顺滑衔接、成为一体；干扰项则往 \n往“对应事例细节信息、却无法涵盖事例整体信息，且无法和上下文衔接、甚至偏离上下文论述对象”。\n如本题，把第二段与前文联系可发现：首段末指出“公众对医学研究的不了解”是动物权利运动将 \n生物医学当做目标的主要原因，第二段事例则以具体问答表明“老奶奶对医学研究的无知”.即：其间论 \n证逻辑为“指出问题原因（公众对医学研究不了解）一一例证原因（说明公众的不了解）”，［B］能完美展 \n现这一逻辑，为正确项。［A］利用“文中与例子之间不存在直接论证关系的事实”形成干扰，［C］利用文 \n中具体细节形成干扰，［D］利用文中关键词增强干扰，三者则均无法和上文顺接，故错误。",
       "points": 2,
       "sort_order": 28,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 28
     },
     {
       "id": "2b895453-96c8-58a1-a7c8-b91642c6dee2",
@@ -1029,26 +1211,35 @@
       "options": [
         {
           "key": "A",
-          "text": "communicate more with the public"
+          "value": "A",
+          "text": "communicate more with the public",
+          "content": "communicate more with the public"
         },
         {
           "key": "B",
-          "text": "employ hi-tech means in research"
+          "value": "B",
+          "text": "employ hi-tech means in research",
+          "content": "employ hi-tech means in research"
         },
         {
           "key": "C",
-          "text": "feel no shame for their cause"
+          "value": "C",
+          "text": "feel no shame for their cause",
+          "content": "feel no shame for their cause"
         },
         {
           "key": "D",
-          "text": "strive to develop new cures"
+          "value": "D",
+          "text": "strive to develop new cures",
+          "content": "strive to develop new cures"
         }
       ],
       "correct_answer": "A",
       "explanation": "［命题解密］正确项［A］是第三、四段内容的概括，也是这两段的主题句Scientists must \ncommunicate their message to the public...和 Much can be done 的同义改写。\n［B］将第三段②句“先进医疗手段和动物研究息息相关（，因此需要捍卫动物研究）”改为“科学家应 \n在研究中采取高科技手段（，以捍卫动物医学研究）”；［C］将第四段⑤句“科学家应该积极争取支持力 \n量”改换为“科学家无需对自己的事业感到羞耻”，文中并未提及科学家对自己的事业感到羞耻；［D］源 \n于第三段③句，但原文是为了说明“新疗法对动物研究的依赖”，而非“科学家应该采取的措施”。\n［技巧总结］本文为典型的问题解决型文章，前三段提出问题并说明原因，后两段就解决问题提出 \n建议。题干中in face of the challenge. . . scientists should...表明本题在以\"观点态度题\"的形式考查 \n\"建议内容\"。解题时考生须根据文中的建议标记（must、should、need、can、could等）锁定答案来源，并回 \n顾前文、确保选定的答案和前文能形成“问题原因解决方式”匹配关系。\n具体看本题，根据第三、四段的Scientists must. . . we need to. . . much can be done・・・ Scientists \ncould. . . they should. .. Research institutions could be. . . the health research community should...等，可 \n知作者对“科学家应该怎么做”所提建议为“从多方面努力，有效与公众交流、以使其了解生物医学研 \n究”，初步选定［A］。随后回顾前文，发现［A］恰能和前文生物医学受质疑的原因“公众的不了解”形成 \n“问题原因一解决方式”的匹配，最终确定为答案。而其他选项均对文中细节断章取义，既偏离原文，又\n无法与上文“问题原因”形成顺滑逻辑。",
       "points": 2,
       "sort_order": 29,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 29
     },
     {
       "id": "52406e67-37f7-596c-a042-c687d13ac499",
@@ -1060,26 +1251,35 @@
       "options": [
         {
           "key": "A",
-          "text": "a well-known humanist"
+          "value": "A",
+          "text": "a well-known humanist",
+          "content": "a well-known humanist"
         },
         {
           "key": "B",
-          "text": "a medical practitioner"
+          "value": "B",
+          "text": "a medical practitioner",
+          "content": "a medical practitioner"
         },
         {
           "key": "C",
-          "text": "an enthusiast in animal rights"
+          "value": "C",
+          "text": "an enthusiast in animal rights",
+          "content": "an enthusiast in animal rights"
         },
         {
           "key": "D",
-          "text": "a supporter of animal research"
+          "value": "D",
+          "text": "a supporter of animal research",
+          "content": "a supporter of animal research"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］根据题干中的人名Stephen Cooper定位到第四段第⑤句。该句提到,Stephen Cooper \n是一位名人，曾大胆陈述动物研究的价值，因此可知他支持动物研究，正确项为［D］。\n［命题解密］正确项［D］是对⑤句中who引导的定语从句的概括性改写。\n［A］将句中 well-known personality 偷换成 well-known humanisto ［B］用句中与 Stephen Cooper 无 \n关的信息medical treatment设置干扰。［C］反向干扰，将Stephen Cooper由“动物研究的支持者”改为 \n“动物权利倡导者”。\n［技巧总结］长难句因其信息量大，内部关系复杂而成为常考点；且命题方式多样，几乎可采用任何 \n考研题型（因果细节题、人物观点题、词义理解题、推理引申题等）。解答此类题的关键在于:运用语法、 \n语义、语用等知识，并结合上下文准确理解句意；认识到偷梁换柱（将句中某处信息偷改一词或数词）、 \n糅杂信息（将句中两处不相干信息糅杂到一起）、改变逻辑（改变句中因果关系等）是常见干扰方式。\n本题采用“事实细节题”的形式对第四段⑤句这一长难句进行考查。分析句子（详见“长难句分 \n析”）不难发现，Stephen Cooper之前的上义词和随后的定语从句提供了解题所需信息：well-known \npersonalities,courageous statements about the value of animal research（即\"动物研究的支持者\"），故［D］\n为止确项。［A］、［C］偷偷改变文中相关信息；［B］则利用文中无关信息捏造干扰。",
       "points": 2,
       "sort_order": 30,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 30
     },
     {
       "id": "53ff0d0d-fea0-5700-8f5c-6fd9dc06d019",
@@ -1091,26 +1291,35 @@
       "options": [
         {
           "key": "A",
-          "text": "cost reduction is based on competition"
+          "value": "A",
+          "text": "cost reduction is based on competition",
+          "content": "cost reduction is based on competition"
         },
         {
           "key": "B",
-          "text": "services call for cross-trade coordination"
+          "value": "B",
+          "text": "services call for cross-trade coordination",
+          "content": "services call for cross-trade coordination"
         },
         {
           "key": "C",
-          "text": "outside competitors will continue to exist"
+          "value": "C",
+          "text": "outside competitors will continue to exist",
+          "content": "outside competitors will continue to exist"
         },
         {
           "key": "D",
-          "text": "shippers will have the railway by the throat"
+          "value": "D",
+          "text": "shippers will have the railway by the throat",
+          "content": "shippers will have the railway by the throat"
         }
       ],
       "correct_answer": "C",
       "explanation": "[命题解密]正确项[C]是对②句所述合并支持者观点的概括.outside competitors对应原文fierce\ncompetition from trucks。\n[A]将①句支持者观点“合并可以降低成本”偷换成“竞争可以降低成本”。[B]将①句“铁路行业内 \n的协调”偷换为“跨行业协调”。[D]颠倒③句主被动关系：将“铁路公司会扼住托运商咽喉”改变为“托 \n运商将扼住铁路公司咽喉”。\n[技巧总结]第二段就“铁路合并是否会形成垄断”分别介绍了支持者、反对者双方观点及论据，本 \n题考查支持方论据。考查观点的相关论据是常见题型.解题可分两步：一、根据显性观点词（argue、 \nbelieve,hold,think,support等）先从大方向上初步锁定被考查人物的观点及论据；二、再根据题干所示 \n具体细节考点，从锁定区域提炼正确答案。\n如本题，根据显性观点词argue可以先大范围锁定支持方观点及论据出现在第二段①②句，分别 \n为：一、大幅度降低成本，更加协调的服务；二、公路运输的激烈竞争可以消除垄断的威胁。再由题干细 \n节考点railway monopoly is unlikely,可推知此考点对应观点二，不难发现选项[C]中outside competitors \n对应该观点fierce competition from trucks,因此可确定该项为正确答案。",
       "points": 2,
       "sort_order": 31,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 31
     },
     {
       "id": "70d34706-ec5a-548b-8103-ce598204bac7",
@@ -1122,26 +1331,35 @@
       "options": [
         {
           "key": "A",
-          "text": "Indifferent"
+          "value": "A",
+          "text": "Indifferent",
+          "content": "Indifferent"
         },
         {
           "key": "B",
-          "text": "Supportive"
+          "value": "B",
+          "text": "Supportive",
+          "content": "Supportive"
         },
         {
           "key": "C",
-          "text": "Indignant"
+          "value": "C",
+          "text": "Indignant",
+          "content": "Indignant"
         },
         {
           "key": "D",
-          "text": "Apprehensive"
+          "value": "D",
+          "text": "Apprehensive",
+          "content": "Apprehensive"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第二段末句以及第五段首尾句都指出了托运商对铁路行业合并的担忧，前者托运商抱 \n怨合并会带来垄断威胁，后者托运商担心进一步的合并趋势会使铁路公司转嫁合并成本。由此可判断 \n出托运商对铁路合并的态度是“忧虑”，而不是“愤怒”，更不是“漠不关心”或“支持”。正确项为［D］。\n［命题解密］［D］ Apprehensive（意为 afraid that something bad may happen 担心的，担忧的）正确概 \n括了 complain, worry, fear等词所表明的受制托运商对铁路行业合并的态度。\n［A］Indifferent 反向干扰，与 many shippers complain ,. . /Many captive shippers also worry 所表明 \n的托运商态度完全相悖；［B］ Supportive利用第五段cheering them/railroads on设置干扰，但这是\"华尔 \n街”对合并的态度，并非“受牵制托运商”的态度。［C］lndignant方向正确、抓住了受制托运商的负面态 \n度、却将其“内心的不满、担忧”夸大为“公开的愤怒、义愤”。\n［技巧总结］本文重点讲述了“不断合并的铁路公司”与“受制托运商”两者之间的恩怨。命题人以 \n“受制托运商态度”为考点，检验学生对文章整体所述情形的把握。解答此题的关键在于：①综合文中 \n带有情感色彩的语言（形容词、副词、甚至动词、名词）概括得岀人物观点态度、初步作出选择；②借助前 \n面几题进行检验（是否能和前面题目顺滑一体、而不是相互矛盾）、最终确定选项。\n具体来看本题：首先可从第一段heightened concerns;第二段many shippers complain;第五段Many \ncaptive shippers also worry及Many captive shippers fear大致推断受制托运商对合并持\"担忧\"态度 \n（注：遍布全篇的captive shippers 一词、第二段的have them by the throat ＞第四段的arbiter 一词也充分 \n说明了“托运商被铁路公司扼住咽喉”的情形，可作为重要线索）、初步推断［D］正确。随后进行检验，发 \n现［D］能和前面几题形成顺滑的逻辑：合并使铁路公司“处于市场主导地位、很可能提高对托运商的收 \n费”（34题），托运商对此无处可诉（33题），合并的“巨额费用”（35题）很可能也被转嫁给托运商，故托运 \n商充满担忧和不安（本题），可确定［D］完全正确。附；EA］ indifferent这种表达“事不关己、高高挂起”态 \n度的选项往往可直接排除（除非有足够证据表明作者确实意在说明“某人对某一事件/某人做法的不屑 \n一顾、漠不关心”）。",
       "points": 2,
       "sort_order": 32,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 32
     },
     {
       "id": "bb15aa95-a22f-511a-83d7-6eb66912cedf",
@@ -1153,26 +1371,35 @@
       "options": [
         {
           "key": "A",
-          "text": "shippers will be charged less without a rival railroad"
+          "value": "A",
+          "text": "shippers will be charged less without a rival railroad",
+          "content": "shippers will be charged less without a rival railroad"
         },
         {
           "key": "B",
-          "text": "there will soon be only one railroad company nationwide"
+          "value": "B",
+          "text": "there will soon be only one railroad company nationwide",
+          "content": "there will soon be only one railroad company nationwide"
         },
         {
           "key": "C",
-          "text": "overcharged shippers are unlikely to appeal for rate relief"
+          "value": "C",
+          "text": "overcharged shippers are unlikely to appeal for rate relief",
+          "content": "overcharged shippers are unlikely to appeal for rate relief"
         },
         {
           "key": "D",
-          "text": "a government board ensures fair play in railway business"
+          "value": "D",
+          "text": "a government board ensures fair play in railway business",
+          "content": "a government board ensures fair play in railway business"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］第三段末句提到，申诉过程既耗财又耗时，并且只有在极端情况下才有效，从而暗示多 \n数托运商不太可能因为收费高而申诉。所以［C］正确。\n[C] overcharged shippers are unlikely to appeal for \nrate relief\n［C］被索价过高的托运商不大可能为减少 \n费率而申诉\n[D] a government board ensures fair play in \nrailway business\n［D］政府部门保证铁路行业的公平竞争\n［命题解密］正确项［C］是第三段③句的同义改写,overcharged shippers对应文中Shippers who... \ncharged；are unlikely to appeal for the rate relief 对应文中 but the process... work only in truly extreme cases„\n［A］颠倒②句比较关系：将（be） charged 20 to 30 percent more（托运商将会被提高收费）改为be \ncharged less（托运商将会被降低收费）。［B］将①句“多数托运商仅由一家铁路公司服务”改为“全国将 \n只有一家铁路公司”。［D］对③句前半句“若托运商觉得被索价过高，可上诉到联邦政府的地面运输委 \n员会”断章取义、得岀貌似正确的结论“政府部门可保证铁路行业的公平竞争”，却忽略了随后部分 \n（but...）转而否定了这一可能。\n［技巧总结］第三段论述了铁路公司合并对托运商造成的垄断威胁，不仅有前后对比（合并前后托 \n运商被索费用的对比）、还有让步转折（托运商理论上可以申诉.但实际上却等同于无处可诉）等，故命 \n题人以“情形细节推理题”的形式设题（常用命题表达方式为It can be inferred from Paragraph X that \n______ ）。此类题目可采用的解题思路：首先基于作者总体基调推断大致情形（谁处于主动/'有利地位？ \n谁处于被动/不利地位？），随后将选项一一具体定位并找出与总体基调最相合的选项。注意：对于“先 \n让步、后转折”结构，切忌对转折之前内容断章取义，因为作者往往是在“先提出一种可能、随后将其否 \n定”。\n如解答本题时，首先抓住作者总体态度“铁路合并造成垄断威胁”，随后结合第三段内容推测合并 \n后情形“铁路公司处于强势地位、托运商处于被动状态”，最后将选项分别定位、并以上述总体情形为参 \n照进行推理：［C］符合③句内容、且体现了托运商的被动地位，故正确；［A］不符②句对比关系”、［B］违背 \n①句内容most shippers are served by only one rail company、［D］则对③句转折之前内容断章取义，却违 \n背该句整体逻辑（先提出一种理论可能，后指岀实际并非可行）。且三个选项都违背了“铁路合并造成 \n垄断威胁，托运商处于不利地位”的总体基调，故排除。",
       "points": 2,
       "sort_order": 33,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 33
     },
     {
       "id": "192ce65d-4813-5030-bdf7-8c9346ffcdf9",
@@ -1184,26 +1411,35 @@
       "options": [
         {
           "key": "A",
-          "text": "who work as coordinators"
+          "value": "A",
+          "text": "who work as coordinators",
+          "content": "who work as coordinators"
         },
         {
           "key": "B",
-          "text": "who function as judges"
+          "value": "B",
+          "text": "who function as judges",
+          "content": "who function as judges"
         },
         {
           "key": "C",
-          "text": "who supervise transactions"
+          "value": "C",
+          "text": "who supervise transactions",
+          "content": "who supervise transactions"
         },
         {
           "key": "D",
-          "text": "who determine the price"
+          "value": "D",
+          "text": "who determine the price",
+          "content": "who determine the price"
         }
       ],
       "correct_answer": "B",
       "explanation": "［命题解密］正确项［B］是基于③④句中互为同义词组 determining which companies will flourish \nand which will fail 与 arbiters of who wins and who loses 之上对 determine 一词的同义改写。\n［A］利用第二段①句coordinated -词设置干扰；［C］利用第三段③句所提及“地面运输委员会”的 \n功能设置干扰；［D］将第四段②句charged all customers the same average rate所暗示信息“价钱 \n（prices）”和③句词汇determining糅杂到一起形成干扰。但将三个选项填入文中，均无法顺接、体现合 \n并后的铁路公司决定谁荣谁败（railroads to be arbiters of who wins and loses）”的地位，故排除。\n［技巧总结］被命题人选作考查点的超纲词往往是体现全段乃至全文主要内容的关键词，命题人意 \n在以点带面、通过该词考查考生对段落或段群主要内容、以及其间逻辑关系的把握。故解题时也应“宏 \n观”与“微观”结合：既要把握所考词所在段落或段群的总体论述对象或总体观点态度、确定所考词大致 \n方向，又要借助逻辑标记词及同、近、反、上下义表达等多角度推敲、确定其具体含义。\n具体看本题，首先浏览本段（及前一段）可知，这两段在谈论合并之后“铁路公司处于主动地位、托 \n运商受到牵制”的情形；随后看所考词所在句以及与之关系紧密的上一句可知.arbiters of who wins and \nwho loses in the marketplace 与 determining which companies will flourish and which will fail 近义；最后 \n结合两者，很容易推出［B］为对arbiter -词在文中含义的正确解释。",
       "points": 2,
       "sort_order": 34,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 34
     },
     {
       "id": "51d45d96-0034-55e0-b9c5-2ad6a1f5f9b6",
@@ -1215,26 +1451,35 @@
       "options": [
         {
           "key": "A",
-          "text": "the continuing acquisition"
+          "value": "A",
+          "text": "the continuing acquisition",
+          "content": "the continuing acquisition"
         },
         {
           "key": "B",
-          "text": "the growing traffic"
+          "value": "B",
+          "text": "the growing traffic",
+          "content": "the growing traffic"
         },
         {
           "key": "C",
-          "text": "the cheering Wall Street"
+          "value": "C",
+          "text": "the cheering Wall Street",
+          "content": "the cheering Wall Street"
         },
         {
           "key": "D",
-          "text": "the shrinking market"
+          "value": "D",
+          "text": "the shrinking market",
+          "content": "the shrinking market"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］第五段②句提到，铁路公司的收入仍然不足以支付为满足不断增长的运输需要而投入 \n的资金。③句yet转折之后围绕“铁路公司在并购过程中耗资巨大”展开。该段最后谈到托运商担心铁 \n路方会把并购开支转嫁到他们身上。由此可知，铁路公司的相互收购耗资巨大，造成成本大增，因此 \n［A］是铁路行业成本增加的主要原因°\n［命题解密］正确项［A］为对第五段中凸显铁路公司用于并购的巨额成本的表达billions, $10.2 \nbillion, less than half of the carrying cost of the transaction 以及 with wall street cheering 的概括。\n［B］利用②句its surging traffic形成干扰.却错在将铁路行业成本增加的背景信息当成主要原因；\n［C］将③句“铁路公司为支付并购费用而大肆举债，华尔街为此打气叫好（为其并购提供部分资金）”曲 \n解为“华尔街这种打气叫好的行为造成了铁路行业成本的增加”；［D］利用常识“市场萎缩会造成成本增 \n加”进行干扰，却与②句“运输量在急速增长/市场在不断扩大（从而造成铁路公司总体成本增加）”相悖。\n［技巧总结］第五段重点探讨托运商的担忧“铁路公司会将并购成本转嫁给自己，从而导致费率出 \n现新一轮的大幅上涨”，论述过程中提及铁路公司并购的背景信息/造成其成本增加的附加原因（运输 \n量不断增长），且涉及多个主体（托运商、铁路行业、华尔街）、多个概念（运输量增长、费率上涨、资金成本 \n等）。故命题人就“主要原因”设题，充分考查了考生对文中所涉关系的分析把握能力。解答此类主次 \n因果关系题可采取的思路：首先借助文中表明“因果关系”或“目的关系”的逻辑词揪出所有原因（注：为 \n实现某种目的而导致的行为，实际上也是因果关系）；随后进一步借助“表明主次关系”或“表明作者语 \n义重点”的逻辑词、甚至着墨轻重（着重论述的往往是主要原因）确定主要原因。\n如本题：首先揪出所有原因：②句以目的状语to keep up with its surging traffic明晰了铁路行业成 \n本增加的原因之一“不断增长的运输量”，锁定疑似选项［B］;③句以目的状语to acquire one another明 \n晰了原因之二“铁路公司的并购”，锁定疑似选项［A］。随后敲定主次关系：③句借助Yet引出 \n作者关注重点“铁路并购带来的巨额成本”，随后所有内容均绕其论述，且本文总体关注现象即为“铁路 \n公司并购”，由此不难作出抉择：“持续并购”为主要原因，［A］为答案。",
       "points": 2,
       "sort_order": 35,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 35
     },
     {
       "id": "529d9953-1d95-5c70-bfd7-c83f52aec0f4",
@@ -1246,26 +1491,35 @@
       "options": [
         {
           "key": "A",
-          "text": "Americans are better prepared for death than other people."
+          "value": "A",
+          "text": "Americans are better prepared for death than other people.",
+          "content": "Americans are better prepared for death than other people."
         },
         {
           "key": "B",
-          "text": "Americans enjoy a higher life quality than ever before."
+          "value": "B",
+          "text": "Americans enjoy a higher life quality than ever before.",
+          "content": "Americans enjoy a higher life quality than ever before."
         },
         {
           "key": "C",
-          "text": "Americans are over-confident of their medical technology."
+          "value": "C",
+          "text": "Americans are over-confident of their medical technology.",
+          "content": "Americans are over-confident of their medical technology."
         },
         {
           "key": "D",
-          "text": "Americans take a vain pride in their long life expectancy."
+          "value": "D",
+          "text": "Americans take a vain pride in their long life expectancy.",
+          "content": "Americans take a vain pride in their long life expectancy."
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］首段首句提出一个口口相传的说法“在英国、加拿大，死亡不可避免；而在美国，死亡可 \n以选择。”随后②至⑤句对该说法的立足点予以说明：百年来美国医疗技术的巨大进步使得美国人预期 \n寿命得以延长（，故而令人飘飘然、盲目地相信医疗技术的发展足以战胜死神）；最后⑥句作者明确指出 \n再伟大的医疗系统也无法医治死亡。由此不难推知，作者对首句所述说法持批评态度，认为美国人对 \n自己的医疗技术过度自信,［C］正确。\n［命题解密］正确项［C］是对首句中optional 一词深层含义（医疗技术发达到可以选择死亡）的挖 \n掘，同时也是对末句中not even a great health-care system can cure death隐含之意（美国人太对自己的 \n医疗水平自以为是了）的揣摩。\n［A］将⑥句“美国人不能正视'死亡无法医治，的事实”反向曲解为“美国人对死亡有更多准备”，而 \n事实是，美国人比其他国家的人更害怕死亡，所以不惜投入许多金钱，期望医疗技术能延长他们的生 \n命；［B］将⑤句“50年前带来高质量生活”延伸为“比以往任何时候都高的生活质量”；［D］错将美国人盲 \n目骄傲的对象“医疗技术”偷换成“长寿”。\n［技巧总结〕首段首句以It is said that...结构引出一种（据别人所述的）观点，暗示下文作者将对该 \n观点展开评述，表达或支持或反对的态度。命题人就首句设题旨在考查考生通过字里行间揣摩下文作 \n者观点态度的能力。本题借“语义推断之形”行“作者观点之实”，解题时，首先应重在考查句中展开“语 \n义推断”、挖掘“言外之意”，初步敲定作者基调；其次从上下文中寻找作者观点蛛丝马迹，与作者“达成 \n共识”，最后敲定作者文意所在。\n如本题，首先展开考查句“语义推断”：句子以比较手法呈现死亡在不同国家的情形：在英国迫在眉 \n睫（pressing），在加拿大不可避免（inevitable）,在加利福尼亚（即美国）可以选择（optional）。仔细揣摩不 \n难发现用以描述美国状况的optional与前两者pressing‘inevitable形成强烈对比，美国人竟敢说能够选 \n择死亡，这无疑是过于自信或妄自尊大的表现，可以将此暂定为作者基调；随后从上下文中（此题仅限 \n下文）寻找蛛丝马迹，通读首段其余各句，不难发现作者于⑥句中明确传达了自己对美国人“死亡可选” \n看法的批评态度：相信医疗技术水平的力量足以抵抗死亡，没能认清“死亡无法医治”的事实；言外之意 \n为：美国医疗技术水平并没有发达到能够医治死亡的程度，美国人对自己的医疗技术过于自信、自以为 \n是。至此，最终敲定［C］为作者所蕴含之意，故正确。",
       "points": 2,
       "sort_order": 36,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 36
     },
     {
       "id": "a4a85f51-aba2-5724-83b4-c3d93361a4e1",
@@ -1277,26 +1531,35 @@
       "options": [
         {
           "key": "A",
-          "text": "medical resources are often wasted"
+          "value": "A",
+          "text": "medical resources are often wasted",
+          "content": "medical resources are often wasted"
         },
         {
           "key": "B",
-          "text": "doctors are helpless against fatal diseases"
+          "value": "B",
+          "text": "doctors are helpless against fatal diseases",
+          "content": "doctors are helpless against fatal diseases"
         },
         {
           "key": "C",
-          "text": "some treatments are too aggressive"
+          "value": "C",
+          "text": "some treatments are too aggressive",
+          "content": "some treatments are too aggressive"
         },
         {
           "key": "D",
-          "text": "medical costs are becoming unaffordable"
+          "value": "D",
+          "text": "medical costs are becoming unaffordable",
+          "content": "medical costs are becoming unaffordable"
         }
       ],
       "correct_answer": "A",
       "explanation": "［精准定位］根据题干the example of cancer patients直接定位至第二段④句。第二段③句指出美 \n国医疗消费者由于有第三方支付费用而要求用尽一切可能、即便毫无作用的医疗手段；④⑤句进而列 \n举晚期癌症病人的治疗例证说明。由此可见，医疗资源的浪费是作者旨在说明的内容，［A］正确。\n［命题解密］“题干+正确项［A］”等同于用“例子+观点”的形式表述了第二段论证的观点‘wasted \n同义替换③句中的useless。\n［B］、［C］均犯了“将例子事实细节信息等同于例子写作目的”的错误；［D］错将第三段前三句所言之 \n意“医疗费用惊人增长趋势不可持续”曲解为“医疗费用负担不起”。\n［技巧总结］举例论证是议论文常用写作方式，命题人常以“事例写作目的题”考查考生对“论 \n点 论据\"的区分、对行文脉络的把握。这类题型的典型题干为The author uses the example of... to \nshow that________ ，其解题技巧主要掌握：举例的目的在论证主旨，而主旨一般在例子之前或其之后，因\n此需要联系上下文(谨记：论据旨在证明论点，文中任何一句话均不能孤立理解，而应该结合文章主旨 \n及上下文理解)；其他干扰项常常利用例子中或者例子上下文的细节或常识设置干扰。\n如本题：例子前描述美国医疗消费者由于第三方付费制度的存在使其“不惜血本要求救治死亡”， \n作者意在批驳错误的医疗资源浪费现象；例子后指岀美国医生“不顾科学采用极端医疗救治办法”同样 \n意在说明医疗资源浪费现象；由此前后很明显能够推出正确答案为［A］。干扰项错将例子细节 \n内容等同例子服务目的；［D］则直接曲解原文。",
       "points": 2,
       "sort_order": 37,
-      "answer": "A"
+      "answer": "A",
+      "question_number": 37
     },
     {
       "id": "00483577-d4ea-5f7d-9d90-a00f8478a2d0",
@@ -1308,26 +1571,35 @@
       "options": [
         {
           "key": "A",
-          "text": "strong disapproval"
+          "value": "A",
+          "text": "strong disapproval",
+          "content": "strong disapproval"
         },
         {
           "key": "B",
-          "text": "reserved consent"
+          "value": "B",
+          "text": "reserved consent",
+          "content": "reserved consent"
         },
         {
           "key": "C",
-          "text": "slight contempt"
+          "value": "C",
+          "text": "slight contempt",
+          "content": "slight contempt"
         },
         {
           "key": "D",
-          "text": "enthusiastic support"
+          "value": "D",
+          "text": "enthusiastic support",
+          "content": "enthusiastic support"
         }
       ],
       "correct_answer": "B",
       "explanation": "［精准定位］第三段末句指出：理査德•拉姆提出年老体弱者“有义务死去和让位”，以便更年轻、更 \n健康的人能够实现他们的潜能。作者随即在第四段指岀，“我不会把话说得这么极端”，并举例说明老 \n人仍然有创造力。第五段转而表述了作者另一个角度的观点，即不应投入无限财力以对抗死亡。由此 \n可知，作者希望人们接受死亡这个自然规律，即在一定程度上赞同拉姆的观点，但是却不愿意像拉姆一 \n样走极端。因此［B］是最佳答案。\n［命题解密］正确项［B］中的reserved和consent分别对应作者\"反\"（第四段①句I would not go that \nfar）\"正\"（第五段①句Yet there are limits. .. in this pursuit）两方面的看法，是对作者观点的全面概括。\n［A］忽略了第五段中作者转折中所蕴藏的部分赞同之意；［D］忽略了第四段中作者明确传达的不认 \n同态度；［C］则利用人物/作者观点态度常用表达词contempt（disrespect**蔑视，小看，轻视”）设置陷阱， \n而本文中作者并未对Lamm言论表达出“轻蔑”的味道，相反是持部分赞同之位。\n［技巧总结］第三段针对美国医疗开支逐年大幅上涨的状况，引出Richard Lamm解决方案，随即作 \n者对此方案发表自己的观点，命题人就此设题考查作者对人物观点的态度。解答技巧主要有二：一、根 \n据词语的感情色彩去揣摩；二、透过字里行间去判断。\n如本题，作者于第三段末句引用Richard Lamm的观点—\n让年老体弱者死去，随后于第四、五段 \n分别对该观点进行了评述，故而答案线索在第四、五段中搜寻。首先，根据词语的感情色彩：第四段首 \n句I would not go that far表明作者对该观点的站位：有点极端，并列举多个老年杰出代表例证说明老有 \n作为；由此可排除［D］;第五段首句Yet there are limits to. . . in this pursuit表明作者对第四段所述\"追 \n求健康有为老年生活”有所保留，由此可排除［A］。其次，透过字里行间揣摩：第四段②③④句列举各种 \n老年人有作为的例子，并于⑤句指出他们是预防老年疾病有效的活生生的例子，暗示作者对“社会对老 \n年人的医疗投入\"的支持；第五段④句overfunding the quest for unlikely cures 一定程度上暗示要遵循人 \n体自然发展规律，不做无谓的救治，反衬作者对Richard Lamm观点某种程度上的赞同，从而最后敲定 \n正确项为［B］。",
       "points": 2,
       "sort_order": 38,
-      "answer": "B"
+      "answer": "B",
+      "question_number": 38
     },
     {
       "id": "5df75c0f-2b1a-5afb-a1d2-5b78cf29184e",
@@ -1339,26 +1611,35 @@
       "options": [
         {
           "key": "A",
-          "text": "more flexibly"
+          "value": "A",
+          "text": "more flexibly",
+          "content": "more flexibly"
         },
         {
           "key": "B",
-          "text": "more extravagantly"
+          "value": "B",
+          "text": "more extravagantly",
+          "content": "more extravagantly"
         },
         {
           "key": "C",
-          "text": "more cautiously"
+          "value": "C",
+          "text": "more cautiously",
+          "content": "more cautiously"
         },
         {
           "key": "D",
-          "text": "more reasonably"
+          "value": "D",
+          "text": "more reasonably",
+          "content": "more reasonably"
         }
       ],
       "correct_answer": "D",
       "explanation": "［精准定位］第五段③句将日本、瑞典国家医疗投入、效果与美国的对比，清晰展现了美国医疗投入 \n的不合理性：投入超别国许多，效果却不如别国，从逻辑上可以推断，日本、瑞典对医疗的投资更合理； \n④句随后以委婉语气指出美国在寻求不太可能的治疗方法上投入过多，而在研究改善人们生活的较简 \n单疗法上投入太少，由此可进一步推断美国在医疗上的投资不太合理，日本和瑞典在医疗上的投资更 \n为合理；故［D］正确。\n［命题解密］正确项［D］是对第五段③④句“开销小得多，却取得更长寿命、更健康生活”以及“在寻 \n求不可能的治疗方法上花钱太多，而在研究能提高人们生活质量的更平常的方法上花钱太少”的合理 \n推断引申。\n［A］误将文中“花得少，却取得效果”这一旨在反映投资方式合理性曲解为反映投资方式可塑性、灵 \n活性；［B］错将美国投资状况（overfunding 投入多）等同于日本、瑞典状况（spend far less 投入 \n少）；［C］将日本、瑞典投入更少而误以为两者医疗投资“谨慎小心”，却没有看见其后产生的效果“取得 \n了更长寿命、更健康生活”,本选项不足以概括日本和瑞典医疗系统“投资少”但“成效卓著”的特征。\n［技巧总结］末段作者将日本、瑞典医疗投入和效果与美国的医疗投入和效果相较，旨在说明美国医疗 \n投资的不合理。考研英语阅读文章中，作者经常把两个事物、两件事实、两种观点进行对比，从而论证自己观 \n点。命题人常在这种比较、类比处设题，以考查学生推理引申作者观点的能力。此类题重在把握事实与主题 \n相辅相成.“跳”出事实细节内容，看这部分细节为什么主题服务。",
       "points": 2,
       "sort_order": 39,
-      "answer": "D"
+      "answer": "D",
+      "question_number": 39
     },
     {
       "id": "92cc1a48-721f-5311-8308-4b5694ef254f",
@@ -1370,26 +1651,35 @@
       "options": [
         {
           "key": "A",
-          "text": "medicine will further prolong people's lives"
+          "value": "A",
+          "text": "medicine will further prolong people's lives",
+          "content": "medicine will further prolong people's lives"
         },
         {
           "key": "B",
-          "text": "life beyond a certain limit is not worth living"
+          "value": "B",
+          "text": "life beyond a certain limit is not worth living",
+          "content": "life beyond a certain limit is not worth living"
         },
         {
           "key": "C",
-          "text": "death should be accepted as a fact of life"
+          "value": "C",
+          "text": "death should be accepted as a fact of life",
+          "content": "death should be accepted as a fact of life"
         },
         {
           "key": "D",
-          "text": "excessive demands increase the cost of health care"
+          "value": "D",
+          "text": "excessive demands increase the cost of health care",
+          "content": "excessive demands increase the cost of health care"
         }
       ],
       "correct_answer": "C",
       "explanation": "［精准定位］文章第一段提出问题：美国人无法正视死亡，这危及美国伟大医疗体系；第二、三段分 \n析问题：美国第三方买单医疗体系使然，由此却造成美国庞大医疗开支；第四、五段解决问题：无需耗费 \n大量财力延缓自然死亡，但也不能将老人弃如敝履，而需将更多财力投入到研究提高人们生活质量、更 \n为寻常的医疗方法上。可见，全文的中心思想是劝告人们接受死亡，［C］正确。\n［命题解密］正确项［C］是文中多处表明的作者对死亡的看法的概括（详见“技巧总结，其次，”）。\n［A］将第一段③句\"过去百年（over the past century）美国人预期寿命几乎翻番\"的过去时间延伸至 \n将来，“将进一步延长（will further）”，而文意并无从推测这一意思；［B］利用第三段⑤句中“就应该停止 \n……超过一定年龄的生命支付医疗费用”设置干扰，而作者已于第四段反驳了这种过激看法；［D］利用 \n第三段①句“花费将近127亿美元”、②句“花费将达到15,400亿美元\"设置干扰，但这并非文章主题，文 \n章自始至终都在讲述美国人对待死亡的错误看法，而非医疗保健花费问题。\n［技巧总结］主旨大意题的提问方式相对比较固定，基本上有三类：What is the best title for the \ntext? What's the passage mainly about? The text intends to express the idea that \n.此类题的解答\n步骤有二:一、找出文章主题句或文章主旨关键词，正确答案是对文章中心句的同义替换；二、在文中寻 \n找更多线索，敲定文章中心大意。注意：主旨大意题的答案如同一个“帽子”，尺寸正好符合文章，反之.如 \n果所选标题范围太大或太小，会出现文章支撑不起“帽子”或是“帽子”太小,不能把整篇文章涵盖进去。\n如本题，首先，我们通读文章首段，发现首段末尾有一个转折句：但是再伟大的医疗体系也不能治 \n愈死亡，我们未能认识到这个现实正威胁着我们医疗体系的伟大。这句话暗含的意思是“我们需要正 \n确面对死亡”，而［C］正好是对这句话的同义替换，由此可初步敲定［C］为正确项；其次，在文中寻找更多 \n线索，通读全文可知，如第一段⑥句（无法正视“死亡无法医治”的事实）；第二段①句（死亡是寻常事）；第 \n四段⑤句（随着年龄自然而然出现的健康问题）；第五段①句（有限制）、②句（最昂贵且极端的救治办法 \n无效且令人痛苦）、④句（在寻求不可能的治疗方法上花钱太多）；这些地方均表现出作者在劝慰人们接 \n受死亡，无需做无用抗衡，由此最终敲定文章中心意图为［C］。",
       "points": 2,
       "sort_order": 40,
-      "answer": "C"
+      "answer": "C",
+      "question_number": 40
     }
   ],
   "exportedAt": "2026-10-15T11:40:37.198Z"
