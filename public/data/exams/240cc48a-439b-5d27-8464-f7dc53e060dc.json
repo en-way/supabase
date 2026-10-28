@@ -706,26 +706,26 @@
         {
           "key": "A",
           "value": "A",
-          "text": "(keep) order",
-          "content": "(keep) order"
+          "text": "order",
+          "content": "order"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "(keep) track (of)",
-          "content": "(keep) track (of)"
+          "text": "track",
+          "content": "track"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "(keep) pace (with)",
-          "content": "(keep) pace (with)"
+          "text": "pace",
+          "content": "pace"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "(keep) hold (of/ on)",
-          "content": "(keep) hold (of/ on)"
+          "text": "hold",
+          "content": "hold"
         }
       ],
       "answer": "B",

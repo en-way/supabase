@@ -279,26 +279,26 @@
         {
           "key": "A",
           "value": "A",
-          "text": "resistant (to)",
-          "content": "resistant (to)"
+          "text": "resistant",
+          "content": "resistant"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "subject (to)",
-          "content": "subject (to)"
+          "text": "subject",
+          "content": "subject"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "immune (to)",
-          "content": "immune (to)"
+          "text": "immune",
+          "content": "immune"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "prone (to)",
-          "content": "prone (to)"
+          "text": "prone",
+          "content": "prone"
         }
       ],
       "correct_answer": "B",
@@ -318,26 +318,26 @@
         {
           "key": "A",
           "value": "A",
-          "text": "resorts (to)",
-          "content": "resorts (to)"
+          "text": "resorts",
+          "content": "resorts"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "sticks (to)",
-          "content": "sticks (to)"
+          "text": "sticks",
+          "content": "sticks"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "leads (to)",
-          "content": "leads (to)"
+          "text": "leads",
+          "content": "leads"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "applies (to)",
-          "content": "applies (to)"
+          "text": "applies",
+          "content": "applies"
         }
       ],
       "correct_answer": "D",
