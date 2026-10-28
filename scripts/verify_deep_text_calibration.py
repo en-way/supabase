@@ -182,6 +182,7 @@ def main():
     round82_anomalies = []
     round83_anomalies = []
     round84_anomalies = []
+    round85_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3034,6 +3035,31 @@ def main():
             if 'Directions:' in pb_c or 'Read the following text' in pb_c:
                 round84_anomalies.append(('2011_ky2_pb_directions_leak', pb_c[:60]))
 
+        # Round 85 Verification: 2005 ky1 clean texts, 2012 ky1 sort_orders, 0 glued parens & double dots
+        if yr == 2005 and cat == 'ky1':
+            p1 = data['passages'][0].get('content', '')
+            if '0 The human nose' in p1 or 'indicate(the' in p1 or 'II O' in p1:
+                round85_anomalies.append(('2005_ky1_cloze_ocr_artifacts', p1[:60]))
+            p2 = data['passages'][1].get('content', '')
+            if 'female brown capuchin monkeys' not in p2 or 'vanish(if' in p2 or 'outraged..' in p2 or len(p2.split('\n\n')) != 5:
+                round85_anomalies.append(('2005_ky1_text1_ocr_artifacts', len(p2.split('\n\n'))))
+            p4 = data['passages'][3].get('content', '')
+            if 'emotional thermostat' not in p4 or 'witn' in p4 or 'con trol..' in p4 or len(p4.split('\n\n')) != 5:
+                round85_anomalies.append(('2005_ky1_text3_ocr_artifacts', len(p4.split('\n\n'))))
+            p6 = data['passages'][5].get('content', '')
+            if not p6.startswith('Canada’s premiers') or '[A] Quebec' in p6 or len(p6.split('\n\n')) != 15:
+                round85_anomalies.append(('2005_ky1_partb_structure', len(p6.split('\n\n'))))
+            for q in data['questions']:
+                so = q.get('sort_order')
+                if so in [41, 42, 43, 44, 45]:
+                    opts = q.get('options', [])
+                    if len(opts) != 7 or any(len(o.get('text', '')) < 50 for o in opts):
+                        round85_anomalies.append((f'2005_ky1_q{so}_opts_truncated', len(opts)))
+        elif yr == 2012 and cat == 'ky1':
+            for idx, p in enumerate(data['passages']):
+                if p.get('sort_order') != idx + 1:
+                    round85_anomalies.append(('2012_ky1_passage_sort_order', (idx, p.get('sort_order'))))
+
         passages = data.get('passages', [])
         questions = data.get('questions', [])
 
@@ -5644,6 +5670,7 @@ def main():
     results["Assertion 104: 2025 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复3段289词理顺帕夫洛彼特里沉没水下古城发现史、Text 1 恢复7段388词理顺莎士比亚排练室教学法对儿童读写与情感培育、Text 2 恢复7段421词理顺超级计算碳足迹与气候模型绿色计算LUMI、Text 3 恢复6段417词理顺好莱坞流媒体大战与盗版网站侵蚀破坏、Text 4 恢复5段475词理顺实体文物与数字原生资产寿命及特殊馆藏维护、Part B 恢复8段572词彻底切除Directions并规范英国蝴蝶摄影8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round82_anomalies) == 0)
     results["Assertion 105: 2025 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段352词理顺求助心理学与自我同情、Text 1 恢复7段373词理顺美国小费文化演变与数字提示及小费蔓延、Text 2 恢复6段404词理顺英国国民医疗服务体系NHS改革与地方政府预防性卫生、Text 3 恢复6段403词理顺印度高温应对行动计划HAPs与资金短缺、Text 4 恢复5段410词理顺人类直觉与欲望路径Desire Paths及景观规划哲学、Part B 恢复8段565词彻底切除Directions并规范职场建言指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round83_anomalies) == 0)
     results["Assertion 106: 2001-2025 全库 41 套真题文章与选项全景法医级深度校对与标准化对齐（2010 完型恢复4段20空权威文本、2019 完形方括号补齐与破折号修复、2006/2011/2014/2022 英语一及 2011 英语二新题型试卷说明与错乱流程图剥离、2021 英语二 Q13 错位重构与 Q24/Q27/Q29 标准答案纠偏、2012 英语二 Q16 官方真题选项还原、全库 1,825 题选项结构 100% 具备 key/value/text/content 四键规范）"] = (len(round84_anomalies) == 0)
+    results["Assertion 107: 2005 英语一全卷法医级深度校对与黄金重组（完型填空切除0与II O段标及indicate黏连括号、Text 1 恢复5段431词切除双点及卷尾猴OCR碎词、Text 3 恢复5段471词切除witn与con trol错乱并理顺卡特赖特梦境意识调节理论、Part B 恢复15段清晰段落与[41]-[45]填空位并彻底切除末尾倒灌选项与重叠句子、Q41-Q45 恢复官方完整段落选项[A]-[G]及四键规范、2012 英语一 6 篇文章篇章序号 sort_order 黄金对齐）"] = (len(round85_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5678,6 +5705,8 @@ def main():
             print(f"Round 83 anomalies ({len(round83_anomalies)}):", round83_anomalies[:10])
         if round84_anomalies:
             print(f"Round 84 anomalies ({len(round84_anomalies)}):", round84_anomalies[:10])
+        if round85_anomalies:
+            print(f"Round 85 anomalies ({len(round85_anomalies)}):", round85_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
