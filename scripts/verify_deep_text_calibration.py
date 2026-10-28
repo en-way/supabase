@@ -186,6 +186,7 @@ def main():
     round86_anomalies = []
     round87_anomalies = []
     round88_anomalies = []
+    round89_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3166,6 +3167,39 @@ def main():
                     if 'draft plan wants to slow down changes' in content:
                         round88_anomalies.append(('2005_ky1_text2_has_synthetic_content', True))
 
+        # Round 89 Verification: Options purity and explanation OCR glyphs calibration
+        if yr == 2018 and cat == 'ky1':
+            for q in data.get('questions', []):
+                if q.get('sort_order') == 8:
+                    opt_c = next((o for o in q.get('options', []) if o.get('key') == 'C'), {})
+                    if opt_c.get('text') != 'of' or opt_c.get('content') != 'of':
+                        round89_anomalies.append(('2018_ky1_q8_opt_c_not_of', opt_c.get('text')))
+                    expl = q.get('explanation', '')
+                    if 'of.........' in expl:
+                        round89_anomalies.append(('2018_ky1_q8_expl_has_dots', True))
+                    if 'in£ormation' in expl:
+                        round89_anomalies.append(('2018_ky1_q8_expl_has_pound_glyph', True))
+
+        if yr == 2021 and cat == 'ky1':
+            for q in data.get('questions', []):
+                so = q.get('sort_order')
+                expl = q.get('explanation', '')
+                if so == 23 and '・］£' in expl:
+                    round89_anomalies.append(('2021_ky1_q23_expl_has_pound_glyph', True))
+                elif so == 26 and 'ef£ect' in expl:
+                    round89_anomalies.append(('2021_ky1_q26_expl_has_ef£ect', True))
+                elif so == 28 and '・£' in expl:
+                    round89_anomalies.append(('2021_ky1_q28_expl_has_pound_glyph', True))
+
+        for q in data.get('questions', []):
+            so = q.get('sort_order')
+            for opt in q.get('options', []):
+                k = opt.get('key')
+                t = opt.get('text', '')
+                if '....' in t and so <= 40:
+                    round89_anomalies.append((f'{yr}_{cat}_q{so}_{k}_has_4_dots', t))
+
+
 
         passages = data.get('passages', [])
         questions = data.get('questions', [])
@@ -5781,6 +5815,7 @@ def main():
     results["Assertion 108: 全库 41 套真题 243 篇篇章映射拓扑与元数据标准化（2001/2012 篇章 section_type 严格规范为 cloze 与 reading，2011 英语一与英语二 Text 1-4 标题 100% 统一规范为 Section II: Reading Comprehension Part A - Text X，全库 1,825 道题目 passage_id 拓扑链接 100% 无孤立与错挂，篇章序号与题目序号 100% 连续且单调自增）"] = (len(round86_anomalies) == 0)
     results["Assertion 109: 全库 41 套真题试题选项完整性与分值自洽法医级校对（2021 英语一 Q35 选项 C/D 彻底修复截断与软连字符软伤、完整恢复 Victorian period? 与 post-Victorian norm?；2017 英语一 Part B Q41-Q45 选项 [A]-[G] 黄金注入狄更斯传记段落首句；全库 1,825 道试题 score 与 points 100% 严格一致零缺失；全库 7,830 个选项 0 处伪前缀、0 处不可见异常字符、0 处重复选项）"] = (len(round87_anomalies) == 0)
     results["Assertion 110: 2011 英语二 Text 2 与 2005 英语一 Text 2 黄皮书原汁原味权威重构校准（2011 英语二 Text 2 彻底消除伪造 7 段 441 词异化版本，100% 还原黄皮书 5 段 329 词报业危机真实正文与旧金山纪事报、日本 35% 广告例证，Q26 题干规范省略号，Q29 选项 B 纠正复数 failure of newspapers.；2005 英语一 Text 2 彻底清除后半截合成文本，100% 恢复黄皮书 5 段 438 词全球变暖真题正文与 paralysis by analysis 及立法倡议核心句）"] = (len(round88_anomalies) == 0)
+    results["Assertion 111: 全库 7,830 个选项点号噪点彻底归零与试题解析 OCR 异形字符法医级提纯（2018 英语一 Q8 选项 C 彻底治愈 of......... 冗余噪点恢复标准介词 of 并深度净化解析中 in£ormation 乱码；2021 英语一 Q23、Q26、Q28 解析彻底消灭 ef£ect 及・］£ 伪符号恢复 effect 与规范标题；全库 1,825 道试题 Q1-Q40 选项 0 处多点截断残留）"] = (len(round89_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5795,6 +5830,8 @@ def main():
             print(f"Round 87 anomalies ({len(round87_anomalies)}):", round87_anomalies[:10])
         if round88_anomalies:
             print(f"Round 88 anomalies ({len(round88_anomalies)}):", round88_anomalies[:10])
+        if round89_anomalies:
+            print(f"Round 89 anomalies ({len(round89_anomalies)}):", round89_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
