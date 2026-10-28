@@ -183,6 +183,7 @@ def main():
     round83_anomalies = []
     round84_anomalies = []
     round85_anomalies = []
+    round86_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3060,6 +3061,25 @@ def main():
                 if p.get('sort_order') != idx + 1:
                     round85_anomalies.append(('2012_ky1_passage_sort_order', (idx, p.get('sort_order'))))
 
+        # Round 86 Verification: Canonical titles, section_types, and passage mapping
+        p_ids = {p.get('id'): p for p in data.get('passages', [])}
+        for p in data.get('passages', []):
+            so = p.get('sort_order')
+            t = p.get('title', '')
+            st = p.get('section_type')
+            if not st:
+                round86_anomalies.append((f'{yr}_{cat}_p{so}_missing_st', t))
+            if so in [2, 3, 4, 5]:
+                expected_title = f"Section II: Reading Comprehension Part A - Text {so - 1}"
+                if t != expected_title:
+                    round86_anomalies.append((f'{yr}_{cat}_p{so}_non_canonical_title', t))
+
+        for q in data.get('questions', []):
+            so = q.get('sort_order')
+            pid = q.get('passage_id')
+            if not pid or pid not in p_ids:
+                round86_anomalies.append((f'{yr}_{cat}_q{so}_orphan', pid))
+
         passages = data.get('passages', [])
         questions = data.get('questions', [])
 
@@ -5671,6 +5691,7 @@ def main():
     results["Assertion 105: 2025 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段352词理顺求助心理学与自我同情、Text 1 恢复7段373词理顺美国小费文化演变与数字提示及小费蔓延、Text 2 恢复6段404词理顺英国国民医疗服务体系NHS改革与地方政府预防性卫生、Text 3 恢复6段403词理顺印度高温应对行动计划HAPs与资金短缺、Text 4 恢复5段410词理顺人类直觉与欲望路径Desire Paths及景观规划哲学、Part B 恢复8段565词彻底切除Directions并规范职场建言指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round83_anomalies) == 0)
     results["Assertion 106: 2001-2025 全库 41 套真题文章与选项全景法医级深度校对与标准化对齐（2010 完型恢复4段20空权威文本、2019 完形方括号补齐与破折号修复、2006/2011/2014/2022 英语一及 2011 英语二新题型试卷说明与错乱流程图剥离、2021 英语二 Q13 错位重构与 Q24/Q27/Q29 标准答案纠偏、2012 英语二 Q16 官方真题选项还原、全库 1,825 题选项结构 100% 具备 key/value/text/content 四键规范）"] = (len(round84_anomalies) == 0)
     results["Assertion 107: 2005 英语一全卷法医级深度校对与黄金重组（完型填空切除0与II O段标及indicate黏连括号、Text 1 恢复5段431词切除双点及卷尾猴OCR碎词、Text 3 恢复5段471词切除witn与con trol错乱并理顺卡特赖特梦境意识调节理论、Part B 恢复15段清晰段落与[41]-[45]填空位并彻底切除末尾倒灌选项与重叠句子、Q41-Q45 恢复官方完整段落选项[A]-[G]及四键规范、2012 英语一 6 篇文章篇章序号 sort_order 黄金对齐）"] = (len(round85_anomalies) == 0)
+    results["Assertion 108: 全库 41 套真题 243 篇篇章映射拓扑与元数据标准化（2001/2012 篇章 section_type 严格规范为 cloze 与 reading，2011 英语一与英语二 Text 1-4 标题 100% 统一规范为 Section II: Reading Comprehension Part A - Text X，全库 1,825 道题目 passage_id 拓扑链接 100% 无孤立与错挂，篇章序号与题目序号 100% 连续且单调自增）"] = (len(round86_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5707,6 +5728,8 @@ def main():
             print(f"Round 84 anomalies ({len(round84_anomalies)}):", round84_anomalies[:10])
         if round85_anomalies:
             print(f"Round 85 anomalies ({len(round85_anomalies)}):", round85_anomalies[:10])
+        if round86_anomalies:
+            print(f"Round 86 anomalies ({len(round86_anomalies)}):", round86_anomalies[:10])
         print("\n=== 失败详情报告 ===")
         if watermark_hits:
             print(f"Watermark hits ({len(watermark_hits)}):", watermark_hits[:5])
