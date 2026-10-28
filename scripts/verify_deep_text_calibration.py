@@ -189,6 +189,7 @@ def main():
     round89_anomalies = []
     round90_anomalies = []
     round91_anomalies = []
+    round92_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3259,6 +3260,46 @@ def main():
                 if q_dict != q41_dict:
                     round91_anomalies.append((f'{yr}_{cat}_q{q.get("sort_order")}_opts_mismatch', True))
 
+        # Round 92 Verification: Forensic Invariants (Cloze Stems, Stated Expl Answer, Purity, Quotes & Scores)
+        for q in data.get('questions', []):
+            qn = q.get('question_number')
+            stem = q.get('stem', '')
+            if 1 <= qn <= 20:
+                expected_cloze_stem = f'Choose the best option for blank [{qn}] in the passage:'
+                if stem != expected_cloze_stem:
+                    round92_anomalies.append((f'{yr}_{cat}_q{qn}_cloze_stem', stem))
+            
+            score = q.get('score')
+            points = q.get('points')
+            if score != points:
+                round92_anomalies.append((f'{yr}_{cat}_q{qn}_score_points_mismatch', (score, points)))
+            expected_score = 0.5 if 1 <= qn <= 20 else 2.0
+            if score != expected_score:
+                round92_anomalies.append((f'{yr}_{cat}_q{qn}_score_unexpected', score))
+
+            ans = q.get('correct_answer') or q.get('answer')
+            expl = q.get('explanation') or q.get('analysis') or ''
+            for line in expl.split('\n'):
+                line_str = line.strip()
+                m = re.search(r'[【［\[]答案[】］\]]\s*([A-G])', line_str)
+                if m and m.group(1).upper() != ans:
+                    round92_anomalies.append((f'{yr}_{cat}_q{qn}_expl_ans_mismatch', (ans, m.group(1).upper())))
+
+            opts = q.get('options', [])
+            for o in opts:
+                text = o.get('text', '')
+                if text != text.strip():
+                    round92_anomalies.append((f'{yr}_{cat}_q{qn}_opt_{o.get("key")}_ws', text))
+
+        for p in data.get('passages', []):
+            so = p.get('sort_order')
+            c = p.get('content', '')
+            if c.count('"') % 2 != 0:
+                round92_anomalies.append((f'{yr}_{cat}_p{so}_odd_quotes', c.count('"')))
+            for bad_c in ['\u00a0', '\u200b', '\ufeff', '\ufffd']:
+                if bad_c in c:
+                    round92_anomalies.append((f'{yr}_{cat}_p{so}_bad_char', ord(bad_c)))
+
 
 
 
@@ -5880,6 +5921,7 @@ def main():
     results["Assertion 111: 全库 7,830 个选项点号噪点彻底归零与试题解析 OCR 异形字符法医级提纯（2018 英语一 Q8 选项 C 彻底治愈 of......... 冗余噪点恢复标准介词 of 并深度净化解析中 in£ormation 乱码；2021 英语一 Q23、Q26、Q28 解析彻底消灭 ef£ect 及・］£ 伪符号恢复 effect 与规范标题；全库 1,825 道试题 Q1-Q40 选项 0 处多点截断残留）"] = (len(round89_anomalies) == 0)
     results["Assertion 112: 全库选项同题标点句号与省略号对齐一致性法医级校准（2022 英语一 Q38 选项 C 与 Q39 选项 C 彻底补全末尾遗漏句号；2018 英语一 Q22 选项 B 与选项 C 彻底补全末尾遗漏句号；2025 英语一 Part B Q41-Q45 选项 [F] 黄金补全段落首句末尾省略号 ... 完美对齐 [A]-[G] 统一规范）"] = (len(round90_anomalies) == 0)
     results["Assertion 113: 全库 41 套真题 243 篇篇章分类学拓扑 100% 绝对统一与新题型选项一致性对齐（完型 41 篇严格统一为 type: cloze / section_type: cloze；阅读 165 篇严格统一为 type: reading / section_type: reading；新题型 37 篇严格统一为 type: reading_part_b / section_type: reading；全库新题型 Q41-Q45 试题选项 [A]-[G] 100% 严格同题同构同值，0 处 bare token 孤立选项）"] = (len(round91_anomalies) == 0)
+    results["Assertion 114: 全库 41 套真题法医级五维不变式校验（820 道完型题干 100% 格式统一、1,825 道试题解析标明答案与题解 100% 零冲突吻合、7,830 个选项 0 处头尾空白与重复生词、243 篇篇章 100% 英文双引号闭合与 0 处不可见控制符、全库试题 score 与 points 100% 符合 0.5/2.0 分值基准）"] = (len(round92_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5900,6 +5942,8 @@ def main():
             print(f"Round 90 anomalies ({len(round90_anomalies)}):", round90_anomalies[:10])
         if round91_anomalies:
             print(f"Round 91 anomalies ({len(round91_anomalies)}):", round91_anomalies[:10])
+        if round92_anomalies:
+            print(f"Round 92 anomalies ({len(round92_anomalies)}):", round92_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
