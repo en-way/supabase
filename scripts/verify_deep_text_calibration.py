@@ -185,6 +185,7 @@ def main():
     round85_anomalies = []
     round86_anomalies = []
     round87_anomalies = []
+    round88_anomalies = []
     for fpath in exam_files:
         with open(fpath, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -3122,6 +3123,50 @@ def main():
                 if t and ('\xad' in t or '\u200b' in t or '\ufeff' in t):
                     round87_anomalies.append((f'{yr}_{cat}_q{so}_{k}_invisible_unicode', t[:30]))
 
+        # Round 88 Verification: 2011 ky2 Text 2 & 2005 ky1 Text 2 Yellow Book authentic texts
+        if yr == 2011 and cat == 'ky2':
+            for p in data.get('passages', []):
+                if p.get('sort_order') == 3:
+                    content = p.get('content', '')
+                    paras = [x for x in content.split('\n\n') if x.strip()]
+                    words = len(content.split())
+                    if len(paras) != 5:
+                        round88_anomalies.append(('2011_ky2_text2_paras_count', len(paras)))
+                    if words != 329:
+                        round88_anomalies.append(('2011_ky2_text2_words_count', words))
+                    if 'San Francisco Chronicle were chronicling their own doom' not in content:
+                        round88_anomalies.append(('2011_ky2_text2_missing_sf_chronicle', True))
+                    if 'In Japan the proportion is 35%' not in content:
+                        round88_anomalies.append(('2011_ky2_text2_missing_japan_stat', True))
+            for q in data.get('questions', []):
+                if q.get('sort_order') == 26:
+                    if 'Newspapers like... their own doom' not in q.get('stem', ''):
+                        round88_anomalies.append(('2011_ky2_q26_stem_ellipsis', q.get('stem')))
+                elif q.get('sort_order') == 29:
+                    opt_b = next((o for o in q.get('options', []) if o.get('key') == 'B'), {})
+                    if opt_b.get('text') != 'Completeness is to blame for the failure of newspapers.':
+                        round88_anomalies.append(('2011_ky2_q29_opt_b_text', opt_b.get('text')))
+
+        if yr == 2005 and cat == 'ky1':
+            for p in data.get('passages', []):
+                if p.get('sort_order') == 3:
+                    content = p.get('content', '')
+                    paras = [x for x in content.split('\n\n') if x.strip()]
+                    words = len(content.split())
+                    if len(paras) != 5:
+                        round88_anomalies.append(('2005_ky1_text2_paras_count', len(paras)))
+                    if words != 438:
+                        round88_anomalies.append(('2005_ky1_text2_words_count', words))
+                    if 'paralysis by analysis' not in content:
+                        round88_anomalies.append(('2005_ky1_text2_missing_paralysis_by_analysis', True))
+                    if 'take the legislative initiative' not in content:
+                        round88_anomalies.append(('2005_ky1_text2_missing_legislative_initiative', True))
+                    if 'responsible stewards of the planet' not in content:
+                        round88_anomalies.append(('2005_ky1_text2_missing_responsible_stewards', True))
+                    if 'draft plan wants to slow down changes' in content:
+                        round88_anomalies.append(('2005_ky1_text2_has_synthetic_content', True))
+
+
         passages = data.get('passages', [])
         questions = data.get('questions', [])
 
@@ -5553,7 +5598,7 @@ def main():
                         round55_anomalies.append(('2011_ky2_passage_t1', p.get('type'), len(c.split())))
                 elif so == 3:
                     # Text 2
-                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or not c.startswith('A year ago the end seemed near.') or 'Trade Commission launched' not in c:
+                    if p.get('type') != 'reading' or p.get('passage_number') != 2 or not (c.startswith('Whatever happened to the death of newspapers?') or c.startswith('A year ago the end seemed near.')) or 'Trade Commission launched' not in c:
                         round55_anomalies.append(('2011_ky2_passage_t2', p.get('type'), c[:40]))
                 elif so == 4:
                     # Text 3
@@ -5735,6 +5780,7 @@ def main():
     results["Assertion 107: 2005 英语一全卷法医级深度校对与黄金重组（完型填空切除0与II O段标及indicate黏连括号、Text 1 恢复5段431词切除双点及卷尾猴OCR碎词、Text 3 恢复5段471词切除witn与con trol错乱并理顺卡特赖特梦境意识调节理论、Part B 恢复15段清晰段落与[41]-[45]填空位并彻底切除末尾倒灌选项与重叠句子、Q41-Q45 恢复官方完整段落选项[A]-[G]及四键规范、2012 英语一 6 篇文章篇章序号 sort_order 黄金对齐）"] = (len(round85_anomalies) == 0)
     results["Assertion 108: 全库 41 套真题 243 篇篇章映射拓扑与元数据标准化（2001/2012 篇章 section_type 严格规范为 cloze 与 reading，2011 英语一与英语二 Text 1-4 标题 100% 统一规范为 Section II: Reading Comprehension Part A - Text X，全库 1,825 道题目 passage_id 拓扑链接 100% 无孤立与错挂，篇章序号与题目序号 100% 连续且单调自增）"] = (len(round86_anomalies) == 0)
     results["Assertion 109: 全库 41 套真题试题选项完整性与分值自洽法医级校对（2021 英语一 Q35 选项 C/D 彻底修复截断与软连字符软伤、完整恢复 Victorian period? 与 post-Victorian norm?；2017 英语一 Part B Q41-Q45 选项 [A]-[G] 黄金注入狄更斯传记段落首句；全库 1,825 道试题 score 与 points 100% 严格一致零缺失；全库 7,830 个选项 0 处伪前缀、0 处不可见异常字符、0 处重复选项）"] = (len(round87_anomalies) == 0)
+    results["Assertion 110: 2011 英语二 Text 2 与 2005 英语一 Text 2 黄皮书原汁原味权威重构校准（2011 英语二 Text 2 彻底消除伪造 7 段 441 词异化版本，100% 还原黄皮书 5 段 329 词报业危机真实正文与旧金山纪事报、日本 35% 广告例证，Q26 题干规范省略号，Q29 选项 B 纠正复数 failure of newspapers.；2005 英语一 Text 2 彻底清除后半截合成文本，100% 恢复黄皮书 5 段 438 词全球变暖真题正文与 paralysis by analysis 及立法倡议核心句）"] = (len(round88_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -5747,6 +5793,8 @@ def main():
     if not all_passed:
         if round87_anomalies:
             print(f"Round 87 anomalies ({len(round87_anomalies)}):", round87_anomalies[:10])
+        if round88_anomalies:
+            print(f"Round 88 anomalies ({len(round88_anomalies)}):", round88_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
