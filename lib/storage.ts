@@ -1,4 +1,5 @@
 import { supabase } from "./supabase";
+import { computeDataHash } from "./dataHash";
 
 export interface QuestionOption {
   key: string;
@@ -478,7 +479,62 @@ export function saveExamResult(result: ExamResult) {
 
 // ------------------- Cloud Backup & Restore via Supabase 1GB Storage -------------------
 
-export async function uploadBackupToCloud(): Promise<{ success: boolean; error?: string }> {
+export interface SanitizedLearningBackup {
+  mistakes: Array<{
+    questionId: string;
+    examId?: string;
+    categoryId?: string;
+    wrongAnswer: string;
+    wrongCount: number;
+    isMastered: boolean;
+    lastWrongAt: string;
+  }>;
+  vocabulary: VocabItem[];
+  favorites: Array<{
+    questionId: string;
+    examId: string;
+    note: string;
+    addedAt: string;
+  }>;
+  examResults: Record<string, ExamResult>;
+}
+
+/**
+ * 提取去除了瞬态草稿（examDrafts / practiceDrafts）的纯净研习数据，
+ * 保证数据指纹在跨设备比对时的纯粹性与稳定性。
+ */
+export function getSanitizedLearningBackup(state: LocalLearningState): SanitizedLearningBackup {
+  const sanitizedMistakes = (state.mistakes || []).map((m) => ({
+    questionId: m.questionId,
+    examId: m.examId || "",
+    categoryId: m.categoryId || "",
+    wrongAnswer: m.wrongAnswer || "未作答",
+    wrongCount: m.wrongCount || 1,
+    isMastered: !!m.isMastered,
+    lastWrongAt: m.lastWrongAt || "",
+  }));
+
+  const sanitizedFavorites = (state.favorites || []).map((f) => ({
+    questionId: f.questionId,
+    examId: f.examId || "",
+    note: f.note || "",
+    addedAt: f.addedAt || "",
+  }));
+
+  return {
+    mistakes: sanitizedMistakes,
+    vocabulary: state.vocabulary || [],
+    favorites: sanitizedFavorites,
+    examResults: state.examResults || {},
+  };
+}
+
+export async function uploadBackupToCloud(): Promise<{
+  success: boolean;
+  isIdentical?: boolean;
+  message?: string;
+  error?: string;
+}> {
   try {
     // Use getSession() (reads local JWT) instead of getUser() (triggers a network request)
     const { data: { session }, error: sessionErr } = await supabase.auth.getSession();
@@ -488,29 +544,21 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
     const user = session.user;
 
     const state = getLocalState();
-    // Ensure mistakes are purely index-based to save egress and storage
-    const sanitizedMistakes = (state.mistakes || []).map((m) => ({
-      questionId: m.questionId,
-      examId: m.examId,
-      categoryId: m.categoryId,
-      wrongAnswer: m.wrongAnswer || "未作答",
-      wrongCount: m.wrongCount || 1,
-      isMastered: !!m.isMastered,
-      lastWrongAt: m.lastWrongAt || new Date().toISOString(),
-    }));
+    const cleanBackupState = getSanitizedLearningBackup(state);
 
-    // Exclude ephemeral in-progress drafts from persistent cloud backup to save storage quota
-    const cleanBackupState = {
-      mistakes: sanitizedMistakes,
-      vocabulary: state.vocabulary || [],
-      favorites: (state.favorites || []).map((f) => ({
-        questionId: f.questionId,
-        examId: f.examId || "",
-        note: f.note || "",
-        addedAt: f.addedAt || new Date().toISOString(),
-      })),
-      examResults: state.examResults || {},
-    };
+    // 🔒 计算当前本地纯净研习数据的 SHA-256 指纹
+    const localDataHash = await computeDataHash(cleanBackupState);
+
+    // 🛡️ 防滥用校验：拉取当前云端轻量摘要指纹比对
+    const cloudInfo = await fetchCloudBackupInfo();
+    if (cloudInfo.exists && cloudInfo.dataHash && cloudInfo.dataHash === localDataHash) {
+      console.log("[Storage Backup] 🛡️ 本地数据与云端存档哈希完全一致，硬阻断上传以节省配额。");
+      return {
+        success: true,
+        isIdentical: true,
+        message: "本地数据与云端存档完全一致，无需重复上传，已为您节省云端存储与调用配额！",
+      };
+    }
 
     const jsonString = JSON.stringify(cleanBackupState);
 
@@ -538,7 +586,7 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
 
     if (storageErr) throw storageErr;
 
-    // 2. Update metadata summary in public.user_backups table (tiny footprint ~50 bytes)
+    // 2. Update metadata summary in public.user_backups table (含 SHA-256 防重哈希)
     const summary = {
       mistakesCount: state.mistakes.length,
       vocabCount: state.vocabulary.length,
@@ -546,6 +594,7 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
       examsCount: Object.keys(state.examResults).length,
       storageType: "supabase_storage_bucket_gzip",
       backedUpAt: new Date().toISOString(),
+      dataHash: localDataHash,
     };
 
     const { error: dbErr } = await supabase
@@ -570,7 +619,13 @@ export async function uploadBackupToCloud(): Promise<{ success: boolean; error?:
   }
 }
 
-export async function downloadBackupFromCloud(): Promise<{ success: boolean; summary?: any; error?: string }> {
+export async function downloadBackupFromCloud(): Promise<{
+  success: boolean;
+  isIdentical?: boolean;
+  message?: string;
+  summary?: any;
+  error?: string;
+}> {
   try {
     // Use getSession() (reads local JWT cache) first to avoid unnecessary network latency/errors
     const { data: { session } } = await supabase.auth.getSession();
@@ -581,6 +636,24 @@ export async function downloadBackupFromCloud(): Promise<{ success: boolean; sum
         return { success: false, error: "未登录，无法拉取云端数据" };
       }
       user = fetchedUser;
+    }
+
+    // 🛡️ 下载防滥用预检：先对比元数据哈希与本地哈希
+    const cloudInfo = await fetchCloudBackupInfo();
+    if (!cloudInfo.exists) {
+      return { success: false, error: "云端对象存储中暂无备份文件" };
+    }
+
+    const currentLocalClean = getSanitizedLearningBackup(getLocalState());
+    const currentLocalHash = await computeDataHash(currentLocalClean);
+
+    if (cloudInfo.dataHash && cloudInfo.dataHash === currentLocalHash) {
+      console.log("[Storage Download] 🛡️ 云端存档指纹与本地完全一致，硬阻断下载以节省出网流量与配额。");
+      return {
+        success: true,
+        isIdentical: true,
+        message: "本地数据与云端存档完全一致，无需重复拉取覆盖！",
+      };
     }
 
     const filePath = `${user.id}/backup.json`;
@@ -616,7 +689,46 @@ export async function downloadBackupFromCloud(): Promise<{ success: boolean; sum
     }
 
     const parsedState = JSON.parse(text) as LocalLearningState;
+    const downloadedClean = getSanitizedLearningBackup(parsedState);
+    const downloadedHash = await computeDataHash(downloadedClean);
+
+    // 🛡️ 若下载解压后的内容其实与本地相同（如旧版无 dataHash 的备份）：
+    if (downloadedHash === currentLocalHash) {
+      // 顺便回填云端元数据的 dataHash，让后续检查可以免下载直判
+      if (!cloudInfo.dataHash) {
+        supabase
+          .from("user_backups")
+          .update({
+            summary: {
+              ...(cloudInfo.summary || {}),
+              dataHash: downloadedHash,
+            },
+          })
+          .eq("user_id", user.id)
+          .then(() => {}, () => {});
+      }
+      return {
+        success: true,
+        isIdentical: true,
+        message: "云端存档内容与当前本地数据完全一致，无需重复覆盖！",
+      };
+    }
+
     saveLocalState(parsedState);
+
+    // 若云端元数据缺失指纹，异步回填
+    if (!cloudInfo.dataHash) {
+      supabase
+        .from("user_backups")
+        .update({
+          summary: {
+            ...(cloudInfo.summary || {}),
+            dataHash: downloadedHash,
+          },
+        })
+        .eq("user_id", user.id)
+        .then(() => {}, () => {});
+    }
 
     return { success: true };
   } catch (err: any) {
@@ -624,7 +736,12 @@ export async function downloadBackupFromCloud(): Promise<{ success: boolean; sum
   }
 }
 
-export async function fetchCloudBackupInfo(): Promise<{ exists: boolean; summary?: any; updatedAt?: string }> {
+export async function fetchCloudBackupInfo(): Promise<{
+  exists: boolean;
+  summary?: any;
+  updatedAt?: string;
+  dataHash?: string;
+}> {
   try {
     const { data: { session } } = await supabase.auth.getSession();
     let user = session?.user;
@@ -641,7 +758,13 @@ export async function fetchCloudBackupInfo(): Promise<{ exists: boolean; summary
       .maybeSingle();
 
     if (data) {
-      return { exists: true, summary: data.summary, updatedAt: data.updated_at };
+      const summary = data.summary;
+      return {
+        exists: true,
+        summary,
+        updatedAt: data.updated_at,
+        dataHash: summary?.dataHash,
+      };
     }
     return { exists: false };
   } catch {

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { supabase } from "@/lib/supabase";
 import { 
   getLocalState, 
+  getSanitizedLearningBackup,
   uploadBackupToCloud, 
   downloadBackupFromCloud, 
   fetchCloudBackupInfo, 
@@ -11,6 +12,7 @@ import {
   reconcileLearningState,
   LocalLearningState 
 } from "@/lib/storage";
+import { computeDataHash } from "@/lib/dataHash";
 import { 
   User, 
   CloudUpload, 
@@ -35,6 +37,14 @@ export default function ProfilePage() {
   const [user, setUser] = useState<any>(null);
   const [localState, setLocalState] = useState<LocalLearningState | null>(null);
   const [cloudInfo, setCloudInfo] = useState<any>(null);
+  const [localHash, setLocalHash] = useState<string>("");
+
+  const isDataIdentical = Boolean(
+    cloudInfo?.exists &&
+    cloudInfo?.dataHash &&
+    localHash &&
+    cloudInfo.dataHash === localHash
+  );
 
   // Edit nickname
   const [isEditingNick, setIsEditingNick] = useState(false);
@@ -90,7 +100,13 @@ export default function ProfilePage() {
       }
       await loadPasswordResetRequest(user.id);
     }
-    setLocalState(getLocalState());
+    const lState = getLocalState();
+    setLocalState(lState);
+    if (lState) {
+      const clean = getSanitizedLearningBackup(lState);
+      const hash = await computeDataHash(clean);
+      setLocalHash(hash);
+    }
     const cInfo = await fetchCloudBackupInfo();
     setCloudInfo(cInfo);
   };
@@ -170,6 +186,11 @@ export default function ProfilePage() {
   };
 
   const handleUploadBackup = async () => {
+    if (isDataIdentical) {
+      setNotice({ type: "success", text: "🛡️ 本地研习数据与云端存档 100% 一致，无需重复上传，已为您节省云端配额！" });
+      setTimeout(() => setNotice(null), 3000);
+      return;
+    }
     if (!window.confirm("⚠️ 备份到云端将使用当前设备的做题数据【完全覆盖】云端的历史存档快照。确定继续上传覆盖吗？")) {
       return;
     }
@@ -177,9 +198,12 @@ export default function ProfilePage() {
     setNotice(null);
     const res = await uploadBackupToCloud();
     if (res.success) {
-      setNotice({ type: "success", text: "🎉 本地数据已成功打包并覆盖备份至云端！" });
-      const cInfo = await fetchCloudBackupInfo();
-      setCloudInfo(cInfo);
+      if (res.isIdentical) {
+        setNotice({ type: "success", text: "🛡️ 本地数据与云端存档完全一致，无需重复上传，已为您节省云端配额！" });
+      } else {
+        setNotice({ type: "success", text: "🎉 本地数据已成功打包并覆盖备份至云端！" });
+      }
+      await loadProfileAndStats();
     } else {
       setNotice({ type: "error", text: res.error || "上传备份失败" });
     }
@@ -190,6 +214,11 @@ export default function ProfilePage() {
   const [reconciling, setReconciling] = useState(false);
 
   const handleDownloadBackup = async () => {
+    if (isDataIdentical) {
+      setNotice({ type: "success", text: "🛡️ 本地数据与云端存档完全一致，无需重复恢复！" });
+      setTimeout(() => setNotice(null), 3000);
+      return;
+    }
     if (!window.confirm("⚠️ 从云端恢复将直接【完全覆盖】当前设备的本地数据。确定继续吗？")) {
       return;
     }
@@ -197,14 +226,18 @@ export default function ProfilePage() {
     setNotice(null);
     const res = await downloadBackupFromCloud();
     if (res.success) {
-      // Automatically run reconciliation after restoring from Storage
-      const recon = await reconcileLearningState();
-      setLocalState(getLocalState());
-      if (recon.hasChanges) {
-        setNotice({ type: "success", text: `🎉 已从云端对象存储还原并完成校对：${recon.summaryText}` });
+      if (res.isIdentical) {
+        setNotice({ type: "success", text: "🛡️ 云端存档内容与当前本地数据完全一致，无需重复覆盖！" });
       } else {
-        setNotice({ type: "success", text: "🎉 已成功从云端对象存储拉取最新快照并还原至本地！" });
+        // Automatically run reconciliation after restoring from Storage
+        const recon = await reconcileLearningState();
+        if (recon.hasChanges) {
+          setNotice({ type: "success", text: `🎉 已从云端对象存储还原并完成校对：${recon.summaryText}` });
+        } else {
+          setNotice({ type: "success", text: "🎉 已成功从云端对象存储拉取最新快照并还原至本地！" });
+        }
       }
+      await loadProfileAndStats();
     } else {
       setNotice({ type: "error", text: res.error || "下载恢复失败" });
     }
@@ -378,15 +411,28 @@ export default function ProfilePage() {
             <div className="flex items-center space-x-2">
               <span className="text-xs font-bold text-stone-900 dark:text-zinc-100">云端研习档案状态:</span>
               <span className={`px-2 py-0.5 rounded-md text-[10px] font-bold ${
-                cloudInfo?.exists ? "bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-500/30" : "bg-stone-200 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400"
+                isDataIdentical
+                  ? "bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-500/30"
+                  : cloudInfo?.exists
+                  ? "bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 border border-amber-200/80 dark:border-amber-500/30"
+                  : "bg-stone-200 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400"
               }`}>
-                {cloudInfo?.exists ? "云端已有最新档案" : "尚未创建云端归档"}
+                {isDataIdentical
+                  ? "● 本地与云端已 100% 同步"
+                  : cloudInfo?.exists
+                  ? "○ 本地存在未归档变动"
+                  : "尚未创建云端归档"}
               </span>
             </div>
             {cloudInfo?.exists ? (
               <p className="text-xs text-stone-600 dark:text-zinc-400">
                 上次归档: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
                 已归纳 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
+                {isDataIdentical && (
+                  <span className="ml-1 text-emerald-600 dark:text-emerald-400 font-semibold">
+                    (数据指纹一致，已启用防滥用硬拦截)
+                  </span>
+                )}
               </p>
             ) : (
               <p className="text-xs text-stone-400 dark:text-zinc-500">
@@ -398,20 +444,42 @@ export default function ProfilePage() {
           <div className="flex flex-wrap items-center gap-2 shrink-0">
             <button
               onClick={handleUploadBackup}
-              disabled={uploading}
-              className="px-3.5 py-1.5 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] text-xs font-bold shadow-subtle dark:shadow-glow-cyan flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-50"
+              disabled={uploading || isDataIdentical}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] ${
+                isDataIdentical
+                  ? "bg-stone-100 dark:bg-zinc-800/80 text-stone-400 dark:text-zinc-500 border border-stone-200/60 dark:border-zinc-800 cursor-not-allowed opacity-70"
+                  : "bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] dark:shadow-glow-cyan disabled:opacity-50"
+              }`}
+              title={isDataIdentical ? "本地研习数据与云端存档 100% 一致，已自动为您节省云端配额" : "将当前本地研习记录打包并安全覆盖备份至云端"}
             >
-              <CloudUpload className="w-3.5 h-3.5 text-emerald-100 dark:text-[#090a0f]" />
-              <span>{uploading ? "正在归档..." : "备份到云端"}</span>
+              <CloudUpload className={`w-3.5 h-3.5 ${isDataIdentical ? "text-stone-400 dark:text-zinc-500" : "text-emerald-100 dark:text-[#090a0f]"}`} />
+              <span>
+                {uploading
+                  ? "正在归档..."
+                  : isDataIdentical
+                  ? "✅ 云端已是最新 (无变动)"
+                  : "备份到云端"}
+              </span>
             </button>
 
             <button
               onClick={handleDownloadBackup}
-              disabled={downloading || !cloudInfo?.exists}
-              className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] disabled:opacity-40"
+              disabled={downloading || !cloudInfo?.exists || isDataIdentical}
+              className={`px-3.5 py-1.5 rounded-xl text-xs font-bold shadow-subtle flex items-center space-x-1.5 transition-all active:scale-[0.98] ${
+                isDataIdentical || !cloudInfo?.exists
+                  ? "bg-stone-100 dark:bg-zinc-800/80 text-stone-400 dark:text-zinc-500 border border-stone-200/60 dark:border-zinc-800 cursor-not-allowed opacity-70"
+                  : "border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-300 disabled:opacity-40"
+              }`}
+              title={isDataIdentical ? "本地数据已与云端最新存档完全一致，无需重复覆盖" : "从云端对象存储拉取最新备份还原至本地"}
             >
               <CloudDownload className="w-3.5 h-3.5 text-stone-500 dark:text-zinc-400" />
-              <span>{downloading ? "正在恢复..." : "从云端恢复"}</span>
+              <span>
+                {downloading
+                  ? "正在恢复..."
+                  : isDataIdentical
+                  ? "✅ 本地已是最新 (无需拉取)"
+                  : "从云端恢复"}
+              </span>
             </button>
 
             <button
