@@ -1,12 +1,14 @@
 import sys
 import glob
 import json
+import time
 
 supabase_scripts = r"d:\A16pro\Aing\antigravity\supabase\scripts"
 sys.path.append(supabase_scripts)
 import db_ops
 
-sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
 
 print("=== Verifying Supabase DB vs Local JSON Golden Parity ===")
 
@@ -14,11 +16,24 @@ db_questions = db_ops.run_sql('select count(*) as c from questions')
 db_passages = db_ops.run_sql('select count(*) as c from passages')
 print(f"DB total questions: {db_questions[0]['c']}, passages: {db_passages[0]['c']}")
 
-db_q = db_ops.run_sql('''
-    select e.year, e.category_id, q.sort_order, q.correct_answer, q.explanation, q.stem, q.options
-    from questions q
-    join exams e on q.exam_id = e.id
-''')
+# Fetch questions in two category chunks to ensure stable HTTP payload transfer
+db_q = []
+for cat in ['ky1', 'ky2']:
+    for retry in range(5):
+        try:
+            chunk = db_ops.run_sql(f'''
+                select e.year, e.category_id, q.sort_order, q.correct_answer, q.explanation, q.stem, q.options
+                from questions q
+                join exams e on q.exam_id = e.id
+                where e.category_id = '{cat}'
+            ''')
+            db_q.extend(chunk)
+            print(f"Loaded {len(chunk)} questions for {cat} from DB.")
+            break
+        except Exception as e:
+            print(f"Retry fetching {cat} ({retry + 1}/5): {e}")
+            time.sleep(2)
+
 db_q_map = {(r['year'], r['category_id'], r['sort_order']): r for r in db_q}
 
 diff_count = 0
