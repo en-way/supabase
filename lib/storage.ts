@@ -66,6 +66,9 @@ export interface VocabItem {
   translation: string;
   context?: string;
   addedAt: string;
+  mastered?: boolean;
+  reviewCount?: number;
+  lastReviewedAt?: string;
 }
 
 export interface FavoriteItem {
@@ -268,6 +271,29 @@ export function removeVocab(word: string) {
   if (!Array.isArray(state.vocabulary)) return;
   const cleanWord = word.trim().toLowerCase();
   state.vocabulary = state.vocabulary.filter((v) => v && v.word && v.word.toLowerCase() !== cleanWord);
+  saveLocalState(state);
+}
+
+export function toggleVocabMastery(word: string, forceMastered?: boolean) {
+  if (!word) return;
+  const state = getLocalState();
+  if (!Array.isArray(state.vocabulary)) return;
+  const cleanWord = word.trim().toLowerCase();
+  const item = state.vocabulary.find((v) => v && v.word && v.word.toLowerCase() === cleanWord);
+  if (item) {
+    item.mastered = typeof forceMastered === "boolean" ? forceMastered : !item.mastered;
+    item.reviewCount = (item.reviewCount || 0) + 1;
+    item.lastReviewedAt = new Date().toISOString();
+    saveLocalState(state);
+  }
+}
+
+export function resetAllVocabMastery() {
+  const state = getLocalState();
+  if (!Array.isArray(state.vocabulary)) return;
+  state.vocabulary.forEach((v) => {
+    if (v) v.mastered = false;
+  });
   saveLocalState(state);
 }
 
