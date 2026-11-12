@@ -101,19 +101,21 @@ function ExamContent() {
   const [showSubmitReviewSheet, setShowSubmitReviewSheet] = useState<boolean>(false);
   const [isZenMode, setIsZenMode] = useState<boolean>(false);
   const [showShortcutsModal, setShowShortcutsModal] = useState<boolean>(false);
-  const drawerTouchStartRef = useRef<{ y: number } | null>(null);
+  const drawerTouchStartRef = useRef<{ x: number; y: number } | null>(null);
 
   const handleDrawerTouchStart = (e: React.TouchEvent) => {
     if (e.touches.length === 1) {
-      drawerTouchStartRef.current = { y: e.touches[0].clientY };
+      drawerTouchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
     }
   };
 
   const handleDrawerTouchEnd = (e: React.TouchEvent, onClose: () => void) => {
     if (!drawerTouchStartRef.current) return;
+    const deltaX = e.changedTouches[0].clientX - drawerTouchStartRef.current.x;
     const deltaY = e.changedTouches[0].clientY - drawerTouchStartRef.current.y;
     drawerTouchStartRef.current = null;
-    if (deltaY > 60) {
+    // Downward swipe of >= 150px and vertical displacement > 2.0x horizontal dismisses drawer
+    if (deltaY >= 150 && deltaY > Math.abs(deltaX) * 2.0) {
       triggerHaptic(8);
       onClose();
     }
@@ -1341,28 +1343,33 @@ function ExamContent() {
           }}
         >
           <div 
-            onTouchStart={handleDrawerTouchStart}
-            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowMobileAnswerSheet(false))}
             className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-xl flex flex-col animate-in slide-in-from-bottom duration-200"
           >
-            {/* Native Drag Handle Indicator */}
-            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors sm:hidden" />
+            {/* Header with isolated touch area for swipe-down dismiss */}
+            <div
+              onTouchStart={handleDrawerTouchStart}
+              onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowMobileAnswerSheet(false))}
+              className="touch-none select-none cursor-grab active:cursor-grabbing pb-3 border-b border-stone-100 dark:border-zinc-800 shrink-0"
+            >
+              {/* Native Drag Handle Indicator */}
+              <div className="w-12 h-1.5 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-2.5 shrink-0 sm:hidden" />
 
-            <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
-              <div>
-                <h4 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100 flex items-center space-x-2">
-                  <ListOrdered className="w-4 h-4 text-emerald-600 dark:text-cyber-400" />
-                  <span>答题卡总览 ({answeredCount} / {questions.length})</span>
-                </h4>
-                <span className="text-[11px] text-stone-400 dark:text-zinc-500">点击题号快速定位到对应试题</span>
+              <div className="flex items-center justify-between">
+                <div>
+                  <h4 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100 flex items-center space-x-2">
+                    <ListOrdered className="w-4 h-4 text-emerald-600 dark:text-cyber-400" />
+                    <span>答题卡总览 ({answeredCount} / {questions.length})</span>
+                  </h4>
+                  <span className="text-[11px] text-stone-400 dark:text-zinc-500">点击题号快速定位到对应试题</span>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setShowMobileAnswerSheet(false)}
+                  className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100"
+                >
+                  <X className="w-4 h-4" />
+                </button>
               </div>
-              <button
-                type="button"
-                onClick={() => setShowMobileAnswerSheet(false)}
-                className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100"
-              >
-                <X className="w-4 h-4" />
-              </button>
             </div>
 
             <div className="flex-1 overflow-y-auto overscroll-contain py-4 space-y-4 pr-1">
@@ -1461,25 +1468,29 @@ function ExamContent() {
           }}
         >
           <div 
-            onTouchStart={handleDrawerTouchStart}
-            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowSubmitReviewSheet(false))}
             className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 sm:p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-lg flex flex-col animate-in slide-in-from-bottom duration-200"
           >
-            {/* Native Drag Handle Indicator */}
-            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors sm:hidden" />
+            {/* Header with isolated touch area for swipe-down dismiss */}
+            <div
+              onTouchStart={handleDrawerTouchStart}
+              onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowSubmitReviewSheet(false))}
+              className="touch-none select-none cursor-grab active:cursor-grabbing pb-3.5 border-b border-stone-100 dark:border-zinc-800 shrink-0"
+            >
+              {/* Native Drag Handle Indicator */}
+              <div className="w-12 h-1.5 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-2.5 shrink-0 sm:hidden" />
 
-            {/* Header */}
-            <div className="flex items-center justify-between pb-3.5 border-b border-stone-100 dark:border-zinc-800">
-              <div className="flex items-center space-x-2">
-                <FileCheck className="w-5 h-5 text-emerald-600 dark:text-cyber-400" />
-                <h3 className="font-bold text-base text-stone-900 dark:text-zinc-100">考卷作答核验与交卷</h3>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center space-x-2">
+                  <FileCheck className="w-5 h-5 text-emerald-600 dark:text-cyber-400" />
+                  <h3 className="font-bold text-base text-stone-900 dark:text-zinc-100">考卷作答核验与交卷</h3>
+                </div>
+                <button 
+                  onClick={() => setShowSubmitReviewSheet(false)} 
+                  className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200"
+                >
+                  <X className="w-4 h-4" />
+                </button>
               </div>
-              <button 
-                onClick={() => setShowSubmitReviewSheet(false)} 
-                className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200"
-              >
-                <X className="w-4 h-4" />
-              </button>
             </div>
 
             {/* Content: Summary Stats & Unanswered list */}

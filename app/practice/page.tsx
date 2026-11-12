@@ -58,11 +58,15 @@ function PracticeContent() {
   const [practiceMobileTab, setPracticeMobileTab] = useState<"question" | "passage">("question");
   const [showAnswerSheet, setShowAnswerSheet] = useState(false);
   const [showPassageSheet, setShowPassageSheet] = useState(false);
+  const [showPassageBackToTop, setShowPassageBackToTop] = useState(false);
   const [isZenMode, setIsZenMode] = useState(false);
   const [showShortcutsModal, setShowShortcutsModal] = useState(false);
   const passageContainerRef = useRef<HTMLDivElement | null>(null);
+  const drawerScrollContainerRef = useRef<HTMLDivElement | null>(null);
+  const passageScrollPosRef = useRef<Record<string, number>>({});
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
-  const drawerTouchStartRef = useRef<{ y: number } | null>(null);
+  const drawerTouchStartRef = useRef<{ x: number; y: number } | null>(null);
+  const activePassageId = questions[currentIndex]?.passage_id || passages[0]?.id || "";
 
   // Load persistent font scale
   useEffect(() => {
@@ -141,20 +145,43 @@ function PracticeContent() {
 
   const handleDrawerTouchStart = (e: React.TouchEvent) => {
     if (e.touches.length === 1) {
-      drawerTouchStartRef.current = { y: e.touches[0].clientY };
+      drawerTouchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
     }
   };
 
   const handleDrawerTouchEnd = (e: React.TouchEvent, onClose: () => void) => {
     if (!drawerTouchStartRef.current) return;
+    const deltaX = e.changedTouches[0].clientX - drawerTouchStartRef.current.x;
     const deltaY = e.changedTouches[0].clientY - drawerTouchStartRef.current.y;
     drawerTouchStartRef.current = null;
-    // Downward swipe of > 60px dismisses drawer
-    if (deltaY > 60) {
+    // Downward swipe of >= 150px and vertical displacement > 2.0x horizontal dismisses drawer
+    if (deltaY >= 150 && deltaY > Math.abs(deltaX) * 2.0) {
       triggerHaptic(8);
       onClose();
     }
   };
+
+  const handlePassageDrawerScroll = (e: React.UIEvent<HTMLDivElement>) => {
+    const top = e.currentTarget.scrollTop;
+    if (activePassageId) {
+      passageScrollPosRef.current[activePassageId] = top;
+    }
+    setShowPassageBackToTop(top > 160);
+  };
+
+  // Restore drawer scroll position on open
+  useEffect(() => {
+    if (showPassageSheet && activePassageId) {
+      const timer = setTimeout(() => {
+        if (drawerScrollContainerRef.current) {
+          const savedTop = passageScrollPosRef.current[activePassageId] || 0;
+          drawerScrollContainerRef.current.scrollTop = savedTop;
+          setShowPassageBackToTop(savedTop > 160);
+        }
+      }, 40);
+      return () => clearTimeout(timer);
+    }
+  }, [showPassageSheet, activePassageId]);
 
   // Mobile drawer body scroll lock & overscroll containment
   useEffect(() => {
@@ -1023,42 +1050,53 @@ function PracticeContent() {
           }}
         >
           <div 
-            onTouchStart={handleDrawerTouchStart}
-            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowPassageSheet(false))}
-            className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200"
+            className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] flex flex-col relative animate-in slide-in-from-bottom duration-200"
           >
-            {/* Native Drag Handle Indicator */}
-            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors" />
+            {/* Native Drag Handle Bar & Header Container - Touch is strictly isolated here! */}
+            <div
+              onTouchStart={handleDrawerTouchStart}
+              onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowPassageSheet(false))}
+              className="touch-none select-none cursor-grab active:cursor-grabbing pb-1 shrink-0"
+            >
+              {/* Visual Pill */}
+              <div className="w-12 h-1.5 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-2.5 shrink-0 transition-colors" />
 
-            <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
-              <div className="flex items-center space-x-2 truncate pr-2">
-                <BookOpen className="w-4 h-4 text-emerald-600 dark:text-cyber-400 shrink-0" />
-                <span className="text-xs font-bold text-stone-900 dark:text-zinc-100 truncate">
-                  {relatedPassage.title}
-                </span>
-              </div>
-              <div className="flex items-center space-x-1.5 shrink-0">
-                <button
-                  type="button"
-                  onClick={cycleFontScale}
-                  className="p-1.5 rounded-lg text-xs text-stone-500 hover:text-stone-900 dark:text-zinc-400 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800 flex items-center space-x-1"
-                  title="字号缩放"
-                >
-                  <Type className="w-4 h-4" />
-                  <span className="text-[10px] font-mono font-bold">
-                    {fontScale === "large" ? "大" : fontScale === "medium" ? "中" : "标"}
+              <div className="flex items-center justify-between pb-2 border-b border-stone-100 dark:border-zinc-800">
+                <div className="flex items-center space-x-2 truncate pr-2">
+                  <BookOpen className="w-4 h-4 text-emerald-600 dark:text-cyber-400 shrink-0" />
+                  <span className="text-xs font-bold text-stone-900 dark:text-zinc-100 truncate">
+                    {relatedPassage.title}
                   </span>
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setShowPassageSheet(false)}
-                  className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100"
-                >
-                  <X className="w-4 h-4" />
-                </button>
+                </div>
+                <div className="flex items-center space-x-1.5 shrink-0">
+                  <button
+                    type="button"
+                    onClick={cycleFontScale}
+                    className="p-1.5 rounded-lg text-xs text-stone-500 hover:text-stone-900 dark:text-zinc-400 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800 flex items-center space-x-1"
+                    title="字号缩放"
+                  >
+                    <Type className="w-4 h-4" />
+                    <span className="text-[10px] font-mono font-bold">
+                      {fontScale === "large" ? "大" : fontScale === "medium" ? "中" : "标"}
+                    </span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setShowPassageSheet(false)}
+                    className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="flex-1 overflow-y-auto overscroll-contain py-3 leading-relaxed text-stone-800 dark:text-zinc-200 font-serif whitespace-pre-line selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30">
+
+            {/* Scrollable Passage Content Area - Native smooth scrolling, will NEVER close on downward swipe */}
+            <div 
+              ref={drawerScrollContainerRef}
+              onScroll={handlePassageDrawerScroll}
+              className="flex-1 overflow-y-auto overscroll-contain py-3 leading-relaxed text-stone-800 dark:text-zinc-200 font-serif selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30"
+            >
               <div className={
                 fontScale === "large"
                   ? "text-lg sm:text-[19px] leading-[2.1]"
@@ -1066,11 +1104,42 @@ function PracticeContent() {
                   ? "text-[16.5px] sm:text-[17px] leading-[1.95]"
                   : "text-[15px] sm:text-base leading-[1.85]"
               }>
-                {relatedPassage.content}
+                {(() => {
+                  const paras = relatedPassage.content.split(/\n\s*\n/).filter((x: string) => x.trim().length > 0);
+                  const isCloze = relatedPassage.title?.includes("Use of English") || relatedPassage.title?.includes("完型") || relatedPassage.content.includes("[1]");
+
+                  if (paras.length <= 1) {
+                    return <div className="whitespace-pre-line">{relatedPassage.content}</div>;
+                  }
+
+                  return paras.map((paraText: string, pIdx: number) => (
+                    <div key={pIdx} className="mb-4 text-justify">
+                      {!isCloze && (
+                        <span className="inline-flex items-center justify-center select-none text-[10px] font-mono font-bold text-stone-400 dark:text-zinc-500 bg-stone-100 dark:bg-zinc-800 border border-black/[0.04] dark:border-white/5 rounded px-1.5 py-0.2 mr-2 align-middle">
+                          P{pIdx + 1}
+                        </span>
+                      )}
+                      <span className="align-middle">{paraText.trim()}</span>
+                    </div>
+                  ));
+                })()}
               </div>
             </div>
-            <div className="pt-2 border-t border-stone-100 dark:border-zinc-800 flex justify-between items-center text-xs text-stone-400 dark:text-zinc-500">
-              <span>💡 下滑关闭 · 双击查词</span>
+
+            {/* Floating Back to Top Button */}
+            {showPassageBackToTop && (
+              <button
+                type="button"
+                onClick={() => drawerScrollContainerRef.current?.scrollTo({ top: 0, behavior: "smooth" })}
+                className="absolute bottom-16 right-5 z-20 px-3 py-1.5 rounded-full bg-stone-900/90 dark:bg-zinc-800/95 text-white text-[11px] font-bold shadow-xl border border-white/10 flex items-center space-x-1 animate-in fade-in zoom-in-95 duration-150 active:scale-95"
+                title="回到段首"
+              >
+                <span>↑ 回到段首</span>
+              </button>
+            )}
+
+            <div className="pt-2 border-t border-stone-100 dark:border-zinc-800 flex justify-between items-center text-xs text-stone-400 dark:text-zinc-500 shrink-0">
+              <span>💡 顶栏大幅下拉收起 · 双击查词</span>
               <button
                 type="button"
                 onClick={() => setShowPassageSheet(false)}
@@ -1092,36 +1161,40 @@ function PracticeContent() {
           }}
         >
           <div 
-            onTouchStart={handleDrawerTouchStart}
-            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowAnswerSheet(false))}
             className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-w-xl w-full max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200"
           >
-            {/* Native Drag Handle Indicator */}
-            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors sm:hidden" />
+            {/* Header with isolated touch area for swipe-down dismiss */}
+            <div
+              onTouchStart={handleDrawerTouchStart}
+              onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowAnswerSheet(false))}
+              className="touch-none select-none cursor-grab active:cursor-grabbing pb-3.5 border-b border-stone-100 dark:border-zinc-800 shrink-0"
+            >
+              {/* Native Drag Handle Indicator */}
+              <div className="w-12 h-1.5 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-2.5 shrink-0 sm:hidden" />
 
-            {/* Header */}
-            <div className="flex items-center justify-between pb-3.5 border-b border-stone-100 dark:border-zinc-800">
-              <div>
-                <div className="flex items-center space-x-2">
-                  <ListOrdered className="w-4 h-4 text-emerald-600 dark:text-cyber-400" />
-                  <h3 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100">
-                    全卷答题卡速览
-                  </h3>
+              <div className="flex items-center justify-between">
+                <div>
+                  <div className="flex items-center space-x-2">
+                    <ListOrdered className="w-4 h-4 text-emerald-600 dark:text-cyber-400" />
+                    <h3 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100">
+                      全卷答题卡速览
+                    </h3>
+                  </div>
+                  <div className="flex items-center space-x-2.5 mt-1 text-xs text-stone-500 dark:text-zinc-400 font-mono">
+                    <span>已练: <strong className="text-stone-800 dark:text-zinc-200">{answeredCount}</strong>/{totalQuestions}</span>
+                    <span>·</span>
+                    <span>得分: <strong className="text-amber-600 dark:text-amber-400">{currentScore}</strong>分</span>
+                    <span>·</span>
+                    <span>正确率: <strong className="text-emerald-600 dark:text-emerald-400">{accuracy}%</strong></span>
+                  </div>
                 </div>
-                <div className="flex items-center space-x-2.5 mt-1 text-xs text-stone-500 dark:text-zinc-400 font-mono">
-                  <span>已练: <strong className="text-stone-800 dark:text-zinc-200">{answeredCount}</strong>/{totalQuestions}</span>
-                  <span>·</span>
-                  <span>得分: <strong className="text-amber-600 dark:text-amber-400">{currentScore}</strong>分</span>
-                  <span>·</span>
-                  <span>正确率: <strong className="text-emerald-600 dark:text-emerald-400">{accuracy}%</strong></span>
-                </div>
+                <button
+                  onClick={() => setShowAnswerSheet(false)}
+                  className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200 transition-colors"
+                >
+                  <X className="w-4 h-4" />
+                </button>
               </div>
-              <button
-                onClick={() => setShowAnswerSheet(false)}
-                className="p-1.5 rounded-full bg-stone-100 dark:bg-zinc-800 text-stone-400 hover:text-stone-700 dark:hover:text-zinc-200 transition-colors"
-              >
-                <X className="w-4 h-4" />
-              </button>
             </div>
 
             {/* Sheet Content: Categorized Sections */}
