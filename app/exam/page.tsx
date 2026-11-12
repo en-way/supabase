@@ -8,6 +8,8 @@ import {
   getExamDraft, 
   clearExamDraft, 
   saveExamResult, 
+  getExamResult,
+  clearExamResult,
   recordMistake, 
   normalizeOptions,
   ExamResult 
@@ -45,6 +47,7 @@ import PassageHighlighter from "@/components/PassageHighlighter";
 function ExamContent() {
   const searchParams = useSearchParams();
   const examId = searchParams.get("id");
+  const modeParam = searchParams.get("mode");
 
   const [exam, setExam] = useState<any>(null);
   const [passages, setPassages] = useState<any[]>([]);
@@ -157,9 +160,12 @@ function ExamContent() {
 
         setQuestions(questionData);
 
-        // Check draft for real-time exam protection
+        // Check draft or prior exam results
+        const isRetake = modeParam === "retake";
         const draft = getExamDraft(examId);
-        if (draft) {
+        const pastResult = getExamResult(examId);
+
+        if (draft && !isRetake) {
           setAnswers(draft.answers || {});
           const restoredSec = typeof draft.remainingSeconds === "number"
             ? draft.remainingSeconds
@@ -168,7 +174,26 @@ function ExamContent() {
           if (typeof draft.focusedIndex === "number" && draft.focusedIndex >= 0 && draft.focusedIndex < questionData.length) {
             setFocusedIndex(draft.focusedIndex);
           }
+          setIsSubmitted(false);
+          setResult(null);
+        } else if (pastResult && !isRetake) {
+          // 🎯 Restore Submitted Review State (复盘解析模式)
+          const restoredAnswers: Record<string, string> = {};
+          if (pastResult.answers) {
+            Object.entries(pastResult.answers).forEach(([qId, val]) => {
+              if (val && typeof val.userAnswer === "string") {
+                restoredAnswers[qId] = val.userAnswer;
+              }
+            });
+          }
+          setAnswers(restoredAnswers);
+          setResult(pastResult);
+          setIsSubmitted(true);
+          setRemainingSeconds(0);
         } else if (examData?.duration_minutes) {
+          setAnswers({});
+          setIsSubmitted(false);
+          setResult(null);
           setRemainingSeconds(examData.duration_minutes * 60);
         }
       } catch (err) {
@@ -178,7 +203,7 @@ function ExamContent() {
       }
     }
     loadExam();
-  }, [examId]);
+  }, [examId, modeParam]);
 
   const latestRef = useRef({
     exam,
@@ -265,7 +290,7 @@ function ExamContent() {
   });
 
   useEffect(() => {
-    if (isSubmitted || loading) return;
+    if (loading) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement | null;
@@ -316,7 +341,7 @@ function ExamContent() {
 
       if (validKeys.includes(key)) {
         e.preventDefault();
-        if (currentQ) {
+        if (!isSubmitted && currentQ) {
           handleSelectAnswer(currentQ.id, key);
         }
       } else if (e.key === "ArrowRight" || key === "K") {
@@ -439,9 +464,10 @@ function ExamContent() {
     curQuestions.forEach((q) => {
       const uAns = curAnswers[q.id] || "";
       const isCorr = uAns === q.correct_answer;
-      totalRawPoints += Number(q.points || 2);
+      const qPts = (q.points !== undefined && q.points !== null) ? Number(q.points) : 2.0;
+      totalRawPoints += qPts;
       if (isCorr) {
-        earnedRawPoints += Number(q.points || 2);
+        earnedRawPoints += qPts;
       } else {
         recordMistake({
           questionId: q.id,
@@ -509,7 +535,11 @@ function ExamContent() {
   };
 
   const handleRetake = () => {
-    if (window.confirm("重新测验将清空本次作答，重新进入考场计时。确定重做吗？")) {
+    if (window.confirm("重新测验将清空本次作答记录与成绩，重新进入考场计时。确定重做吗？")) {
+      if (examId) {
+        clearExamDraft(examId);
+        clearExamResult(examId);
+      }
       setAnswers({});
       setIsSubmitted(false);
       setResult(null);
@@ -637,6 +667,9 @@ function ExamContent() {
               {/* Progress & Live Scores */}
               {isSubmitted && result ? (
                 <div className="flex items-center space-x-2 font-mono">
+                  <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-cyan-100 dark:bg-cyan-950/60 text-cyan-800 dark:text-cyber-300 border border-cyan-200/80 dark:border-cyan-500/30 shrink-0">
+                    模考复盘
+                  </span>
                   <span className="px-2 py-0.5 rounded text-xs font-bold bg-amber-50 dark:bg-amber-950/50 text-amber-800 dark:text-amber-300 border border-amber-200/60 dark:border-amber-500/30 flex items-center space-x-1">
                     <Award className="w-3 h-3 text-amber-600 dark:text-amber-400" />
                     <span>得分: {result.score} / {result.totalScore}分</span>

@@ -503,6 +503,21 @@ export function saveExamResult(result: ExamResult) {
   }
 }
 
+export function getExamResult(examId: string): ExamResult | null {
+  if (!examId) return null;
+  const state = getLocalState();
+  return state.examResults?.[examId] || null;
+}
+
+export function clearExamResult(examId: string) {
+  if (!examId) return;
+  const state = getLocalState();
+  if (state.examResults && state.examResults[examId]) {
+    delete state.examResults[examId];
+    saveLocalState(state);
+  }
+}
+
 // ------------------- Cloud Backup & Restore via Supabase 1GB Storage -------------------
 
 export interface SanitizedLearningBackup {

@@ -88,15 +88,49 @@ export default function VocabularyPage() {
     }
   };
 
+  const activeAudioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (activeAudioRef.current) {
+        try {
+          activeAudioRef.current.pause();
+        } catch {}
+      }
+    };
+  }, []);
+
   const playAudio = useCallback((word: string) => {
     if (!word) return;
     triggerHaptic(10);
+
+    // Cancel existing audio stream to prevent overlap
+    if (activeAudioRef.current) {
+      try {
+        activeAudioRef.current.pause();
+        activeAudioRef.current.currentTime = 0;
+      } catch {}
+      activeAudioRef.current = null;
+    }
+    if (typeof window !== "undefined" && "speechSynthesis" in window) {
+      try {
+        window.speechSynthesis.cancel();
+      } catch {}
+    }
+
     try {
       const urls = getAudioUrls(word);
       const audio = new Audio(urls.us);
+      activeAudioRef.current = audio;
+
+      audio.onended = () => {
+        if (activeAudioRef.current === audio) {
+          activeAudioRef.current = null;
+        }
+      };
+
       audio.play().catch(() => {
         if (typeof window !== "undefined" && "speechSynthesis" in window) {
-          window.speechSynthesis.cancel();
           const u = new SpeechSynthesisUtterance(word);
           u.lang = "en-US";
           window.speechSynthesis.speak(u);
@@ -237,10 +271,25 @@ export default function VocabularyPage() {
 
   const handleCardMasteryVote = useCallback((mastered: boolean) => {
     if (!currentCard) return;
+    setIsFlipped(false);
     handleToggleMastery(currentCard.word, mastered);
-    // Proceed to next card automatically
-    handleNextCard();
-  }, [currentCard, handleNextCard]);
+
+    // If filtering by "unmastered" or "mastered", marking changes card's presence in deck
+    if (masteryFilter !== "all") {
+      // The current card will be removed from flashcardDeck on next render.
+      // If the removed card was the last card in the deck, clamp index to the new last card.
+      // Otherwise, the next card naturally slides into the current safeCardIndex slot.
+      setCardIndex((prev) => {
+        if (prev >= flashcardDeck.length - 1) {
+          return Math.max(0, flashcardDeck.length - 2);
+        }
+        return prev;
+      });
+    } else {
+      // Card remains in the deck, so proceed to next card
+      handleNextCard();
+    }
+  }, [currentCard, masteryFilter, flashcardDeck.length, handleNextCard]);
 
   // Auto pronounce on card switch
   useEffect(() => {

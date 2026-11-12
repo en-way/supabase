@@ -251,10 +251,12 @@ function PracticeContent() {
         aCount++;
         if (ans === q.correct_answer) {
           cCount++;
-          score += Number(q.points || 2);
+          const qPts = (q.points !== undefined && q.points !== null) ? Number(q.points) : 2.0;
+          score += qPts;
         }
       }
     });
+    score = Math.round(score * 10) / 10;
     savePracticeDraft(examId, answers, targetIdx, {
       score,
       correctCount: cCount,
@@ -517,10 +519,12 @@ function PracticeContent() {
       answeredCount++;
       if (ans === q.correct_answer) {
         correctCount++;
-        currentScore += Number(q.points || 2);
+        const qPts = (q.points !== undefined && q.points !== null) ? Number(q.points) : 2.0;
+        currentScore += qPts;
       }
     }
   });
+  currentScore = Math.round(currentScore * 10) / 10;
   const accuracy = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
   const progressPercent = totalQuestions > 0 ? Math.round((answeredCount / totalQuestions) * 100) : 0;
 

@@ -398,7 +398,7 @@ export default function HomePage() {
                               className="px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] shadow-subtle transition-all active:scale-95 flex items-center space-x-1"
                             >
                               <Play className="w-3 h-3 fill-current" />
-                              <span>{draft ? "继续模考" : "模考"}</span>
+                              <span>{draft ? "继续模考" : stats.hasExamRecord ? "模考复盘" : "模考"}</span>
                             </Link>
 
                             <Link
@@ -455,7 +455,7 @@ export default function HomePage() {
                       className="flex-1 justify-center py-2 rounded-xl text-xs font-bold bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] flex items-center space-x-1"
                     >
                       <Play className="w-3 h-3 fill-current" />
-                      <span>模考</span>
+                      <span>{draft ? "继续模考" : stats.hasExamRecord ? "模考复盘" : "模考"}</span>
                     </Link>
                   </div>
                 </div>
@@ -590,7 +590,7 @@ export default function HomePage() {
                       className="flex-1 sm:flex-initial justify-center px-3.5 sm:px-4 py-2 rounded-xl text-xs font-bold bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] shadow-subtle hover:shadow-card dark:shadow-glow-cyan transition-all duration-150 active:scale-[0.98] flex items-center space-x-1.5"
                     >
                       <Play className="w-3 h-3 fill-current shrink-0" />
-                      <span className="truncate">{draft ? "继续限时模考" : "标准限时模考"}</span>
+                      <span className="truncate">{draft ? "继续限时模考" : stats.hasExamRecord ? "查看模考复盘" : "标准限时模考"}</span>
                     </Link>
                   </div>
 
