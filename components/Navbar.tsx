@@ -214,7 +214,16 @@ export default function Navbar() {
     setIsLoggingOut(true);
     try {
       if (backupFirst) {
-        await uploadBackupToCloud();
+        const uploadRes = await uploadBackupToCloud();
+        if (!uploadRes.success) {
+          const confirmForce = window.confirm(
+            `⚠️ 学习档案同步至云端未成功（原因: ${uploadRes.error || "网络波动/未完成"}）。\n\n如果此时退出，本终端未同步的学习记录将被清除并可能丢失。\n\n是否仍然强制退出？`
+          );
+          if (!confirmForce) {
+            setIsLoggingOut(false);
+            return;
+          }
+        }
       }
       // Strictly clear local device data per user request to isolate accounts
       clearLocalData("all");
@@ -231,8 +240,15 @@ export default function Navbar() {
       await supabase.auth.signOut();
       setShowLogoutModal(false);
       router.push("/login");
-    } catch (err) {
+    } catch (err: any) {
       console.error("Logout error", err);
+      const confirmForce = window.confirm(
+        `⚠️ 登出过程遇到异常（${err?.message || "网络异常"}）。是否强制清除本地数据并退出？`
+      );
+      if (!confirmForce) {
+        setIsLoggingOut(false);
+        return;
+      }
       // Fallback
       clearLocalData("all");
       if (typeof window !== "undefined") {

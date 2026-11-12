@@ -111,11 +111,12 @@ export default function HomePage() {
   });
 
   const totalPages = Math.max(1, Math.ceil(filteredExams.length / PAGE_SIZE));
-  const pagedExams = filteredExams.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+  const safePage = Math.max(1, Math.min(totalPages, currentPage));
+  const pagedExams = filteredExams.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
   const handlePageChange = (newPage: number) => {
-    const safePage = Math.max(1, Math.min(totalPages, newPage));
-    setCurrentPage(safePage);
+    const nextSafe = Math.max(1, Math.min(totalPages, newPage));
+    setCurrentPage(nextSafe);
     document.getElementById("exam-list-top")?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -617,8 +618,8 @@ export default function HomePage() {
 
           <div className="flex items-center space-x-1.5">
             <button
-              onClick={() => handlePageChange(currentPage - 1)}
-              disabled={currentPage <= 1}
+              onClick={() => handlePageChange(safePage - 1)}
+              disabled={safePage <= 1}
               className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#11131a] hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none text-xs font-semibold text-stone-700 dark:text-zinc-300 flex items-center space-x-1 shadow-subtle active:scale-[0.98] transition-all"
             >
               <ChevronLeft className="w-3.5 h-3.5" />
@@ -627,7 +628,7 @@ export default function HomePage() {
 
             <div className="flex items-center space-x-1">
               {Array.from({ length: totalPages }, (_, i) => i + 1)
-                .filter((p) => p === 1 || p === totalPages || Math.abs(p - currentPage) <= 1)
+                .filter((p) => p === 1 || p === totalPages || Math.abs(p - safePage) <= 1)
                 .reduce<number[]>((acc, p) => {
                   if (acc.length > 0 && p - acc[acc.length - 1] > 1) {
                     acc.push(-1);
@@ -643,7 +644,7 @@ export default function HomePage() {
                       </span>
                     );
                   }
-                  const isActive = p === currentPage;
+                  const isActive = p === safePage;
                   return (
                     <button
                       key={p}
@@ -661,8 +662,8 @@ export default function HomePage() {
             </div>
 
             <button
-              onClick={() => handlePageChange(currentPage + 1)}
-              disabled={currentPage >= totalPages}
+              onClick={() => handlePageChange(safePage + 1)}
+              disabled={safePage >= totalPages}
               className="px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#11131a] hover:bg-stone-50 dark:hover:bg-zinc-800 disabled:opacity-30 disabled:pointer-events-none text-xs font-semibold text-stone-700 dark:text-zinc-300 flex items-center space-x-1 shadow-subtle active:scale-[0.98] transition-all"
             >
               <span>下一页</span>

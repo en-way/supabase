@@ -340,8 +340,8 @@ export default function DictionaryPopover() {
       }
       className={`dictionary-popover-container ${
         isMobile
-          ? "w-auto max-w-lg mx-auto shadow-2xl slide-in-from-bottom-5"
-          : `w-[340px] shadow-float ${position.isAbove ? "slide-in-from-bottom-2" : "slide-in-from-top-2"}`
+          ? "w-auto max-w-lg mx-auto shadow-2xl slide-in-from-bottom-5 max-h-[75vh] overflow-y-auto"
+          : `w-[340px] shadow-float max-h-[82vh] overflow-y-auto ${position.isAbove ? "slide-in-from-bottom-2" : "slide-in-from-top-2"}`
       } bg-white/95 dark:bg-[#11131a]/95 backdrop-blur-2xl rounded-2xl border border-black/[0.08] dark:border-cyan-500/25 p-4 text-stone-900 dark:text-zinc-100 select-none text-left no-print duration-200 ease-spring animate-in fade-in zoom-in-95`}
     >
       {/* Visual Directional Pointer Arrow (Caret pointing to the selected word on Desktop) */}
