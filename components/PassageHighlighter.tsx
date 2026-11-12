@@ -15,6 +15,7 @@ interface PassageHighlighterProps {
   content: string;
   className?: string;
   largeFont?: boolean;
+  fontScale?: "normal" | "medium" | "large";
 }
 
 export function getPassageHighlights(passageId: string): HighlightItem[] {
@@ -39,6 +40,7 @@ export default function PassageHighlighter({
   content,
   className = "",
   largeFont = false,
+  fontScale,
 }: PassageHighlighterProps) {
   const [highlights, setHighlights] = useState<HighlightItem[]>([]);
   const [selectedText, setSelectedText] = useState<string>("");
@@ -252,7 +254,11 @@ export default function PassageHighlighter({
       <div
         ref={containerRef}
         className={`text-stone-800 dark:text-zinc-200 font-serif selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30 whitespace-pre-line tracking-wide ${className} ${
-          largeFont ? "text-lg leading-[2.1]" : "text-[15px] sm:text-base leading-[1.85]"
+          fontScale === "large" || (largeFont && !fontScale)
+            ? "text-lg sm:text-[19px] leading-[2.1]"
+            : fontScale === "medium"
+            ? "text-[16.5px] sm:text-[17px] leading-[1.95]"
+            : "text-[15px] sm:text-base leading-[1.85]"
         }`}
       >
         {renderContent()}

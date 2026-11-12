@@ -53,7 +53,8 @@ function PracticeContent() {
   const [showExplanation, setShowExplanation] = useState<Record<string, boolean>>({});
   const [favoriteIds, setFavoriteIds] = useState<Set<string>>(new Set());
   const [editingNotes, setEditingNotes] = useState<Record<string, string>>({});
-  const [largeFont, setLargeFont] = useState(false);
+  type FontSizeScale = "normal" | "medium" | "large";
+  const [fontScale, setFontScale] = useState<FontSizeScale>("normal");
   const [practiceMobileTab, setPracticeMobileTab] = useState<"question" | "passage">("question");
   const [showAnswerSheet, setShowAnswerSheet] = useState(false);
   const [showPassageSheet, setShowPassageSheet] = useState(false);
@@ -61,6 +62,35 @@ function PracticeContent() {
   const [showShortcutsModal, setShowShortcutsModal] = useState(false);
   const passageContainerRef = useRef<HTMLDivElement | null>(null);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
+  const drawerTouchStartRef = useRef<{ y: number } | null>(null);
+
+  // Load persistent font scale
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("enway_font_scale") as FontSizeScale;
+      if (saved === "normal" || saved === "medium" || saved === "large") {
+        setFontScale(saved);
+      }
+    } catch {}
+  }, []);
+
+  // Haptic feedback utility
+  const triggerHaptic = (pattern: number | number[] = 10) => {
+    if (typeof window !== "undefined" && "vibrate" in navigator) {
+      try {
+        navigator.vibrate(pattern);
+      } catch {}
+    }
+  };
+
+  const cycleFontScale = () => {
+    const next: FontSizeScale = fontScale === "normal" ? "medium" : fontScale === "medium" ? "large" : "normal";
+    setFontScale(next);
+    try {
+      localStorage.setItem("enway_font_scale", next);
+    } catch {}
+    triggerHaptic(12);
+  };
 
   // Sync body class for Zen Mode
   useEffect(() => {
@@ -73,7 +103,13 @@ function PracticeContent() {
   const handleTouchStart = (e: React.TouchEvent) => {
     // Only detect single touch gestures
     if (e.touches.length === 1) {
-      touchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+      const clientX = e.touches[0].clientX;
+      // Guard: Ignore touches within 25px of the screen edges to allow native iOS Safari history back/forward gestures
+      if (typeof window !== "undefined" && (clientX < 25 || clientX > window.innerWidth - 25)) {
+        touchStartRef.current = null;
+        return;
+      }
+      touchStartRef.current = { x: clientX, y: e.touches[0].clientY };
     }
   };
 
@@ -100,6 +136,23 @@ function PracticeContent() {
           navigateTo(currentIndex - 1);
         }
       }
+    }
+  };
+
+  const handleDrawerTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      drawerTouchStartRef.current = { y: e.touches[0].clientY };
+    }
+  };
+
+  const handleDrawerTouchEnd = (e: React.TouchEvent, onClose: () => void) => {
+    if (!drawerTouchStartRef.current) return;
+    const deltaY = e.changedTouches[0].clientY - drawerTouchStartRef.current.y;
+    drawerTouchStartRef.current = null;
+    // Downward swipe of > 60px dismisses drawer
+    if (deltaY > 60) {
+      triggerHaptic(8);
+      onClose();
     }
   };
 
@@ -185,6 +238,9 @@ function PracticeContent() {
 
   const navigateTo = (newIdx: number) => {
     const safeIdx = Math.max(0, Math.min(questions.length - 1, newIdx));
+    if (safeIdx !== currentIndex) {
+      triggerHaptic(8);
+    }
     setCurrentIndex(safeIdx);
     persistDraft(userAnswers, safeIdx);
 
@@ -233,6 +289,9 @@ function PracticeContent() {
     const nextAnswers = { ...uAns, [q.id]: key };
     setUserAnswers(nextAnswers);
     setShowExplanation((prev) => ({ ...prev, [q.id]: true }));
+
+    const isCorrect = key === q.correct_answer;
+    triggerHaptic(isCorrect ? [10, 25, 10] : 18);
 
     // Instant LocalStorage save with stats calculation
     if (eId) {
@@ -584,16 +643,21 @@ function PracticeContent() {
           )}
 
           <button
-            onClick={() => setLargeFont(!largeFont)}
-            title="字号缩放"
-            className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center space-x-1 transition-all duration-150 active:scale-[0.98] ${
-              largeFont 
+            onClick={cycleFontScale}
+            title={`字号缩放 (当前: ${fontScale === "large" ? "大号 19px" : fontScale === "medium" ? "舒适 17px" : "标准 15px"})`}
+            className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center space-x-1.5 transition-all duration-150 active:scale-[0.98] ${
+              fontScale !== "normal"
                 ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] border-emerald-700 dark:border-cyber-400 shadow-subtle dark:shadow-glow-cyan" 
                 : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-600 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 shadow-subtle"
             }`}
           >
             <Type className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">{largeFont ? "标准字号" : "大字号"}</span>
+            <span className="hidden sm:inline">
+              {fontScale === "large" ? "字号: 大" : fontScale === "medium" ? "字号: 中" : "字号: 标"}
+            </span>
+            <span className="sm:hidden text-[10px] font-mono font-bold">
+              {fontScale === "large" ? "大" : fontScale === "medium" ? "中" : "标"}
+            </span>
           </button>
 
           <div className="text-xs font-bold text-stone-800 dark:text-cyber-300 bg-stone-100 dark:bg-zinc-800 px-3 py-1.5 rounded-xl font-mono">
@@ -683,7 +747,8 @@ function PracticeContent() {
             <PassageHighlighter
               passageId={relatedPassage.id}
               content={relatedPassage.content}
-              largeFont={largeFont}
+              fontScale={fontScale}
+              largeFont={fontScale === "large"}
             />
 
             {/* Mobile Return to Question Button */}
@@ -957,7 +1022,14 @@ function PracticeContent() {
             if (e.target === e.currentTarget) setShowPassageSheet(false);
           }}
         >
-          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200">
+          <div 
+            onTouchStart={handleDrawerTouchStart}
+            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowPassageSheet(false))}
+            className="bg-white dark:bg-[#11131a] rounded-t-3xl border-t border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200"
+          >
+            {/* Native Drag Handle Indicator */}
+            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors" />
+
             <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
               <div className="flex items-center space-x-2 truncate pr-2">
                 <BookOpen className="w-4 h-4 text-emerald-600 dark:text-cyber-400 shrink-0" />
@@ -968,11 +1040,14 @@ function PracticeContent() {
               <div className="flex items-center space-x-1.5 shrink-0">
                 <button
                   type="button"
-                  onClick={() => setLargeFont(!largeFont)}
-                  className="p-1.5 rounded-lg text-xs text-stone-500 hover:text-stone-900 dark:text-zinc-400 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800"
+                  onClick={cycleFontScale}
+                  className="p-1.5 rounded-lg text-xs text-stone-500 hover:text-stone-900 dark:text-zinc-400 dark:hover:text-zinc-100 hover:bg-stone-100 dark:hover:bg-zinc-800 flex items-center space-x-1"
                   title="字号缩放"
                 >
                   <Type className="w-4 h-4" />
+                  <span className="text-[10px] font-mono font-bold">
+                    {fontScale === "large" ? "大" : fontScale === "medium" ? "中" : "标"}
+                  </span>
                 </button>
                 <button
                   type="button"
@@ -984,12 +1059,18 @@ function PracticeContent() {
               </div>
             </div>
             <div className="flex-1 overflow-y-auto overscroll-contain py-3 leading-relaxed text-stone-800 dark:text-zinc-200 font-serif whitespace-pre-line selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30">
-              <div className={largeFont ? "text-lg leading-[2.1]" : "text-[15px] leading-[1.85]"}>
+              <div className={
+                fontScale === "large"
+                  ? "text-lg sm:text-[19px] leading-[2.1]"
+                  : fontScale === "medium"
+                  ? "text-[16.5px] sm:text-[17px] leading-[1.95]"
+                  : "text-[15px] sm:text-base leading-[1.85]"
+              }>
                 {relatedPassage.content}
               </div>
             </div>
             <div className="pt-2 border-t border-stone-100 dark:border-zinc-800 flex justify-between items-center text-xs text-stone-400 dark:text-zinc-500">
-              <span>💡 双击词汇即呼词典</span>
+              <span>💡 下滑关闭 · 双击查词</span>
               <button
                 type="button"
                 onClick={() => setShowPassageSheet(false)}
@@ -1010,7 +1091,14 @@ function PracticeContent() {
             if (e.target === e.currentTarget) setShowAnswerSheet(false);
           }}
         >
-          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-w-xl w-full max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200">
+          <div 
+            onTouchStart={handleDrawerTouchStart}
+            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowAnswerSheet(false))}
+            className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-w-xl w-full max-h-[85vh] max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200"
+          >
+            {/* Native Drag Handle Indicator */}
+            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors sm:hidden" />
+
             {/* Header */}
             <div className="flex items-center justify-between pb-3.5 border-b border-stone-100 dark:border-zinc-800">
               <div>

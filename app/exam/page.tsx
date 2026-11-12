@@ -61,12 +61,63 @@ function ExamContent() {
   const [readingFontSize, setReadingFontSize] = useState<number>(15);
   const [focusedIndex, setFocusedIndex] = useState<number>(0);
 
+  // Load persistent exam font size
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("enway_exam_font_size");
+      if (saved) {
+        const num = parseInt(saved, 10);
+        if (!isNaN(num) && num >= 13 && num <= 22) {
+          setReadingFontSize(num);
+        }
+      }
+    } catch {}
+  }, []);
+
+  // Haptic feedback utility
+  const triggerHaptic = (pattern: number | number[] = 10) => {
+    if (typeof window !== "undefined" && "vibrate" in navigator) {
+      try {
+        navigator.vibrate(pattern);
+      } catch {}
+    }
+  };
+
+  const updateFontSize = (valOrUpdater: number | ((prev: number) => number)) => {
+    setReadingFontSize((prev) => {
+      const next = typeof valOrUpdater === "function" ? valOrUpdater(prev) : valOrUpdater;
+      const clamped = Math.max(13, Math.min(22, next));
+      try {
+        localStorage.setItem("enway_exam_font_size", String(clamped));
+      } catch {}
+      triggerHaptic(8);
+      return clamped;
+    });
+  };
+
   // Mobile responsive & Zen state
   const [mobileTab, setMobileTab] = useState<"questions" | "passage">("questions");
   const [showMobileAnswerSheet, setShowMobileAnswerSheet] = useState<boolean>(false);
   const [showSubmitReviewSheet, setShowSubmitReviewSheet] = useState<boolean>(false);
   const [isZenMode, setIsZenMode] = useState<boolean>(false);
   const [showShortcutsModal, setShowShortcutsModal] = useState<boolean>(false);
+  const drawerTouchStartRef = useRef<{ y: number } | null>(null);
+
+  const handleDrawerTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length === 1) {
+      drawerTouchStartRef.current = { y: e.touches[0].clientY };
+    }
+  };
+
+  const handleDrawerTouchEnd = (e: React.TouchEvent, onClose: () => void) => {
+    if (!drawerTouchStartRef.current) return;
+    const deltaY = e.changedTouches[0].clientY - drawerTouchStartRef.current.y;
+    drawerTouchStartRef.current = null;
+    if (deltaY > 60) {
+      triggerHaptic(8);
+      onClose();
+    }
+  };
 
   // Sync body class for Zen Mode
   useEffect(() => {
@@ -345,6 +396,7 @@ function ExamContent() {
 
   const handleSelectAnswer = (qId: string, optionKey: string) => {
     if (isSubmitted) return;
+    triggerHaptic(10);
     const { remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
     setAnswers((prev) => {
       const next = {
@@ -847,7 +899,7 @@ function ExamContent() {
               <div className="flex items-center space-x-1 text-xs text-stone-500 dark:text-zinc-400 shrink-0">
                 <span className="text-[11px] text-stone-400 dark:text-zinc-500 hidden sm:inline">字号:</span>
                 <button
-                  onClick={() => setReadingFontSize((prev) => Math.max(13, prev - 1))}
+                  onClick={() => updateFontSize((prev) => Math.max(13, prev - 1))}
                   className="p-1 border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 rounded-md hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-600 dark:text-zinc-300 shadow-subtle"
                   title="缩小字号"
                 >
@@ -855,7 +907,7 @@ function ExamContent() {
                 </button>
                 <span className="font-mono text-xs w-5 text-center text-stone-700 dark:text-zinc-300">{readingFontSize}</span>
                 <button
-                  onClick={() => setReadingFontSize((prev) => Math.min(22, prev + 1))}
+                  onClick={() => updateFontSize((prev) => Math.min(22, prev + 1))}
                   className="p-1 border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 rounded-md hover:bg-stone-50 dark:hover:bg-zinc-700 text-stone-600 dark:text-zinc-300 shadow-subtle"
                   title="放大字号"
                 >
@@ -1289,8 +1341,13 @@ function ExamContent() {
           }}
         >
           <div 
+            onTouchStart={handleDrawerTouchStart}
+            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowMobileAnswerSheet(false))}
             className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-xl flex flex-col animate-in slide-in-from-bottom duration-200"
           >
+            {/* Native Drag Handle Indicator */}
+            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors sm:hidden" />
+
             <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
               <div>
                 <h4 className="text-sm sm:text-base font-bold text-stone-900 dark:text-zinc-100 flex items-center space-x-2">
@@ -1403,7 +1460,14 @@ function ExamContent() {
             if (e.target === e.currentTarget) setShowSubmitReviewSheet(false);
           }}
         >
-          <div className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 sm:p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-lg flex flex-col animate-in slide-in-from-bottom duration-200">
+          <div 
+            onTouchStart={handleDrawerTouchStart}
+            onTouchEnd={(e) => handleDrawerTouchEnd(e, () => setShowSubmitReviewSheet(false))}
+            className="bg-white dark:bg-[#11131a] rounded-t-3xl sm:rounded-3xl border-t sm:border border-black/[0.08] dark:border-cyan-500/25 p-5 sm:p-6 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-2xl max-h-[85vh] max-h-[85dvh] w-full max-w-lg flex flex-col animate-in slide-in-from-bottom duration-200"
+          >
+            {/* Native Drag Handle Indicator */}
+            <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-3 shrink-0 cursor-grab active:bg-emerald-600 transition-colors sm:hidden" />
+
             {/* Header */}
             <div className="flex items-center justify-between pb-3.5 border-b border-stone-100 dark:border-zinc-800">
               <div className="flex items-center space-x-2">

@@ -295,6 +295,12 @@ export default function DictionaryPopover() {
   const handleAddToVocab = () => {
     if (!selectedWord || !dictEntry) return;
 
+    if (typeof window !== "undefined" && "vibrate" in navigator) {
+      try {
+        navigator.vibrate([10, 25, 10]);
+      } catch {}
+    }
+
     addVocab(
       selectedWord,
       dictEntry.definition,
@@ -348,6 +354,11 @@ export default function DictionaryPopover() {
               : "top-[-7px] border-b-[7px] border-b-white dark:border-b-[#11131a] border-l-[7px] border-l-transparent border-r-[7px] border-r-transparent border-t-0 filter drop-shadow-[0_-1px_1px_rgba(0,0,0,0.06)]"
           }`}
         />
+      )}
+
+      {/* Native Drag Handle Indicator for Mobile */}
+      {isMobile && (
+        <div className="w-10 h-1 bg-stone-300 dark:bg-zinc-700 rounded-full mx-auto mb-2.5 shrink-0" />
       )}
 
       {/* Header Bar */}
