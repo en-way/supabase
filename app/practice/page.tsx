@@ -399,15 +399,13 @@ function PracticeContent() {
         return;
       }
 
-      if (key === "F") {
-        e.preventDefault();
-        handleToggleFav();
-        return;
-      }
-
       if (validKeys.includes(key)) {
         e.preventDefault();
         handleSelectOption(key, cIdx);
+      } else if (key === "F") {
+        e.preventDefault();
+        handleToggleFav();
+        return;
       } else if (e.key === "ArrowLeft" || key === "J") {
         e.preventDefault();
         navigateTo(cIdx - 1);

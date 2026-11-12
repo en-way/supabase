@@ -309,20 +309,41 @@ export default function MistakesPage() {
     }
   };
 
-  // Navigate to previous/next mistake in side-by-side view
+  // Navigate to previous/next mistake in side-by-side view with safe index clamping
   const handleNavigateSideBySide = (direction: "prev" | "next") => {
     if (!sideBySideItem) return;
-    const newIdx = direction === "prev" ? sideBySideItem.index - 1 : sideBySideItem.index + 1;
-    if (newIdx >= 0 && newIdx < filteredMistakes.length) {
-      const nextMistake = filteredMistakes[newIdx];
+    if (filteredMistakes.length === 0) {
+      setSideBySideItem(null);
+      return;
+    }
+    const currentPos = filteredMistakes.findIndex(
+      (m) => m.questionId === sideBySideItem.mistake.questionId
+    );
+    let targetIdx: number;
+    if (currentPos >= 0) {
+      targetIdx = direction === "prev" ? currentPos - 1 : currentPos + 1;
+    } else {
+      // Current item was mastered and removed from active unmastered list;
+      // 'next' naturally falls onto the item now occupying sideBySideItem.index
+      targetIdx = direction === "prev" ? sideBySideItem.index - 1 : sideBySideItem.index;
+    }
+
+    if (targetIdx < 0) {
+      targetIdx = filteredMistakes.length - 1;
+    } else if (targetIdx >= filteredMistakes.length) {
+      targetIdx = 0;
+    }
+
+    const nextMistake = filteredMistakes[targetIdx];
+    if (nextMistake) {
       const detail = questionMap[nextMistake.questionId];
       if (detail) {
-        setSideBySideItem({ mistake: nextMistake, detail, index: newIdx });
+        setSideBySideItem({ mistake: nextMistake, detail, index: targetIdx });
       }
     }
   };
 
-  // PC Keyboard Shortcuts for Side-by-Side Studio (A/B/C/D to answer, Left/Right to switch, Esc to close)
+  // PC Keyboard Shortcuts for Side-by-Side Studio (Dynamic options A~G, Left/Right to switch, Esc to close)
   useEffect(() => {
     if (!sideBySideItem) return;
 
@@ -330,7 +351,11 @@ export default function MistakesPage() {
       if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
 
       const key = e.key.toUpperCase();
-      if (["A", "B", "C", "D"].includes(key)) {
+      const validKeys = sideBySideItem.detail.options?.length > 0
+        ? sideBySideItem.detail.options.map((o) => o.key)
+        : ["A", "B", "C", "D"];
+
+      if (validKeys.includes(key)) {
         e.preventDefault();
         handleRetestOption(
           sideBySideItem.detail.id,

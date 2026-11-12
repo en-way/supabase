@@ -540,6 +540,17 @@ export function getSanitizedLearningBackup(state: LocalLearningState): Sanitized
     lastWrongAt: m.lastWrongAt || "",
   }));
 
+  const sanitizedVocabulary = (state.vocabulary || []).map((v) => ({
+    word: (v?.word || "").trim().toLowerCase(),
+    phonetic: v?.phonetic || "",
+    translation: v?.translation || "",
+    context: v?.context || "",
+    addedAt: v?.addedAt || "",
+    mastered: !!v?.mastered,
+    reviewCount: v?.reviewCount || 0,
+    lastReviewedAt: v?.lastReviewedAt || "",
+  }));
+
   const sanitizedFavorites = (state.favorites || []).map((f) => ({
     questionId: f.questionId,
     examId: f.examId || "",
@@ -549,7 +560,7 @@ export function getSanitizedLearningBackup(state: LocalLearningState): Sanitized
 
   return {
     mistakes: sanitizedMistakes,
-    vocabulary: state.vocabulary || [],
+    vocabulary: sanitizedVocabulary,
     favorites: sanitizedFavorites,
     examResults: state.examResults || {},
   };

@@ -9,7 +9,7 @@ import {
   resetAllVocabMastery, 
   VocabItem 
 } from "@/lib/storage";
-import { lookupWord, getAudioUrls } from "@/lib/dictionary";
+import { lookupWord, lookupWordAsync, getAudioUrls } from "@/lib/dictionary";
 import { 
   Bookmark, 
   Search, 
@@ -131,15 +131,29 @@ export default function VocabularyPage() {
     }
   };
 
-  const handleManualAdd = (e: React.FormEvent) => {
+  const handleManualAdd = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!newWord.trim()) return;
-    const lookup = lookupWord(newWord.trim());
-    addVocab(
-      newWord.trim(), 
-      newTranslation.trim() || lookup?.definition || "自定义词汇", 
-      lookup?.phonetic || ""
-    );
+    const trimmedWord = newWord.trim();
+    if (!trimmedWord) return;
+
+    let definition = newTranslation.trim();
+    let phonetic = "";
+
+    if (!definition) {
+      try {
+        const lookup = await lookupWordAsync(trimmedWord);
+        if (lookup?.definition) {
+          definition = lookup.definition;
+          phonetic = lookup.phonetic || "";
+        }
+      } catch {}
+    }
+
+    if (!definition) {
+      definition = "自定义词汇";
+    }
+
+    addVocab(trimmedWord, definition, phonetic);
     setNewWord("");
     setNewTranslation("");
     setShowAddModal(false);
@@ -290,33 +304,45 @@ export default function VocabularyPage() {
     }
   };
 
+  // Escape special regex characters to prevent SyntaxError with words like well-being, U.S., etc.
+  const escapeRegExp = (str: string) => {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  };
+
   // Mask target word in context sentence
   const renderMaskedContext = (context: string, word: string, masked: boolean) => {
     if (!context) return null;
     if (!masked) return <span>&ldquo;{context}&rdquo;</span>;
 
     const clean = word.trim().toLowerCase();
-    const regex = new RegExp(`(\\b${clean}\\w*\\b)`, "gi");
-    const parts = context.split(regex);
+    if (!clean) return <span>&ldquo;{context}&rdquo;</span>;
 
-    return (
-      <span>
-        &ldquo;
-        {parts.map((p, i) =>
-          regex.test(p) ? (
-            <span
-              key={i}
-              className="inline-block px-1.5 py-0.5 mx-0.5 rounded font-mono font-bold bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-300/40 dark:border-amber-500/30"
-            >
-              ______
-            </span>
-          ) : (
-            p
-          )
-        )}
-        &rdquo;
-      </span>
-    );
+    try {
+      const safePattern = escapeRegExp(clean);
+      const regex = new RegExp(`(\\b${safePattern}\\w*\\b)`, "gi");
+      const parts = context.split(regex);
+
+      return (
+        <span>
+          &ldquo;
+          {parts.map((p, i) =>
+            regex.test(p) ? (
+              <span
+                key={i}
+                className="inline-block px-1.5 py-0.5 mx-0.5 rounded font-mono font-bold bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-300/40 dark:border-amber-500/30"
+              >
+                ______
+              </span>
+            ) : (
+              p
+            )
+          )}
+          &rdquo;
+        </span>
+      );
+    } catch {
+      return <span>&ldquo;{context}&rdquo;</span>;
+    }
   };
 
   return (
