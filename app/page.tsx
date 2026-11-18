@@ -137,7 +137,7 @@ export default function HomePage() {
             权威真题研习 · 全真限时模考
           </h1>
           <p className="mt-2 text-xs sm:text-sm text-stone-500 dark:text-zinc-400 leading-relaxed max-w-2xl">
-            严谨还原官方试卷结构，长篇仔细阅读与客观题左右分栏对照；实时单词即查与形态还原，客观题即刻反馈精析与考点定位，做题状态本地加密暂存。
+            严谨还原官方试卷结构，长篇仔细阅读与客观题左右分栏对照；实时单词即查与形态还原，客观题即刻反馈精析与考点定位，做题状态本地可靠暂存。
           </p>
 
           {/* Quick Learning Stats (Minimalist Pill Cards) */}

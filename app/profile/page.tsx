@@ -400,7 +400,7 @@ export default function ProfilePage() {
               学员研习档案与多端同步中心
             </h3>
             <p className="text-xs text-stone-400 dark:text-zinc-500 mt-0.5">
-              研习数据本机即时留存 · 一键加密归档至专属云端档案空间 · 跨设备随心续学
+              研习数据本机即时留存 · 一键压缩归档至专属云端档案空间 · 跨设备随心续学
             </p>
           </div>
         </div>
@@ -436,7 +436,7 @@ export default function ProfilePage() {
               </p>
             ) : (
               <p className="text-xs text-stone-400 dark:text-zinc-500">
-                建议阶段性点击“备份到云端”，研习进度将安全存入专属加密档案空间。
+                建议阶段性点击“备份到云端”，研习进度将安全归档存入个人专属云空间。
               </p>
             )}
           </div>

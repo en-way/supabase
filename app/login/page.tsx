@@ -272,12 +272,12 @@ export default function LoginPage() {
           await supabase.rpc("touch_user_activity");
         } catch {}
 
-        // Wipe old device cache to prevent account data bleed-through
-        clearLocalData("all");
-
-        // Automatically pull latest backup from Supabase Storage and reconcile
+        // Automatically pull latest backup from Supabase Storage and reconcile (keep local safe if pull fails)
         try {
-          await downloadBackupFromCloud();
+          const downloadRes = await downloadBackupFromCloud();
+          if (downloadRes.success) {
+            console.log("云端档案同步完成");
+          }
 
           // 🛡️ Free Quota Protection: 7-day throttle on automatic reconciliation
           const LAST_RECON_KEY = "enway_last_reconcile_ts";

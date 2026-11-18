@@ -127,6 +127,21 @@ export async function flushSubmissionQueue(): Promise<{
         continue;
       }
 
+      // 预检登录态：若未登录，直接挂起任务并延后重试，绝不调用 RPC 造成无效网络轰炸
+      try {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (!session?.user) {
+          // 未登录状态：延长退避至 10 分钟，等待重新登录事件唤醒
+          task.nextRetryAt = Date.now() + 10 * 60 * 1000;
+          remainingTasks.push(task);
+          continue;
+        }
+      } catch {
+        task.nextRetryAt = Date.now() + 60 * 1000;
+        remainingTasks.push(task);
+        continue;
+      }
+
       try {
         if (task.type === "exam_result") {
           // 1. 活跃打点（带特权标头）
@@ -138,7 +153,8 @@ export async function flushSubmissionQueue(): Promise<{
           const backupRes = await uploadBackupToCloud();
           if (!backupRes.success) {
             if (backupRes.error?.includes("未登录")) {
-              // User is logged out — silently re-queue without burning retry budget
+              // User is logged out — delay 10 minutes without burning retry budget
+              task.nextRetryAt = Date.now() + 10 * 60 * 1000;
               remainingTasks.push(task);
               continue;
             }
@@ -149,6 +165,7 @@ export async function flushSubmissionQueue(): Promise<{
           const backupRes = await uploadBackupToCloud();
           if (!backupRes.success) {
             if (backupRes.error?.includes("未登录")) {
+              task.nextRetryAt = Date.now() + 10 * 60 * 1000;
               remainingTasks.push(task);
               continue;
             }
@@ -198,6 +215,20 @@ if (typeof window !== "undefined") {
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible") {
       flushSubmissionQueue();
+    }
+  });
+
+  // 监听用户登录事件：登录成功后立即重设未完成任务的冷静期并主动刷新队列
+  supabase.auth.onAuthStateChange((event, session) => {
+    if (event === "SIGNED_IN" && session?.user) {
+      const pending = getPendingSubmissionTasks();
+      if (pending.length > 0) {
+        pending.forEach((t) => {
+          t.nextRetryAt = Date.now();
+        });
+        savePendingSubmissionTasks(pending);
+        flushSubmissionQueue();
+      }
     }
   });
 

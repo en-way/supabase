@@ -90,12 +90,20 @@ async function main() {
     .order("year", { ascending: false });
   if (examErr) throw new Error(`拉取考卷目录失败: ${examErr.message}`);
 
+  const standardizedExams = exams.map((e) => ({
+    ...e,
+    duration_minutes: 75,
+    passages: e.year === 2001 && e.category_id === "ky1" && e.passages?.[0]
+      ? [{ count: 6 }]
+      : e.passages,
+  }));
+
   fs.writeFileSync(
     path.join(DATA_DIR, "exams.json"),
-    JSON.stringify(exams, null, 2),
+    JSON.stringify(standardizedExams, null, 2),
     "utf-8"
   );
-  console.log(`  ✓ 成功保存 exams.json (${exams.length} 套正式发布的真题)`);
+  console.log(`  ✓ 成功保存 exams.json (${standardizedExams.length} 套正式发布的真题，全量客观题 75 分钟限时)`);
 
   // 3. 逐卷拉取篇章与试题并落盘
   console.log("📥 [3/4] 正在逐卷同步篇章 (Passages) 与试题解析 (Questions)...");
@@ -134,7 +142,10 @@ async function main() {
     });
 
     const examPayload = {
-      exam,
+      exam: {
+        ...exam,
+        duration_minutes: 75,
+      },
       passages,
       questions,
       exportedAt: new Date().toISOString(),
@@ -146,6 +157,25 @@ async function main() {
     totalPassages += passages.length;
     totalQuestions += questions.length;
     console.log(`✓ (${passages.length} 篇章, ${questions.length} 试题)`);
+  }
+
+  // 3.5 清理已下架/未发布的孤儿试卷 JSON 文件 (Orphaned JSON Cleanup)
+  console.log("\n🧹 [3.5/4] 正在扫描并清理已下架或删除的孤儿试卷静态文件...");
+  const validExamIdSet = new Set(exams.map((e) => `${e.id}.json`));
+  const existingFiles = fs.readdirSync(EXAMS_DATA_DIR);
+  let cleanedCount = 0;
+  for (const file of existingFiles) {
+    if (file.endsWith(".json") && !validExamIdSet.has(file)) {
+      const orphanPath = path.join(EXAMS_DATA_DIR, file);
+      fs.unlinkSync(orphanPath);
+      console.log(`  🗑️ 清除已下架试卷静态文件: ${file}`);
+      cleanedCount += 1;
+    }
+  }
+  if (cleanedCount === 0) {
+    console.log("  ✓ 本地静态目录干净，无孤儿试卷残留。");
+  } else {
+    console.log(`  ✓ 成功清除 ${cleanedCount} 个已下架试卷文件。`);
   }
 
   console.log(`\n🎉 数据落地完成: 共同步 ${exams.length} 套真题、${totalPassages} 篇文章、${totalQuestions} 道试题。`);
