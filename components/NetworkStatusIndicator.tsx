@@ -6,7 +6,7 @@ import { WifiOff, Wifi } from "lucide-react";
 export default function NetworkStatusIndicator() {
   const [isOnline, setIsOnline] = useState<boolean>(true);
   const [showRestoredNotice, setShowRestoredNotice] = useState<boolean>(false);
-  const restoreTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const restoreTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -40,9 +40,9 @@ export default function NetworkStatusIndicator() {
 
   if (!isOnline) {
     return (
-      <div className="fixed top-3 left-1/2 -translate-x-1/2 z-[9999] animate-in fade-in slide-in-from-top-4 duration-200">
-        <div className="px-4 py-2 bg-amber-600/95 text-white backdrop-blur-md shadow-lg rounded-full flex items-center space-x-2 text-xs font-semibold border border-amber-400/40">
-          <WifiOff className="w-4 h-4 animate-pulse shrink-0" />
+      <div className="fixed top-3 left-1/2 -translate-x-1/2 z-toast max-w-[calc(100vw-2rem)] animate-in fade-in slide-in-from-top-4 duration-200">
+        <div className="px-4 py-2 bg-warning text-primary-fg shadow-pop rounded-full flex items-center gap-2 text-xs font-semibold border border-border">
+          <WifiOff className="w-4 h-4 shrink-0" />
           <span>网络已断开 · 离线保护已激活，所有作答持续安全保存在本地</span>
         </div>
       </div>
@@ -51,8 +51,8 @@ export default function NetworkStatusIndicator() {
 
   if (showRestoredNotice) {
     return (
-      <div className="fixed top-3 left-1/2 -translate-x-1/2 z-[9999] animate-in fade-in slide-in-from-top-4 duration-200">
-        <div className="px-4 py-2 bg-emerald-600/95 text-white backdrop-blur-md shadow-lg rounded-full flex items-center space-x-2 text-xs font-semibold border border-emerald-400/40">
+      <div className="fixed top-3 left-1/2 -translate-x-1/2 z-toast max-w-[calc(100vw-2rem)] animate-in fade-in slide-in-from-top-4 duration-200">
+        <div className="px-4 py-2 bg-success text-primary-fg shadow-pop rounded-full flex items-center gap-2 text-xs font-semibold border border-border">
           <Wifi className="w-4 h-4 shrink-0" />
           <span>网络已恢复连接 · 本地答题数据同步就绪</span>
         </div>

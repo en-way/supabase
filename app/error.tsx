@@ -46,12 +46,14 @@ export default function GlobalError({
 
   return (
     <div className="min-h-[60vh] flex items-center justify-center p-4">
-      <div className="max-w-md w-full bg-white dark:bg-[#11131a] rounded-3xl border border-slate-200 dark:border-cyan-500/25 shadow-xl p-8 text-center space-y-5 animate-in fade-in zoom-in-95 duration-200">
-        <div className={`w-16 h-16 rounded-2xl flex items-center justify-center mx-auto ${
-          isChunkError 
-            ? "bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-500/30 text-amber-500 dark:text-amber-400"
-            : "bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-500/30 text-rose-500 dark:text-rose-400"
-        }`}>
+      <div className="max-w-md w-full bg-surface rounded-3xl border border-border shadow-2 p-8 text-center space-y-5 animate-in fade-in zoom-in-95 duration-200">
+        <div
+          className={`w-16 h-16 rounded-2xl flex items-center justify-center mx-auto border ${
+            isChunkError
+              ? "bg-warning-soft border-warning/30 text-warning"
+              : "bg-danger-soft border-danger/30 text-danger"
+          }`}
+        >
           {isChunkError ? (
             <RefreshCw className={`w-8 h-8 ${isAutoReloading ? "animate-spin" : ""}`} />
           ) : (
@@ -60,10 +62,10 @@ export default function GlobalError({
         </div>
 
         <div className="space-y-2">
-          <h2 className="text-xl font-black text-slate-900 dark:text-zinc-100 font-serif">
+          <h2 className="text-xl font-black text-fg font-reading">
             {isChunkError ? "检测到系统新版本发布" : "页面运行遇到意外异常"}
           </h2>
-          <p className="text-xs text-slate-500 dark:text-zinc-400 leading-relaxed">
+          <p className="text-xs text-fg-muted leading-relaxed">
             {isChunkError ? (
               isAutoReloading ? (
                 <span>正在自动为您重新加载页面以获取最新的前端资源与考务模块...</span>
@@ -75,7 +77,7 @@ export default function GlobalError({
             )}
           </p>
           {error?.message && (
-            <div className="mt-3 p-2.5 bg-slate-50 dark:bg-zinc-900 rounded-xl border border-slate-200/80 dark:border-zinc-800 text-[11px] text-slate-600 dark:text-zinc-400 font-mono text-left break-all max-h-24 overflow-y-auto">
+            <div className="mt-3 p-2.5 bg-surface-2 rounded-xl border border-border text-[11px] text-fg-muted font-mono text-left break-all max-h-24 overflow-y-auto">
               {error.message}
             </div>
           )}
@@ -84,7 +86,7 @@ export default function GlobalError({
         <div className="flex items-center justify-center gap-3 pt-2">
           <button
             onClick={handleReload}
-            className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 text-xs font-bold flex items-center space-x-1.5 shadow-sm transition-all"
+            className="px-4 py-2.5 rounded-xl bg-primary text-primary-fg hover:opacity-95 text-xs font-bold flex items-center gap-1.5 shadow-1 transition-opacity"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>重新载入</span>
@@ -92,7 +94,7 @@ export default function GlobalError({
 
           <Link
             href="/"
-            className="px-4 py-2.5 rounded-xl border border-slate-200 dark:border-zinc-700 hover:bg-slate-50 dark:hover:bg-zinc-800 text-slate-700 dark:text-zinc-300 text-xs font-bold flex items-center space-x-1.5 transition-all"
+            className="px-4 py-2.5 rounded-xl border border-border hover:bg-surface-2 text-fg text-xs font-bold flex items-center gap-1.5 transition-colors"
           >
             <Home className="w-3.5 h-3.5" />
             <span>返回真题大厅</span>

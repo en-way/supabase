@@ -113,13 +113,13 @@ def check_6_keyboard_input_guard():
     assert "HTMLInputElement" in guard_code and "HTMLTextAreaElement" in guard_code, "useKeyboardGuard.ts 缺少输入框类型检测"
     assert "isContentEditable" in guard_code, "useKeyboardGuard.ts 缺少 isContentEditable 可编辑元素检测"
 
-    practice_path = os.path.join(REPO_ROOT, "app", "practice", "page.tsx")
-    exam_path = os.path.join(REPO_ROOT, "app", "exam", "page.tsx")
-    for p in [practice_path, exam_path]:
+    practice_hook_path = os.path.join(REPO_ROOT, "hooks", "usePracticeSession.ts")
+    exam_hook_path = os.path.join(REPO_ROOT, "hooks", "useExamSession.ts")
+    for p in [practice_hook_path, exam_hook_path]:
         with open(p, "r", encoding="utf-8") as fp:
             code = fp.read()
         assert "useKeyboardGuard" in code, f"{os.path.basename(p)} 未绑定 useKeyboardGuard 键盘隔离守卫"
-    return "已验证 practice 和 exam 页面通过 useKeyboardGuard 完全隔离 input、textarea、IME 和 contenteditable"
+    return "已验证 practice 和 exam 会话 Hook 通过 useKeyboardGuard 完全隔离 input、textarea、IME 和 contenteditable"
 
 def check_7_static_security_headers():
     """断言 7: Cloudflare Pages 静态安全头配置 (DENY/nosniff/XSS/HSTS)"""
@@ -244,20 +244,34 @@ def check_12_mobile_viewport_gesture_and_scroll_isolation():
         scroll_lock_code = fp.read()
     assert 'document.body.style.overflow = "hidden"' in scroll_lock_code, "hooks/useBodyScrollLock.ts 缺少 body 滚动锁"
 
-    exam_path = os.path.join(REPO_ROOT, "app", "exam", "page.tsx")
-    with open(exam_path, "r", encoding="utf-8") as fp:
-        exam_code = fp.read()
-    assert "max-h-[85dvh]" in exam_code, "app/exam/page.tsx 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
-    assert "overscroll-contain" in exam_code, "app/exam/page.tsx 缺少 overscroll-contain 抽屉滚动防穿透"
-    assert "useBodyScrollLock(showMobileAnswerSheet || showSubmitReviewSheet)" in exam_code, "app/exam/page.tsx 抽屉缺少 useBodyScrollLock 滚动锁"
+    exam_hook_path = os.path.join(REPO_ROOT, "hooks", "useExamSession.ts")
+    with open(exam_hook_path, "r", encoding="utf-8") as fp:
+        exam_hook_code = fp.read()
+    assert "useBodyScrollLock(showMobileAnswerSheet || showSubmitReviewSheet || showShortcutsModal)" in exam_hook_code, "hooks/useExamSession.ts 抽屉缺少 useBodyScrollLock 滚动锁"
 
-    practice_path = os.path.join(REPO_ROOT, "app", "practice", "page.tsx")
-    with open(practice_path, "r", encoding="utf-8") as fp:
-        practice_code = fp.read()
-    assert "max-h-[85dvh]" in practice_code, "app/practice/page.tsx 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
-    assert "overscroll-contain" in practice_code, "app/practice/page.tsx 缺少 overscroll-contain 抽屉滚动防穿透"
-    assert "useBodyScrollLock(showAnswerSheet || showPassageSheet || showShortcutsModal)" in practice_code, "app/practice/page.tsx 抽屉缺少 useBodyScrollLock 滚动锁"
-    assert "if (showAnswerSheet || showPassageSheet || showShortcutsModal) return;" in practice_code, "app/practice/page.tsx handleTouchEnd 缺少抽屉打开态手势切题阻断"
+    for drawer_rel in [
+        os.path.join("components", "exam", "ExamAnswerSheetDrawer.tsx"),
+        os.path.join("components", "exam", "ExamSubmitReviewSheet.tsx"),
+    ]:
+        with open(os.path.join(REPO_ROOT, drawer_rel), "r", encoding="utf-8") as fp:
+            drawer_code = fp.read()
+        assert "max-h-[85dvh]" in drawer_code, f"{drawer_rel} 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
+        assert "overscroll-contain" in drawer_code, f"{drawer_rel} 缺少 overscroll-contain 抽屉滚动防穿透"
+
+    practice_hook_path = os.path.join(REPO_ROOT, "hooks", "usePracticeSession.ts")
+    with open(practice_hook_path, "r", encoding="utf-8") as fp:
+        practice_hook_code = fp.read()
+    assert "useBodyScrollLock(showAnswerSheet || showPassageSheet || showShortcutsModal)" in practice_hook_code, "hooks/usePracticeSession.ts 抽屉缺少 useBodyScrollLock 滚动锁"
+    assert "if (showAnswerSheet || showPassageSheet || showShortcutsModal) return;" in practice_hook_code, "hooks/usePracticeSession.ts handleTouchEnd 缺少抽屉打开态手势切题阻断"
+
+    for drawer_rel in [
+        os.path.join("components", "practice", "PracticePassageDrawer.tsx"),
+        os.path.join("components", "practice", "PracticeAnswerSheetDrawer.tsx"),
+    ]:
+        with open(os.path.join(REPO_ROOT, drawer_rel), "r", encoding="utf-8") as fp:
+            drawer_code = fp.read()
+        assert "max-h-[85dvh]" in drawer_code, f"{drawer_rel} 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
+        assert "overscroll-contain" in drawer_code, f"{drawer_rel} 缺少 overscroll-contain 抽屉滚动防穿透"
 
     popover_path = os.path.join(REPO_ROOT, "components", "DictionaryPopover.tsx")
     with open(popover_path, "r", encoding="utf-8") as fp:

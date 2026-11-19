@@ -37,7 +37,7 @@ import {
 } from "@/components/admin/types";
 
 const AdminTabLoadingFallback = () => (
-  <div className="py-12 text-center text-xs text-slate-400 dark:text-zinc-500">
+  <div className="py-12 text-center text-xs text-fg-subtle">
     正在加载控制台模块...
   </div>
 );
@@ -501,15 +501,15 @@ export default function AdminPage() {
 
   if (currentRole === "student") {
     return (
-      <div className="max-w-md mx-auto py-16 text-center bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.08] dark:border-cyan-500/20 shadow-card p-8">
-        <div className="w-12 h-12 rounded-xl bg-rose-50 dark:bg-rose-500/10 border border-rose-200/60 dark:border-rose-500/20 flex items-center justify-center mx-auto mb-3.5">
-          <Shield className="w-6 h-6 text-rose-600 dark:text-rose-400" />
+      <div className="max-w-md mx-auto py-16 text-center bg-surface rounded-2xl border border-border shadow-1 p-8">
+        <div className="w-12 h-12 rounded-xl bg-danger-soft border border-danger/30 flex items-center justify-center mx-auto mb-3.5">
+          <Shield className="w-6 h-6 text-danger" />
         </div>
-        <h2 className="text-base font-bold text-zinc-900 dark:text-zinc-100 mb-1.5">访问受限</h2>
-        <p className="text-xs text-zinc-500 dark:text-zinc-400 mb-6">当前账号不是管理员，无法访问管理控制台。</p>
+        <h2 className="text-base font-bold text-fg mb-1.5">访问受限</h2>
+        <p className="text-xs text-fg-muted mb-6">当前账号不是管理员，无法访问管理控制台。</p>
         <Link
           href="/"
-          className="px-4 py-2 bg-zinc-900 hover:bg-zinc-800 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 rounded-xl text-xs font-bold transition-all shadow-sm"
+          className="px-4 py-2 bg-primary text-primary-fg hover:opacity-95 rounded-xl text-xs font-bold transition-opacity shadow-1"
         >
           返回试卷大厅
         </Link>
@@ -524,35 +524,37 @@ export default function AdminPage() {
       {/* Notice Banner */}
       {notice && (
         <div
-          className={`p-3.5 rounded-xl border text-xs font-medium flex items-center space-x-2 ${
+          className={`p-3.5 rounded-xl border text-xs font-medium flex items-center gap-2 ${
             notice.type === "success"
-              ? "bg-emerald-50/80 border-emerald-200/80 text-emerald-800"
-              : "bg-rose-50/80 border-rose-200/80 text-rose-800"
+              ? "bg-success-soft border-success/30 text-success"
+              : "bg-danger-soft border-danger/30 text-danger"
           }`}
         >
           {notice.type === "success" ? (
-            <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+            <CheckCircle2 className="w-4 h-4 shrink-0" />
           ) : (
-            <AlertCircle className="w-4 h-4 text-rose-600 shrink-0" />
+            <AlertCircle className="w-4 h-4 shrink-0" />
           )}
           <span>{notice.text}</span>
         </div>
       )}
 
       {/* Admin Header */}
-      <div className="bg-zinc-950 text-white p-6 sm:p-7 rounded-2xl border border-zinc-800/80 dark:border-cyan-500/25 dark:shadow-glow-cyan shadow-subtle flex flex-col lg:flex-row lg:items-center justify-between gap-5 transition-all duration-300">
-        <div className="flex items-center space-x-4">
-          <div className="w-11 h-11 rounded-xl bg-zinc-900 border border-zinc-800 dark:border-cyan-500/30 flex items-center justify-center font-bold">
-            <Shield className="w-5 h-5 text-emerald-400 dark:text-cyber-400" />
+      <div className="bg-surface p-6 sm:p-7 rounded-2xl border border-border shadow-1 flex flex-col lg:flex-row lg:items-center justify-between gap-5 transition-colors duration-200">
+        <div className="flex items-center gap-4">
+          <div className="w-11 h-11 rounded-xl bg-primary-soft border border-primary/25 flex items-center justify-center shrink-0">
+            <Shield className="w-5 h-5 text-primary" />
           </div>
           <div>
-            <div className="flex items-center space-x-2">
-              <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-800 text-zinc-300 border border-zinc-700/60 dark:border-cyan-500/30 dark:text-cyber-300">
-                {isSuperAdmin ? "👑 超级管理中心" : "🛡️ 普通管理员工作台"}
+            <div className="flex items-center gap-2">
+              <span className="px-2 py-0.5 rounded text-[10px] font-semibold bg-surface-2 text-primary border border-border">
+                {isSuperAdmin ? "超级管理中心" : "普通管理员工作台"}
               </span>
             </div>
-            <h1 className="text-xl font-bold tracking-tight mt-1 text-white">Enway 考务与真题题库控制台</h1>
-            <p className="text-xs text-zinc-400 mt-0.5">
+            <h1 className="text-xl font-bold tracking-tight mt-1 text-fg">
+              Enway 考务与真题题库控制台
+            </h1>
+            <p className="text-xs text-fg-muted mt-0.5">
               {isSuperAdmin
                 ? "最高权限决策 · 试卷发布审批 · 学员密码统一维护 · 人数配额与考务授权"
                 : "真题录入与试题维护 · 试卷公开上架需超级管理员审批确认"}
@@ -561,13 +563,13 @@ export default function AdminPage() {
         </div>
 
         {/* Tab Controls */}
-        <div className="flex items-center gap-1 p-1 bg-zinc-900/90 border border-zinc-800 dark:border-cyan-500/20 rounded-xl overflow-x-auto no-scrollbar max-w-full">
+        <div className="flex items-center gap-1 p-1 bg-surface-2 border border-border rounded-xl overflow-x-auto no-scrollbar max-w-full">
           <button
             onClick={() => setActiveTab("exams")}
-            className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-all ${
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-colors ${
               activeTab === "exams"
-                ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm"
-                : "text-zinc-400 hover:text-zinc-200"
+                ? "bg-primary text-primary-fg font-bold shadow-1"
+                : "text-fg-muted hover:text-fg"
             }`}
           >
             真题试卷 ({exams.length})
@@ -577,15 +579,15 @@ export default function AdminPage() {
             <>
               <button
                 onClick={() => setActiveTab("approvals")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-all flex items-center space-x-1.5 ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-colors flex items-center gap-1.5 ${
                   activeTab === "approvals"
-                    ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm"
-                    : "text-zinc-400 hover:text-zinc-200"
+                    ? "bg-primary text-primary-fg font-bold shadow-1"
+                    : "text-fg-muted hover:text-fg"
                 }`}
               >
                 <span>考务审批</span>
                 {pendingExams.length > 0 && (
-                  <span className="px-1.5 py-0.2 bg-rose-500 text-white text-[10px] font-bold rounded-full">
+                  <span className="px-1.5 py-0.5 bg-danger text-white text-[10px] font-bold rounded-full">
                     {pendingExams.length}
                   </span>
                 )}
@@ -593,16 +595,16 @@ export default function AdminPage() {
 
               <button
                 onClick={() => setActiveTab("pwdApprovals")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-all flex items-center space-x-1.5 ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-colors flex items-center gap-1.5 ${
                   activeTab === "pwdApprovals"
-                    ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm"
-                    : "text-zinc-400 hover:text-zinc-200"
+                    ? "bg-primary text-primary-fg font-bold shadow-1"
+                    : "text-fg-muted hover:text-fg"
                 }`}
               >
                 <KeyRound className="w-3.5 h-3.5" />
                 <span>密码审批</span>
                 {pendingPasswordRequests.length > 0 && (
-                  <span className="px-1.5 py-0.2 bg-amber-500 text-white text-[10px] font-bold rounded-full">
+                  <span className="px-1.5 py-0.5 bg-warning text-white text-[10px] font-bold rounded-full">
                     {pendingPasswordRequests.length}
                   </span>
                 )}
@@ -612,10 +614,10 @@ export default function AdminPage() {
 
           <button
             onClick={() => setActiveTab("import")}
-            className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-all ${
+            className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-colors ${
               activeTab === "import"
-                ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm"
-                : "text-zinc-400 hover:text-zinc-200"
+                ? "bg-primary text-primary-fg font-bold shadow-1"
+                : "text-fg-muted hover:text-fg"
             }`}
           >
             结构化导入
@@ -625,10 +627,10 @@ export default function AdminPage() {
             <>
               <button
                 onClick={() => setActiveTab("users")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-all ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-colors ${
                   activeTab === "users"
-                    ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm"
-                    : "text-zinc-400 hover:text-zinc-200"
+                    ? "bg-primary text-primary-fg font-bold shadow-1"
+                    : "text-fg-muted hover:text-fg"
                 }`}
               >
                 学员与考务 ({userList.length})
@@ -636,10 +638,10 @@ export default function AdminPage() {
 
               <button
                 onClick={() => setActiveTab("settings")}
-                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-all ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap shrink-0 transition-colors ${
                   activeTab === "settings"
-                    ? "bg-white dark:bg-cyan-500 text-zinc-900 dark:text-zinc-950 font-bold shadow-sm"
-                    : "text-zinc-400 hover:text-zinc-200"
+                    ? "bg-primary text-primary-fg font-bold shadow-1"
+                    : "text-fg-muted hover:text-fg"
                 }`}
               >
                 考务配置与配额

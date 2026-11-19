@@ -2,40 +2,46 @@
 
 import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import Link from "next/link";
-import { 
-  getLocalState, 
+import {
+  getLocalState,
   subscribeLocalState,
-  toggleMistakeMastered, 
-  removeMistake, 
+  toggleMistakeMastered,
+  removeMistake,
   reconcileLearningState,
   normalizeOptions,
   getLastReconcileTimestamp,
   setLastReconcileTimestamp,
   clearLastReconcileTimestamp,
-  MistakeItem 
+  type MistakeItem,
 } from "@/lib/storage";
 import { supabase } from "@/lib/supabase";
 import { fetchExamDetailWithFallback, clearStaticExamCache } from "@/lib/examLoader";
+import { useBodyScrollLock } from "@/hooks/useBodyScrollLock";
+import { useKeyboardGuard } from "@/hooks/useKeyboardGuard";
 import type { PassageRecord, QuestionRecord, RawQuestionOptions } from "@/types/exam";
-import { 
-  AlertCircle, 
-  CheckCircle2, 
-  XCircle, 
-  RotateCcw, 
-  Trash2, 
-  Printer, 
-  Download, 
+import { QuestionOptionList } from "@/components/reader/QuestionOptionList";
+import { Badge } from "@/components/ui/Badge";
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { EmptyState, Spinner } from "@/components/ui/Feedback";
+import { Select } from "@/components/ui/Field";
+import { Kbd } from "@/components/ui/Kbd";
+import { PageHeader } from "@/components/ui/PageHeader";
+import { SegmentedControl } from "@/components/ui/SegmentedControl";
+import {
+  AlertCircle,
+  CheckCircle2,
+  RotateCcw,
+  Trash2,
+  Printer,
+  Download,
   BookOpen,
   SplitSquareVertical,
-  ExternalLink,
   ChevronLeft,
   ChevronRight,
-  ZoomIn,
-  ZoomOut,
   X,
   HelpCircle,
   Sparkles,
-  Loader2
 } from "lucide-react";
 
 interface OnlineQuestionDetail {
@@ -85,7 +91,6 @@ interface FallbackQuestionRow {
 const unwrapRelation = <T,>(value: T | T[] | null | undefined): T | null =>
   Array.isArray(value) ? (value[0] ?? null) : (value ?? null);
 
-// Client-side session memory cache for question details to avoid repeated network calls
 const questionDetailsCache: Record<string, OnlineQuestionDetail> = {};
 
 export default function MistakesPage() {
@@ -95,26 +100,18 @@ export default function MistakesPage() {
   const [activeTab, setActiveTab] = useState<"unmastered" | "mastered">("unmastered");
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
 
-  // Re-practice interactive state: { [qId]: selectedKey }
   const [retestAnswers, setRetestAnswers] = useState<Record<string, string>>({});
-  // Congratulatory prompt for mastered: qId
   const [congratsId, setCongratsId] = useState<string | null>(null);
-  // Reconciliation Toast alert
   const [toastMsg, setToastMsg] = useState<string | null>(null);
   const [isReconciling, setIsReconciling] = useState(false);
 
-  // Side-by-Side "边看边写" Modal/Studio State
   const [sideBySideItem, setSideBySideItem] = useState<{
     mistake: MistakeItem;
     detail: OnlineQuestionDetail;
     index: number;
   } | null>(null);
-  const [articleFontSize, setArticleFontSize] = useState<number>(15);
-
-  // Print mode toggle
+  const [articleFontSize, setArticleFontSize] = useState<number>(16);
   const [printWithAnswers, setPrintWithAnswers] = useState(true);
-
-  // Mobile studio tab state
   const [studioMobileTab, setStudioMobileTab] = useState<"passage" | "question">("question");
 
   const mountedRef = useRef(true);
@@ -129,11 +126,158 @@ export default function MistakesPage() {
     setToastMsg(msg);
     toastTimerRef.current = setTimeout(() => {
       toastTimerRef.current = null;
-      if (mountedRef.current) {
-        setToastMsg(null);
-      }
+      if (mountedRef.current) setToastMsg(null);
     }, 3500);
   }, []);
+
+  const fetchOnlineQuestionDetails = useCallback(
+    async (items: MistakeItem[], skipAutoReconcile = false) => {
+      if (!items || items.length === 0) return;
+      const seq = ++fetchSeqRef.current;
+
+      const allIds = Array.from(new Set(items.map((m) => m.questionId)));
+      let missingIds = allIds.filter((id) => !questionDetailsCache[id]);
+
+      const initialMap: Record<string, OnlineQuestionDetail> = {};
+      allIds.forEach((id) => {
+        if (questionDetailsCache[id]) {
+          initialMap[id] = questionDetailsCache[id];
+        }
+      });
+      setQuestionMap(initialMap);
+
+      if (missingIds.length === 0) return;
+
+      setIsLoadingOnline(true);
+      try {
+        const missingItems = items.filter((m) => missingIds.includes(m.questionId));
+        const examIdsToFetch = Array.from(
+          new Set(missingItems.map((m) => m.examId).filter((id): id is string => Boolean(id)))
+        );
+
+        if (examIdsToFetch.length > 0) {
+          const examDetails = await Promise.all(
+            examIdsToFetch.map((id) => fetchExamDetailWithFallback(id))
+          );
+          if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+
+          examDetails.forEach((detail) => {
+            if (!detail || !Array.isArray(detail.questions)) return;
+            const passageMap = new Map<string, PassageRecord>(
+              (detail.passages || []).map((p: PassageRecord) => [p.id, p])
+            );
+
+            detail.questions.forEach((q: QuestionRecord) => {
+              if (missingIds.includes(q.id)) {
+                const passage = q.passage_id ? passageMap.get(q.passage_id) || null : null;
+                const detailItem: OnlineQuestionDetail = {
+                  id: q.id,
+                  exam_id: q.exam_id || detail.exam?.id || "",
+                  passage_id: q.passage_id ?? null,
+                  category_id: q.category_id || detail.exam?.category_id || "ky1",
+                  q_type: q.q_type,
+                  stem: q.stem,
+                  options: normalizeOptions(q.options),
+                  correct_answer: q.correct_answer,
+                  explanation: q.explanation || "",
+                  points:
+                    q.points !== undefined && q.points !== null ? Number(q.points) : 2,
+                  sort_order: q.sort_order || 0,
+                  passages: passage,
+                  exams: detail.exam,
+                };
+                questionDetailsCache[q.id] = detailItem;
+                initialMap[q.id] = detailItem;
+              }
+            });
+          });
+
+          missingIds = missingIds.filter((id) => !questionDetailsCache[id]);
+          setQuestionMap({ ...initialMap });
+        }
+
+        if (missingIds.length > 0) {
+          const CHUNK_SIZE = 50;
+          for (let i = 0; i < missingIds.length; i += CHUNK_SIZE) {
+            const chunk = missingIds.slice(i, i + CHUNK_SIZE);
+            const { data, error } = await supabase
+              .from("questions")
+              .select(
+                `
+                id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
+                passages (id, title, content, section_type),
+                exams (id, title, year)
+              `
+              )
+              .in("id", chunk);
+
+            if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+            if (!error && data) {
+              (data as unknown as FallbackQuestionRow[]).forEach((q) => {
+                const detail: OnlineQuestionDetail = {
+                  id: q.id,
+                  exam_id: q.exam_id || "",
+                  passage_id: q.passage_id,
+                  category_id: q.category_id || "ky1",
+                  q_type: q.q_type,
+                  stem: q.stem,
+                  options: normalizeOptions(q.options),
+                  correct_answer: q.correct_answer,
+                  explanation: q.explanation || "",
+                  points:
+                    q.points !== undefined && q.points !== null ? Number(q.points) : 2,
+                  sort_order: q.sort_order || 0,
+                  passages: unwrapRelation(q.passages),
+                  exams: unwrapRelation(q.exams),
+                };
+                questionDetailsCache[q.id] = detail;
+                initialMap[q.id] = detail;
+              });
+            }
+          }
+          setQuestionMap({ ...initialMap });
+        }
+
+        if (!skipAutoReconcile) {
+          const {
+            data: { session },
+          } = await supabase.auth.getSession();
+          if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+          const uid = session?.user?.id || null;
+          if (uid) {
+            const lastRecon = getLastReconcileTimestamp(uid);
+            if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
+              const recon = await reconcileLearningState();
+              if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+              if (recon.completed) {
+                setLastReconcileTimestamp(uid, Date.now());
+              }
+              if (recon.hasChanges) {
+                setMistakes(getLocalState().mistakes);
+                showToast(recon.summaryText);
+              }
+            }
+          }
+        }
+      } catch (err) {
+        if (mountedRef.current && seq === fetchSeqRef.current) {
+          console.error("Failed to fetch questions details batch:", err);
+        }
+      } finally {
+        if (mountedRef.current && seq === fetchSeqRef.current) {
+          setIsLoadingOnline(false);
+        }
+      }
+    },
+    [showToast]
+  );
+
+  const loadLocalMistakes = useCallback(() => {
+    const state = getLocalState();
+    const loadedMistakes = state.mistakes || [];
+    setMistakes(loadedMistakes);
+    fetchOnlineQuestionDetails(loadedMistakes);
+  }, [fetchOnlineQuestionDetails]);
 
   useEffect(() => {
     mountedRef.current = true;
@@ -142,7 +286,9 @@ export default function MistakesPage() {
       if (!mountedRef.current) return;
       const nextMistakes = state.mistakes || [];
       setMistakes(nextMistakes);
-      if (nextMistakes.some((m) => m && m.questionId && !questionDetailsCache[m.questionId])) {
+      if (
+        nextMistakes.some((m) => m && m.questionId && !questionDetailsCache[m.questionId])
+      ) {
         fetchOnlineQuestionDetails(nextMistakes);
       }
     });
@@ -154,14 +300,7 @@ export default function MistakesPage() {
         toastTimerRef.current = null;
       }
     };
-  }, []);
-
-  const loadLocalMistakes = () => {
-    const state = getLocalState();
-    const loadedMistakes = state.mistakes || [];
-    setMistakes(loadedMistakes);
-    fetchOnlineQuestionDetails(loadedMistakes);
-  };
+  }, [loadLocalMistakes, fetchOnlineQuestionDetails]);
 
   const handleManualReconcile = async () => {
     if (isReconciling) return;
@@ -169,7 +308,9 @@ export default function MistakesPage() {
     try {
       await clearStaticExamCache();
       Object.keys(questionDetailsCache).forEach((k) => delete questionDetailsCache[k]);
-      const { data: { session } } = await supabase.auth.getSession();
+      const {
+        data: { session },
+      } = await supabase.auth.getSession();
       const uid = session?.user?.id || null;
       clearLastReconcileTimestamp(uid);
       const recon = await reconcileLearningState();
@@ -184,155 +325,15 @@ export default function MistakesPage() {
       if (!recon.completed) {
         showToast(recon.summaryText || "云端核对未完成，已安全保留当前本地错题状态");
       } else {
-        showToast(recon.hasChanges ? `核对完成：${recon.summaryText}` : "已核对完成，本地错题考点均为最新");
+        showToast(
+          recon.hasChanges ? `核对完成：${recon.summaryText}` : "已核对完成，本地错题考点均为最新"
+        );
       }
     } catch (e) {
       console.error("Manual reconcile failed:", e);
       showToast("核对网络异常，已保持当前本地错题状态");
     } finally {
-      if (mountedRef.current) {
-        setIsReconciling(false);
-      }
-    }
-  };
-
-  // ⚡️ Quota Optimization: Fetch questions from Cloudflare Pages static CDN mirror first (0 DB quota, 0ms)
-  // Fall back to Supabase PostgREST only for legacy orphaned IDs.
-  const fetchOnlineQuestionDetails = async (items: MistakeItem[], skipAutoReconcile = false) => {
-    if (!items || items.length === 0) return;
-    const seq = ++fetchSeqRef.current;
-
-    const allIds = Array.from(new Set(items.map((m) => m.questionId)));
-    let missingIds = allIds.filter((id) => !questionDetailsCache[id]);
-
-    // Update state with whatever is already in cache
-    const initialMap: Record<string, OnlineQuestionDetail> = {};
-    allIds.forEach((id) => {
-      if (questionDetailsCache[id]) {
-        initialMap[id] = questionDetailsCache[id];
-      }
-    });
-    setQuestionMap(initialMap);
-
-    if (missingIds.length === 0) return;
-
-    setIsLoadingOnline(true);
-    try {
-      // Step 1: Group missing items by examId and fetch from Cloudflare Pages static CDN (/data/exams/{id}.json)
-      const missingItems = items.filter((m) => missingIds.includes(m.questionId));
-      const examIdsToFetch = Array.from(
-        new Set(missingItems.map((m) => m.examId).filter((id): id is string => Boolean(id)))
-      );
-
-      if (examIdsToFetch.length > 0) {
-        const examDetails = await Promise.all(
-          examIdsToFetch.map((id) => fetchExamDetailWithFallback(id))
-        );
-        if (!mountedRef.current || seq !== fetchSeqRef.current) return;
-
-        examDetails.forEach((detail) => {
-          if (!detail || !Array.isArray(detail.questions)) return;
-          const passageMap = new Map<string, PassageRecord>(
-            (detail.passages || []).map((p: PassageRecord) => [p.id, p])
-          );
-
-          detail.questions.forEach((q: QuestionRecord) => {
-            if (missingIds.includes(q.id)) {
-              const passage = q.passage_id ? passageMap.get(q.passage_id) || null : null;
-              const detailItem: OnlineQuestionDetail = {
-                id: q.id,
-                exam_id: q.exam_id || detail.exam?.id || "",
-                passage_id: q.passage_id ?? null,
-                category_id: q.category_id || detail.exam?.category_id || "ky1",
-                q_type: q.q_type,
-                stem: q.stem,
-                options: normalizeOptions(q.options),
-                correct_answer: q.correct_answer,
-                explanation: q.explanation || "",
-                points: q.points !== undefined && q.points !== null ? Number(q.points) : 2,
-                sort_order: q.sort_order || 0,
-                passages: passage,
-                exams: detail.exam,
-              };
-              questionDetailsCache[q.id] = detailItem;
-              initialMap[q.id] = detailItem;
-            }
-          });
-        });
-
-        // Re-evaluate what remains missing after CDN lookup
-        missingIds = missingIds.filter((id) => !questionDetailsCache[id]);
-        setQuestionMap({ ...initialMap });
-      }
-
-      // Step 2: Fall back to Supabase PostgREST in 50-item chunks only if any orphaned/legacy IDs remain
-      if (missingIds.length > 0) {
-        const CHUNK_SIZE = 50;
-        for (let i = 0; i < missingIds.length; i += CHUNK_SIZE) {
-          const chunk = missingIds.slice(i, i + CHUNK_SIZE);
-          const { data, error } = await supabase
-            .from("questions")
-            .select(`
-              id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
-              passages (id, title, content, section_type),
-              exams (id, title, year)
-            `)
-            .in("id", chunk);
-
-          if (!mountedRef.current || seq !== fetchSeqRef.current) return;
-          if (!error && data) {
-            (data as unknown as FallbackQuestionRow[]).forEach((q) => {
-              const detail: OnlineQuestionDetail = {
-                id: q.id,
-                exam_id: q.exam_id || "",
-                passage_id: q.passage_id,
-                category_id: q.category_id || "ky1",
-                q_type: q.q_type,
-                stem: q.stem,
-                options: normalizeOptions(q.options),
-                correct_answer: q.correct_answer,
-                explanation: q.explanation || "",
-                points: q.points !== undefined && q.points !== null ? Number(q.points) : 2,
-                sort_order: q.sort_order || 0,
-                passages: unwrapRelation(q.passages),
-                exams: unwrapRelation(q.exams),
-              };
-              questionDetailsCache[q.id] = detail;
-              initialMap[q.id] = detail;
-            });
-          }
-        }
-        setQuestionMap({ ...initialMap });
-      }
-
-      // Execute reconciliation with per-account 7-day throttle to strictly protect Supabase free quota
-      if (!skipAutoReconcile) {
-        const { data: { session } } = await supabase.auth.getSession();
-        if (!mountedRef.current || seq !== fetchSeqRef.current) return;
-        const uid = session?.user?.id || null;
-        if (uid) {
-          const lastRecon = getLastReconcileTimestamp(uid);
-          if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
-            const recon = await reconcileLearningState();
-            if (!mountedRef.current || seq !== fetchSeqRef.current) return;
-            if (recon.completed) {
-              setLastReconcileTimestamp(uid, Date.now());
-            }
-            if (recon.hasChanges) {
-              setMistakes(getLocalState().mistakes);
-              showToast(recon.summaryText);
-            }
-          }
-        }
-      }
-    } catch (err) {
-      if (mountedRef.current && seq === fetchSeqRef.current) {
-        console.error("Failed to fetch questions details batch:", err);
-      }
-    } finally {
-      if (mountedRef.current && seq === fetchSeqRef.current) {
-        setIsLoadingOnline(false);
-      }
+      if (mountedRef.current) setIsReconciling(false);
     }
   };
 
@@ -360,7 +361,11 @@ export default function MistakesPage() {
     }
   };
 
-  const handleRetestOption = (questionId: string, correctAnswer: string, optionKey: string) => {
+  const handleRetestOption = (
+    questionId: string,
+    correctAnswer: string,
+    optionKey: string
+  ) => {
     setRetestAnswers((prev) => ({ ...prev, [questionId]: optionKey }));
     if (optionKey === correctAnswer) {
       setCongratsId(questionId);
@@ -385,17 +390,15 @@ export default function MistakesPage() {
       .filter((m) => (categoryFilter === "all" ? true : m.categoryId === categoryFilter));
   }, [mistakes, activeTab, categoryFilter]);
 
-  // Open "边看边写" studio
   const handleOpenSideBySide = (mistake: MistakeItem, index: number) => {
     const detail = questionMap[mistake.questionId];
     if (detail) {
       setSideBySideItem({ mistake, detail, index });
     } else {
-      alert("题目正在联网拉取中，请稍候点击...");
+      showToast("题目正在联网拉取中，请稍候点击...");
     }
   };
 
-  // Navigate to previous/next mistake in side-by-side view with safe index clamping
   const handleNavigateSideBySide = (direction: "prev" | "next") => {
     if (!sideBySideItem) return;
     if (filteredMistakes.length === 0) {
@@ -405,20 +408,17 @@ export default function MistakesPage() {
     const currentPos = filteredMistakes.findIndex(
       (m) => m.questionId === sideBySideItem.mistake.questionId
     );
-    let targetIdx: number;
-    if (currentPos >= 0) {
-      targetIdx = direction === "prev" ? currentPos - 1 : currentPos + 1;
-    } else {
-      // Current item was mastered and removed from active unmastered list;
-      // 'next' naturally falls onto the item now occupying sideBySideItem.index
-      targetIdx = direction === "prev" ? sideBySideItem.index - 1 : sideBySideItem.index;
-    }
+    let targetIdx =
+      currentPos >= 0
+        ? direction === "prev"
+          ? currentPos - 1
+          : currentPos + 1
+        : direction === "prev"
+          ? sideBySideItem.index - 1
+          : sideBySideItem.index;
 
-    if (targetIdx < 0) {
-      targetIdx = filteredMistakes.length - 1;
-    } else if (targetIdx >= filteredMistakes.length) {
-      targetIdx = 0;
-    }
+    if (targetIdx < 0) targetIdx = filteredMistakes.length - 1;
+    else if (targetIdx >= filteredMistakes.length) targetIdx = 0;
 
     const nextMistake = filteredMistakes[targetIdx];
     if (nextMistake) {
@@ -429,68 +429,38 @@ export default function MistakesPage() {
     }
   };
 
-  // PC Keyboard Shortcuts for Side-by-Side Studio (Dynamic options A~G, Left/Right to switch, Esc to close)
-  useEffect(() => {
+  useKeyboardGuard((e: KeyboardEvent) => {
     if (!sideBySideItem) return;
-
-    const handleKeyDown = (e: KeyboardEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (
-        e.ctrlKey ||
-        e.metaKey ||
-        e.altKey ||
-        e.isComposing ||
-        target instanceof HTMLInputElement ||
-        target instanceof HTMLTextAreaElement ||
-        target?.isContentEditable ||
-        target?.closest?.("input, textarea, [contenteditable='true']")
-      ) {
-        return;
-      }
-
-      const key = e.key.toUpperCase();
-      const validKeys = sideBySideItem.detail.options?.length > 0
+    const key = e.key.toUpperCase();
+    const validKeys =
+      sideBySideItem.detail.options?.length > 0
         ? sideBySideItem.detail.options.map((o) => o.key.toUpperCase())
         : ["A", "B", "C", "D"];
 
-      if (validKeys.includes(key)) {
-        e.preventDefault();
-        handleRetestOption(
-          sideBySideItem.detail.id,
-          sideBySideItem.detail.correct_answer,
-          key
-        );
-      } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
-        e.preventDefault();
-        handleNavigateSideBySide("prev");
-      } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
-        e.preventDefault();
-        handleNavigateSideBySide("next");
-      } else if (e.key === "Escape") {
-        e.preventDefault();
-        setSideBySideItem(null);
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [sideBySideItem, filteredMistakes, questionMap]);
-
-  // Lock body scroll when Side-by-Side Review Studio is active
-  useEffect(() => {
-    if (sideBySideItem) {
-      const originalOverflow = document.body.style.overflow;
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = originalOverflow;
-      };
+    if (validKeys.includes(key)) {
+      e.preventDefault();
+      handleRetestOption(
+        sideBySideItem.detail.id,
+        sideBySideItem.detail.correct_answer,
+        key
+      );
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      e.preventDefault();
+      handleNavigateSideBySide("prev");
+    } else if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      e.preventDefault();
+      handleNavigateSideBySide("next");
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      setSideBySideItem(null);
     }
-  }, [sideBySideItem]);
+  }, Boolean(sideBySideItem));
 
-  // Export as Plain Text File (.txt)
+  useBodyScrollLock(Boolean(sideBySideItem));
+
   const handleExportTxt = () => {
     if (filteredMistakes.length === 0) {
-      alert("当前列表暂无错题可导出");
+      showToast("当前列表暂无错题可导出");
       return;
     }
 
@@ -507,9 +477,7 @@ export default function MistakesPage() {
       const expl = detail?.explanation || item.explanation || "详见系统";
 
       textContent += `【第 ${idx + 1} 题】(错误次数: ${item.wrongCount})\n`;
-      if (detail?.exams?.title) {
-        textContent += `[所属试卷]: ${detail.exams.title}\n`;
-      }
+      if (detail?.exams?.title) textContent += `[所属试卷]: ${detail.exams.title}\n`;
       if (detail?.passages?.content) {
         textContent += `[篇章材料]:\n${detail.passages.content}\n\n`;
       }
@@ -532,139 +500,122 @@ export default function MistakesPage() {
     URL.revokeObjectURL(url);
   };
 
+  const unmasteredCount = mistakes.filter((m) => !m.isMastered).length;
+  const masteredCount = mistakes.filter((m) => m.isMastered).length;
+
   return (
     <div className="space-y-6">
-      {/* Floating Reconciliation Toast */}
       {toastMsg && (
-        <div className="fixed top-20 right-6 z-50 p-4 bg-slate-900 text-white rounded-2xl shadow-xl border border-slate-700 flex items-center space-x-2.5 text-xs font-semibold animate-in fade-in slide-in-from-top-4 duration-200">
-          <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+        <div className="fixed top-20 right-6 z-toast p-3.5 bg-fg text-bg rounded-2xl shadow-pop border border-border flex items-center gap-2.5 text-xs font-semibold animate-in fade-in slide-in-from-top-4 duration-200">
+          <Sparkles className="w-4 h-4 text-warning shrink-0" />
           <span>{toastMsg}</span>
         </div>
       )}
 
-      {/* Header Bar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white dark:bg-[#11131a] p-6 rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card no-print">
-        <div className="flex items-center space-x-3">
-          <div className="w-10 h-10 rounded-xl bg-amber-50 dark:bg-amber-500/10 text-amber-600 dark:text-amber-400 flex items-center justify-center font-bold">
-            <AlertCircle className="w-5 h-5" />
+      <PageHeader
+        icon={<AlertCircle className="w-5 h-5 text-warning" />}
+        title="历年真题错题研习库"
+        description="单项错题定向回溯文章 · 支持“边看边写”双栏研习 · 自动校准云端考题"
+        badge={
+          isLoadingOnline ? (
+            <Badge tone="neutral">
+              <Spinner className="w-3 h-3" />
+              <span>拉取篇章与考题...</span>
+            </Badge>
+          ) : undefined
+        }
+        actions={
+          <div className="flex flex-wrap items-center gap-2">
+            <Button
+              variant="secondary"
+              size="sm"
+              onClick={handleManualReconcile}
+              disabled={isReconciling}
+              title="强制刷新考卷缓存并校验本地错题最新考点"
+            >
+              <RotateCcw
+                className={`w-3.5 h-3.5 ${isReconciling ? "animate-spin" : ""}`}
+              />
+              <span>{isReconciling ? "核对中..." : "核对考点"}</span>
+            </Button>
+            <Button variant="secondary" size="sm" onClick={handleExportTxt}>
+              <Download className="w-3.5 h-3.5" />
+              <span>导出 TXT</span>
+            </Button>
+            <Button size="sm" onClick={() => window.print()}>
+              <Printer className="w-3.5 h-3.5" />
+              <span>打印 / 导出 PDF</span>
+            </Button>
           </div>
-          <div>
-            <div className="flex items-center space-x-2">
-              <h1 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-100">历年真题错题研习库</h1>
-              {isLoadingOnline && (
-                <span className="flex items-center text-xs text-zinc-600 dark:text-zinc-400 font-medium bg-zinc-100 dark:bg-zinc-800 px-2 py-0.5 rounded-full">
-                  <Loader2 className="w-3 h-3 animate-spin mr-1" />
-                  拉取篇章与考题...
-                </span>
-              )}
-            </div>
-            <p className="text-xs text-zinc-400 dark:text-zinc-500 mt-0.5">
-              单项错题定向回溯文章 · 支持“边看边写”双栏研习 · 自动校准云端考题
-            </p>
-          </div>
-        </div>
-
-        {/* Action Buttons */}
-        <div className="flex flex-wrap items-center gap-2">
-          <button
-            onClick={handleManualReconcile}
-            disabled={isReconciling}
-            className="flex-1 sm:flex-none justify-center px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98] disabled:opacity-60"
-            title="强制刷新考卷缓存并校验本地错题最新考点"
-          >
-            <RotateCcw className={`w-3.5 h-3.5 text-zinc-500 dark:text-zinc-400 ${isReconciling ? "animate-spin" : ""}`} />
-            <span>{isReconciling ? "核对中..." : "核对考点"}</span>
-          </button>
-          <button
-            onClick={handleExportTxt}
-            className="flex-1 sm:flex-none justify-center px-3 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-[#151923] text-zinc-700 dark:text-zinc-300 hover:bg-zinc-50 dark:hover:bg-zinc-800 text-xs font-semibold flex items-center space-x-1.5 transition-all shadow-subtle active:scale-[0.98]"
-          >
-            <Download className="w-3.5 h-3.5 text-zinc-500 dark:text-zinc-400" />
-            <span>导出 TXT</span>
-          </button>
-          <button
-            onClick={() => window.print()}
-            className="w-full sm:w-auto justify-center px-3.5 py-1.5 rounded-xl bg-zinc-900 text-white hover:bg-zinc-800 dark:bg-gradient-to-r dark:from-cyan-500 dark:to-blue-600 dark:text-zinc-950 dark:font-black text-xs font-bold flex items-center space-x-1.5 shadow-subtle transition-all active:scale-[0.98]"
-          >
-            <Printer className="w-3.5 h-3.5" />
-            <span>打印 / 导出 PDF</span>
-          </button>
-        </div>
-      </div>
+        }
+      />
 
       {/* Filter Tabs & Category Filter */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-black/[0.06] dark:border-zinc-800 pb-3 no-print">
-        <div className="flex items-center space-x-1.5">
-          <button
-            onClick={() => setActiveTab("unmastered")}
-            className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
-              activeTab === "unmastered"
-                ? "bg-zinc-900 text-white dark:bg-cyan-500 dark:text-zinc-950 shadow-subtle font-bold"
-                : "text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800"
-            }`}
-          >
-            待复习 ({mistakes.filter((m) => !m.isMastered).length})
-          </button>
-          <button
-            onClick={() => setActiveTab("mastered")}
-            className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold transition-all duration-150 ${
-              activeTab === "mastered"
-                ? "bg-zinc-900 text-white dark:bg-cyan-500 dark:text-zinc-950 shadow-subtle font-bold"
-                : "text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800"
-            }`}
-          >
-            已掌握归档 ({mistakes.filter((m) => m.isMastered).length})
-          </button>
-        </div>
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3 no-print">
+        <SegmentedControl
+          value={activeTab}
+          onChange={setActiveTab}
+          size="sm"
+          options={[
+            { value: "unmastered", label: `待复习 (${unmasteredCount})` },
+            { value: "mastered", label: `已掌握归档 (${masteredCount})` },
+          ]}
+        />
 
-        {/* Category Filter & Print Options */}
-        <div className="flex items-center space-x-3 text-xs text-zinc-600 dark:text-zinc-400">
-          <div className="flex items-center space-x-1.5">
-            <span className="text-zinc-400 dark:text-zinc-500">分类:</span>
-            <select
+        <div className="flex flex-wrap items-center gap-3 text-xs text-fg-muted">
+          <div className="flex items-center gap-1.5">
+            <span className="text-fg-subtle">分类：</span>
+            <Select
+              compact
               value={categoryFilter}
               onChange={(e) => setCategoryFilter(e.target.value)}
-              className="text-xs bg-white dark:bg-[#11131a] border border-black/[0.06] dark:border-cyan-500/20 rounded-lg px-2.5 py-1 text-zinc-800 dark:text-zinc-200 outline-none shadow-subtle"
+              className="h-8 text-xs w-auto min-w-[140px]"
             >
               <option value="all">全部分类</option>
               <option value="ky1">考研英语一 (KY-1)</option>
               <option value="ky2">考研英语二 (KY-2)</option>
-            </select>
+            </Select>
           </div>
 
-          <div className="flex items-center space-x-1.5">
-            <span className="text-zinc-400 dark:text-zinc-500">打印视图:</span>
-            <button
+          <div className="flex items-center gap-1.5">
+            <span className="text-fg-subtle">打印视图：</span>
+            <Button
+              variant={printWithAnswers ? "secondary" : "ghost"}
+              size="sm"
               onClick={() => setPrintWithAnswers(!printWithAnswers)}
-              className={`px-2.5 py-1 rounded-lg border text-xs font-medium transition-all ${
-                printWithAnswers 
-                  ? "bg-zinc-100 dark:bg-zinc-800 border-zinc-300 dark:border-zinc-700 text-zinc-900 dark:text-zinc-100 font-semibold" 
-                  : "bg-white dark:bg-[#11131a] border-black/[0.06] dark:border-cyan-500/20 text-zinc-600 dark:text-zinc-400 shadow-subtle"
-              }`}
+              className="h-8 text-xs border border-border"
             >
-              {printWithAnswers ? "含答案与解析" : "仅题目(做题卷)"}
-            </button>
+              {printWithAnswers ? "含答案与解析" : "仅题目（做题卷）"}
+            </Button>
           </div>
         </div>
       </div>
 
-      {/* Printable Heading (Only visible in Print) */}
+      {/* Printable Heading */}
       <div className="hidden print-only text-center mb-6">
         <h1 className="text-2xl font-black mb-1">Enway 英语重点错题复习卷</h1>
-        <p className="text-xs text-slate-500">
-          打印时间: {new Date().toLocaleDateString()} · 共 {filteredMistakes.length} 道错题
+        <p className="text-xs text-fg-muted">
+          打印时间：{new Date().toLocaleDateString()} · 共 {filteredMistakes.length} 道错题
         </p>
       </div>
 
       {/* Mistakes List */}
       {filteredMistakes.length === 0 ? (
-        <div className="text-center py-20 bg-white dark:bg-[#11131a] rounded-2xl border border-dashed border-slate-300 dark:border-zinc-800 no-print">
-          <CheckCircle2 className="w-12 h-12 text-emerald-400 mx-auto mb-3" />
-          <p className="text-slate-600 dark:text-zinc-300 font-medium">太棒了！当前分类下没有待复习错题</p>
-          <Link href="/" className="inline-block mt-4 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 text-xs font-bold rounded-xl transition-colors">
-            前往试卷大厅刷题
-          </Link>
-        </div>
+        <Card className="py-12 px-4 no-print">
+          <EmptyState
+            icon={<CheckCircle2 className="w-8 h-8 text-success" />}
+            title="太棒了！当前分类下没有待复习错题"
+            description="前往真题大厅刷题或切换其他分类继续巩固。"
+            action={
+              <Link
+                href="/"
+                className="inline-flex px-4 py-2 bg-primary text-primary-fg text-xs font-bold rounded-xl"
+              >
+                前往试卷大厅刷题
+              </Link>
+            }
+          />
+        </Card>
       ) : (
         <div className="space-y-4">
           {filteredMistakes.map((item, idx) => {
@@ -672,204 +623,178 @@ export default function MistakesPage() {
             const retestAns = retestAnswers[item.questionId];
             const isRetested = Boolean(retestAns);
             const corrAnswer = detail?.correct_answer || item.correctAnswer || "";
-            const isRetestCorrect = isRetested && retestAns === corrAnswer;
             const isShowCongrats = congratsId === item.questionId;
             const hasPassage = Boolean(detail?.passages?.content);
 
             const options = normalizeOptions(detail?.options || item.options || []);
             const stem = detail?.stem || item.stem || "（题目正在加载中...）";
-            const explanation = detail?.explanation || item.explanation || "（解析加载中...）";
+            const explanation =
+              detail?.explanation || item.explanation || "（解析加载中...）";
 
             return (
-              <div
-                key={item.questionId}
-                className="bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200/90 dark:border-cyan-500/20 p-6 shadow-sm print-card space-y-4 transition-all hover:border-slate-300 dark:hover:border-cyan-400/40"
-              >
-                {/* Header info */}
+              <Card key={item.questionId} className="p-5 sm:p-6 print-card space-y-4">
                 <div className="flex items-center justify-between flex-wrap gap-2">
-                  <div className="flex items-center space-x-2 flex-wrap gap-y-1">
-                    <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-slate-900 dark:bg-cyan-500/20 dark:border dark:border-cyan-500/40 dark:text-cyan-300 text-white">
+                  <div className="flex items-center flex-wrap gap-2">
+                    <Badge tone="neutral" className="font-mono font-bold">
                       错题 #{idx + 1}
-                    </span>
+                    </Badge>
                     {detail?.exams?.title && (
-                      <span className="px-2.5 py-0.5 rounded-md text-xs font-medium bg-slate-100 dark:bg-zinc-800 text-slate-700 dark:text-zinc-300">
-                        {detail.exams.title}
-                      </span>
+                      <Badge tone="neutral">{detail.exams.title}</Badge>
                     )}
-                    <span className="text-xs text-rose-600 dark:text-rose-400 font-semibold bg-rose-50 dark:bg-rose-950/30 px-2 py-0.5 rounded border border-transparent dark:border-rose-500/20">
-                      做错 {item.wrongCount} 次
-                    </span>
-                    <span className="text-xs text-slate-400 dark:text-zinc-500">
-                      上次选错: <strong className="text-rose-600 dark:text-rose-400">{item.wrongAnswer}</strong>
+                    <Badge tone="danger">做错 {item.wrongCount} 次</Badge>
+                    <span className="text-xs text-fg-subtle">
+                      上次选错：
+                      <strong className="text-danger font-mono">{item.wrongAnswer}</strong>
                     </span>
                   </div>
 
-                  {/* Actions */}
-                  <div className="flex items-center space-x-2 no-print">
-                    {/* Side-by-side reading button */}
+                  <div className="flex items-center gap-2 no-print">
                     {hasPassage && (
-                      <button
+                      <Button
+                        variant="secondary"
+                        size="sm"
                         onClick={() => handleOpenSideBySide(item, idx)}
-                        className="px-3 py-1.5 rounded-lg text-xs font-bold bg-indigo-50 dark:bg-cyan-500/10 border border-indigo-200 dark:border-cyan-500/30 text-indigo-700 dark:text-cyan-300 hover:bg-indigo-100 dark:hover:bg-cyan-500/20 flex items-center space-x-1.5 transition-all"
                         title="打开双栏对照窗口，边读文章边写题"
                       >
-                        <SplitSquareVertical className="w-3.5 h-3.5" />
-                        <span>边看边写 (对照文章)</span>
-                      </button>
+                        <SplitSquareVertical className="w-3.5 h-3.5 text-primary" />
+                        <span>边看边写</span>
+                      </Button>
                     )}
 
-                    <button
+                    <Button
+                      variant={item.isMastered ? "secondary" : "primary"}
+                      size="sm"
                       onClick={() => handleToggle(item.questionId)}
-                      className={`px-3 py-1.5 rounded-lg text-xs font-semibold border transition-all ${
-                        item.isMastered
-                          ? "bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-zinc-400 hover:bg-slate-200 dark:hover:bg-zinc-700 border-slate-200 dark:border-zinc-700"
-                          : "bg-emerald-50 dark:bg-emerald-500/10 border-emerald-200 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-500/20"
-                      }`}
                     >
                       {item.isMastered ? "撤销已掌握" : "标记已掌握"}
-                    </button>
+                    </Button>
+
                     <button
+                      type="button"
                       onClick={() => handleDelete(item.questionId)}
                       title="彻底删除"
-                      className="p-1.5 text-slate-400 dark:text-zinc-500 hover:text-rose-600 dark:hover:text-rose-400 rounded-lg hover:bg-rose-50 dark:hover:bg-rose-950/30 transition-colors"
+                      aria-label="彻底删除该错题"
+                      className="p-1.5 text-fg-subtle hover:text-danger rounded-lg hover:bg-danger-soft transition-colors"
                     >
                       <Trash2 className="w-4 h-4" />
                     </button>
                   </div>
                 </div>
 
-                {/* Printable Passage Content if printing and has passage */}
                 {detail?.passages?.content && (
-                  <div className="hidden print-only p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs leading-relaxed space-y-2">
-                    <h4 className="font-bold text-slate-900">{detail.passages.title}</h4>
-                    <p className="whitespace-pre-line text-slate-700">{detail.passages.content}</p>
+                  <div className="hidden print-only p-4 rounded-xl bg-surface-2 border border-border text-xs leading-relaxed space-y-2">
+                    <h4 className="font-bold text-fg">{detail.passages.title}</h4>
+                    <p className="whitespace-pre-line text-fg-muted">
+                      {detail.passages.content}
+                    </p>
                   </div>
                 )}
 
-                {/* Question Stem */}
-                <h3 className="text-base font-bold text-slate-900 dark:text-zinc-100 leading-relaxed">
-                  {stem}
-                </h3>
+                <h3 className="text-base font-bold text-fg leading-relaxed">{stem}</h3>
 
-                {/* Options (Interactive for retesting) */}
-                <div className={options.length > 5 ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2" : "space-y-2"}>
-                  {options.map((opt) => {
-                    const isSelected = retestAns === opt.key;
-                    const isTheCorrect = opt.key === corrAnswer;
-                    const isGrid = options.length > 5;
+                <QuestionOptionList
+                  options={options}
+                  selectedAnswer={retestAns}
+                  correctAnswer={corrAnswer}
+                  showResult={isRetested}
+                  onSelect={(key) => handleRetestOption(item.questionId, corrAnswer, key)}
+                />
 
-                    let optStyle = "bg-slate-50 dark:bg-zinc-900/60 border-slate-200 dark:border-zinc-800 text-slate-800 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/80";
-                    if (isRetested) {
-                      if (isTheCorrect) {
-                        optStyle = "bg-emerald-50 dark:bg-emerald-950/30 border-emerald-400 dark:border-emerald-500/50 text-emerald-950 dark:text-emerald-300 font-bold";
-                      } else if (isSelected) {
-                        optStyle = "bg-rose-50 dark:bg-rose-950/30 border-rose-300 dark:border-rose-500/50 text-rose-950 dark:text-rose-300 font-bold";
-                      }
-                    }
-
-                    return (
-                      <button
-                        key={opt.key}
-                        onClick={() => handleRetestOption(item.questionId, corrAnswer, opt.key)}
-                        className={isGrid
-                          ? `p-2 sm:p-2.5 rounded-xl border text-left flex items-center space-x-2 transition-all ${optStyle}`
-                          : `w-full p-3 rounded-xl border text-left flex items-start space-x-3 transition-all ${optStyle}`}
-                        title={opt.text}
-                      >
-                        <span className="w-6 h-6 rounded-lg bg-white dark:bg-zinc-800 border border-slate-200 dark:border-zinc-700 text-zinc-900 dark:text-zinc-200 text-xs font-bold flex items-center justify-center shrink-0">
-                          {opt.key}
-                        </span>
-                        <span className={`text-xs ${isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"} flex-1`}>
-                          {opt.text}
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                {/* Retest Success Notification */}
                 {isShowCongrats && (
-                  <div className="p-3 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-500/30 rounded-xl flex items-center justify-between text-xs text-emerald-800 dark:text-emerald-300 animate-in fade-in duration-150 no-print">
-                    <span className="font-bold">🎉 重做答对了！该题已攻克，是否移入“已掌握”？</span>
-                    <button
+                  <div className="p-3 bg-success-soft border border-success/30 rounded-xl flex items-center justify-between text-xs text-fg animate-in fade-in duration-150 no-print">
+                    <span className="font-bold">
+                      重做答对了！该题已攻克，是否移入“已掌握”？
+                    </span>
+                    <Button
+                      size="sm"
                       onClick={() => handleConfirmMastered(item.questionId)}
-                      className="px-3 py-1 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-lg shadow-sm"
                     >
                       移入已掌握
-                    </button>
+                    </Button>
                   </div>
                 )}
 
-                {/* Explanation Block */}
                 {(printWithAnswers || isRetested) && (
-                  <div className={`p-4 rounded-xl bg-slate-50 dark:bg-zinc-900/80 border border-slate-200/80 dark:border-cyan-500/20 text-xs space-y-1.5 ${!printWithAnswers ? 'no-print' : ''}`}>
-                    <div className="flex items-center space-x-2 font-bold text-indigo-700 dark:text-cyan-400">
+                  <div
+                    className={`p-4 rounded-xl bg-surface-2/80 border border-border text-xs space-y-1.5 ${
+                      !printWithAnswers ? "no-print" : ""
+                    }`}
+                  >
+                    <div className="flex items-center gap-2 font-bold text-primary">
                       <HelpCircle className="w-3.5 h-3.5" />
-                      <span>正确答案: {corrAnswer} · 考点精析</span>
+                      <span>正确答案：{corrAnswer} · 考点精析</span>
                     </div>
-                    <p className="text-slate-700 dark:text-zinc-300 leading-relaxed whitespace-pre-line">
+                    <p className="text-fg-muted leading-relaxed whitespace-pre-line">
                       {explanation}
                     </p>
                   </div>
                 )}
-              </div>
+              </Card>
             );
           })}
         </div>
       )}
 
-      {/* ========================================================================= */}
-      {/* "边看边写" (Side-by-Side Dual-Pane Review Studio Modal)                    */}
-      {/* ========================================================================= */}
+      {/* Side-by-Side Dual-Pane Review Studio Modal */}
       {sideBySideItem && (
-        <div className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-150">
-          <div className="bg-white dark:bg-[#0d0e15] w-full max-w-[96vw] xl:max-w-7xl h-[95vh] h-[95dvh] rounded-3xl shadow-2xl flex flex-col overflow-hidden border border-slate-300 dark:border-cyan-500/25">
-            {/* Studio Header */}
-            <div className="px-6 py-3.5 bg-slate-900 dark:bg-[#11131a] text-white flex items-center justify-between shrink-0 border-b border-slate-800 dark:border-cyan-500/20">
-              <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center justify-center font-bold text-sm">
-                  📖
+        <div
+          className="fixed inset-0 z-modal bg-overlay/60 backdrop-blur-sm flex items-center justify-center p-2 sm:p-4 animate-in fade-in duration-150"
+          role="dialog"
+          aria-modal="true"
+          aria-label="边看边写错题精研工作台"
+        >
+          <div className="bg-surface w-full max-w-[96vw] xl:max-w-7xl h-[95dvh] rounded-3xl shadow-pop flex flex-col overflow-hidden border border-border">
+            <div className="px-4 sm:px-6 py-3.5 bg-surface-2 border-b border-border flex items-center justify-between shrink-0 gap-3">
+              <div className="flex items-center gap-3 min-w-0">
+                <div className="w-8 h-8 rounded-lg bg-warning-soft text-warning border border-warning/30 flex items-center justify-center shrink-0">
+                  <BookOpen className="w-4 h-4" />
                 </div>
-                <div>
-                  <h2 className="text-sm font-bold text-white flex items-center space-x-2">
+                <div className="min-w-0">
+                  <h2 className="text-sm font-bold text-fg flex items-center gap-2">
                     <span>边看边写 · 错题精研工作台</span>
-                    <span className="text-[11px] px-2 py-0.5 bg-indigo-500/30 dark:bg-cyan-500/20 text-indigo-200 dark:text-cyan-300 rounded-full font-mono">
+                    <Badge tone="primary" className="font-mono">
                       第 {sideBySideItem.index + 1} / {filteredMistakes.length} 题
-                    </span>
+                    </Badge>
                   </h2>
-                  <p className="text-xs text-slate-300 dark:text-zinc-400 truncate max-w-md">
+                  <p className="text-xs text-fg-muted truncate max-w-md">
                     {sideBySideItem.detail.exams?.title || "历年真题研习"}
                   </p>
                 </div>
               </div>
 
-              {/* Central shortcuts guide banner */}
-              <div className="hidden md:flex items-center space-x-2 text-[11px] text-slate-300 dark:text-zinc-300 bg-slate-800/80 dark:bg-zinc-900 px-3 py-1.5 rounded-xl border border-slate-700 dark:border-zinc-800">
-                <span className="text-amber-400 font-semibold">物理快捷键:</span>
-                <span>[A / B / C / D] 作答</span>
-                <span className="text-slate-500">|</span>
-                <span>[← / →] 切换错题</span>
-                <span className="text-slate-500">|</span>
-                <span>[Esc] 退出</span>
+              <div className="hidden md:flex items-center gap-2 text-[11px] text-fg-muted bg-surface px-3 py-1.5 rounded-xl border border-border">
+                <span className="text-primary font-semibold">快捷键：</span>
+                <span className="flex items-center gap-1">
+                  <Kbd>A</Kbd>–<Kbd>D</Kbd> 作答
+                </span>
+                <span className="text-border">|</span>
+                <span className="flex items-center gap-1">
+                  <Kbd>←</Kbd> <Kbd>→</Kbd> 切题
+                </span>
+                <span className="text-border">|</span>
+                <span className="flex items-center gap-1">
+                  <Kbd>Esc</Kbd> 退出
+                </span>
               </div>
 
-              {/* Navigation & Controls */}
-              <div className="flex items-center space-x-2">
-                <div className="flex items-center space-x-1 bg-slate-800 dark:bg-zinc-800/80 p-1 rounded-xl">
+              <div className="flex items-center gap-2 shrink-0">
+                <div className="flex items-center gap-1 bg-surface p-1 rounded-xl border border-border">
                   <button
+                    type="button"
                     onClick={() => handleNavigateSideBySide("prev")}
                     disabled={sideBySideItem.index <= 0}
-                    className="px-2 py-1 text-slate-300 hover:text-white disabled:text-slate-600 rounded-lg hover:bg-slate-700/50 transition-colors text-xs flex items-center space-x-1"
-                    title="上一题 (快捷键: ←)"
+                    className="px-2 py-1 text-fg-muted hover:text-fg disabled:opacity-40 rounded-lg hover:bg-surface-2 transition-colors text-xs flex items-center gap-1"
+                    title="上一题 (←)"
                   >
                     <ChevronLeft className="w-4 h-4" />
                     <span className="hidden sm:inline">上一题</span>
                   </button>
                   <button
+                    type="button"
                     onClick={() => handleNavigateSideBySide("next")}
                     disabled={sideBySideItem.index >= filteredMistakes.length - 1}
-                    className="px-2 py-1 text-slate-300 hover:text-white disabled:text-slate-600 rounded-lg hover:bg-slate-700/50 transition-colors text-xs flex items-center space-x-1"
-                    title="下一题 (快捷键: →)"
+                    className="px-2 py-1 text-fg-muted hover:text-fg disabled:opacity-40 rounded-lg hover:bg-surface-2 transition-colors text-xs flex items-center gap-1"
+                    title="下一题 (→)"
                   >
                     <span className="hidden sm:inline">下一题</span>
                     <ChevronRight className="w-4 h-4" />
@@ -877,25 +802,26 @@ export default function MistakesPage() {
                 </div>
 
                 <button
+                  type="button"
                   onClick={() => setSideBySideItem(null)}
-                  className="p-2 text-slate-400 hover:text-white rounded-xl hover:bg-slate-800 dark:hover:bg-zinc-800 transition-colors"
-                  title="关闭 (快捷键: Esc)"
+                  className="p-2 text-fg-muted hover:text-fg rounded-xl hover:bg-surface transition-colors"
+                  title="关闭 (Esc)"
+                  aria-label="关闭工作台"
                 >
                   <X className="w-5 h-5" />
                 </button>
               </div>
             </div>
 
-            {/* Mobile View Switcher for Studio */}
             {sideBySideItem.detail.passages?.content && (
-              <div className="lg:hidden flex items-center bg-slate-800 dark:bg-zinc-900 p-1 border-b border-slate-700 dark:border-zinc-800 shrink-0">
+              <div className="lg:hidden flex items-center bg-surface-2 p-1 border-b border-border shrink-0">
                 <button
                   type="button"
                   onClick={() => setStudioMobileTab("passage")}
-                  className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+                  className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-colors ${
                     studioMobileTab === "passage"
-                      ? "bg-amber-500 text-slate-950 font-black shadow-sm"
-                      : "text-slate-300 hover:text-white"
+                      ? "bg-surface text-primary shadow-1"
+                      : "text-fg-muted"
                   }`}
                 >
                   <BookOpen className="w-3.5 h-3.5" />
@@ -904,10 +830,10 @@ export default function MistakesPage() {
                 <button
                   type="button"
                   onClick={() => setStudioMobileTab("question")}
-                  className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center space-x-1.5 transition-all ${
+                  className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-colors ${
                     studioMobileTab === "question"
-                      ? "bg-amber-500 text-slate-950 font-black shadow-sm"
-                      : "text-slate-300 hover:text-white"
+                      ? "bg-surface text-primary shadow-1"
+                      : "text-fg-muted"
                   }`}
                 >
                   <Sparkles className="w-3.5 h-3.5" />
@@ -916,32 +842,41 @@ export default function MistakesPage() {
               </div>
             )}
 
-            {/* Split Screen Workspace: 55% Left, 45% Right */}
             <div className="flex-1 flex flex-col lg:flex-row overflow-hidden">
-              {/* Left Pane: Golden 55% Reading Canvas */}
               {sideBySideItem.detail.passages?.content ? (
-                <div className={`${studioMobileTab === "passage" ? "flex" : "hidden"} lg:flex lg:w-[55%] border-r border-stone-200/90 dark:border-cyan-500/20 flex-col bg-[#fcfbf9] dark:bg-[#090a0f] h-full overflow-hidden`}>
-                  <div className="px-5 py-3 border-b border-stone-200/80 dark:border-cyan-500/20 bg-[#f8f6f0] dark:bg-[#11131a] flex items-center justify-between shrink-0">
-                    <div className="flex items-center space-x-2">
-                      <BookOpen className="w-4 h-4 text-amber-700 dark:text-amber-400" />
-                      <span className="text-xs font-bold text-stone-800 dark:text-zinc-200 tracking-wide font-serif">
+                <div
+                  className={`${
+                    studioMobileTab === "passage" ? "flex" : "hidden"
+                  } lg:flex lg:w-[55%] border-r border-border flex-col bg-bg h-full overflow-hidden`}
+                >
+                  <div className="px-5 py-3 border-b border-border bg-surface-2/80 flex items-center justify-between shrink-0">
+                    <div className="flex items-center gap-2 min-w-0">
+                      <BookOpen className="w-4 h-4 text-primary shrink-0" />
+                      <span className="text-xs font-bold text-fg tracking-wide truncate">
                         {sideBySideItem.detail.passages.title || "阅读篇章原文"}
                       </span>
                     </div>
-                    {/* Font Zoom Controls */}
-                    <div className="flex items-center space-x-1.5 text-xs text-stone-600 dark:text-zinc-400">
-                      <span className="text-stone-500 dark:text-zinc-500 text-[11px]">字号:</span>
+                    <div className="flex items-center gap-1.5 text-xs text-fg-muted shrink-0">
+                      <span className="text-[11px] text-fg-subtle">字号：</span>
                       <button
-                        onClick={() => setArticleFontSize((prev) => Math.max(14, prev - 1))}
-                        className="px-2 py-0.5 border border-stone-300 dark:border-zinc-700 rounded bg-white dark:bg-zinc-800 hover:bg-stone-100 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-200 font-serif font-bold text-xs"
+                        type="button"
+                        onClick={() =>
+                          setArticleFontSize((prev) => Math.max(14, prev - 1))
+                        }
+                        className="px-2 py-0.5 border border-border rounded bg-surface hover:bg-surface-2 text-fg font-bold text-xs"
                         title="缩小文字"
                       >
                         A-
                       </button>
-                      <span className="font-mono text-xs w-6 text-center text-stone-800 dark:text-zinc-200">{articleFontSize}px</span>
+                      <span className="font-mono tabular-nums text-xs w-8 text-center text-fg">
+                        {articleFontSize}px
+                      </span>
                       <button
-                        onClick={() => setArticleFontSize((prev) => Math.min(22, prev + 1))}
-                        className="px-2 py-0.5 border border-stone-300 dark:border-zinc-700 rounded bg-white dark:bg-zinc-800 hover:bg-stone-100 dark:hover:bg-zinc-700 text-stone-700 dark:text-zinc-200 font-serif font-bold text-xs"
+                        type="button"
+                        onClick={() =>
+                          setArticleFontSize((prev) => Math.min(22, prev + 1))
+                        }
+                        className="px-2 py-0.5 border border-border rounded bg-surface hover:bg-surface-2 text-fg font-bold text-xs"
                         title="放大文字"
                       >
                         A+
@@ -949,171 +884,129 @@ export default function MistakesPage() {
                     </div>
                   </div>
 
-                  {/* Passage Text Content (Paper reading canvas) */}
-                  <div className="flex-1 p-6 sm:p-8 overflow-y-auto overscroll-contain font-serif text-[#2c3e50] dark:text-zinc-200 leading-[1.85] tracking-wide select-text">
-                    <div 
-                      style={{ fontSize: `${articleFontSize}px` }} 
-                      className="whitespace-pre-line space-y-4 max-w-prose"
+                  <div className="flex-1 p-6 sm:p-8 overflow-y-auto overscroll-contain select-text">
+                    <div
+                      style={{ fontSize: `${articleFontSize}px` }}
+                      className="reading-prose whitespace-pre-line space-y-4 text-fg"
                     >
                       {sideBySideItem.detail.passages.content}
                     </div>
-                    <div className="mt-8 pt-4 border-t border-stone-200/80 dark:border-zinc-800 text-xs text-stone-500 dark:text-zinc-500 flex items-center space-x-2">
-                      <Sparkles className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
-                      <span>提示：双击文中任意生词，即可唤醒离线词典查词并收录至生词本。</span>
+                    <div className="mt-8 pt-4 border-t border-border text-xs text-fg-subtle flex items-center gap-2">
+                      <Sparkles className="w-3.5 h-3.5 text-primary" />
+                      <span>
+                        提示：双击文中任意生词，即可唤醒离线词典查词并收录至生词本。
+                      </span>
                     </div>
                   </div>
 
-                  {/* Mobile Switch to Question Button */}
-                  <div className="lg:hidden p-3 border-t border-stone-200/80 dark:border-zinc-800 bg-[#f8f6f0] dark:bg-[#11131a] flex justify-end shrink-0">
-                    <button
-                      type="button"
-                      onClick={() => setStudioMobileTab("question")}
-                      className="px-4 py-1.5 rounded-xl bg-amber-600 dark:bg-amber-500 text-white dark:text-zinc-950 text-xs font-bold flex items-center space-x-1 shadow-subtle active:scale-95"
-                    >
-                      <span>前往作答与查看精析 &rarr;</span>
-                    </button>
+                  <div className="lg:hidden p-3 border-t border-border bg-surface-2 flex justify-end shrink-0">
+                    <Button size="sm" onClick={() => setStudioMobileTab("question")}>
+                      前往作答与查看精析 &rarr;
+                    </Button>
                   </div>
                 </div>
               ) : (
-                <div className="hidden lg:flex lg:w-[55%] border-r border-stone-200 dark:border-cyan-500/20 bg-[#fcfbf9] dark:bg-[#090a0f] p-8 flex-col items-center justify-center text-center">
-                  <div className="w-14 h-14 rounded-2xl bg-amber-50 dark:bg-amber-500/10 border border-amber-200/60 dark:border-amber-500/20 flex items-center justify-center text-amber-600 dark:text-amber-400 mb-3 font-serif text-2xl font-bold">
+                <div className="hidden lg:flex lg:w-[55%] border-r border-border bg-bg p-8 flex-col items-center justify-center text-center">
+                  <div className="w-14 h-14 rounded-2xl bg-warning-soft border border-warning/30 flex items-center justify-center text-warning mb-3 font-reading text-2xl font-bold">
                     §
                   </div>
-                  <p className="text-sm font-bold text-stone-700 dark:text-zinc-200">独立单项题研习</p>
-                  <p className="text-xs text-stone-500 dark:text-zinc-400 mt-1.5 max-w-sm">
+                  <p className="text-sm font-bold text-fg">独立单项题研习</p>
+                  <p className="text-xs text-fg-muted mt-1.5 max-w-sm">
                     本题无需对照篇章材料，请在右侧研析题干、重新作答或查看考点精析。
                   </p>
                 </div>
               )}
 
-              {/* Right Pane: Golden 45% Answering Canvas */}
-              <div className={`${studioMobileTab === "question" || !sideBySideItem.detail.passages?.content ? "flex" : "hidden"} lg:flex flex-1 lg:w-[45%] flex-col bg-white dark:bg-[#11131a] h-full overflow-hidden`}>
-                <div className="px-6 py-3 border-b border-slate-200 dark:border-cyan-500/20 flex items-center justify-between shrink-0 bg-slate-50/50 dark:bg-zinc-900/60">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-xs font-bold bg-amber-100 dark:bg-amber-950/40 text-amber-900 dark:text-amber-300 px-2 py-0.5 rounded border border-transparent dark:border-amber-500/20">
+              <div
+                className={`${
+                  studioMobileTab === "question" ||
+                  !sideBySideItem.detail.passages?.content
+                    ? "flex"
+                    : "hidden"
+                } lg:flex flex-1 lg:w-[45%] flex-col bg-surface h-full overflow-hidden`}
+              >
+                <div className="px-6 py-3 border-b border-border flex items-center justify-between shrink-0 bg-surface-2/60">
+                  <div className="flex items-center gap-2">
+                    <Badge tone="danger">
                       做错 {sideBySideItem.mistake.wrongCount} 次
-                    </span>
-                    <span className="text-xs text-slate-500 dark:text-zinc-400">
-                      上次选错: <strong className="text-rose-600 dark:text-rose-400 font-mono">{sideBySideItem.mistake.wrongAnswer}</strong>
+                    </Badge>
+                    <span className="text-xs text-fg-muted">
+                      上次选错：
+                      <strong className="text-danger font-mono">
+                        {sideBySideItem.mistake.wrongAnswer}
+                      </strong>
                     </span>
                   </div>
 
-                  <div className="flex items-center space-x-2">
+                  <div className="flex items-center gap-2">
                     {sideBySideItem.detail.passages?.content && (
-                      <button
-                        type="button"
+                      <Button
+                        variant="secondary"
+                        size="sm"
                         onClick={() => setStudioMobileTab("passage")}
-                        className="lg:hidden px-2 py-0.5 rounded-md bg-amber-50 dark:bg-amber-950/40 text-amber-800 dark:text-amber-300 border border-amber-200/60 dark:border-amber-500/20 text-xs font-semibold flex items-center space-x-1 active:scale-95"
+                        className="lg:hidden"
                       >
                         <BookOpen className="w-3 h-3" />
                         <span>看原文</span>
-                      </button>
+                      </Button>
                     )}
 
-                    <button
+                    <Button
+                      variant={sideBySideItem.mistake.isMastered ? "secondary" : "primary"}
+                      size="sm"
                       onClick={() => handleToggle(sideBySideItem.mistake.questionId)}
-                      className={`px-3 py-1 rounded-lg text-xs font-bold border transition-colors ${
-                        sideBySideItem.mistake.isMastered
-                          ? "bg-slate-100 dark:bg-zinc-800 text-slate-600 dark:text-zinc-400 border-slate-200 dark:border-zinc-700"
-                          : "bg-emerald-50 dark:bg-emerald-500/10 border-emerald-300 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-400 hover:bg-emerald-100 dark:hover:bg-emerald-500/20"
-                      }`}
                     >
                       {sideBySideItem.mistake.isMastered ? "撤销已掌握" : "标为已掌握"}
-                    </button>
+                    </Button>
                   </div>
                 </div>
 
-                {/* Right Scrollable Area */}
                 <div className="flex-1 p-6 overflow-y-auto overscroll-contain space-y-6">
-                  {/* Stem */}
-                  <div>
-                    <h3 className="text-base sm:text-lg font-bold text-slate-900 dark:text-zinc-100 leading-relaxed font-serif">
-                      {sideBySideItem.detail.stem}
-                    </h3>
-                  </div>
+                  <h3 className="text-base sm:text-lg font-bold text-fg leading-relaxed font-reading">
+                    {sideBySideItem.detail.stem}
+                  </h3>
 
-                  {/* Options with normalizeOptions support */}
-                  {(() => {
-                    const opts = normalizeOptions(sideBySideItem.detail.options);
-                    const isGrid = opts.length > 5;
-                    return (
-                      <div className={isGrid ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2" : "space-y-3"}>
-                        {opts.map((opt) => {
-                          const retestAns = retestAnswers[sideBySideItem.detail.id];
-                          const isRetested = Boolean(retestAns);
-                          const isTheCorrect = opt.key === sideBySideItem.detail.correct_answer;
-                          const isSelected = retestAns === opt.key;
+                  <QuestionOptionList
+                    options={normalizeOptions(sideBySideItem.detail.options)}
+                    selectedAnswer={retestAnswers[sideBySideItem.detail.id]}
+                    correctAnswer={sideBySideItem.detail.correct_answer}
+                    showResult={Boolean(retestAnswers[sideBySideItem.detail.id])}
+                    onSelect={(key) =>
+                      handleRetestOption(
+                        sideBySideItem.detail.id,
+                        sideBySideItem.detail.correct_answer,
+                        key
+                      )
+                    }
+                  />
 
-                          let btnStyle = "bg-slate-50 dark:bg-zinc-900/70 border-slate-200/80 dark:border-zinc-800 text-slate-800 dark:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/80";
-                          let badgeStyle = "bg-white dark:bg-zinc-800 border-slate-300 dark:border-zinc-700 text-slate-700 dark:text-zinc-200";
-
-                          if (isRetested) {
-                            if (isTheCorrect) {
-                              btnStyle = "bg-emerald-50 dark:bg-emerald-950/40 border-emerald-400 dark:border-emerald-500 text-emerald-950 dark:text-emerald-300 font-bold ring-1 ring-emerald-400";
-                              badgeStyle = "bg-emerald-600 text-white border-emerald-600";
-                            } else if (isSelected) {
-                              btnStyle = "bg-rose-50 dark:bg-rose-950/40 border-rose-300 dark:border-rose-500 text-rose-950 dark:text-rose-300 font-bold ring-1 ring-rose-300";
-                              badgeStyle = "bg-rose-600 text-white border-rose-600";
-                            }
-                          }
-
-                          return (
-                            <button
-                              key={opt.key}
-                              onClick={() =>
-                                handleRetestOption(
-                                  sideBySideItem.detail.id,
-                                  sideBySideItem.detail.correct_answer,
-                                  opt.key
-                                )
-                              }
-                              className={isGrid
-                                ? `p-2.5 rounded-xl border text-left flex items-center space-x-2 transition-all shadow-xs ${btnStyle}`
-                                : `w-full p-4 rounded-xl border text-left flex items-start space-x-3.5 transition-all shadow-xs ${btnStyle}`}
-                              title={opt.text}
-                            >
-                              <span className={`w-7 h-7 rounded-lg border text-xs font-bold font-mono flex items-center justify-center shrink-0 ${badgeStyle}`}>
-                                {opt.key}
-                              </span>
-                              <span className={`text-xs ${isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"} flex-1`}>
-                                {opt.text}
-                              </span>
-                              {!isGrid && (
-                                <span className="text-[10px] text-slate-400 dark:text-zinc-500 font-mono self-center hidden sm:inline">
-                                  [键入 {opt.key}]
-                                </span>
-                              )}
-                            </button>
-                          );
-                        })}
-                      </div>
-                    );
-                  })()}
-
-                  {/* Retest Success Alert */}
                   {congratsId === sideBySideItem.detail.id && (
-                    <div className="p-4 bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-500/30 rounded-2xl flex items-center justify-between text-xs text-emerald-800 dark:text-emerald-300 animate-in fade-in duration-150 shadow-xs">
-                      <div className="flex items-center space-x-2">
-                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                        <span className="font-bold">恭喜！重做答对，该考点已被攻克！</span>
+                    <div className="p-4 bg-success-soft border border-success/30 rounded-2xl flex items-center justify-between text-xs text-fg animate-in fade-in duration-150">
+                      <div className="flex items-center gap-2">
+                        <CheckCircle2 className="w-5 h-5 text-success shrink-0" />
+                        <span className="font-bold">
+                          恭喜！重做答对，该考点已被攻克！
+                        </span>
                       </div>
-                      <button
+                      <Button
+                        size="sm"
                         onClick={() => handleConfirmMastered(sideBySideItem.detail.id)}
-                        className="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl shadow-sm transition-colors"
                       >
                         移入已掌握
-                      </button>
+                      </Button>
                     </div>
                   )}
 
-                  {/* Explanation Block */}
-                  {(Boolean(retestAnswers[sideBySideItem.detail.id]) || sideBySideItem.mistake.isMastered) && (
-                    <div className="p-5 rounded-2xl bg-indigo-50/70 dark:bg-zinc-900/80 border border-indigo-100 dark:border-cyan-500/20 text-xs space-y-2">
-                      <div className="flex items-center space-x-2 font-bold text-indigo-950 dark:text-cyan-300">
-                        <HelpCircle className="w-4 h-4 text-indigo-600 dark:text-cyan-400" />
-                        <span>考点精析 · 正确答案: {sideBySideItem.detail.correct_answer}</span>
+                  {(Boolean(retestAnswers[sideBySideItem.detail.id]) ||
+                    sideBySideItem.mistake.isMastered) && (
+                    <div className="p-5 rounded-2xl bg-surface-2/80 border border-border text-xs space-y-2">
+                      <div className="flex items-center gap-2 font-bold text-primary">
+                        <HelpCircle className="w-4 h-4" />
+                        <span>
+                          考点精析 · 正确答案：{sideBySideItem.detail.correct_answer}
+                        </span>
                       </div>
-                      <p className="text-slate-700 dark:text-zinc-300 leading-relaxed whitespace-pre-line text-sm">
+                      <p className="text-fg-muted leading-relaxed whitespace-pre-line text-sm">
                         {sideBySideItem.detail.explanation}
                       </p>
                     </div>

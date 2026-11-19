@@ -89,24 +89,24 @@ export default function SplitPane({
   return (
     <div className={`space-y-2.5 ${className}`}>
       {/* PC Split Ratio Quick Controls (Hidden on mobile) */}
-      <div className="hidden lg:flex items-center justify-between text-xs text-stone-500 dark:text-zinc-400 px-1">
-        <div className="flex items-center space-x-1.5 font-medium">
-          <Split className="w-3.5 h-3.5 text-stone-400 dark:text-zinc-500" />
-          <span>分栏比例:</span>
-          <span className="font-mono font-bold text-stone-700 dark:text-zinc-200">
+      <div className="hidden lg:flex items-center justify-between text-xs text-fg-muted px-1">
+        <div className="flex items-center gap-1.5 font-medium">
+          <Split className="w-3.5 h-3.5 text-fg-subtle" />
+          <span>分栏比例：</span>
+          <span className="font-mono font-bold text-fg tabular-nums">
             {Math.round(leftRatio)}% : {100 - Math.round(leftRatio)}%
           </span>
         </div>
 
-        <div className="flex items-center space-x-1 bg-stone-100 dark:bg-zinc-800/80 p-0.5 rounded-lg border border-black/[0.04] dark:border-cyan-500/15">
+        <div className="flex items-center gap-1 bg-surface-2 p-0.5 rounded-lg border border-border">
           <button
             type="button"
             onClick={() => updateRatio(50)}
             title="对称平衡 (5:5 均分左右视野)"
-            className={`px-2 py-0.5 rounded text-[11px] font-medium transition-all ${
+            className={`px-2 py-0.5 rounded text-[11px] font-medium transition-colors ${
               Math.round(leftRatio) === 50
-                ? "bg-white dark:bg-zinc-700 text-stone-900 dark:text-zinc-100 shadow-sm font-bold"
-                : "text-stone-500 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200"
+                ? "bg-surface text-fg shadow-1 font-bold"
+                : "text-fg-muted hover:text-fg"
             }`}
           >
             5:5 对称
@@ -115,10 +115,10 @@ export default function SplitPane({
             type="button"
             onClick={() => updateRatio(60)}
             title="黄金标准 (6:4 适中文本与题目对照)"
-            className={`px-2 py-0.5 rounded text-[11px] font-medium transition-all ${
+            className={`px-2 py-0.5 rounded text-[11px] font-medium transition-colors ${
               Math.round(leftRatio) === 60
-                ? "bg-white dark:bg-zinc-700 text-stone-900 dark:text-zinc-100 shadow-sm font-bold"
-                : "text-stone-500 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200"
+                ? "bg-surface text-fg shadow-1 font-bold"
+                : "text-fg-muted hover:text-fg"
             }`}
           >
             6:4 标准
@@ -127,15 +127,15 @@ export default function SplitPane({
             type="button"
             onClick={() => updateRatio(70)}
             title="宽幅研读 (7:3 宽幅文章大屏精读)"
-            className={`px-2 py-0.5 rounded text-[11px] font-medium transition-all ${
+            className={`px-2 py-0.5 rounded text-[11px] font-medium transition-colors ${
               Math.round(leftRatio) === 70
-                ? "bg-white dark:bg-zinc-700 text-stone-900 dark:text-zinc-100 shadow-sm font-bold"
-                : "text-stone-500 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200"
+                ? "bg-surface text-fg shadow-1 font-bold"
+                : "text-fg-muted hover:text-fg"
             }`}
           >
             7:3 宽阅读
           </button>
-          <span className="text-[10px] text-stone-400 dark:text-zinc-500 px-1 border-l border-stone-200 dark:border-zinc-700">
+          <span className="text-[10px] text-fg-subtle px-1 border-l border-border">
             可拖拽中轴线
           </span>
         </div>
@@ -163,20 +163,18 @@ export default function SplitPane({
             title="按住鼠标拖拽微调分栏宽度，双击恢复默认 6:4"
             className="w-4 shrink-0 -mx-1 group relative flex items-center justify-center cursor-col-resize self-stretch z-10 select-none py-4"
           >
-            {/* Visual Line */}
             <div
               className={`w-1 h-full rounded-full transition-all duration-150 ${
                 isDragging
-                  ? "bg-emerald-600 dark:bg-cyber-400 w-1.5 shadow-glow-cyan"
-                  : "bg-transparent group-hover:bg-emerald-500/40 dark:group-hover:bg-cyan-500/40"
+                  ? "bg-primary w-1.5"
+                  : "bg-transparent group-hover:bg-primary/40"
               }`}
             />
-            {/* Grip Dots */}
             <div
-              className={`absolute top-1/2 -translate-y-1/2 w-3.5 h-7 rounded-full bg-white dark:bg-zinc-800 border border-black/10 dark:border-cyan-500/30 shadow-md flex items-center justify-center transition-all ${
+              className={`absolute top-1/2 -translate-y-1/2 w-3.5 h-7 rounded-full bg-surface border border-border shadow-1 flex items-center justify-center transition-all ${
                 isDragging
-                  ? "scale-110 border-emerald-600 dark:border-cyber-400 text-emerald-600 dark:text-cyber-400"
-                  : "group-hover:scale-105 text-stone-400 dark:text-zinc-500"
+                  ? "scale-110 border-primary text-primary"
+                  : "group-hover:scale-105 text-fg-subtle"
               }`}
             >
               <div className="flex flex-col space-y-0.5">

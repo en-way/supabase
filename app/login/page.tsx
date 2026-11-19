@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
-import { 
-  clearLocalData, 
+import {
+  clearLocalData,
   downloadBackupFromCloud,
   reconcileLearningState,
   touchUserActivityThrottled,
@@ -15,17 +15,20 @@ import {
   setLoginSyncInProgress,
 } from "@/lib/storage";
 import { clearPendingSubmissionTasks } from "@/lib/submissionQueue";
-import { 
-  BookOpen, 
-  KeyRound, 
-  User, 
-  Sparkles, 
-  CheckCircle2, 
+import { Button } from "@/components/ui/Button";
+import { Card } from "@/components/ui/Card";
+import { Spinner } from "@/components/ui/Feedback";
+import { Input } from "@/components/ui/Field";
+import { Modal } from "@/components/ui/Modal";
+import {
+  KeyRound,
+  User,
+  Sparkles,
+  CheckCircle2,
   AlertCircle,
   Users,
   Lock,
-  X,
-  HelpCircle
+  HelpCircle,
 } from "lucide-react";
 
 function getSafeRedirectTarget(): string {
@@ -35,19 +38,20 @@ function getSafeRedirectTarget(): string {
     const r = params.get("redirect");
     if (!r) return "/";
 
-    // 1. Prevent backslash / protocol-relative open redirect attacks
     if (r.startsWith("//") || r.startsWith("/\\") || r.includes("\\")) {
       return "/";
     }
 
-    // 2. Validate strict same-origin via standard URL parser
     const parsed = new URL(r, window.location.origin);
     if (parsed.origin !== window.location.origin) {
       return "/";
     }
 
-    // 3. Prevent infinite redirect loop back to login
-    if (parsed.pathname === "/login" || parsed.pathname === "/login/" || parsed.pathname.startsWith("/login")) {
+    if (
+      parsed.pathname === "/login" ||
+      parsed.pathname === "/login/" ||
+      parsed.pathname.startsWith("/login")
+    ) {
       return "/";
     }
 
@@ -67,15 +71,16 @@ export default function LoginPage() {
   const [errorMsg, setErrorMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // Forgot password modal state
   const [showForgotModal, setShowForgotModal] = useState(false);
   const [forgotUsername, setForgotUsername] = useState("");
   const [forgotNewPassword, setForgotNewPassword] = useState("");
   const [forgotConfirmPassword, setForgotConfirmPassword] = useState("");
   const [forgotLoading, setForgotLoading] = useState(false);
-  const [forgotNotice, setForgotNotice] = useState<{ type: "success" | "error"; text: string } | null>(null);
+  const [forgotNotice, setForgotNotice] = useState<{
+    type: "success" | "error";
+    text: string;
+  } | null>(null);
 
-  // System settings state for quota & registration status
   const [settings, setSettings] = useState<{
     maxStudentsLimit: number;
     registrationEnabled: boolean;
@@ -87,7 +92,9 @@ export default function LoginPage() {
     let isMounted = true;
     async function loadSettings() {
       try {
-        const { data: quotaData, error: rpcErr } = await supabase.rpc("get_registration_quota_status");
+        const { data: quotaData, error: rpcErr } = await supabase.rpc(
+          "get_registration_quota_status"
+        );
         if (!isMounted) return;
 
         if (!rpcErr && quotaData && typeof quotaData === "object") {
@@ -100,7 +107,6 @@ export default function LoginPage() {
           return;
         }
 
-        // Graceful fallback before remote DB migration is applied (never queries profiles as anon)
         const { data: setRow } = await supabase
           .from("system_settings")
           .select("max_students_limit, registration_enabled")
@@ -128,17 +134,6 @@ export default function LoginPage() {
     };
   }, []);
 
-  // Body scroll lock when forgot password modal is open
-  useEffect(() => {
-    if (showForgotModal) {
-      const originalOverflow = document.body.style.overflow;
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = originalOverflow;
-      };
-    }
-  }, [showForgotModal]);
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setErrorMsg("");
@@ -158,32 +153,41 @@ export default function LoginPage() {
       return;
     }
 
-    // Double check registration settings
     if (isRegister) {
       if (settings?.registrationEnabled === false) {
         setErrorMsg("系统当前已暂停新用户注册，请联系管理员。");
         return;
       }
       if (settings?.isFull) {
-        setErrorMsg(`注册人数已达系统上限（${settings.maxStudentsLimit}人），暂不开放新注册。`);
+        setErrorMsg(
+          `注册人数已达系统上限（${settings.maxStudentsLimit}人），暂不开放新注册。`
+        );
         return;
       }
     }
 
     setLoading(true);
     setRetryStatus("");
-    // Use internal standard email mapping to satisfy Supabase GoTrue Auth
     const internalEmail = `${cleanUsername}@enway.com`;
 
-    const isRateLimitAuthError = (err: { status?: number; message?: string } | null | undefined): boolean => {
+    const isRateLimitAuthError = (
+      err: { status?: number; message?: string } | null | undefined
+    ): boolean => {
       if (!err) return false;
       const has429Status = "status" in err && err.status === 429;
       const msg = (err.message || "").toLowerCase();
-      return has429Status || msg.includes("rate limit") || msg.includes("too many requests");
+      return (
+        has429Status ||
+        msg.includes("rate limit") ||
+        msg.includes("too many requests")
+      );
     };
 
-    // Resilient Auth helpers with jittered exponential backoff for 429 rate limit
-    const signInWithBackoff = async (email: string, pass: string, maxRetries = 3) => {
+    const signInWithBackoff = async (
+      email: string,
+      pass: string,
+      maxRetries = 3
+    ) => {
       for (let attempt = 1; attempt <= maxRetries; attempt++) {
         const res = await supabase.auth.signInWithPassword({
           email,
@@ -191,7 +195,9 @@ export default function LoginPage() {
         });
         if (!res.error) return res;
         if (isRateLimitAuthError(res.error) && attempt < maxRetries) {
-          const delay = Math.floor(1000 * Math.pow(1.5, attempt) + Math.random() * 800);
+          const delay = Math.floor(
+            1000 * Math.pow(1.5, attempt) + Math.random() * 800
+          );
           setRetryStatus(`登录高峰安全排队中 (第 ${attempt}/${maxRetries} 次)...`);
           await new Promise((r) => setTimeout(r, delay));
           continue;
@@ -200,7 +206,10 @@ export default function LoginPage() {
       }
       return {
         data: { user: null, session: null },
-        error: { message: "登录请求超时，请稍后重试", status: 408 } as { message: string; status?: number },
+        error: { message: "登录请求超时，请稍后重试", status: 408 } as {
+          message: string;
+          status?: number;
+        },
       };
     };
 
@@ -218,7 +227,9 @@ export default function LoginPage() {
         });
         if (!res.error) return res;
         if (isRateLimitAuthError(res.error) && attempt < maxRetries) {
-          const delay = Math.floor(1000 * Math.pow(1.5, attempt) + Math.random() * 800);
+          const delay = Math.floor(
+            1000 * Math.pow(1.5, attempt) + Math.random() * 800
+          );
           setRetryStatus(`注册服务高峰排队中 (第 ${attempt}/${maxRetries} 次)...`);
           await new Promise((r) => setTimeout(r, delay));
           continue;
@@ -227,7 +238,10 @@ export default function LoginPage() {
       }
       return {
         data: { user: null, session: null },
-        error: { message: "注册请求超时，请稍后重试", status: 408 } as { message: string; status?: number },
+        error: { message: "注册请求超时，请稍后重试", status: 408 } as {
+          message: string;
+          status?: number;
+        },
       };
     };
 
@@ -250,16 +264,12 @@ export default function LoginPage() {
     try {
       setLoginSyncInProgress(true);
       if (isRegister) {
-        const { data, error } = await signUpWithBackoff(
-          internalEmail,
-          password,
-          {
-            data: {
-              username: cleanUsername,
-              nickname: cleanUsername,
-            },
-          }
-        );
+        const { data, error } = await signUpWithBackoff(internalEmail, password, {
+          data: {
+            username: cleanUsername,
+            nickname: cleanUsername,
+          },
+        });
 
         if (error) {
           if (error.message.includes("User already registered")) {
@@ -279,12 +289,13 @@ export default function LoginPage() {
         }
 
         const activeUser =
-          activeSession?.user || (await supabase.auth.getSession()).data.session?.user || null;
+          activeSession?.user ||
+          (await supabase.auth.getSession()).data.session?.user ||
+          null;
         if (!activeUser) {
           throw new Error("注册已完成但未能建立登录会话，请切换登录页面直接登录");
         }
 
-        // Only wipe local state & bind user ID after a valid session is confirmed
         clearCrossAccountClientCaches();
         setLastLocalUserId(activeUser.id);
 
@@ -315,7 +326,6 @@ export default function LoginPage() {
           (await supabase.auth.getSession()).data.session?.user?.id ||
           null;
 
-        // Cross-account isolation: prevent merging previous account's drafts or offline queue
         const prevUserId = getLastLocalUserId();
         if (signedInUserId && prevUserId && prevUserId !== signedInUserId) {
           clearCrossAccountClientCaches();
@@ -326,19 +336,16 @@ export default function LoginPage() {
 
         setSuccessMsg("登录成功，正在从云端对象存储同步并校对存档...");
 
-        // Touch active timestamp on login (throttled across tabs/actions)
         try {
           await touchUserActivityThrottled();
         } catch {}
 
-        // Automatically pull latest backup from Supabase Storage and reconcile (keep local safe if pull fails)
         try {
           const downloadRes = await downloadBackupFromCloud();
           if (downloadRes.success) {
             console.log("云端档案同步完成");
           }
 
-          // 🛡️ Free Quota Protection: Per-account 7-day throttle on automatic reconciliation
           const lastRecon = getLastReconcileTimestamp(signedInUserId);
           if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
             try {
@@ -363,8 +370,8 @@ export default function LoginPage() {
         err instanceof Error
           ? err.message
           : typeof err === "object" && err !== null && "message" in err
-          ? String((err as { message?: unknown }).message || "")
-          : "";
+            ? String((err as { message?: unknown }).message || "")
+            : "";
       setErrorMsg(errMsg || "操作失败，请稍后重试");
     } finally {
       setLoginSyncInProgress(false);
@@ -392,16 +399,21 @@ export default function LoginPage() {
 
     try {
       setForgotLoading(true);
-      const { data, error } = await supabase.rpc("submit_unauthenticated_password_reset_request", {
-        input_username: uname,
-        new_plain_password: forgotNewPassword,
-      });
+      const { data, error } = await supabase.rpc(
+        "submit_unauthenticated_password_reset_request",
+        {
+          input_username: uname,
+          new_plain_password: forgotNewPassword,
+        }
+      );
 
       if (error) throw error;
 
       setForgotNotice({
         type: "success",
-        text: data?.message || "已成功提交重置密码申请！请联系超级管理员审批，审批通过后即可使用新密码登录。",
+        text:
+          data?.message ||
+          "已成功提交重置密码申请！请联系超级管理员审批，审批通过后即可使用新密码登录。",
       });
       setForgotNewPassword("");
       setForgotConfirmPassword("");
@@ -410,8 +422,8 @@ export default function LoginPage() {
         err instanceof Error
           ? err.message
           : typeof err === "object" && err !== null && "message" in err
-          ? String((err as { message?: unknown }).message || "")
-          : "";
+            ? String((err as { message?: unknown }).message || "")
+            : "";
       setForgotNotice({
         type: "error",
         text: errMsg || "提交重置密码申请失败，请稍后重试",
@@ -421,51 +433,50 @@ export default function LoginPage() {
     }
   };
 
-  const isRegistrationBlocked = 
+  const isRegistrationBlocked =
     settings && (!settings.registrationEnabled || settings.isFull);
 
   return (
-    <div className="min-h-[calc(100vh-4.5rem)] -mt-6 flex flex-col justify-center items-center px-4 relative">
-      {/* Background soft ambient radial glow */}
-      <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-emerald-200/30 dark:bg-cyan-900/20 rounded-full blur-3xl pointer-events-none -z-10 transition-colors duration-300" />
-
-      <div className="w-full max-w-md bg-white dark:bg-[#11131a] rounded-2xl shadow-card border border-black/[0.08] dark:border-cyan-500/25 p-7 sm:p-8 relative transition-colors duration-300">
-        {/* Header */}
+    <div className="min-h-[calc(100dvh-5rem)] flex flex-col justify-center items-center px-4 py-8">
+      <Card className="w-full max-w-md p-7 sm:p-8 shadow-2">
         <div className="text-center mb-7">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] shadow-sm mb-3.5 tracking-tight font-black font-serif text-lg dark:shadow-glow-cyan">
+          <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-primary text-primary-fg shadow-1 mb-3.5 tracking-tight font-black font-reading text-lg">
             EW
           </div>
-          <h1 className="text-xl font-bold text-stone-900 dark:text-zinc-100 tracking-tight">
+          <h1 className="text-xl font-bold text-fg tracking-tight">
             Enway 在线英语平台
           </h1>
-          <p className="text-xs text-stone-500 dark:text-zinc-400 mt-1">
+          <p className="text-xs text-fg-muted mt-1">
             全国统考硕士研招 · 考研英语一与英语二历年全真真题研习
           </p>
         </div>
 
-        {/* Quota / Registration Alert Banner */}
         {settings && !settings.registrationEnabled && (
-          <div className="mb-4 p-3 bg-amber-50/70 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-500/30 rounded-xl flex items-center space-x-2 text-xs text-amber-900 dark:text-amber-300">
-            <Lock className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
+          <div className="mb-4 p-3 bg-warning-soft border border-warning/30 rounded-xl flex items-center gap-2 text-xs text-fg">
+            <Lock className="w-4 h-4 text-warning shrink-0" />
             <span>系统已由管理员暂停新学员注册，已注册学员可正常登录。</span>
           </div>
         )}
         {settings && settings.isFull && (
-          <div className="mb-4 p-3 bg-amber-50/70 dark:bg-amber-950/40 border border-amber-200/80 dark:border-amber-500/30 rounded-xl flex items-center space-x-2 text-xs text-amber-900 dark:text-amber-300">
-            <Users className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0" />
-            <span>注册学员已达到系统设定的最大人数上限（{settings.maxStudentsLimit}人），暂不开放新注册。</span>
+          <div className="mb-4 p-3 bg-warning-soft border border-warning/30 rounded-xl flex items-center gap-2 text-xs text-fg">
+            <Users className="w-4 h-4 text-warning shrink-0" />
+            <span>
+              注册学员已达到系统设定的最大人数上限（{settings.maxStudentsLimit}人），暂不开放新注册。
+            </span>
           </div>
         )}
 
-        {/* Tab Switcher */}
-        <div className="grid grid-cols-2 gap-1 p-1 bg-stone-100 dark:bg-zinc-900 rounded-xl mb-5">
+        <div className="grid grid-cols-2 gap-1 p-1 bg-surface-2 border border-border rounded-xl mb-5">
           <button
             type="button"
-            onClick={() => { setIsRegister(false); setErrorMsg(""); }}
-            className={`py-2 text-xs font-semibold rounded-lg transition-all ${
-              !isRegister 
-                ? "bg-white dark:bg-zinc-800 text-stone-900 dark:text-cyber-300 shadow-subtle dark:shadow-glow-cyan" 
-                : "text-stone-500 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200"
+            onClick={() => {
+              setIsRegister(false);
+              setErrorMsg("");
+            }}
+            className={`py-2 text-xs font-semibold rounded-lg transition-colors ${
+              !isRegister
+                ? "bg-surface text-fg shadow-1"
+                : "text-fg-muted hover:text-fg"
             }`}
           >
             学员登录
@@ -473,90 +484,90 @@ export default function LoginPage() {
           <button
             type="button"
             disabled={Boolean(isRegistrationBlocked)}
-            onClick={() => { setIsRegister(true); setErrorMsg(""); }}
-            className={`py-2 text-xs font-semibold rounded-lg transition-all ${
-              isRegister 
-                ? "bg-white dark:bg-zinc-800 text-stone-900 dark:text-cyber-300 shadow-subtle dark:shadow-glow-cyan" 
-                : isRegistrationBlocked 
-                ? "text-stone-400 dark:text-zinc-600 cursor-not-allowed" 
-                : "text-stone-500 dark:text-zinc-400 hover:text-stone-800 dark:hover:text-zinc-200"
+            onClick={() => {
+              setIsRegister(true);
+              setErrorMsg("");
+            }}
+            className={`py-2 text-xs font-semibold rounded-lg transition-colors ${
+              isRegister
+                ? "bg-surface text-fg shadow-1"
+                : isRegistrationBlocked
+                  ? "text-fg-subtle opacity-50 cursor-not-allowed"
+                  : "text-fg-muted hover:text-fg"
             }`}
           >
             快速注册 {isRegistrationBlocked && " (已满)"}
           </button>
         </div>
 
-        {/* Alerts */}
         {errorMsg && (
-          <div className="mb-4 p-3 rounded-xl bg-rose-50/80 dark:bg-rose-950/40 border border-rose-200/80 dark:border-rose-500/30 text-rose-700 dark:text-rose-300 text-xs flex items-center space-x-2">
+          <div className="mb-4 p-3 rounded-xl bg-danger-soft border border-danger/30 text-danger text-xs flex items-center gap-2">
             <AlertCircle className="w-4 h-4 shrink-0" />
             <span>{errorMsg}</span>
           </div>
         )}
         {successMsg && (
-          <div className="mb-4 p-3 rounded-xl bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-200/80 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-300 text-xs flex items-center space-x-2">
+          <div className="mb-4 p-3 rounded-xl bg-success-soft border border-success/30 text-success text-xs flex items-center gap-2">
             <CheckCircle2 className="w-4 h-4 shrink-0" />
             <span>{successMsg}</span>
           </div>
         )}
 
-        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
-            <label className="block text-xs font-medium text-stone-700 dark:text-zinc-300 mb-1.5">
+            <label className="block text-xs font-medium text-fg mb-1.5">
               用户名 / 学号
             </label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-stone-400 dark:text-zinc-500">
-                <User className="w-4 h-4" />
-              </div>
-              <input
+              <User className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-fg-subtle pointer-events-none" />
+              <Input
+                compact
                 type="text"
                 required
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 placeholder="例如: student01 或 20240901"
-                className="w-full pl-10 pr-4 py-2 bg-stone-50 dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl text-xs text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-700/10 dark:focus:ring-cyan-500/20 focus:border-emerald-600 dark:focus:border-cyan-400 focus:bg-white dark:focus:bg-zinc-950 transition-all"
+                className="pl-10"
               />
             </div>
           </div>
 
           <div>
-            <label className="block text-xs font-medium text-stone-700 dark:text-zinc-300 mb-1.5">
+            <label className="block text-xs font-medium text-fg mb-1.5">
               密码
             </label>
             <div className="relative">
-              <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-stone-400 dark:text-zinc-500">
-                <KeyRound className="w-4 h-4" />
-              </div>
-              <input
+              <KeyRound className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-fg-subtle pointer-events-none" />
+              <Input
+                compact
                 type="password"
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="至少 6 位密码"
-                className="w-full pl-10 pr-4 py-2 bg-stone-50 dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl text-xs text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-700/10 dark:focus:ring-cyan-500/20 focus:border-emerald-600 dark:focus:border-cyan-400 focus:bg-white dark:focus:bg-zinc-950 transition-all"
+                className="pl-10"
               />
             </div>
           </div>
 
-          <button
+          <Button
             type="submit"
             disabled={loading || (isRegister && Boolean(isRegistrationBlocked))}
-            className="w-full mt-2 py-2.5 px-4 bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 active:scale-[0.98] disabled:opacity-50 text-white dark:text-[#090a0f] text-xs font-bold rounded-xl shadow-sm dark:shadow-glow-cyan transition-all flex items-center justify-center space-x-2"
+            className="w-full mt-2"
           >
             {loading ? (
-              <div className="flex items-center space-x-2">
-                <div className="w-4 h-4 border-2 border-white dark:border-[#090a0f] border-t-transparent rounded-full animate-spin" />
-                <span>{retryStatus || (isRegister ? "正在处理注册..." : "安全登录中...")}</span>
-              </div>
+              <span className="inline-flex items-center gap-2">
+                <Spinner className="w-4 h-4 text-primary-fg" />
+                <span>
+                  {retryStatus || (isRegister ? "正在处理注册..." : "安全登录中...")}
+                </span>
+              </span>
             ) : (
               <span>{isRegister ? "立即完成注册" : "安全登录系统"}</span>
             )}
-          </button>
+          </Button>
         </form>
 
-        {/* Forgot password trigger */}
         {!isRegister && (
           <div className="mt-3 flex justify-end">
             <button
@@ -568,7 +579,7 @@ export default function LoginPage() {
                 setForgotNewPassword("");
                 setForgotConfirmPassword("");
               }}
-              className="text-xs text-stone-500 hover:text-emerald-700 dark:text-zinc-400 dark:hover:text-cyber-400 transition-colors inline-flex items-center space-x-1"
+              className="text-xs text-fg-muted hover:text-primary transition-colors inline-flex items-center gap-1"
             >
               <HelpCircle className="w-3.5 h-3.5" />
               <span>忘记密码？申请重置</span>
@@ -576,129 +587,102 @@ export default function LoginPage() {
           </div>
         )}
 
-        {/* Tip / Notes */}
-        <div className="mt-6 pt-5 border-t border-stone-100 dark:border-zinc-800 text-center">
-          <p className="text-[11px] text-stone-400 dark:text-zinc-500 leading-relaxed flex items-center justify-center space-x-1.5">
-            <Sparkles className="w-3.5 h-3.5 text-emerald-600 dark:text-cyber-400" />
+        <div className="mt-6 pt-5 border-t border-border text-center">
+          <p className="text-[11px] text-fg-subtle leading-relaxed flex items-center justify-center gap-1.5">
+            <Sparkles className="w-3.5 h-3.5 text-primary shrink-0" />
             <span>登录自动同步云端做题快照 · 退出彻底隔离设备本地数据</span>
           </p>
         </div>
-      </div>
+      </Card>
 
-      {/* Forgot Password Modal */}
-      {showForgotModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade-in overflow-y-auto overscroll-contain">
-          <div className="w-full max-w-md max-h-[90dvh] overflow-y-auto overscroll-contain bg-white dark:bg-[#11131a] rounded-2xl shadow-2xl border border-black/[0.08] dark:border-cyan-500/25 p-6 relative transition-colors duration-300">
-            {/* Modal Header */}
-            <div className="flex items-center justify-between pb-3 border-b border-stone-100 dark:border-zinc-800">
-              <div className="flex items-center space-x-2">
-                <div className="p-1.5 rounded-lg bg-emerald-100 dark:bg-cyan-950 text-emerald-800 dark:text-cyan-400">
-                  <KeyRound className="w-4 h-4" />
-                </div>
-                <div>
-                  <h3 className="text-sm font-bold text-stone-900 dark:text-zinc-100">申请重置密码</h3>
-                  <p className="text-[11px] text-stone-400 dark:text-zinc-500">全员自主申请制 · 超级管理员后台审批</p>
-                </div>
-              </div>
-              <button
-                type="button"
-                onClick={() => setShowForgotModal(false)}
-                className="p-1 text-stone-400 hover:text-stone-600 dark:hover:text-zinc-200 rounded-lg hover:bg-stone-100 dark:hover:bg-zinc-800 transition-colors"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
-
-            {/* Explanation banner */}
-            <div className="mt-3.5 p-3 rounded-xl bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200/80 dark:border-amber-500/30 text-[11px] text-amber-900 dark:text-amber-300 leading-relaxed">
-              为保护个人做题进度与数据安全，系统实行<strong>自主申请审批制</strong>。提交后将生成不可逆密文存入审批流，超级管理员审核通过后新密码即可生效。
-            </div>
-
-            {/* Notice banner */}
-            {forgotNotice && (
-              <div
-                className={`mt-3 p-3 rounded-xl text-xs flex items-start space-x-2 ${
-                  forgotNotice.type === "success"
-                    ? "bg-emerald-50/80 dark:bg-emerald-950/40 border border-emerald-200/80 dark:border-emerald-500/30 text-emerald-800 dark:text-emerald-300"
-                    : "bg-rose-50/80 dark:bg-rose-950/40 border border-rose-200/80 dark:border-rose-500/30 text-rose-700 dark:text-rose-300"
-                }`}
-              >
-                {forgotNotice.type === "success" ? (
-                  <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
-                ) : (
-                  <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-                )}
-                <span className="flex-1">{forgotNotice.text}</span>
-              </div>
-            )}
-
-            {/* Form */}
-            <form onSubmit={handleForgotSubmit} className="mt-4 space-y-3.5">
-              <div>
-                <label className="block text-xs font-medium text-stone-700 dark:text-zinc-300 mb-1">
-                  账号用户名 / 学号
-                </label>
-                <input
-                  type="text"
-                  required
-                  value={forgotUsername}
-                  onChange={(e) => setForgotUsername(e.target.value)}
-                  placeholder="请输入您的账号用户名"
-                  className="w-full px-3.5 py-2 bg-stone-50 dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl text-xs text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-700/10 dark:focus:ring-cyan-500/20 focus:border-emerald-600 dark:focus:border-cyan-400"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-medium text-stone-700 dark:text-zinc-300 mb-1">
-                  期望设置的新密码
-                </label>
-                <input
-                  type="password"
-                  required
-                  value={forgotNewPassword}
-                  onChange={(e) => setForgotNewPassword(e.target.value)}
-                  placeholder="至少 6 位密码"
-                  className="w-full px-3.5 py-2 bg-stone-50 dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl text-xs text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-700/10 dark:focus:ring-cyan-500/20 focus:border-emerald-600 dark:focus:border-cyan-400"
-                />
-              </div>
-
-              <div>
-                <label className="block text-xs font-medium text-stone-700 dark:text-zinc-300 mb-1">
-                  确认期望新密码
-                </label>
-                <input
-                  type="password"
-                  required
-                  value={forgotConfirmPassword}
-                  onChange={(e) => setForgotConfirmPassword(e.target.value)}
-                  placeholder="再次输入新密码"
-                  className="w-full px-3.5 py-2 bg-stone-50 dark:bg-zinc-900 border border-stone-200 dark:border-zinc-800 rounded-xl text-xs text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-700/10 dark:focus:ring-cyan-500/20 focus:border-emerald-600 dark:focus:border-cyan-400"
-                />
-              </div>
-
-              <div className="pt-2 flex items-center justify-end space-x-2">
-                <button
-                  type="button"
-                  onClick={() => setShowForgotModal(false)}
-                  className="px-3.5 py-2 rounded-xl text-xs text-stone-600 dark:text-zinc-400 hover:bg-stone-100 dark:hover:bg-zinc-800 transition-colors"
-                >
-                  关闭
-                </button>
-                <button
-                  type="submit"
-                  disabled={forgotLoading}
-                  className="px-4 py-2 bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 disabled:opacity-50 text-white dark:text-[#090a0f] text-xs font-bold rounded-xl shadow-sm dark:shadow-glow-cyan transition-all flex items-center space-x-1.5"
-                >
-                  {forgotLoading && (
-                    <div className="w-3.5 h-3.5 border-2 border-white dark:border-[#090a0f] border-t-transparent rounded-full animate-spin" />
-                  )}
-                  <span>{forgotLoading ? "正在提交..." : "提交改密申请"}</span>
-                </button>
-              </div>
-            </form>
+      <Modal
+        open={showForgotModal}
+        onClose={() => setShowForgotModal(false)}
+        title="申请重置密码"
+      >
+        <div className="space-y-3.5">
+          <div className="p-3 rounded-xl bg-warning-soft border border-warning/30 text-[11px] text-fg leading-relaxed">
+            为保护个人做题进度与数据安全，系统实行<strong>自主申请审批制</strong>
+            。提交后将生成不可逆密文存入审批流，超级管理员审核通过后新密码即可生效。
           </div>
+
+          {forgotNotice && (
+            <div
+              className={`p-3 rounded-xl text-xs flex items-start gap-2 border ${
+                forgotNotice.type === "success"
+                  ? "bg-success-soft border-success/30 text-success"
+                  : "bg-danger-soft border-danger/30 text-danger"
+              }`}
+            >
+              {forgotNotice.type === "success" ? (
+                <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
+              ) : (
+                <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
+              )}
+              <span className="flex-1">{forgotNotice.text}</span>
+            </div>
+          )}
+
+          <form onSubmit={handleForgotSubmit} className="space-y-3.5">
+            <div>
+              <label className="block text-xs font-medium text-fg mb-1">
+                账号用户名 / 学号
+              </label>
+              <Input
+                compact
+                type="text"
+                required
+                value={forgotUsername}
+                onChange={(e) => setForgotUsername(e.target.value)}
+                placeholder="请输入您的账号用户名"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-medium text-fg mb-1">
+                期望设置的新密码
+              </label>
+              <Input
+                compact
+                type="password"
+                required
+                value={forgotNewPassword}
+                onChange={(e) => setForgotNewPassword(e.target.value)}
+                placeholder="至少 6 位密码"
+              />
+            </div>
+
+            <div>
+              <label className="block text-xs font-medium text-fg mb-1">
+                确认期望新密码
+              </label>
+              <Input
+                compact
+                type="password"
+                required
+                value={forgotConfirmPassword}
+                onChange={(e) => setForgotConfirmPassword(e.target.value)}
+                placeholder="再次输入新密码"
+              />
+            </div>
+
+            <div className="pt-2 flex items-center justify-end gap-2">
+              <Button
+                type="button"
+                variant="secondary"
+                size="sm"
+                onClick={() => setShowForgotModal(false)}
+              >
+                关闭
+              </Button>
+              <Button type="submit" size="sm" disabled={forgotLoading}>
+                {forgotLoading && <Spinner className="w-3.5 h-3.5 text-primary-fg" />}
+                <span>{forgotLoading ? "正在提交..." : "提交改密申请"}</span>
+              </Button>
+            </div>
+          </form>
         </div>
-      )}
+      </Modal>
     </div>
   );
 }

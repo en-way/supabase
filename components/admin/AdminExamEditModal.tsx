@@ -355,21 +355,21 @@ export function AdminExamEditModal({
 
   return (
     <div className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-4 overflow-y-auto">
-      <div className="bg-white dark:bg-[#11131a] rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-slate-200 dark:border-cyan-500/25 animate-in fade-in zoom-in-95 duration-150 overflow-hidden">
+      <div className="bg-surface rounded-3xl max-w-4xl w-full max-h-[92vh] flex flex-col shadow-2xl border border-border animate-in fade-in zoom-in-95 duration-150 overflow-hidden">
         {/* Header */}
-        <div className="p-4 sm:p-5 border-b border-slate-100 dark:border-zinc-800 flex items-center justify-between shrink-0 bg-slate-50/50 dark:bg-zinc-900/40">
+        <div className="p-4 sm:p-5 border-b border-border flex items-center justify-between shrink-0 bg-surface-2">
           <div className="flex items-center space-x-3">
-            <div className="p-2.5 bg-indigo-50 dark:bg-cyan-950/40 text-indigo-600 dark:text-cyan-400 rounded-2xl border border-indigo-100 dark:border-cyan-500/30">
+            <div className="p-2.5 bg-primary-soft text-primary rounded-2xl border border-indigo-100">
               <FileEdit className="w-5 h-5" />
             </div>
             <div>
               <div className="flex items-center space-x-2">
-                <h3 className="font-bold text-slate-900 dark:text-zinc-100 text-base">编辑试卷材料与完整数据</h3>
-                <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-emerald-100 dark:bg-emerald-950/50 text-emerald-800 dark:text-emerald-300">
+                <h3 className="font-bold text-fg text-base">编辑试卷材料与完整数据</h3>
+                <span className="px-2 py-0.5 rounded-md text-[10px] font-bold bg-success-soft text-success">
                   管理员后台
                 </span>
               </div>
-              <p className="text-xs text-slate-500 dark:text-zinc-400 mt-0.5 truncate max-w-md">
+              <p className="text-xs text-fg-muted mt-0.5 truncate max-w-md">
                 {exam.title || "正在加载试卷信息..."}
               </p>
             </div>
@@ -377,7 +377,7 @@ export function AdminExamEditModal({
 
           <button
             onClick={onClose}
-            className="p-2 rounded-xl text-slate-400 dark:text-zinc-500 hover:text-slate-700 dark:hover:text-zinc-300 hover:bg-slate-100 dark:hover:bg-zinc-800 transition-colors"
+            className="p-2 rounded-xl text-fg-subtle hover:text-slate-700 hover:bg-surface-2 transition-colors"
             title="关闭窗口"
           >
             <X className="w-5 h-5" />
@@ -385,15 +385,15 @@ export function AdminExamEditModal({
         </div>
 
         {/* Sub-Header Tabs */}
-        <div className="flex items-center justify-between px-5 pt-3 pb-2 border-b border-slate-100 dark:border-zinc-800 shrink-0 bg-white dark:bg-[#11131a]">
+        <div className="flex items-center justify-between px-5 pt-3 pb-2 border-b border-border shrink-0 bg-surface">
           <div className="flex items-center space-x-2">
             <button
               type="button"
               onClick={() => setEditTab("form")}
               className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center space-x-1.5 ${
                 editTab === "form"
-                  ? "bg-indigo-600 dark:bg-cyan-500 text-white dark:text-zinc-950 shadow-sm"
-                  : "text-slate-500 dark:text-zinc-400 hover:text-slate-800 dark:hover:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/60"
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "text-fg-muted hover:text-slate-800 hover:bg-surface-2"
               }`}
             >
               <FileText className="w-3.5 h-3.5" />
@@ -405,8 +405,8 @@ export function AdminExamEditModal({
               onClick={() => setEditTab("json")}
               className={`px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center space-x-1.5 ${
                 editTab === "json"
-                  ? "bg-indigo-600 dark:bg-cyan-500 text-white dark:text-zinc-950 shadow-sm"
-                  : "text-slate-500 dark:text-zinc-400 hover:text-slate-800 dark:hover:text-zinc-200 hover:bg-slate-100 dark:hover:bg-zinc-800/60"
+                  ? "bg-indigo-600 text-white shadow-sm"
+                  : "text-fg-muted hover:text-slate-800 hover:bg-surface-2"
               }`}
             >
               <Code2 className="w-3.5 h-3.5" />
@@ -419,7 +419,7 @@ export function AdminExamEditModal({
               <button
                 type="button"
                 onClick={handleFormatJson}
-                className="px-2.5 py-1 text-xs font-semibold text-slate-600 dark:text-zinc-300 hover:bg-slate-100 dark:hover:bg-zinc-800 rounded-lg transition-colors flex items-center space-x-1"
+                className="px-2.5 py-1 text-xs font-semibold text-fg-muted hover:bg-surface-2 rounded-lg transition-colors flex items-center space-x-1"
                 title="格式化 JSON 缩进"
               >
                 <Sparkles className="w-3.5 h-3.5 text-amber-500" />
@@ -428,7 +428,7 @@ export function AdminExamEditModal({
               <button
                 type="button"
                 onClick={handleDownloadCurrentJson}
-                className="px-2.5 py-1 text-xs font-semibold text-indigo-600 dark:text-cyan-400 hover:bg-indigo-50 dark:hover:bg-cyan-950/40 rounded-lg transition-colors flex items-center space-x-1"
+                className="px-2.5 py-1 text-xs font-semibold text-primary hover:bg-indigo-50 rounded-lg transition-colors flex items-center space-x-1"
                 title="下载当前试卷完整 JSON 文件到本地"
               >
                 <Download className="w-3.5 h-3.5" />
@@ -442,30 +442,30 @@ export function AdminExamEditModal({
         <div className="p-5 flex-1 overflow-y-auto space-y-4">
           {editLoading ? (
             <div className="flex flex-col items-center justify-center py-20 space-y-3">
-              <Loader2 className="w-7 h-7 text-indigo-600 dark:text-cyan-400 animate-spin" />
-              <p className="text-xs text-slate-400 dark:text-zinc-500">正在同步加载试卷全部篇章与试题数据...</p>
+              <Loader2 className="w-7 h-7 text-primary animate-spin" />
+              <p className="text-xs text-fg-subtle">正在同步加载试卷全部篇章与试题数据...</p>
             </div>
           ) : editTab === "form" ? (
             /* Tab 1: Form View */
             <div className="space-y-5">
               {/* Basic Metadata Grid */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3.5 bg-slate-50 dark:bg-zinc-900/50 p-4 rounded-2xl border border-slate-100 dark:border-zinc-800">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3.5 bg-surface-2 p-4 rounded-2xl border border-border">
                 <div className="sm:col-span-2">
-                  <label className="block text-xs font-bold text-slate-700 dark:text-zinc-300 mb-1">试卷标题</label>
+                  <label className="block text-xs font-bold text-fg mb-1">试卷标题</label>
                   <input
                     type="text"
                     value={editFormData.title}
                     onChange={(e) => setEditFormData({ ...editFormData, title: e.target.value })}
-                    className="w-full px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                    className="w-full px-3 py-2 bg-white border border-border text-fg rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 dark:text-zinc-300 mb-1">科目分类</label>
+                  <label className="block text-xs font-bold text-fg mb-1">科目分类</label>
                   <select
                     value={editFormData.category_id}
                     onChange={(e) => setEditFormData({ ...editFormData, category_id: e.target.value })}
-                    className="w-full px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                    className="w-full px-3 py-2 bg-white border border-border text-fg rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   >
                     <option value="ky1">考研英语一 (KY-1)</option>
                     <option value="ky2">考研英语二 (KY-2)</option>
@@ -473,29 +473,29 @@ export function AdminExamEditModal({
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 dark:text-zinc-300 mb-1">考试年份</label>
+                  <label className="block text-xs font-bold text-fg mb-1">考试年份</label>
                   <input
                     type="number"
                     value={editFormData.year}
                     onChange={(e) => setEditFormData({ ...editFormData, year: Number(e.target.value) })}
-                    className="w-full px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                    className="w-full px-3 py-2 bg-white border border-border text-fg rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 dark:text-zinc-300 mb-1">
+                  <label className="block text-xs font-bold text-fg mb-1">
                     考试时长 (分钟)
                   </label>
                   <input
                     type="number"
                     value={editFormData.duration_minutes}
                     onChange={(e) => setEditFormData({ ...editFormData, duration_minutes: Number(e.target.value) })}
-                    className="w-full px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                    className="w-full px-3 py-2 bg-white border border-border text-fg rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-bold text-slate-700 dark:text-zinc-300 mb-1">
+                  <label className="block text-xs font-bold text-fg mb-1">
                     满分 / 及格分 (分)
                   </label>
                   <div className="flex items-center space-x-1.5">
@@ -504,7 +504,7 @@ export function AdminExamEditModal({
                       value={editFormData.total_score}
                       onChange={(e) => setEditFormData({ ...editFormData, total_score: Number(e.target.value) })}
                       placeholder="满分"
-                      className="w-1/2 px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                      className="w-1/2 px-3 py-2 bg-white border border-border text-fg rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     />
                     <span className="text-slate-400 text-xs">/</span>
                     <input
@@ -512,7 +512,7 @@ export function AdminExamEditModal({
                       value={editFormData.pass_score}
                       onChange={(e) => setEditFormData({ ...editFormData, pass_score: Number(e.target.value) })}
                       placeholder="及格"
-                      className="w-1/2 px-3 py-2 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                      className="w-1/2 px-3 py-2 bg-white border border-border text-fg rounded-xl text-xs font-medium focus:outline-none focus:ring-2 focus:ring-indigo-500"
                     />
                   </div>
                 </div>
@@ -521,10 +521,10 @@ export function AdminExamEditModal({
               {/* Passages List */}
               <div className="space-y-3">
                 <div className="flex items-center justify-between">
-                  <h4 className="text-xs font-bold text-slate-800 dark:text-zinc-200">
+                  <h4 className="text-xs font-bold text-fg">
                     篇章材料列表 ({editFormData.passages.length} 篇)
                   </h4>
-                  <span className="text-[11px] text-slate-400 dark:text-zinc-500">
+                  <span className="text-[11px] text-fg-subtle">
                     管理员可在此直接校对与修改阅读材料原文
                   </span>
                 </div>
@@ -532,11 +532,11 @@ export function AdminExamEditModal({
                 {editFormData.passages.map((p, pIdx) => (
                   <div
                     key={p.id || pIdx}
-                    className="p-4 bg-white dark:bg-[#11131a] rounded-2xl border border-slate-200 dark:border-zinc-800 space-y-2.5 shadow-sm"
+                    className="p-4 bg-surface rounded-2xl border border-border space-y-2.5 shadow-sm"
                   >
                     <div className="flex items-center justify-between">
                       <div className="flex items-center space-x-2">
-                        <span className="px-2 py-0.5 rounded-md font-mono font-bold text-[10px] bg-slate-100 dark:bg-zinc-800 text-slate-700 dark:text-zinc-300">
+                        <span className="px-2 py-0.5 rounded-md font-mono font-bold text-[10px] bg-surface-2 text-fg">
                           Passage #{pIdx + 1}
                         </span>
                         <span className="text-[10px] uppercase font-semibold text-slate-400">{p.section_type}</span>
@@ -545,7 +545,7 @@ export function AdminExamEditModal({
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-600 dark:text-zinc-400 mb-1">
+                      <label className="block text-[11px] font-semibold text-fg-muted mb-1">
                         材料标题 / 描述
                       </label>
                       <input
@@ -557,12 +557,12 @@ export function AdminExamEditModal({
                           );
                           setEditFormData({ ...editFormData, passages: updated });
                         }}
-                        className="w-full px-3 py-1.5 bg-white dark:bg-zinc-900 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                        className="w-full px-3 py-1.5 bg-white border border-border text-fg rounded-xl text-xs focus:outline-none focus:ring-2 focus:ring-indigo-500"
                       />
                     </div>
 
                     <div>
-                      <label className="block text-[11px] font-semibold text-slate-600 dark:text-zinc-400 mb-1">
+                      <label className="block text-[11px] font-semibold text-fg-muted mb-1">
                         篇章材料正文 (支持改错与微调)
                       </label>
                       <textarea
@@ -574,7 +574,7 @@ export function AdminExamEditModal({
                           );
                           setEditFormData({ ...editFormData, passages: updated });
                         }}
-                        className="w-full px-3 py-2 bg-slate-50 dark:bg-zinc-900/80 border border-slate-200 dark:border-zinc-700 text-slate-900 dark:text-zinc-100 rounded-xl text-xs font-mono leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500"
+                        className="w-full px-3 py-2 bg-surface-2 border border-border text-fg rounded-xl text-xs font-mono leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500"
                       />
                     </div>
                   </div>
@@ -584,8 +584,8 @@ export function AdminExamEditModal({
           ) : (
             /* Tab 2: Raw JSON Editor */
             <div className="space-y-3">
-              <div className="p-3 bg-indigo-50/60 dark:bg-cyan-950/30 border border-indigo-100 dark:border-cyan-500/20 rounded-2xl text-xs text-indigo-900 dark:text-cyan-200 flex items-start space-x-2">
-                <Info className="w-4 h-4 shrink-0 mt-0.5 text-indigo-600 dark:text-cyan-400" />
+              <div className="p-3 bg-indigo-50/60 border border-indigo-100 rounded-2xl text-xs text-indigo-900 flex items-start space-x-2">
+                <Info className="w-4 h-4 shrink-0 mt-0.5 text-primary" />
                 <p className="leading-relaxed">
                   <strong>试卷完整 JSON 代码编辑器</strong>：普通管理员可在此直接对试卷元数据、篇章、以及所有试题题目、选项、标准答案、解析等进行任意修改。点击右上方可随时
                   <strong>下载该 JSON 文件</strong>或<strong>格式化</strong>。保存时系统将自动校验语法并更新数据库。
@@ -593,13 +593,13 @@ export function AdminExamEditModal({
               </div>
 
               {jsonSyntaxError && (
-                <div className="p-3 bg-rose-50 dark:bg-rose-950/40 border border-rose-200 dark:border-rose-500/30 rounded-2xl text-xs text-rose-700 dark:text-rose-300 flex items-center space-x-2">
+                <div className="p-3 bg-danger-soft border border-danger/30 rounded-2xl text-xs text-danger flex items-center space-x-2">
                   <AlertCircle className="w-4 h-4 shrink-0" />
                   <span>{jsonSyntaxError}</span>
                 </div>
               )}
 
-              <div className="relative rounded-2xl overflow-hidden border border-slate-300 dark:border-zinc-700 shadow-inner">
+              <div className="relative rounded-2xl overflow-hidden border border-slate-300 shadow-inner">
                 <textarea
                   rows={20}
                   value={editJsonText}
@@ -607,7 +607,7 @@ export function AdminExamEditModal({
                     setEditJsonText(e.target.value);
                     if (jsonSyntaxError) setJsonSyntaxError(null);
                   }}
-                  className="w-full p-4 bg-slate-950 text-emerald-300 font-mono text-xs leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500 dark:focus:ring-cyan-500 resize-y"
+                  className="w-full p-4 bg-slate-950 text-emerald-300 font-mono text-xs leading-relaxed focus:outline-none focus:ring-2 focus:ring-indigo-500 resize-y"
                   placeholder={'{\n  "title": ...\n}'}
                 />
               </div>
@@ -616,11 +616,11 @@ export function AdminExamEditModal({
         </div>
 
         {/* Footer */}
-        <div className="p-4 sm:p-5 border-t border-slate-100 dark:border-zinc-800 flex items-center justify-between shrink-0 bg-slate-50/50 dark:bg-zinc-900/40">
+        <div className="p-4 sm:p-5 border-t border-border flex items-center justify-between shrink-0 bg-surface-2">
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 text-xs font-semibold text-slate-600 dark:text-zinc-400 hover:bg-slate-100 dark:hover:bg-zinc-800 rounded-xl transition-colors"
+            className="px-4 py-2 text-xs font-semibold text-fg-muted hover:bg-surface-2 rounded-xl transition-colors"
           >
             取消
           </button>
@@ -631,7 +631,7 @@ export function AdminExamEditModal({
                 type="button"
                 onClick={handleSaveFormEdit}
                 disabled={isSavingEdit || !editFormData.title.trim()}
-                className="px-5 py-2.5 text-xs font-bold bg-indigo-600 hover:bg-indigo-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-zinc-950 rounded-xl shadow-sm flex items-center space-x-1.5 transition-colors disabled:opacity-50"
+                className="px-5 py-2.5 text-xs font-bold bg-primary hover:opacity-95 text-primary-fg rounded-xl shadow-sm flex items-center space-x-1.5 transition-colors disabled:opacity-50"
               >
                 {isSavingEdit ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
                 <span>保存基础与篇章材料修改</span>
@@ -641,7 +641,7 @@ export function AdminExamEditModal({
                 type="button"
                 onClick={handleSaveJsonEdit}
                 disabled={isSavingEdit || !editJsonText.trim()}
-                className="px-5 py-2.5 text-xs font-bold bg-emerald-600 hover:bg-emerald-700 dark:bg-cyber-500 dark:hover:bg-cyber-400 text-white dark:text-zinc-950 rounded-xl shadow-sm flex items-center space-x-1.5 transition-colors disabled:opacity-50"
+                className="px-5 py-2.5 text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl shadow-sm flex items-center space-x-1.5 transition-colors disabled:opacity-50"
               >
                 {isSavingEdit ? <Loader2 className="w-4 h-4 animate-spin" /> : <Save className="w-4 h-4" />}
                 <span>保存并同步更新试题与材料</span>

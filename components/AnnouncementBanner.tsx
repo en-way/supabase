@@ -4,14 +4,13 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import type { AnnouncementType, SystemAnnouncementRow } from "@/types/user";
-import { 
-  Info, 
-  AlertTriangle, 
-  AlertCircle, 
-  X, 
-  ExternalLink, 
+import {
+  Info,
+  AlertTriangle,
+  AlertCircle,
+  X,
+  ExternalLink,
   ChevronRight,
-  Megaphone
 } from "lucide-react";
 
 export interface AnnouncementData {
@@ -69,7 +68,6 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
 
       setAnnouncement(item);
 
-      // Check if user previously dismissed this exact version
       const dismissedTs = localStorage.getItem(STORAGE_KEY);
       if (dismissedTs && dismissedTs === item.updatedAt) {
         setIsDismissed(true);
@@ -94,7 +92,9 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
       try {
         const { data, error } = await supabase
           .from("system_settings")
-          .select("announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at")
+          .select(
+            "announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at"
+          )
           .eq("id", 1)
           .maybeSingle();
 
@@ -109,14 +109,15 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
       loadAnnouncement();
     }
 
-    // Listen for custom broadcast events when announcement is updated or reopened from Navbar
     const handleReopen = () => setIsDismissed(false);
     const handleUpdated = async () => {
       if (externalData !== undefined) return;
       try {
         const { data } = await supabase
           .from("system_settings")
-          .select("announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at")
+          .select(
+            "announcement_enabled, announcement_text, announcement_type, announcement_link_text, announcement_link_url, announcement_updated_at"
+          )
           .eq("id", 1)
           .maybeSingle();
         if (data) applyAnnouncementData(data);
@@ -142,7 +143,6 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
       } catch {}
     }
     setIsDismissed(true);
-    // Notify Navbar that top banner is collapsed (so it can display the folded horn icon)
     window.dispatchEvent(new CustomEvent("enway_announcement_dismissed"));
   };
 
@@ -150,35 +150,30 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
     return null;
   }
 
-  // Theme styling based on level (modern muted palette in light, glowing cyber neon in dark)
   const themeStyles = {
     info: {
-      wrapper: "bg-blue-50/70 dark:bg-cyan-950/40 border-b border-blue-100/80 dark:border-cyan-500/20 text-blue-900 dark:text-cyan-200",
-      badge: "bg-blue-600 dark:bg-cyan-500 text-white dark:text-[#090a0f]",
-      icon: <Info className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-400 shrink-0" />,
-      btn: "bg-blue-600 hover:bg-blue-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-[#090a0f] shadow-subtle",
-      closeBtn: "text-blue-400 dark:text-cyan-400 hover:text-blue-800 dark:hover:text-cyan-200 hover:bg-blue-100/60 dark:hover:bg-cyan-900/40",
+      wrapper: "bg-info-soft border-b border-info/20 text-info",
+      icon: <Info className="w-3.5 h-3.5 text-info shrink-0" />,
+      btn: "bg-info text-primary-fg hover:opacity-90",
+      closeBtn: "text-info/70 hover:text-info hover:bg-surface/40",
     },
     warning: {
-      wrapper: "bg-amber-50/70 dark:bg-amber-950/40 border-b border-amber-100/80 dark:border-amber-500/20 text-amber-900 dark:text-amber-200",
-      badge: "bg-amber-600 dark:bg-amber-500 text-white dark:text-[#090a0f]",
-      icon: <AlertTriangle className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400 shrink-0" />,
-      btn: "bg-amber-600 hover:bg-amber-700 dark:bg-amber-500 dark:hover:bg-amber-400 text-white dark:text-[#090a0f] shadow-subtle",
-      closeBtn: "text-amber-400 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-200 hover:bg-amber-100/60 dark:hover:bg-amber-900/40",
+      wrapper: "bg-warning-soft border-b border-warning/20 text-warning",
+      icon: <AlertTriangle className="w-3.5 h-3.5 text-warning shrink-0" />,
+      btn: "bg-warning text-primary-fg hover:opacity-90",
+      closeBtn: "text-warning/70 hover:text-warning hover:bg-surface/40",
     },
     alert: {
-      wrapper: "bg-rose-50/70 dark:bg-rose-950/40 border-b border-rose-100/80 dark:border-rose-500/20 text-rose-900 dark:text-rose-200",
-      badge: "bg-rose-600 dark:bg-rose-500 text-white dark:text-[#090a0f]",
-      icon: <AlertCircle className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400 shrink-0" />,
-      btn: "bg-rose-600 hover:bg-rose-700 dark:bg-rose-500 dark:hover:bg-rose-400 text-white dark:text-[#090a0f] shadow-subtle",
-      closeBtn: "text-rose-400 dark:text-rose-400 hover:text-rose-800 dark:hover:text-rose-200 hover:bg-rose-100/60 dark:hover:bg-rose-900/40",
+      wrapper: "bg-danger-soft border-b border-danger/20 text-danger",
+      icon: <AlertCircle className="w-3.5 h-3.5 text-danger shrink-0" />,
+      btn: "bg-danger text-primary-fg hover:opacity-90",
+      closeBtn: "text-danger/70 hover:text-danger hover:bg-surface/40",
     },
   }[announcement.type] || {
-    wrapper: "bg-blue-50/70 dark:bg-cyan-950/40 border-b border-blue-100/80 dark:border-cyan-500/20 text-blue-900 dark:text-cyan-200",
-    badge: "bg-blue-600 dark:bg-cyan-500 text-white dark:text-[#090a0f]",
-    icon: <Info className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-400 shrink-0" />,
-    btn: "bg-blue-600 hover:bg-blue-700 dark:bg-cyan-500 dark:hover:bg-cyan-400 text-white dark:text-[#090a0f] shadow-subtle",
-    closeBtn: "text-blue-400 dark:text-cyan-400 hover:text-blue-800 dark:hover:text-cyan-200 hover:bg-blue-100/60 dark:hover:bg-cyan-900/40",
+    wrapper: "bg-info-soft border-b border-info/20 text-info",
+    icon: <Info className="w-3.5 h-3.5 text-info shrink-0" />,
+    btn: "bg-info text-primary-fg hover:opacity-90",
+    closeBtn: "text-info/70 hover:text-info hover:bg-surface/40",
   };
 
   const safeLinkHref = getSafeAnnouncementHref(announcement.linkUrl);
@@ -186,27 +181,25 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
 
   return (
     <div
-      className={`w-full text-xs transition-all duration-200 relative z-50 ${themeStyles.wrapper} no-print`}
+      className={`w-full text-xs transition-colors duration-150 relative z-nav ${themeStyles.wrapper} no-print`}
       role="alert"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 flex items-center justify-between gap-3">
-        <div className="flex items-center space-x-2.5 flex-1 min-w-0">
-          <div className="flex items-center space-x-1 shrink-0">
-            {themeStyles.icon}
-          </div>
+        <div className="flex items-center gap-2.5 flex-1 min-w-0">
+          <div className="flex items-center shrink-0">{themeStyles.icon}</div>
 
-          <p className="font-medium text-xs leading-relaxed truncate select-text">
+          <p className="font-medium text-xs leading-relaxed truncate select-text text-fg">
             {announcement.text}
           </p>
 
           {announcement.linkText && safeLinkHref && (
-            <div className="shrink-0 ml-2">
+            <div className="shrink-0 ml-1">
               {isExternalLink ? (
                 <a
                   href={safeLinkHref}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold transition-colors ${themeStyles.btn}`}
+                  className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold transition-opacity ${themeStyles.btn}`}
                 >
                   <span>{announcement.linkText}</span>
                   <ExternalLink className="w-3 h-3" />
@@ -214,7 +207,7 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
               ) : (
                 <Link
                   href={safeLinkHref}
-                  className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold transition-colors ${themeStyles.btn}`}
+                  className={`inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold transition-opacity ${themeStyles.btn}`}
                 >
                   <span>{announcement.linkText}</span>
                   <ChevronRight className="w-3 h-3" />
@@ -224,11 +217,12 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
           )}
         </div>
 
-        {/* Close / Dismiss Button */}
         <button
+          type="button"
           onClick={handleDismiss}
-          className={`p-1 rounded-md transition-colors shrink-0 ${themeStyles.closeBtn}`}
+          className={`p-1 rounded-sm transition-colors shrink-0 ${themeStyles.closeBtn}`}
           title="关闭通栏提示（可在导航栏小喇叭随时查看）"
+          aria-label="关闭公告横幅"
         >
           <X className="w-4 h-4" />
         </button>

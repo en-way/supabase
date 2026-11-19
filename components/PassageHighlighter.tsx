@@ -61,11 +61,12 @@ export default function PassageHighlighter({
 }: PassageHighlighterProps) {
   const [highlights, setHighlights] = useState<HighlightItem[]>([]);
   const [selectedText, setSelectedText] = useState<string>("");
-  const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number; below: boolean } | null>(null);
+  const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number; below: boolean } | null>(
+    null
+  );
   const containerRef = useRef<HTMLDivElement>(null);
   const touchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Load highlights on passage change and sync across tabs
   useEffect(() => {
     if (!passageId) {
       setHighlights([]);
@@ -85,7 +86,6 @@ export default function PassageHighlighter({
     return () => window.removeEventListener("storage", handleStorage);
   }, [passageId]);
 
-  // Selection detection isolated from DictionaryPopover single-word lookups and editable elements
   useEffect(() => {
     const isInsideProtectedUI = (target: EventTarget | null): boolean => {
       const el =
@@ -145,10 +145,20 @@ export default function PassageHighlighter({
       if (rect && rect.width > 0) {
         const minX = 92;
         const viewportWidth = typeof window !== "undefined" ? window.innerWidth : 400;
+        const viewportHeight = typeof window !== "undefined" ? window.innerHeight : 700;
+        const isMobile = viewportWidth < 640;
         const maxX = Math.max(minX, viewportWidth - 92);
         const clampedX = Math.max(minX, Math.min(maxX, rect.left + rect.width / 2));
-        const below = rect.top < 56;
-        const y = below ? rect.bottom + 10 : rect.top - 10;
+
+        // On mobile, place below selection (+44px) to clear native OS copy/lookup bar
+        const below = isMobile ? rect.bottom + 96 < viewportHeight : rect.top < 56;
+        const y = isMobile
+          ? below
+            ? rect.bottom + 44
+            : Math.max(56, rect.top - 12)
+          : below
+          ? rect.bottom + 10
+          : rect.top - 10;
 
         setSelectedText(text);
         setTooltipPos({ x: clampedX, y, below });
@@ -192,7 +202,6 @@ export default function PassageHighlighter({
   const addHighlight = (color: "yellow" | "green") => {
     if (!selectedText || !passageId) return;
 
-    // Filter duplicates of the exact same text
     const next = [
       ...highlights.filter((h) => h.text.toLowerCase() !== selectedText.toLowerCase()),
       {
@@ -206,7 +215,6 @@ export default function PassageHighlighter({
     setHighlights(next);
     savePassageHighlights(passageId, next);
 
-    // Clear selection
     window.getSelection()?.removeAllRanges();
     setTooltipPos(null);
     setSelectedText("");
@@ -223,23 +231,17 @@ export default function PassageHighlighter({
     savePassageHighlights(passageId, []);
   };
 
-  // Helper to render text with highlights
   const renderContent = () => {
-    const validHighlights = highlights.filter((h) => h && typeof h.text === "string" && h.text.trim().length > 0);
+    const validHighlights = highlights.filter(
+      (h) => h && typeof h.text === "string" && h.text.trim().length > 0
+    );
     if (validHighlights.length === 0) {
       return content;
     }
 
-    // Sort highlights by length descending to match longer phrases first
     const sorted = [...validHighlights].sort((a, b) => b.text.length - a.text.length);
-
-    // Build regex pattern safely
     const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    const pattern = new RegExp(
-      `(${sorted.map((h) => escapeRegExp(h.text)).join("|")})`,
-      "gi"
-    );
-
+    const pattern = new RegExp(`(${sorted.map((h) => escapeRegExp(h.text)).join("|")})`, "gi");
     const parts = content.split(pattern);
 
     return parts.map((part, idx) => {
@@ -257,10 +259,8 @@ export default function PassageHighlighter({
                 }
               }}
               title="点击取消该处高亮"
-              className={`cursor-pointer rounded px-1 transition-all hover:opacity-80 ${
-                isYellow
-                  ? "bg-amber-200/90 dark:bg-amber-400/35 text-amber-950 dark:text-amber-100 decoration-amber-400 font-medium"
-                  : "bg-emerald-200/90 dark:bg-emerald-400/35 text-emerald-950 dark:text-emerald-100 decoration-emerald-400 font-medium"
+              className={`cursor-pointer rounded-sm px-1 text-fg font-medium transition-opacity hover:opacity-80 ${
+                isYellow ? "bg-hl-yellow" : "bg-hl-green"
               }`}
             >
               {part}
@@ -274,7 +274,6 @@ export default function PassageHighlighter({
 
   return (
     <div className="relative">
-      {/* Mini Floating Highlighter Toolbar when text selected */}
       {tooltipPos && selectedText && (
         <div
           data-enway-highlighter-toolbar="true"
@@ -283,49 +282,45 @@ export default function PassageHighlighter({
             left: `${tooltipPos.x}px`,
             top: `${tooltipPos.y}px`,
             transform: tooltipPos.below ? "translate(-50%, 0)" : "translate(-50%, -100%)",
-            zIndex: 60,
           }}
-          className="passage-highlighter-toolbar bg-stone-900/95 dark:bg-zinc-900/95 text-white backdrop-blur-md px-2 py-1 rounded-xl shadow-xl border border-white/10 flex items-center space-x-1.5 animate-in fade-in zoom-in-95 duration-100"
-          onMouseDown={(e) => e.preventDefault()} // Prevent losing selection
+          className="passage-highlighter-toolbar z-selection bg-fg text-bg px-2 py-1 rounded-md shadow-pop border border-border-strong flex items-center gap-1.5 animate-in fade-in zoom-in-95 duration-100"
+          onMouseDown={(e) => e.preventDefault()}
         >
-          <span className="text-[10px] text-stone-400 font-medium pl-1">高亮:</span>
+          <span className="text-[10px] opacity-75 font-medium pl-1">高亮:</span>
           <button
             type="button"
             onClick={() => addHighlight("yellow")}
-            className="px-2 py-1 rounded-lg bg-amber-400/30 hover:bg-amber-400/50 text-amber-300 text-xs font-bold flex items-center space-x-1 transition-colors"
+            className="px-2 py-1 rounded-sm bg-hl-yellow text-fg text-xs font-semibold flex items-center gap-1 transition-opacity hover:opacity-90"
             title="黄色标出线索句"
           >
-            <span className="w-2.5 h-2.5 rounded-full bg-amber-400 inline-block" />
+            <span className="w-2 h-2 rounded-full bg-warning inline-block" />
             <span>线索</span>
           </button>
           <button
             type="button"
             onClick={() => addHighlight("green")}
-            className="px-2 py-1 rounded-lg bg-emerald-400/30 hover:bg-emerald-400/50 text-emerald-300 text-xs font-bold flex items-center space-x-1 transition-colors"
+            className="px-2 py-1 rounded-sm bg-hl-green text-fg text-xs font-semibold flex items-center gap-1 transition-opacity hover:opacity-90"
             title="绿色标出核心论点/词汇"
           >
-            <span className="w-2.5 h-2.5 rounded-full bg-emerald-400 inline-block" />
+            <span className="w-2 h-2 rounded-full bg-primary inline-block" />
             <span>重点</span>
           </button>
         </div>
       )}
 
-      {/* Highlights Count & Clear Bar (when there are highlights) */}
       {highlights.length > 0 && (
-        <div className="mb-3 px-3 py-1.5 rounded-xl bg-stone-100/90 dark:bg-zinc-800/80 border border-black/[0.04] dark:border-cyan-500/15 flex items-center justify-between text-xs text-stone-500 dark:text-zinc-400">
-          <div className="flex items-center space-x-2">
-            <Highlighter className="w-3.5 h-3.5 text-amber-500" />
+        <div className="mb-3 px-3 py-1.5 rounded-md bg-surface-2 border border-border flex items-center justify-between text-xs text-fg-muted">
+          <div className="flex items-center gap-2">
+            <Highlighter className="w-3.5 h-3.5 text-warning" />
             <span>
-              已标注 <strong className="font-bold text-stone-800 dark:text-zinc-200">{highlights.length}</strong> 处高亮线索
+              已标注 <strong className="font-bold text-fg">{highlights.length}</strong> 处高亮线索
             </span>
-            <span className="text-[11px] text-stone-400 dark:text-zinc-500 hidden sm:inline">
-              (点击高亮字句可撤销)
-            </span>
+            <span className="text-[11px] text-fg-subtle hidden sm:inline">(点击高亮字句可撤销)</span>
           </div>
           <button
             type="button"
             onClick={clearAllHighlights}
-            className="text-[11px] text-stone-400 hover:text-rose-600 dark:hover:text-rose-400 flex items-center space-x-1 transition-colors"
+            className="text-[11px] text-fg-subtle hover:text-danger flex items-center gap-1 transition-colors"
           >
             <Trash2 className="w-3 h-3" />
             <span>清空本篇标注</span>
@@ -333,15 +328,14 @@ export default function PassageHighlighter({
         </div>
       )}
 
-      {/* Rendered Text with Highlighting */}
       <div
         ref={containerRef}
-        className={`text-stone-800 dark:text-zinc-200 font-serif selection:bg-emerald-100/70 dark:selection:bg-cyan-500/30 whitespace-pre-line tracking-wide ${className} ${
+        className={`reading-prose text-fg selection:bg-primary-soft selection:text-primary-soft-fg whitespace-pre-line tracking-normal ${className} ${
           fontScale === "large" || (largeFont && !fontScale)
-            ? "text-lg sm:text-[19px] leading-[2.1]"
+            ? "text-lg sm:text-[19px]"
             : fontScale === "medium"
-            ? "text-[16.5px] sm:text-[17px] leading-[1.95]"
-            : "text-[15px] sm:text-base leading-[1.85]"
+            ? "text-[16.5px] sm:text-[17.5px]"
+            : "text-[15.5px] sm:text-base"
         }`}
       >
         {renderContent()}
