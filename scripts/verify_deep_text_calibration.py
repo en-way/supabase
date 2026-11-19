@@ -6092,6 +6092,87 @@ def main():
     results["Assertion 116: 全库 41 套真题五组时代 Agent 六维全景法医不变式校验（语篇完整度、题干规范度、选项结构性、答案题解一致性、分值权重大纲契合度及 PDF 基准对照 100% 达成纯金无瑕标准）"] = (len(round94_anomalies) == 0)
     results["Assertion 117: 英语二 16 套真题文本与解析法医级深度提纯（Q1-Q40 选项 [E] 错码彻底归零、粘连英文与词条空格断点彻底修复、未闭合选项括号彻底闭合、乙世代等 OCR 形近错字 100% 纠正为 Z世代、页码残渣与孤立标点噪点 0 处残留）"] = (len(round96_anomalies) == 0)
     results["Assertion 118: 英语一 25 套真题文本与解析法医级深度提纯（Q1-Q40 选项 [E] 错码彻底归零、2004完型与阅读字符置换与粘连词链彻底修复、粘连英文与词条断点彻底修复、未闭合选项括号彻底闭合、公众号与机构水印 0 处残留、页码残渣与孤立标点噪点 0 处残留）"] = (len(round97_anomalies) == 0)
+
+    round119_anomalies = []
+    round120_anomalies = []
+    ocr_tag_patterns = [
+        '真题精解', '真题精惮', '知识补充', '原文外教朗读', '续表', '§',
+        '❶', '❷', '❸', '❹', '❺', '❻', '❼', '❽', '❾', '❿',
+        '语义十', '逻辑十', '搭配十', '语法十', '插人语',
+        'Acalm', 'ayounger', 'somethingthat', 'abittoo', 'eventhough', 'notonly', 'butalso',
+    ]
+    round121_anomalies = []
+    round122_anomalies = []
+    for fpath in sorted(glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'data', 'exams', '*.json'))):
+        with open(fpath, 'r', encoding='utf-8') as fp:
+            fdata = json.load(fp)
+        fcat = fdata.get('exam', {}).get('category_id', '')
+        fyr = fdata.get('exam', {}).get('year', '')
+        exam_expls = []
+        for q in fdata.get('questions', []):
+            fqn = q.get('question_number') or q.get('sort_order')
+            expl = q.get('explanation') or ''
+            if expl != expl.strip():
+                round120_anomalies.append((fcat, fyr, fqn, 'untrimmed_whitespace'))
+            for pat in ocr_tag_patterns:
+                if pat in expl:
+                    round120_anomalies.append((fcat, fyr, fqn, pat))
+            if re.search(r'[「\[［;•·・]+\s*语篇分析', expl):
+                round120_anomalies.append((fcat, fyr, fqn, 'ocr_yupian_tag'))
+            if expl.startswith('间状语从句') or re.search(r'(?:•|/|:-)\s*$', expl):
+                round120_anomalies.append((fcat, fyr, fqn, 'truncated_boundary'))
+            if q.get('q_type') == 'cloze_item':
+                opt_map = {
+                    o['key'].upper(): (o.get('text') or o.get('content') or '').strip().lower()
+                    for o in q.get('options', [])
+                }
+                for m in re.finditer(r'(?m)^(?:\d+[\.．、]\s*)?[\[［]([A-D])[\]］]\s*([A-Za-z][A-Za-z\'-]{1,})', expl):
+                    k = m.group(1).upper()
+                    w = m.group(2).lower()
+                    opt_w = opt_map.get(k, '')
+                    if opt_w and w != opt_w and w not in opt_w.split() and opt_w not in w and not opt_w.startswith(w) and not w.startswith(opt_w):
+                        round119_anomalies.append((fcat, fyr, fqn, k, w, opt_w))
+            for m in re.finditer(r'(?m)^\s*(\d{1,2})\.\s*\[[A-D]\]', expl):
+                try:
+                    if int(m.group(1)) != int(fqn):
+                        round121_anomalies.append((fcat, fyr, fqn, f'foreign_q_{m.group(1)}'))
+                except (TypeError, ValueError):
+                    pass
+            if '©' in expl or '®' in expl:
+                round122_anomalies.append((fcat, fyr, fqn, 'copyright_or_reg_symbol'))
+            if '**' in expl:
+                round122_anomalies.append((fcat, fyr, fqn, 'double_asterisk'))
+            if re.search(r'(?:[\[［]\s*[A-D]\s*J|E[A-D][\]］]|:[A-D][\]］]|[\[［]\s+[A-D][\]］]|[\[［][A-D]\s+[\]］])', expl):
+                round122_anomalies.append((fcat, fyr, fqn, 'broken_option_label'))
+            if fcat == 'ky1' and fyr in (2005, 2006, 2007):
+                if re.search(r'\b(?:[a-zA-Z]\s+){2,}[a-zA-Z]\b', expl):
+                    round122_anomalies.append((fcat, fyr, fqn, 'spaced_english_run'))
+            cjk_tokens = set(re.findall(r'[\u4e00-\u9fff]{2,}', expl))
+            try:
+                qn_int = int(fqn)
+            except (TypeError, ValueError):
+                qn_int = 0
+            exam_expls.append((qn_int, cjk_tokens))
+        for i in range(len(exam_expls)):
+            qn1, tok1 = exam_expls[i]
+            if not tok1:
+                continue
+            for j in range(i + 1, len(exam_expls)):
+                qn2, tok2 = exam_expls[j]
+                if not tok2:
+                    continue
+                union_len = len(tok1 | tok2)
+                if union_len == 0:
+                    continue
+                sim = len(tok1 & tok2) / union_len
+                limit = 0.75 if (qn1 >= 41 and qn2 >= 41) else 0.45
+                if sim > limit:
+                    round121_anomalies.append((fcat, fyr, f'Q{qn1}_vs_Q{qn2}', round(sim, 3)))
+
+    results["Assertion 119: 全库 820 道完形填空解析内 [A]-[D] 所列英文词 100% 与真实 options 对齐（0 处串题或错词残损）"] = (len(round119_anomalies) == 0)
+    results["Assertion 120: 全库 1,825 道题解析 0 处 OCR 残渣（真题精解/语篇分析标签/知识补充/续表/❶-❿/§/语义十/粘连错字）及 0 处截断边界与首尾空白"] = (len(round120_anomalies) == 0)
+    results["Assertion 121: 同套试卷题间解析 0 处串题/粘连（Q1-40 CJK Jaccard <= 0.45, Q41-45 <= 0.75, 无跨题题号选项列表）"] = (len(round121_anomalies) == 0)
+    results["Assertion 122: 全库 1,825 道题解析 0 处 ©/® 音标乱码、** 双星号、残缺选项标号及 2005-2007 英一空格断词"] = (len(round122_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -6122,6 +6203,14 @@ def main():
             print(f"Round 96 anomalies ({len(round96_anomalies)}):", round96_anomalies[:10])
         if round97_anomalies:
             print(f"Round 97 anomalies ({len(round97_anomalies)}):", round97_anomalies[:10])
+        if round119_anomalies:
+            print(f"Round 119 anomalies ({len(round119_anomalies)}):", round119_anomalies[:10])
+        if round120_anomalies:
+            print(f"Round 120 anomalies ({len(round120_anomalies)}):", round120_anomalies[:10])
+        if round121_anomalies:
+            print(f"Round 121 anomalies ({len(round121_anomalies)}):", round121_anomalies[:10])
+        if round122_anomalies:
+            print(f"Round 122 anomalies ({len(round122_anomalies)}):", round122_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
