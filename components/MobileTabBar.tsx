@@ -9,7 +9,7 @@ import {
   Bookmark, 
   User 
 } from "lucide-react";
-import { getLocalState } from "@/lib/storage";
+import { getLocalState, subscribeLocalState, type LocalLearningState } from "@/lib/storage";
 
 export default function MobileTabBar() {
   const pathname = usePathname();
@@ -18,25 +18,16 @@ export default function MobileTabBar() {
 
   // Read local state for badge counts
   useEffect(() => {
-    const updateCounts = () => {
+    const applyCounts = (state: LocalLearningState) => {
       try {
-        const state = getLocalState();
-        if (state) {
-          const unmastered = (state.mistakes || []).filter((m) => !m.isMastered).length;
-          setUnmasteredCount(unmastered);
-          setVocabCount((state.vocabulary || []).length);
-        }
+        const unmastered = (state.mistakes || []).filter((m) => !m.isMastered).length;
+        setUnmasteredCount(unmastered);
+        setVocabCount((state.vocabulary || []).length);
       } catch {}
     };
 
-    updateCounts();
-    window.addEventListener("storage", updateCounts);
-    window.addEventListener("enway_local_state_updated", updateCounts);
-
-    return () => {
-      window.removeEventListener("storage", updateCounts);
-      window.removeEventListener("enway_local_state_updated", updateCounts);
-    };
+    applyCounts(getLocalState());
+    return subscribeLocalState(applyCounts);
   }, [pathname]);
 
   // Hide on Login page, Practice page, and Full Mock Exam page for immersion & safe area

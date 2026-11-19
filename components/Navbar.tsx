@@ -4,10 +4,14 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import type { User as AuthUser } from "@supabase/supabase-js";
+import type { UserProfile, SystemAnnouncementRow } from "@/types/user";
 import { 
   clearLocalData, 
-  uploadBackupToCloud 
+  uploadBackupToCloud,
+  setLastLocalUserId,
 } from "@/lib/storage";
+import { clearPendingSubmissionTasks } from "@/lib/submissionQueue";
 import { 
   BookOpen, 
   User, 
@@ -27,11 +31,29 @@ import {
 } from "lucide-react";
 import AnnouncementBanner from "@/components/AnnouncementBanner";
 
+function getSafeAnnouncementHref(rawUrl?: string | null): string | null {
+  if (!rawUrl) return null;
+  const trimmed = rawUrl.trim();
+  if (!trimmed) return null;
+  if (trimmed.startsWith("/") && !trimmed.startsWith("//") && !trimmed.startsWith("/\\") && !trimmed.includes("\\")) {
+    return trimmed;
+  }
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.toString();
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
 export default function Navbar() {
   const pathname = usePathname();
   const router = useRouter();
-  const [user, setUser] = useState<any>(null);
-  const [profile, setProfile] = useState<any>(null);
+  const [user, setUser] = useState<AuthUser | null>(null);
+  const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
 
   // Theme State
@@ -42,7 +64,7 @@ export default function Navbar() {
   const [isLoggingOut, setIsLoggingOut] = useState(false);
 
   // Sitewide announcement dropdown state
-  const [activeAnnouncement, setActiveAnnouncement] = useState<any>(null);
+  const [activeAnnouncement, setActiveAnnouncement] = useState<SystemAnnouncementRow | null>(null);
   const [showAnnouncementDetail, setShowAnnouncementDetail] = useState(false);
 
   // Initialize theme state from html class
@@ -56,14 +78,19 @@ export default function Navbar() {
     setIsDark(nextIsDark);
     if (nextIsDark) {
       document.documentElement.classList.add("dark");
-      localStorage.setItem("enway_theme", "dark");
+      try {
+        localStorage.setItem("enway_theme", "dark");
+      } catch {}
     } else {
       document.documentElement.classList.remove("dark");
-      localStorage.setItem("enway_theme", "light");
+      try {
+        localStorage.setItem("enway_theme", "light");
+      } catch {}
     }
   };
 
   useEffect(() => {
+    let isMounted = true;
     const NAV_ANNOUNCEMENT_CACHE_KEY = "enway_cached_nav_announcement";
     const NAV_PROFILE_CACHE_PREFIX = "enway_cached_nav_profile_";
     const NAV_CACHE_TTL = 60 * 60 * 1000; // 1 hour
@@ -75,6 +102,7 @@ export default function Navbar() {
           if (raw) {
             const { data, timestamp } = JSON.parse(raw);
             if (Date.now() - timestamp < NAV_CACHE_TTL) {
+              if (!isMounted) return;
               if (data && data.announcement_enabled && data.announcement_text?.trim()) {
                 setActiveAnnouncement(data);
               } else {
@@ -102,6 +130,7 @@ export default function Navbar() {
           } catch {}
         }
 
+        if (!isMounted) return;
         if (data && data.announcement_enabled && data.announcement_text?.trim()) {
           setActiveAnnouncement(data);
         } else {
@@ -112,12 +141,21 @@ export default function Navbar() {
     loadAnnouncement();
 
     let isFetchingUser = false;
+    let pendingReload = false;
+    let pendingForce = false;
+
     async function loadUser(forceRefresh = false) {
-      if (isFetchingUser) return;
+      if (!isMounted) return;
+      if (isFetchingUser) {
+        pendingReload = true;
+        if (forceRefresh) pendingForce = true;
+        return;
+      }
       isFetchingUser = true;
       try {
         // Read local JWT session instead of triggering physical /auth/v1/user network call
         const { data: { session } } = await supabase.auth.getSession();
+        if (!isMounted) return;
         const currentUser = session?.user || null;
         setUser(currentUser);
 
@@ -129,7 +167,7 @@ export default function Navbar() {
               if (cached) {
                 const { data, timestamp } = JSON.parse(cached);
                 if (Date.now() - timestamp < NAV_CACHE_TTL) {
-                  setProfile(data);
+                  if (isMounted) setProfile(data);
                   return;
                 }
               }
@@ -142,20 +180,23 @@ export default function Navbar() {
             .eq("id", currentUser.id)
             .maybeSingle();
 
+          if (!isMounted) return;
           if (data) {
-            setProfile(data);
+            const profileRow = data as UserProfile;
+            setProfile(profileRow);
             if (typeof window !== "undefined") {
               try {
                 sessionStorage.setItem(
                   profileCacheKey,
-                  JSON.stringify({ data, timestamp: Date.now() })
+                  JSON.stringify({ data: profileRow, timestamp: Date.now() })
                 );
               } catch {}
             }
           } else if (currentUser.user_metadata) {
-            const fallbackProfile = {
-              username: currentUser.user_metadata.username || currentUser.email?.split("@")[0],
-              nickname: currentUser.user_metadata.nickname || currentUser.user_metadata.username,
+            const fallbackProfile: UserProfile = {
+              id: currentUser.id,
+              username: String(currentUser.user_metadata.username || currentUser.email?.split("@")[0] || "user"),
+              nickname: currentUser.user_metadata.nickname || currentUser.user_metadata.username || null,
               role: "student",
             };
             setProfile(fallbackProfile);
@@ -172,18 +213,29 @@ export default function Navbar() {
           setProfile(null);
         }
       } catch (e) {
-        console.error("Error loading user profile", e);
+        if (isMounted) {
+          console.error("Error loading user profile", e);
+        }
       } finally {
         isFetchingUser = false;
-        setLoading(false);
+        if (isMounted) {
+          setLoading(false);
+          if (pendingReload) {
+            const nextForce = pendingForce;
+            pendingReload = false;
+            pendingForce = false;
+            loadUser(nextForce);
+          }
+        }
       }
     }
     loadUser();
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((event, session) => {
+      if (!isMounted) return;
       if (session?.user) {
         setUser(session.user);
-        if (event === "SIGNED_IN") {
+        if (event === "SIGNED_IN" || event === "USER_UPDATED") {
           loadUser(true);
         }
       } else {
@@ -203,11 +255,32 @@ export default function Navbar() {
     window.addEventListener("enway_announcement_updated", handleAnnouncementUpdate);
 
     return () => {
+      isMounted = false;
       subscription.unsubscribe();
       window.removeEventListener("enway_profile_updated", handleProfileUpdate);
       window.removeEventListener("enway_announcement_updated", handleAnnouncementUpdate);
     };
   }, []);
+
+  const cleanupLocalSessionData = () => {
+    clearLocalData("all");
+    clearPendingSubmissionTasks();
+    setLastLocalUserId(null);
+    if (typeof window !== "undefined") {
+      try {
+        localStorage.removeItem("enway_last_presence_touch");
+      } catch {}
+      try {
+        sessionStorage.removeItem("enway_cached_nav_announcement");
+        sessionStorage.removeItem("enway_last_silent_backup");
+        Object.keys(sessionStorage).forEach((k) => {
+          if (k.startsWith("enway_cached_nav_profile_")) {
+            sessionStorage.removeItem(k);
+          }
+        });
+      } catch {}
+    }
+  };
 
   // Execute logout with optional cloud backup and local cache clearance
   const handleConfirmLogout = async (backupFirst: boolean) => {
@@ -225,42 +298,23 @@ export default function Navbar() {
           }
         }
       }
-      // Strictly clear local device data per user request to isolate accounts
-      clearLocalData("all");
-      if (typeof window !== "undefined") {
-        try {
-          sessionStorage.removeItem("enway_cached_nav_announcement");
-          Object.keys(sessionStorage).forEach((k) => {
-            if (k.startsWith("enway_cached_nav_profile_")) {
-              sessionStorage.removeItem(k);
-            }
-          });
-        } catch {}
-      }
+      // Strictly clear local device data & pending queue to isolate accounts
+      cleanupLocalSessionData();
       await supabase.auth.signOut();
       setShowLogoutModal(false);
       router.push("/login");
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error("Logout error", err);
+      const errMessage = err instanceof Error ? err.message : "网络异常";
       const confirmForce = window.confirm(
-        `⚠️ 登出过程遇到异常（${err?.message || "网络异常"}）。是否强制清除本地数据并退出？`
+        `⚠️ 登出过程遇到异常（${errMessage}）。是否强制清除本地数据并退出？`
       );
       if (!confirmForce) {
         setIsLoggingOut(false);
         return;
       }
       // Fallback
-      clearLocalData("all");
-      if (typeof window !== "undefined") {
-        try {
-          sessionStorage.removeItem("enway_cached_nav_announcement");
-          Object.keys(sessionStorage).forEach((k) => {
-            if (k.startsWith("enway_cached_nav_profile_")) {
-              sessionStorage.removeItem(k);
-            }
-          });
-        } catch {}
-      }
+      cleanupLocalSessionData();
       await supabase.auth.signOut();
       setShowLogoutModal(false);
       router.push("/login");
@@ -273,6 +327,7 @@ export default function Navbar() {
   if (isLoginPage) return null;
 
   const isAnyAdmin = profile?.role === "admin" || profile?.role === "super_admin";
+  const safeAnnouncementHref = getSafeAnnouncementHref(activeAnnouncement?.announcement_link_url);
 
   return (
     <>
@@ -427,10 +482,10 @@ export default function Navbar() {
                         在顶部重新展示横幅
                       </button>
 
-                      {activeAnnouncement.announcement_link_text && activeAnnouncement.announcement_link_url && (
+                      {activeAnnouncement.announcement_link_text && safeAnnouncementHref && (
                         <a
-                          href={activeAnnouncement.announcement_link_url}
-                          target={activeAnnouncement.announcement_link_url.startsWith("http") ? "_blank" : undefined}
+                          href={safeAnnouncementHref}
+                          target={/^https?:\/\//i.test(safeAnnouncementHref) ? "_blank" : undefined}
                           rel="noopener noreferrer"
                           className="px-3 py-1 bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] rounded-lg text-xs font-bold flex items-center space-x-1 shadow-subtle transition-all"
                         >

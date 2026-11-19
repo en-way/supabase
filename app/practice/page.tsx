@@ -13,7 +13,11 @@ import {
   getPracticeDraft,
   clearPracticeDraft
 } from "@/lib/storage";
-import { fetchExamDetailWithFallback } from "@/lib/examLoader";
+import { useExamDetail } from "@/hooks/useExamDetail";
+import { useBodyScrollLock } from "@/hooks/useBodyScrollLock";
+import { useDrawerSwipe } from "@/hooks/useDrawerSwipe";
+import { useKeyboardGuard } from "@/hooks/useKeyboardGuard";
+import type { ExamRecord, PassageRecord, QuestionRecord } from "@/types/exam";
 import { 
   ArrowLeft, 
   CheckCircle2, 
@@ -36,18 +40,18 @@ import {
   Keyboard
 } from "lucide-react";
 import SplitPane from "@/components/SplitPane";
-import KeyboardShortcutsModal from "@/components/KeyboardShortcutsModal";
+import dynamic from "next/dynamic";
 import PassageHighlighter from "@/components/PassageHighlighter";
+
+const KeyboardShortcutsModal = dynamic(() => import("@/components/KeyboardShortcutsModal"), {
+  ssr: false,
+});
 
 function PracticeContent() {
   const searchParams = useSearchParams();
   const examId = searchParams.get("id");
 
-  const [exam, setExam] = useState<any>(null);
-  const [passages, setPassages] = useState<any[]>([]);
-  const [questions, setQuestions] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [loading, setLoading] = useState(true);
 
   const [userAnswers, setUserAnswers] = useState<Record<string, string>>({});
   const [showExplanation, setShowExplanation] = useState<Record<string, boolean>>({});
@@ -65,8 +69,75 @@ function PracticeContent() {
   const drawerScrollContainerRef = useRef<HTMLDivElement | null>(null);
   const passageScrollPosRef = useRef<Record<string, number>>({});
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
-  const drawerTouchStartRef = useRef<{ x: number; y: number } | null>(null);
+
+  const { exam, passages, questions, loading } = useExamDetail(examId, {
+    onBeforeLoad: () => {
+      setShowAnswerSheet(false);
+      setShowPassageSheet(false);
+      passageScrollPosRef.current = {};
+    },
+    onEmpty: () => {
+      setUserAnswers({});
+      setShowExplanation({});
+      setCurrentIndex(0);
+    },
+    onLoaded: (detail, loadedExamId) => {
+      const loadedQuestions = detail?.questions || [];
+      const state = getLocalState();
+      const favs = Array.isArray(state?.favorites) ? state.favorites : [];
+      setFavoriteIds(new Set(favs.map((f) => f?.questionId).filter(Boolean)));
+      const notesMap: Record<string, string> = {};
+      favs.forEach((f) => {
+        if (f && f.questionId && f.note) notesMap[f.questionId] = f.note;
+      });
+      setEditingNotes(notesMap);
+
+      // Smart Practice Resume: Restore previous draft progress if exists, otherwise reset
+      const draft = getPracticeDraft(loadedExamId);
+      if (draft) {
+        setUserAnswers(draft.answers || {});
+        if (
+          typeof draft.currentIndex === "number" &&
+          draft.currentIndex >= 0 &&
+          draft.currentIndex < loadedQuestions.length
+        ) {
+          setCurrentIndex(draft.currentIndex);
+        } else {
+          setCurrentIndex(0);
+        }
+        const expMap: Record<string, boolean> = {};
+        Object.keys(draft.answers || {}).forEach((qId) => {
+          expMap[qId] = true;
+        });
+        setShowExplanation(expMap);
+      } else {
+        setUserAnswers({});
+        setShowExplanation({});
+        setCurrentIndex(0);
+      }
+    },
+    onError: (err) => {
+      console.error("Failed to load practice data:", err);
+    },
+  });
+
   const activePassageId = questions[currentIndex]?.passage_id || passages[0]?.id || "";
+  const practiceStateRef = useRef({
+    currentIndex,
+    questions,
+    userAnswers,
+    examId,
+    exam,
+    editingNotes,
+  });
+  practiceStateRef.current = {
+    currentIndex,
+    questions,
+    userAnswers,
+    examId,
+    exam,
+    editingNotes,
+  };
 
   // Load persistent font scale
   useEffect(() => {
@@ -143,23 +214,9 @@ function PracticeContent() {
     }
   };
 
-  const handleDrawerTouchStart = (e: React.TouchEvent) => {
-    if (e.touches.length === 1) {
-      drawerTouchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
-    }
-  };
-
-  const handleDrawerTouchEnd = (e: React.TouchEvent, onClose: () => void) => {
-    if (!drawerTouchStartRef.current) return;
-    const deltaX = e.changedTouches[0].clientX - drawerTouchStartRef.current.x;
-    const deltaY = e.changedTouches[0].clientY - drawerTouchStartRef.current.y;
-    drawerTouchStartRef.current = null;
-    // Downward swipe of >= 150px and vertical displacement > 2.0x horizontal dismisses drawer
-    if (deltaY >= 150 && deltaY > Math.abs(deltaX) * 2.0) {
-      triggerHaptic(8);
-      onClose();
-    }
-  };
+  const { handleDrawerTouchStart, handleDrawerTouchEnd } = useDrawerSwipe({
+    onDismissHaptic: () => triggerHaptic(8),
+  });
 
   const handlePassageDrawerScroll = (e: React.UIEvent<HTMLDivElement>) => {
     const top = e.currentTarget.scrollTop;
@@ -184,68 +241,15 @@ function PracticeContent() {
   }, [showPassageSheet, activePassageId]);
 
   // Mobile drawer body scroll lock & overscroll containment
-  useEffect(() => {
-    if (showAnswerSheet || showPassageSheet || showShortcutsModal) {
-      const originalOverflow = document.body.style.overflow;
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = originalOverflow;
-      };
-    }
-  }, [showAnswerSheet, showPassageSheet, showShortcutsModal]);
-
-  useEffect(() => {
-    async function loadExam() {
-      if (!examId) {
-        setLoading(false);
-        return;
-      }
-      setLoading(true);
-      try {
-        const detail = await fetchExamDetailWithFallback(examId);
-        if (detail) {
-          setExam(detail.exam || null);
-          setPassages(detail.passages || []);
-          setQuestions(detail.questions || []);
-        }
-
-        const state = getLocalState();
-        const favs = Array.isArray(state?.favorites) ? state.favorites : [];
-        setFavoriteIds(new Set(favs.map((f) => f?.questionId).filter(Boolean)));
-        const notesMap: Record<string, string> = {};
-        favs.forEach((f) => {
-          if (f && f.questionId && f.note) notesMap[f.questionId] = f.note;
-        });
-        setEditingNotes(notesMap);
-
-        // Smart Practice Resume: Restore previous draft progress if exists
-        const draft = getPracticeDraft(examId);
-        if (draft) {
-          setUserAnswers(draft.answers || {});
-          if (typeof draft.currentIndex === "number" && draft.currentIndex >= 0 && draft.currentIndex < (detail?.questions || []).length) {
-            setCurrentIndex(draft.currentIndex);
-          }
-          const expMap: Record<string, boolean> = {};
-          Object.keys(draft.answers || {}).forEach((qId) => {
-            expMap[qId] = true;
-          });
-          setShowExplanation(expMap);
-        }
-      } catch (err) {
-        console.error("Failed to load practice data:", err);
-      } finally {
-        setLoading(false);
-      }
-    }
-    loadExam();
-  }, [examId]);
+  useBodyScrollLock(showAnswerSheet || showPassageSheet || showShortcutsModal);
 
   const persistDraft = (answers: Record<string, string>, targetIdx: number) => {
-    if (!examId) return;
+    const { examId: curExamId, questions: qs } = practiceStateRef.current;
+    if (!curExamId) return;
     let aCount = 0;
     let cCount = 0;
     let score = 0;
-    questions.forEach((q) => {
+    qs.forEach((q) => {
       const ans = answers[q.id];
       if (ans) {
         aCount++;
@@ -257,21 +261,24 @@ function PracticeContent() {
       }
     });
     score = Math.round(score * 10) / 10;
-    savePracticeDraft(examId, answers, targetIdx, {
+    savePracticeDraft(curExamId, answers, targetIdx, {
       score,
       correctCount: cCount,
-      totalQuestions: questions.length,
+      totalQuestions: qs.length,
       answeredCount: aCount,
     });
   };
 
   const navigateTo = (newIdx: number) => {
-    const safeIdx = Math.max(0, Math.min(questions.length - 1, newIdx));
-    if (safeIdx !== currentIndex) {
+    const { questions: qs, currentIndex: cIdx, userAnswers: uAns } = practiceStateRef.current;
+    if (qs.length === 0) return;
+    const safeIdx = Math.max(0, Math.min(qs.length - 1, newIdx));
+    if (safeIdx !== cIdx) {
       triggerHaptic(8);
     }
+    practiceStateRef.current.currentIndex = safeIdx;
     setCurrentIndex(safeIdx);
-    persistDraft(userAnswers, safeIdx);
+    persistDraft(uAns, safeIdx);
 
     // Smooth scroll reading passage to top if switching questions
     if (passageContainerRef.current) {
@@ -299,13 +306,12 @@ function PracticeContent() {
     if (examId) {
       clearPracticeDraft(examId);
     }
+    practiceStateRef.current.userAnswers = {};
+    practiceStateRef.current.currentIndex = 0;
     setUserAnswers({});
     setShowExplanation({});
     setCurrentIndex(0);
   };
-
-  const practiceStateRef = useRef({ currentIndex, questions, userAnswers, examId, exam });
-  practiceStateRef.current = { currentIndex, questions, userAnswers, examId, exam };
 
   const handleSelectOption = (key: string, targetIndex?: number) => {
     const { currentIndex: curIdx, questions: qs, userAnswers: uAns, examId: eId, exam: curExam } = practiceStateRef.current;
@@ -316,6 +322,7 @@ function PracticeContent() {
     if (isAns) return;
 
     const nextAnswers = { ...uAns, [q.id]: key };
+    practiceStateRef.current.userAnswers = nextAnswers;
     setUserAnswers(nextAnswers);
     setShowExplanation((prev) => ({ ...prev, [q.id]: true }));
 
@@ -353,91 +360,74 @@ function PracticeContent() {
   }, [examId, loading, questions]);
 
   // Physical keyboard shortcuts (A/B/C/D to answer, Arrows/J/K to navigate, Z for Zen, M for sheet, ? for help)
-  useEffect(() => {
-    if (loading || questions.length === 0) return;
+  useKeyboardGuard((e: KeyboardEvent) => {
+    const { currentIndex: cIdx, questions: qs } = practiceStateRef.current;
+    const targetQ = qs[cIdx];
+    const validKeys = targetQ
+      ? normalizeOptions(targetQ.options).map((o) => o.key.toUpperCase())
+      : ["A", "B", "C", "D"];
+    const key = e.key.toUpperCase();
 
-    const handleKeyDown = (e: KeyboardEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (
-        e.isComposing ||
-        target instanceof HTMLInputElement ||
-        target instanceof HTMLTextAreaElement ||
-        target?.isContentEditable ||
-        target?.closest?.("input, textarea, [contenteditable='true']")
-      ) {
-        return;
-      }
+    if (e.key === "Escape") {
+      setShowShortcutsModal(false);
+      setShowAnswerSheet(false);
+      setShowPassageSheet(false);
+      setIsZenMode(false);
+      return;
+    }
 
-      const { currentIndex: cIdx, questions: qs } = practiceStateRef.current;
-      const targetQ = qs[cIdx];
-      const validKeys = targetQ
-        ? normalizeOptions(targetQ.options).map((o) => o.key.toUpperCase())
-        : ["A", "B", "C", "D"];
-      const key = e.key.toUpperCase();
+    if (e.key === "?" || key === "H") {
+      e.preventDefault();
+      setShowShortcutsModal((prev) => !prev);
+      return;
+    }
 
-      if (e.key === "Escape") {
-        setShowShortcutsModal(false);
-        setShowAnswerSheet(false);
-        setShowPassageSheet(false);
-        setIsZenMode(false);
-        return;
-      }
+    if (key === "Z") {
+      e.preventDefault();
+      setIsZenMode((prev) => !prev);
+      return;
+    }
 
-      if (e.key === "?" || key === "H") {
-        e.preventDefault();
-        setShowShortcutsModal((prev) => !prev);
-        return;
-      }
+    if (key === "M" || e.key === "Tab") {
+      e.preventDefault();
+      setShowAnswerSheet((prev) => !prev);
+      return;
+    }
 
-      if (key === "Z") {
-        e.preventDefault();
-        setIsZenMode((prev) => !prev);
-        return;
-      }
-
-      if (key === "M" || e.key === "Tab") {
-        e.preventDefault();
-        setShowAnswerSheet((prev) => !prev);
-        return;
-      }
-
-      if (validKeys.includes(key)) {
-        e.preventDefault();
-        handleSelectOption(key, cIdx);
-      } else if (key === "F") {
-        e.preventDefault();
-        handleToggleFav();
-        return;
-      } else if (e.key === "ArrowLeft" || key === "J") {
-        e.preventDefault();
-        navigateTo(cIdx - 1);
-      } else if (e.key === "ArrowRight" || key === "K") {
-        e.preventDefault();
-        navigateTo(cIdx + 1);
-      } else if (e.key === "ArrowUp") {
-        e.preventDefault();
-        passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
-      } else if (e.key === "ArrowDown") {
-        e.preventDefault();
-        passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [loading, questions.length]);
+    if (validKeys.includes(key)) {
+      e.preventDefault();
+      handleSelectOption(key, cIdx);
+    } else if (key === "F") {
+      e.preventDefault();
+      handleToggleFav();
+      return;
+    } else if (e.key === "ArrowLeft" || key === "J") {
+      e.preventDefault();
+      navigateTo(cIdx - 1);
+    } else if (e.key === "ArrowRight" || key === "K") {
+      e.preventDefault();
+      navigateTo(cIdx + 1);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
+    } else if (e.key === "ArrowDown") {
+      e.preventDefault();
+      passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
+    }
+  }, !loading && questions.length > 0);
 
   const handleToggleFav = () => {
-    const q = questions[currentIndex] || questions[0];
+    const { questions: qs, currentIndex: cIdx, exam: curExam, editingNotes: notes } = practiceStateRef.current;
+    const q = qs[cIdx] || qs[0];
     if (!q) return;
     toggleFavorite({
       questionId: q.id,
-      examId: exam?.id || "",
+      examId: curExam?.id || "",
       stem: q.stem,
       options: normalizeOptions(q.options),
       correctAnswer: q.correct_answer,
-      explanation: q.explanation,
-      note: editingNotes[q.id] || "",
+      explanation: q.explanation ?? undefined,
+      note: notes[q.id] || "",
     });
 
     setFavoriteIds((prev) => {
@@ -533,7 +523,7 @@ function PracticeContent() {
   const section2 = questions.slice(20, 40); // 传统阅读 Part A (21-40)
   const section3 = questions.slice(40); // 新题型 Part B (41-45, 如有)
 
-  const renderSheetButton = (q: any, overallIdx: number) => {
+  const renderSheetButton = (q: QuestionRecord, overallIdx: number) => {
     const ans = userAnswers[q.id];
     const isAns = Boolean(ans);
     const isCorr = isAns && ans === q.correct_answer;
@@ -1290,10 +1280,12 @@ function PracticeContent() {
       )}
 
       {/* Keyboard Shortcuts Cheat Sheet Modal */}
-      <KeyboardShortcutsModal 
-        isOpen={showShortcutsModal} 
-        onClose={() => setShowShortcutsModal(false)} 
-      />
+      {showShortcutsModal && (
+        <KeyboardShortcutsModal
+          isOpen={showShortcutsModal}
+          onClose={() => setShowShortcutsModal(false)}
+        />
+      )}
     </div>
   );
 }

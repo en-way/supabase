@@ -10,11 +10,13 @@
 
 import { supabase } from "./supabase";
 import { uploadBackupToCloud } from "./storage";
+import { runWithHighPriority } from "./quotaSentinel";
+import type { SubmissionTaskPayload } from "@/types/storage";
 
 export interface SubmissionTask {
   id: string;
   type: "exam_result" | "cloud_backup";
-  payload: any;
+  payload: SubmissionTaskPayload;
   attempts: number;
   lastError?: string;
   createdAt: string;
@@ -23,7 +25,7 @@ export interface SubmissionTask {
 
 const STORAGE_QUEUE_KEY = "enway_offline_submission_tasks";
 let isFlushing = false;
-let flushTimer: any = null;
+let flushTimer: ReturnType<typeof setTimeout> | null = null;
 
 // 读取队列中的待处理任务
 export function getPendingSubmissionTasks(): SubmissionTask[] {
@@ -53,20 +55,42 @@ function savePendingSubmissionTasks(tasks: SubmissionTask[]) {
 }
 
 /**
+ * 清理本地挂起的离线交卷与备份任务（供安全退出或跨账号切换调用）
+ */
+export function clearPendingSubmissionTasks() {
+  if (flushTimer) {
+    clearTimeout(flushTimer);
+    flushTimer = null;
+  }
+  savePendingSubmissionTasks([]);
+}
+
+/**
  * 压入待提交任务并持久化落盘，返回任务 ID
  */
 export function enqueueSubmissionTask(
   type: SubmissionTask["type"],
-  payload: any
+  payload: SubmissionTaskPayload
 ): string {
   const taskId = `task_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
 
   const tasks = getPendingSubmissionTasks();
-  // 相同 examId 的未完成交卷任务进行替换更新，避免重复堆叠
-  // Inherit retry state so exponential backoff is not reset (prevents retry storm)
-  const existingTask = tasks.find(
-    (t) => t.type === "exam_result" && type === "exam_result" && t.payload?.examId === payload?.examId
-  );
+  // 相同 examId 的未完成交卷任务或同类 cloud_backup 任务进行替换去重，继承退避进度
+  const payloadExamId =
+    typeof payload === "object" && payload !== null && "examId" in payload
+      ? (payload as { examId?: unknown }).examId
+      : undefined;
+  const isSameTask = (t: SubmissionTask) => {
+    if (type === "exam_result") {
+      const existingExamId =
+        typeof t.payload === "object" && t.payload !== null && "examId" in t.payload
+          ? (t.payload as { examId?: unknown }).examId
+          : undefined;
+      return t.type === "exam_result" && existingExamId === payloadExamId;
+    }
+    return t.type === "cloud_backup";
+  };
+  const existingTask = tasks.find(isSameTask);
   const newTask: SubmissionTask = {
     id: taskId,
     type,
@@ -75,12 +99,7 @@ export function enqueueSubmissionTask(
     createdAt: existingTask ? existingTask.createdAt : new Date().toISOString(),
     nextRetryAt: existingTask ? existingTask.nextRetryAt : Date.now(),
   };
-  const filtered = tasks.filter((t) => {
-    if (t.type === "exam_result" && type === "exam_result") {
-      return t.payload?.examId !== payload?.examId;
-    }
-    return true;
-  });
+  const filtered = tasks.filter((t) => !isSameTask(t));
   filtered.push(newTask);
   savePendingSubmissionTasks(filtered);
 
@@ -144,13 +163,8 @@ export async function flushSubmissionQueue(): Promise<{
 
       try {
         if (task.type === "exam_result") {
-          // 1. 活跃打点（带特权标头）
-          try {
-            await supabase.rpc("touch_user_activity");
-          } catch {}
-
-          // 2. 尝试执行云端备份同步
-          const backupRes = await uploadBackupToCloud();
+          // 1. 尝试执行云端备份同步（启用高优先级豁免通道；活跃打点由 uploadBackupToCloud 节流完成）
+          const backupRes = await runWithHighPriority(() => uploadBackupToCloud());
           if (!backupRes.success) {
             if (backupRes.error?.includes("未登录")) {
               // User is logged out — delay 10 minutes without burning retry budget
@@ -173,13 +187,16 @@ export async function flushSubmissionQueue(): Promise<{
           }
           processed += 1;
         }
-      } catch (err: any) {
+      } catch (err: unknown) {
         failed += 1;
         task.attempts += 1;
-        task.lastError = err?.message || String(err);
+        task.lastError = err instanceof Error ? err.message : String(err);
 
-        // Full Jitter 指数退避: delay = min(60s, 1s * 2^attempts + random(0~2s))
-        const baseDelay = Math.min(60_000, 1000 * Math.pow(2, Math.min(task.attempts, 6)));
+        // Full Jitter 指数退避: 常规上限 60s；连续失败 >= 10 次降频至 5 分钟
+        const baseDelay =
+          task.attempts >= 10
+            ? 300_000
+            : Math.min(60_000, 1000 * Math.pow(2, Math.min(task.attempts, 6)));
         const jitter = Math.floor(Math.random() * 2000);
         task.nextRetryAt = Date.now() + baseDelay + jitter;
 

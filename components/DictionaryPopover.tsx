@@ -7,7 +7,7 @@ import {
   cleanEnglishWord, 
   DictEntry 
 } from "@/lib/dictionary";
-import { addVocab, getLocalState } from "@/lib/storage";
+import { addVocab, getLocalState, subscribeLocalState } from "@/lib/storage";
 import { 
   Volume2, 
   Bookmark, 
@@ -25,6 +25,16 @@ interface PopoverPosition {
   isAbove: boolean;
 }
 
+function isInsideHighlighterToolbar(target: EventTarget | null): boolean {
+  const el =
+    target instanceof Element
+      ? target
+      : target instanceof Node
+      ? target.parentElement
+      : null;
+  return Boolean(el?.closest(".passage-highlighter-toolbar"));
+}
+
 export default function DictionaryPopover() {
   const [isOpen, setIsOpen] = useState(false);
   const [position, setPosition] = useState<PopoverPosition>({ x: 0, y: 0, arrowX: 170, isAbove: true });
@@ -37,9 +47,37 @@ export default function DictionaryPopover() {
 
   const [isMobile, setIsMobile] = useState(false);
   const popoverRef = useRef<HTMLDivElement | null>(null);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const clearSelTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const activeWordRef = useRef<string>("");
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
+
+  const stopActiveAudio = () => {
+    if (currentAudioRef.current) {
+      try {
+        currentAudioRef.current.pause();
+        currentAudioRef.current.currentTime = 0;
+      } catch {}
+      currentAudioRef.current = null;
+    }
+    setPlayingType(null);
+  };
+
+  useEffect(() => {
+    return () => {
+      if (clearSelTimerRef.current) {
+        clearTimeout(clearSelTimerRef.current);
+        clearSelTimerRef.current = null;
+      }
+      if (currentAudioRef.current) {
+        try {
+          currentAudioRef.current.pause();
+          currentAudioRef.current.currentTime = 0;
+        } catch {}
+        currentAudioRef.current = null;
+      }
+    };
+  }, []);
 
   useEffect(() => {
     const updateIsMobile = () => {
@@ -53,9 +91,13 @@ export default function DictionaryPopover() {
   // Close on outside click, outside touch, or Esc
   useEffect(() => {
     const handleOutside = (e: MouseEvent | TouchEvent) => {
-      const target = (e instanceof MouseEvent ? e.target : (e as TouchEvent).target) as Node;
-      if (popoverRef.current && !popoverRef.current.contains(target)) {
+      const target = (e instanceof MouseEvent ? e.target : (e as TouchEvent).target) as Node | null;
+      if (isInsideHighlighterToolbar(target)) {
+        return;
+      }
+      if (popoverRef.current && (!target || !popoverRef.current.contains(target))) {
         setIsOpen(false);
+        stopActiveAudio();
         // Clear text selection to prevent lingering highlight from re-triggering popups
         if (window.getSelection()?.toString().trim()) {
           window.getSelection()?.removeAllRanges();
@@ -66,6 +108,7 @@ export default function DictionaryPopover() {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         setIsOpen(false);
+        stopActiveAudio();
         if (window.getSelection()?.toString().trim()) {
           window.getSelection()?.removeAllRanges();
         }
@@ -81,6 +124,18 @@ export default function DictionaryPopover() {
       document.removeEventListener("keydown", handleKeyDown);
     };
   }, []);
+
+  // Keep "已入生词本" state synced if modified from another view/tab
+  useEffect(() => {
+    if (!isOpen || !selectedWord) return;
+    const targetWordLower = selectedWord.toLowerCase();
+    return subscribeLocalState((state) => {
+      const exists = (state.vocabulary || []).some(
+        (v) => v.word.toLowerCase() === targetWordLower
+      );
+      setIsAdded(exists);
+    });
+  }, [isOpen, selectedWord]);
 
   // Selection & Double-click / Touch listener with robust multi-word suppression and debouncing
   useEffect(() => {
@@ -115,7 +170,7 @@ export default function DictionaryPopover() {
       const range = selection.getRangeAt(0);
       const containerNode = range.commonAncestorContainer;
       const containerElem = containerNode instanceof Element ? containerNode : containerNode.parentElement;
-      if (containerElem?.closest(".dictionary-popover-container")) {
+      if (containerElem?.closest(".dictionary-popover-container, .passage-highlighter-toolbar")) {
         return;
       }
 
@@ -142,8 +197,11 @@ export default function DictionaryPopover() {
     };
 
     const handleMouseUp = (e: MouseEvent) => {
-      // Ignore clicks originating inside the popover itself
-      if (popoverRef.current && popoverRef.current.contains(e.target as Node)) {
+      // Ignore clicks originating inside the popover itself or highlighter toolbar
+      if (
+        (popoverRef.current && popoverRef.current.contains(e.target as Node)) ||
+        isInsideHighlighterToolbar(e.target)
+      ) {
         return;
       }
 
@@ -153,8 +211,11 @@ export default function DictionaryPopover() {
     };
 
     const handleTouchEnd = (e: TouchEvent) => {
-      const target = e.target as Node;
-      if (popoverRef.current && popoverRef.current.contains(target)) {
+      const target = e.target as Node | null;
+      if (
+        (popoverRef.current && target && popoverRef.current.contains(target)) ||
+        isInsideHighlighterToolbar(target)
+      ) {
         return;
       }
       if (timeoutRef.current) clearTimeout(timeoutRef.current);
@@ -234,7 +295,9 @@ export default function DictionaryPopover() {
     try {
       window.getSelection()?.removeAllRanges();
     } catch {}
-    setTimeout(() => {
+    if (clearSelTimerRef.current) clearTimeout(clearSelTimerRef.current);
+    clearSelTimerRef.current = setTimeout(() => {
+      clearSelTimerRef.current = null;
       try {
         window.getSelection()?.removeAllRanges();
       } catch {}
@@ -248,13 +311,12 @@ export default function DictionaryPopover() {
       setDictEntry(instant);
       setIsLoading(false);
     } else {
-      // Sharded edge lookup with race protection
+      // Reset stale entry before async edge lookup with race protection
+      setDictEntry(null);
       setIsLoading(true);
       const edgeEntry = await lookupWordAsync(clean);
       if (activeWordRef.current === clean) {
-        if (edgeEntry) {
-          setDictEntry(edgeEntry);
-        }
+        setDictEntry(edgeEntry ?? null);
         setIsLoading(false);
       }
     }
@@ -311,6 +373,7 @@ export default function DictionaryPopover() {
   };
 
   const handleClose = () => {
+    stopActiveAudio();
     setIsOpen(false);
     if (window.getSelection()?.toString().trim()) {
       window.getSelection()?.removeAllRanges();
@@ -466,11 +529,11 @@ export default function DictionaryPopover() {
 
         <button
           onClick={handleAddToVocab}
-          disabled={isAdded}
+          disabled={isAdded || isLoading || !dictEntry}
           className={`px-3 py-1.5 rounded-xl font-bold flex items-center space-x-1 transition-all duration-150 active:scale-[0.98] ${
             isAdded
               ? "bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-500/30"
-              : "bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] shadow-subtle"
+              : "bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] shadow-subtle disabled:opacity-50 disabled:cursor-not-allowed"
           }`}
         >
           {isAdded ? (

@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { 
   getLocalState, 
+  subscribeLocalState,
   removeVocab, 
   addVocab, 
   toggleVocabMastery, 
@@ -47,6 +48,7 @@ export default function VocabularyPage() {
   const [cardIndex, setCardIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [isShuffled, setIsShuffled] = useState(false);
+  const [shuffledOrder, setShuffledOrder] = useState<Record<string, number>>({});
   const [maskContextWord, setMaskContextWord] = useState(true);
   const [autoPronounce, setAutoPronounce] = useState(false);
   const [showKeyHelp, setShowKeyHelp] = useState(false);
@@ -63,6 +65,10 @@ export default function VocabularyPage() {
         setViewMode(savedMode);
       }
     }
+    const unsubscribe = subscribeLocalState((state) => {
+      setVocabList(state.vocabulary || []);
+    });
+    return () => unsubscribe();
   }, []);
 
   const loadVocab = () => {
@@ -233,6 +239,26 @@ export default function VocabularyPage() {
     });
   }, [vocabList, searchTerm, masteryFilter]);
 
+  const handleToggleShuffle = () => {
+    if (!isShuffled) {
+      const words = vocabList.map((v) => v.word);
+      for (let i = words.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [words[i], words[j]] = [words[j], words[i]];
+      }
+      const rankMap: Record<string, number> = {};
+      words.forEach((w, idx) => {
+        rankMap[w] = idx;
+      });
+      setShuffledOrder(rankMap);
+      setIsShuffled(true);
+    } else {
+      setIsShuffled(false);
+    }
+    setCardIndex(0);
+    setIsFlipped(false);
+  };
+
   // Deck for Flashcard Studio
   const flashcardDeck = useMemo(() => {
     let list = vocabList.filter((v) => {
@@ -242,11 +268,14 @@ export default function VocabularyPage() {
     });
 
     if (isShuffled) {
-      // Deterministic-like shuffle for the session
-      list = [...list].sort((a, b) => a.word.localeCompare(b.word) * -1 + (a.addedAt > b.addedAt ? 1 : -1));
+      list = [...list].sort(
+        (a, b) =>
+          (shuffledOrder[a.word] ?? Number.MAX_SAFE_INTEGER) -
+          (shuffledOrder[b.word] ?? Number.MAX_SAFE_INTEGER)
+      );
     }
     return list;
-  }, [vocabList, masteryFilter, isShuffled]);
+  }, [vocabList, masteryFilter, isShuffled, shuffledOrder]);
 
   const totalWords = vocabList.length;
   const masteredCount = vocabList.filter((v) => v.mastered).length;
@@ -274,11 +303,12 @@ export default function VocabularyPage() {
     setIsFlipped(false);
     handleToggleMastery(currentCard.word, mastered);
 
-    // If filtering by "unmastered" or "mastered", marking changes card's presence in deck
-    if (masteryFilter !== "all") {
-      // The current card will be removed from flashcardDeck on next render.
-      // If the removed card was the last card in the deck, clamp index to the new last card.
-      // Otherwise, the next card naturally slides into the current safeCardIndex slot.
+    // Only keep/clamp index when the voted card actually leaves the filtered deck
+    const willBeRemoved =
+      (masteryFilter === "unmastered" && mastered === true) ||
+      (masteryFilter === "mastered" && mastered === false);
+
+    if (willBeRemoved) {
       setCardIndex((prev) => {
         if (prev >= flashcardDeck.length - 1) {
           return Math.max(0, flashcardDeck.length - 2);
@@ -286,7 +316,6 @@ export default function VocabularyPage() {
         return prev;
       });
     } else {
-      // Card remains in the deck, so proceed to next card
       handleNextCard();
     }
   }, [currentCard, masteryFilter, flashcardDeck.length, handleNextCard]);
@@ -300,11 +329,22 @@ export default function VocabularyPage() {
 
   // Keyboard navigation shortcuts
   useEffect(() => {
-    if (viewMode !== "flashcard") return;
+    if (viewMode !== "flashcard" || showAddModal) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      const tag = (e.target as HTMLElement)?.tagName?.toLowerCase();
-      if (tag === "input" || tag === "textarea") return;
+      const target = e.target as HTMLElement | null;
+      if (
+        e.ctrlKey ||
+        e.metaKey ||
+        e.altKey ||
+        e.isComposing ||
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement ||
+        target?.isContentEditable ||
+        target?.closest?.("input, textarea, [contenteditable='true']")
+      ) {
+        return;
+      }
 
       if (e.code === "Space" || e.key === "Enter") {
         e.preventDefault();
@@ -329,7 +369,7 @@ export default function VocabularyPage() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [viewMode, currentCard, handleNextCard, handlePrevCard, handleCardMasteryVote, playAudio]);
+  }, [viewMode, showAddModal, currentCard, handleNextCard, handlePrevCard, handleCardMasteryVote, playAudio]);
 
   // Touch gesture listeners for mobile swipe
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -375,7 +415,7 @@ export default function VocabularyPage() {
         <span>
           &ldquo;
           {parts.map((p, i) =>
-            regex.test(p) ? (
+            i % 2 === 1 ? (
               <span
                 key={i}
                 className="inline-block px-1.5 py-0.5 mx-0.5 rounded font-mono font-bold bg-amber-500/15 text-amber-700 dark:text-amber-300 border border-amber-300/40 dark:border-amber-500/30"
@@ -526,7 +566,7 @@ export default function VocabularyPage() {
               </button>
 
               <button
-                onClick={() => setIsShuffled(!isShuffled)}
+                onClick={handleToggleShuffle}
                 title={isShuffled ? "乱序抽查中" : "按收录时间顺序"}
                 className={`px-2.5 py-1.5 rounded-xl text-xs font-semibold flex items-center space-x-1 border transition-all ${
                   isShuffled

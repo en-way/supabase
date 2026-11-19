@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
-import { getLocalState, LocalLearningState, getExamCardStats } from "@/lib/storage";
+import { getLocalState, LocalLearningState, getExamCardStats, subscribeLocalState } from "@/lib/storage";
 import { fetchExamLobbyData, clearStaticExamCache } from "@/lib/examLoader";
+import type { CategoryRecord, ExamLobbyData, ExamRecord } from "@/types/exam";
 import { 
   BookOpen, 
   Clock, 
@@ -25,8 +26,8 @@ import {
 } from "lucide-react";
 
 export default function HomePage() {
-  const [exams, setExams] = useState<any[]>([]);
-  const [categories, setCategories] = useState<any[]>([]);
+  const [exams, setExams] = useState<ExamRecord[]>([]);
+  const [categories, setCategories] = useState<CategoryRecord[]>([]);
   const [activeCat, setActiveCat] = useState<string>("all");
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(1);
@@ -52,35 +53,61 @@ export default function HomePage() {
   };
 
   const PAGE_SIZE = 8;
+  const mountedRef = useRef(true);
+  const loadSeqRef = useRef(0);
 
-  const loadData = async () => {
+  const loadData = useCallback(async () => {
+    const seq = ++loadSeqRef.current;
     setLoading(true);
     try {
       const { categories: cats, exams: examList } = await fetchExamLobbyData();
+      if (!mountedRef.current || seq !== loadSeqRef.current) return;
       if (cats && cats.length > 0) setCategories(cats);
       if (examList && examList.length > 0) setExams(examList);
     } catch (err) {
-      console.error("Failed to load exams lobby:", err);
+      if (mountedRef.current && seq === loadSeqRef.current) {
+        console.error("Failed to load exams lobby:", err);
+      }
     } finally {
-      // Read local learning state
-      setLocalState(getLocalState());
-      setLoading(false);
+      if (mountedRef.current && seq === loadSeqRef.current) {
+        // Read local learning state
+        setLocalState(getLocalState());
+        setLoading(false);
+      }
     }
-  };
+  }, []);
 
   useEffect(() => {
+    mountedRef.current = true;
     loadData();
 
-    const handleLobbyRevalidated = (e: any) => {
-      if (e.detail?.categories?.length > 0) setCategories(e.detail.categories);
-      if (e.detail?.exams?.length > 0) setExams(e.detail.exams);
+    const handleLobbyRevalidated = (e: Event) => {
+      if (!mountedRef.current) return;
+      const detail = (e as CustomEvent<Partial<ExamLobbyData>>).detail;
+      if (detail?.categories && detail.categories.length > 0) setCategories(detail.categories);
+      if (detail?.exams && detail.exams.length > 0) setExams(detail.exams);
     };
 
-    window.addEventListener("enway_lobby_revalidated", handleLobbyRevalidated);
-    return () => {
-      window.removeEventListener("enway_lobby_revalidated", handleLobbyRevalidated);
+    const handleExamVersionUpdated = () => {
+      if (!mountedRef.current) return;
+      loadData();
     };
-  }, []);
+
+    const unsubscribeLocal = subscribeLocalState((nextState) => {
+      if (mountedRef.current) {
+        setLocalState(nextState);
+      }
+    });
+
+    window.addEventListener("enway_lobby_revalidated", handleLobbyRevalidated);
+    window.addEventListener("enway_exam_version_updated", handleExamVersionUpdated);
+    return () => {
+      mountedRef.current = false;
+      unsubscribeLocal();
+      window.removeEventListener("enway_lobby_revalidated", handleLobbyRevalidated);
+      window.removeEventListener("enway_exam_version_updated", handleExamVersionUpdated);
+    };
+  }, [loadData]);
 
   const handleForceRefresh = async () => {
     try {
@@ -214,7 +241,7 @@ export default function HomePage() {
             type="text"
             value={searchQuery}
             onChange={(e) => handleSearchChange(e.target.value)}
-            placeholder="搜索真题关键词（如：2024、英语一、英语二、六级、阅读、完形...）"
+            placeholder="搜索真题关键词（如：2024、英语一、英语二、阅读、完形...）"
             className="w-full pl-10 pr-9 py-2 text-xs rounded-xl bg-white dark:bg-[#11131a] border border-black/[0.06] dark:border-cyan-500/25 text-stone-900 dark:text-zinc-100 placeholder:text-stone-400 dark:placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-emerald-600/30 dark:focus:ring-cyber-400/40 shadow-subtle"
           />
           {searchQuery && (
@@ -613,7 +640,7 @@ export default function HomePage() {
       {filteredExams.length > PAGE_SIZE && (
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 border-t border-black/[0.06] dark:border-cyan-500/15">
           <div className="text-xs text-stone-400 dark:text-zinc-500 font-mono">
-            第 {currentPage} / {totalPages} 页 · 每页 {PAGE_SIZE} 套 · 共 {filteredExams.length} 套试卷
+            第 {safePage} / {totalPages} 页 · 每页 {PAGE_SIZE} 套 · 共 {filteredExams.length} 套试卷
           </div>
 
           <div className="flex items-center space-x-1.5">

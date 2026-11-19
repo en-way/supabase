@@ -7,7 +7,7 @@
  * 递归规范化序列化对象：确保对象的 Key 按照字母表字典序严格排序，
  * 数组元素递归处理，消除因属性书写顺序差异导致的虚假指纹不一致。
  */
-export function canonicalJsonStringify(obj: any): string {
+export function canonicalJsonStringify(obj: unknown): string {
   if (obj === null || obj === undefined) {
     return "null";
   }
@@ -17,9 +17,10 @@ export function canonicalJsonStringify(obj: any): string {
   if (Array.isArray(obj)) {
     return `[${obj.map((item) => canonicalJsonStringify(item)).join(",")}]`;
   }
-  const sortedKeys = Object.keys(obj).sort();
+  const record = obj as Record<string, unknown>;
+  const sortedKeys = Object.keys(record).sort();
   const keyValPairs = sortedKeys.map(
-    (key) => `${JSON.stringify(key)}:${canonicalJsonStringify(obj[key])}`
+    (key) => `${JSON.stringify(key)}:${canonicalJsonStringify(record[key])}`
   );
   return `{${keyValPairs.join(",")}}`;
 }
@@ -28,7 +29,7 @@ export function canonicalJsonStringify(obj: any): string {
  * 计算传入数据的确定性 SHA-256 十六进制散列指纹
  * 优先采用浏览器原生高性能 Web Crypto API (crypto.subtle)
  */
-export async function computeDataHash(data: any): Promise<string> {
+export async function computeDataHash(data: unknown): Promise<string> {
   const canonicalStr = canonicalJsonStringify(data);
   if (typeof crypto !== "undefined" && crypto.subtle) {
     try {

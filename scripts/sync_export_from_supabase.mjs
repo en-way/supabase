@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { execSync } from "child_process";
+import { execFileSync } from "child_process";
 import { fileURLToPath } from "url";
 import { createClient } from "@supabase/supabase-js";
 
@@ -47,6 +47,12 @@ if (!SUPABASE_KEY) {
   process.exit(1);
 }
 
+if (!env.SUPABASE_SERVICE_ROLE_KEY) {
+  console.warn(
+    "⚠️ 警告: 未检测到 SUPABASE_SERVICE_ROLE_KEY，当前回退使用 ANON_KEY，若受 RLS 策略限制可能无法拉取完整表数据。"
+  );
+}
+
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const DATA_DIR = path.join(__dirname, "..", "public", "data");
@@ -55,26 +61,57 @@ const EXAMS_DATA_DIR = path.join(DATA_DIR, "exams");
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
 if (!fs.existsSync(EXAMS_DATA_DIR)) fs.mkdirSync(EXAMS_DATA_DIR, { recursive: true });
 
+function writeJsonIfChanged(filePath, nextContent) {
+  if (fs.existsSync(filePath)) {
+    try {
+      const currentContent = fs.readFileSync(filePath, "utf-8");
+      if (currentContent === nextContent) {
+        return false;
+      }
+    } catch {}
+  }
+  fs.writeFileSync(filePath, nextContent, "utf-8");
+  return true;
+}
+
+function isExamSemanticEqual(filePath, semanticPayload) {
+  if (!fs.existsSync(filePath)) return false;
+  try {
+    const existing = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+    const existingSemantic = {
+      exam: existing?.exam,
+      passages: existing?.passages,
+      questions: existing?.questions,
+    };
+    return JSON.stringify(existingSemantic) === JSON.stringify(semanticPayload);
+  } catch {
+    return false;
+  }
+}
+
 async function main() {
-  console.log("=" .repeat(70));
+  console.log("=".repeat(70));
   console.log("🚀 [Supabase -> 边缘镜像] 全自动化题库拉取与发布流水线启动");
   console.log(`🔗 目标云端: ${SUPABASE_URL}`);
-  console.log("=" .repeat(70));
+  console.log("=".repeat(70));
 
   // 1. 获取分类列表
   console.log("📥 [1/4] 正在拉取试卷分类 (Categories)...");
   const { data: categories, error: catErr } = await supabase
     .from("categories")
     .select("*")
-    .order("sort_order");
+    .order("sort_order", { ascending: true })
+    .order("id", { ascending: true });
   if (catErr) throw new Error(`拉取分类失败: ${catErr.message}`);
+  if (!Array.isArray(categories) || categories.length === 0) {
+    throw new Error("Zero-Wipe 熔断触发: categories 查询结果为空，已中止覆盖静态镜像。");
+  }
 
-  fs.writeFileSync(
+  const catWritten = writeJsonIfChanged(
     path.join(DATA_DIR, "categories.json"),
-    JSON.stringify(categories, null, 2),
-    "utf-8"
+    JSON.stringify(categories, null, 2)
   );
-  console.log(`  ✓ 成功保存 categories.json (${categories.length} 个分类)`);
+  console.log(`  ✓ ${catWritten ? "成功保存" : "无变化跳过"} categories.json (${categories.length} 个分类)`);
 
   // 2. 获取已发布真题总目录
   console.log("📥 [2/4] 正在拉取考卷目录索引 (Exams)...");
@@ -87,8 +124,13 @@ async function main() {
     `)
     .eq("is_published", true)
     .eq("approval_status", "approved")
-    .order("year", { ascending: false });
+    .order("year", { ascending: false })
+    .order("category_id", { ascending: true })
+    .order("id", { ascending: true });
   if (examErr) throw new Error(`拉取考卷目录失败: ${examErr.message}`);
+  if (!Array.isArray(exams) || exams.length === 0) {
+    throw new Error("Zero-Wipe 熔断触发: exams 查询结果为空，已中止写入与孤儿文件清理。");
+  }
 
   const standardizedExams = exams.map((e) => ({
     ...e,
@@ -98,17 +140,17 @@ async function main() {
       : e.passages,
   }));
 
-  fs.writeFileSync(
+  const examsWritten = writeJsonIfChanged(
     path.join(DATA_DIR, "exams.json"),
-    JSON.stringify(standardizedExams, null, 2),
-    "utf-8"
+    JSON.stringify(standardizedExams, null, 2)
   );
-  console.log(`  ✓ 成功保存 exams.json (${standardizedExams.length} 套正式发布的真题，全量客观题 75 分钟限时)`);
+  console.log(`  ✓ ${examsWritten ? "成功保存" : "无变化跳过"} exams.json (${standardizedExams.length} 套正式发布的真题，全量客观题 75 分钟限时)`);
 
   // 3. 逐卷拉取篇章与试题并落盘
   console.log("📥 [3/4] 正在逐卷同步篇章 (Passages) 与试题解析 (Questions)...");
   let totalPassages = 0;
   let totalQuestions = 0;
+  let changedFilesCount = 0;
 
   for (let i = 0; i < exams.length; i++) {
     const exam = exams[i];
@@ -120,12 +162,14 @@ async function main() {
         .from("passages")
         .select("*")
         .eq("exam_id", examId)
-        .order("sort_order", { ascending: true }),
+        .order("sort_order", { ascending: true })
+        .order("id", { ascending: true }),
       supabase
         .from("questions")
         .select("*")
         .eq("exam_id", examId)
-        .order("sort_order", { ascending: true }),
+        .order("sort_order", { ascending: true })
+        .order("id", { ascending: true }),
     ]);
 
     if (pRes.error) throw new Error(`拉取篇章失败 (${examId}): ${pRes.error.message}`);
@@ -141,22 +185,25 @@ async function main() {
       };
     });
 
-    const examPayload = {
+    const semanticPayload = {
       exam: {
         ...exam,
         duration_minutes: 75,
       },
       passages,
       questions,
-      exportedAt: new Date().toISOString(),
     };
 
     const outPath = path.join(EXAMS_DATA_DIR, `${examId}.json`);
-    fs.writeFileSync(outPath, JSON.stringify(examPayload, null, 2), "utf-8");
+    let written = false;
+    if (!isExamSemanticEqual(outPath, semanticPayload)) {
+      written = writeJsonIfChanged(outPath, JSON.stringify(semanticPayload, null, 2) + "\n");
+    }
+    if (written) changedFilesCount += 1;
 
     totalPassages += passages.length;
     totalQuestions += questions.length;
-    console.log(`✓ (${passages.length} 篇章, ${questions.length} 试题)`);
+    console.log(`${written ? "✓ 更新" : "＝ 无变化"} (${passages.length} 篇章, ${questions.length} 试题)`);
   }
 
   // 3.5 清理已下架/未发布的孤儿试卷 JSON 文件 (Orphaned JSON Cleanup)
@@ -178,27 +225,41 @@ async function main() {
     console.log(`  ✓ 成功清除 ${cleanedCount} 个已下架试卷文件。`);
   }
 
-  console.log(`\n🎉 数据落地完成: 共同步 ${exams.length} 套真题、${totalPassages} 篇文章、${totalQuestions} 道试题。`);
+  console.log(
+    `\n🎉 数据落地完成: 共同步 ${exams.length} 套真题（本次更新 ${changedFilesCount} 卷）、${totalPassages} 篇文章、${totalQuestions} 道试题。`
+  );
 
-  // 4. 自动化法医级质量门控 (Quality Gate)
-  console.log("\n🛡️ [4/4] 正在执行 17 项法医级全量质量自检断言...");
-  try {
-    const pythonBin = process.platform === "win32" ? "python" : "python3";
-    const verifyScript = path.join(__dirname, "verify_deep_text_calibration.py");
-    const verifyOutput = execSync(`${pythonBin} "${verifyScript}"`, { encoding: "utf-8" });
-    console.log(verifyOutput.trim());
-    console.log("  ✅ 质量守门 100% 通过: 0 错题、0 格式缺陷、0 答案冲突！");
-  } catch (err) {
-    console.error("❌ 质量守门断言拦截: 发现真题数据缺陷，已紧急中止发布！");
-    if (err.stdout) console.error(err.stdout);
-    if (err.stderr) console.error(err.stderr);
-    process.exit(1);
+  // 4. 自动化质量与安全门控 (Quality & Security Gate)
+  console.log("\n🛡️ [4/4] 正在执行全量质量校准与系统安全断言...");
+  const pythonBin = process.platform === "win32" ? "python" : "python3";
+  const verifyGates = [
+    {
+      name: "118项法医级文本校对断言",
+      script: path.join(__dirname, "verify_deep_text_calibration.py"),
+    },
+    {
+      name: "12项安全防线与韧性断言",
+      script: path.join(__dirname, "verify_system_security_and_resilience.py"),
+    },
+  ];
+
+  for (const gate of verifyGates) {
+    try {
+      const output = execFileSync(pythonBin, [gate.script], { encoding: "utf-8" });
+      console.log(output.trim());
+      console.log(`  ✅ [${gate.name}] 100% 通过！`);
+    } catch (err) {
+      console.error(`❌ 质量/安全门控拦截 (${gate.name}): 检测到异常，已中止发布！`);
+      if (err.stdout) console.error(err.stdout);
+      if (err.stderr) console.error(err.stderr);
+      process.exit(1);
+    }
   }
 
   // 5. 自动刷新静态版本哈希
-  console.log("\n🔄 正在生成最新版本号与时间戳...");
+  console.log("\n🔄 正在检查并更新静态版本号...");
   const versionScript = path.join(__dirname, "generate_static_version.mjs");
-  execSync(`node "${versionScript}"`, { stdio: "inherit" });
+  execFileSync("node", [versionScript], { stdio: "inherit" });
 
   console.log("\n" + "=".repeat(70));
   console.log("🏁 全自动同步流水线执行完毕！所有静态真题镜像已完全就绪。");

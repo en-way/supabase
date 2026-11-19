@@ -1,11 +1,14 @@
 import { supabase } from "@/lib/supabase";
+import type {
+  CategoryRecord,
+  ExamDetailData,
+  ExamLobbyData,
+  ExamRecord,
+  PassageRecord,
+  QuestionRecord,
+} from "@/types/exam";
 
-export interface ExamDetailData {
-  exam: any;
-  passages: any[];
-  questions: any[];
-  fromStaticMirror?: boolean;
-}
+export type { ExamDetailData, ExamLobbyData };
 
 const CACHE_NAME = "enway-static-v3";
 const LEGACY_CACHE_NAMES = ["enway-static-v1", "enway-static-v2"];
@@ -20,7 +23,7 @@ if (hasCacheStorage) {
 
 // In-memory session cache for loaded exam packages (Tier 1: 0ms)
 const examDetailMemoryCache: Record<string, ExamDetailData> = {};
-let lobbyMemoryCache: { categories: any[]; exams: any[] } | null = null;
+let lobbyMemoryCache: ExamLobbyData | null = null;
 let hasRevalidatedLobby = false;
 
 /**
@@ -65,51 +68,101 @@ let hasCheckedVersion = false;
 let lastVersionCheckTime = 0;
 const VERSION_CHECK_THROTTLE_MS = 10 * 60 * 1000; // 10 minutes throttle
 
+let cacheEpoch = 0;
+let revalidateTimer: ReturnType<typeof setTimeout> | null = null;
+let pendingVersionCheck: Promise<boolean> | null = null;
+let pendingLobbyFetch: Promise<ExamLobbyData> | null = null;
+const pendingExamFetches: Record<string, Promise<ExamDetailData | null> | undefined> = {};
+
+function safeGetItem(key: string): string | null {
+  try {
+    return localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function safeSetItem(key: string, value: string): void {
+  try {
+    localStorage.setItem(key, value);
+  } catch {
+    // Ignore storage access errors in restricted environments
+  }
+}
+
+async function purgeExamCaches(): Promise<boolean> {
+  cacheEpoch += 1;
+  if (revalidateTimer !== null) {
+    clearTimeout(revalidateTimer);
+    revalidateTimer = null;
+  }
+  lobbyMemoryCache = null;
+  hasRevalidatedLobby = false;
+  pendingLobbyFetch = null;
+  for (const k of Object.keys(examDetailMemoryCache)) {
+    delete examDetailMemoryCache[k];
+  }
+  for (const k of Object.keys(pendingExamFetches)) {
+    delete pendingExamFetches[k];
+  }
+  if (!hasCacheStorage) return false;
+  try {
+    return await caches.delete(CACHE_NAME);
+  } catch {
+    return false;
+  }
+}
+
 /**
  * Checks /data/version.json to determine if the static exam mirror has updated.
  * If a new version hash is detected, automatically purges stale CacheStorage.
  */
 export async function checkAndUpdateExamVersion(force = false): Promise<boolean> {
   if (typeof window === "undefined") return false;
-  const now = Date.now();
-  if (!force && hasCheckedVersion && (now - lastVersionCheckTime < VERSION_CHECK_THROTTLE_MS)) {
-    return false;
-  }
-  hasCheckedVersion = true;
-  lastVersionCheckTime = now;
+  if (pendingVersionCheck) return pendingVersionCheck;
 
-  try {
-    const res = await fetch("/data/version.json", { cache: "no-cache" });
-    if (!isJsonResponse(res)) return false;
-    const { version } = await res.json();
-    const storedVersion = localStorage.getItem("enway_exam_version");
-    if (storedVersion && storedVersion !== version) {
-      console.log(`[ExamLoader] Upgrading exam mirror cache: ${storedVersion} -> ${version}`);
-      if (hasCacheStorage) {
-        await caches.delete(CACHE_NAME).catch(() => {});
-      }
-      lobbyMemoryCache = null;
-      for (const k of Object.keys(examDetailMemoryCache)) {
-        delete examDetailMemoryCache[k];
-      }
-      localStorage.setItem("enway_exam_version", version);
-      window.dispatchEvent(new CustomEvent("enway_exam_version_updated", { detail: { version } }));
-      return true;
-    }
-    if (version) {
-      localStorage.setItem("enway_exam_version", version);
-    }
-    return false;
-  } catch {
+  const now = Date.now();
+  if (!force && hasCheckedVersion && now - lastVersionCheckTime < VERSION_CHECK_THROTTLE_MS) {
     return false;
   }
+
+  pendingVersionCheck = (async () => {
+    try {
+      const res = await fetch("/data/version.json", { cache: "no-cache" });
+      if (!isJsonResponse(res)) return false;
+      const payload = await res.json();
+      const version = typeof payload?.version === "string" ? payload.version.trim() : "";
+      if (!version) return false;
+
+      hasCheckedVersion = true;
+      lastVersionCheckTime = Date.now();
+
+      const storedVersion = safeGetItem("enway_exam_version");
+      if (storedVersion && storedVersion !== version) {
+        console.log(`[ExamLoader] Upgrading exam mirror cache: ${storedVersion} -> ${version}`);
+        await purgeExamCaches();
+        safeSetItem("enway_exam_version", version);
+        window.dispatchEvent(new CustomEvent("enway_exam_version_updated", { detail: { version } }));
+        return true;
+      }
+
+      safeSetItem("enway_exam_version", version);
+      return false;
+    } catch {
+      return false;
+    } finally {
+      pendingVersionCheck = null;
+    }
+  })();
+
+  return pendingVersionCheck;
 }
 
 // Background foreground wake-up listener for PWA and mobile tabs
 if (typeof window !== "undefined") {
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible") {
-      checkAndUpdateExamVersion(false);
+      checkAndUpdateExamVersion(false).catch(() => {});
     }
   });
 }
@@ -119,21 +172,33 @@ if (typeof window !== "undefined") {
  */
 function revalidateLobbyInBackground() {
   if (typeof window === "undefined") return;
-  setTimeout(async () => {
+  const startEpoch = cacheEpoch;
+  if (revalidateTimer !== null) {
+    clearTimeout(revalidateTimer);
+  }
+  revalidateTimer = setTimeout(async () => {
+    revalidateTimer = null;
+    if (startEpoch !== cacheEpoch) return;
     try {
       const [catRes, examRes] = await Promise.all([
         fetch("/data/categories.json", { cache: "reload" }),
         fetch("/data/exams.json", { cache: "reload" }),
       ]);
+      if (startEpoch !== cacheEpoch) return;
       if (isJsonResponse(catRes) && isJsonResponse(examRes)) {
         const catClone = catRes.clone();
         const examClone = examRes.clone();
+        const categories = await catRes.json();
+        const exams = await examRes.json();
+        if (!Array.isArray(categories) || !Array.isArray(exams)) return;
+        if (startEpoch !== cacheEpoch) return;
+
         await Promise.all([
           putCachedResponse("/data/categories.json", catClone),
           putCachedResponse("/data/exams.json", examClone),
         ]);
-        const categories = await catRes.json();
-        const exams = await examRes.json();
+        if (startEpoch !== cacheEpoch) return;
+
         lobbyMemoryCache = { categories, exams };
         window.dispatchEvent(
           new CustomEvent("enway_lobby_revalidated", {
@@ -154,7 +219,7 @@ function revalidateLobbyInBackground() {
  *   Tier 2: Cloudflare Pages static CDN -> update CacheStorage
  *   Tier 3: Supabase fallback
  */
-export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: any[] }> {
+export async function fetchExamLobbyData(): Promise<ExamLobbyData> {
   // Silent version update check
   if (!hasCheckedVersion && typeof window !== "undefined") {
     checkAndUpdateExamVersion().catch(() => {});
@@ -165,75 +230,111 @@ export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: 
     return lobbyMemoryCache;
   }
 
-  // Tier 1b: Check browser persistent CacheStorage
-  try {
-    const [cachedCat, cachedExam] = await Promise.all([
-      getCachedResponse("/data/categories.json"),
-      getCachedResponse("/data/exams.json"),
-    ]);
+  if (pendingLobbyFetch) {
+    return pendingLobbyFetch;
+  }
 
-    if (cachedCat && cachedExam) {
-      const categories = await cachedCat.json();
-      const exams = await cachedExam.json();
-      lobbyMemoryCache = { categories, exams };
-      // Silent background revalidation (at most once per session)
-      if (!hasRevalidatedLobby) {
-        hasRevalidatedLobby = true;
-        revalidateLobbyInBackground();
+  const startEpoch = cacheEpoch;
+  const task = (async (): Promise<ExamLobbyData> => {
+    // Tier 1b: Check browser persistent CacheStorage
+    try {
+      const [cachedCat, cachedExam] = await Promise.all([
+        getCachedResponse("/data/categories.json"),
+        getCachedResponse("/data/exams.json"),
+      ]);
+
+      if (cachedCat && cachedExam) {
+        const categories = await cachedCat.json();
+        const exams = await cachedExam.json();
+        if (Array.isArray(categories) && Array.isArray(exams)) {
+          const result: ExamLobbyData = {
+            categories: categories as CategoryRecord[],
+            exams: exams as ExamRecord[],
+          };
+          if (startEpoch === cacheEpoch) {
+            lobbyMemoryCache = result;
+            // Silent background revalidation (at most once per session)
+            if (!hasRevalidatedLobby) {
+              hasRevalidatedLobby = true;
+              revalidateLobbyInBackground();
+            }
+          }
+          return result;
+        }
       }
-      return lobbyMemoryCache;
+    } catch (err) {
+      console.warn("[ExamLoader] CacheStorage lookup failed:", err);
     }
-  } catch (err) {
-    console.warn("[ExamLoader] CacheStorage lookup failed:", err);
-  }
 
-  // 2. Tier 2: Fetch from Cloudflare Pages static CDN
-  try {
-    const [catRes, examRes] = await Promise.all([
-      fetch("/data/categories.json", { cache: "default" }),
-      fetch("/data/exams.json", { cache: "default" }),
-    ]);
+    // 2. Tier 2: Fetch from Cloudflare Pages static CDN
+    try {
+      const [catRes, examRes] = await Promise.all([
+        fetch("/data/categories.json", { cache: "default" }),
+        fetch("/data/exams.json", { cache: "default" }),
+      ]);
 
-    if (isJsonResponse(catRes) && isJsonResponse(examRes)) {
-      const catClone = catRes.clone();
-      const examClone = examRes.clone();
-      putCachedResponse("/data/categories.json", catClone);
-      putCachedResponse("/data/exams.json", examClone);
-
-      const categories = await catRes.json();
-      const exams = await examRes.json();
-      lobbyMemoryCache = { categories, exams };
-      return lobbyMemoryCache;
+      if (isJsonResponse(catRes) && isJsonResponse(examRes)) {
+        const catClone = catRes.clone();
+        const examClone = examRes.clone();
+        const categories = await catRes.json();
+        const exams = await examRes.json();
+        if (Array.isArray(categories) && Array.isArray(exams)) {
+          const result: ExamLobbyData = {
+            categories: categories as CategoryRecord[],
+            exams: exams as ExamRecord[],
+          };
+          if (startEpoch === cacheEpoch) {
+            putCachedResponse("/data/categories.json", catClone);
+            putCachedResponse("/data/exams.json", examClone);
+            lobbyMemoryCache = result;
+          }
+          return result;
+        }
+      }
+    } catch (e) {
+      console.warn("[ExamLoader] Static lobby cache miss or network failure, falling back to Supabase:", e);
     }
-  } catch (e) {
-    console.warn("[ExamLoader] Static lobby cache miss or network failure, falling back to Supabase:", e);
-  }
 
-  // 3. Tier 3: Fallback to Supabase PostgREST with explicit fields
+    // 3. Tier 3: Fallback to Supabase PostgREST with explicit fields
+    try {
+      const [catRes, examRes] = await Promise.all([
+        supabase.from("categories").select("id, name, description, sort_order").order("sort_order"),
+        supabase
+          .from("exams")
+          .select(`
+            id, category_id, title, year, exam_type, duration_minutes, total_score, pass_score,
+            questions(count),
+            passages(count)
+          `)
+          .eq("is_published", true)
+          .eq("approval_status", "approved")
+          .order("year", { ascending: false }),
+      ]);
+
+      if (catRes.error) throw catRes.error;
+      if (examRes.error) throw examRes.error;
+
+      const result: ExamLobbyData = {
+        categories: (catRes.data || []) as CategoryRecord[],
+        exams: (examRes.data || []) as ExamRecord[],
+      };
+      if (startEpoch === cacheEpoch && (result.categories.length > 0 || result.exams.length > 0)) {
+        lobbyMemoryCache = result;
+      }
+      return result;
+    } catch (err) {
+      console.warn("[ExamLoader] Supabase fallback query failed:", err);
+      return { categories: [], exams: [] };
+    }
+  })();
+
+  pendingLobbyFetch = task;
   try {
-    const [catRes, examRes] = await Promise.all([
-      supabase.from("categories").select("id, name, description, sort_order").order("sort_order"),
-      supabase
-        .from("exams")
-        .select(`
-          id, category_id, title, year, exam_type, duration_minutes, total_score, pass_score,
-          questions(count),
-          passages(count)
-        `)
-        .eq("is_published", true)
-        .eq("approval_status", "approved")
-        .order("year", { ascending: false }),
-    ]);
-
-    const result = {
-      categories: catRes.data || [],
-      exams: examRes.data || [],
-    };
-    lobbyMemoryCache = result;
-    return result;
-  } catch (err) {
-    console.warn("[ExamLoader] Supabase fallback query failed:", err);
-    return { categories: [], exams: [] };
+    return await task;
+  } finally {
+    if (pendingLobbyFetch === task) {
+      pendingLobbyFetch = null;
+    }
   }
 }
 
@@ -247,77 +348,114 @@ export async function fetchExamLobbyData(): Promise<{ categories: any[]; exams: 
 export async function fetchExamDetailWithFallback(examId: string): Promise<ExamDetailData | null> {
   if (!examId) return null;
 
+  if (!hasCheckedVersion && typeof window !== "undefined") {
+    checkAndUpdateExamVersion().catch(() => {});
+  }
+
   // Tier 1: In-memory cache hit
   if (examDetailMemoryCache[examId]) {
     return examDetailMemoryCache[examId];
   }
 
+  const pending = pendingExamFetches[examId];
+  if (pending) {
+    return pending;
+  }
+
+  const startEpoch = cacheEpoch;
   const staticUrl = `/data/exams/${encodeURIComponent(examId)}.json`;
 
-  // Tier 2: Browser persistent CacheStorage
-  try {
-    const cachedRes = await getCachedResponse(staticUrl);
-    if (cachedRes) {
-      const data: ExamDetailData = await cachedRes.json();
-      data.fromStaticMirror = true;
-      examDetailMemoryCache[examId] = data;
-      return data;
+  const task = (async (): Promise<ExamDetailData | null> => {
+    // Tier 2: Browser persistent CacheStorage
+    try {
+      const cachedRes = await getCachedResponse(staticUrl);
+      if (cachedRes) {
+        const data: ExamDetailData = await cachedRes.json();
+        if (data && data.exam && Array.isArray(data.passages) && Array.isArray(data.questions)) {
+          data.fromStaticMirror = true;
+          if (startEpoch === cacheEpoch) {
+            examDetailMemoryCache[examId] = data;
+          }
+          return data;
+        }
+      }
+    } catch (err) {
+      console.warn(`[ExamLoader] Error reading CacheStorage for ${staticUrl}:`, err);
     }
-  } catch (err) {
-    console.warn(`[ExamLoader] Error reading CacheStorage for ${staticUrl}:`, err);
-  }
 
-  // Tier 3: Try Cloudflare Pages static CDN mirror
-  try {
-    const res = await fetch(staticUrl, {
-      cache: "default",
-    });
-    if (isJsonResponse(res)) {
-      const clone = res.clone();
-      putCachedResponse(staticUrl, clone);
-      const data: ExamDetailData = await res.json();
-      data.fromStaticMirror = true;
-      examDetailMemoryCache[examId] = data;
-      return data;
+    // Tier 3: Try Cloudflare Pages static CDN mirror
+    try {
+      const res = await fetch(staticUrl, {
+        cache: "default",
+      });
+      if (isJsonResponse(res)) {
+        const clone = res.clone();
+        const data: ExamDetailData = await res.json();
+        if (data && data.exam && Array.isArray(data.passages) && Array.isArray(data.questions)) {
+          data.fromStaticMirror = true;
+          if (startEpoch === cacheEpoch) {
+            putCachedResponse(staticUrl, clone);
+            examDetailMemoryCache[examId] = data;
+          }
+          return data;
+        }
+      }
+    } catch {
+      console.warn(`[ExamLoader] Static exam ${staticUrl} not found or network offline, trying Supabase...`);
     }
-  } catch (err) {
-    console.warn(`[ExamLoader] Static exam ${staticUrl} not found or network offline, trying Supabase...`);
-  }
 
-  // Tier 4: Fallback to Supabase PostgREST with explicit column projection
+    // Tier 4: Fallback to Supabase PostgREST with explicit column projection
+    try {
+      const { data: examData, error: examErr } = await supabase
+        .from("exams")
+        .select("id, category_id, title, year, exam_type, duration_minutes, total_score, pass_score")
+        .eq("id", examId)
+        .eq("is_published", true)
+        .eq("approval_status", "approved")
+        .single();
+      if (examErr) throw examErr;
+      if (!examData) return null;
+
+      const [pRes, qRes] = await Promise.all([
+        supabase
+          .from("passages")
+          .select("id, exam_id, category_id, section_type, title, content, sort_order")
+          .eq("exam_id", examId)
+          .order("sort_order"),
+        supabase
+          .from("questions")
+          .select("id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order")
+          .eq("exam_id", examId)
+          .order("sort_order"),
+      ]);
+
+      if (pRes.error) throw pRes.error;
+      if (qRes.error) throw qRes.error;
+
+      const result: ExamDetailData = {
+        exam: examData as ExamRecord,
+        passages: (pRes.data || []) as PassageRecord[],
+        questions: (qRes.data || []) as QuestionRecord[],
+        fromStaticMirror: false,
+      };
+
+      if (startEpoch === cacheEpoch) {
+        examDetailMemoryCache[examId] = result;
+      }
+      return result;
+    } catch (err) {
+      console.error(`[ExamLoader] Failed to load exam ${examId} from Supabase:`, err);
+      return null;
+    }
+  })();
+
+  pendingExamFetches[examId] = task;
   try {
-    const { data: examData, error: examErr } = await supabase
-      .from("exams")
-      .select("id, category_id, title, year, exam_type, duration_minutes, total_score, pass_score")
-      .eq("id", examId)
-      .single();
-    if (examErr) throw examErr;
-
-    const [pRes, qRes] = await Promise.all([
-      supabase
-        .from("passages")
-        .select("id, exam_id, category_id, section_type, title, content, sort_order")
-        .eq("exam_id", examId)
-        .order("sort_order"),
-      supabase
-        .from("questions")
-        .select("id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order")
-        .eq("exam_id", examId)
-        .order("sort_order"),
-    ]);
-
-    const result: ExamDetailData = {
-      exam: examData || null,
-      passages: pRes.data || [],
-      questions: qRes.data || [],
-      fromStaticMirror: false,
-    };
-
-    examDetailMemoryCache[examId] = result;
-    return result;
-  } catch (err) {
-    console.error(`[ExamLoader] Failed to load exam ${examId} from Supabase:`, err);
-    return null;
+    return await task;
+  } finally {
+    if (pendingExamFetches[examId] === task) {
+      delete pendingExamFetches[examId];
+    }
   }
 }
 
@@ -325,15 +463,5 @@ export async function fetchExamDetailWithFallback(examId: string): Promise<ExamD
  * Manually invalidates or clears the static cache
  */
 export async function clearStaticExamCache(): Promise<boolean> {
-  lobbyMemoryCache = null;
-  hasRevalidatedLobby = false;
-  for (const k of Object.keys(examDetailMemoryCache)) {
-    delete examDetailMemoryCache[k];
-  }
-  if (!hasCacheStorage) return false;
-  try {
-    return await caches.delete(CACHE_NAME);
-  } catch {
-    return false;
-  }
+  return purgeExamCaches();
 }

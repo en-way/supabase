@@ -36,11 +36,29 @@ if (fs.existsSync(categoriesFile)) {
   hash.update(fs.readFileSync(categoriesFile));
 }
 
-const versionInfo = {
-  version: hash.digest("hex").slice(0, 12),
-  buildTime: new Date().toISOString(),
-  examCount
-};
+const nextVersion = hash.digest("hex").slice(0, 12);
+let existing = null;
+if (fs.existsSync(versionFile)) {
+  try {
+    existing = JSON.parse(fs.readFileSync(versionFile, "utf-8"));
+  } catch {
+    existing = null;
+  }
+}
 
-fs.writeFileSync(versionFile, JSON.stringify(versionInfo, null, 2), "utf-8");
-console.log("✅ Generated public/data/version.json:", versionInfo);
+if (
+  existing &&
+  existing.version === nextVersion &&
+  existing.examCount === examCount &&
+  typeof existing.buildTime === "string"
+) {
+  console.log("✅ Static version unchanged:", existing);
+} else {
+  const versionInfo = {
+    version: nextVersion,
+    buildTime: new Date().toISOString(),
+    examCount,
+  };
+  fs.writeFileSync(versionFile, JSON.stringify(versionInfo, null, 2), "utf-8");
+  console.log("✅ Generated public/data/version.json:", versionInfo);
+}

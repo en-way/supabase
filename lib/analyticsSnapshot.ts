@@ -28,7 +28,14 @@ export async function fetchAnalyticsSnapshot(): Promise<{
       const text = await fileBlob.text();
       if (text) {
         const parsed = JSON.parse(text) as AnalyticsSnapshot;
-        return { snapshot: parsed, fromStorage: true };
+        if (
+          parsed &&
+          typeof parsed === "object" &&
+          typeof parsed.totalStudents === "number" &&
+          typeof parsed.totalExams === "number"
+        ) {
+          return { snapshot: parsed, fromStorage: true };
+        }
       }
     }
   } catch (err) {
@@ -43,45 +50,57 @@ export async function fetchAnalyticsSnapshot(): Promise<{
  * Computes platform analytics and persists the pre-rendered snapshot into Storage Bucket.
  */
 export async function refreshAnalyticsSnapshot(): Promise<AnalyticsSnapshot | null> {
-  try {
-    const [studentsRes, adminsRes, examsRes, backupsRes] = await Promise.all([
-      supabase.from("profiles").select("id", { count: "exact", head: true }).eq("role", "student"),
-      supabase.from("profiles").select("id", { count: "exact", head: true }).in("role", ["admin", "super_admin"]),
-      supabase.from("exams").select("category_id"),
-      supabase.from("user_backups").select("user_id", { count: "exact", head: true }),
-    ]);
+  const [studentsRes, adminsRes, examsRes, backupsRes] = await Promise.all([
+    supabase.from("profiles").select("id", { count: "exact", head: true }).eq("role", "student"),
+    supabase.from("profiles").select("id", { count: "exact", head: true }).in("role", ["admin", "super_admin"]),
+    supabase.from("exams").select("category_id"),
+    supabase.from("user_backups").select("user_id", { count: "exact", head: true }),
+  ]);
 
-    const byCategory: Record<string, number> = {};
-    if (examsRes.data) {
-      for (const e of examsRes.data) {
-        byCategory[e.category_id] = (byCategory[e.category_id] || 0) + 1;
-      }
+  if (studentsRes.error) {
+    throw new Error(`查询学员总数失败: ${studentsRes.error.message}`);
+  }
+  if (adminsRes.error) {
+    throw new Error(`查询管理员总数失败: ${adminsRes.error.message}`);
+  }
+  if (examsRes.error) {
+    throw new Error(`查询试卷统计失败: ${examsRes.error.message}`);
+  }
+  if (backupsRes.error) {
+    throw new Error(`查询云端备份数失败: ${backupsRes.error.message}`);
+  }
+
+  const byCategory: Record<string, number> = {};
+  if (examsRes.data) {
+    for (const e of examsRes.data) {
+      byCategory[e.category_id] = (byCategory[e.category_id] ?? 0) + 1;
     }
+  }
 
-    const snapshot: AnalyticsSnapshot = {
-      totalStudents: studentsRes.count || 0,
-      totalAdmins: adminsRes.count || 0,
-      totalExams: examsRes.data?.length || 0,
-      examsByCategory: byCategory,
-      totalBackups: backupsRes.count || 0,
-      generatedAt: new Date().toISOString(),
-    };
+  const snapshot: AnalyticsSnapshot = {
+    totalStudents: studentsRes.count ?? 0,
+    totalAdmins: adminsRes.count ?? 0,
+    totalExams: examsRes.data?.length ?? 0,
+    examsByCategory: byCategory,
+    totalBackups: backupsRes.count ?? 0,
+    generatedAt: new Date().toISOString(),
+  };
 
-    // Upload snapshot to Storage Bucket
-    const blob = new Blob([JSON.stringify(snapshot, null, 2)], {
-      type: "application/json",
+  // Upload snapshot to Storage Bucket
+  const blob = new Blob([JSON.stringify(snapshot, null, 2)], {
+    type: "application/json",
+  });
+
+  const { error: uploadError } = await supabase.storage
+    .from("user-backups")
+    .upload(SNAPSHOT_PATH, blob, {
+      contentType: "application/json",
+      upsert: true,
     });
 
-    await supabase.storage
-      .from("user-backups")
-      .upload(SNAPSHOT_PATH, blob, {
-        contentType: "application/json",
-        upsert: true,
-      });
-
-    return snapshot;
-  } catch (err) {
-    console.error("[Analytics] Failed to refresh snapshot:", err);
-    return null;
+  if (uploadError) {
+    throw new Error(`上传统计快照失败: ${uploadError.message}`);
   }
+
+  return snapshot;
 }

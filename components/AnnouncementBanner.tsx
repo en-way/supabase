@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
+import type { AnnouncementType, SystemAnnouncementRow } from "@/types/user";
 import { 
   Info, 
   AlertTriangle, 
@@ -24,20 +25,43 @@ export interface AnnouncementData {
 
 const STORAGE_KEY = "enway_dismissed_announcement_ts";
 
+function getSafeAnnouncementHref(rawUrl?: string): string | null {
+  if (!rawUrl) return null;
+  const trimmed = rawUrl.trim();
+  if (!trimmed) return null;
+  if (trimmed.startsWith("/") && !trimmed.startsWith("//") && !trimmed.startsWith("/\\") && !trimmed.includes("\\")) {
+    return trimmed;
+  }
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.toString();
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
+function normalizeAnnouncementType(raw?: string | null): AnnouncementType {
+  if (raw === "warning" || raw === "alert") return raw;
+  return "info";
+}
+
 interface AnnouncementBannerProps {
-  externalData?: any;
+  externalData?: SystemAnnouncementRow | null;
 }
 
 export default function AnnouncementBanner({ externalData }: AnnouncementBannerProps = {}) {
   const [announcement, setAnnouncement] = useState<AnnouncementData | null>(null);
   const [isDismissed, setIsDismissed] = useState(true);
 
-  const applyAnnouncementData = (data: any) => {
+  const applyAnnouncementData = (data: SystemAnnouncementRow | null) => {
     if (data && data.announcement_enabled && data.announcement_text?.trim()) {
       const item: AnnouncementData = {
         enabled: Boolean(data.announcement_enabled),
         text: data.announcement_text.trim(),
-        type: (data.announcement_type as any) || "info",
+        type: normalizeAnnouncementType(data.announcement_type),
         linkText: data.announcement_link_text?.trim() || "",
         linkUrl: data.announcement_link_url?.trim() || "",
         updatedAt: data.announcement_updated_at || "",
@@ -157,7 +181,8 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
     closeBtn: "text-blue-400 dark:text-cyan-400 hover:text-blue-800 dark:hover:text-cyan-200 hover:bg-blue-100/60 dark:hover:bg-cyan-900/40",
   };
 
-  const isExternalLink = announcement.linkUrl?.startsWith("http");
+  const safeLinkHref = getSafeAnnouncementHref(announcement.linkUrl);
+  const isExternalLink = Boolean(safeLinkHref && /^https?:\/\//i.test(safeLinkHref));
 
   return (
     <div
@@ -174,11 +199,11 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
             {announcement.text}
           </p>
 
-          {announcement.linkText && announcement.linkUrl && (
+          {announcement.linkText && safeLinkHref && (
             <div className="shrink-0 ml-2">
               {isExternalLink ? (
                 <a
-                  href={announcement.linkUrl}
+                  href={safeLinkHref}
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold transition-colors ${themeStyles.btn}`}
@@ -188,7 +213,7 @@ export default function AnnouncementBanner({ externalData }: AnnouncementBannerP
                 </a>
               ) : (
                 <Link
-                  href={announcement.linkUrl}
+                  href={safeLinkHref}
                   className={`inline-flex items-center space-x-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold transition-colors ${themeStyles.btn}`}
                 >
                   <span>{announcement.linkText}</span>

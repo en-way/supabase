@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { Highlighter, Trash2, Check, Sparkles } from "lucide-react";
+import { Highlighter, Trash2 } from "lucide-react";
+import { cleanEnglishWord } from "@/lib/dictionary";
 
 export interface HighlightItem {
   id: string;
@@ -18,11 +19,27 @@ interface PassageHighlighterProps {
   fontScale?: "normal" | "medium" | "large";
 }
 
+function isSingleEnglishWordLookup(text: string): boolean {
+  if (/\s/.test(text)) return false;
+  const clean = cleanEnglishWord(text);
+  return Boolean(clean && clean.length >= 2 && clean.length <= 35);
+}
+
 export function getPassageHighlights(passageId: string): HighlightItem[] {
   if (typeof window === "undefined" || !passageId) return [];
   try {
     const raw = localStorage.getItem(`enway_highlights_${passageId}`);
-    return raw ? JSON.parse(raw) : [];
+    if (!raw) return [];
+    const parsed: unknown = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.filter(
+      (item): item is HighlightItem =>
+        Boolean(item) &&
+        typeof item === "object" &&
+        typeof (item as HighlightItem).text === "string" &&
+        (item as HighlightItem).text.trim().length > 0 &&
+        ((item as HighlightItem).color === "yellow" || (item as HighlightItem).color === "green")
+    );
   } catch {
     return [];
   }
@@ -44,70 +61,131 @@ export default function PassageHighlighter({
 }: PassageHighlighterProps) {
   const [highlights, setHighlights] = useState<HighlightItem[]>([]);
   const [selectedText, setSelectedText] = useState<string>("");
-  const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number } | null>(null);
+  const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number; below: boolean } | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const touchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Load highlights on passage change
+  // Load highlights on passage change and sync across tabs
   useEffect(() => {
     if (!passageId) {
       setHighlights([]);
       return;
     }
-    const loaded = getPassageHighlights(passageId);
-    setHighlights(loaded);
+    const storageKey = `enway_highlights_${passageId}`;
+    setHighlights(getPassageHighlights(passageId));
     setTooltipPos(null);
     setSelectedText("");
+
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === null || e.key === storageKey) {
+        setHighlights(getPassageHighlights(passageId));
+      }
+    };
+    window.addEventListener("storage", handleStorage);
+    return () => window.removeEventListener("storage", handleStorage);
   }, [passageId]);
 
-  // Selection detection
+  // Selection detection isolated from DictionaryPopover single-word lookups and editable elements
   useEffect(() => {
-    const handleMouseUp = () => {
+    const isInsideProtectedUI = (target: EventTarget | null): boolean => {
+      const el =
+        target instanceof Element
+          ? target
+          : target instanceof Node
+          ? target.parentElement
+          : null;
+      return Boolean(el?.closest(".passage-highlighter-toolbar, .dictionary-popover-container"));
+    };
+
+    const clearTooltip = () => {
+      setTooltipPos(null);
+      setSelectedText("");
+    };
+
+    const updateSelectionTooltip = () => {
+      const activeElement = document.activeElement;
+      if (
+        activeElement instanceof HTMLInputElement ||
+        activeElement instanceof HTMLTextAreaElement ||
+        (activeElement as HTMLElement | null)?.isContentEditable
+      ) {
+        clearTooltip();
+        return;
+      }
+
       const selection = window.getSelection();
       if (!selection || selection.isCollapsed || selection.rangeCount === 0) {
-        setTooltipPos(null);
-        setSelectedText("");
+        clearTooltip();
         return;
       }
 
       const text = selection.toString().trim();
-      // Only highlight if text length between 2 and 300 characters
-      if (text.length < 2 || text.length > 300) {
-        setTooltipPos(null);
-        setSelectedText("");
+      // Only highlight multi-word phrases/clauses (2..300 chars); yield single words to DictionaryPopover
+      if (text.length < 2 || text.length > 300 || isSingleEnglishWordLookup(text)) {
+        clearTooltip();
         return;
       }
 
-      // Ensure selection is inside this container
       const range = selection.getRangeAt(0);
       if (!containerRef.current?.contains(range.commonAncestorContainer)) {
-        setTooltipPos(null);
-        setSelectedText("");
+        clearTooltip();
         return;
       }
 
-      const rect = range.getBoundingClientRect();
-      if (rect && rect.width > 0) {
-        setSelectedText(text);
-        setTooltipPos({
-          x: rect.left + rect.width / 2,
-          y: rect.top - 10,
-        });
+      if (isInsideProtectedUI(range.commonAncestorContainer)) {
+        clearTooltip();
+        return;
       }
+
+      let rect = range.getBoundingClientRect();
+      if ((!rect || (rect.width === 0 && rect.height === 0)) && range.getClientRects().length > 0) {
+        rect = range.getClientRects()[0];
+      }
+
+      if (rect && rect.width > 0) {
+        const minX = 92;
+        const viewportWidth = typeof window !== "undefined" ? window.innerWidth : 400;
+        const maxX = Math.max(minX, viewportWidth - 92);
+        const clampedX = Math.max(minX, Math.min(maxX, rect.left + rect.width / 2));
+        const below = rect.top < 56;
+        const y = below ? rect.bottom + 10 : rect.top - 10;
+
+        setSelectedText(text);
+        setTooltipPos({ x: clampedX, y, below });
+      }
+    };
+
+    const handleMouseUp = (e: MouseEvent) => {
+      if (isInsideProtectedUI(e.target)) return;
+      updateSelectionTooltip();
+    };
+
+    const handleTouchEnd = (e: TouchEvent) => {
+      if (isInsideProtectedUI(e.target)) return;
+      if (touchTimerRef.current) clearTimeout(touchTimerRef.current);
+      touchTimerRef.current = setTimeout(updateSelectionTooltip, 180);
     };
 
     const handleSelectionChange = () => {
       const selection = window.getSelection();
       if (!selection || selection.isCollapsed) {
-        setTooltipPos(null);
-        setSelectedText("");
+        clearTooltip();
+        return;
+      }
+      if (typeof window !== "undefined" && window.innerWidth < 640) {
+        if (touchTimerRef.current) clearTimeout(touchTimerRef.current);
+        touchTimerRef.current = setTimeout(updateSelectionTooltip, 280);
       }
     };
 
     document.addEventListener("mouseup", handleMouseUp);
+    document.addEventListener("touchend", handleTouchEnd, { passive: true });
     document.addEventListener("selectionchange", handleSelectionChange);
     return () => {
       document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener("touchend", handleTouchEnd);
       document.removeEventListener("selectionchange", handleSelectionChange);
+      if (touchTimerRef.current) clearTimeout(touchTimerRef.current);
     };
   }, []);
 
@@ -147,12 +225,13 @@ export default function PassageHighlighter({
 
   // Helper to render text with highlights
   const renderContent = () => {
-    if (!highlights || highlights.length === 0) {
+    const validHighlights = highlights.filter((h) => h && typeof h.text === "string" && h.text.trim().length > 0);
+    if (validHighlights.length === 0) {
       return content;
     }
 
     // Sort highlights by length descending to match longer phrases first
-    const sorted = [...highlights].sort((a, b) => b.text.length - a.text.length);
+    const sorted = [...validHighlights].sort((a, b) => b.text.length - a.text.length);
 
     // Build regex pattern safely
     const escapeRegExp = (str: string) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -164,27 +243,30 @@ export default function PassageHighlighter({
     const parts = content.split(pattern);
 
     return parts.map((part, idx) => {
-      const match = sorted.find((h) => h.text.toLowerCase() === part.toLowerCase());
-      if (match) {
-        const isYellow = match.color === "yellow";
-        return (
-          <mark
-            key={idx}
-            onClick={() => {
-              if (window.confirm(`取消该处高亮标注？\n"${match.text}"`)) {
-                removeHighlight(match.text);
-              }
-            }}
-            title="点击取消该处高亮"
-            className={`cursor-pointer rounded px-1 transition-all hover:opacity-80 ${
-              isYellow
-                ? "bg-amber-200/90 dark:bg-amber-400/35 text-amber-950 dark:text-amber-100 decoration-amber-400 font-medium"
-                : "bg-emerald-200/90 dark:bg-emerald-400/35 text-emerald-950 dark:text-emerald-100 decoration-emerald-400 font-medium"
-            }`}
-          >
-            {part}
-          </mark>
-        );
+      if (idx % 2 === 1) {
+        const match = sorted.find((h) => h.text.toLowerCase() === part.toLowerCase());
+        if (match) {
+          const isYellow = match.color === "yellow";
+          return (
+            <mark
+              key={idx}
+              onClick={() => {
+                if (window.getSelection()?.toString().trim()) return;
+                if (window.confirm(`取消该处高亮标注？\n"${match.text}"`)) {
+                  removeHighlight(match.text);
+                }
+              }}
+              title="点击取消该处高亮"
+              className={`cursor-pointer rounded px-1 transition-all hover:opacity-80 ${
+                isYellow
+                  ? "bg-amber-200/90 dark:bg-amber-400/35 text-amber-950 dark:text-amber-100 decoration-amber-400 font-medium"
+                  : "bg-emerald-200/90 dark:bg-emerald-400/35 text-emerald-950 dark:text-emerald-100 decoration-emerald-400 font-medium"
+              }`}
+            >
+              {part}
+            </mark>
+          );
+        }
       }
       return <React.Fragment key={idx}>{part}</React.Fragment>;
     });
@@ -195,14 +277,15 @@ export default function PassageHighlighter({
       {/* Mini Floating Highlighter Toolbar when text selected */}
       {tooltipPos && selectedText && (
         <div
+          data-enway-highlighter-toolbar="true"
           style={{
             position: "fixed",
             left: `${tooltipPos.x}px`,
             top: `${tooltipPos.y}px`,
-            transform: "translate(-50%, -100%)",
+            transform: tooltipPos.below ? "translate(-50%, 0)" : "translate(-50%, -100%)",
             zIndex: 60,
           }}
-          className="bg-stone-900/95 dark:bg-zinc-900/95 text-white backdrop-blur-md px-2 py-1 rounded-xl shadow-xl border border-white/10 flex items-center space-x-1.5 animate-in fade-in zoom-in-95 duration-100"
+          className="passage-highlighter-toolbar bg-stone-900/95 dark:bg-zinc-900/95 text-white backdrop-blur-md px-2 py-1 rounded-xl shadow-xl border border-white/10 flex items-center space-x-1.5 animate-in fade-in zoom-in-95 duration-100"
           onMouseDown={(e) => e.preventDefault()} // Prevent losing selection
         >
           <span className="text-[10px] text-stone-400 font-medium pl-1">高亮:</span>

@@ -15,8 +15,12 @@ import {
   ExamResult 
 } from "@/lib/storage";
 import { enqueueSubmissionTask } from "@/lib/submissionQueue";
-import { fetchExamDetailWithFallback } from "@/lib/examLoader";
-import confetti from "canvas-confetti";
+import { useExamDetail } from "@/hooks/useExamDetail";
+import { useBodyScrollLock } from "@/hooks/useBodyScrollLock";
+import { useDrawerSwipe } from "@/hooks/useDrawerSwipe";
+import { useKeyboardGuard } from "@/hooks/useKeyboardGuard";
+import type { ExamRecord, PassageRecord, QuestionRecord } from "@/types/exam";
+import dynamic from "next/dynamic";
 import { 
   ArrowLeft, 
   Clock, 
@@ -41,27 +45,30 @@ import {
   Minimize2
 } from "lucide-react";
 import SplitPane from "@/components/SplitPane";
-import KeyboardShortcutsModal from "@/components/KeyboardShortcutsModal";
 import PassageHighlighter from "@/components/PassageHighlighter";
+
+const KeyboardShortcutsModal = dynamic(() => import("@/components/KeyboardShortcutsModal"), {
+  ssr: false,
+});
 
 function ExamContent() {
   const searchParams = useSearchParams();
   const examId = searchParams.get("id");
   const modeParam = searchParams.get("mode");
-
-  const [exam, setExam] = useState<any>(null);
-  const [passages, setPassages] = useState<any[]>([]);
-  const [questions, setQuestions] = useState<any[]>([]);
-  const [loading, setLoading] = useState(true);
+  const isPrintMode = modeParam === "print";
 
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [remainingSeconds, setRemainingSeconds] = useState<number>(3600);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [result, setResult] = useState<ExamResult | null>(null);
   const [activePassageId, setActivePassageId] = useState<string>("");
+  const [showPrintAnswers, setShowPrintAnswers] = useState<boolean>(false);
+  const hasAutoPrintedRef = useRef<string | null>(null);
 
   // PC Typography & Keyboard navigation state
   const [readingFontSize, setReadingFontSize] = useState<number>(15);
+  const readingFontSizeRef = useRef<number>(readingFontSize);
+  readingFontSizeRef.current = readingFontSize;
   const [focusedIndex, setFocusedIndex] = useState<number>(0);
 
   // Load persistent exam font size
@@ -71,6 +78,7 @@ function ExamContent() {
       if (saved) {
         const num = parseInt(saved, 10);
         if (!isNaN(num) && num >= 13 && num <= 22) {
+          readingFontSizeRef.current = num;
           setReadingFontSize(num);
         }
       }
@@ -87,15 +95,17 @@ function ExamContent() {
   };
 
   const updateFontSize = (valOrUpdater: number | ((prev: number) => number)) => {
-    setReadingFontSize((prev) => {
-      const next = typeof valOrUpdater === "function" ? valOrUpdater(prev) : valOrUpdater;
-      const clamped = Math.max(13, Math.min(22, next));
-      try {
-        localStorage.setItem("enway_exam_font_size", String(clamped));
-      } catch {}
-      triggerHaptic(8);
-      return clamped;
-    });
+    const next =
+      typeof valOrUpdater === "function"
+        ? valOrUpdater(readingFontSizeRef.current)
+        : valOrUpdater;
+    const clamped = Math.max(13, Math.min(22, next));
+    readingFontSizeRef.current = clamped;
+    setReadingFontSize(clamped);
+    try {
+      localStorage.setItem("enway_exam_font_size", String(clamped));
+    } catch {}
+    triggerHaptic(8);
   };
 
   // Mobile responsive & Zen state
@@ -104,25 +114,9 @@ function ExamContent() {
   const [showSubmitReviewSheet, setShowSubmitReviewSheet] = useState<boolean>(false);
   const [isZenMode, setIsZenMode] = useState<boolean>(false);
   const [showShortcutsModal, setShowShortcutsModal] = useState<boolean>(false);
-  const drawerTouchStartRef = useRef<{ x: number; y: number } | null>(null);
-
-  const handleDrawerTouchStart = (e: React.TouchEvent) => {
-    if (e.touches.length === 1) {
-      drawerTouchStartRef.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
-    }
-  };
-
-  const handleDrawerTouchEnd = (e: React.TouchEvent, onClose: () => void) => {
-    if (!drawerTouchStartRef.current) return;
-    const deltaX = e.changedTouches[0].clientX - drawerTouchStartRef.current.x;
-    const deltaY = e.changedTouches[0].clientY - drawerTouchStartRef.current.y;
-    drawerTouchStartRef.current = null;
-    // Downward swipe of >= 150px and vertical displacement > 2.0x horizontal dismisses drawer
-    if (deltaY >= 150 && deltaY > Math.abs(deltaX) * 2.0) {
-      triggerHaptic(8);
-      onClose();
-    }
-  };
+  const { handleDrawerTouchStart, handleDrawerTouchEnd } = useDrawerSwipe({
+    onDismissHaptic: () => triggerHaptic(8),
+  });
 
   // Sync body class for Zen Mode
   useEffect(() => {
@@ -134,76 +128,102 @@ function ExamContent() {
 
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
   const passageContainerRef = useRef<HTMLDivElement | null>(null);
+  const isSubmittingRef = useRef(false);
+  // Tracks the jitter setTimeout for auto-submit so manual submit can cancel it
+  const autoSubmitTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  useEffect(() => {
-    async function loadExam() {
-      if (!examId) {
-        setLoading(false);
-        return;
+  const { exam, passages, questions, loading } = useExamDetail(examId, {
+    reloadKey: modeParam,
+    onBeforeLoad: () => {
+      isSubmittingRef.current = false;
+      if (autoSubmitTimerRef.current) {
+        clearTimeout(autoSubmitTimerRef.current);
+        autoSubmitTimerRef.current = null;
       }
-      setLoading(true);
-      try {
-        const detail = await fetchExamDetailWithFallback(examId);
-        const examData = detail?.exam || null;
-        const passageData = detail?.passages || [];
-        const questionData = detail?.questions || [];
+      questionRefs.current = {};
+      setFocusedIndex(0);
+      setShowMobileAnswerSheet(false);
+      setShowSubmitReviewSheet(false);
+      setMobileTab("questions");
+    },
+    onEmpty: () => {
+      setPassagesFallbackEmpty();
+    },
+    onLoaded: (detail, loadedExamId) => {
+      const examData = detail?.exam || null;
+      const passageData = detail?.passages || [];
+      const questionData = detail?.questions || [];
 
-        setExam(examData);
+      if (passageData.length > 0) {
+        setActivePassageId(passageData[0].id);
+      } else {
+        setActivePassageId("");
+      }
 
-        if (passageData.length > 0) {
-          setPassages(passageData);
-          setActivePassageId(passageData[0].id);
-        } else {
-          setPassages([]);
-          setActivePassageId("");
-        }
+      // Check draft or prior exam results
+      const isRetake = modeParam === "retake";
+      const isPrint = modeParam === "print";
+      const draft = getExamDraft(loadedExamId);
+      const pastResult = getExamResult(loadedExamId);
+      const defaultDuration = (examData?.duration_minutes || 75) * 60;
 
-        setQuestions(questionData);
-
-        // Check draft or prior exam results
-        const isRetake = modeParam === "retake";
-        const draft = getExamDraft(examId);
-        const pastResult = getExamResult(examId);
-
-        if (draft && !isRetake) {
-          setAnswers(draft.answers || {});
-          const restoredSec = typeof draft.remainingSeconds === "number"
+      if (isPrint) {
+        setAnswers({});
+        setIsSubmitted(false);
+        setResult(null);
+        setFocusedIndex(0);
+        setRemainingSeconds(defaultDuration);
+      } else if (draft && !isRetake) {
+        setAnswers(draft.answers || {});
+        const restoredSec =
+          typeof draft.remainingSeconds === "number"
             ? draft.remainingSeconds
-            : (examData?.duration_minutes || 60) * 60;
-          setRemainingSeconds(restoredSec);
-          if (typeof draft.focusedIndex === "number" && draft.focusedIndex >= 0 && draft.focusedIndex < questionData.length) {
-            setFocusedIndex(draft.focusedIndex);
-          }
-          setIsSubmitted(false);
-          setResult(null);
-        } else if (pastResult && !isRetake) {
-          // 🎯 Restore Submitted Review State (复盘解析模式)
-          const restoredAnswers: Record<string, string> = {};
-          if (pastResult.answers) {
-            Object.entries(pastResult.answers).forEach(([qId, val]) => {
-              if (val && typeof val.userAnswer === "string") {
-                restoredAnswers[qId] = val.userAnswer;
-              }
-            });
-          }
-          setAnswers(restoredAnswers);
-          setResult(pastResult);
-          setIsSubmitted(true);
-          setRemainingSeconds(0);
-        } else if (examData?.duration_minutes) {
-          setAnswers({});
-          setIsSubmitted(false);
-          setResult(null);
-          setRemainingSeconds(examData.duration_minutes * 60);
+            : defaultDuration;
+        setRemainingSeconds(restoredSec);
+        if (
+          typeof draft.focusedIndex === "number" &&
+          draft.focusedIndex >= 0 &&
+          draft.focusedIndex < questionData.length
+        ) {
+          setFocusedIndex(draft.focusedIndex);
+        } else {
+          setFocusedIndex(0);
         }
-      } catch (err) {
-        console.error("Failed to load exam data:", err);
-      } finally {
-        setLoading(false);
+        setIsSubmitted(false);
+        setResult(null);
+      } else if (pastResult && !isRetake) {
+        // 🎯 Restore Submitted Review State (复盘解析模式)
+        const restoredAnswers: Record<string, string> = {};
+        if (pastResult.answers) {
+          Object.entries(pastResult.answers).forEach(([qId, val]) => {
+            if (val && typeof val.userAnswer === "string") {
+              restoredAnswers[qId] = val.userAnswer;
+            }
+          });
+        }
+        setAnswers(restoredAnswers);
+        setResult(pastResult);
+        setIsSubmitted(true);
+        setRemainingSeconds(0);
+      } else {
+        setAnswers({});
+        setIsSubmitted(false);
+        setResult(null);
+        setFocusedIndex(0);
+        setRemainingSeconds(defaultDuration);
       }
-    }
-    loadExam();
-  }, [examId, modeParam]);
+    },
+    onError: (err) => {
+      console.error("Failed to load exam data:", err);
+    },
+  });
+
+  function setPassagesFallbackEmpty() {
+    setActivePassageId("");
+    setAnswers({});
+    setResult(null);
+    setIsSubmitted(false);
+  }
 
   const latestRef = useRef({
     exam,
@@ -215,18 +235,17 @@ function ExamContent() {
   });
   latestRef.current = { exam, questions, answers, remainingSeconds, focusedIndex, isSubmitted };
 
-  const isSubmittingRef = useRef(false);
-  // Tracks the jitter setTimeout for auto-submit so manual submit can cancel it
-  const autoSubmitTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   // 1. Timer countdown (decoupled from remainingSeconds to prevent 1-second interval thrashing)
   useEffect(() => {
-    if (loading || isSubmitted) return;
+    if (loading || isSubmitted || isPrintMode) return;
 
     const timer = setInterval(() => {
-      setRemainingSeconds((prev) => {
-        if (prev <= 1) {
-          clearInterval(timer);
+      const cur = latestRef.current.remainingSeconds;
+      if (cur <= 1) {
+        clearInterval(timer);
+        latestRef.current.remainingSeconds = 0;
+        setRemainingSeconds(0);
+        if (!isSubmittingRef.current && !autoSubmitTimerRef.current) {
           // 🛡️ 500-Concurrency Dirac Pulse Armor: Inject 0 ~ 12s Uniform Jitter
           // Flattens the 400 req/s Dirac impulse into a smooth <= 41.6 req/s stream
           const jitterMs = Math.floor(Math.random() * 12000);
@@ -234,10 +253,12 @@ function ExamContent() {
             autoSubmitTimerRef.current = null;
             handleSubmit(true);
           }, jitterMs);
-          return 0;
         }
-        return prev - 1;
-      });
+        return;
+      }
+      const nextSec = cur - 1;
+      latestRef.current.remainingSeconds = nextSec;
+      setRemainingSeconds(nextSec);
     }, 1000);
 
     return () => {
@@ -248,11 +269,11 @@ function ExamContent() {
         autoSubmitTimerRef.current = null;
       }
     };
-  }, [loading, isSubmitted]);
+  }, [loading, isSubmitted, isPrintMode]);
 
   // 2. Periodic draft background sync every 5 seconds (reliably fires from ref)
   useEffect(() => {
-    if (!examId || isSubmitted || loading) return;
+    if (!examId || isSubmitted || loading || isPrintMode) return;
 
     const draftInterval = setInterval(() => {
       const { answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
@@ -262,11 +283,11 @@ function ExamContent() {
     }, 5000);
 
     return () => clearInterval(draftInterval);
-  }, [examId, isSubmitted, loading]);
+  }, [examId, isSubmitted, loading, isPrintMode]);
 
   // 3. BeforeUnload Exit Protection: Guarantee instant flush and prevent accidental tab closes
   useEffect(() => {
-    if (!examId || isSubmitted || loading) return;
+    if (!examId || isSubmitted || loading || isPrintMode) return;
 
     const handleBeforeUnload = (e: BeforeUnloadEvent) => {
       const { answers: curAns, remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
@@ -281,7 +302,18 @@ function ExamContent() {
 
     window.addEventListener("beforeunload", handleBeforeUnload);
     return () => window.removeEventListener("beforeunload", handleBeforeUnload);
-  }, [examId, isSubmitted, loading]);
+  }, [examId, isSubmitted, loading, isPrintMode]);
+
+  // Trigger print dialog once automatically when opening ?mode=print
+  useEffect(() => {
+    if (!isPrintMode || loading || !exam) return;
+    if (hasAutoPrintedRef.current === exam.id) return;
+    hasAutoPrintedRef.current = exam.id;
+    const timer = setTimeout(() => {
+      window.print();
+    }, 400);
+    return () => clearTimeout(timer);
+  }, [isPrintMode, loading, exam]);
 
   // 4. PC Keyboard Shortcuts: decoupled with ref to avoid re-binding on each answer
   const keydownRef = useRef({ questions, focusedIndex });
@@ -289,87 +321,69 @@ function ExamContent() {
     keydownRef.current = { questions, focusedIndex };
   });
 
-  useEffect(() => {
-    if (loading) return;
+  useKeyboardGuard((e: KeyboardEvent) => {
+    const { questions: qs, focusedIndex: fIdx } = keydownRef.current;
+    if (!qs || qs.length === 0) return;
 
-    const handleKeyDown = (e: KeyboardEvent) => {
-      const target = e.target as HTMLElement | null;
-      if (
-        e.isComposing ||
-        target instanceof HTMLInputElement ||
-        target instanceof HTMLTextAreaElement ||
-        target?.isContentEditable ||
-        target?.closest?.("input, textarea, [contenteditable='true']")
-      ) {
-        return;
+    const key = e.key.toUpperCase();
+    const currentQ = qs[fIdx];
+    const validKeys = currentQ
+      ? normalizeOptions(currentQ.options).map((o) => o.key.toUpperCase())
+      : ["A", "B", "C", "D"];
+
+    if (e.key === "Escape") {
+      setShowShortcutsModal(false);
+      setShowMobileAnswerSheet(false);
+      setShowSubmitReviewSheet(false);
+      setIsZenMode(false);
+      return;
+    }
+
+    if (e.key === "?" || key === "H") {
+      e.preventDefault();
+      setShowShortcutsModal((prev) => !prev);
+      return;
+    }
+
+    if (key === "Z") {
+      e.preventDefault();
+      setIsZenMode((prev) => !prev);
+      return;
+    }
+
+    if (key === "M" || e.key === "Tab") {
+      e.preventDefault();
+      setShowMobileAnswerSheet((prev) => !prev);
+      return;
+    }
+
+    if (validKeys.includes(key)) {
+      e.preventDefault();
+      if (!isSubmitted && !isPrintMode && currentQ) {
+        handleSelectAnswer(currentQ.id, key);
       }
-
-      const { questions: qs, focusedIndex: fIdx } = keydownRef.current;
-      if (!qs || qs.length === 0) return;
-
-      const key = e.key.toUpperCase();
-      const currentQ = qs[fIdx];
-      const validKeys = currentQ
-        ? normalizeOptions(currentQ.options).map((o) => o.key)
-        : ["A", "B", "C", "D"];
-
-      if (e.key === "Escape") {
-        setShowShortcutsModal(false);
-        setShowMobileAnswerSheet(false);
-        setShowSubmitReviewSheet(false);
-        setIsZenMode(false);
-        return;
-      }
-
-      if (e.key === "?" || key === "H") {
-        e.preventDefault();
-        setShowShortcutsModal((prev) => !prev);
-        return;
-      }
-
-      if (key === "Z") {
-        e.preventDefault();
-        setIsZenMode((prev) => !prev);
-        return;
-      }
-
-      if (key === "M" || e.key === "Tab") {
-        e.preventDefault();
-        setShowMobileAnswerSheet((prev) => !prev);
-        return;
-      }
-
-      if (validKeys.includes(key)) {
-        e.preventDefault();
-        if (!isSubmitted && currentQ) {
-          handleSelectAnswer(currentQ.id, key);
-        }
-      } else if (e.key === "ArrowRight" || key === "K") {
-        e.preventDefault();
-        setFocusedIndex((prev) => {
-          const nextIdx = Math.min(qs.length - 1, prev + 1);
-          scrollToQuestion(qs[nextIdx]?.id);
-          return nextIdx;
-        });
-      } else if (e.key === "ArrowLeft" || key === "J") {
-        e.preventDefault();
-        setFocusedIndex((prev) => {
-          const prevIdx = Math.max(0, prev - 1);
-          scrollToQuestion(qs[prevIdx]?.id);
-          return prevIdx;
-        });
-      } else if (e.key === "ArrowUp") {
-        e.preventDefault();
-        passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
-      } else if (e.key === "ArrowDown") {
-        e.preventDefault();
-        passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [isSubmitted, loading]);
+    } else if (e.key === "ArrowRight" || key === "K") {
+      e.preventDefault();
+      const nextIdx = Math.min(qs.length - 1, fIdx + 1);
+      keydownRef.current.focusedIndex = nextIdx;
+      latestRef.current.focusedIndex = nextIdx;
+      setFocusedIndex(nextIdx);
+      scrollToQuestion(qs[nextIdx]?.id);
+    } else if (e.key === "ArrowLeft" || key === "J") {
+      e.preventDefault();
+      const prevIdx = Math.max(0, fIdx - 1);
+      keydownRef.current.focusedIndex = prevIdx;
+      latestRef.current.focusedIndex = prevIdx;
+      setFocusedIndex(prevIdx);
+      scrollToQuestion(qs[prevIdx]?.id);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
+    } else if (e.key === "ArrowDown") {
+      e.preventDefault();
+      passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
+    }
+  }, !loading);
 
   const scrollToQuestion = (qId?: string) => {
     if (!qId) return;
@@ -401,40 +415,32 @@ function ExamContent() {
     const curP = passages.find((p) => p.id === (currentQ?.passage_id || activePassageId));
     const isCloze = curP && (curP.title.includes("Use of English") || curP.title.includes("完型") || curP.content.includes("[1]"));
     if (isCloze && focusedIndex < 20) {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         const blankEl = document.getElementById(`cloze-blank-${focusedIndex + 1}`);
         if (blankEl) {
           blankEl.scrollIntoView({ behavior: "smooth", block: "center" });
         }
       }, 50);
+      return () => clearTimeout(timer);
     }
   }, [focusedIndex, questions, passages]);
 
   // Mobile drawer body scroll lock & overscroll containment
-  useEffect(() => {
-    if (showMobileAnswerSheet || showSubmitReviewSheet) {
-      const originalOverflow = document.body.style.overflow;
-      document.body.style.overflow = "hidden";
-      return () => {
-        document.body.style.overflow = originalOverflow;
-      };
-    }
-  }, [showMobileAnswerSheet, showSubmitReviewSheet]);
+  useBodyScrollLock(showMobileAnswerSheet || showSubmitReviewSheet);
 
   const handleSelectAnswer = (qId: string, optionKey: string) => {
-    if (isSubmitted) return;
+    if (isSubmitted || isPrintMode) return;
     triggerHaptic(10);
-    const { remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
-    setAnswers((prev) => {
-      const next = {
-        ...prev,
-        [qId]: optionKey,
-      };
-      if (examId) {
-        saveExamDraft(examId, next, curSec, curIdx);
-      }
-      return next;
-    });
+    const { answers: curAnswers, remainingSeconds: curSec, focusedIndex: curIdx } = latestRef.current;
+    const next = {
+      ...curAnswers,
+      [qId]: optionKey,
+    };
+    latestRef.current.answers = next;
+    setAnswers(next);
+    if (examId) {
+      saveExamDraft(examId, next, curSec, curIdx);
+    }
   };
 
   const requestSubmit = () => {
@@ -512,15 +518,17 @@ function ExamContent() {
     setIsSubmitted(true);
 
     if (passed) {
-      try {
-        confetti({
-          particleCount: 80,
-          spread: 70,
-          origin: { y: 0.6 },
+      import("canvas-confetti")
+        .then((mod) => {
+          mod.default({
+            particleCount: 80,
+            spread: 70,
+            origin: { y: 0.6 },
+          });
+        })
+        .catch((err) => {
+          console.warn("Confetti effect skipped:", err);
         });
-      } catch (err) {
-        console.warn("Confetti effect skipped:", err);
-      }
     }
 
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -608,7 +616,7 @@ function ExamContent() {
     }
   };
 
-  const renderExamSheetButton = (q: any, overallIdx: number, isDrawer = false) => {
+  const renderExamSheetButton = (q: QuestionRecord, overallIdx: number, isDrawer = false) => {
     const uAns = answers[q.id];
     const isAns = Boolean(uAns);
     const isFocus = overallIdx === focusedIndex;
@@ -691,7 +699,7 @@ function ExamContent() {
                 </div>
               )}
 
-              {!isSubmitted && (
+              {!isSubmitted && !isPrintMode && (
                 <span className="hidden lg:inline-flex items-center space-x-1 px-2 py-0.5 rounded text-[10px] font-medium bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-400 border border-emerald-200/60 dark:border-emerald-500/20">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
                   <span>实时草稿保全</span>
@@ -707,32 +715,53 @@ function ExamContent() {
         {/* Timer & Submission Actions */}
         <div className="flex items-center space-x-2 shrink-0">
           {/* Zen Focus Mode Toggle */}
-          <button
-            type="button"
-            onClick={() => setIsZenMode(!isZenMode)}
-            title="专注考场模式 (快捷键 Z)"
-            className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center space-x-1.5 transition-all duration-150 active:scale-[0.98] ${
-              isZenMode 
-                ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] border-emerald-700 dark:border-cyber-400 shadow-subtle dark:shadow-glow-cyan" 
-                : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-600 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 shadow-subtle"
-            }`}
-          >
-            {isZenMode ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
-            <span className="hidden sm:inline">{isZenMode ? "退出专注" : "专注模式"}</span>
-            <kbd className="hidden lg:inline-block px-1 py-0.2 rounded bg-black/10 dark:bg-white/10 text-[9px] font-mono">Z</kbd>
-          </button>
+          {!isPrintMode && (
+            <button
+              type="button"
+              onClick={() => setIsZenMode(!isZenMode)}
+              title="专注考场模式 (快捷键 Z)"
+              className={`px-2.5 py-1.5 rounded-xl border text-xs font-semibold flex items-center space-x-1.5 transition-all duration-150 active:scale-[0.98] ${
+                isZenMode 
+                  ? "bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] border-emerald-700 dark:border-cyber-400 shadow-subtle dark:shadow-glow-cyan" 
+                  : "bg-white dark:bg-zinc-800 border-black/[0.06] dark:border-cyan-500/20 text-stone-600 dark:text-zinc-300 hover:text-stone-950 dark:hover:text-white hover:bg-stone-50 dark:hover:bg-zinc-700 shadow-subtle"
+              }`}
+            >
+              {isZenMode ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
+              <span className="hidden sm:inline">{isZenMode ? "退出专注" : "专注模式"}</span>
+              <kbd className="hidden lg:inline-block px-1 py-0.2 rounded bg-black/10 dark:bg-white/10 text-[9px] font-mono">Z</kbd>
+            </button>
+          )}
 
           {/* Keyboard Shortcuts Cheat Sheet Button */}
-          <button
-            type="button"
-            onClick={() => setShowShortcutsModal(true)}
-            title="PC 快捷键速查表 (快捷键 ? 或 H)"
-            className="p-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-700 transition-colors shadow-subtle hidden sm:flex items-center justify-center"
-          >
-            <Keyboard className="w-3.5 h-3.5" />
-          </button>
+          {!isPrintMode && (
+            <button
+              type="button"
+              onClick={() => setShowShortcutsModal(true)}
+              title="PC 快捷键速查表 (快捷键 ? 或 H)"
+              className="p-2 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-500 dark:text-zinc-400 hover:text-stone-900 dark:hover:text-zinc-100 hover:bg-stone-50 dark:hover:bg-zinc-700 transition-colors shadow-subtle hidden sm:flex items-center justify-center"
+            >
+              <Keyboard className="w-3.5 h-3.5" />
+            </button>
+          )}
 
-          {!isSubmitted ? (
+          {isPrintMode ? (
+            <div className="flex items-center space-x-2">
+              <Link
+                href={`/exam?id=${exam.id}`}
+                className="px-3.5 py-1.5 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 text-stone-700 dark:text-zinc-300 hover:bg-stone-100 dark:hover:bg-zinc-800 text-xs font-bold transition-all shadow-subtle"
+              >
+                切换到限时模考
+              </Link>
+              <button
+                type="button"
+                onClick={() => window.print()}
+                className="px-3.5 py-1.5 rounded-xl bg-emerald-700 dark:bg-cyber-500 text-white dark:text-[#090a0f] hover:bg-emerald-800 dark:hover:bg-cyber-400 text-xs font-bold flex items-center space-x-1.5 transition-all shadow-subtle"
+              >
+                <Printer className="w-3.5 h-3.5" />
+                <span>立即打印 / 导出 PDF</span>
+              </button>
+            </div>
+          ) : !isSubmitted ? (
             <>
               <div className={`flex items-center space-x-1.5 px-3 py-1.5 rounded-xl font-mono text-xs sm:text-sm font-bold border ${
                 remainingSeconds < 300 
@@ -770,6 +799,54 @@ function ExamContent() {
             </div>
           )}
         </div>
+      </div>
+
+      {/* Print Mode Control Bar */}
+      {isPrintMode && (
+        <div className="bg-amber-50/80 dark:bg-zinc-900 border border-amber-200/80 dark:border-cyan-500/25 rounded-2xl p-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 no-print">
+          <div className="flex items-center space-x-2.5 text-xs text-amber-900 dark:text-zinc-200">
+            <Printer className="w-4 h-4 text-amber-600 dark:text-cyber-400 shrink-0" />
+            <div>
+              <span className="font-bold">纸质打印模式（已暂停计时）</span>
+              <span className="text-amber-700/80 dark:text-zinc-400 ml-2">
+                已展开全部篇章与试题，支持直接浏览器打印或另存为 PDF
+              </span>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center gap-3">
+            <label className="inline-flex items-center space-x-2 text-xs font-semibold text-stone-700 dark:text-zinc-300 cursor-pointer select-none">
+              <input
+                type="checkbox"
+                checked={showPrintAnswers}
+                onChange={(e) => setShowPrintAnswers(e.target.checked)}
+                className="rounded border-stone-300 text-emerald-700 focus:ring-emerald-600"
+              />
+              <span>打印附带参考答案与精析</span>
+            </label>
+            <button
+              type="button"
+              onClick={() => window.print()}
+              className="px-3.5 py-1.5 rounded-xl bg-emerald-700 dark:bg-cyber-500 hover:bg-emerald-800 dark:hover:bg-cyber-400 text-white dark:text-[#090a0f] text-xs font-bold flex items-center space-x-1.5 shadow-subtle"
+            >
+              <Printer className="w-3.5 h-3.5" />
+              <span>立即打印 / 导出 PDF</span>
+            </button>
+            <Link
+              href={`/exam?id=${exam.id}`}
+              className="px-3 py-1.5 rounded-xl border border-black/[0.08] dark:border-cyan-500/20 bg-white dark:bg-zinc-800 text-stone-700 dark:text-zinc-300 hover:bg-stone-50 dark:hover:bg-zinc-700 text-xs font-semibold"
+            >
+              切换到限时模考
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {/* Paper Print Header (Visible only in @media print) */}
+      <div className="hidden print-only border-b border-stone-300 pb-3 mb-4">
+        <h1 className="text-xl font-bold">{exam.title}</h1>
+        <p className="text-xs text-stone-600 mt-1">
+          {exam.category_id} · {exam.year} 年 · 限时 {exam.duration_minutes || 75} 分钟 · 满分 {exam.total_score || 60} 分
+        </p>
       </div>
 
       {/* Zen Mode Floating Top Bar (Active when in Zen Mode) */}
@@ -854,7 +931,7 @@ function ExamContent() {
       )}
 
       {/* Keyboard Shortcuts Guide Banner (PC Only) */}
-      {!isSubmitted && (
+      {!isSubmitted && !isPrintMode && (
         <div className="hidden lg:flex items-center justify-between px-3.5 py-2 bg-stone-100/80 dark:bg-zinc-900/80 border border-black/[0.04] dark:border-cyan-500/20 rounded-xl text-xs text-stone-700 dark:text-zinc-300 no-print">
           <div className="flex items-center space-x-2">
             <Keyboard className="w-3.5 h-3.5 text-stone-500 dark:text-zinc-400" />
@@ -866,7 +943,7 @@ function ExamContent() {
       )}
 
       {/* Mobile View Switcher (Sticky Segmented Control below header) */}
-      {passages.length > 0 && !isSubmitted && (
+      {passages.length > 0 && !isSubmitted && !isPrintMode && (
         <div className="lg:hidden sticky top-[4.5rem] z-20 flex items-center bg-stone-100/95 dark:bg-zinc-900/95 backdrop-blur-md p-1 rounded-xl border border-black/[0.06] dark:border-cyan-500/20 shadow-sm no-print">
           <button
             type="button"
@@ -898,7 +975,7 @@ function ExamContent() {
       {/* PC Dual-Pane Layout (Mobile Tabbed / SplitPane) */}
       {(() => {
         const leftPane = passages.length > 0 ? (
-          <div className={`${mobileTab === "passage" || isSubmitted ? "flex" : "hidden"} lg:flex w-full bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card overflow-hidden flex-col lg:sticky lg:top-36 h-[calc(100dvh-12rem)] min-h-[360px] lg:h-[78vh] print-page transition-colors duration-300`}>
+          <div className={`${mobileTab === "passage" || isSubmitted || isPrintMode ? "flex" : "hidden"} lg:flex w-full bg-white dark:bg-[#11131a] rounded-2xl border border-black/[0.06] dark:border-cyan-500/20 shadow-card flex-col ${isPrintMode ? "h-auto overflow-visible" : "overflow-hidden lg:sticky lg:top-36 h-[calc(100dvh-12rem)] min-h-[360px] lg:h-[78vh]"} print-page transition-colors duration-300`}>
             {/* Passage Selector Bar & Font Zoom Controls */}
             <div className="px-5 py-2.5 border-b border-stone-100 dark:border-zinc-800 bg-stone-50/70 dark:bg-zinc-900/70 flex items-center justify-between shrink-0 no-print">
               <div className="flex items-center space-x-1.5 overflow-x-auto no-scrollbar">
@@ -952,8 +1029,10 @@ function ExamContent() {
             </div>
 
             {/* Reading Content Area */}
-            <div ref={passageContainerRef} className="flex-1 p-6 sm:p-7 overflow-y-auto leading-relaxed select-text font-serif text-stone-800 dark:text-zinc-200">
-              {(passages.filter((p) => p.id === activePassageId).length > 0
+            <div ref={passageContainerRef} className={`flex-1 p-6 sm:p-7 ${isPrintMode ? "overflow-visible space-y-8" : "overflow-y-auto"} leading-relaxed select-text font-serif text-stone-800 dark:text-zinc-200`}>
+              {(isPrintMode
+                ? passages
+                : passages.filter((p) => p.id === activePassageId).length > 0
                 ? passages.filter((p) => p.id === activePassageId)
                 : passages.slice(0, 1)
               ).map((p) => {
@@ -1055,7 +1134,7 @@ function ExamContent() {
         ) : null;
 
         const rightPane = (
-          <div className={`${mobileTab === "questions" || isSubmitted ? "block" : "hidden"} lg:block w-full space-y-6 pb-28 lg:pb-0`}>
+          <div className={`${mobileTab === "questions" || isSubmitted || isPrintMode ? "block" : "hidden"} lg:block w-full space-y-6 pb-28 lg:pb-0`}>
           {questions.map((q, idx) => {
             const userAns = answers[q.id];
             const isQAnswered = Boolean(userAns);
@@ -1102,7 +1181,7 @@ function ExamContent() {
                       type="button"
                       onClick={(e) => {
                         e.stopPropagation();
-                        setActivePassageId(q.passage_id);
+                        if (q.passage_id) setActivePassageId(q.passage_id);
                         setMobileTab("passage");
                       }}
                       className="lg:hidden text-[11px] font-semibold text-emerald-700 dark:text-cyber-400 bg-emerald-50/80 dark:bg-cyan-950/60 border border-emerald-200/50 dark:border-cyan-500/30 px-2 py-0.5 rounded-md flex items-center space-x-1 active:scale-95"
@@ -1187,15 +1266,17 @@ function ExamContent() {
                 </div>
 
                 {/* Explanation Block */}
-                {isSubmitted && q.explanation && (
-                  <div className="mt-4 p-4 rounded-xl bg-stone-50/80 dark:bg-zinc-900/80 border border-black/[0.04] dark:border-cyan-500/20 text-xs text-stone-800 dark:text-zinc-200 space-y-1 no-print">
+                {((isSubmitted && q.explanation) || (isPrintMode && showPrintAnswers && (q.explanation || q.correct_answer))) && (
+                  <div className={`mt-4 p-4 rounded-xl bg-stone-50/80 dark:bg-zinc-900/80 border border-black/[0.04] dark:border-cyan-500/20 text-xs text-stone-800 dark:text-zinc-200 space-y-1 ${isPrintMode && showPrintAnswers ? "" : "no-print"}`}>
                     <div className="flex items-center space-x-1.5 font-bold text-stone-900 dark:text-zinc-100">
                       <HelpCircle className="w-3.5 h-3.5 text-emerald-600 dark:text-cyber-400" />
                       <span>考点精析 · 正确答案: {q.correct_answer}</span>
                     </div>
-                    <p className="text-stone-600 dark:text-zinc-300 leading-relaxed whitespace-pre-line pt-1">
-                      {q.explanation}
-                    </p>
+                    {q.explanation && (
+                      <p className="text-stone-600 dark:text-zinc-300 leading-relaxed whitespace-pre-line pt-1">
+                        {q.explanation}
+                      </p>
+                    )}
                   </div>
                 )}
               </div>
@@ -1298,6 +1379,15 @@ function ExamContent() {
         </div>
       );
 
+      if (isPrintMode) {
+        return (
+          <div className="max-w-4xl mx-auto space-y-8">
+            {leftPane}
+            {rightPane}
+          </div>
+        );
+      }
+
       return passages.length > 0 ? (
           <SplitPane
             storageKey="enway_split_ratio_exam"
@@ -1314,7 +1404,7 @@ function ExamContent() {
       })()}
 
       {/* Mobile Bottom Exam Action Bar (Sticky Floating Dock) */}
-      {!isSubmitted && (
+      {!isSubmitted && !isPrintMode && (
         <div className="lg:hidden fixed bottom-0 left-0 right-0 z-30 bg-white/95 dark:bg-[#0e1017]/95 backdrop-blur-xl border-t border-black/[0.08] dark:border-cyan-500/20 px-4 py-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-lg flex items-center justify-between gap-3 no-print">
           <button
             type="button"
@@ -1350,7 +1440,7 @@ function ExamContent() {
       )}
 
       {/* Floating Answer Sheet Capsule for Exam (Bottom-Right FAB) */}
-      {!isSubmitted && (
+      {!isSubmitted && !isPrintMode && (
         <div className="hidden lg:block fixed bottom-6 right-6 z-40 no-print">
           <button
             type="button"
@@ -1605,10 +1695,12 @@ function ExamContent() {
       )}
 
       {/* Keyboard Shortcuts Cheat Sheet Modal */}
-      <KeyboardShortcutsModal 
-        isOpen={showShortcutsModal} 
-        onClose={() => setShowShortcutsModal(false)} 
-      />
+      {showShortcutsModal && (
+        <KeyboardShortcutsModal
+          isOpen={showShortcutsModal}
+          onClose={() => setShowShortcutsModal(false)}
+        />
+      )}
     </div>
   );
 }

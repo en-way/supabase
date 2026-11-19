@@ -1,17 +1,22 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import Link from "next/link";
 import { 
   getLocalState, 
+  subscribeLocalState,
   toggleMistakeMastered, 
   removeMistake, 
   reconcileLearningState,
   normalizeOptions,
+  getLastReconcileTimestamp,
+  setLastReconcileTimestamp,
+  clearLastReconcileTimestamp,
   MistakeItem 
 } from "@/lib/storage";
 import { supabase } from "@/lib/supabase";
 import { fetchExamDetailWithFallback, clearStaticExamCache } from "@/lib/examLoader";
+import type { PassageRecord, QuestionRecord, RawQuestionOptions } from "@/types/exam";
 import { 
   AlertCircle, 
   CheckCircle2, 
@@ -58,6 +63,28 @@ interface OnlineQuestionDetail {
   } | null;
 }
 
+type FallbackPassageRef = NonNullable<OnlineQuestionDetail["passages"]>;
+type FallbackExamRef = NonNullable<OnlineQuestionDetail["exams"]>;
+
+interface FallbackQuestionRow {
+  id: string;
+  exam_id: string | null;
+  passage_id: string | null;
+  category_id: string | null;
+  q_type: string;
+  stem: string;
+  options: RawQuestionOptions;
+  correct_answer: string;
+  explanation: string | null;
+  points: number | null;
+  sort_order: number | null;
+  passages: FallbackPassageRef | FallbackPassageRef[] | null;
+  exams: FallbackExamRef | FallbackExamRef[] | null;
+}
+
+const unwrapRelation = <T,>(value: T | T[] | null | undefined): T | null =>
+  Array.isArray(value) ? (value[0] ?? null) : (value ?? null);
+
 // Client-side session memory cache for question details to avoid repeated network calls
 const questionDetailsCache: Record<string, OnlineQuestionDetail> = {};
 
@@ -90,8 +117,43 @@ export default function MistakesPage() {
   // Mobile studio tab state
   const [studioMobileTab, setStudioMobileTab] = useState<"passage" | "question">("question");
 
+  const mountedRef = useRef(true);
+  const fetchSeqRef = useRef(0);
+  const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const showToast = useCallback((msg: string) => {
+    if (!mountedRef.current) return;
+    if (toastTimerRef.current !== null) {
+      clearTimeout(toastTimerRef.current);
+    }
+    setToastMsg(msg);
+    toastTimerRef.current = setTimeout(() => {
+      toastTimerRef.current = null;
+      if (mountedRef.current) {
+        setToastMsg(null);
+      }
+    }, 3500);
+  }, []);
+
   useEffect(() => {
+    mountedRef.current = true;
     loadLocalMistakes();
+    const unsubscribe = subscribeLocalState((state) => {
+      if (!mountedRef.current) return;
+      const nextMistakes = state.mistakes || [];
+      setMistakes(nextMistakes);
+      if (nextMistakes.some((m) => m && m.questionId && !questionDetailsCache[m.questionId])) {
+        fetchOnlineQuestionDetails(nextMistakes);
+      }
+    });
+    return () => {
+      mountedRef.current = false;
+      unsubscribe();
+      if (toastTimerRef.current !== null) {
+        clearTimeout(toastTimerRef.current);
+        toastTimerRef.current = null;
+      }
+    };
   }, []);
 
   const loadLocalMistakes = () => {
@@ -107,28 +169,38 @@ export default function MistakesPage() {
     try {
       await clearStaticExamCache();
       Object.keys(questionDetailsCache).forEach((k) => delete questionDetailsCache[k]);
-      try {
-        localStorage.removeItem("enway_last_reconcile_ts");
-      } catch {}
+      const { data: { session } } = await supabase.auth.getSession();
+      const uid = session?.user?.id || null;
+      clearLastReconcileTimestamp(uid);
       const recon = await reconcileLearningState();
+      if (!mountedRef.current) return;
+      if (recon.completed && uid) {
+        setLastReconcileTimestamp(uid, Date.now());
+      }
       const latestMistakes = getLocalState().mistakes || [];
       setMistakes(latestMistakes);
-      await fetchOnlineQuestionDetails(latestMistakes);
-      setToastMsg(recon.hasChanges ? `核对完成：${recon.summaryText}` : "已核对完成，本地错题考点均为最新");
-      setTimeout(() => setToastMsg(null), 3500);
+      await fetchOnlineQuestionDetails(latestMistakes, true);
+      if (!mountedRef.current) return;
+      if (!recon.completed) {
+        showToast(recon.summaryText || "云端核对未完成，已安全保留当前本地错题状态");
+      } else {
+        showToast(recon.hasChanges ? `核对完成：${recon.summaryText}` : "已核对完成，本地错题考点均为最新");
+      }
     } catch (e) {
       console.error("Manual reconcile failed:", e);
-      setToastMsg("核对网络异常，已保持当前本地错题状态");
-      setTimeout(() => setToastMsg(null), 3500);
+      showToast("核对网络异常，已保持当前本地错题状态");
     } finally {
-      setIsReconciling(false);
+      if (mountedRef.current) {
+        setIsReconciling(false);
+      }
     }
   };
 
   // ⚡️ Quota Optimization: Fetch questions from Cloudflare Pages static CDN mirror first (0 DB quota, 0ms)
   // Fall back to Supabase PostgREST only for legacy orphaned IDs.
-  const fetchOnlineQuestionDetails = async (items: MistakeItem[]) => {
+  const fetchOnlineQuestionDetails = async (items: MistakeItem[], skipAutoReconcile = false) => {
     if (!items || items.length === 0) return;
+    const seq = ++fetchSeqRef.current;
 
     const allIds = Array.from(new Set(items.map((m) => m.questionId)));
     let missingIds = allIds.filter((id) => !questionDetailsCache[id]);
@@ -156,25 +228,28 @@ export default function MistakesPage() {
         const examDetails = await Promise.all(
           examIdsToFetch.map((id) => fetchExamDetailWithFallback(id))
         );
+        if (!mountedRef.current || seq !== fetchSeqRef.current) return;
 
         examDetails.forEach((detail) => {
           if (!detail || !Array.isArray(detail.questions)) return;
-          const passageMap = new Map((detail.passages || []).map((p: any) => [p.id, p]));
+          const passageMap = new Map<string, PassageRecord>(
+            (detail.passages || []).map((p: PassageRecord) => [p.id, p])
+          );
 
-          detail.questions.forEach((q: any) => {
+          detail.questions.forEach((q: QuestionRecord) => {
             if (missingIds.includes(q.id)) {
               const passage = q.passage_id ? passageMap.get(q.passage_id) || null : null;
               const detailItem: OnlineQuestionDetail = {
                 id: q.id,
-                exam_id: q.exam_id || detail.exam?.id,
-                passage_id: q.passage_id,
+                exam_id: q.exam_id || detail.exam?.id || "",
+                passage_id: q.passage_id ?? null,
                 category_id: q.category_id || detail.exam?.category_id || "ky1",
                 q_type: q.q_type,
                 stem: q.stem,
                 options: normalizeOptions(q.options),
                 correct_answer: q.correct_answer,
-                explanation: q.explanation,
-                points: Number(q.points || 2),
+                explanation: q.explanation || "",
+                points: q.points !== undefined && q.points !== null ? Number(q.points) : 2,
                 sort_order: q.sort_order || 0,
                 passages: passage,
                 exams: detail.exam,
@@ -190,63 +265,74 @@ export default function MistakesPage() {
         setQuestionMap({ ...initialMap });
       }
 
-      // Step 2: Fall back to Supabase PostgREST only if any orphaned/legacy IDs remain
+      // Step 2: Fall back to Supabase PostgREST in 50-item chunks only if any orphaned/legacy IDs remain
       if (missingIds.length > 0) {
-        const { data, error } = await supabase
-          .from("questions")
-          .select(`
-            id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
-            passages (id, title, section_type),
-            exams (id, title, year)
-          `)
-          .in("id", missingIds);
+        const CHUNK_SIZE = 50;
+        for (let i = 0; i < missingIds.length; i += CHUNK_SIZE) {
+          const chunk = missingIds.slice(i, i + CHUNK_SIZE);
+          const { data, error } = await supabase
+            .from("questions")
+            .select(`
+              id, exam_id, passage_id, category_id, q_type, stem, options, correct_answer, explanation, points, sort_order,
+              passages (id, title, content, section_type),
+              exams (id, title, year)
+            `)
+            .in("id", chunk);
 
-        if (!error && data) {
-          data.forEach((q: any) => {
-            const detail: OnlineQuestionDetail = {
-              id: q.id,
-              exam_id: q.exam_id,
-              passage_id: q.passage_id,
-              category_id: q.category_id,
-              q_type: q.q_type,
-              stem: q.stem,
-              options: normalizeOptions(q.options),
-              correct_answer: q.correct_answer,
-              explanation: q.explanation,
-              points: Number(q.points || 2),
-              sort_order: q.sort_order || 0,
-              passages: q.passages,
-              exams: q.exams,
-            };
-            questionDetailsCache[q.id] = detail;
-            initialMap[q.id] = detail;
-          });
-          setQuestionMap({ ...initialMap });
+          if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+          if (!error && data) {
+            (data as unknown as FallbackQuestionRow[]).forEach((q) => {
+              const detail: OnlineQuestionDetail = {
+                id: q.id,
+                exam_id: q.exam_id || "",
+                passage_id: q.passage_id,
+                category_id: q.category_id || "ky1",
+                q_type: q.q_type,
+                stem: q.stem,
+                options: normalizeOptions(q.options),
+                correct_answer: q.correct_answer,
+                explanation: q.explanation || "",
+                points: q.points !== undefined && q.points !== null ? Number(q.points) : 2,
+                sort_order: q.sort_order || 0,
+                passages: unwrapRelation(q.passages),
+                exams: unwrapRelation(q.exams),
+              };
+              questionDetailsCache[q.id] = detail;
+              initialMap[q.id] = detail;
+            });
+          }
         }
+        setQuestionMap({ ...initialMap });
       }
 
-      // Execute reconciliation with 7-day throttle to strictly protect Supabase free quota
-      const LAST_RECON_KEY = "enway_last_reconcile_ts";
-      let lastRecon = 0;
-      try {
-        lastRecon = Number(localStorage.getItem(LAST_RECON_KEY) || "0");
-      } catch {}
-
-      if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
-        try {
-          localStorage.setItem(LAST_RECON_KEY, String(Date.now()));
-        } catch {}
-        const recon = await reconcileLearningState();
-        if (recon.hasChanges) {
-          setMistakes(getLocalState().mistakes);
-          setToastMsg(recon.summaryText);
-          setTimeout(() => setToastMsg(null), 3500);
+      // Execute reconciliation with per-account 7-day throttle to strictly protect Supabase free quota
+      if (!skipAutoReconcile) {
+        const { data: { session } } = await supabase.auth.getSession();
+        if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+        const uid = session?.user?.id || null;
+        if (uid) {
+          const lastRecon = getLastReconcileTimestamp(uid);
+          if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
+            const recon = await reconcileLearningState();
+            if (!mountedRef.current || seq !== fetchSeqRef.current) return;
+            if (recon.completed) {
+              setLastReconcileTimestamp(uid, Date.now());
+            }
+            if (recon.hasChanges) {
+              setMistakes(getLocalState().mistakes);
+              showToast(recon.summaryText);
+            }
+          }
         }
       }
     } catch (err) {
-      console.error("Failed to fetch questions details batch:", err);
+      if (mountedRef.current && seq === fetchSeqRef.current) {
+        console.error("Failed to fetch questions details batch:", err);
+      }
     } finally {
-      setIsLoadingOnline(false);
+      if (mountedRef.current && seq === fetchSeqRef.current) {
+        setIsLoadingOnline(false);
+      }
     }
   };
 
@@ -348,11 +434,23 @@ export default function MistakesPage() {
     if (!sideBySideItem) return;
 
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      const target = e.target as HTMLElement | null;
+      if (
+        e.ctrlKey ||
+        e.metaKey ||
+        e.altKey ||
+        e.isComposing ||
+        target instanceof HTMLInputElement ||
+        target instanceof HTMLTextAreaElement ||
+        target?.isContentEditable ||
+        target?.closest?.("input, textarea, [contenteditable='true']")
+      ) {
+        return;
+      }
 
       const key = e.key.toUpperCase();
       const validKeys = sideBySideItem.detail.options?.length > 0
-        ? sideBySideItem.detail.options.map((o) => o.key)
+        ? sideBySideItem.detail.options.map((o) => o.key.toUpperCase())
         : ["A", "B", "C", "D"];
 
       if (validKeys.includes(key)) {

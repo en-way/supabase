@@ -20,26 +20,77 @@ export function parseRawItem(raw: RawDictValue): { d: string; b?: string; p?: st
   return raw;
 }
 
-// Lightweight LRU cache to prevent memory ballooning on mobile devices
+// Lightweight LRU cache + persistent offline CacheStorage bucket
 const MAX_RESOLVED_WORDS = 500;
 const MAX_LOADED_PACKS = 8;
+const DICT_CACHE_NAME = "enway-dict-v1";
 
 const resolvedWordCache = new Map<string, DictEntry>();
 const loadedLetterPacks = new Map<string, Record<string, RawDictValue>>();
 const pendingLetterFetches: Record<string, Promise<Record<string, RawDictValue> | null> | undefined> = {};
 
+function hasCacheStorage(): boolean {
+  return typeof window !== "undefined" && "caches" in window;
+}
+
+async function readDictPackFromCache(url: string): Promise<Record<string, RawDictValue> | null> {
+  if (!hasCacheStorage()) return null;
+  try {
+    const cache = await caches.open(DICT_CACHE_NAME);
+    const cachedRes = await cache.match(url);
+    if (!cachedRes || !cachedRes.ok) return null;
+    const data: unknown = await cachedRes.json();
+    if (!data || typeof data !== "object" || Array.isArray(data)) {
+      cache.delete(url).catch(() => {});
+      return null;
+    }
+    return data as Record<string, RawDictValue>;
+  } catch {
+    try {
+      const cache = await caches.open(DICT_CACHE_NAME);
+      cache.delete(url).catch(() => {});
+    } catch {}
+    return null;
+  }
+}
+
+async function writeDictPackToCache(url: string, data: Record<string, RawDictValue>): Promise<void> {
+  if (!hasCacheStorage()) return;
+  try {
+    const cache = await caches.open(DICT_CACHE_NAME);
+    const response = new Response(JSON.stringify(data), {
+      headers: { "Content-Type": "application/json" },
+    });
+    await cache.put(url, response);
+  } catch {}
+}
+
+export async function clearDictionaryCache(): Promise<void> {
+  resolvedWordCache.clear();
+  loadedLetterPacks.clear();
+  if (hasCacheStorage()) {
+    try {
+      await caches.delete(DICT_CACHE_NAME);
+    } catch {}
+  }
+}
+
 function putResolvedWord(word: string, entry: DictEntry) {
-  if (resolvedWordCache.size >= MAX_RESOLVED_WORDS) {
+  if (resolvedWordCache.has(word)) {
+    resolvedWordCache.delete(word);
+  } else if (resolvedWordCache.size >= MAX_RESOLVED_WORDS) {
     const oldestKey = resolvedWordCache.keys().next().value;
-    if (oldestKey) resolvedWordCache.delete(oldestKey);
+    if (oldestKey !== undefined) resolvedWordCache.delete(oldestKey);
   }
   resolvedWordCache.set(word, entry);
 }
 
 function putLoadedPack(char: string, data: Record<string, RawDictValue>) {
-  if (loadedLetterPacks.size >= MAX_LOADED_PACKS) {
+  if (loadedLetterPacks.has(char)) {
+    loadedLetterPacks.delete(char);
+  } else if (loadedLetterPacks.size >= MAX_LOADED_PACKS) {
     const oldestChar = loadedLetterPacks.keys().next().value;
-    if (oldestChar) loadedLetterPacks.delete(oldestChar);
+    if (oldestChar !== undefined) loadedLetterPacks.delete(oldestChar);
   }
   loadedLetterPacks.set(char, data);
 }
@@ -68,8 +119,8 @@ export function getAudioUrls(word: string) {
 }
 
 /**
- * Fetch and memory-cache a letter shard (/dict/{letter}.json) from Cloudflare Pages static CDN.
- * Equipped with 5s timeout to prevent hanging and LRU memory eviction.
+ * Fetch and cache a letter shard (/dict/{letter}.json):
+ * Tier 1: In-memory LRU -> Tier 2: Offline CacheStorage (enway-dict-v1) -> Tier 3: Edge CDN fetch (5s timeout).
  */
 export async function loadLetterPack(letter: string): Promise<Record<string, RawDictValue> | null> {
   const char = letter.toLowerCase();
@@ -87,25 +138,47 @@ export async function loadLetterPack(letter: string): Promise<Record<string, Raw
     return pending;
   }
 
+  const url = `/dict/${char}.json`;
   const task = (async () => {
     try {
+      // Tier 2: Offline persistent CacheStorage
+      const offlinePack = await readDictPackFromCache(url);
+      if (offlinePack) {
+        putLoadedPack(char, offlinePack);
+        return offlinePack;
+      }
+
+      // Tier 3: Edge CDN fetch with 5s timeout cleanly cleared in finally
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), 5000);
+      try {
+        const res = await fetch(url, {
+          cache: "force-cache",
+          signal: controller.signal,
+        });
 
-      const res = await fetch(`/dict/${char}.json`, {
-        cache: "force-cache",
-        signal: controller.signal,
-      });
-      clearTimeout(timer);
+        if (!res.ok) {
+          throw new Error(`HTTP ${res.status}`);
+        }
+        const ct = (res.headers.get("content-type") || "").toLowerCase();
+        if (ct.includes("text/html")) {
+          throw new Error("Unexpected HTML response");
+        }
 
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status}`);
+        const data: unknown = await res.json();
+        if (!data || typeof data !== "object" || Array.isArray(data)) {
+          throw new Error("Invalid dictionary shard format");
+        }
+
+        const typedData = data as Record<string, RawDictValue>;
+        putLoadedPack(char, typedData);
+        writeDictPackToCache(url, typedData).catch(() => {});
+        return typedData;
+      } finally {
+        clearTimeout(timer);
       }
-      const data: Record<string, RawDictValue> = await res.json();
-      putLoadedPack(char, data);
-      return data;
     } catch (err) {
-      console.warn(`[Dict] Failed to load shard /dict/${char}.json:`, err);
+      console.warn(`[Dict] Failed to load shard ${url}:`, err);
       return null;
     } finally {
       delete pendingLetterFetches[char];
@@ -168,7 +241,7 @@ function findStemMatch(
   }
 
   for (const cand of candidates) {
-    if (dict[cand]) {
+    if (Object.prototype.hasOwnProperty.call(dict, cand) && dict[cand]) {
       return { baseWord: cand, item: parseRawItem(dict[cand]) };
     }
   }
@@ -176,28 +249,13 @@ function findStemMatch(
   return null;
 }
 
-/**
- * Synchronous offline lookup from already loaded letter packs or in-memory cache.
- */
-export function lookupWord(rawWord: string): DictEntry | null {
-  const clean = cleanEnglishWord(rawWord);
-  if (!clean || clean.length < 2) return null;
-
-  const cached = resolvedWordCache.get(clean);
-  if (cached) {
-    resolvedWordCache.delete(clean);
-    resolvedWordCache.set(clean, cached);
-    return cached;
-  }
-
-  const firstChar = clean[0];
-  const pack = loadedLetterPacks.get(firstChar);
-  if (!pack) return null;
-
-  const audio = getAudioUrls(clean);
-
+function resolveWordFromPack(
+  clean: string,
+  pack: Record<string, RawDictValue>,
+  audio: { us: string; uk: string }
+): DictEntry | null {
   // 1. Direct match
-  if (pack[clean]) {
+  if (Object.prototype.hasOwnProperty.call(pack, clean) && pack[clean]) {
     const raw = parseRawItem(pack[clean]);
     const entry: DictEntry = {
       word: clean,
@@ -233,6 +291,31 @@ export function lookupWord(rawWord: string): DictEntry | null {
   }
 
   return null;
+}
+
+/**
+ * Synchronous offline lookup from already loaded letter packs or in-memory cache.
+ */
+export function lookupWord(rawWord: string): DictEntry | null {
+  const clean = cleanEnglishWord(rawWord);
+  if (!clean || clean.length < 2) return null;
+
+  const cached = resolvedWordCache.get(clean);
+  if (cached) {
+    resolvedWordCache.delete(clean);
+    resolvedWordCache.set(clean, cached);
+    return cached;
+  }
+
+  const firstChar = clean[0];
+  const pack = loadedLetterPacks.get(firstChar);
+  if (!pack) return null;
+
+  // Refresh pack LRU recency on synchronous hit
+  loadedLetterPacks.delete(firstChar);
+  loadedLetterPacks.set(firstChar, pack);
+
+  return resolveWordFromPack(clean, pack, getAudioUrls(clean));
 }
 
 /**
@@ -273,40 +356,10 @@ export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null
     };
   }
 
-  // 3. Check exact match
-  if (pack[clean]) {
-    const raw = parseRawItem(pack[clean]);
-    const entry: DictEntry = {
-      word: clean,
-      baseWord: raw.b,
-      phonetic: raw.p,
-      pos: raw.pos,
-      definition: raw.d,
-      audioUrl: audio.us,
-      usAudioUrl: audio.us,
-      ukAudioUrl: audio.uk,
-      isOnline: false,
-    };
-    putResolvedWord(clean, entry);
-    return entry;
-  }
-
-  // 4. Morphological stemming match
-  const stem = findStemMatch(clean, pack);
-  if (stem) {
-    const entry: DictEntry = {
-      word: clean,
-      baseWord: stem.baseWord,
-      phonetic: stem.item.p,
-      pos: stem.item.pos || "衍生词",
-      definition: stem.item.d.includes(stem.baseWord) ? stem.item.d : `${stem.item.d}（原形: ${stem.baseWord}）`,
-      audioUrl: audio.us,
-      usAudioUrl: audio.us,
-      ukAudioUrl: audio.uk,
-      isOnline: false,
-    };
-    putResolvedWord(clean, entry);
-    return entry;
+  // 3 & 4. Check exact or morphological stem match
+  const resolved = resolveWordFromPack(clean, pack, audio);
+  if (resolved) {
+    return resolved;
   }
 
   // 5. Fallback placeholder for rare unregistered words (pack was loaded, but word is not in pack)

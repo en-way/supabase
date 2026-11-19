@@ -89,9 +89,14 @@ def check_4_search_path_security():
 
 def check_5_client_reconcile_fuses():
     """断言 5: 端侧数据自愈校对引擎具备三道防抹除安全熔断保险 (Safety Fuses)"""
-    storage_path = os.path.join(REPO_ROOT, "lib", "storage.ts")
-    assert os.path.exists(storage_path), "lib/storage.ts 不存在"
-    with open(storage_path, "r", encoding="utf-8") as fp:
+    barrel_path = os.path.join(REPO_ROOT, "lib", "storage.ts")
+    reconcile_path = os.path.join(REPO_ROOT, "lib", "storage", "reconcile.ts")
+    assert os.path.exists(barrel_path), "lib/storage.ts 不存在"
+    assert os.path.exists(reconcile_path), "lib/storage/reconcile.ts 不存在"
+    with open(barrel_path, "r", encoding="utf-8") as fp:
+        barrel_code = fp.read()
+    assert "reconcileLearningState" in barrel_code, "lib/storage.ts 未导出 reconcileLearningState"
+    with open(reconcile_path, "r", encoding="utf-8") as fp:
         code = fp.read()
     assert "Gate 1: Session Guard" in code, "缺少 Gate 1 Session Guard 未登录拦截防清空保险"
     assert "Gate 2: Zero-Wipe Safety Fuse" in code, "缺少 Gate 2 试题零清空安全熔断保险"
@@ -100,15 +105,21 @@ def check_5_client_reconcile_fuses():
 
 def check_6_keyboard_input_guard():
     """断言 6: 全局实体键盘快捷键对输入框、文本域与 IME 状态具备完整隔离守卫"""
+    guard_path = os.path.join(REPO_ROOT, "hooks", "useKeyboardGuard.ts")
+    assert os.path.exists(guard_path), "hooks/useKeyboardGuard.ts 不存在"
+    with open(guard_path, "r", encoding="utf-8") as fp:
+        guard_code = fp.read()
+    assert "isComposing" in guard_code, "useKeyboardGuard.ts 缺少 e.isComposing 中文输入法合成态检测"
+    assert "HTMLInputElement" in guard_code and "HTMLTextAreaElement" in guard_code, "useKeyboardGuard.ts 缺少输入框类型检测"
+    assert "isContentEditable" in guard_code, "useKeyboardGuard.ts 缺少 isContentEditable 可编辑元素检测"
+
     practice_path = os.path.join(REPO_ROOT, "app", "practice", "page.tsx")
     exam_path = os.path.join(REPO_ROOT, "app", "exam", "page.tsx")
     for p in [practice_path, exam_path]:
         with open(p, "r", encoding="utf-8") as fp:
             code = fp.read()
-        assert "isComposing" in code, f"{os.path.basename(p)} 缺少 e.isComposing 中文输入法合成态检测"
-        assert "HTMLInputElement" in code and "HTMLTextAreaElement" in code, f"{os.path.basename(p)} 缺少输入框类型检测"
-        assert "isContentEditable" in code, f"{os.path.basename(p)} 缺少 isContentEditable 可编辑元素检测"
-    return "已验证 practice 和 exam 页面键盘事件完全隔离 input、textarea、IME 和 contenteditable"
+        assert "useKeyboardGuard" in code, f"{os.path.basename(p)} 未绑定 useKeyboardGuard 键盘隔离守卫"
+    return "已验证 practice 和 exam 页面通过 useKeyboardGuard 完全隔离 input、textarea、IME 和 contenteditable"
 
 def check_7_static_security_headers():
     """断言 7: Cloudflare Pages 静态安全头配置 (DENY/nosniff/XSS/HSTS)"""
@@ -159,8 +170,14 @@ def check_9_zero_secrets_in_code():
 
 def check_10_storage_quota_resilience():
     """断言 10: LocalStorage 具备 QuotaExceededError 优雅降级防护"""
-    storage_path = os.path.join(REPO_ROOT, "lib", "storage.ts")
-    with open(storage_path, "r", encoding="utf-8") as fp:
+    barrel_path = os.path.join(REPO_ROOT, "lib", "storage.ts")
+    local_path = os.path.join(REPO_ROOT, "lib", "storage", "local.ts")
+    assert os.path.exists(barrel_path), "lib/storage.ts 不存在"
+    assert os.path.exists(local_path), "lib/storage/local.ts 不存在"
+    with open(barrel_path, "r", encoding="utf-8") as fp:
+        barrel_code = fp.read()
+    assert "saveLocalState" in barrel_code, "lib/storage.ts 未导出 saveLocalState"
+    with open(local_path, "r", encoding="utf-8") as fp:
         code = fp.read()
     assert "QuotaExceededError" in code, "saveLocalState 缺少针对 QuotaExceededError 的降级分支"
     assert "fallbackState" in code or "examDrafts" in code, "未包含清理草稿保全核心错题数据的降级方案"
@@ -221,19 +238,25 @@ def check_12_mobile_viewport_gesture_and_scroll_isolation():
     assert "overscroll-behavior-y: none" in css, "globals.css 缺少 overscroll-behavior-y: none 橡皮筋穿透防护"
     assert ".overscroll-contain" in css, "globals.css 缺少 .overscroll-contain 容器防滚动穿透样式"
 
+    scroll_lock_path = os.path.join(REPO_ROOT, "hooks", "useBodyScrollLock.ts")
+    assert os.path.exists(scroll_lock_path), "hooks/useBodyScrollLock.ts 不存在"
+    with open(scroll_lock_path, "r", encoding="utf-8") as fp:
+        scroll_lock_code = fp.read()
+    assert 'document.body.style.overflow = "hidden"' in scroll_lock_code, "hooks/useBodyScrollLock.ts 缺少 body 滚动锁"
+
     exam_path = os.path.join(REPO_ROOT, "app", "exam", "page.tsx")
     with open(exam_path, "r", encoding="utf-8") as fp:
         exam_code = fp.read()
     assert "max-h-[85dvh]" in exam_code, "app/exam/page.tsx 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
     assert "overscroll-contain" in exam_code, "app/exam/page.tsx 缺少 overscroll-contain 抽屉滚动防穿透"
-    assert "showMobileAnswerSheet || showSubmitReviewSheet" in exam_code and "document.body.style.overflow = \"hidden\"" in exam_code, "app/exam/page.tsx 抽屉缺少 body 滚动锁"
+    assert "useBodyScrollLock(showMobileAnswerSheet || showSubmitReviewSheet)" in exam_code, "app/exam/page.tsx 抽屉缺少 useBodyScrollLock 滚动锁"
 
     practice_path = os.path.join(REPO_ROOT, "app", "practice", "page.tsx")
     with open(practice_path, "r", encoding="utf-8") as fp:
         practice_code = fp.read()
     assert "max-h-[85dvh]" in practice_code, "app/practice/page.tsx 抽屉缺少 max-h-[85dvh] 动态视口高度适配"
     assert "overscroll-contain" in practice_code, "app/practice/page.tsx 缺少 overscroll-contain 抽屉滚动防穿透"
-    assert "showAnswerSheet || showPassageSheet || showShortcutsModal" in practice_code and "document.body.style.overflow = \"hidden\"" in practice_code, "app/practice/page.tsx 抽屉缺少 body 滚动锁"
+    assert "useBodyScrollLock(showAnswerSheet || showPassageSheet || showShortcutsModal)" in practice_code, "app/practice/page.tsx 抽屉缺少 useBodyScrollLock 滚动锁"
     assert "if (showAnswerSheet || showPassageSheet || showShortcutsModal) return;" in practice_code, "app/practice/page.tsx handleTouchEnd 缺少抽屉打开态手势切题阻断"
 
     popover_path = os.path.join(REPO_ROOT, "components", "DictionaryPopover.tsx")

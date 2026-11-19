@@ -6,8 +6,15 @@ import { supabase } from "@/lib/supabase";
 import { 
   clearLocalData, 
   downloadBackupFromCloud,
-  reconcileLearningState
+  reconcileLearningState,
+  touchUserActivityThrottled,
+  getLastLocalUserId,
+  setLastLocalUserId,
+  getLastReconcileTimestamp,
+  setLastReconcileTimestamp,
+  setLoginSyncInProgress,
 } from "@/lib/storage";
+import { clearPendingSubmissionTasks } from "@/lib/submissionQueue";
 import { 
   BookOpen, 
   KeyRound, 
@@ -77,43 +84,48 @@ export default function LoginPage() {
   } | null>(null);
 
   useEffect(() => {
+    let isMounted = true;
     async function loadSettings() {
       try {
+        const { data: quotaData, error: rpcErr } = await supabase.rpc("get_registration_quota_status");
+        if (!isMounted) return;
+
+        if (!rpcErr && quotaData && typeof quotaData === "object") {
+          setSettings({
+            maxStudentsLimit: Number(quotaData.max_students_limit || 0),
+            registrationEnabled: Boolean(quotaData.registration_enabled),
+            currentStudentCount: Number(quotaData.current_student_count || 0),
+            isFull: Boolean(quotaData.is_full),
+          });
+          return;
+        }
+
+        // Graceful fallback before remote DB migration is applied (never queries profiles as anon)
         const { data: setRow } = await supabase
           .from("system_settings")
           .select("max_students_limit, registration_enabled")
           .eq("id", 1)
           .maybeSingle();
 
+        if (!isMounted) return;
         if (setRow) {
-          const limit = Number(setRow.max_students_limit || 0);
-          const enabled = Boolean(setRow.registration_enabled);
-
-          let isFull = false;
-          let studentCount = 0;
-          if (limit > 0) {
-            const { count } = await supabase
-              .from("profiles")
-              .select("id", { count: "exact", head: true })
-              .eq("role", "student");
-            studentCount = count || 0;
-            if (studentCount >= limit) {
-              isFull = true;
-            }
-          }
-
           setSettings({
-            maxStudentsLimit: limit,
-            registrationEnabled: enabled,
-            currentStudentCount: studentCount,
-            isFull,
+            maxStudentsLimit: Number(setRow.max_students_limit || 0),
+            registrationEnabled: Boolean(setRow.registration_enabled),
+            currentStudentCount: 0,
+            isFull: false,
           });
         }
       } catch (err) {
-        console.error("Error loading system settings:", err);
+        if (isMounted) {
+          console.error("Error loading system settings:", err);
+        }
       }
     }
     loadSettings();
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   // Body scroll lock when forgot password modal is open
@@ -163,6 +175,13 @@ export default function LoginPage() {
     // Use internal standard email mapping to satisfy Supabase GoTrue Auth
     const internalEmail = `${cleanUsername}@enway.com`;
 
+    const isRateLimitAuthError = (err: { status?: number; message?: string } | null | undefined): boolean => {
+      if (!err) return false;
+      const has429Status = "status" in err && err.status === 429;
+      const msg = (err.message || "").toLowerCase();
+      return has429Status || msg.includes("rate limit") || msg.includes("too many requests");
+    };
+
     // Resilient Auth helpers with jittered exponential backoff for 429 rate limit
     const signInWithBackoff = async (email: string, pass: string, maxRetries = 3) => {
       for (let attempt = 1; attempt <= maxRetries; attempt++) {
@@ -171,11 +190,7 @@ export default function LoginPage() {
           password: pass,
         });
         if (!res.error) return res;
-        const err = res.error;
-        const isRateLimit = (err as any)?.status === 429 || 
-          err.message?.toLowerCase().includes("rate limit") || 
-          err.message?.toLowerCase().includes("too many requests");
-        if (isRateLimit && attempt < maxRetries) {
+        if (isRateLimitAuthError(res.error) && attempt < maxRetries) {
           const delay = Math.floor(1000 * Math.pow(1.5, attempt) + Math.random() * 800);
           setRetryStatus(`登录高峰安全排队中 (第 ${attempt}/${maxRetries} 次)...`);
           await new Promise((r) => setTimeout(r, delay));
@@ -183,10 +198,18 @@ export default function LoginPage() {
         }
         return res;
       }
-      return { data: { user: null, session: null }, error: new Error("登录请求超时，请稍后重试") as any };
+      return {
+        data: { user: null, session: null },
+        error: { message: "登录请求超时，请稍后重试", status: 408 } as { message: string; status?: number },
+      };
     };
 
-    const signUpWithBackoff = async (email: string, pass: string, options: any, maxRetries = 3) => {
+    const signUpWithBackoff = async (
+      email: string,
+      pass: string,
+      options: { data?: { username: string; nickname: string } },
+      maxRetries = 3
+    ) => {
       for (let attempt = 1; attempt <= maxRetries; attempt++) {
         const res = await supabase.auth.signUp({
           email,
@@ -194,11 +217,7 @@ export default function LoginPage() {
           options,
         });
         if (!res.error) return res;
-        const err = res.error;
-        const isRateLimit = (err as any)?.status === 429 || 
-          err.message?.toLowerCase().includes("rate limit") || 
-          err.message?.toLowerCase().includes("too many requests");
-        if (isRateLimit && attempt < maxRetries) {
+        if (isRateLimitAuthError(res.error) && attempt < maxRetries) {
           const delay = Math.floor(1000 * Math.pow(1.5, attempt) + Math.random() * 800);
           setRetryStatus(`注册服务高峰排队中 (第 ${attempt}/${maxRetries} 次)...`);
           await new Promise((r) => setTimeout(r, delay));
@@ -206,10 +225,30 @@ export default function LoginPage() {
         }
         return res;
       }
-      return { data: { user: null, session: null }, error: new Error("注册请求超时，请稍后重试") as any };
+      return {
+        data: { user: null, session: null },
+        error: { message: "注册请求超时，请稍后重试", status: 408 } as { message: string; status?: number },
+      };
+    };
+
+    const clearCrossAccountClientCaches = () => {
+      clearLocalData("all");
+      clearPendingSubmissionTasks();
+      try {
+        localStorage.removeItem("enway_last_presence_touch");
+      } catch {}
+      try {
+        sessionStorage.removeItem("enway_last_silent_backup");
+        Object.keys(sessionStorage).forEach((k) => {
+          if (k.startsWith("enway_cached_nav_profile_")) {
+            sessionStorage.removeItem(k);
+          }
+        });
+      } catch {}
     };
 
     try {
+      setLoginSyncInProgress(true);
       if (isRegister) {
         const { data, error } = await signUpWithBackoff(
           internalEmail,
@@ -229,31 +268,36 @@ export default function LoginPage() {
           throw error;
         }
 
-        // Clean local state for newly registered user
-        clearLocalData("all");
-
-        const targetUrl = getSafeRedirectTarget();
-
-        // Touch active timestamp
-        try {
-          await supabase.rpc("touch_user_activity");
-        } catch {}
-
-        if (data?.session) {
-          setSuccessMsg("注册成功！正在为您初始化学习数据...");
-          setTimeout(() => router.push(targetUrl), 600);
-        } else {
-          // If auto sign-in is needed
-          const { error: signInErr } = await signInWithBackoff(
+        let activeSession = data?.session || null;
+        if (!activeSession) {
+          const { data: signInData, error: signInErr } = await signInWithBackoff(
             internalEmail,
             password
           );
           if (signInErr) throw signInErr;
-          setSuccessMsg("注册成功！正在进入系统...");
-          router.push(targetUrl);
+          activeSession = signInData?.session || null;
         }
+
+        const activeUser =
+          activeSession?.user || (await supabase.auth.getSession()).data.session?.user || null;
+        if (!activeUser) {
+          throw new Error("注册已完成但未能建立登录会话，请切换登录页面直接登录");
+        }
+
+        // Only wipe local state & bind user ID after a valid session is confirmed
+        clearCrossAccountClientCaches();
+        setLastLocalUserId(activeUser.id);
+
+        try {
+          await touchUserActivityThrottled();
+        } catch {}
+
+        setSuccessMsg("注册成功！正在进入系统...");
+        const targetUrl = getSafeRedirectTarget();
+        setLoginSyncInProgress(false);
+        router.replace(targetUrl);
       } else {
-        const { error } = await signInWithBackoff(
+        const { data: signInData, error } = await signInWithBackoff(
           internalEmail,
           password
         );
@@ -265,11 +309,26 @@ export default function LoginPage() {
           throw error;
         }
 
+        const signedInUserId =
+          signInData?.user?.id ||
+          signInData?.session?.user?.id ||
+          (await supabase.auth.getSession()).data.session?.user?.id ||
+          null;
+
+        // Cross-account isolation: prevent merging previous account's drafts or offline queue
+        const prevUserId = getLastLocalUserId();
+        if (signedInUserId && prevUserId && prevUserId !== signedInUserId) {
+          clearCrossAccountClientCaches();
+        }
+        if (signedInUserId) {
+          setLastLocalUserId(signedInUserId);
+        }
+
         setSuccessMsg("登录成功，正在从云端对象存储同步并校对存档...");
 
-        // Touch active timestamp on login
+        // Touch active timestamp on login (throttled across tabs/actions)
         try {
-          await supabase.rpc("touch_user_activity");
+          await touchUserActivityThrottled();
         } catch {}
 
         // Automatically pull latest backup from Supabase Storage and reconcile (keep local safe if pull fails)
@@ -279,17 +338,14 @@ export default function LoginPage() {
             console.log("云端档案同步完成");
           }
 
-          // 🛡️ Free Quota Protection: 7-day throttle on automatic reconciliation
-          const LAST_RECON_KEY = "enway_last_reconcile_ts";
-          let lastRecon = 0;
-          try {
-            lastRecon = Number(localStorage.getItem(LAST_RECON_KEY) || "0");
-          } catch {}
-
+          // 🛡️ Free Quota Protection: Per-account 7-day throttle on automatic reconciliation
+          const lastRecon = getLastReconcileTimestamp(signedInUserId);
           if (Date.now() - lastRecon > 7 * 24 * 60 * 60 * 1000) {
             try {
-              localStorage.setItem(LAST_RECON_KEY, String(Date.now()));
-              await reconcileLearningState();
+              const recon = await reconcileLearningState();
+              if (recon.completed) {
+                setLastReconcileTimestamp(signedInUserId, Date.now());
+              }
             } catch (reconErr) {
               console.warn("Reconcile skipped/failed:", reconErr);
             }
@@ -298,11 +354,20 @@ export default function LoginPage() {
           console.warn("Cloud backup pull or reconcile skipped/empty:", syncErr);
         }
 
-        router.push(getSafeRedirectTarget());
+        const targetUrl = getSafeRedirectTarget();
+        setLoginSyncInProgress(false);
+        router.replace(targetUrl);
       }
-    } catch (err: any) {
-      setErrorMsg(err.message || "操作失败，请稍后重试");
+    } catch (err: unknown) {
+      const errMsg =
+        err instanceof Error
+          ? err.message
+          : typeof err === "object" && err !== null && "message" in err
+          ? String((err as { message?: unknown }).message || "")
+          : "";
+      setErrorMsg(errMsg || "操作失败，请稍后重试");
     } finally {
+      setLoginSyncInProgress(false);
       setLoading(false);
     }
   };
@@ -340,10 +405,16 @@ export default function LoginPage() {
       });
       setForgotNewPassword("");
       setForgotConfirmPassword("");
-    } catch (err: any) {
+    } catch (err: unknown) {
+      const errMsg =
+        err instanceof Error
+          ? err.message
+          : typeof err === "object" && err !== null && "message" in err
+          ? String((err as { message?: unknown }).message || "")
+          : "";
       setForgotNotice({
         type: "error",
-        text: err.message || "提交重置密码申请失败，请稍后重试",
+        text: errMsg || "提交重置密码申请失败，请稍后重试",
       });
     } finally {
       setForgotLoading(false);

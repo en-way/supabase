@@ -3,12 +3,63 @@
 import { useEffect, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { supabase } from "@/lib/supabase";
+import {
+  getLastLocalUserId,
+  setLastLocalUserId,
+  isLoginSyncInProgress,
+} from "@/lib/storage";
 import { ShieldCheck, BookOpen } from "lucide-react";
+
+function getSafeRedirectTarget(): string {
+  if (typeof window === "undefined") return "/";
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const r = params.get("redirect");
+    if (!r) return "/";
+
+    if (r.startsWith("//") || r.startsWith("/\\") || r.includes("\\")) {
+      return "/";
+    }
+
+    const parsed = new URL(r, window.location.origin);
+    if (parsed.origin !== window.location.origin) {
+      return "/";
+    }
+
+    if (parsed.pathname === "/login" || parsed.pathname === "/login/" || parsed.pathname.startsWith("/login")) {
+      return "/";
+    }
+
+    return parsed.pathname + parsed.search;
+  } catch {
+    return "/";
+  }
+}
 
 export default function AuthGuard({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
   const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(null);
+  const [loginSyncing, setLoginSyncing] = useState<boolean>(() => isLoginSyncInProgress());
+
+  useEffect(() => {
+    const syncState = () => {
+      setLoginSyncing(isLoginSyncInProgress());
+    };
+    syncState();
+    window.addEventListener("enway_login_sync_changed", syncState);
+    return () => {
+      window.removeEventListener("enway_login_sync_changed", syncState);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!loginSyncing) return;
+    const timer = setTimeout(() => {
+      setLoginSyncing(isLoginSyncInProgress());
+    }, 30_500);
+    return () => clearTimeout(timer);
+  }, [loginSyncing]);
 
   // 1. Single-mount auth state initialization & listener (0 network churn on route changes)
   useEffect(() => {
@@ -18,6 +69,9 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
       try {
         const { data: { session } } = await supabase.auth.getSession();
         if (!isMounted) return;
+        if (session?.user?.id && !getLastLocalUserId()) {
+          setLastLocalUserId(session.user.id);
+        }
         setIsAuthenticated(Boolean(session?.user));
       } catch {
         if (!isMounted) return;
@@ -28,6 +82,9 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
 
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
       if (!isMounted) return;
+      if (session?.user?.id && !getLastLocalUserId()) {
+        setLastLocalUserId(session.user.id);
+      }
       setIsAuthenticated(Boolean(session?.user));
     });
 
@@ -51,14 +108,14 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
         ? `/login?redirect=${encodeURIComponent(currentUrl)}`
         : "/login";
       router.replace(redirectUrl);
-    } else if (isAuthenticated && isLoginPage) {
-      router.replace("/");
+    } else if (isAuthenticated && isLoginPage && !loginSyncing) {
+      router.replace(getSafeRedirectTarget());
     }
-  }, [pathname, router, isAuthenticated, isLoginPage]);
+  }, [pathname, router, isAuthenticated, isLoginPage, loginSyncing]);
 
-  // 1. If on login page, render only if NOT authenticated (or redirect to home if already logged in)
+  // 1. If on login page, render only if NOT authenticated or while login sync is finishing
   if (isLoginPage) {
-    return isAuthenticated === true ? null : <>{children}</>;
+    return isAuthenticated === true && !loginSyncing ? null : <>{children}</>;
   }
 
   // 2. Loading transition screen while checking session

@@ -1,0 +1,55 @@
+name: CI Quality & Security Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-and-build:
+    name: Type Check, Security & Text Assertions, Static Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "npm"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: TypeScript Strict Type Check
+        run: npm run lint
+
+      - name: Security & Architecture Resilience Assertions (12 Gates)
+        run: python scripts/verify_system_security_and_resilience.py
+
+      - name: Deep Text Calibration Assertions (118 Gates)
+        run: python scripts/verify_deep_text_calibration.py
+
+      - name: Verify Sync & Version Script Syntax
+        run: |
+          node --check scripts/sync_export_from_supabase.mjs
+          node --check scripts/generate_static_version.mjs
+
+      - name: Static Export Production Build
+        env:
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+        run: npm run build

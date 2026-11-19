@@ -1,16 +1,19 @@
 "use client";
 
-import { useState, useEffect } from "react";
-import { ShieldAlert, AlertTriangle, CheckCircle2, RotateCcw } from "lucide-react";
+import { useState, useEffect, useRef } from "react";
+import { ShieldAlert, RotateCcw } from "lucide-react";
 import { SentinelAlertDetail, resetSentinelState } from "@/lib/quotaSentinel";
 
 export default function SentinelAlertCapsule() {
   const [alert, setAlert] = useState<SentinelAlertDetail | null>(null);
   const [countdown, setCountdown] = useState<number>(0);
+  const expiresAtRef = useRef<number>(0);
 
   useEffect(() => {
-    const handleAlert = (e: any) => {
-      const detail: SentinelAlertDetail = e.detail;
+    const handleAlert = (e: Event) => {
+      const detail = (e as CustomEvent<SentinelAlertDetail>).detail;
+      if (!detail) return;
+      expiresAtRef.current = Date.now() + Math.max(0, detail.remainingCooldownSeconds) * 1000;
       setAlert(detail);
       setCountdown(detail.remainingCooldownSeconds);
     };
@@ -21,27 +24,22 @@ export default function SentinelAlertCapsule() {
     };
   }, []);
 
-  // Cooldown countdown timer
+  // Cooldown countdown timer (single interval bound only to circuit state)
   useEffect(() => {
-    if (countdown <= 0) {
-      if (alert?.state === "OPEN") {
-        setAlert((prev) => (prev ? { ...prev, state: "CLOSED" } : null));
-      }
+    if (alert?.state !== "OPEN") {
       return;
     }
 
     const timer = setInterval(() => {
-      setCountdown((c) => {
-        if (c <= 1) {
-          clearInterval(timer);
-          return 0;
-        }
-        return c - 1;
-      });
+      const rem = Math.max(0, Math.ceil((expiresAtRef.current - Date.now()) / 1000));
+      setCountdown(rem);
+      if (rem <= 0) {
+        clearInterval(timer);
+      }
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [countdown, alert?.state]);
+  }, [alert?.state]);
 
   // Only render when circuit breaker is active (OPEN) or has countdown
   if (!alert || alert.state === "CLOSED" || countdown <= 0) {

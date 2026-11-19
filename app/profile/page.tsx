@@ -1,18 +1,23 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { supabase } from "@/lib/supabase";
 import { 
   getLocalState, 
+  subscribeLocalState,
   getSanitizedLearningBackup,
   uploadBackupToCloud, 
   downloadBackupFromCloud, 
   fetchCloudBackupInfo, 
   clearLocalData, 
   reconcileLearningState,
-  LocalLearningState 
+  setLastReconcileTimestamp,
+  LocalLearningState,
+  type CloudBackupInfo
 } from "@/lib/storage";
 import { computeDataHash } from "@/lib/dataHash";
+import type { User as AuthUser } from "@supabase/supabase-js";
+import type { PasswordResetRequestRecord, UserProfile } from "@/types/user";
 import { 
   User, 
   CloudUpload, 
@@ -32,11 +37,20 @@ import {
   ShieldCheck
 } from "lucide-react";
 
+function getErrorMessage(err: unknown, fallback: string): string {
+  if (err instanceof Error && err.message) return err.message;
+  if (typeof err === "object" && err !== null && "message" in err) {
+    const msg = (err as { message?: unknown }).message;
+    if (typeof msg === "string" && msg) return msg;
+  }
+  return fallback;
+}
+
 export default function ProfilePage() {
-  const [profile, setProfile] = useState<any>(null);
-  const [user, setUser] = useState<any>(null);
+  const [profile, setProfile] = useState<UserProfile | null>(null);
+  const [user, setUser] = useState<AuthUser | null>(null);
   const [localState, setLocalState] = useState<LocalLearningState | null>(null);
-  const [cloudInfo, setCloudInfo] = useState<any>(null);
+  const [cloudInfo, setCloudInfo] = useState<CloudBackupInfo | null>(null);
   const [localHash, setLocalHash] = useState<string>("");
 
   const isDataIdentical = Boolean(
@@ -55,7 +69,7 @@ export default function ProfilePage() {
   const [confirmPasswordInput, setConfirmPasswordInput] = useState("");
   const [pwdLoading, setPwdLoading] = useState(false);
   const [pwdNotice, setPwdNotice] = useState<{ type: "success" | "error"; text: string } | null>(null);
-  const [activePwdRequest, setActivePwdRequest] = useState<any>(null);
+  const [activePwdRequest, setActivePwdRequest] = useState<PasswordResetRequestRecord | null>(null);
 
   // Loading states
   const [uploading, setUploading] = useState(false);
@@ -66,9 +80,55 @@ export default function ProfilePage() {
   const [showWipeModal, setShowWipeModal] = useState(false);
   const [wipeScope, setWipeScope] = useState<"all" | "mistakes" | "vocab" | "drafts">("all");
 
-  useEffect(() => {
-    loadProfileAndStats();
+  const mountedRef = useRef(true);
+  const noticeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const snapshotSeqRef = useRef(0);
+
+  const showTimedNotice = useCallback(
+    (type: "success" | "error", text: string, durationMs = 3000) => {
+      if (!mountedRef.current) return;
+      if (noticeTimerRef.current !== null) {
+        clearTimeout(noticeTimerRef.current);
+      }
+      setNotice({ type, text });
+      noticeTimerRef.current = setTimeout(() => {
+        noticeTimerRef.current = null;
+        if (mountedRef.current) {
+          setNotice(null);
+        }
+      }, durationMs);
+    },
+    []
+  );
+
+  const refreshLocalSnapshot = useCallback(async () => {
+    const seq = ++snapshotSeqRef.current;
+    const lState = getLocalState();
+    if (mountedRef.current) {
+      setLocalState(lState);
+    }
+    const clean = getSanitizedLearningBackup(lState);
+    const hash = await computeDataHash(clean);
+    if (mountedRef.current && seq === snapshotSeqRef.current) {
+      setLocalHash(hash);
+    }
   }, []);
+
+  useEffect(() => {
+    mountedRef.current = true;
+    loadProfileAndStats();
+    const unsubscribe = subscribeLocalState(() => {
+      refreshLocalSnapshot();
+    });
+    return () => {
+      mountedRef.current = false;
+      unsubscribe();
+      if (noticeTimerRef.current !== null) {
+        clearTimeout(noticeTimerRef.current);
+        noticeTimerRef.current = null;
+      }
+    };
+  }, [refreshLocalSnapshot]);
 
   const loadPasswordResetRequest = async (userId: string) => {
     try {
@@ -79,36 +139,37 @@ export default function ProfilePage() {
         .order("created_at", { ascending: false })
         .limit(1)
         .maybeSingle();
-      setActivePwdRequest(data || null);
+      if (mountedRef.current) {
+        setActivePwdRequest((data as PasswordResetRequestRecord | null) || null);
+      }
     } catch (err) {
       console.warn("Load password reset request failed:", err);
     }
   };
 
   const loadProfileAndStats = async () => {
-    const { data: { user } } = await supabase.auth.getUser();
-    setUser(user);
-    if (user) {
+    const { data: { session } } = await supabase.auth.getSession();
+    const currentUser = session?.user || null;
+    if (!mountedRef.current) return;
+    setUser(currentUser);
+    if (currentUser) {
       const { data } = await supabase
         .from("profiles")
         .select("id, username, nickname, role, created_at, last_active_at")
-        .eq("id", user.id)
+        .eq("id", currentUser.id)
         .maybeSingle();
+      if (!mountedRef.current) return;
       if (data) {
-        setProfile(data);
+        setProfile(data as UserProfile);
         if (data.nickname) setNicknameInput(data.nickname);
       }
-      await loadPasswordResetRequest(user.id);
+      await loadPasswordResetRequest(currentUser.id);
     }
-    const lState = getLocalState();
-    setLocalState(lState);
-    if (lState) {
-      const clean = getSanitizedLearningBackup(lState);
-      const hash = await computeDataHash(clean);
-      setLocalHash(hash);
-    }
+    await refreshLocalSnapshot();
     const cInfo = await fetchCloudBackupInfo();
-    setCloudInfo(cInfo);
+    if (mountedRef.current) {
+      setCloudInfo(cInfo);
+    }
   };
 
   const handlePasswordAction = async (e: React.FormEvent) => {
@@ -147,8 +208,8 @@ export default function ProfilePage() {
         setConfirmPasswordInput("");
         if (user) await loadPasswordResetRequest(user.id);
       }
-    } catch (err: any) {
-      setPwdNotice({ type: "error", text: err.message || "操作失败，请重试" });
+    } catch (err: unknown) {
+      setPwdNotice({ type: "error", text: getErrorMessage(err, "操作失败，请重试") });
     } finally {
       setPwdLoading(false);
     }
@@ -163,8 +224,8 @@ export default function ProfilePage() {
       if (error) throw error;
       setPwdNotice({ type: "success", text: "已成功撤销改密申请。" });
       if (user) await loadPasswordResetRequest(user.id);
-    } catch (err: any) {
-      setPwdNotice({ type: "error", text: err.message || "撤销失败" });
+    } catch (err: unknown) {
+      setPwdNotice({ type: "error", text: getErrorMessage(err, "撤销失败") });
     } finally {
       setPwdLoading(false);
     }
@@ -172,23 +233,24 @@ export default function ProfilePage() {
 
   const handleUpdateNickname = async () => {
     if (!profile || !nicknameInput.trim()) return;
+    const nextNick = nicknameInput.trim();
     const { error } = await supabase
       .from("profiles")
-      .update({ nickname: nicknameInput.trim(), updated_at: new Date().toISOString() })
+      .update({ nickname: nextNick, updated_at: new Date().toISOString() })
       .eq("id", profile.id);
-    if (!error) {
-      setProfile((prev: any) => ({ ...prev, nickname: nicknameInput.trim() }));
-      setIsEditingNick(false);
-      window.dispatchEvent(new Event("enway_profile_updated"));
-      setNotice({ type: "success", text: "昵称修改成功" });
-      setTimeout(() => setNotice(null), 2500);
+    if (error) {
+      showTimedNotice("error", `修改昵称失败: ${error.message}`, 3500);
+      return;
     }
+    setProfile((prev) => (prev ? { ...prev, nickname: nextNick } : prev));
+    setIsEditingNick(false);
+    window.dispatchEvent(new Event("enway_profile_updated"));
+    showTimedNotice("success", "昵称修改成功", 2500);
   };
 
   const handleUploadBackup = async () => {
     if (isDataIdentical) {
-      setNotice({ type: "success", text: "🛡️ 本地研习数据与云端存档 100% 一致，无需重复上传，已为您节省云端配额！" });
-      setTimeout(() => setNotice(null), 3000);
+      showTimedNotice("success", "🛡️ 本地研习数据与云端存档 100% 一致，无需重复上传，已为您节省云端配额！", 3000);
       return;
     }
     if (!window.confirm("⚠️ 备份到云端将使用当前设备的做题数据【完全覆盖】云端的历史存档快照。确定继续上传覆盖吗？")) {
@@ -199,24 +261,24 @@ export default function ProfilePage() {
     const res = await uploadBackupToCloud();
     if (res.success) {
       if (res.isIdentical) {
-        setNotice({ type: "success", text: "🛡️ 本地数据与云端存档完全一致，无需重复上传，已为您节省云端配额！" });
+        showTimedNotice("success", "🛡️ 本地数据与云端存档完全一致，无需重复上传，已为您节省云端配额！", 3000);
       } else {
-        setNotice({ type: "success", text: "🎉 本地数据已成功打包并覆盖备份至云端！" });
+        showTimedNotice("success", "🎉 本地数据已成功打包并覆盖备份至云端！", 3000);
       }
       await loadProfileAndStats();
     } else {
-      setNotice({ type: "error", text: res.error || "上传备份失败" });
+      showTimedNotice("error", res.error || "上传备份失败", 3500);
     }
-    setUploading(false);
-    setTimeout(() => setNotice(null), 3000);
+    if (mountedRef.current) {
+      setUploading(false);
+    }
   };
 
   const [reconciling, setReconciling] = useState(false);
 
   const handleDownloadBackup = async () => {
     if (isDataIdentical) {
-      setNotice({ type: "success", text: "🛡️ 本地数据与云端存档完全一致，无需重复恢复！" });
-      setTimeout(() => setNotice(null), 3000);
+      showTimedNotice("success", "🛡️ 本地数据与云端存档完全一致，无需重复恢复！", 3000);
       return;
     }
     if (!window.confirm("⚠️ 从云端恢复将直接【完全覆盖】当前设备的本地数据。确定继续吗？")) {
@@ -227,22 +289,28 @@ export default function ProfilePage() {
     const res = await downloadBackupFromCloud();
     if (res.success) {
       if (res.isIdentical) {
-        setNotice({ type: "success", text: "🛡️ 云端存档内容与当前本地数据完全一致，无需重复覆盖！" });
+        showTimedNotice("success", "🛡️ 云端存档内容与当前本地数据完全一致，无需重复覆盖！", 3500);
       } else {
         // Automatically run reconciliation after restoring from Storage
         const recon = await reconcileLearningState();
-        if (recon.hasChanges) {
-          setNotice({ type: "success", text: `🎉 已从云端对象存储还原并完成校对：${recon.summaryText}` });
+        if (recon.completed && user?.id) {
+          setLastReconcileTimestamp(user.id, Date.now());
+        }
+        if (!recon.completed) {
+          showTimedNotice("success", `已从云端对象存储还原至本地（校对未完成，本地记录已保留：${recon.summaryText}）`, 4000);
+        } else if (recon.hasChanges) {
+          showTimedNotice("success", `🎉 已从云端对象存储还原并完成校对：${recon.summaryText}`, 4000);
         } else {
-          setNotice({ type: "success", text: "🎉 已成功从云端对象存储拉取最新快照并还原至本地！" });
+          showTimedNotice("success", "🎉 已成功从云端对象存储拉取最新快照并还原至本地！", 3500);
         }
       }
       await loadProfileAndStats();
     } else {
-      setNotice({ type: "error", text: res.error || "下载恢复失败" });
+      showTimedNotice("error", res.error || "下载恢复失败", 3500);
     }
-    setDownloading(false);
-    setTimeout(() => setNotice(null), 3500);
+    if (mountedRef.current) {
+      setDownloading(false);
+    }
   };
 
   const handleReconcile = async () => {
@@ -250,26 +318,35 @@ export default function ProfilePage() {
     setNotice(null);
     try {
       const recon = await reconcileLearningState();
-      setLocalState(getLocalState());
-      if (recon.hasChanges) {
-        setNotice({ type: "success", text: recon.summaryText });
-      } else {
-        setNotice({ type: "success", text: "✅ 存档数据完美吻合，无任何已下架题目或待修正项！" });
+      if (recon.completed && user?.id) {
+        setLastReconcileTimestamp(user.id, Date.now());
       }
-    } catch (e: any) {
-      setNotice({ type: "error", text: `校对失败: ${e.message}` });
+      await refreshLocalSnapshot();
+      const cInfo = await fetchCloudBackupInfo();
+      if (mountedRef.current) {
+        setCloudInfo(cInfo);
+      }
+      if (!recon.completed) {
+        showTimedNotice("error", recon.summaryText || "校对未完成，已安全保留本地学习记录", 3500);
+      } else if (recon.hasChanges) {
+        showTimedNotice("success", recon.summaryText, 3500);
+      } else {
+        showTimedNotice("success", "✅ 存档数据完美吻合，无任何已下架题目或待修正项！", 3500);
+      }
+    } catch (e: unknown) {
+      showTimedNotice("error", `校对失败: ${getErrorMessage(e, "未知错误")}`, 3500);
     } finally {
-      setReconciling(false);
-      setTimeout(() => setNotice(null), 3500);
+      if (mountedRef.current) {
+        setReconciling(false);
+      }
     }
   };
 
-  const handleConfirmClear = () => {
+  const handleConfirmClear = async () => {
     clearLocalData(wipeScope);
-    setLocalState(getLocalState());
+    await refreshLocalSnapshot();
     setShowWipeModal(false);
-    setNotice({ type: "success", text: "所选本地数据已彻底清除！" });
-    setTimeout(() => setNotice(null), 2500);
+    showTimedNotice("success", "所选本地数据已彻底清除！", 2500);
   };
 
   return (
@@ -353,7 +430,7 @@ export default function ProfilePage() {
         </div>
 
         <div className="text-xs text-stone-400 dark:text-zinc-500 font-mono">
-          注册时间: {profile ? new Date(profile.created_at).toLocaleDateString() : "--"}
+          注册时间: {profile?.created_at ? new Date(profile.created_at).toLocaleDateString() : "--"}
         </div>
       </div>
 
@@ -385,7 +462,7 @@ export default function ProfilePage() {
           <span className="text-2xl font-bold text-stone-900 dark:text-cyber-300 mt-1 block">
             {Object.keys(localState?.examResults || {}).length}
           </span>
-          <span className="text-[10px] text-stone-400 dark:text-zinc-500">百分制自动核算</span>
+          <span className="text-[10px] text-stone-400 dark:text-zinc-500">客观题精准计分</span>
         </div>
       </div>
 
@@ -415,24 +492,32 @@ export default function ProfilePage() {
                   ? "bg-emerald-50 dark:bg-emerald-950/50 text-emerald-700 dark:text-emerald-300 border border-emerald-200/80 dark:border-emerald-500/30"
                   : cloudInfo?.exists
                   ? "bg-amber-50 dark:bg-amber-950/50 text-amber-700 dark:text-amber-300 border border-amber-200/80 dark:border-amber-500/30"
+                  : cloudInfo?.error
+                  ? "bg-rose-50 dark:bg-rose-950/50 text-rose-700 dark:text-rose-300 border border-rose-200/80 dark:border-rose-500/30"
                   : "bg-stone-200 dark:bg-zinc-800 text-stone-600 dark:text-zinc-400"
               }`}>
                 {isDataIdentical
                   ? "● 本地与云端已 100% 同步"
                   : cloudInfo?.exists
                   ? "○ 本地存在未归档变动"
+                  : cloudInfo?.error
+                  ? "⚠️ 云端状态获取异常"
                   : "尚未创建云端归档"}
               </span>
             </div>
             {cloudInfo?.exists ? (
               <p className="text-xs text-stone-600 dark:text-zinc-400">
-                上次归档: {new Date(cloudInfo.updatedAt).toLocaleString()} · 
+                上次归档: {cloudInfo.updatedAt ? new Date(cloudInfo.updatedAt).toLocaleString() : "--"} · 
                 已归纳 {cloudInfo.summary?.mistakesCount} 道错题、{cloudInfo.summary?.vocabCount} 个生词、{cloudInfo.summary?.examsCount} 份模考
                 {isDataIdentical && (
                   <span className="ml-1 text-emerald-600 dark:text-emerald-400 font-semibold">
                     (数据指纹一致，已启用防滥用硬拦截)
                   </span>
                 )}
+              </p>
+            ) : cloudInfo?.error ? (
+              <p className="text-xs text-rose-600 dark:text-rose-400">
+                获取云端归档状态失败：{cloudInfo.error}，请稍后刷新重试。
               </p>
             ) : (
               <p className="text-xs text-stone-400 dark:text-zinc-500">
