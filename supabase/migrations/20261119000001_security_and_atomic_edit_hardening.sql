@@ -366,6 +366,30 @@ REVOKE EXECUTE ON FUNCTION public.submit_unauthenticated_password_reset_request(
 GRANT EXECUTE ON FUNCTION public.submit_unauthenticated_password_reset_request(TEXT, TEXT) TO anon, authenticated;
 REVOKE EXECUTE ON FUNCTION public.touch_user_activity() FROM PUBLIC, anon;
 GRANT EXECUTE ON FUNCTION public.touch_user_activity() TO authenticated;
+
+-- Restore prevent_role_escalation() + trigger if missing on remote DB
+CREATE OR REPLACE FUNCTION public.prevent_role_escalation()
+RETURNS TRIGGER
+LANGUAGE plpgsql
+SECURITY DEFINER
+SET search_path = public
+AS $$
+BEGIN
+    IF NEW.role IS DISTINCT FROM OLD.role THEN
+        IF NOT public.is_super_admin() THEN
+            RAISE EXCEPTION '安全策略拦截：仅超级管理员有权修改用户角色。';
+        END IF;
+    END IF;
+    RETURN NEW;
+END;
+$$;
+
+DROP TRIGGER IF EXISTS trg_prevent_role_escalation ON public.profiles;
+CREATE TRIGGER trg_prevent_role_escalation
+    BEFORE UPDATE ON public.profiles
+    FOR EACH ROW
+    EXECUTE FUNCTION public.prevent_role_escalation();
+
 REVOKE EXECUTE ON FUNCTION public.prevent_role_escalation() FROM PUBLIC, anon, authenticated;
 
 REVOKE SELECT ON public.password_reset_requests FROM anon, authenticated;
