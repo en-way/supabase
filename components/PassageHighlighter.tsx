@@ -335,7 +335,9 @@ export default function PassageHighlighter({
             ? "text-lg sm:text-[19px]"
             : fontScale === "medium"
             ? "text-[16.5px] sm:text-[17.5px]"
-            : "text-[15.5px] sm:text-base"
+            : fontScale === "normal"
+            ? "text-[15.5px] sm:text-base"
+            : ""
         }`}
       >
         {renderContent()}

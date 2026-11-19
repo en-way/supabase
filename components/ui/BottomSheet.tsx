@@ -32,7 +32,14 @@ export function BottomSheet({
 }: BottomSheetProps) {
   useBodyScrollLock(open && lockScroll);
 
-  const { handleDrawerTouchStart, handleDrawerTouchEnd } = useDrawerSwipe({
+  const {
+    panelStyle,
+    backdropStyle,
+    handleDrawerTouchStart,
+    handleDrawerTouchMove,
+    handleDrawerTouchEnd,
+  } = useDrawerSwipe({
+    open,
     onDismissHaptic,
   });
 
@@ -55,15 +62,18 @@ export function BottomSheet({
     >
       <div
         className="fixed inset-0 bg-overlay backdrop-blur-xs animate-in fade-in duration-150"
+        style={backdropStyle}
         onClick={onClose}
       />
       <div
+        style={panelStyle}
         className={`relative w-full sm:max-w-lg max-h-[85dvh] flex flex-col rounded-t-xl sm:rounded-xl bg-surface text-fg border border-border shadow-pop overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-200 ${className}`}
       >
         <div
           onTouchStart={handleDrawerTouchStart}
+          onTouchMove={handleDrawerTouchMove}
           onTouchEnd={(e) => handleDrawerTouchEnd(e, onClose)}
-          className="shrink-0 pt-2.5 pb-3 px-4 border-b border-border bg-surface select-none"
+          className="shrink-0 pt-2.5 pb-3 px-4 border-b border-border bg-surface touch-none select-none cursor-grab active:cursor-grabbing"
         >
           <div className="w-10 h-1 rounded-full bg-border-strong mx-auto mb-2.5 sm:hidden" />
           <div className="flex items-center justify-between gap-3">

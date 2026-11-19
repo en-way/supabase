@@ -34,7 +34,14 @@ export function ExamAnswerSheetDrawer({
   onScrollToFirstUnanswered,
   onSubmitNow,
 }: ExamAnswerSheetDrawerProps) {
-  const { handleDrawerTouchStart, handleDrawerTouchEnd } = useDrawerSwipe({
+  const {
+    panelStyle,
+    backdropStyle,
+    handleDrawerTouchStart,
+    handleDrawerTouchMove,
+    handleDrawerTouchEnd,
+  } = useDrawerSwipe({
+    open,
     onDismissHaptic: () => triggerHaptic(8),
   });
 
@@ -42,17 +49,23 @@ export function ExamAnswerSheetDrawer({
 
   return (
     <div
-      className="fixed inset-0 z-modal bg-overlay/50 backdrop-blur-sm flex items-end sm:items-center justify-center p-0 sm:p-4 animate-in fade-in duration-150"
-      onClick={(e) => {
-        if (e.target === e.currentTarget) onClose();
-      }}
+      className="fixed inset-0 z-modal flex items-end sm:items-center justify-center p-0 sm:p-4"
       role="dialog"
       aria-modal="true"
       aria-label="答题卡总览"
     >
-      <div className="bg-surface rounded-t-3xl sm:rounded-3xl border-t sm:border border-border p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-pop max-h-[85dvh] w-full max-w-xl flex flex-col animate-in slide-in-from-bottom duration-200">
+      <div
+        className="fixed inset-0 bg-overlay/50 backdrop-blur-sm animate-in fade-in duration-150"
+        style={backdropStyle}
+        onClick={onClose}
+      />
+      <div
+        style={panelStyle}
+        className="relative bg-surface rounded-t-3xl sm:rounded-3xl border-t sm:border border-border p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-pop max-h-[85dvh] w-full max-w-xl flex flex-col animate-in slide-in-from-bottom duration-200"
+      >
         <div
           onTouchStart={handleDrawerTouchStart}
+          onTouchMove={handleDrawerTouchMove}
           onTouchEnd={(e) => handleDrawerTouchEnd(e, onClose)}
           className="touch-none select-none cursor-grab active:cursor-grabbing pb-3 border-b border-border shrink-0"
         >

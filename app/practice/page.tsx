@@ -278,10 +278,11 @@ function PracticeContent() {
       )}
 
       {/* Mobile Fixed Bottom Dock */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-nav bg-surface/95 backdrop-blur-xl border-t border-border px-3.5 py-2 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2 flex items-center justify-between gap-2.5 no-print">
+      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-nav bg-surface/95 backdrop-blur-xl border-t border-border px-3.5 py-2 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2 flex items-center justify-between gap-3 no-print">
         <Button
           variant="secondary"
           size="sm"
+          className="flex-1"
           onClick={() => navigateTo(currentIndex - 1)}
           disabled={currentIndex === 0}
         >
@@ -289,20 +290,13 @@ function PracticeContent() {
           <span>上一题</span>
         </Button>
 
-        <Button
-          variant="secondary"
-          size="sm"
-          className="flex-1 font-mono tabular-nums"
-          onClick={() => setShowAnswerSheet(true)}
-        >
-          <ListOrdered className="w-3.5 h-3.5 text-primary" />
-          <span>
-            答题卡 ({currentIndex + 1}/{totalQuestions})
-          </span>
-        </Button>
+        <span className="font-mono tabular-nums text-xs font-semibold text-fg-muted shrink-0 px-1 select-none">
+          {currentIndex + 1} / {totalQuestions}
+        </span>
 
         <Button
           size="sm"
+          className="flex-1"
           onClick={() => navigateTo(currentIndex + 1)}
           disabled={currentIndex === questions.length - 1}
         >

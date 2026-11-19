@@ -7,7 +7,7 @@ import type { ReaderLineHeight } from "@/hooks/useReaderPrefs";
 import { useDrawerSwipe } from "@/hooks/useDrawerSwipe";
 import { triggerHaptic } from "@/hooks/useReaderPrefs";
 import { Button } from "@/components/ui/Button";
-import { BookOpen, X, ZoomIn, ZoomOut } from "lucide-react";
+import { BookOpen, ZoomIn, ZoomOut } from "lucide-react";
 
 interface PracticePassageDrawerProps {
   open: boolean;
@@ -32,7 +32,14 @@ export function PracticePassageDrawer({
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const scrollPosRef = useRef<Record<string, number>>({});
 
-  const { handleDrawerTouchStart, handleDrawerTouchEnd } = useDrawerSwipe({
+  const {
+    panelStyle,
+    backdropStyle,
+    handleDrawerTouchStart,
+    handleDrawerTouchMove,
+    handleDrawerTouchEnd,
+  } = useDrawerSwipe({
+    open,
     onDismissHaptic: () => triggerHaptic(8),
   });
 
@@ -67,17 +74,24 @@ export function PracticePassageDrawer({
 
   return (
     <div
-      className="lg:hidden fixed inset-0 z-modal bg-overlay/50 backdrop-blur-sm flex flex-col justify-end animate-in fade-in duration-150"
-      onClick={(e) => {
-        if (e.target === e.currentTarget) onClose();
-      }}
+      className="lg:hidden fixed inset-0 z-modal flex flex-col justify-end"
       role="dialog"
       aria-modal="true"
       aria-label="速查阅读材料"
     >
-      <div className="bg-surface rounded-t-3xl border-t border-border p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-pop max-h-[85dvh] flex flex-col relative animate-in slide-in-from-bottom duration-200">
+      <div
+        className="fixed inset-0 bg-overlay/50 backdrop-blur-sm animate-in fade-in duration-150"
+        style={backdropStyle}
+        onClick={onClose}
+      />
+
+      <div
+        style={panelStyle}
+        className="relative bg-surface rounded-t-3xl border-t border-border p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] shadow-pop max-h-[85dvh] flex flex-col animate-in slide-in-from-bottom duration-200"
+      >
         <div
           onTouchStart={handleDrawerTouchStart}
+          onTouchMove={handleDrawerTouchMove}
           onTouchEnd={(e) => handleDrawerTouchEnd(e, onClose)}
           className="touch-none select-none cursor-grab active:cursor-grabbing pb-1 shrink-0"
         >
@@ -108,14 +122,6 @@ export function PracticePassageDrawer({
                 aria-label="放大字号"
               >
                 <ZoomIn className="w-3.5 h-3.5" />
-              </button>
-              <button
-                type="button"
-                onClick={onClose}
-                aria-label="关闭材料抽屉"
-                className="p-1.5 rounded-full bg-surface-2 text-fg-muted hover:text-fg ml-1"
-              >
-                <X className="w-4 h-4" />
               </button>
             </div>
           </div>
@@ -149,15 +155,14 @@ export function PracticePassageDrawer({
             onClick={() =>
               scrollContainerRef.current?.scrollTo({ top: 0, behavior: "smooth" })
             }
-            className="absolute bottom-16 right-5 z-20 px-3 py-1.5 rounded-full bg-fg text-bg text-[11px] font-bold shadow-pop active:scale-95"
+            className="absolute bottom-20 right-5 z-20 px-3 py-1.5 rounded-full bg-fg text-bg text-[11px] font-bold shadow-pop active:scale-95"
           >
             ↑ 回到段首
           </button>
         )}
 
-        <div className="pt-2.5 border-t border-border flex justify-between items-center text-xs text-fg-subtle shrink-0">
-          <span>顶栏下拉收起 · 双击查词</span>
-          <Button size="sm" onClick={onClose}>
+        <div className="pt-3 border-t border-border flex justify-center shrink-0">
+          <Button size="sm" className="w-full max-w-[240px]" onClick={onClose}>
             返回作答（第 {currentIndex + 1} 题）
           </Button>
         </div>
