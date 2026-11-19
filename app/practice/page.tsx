@@ -205,7 +205,7 @@ function PracticeContent() {
     <div
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
-      className="space-y-6 animate-in fade-in duration-200 pb-20 lg:pb-0"
+      className="space-y-6 animate-in fade-in duration-200 pb-6 lg:pb-0"
     >
       {isZenMode ? (
         <ZenFloatingBar
@@ -278,34 +278,6 @@ function PracticeContent() {
       ) : (
         <div className="max-w-3xl mx-auto">{rightPane}</div>
       )}
-
-      {/* Mobile Fixed Bottom Dock */}
-      <div className="lg:hidden fixed bottom-0 left-0 right-0 z-nav bg-surface/95 backdrop-blur-xl border-t border-border px-3.5 py-2 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2 flex items-center justify-between gap-3 no-print">
-        <Button
-          variant="secondary"
-          size="sm"
-          className="flex-1"
-          onClick={() => navigateTo(currentIndex - 1)}
-          disabled={currentIndex === 0}
-        >
-          <ChevronLeft className="w-4 h-4" />
-          <span>上一题</span>
-        </Button>
-
-        <span className="font-mono tabular-nums text-xs font-semibold text-fg-muted shrink-0 px-1 select-none">
-          {currentIndex + 1} / {totalQuestions}
-        </span>
-
-        <Button
-          size="sm"
-          className="flex-1"
-          onClick={() => navigateTo(currentIndex + 1)}
-          disabled={currentIndex === questions.length - 1}
-        >
-          <span>下一题</span>
-          <ChevronRight className="w-4 h-4" />
-        </Button>
-      </div>
 
       <PracticePassageDrawer
         open={showPassageSheet}
