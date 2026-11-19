@@ -31,6 +31,12 @@ import {
   HelpCircle,
 } from "lucide-react";
 
+const KNOWN_STATIC_ROUTES = /^\/(mistakes|vocabulary|profile|exam|practice|login|admin)$/;
+
+function normalizeRouteTrailingSlash(pathname: string): string {
+  return KNOWN_STATIC_ROUTES.test(pathname) ? `${pathname}/` : pathname;
+}
+
 function getSafeRedirectTarget(): string {
   if (typeof window === "undefined") return "/";
   try {
@@ -55,7 +61,7 @@ function getSafeRedirectTarget(): string {
       return "/";
     }
 
-    return parsed.pathname + parsed.search;
+    return normalizeRouteTrailingSlash(parsed.pathname) + parsed.search;
   } catch {
     return "/";
   }

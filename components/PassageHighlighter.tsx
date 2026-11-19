@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 import { Highlighter, Trash2 } from "lucide-react";
 import { cleanEnglishWord } from "@/lib/dictionary";
 
@@ -23,6 +24,16 @@ function isSingleEnglishWordLookup(text: string): boolean {
   if (/\s/.test(text)) return false;
   const clean = cleanEnglishWord(text);
   return Boolean(clean && clean.length >= 2 && clean.length <= 35);
+}
+
+function isRangeInContainer(range: Range, container: HTMLDivElement | null): boolean {
+  if (!container) return false;
+  if (container.contains(range.commonAncestorContainer)) return true;
+  // Handle Chromium triple-click / trailing-boundary ranges that end on the parent element
+  return (
+    container.contains(range.startContainer) &&
+    range.endContainer === container.parentElement
+  );
 }
 
 export function getPassageHighlights(passageId: string): HighlightItem[] {
@@ -64,8 +75,21 @@ export default function PassageHighlighter({
   const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number; below: boolean } | null>(
     null
   );
+  const [portalMounted, setPortalMounted] = useState(false);
+
   const containerRef = useRef<HTMLDivElement>(null);
-  const touchTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const rafRef = useRef<number | null>(null);
+  const isPointerDownRef = useRef<boolean>(false);
+  const hasTooltipRef = useRef<boolean>(false);
+
+  useEffect(() => {
+    setPortalMounted(true);
+  }, []);
+
+  useEffect(() => {
+    hasTooltipRef.current = Boolean(tooltipPos && selectedText);
+  }, [tooltipPos, selectedText]);
 
   useEffect(() => {
     if (!passageId) {
@@ -120,14 +144,14 @@ export default function PassageHighlighter({
       }
 
       const text = selection.toString().trim();
-      // Only highlight multi-word phrases/clauses (2..300 chars); yield single words to DictionaryPopover
+      // Highlight multi-word phrases/clauses (2..300 chars); yield single clean English words to DictionaryPopover
       if (text.length < 2 || text.length > 300 || isSingleEnglishWordLookup(text)) {
         clearTooltip();
         return;
       }
 
       const range = selection.getRangeAt(0);
-      if (!containerRef.current?.contains(range.commonAncestorContainer)) {
+      if (!isRangeInContainer(range, containerRef.current)) {
         clearTooltip();
         return;
       }
@@ -139,41 +163,80 @@ export default function PassageHighlighter({
 
       let rect = range.getBoundingClientRect();
       if ((!rect || (rect.width === 0 && rect.height === 0)) && range.getClientRects().length > 0) {
-        rect = range.getClientRects()[0];
+        rect =
+          Array.from(range.getClientRects()).find((r) => r.width > 0 || r.height > 0) ||
+          range.getClientRects()[0];
       }
 
-      if (rect && rect.width > 0) {
-        const minX = 92;
+      if (rect && (rect.width > 0 || rect.height > 0)) {
         const viewportWidth = typeof window !== "undefined" ? window.innerWidth : 400;
         const viewportHeight = typeof window !== "undefined" ? window.innerHeight : 700;
+
+        if (rect.bottom < 0 || rect.top > viewportHeight) {
+          clearTooltip();
+          return;
+        }
+
+        const minX = 96;
         const isMobile = viewportWidth < 640;
-        const maxX = Math.max(minX, viewportWidth - 92);
+        const maxX = Math.max(minX, viewportWidth - 96);
         const clampedX = Math.max(minX, Math.min(maxX, rect.left + rect.width / 2));
 
         // On mobile, place below selection (+44px) to clear native OS copy/lookup bar
-        const below = isMobile ? rect.bottom + 96 < viewportHeight : rect.top < 56;
-        const y = isMobile
+        const below = isMobile ? rect.bottom + 96 < viewportHeight : rect.top < 64;
+        const rawY = isMobile
           ? below
             ? rect.bottom + 44
             : Math.max(56, rect.top - 12)
           : below
-          ? rect.bottom + 10
-          : rect.top - 10;
+          ? Math.min(viewportHeight - 52, rect.bottom + 10)
+          : Math.max(48, rect.top - 10);
 
         setSelectedText(text);
-        setTooltipPos({ x: clampedX, y, below });
+        setTooltipPos({ x: clampedX, y: rawY, below });
       }
     };
 
-    const handleMouseUp = (e: MouseEvent) => {
+    const cancelPendingTimers = () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+        timerRef.current = null;
+      }
+      if (rafRef.current !== null) {
+        window.cancelAnimationFrame(rafRef.current);
+        rafRef.current = null;
+      }
+    };
+
+    const handlePointerDown = (e: MouseEvent | TouchEvent) => {
       if (isInsideProtectedUI(e.target)) return;
+      isPointerDownRef.current = true;
+    };
+
+    const handleMouseUp = (e: MouseEvent) => {
+      isPointerDownRef.current = false;
+      if (isInsideProtectedUI(e.target)) return;
+      cancelPendingTimers();
+      // Run immediately, on next animation frame, and after a short settle fallback
       updateSelectionTooltip();
+      rafRef.current = window.requestAnimationFrame(() => {
+        rafRef.current = null;
+        updateSelectionTooltip();
+      });
+      timerRef.current = setTimeout(() => {
+        timerRef.current = null;
+        updateSelectionTooltip();
+      }, 24);
     };
 
     const handleTouchEnd = (e: TouchEvent) => {
+      isPointerDownRef.current = false;
       if (isInsideProtectedUI(e.target)) return;
-      if (touchTimerRef.current) clearTimeout(touchTimerRef.current);
-      touchTimerRef.current = setTimeout(updateSelectionTooltip, 180);
+      cancelPendingTimers();
+      timerRef.current = setTimeout(() => {
+        timerRef.current = null;
+        updateSelectionTooltip();
+      }, 160);
     };
 
     const handleSelectionChange = () => {
@@ -182,20 +245,46 @@ export default function PassageHighlighter({
         clearTooltip();
         return;
       }
-      if (typeof window !== "undefined" && window.innerWidth < 640) {
-        if (touchTimerRef.current) clearTimeout(touchTimerRef.current);
-        touchTimerRef.current = setTimeout(updateSelectionTooltip, 280);
-      }
+      if (isPointerDownRef.current) return;
+      cancelPendingTimers();
+      const delay = typeof window !== "undefined" && window.innerWidth < 640 ? 220 : 50;
+      timerRef.current = setTimeout(() => {
+        timerRef.current = null;
+        updateSelectionTooltip();
+      }, delay);
     };
 
-    document.addEventListener("mouseup", handleMouseUp);
+    const handleScrollOrResize = () => {
+      if (!hasTooltipRef.current) return;
+      if (rafRef.current !== null) return;
+      rafRef.current = window.requestAnimationFrame(() => {
+        rafRef.current = null;
+        updateSelectionTooltip();
+      });
+    };
+
+    const handleWindowBlur = () => {
+      isPointerDownRef.current = false;
+    };
+
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("touchstart", handlePointerDown, { passive: true });
+    window.addEventListener("mouseup", handleMouseUp);
+    window.addEventListener("blur", handleWindowBlur);
     document.addEventListener("touchend", handleTouchEnd, { passive: true });
     document.addEventListener("selectionchange", handleSelectionChange);
+    window.addEventListener("scroll", handleScrollOrResize, { capture: true, passive: true });
+    window.addEventListener("resize", handleScrollOrResize);
     return () => {
-      document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("touchstart", handlePointerDown);
+      window.removeEventListener("mouseup", handleMouseUp);
+      window.removeEventListener("blur", handleWindowBlur);
       document.removeEventListener("touchend", handleTouchEnd);
       document.removeEventListener("selectionchange", handleSelectionChange);
-      if (touchTimerRef.current) clearTimeout(touchTimerRef.current);
+      window.removeEventListener("scroll", handleScrollOrResize, true);
+      window.removeEventListener("resize", handleScrollOrResize);
+      cancelPendingTimers();
     };
   }, []);
 
@@ -272,41 +361,48 @@ export default function PassageHighlighter({
     });
   };
 
+  const toolbarNode =
+    portalMounted && tooltipPos && selectedText
+      ? createPortal(
+          <div
+            data-enway-highlighter-toolbar="true"
+            style={{
+              position: "fixed",
+              left: `${tooltipPos.x}px`,
+              top: `${tooltipPos.y}px`,
+              transform: tooltipPos.below ? "translate(-50%, 0)" : "translate(-50%, -100%)",
+            }}
+            className="passage-highlighter-toolbar z-popover bg-fg text-bg px-2 py-1 rounded-md shadow-pop border border-border-strong flex items-center gap-1.5 animate-in fade-in zoom-in-95 duration-100"
+            onMouseDown={(e) => e.preventDefault()}
+            onPointerDown={(e) => e.preventDefault()}
+          >
+            <span className="text-[10px] opacity-75 font-medium pl-1">高亮:</span>
+            <button
+              type="button"
+              onClick={() => addHighlight("yellow")}
+              className="px-2 py-1 rounded-sm bg-hl-yellow text-fg text-xs font-semibold flex items-center gap-1 transition-opacity hover:opacity-90"
+              title="黄色标出线索句"
+            >
+              <span className="w-2 h-2 rounded-full bg-warning inline-block" />
+              <span>线索</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => addHighlight("green")}
+              className="px-2 py-1 rounded-sm bg-hl-green text-fg text-xs font-semibold flex items-center gap-1 transition-opacity hover:opacity-90"
+              title="绿色标出核心论点/词汇"
+            >
+              <span className="w-2 h-2 rounded-full bg-primary inline-block" />
+              <span>重点</span>
+            </button>
+          </div>,
+          document.body
+        )
+      : null;
+
   return (
     <div className="relative">
-      {tooltipPos && selectedText && (
-        <div
-          data-enway-highlighter-toolbar="true"
-          style={{
-            position: "fixed",
-            left: `${tooltipPos.x}px`,
-            top: `${tooltipPos.y}px`,
-            transform: tooltipPos.below ? "translate(-50%, 0)" : "translate(-50%, -100%)",
-          }}
-          className="passage-highlighter-toolbar z-selection bg-fg text-bg px-2 py-1 rounded-md shadow-pop border border-border-strong flex items-center gap-1.5 animate-in fade-in zoom-in-95 duration-100"
-          onMouseDown={(e) => e.preventDefault()}
-        >
-          <span className="text-[10px] opacity-75 font-medium pl-1">高亮:</span>
-          <button
-            type="button"
-            onClick={() => addHighlight("yellow")}
-            className="px-2 py-1 rounded-sm bg-hl-yellow text-fg text-xs font-semibold flex items-center gap-1 transition-opacity hover:opacity-90"
-            title="黄色标出线索句"
-          >
-            <span className="w-2 h-2 rounded-full bg-warning inline-block" />
-            <span>线索</span>
-          </button>
-          <button
-            type="button"
-            onClick={() => addHighlight("green")}
-            className="px-2 py-1 rounded-sm bg-hl-green text-fg text-xs font-semibold flex items-center gap-1 transition-opacity hover:opacity-90"
-            title="绿色标出核心论点/词汇"
-          >
-            <span className="w-2 h-2 rounded-full bg-primary inline-block" />
-            <span>重点</span>
-          </button>
-        </div>
-      )}
+      {toolbarNode}
 
       {highlights.length > 0 && (
         <div className="mb-3 px-3 py-1.5 rounded-md bg-surface-2 border border-border flex items-center justify-between text-xs text-fg-muted">

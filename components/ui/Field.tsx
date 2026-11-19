@@ -1,16 +1,17 @@
 import React from "react";
 
 const BASE_FIELD_CLASS =
-  "w-full rounded-md border border-border bg-surface text-fg placeholder:text-fg-subtle px-3 py-2 text-sm transition-colors duration-150 focus:outline-none focus:border-primary";
+  "rounded-md border border-border bg-surface text-fg placeholder:text-fg-subtle px-3 py-2 text-sm transition-colors duration-150 focus:outline-none focus:border-primary";
 
 export interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   compact?: boolean;
 }
 
 export function Input({ compact = false, className = "", ...props }: InputProps) {
+  const widthClass = /\bw-/.test(className) ? "" : "w-full";
   return (
     <input
-      className={`${BASE_FIELD_CLASS} ${compact ? "input-compact" : ""} ${className}`}
+      className={`${widthClass} ${BASE_FIELD_CLASS} ${compact ? "input-compact" : ""} ${className}`}
       {...props}
     />
   );
@@ -21,9 +22,10 @@ export interface SelectProps extends React.SelectHTMLAttributes<HTMLSelectElemen
 }
 
 export function Select({ compact = false, className = "", children, ...props }: SelectProps) {
+  const widthClass = /\bw-/.test(className) ? "" : "w-full";
   return (
     <select
-      className={`${BASE_FIELD_CLASS} ${compact ? "input-compact" : ""} ${className}`}
+      className={`${widthClass} ${BASE_FIELD_CLASS} ${compact ? "input-compact" : ""} ${className}`}
       {...props}
     >
       {children}
@@ -35,7 +37,8 @@ export function Textarea({
   className = "",
   ...props
 }: React.TextareaHTMLAttributes<HTMLTextAreaElement>) {
-  return <textarea className={`${BASE_FIELD_CLASS} ${className}`} {...props} />;
+  const widthClass = /\bw-/.test(className) ? "" : "w-full";
+  return <textarea className={`${widthClass} ${BASE_FIELD_CLASS} ${className}`} {...props} />;
 }
 
 export interface SwitchProps {

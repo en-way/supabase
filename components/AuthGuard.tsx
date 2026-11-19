@@ -10,6 +10,12 @@ import {
 } from "@/lib/storage";
 import { Skeleton } from "@/components/ui/Feedback";
 
+const KNOWN_STATIC_ROUTES = /^\/(mistakes|vocabulary|profile|exam|practice|login|admin)$/;
+
+function normalizeRouteTrailingSlash(pathname: string): string {
+  return KNOWN_STATIC_ROUTES.test(pathname) ? `${pathname}/` : pathname;
+}
+
 function getSafeRedirectTarget(): string {
   if (typeof window === "undefined") return "/";
   try {
@@ -30,7 +36,7 @@ function getSafeRedirectTarget(): string {
       return "/";
     }
 
-    return parsed.pathname + parsed.search;
+    return normalizeRouteTrailingSlash(parsed.pathname) + parsed.search;
   } catch {
     return "/";
   }
@@ -106,14 +112,16 @@ export default function AuthGuard({ children }: { children: React.ReactNode }) {
     if (isAuthenticated === null) return;
 
     if (!isAuthenticated && !isLoginPage) {
-      const currentUrl =
-        typeof window !== "undefined"
-          ? window.location.pathname + window.location.search
-          : pathname;
+      const currentPath =
+        typeof window !== "undefined" ? window.location.pathname : pathname;
+      const currentSearch =
+        typeof window !== "undefined" ? window.location.search : "";
+      const normalizedPath = normalizeRouteTrailingSlash(currentPath || "/");
+      const currentUrl = normalizedPath + currentSearch;
       const redirectUrl =
-        currentUrl && currentUrl !== "/" && currentUrl !== "/login" && currentUrl !== "/login/"
-          ? `/login?redirect=${encodeURIComponent(currentUrl)}`
-          : "/login";
+        currentUrl && currentUrl !== "/" && currentUrl !== "/login/"
+          ? `/login/?redirect=${encodeURIComponent(currentUrl)}`
+          : "/login/";
       router.replace(redirectUrl);
     } else if (isAuthenticated && isLoginPage && !loginSyncing) {
       router.replace(getSafeRedirectTarget());

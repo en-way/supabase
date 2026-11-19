@@ -153,7 +153,14 @@ export function PracticeQuestionCard({
               type="text"
               defaultValue={noteValue}
               onBlur={(e) => onSaveNote(e.target.value)}
-              placeholder="在此输入个人做题笔记，失焦自动保存..."
+              onKeyDown={(e) => {
+                if (e.key === "Escape" || e.key === "Enter") {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  e.currentTarget.blur();
+                }
+              }}
+              placeholder="在此输入个人做题笔记，按 Enter/Esc 完成并自动保存..."
               className="input-compact w-full text-xs bg-surface border border-border rounded-lg px-3 py-1.5 text-fg placeholder:text-fg-subtle focus:outline-none focus:ring-2 focus:ring-primary/30"
             />
           </div>

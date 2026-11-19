@@ -21,7 +21,7 @@ import type { PasswordResetRequestRecord, UserProfile } from "@/types/user";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
-import { Spinner } from "@/components/ui/Feedback";
+import { Skeleton, Spinner } from "@/components/ui/Feedback";
 import { Input } from "@/components/ui/Field";
 import { Modal } from "@/components/ui/Modal";
 import {
@@ -36,6 +36,9 @@ import {
   RotateCcw,
   KeyRound,
   AlertCircle,
+  Loader2,
+  Info,
+  X,
 } from "lucide-react";
 
 function getErrorMessage(err: unknown, fallback: string): string {
@@ -48,6 +51,7 @@ function getErrorMessage(err: unknown, fallback: string): string {
 }
 
 export default function ProfilePage() {
+  const [initialLoading, setInitialLoading] = useState(true);
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [user, setUser] = useState<AuthUser | null>(null);
   const [localState, setLocalState] = useState<LocalLearningState | null>(null);
@@ -77,6 +81,16 @@ export default function ProfilePage() {
   const [uploading, setUploading] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const [reconciling, setReconciling] = useState(false);
+  const [confirmAction, setConfirmAction] = useState<null | "upload" | "download">(null);
+  const [syncStatusMsg, setSyncStatusMsg] = useState<{
+    tone: "success" | "info" | "error";
+    text: string;
+    time: string;
+  } | null>(null);
+  const [toast, setToast] = useState<{
+    tone: "success" | "info" | "error";
+    text: string;
+  } | null>(null);
   const [notice, setNotice] = useState<{
     type: "success" | "error";
     text: string;
@@ -89,10 +103,11 @@ export default function ProfilePage() {
 
   const mountedRef = useRef(true);
   const noticeTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const toastTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const snapshotSeqRef = useRef(0);
 
   const showTimedNotice = useCallback(
-    (type: "success" | "error", text: string, durationMs = 3000) => {
+    (type: "success" | "error", text: string, durationMs = 4500) => {
       if (!mountedRef.current) return;
       if (noticeTimerRef.current !== null) {
         clearTimeout(noticeTimerRef.current);
@@ -104,6 +119,28 @@ export default function ProfilePage() {
       }, durationMs);
     },
     []
+  );
+
+  const showSyncFeedback = useCallback(
+    (tone: "success" | "info" | "error", text: string, durationMs = 5000) => {
+      if (!mountedRef.current) return;
+      const nowStr = new Date().toLocaleTimeString([], {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+      });
+      setSyncStatusMsg({ tone, text, time: nowStr });
+      if (toastTimerRef.current !== null) {
+        clearTimeout(toastTimerRef.current);
+      }
+      setToast({ tone, text });
+      toastTimerRef.current = setTimeout(() => {
+        toastTimerRef.current = null;
+        if (mountedRef.current) setToast(null);
+      }, durationMs);
+      showTimedNotice(tone === "error" ? "error" : "success", text, durationMs);
+    },
+    [showTimedNotice]
   );
 
   const refreshLocalSnapshot = useCallback(async () => {
@@ -161,16 +198,34 @@ export default function ProfilePage() {
 
   useEffect(() => {
     mountedRef.current = true;
-    loadProfileAndStats();
+    let cancelled = false;
+
+    (async () => {
+      try {
+        await loadProfileAndStats();
+      } catch (err) {
+        console.warn("Initial profile load error:", err);
+      } finally {
+        if (!cancelled && mountedRef.current) {
+          setInitialLoading(false);
+        }
+      }
+    })();
+
     const unsubscribe = subscribeLocalState(() => {
       refreshLocalSnapshot();
     });
     return () => {
+      cancelled = true;
       mountedRef.current = false;
       unsubscribe();
       if (noticeTimerRef.current !== null) {
         clearTimeout(noticeTimerRef.current);
         noticeTimerRef.current = null;
+      }
+      if (toastTimerRef.current !== null) {
+        clearTimeout(toastTimerRef.current);
+        toastTimerRef.current = null;
       }
     };
   }, [loadProfileAndStats, refreshLocalSnapshot]);
@@ -265,94 +320,120 @@ export default function ProfilePage() {
     showTimedNotice("success", "昵称修改成功", 2500);
   };
 
-  const handleUploadBackup = async () => {
+  const executeUploadBackup = useCallback(async () => {
+    if (uploading || downloading) return;
+    setUploading(true);
+    setNotice(null);
+    try {
+      const res = await uploadBackupToCloud();
+      if (res.success) {
+        if (res.isIdentical) {
+          showSyncFeedback(
+            "info",
+            res.message ||
+              "本地数据与云端存档完全一致，无需重复上传，已为您节省云端配额！",
+            4500
+          );
+        } else {
+          await loadProfileAndStats();
+          showSyncFeedback(
+            "success",
+            res.message || "本地数据已成功打包并备份至云端！",
+            4500
+          );
+        }
+      } else {
+        showSyncFeedback("error", res.error || "上传备份失败，请稍后重试", 5500);
+      }
+    } catch (err: unknown) {
+      showSyncFeedback(
+        "error",
+        `云端备份发生异常：${getErrorMessage(err, "请检查网络或登录后重试")}`,
+        5500
+      );
+    } finally {
+      if (mountedRef.current) setUploading(false);
+    }
+  }, [downloading, loadProfileAndStats, showSyncFeedback, uploading]);
+
+  const handleUploadBackup = () => {
+    if (uploading || downloading) return;
     if (isDataIdentical) {
-      showTimedNotice(
-        "success",
+      showSyncFeedback(
+        "info",
         "本地研习数据与云端存档 100% 一致，无需重复上传，已为您节省云端配额！",
-        3000
+        4000
       );
       return;
     }
-    if (
-      !window.confirm(
-        "备份到云端将使用当前设备的做题数据【完全覆盖】云端的历史存档快照。确定继续上传覆盖吗？"
-      )
-    ) {
+    if (!cloudInfo?.exists) {
+      // First-time cloud archive: upload immediately without confirmation modal
+      void executeUploadBackup();
       return;
     }
-    setUploading(true);
-    setNotice(null);
-    const res = await uploadBackupToCloud();
-    if (res.success) {
-      if (res.isIdentical) {
-        showTimedNotice(
-          "success",
-          "本地数据与云端存档完全一致，无需重复上传，已为您节省云端配额！",
-          3000
-        );
-      } else {
-        showTimedNotice("success", "本地数据已成功打包并覆盖备份至云端！", 3000);
-      }
-      await loadProfileAndStats();
-    } else {
-      showTimedNotice("error", res.error || "上传备份失败", 3500);
-    }
-    if (mountedRef.current) setUploading(false);
+    setConfirmAction("upload");
   };
 
-  const handleDownloadBackup = async () => {
-    if (isDataIdentical) {
-      showTimedNotice("success", "本地数据与云端存档完全一致，无需重复恢复！", 3000);
-      return;
-    }
-    if (
-      !window.confirm(
-        "从云端恢复将直接【完全覆盖】当前设备的本地数据。确定继续吗？"
-      )
-    ) {
-      return;
-    }
+  const executeDownloadBackup = useCallback(async () => {
+    if (downloading || uploading) return;
     setDownloading(true);
     setNotice(null);
-    const res = await downloadBackupFromCloud();
-    if (res.success) {
-      if (res.isIdentical) {
-        showTimedNotice(
-          "success",
-          "云端存档内容与当前本地数据完全一致，无需重复覆盖！",
-          3000
-        );
-      } else {
-        const recon = await reconcileLearningState();
-        if (recon.completed && user?.id) {
-          setLastReconcileTimestamp(user.id, Date.now());
-        }
-        if (!recon.completed) {
-          showTimedNotice(
-            "success",
-            `已从云端对象存储还原至本地（校对未完成，本地记录已保留：${recon.summaryText}）`,
-            4000
-          );
-        } else if (recon.hasChanges) {
-          showTimedNotice(
-            "success",
-            `已从云端对象存储还原并完成校对：${recon.summaryText}`,
+    try {
+      const res = await downloadBackupFromCloud();
+      if (res.success) {
+        if (res.isIdentical) {
+          showSyncFeedback(
+            "info",
+            res.message || "本地数据与云端存档完全一致，无需重复恢复！",
             4000
           );
         } else {
-          showTimedNotice(
-            "success",
-            "已成功从云端对象存储拉取最新快照并还原至本地！",
-            3500
-          );
+          const recon = await reconcileLearningState();
+          if (recon.completed && user?.id) {
+            setLastReconcileTimestamp(user.id, Date.now());
+          }
+          if (!recon.completed) {
+            showSyncFeedback(
+              "info",
+              `已从云端对象存储还原至本地（校对未完成，本地记录已保留：${recon.summaryText}）`,
+              5000
+            );
+          } else if (recon.hasChanges) {
+            showSyncFeedback(
+              "success",
+              `已从云端对象存储还原并完成校对：${recon.summaryText}`,
+              5000
+            );
+          } else {
+            showSyncFeedback(
+              "success",
+              "已成功从云端对象存储拉取最新快照并还原至本地！",
+              4500
+            );
+          }
         }
+        await loadProfileAndStats();
+      } else {
+        showSyncFeedback("error", res.error || "下载恢复失败，请稍后重试", 5500);
       }
-      await loadProfileAndStats();
-    } else {
-      showTimedNotice("error", res.error || "下载恢复失败", 3500);
+    } catch (err: unknown) {
+      showSyncFeedback(
+        "error",
+        `从云端恢复发生异常：${getErrorMessage(err, "请检查网络或登录后重试")}`,
+        5500
+      );
+    } finally {
+      if (mountedRef.current) setDownloading(false);
     }
-    if (mountedRef.current) setDownloading(false);
+  }, [downloading, loadProfileAndStats, showSyncFeedback, uploading, user?.id]);
+
+  const handleDownloadBackup = () => {
+    if (downloading || uploading) return;
+    if (isDataIdentical) {
+      showSyncFeedback("info", "本地数据与云端存档完全一致，无需重复恢复！", 4000);
+      return;
+    }
+    setConfirmAction("download");
   };
 
   const handleReconcile = async () => {
@@ -367,25 +448,25 @@ export default function ProfilePage() {
       const cInfo = await fetchCloudBackupInfo();
       if (mountedRef.current) setCloudInfo(cInfo);
       if (!recon.completed) {
-        showTimedNotice(
+        showSyncFeedback(
           "error",
           recon.summaryText || "校对未完成，已安全保留本地学习记录",
-          3500
+          5000
         );
       } else if (recon.hasChanges) {
-        showTimedNotice("success", recon.summaryText, 3500);
+        showSyncFeedback("success", recon.summaryText, 5000);
       } else {
-        showTimedNotice(
+        showSyncFeedback(
           "success",
           "存档数据完美吻合，无任何已下架题目或待修正项！",
-          3500
+          4000
         );
       }
     } catch (e: unknown) {
-      showTimedNotice(
+      showSyncFeedback(
         "error",
         `校对失败: ${getErrorMessage(e, "未知错误")}`,
-        3500
+        5000
       );
     } finally {
       if (mountedRef.current) setReconciling(false);
@@ -396,8 +477,74 @@ export default function ProfilePage() {
     clearLocalData(wipeScope);
     await refreshLocalSnapshot();
     setShowWipeModal(false);
-    showTimedNotice("success", "所选本地数据已彻底清除！", 2500);
+    showSyncFeedback("success", "所选本地数据已彻底清除！", 3500);
   };
+
+  if (initialLoading) {
+    return (
+      <div
+        aria-busy="true"
+        aria-label="正在加载个人中心数据"
+        className="max-w-4xl mx-auto space-y-6 sm:space-y-8"
+      >
+        <Card className="p-6 sm:p-7 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+          <div className="flex items-center gap-4">
+            <Skeleton className="w-14 h-14 rounded-2xl shrink-0" />
+            <div className="space-y-2">
+              <Skeleton className="w-36 h-5" />
+              <Skeleton className="w-48 h-3.5" />
+            </div>
+          </div>
+          <Skeleton className="w-32 h-3.5" />
+        </Card>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+          <Card className="p-5 flex flex-col items-center space-y-2">
+            <Skeleton className="w-16 h-3" />
+            <Skeleton className="w-10 h-7" />
+            <Skeleton className="w-20 h-2.5" />
+          </Card>
+          <Card className="p-5 flex flex-col items-center space-y-2">
+            <Skeleton className="w-16 h-3" />
+            <Skeleton className="w-10 h-7" />
+            <Skeleton className="w-20 h-2.5" />
+          </Card>
+          <Card className="p-5 flex flex-col items-center space-y-2">
+            <Skeleton className="w-16 h-3" />
+            <Skeleton className="w-10 h-7" />
+            <Skeleton className="w-20 h-2.5" />
+          </Card>
+          <Card className="p-5 flex flex-col items-center space-y-2">
+            <Skeleton className="w-16 h-3" />
+            <Skeleton className="w-10 h-7" />
+            <Skeleton className="w-20 h-2.5" />
+          </Card>
+        </div>
+
+        <Card className="p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3 pb-4 border-b border-border">
+            <Skeleton className="w-10 h-10 rounded-xl shrink-0" />
+            <div className="space-y-2 flex-1">
+              <Skeleton className="w-48 h-4" />
+              <Skeleton className="w-72 max-w-full h-3" />
+            </div>
+          </div>
+          <Skeleton className="w-full h-24 rounded-xl" />
+        </Card>
+
+        <Card className="p-6 sm:p-8 space-y-4">
+          <div className="flex items-center gap-3 pb-4 border-b border-border">
+            <Skeleton className="w-10 h-10 rounded-xl shrink-0" />
+            <div className="space-y-2 flex-1">
+              <Skeleton className="w-40 h-4" />
+              <Skeleton className="w-64 max-w-full h-3" />
+            </div>
+          </div>
+          <Skeleton className="w-full h-28 rounded-xl" />
+        </Card>
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-4xl mx-auto space-y-6 sm:space-y-8 animate-in fade-in duration-150">
@@ -591,17 +738,21 @@ export default function ProfilePage() {
             <Button
               size="sm"
               onClick={handleUploadBackup}
-              disabled={uploading || isDataIdentical}
+              disabled={uploading || downloading || isDataIdentical}
               title={
                 isDataIdentical
                   ? "本地研习数据与云端存档 100% 一致"
-                  : "将当前本地研习记录打包并安全覆盖备份至云端"
+                  : "将当前本地研习记录打包并安全备份至云端"
               }
             >
-              <CloudUpload className="w-3.5 h-3.5" />
+              {uploading ? (
+                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+              ) : (
+                <CloudUpload className="w-3.5 h-3.5" />
+              )}
               <span>
                 {uploading
-                  ? "正在归档..."
+                  ? "备份中..."
                   : isDataIdentical
                     ? "云端已是最新"
                     : "备份到云端"}
@@ -612,12 +763,16 @@ export default function ProfilePage() {
               variant="secondary"
               size="sm"
               onClick={handleDownloadBackup}
-              disabled={downloading || !cloudInfo?.exists || isDataIdentical}
+              disabled={downloading || uploading || !cloudInfo?.exists || isDataIdentical}
             >
-              <CloudDownload className="w-3.5 h-3.5" />
+              {downloading ? (
+                <Loader2 className="w-3.5 h-3.5 animate-spin" />
+              ) : (
+                <CloudDownload className="w-3.5 h-3.5" />
+              )}
               <span>
                 {downloading
-                  ? "正在恢复..."
+                  ? "恢复中..."
                   : isDataIdentical
                     ? "本地已是最新"
                     : "从云端恢复"}
@@ -628,7 +783,7 @@ export default function ProfilePage() {
               variant="secondary"
               size="sm"
               onClick={handleReconcile}
-              disabled={reconciling}
+              disabled={reconciling || uploading || downloading}
               title="比对题库删改，自动清理下架试题并自愈答案"
             >
               <RotateCcw
@@ -638,6 +793,33 @@ export default function ProfilePage() {
             </Button>
           </div>
         </div>
+
+        {syncStatusMsg && (
+          <div
+            role="status"
+            className={`p-3 rounded-xl flex items-start justify-between gap-2.5 text-xs border animate-in fade-in duration-150 ${
+              syncStatusMsg.tone === "success"
+                ? "bg-success-soft border-success/30 text-success"
+                : syncStatusMsg.tone === "info"
+                  ? "bg-info-soft border-info/30 text-info"
+                  : "bg-danger-soft border-danger/30 text-danger"
+            }`}
+          >
+            <div className="flex items-start gap-2 min-w-0">
+              {syncStatusMsg.tone === "success" ? (
+                <CheckCircle2 className="w-4 h-4 shrink-0 mt-0.5" />
+              ) : syncStatusMsg.tone === "info" ? (
+                <Info className="w-4 h-4 shrink-0 mt-0.5" />
+              ) : (
+                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
+              )}
+              <span className="font-medium leading-relaxed">{syncStatusMsg.text}</span>
+            </div>
+            <span className="text-[10px] font-mono tabular-nums opacity-75 shrink-0 mt-0.5">
+              {syncStatusMsg.time}
+            </span>
+          </div>
+        )}
 
         <div className="pt-4 border-t border-border flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
@@ -839,6 +1021,52 @@ export default function ProfilePage() {
         )}
       </Card>
 
+      {/* Cloud Sync Confirmation Modal (replaces native window.confirm) */}
+      <Modal
+        open={confirmAction !== null}
+        onClose={() => setConfirmAction(null)}
+        title={
+          confirmAction === "upload" ? "确认覆盖云端归档" : "确认从云端恢复本地数据"
+        }
+      >
+        <div className="space-y-4">
+          <div className="flex items-start gap-2.5 text-fg-muted text-xs leading-relaxed">
+            <Info className="w-4 h-4 text-primary shrink-0 mt-0.5" />
+            <span>
+              {confirmAction === "upload"
+                ? "备份到云端将使用当前设备的本地做题数据（错题本、生词本、收藏与模考成绩）安全覆盖云端历史快照。确定继续上传吗？"
+                : "从云端恢复将拉取您上次归档的云端快照并覆盖当前设备的本地记录（未交卷草稿会安全保留）。确定继续恢复吗？"}
+            </span>
+          </div>
+
+          <div className="flex justify-end gap-2 pt-2">
+            <Button
+              type="button"
+              variant="secondary"
+              size="sm"
+              onClick={() => setConfirmAction(null)}
+            >
+              取消
+            </Button>
+            <Button
+              type="button"
+              size="sm"
+              onClick={() => {
+                const action = confirmAction;
+                setConfirmAction(null);
+                if (action === "upload") {
+                  void executeUploadBackup();
+                } else if (action === "download") {
+                  void executeDownloadBackup();
+                }
+              }}
+            >
+              {confirmAction === "upload" ? "确认上传备份" : "确认拉取恢复"}
+            </Button>
+          </div>
+        </div>
+      </Modal>
+
       <Modal
         open={showWipeModal}
         onClose={() => setShowWipeModal(false)}
@@ -908,6 +1136,42 @@ export default function ProfilePage() {
           </div>
         </div>
       </Modal>
+
+      {/* Bottom-right Floating Toast for immediate visibility regardless of scroll position */}
+      {toast && (
+        <div
+          role="status"
+          aria-live="polite"
+          className="fixed left-4 right-4 sm:left-auto sm:right-5 bottom-[calc(var(--bottom-nav-h)+var(--safe-bottom)+0.75rem)] sm:bottom-5 z-toast sm:max-w-sm no-print animate-in fade-in slide-in-from-bottom-3 duration-200"
+        >
+          <div
+            className={`px-4 py-3 rounded-xl shadow-pop border flex items-start gap-2.5 text-xs font-medium ${
+              toast.tone === "success"
+                ? "bg-surface border-success/40 text-fg"
+                : toast.tone === "info"
+                  ? "bg-surface border-info/40 text-fg"
+                  : "bg-surface border-danger/40 text-danger"
+            }`}
+          >
+            {toast.tone === "success" ? (
+              <CheckCircle2 className="w-4 h-4 text-success shrink-0 mt-0.5" />
+            ) : toast.tone === "info" ? (
+              <Info className="w-4 h-4 text-info shrink-0 mt-0.5" />
+            ) : (
+              <AlertTriangle className="w-4 h-4 text-danger shrink-0 mt-0.5" />
+            )}
+            <span className="flex-1 leading-relaxed">{toast.text}</span>
+            <button
+              type="button"
+              onClick={() => setToast(null)}
+              aria-label="关闭提示"
+              className="p-0.5 rounded-md text-fg-subtle hover:text-fg hover:bg-surface-2 transition-colors shrink-0"
+            >
+              <X className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

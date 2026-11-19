@@ -32,6 +32,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
   const [remainingSeconds, setRemainingSeconds] = useState<number>(3600);
   const [isTimeUp, setIsTimeUp] = useState<boolean>(false);
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
+  const [reportOnlyMode, setReportOnlyMode] = useState<boolean>(false);
   const [result, setResult] = useState<ExamResult | null>(null);
   const [activePassageId, setActivePassageId] = useState<string>("");
   const [showPrintAnswers, setShowPrintAnswers] = useState<boolean>(false);
@@ -67,6 +68,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
       questionRefs.current = {};
       setFocusedIndex(0);
       setIsTimeUp(false);
+      setReportOnlyMode(false);
       setShowMobileAnswerSheet(false);
       setShowSubmitReviewSheet(false);
       setMobileTab("questions");
@@ -76,6 +78,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
       setAnswers({});
       setResult(null);
       setIsSubmitted(false);
+      setReportOnlyMode(false);
       setIsTimeUp(false);
     },
     onLoaded: (detail, loadedExamId) => {
@@ -129,11 +132,13 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
         setAnswers(restoredAnswers);
         setResult(pastResult);
         setIsSubmitted(true);
+        setReportOnlyMode(false);
         setIsTimeUp(false);
         setRemainingSeconds(0);
       } else {
         setAnswers({});
         setIsSubmitted(false);
+        setReportOnlyMode(false);
         setIsTimeUp(false);
         setResult(null);
         setFocusedIndex(0);
@@ -238,6 +243,8 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
     clearExamDraft(curExam.id);
     setResult(examRes);
     setIsSubmitted(true);
+    setReportOnlyMode(true);
+    setIsZenMode(false);
     setIsTimeUp(false);
 
     if (passed) {
@@ -380,11 +387,27 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
   };
 
   // 4. Keyboard shortcuts (guarded against inputs, IME, and Time-Up lock)
-  const keydownRef = useRef({ questions, focusedIndex });
-  keydownRef.current = { questions, focusedIndex };
+  const keydownRef = useRef({
+    questions,
+    focusedIndex,
+    isOverlayOpen:
+      showMobileAnswerSheet ||
+      showSubmitReviewSheet ||
+      showShortcutsModal ||
+      reportOnlyMode,
+  });
+  keydownRef.current = {
+    questions,
+    focusedIndex,
+    isOverlayOpen:
+      showMobileAnswerSheet ||
+      showSubmitReviewSheet ||
+      showShortcutsModal ||
+      reportOnlyMode,
+  };
 
   useKeyboardGuard((e: KeyboardEvent) => {
-    const { questions: qs, focusedIndex: fIdx } = keydownRef.current;
+    const { questions: qs, focusedIndex: fIdx, isOverlayOpen } = keydownRef.current;
     if (!qs || qs.length === 0) return;
 
     const key = e.key.toUpperCase();
@@ -407,7 +430,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
       return;
     }
 
-    if (key === "Z") {
+    if (key === "Z" && !isOverlayOpen) {
       e.preventDefault();
       setIsZenMode((prev) => !prev);
       return;
@@ -421,6 +444,15 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
       return;
     }
 
+    if (isOverlayOpen) return;
+
+    const isNextKey =
+      e.key === "ArrowRight" || e.code === "ArrowRight" || e.key === "Right" || key === "K";
+    const isPrevKey =
+      e.key === "ArrowLeft" || e.code === "ArrowLeft" || e.key === "Left" || key === "J";
+    const isScrollUpKey = e.key === "ArrowUp" || e.code === "ArrowUp";
+    const isScrollDownKey = e.key === "ArrowDown" || e.code === "ArrowDown";
+
     if (validKeys.includes(key)) {
       e.preventDefault();
       if (
@@ -431,24 +463,24 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
       ) {
         handleSelectAnswer(currentQ.id, key);
       }
-    } else if (e.key === "ArrowRight" || key === "K") {
+    } else if (isNextKey) {
       e.preventDefault();
       const nextIdx = Math.min(qs.length - 1, fIdx + 1);
       keydownRef.current.focusedIndex = nextIdx;
       latestRef.current.focusedIndex = nextIdx;
       setFocusedIndex(nextIdx);
       scrollToQuestion(qs[nextIdx]?.id);
-    } else if (e.key === "ArrowLeft" || key === "J") {
+    } else if (isPrevKey) {
       e.preventDefault();
       const prevIdx = Math.max(0, fIdx - 1);
       keydownRef.current.focusedIndex = prevIdx;
       latestRef.current.focusedIndex = prevIdx;
       setFocusedIndex(prevIdx);
       scrollToQuestion(qs[prevIdx]?.id);
-    } else if (e.key === "ArrowUp") {
+    } else if (isScrollUpKey) {
       e.preventDefault();
       passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
-    } else if (e.key === "ArrowDown") {
+    } else if (isScrollDownKey) {
       e.preventDefault();
       passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
     }
@@ -518,6 +550,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
       }
       setAnswers({});
       setIsSubmitted(false);
+      setReportOnlyMode(false);
       setIsTimeUp(false);
       setResult(null);
       setRemainingSeconds((exam?.duration_minutes || 60) * 60);
@@ -540,6 +573,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
   const jumpToQuestionIndex = (idx: number, closeDrawer = false) => {
     const targetQ = questions[idx];
     if (!targetQ) return;
+    setReportOnlyMode(false);
     setFocusedIndex(idx);
     if (closeDrawer) {
       setMobileTab("questions");
@@ -560,6 +594,8 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
     remainingSeconds,
     isTimeUp,
     isSubmitted,
+    reportOnlyMode,
+    setReportOnlyMode,
     result,
     activePassageId,
     setActivePassageId,

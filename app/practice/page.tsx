@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/Button";
 import { Card } from "@/components/ui/Card";
 import { Spinner } from "@/components/ui/Feedback";
 import { Kbd } from "@/components/ui/Kbd";
-import { BookOpen, ChevronLeft, ChevronRight, HelpCircle, ListOrdered } from "lucide-react";
+import { BookOpen, ChevronLeft, ChevronRight, HelpCircle } from "lucide-react";
 
 const KeyboardShortcutsModal = dynamic(
   () => import("@/components/KeyboardShortcutsModal"),
@@ -167,7 +167,7 @@ function PracticeContent() {
         onOpenPassageDrawer={() => setShowPassageSheet(true)}
         onToggleFavorite={handleToggleFav}
         onSelectOption={(key) => handleSelectOption(key)}
-        onSaveNote={handleSaveNote}
+        onSaveNote={(noteText) => handleSaveNote(noteText, currentQ.id)}
       />
 
       <div className="flex items-center justify-between gap-3 pt-2">
@@ -192,7 +192,7 @@ function PracticeContent() {
           className="flex-1 sm:flex-none"
         >
           <span>下一题</span>
-          <Kbd className="hidden lg:inline-flex bg-primary-fg/20 border-primary-fg/30 text-primary-fg">
+          <Kbd variant="onPrimary" className="hidden lg:inline-flex">
             →
           </Kbd>
           <ChevronRight className="w-4 h-4" />
@@ -207,30 +207,32 @@ function PracticeContent() {
       onTouchEnd={handleTouchEnd}
       className="space-y-6 animate-in fade-in duration-200 pb-20 lg:pb-0"
     >
-      <PracticeTopBar
-        exam={exam}
-        currentIndex={currentIndex}
-        totalQuestions={totalQuestions}
-        answeredCount={answeredCount}
-        progressPercent={progressPercent}
-        currentScore={currentScore}
-        accuracy={accuracy}
-        isZenMode={isZenMode}
-        fontSize={fontSize}
-        onToggleZen={() => setIsZenMode((p) => !p)}
-        onOpenShortcuts={() => setShowShortcutsModal(true)}
-        onOpenAnswerSheet={() => setShowAnswerSheet(true)}
-        onResetPractice={handleResetPractice}
-        onCycleFontSize={cycleFontSize}
-      />
-
-      {isZenMode && (
+      {isZenMode ? (
         <ZenFloatingBar
           modeLabel="专注模式"
           title={exam?.title}
           metaText={`题号 ${currentIndex + 1} / ${questions.length} · 正确率 ${accuracy}%`}
+          onOpenAnswerSheet={() => setShowAnswerSheet(true)}
+          answerSheetLabel={`${answeredCount}/${totalQuestions}`}
           onOpenShortcuts={() => setShowShortcutsModal(true)}
           onExitZen={() => setIsZenMode(false)}
+        />
+      ) : (
+        <PracticeTopBar
+          exam={exam}
+          currentIndex={currentIndex}
+          totalQuestions={totalQuestions}
+          answeredCount={answeredCount}
+          progressPercent={progressPercent}
+          currentScore={currentScore}
+          accuracy={accuracy}
+          isZenMode={isZenMode}
+          fontSize={fontSize}
+          onToggleZen={() => setIsZenMode((p) => !p)}
+          onOpenShortcuts={() => setShowShortcutsModal(true)}
+          onOpenAnswerSheet={() => setShowAnswerSheet(true)}
+          onResetPractice={handleResetPractice}
+          onCycleFontSize={cycleFontSize}
         />
       )}
 
@@ -303,22 +305,6 @@ function PracticeContent() {
           <span>下一题</span>
           <ChevronRight className="w-4 h-4" />
         </Button>
-      </div>
-
-      {/* Desktop Floating Answer Sheet Capsule */}
-      <div className="hidden lg:block fixed bottom-6 right-6 z-sticky no-print">
-        <button
-          type="button"
-          onClick={() => setShowAnswerSheet(true)}
-          className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-fg text-bg hover:opacity-90 shadow-pop border border-border transition-all active:scale-95"
-          title="展开全卷答题卡，快速跳选任意题目"
-        >
-          <ListOrdered className="w-4 h-4 text-primary" />
-          <span className="text-xs font-bold">答题卡</span>
-          <span className="px-1.5 py-0.5 rounded-full bg-bg/20 text-[10px] font-mono tabular-nums font-bold">
-            {answeredCount}/{totalQuestions}
-          </span>
-        </button>
       </div>
 
       <PracticePassageDrawer

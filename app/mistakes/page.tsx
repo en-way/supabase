@@ -563,8 +563,8 @@ export default function MistakesPage() {
         />
 
         <div className="flex flex-wrap items-center gap-3 text-xs text-fg-muted">
-          <div className="flex items-center gap-1.5">
-            <span className="text-fg-subtle">分类：</span>
+          <div className="flex items-center gap-1.5 shrink-0">
+            <span className="text-fg-subtle whitespace-nowrap shrink-0">分类：</span>
             <Select
               compact
               value={categoryFilter}
@@ -577,13 +577,13 @@ export default function MistakesPage() {
             </Select>
           </div>
 
-          <div className="flex items-center gap-1.5">
-            <span className="text-fg-subtle">打印视图：</span>
+          <div className="flex items-center gap-1.5 shrink-0">
+            <span className="text-fg-subtle whitespace-nowrap shrink-0">打印视图：</span>
             <Button
               variant={printWithAnswers ? "secondary" : "ghost"}
               size="sm"
               onClick={() => setPrintWithAnswers(!printWithAnswers)}
-              className="h-8 text-xs border border-border"
+              className="h-8 text-xs border border-border whitespace-nowrap"
             >
               {printWithAnswers ? "含答案与解析" : "仅题目（做题卷）"}
             </Button>

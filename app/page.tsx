@@ -2,7 +2,7 @@
 
 import { Suspense, useState, useEffect, useRef, useCallback, useMemo } from "react";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import {
   getLocalState,
   LocalLearningState,
@@ -207,26 +207,104 @@ function ExamCard({
   );
 }
 
-function ExamLobbyContent() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
+function parseLobbySearch(params: URLSearchParams) {
+  const cat = params.get("cat") || "all";
+  const q = params.get("q") || "";
+  const pageRaw = Number.parseInt(params.get("page") || "1", 10);
+  const page = Number.isFinite(pageRaw) && pageRaw > 0 ? pageRaw : 1;
+  return { cat, q, page };
+}
 
-  const urlCat = searchParams.get("cat") || "all";
-  const urlQuery = searchParams.get("q") || "";
-  const urlPageRaw = Number.parseInt(searchParams.get("page") || "1", 10);
-  const urlPage = Number.isFinite(urlPageRaw) && urlPageRaw > 0 ? urlPageRaw : 1;
+function ExamLobbyContent() {
+  const searchParams = useSearchParams();
+  const initialQuery = parseLobbySearch(searchParams);
 
   const [exams, setExams] = useState<ExamRecord[]>([]);
   const [categories, setCategories] = useState<CategoryRecord[]>([]);
-  const [searchInput, setSearchInput] = useState<string>(urlQuery);
+  const [selectedCat, setSelectedCat] = useState<string>(initialQuery.cat);
+  const [searchInput, setSearchInput] = useState<string>(initialQuery.q);
+  const [currentPage, setCurrentPage] = useState<number>(initialQuery.page);
   const [loading, setLoading] = useState(true);
   const [localState, setLocalState] = useState<LocalLearningState | null>(null);
   const [viewMode, setViewMode] = useState<"grid" | "table">("grid");
 
-  // Keep search input synchronized with browser back/forward navigation
+  const searchDebounceRef = useRef<number | null>(null);
+  const lastWrittenQsRef = useRef<string | null>(null);
+  const filterStateRef = useRef({
+    cat: selectedCat,
+    q: searchInput,
+    page: currentPage,
+  });
+  filterStateRef.current = {
+    cat: selectedCat,
+    q: searchInput,
+    page: currentPage,
+  };
+
+  const syncUrlParams = useCallback(
+    (next: { cat?: string; q?: string; page?: number }) => {
+      if (typeof window === "undefined") return;
+      const cur = filterStateRef.current;
+      const nextCat = next.cat !== undefined ? next.cat : cur.cat;
+      const nextQ = next.q !== undefined ? next.q : cur.q;
+      const nextPage = next.page !== undefined ? next.page : cur.page;
+
+      const params = new URLSearchParams(window.location.search);
+      if (nextCat && nextCat !== "all") params.set("cat", nextCat);
+      else params.delete("cat");
+
+      if (nextQ.trim()) params.set("q", nextQ.trim());
+      else params.delete("q");
+
+      if (nextPage > 1) params.set("page", String(nextPage));
+      else params.delete("page");
+
+      const qs = params.toString();
+      lastWrittenQsRef.current = qs;
+      const targetUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+      const currentFull = `${window.location.pathname}${window.location.search}`;
+      if (currentFull !== targetUrl) {
+        window.history.replaceState(window.history.state, "", targetUrl);
+      }
+    },
+    []
+  );
+
+  // Sync local state if Next.js route navigation or browser back/forward changes URL
+  const searchParamsStr = searchParams.toString();
   useEffect(() => {
-    setSearchInput(urlQuery);
-  }, [urlQuery]);
+    if (lastWrittenQsRef.current !== null && searchParamsStr === lastWrittenQsRef.current) {
+      return;
+    }
+    const parsed = parseLobbySearch(searchParams);
+    setSelectedCat(parsed.cat);
+    setSearchInput(parsed.q);
+    setCurrentPage(parsed.page);
+    lastWrittenQsRef.current = searchParamsStr;
+  }, [searchParams, searchParamsStr]);
+
+  useEffect(() => {
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const parsed = parseLobbySearch(params);
+      if (searchDebounceRef.current !== null) {
+        window.clearTimeout(searchDebounceRef.current);
+        searchDebounceRef.current = null;
+      }
+      lastWrittenQsRef.current = params.toString();
+      setSelectedCat(parsed.cat);
+      setSearchInput(parsed.q);
+      setCurrentPage(parsed.page);
+    };
+    window.addEventListener("popstate", handlePopState);
+    return () => {
+      window.removeEventListener("popstate", handlePopState);
+      if (searchDebounceRef.current !== null) {
+        window.clearTimeout(searchDebounceRef.current);
+        searchDebounceRef.current = null;
+      }
+    };
+  }, []);
 
   // Load persisted desktop view mode
   useEffect(() => {
@@ -238,38 +316,18 @@ function ExamLobbyContent() {
     } catch {}
   }, []);
 
-  const updateUrlParams = useCallback(
-    (next: { cat?: string; q?: string; page?: number }) => {
-      const params = new URLSearchParams(searchParams.toString());
-      const nextCat = next.cat !== undefined ? next.cat : urlCat;
-      const nextQ = next.q !== undefined ? next.q : urlQuery;
-      const nextPage = next.page !== undefined ? next.page : urlPage;
-
-      if (nextCat && nextCat !== "all") params.set("cat", nextCat);
-      else params.delete("cat");
-
-      if (nextQ.trim()) params.set("q", nextQ.trim());
-      else params.delete("q");
-
-      if (nextPage > 1) params.set("page", String(nextPage));
-      else params.delete("page");
-
-      const qs = params.toString();
-      router.replace(qs ? `/?${qs}` : "/", { scroll: false });
-    },
-    [router, searchParams, urlCat, urlQuery, urlPage]
-  );
-
-  // Debounce search input synchronization to URL
-  useEffect(() => {
-    const trimmedInput = searchInput.trim();
-    const trimmedUrl = urlQuery.trim();
-    if (trimmedInput === trimmedUrl) return;
-    const timer = window.setTimeout(() => {
-      updateUrlParams({ q: searchInput, page: 1 });
-    }, 200);
-    return () => window.clearTimeout(timer);
-  }, [searchInput, urlQuery, updateUrlParams]);
+  const handleSearchInputChange = (val: string) => {
+    setSearchInput(val);
+    setCurrentPage(1);
+    if (searchDebounceRef.current !== null) {
+      window.clearTimeout(searchDebounceRef.current);
+      searchDebounceRef.current = null;
+    }
+    searchDebounceRef.current = window.setTimeout(() => {
+      searchDebounceRef.current = null;
+      syncUrlParams({ cat: filterStateRef.current.cat, q: val, page: 1 });
+    }, 180);
+  };
 
   const handleViewModeChange = (mode: "grid" | "table") => {
     setViewMode(mode);
@@ -341,19 +399,26 @@ function ExamLobbyContent() {
   };
 
   const handleCatChange = (catId: string) => {
-    updateUrlParams({ cat: catId, page: 1 });
+    setSelectedCat(catId);
+    setCurrentPage(1);
+    syncUrlParams({ cat: catId, q: filterStateRef.current.q, page: 1 });
   };
 
   const handleClearSearch = () => {
+    if (searchDebounceRef.current !== null) {
+      window.clearTimeout(searchDebounceRef.current);
+      searchDebounceRef.current = null;
+    }
     setSearchInput("");
-    updateUrlParams({ q: "", page: 1 });
+    setCurrentPage(1);
+    syncUrlParams({ cat: filterStateRef.current.cat, q: "", page: 1 });
   };
 
   // Validate active category against loaded categories
   const activeCat = useMemo(() => {
-    if (urlCat === "all" || categories.length === 0) return urlCat;
-    return categories.some((c) => c.id === urlCat) ? urlCat : "all";
-  }, [urlCat, categories]);
+    if (selectedCat === "all" || categories.length === 0) return selectedCat;
+    return categories.some((c) => c.id === selectedCat) ? selectedCat : "all";
+  }, [selectedCat, categories]);
 
   const filteredExams = useMemo(() => {
     const q = searchInput.trim().toLowerCase();
@@ -369,12 +434,13 @@ function ExamLobbyContent() {
   }, [exams, activeCat, searchInput]);
 
   const totalPages = Math.max(1, Math.ceil(filteredExams.length / PAGE_SIZE));
-  const safePage = Math.max(1, Math.min(totalPages, urlPage));
+  const safePage = Math.max(1, Math.min(totalPages, currentPage));
   const pagedExams = filteredExams.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
 
   const handlePageChange = (newPage: number) => {
     const nextSafe = Math.max(1, Math.min(totalPages, newPage));
-    updateUrlParams({ page: nextSafe });
+    setCurrentPage(nextSafe);
+    syncUrlParams({ cat: activeCat, q: filterStateRef.current.q, page: nextSafe });
     document.getElementById("exam-list-top")?.scrollIntoView({ behavior: "smooth" });
   };
 
@@ -497,7 +563,7 @@ function ExamLobbyContent() {
           </div>
 
           {/* Right Column: Continue Last Draft / Start Latest Exam */}
-          <div className="bg-surface-2/70 border border-border rounded-2xl p-4 sm:p-5 flex flex-col justify-between gap-4">
+          <div className="bg-surface-2/70 border border-border rounded-2xl p-4 sm:p-5 overflow-visible flex flex-col justify-between gap-4">
             {loading && !resumeTarget ? (
               <div className="space-y-3">
                 <Skeleton className="h-4 w-24" />
@@ -507,8 +573,8 @@ function ExamLobbyContent() {
               </div>
             ) : resumeTarget ? (
               <>
-                <div className="space-y-2">
-                  <div className="flex items-center justify-between gap-2">
+                <div className="space-y-2.5 pt-0.5 overflow-visible">
+                  <div className="flex flex-wrap items-center justify-between gap-2">
                     <Badge
                       tone={
                         resumeTarget.kind === "latest-exam" ? "primary" : "warning"
@@ -655,7 +721,7 @@ function ExamLobbyContent() {
           <input
             type="text"
             value={searchInput}
-            onChange={(e) => setSearchInput(e.target.value)}
+            onChange={(e) => handleSearchInputChange(e.target.value)}
             placeholder="搜索真题关键词（如：2024、英语一、英语二、阅读、完形...）"
             aria-label="搜索真题关键词"
             className="input-compact w-full h-9 pl-10 pr-9 text-xs rounded-xl bg-surface border border-border text-fg placeholder:text-fg-subtle focus:outline-none focus:ring-2 focus:ring-primary/30 transition-colors"

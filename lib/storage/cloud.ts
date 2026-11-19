@@ -101,12 +101,22 @@ export async function uploadBackupToCloud(): Promise<CloudBackupActionResult> {
 
     // 🗜️ Free Quota Optimization: Native Gzip compression before uploading to Storage Bucket
     let blob: Blob;
+    let usedGzip = false;
     if (typeof CompressionStream !== "undefined") {
-      const stream = new Blob([jsonString], { type: "application/json" })
-        .stream()
-        .pipeThrough(new CompressionStream("gzip"));
-      const rawBlob = await new Response(stream).blob();
-      blob = new Blob([await rawBlob.arrayBuffer()], { type: "application/json" });
+      try {
+        const stream = new Blob([jsonString], { type: "application/json" })
+          .stream()
+          .pipeThrough(new CompressionStream("gzip"));
+        const rawBlob = await new Response(stream).blob();
+        blob = new Blob([await rawBlob.arrayBuffer()], { type: "application/json" });
+        usedGzip = true;
+      } catch (gzipErr) {
+        console.warn(
+          "[Storage Backup] CompressionStream gzip failed, falling back to plain JSON:",
+          gzipErr
+        );
+        blob = new Blob([jsonString], { type: "application/json" });
+      }
     } else {
       blob = new Blob([jsonString], { type: "application/json" });
     }
@@ -129,7 +139,7 @@ export async function uploadBackupToCloud(): Promise<CloudBackupActionResult> {
       vocabCount: state.vocabulary.length,
       favoritesCount: state.favorites.length,
       examsCount: Object.keys(state.examResults).length,
-      storageType: "supabase_storage_bucket_gzip",
+      storageType: usedGzip ? "supabase_storage_bucket_gzip" : "supabase_storage_bucket_json",
       backedUpAt: new Date().toISOString(),
       dataHash: localDataHash,
     };

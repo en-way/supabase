@@ -12,6 +12,7 @@ import {
   Award,
   Clock,
   Keyboard,
+  ListOrdered,
   Maximize2,
   Minimize2,
   Printer,
@@ -32,6 +33,7 @@ interface ExamTopBarProps {
   isZenMode: boolean;
   onToggleZen: () => void;
   onOpenShortcuts: () => void;
+  onOpenAnswerSheet: () => void;
   onRequestSubmit: () => void;
   onRetake: () => void;
 }
@@ -49,6 +51,7 @@ export function ExamTopBar({
   isZenMode,
   onToggleZen,
   onOpenShortcuts,
+  onOpenAnswerSheet,
   onRequestSubmit,
   onRetake,
 }: ExamTopBarProps) {
@@ -115,6 +118,23 @@ export function ExamTopBar({
       <div className="flex items-center gap-2 shrink-0">
         {!isPrintMode && (
           <Button
+            variant="secondary"
+            size="sm"
+            onClick={onOpenAnswerSheet}
+            disabled={isTimeUp}
+            title="打开全真答题卡快速跳转 (快捷键 M)"
+          >
+            <ListOrdered className="w-3.5 h-3.5 text-primary" />
+            <span>答题卡</span>
+            <span className="font-mono tabular-nums text-[10px] px-1.5 py-0.5 rounded-full bg-surface-2 text-fg font-bold">
+              {answeredCount}/{totalQuestions}
+            </span>
+            <Kbd className="hidden lg:inline-flex">M</Kbd>
+          </Button>
+        )}
+
+        {!isPrintMode && (
+          <Button
             variant={isZenMode ? "primary" : "secondary"}
             size="sm"
             onClick={onToggleZen}
@@ -128,7 +148,12 @@ export function ExamTopBar({
             <span className="hidden sm:inline">
               {isZenMode ? "退出专注" : "专注模式"}
             </span>
-            <Kbd className="hidden lg:inline-flex">Z</Kbd>
+            <Kbd
+              variant={isZenMode ? "onPrimary" : "default"}
+              className="hidden lg:inline-flex"
+            >
+              Z
+            </Kbd>
           </Button>
         )}
 

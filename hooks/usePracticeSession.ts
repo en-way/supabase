@@ -94,6 +94,7 @@ export function usePracticeSession(examId: string | null) {
     examId,
     exam,
     editingNotes,
+    isOverlayOpen: showAnswerSheet || showPassageSheet || showShortcutsModal,
   });
   practiceStateRef.current = {
     currentIndex,
@@ -102,6 +103,7 @@ export function usePracticeSession(examId: string | null) {
     examId,
     exam,
     editingNotes,
+    isOverlayOpen: showAnswerSheet || showPassageSheet || showShortcutsModal,
   };
 
   useEffect(() => {
@@ -152,6 +154,10 @@ export function usePracticeSession(examId: string | null) {
     practiceStateRef.current.currentIndex = safeIdx;
     setCurrentIndex(safeIdx);
     persistDraft(uAns, safeIdx);
+
+    if (typeof window !== "undefined") {
+      window.getSelection()?.removeAllRanges();
+    }
 
     if (passageContainerRef.current) {
       passageContainerRef.current.scrollTo({ top: 0, behavior: "smooth" });
@@ -254,11 +260,14 @@ export function usePracticeSession(examId: string | null) {
     });
   };
 
-  const handleSaveNote = (noteText: string) => {
-    const q = questions[currentIndex] || questions[0];
-    if (!q) return;
-    setEditingNotes((prev) => ({ ...prev, [q.id]: noteText }));
-    updateFavoriteNote(q.id, noteText);
+  const handleSaveNote = (noteText: string, explicitQuestionId?: string) => {
+    const q = explicitQuestionId
+      ? questions.find((item) => item.id === explicitQuestionId)
+      : questions[currentIndex] || questions[0];
+    const targetId = explicitQuestionId || q?.id;
+    if (!targetId) return;
+    setEditingNotes((prev) => ({ ...prev, [targetId]: noteText }));
+    updateFavoriteNote(targetId, noteText);
   };
 
   const handleJumpToQuestion = (targetIdx: number) => {
@@ -307,7 +316,11 @@ export function usePracticeSession(examId: string | null) {
   }, [examId, loading, questions]);
 
   useKeyboardGuard((e: KeyboardEvent) => {
-    const { currentIndex: cIdx, questions: qs } = practiceStateRef.current;
+    const {
+      currentIndex: cIdx,
+      questions: qs,
+      isOverlayOpen,
+    } = practiceStateRef.current;
     const targetQ = qs[cIdx];
     const validKeys = targetQ
       ? normalizeOptions(targetQ.options).map((o) => o.key.toUpperCase())
@@ -328,7 +341,7 @@ export function usePracticeSession(examId: string | null) {
       return;
     }
 
-    if (key === "Z") {
+    if (key === "Z" && !isOverlayOpen) {
       e.preventDefault();
       setIsZenMode((prev) => !prev);
       return;
@@ -340,22 +353,31 @@ export function usePracticeSession(examId: string | null) {
       return;
     }
 
+    if (isOverlayOpen) return;
+
+    const isPrevKey =
+      e.key === "ArrowLeft" || e.code === "ArrowLeft" || e.key === "Left" || key === "J";
+    const isNextKey =
+      e.key === "ArrowRight" || e.code === "ArrowRight" || e.key === "Right" || key === "K";
+    const isScrollUpKey = e.key === "ArrowUp" || e.code === "ArrowUp";
+    const isScrollDownKey = e.key === "ArrowDown" || e.code === "ArrowDown";
+
     if (validKeys.includes(key)) {
       e.preventDefault();
       handleSelectOption(key, cIdx);
     } else if (key === "F") {
       e.preventDefault();
       handleToggleFav();
-    } else if (e.key === "ArrowLeft" || key === "J") {
+    } else if (isPrevKey) {
       e.preventDefault();
       navigateTo(cIdx - 1);
-    } else if (e.key === "ArrowRight" || key === "K") {
+    } else if (isNextKey) {
       e.preventDefault();
       navigateTo(cIdx + 1);
-    } else if (e.key === "ArrowUp") {
+    } else if (isScrollUpKey) {
       e.preventDefault();
       passageContainerRef.current?.scrollBy({ top: -140, behavior: "smooth" });
-    } else if (e.key === "ArrowDown") {
+    } else if (isScrollDownKey) {
       e.preventDefault();
       passageContainerRef.current?.scrollBy({ top: 140, behavior: "smooth" });
     }

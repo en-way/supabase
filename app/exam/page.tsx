@@ -13,6 +13,7 @@ import { QuestionOptionList } from "@/components/reader/QuestionOptionList";
 import { AnswerSheetSections } from "@/components/reader/AnswerSheetSections";
 import { ZenFloatingBar } from "@/components/reader/ZenFloatingBar";
 import { ExamTopBar } from "@/components/exam/ExamTopBar";
+import ExamResultSummary from "@/components/exam/ExamResultSummary";
 import { TimeUpLockBanner } from "@/components/exam/TimeUpLockBanner";
 import { ExamAnswerSheetDrawer } from "@/components/exam/ExamAnswerSheetDrawer";
 import { ExamSubmitReviewSheet } from "@/components/exam/ExamSubmitReviewSheet";
@@ -34,11 +35,6 @@ import {
 
 const KeyboardShortcutsModal = dynamic(
   () => import("@/components/KeyboardShortcutsModal"),
-  { ssr: false }
-);
-
-const ExamResultSummary = dynamic(
-  () => import("@/components/exam/ExamResultSummary"),
   { ssr: false }
 );
 
@@ -65,6 +61,8 @@ function ExamContent() {
     remainingSeconds,
     isTimeUp,
     isSubmitted,
+    reportOnlyMode,
+    setReportOnlyMode,
     result,
     activePassageId,
     setActivePassageId,
@@ -316,22 +314,36 @@ function ExamContent() {
 
   return (
     <div className="space-y-6 pb-20 animate-in fade-in duration-200">
-      <ExamTopBar
-        exam={exam}
-        isPrintMode={isPrintMode}
-        isSubmitted={isSubmitted}
-        isTimeUp={isTimeUp}
-        result={result}
-        examAccuracy={examAccuracy}
-        answeredCount={answeredCount}
-        totalQuestions={totalExamQuestions}
-        remainingSeconds={remainingSeconds}
-        isZenMode={isZenMode}
-        onToggleZen={() => setIsZenMode((p) => !p)}
-        onOpenShortcuts={() => setShowShortcutsModal(true)}
-        onRequestSubmit={() => handleSubmit(false)}
-        onRetake={handleRetake}
-      />
+      {isZenMode && !isPrintMode ? (
+        <ZenFloatingBar
+          modeLabel="专注考场"
+          title={exam.title}
+          metaText={`${formatExamTimer(remainingSeconds)} · 已答 ${answeredCount}/${questions.length} 题`}
+          onOpenAnswerSheet={() => setShowMobileAnswerSheet(true)}
+          answerSheetLabel={`${answeredCount}/${questions.length}`}
+          disableAnswerSheet={isTimeUp}
+          onOpenShortcuts={() => setShowShortcutsModal(true)}
+          onExitZen={() => setIsZenMode(false)}
+        />
+      ) : (
+        <ExamTopBar
+          exam={exam}
+          isPrintMode={isPrintMode}
+          isSubmitted={isSubmitted}
+          isTimeUp={isTimeUp}
+          result={result}
+          examAccuracy={examAccuracy}
+          answeredCount={answeredCount}
+          totalQuestions={totalExamQuestions}
+          remainingSeconds={remainingSeconds}
+          isZenMode={isZenMode}
+          onToggleZen={() => setIsZenMode((p) => !p)}
+          onOpenShortcuts={() => setShowShortcutsModal(true)}
+          onOpenAnswerSheet={() => setShowMobileAnswerSheet(true)}
+          onRequestSubmit={() => handleSubmit(false)}
+          onRetake={handleRetake}
+        />
+      )}
 
       <TimeUpLockBanner visible={isTimeUp && !isSubmitted && !isPrintMode} />
 
@@ -343,144 +355,134 @@ function ExamContent() {
         />
       )}
 
-      {isZenMode && (
-        <ZenFloatingBar
-          modeLabel="专注考场"
-          title={exam.title}
-          metaText={`${formatExamTimer(remainingSeconds)} · 已答 ${answeredCount}/${questions.length} 题`}
-          onOpenShortcuts={() => setShowShortcutsModal(true)}
-          onExitZen={() => setIsZenMode(false)}
-        />
-      )}
-
-      {isSubmitted && result && (
+      {isSubmitted && result && reportOnlyMode && !isPrintMode ? (
         <ExamResultSummary
+          standalone
           exam={exam}
           result={result}
+          questions={questions}
           totalQuestions={questions.length}
-        />
-      )}
-
-      {!isSubmitted && !isPrintMode && (
-        <div className="hidden lg:flex items-center justify-between px-3.5 py-2 bg-surface-2/80 border border-border rounded-xl text-xs text-fg-muted no-print">
-          <div className="flex items-center gap-2">
-            <Keyboard className="w-3.5 h-3.5 text-fg-subtle" />
-            <span className="font-semibold text-fg">键盘快捷键：</span>
-            <span className="flex items-center gap-1">
-              键入 <Kbd>A</Kbd> <Kbd>B</Kbd> <Kbd>C</Kbd> <Kbd>D</Kbd> 瞬选答案，方向键{" "}
-              <Kbd>←</Kbd> <Kbd>→</Kbd> 切题
-            </span>
-          </div>
-          <span className="text-[11px] text-fg-subtle font-mono tabular-nums">
-            当前聚焦：第 {focusedIndex + 1} 题
-          </span>
-        </div>
-      )}
-
-      {passages.length > 0 && !isSubmitted && !isPrintMode && (
-        <div className="lg:hidden sticky top-[4.5rem] z-sticky flex items-center bg-surface-2/95 backdrop-blur-md p-1 rounded-xl border border-border shadow-1 no-print">
-          <button
-            type="button"
-            onClick={() => setMobileTab("passage")}
-            className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-colors ${
-              mobileTab === "passage"
-                ? "bg-surface text-primary shadow-1"
-                : "text-fg-muted"
-            }`}
-          >
-            <BookOpen className="w-3.5 h-3.5" />
-            <span>阅读材料 ({passages.length})</span>
-          </button>
-          <button
-            type="button"
-            onClick={() => setMobileTab("questions")}
-            className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-colors ${
-              mobileTab === "questions"
-                ? "bg-surface text-primary shadow-1"
-                : "text-fg-muted"
-            }`}
-          >
-            <FileText className="w-3.5 h-3.5" />
-            <span>
-              试卷作答 ({answeredCount}/{questions.length})
-            </span>
-          </button>
-        </div>
-      )}
-
-      {isPrintMode ? (
-        <div className="max-w-4xl mx-auto space-y-8">
-          {leftPane}
-          {rightPane}
-        </div>
-      ) : passages.length > 0 ? (
-        <SplitPane
-          storageKey="enway_split_ratio_exam"
-          defaultRatio={55}
-          isZenMode={isZenMode}
-          leftPane={leftPane}
-          rightPane={rightPane}
+          onEnterReview={() => {
+            setReportOnlyMode(false);
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+          onRetake={handleRetake}
         />
       ) : (
-        <div className="max-w-3xl mx-auto">{rightPane}</div>
-      )}
+        <>
+          {isSubmitted && result && (
+            <ExamResultSummary
+              exam={exam}
+              result={result}
+              questions={questions}
+              totalQuestions={questions.length}
+            />
+          )}
 
-      {!isSubmitted && !isPrintMode && (
-        <div className="lg:hidden fixed bottom-0 left-0 right-0 z-nav bg-surface/95 backdrop-blur-xl border-t border-border px-4 py-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2 flex items-center justify-between gap-3 no-print">
-          <Button
-            variant="secondary"
-            size="sm"
-            onClick={() => setShowMobileAnswerSheet(true)}
-            disabled={isTimeUp}
-          >
-            <ListOrdered className="w-4 h-4 text-primary" />
-            <span className="font-mono tabular-nums">
-              答题卡 ({answeredCount}/{questions.length})
-            </span>
-          </Button>
+          {!isSubmitted && !isPrintMode && (
+            <div className="hidden lg:flex items-center justify-between px-3.5 py-2 bg-surface-2/80 border border-border rounded-xl text-xs text-fg-muted no-print">
+              <div className="flex items-center gap-2">
+                <Keyboard className="w-3.5 h-3.5 text-fg-subtle" />
+                <span className="font-semibold text-fg">键盘快捷键：</span>
+                <span className="flex items-center gap-1">
+                  键入 <Kbd>A</Kbd> <Kbd>B</Kbd> <Kbd>C</Kbd> <Kbd>D</Kbd> 瞬选答案，方向键{" "}
+                  <Kbd>←</Kbd> <Kbd>→</Kbd> 切题
+                </span>
+              </div>
+              <span className="text-[11px] text-fg-subtle font-mono tabular-nums">
+                当前聚焦：第 {focusedIndex + 1} 题
+              </span>
+            </div>
+          )}
 
-          <div className="flex items-center gap-2">
-            {passages.length > 0 && (
+          {passages.length > 0 && !isSubmitted && !isPrintMode && (
+            <div className="lg:hidden sticky top-[4.5rem] z-sticky flex items-center bg-surface-2/95 backdrop-blur-md p-1 rounded-xl border border-border shadow-1 no-print">
+              <button
+                type="button"
+                onClick={() => setMobileTab("passage")}
+                className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-colors ${
+                  mobileTab === "passage"
+                    ? "bg-surface text-primary shadow-1"
+                    : "text-fg-muted"
+                }`}
+              >
+                <BookOpen className="w-3.5 h-3.5" />
+                <span>阅读材料 ({passages.length})</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setMobileTab("questions")}
+                className={`flex-1 py-2 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-colors ${
+                  mobileTab === "questions"
+                    ? "bg-surface text-primary shadow-1"
+                    : "text-fg-muted"
+                }`}
+              >
+                <FileText className="w-3.5 h-3.5" />
+                <span>
+                  试卷作答 ({answeredCount}/{questions.length})
+                </span>
+              </button>
+            </div>
+          )}
+
+          {isPrintMode ? (
+            <div className="max-w-4xl mx-auto space-y-8">
+              {leftPane}
+              {rightPane}
+            </div>
+          ) : passages.length > 0 ? (
+            <SplitPane
+              storageKey="enway_split_ratio_exam"
+              defaultRatio={55}
+              isZenMode={isZenMode}
+              leftPane={leftPane}
+              rightPane={rightPane}
+            />
+          ) : (
+            <div className="max-w-3xl mx-auto">{rightPane}</div>
+          )}
+
+          {!isSubmitted && !isPrintMode && (
+            <div className="lg:hidden fixed bottom-0 left-0 right-0 z-nav bg-surface/95 backdrop-blur-xl border-t border-border px-4 py-2.5 pb-[max(0.75rem,env(safe-area-inset-bottom))] shadow-2 flex items-center justify-between gap-3 no-print">
               <Button
                 variant="secondary"
                 size="sm"
-                onClick={() =>
-                  setMobileTab(mobileTab === "questions" ? "passage" : "questions")
-                }
+                onClick={() => setShowMobileAnswerSheet(true)}
+                disabled={isTimeUp}
               >
-                <BookOpen className="w-3.5 h-3.5" />
-                <span>{mobileTab === "questions" ? "看原文" : "看试题"}</span>
+                <ListOrdered className="w-4 h-4 text-primary" />
+                <span className="font-mono tabular-nums">
+                  答题卡 ({answeredCount}/{questions.length})
+                </span>
               </Button>
-            )}
 
-            <Button
-              size="sm"
-              onClick={() => handleSubmit(false)}
-              disabled={isTimeUp}
-            >
-              <Send className="w-3.5 h-3.5" />
-              <span>{isTimeUp ? "交卷中" : "交卷"}</span>
-            </Button>
-          </div>
-        </div>
-      )}
+              <div className="flex items-center gap-2">
+                {passages.length > 0 && (
+                  <Button
+                    variant="secondary"
+                    size="sm"
+                    onClick={() =>
+                      setMobileTab(mobileTab === "questions" ? "passage" : "questions")
+                    }
+                  >
+                    <BookOpen className="w-3.5 h-3.5" />
+                    <span>{mobileTab === "questions" ? "看原文" : "看试题"}</span>
+                  </Button>
+                )}
 
-      {!isSubmitted && !isPrintMode && (
-        <div className="hidden lg:block fixed bottom-6 right-6 z-sticky no-print">
-          <button
-            type="button"
-            onClick={() => setShowMobileAnswerSheet(true)}
-            disabled={isTimeUp}
-            className="flex items-center gap-2 px-4 py-2.5 rounded-full bg-fg text-bg hover:opacity-90 shadow-pop border border-border transition-all active:scale-95 disabled:opacity-50"
-            title="展开全真答题卡，快速跳选任意题目"
-          >
-            <ListOrdered className="w-4 h-4 text-primary" />
-            <span className="text-xs font-bold">答题卡</span>
-            <span className="px-1.5 py-0.5 rounded-full bg-bg/20 text-[10px] font-mono tabular-nums font-bold">
-              {answeredCount}/{questions.length}
-            </span>
-          </button>
-        </div>
+                <Button
+                  size="sm"
+                  onClick={() => handleSubmit(false)}
+                  disabled={isTimeUp}
+                >
+                  <Send className="w-3.5 h-3.5" />
+                  <span>{isTimeUp ? "交卷中" : "交卷"}</span>
+                </Button>
+              </div>
+            </div>
+          )}
+        </>
       )}
 
       <ExamAnswerSheetDrawer

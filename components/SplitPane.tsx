@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { Columns, Split, Layout } from "lucide-react";
+import { Split } from "lucide-react";
 
 interface SplitPaneProps {
   leftPane: React.ReactNode;
@@ -141,65 +141,67 @@ export default function SplitPane({
         </div>
       </div>
 
-      {/* Main Container */}
+      {/* Main Container: Single responsive DOM tree prevents duplicate PassageHighlighter / ref races */}
       <div
         ref={containerRef}
-        className={`relative w-full ${isDragging ? "select-none" : ""}`}
+        style={
+          {
+            "--split-left": `${leftRatio}%`,
+            "--split-right": `${100 - leftRatio}%`,
+          } as React.CSSProperties
+        }
+        className={`relative w-full flex flex-col lg:flex-row items-stretch lg:items-start gap-5 lg:gap-0 ${
+          isDragging ? "select-none" : ""
+        }`}
       >
-        {/* Desktop Split View (Screen >= lg) */}
-        <div className="hidden lg:flex w-full items-start gap-0">
-          {/* Left Pane */}
-          <div
-            style={{ width: `${leftRatio}%` }}
-            className="shrink-0 transition-[width] duration-75"
-          >
-            {leftPane}
-          </div>
+        {/* Left Pane */}
+        <div
+          className={`w-full lg:w-[var(--split-left)] lg:shrink-0 min-w-0 ${
+            isDragging ? "" : "lg:transition-[width] lg:duration-75"
+          }`}
+        >
+          {leftPane}
+        </div>
 
-          {/* Draggable Divider Handle */}
+        {/* Draggable Divider Handle (Desktop only) */}
+        <div
+          role="separator"
+          aria-orientation="vertical"
+          aria-label="调整左右分栏比例"
+          onMouseDown={handleMouseDown}
+          onDoubleClick={() => updateRatio(defaultRatio)}
+          title="按住鼠标拖拽微调分栏宽度，双击恢复默认 6:4"
+          className="hidden lg:flex w-4 shrink-0 -mx-1 group relative items-center justify-center cursor-col-resize self-stretch z-10 select-none py-4"
+        >
           <div
-            onMouseDown={handleMouseDown}
-            onDoubleClick={() => updateRatio(defaultRatio)}
-            title="按住鼠标拖拽微调分栏宽度，双击恢复默认 6:4"
-            className="w-4 shrink-0 -mx-1 group relative flex items-center justify-center cursor-col-resize self-stretch z-10 select-none py-4"
+            className={`w-1 h-full rounded-full transition-all duration-150 ${
+              isDragging
+                ? "bg-primary w-1.5"
+                : "bg-transparent group-hover:bg-primary/40"
+            }`}
+          />
+          <div
+            className={`absolute top-1/2 -translate-y-1/2 w-3.5 h-7 rounded-full bg-surface border border-border shadow-1 flex items-center justify-center transition-all ${
+              isDragging
+                ? "scale-110 border-primary text-primary"
+                : "group-hover:scale-105 text-fg-subtle"
+            }`}
           >
-            <div
-              className={`w-1 h-full rounded-full transition-all duration-150 ${
-                isDragging
-                  ? "bg-primary w-1.5"
-                  : "bg-transparent group-hover:bg-primary/40"
-              }`}
-            />
-            <div
-              className={`absolute top-1/2 -translate-y-1/2 w-3.5 h-7 rounded-full bg-surface border border-border shadow-1 flex items-center justify-center transition-all ${
-                isDragging
-                  ? "scale-110 border-primary text-primary"
-                  : "group-hover:scale-105 text-fg-subtle"
-              }`}
-            >
-              <div className="flex flex-col space-y-0.5">
-                <span className="w-0.5 h-0.5 rounded-full bg-current" />
-                <span className="w-0.5 h-0.5 rounded-full bg-current" />
-                <span className="w-0.5 h-0.5 rounded-full bg-current" />
-              </div>
+            <div className="flex flex-col space-y-0.5">
+              <span className="w-0.5 h-0.5 rounded-full bg-current" />
+              <span className="w-0.5 h-0.5 rounded-full bg-current" />
+              <span className="w-0.5 h-0.5 rounded-full bg-current" />
             </div>
-          </div>
-
-          {/* Right Pane */}
-          <div
-            style={{ width: `${100 - leftRatio}%` }}
-            className="shrink-0 transition-[width] duration-75 pl-1"
-          >
-            {rightPane}
           </div>
         </div>
 
-        {/* Mobile / Tablet Fallback (< lg) */}
-        <div className="block lg:hidden w-full">
-          <div className="w-full space-y-5">
-            {leftPane}
-            {rightPane}
-          </div>
+        {/* Right Pane */}
+        <div
+          className={`w-full lg:w-[var(--split-right)] lg:shrink-0 min-w-0 lg:pl-1 ${
+            isDragging ? "" : "lg:transition-[width] lg:duration-75"
+          }`}
+        >
+          {rightPane}
         </div>
       </div>
     </div>
