@@ -99,6 +99,7 @@ export default function MistakesPage() {
   const [isLoadingOnline, setIsLoadingOnline] = useState(false);
   const [activeTab, setActiveTab] = useState<"unmastered" | "mastered">("unmastered");
   const [categoryFilter, setCategoryFilter] = useState<string>("all");
+  const [selectedExamId, setSelectedExamId] = useState<string>("all");
 
   const [retestAnswers, setRetestAnswers] = useState<Record<string, string>>({});
   const [congratsId, setCongratsId] = useState<string | null>(null);
@@ -384,11 +385,54 @@ export default function MistakesPage() {
     }
   };
 
-  const filteredMistakes = useMemo(() => {
+  const categoryMistakes = useMemo(() => {
     return mistakes
       .filter((m) => (activeTab === "unmastered" ? !m.isMastered : m.isMastered))
       .filter((m) => (categoryFilter === "all" ? true : m.categoryId === categoryFilter));
   }, [mistakes, activeTab, categoryFilter]);
+
+  const examOptions = useMemo(() => {
+    const map = new Map<
+      string,
+      { id: string; title: string; year: number; count: number }
+    >();
+    categoryMistakes.forEach((m) => {
+      const detail = questionMap[m.questionId];
+      const examId = m.examId || detail?.exam_id || "";
+      if (!examId) return;
+      const year = detail?.exams?.year ?? 0;
+      const rawTitle = detail?.exams?.title || "历年真题";
+      const displayTitle =
+        year && !rawTitle.includes(String(year)) ? `${year}年 ${rawTitle}` : rawTitle;
+      const existing = map.get(examId);
+      if (existing) {
+        existing.count += 1;
+      } else {
+        map.set(examId, { id: examId, title: displayTitle, year, count: 1 });
+      }
+    });
+    return Array.from(map.values()).sort((a, b) => {
+      if (b.year !== a.year) return b.year - a.year;
+      return a.title.localeCompare(b.title, "zh-CN");
+    });
+  }, [categoryMistakes, questionMap]);
+
+  useEffect(() => {
+    if (
+      selectedExamId !== "all" &&
+      !examOptions.some((opt) => opt.id === selectedExamId)
+    ) {
+      setSelectedExamId("all");
+    }
+  }, [examOptions, selectedExamId]);
+
+  const filteredMistakes = useMemo(() => {
+    if (selectedExamId === "all") return categoryMistakes;
+    return categoryMistakes.filter((m) => {
+      const examId = m.examId || questionMap[m.questionId]?.exam_id || "";
+      return examId === selectedExamId;
+    });
+  }, [categoryMistakes, selectedExamId, questionMap]);
 
   const handleOpenSideBySide = (mistake: MistakeItem, index: number) => {
     const detail = questionMap[mistake.questionId];
@@ -562,18 +606,35 @@ export default function MistakesPage() {
           ]}
         />
 
-        <div className="flex flex-wrap items-center gap-3 text-xs text-fg-muted">
-          <div className="flex items-center gap-1.5 shrink-0">
-            <span className="text-fg-subtle whitespace-nowrap shrink-0">分类：</span>
+        <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-2.5 sm:gap-3 text-xs text-fg-muted w-full sm:w-auto">
+          <div className="flex items-center gap-1.5 w-full sm:w-auto">
+            <span className="text-fg-subtle whitespace-nowrap shrink-0">科目：</span>
             <Select
               compact
               value={categoryFilter}
               onChange={(e) => setCategoryFilter(e.target.value)}
-              className="h-8 text-xs w-auto min-w-[140px]"
+              className="h-8 text-xs flex-1 min-w-0 sm:flex-initial sm:w-auto sm:min-w-[140px] truncate"
             >
-              <option value="all">全部分类</option>
+              <option value="all">全部科目</option>
               <option value="ky1">考研英语一 (KY-1)</option>
               <option value="ky2">考研英语二 (KY-2)</option>
+            </Select>
+          </div>
+
+          <div className="flex items-center gap-1.5 w-full sm:w-auto">
+            <span className="text-fg-subtle whitespace-nowrap shrink-0">试卷：</span>
+            <Select
+              compact
+              value={selectedExamId}
+              onChange={(e) => setSelectedExamId(e.target.value)}
+              className="h-8 text-xs flex-1 min-w-0 sm:flex-initial sm:w-auto sm:min-w-[180px] sm:max-w-[260px] truncate"
+            >
+              <option value="all">全部试卷 ({categoryMistakes.length}题)</option>
+              {examOptions.map((opt) => (
+                <option key={opt.id} value={opt.id}>
+                  {opt.title} ({opt.count}题)
+                </option>
+              ))}
             </Select>
           </div>
 

@@ -122,7 +122,7 @@ export function PracticeTopBar({
           onClick={onOpenShortcuts}
           title="PC 快捷键速查表 (快捷键 ? 或 H)"
           aria-label="PC 快捷键速查表"
-          className="hidden sm:inline-flex px-2.5"
+          className="hidden lg:inline-flex px-2.5"
         >
           <Keyboard className="w-3.5 h-3.5" />
         </Button>

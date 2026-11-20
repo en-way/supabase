@@ -212,8 +212,9 @@ function PracticeContent() {
           modeLabel="专注模式"
           title={exam?.title}
           metaText={`题号 ${currentIndex + 1} / ${questions.length} · 正确率 ${accuracy}%`}
+          mobileCompactText={`专注 · ${currentIndex + 1}/${questions.length}`}
           onOpenAnswerSheet={() => setShowAnswerSheet(true)}
-          answerSheetLabel={`${answeredCount}/${totalQuestions}`}
+          answerSheetLabel="答题卡"
           onOpenShortcuts={() => setShowShortcutsModal(true)}
           onExitZen={() => setIsZenMode(false)}
         />

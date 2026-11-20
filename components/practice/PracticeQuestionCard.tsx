@@ -53,25 +53,25 @@ export function PracticeQuestionCard({
 
   return (
     <Card className="p-5 sm:p-7 space-y-5">
-      <div className="flex items-start justify-between gap-3">
-        <div className="flex items-center gap-2">
-          <Badge tone="primary" className="font-mono font-bold">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-2 min-w-0">
+          <Badge tone="primary" className="font-mono font-bold whitespace-nowrap shrink-0">
             题号 {index + 1}
           </Badge>
-          <span className="text-xs text-fg-subtle font-medium">
+          <span className="text-xs text-fg-subtle font-medium whitespace-nowrap shrink-0">
             {qTypeLabel}（{question.points} 分）
           </span>
         </div>
 
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 shrink-0">
           {hasPassage && (
             <button
               type="button"
               onClick={onOpenPassageDrawer}
-              className="lg:hidden px-2.5 py-1 rounded-lg bg-primary-soft text-primary border border-primary/25 text-xs font-bold flex items-center gap-1 active:scale-95"
+              className="lg:hidden px-2.5 py-1.5 rounded-lg bg-primary-soft text-primary border border-primary/25 text-xs font-bold inline-flex items-center gap-1 active:scale-95 whitespace-nowrap shrink-0"
               title="在当前页面升起材料抽屉速查线索句"
             >
-              <BookOpen className="w-3.5 h-3.5" />
+              <BookOpen className="w-3.5 h-3.5 shrink-0" />
               <span>速查材料</span>
             </button>
           )}
@@ -80,14 +80,14 @@ export function PracticeQuestionCard({
             type="button"
             onClick={onToggleFavorite}
             title="收藏本题 (快捷键 F)"
-            className={`px-2.5 py-1 rounded-lg border text-xs font-medium flex items-center gap-1.5 transition-colors ${
+            className={`px-2.5 py-1.5 rounded-lg border text-xs font-medium inline-flex items-center gap-1.5 transition-colors whitespace-nowrap shrink-0 ${
               isFavorited
                 ? "bg-warning-soft border-warning/40 text-warning font-semibold"
                 : "bg-surface border-border text-fg-muted hover:text-fg"
             }`}
           >
             <Bookmark
-              className={`w-3.5 h-3.5 ${isFavorited ? "fill-warning text-warning" : ""}`}
+              className={`w-3.5 h-3.5 shrink-0 ${isFavorited ? "fill-warning text-warning" : ""}`}
             />
             <span>{isFavorited ? "已收藏" : "收藏"}</span>
             <Kbd className="hidden lg:inline-flex">F</Kbd>
