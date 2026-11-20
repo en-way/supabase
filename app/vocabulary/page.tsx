@@ -60,7 +60,7 @@ export default function VocabularyPage() {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isShuffled, setIsShuffled] = useState(false);
   const [shuffledOrder, setShuffledOrder] = useState<Record<string, number>>({});
-  const [maskContextWord, setMaskContextWord] = useState(true);
+  const [hideListTranslation, setHideListTranslation] = useState(false);
   const [autoPronounce, setAutoPronounce] = useState(false);
   const [showKeyHelp, setShowKeyHelp] = useState(false);
 
@@ -493,27 +493,7 @@ export default function VocabularyPage() {
               ]}
             />
 
-            <div className="flex items-center gap-2 justify-end flex-wrap">
-              <Button
-                variant={maskContextWord ? "primary" : "secondary"}
-                size="sm"
-                onClick={() => setMaskContextWord(!maskContextWord)}
-                title={
-                  maskContextWord
-                    ? "当前：例句词汇已挖空（挑战记忆）"
-                    : "当前：例句显示原词"
-                }
-              >
-                {maskContextWord ? (
-                  <EyeOff className="w-3.5 h-3.5" />
-                ) : (
-                  <Eye className="w-3.5 h-3.5" />
-                )}
-                <span className="hidden sm:inline">
-                  {maskContextWord ? "例句挖空开" : "例句挖空关"}
-                </span>
-              </Button>
-
+            <div className="flex items-center gap-2 justify-start sm:justify-end flex-wrap">
               <Button
                 variant={isShuffled ? "primary" : "secondary"}
                 size="sm"
@@ -521,6 +501,7 @@ export default function VocabularyPage() {
                 title={isShuffled ? "乱序抽查中" : "按收录时间顺序"}
               >
                 <Shuffle className="w-3.5 h-3.5" />
+                <span className="sm:hidden">乱序</span>
                 <span className="hidden sm:inline">乱序抽查</span>
               </Button>
 
@@ -531,6 +512,7 @@ export default function VocabularyPage() {
                 title="切换卡片时自动朗读"
               >
                 <Volume2 className="w-3.5 h-3.5" />
+                <span className="sm:hidden">自动读</span>
                 <span className="hidden sm:inline">自动发音</span>
               </Button>
 
@@ -540,7 +522,7 @@ export default function VocabularyPage() {
                 onClick={() => setShowKeyHelp(!showKeyHelp)}
                 title="键盘快捷键说明"
                 aria-label="键盘快捷键说明"
-                className="px-2.5"
+                className="px-2.5 hidden lg:inline-flex"
               >
                 <Keyboard className="w-4 h-4" />
               </Button>
@@ -641,7 +623,9 @@ export default function VocabularyPage() {
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                         <span>考点词汇 · 正面</span>
                       </div>
-                      <Badge tone="neutral">点击卡片或按空格翻转</Badge>
+                      <Badge tone="neutral">
+                        点击卡片<span className="hidden lg:inline">或按空格</span>翻转
+                      </Badge>
                     </div>
 
                     <div className="my-auto text-center space-y-3">
@@ -675,7 +659,7 @@ export default function VocabularyPage() {
                             {renderMaskedContext(
                               currentCard.context,
                               currentCard.word,
-                              maskContextWord
+                              true
                             )}
                           </p>
                         </div>
@@ -857,6 +841,20 @@ export default function VocabularyPage() {
                 ]}
               />
 
+              <Button
+                variant={hideListTranslation ? "primary" : "secondary"}
+                size="sm"
+                onClick={() => setHideListTranslation((prev) => !prev)}
+                title={hideListTranslation ? "显示中文释义" : "隐藏中文释义（自测记忆）"}
+              >
+                {hideListTranslation ? (
+                  <EyeOff className="w-3.5 h-3.5" />
+                ) : (
+                  <Eye className="w-3.5 h-3.5" />
+                )}
+                <span>{hideListTranslation ? "显示释义" : "隐藏释义"}</span>
+              </Button>
+
               {masteredCount > 0 && (
                 <Button
                   variant="ghost"
@@ -945,7 +943,11 @@ export default function VocabularyPage() {
                       </span>
                     )}
 
-                    <p className="mt-3 text-xs text-fg font-medium bg-surface-2/80 p-2.5 rounded-xl border border-border leading-relaxed">
+                    <p
+                      className={`mt-3 text-xs text-fg font-medium bg-surface-2/80 p-2.5 rounded-xl border border-border leading-relaxed transition-all ${
+                        hideListTranslation ? "blur-sm select-none print:filter-none" : ""
+                      }`}
+                    >
                       {item.translation}
                     </p>
 
