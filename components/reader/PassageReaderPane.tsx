@@ -16,6 +16,7 @@ interface PassageReaderPaneProps {
   onBlankClick?: (blankNum: number) => void;
   isSubmitted?: boolean;
   isPrintMode?: boolean;
+  isZenMode?: boolean;
   visibleOnMobile: boolean;
   onReturnToQuestions: () => void;
   returnLabel: string;
@@ -54,6 +55,7 @@ export function PassageReaderPane({
   onBlankClick,
   isSubmitted = false,
   isPrintMode = false,
+  isZenMode = false,
   visibleOnMobile,
   onReturnToQuestions,
   returnLabel,
@@ -80,7 +82,9 @@ export function PassageReaderPane({
       } lg:flex w-full bg-surface rounded-2xl border border-border shadow-1 flex-col ${
         isPrintMode
           ? "h-auto overflow-visible"
-          : "overflow-hidden lg:sticky lg:top-36 h-[calc(100dvh-12rem)] min-h-[360px] lg:h-[78vh]"
+          : isZenMode
+            ? "overflow-hidden lg:sticky lg:top-16 h-[calc(100dvh-10rem)] min-h-[360px] lg:h-[calc(100dvh-5.5rem)]"
+            : "overflow-hidden lg:sticky lg:top-36 h-[calc(100dvh-12rem)] min-h-[360px] lg:h-[78vh]"
       } print-page transition-colors duration-200`}
     >
       {/* Passage Header: Tabs + Typography Controls */}

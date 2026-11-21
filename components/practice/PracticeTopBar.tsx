@@ -53,7 +53,7 @@ export function PracticeTopBar({
   onCycleFontSize,
 }: PracticeTopBarProps) {
   return (
-    <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-surface/90 backdrop-blur-xl p-3.5 sm:p-4 rounded-2xl border border-border shadow-1 transition-colors duration-200">
+    <div className="sticky top-16 z-sticky flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-3 bg-surface/90 backdrop-blur-xl p-3.5 sm:p-4 rounded-2xl border border-border shadow-1 transition-colors duration-200">
       <div className="flex items-center gap-3 min-w-0">
         <Link
           href="/"

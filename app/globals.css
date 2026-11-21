@@ -126,7 +126,7 @@ textarea {
 .reading-prose {
   font-family: var(--font-reading);
   line-height: 1.8;
-  max-width: 68ch;
+  max-width: 100%;
   font-variant-ligatures: common-ligatures;
   hyphens: manual;
   text-wrap: pretty;

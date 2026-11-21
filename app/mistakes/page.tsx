@@ -837,9 +837,18 @@ export default function MistakesPage() {
 
               <div className="hidden md:flex items-center gap-2 text-[11px] text-fg-muted bg-surface px-3 py-1.5 rounded-xl border border-border">
                 <span className="text-primary font-semibold">快捷键：</span>
-                <span className="flex items-center gap-1">
-                  <Kbd>A</Kbd>–<Kbd>D</Kbd> 作答
-                </span>
+                {(() => {
+                  const keys = normalizeOptions(
+                    sideBySideItem.detail.options || []
+                  ).map((o) => o.key.toUpperCase());
+                  const firstKey = keys[0] || "A";
+                  const lastKey = keys[keys.length - 1] || "D";
+                  return (
+                    <span className="flex items-center gap-1">
+                      <Kbd>{firstKey}</Kbd>–<Kbd>{lastKey}</Kbd> 作答
+                    </span>
+                  );
+                })()}
                 <span className="text-border">|</span>
                 <span className="flex items-center gap-1">
                   <Kbd>←</Kbd> <Kbd>→</Kbd> 切题

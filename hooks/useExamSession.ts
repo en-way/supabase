@@ -46,6 +46,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
 
   const hasAutoPrintedRef = useRef<string | null>(null);
   const questionRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const questionListContainerRef = useRef<HTMLDivElement | null>(null);
   const passageContainerRef = useRef<HTMLDivElement | null>(null);
   const isSubmittingRef = useRef(false);
   const autoSubmitTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -360,9 +361,21 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
   const scrollToQuestion = (qId?: string) => {
     if (!qId) return;
     const el = questionRefs.current[qId];
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (!el) return;
+
+    const container = questionListContainerRef.current;
+    if (container && container.scrollHeight > container.clientHeight + 8) {
+      const containerRect = container.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
+      const targetTop =
+        container.scrollTop +
+        (elRect.top - containerRect.top) -
+        Math.max(12, (container.clientHeight - elRect.height) / 3);
+      container.scrollTo({ top: Math.max(0, targetTop), behavior: "auto" });
+      return;
     }
+
+    el.scrollIntoView({ behavior: "smooth", block: "start" });
   };
 
   const handleSelectAnswer = (qId: string, optionKey: string) => {
@@ -614,6 +627,7 @@ export function useExamSession(examId: string | null, modeParam: string | null) 
     showShortcutsModal,
     setShowShortcutsModal,
     questionRefs,
+    questionListContainerRef,
     passageContainerRef,
     handleSelectAnswer,
     handleSubmit,

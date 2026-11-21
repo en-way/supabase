@@ -23,15 +23,15 @@ export function QuestionOptionList({
   showCheckIcons = false,
 }: QuestionOptionListProps) {
   const isGrid = options.length > 5;
-  const isLongGrid = isGrid && options.some((opt) => (opt.text || "").length > 28);
+  const isLongGrid = isGrid && options.some((opt) => (opt.text || "").length > 16);
 
   return (
     <div
       className={
         isLongGrid
-          ? "grid grid-cols-1 sm:grid-cols-2 gap-2"
+          ? "space-y-2"
           : isGrid
-            ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2"
+            ? "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-2 xl:grid-cols-3 gap-2"
             : "space-y-2.5"
       }
     >
@@ -74,7 +74,7 @@ export function QuestionOptionList({
             disabled={disabled}
             title={opt.text}
             className={
-              isGrid
+              isGrid && !isLongGrid
                 ? `min-h-[44px] p-2 sm:p-2.5 rounded-xl border text-left flex items-center gap-2 transition-all duration-150 active:scale-[0.98] disabled:cursor-default ${optionCls}`
                 : `w-full min-h-[44px] p-3 sm:p-3.5 rounded-xl border text-left flex items-start gap-3 transition-all duration-150 active:scale-[0.99] disabled:cursor-default ${optionCls}`
             }
@@ -87,7 +87,7 @@ export function QuestionOptionList({
             <span
               className={`text-xs min-w-0 ${
                 isLongGrid
-                  ? "line-clamp-2 leading-relaxed font-medium"
+                  ? "sm:text-sm pt-0.5 leading-relaxed font-medium"
                   : isGrid
                     ? "truncate font-medium"
                     : "sm:text-sm pt-0.5 leading-relaxed"
@@ -95,7 +95,7 @@ export function QuestionOptionList({
             >
               {opt.text}
             </span>
-            {!showResult && !disabled && !isGrid && (
+            {!showResult && !disabled && (!isGrid || isLongGrid) && (
               <span
                 className={`text-[10px] font-mono hidden sm:inline ml-auto pt-0.5 ${
                   isSelected ? "text-primary-fg/80" : "text-fg-subtle"

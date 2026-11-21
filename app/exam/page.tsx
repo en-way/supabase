@@ -81,6 +81,7 @@ function ExamContent() {
     showShortcutsModal,
     setShowShortcutsModal,
     questionRefs,
+    questionListContainerRef,
     passageContainerRef,
     handleSelectAnswer,
     handleSubmit,
@@ -140,6 +141,7 @@ function ExamContent() {
       onBlankClick={handleBlankClick}
       isSubmitted={isSubmitted}
       isPrintMode={isPrintMode}
+      isZenMode={isZenMode}
       visibleOnMobile={mobileTab === "passage" || isSubmitted || isPrintMode}
       onReturnToQuestions={() => setMobileTab("questions")}
       returnLabel={`返回答卷 (${answeredCount}/${questions.length})`}
@@ -153,9 +155,16 @@ function ExamContent() {
 
   const rightPane = (
     <div
+      ref={questionListContainerRef}
       className={`${
         mobileTab === "questions" || isSubmitted || isPrintMode ? "block" : "hidden"
-      } lg:block w-full space-y-6 pb-28 lg:pb-0`}
+      } lg:block w-full space-y-6 pb-28 lg:pb-2 ${
+        !isPrintMode
+          ? isZenMode
+            ? "lg:max-h-[calc(100dvh-5.5rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1.5"
+            : "lg:max-h-[calc(100dvh-11rem)] lg:overflow-y-auto lg:overscroll-contain lg:pr-1.5"
+          : ""
+      }`}
     >
       {questions.map((q, idx) => {
         const userAns = answers[q.id];
@@ -170,6 +179,7 @@ function ExamContent() {
             ref={(el) => {
               questionRefs.current[q.id] = el;
             }}
+            className="scroll-mt-44"
           >
             <Card
               onClick={() => setFocusedIndex(idx)}

@@ -140,6 +140,7 @@ function PracticeContent() {
       questions={questions}
       answers={userAnswers}
       focusedIndex={currentIndex}
+      isZenMode={isZenMode}
       visibleOnMobile={practiceMobileTab === "passage"}
       onReturnToQuestions={() => setPracticeMobileTab("question")}
       returnLabel={`查看题目作答 (${currentIndex + 1}/${questions.length})`}
@@ -155,22 +156,38 @@ function PracticeContent() {
     <div
       className={`${
         practiceMobileTab === "question" ? "block" : "hidden"
-      } lg:block space-y-5`}
+      } ${
+        isZenMode
+          ? "lg:flex lg:flex-col lg:justify-between lg:h-[calc(100dvh-5.5rem)]"
+          : "lg:block space-y-5"
+      }`}
     >
-      <PracticeQuestionCard
-        question={currentQ}
-        index={currentIndex}
-        hasPassage={Boolean(relatedPassage)}
-        selectedAnswer={userAnswers[currentQ.id]}
-        isFavorited={favoriteIds.has(currentQ.id)}
-        noteValue={editingNotes[currentQ.id] || ""}
-        onOpenPassageDrawer={() => setShowPassageSheet(true)}
-        onToggleFavorite={handleToggleFav}
-        onSelectOption={(key) => handleSelectOption(key)}
-        onSaveNote={(noteText) => handleSaveNote(noteText, currentQ.id)}
-      />
+      <div
+        className={
+          isZenMode
+            ? "lg:flex-1 lg:min-h-0 lg:overflow-y-auto lg:overscroll-contain lg:pr-1 space-y-5"
+            : "space-y-5"
+        }
+      >
+        <PracticeQuestionCard
+          question={currentQ}
+          index={currentIndex}
+          hasPassage={Boolean(relatedPassage)}
+          selectedAnswer={userAnswers[currentQ.id]}
+          isFavorited={favoriteIds.has(currentQ.id)}
+          noteValue={editingNotes[currentQ.id] || ""}
+          onOpenPassageDrawer={() => setShowPassageSheet(true)}
+          onToggleFavorite={handleToggleFav}
+          onSelectOption={(key) => handleSelectOption(key)}
+          onSaveNote={(noteText) => handleSaveNote(noteText, currentQ.id)}
+        />
+      </div>
 
-      <div className="flex items-center justify-between gap-3 pt-2">
+      <div
+        className={`flex items-center justify-between gap-3 ${
+          isZenMode ? "pt-3 lg:shrink-0 lg:border-t lg:border-border/60" : "pt-2"
+        }`}
+      >
         <Button
           variant="secondary"
           onClick={() => navigateTo(currentIndex - 1)}
@@ -205,7 +222,9 @@ function PracticeContent() {
     <div
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}
-      className="space-y-6 animate-in fade-in duration-200 pb-6 lg:pb-0"
+      className={`space-y-6 animate-in fade-in duration-200 pb-6 ${
+        isZenMode ? "lg:pb-2" : "lg:pb-0"
+      }`}
     >
       {isZenMode ? (
         <ZenFloatingBar
