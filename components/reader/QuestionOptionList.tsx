@@ -23,13 +23,16 @@ export function QuestionOptionList({
   showCheckIcons = false,
 }: QuestionOptionListProps) {
   const isGrid = options.length > 5;
+  const isLongGrid = isGrid && options.some((opt) => (opt.text || "").length > 28);
 
   return (
     <div
       className={
-        isGrid
-          ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2"
-          : "space-y-2.5"
+        isLongGrid
+          ? "grid grid-cols-1 sm:grid-cols-2 gap-2"
+          : isGrid
+            ? "grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2"
+            : "space-y-2.5"
       }
     >
       {options.map((opt) => {
@@ -82,8 +85,12 @@ export function QuestionOptionList({
               {opt.key}
             </span>
             <span
-              className={`text-xs ${
-                isGrid ? "truncate font-medium" : "sm:text-sm pt-0.5 leading-relaxed"
+              className={`text-xs min-w-0 ${
+                isLongGrid
+                  ? "line-clamp-2 leading-relaxed font-medium"
+                  : isGrid
+                    ? "truncate font-medium"
+                    : "sm:text-sm pt-0.5 leading-relaxed"
               } flex-1`}
             >
               {opt.text}

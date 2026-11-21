@@ -606,7 +606,7 @@ export default function VocabularyPage() {
 
               {/* 3D Flip Card Container */}
               <div
-                className="relative w-full h-[360px] sm:h-[400px] perspective-1000 select-none"
+                className="relative w-full h-[400px] sm:h-[430px] perspective-1000 select-none"
                 onTouchStart={handleTouchStart}
                 onTouchEnd={handleTouchEnd}
               >
@@ -618,7 +618,7 @@ export default function VocabularyPage() {
                 >
                   {/* FRONT SIDE */}
                   <div className="absolute inset-0 w-full h-full backface-hidden bg-surface rounded-3xl border border-border shadow-2 p-6 sm:p-8 flex flex-col justify-between hover:border-primary/40 transition-colors">
-                    <div className="flex items-center justify-between text-xs text-fg-subtle font-mono">
+                    <div className="flex items-center justify-between text-xs text-fg-subtle font-mono shrink-0">
                       <div className="flex items-center gap-1.5">
                         <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
                         <span>考点词汇 · 正面</span>
@@ -628,52 +628,50 @@ export default function VocabularyPage() {
                       </Badge>
                     </div>
 
-                    <div className="my-auto text-center space-y-3">
-                      <div className="flex items-center justify-center gap-3">
-                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-fg tracking-tight capitalize font-reading">
-                          {currentCard.word}
-                        </h2>
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            playAudio(currentCard.word);
-                          }}
-                          title="发音 (按 P)"
-                          aria-label="播放单词发音"
-                          className="p-2.5 rounded-2xl bg-surface-2 hover:bg-border/60 text-fg transition-colors active:scale-95 border border-border"
-                        >
-                          <Volume2 className="w-5 h-5" />
-                        </button>
+                    <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain py-3">
+                      <div className="min-h-full flex flex-col justify-center text-center space-y-3">
+                        <div className="flex items-center justify-center gap-3">
+                          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-fg tracking-tight capitalize font-reading">
+                            {currentCard.word}
+                          </h2>
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              playAudio(currentCard.word);
+                            }}
+                            title="发音 (按 P)"
+                            aria-label="播放单词发音"
+                            className="p-2.5 rounded-2xl bg-surface-2 hover:bg-border/60 text-fg transition-colors active:scale-95 border border-border shrink-0"
+                          >
+                            <Volume2 className="w-5 h-5" />
+                          </button>
+                        </div>
+
+                        {currentCard.phonetic && (
+                          <div className="text-sm sm:text-base font-mono text-primary font-medium">
+                            /{currentCard.phonetic.replace(/[/\[\]]/g, "")}/
+                          </div>
+                        )}
+
+                        {currentCard.context && (
+                          <div className="mt-4 pt-4 border-t border-border max-w-lg mx-auto w-full">
+                            <p className="text-xs sm:text-sm text-fg-muted italic leading-relaxed text-left bg-surface-2/80 p-3.5 rounded-2xl border border-border font-reading">
+                              {renderMaskedContext(
+                                currentCard.context,
+                                currentCard.word,
+                                true
+                              )}
+                            </p>
+                          </div>
+                        )}
                       </div>
-
-                      {currentCard.phonetic && (
-                        <div className="text-sm sm:text-base font-mono text-primary font-medium">
-                          /{currentCard.phonetic.replace(/[/\[\]]/g, "")}/
-                        </div>
-                      )}
-
-                      {currentCard.context && (
-                        <div className="mt-4 pt-4 border-t border-border max-w-lg mx-auto">
-                          <p className="text-xs sm:text-sm text-fg-muted italic leading-relaxed text-left bg-surface-2/80 p-3.5 rounded-2xl border border-border font-reading">
-                            {renderMaskedContext(
-                              currentCard.context,
-                              currentCard.word,
-                              true
-                            )}
-                          </p>
-                        </div>
-                      )}
-                    </div>
-
-                    <div className="text-center pt-2 text-[11px] text-fg-subtle">
-                      点击卡片翻开背面看释义
                     </div>
                   </div>
 
                   {/* BACK SIDE */}
                   <div className="absolute inset-0 w-full h-full backface-hidden rotate-y-180 bg-surface rounded-3xl border border-primary/40 shadow-2 p-6 sm:p-8 flex flex-col justify-between">
-                    <div className="flex items-center justify-between text-xs font-mono text-fg-subtle">
+                    <div className="flex items-center justify-between text-xs font-mono text-fg-subtle shrink-0">
                       <div className="flex items-center gap-1.5">
                         <span className="w-2 h-2 rounded-full bg-success" />
                         <span className="text-success font-bold">考点详析 · 背面</span>
@@ -692,51 +690,53 @@ export default function VocabularyPage() {
                       </button>
                     </div>
 
-                    <div className="my-auto space-y-4">
-                      <div className="flex items-baseline gap-3">
-                        <h3 className="text-2xl sm:text-3xl font-extrabold text-fg capitalize font-reading">
-                          {currentCard.word}
-                        </h3>
-                        {currentCard.phonetic && (
-                          <span className="text-xs font-mono text-primary">
-                            /{currentCard.phonetic.replace(/[/\[\]]/g, "")}/
-                          </span>
-                        )}
-                        <button
-                          type="button"
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            playAudio(currentCard.word);
-                          }}
-                          aria-label="播放单词发音"
-                          className="p-1 text-fg-muted hover:text-primary"
-                        >
-                          <Volume2 className="w-4 h-4" />
-                        </button>
-                      </div>
+                    <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain py-3">
+                      <div className="min-h-full flex flex-col justify-center space-y-4">
+                        <div className="flex items-baseline gap-3 flex-wrap">
+                          <h3 className="text-2xl sm:text-3xl font-extrabold text-fg capitalize font-reading">
+                            {currentCard.word}
+                          </h3>
+                          {currentCard.phonetic && (
+                            <span className="text-xs font-mono text-primary">
+                              /{currentCard.phonetic.replace(/[/\[\]]/g, "")}/
+                            </span>
+                          )}
+                          <button
+                            type="button"
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              playAudio(currentCard.word);
+                            }}
+                            aria-label="播放单词发音"
+                            className="p-1 text-fg-muted hover:text-primary"
+                          >
+                            <Volume2 className="w-4 h-4" />
+                          </button>
+                        </div>
 
-                      <div className="bg-primary-soft border border-primary/25 p-4 rounded-2xl">
-                        <span className="text-[11px] font-bold text-primary uppercase tracking-wider block mb-1">
-                          核心考点释义
-                        </span>
-                        <p className="text-sm sm:text-base font-semibold text-fg leading-relaxed">
-                          {currentCard.translation}
-                        </p>
-                      </div>
-
-                      {currentCard.context && (
-                        <div className="bg-surface-2 border border-border p-3.5 rounded-2xl">
-                          <span className="text-[10px] font-bold text-fg-subtle uppercase tracking-wider block mb-1">
-                            真题原句上下文
+                        <div className="bg-primary-soft border border-primary/25 p-4 rounded-2xl">
+                          <span className="text-[11px] font-bold text-primary uppercase tracking-wider block mb-1">
+                            核心考点释义
                           </span>
-                          <p className="text-xs sm:text-sm text-fg-muted italic leading-relaxed font-reading">
-                            &ldquo;{currentCard.context}&rdquo;
+                          <p className="text-sm sm:text-base font-semibold text-fg leading-relaxed">
+                            {currentCard.translation}
                           </p>
                         </div>
-                      )}
+
+                        {currentCard.context && (
+                          <div className="bg-surface-2 border border-border p-3.5 rounded-2xl">
+                            <span className="text-[10px] font-bold text-fg-subtle uppercase tracking-wider block mb-1">
+                              真题原句上下文
+                            </span>
+                            <p className="text-xs sm:text-sm text-fg-muted italic leading-relaxed font-reading">
+                              &ldquo;{currentCard.context}&rdquo;
+                            </p>
+                          </div>
+                        )}
+                      </div>
                     </div>
 
-                    <div className="pt-2 border-t border-border flex items-center justify-between gap-3">
+                    <div className="pt-2 border-t border-border flex items-center justify-between gap-3 shrink-0">
                       <button
                         type="button"
                         onClick={(e) => {

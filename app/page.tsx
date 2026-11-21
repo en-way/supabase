@@ -870,14 +870,14 @@ function ExamLobbyContent() {
 
                         <td className="py-3.5 px-4">
                           {stats.hasPracticeRecord ? (
-                            <div className="space-y-1.5 min-w-[140px] max-w-[180px]">
-                              <div className="flex items-center justify-between text-[11px] font-mono tabular-nums">
+                            <div className="space-y-1.5 min-w-[168px] max-w-[220px]">
+                              <div className="flex items-center justify-between gap-2 text-[11px] font-mono tabular-nums whitespace-nowrap">
                                 <span className="text-fg-muted font-medium">
                                   {stats.practiceAnsweredCount}/{stats.practiceTotalQuestions} 题 (
                                   {stats.practicePercent}%)
                                 </span>
-                                <span className="font-bold text-primary">
-                                  {stats.practiceAccuracy}%
+                                <span className="font-bold text-primary shrink-0">
+                                  正确率 {stats.practiceAccuracy}%
                                 </span>
                               </div>
                               <ProgressBar value={stats.practicePercent} max={100} tone="primary" />

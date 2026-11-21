@@ -530,7 +530,10 @@ export default function MistakesPage() {
         textContent += `  ${opt.key}. ${opt.text}\n`;
       });
       textContent += `\n[正确答案]: ${corr}\n`;
-      textContent += `[上次选错]: ${item.wrongAnswer}\n`;
+      textContent +=
+        item.wrongAnswer && item.wrongAnswer !== "未作答"
+          ? `[上次选错]: ${item.wrongAnswer}\n`
+          : `[作答状态]: 上次未作答\n`;
       textContent += `[考点解析]: ${expl}\n`;
       textContent += `--------------------------------------------------\n\n`;
     });
@@ -612,7 +615,10 @@ export default function MistakesPage() {
             <Select
               compact
               value={categoryFilter}
-              onChange={(e) => setCategoryFilter(e.target.value)}
+              onChange={(e) => {
+                setCategoryFilter(e.target.value);
+                setSelectedExamId("all");
+              }}
               className="h-8 text-xs flex-1 min-w-0 sm:flex-initial sm:w-auto sm:min-w-[140px] truncate"
             >
               <option value="all">全部科目</option>
@@ -704,8 +710,14 @@ export default function MistakesPage() {
                     )}
                     <Badge tone="danger">做错 {item.wrongCount} 次</Badge>
                     <span className="text-xs text-fg-subtle">
-                      上次选错：
-                      <strong className="text-danger font-mono">{item.wrongAnswer}</strong>
+                      {item.wrongAnswer && item.wrongAnswer !== "未作答" ? (
+                        <>
+                          上次选错：
+                          <strong className="text-danger font-mono">{item.wrongAnswer}</strong>
+                        </>
+                      ) : (
+                        <span className="text-fg-muted font-medium">上次未作答</span>
+                      )}
                     </span>
                   </div>
 
@@ -992,10 +1004,17 @@ export default function MistakesPage() {
                       做错 {sideBySideItem.mistake.wrongCount} 次
                     </Badge>
                     <span className="text-xs text-fg-muted">
-                      上次选错：
-                      <strong className="text-danger font-mono">
-                        {sideBySideItem.mistake.wrongAnswer}
-                      </strong>
+                      {sideBySideItem.mistake.wrongAnswer &&
+                      sideBySideItem.mistake.wrongAnswer !== "未作答" ? (
+                        <>
+                          上次选错：
+                          <strong className="text-danger font-mono">
+                            {sideBySideItem.mistake.wrongAnswer}
+                          </strong>
+                        </>
+                      ) : (
+                        <span className="font-medium">上次未作答</span>
+                      )}
                     </span>
                   </div>
 
