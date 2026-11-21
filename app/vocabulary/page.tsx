@@ -10,7 +10,11 @@ import {
   resetAllVocabMastery,
   type VocabItem,
 } from "@/lib/storage";
-import { lookupWordAsync, getAudioUrls } from "@/lib/dictionary";
+import {
+  lookupWordAsync,
+  getAudioUrls,
+  parseFormattedDefinition,
+} from "@/lib/dictionary";
 import { useKeyboardGuard } from "@/hooks/useKeyboardGuard";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
@@ -715,12 +719,35 @@ export default function VocabularyPage() {
                         </div>
 
                         <div className="bg-primary-soft border border-primary/25 p-4 rounded-2xl">
-                          <span className="text-[11px] font-bold text-primary uppercase tracking-wider block mb-1">
+                          <span className="text-[11px] font-bold text-primary uppercase tracking-wider block mb-1.5">
                             核心考点释义
                           </span>
-                          <p className="text-sm sm:text-base font-semibold text-fg leading-relaxed">
-                            {currentCard.translation}
-                          </p>
+                          <div className="space-y-1.5">
+                            {(() => {
+                              const lines = parseFormattedDefinition(
+                                currentCard.translation || ""
+                              );
+                              if (lines.length === 0) {
+                                return (
+                                  <p className="text-sm sm:text-base font-semibold text-fg leading-relaxed">
+                                    {currentCard.translation}
+                                  </p>
+                                );
+                              }
+                              return lines.map((line, i) => (
+                                <div key={i} className="flex items-start gap-2">
+                                  {line.pos && (
+                                    <span className="px-1.5 py-0.5 rounded text-[10px] font-bold font-mono bg-surface text-primary border border-primary/20 shrink-0 mt-0.5">
+                                      {line.pos}
+                                    </span>
+                                  )}
+                                  <p className="text-sm sm:text-base font-semibold text-fg leading-relaxed flex-1 min-w-0">
+                                    {line.meaning}
+                                  </p>
+                                </div>
+                              ));
+                            })()}
+                          </div>
                         </div>
 
                         {currentCard.context && (
@@ -943,13 +970,26 @@ export default function VocabularyPage() {
                       </span>
                     )}
 
-                    <p
-                      className={`mt-3 text-xs text-fg font-medium bg-surface-2/80 p-2.5 rounded-xl border border-border leading-relaxed transition-all ${
+                    <div
+                      className={`mt-3 text-xs text-fg font-medium bg-surface-2/80 p-2.5 rounded-xl border border-border leading-relaxed transition-all space-y-1 ${
                         hideListTranslation ? "blur-sm select-none print:filter-none" : ""
                       }`}
                     >
-                      {item.translation}
-                    </p>
+                      {(() => {
+                        const lines = parseFormattedDefinition(item.translation || "");
+                        if (lines.length === 0) return <p>{item.translation}</p>;
+                        return lines.map((line, i) => (
+                          <div key={i} className="flex items-start gap-1.5">
+                            {line.pos && (
+                              <span className="px-1 py-0.5 rounded text-[10px] font-bold font-mono bg-surface text-primary border border-border shrink-0">
+                                {line.pos}
+                              </span>
+                            )}
+                            <span className="flex-1 min-w-0">{line.meaning}</span>
+                          </div>
+                        ));
+                      })()}
+                    </div>
 
                     {item.context && (
                       <div className="mt-2 text-[11px] text-fg-muted italic bg-warning-soft/50 p-2 rounded-lg border border-warning/20 font-reading">

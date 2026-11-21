@@ -11,6 +11,110 @@ export interface DictEntry {
   isOnline?: boolean;
 }
 
+export interface FormattedDefinitionLine {
+  pos?: string;
+  meaning: string;
+}
+
+const NICHE_DOMAIN_TAG_RE =
+  /\[(?:计|计算机|医|医学|外科|内科|解剖|生化|药|法|法律|化|化学|化工|无化|有化|机|机械|机械学|电|电子|电学|电脑|电讯|建|建筑学|数|数学|物|物理学|天|天文学|地|地理|地质|地物|矿|矿业|矿物|冶|冶金|农|农学|林|植|植物|植物学|动|动物|生物|生物学|生理|生态|菌|虫|昆|昆虫|鱼|鸟|鸟类|航|航海|航空|船|造船|铁路|军|军事|体|体育|乐|音乐|心|心理|哲|宗教|神学|宗|经|经管|财|金融|会计|统计|印刷|摄影|纺|戏|戏剧|网球|高尔夫|棒球|冰球|赛马)\]/g;
+
+const POS_SPLIT_RE =
+  /(?:^|(?<=[\s;；,，\u4e00-\u9fff]))((?:n|v|vt|vi|a|adj|adv|prep|conj|pron|art|num|int|interj|aux|modal|pl|abbr)\.)(?=\s|$|[\u4e00-\u9fff\[（(])/gi;
+
+const POS_LOOKAHEAD_STR =
+  "(?:n|v|vt|vi|a|adj|adv|prep|conj|pron|art|num|int|interj|aux|modal|pl|abbr)\\.";
+
+function cleanAndSplitSingleDefinition(rawSegment: string): FormattedDefinitionLine[] {
+  const cleaned = rawSegment
+    .replace(/\\r\\n|\\r|\\n/g, " ")
+    .replace(/[\r\n]+/g, " ")
+    .replace(/\s+/g, " ")
+    .replace(/\s*[（(]原形[:：]\s*[a-zA-Z-]+[）)]\s*$/g, "")
+    .trim();
+
+  if (!cleaned) return [];
+
+  // Remove niche domain-tagged sub-segments up to the next POS tag, semicolon, or end
+  const domainSegmentRe = new RegExp(
+    `${NICHE_DOMAIN_TAG_RE.source}[^;；]*?(?=\\s+${POS_LOOKAHEAD_STR}|[;；]|$)`,
+    "gi"
+  );
+  let filtered = cleaned
+    .replace(domainSegmentRe, "")
+    .replace(/[;；,\s]+$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  // Drop trailing orphaned POS marker left behind after stripping its domain segment (e.g. "art.")
+  const trailingOrphanPosRe = new RegExp(`(?:^|\\s)${POS_LOOKAHEAD_STR}$`, "i");
+  filtered = filtered
+    .replace(trailingOrphanPosRe, "")
+    .replace(/[;；,\s]+$/g, "")
+    .trim();
+
+  const source = filtered || cleaned;
+
+  const matches = Array.from(source.matchAll(POS_SPLIT_RE));
+  if (matches.length === 0) {
+    return [{ meaning: source }];
+  }
+
+  const lines: FormattedDefinitionLine[] = [];
+  const firstIdx = matches[0].index ?? 0;
+  const leading = source.slice(0, firstIdx).replace(/[;；\s]+$/g, "").trim();
+  if (leading) {
+    lines.push({ meaning: leading });
+  }
+
+  for (let i = 0; i < matches.length; i++) {
+    const m = matches[i];
+    const pos = m[1].toLowerCase();
+    const start = (m.index ?? 0) + m[0].length;
+    const end = i + 1 < matches.length ? (matches[i + 1].index ?? source.length) : source.length;
+    const meaning = source.slice(start, end).replace(/^[;；,\s]+|[;；,\s]+$/g, "").trim();
+    if (meaning) {
+      lines.push({ pos, meaning });
+    }
+  }
+
+  return lines.length > 0 ? lines : [{ meaning: source }];
+}
+
+/**
+ * Clean raw offline dictionary strings and split by POS markers or compound word parts.
+ */
+export function parseFormattedDefinition(raw: string): FormattedDefinitionLine[] {
+  if (!raw || !raw.trim()) return [];
+
+  // Handle multi-line compound word definitions (e.g. "high：...\nvolume：...")
+  if (raw.includes("\n")) {
+    const rawLines = raw
+      .split(/\n+/)
+      .map((l) => l.trim())
+      .filter(Boolean);
+    const compoundLines: FormattedDefinitionLine[] = [];
+    for (const line of rawLines) {
+      const colonMatch = line.match(/^([a-zA-Z-]+)\s*[：:]\s*(.+)$/);
+      if (colonMatch) {
+        const partWord = colonMatch[1];
+        const partLines = cleanAndSplitSingleDefinition(colonMatch[2]);
+        const joinedMeaning = partLines
+          .map((pl) => (pl.pos ? `${pl.pos} ${pl.meaning}` : pl.meaning))
+          .join("；");
+        if (joinedMeaning) {
+          compoundLines.push({ pos: partWord, meaning: joinedMeaning });
+        }
+      } else {
+        compoundLines.push(...cleanAndSplitSingleDefinition(line));
+      }
+    }
+    if (compoundLines.length > 0) return compoundLines;
+  }
+
+  return cleanAndSplitSingleDefinition(raw);
+}
+
 export type RawDictValue = string | { d: string; b?: string; p?: string; pos?: string };
 
 export function parseRawItem(raw: RawDictValue): { d: string; b?: string; p?: string; pos?: string } {
@@ -189,14 +293,96 @@ export async function loadLetterPack(letter: string): Promise<Record<string, Raw
   return task;
 }
 
+function generateBritishToAmericanCandidates(word: string): string[] {
+  const variants = new Set<string>();
+  const add = (w: string) => {
+    if (w && w !== word) variants.add(w);
+  };
+
+  if (word.endsWith("ise") && word.length > 4) add(word.slice(0, -3) + "ize");
+  if (word.endsWith("ised") && word.length > 5) {
+    add(word.slice(0, -4) + "ized");
+    add(word.slice(0, -4) + "ize");
+  }
+  if (word.endsWith("ising") && word.length > 6) {
+    add(word.slice(0, -5) + "izing");
+    add(word.slice(0, -5) + "ize");
+  }
+  if (word.endsWith("ises") && word.length > 5) {
+    add(word.slice(0, -4) + "izes");
+    add(word.slice(0, -4) + "ize");
+  }
+
+  if (word.endsWith("yse") && word.length > 4) add(word.slice(0, -3) + "yze");
+  if (word.endsWith("ysed") && word.length > 5) {
+    add(word.slice(0, -4) + "yzed");
+    add(word.slice(0, -4) + "yze");
+  }
+  if (word.endsWith("ysing") && word.length > 6) {
+    add(word.slice(0, -5) + "yzing");
+    add(word.slice(0, -5) + "yze");
+  }
+  if (word.endsWith("yses") && word.length > 5) {
+    add(word.slice(0, -4) + "yzes");
+    add(word.slice(0, -4) + "yze");
+  }
+
+  if (word.endsWith("our") && word.length > 4) add(word.slice(0, -3) + "or");
+  if (word.endsWith("oured") && word.length > 6) {
+    add(word.slice(0, -5) + "ored");
+    add(word.slice(0, -5) + "or");
+  }
+  if (word.endsWith("ouring") && word.length > 7) {
+    add(word.slice(0, -6) + "oring");
+    add(word.slice(0, -6) + "or");
+  }
+  if (word.endsWith("ours") && word.length > 5) {
+    add(word.slice(0, -4) + "ors");
+    add(word.slice(0, -4) + "or");
+  }
+
+  if (word.endsWith("re") && word.length > 4 && /[bcdfghjklmnpqrstvwxyz]re$/.test(word)) {
+    add(word.slice(0, -2) + "er");
+  }
+  if (word.endsWith("res") && word.length > 5 && /[bcdfghjklmnpqrstvwxyz]res$/.test(word)) {
+    add(word.slice(0, -3) + "ers");
+    add(word.slice(0, -3) + "er");
+  }
+
+  if (word.endsWith("lled") && word.length > 5) {
+    add(word.slice(0, -4) + "led");
+    add(word.slice(0, -3));
+  }
+  if (word.endsWith("lling") && word.length > 6) {
+    add(word.slice(0, -5) + "ling");
+    add(word.slice(0, -4));
+  }
+  if (word.endsWith("ller") && word.length > 5) {
+    add(word.slice(0, -4) + "ler");
+    add(word.slice(0, -3));
+  }
+  if (word.endsWith("llor") && word.length > 5) {
+    add(word.slice(0, -4) + "lor");
+  }
+
+  if (word.endsWith("ogue") && word.length > 5) add(word.slice(0, -2));
+  if (word.includes("ae")) add(word.replace(/ae/g, "e"));
+  if (word.includes("oe")) add(word.replace(/oe/g, "e"));
+
+  return Array.from(variants);
+}
+
 /**
- * Helper to test candidates for morphological stemming
+ * Helper to test candidates for morphological stemming and British/American spelling variants
  */
 function findStemMatch(
   clean: string,
   dict: Record<string, RawDictValue>
 ): { baseWord: string; item: { d: string; b?: string; p?: string; pos?: string } } | null {
   const candidates: string[] = [];
+
+  // 0. British -> American spelling variants first
+  candidates.push(...generateBritishToAmericanCandidates(clean));
 
   // Plurals and 3rd person singular: -s, -es, -ies
   if (clean.endsWith("ies") && clean.length > 4) candidates.push(clean.slice(0, -3) + "y");
@@ -272,15 +458,15 @@ function resolveWordFromPack(
     return entry;
   }
 
-  // 2. Stem match
+  // 2. Stem & British/American variant match
   const stem = findStemMatch(clean, pack);
   if (stem) {
     const entry: DictEntry = {
       word: clean,
       baseWord: stem.baseWord,
       phonetic: stem.item.p,
-      pos: stem.item.pos || "衍生词",
-      definition: stem.item.d.includes(stem.baseWord) ? stem.item.d : `${stem.item.d}（原形: ${stem.baseWord}）`,
+      pos: stem.item.pos,
+      definition: stem.item.d,
       audioUrl: audio.us,
       usAudioUrl: audio.us,
       ukAudioUrl: audio.uk,
@@ -291,6 +477,24 @@ function resolveWordFromPack(
   }
 
   return null;
+}
+
+function buildCompoundEntry(
+  clean: string,
+  parts: Array<{ part: string; entry: DictEntry }>,
+  audio: { us: string; uk: string }
+): DictEntry {
+  const definition = parts.map((p) => `${p.part}：${p.entry.definition}`).join("\n");
+  const entry: DictEntry = {
+    word: clean,
+    definition,
+    audioUrl: audio.us,
+    usAudioUrl: audio.us,
+    ukAudioUrl: audio.uk,
+    isOnline: false,
+  };
+  putResolvedWord(clean, entry);
+  return entry;
 }
 
 /**
@@ -307,22 +511,41 @@ export function lookupWord(rawWord: string): DictEntry | null {
     return cached;
   }
 
+  const audio = getAudioUrls(clean);
   const firstChar = clean[0];
   const pack = loadedLetterPacks.get(firstChar);
-  if (!pack) return null;
+  if (pack) {
+    loadedLetterPacks.delete(firstChar);
+    loadedLetterPacks.set(firstChar, pack);
+    const direct = resolveWordFromPack(clean, pack, audio);
+    if (direct) return direct;
+  }
 
-  // Refresh pack LRU recency on synchronous hit
-  loadedLetterPacks.delete(firstChar);
-  loadedLetterPacks.set(firstChar, pack);
+  // Hyphenated compound fallback when component packs are already cached
+  if (clean.includes("-")) {
+    const subWords = clean.split("-").filter((p) => p.length >= 2);
+    if (subWords.length >= 2) {
+      const resolvedParts: Array<{ part: string; entry: DictEntry }> = [];
+      for (const sub of subWords) {
+        const subPack = loadedLetterPacks.get(sub[0]);
+        if (!subPack) continue;
+        const subEntry = resolveWordFromPack(sub, subPack, getAudioUrls(sub));
+        if (subEntry) resolvedParts.push({ part: sub, entry: subEntry });
+      }
+      if (resolvedParts.length === subWords.length) {
+        return buildCompoundEntry(clean, resolvedParts, audio);
+      }
+    }
+  }
 
-  return resolveWordFromPack(clean, pack, getAudioUrls(clean));
+  return null;
 }
 
 /**
  * Asynchronous High-Speed Sharded Lookup:
  * 1. Checks memory cache (0ms).
  * 2. Fetches Cloudflare Pages static shard (/dict/{letter}.json) if not yet loaded.
- * 3. Performs exact or morphological stem lookup across 120,000+ words.
+ * 3. Performs exact, British/American, morphological stem, or hyphenated compound lookup.
  * 4. 0 Supabase API calls, 0 Supabase egress, 0 CORS issues.
  */
 export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null> {
@@ -356,17 +579,37 @@ export async function lookupWordAsync(rawWord: string): Promise<DictEntry | null
     };
   }
 
-  // 3 & 4. Check exact or morphological stem match
+  // 3 & 4. Check exact, British/American variant, or morphological stem match
   const resolved = resolveWordFromPack(clean, pack, audio);
   if (resolved) {
     return resolved;
   }
 
+  // 4.5 Hyphenated compound fallback (e.g. high-volume, self-sliding)
+  if (clean.includes("-")) {
+    const subWords = clean.split("-").filter((p) => p.length >= 2);
+    if (subWords.length >= 2) {
+      const partResults = await Promise.all(
+        subWords.map(async (sub) => {
+          const subPack = await loadLetterPack(sub[0]);
+          if (!subPack) return null;
+          const subEntry = resolveWordFromPack(sub, subPack, getAudioUrls(sub));
+          return subEntry ? { part: sub, entry: subEntry } : null;
+        })
+      );
+      const validParts = partResults.filter(
+        (x): x is { part: string; entry: DictEntry } => x !== null
+      );
+      if (validParts.length > 0) {
+        return buildCompoundEntry(clean, validParts, audio);
+      }
+    }
+  }
+
   // 5. Fallback placeholder for rare unregistered words (pack was loaded, but word is not in pack)
   const fallbackEntry: DictEntry = {
     word: clean,
-    pos: "真题词汇",
-    definition: "考研英语历年全真真题词汇（可点击下方加入生词本重点复习）",
+    definition: "暂未收录该词释义",
     audioUrl: audio.us,
     usAudioUrl: audio.us,
     ukAudioUrl: audio.uk,

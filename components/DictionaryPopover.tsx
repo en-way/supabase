@@ -5,6 +5,7 @@ import {
   lookupWord,
   lookupWordAsync,
   cleanEnglishWord,
+  parseFormattedDefinition,
   DictEntry,
 } from "@/lib/dictionary";
 import { addVocab, getLocalState, subscribeLocalState } from "@/lib/storage";
@@ -452,29 +453,59 @@ export default function DictionaryPopover() {
             <span>从边缘词库快速载入中...</span>
           </div>
         ) : (
-          <>
-            <div className="flex items-start gap-2">
-              {dictEntry?.pos && (
-                <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-bold font-mono bg-surface-2 text-fg-muted border border-border shrink-0 mt-0.5">
-                  {dictEntry.pos}
-                </span>
-              )}
-              {dictEntry?.baseWord && (
-                <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-bold font-mono bg-warning-soft text-warning border border-warning/20 shrink-0 mt-0.5">
-                  原形: {dictEntry.baseWord}
-                </span>
-              )}
-              <p className="text-fg font-semibold leading-relaxed flex-1 select-text">
-                {dictEntry?.definition || "在真题语境中出现"}
-              </p>
-            </div>
+          (() => {
+            const parsedLines = dictEntry?.definition
+              ? parseFormattedDefinition(dictEntry.definition)
+              : [];
+            const hasInlinePos = parsedLines.some((line) => Boolean(line.pos));
+            return (
+              <>
+                <div className="space-y-1.5">
+                  {(dictEntry?.baseWord || (dictEntry?.pos && !hasInlinePos)) && (
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      {dictEntry?.pos && !hasInlinePos && (
+                        <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-bold font-mono bg-surface-2 text-fg-muted border border-border shrink-0">
+                          {dictEntry.pos}
+                        </span>
+                      )}
+                      {dictEntry?.baseWord && (
+                        <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-bold font-mono bg-warning-soft text-warning border border-warning/20 shrink-0">
+                          原形: {dictEntry.baseWord}
+                        </span>
+                      )}
+                    </div>
+                  )}
 
-            {dictEntry?.enDefinition && (
-              <p className="text-[11px] text-fg-muted italic leading-snug select-text line-clamp-2 pt-1 border-t border-border">
-                &ldquo;{dictEntry.enDefinition}&rdquo;
-              </p>
-            )}
-          </>
+                  {parsedLines.length > 0 ? (
+                    <div className="space-y-1.5 select-text">
+                      {parsedLines.map((line, idx) => (
+                        <div key={idx} className="flex items-start gap-2">
+                          {line.pos && (
+                            <span className="px-1.5 py-0.5 rounded-sm text-[10px] font-bold font-mono bg-surface-2 text-primary border border-border shrink-0 mt-0.5">
+                              {line.pos}
+                            </span>
+                          )}
+                          <p className="text-fg font-semibold leading-relaxed flex-1 min-w-0">
+                            {line.meaning}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="text-fg-muted font-medium leading-relaxed select-text">
+                      暂未收录该词释义
+                    </p>
+                  )}
+                </div>
+
+                {dictEntry?.enDefinition && (
+                  <p className="text-[11px] text-fg-muted italic leading-snug select-text line-clamp-2 pt-1 border-t border-border">
+                    &ldquo;{dictEntry.enDefinition}&rdquo;
+                  </p>
+                )}
+              </>
+            );
+          })()
         )}
       </div>
 
