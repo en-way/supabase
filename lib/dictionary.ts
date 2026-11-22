@@ -127,7 +127,9 @@ export function parseRawItem(raw: RawDictValue): { d: string; b?: string; p?: st
 // Lightweight LRU cache + persistent offline CacheStorage bucket
 const MAX_RESOLVED_WORDS = 500;
 const MAX_LOADED_PACKS = 8;
-const DICT_CACHE_NAME = "enway-dict-v1";
+const DICT_CACHE_NAME = "enway-dict-v2";
+const LEGACY_DICT_CACHE_NAME = "enway-dict-v1";
+let legacyCacheCleaned = false;
 
 const resolvedWordCache = new Map<string, DictEntry>();
 const loadedLetterPacks = new Map<string, Record<string, RawDictValue>>();
@@ -137,8 +139,15 @@ function hasCacheStorage(): boolean {
   return typeof window !== "undefined" && "caches" in window;
 }
 
+function cleanupLegacyDictCache(): void {
+  if (legacyCacheCleaned || !hasCacheStorage()) return;
+  legacyCacheCleaned = true;
+  caches.delete(LEGACY_DICT_CACHE_NAME).catch(() => {});
+}
+
 async function readDictPackFromCache(url: string): Promise<Record<string, RawDictValue> | null> {
   if (!hasCacheStorage()) return null;
+  cleanupLegacyDictCache();
   try {
     const cache = await caches.open(DICT_CACHE_NAME);
     const cachedRes = await cache.match(url);
