@@ -1102,11 +1102,11 @@ def main():
 
                 pb = p_list[5]
                 pb_paras = [p for p in pb.get("content", "").split("\n\n") if p.strip()]
-                if len(pb_paras) != 7:
+                if len(pb_paras) != 8:
                     round66_anomalies.append(('2017_ky1_pb_paras', len(pb_paras)))
                 if "Directions:" in pb.get("content", "") or "[D] -> [41]" in pb.get("content", ""):
                     round66_anomalies.append(('2017_ky1_pb_directions_leak', 'present'))
-                if not pb.get("content", "").startswith('[A] The first published sketch'):
+                if not pb.get("content", "").startswith('Ordering Skeleton (Fixed paragraphs: [D] = 1st, [B] = 6th):') or '[A] The first published sketch' not in pb.get("content", ""):
                     round66_anomalies.append(('2017_ky1_pb_start', pb.get("content", "")[:50]))
                 if "A Dinner at Poplar Walk" not in pb.get("content", "") or "The Pickwick Papers" not in pb.get("content", ""):
                     round66_anomalies.append(('2017_ky1_pb_content', 'missing Dickens work'))
@@ -1338,9 +1338,9 @@ def main():
                 # Part B (EEOB)
                 pb = p_list[5]
                 pb_paras = [p for p in pb.get("content", "").split("\n\n") if p.strip()]
-                if len(pb_paras) != 7:
+                if len(pb_paras) != 8:
                     round68_anomalies.append(('2018_ky1_pb_paras', len(pb_paras)))
-                if not pb.get("content", "").startswith("[A] In December of 1869, Congress appointed a commission"):
+                if not pb.get("content", "").startswith("Ordering Skeleton (Fixed paragraphs: [C] = 2nd, [F] = 5th):") or "[A] In December of 1869, Congress appointed a commission" not in pb.get("content", ""):
                     round68_anomalies.append(('2018_ky1_pb_start', pb.get("content", "")[:50]))
                 if "Directions:" in pb.get("content", "") or "[41] -> [C]" in pb.get("content", ""):
                     round68_anomalies.append(('2018_ky1_pb_directions_leak', 'present'))
@@ -1566,11 +1566,11 @@ def main():
                 if '36.' in t4.get("content", "") or '->' in t4.get("content", "") or '→' in t4.get("content", ""):
                     round70_anomalies.append(('2019_ky1_t4_leaks', 'present'))
 
-                # Part B: 7 paras [A]-[G], 593 words, no fake scientific paper options
+                # Part B: Ordering Skeleton header + 7 paras [A]-[G], no fake scientific paper options
                 pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
-                if len(pb_paras) != 7:
+                if len(pb_paras) != 8:
                     round70_anomalies.append(('2019_ky1_pb_paras', len(pb_paras)))
-                if not pb.get("content", "").startswith("[A] These tools can help you win every argument"):
+                if not pb.get("content", "").startswith("Ordering Skeleton (Fixed paragraphs: [F] = 3rd, [C] = 6th):") or "[A] These tools can help you win every argument" not in pb.get("content", ""):
                     round70_anomalies.append(('2019_ky1_pb_start', pb.get("content", "")[:50]))
                 if 'peer review' in pb.get("content", "") or 'scientific paper' in pb.get("content", ""):
                     round70_anomalies.append(('2019_ky1_pb_hallucination', 'present'))
