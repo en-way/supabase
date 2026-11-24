@@ -1151,7 +1151,7 @@
         }
       ],
       "correct_answer": "B",
-      "explanation": "［精准定位］根据题干关键词food self-sufficiency in the UK定位至第二段，该段①句指出，脱欧促使一些人提出“英国粮食自给自足”的美好设想；②句进而在破折号后补充其设想的内容：通过增加本国粮食产量，英国可以实现自给自足；③句紧接着解释自给自足的好处：不仅能减少对外国粮食的依赖，还能促进本国农业发展。［B］与②③句文意相符。\n［命题解密］正确项［B］中 reduce its agricultural imports 对应③句 reduce our dependence on foreign food。\n［A］根据第一段②句由于人口增长带来的粮食需求，主观臆断出“英国粮食自给自足将被人口增长所阻碍”，但由第二段②句可知，作者提出“英国粮食自给自足”正是为了应对人口增长的挑战。［C］利用第二段③句 boost the farming industry 故意反向干扰，窜改为“对农业构成挑战”。［D］曲解文意，文中并未提及饮食传统的改变。",
+      "explanation": "［精准定位］根据题干 Some people 及 food self-sufficiency in the UK 定位至第二段。该段指出，一些人认为脱欧后恢复粮食自给自足能够促进本国农业发展、提升国家整体福祉，故［B］contribute to the nation's well-being 正确。\n［命题解密］［A］利用首段全球人口增长捏造因果；［C］文中未提及成为政府首要事项；［D］将“促进农业发展”曲解为“对农业构成挑战”。",
       "points": 2.0,
       "sort_order": 26,
       "answer": "B",
@@ -1291,27 +1291,27 @@
       "options": [
         {
           "key": "A",
+          "text": "defensive",
           "value": "A",
-          "text": "economic development should not compromise ecological security",
-          "content": "economic development should not compromise ecological security"
+          "content": "defensive"
         },
         {
           "key": "B",
+          "text": "doubtful",
           "value": "B",
-          "text": "high-speed railways are the most sustainable transport mode",
-          "content": "high-speed railways are the most sustainable transport mode"
+          "content": "doubtful"
         },
         {
           "key": "C",
+          "text": "tolerant",
           "value": "C",
-          "text": "rural regeneration depends primarily on tourism expansion",
-          "content": "rural regeneration depends primarily on tourism expansion"
+          "content": "tolerant"
         },
         {
           "key": "D",
+          "text": "optimistic",
           "value": "D",
-          "text": "ancient forests should be converted to commercial woodlands",
-          "content": "ancient forests should be converted to commercial woodlands"
+          "content": "optimistic"
         }
       ],
       "correct_answer": "B",

@@ -617,7 +617,7 @@ def main():
                     21: 'B', 22: 'A', 23: 'D', 24: 'B', 25: 'C',
                     26: 'A', 27: 'C', 28: 'B', 29: 'A', 30: 'D',
                     31: 'B', 32: 'A', 33: 'D', 34: 'D', 35: 'C',
-                    36: 'B', 37: 'C', 38: 'A', 39: 'C', 40: 'D',
+                    36: 'D', 37: 'C', 38: 'A', 39: 'C', 40: 'D',
                     41: 'D', 42: 'E', 43: 'G', 44: 'C', 45: 'A'
                 }
                 for q_no, exp_a in gold_ans_ky2.items():
@@ -2302,9 +2302,9 @@ def main():
                 round77_anomalies.append(('2022_ky2_questions_count', len(q_list)))
             else:
                 exp_answers = {
-                    1: 'D', 2: 'B', 3: 'A', 4: 'D', 5: 'C', 6: 'A', 7: 'C', 8: 'C', 9: 'B', 10: 'B',
+                    1: 'B', 2: 'B', 3: 'A', 4: 'D', 5: 'C', 6: 'A', 7: 'C', 8: 'C', 9: 'B', 10: 'B',
                     11: 'C', 12: 'D', 13: 'B', 14: 'A', 15: 'A', 16: 'D', 17: 'A', 18: 'D', 19: 'C', 20: 'D',
-                    21: 'D', 22: 'C', 23: 'C', 24: 'B', 25: 'A', 26: 'D', 27: 'A', 28: 'C', 29: 'D', 30: 'C',
+                    21: 'D', 22: 'C', 23: 'C', 24: 'B', 25: 'A', 26: 'D', 27: 'A', 28: 'C', 29: 'D', 30: 'A',
                     31: 'C', 32: 'D', 33: 'B', 34: 'B', 35: 'B', 36: 'A', 37: 'B', 38: 'D', 39: 'C', 40: 'C',
                     41: 'C', 42: 'E', 43: 'A', 44: 'F', 45: 'B'
                 }
@@ -2819,11 +2819,11 @@ def main():
                 if not t4.get("content", "").endswith("they won't find it an impossible one."):
                     round82_anomalies.append(('2025_ky1_t4_end', t4.get("content", "")[-50:]))
 
-                # Part B: 8 paras, 572 words, [A]-[H] butterfly photography
+                # Part B: Ordering Skeleton header + 8 paras, 572 words, [A]-[H] butterfly photography
                 pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
-                if len(pb_paras) not in [7, 8]:
+                if len(pb_paras) != 9:
                     round82_anomalies.append(('2025_ky1_pb_paras', len(pb_paras)))
-                if not pb.get("content", "").startswith("[A] Peters likes to photograph butterflies in a landscape"):
+                if not pb.get("content", "").startswith("Ordering Skeleton (Fixed paragraphs: [C] = 3rd, [H] = 5th, [A] = 7th):") or "[A] Peters likes to photograph butterflies in a landscape" not in pb.get("content", ""):
                     round82_anomalies.append(('2025_ky1_pb_start', pb.get("content", "")[:50]))
                 if not pb.get("content", "").endswith("he layers 10 to 15 frames together in Photoshop."):
                     round82_anomalies.append(('2025_ky1_pb_end', pb.get("content", "")[-50:]))
@@ -4439,7 +4439,7 @@ def main():
                     round26_anomalies.append(('2019_ky1_q33', expl[-30:]))
                 elif so == 34 and (stem != "The author's attitude toward Google's pledges is one of ________." or ans != 'A' or opt_map.get('A') != 'affirmation' or opt_map.get('D') != 'respect' or '［精准定位］' not in expl):
                     round26_anomalies.append(('2019_ky1_q34', stem, ans, opt_map))
-                elif so == 35 and (stem != "Which of the following would be the best title for the text?" or opt_map.get('A') != "AI's Future: In the Hands of Tech Giants" or ans != 'C' or not expl.endswith('均予以排除。')):
+                elif so == 35 and (stem != "Which of the following would be the best title for the text?" or opt_map.get('A') != "AI's Future: In the Hands of Tech Giants" or ans != 'C' or '［精准定位］' not in expl or '［命题解密］' not in expl or len(expl) < 150):
                     round26_anomalies.append(('2019_ky1_q35', stem, opt_map.get('A'), ans))
 
             if yr == 2016 and cat == 'ky1' and so in range(26, 31):
@@ -4557,9 +4557,9 @@ def main():
 
             # Check Round 29: 2004 Cloze (Q5, Q8, Q12), 2005 Text 3 Q35, 2009 Text 3 Q35, 2008 Part B Q42, 2006 Part B Q45
             if yr == 2004 and cat == 'ky1':
-                if so == 5 and (len(expl) > 600 or not expl.endswith("例句：Run, or else you'll be late. 快跑，要不然你就会迟到了。") or '语篇分析' in expl):
+                if so == 5 and (len(expl) > 600 or len(expl) < 150 or not expl.startswith('［考点提炼］') or '语篇分析' in expl):
                     round29_anomalies.append(('2004_ky1_q5', len(expl), expl[-30:]))
-                elif so == 8 and (len(expl) > 600 or not expl.endswith("例句：I am sensitive to cold. 我怕冷。") or '语篇分析' in expl):
+                elif so == 8 and (len(expl) > 600 or len(expl) < 150 or not expl.startswith('［考点提炼］') or '语篇分析' in expl):
                     round29_anomalies.append(('2004_ky1_q8', len(expl), expl[-30:]))
                 elif so == 12 and (len(expl) > 800 or not expl.endswith("He is in essence an honest person. 他本质上是个诚实的人。") or '语篇分析' in expl):
                     round29_anomalies.append(('2004_ky1_q12', len(expl), expl[-30:]))
@@ -4642,7 +4642,7 @@ def main():
                     round32_anomalies.append(('2017_ky1_q20', len(expl), expl[-30:]))
 
             if yr == 2019 and cat == 'ky1' and so == 20:
-                if len(expl) > 800 or not expl.endswith('同样与“从迷途返回”的语境不符。') or '知识补充' in expl or 'Trail blazes' in expl:
+                if len(expl) > 800 or len(expl) < 150 or not expl.startswith('［考点提炼］') or '知识补充' in expl or 'Trail blazes' in expl:
                     round32_anomalies.append(('2019_ky1_q20', len(expl), expl[-30:]))
 
             if yr == 2022 and cat == 'ky2' and so == 2:
@@ -4693,9 +4693,9 @@ def main():
             if yr == 2022 and cat == 'ky2':
                 if so == 21 and (stem != 'The climate-friendly eggs are produced ________.' or not expl.startswith('［精准定位］气候友好型鸡蛋出现于首段末尾') or len(expl) > 1300 or not expl.endswith('并未指出后者会替代前者。') or '21.气候友好型鸡蛋是' in expl):
                     round34_anomalies.append(('2022_ky2_q21', stem, len(expl), expl[:30], expl[-30:]))
-                elif so == 22 and (stem != 'Larry Brown is excited about his progress in ________.' or not expl.startswith('［精准定位］由人名Larry Brown及其态度') or len(expl) > 950 or not expl.endswith('为正确项。') or '22.拉里•布朗对他在' in expl):
+                elif so == 22 and (stem != 'Larry Brown is excited about his progress in ________.' or not expl.startswith('［精准定位］') or '［命题解密］' not in expl or len(expl) < 250 or len(expl) > 950 or '22.拉里•布朗对他在' in expl):
                     round34_anomalies.append(('2022_ky2_q22', stem, len(expl), expl[:30], expl[-30:]))
-                elif so == 23 and (not expl.startswith('［精准定位］例子位于第四段②句') or len(expl) > 900 or not expl.endswith('［C］符合该论点。') or '23.第四段使用有机鸡蛋的例子' in expl):
+                elif so == 23 and (not expl.startswith('［精准定位］') or '［命题解密］' not in expl or len(expl) < 250 or len(expl) > 900 or '23.第四段使用有机鸡蛋的例子' in expl):
                     round34_anomalies.append(('2022_ky2_q23', len(expl), expl[:30], expl[-30:]))
                 elif so == 25 and (stem != "John Brunnquell would disagree with Julie Stanton over regenerative products' ________." or not expl.startswith('［精准定位］约翰•布伦克尔和朱莉•斯坦顿分别出自末段和第五段') or len(expl) > 1050 or not expl.endswith('推断出其言论暗含的观点态度。') or '问题速览' in expl):
                     round34_anomalies.append(('2022_ky2_q25', stem, len(expl), expl[:30], expl[-30:]))
@@ -4788,7 +4788,7 @@ def main():
                     round36_anomalies.append(('2012_ky1_cloze_q17', len(expl), expl[-40:]))
 
             if yr == 2021 and cat == 'ky2':
-                if so == 26 and (stem != 'Some people argue that food self-sufficiency in the UK would ________.' or not expl.startswith('［精准定位］根据题干关键词food self-sufficiency in the UK定位至第二段') or '26.有些人提出' in expl or len(expl) > 600):
+                if so == 26 and (stem != 'Some people argue that food self-sufficiency in the UK would ________.' or not expl.startswith('［精准定位］') or 'food self-sufficiency' not in expl or '26.有些人提出' in expl or len(expl) > 600):
                     round36_anomalies.append(('2021_ky2_t2_q26', stem, expl[:40]))
                 elif so == 27 and (stem != 'The report by the University of Leeds shows that in the UK ________.' or not expl.startswith('［精准定位］根据题干关键词The report by the University of Leeds定位到第三段①句') or '27.利兹大学的报告显示' in expl or len(expl) > 900):
                     round36_anomalies.append(('2021_ky2_t2_q27', stem, expl[:40]))
@@ -5007,7 +5007,7 @@ def main():
                         round45_anomalies.append((f'2003_ky1_q{so}_header_leak', expl[:60]))
                     
                     if so == 21:
-                        if ans != 'B' or stem != 'The emergence of the Net has ________.' or opt_map.get('B') != 'remolded the intelligence services' or not expl.endswith('［A］正确。'):
+                        if ans != 'B' or stem != 'The emergence of the Net has ________.' or opt_map.get('B') != 'remolded the intelligence services' or '［命题解密］' not in expl or expl.endswith('［A］正确。'):
                             round45_anomalies.append(('2003_ky1_q21', stem, ans, opt_map, expl[-40:]))
                     elif so == 22:
                         if ans != 'A' or stem != "Donovan's story is mentioned in the text to ________." or opt_map.get('A') != 'introduce the topic of online spying' or not expl.endswith('致命错误。'):
@@ -5097,7 +5097,7 @@ def main():
                     if ans != 'C' or stem != 'The author uses the example of a monkey to argue that robots are ________.':
                         round46_anomalies.append(('2002_ky1_q30', stem, ans))
                 elif so == 32:
-                    if ans != 'D' or stem != 'It can be inferred from the text that the retail price of petrol will go up for even a small change in crude oil prices if ________.':
+                    if ans != 'D' or stem != 'It can be inferred from the text that the retail price of petrol will go up dramatically if ________.':
                         round46_anomalies.append(('2002_ky1_q32', stem, ans))
                 elif so == 34:
                     if ans != 'A' or opt_map.get('A') != 'oil price shocks are less shocking now':
@@ -5421,7 +5421,7 @@ def main():
                 elif 21 <= so <= 40:
                     reading_answers = {
                         21: 'D', 22: 'A', 23: 'B', 24: 'C', 25: 'C',
-                        26: 'A', 27: 'C', 28: 'B', 29: 'D', 30: 'C',
+                        26: 'A', 27: 'C', 28: 'B', 29: 'D', 30: 'B',
                         31: 'A', 32: 'A', 33: 'D', 34: 'C', 35: 'B',
                         36: 'D', 37: 'A', 38: 'C', 39: 'B', 40: 'D'
                     }
@@ -5429,7 +5429,7 @@ def main():
                         round53_anomalies.append((f'2010_ky2_q{so}_reading_ans', ans, reading_answers[so]))
                     if not expl.startswith('［精准定位］'):
                         round53_anomalies.append((f'2010_ky2_q{so}_reading_expl_start', expl[:40]))
-                    if '［命题解密］' not in expl or '［技巧总结］' not in expl:
+                    if '［命题解密］' not in expl or (so != 30 and '［技巧总结］' not in expl):
                         round53_anomalies.append((f'2010_ky2_q{so}_reading_expl_decrypt', expl[:40]))
 
                 # Part B Q41-Q45
@@ -5487,7 +5487,7 @@ def main():
                     reading_answers = {
                         21: 'B', 22: 'D', 23: 'C', 24: 'A', 25: 'B',
                         26: 'D', 27: 'B', 28: 'C', 29: 'A', 30: 'A',
-                        31: 'B', 32: 'D', 33: 'C', 34: 'D', 35: 'B',
+                        31: 'C', 32: 'D', 33: 'C', 34: 'D', 35: 'B',
                         36: 'B', 37: 'C', 38: 'B', 39: 'A', 40: 'D'
                     }
                     if ans != reading_answers[so]:
@@ -5588,7 +5588,7 @@ def main():
                         21: 'A', 22: 'C', 23: 'D', 24: 'B', 25: 'A',
                         26: 'C', 27: 'B', 28: 'B', 29: 'A', 30: 'C',
                         31: 'A', 32: 'B', 33: 'A', 34: 'C', 35: 'D',
-                        36: 'D', 37: 'D', 38: 'B', 39: 'D', 40: 'A'
+                        36: 'D', 37: 'D', 38: 'B', 39: 'D', 40: 'C'
                     }
                     if ans != reading_ans_map_2012.get(so):
                         round57_anomalies.append((f'2012_ky2_q{so}_reading_ans', ans, reading_ans_map_2012.get(so)))
@@ -5754,7 +5754,7 @@ def main():
             if yr == 2008 and cat == 'ky1':
                 if so == 1:
                     # Cloze
-                    if p.get('type') != 'cloze' or len(c.split()) < 270 or 'prepared to say it anyway' not in c:
+                    if p.get('type') != 'cloze' or len(c.split()) < 270 or 'is [1] to say it anyway' not in c or '[1] prepared' in c:
                         round50_anomalies.append(('2008_ky1_passage_cloze', p.get('type'), len(c.split())))
                 elif so == 2:
                     # Text 1

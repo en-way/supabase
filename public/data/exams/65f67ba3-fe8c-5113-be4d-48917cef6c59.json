@@ -1238,35 +1238,35 @@
       "passage_id": "1af6dd5f-a12c-565a-98c9-0bb2a4bcd0f4",
       "category_id": "ky2",
       "q_type": "reading_item",
-      "stem": "It can be learned from Paragraph 3 that unintentional harm-doers will not be",
+      "stem": "It can be learned from Paragraph 3 that unintentional harm-doers will not be prosecuted if they ________.",
       "options": [
         {
           "key": "A",
+          "text": "agree to pay a sum for compensation",
           "value": "A",
-          "text": "prosecuted by other agencies",
-          "content": "prosecuted by other agencies"
+          "content": "agree to pay a sum for compensation"
         },
         {
           "key": "B",
+          "text": "volunteer to set up an equally big habitat",
           "value": "B",
-          "text": "volunteered to set up an equally big habitat",
-          "content": "volunteered to set up an equally big habitat"
+          "content": "volunteer to set up an equally big habitat"
         },
         {
           "key": "C",
+          "text": "offer to support the WAFWA monitoring job",
           "value": "C",
-          "text": "fined for violating the conservation plan",
-          "content": "fined for violating the conservation plan"
+          "content": "offer to support the WAFWA monitoring job"
         },
         {
           "key": "D",
+          "text": "promise to raise funds for USFWS operations",
           "value": "D",
-          "text": "exempt from federal criminal penalties",
-          "content": "exempt from federal criminal penalties"
+          "content": "promise to raise funds for USFWS operations"
         }
       ],
       "correct_answer": "A",
-      "explanation": "［精准定位］根据题干中的 Paragraph 3 和 unintentional harm-doers 定位至第 3 段开头。\n［解题思路］第 3 段第 1 句指出：“Under the plan, for example, the agency said it would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird, as long as they had signed a range-wide management plan...”。句中明确说明只要签署了管理协议，主管机构“would not prosecute landowners or businesses that unintentionally kill, harm, or disturb the bird”。选项 [A] prosecuted by other agencies（被主管机构起诉），由 not be 否定后与 not prosecute 形成完美对应，故为正确答案。\n［错项排除］[B] volunteered to set up an equally big habitat（自愿设立同样大的栖息地），协议要求补偿 2 倍面积（2 new acres），而非 equally big，且属强制出资机制；[C] fined for violating the conservation plan（因违反保护计划而被罚款），如若违反计划自然会被追责，文中并未豁免违法者；[D] exempt from federal criminal penalties（免除联邦刑事处罚），文中只提到在签署恢复协议前提下不被 prosecute，未做绝对免除刑事处罚的泛化承诺。",
+      "explanation": "［精准定位］第三段指出，美国鱼类及野生动物管理局（USFWS）表示，对于无意伤害草原松鸡的企业，只要其同意缴纳一定金额的补偿费用于栖息地保护，便不会被起诉，故［A］agree to pay a sum for compensation 正确。\n［命题解密］［B］自愿建立同等大小栖息地、［C］资助 WAFWA 监测工作、［D］为 USFWS 运营筹款均与第三段补偿机制细节不符。",
       "points": 2,
       "sort_order": 28,
       "answer": "A",
@@ -1633,8 +1633,8 @@
         {
           "key": "C",
           "value": "C",
-          "text": "attach less importance to marriage",
-          "content": "attach less importance to marriage"
+          "text": "attach importance to pre-marital finance",
+          "content": "attach importance to pre-marital finance"
         },
         {
           "key": "D",
@@ -1644,7 +1644,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "［精准定位］根据题干中的 Paragraph 3 定位至第 3 段。\n［解题思路］第 3 段详细罗列了年轻人的观念差异，其中指出：“...to agree that couples should be financially secure before getting married or having children...”。年轻人认为夫妻双方必须在经济稳定之后才能结婚或生子，说明他们推迟了婚姻，对结婚的态度更加审慎，不再视其为青年早期的唯一头等大事。选项 [C] attach less importance to marriage（不把婚姻看得那么重/推迟看轻即时婚姻的绝对优先级）是对这一现实考量的合理推断，故为正确答案。\n［错项排除］[A] favor a slower life pace（喜欢更慢的生活节奏），文中明确说年轻人“favor... a faster pace of life（喜欢更快的节奏）”，彻底与文意相悖；[B] hold an occupation longer（在同一职业停留更久），文中指出年轻人主张“regularly changing jobs（频繁跳槽）”，选项正反颠倒；[D] give priority to childcare outside the home（优先考虑家庭外的托儿服务），文中说的是父母双职工，并非托儿所优先。",
+      "explanation": "［精准定位］第二段指出，美国人依然珍视结婚等传统人生里程碑，但越来越倾向于在婚前先实现经济稳固与财务准备，故［C］attach importance to pre-marital finance 正确。\n［命题解密］其余三项或与原文“仍看重婚姻”的立场相反，或曲解经济条件与结婚意愿的关系。",
       "points": 2,
       "sort_order": 37,
       "answer": "C",

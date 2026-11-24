@@ -480,27 +480,27 @@
       "options": [
         {
           "key": "A",
+          "text": "about",
           "value": "A",
-          "text": "by",
-          "content": "by"
+          "content": "about"
         },
         {
           "key": "B",
-          "value": "B",
           "text": "for",
+          "value": "B",
           "content": "for"
         },
         {
           "key": "C",
-          "value": "C",
           "text": "on",
+          "value": "C",
           "content": "on"
         },
         {
           "key": "D",
+          "text": "by",
           "value": "D",
-          "text": "through",
-          "content": "through"
+          "content": "by"
         }
       ],
       "correct_answer": "D",
@@ -955,8 +955,8 @@
         {
           "key": "C",
           "value": "C",
-          "text": "daily journalism has elevated the public's aesthetic taste",
-          "content": "daily journalism has elevated the public's aesthetic taste"
+          "text": "high-quality newspapers retain a large body of readers",
+          "content": "high-quality newspapers retain a large body of readers"
         },
         {
           "key": "D",

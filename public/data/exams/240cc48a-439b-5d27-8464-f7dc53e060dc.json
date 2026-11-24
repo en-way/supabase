@@ -228,27 +228,27 @@
       "options": [
         {
           "key": "A",
+          "text": "damaging",
           "value": "A",
-          "text": "unemployed",
-          "content": "unemployed"
+          "content": "damaging"
         },
         {
           "key": "B",
+          "text": "limited",
           "value": "B",
-          "text": "incapable",
-          "content": "incapable"
+          "content": "limited"
         },
         {
           "key": "C",
+          "text": "uneven",
           "value": "C",
-          "text": "unqualified",
-          "content": "unqualified"
+          "content": "uneven"
         },
         {
           "key": "D",
+          "text": "obscure",
           "value": "D",
-          "text": "unwilling",
-          "content": "unwilling"
+          "content": "obscure"
         }
       ],
       "answer": "A",

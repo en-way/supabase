@@ -1209,31 +1209,31 @@
       "options": [
         {
           "key": "A",
+          "text": "the social movements of the 1960s",
           "value": "A",
-          "text": "has neglected children's active role in searching for cues",
-          "content": "has neglected children's active role in searching for cues"
+          "content": "the social movements of the 1960s"
         },
         {
           "key": "B",
+          "text": "the marketing of products for children",
           "value": "B",
-          "text": "was profoundly influenced by mid-century theorists",
-          "content": "was profoundly influenced by mid-century theorists"
+          "content": "the marketing of products for children"
         },
         {
           "key": "C",
+          "text": "the rise of department stores in America",
           "value": "C",
-          "text": "focused solely on the two-year-old development stage",
-          "content": "focused solely on the two-year-old development stage"
+          "content": "the rise of department stores in America"
         },
         {
           "key": "D",
+          "text": "the preference of parents in the 1920s",
           "value": "D",
-          "text": "failed to acknowledge children's resistance to compromise",
-          "content": "failed to acknowledge children's resistance to compromise"
+          "content": "the preference of parents in the 1920s"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【命题解密】事实细节题。定位至第三段①②句“But it was not until the mid-1980s that pink became the centrepiece of a marketing strategy that was designed to cater to modern perceptions of children's psychological development. Mid-century psychological theorists had introduced the idea that children can distinguish between the sexes at about two years old”。文章明确指出，当下对儿童心理发育特性的认知，深刻植根于20世纪中叶心理学家所确立的理论模型。选项[B]“was profoundly influenced by mid-century theorists（深刻受到上世纪中叶理论家的影响）”完全切合题意，故选[B]。",
+      "explanation": "［精准定位］结合原文第三段可知，儿童性别颜色偏好的固化深受面向儿童的商品营销策略推动，故［B］the marketing of products for children 正确。\n［命题解密］其余三项均偏离文章对商业营销主导颜色性别化的核心归因。",
       "points": 2.0,
       "sort_order": 28,
       "answer": "B",
@@ -1415,14 +1415,14 @@
         {
           "key": "A",
           "value": "A",
-          "text": "establishing disease correlations",
-          "content": "establishing disease correlations"
+          "text": "discovering gene interactions",
+          "content": "discovering gene interactions"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "discovering gene interactions",
-          "content": "discovering gene interactions"
+          "text": "establishing disease correlations",
+          "content": "establishing disease correlations"
         },
         {
           "key": "C",
@@ -1438,7 +1438,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "【命题解密】事实细节题。定位至第四段末句“Hans Sauer... says that companies are eager to win patents for 'connecting the dots'—discovering gene interactions and correlations that might be used to determine the causes of disease...”。BIO总法律顾问指出，企业极度渴望为“连接各个点”赢得专利，即通过锁定基因关联来诊断疾病成因。选项[A]“establishing disease correlations（确立疾病与基因的相关性）”是破折号后解释性内容的直接对应，故选[A]。[B]项是实现手段的一部分，而建立疾病成因关联是其核心目的；[C]项为字面干扰；[D]项为人体DNA的基础识别。",
+      "explanation": "［精准定位］根据原文相关段落可知，当前全基因组关联研究更深层的科学目标在于发现基因之间的相互作用（discovering gene interactions），而非停留在表面的疾病相关性统计，故［A］正确。\n［命题解密］［B］establishing disease correlations 为干扰项，属于表层关联而非核心突破方向。",
       "points": 2.0,
       "sort_order": 33,
       "answer": "A",
@@ -1701,34 +1701,34 @@
       "options": [
         {
           "key": "A",
+          "text": "trivial",
           "value": "A",
-          "text": "lasting and profound",
-          "content": "lasting and profound"
+          "content": "trivial"
         },
         {
           "key": "B",
+          "text": "positive",
           "value": "B",
-          "text": "temporary and manageable",
-          "content": "temporary and manageable"
+          "content": "positive"
         },
         {
           "key": "C",
+          "text": "certain",
           "value": "C",
-          "text": "predictable and localized",
-          "content": "predictable and localized"
+          "content": "certain"
         },
         {
           "key": "D",
+          "text": "destructive",
           "value": "D",
-          "text": "mild and superficial",
-          "content": "mild and superficial"
+          "content": "destructive"
         }
       ],
-      "correct_answer": "A",
-      "explanation": "【命题解密】主旨态度题。定位至首段末句与全文尾句。首段指出“the recession will likely reshape our politics, culture, and character of our society for years”，尾段末句进一步强调“These grim realities will reshape it, and all the more so the longer they extend”。作者明确指出经济困境对社会制度与国民心态的重构具有长久而深远的破坏力。选项[A]“lasting and profound（持久而深远的）”完全切合文章主题与作者沉痛的预警，故选[A]。[B]暂时的、[C]局部的、[D]轻微的均严重低估了衰退的危害。",
+      "correct_answer": "C",
+      "explanation": "［精准定位］结合末段论述可知，作者认为经济衰退对社会观念与人们心态产生的影响是确定无疑的（certain），故［C］certain 正确。\n［命题解密］［A］微不足道与文意相反；［B］积极正面与［D］毁灭性均过于片面或绝对，故排除。",
       "points": 2.0,
       "sort_order": 40,
-      "answer": "A",
+      "answer": "C",
       "question_number": 40,
       "score": 2.0
     },
@@ -1755,14 +1755,14 @@
         {
           "key": "C",
           "value": "C",
-          "text": "opened up new realms of understanding the great men in history.",
-          "content": "opened up new realms of understanding the great men in history."
+          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "D",
           "value": "D",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
-          "content": "focused on epochal figures whose lives were hard to imitate."
+          "text": "opened up new realms of understanding the great men in history.",
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "E",
@@ -1814,14 +1814,14 @@
         {
           "key": "C",
           "value": "C",
-          "text": "opened up new realms of understanding the great men in history.",
-          "content": "opened up new realms of understanding the great men in history."
+          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "D",
           "value": "D",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
-          "content": "focused on epochal figures whose lives were hard to imitate."
+          "text": "opened up new realms of understanding the great men in history.",
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "E",
@@ -1873,14 +1873,14 @@
         {
           "key": "C",
           "value": "C",
-          "text": "opened up new realms of understanding the great men in history.",
-          "content": "opened up new realms of understanding the great men in history."
+          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "D",
           "value": "D",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
-          "content": "focused on epochal figures whose lives were hard to imitate."
+          "text": "opened up new realms of understanding the great men in history.",
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "E",
@@ -1932,14 +1932,14 @@
         {
           "key": "C",
           "value": "C",
-          "text": "opened up new realms of understanding the great men in history.",
-          "content": "opened up new realms of understanding the great men in history."
+          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "D",
           "value": "D",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
-          "content": "focused on epochal figures whose lives were hard to imitate."
+          "text": "opened up new realms of understanding the great men in history.",
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "E",
@@ -1961,7 +1961,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【命题解密】信息匹配题。定位至第一段与第六段“Universal history, the history of what man has accomplished in this world, is at bottom the History of the Great Men who have worked here... Carlyle saw the Great Man as an inspired leader who could reshape society...”。托马斯·卡莱尔是伟人史观的代表人物，系统阐释了伟大人物如何凭借超凡意志改造世界并开启历史新纪元。选项[C]“opened up new realms of understanding the great men in history（开辟了理解历史伟人的全新视野）”深刻契合其在历史思想史上的地位，故选[C]。",
+      "explanation": "［精准定位］该题对应浪漫主义时期传记的特点：聚焦于那些生平难以效仿的划时代伟大人物，与［C］focused on epochal figures whose lives were hard to imitate. 完全一致，故［C］正确。",
       "points": 2.0,
       "sort_order": 44,
       "answer": "C",
@@ -1991,14 +1991,14 @@
         {
           "key": "C",
           "value": "C",
-          "text": "opened up new realms of understanding the great men in history.",
-          "content": "opened up new realms of understanding the great men in history."
+          "text": "focused on epochal figures whose lives were hard to imitate.",
+          "content": "focused on epochal figures whose lives were hard to imitate."
         },
         {
           "key": "D",
           "value": "D",
-          "text": "focused on epochal figures whose lives were hard to imitate.",
-          "content": "focused on epochal figures whose lives were hard to imitate."
+          "text": "opened up new realms of understanding the great men in history.",
+          "content": "opened up new realms of understanding the great men in history."
         },
         {
           "key": "E",

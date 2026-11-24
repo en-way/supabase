@@ -477,27 +477,27 @@
       "options": [
         {
           "key": "A",
+          "text": "physical",
           "value": "A",
-          "text": "signals",
-          "content": "signals"
+          "content": "physical"
         },
         {
           "key": "B",
+          "text": "mental",
           "value": "B",
-          "text": "symptoms",
-          "content": "symptoms"
+          "content": "mental"
         },
         {
           "key": "C",
+          "text": "subconscious",
           "value": "C",
-          "text": "implications",
-          "content": "implications"
+          "content": "subconscious"
         },
         {
           "key": "D",
+          "text": "internal",
           "value": "D",
-          "text": "signs",
-          "content": "signs"
+          "content": "internal"
         }
       ],
       "correct_answer": "A",
