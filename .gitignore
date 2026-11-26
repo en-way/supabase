@@ -7,10 +7,12 @@ node_modules/
 .next/
 out/
 scripts/cache/
+scripts/_scratch/
 temp_*/
 temp_*
 scratch_*
 *.png
+*.zip
 tsconfig.tsbuildinfo
 scripts/check_*.py
 scripts/scan_*.py
@@ -56,3 +58,8 @@ scripts/finalize_*.py
 scripts/generate_*.py
 scripts/get_*.py
 scripts/*.txt
+scripts/*.json
+
+# Tracked core utility exceptions matching prefix rules above
+!scripts/clean_explanations.py
+!scripts/audit_design_tokens.py
