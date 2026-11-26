@@ -554,7 +554,7 @@ def main():
 
                 t3 = p_list[3]
                 t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
-                if len(t3_paras) != 4:
+                if len(t3_paras) != 6:
                     round61_anomalies.append(('2014_ky2_t3_paras', len(t3_paras)))
                 if not t3.get("content", "").startswith("The concept of man versus machine is at least as old"):
                     round61_anomalies.append(('2014_ky2_t3_header', 'corrupted'))
@@ -567,7 +567,7 @@ def main():
 
                 t4 = p_list[4]
                 t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
-                if len(t4_paras) not in [6, 7]:
+                if len(t4_paras) != 8:
                     round61_anomalies.append(('2014_ky2_t4_paras', len(t4_paras)))
                 if not t4.get("content", "").startswith("When the government talks about infrastructure"):
                     round61_anomalies.append(('2014_ky2_t4_header', 'corrupted'))
@@ -712,7 +712,7 @@ def main():
             else:
                 cloze = p_list[0]
                 c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
-                if len(c_paras) != 4:
+                if len(c_paras) != 6:
                     round63_anomalies.append(('2015_ky2_cloze_paras', len(c_paras)))
                 if not cloze.get("content", "").startswith('In our contemporary culture, the prospect of communicating with'):
                     round63_anomalies.append(('2015_ky2_cloze_header', 'corrupted'))
@@ -748,7 +748,7 @@ def main():
 
                 t4 = p_list[4]
                 t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
-                if len(t4_paras) != 6:
+                if len(t4_paras) != 7:
                     round63_anomalies.append(('2015_ky2_t4_paras', len(t4_paras)))
                 if "arenowfinallymovingforward" in t4.get("content", ""):
                     round63_anomalies.append(('2015_ky2_t4_concatenation', 'present'))
@@ -934,7 +934,7 @@ def main():
             else:
                 cloze = p_list[0]
                 c_paras = [p for p in cloze.get("content", "").split("\n\n") if p.strip()]
-                if len(c_paras) != 4:
+                if len(c_paras) != 6:
                     round65_anomalies.append(('2016_ky2_cloze_paras', len(c_paras)))
                 if "averagehappiness" in cloze.get("content", ""):
                     round65_anomalies.append(('2016_ky2_cloze_ocr_noise', 'averagehappiness'))
@@ -967,7 +967,7 @@ def main():
 
                 t3 = p_list[3]
                 t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
-                if len(t3_paras) != 4:
+                if len(t3_paras) != 5:
                     round65_anomalies.append(('2016_ky2_t3_paras', len(t3_paras)))
                 if "theproblem" in t3.get("content", "") or "isthat" in t3.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t3_typo_squashed', 'present'))
@@ -1447,10 +1447,10 @@ def main():
                 if "notlink" in t3.get("content", "") or "toFacebook" in t3.get("content", ""):
                     round69_anomalies.append(('2018_ky2_t3_glued_words', 'present'))
 
-                # Text 4 (Deep Work, 7 paras, 439 words)
+                # Text 4 (Deep Work, 9 paras, 439 words)
                 t4 = p_list[4]
                 t4_paras = [p for p in t4.get("content", "").split("\n\n") if p.strip()]
-                if len(t4_paras) != 7:
+                if len(t4_paras) != 9:
                     round69_anomalies.append(('2018_ky2_t4_paras', len(t4_paras)))
                 if not t4.get("content", "").startswith("To combat the trap of putting a premium on being busy, Cal Newport"):
                     round69_anomalies.append(('2018_ky2_t4_start', t4.get("content", "")[:50]))
@@ -2471,27 +2471,27 @@ def main():
                 if not t1.get("content", "").endswith('authorities to consider sustainable alternatives."'):
                     round79_anomalies.append(('2023_ky2_t1_end', t1.get("content", "")[-50:]))
 
-                # Text 2: 6 paras, National parks backlog
+                # Text 2: 7 paras, National parks backlog
                 t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
-                if len(t2_paras) != 6:
+                if len(t2_paras) != 7:
                     round79_anomalies.append(('2023_ky2_t2_paras', len(t2_paras)))
                 if not t2.get("content", "").startswith("It's easy to dismiss as absurd the federal government's ideas"):
                     round79_anomalies.append(('2023_ky2_t2_start', t2.get("content", "")[:50]))
                 if not t2.get("content", "").endswith(", and now stands at 330 million visitors per year."):
                     round79_anomalies.append(('2023_ky2_t2_end', t2.get("content", "")[-50:]))
 
-                # Text 3: 3 paras, Memory & Internet
+                # Text 3: 4 paras, Memory & Internet
                 t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
-                if len(t3_paras) != 3:
+                if len(t3_paras) != 4:
                     round79_anomalies.append(('2023_ky2_t3_paras', len(t3_paras)))
                 if not t3.get("content", "").startswith("The Internet may be changing merely what we remember,"):
                     round79_anomalies.append(('2023_ky2_t3_start', t3.get("content", "")[:50]))
                 if not t3.get("content", "").endswith('for the better? At this point, we don\'t know."'):
                     round79_anomalies.append(('2023_ky2_t3_end', t3.get("content", "")[-50:]))
 
-                # Text 4: 6 paras, Teenagers & Eveline Crone
+                # Text 4: 7 paras, Teenagers & Eveline Crone
                 t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
-                if len(t4_paras) != 6:
+                if len(t4_paras) != 7:
                     round79_anomalies.append(('2023_ky2_t4_paras', len(t4_paras)))
                 if not t4.get("content", "").startswith("Teenagers are paradoxical. That's a mild and detached way"):
                     round79_anomalies.append(('2023_ky2_t4_start', t4.get("content", "")[:50]))
@@ -2920,9 +2920,9 @@ def main():
                 if not t3.get("content", "").endswith("says climate researcher Chandni Singh."):
                     round83_anomalies.append(('2025_ky2_t3_end', t3.get("content", "")[-50:]))
 
-                # Text 4: 5 paras, 410 words, Desire paths
+                # Text 4: 6 paras, 410 words, Desire paths
                 t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
-                if len(t4_paras) != 5:
+                if len(t4_paras) != 6:
                     round83_anomalies.append(('2025_ky2_t4_paras', len(t4_paras)))
                 if not t4.get("content", "").startswith("Navigating beyond the organised pavements and parks of our urban spaces, desire paths"):
                     round83_anomalies.append(('2025_ky2_t4_start', t4.get("content", "")[:50]))
@@ -6059,15 +6059,15 @@ def main():
     results["Assertion 80: 2013 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 1 找回丢失段落恢复6段、Text 2 剔除题干倒灌恢复7段、Text 3 补齐VI/VII段、Text 4 切除倒灌残渣恢复7段、Part B 找回缺失选项[A][B]、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round58_anomalies) == 0)
     results["Assertion 81: 2013 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段351词、Text 1 恢复6段366词并补齐G.I. Bill完整句、Text 2 恢复5段402词理顺候鸟脉络、Text 3 恢复6段381词、Text 4 独立设问恢复7段356词、Part B 恢复6段504词含引言及[41]-[45]建议、切除全卷45题假占位符、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round59_anomalies) == 0)
     results["Assertion 82: 2014 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段284词、Text 1 恢复4段341词切除尾部拼接、Text 2 恢复6段415词彻底消除Q26/Q27题干倒灌与腰斩、Text 3 恢复5段380词补齐诺贝尔奖对比、Text 4 恢复6段412词切除Q37题干倒灌、Part B 恢复8段592词完整找回[B][C][D][E]四段、纠偏完型8题与阅读Q27、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round60_anomalies) == 0)
-    results["Assertion 83: 2014 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段354词补齐腰斩句、Text 1 恢复4段392词消除黏连、Text 2 恢复5段397词补齐首段Ocean引述与Epley原话、Text 3 恢复4段391词治愈腰斩并理顺结尾设问、Text 4 恢复7段384词补齐政府与拨款计划论述、Part B 恢复8段499词规范艺术家分段切除杂质、Q34纠偏为真题原版选项、彻底治愈全卷45题question_number丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round61_anomalies) == 0)
+    results["Assertion 83: 2014 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段354词补齐腰斩句、Text 1 恢复4段392词消除黏连、Text 2 恢复5段397词补齐首段Ocean引述与Epley原话、Text 3 恢复6段391词治愈腰斩并理顺结尾设问、Text 4 恢复8段384词补齐政府与拨款计划论述、Part B 恢复8段499词规范艺术家分段切除杂质、Q34纠偏为真题原版选项、彻底治愈全卷45题question_number丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round61_anomalies) == 0)
     results["Assertion 84: 2015 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段267词、Text 1 恢复7段410词补齐君主立宪选民服务论述、Text 2 恢复7段437词切除倒灌题干与伪造监听句并补齐云计算与汽车类比、Text 3 恢复6段438词还原Parmigiani/Ioannidis/Vaux三大权威引述、Text 4 恢复6段441词还原默多克之女讲话与审判真实表述、Part B 恢复5段324词剥离Directions与选项、Q22/Q32/Q38致命答案纠偏、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round62_anomalies) == 0)
-    results["Assertion 85: 2015 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段320词消除占位符残损、Text 1 恢复6段398词纠偏Q21为A及Q25为D、Text 2 恢复5段397词治愈引文格式与Q28真实选项纠偏、Text 3 恢复5段420词还原右脑修辞与团队导向论述消除黏连、Text 4 恢复6段427词消除黏连并还原医保核心失落句、Part B 恢复7段519词剔除OCR杂质并补齐44段社交陪伴完整句、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round63_anomalies) == 0)
+    results["Assertion 85: 2015 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段320词消除占位符残损、Text 1 恢复6段398词纠偏Q21为A及Q25为D、Text 2 恢复5段397词治愈引文格式与Q28真实选项纠偏、Text 3 恢复5段420词还原右脑修辞与团队导向论述消除黏连、Text 4 恢复7段427词消除黏连并还原医保核心失落句、Part B 恢复7段519词剔除OCR杂质并补齐44段社交陪伴完整句、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round63_anomalies) == 0)
     results["Assertion 86: 2016 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型规范3段理顺婚俗脉络、Text 1 恢复7段找回失落第7段并修复首句France注脚与第3段首句截断、Text 2 恢复6段找回第3段6句大篇失落句并剔除showT与倒灌题干、Text 3 恢复6段切除双重重复与OCR乱码并补全罚金论述、Text 4 恢复7段理顺奢侈品转型、Part B 恢复8段剥离指导语与选项、全卷45题question_number彻底自洽赋值1..45、纠偏Q24为真题原版选项、纠偏Q25为D及Q36为A及Q40为B、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round64_anomalies) == 0)
-    results["Assertion 87: 2016 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并补齐年轻企业关联句、Text 1 恢复6段修复101班级与shelf life、Text 2 恢复4段补齐栖息地补偿金论述与Lininger引述、Text 3 恢复4段补全Eberle空瓶子比喻与灵魂时间、Text 4 恢复6段理顺里程碑与Schneider失落求职句、Part B 恢复7段切除乱码-ns与补齐情绪宣泄句、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round65_anomalies) == 0)
+    results["Assertion 87: 2016 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段并补齐年轻企业关联句、Text 1 恢复6段修复101班级与shelf life、Text 2 恢复4段补齐栖息地补偿金论述与Lininger引述、Text 3 恢复5段补全Eberle空瓶子比喻与灵魂时间、Text 4 恢复6段理顺里程碑与Schneider失落求职句、Part B 恢复7段切除乱码-ns与补齐情绪宣泄句、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round65_anomalies) == 0)
     results["Assertion 88: 2017 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（Text 3 与 Text 4 历史颠倒互换彻底归位纠偏、Text 2 补齐失落利留卡拉尼女王首段恢复6段、完型恢复4段并修复yes与碎词、Text 3 剔除词数泄露恢复7段、Text 4 恢复8段独立设问、Part B 剥离指导语与连线图恢复7段[A]-[G]、全卷45题question_number自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round66_anomalies) == 0)
     results["Assertion 89: 2017 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型治愈单一大段黏连恢复4段348词并切除reservedfor、Text 1 恢复4段治愈toprovidethe与Baddeley原句、Text 2 恢复4段治愈therest ofthe并补全静止脸实验与Tronick论述、Text 3 恢复4段并理顺大一新生适应与转专业省钱逻辑、Text 4 恢复10段并纠偏鲍尔奇火灾哲学、Part B 恢复6段理顺五位制造业代表访谈、全卷45题question_number彻底自洽赋值1..45、Q21/22/25/26/28/29/30/32/33/34/36/38/39 严重乱序选项彻底归位、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round67_anomalies) == 0)
     results["Assertion 90: 2018 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段并切除[1] for答案泄露、Text 1 恢复7段治愈on't dismiss与反斜杠、Text 2 恢复6段切除niversity/nited碎词与beef up/Barna题干倒灌、Text 3 彻底切除Text 2跨篇倒灌段落并完整还原NHS/DeepMind四段论、Text 4 恢复4段理顺USPS赤字与改革、Part B 恢复7段[A]-[G]彻底剔除莎士比亚剧场串题伪选项、全卷45题question_number彻底自洽赋值1..45、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round68_anomalies) == 0)
-    results["Assertion 91: 2018 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段350词消除假实验段、Text 1 恢复8段370词对齐Q23第5段与推行本科论述、Text 2 恢复7段416词理顺风能与储能电池进展、Text 3 恢复4段412词补全反垄断法变化慢从句并消除黏连、Text 4 恢复7段439词找回失落第3段深度日程并治愈rethink截断、Part B 恢复584词剥离Directions与分值杂质、彻底治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round69_anomalies) == 0)
+    results["Assertion 91: 2018 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段350词消除假实验段、Text 1 恢复8段370词对齐Q23第5段与推行本科论述、Text 2 恢复7段416词理顺风能与储能电池进展、Text 3 恢复4段412词补全反垄断法变化慢从句并消除黏连、Text 4 恢复9段439词找回失落第3段深度日程并治愈rethink截断、Part B 恢复584词剥离Directions与分值杂质、彻底治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值 100% 零差异对齐）"] = (len(round69_anomalies) == 0)
     results["Assertion 92: 2019 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段288词、Text 1 找回失落首段追回规定并恢复7段426词彻底切除Q21-Q25题干倒灌、Text 2 恢复6段414词切除Q29题干与Text 3跨篇倒灌、Text 3 恢复9段442词理顺弗兰肯斯坦与AI伦理、Text 4 恢复7段443词切除倒灌题干与排版箭头、Part B 恢复7段[A]-[G]593词彻底替换假科学论文选项并规范排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round70_anomalies) == 0)
     results["Assertion 93: 2019 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复7段347词并剔除划线噪音、Text 1 恢复6段375词理顺内疚感与同情心研究并切除黏连词、Text 2 恢复5段388词对齐Q29第5段定位与加州森林碳计划、Text 3 恢复8段409词理顺农工签证与移民政策、Text 4 恢复8段395词切除黏连并理顺个体与制度变革、Part B 恢复16段484词理顺购房决策五人访谈脉络、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round71_anomalies) == 0)
     results["Assertion 94: 2020 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词、Text 1 彻底剔除Text 2跨篇倒灌污染恢复4段433词、Text 2 恢复7段447词理顺学术出版垄断与开源博弈、Text 3 恢复10段414词切除倒灌题干并追回加州违宪与Catalyst及金裙现象完整论述、Text 4 恢复6段435词找回失落末段并补全GAFA表述、Part B 恢复6段480词彻底替换假沟通选项为眼神交流真实7选项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round72_anomalies) == 0)
@@ -6077,11 +6077,11 @@ def main():
     results["Assertion 98: 2022 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段279词理顺植物神经生物学争鸣、Text 1 恢复7段406词彻底切除Q21倒灌与DABC杂质理顺塑料文物保护、Text 2 恢复7段423词找回失落第3段切除Q27/29倒灌理顺Z世代学位价值演变、Text 3 恢复6段431词切除Q32倒灌与末尾杂质理顺科艺合作超越科普、Text 4 恢复8段474词解开3段长合并理顺新西兰与澳大利亚解雇法门槛机制、Part B 恢复11段553词彻底清除假标题与答案内嵌恢复5人观点与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round76_anomalies) == 0)
     results["Assertion 99: 2022 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段398词理顺写作与时间分配哲理、Text 1 恢复6段401词理顺再生农业与气候友好鸡蛋、Text 2 恢复8段461词理顺美国中老年不退休潮流与寿命延长、Text 3 恢复6段402词理顺黑暗模式与UX伦理规范、Text 4 恢复5段394词理顺道德课堂对吃肉影响与自我言行改变、Part B 恢复8段538词理顺恢复运动指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round77_anomalies) == 0)
     results["Assertion 100: 2023 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段281词理顺丝绸之路驿站驿舍、Text 1 恢复7段443词理顺德州气候教育争议与能源行业教材、Text 2 恢复9段464词理顺新英格兰短租监管与季节工人住房危机、Text 3 恢复7段412词理顺水石书店与企鹅兰登信用额度争议、Text 4 恢复6段360词理顺学术论文引用堆积作弊与Scopus审查算法、Part B 恢复8段594词彻底切除Directions并规范黄石公园150周年[A]-[H]8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round78_anomalies) == 0)
-    results["Assertion 101: 2023 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段349词理顺增长团队与BitTorrent案例、Text 1 恢复6段318词理顺英国皇家园艺学会禁止人造草坪参展博弈、Text 2 恢复6段284词理顺美国国家公园220亿美元基建赤字与营地私有化争议、Text 3 恢复5段277词理顺认知卸载与互联网对人类记忆模式重塑、Text 4 恢复5段268词理顺青少年利他与叛逆并存的神经回报敏感性、Part B 恢复13段574词彻底切除Directions并规范净零建筑新规12段与5人多项对应、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round79_anomalies) == 0)
+    results["Assertion 101: 2023 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段349词理顺增长团队与BitTorrent案例、Text 1 恢复6段318词理顺英国皇家园艺学会禁止人造草坪参展博弈、Text 2 恢复7段284词理顺美国国家公园220亿美元基建赤字与营地私有化争议、Text 3 恢复4段277词理顺认知卸载与互联网对人类记忆模式重塑、Text 4 恢复7段268词理顺青少年利他与叛逆并存的神经回报敏感性、Part B 恢复13段574词彻底切除Directions并规范净零建筑新规12段与5人多项对应、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round79_anomalies) == 0)
     results["Assertion 102: 2024 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词理顺自动门演化机制、Text 1 彻底治愈4段残缺恢复7段424词完整篇章理顺罗马钉子与低价技术变革、Text 2 治愈假造文本恢复7段417词理顺非洲狩猎采集者异亲养育与英国托儿所对比、Text 3 治愈假造文本恢复8段437词理顺鲁特科夫斯基与AI图像盗用、Text 4 治愈假造文本恢复5段426词理顺切萨皮克湾湿地与最高法院爱达荷裁决、Part B 恢复5段669词彻底剔除伪7选5段落恢复5人关于海外掠夺文物归还观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round80_anomalies) == 0)
     results["Assertion 103: 2024 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段347词理顺社交生活平衡、Text 1 恢复8段398词理顺戴安娜·科伊尔《齿轮与怪物》经济包容性、Text 2 恢复5段394词理顺英国木材种植危机与建筑净零瓶颈、Text 3 恢复6段384词理顺高龄不安全驾驶员与适老汽车、Text 4 恢复5段419词理顺健康应用数据隐私立法、Part B 恢复9段518词彻底清除Directions与多余选项恢复大学申请课外活动5人观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round81_anomalies) == 0)
     results["Assertion 104: 2025 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复3段289词理顺帕夫洛彼特里沉没水下古城发现史、Text 1 恢复7段388词理顺莎士比亚排练室教学法对儿童读写与情感培育、Text 2 恢复7段421词理顺超级计算碳足迹与气候模型绿色计算LUMI、Text 3 恢复6段417词理顺好莱坞流媒体大战与盗版网站侵蚀破坏、Text 4 恢复5段475词理顺实体文物与数字原生资产寿命及特殊馆藏维护、Part B 恢复8段572词彻底切除Directions并规范英国蝴蝶摄影8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round82_anomalies) == 0)
-    results["Assertion 105: 2025 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段352词理顺求助心理学与自我同情、Text 1 恢复7段373词理顺美国小费文化演变与数字提示及小费蔓延、Text 2 恢复6段404词理顺英国国民医疗服务体系NHS改革与地方政府预防性卫生、Text 3 恢复6段403词理顺印度高温应对行动计划HAPs与资金短缺、Text 4 恢复5段410词理顺人类直觉与欲望路径Desire Paths及景观规划哲学、Part B 恢复8段565词彻底切除Directions并规范职场建言指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round83_anomalies) == 0)
+    results["Assertion 105: 2025 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段352词理顺求助心理学与自我同情、Text 1 恢复7段373词理顺美国小费文化演变与数字提示及小费蔓延、Text 2 恢复6段404词理顺英国国民医疗服务体系NHS改革与地方政府预防性卫生、Text 3 恢复6段403词理顺印度高温应对行动计划HAPs与资金短缺、Text 4 恢复6段410词理顺人类直觉与欲望路径Desire Paths及景观规划哲学、Part B 恢复8段565词彻底切除Directions并规范职场建言指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round83_anomalies) == 0)
     results["Assertion 106: 2001-2025 全库 41 套真题文章与选项全景法医级深度校对与标准化对齐（2010 完型恢复4段20空权威文本、2019 完形方括号补齐与破折号修复、2006/2011/2014/2022 英语一及 2011 英语二新题型试卷说明与错乱流程图剥离、2021 英语二 Q13 错位重构与 Q24/Q27/Q29 标准答案纠偏、2012 英语二 Q16 官方真题选项还原、全库 1,825 题选项结构 100% 具备 key/value/text/content 四键规范）"] = (len(round84_anomalies) == 0)
     results["Assertion 107: 2005 英语一全卷法医级深度校对与黄金重组（完型填空切除0与II O段标及indicate黏连括号、Text 1 恢复5段431词切除双点及卷尾猴OCR碎词、Text 3 恢复5段471词切除witn与con trol错乱并理顺卡特赖特梦境意识调节理论、Part B 恢复15段清晰段落与[41]-[45]填空位并彻底切除末尾倒灌选项与重叠句子、Q41-Q45 恢复官方完整段落选项[A]-[G]及四键规范、2012 英语一 6 篇文章篇章序号 sort_order 黄金对齐）"] = (len(round85_anomalies) == 0)
     results["Assertion 108: 全库 41 套真题 243 篇篇章映射拓扑与元数据标准化（2001/2012 篇章 section_type 严格规范为 cloze 与 reading，2011 英语一与英语二 Text 1-4 标题 100% 统一规范为 Section II: Reading Comprehension Part A - Text X，全库 1,825 道题目 passage_id 拓扑链接 100% 无孤立与错挂，篇章序号与题目序号 100% 连续且单调自增）"] = (len(round86_anomalies) == 0)
@@ -6256,6 +6256,64 @@ def main():
     results["Assertion 122: 全库 1,825 道题解析 0 处 ©/® 音标乱码、** 双星号、残缺选项标号及 2005-2007 英一空格断词"] = (len(round122_anomalies) == 0)
     results["Assertion 123: 英语二 2010-2025 全 16 套真题全量深度校对与解析升级（96 篇正文 0 处改写与遗漏，720 题 100% 达 >=220 字结构化精解，0 处前缀与答案泄露，2023 Q32/2024 Part B 题干/2025 Part B 100% 黄金还原）"] = (len(round123_anomalies) == 0)
     results["Assertion 124: 英语二终审全真题还原与精解质检（2012/2016/2017 完形 14 题真题还原、720 题 0 处引号/括号/换行/错字瑕疵、Q1-40 错项排除 100% 覆盖）"] = (len(round124_anomalies) == 0)
+
+    round125_anomalies = []
+    expected_para_counts = {
+        (2014, 'reading', 3): 6, (2014, 'reading', 4): 8,
+        (2015, 'cloze', 0): 6,   (2015, 'reading', 4): 7,
+        (2016, 'cloze', 0): 6,   (2016, 'reading', 3): 5,
+        (2018, 'reading', 4): 9, (2023, 'reading', 2): 7,
+        (2023, 'reading', 3): 4, (2023, 'reading', 4): 7,
+        (2025, 'reading', 4): 6,
+    }
+    cn_p_map = {'一': 1, '二': 2, '三': 3, '四': 4, '五': 5, '六': 6, '七': 7, '八': 8, '九': 9, '十': 10, '首': 1}
+    glued_tok_pat = re.compile(
+        r"\b(?:Thetextwas|Wehave|andact|maintaina|Shedidn|Andthen|dodamage|Geoffdidn|tstudylaw|hedecided|"
+        r"Infact|andenemies|ofrobotic|sendout|thesocial|robotrat|evenwhen|CEOsmust|Beyondthis|Toleadinthat|"
+        r"thatsystem|haveto|aworld|havemany|CEOpay|ajudge|Itsfate|thezone|itissureto|onecity|ortown|"
+        r"Europehave|ratherthan|insteadof|SOmuch|mayorsand)\b"
+    )
+    fake_cite_tokens = [
+        "says Harvard Business School historian Nancy Koehn",
+        "Tech is designed to suck you in, and digital products are explicitly",
+        "Emotions are not completely good or completely bad",
+        "different paths to cooperation and sharing",
+        "Malti measured how likely children were to feel sympathy",
+        "we tend to engage in them with the intensity usually reserved for",
+        "胄总体现",
+        "活动 o",
+    ]
+    for fpath in sorted(glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'data', 'exams', '*.json'))):
+        with open(fpath, 'r', encoding='utf-8') as fp:
+            fdata = json.load(fp)
+        if fdata.get('exam', {}).get('category_id', '') != 'ky2':
+            continue
+        fyr = fdata.get('exam', {}).get('year', 0)
+        ps_list = fdata.get('passages', [])
+        ps_map = {p['id']: p for p in ps_list}
+        for idx_p, p in enumerate(ps_list):
+            if (fyr, p.get('type'), idx_p) in expected_para_counts:
+                cnt = len([x for x in (p.get('content') or '').split('\n\n') if x.strip()])
+                if cnt != expected_para_counts[(fyr, p.get('type'), idx_p)]:
+                    round125_anomalies.append((fyr, idx_p, 'para_count', cnt))
+        for q in fdata.get('questions', []):
+            qn = q.get('question_number') or q.get('sort_order')
+            e = q.get('explanation') or ''
+            p = ps_map.get(q.get('passage_id'), {})
+            n_paras = len([x for x in (p.get('content') or '').split('\n\n') if x.strip()])
+            if p.get('type') in ('reading', 'cloze') and n_paras > 0:
+                for m_p in re.finditer(r'第\s*([一二三四五六七八九十首\d]+)\s*段', e):
+                    tok = m_p.group(1)
+                    pidx = int(tok) if tok.isdigit() else cn_p_map.get(tok, 0)
+                    if pidx > n_paras:
+                        round125_anomalies.append((fyr, qn, 'para_oob', pidx, n_paras))
+            gm = glued_tok_pat.findall(e)
+            if gm:
+                round125_anomalies.append((fyr, qn, 'glued_tok', gm))
+            for ft in fake_cite_tokens:
+                if ft in e:
+                    round125_anomalies.append((fyr, qn, 'fake_cite', ft))
+    results["Assertion 125: 英语二 2010-2025 深层溯源校验（11 篇合段真题原卷段落还原、720 题 0 处段号越界、0 处黏连英文词与伪造引文/错字）"] = (len(round125_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
