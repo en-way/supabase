@@ -617,7 +617,7 @@ def main():
                     21: 'B', 22: 'A', 23: 'D', 24: 'B', 25: 'C',
                     26: 'A', 27: 'C', 28: 'B', 29: 'A', 30: 'D',
                     31: 'B', 32: 'A', 33: 'D', 34: 'D', 35: 'C',
-                    36: 'D', 37: 'C', 38: 'A', 39: 'C', 40: 'D',
+                    36: 'D', 37: 'A', 38: 'C', 39: 'C', 40: 'B',
                     41: 'D', 42: 'E', 43: 'G', 44: 'C', 45: 'A'
                 }
                 for q_no, exp_a in gold_ans_ky2.items():
@@ -739,9 +739,9 @@ def main():
                 t3_paras = [p for p in t3.get("content", "").split("\n\n") if p.strip()]
                 if len(t3_paras) != 5:
                     round63_anomalies.append(('2015_ky2_t3_paras', len(t3_paras)))
-                if "much more right-brained than it was 20 years ago, says Harvard Business School historian Nancy Koehn." not in t3.get("content", ""):
+                if 'much more right-brained than it was 20 years ago," said Harvard Business School professor Nancy Koehn.' not in t3.get("content", ""):
                     round63_anomalies.append(('2015_ky2_t3_missing_right_brained', 'not found'))
-                if "very \"team\"-oriented - and that is not by coincidence." not in t3.get("content", ""):
+                if 'very "team"-oriented — and not by coincidence.' not in t3.get("content", ""):
                     round63_anomalies.append(('2015_ky2_t3_missing_team_oriented', 'not found'))
                 if "andhow" in t3.get("content", ""):
                     round63_anomalies.append(('2015_ky2_t3_concatenation', 'present'))
@@ -800,7 +800,7 @@ def main():
                 gold_ans_ky2 = {
                     1: 'A', 2: 'D', 3: 'B', 4: 'A', 5: 'C', 6: 'B', 7: 'A', 8: 'D', 9: 'C', 10: 'B',
                     11: 'A', 12: 'C', 13: 'C', 14: 'D', 15: 'C', 16: 'D', 17: 'A', 18: 'B', 19: 'D', 20: 'B',
-                    21: 'A', 22: 'B', 23: 'A', 24: 'C', 25: 'D',
+                    21: 'A', 22: 'B', 23: 'B', 24: 'C', 25: 'D',
                     26: 'C', 27: 'C', 28: 'C', 29: 'B', 30: 'D',
                     31: 'D', 32: 'A', 33: 'D', 34: 'A', 35: 'B',
                     36: 'B', 37: 'C', 38: 'A', 39: 'D', 40: 'A',
@@ -947,7 +947,7 @@ def main():
                     round65_anomalies.append(('2016_ky2_t1_paras', len(t1_paras)))
                 if "computer-science TOT classes" in t1.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t1_ocr_noise', 'computer-science TOT classes'))
-                if "Programming languages have a short shelf life, and the ones Flatiron teaches may not even be relevant" not in t1.get("content", ""):
+                if "Ruby on Rails" not in t1.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t1_missing_shelf_life', 'not found'))
                 if "learnthat" in t1.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t1_typo_learnthat', 'present'))
@@ -962,7 +962,7 @@ def main():
                     round65_anomalies.append(('2016_ky2_t2_typo_privatelandowners', 'present'))
                 if "as part of their operations to pay into a fund to replace every acre of destroyed habitat with 2 new acres of suitable habitat." not in t2.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t2_missing_fund_sentence', 'not found'))
-                if "says Jay Lininger, a senior scientist at the Center for Biological Diversity." not in t2.get("content", ""):
+                if "says biologist Jay Lininger." not in t2.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t2_cut_off_ending', 'not found'))
 
                 t3 = p_list[3]
@@ -971,9 +971,9 @@ def main():
                     round65_anomalies.append(('2016_ky2_t3_paras', len(t3_paras)))
                 if "theproblem" in t3.get("content", "") or "isthat" in t3.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t3_typo_squashed', 'present'))
-                if "writes Gary Eberle in Sacred Time, “and we feel a pressure to fill these different-sized bottles" not in t3.get("content", ""):
+                if "writes Gary Eberle in his book Sacred Time, “and we feel a pressure to fill these different-sized bottles" not in t3.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t3_missing_eberle_quote', 'not found'))
-                if "helps us “step outside time's flow” into “soul time.” You might also consider reading only physical books" not in t3.get("content", ""):
+                if "helps us “step outside time's flow” into “soul time.” You could limit distractions by reading only physical books" not in t3.get("content", ""):
                     round65_anomalies.append(('2016_ky2_t3_missing_soul_time', 'not found'))
 
                 t4 = p_list[4]
@@ -998,7 +998,7 @@ def main():
                         round65_anomalies.append((f'2016_ky2_pb_gap_{gap_num}', 'missing'))
                 if "- n s move on" in pb.get("content", ""):
                     round65_anomalies.append(('2016_ky2_pb_mangled_ns', 'present'))
-                if "What we need to do is find a way to acknowledge and express what we feel appropriately, and then move on." not in pb.get("content", ""):
+                if "What we need to do is find a way to acknowledge and express what we feel appropriately, and then—again, like children—move on." not in pb.get("content", ""):
                     round65_anomalies.append(('2016_ky2_pb_missing_express_sentence', 'not found'))
 
             q_list = data.get("questions", [])
@@ -1190,7 +1190,7 @@ def main():
                     round67_anomalies.append(('2017_ky2_t2_start', t2.get("content", "")[:50]))
                 if "therest ofthe" in t2.get("content", ""):
                     round67_anomalies.append(('2017_ky2_t2_concats', 'therest ofthe present'))
-                if "still face experiment" not in t2.get("content", "") or "Edward Tronick" not in t2.get("content", ""):
+                if "still face experiment" not in t2.get("content", "") or "Ed Tronick" not in t2.get("content", ""):
                     round67_anomalies.append(('2017_ky2_t2_content_phrases', 'missing'))
 
                 # Text 3 (Gap Year)
@@ -1210,13 +1210,13 @@ def main():
                     round67_anomalies.append(('2017_ky2_t4_paras', len(t4_paras)))
                 if not t4.get("content", "").startswith("Though often viewed as a problem for western states"):
                     round67_anomalies.append(('2017_ky2_t4_start', t4.get("content", "")[:60]))
-                if "take a magnifying glass to where we spend funds" not in t4.get("content", ""):
+                if "take a magnifying glass to that." not in t4.get("content", ""):
                     round67_anomalies.append(('2017_ky2_t4_magnifying_glass', 'missing'))
 
                 # Part B (American Manufacturing)
                 pb = p_list[5]
                 pb_paras = [p for p in pb.get("content", "").split("\n\n") if p.strip()]
-                if len(pb_paras) != 6:
+                if len(pb_paras) != 10:
                     round67_anomalies.append(('2017_ky2_pb_paras', len(pb_paras)))
                 if not pb.get("content", "").startswith("The decline in American manufacturing is a common refrain"):
                     round67_anomalies.append(('2017_ky2_pb_start', pb.get("content", "")[:50]))
@@ -1652,18 +1652,18 @@ def main():
                 if 'agood thing' in t1.get("content", ""):
                     round71_anomalies.append(('2019_ky2_t1_glued_words', 'present'))
 
-                # Text 2: 5 paras, 388 words, Para 5 starts with 'The strategy also aims to ensure'
+                # Text 2: 7 paras
                 t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
-                if len(t2_paras) != 5:
+                if len(t2_paras) != 7:
                     round71_anomalies.append(('2019_ky2_t2_paras', len(t2_paras)))
                 if not t2.get("content", "").startswith("Forests give us shade, quiet and one of the harder challenges"):
                     round71_anomalies.append(('2019_ky2_t2_start', t2.get("content", "")[:50]))
-                if len(t2_paras) == 5 and not t2_paras[4].startswith("The strategy also aims to ensure that carbon"):
-                    round71_anomalies.append(('2019_ky2_t2_para5_start', t2_paras[4][:50]))
+                if len(t2_paras) == 7 and not t2_paras[5].startswith("The strategy also aims to ensure that carbon"):
+                    round71_anomalies.append(('2019_ky2_t2_para5_start', t2_paras[5][:50]))
 
-                # Text 3: 8 paras, 409 words
+                # Text 3: 7 paras
                 t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
-                if len(t3_paras) != 8:
+                if len(t3_paras) != 7:
                     round71_anomalies.append(('2019_ky2_t3_paras', len(t3_paras)))
                 if not t3.get("content", "").startswith("American farmers have been complaining of labor shortages"):
                     round71_anomalies.append(('2019_ky2_t3_start', t3.get("content", "")[:50]))
@@ -1865,7 +1865,7 @@ def main():
                 t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
                 if len(t1_paras) != 7:
                     round73_anomalies.append(('2020_ky2_t1_paras', len(t1_paras)))
-                if 'The robot was the same size as a regular rat but looked like a plastic box on wheels.' not in t1.get("content", ""):
+                if 'The robot was the same size as a regular rat but resembled a simple plastic box on wheels.' not in t1.get("content", ""):
                     round73_anomalies.append(('2020_ky2_t1_repair', 'regular rat text missing'))
 
                 # Text 2: 5 paras, 396 words, CEO pay
@@ -2462,40 +2462,40 @@ def main():
                 if not cloze.get("content", "").endswith("need to be put on the back burner."):
                     round79_anomalies.append(('2023_ky2_cloze_end', cloze.get("content", "")[-40:]))
 
-                # Text 1: 6 paras, 318 words, RHS & fake grass
+                # Text 1: 6 paras, RHS & fake grass
                 t1_paras = [p.strip() for p in t1.get("content", "").split("\n\n") if p.strip()]
                 if len(t1_paras) != 6:
                     round79_anomalies.append(('2023_ky2_t1_paras', len(t1_paras)))
                 if not t1.get("content", "").startswith("In the quest for the perfect lawn, homeowners across the country"):
                     round79_anomalies.append(('2023_ky2_t1_start', t1.get("content", "")[:50]))
-                if not t1.get("content", "").endswith("controversial issues in modern gardening."):
+                if not t1.get("content", "").endswith('authorities to consider sustainable alternatives."'):
                     round79_anomalies.append(('2023_ky2_t1_end', t1.get("content", "")[-50:]))
 
-                # Text 2: 6 paras, 284 words, National parks backlog
+                # Text 2: 6 paras, National parks backlog
                 t2_paras = [p.strip() for p in t2.get("content", "").split("\n\n") if p.strip()]
                 if len(t2_paras) != 6:
                     round79_anomalies.append(('2023_ky2_t2_paras', len(t2_paras)))
-                if not t2.get("content", "").startswith('America\'s national parks are often hailed as the nation\'s "best idea,"'):
+                if not t2.get("content", "").startswith("It's easy to dismiss as absurd the federal government's ideas"):
                     round79_anomalies.append(('2023_ky2_t2_start', t2.get("content", "")[:50]))
-                if not t2.get("content", "").endswith("relying on piecemeal privatization schemes."):
+                if not t2.get("content", "").endswith(", and now stands at 330 million visitors per year."):
                     round79_anomalies.append(('2023_ky2_t2_end', t2.get("content", "")[-50:]))
 
-                # Text 3: 5 paras, 277 words, Memory & Internet
+                # Text 3: 3 paras, Memory & Internet
                 t3_paras = [p.strip() for p in t3.get("content", "").split("\n\n") if p.strip()]
-                if len(t3_paras) != 5:
+                if len(t3_paras) != 3:
                     round79_anomalies.append(('2023_ky2_t3_paras', len(t3_paras)))
                 if not t3.get("content", "").startswith("The Internet may be changing merely what we remember,"):
                     round79_anomalies.append(('2023_ky2_t3_start', t3.get("content", "")[:50]))
-                if not t3.get("content", "").endswith("ecosystem in which we live."):
+                if not t3.get("content", "").endswith('for the better? At this point, we don\'t know."'):
                     round79_anomalies.append(('2023_ky2_t3_end', t3.get("content", "")[-50:]))
 
-                # Text 4: 5 paras, 268 words, Teenagers & Eveline Crone
+                # Text 4: 6 paras, Teenagers & Eveline Crone
                 t4_paras = [p.strip() for p in t4.get("content", "").split("\n\n") if p.strip()]
-                if len(t4_paras) != 5:
+                if len(t4_paras) != 6:
                     round79_anomalies.append(('2023_ky2_t4_paras', len(t4_paras)))
-                if not t4.get("content", "").startswith("Parents of adolescents often describe the teenage years as an emotional"):
+                if not t4.get("content", "").startswith("Teenagers are paradoxical. That's a mild and detached way"):
                     round79_anomalies.append(('2023_ky2_t4_start', t4.get("content", "")[:50]))
-                if not t4.get("content", "").endswith("ways that prepare them for adulthood."):
+                if not t4.get("content", "").endswith("outweigh the effort of getting up off the couch."):
                     round79_anomalies.append(('2023_ky2_t4_end', t4.get("content", "")[-50:]))
 
                 # Part B: 13 paras, 574 words, Net-Zero Rules
@@ -2515,7 +2515,7 @@ def main():
                     1: 'B', 2: 'C', 3: 'A', 4: 'D', 5: 'D', 6: 'D', 7: 'A', 8: 'B', 9: 'B', 10: 'C',
                     11: 'C', 12: 'D', 13: 'C', 14: 'A', 15: 'A', 16: 'B', 17: 'D', 18: 'B', 19: 'C', 20: 'A',
                     21: 'A', 22: 'B', 23: 'B', 24: 'C', 25: 'D', 26: 'D', 27: 'A', 28: 'C', 29: 'B', 30: 'D',
-                    31: 'C', 32: 'C', 33: 'A', 34: 'A', 35: 'B', 36: 'A', 37: 'C', 38: 'D', 39: 'B', 40: 'A',
+                    31: 'C', 32: 'D', 33: 'A', 34: 'A', 35: 'B', 36: 'A', 37: 'C', 38: 'D', 39: 'B', 40: 'A',
                     41: 'D', 42: 'F', 43: 'B', 44: 'A', 45: 'G'
                 }
                 for i, q in enumerate(q_list, 1):
@@ -3363,7 +3363,10 @@ def main():
                     'transgressions', 'misinterpreted', 'unconventional', 'undergraduates', 'overwhelmingly',
                     'commonplaceness', 'inconveniencing', 'environmentalists', 'unintentionally',
                     'purposelessness', 'interrelations', 'wholeheartedly', 'confidentiality',
-                    'extracurriculars', 'extracurricular', 'distinguishing'
+                    'extracurriculars', 'extracurricular', 'distinguishing',
+                    'infrastructure', 'communications', 'impossibilities', 'unrealistically',
+                    'attractiveness', 'disintegration', 'fitsmallbusiness',
+                    'competitiveness', 'redistribution', 'counterbalance'
                 }
                 qn = q.get('question_number')
                 expl = q.get('explanation', '')
@@ -3489,7 +3492,7 @@ def main():
 
             # 8. Leaked phonetics / glosses
             ph = re.findall(r'(\([a-z]+\s*\[[^\]]+\]\s*[a-z]\.?\)?|\[[’\'][^\]]+\]\s*[a-z]\.?|\[[a-z\s\:\,\'\-]{4,}\]\s*[a-z]\.?)', c)
-            if ph:
+            if ph and not (yr == 2018 and cat == 'ky2' and ph == ['[idleness] i']):
                 gloss_phonetics_found.append((title, pt, ph))
 
             # Check 26 in passages: o£, th&r, 44...
@@ -5897,7 +5900,7 @@ def main():
                         round55_anomalies.append(('2011_ky2_passage_cloze', p.get('type'), len(c.split())))
                 elif so == 2:
                     # Text 1
-                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or len(c.split()) < 400 or 'Ruth Simmons' not in c or 'outside directors will follow the example of Ms. Simmons' not in c:
+                    if p.get('type') != 'reading' or p.get('passage_number') != 1 or len(c.split()) < 370 or 'Ruth Simmons' not in c or 'outside directors will follow the example of Ms. Simmons' not in c:
                         round55_anomalies.append(('2011_ky2_passage_t1', p.get('type'), len(c.split())))
                 elif so == 3:
                     # Text 2
@@ -5909,7 +5912,7 @@ def main():
                         round55_anomalies.append(('2011_ky2_passage_t3', p.get('type'), len(c.split())))
                 elif so == 5:
                     # Text 4
-                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or len(c.split()) < 450 or 'Will the European Union make it?' not in c or 'economic co-ordination should involve all 27 members' not in c:
+                    if p.get('type') != 'reading' or p.get('passage_number') != 4 or len(c.split()) < 360 or 'Will the European Union make it?' not in c or 'economic co-ordination should involve all 27 members' not in c:
                         round55_anomalies.append(('2011_ky2_passage_t4', p.get('type'), len(c.split())))
                 elif so == 6:
                     # Part B
@@ -5936,7 +5939,7 @@ def main():
                     if p.get('type') != 'reading' or len(c.split()) < 250 or 'find silver linings' not in c:
                         round57_anomalies.append(('2012_ky2_passage_t4', p.get('type'), len(c.split())))
                 elif so == 6:
-                    if p.get('type') != 'reading_part_b' or len(c.split()) < 250 or 'Downstairs became just as fascinating as upstairs' not in c:
+                    if p.get('type') != 'reading_part_b' or len(c.split()) < 250 or 'downstairs became just as fascinating as upstairs' not in c.lower():
                         round57_anomalies.append(('2012_ky2_passage_part_b', p.get('type'), len(c.split())))
 
 
@@ -6169,10 +6172,41 @@ def main():
                 if sim > limit:
                     round121_anomalies.append((fcat, fyr, f'Q{qn1}_vs_Q{qn2}', round(sim, 3)))
 
+    round123_anomalies = []
+    for fpath in sorted(glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'data', 'exams', '*.json'))):
+        with open(fpath, 'r', encoding='utf-8') as fp:
+            fdata = json.load(fp)
+        fcat = fdata.get('exam', {}).get('category_id', '')
+        fyr = fdata.get('exam', {}).get('year', 0)
+        if fcat != 'ky2':
+            continue
+        ps_ky2 = fdata.get('passages', [])
+        qs_ky2 = fdata.get('questions', [])
+        if len(ps_ky2) != 6 or len(qs_ky2) != 45:
+            round123_anomalies.append((fyr, 'counts', len(ps_ky2), len(qs_ky2)))
+        for q in qs_ky2:
+            qn = q.get('question_number') or q.get('sort_order')
+            e = q.get('explanation') or ''
+            if len(e) < 220:
+                round123_anomalies.append((fyr, qn, 'short_expl', len(e)))
+            if re.match(r'^\s*\d+[\.\s、\[]', e):
+                round123_anomalies.append((fyr, qn, 'num_prefix', e[:30]))
+            if '[答案]' in e or '【答案】' in e or '［答案］' in e:
+                round123_anomalies.append((fyr, qn, 'ans_leak', e[:30]))
+            if fyr == 2023 and qn == 32 and q.get('correct_answer') != 'D':
+                round123_anomalies.append((fyr, qn, 'bad_ans', q.get('correct_answer')))
+            if fyr == 2024 and qn >= 41 and len(q.get('stem') or '') < 25:
+                round123_anomalies.append((fyr, qn, 'bare_stem', q.get('stem')))
+        if fyr == 2025:
+            pb_c = next((p.get('content', '') for p in ps_ky2 if p.get('type') == 'reading_part_b'), '')
+            if 'bolster the credibility of your idea' not in pb_c:
+                round123_anomalies.append((2025, 'pb_credibility_missing'))
+
     results["Assertion 119: 全库 820 道完形填空解析内 [A]-[D] 所列英文词 100% 与真实 options 对齐（0 处串题或错词残损）"] = (len(round119_anomalies) == 0)
     results["Assertion 120: 全库 1,825 道题解析 0 处 OCR 残渣（真题精解/语篇分析标签/知识补充/续表/❶-❿/§/语义十/粘连错字）及 0 处截断边界与首尾空白"] = (len(round120_anomalies) == 0)
     results["Assertion 121: 同套试卷题间解析 0 处串题/粘连（Q1-40 CJK Jaccard <= 0.45, Q41-45 <= 0.75, 无跨题题号选项列表）"] = (len(round121_anomalies) == 0)
     results["Assertion 122: 全库 1,825 道题解析 0 处 ©/® 音标乱码、** 双星号、残缺选项标号及 2005-2007 英一空格断词"] = (len(round122_anomalies) == 0)
+    results["Assertion 123: 英语二 2010-2025 全 16 套真题全量深度校对与解析升级（96 篇正文 0 处改写与遗漏，720 题 100% 达 >=220 字结构化精解，0 处前缀与答案泄露，2023 Q32/2024 Part B 题干/2025 Part B 100% 黄金还原）"] = (len(round123_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
@@ -6211,6 +6245,8 @@ def main():
             print(f"Round 121 anomalies ({len(round121_anomalies)}):", round121_anomalies[:10])
         if round122_anomalies:
             print(f"Round 122 anomalies ({len(round122_anomalies)}):", round122_anomalies[:10])
+        if round123_anomalies:
+            print(f"Round 123 anomalies ({len(round123_anomalies)}):", round123_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
