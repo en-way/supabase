@@ -1405,8 +1405,8 @@
         {
           "key": "A",
           "value": "A",
-          "text": "worsen political disputes",
-          "content": "worsen political disputes"
+          "text": "pose a risk to Facebook users",
+          "content": "pose a risk to Facebook users"
         },
         {
           "key": "B",
@@ -1417,8 +1417,8 @@
         {
           "key": "C",
           "value": "C",
-          "text": "pose a risk to Facebook users",
-          "content": "pose a risk to Facebook users"
+          "text": "worsen political disputes",
+          "content": "worsen political disputes"
         },
         {
           "key": "D",
@@ -1427,11 +1427,11 @@
           "content": "mess up customer records"
         }
       ],
-      "correct_answer": "C",
-      "explanation": "［考点提炼］事实细节题＋后果推断。\n［解题思路］根据定位词 Linking phone numbers to Facebook identities 定位至第二段：Facebook 违背承诺将手机号与社交身份关联，即使不知道消息内容，了解谁与谁通信也是极其泄密的（enormously revealing），后文以政界丑闻和用户购买记录为例，说明个人隐私面临严重泄露风险。C项 pose a risk to Facebook users（对 Facebook 用户构成风险）准确概括了其潜在危害。\n［错项排除］[A] worsen political disputes（加剧政治争端）属于举例中的背景修辞，非主干影响；[B] mislead the European commission（误导欧盟委员会）是收购时的违约行为，非绑定账号的直接后果；[D] mess up customer records（弄乱客户记录）违背原文记录变得极具价值的表述。",
+      "correct_answer": "A",
+      "explanation": "［考点提炼］事实细节题＋后果推断。\n［解题思路］根据定位词 Linking phone numbers to Facebook identities 定位至第二段：Facebook 违背承诺将手机号与社交身份关联，即使不知道消息内容，了解谁与谁通信也是极其泄密的（enormously revealing），后文以政界丑闻和用户购买记录为例，说明个人隐私面临严重泄露风险。A项 pose a risk to Facebook users（对 Facebook 用户构成风险）准确概括了其潜在危害。\n［错项排除］[B] mislead the European commission（误导欧盟委员会）是批准收购时的误导与违约行为，并非绑定账号本身的后果；[C] worsen political disputes（加剧政治争端）源自“特蕾莎·梅政敌在群内密谋”的隐私泄露例证，文中并未提及会加剧政治争端；[D] mess up customer records（弄乱客户记录）违背原文记录变得极具价值并暴露隐私的表述。",
       "points": 2.0,
       "sort_order": 32,
-      "answer": "C",
+      "answer": "A",
       "question_number": 32,
       "score": 2.0,
       "question_type": "reading_item"

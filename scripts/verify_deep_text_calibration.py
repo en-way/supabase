@@ -1503,7 +1503,7 @@ def main():
                     16: 'C', 17: 'D', 18: 'A', 19: 'C', 20: 'B',
                     21: 'A', 22: 'C', 23: 'B', 24: 'D', 25: 'A',
                     26: 'B', 27: 'B', 28: 'D', 29: 'C', 30: 'A',
-                    31: 'D', 32: 'C', 33: 'C', 34: 'B', 35: 'D',
+                    31: 'D', 32: 'A', 33: 'C', 34: 'B', 35: 'D',
                     36: 'C', 37: 'C', 38: 'A', 39: 'B', 40: 'D',
                     41: 'A', 42: 'C', 43: 'E', 44: 'B', 45: 'F'
                 }
@@ -6383,6 +6383,46 @@ def main():
                 round126_anomalies.append((2023, 27, 'wrong_para_3'))
     results["Assertion 126: 英语二多 Agent 交叉终检固化（2010 T3/2024 Part B 原卷还原、2013/2017 冗余脏字段清零、720 题 0 处伪引文/段号偏移/漏字/两栏串行 OCR 瑕疵）"] = (len(round126_anomalies) == 0)
     
+    # Assertion 127: 英语二 2014/2017/2018/2019/2020 黄皮书盲区全清零（2018 Q32 & 2017 Q36 原卷选项顺序/答案/解析精准还原）
+    round127_anomalies = []
+    exams_root_127 = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'data', 'exams')
+    with open(os.path.join(exams_root_127, "8868dd40-75bf-590b-98a4-a516c5e1c161.json"), "r", encoding="utf-8") as f18:
+        d18_127 = json.load(f18)
+    with open(os.path.join(exams_root_127, "68de78c3-98c6-507b-9a1e-566833a7f00b.json"), "r", encoding="utf-8") as f17:
+        d17_127 = json.load(f17)
+
+    q18_32 = next((q for q in d18_127.get("questions", []) if q.get("question_number") == 32), None)
+    if not q18_32:
+        round127_anomalies.append("2018 Q32 missing")
+    else:
+        opts18 = {o.get("key"): o.get("text") for o in q18_32.get("options", [])}
+        if q18_32.get("answer") != "A" or q18_32.get("correct_answer") != "A":
+            round127_anomalies.append(f"2018 Q32 bad answer: {q18_32.get('answer')}/{q18_32.get('correct_answer')}")
+        if opts18.get("A") != "pose a risk to Facebook users" or opts18.get("C") != "worsen political disputes":
+            round127_anomalies.append(f"2018 Q32 bad options: {opts18}")
+        exp18 = q18_32.get("explanation", "")
+        if "A项 pose a risk to Facebook users" not in exp18 or "[C] worsen political disputes" not in exp18:
+            round127_anomalies.append("2018 Q32 explanation option mismatch")
+
+    q17_36 = next((q for q in d17_127.get("questions", []) if q.get("question_number") == 36), None)
+    if not q17_36:
+        round127_anomalies.append("2017 Q36 missing")
+    else:
+        opts17 = {o.get("key"): o.get("text") for o in q17_36.get("options", [])}
+        if q17_36.get("answer") != "A" or q17_36.get("correct_answer") != "A":
+            round127_anomalies.append(f"2017 Q36 bad answer: {q17_36.get('answer')}/{q17_36.get('correct_answer')}")
+        if (
+            opts17.get("B") != "severely damaged the ecology of western states"
+            or opts17.get("C") != "caused a huge rise of infrastructure expenditure"
+            or opts17.get("D") != "exhausted unprecedented management efforts"
+        ):
+            round127_anomalies.append(f"2017 Q36 bad options: {opts17}")
+        for fld in ("explanation", "analysis"):
+            txt17 = q17_36.get(fld, "")
+            if "[B] severely damaged" not in txt17 or "[C] caused a huge rise" not in txt17 or "[D] exhausted unprecedented" not in txt17:
+                round127_anomalies.append(f"2017 Q36 {fld} option mismatch")
+    results["Assertion 127: 英语二 2014/2017/2018/2019/2020 黄皮书盲区全清零（2018 Q32 [A]/[C] 与答案 A 还原、2017 Q36 [B]/[C]/[D] 原卷顺序与双字段解析校准）"] = (len(round127_anomalies) == 0)
+
     print("\n=== 断言检查结果 ===")
     all_passed = True
     for metric, status in results.items():
@@ -6422,6 +6462,8 @@ def main():
             print(f"Round 122 anomalies ({len(round122_anomalies)}):", round122_anomalies[:10])
         if round123_anomalies:
             print(f"Round 123 anomalies ({len(round123_anomalies)}):", round123_anomalies[:10])
+        if round127_anomalies:
+            print(f"Round 127 anomalies ({len(round127_anomalies)}):", round127_anomalies[:10])
         if round74_anomalies:
             print("Round 74 anomalies:", round74_anomalies)
 
