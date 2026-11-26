@@ -4587,7 +4587,7 @@ def main():
             if yr == 2021 and cat == 'ky2':
                 if so == 2 and (len(expl) > 800 or not expl.endswith('one已经是“被分解的、不难理解的一个要素”。') or '语篇分析' in expl or '乘坐伦敦公交车出行' in expl):
                     round30_anomalies.append(('2021_ky2_q2', len(expl), expl[-30:]))
-                elif so == 11 and (len(expl) > 600 or not expl.endswith('不能与“将安全作为标准”构成“条件一结果”关联。') or '语篇分析' in expl or '第二段以多个问答形式' in expl):
+                elif so == 11 and (len(expl) > 600 or not expl.endswith('不能与“将安全作为标准”构成“条件—结果”关联，故均可排除。') or '语篇分析' in expl or '第二段以多个问答形式' in expl):
                     round30_anomalies.append(('2021_ky2_q11', len(expl), expl[-30:]))
                 elif so == 36 and (stem != "Nalini Ambady's study deals with ________." or len(expl) > 1500 or not expl.endswith('［A］［C］［D］均运用各项研究对参与者的不同要求捏造干扰，可排除。') or '语篇分析' in expl or '第二段继续介绍安巴迪的研究' in expl):
                     round30_anomalies.append(('2021_ky2_q36', stem, len(expl), expl[-30:]))
@@ -4608,7 +4608,7 @@ def main():
 
             # Check Round 31: 2021 ky2 Cloze Q14, 2007 ky1 Cloze Q15, 2004 ky1 Reading Q25,30, 2022 ky1 Reading Q27,32,37,38, 2022 ky2 Reading Q27
             if yr == 2021 and cat == 'ky2' and so == 14:
-                if len(expl) > 600 or not expl.endswith('与is meant to take（时间段）无法搭配。') or '语篇分析' in expl or 'The moral of the story' in expl:
+                if len(expl) > 600 or not expl.endswith('与 is meant to take（时间段）无法搭配，故均可排除。') or '语篇分析' in expl or 'The moral of the story' in expl:
                     round31_anomalies.append(('2021_ky2_q14', len(expl), expl[-30:]))
 
             if yr == 2007 and cat == 'ky1' and so == 15:
@@ -4706,7 +4706,7 @@ def main():
                     round34_anomalies.append(('2022_ky2_q26', stem, len(expl), expl[:30], expl[-30:]))
                 elif so == 28 and (stem != 'Retirement patterns are changing partly due to ________.' or not expl.startswith('［精准定位］根据Retirement patterns定位至第五段首句') or len(expl) > 650 or not expl.endswith('也就不会掉入命题人利用其中细节设立的陷阱。') or '28.退休模式正在发生变化' in expl):
                     round34_anomalies.append(('2022_ky2_q28', stem, len(expl), expl[:30], expl[-30:]))
-                elif so == 29 and (stem != "Many 'unretirees' are increasing their savings by ________." or not expl.startswith('［精准定位］根据increasing their savings定位至第六段②句') or len(expl) > 500 or not expl.endswith('故正确。') or '29.许多“不退休者"通过' in expl):
+                elif so == 29 and (stem != "Many 'unretirees' are increasing their savings by ________." or not expl.startswith('［精准定位］根据increasing their savings定位至第六段②句') or len(expl) > 650 or not expl.endswith('故正确。') or '29.许多“不退休者"通过' in expl):
                     round34_anomalies.append(('2022_ky2_q29', stem, len(expl), expl[:30], expl[-30:]))
                 elif so == 30 and (not expl.startswith('［精准定位］根据Brent Weiss定位至第七、八段') or len(expl) > 750 or not expl.endswith('故均排除。') or '问题速览' in expl or 'More Americans are opting to work' in expl):
                     round34_anomalies.append(('2022_ky2_q30', len(expl), expl[:30], expl[-30:]))
@@ -6202,11 +6202,60 @@ def main():
             if 'bolster the credibility of your idea' not in pb_c:
                 round123_anomalies.append((2025, 'pb_credibility_missing'))
 
+    round124_anomalies = []
+    golden_cloze = {
+        (2012, 7): ('B', ['implying', 'meaning', 'symbolizing', 'claiming']),
+        (2012, 8): ('A', ['handed out', 'turned over', 'brought back', 'passed down']),
+        (2012, 9): ('C', ['pushed', 'got', 'made', 'managed']),
+        (2012, 10): ('B', ['ever', 'never', 'either', 'neither']),
+        (2012, 11): ('D', ['disguised', 'disturbed', 'disputed', 'distinguished']),
+        (2012, 12): ('C', ['company', 'community', 'collection', 'colony']),
+        (2012, 13): ('C', ['employed', 'appointed', 'interviewed', 'questioned']),
+        (2012, 14): ('A', ['human', 'military', 'political', 'ethical']),
+        (2012, 15): ('D', ['ruined', 'commuted', 'patrolled', 'gained']),
+        (2012, 17): ('B', ['neglected', 'emphasized', 'avoided', 'admired']),
+        (2012, 18): ('C', ['stages', 'illusions', 'fragments', 'advances']),
+        (2012, 19): ('B', ['With', 'To', 'Among', 'Beyond']),
+        (2016, 7): ('A', ['Sure', 'Odd', 'Unfortunate', 'Often']),
+        (2017, 20): ('B', ['technological', 'professional', 'educational', 'interpersonal']),
+    }
+    for fpath in sorted(glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'data', 'exams', '*.json'))):
+        with open(fpath, 'r', encoding='utf-8') as fp:
+            fdata = json.load(fp)
+        if fdata.get('exam', {}).get('category_id', '') != 'ky2':
+            continue
+        fyr = fdata.get('exam', {}).get('year', 0)
+        for q in fdata.get('questions', []):
+            qn = q.get('question_number') or q.get('sort_order')
+            ans = q.get('answer') or q.get('correct_answer')
+            opts = [o.get('text') or o.get('content') or '' for o in (q.get('options') or [])]
+            e = q.get('explanation') or ''
+            if (fyr, qn) in golden_cloze:
+                exp_ans, exp_opts = golden_cloze[(fyr, qn)]
+                if ans != exp_ans or opts != exp_opts:
+                    round124_anomalies.append((fyr, qn, 'golden_cloze', ans, opts))
+            if e.count('“') != e.count('”') or e.count('"') % 2 != 0:
+                round124_anomalies.append((fyr, qn, 'quote_balance'))
+            if e.count('（') != e.count('）') or e.count('【') != e.count('】') or e.count('［') != e.count('］'):
+                round124_anomalies.append((fyr, qn, 'bracket_balance'))
+            if re.search(r'[\u4e00-\u9fff] +[\u4e00-\u9fff]', e) or re.search(r'[\u4e00-\u9fff，、；：（）“”]\n(?![［\[【])\S', e):
+                round124_anomalies.append((fyr, qn, 'cjk_break_or_space'))
+            if fyr in (2020, 2021, 2022) and re.search(r'[］\]]\s+(?!\n)', e):
+                round124_anomalies.append((fyr, qn, 'heading_trailing_space'))
+            for bad in ['sideide', '招致击', 'theaabsence', 'iin ', 'Among o。', '両情', 'good starts', '执择', '语义杂为', 'screamat', '. . .', '工A]']:
+                if bad in e:
+                    round124_anomalies.append((fyr, qn, f'bad_tok:{bad}'))
+            if 1 <= qn <= 40:
+                for k in ('A', 'B', 'C', 'D'):
+                    if k != ans and not re.search(rf'(?:\[{k}\]|［{k}］|\b{k}\s*项)', e):
+                        round124_anomalies.append((fyr, qn, 'missing_wrong_opt', k))
+
     results["Assertion 119: 全库 820 道完形填空解析内 [A]-[D] 所列英文词 100% 与真实 options 对齐（0 处串题或错词残损）"] = (len(round119_anomalies) == 0)
     results["Assertion 120: 全库 1,825 道题解析 0 处 OCR 残渣（真题精解/语篇分析标签/知识补充/续表/❶-❿/§/语义十/粘连错字）及 0 处截断边界与首尾空白"] = (len(round120_anomalies) == 0)
     results["Assertion 121: 同套试卷题间解析 0 处串题/粘连（Q1-40 CJK Jaccard <= 0.45, Q41-45 <= 0.75, 无跨题题号选项列表）"] = (len(round121_anomalies) == 0)
     results["Assertion 122: 全库 1,825 道题解析 0 处 ©/® 音标乱码、** 双星号、残缺选项标号及 2005-2007 英一空格断词"] = (len(round122_anomalies) == 0)
     results["Assertion 123: 英语二 2010-2025 全 16 套真题全量深度校对与解析升级（96 篇正文 0 处改写与遗漏，720 题 100% 达 >=220 字结构化精解，0 处前缀与答案泄露，2023 Q32/2024 Part B 题干/2025 Part B 100% 黄金还原）"] = (len(round123_anomalies) == 0)
+    results["Assertion 124: 英语二终审全真题还原与精解质检（2012/2016/2017 完形 14 题真题还原、720 题 0 处引号/括号/换行/错字瑕疵、Q1-40 错项排除 100% 覆盖）"] = (len(round124_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True

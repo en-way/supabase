@@ -349,30 +349,30 @@
         {
           "key": "A",
           "value": "A",
-          "text": "with",
-          "content": "with"
+          "text": "implying",
+          "content": "implying"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "for",
-          "content": "for"
+          "text": "meaning",
+          "content": "meaning"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "as",
-          "content": "as"
+          "text": "symbolizing",
+          "content": "symbolizing"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "on",
-          "content": "on"
+          "text": "claiming",
+          "content": "claiming"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【命题解密】句内语义与介词辨析。\n【精准定位】句子指出“G.I. is just a military abbreviation [7] Government Issue”。\nabbreviation for sth是英语固有习惯用法，意为“……的缩写/简称”，如the abbreviation for kilograms is kg，故选[B] for。\n【错项排除】[A] with通常表示伴随或工具，不与abbreviation搭配表示简称；[C] as意为“作为”，语义不通；[D] on无“……的缩写”用法。",
+      "explanation": "［考点提炼］句内语义与现在分词辨析。\n［精准定位］G.I. is just a military abbreviation [7] Government Issue...\n［解题思路］句中指出 G.I. 只是一个军用缩略语，[7] Government Issue。对比可见，G 与 I 恰好是 Government Issue 两词的首字母组合，因此 Government Issue 正是在解释缩略语 G.I. 的完整含义。meaning 意为“意思是；表示……的意思”，现在分词短语 meaning Government Issue 作后置定语修饰 abbreviation，完美契合“缩写—全称解释”的语义关系，故选[B]。\n［错项排除］[A] implying（暗示；暗指）侧重间接或隐含地表达含义，而 G.I. 与 Government Issue 存在直接明了的首字母对应关系，并非“暗指”，故排除；[C] symbolizing（象征；代表）侧重以具体事物表达抽象意义，而此处并非“具体—抽象”的象征关系，而是“缩写—全称”关系，故排除；[D] claiming 可表“声称（未经证实的观点）”或“认领；索取”，句中修饰“缩略语”而非“士兵”，逻辑均不符，故排除。",
       "points": 0.5,
       "sort_order": 7,
       "answer": "B",
@@ -390,30 +390,30 @@
         {
           "key": "A",
           "value": "A",
-          "text": "handed",
-          "content": "handed"
+          "text": "handed out",
+          "content": "handed out"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "turned",
-          "content": "turned"
+          "text": "turned over",
+          "content": "turned over"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "brought",
-          "content": "brought"
+          "text": "brought back",
+          "content": "brought back"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "passed",
-          "content": "passed"
+          "text": "passed down",
+          "content": "passed down"
         }
       ],
       "correct_answer": "A",
-      "explanation": "【命题解密】动词短语与句内语义。此处考查分词短语作后置定语修饰articles（物品、用品）。短语hand out/hand to意为“分发、配发给”，此处省略out或直接用handed to soldiers表示“配发给士兵们的所有军需用品”，印证了Government Issue（政府配发）的由来，故选[A] handed。[B] turned to意为“求助于，转向”；[C] brought to意为“带给”；[D] passed to意为“传递给”。",
+      "explanation": "［考点提炼］动词短语搭配与句内语义。\n［精准定位］...and it was on all of the articles [8] to soldiers.\n［解题思路］空格所在分句指出，G.I. 这个缩略语印在 [8] 给士兵的所有物品（articles）上。结合前文 G.I. 的全称 Government Issue（政府配发/发放）可知，这些物品是由政府或军方发放给士兵的。handed out（分发、发放）作过去分词短语 handed out to soldiers 修饰 articles，准确呼应 Government Issue 的内涵，故选[A]。\n［错项排除］[B] turned over（移交；转交所有权/管理权）侧重把控制权或管理权正式交给他人，并非政府向普通士兵分发军需物品，故排除；[C] brought back（带回；使恢复）无法与“物品发往士兵”的语境搭配，故排除；[D] passed down（世代相传；自上而下流传）多指传统、财产或经验的代际传承，不合句意，故排除。",
       "points": 0.5,
       "sort_order": 8,
       "answer": "A",
@@ -431,14 +431,14 @@
         {
           "key": "A",
           "value": "A",
-          "text": "got",
-          "content": "got"
+          "text": "pushed",
+          "content": "pushed"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "took",
-          "content": "took"
+          "text": "got",
+          "content": "got"
         },
         {
           "key": "C",
@@ -449,12 +449,12 @@
         {
           "key": "D",
           "value": "D",
-          "text": "put",
-          "content": "put"
+          "text": "managed",
+          "content": "managed"
         }
       ],
       "correct_answer": "C",
-      "explanation": "【命题解密】固定搭配与上下文语义。空处前文提到“Joe? A common name for a guy who never [9] it to the top”。固定习语make it to the top意为“出人头地；跻身最高层/成功登顶”，如He made it to the top of his profession。句中指出“Joe”代表的是从未大富大贵或位极人臣的普通蓝领阶层，故选[C] made。[A] got常接to without it；[B] took it常表示忍受；[D] put it通常表示表达。",
+      "explanation": "［考点提炼］固定习语搭配与上下文语义。\n［精准定位］A common name for a guy who never [9] it to the top.\n［解题思路］句中解释“Joe”是一个代表普通人的常见名字，他从未 [9] 过社会顶层；后文紧接着列举 Joe Blow、Joe Palooka、Joe Magrac 等工人阶级常用名予以印证。make it 为固定习语，意为“获得成功；闯出名堂”，never made it to the top 意为“从未成功攀上事业或社会巅峰”，契合平民与工人阶级语境，故选[C]。\n［错项排除］[A] pushed 与虚指宾语 it 搭配时多表示“勉强；得寸进尺（push it）”，push sth to the top 需接具体实物，不合句意，故排除；[B] got（get it）意为“明白；得到”，其中的 it 需实指前文事物，且不与 to the top 搭配表达成功登顶，故排除；[D] managed 表“设法完成”时需接不定式（manage to do）或实指宾语，不能与虚指 it 构成 manage it to the top，故排除。",
       "points": 0.5,
       "sort_order": 9,
       "answer": "C",
@@ -484,18 +484,18 @@
         {
           "key": "C",
           "value": "C",
-          "text": "seldom",
-          "content": "seldom"
+          "text": "either",
+          "content": "either"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "hardly",
-          "content": "hardly"
+          "text": "neither",
+          "content": "neither"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【命题解密】上下文语义与副词用法。前文列举了Joe Blow, Joe Palooka等普通工薪阶层的典型平民名字，本句作为佐证指出：美国历史上从未有过哪位总统、副总统或国务卿名叫Joe（注：至2012年拜登任副总统时常称Joe Biden，但历史传统上高官正名不以Joe自居）。与前文“never made it to the top”照应，表示断然的全盘否定，故选[B] never。[A] ever意为“曾经”；[C] seldom与[D] hardly为半否定，不如never彻底有力。",
+      "explanation": "［考点提炼］上下文语义与否定副词用法。\n［精准定位］The United States has [10] had a president or vice-president or secretary of state Joe.\n［解题思路］本句作为佐证指出：美国 [10] 有过名叫“Joe”的总统、副总统或国务卿（均属最高层政要）。与前两句“never made it to the top（从未登上顶层）”“a working class name（工人阶级名字）”一脉相承，此处句中无其他否定词，应填入自身表完全否定含义的副词 never（从未），故选[B]。\n［错项排除］[A] ever 意为“曾经；在任何时候”，本身不含否定意味，在无其他否定词的肯定陈述句中不能表“从未”，故排除；[C] either 作副词表“（用于否定句末）也”，前文并无否定词且位置不符，故排除；[D] neither 表“也不”，多用于承接前句的否定倒装结构（neither did...），不能置于助动词 has 与过去分词 had 之间否定单句，故排除。",
       "points": 0.5,
       "sort_order": 10,
       "answer": "B",
@@ -513,20 +513,20 @@
         {
           "key": "A",
           "value": "A",
-          "text": "modest",
-          "content": "modest"
+          "text": "disguised",
+          "content": "disguised"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "troubled",
-          "content": "troubled"
+          "text": "disturbed",
+          "content": "disturbed"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "glorious",
-          "content": "glorious"
+          "text": "disputed",
+          "content": "disputed"
         },
         {
           "key": "D",
@@ -536,7 +536,7 @@
         }
       ],
       "correct_answer": "D",
-      "explanation": "【命题解密】上下文语义与形容词辨析。本段转入大兵乔的辉煌征战史。后文指出他先后抗击过德军、日军和朝军，并在1945年电影中成为银幕经典。distinguished意为“卓越的，功勋卓著的”，distinguished career意为“战功显赫的职业生涯”，高度概括了其抗击法西斯的光辉历程，故选[D]。[A] modest意为“谦虚的；简朴的”；[B] troubled意为“充满麻烦的”；[C] glorious虽也有光荣之意，但在修饰career时distinguished为最为地道庄重的褒义搭配。",
+      "explanation": "［考点提炼］上下文语义与形容词辨析。\n［精准定位］G.I. Joe had a [11] career fighting German, Japanese, and Korean troops.\n［解题思路］第三段转入对“大兵乔”历史形象的正面颂扬，指出他曾与德军、日军及朝军作战，拥有一段 [11] 的军旅生涯，后被拍成经典电影并深受多国民众敬仰。distinguished 意为“卓越的；杰出的；战功显赫的”，与 career 搭配传神体现作者对其战功与贡献的高度褒奖，故选[D]。\n［错项排除］[A] disguised 意为“伪装的；隐蔽的”，与大兵乔公开英勇作战的事迹不符，故排除；[B] disturbed 意为“心神不安的；受到干扰的”，含贬义，与全文赞扬基调相悖，故排除；[C] disputed 意为“有争议的”，原文并未质疑其军旅生涯的功绩，故排除。",
       "points": 0.5,
       "sort_order": 11,
       "answer": "D",
@@ -554,30 +554,30 @@
         {
           "key": "A",
           "value": "A",
-          "text": "portion",
-          "content": "portion"
+          "text": "company",
+          "content": "company"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "blend",
-          "content": "blend"
+          "text": "community",
+          "content": "community"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "composite",
-          "content": "composite"
+          "text": "collection",
+          "content": "collection"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "collection",
-          "content": "collection"
+          "text": "colony",
+          "content": "colony"
         }
       ],
       "correct_answer": "C",
-      "explanation": "【命题解密】上下文语义与名词辨析。句子表述为“He appears as a character, or a [12] of American personalities...”。composite意为“集合体，综合体”，指由多种性格特质凝聚而成的一个综合艺术形象，完美契合电影角色将成千上万美军士兵特征熔铸为一体的语境，故选[C]。[A] portion意为“一部分”；[B] blend强调“混合物”；[D] collection强调“收集品，收藏集”。",
+      "explanation": "［考点提炼］固定搭配与抽象名词辨析。\n［精准定位］He appears as a character, or a [12] of American personalities, in the 1945 movie The Story of G.I. Joe...\n［解题思路］句意指出，在 1945 年电影《美国大兵乔的故事》中，G.I. Joe 作为一个角色出现，或者说是美国人性格特点的 [12]。结合上文“大兵乔泛指普通美军士兵，乔代表普通美国人”可知，该艺术形象汇聚了诸多普通美国人的性格特质。a collection of 意为“一批；集合”，a collection of American personalities 意为“美国人性格特点的集合”，契合语境，故选[C]。\n［错项排除］[A] company 表“陪伴”或“为某一目的聚在一起的一群人”，不能与抽象的“性格特点”搭配，故排除；[B] community 指“社区居民群”或“生物群落”，亦不与抽象性格特征搭配，故排除；[D] colony 指“（同地区）动植物群”或“殖民地”，侧重有生命的生物群体，与无生命的 personalities 无法搭配，故排除。",
       "points": 0.5,
       "sort_order": 12,
       "answer": "C",
@@ -595,20 +595,20 @@
         {
           "key": "A",
           "value": "A",
-          "text": "interrogated",
-          "content": "interrogated"
+          "text": "employed",
+          "content": "employed"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "interviewed",
-          "content": "interviewed"
+          "text": "appointed",
+          "content": "appointed"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "quoted",
-          "content": "quoted"
+          "text": "interviewed",
+          "content": "interviewed"
         },
         {
           "key": "D",
@@ -618,7 +618,7 @@
         }
       ],
       "correct_answer": "C",
-      "explanation": "【命题解密】上下文语义与动词辨析。厄尼·派尔是著名战地记者（war correspondent），他在战地采访士兵并在战地报道中引用他们的亲口言论。quoted意为“援引，引用（某人的话）”，Some of the soldiers Pyle quoted指“被派尔在报道中引用过话语的部分士兵在电影中本色出演了他们自己”，故选[C]。[A] interrogated（审问）用于审讯战俘；[B] interviewed指正式访谈；[D] questioned意为质问。",
+      "explanation": "［考点提炼］上下文语义与动词辨析。\n［精准定位］Some of the soldiers Pyle [13] portrayed themselves in the film.\n［解题思路］前句交代电影改编自著名战地记者厄尼·派尔（war correspondent Ernie Pyle）生命最后时光的经历；本句指出派尔 [13] 过的一些士兵在影片中本色出演了自己。基于战地记者（记者与一线官兵）的身份定位，“采访”是其核心报道方式，interviewed（采访）最能构建“采访—记录—改编电影”的连贯逻辑，故选[C]。\n［错项排除］[A] employed 意为“雇用”，战地记者并非士兵的雇主，逻辑不符，故排除；[B] appointed 意为“任命；委派”，记者无权任命军队士兵，故排除；[D] questioned 虽可译作“提问”，但语体侧重审讯、盘问或官方质询，不适用于记者与战地士兵之间的日常访谈场景，故排除。",
       "points": 0.5,
       "sort_order": 13,
       "answer": "C",
@@ -654,12 +654,12 @@
         {
           "key": "D",
           "value": "D",
-          "text": "strategic",
-          "content": "strategic"
+          "text": "ethical",
+          "content": "ethical"
         }
       ],
       "correct_answer": "A",
-      "explanation": "【命题解密】句内语义与形容词辨析。后文指出派尔专注于报道“满身泥泞与风雪的普通士兵（the dirt-snow-and-mud soldiers）”，而不是抽象的推进了多少英里或攻占了哪座城镇。这表明他关注的是战争中“人性化的一面/人的处境”，the human side of the war为固定修辞表达，故选[A] human。[B] military（军事的）、[C] political（政治的）、[D] strategic（战略的）恰恰是派尔所摒弃的宏大叙事。",
+      "explanation": "［考点提炼］句内对比语义与熟词僻义。\n［精准定位］Pyle was famous for covering the [14] side of the war, writing about the dirt-snow-and-mud soldiers...\n［解题思路］句中对比表明，派尔因报道战争 [14] 的一面而闻名：他笔下写的是满身泥尘风雪的普通士兵，而非推进了多少英里或攻占了哪些城镇等宏大战事。human 除“人的”外，在此语境下意为“有人情味的；关注普通人处境的”，the human side of the war 与具体的基层士兵形成完美照应，故选[A]。\n［错项排除］[B] military（军事的）恰恰对应后文否定成分中“行军英里数、攻占/解放城镇”等纯军事进展，与 not 所引导的对比逻辑相悖，故排除；[C] political（政治的）与 [D] ethical（伦理道德的）均属宏观或抽象层面议题，并非派尔聚焦微观一线士兵冷暖的写作重心，故排除。",
       "points": 0.5,
       "sort_order": 14,
       "answer": "A",
@@ -677,30 +677,30 @@
         {
           "key": "A",
           "value": "A",
-          "text": "traveled",
-          "content": "traveled"
+          "text": "ruined",
+          "content": "ruined"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "walked",
-          "content": "walked"
+          "text": "commuted",
+          "content": "commuted"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "marched",
-          "content": "marched"
+          "text": "patrolled",
+          "content": "patrolled"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "covered",
-          "content": "covered"
+          "text": "gained",
+          "content": "gained"
         }
       ],
       "correct_answer": "D",
-      "explanation": "［定位/考点］动宾习惯搭配与路程表达语态。\n［解题思路］空格位于 how many miles were [15] 宾语从句中，主语为具体的英里距离（miles）。在英文地道表达中，cover miles 常用于表示“走过、行进、跨越（某段距离）”，且自然支持被动语态（miles were covered），指“行军到底走过了多少英里”，故选［D］。\n［错项排除］［A］traveled（虽可及物但多以人为主动旅行主语）、［B］walked（步行，常规不直接用路程作被动表达）及［C］marched（行军）皆不契合 miles were ~ed 的自然习惯用法。",
+      "explanation": "［考点提炼］熟词僻义与动宾语义搭配。\n［精准定位］...not how many miles were [15] or what towns were captured or liberated.\n［解题思路］空格位于与 towns were captured or liberated 并列的分句中，主语为 how many miles（多少英里），共同说明宏观层面的军事战果进展。gain 除基本义“获得；增加”外，可作熟词僻义表“（军队等）向前推进（一段距离）”，可直接接长度单位（如 gain miles），变为被动语态 miles were gained 表示“战线推进了多少英里”，契合语境，故选[D]。\n［错项排除］[A] ruined（毁坏；破坏）不能以距离单位“英里”作为承受动作的逻辑宾语，语义不通，故排除；[B] commuted（通勤往返）常与 between/to/from 等地点介词连用描述日常生活上班，不接长度度量且不符战争语境，故排除；[C] patrolled（巡逻；巡查）需以“区域、道路、边境”而非纯距离“多少英里”作宾语（若表距离须为 miles of road were patrolled），且“巡逻”不体现前线推进战果，故排除。",
       "points": 0.5,
       "sort_order": 15,
       "answer": "D",
@@ -759,30 +759,30 @@
         {
           "key": "A",
           "value": "A",
-          "text": "endured",
-          "content": "endured"
+          "text": "neglected",
+          "content": "neglected"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "shared",
-          "content": "shared"
+          "text": "emphasized",
+          "content": "emphasized"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "reflected",
-          "content": "reflected"
+          "text": "avoided",
+          "content": "avoided"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "understood",
-          "content": "understood"
+          "text": "admired",
+          "content": "admired"
         }
       ],
       "correct_answer": "B",
-      "explanation": "［定位/考点］上下文语义与动宾情感共鸣搭配。\n［解题思路］句中指出两名战地创作人员（记者与画家）与前线官兵一道，“共同体会了（[17]）战争的肮脏与疲惫（the dirt and exhaustion of war）”。share 意为“分担、共同经历体会”，准确突出随军人员与普通士兵同甘共苦的在场感，故选［B］。\n［错项排除］［A］endured（忍受折磨）多强调苦难亲历主体本身被动熬过痛楚，且较难体现随行两人与士兵共同分担之感；［C］reflected（反映）与［D］understood（理解）皆停留在外部旁观认知层面。",
+      "explanation": "［考点提炼］上下文呼应与动词辨析。\n［精准定位］Both men [17] the dirt and exhaustion of war, the [18] of civilization that the soldiers shared...\n［解题思路］前两句先介绍战地记者派尔擅长刻画满身泥雪的士兵，接着指出其报道与著名漫画家比尔·莫尔丁的作品异曲同工（paralleled）；本句由此总结“两人（Both men）都 [17] 战争的肮脏与疲惫”。emphasized 意为“强调；着重表现”，准确呼应上文对真实战场艰辛细节的着力刻画，故选[B]。\n［错项排除］[A] neglected（忽视）和 [C] avoided（回避）均与上文派尔专注描写 dirt-snow-and-mud soldiers 的核心特点完全相反，故排除；[D] admired（钦佩；赞赏）作及物动词接“肮脏与疲惫（dirt and exhaustion）”，在语义情感上荒谬不通，作品刻画的是战争残酷而非赞美肮脏疲惫，故排除。",
       "points": 0.5,
       "sort_order": 17,
       "answer": "B",
@@ -800,30 +800,30 @@
         {
           "key": "A",
           "value": "A",
-          "text": "luxuries",
-          "content": "luxuries"
+          "text": "stages",
+          "content": "stages"
         },
         {
           "key": "B",
           "value": "B",
-          "text": "comforts",
-          "content": "comforts"
+          "text": "illusions",
+          "content": "illusions"
         },
         {
           "key": "C",
           "value": "C",
-          "text": "tokens",
-          "content": "tokens"
+          "text": "fragments",
+          "content": "fragments"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "relics",
-          "content": "relics"
+          "text": "advances",
+          "content": "advances"
         }
       ],
       "correct_answer": "C",
-      "explanation": "【命题解密】句内语义与名词辨析。后文冒号列出了具体的慰藉品：“coffee, tobacco, whiskey, shelter, sleep”。tokens of civilization意为“文明的标志/象征物”，在荒蛮残酷的战场上，咖啡、烟草和片刻的睡眠是士兵们与文明社会仅存的一丝微薄联系与象征，故选[C] tokens。[A] luxuries意为“奢侈品”；[B] comforts意为“安慰物”；[D] relics意为“遗迹，文物”。",
+      "explanation": "［考点提炼］句内语义与同位语列举概括。\n［精准定位］...the [18] of civilization that the soldiers shared with each other and the civilians: coffee, tobacco, whiskey, shelter, sleep.\n［解题思路］空格前出现并列宾语“战争的肮脏与疲惫”，后接冒号同位语列举“咖啡、烟草、威士忌、容身之所、片刻睡眠”。在残酷动荡的战火废墟中，这些零星微薄的日常物事正是文明生活遗落下来的吉光片羽与零碎点滴。fragments（碎片；零星片段）既概括了五类具体列举的共性，又以“文明残片”强化战时生活的匮乏与艰辛，故选[C]。\n［错项排除］[A] stages（时期；阶段）无法概括咖啡、住所与睡眠等具体物质/状态例举，故排除；[B] illusions（幻想；错觉）与后文列举的真实可感物品（咖啡、烟草、威士忌、住所、睡眠）性质矛盾，故排除；[D] advances（进步；进展）多指文明或科技的新近突破发展，无法概括“睡眠、遮蔽所”这类基本生存需求且偏离战时艰苦语境，故排除。",
       "points": 0.5,
       "sort_order": 18,
       "answer": "C",
@@ -841,8 +841,8 @@
         {
           "key": "A",
           "value": "A",
-          "text": "In",
-          "content": "In"
+          "text": "With",
+          "content": "With"
         },
         {
           "key": "B",
@@ -853,18 +853,18 @@
         {
           "key": "C",
           "value": "C",
-          "text": "From",
-          "content": "From"
+          "text": "Among",
+          "content": "Among"
         },
         {
           "key": "D",
           "value": "D",
-          "text": "For",
-          "content": "For"
+          "text": "Beyond",
+          "content": "Beyond"
         }
       ],
       "correct_answer": "B",
-      "explanation": "【命题解密】句内语义与介词辨析。句子后半部分表明了各国民众的感情归属：“G.I. Joe was any American soldier, [20] the most important person in their lives”。To sb意为“在某人看来；对某人而言”，用于引出持有特定评价或看法的主体，如To Egypt, France...意为“在埃及、法国等国民众的心目中”，大兵乔是生命中最重要的人，故选[B] To。[A] In强调在地理范围内；[C] From表示来源；[D] For表示“为了”。",
+      "explanation": "［考点提炼］句内逻辑与介词辨析。\n［精准定位］[19] Egypt, France, and a dozen more countries, G.I. Joe was any American soldier, [20] the most important person in their lives.\n［解题思路］句中代词 their 回指 Egypt, France, and a dozen more countries（的民众），指出大兵乔在战时是“他们生命中最重要的人”。这里需要一个介词引出持有某种观点、态度或情感归属的主体。To sb/some country 意为“对……而言；在……看来/心目中”，用于引出感受与评价主体，完美契合语境，故选[B]。\n［错项排除］[A] With 表态度时多接承受态度的对象（如 happy with sth），而不能直接置于句首引出持有看法的国家民众主体，故排除；[C] Among 意为“在……之中”，引出观点群体时常与 common、popular 等形容词连用，本句并无此类对应词且易产生歧义，故排除；[D] Beyond 意为“超出（范围）；除……之外”，不能引出感知“最重要之人”的情感主体，故排除。",
       "points": 0.5,
       "sort_order": 19,
       "answer": "B",

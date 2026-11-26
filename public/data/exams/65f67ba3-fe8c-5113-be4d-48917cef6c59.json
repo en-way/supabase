@@ -367,8 +367,8 @@
         {
           "key": "B",
           "value": "B",
-          "text": "Disappointed",
-          "content": "Disappointed"
+          "text": "Odd",
+          "content": "Odd"
         },
         {
           "key": "C",
@@ -384,7 +384,7 @@
         }
       ],
       "correct_answer": "A",
-      "explanation": "［考点提炼］固定短语与副词搭配。\n［解题思路］空格后紧接 enough，构成固定习惯表达 Sure enough，意为“果然、果不其然”，用于证实前文研究者的假设与预期。后文 firms' investment and R&D intensity were correlated with the happiness of the area... 证实了前文的推测，逻辑完全吻合。\n［错项排除］[B] Disappointed 意为“感到失望的”，不能与 enough 连用表副词逻辑；[C] Unfortunate 意为“不幸的”；[D] Often enough 虽有此短语但意为“经常、屡屡”，无法表达“证实预期”的逻辑语义。",
+      "explanation": "［考点提炼］固定短语与上下文逻辑衔接。\n［精准定位］[7] enough, firms' investment and R&D intensity were correlated with the happiness of the area...\n［解题思路］空格位于句首插入语“___ enough”，后文指出“企业的投资和研发力度确实与其所在地区的幸福感呈正相关”。前段刚提出检验地方幸福感是否影响企业投资的设想，此处研究数据证实了预期。Sure enough 为固定习惯搭配，意为“果然；果不其然”，精准呼应并证实前文预期，故选[A]。\n［错项排除］[B] Odd enough 意为“奇怪的是”，表达与常理或预期相反，与研究结果证实预期之义相悖，故排除；[C] Unfortunate（不幸的）既很少用作 Unfortunate enough 句首固定插入语（常为 Unfortunately），也与中性科研结论不符，故排除；[D] Often enough 意为“经常；屡屡”，无法表达“预期得到印证”的逻辑语义，故排除。",
       "points": 0.5,
       "sort_order": 7,
       "answer": "A",
