@@ -2710,9 +2710,9 @@ def main():
                 if not t4.get("content", "").endswith("state consumer data privacy legislation."):
                     round81_anomalies.append(('2024_ky2_t4_end', t4.get("content", "")[-50:]))
 
-                # Part B: 9 paras (1 title + 8 paras), 518 words, Extracurricular activities
+                # Part B: 14 blocks (1 title + 13 prose paras), 518 words, Extracurricular activities
                 pb_paras = [p.strip() for p in pb.get("content", "").split("\n\n") if p.strip()]
-                if len(pb_paras) != 9:
+                if len(pb_paras) != 14:
                     round81_anomalies.append(('2024_ky2_pb_paras', len(pb_paras)))
                 if not pb.get("content", "").startswith("How Colleges Weigh Applicants’ Extracurricular Activities") and not pb.get("content", "").startswith("How Colleges Weigh Applicants' Extracurricular Activities"):
                     round81_anomalies.append(('2024_ky2_pb_start', pb.get("content", "")[:50]))
@@ -6079,7 +6079,7 @@ def main():
     results["Assertion 100: 2023 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段281词理顺丝绸之路驿站驿舍、Text 1 恢复7段443词理顺德州气候教育争议与能源行业教材、Text 2 恢复9段464词理顺新英格兰短租监管与季节工人住房危机、Text 3 恢复7段412词理顺水石书店与企鹅兰登信用额度争议、Text 4 恢复6段360词理顺学术论文引用堆积作弊与Scopus审查算法、Part B 恢复8段594词彻底切除Directions并规范黄石公园150周年[A]-[H]8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round78_anomalies) == 0)
     results["Assertion 101: 2023 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复6段349词理顺增长团队与BitTorrent案例、Text 1 恢复6段318词理顺英国皇家园艺学会禁止人造草坪参展博弈、Text 2 恢复7段284词理顺美国国家公园220亿美元基建赤字与营地私有化争议、Text 3 恢复4段277词理顺认知卸载与互联网对人类记忆模式重塑、Text 4 恢复7段268词理顺青少年利他与叛逆并存的神经回报敏感性、Part B 恢复13段574词彻底切除Directions并规范净零建筑新规12段与5人多项对应、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/三层解析 100% 零差异对齐）"] = (len(round79_anomalies) == 0)
     results["Assertion 102: 2024 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段271词理顺自动门演化机制、Text 1 彻底治愈4段残缺恢复7段424词完整篇章理顺罗马钉子与低价技术变革、Text 2 治愈假造文本恢复7段417词理顺非洲狩猎采集者异亲养育与英国托儿所对比、Text 3 治愈假造文本恢复8段437词理顺鲁特科夫斯基与AI图像盗用、Text 4 治愈假造文本恢复5段426词理顺切萨皮克湾湿地与最高法院爱达荷裁决、Part B 恢复5段669词彻底剔除伪7选5段落恢复5人关于海外掠夺文物归还观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round80_anomalies) == 0)
-    results["Assertion 103: 2024 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段347词理顺社交生活平衡、Text 1 恢复8段398词理顺戴安娜·科伊尔《齿轮与怪物》经济包容性、Text 2 恢复5段394词理顺英国木材种植危机与建筑净零瓶颈、Text 3 恢复6段384词理顺高龄不安全驾驶员与适老汽车、Text 4 恢复5段419词理顺健康应用数据隐私立法、Part B 恢复9段518词彻底清除Directions与多余选项恢复大学申请课外活动5人观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round81_anomalies) == 0)
+    results["Assertion 103: 2024 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复4段347词理顺社交生活平衡、Text 1 恢复8段398词理顺戴安娜·科伊尔《齿轮与怪物》经济包容性、Text 2 恢复5段394词理顺英国木材种植危机与建筑净零瓶颈、Text 3 恢复6段384词理顺高龄不安全驾驶员与适老汽车、Text 4 恢复5段419词理顺健康应用数据隐私立法、Part B 恢复14段518词彻底清除Directions与多余选项恢复大学申请课外活动5人观点匹配、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round81_anomalies) == 0)
     results["Assertion 104: 2025 年英语一 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复3段289词理顺帕夫洛彼特里沉没水下古城发现史、Text 1 恢复7段388词理顺莎士比亚排练室教学法对儿童读写与情感培育、Text 2 恢复7段421词理顺超级计算碳足迹与气候模型绿色计算LUMI、Text 3 恢复6段417词理顺好莱坞流媒体大战与盗版网站侵蚀破坏、Text 4 恢复5段475词理顺实体文物与数字原生资产寿命及特殊馆藏维护、Part B 恢复8段572词彻底切除Directions并规范英国蝴蝶摄影8段排序、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round82_anomalies) == 0)
     results["Assertion 105: 2025 年英语二 Use of English + Text 1-4 + Part B 全卷黄金重构（完型恢复5段352词理顺求助心理学与自我同情、Text 1 恢复7段373词理顺美国小费文化演变与数字提示及小费蔓延、Text 2 恢复6段404词理顺英国国民医疗服务体系NHS改革与地方政府预防性卫生、Text 3 恢复6段403词理顺印度高温应对行动计划HAPs与资金短缺、Text 4 恢复6段410词理顺人类直觉与欲望路径Desire Paths及景观规划哲学、Part B 恢复8段565词彻底切除Directions并规范职场建言指南标题与[A]-[G]7项、治愈全卷45题question_number与score丢失缺陷、Q1-Q45 官方标准答案/题型/分值/标准选项结构 100% 零差异对齐）"] = (len(round83_anomalies) == 0)
     results["Assertion 106: 2001-2025 全库 41 套真题文章与选项全景法医级深度校对与标准化对齐（2010 完型恢复4段20空权威文本、2019 完形方括号补齐与破折号修复、2006/2011/2014/2022 英语一及 2011 英语二新题型试卷说明与错乱流程图剥离、2021 英语二 Q13 错位重构与 Q24/Q27/Q29 标准答案纠偏、2012 英语二 Q16 官方真题选项还原、全库 1,825 题选项结构 100% 具备 key/value/text/content 四键规范）"] = (len(round84_anomalies) == 0)
@@ -6314,6 +6314,74 @@ def main():
                 if ft in e:
                     round125_anomalies.append((fyr, qn, 'fake_cite', ft))
     results["Assertion 125: 英语二 2010-2025 深层溯源校验（11 篇合段真题原卷段落还原、720 题 0 处段号越界、0 处黏连英文词与伪造引文/错字）"] = (len(round125_anomalies) == 0)
+
+    round126_anomalies = []
+    banned_126 = [
+        "I would never base the purchase of a home on the opinions of children",
+        "training people to help plant them",
+        "following the path of least resistance",
+        "are unsure if their lessons can actually change people's behavior",
+        "a behavior that is easy to measure",
+        "not only rational argument but also emotional engagement",
+        "in recognition of a good job",
+        "only accounts for around 20 per cent of health outcomes",
+        "[B]curiously.CC]eagerly",
+        "引岀",
+        "theclock",
+        "可能会良久的话",
+        "与文意相；",
+        "之意相，故排除",
+        "影响”相。",
+        "）相。[C]",
+        "条件一结果",
+        "总一分",
+        "工作一生活",
+        "sacrifice‘spending",
+        "那意味着一_____",
+        "[B]because 因为",
+        "[B]make up for 补偿；弥补",
+    ]
+    for fpath in sorted(glob.glob(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'public', 'data', 'exams', '*.json'))):
+        with open(fpath, 'r', encoding='utf-8') as fp:
+            fdata = json.load(fp)
+        if fdata.get('exam', {}).get('category_id', '') != 'ky2':
+            continue
+        fyr = fdata.get('exam', {}).get('year', 0)
+        ps_list = fdata.get('passages', [])
+        qs_list = fdata.get('questions', [])
+        for p in ps_list:
+            if 'text' in p and p.get('text') != p.get('content'):
+                round126_anomalies.append((fyr, p.get('title'), 'stale_passage_text'))
+        if fyr == 2010:
+            if "learn from private industry" not in ps_list[3].get('content', ''):
+                round126_anomalies.append((2010, 'T3', 'missing_private'))
+        if fyr == 2024:
+            pb_paras_24 = [x for x in (ps_list[5].get('content') or '').split('\n\n') if x.strip()]
+            if len(pb_paras_24) != 14:
+                round126_anomalies.append((2024, 'PartB', 'para_count', len(pb_paras_24)))
+        for q in qs_list:
+            qn = q.get('question_number') or q.get('sort_order')
+            e = q.get('explanation') or ''
+            if 'analysis' in q and q.get('analysis') != e:
+                round126_anomalies.append((fyr, qn, 'stale_question_analysis'))
+            for b in banned_126:
+                if b in e:
+                    round126_anomalies.append((fyr, qn, 'banned_126', b))
+            if re.search(r'[A-Za-z]\n[A-Za-z]', e):
+                round126_anomalies.append((fyr, qn, 'mid_eng_newline'))
+            if fyr == 2012 and qn == 42 and ('定位至第四段' in e or 'Niccolo Machiavelli' in e):
+                round126_anomalies.append((2012, 42, 'para_or_accent'))
+            if fyr == 2012 and qn == 43 and '定位至第五段' in e:
+                round126_anomalies.append((2012, 43, 'para_43'))
+            if fyr == 2016 and qn == 41 and 'again, like children' not in e:
+                round126_anomalies.append((2016, 41, 'quote_omission'))
+            if fyr == 2021 and qn == 4 and ('correct or' in e and 'correct or true' not in e):
+                round126_anomalies.append((2021, 4, 'truncated_c'))
+            if fyr == 2021 and qn == 5 and '[C]mocked' not in e:
+                round126_anomalies.append((2021, 5, 'missing_c_mocked'))
+            if fyr == 2023 and qn == 27 and '第三段' in e:
+                round126_anomalies.append((2023, 27, 'wrong_para_3'))
+    results["Assertion 126: 英语二多 Agent 交叉终检固化（2010 T3/2024 Part B 原卷还原、2013/2017 冗余脏字段清零、720 题 0 处伪引文/段号偏移/漏字/两栏串行 OCR 瑕疵）"] = (len(round126_anomalies) == 0)
     
     print("\n=== 断言检查结果 ===")
     all_passed = True
